@@ -300,6 +300,8 @@ FreeBSD_MAINTAINER=	portmgr@FreeBSD.org
 #				  for compression.
 # USE_MAKESELF		- If set, this port distfile uses makeself, not tar w/[bg]zip
 #				  for compression.
+# USE_LZMA		- If set, this port tarballs uses lzma, not gzip, for
+#				  compression.
 # USE_DOS2UNIX	- If set to "YES", remove the ^M from all files
 #				  under ${WRKSRC}. If set to a string, remove in all
 #				  files under ${WRKSRC} with one of these names the ^Ms.
@@ -830,7 +832,8 @@ FreeBSD_MAINTAINER=	portmgr@FreeBSD.org
 #
 # EXTRACT_CMD	- Command for extracting archive: "bzip2" if USE_BZIP2
 #				  is set, "unzip" if USE_ZIP is set, "unmakeself" if
-#				  USE_MAKESELF if set, "gzip" otherwise.
+#				  USE_MAKESELF if set, "lzma" if USE_LZMA if set, "gzip"
+#				  otherwise.
 # EXTRACT_BEFORE_ARGS
 #				- Arguments to ${EXTRACT_CMD} before filename.
 #				  Default: "-dc"
@@ -1360,6 +1363,8 @@ EXTRACT_SUFX?=			.tar.bz2
 EXTRACT_SUFX?=			.zip
 .elif defined(USE_MAKESELF)
 EXTRACT_SUFX?=			.run
+.elif defined(USE_LZMA)
+EXTRACT_SUFX?=			.tar.lzma
 .else
 EXTRACT_SUFX?=			.tar.gz
 .endif
@@ -1690,6 +1695,9 @@ EXTRACT_DEPENDS+=	unzip:${PORTSDIR}/archivers/unzip
 .endif
 .if defined(USE_MAKESELF)
 EXTRACT_DEPENDS+=	unmakeself:${PORTSDIR}/archivers/unmakeself
+.endif
+.if defined(USE_LZMA)
+EXTRACT_DEPENDS=	lzma:${PORTSDIR}/archivers/lzmautils
 .endif
 .if defined(USE_GMAKE)
 BUILD_DEPENDS+=		gmake:${PORTSDIR}/devel/gmake
@@ -2230,6 +2238,8 @@ EXTRACT_AFTER_ARGS?=	| ${TAR} -xf - --no-same-owner
 .endif
 .if defined(USE_BZIP2)
 EXTRACT_CMD?=			${BZIP2_CMD}
+.elif defined(USE_LZMA)
+EXTRACT_CMD?=			${LZMA_CMD}
 .else
 EXTRACT_CMD?=			${GZIP_CMD}
 .endif

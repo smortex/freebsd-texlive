@@ -54,6 +54,7 @@ IDENT?=		/usr/bin/ident
 LDCONFIG?=	/sbin/ldconfig
 LN?=		/bin/ln
 LS?=		/bin/ls
+LZMA_CMD?=	${LOCALBASE}/bin/lzma
 MKDIR?=		/bin/mkdir -p
 MKTEMP?=	/usr/bin/mktemp
 MOUNT?=		/sbin/mount
