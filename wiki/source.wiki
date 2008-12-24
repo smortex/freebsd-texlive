@@ -46,12 +46,22 @@ As written before, this directory has a `tlpobj` sub-directory that contains met
 
 == Categories ==
 
-Distfiles are splitted in 5 categories:
- * Scheme (10 distfiles)
- * Collection (84 distfiles)
- * Packages (3618 distfiles)
- * Documentation (207 distfiles)
- * TLCore (1310 distfiles)
+Distfiles are split in 5 categories:
+ * _Scheme_ (10 distfiles)
+ * _Collection_ (84 distfiles)
+ * _Packages_ (3618 distfiles)
+ * _Documentation_ (207 distfiles)
+ * _TLCore_ (1310 distfiles)
 
 The relationships between these categories is represented bellow:
 http://freebsd-texlive.googlecode.com/svn/branches/doc/images/distfile-types.png
+
+As an example, the `svninfo` _Package_ is part of the `collection-latexextra` _Collection_, which is part of both `scheme-full` and `scheme-gutenberg` _Schemes_.
+
+== Distfiles Grouping ==
+
+Most (but not all) _Packages_, _Documentation_ and _TLCore_ distfiles can be grouped. For example:
+
+ * `svninfo.doc.tar.lzma` — _Documentation_ of the package;
+ * `svninfo.source.tar.lzma` — _Source_ of the package;
+ * `svninfo.tar.lzma` — _Macros_ of the package.
