@@ -339,6 +339,54 @@ lib/libkpathsea.la
 share/lcdf-typetools/7t.enc
 share/lcdf-typetools/glyphlist.txt
 share/lcdf-typetools/texglyphlist.txt
+share/texmf-dist/scripts/bengali/ebong.py
+share/texmf-dist/scripts/context/ruby/texmfstart.rb
+share/texmf-dist/scripts/context/stubs/unix/context
+share/texmf-dist/scripts/context/stubs/unix/ctxtools
+share/texmf-dist/scripts/context/stubs/unix/exatools
+share/texmf-dist/scripts/context/stubs/unix/luatools
+share/texmf-dist/scripts/context/stubs/unix/makempy
+share/texmf-dist/scripts/context/stubs/unix/mpstools
+share/texmf-dist/scripts/context/stubs/unix/mptopdf
+share/texmf-dist/scripts/context/stubs/unix/mtxrun
+share/texmf-dist/scripts/context/stubs/unix/mtxtools
+share/texmf-dist/scripts/context/stubs/unix/pdftools
+share/texmf-dist/scripts/context/stubs/unix/pdftrimwhite
+share/texmf-dist/scripts/context/stubs/unix/pstopdf
+share/texmf-dist/scripts/context/stubs/unix/rlxtools
+share/texmf-dist/scripts/context/stubs/unix/runtools
+share/texmf-dist/scripts/context/stubs/unix/texexec
+share/texmf-dist/scripts/context/stubs/unix/texfind
+share/texmf-dist/scripts/context/stubs/unix/texfont
+share/texmf-dist/scripts/context/stubs/unix/texshow
+share/texmf-dist/scripts/context/stubs/unix/textools
+share/texmf-dist/scripts/context/stubs/unix/texutil
+share/texmf-dist/scripts/context/stubs/unix/tmftools
+share/texmf-dist/scripts/context/stubs/unix/xmltools
+share/texmf-dist/scripts/dviasm/dviasm.py
+share/texmf-dist/scripts/epspdf/epspdf
+share/texmf-dist/scripts/epspdf/epspdftk
+share/texmf-dist/scripts/glossaries/makeglossaries
+share/texmf-dist/scripts/mkjobtexmf/mkjobtexmf.pl
+share/texmf-dist/scripts/oberdiek/pdfatfi.pl
+share/texmf-dist/scripts/pdfcrop/pdfcrop.pl
+share/texmf-dist/scripts/perltex/perltex.pl
+share/texmf-dist/scripts/ppower4/pdfthumb.texlua
+share/texmf-dist/scripts/ppower4/ppower4.texlua
+share/texmf-dist/scripts/pst-pdf/ps4pdf
+share/texmf-dist/scripts/pst2pdf/pst2pdf.pl
+share/texmf-dist/scripts/tex4ht/ht.sh
+share/texmf-dist/scripts/tex4ht/htcontext.sh
+share/texmf-dist/scripts/tex4ht/htlatex.sh
+share/texmf-dist/scripts/tex4ht/htmex.sh
+share/texmf-dist/scripts/tex4ht/httex.sh
+share/texmf-dist/scripts/tex4ht/httexi.sh
+share/texmf-dist/scripts/tex4ht/htxelatex.sh
+share/texmf-dist/scripts/tex4ht/htxetex.sh
+share/texmf-dist/scripts/tex4ht/mk4ht.pl
+share/texmf-dist/scripts/texcount/TeXcount.pl
+share/texmf-dist/scripts/thumbpdf/thumbpdf.pl
+share/texmf-dist/scripts/vpe/vpe.pl
 share/texmf/bibtex/csf/88591lat.csf
 share/texmf/bibtex/csf/88591sca.csf
 share/texmf/bibtex/csf/ascii.csf
@@ -367,6 +415,17 @@ share/texmf/dvips/gsftopk/render.ps
 share/texmf/fonts/map/dvipdfmx/cid-x.map
 share/texmf/fonts/map/glyphlist/glyphlist.txt
 share/texmf/fonts/map/glyphlist/pdfglyphlist.txt
+share/texmf/scripts/a2ping/a2ping.pl
+share/texmf/scripts/epstopdf/epstopdf.pl
+share/texmf/scripts/pkfix/pkfix.pl
+share/texmf/scripts/ps2eps/ps2eps.pl
+share/texmf/scripts/simpdftex/simpdftex
+share/texmf/scripts/tetex/e2pall.pl
+share/texmf/scripts/tetex/texdoctk.pl
+share/texmf/scripts/texlive/getnonfreefonts.pl
+share/texmf/scripts/texlive/rungs.tlu
+share/texmf/scripts/texlive/texdoc.tlu
+share/texmf/scripts/texlive/tlmgr.pl
 share/texmf/texconfig/README
 share/texmf/texconfig/g/generic
 share/texmf/texconfig/generic
@@ -386,95 +445,6 @@ share/texmf/xdvi/XDvi
 share/texmf/xdvi/pixmaps/toolbar.xpm
 share/texmf/xdvi/pixmaps/toolbar2.xpm
 share/texmf/xdvi/xdvi.cfg
-texmf-dist/scripts/bengali/ebong.py
-texmf-dist/scripts/context/ruby/texmfstart.rb
-texmf-dist/scripts/context/stubs/unix/context
-texmf-dist/scripts/context/stubs/unix/ctxtools
-texmf-dist/scripts/context/stubs/unix/exatools
-texmf-dist/scripts/context/stubs/unix/luatools
-texmf-dist/scripts/context/stubs/unix/makempy
-texmf-dist/scripts/context/stubs/unix/mpstools
-texmf-dist/scripts/context/stubs/unix/mptopdf
-texmf-dist/scripts/context/stubs/unix/mtxrun
-texmf-dist/scripts/context/stubs/unix/mtxtools
-texmf-dist/scripts/context/stubs/unix/pdftools
-texmf-dist/scripts/context/stubs/unix/pdftrimwhite
-texmf-dist/scripts/context/stubs/unix/pstopdf
-texmf-dist/scripts/context/stubs/unix/rlxtools
-texmf-dist/scripts/context/stubs/unix/runtools
-texmf-dist/scripts/context/stubs/unix/texexec
-texmf-dist/scripts/context/stubs/unix/texfind
-texmf-dist/scripts/context/stubs/unix/texfont
-texmf-dist/scripts/context/stubs/unix/texshow
-texmf-dist/scripts/context/stubs/unix/textools
-texmf-dist/scripts/context/stubs/unix/texutil
-texmf-dist/scripts/context/stubs/unix/tmftools
-texmf-dist/scripts/context/stubs/unix/xmltools
-texmf-dist/scripts/dviasm/dviasm.py
-texmf-dist/scripts/epspdf/epspdf
-texmf-dist/scripts/epspdf/epspdftk
-texmf-dist/scripts/glossaries/makeglossaries
-texmf-dist/scripts/mkjobtexmf/mkjobtexmf.pl
-texmf-dist/scripts/oberdiek/pdfatfi.pl
-texmf-dist/scripts/pdfcrop/pdfcrop.pl
-texmf-dist/scripts/perltex/perltex.pl
-texmf-dist/scripts/ppower4/pdfthumb.texlua
-texmf-dist/scripts/ppower4/ppower4.texlua
-texmf-dist/scripts/pst-pdf/ps4pdf
-texmf-dist/scripts/pst2pdf/pst2pdf.pl
-texmf-dist/scripts/tex4ht/ht.sh
-texmf-dist/scripts/tex4ht/htcontext.sh
-texmf-dist/scripts/tex4ht/htlatex.sh
-texmf-dist/scripts/tex4ht/htmex.sh
-texmf-dist/scripts/tex4ht/httex.sh
-texmf-dist/scripts/tex4ht/httexi.sh
-texmf-dist/scripts/tex4ht/htxelatex.sh
-texmf-dist/scripts/tex4ht/htxetex.sh
-texmf-dist/scripts/tex4ht/mk4ht.pl
-texmf-dist/scripts/texcount/TeXcount.pl
-texmf-dist/scripts/thumbpdf/thumbpdf.pl
-texmf-dist/scripts/vpe/vpe.pl
-texmf/scripts/a2ping/a2ping.pl
-texmf/scripts/epstopdf/epstopdf.pl
-texmf/scripts/pkfix/pkfix.pl
-texmf/scripts/ps2eps/ps2eps.pl
-texmf/scripts/simpdftex/simpdftex
-texmf/scripts/tetex/e2pall.pl
-texmf/scripts/tetex/texdoctk.pl
-texmf/scripts/texlive/getnonfreefonts.pl
-texmf/scripts/texlive/rungs.tlu
-texmf/scripts/texlive/texdoc.tlu
-texmf/scripts/texlive/tlmgr.pl
-@dirrm texmf/scripts/texlive
-@dirrm texmf/scripts/tetex
-@dirrm texmf/scripts/simpdftex
-@dirrm texmf/scripts/ps2eps
-@dirrm texmf/scripts/pkfix
-@dirrm texmf/scripts/epstopdf
-@dirrm texmf/scripts/a2ping
-@dirrm texmf/scripts
-@dirrm texmf-dist/scripts/vpe
-@dirrm texmf-dist/scripts/thumbpdf
-@dirrm texmf-dist/scripts/texcount
-@dirrm texmf-dist/scripts/tex4ht
-@dirrm texmf-dist/scripts/pst2pdf
-@dirrm texmf-dist/scripts/pst-pdf
-@dirrm texmf-dist/scripts/ppower4
-@dirrm texmf-dist/scripts/perltex
-@dirrm texmf-dist/scripts/pdfcrop
-@dirrm texmf-dist/scripts/oberdiek
-@dirrm texmf-dist/scripts/mkjobtexmf
-@dirrm texmf-dist/scripts/glossaries
-@dirrm texmf-dist/scripts/epspdf
-@dirrm texmf-dist/scripts/dviasm
-@dirrm texmf-dist/scripts/context/stubs/unix
-@dirrm texmf-dist/scripts/context/stubs
-@dirrm texmf-dist/scripts/context/ruby
-@dirrm texmf-dist/scripts/context
-@dirrm texmf-dist/scripts/bengali
-@dirrm texmf-dist/scripts
-@dirrm texmf-dist
-@dirrm texmf
 @dirrm share/texmf/xdvi/pixmaps
 @dirrm share/texmf/xdvi
 @dirrm share/texmf/web2c
@@ -482,6 +452,14 @@ texmf/scripts/texlive/tlmgr.pl
 @dirrm share/texmf/texconfig/v
 @dirrm share/texmf/texconfig/g
 @dirrm share/texmf/texconfig
+@dirrm share/texmf/scripts/texlive
+@dirrm share/texmf/scripts/tetex
+@dirrm share/texmf/scripts/simpdftex
+@dirrm share/texmf/scripts/ps2eps
+@dirrm share/texmf/scripts/pkfix
+@dirrm share/texmf/scripts/epstopdf
+@dirrm share/texmf/scripts/a2ping
+@dirrm share/texmf/scripts
 @dirrm share/texmf/fonts/map/glyphlist
 @dirrm share/texmf/fonts/map/dvipdfmx
 @dirrm share/texmf/fonts/map
@@ -495,6 +473,27 @@ texmf/scripts/texlive/tlmgr.pl
 @dirrm share/texmf/doc
 @dirrm share/texmf/bibtex/csf
 @dirrm share/texmf/bibtex
+@dirrm share/texmf-dist/scripts/vpe
+@dirrm share/texmf-dist/scripts/thumbpdf
+@dirrm share/texmf-dist/scripts/texcount
+@dirrm share/texmf-dist/scripts/tex4ht
+@dirrm share/texmf-dist/scripts/pst2pdf
+@dirrm share/texmf-dist/scripts/pst-pdf
+@dirrm share/texmf-dist/scripts/ppower4
+@dirrm share/texmf-dist/scripts/perltex
+@dirrm share/texmf-dist/scripts/pdfcrop
+@dirrm share/texmf-dist/scripts/oberdiek
+@dirrm share/texmf-dist/scripts/mkjobtexmf
+@dirrm share/texmf-dist/scripts/glossaries
+@dirrm share/texmf-dist/scripts/epspdf
+@dirrm share/texmf-dist/scripts/dviasm
+@dirrm share/texmf-dist/scripts/context/stubs/unix
+@dirrm share/texmf-dist/scripts/context/stubs
+@dirrm share/texmf-dist/scripts/context/ruby
+@dirrm share/texmf-dist/scripts/context
+@dirrm share/texmf-dist/scripts/bengali
+@dirrm share/texmf-dist/scripts
+@dirrm share/texmf-dist
 @dirrm share/texmf
 @dirrm share/lcdf-typetools
 @dirrm include/kpathsea
