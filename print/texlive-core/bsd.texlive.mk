@@ -7,7 +7,7 @@ DIST_SUBDIR=		TeXLive/${TEXLIVE_RELEASE}
 PKGNAMEPREFIX=		texlive-
 #DISTNAME=		${PORTNAME}
 
-RUN_DEPENDS+=		mktexlsr:${PORTSDIR}/print/texlive
+RUN_DEPENDS+=		mktexlsr:${PORTSDIR}/print/texlive-core
 
 DISTFILES=		${PORTNAME}${EXTRACT_SUFX}
 .if !defined(NOPORTDOCS)
