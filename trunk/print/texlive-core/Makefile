@@ -5,12 +5,12 @@
 # $FreeBSD$
 #
 
-PORTNAME=	texlive
+PORTNAME=	texlive-core
 PORTVERSION=	20080816
 CATEGORIES=	print
 MASTER_SITES=	${MASTER_SITE_TEX_CTAN}
 MASTER_SITE_SUBDIR=	systems/texlive/Source
-DISTNAME=	${PORTNAME}-${PORTVERSION}-source
+DISTNAME=	texlive-${PORTVERSION}-source
 
 MAINTAINER=	romain@blogreen.org
 COMMENT=	TeXLive (binaries)
