@@ -339,6 +339,7 @@ lib/libkpathsea.la
 share/lcdf-typetools/7t.enc
 share/lcdf-typetools/glyphlist.txt
 share/lcdf-typetools/texglyphlist.txt
+share/texmf-dist/ls-R
 share/texmf-dist/scripts/bengali/ebong.py
 share/texmf-dist/scripts/context/ruby/texmfstart.rb
 share/texmf-dist/scripts/context/stubs/unix/context
@@ -415,6 +416,7 @@ share/texmf/dvips/gsftopk/render.ps
 share/texmf/fonts/map/dvipdfmx/cid-x.map
 share/texmf/fonts/map/glyphlist/glyphlist.txt
 share/texmf/fonts/map/glyphlist/pdfglyphlist.txt
+share/texmf/ls-R
 share/texmf/scripts/a2ping/a2ping.pl
 share/texmf/scripts/epstopdf/epstopdf.pl
 share/texmf/scripts/pkfix/pkfix.pl

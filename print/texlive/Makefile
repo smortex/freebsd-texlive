@@ -85,5 +85,9 @@ post-extract:
 post-configure:
 	cd ${WRKSRC}/libs/zziplib && ./configure
 
+post-install:
+	@echo "Updating ls-R databases..."
+	@mktexlsr
+
 .include <bsd.port.pre.mk>
 .include <bsd.port.post.mk>
