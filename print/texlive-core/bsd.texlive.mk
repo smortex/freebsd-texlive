@@ -26,18 +26,19 @@ pre-install:
 	@${RM} -f ${PLIST}
 	@echo "Generating pkg-plist..."
 	@cd ${WRKDIR} && ( \
-		if [ -d texmf ]; then ${FIND} texmf -type f | sed -e 's|^|share/|'; fi ;\
-		if [ -d texmf-dist ]; then ${FIND} texmf-dist -type f | sed -e 's|^|share/|'; fi ;\
+		if [ -d texmf ]; then ${FIND} texmf -type f -exec '[' '!' '-e' "${PREFIX}/share/{}" ']' ';' -print ; fi ;\
+		if [ -d texmf-dist ]; then ${FIND} texmf-dist -type f -exec '[' '!' '-e' "${PREFIX}/share/{}" ']' ';' -print ; fi ;\
+	) | tee ${WRKDIR}/.install_files | sed -e 's|^|share/|' > ${PLIST}
+	@cd ${WRKDIR} && ( \
 		if [ -d texmf-dist ];then ${FIND} texmf-dist -type d | sort -r | sed -e 's|^|@dirrmtry share/|' ; fi ;\
 		if [ -d texmf ]; then ${FIND} texmf -type d | sort -r | sed -e 's|^|@dirrmtry share/|' ; fi ;\
-	) > ${PLIST}
+	) >> ${PLIST}
 	@echo "Fixing permissions..."
-	${CHMOD} -R =rw,+X ${WRKDIR}
-	${CHOWN} -R root:wheel ${WRKDIR}
+	@${CHMOD} -R =rw,+X ${WRKDIR}
+	@${CHOWN} -R root:wheel ${WRKDIR}
 
 do-install:
-	if [ -d ${WRKDIR}/texmf ]; then cp -a ${WRKDIR}/texmf ${PREFIX}/share; fi
-	if [ -d ${WRKDIR}/texmf-dist ]; then cp -a ${WRKDIR}/texmf-dist ${PREFIX}/share; fi
+	@cat ${WRKDIR}/.install_files | (cd ${WRKDIR} && cpio -pd --quiet ${PREFIX}/share )
 
 post-install:
 	@echo "Updating ls-R databases..."
