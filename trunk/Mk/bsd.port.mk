@@ -1,7 +1,7 @@
 #-*- mode: makefile; tab-width: 4; -*-
 # ex:ts=4
 #
-# $FreeBSD: ports/Mk/bsd.port.mk,v 1.604 2008/09/05 19:41:43 hrs Exp $
+# $FreeBSD: ports/Mk/bsd.port.mk,v 1.607 2009/01/11 22:51:05 pav Exp $
 #	$NetBSD: $
 #
 #	bsd.port.mk - 940820 Jordan K. Hubbard.
@@ -401,10 +401,10 @@ FreeBSD_MAINTAINER=	portmgr@FreeBSD.org
 # USE_OPENSSL	- If set, this port relies on the OpenSSL package.
 ##
 # USE_OPENLDAP	- If set, this port uses the OpenLDAP libraries.
-#				  Implies: WANT_OPENLDAP_VER?=23
+#				  Implies: WANT_OPENLDAP_VER?=24
 # WANT_OPENLDAP_VER
 #				- Legal values are: 23, 24
-#				  If set to an unkown value, the port is marked BROKEN.
+#				  If set to an unknown value, the port is marked BROKEN.
 # WANT_OPENLDAP_SASL
 #				- If set, the system should use OpenLDAP libraries
 #				  with SASL support.
@@ -769,6 +769,8 @@ FreeBSD_MAINTAINER=	portmgr@FreeBSD.org
 # config-recursive
 #				- Configure options for this port for this port and all dependencies.
 # showconfig	- Display options config for this port.
+# showconfig-recursive
+#				- Display options config for this port and all dependencies.
 # rmconfig		- Remove the options config for this port.
 # rmconfig-recursive
 #				- Remove the options config for this port and all dependencies.
@@ -1761,26 +1763,18 @@ SUB_FILES+=	${USE_RC_SUBR}
 .if defined(USE_RCORDER)
 SUB_FILES+=	${USE_RCORDER}
 .endif
-.if (${OSVERSION} >= 700007 || ( ${OSVERSION} < 700000 && ${OSVERSION} >= 600101 ))
+.if (${OSVERSION} >= 700007 || ${OSVERSION} < 700000)
 RC_SUBR_SUFFIX?=
 .else
 RC_SUBR_SUFFIX?=	.sh
 .endif
 .endif
 
-.if defined(USE_LDCONFIG) || defined(USE_LDCONFIG32)
-.if !defined(INSTALL_AS_USER) && ( ( ${OSVERSION} < 504105 ) || \
-		( ${OSVERSION} >= 700000 && ${OSVERSION} < 700012 ) || \
-		( ${OSVERSION} >= 600000 && ${OSVERSION} < 600104 ) )
-RUN_DEPENDS+=	${LOCALBASE}/${LDCONFIG_DIR}:${PORTSDIR}/misc/ldconfig_compat
-NO_LDCONFIG_MTREE=	yes
-.endif
 .if defined(USE_LDCONFIG) && ${USE_LDCONFIG:L} == "yes"
 USE_LDCONFIG=	${PREFIX}/lib
 .endif
 .if defined(USE_LDCONFIG32) && ${USE_LDCONFIG32:L} == "yes"
 IGNORE=			has USE_LDCONFIG32 set to yes, which is not correct
-.endif
 .endif
 
 .if defined(USE_ICONV)
@@ -2297,22 +2291,22 @@ SCRIPTS_ENV+=	${INSTALL_MACROS}
 COPYTREE_BIN=	${SH} -c '(${FIND} -d $$0 $$2 | ${CPIO} -dumpl $$1 >/dev/null \
 					2>&1) && \
 					${CHOWN} -R ${BINOWN}:${BINGRP} $$1 && \
-					${FIND} $$1 -type d -exec chmod 755 {} \; && \
-					${FIND} $$1 -type f -exec chmod ${BINMODE} {} \;' --
+					${FIND} -d $$0 $$2 -type d -exec chmod 755 $$1/{} \; && \
+					${FIND} -d $$0 $$2 -type f -exec chmod ${BINMODE} $$1/{} \;' --
 COPYTREE_SHARE=	${SH} -c '(${FIND} -d $$0 $$2 | ${CPIO} -dumpl $$1 >/dev/null \
 					2>&1) && \
 					${CHOWN} -R ${SHAREOWN}:${SHAREGRP} $$1 && \
-					${FIND} $$1/ -type d -exec chmod 755 {} \; && \
-					${FIND} $$1/ -type f -exec chmod ${SHAREMODE} {} \;' --
+					${FIND} -d $$0 $$2 -type d -exec chmod 755 $$1/{} \; && \
+					${FIND} -d $$0 $$2 -type f -exec chmod ${SHAREMODE} $$1/{} \;' --
 .else
 COPYTREE_BIN=	${SH} -c '(${FIND} -d $$0 $$2 | ${CPIO} -dumpl $$1 >/dev/null \
 					2>&1) && \
-					${FIND} $$1 -type d -exec chmod 755 {} \; && \
-					${FIND} $$1 -type f -exec chmod ${BINMODE} {} \;' --
+					${FIND} -d $$0 $$2 -type d -exec chmod 755 $$1/{} \; && \
+					${FIND} -d $$0 $$2 -type f -exec chmod ${BINMODE} $$1/{} \;' --
 COPYTREE_SHARE=	${SH} -c '(${FIND} -d $$0 $$2 | ${CPIO} -dumpl $$1 >/dev/null \
 					2>&1) && \
-					${FIND} $$1/ -type d -exec chmod 755 {} \; && \
-					${FIND} $$1/ -type f -exec chmod ${SHAREMODE} {} \;' --
+					${FIND} -d $$0 $$2 -type d -exec chmod 755 $$1/{} \; && \
+					${FIND} -d $$0 $$2 -type f -exec chmod ${SHAREMODE} $$1/{} \;' --
 .endif
 
 # The user can override the NO_PACKAGE by specifying this from
@@ -2338,10 +2332,7 @@ PORTDIRNAME?=	${_PORTDIRNAME}
 PKGORIGIN?=		${PKGCATEGORY}/${PORTDIRNAME}
 
 
-.if ((${OSVERSION} < 504105 || (${OSVERSION} >= 600000 && ${OSVERSION} < 600103) || (${OSVERSION} >= 700000 && ${OSVERSION} < 700012)) && ${PKGORIGIN} != "ports-mgmt/pkg_install") || exists(${LOCALBASE}/sbin/pkg_info)
-.if (${OSVERSION} < 504105 || (${OSVERSION} >= 600000 && ${OSVERSION} < 600103) || (${OSVERSION} >= 700000 && ${OSVERSION} < 700012)) && ${PKGORIGIN} != "ports-mgmt/pkg_install"
-EXTRACT_DEPENDS+=	${LOCALBASE}/sbin/pkg_info:${PORTSDIR}/ports-mgmt/pkg_install
-.endif
+.if exists(${LOCALBASE}/sbin/pkg_info)
 PKG_CMD?=		${LOCALBASE}/sbin/pkg_create
 PKG_ADD?=		${LOCALBASE}/sbin/pkg_add
 PKG_DELETE?=	${LOCALBASE}/sbin/pkg_delete
@@ -3176,9 +3167,9 @@ ignorelist:
 .if defined(IGNORE) || defined(NO_PACKAGE)
 ignorelist-verbose:
 .if defined(IGNORE)
-	@${ECHO_MSG} "${PKGNAME}|IGNORE: "${IGNORE:Q}
+	@${ECHO_CMD} "${PKGNAME}|IGNORE: "${IGNORE:Q}
 .else
-	@${ECHO_MSG} "${PKGNAME}|NO_PACKAGE: "${NO_PACKAGE:Q}
+	@${ECHO_CMD} "${PKGNAME}|NO_PACKAGE: "${NO_PACKAGE:Q}
 .endif
 .else
 ignorelist-verbose:
@@ -3244,7 +3235,7 @@ DEPENDS_ARGS+=	NOCLEANDEPENDS=yes
 # target or not.
 #
 ################################################################
-.if (!defined(OPTIONS) || defined(CONFIG_DONE) || \
+.if (!defined(OPTIONS) || defined(CONFIG_DONE_${UNIQUENAME:U}) || \
 	defined(PACKAGE_BUILDING) || defined(BATCH))
 _OPTIONS_OK=yes
 .endif
@@ -3540,17 +3531,20 @@ patch-dos2unix:
 .if ${USE_DOS2UNIX:U}=="YES"
 	@${ECHO_MSG} "===>   Converting DOS text files to UNIX text files"
 	@${FIND} -E ${WRKSRC} -type f -iregex '${DOS2UNIX_REGEX}' -print0 | \
-			${XARGS} -0 ${REINPLACE_CMD} -i '' -e 's/$$//'
+			${XARGS} -0 ${REINPLACE_CMD} -i '' -e 's/
+$$//'
 .else
 	@${ECHO_MSG} "===>   Converting DOS text file to UNIX text file: ${f}"
 .if ${USE_DOS2UNIX:M*/*}
 .for f in ${USE_DOS2UNIX}
-	@${REINPLACE_CMD} -i '' -e 's/$$//' ${WRKSRC}/${f}
+	@${REINPLACE_CMD} -i '' -e 's/
+$$//' ${WRKSRC}/${f}
 .endfor
 .else
 .for f in ${USE_DOS2UNIX}
 	@${FIND} ${WRKSRC} -type f -name '${f}' -print0 | \
-			${XARGS} -0 ${REINPLACE_CMD} -i '' -e 's/$$//'
+			${XARGS} -0 ${REINPLACE_CMD} -i '' -e 's/
+$$//'
 .endfor
 .endif
 .endif
@@ -4179,7 +4173,7 @@ fetch: ${_FETCH_DEP} ${_FETCH_SEQ}
 ${target}: ${${target:U}_COOKIE}
 .elif !target(${target})
 ${target}: config-conditional
-	@cd ${.CURDIR} && ${MAKE} CONFIG_DONE=1 ${__softMAKEFLAGS} ${${target:U}_COOKIE}
+	@cd ${.CURDIR} && ${MAKE} CONFIG_DONE_${UNIQUENAME:U}=1 ${__softMAKEFLAGS} ${${target:U}_COOKIE}
 .elif target(${target}) && defined(IGNORE)
 .endif
 
@@ -6003,6 +5997,14 @@ showconfig:
 	done
 	@${ECHO_MSG} "===> Use 'make config' to modify these settings"
 .endif
+.endif
+
+.if !target(showconfig-recursive)
+showconfig-recursive:
+	@${ECHO_MSG} "===> The following configuration options are available for ${PKGNAME} and dependencies";
+	@for dir in ${.CURDIR} $$(${ALL-DEPENDS-LIST}); do \
+		(cd $$dir; ${MAKE} showconfig); \
+	done
 .endif
 
 .if !target(rmconfig)
