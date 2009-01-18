@@ -38,7 +38,7 @@ pre-install:
 	@${CHOWN} -R root:wheel ${WRKDIR}
 
 do-install:
-	@cat ${WRKDIR}/.install_files | (cd ${WRKDIR} && cpio -pd --quiet ${PREFIX}/share )
+	@cat ${WRKDIR}/.install_files | tar cf - -C ${WRKDIR} -T - | tar xf - -p -C ${PREFIX}/share
 
 post-install:
 	@echo "Updating ls-R databases..."
