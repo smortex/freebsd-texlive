@@ -132,7 +132,7 @@ namespace TeXLive
 				makefile.WriteLine("NOPORTSRC=\tyes");
 			}
 			makefile.WriteLine();
-			makefile.WriteLine(".include \"${{.CURDIR}}/../../print/"+
+			makefile.WriteLine(".include \"${.CURDIR}/../../print/"+
 			                   "texlive-core/bsd.texlive.mk\"");
 			makefile.WriteLine(".include <bsd.port.mk>");
 			makefile.Close();
