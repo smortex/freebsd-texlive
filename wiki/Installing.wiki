@@ -1,0 +1,69 @@
+#summary How to install TeXLive on FreeBSD.
+
+= How to install TeXLive on FreeBSD =
+
+There are basically two ways for running TeXLive on FreeBSD:
+  * Use TeXLive ports from the FreeBSD-TeXLive repository;
+  * Build your own TeXLive ports.
+
+== Installing from the FreeBSD-TeXLive repository ==
+
+FreeBSD ports for all TeXLive packages are located in the `releng` branch of the repository. Install it using portshaker:
+
+{{{
+shell> svn co "http://bsd-sharp.googlecode.com/svn/branches/portshaker/"
+shell> cd portshaker
+shell> make DESTDIR="/usr/local"
+shell> make DESTDIR="/usr/local" install
+shell> cat << EOT > "/usr/local/etc/portshaker.conf"
+mirror_base_dir="/var/cache/portshaker"
+ports_trees="main"
+main_ports_tree="/usr/ports"
+main_merge_from="freebsd texlive-releng"
+EOT
+shell> portshaker -v
+}}}
+
+== Building your own TeXLive ports ==
+
+=== Checkout the FreeBSD-TeXLive repository ===
+
+{{{
+shell> svn co "http://bsd-sharp.googlecode.com/svn/branches/portshaker/"
+shell> cd portshaker
+shell> make DESTDIR="/usr/local"
+shell> make DESTDIR="/usr/local" install
+shell> cat << EOT > "/usr/local/etc/portshaker.conf"
+mirror_base_dir="/var/cache/portshaker"
+ports_trees="main"
+main_ports_tree="/usr/ports"
+main_merge_from="freebsd texlive"
+EOT
+shell> portshaker -v
+}}}
+
+=== Checkout the TeXLive tarballs ===
+
+{{{
+shell> ftp -a "<TeXLive mirror>"
+ftp> lcd "/usr/ports/distfiles/TeXLive/2008"
+ftp> cd "pub/TeX/CTAN/systems/texlive/tlnet/2008/archive"
+ftp> mget *
+ftp> bye
+}}}
+
+=== Extract all tarballs ===
+
+{{{
+shell> mkdir "$HOME/universe"
+shell> cd "$HOME/universe"
+shell> for f in /usr/ports/distfiles/TeXLive/2008/*; do lzma -cdk | tar -xf - ; done
+}}}
+
+=== Generate all TeXLive ports ===
+
+{{{
+shell> cd /usr/ports/Tools/tlport
+shell> make
+shell> make run TLPOBJDIR="$HOME/universe/tlpkg/tlpobj" PORTSDIR="/usr/ports"
+}}}
