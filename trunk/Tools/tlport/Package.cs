@@ -24,7 +24,7 @@
 
 using System;
 using System.Collections;
-
+using System.Diagnostics;
 
 namespace TeXLive
 {
@@ -54,6 +54,7 @@ namespace TeXLive
 			CreatePortDirectory();
 			CreateMakefile();
 			CreatePkgDescr();
+			CreateDistinfo();
 		}
 
 		/// <summary>
@@ -81,12 +82,9 @@ namespace TeXLive
 		/// </summary>
 		private void CreateMakefile()
 		{
-			System.IO.StreamWriter makefile =
-				new System.IO.StreamWriter(System.IO.Path.Combine(PortDirectory,
-				                                                  "Makefile"));
+			System.IO.StreamWriter makefile = new System.IO.StreamWriter(System.IO.Path.Combine(PortDirectory, "Makefile"));
 
-			makefile.WriteLine("# New ports collection makefile for:" +
-			                  "\ttexlive-{0}", name);
+			makefile.WriteLine("# New ports collection makefile for:\ttexlive-{0}", name);
 			makefile.WriteLine("# Date created:\t\t{0}", DateTime.Now);
 			makefile.WriteLine("# Whom:\t\t{0}", "romain@blogreen.org");
 			makefile.WriteLine("#");
@@ -116,24 +114,18 @@ namespace TeXLive
 				}
 
 				makefile.WriteLine();
-				makefile.WriteLine("RUN_DEPENDS=\t{0}",
-				                  string.Join(" \\\n\t\t", x));
+				makefile.WriteLine("RUN_DEPENDS=\t{0}", string.Join(" \\\n\t\t", x));
 			}
 			makefile.WriteLine();
 			makefile.WriteLine("LSE_LZMA=\tyes");
-			if (!System.IO.File.Exists(System.IO.Path.Combine(
-			                                       collection.TlpObjDir,
-			                                       name + ".doc.tlpobj"))) {
+			if (!System.IO.File.Exists(System.IO.Path.Combine(collection.TlpObjDir, name + ".doc.tlpobj"))) {
 				makefile.WriteLine("NOPORTDOCS=\tyes");
 			}
-			if (!System.IO.File.Exists(System.IO.Path.Combine(
-			                                       collection.TlpObjDir,
-			                                       name + ".sources.tlpobj"))) {
+			if (!System.IO.File.Exists(System.IO.Path.Combine( collection.TlpObjDir, name + ".sources.tlpobj"))) {
 				makefile.WriteLine("NOPORTSRC=\tyes");
 			}
 			makefile.WriteLine();
-			makefile.WriteLine(".include \"${.CURDIR}/../../print/"+
-			                   "texlive-core/bsd.texlive.mk\"");
+			makefile.WriteLine(".include \"${.CURDIR}/../../print/texlive-core/bsd.texlive.mk\"");
 			makefile.WriteLine(".include <bsd.port.mk>");
 			makefile.Close();
 		}
@@ -143,11 +135,23 @@ namespace TeXLive
 		/// </summary>
 		private void CreatePkgDescr()
 		{
-			System.IO.StreamWriter pkgdescr =
-				new System.IO.StreamWriter(System.IO.Path.Combine(PortDirectory,
-				                                                  "pkg-descr"));
+			System.IO.StreamWriter pkgdescr = new System.IO.StreamWriter(System.IO.Path.Combine(PortDirectory, "pkg-descr"));
 			pkgdescr.WriteLine(LongDescription);
 			pkgdescr.Close();
+		}
+
+		/// <summary>
+		/// Rely on port(1) to fetch the source tarball and build distinfo
+		/// </summary>
+		private void CreateDistinfo()
+		{
+			Process p = new Process();
+			ProcessStartInfo psi = new ProcessStartInfo("port", "fetch");
+			psi.UseShellExecute = true;
+			psi.WorkingDirectory = PortDirectory;
+			p.StartInfo = psi;
+			p.Start();
+			p.WaitForExit();
 		}
 
 		/// <summary>
@@ -159,9 +163,7 @@ namespace TeXLive
 		private void Detect(ArrayList dependencies)
 		{
 			if ((files.Count > 0) && (null != DetectFileName)) {
-				string s = string.Format("${{LOCALBASE}}/{0}:" +
-				                         "${{PORTSDIR}}/print/texlive-{1}",
-				                         DetectFileName, name);
+				string s = string.Format("${{LOCALBASE}}/{0}:${{PORTSDIR}}/print/texlive-{1}", DetectFileName, name);
 				if (dependencies.IndexOf(s) == -1) {
 					dependencies.Add(s);
 				}
@@ -205,8 +207,7 @@ namespace TeXLive
 					// Fallback on the first file listed in the archive that
 					// does not exist on the filesystem.
 					if (detect_file_name == null) {
-						Console.Error.WriteLine("Cannot be smart with {0}",
-						                        name);
+						Console.Error.WriteLine("Cannot be smart with {0}", name);
 						foreach (string file in files) {
 							if (!System.IO.File.Exists(file)) {
 								detect_file_name = file;
@@ -231,7 +232,7 @@ namespace TeXLive
 		/// Long description of the package
 		/// </summary>
 		public string LongDescription {
-			get { 
+			get {
 				if (null != long_description) {
 					return long_description.Trim();
 				} else {
@@ -272,8 +273,7 @@ namespace TeXLive
 		/// </sumary>
 		public string PortDirectory {
 			get {
-				return System.IO.Path.Combine(System.IO.Path.Combine(
-				              collection.PortsDir, "print"), "texlive-" + name);
+				return System.IO.Path.Combine(System.IO.Path.Combine(collection.PortsDir, "print"), "texlive-" + name);
 			}
 		}
 
@@ -323,10 +323,8 @@ namespace TeXLive
 			bin_depend = false;
 			collection = AllPackages;
 
-			string FileName = System.IO.Path.Combine(
-			                     collection.TlpObjDir, PackageName + ".tlpobj");
-			System.IO.StreamReader tlobj = new System.IO.StreamReader(FileName,
-			                                                          true);
+			string FileName = System.IO.Path.Combine(collection.TlpObjDir, PackageName + ".tlpobj");
+			System.IO.StreamReader tlobj = new System.IO.StreamReader(FileName, true);
 
 			// Read package information
 			string s;
@@ -356,15 +354,12 @@ namespace TeXLive
 						string dependency_name = s.Substring(7);
 						try {
 							if (!AllPackages.ContainsKey(dependency_name)) {
-								collection[dependency_name] =
-									new DataPackage(dependency_name,
-									                collection);
+								collection[dependency_name] = new DataPackage(dependency_name, collection);
 							}
 
 							depend.Add(dependency_name);
 						} catch (System.IO.FileNotFoundException) {
-							Console.Error.WriteLine("Cannot find package {0}!",
-							                        dependency_name);
+							Console.Error.WriteLine("Cannot find package {0}!", dependency_name);
 						}
 					}
 				}

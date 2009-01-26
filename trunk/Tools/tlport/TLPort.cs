@@ -32,42 +32,45 @@ using System.Collections.Generic;
 // utility checks the filesystem to determine if files will be installed when
 // installing the package are skipped because they are part of texlive-core.
 //
-// You will have to tweak the path information in the Main function bellow to
-// fit your system configuration.
+// You will have to specify path information at the command line. The first
+// argument is the location of a directory containing all .tlpobj files
+// provided in TeXLive tarballs, the second one is the location of the ports
+// tree where TeXLive ports are to be built.
 
 namespace TeXLive
 {
-	class TlPort
+	class TLPort
 	{
 
-		public static void Main(string[] args)
+		public static int Main(string[] args)
 		{
+			if (args.Length != 2) {
+				Console.Error.WriteLine("usage: tlport <tlpobjdir> <portsdir>");
+				return 1;
+			}
 
 			PackageCollection packages = new PackageCollection();
-			packages.TlpObjDir =
-				"/home/romain/Desktop/TeXLive/local/tlpkg/tlpobj";
-			packages.PortsDir = "/home/romain/Projects/freebsd-texlive";
+			packages.TlpObjDir = args[0];
+			packages.PortsDir  = args[1];
 
+			Console.Error.WriteLine("===> Building package list (this takes a while)");
 			// Read all scheme-*. They reference all collections, that in turn
 			// reference each package.
-			foreach (string s in System.IO.Directory.GetFiles(
-			                               packages.TlpObjDir, "scheme-*")) {
+			foreach (string s in System.IO.Directory.GetFiles(packages.TlpObjDir, "scheme-*")) {
 				System.IO.FileInfo fi = new System.IO.FileInfo(s);
 				string package_name = fi.Name.Split('.')[0];
 
-				packages[package_name] = 
-					new DataPackage(package_name, packages);
+				packages[package_name] = new DataPackage(package_name, packages);
 			}
-
 
 			foreach (Package pkg in packages.Values) {
 				if (pkg.Eligible) {
 					pkg.CreatePort();
 				} else {
-					Console.Error.WriteLine("{0}: not eligible for building "+
-					                        "a port.", pkg.Name);
+					Console.Error.WriteLine("{0}: not eligible for building a port.", pkg.Name);
 				}
 			}
+			return 0;
 		}
 	}
 }
