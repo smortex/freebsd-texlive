@@ -1,0 +1,14 @@
+
+$FreeBSD$
+
+--- utils/psutils/Makefile.in.orig
++++ utils/psutils/Makefile.in
+@@ -195,7 +195,7 @@
+ 
+ install-exec: installdirs
+ 	for p in $(BIN); do $(INSTALL_PROGRAM) $$p $(bindir)/$$p; done
+-	for p in $(SHELLSCRIPTS) $(PERLSCRIPTS); do $(INSTALL_PROGRAM) $$p $(scriptdir)/$$p; done
++	for p in $(SHELLSCRIPTS) $(PERLSCRIPTS); do $(INSTALL) $$p $(scriptdir)/$$p; done
+ 
+ install-man: installdirs
+ 	for p in $(MANPAGES); do $(INSTALL_DATA) $$p $(man1dir)/$$p; done
