@@ -62,6 +62,13 @@ shell> cd "$HOME/universe"
 shell> for f in /usr/ports/distfiles/TeXLive/2008/*; do lzma -cdk | tar -xf - ; done
 }}}
 
+=== Install texlive-core ===
+
+{{{
+shell> cd /usr/ports/print/texlive-core
+shell> make install clean
+}}}
+
 === Generate all TeXLive ports ===
 
 {{{
