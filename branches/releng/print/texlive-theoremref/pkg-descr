@@ -1,0 +1,6 @@
+The theoremref package provides variants of the \label and \ref
+commands for theorem-like environments, capable of
+automatically typesetting references including the theorem name
+(apart from the theorem number). The scheme is particularly
+valuable if the author decides to change a lemma to a
+proposition or a theorem (or whatever).

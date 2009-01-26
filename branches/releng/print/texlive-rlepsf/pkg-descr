@@ -1,0 +1,8 @@
+A macro package for use with epsf.tex which allows PostScript
+labels in an Encapsulated PostScript file to be replaced by TeX
+labels. The package provides commands \relabel (simply replace
+a PostScript string), \adjustrelabel (replace a PostScript
+string, with position adjustment), and \extralabel (add a label
+at given coordinates). You can, if you so choose, use the
+facilities of the labelfig package in place of using
+\extralabel.

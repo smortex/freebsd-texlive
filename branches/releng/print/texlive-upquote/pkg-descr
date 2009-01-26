@@ -1,0 +1,10 @@
+Computer Modern Typewriter is the best font for program
+listings, but it prints ` and ' as bent opening and closing
+single quotes. Other fonts, and most programming languages,
+print ` as a grave accent and ' upright; ' is used both to open
+and to close quoted strings. This package switches the
+typewriter font to Computer Modern Typewriter (regardless of
+other fonts in use, so long as this package is called
+afterward) and modifies the behavior of verbatim, verbatim*,
+verb, and verb* to print ` and ' the desired way. The package
+does not affect \tt, \texttt, etc.

@@ -1,0 +1,8 @@
+The package gives LaTeX the power to retain mathematical
+meaning of its expressions in addition to the typsetting
+instructions; essentially separating style from the content of
+the math. One advantage of keeping mathematical meaning is that
+conversion of LaTeX documents to other executable formats (such
+as Content MathML or Mathematica code) is greatly simplified.
+The package requires the coolstr, coollist and forloop
+packages.

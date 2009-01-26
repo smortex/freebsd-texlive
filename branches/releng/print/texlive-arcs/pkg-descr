@@ -1,0 +1,4 @@
+The package provides two commands for placing an arc over
+(\overarc) or under (\underarc) a piece of text. (The text may
+be up to three letters long.) The commands generate an \hbox,
+and may be used both in text and in maths formulae.

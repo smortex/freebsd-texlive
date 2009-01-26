@@ -1,0 +1,5 @@
+A dvi driver for the LaserJet printers, using kpathsea
+recursive file searching. Note: this program will not compile
+simply with the sources in this distribution; it needs a full
+(current) kpathsea distribution environment, such as is
+available from the TeX-Live source tree.

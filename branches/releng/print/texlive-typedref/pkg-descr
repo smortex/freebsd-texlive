@@ -1,0 +1,8 @@
+The package replaces \ref with \figureref, \sectionref, \eqref,
+etc., so that you're forced to specify the kind of label
+you’re referencing. Each reference command also generates
+appropriate text automatically, so that instead of typing
+Figure~\ref{figure:key}, all you need is
+\figureref{figure:key}. The \label command is redefined to
+record the type with the label defined, so that each type of
+label has its own namespace.

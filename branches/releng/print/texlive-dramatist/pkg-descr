@@ -1,0 +1,6 @@
+This package is intended for typesetting drama of any length.
+It provides two environments for typesetting dialogues in prose
+or in verse; new document divisions corresponding to acts and
+scenes; macros that control the appearance of characters and
+stage directions; and automatic generation of a `dramatis
+personae' list.

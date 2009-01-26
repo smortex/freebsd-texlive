@@ -1,0 +1,9 @@
+Latexmk completely automates the process of generating a LaTeX
+document. Given the source files for a document, latexmk issues
+the appropriate sequence of commands to generate a .dvi, .ps,
+.pdf or hardcopy version of the document. An important feature
+is the “preview continuous mode”, where the script watches
+all of the source files (primary file and included TeX and
+graphics files), and reruns LaTeX, etc., whenever a source file
+has changed. Thus a previewer can have an updated display
+whenever the source files change.

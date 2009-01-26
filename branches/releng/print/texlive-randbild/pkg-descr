@@ -1,0 +1,4 @@
+Provides environments randbild, to draw small marginal plots
+(using the package pstricks package pst-plot), and
+randbildbasis (the same, only without the automatically drawn
+coordinate system).

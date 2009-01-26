@@ -1,0 +1,5 @@
+The bundle contains: – a collection of support macros,
+offering general support, support for various areas of maths,
+and for typesetting of units, – a letter and envelope class,
+– an outlining package, and – a package that enables all of
+Plain TeX usage under LaTeX.

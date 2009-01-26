@@ -1,0 +1,8 @@
+Apacite is a BibTeX style which closely follows American
+Psychological Association style citations, providing a very
+good match. The package follows the the 5th edition of the APA
+manual, and provides up to date documentation and a test
+document. The package is compatible with chapterbib and (to
+some extent) with hyperref (for limits of compatibility, see
+the manual). The package also includes a means of generating an
+author index for a document.
