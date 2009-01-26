@@ -59,7 +59,7 @@ ftp> bye
 {{{
 shell> mkdir "$HOME/universe"
 shell> cd "$HOME/universe"
-shell> for f in /usr/ports/distfiles/TeXLive/2008/*; do lzma -cdk | tar -xf - ; done
+shell> for f in /usr/ports/distfiles/TeXLive/2008/*; do lzma -cdk $f | tar -xf - ; done
 }}}
 
 === Install texlive-core ===
