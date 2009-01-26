@@ -1,7 +1,7 @@
 #-*- mode: makefile; tab-width: 4; -*-
 # ex:ts=4
 #
-# $FreeBSD: ports/Mk/bsd.port.mk,v 1.607 2009/01/11 22:51:05 pav Exp $
+# $FreeBSD: ports/Mk/bsd.port.mk,v 1.608 2009/01/17 18:44:15 skv Exp $
 #	$NetBSD: $
 #
 #	bsd.port.mk - 940820 Jordan K. Hubbard.
@@ -1412,8 +1412,8 @@ PKGCOMPATDIR?=		${LOCALBASE}/lib/compat/pkg
 # to set one of the conditionals that force the inclusion of bsd.perl.mk
 .if !defined(_PERL_REFACTORING_COMPLETE)
 
-PERL_VERSION?=	5.8.8
-PERL_VER?=	5.8.8
+PERL_VERSION?=	5.8.9
+PERL_VER?=	5.8.9
 
 .if !defined(PERL_LEVEL) && defined(PERL_VERSION)
 perl_major=		${PERL_VERSION:C|^([1-9]+).*|\1|}
