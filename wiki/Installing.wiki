@@ -15,6 +15,7 @@ shell> svn co "http://bsd-sharp.googlecode.com/svn/branches/portshaker/"
 shell> cd portshaker
 shell> make DESTDIR="/usr/local"
 shell> make DESTDIR="/usr/local" install
+shell> make -C examples DESTDIR="/usr/local" install
 shell> cat << EOT > "/usr/local/etc/portshaker.conf"
 mirror_base_dir="/var/cache/portshaker"
 ports_trees="main"
@@ -33,6 +34,7 @@ shell> svn co "http://bsd-sharp.googlecode.com/svn/branches/portshaker/"
 shell> cd portshaker
 shell> make DESTDIR="/usr/local"
 shell> make DESTDIR="/usr/local" install
+shell> make -C examples DESTDIR="/usr/local" install
 shell> cat << EOT > "/usr/local/etc/portshaker.conf"
 mirror_base_dir="/var/cache/portshaker"
 ports_trees="main"
