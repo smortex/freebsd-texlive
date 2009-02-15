@@ -1,7 +1,7 @@
 #-*- mode: makefile; tab-width: 4; -*-
 # ex:ts=4
 #
-# $FreeBSD: ports/Mk/bsd.port.mk,v 1.608 2009/01/17 18:44:15 skv Exp $
+# $FreeBSD: ports/Mk/bsd.port.mk,v 1.610 2009/02/01 19:43:09 skv Exp $
 #	$NetBSD: $
 #
 #	bsd.port.mk - 940820 Jordan K. Hubbard.
@@ -1378,7 +1378,7 @@ FILESDIR?=		${MASTERDIR}/files
 SCRIPTDIR?=		${MASTERDIR}/scripts
 PKGDIR?=		${MASTERDIR}
 
-.if defined(USE_IMAKE) && !defined(USE_X_PREFIX)
+.if defined(USE_IMAKE) && !defined(USE_X_PREFIX) && !defined(USE_XORG)
 USE_X_PREFIX=	yes
 .endif
 .if defined(USE_X_PREFIX) && ${USE_X_PREFIX} == "no"
@@ -1436,7 +1436,7 @@ PERL_ARCH?=		mach
 .if ${PERL_LEVEL} >= 500800
 PERL_PORT?=	perl5.8
 .else
-PERL_PORT?=	perl5
+PERL_PORT?=	perl5.6
 .endif
 
 SITE_PERL_REL?=	lib/perl5/site_perl/${PERL_VER}
@@ -1885,7 +1885,7 @@ PLIST_SUB+=			XAWVER=${XAWVER}
 _GL_gl_LIB_DEPENDS=		GL.1:${PORTSDIR}/graphics/libGL
 _GL_glu_LIB_DEPENDS=		GLU.1:${PORTSDIR}/graphics/libGLU
 _GL_glw_LIB_DEPENDS=		GLw.1:${PORTSDIR}/graphics/libGLw
-_GL_glut_LIB_DEPENDS=		glut.4:${PORTSDIR}/graphics/libglut
+_GL_glut_LIB_DEPENDS=		glut.3:${PORTSDIR}/graphics/libglut
 _GL_linux_RUN_DEPENDS=		${LINUXBASE}/usr/X11R6/lib/libGL.so.1:${PORTSDIR}/graphics/linux_dri
 
 .if defined(USE_GL)
