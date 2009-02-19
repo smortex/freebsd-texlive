@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	tex4ht
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

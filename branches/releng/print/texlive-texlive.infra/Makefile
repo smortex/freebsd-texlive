@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	texlive.infra
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

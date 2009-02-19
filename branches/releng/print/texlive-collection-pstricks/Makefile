@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-pstricks
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 
