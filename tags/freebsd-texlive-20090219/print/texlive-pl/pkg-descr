@@ -1,0 +1,5 @@
+Instead of having to transform the common source into program
+or documentation, the central idea was to develop a method to
+have one common source which can be interpreted by a Prolog
+system as well as by LaTeX, whether that Prolog system be C-
+Prolog, Quintus-Prolog, or ECLiPSe.

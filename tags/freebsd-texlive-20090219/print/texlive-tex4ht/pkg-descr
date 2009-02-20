@@ -1,0 +1,12 @@
+A converter from TeX and LaTeX to SGML-based formats such as
+(X)HTML, MathML, OpenDocument, and DocBook, providing a
+configurable (La)TeX-based authoring system for hypertext.
+TeX4ht is released once a year; fixes for problems (and new
+extensions) may be found on the package bugfixes page. Tex4ht
+does not parse (La)TeX source (so that it avoids the
+difficulties encountered by many other converters, arising from
+the irregularity of (La)TeX syntax). Instead, Tex4ht uses
+(La)TeX itself (with an extra macro package) to produce a non-
+standard DVI file that it can then process. This technique
+gives TeX4ht the robustness characteristic of restricted-syntax
+systems such as hyperlatex and gellmu.

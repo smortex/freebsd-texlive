@@ -1,0 +1,6 @@
+Active-conf is a class for typesetting papers for the Active
+conference on noise and vibration control. It is initially
+intended for the 2006 conference in Adelaide, Australia. The
+class is based on article with more flexible front-matter, and
+can be customised for conferences in future years with a header
+file.

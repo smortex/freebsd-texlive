@@ -1,0 +1,9 @@
+The expl3 bundle provides the foundation on which the LaTeX3
+kernel and other advanced extensions are built, as a set of
+packages that work with LaTeX 2e. They provide an API for TeX
+programmers. Each module is set up in such a way that it can be
+used with regular LaTeX 2e packages even though the coding
+style is somewhat different. All files are also available in
+the Subversion (SVN) repository of the LaTeX3 Project. The
+bundle on CTAN is a snapshot of the SVN repository as of
+2008/08/01.

@@ -1,0 +1,5 @@
+The package can be used to construct dichotomous identification
+keys (used especially in biology for species identification),
+taking care of numbering and indentation of successive key
+steps automatically. An example file is provided, which
+demonstrates usage.

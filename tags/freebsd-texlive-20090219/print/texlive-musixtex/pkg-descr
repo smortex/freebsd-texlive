@@ -1,0 +1,14 @@
+MusiXTeX is a set of macros, based on the earlier MusicTeX, for
+typesetting music with TeX. MusicTeX demonstrated that TeX
+alone cannot practically typeset good-looking ties and slurs;
+MusiXTeX therefore works with a separate processor (musixflx)
+to generate the slurs. As a result, MusixTeX is a three-pass
+system: TeX, musixflx, and TeX again. This version of MusixTeX
+builds upon work by Andreas Egler, whose own version is no
+longer being developed. Raw MusiXTeX macros are universally
+acknowledged to be tricky to write: most users employ the pmx
+preprocessor, which takes much of the strain. However, no-one
+would claim that even pmx could serve as a ‘composer's
+workbench’ — among free software offerings, the composer is
+probably best served by lilypond, and there are several good
+(and very expensive) commercial packages.
