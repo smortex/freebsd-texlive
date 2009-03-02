@@ -1,7 +1,7 @@
 #-*- mode: makefile; tab-width: 4; -*-
 # ex:ts=4
 #
-# $FreeBSD: ports/Mk/bsd.port.mk,v 1.610 2009/02/01 19:43:09 skv Exp $
+# $FreeBSD: ports/Mk/bsd.port.mk,v 1.611 2009/02/23 12:53:48 blackend Exp $
 #	$NetBSD: $
 #
 #	bsd.port.mk - 940820 Jordan K. Hubbard.
@@ -2798,7 +2798,7 @@ check-categories:
 
 VALID_CATEGORIES+= accessibility afterstep arabic archivers astro audio \
 	benchmarks biology cad chinese comms converters databases \
-	deskutils devel dns editors elisp emulators finance french ftp \
+	deskutils devel docs dns editors elisp emulators finance french ftp \
 	games geography german gnome gnustep graphics hamradio haskell hebrew hungarian \
 	ipv6 irc japanese java kde kld korean lang linux lisp \
 	mail math mbone misc multimedia net net-im net-mgmt net-p2p news \
@@ -3531,20 +3531,17 @@ patch-dos2unix:
 .if ${USE_DOS2UNIX:U}=="YES"
 	@${ECHO_MSG} "===>   Converting DOS text files to UNIX text files"
 	@${FIND} -E ${WRKSRC} -type f -iregex '${DOS2UNIX_REGEX}' -print0 | \
-			${XARGS} -0 ${REINPLACE_CMD} -i '' -e 's/
-$$//'
+			${XARGS} -0 ${REINPLACE_CMD} -i '' -e 's/$$//'
 .else
 	@${ECHO_MSG} "===>   Converting DOS text file to UNIX text file: ${f}"
 .if ${USE_DOS2UNIX:M*/*}
 .for f in ${USE_DOS2UNIX}
-	@${REINPLACE_CMD} -i '' -e 's/
-$$//' ${WRKSRC}/${f}
+	@${REINPLACE_CMD} -i '' -e 's/$$//' ${WRKSRC}/${f}
 .endfor
 .else
 .for f in ${USE_DOS2UNIX}
 	@${FIND} ${WRKSRC} -type f -name '${f}' -print0 | \
-			${XARGS} -0 ${REINPLACE_CMD} -i '' -e 's/
-$$//'
+			${XARGS} -0 ${REINPLACE_CMD} -i '' -e 's/$$//'
 .endfor
 .endif
 .endif
