@@ -1,7 +1,7 @@
 #-*- mode: makefile; tab-width: 4; -*-
 # ex:ts=4
 #
-# $FreeBSD: ports/Mk/bsd.port.mk,v 1.611 2009/02/23 12:53:48 blackend Exp $
+# $FreeBSD: ports/Mk/bsd.port.mk,v 1.616 2009/03/28 20:45:06 skv Exp $
 #	$NetBSD: $
 #
 #	bsd.port.mk - 940820 Jordan K. Hubbard.
@@ -329,7 +329,6 @@ FreeBSD_MAINTAINER=	portmgr@FreeBSD.org
 #				  installed from a port, but without the version number.
 #				  Use this if you need to replace "#!" lines in scripts.
 # PERL_VERSION	- Full version of perl5 (see below for current value).
-# PERL_VER		- Short version of perl5 (see below for current value).
 # PERL_LEVEL	- Perl version as an integer of the form MNNNPP, where
 #				  M is major version, N is minor version, and P is
 #				  the patch level. E.g., PERL_VERSION=5.6.1 would give
@@ -493,6 +492,10 @@ FreeBSD_MAINTAINER=	portmgr@FreeBSD.org
 #				  RPM ports.
 #				  Implies inclusion of bsd.linux-rpm.mk.
 #
+# LINUX_OSRELEASE	- Contains the value of compat.linux.osrelease sysctl.
+#				  Will be used to distinguish which linux
+#				  infrastructure ports should be used.
+#				  Valid values: 2.4.2, 2.6.16.
 # AUTOMATIC_PLIST
 #				- Set to yes to enable automatic packing list generation.
 #				  Currently has no effect unless USE_LINUX_RPM is set.
@@ -834,8 +837,7 @@ FreeBSD_MAINTAINER=	portmgr@FreeBSD.org
 #
 # EXTRACT_CMD	- Command for extracting archive: "bzip2" if USE_BZIP2
 #				  is set, "unzip" if USE_ZIP is set, "unmakeself" if
-#				  USE_MAKESELF if set, "lzma" if USE_LZMA if set, "gzip"
-#				  otherwise.
+#				  USE_MAKESELF if set, "gzip" otherwise.
 # EXTRACT_BEFORE_ARGS
 #				- Arguments to ${EXTRACT_CMD} before filename.
 #				  Default: "-dc"
@@ -920,6 +922,21 @@ FreeBSD_MAINTAINER=	portmgr@FreeBSD.org
 #				  Default: see below
 # MAKE_ARGS		- Any extra arguments to sub-make in build and install stages.
 #				  Default: none
+##
+# MAKE_JOBS_SAFE
+#				- This port can safely be built on multiple cpus in parallel.
+#				  The make will be invoked with -jX parameter where X equals
+#				  number of cores present in the system.
+# MAKE_JOBS_UNSAFE
+#				- Disallow multiple jobs even when user set a global override.
+#				  To be used with known bad ports.
+# DISABLE_MAKE_JOBS
+#				- Set to disable the multiple jobs feature.  User settable.
+# FORCE_MAKE_JOBS
+#				- Force all ports to be built with multiple jobs, except ports
+#				  that are explicitly marked MAKE_JOBS_UNSAFE.  User settable.
+# MAKE_JOBS_NUMBER
+#				- Override the number of make jobs to be used.  User settable.
 #
 # For install:
 #
@@ -1342,6 +1359,10 @@ ETCDIR?=		${PREFIX}/etc/${PORTNAME}
 .include "${PORTSDIR}/Mk/bsd.linux-rpm.mk"
 .endif
 
+.if defined(USE_LINUX_APPS)
+.include "${PORTSDIR}/Mk/bsd.linux-apps.mk"
+.endif
+
 .if defined(X_WINDOW_SYSTEM) && ${X_WINDOW_SYSTEM:L} != "xorg"
 IGNORE=		cannot be installed: bad X_WINDOW_SYSTEM setting; valid value is 'xorg'
 .endif
@@ -1413,7 +1434,6 @@ PKGCOMPATDIR?=		${LOCALBASE}/lib/compat/pkg
 .if !defined(_PERL_REFACTORING_COMPLETE)
 
 PERL_VERSION?=	5.8.9
-PERL_VER?=	5.8.9
 
 .if !defined(PERL_LEVEL) && defined(PERL_VERSION)
 perl_major=		${PERL_VERSION:C|^([1-9]+).*|\1|}
@@ -1433,13 +1453,15 @@ PERL_LEVEL=0
 
 PERL_ARCH?=		mach
 
-.if ${PERL_LEVEL} >= 500800
+.if   ${PERL_LEVEL} >= 501000
+PERL_PORT?=	perl5.10
+.elif ${PERL_LEVEL} >= 500800
 PERL_PORT?=	perl5.8
 .else
 PERL_PORT?=	perl5.6
 .endif
 
-SITE_PERL_REL?=	lib/perl5/site_perl/${PERL_VER}
+SITE_PERL_REL?=	lib/perl5/site_perl/${PERL_VERSION}
 SITE_PERL?=	${LOCALBASE}/${SITE_PERL_REL}
 
 PERL5=		${LOCALBASE}/bin/perl${PERL_VERSION}
@@ -1796,6 +1818,10 @@ USE_LINUX?=	yes
 
 .if defined(USE_LINUX)
 
+.  if !defined(LINUX_OSRELEASE)
+LINUX_OSRELEASE!=	${ECHO_CMD} `${SYSCTL} -n compat.linux.osrelease 2>/dev/null`
+.  endif
+
 # install(1) also does a brandelf on strip, so don't strip with FreeBSD tools.
 STRIP=
 .	if exists(${LINUXBASE}/usr/bin/strip)
@@ -1928,7 +1954,7 @@ IGNORE=	uses unknown USE_BISON construct
 
 .if !defined(_PERL_REFACTORING_COMPLETE)
 PLIST_SUB+=		PERL_VERSION=${PERL_VERSION} \
-				PERL_VER=${PERL_VER} \
+				PERL_VER=${PERL_VERSION} \
 				PERL_ARCH=${PERL_ARCH} \
 				SITE_PERL=${SITE_PERL_REL}
 .endif  # !defined(_PERL_REFACTORING_COMPLETE)
@@ -1961,6 +1987,10 @@ PLIST_SUB+=		PERL_VERSION=${PERL_VERSION} \
 
 .if defined(USE_LINUX_RPM)
 .include "${PORTSDIR}/Mk/bsd.linux-rpm.mk"
+.endif
+
+.if defined(USE_LINUX_APPS)
+.include "${PORTSDIR}/Mk/bsd.linux-apps.mk"
 .endif
 
 .if defined (USE_QT_VER) && ${USE_QT_VER:L} == 4
@@ -2149,6 +2179,22 @@ MAKE_ENV+=		PREFIX=${PREFIX} \
 .if ${CC} != "icc"
 .if !empty(CFLAGS:M-O[23s]) && empty(CFLAGS:M-fno-strict-aliasing)
 CFLAGS+=       -fno-strict-aliasing
+.endif
+.endif
+.endif
+
+# Multiple make jobs support
+.if defined(DISABLE_MAKE_JOBS) || defined(MAKE_JOBS_UNSAFE)
+_MAKE_JOBS=		#
+.else
+.if defined(MAKE_JOBS_SAFE) || defined(FORCE_MAKE_JOBS)
+.if defined(MAKE_JOBS_NUMBER)
+_MAKE_JOBS=		-j${MAKE_JOBS_NUMBER}
+.else
+_MAKE_JOBS=		-j`${SYSCTL} -n kern.smp.cpus`
+.endif
+.if defined(FORCE_MAKE_JOBS)
+BUILD_FAIL_MESSAGE+=	"You have chosen to use multiple make jobs (parallelization) for all ports.  This port was not tested for this setting.  Please remove FORCE_MAKE_JOBS and retry the build before reporting the failure to the maintainer."
 .endif
 .endif
 .endif
@@ -3655,9 +3701,21 @@ do-configure:
 .if !target(do-build)
 do-build:
 .if defined(USE_GMAKE)
-	@(cd ${BUILD_WRKSRC}; ${SETENV} ${MAKE_ENV} ${GMAKE} ${MAKE_FLAGS} ${MAKEFILE} ${MAKE_ARGS} ${ALL_TARGET})
+	@(cd ${BUILD_WRKSRC}; if ! ${SETENV} ${MAKE_ENV} ${GMAKE} ${MAKE_FLAGS} ${MAKEFILE} ${_MAKE_JOBS} ${MAKE_ARGS} ${ALL_TARGET}; then \
+		if [ x != x${BUILD_FAIL_MESSAGE} ] ; then \
+			${ECHO_MSG} "===> Compilation failed unexpectedly."; \
+			(${ECHO_CMD} ${BUILD_FAIL_MESSAGE}) | ${FMT} 75 79 ; \
+			fi; \
+		${FALSE}; \
+		fi)
 .else
-	@(cd ${BUILD_WRKSRC}; ${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} ${MAKE_ARGS} ${ALL_TARGET})
+	@(cd ${BUILD_WRKSRC}; if ! ${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} ${_MAKE_JOBS} ${MAKE_ARGS} ${ALL_TARGET}; then \
+		if [ x != x${BUILD_FAIL_MESSAGE} ] ; then \
+			${ECHO_MSG} "===> Compilation failed unexpectedly."; \
+			(${ECHO_CMD} ${BUILD_FAIL_MESSAGE}) | ${FMT} 75 79 ; \
+			fi; \
+		${FALSE}; \
+		fi)
 .endif
 .endif
 
