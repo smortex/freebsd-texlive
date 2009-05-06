@@ -1,0 +1,3 @@
+This package provides basic support for writing Burmese. The
+package provides a preprocessor (written in Perl), an Adobe
+Type 1 font, and LaTeX macros.

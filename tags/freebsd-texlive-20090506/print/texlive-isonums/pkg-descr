@@ -1,0 +1,6 @@
+The package makes a quick hack to ziffer to display numbers in
+maths mode according to ISO 31-0, regardless of input format
+(European $1.235,7$ or Anglo-American $1,235.7$). The options
+[euro, anglo] control the global input format. Default input
+format is anglo. Documentation is included as comments to the
+text source.

@@ -1,0 +1,3 @@
+The package provides the means to include a glossary into a
+document. The glossary is prepared by an external program, such
+as xindy or makeindex, in the same way that an index is made.

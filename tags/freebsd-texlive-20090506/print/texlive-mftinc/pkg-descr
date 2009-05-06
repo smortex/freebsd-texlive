@@ -1,0 +1,5 @@
+The mft program pretty-prints Metafont source code into a TeX
+file. The mftinc package facilitates incorporating such files
+into a LaTeX2e document. In addition, mftinc provides routines
+for improved comment formatting and for typesetting font
+tables.

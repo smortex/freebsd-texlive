@@ -1,0 +1,3 @@
+The package calculates inverse relative paths. Such things may
+be useful, for example, when writing an auxiliary file to a
+different directory.

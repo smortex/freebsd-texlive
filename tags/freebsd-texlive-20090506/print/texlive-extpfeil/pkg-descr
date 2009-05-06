@@ -1,0 +1,3 @@
+The exptfeil package provides some more extensible arrows
+(usable in the same way as xleftarrow from amsmath), and a
+command to simply create new ones.

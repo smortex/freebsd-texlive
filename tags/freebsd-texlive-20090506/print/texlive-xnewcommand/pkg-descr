@@ -1,0 +1,3 @@
+The package provides the means of defining \global and (e-TeX)
+\protected commands, within the framework of LaTeX's standard
+\newcommand.

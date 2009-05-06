@@ -1,0 +1,4 @@
+The package allows the user to extract information from the job
+name, provided that the name has been structured appropriately:
+the package expects the file name to consist of a set of words
+separated by hyphens.

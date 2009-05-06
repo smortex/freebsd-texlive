@@ -1,0 +1,7 @@
+The package is designed to localise any document class or
+package. This should be very useful for end-users who could
+obtain messages in their own preferred language. It is really
+easy to use by writers of other classes and packages.
+Volunteers are urged to test the package, report, and even to
+localise the message file to their own language. Documentation
+is provided in English.

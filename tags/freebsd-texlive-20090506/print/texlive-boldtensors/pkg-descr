@@ -1,0 +1,2 @@
+This package provides bold latin and greek characters within
+\mathversion{normal}, by using ~ and " as prefix characters.
