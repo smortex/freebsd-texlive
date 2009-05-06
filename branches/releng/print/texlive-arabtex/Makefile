@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	arabtex
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

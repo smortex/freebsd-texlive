@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-psutils
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

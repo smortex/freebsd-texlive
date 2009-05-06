@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-binextra
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

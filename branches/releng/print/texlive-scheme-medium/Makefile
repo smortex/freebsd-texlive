@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	scheme-medium
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

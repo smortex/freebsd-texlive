@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	bin-cweb
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

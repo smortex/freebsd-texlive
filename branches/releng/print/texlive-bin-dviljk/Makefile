@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	bin-dviljk
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 
