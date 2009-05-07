@@ -1,5 +1,0 @@
-The package is a PSTricks extension, based on a NASA lines
-database. It allows you to draw continuum, emission and
-absorption spectra. A Total of 16 880 visible lines from 99
-elements can be displayed. The package requires the xkeyval
-package for decoding its arguments.

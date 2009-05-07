@@ -1,4 +1,0 @@
-ALaTeX provides the user with all the functionality of LaTeX
-but with one small change: a general, legal way to override
-standard LaTeX behavior without altering source files. ALaTeX
-can interpret official LaTeX markup in an abstract way.

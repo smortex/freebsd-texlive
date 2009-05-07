@@ -1,4 +1,0 @@
-The namespc package adds rudimentary c++-like namespace
-functionality to LaTeX. It may be used to declare local LaTeX
-commands, which can be made accessible in a later contexts
-without defining them globally.

@@ -1,6 +1,0 @@
-The style is intended to have enough features to draw any
-extensive game with relative ease. The facilities of PSTricks
-are used for graphics. (An older version of the package, which
-uses the LaTeX picture environment rather than PSTricks and
-consequently has many fewer features is available on the
-package home page.)

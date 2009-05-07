@@ -1,3 +1,0 @@
-A pair of documents to reveal the font features supported by
-fonts usable in XeTeX. Use OpenType-info.tex for OpenType
-fonts, and AAT-info.tex for AAT fonts (Mac OS X only).

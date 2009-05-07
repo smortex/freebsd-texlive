@@ -1,4 +1,0 @@
-Sagetex allows you to embed code, the results of computations,
-plots, and graphics from the Sage mathematics software suite
-into LaTeX documents. It is similar in spirit to Literate
-Haskell and lhs2TeX.

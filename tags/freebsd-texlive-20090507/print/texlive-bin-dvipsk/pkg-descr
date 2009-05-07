@@ -1,5 +1,0 @@
-When dvips is run on a Unix-like system, to produce PostScript
-output from a DVI file, dvipsk is the incarnation run. The
-current version of the package is no longer maintained on CTAN
-as a separate entity; see the TeX-live sources for the current
-release.

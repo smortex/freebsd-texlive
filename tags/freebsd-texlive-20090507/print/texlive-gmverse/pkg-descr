@@ -1,4 +1,0 @@
-A redefinition of the verse environment to make the \\ command
-optional for line ends and to give it a possibility of optical
-centering and `right-hanging' alignment of lines broken because
-of length.

@@ -1,6 +1,0 @@
-MHequ simplifies creating multi-column equation environments,
-and tagging the equations therein. It supports sub-numbers of
-blocks of equations (like (1.2a), (1.2b), etc) and references
-to each equation individually (1.2a) or to the whole block
-(1.2). The labels can be shown in draft mode. Comments in the
-package itself describe usage.
