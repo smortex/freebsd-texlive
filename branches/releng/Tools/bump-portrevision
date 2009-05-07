@@ -17,7 +17,7 @@ ret=1
 cp "Makefile" "Makefile.bak"
 
 if grep -q "^PORTREVISION.*${PORTREVISION}\$" "Makefile"; then
-	sed -e "s|^\\(PORTREVISION.*\\)${PORTREVISION}\$|\\1$((${PORTREVISION+1}))|" < "Makefile.bak" > "Makefile"
+	sed -e "s|^\\(PORTREVISION.*\\)${PORTREVISION}\$|\\1$((${PORTREVISION}+1))|" < "Makefile.bak" > "Makefile"
 	ret=$?
 else
 	if grep -q "^PORTVERSION" "Makefile"; then
