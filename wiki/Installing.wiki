@@ -1,4 +1,5 @@
 #summary How to install TeXLive on FreeBSD.
+#labels Featured,Phase-Deploy
 
 = How to install TeXLive on FreeBSD =
 
