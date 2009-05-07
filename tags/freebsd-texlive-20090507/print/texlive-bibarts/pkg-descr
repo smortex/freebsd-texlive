@@ -1,0 +1,5 @@
+The bibarts package assists in making bibliographical lists in
+the way that is common in the arts; it requires an auxiliary
+program, for which source and a DOS executable are provided.
+(Documentation is in German, though bibarts.sty does contain a
+brief introduction in English, as a comment.)

@@ -1,0 +1,9 @@
+Automatically adjust spaces between symbols in words or phrases
+to fit them into a specified length. Any chain of symbols
+(including spaces) in the current font may be treated. Commands
+\track{<length>}{<string>} (add space <length>, which may be
+<0, after each symbol of <string>),
+\fittrack{<length>}{<string>} (make <string> fit into width
+<length>, which may be smaller than the original width) and
+\ratiotrack{<ratio>}{<string>} (as \fittrack, with <length>
+replaced by <ratio> of the natural length of <string>).

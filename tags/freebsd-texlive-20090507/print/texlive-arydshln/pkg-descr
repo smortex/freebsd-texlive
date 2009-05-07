@@ -1,0 +1,6 @@
+Definitions of horizontal and vertical dashed lines for the
+array and tabular environment. Horizontal lines are drawn by
+\hdashline and \cdashline while vertical ones can be specified
+as a part of preamble using ‘:’. The shape of dashed lines
+may be controlled through style parameters or optional
+arguments. The package is compatible with array and colortab.

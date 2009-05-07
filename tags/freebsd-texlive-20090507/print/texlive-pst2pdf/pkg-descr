@@ -1,0 +1,9 @@
+The script extracts the preamble of the document and runs all
+\begin{postscript}...\end{postscript}
+\begin{pspicture}...\end{pspicture} and
+\pspicture...\endpspicture separately through LaTeX with the
+same preamble as the original document; thus it creates EPS,
+PNG and PDF files of these snippets. In a final PDFLaTeX run
+the script replaces the environments with \includegraphics to
+include the processed snippets. Detail documentation is
+acquired from the document itself via Perldoc.

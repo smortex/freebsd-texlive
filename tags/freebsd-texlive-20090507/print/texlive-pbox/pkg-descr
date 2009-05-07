@@ -1,0 +1,4 @@
+Defines a command \pbox{<max width>}{<text>} which adjusts its
+width to that of the enclosed text, up to the maximum width
+given. The package also defines some associated length
+commands.

@@ -1,0 +1,4 @@
+Ethiopian language support for the babel package, including a
+collection of fonts and TeX macros for typesetting the
+characters of the languages of Ethiopia, with MetaFont fonts
+based on EthTeX’s.

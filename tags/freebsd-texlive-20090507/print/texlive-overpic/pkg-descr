@@ -1,0 +1,6 @@
+The overpic environment is a cross between the LaTeX picture
+environment and the \includegraphics command of graphicx. The
+resulting picture environment has the same dimensions as the
+included eps graphic. LaTeX commands can be placed on the
+graphic at defined positions. A grid for orientation is
+available.

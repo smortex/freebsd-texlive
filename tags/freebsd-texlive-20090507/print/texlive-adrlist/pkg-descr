@@ -1,0 +1,2 @@
+The package provides a read-file command (\ForEachAdress) and a
+set of commands for unpicking the address data in the file.

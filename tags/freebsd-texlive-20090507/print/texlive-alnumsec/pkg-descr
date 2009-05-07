@@ -1,0 +1,6 @@
+This package allows you to use alphanumeric section numbering,
+for instance “A. Introduction … III. International Law”.
+Its output is similar to alphanum, but you can use the standard
+LaTeX sectioning commands, so that it is possible to switch
+numbering schemes easily. Greek letters, double letters (bb)
+and different delimiters around them are supported.

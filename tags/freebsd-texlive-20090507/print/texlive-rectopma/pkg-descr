@@ -1,0 +1,3 @@
+Saves the arguments of \author and \title for reference (after
+\maketitle) in a document. (\maketitle simply disposes of the
+information, in the standard classes and some others.)

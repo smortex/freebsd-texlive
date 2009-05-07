@@ -1,0 +1,5 @@
+The bundle contains a preprint class (elsart) and three journal
+classes (elsart1p, elsart3p and elsart5p). All these files (and
+the instructions for use) are provided by Elsevier themselves.
+An updated article class for use when submitting to Elsevier is
+available as package elsarticle.

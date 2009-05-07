@@ -1,0 +1,3 @@
+Defines environments that allow page breaks inside framed boxes
+whose edges may be variously fancy. The bundle includes a few
+examples (shaded box, box with a wavy line on its side, etc).

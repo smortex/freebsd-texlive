@@ -1,0 +1,4 @@
+Using the \AtBeginPage hook, you can add material in the
+background of a page. \PageLayout can be used to give page
+makeup commands to be executed on every page (e.g., depend on
+the page style).

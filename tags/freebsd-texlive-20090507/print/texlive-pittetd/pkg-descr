@@ -1,0 +1,5 @@
+A document class for theses and dissertations. Provides patch
+files that enable pittetd to use files prepared for use with
+the pittdiss or pitthesis classes. The manual provides a
+detailed guide for users who wish to use the class to prepare
+their thesis or dissertation.

@@ -1,0 +1,5 @@
+This package defines the subeqnarray and subeqnarray*
+environments, which behave like the equivalent eqnarray and
+eqnarray* environments, except that the individual lines are
+numbered like 1a, 1b, 1c, etc. To refer to these numbers an
+extra label command \slabel is provided.
