@@ -1,0 +1,5 @@
+Intended to check references in a document, looking for
+numbered but unlabelled equations, for labels which are not
+used in the text, for unused bibliography references. It can
+also display label names in text near corresponding numbers of
+equations and/or bibliography references.

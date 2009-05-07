@@ -1,0 +1,5 @@
+This package is based on code (posted long ago to comp.text.tex
+by Donald Arseneau) to equalise the height of subscripts in
+maths. The default behaviour is to place subscripts slightly
+lower when there is a superscript as well, but this can look
+odd in some situations.

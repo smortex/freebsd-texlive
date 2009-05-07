@@ -1,0 +1,7 @@
+The package provides macros \DeclareRobustActChar and
+ReDeclareRobActChar. One uses \DeclareRobustActChar in the same
+way one would use \DeclareRobustCommand; the macro \protects
+the active character when it appears in a moving argument.
+ReDeclareRobActChar redefines an active character previously
+defined with \DeclareRobustActChar, in the same way that
+\renewcommand works for ordinary commands.

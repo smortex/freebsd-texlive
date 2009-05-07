@@ -1,0 +1,3 @@
+The package recursively draws trees: each subtree is defined in
+a ‘bundle’ environment, with a set of leaves described by
+\chunk macros. A chunk may have a bundle environment inside it.

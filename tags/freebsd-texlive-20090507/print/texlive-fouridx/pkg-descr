@@ -1,0 +1,6 @@
+The package enables left subscripts and superscripts in maths
+mode. The sub- and superscripts are raised for optimum fitting
+to the symbol indexed, in such a way that left and right sub-
+and superscripts are set on the same level, as appropriate. The
+package provides an alternative to the use of the \sideset
+command in the amsmath package.

@@ -1,0 +1,4 @@
+The pracjourn class is used for typesetting articles in the
+PracTeX Journal. It is based on the article class with
+modifications to allow for more flexible front-matter and
+revision control, among other small changes.

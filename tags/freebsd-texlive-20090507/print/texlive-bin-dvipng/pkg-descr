@@ -1,0 +1,14 @@
+This program makes PNG and/or GIF graphics from DVI files as
+obtained from TeX and its relatives. Its benefits include: –
+Speed. It offers very fast rendering of DVI as bitmap files,
+which makes it suitable for generating large amounts of images
+on-the-fly, as needed in preview-latex, WeBWorK and others; –
+It does not read the postamble, so it can be started before TeX
+finishes. There is a --follow switch that makes dvipng wait at
+end-of-file for further output, unless it finds the POST marker
+that indicates the end of the DVI; – Interactive query of
+options. dvipng can read options interactively through stdin,
+and all options are usable. It is even possible to change the
+input file through this interface. – Support for PK, VF,
+PostScript Type1, and TrueType fonts, colour specials, and
+inclusion of PostScript, PNG, JPEG or GIF images.

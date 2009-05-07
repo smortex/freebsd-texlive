@@ -1,0 +1,9 @@
+Collects together examples that have been posted to the
+pstricks mailing list, together with some additional features
+for pstricks, including: – bugfixes; – new options for
+pspicture environment; – ellipses and parts of ellipses; –
+arrows; – braces as node connection/linestyle; – arrows;
+– dashed/dotted lines; and – CMYK colour support. The
+package also includes additions and bugfixes for packages pst-
+plot and pst-node (each of which is a part of the pstricks
+distribution).

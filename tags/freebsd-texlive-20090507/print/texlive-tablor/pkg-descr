@@ -1,0 +1,7 @@
+The package allows the user to use the computer algebra system
+XCAS to generate tables of signs and of variations (the actual
+plotting of the tables uses the MetaPost macro package
+tableauVariations). Tables with forbidden regions may be
+developed using the package. A configuration file permits some
+configuration of the language to be used in the diagrams. The
+tablor package requires that shell escape be enabled.

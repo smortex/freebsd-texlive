@@ -1,0 +1,5 @@
+The package makes writing derivatives very easy. It offers
+macros for derivatives, partial derivatives and multiple
+derivatives, and allows specification of the point at which the
+value is calculated. Some typographic alternatives may be
+selected by package options

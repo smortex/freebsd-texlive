@@ -1,0 +1,6 @@
+This package enables sub-numbering of floats (figures and
+tables) similar to the subequations-environment of the amsmath
+package. The subfloat package is not to be confused with the
+subfig package which generates sub-figures within one normal
+figure, and manages their placement; subfloat only affects
+captions and numbering.
