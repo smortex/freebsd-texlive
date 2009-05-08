@@ -1,0 +1,3 @@
+The package uses PStricks to typeset autosegmental
+representations. It uses the PStricks (of course), and xkeyval
+packages.

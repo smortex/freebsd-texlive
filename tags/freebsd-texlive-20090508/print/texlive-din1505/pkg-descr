@@ -1,0 +1,3 @@
+A set of bibliography styles that conformt to DIN 1505, and
+match the original BibTeX standard set (plain, unsrt, alpha and
+abbrv), together with a style natdin to work with natbib.

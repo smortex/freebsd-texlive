@@ -1,0 +1,4 @@
+A package for creating decorative chapter headings with
+quotations, a PostScript output device and the psnfss package
+are needed, the color package and a greyscale output device are
+recommended.

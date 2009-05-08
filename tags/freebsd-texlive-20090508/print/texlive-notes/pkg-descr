@@ -1,0 +1,4 @@
+The package provides environments to highlight significant
+portions of text within a document, by putting the text in a
+box and adding an icon in the margin. (The icons are provided
+as ‘fig’ sources, processable by xfig.)

@@ -1,0 +1,14 @@
+The name xpackages is a designation used for prototype
+implementations of new concepts for a LaTeX Designer Interface.
+Some of the packages work standalone providing new
+functionality, such as the packages in xbase; others go deeper
+and redefine LaTeX internals in order to provide newer and
+better methods for managing certain constructs. All packages
+provided through xpackages require the packages provided in
+expl3, and in addition may require functionality provided by
+the packages if the xbase bundle. Included in this release of
+xpackages are the bundles xbase and xtheorem. The xbase bundle
+provides the packages xparse and template, and the support
+package ldcsetup. The xtheorem bundle provides a prototype
+reimplementation of the AMS-LaTeX, using the template
+mechanism.

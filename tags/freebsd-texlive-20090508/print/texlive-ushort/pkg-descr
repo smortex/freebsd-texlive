@@ -1,0 +1,4 @@
+Some engineers need underlined or twice underlined variables
+for which the usual \underline is too long. This package
+provides a generic command for creating underlines of various
+sizes and types.

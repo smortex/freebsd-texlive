@@ -1,0 +1,7 @@
+In the discrete branches of mathematics and the computer
+sciences, it will only take some seconds before you're faced
+with a set like {1,...,m}. Some people write $1\ldotp\ldotp m$,
+others $\{j:1\leq j\leq m\}$, and that journal you're
+submitting to might want something else entirely. The 12many
+package provides an interface that makes changing from one to
+another a one-line change.

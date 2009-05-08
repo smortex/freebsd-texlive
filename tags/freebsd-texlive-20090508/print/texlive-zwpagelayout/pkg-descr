@@ -1,0 +1,7 @@
+This package was developed as a typographers’ toolbox
+offering the most important features for everyday work. First
+it allows setting the paper size as well as the page layout.
+The next important feature is the ability to print crop marks
+both with TeX + dvips or (x)dvipdfm(x) and with pdfTeX. Finally
+it is possible to reflect pages both horizontally and
+vertically.

@@ -1,0 +1,18 @@
+# New ports collection makefile for:	texlive-sauterfonts
+# Date created:		26/01/2009 16:04:39
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	sauterfonts
+CATEGORIES=	print
+
+MAINTAINER=	romain@blogreen.org
+COMMENT=	Use sauter fonts in LaTeX.
+
+LSE_LZMA=	yes
+NOPORTSRC=	yes
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

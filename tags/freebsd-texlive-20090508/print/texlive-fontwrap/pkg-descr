@@ -1,0 +1,4 @@
+The package (which runs under XeLaTeX) lets you bind fonts to
+specific unicode blocks, for automatic font tagging of
+multilingual text. The package uses Perl (via perltex) to
+construct its tables.
