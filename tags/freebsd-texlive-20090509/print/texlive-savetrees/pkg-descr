@@ -1,0 +1,6 @@
+The goal of the savetrees package is to pack as much text as
+possible onto each page of a LaTeX document. Admittedly, this
+makes the document far less attractive. Nevertheless, savetrees
+is a simple way to save paper when printing draft copies of a
+document. It can also be useful when trying to meet a tight
+page-length requirement for a conference or journal submission.

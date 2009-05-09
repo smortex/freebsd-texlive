@@ -1,0 +1,5 @@
+The package pst-optexp is a collection of optical components
+that facilitate easy sketching of optical experimental setups.
+Mechanisms for proper alignment of different components are
+provided internally. This way the user does not have to care
+for proper orientation of the elements.

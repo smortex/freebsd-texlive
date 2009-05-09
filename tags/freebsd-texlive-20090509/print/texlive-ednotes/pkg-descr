@@ -1,0 +1,3 @@
+A macro package for typesetting scholarly critical editions.
+Provides macros for critical edition typesetting with LaTeX,
+including support for line numbers and layers of footnotes.

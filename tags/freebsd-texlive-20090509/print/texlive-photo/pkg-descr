@@ -1,0 +1,8 @@
+This package introduces a new float type called photo which
+works similar to the float types table and figure. Various
+options exist for placing photos, captions, and a
+“photographer” line. In twocolumn documents, a possibility
+exists to generate double-column floats automatically if the
+photo does not fit into one column. Photos do not have to be
+placed as floats, they can also be placed as boxes, with
+captions and photographer line still being available.

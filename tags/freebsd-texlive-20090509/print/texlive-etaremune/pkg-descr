@@ -1,0 +1,5 @@
+This package implements the etaremune environment which is
+similar to the enumerate environment, except that labels are
+decreasing instead of increasing. The package provides a
+noticeably more efficient alternative to the revnum package,
+which uses painfully many counters.

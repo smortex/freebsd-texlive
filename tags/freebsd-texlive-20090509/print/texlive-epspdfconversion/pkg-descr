@@ -1,0 +1,4 @@
+The package calls the epstopdf package to convert EPS graphics
+to PDF, on the fly. It servs as a vehicle for passing
+conversion options (such as grayscale, prepress or pdfversion)
+to the epspdf converter.

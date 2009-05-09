@@ -1,0 +1,3 @@
+Commands that take an optional argument are not ordinarily
+expandable; this package allows such commands to be expandable
+provided they have at least one mandatory argument.

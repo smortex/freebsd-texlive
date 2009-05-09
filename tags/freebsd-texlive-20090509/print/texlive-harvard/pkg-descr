@@ -1,0 +1,10 @@
+There are two primary forms of citation in the Harvard style,
+dependent upon whether the reference is used as a noun or
+parenthetically. The citations themselves are in author-date
+style, with authors after the first suppressed in repeat
+citations. The three original bibliography styles are agsm.bst
+(for Australian Government publications), dcu.bst (from the
+Design Computing Unit of the University of Sydney) and
+kluwer.bst (aiming at the format preferred in Kluwer
+publications). This package is no longer recommended for use:
+the harvard package for LaTeX 2e should be used instead.

@@ -1,0 +1,3 @@
+The package provides macros which generate text which switches
+according to what language has been selected in Babel. The
+documentation includes an example of the use of the package.

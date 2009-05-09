@@ -1,0 +1,5 @@
+If the inputenc is used and German umlauts are input directly,
+they are converted to the LICR representation \"a (etc.). This
+breaks the sort algorithm of makeindex, for instance. Ginpenc
+converts umlauts and the sharp-s to the short forms defined by
+babel, e.g., "a instead, if the text is typeset in German.

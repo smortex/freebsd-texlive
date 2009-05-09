@@ -1,0 +1,5 @@
+The cooltooltips package enables a document to contain
+hyperlinks that pop up a brief tooltip when the mouse moves
+over them and also open a small window containing additional
+text. cooltooltips provides the mechanism used by the Visual
+LaTeX FAQ to indicate the question that each hyperlink answers.

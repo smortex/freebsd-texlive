@@ -1,0 +1,5 @@
+The patchcmd package provides a command \patchcommand that can
+be used to add material at the beginning and/or the end of the
+replacement text of an existing macro. It works for macros with
+any number of normal arguments, including those that were
+defined with \DeclareRobustCommand.

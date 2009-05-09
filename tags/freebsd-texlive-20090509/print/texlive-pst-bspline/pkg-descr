@@ -1,0 +1,5 @@
+The package draws uniform, cubic Bspline curves, open and
+closed, based on a sequence of Bspline control points. There is
+also code which permits drawing the open or closed cubic
+Bspline curve interpolating a sequence of points. Graphical
+output is created using PStricks.
