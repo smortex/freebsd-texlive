@@ -1,0 +1,5 @@
+The flagderiv package is used to create mathematical
+derivations using the flag/flagpole notation. The package
+features an intuitive command syntax, opening and closing
+multiple flagpoles, different comment styles, customizable
+symbols and label namespaces.

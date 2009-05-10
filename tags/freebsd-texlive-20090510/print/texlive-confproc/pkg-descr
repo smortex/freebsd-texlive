@@ -1,0 +1,10 @@
+The confproc collection comprises a class, a BibTeX style, and
+some scripts for generating conference proceedings. It derives
+from LaTeX scripts written for the DAFx-06 conference
+proceedings, largely based on the pdfpages package for
+including the proceedings papers and the hyperref package for
+creating a proper table of contents, bookmarks and general
+bibliography back-references. Confproc also uses many other
+packages for fine tuning of the table of contents, bibliography
+and index of authors. The added value of the class resides in
+its time-saving aspects when designing conference proceedings.

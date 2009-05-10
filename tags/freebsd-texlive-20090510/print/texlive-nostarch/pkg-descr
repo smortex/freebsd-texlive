@@ -1,0 +1,4 @@
+The package provides the “official” LaTeX style for No
+Starch Press. Provided are a a class, a package for interfacing
+to hyperref and an index style file. The style serves both for
+printed and for electronic books.

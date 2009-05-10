@@ -1,0 +1,3 @@
+This package improves the performance of Taupin's MusixTeX for
+vocal music, dealing with the problems with the base
+package’s \zcharnote macro for incorporating lyrics.

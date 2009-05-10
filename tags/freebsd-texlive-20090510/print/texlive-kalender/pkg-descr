@@ -1,0 +1,6 @@
+The package defines a macro \Kalender, which takes one
+argument, and generates a calendar for the year the argument
+specifies. The calendar provides a table of conversion of days
+to day of week, for the whole year plus December of the
+previous year and January of the following year. The macros use
+packages calc and ifthen.

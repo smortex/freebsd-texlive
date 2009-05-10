@@ -1,0 +1,4 @@
+The bundle provides two packages: – antree, which provides
+macros for annotated node trees, and – toklist, which is an
+implementation of Knuth's token list macros, to be found on
+pp.378–379 of the TeXbook.

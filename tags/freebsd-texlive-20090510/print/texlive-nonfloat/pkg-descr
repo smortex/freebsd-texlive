@@ -1,0 +1,4 @@
+Adjusts the figure and table environments to ensure that
+centered objects as one line captions are centered as well.
+Also the vertical spaces for table captions above the table are
+changed.

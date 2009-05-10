@@ -1,0 +1,3 @@
+The package provides the means of listing an entire BibTeX
+database, avoiding the potentially large (macro) impact
+associated with \nocite{*}.

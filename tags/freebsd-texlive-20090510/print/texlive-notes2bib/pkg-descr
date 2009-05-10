@@ -1,0 +1,10 @@
+The notes2bib package defines a new type of note, bibnote,
+which will always be added to the bibliography. The package
+allows footnotes and endnotes to be moved into the bibliography
+in the same way. The package can be used with natbib and
+biblatex as well as plain LaTeX citations. Both sorted and
+unsorted bibliography styles are supported. The package makes
+use of the e-TeX extensions (any post-2005 LaTeX distribution
+will provide these by default, but users of older systems may
+need to use an elatex command or equivalent). It also makes use
+of the xkeyval and etoolbox packages.

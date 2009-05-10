@@ -1,0 +1,8 @@
+The package provides some useful macros in the database area.
+The package focusses on typesetting ER-Diagrams in a
+declarative style, i.e., by positioning some nodes and defining
+the position of all other nodes relative to them by using the
+standard database terminology. The PSTricks package is required
+for using pst-dbicons, but no deep knowledge of PSTricks
+commands is required (although such knowledge is useful for
+exploiting the full functionality of the package).

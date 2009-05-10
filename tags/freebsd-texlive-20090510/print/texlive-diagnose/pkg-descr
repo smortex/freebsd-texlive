@@ -1,0 +1,3 @@
+Provides macros to assist evaluation of the capabilities of a
+TeX installation (i.e., what extensions it supports). An
+example document that examines the installation is available.

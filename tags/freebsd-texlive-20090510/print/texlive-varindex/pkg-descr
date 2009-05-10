@@ -1,0 +1,5 @@
+Provides a convenient front-end for the \index command. For
+example, with it you can generate multiple index entries in
+almost any form by a single command. The package is highly
+customizable, and works with all versions of LaTeX and probably
+most other TeX formats.

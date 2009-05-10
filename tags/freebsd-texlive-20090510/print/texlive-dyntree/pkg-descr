@@ -1,0 +1,6 @@
+The package is intended for users needing to typeset a Dynkin
+Tree Diagram—a group theoretical construct consisting of
+cartan coefficients in boxes connected by a series of lines.
+Such a diagram is a tool for working out the states and their
+weights in terms of the fundamental weights and the simple
+roots. The package makes use of the author's coollist package.

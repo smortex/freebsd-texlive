@@ -1,0 +1,4 @@
+The package provides a LaTeX method of typesetting crosswords,
+and assists the composer ensure that the grid all goes together
+properly. Brian Hamilton Kelly's original was written for LaTeX
+2.09, and needed to be updated to run with current LaTeX.

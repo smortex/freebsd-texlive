@@ -1,0 +1,3 @@
+The main purpose of the package is to make the drawing of bar
+diagrams possible and easy in LaTeX. The BarDiag package is
+inspired by and based on PSTricks.

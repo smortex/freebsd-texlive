@@ -1,0 +1,5 @@
+The euproposal class supports many of the specific elements of
+a Framework 7 Proposal. It is optimized towards collaborative
+projects. The package comes with an extensive example (a fake
+EU proposal; see the file propB.tex) that shows all elements in
+action.

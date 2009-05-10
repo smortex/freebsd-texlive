@@ -1,0 +1,2 @@
+Defines macros using § to type greek letters so that the user
+may type §a to get the effect of $\alpha$.

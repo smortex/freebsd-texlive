@@ -1,0 +1,5 @@
+The rccol package provides decimal-centered numbers:
+corresponding digits and decimal separators aligned.
+Furthermore, rounding to the desired precision is possible. The
+package makes use of the fltpoint package (as well as the LaTeX
+required array package).
