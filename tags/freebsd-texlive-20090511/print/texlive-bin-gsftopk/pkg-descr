@@ -1,0 +1,5 @@
+Designed for use with xdvi and dvips this utility converts
+Adobe Type 1 fonts to PK bitmap format. It should not
+ordinarily be much used nowadays, since both its target
+applications are now capable of dealing with Type 1 fonts,
+direct.

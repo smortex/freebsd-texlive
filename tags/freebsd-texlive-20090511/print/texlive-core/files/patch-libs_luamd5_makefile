@@ -1,0 +1,12 @@
+
+$FreeBSD$
+
+--- libs/luamd5/makefile.orig
++++ libs/luamd5/makefile
+@@ -1,5 +1,5 @@
+ # Location of Lua header files
+-LUA_DIR = /usr/local/include/
++LUA_DIR = ../lua51/
+ 
+ # Compilation parameters
+ CC = gcc

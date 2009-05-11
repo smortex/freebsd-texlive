@@ -1,0 +1,5 @@
+The chemcompounds package allows for a simple consecutive
+numbering of chemical compounds. Optionally, it is possible to
+supply a custom name for each compound. The package differs
+from the chemcono package by not generating an odd-looking list
+of compounds inside the text.

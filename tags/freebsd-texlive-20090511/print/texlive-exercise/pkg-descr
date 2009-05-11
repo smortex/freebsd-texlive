@@ -1,0 +1,9 @@
+The package helps to typeset exercises or list of exercises
+within any document. Exercises, questions, sub-questions are
+automatically numbered. It is possible to put answers in the
+same document, and display them immediatly, later in the
+document or not at all. The layout of exercise is fully
+customisable. It is then possible to typeset long problems,
+short exercises, questionnaires, etc. Usage of the babel
+package is detected, but not fully supported by now (only
+english and french are implemented).

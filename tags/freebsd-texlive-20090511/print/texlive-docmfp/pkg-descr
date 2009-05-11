@@ -1,0 +1,3 @@
+Extends the doc package to cater for documenting non-LaTeX
+code, such as MetaFont or MetaPost, or other programming
+languages.

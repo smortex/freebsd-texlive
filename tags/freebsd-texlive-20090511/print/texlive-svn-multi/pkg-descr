@@ -1,0 +1,4 @@
+This package lets you typeset keywords of the version control
+system Subversion inside your LaTeX files anywhere you like.
+Unlike the otherwise similar package svn the use of multiple
+files for one LaTeX document is well supported.

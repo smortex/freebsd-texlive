@@ -1,0 +1,3 @@
+This bundle allows marking-up of CWEB code in LaTeX. The
+distribution includes the "Counting Words" program distributed
+with CWEB, edited to run with LaTeX.

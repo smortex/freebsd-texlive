@@ -1,0 +1,9 @@
+An advanced letter document class which extends LaTeX's usual
+letter class, providing support for building your own
+letterhead and marking fold points for window envelopes.
+Options supported by the package include: letterpaper for US
+letter; a4offset for a modified A4 layout suitable for platic
+binders that cover a part of the left margin. The class’s
+handling of dates has inspired an extended version of date-
+handling in the isodate package. The class supersedes an
+earlier class called myletter.

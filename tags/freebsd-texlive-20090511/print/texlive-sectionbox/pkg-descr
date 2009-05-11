@@ -1,0 +1,5 @@
+Sectionbox is a LaTeX package for putting fancy colored boxes
+around sections, subsections, and subsubsections, especially
+for use in posters, etc. It was designed with the sciposter
+class in mind, and certainly works with that class and with
+derived classes.
