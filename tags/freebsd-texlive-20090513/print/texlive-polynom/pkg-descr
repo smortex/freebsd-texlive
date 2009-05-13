@@ -1,0 +1,4 @@
+The polynom package implements macros for manipulating
+polynomials, for example it can typeset long polynomial
+divisions. The main test case and application is the polynomial
+ring in one variable with rational coefficients.

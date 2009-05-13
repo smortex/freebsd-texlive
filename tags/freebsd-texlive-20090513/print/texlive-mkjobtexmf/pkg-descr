@@ -1,0 +1,6 @@
+The progam mkjobtexmf runs a program and tries to find the used
+file names. Two methods are available, option "-recorder" of
+TeX (Web2C) or the program strace. Then it generates a
+directory with a texmf tree. It checks the found files and
+tries sort them in this texmf tree. It can be used for
+archiving purposes or to speed up following TeX runs.

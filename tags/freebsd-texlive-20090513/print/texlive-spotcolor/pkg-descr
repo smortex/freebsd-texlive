@@ -1,0 +1,4 @@
+This package provides procedures for using spot colors in LaTeX
+documents and the generated pdf files. Predefined templates for
+PANTONE and HKS color spaces are included but new ones can
+easily be defined.

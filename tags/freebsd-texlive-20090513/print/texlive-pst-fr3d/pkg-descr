@@ -1,0 +1,3 @@
+A package using PSTricks to draw three dimensional framed boxes
+using a macro \PstFrameBoxThreeD. The macro is especially
+useful for drawing 3d-seeming buttons.

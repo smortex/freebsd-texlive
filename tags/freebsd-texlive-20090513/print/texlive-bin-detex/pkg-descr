@@ -1,0 +1,5 @@
+Detex is a program to remove TeX constructs from a text file.
+It recognizes the \input command. The program assumes it is
+dealing with LaTeX input if it sees the string \begin{document}
+in the text. In this case, it also recognizes the \include and
+\includeonly commands.

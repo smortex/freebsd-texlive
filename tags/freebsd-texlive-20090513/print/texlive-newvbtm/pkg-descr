@@ -1,0 +1,4 @@
+Defines general purpose macro named \newverbatim to define your
+own verbatim-like environment. It also has a supplementary
+style file varvbtm.sty to provide set of macros for variants of
+verbatim, such as tab emulation.

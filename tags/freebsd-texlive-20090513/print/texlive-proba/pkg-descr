@@ -1,0 +1,5 @@
+This package includes some of the most often used commands in
+probability texts, e.g. probability, expectation, variance,
+etc. It also includes some short commands for set (blackboard)
+or filtrations (calligraphic). It requires LaTeX2e and the
+amsfonts package.

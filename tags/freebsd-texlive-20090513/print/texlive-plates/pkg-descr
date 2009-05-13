@@ -1,0 +1,5 @@
+The plates package provides a simple facility for inserting
+colour figures in a document when they should be gathered and
+printed together as in a book's section of colour plates. The
+package provides a plate environment that takes the place of
+the figure environment for such colour images.

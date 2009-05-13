@@ -1,0 +1,4 @@
+Provides various different formats for the command \today, and
+also provides commands for displaying the current time, in 12-
+hour, 24-hour or text format. The package requires the fmtcount
+package.

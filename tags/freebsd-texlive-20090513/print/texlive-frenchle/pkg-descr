@@ -1,0 +1,9 @@
+This is a light (and free) version of the excellent (shareware)
+French Pro package for LaTeX, a package to typeset French
+documents according to the rules of the “Imprimerie
+Nationale”. The package comprises three LaTeX files (plus
+documentation, etc.): frenchle.sty is for use in a French-only
+document, while frenchle.ldf is for use as a babel language
+file (utilised by \usepackage[frenchle]{babel}; note that babel
+itself no longer permits such usage, but the babelfr.sty
+package in this distribution makes it possible).
