@@ -2,7 +2,6 @@
 # ex:ts=4
 #
 # $FreeBSD: ports/Mk/bsd.port.mk,v 1.618 2009/05/11 17:35:18 pav Exp $
-# $FreeBSD: ports/Mk/bsd.port.mk,v 1.617 2009/04/09 22:40:20 pav Exp $
 #	$NetBSD: $
 #
 #	bsd.port.mk - 940820 Jordan K. Hubbard.
