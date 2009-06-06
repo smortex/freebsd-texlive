@@ -1,0 +1,9 @@
+Sparklines are intense, simple, wordlike graphics (so named by
+Edward Tufte). In lieu of a more detailed introduction,
+Professor Tufte's site has an early release of a chapter on
+sparklines. A PHP implementation may be found at SourceForge. A
+sparkline can be added using the sparkline environment. Also,
+you can add sparkling rectangles for the median and special
+sparkling dots in red or blue. The package requires pdflatex;
+sparklines cannot appear in a dvi file. The sparklines package
+uses pgf, and does not work with pictex.

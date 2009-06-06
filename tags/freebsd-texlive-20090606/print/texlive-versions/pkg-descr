@@ -1,0 +1,4 @@
+Stephan Bellantoni’s version has provided preamble commands
+for selecting environments to be included/excluded. This
+package does the same, but corrects, improves, and extends it
+in both implementation and function.

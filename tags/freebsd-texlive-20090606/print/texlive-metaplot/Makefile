@@ -1,0 +1,19 @@
+# New ports collection makefile for:	texlive-metaplot
+# Date created:		26/01/2009 16:03:19
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	metaplot
+PORTREVISION=	1
+CATEGORIES=	print
+
+MAINTAINER=	romain@blogreen.org
+COMMENT=	The metaplot package
+
+LSE_LZMA=	yes
+NOPORTSRC=	yes
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

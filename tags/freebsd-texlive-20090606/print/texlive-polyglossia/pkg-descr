@@ -1,0 +1,3 @@
+This package provides a complete Babel replacement for users of
+XeLaTeX. The initial version includes support for 54 different
+languages.

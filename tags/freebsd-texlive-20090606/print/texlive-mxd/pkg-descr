@@ -1,0 +1,5 @@
+This package provides macro support, and MetaFont fonts, for
+typesetting the Mongolian Xäwtää Dörbölijn script in
+LaTeX. The script is an archaic one, which meets the needs of
+Mongolian, Tibetan and Sanskrit, but is now little used. The
+package is of alpha status, presented for evaluation.

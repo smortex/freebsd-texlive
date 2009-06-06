@@ -1,0 +1,20 @@
+# New ports collection makefile for:	texlive-ncntrsbk
+# Date created:		26/01/2009 16:04:50
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	ncntrsbk
+PORTREVISION=	1
+CATEGORIES=	print
+
+MAINTAINER=	romain@blogreen.org
+COMMENT=	The ncntrsbk package
+
+LSE_LZMA=	yes
+NOPORTDOCS=	yes
+NOPORTSRC=	yes
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

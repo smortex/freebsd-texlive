@@ -1,0 +1,3 @@
+The invoice package is used for generating invoices. Supports
+Afrikaans and Italian. Includes invisible expense items and
+deductions.

@@ -1,0 +1,2 @@
+The package draws Bao diagrams in LaTeX. The package is a
+development of psgo, and uses PSTricks to draw the diagrams.

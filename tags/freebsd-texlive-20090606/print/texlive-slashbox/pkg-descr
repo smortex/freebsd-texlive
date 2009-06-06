@@ -1,0 +1,3 @@
+The package defines commands to produce tabular cells with
+diagonal lines in them, with text above and below the line to
+label the column and row that the cell is in.

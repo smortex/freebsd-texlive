@@ -1,0 +1,2 @@
+This package detects footnotes that are split over several
+pages, and writes a warning to the log file.

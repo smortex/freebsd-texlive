@@ -1,0 +1,3 @@
+A package which allows to use the Pygments highlighter inside
+LaTeX documents. Pygments supports syntax colouring of over 50
+types of files, and ships with multiple colour schemes.

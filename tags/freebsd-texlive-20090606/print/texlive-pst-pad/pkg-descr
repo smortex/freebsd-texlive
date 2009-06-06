@@ -1,0 +1,7 @@
+The package collects a set of graphical elements based on
+PStricks that can be used to facilitate display of attachment
+systems such as two differently shaped surfaces with or without
+a fluid wedged in between. These macros ease the display of wet
+adhesion models and common friction systems such as boundary
+lubrication, elastohydrodynamic lubrication and hydrodynamic
+lubrication.
