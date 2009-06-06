@@ -1,7 +1,0 @@
-CBcoptic is a bundle of files for typesetting Coptic
-philological text with the proper fonts and hyphenation. The
-fonts are based on, but much extend, the fonts of the original
-coptic bundle. The CBcoptic bundle includes font description
-files, MetaFont sources and equivalent Adobe Type 1 fonts in
-pfb format. The bundle also includes a package that provides
-some macros of philological interest.

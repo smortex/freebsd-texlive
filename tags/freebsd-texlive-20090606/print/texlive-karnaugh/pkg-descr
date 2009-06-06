@@ -1,5 +1,0 @@
-Macros intended for typesetting Karnaugh-Maps and Veitch-Charts
-in a simple and user-friendly way. Karnaugh-Maps and Veitch-
-Charts are used to display and simplify logic functions
-"manually". These macros can typeset Karnaugh-Maps and Veitch-
-Charts with up to ten variables (=1024 entries).

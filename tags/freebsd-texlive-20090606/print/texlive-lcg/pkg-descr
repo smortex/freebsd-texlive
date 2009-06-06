@@ -1,4 +1,0 @@
-The lcg package generates random numbers (integers) via a
-linear congruential generator (Schrage’s method). The random
-numbers are written to a counter. The keyval package is used to
-set values for the range, a seed, and the name of the counter.

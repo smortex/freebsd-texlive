@@ -1,5 +1,0 @@
-The hypdvips package fixes some problems when using hyperref
-with dvips. It also adds support for breaking links, file
-attachments, embedded documents and different types of GoTo-
-links. The cooperation of hyperref with cleveref is improved,
-which in addition allows an enhanced back-referencing system.

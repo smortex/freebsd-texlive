@@ -1,4 +1,0 @@
-The package provides the most important elements of a sructured
-box chart, including processing blocks, loops, mapping
-conventions for alternatives, etc. Diagrams are drawn using the
-picture environment (using pict2e for preference).

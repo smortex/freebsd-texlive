@@ -1,3 +1,0 @@
-The class loads book class, and makes minimal changes to it;
-its coding aims to be as robust as possible, and as a result it
-has few conflicts with potential add-on packages.

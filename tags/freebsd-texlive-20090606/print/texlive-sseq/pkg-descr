@@ -1,8 +1,0 @@
-The package provides commands to draw spectral sequence
-diagrams, providing facilities for clipping and arranging
-multiple symbols so that they do not overlap. The package is
-usually based on XYpic, but may run using specialised font
-structures with a large enough TeX and given enough time. Its
-geometric commands are based on a turtle graphics model, and
-control structures such as loops and conditionals are
-available.

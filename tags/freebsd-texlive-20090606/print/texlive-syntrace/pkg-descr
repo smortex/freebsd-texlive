@@ -1,4 +1,0 @@
-This package adds support for for traces in trees created using
-either the synttree or the qtree package. The package provides
-two commands (\traceLabel and \traceReference) to set and use a
-trace.

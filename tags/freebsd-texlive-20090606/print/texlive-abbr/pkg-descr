@@ -1,4 +1,0 @@
-Abbr is a set of some simple macros to support abbreviations in
-Plain or LaTeX. It allows writing e.g. \<TEX> instead of \TeX,
-hence frees users from having to escape space after
-parameterless macros.

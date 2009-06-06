@@ -1,8 +1,0 @@
-The package allows citations in the German style, which is
-considered by many to be particularly reader-friendly. The
-citation provides a small amount of bibliographic information
-in a footnote on the page where each citation is made. It
-combines a desire to eliminate unnecessary page-turning with
-the look-up efficiency afforded by numeric citations. The
-package makes use of the (still experimental) BibLaTeX package,
-and is itself also considered experimental; comment is invited.

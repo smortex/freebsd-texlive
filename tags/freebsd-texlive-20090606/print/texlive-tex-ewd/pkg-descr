@@ -1,4 +1,0 @@
-Edsger W. Dijkstra and others suggest a unique style to present
-mathematical proofs and to construct programs. This package
-provides macros that support calculational proofs and
-Dijkstra’s “guarded command language”.

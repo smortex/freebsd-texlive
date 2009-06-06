@@ -1,5 +1,0 @@
-The newspaper package redefines the page style and \maketitle
-command to produce a typeset page similar to that off a
-newspaper. It also provides several commands that (when used
-with other packages) simplify the writing of articles in a
-newspaper-style column format.

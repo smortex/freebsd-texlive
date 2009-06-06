@@ -1,5 +1,0 @@
-This package allows the user to export/import the values of
-LaTeX registers (counters, rigid and rubber lengths only). It
-is definitely not for faint-hearted users. The package may be
-used, for example, to communicate between documents for the
-purposes of dvipaste.
