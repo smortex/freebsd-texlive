@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	utf8mex
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

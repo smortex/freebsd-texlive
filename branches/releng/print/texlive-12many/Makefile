@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	12many
+PORTREVISION=	2
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-texinfo
+PORTREVISION=	2
 CATEGORIES=	print
 DISTFILES=	# None
 

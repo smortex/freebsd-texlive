@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	sfmath
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

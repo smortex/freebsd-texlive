@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	GuIT
+PORTREVISION=	2
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

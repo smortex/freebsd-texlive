@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	tufte-latex
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

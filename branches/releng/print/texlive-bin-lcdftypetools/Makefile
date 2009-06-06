@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	bin-lcdftypetools
+PORTREVISION=	2
 CATEGORIES=	print
 DISTFILES=	# None
 

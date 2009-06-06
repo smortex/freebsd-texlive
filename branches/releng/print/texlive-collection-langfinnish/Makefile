@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-langfinnish
+PORTREVISION=	2
 CATEGORIES=	print
 DISTFILES=	# None
 

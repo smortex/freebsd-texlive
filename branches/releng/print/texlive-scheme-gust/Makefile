@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	scheme-gust
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

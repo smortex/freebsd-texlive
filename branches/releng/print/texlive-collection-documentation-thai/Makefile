@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-documentation-thai
+PORTREVISION=	2
 CATEGORIES=	print
 DISTFILES=	# None
 

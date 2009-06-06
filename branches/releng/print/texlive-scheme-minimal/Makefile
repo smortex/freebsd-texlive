@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-minimal
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	print
 DISTFILES=	# None
 

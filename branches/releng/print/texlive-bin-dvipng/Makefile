@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	bin-dvipng
+PORTREVISION=	2
 CATEGORIES=	print
 DISTFILES=	# None
 

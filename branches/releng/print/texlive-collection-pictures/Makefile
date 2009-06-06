@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pictures
-PORTREVISION=	2
+PORTREVISION=	4
 CATEGORIES=	print
 DISTFILES=	# None
 

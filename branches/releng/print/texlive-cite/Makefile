@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	cite
-PORTREVISION=	2
+PORTREVISION=	4
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

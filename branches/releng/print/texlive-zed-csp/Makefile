@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	zed-csp
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
