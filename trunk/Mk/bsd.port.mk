@@ -1,7 +1,7 @@
 #-*- mode: makefile; tab-width: 4; -*-
 # ex:ts=4
 #
-# $FreeBSD: ports/Mk/bsd.port.mk,v 1.619 2009/05/22 21:57:33 acm Exp $
+# $FreeBSD: ports/Mk/bsd.port.mk,v 1.620 2009/06/03 21:50:50 pav Exp $
 #	$NetBSD: $
 #
 #	bsd.port.mk - 940820 Jordan K. Hubbard.
@@ -310,6 +310,7 @@ FreeBSD_MAINTAINER=	portmgr@FreeBSD.org
 #				  the regular expression.
 # USE_GCC		- If set, this port requires this version of gcc, either in
 #				  the system or installed from a port.
+# USE_CSTD		- Override the default C language standard (gnu89, gnu99)
 # USE_GMAKE		- If set, this port uses gmake.
 # GMAKE			- Set to path of GNU make if not in $PATH.
 #				  Default: gmake
@@ -2187,16 +2188,17 @@ CFLAGS+=       -fno-strict-aliasing
 .endif
 .endif
 
+.if defined(USE_CSTD)
+CFLAGS:=	${CFLAGS:N-std=*} -std=${USE_CSTD}
+.endif
+
 # Multiple make jobs support
 .if defined(DISABLE_MAKE_JOBS) || defined(MAKE_JOBS_UNSAFE)
 _MAKE_JOBS=		#
 .else
 .if defined(MAKE_JOBS_SAFE) || defined(FORCE_MAKE_JOBS)
-.if defined(MAKE_JOBS_NUMBER)
+MAKE_JOBS_NUMBER?=	`${SYSCTL} -n kern.smp.cpus`
 _MAKE_JOBS=		-j${MAKE_JOBS_NUMBER}
-.else
-_MAKE_JOBS=		-j`${SYSCTL} -n kern.smp.cpus`
-.endif
 .if defined(FORCE_MAKE_JOBS)
 BUILD_FAIL_MESSAGE+=	"You have chosen to use multiple make jobs (parallelization) for all ports.  This port was not tested for this setting.  Please remove FORCE_MAKE_JOBS and retry the build before reporting the failure to the maintainer."
 .endif
