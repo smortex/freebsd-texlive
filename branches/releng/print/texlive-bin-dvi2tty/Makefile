@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	bin-dvi2tty
-PORTREVISION=	2
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

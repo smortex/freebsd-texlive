@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	collection-langarab
-PORTREVISION=	2
 CATEGORIES=	print
 DISTFILES=	# None
 

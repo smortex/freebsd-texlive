@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	ibycus-babel
-PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

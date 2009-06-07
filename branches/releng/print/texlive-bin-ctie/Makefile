@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	bin-ctie
-PORTREVISION=	2
 CATEGORIES=	print
 DISTFILES=	# None
 

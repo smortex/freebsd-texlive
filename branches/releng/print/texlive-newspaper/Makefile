@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	newspaper
-PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

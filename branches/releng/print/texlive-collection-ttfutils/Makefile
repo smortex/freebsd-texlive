@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	collection-ttfutils
-PORTREVISION=	2
 CATEGORIES=	print
 DISTFILES=	# None
 

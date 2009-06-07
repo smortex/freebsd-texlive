@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-music
-PORTREVISION=	4
+PORTREVISION=	2
 CATEGORIES=	print
 DISTFILES=	# None
 

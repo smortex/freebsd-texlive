@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	scheme-omega
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

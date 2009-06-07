@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	subeqnarray
-PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

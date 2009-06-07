@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	texshade
-PORTREVISION=	2
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

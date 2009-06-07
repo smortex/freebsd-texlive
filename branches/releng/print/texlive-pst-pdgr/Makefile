@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	pst-pdgr
-PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

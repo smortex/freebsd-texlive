@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	collection-htmlxml
-PORTREVISION=	2
 CATEGORIES=	print
 DISTFILES=	# None
 

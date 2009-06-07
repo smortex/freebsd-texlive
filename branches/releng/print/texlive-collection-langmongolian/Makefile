@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	collection-langmongolian
-PORTREVISION=	2
 CATEGORIES=	print
 DISTFILES=	# None
 

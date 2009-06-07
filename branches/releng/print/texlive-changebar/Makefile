@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	changebar
-PORTREVISION=	2
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

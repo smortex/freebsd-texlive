@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	collection-documentation-german
-PORTREVISION=	2
 CATEGORIES=	print
 DISTFILES=	# None
 

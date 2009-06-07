@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	r_und_s
-PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
