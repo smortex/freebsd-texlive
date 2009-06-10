@@ -1,7 +1,7 @@
 #-*- mode: makefile; tab-width: 4; -*-
 # ex:ts=4
 #
-# $FreeBSD: ports/Mk/bsd.port.mk,v 1.620 2009/06/03 21:50:50 pav Exp $
+# $FreeBSD: ports/Mk/bsd.port.mk,v 1.622 2009/06/09 15:32:52 amdmi3 Exp $
 #	$NetBSD: $
 #
 #	bsd.port.mk - 940820 Jordan K. Hubbard.
@@ -332,8 +332,8 @@ FreeBSD_MAINTAINER=	portmgr@FreeBSD.org
 # PERL_VERSION	- Full version of perl5 (see below for current value).
 # PERL_LEVEL	- Perl version as an integer of the form MNNNPP, where
 #				  M is major version, N is minor version, and P is
-#				  the patch level. E.g., PERL_VERSION=5.6.1 would give
-#				  a PERL_LEVEL of 500601. This can be used in comparisons
+#				  the patch level. E.g., PERL_VERSION=5.8.1 would give
+#				  a PERL_LEVEL of 500801. This can be used in comparisons
 #				  to determine if the version of perl is high enough,
 #				  whether a particular dependency is needed, etc.
 # PERL_ARCH		- Directory name of architecture dependent libraries
@@ -370,10 +370,9 @@ FreeBSD_MAINTAINER=	portmgr@FreeBSD.org
 #				  new features: 'build', 'run', 'both', implying build,
 #				  runtime, and both build/run dependencies
 ##
-# USE_IMAKE		- If set, this port uses imake.  Implies USE_X_PREFIX.
+# USE_IMAKE		- If set, this port uses imake.
 # XMKMF			- Set to path of `xmkmf' if not in $PATH
 #				  Default: xmkmf -a
-# USE_X_PREFIX	- If set, this port installs in ${X11BASE}.  Implies USE_XLIB.
 # USE_XLIB		- If set, this port uses the X libraries. In the USE_LINUX
 #				  case the linux X libraries are referenced.
 # USE_DISPLAY	- If set, this ports requires a (virtual) X11 environment
@@ -554,8 +553,7 @@ FreeBSD_MAINTAINER=	portmgr@FreeBSD.org
 # LINUXBASE		- Where Linux ports install things.
 #				  Default: /compat/linux
 # PREFIX		- Where *this* port installs its files.
-#				  Default: ${X11BASE} if USE_X_PREFIX is set,
-#				  ${LINUXBASE} if  USE_LINUX_PREFIX is set,
+#				  Default: ${LINUXBASE} if USE_LINUX_PREFIX is set,
 #				  otherwise ${LOCALBASE}
 #
 # IGNORE_PATH_CHECKS
@@ -1400,18 +1398,7 @@ FILESDIR?=		${MASTERDIR}/files
 SCRIPTDIR?=		${MASTERDIR}/scripts
 PKGDIR?=		${MASTERDIR}
 
-.if defined(USE_IMAKE) && !defined(USE_X_PREFIX) && !defined(USE_XORG)
-USE_X_PREFIX=	yes
-.endif
-.if defined(USE_X_PREFIX) && ${USE_X_PREFIX} == "no"
-.undef USE_X_PREFIX
-.endif
-.if defined(USE_X_PREFIX)
-USE_XLIB=		yes
-.endif
-.if defined(USE_X_PREFIX)
-PREFIX?=		${X11BASE}
-.elif defined(USE_LINUX_PREFIX)
+.if defined(USE_LINUX_PREFIX)
 PREFIX?=		${LINUXBASE}
 NO_MTREE=		yes
 .else
@@ -1456,10 +1443,8 @@ PERL_ARCH?=		mach
 
 .if   ${PERL_LEVEL} >= 501000
 PERL_PORT?=	perl5.10
-.elif ${PERL_LEVEL} >= 500800
-PERL_PORT?=	perl5.8
 .else
-PERL_PORT?=	perl5.6
+PERL_PORT?=	perl5.8
 .endif
 
 SITE_PERL_REL?=	lib/perl5/site_perl/${PERL_VERSION}
