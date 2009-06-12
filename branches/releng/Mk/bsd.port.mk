@@ -1,7 +1,7 @@
 #-*- mode: makefile; tab-width: 4; -*-
 # ex:ts=4
 #
-# $FreeBSD: ports/Mk/bsd.port.mk,v 1.622 2009/06/09 15:32:52 amdmi3 Exp $
+# $FreeBSD: ports/Mk/bsd.port.mk,v 1.623 2009/06/11 09:09:29 erwin Exp $
 #	$NetBSD: $
 #
 #	bsd.port.mk - 940820 Jordan K. Hubbard.
@@ -1310,6 +1310,19 @@ WITHOUT_${W}:=	true
 .endif
 
 DOS2UNIX_REGEX?=	.*
+
+# At least KDE needs TMPDIR for the package building,
+# so we're setting it to the known default value.
+.if defined(PACKAGE_BUILDING)
+TMPDIR?=	/tmp
+.endif # defined(PACKAGE_BUILDING)
+
+# Respect TMPDIR passed via make.conf or similar and pass it down
+# to configure and make.
+.if defined(TMPDIR)
+MAKE_ENV+=	TMPDIR="${TMPDIR}"
+CONFIGURE_ENV+=	TMPDIR="${TMPDIR}"
+.endif # defined(TMPDIR)
 
 
 # Start of pre-makefile section.
