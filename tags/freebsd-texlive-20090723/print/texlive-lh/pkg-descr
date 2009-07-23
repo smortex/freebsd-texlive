@@ -1,0 +1,8 @@
+The LH fonts address the problem of the wide variety of
+alphabets that are written with Cyrillic-style characters. The
+fonts are the original basis of the set of T2* and X2 encodings
+that are now used when LaTeX users need to write in Cyrillic
+languages. LH offers the latex/lhfonts bundle of packages for
+standard LaTeX Cyrillic and traditional encodings. The fonts
+are available in Adobe Type 1 format, in the CM-Super family of
+fonts.

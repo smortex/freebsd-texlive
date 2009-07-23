@@ -1,0 +1,27 @@
+
+$FreeBSD$
+
+--- libs/luazlib/Makefile.orig
++++ libs/luazlib/Makefile
+@@ -6,16 +6,16 @@
+ TMP=/tmp
+ 
+ # change these to reflect your Lua installation
+-LUA= $(HOME)/lua
+-LUAINC= $(LUA)/include
+-LUALIB= $(LUA)/lib
+-LUABIN= $(LUA)/bin
++LUA= ../lua51
++LUAINC= $(LUA)
++LUALIB= $(LUA)
++LUABIN= $(LUA)
+ 
+ ZLIB=../zlib-1.2.1
+ 
+ # no need to change anything below here
+ CFLAGS= $(INCS) $(DEFS) $(WARN) -O2
+-WARN= -g -Werror -Wall #-ansi -pedantic -Wall
++WARN= -g -Wall #-ansi -pedantic -Wall
+ INCS= -I$(LUAINC) -I$(ZLIB)
+ LIBS= -L$(ZLIB) -lz
+ 

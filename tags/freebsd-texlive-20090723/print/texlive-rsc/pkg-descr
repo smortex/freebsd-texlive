@@ -1,0 +1,6 @@
+The rsc package provides a BibTeX style in accordance with the
+requirements of the Royal Society of Chemistry. It was
+originally based on the file pccp.bst, but also implements a
+number of styles from the achemso package. The package is now a
+stub for the chemstyle package, which the author developed to
+unify the writing of articles with a chemistry content.

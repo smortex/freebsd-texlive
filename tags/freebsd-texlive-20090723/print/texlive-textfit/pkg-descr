@@ -1,0 +1,2 @@
+Package to support fitting of text to a given width or height
+by scaling the font. For example: \scaletowidth{3in}{This}.

@@ -1,0 +1,9 @@
+This package defines a macro to place objects (tables and
+figures) and their captions in different positions with
+different rotating angles within a float. All objects and
+captions can be framed. The main command is \hvFloat{float
+type}{floating object}{caption}{label}; a simple example is
+\hvFloat{figure}{\includegraphics{rose}}{Caption}{fig:0}.
+Options are included to place captions to the right or left,
+and rotated. Setting nonFloat=true results in placing the float
+here.

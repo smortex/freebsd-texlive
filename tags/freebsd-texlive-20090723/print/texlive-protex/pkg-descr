@@ -1,0 +1,3 @@
+ProTeX is a simple but powerful literate programming tool,
+which is designed to generate useful hypertext output (either
+PDF, or HTML using TeX4ht).

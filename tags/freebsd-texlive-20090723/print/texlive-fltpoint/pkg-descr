@@ -1,0 +1,3 @@
+The package provides simple floating point operations
+(addition, subtraction, multiplication, division and rounding).
+Used, for example, by rccol.

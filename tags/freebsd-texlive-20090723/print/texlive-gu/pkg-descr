@@ -1,0 +1,6 @@
+The package simplifies typesetting of simple crystallographic
+group-subgroup-schemes in the Bärnighausen formalism. It
+defines a new environment stammbaum, wherein all elements of
+the scheme are defined. Afterwards all necessary dimensions are
+calculated and the scheme is drawn. Currently two steps of
+symmetry reduction are supported.

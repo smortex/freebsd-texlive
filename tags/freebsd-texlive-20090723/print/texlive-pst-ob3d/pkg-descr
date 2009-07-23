@@ -1,0 +1,4 @@
+The package uses PSTricks to provide basic three-dimensional
+objects. As yet, only cubes (which can be deformed to
+rectangular parallelipipeds) and dies (which are only a special
+kind of cubes) are defined.

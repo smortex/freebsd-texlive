@@ -1,0 +1,4 @@
+A self-contained set of verbatim macros, providing both block
+(\verbatim ... \endverbatim) and in-line (|...|) verbatim
+constructs. Can also support line-numbering of verbatim blocks
+and verbatim file inclusion.

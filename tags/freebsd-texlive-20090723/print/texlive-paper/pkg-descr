@@ -1,0 +1,5 @@
+A pair of classes derived from article, tuned for producing
+papers for journals. The classes introduce new layout options
+and font commands for sections/parts, and define a new keywords
+environment, subtitle and institution commands for the title
+section and new commands for revisions.

@@ -1,0 +1,3 @@
+The package counts the numbers of pages per chapter, and stores
+the results in a separate file; the format of the file is
+selectable.

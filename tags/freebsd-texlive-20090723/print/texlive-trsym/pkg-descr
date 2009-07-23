@@ -1,0 +1,4 @@
+The bundle provides MetaFont sources for a small font used for
+(e.g.) Laplace transformations, together with a LaTeX .fd file
+and a package providing commands for the symbols’ use in
+mathematics.
