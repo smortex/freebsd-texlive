@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	bibleref
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

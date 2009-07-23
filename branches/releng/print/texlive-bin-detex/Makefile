@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	bin-detex
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

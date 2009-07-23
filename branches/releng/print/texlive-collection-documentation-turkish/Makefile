@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-documentation-turkish
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

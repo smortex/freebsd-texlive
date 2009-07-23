@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-humanities
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

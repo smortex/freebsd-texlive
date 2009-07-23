@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-langcroatian
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

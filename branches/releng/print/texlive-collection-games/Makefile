@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-games
-PORTREVISION=	1
+PORTREVISION=	11
 CATEGORIES=	print
 DISTFILES=	# None
 

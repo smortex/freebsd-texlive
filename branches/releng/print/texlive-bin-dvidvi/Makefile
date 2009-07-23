@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	bin-dvidvi
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

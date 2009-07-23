@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	fonttable
-PORTREVISION=	2
+PORTREVISION=	21
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

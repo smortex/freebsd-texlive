@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	gb4e
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

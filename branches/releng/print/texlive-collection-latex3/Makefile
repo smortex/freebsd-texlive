@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-latex3
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

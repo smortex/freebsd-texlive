@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-langitalian
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

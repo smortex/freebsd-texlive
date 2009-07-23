@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	mp3d
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

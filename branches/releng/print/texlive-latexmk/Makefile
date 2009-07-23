@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	latexmk
-PORTREVISION=	1
+PORTREVISION=	11
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

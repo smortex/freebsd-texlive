@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	bin-afm2pl
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

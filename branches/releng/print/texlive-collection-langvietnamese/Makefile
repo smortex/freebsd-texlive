@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-langvietnamese
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

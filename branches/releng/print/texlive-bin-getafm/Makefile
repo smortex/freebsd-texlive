@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	bin-getafm
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

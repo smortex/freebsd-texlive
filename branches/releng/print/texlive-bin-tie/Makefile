@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	bin-tie
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	pst-ghsb
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

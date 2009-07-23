@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-langafrican
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

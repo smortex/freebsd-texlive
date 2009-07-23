@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-documentation-slovenian
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

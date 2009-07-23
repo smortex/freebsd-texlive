@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-langtibetan
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

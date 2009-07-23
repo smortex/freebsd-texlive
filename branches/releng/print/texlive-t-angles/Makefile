@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	t-angles
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

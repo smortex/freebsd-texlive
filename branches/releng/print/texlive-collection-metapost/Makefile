@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-metapost
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

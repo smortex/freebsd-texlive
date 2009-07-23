@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	bin-patgen
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

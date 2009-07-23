@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	type1cm
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

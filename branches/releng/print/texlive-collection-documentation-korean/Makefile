@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-documentation-korean
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

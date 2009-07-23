@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	bin-t1utils
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

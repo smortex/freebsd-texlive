@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-documentation-ukrainian
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 
