@@ -1,3 +1,0 @@
-The termlist package provides environments to indent and label
-any kind of terms with a continuous number. Candidate terms may
-appear inside an equation or eqnarray environment.

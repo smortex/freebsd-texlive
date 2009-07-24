@@ -1,5 +1,0 @@
-A bundle of utilities for manipulating PostScript documents,
-including page selection and rearrangement, resizing the page,
-arrangement into signatures for booklet printing, and page
-merging for n-up printing. Utilities include psbook, psselect,
-pstops, psnup, psresize, epsffit.

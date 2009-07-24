@@ -1,6 +1,0 @@
-The package provides tools for inserting nonbreakable spaces
-after nonsyllabic prepositions and single letter conjunctions
-as required by Czech and Slovak typographical rules. It is
-implemented using encTeX and provides files both for plain TeX
-and LaTeX. The LaTeX solution tries to avoid conflicts with
-other packages.

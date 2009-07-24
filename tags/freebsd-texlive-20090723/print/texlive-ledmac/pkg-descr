@@ -1,7 +1,0 @@
-A macro package for typesetting scholarly critical editions.
-The ledmac package is a LaTeX port of the plain TeX EDMAC
-macros. It supports indexing by page and line number and simple
-tabular- and array-style environments. The package is
-distributed with the related ledpar and ledarab packages; all
-three packages are in need of a new maintainer, since the
-original author can no longer offer his support.

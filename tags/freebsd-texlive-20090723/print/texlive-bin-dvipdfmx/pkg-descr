@@ -1,7 +1,0 @@
-Dvipdfmx (formerly dvipdfm-cjk) is a development of dvipdfm
-created to support multi-byte character encodings and large
-character sets for East Asian languages. A secondary design
-goal is to support as many “PDF” features as does pdfTeX.
-There being no documentation as such, users are advised to
-consult the documentation of dvipdfm (as well, of course, as
-the

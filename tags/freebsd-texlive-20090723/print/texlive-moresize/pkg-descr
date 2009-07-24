@@ -1,7 +1,0 @@
-A package for using font sizes up to 35.88pt, for example with
-the EC fonts. New commands \HUGE and \ssmall for selecting font
-sizes are provided together with some options working around
-current LaTeX2e shortcomings in using big font sizes. The
-package also provides options for improving the typesetting of
-paragraphs (or headlines) with embedded math expressions at
-font sizes above 17.28pt.

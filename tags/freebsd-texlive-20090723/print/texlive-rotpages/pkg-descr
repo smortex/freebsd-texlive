@@ -1,6 +1,0 @@
-The rotpages package allows you to format documents where small
-sets of pages are rotated by 180 degrees and rearranged, so
-that they can be read by turning the printed copy upside-down.
-It was primarly meant for collecting exercises and solutions:
-using the package, you can print the exercise text normally and
-the solutions rotated.

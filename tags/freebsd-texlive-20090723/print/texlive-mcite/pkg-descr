@@ -1,4 +1,0 @@
-The mcite package allows the user to collapse multiple
-citations into one, as is customary in physics journals. The
-package requires a customised BibTeX style for its work; the
-documentation explains how to do that customisation.

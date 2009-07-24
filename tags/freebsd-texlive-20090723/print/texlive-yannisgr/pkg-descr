@@ -1,5 +1,0 @@
-A family of 7-bit fonts with a code table designed for setting
-modern polytonic Greek. The fonts are provided in MetaFont
-form; macros to produce a Greek variant of Plain TeX (including
-a hyphenation table adapted to the fonts' code table) are
-provided.

@@ -1,6 +1,0 @@
-The combine class lets you bundle individual documents into a
-single document, such as when preparing a conference
-proceedings. The auxiliary combinet package puts the titles and
-authors from \maketitle commands into the main document's Table
-of Contents. The package cooperates with the abstract and
-titling packages.

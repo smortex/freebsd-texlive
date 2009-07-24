@@ -1,4 +1,0 @@
-Provides enumerate and itemize environments that can be used
-within paragraphs to format the items either as running text or
-as separate paragraphs with a preceding number or symbol. Also
-provides compacted versions of enumerate and itemize.

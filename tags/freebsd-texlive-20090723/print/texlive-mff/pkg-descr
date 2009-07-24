@@ -1,5 +1,0 @@
-A package to provide something similar to Adobe Type 1
-‘multiple master’ fonts, but using MetaFont; you specify a
-font by a set of MetaFont parameters, and TeX makes up an mf
-file to generate the required font; this package is not
-integrated with NFSS (or MakeTeXTFM) but it is fun

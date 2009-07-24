@@ -1,5 +1,0 @@
-This class allows LaTeX users to create a paperTeX newspaper.
-The final document has a front page and as many inner pages as
-desired. News items appear one after another and the user can
-choose the number of columns, style and so on. The class allows
-users to create newsletters too.
