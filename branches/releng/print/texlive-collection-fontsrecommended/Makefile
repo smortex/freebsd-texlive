@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	collection-fontsrecommended
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

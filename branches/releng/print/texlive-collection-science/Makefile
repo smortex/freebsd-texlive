@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	collection-science
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	collection-langnorwegian
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

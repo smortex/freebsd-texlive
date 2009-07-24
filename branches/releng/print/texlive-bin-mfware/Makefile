@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	bin-mfware
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

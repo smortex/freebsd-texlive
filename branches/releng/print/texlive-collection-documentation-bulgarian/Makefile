@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	collection-documentation-bulgarian
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

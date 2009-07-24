@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	collection-documentation-russian
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

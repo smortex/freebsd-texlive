@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTREVISION=	11
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

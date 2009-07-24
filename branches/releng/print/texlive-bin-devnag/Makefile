@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	bin-devnag
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

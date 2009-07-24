@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	bin-lacheck
-PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

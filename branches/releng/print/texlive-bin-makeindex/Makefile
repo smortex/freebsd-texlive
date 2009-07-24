@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	bin-makeindex
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

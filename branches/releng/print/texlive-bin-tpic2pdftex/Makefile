@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	bin-tpic2pdftex
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	bin-web
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

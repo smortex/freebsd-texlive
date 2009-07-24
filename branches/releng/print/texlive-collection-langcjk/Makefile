@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	collection-langcjk
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

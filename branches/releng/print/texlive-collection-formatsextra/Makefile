@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	collection-formatsextra
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

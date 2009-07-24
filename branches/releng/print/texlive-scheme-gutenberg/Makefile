@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	scheme-gutenberg
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

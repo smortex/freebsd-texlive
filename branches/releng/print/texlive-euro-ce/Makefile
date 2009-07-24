@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	euro-ce
-PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

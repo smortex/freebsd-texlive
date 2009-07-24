@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	bin-dialog
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	collection-langother
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

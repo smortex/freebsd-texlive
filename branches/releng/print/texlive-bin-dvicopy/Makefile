@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	bin-dvicopy
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

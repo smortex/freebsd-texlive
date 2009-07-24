@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	collection-langcyrillic
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

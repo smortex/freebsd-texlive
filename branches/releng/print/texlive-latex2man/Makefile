@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	latex2man
-PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

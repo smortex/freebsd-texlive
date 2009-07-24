@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	flabels
-PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

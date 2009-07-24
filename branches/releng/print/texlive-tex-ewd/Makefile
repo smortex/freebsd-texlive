@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	tex-ewd
-PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	bin-gsftopk
-PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

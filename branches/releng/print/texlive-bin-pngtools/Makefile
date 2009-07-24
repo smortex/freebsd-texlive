@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	bin-pngtools
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

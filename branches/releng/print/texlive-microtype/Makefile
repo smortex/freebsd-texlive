@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	microtype
-PORTREVISION=	11
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

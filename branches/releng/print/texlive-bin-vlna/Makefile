@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	bin-vlna
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	bin-fontware
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

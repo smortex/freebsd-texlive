@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	bin-kpathsea
-PORTREVISION=	31
+PORTREVISION=	3
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

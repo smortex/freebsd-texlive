@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	fn2end
-PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

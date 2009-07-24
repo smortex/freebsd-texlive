@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	collection-documentation-chinese
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

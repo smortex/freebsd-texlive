@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	bin-texware
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

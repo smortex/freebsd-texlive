@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	pst-dbicons
-PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	cooltooltips
-PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	bin-ebong
-PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

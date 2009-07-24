@@ -6,7 +6,6 @@
 #
 
 PORTNAME=	sort-by-letters
-PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
