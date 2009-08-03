@@ -1,0 +1,5 @@
+Provides fullpage and leftfullpage environments, that may be
+used inside a figure, table, or other float environment. If the
+first of a 2-page spread uses a "leftfullpage" environment, the
+float will only be typeset on an even-numbered page, and the
+two floats will appear side-by-side in a two-sided document.

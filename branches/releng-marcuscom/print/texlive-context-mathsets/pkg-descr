@@ -1,0 +1,4 @@
+Typeset good-looking set notation (e.g., {x|x \in Y}), as well
+as similar things such as Dirac bra-ket notation, conditional
+probabilities, etc. The package is a partial port of Donald
+Arseneau's LaTeX package braket.

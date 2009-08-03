@@ -1,0 +1,4 @@
+The oinuit system is a set of Lambda (Omega LaTeX) typesetting
+tools for the Inuktitut language. The oinuit package supports
+five different input methods and is bundled with the necessary
+fonts.

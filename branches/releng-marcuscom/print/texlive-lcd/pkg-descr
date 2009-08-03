@@ -1,0 +1,2 @@
+A LaTeX package that will display text as on an LCD display.
+Assumes 8-bit input in its internal verbatim-style environment.

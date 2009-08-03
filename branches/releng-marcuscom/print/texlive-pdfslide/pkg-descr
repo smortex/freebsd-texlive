@@ -1,0 +1,10 @@
+This is a package for use with pdftex, to make nice
+presentation slides. Its aims are: to devise a method for
+easier technical presentation; to help the mix of mathematical
+formulae with text and graphics which the present day wysiwyg
+tools fail to accomplish; to exploit the platform independence
+of TeX so that presentation documents become portable; and to
+offer the freedom and possibilities of using various
+backgrounds and other embellishments that a user can imagine to
+have in as presentation. The package can make use of the
+facilities of the PPower4 post-processor.

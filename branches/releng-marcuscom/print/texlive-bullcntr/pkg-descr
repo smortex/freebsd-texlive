@@ -1,0 +1,4 @@
+The bullcntr package defines the command bullcntr, which can be
+thought of as an analogue of the \fnsymbol command: like the
+latter, it displays the value of a counter lying between 1 and
+9, but uses, for the purpose, a regular pattern of bullets.
