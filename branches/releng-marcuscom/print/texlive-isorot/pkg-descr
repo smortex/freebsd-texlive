@@ -1,4 +1,0 @@
-The isorot package is for rotation of document elements. It is
-a combination of the lscape package and an extension of the
-rotating package. The package is designed for use with the iso
-class but may be used with any normal class.

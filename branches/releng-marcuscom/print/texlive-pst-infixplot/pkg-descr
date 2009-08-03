@@ -1,6 +1,0 @@
-Plotting functions with pst-plot is very powerful but sometimes
-difficult to learn since the syntax of \psplot and
-\parametricplot requires some PostScript knowledge. The infix-
-RPN and pst-infixplot styles simplify the usage of pst-plot for
-the beginner, providing macro commands that convert natural
-mathematical expressions to PostScript syntax.

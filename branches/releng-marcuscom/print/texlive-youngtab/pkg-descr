@@ -1,3 +1,0 @@
-A package for typesetting Young-Tableaux, mathematical symbols
-for the representations of groups, providing two macros,
-\yng(1) and \young(1) to generate the whole Young-Tableaux.

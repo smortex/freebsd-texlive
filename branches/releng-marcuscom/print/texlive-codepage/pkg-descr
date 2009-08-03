@@ -1,3 +1,0 @@
-The package provides a mechanism for inputting non-ASCII text.
-Nowadays, the job is mostly done by the inputenc package in the
-LaTeX distribution.

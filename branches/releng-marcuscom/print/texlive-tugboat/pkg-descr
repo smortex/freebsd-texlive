@@ -1,4 +1,0 @@
-Provides both ltugboat.cls (for ordinary issues of the journal)
-and ltugproc.cls (for issues that are proceedings of TUG
-meetings). The distribution also includes a BibTeX style
-appropriate for use with the classes’ “harvard” option.

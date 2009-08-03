@@ -1,4 +1,0 @@
-This package contains the files needed to get the TeX Live
-tools (notably tlmgr) running. That comprises the perl modules,
-documentation, and the lzma binaries, plus tar and wget,
-sometimes. These files end up in the install packages.

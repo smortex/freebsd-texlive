@@ -1,6 +1,0 @@
-Curve2e extends the drawing capacities of the new standard
-pict2e LaTeX package. In particular, it introduces new macros
-for lines and vectors, new specifications for line terminations
-and joins, arcs with any angular aperture, arcs with arrows at
-one or both ends, generic curves specified with their nodes and
-the tangent direction at these nodes.
