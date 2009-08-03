@@ -2,13 +2,13 @@
 # Date created:				09 January 2005
 # Whom:					Adam Weinberger <adamw@FreeBSD.org>
 #
-# $FreeBSD: ports/graphics/evince/Makefile,v 1.47 2009/07/03 14:23:32 stas Exp $
+# $FreeBSD: ports/graphics/evince/Makefile,v 1.49 2009/08/02 19:34:01 mezz Exp $
 #   $MCom: ports-stable/graphics/evince/Makefile,v 1.7 2009/04/16 08:20:58 kwm Exp $
 #
 
 PORTNAME=	evince
 PORTVERSION=	2.26.2
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	graphics print gnome
 MASTER_SITES=	GNOME
 DIST_SUBDIR=	gnome2
@@ -21,7 +21,7 @@ LIB_DEPENDS=	poppler-glib.4:${PORTSDIR}/graphics/poppler-gtk \
 
 USE_LDCONFIG=	yes
 USE_BZIP2=	yes
-USE_AUTOTOOLS=	libtool:15
+USE_AUTOTOOLS=	libtool:22
 INSTALLS_ICONS=	yes
 USE_GETTEXT=	yes
 USE_GMAKE=	yes
