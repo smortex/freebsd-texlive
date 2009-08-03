@@ -26,7 +26,7 @@ RUN_DEPENDS=	${TEXMFLOCAL_LSR}:${PORTSDIR}/print/tex-texmflocal \
 		${LOCALBASE}/share/fonts/amspsfont/READ.ME:${PORTSDIR}/print/amspsfnt
 
 CONFLICTS=	latex2e-[0-9]* tex-[0-9]* dvips-[0-9]* xdvi-[0-9]* \
-		ja-ptext-base-[0-9]* texlive-*-[0-9]*
+		ja-ptext-base-[0-9]* texlive-*-*[0-9]*
 
 .include <bsd.port.pre.mk>
 
