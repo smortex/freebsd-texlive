@@ -6,7 +6,7 @@
 
 PORTNAME=	teTeX-texmf
 PORTVERSION=	3.0
-PORTREVISION=	6
+PORTREVISION=	7
 CATEGORIES=	print
 MASTER_SITES=	${MASTER_SITE_TEX_CTAN} \
 		ftp://ftp.ascii.co.jp/pub/TeX/ascii-ptex/dvips/:1
@@ -26,7 +26,7 @@ RUN_DEPENDS=	${TEXMFLOCAL_LSR}:${PORTSDIR}/print/tex-texmflocal \
 		${LOCALBASE}/share/fonts/amspsfont/READ.ME:${PORTSDIR}/print/amspsfnt
 
 CONFLICTS=	latex2e-[0-9]* tex-[0-9]* dvips-[0-9]* xdvi-[0-9]* \
-		ja-ptext-base-[0-9]*
+		ja-ptext-base-[0-9]* texlive-*-[0-9]*
 
 .include <bsd.port.pre.mk>
 

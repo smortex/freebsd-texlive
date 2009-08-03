@@ -7,7 +7,7 @@
 
 PORTNAME=	teTeX-base
 PORTVERSION=	3.0
-PORTREVISION=	16
+PORTREVISION=	17
 CATEGORIES=	print
 MASTER_SITES=	${MASTER_SITE_TEX_CTAN} \
 		ftp://ftp.ascii.co.jp/pub/TeX/ascii-ptex/dvips/:1
@@ -53,7 +53,8 @@ CONFIGURE_ENV=	INSTALL_SCRIPT="${INSTALL_SCRIPT}" \
 		CFLAGS="${CFLAGS} -I${LOCALBASE}/include"
 PKGMESSAGE=	${WRKDIR}/pkg-message
 CONFLICTS=	ja-ptex-base-[0-9]* latex2e-[0-9]* \
-		tex-[0-9]* dvips-[0-9]* xdvi-[0-9]*
+		tex-[0-9]* dvips-[0-9]* xdvi-[0-9]* \
+		texlive-core-[0-9]*
 
 MAN1=	tie.1 kpseaccess.1 kpsereadlink.1 mpost.1 \
 	dmp.1 dvicopy.1 dvilj.1 dvipdfm.1 \
