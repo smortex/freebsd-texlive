@@ -1,10 +1,13 @@
 bin/evince
+bin/evince-previewer
 bin/evince-thumbnailer
 include/evince/2.25/evince-document.h
 include/evince/2.25/evince-view.h
+include/evince/2.25/libdocument/ev-annotation.h
 include/evince/2.25/libdocument/ev-async-renderer.h
 include/evince/2.25/libdocument/ev-attachment.h
 include/evince/2.25/libdocument/ev-backends-manager.h
+include/evince/2.25/libdocument/ev-document-annotations.h
 include/evince/2.25/libdocument/ev-document-factory.h
 include/evince/2.25/libdocument/ev-document-find.h
 include/evince/2.25/libdocument/ev-document-fonts.h
@@ -14,6 +17,7 @@ include/evince/2.25/libdocument/ev-document-info.h
 include/evince/2.25/libdocument/ev-document-layers.h
 include/evince/2.25/libdocument/ev-document-links.h
 include/evince/2.25/libdocument/ev-document-misc.h
+include/evince/2.25/libdocument/ev-document-print.h
 include/evince/2.25/libdocument/ev-document-security.h
 include/evince/2.25/libdocument/ev-document-thumbnails.h
 include/evince/2.25/libdocument/ev-document-transition.h
@@ -28,6 +32,7 @@ include/evince/2.25/libdocument/ev-layer.h
 include/evince/2.25/libdocument/ev-link-action.h
 include/evince/2.25/libdocument/ev-link-dest.h
 include/evince/2.25/libdocument/ev-link.h
+include/evince/2.25/libdocument/ev-mapping.h
 include/evince/2.25/libdocument/ev-page.h
 include/evince/2.25/libdocument/ev-render-context.h
 include/evince/2.25/libdocument/ev-selection.h
@@ -36,6 +41,7 @@ include/evince/2.25/libdocument/ev-version.h
 include/evince/2.25/libview/ev-job-scheduler.h
 include/evince/2.25/libview/ev-jobs.h
 include/evince/2.25/libview/ev-page-cache.h
+include/evince/2.25/libview/ev-stock-icons.h
 include/evince/2.25/libview/ev-view-type-builtins.h
 include/evince/2.25/libview/ev-view.h
 %%COMICS%%lib/evince/1/backends/comicsdocument.evince-backend
@@ -95,7 +101,6 @@ share/applications/evince.desktop
 %%DOCSDIR%%/evince-ev-properties-dialog.html
 %%DOCSDIR%%/evince-ev-properties-fonts.html
 %%DOCSDIR%%/evince-ev-sidebar-page.html
-%%DOCSDIR%%/evince-ev-stock-icons.html
 %%DOCSDIR%%/evince-ev-utils.html
 %%DOCSDIR%%/evince-ev-window-title.html
 %%DOCSDIR%%/evince.devhelp
@@ -150,20 +155,22 @@ share/doc/libevdocument/libevdocument.devhelp2
 share/doc/libevdocument/right.png
 share/doc/libevdocument/style.css
 share/doc/libevdocument/up.png
-share/doc/libevview/EvJobExport.html
 share/doc/libevview/ch01.html
 share/doc/libevview/home.png
 share/doc/libevview/index.html
 share/doc/libevview/index.sgml
 share/doc/libevview/left.png
+share/doc/libevview/libevview-EvJobPrint.html
 share/doc/libevview/libevview-ev-job-scheduler.html
 share/doc/libevview/libevview-ev-page-cache.html
+share/doc/libevview/libevview-ev-stock-icons.html
 share/doc/libevview/libevview-ev-view.html
 share/doc/libevview/libevview.devhelp
 share/doc/libevview/libevview.devhelp2
 share/doc/libevview/right.png
 share/doc/libevview/style.css
 share/doc/libevview/up.png
+%%DATADIR%%/evince-previewer-ui.xml
 %%DATADIR%%/evince-toolbar.xml
 %%DATADIR%%/evince-ui.xml
 %%DATADIR%%/hand-open.png
@@ -185,8 +192,11 @@ share/doc/libevview/up.png
 %%DATADIR%%/icons/hicolor/24x24/actions/zoom.png
 %%DATADIR%%/icons/hicolor/32x32/actions/view-page-continuous.png
 %%DATADIR%%/icons/hicolor/32x32/actions/view-page-facing.png
+%%DATADIR%%/icons/hicolor/48x48/actions/close.png
 %%DATADIR%%/icons/hicolor/48x48/actions/view-page-continuous.png
 %%DATADIR%%/icons/hicolor/48x48/actions/view-page-facing.png
+%%DATADIR%%/icons/hicolor/48x48/actions/resize-se.png
+%%DATADIR%%/icons/hicolor/48x48/actions/resize-sw.png
 share/gnome/help/evince/C/evince.xml
 share/gnome/help/evince/C/figures/evince_start_window.png
 share/gnome/help/evince/C/legal.xml
@@ -228,6 +238,8 @@ share/gnome/help/evince/sv/evince.xml
 share/gnome/help/evince/sv/figures/evince_start_window.png
 share/gnome/help/evince/uk/evince.xml
 share/gnome/help/evince/uk/figures/evince_start_window.png
+share/gnome/help/evince/vi/evince.xml
+share/gnome/help/evince/vi/figures/evince_start_window.png
 share/gnome/help/evince/zh_CN/evince.xml
 share/gnome/help/evince/zh_CN/figures/evince_start_window.png
 share/icons/hicolor/16x16/apps/evince.png
@@ -330,6 +342,7 @@ share/omf/evince/evince-ru.omf
 share/omf/evince/evince-sr.omf
 share/omf/evince/evince-sv.omf
 share/omf/evince/evince-uk.omf
+share/omf/evince/evince-vi.omf
 share/omf/evince/evince-zh_CN.omf
 share/locale/be@latin/LC_MESSAGES/evince.mo
 share/locale/sr@latin/LC_MESSAGES/evince.mo
@@ -338,6 +351,8 @@ share/locale/sr@latin/LC_MESSAGES/evince.mo
 @dirrm share/gnome/help/evince/zh_CN
 @dirrm share/gnome/help/evince/uk/figures
 @dirrm share/gnome/help/evince/uk
+@dirrm share/gnome/help/evince/vi/figures
+@dirrm share/gnome/help/evince/vi
 @dirrm share/gnome/help/evince/sv/figures
 @dirrm share/gnome/help/evince/sv
 @dirrm share/gnome/help/evince/sr/figures

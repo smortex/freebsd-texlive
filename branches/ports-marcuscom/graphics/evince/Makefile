@@ -2,12 +2,12 @@
 # Date created:				09 January 2005
 # Whom:					Adam Weinberger <adamw@FreeBSD.org>
 #
-# $FreeBSD: ports/graphics/evince/Makefile,v 1.49 2009/08/02 19:34:01 mezz Exp $
-#   $MCom: ports-stable/graphics/evince/Makefile,v 1.7 2009/04/16 08:20:58 kwm Exp $
+# $FreeBSD$
+#   $MCom: ports/graphics/evince/Makefile,v 1.126 2009/07/29 22:05:58 kwm Exp $
 #
 
 PORTNAME=	evince
-PORTVERSION=	2.26.2
+PORTVERSION=	2.27.4
 PORTREVISION=	2
 CATEGORIES=	graphics print gnome
 MASTER_SITES=	GNOME
@@ -30,9 +30,9 @@ USE_GNOME=	gnomehack intlhack gnomeprefix desktopfileutils \
 		gnomedocutils ltasneededhack
 CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \
 		LDFLAGS="-L${LOCALBASE}/lib"
-CONFIGURE_ARGS=	--with-print=gtk
 
-GCONF_SCHEMAS=	evince.schemas evince-thumbnailer.schemas \
+GCONF_SCHEMAS=	evince.schemas \
+		evince-thumbnailer.schemas \
 		evince-thumbnailer-ps.schemas
 
 MAN1=		evince.1
