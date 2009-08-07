@@ -1,7 +1,7 @@
 #-*- mode: makefile; tab-width: 4; -*-
 # ex:ts=4
 #
-# $FreeBSD: ports/Mk/bsd.port.mk,v 1.624 2009/06/26 17:03:48 bsam Exp $
+# $FreeBSD: ports/Mk/bsd.port.mk,v 1.625 2009/08/03 15:36:58 miwi Exp $
 #	$NetBSD: $
 #
 #	bsd.port.mk - 940820 Jordan K. Hubbard.
@@ -2385,20 +2385,6 @@ _PORTDIRNAME=	${.CURDIR:T}
 PORTDIRNAME?=	${_PORTDIRNAME}
 PKGORIGIN?=		${PKGCATEGORY}/${PORTDIRNAME}
 
-
-.if exists(${LOCALBASE}/sbin/pkg_info)
-PKG_CMD?=		${LOCALBASE}/sbin/pkg_create
-PKG_ADD?=		${LOCALBASE}/sbin/pkg_add
-PKG_DELETE?=	${LOCALBASE}/sbin/pkg_delete
-PKG_INFO?=		${LOCALBASE}/sbin/pkg_info
-PKG_VERSION?=		${LOCALBASE}/sbin/pkg_version
-.else
-PKG_CMD?=		/usr/sbin/pkg_create
-PKG_ADD?=		/usr/sbin/pkg_add
-PKG_DELETE?=	/usr/sbin/pkg_delete
-PKG_INFO?=		/usr/sbin/pkg_info
-PKG_VERSION?=		/usr/sbin/pkg_version
-.endif
 
 .if !defined(PKG_ARGS)
 PKG_ARGS=		-v -c -${COMMENT:Q} -d ${DESCR} -f ${TMPPLIST} -p ${PREFIX} -P "`cd ${.CURDIR} && ${MAKE} actual-package-depends | ${GREP} -v -E ${PKG_IGNORE_DEPENDS} | ${SORT} -u -t : -k 2`" ${EXTRA_PKG_ARGS} $${_LATE_PKG_ARGS}
