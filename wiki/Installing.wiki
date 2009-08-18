@@ -7,7 +7,7 @@ There are basically two ways for running TeXLive on FreeBSD:
   * Use TeXLive ports from the FreeBSD-TeXLive repository;
   * Build your own TeXLive ports.
 
-== Installing from the FreeBSD-TeXLive repository ==
+== Installing from the FreeBSD-TeXLive repository (recommanded) ==
 
 FreeBSD ports for all TeXLive packages are located in the `releng` branch of the repository. Install it using portshaker:
 
@@ -21,14 +21,14 @@ shell> cat << EOT > "/usr/local/etc/portshaker.conf"
 mirror_base_dir="/var/cache/portshaker"
 ports_trees="main"
 main_ports_tree="/usr/ports"
-main_merge_from="freebsd freebsd_texlive_releng"
+main_merge_from="freebsd freebsd_texlive_releng freebsd_texlive_ports"
 EOT
 shell> portshaker -v
 }}}
 
 == Building your own TeXLive ports ==
 
-=== Checkout the FreeBSD-TeXLive repository ===
+=== Checkout the FreeBSD-TeXLive repository (painful so NOT recommanded) ===
 
 {{{
 shell> svn co "http://bsd-sharp.googlecode.com/svn/branches/portshaker/"
@@ -40,7 +40,7 @@ shell> cat << EOT > "/usr/local/etc/portshaker.conf"
 mirror_base_dir="/var/cache/portshaker"
 ports_trees="main"
 main_ports_tree="/usr/ports"
-main_merge_from="freebsd texlive"
+main_merge_from="freebsd freebsd_texlive freebsd_texlive_ports"
 EOT
 shell> portshaker -v
 }}}
