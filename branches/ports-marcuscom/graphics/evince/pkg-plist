@@ -96,11 +96,11 @@ share/applications/evince.desktop
 %%DOCSDIR%%/evince-EvSidebar.html
 %%DOCSDIR%%/evince-EvSidebarAttachments.html
 %%DOCSDIR%%/evince-EvSidebarLinks.html
+%%DOCSDIR%%/evince-EvSidebarPage.html
 %%DOCSDIR%%/evince-EvSidebarThumbnails.html
 %%DOCSDIR%%/evince-ev-metadata-manager.html
 %%DOCSDIR%%/evince-ev-properties-dialog.html
 %%DOCSDIR%%/evince-ev-properties-fonts.html
-%%DOCSDIR%%/evince-ev-sidebar-page.html
 %%DOCSDIR%%/evince-ev-utils.html
 %%DOCSDIR%%/evince-ev-window-title.html
 %%DOCSDIR%%/evince.devhelp
@@ -114,12 +114,25 @@ share/applications/evince.desktop
 %%DOCSDIR%%/right.png
 %%DOCSDIR%%/style.css
 %%DOCSDIR%%/up.png
+share/doc/libevdocument/EvAsyncRenderer.html
 share/doc/libevdocument/EvAttachment.html
+share/doc/libevdocument/EvDocument.html
+share/doc/libevdocument/EvDocumentFind.html
+share/doc/libevdocument/EvDocumentFonts.html
+share/doc/libevdocument/EvDocumentForms.html
+share/doc/libevdocument/EvDocumentImages.html
+share/doc/libevdocument/EvDocumentLayers.html
+share/doc/libevdocument/EvDocumentLinks.html
+share/doc/libevdocument/EvDocumentSecurity.html
+share/doc/libevdocument/EvDocumentThumbnails.html
+share/doc/libevdocument/EvDocumentTransition.html
+share/doc/libevdocument/EvFileExporter.html
 share/doc/libevdocument/EvFormFieldSignature.html
 share/doc/libevdocument/EvImage.html
 share/doc/libevdocument/EvLayer.html
 share/doc/libevdocument/EvPage.html
 share/doc/libevdocument/EvRenderContext.html
+share/doc/libevdocument/EvSelection.html
 share/doc/libevdocument/data.html
 share/doc/libevdocument/helper.html
 share/doc/libevdocument/home.png
@@ -127,28 +140,15 @@ share/doc/libevdocument/index.html
 share/doc/libevdocument/index.sgml
 share/doc/libevdocument/interfaces.html
 share/doc/libevdocument/left.png
-share/doc/libevdocument/libevdocument-ev-async-renderer.html
 share/doc/libevdocument/libevdocument-ev-backends-manager.html
 share/doc/libevdocument/libevdocument-ev-document-factory.html
-share/doc/libevdocument/libevdocument-ev-document-find.html
-share/doc/libevdocument/libevdocument-ev-document-fonts.html
-share/doc/libevdocument/libevdocument-ev-document-forms.html
-share/doc/libevdocument/libevdocument-ev-document-images.html
 share/doc/libevdocument/libevdocument-ev-document-info.html
-share/doc/libevdocument/libevdocument-ev-document-layers.html
-share/doc/libevdocument/libevdocument-ev-document-links.html
 share/doc/libevdocument/libevdocument-ev-document-misc.html
-share/doc/libevdocument/libevdocument-ev-document-security.html
-share/doc/libevdocument/libevdocument-ev-document-thumbnails.html
-share/doc/libevdocument/libevdocument-ev-document-transition.html
-share/doc/libevdocument/libevdocument-ev-document.html
-share/doc/libevdocument/libevdocument-ev-file-exporter.html
 share/doc/libevdocument/libevdocument-ev-file-helpers.html
 share/doc/libevdocument/libevdocument-ev-init.html
 share/doc/libevdocument/libevdocument-ev-link-action.html
 share/doc/libevdocument/libevdocument-ev-link-dest.html
 share/doc/libevdocument/libevdocument-ev-link.html
-share/doc/libevdocument/libevdocument-ev-selection.html
 share/doc/libevdocument/libevdocument-ev-transition-effect.html
 share/doc/libevdocument/libevdocument.devhelp
 share/doc/libevdocument/libevdocument.devhelp2
@@ -257,6 +257,7 @@ share/locale/bn/LC_MESSAGES/evince.mo
 share/locale/bn_IN/LC_MESSAGES/evince.mo
 share/locale/br/LC_MESSAGES/evince.mo
 share/locale/ca/LC_MESSAGES/evince.mo
+share/locale/ca@valencia/LC_MESSAGES/evince.mo
 share/locale/cs/LC_MESSAGES/evince.mo
 share/locale/cy/LC_MESSAGES/evince.mo
 share/locale/da/LC_MESSAGES/evince.mo
@@ -444,6 +445,8 @@ share/locale/sr@latin/LC_MESSAGES/evince.mo
 @dirrmtry share/locale/ks
 @dirrmtry share/locale/dz/LC_MESSAGES
 @dirrmtry share/locale/dz
+@dirrmtry share/locale/ca@valencia/LC_MESSAGES
+@dirrmtry share/locale/ca@valencia
 @dirrmtry share/locale/bn_IN/LC_MESSAGES
 @dirrmtry share/locale/bn_IN
 @dirrmtry share/locale/be@latin/LC_MESSAGES
