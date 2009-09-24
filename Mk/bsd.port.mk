@@ -1,7 +1,7 @@
 #-*- mode: makefile; tab-width: 4; -*-
 # ex:ts=4
 #
-# $FreeBSD: ports/Mk/bsd.port.mk,v 1.628 2009/09/17 12:24:09 flz Exp $
+# $FreeBSD: ports/Mk/bsd.port.mk,v 1.629 2009/09/21 19:13:51 naddy Exp $
 #	$NetBSD: $
 #
 #	bsd.port.mk - 940820 Jordan K. Hubbard.
@@ -701,9 +701,9 @@ FreeBSD_MAINTAINER=	portmgr@FreeBSD.org
 #
 # Default targets and their behaviors:
 #
-# fetch				- Retrieves missing ${DISTFILES} and ${PATCHFILES} for this
+# fetch			- Retrieves missing ${DISTFILES} and ${PATCHFILES} for this
 #				  port.
-# fetch-list			- Show list of commands to retrieve missing ${DISTFILES} and
+# fetch-list	- Show list of commands to retrieve missing ${DISTFILES} and
 #				  ${PATCHFILES} for this port.
 # fetch-recursive
 #				- Retrieves missing ${DISTFILES} and ${PATCHFILES} for this
@@ -773,7 +773,8 @@ FreeBSD_MAINTAINER=	portmgr@FreeBSD.org
 #				  Automatically run prior to extract, patch, configure, build,
 #				  install, and package.
 # config-recursive
-#				- Configure options for this port for this port and all dependencies.
+#				- Configure options for this port for this port and all
+#				  dependencies.
 # showconfig	- Display options config for this port.
 # showconfig-recursive
 #				- Display options config for this port and all dependencies.
@@ -1037,10 +1038,10 @@ FreeBSD_MAINTAINER=	portmgr@FreeBSD.org
 #				  Default: ${PREFIX}/www/${PORTNAME}
 # WWWDIR_REL	- The WWWDIR relative to ${PREFIX}
 #
-# USERS			- List of users to create at install time. Each login must have a
-# 				  corresponding entry in ${UID_FILES}.
-# GROUPS		- List of groups to create at install time. Each group must have a
-# 				  corresponding entry in ${GID_FILES}.
+# USERS			- List of users to create at install time. Each login must
+# 				  have a corresponding entry in ${UID_FILES}.
+# GROUPS		- List of groups to create at install time. Each group must
+# 				  have a corresponding entry in ${GID_FILES}.
 #
 # DESKTOPDIR	- Name of the directory to install ${DESKTOP_ENTRIES} in.
 #				  Default: ${PREFIX}/share/applications
