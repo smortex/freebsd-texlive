@@ -1739,7 +1739,7 @@ EXTRACT_DEPENDS+=	unzip:${PORTSDIR}/archivers/unzip
 EXTRACT_DEPENDS+=	unmakeself:${PORTSDIR}/archivers/unmakeself
 .endif
 .if defined(USE_LZMA)
-EXTRACT_DEPENDS=	lzma:${PORTSDIR}/archivers/lzmautils
+EXTRACT_DEPENDS=	lzma:${PORTSDIR}/archivers/xz
 .endif
 .if defined(USE_GMAKE)
 BUILD_DEPENDS+=		gmake:${PORTSDIR}/devel/gmake
