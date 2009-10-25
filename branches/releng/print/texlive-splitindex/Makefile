@@ -12,7 +12,6 @@ CATEGORIES=	print
 MAINTAINER=	romain@blogreen.org
 COMMENT=	Unlimited number of indexes.
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

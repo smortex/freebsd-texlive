@@ -11,7 +11,6 @@ CATEGORIES=	print
 MAINTAINER=	romain@blogreen.org
 COMMENT=	Degrading JPEG images in ConTeXt.
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

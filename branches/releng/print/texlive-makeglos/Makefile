@@ -11,7 +11,6 @@ CATEGORIES=	print
 MAINTAINER=	romain@blogreen.org
 COMMENT=	Include a glossary into a document.
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

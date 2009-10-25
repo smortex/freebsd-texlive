@@ -11,7 +11,6 @@ CATEGORIES=	print
 MAINTAINER=	romain@blogreen.org
 COMMENT=	Convert a number to its English expression.
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -11,7 +11,6 @@ CATEGORIES=	print
 MAINTAINER=	romain@blogreen.org
 COMMENT=	Adds relative coordinates and improves the \plot command.
 
-LSE_LZMA=	yes
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
 

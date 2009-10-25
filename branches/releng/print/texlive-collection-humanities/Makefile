@@ -45,7 +45,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/alnumsec/alnumsec.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/verse/verse.sty:${PORTSDIR}/print/texlive-verse \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xyling/xyling.sty:${PORTSDIR}/print/texlive-xyling
 
-LSE_LZMA=	yes
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
 

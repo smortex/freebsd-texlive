@@ -11,7 +11,6 @@ CATEGORIES=	print
 MAINTAINER=	romain@blogreen.org
 COMMENT=	XeTeX input map for Unicode Devanagari.
 
-LSE_LZMA=	yes
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
 

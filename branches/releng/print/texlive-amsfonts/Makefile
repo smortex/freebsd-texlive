@@ -13,7 +13,6 @@ COMMENT=	TeX fonts from the American Mathematical Society.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bib/ams/amsj.bib:${PORTSDIR}/print/texlive-ams
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

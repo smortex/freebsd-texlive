@@ -11,7 +11,6 @@ CATEGORIES=	print
 MAINTAINER=	romain@blogreen.org
 COMMENT=	Various BibTeX formats for journals in Chemistry.
 
-LSE_LZMA=	yes
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
 

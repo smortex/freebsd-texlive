@@ -13,7 +13,6 @@ COMMENT=	CyrTUG Cyrillic alphabet fonts ("LH") with support of LaTeX standard en
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/source/jknappen/ec/ecbi.mf:${PORTSDIR}/print/texlive-ec
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

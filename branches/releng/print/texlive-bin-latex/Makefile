@@ -18,7 +18,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/fmtutil/format.luatex.cnf:${PORTSDIR}/prin
 		${LOCALBASE}/share/texmf-dist/fonts/afm/bluesky/latex-fonts/lasy10.afm:${PORTSDIR}/print/texlive-latex-fonts \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -15,7 +15,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/map/glyphlist/glyphlist.txt:${P
 		${LOCALBASE}/share/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def:${PORTSDIR}/print/texlive-dvipdfmx-def \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
-LSE_LZMA=	yes
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
 

@@ -13,7 +13,6 @@ COMMENT=	UML diagrams with PSTricks.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/multido/multido.tex:${PORTSDIR}/print/texlive-multido
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

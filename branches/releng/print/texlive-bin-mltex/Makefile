@@ -14,7 +14,6 @@ COMMENT=	The MLTeX system.
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/fmtutil/format.latex.cnf:${PORTSDIR}/print/texlive-bin-latex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
-LSE_LZMA=	yes
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
 

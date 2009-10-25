@@ -66,7 +66,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bib/ams/amsj.bib:${PORTSDIR}/p
 		${LOCALBASE}/share/texmf-dist/scripts/texcount/TeXcount.pl:${PORTSDIR}/print/texlive-texcount \
 		${LOCALBASE}/share/texmf/scripts/xindy/texindy.pl:${PORTSDIR}/print/texlive-xindy
 
-LSE_LZMA=	yes
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
 

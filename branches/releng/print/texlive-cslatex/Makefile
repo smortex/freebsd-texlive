@@ -13,7 +13,6 @@ COMMENT=	LaTeX support for Czech/Slovak typesetting.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/fmtutil/format.cslatex.cnf:${PORTSDIR}/print/texlive-bin-cslatex
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

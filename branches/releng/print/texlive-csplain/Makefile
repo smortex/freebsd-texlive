@@ -13,7 +13,6 @@ COMMENT=	Plain TeX support for Czech/Slovak typesetting.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/fmtutil/format.csplain.cnf:${PORTSDIR}/print/texlive-bin-csplain
 
-LSE_LZMA=	yes
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
 

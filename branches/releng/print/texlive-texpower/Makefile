@@ -13,7 +13,6 @@ COMMENT=	Create dynamic online presentations with LaTeX.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/tpslifonts/tpslifonts.sty:${PORTSDIR}/print/texlive-tpslifonts
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -14,7 +14,6 @@ COMMENT=	TrueType font manipulation
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/sfd/ttf2pk/Big5.sfd:${PORTSDIR}/print/texlive-bin-ttfutils
 
-LSE_LZMA=	yes
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
 

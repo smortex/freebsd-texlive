@@ -13,7 +13,6 @@ COMMENT=	A wide-character-set extension of TeX.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/fmtutil/format.omega.cnf:${PORTSDIR}/print/texlive-bin-omega
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

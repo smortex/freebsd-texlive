@@ -13,7 +13,6 @@ COMMENT=	The metafont package
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/fmtutil/format.metafont.cnf:${PORTSDIR}/print/texlive-bin-metafont
 
-LSE_LZMA=	yes
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
 

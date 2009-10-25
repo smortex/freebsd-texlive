@@ -13,7 +13,6 @@ COMMENT=	Plain TeX macros for Physicists.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/fmtutil/format.texsis.cnf:${PORTSDIR}/print/texlive-bin-texsis
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -14,7 +14,6 @@ COMMENT=	Polish formats for TeX.
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/dvips/pl/config.pl:${PORTSDIR}/print/texlive-pl \
 		${LOCALBASE}/share/texmf/fmtutil/format.mex.cnf:${PORTSDIR}/print/texlive-bin-mex
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

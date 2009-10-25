@@ -13,7 +13,6 @@ COMMENT=	The PHYSE format.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/fmtutil/format.physe.cnf:${PORTSDIR}/print/texlive-bin-physe
 
-LSE_LZMA=	yes
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
 

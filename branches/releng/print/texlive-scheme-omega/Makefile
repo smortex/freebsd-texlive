@@ -239,7 +239,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bib/ams/amsj.bib:${PORTSDIR}/p
 		${LOCALBASE}/share/texmf/fmtutil/format.omega.cnf:${PORTSDIR}/print/texlive-bin-omega \
 		${LOCALBASE}/share/texmf-dist/tex/texinfo/texinfo.tex:${PORTSDIR}/print/texlive-texinfo
 
-LSE_LZMA=	yes
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
 

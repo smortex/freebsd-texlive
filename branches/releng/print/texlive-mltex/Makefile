@@ -13,7 +13,6 @@ COMMENT=	The MLTeX system.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/fmtutil/format.mltex.cnf:${PORTSDIR}/print/texlive-bin-mltex
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

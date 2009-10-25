@@ -13,7 +13,6 @@ COMMENT=	A TeX format for physicists.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/fmtutil/format.phyzzx.cnf:${PORTSDIR}/print/texlive-bin-phyzzx
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

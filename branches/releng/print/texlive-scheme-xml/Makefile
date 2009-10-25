@@ -122,7 +122,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/context/base/context.tex:${PORTSD
 		${LOCALBASE}/share/texmf/fmtutil/format.aleph.cnf:${PORTSDIR}/print/texlive-bin-aleph \
 		${LOCALBASE}/share/texmf/fmtutil/format.omega.cnf:${PORTSDIR}/print/texlive-bin-omega
 
-LSE_LZMA=	yes
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
 

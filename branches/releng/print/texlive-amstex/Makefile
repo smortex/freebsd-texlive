@@ -13,7 +13,6 @@ COMMENT=	American Mathematical Society plain TeX macros.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/fmtutil/format.amstex.cnf:${PORTSDIR}/print/texlive-bin-amstex
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

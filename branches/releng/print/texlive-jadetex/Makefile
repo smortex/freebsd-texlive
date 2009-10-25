@@ -13,7 +13,6 @@ COMMENT=	Macros supporting Jade DSSSL output.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/fmtutil/format.jadetex.cnf:${PORTSDIR}/print/texlive-bin-jadetex
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

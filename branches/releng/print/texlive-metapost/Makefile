@@ -13,7 +13,6 @@ COMMENT=	A development of MetaFont that generates PostScript output.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/fmtutil/format.metapost.cnf:${PORTSDIR}/print/texlive-bin-metapost
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

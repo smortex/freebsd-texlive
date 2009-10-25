@@ -13,7 +13,6 @@ COMMENT=	Extended plain tex macros.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/fmtutil/format.eplain.cnf:${PORTSDIR}/print/texlive-bin-eplain
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

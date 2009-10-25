@@ -50,7 +50,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bib/ams/amsj.bib:${PORTSDIR}/p
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/montex/mongolian.map:${PORTSDIR}/print/texlive-montex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/soyombo/soyombo.sty:${PORTSDIR}/print/texlive-soyombo
 
-LSE_LZMA=	yes
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
 

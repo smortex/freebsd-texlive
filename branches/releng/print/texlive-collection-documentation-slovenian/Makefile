@@ -14,7 +14,6 @@ COMMENT=	Slovenian documentation
 
 RUN_DEPENDS=	
 
-LSE_LZMA=	yes
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
 

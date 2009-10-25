@@ -13,7 +13,6 @@ COMMENT=	Font esint10 in Type 1 format
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/esint/esint.sty:${PORTSDIR}/print/texlive-esint
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

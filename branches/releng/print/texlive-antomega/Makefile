@@ -13,7 +13,6 @@ COMMENT=	Alternative language support for Omega/Lambda.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/plain/omega/omega.tex:${PORTSDIR}/print/texlive-omega
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -109,7 +109,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/jadetex/base/dsssl.def:${PORTSDIR
 		${LOCALBASE}/share/texmf-dist/tex/latex/tools/.tex:${PORTSDIR}/print/texlive-tools \
 		${LOCALBASE}/share/texmf/fmtutil/format.latex.cnf:${PORTSDIR}/print/texlive-bin-latex
 
-LSE_LZMA=	yes
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
 

@@ -14,7 +14,6 @@ COMMENT=	Extended TeX.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/fmtutil/format.aleph.cnf:${PORTSDIR}/print/texlive-bin-aleph
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

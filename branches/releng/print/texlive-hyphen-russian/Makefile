@@ -14,7 +14,6 @@ COMMENT=	The hyphen-russian package
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/ruhyphen/ruhyphen.tex:${PORTSDIR}/print/texlive-ruhyphen
 
-LSE_LZMA=	yes
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
 

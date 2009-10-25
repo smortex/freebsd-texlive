@@ -14,7 +14,6 @@ COMMENT=	The hyphen-ukrainian package
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/ukrhyph/ukrhyph.tex:${PORTSDIR}/print/texlive-ukrhyph
 
-LSE_LZMA=	yes
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
 

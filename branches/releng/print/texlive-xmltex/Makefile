@@ -13,7 +13,6 @@ COMMENT=	Support for parsing XML documents.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/fmtutil/format.xmltex.cnf:${PORTSDIR}/print/texlive-bin-xmltex
 
-LSE_LZMA=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -20,7 +20,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/dvips/dvipsconfig/README:${PORTSDIR}/
 		${LOCALBASE}/share/texmf/scripts/ps2eps/ps2eps.pl:${PORTSDIR}/print/texlive-bin-pstools \
 		${LOCALBASE}/share/texmf/dvips/psutils/md68_0.ps:${PORTSDIR}/print/texlive-bin-psutils
 
-LSE_LZMA=	yes
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
