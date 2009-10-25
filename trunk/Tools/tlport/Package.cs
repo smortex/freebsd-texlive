@@ -117,7 +117,6 @@ namespace TeXLive
 				makefile.WriteLine("RUN_DEPENDS=\t{0}", string.Join(" \\\n\t\t", x));
 			}
 			makefile.WriteLine();
-			makefile.WriteLine("LSE_LZMA=\tyes");
 			if (!System.IO.File.Exists(System.IO.Path.Combine(collection.TlpObjDir, name + ".doc.tlpobj"))) {
 				makefile.WriteLine("NOPORTDOCS=\tyes");
 			}
