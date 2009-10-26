@@ -9,8 +9,10 @@ $FreeBSD$
  	  esac; \
 -	  $(SHELL) $(srcdir)/../mkinstalldirs $(prefix)/`dirname $$s`; \
 -	  $(INSTALL_SCRIPT) $(srcdir)/linked_scripts/`basename $$s` $(prefix)/$$s; \
+-	  ln -s $$d/$$s $$target; \
 +	  $(SHELL) $(srcdir)/../mkinstalldirs $(prefix)/share/`dirname $$s`; \
 +	  $(INSTALL_SCRIPT) $(srcdir)/linked_scripts/`basename $$s` $(prefix)/share/$$s; \
- 	  ln -s $$d/$$s $$target; \
++	  ln -s $$d/share/$$s $$target; \
  	done
  	rm -f $(scriptdir)/getnonfreefonts-sys
+ 	ln -s getnonfreefonts $(scriptdir)/getnonfreefonts-sys
