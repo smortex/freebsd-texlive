@@ -53,7 +53,7 @@ OPTIONS=	DVI		"Enable DVI viewer support"		off \
 WITH_DBUS=	yes
 .endif
 
-.if defined(WITH_DVI) || defined(WITH_T1LIB) || exists(${LOCALBASE}/lib/libkpathsea.a)
+.if defined(WITH_DVI) || defined(WITH_T1LIB)
 BUILD_DEPENDS+=	tex:${PORTSDIR}/print/texlive-core
 RUN_DEPENDS+=	tex:${PORTSDIR}/print/texlive-core
 
@@ -66,6 +66,7 @@ LIB_DEPENDS+=	t1.5:${PORTSDIR}/devel/t1lib
 CONFIGURE_ARGS+=	--enable-t1lib
 . endif
 .else
+CONFIGURE_ARGS+=	--disable-dvi
 PLIST_SUB+=		DVI="@comment "
 .endif
 
