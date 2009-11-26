@@ -1,7 +1,7 @@
 #-*- mode: makefile; tab-width: 4; -*-
 # ex:ts=4
 #
-# $FreeBSD: ports/Mk/bsd.port.mk,v 1.629 2009/09/21 19:13:51 naddy Exp $
+# $FreeBSD: ports/Mk/bsd.port.mk,v 1.630 2009/11/25 22:02:29 pav Exp $
 #	$NetBSD: $
 #
 #	bsd.port.mk - 940820 Jordan K. Hubbard.
@@ -2220,7 +2220,7 @@ _MAKE_JOBS=		#
 .if defined(MAKE_JOBS_SAFE) || defined(FORCE_MAKE_JOBS)
 MAKE_JOBS_NUMBER?=	`${SYSCTL} -n kern.smp.cpus`
 _MAKE_JOBS=		-j${MAKE_JOBS_NUMBER}
-.if defined(FORCE_MAKE_JOBS)
+.if defined(FORCE_MAKE_JOBS) && !defined(MAKE_JOBS_SAFE)
 BUILD_FAIL_MESSAGE+=	"You have chosen to use multiple make jobs (parallelization) for all ports.  This port was not tested for this setting.  Please remove FORCE_MAKE_JOBS and retry the build before reporting the failure to the maintainer."
 .endif
 .endif
