@@ -302,6 +302,8 @@ FreeBSD_MAINTAINER=	portmgr@FreeBSD.org
 #				  for compression.
 # USE_LZMA		- If set, this port tarballs uses lzma, not gzip, for
 #				  compression.
+# USE_XZ		- If set, this port tarballs uses xz, not gzip, for
+# 				  compression.
 # USE_DOS2UNIX	- If set to "YES", remove the ^M from all files
 #				  under ${WRKSRC}. If set to a string, remove in all
 #				  files under ${WRKSRC} with one of these names the ^Ms.
@@ -1419,6 +1421,8 @@ EXTRACT_SUFX?=			.zip
 EXTRACT_SUFX?=			.run
 .elif defined(USE_LZMA)
 EXTRACT_SUFX?=			.tar.lzma
+.elif defined(USE_XZ)
+EXTRACT_SUFX?=			.tar.xz
 .else
 EXTRACT_SUFX?=			.tar.gz
 .endif
@@ -1738,7 +1742,7 @@ EXTRACT_DEPENDS+=	unzip:${PORTSDIR}/archivers/unzip
 .if defined(USE_MAKESELF)
 EXTRACT_DEPENDS+=	unmakeself:${PORTSDIR}/archivers/unmakeself
 .endif
-.if defined(USE_LZMA)
+.if defined(USE_LZMA) || defined(USE_XZ)
 EXTRACT_DEPENDS=	lzma:${PORTSDIR}/archivers/xz
 .endif
 .if defined(USE_GMAKE)
@@ -2307,6 +2311,8 @@ EXTRACT_AFTER_ARGS?=	| ${TAR} -xf - --no-same-owner
 EXTRACT_CMD?=			${BZIP2_CMD}
 .elif defined(USE_LZMA)
 EXTRACT_CMD?=			${LZMA_CMD}
+.elif defined(USE_XZ)
+EXTRACT_CMD?=			${XZ_CMD}
 .else
 EXTRACT_CMD?=			${GZIP_CMD}
 .endif

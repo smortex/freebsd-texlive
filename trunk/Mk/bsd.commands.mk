@@ -56,6 +56,7 @@ LDCONFIG?=	/sbin/ldconfig
 LN?=		/bin/ln
 LS?=		/bin/ls
 LZMA_CMD?=	${LOCALBASE}/bin/lzma
+XZ_CMD?=	${LOCALBASE}/bin/xz
 MKDIR?=		/bin/mkdir -p
 MKTEMP?=	/usr/bin/mktemp
 MOUNT?=		/sbin/mount
