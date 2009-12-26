@@ -7,7 +7,7 @@
 
 PORTNAME=	docbook-utils
 PORTVERSION=	0.6.14
-PORTREVISION=	8
+PORTREVISION=	9
 CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_SOURCEWARE}
 MASTER_SITE_SUBDIR=	docbook-tools/new-trials/SOURCES
@@ -19,7 +19,7 @@ BUILD_DEPENDS+=	${LOCALBASE}/share/sgml/docbook/3.1:${PORTSDIR}/textproc/docbook
 		${LOCALBASE}/share/sgml/docbook/dsssl:${PORTSDIR}/textproc/dsssl-docbook-modular \
 		nsgmls:${PORTSDIR}/textproc/jade
 RUN_DEPENDS+=	${LOCALBASE}/share/sgml/docbook/dsssl:${PORTSDIR}/textproc/dsssl-docbook-modular \
-		${LOCALBASE}/share/texmf/tex/jadetex/dsssl.def:${PORTSDIR}/print/jadetex \
+		jadetex:${PORTSDIR}/print/texlive-core \
 		nsgmls:${PORTSDIR}/textproc/jade \
 		sgmlspl:${PORTSDIR}/textproc/p5-SGMLSpm \
 		lynx:${PORTSDIR}/www/lynx
