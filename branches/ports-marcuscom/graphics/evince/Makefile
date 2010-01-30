@@ -3,11 +3,11 @@
 # Whom:					Adam Weinberger <adamw@FreeBSD.org>
 #
 # $FreeBSD$
-#   $MCom: ports/graphics/evince/Makefile,v 1.130 2009/10/19 19:57:01 kwm Exp $
+#    $MCom: ports/graphics/evince/Makefile,v 1.133 2010/01/12 07:37:25 avl Exp $
 #
 
 PORTNAME=	evince
-PORTVERSION=	2.28.1
+PORTVERSION=	2.29.5
 PORTREVISION=	1
 CATEGORIES=	graphics print gnome
 MASTER_SITES=	GNOME
