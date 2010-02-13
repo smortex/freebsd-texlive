@@ -2,7 +2,7 @@
 # Date created:				3 May 2004
 # Whom:					Brian Candler <B.Candler@pobox.com>
 #
-# $FreeBSD: ports/textproc/docbook-utils/Makefile,v 1.10 2009/11/07 16:27:14 gabor Exp $
+# $FreeBSD$
 #
 
 PORTNAME=	docbook-utils

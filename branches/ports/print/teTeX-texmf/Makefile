@@ -2,11 +2,11 @@
 # Date created:		5 June 2004
 # Whom:			hrs
 #
-# $FreeBSD: ports/print/teTeX-texmf/Makefile,v 1.18 2009/06/03 08:22:49 hrs Exp $
+# $FreeBSD$
 
 PORTNAME=	teTeX-texmf
 PORTVERSION=	3.0
-PORTREVISION=	7
+PORTREVISION=	6
 CATEGORIES=	print
 MASTER_SITES=	${MASTER_SITE_TEX_CTAN} \
 		ftp://ftp.ascii.co.jp/pub/TeX/ascii-ptex/dvips/:1

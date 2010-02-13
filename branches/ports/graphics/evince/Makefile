@@ -2,8 +2,8 @@
 # Date created:				09 January 2005
 # Whom:					Adam Weinberger <adamw@FreeBSD.org>
 #
-# $FreeBSD: ports/graphics/evince/Makefile,v 1.51 2009/12/17 06:53:50 marcus Exp $
-#   $MCom: ports/graphics/evince/Makefile,v 1.130 2009/10/19 19:57:01 kwm Exp $
+# $FreeBSD$
+#   $MCom$
 #
 
 PORTNAME=	evince

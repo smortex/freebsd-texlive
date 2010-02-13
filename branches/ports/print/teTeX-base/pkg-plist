@@ -1,4 +1,4 @@
-@comment $FreeBSD: ports/print/teTeX-base/pkg-plist,v 1.36 2006/06/29 18:46:37 hrs Exp $
+@comment $FreeBSD$
 bin/mktexpk
 bin/mktexmf
 bin/mktextfm

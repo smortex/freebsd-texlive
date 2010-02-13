@@ -2,12 +2,12 @@
 # Date created:		5 December 1996
 # Whom:			Bernd Rosauer <br@netland.inka.de>
 #
-# $FreeBSD: ports/print/teTeX/Makefile,v 1.72 2007/05/19 20:21:49 flz Exp $
+# $FreeBSD$
 #
 
 PORTNAME=	teTeX
 PORTVERSION=	3.0
-PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	print
 MASTER_SITES=	# empty
 DISTFILES=	# empty

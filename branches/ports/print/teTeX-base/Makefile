@@ -2,12 +2,12 @@
 # Date created:		5 December 1996
 # Whom:			Bernd Rosauer <br@netland.inka.de>
 #
-# $FreeBSD: ports/print/teTeX-base/Makefile,v 1.100 2009/07/31 13:55:29 dinoex Exp $
+# $FreeBSD$
 #
 
 PORTNAME=	teTeX-base
 PORTVERSION=	3.0
-PORTREVISION=	17
+PORTREVISION=	19
 CATEGORIES=	print
 MASTER_SITES=	${MASTER_SITE_TEX_CTAN} \
 		ftp://ftp.ascii.co.jp/pub/TeX/ascii-ptex/dvips/:1
