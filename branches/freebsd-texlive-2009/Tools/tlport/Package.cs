@@ -1,4 +1,4 @@
-// Copyright (c) 2008, Romain Tartière <romain@blogreen.org>
+// Copyright (c) 2008, 2009 Romain Tartière <romain@blogreen.org>
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -342,6 +342,8 @@ namespace TeXLive
 					if (s.StartsWith("texmf")) {
 						// We install only texmf* files.
 						files.Add("share/" + s);
+					} else if (s.StartsWith("RELOC/")) {
+						files.Add("share/texmf-dist" + s.Substring (5));
 					}
 				}
 
