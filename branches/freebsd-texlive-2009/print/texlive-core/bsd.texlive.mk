@@ -22,7 +22,10 @@ NO_BUILD=	yes
 
 PLIST=		${WRKDIR}/pkg-plist
 
-pre-install:
+NORELOC=	texmf texmf-dist
+RELOC=		bibtex doc dvips fonts makeindex metafont metapost omega scripts source tex vtex
+
+x-pre-install:
 	@${RM} -f ${PLIST}
 	@echo "Generating pkg-plist..."
 	@cd ${WRKDIR} && ( \
@@ -38,6 +41,18 @@ pre-install:
 	@${CHOWN} -R root:wheel ${WRKDIR}
 
 do-install:
+	@for dir in ${NORELOC}; do\
+	    if [ -d ${WRKDIR}/$${dir} ]; then \
+		${COPYTREE_SHARE} $${dir} ${PREFIX}/share; \
+	    fi; \
+	    done;
+	@for dir in ${RELOC}; do\
+	    if [ -d ${WRKDIR}/$${dir} ]; then \
+		${COPYTREE_SHARE} $${dir} ${PREFIX}/share/texmf-dist; \
+	    fi; \
+	    done;
+
+x-do-install:
 	@cat ${WRKDIR}/.install_files | tar cf - -C ${WRKDIR} -T - | tar xf - -p -C ${PREFIX}/share
 
 post-install:
