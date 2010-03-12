@@ -55,6 +55,8 @@ namespace TeXLive
 			CreateMakefile();
 			CreatePkgDescr();
 			CreateDistinfo();
+			CreatePkgPlist ();
+			Clean ();
 		}
 
 		/// <summary>
@@ -151,6 +153,34 @@ namespace TeXLive
 			p.StartInfo = psi;
 			p.Start();
 			p.WaitForExit();
+		}
+		
+		/// <summary>
+		/// Generate a pkg-plist file.
+		/// </summary>
+		private void CreatePkgPlist ()
+		{
+			Process p = new Process ();
+			ProcessStartInfo psi = new ProcessStartInfo ("make", "pkg-plist");
+			psi.UseShellExecute = true;
+			psi.WorkingDirectory = PortDirectory;
+			p.StartInfo = psi;
+			p.Start ();
+			p.WaitForExit ();
+		}
+		
+		/// <summary>
+		/// Clean a port
+		/// </summary>
+		private void Clean ()
+		{
+			Process p = new Process ();
+			ProcessStartInfo psi = new ProcessStartInfo ("make", "clean");
+			psi.UseShellExecute = true;
+			psi.WorkingDirectory = PortDirectory;
+			p.StartInfo = psi;
+			p.Start ();
+			p.WaitForExit ();
 		}
 
 		/// <summary>
