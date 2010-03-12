@@ -15,6 +15,9 @@ DISTFILES+=		${PORTNAME}.doc${EXTRACT_SUFX}
 .endif
 .if !defined(NOPORTSRC)
 DISTFILES+=		${PORTNAME}.source${EXTRACT_SUFX}
+PLIST_SUB+=		PORTSRC=""
+.else
+PLIST_SUB+=		PORTSRC="@comment"
 .endif
 
 USE_XZ=		yes
@@ -80,12 +83,13 @@ do-install: ${WRKDIR}/.install_files
 	    fi; \
 	done
 	@(  cd ${WRKDIR} && while read source target junk; do \
-		${INSTALL_DATA} -v $$source ${PREFIX}/$$target; \
+		${INSTALL_DATA} $$source ${PREFIX}/$$target; \
 	    done < ${WRKDIR}/.install_files \
 	)
 
+# updmap seems to be part of the deprecated teTeX...  Some work may be needed here.
 post-install:
-	@(  if grep -q '\\.map$$' ${PLIST}; then \
+	@(  if grep -q '\.map$$' ${PLIST} && [ -f ${LOCALBASE}/share/texmf/web2c/updmap.cfg ] ; then \
 		echo "Updating font map files..."; \
 		${PREFIX}/bin/updmap-sys --syncwithtrees; \
 	    else \
