@@ -2,7 +2,7 @@
 TARGET=		TLPort.exe
 CSFILES=	TLPort.cs IPackage.cs Package.cs PackageCollection.cs
 
-TLPOBJDIR?=	/home/romain/Desktop/TeXLive/local/tlpkg/tlpobj
+TLPOBJDIR?=	/home/romain/Projects/freebsd-texlive/ftp
 PORTSDIR?=	/home/romain/Projects/freebsd-texlive
 
 MCS=		gmcs

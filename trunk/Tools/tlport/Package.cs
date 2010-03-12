@@ -1,4 +1,4 @@
-// Copyright (c) 2008, Romain Tartière <romain@blogreen.org>
+// Copyright (c) 2008, 2009, 2010 Romain Tartière <romain@blogreen.org>
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -120,7 +120,7 @@ namespace TeXLive
 			if (!System.IO.File.Exists(System.IO.Path.Combine(collection.TlpObjDir, name + ".doc.tlpobj"))) {
 				makefile.WriteLine("NOPORTDOCS=\tyes");
 			}
-			if (!System.IO.File.Exists(System.IO.Path.Combine( collection.TlpObjDir, name + ".sources.tlpobj"))) {
+			if (!System.IO.File.Exists(System.IO.Path.Combine( collection.TlpObjDir, name + ".source.tlpobj"))) {
 				makefile.WriteLine("NOPORTSRC=\tyes");
 			}
 			makefile.WriteLine();
@@ -342,6 +342,8 @@ namespace TeXLive
 					if (s.StartsWith("texmf")) {
 						// We install only texmf* files.
 						files.Add("share/" + s);
+					} else if (s.StartsWith("RELOC/")) {
+						files.Add("share/texmf-dist" + s.Substring (5));
 					}
 				}
 
