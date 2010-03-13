@@ -16,8 +16,11 @@ all: ${TARGET}
 run: ${TARGET}
 	${MONO} ${MONO_ARGS} ${TARGET} ${TLPOBJDIR} ${PORTSDIR}
 
-${TARGET}: ${CSFILES}
-	${MCS} ${MCS_FLAGS} -out:${.TARGET} ${.ALLSRC}
+${TARGET}: ${CSFILES} NDesk.Options.dll
+	${MCS} ${MCS_FLAGS} -out:${.TARGET} ${CSFILES} -pkg:ndesk-options
+
+NDesk.Options.dll:
+	cp `pkg-config --variable=Libraries ndesk-options` ${.TARGET}
 
 clean:
-	rm -f ${TARGET}
+	rm -f ${TARGET} NDesk.Options.dll
