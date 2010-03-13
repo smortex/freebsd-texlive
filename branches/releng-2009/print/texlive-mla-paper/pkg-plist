@@ -1,0 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/mla-paper/README
+share/texmf-dist/tex/latex/mla-paper/mla.sty
+@dirrmtry share/texmf-dist/tex/latex/mla-paper
+@dirrmtry share/texmf-dist/doc/latex/mla-paper

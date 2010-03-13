@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/engpron/LISEZMOI
+%%PORTDOCS%%share/texmf-dist/doc/latex/engpron/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/engpron/engpron-en.ltx
+%%PORTDOCS%%share/texmf-dist/doc/latex/engpron/engpron-en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/engpron/engpron-ex-en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/engpron/engpron-ex-en.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/engpron/engpron-ex-fr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/engpron/engpron-ex-fr.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/engpron/engpron-fr.ltx
+%%PORTDOCS%%share/texmf-dist/doc/latex/engpron/engpron-fr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/engpron/engpron.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/engpron/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/engpron/engpron.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/engpron/engpron.ins
+share/texmf-dist/tex/latex/engpron/engpron-tools.sty
+share/texmf-dist/tex/latex/engpron/engpron.sty
+@dirrmtry share/texmf-dist/tex/latex/engpron
+@dirrmtry share/texmf-dist/source/latex/engpron
+@dirrmtry share/texmf-dist/doc/latex/engpron

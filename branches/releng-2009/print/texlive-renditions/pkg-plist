@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/renditions/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/renditions/renditions.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/renditions/test_ren.tex
+%%PORTSRC%%share/texmf-dist/source/latex/renditions/renditions.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/renditions/renditions.ins
+share/texmf-dist/tex/latex/renditions/renditions.sty
+@dirrmtry share/texmf-dist/tex/latex/renditions
+@dirrmtry share/texmf-dist/source/latex/renditions
+@dirrmtry share/texmf-dist/doc/latex/renditions

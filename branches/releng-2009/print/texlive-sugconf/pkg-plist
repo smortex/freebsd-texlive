@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/sugconf/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/sugconf/SUGI-paper-example.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/sugconf/article-example.bat
+%%PORTDOCS%%share/texmf-dist/doc/latex/sugconf/article-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sugconf/article-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sugconf/sugconf-example.bat
+%%PORTDOCS%%share/texmf-dist/doc/latex/sugconf/sugconf-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sugconf/sugconf-example.tex
+share/texmf-dist/tex/latex/sugconf/sugconf.cls
+@dirrmtry share/texmf-dist/tex/latex/sugconf
+@dirrmtry share/texmf-dist/doc/latex/sugconf

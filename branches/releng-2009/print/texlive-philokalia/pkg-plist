@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/philokalia/philokalia.pdf
+share/texmf-dist/fonts/opentype/public/philokalia/Philokalia-Regular.otf
+%%PORTSRC%%share/texmf-dist/source/xelatex/philokalia/philokalia.dtx
+%%PORTSRC%%share/texmf-dist/source/xelatex/philokalia/philokalia.ins
+share/texmf-dist/tex/xelatex/philokalia/eu1plk.fd
+share/texmf-dist/tex/xelatex/philokalia/philokalia.sty
+@dirrmtry share/texmf-dist/tex/xelatex/philokalia
+@dirrmtry share/texmf-dist/source/xelatex/philokalia
+@dirrmtry share/texmf-dist/fonts/opentype/public/philokalia
+@dirrmtry share/texmf-dist/doc/xelatex/philokalia

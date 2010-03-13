@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/xytree/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/xytree/xytree-doc-en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xytree/xytree-doc-en.tex
+share/texmf-dist/tex/latex/xytree/xytree.sty
+@dirrmtry share/texmf-dist/tex/latex/xytree
+@dirrmtry share/texmf-dist/doc/latex/xytree

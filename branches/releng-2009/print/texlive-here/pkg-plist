@@ -1,0 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/here/README
+share/texmf-dist/tex/latex/here/here.sty
+@dirrmtry share/texmf-dist/tex/latex/here
+@dirrmtry share/texmf-dist/doc/latex/here

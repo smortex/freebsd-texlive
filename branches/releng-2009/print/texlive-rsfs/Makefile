@@ -1,0 +1,17 @@
+# New ports collection makefile for:	texlive-rsfs
+# Date created:		13/03/2010 04:30:14
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	rsfs
+CATEGORIES=	print
+
+MAINTAINER=	romain@blogreen.org
+COMMENT=	Ralph Smith's Formal Script font.
+
+NOPORTSRC=	yes
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

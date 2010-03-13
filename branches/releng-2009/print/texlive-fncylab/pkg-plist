@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fncylab/fncylab-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fncylab/fncylab.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fncylab/fncylab.tex
+share/texmf-dist/tex/latex/fncylab/fncylab.sty
+@dirrmtry share/texmf-dist/tex/latex/fncylab
+@dirrmtry share/texmf-dist/doc/latex/fncylab

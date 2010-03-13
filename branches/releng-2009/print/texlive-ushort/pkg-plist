@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ushort/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ushort/ushort.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ushort/ushort.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ushort/ushort.txt
+%%PORTSRC%%share/texmf-dist/source/latex/ushort/ushort.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ushort/ushort.ins
+share/texmf-dist/tex/latex/ushort/ushort.sty
+@dirrmtry share/texmf-dist/tex/latex/ushort
+@dirrmtry share/texmf-dist/source/latex/ushort
+@dirrmtry share/texmf-dist/doc/latex/ushort

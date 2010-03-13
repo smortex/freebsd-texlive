@@ -1,0 +1,28 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/2up.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/read-me.2e
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/sem-read.me
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/sem-user.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/sem-user.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/semsamp1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/semsamp2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/tvz-code.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/tvz-hax.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/tvz-user.sty
+share/texmf-dist/tex/latex/seminar/2up.sty
+share/texmf-dist/tex/latex/seminar/2up.tex
+share/texmf-dist/tex/latex/seminar/npsfont.sty
+share/texmf-dist/tex/latex/seminar/sem-a4.sty
+share/texmf-dist/tex/latex/seminar/sem-page.sty
+share/texmf-dist/tex/latex/seminar/semcolor.sty
+share/texmf-dist/tex/latex/seminar/semhelv.sty
+share/texmf-dist/tex/latex/seminar/seminar.bg2
+share/texmf-dist/tex/latex/seminar/seminar.bug
+share/texmf-dist/tex/latex/seminar/seminar.cls
+share/texmf-dist/tex/latex/seminar/seminar.sty
+share/texmf-dist/tex/latex/seminar/semlayer.sty
+share/texmf-dist/tex/latex/seminar/semlcmss.sty
+share/texmf-dist/tex/latex/seminar/semrot.sty
+share/texmf-dist/tex/latex/seminar/slidesec.sty
+share/texmf-dist/tex/latex/seminar/xcomment.sty
+@dirrmtry share/texmf-dist/tex/latex/seminar
+@dirrmtry share/texmf-dist/doc/latex/seminar

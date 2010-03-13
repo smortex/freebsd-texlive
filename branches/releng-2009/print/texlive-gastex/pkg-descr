@@ -1,0 +1,7 @@
+GasTeX is a set of LaTeX macros which enable the user to draw
+graphs, automata, nets, diagrams, etc., very easily, in the
+LaTeX picture environment. The package offers no documentation
+(per se), but offers a couple of example files in the
+distribution, and more on its home page. GasTeX generates its
+own PostScript code, and therefore doesn't work directly under
+PDFLaTeX.

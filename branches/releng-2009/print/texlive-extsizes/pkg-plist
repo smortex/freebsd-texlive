@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/extsizes/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/extsizes/extsizes.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/extsizes/extsizes.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/extsizes/readme.extsizes
+share/texmf-dist/tex/latex/extsizes/autopagewidth.sty
+share/texmf-dist/tex/latex/extsizes/extarticle.cls
+share/texmf-dist/tex/latex/extsizes/extbook.cls
+share/texmf-dist/tex/latex/extsizes/extletter.cls
+share/texmf-dist/tex/latex/extsizes/extproc.cls
+share/texmf-dist/tex/latex/extsizes/extreport.cls
+share/texmf-dist/tex/latex/extsizes/extsizes.sty
+share/texmf-dist/tex/latex/extsizes/size14.clo
+share/texmf-dist/tex/latex/extsizes/size17.clo
+share/texmf-dist/tex/latex/extsizes/size20.clo
+share/texmf-dist/tex/latex/extsizes/size8.clo
+share/texmf-dist/tex/latex/extsizes/size9.clo
+@dirrmtry share/texmf-dist/tex/latex/extsizes
+@dirrmtry share/texmf-dist/doc/latex/extsizes

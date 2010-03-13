@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblist/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblist/biblist.bst-dist
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblist/biblist.gde
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblist/biblist.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblist/biblist.tex
+%%PORTSRC%%share/texmf-dist/source/latex/biblist/biblist.bst-dist
+share/texmf-dist/tex/latex/biblist/biblist.sty
+@dirrmtry share/texmf-dist/tex/latex/biblist
+@dirrmtry share/texmf-dist/source/latex/biblist
+@dirrmtry share/texmf-dist/doc/latex/biblist

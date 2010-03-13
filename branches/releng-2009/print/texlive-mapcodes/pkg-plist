@@ -1,0 +1,27 @@
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/00readme.txt
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/atari.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/atari.map
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/german.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/german.map
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/hproman8.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/hproman8.map
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/ibm850.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/ibm850.map
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/ibm852.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/ibm852.map
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/install.txt
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/iso88591.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/iso88591.map
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/iso88592.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/iso88592.map
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/macroman.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/macroman.map
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/manifest.txt
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/mapcodes.drv
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/mapcodes.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/mapcodes.ins
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/spanish.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mapcodes/spanish.map
+share/texmf-dist/tex/latex/mapcodes/mapcodes.sty
+@dirrmtry share/texmf-dist/tex/latex/mapcodes
+@dirrmtry share/texmf-dist/source/latex/mapcodes

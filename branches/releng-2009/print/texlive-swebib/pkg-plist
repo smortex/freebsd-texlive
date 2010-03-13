@@ -1,0 +1,8 @@
+share/texmf-dist/bibtex/bst/swebib/sweabbrv.bst
+share/texmf-dist/bibtex/bst/swebib/swealpha.bst
+share/texmf-dist/bibtex/bst/swebib/sweplain.bst
+share/texmf-dist/bibtex/bst/swebib/sweplnat.bst
+share/texmf-dist/bibtex/bst/swebib/sweunsrt.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/swebib/README
+@dirrmtry share/texmf-dist/doc/latex/swebib
+@dirrmtry share/texmf-dist/bibtex/bst/swebib

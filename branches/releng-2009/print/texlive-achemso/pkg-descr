@@ -1,0 +1,6 @@
+The bundle provides the official macros and BibTeX style for
+submission to the journals of the American Chemical Society.
+Also provided is a BibTeX style file to be used for
+bibliography database listings. The natmove package, which
+moves citations relative to punctuation, is distributed as part
+of the bundle.

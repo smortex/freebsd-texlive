@@ -1,0 +1,34 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/siunitx/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/siunitx/siunitx-bug.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/siunitx/siunitx.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/siunitx/siunitx.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/siunitx/siunitx.ins
+share/texmf-dist/tex/latex/siunitx/config/si-DE.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-SIunits.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-UK.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-USA.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-ZA.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-abbr.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-accepted.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-addn.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-astro.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-binary.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-chemeng.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-fancynum.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-fancyunits.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-geophys.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-hep.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-hepunits.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-named.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-physical.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-prefix.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-prefixed.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-sistyle.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-synchem.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-units.cfg
+share/texmf-dist/tex/latex/siunitx/config/si-unitsdef.cfg
+share/texmf-dist/tex/latex/siunitx/siunitx.sty
+@dirrmtry share/texmf-dist/tex/latex/siunitx/config
+@dirrmtry share/texmf-dist/tex/latex/siunitx
+@dirrmtry share/texmf-dist/source/latex/siunitx
+@dirrmtry share/texmf-dist/doc/latex/siunitx

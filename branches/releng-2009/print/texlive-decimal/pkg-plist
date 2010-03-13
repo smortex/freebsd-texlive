@@ -1,0 +1,5 @@
+%%PORTSRC%%share/texmf-dist/source/latex/decimal/decimal.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/decimal/decimal.ins
+share/texmf-dist/tex/latex/decimal/decimal.sty
+@dirrmtry share/texmf-dist/tex/latex/decimal
+@dirrmtry share/texmf-dist/source/latex/decimal

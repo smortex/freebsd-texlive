@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/ulem/ulem.ltx
+%%PORTDOCS%%share/texmf-dist/doc/generic/ulem/ulem.pdf
+share/texmf-dist/tex/generic/ulem/ulem.sty
+@dirrmtry share/texmf-dist/tex/generic/ulem
+@dirrmtry share/texmf-dist/doc/generic/ulem

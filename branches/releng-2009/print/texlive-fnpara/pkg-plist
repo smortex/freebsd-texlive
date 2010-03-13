@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fnpara/fnpara-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fnpara/fnpara-doc.tex
+share/texmf-dist/tex/latex/fnpara/fnpara.sty
+@dirrmtry share/texmf-dist/tex/latex/fnpara
+@dirrmtry share/texmf-dist/doc/latex/fnpara

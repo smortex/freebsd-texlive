@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/maple/MTNarticle.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/maple/README
+share/texmf-dist/tex/latex/maple/mtn.cls
+@dirrmtry share/texmf-dist/tex/latex/maple
+@dirrmtry share/texmf-dist/doc/latex/maple

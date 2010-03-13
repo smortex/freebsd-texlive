@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/minutes/MinStyGd.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/minutes/Overview.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/minutes/Protokol.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/minutes/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/minutes/Sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/minutes/SampleDE.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/minutes/SampleEN.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/minutes/SampleNL.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/minutes/minutes.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/minutes/minutes.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/minutes/minutes.ins
+share/texmf-dist/tex/latex/minutes/minutes.sty
+@dirrmtry share/texmf-dist/tex/latex/minutes
+@dirrmtry share/texmf-dist/source/latex/minutes
+@dirrmtry share/texmf-dist/doc/latex/minutes

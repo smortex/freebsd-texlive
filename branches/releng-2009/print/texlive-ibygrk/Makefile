@@ -1,0 +1,17 @@
+# New ports collection makefile for:	texlive-ibygrk
+# Date created:		13/03/2010 04:36:47
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	ibygrk
+CATEGORIES=	print
+
+MAINTAINER=	romain@blogreen.org
+COMMENT=	Fonts and macros to typeset ancient Greek.
+
+NOPORTSRC=	yes
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

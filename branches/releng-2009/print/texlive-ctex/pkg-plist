@@ -1,0 +1,62 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ctex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ctex/ctex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ctex/ctex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ctex/test/test-cjk.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ctex/test/test-cjkutf8.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ctex/test/test-xetex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ctex/test/test-xetexgbk.tex
+share/texmf-dist/tex/latex/ctex/back/ctexartutf8.cls
+share/texmf-dist/tex/latex/ctex/back/ctexbookutf8.cls
+share/texmf-dist/tex/latex/ctex/back/ctexcaputf8.sty
+share/texmf-dist/tex/latex/ctex/back/ctexreputf8.cls
+share/texmf-dist/tex/latex/ctex/back/ctexutf8.sty
+share/texmf-dist/tex/latex/ctex/cfg/ctex.cfg
+share/texmf-dist/tex/latex/ctex/cfg/ctexcap-gbk.cfg
+share/texmf-dist/tex/latex/ctex/cfg/ctexcap-utf8.cfg
+share/texmf-dist/tex/latex/ctex/cfg/ctexcap.cfg
+share/texmf-dist/tex/latex/ctex/cfg/ctexopts.cfg.template
+share/texmf-dist/tex/latex/ctex/ctex.sty
+share/texmf-dist/tex/latex/ctex/ctexart.cls
+share/texmf-dist/tex/latex/ctex/ctexbook.cls
+share/texmf-dist/tex/latex/ctex/ctexcap.sty
+share/texmf-dist/tex/latex/ctex/ctexrep.cls
+share/texmf-dist/tex/latex/ctex/def/ctex-article.def
+share/texmf-dist/tex/latex/ctex/def/ctex-book.def
+share/texmf-dist/tex/latex/ctex/def/ctex-caption.def
+share/texmf-dist/tex/latex/ctex/def/ctex-class.def
+share/texmf-dist/tex/latex/ctex/def/ctex-common.def
+share/texmf-dist/tex/latex/ctex/def/ctex-gbk.def
+share/texmf-dist/tex/latex/ctex/def/ctex-loadclass.def
+share/texmf-dist/tex/latex/ctex/def/ctex-report.def
+share/texmf-dist/tex/latex/ctex/def/ctex-utf8.def
+share/texmf-dist/tex/latex/ctex/engine/ctex-cct-engine.def
+share/texmf-dist/tex/latex/ctex/engine/ctex-cjk-common.def
+share/texmf-dist/tex/latex/ctex/engine/ctex-cjk-engine.def
+share/texmf-dist/tex/latex/ctex/engine/ctex-xecjk-engine.def
+share/texmf-dist/tex/latex/ctex/fd/c19gbsn.fd
+share/texmf-dist/tex/latex/ctex/fd/c19gbsn.fdx
+share/texmf-dist/tex/latex/ctex/fd/c19gkai.fd
+share/texmf-dist/tex/latex/ctex/fd/c19gkai.fdx
+share/texmf-dist/tex/latex/ctex/fd/c19rm.fd
+share/texmf-dist/tex/latex/ctex/fd/c19sf.fd
+share/texmf-dist/tex/latex/ctex/fd/c19tt.fd
+share/texmf-dist/tex/latex/ctex/fd/c70rm.fd
+share/texmf-dist/tex/latex/ctex/fd/c70sf.fd
+share/texmf-dist/tex/latex/ctex/fd/c70tt.fd
+share/texmf-dist/tex/latex/ctex/fontset/ctex-cjk-adobefonts.def
+share/texmf-dist/tex/latex/ctex/fontset/ctex-cjk-winfonts.def
+share/texmf-dist/tex/latex/ctex/fontset/ctex-xecjk-adobefonts.def
+share/texmf-dist/tex/latex/ctex/fontset/ctex-xecjk-winfonts.def
+share/texmf-dist/tex/latex/ctex/opt/ctex-caption-opts.def
+share/texmf-dist/tex/latex/ctex/opt/ctex-class-opts.def
+share/texmf-dist/tex/latex/ctex/opt/ctex-common-opts.def
+@dirrmtry share/texmf-dist/tex/latex/ctex/opt
+@dirrmtry share/texmf-dist/tex/latex/ctex/fontset
+@dirrmtry share/texmf-dist/tex/latex/ctex/fd
+@dirrmtry share/texmf-dist/tex/latex/ctex/engine
+@dirrmtry share/texmf-dist/tex/latex/ctex/def
+@dirrmtry share/texmf-dist/tex/latex/ctex/cfg
+@dirrmtry share/texmf-dist/tex/latex/ctex/back
+@dirrmtry share/texmf-dist/tex/latex/ctex
+@dirrmtry share/texmf-dist/doc/latex/ctex/test
+@dirrmtry share/texmf-dist/doc/latex/ctex

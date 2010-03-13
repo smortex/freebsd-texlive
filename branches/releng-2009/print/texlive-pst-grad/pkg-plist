@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-grad/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-grad/pst-grad-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-grad/pst-grad-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-grad/pst-grad-doc.tex
+share/texmf-dist/dvips/pst-grad/pst-grad.pro
+share/texmf-dist/tex/generic/pst-grad/pst-grad.tex
+share/texmf-dist/tex/latex/pst-grad/pst-grad.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-grad
+@dirrmtry share/texmf-dist/tex/generic/pst-grad
+@dirrmtry share/texmf-dist/dvips/pst-grad
+@dirrmtry share/texmf-dist/doc/generic/pst-grad

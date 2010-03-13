@@ -1,0 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/numname/README
+share/texmf-dist/tex/latex/numname/numname.sty
+@dirrmtry share/texmf-dist/tex/latex/numname
+@dirrmtry share/texmf-dist/doc/latex/numname

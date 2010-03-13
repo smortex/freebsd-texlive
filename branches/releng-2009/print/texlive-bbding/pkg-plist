@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bbding/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/bbding/bbding.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bbding/bbding10.org
+share/texmf-dist/fonts/source/public/bbding/bbding10.mf
+share/texmf-dist/fonts/tfm/public/bbding/bbding10.tfm
+%%PORTSRC%%share/texmf-dist/source/latex/bbding/bbding.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/bbding/bbding.ins
+share/texmf-dist/tex/latex/bbding/Uding.fd
+share/texmf-dist/tex/latex/bbding/bbding.sty
+@dirrmtry share/texmf-dist/tex/latex/bbding
+@dirrmtry share/texmf-dist/source/latex/bbding
+@dirrmtry share/texmf-dist/fonts/tfm/public/bbding
+@dirrmtry share/texmf-dist/fonts/source/public/bbding
+@dirrmtry share/texmf-dist/doc/latex/bbding

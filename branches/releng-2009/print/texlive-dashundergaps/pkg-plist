@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/dashundergaps/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/dashundergaps/doc/pdf/dashundergaps.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dashundergaps/doc/tex/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/dashundergaps/doc/tex/dashundergaps-bib.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/dashundergaps/doc/tex/dashundergaps.forlisting
+%%PORTDOCS%%share/texmf-dist/doc/latex/dashundergaps/doc/tex/dashundergaps.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dashundergaps/doc/tex/perso.ist
+share/texmf-dist/tex/latex/dashundergaps/dashundergaps.sty
+@dirrmtry share/texmf-dist/tex/latex/dashundergaps
+@dirrmtry share/texmf-dist/doc/latex/dashundergaps/doc/tex
+@dirrmtry share/texmf-dist/doc/latex/dashundergaps/doc/pdf
+@dirrmtry share/texmf-dist/doc/latex/dashundergaps

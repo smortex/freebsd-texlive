@@ -1,0 +1,9 @@
+%%PORTSRC%%share/texmf-dist/source/generic/hyphenex/GNUmakefile
+%%PORTSRC%%share/texmf-dist/source/generic/hyphenex/README
+%%PORTSRC%%share/texmf-dist/source/generic/hyphenex/hyphenex.pl
+%%PORTSRC%%share/texmf-dist/source/generic/hyphenex/hyphenex.sh
+%%PORTSRC%%share/texmf-dist/source/generic/hyphenex/tb0hyf.tex
+%%PORTSRC%%share/texmf-dist/source/generic/hyphenex/test.tex
+share/texmf-dist/tex/generic/hyphenex/ushyphex.tex
+@dirrmtry share/texmf-dist/tex/generic/hyphenex
+@dirrmtry share/texmf-dist/source/generic/hyphenex

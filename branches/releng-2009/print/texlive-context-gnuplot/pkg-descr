@@ -1,0 +1,5 @@
+Enables simple creation and inclusion of graphs with Gnuplot.
+The package writes a script into temporary file, runs Gnuplot
+and includes the resulting graphic directly into the document.
+You probably also want to have the Gnuplot extension for the
+package (though it's not yet part of official Gnuplot).

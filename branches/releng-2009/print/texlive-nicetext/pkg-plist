@@ -1,0 +1,27 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/CHANGE.LOG
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/NNOUNCE.TXT
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/doclog/fifinddo.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/doclog/makedoc.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/doclog/mdcorr.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/doclog/niceverb.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/fifinddo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/makedoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/niceverb.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/wikicheat.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/nicetext/fifinddo.tex
+%%PORTSRC%%share/texmf-dist/source/latex/nicetext/makedoc.cfg
+%%PORTSRC%%share/texmf-dist/source/latex/nicetext/makedoc.tex
+%%PORTSRC%%share/texmf-dist/source/latex/nicetext/mdcorr.cfg
+%%PORTSRC%%share/texmf-dist/source/latex/nicetext/mkfddoc.tex
+%%PORTSRC%%share/texmf-dist/source/latex/nicetext/niceverb.tex
+%%PORTSRC%%share/texmf-dist/source/latex/nicetext/wikicheat.tex
+share/texmf-dist/tex/latex/nicetext/fifinddo.sty
+share/texmf-dist/tex/latex/nicetext/makedoc.sty
+share/texmf-dist/tex/latex/nicetext/niceverb.sty
+share/texmf-dist/tex/latex/nicetext/wiki.sty
+@dirrmtry share/texmf-dist/tex/latex/nicetext
+@dirrmtry share/texmf-dist/source/latex/nicetext
+@dirrmtry share/texmf-dist/doc/latex/nicetext/doclog
+@dirrmtry share/texmf-dist/doc/latex/nicetext

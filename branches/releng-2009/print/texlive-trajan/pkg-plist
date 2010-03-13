@@ -1,0 +1,22 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/trajan/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/trajan/trajan.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/trajan/trytrajan.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/trajan/trytrajan.tex
+share/texmf-dist/fonts/afm/public/trajan/trjnr10.afm
+share/texmf-dist/fonts/afm/public/trajan/trjnsl10.afm
+share/texmf-dist/fonts/map/dvips/trajan/trajan.map
+share/texmf-dist/fonts/tfm/public/trajan/trjnr10.tfm
+share/texmf-dist/fonts/tfm/public/trajan/trjnsl10.tfm
+share/texmf-dist/fonts/type1/public/trajan/trjnr10.pfb
+share/texmf-dist/fonts/type1/public/trajan/trjnsl10.pfb
+%%PORTSRC%%share/texmf-dist/source/latex/trajan/trajan.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/trajan/trajan.ins
+share/texmf-dist/tex/latex/trajan/t1trjn.fd
+share/texmf-dist/tex/latex/trajan/trajan.sty
+@dirrmtry share/texmf-dist/tex/latex/trajan
+@dirrmtry share/texmf-dist/source/latex/trajan
+@dirrmtry share/texmf-dist/fonts/type1/public/trajan
+@dirrmtry share/texmf-dist/fonts/tfm/public/trajan
+@dirrmtry share/texmf-dist/fonts/map/dvips/trajan
+@dirrmtry share/texmf-dist/fonts/afm/public/trajan
+@dirrmtry share/texmf-dist/doc/latex/trajan

@@ -1,0 +1,43 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/Bibliography.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/Chapters/Chapter01.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/Chapters/Chapter02.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/Chapters/Chapter03.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/Chapters/Chapter0A.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/ClassicThesis.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/ClassicThesis.tcp
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/ClassicThesis.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/ClassicThesis.tps
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/Examples/classicthesis-article.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/Examples/classicthesis-article.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/Examples/classicthesis-book.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/Examples/classicthesis-book.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/Examples/classicthesis-cv.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/Examples/classicthesis-cv.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/FrontBackmatter/Abstract.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/FrontBackmatter/Acknowledgments.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/FrontBackmatter/Bibliography.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/FrontBackmatter/Colophon.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/FrontBackmatter/Contents.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/FrontBackmatter/Declaration.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/FrontBackmatter/Dedication.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/FrontBackmatter/DirtyTitlepage.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/FrontBackmatter/Publication.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/FrontBackmatter/Titleback.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/FrontBackmatter/Titlepage.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/LISTOFFILES
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/gfx/TFZsuperellipse_bw.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/gfx/example_1.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/gfx/example_2.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/gfx/example_3.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/gfx/example_4.jpg
+share/texmf-dist/tex/latex/classicthesis/classicthesis-ldpkg.sty
+share/texmf-dist/tex/latex/classicthesis/classicthesis.sty
+@dirrmtry share/texmf-dist/tex/latex/classicthesis
+@dirrmtry share/texmf-dist/doc/latex/classicthesis/gfx
+@dirrmtry share/texmf-dist/doc/latex/classicthesis/FrontBackmatter
+@dirrmtry share/texmf-dist/doc/latex/classicthesis/Examples
+@dirrmtry share/texmf-dist/doc/latex/classicthesis/Chapters
+@dirrmtry share/texmf-dist/doc/latex/classicthesis

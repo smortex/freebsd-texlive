@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/gcard/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/gcard/gcard.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/gcard/gcardex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/gcard/gcardminexample.tex
+share/texmf-dist/tex/latex/gcard/gcard.sty
+@dirrmtry share/texmf-dist/tex/latex/gcard
+@dirrmtry share/texmf-dist/doc/latex/gcard

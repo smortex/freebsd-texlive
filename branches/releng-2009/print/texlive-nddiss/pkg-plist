@@ -1,0 +1,28 @@
+share/texmf-dist/bibtex/bst/nddiss/nddiss2e.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/nddiss/ReadMe.1st.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/nddiss/example-v1.3/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/nddiss/example-v1.3/README.1st.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/nddiss/example-v1.3/README.orig
+%%PORTDOCS%%share/texmf-dist/doc/latex/nddiss/example-v1.3/VERSION
+%%PORTDOCS%%share/texmf-dist/doc/latex/nddiss/example-v1.3/appendix.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/nddiss/example-v1.3/chapter1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/nddiss/example-v1.3/chapter2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/nddiss/example-v1.3/example.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/nddiss/example-v1.3/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nddiss/example-v1.3/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/nddiss/example-v1.3/makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/nddiss/example-v1.3/makefile.chapterbib
+%%PORTDOCS%%share/texmf-dist/doc/latex/nddiss/example-v1.3/sample_nd.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/nddiss/example-v1.3/sample_nd.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nddiss/ltxdoc.cfg
+%%PORTDOCS%%share/texmf-dist/doc/latex/nddiss/nddiss2e.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nddiss/process.sh
+%%PORTDOCS%%share/texmf-dist/doc/latex/nddiss/template.tex
+%%PORTSRC%%share/texmf-dist/source/latex/nddiss/nddiss2e.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/nddiss/nddiss2e.ins
+share/texmf-dist/tex/latex/nddiss/nddiss2e.cls
+@dirrmtry share/texmf-dist/tex/latex/nddiss
+@dirrmtry share/texmf-dist/source/latex/nddiss
+@dirrmtry share/texmf-dist/doc/latex/nddiss/example-v1.3
+@dirrmtry share/texmf-dist/doc/latex/nddiss
+@dirrmtry share/texmf-dist/bibtex/bst/nddiss

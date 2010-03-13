@@ -1,0 +1,3 @@
+The package defines means of drawing frames around boxes, using
+dingbat fonts. Some (MetaFont) font sources are included; the
+fonts are available separately in Type 1 format.

@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/casyl/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/casyl/casyldoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/casyl/casyldoc.tex
+share/texmf-dist/fonts/source/public/casyl/casyll10.mf
+share/texmf-dist/fonts/tfm/public/casyl/casyll10.tfm
+share/texmf-dist/tex/latex/casyl/casyltex.sty
+@dirrmtry share/texmf-dist/tex/latex/casyl
+@dirrmtry share/texmf-dist/fonts/tfm/public/casyl
+@dirrmtry share/texmf-dist/fonts/source/public/casyl
+@dirrmtry share/texmf-dist/doc/latex/casyl

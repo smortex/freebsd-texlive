@@ -1,0 +1,46 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/AUTHORS
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/CREDITS
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/INSTALL
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/README
+share/texmf-dist/fonts/opentype/public/gnu-freefont/FreeMono.otf
+share/texmf-dist/fonts/opentype/public/gnu-freefont/FreeMonoBold.otf
+share/texmf-dist/fonts/opentype/public/gnu-freefont/FreeMonoBoldOblique.otf
+share/texmf-dist/fonts/opentype/public/gnu-freefont/FreeMonoOblique.otf
+share/texmf-dist/fonts/opentype/public/gnu-freefont/FreeSans.otf
+share/texmf-dist/fonts/opentype/public/gnu-freefont/FreeSansBold.otf
+share/texmf-dist/fonts/opentype/public/gnu-freefont/FreeSansBoldOblique.otf
+share/texmf-dist/fonts/opentype/public/gnu-freefont/FreeSansOblique.otf
+share/texmf-dist/fonts/opentype/public/gnu-freefont/FreeSerif.otf
+share/texmf-dist/fonts/opentype/public/gnu-freefont/FreeSerifBold.otf
+share/texmf-dist/fonts/opentype/public/gnu-freefont/FreeSerifBoldItalic.otf
+share/texmf-dist/fonts/opentype/public/gnu-freefont/FreeSerifItalic.otf
+share/texmf-dist/fonts/sfd/gnu-freefont/FreeMono.sfd
+share/texmf-dist/fonts/sfd/gnu-freefont/FreeMonoBold.sfd
+share/texmf-dist/fonts/sfd/gnu-freefont/FreeMonoBoldOblique.sfd
+share/texmf-dist/fonts/sfd/gnu-freefont/FreeMonoOblique.sfd
+share/texmf-dist/fonts/sfd/gnu-freefont/FreeSans.sfd
+share/texmf-dist/fonts/sfd/gnu-freefont/FreeSansBold.sfd
+share/texmf-dist/fonts/sfd/gnu-freefont/FreeSansBoldOblique.sfd
+share/texmf-dist/fonts/sfd/gnu-freefont/FreeSansOblique.sfd
+share/texmf-dist/fonts/sfd/gnu-freefont/FreeSerif.sfd
+share/texmf-dist/fonts/sfd/gnu-freefont/FreeSerifBold.sfd
+share/texmf-dist/fonts/sfd/gnu-freefont/FreeSerifBoldItalic.sfd
+share/texmf-dist/fonts/sfd/gnu-freefont/FreeSerifItalic.sfd
+share/texmf-dist/fonts/truetype/public/gnu-freefont/FreeMono.ttf
+share/texmf-dist/fonts/truetype/public/gnu-freefont/FreeMonoBold.ttf
+share/texmf-dist/fonts/truetype/public/gnu-freefont/FreeMonoBoldOblique.ttf
+share/texmf-dist/fonts/truetype/public/gnu-freefont/FreeMonoOblique.ttf
+share/texmf-dist/fonts/truetype/public/gnu-freefont/FreeSans.ttf
+share/texmf-dist/fonts/truetype/public/gnu-freefont/FreeSansBold.ttf
+share/texmf-dist/fonts/truetype/public/gnu-freefont/FreeSansBoldOblique.ttf
+share/texmf-dist/fonts/truetype/public/gnu-freefont/FreeSansOblique.ttf
+share/texmf-dist/fonts/truetype/public/gnu-freefont/FreeSerif.ttf
+share/texmf-dist/fonts/truetype/public/gnu-freefont/FreeSerifBold.ttf
+share/texmf-dist/fonts/truetype/public/gnu-freefont/FreeSerifBoldItalic.ttf
+share/texmf-dist/fonts/truetype/public/gnu-freefont/FreeSerifItalic.ttf
+@dirrmtry share/texmf-dist/fonts/truetype/public/gnu-freefont
+@dirrmtry share/texmf-dist/fonts/sfd/gnu-freefont
+@dirrmtry share/texmf-dist/fonts/opentype/public/gnu-freefont
+@dirrmtry share/texmf-dist/doc/fonts/gnu-freefont

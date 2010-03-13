@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/makedtx/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/latex/makedtx/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/makedtx/creatdtx.perl
+%%PORTDOCS%%share/texmf-dist/doc/latex/makedtx/makedtx-manual.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/makedtx/makedtx.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/makedtx/makedtx.pl
+%%PORTSRC%%share/texmf-dist/source/latex/makedtx/makedtx.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/makedtx/makedtx.ins
+share/texmf-dist/tex/latex/makedtx/creatdtx.sty
+@dirrmtry share/texmf-dist/tex/latex/makedtx
+@dirrmtry share/texmf-dist/source/latex/makedtx
+@dirrmtry share/texmf-dist/doc/latex/makedtx

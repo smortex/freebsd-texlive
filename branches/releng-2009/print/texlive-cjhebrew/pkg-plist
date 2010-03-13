@@ -1,0 +1,25 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cjhebrew/cjhebtst.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cjhebrew/manual.pdf
+share/texmf-dist/fonts/afm/public/cjhebrew/cjheblsm.afm
+share/texmf-dist/fonts/afm/public/cjhebrew/cjhebltx.afm
+share/texmf-dist/fonts/enc/dvips/cjhebrew/cjhebltx.enc
+share/texmf-dist/fonts/map/dvips/cjhebrew/cjhebrew.map
+share/texmf-dist/fonts/tfm/public/cjhebrew/cjhblsm.tfm
+share/texmf-dist/fonts/tfm/public/cjhebrew/cjhbltx.tfm
+share/texmf-dist/fonts/tfm/public/cjhebrew/cjheblsm.tfm
+share/texmf-dist/fonts/tfm/public/cjhebrew/cjhebltx.tfm
+share/texmf-dist/fonts/tfm/public/cjhebrew/rcjhblsm.tfm
+share/texmf-dist/fonts/tfm/public/cjhebrew/rcjhbltx.tfm
+share/texmf-dist/fonts/type1/public/cjhebrew/cjheblsm.pfb
+share/texmf-dist/fonts/type1/public/cjhebrew/cjhebltx.pfb
+share/texmf-dist/fonts/vf/public/cjhebrew/cjhblsm.vf
+share/texmf-dist/fonts/vf/public/cjhebrew/cjhbltx.vf
+share/texmf-dist/tex/latex/cjhebrew/cjhebrew.sty
+@dirrmtry share/texmf-dist/tex/latex/cjhebrew
+@dirrmtry share/texmf-dist/fonts/vf/public/cjhebrew
+@dirrmtry share/texmf-dist/fonts/type1/public/cjhebrew
+@dirrmtry share/texmf-dist/fonts/tfm/public/cjhebrew
+@dirrmtry share/texmf-dist/fonts/map/dvips/cjhebrew
+@dirrmtry share/texmf-dist/fonts/enc/dvips/cjhebrew
+@dirrmtry share/texmf-dist/fonts/afm/public/cjhebrew
+@dirrmtry share/texmf-dist/doc/fonts/cjhebrew

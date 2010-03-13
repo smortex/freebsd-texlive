@@ -1,0 +1,13 @@
+share/texmf-dist/bibtex/bib/philosophersimprint/philosophersimprint.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/philosophersimprint/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/philosophersimprint/philosophersimprint.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/philosophersimprint/sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/philosophersimprint/sample.tex
+%%PORTSRC%%share/texmf-dist/source/latex/philosophersimprint/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/philosophersimprint/philosophersimprint.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/philosophersimprint/philosophersimprint.ins
+share/texmf-dist/tex/latex/philosophersimprint/philosophersimprint.cls
+@dirrmtry share/texmf-dist/tex/latex/philosophersimprint
+@dirrmtry share/texmf-dist/source/latex/philosophersimprint
+@dirrmtry share/texmf-dist/doc/latex/philosophersimprint
+@dirrmtry share/texmf-dist/bibtex/bib/philosophersimprint

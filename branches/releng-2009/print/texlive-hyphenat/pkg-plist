@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/hyphenat/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/hyphenat/hyphenat.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/hyphenat/hyphenat.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/hyphenat/hyphenat.ins
+share/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+@dirrmtry share/texmf-dist/tex/latex/hyphenat
+@dirrmtry share/texmf-dist/source/latex/hyphenat
+@dirrmtry share/texmf-dist/doc/latex/hyphenat

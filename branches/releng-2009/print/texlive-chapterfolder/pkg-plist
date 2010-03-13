@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/chapterfolder/chapterfolder.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/chapterfolder/chapterfolder.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/chapterfolder/chapterfolder.ins
+share/texmf-dist/tex/latex/chapterfolder/chapterfolder.sty
+@dirrmtry share/texmf-dist/tex/latex/chapterfolder
+@dirrmtry share/texmf-dist/source/latex/chapterfolder
+@dirrmtry share/texmf-dist/doc/latex/chapterfolder

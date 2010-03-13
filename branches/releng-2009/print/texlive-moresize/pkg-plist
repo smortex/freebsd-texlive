@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/moresize/msizetst.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/moresize/msizetst.tex
+%%PORTSRC%%share/texmf-dist/source/latex/moresize/moresize.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/moresize/moresize.ins
+%%PORTSRC%%share/texmf-dist/source/latex/moresize/moresize.upl
+share/texmf-dist/tex/latex/moresize/moresize.sty
+@dirrmtry share/texmf-dist/tex/latex/moresize
+@dirrmtry share/texmf-dist/source/latex/moresize
+@dirrmtry share/texmf-dist/doc/latex/moresize

@@ -1,0 +1,25 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/thmtools/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/thmtools/TODO
+%%PORTDOCS%%share/texmf-dist/doc/latex/thmtools/thmtools.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/thmtools/aliasctr.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/thmtools/parseargs.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/thmtools/thm-autoref.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/thmtools/thm-kv.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/thmtools/thm-listof.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/thmtools/thm-patch.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/thmtools/thm-restate.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/thmtools/thmtools.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/thmtools/thmtools.ins
+%%PORTSRC%%share/texmf-dist/source/latex/thmtools/unique.dtx
+share/texmf-dist/tex/latex/thmtools/aliasctr.sty
+share/texmf-dist/tex/latex/thmtools/parseargs.sty
+share/texmf-dist/tex/latex/thmtools/thm-autoref.sty
+share/texmf-dist/tex/latex/thmtools/thm-kv.sty
+share/texmf-dist/tex/latex/thmtools/thm-listof.sty
+share/texmf-dist/tex/latex/thmtools/thm-patch.sty
+share/texmf-dist/tex/latex/thmtools/thm-restate.sty
+share/texmf-dist/tex/latex/thmtools/thmtools.sty
+share/texmf-dist/tex/latex/thmtools/unique.sty
+@dirrmtry share/texmf-dist/tex/latex/thmtools
+@dirrmtry share/texmf-dist/source/latex/thmtools
+@dirrmtry share/texmf-dist/doc/latex/thmtools

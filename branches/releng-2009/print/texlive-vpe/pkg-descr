@@ -1,0 +1,8 @@
+VPE is a system to make the equivalent of "source special"
+marks in a PDF file. Clicking on a mark will activate an
+editor, pointing at the source line that produced the text that
+was marked. The system comprises a perl file (vpe.pl) and a
+LaTeX package (vpe.sty); it will work with PDF files generated
+via LaTeX/dvips, pdfTeX (version 0.14 or better), and
+LaTeX/VTeX. Using the LaTeX/dvips or pdfLaTeX routes, the
+(pdf)TeX processor shoud be run with shell escapes enabled.

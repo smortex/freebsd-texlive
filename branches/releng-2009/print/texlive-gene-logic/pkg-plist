@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/gene-logic/gn-logic14.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/gene-logic/gn-logic14.tex
+share/texmf-dist/tex/latex/gene-logic/gn-logic14.sty
+@dirrmtry share/texmf-dist/tex/latex/gene-logic
+@dirrmtry share/texmf-dist/doc/latex/gene-logic

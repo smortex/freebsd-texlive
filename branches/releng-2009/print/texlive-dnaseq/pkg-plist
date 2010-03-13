@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/dnaseq/DNAtest.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dnaseq/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/dnaseq/dnaseq.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/dnaseq/dnaseq.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/dnaseq/dnaseq.ins
+share/texmf-dist/tex/latex/dnaseq/dnaseq.sty
+@dirrmtry share/texmf-dist/tex/latex/dnaseq
+@dirrmtry share/texmf-dist/source/latex/dnaseq
+@dirrmtry share/texmf-dist/doc/latex/dnaseq

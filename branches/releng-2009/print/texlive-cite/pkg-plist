@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cite/README
+share/texmf-dist/tex/latex/cite/chapterbib.sty
+share/texmf-dist/tex/latex/cite/cite.sty
+share/texmf-dist/tex/latex/cite/drftcite.sty
+share/texmf-dist/tex/latex/cite/overcite.sty
+@dirrmtry share/texmf-dist/tex/latex/cite
+@dirrmtry share/texmf-dist/doc/latex/cite

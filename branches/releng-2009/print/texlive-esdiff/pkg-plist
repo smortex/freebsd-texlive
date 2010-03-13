@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/esdiff/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/esdiff/esdiff.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/esdiff/esdiff.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/esdiff/esdiff.ins
+share/texmf-dist/tex/latex/esdiff/esdiff.sty
+@dirrmtry share/texmf-dist/tex/latex/esdiff
+@dirrmtry share/texmf-dist/source/latex/esdiff
+@dirrmtry share/texmf-dist/doc/latex/esdiff

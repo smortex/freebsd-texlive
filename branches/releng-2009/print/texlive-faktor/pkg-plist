@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/faktor/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/faktor/faktor.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/faktor/faktor.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/faktor/faktor.ins
+share/texmf-dist/tex/latex/faktor/faktor.sty
+@dirrmtry share/texmf-dist/tex/latex/faktor
+@dirrmtry share/texmf-dist/source/latex/faktor
+@dirrmtry share/texmf-dist/doc/latex/faktor

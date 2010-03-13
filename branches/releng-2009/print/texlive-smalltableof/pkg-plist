@@ -1,0 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/smalltableof/README
+share/texmf-dist/tex/latex/smalltableof/smalltableof.sty
+@dirrmtry share/texmf-dist/tex/latex/smalltableof
+@dirrmtry share/texmf-dist/doc/latex/smalltableof

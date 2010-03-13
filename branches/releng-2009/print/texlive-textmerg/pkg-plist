@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/textmerg/results.dat
+%%PORTDOCS%%share/texmf-dist/doc/generic/textmerg/silly.dat
+%%PORTDOCS%%share/texmf-dist/doc/generic/textmerg/tmexamp1.dvi
+%%PORTDOCS%%share/texmf-dist/doc/generic/textmerg/tmexamp1.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/textmerg/tmexamp2.dvi
+%%PORTDOCS%%share/texmf-dist/doc/generic/textmerg/tmexamp2.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/textmerg/tmexampp.tex
+%%PORTSRC%%share/texmf-dist/source/generic/textmerg/textmerg.drv
+%%PORTSRC%%share/texmf-dist/source/generic/textmerg/textmerg.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/textmerg/textmerg.ins
+share/texmf-dist/tex/generic/textmerg/textmerg.sty
+share/texmf-dist/tex/generic/textmerg/textmerg.tex
+@dirrmtry share/texmf-dist/tex/generic/textmerg
+@dirrmtry share/texmf-dist/source/generic/textmerg
+@dirrmtry share/texmf-dist/doc/generic/textmerg

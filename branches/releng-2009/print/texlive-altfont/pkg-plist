@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/altfont/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/altfont/altfont.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/altfont/psfont.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/altfont/altfont.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/altfont/altfont.ins
+%%PORTSRC%%share/texmf-dist/source/latex/altfont/psfont.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/altfont/psfont.ins
+share/texmf-dist/tex/latex/altfont/altfont.cfg
+share/texmf-dist/tex/latex/altfont/altfont.sty
+share/texmf-dist/tex/latex/altfont/psfont.cfg
+share/texmf-dist/tex/latex/altfont/psfont.sty
+@dirrmtry share/texmf-dist/tex/latex/altfont
+@dirrmtry share/texmf-dist/source/latex/altfont
+@dirrmtry share/texmf-dist/doc/latex/altfont

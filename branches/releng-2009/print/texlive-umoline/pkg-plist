@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/umoline/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/umoline/umoline-man.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/umoline/umoline-man.tex
+%%PORTSRC%%share/texmf-dist/source/latex/umoline/umoline.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/umoline/umoline.ins
+share/texmf-dist/tex/latex/umoline/umoline.sty
+@dirrmtry share/texmf-dist/tex/latex/umoline
+@dirrmtry share/texmf-dist/source/latex/umoline
+@dirrmtry share/texmf-dist/doc/latex/umoline

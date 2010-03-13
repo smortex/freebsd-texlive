@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot-FUBerlin/FULogo.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot-FUBerlin/FULogo_RGB.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot-FUBerlin/FUbib.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot-FUBerlin/FUseal.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot-FUBerlin/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot-FUBerlin/exampleClass.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot-FUBerlin/exampleClass.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot-FUBerlin/exampleStyle.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot-FUBerlin/exampleStyle.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot-FUBerlin/silberlaube2.eps
+share/texmf-dist/tex/latex/powerdot-FUBerlin/FUpowerdot.cls
+share/texmf-dist/tex/latex/powerdot-FUBerlin/powerdot-BerlinFU.sty
+@dirrmtry share/texmf-dist/tex/latex/powerdot-FUBerlin
+@dirrmtry share/texmf-dist/doc/latex/powerdot-FUBerlin

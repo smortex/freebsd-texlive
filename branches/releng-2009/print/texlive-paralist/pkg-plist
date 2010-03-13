@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/paralist/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/paralist/paralist.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/paralist/paralist.drv
+%%PORTSRC%%share/texmf-dist/source/latex/paralist/paralist.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/paralist/paralist.ins
+share/texmf-dist/tex/latex/paralist/paralist.sty
+@dirrmtry share/texmf-dist/tex/latex/paralist
+@dirrmtry share/texmf-dist/source/latex/paralist
+@dirrmtry share/texmf-dist/doc/latex/paralist

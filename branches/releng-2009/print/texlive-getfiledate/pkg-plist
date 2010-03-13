@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/getfiledate/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/getfiledate/getfiledate-guide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/getfiledate/getfiledate-guide.tex
+share/texmf-dist/tex/latex/getfiledate/getfiledate.sty
+@dirrmtry share/texmf-dist/tex/latex/getfiledate
+@dirrmtry share/texmf-dist/doc/latex/getfiledate

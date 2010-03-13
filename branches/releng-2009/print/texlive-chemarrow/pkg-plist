@@ -1,0 +1,26 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/chemarrow/Liesmich.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/chemarrow/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/chemarrow/arrow.Mac.sit.hqx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/chemarrow/chemarrow-de.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/chemarrow/chemarrow-de.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/chemarrow/chemarrow.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/chemarrow/chemarrow.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/chemarrow/testchem.tex
+share/texmf-dist/fonts/afm/public/chemarrow/arrow.afm
+share/texmf-dist/fonts/map/dvips/chemarrow/chemarrow.map
+share/texmf-dist/fonts/source/public/chemarrow/arrow.mf
+share/texmf-dist/fonts/tfm/public/chemarrow/arrow.tfm
+share/texmf-dist/fonts/type1/public/chemarrow/arrow.inf
+share/texmf-dist/fonts/type1/public/chemarrow/arrow.pfb
+share/texmf-dist/fonts/type1/public/chemarrow/arrow.pfm
+%%PORTSRC%%share/texmf-dist/source/fonts/chemarrow/Arrow.vfb
+%%PORTSRC%%share/texmf-dist/source/fonts/chemarrow/arrow.mp
+share/texmf-dist/tex/latex/chemarrow/chemarrow.sty
+@dirrmtry share/texmf-dist/tex/latex/chemarrow
+@dirrmtry share/texmf-dist/source/fonts/chemarrow
+@dirrmtry share/texmf-dist/fonts/type1/public/chemarrow
+@dirrmtry share/texmf-dist/fonts/tfm/public/chemarrow
+@dirrmtry share/texmf-dist/fonts/source/public/chemarrow
+@dirrmtry share/texmf-dist/fonts/map/dvips/chemarrow
+@dirrmtry share/texmf-dist/fonts/afm/public/chemarrow
+@dirrmtry share/texmf-dist/doc/fonts/chemarrow

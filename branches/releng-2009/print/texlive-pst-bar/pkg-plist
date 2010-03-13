@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-bar/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-bar/pst-bar-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-bar/pst-bar-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-bar/pst-bar-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-bar/pst-bar.orig
+share/texmf-dist/dvips/pst-bar/pst-bar.pro
+%%PORTSRC%%share/texmf-dist/source/generic/pst-bar/Makefile
+share/texmf-dist/tex/generic/pst-bar/pst-bar.tex
+share/texmf-dist/tex/latex/pst-bar/pst-bar.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-bar
+@dirrmtry share/texmf-dist/tex/generic/pst-bar
+@dirrmtry share/texmf-dist/source/generic/pst-bar
+@dirrmtry share/texmf-dist/dvips/pst-bar
+@dirrmtry share/texmf-dist/doc/generic/pst-bar

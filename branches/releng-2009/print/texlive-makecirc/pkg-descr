@@ -1,0 +1,6 @@
+MakeCirc is a MetaPost library that contains diverse symbols
+for use in circuit diagrams. MakeCirc offers a high quality
+tool, with a simple syntax. MakeCirc is completely integrated
+with LaTeX documents and with other MetaPost drawing/graphic.
+Its output is a PostScript file. MakeCirc only requires (La)TeX
+and MetaPost to work.

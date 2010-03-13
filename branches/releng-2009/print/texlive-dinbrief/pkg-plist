@@ -1,0 +1,22 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/dinbrief/brfbody.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dinbrief/brfkopf.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dinbrief/dbold.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dinbrief/dinbrief.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dinbrief/dinbrief.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dinbrief/dintab.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dinbrief/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dinbrief/liesmich
+%%PORTDOCS%%share/texmf-dist/doc/latex/dinbrief/readme
+%%PORTDOCS%%share/texmf-dist/doc/latex/dinbrief/test10.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dinbrief/test11.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dinbrief/test12.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dinbrief/testnorm.tex
+%%PORTSRC%%share/texmf-dist/source/latex/dinbrief/dinbrief.drv
+%%PORTSRC%%share/texmf-dist/source/latex/dinbrief/dinbrief.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/dinbrief/dinbrief.ins
+share/texmf-dist/tex/latex/dinbrief/dinbrief.cfg
+share/texmf-dist/tex/latex/dinbrief/dinbrief.cls
+share/texmf-dist/tex/latex/dinbrief/dinbrief.sty
+@dirrmtry share/texmf-dist/tex/latex/dinbrief
+@dirrmtry share/texmf-dist/source/latex/dinbrief
+@dirrmtry share/texmf-dist/doc/latex/dinbrief

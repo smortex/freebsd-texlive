@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/svn/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/svn/svn.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/svn/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/svn/svn.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/svn/svn.ins
+share/texmf-dist/tex/latex/svn/svn.sty
+@dirrmtry share/texmf-dist/tex/latex/svn
+@dirrmtry share/texmf-dist/source/latex/svn
+@dirrmtry share/texmf-dist/doc/latex/svn

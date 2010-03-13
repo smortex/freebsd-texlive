@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/sectionbox/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/sectionbox/example/000074Bpatspec.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/sectionbox/example/000074Bzones.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/sectionbox/example/000175Bpatspec.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/sectionbox/example/000175Bzones.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/sectionbox/example/002000AApatspec.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/sectionbox/example/002000AAzones.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/sectionbox/example/lambda2.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/sectionbox/example/lenna10connect.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/sectionbox/example/lenna10pct.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/sectionbox/example/lenna10smooth.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/sectionbox/example/orig.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/sectionbox/example/sectionboxexample.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/sectionbox/example/sectionboxexample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sectionbox/sectionboxmanual.pdf
+share/texmf-dist/tex/latex/sectionbox/sectionbox.sty
+@dirrmtry share/texmf-dist/tex/latex/sectionbox
+@dirrmtry share/texmf-dist/doc/latex/sectionbox/example
+@dirrmtry share/texmf-dist/doc/latex/sectionbox

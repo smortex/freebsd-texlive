@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/assignment/Changelog
+%%PORTDOCS%%share/texmf-dist/doc/latex/assignment/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/assignment/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/assignment/assignment.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/assignment/assignment.tex
+share/texmf-dist/tex/latex/assignment/assignment.cls
+@dirrmtry share/texmf-dist/tex/latex/assignment
+@dirrmtry share/texmf-dist/doc/latex/assignment

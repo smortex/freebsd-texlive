@@ -1,0 +1,5 @@
+This package is for use when sending a large number of letters,
+all with the same body text. The package's \addressfile command
+is used to specify who the letter's to be sent to; the body of
+the \mailingtext command specifies the text of the letters,
+possibly using macros defined in the \addressfile.

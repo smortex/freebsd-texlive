@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/progress/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/progress/progress.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/progress/progress.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/progress/progress20030701.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/progress/progress20030714.html
+share/texmf-dist/tex/latex/progress/progress.sty
+@dirrmtry share/texmf-dist/tex/latex/progress
+@dirrmtry share/texmf-dist/doc/latex/progress

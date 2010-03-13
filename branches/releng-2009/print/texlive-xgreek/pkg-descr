@@ -1,0 +1,12 @@
+This package has been designed so to allow people to typeset
+Greek language documents using XeLaTeX. And it is released in
+the hope that people will use it and spot errors, bugs,
+features so to improve it. Practically, it provides all the
+capabilities of the greek option of the babel package. The
+package can be invoked with any of the following options:
+monotonic (for typesetting modern monotonic Greek), polytonic
+(for typesetting modern polytonic Greek), and ancient (for
+typesetting ancient texts). The default option is monotonic.
+The command \setlanguage{<lang>} to activate the hyphenation
+patterns of the language <lang> This, however, can be done only
+if the format file has not been built with the babel mechanism.

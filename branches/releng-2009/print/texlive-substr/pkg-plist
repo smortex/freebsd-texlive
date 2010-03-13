@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/substr/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/latex/substr/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/substr/testsubstr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/substr/testsubstr.tex
+share/texmf-dist/tex/latex/substr/substr.sty
+@dirrmtry share/texmf-dist/tex/latex/substr
+@dirrmtry share/texmf-dist/doc/latex/substr

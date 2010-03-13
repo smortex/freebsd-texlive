@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/c-pascal/demo1.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/c-pascal/demo2.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/c-pascal/prog/guess.pas
+%%PORTDOCS%%share/texmf-dist/doc/generic/c-pascal/prog/sun.c
+%%PORTDOCS%%share/texmf-dist/doc/generic/c-pascal/readme.eng
+%%PORTDOCS%%share/texmf-dist/doc/generic/c-pascal/readme.pol
+share/texmf-dist/tex/generic/c-pascal/cap.tex
+share/texmf-dist/tex/generic/c-pascal/cap_c.tex
+share/texmf-dist/tex/generic/c-pascal/cap_comm.tex
+share/texmf-dist/tex/generic/c-pascal/cap_pas.tex
+@dirrmtry share/texmf-dist/tex/generic/c-pascal
+@dirrmtry share/texmf-dist/doc/generic/c-pascal/prog
+@dirrmtry share/texmf-dist/doc/generic/c-pascal

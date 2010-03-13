@@ -1,0 +1,26 @@
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/ChangeLog-old
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/demo.sgm
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/docbook.dsl
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/index.html
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/index.xml
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/index.xsl
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/jadetex.1
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/jadetex.cfg
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/logo.png
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/pdfjadetex.1
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/releasenotes.dsl
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/releasenotes.xml
+%%PORTSRC%%share/texmf-dist/source/jadetex/base/Makefile
+%%PORTSRC%%share/texmf-dist/source/jadetex/base/jadetex.dtx
+%%PORTSRC%%share/texmf-dist/source/jadetex/base/jadetex.ins
+share/texmf-dist/tex/jadetex/base/dsssl.def
+share/texmf-dist/tex/jadetex/base/jadetex.ini
+share/texmf-dist/tex/jadetex/base/jadetex.ltx
+share/texmf-dist/tex/jadetex/base/pdfjadetex.ini
+share/texmf-dist/tex/jadetex/base/uentities.sty
+share/texmf-dist/tex/jadetex/base/ut1omlgc.fd
+@dirrmtry share/texmf-dist/tex/jadetex/base
+@dirrmtry share/texmf-dist/source/jadetex/base
+@dirrmtry share/texmf-dist/doc/otherformats/jadetex/base

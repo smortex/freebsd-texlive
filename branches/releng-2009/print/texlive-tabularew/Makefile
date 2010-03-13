@@ -1,0 +1,16 @@
+# New ports collection makefile for:	texlive-tabularew
+# Date created:		13/03/2010 04:49:54
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	tabularew
+CATEGORIES=	print
+
+MAINTAINER=	romain@blogreen.org
+COMMENT=	A variation on the tabular environment.
+
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

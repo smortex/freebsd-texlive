@@ -1,0 +1,25 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodate/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodate/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodate/getversion.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodate/isodate.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodate/isodate.xml
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodate/isodateo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodate/testdate.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodate/testdate.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodate/testisodate_without_babel.tex
+%%PORTSRC%%share/texmf-dist/source/latex/isodate/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/isodate/isodate.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/isodate/isodate.ins
+%%PORTSRC%%share/texmf-dist/source/latex/isodate/isodateo.dtx
+share/texmf-dist/tex/latex/isodate/danish.idf
+share/texmf-dist/tex/latex/isodate/english.idf
+share/texmf-dist/tex/latex/isodate/french.idf
+share/texmf-dist/tex/latex/isodate/german.idf
+share/texmf-dist/tex/latex/isodate/isodate.sty
+share/texmf-dist/tex/latex/isodate/isodateo.sty
+share/texmf-dist/tex/latex/isodate/italian.idf
+share/texmf-dist/tex/latex/isodate/norsk.idf
+share/texmf-dist/tex/latex/isodate/swedish.idf
+@dirrmtry share/texmf-dist/tex/latex/isodate
+@dirrmtry share/texmf-dist/source/latex/isodate
+@dirrmtry share/texmf-dist/doc/latex/isodate

@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/clock/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/clock/EMTEX
+%%PORTDOCS%%share/texmf-dist/doc/latex/clock/HISTORY
+%%PORTDOCS%%share/texmf-dist/doc/latex/clock/INSTALL
+%%PORTDOCS%%share/texmf-dist/doc/latex/clock/MIKTEX
+%%PORTDOCS%%share/texmf-dist/doc/latex/clock/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/clock/clockdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/clock/clockdoc.tex
+share/texmf-dist/fonts/source/public/clock/clock.mf
+share/texmf-dist/fonts/tfm/public/clock/clock.tfm
+share/texmf-dist/tex/latex/clock/clock.sty
+share/texmf-dist/tex/latex/clock/clock.tex
+@dirrmtry share/texmf-dist/tex/latex/clock
+@dirrmtry share/texmf-dist/fonts/tfm/public/clock
+@dirrmtry share/texmf-dist/fonts/source/public/clock
+@dirrmtry share/texmf-dist/doc/latex/clock

@@ -1,0 +1,10 @@
+share/texmf-dist/fonts/tfm/cg/clarendo/ccdr8tc.tfm
+share/texmf-dist/fonts/tfm/cg/clarendo/ccdrrc.tfm
+share/texmf-dist/fonts/tfm/cg/clarendo/clc10u.tfm
+share/texmf-dist/fonts/tfm/cg/clarendo/clc6j.tfm
+share/texmf-dist/fonts/tfm/cg/clarendo/clc7j.tfm
+share/texmf-dist/fonts/tfm/cg/clarendo/clc8u.tfm
+share/texmf-dist/fonts/vf/cg/clarendo/ccdr8tc.vf
+share/texmf-dist/fonts/vf/cg/clarendo/ccdrrc.vf
+@dirrmtry share/texmf-dist/fonts/vf/cg/clarendo
+@dirrmtry share/texmf-dist/fonts/tfm/cg/clarendo

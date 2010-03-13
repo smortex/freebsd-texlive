@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/vaucanson-g/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/generic/vaucanson-g/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/vaucanson-g/VCManual-src/TwoStates.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/vaucanson-g/VCManual-src/VCManual.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/vaucanson-g/VCManual.pdf
+share/texmf-dist/tex/generic/vaucanson-g/VCColor-names.def
+share/texmf-dist/tex/generic/vaucanson-g/VCPref-beamer.tex
+share/texmf-dist/tex/generic/vaucanson-g/VCPref-default.tex
+share/texmf-dist/tex/generic/vaucanson-g/VCPref-mystyle.tex
+share/texmf-dist/tex/generic/vaucanson-g/VCPref-slides.tex
+share/texmf-dist/tex/generic/vaucanson-g/Vaucanson-G.tex
+share/texmf-dist/tex/generic/vaucanson-g/vaucanson-g.sty
+share/texmf-dist/tex/generic/vaucanson-g/vaucanson.sty
+@dirrmtry share/texmf-dist/tex/generic/vaucanson-g
+@dirrmtry share/texmf-dist/doc/generic/vaucanson-g/VCManual-src
+@dirrmtry share/texmf-dist/doc/generic/vaucanson-g

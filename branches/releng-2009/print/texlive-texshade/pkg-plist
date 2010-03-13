@@ -1,0 +1,21 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/texshade/AQP1.phd
+%%PORTDOCS%%share/texmf-dist/doc/latex/texshade/AQP1.top
+%%PORTDOCS%%share/texmf-dist/doc/latex/texshade/AQP2spec.ALN
+%%PORTDOCS%%share/texmf-dist/doc/latex/texshade/AQPDNA.MSF
+%%PORTDOCS%%share/texmf-dist/doc/latex/texshade/AQP_HMM.ext
+%%PORTDOCS%%share/texmf-dist/doc/latex/texshade/AQP_HMM.sgl
+%%PORTDOCS%%share/texmf-dist/doc/latex/texshade/AQP_TC.asc
+%%PORTDOCS%%share/texmf-dist/doc/latex/texshade/AQPpro.MSF
+%%PORTDOCS%%share/texmf-dist/doc/latex/texshade/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/texshade/ciliate.cod
+%%PORTDOCS%%share/texmf-dist/doc/latex/texshade/standard.cod
+%%PORTDOCS%%share/texmf-dist/doc/latex/texshade/texshade.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/texshade/tsfaq.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/texshade/tsfaq.tex
+%%PORTSRC%%share/texmf-dist/source/latex/texshade/texshade.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/texshade/texshade.ins
+share/texmf-dist/tex/latex/texshade/texshade.def
+share/texmf-dist/tex/latex/texshade/texshade.sty
+@dirrmtry share/texmf-dist/tex/latex/texshade
+@dirrmtry share/texmf-dist/source/latex/texshade
+@dirrmtry share/texmf-dist/doc/latex/texshade

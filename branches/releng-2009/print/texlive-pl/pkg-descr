@@ -1,0 +1,7 @@
+This package is the Polish extension of the Computer Modern
+fonts (known as PL fonts),in Adobe Type 1 (PostScript) format.
+The fonts use the same .tfm files as for the version generated
+by MetaFont. This release of fonts was adapted to the (mostly
+guessed) demands of the Windows environment, while keeping the
+fonts usable with TeX; however, encoding files are now added,
+as Windows and TeX use different encoding schemes.

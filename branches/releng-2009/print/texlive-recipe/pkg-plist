@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/recipe/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/recipe/sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/recipe/sample.tex
+share/texmf-dist/tex/latex/recipe/recipe.cls
+@dirrmtry share/texmf-dist/tex/latex/recipe
+@dirrmtry share/texmf-dist/doc/latex/recipe

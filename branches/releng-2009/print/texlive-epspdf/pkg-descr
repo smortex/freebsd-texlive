@@ -1,0 +1,5 @@
+Epspdf[tk] is a Ruby script which converts between PostScript,
+EPS and PDF. It has both a command-line and a GUI interface.
+Using pdftops (from the xpdf command-line utilities) for round-
+tripping opens up several new possibilities compared to older
+similarly-named utilities.

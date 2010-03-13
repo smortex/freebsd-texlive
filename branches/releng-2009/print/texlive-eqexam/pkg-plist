@@ -1,0 +1,28 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/eqexam/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/eqexam/eqecus.opt
+%%PORTDOCS%%share/texmf-dist/doc/latex/eqexam/examples/eqex_solnsonly.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eqexam/examples/eqexam.cfg
+%%PORTDOCS%%share/texmf-dist/doc/latex/eqexam/examples/eqexami.cfg
+%%PORTDOCS%%share/texmf-dist/doc/latex/eqexam/examples/fig1.bb
+%%PORTDOCS%%share/texmf-dist/doc/latex/eqexam/examples/fig1.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/eqexam/examples/fig1.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/eqexam/examples/fig1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eqexam/examples/hw01.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eqexam/examples/quiz01.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eqexam/examples/quiz02.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eqexam/examples/test01.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eqexam/examples/test02.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eqexam/examples/test_matching.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eqexam/examples/tex_survey.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eqexam/script/eqAttach.asp
+%%PORTSRC%%share/texmf-dist/source/latex/eqexam/eqexam.drv
+%%PORTSRC%%share/texmf-dist/source/latex/eqexam/eqexam.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/eqexam/eqexam.ins
+share/texmf-dist/tex/latex/eqexam/eqalone.def
+share/texmf-dist/tex/latex/eqexam/eqexam.def
+share/texmf-dist/tex/latex/eqexam/eqexam.sty
+@dirrmtry share/texmf-dist/tex/latex/eqexam
+@dirrmtry share/texmf-dist/source/latex/eqexam
+@dirrmtry share/texmf-dist/doc/latex/eqexam/script
+@dirrmtry share/texmf-dist/doc/latex/eqexam/examples
+@dirrmtry share/texmf-dist/doc/latex/eqexam

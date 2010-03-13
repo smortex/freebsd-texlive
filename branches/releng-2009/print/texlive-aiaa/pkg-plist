@@ -1,0 +1,43 @@
+share/texmf-dist/bibtex/bst/aiaa/aiaa.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/aiaa.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/author_guide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/author_guide.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/bibtex_database.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/figure_magnet.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/figure_magnet.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/pre2004/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/pre2004/MANIFEST
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/pre2004/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/pre2004/aiaa.dtx
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/pre2004/aiaa.ins
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/pre2004/aiaa.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/pre2004/aiaalgo.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/pre2004/demos/paper/smpaiaa.ps
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/pre2004/demos/paper/smpaiaa.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/pre2004/demos/paper/smpbtx.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/pre2004/demos/paper/smpfig.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/pre2004/demos/refs/tstbtx.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/pre2004/demos/refs/tstref.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/pre2004/demos/subfigs/smpfig.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/pre2004/demos/subfigs/smpsubf.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/pre2004/demos/talk/smpfig.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/pre2004/demos/talk/smptalk.ps
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/pre2004/demos/talk/smptalk.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/pre2004/demos/talk/smptalk.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/template_advanced.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/template_advanced.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/template_basic.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/aiaa/template_basic.tex
+%%PORTSRC%%share/texmf-dist/source/latex/aiaa/aiaa.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/aiaa/aiaa.ins
+share/texmf-dist/tex/latex/aiaa/aiaa-tc.cls
+@dirrmtry share/texmf-dist/tex/latex/aiaa
+@dirrmtry share/texmf-dist/source/latex/aiaa
+@dirrmtry share/texmf-dist/doc/latex/aiaa/pre2004/demos/talk
+@dirrmtry share/texmf-dist/doc/latex/aiaa/pre2004/demos/subfigs
+@dirrmtry share/texmf-dist/doc/latex/aiaa/pre2004/demos/refs
+@dirrmtry share/texmf-dist/doc/latex/aiaa/pre2004/demos/paper
+@dirrmtry share/texmf-dist/doc/latex/aiaa/pre2004
+@dirrmtry share/texmf-dist/doc/latex/aiaa
+@dirrmtry share/texmf-dist/bibtex/bst/aiaa

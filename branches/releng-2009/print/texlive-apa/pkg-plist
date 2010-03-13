@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/apa/APAendfloat.cfg
+%%PORTDOCS%%share/texmf-dist/doc/latex/apa/CHANGELOG.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/apa/LICENCE
+%%PORTDOCS%%share/texmf-dist/doc/latex/apa/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/apa/apacls.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/apa/apacls.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/apa/apaenum.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/apa/apaexample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/apa/examplebib.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/apa/examples.txt
+share/texmf-dist/tex/latex/apa/apa.cls
+share/texmf-dist/tex/latex/apa/dutch.apa
+share/texmf-dist/tex/latex/apa/english.apa
+share/texmf-dist/tex/latex/apa/greek.apa
+@dirrmtry share/texmf-dist/tex/latex/apa
+@dirrmtry share/texmf-dist/doc/latex/apa

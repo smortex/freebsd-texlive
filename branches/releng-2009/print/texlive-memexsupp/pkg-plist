@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/memexsupp/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/memexsupp/memexsupp.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/memexsupp/memexsupp.tex
+share/texmf-dist/tex/latex/memexsupp/memexsupp.sty
+@dirrmtry share/texmf-dist/tex/latex/memexsupp
+@dirrmtry share/texmf-dist/doc/latex/memexsupp

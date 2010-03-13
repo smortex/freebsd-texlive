@@ -1,0 +1,13 @@
+share/texmf-dist/bibtex/bst/jurarsp/jurarsp.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/jurarsp/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/jurarsp/jurarsp.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/jurarsp/rsptest.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/jurarsp/rsptest.tex
+%%PORTSRC%%share/texmf-dist/source/latex/jurarsp/jurarsp.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/jurarsp/jurarsp.ins
+share/texmf-dist/tex/latex/jurarsp/jurarsp.cfg
+share/texmf-dist/tex/latex/jurarsp/jurarsp.sty
+@dirrmtry share/texmf-dist/tex/latex/jurarsp
+@dirrmtry share/texmf-dist/source/latex/jurarsp
+@dirrmtry share/texmf-dist/doc/latex/jurarsp
+@dirrmtry share/texmf-dist/bibtex/bst/jurarsp

@@ -1,0 +1,7 @@
+share/texmf-dist/fonts/source/public/logic/milstd.mf
+share/texmf-dist/fonts/tfm/public/logic/milstd.tfm
+share/texmf-dist/tex/latex/logic/milstd.sty
+share/texmf-dist/tex/latex/logic/milstd.tex
+@dirrmtry share/texmf-dist/tex/latex/logic
+@dirrmtry share/texmf-dist/fonts/tfm/public/logic
+@dirrmtry share/texmf-dist/fonts/source/public/logic

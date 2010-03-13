@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/thinsp/COPYIRIGHT
+%%PORTDOCS%%share/texmf-dist/doc/latex/thinsp/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/thinsp/thinsp.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/thinsp/thinsp.tex
+share/texmf-dist/tex/latex/thinsp/thinsp.sty
+@dirrmtry share/texmf-dist/tex/latex/thinsp
+@dirrmtry share/texmf-dist/doc/latex/thinsp

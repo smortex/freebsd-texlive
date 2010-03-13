@@ -1,0 +1,8 @@
+This bundle, consisting of a simple wrapper class and some
+packages, forms a small LaTeX/BibTeX documentation kit; the
+author uses it for some of his own packages. The package is not
+supported: users should not attempt its use unless they are
+capable of dealing with problems unaided. (The actual purpose
+of releasing the package is to make it possible for third
+parties to compile the documentation of other packages, should
+that be necessary.)

@@ -1,0 +1,6 @@
+ArmTeX is an Armenian system for TeX/LaTeX(2e)/MetaFont. It can
+be used with a standard Latin keyboard without any special
+encoding and/or support for Armenian letters. It can also be
+used with any keyboard which uses encoding having Armenian
+letters in the second half (characters 128-255) of the extended
+ASCII table (for example ArmSCII8 Armenian standard).

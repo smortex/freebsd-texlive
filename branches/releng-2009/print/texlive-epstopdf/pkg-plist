@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/epstopdf/README
+%%PORTDOCS%%share/texmf/doc/man/man1/epstopdf.1
+%%PORTDOCS%%share/texmf/doc/man/man1/epstopdf.man1.pdf
+@dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf-dist/doc/latex/epstopdf

@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/asyfig/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/asyfig/asyfig.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/asyfig/example/frf.asy
+%%PORTDOCS%%share/texmf-dist/doc/latex/asyfig/example/test-asyfig.tex
+%%PORTSRC%%share/texmf-dist/source/latex/asyfig/asyfig.ins
+%%PORTSRC%%share/texmf-dist/source/latex/asyfig/asyfig.tex
+share/texmf-dist/tex/latex/asyfig/asyalign.sty
+share/texmf-dist/tex/latex/asyfig/asyfig.sty
+share/texmf-dist/tex/latex/asyfig/asyprocess.sty
+@dirrmtry share/texmf-dist/tex/latex/asyfig
+@dirrmtry share/texmf-dist/source/latex/asyfig
+@dirrmtry share/texmf-dist/doc/latex/asyfig/example
+@dirrmtry share/texmf-dist/doc/latex/asyfig

@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/expdlist/expdlisg.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/expdlist/expdlist.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/expdlist/readme.txt
+%%PORTSRC%%share/texmf-dist/source/latex/expdlist/expdlisg.drv
+%%PORTSRC%%share/texmf-dist/source/latex/expdlist/expdlist.drv
+%%PORTSRC%%share/texmf-dist/source/latex/expdlist/expdlist.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/expdlist/expdlist.ins
+share/texmf-dist/tex/latex/expdlist/expdlist.sty
+@dirrmtry share/texmf-dist/tex/latex/expdlist
+@dirrmtry share/texmf-dist/source/latex/expdlist
+@dirrmtry share/texmf-dist/doc/latex/expdlist

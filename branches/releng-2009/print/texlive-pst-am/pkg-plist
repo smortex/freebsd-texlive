@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-am/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-am/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-am/pst-am-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-am/pst-am-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-am/pst-am-doc.tex
+%%PORTSRC%%share/texmf-dist/source/generic/pst-am/Makefile
+share/texmf-dist/tex/latex/pst-am/pst-am.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-am
+@dirrmtry share/texmf-dist/source/generic/pst-am
+@dirrmtry share/texmf-dist/doc/generic/pst-am

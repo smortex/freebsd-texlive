@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/egplot/egplot.README
+%%PORTDOCS%%share/texmf-dist/doc/latex/egplot/manual.ps.gz
+%%PORTSRC%%share/texmf-dist/source/latex/egplot/egplot.drv
+%%PORTSRC%%share/texmf-dist/source/latex/egplot/egplot.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/egplot/egplot.ins
+%%PORTSRC%%share/texmf-dist/source/latex/egplot/egpman.drv
+share/texmf-dist/tex/latex/egplot/egplot.sty
+@dirrmtry share/texmf-dist/tex/latex/egplot
+@dirrmtry share/texmf-dist/source/latex/egplot
+@dirrmtry share/texmf-dist/doc/latex/egplot

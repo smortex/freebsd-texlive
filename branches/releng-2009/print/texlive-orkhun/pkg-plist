@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/orkhun/README_Orkhun.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/orkhun/rakhimov.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/orkhun/rakhimov.tex
+share/texmf-dist/fonts/source/public/orkhun/orhant.mf
+share/texmf-dist/fonts/source/public/orkhun/orhant11.mf
+share/texmf-dist/fonts/source/public/orkhun/orhant14.mf
+share/texmf-dist/fonts/source/public/orkhun/orhant16.mf
+share/texmf-dist/fonts/source/public/orkhun/orhant20.mf
+share/texmf-dist/fonts/source/public/orkhun/orhant25.mf
+share/texmf-dist/fonts/tfm/public/orkhun/orhant11.tfm
+share/texmf-dist/fonts/tfm/public/orkhun/orhant14.tfm
+share/texmf-dist/fonts/tfm/public/orkhun/orhant16.tfm
+share/texmf-dist/fonts/tfm/public/orkhun/orhant20.tfm
+share/texmf-dist/fonts/tfm/public/orkhun/orhant25.tfm
+@dirrmtry share/texmf-dist/fonts/tfm/public/orkhun
+@dirrmtry share/texmf-dist/fonts/source/public/orkhun
+@dirrmtry share/texmf-dist/doc/fonts/orkhun

@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/boldtensors/boldtensors.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/boldtensors/boldtensors.tex
+share/texmf-dist/tex/latex/boldtensors/boldtensors.sty
+@dirrmtry share/texmf-dist/tex/latex/boldtensors
+@dirrmtry share/texmf-dist/doc/latex/boldtensors

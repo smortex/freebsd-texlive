@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/exp-testopt/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/exp-testopt/exp-testopt.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/exp-testopt/exp-testopt.test
+%%PORTSRC%%share/texmf-dist/source/latex/exp-testopt/exp-testopt.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/exp-testopt/exp-testopt.ins
+share/texmf-dist/tex/latex/exp-testopt/exp-testopt.sty
+@dirrmtry share/texmf-dist/tex/latex/exp-testopt
+@dirrmtry share/texmf-dist/source/latex/exp-testopt
+@dirrmtry share/texmf-dist/doc/latex/exp-testopt

@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-optic/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-optic/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-optic/pst-optic-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-optic/pst-optic-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-optic/pst-optic-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-optic/pst-optic-examples.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-optic/pst-optic-examples.tex
+%%PORTSRC%%share/texmf-dist/source/generic/pst-optic/Makefile
+share/texmf-dist/tex/generic/pst-optic/pst-optic.tex
+share/texmf-dist/tex/latex/pst-optic/pst-optic.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-optic
+@dirrmtry share/texmf-dist/tex/generic/pst-optic
+@dirrmtry share/texmf-dist/source/generic/pst-optic
+@dirrmtry share/texmf-dist/doc/generic/pst-optic

@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cancel/cancel.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cancel/cancel.tex
+share/texmf-dist/tex/latex/cancel/cancel.sty
+@dirrmtry share/texmf-dist/tex/latex/cancel
+@dirrmtry share/texmf-dist/doc/latex/cancel

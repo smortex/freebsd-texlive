@@ -1,0 +1,30 @@
+share/texmf-dist/fonts/source/public/bengali/bn.mf
+share/texmf-dist/fonts/source/public/bengali/bnbanjon.mf
+share/texmf-dist/fonts/source/public/bengali/bndigit.mf
+share/texmf-dist/fonts/source/public/bengali/bnjuk.mf
+share/texmf-dist/fonts/source/public/bengali/bnkaar.mf
+share/texmf-dist/fonts/source/public/bengali/bnlig.mf
+share/texmf-dist/fonts/source/public/bengali/bnligtbl.mf
+share/texmf-dist/fonts/source/public/bengali/bnmacro.mf
+share/texmf-dist/fonts/source/public/bengali/bnmisc.mf
+share/texmf-dist/fonts/source/public/bengali/bnpunct.mf
+share/texmf-dist/fonts/source/public/bengali/bnr10.mf
+share/texmf-dist/fonts/source/public/bengali/bnsl10.mf
+share/texmf-dist/fonts/source/public/bengali/bnswar.mf
+share/texmf-dist/fonts/source/public/bengali/xbnr10.mf
+share/texmf-dist/fonts/source/public/bengali/xbnsl10.mf
+share/texmf-dist/fonts/source/public/bengali/xbnsupp.mf
+share/texmf-dist/fonts/tfm/public/bengali/bnr10.tfm
+share/texmf-dist/fonts/tfm/public/bengali/bnsl10.tfm
+share/texmf-dist/fonts/tfm/public/bengali/xbnr10.tfm
+share/texmf-dist/fonts/tfm/public/bengali/xbnsl10.tfm
+%%PORTSRC%%share/texmf-dist/source/latex/bengali/beng.c
+%%PORTSRC%%share/texmf-dist/source/latex/bengali/bengdoc.bn
+%%PORTSRC%%share/texmf-dist/source/latex/bengali/example.bn
+share/texmf-dist/tex/latex/bengali/beng.sty
+share/texmf-dist/tex/latex/bengali/ubn.fd
+share/texmf-dist/tex/latex/bengali/ubnx.fd
+@dirrmtry share/texmf-dist/tex/latex/bengali
+@dirrmtry share/texmf-dist/source/latex/bengali
+@dirrmtry share/texmf-dist/fonts/tfm/public/bengali
+@dirrmtry share/texmf-dist/fonts/source/public/bengali

@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/gaceta/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/gaceta/plantilla-articulo-de-seccion.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/gaceta/plantilla-articulo-de-seccion.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/gaceta/plantilla-articulo-suelto.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/gaceta/plantilla-articulo-suelto.tex
+share/texmf-dist/tex/latex/gaceta/gaceta.cls
+@dirrmtry share/texmf-dist/tex/latex/gaceta
+@dirrmtry share/texmf-dist/doc/latex/gaceta

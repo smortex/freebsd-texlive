@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/trfsigns/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/trfsigns/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/trfsigns/trfexamp.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/trfsigns/trfsigns.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/trfsigns/trfsigns.drv
+%%PORTSRC%%share/texmf-dist/source/latex/trfsigns/trfsigns.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/trfsigns/trfsigns.ins
+share/texmf-dist/tex/latex/trfsigns/trfsigns.sty
+@dirrmtry share/texmf-dist/tex/latex/trfsigns
+@dirrmtry share/texmf-dist/source/latex/trfsigns
+@dirrmtry share/texmf-dist/doc/latex/trfsigns

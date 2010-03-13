@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pseudocode/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pseudocode/pseudocode.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pseudocode/pseudocode.tex
+share/texmf-dist/tex/latex/pseudocode/pseudocode.sty
+@dirrmtry share/texmf-dist/tex/latex/pseudocode
+@dirrmtry share/texmf-dist/doc/latex/pseudocode

@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/topfloat/topfloat.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/topfloat/topfloat.tex
+share/texmf-dist/tex/latex/topfloat/topfloat.sty
+@dirrmtry share/texmf-dist/tex/latex/topfloat
+@dirrmtry share/texmf-dist/doc/latex/topfloat

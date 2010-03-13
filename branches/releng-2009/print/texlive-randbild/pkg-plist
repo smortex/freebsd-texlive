@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/randbild/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/randbild/randbild.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/randbild/randbild.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/randbild/randbild.ins
+share/texmf-dist/tex/latex/randbild/randbild.sty
+@dirrmtry share/texmf-dist/tex/latex/randbild
+@dirrmtry share/texmf-dist/source/latex/randbild
+@dirrmtry share/texmf-dist/doc/latex/randbild

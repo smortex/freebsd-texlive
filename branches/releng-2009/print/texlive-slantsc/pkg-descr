@@ -1,0 +1,4 @@
+This package enables the use of small capitals in different
+font shapes, e.g., slanted or bold slanted for all fonts that
+provide appropriate font shapes. (Note that a separate .fd file
+is needed to define font shapes such as 'scsl' or 'scit'.)

@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/greek-inputenc/test.tex
+share/texmf-dist/tex/latex/greek-inputenc/iso-8859-7.def
+share/texmf-dist/tex/latex/greek-inputenc/macgreek.def
+@dirrmtry share/texmf-dist/tex/latex/greek-inputenc
+@dirrmtry share/texmf-dist/doc/latex/greek-inputenc

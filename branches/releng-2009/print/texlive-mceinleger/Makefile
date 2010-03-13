@@ -1,0 +1,17 @@
+# New ports collection makefile for:	texlive-mceinleger
+# Date created:		13/03/2010 04:44:49
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	mceinleger
+CATEGORIES=	print
+
+MAINTAINER=	romain@blogreen.org
+COMMENT=	Creating covers for music cassettes.
+
+NOPORTSRC=	yes
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

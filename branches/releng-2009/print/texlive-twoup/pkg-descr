@@ -1,0 +1,7 @@
+MiKTeX and many other TeX implementations include tools for
+massaging PostScript into booklet and two-up printing -- that
+is, printing two logical pages side by side on one side of one
+sheet of paper. However, some LaTeX preliminaries are necessary
+to use those tools. The twoup package provides such
+preliminaries and gives advice on how to use the PostScript
+tools.

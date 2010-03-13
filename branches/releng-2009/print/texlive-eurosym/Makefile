@@ -1,0 +1,17 @@
+# New ports collection makefile for:	texlive-eurosym
+# Date created:		13/03/2010 04:30:03
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	eurosym
+CATEGORIES=	print
+
+MAINTAINER=	romain@blogreen.org
+COMMENT=	MetaFont and macros for Euro sign.
+
+NOPORTSRC=	yes
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

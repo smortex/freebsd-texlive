@@ -1,0 +1,32 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ncclatex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ncclatex/changes.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/ncclatex/manifest.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/ncclatex/ncclatex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ncclatex/ncclatex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ncclatex/nccnews.pdf
+share/texmf-dist/tex/latex/ncclatex/cp1251-light.def
+share/texmf-dist/tex/latex/ncclatex/ncc.cls
+share/texmf-dist/tex/latex/ncclatex/ncc10.clo
+share/texmf-dist/tex/latex/ncclatex/ncc11.clo
+share/texmf-dist/tex/latex/ncclatex/ncc12.clo
+share/texmf-dist/tex/latex/ncclatex/ncc14.clo
+share/texmf-dist/tex/latex/ncclatex/nccart.clo
+share/texmf-dist/tex/latex/ncclatex/nccbiblist.sty
+share/texmf-dist/tex/latex/ncclatex/nccbook.clo
+share/texmf-dist/tex/latex/ncclatex/nccdefaults.sty
+share/texmf-dist/tex/latex/ncclatex/nccfit.clo
+share/texmf-dist/tex/latex/ncclatex/ncchdr.sty
+share/texmf-dist/tex/latex/ncclatex/nccheadings.sty
+share/texmf-dist/tex/latex/ncclatex/nccindex.sty
+share/texmf-dist/tex/latex/ncclatex/ncclatex.sty
+share/texmf-dist/tex/latex/ncclatex/nccltrus.sty
+share/texmf-dist/tex/latex/ncclatex/nccold.sty
+share/texmf-dist/tex/latex/ncclatex/nccproc.cls
+share/texmf-dist/tex/latex/ncclatex/nccsections.sty
+share/texmf-dist/tex/latex/ncclatex/ncctheorems.sty
+share/texmf-dist/tex/latex/ncclatex/ncctitle.clo
+share/texmf-dist/tex/latex/ncclatex/ncctitle.sty
+share/texmf-dist/tex/latex/ncclatex/ncctitlepage.sty
+share/texmf-dist/tex/latex/ncclatex/sibjnm.cls
+@dirrmtry share/texmf-dist/tex/latex/ncclatex
+@dirrmtry share/texmf-dist/doc/latex/ncclatex

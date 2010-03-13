@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/collref/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/collref/collref.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/collref/collsamp.tex
+%%PORTSRC%%share/texmf-dist/source/latex/collref/collref.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/collref/collref.ins
+share/texmf-dist/tex/latex/collref/collref.sty
+@dirrmtry share/texmf-dist/tex/latex/collref
+@dirrmtry share/texmf-dist/source/latex/collref
+@dirrmtry share/texmf-dist/doc/latex/collref

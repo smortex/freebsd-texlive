@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/germkorr/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/germkorr/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/germkorr/germkorr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/germkorr/germkorr.tex
+share/texmf-dist/tex/latex/germkorr/germkorr.sty
+@dirrmtry share/texmf-dist/tex/latex/germkorr
+@dirrmtry share/texmf-dist/doc/latex/germkorr

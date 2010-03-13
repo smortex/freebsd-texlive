@@ -1,0 +1,4 @@
+The package enables the user to reduce the size of the rather
+large chapter headings in standard classes into a texi-like
+smaller format. Details of the format may be controlled with
+internal commands.

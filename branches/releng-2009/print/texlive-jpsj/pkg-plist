@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/jpsj/dummy.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/jpsj/injpsj2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/jpsj/injpsj2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jpsj/template.tex
+share/texmf-dist/tex/latex/jpsj/jpsj2.cls
+@dirrmtry share/texmf-dist/tex/latex/jpsj
+@dirrmtry share/texmf-dist/doc/latex/jpsj

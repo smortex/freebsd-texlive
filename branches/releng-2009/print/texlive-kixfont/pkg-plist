@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/kixfont/kixtable.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/kixfont/kixtable.tex
+share/texmf-dist/fonts/source/public/kixfont/kix.mf
+share/texmf-dist/fonts/tfm/public/kixfont/kix.tfm
+@dirrmtry share/texmf-dist/fonts/tfm/public/kixfont
+@dirrmtry share/texmf-dist/fonts/source/public/kixfont
+@dirrmtry share/texmf-dist/doc/fonts/kixfont

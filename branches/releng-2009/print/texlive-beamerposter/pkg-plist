@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerposter/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerposter/beamerposter.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerposter/beamerposter.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerposter/example.tex
+share/texmf-dist/tex/latex/beamerposter/beamerposter.sty
+@dirrmtry share/texmf-dist/tex/latex/beamerposter
+@dirrmtry share/texmf-dist/doc/latex/beamerposter

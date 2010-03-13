@@ -1,0 +1,6 @@
+share/texmf-dist/fonts/source/public/cherokee/cherokee.mf
+share/texmf-dist/fonts/tfm/public/cherokee/cherokee.tfm
+share/texmf-dist/tex/latex/cherokee/cherokee.sty
+@dirrmtry share/texmf-dist/tex/latex/cherokee
+@dirrmtry share/texmf-dist/fonts/tfm/public/cherokee
+@dirrmtry share/texmf-dist/fonts/source/public/cherokee

@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/anonchap/anonchap.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/anonchap/anonchap.tex
+share/texmf-dist/tex/latex/anonchap/anonchap.sty
+@dirrmtry share/texmf-dist/tex/latex/anonchap
+@dirrmtry share/texmf-dist/doc/latex/anonchap

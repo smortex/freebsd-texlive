@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/aeguill/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/aeguill/guil-test1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/aeguill/guil-test1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/aeguill/guil-test2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/aeguill/guil-test2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/aeguill/license.txt
+share/texmf-dist/tex/latex/aeguill/aeguill.sty
+@dirrmtry share/texmf-dist/tex/latex/aeguill
+@dirrmtry share/texmf-dist/doc/latex/aeguill

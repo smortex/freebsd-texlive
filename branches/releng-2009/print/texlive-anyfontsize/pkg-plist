@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/anyfontsize/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/anyfontsize/anyfontsize.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/anyfontsize/anyfontsize.tex
+share/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
+@dirrmtry share/texmf-dist/tex/latex/anyfontsize
+@dirrmtry share/texmf-dist/doc/latex/anyfontsize

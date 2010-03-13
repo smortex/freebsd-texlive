@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/listing/listing.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/listing/listing.tex
+share/texmf-dist/tex/latex/listing/listing.sty
+@dirrmtry share/texmf-dist/tex/latex/listing
+@dirrmtry share/texmf-dist/doc/latex/listing

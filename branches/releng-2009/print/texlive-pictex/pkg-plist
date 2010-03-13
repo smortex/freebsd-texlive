@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pictex/00index
+%%PORTDOCS%%share/texmf-dist/doc/generic/pictex/pictexzusatz.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/pictex/readme
+%%PORTDOCS%%share/texmf-dist/doc/generic/pictex/readme.errorbars
+share/texmf-dist/tex/generic/pictex/errorbars.tex
+share/texmf-dist/tex/generic/pictex/latexpicobjs.tex
+share/texmf-dist/tex/generic/pictex/piccorr.sty
+share/texmf-dist/tex/generic/pictex/picmore.tex
+share/texmf-dist/tex/generic/pictex/pictex.sty
+share/texmf-dist/tex/generic/pictex/pictex.tex
+share/texmf-dist/tex/generic/pictex/pictexwd.sty
+share/texmf-dist/tex/generic/pictex/pictexwd.tex
+share/texmf-dist/tex/generic/pictex/pointers.tex
+share/texmf-dist/tex/generic/pictex/postpictex.tex
+share/texmf-dist/tex/generic/pictex/prepictex.tex
+share/texmf-dist/tex/generic/pictex/texpictex.tex
+share/texmf-dist/tex/generic/pictex/tree.sty
+@dirrmtry share/texmf-dist/tex/generic/pictex
+@dirrmtry share/texmf-dist/doc/generic/pictex

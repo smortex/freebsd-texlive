@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/dottex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/dottex/dottex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dottex/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dottex/gpl.txt
+%%PORTSRC%%share/texmf-dist/source/latex/dottex/dottex.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/dottex/dottex.ins
+share/texmf-dist/tex/latex/dottex/dottex.sty
+@dirrmtry share/texmf-dist/tex/latex/dottex
+@dirrmtry share/texmf-dist/source/latex/dottex
+@dirrmtry share/texmf-dist/doc/latex/dottex

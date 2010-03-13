@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/xetex/xetexfontinfo/README
+share/texmf-dist/tex/xetex/xetexfontinfo/aat-info.tex
+share/texmf-dist/tex/xetex/xetexfontinfo/opentype-info.tex
+@dirrmtry share/texmf-dist/tex/xetex/xetexfontinfo
+@dirrmtry share/texmf-dist/doc/xetex/xetexfontinfo

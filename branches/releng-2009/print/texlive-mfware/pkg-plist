@@ -1,0 +1,20 @@
+share/texmf-dist/mft/base/README
+share/texmf-dist/mft/base/cmbase.mft
+share/texmf-dist/mft/base/e.mft
+share/texmf-dist/mft/base/mplain.mft
+share/texmf-dist/mft/base/pl.mft
+share/texmf-dist/mft/base/plain.mft
+%%PORTDOCS%%share/texmf/doc/man/man1/gftodvi.1
+%%PORTDOCS%%share/texmf/doc/man/man1/gftodvi.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/gftopk.1
+%%PORTDOCS%%share/texmf/doc/man/man1/gftopk.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/gftype.1
+%%PORTDOCS%%share/texmf/doc/man/man1/gftype.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/mft.1
+%%PORTDOCS%%share/texmf/doc/man/man1/mft.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/pktogf.1
+%%PORTDOCS%%share/texmf/doc/man/man1/pktogf.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/pktype.1
+%%PORTDOCS%%share/texmf/doc/man/man1/pktype.man1.pdf
+@dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf-dist/mft/base

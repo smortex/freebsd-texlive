@@ -1,0 +1,16 @@
+share/texmf-dist/fonts/map/dvips/pslatex/pcrr8rn.map
+share/texmf-dist/fonts/tfm/public/pslatex/pcrr7tn.tfm
+share/texmf-dist/fonts/tfm/public/pslatex/pcrr8rn.tfm
+share/texmf-dist/fonts/tfm/public/pslatex/pcrr8tn.tfm
+share/texmf-dist/fonts/vf/public/pslatex/pcrr7tn.vf
+share/texmf-dist/fonts/vf/public/pslatex/pcrr8tn.vf
+%%PORTSRC%%share/texmf-dist/source/latex/pslatex/fontinst/pslatex.tex
+%%PORTSRC%%share/texmf-dist/source/latex/pslatex/shell/pslatex
+%%PORTSRC%%share/texmf-dist/source/latex/pslatex/shell/pslatex.bat
+share/texmf-dist/tex/latex/pslatex/pslatex.sty
+@dirrmtry share/texmf-dist/tex/latex/pslatex
+@dirrmtry share/texmf-dist/source/latex/pslatex/shell
+@dirrmtry share/texmf-dist/source/latex/pslatex/fontinst
+@dirrmtry share/texmf-dist/fonts/vf/public/pslatex
+@dirrmtry share/texmf-dist/fonts/tfm/public/pslatex
+@dirrmtry share/texmf-dist/fonts/map/dvips/pslatex

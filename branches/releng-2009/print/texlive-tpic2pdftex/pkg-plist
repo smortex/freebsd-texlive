@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf/doc/man/man1/tpic2pdftex.1
+%%PORTDOCS%%share/texmf/doc/man/man1/tpic2pdftex.man1.pdf
+%%PORTDOCS%%share/texmf/doc/tpic2pdftex/Makefile
+%%PORTDOCS%%share/texmf/doc/tpic2pdftex/beamerexample.pdf
+%%PORTDOCS%%share/texmf/doc/tpic2pdftex/beamerexample.pic
+%%PORTDOCS%%share/texmf/doc/tpic2pdftex/example.pdf
+%%PORTDOCS%%share/texmf/doc/tpic2pdftex/example.pic
+@dirrmtry share/texmf/doc/tpic2pdftex
+@dirrmtry share/texmf/doc/man/man1

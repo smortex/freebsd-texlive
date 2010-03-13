@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/newspaper/Figure1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/newspaper/Figure2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/newspaper/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/newspaper/atom.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/newspaper/newspaper.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/newspaper/newspaperExample.tex
+%%PORTSRC%%share/texmf-dist/source/latex/newspaper/newspaper.dtx
+share/texmf-dist/tex/latex/newspaper/newspaper.sty
+@dirrmtry share/texmf-dist/tex/latex/newspaper
+@dirrmtry share/texmf-dist/source/latex/newspaper
+@dirrmtry share/texmf-dist/doc/latex/newspaper

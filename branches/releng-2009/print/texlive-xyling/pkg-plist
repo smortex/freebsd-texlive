@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/xyling/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/xyling/xyli-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xyling/xyli-doc.tex
+share/texmf-dist/tex/latex/xyling/xyling.sty
+@dirrmtry share/texmf-dist/tex/latex/xyling
+@dirrmtry share/texmf-dist/doc/latex/xyling

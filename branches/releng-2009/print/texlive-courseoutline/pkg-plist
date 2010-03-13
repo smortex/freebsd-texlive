@@ -1,0 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/courseoutline/Outline.tex
+share/texmf-dist/tex/latex/courseoutline/courseoutline.cls
+@dirrmtry share/texmf-dist/tex/latex/courseoutline
+@dirrmtry share/texmf-dist/doc/latex/courseoutline

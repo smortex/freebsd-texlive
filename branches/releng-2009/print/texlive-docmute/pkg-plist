@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/docmute/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/docmute/docmute.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/docmute/docmute.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/docmute/docmute.ins
+share/texmf-dist/tex/latex/docmute/docmute.sty
+@dirrmtry share/texmf-dist/tex/latex/docmute
+@dirrmtry share/texmf-dist/source/latex/docmute
+@dirrmtry share/texmf-dist/doc/latex/docmute

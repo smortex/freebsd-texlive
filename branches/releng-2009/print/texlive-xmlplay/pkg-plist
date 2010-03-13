@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/xmltex/xmlplay/readme
+%%PORTSRC%%share/texmf-dist/source/xmltex/xmlplay/play.dtd
+share/texmf-dist/tex/xmltex/xmlplay/play.xmt
+@dirrmtry share/texmf-dist/tex/xmltex/xmlplay
+@dirrmtry share/texmf-dist/source/xmltex/xmlplay
+@dirrmtry share/texmf-dist/doc/otherformats/xmltex/xmlplay

@@ -1,0 +1,28 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftcopy/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftcopy/THIS-IS-VERSION-2.16
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftcopy/draftcopy-test-1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftcopy/draftcopy-test-10.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftcopy/draftcopy-test-11.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftcopy/draftcopy-test-12.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftcopy/draftcopy-test-13.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftcopy/draftcopy-test-14.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftcopy/draftcopy-test-15.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftcopy/draftcopy-test-16.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftcopy/draftcopy-test-2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftcopy/draftcopy-test-3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftcopy/draftcopy-test-4.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftcopy/draftcopy-test-5.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftcopy/draftcopy-test-6.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftcopy/draftcopy-test-7.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftcopy/draftcopy-test-8.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftcopy/draftcopy-test-9.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftcopy/draftcopy.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftcopy/draftcopy.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/draftcopy/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/draftcopy/draftcopy.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/draftcopy/draftcopy.ins
+share/texmf-dist/tex/latex/draftcopy/draftcopy.cfg
+share/texmf-dist/tex/latex/draftcopy/draftcopy.sty
+@dirrmtry share/texmf-dist/tex/latex/draftcopy
+@dirrmtry share/texmf-dist/source/latex/draftcopy
+@dirrmtry share/texmf-dist/doc/latex/draftcopy

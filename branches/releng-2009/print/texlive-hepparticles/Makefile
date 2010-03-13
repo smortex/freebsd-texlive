@@ -1,0 +1,17 @@
+# New ports collection makefile for:	texlive-hepparticles
+# Date created:		13/03/2010 05:00:14
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	hepparticles
+CATEGORIES=	print
+
+MAINTAINER=	romain@blogreen.org
+COMMENT=	Macros for typesetting high energy physics particle names.
+
+NOPORTSRC=	yes
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

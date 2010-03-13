@@ -1,0 +1,19 @@
+share/texmf-dist/bibtex/bib/directory/business.bib
+share/texmf-dist/bibtex/bib/directory/family.bib
+share/texmf-dist/bibtex/bst/directory/address-html.bst
+share/texmf-dist/bibtex/bst/directory/address-ldif.bst
+share/texmf-dist/bibtex/bst/directory/address-vcard.bst
+share/texmf-dist/bibtex/bst/directory/address.bst
+share/texmf-dist/bibtex/bst/directory/birthday.bst
+share/texmf-dist/bibtex/bst/directory/email-html.bst
+share/texmf-dist/bibtex/bst/directory/email.bst
+share/texmf-dist/bibtex/bst/directory/letter.bst
+share/texmf-dist/bibtex/bst/directory/phone.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/directory/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/directory/directory.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/directory/directory.tex
+share/texmf-dist/tex/latex/directory/directory.sty
+@dirrmtry share/texmf-dist/tex/latex/directory
+@dirrmtry share/texmf-dist/doc/latex/directory
+@dirrmtry share/texmf-dist/bibtex/bst/directory
+@dirrmtry share/texmf-dist/bibtex/bib/directory

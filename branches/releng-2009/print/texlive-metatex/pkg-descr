@@ -1,0 +1,7 @@
+METATeX is a set of plain TeX and MetaFont macros that you can
+use to define both the text and the figures in a single source
+file. Because METATeX sets up two way communication, from TeX
+to MetaFont and back from MetaFont to TeX, drawing dimensions
+can be controlled by TeX and labels can be located by MetaFont.
+Only standard features of TeX and MetaFont are used, but two
+runs of TeX and one of MetaFont are needed.

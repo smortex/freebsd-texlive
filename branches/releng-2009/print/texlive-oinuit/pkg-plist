@@ -1,0 +1,38 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oinuit/README.1ST
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oinuit/examples/book.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oinuit/examples/taqtu.tex
+share/texmf-dist/fonts/map/dvips/oinuit/oinuit.map
+share/texmf-dist/fonts/ofm/public/oinuit/OInuit.ofm
+share/texmf-dist/fonts/ofm/public/oinuit/OInuitb.ofm
+share/texmf-dist/fonts/ofm/public/oinuit/OInuitbo.ofm
+share/texmf-dist/fonts/ofm/public/oinuit/OInuito.ofm
+share/texmf-dist/fonts/ovf/public/oinuit/OInuit.ovf
+share/texmf-dist/fonts/ovf/public/oinuit/OInuitb.ovf
+share/texmf-dist/fonts/ovf/public/oinuit/OInuitbo.ovf
+share/texmf-dist/fonts/ovf/public/oinuit/OInuito.ovf
+share/texmf-dist/fonts/tfm/public/oinuit/Inuit.tfm
+share/texmf-dist/fonts/tfm/public/oinuit/Inuitb.tfm
+share/texmf-dist/fonts/tfm/public/oinuit/Inuitbo.tfm
+share/texmf-dist/fonts/tfm/public/oinuit/Inuito.tfm
+share/texmf-dist/fonts/type1/public/oinuit/Inuit.pfb
+share/texmf-dist/fonts/type1/public/oinuit/Inuitb.pfb
+share/texmf-dist/fonts/type1/public/oinuit/Inuitbo.pfb
+share/texmf-dist/fonts/type1/public/oinuit/Inuito.pfb
+share/texmf-dist/fonts/type1/public/oinuit/cmssbxo10.pfb
+share/texmf-dist/omega/ocp/oinuit/Ninuit2uni.ocp
+share/texmf-dist/omega/ocp/oinuit/Qinuit2uni.ocp
+share/texmf-dist/omega/ocp/oinuit/inuitscii.ocp
+%%PORTSRC%%share/texmf-dist/source/lambda/oinuit/oinuit.dtx
+%%PORTSRC%%share/texmf-dist/source/lambda/oinuit/oinuit.ins
+%%PORTSRC%%share/texmf-dist/source/lambda/oinuit/oinuit.sty
+share/texmf-dist/tex/lambda/oinuit/oinuit.sty
+@dirrmtry share/texmf-dist/tex/lambda/oinuit
+@dirrmtry share/texmf-dist/source/lambda/oinuit
+@dirrmtry share/texmf-dist/omega/ocp/oinuit
+@dirrmtry share/texmf-dist/fonts/type1/public/oinuit
+@dirrmtry share/texmf-dist/fonts/tfm/public/oinuit
+@dirrmtry share/texmf-dist/fonts/ovf/public/oinuit
+@dirrmtry share/texmf-dist/fonts/ofm/public/oinuit
+@dirrmtry share/texmf-dist/fonts/map/dvips/oinuit
+@dirrmtry share/texmf-dist/doc/fonts/oinuit/examples
+@dirrmtry share/texmf-dist/doc/fonts/oinuit

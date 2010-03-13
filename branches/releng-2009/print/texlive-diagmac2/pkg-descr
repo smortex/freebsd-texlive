@@ -1,0 +1,3 @@
+This is a development of the long-established diagmac package,
+using pict2e so that the restrictions on line direction are
+removed.

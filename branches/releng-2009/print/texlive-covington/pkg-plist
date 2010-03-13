@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/covington/covington.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/covington/covington.tex
+share/texmf-dist/tex/latex/covington/covington.sty
+@dirrmtry share/texmf-dist/tex/latex/covington
+@dirrmtry share/texmf-dist/doc/latex/covington

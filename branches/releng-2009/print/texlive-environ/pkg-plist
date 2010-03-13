@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/environ/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/environ/environ.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/environ/environ.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/environ/environ.ins
+share/texmf-dist/tex/latex/environ/environ.sty
+@dirrmtry share/texmf-dist/tex/latex/environ
+@dirrmtry share/texmf-dist/source/latex/environ
+@dirrmtry share/texmf-dist/doc/latex/environ

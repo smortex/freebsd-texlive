@@ -1,0 +1,17 @@
+# New ports collection makefile for:	texlive-protex
+# Date created:		13/03/2010 04:47:40
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	protex
+CATEGORIES=	print
+
+MAINTAINER=	romain@blogreen.org
+COMMENT=	Literate programming package.
+
+NOPORTSRC=	yes
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

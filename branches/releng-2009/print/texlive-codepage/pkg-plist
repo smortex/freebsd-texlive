@@ -1,0 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/codepage/LISEZMOI
+%%PORTDOCS%%share/texmf-dist/doc/latex/codepage/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/codepage/codepage.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/codepage/demo.zip
+%%PORTDOCS%%share/texmf-dist/doc/latex/codepage/frintro.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/codepage/codepage.drv
+%%PORTSRC%%share/texmf-dist/source/latex/codepage/codepage.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/codepage/codepage.ins
+%%PORTSRC%%share/texmf-dist/source/latex/codepage/frintro.drv
+share/texmf-dist/tex/latex/codepage/code437.tex
+share/texmf-dist/tex/latex/codepage/code850.tex
+share/texmf-dist/tex/latex/codepage/codeiso1.tex
+share/texmf-dist/tex/latex/codepage/codemac.tex
+share/texmf-dist/tex/latex/codepage/codepage.sty
+share/texmf-dist/tex/latex/codepage/initcar.tex
+share/texmf-dist/tex/latex/codepage/shapecm.tex
+share/texmf-dist/tex/latex/codepage/shapedc.tex
+@dirrmtry share/texmf-dist/tex/latex/codepage
+@dirrmtry share/texmf-dist/source/latex/codepage
+@dirrmtry share/texmf-dist/doc/latex/codepage

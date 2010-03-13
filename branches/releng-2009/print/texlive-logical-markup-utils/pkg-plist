@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/logical-markup-utils/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/logical-markup-utils/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/logical-markup-utils/TODO
+share/texmf-dist/tex/latex/logical-markup-utils/onedash.sty
+share/texmf-dist/tex/latex/logical-markup-utils/quoted.sty
+@dirrmtry share/texmf-dist/tex/latex/logical-markup-utils
+@dirrmtry share/texmf-dist/doc/latex/logical-markup-utils

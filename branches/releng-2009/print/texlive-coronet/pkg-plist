@@ -1,0 +1,10 @@
+share/texmf-dist/fonts/tfm/cg/coronet/cor10u.tfm
+share/texmf-dist/fonts/tfm/cg/coronet/cor6j.tfm
+share/texmf-dist/fonts/tfm/cg/coronet/cor7j.tfm
+share/texmf-dist/fonts/tfm/cg/coronet/cor8u.tfm
+share/texmf-dist/fonts/tfm/cg/coronet/cotr.tfm
+share/texmf-dist/fonts/tfm/cg/coronet/cotr8t.tfm
+share/texmf-dist/fonts/vf/cg/coronet/cotr.vf
+share/texmf-dist/fonts/vf/cg/coronet/cotr8t.vf
+@dirrmtry share/texmf-dist/fonts/vf/cg/coronet
+@dirrmtry share/texmf-dist/fonts/tfm/cg/coronet

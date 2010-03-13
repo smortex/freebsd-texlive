@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pbox/AUTHORS
+%%PORTDOCS%%share/texmf-dist/doc/latex/pbox/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/pbox/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/latex/pbox/INSTALL
+%%PORTDOCS%%share/texmf-dist/doc/latex/pbox/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pbox/pbox.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/pbox/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/pbox/pbox.drv
+%%PORTSRC%%share/texmf-dist/source/latex/pbox/pbox.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/pbox/pbox.ins
+share/texmf-dist/tex/latex/pbox/pbox.sty
+@dirrmtry share/texmf-dist/tex/latex/pbox
+@dirrmtry share/texmf-dist/source/latex/pbox
+@dirrmtry share/texmf-dist/doc/latex/pbox

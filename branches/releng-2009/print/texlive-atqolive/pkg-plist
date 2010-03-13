@@ -1,0 +1,26 @@
+share/texmf-dist/fonts/tfm/cg/atqolive/anb10u.tfm
+share/texmf-dist/fonts/tfm/cg/atqolive/anb6j.tfm
+share/texmf-dist/fonts/tfm/cg/atqolive/anb7j.tfm
+share/texmf-dist/fonts/tfm/cg/atqolive/anb8u.tfm
+share/texmf-dist/fonts/tfm/cg/atqolive/ani10u.tfm
+share/texmf-dist/fonts/tfm/cg/atqolive/ani6j.tfm
+share/texmf-dist/fonts/tfm/cg/atqolive/ani7j.tfm
+share/texmf-dist/fonts/tfm/cg/atqolive/ani8u.tfm
+share/texmf-dist/fonts/tfm/cg/atqolive/anr10u.tfm
+share/texmf-dist/fonts/tfm/cg/atqolive/anr6j.tfm
+share/texmf-dist/fonts/tfm/cg/atqolive/anr7j.tfm
+share/texmf-dist/fonts/tfm/cg/atqolive/anr8u.tfm
+share/texmf-dist/fonts/tfm/cg/atqolive/caob.tfm
+share/texmf-dist/fonts/tfm/cg/atqolive/caobq.tfm
+share/texmf-dist/fonts/tfm/cg/atqolive/caor.tfm
+share/texmf-dist/fonts/tfm/cg/atqolive/caori.tfm
+share/texmf-dist/fonts/tfm/cg/atqolive/caoriq.tfm
+share/texmf-dist/fonts/tfm/cg/atqolive/caorq.tfm
+share/texmf-dist/fonts/vf/cg/atqolive/caob.vf
+share/texmf-dist/fonts/vf/cg/atqolive/caobq.vf
+share/texmf-dist/fonts/vf/cg/atqolive/caor.vf
+share/texmf-dist/fonts/vf/cg/atqolive/caori.vf
+share/texmf-dist/fonts/vf/cg/atqolive/caoriq.vf
+share/texmf-dist/fonts/vf/cg/atqolive/caorq.vf
+@dirrmtry share/texmf-dist/fonts/vf/cg/atqolive
+@dirrmtry share/texmf-dist/fonts/tfm/cg/atqolive

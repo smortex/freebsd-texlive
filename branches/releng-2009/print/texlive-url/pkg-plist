@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/url/miscdoc.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/url/url.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/url/url.tex
+share/texmf-dist/tex/latex/url/url.sty
+@dirrmtry share/texmf-dist/tex/latex/url
+@dirrmtry share/texmf-dist/doc/latex/url

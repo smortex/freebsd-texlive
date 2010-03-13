@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/mkjobtexmf.html
+%%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/mkjobtexmf.ltx
+%%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/mkjobtexmf.man
+%%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/mkjobtexmf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/mkjobtexmf.txt
+%%PORTSRC%%share/texmf-dist/source/generic/mkjobtexmf/Makefile.in
+%%PORTSRC%%share/texmf-dist/source/generic/mkjobtexmf/configure
+%%PORTSRC%%share/texmf-dist/source/generic/mkjobtexmf/configure.ac
+%%PORTSRC%%share/texmf-dist/source/generic/mkjobtexmf/install-sh
+%%PORTDOCS%%share/texmf/doc/man/man1/mkjobtexmf.1
+%%PORTDOCS%%share/texmf/doc/man/man1/mkjobtexmf.man1.pdf
+@dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf-dist/source/generic/mkjobtexmf
+@dirrmtry share/texmf-dist/doc/generic/mkjobtexmf

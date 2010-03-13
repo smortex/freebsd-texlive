@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/multicap/multicap.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/multicap/multicap.dtx
+share/texmf-dist/tex/latex/multicap/multicap.sty
+@dirrmtry share/texmf-dist/tex/latex/multicap
+@dirrmtry share/texmf-dist/source/latex/multicap
+@dirrmtry share/texmf-dist/doc/latex/multicap

@@ -1,0 +1,48 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/djd17nov.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/djd17novL.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/djd17novR.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/djdpoems.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/djdpoems1.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/djdpoems2.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/djdpoems3.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/djdpoems4.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/egarab.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/egarab.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/egarabpar.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/egarabpar.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/ledarden.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/ledarden.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/ledbraonain.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/ledbraonain.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/ledeasy.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/ledeasy.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/ledekker.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/ledekker.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/ledfeat.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/ledfeat.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/ledioc.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/ledioc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/ledmixed.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/ledmixed.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/villon.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/examples/villon.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/ledarab.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/ledmac.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ledmac/ledpar.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/ledmac/ledarab.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ledmac/ledarab.ins
+%%PORTSRC%%share/texmf-dist/source/latex/ledmac/ledmac.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ledmac/ledmac.ins
+%%PORTSRC%%share/texmf-dist/source/latex/ledmac/ledpar.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ledmac/ledpar.ins
+share/texmf-dist/tex/latex/ledmac/afoot.sty
+share/texmf-dist/tex/latex/ledmac/ledarab.sty
+share/texmf-dist/tex/latex/ledmac/ledmac.sty
+share/texmf-dist/tex/latex/ledmac/ledpar.sty
+share/texmf-dist/tex/latex/ledmac/ledparpatch.sty
+share/texmf-dist/tex/latex/ledmac/ledpatch.sty
+@dirrmtry share/texmf-dist/tex/latex/ledmac
+@dirrmtry share/texmf-dist/source/latex/ledmac
+@dirrmtry share/texmf-dist/doc/latex/ledmac/examples
+@dirrmtry share/texmf-dist/doc/latex/ledmac

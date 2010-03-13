@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/refcheck/refdemo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/refcheck/refdemo.tex
+share/texmf-dist/tex/latex/refcheck/refcheck.sty
+@dirrmtry share/texmf-dist/tex/latex/refcheck
+@dirrmtry share/texmf-dist/doc/latex/refcheck

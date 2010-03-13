@@ -1,0 +1,28 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ginpenc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ginpenc/ginpenc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ginpenc/news-message.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/ginpenc/testginpenc.tex
+%%PORTSRC%%share/texmf-dist/source/latex/ginpenc/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/ginpenc/ginpenc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ginpenc/ginpenc.ins
+share/texmf-dist/tex/latex/ginpenc/ansinew.gie
+share/texmf-dist/tex/latex/ginpenc/applemac.gie
+share/texmf-dist/tex/latex/ginpenc/ascii.gie
+share/texmf-dist/tex/latex/ginpenc/cp1250.gie
+share/texmf-dist/tex/latex/ginpenc/cp1252.gie
+share/texmf-dist/tex/latex/ginpenc/cp437.gie
+share/texmf-dist/tex/latex/ginpenc/cp437de.gie
+share/texmf-dist/tex/latex/ginpenc/cp850.gie
+share/texmf-dist/tex/latex/ginpenc/cp852.gie
+share/texmf-dist/tex/latex/ginpenc/cp865.gie
+share/texmf-dist/tex/latex/ginpenc/decmulti.gie
+share/texmf-dist/tex/latex/ginpenc/ginpenc.sty
+share/texmf-dist/tex/latex/ginpenc/latin1.gie
+share/texmf-dist/tex/latex/ginpenc/latin2.gie
+share/texmf-dist/tex/latex/ginpenc/latin3.gie
+share/texmf-dist/tex/latex/ginpenc/latin5.gie
+share/texmf-dist/tex/latex/ginpenc/latin9.gie
+share/texmf-dist/tex/latex/ginpenc/next.gie
+@dirrmtry share/texmf-dist/tex/latex/ginpenc
+@dirrmtry share/texmf-dist/source/latex/ginpenc
+@dirrmtry share/texmf-dist/doc/latex/ginpenc

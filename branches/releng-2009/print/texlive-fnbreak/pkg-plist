@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fnbreak/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/latex/fnbreak/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/fnbreak/fnbreak-v.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fnbreak/fnbreak.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fnbreak/fnbreak.xml
+%%PORTDOCS%%share/texmf-dist/doc/latex/fnbreak/fnbreaktest.tex
+%%PORTSRC%%share/texmf-dist/source/latex/fnbreak/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/fnbreak/fnbreak.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fnbreak/fnbreak.ins
+share/texmf-dist/tex/latex/fnbreak/fnbreak.sty
+@dirrmtry share/texmf-dist/tex/latex/fnbreak
+@dirrmtry share/texmf-dist/source/latex/fnbreak
+@dirrmtry share/texmf-dist/doc/latex/fnbreak

@@ -1,0 +1,13 @@
+share/texmf-dist/bibtex/bst/afthesis/thesnumb.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/afthesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/afthesis/thesnumb.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/afthesis/usethesis.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/afthesis/usethesis.tex
+share/texmf-dist/tex/latex/afthesis/afthes10.sty
+share/texmf-dist/tex/latex/afthesis/afthes11.sty
+share/texmf-dist/tex/latex/afthesis/afthes12.sty
+share/texmf-dist/tex/latex/afthesis/afthesis.cls
+share/texmf-dist/tex/latex/afthesis/afthesis.sty
+@dirrmtry share/texmf-dist/tex/latex/afthesis
+@dirrmtry share/texmf-dist/doc/latex/afthesis
+@dirrmtry share/texmf-dist/bibtex/bst/afthesis

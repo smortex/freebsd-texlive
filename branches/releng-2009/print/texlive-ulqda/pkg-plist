@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulqda/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulqda/ulqda.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/ulqda/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/ulqda/ulqda.dtx
+share/texmf-dist/tex/latex/ulqda/ulqda.sty
+@dirrmtry share/texmf-dist/tex/latex/ulqda
+@dirrmtry share/texmf-dist/source/latex/ulqda
+@dirrmtry share/texmf-dist/doc/latex/ulqda

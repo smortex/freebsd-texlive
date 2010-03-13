@@ -1,0 +1,20 @@
+share/texmf-dist/fonts/source/public/punk/punk.mf
+share/texmf-dist/fonts/source/public/punk/punk10.mf
+share/texmf-dist/fonts/source/public/punk/punk12.mf
+share/texmf-dist/fonts/source/public/punk/punk20.mf
+share/texmf-dist/fonts/source/public/punk/punka.mf
+share/texmf-dist/fonts/source/public/punk/punkae.mf
+share/texmf-dist/fonts/source/public/punk/punkbx20.mf
+share/texmf-dist/fonts/source/public/punk/punkd.mf
+share/texmf-dist/fonts/source/public/punk/punkg.mf
+share/texmf-dist/fonts/source/public/punk/punkl.mf
+share/texmf-dist/fonts/source/public/punk/punkp.mf
+share/texmf-dist/fonts/source/public/punk/punksl.mf
+share/texmf-dist/fonts/source/public/punk/punksl20.mf
+share/texmf-dist/fonts/tfm/public/punk/punk10.tfm
+share/texmf-dist/fonts/tfm/public/punk/punk12.tfm
+share/texmf-dist/fonts/tfm/public/punk/punk20.tfm
+share/texmf-dist/fonts/tfm/public/punk/punkbx20.tfm
+share/texmf-dist/fonts/tfm/public/punk/punksl20.tfm
+@dirrmtry share/texmf-dist/fonts/tfm/public/punk
+@dirrmtry share/texmf-dist/fonts/source/public/punk

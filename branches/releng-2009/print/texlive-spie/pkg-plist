@@ -1,0 +1,11 @@
+share/texmf-dist/bibtex/bib/spie/report.bib
+share/texmf-dist/bibtex/bst/spie/spiebib.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/spie/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/spie/article.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/spie/article.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/spie/mcr3b.eps
+share/texmf-dist/tex/latex/spie/spie.cls
+@dirrmtry share/texmf-dist/tex/latex/spie
+@dirrmtry share/texmf-dist/doc/latex/spie
+@dirrmtry share/texmf-dist/bibtex/bst/spie
+@dirrmtry share/texmf-dist/bibtex/bib/spie

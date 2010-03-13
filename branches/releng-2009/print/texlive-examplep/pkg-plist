@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/examplep/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/examplep/eurotex_2005_examplep.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/examplep/eurotex_2005_examplep.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/examplep/houses.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/examplep/houses.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/examplep/pexaminipage.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/examplep/pexaminipage.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/examplep/shorthyp_t1xtts.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/examplep/shorthyp_t1xtts.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/examplep/wrfiles.pl
+share/texmf-dist/tex/latex/examplep/codep.sty
+share/texmf-dist/tex/latex/examplep/examplep.sty
+share/texmf-dist/tex/latex/examplep/verbfwr.sty
+@dirrmtry share/texmf-dist/tex/latex/examplep
+@dirrmtry share/texmf-dist/doc/latex/examplep

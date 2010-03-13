@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/gmiflink/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/gmiflink/gmiflink.pdf
+share/texmf-dist/tex/latex/gmiflink/gmiflink.sty
+@dirrmtry share/texmf-dist/tex/latex/gmiflink
+@dirrmtry share/texmf-dist/doc/latex/gmiflink

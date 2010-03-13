@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/concmath/CATALOGUE
+%%PORTDOCS%%share/texmf-dist/doc/fonts/concmath/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/concmath/concmath.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/concmath/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/concmath/concmath.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/concmath/concmath.ins
+share/texmf-dist/tex/latex/concmath/concmath.sty
+share/texmf-dist/tex/latex/concmath/omlccm.fd
+share/texmf-dist/tex/latex/concmath/omlccr.fd
+share/texmf-dist/tex/latex/concmath/omsccr.fd
+share/texmf-dist/tex/latex/concmath/omsccsy.fd
+share/texmf-dist/tex/latex/concmath/omxccex.fd
+share/texmf-dist/tex/latex/concmath/ot1ccr.fd
+share/texmf-dist/tex/latex/concmath/ucca.fd
+share/texmf-dist/tex/latex/concmath/uccb.fd
+@dirrmtry share/texmf-dist/tex/latex/concmath
+@dirrmtry share/texmf-dist/source/latex/concmath
+@dirrmtry share/texmf-dist/doc/fonts/concmath

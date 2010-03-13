@@ -1,0 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-cox/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-cox/gpl.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-cox/lgpl.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-cox/pst-coxcoor/Gallery.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-cox/pst-coxcoor/pst-coxcoor_doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-cox/pst-coxcoor/pst-coxcoor_doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-cox/pst-coxeterp/Gallery.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-cox/pst-coxeterp/pst-coxeterp_doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-cox/pst-coxeterp/pst-coxeterp_doc.tex
+share/texmf-dist/dvips/pst-cox/pst-coxeter.pro
+share/texmf-dist/tex/generic/pst-cox/pst-coxcoor.tex
+share/texmf-dist/tex/generic/pst-cox/pst-coxeterp.tex
+share/texmf-dist/tex/latex/pst-cox/pst-coxcoor.sty
+share/texmf-dist/tex/latex/pst-cox/pst-coxeterp.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-cox
+@dirrmtry share/texmf-dist/tex/generic/pst-cox
+@dirrmtry share/texmf-dist/dvips/pst-cox
+@dirrmtry share/texmf-dist/doc/generic/pst-cox/pst-coxeterp
+@dirrmtry share/texmf-dist/doc/generic/pst-cox/pst-coxcoor
+@dirrmtry share/texmf-dist/doc/generic/pst-cox

@@ -1,0 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pinlabel/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pinlabel/pinlabdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pinlabel/src/fig3.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/pinlabel/src/fig3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pinlabel/src/fig6.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/pinlabel/src/fig6.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pinlabel/src/gtpart.cls
+%%PORTDOCS%%share/texmf-dist/doc/latex/pinlabel/src/pinlabdoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pinlabel/src/put.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/pinlabel/src/put.fig
+%%PORTDOCS%%share/texmf-dist/doc/latex/pinlabel/src/put.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pinlabel/src/put2.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/pinlabel/src/put2.fig
+%%PORTDOCS%%share/texmf-dist/doc/latex/pinlabel/src/put2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pinlabel/src/screen.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/pinlabel/src/screen.pdf
+share/texmf-dist/tex/latex/pinlabel/pinlabel.sty
+@dirrmtry share/texmf-dist/tex/latex/pinlabel
+@dirrmtry share/texmf-dist/doc/latex/pinlabel/src
+@dirrmtry share/texmf-dist/doc/latex/pinlabel

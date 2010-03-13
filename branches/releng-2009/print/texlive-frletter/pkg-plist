@@ -1,0 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/frletter/README
+share/texmf-dist/tex/latex/frletter/frletter.cls
+@dirrmtry share/texmf-dist/tex/latex/frletter
+@dirrmtry share/texmf-dist/doc/latex/frletter

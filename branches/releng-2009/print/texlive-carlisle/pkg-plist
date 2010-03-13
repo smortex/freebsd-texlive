@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/carlisle/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/carlisle/ltx1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/carlisle/ltxtable.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/carlisle/ltxtable.tex
+share/texmf-dist/tex/latex/carlisle/dotlessj.sty
+share/texmf-dist/tex/latex/carlisle/ltxtable.sty
+share/texmf-dist/tex/latex/carlisle/mylatex.ltx
+share/texmf-dist/tex/latex/carlisle/nopageno.sty
+share/texmf-dist/tex/latex/carlisle/plain.sty
+share/texmf-dist/tex/latex/carlisle/remreset.sty
+share/texmf-dist/tex/latex/carlisle/scalefnt.sty
+share/texmf-dist/tex/latex/carlisle/slashed.sty
+@dirrmtry share/texmf-dist/tex/latex/carlisle
+@dirrmtry share/texmf-dist/source/latex/carlisle
+@dirrmtry share/texmf-dist/doc/latex/carlisle

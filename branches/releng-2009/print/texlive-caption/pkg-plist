@@ -1,0 +1,26 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/caption/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/caption/caption-deu.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/caption/caption-deu.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/caption/caption-eng.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/caption/caption-eng.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/caption/caption-rus.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/caption/caption-rus.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/caption/caption.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/caption/caption2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/caption/cat.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/caption/elephant.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/caption/ltcaption.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/caption/subcaption.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/caption/caption.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/caption/caption.ins
+%%PORTSRC%%share/texmf-dist/source/latex/caption/caption2.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/caption/ltcaption.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/caption/subcaption.dtx
+share/texmf-dist/tex/latex/caption/caption.sty
+share/texmf-dist/tex/latex/caption/caption2.sty
+share/texmf-dist/tex/latex/caption/caption3.sty
+share/texmf-dist/tex/latex/caption/ltcaption.sty
+share/texmf-dist/tex/latex/caption/subcaption.sty
+@dirrmtry share/texmf-dist/tex/latex/caption
+@dirrmtry share/texmf-dist/source/latex/caption
+@dirrmtry share/texmf-dist/doc/latex/caption

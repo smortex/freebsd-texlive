@@ -1,0 +1,21 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/numprint/ChangeLog.nbaseprt
+%%PORTDOCS%%share/texmf-dist/doc/latex/numprint/ChangeLog.numprint
+%%PORTDOCS%%share/texmf-dist/doc/latex/numprint/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/numprint/getversion.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numprint/nbaseprt.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/numprint/nbaseprt.xml
+%%PORTDOCS%%share/texmf-dist/doc/latex/numprint/nbaseprttest.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numprint/numprint.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/numprint/numprint.xml
+%%PORTDOCS%%share/texmf-dist/doc/latex/numprint/numprinttest.tex
+%%PORTSRC%%share/texmf-dist/source/latex/numprint/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/numprint/nbaseprt.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/numprint/numprint.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/numprint/numprint.ins
+%%PORTSRC%%share/texmf-dist/source/latex/numprint/numprint032.dtx
+share/texmf-dist/tex/latex/numprint/nbaseprt.sty
+share/texmf-dist/tex/latex/numprint/numprint.sty
+share/texmf-dist/tex/latex/numprint/numprint032.sty
+@dirrmtry share/texmf-dist/tex/latex/numprint
+@dirrmtry share/texmf-dist/source/latex/numprint
+@dirrmtry share/texmf-dist/doc/latex/numprint

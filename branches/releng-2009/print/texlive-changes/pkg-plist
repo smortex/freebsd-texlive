@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/changes/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/changes/changes.example1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/changes/changes.example2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/changes/changes.example3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/changes/changes.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/changes/changes_eng.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/changes/changes.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/changes/changes.ins
+share/texmf-dist/tex/latex/changes/changes.sty
+@dirrmtry share/texmf-dist/tex/latex/changes
+@dirrmtry share/texmf-dist/source/latex/changes
+@dirrmtry share/texmf-dist/doc/latex/changes

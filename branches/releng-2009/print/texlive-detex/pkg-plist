@@ -1,0 +1,3 @@
+%%PORTDOCS%%share/texmf/doc/man/man1/detex.1
+%%PORTDOCS%%share/texmf/doc/man/man1/detex.man1.pdf
+@dirrmtry share/texmf/doc/man/man1

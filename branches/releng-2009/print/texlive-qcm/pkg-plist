@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/qcm/NEWS
+%%PORTDOCS%%share/texmf-dist/doc/latex/qcm/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/qcm/qcm.el
+%%PORTDOCS%%share/texmf-dist/doc/latex/qcm/qcm.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/qcm/qcm.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/qcm/qcm.ins
+share/texmf-dist/tex/latex/qcm/qcm.cls
+share/texmf-dist/tex/latex/qcm/qcm.sty
+@dirrmtry share/texmf-dist/tex/latex/qcm
+@dirrmtry share/texmf-dist/source/latex/qcm
+@dirrmtry share/texmf-dist/doc/latex/qcm

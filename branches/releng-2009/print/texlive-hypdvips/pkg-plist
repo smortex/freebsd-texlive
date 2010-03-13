@@ -1,0 +1,23 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/hypdvips/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/hypdvips/hypdvips.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/hypdvips/images/ex1.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/hypdvips/images/ex2.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/hypdvips/images/ex3.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/hypdvips/images/ex4.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/hypdvips/images/ex5.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/hypdvips/images/ex6.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/hypdvips/images/ex7.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/hypdvips/images/graph.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/hypdvips/images/icon_draft.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/hypdvips/images/ids.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/hypdvips/images/logfile.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/hypdvips/images/openmsg_six.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/hypdvips/images/openmsg_sixinbrowser.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/hypdvips/images/paperclip.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/hypdvips/images/pushpin.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/hypdvips/images/tag.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/hypdvips/manifest.txt
+share/texmf-dist/tex/latex/hypdvips/hypdvips.sty
+@dirrmtry share/texmf-dist/tex/latex/hypdvips
+@dirrmtry share/texmf-dist/doc/latex/hypdvips/images
+@dirrmtry share/texmf-dist/doc/latex/hypdvips

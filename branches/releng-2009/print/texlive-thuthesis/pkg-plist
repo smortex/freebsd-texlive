@@ -1,0 +1,42 @@
+share/texmf-dist/bibtex/bst/thuthesis/thubib.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/dtx-style.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/data/ack.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/data/appendix01.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/data/chap01.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/data/chap02.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/data/cover.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/data/denotation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/data/resume.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/figures/hello.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/figures/hello.fig
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/figures/hello.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/figures/thu-fig-logo.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/figures/thu-fig-logo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/figures/thu-lib-logo.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/figures/thu-lib-logo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/figures/thu-text-logo.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/figures/thu-text-logo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/figures/thu-whole-logo.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/figures/thu-whole-logo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/main.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/main.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/msmake.cmd
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/ref/refs.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/shuji.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/shuji.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/example/thutils.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/thuthesis.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/thuthesis/thuthesis.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/thuthesis/thuthesis.ins
+share/texmf-dist/tex/latex/thuthesis/thuthesis.cfg
+share/texmf-dist/tex/latex/thuthesis/thuthesis.cls
+@dirrmtry share/texmf-dist/tex/latex/thuthesis
+@dirrmtry share/texmf-dist/source/latex/thuthesis
+@dirrmtry share/texmf-dist/doc/latex/thuthesis/example/ref
+@dirrmtry share/texmf-dist/doc/latex/thuthesis/example/figures
+@dirrmtry share/texmf-dist/doc/latex/thuthesis/example/data
+@dirrmtry share/texmf-dist/doc/latex/thuthesis/example
+@dirrmtry share/texmf-dist/doc/latex/thuthesis
+@dirrmtry share/texmf-dist/bibtex/bst/thuthesis

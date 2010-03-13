@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixps/readme.txt
+share/texmf-dist/dvips/musixps/psslurs.pro
+share/texmf-dist/fonts/source/public/musixps/mxsk.mf
+share/texmf-dist/fonts/tfm/public/musixps/mxsk.tfm
+share/texmf-dist/tex/generic/musixps/musixps.tex
+share/texmf-dist/tex/generic/musixps/slurs.tex
+@dirrmtry share/texmf-dist/tex/generic/musixps
+@dirrmtry share/texmf-dist/fonts/tfm/public/musixps
+@dirrmtry share/texmf-dist/fonts/source/public/musixps
+@dirrmtry share/texmf-dist/dvips/musixps
+@dirrmtry share/texmf-dist/doc/generic/musixps

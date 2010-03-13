@@ -1,0 +1,14 @@
+share/texmf-dist/bibtex/bst/bib-fr/abbrv-fr.bst
+share/texmf-dist/bibtex/bst/bib-fr/abbrvnat-fr.bst
+share/texmf-dist/bibtex/bst/bib-fr/alpha-fr.bst
+share/texmf-dist/bibtex/bst/bib-fr/apalike-fr.bst
+share/texmf-dist/bibtex/bst/bib-fr/ieeetr-fr.bst
+share/texmf-dist/bibtex/bst/bib-fr/plain-fr.bst
+share/texmf-dist/bibtex/bst/bib-fr/plainnat-fr.bst
+share/texmf-dist/bibtex/bst/bib-fr/siam-fr.bst
+share/texmf-dist/bibtex/bst/bib-fr/unsrt-fr.bst
+share/texmf-dist/bibtex/bst/bib-fr/unsrtnat-fr.bst
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/bib-fr/CHANGELOG
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/bib-fr/README
+@dirrmtry share/texmf-dist/doc/bibtex/bib-fr
+@dirrmtry share/texmf-dist/bibtex/bst/bib-fr

@@ -1,0 +1,21 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/statistik/sta_cvs.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/statistik/sta_cvs.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/statistik/sta_mytable-info.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/statistik/sta_mytable.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/statistik/sta_mytable.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/statistik/sta_tab-info.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/statistik/sta_tab.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/statistik/sta_tab.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/statistik/sta_textable-info.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/statistik/sta_textable.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/statistik/sta_textable.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/statistik/sta_xml.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/statistik/sta_xml.tex
+%%PORTSRC%%share/texmf-dist/source/latex/statistik/sta_cvs-info.csv
+%%PORTSRC%%share/texmf-dist/source/latex/statistik/sta_xml-info.xml
+%%PORTSRC%%share/texmf-dist/source/latex/statistik/statistik.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/statistik/statistik.ins
+share/texmf-dist/tex/latex/statistik/statistik.sty
+@dirrmtry share/texmf-dist/tex/latex/statistik
+@dirrmtry share/texmf-dist/source/latex/statistik
+@dirrmtry share/texmf-dist/doc/latex/statistik

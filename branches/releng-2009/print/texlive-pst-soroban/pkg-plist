@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-soroban/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-soroban/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-soroban/pst-soroban-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-soroban/pst-soroban-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-soroban/pst-soroban-doc.tex
+%%PORTSRC%%share/texmf-dist/source/generic/pst-soroban/Makefile
+share/texmf-dist/tex/latex/pst-soroban/pst-soroban.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-soroban
+@dirrmtry share/texmf-dist/source/generic/pst-soroban
+@dirrmtry share/texmf-dist/doc/generic/pst-soroban

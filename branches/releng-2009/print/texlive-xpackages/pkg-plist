@@ -1,0 +1,30 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xbase/ldcsetup.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xbase/template.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xbase/xparse.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xbase/xtemplate.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xtras/l3keys2e.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/xpackages/xbase/ldcsetup.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xpackages/xbase/template-test.tex
+%%PORTSRC%%share/texmf-dist/source/latex/xpackages/xbase/template-test2.tex
+%%PORTSRC%%share/texmf-dist/source/latex/xpackages/xbase/template.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xpackages/xbase/tprestrict-test.tex
+%%PORTSRC%%share/texmf-dist/source/latex/xpackages/xbase/xbase.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xpackages/xbase/xparse-test.tex
+%%PORTSRC%%share/texmf-dist/source/latex/xpackages/xbase/xparse.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xpackages/xbase/xtemplate.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xpackages/xtras/l3keys2e-demo.tex
+%%PORTSRC%%share/texmf-dist/source/latex/xpackages/xtras/l3keys2e.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xpackages/xtras/l3keys2e.ins
+share/texmf-dist/tex/latex/xpackages/xbase/ldcsetup.sty
+share/texmf-dist/tex/latex/xpackages/xbase/template.sty
+share/texmf-dist/tex/latex/xpackages/xbase/xparse.sty
+share/texmf-dist/tex/latex/xpackages/xbase/xtemplate.sty
+share/texmf-dist/tex/latex/xpackages/xtras/l3keys2e.sty
+@dirrmtry share/texmf-dist/tex/latex/xpackages/xtras
+@dirrmtry share/texmf-dist/tex/latex/xpackages/xbase
+@dirrmtry share/texmf-dist/source/latex/xpackages/xtras
+@dirrmtry share/texmf-dist/source/latex/xpackages/xbase
+@dirrmtry share/texmf-dist/doc/latex/xpackages/xtras
+@dirrmtry share/texmf-dist/doc/latex/xpackages/xbase
+@dirrmtry share/texmf-dist/doc/latex/xpackages

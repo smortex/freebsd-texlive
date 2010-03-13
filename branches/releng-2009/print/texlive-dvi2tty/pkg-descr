@@ -1,0 +1,3 @@
+A DVI driver to produce an ASCII representation of the
+document. The original version was written in Pascal, and the
+present author translated the program to C.

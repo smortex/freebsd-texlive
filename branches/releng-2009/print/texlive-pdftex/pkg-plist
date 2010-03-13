@@ -1,0 +1,66 @@
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/Announcement-1.40.2
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/NEWS
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/README
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/README
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/makefiles.cmd
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/pdftex-a.pdf
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/pdftex-i.tex
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/pdftex-l.pdf
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/pdftex-s.pdf
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/pdftex-syntax.txt
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/pdftex-t.tex
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/pdftex-t.txt
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/pdftex-w.pdf
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/pdftex-w.tex
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/samplepdf/cmr10.103
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/samplepdf/obj.dat
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/samplepdf/pdfcolor.tex
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/samplepdf/pic.eps
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/samplepdf/pic.jpg
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/samplepdf/pic.mps
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/samplepdf/pic.pdf
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/samplepdf/pic.png
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/samplepdf/pic16.png
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/samplepdf/rgb.icc
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/samplepdf/samplepdf.0
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/samplepdf/samplepdf.1
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/samplepdf/samplepdf.tex
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/samplepdf/supp-mis.tex
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/samplepdf/supp-pdf.tex
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/samplepdf/tmp.pdf
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/syntaxform.awk
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/pdftex-pdfkeys/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/pdftex-pdfkeys/fdl.tex
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/pdftex-pdfkeys/pdftex-pdfkeys.bbl
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/pdftex-pdfkeys/pdftex-pdfkeys.pdf
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/pdftex-pdfkeys/pdftex-pdfkeys.tex
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/thanh/ext/abbr.tex
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/thanh/ext/efcode.tex
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/thanh/ext/il2.etx
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/thanh/ext/il2.mtx
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/thanh/ext/il2protcode.tex
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/thanh/ext/mktextfm
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/thanh/ext/mktextfm.ext
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/thanh/ext/mktfm8z
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/thanh/ext/protcode.tex
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/thanh/ext/ufntinst.sty
+%%PORTDOCS%%share/texmf/doc/man/man1/pdfetex.1
+%%PORTDOCS%%share/texmf/doc/man/man1/pdfetex.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/pdftex.1
+%%PORTDOCS%%share/texmf/doc/man/man1/pdftex.man1.pdf
+share/texmf/fonts/map/pdftex/updmap/pdftex.map
+share/texmf/fonts/map/pdftex/updmap/pdftex_dl14.map
+share/texmf/fonts/map/pdftex/updmap/pdftex_ndl14.map
+share/texmf/tex/generic/config/pdftex-dvi.tex
+share/texmf/tex/generic/config/pdftexconfig.tex
+share/texmf/tex/generic/pdftex/glyphtounicode.tex
+@dirrmtry share/texmf/tex/generic/pdftex
+@dirrmtry share/texmf/tex/generic/config
+@dirrmtry share/texmf/fonts/map/pdftex/updmap
+@dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf-dist/doc/pdftex/thanh/ext
+@dirrmtry share/texmf-dist/doc/pdftex/pdftex-pdfkeys
+@dirrmtry share/texmf-dist/doc/pdftex/manual/samplepdf
+@dirrmtry share/texmf-dist/doc/pdftex/manual
+@dirrmtry share/texmf-dist/doc/pdftex

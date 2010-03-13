@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/flashcards/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/flashcards/flashcards.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/flashcards/samplecards.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/flashcards/samplecards.tex
+%%PORTSRC%%share/texmf-dist/source/latex/flashcards/COPYING
+%%PORTSRC%%share/texmf-dist/source/latex/flashcards/flashcards.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/flashcards/flashcards.ins
+share/texmf-dist/tex/latex/flashcards/avery5371.cfg
+share/texmf-dist/tex/latex/flashcards/avery5388.cfg
+share/texmf-dist/tex/latex/flashcards/flashcards.cls
+@dirrmtry share/texmf-dist/tex/latex/flashcards
+@dirrmtry share/texmf-dist/source/latex/flashcards
+@dirrmtry share/texmf-dist/doc/latex/flashcards

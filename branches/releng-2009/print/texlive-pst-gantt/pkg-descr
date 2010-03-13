@@ -1,0 +1,3 @@
+The package draws GANTT charts, which are a kind of bar chart
+that displays a project schedule. The package requires the
+pstricks apparatus, of course.

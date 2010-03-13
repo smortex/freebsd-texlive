@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/xargs/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/xargs/xargs-fr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xargs/xargs.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/xargs/xargs.dtx
+share/texmf-dist/tex/latex/xargs/xargs.sty
+@dirrmtry share/texmf-dist/tex/latex/xargs
+@dirrmtry share/texmf-dist/source/latex/xargs
+@dirrmtry share/texmf-dist/doc/latex/xargs

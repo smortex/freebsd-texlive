@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-slpe/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-slpe/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-slpe/pst-slpe.pdf
+share/texmf-dist/dvips/pst-slpe/pst-slpe.pro
+%%PORTSRC%%share/texmf-dist/source/generic/pst-slpe/Makefile
+%%PORTSRC%%share/texmf-dist/source/generic/pst-slpe/pst-slpe.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/pst-slpe/pst-slpe.ins
+share/texmf-dist/tex/generic/pst-slpe/pst-slpe.tex
+share/texmf-dist/tex/latex/pst-slpe/pst-slpe.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-slpe
+@dirrmtry share/texmf-dist/tex/generic/pst-slpe
+@dirrmtry share/texmf-dist/source/generic/pst-slpe
+@dirrmtry share/texmf-dist/dvips/pst-slpe
+@dirrmtry share/texmf-dist/doc/generic/pst-slpe

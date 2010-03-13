@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/hrlatex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/hrlatex/hrlatex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/hrlatex/novi.diplomski-rad.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/hrlatex/novi.ispit.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/hrlatex/sample.diplomski-rad.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/hrlatex/sample.minimal.cp1250.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/hrlatex/sample.minimal.latin2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/hrlatex/sample.minimal.utf8.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/hrlatex/sample.prezentacija.tex
+%%PORTSRC%%share/texmf-dist/source/latex/hrlatex/hrlatex.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/hrlatex/hrlatex.ins
+share/texmf-dist/tex/latex/hrlatex/hrlatex.sty
+@dirrmtry share/texmf-dist/tex/latex/hrlatex
+@dirrmtry share/texmf-dist/source/latex/hrlatex
+@dirrmtry share/texmf-dist/doc/latex/hrlatex

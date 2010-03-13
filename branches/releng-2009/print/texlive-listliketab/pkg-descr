@@ -1,0 +1,4 @@
+The listliketab package helps the user make list-like tabulars,
+i.e., a tabular that is indistinguishable from an itemize or
+enumerate environment. The advantage of using a tabular is that
+the user can add additional columns to each entry in the list.

@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/coverpage/CoverPage.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/coverpage/ECCV06Sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/coverpage/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/coverpage/SimpleSample.BibTeX.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/coverpage/SimpleSample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/coverpage/SimpleSample.tex
+%%PORTSRC%%share/texmf-dist/source/latex/coverpage/CoverPage.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/coverpage/CoverPage.ins
+share/texmf-dist/tex/latex/coverpage/CoverPage.cfg
+share/texmf-dist/tex/latex/coverpage/CoverPage.sty
+@dirrmtry share/texmf-dist/tex/latex/coverpage
+@dirrmtry share/texmf-dist/source/latex/coverpage
+@dirrmtry share/texmf-dist/doc/latex/coverpage

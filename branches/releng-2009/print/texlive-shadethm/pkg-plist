@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/shadethm/1st_read.me
+share/texmf-dist/tex/latex/shadethm/colored.sth
+share/texmf-dist/tex/latex/shadethm/shadein.sth
+share/texmf-dist/tex/latex/shadethm/shadethm.sty
+@dirrmtry share/texmf-dist/tex/latex/shadethm
+@dirrmtry share/texmf-dist/doc/latex/shadethm

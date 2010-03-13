@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/crosswrd/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/crosswrd/crosswrd.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/crosswrd/grid0.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/crosswrd/grid1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/crosswrd/grid2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/crosswrd/test0.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/crosswrd/test1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/crosswrd/test2.tex
+%%PORTSRC%%share/texmf-dist/source/latex/crosswrd/crosswrd.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/crosswrd/crosswrd.ins
+share/texmf-dist/tex/latex/crosswrd/crosswrd.sty
+@dirrmtry share/texmf-dist/tex/latex/crosswrd
+@dirrmtry share/texmf-dist/source/latex/crosswrd
+@dirrmtry share/texmf-dist/doc/latex/crosswrd

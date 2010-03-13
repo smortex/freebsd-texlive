@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/umlaute/cs_patch.uue
+%%PORTDOCS%%share/texmf-dist/doc/latex/umlaute/umlaute.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/umlaute/umlaute.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/umlaute/umlaute.ins
+share/texmf-dist/tex/latex/umlaute/atari.def
+share/texmf-dist/tex/latex/umlaute/isolatin.def
+share/texmf-dist/tex/latex/umlaute/mac.def
+share/texmf-dist/tex/latex/umlaute/pc850.def
+share/texmf-dist/tex/latex/umlaute/roman8.def
+share/texmf-dist/tex/latex/umlaute/umlaute.sty
+@dirrmtry share/texmf-dist/tex/latex/umlaute
+@dirrmtry share/texmf-dist/source/latex/umlaute
+@dirrmtry share/texmf-dist/doc/latex/umlaute

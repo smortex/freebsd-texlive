@@ -1,0 +1,4 @@
+The package provides symbol fonts and commands to write charted
+instructions for cable and lace knitting patterns, using either
+plain TeX or LaTeX. The fonts are available both as MetaFont
+source and in Adobe Type 1 format.

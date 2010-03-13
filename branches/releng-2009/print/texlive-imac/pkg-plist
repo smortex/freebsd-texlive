@@ -1,0 +1,9 @@
+share/texmf-dist/bibtex/bst/imac/imac.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/imac/imac.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/imac/imac.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/imac/imac.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/imac/readme.txt
+share/texmf-dist/tex/latex/imac/imac.sty
+@dirrmtry share/texmf-dist/tex/latex/imac
+@dirrmtry share/texmf-dist/doc/latex/imac
+@dirrmtry share/texmf-dist/bibtex/bst/imac

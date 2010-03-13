@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/subfigure/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/subfigure/ltxdoc.cfg
+%%PORTDOCS%%share/texmf-dist/doc/latex/subfigure/subfigure.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/subfigure/test.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/subfigure/test2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/subfigure/test3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/subfigure/test4.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/subfigure/test5.tex
+%%PORTSRC%%share/texmf-dist/source/latex/subfigure/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/subfigure/subfigure.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/subfigure/subfigure.ins
+share/texmf-dist/tex/latex/subfigure/subfigure.cfg
+share/texmf-dist/tex/latex/subfigure/subfigure.sty
+@dirrmtry share/texmf-dist/tex/latex/subfigure
+@dirrmtry share/texmf-dist/source/latex/subfigure
+@dirrmtry share/texmf-dist/doc/latex/subfigure

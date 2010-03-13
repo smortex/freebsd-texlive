@@ -1,0 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/niceframe/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/niceframe/niceframe.pdf
+share/texmf-dist/fonts/source/public/niceframe/dingbat.mf
+share/texmf-dist/fonts/source/public/niceframe/karta.mf
+share/texmf-dist/fonts/source/public/niceframe/karta15.mf
+share/texmf-dist/fonts/source/public/niceframe/umrand.mf
+share/texmf-dist/fonts/source/public/niceframe/umranda.mf
+share/texmf-dist/fonts/source/public/niceframe/umrandb.mf
+share/texmf-dist/fonts/tfm/public/niceframe/karta15.tfm
+share/texmf-dist/fonts/tfm/public/niceframe/umranda.tfm
+share/texmf-dist/fonts/tfm/public/niceframe/umrandb.tfm
+%%PORTSRC%%share/texmf-dist/source/latex/niceframe/niceframe.drv
+%%PORTSRC%%share/texmf-dist/source/latex/niceframe/niceframe.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/niceframe/niceframe.ins
+share/texmf-dist/tex/latex/niceframe/niceframe.sty
+@dirrmtry share/texmf-dist/tex/latex/niceframe
+@dirrmtry share/texmf-dist/source/latex/niceframe
+@dirrmtry share/texmf-dist/fonts/tfm/public/niceframe
+@dirrmtry share/texmf-dist/fonts/source/public/niceframe
+@dirrmtry share/texmf-dist/doc/latex/niceframe

@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/authoraftertitle/authoraftertitle.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/authoraftertitle/authoraftertitle.tex
+share/texmf-dist/tex/latex/authoraftertitle/authoraftertitle.sty
+@dirrmtry share/texmf-dist/tex/latex/authoraftertitle
+@dirrmtry share/texmf-dist/doc/latex/authoraftertitle

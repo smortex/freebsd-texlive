@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/variations/ALIRE
+%%PORTDOCS%%share/texmf-dist/doc/generic/variations/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/generic/variations/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/variations/docvariations.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/variations/docvariations.tex
+share/texmf-dist/tex/generic/variations/variations.sty
+share/texmf-dist/tex/generic/variations/variations.tex
+@dirrmtry share/texmf-dist/tex/generic/variations
+@dirrmtry share/texmf-dist/doc/generic/variations

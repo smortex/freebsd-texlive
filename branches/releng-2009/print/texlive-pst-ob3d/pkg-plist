@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-ob3d/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-ob3d/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-ob3d/pst-ob3d.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/pst-ob3d/Makefile
+%%PORTSRC%%share/texmf-dist/source/generic/pst-ob3d/pst-ob3d.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/pst-ob3d/pst-ob3d.ins
+share/texmf-dist/tex/generic/pst-ob3d/pst-ob3d.tex
+share/texmf-dist/tex/latex/pst-ob3d/pst-ob3d.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-ob3d
+@dirrmtry share/texmf-dist/tex/generic/pst-ob3d
+@dirrmtry share/texmf-dist/source/generic/pst-ob3d
+@dirrmtry share/texmf-dist/doc/generic/pst-ob3d

@@ -1,0 +1,28 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/sauerj/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/sauerj/collect.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sauerj/metainfo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sauerj/optparams.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sauerj/parcolumns.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sauerj/processkv.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sauerj/zahl2string.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/sauerj/collect.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/sauerj/collect.ins
+%%PORTSRC%%share/texmf-dist/source/latex/sauerj/metainfo.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/sauerj/metainfo.ins
+%%PORTSRC%%share/texmf-dist/source/latex/sauerj/optparams.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/sauerj/optparams.ins
+%%PORTSRC%%share/texmf-dist/source/latex/sauerj/parcolumns.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/sauerj/parcolumns.ins
+%%PORTSRC%%share/texmf-dist/source/latex/sauerj/processkv.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/sauerj/processkv.ins
+%%PORTSRC%%share/texmf-dist/source/latex/sauerj/zahl2string.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/sauerj/zahl2string.ins
+share/texmf-dist/tex/latex/sauerj/collect.sty
+share/texmf-dist/tex/latex/sauerj/metainfo.sty
+share/texmf-dist/tex/latex/sauerj/optparams.sty
+share/texmf-dist/tex/latex/sauerj/parcolumns.sty
+share/texmf-dist/tex/latex/sauerj/processkv.sty
+share/texmf-dist/tex/latex/sauerj/zahl2string.sty
+@dirrmtry share/texmf-dist/tex/latex/sauerj
+@dirrmtry share/texmf-dist/source/latex/sauerj
+@dirrmtry share/texmf-dist/doc/latex/sauerj

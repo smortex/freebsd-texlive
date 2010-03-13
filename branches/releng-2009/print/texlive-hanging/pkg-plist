@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/hanging/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/hanging/hanging.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/hanging/hanging.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/hanging/hanging.ins
+share/texmf-dist/tex/latex/hanging/hanging.sty
+@dirrmtry share/texmf-dist/tex/latex/hanging
+@dirrmtry share/texmf-dist/source/latex/hanging
+@dirrmtry share/texmf-dist/doc/latex/hanging

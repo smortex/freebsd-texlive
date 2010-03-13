@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fribrief/fribrief.ger
+%%PORTDOCS%%share/texmf-dist/doc/latex/fribrief/k_fribri.ger
+share/texmf-dist/tex/latex/fribrief/fribrief.cls
+share/texmf-dist/tex/latex/fribrief/k_fribri.cls
+@dirrmtry share/texmf-dist/tex/latex/fribrief
+@dirrmtry share/texmf-dist/doc/latex/fribrief

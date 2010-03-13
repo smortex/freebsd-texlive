@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/typehtml/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/typehtml/typehtml.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/typehtml/typehtml.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/typehtml/typehtml.ins
+share/texmf-dist/tex/latex/typehtml/typehtml.sty
+@dirrmtry share/texmf-dist/tex/latex/typehtml
+@dirrmtry share/texmf-dist/source/latex/typehtml
+@dirrmtry share/texmf-dist/doc/latex/typehtml

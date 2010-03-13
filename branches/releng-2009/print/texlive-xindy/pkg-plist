@@ -1,0 +1,538 @@
+%%PORTDOCS%%share/texmf/doc/man/man1/tex2xindy.1
+%%PORTDOCS%%share/texmf/doc/man/man1/tex2xindy.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/texindy.1
+%%PORTDOCS%%share/texmf/doc/man/man1/texindy.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/xindy.1
+%%PORTDOCS%%share/texmf/doc/man/man1/xindy.man1.pdf
+%%PORTDOCS%%share/texmf/doc/xindy/NEWS
+%%PORTDOCS%%share/texmf/doc/xindy/README
+%%PORTDOCS%%share/texmf/doc/xindy/README.distrib-source
+%%PORTDOCS%%share/texmf/doc/xindy/alphabets-doc.pdf
+%%PORTDOCS%%share/texmf/doc/xindy/dataflow.gif
+%%PORTDOCS%%share/texmf/doc/xindy/faq-1.html
+%%PORTDOCS%%share/texmf/doc/xindy/faq-2.html
+%%PORTDOCS%%share/texmf/doc/xindy/faq-3.html
+%%PORTDOCS%%share/texmf/doc/xindy/faq-4.html
+%%PORTDOCS%%share/texmf/doc/xindy/faq.html
+%%PORTDOCS%%share/texmf/doc/xindy/index.gif
+%%PORTDOCS%%share/texmf/doc/xindy/manual-1.html
+%%PORTDOCS%%share/texmf/doc/xindy/manual-2.html
+%%PORTDOCS%%share/texmf/doc/xindy/manual-3.html
+%%PORTDOCS%%share/texmf/doc/xindy/manual-4.html
+%%PORTDOCS%%share/texmf/doc/xindy/manual-5.html
+%%PORTDOCS%%share/texmf/doc/xindy/manual-6.html
+%%PORTDOCS%%share/texmf/doc/xindy/manual-7.html
+%%PORTDOCS%%share/texmf/doc/xindy/manual.html
+%%PORTDOCS%%share/texmf/doc/xindy/mappings.gif
+%%PORTDOCS%%share/texmf/doc/xindy/style-tutorial-1.html
+%%PORTDOCS%%share/texmf/doc/xindy/style-tutorial-2.html
+%%PORTDOCS%%share/texmf/doc/xindy/style-tutorial-3.html
+%%PORTDOCS%%share/texmf/doc/xindy/style-tutorial-4.html
+%%PORTDOCS%%share/texmf/doc/xindy/style-tutorial.html
+%%PORTDOCS%%share/texmf/doc/xindy/style-tutorial/ex1.raw
+%%PORTDOCS%%share/texmf/doc/xindy/style-tutorial/ex1.tex
+%%PORTDOCS%%share/texmf/doc/xindy/style-tutorial/ex2.raw
+%%PORTDOCS%%share/texmf/doc/xindy/style-tutorial/ex2.tex
+%%PORTDOCS%%share/texmf/doc/xindy/style-tutorial/index.tex
+%%PORTDOCS%%share/texmf/doc/xindy/style-tutorial/style1.xdy
+%%PORTDOCS%%share/texmf/doc/xindy/style-tutorial/style2.xdy
+%%PORTDOCS%%share/texmf/doc/xindy/tex2xindy.pdf
+%%PORTDOCS%%share/texmf/doc/xindy/texindy.pdf
+%%PORTDOCS%%share/texmf/doc/xindy/xindy.pdf
+share/texmf/scripts/xindy/texindy.pl
+share/texmf/scripts/xindy/xindy.pl
+share/texmf/xindy/base/book-order.xdy
+share/texmf/xindy/base/ff-ranges-only.xdy
+share/texmf/xindy/base/ff-ranges.xdy
+share/texmf/xindy/base/german-sty.xdy
+share/texmf/xindy/base/ignore-hyphen.xdy
+share/texmf/xindy/base/ignore-punctuation.xdy
+share/texmf/xindy/base/keep-blanks.xdy
+share/texmf/xindy/base/latex-loc-fmts.xdy
+share/texmf/xindy/base/latex.xdy
+share/texmf/xindy/base/latin-lettergroups.xdy
+share/texmf/xindy/base/letter-order.xdy
+share/texmf/xindy/base/makeindex.xdy
+share/texmf/xindy/base/numeric-sort.xdy
+share/texmf/xindy/base/page-ranges.xdy
+share/texmf/xindy/base/tex.xdy
+share/texmf/xindy/base/texindy.xdy
+share/texmf/xindy/base/word-order.xdy
+share/texmf/xindy/class/pagenums.xdy
+share/texmf/xindy/lang/albanian/latin1-lang.xdy
+share/texmf/xindy/lang/albanian/latin1-test.xdy
+share/texmf/xindy/lang/albanian/latin1.xdy
+share/texmf/xindy/lang/albanian/utf8-lang.xdy
+share/texmf/xindy/lang/albanian/utf8-test.xdy
+share/texmf/xindy/lang/albanian/utf8.xdy
+share/texmf/xindy/lang/belarusian/cp1251-lang.xdy
+share/texmf/xindy/lang/belarusian/cp1251-test.xdy
+share/texmf/xindy/lang/belarusian/cp1251.xdy
+share/texmf/xindy/lang/belarusian/iso88595-lang.xdy
+share/texmf/xindy/lang/belarusian/iso88595-test.xdy
+share/texmf/xindy/lang/belarusian/iso88595.xdy
+share/texmf/xindy/lang/belarusian/isoir111-lang.xdy
+share/texmf/xindy/lang/belarusian/isoir111-test.xdy
+share/texmf/xindy/lang/belarusian/isoir111.xdy
+share/texmf/xindy/lang/belarusian/utf8-lang.xdy
+share/texmf/xindy/lang/belarusian/utf8-test.xdy
+share/texmf/xindy/lang/belarusian/utf8.xdy
+share/texmf/xindy/lang/bulgarian/cp1251-lang.xdy
+share/texmf/xindy/lang/bulgarian/cp1251-test.xdy
+share/texmf/xindy/lang/bulgarian/cp1251.xdy
+share/texmf/xindy/lang/bulgarian/iso88595-lang.xdy
+share/texmf/xindy/lang/bulgarian/iso88595-test.xdy
+share/texmf/xindy/lang/bulgarian/iso88595.xdy
+share/texmf/xindy/lang/bulgarian/koi8-r-lang.xdy
+share/texmf/xindy/lang/bulgarian/koi8-r-test.xdy
+share/texmf/xindy/lang/bulgarian/koi8-r.xdy
+share/texmf/xindy/lang/bulgarian/utf8-lang.xdy
+share/texmf/xindy/lang/bulgarian/utf8-test.xdy
+share/texmf/xindy/lang/bulgarian/utf8.xdy
+share/texmf/xindy/lang/croatian/cp1250-lang.xdy
+share/texmf/xindy/lang/croatian/cp1250-test.xdy
+share/texmf/xindy/lang/croatian/cp1250.xdy
+share/texmf/xindy/lang/croatian/latin2-lang.xdy
+share/texmf/xindy/lang/croatian/latin2-test.xdy
+share/texmf/xindy/lang/croatian/latin2.xdy
+share/texmf/xindy/lang/croatian/utf8-lang.xdy
+share/texmf/xindy/lang/croatian/utf8-test.xdy
+share/texmf/xindy/lang/croatian/utf8.xdy
+share/texmf/xindy/lang/czech/cp1250-lang.xdy
+share/texmf/xindy/lang/czech/cp1250-test.xdy
+share/texmf/xindy/lang/czech/cp1250.xdy
+share/texmf/xindy/lang/czech/latin2-lang.xdy
+share/texmf/xindy/lang/czech/latin2-test.xdy
+share/texmf/xindy/lang/czech/latin2.xdy
+share/texmf/xindy/lang/czech/utf8-lang.xdy
+share/texmf/xindy/lang/czech/utf8-test.xdy
+share/texmf/xindy/lang/czech/utf8.xdy
+share/texmf/xindy/lang/danish/cp1252-lang.xdy
+share/texmf/xindy/lang/danish/cp1252-test.xdy
+share/texmf/xindy/lang/danish/cp1252.xdy
+share/texmf/xindy/lang/danish/latin1-lang.xdy
+share/texmf/xindy/lang/danish/latin1-test.xdy
+share/texmf/xindy/lang/danish/latin1.xdy
+share/texmf/xindy/lang/danish/latin9-lang.xdy
+share/texmf/xindy/lang/danish/latin9-test.xdy
+share/texmf/xindy/lang/danish/latin9.xdy
+share/texmf/xindy/lang/danish/utf8-lang.xdy
+share/texmf/xindy/lang/danish/utf8-test.xdy
+share/texmf/xindy/lang/danish/utf8.xdy
+share/texmf/xindy/lang/dutch/ij-as-ij-latin1-lang.xdy
+share/texmf/xindy/lang/dutch/ij-as-ij-latin1-test.xdy
+share/texmf/xindy/lang/dutch/ij-as-ij-latin1.xdy
+share/texmf/xindy/lang/dutch/ij-as-ij-utf8-lang.xdy
+share/texmf/xindy/lang/dutch/ij-as-ij-utf8-test.xdy
+share/texmf/xindy/lang/dutch/ij-as-ij-utf8.xdy
+share/texmf/xindy/lang/dutch/ij-as-y-utf8-lang.xdy
+share/texmf/xindy/lang/dutch/ij-as-y-utf8-test.xdy
+share/texmf/xindy/lang/dutch/ij-as-y-utf8.xdy
+share/texmf/xindy/lang/english/cp1252-lang.xdy
+share/texmf/xindy/lang/english/cp1252-test.xdy
+share/texmf/xindy/lang/english/cp1252.xdy
+share/texmf/xindy/lang/english/latin9-lang.xdy
+share/texmf/xindy/lang/english/latin9-test.xdy
+share/texmf/xindy/lang/english/latin9.xdy
+share/texmf/xindy/lang/english/utf8-lang.xdy
+share/texmf/xindy/lang/english/utf8-test.xdy
+share/texmf/xindy/lang/english/utf8.xdy
+share/texmf/xindy/lang/esperanto/latin3-lang.xdy
+share/texmf/xindy/lang/esperanto/latin3-test.xdy
+share/texmf/xindy/lang/esperanto/latin3.xdy
+share/texmf/xindy/lang/esperanto/utf8-lang.xdy
+share/texmf/xindy/lang/esperanto/utf8-test.xdy
+share/texmf/xindy/lang/esperanto/utf8.xdy
+share/texmf/xindy/lang/estonian/cp1252-lang.xdy
+share/texmf/xindy/lang/estonian/cp1252-test.xdy
+share/texmf/xindy/lang/estonian/cp1252.xdy
+share/texmf/xindy/lang/estonian/latin9-lang.xdy
+share/texmf/xindy/lang/estonian/latin9-test.xdy
+share/texmf/xindy/lang/estonian/latin9.xdy
+share/texmf/xindy/lang/estonian/utf8-lang.xdy
+share/texmf/xindy/lang/estonian/utf8-test.xdy
+share/texmf/xindy/lang/estonian/utf8.xdy
+share/texmf/xindy/lang/finnish/cp1252-lang.xdy
+share/texmf/xindy/lang/finnish/cp1252-test.xdy
+share/texmf/xindy/lang/finnish/cp1252.xdy
+share/texmf/xindy/lang/finnish/latin9-lang.xdy
+share/texmf/xindy/lang/finnish/latin9-test.xdy
+share/texmf/xindy/lang/finnish/latin9.xdy
+share/texmf/xindy/lang/finnish/utf8-lang.xdy
+share/texmf/xindy/lang/finnish/utf8-test.xdy
+share/texmf/xindy/lang/finnish/utf8.xdy
+share/texmf/xindy/lang/french/cp1252-lang.xdy
+share/texmf/xindy/lang/french/cp1252-test.xdy
+share/texmf/xindy/lang/french/cp1252.xdy
+share/texmf/xindy/lang/french/latin9-lang.xdy
+share/texmf/xindy/lang/french/latin9-test.xdy
+share/texmf/xindy/lang/french/latin9.xdy
+share/texmf/xindy/lang/french/utf8-lang.xdy
+share/texmf/xindy/lang/french/utf8-test.xdy
+share/texmf/xindy/lang/french/utf8.xdy
+share/texmf/xindy/lang/general/cp1252-lang.xdy
+share/texmf/xindy/lang/general/cp1252-test.xdy
+share/texmf/xindy/lang/general/cp1252.xdy
+share/texmf/xindy/lang/general/cp850-lang.xdy
+share/texmf/xindy/lang/general/cp850-test.xdy
+share/texmf/xindy/lang/general/cp850.xdy
+share/texmf/xindy/lang/general/latin1-lang.xdy
+share/texmf/xindy/lang/general/latin1-test.xdy
+share/texmf/xindy/lang/general/latin1.xdy
+share/texmf/xindy/lang/general/latin9-lang.xdy
+share/texmf/xindy/lang/general/latin9-test.xdy
+share/texmf/xindy/lang/general/latin9.xdy
+share/texmf/xindy/lang/general/utf8-lang.xdy
+share/texmf/xindy/lang/general/utf8-test.xdy
+share/texmf/xindy/lang/general/utf8.xdy
+share/texmf/xindy/lang/georgian/utf8-lang.xdy
+share/texmf/xindy/lang/georgian/utf8-test.xdy
+share/texmf/xindy/lang/georgian/utf8.xdy
+share/texmf/xindy/lang/german/braille-utf8-lang.xdy
+share/texmf/xindy/lang/german/braille-utf8-test.xdy
+share/texmf/xindy/lang/german/braille-utf8.xdy
+share/texmf/xindy/lang/german/din5007-latin1-lang.xdy
+share/texmf/xindy/lang/german/din5007-latin1-test.xdy
+share/texmf/xindy/lang/german/din5007-latin1.xdy
+share/texmf/xindy/lang/german/din5007-utf8-lang.xdy
+share/texmf/xindy/lang/german/din5007-utf8-test.xdy
+share/texmf/xindy/lang/german/din5007-utf8.xdy
+share/texmf/xindy/lang/german/din5007.xdy
+share/texmf/xindy/lang/german/duden-latin1-lang.xdy
+share/texmf/xindy/lang/german/duden-latin1-test.xdy
+share/texmf/xindy/lang/german/duden-latin1.xdy
+share/texmf/xindy/lang/german/duden-utf8-lang.xdy
+share/texmf/xindy/lang/german/duden-utf8-test.xdy
+share/texmf/xindy/lang/german/duden-utf8.xdy
+share/texmf/xindy/lang/german/duden.xdy
+share/texmf/xindy/lang/german/tex.xdy
+share/texmf/xindy/lang/greek/iso88597-lang.xdy
+share/texmf/xindy/lang/greek/iso88597-test.xdy
+share/texmf/xindy/lang/greek/iso88597.xdy
+share/texmf/xindy/lang/greek/polytonic-utf8-lang.xdy
+share/texmf/xindy/lang/greek/polytonic-utf8-test.xdy
+share/texmf/xindy/lang/greek/polytonic-utf8.xdy
+share/texmf/xindy/lang/greek/translit-latin4-lang.xdy
+share/texmf/xindy/lang/greek/translit-latin4-test.xdy
+share/texmf/xindy/lang/greek/translit-latin4.xdy
+share/texmf/xindy/lang/greek/translit-tex-lang.xdy
+share/texmf/xindy/lang/greek/translit-tex-test.xdy
+share/texmf/xindy/lang/greek/translit-tex.xdy
+share/texmf/xindy/lang/greek/translit-utf8-lang.xdy
+share/texmf/xindy/lang/greek/translit-utf8-test.xdy
+share/texmf/xindy/lang/greek/translit-utf8.xdy
+share/texmf/xindy/lang/greek/utf8-lang.xdy
+share/texmf/xindy/lang/greek/utf8-test.xdy
+share/texmf/xindy/lang/greek/utf8.xdy
+share/texmf/xindy/lang/gypsy/northrussian-utf8-lang.xdy
+share/texmf/xindy/lang/gypsy/northrussian-utf8-test.xdy
+share/texmf/xindy/lang/gypsy/northrussian-utf8.xdy
+share/texmf/xindy/lang/hausa/utf8-lang.xdy
+share/texmf/xindy/lang/hausa/utf8-test.xdy
+share/texmf/xindy/lang/hausa/utf8.xdy
+share/texmf/xindy/lang/hebrew/iso88598-lang.xdy
+share/texmf/xindy/lang/hebrew/iso88598-test.xdy
+share/texmf/xindy/lang/hebrew/iso88598.xdy
+share/texmf/xindy/lang/hebrew/utf8-lang.xdy
+share/texmf/xindy/lang/hebrew/utf8-test.xdy
+share/texmf/xindy/lang/hebrew/utf8.xdy
+share/texmf/xindy/lang/hungarian/cp1250-lang.xdy
+share/texmf/xindy/lang/hungarian/cp1250-test.xdy
+share/texmf/xindy/lang/hungarian/cp1250.xdy
+share/texmf/xindy/lang/hungarian/latin2-lang.xdy
+share/texmf/xindy/lang/hungarian/latin2-test.xdy
+share/texmf/xindy/lang/hungarian/latin2.xdy
+share/texmf/xindy/lang/hungarian/utf8-lang.xdy
+share/texmf/xindy/lang/hungarian/utf8-test.xdy
+share/texmf/xindy/lang/hungarian/utf8.xdy
+share/texmf/xindy/lang/icelandic/cp1252-lang.xdy
+share/texmf/xindy/lang/icelandic/cp1252-test.xdy
+share/texmf/xindy/lang/icelandic/cp1252.xdy
+share/texmf/xindy/lang/icelandic/latin1-lang.xdy
+share/texmf/xindy/lang/icelandic/latin1-test.xdy
+share/texmf/xindy/lang/icelandic/latin1.xdy
+share/texmf/xindy/lang/icelandic/latin9-lang.xdy
+share/texmf/xindy/lang/icelandic/latin9-test.xdy
+share/texmf/xindy/lang/icelandic/latin9.xdy
+share/texmf/xindy/lang/icelandic/utf8-lang.xdy
+share/texmf/xindy/lang/icelandic/utf8-test.xdy
+share/texmf/xindy/lang/icelandic/utf8.xdy
+share/texmf/xindy/lang/italian/latin1-lang.xdy
+share/texmf/xindy/lang/italian/latin1-test.xdy
+share/texmf/xindy/lang/italian/latin1.xdy
+share/texmf/xindy/lang/italian/utf8-lang.xdy
+share/texmf/xindy/lang/italian/utf8-test.xdy
+share/texmf/xindy/lang/italian/utf8.xdy
+share/texmf/xindy/lang/klingon/utf8-lang.xdy
+share/texmf/xindy/lang/klingon/utf8-test.xdy
+share/texmf/xindy/lang/klingon/utf8.xdy
+share/texmf/xindy/lang/kurdish/bedirxan-latin5-lang.xdy
+share/texmf/xindy/lang/kurdish/bedirxan-latin5-test.xdy
+share/texmf/xindy/lang/kurdish/bedirxan-latin5.xdy
+share/texmf/xindy/lang/kurdish/bedirxan-utf8-lang.xdy
+share/texmf/xindy/lang/kurdish/bedirxan-utf8-test.xdy
+share/texmf/xindy/lang/kurdish/bedirxan-utf8.xdy
+share/texmf/xindy/lang/kurdish/turkish-i-latin5-lang.xdy
+share/texmf/xindy/lang/kurdish/turkish-i-latin5-test.xdy
+share/texmf/xindy/lang/kurdish/turkish-i-latin5.xdy
+share/texmf/xindy/lang/kurdish/turkish-i-utf8-lang.xdy
+share/texmf/xindy/lang/kurdish/turkish-i-utf8-test.xdy
+share/texmf/xindy/lang/kurdish/turkish-i-utf8.xdy
+share/texmf/xindy/lang/latin/caseisrt.xdy
+share/texmf/xindy/lang/latin/letgroup.xdy
+share/texmf/xindy/lang/latin/utf8-lang.xdy
+share/texmf/xindy/lang/latin/utf8-test.xdy
+share/texmf/xindy/lang/latin/utf8.xdy
+share/texmf/xindy/lang/latvian/latin4-lang.xdy
+share/texmf/xindy/lang/latvian/latin4-test.xdy
+share/texmf/xindy/lang/latvian/latin4.xdy
+share/texmf/xindy/lang/latvian/utf8-lang.xdy
+share/texmf/xindy/lang/latvian/utf8-test.xdy
+share/texmf/xindy/lang/latvian/utf8.xdy
+share/texmf/xindy/lang/lithuanian/latin4-lang.xdy
+share/texmf/xindy/lang/lithuanian/latin4-test.xdy
+share/texmf/xindy/lang/lithuanian/latin4.xdy
+share/texmf/xindy/lang/lithuanian/utf8-lang.xdy
+share/texmf/xindy/lang/lithuanian/utf8-test.xdy
+share/texmf/xindy/lang/lithuanian/utf8.xdy
+share/texmf/xindy/lang/lower-sorbian/cp1250-lang.xdy
+share/texmf/xindy/lang/lower-sorbian/cp1250-test.xdy
+share/texmf/xindy/lang/lower-sorbian/cp1250.xdy
+share/texmf/xindy/lang/lower-sorbian/latin2-lang.xdy
+share/texmf/xindy/lang/lower-sorbian/latin2-test.xdy
+share/texmf/xindy/lang/lower-sorbian/latin2.xdy
+share/texmf/xindy/lang/lower-sorbian/utf8-lang.xdy
+share/texmf/xindy/lang/lower-sorbian/utf8-test.xdy
+share/texmf/xindy/lang/lower-sorbian/utf8.xdy
+share/texmf/xindy/lang/macedonian/cp1251-lang.xdy
+share/texmf/xindy/lang/macedonian/cp1251-test.xdy
+share/texmf/xindy/lang/macedonian/cp1251.xdy
+share/texmf/xindy/lang/macedonian/iso88595-lang.xdy
+share/texmf/xindy/lang/macedonian/iso88595-test.xdy
+share/texmf/xindy/lang/macedonian/iso88595.xdy
+share/texmf/xindy/lang/macedonian/isoir111-lang.xdy
+share/texmf/xindy/lang/macedonian/isoir111-test.xdy
+share/texmf/xindy/lang/macedonian/isoir111.xdy
+share/texmf/xindy/lang/macedonian/utf8-lang.xdy
+share/texmf/xindy/lang/macedonian/utf8-test.xdy
+share/texmf/xindy/lang/macedonian/utf8.xdy
+share/texmf/xindy/lang/mongolian/cyrillic-utf8-lang.xdy
+share/texmf/xindy/lang/mongolian/cyrillic-utf8-test.xdy
+share/texmf/xindy/lang/mongolian/cyrillic-utf8.xdy
+share/texmf/xindy/lang/norwegian/latin1-lang.xdy
+share/texmf/xindy/lang/norwegian/latin1-test.xdy
+share/texmf/xindy/lang/norwegian/latin1.xdy
+share/texmf/xindy/lang/norwegian/utf8-lang.xdy
+share/texmf/xindy/lang/norwegian/utf8-test.xdy
+share/texmf/xindy/lang/norwegian/utf8.xdy
+share/texmf/xindy/lang/polish/cp1250-lang.xdy
+share/texmf/xindy/lang/polish/cp1250-test.xdy
+share/texmf/xindy/lang/polish/cp1250.xdy
+share/texmf/xindy/lang/polish/latin2-lang.xdy
+share/texmf/xindy/lang/polish/latin2-test.xdy
+share/texmf/xindy/lang/polish/latin2.xdy
+share/texmf/xindy/lang/polish/utf8-lang.xdy
+share/texmf/xindy/lang/polish/utf8-test.xdy
+share/texmf/xindy/lang/polish/utf8.xdy
+share/texmf/xindy/lang/portuguese/latin1-lang.xdy
+share/texmf/xindy/lang/portuguese/latin1-test.xdy
+share/texmf/xindy/lang/portuguese/latin1.xdy
+share/texmf/xindy/lang/portuguese/utf8-lang.xdy
+share/texmf/xindy/lang/portuguese/utf8-test.xdy
+share/texmf/xindy/lang/portuguese/utf8.xdy
+share/texmf/xindy/lang/romanian/latin2-lang.xdy
+share/texmf/xindy/lang/romanian/latin2-test.xdy
+share/texmf/xindy/lang/romanian/latin2.xdy
+share/texmf/xindy/lang/romanian/utf8-lang.xdy
+share/texmf/xindy/lang/romanian/utf8-test.xdy
+share/texmf/xindy/lang/romanian/utf8.xdy
+share/texmf/xindy/lang/russian/cp1251-lang.xdy
+share/texmf/xindy/lang/russian/cp1251-test.xdy
+share/texmf/xindy/lang/russian/cp1251.xdy
+share/texmf/xindy/lang/russian/iso88595-lang.xdy
+share/texmf/xindy/lang/russian/iso88595-test.xdy
+share/texmf/xindy/lang/russian/iso88595.xdy
+share/texmf/xindy/lang/russian/koi8-r-lang.xdy
+share/texmf/xindy/lang/russian/koi8-r-test.xdy
+share/texmf/xindy/lang/russian/koi8-r.xdy
+share/texmf/xindy/lang/russian/translit-iso-tex-lang.xdy
+share/texmf/xindy/lang/russian/translit-iso-tex-test.xdy
+share/texmf/xindy/lang/russian/translit-iso-tex.xdy
+share/texmf/xindy/lang/russian/translit-iso-utf8-lang.xdy
+share/texmf/xindy/lang/russian/translit-iso-utf8-test.xdy
+share/texmf/xindy/lang/russian/translit-iso-utf8.xdy
+share/texmf/xindy/lang/russian/utf8-lang.xdy
+share/texmf/xindy/lang/russian/utf8-test.xdy
+share/texmf/xindy/lang/russian/utf8.xdy
+share/texmf/xindy/lang/serbian/cp1251-lang.xdy
+share/texmf/xindy/lang/serbian/cp1251-test.xdy
+share/texmf/xindy/lang/serbian/cp1251.xdy
+share/texmf/xindy/lang/serbian/iso88595-lang.xdy
+share/texmf/xindy/lang/serbian/iso88595-test.xdy
+share/texmf/xindy/lang/serbian/iso88595.xdy
+share/texmf/xindy/lang/serbian/isoir111-lang.xdy
+share/texmf/xindy/lang/serbian/isoir111-test.xdy
+share/texmf/xindy/lang/serbian/isoir111.xdy
+share/texmf/xindy/lang/serbian/utf8-lang.xdy
+share/texmf/xindy/lang/serbian/utf8-test.xdy
+share/texmf/xindy/lang/serbian/utf8.xdy
+share/texmf/xindy/lang/slovak/large-cp1250-lang.xdy
+share/texmf/xindy/lang/slovak/large-cp1250-test.xdy
+share/texmf/xindy/lang/slovak/large-cp1250.xdy
+share/texmf/xindy/lang/slovak/large-latin2-lang.xdy
+share/texmf/xindy/lang/slovak/large-latin2-test.xdy
+share/texmf/xindy/lang/slovak/large-latin2.xdy
+share/texmf/xindy/lang/slovak/large-utf8-lang.xdy
+share/texmf/xindy/lang/slovak/large-utf8-test.xdy
+share/texmf/xindy/lang/slovak/large-utf8.xdy
+share/texmf/xindy/lang/slovak/small-cp1250-lang.xdy
+share/texmf/xindy/lang/slovak/small-cp1250-test.xdy
+share/texmf/xindy/lang/slovak/small-cp1250.xdy
+share/texmf/xindy/lang/slovak/small-latin2-lang.xdy
+share/texmf/xindy/lang/slovak/small-latin2-test.xdy
+share/texmf/xindy/lang/slovak/small-latin2.xdy
+share/texmf/xindy/lang/slovak/small-utf8-lang.xdy
+share/texmf/xindy/lang/slovak/small-utf8-test.xdy
+share/texmf/xindy/lang/slovak/small-utf8.xdy
+share/texmf/xindy/lang/slovenian/cp1250-lang.xdy
+share/texmf/xindy/lang/slovenian/cp1250-test.xdy
+share/texmf/xindy/lang/slovenian/cp1250.xdy
+share/texmf/xindy/lang/slovenian/latin2-lang.xdy
+share/texmf/xindy/lang/slovenian/latin2-test.xdy
+share/texmf/xindy/lang/slovenian/latin2.xdy
+share/texmf/xindy/lang/slovenian/utf8-lang.xdy
+share/texmf/xindy/lang/slovenian/utf8-test.xdy
+share/texmf/xindy/lang/slovenian/utf8.xdy
+share/texmf/xindy/lang/spanish/modern-latin1-lang.xdy
+share/texmf/xindy/lang/spanish/modern-latin1-test.xdy
+share/texmf/xindy/lang/spanish/modern-latin1.xdy
+share/texmf/xindy/lang/spanish/modern-utf8-lang.xdy
+share/texmf/xindy/lang/spanish/modern-utf8-test.xdy
+share/texmf/xindy/lang/spanish/modern-utf8.xdy
+share/texmf/xindy/lang/spanish/traditional-latin1-lang.xdy
+share/texmf/xindy/lang/spanish/traditional-latin1-test.xdy
+share/texmf/xindy/lang/spanish/traditional-latin1.xdy
+share/texmf/xindy/lang/spanish/traditional-utf8-lang.xdy
+share/texmf/xindy/lang/spanish/traditional-utf8-test.xdy
+share/texmf/xindy/lang/spanish/traditional-utf8.xdy
+share/texmf/xindy/lang/swedish/cp1252-lang.xdy
+share/texmf/xindy/lang/swedish/cp1252-test.xdy
+share/texmf/xindy/lang/swedish/cp1252.xdy
+share/texmf/xindy/lang/swedish/latin1-lang.xdy
+share/texmf/xindy/lang/swedish/latin1-test.xdy
+share/texmf/xindy/lang/swedish/latin1.xdy
+share/texmf/xindy/lang/swedish/latin9-lang.xdy
+share/texmf/xindy/lang/swedish/latin9-test.xdy
+share/texmf/xindy/lang/swedish/latin9.xdy
+share/texmf/xindy/lang/swedish/utf8-lang.xdy
+share/texmf/xindy/lang/swedish/utf8-test.xdy
+share/texmf/xindy/lang/swedish/utf8.xdy
+share/texmf/xindy/lang/turkish/latin3-lang.xdy
+share/texmf/xindy/lang/turkish/latin3-test.xdy
+share/texmf/xindy/lang/turkish/latin3.xdy
+share/texmf/xindy/lang/turkish/latin5-lang.xdy
+share/texmf/xindy/lang/turkish/latin5-test.xdy
+share/texmf/xindy/lang/turkish/latin5.xdy
+share/texmf/xindy/lang/turkish/utf8-lang.xdy
+share/texmf/xindy/lang/turkish/utf8-test.xdy
+share/texmf/xindy/lang/turkish/utf8.xdy
+share/texmf/xindy/lang/ukrainian/cp1251-lang.xdy
+share/texmf/xindy/lang/ukrainian/cp1251-test.xdy
+share/texmf/xindy/lang/ukrainian/cp1251.xdy
+share/texmf/xindy/lang/ukrainian/koi8-u-lang.xdy
+share/texmf/xindy/lang/ukrainian/koi8-u-test.xdy
+share/texmf/xindy/lang/ukrainian/koi8-u.xdy
+share/texmf/xindy/lang/ukrainian/utf8-lang.xdy
+share/texmf/xindy/lang/ukrainian/utf8-test.xdy
+share/texmf/xindy/lang/ukrainian/utf8.xdy
+share/texmf/xindy/lang/upper-sorbian/cp1250-lang.xdy
+share/texmf/xindy/lang/upper-sorbian/cp1250-test.xdy
+share/texmf/xindy/lang/upper-sorbian/cp1250.xdy
+share/texmf/xindy/lang/upper-sorbian/latin2-lang.xdy
+share/texmf/xindy/lang/upper-sorbian/latin2-test.xdy
+share/texmf/xindy/lang/upper-sorbian/latin2.xdy
+share/texmf/xindy/lang/upper-sorbian/utf8-lang.xdy
+share/texmf/xindy/lang/upper-sorbian/utf8-test.xdy
+share/texmf/xindy/lang/upper-sorbian/utf8.xdy
+share/texmf/xindy/lang/vietnamese/utf8-lang.xdy
+share/texmf/xindy/lang/vietnamese/utf8-test.xdy
+share/texmf/xindy/lang/vietnamese/utf8.xdy
+share/texmf/xindy/ord/letorder.xdy
+share/texmf/xindy/rules/isolatin1-exchange.xdy
+share/texmf/xindy/rules/isolatin1-tolower.xdy
+share/texmf/xindy/rules/latin-exchange.xdy
+share/texmf/xindy/rules/latin-tolower.xdy
+share/texmf/xindy/styles/basic.xdy
+share/texmf/xindy/styles/example.xdy
+share/texmf/xindy/styles/makeidx.xdy
+share/texmf/xindy/styles/makeindex.xdy
+share/texmf/xindy/styles/vermeer.xdy
+share/texmf/xindy/tex/inputenc/cp1250.xdy
+share/texmf/xindy/tex/inputenc/cp1251.xdy
+share/texmf/xindy/tex/inputenc/cp1252.xdy
+share/texmf/xindy/tex/inputenc/cp437.xdy
+share/texmf/xindy/tex/inputenc/cp850.xdy
+share/texmf/xindy/tex/inputenc/cp855.xdy
+share/texmf/xindy/tex/inputenc/cp866.xdy
+share/texmf/xindy/tex/inputenc/iso88595.xdy
+share/texmf/xindy/tex/inputenc/isoir111.xdy
+share/texmf/xindy/tex/inputenc/koi8-r.xdy
+share/texmf/xindy/tex/inputenc/koi8-u.xdy
+share/texmf/xindy/tex/inputenc/latin.xdy
+share/texmf/xindy/tex/inputenc/latin1.xdy
+share/texmf/xindy/tex/inputenc/latin2.xdy
+share/texmf/xindy/tex/inputenc/latin3.xdy
+@dirrmtry share/texmf/xindy/tex/inputenc
+@dirrmtry share/texmf/xindy/styles
+@dirrmtry share/texmf/xindy/rules
+@dirrmtry share/texmf/xindy/ord
+@dirrmtry share/texmf/xindy/lang/vietnamese
+@dirrmtry share/texmf/xindy/lang/upper-sorbian
+@dirrmtry share/texmf/xindy/lang/ukrainian
+@dirrmtry share/texmf/xindy/lang/turkish
+@dirrmtry share/texmf/xindy/lang/swedish
+@dirrmtry share/texmf/xindy/lang/spanish
+@dirrmtry share/texmf/xindy/lang/slovenian
+@dirrmtry share/texmf/xindy/lang/slovak
+@dirrmtry share/texmf/xindy/lang/serbian
+@dirrmtry share/texmf/xindy/lang/russian
+@dirrmtry share/texmf/xindy/lang/romanian
+@dirrmtry share/texmf/xindy/lang/portuguese
+@dirrmtry share/texmf/xindy/lang/polish
+@dirrmtry share/texmf/xindy/lang/norwegian
+@dirrmtry share/texmf/xindy/lang/mongolian
+@dirrmtry share/texmf/xindy/lang/macedonian
+@dirrmtry share/texmf/xindy/lang/lower-sorbian
+@dirrmtry share/texmf/xindy/lang/lithuanian
+@dirrmtry share/texmf/xindy/lang/latvian
+@dirrmtry share/texmf/xindy/lang/latin
+@dirrmtry share/texmf/xindy/lang/kurdish
+@dirrmtry share/texmf/xindy/lang/klingon
+@dirrmtry share/texmf/xindy/lang/italian
+@dirrmtry share/texmf/xindy/lang/icelandic
+@dirrmtry share/texmf/xindy/lang/hungarian
+@dirrmtry share/texmf/xindy/lang/hebrew
+@dirrmtry share/texmf/xindy/lang/hausa
+@dirrmtry share/texmf/xindy/lang/gypsy
+@dirrmtry share/texmf/xindy/lang/greek
+@dirrmtry share/texmf/xindy/lang/german
+@dirrmtry share/texmf/xindy/lang/georgian
+@dirrmtry share/texmf/xindy/lang/general
+@dirrmtry share/texmf/xindy/lang/french
+@dirrmtry share/texmf/xindy/lang/finnish
+@dirrmtry share/texmf/xindy/lang/estonian
+@dirrmtry share/texmf/xindy/lang/esperanto
+@dirrmtry share/texmf/xindy/lang/english
+@dirrmtry share/texmf/xindy/lang/dutch
+@dirrmtry share/texmf/xindy/lang/danish
+@dirrmtry share/texmf/xindy/lang/czech
+@dirrmtry share/texmf/xindy/lang/croatian
+@dirrmtry share/texmf/xindy/lang/bulgarian
+@dirrmtry share/texmf/xindy/lang/belarusian
+@dirrmtry share/texmf/xindy/lang/albanian
+@dirrmtry share/texmf/xindy/class
+@dirrmtry share/texmf/xindy/base
+@dirrmtry share/texmf/scripts/xindy
+@dirrmtry share/texmf/doc/xindy/style-tutorial
+@dirrmtry share/texmf/doc/xindy
+@dirrmtry share/texmf/doc/man/man1

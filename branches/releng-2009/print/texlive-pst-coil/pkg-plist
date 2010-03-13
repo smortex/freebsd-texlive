@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-coil/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-coil/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-coil/pst-coil-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-coil/pst-coil-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-coil/pst-coil-doc.tex
+share/texmf-dist/dvips/pst-coil/pst-coil.pro
+%%PORTSRC%%share/texmf-dist/source/generic/pst-coil/Makefile
+share/texmf-dist/tex/generic/pst-coil/pst-coil.tex
+share/texmf-dist/tex/latex/pst-coil/pst-coil.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-coil
+@dirrmtry share/texmf-dist/tex/generic/pst-coil
+@dirrmtry share/texmf-dist/source/generic/pst-coil
+@dirrmtry share/texmf-dist/dvips/pst-coil
+@dirrmtry share/texmf-dist/doc/generic/pst-coil

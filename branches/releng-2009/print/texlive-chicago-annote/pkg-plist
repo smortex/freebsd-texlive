@@ -1,0 +1,4 @@
+share/texmf-dist/bibtex/bst/chicago-annote/chicago-annote.bst
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/chicago-annote/README
+@dirrmtry share/texmf-dist/doc/bibtex/chicago-annote
+@dirrmtry share/texmf-dist/bibtex/bst/chicago-annote

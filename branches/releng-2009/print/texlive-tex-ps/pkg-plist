@@ -1,0 +1,26 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/tex-ps/cmyk-hax/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/tex-ps/cmyk-hax/cmyk-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tex-ps/cmyk-hax/fountain.eps
+%%PORTDOCS%%share/texmf-dist/doc/generic/tex-ps/cmyk-hax/gdansk.eps
+%%PORTDOCS%%share/texmf-dist/doc/generic/tex-ps/cmyk-hax/rules.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tex-ps/cmyk-hax/sam1-sep.bat
+%%PORTDOCS%%share/texmf-dist/doc/generic/tex-ps/cmyk-hax/sample1.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tex-ps/cmyk-hax/sample2.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tex-ps/cmyk-hax/sample3.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tex-ps/cmyk-hax/sample4.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tex-ps/cmyk-hax/screen.eps
+%%PORTDOCS%%share/texmf-dist/doc/generic/tex-ps/poligraf/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/tex-ps/poligraf/kol-cmyk.eps
+%%PORTDOCS%%share/texmf-dist/doc/generic/tex-ps/poligraf/sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tex-ps/poligraf/samplelx.tex
+share/texmf-dist/dvips/tex-ps/crops.pro
+share/texmf-dist/dvips/tex-ps/mirr.hd
+share/texmf-dist/dvips/tex-ps/separate.pro
+share/texmf-dist/tex/generic/tex-ps/cmyk-hax.tex
+share/texmf-dist/tex/generic/tex-ps/epsfx.tex
+share/texmf-dist/tex/generic/tex-ps/poligraf.sty
+share/texmf-dist/tex/generic/tex-ps/trans.tex
+@dirrmtry share/texmf-dist/tex/generic/tex-ps
+@dirrmtry share/texmf-dist/dvips/tex-ps
+@dirrmtry share/texmf-dist/doc/generic/tex-ps/poligraf
+@dirrmtry share/texmf-dist/doc/generic/tex-ps/cmyk-hax

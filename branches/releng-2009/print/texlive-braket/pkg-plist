@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/braket/braket.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/braket/braket.tex
+share/texmf-dist/tex/latex/braket/braket.sty
+@dirrmtry share/texmf-dist/tex/latex/braket
+@dirrmtry share/texmf-dist/doc/latex/braket

@@ -1,0 +1,17 @@
+# New ports collection makefile for:	texlive-pmgraph
+# Date created:		13/03/2010 04:52:42
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	pmgraph
+CATEGORIES=	print
+
+MAINTAINER=	romain@blogreen.org
+COMMENT=	"Poor man's" graphics.
+
+NOPORTSRC=	yes
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

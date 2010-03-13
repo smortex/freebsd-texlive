@@ -1,0 +1,35 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/esvect/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/esvect/esvect.pdf
+share/texmf-dist/fonts/map/dvips/esvect/esvect.map
+share/texmf-dist/fonts/source/public/esvect/mathvec.mf
+share/texmf-dist/fonts/source/public/esvect/vecsym.mf
+share/texmf-dist/fonts/source/public/esvect/vect10.mf
+share/texmf-dist/fonts/source/public/esvect/vect5.mf
+share/texmf-dist/fonts/source/public/esvect/vect6.mf
+share/texmf-dist/fonts/source/public/esvect/vect7.mf
+share/texmf-dist/fonts/source/public/esvect/vect8.mf
+share/texmf-dist/fonts/source/public/esvect/vect9.mf
+share/texmf-dist/fonts/source/public/esvect/vsymbol.mf
+share/texmf-dist/fonts/tfm/public/esvect/vect10.tfm
+share/texmf-dist/fonts/tfm/public/esvect/vect5.tfm
+share/texmf-dist/fonts/tfm/public/esvect/vect6.tfm
+share/texmf-dist/fonts/tfm/public/esvect/vect7.tfm
+share/texmf-dist/fonts/tfm/public/esvect/vect8.tfm
+share/texmf-dist/fonts/tfm/public/esvect/vect9.tfm
+share/texmf-dist/fonts/type1/public/esvect/vect10.pfb
+share/texmf-dist/fonts/type1/public/esvect/vect5.pfb
+share/texmf-dist/fonts/type1/public/esvect/vect6.pfb
+share/texmf-dist/fonts/type1/public/esvect/vect7.pfb
+share/texmf-dist/fonts/type1/public/esvect/vect8.pfb
+share/texmf-dist/fonts/type1/public/esvect/vect9.pfb
+%%PORTSRC%%share/texmf-dist/source/latex/esvect/esvect.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/esvect/esvect.ins
+share/texmf-dist/tex/latex/esvect/esvect.sty
+share/texmf-dist/tex/latex/esvect/uesvect.fd
+@dirrmtry share/texmf-dist/tex/latex/esvect
+@dirrmtry share/texmf-dist/source/latex/esvect
+@dirrmtry share/texmf-dist/fonts/type1/public/esvect
+@dirrmtry share/texmf-dist/fonts/tfm/public/esvect
+@dirrmtry share/texmf-dist/fonts/source/public/esvect
+@dirrmtry share/texmf-dist/fonts/map/dvips/esvect
+@dirrmtry share/texmf-dist/doc/latex/esvect

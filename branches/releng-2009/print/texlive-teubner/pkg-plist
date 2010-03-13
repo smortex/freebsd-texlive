@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/teubner/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/teubner/teubner-doc.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/teubner/teubner.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/teubner/teubner.ins
+share/texmf-dist/tex/latex/teubner/teubner.sty
+@dirrmtry share/texmf-dist/tex/latex/teubner
+@dirrmtry share/texmf-dist/source/latex/teubner
+@dirrmtry share/texmf-dist/doc/latex/teubner

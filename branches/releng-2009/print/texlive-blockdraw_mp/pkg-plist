@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/metapost/blockdraw_mp/README
+%%PORTDOCS%%share/texmf-dist/doc/metapost/blockdraw_mp/blockdraw_mp.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/blockdraw_mp/blockdraw_mp.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/blockdraw_mp/bonddemo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/blockdraw_mp/cascadedemo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/blockdraw_mp/tiddetext.sty
+%%PORTDOCS%%share/texmf-dist/doc/metapost/blockdraw_mp/tighttoc.sty
+share/texmf-dist/metapost/blockdraw_mp/blockdraw.mp
+share/texmf-dist/metapost/blockdraw_mp/bonddemo.mp
+share/texmf-dist/metapost/blockdraw_mp/bondgraph.mp
+share/texmf-dist/metapost/blockdraw_mp/cascadedemo.mp
+share/texmf-dist/metapost/blockdraw_mp/docblockprefs.mp
+share/texmf-dist/metapost/blockdraw_mp/shiftoff.mp
+@dirrmtry share/texmf-dist/metapost/blockdraw_mp
+@dirrmtry share/texmf-dist/doc/metapost/blockdraw_mp

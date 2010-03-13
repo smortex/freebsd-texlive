@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/mcaption/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/latex/mcaption/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/mcaption/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mcaption/mcaption.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/mcaption/mcaption.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mcaption/mcaption.ins
+share/texmf-dist/tex/latex/mcaption/mcaption.sty
+@dirrmtry share/texmf-dist/tex/latex/mcaption
+@dirrmtry share/texmf-dist/source/latex/mcaption
+@dirrmtry share/texmf-dist/doc/latex/mcaption

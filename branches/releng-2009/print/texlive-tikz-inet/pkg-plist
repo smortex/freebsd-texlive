@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-inet/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-inet/tikz-inet-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-inet/tikz-inet-doc.tex
+share/texmf-dist/tex/latex/tikz-inet/tikz-inet.sty
+@dirrmtry share/texmf-dist/tex/latex/tikz-inet
+@dirrmtry share/texmf-dist/doc/latex/tikz-inet

@@ -1,0 +1,26 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/mxd/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/mxd/mxd4tex.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/mxd/mxd4tex.tex
+share/texmf-dist/fonts/source/public/mxd/mxdatoms.mf
+share/texmf-dist/fonts/source/public/mxd/mxdcodes.mf
+share/texmf-dist/fonts/source/public/mxd/mxdglyph.mf
+share/texmf-dist/fonts/source/public/mxd/mxdligs.mf
+share/texmf-dist/fonts/source/public/mxd/mxdparmb.mf
+share/texmf-dist/fonts/source/public/mxd/mxdparmr.mf
+share/texmf-dist/fonts/source/public/mxd/mxdrb.mf
+share/texmf-dist/fonts/source/public/mxd/mxdrm.mf
+share/texmf-dist/fonts/source/public/mxd/mxdsb.mf
+share/texmf-dist/fonts/source/public/mxd/mxdsm.mf
+share/texmf-dist/fonts/tfm/public/mxd/mxdrb.tfm
+share/texmf-dist/fonts/tfm/public/mxd/mxdrm.tfm
+share/texmf-dist/fonts/tfm/public/mxd/mxdsb.tfm
+share/texmf-dist/fonts/tfm/public/mxd/mxdsm.tfm
+%%PORTSRC%%share/texmf-dist/source/latex/mxd/INSTALL
+share/texmf-dist/tex/latex/mxd/lmxenc.def
+share/texmf-dist/tex/latex/mxd/lmxmxd.fd
+share/texmf-dist/tex/latex/mxd/mxd.sty
+@dirrmtry share/texmf-dist/tex/latex/mxd
+@dirrmtry share/texmf-dist/source/latex/mxd
+@dirrmtry share/texmf-dist/fonts/tfm/public/mxd
+@dirrmtry share/texmf-dist/fonts/source/public/mxd
+@dirrmtry share/texmf-dist/doc/latex/mxd

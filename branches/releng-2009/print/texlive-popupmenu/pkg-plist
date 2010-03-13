@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/popupmenu/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/popupmenu/examples/pumen_ex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/popupmenu/examples/pumen_ex_pdftex.tex
+%%PORTSRC%%share/texmf-dist/source/latex/popupmenu/popupmenu.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/popupmenu/popupmenu.ins
+share/texmf-dist/tex/latex/popupmenu/popupmenu.sty
+@dirrmtry share/texmf-dist/tex/latex/popupmenu
+@dirrmtry share/texmf-dist/source/latex/popupmenu
+@dirrmtry share/texmf-dist/doc/latex/popupmenu/examples
+@dirrmtry share/texmf-dist/doc/latex/popupmenu

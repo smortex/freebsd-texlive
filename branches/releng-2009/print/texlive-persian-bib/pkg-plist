@@ -1,0 +1,15 @@
+share/texmf-dist/bibtex/bst/persian-bib/acm-fa.bst
+share/texmf-dist/bibtex/bst/persian-bib/asa-fa.bst
+share/texmf-dist/bibtex/bst/persian-bib/chicago-fa.bst
+share/texmf-dist/bibtex/bst/persian-bib/ieeetr-fa.bst
+share/texmf-dist/bibtex/bst/persian-bib/plain-fa.bst
+share/texmf-dist/bibtex/bst/persian-bib/plainnat-fa.bst
+share/texmf-dist/bibtex/bst/persian-bib/unsrt-fa.bst
+share/texmf-dist/bibtex/csf/persian-bib/cp1256fa.csf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/persian-bib/MyReferences.bib
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/persian-bib/Persian-bib-userguide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/persian-bib/Persian-bib-userguide.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/persian-bib/README
+@dirrmtry share/texmf-dist/doc/xelatex/persian-bib
+@dirrmtry share/texmf-dist/bibtex/csf/persian-bib
+@dirrmtry share/texmf-dist/bibtex/bst/persian-bib

@@ -1,0 +1,17 @@
+share/texmf-dist/bibtex/bst/hc/hc-de.bst
+share/texmf-dist/bibtex/bst/hc/hc-en.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/hc/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/hc/FILES
+%%PORTDOCS%%share/texmf-dist/doc/latex/hc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/hc/hc.ps
+%%PORTSRC%%share/texmf-dist/source/latex/hc/hc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/hc/hc.ins
+share/texmf-dist/tex/latex/hc/german.hld
+share/texmf-dist/tex/latex/hc/hcart.cls
+share/texmf-dist/tex/latex/hc/hcletter.cls
+share/texmf-dist/tex/latex/hc/hcreport.cls
+share/texmf-dist/tex/latex/hc/hcslides.cls
+@dirrmtry share/texmf-dist/tex/latex/hc
+@dirrmtry share/texmf-dist/source/latex/hc
+@dirrmtry share/texmf-dist/doc/latex/hc
+@dirrmtry share/texmf-dist/bibtex/bst/hc

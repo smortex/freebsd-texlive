@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-blur/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-blur/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-blur/pst-blur.pdf
+share/texmf-dist/dvips/pst-blur/pst-blur.pro
+%%PORTSRC%%share/texmf-dist/source/generic/pst-blur/Makefile
+%%PORTSRC%%share/texmf-dist/source/generic/pst-blur/pst-blur.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/pst-blur/pst-blur.ins
+share/texmf-dist/tex/generic/pst-blur/pst-blur.tex
+share/texmf-dist/tex/latex/pst-blur/pst-blur.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-blur
+@dirrmtry share/texmf-dist/tex/generic/pst-blur
+@dirrmtry share/texmf-dist/source/generic/pst-blur
+@dirrmtry share/texmf-dist/dvips/pst-blur
+@dirrmtry share/texmf-dist/doc/generic/pst-blur

@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/rotpages/Examples/rotpages-doublecolumn-ex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rotpages/Examples/rotpages-doublecolumn-ex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/rotpages/Examples/rotpages-fancy-ex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rotpages/Examples/rotpages-fancy-ex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/rotpages/Examples/rotpages-singlecolumn-ex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rotpages/Examples/rotpages-singlecolumn-ex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/rotpages/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/rotpages/rotpages-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rotpages/rotpages-doc.tex
+share/texmf-dist/tex/latex/rotpages/rotpages.sty
+@dirrmtry share/texmf-dist/tex/latex/rotpages
+@dirrmtry share/texmf-dist/doc/latex/rotpages/Examples
+@dirrmtry share/texmf-dist/doc/latex/rotpages

@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/metapost/bbcard/README.bbcard
+%%PORTDOCS%%share/texmf-dist/doc/metapost/bbcard/README.calendar
+%%PORTDOCS%%share/texmf-dist/doc/metapost/bbcard/README.scorecard
+share/texmf-dist/metapost/bbcard/bbcard.mp
+share/texmf-dist/metapost/bbcard/breakwidth.mp
+share/texmf-dist/metapost/bbcard/calendar.mp
+share/texmf-dist/metapost/bbcard/scorecard.mp
+@dirrmtry share/texmf-dist/metapost/bbcard
+@dirrmtry share/texmf-dist/doc/metapost/bbcard

@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/lastpage/README.lastpage
+%%PORTDOCS%%share/texmf-dist/doc/latex/lastpage/lastpage.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/lastpage/lastpage.drv
+%%PORTSRC%%share/texmf-dist/source/latex/lastpage/lastpage.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/lastpage/lastpage.ins
+share/texmf-dist/tex/latex/lastpage/lastpage.sty
+@dirrmtry share/texmf-dist/tex/latex/lastpage
+@dirrmtry share/texmf-dist/source/latex/lastpage
+@dirrmtry share/texmf-dist/doc/latex/lastpage

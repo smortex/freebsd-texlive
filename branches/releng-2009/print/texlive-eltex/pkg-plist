@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/eltex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/eltex/man_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eltex/man_en.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eltex/pri_cz.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eltex/pri_cz.tex
+share/texmf-dist/tex/latex/eltex/eltex1.tex
+share/texmf-dist/tex/latex/eltex/eltex2.tex
+share/texmf-dist/tex/latex/eltex/eltex3.tex
+share/texmf-dist/tex/latex/eltex/eltex4.tex
+share/texmf-dist/tex/latex/eltex/eltex5.tex
+share/texmf-dist/tex/latex/eltex/eltex6.tex
+share/texmf-dist/tex/latex/eltex/eltex7.tex
+@dirrmtry share/texmf-dist/tex/latex/eltex
+@dirrmtry share/texmf-dist/doc/latex/eltex

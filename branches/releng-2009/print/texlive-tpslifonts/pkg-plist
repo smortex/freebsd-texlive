@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tpslifonts/00readme.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/tpslifonts/0install.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/tpslifonts/__TPslifonts.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tpslifonts/slifontsexample.tex
+share/texmf-dist/tex/latex/tpslifonts/tpslifonts.sty
+@dirrmtry share/texmf-dist/tex/latex/tpslifonts
+@dirrmtry share/texmf-dist/doc/latex/tpslifonts

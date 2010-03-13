@@ -1,0 +1,28 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cjw/cjw-latex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cjw/cjw-ltr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cjw/cjwoutl.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cjw/cjwplain.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/cjw/cjw-latex.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/cjw/cjw-latex.ins
+%%PORTSRC%%share/texmf-dist/source/latex/cjw/cjw-ltr.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/cjw/cjw-ltr.ins
+%%PORTSRC%%share/texmf-dist/source/latex/cjw/cjwoutl.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/cjw/cjwoutl.ins
+%%PORTSRC%%share/texmf-dist/source/latex/cjw/cjwplain.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/cjw/cjwplain.ins
+share/texmf-dist/tex/latex/cjw/cjw-env.cls
+share/texmf-dist/tex/latex/cjw/cjw-ltr.cls
+share/texmf-dist/tex/latex/cjw/cjwderiv.tex
+share/texmf-dist/tex/latex/cjw/cjwinteg.tex
+share/texmf-dist/tex/latex/cjw/cjwmacro.sty
+share/texmf-dist/tex/latex/cjw/cjwmath.sty
+share/texmf-dist/tex/latex/cjw/cjwoutl.sty
+share/texmf-dist/tex/latex/cjw/cjwphys.tex
+share/texmf-dist/tex/latex/cjw/cjwplain.sty
+share/texmf-dist/tex/latex/cjw/cjwplout.clo
+share/texmf-dist/tex/latex/cjw/cjwpltab.clo
+share/texmf-dist/tex/latex/cjw/cjwresize.sty
+share/texmf-dist/tex/latex/cjw/cjwunits.sty
+@dirrmtry share/texmf-dist/tex/latex/cjw
+@dirrmtry share/texmf-dist/source/latex/cjw
+@dirrmtry share/texmf-dist/doc/latex/cjw

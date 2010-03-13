@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/edmac/COPYRIGHT
+%%PORTDOCS%%share/texmf-dist/doc/latex/edmac/braonain.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/edmac/copying
+%%PORTDOCS%%share/texmf-dist/doc/latex/edmac/ed-nfss.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/edmac/edmac.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/edmac/edstanza.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/edmac/edszadoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/edmac/features.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/edmac/readme
+%%PORTSRC%%share/texmf-dist/source/latex/edmac/edmac.drv
+share/texmf-dist/tex/generic/edmac/edmac.tex
+share/texmf-dist/tex/generic/edmac/edmacfss.sty
+share/texmf-dist/tex/generic/edmac/edstanza.tex
+share/texmf-dist/tex/generic/edmac/tabmac.tex
+@dirrmtry share/texmf-dist/tex/generic/edmac
+@dirrmtry share/texmf-dist/source/latex/edmac
+@dirrmtry share/texmf-dist/doc/latex/edmac

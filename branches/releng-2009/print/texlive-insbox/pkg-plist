@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/insbox/demo.dvi
+%%PORTDOCS%%share/texmf-dist/doc/generic/insbox/demo.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/insbox/pic1.eps
+%%PORTDOCS%%share/texmf-dist/doc/generic/insbox/pic2.eps
+share/texmf-dist/tex/generic/insbox/insbox.tex
+@dirrmtry share/texmf-dist/tex/generic/insbox
+@dirrmtry share/texmf-dist/doc/generic/insbox

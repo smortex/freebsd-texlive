@@ -1,0 +1,22 @@
+share/texmf-dist/bibtex/bib/harvard/harvard.bib
+share/texmf-dist/bibtex/bst/harvard/agsm.bst
+share/texmf-dist/bibtex/bst/harvard/apsr.bst
+share/texmf-dist/bibtex/bst/harvard/dcu.bst
+share/texmf-dist/bibtex/bst/harvard/jmr.bst
+share/texmf-dist/bibtex/bst/harvard/jphysicsB.bst
+share/texmf-dist/bibtex/bst/harvard/kluwer.bst
+share/texmf-dist/bibtex/bst/harvard/nederlands.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/harvard/INSTALL
+%%PORTDOCS%%share/texmf-dist/doc/latex/harvard/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/harvard/harvard.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/harvard/harvard.perl
+%%PORTDOCS%%share/texmf-dist/doc/latex/harvard/harvard.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/harvard/manifest.txt
+%%PORTSRC%%share/texmf-dist/source/latex/harvard/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/harvard/doc_Makefile
+share/texmf-dist/tex/latex/harvard/harvard.sty
+@dirrmtry share/texmf-dist/tex/latex/harvard
+@dirrmtry share/texmf-dist/source/latex/harvard
+@dirrmtry share/texmf-dist/doc/latex/harvard
+@dirrmtry share/texmf-dist/bibtex/bst/harvard
+@dirrmtry share/texmf-dist/bibtex/bib/harvard

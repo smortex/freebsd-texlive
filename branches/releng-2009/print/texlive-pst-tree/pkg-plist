@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-tree/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-tree/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-tree/pst-tree-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-tree/pst-tree-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-tree/pst-tree-doc.tex
+%%PORTSRC%%share/texmf-dist/source/generic/pst-tree/Makefile
+share/texmf-dist/tex/generic/pst-tree/pst-tree.tex
+share/texmf-dist/tex/latex/pst-tree/pst-tree.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-tree
+@dirrmtry share/texmf-dist/tex/generic/pst-tree
+@dirrmtry share/texmf-dist/source/generic/pst-tree
+@dirrmtry share/texmf-dist/doc/generic/pst-tree

@@ -1,0 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/etex-pkg/README
+share/texmf-dist/tex/latex/etex-pkg/etex.sty
+@dirrmtry share/texmf-dist/tex/latex/etex-pkg
+@dirrmtry share/texmf-dist/doc/latex/etex-pkg

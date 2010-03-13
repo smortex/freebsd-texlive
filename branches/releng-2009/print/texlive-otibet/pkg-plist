@@ -1,0 +1,60 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/otibet/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/otibet/allbasic-mule.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/otibet/allbasic.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/otibet/allbasic.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/otibet/otibet-mule.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/otibet/testtib.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/otibet/tiblatex.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/otibet/tiblatex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/otibet/unidoc.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/otibet/unidoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/otibet/yugpacan.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/otibet/yugpacan.tex
+share/texmf-dist/fonts/ofm/public/otibet/otibetan.ofm
+share/texmf-dist/fonts/ovf/public/otibet/otibetan.ovf
+share/texmf-dist/fonts/ovp/public/otibet/otibetan.ovp
+share/texmf-dist/fonts/source/public/otibet/bzrsetup.mf
+share/texmf-dist/fonts/source/public/otibet/tibetan.mf
+share/texmf-dist/fonts/tfm/public/otibet/tibetan.tfm
+share/texmf-dist/omega/ocp/otibet/tibadjusttsheg.ocp
+share/texmf-dist/omega/ocp/otibet/tibinunicode.ocp
+share/texmf-dist/omega/ocp/otibet/tibinwylie.ocp
+share/texmf-dist/omega/ocp/otibet/tibout.ocp
+share/texmf-dist/omega/ocp/otibet/tibspecial.ocp
+share/texmf-dist/omega/ocp/otibet/tibuniuni.ocp
+share/texmf-dist/omega/ocp/otibet/tibvowel.ocp
+share/texmf-dist/omega/otp/otibet/tibadjusttsheg.otp
+share/texmf-dist/omega/otp/otibet/tibetan-mule2uni-old.otp
+share/texmf-dist/omega/otp/otibet/tibetan-mule2uni.otp
+share/texmf-dist/omega/otp/otibet/tibinunicode.otp
+share/texmf-dist/omega/otp/otibet/tibinwylie.otp
+share/texmf-dist/omega/otp/otibet/tibout.otp
+share/texmf-dist/omega/otp/otibet/tibshow.otp
+share/texmf-dist/omega/otp/otibet/tibspecial.otp
+share/texmf-dist/omega/otp/otibet/tibuniuni.otp
+share/texmf-dist/omega/otp/otibet/tibvowel.otp
+%%PORTSRC%%share/texmf-dist/source/latex/otibet/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/otibet/allbasic.odvi
+%%PORTSRC%%share/texmf-dist/source/latex/otibet/convnum.scm
+%%PORTSRC%%share/texmf-dist/source/latex/otibet/generate-otp.el
+%%PORTSRC%%share/texmf-dist/source/latex/otibet/oct2otp.c
+%%PORTSRC%%share/texmf-dist/source/latex/otibet/pl2ovp.scm
+%%PORTSRC%%share/texmf-dist/source/latex/otibet/tibetan.pl
+%%PORTSRC%%share/texmf-dist/source/latex/otibet/tiblatex.odvi
+%%PORTSRC%%share/texmf-dist/source/latex/otibet/tibovp.scm
+%%PORTSRC%%share/texmf-dist/source/latex/otibet/unidoc.odvi
+%%PORTSRC%%share/texmf-dist/source/latex/otibet/yugpacan.odvi
+share/texmf-dist/tex/latex/otibet/ot1tib.fd
+share/texmf-dist/tex/latex/otibet/otibet.sty
+share/texmf-dist/tex/latex/otibet/otibet.tex
+share/texmf-dist/tex/latex/otibet/t1tib.fd
+@dirrmtry share/texmf-dist/tex/latex/otibet
+@dirrmtry share/texmf-dist/source/latex/otibet
+@dirrmtry share/texmf-dist/omega/otp/otibet
+@dirrmtry share/texmf-dist/omega/ocp/otibet
+@dirrmtry share/texmf-dist/fonts/tfm/public/otibet
+@dirrmtry share/texmf-dist/fonts/source/public/otibet
+@dirrmtry share/texmf-dist/fonts/ovp/public/otibet
+@dirrmtry share/texmf-dist/fonts/ovf/public/otibet
+@dirrmtry share/texmf-dist/fonts/ofm/public/otibet
+@dirrmtry share/texmf-dist/doc/latex/otibet

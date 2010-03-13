@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-math/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-math/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-math/pst-math-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-math/pst-math-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-math/pst-math-doc.tex
+share/texmf-dist/dvips/pst-math/pst-math.pro
+%%PORTSRC%%share/texmf-dist/source/generic/pst-math/Makefile
+share/texmf-dist/tex/generic/pst-math/pst-math.tex
+share/texmf-dist/tex/latex/pst-math/pst-math.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-math
+@dirrmtry share/texmf-dist/tex/generic/pst-math
+@dirrmtry share/texmf-dist/source/generic/pst-math
+@dirrmtry share/texmf-dist/dvips/pst-math
+@dirrmtry share/texmf-dist/doc/generic/pst-math

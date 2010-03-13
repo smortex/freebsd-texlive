@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/qstest/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/qstest/makematch-qs.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/qstest/makematch.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/qstest/qstest-qs.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/qstest/qstest.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/qstest/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/qstest/makematch.drv
+%%PORTSRC%%share/texmf-dist/source/latex/qstest/makematch.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/qstest/qstest.drv
+%%PORTSRC%%share/texmf-dist/source/latex/qstest/qstest.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/qstest/qstest.ins
+share/texmf-dist/tex/latex/qstest/makematch.sty
+share/texmf-dist/tex/latex/qstest/qstest.sty
+@dirrmtry share/texmf-dist/tex/latex/qstest
+@dirrmtry share/texmf-dist/source/latex/qstest
+@dirrmtry share/texmf-dist/doc/latex/qstest

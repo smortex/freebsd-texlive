@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-timing/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-timing/tikz-timing.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/tikz-timing/tikz-timing.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tikz-timing/tikz-timing.ins
+share/texmf-dist/tex/latex/tikz-timing/tikz-timing-advnodes.sty
+share/texmf-dist/tex/latex/tikz-timing/tikz-timing-arrows.sty
+share/texmf-dist/tex/latex/tikz-timing/tikz-timing-beamer.sty
+share/texmf-dist/tex/latex/tikz-timing/tikz-timing-clockarrows.sty
+share/texmf-dist/tex/latex/tikz-timing/tikz-timing-columntype.sty
+share/texmf-dist/tex/latex/tikz-timing/tikz-timing-counters.sty
+share/texmf-dist/tex/latex/tikz-timing/tikz-timing-either.sty
+share/texmf-dist/tex/latex/tikz-timing/tikz-timing-ifsym.sty
+share/texmf-dist/tex/latex/tikz-timing/tikz-timing-interval.sty
+share/texmf-dist/tex/latex/tikz-timing/tikz-timing-nicetabs.sty
+share/texmf-dist/tex/latex/tikz-timing/tikz-timing-overlays.sty
+share/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty
+@dirrmtry share/texmf-dist/tex/latex/tikz-timing
+@dirrmtry share/texmf-dist/source/latex/tikz-timing
+@dirrmtry share/texmf-dist/doc/latex/tikz-timing

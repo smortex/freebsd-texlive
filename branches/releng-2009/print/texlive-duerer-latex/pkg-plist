@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/duerer-latex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/duerer-latex/duerer.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/duerer-latex/duerer.tex
+share/texmf-dist/tex/latex/duerer-latex/duerer.sty
+share/texmf-dist/tex/latex/duerer-latex/ot1cdin.fd
+share/texmf-dist/tex/latex/duerer-latex/ot1cdr.fd
+share/texmf-dist/tex/latex/duerer-latex/ot1cdss.fd
+share/texmf-dist/tex/latex/duerer-latex/ot1cdtt.fd
+@dirrmtry share/texmf-dist/tex/latex/duerer-latex
+@dirrmtry share/texmf-dist/doc/latex/duerer-latex

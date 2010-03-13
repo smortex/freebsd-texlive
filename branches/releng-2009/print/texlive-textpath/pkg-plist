@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/metapost/textpath/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/metapost/textpath/README
+%%PORTDOCS%%share/texmf-dist/doc/metapost/textpath/textpath.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/textpath/textpath.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/textpath/textpathfigs.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/textpath/textpathfigs.tex
+share/texmf-dist/metapost/textpath/textpath.mp
+share/texmf-dist/tex/latex/textpath/textpathmp.sty
+@dirrmtry share/texmf-dist/tex/latex/textpath
+@dirrmtry share/texmf-dist/metapost/textpath
+@dirrmtry share/texmf-dist/doc/metapost/textpath

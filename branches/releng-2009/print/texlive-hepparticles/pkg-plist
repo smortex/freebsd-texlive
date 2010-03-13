@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepparticles/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepparticles/hepparticles.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepparticles/hepparticles.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepparticles/testhepparticles.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepparticles/testhepparticles.tex
+share/texmf-dist/tex/latex/hepparticles/hepparticles.sty
+@dirrmtry share/texmf-dist/tex/latex/hepparticles
+@dirrmtry share/texmf-dist/doc/latex/hepparticles

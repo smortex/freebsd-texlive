@@ -1,0 +1,37 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/HA-prosper/HA-prosper.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/HA-prosper/HAPBigtest.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/HA-prosper/HAPDualslide.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/HA-prosper/HAPIntroduction.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/HA-prosper/README
+%%PORTSRC%%share/texmf-dist/source/latex/HA-prosper/HA-prosper.def
+%%PORTSRC%%share/texmf-dist/source/latex/HA-prosper/HA-prosper.dtx
+share/texmf-dist/tex/latex/HA-prosper/HA-prosper.cfg
+share/texmf-dist/tex/latex/HA-prosper/HA-prosper.sty
+share/texmf-dist/tex/latex/HA-prosper/Styles/Aggie/AMLogo.eps
+share/texmf-dist/tex/latex/HA-prosper/Styles/Aggie/HAPAggie.sty
+share/texmf-dist/tex/latex/HA-prosper/Styles/Aggie/files.txt
+share/texmf-dist/tex/latex/HA-prosper/Styles/Capsules/HAPcapsules.sty
+share/texmf-dist/tex/latex/HA-prosper/Styles/Ciment/HAPciment.sty
+share/texmf-dist/tex/latex/HA-prosper/Styles/Fyma/HAPFyma.sty
+share/texmf-dist/tex/latex/HA-prosper/Styles/HA/HAPHA.sty
+share/texmf-dist/tex/latex/HA-prosper/Styles/HA/flower.ps
+share/texmf-dist/tex/latex/HA-prosper/Styles/Lakar/HAPLakar.sty
+share/texmf-dist/tex/latex/HA-prosper/Styles/Simple/HAPsimple.sty
+share/texmf-dist/tex/latex/HA-prosper/Styles/TCS/HAPTCS.sty
+share/texmf-dist/tex/latex/HA-prosper/Styles/TCS/HAPTCSTealBlue.sty
+share/texmf-dist/tex/latex/HA-prosper/Styles/TCS/HAPTCSgrad.sty
+share/texmf-dist/tex/latex/HA-prosper/Styles/TCS/TCSgradlogo.ps
+share/texmf-dist/tex/latex/HA-prosper/Styles/TCS/TCSlogo.ps
+share/texmf-dist/tex/latex/HA-prosper/Styles/Tycja/HAPTycja.sty
+@dirrmtry share/texmf-dist/tex/latex/HA-prosper/Styles/Tycja
+@dirrmtry share/texmf-dist/tex/latex/HA-prosper/Styles/TCS
+@dirrmtry share/texmf-dist/tex/latex/HA-prosper/Styles/Simple
+@dirrmtry share/texmf-dist/tex/latex/HA-prosper/Styles/Lakar
+@dirrmtry share/texmf-dist/tex/latex/HA-prosper/Styles/HA
+@dirrmtry share/texmf-dist/tex/latex/HA-prosper/Styles/Fyma
+@dirrmtry share/texmf-dist/tex/latex/HA-prosper/Styles/Ciment
+@dirrmtry share/texmf-dist/tex/latex/HA-prosper/Styles/Capsules
+@dirrmtry share/texmf-dist/tex/latex/HA-prosper/Styles/Aggie
+@dirrmtry share/texmf-dist/tex/latex/HA-prosper
+@dirrmtry share/texmf-dist/source/latex/HA-prosper
+@dirrmtry share/texmf-dist/doc/latex/HA-prosper

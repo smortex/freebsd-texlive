@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-qtree/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-qtree/test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-qtree/test.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-qtree/tikz-qtree-manual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-qtree/tikz-qtree-manual.tex
+share/texmf-dist/tex/latex/tikz-qtree/pgfsubpic.sty
+share/texmf-dist/tex/latex/tikz-qtree/pgfsubpic.tex
+share/texmf-dist/tex/latex/tikz-qtree/pgftree.sty
+share/texmf-dist/tex/latex/tikz-qtree/pgftree.tex
+share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree-compat.sty
+share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty
+share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.tex
+@dirrmtry share/texmf-dist/tex/latex/tikz-qtree
+@dirrmtry share/texmf-dist/doc/latex/tikz-qtree

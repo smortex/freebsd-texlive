@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/catechis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/catechis/catechis.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/catechis/test.tex
+%%PORTSRC%%share/texmf-dist/source/latex/catechis/catechis.ins
+share/texmf-dist/tex/latex/catechis/catechis.sty
+@dirrmtry share/texmf-dist/tex/latex/catechis
+@dirrmtry share/texmf-dist/source/latex/catechis
+@dirrmtry share/texmf-dist/doc/latex/catechis

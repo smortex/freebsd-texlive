@@ -1,0 +1,37 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ms/count1to.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ms/everysel.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ms/everyshi.asc
+%%PORTDOCS%%share/texmf-dist/doc/latex/ms/everyshi.bug
+%%PORTDOCS%%share/texmf-dist/doc/latex/ms/everyshi.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ms/multitoc.asc
+%%PORTDOCS%%share/texmf-dist/doc/latex/ms/multitoc.bug
+%%PORTDOCS%%share/texmf-dist/doc/latex/ms/multitoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ms/prelim2e.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ms/ragged2e.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/ms/count1to.drv
+%%PORTSRC%%share/texmf-dist/source/latex/ms/count1to.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ms/count1to.ins
+%%PORTSRC%%share/texmf-dist/source/latex/ms/everysel.drv
+%%PORTSRC%%share/texmf-dist/source/latex/ms/everysel.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ms/everysel.ins
+%%PORTSRC%%share/texmf-dist/source/latex/ms/everyshi.drv
+%%PORTSRC%%share/texmf-dist/source/latex/ms/everyshi.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ms/everyshi.ins
+%%PORTSRC%%share/texmf-dist/source/latex/ms/multitoc.drv
+%%PORTSRC%%share/texmf-dist/source/latex/ms/multitoc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ms/multitoc.ins
+%%PORTSRC%%share/texmf-dist/source/latex/ms/prelim2e.drv
+%%PORTSRC%%share/texmf-dist/source/latex/ms/prelim2e.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ms/prelim2e.ins
+%%PORTSRC%%share/texmf-dist/source/latex/ms/ragged2e.drv
+%%PORTSRC%%share/texmf-dist/source/latex/ms/ragged2e.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ms/ragged2e.ins
+share/texmf-dist/tex/latex/ms/count1to.sty
+share/texmf-dist/tex/latex/ms/everysel.sty
+share/texmf-dist/tex/latex/ms/everyshi.sty
+share/texmf-dist/tex/latex/ms/multitoc.sty
+share/texmf-dist/tex/latex/ms/prelim2e.sty
+share/texmf-dist/tex/latex/ms/ragged2e.sty
+@dirrmtry share/texmf-dist/tex/latex/ms
+@dirrmtry share/texmf-dist/source/latex/ms
+@dirrmtry share/texmf-dist/doc/latex/ms

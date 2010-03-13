@@ -1,0 +1,4 @@
+A convenient interface for typesetting bidirectional texts with
+XeLaTeX. The package includes adaptations for use with many
+other commonly-used packages. (Also works with pdfLaTeX, though
+in this case its usefulness is doubtful).

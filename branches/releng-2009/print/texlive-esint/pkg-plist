@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/esint/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/esint/esint.pdf
+share/texmf-dist/fonts/source/public/esint/bigint.mf
+share/texmf-dist/fonts/source/public/esint/esint10.mf
+share/texmf-dist/fonts/source/public/esint/mathint.mf
+share/texmf-dist/fonts/tfm/public/esint/esint10.tfm
+%%PORTSRC%%share/texmf-dist/source/latex/esint/esint.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/esint/esint.ins
+share/texmf-dist/tex/latex/esint/esint.sty
+share/texmf-dist/tex/latex/esint/uesint.fd
+@dirrmtry share/texmf-dist/tex/latex/esint
+@dirrmtry share/texmf-dist/source/latex/esint
+@dirrmtry share/texmf-dist/fonts/tfm/public/esint
+@dirrmtry share/texmf-dist/fonts/source/public/esint
+@dirrmtry share/texmf-dist/doc/latex/esint

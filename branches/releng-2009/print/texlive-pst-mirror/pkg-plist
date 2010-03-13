@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-mirror/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-mirror/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-mirror/pst-mirror-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-mirror/pst-mirror-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-mirror/pst-mirror-doc.tex
+share/texmf-dist/dvips/pst-mirror/pst-mirror.pro
+%%PORTSRC%%share/texmf-dist/source/generic/pst-mirror/Makefile
+share/texmf-dist/tex/generic/pst-mirror/pst-mirror.tex
+share/texmf-dist/tex/latex/pst-mirror/pst-mirror.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-mirror
+@dirrmtry share/texmf-dist/tex/generic/pst-mirror
+@dirrmtry share/texmf-dist/source/generic/pst-mirror
+@dirrmtry share/texmf-dist/dvips/pst-mirror
+@dirrmtry share/texmf-dist/doc/generic/pst-mirror

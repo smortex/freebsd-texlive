@@ -1,0 +1,9 @@
+share/texmf-dist/bibtex/bib/acmtrans/acmtr.bib
+share/texmf-dist/bibtex/bst/acmtrans/acmtrans.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/acmtrans/acmtr2e.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/acmtrans/acmtr2e.tex
+share/texmf-dist/tex/latex/acmtrans/acmtrans2e.cls
+@dirrmtry share/texmf-dist/tex/latex/acmtrans
+@dirrmtry share/texmf-dist/doc/latex/acmtrans
+@dirrmtry share/texmf-dist/bibtex/bst/acmtrans
+@dirrmtry share/texmf-dist/bibtex/bib/acmtrans

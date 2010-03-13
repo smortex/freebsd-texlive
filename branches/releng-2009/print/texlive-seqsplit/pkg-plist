@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/seqsplit/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/seqsplit/seqsplit.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/seqsplit/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/seqsplit/seqsplit.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/seqsplit/seqsplit.ins
+share/texmf-dist/tex/latex/seqsplit/seqsplit.sty
+@dirrmtry share/texmf-dist/tex/latex/seqsplit
+@dirrmtry share/texmf-dist/source/latex/seqsplit
+@dirrmtry share/texmf-dist/doc/latex/seqsplit

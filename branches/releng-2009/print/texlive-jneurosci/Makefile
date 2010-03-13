@@ -1,0 +1,17 @@
+# New ports collection makefile for:	texlive-jneurosci
+# Date created:		13/03/2010 04:23:37
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	jneurosci
+CATEGORIES=	print
+
+MAINTAINER=	romain@blogreen.org
+COMMENT=	BibTeX style for the Journal of Neuroscience.
+
+NOPORTSRC=	yes
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

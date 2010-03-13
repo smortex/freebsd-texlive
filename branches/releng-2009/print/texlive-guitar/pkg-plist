@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/guitar/guitar.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/guitar/guitar.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/guitar/guitar.txt
+%%PORTSRC%%share/texmf-dist/source/latex/guitar/guitar.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/guitar/guitar.ins
+share/texmf-dist/tex/latex/guitar/guitar.sty
+@dirrmtry share/texmf-dist/tex/latex/guitar
+@dirrmtry share/texmf-dist/source/latex/guitar
+@dirrmtry share/texmf-dist/doc/latex/guitar

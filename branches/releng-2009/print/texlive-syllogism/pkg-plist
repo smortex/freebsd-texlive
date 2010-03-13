@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/syllogism/Examples.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/syllogism/Examples.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/syllogism/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/syllogism/syllogism.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/syllogism/syllogism.tex
+share/texmf-dist/tex/latex/syllogism/syllogism.sty
+@dirrmtry share/texmf-dist/tex/latex/syllogism
+@dirrmtry share/texmf-dist/doc/latex/syllogism

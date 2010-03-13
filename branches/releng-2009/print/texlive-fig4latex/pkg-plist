@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/fig4latex/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/support/fig4latex/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/support/fig4latex/README
+%%PORTDOCS%%share/texmf-dist/doc/support/fig4latex/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/fig4latex/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/fig4latex/figs/div_alg_flowchart.fig
+%%PORTDOCS%%share/texmf-dist/doc/support/fig4latex/figs/if-then_flowchart.fig
+@dirrmtry share/texmf-dist/doc/support/fig4latex/figs
+@dirrmtry share/texmf-dist/doc/support/fig4latex

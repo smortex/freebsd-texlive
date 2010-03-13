@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/skeyval/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/skeyval/skeyval-bugreport.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/skeyval/skeyval-guide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/skeyval/skeyval-guide.tex
+share/texmf-dist/tex/latex/skeyval/skeyval.sty
+@dirrmtry share/texmf-dist/tex/latex/skeyval
+@dirrmtry share/texmf-dist/doc/latex/skeyval

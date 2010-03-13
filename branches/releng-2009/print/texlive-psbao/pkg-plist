@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/psbao/Changes
+%%PORTDOCS%%share/texmf-dist/doc/latex/psbao/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/psbao/psbaomanual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/psbao/psbaomanual.tex
+share/texmf-dist/tex/latex/psbao/psbao.sty
+@dirrmtry share/texmf-dist/tex/latex/psbao
+@dirrmtry share/texmf-dist/doc/latex/psbao

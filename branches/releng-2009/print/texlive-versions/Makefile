@@ -1,0 +1,18 @@
+# New ports collection makefile for:	texlive-versions
+# Date created:		13/03/2010 04:51:15
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	versions
+CATEGORIES=	print
+
+MAINTAINER=	romain@blogreen.org
+COMMENT=	Optionally omit pieces of text.
+
+NOPORTDOCS=	yes
+NOPORTSRC=	yes
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

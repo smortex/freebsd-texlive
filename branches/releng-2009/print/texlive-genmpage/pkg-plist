@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/genmpage/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/genmpage/genmpage.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/genmpage/genmpage.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/genmpage/genmpage.ins
+share/texmf-dist/tex/latex/genmpage/genmpage.sty
+@dirrmtry share/texmf-dist/tex/latex/genmpage
+@dirrmtry share/texmf-dist/source/latex/genmpage
+@dirrmtry share/texmf-dist/doc/latex/genmpage

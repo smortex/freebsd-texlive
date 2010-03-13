@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/midnight/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/midnight/border.doc
+%%PORTDOCS%%share/texmf-dist/doc/generic/midnight/dolines.doc
+%%PORTDOCS%%share/texmf-dist/doc/generic/midnight/gloss.doc
+%%PORTDOCS%%share/texmf-dist/doc/generic/midnight/labels.doc
+%%PORTDOCS%%share/texmf-dist/doc/generic/midnight/loop.doc
+%%PORTDOCS%%share/texmf-dist/doc/generic/midnight/midnight.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/midnight/quire.doc
+%%PORTDOCS%%share/texmf-dist/doc/generic/midnight/styledef.doc
+share/texmf-dist/tex/generic/midnight/border.tex
+share/texmf-dist/tex/generic/midnight/dolines.tex
+share/texmf-dist/tex/generic/midnight/gloss.tex
+share/texmf-dist/tex/generic/midnight/labels.tex
+share/texmf-dist/tex/generic/midnight/loop.tex
+share/texmf-dist/tex/generic/midnight/quire.tex
+share/texmf-dist/tex/generic/midnight/styledef.tex
+@dirrmtry share/texmf-dist/tex/generic/midnight
+@dirrmtry share/texmf-dist/doc/generic/midnight

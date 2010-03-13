@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-fr3d/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-fr3d/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-fr3d/pst-fr3d.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/pst-fr3d/pst-fr3d.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/pst-fr3d/pst-fr3d.ins
+share/texmf-dist/tex/generic/pst-fr3d/pst-fr3d.tex
+share/texmf-dist/tex/latex/pst-fr3d/pst-fr3d.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-fr3d
+@dirrmtry share/texmf-dist/tex/generic/pst-fr3d
+@dirrmtry share/texmf-dist/source/generic/pst-fr3d
+@dirrmtry share/texmf-dist/doc/generic/pst-fr3d

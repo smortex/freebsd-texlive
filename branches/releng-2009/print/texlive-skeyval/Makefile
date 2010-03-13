@@ -1,0 +1,17 @@
+# New ports collection makefile for:	texlive-skeyval
+# Date created:		13/03/2010 04:49:03
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	skeyval
+CATEGORIES=	print
+
+MAINTAINER=	romain@blogreen.org
+COMMENT=	Extensions to xkeyval
+
+NOPORTSRC=	yes
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

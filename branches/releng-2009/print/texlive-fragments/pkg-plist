@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fragments/README
+share/texmf-dist/tex/latex/fragments/checklab.tex
+share/texmf-dist/tex/latex/fragments/overrightarrow.sty
+share/texmf-dist/tex/latex/fragments/removefr.tex
+share/texmf-dist/tex/latex/fragments/subscript.sty
+@dirrmtry share/texmf-dist/tex/latex/fragments
+@dirrmtry share/texmf-dist/doc/latex/fragments

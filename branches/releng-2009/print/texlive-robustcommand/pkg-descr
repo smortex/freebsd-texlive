@@ -1,0 +1,3 @@
+The package merely provides a variation of
+\DeclareRobustCommand, which checks for the existence of a
+command before declaring it robust.

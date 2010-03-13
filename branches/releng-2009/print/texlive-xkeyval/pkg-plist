@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/xkeyval/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/xkeyval/xkeyval.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/xkeyval/xkeyval.dtx
+share/texmf-dist/tex/generic/xkeyval/keyval.tex
+share/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+share/texmf-dist/tex/generic/xkeyval/xkvtxhdr.tex
+share/texmf-dist/tex/latex/xkeyval/pst-xkey.sty
+share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+share/texmf-dist/tex/latex/xkeyval/xkvltxp.sty
+share/texmf-dist/tex/latex/xkeyval/xkvview.sty
+@dirrmtry share/texmf-dist/tex/latex/xkeyval
+@dirrmtry share/texmf-dist/tex/generic/xkeyval
+@dirrmtry share/texmf-dist/source/latex/xkeyval
+@dirrmtry share/texmf-dist/doc/latex/xkeyval

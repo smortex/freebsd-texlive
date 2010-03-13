@@ -1,0 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/plain/figflow/README.figflow
+share/texmf-dist/tex/plain/figflow/figflow.tex
+@dirrmtry share/texmf-dist/tex/plain/figflow
+@dirrmtry share/texmf-dist/doc/plain/figflow

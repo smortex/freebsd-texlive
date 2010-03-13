@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/plain/fontch/README
+share/texmf-dist/tex/plain/fontch/DSmac.tex
+share/texmf-dist/tex/plain/fontch/TS1mac.tex
+share/texmf-dist/tex/plain/fontch/bsymbols.tex
+share/texmf-dist/tex/plain/fontch/fontch.tex
+@dirrmtry share/texmf-dist/tex/plain/fontch
+@dirrmtry share/texmf-dist/doc/plain/fontch

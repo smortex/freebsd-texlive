@@ -1,0 +1,5 @@
+Allows you to write "\Level 2 {Some heading}" instead of the
+usual \section stuff; the definitions of the levels can then
+easily be changed. There is a mechanism for shifting all
+levels. This makes it easy to bundle existing articles into a
+compilation.

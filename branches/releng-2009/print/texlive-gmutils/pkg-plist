@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/gmutils/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/gmutils/gmutils.pdf
+share/texmf-dist/tex/latex/gmutils/gmutils.sty
+@dirrmtry share/texmf-dist/tex/latex/gmutils
+@dirrmtry share/texmf-dist/doc/latex/gmutils

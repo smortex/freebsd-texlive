@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/ifxetex/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/ifxetex/ifxetex.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/ifxetex/ifxetex.ins
+%%PORTSRC%%share/texmf-dist/source/generic/ifxetex/ifxetex.tex
+share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+@dirrmtry share/texmf-dist/tex/generic/ifxetex
+@dirrmtry share/texmf-dist/source/generic/ifxetex
+@dirrmtry share/texmf-dist/doc/generic/ifxetex

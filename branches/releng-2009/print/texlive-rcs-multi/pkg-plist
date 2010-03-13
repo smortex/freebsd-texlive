@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/rcs-multi/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/rcs-multi/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rcs-multi/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/rcs-multi/rcs-multi.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/rcs-multi/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/rcs-multi/rcs-multi.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/rcs-multi/rcs-multi.ins
+share/texmf-dist/tex/latex/rcs-multi/rcs-multi.sty
+@dirrmtry share/texmf-dist/tex/latex/rcs-multi
+@dirrmtry share/texmf-dist/source/latex/rcs-multi
+@dirrmtry share/texmf-dist/doc/latex/rcs-multi

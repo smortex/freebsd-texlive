@@ -1,0 +1,6 @@
+share/texmf-dist/bibtex/csf/base/README.TEXLIVE
+share/texmf-dist/bibtex/csf/polish-csf/88592pl.csf
+share/texmf-dist/bibtex/csf/polish-csf/cp1250pl.csf
+share/texmf-dist/bibtex/csf/polish-csf/cp852pl.csf
+share/texmf-dist/bibtex/csf/polish-csf/iso8859-7.csf
+@dirrmtry share/texmf-dist/bibtex/csf/polish-csf

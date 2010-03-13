@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/metapost/piechartmp/INSTALL
+%%PORTDOCS%%share/texmf-dist/doc/metapost/piechartmp/LEGAL
+%%PORTDOCS%%share/texmf-dist/doc/metapost/piechartmp/README
+%%PORTDOCS%%share/texmf-dist/doc/metapost/piechartmp/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/metapost/piechartmp/examples/wec-mfun.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/piechartmp/examples/wec-mfun.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/piechartmp/examples/wec.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/piechartmp/examples/wec.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/piechartmp/examples/worldmap.jpg
+share/texmf-dist/metapost/piechartmp/piechartmp.mp
+@dirrmtry share/texmf-dist/metapost/piechartmp
+@dirrmtry share/texmf-dist/doc/metapost/piechartmp/examples
+@dirrmtry share/texmf-dist/doc/metapost/piechartmp

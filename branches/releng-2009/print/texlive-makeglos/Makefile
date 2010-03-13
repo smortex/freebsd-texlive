@@ -1,0 +1,17 @@
+# New ports collection makefile for:	texlive-makeglos
+# Date created:		13/03/2010 04:44:40
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	makeglos
+CATEGORIES=	print
+
+MAINTAINER=	romain@blogreen.org
+COMMENT=	Include a glossary into a document.
+
+NOPORTSRC=	yes
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/greektex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/greektex/gehyphw.gr
+%%PORTDOCS%%share/texmf-dist/doc/latex/greektex/greektexdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/greektex/greektexdoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/greektex/ywcl.zip
+share/texmf-dist/tex/latex/greektex/greektex.sty
+@dirrmtry share/texmf-dist/tex/latex/greektex
+@dirrmtry share/texmf-dist/doc/latex/greektex

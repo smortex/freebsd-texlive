@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/varindex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/varindex/varindex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/varindex/varindex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/varindex/varindex.txt
+%%PORTSRC%%share/texmf-dist/source/latex/varindex/varindex.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/varindex/varindex.ins
+share/texmf-dist/tex/latex/varindex/varindex.sty
+@dirrmtry share/texmf-dist/tex/latex/varindex
+@dirrmtry share/texmf-dist/source/latex/varindex
+@dirrmtry share/texmf-dist/doc/latex/varindex

@@ -1,0 +1,4 @@
+Mapcodes is an early package covering the same ground as the
+standard LaTeX inputenc. It provides for input in ISO Latin-1
+and -2, IBM codepages 850 and 852, and HP, Macintosh and Atari
+encodings.

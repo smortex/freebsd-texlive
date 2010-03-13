@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/INSTALL
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/example_latex_dvipdfmx.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/example_latex_dvipdfmx.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/example_latex_dvips_ps2pdf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/example_latex_dvips_ps2pdf.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/example_xelatex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/example_xelatex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/manifest.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/pdfcomment.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/pdfcomment.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/pdfcomment_de.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/pdfcomment_de.tex
+share/texmf-dist/tex/latex/pdfcomment/pdfcomment.sty
+@dirrmtry share/texmf-dist/tex/latex/pdfcomment
+@dirrmtry share/texmf-dist/doc/latex/pdfcomment

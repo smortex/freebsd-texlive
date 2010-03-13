@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/typogrid/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/typogrid/testtypogrid.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/typogrid/typogrid.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/typogrid/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/typogrid/typogrid.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/typogrid/typogrid.ins
+share/texmf-dist/tex/latex/typogrid/typogrid.sty
+@dirrmtry share/texmf-dist/tex/latex/typogrid
+@dirrmtry share/texmf-dist/source/latex/typogrid
+@dirrmtry share/texmf-dist/doc/latex/typogrid

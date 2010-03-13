@@ -1,0 +1,5 @@
+A LaTeX package for typesetting of guitar chord diagrams,
+including options for chord names, finger numbers and
+typesetting above lyrics. The bundle also includes a TCL script
+(chordbox.tcl) that provides a graphical application which
+creates LaTeX files that use gchords.sty.

@@ -1,0 +1,6 @@
+Itrans is a pre-processor: it converts English-encoded text
+into various Indian Language scripts for printing or for
+display. The input text to itrans is in a transliterated form:
+each letter in an Indian Script is assigned an English
+equivalent, and the English letters are used to represent what
+will eventually print out in the Indian Language Script.

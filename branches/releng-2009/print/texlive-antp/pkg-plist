@@ -1,0 +1,35 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/antp/README.ENG
+%%PORTDOCS%%share/texmf-dist/doc/fonts/antp/README.POL
+%%PORTDOCS%%share/texmf-dist/doc/fonts/antp/testot4.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/antp/testqx.tex
+share/texmf-dist/dvips/antp/antp.cfg
+share/texmf-dist/dvips/antp/config.antp
+share/texmf-dist/fonts/afm/public/antp/antpb.afm
+share/texmf-dist/fonts/afm/public/antp/antpbi.afm
+share/texmf-dist/fonts/afm/public/antp/antpr.afm
+share/texmf-dist/fonts/afm/public/antp/antpri.afm
+share/texmf-dist/fonts/enc/dvips/antp/antp.enc
+share/texmf-dist/fonts/map/dvips/antp/antp.map
+share/texmf-dist/fonts/tfm/public/antp/antpb.tfm
+share/texmf-dist/fonts/tfm/public/antp/antpbi.tfm
+share/texmf-dist/fonts/tfm/public/antp/antpr.tfm
+share/texmf-dist/fonts/tfm/public/antp/antpri.tfm
+share/texmf-dist/fonts/type1/public/antp/antpb.pfb
+share/texmf-dist/fonts/type1/public/antp/antpb.pfm
+share/texmf-dist/fonts/type1/public/antp/antpbi.pfb
+share/texmf-dist/fonts/type1/public/antp/antpbi.pfm
+share/texmf-dist/fonts/type1/public/antp/antpr.pfb
+share/texmf-dist/fonts/type1/public/antp/antpr.pfm
+share/texmf-dist/fonts/type1/public/antp/antpri.pfb
+share/texmf-dist/fonts/type1/public/antp/antpri.pfm
+share/texmf-dist/tex/latex/antp/antpolt.sty
+share/texmf-dist/tex/latex/antp/ot4antp.fd
+share/texmf-dist/tex/latex/antp/qxantp.fd
+@dirrmtry share/texmf-dist/tex/latex/antp
+@dirrmtry share/texmf-dist/fonts/type1/public/antp
+@dirrmtry share/texmf-dist/fonts/tfm/public/antp
+@dirrmtry share/texmf-dist/fonts/map/dvips/antp
+@dirrmtry share/texmf-dist/fonts/enc/dvips/antp
+@dirrmtry share/texmf-dist/fonts/afm/public/antp
+@dirrmtry share/texmf-dist/dvips/antp
+@dirrmtry share/texmf-dist/doc/fonts/antp

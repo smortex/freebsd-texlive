@@ -1,0 +1,32 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfscreen/logo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfscreen/manual-print.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfscreen/manual-screen.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfscreen/manual.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfscreen/nopanel.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfscreen/pdfscreen.cfg.specimen
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfscreen/portrait.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfscreen/print.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfscreen/slide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfscreen/slide.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfscreen/square.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfscreen/tex.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfscreen/widepanel.pdf
+share/texmf-dist/tex/latex/pdfscreen/but.pdf
+share/texmf-dist/tex/latex/pdfscreen/button.pdf
+share/texmf-dist/tex/latex/pdfscreen/left.pdf
+share/texmf-dist/tex/latex/pdfscreen/overlay.pdf
+share/texmf-dist/tex/latex/pdfscreen/overlay0.pdf
+share/texmf-dist/tex/latex/pdfscreen/overlay1.pdf
+share/texmf-dist/tex/latex/pdfscreen/overlay10.pdf
+share/texmf-dist/tex/latex/pdfscreen/overlay2.pdf
+share/texmf-dist/tex/latex/pdfscreen/overlay3.pdf
+share/texmf-dist/tex/latex/pdfscreen/overlay4.pdf
+share/texmf-dist/tex/latex/pdfscreen/overlay5.pdf
+share/texmf-dist/tex/latex/pdfscreen/overlay6.pdf
+share/texmf-dist/tex/latex/pdfscreen/overlay7.pdf
+share/texmf-dist/tex/latex/pdfscreen/overlay8.pdf
+share/texmf-dist/tex/latex/pdfscreen/overlay9.pdf
+share/texmf-dist/tex/latex/pdfscreen/pdfscreen.sty
+share/texmf-dist/tex/latex/pdfscreen/right.pdf
+@dirrmtry share/texmf-dist/tex/latex/pdfscreen
+@dirrmtry share/texmf-dist/doc/latex/pdfscreen

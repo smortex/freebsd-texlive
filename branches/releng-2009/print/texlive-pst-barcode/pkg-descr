@@ -1,0 +1,12 @@
+The pst-barcode package allows printing of barcodes. Possible
+barcodes are: EAN-13; EAN-8; UPC-A; UPC-E; EAN-5; EAN-2; ISBN;
+CODE-39; CODE-128; Rationalized Codabar; Interleaved 2 of 5;
+Code 2 of 5; Postnet; Royal Mail; Kix (Customer index) -- Dutch
+Mail; Australian Postal Service; Japan post service; Onecode;
+Symbol; MSI; Plessey; Pharmacode; Reduced Space Symbology
+(RSS); RSS-14; RSS limited; and RSS expanded. The package also
+supports two-dimensional barcode patterns including PDF417, 2d
+Matrix code, Data matrix code, QR code and Aztec code. As a
+pstricks package, pst-barcode requires pstricks. The package
+uses PostScript for calculating the bars. For PDF output use a
+multi-pass mechansism such as pst-pdf.

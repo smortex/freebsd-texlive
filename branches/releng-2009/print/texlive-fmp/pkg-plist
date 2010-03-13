@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fmp/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/fmp/fmp.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/fmp/fmp-doc.hs
+%%PORTSRC%%share/texmf-dist/source/latex/fmp/fmp.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fmp/fmp.ins
+share/texmf-dist/tex/latex/fmp/fmp.sty
+@dirrmtry share/texmf-dist/tex/latex/fmp
+@dirrmtry share/texmf-dist/source/latex/fmp
+@dirrmtry share/texmf-dist/doc/latex/fmp

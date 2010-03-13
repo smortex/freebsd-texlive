@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/betababel/betatest.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/betababel/betatest.tex
+share/texmf-dist/tex/latex/betababel/betababel.sty
+@dirrmtry share/texmf-dist/tex/latex/betababel
+@dirrmtry share/texmf-dist/doc/latex/betababel

@@ -1,0 +1,8 @@
+A collection of simple programs for manipulating Adobe Type 1
+fonts, comprising: - t1ascii: convert PFB (binary) to PFA
+(ascii) fonts; - t1binary: convert PFA to PFB fonts; -
+t1disasm: convert PFA or PFB fonts to human-readable and -
+editable format; - t1asm: reassemble such editable formats to a
+font; - t1unmac: extract font resources from a Macintosh font
+file; and - t1mac: generate a Macintosh font from a Type 1
+font.

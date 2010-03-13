@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/metapost/hatching/htchuse.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/hatching/htchuse_.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/hatching/readme
+share/texmf-dist/metapost/hatching/hatching.mp
+@dirrmtry share/texmf-dist/metapost/hatching
+@dirrmtry share/texmf-dist/doc/metapost/hatching

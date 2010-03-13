@@ -1,0 +1,18 @@
+# New ports collection makefile for:	texlive-varwidth
+# Date created:		13/03/2010 04:51:10
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	varwidth
+CATEGORIES=	print
+
+MAINTAINER=	romain@blogreen.org
+COMMENT=	A variable-width minipage.
+
+NOPORTDOCS=	yes
+NOPORTSRC=	yes
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

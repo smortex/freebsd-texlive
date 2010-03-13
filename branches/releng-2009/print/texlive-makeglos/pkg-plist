@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/makeglos/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/makeglos/makeglos.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/makeglos/makeglos.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/makeglos/makeglos.xdy
+share/texmf-dist/tex/latex/makeglos/makeglos.sty
+@dirrmtry share/texmf-dist/tex/latex/makeglos
+@dirrmtry share/texmf-dist/doc/latex/makeglos

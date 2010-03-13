@@ -1,0 +1,66 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/LICENCE-wsuipa.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/changes.dec93
+%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/changes.jun91
+%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/changes.mar91
+%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/changes.may92
+%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/changes.nov90
+%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/compilefonts
+%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/ipamacs.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/ipaman.ps
+%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/latex209/ipalman.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/latex209/lipaman.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/latex2e/ipaman.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/text1/ipaman.tex
+share/texmf-dist/fonts/source/public/wsuipa/iaccent.mf
+share/texmf-dist/fonts/source/public/wsuipa/igreekl.mf
+share/texmf-dist/fonts/source/public/wsuipa/iparoman.mf
+share/texmf-dist/fonts/source/public/wsuipa/iromanl.mf
+share/texmf-dist/fonts/source/public/wsuipa/iromanp.mf
+share/texmf-dist/fonts/source/public/wsuipa/iromanu.mf
+share/texmf-dist/fonts/source/public/wsuipa/wbxipa10.mf
+share/texmf-dist/fonts/source/public/wsuipa/wbxipa11.mf
+share/texmf-dist/fonts/source/public/wsuipa/wbxipa12.mf
+share/texmf-dist/fonts/source/public/wsuipa/wbxipa17.mf
+share/texmf-dist/fonts/source/public/wsuipa/wbxipa8.mf
+share/texmf-dist/fonts/source/public/wsuipa/wbxipa9.mf
+share/texmf-dist/fonts/source/public/wsuipa/wslipa10.mf
+share/texmf-dist/fonts/source/public/wsuipa/wslipa11.mf
+share/texmf-dist/fonts/source/public/wsuipa/wslipa12.mf
+share/texmf-dist/fonts/source/public/wsuipa/wslipa17.mf
+share/texmf-dist/fonts/source/public/wsuipa/wslipa8.mf
+share/texmf-dist/fonts/source/public/wsuipa/wslipa9.mf
+share/texmf-dist/fonts/source/public/wsuipa/wsuipa10.mf
+share/texmf-dist/fonts/source/public/wsuipa/wsuipa11.mf
+share/texmf-dist/fonts/source/public/wsuipa/wsuipa12.mf
+share/texmf-dist/fonts/source/public/wsuipa/wsuipa17.mf
+share/texmf-dist/fonts/source/public/wsuipa/wsuipa8.mf
+share/texmf-dist/fonts/source/public/wsuipa/wsuipa9.mf
+share/texmf-dist/fonts/tfm/public/wsuipa/wbxipa10.tfm
+share/texmf-dist/fonts/tfm/public/wsuipa/wbxipa11.tfm
+share/texmf-dist/fonts/tfm/public/wsuipa/wbxipa12.tfm
+share/texmf-dist/fonts/tfm/public/wsuipa/wbxipa17.tfm
+share/texmf-dist/fonts/tfm/public/wsuipa/wbxipa8.tfm
+share/texmf-dist/fonts/tfm/public/wsuipa/wbxipa9.tfm
+share/texmf-dist/fonts/tfm/public/wsuipa/wslipa10.tfm
+share/texmf-dist/fonts/tfm/public/wsuipa/wslipa11.tfm
+share/texmf-dist/fonts/tfm/public/wsuipa/wslipa12.tfm
+share/texmf-dist/fonts/tfm/public/wsuipa/wslipa17.tfm
+share/texmf-dist/fonts/tfm/public/wsuipa/wslipa8.tfm
+share/texmf-dist/fonts/tfm/public/wsuipa/wslipa9.tfm
+share/texmf-dist/fonts/tfm/public/wsuipa/wsuipa10.tfm
+share/texmf-dist/fonts/tfm/public/wsuipa/wsuipa11.tfm
+share/texmf-dist/fonts/tfm/public/wsuipa/wsuipa12.tfm
+share/texmf-dist/fonts/tfm/public/wsuipa/wsuipa17.tfm
+share/texmf-dist/fonts/tfm/public/wsuipa/wsuipa8.tfm
+share/texmf-dist/fonts/tfm/public/wsuipa/wsuipa9.tfm
+share/texmf-dist/tex/latex/wsuipa/ipa.sty
+share/texmf-dist/tex/latex/wsuipa/ipalmacs.sty
+share/texmf-dist/tex/latex/wsuipa/uipa.fd
+@dirrmtry share/texmf-dist/tex/latex/wsuipa
+@dirrmtry share/texmf-dist/fonts/tfm/public/wsuipa
+@dirrmtry share/texmf-dist/fonts/source/public/wsuipa
+@dirrmtry share/texmf-dist/doc/generic/wsuipa/text1
+@dirrmtry share/texmf-dist/doc/generic/wsuipa/latex2e
+@dirrmtry share/texmf-dist/doc/generic/wsuipa/latex209
+@dirrmtry share/texmf-dist/doc/generic/wsuipa

@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/preview/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/preview/preview.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/preview/preview.drv
+%%PORTSRC%%share/texmf-dist/source/latex/preview/preview.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/preview/preview.ins
+share/texmf-dist/tex/latex/preview/prauctex.cfg
+share/texmf-dist/tex/latex/preview/prauctex.def
+share/texmf-dist/tex/latex/preview/prcounters.def
+share/texmf-dist/tex/latex/preview/preview.sty
+share/texmf-dist/tex/latex/preview/prfootnotes.def
+share/texmf-dist/tex/latex/preview/prlyx.def
+share/texmf-dist/tex/latex/preview/prshowbox.def
+share/texmf-dist/tex/latex/preview/prshowlabels.def
+share/texmf-dist/tex/latex/preview/prtightpage.def
+share/texmf-dist/tex/latex/preview/prtracingall.def
+@dirrmtry share/texmf-dist/tex/latex/preview
+@dirrmtry share/texmf-dist/source/latex/preview
+@dirrmtry share/texmf-dist/doc/latex/preview

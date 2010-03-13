@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/rlepsf/read.me
+%%PORTDOCS%%share/texmf-dist/doc/latex/rlepsf/rlepsdoc.ps.gz
+share/texmf-dist/tex/latex/rlepsf/rlepsf.tex
+@dirrmtry share/texmf-dist/tex/latex/rlepsf
+@dirrmtry share/texmf-dist/doc/latex/rlepsf

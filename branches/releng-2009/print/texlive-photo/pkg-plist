@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/photo/photo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/photo/photo_test.lop
+%%PORTDOCS%%share/texmf-dist/doc/latex/photo/photo_test.tex
+%%PORTSRC%%share/texmf-dist/source/latex/photo/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/photo/photo.drv
+%%PORTSRC%%share/texmf-dist/source/latex/photo/photo.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/photo/photo.ins
+share/texmf-dist/tex/latex/photo/photo.sty
+@dirrmtry share/texmf-dist/tex/latex/photo
+@dirrmtry share/texmf-dist/source/latex/photo
+@dirrmtry share/texmf-dist/doc/latex/photo

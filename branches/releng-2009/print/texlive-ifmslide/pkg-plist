@@ -1,0 +1,32 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ifmslide/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ifmslide/ifmman.dep
+%%PORTDOCS%%share/texmf-dist/doc/latex/ifmslide/ifmman.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ifmslide/ifmman.tex
+%%PORTSRC%%share/texmf-dist/source/latex/ifmslide/genbutton
+share/texmf-dist/tex/latex/ifmslide/aqua_ravines.eps
+share/texmf-dist/tex/latex/ifmslide/aqua_ravines.jpg
+share/texmf-dist/tex/latex/ifmslide/athenep1.eps
+share/texmf-dist/tex/latex/ifmslide/athenep1.pdf
+share/texmf-dist/tex/latex/ifmslide/button1c.eps
+share/texmf-dist/tex/latex/ifmslide/button1c.pdf
+share/texmf-dist/tex/latex/ifmslide/button1e.eps
+share/texmf-dist/tex/latex/ifmslide/button1e.pdf
+share/texmf-dist/tex/latex/ifmslide/buttonec.eps
+share/texmf-dist/tex/latex/ifmslide/buttonec.pdf
+share/texmf-dist/tex/latex/ifmslide/buttonee.eps
+share/texmf-dist/tex/latex/ifmslide/buttonee.pdf
+share/texmf-dist/tex/latex/ifmslide/buttongc.eps
+share/texmf-dist/tex/latex/ifmslide/buttongc.pdf
+share/texmf-dist/tex/latex/ifmslide/buttonge.eps
+share/texmf-dist/tex/latex/ifmslide/buttonge.pdf
+share/texmf-dist/tex/latex/ifmslide/ifmlogoc.eps
+share/texmf-dist/tex/latex/ifmslide/ifmlogoc.pdf
+share/texmf-dist/tex/latex/ifmslide/ifmlogog.eps
+share/texmf-dist/tex/latex/ifmslide/ifmlogog.pdf
+share/texmf-dist/tex/latex/ifmslide/ifmslide.cfg
+share/texmf-dist/tex/latex/ifmslide/ifmslide.sty
+share/texmf-dist/tex/latex/ifmslide/liquid_helium.eps
+share/texmf-dist/tex/latex/ifmslide/liquid_helium.jpg
+@dirrmtry share/texmf-dist/tex/latex/ifmslide
+@dirrmtry share/texmf-dist/source/latex/ifmslide
+@dirrmtry share/texmf-dist/doc/latex/ifmslide

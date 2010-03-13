@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/jablantile/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/jablantile/dearjablan.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/jablantile/jablantile.pdf
+share/texmf-dist/fonts/source/public/jablantile/jablantile.mf
+@dirrmtry share/texmf-dist/fonts/source/public/jablantile
+@dirrmtry share/texmf-dist/doc/fonts/jablantile

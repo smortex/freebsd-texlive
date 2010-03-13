@@ -1,0 +1,48 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/eurosym/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/fonts/eurosym/Changes
+%%PORTDOCS%%share/texmf-dist/doc/fonts/eurosym/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/fonts/eurosym/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/eurosym/README.type1
+%%PORTDOCS%%share/texmf-dist/doc/fonts/eurosym/c/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/fonts/eurosym/eurosym.cpp
+%%PORTDOCS%%share/texmf-dist/doc/fonts/eurosym/makemfs
+%%PORTDOCS%%share/texmf-dist/doc/fonts/eurosym/rundvips
+%%PORTDOCS%%share/texmf-dist/doc/fonts/eurosym/runlatex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/eurosym/src/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/fonts/eurosym/testeuro.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/eurosym/testeuro.tex
+share/texmf-dist/fonts/map/dvips/eurosym/eurosym.map
+share/texmf-dist/fonts/source/public/eurosym/fey.mf
+share/texmf-dist/fonts/source/public/eurosym/feybl10.mf
+share/texmf-dist/fonts/source/public/eurosym/feybo10.mf
+share/texmf-dist/fonts/source/public/eurosym/feybr10.mf
+share/texmf-dist/fonts/source/public/eurosym/feyml10.mf
+share/texmf-dist/fonts/source/public/eurosym/feymo10.mf
+share/texmf-dist/fonts/source/public/eurosym/feymr10.mf
+share/texmf-dist/fonts/tfm/public/eurosym/feybl10.tfm
+share/texmf-dist/fonts/tfm/public/eurosym/feybo10.tfm
+share/texmf-dist/fonts/tfm/public/eurosym/feybr10.tfm
+share/texmf-dist/fonts/tfm/public/eurosym/feyml10.tfm
+share/texmf-dist/fonts/tfm/public/eurosym/feymo10.tfm
+share/texmf-dist/fonts/tfm/public/eurosym/feymr10.tfm
+share/texmf-dist/fonts/type1/public/eurosym/feybl10.pfb
+share/texmf-dist/fonts/type1/public/eurosym/feybo10.pfb
+share/texmf-dist/fonts/type1/public/eurosym/feybr10.pfb
+share/texmf-dist/fonts/type1/public/eurosym/feyml10.pfb
+share/texmf-dist/fonts/type1/public/eurosym/feymo10.pfb
+share/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb
+share/texmf-dist/fonts/type1/public/eurosym/geybl10.pfb
+share/texmf-dist/fonts/type1/public/eurosym/geybo10.pfb
+share/texmf-dist/fonts/type1/public/eurosym/geybr10.pfb
+share/texmf-dist/fonts/type1/public/eurosym/geyml10.pfb
+share/texmf-dist/fonts/type1/public/eurosym/geymo10.pfb
+share/texmf-dist/fonts/type1/public/eurosym/geymr10.pfb
+share/texmf-dist/tex/latex/eurosym/eurosym.sty
+@dirrmtry share/texmf-dist/tex/latex/eurosym
+@dirrmtry share/texmf-dist/fonts/type1/public/eurosym
+@dirrmtry share/texmf-dist/fonts/tfm/public/eurosym
+@dirrmtry share/texmf-dist/fonts/source/public/eurosym
+@dirrmtry share/texmf-dist/fonts/map/dvips/eurosym
+@dirrmtry share/texmf-dist/doc/fonts/eurosym/src
+@dirrmtry share/texmf-dist/doc/fonts/eurosym/c
+@dirrmtry share/texmf-dist/doc/fonts/eurosym

@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/yafoot/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/yafoot/yafoot-man.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/yafoot/yafoot-man.tex
+%%PORTSRC%%share/texmf-dist/source/latex/yafoot/yafoot.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/yafoot/yafoot.ins
+share/texmf-dist/tex/latex/yafoot/dblfnote.sty
+share/texmf-dist/tex/latex/yafoot/fnpos.sty
+share/texmf-dist/tex/latex/yafoot/pfnote.sty
+@dirrmtry share/texmf-dist/tex/latex/yafoot
+@dirrmtry share/texmf-dist/source/latex/yafoot
+@dirrmtry share/texmf-dist/doc/latex/yafoot

@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/gauss/gauss-doc.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/gauss/gauss-ex.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/gauss/gauss-ex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/gauss/readme.txt
+share/texmf-dist/tex/latex/gauss/gauss.sty
+@dirrmtry share/texmf-dist/tex/latex/gauss
+@dirrmtry share/texmf-dist/doc/latex/gauss

@@ -1,0 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/umich-thesis/README
+share/texmf-dist/tex/latex/umich-thesis/umich-thesis.cls
+@dirrmtry share/texmf-dist/tex/latex/umich-thesis
+@dirrmtry share/texmf-dist/doc/latex/umich-thesis

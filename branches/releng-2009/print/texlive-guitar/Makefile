@@ -1,0 +1,16 @@
+# New ports collection makefile for:	texlive-guitar
+# Date created:		13/03/2010 04:55:13
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	guitar
+CATEGORIES=	print
+
+MAINTAINER=	romain@blogreen.org
+COMMENT=	Guitar chords and song texts.
+
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

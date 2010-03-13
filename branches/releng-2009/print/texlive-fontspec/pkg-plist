@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/fontspec/README
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/fontspec/fontspec-example.ltx
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/fontspec/fontspec.pdf
+%%PORTSRC%%share/texmf-dist/source/xelatex/fontspec/fontspec.dtx
+%%PORTSRC%%share/texmf-dist/source/xelatex/fontspec/fontspec.ins
+share/texmf-dist/tex/xelatex/fontspec/fontspec.cfg
+share/texmf-dist/tex/xelatex/fontspec/fontspec.sty
+@dirrmtry share/texmf-dist/tex/xelatex/fontspec
+@dirrmtry share/texmf-dist/source/xelatex/fontspec
+@dirrmtry share/texmf-dist/doc/xelatex/fontspec

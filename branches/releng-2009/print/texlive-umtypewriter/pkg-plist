@@ -1,0 +1,6 @@
+share/texmf-dist/fonts/opentype/public/umtypewriter/UMTypewriter-Bold.otf
+share/texmf-dist/fonts/opentype/public/umtypewriter/UMTypewriter-BoldItalic.otf
+share/texmf-dist/fonts/opentype/public/umtypewriter/UMTypewriter-Italic.otf
+share/texmf-dist/fonts/opentype/public/umtypewriter/UMTypewriter-Oblique.otf
+share/texmf-dist/fonts/opentype/public/umtypewriter/UMTypewriter-Regular.otf
+@dirrmtry share/texmf-dist/fonts/opentype/public/umtypewriter

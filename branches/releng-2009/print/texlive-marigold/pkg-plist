@@ -1,0 +1,10 @@
+share/texmf-dist/fonts/tfm/cg/marigold/cmgr.tfm
+share/texmf-dist/fonts/tfm/cg/marigold/cmgr8t.tfm
+share/texmf-dist/fonts/tfm/cg/marigold/mrr10u.tfm
+share/texmf-dist/fonts/tfm/cg/marigold/mrr6j.tfm
+share/texmf-dist/fonts/tfm/cg/marigold/mrr7j.tfm
+share/texmf-dist/fonts/tfm/cg/marigold/mrr8u.tfm
+share/texmf-dist/fonts/vf/cg/marigold/cmgr.vf
+share/texmf-dist/fonts/vf/cg/marigold/cmgr8t.vf
+@dirrmtry share/texmf-dist/fonts/vf/cg/marigold
+@dirrmtry share/texmf-dist/fonts/tfm/cg/marigold

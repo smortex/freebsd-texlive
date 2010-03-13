@@ -1,0 +1,26 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/notes/book.layout
+%%PORTDOCS%%share/texmf-dist/doc/latex/notes/hand.fig
+%%PORTDOCS%%share/texmf-dist/doc/latex/notes/info.fig
+%%PORTDOCS%%share/texmf-dist/doc/latex/notes/makedoc
+%%PORTDOCS%%share/texmf-dist/doc/latex/notes/makedoc.bat
+%%PORTDOCS%%share/texmf-dist/doc/latex/notes/notes.inc
+%%PORTDOCS%%share/texmf-dist/doc/latex/notes/notes.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/notes/testnotes.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/notes/warn.fig
+%%PORTSRC%%share/texmf-dist/source/latex/notes/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/notes/notes.drv
+%%PORTSRC%%share/texmf-dist/source/latex/notes/notes.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/notes/notes.ins
+share/texmf-dist/tex/latex/notes/hand.eps
+share/texmf-dist/tex/latex/notes/hand.pdf
+share/texmf-dist/tex/latex/notes/hand.png
+share/texmf-dist/tex/latex/notes/info.eps
+share/texmf-dist/tex/latex/notes/info.pdf
+share/texmf-dist/tex/latex/notes/info.png
+share/texmf-dist/tex/latex/notes/notes.sty
+share/texmf-dist/tex/latex/notes/warn.eps
+share/texmf-dist/tex/latex/notes/warn.pdf
+share/texmf-dist/tex/latex/notes/warn.png
+@dirrmtry share/texmf-dist/tex/latex/notes
+@dirrmtry share/texmf-dist/source/latex/notes
+@dirrmtry share/texmf-dist/doc/latex/notes

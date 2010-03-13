@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/mentis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/mentis/mentis.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/mentis/mentis.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mentis/mentis.ins
+share/texmf-dist/tex/latex/mentis/mentis.cls
+@dirrmtry share/texmf-dist/tex/latex/mentis
+@dirrmtry share/texmf-dist/source/latex/mentis
+@dirrmtry share/texmf-dist/doc/latex/mentis

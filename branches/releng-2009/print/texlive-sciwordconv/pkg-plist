@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/sciwordconv/README
+%%PORTSRC%%share/texmf-dist/source/latex/sciwordconv/GenericRussian.shl
+share/texmf-dist/tex/latex/sciwordconv/Sw2Rus.sty
+@dirrmtry share/texmf-dist/tex/latex/sciwordconv
+@dirrmtry share/texmf-dist/source/latex/sciwordconv
+@dirrmtry share/texmf-dist/doc/latex/sciwordconv

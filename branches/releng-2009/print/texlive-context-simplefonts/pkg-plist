@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simplefonts/README
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simplefonts/simplefonts.pdf
+%%PORTSRC%%share/texmf-dist/source/context/third/simplefonts/doc/simplefonts.tex
+share/texmf-dist/tex/context/third/simplefonts/t-simplefonts.lua
+share/texmf-dist/tex/context/third/simplefonts/t-simplefonts.tex
+@dirrmtry share/texmf-dist/tex/context/third/simplefonts
+@dirrmtry share/texmf-dist/source/context/third/simplefonts/doc
+@dirrmtry share/texmf-dist/doc/context/third/simplefonts

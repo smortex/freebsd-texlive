@@ -1,0 +1,7 @@
+share/texmf-dist/bibtex/bst/nature/naturemag.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/nature/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/nature/nature-template.tex
+share/texmf-dist/tex/latex/nature/nature.cls
+@dirrmtry share/texmf-dist/tex/latex/nature
+@dirrmtry share/texmf-dist/doc/latex/nature
+@dirrmtry share/texmf-dist/bibtex/bst/nature

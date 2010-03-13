@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/plain/typespec/TypeSpec.pdf
+%%PORTDOCS%%share/texmf-dist/doc/plain/typespec/TypeSpec.tex
+share/texmf-dist/tex/plain/typespec/TypeSp01.tex
+share/texmf-dist/tex/plain/typespec/TypeSp02.tex
+share/texmf-dist/tex/plain/typespec/TypeSp03.tex
+share/texmf-dist/tex/plain/typespec/TypeSp04.tex
+share/texmf-dist/tex/plain/typespec/TypeSp05.tex
+share/texmf-dist/tex/plain/typespec/TypeSp06.tex
+share/texmf-dist/tex/plain/typespec/TypeSp07.tex
+share/texmf-dist/tex/plain/typespec/TypeSp08.tex
+share/texmf-dist/tex/plain/typespec/TypeSp09.tex
+share/texmf-dist/tex/plain/typespec/TypeSp10.tex
+@dirrmtry share/texmf-dist/tex/plain/typespec
+@dirrmtry share/texmf-dist/doc/plain/typespec

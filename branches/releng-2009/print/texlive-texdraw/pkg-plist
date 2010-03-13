@@ -1,0 +1,32 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/getopt.c
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/getopt.h
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/texdraw.cps
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/texdraw.fns
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/texdraw.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/texdraw.texi
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/texdraw_1.html
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/texdraw_10.html
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/texdraw_11.html
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/texdraw_2.html
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/texdraw_3.html
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/texdraw_4.html
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/texdraw_5.html
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/texdraw_6.html
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/texdraw_7.html
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/texdraw_8.html
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/texdraw_9.html
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/texdraw_foot.html
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/texdraw_toc.html
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/texi2dvi
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/texindex.c
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/txdexamp.latex
+%%PORTDOCS%%share/texmf-dist/doc/support/texdraw/txdexamp.tex
+share/texmf-dist/tex/generic/texdraw/blockdiagram.tex
+share/texmf-dist/tex/generic/texdraw/texdraw.sty
+share/texmf-dist/tex/generic/texdraw/texdraw.tex
+share/texmf-dist/tex/generic/texdraw/txdps.tex
+share/texmf-dist/tex/generic/texdraw/txdtools.tex
+%%PORTDOCS%%share/texmf/doc/info/texdraw.info
+@dirrmtry share/texmf/doc/info
+@dirrmtry share/texmf-dist/tex/generic/texdraw
+@dirrmtry share/texmf-dist/doc/support/texdraw

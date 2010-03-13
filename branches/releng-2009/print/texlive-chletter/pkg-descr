@@ -1,0 +1,4 @@
+A class for typesetting letters or small documents according to
+the swiss rules. No assumption is made about the language used.
+This class is based on the standard LaTeX classes and is mostly
+'source compatible' with the LaTeX letter class.

@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks-add/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks-add/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks-add/pstricks-add-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks-add/pstricks-add-doc.dat
+%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks-add/pstricks-add-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks-add/pstricks-add-doc.tex
+share/texmf-dist/dvips/pstricks-add/pstricks-add.pro
+%%PORTSRC%%share/texmf-dist/source/generic/pstricks-add/Makefile
+share/texmf-dist/tex/generic/pstricks-add/pstricks-add.tex
+share/texmf-dist/tex/latex/pstricks-add/pstricks-add.sty
+@dirrmtry share/texmf-dist/tex/latex/pstricks-add
+@dirrmtry share/texmf-dist/tex/generic/pstricks-add
+@dirrmtry share/texmf-dist/source/generic/pstricks-add
+@dirrmtry share/texmf-dist/dvips/pstricks-add
+@dirrmtry share/texmf-dist/doc/generic/pstricks-add

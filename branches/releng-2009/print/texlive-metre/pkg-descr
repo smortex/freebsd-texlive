@@ -1,0 +1,13 @@
+The package provides classicists with some of the tools that
+are needed for typesetting scholarly publications dealing with
+Greek and Latin texts, with special emphasis on Greek verse. As
+the package's name suggests, its core is a comprehensive set of
+commands for generating metrical schemes and for placing
+prosodical marks on text set in the Latin or the Greek
+alphabet. The rest of the package provides a miscellany of
+commands for symbols (most of them not directly related to
+metre) that are often used in critical editions of classical
+texts. The package does not require any special font: all
+symbols are taken from the Computer Modern fonts (which are
+included in all TeX distributions) and the package's commands
+are based on TeX primitives.

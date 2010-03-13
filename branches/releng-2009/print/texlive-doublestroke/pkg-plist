@@ -1,0 +1,34 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/doublestroke/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/doublestroke/dsdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/doublestroke/dsdoc.tex
+share/texmf-dist/fonts/map/dvips/doublestroke/dstroke.map
+share/texmf-dist/fonts/source/public/doublestroke/dsrom.mf
+share/texmf-dist/fonts/source/public/doublestroke/dsrom10.mf
+share/texmf-dist/fonts/source/public/doublestroke/dsrom12.mf
+share/texmf-dist/fonts/source/public/doublestroke/dsrom8.mf
+share/texmf-dist/fonts/source/public/doublestroke/dsromo.mf
+share/texmf-dist/fonts/source/public/doublestroke/dsromu.mf
+share/texmf-dist/fonts/source/public/doublestroke/dsss10.mf
+share/texmf-dist/fonts/source/public/doublestroke/dsss12.mf
+share/texmf-dist/fonts/source/public/doublestroke/dsss8.mf
+share/texmf-dist/fonts/tfm/public/doublestroke/dsrom10.tfm
+share/texmf-dist/fonts/tfm/public/doublestroke/dsrom12.tfm
+share/texmf-dist/fonts/tfm/public/doublestroke/dsrom8.tfm
+share/texmf-dist/fonts/tfm/public/doublestroke/dsss10.tfm
+share/texmf-dist/fonts/tfm/public/doublestroke/dsss12.tfm
+share/texmf-dist/fonts/tfm/public/doublestroke/dsss8.tfm
+share/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb
+share/texmf-dist/fonts/type1/public/doublestroke/dsrom12.pfb
+share/texmf-dist/fonts/type1/public/doublestroke/dsrom8.pfb
+share/texmf-dist/fonts/type1/public/doublestroke/dsss10.pfb
+share/texmf-dist/fonts/type1/public/doublestroke/dsss12.pfb
+share/texmf-dist/fonts/type1/public/doublestroke/dsss8.pfb
+share/texmf-dist/tex/latex/doublestroke/Udsrom.fd
+share/texmf-dist/tex/latex/doublestroke/Udsss.fd
+share/texmf-dist/tex/latex/doublestroke/dsfont.sty
+@dirrmtry share/texmf-dist/tex/latex/doublestroke
+@dirrmtry share/texmf-dist/fonts/type1/public/doublestroke
+@dirrmtry share/texmf-dist/fonts/tfm/public/doublestroke
+@dirrmtry share/texmf-dist/fonts/source/public/doublestroke
+@dirrmtry share/texmf-dist/fonts/map/dvips/doublestroke
+@dirrmtry share/texmf-dist/doc/fonts/doublestroke

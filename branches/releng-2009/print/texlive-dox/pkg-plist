@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/dox/NEWS
+%%PORTDOCS%%share/texmf-dist/doc/latex/dox/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/dox/dox.el
+%%PORTDOCS%%share/texmf-dist/doc/latex/dox/dox.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dox/header.inc
+%%PORTSRC%%share/texmf-dist/source/latex/dox/dox.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/dox/dox.ins
+share/texmf-dist/tex/latex/dox/dox.sty
+@dirrmtry share/texmf-dist/tex/latex/dox
+@dirrmtry share/texmf-dist/source/latex/dox
+@dirrmtry share/texmf-dist/doc/latex/dox

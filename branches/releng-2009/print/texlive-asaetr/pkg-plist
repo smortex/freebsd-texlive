@@ -1,0 +1,12 @@
+share/texmf-dist/bibtex/bst/asaetr/asaetr.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/asaetr/MANIFEST
+%%PORTDOCS%%share/texmf-dist/doc/latex/asaetr/asaetr.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/asaetr/asaetr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/asaetr/asaetr.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/asaetr/cmcscsl10.mf
+share/texmf-dist/tex/latex/asaetr/asaesub.sty
+share/texmf-dist/tex/latex/asaetr/asaetr.cls
+share/texmf-dist/tex/latex/asaetr/asaetr.sty
+@dirrmtry share/texmf-dist/tex/latex/asaetr
+@dirrmtry share/texmf-dist/doc/latex/asaetr
+@dirrmtry share/texmf-dist/bibtex/bst/asaetr

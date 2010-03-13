@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xetex-itrans/README
+share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-dvn.map
+share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-dvn.tec
+share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-kan.map
+share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-kan.tec
+share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-sankan.map
+share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-sankan.tec
+@dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans
+@dirrmtry share/texmf-dist/doc/xelatex/xetex-itrans

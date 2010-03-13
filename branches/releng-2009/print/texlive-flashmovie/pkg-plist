@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/test.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/testx.tex
+share/texmf-dist/tex/latex/flashmovie/flashmovie.sty
+@dirrmtry share/texmf-dist/tex/latex/flashmovie
+@dirrmtry share/texmf-dist/doc/latex/flashmovie

@@ -1,0 +1,8 @@
+Several electrical symbols like resistor, capacitor,
+transistors etc., are defined. The symbols can be connected
+with wires. The package also contains an American resistor
+symbol for those of us on that side of the Atlantic. The
+package also has simple facilities for producing optics
+diagrams; however, no-one would deny that the PSTricks pst-
+optic package, or the MetaPost makecirc package does the job
+better.

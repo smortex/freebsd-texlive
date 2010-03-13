@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/findhyph/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/support/findhyph/README
+%%PORTDOCS%%share/texmf-dist/doc/support/findhyph/findhyph.bat
+%%PORTDOCS%%share/texmf-dist/doc/support/findhyph/findhyph.txt
+%%PORTDOCS%%share/texmf/doc/man/man1/findhyph.1
+%%PORTDOCS%%share/texmf/doc/man/man1/findhyph.man1.pdf
+@dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf-dist/doc/support/findhyph

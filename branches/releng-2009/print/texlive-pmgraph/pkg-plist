@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pmgraph/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/pmgraph/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pmgraph/pmgraph.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pmgraph/pmgraph.tex
+share/texmf-dist/tex/latex/pmgraph/pmgraph.sty
+@dirrmtry share/texmf-dist/tex/latex/pmgraph
+@dirrmtry share/texmf-dist/doc/latex/pmgraph

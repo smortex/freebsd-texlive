@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-uml/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-uml/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-uml/diagCase.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-uml/diagClass.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-uml/diagClass1.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-uml/diagSeq.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-uml/diagState.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-uml/pst-uml-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-uml/pst-uml-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-uml/pst-uml-encapsuled-pdf-fig.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-uml/pst-uml-encapsuled-pdf-fig.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-uml/pst-uml-exemples.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-uml/pst-uml-exemples.tex
+%%PORTSRC%%share/texmf-dist/source/generic/pst-uml/Makefile
+share/texmf-dist/tex/latex/pst-uml/pst-uml.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-uml
+@dirrmtry share/texmf-dist/source/generic/pst-uml
+@dirrmtry share/texmf-dist/doc/generic/pst-uml

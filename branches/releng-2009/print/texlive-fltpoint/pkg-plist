@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/fltpoint/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/fltpoint/fltpoint.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/fltpoint/fltpoint.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/fltpoint/fltpoint.ins
+share/texmf-dist/tex/generic/fltpoint/deccomma.sty
+share/texmf-dist/tex/generic/fltpoint/fltpoint.sty
+share/texmf-dist/tex/generic/fltpoint/fltpoint.tex
+@dirrmtry share/texmf-dist/tex/generic/fltpoint
+@dirrmtry share/texmf-dist/source/generic/fltpoint
+@dirrmtry share/texmf-dist/doc/generic/fltpoint

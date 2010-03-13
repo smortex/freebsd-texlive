@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/multido/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/multido/multido-test.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/multido/multido.doc
+%%PORTDOCS%%share/texmf-dist/doc/generic/multido/multido.pdf
+share/texmf-dist/tex/generic/multido/multido.tex
+share/texmf-dist/tex/latex/multido/multido.sty
+@dirrmtry share/texmf-dist/tex/latex/multido
+@dirrmtry share/texmf-dist/tex/generic/multido
+@dirrmtry share/texmf-dist/doc/generic/multido

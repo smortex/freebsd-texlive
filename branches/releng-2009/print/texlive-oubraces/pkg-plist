@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/oubraces/oubraces.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/oubraces/oubraces.tex
+share/texmf-dist/tex/latex/oubraces/oubraces.sty
+@dirrmtry share/texmf-dist/tex/latex/oubraces
+@dirrmtry share/texmf-dist/doc/latex/oubraces

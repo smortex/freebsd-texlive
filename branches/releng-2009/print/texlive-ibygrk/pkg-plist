@@ -1,0 +1,72 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ibygrk/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ibygrk/NEWS
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ibygrk/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ibygrk/README.ibycus4
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ibygrk/iby4text.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ibygrk/ibycus3.RME
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ibygrk/ibycus4.ltx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ibygrk/psibycus.ltx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ibygrk/psibycus.tex
+share/texmf-dist/fonts/afm/public/ibygrk/fibb84.afm
+share/texmf-dist/fonts/afm/public/ibygrk/fibr84.afm
+share/texmf-dist/fonts/enc/dvips/ibygrk/IbycusHTG.enc
+share/texmf-dist/fonts/map/dvips/ibygrk/iby.map
+share/texmf-dist/fonts/source/public/ibygrk/abary4.mf
+share/texmf-dist/fonts/source/public/ibygrk/cigma4.mf
+share/texmf-dist/fonts/source/public/ibygrk/digamma4.mf
+share/texmf-dist/fonts/source/public/ibygrk/ebary4.mf
+share/texmf-dist/fonts/source/public/ibygrk/fibb84.mf
+share/texmf-dist/fonts/source/public/ibygrk/fibb848.mf
+share/texmf-dist/fonts/source/public/ibygrk/fibb849.mf
+share/texmf-dist/fonts/source/public/ibygrk/fibo84.mf
+share/texmf-dist/fonts/source/public/ibygrk/fibo848.mf
+share/texmf-dist/fonts/source/public/ibygrk/fibo849.mf
+share/texmf-dist/fonts/source/public/ibygrk/fibr84.mf
+share/texmf-dist/fonts/source/public/ibygrk/fibr848.mf
+share/texmf-dist/fonts/source/public/ibygrk/fibr849.mf
+share/texmf-dist/fonts/source/public/ibygrk/hbary4.mf
+share/texmf-dist/fonts/source/public/ibygrk/ibary4.mf
+share/texmf-dist/fonts/source/public/ibygrk/ibyacc4.mf
+share/texmf-dist/fonts/source/public/ibygrk/ibycus4.map
+share/texmf-dist/fonts/source/public/ibygrk/ibycus4.mf
+share/texmf-dist/fonts/source/public/ibygrk/ibylig4.mf
+share/texmf-dist/fonts/source/public/ibygrk/ibylwr4.mf
+share/texmf-dist/fonts/source/public/ibygrk/ibypnct4.mf
+share/texmf-dist/fonts/source/public/ibygrk/ibyupr4.mf
+share/texmf-dist/fonts/source/public/ibygrk/koppa4.mf
+share/texmf-dist/fonts/source/public/ibygrk/obary4.mf
+share/texmf-dist/fonts/source/public/ibygrk/sampi4.mf
+share/texmf-dist/fonts/source/public/ibygrk/ubary4.mf
+share/texmf-dist/fonts/source/public/ibygrk/version4.mf
+share/texmf-dist/fonts/source/public/ibygrk/wbary4.mf
+share/texmf-dist/fonts/tfm/public/ibygrk/fibb84.tfm
+share/texmf-dist/fonts/tfm/public/ibygrk/fibb848.tfm
+share/texmf-dist/fonts/tfm/public/ibygrk/fibb849.tfm
+share/texmf-dist/fonts/tfm/public/ibygrk/fibo84.tfm
+share/texmf-dist/fonts/tfm/public/ibygrk/fibo848.tfm
+share/texmf-dist/fonts/tfm/public/ibygrk/fibo849.tfm
+share/texmf-dist/fonts/tfm/public/ibygrk/fibr84.tfm
+share/texmf-dist/fonts/tfm/public/ibygrk/fibr848.tfm
+share/texmf-dist/fonts/tfm/public/ibygrk/fibr849.tfm
+share/texmf-dist/fonts/type1/public/ibygrk/fibb84.pfb
+share/texmf-dist/fonts/type1/public/ibygrk/fibr84.pfb
+share/texmf-dist/tex/generic/ibygrk/Uibycus.fd
+share/texmf-dist/tex/generic/ibygrk/Uibycus4.fd
+share/texmf-dist/tex/generic/ibygrk/iby4extr.tex
+share/texmf-dist/tex/generic/ibygrk/ibycus4.map
+share/texmf-dist/tex/generic/ibygrk/ibycus4.sty
+share/texmf-dist/tex/generic/ibygrk/ibycus4.tex
+share/texmf-dist/tex/generic/ibygrk/ibycusps.tex
+share/texmf-dist/tex/generic/ibygrk/psibycus.sty
+share/texmf-dist/tex/generic/ibygrk/pssetiby.tex
+share/texmf-dist/tex/generic/ibygrk/setiby4.tex
+share/texmf-dist/tex/generic/ibygrk/tlgsqq.tex
+share/texmf-dist/tex/generic/ibygrk/version4.tex
+@dirrmtry share/texmf-dist/tex/generic/ibygrk
+@dirrmtry share/texmf-dist/fonts/type1/public/ibygrk
+@dirrmtry share/texmf-dist/fonts/tfm/public/ibygrk
+@dirrmtry share/texmf-dist/fonts/source/public/ibygrk
+@dirrmtry share/texmf-dist/fonts/map/dvips/ibygrk
+@dirrmtry share/texmf-dist/fonts/enc/dvips/ibygrk
+@dirrmtry share/texmf-dist/fonts/afm/public/ibygrk
+@dirrmtry share/texmf-dist/doc/fonts/ibygrk

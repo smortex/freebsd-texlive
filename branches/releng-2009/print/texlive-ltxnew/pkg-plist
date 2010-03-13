@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ltxnew/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ltxnew/ltxnew.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/ltxnew/ltxnew.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ltxnew/ltxnew.ins
+share/texmf-dist/tex/latex/ltxnew/ltxnew.sty
+@dirrmtry share/texmf-dist/tex/latex/ltxnew
+@dirrmtry share/texmf-dist/source/latex/ltxnew
+@dirrmtry share/texmf-dist/doc/latex/ltxnew

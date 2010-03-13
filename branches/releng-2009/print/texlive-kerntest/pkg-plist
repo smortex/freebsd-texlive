@@ -1,0 +1,32 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/kerntest/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/latex/kerntest/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/kerntest/ToDo
+%%PORTDOCS%%share/texmf-dist/doc/latex/kerntest/kerntest.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/kerntest/krntst-v.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/kerntest/ot1-XXX-m-n.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/kerntest/schoolb.map
+%%PORTDOCS%%share/texmf-dist/doc/latex/kerntest/schoolb1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/kerntest/schoolb2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/kerntest/t1-9nc-m-n-1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/kerntest/t1-9nc-m-n-2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/kerntest/t1-XXX-m-n.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/kerntest/t1-cmr-m-n-1200.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/kerntest/t1-ptm-bx-n-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/kerntest/t1-ptm-m-n-shortexample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/kerntest/t1-ptm-m-n.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/kerntest/testschoolb.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/kerntest/ts1-XXX-m-n.tex
+%%PORTSRC%%share/texmf-dist/source/latex/kerntest/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/kerntest/kerntest.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/kerntest/kerntest.ins
+share/texmf-dist/tex/latex/kerntest/kerntest.cls
+share/texmf-dist/tex/latex/kerntest/ly1mtx.clo
+share/texmf-dist/tex/latex/kerntest/ot1mtx.clo
+share/texmf-dist/tex/latex/kerntest/t1cmr-1200.fd
+share/texmf-dist/tex/latex/kerntest/t1mtx.clo
+share/texmf-dist/tex/latex/kerntest/t2amtx.clo
+share/texmf-dist/tex/latex/kerntest/t2bmtx.clo
+share/texmf-dist/tex/latex/kerntest/ts1mtx.clo
+@dirrmtry share/texmf-dist/tex/latex/kerntest
+@dirrmtry share/texmf-dist/source/latex/kerntest
+@dirrmtry share/texmf-dist/doc/latex/kerntest

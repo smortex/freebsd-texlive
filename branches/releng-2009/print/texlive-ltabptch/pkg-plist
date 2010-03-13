@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ltabptch/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ltabptch/ltabptch.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ltabptch/ltabptch.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ltabptch/ltabtest.tex
+share/texmf-dist/tex/latex/ltabptch/ltabptch.sty
+@dirrmtry share/texmf-dist/tex/latex/ltabptch
+@dirrmtry share/texmf-dist/doc/latex/ltabptch

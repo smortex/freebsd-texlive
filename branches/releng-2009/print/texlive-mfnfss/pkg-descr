@@ -1,0 +1,5 @@
+This bundle contains two packages: - oldgerm, a package to
+typeset with old german fonts designed by Yannis Haralambous. -
+pandora, a package to typeset with Pandora fonts designed by
+Neena Billawala. Note that support for the Pandora fonts is
+also available via the pandora-latex package.

@@ -1,0 +1,7 @@
+%%PORTSRC%%share/texmf-dist/source/latex/cmsd/liesmich
+%%PORTSRC%%share/texmf-dist/source/latex/cmsd/readme
+share/texmf-dist/tex/latex/cmsd/cmsd.sty
+share/texmf-dist/tex/latex/cmsd/t1cmsd.fd
+share/texmf-dist/tex/latex/cmsd/ts1cmsd.fd
+@dirrmtry share/texmf-dist/tex/latex/cmsd
+@dirrmtry share/texmf-dist/source/latex/cmsd

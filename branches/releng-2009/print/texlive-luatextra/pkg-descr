@@ -1,0 +1,9 @@
+The bundle provides: - General lua language functionality
+(package luaextra) provided by the LuaTeX team (and imported,
+here, from the ConTeXt distribution); - The means (package
+luamcallbacks) to register functions in LuaTeX callbacks,
+providing macros and a lua source file; and - General
+extensions (package luatextra), incorporating an extended
+version of the e-TeX register extensions package, support for
+lua attributes, and provision of a module system, modelled on
+the LaTeX package management functions.

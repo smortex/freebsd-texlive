@@ -1,0 +1,9 @@
+share/texmf-dist/fonts/source/public/euxm/euxm10.mf
+share/texmf-dist/fonts/source/public/euxm/euxm5.mf
+share/texmf-dist/fonts/source/public/euxm/euxm7.mf
+share/texmf-dist/fonts/source/public/euxm/euxmch.mf
+share/texmf-dist/fonts/tfm/public/euxm/euxm10.tfm
+share/texmf-dist/fonts/tfm/public/euxm/euxm5.tfm
+share/texmf-dist/fonts/tfm/public/euxm/euxm7.tfm
+@dirrmtry share/texmf-dist/fonts/tfm/public/euxm
+@dirrmtry share/texmf-dist/fonts/source/public/euxm

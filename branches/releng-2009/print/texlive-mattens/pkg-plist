@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/mattens/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/mattens/mattens.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mattens/mattens_sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mattens/mattens_sample_src.zip
+%%PORTSRC%%share/texmf-dist/source/latex/mattens/mattens.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mattens/mattens.ins
+share/texmf-dist/tex/latex/mattens/mattens.sty
+@dirrmtry share/texmf-dist/tex/latex/mattens
+@dirrmtry share/texmf-dist/source/latex/mattens
+@dirrmtry share/texmf-dist/doc/latex/mattens

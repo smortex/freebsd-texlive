@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/dirtree/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/dirtree/dirtree.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/dirtree/dirtree.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/dirtree/dirtree.ins
+share/texmf-dist/tex/generic/dirtree/dirtree.sty
+share/texmf-dist/tex/generic/dirtree/dirtree.tex
+@dirrmtry share/texmf-dist/tex/generic/dirtree
+@dirrmtry share/texmf-dist/source/generic/dirtree
+@dirrmtry share/texmf-dist/doc/generic/dirtree

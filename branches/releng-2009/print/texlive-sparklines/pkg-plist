@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/sparklines/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/sparklines/sparklines.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sparklines/sparklines.tex
+share/texmf-dist/tex/latex/sparklines/sparklines.sty
+@dirrmtry share/texmf-dist/tex/latex/sparklines
+@dirrmtry share/texmf-dist/doc/latex/sparklines

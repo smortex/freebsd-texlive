@@ -1,0 +1,6 @@
+Extends \newtheorem command. If you say
+\newshadetheorem{theorem}{Theorem} in the preamble then your
+regular \begin{theorem} .. \end{theorem} will produce a theorem
+statement in a shaded box. It supports all the options of
+\newtheorem, including forms \newshadetheorem{..}[..]{..} and
+\newshadetheorem{..}{..}[..].

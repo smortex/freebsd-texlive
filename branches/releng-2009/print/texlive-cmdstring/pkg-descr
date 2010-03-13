@@ -1,0 +1,2 @@
+Extracts the letters of a command's name (e.g., foo for command
+\foo), in a reliable way.

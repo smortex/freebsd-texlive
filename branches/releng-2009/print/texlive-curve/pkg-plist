@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/curve/NEWS
+%%PORTDOCS%%share/texmf-dist/doc/latex/curve/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/curve/THANKS
+%%PORTDOCS%%share/texmf-dist/doc/latex/curve/curve.el
+%%PORTDOCS%%share/texmf-dist/doc/latex/curve/curve.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/curve/cv.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/curve/rubric.tex
+%%PORTSRC%%share/texmf-dist/source/latex/curve/curve.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/curve/curve.ins
+share/texmf-dist/tex/latex/curve/curve.cls
+@dirrmtry share/texmf-dist/tex/latex/curve
+@dirrmtry share/texmf-dist/source/latex/curve
+@dirrmtry share/texmf-dist/doc/latex/curve

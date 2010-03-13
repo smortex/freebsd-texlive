@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/errata/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/errata/errata-errata.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/errata/errata.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/errata/errata.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/errata/errata.ins
+share/texmf-dist/tex/latex/errata/errata.sty
+@dirrmtry share/texmf-dist/tex/latex/errata
+@dirrmtry share/texmf-dist/source/latex/errata
+@dirrmtry share/texmf-dist/doc/latex/errata

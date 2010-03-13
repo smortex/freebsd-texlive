@@ -1,0 +1,65 @@
+share/LICENSE.CTAN
+share/LICENSE.TL
+share/README
+share/README.usergroups
+share/index.html
+share/readme-html.dir/readme.cs.html
+share/readme-html.dir/readme.de.html
+share/readme-html.dir/readme.en.html
+share/readme-html.dir/readme.fr.html
+share/readme-html.dir/readme.it.html
+share/readme-html.dir/readme.pl.html
+share/readme-html.dir/readme.ru.html
+share/readme-html.dir/readme.sr.html
+share/readme-html.dir/readme.zh-cn.html
+share/readme-txt.dir/README.CS
+share/readme-txt.dir/README.DE
+share/readme-txt.dir/README.EN
+share/readme-txt.dir/README.FR
+share/readme-txt.dir/README.IT
+share/readme-txt.dir/README.PL
+share/readme-txt.dir/README.RU
+share/readme-txt.dir/README.RU-cp1251
+share/readme-txt.dir/README.RU-koi8
+share/readme-txt.dir/README.SK-ascii
+share/readme-txt.dir/README.SK-cp1250
+share/readme-txt.dir/README.SK-il2
+share/readme-txt.dir/README.SR
+share/readme-txt.dir/README.ZH-CN
+share/release-texlive.txt
+%%PORTDOCS%%share/texmf/doc/man/man1/tlmgr.1
+%%PORTDOCS%%share/texmf/doc/man/man1/tlmgr.man1.pdf
+share/texmf/scripts/texlive/tlmgrgui.pl
+share/texmf/scripts/texlive/tlmgrgui/do_listframe.pl
+share/texmf/scripts/texlive/tlmgrgui/gui-arch.pl
+share/texmf/scripts/texlive/tlmgrgui/gui-config.pl
+share/texmf/scripts/texlive/tlmgrgui/gui-uninstall.pl
+share/texmf/scripts/texlive/tlmgrgui/tlmgrgui.ico
+share/texmf/scripts/texlive/tlmgrgui/tlmgrgui.pl
+share/texmf/scripts/texlive/uninstall-win32.pl
+share/texmf/web2c/fmtutil-hdr.cnf
+share/texmf/web2c/updmap-hdr.cfg
+%%PORTDOCS%%share/tlpkg/README
+share/tlpkg/TeXLive/Splashscreen.pm
+share/tlpkg/TeXLive/TLConfig.pm
+share/tlpkg/TeXLive/TLDownload.pm
+share/tlpkg/TeXLive/TLMedia.pm
+share/tlpkg/TeXLive/TLPDB.pm
+share/tlpkg/TeXLive/TLPOBJ.pm
+share/tlpkg/TeXLive/TLPSRC.pm
+share/tlpkg/TeXLive/TLPaper.pm
+share/tlpkg/TeXLive/TLPostActions.pm
+share/tlpkg/TeXLive/TLTREE.pm
+share/tlpkg/TeXLive/TLUtils.pm
+share/tlpkg/TeXLive/TLWinGoo.pm
+share/tlpkg/TeXLive/TeXCatalogue.pm
+share/tlpkg/TeXLive/trans.pl
+share/tlpkg/TeXLive/waitVariableX.pm
+share/tlpkg/installer/config.guess
+@dirrmtry share/tlpkg/installer
+@dirrmtry share/tlpkg/TeXLive
+@dirrmtry share/tlpkg
+@dirrmtry share/texmf/scripts/texlive/tlmgrgui
+@dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/readme-txt.dir
+@dirrmtry share/readme-html.dir

@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luainputenc/News
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luainputenc/README
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luainputenc/inputenc.sty.diff
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luainputenc/luainputenc.pdf
+%%PORTSRC%%share/texmf-dist/source/lualatex/luainputenc/Makefile
+%%PORTSRC%%share/texmf-dist/source/lualatex/luainputenc/luainputenc.dtx
+share/texmf-dist/tex/lualatex/luainputenc/luainputenc.lua
+share/texmf-dist/tex/lualatex/luainputenc/luainputenc.sty
+share/texmf-dist/tex/lualatex/luainputenc/lutf8.def
+share/texmf-dist/tex/lualatex/luainputenc/lutf8x.def
+@dirrmtry share/texmf-dist/tex/lualatex/luainputenc
+@dirrmtry share/texmf-dist/source/lualatex/luainputenc
+@dirrmtry share/texmf-dist/doc/lualatex/luainputenc

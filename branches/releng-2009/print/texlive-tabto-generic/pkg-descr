@@ -1,0 +1,3 @@
+\tabto{<length>} moves the typesetting position to <length>
+from the left margin of the paragraph. If the typesetting
+position is already further along, \tabto starts a new line.

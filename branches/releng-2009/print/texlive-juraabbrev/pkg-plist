@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/juraabbrev/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/juraabbrev/abbrevtest.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/juraabbrev/juraabbrev.pdf
+share/texmf-dist/makeindex/juraabbrev/laws.ist
+%%PORTSRC%%share/texmf-dist/source/latex/juraabbrev/juraabbrev.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/juraabbrev/juraabbrev.ins
+share/texmf-dist/tex/latex/juraabbrev/juraabbrev.4ht
+share/texmf-dist/tex/latex/juraabbrev/juraabbrev.sty
+@dirrmtry share/texmf-dist/tex/latex/juraabbrev
+@dirrmtry share/texmf-dist/source/latex/juraabbrev
+@dirrmtry share/texmf-dist/makeindex/juraabbrev
+@dirrmtry share/texmf-dist/doc/latex/juraabbrev

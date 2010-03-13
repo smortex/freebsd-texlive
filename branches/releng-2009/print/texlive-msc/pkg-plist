@@ -1,0 +1,13 @@
+share/texmf-dist/bibtex/bib/msc/biblio.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/msc/COPYRIGHT.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/msc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/msc/maintenance.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/msc/maintenance.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/msc/manual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/msc/manual.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/msc/refman.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/msc/refman.tex
+share/texmf-dist/tex/latex/msc/msc.sty
+@dirrmtry share/texmf-dist/tex/latex/msc
+@dirrmtry share/texmf-dist/doc/latex/msc
+@dirrmtry share/texmf-dist/bibtex/bib/msc

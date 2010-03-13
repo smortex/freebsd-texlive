@@ -1,0 +1,21 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/accept.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/binaries.m64
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/inst
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/invoice.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/isodoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/isontg.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/isowybo.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/letter.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/listkeys
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/logoletter.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/logostyle.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/mystyle.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/ntgletter.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/typo
+%%PORTSRC%%share/texmf-dist/source/latex/isodoc/isodoc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/isodoc/isodoc.ins
+share/texmf-dist/tex/latex/isodoc/isodoc.cls
+@dirrmtry share/texmf-dist/tex/latex/isodoc
+@dirrmtry share/texmf-dist/source/latex/isodoc
+@dirrmtry share/texmf-dist/doc/latex/isodoc

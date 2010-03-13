@@ -1,0 +1,3 @@
+The package provides facilities for drawing big integral signs
+when needed. An example would be when the integrand is a
+matrix.

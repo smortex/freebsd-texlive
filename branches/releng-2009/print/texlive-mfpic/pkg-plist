@@ -1,0 +1,30 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/mfpic/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/mfpic/changes.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/mfpic/coil.mps
+%%PORTDOCS%%share/texmf-dist/doc/generic/mfpic/examples/data.dat
+%%PORTDOCS%%share/texmf-dist/doc/generic/mfpic/examples/forfun.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/mfpic/examples/lapictures.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/mfpic/examples/pictures.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/mfpic/install.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/mfpic/mfpcard.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/mfpic/mfpcard.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/mfpic/mfpdoc.sty
+%%PORTDOCS%%share/texmf-dist/doc/generic/mfpic/mfpguide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/mfpic/mfpguide.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/mfpic/mfpic-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/mfpic/mfpic-doc.tex
+share/texmf-dist/metafont/mfpic/grafbase.mf
+share/texmf-dist/metapost/mfpic/dvipsnam.mp
+share/texmf-dist/metapost/mfpic/grafbase.mp
+%%PORTSRC%%share/texmf-dist/source/generic/mfpic/grafbase.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/mfpic/mfpic.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/mfpic/mfpic.ins
+share/texmf-dist/tex/generic/mfpic/mfpic.sty
+share/texmf-dist/tex/generic/mfpic/mfpic.tex
+share/texmf-dist/tex/generic/mfpic/mfppatch.tex
+@dirrmtry share/texmf-dist/tex/generic/mfpic
+@dirrmtry share/texmf-dist/source/generic/mfpic
+@dirrmtry share/texmf-dist/metapost/mfpic
+@dirrmtry share/texmf-dist/metafont/mfpic
+@dirrmtry share/texmf-dist/doc/generic/mfpic/examples
+@dirrmtry share/texmf-dist/doc/generic/mfpic

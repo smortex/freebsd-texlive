@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/vita/00Content
+%%PORTDOCS%%share/texmf-dist/doc/latex/vita/READ.ME
+share/texmf-dist/tex/latex/vita/vita.cls
+share/texmf-dist/tex/latex/vita/vitaComputerScience.clo
+share/texmf-dist/tex/latex/vita/vitaRacunalnistvo.clo
+share/texmf-dist/tex/latex/vita/vitaSolopetje.clo
+share/texmf-dist/tex/latex/vita/vitaVoice.clo
+@dirrmtry share/texmf-dist/tex/latex/vita
+@dirrmtry share/texmf-dist/doc/latex/vita

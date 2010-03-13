@@ -1,0 +1,36 @@
+share/texmf-dist/bibtex/bib/computational-complexity/journals.bib
+share/texmf-dist/bibtex/bst/computational-complexity/cc.bst
+share/texmf-dist/bibtex/bst/computational-complexity/cc2.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/computational-complexity/cc-cls-inline.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/computational-complexity/cc-portability-frame.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/computational-complexity/cc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/computational-complexity/cc2.dbj
+%%PORTDOCS%%share/texmf-dist/doc/latex/computational-complexity/ccquickref.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/computational-complexity/cctemplate.tex
+%%PORTSRC%%share/texmf-dist/source/latex/computational-complexity/cc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/computational-complexity/cc.ins
+share/texmf-dist/tex/latex/computational-complexity/cc-cls.sty
+share/texmf-dist/tex/latex/computational-complexity/cc.cls
+share/texmf-dist/tex/latex/computational-complexity/cc2cite.sty
+share/texmf-dist/tex/latex/computational-complexity/cc4amsart.sty
+share/texmf-dist/tex/latex/computational-complexity/cc4apjrnl.sty
+share/texmf-dist/tex/latex/computational-complexity/cc4elsart.sty
+share/texmf-dist/tex/latex/computational-complexity/cc4jT.sty
+share/texmf-dist/tex/latex/computational-complexity/cc4llncs.sty
+share/texmf-dist/tex/latex/computational-complexity/cc4siamltex.sty
+share/texmf-dist/tex/latex/computational-complexity/ccalgo.sty
+share/texmf-dist/tex/latex/computational-complexity/ccaux.sty
+share/texmf-dist/tex/latex/computational-complexity/cccite.sty
+share/texmf-dist/tex/latex/computational-complexity/ccdbs.sty
+share/texmf-dist/tex/latex/computational-complexity/cclayout.sty
+share/texmf-dist/tex/latex/computational-complexity/ccproof.sty
+share/texmf-dist/tex/latex/computational-complexity/ccqed.sty
+share/texmf-dist/tex/latex/computational-complexity/ccreltx.sty
+share/texmf-dist/tex/latex/computational-complexity/ccthm.sty
+share/texmf-dist/tex/latex/computational-complexity/relabel.sty
+share/texmf-dist/tex/latex/computational-complexity/thcc.sty
+@dirrmtry share/texmf-dist/tex/latex/computational-complexity
+@dirrmtry share/texmf-dist/source/latex/computational-complexity
+@dirrmtry share/texmf-dist/doc/latex/computational-complexity
+@dirrmtry share/texmf-dist/bibtex/bst/computational-complexity
+@dirrmtry share/texmf-dist/bibtex/bib/computational-complexity

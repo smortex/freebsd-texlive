@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/vrsion/vrsion.dvi
+%%PORTSRC%%share/texmf-dist/source/latex/vrsion/00readme.vrs
+%%PORTSRC%%share/texmf-dist/source/latex/vrsion/vrsion.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/vrsion/vrsion.ins
+share/texmf-dist/tex/latex/vrsion/vrsion.sty
+@dirrmtry share/texmf-dist/tex/latex/vrsion
+@dirrmtry share/texmf-dist/source/latex/vrsion
+@dirrmtry share/texmf-dist/doc/latex/vrsion

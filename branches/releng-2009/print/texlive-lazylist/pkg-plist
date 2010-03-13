@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/lazylist/lazylist.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/lazylist/lazylist.tex
+share/texmf-dist/tex/latex/lazylist/lazylist.sty
+@dirrmtry share/texmf-dist/tex/latex/lazylist
+@dirrmtry share/texmf-dist/doc/latex/lazylist

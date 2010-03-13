@@ -1,0 +1,28 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fonetika/FonetikaDaniaIwonaeBold.ttf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fonetika/FonetikaDaniaIwonaeRegular.ttf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fonetika/FonetikaDaniaPallaeBold.ttf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fonetika/FonetikaDaniaPallaeRegular.ttf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fonetika/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fonetika/fonetika.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fonetika/fonetika.tex
+share/texmf-dist/fonts/afm/public/fonetika/FonetikaDaniaIwonaeBold.afm
+share/texmf-dist/fonts/afm/public/fonetika/FonetikaDaniaIwonaeRegular.afm
+share/texmf-dist/fonts/afm/public/fonetika/FonetikaDaniaPallaeBold.afm
+share/texmf-dist/fonts/afm/public/fonetika/FonetikaDaniaPallaeRegular.afm
+share/texmf-dist/fonts/map/dvips/fonetika/fonetika.map
+share/texmf-dist/fonts/tfm/public/fonetika/fonetika.tfm
+share/texmf-dist/fonts/tfm/public/fonetika/fonetikabold.tfm
+share/texmf-dist/fonts/tfm/public/fonetika/fonetikasans.tfm
+share/texmf-dist/fonts/tfm/public/fonetika/fonetikasansbold.tfm
+share/texmf-dist/fonts/type1/public/fonetika/FonetikaDaniaIwonaeBold.pfb
+share/texmf-dist/fonts/type1/public/fonetika/FonetikaDaniaIwonaeRegular.pfb
+share/texmf-dist/fonts/type1/public/fonetika/FonetikaDaniaPallaeBold.pfb
+share/texmf-dist/fonts/type1/public/fonetika/FonetikaDaniaPallaeRegular.pfb
+share/texmf-dist/tex/latex/fonetika/fonetika.sty
+share/texmf-dist/tex/latex/fonetika/t1fonetika.fd
+@dirrmtry share/texmf-dist/tex/latex/fonetika
+@dirrmtry share/texmf-dist/fonts/type1/public/fonetika
+@dirrmtry share/texmf-dist/fonts/tfm/public/fonetika
+@dirrmtry share/texmf-dist/fonts/map/dvips/fonetika
+@dirrmtry share/texmf-dist/fonts/afm/public/fonetika
+@dirrmtry share/texmf-dist/doc/fonts/fonetika

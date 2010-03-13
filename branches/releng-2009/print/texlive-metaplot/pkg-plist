@@ -1,0 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/metaplot/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/metaplot/examples/cap1.cc
+%%PORTDOCS%%share/texmf-dist/doc/latex/metaplot/examples/cap1.mp
+%%PORTDOCS%%share/texmf-dist/doc/latex/metaplot/examples/capillary.cc
+%%PORTDOCS%%share/texmf-dist/doc/latex/metaplot/examples/cpoint.cc
+%%PORTDOCS%%share/texmf-dist/doc/latex/metaplot/examples/cpoint.h
+%%PORTDOCS%%share/texmf-dist/doc/latex/metaplot/examples/figure_1.mp
+%%PORTDOCS%%share/texmf-dist/doc/latex/metaplot/examples/figures_2-7.mp
+%%PORTDOCS%%share/texmf-dist/doc/latex/metaplot/examples/figures_8-9.mp
+%%PORTDOCS%%share/texmf-dist/doc/latex/metaplot/examples/gpl.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/metaplot/examples/mc2.mp
+%%PORTDOCS%%share/texmf-dist/doc/latex/metaplot/examples/metacontour.cc
+%%PORTDOCS%%share/texmf-dist/doc/latex/metaplot/examples/metacontour.h
+%%PORTDOCS%%share/texmf-dist/doc/latex/metaplot/examples/metacontour_main.cc
+%%PORTDOCS%%share/texmf-dist/doc/latex/metaplot/metaplot_preprint.pdf
+share/texmf-dist/metapost/metaplot/axes.mp
+share/texmf-dist/metapost/metaplot/metaplot.mp
+@dirrmtry share/texmf-dist/metapost/metaplot
+@dirrmtry share/texmf-dist/doc/latex/metaplot/examples
+@dirrmtry share/texmf-dist/doc/latex/metaplot

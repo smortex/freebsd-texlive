@@ -1,0 +1,28 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcldoc/README.txt
+%%PORTSRC%%share/texmf-dist/source/latex/tcldoc/dtxload.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tcldoc/dtxload.ins
+%%PORTSRC%%share/texmf-dist/source/latex/tcldoc/dtxload.tcl
+%%PORTSRC%%share/texmf-dist/source/latex/tcldoc/examples/README.txt
+%%PORTSRC%%share/texmf-dist/source/latex/tcldoc/examples/parsetcl.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tcldoc/examples/parsetcl.ins
+%%PORTSRC%%share/texmf-dist/source/latex/tcldoc/examples/pdf.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tcldoc/examples/pdf.ins
+%%PORTSRC%%share/texmf-dist/source/latex/tcldoc/pstokens.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tcldoc/tcldoc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tcldoc/tcldoc.ins
+%%PORTSRC%%share/texmf-dist/source/latex/tcldoc/tclldoc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tcldoc/tclldoc.ins
+%%PORTSRC%%share/texmf-dist/source/latex/tcldoc/tools/README.txt
+%%PORTSRC%%share/texmf-dist/source/latex/tcldoc/tools/eemenu.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tcldoc/tools/eemenu.ins
+%%PORTSRC%%share/texmf-dist/source/latex/tcldoc/tools/sourcedtx.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tcldoc/tools/sourcedtx.ins
+share/texmf-dist/tex/latex/tcldoc/tcldoc.cls
+share/texmf-dist/tex/latex/tcldoc/tcldoc.sty
+share/texmf-dist/tex/latex/tcldoc/tclldoc.cls
+share/texmf-dist/tex/latex/tcldoc/tclldoc.sty
+@dirrmtry share/texmf-dist/tex/latex/tcldoc
+@dirrmtry share/texmf-dist/source/latex/tcldoc/tools
+@dirrmtry share/texmf-dist/source/latex/tcldoc/examples
+@dirrmtry share/texmf-dist/source/latex/tcldoc
+@dirrmtry share/texmf-dist/doc/latex/tcldoc

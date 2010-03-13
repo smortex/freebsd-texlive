@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/psfrag/00readme.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/psfrag/announce.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/psfrag/example.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/psfrag/pfgguide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/psfrag/pfgguide.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/psfrag/testfig.eps
+share/texmf-dist/dvips/psfrag/psfrag.pro
+%%PORTSRC%%share/texmf-dist/source/latex/psfrag/psfrag.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/psfrag/psfrag.ins
+share/texmf-dist/tex/latex/psfrag/psfrag.sty
+@dirrmtry share/texmf-dist/tex/latex/psfrag
+@dirrmtry share/texmf-dist/source/latex/psfrag
+@dirrmtry share/texmf-dist/dvips/psfrag
+@dirrmtry share/texmf-dist/doc/latex/psfrag

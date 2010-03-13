@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/macqassign/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/macqassign/logo.ps
+%%PORTDOCS%%share/texmf-dist/doc/latex/macqassign/sample-assign.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/macqassign/sample-assign.tex
+share/texmf-dist/tex/latex/macqassign/macqassign.cls
+@dirrmtry share/texmf-dist/tex/latex/macqassign
+@dirrmtry share/texmf-dist/doc/latex/macqassign

@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/properties/readme.de
+%%PORTDOCS%%share/texmf-dist/doc/latex/properties/testprop.tex
+share/texmf-dist/tex/latex/properties/properties.sty
+@dirrmtry share/texmf-dist/tex/latex/properties
+@dirrmtry share/texmf-dist/doc/latex/properties

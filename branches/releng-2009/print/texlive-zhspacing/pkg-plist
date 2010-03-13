@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/zhspacing/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/zhspacing/zhs-man.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/zhspacing/zhs-man.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/zhspacing/zhspacing-context-test.tex
+share/texmf-dist/tex/xetex/zhspacing/context/t-zhspacing.tex
+share/texmf-dist/tex/xetex/zhspacing/latex/zhfont.sty
+share/texmf-dist/tex/xetex/zhspacing/latex/zhulem.sty
+share/texmf-dist/tex/xetex/zhspacing/plain/zhmath.sty
+share/texmf-dist/tex/xetex/zhspacing/plain/zhsmyclass.sty
+share/texmf-dist/tex/xetex/zhspacing/plain/zhspacing.sty
+share/texmf-dist/tex/xetex/zhspacing/plain/zhsusefulmacros.sty
+@dirrmtry share/texmf-dist/tex/xetex/zhspacing/plain
+@dirrmtry share/texmf-dist/tex/xetex/zhspacing/latex
+@dirrmtry share/texmf-dist/tex/xetex/zhspacing/context
+@dirrmtry share/texmf-dist/doc/latex/zhspacing

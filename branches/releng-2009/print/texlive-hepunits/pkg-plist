@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepunits/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepunits/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepunits/hepunits.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepunits/hepunits.tex
+share/texmf-dist/tex/latex/hepunits/hepunits.sty
+@dirrmtry share/texmf-dist/tex/latex/hepunits
+@dirrmtry share/texmf-dist/doc/latex/hepunits

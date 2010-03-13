@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/comment/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/comment/comm_latest.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/comment/comment.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/comment/comment.tex
+%%PORTSRC%%share/texmf-dist/source/latex/comment/comment.cut
+share/texmf-dist/tex/latex/comment/comment.sty
+@dirrmtry share/texmf-dist/tex/latex/comment
+@dirrmtry share/texmf-dist/source/latex/comment
+@dirrmtry share/texmf-dist/doc/latex/comment

@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/nrc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/nrc/authors.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/nrc/userguide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nrc/userguide.tex
+%%PORTSRC%%share/texmf-dist/source/latex/nrc/nrc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/nrc/nrc.ins
+share/texmf-dist/tex/latex/nrc/nrc1.cls
+share/texmf-dist/tex/latex/nrc/nrc1.sty
+share/texmf-dist/tex/latex/nrc/nrc2.cls
+share/texmf-dist/tex/latex/nrc/nrc2.sty
+share/texmf-dist/tex/latex/nrc/nrcdoc.sty
+@dirrmtry share/texmf-dist/tex/latex/nrc
+@dirrmtry share/texmf-dist/source/latex/nrc
+@dirrmtry share/texmf-dist/doc/latex/nrc

@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/picinpar/picinpar.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/picinpar/picinpar.tex
+share/texmf-dist/tex/latex/picinpar/picinpar.sty
+@dirrmtry share/texmf-dist/tex/latex/picinpar
+@dirrmtry share/texmf-dist/doc/latex/picinpar

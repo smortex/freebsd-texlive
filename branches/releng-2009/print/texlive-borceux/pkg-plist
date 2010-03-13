@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/borceux/Diagram_Mode_d_Emploi
+%%PORTDOCS%%share/texmf-dist/doc/generic/borceux/Diagram_Read_Me
+%%PORTSRC%%share/texmf-dist/source/generic/borceux/compatibility/OldDiagram
+%%PORTSRC%%share/texmf-dist/source/generic/borceux/compatibility/OldMaxiDiagram
+%%PORTSRC%%share/texmf-dist/source/generic/borceux/compatibility/OldMicroDiagram
+%%PORTSRC%%share/texmf-dist/source/generic/borceux/compatibility/OldMiniDiagram
+%%PORTSRC%%share/texmf-dist/source/generic/borceux/compatibility/OldMultipleArrows
+share/texmf-dist/tex/generic/borceux/Diagram
+share/texmf-dist/tex/generic/borceux/MaxiDiagram
+share/texmf-dist/tex/generic/borceux/MicroDiagram
+share/texmf-dist/tex/generic/borceux/MiniDiagram
+share/texmf-dist/tex/generic/borceux/MultipleArrows
+@dirrmtry share/texmf-dist/tex/generic/borceux
+@dirrmtry share/texmf-dist/source/generic/borceux/compatibility
+@dirrmtry share/texmf-dist/doc/generic/borceux

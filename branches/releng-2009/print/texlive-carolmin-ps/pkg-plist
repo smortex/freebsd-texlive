@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/carolmin-ps/README
+share/texmf-dist/fonts/afm/public/carolmin-ps/cmin10.afm
+share/texmf-dist/fonts/afm/public/carolmin-ps/cmin17.afm
+share/texmf-dist/fonts/afm/public/carolmin-ps/cmin7.afm
+share/texmf-dist/fonts/afm/public/carolmin-ps/cminb10.afm
+share/texmf-dist/fonts/afm/public/carolmin-ps/cminb17.afm
+share/texmf-dist/fonts/afm/public/carolmin-ps/cminb7.afm
+share/texmf-dist/fonts/map/dvips/carolmin-ps/cmin.map
+share/texmf-dist/fonts/type1/public/carolmin-ps/cmin10.pfb
+share/texmf-dist/fonts/type1/public/carolmin-ps/cmin17.pfb
+share/texmf-dist/fonts/type1/public/carolmin-ps/cmin7.pfb
+share/texmf-dist/fonts/type1/public/carolmin-ps/cminb10.pfb
+share/texmf-dist/fonts/type1/public/carolmin-ps/cminb17.pfb
+share/texmf-dist/fonts/type1/public/carolmin-ps/cminb7.pfb
+@dirrmtry share/texmf-dist/fonts/type1/public/carolmin-ps
+@dirrmtry share/texmf-dist/fonts/map/dvips/carolmin-ps
+@dirrmtry share/texmf-dist/fonts/afm/public/carolmin-ps
+@dirrmtry share/texmf-dist/doc/fonts/carolmin-ps
