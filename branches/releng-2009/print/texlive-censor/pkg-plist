@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/censor/censor.sty
 @dirrmtry share/texmf-dist/tex/latex/censor
 @dirrmtry share/texmf-dist/doc/latex/censor
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

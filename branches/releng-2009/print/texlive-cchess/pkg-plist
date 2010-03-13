@@ -5,3 +5,5 @@ share/texmf-dist/tex/latex/cchess/cchess.sty
 @dirrmtry share/texmf-dist/tex/latex/cchess
 @dirrmtry share/texmf-dist/fonts/tfm/public/cchess
 @dirrmtry share/texmf-dist/fonts/source/public/cchess
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

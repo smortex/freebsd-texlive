@@ -7,3 +7,5 @@ share/texmf-dist/fonts/tfm/public/euxm/euxm5.tfm
 share/texmf-dist/fonts/tfm/public/euxm/euxm7.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/euxm
 @dirrmtry share/texmf-dist/fonts/source/public/euxm
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

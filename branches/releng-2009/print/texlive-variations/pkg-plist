@@ -7,3 +7,5 @@ share/texmf-dist/tex/generic/variations/variations.sty
 share/texmf-dist/tex/generic/variations/variations.tex
 @dirrmtry share/texmf-dist/tex/generic/variations
 @dirrmtry share/texmf-dist/doc/generic/variations
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

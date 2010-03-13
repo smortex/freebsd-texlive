@@ -13,3 +13,5 @@ share/texmf-dist/tex/latex/esint/uesint.fd
 @dirrmtry share/texmf-dist/fonts/tfm/public/esint
 @dirrmtry share/texmf-dist/fonts/source/public/esint
 @dirrmtry share/texmf-dist/doc/latex/esint
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

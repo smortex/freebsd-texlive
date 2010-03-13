@@ -39,3 +39,5 @@ share/texmf-dist/fonts/type1/public/cc-pl/pcti10.pfb
 @dirrmtry share/texmf-dist/fonts/source/public/cc-pl
 @dirrmtry share/texmf-dist/fonts/map/dvips/cc-pl
 @dirrmtry share/texmf-dist/doc/fonts/cc-pl
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

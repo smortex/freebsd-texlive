@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/pst-grad/pst-grad.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-grad
 @dirrmtry share/texmf-dist/dvips/pst-grad
 @dirrmtry share/texmf-dist/doc/generic/pst-grad
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -21,3 +21,5 @@ share/texmf-dist/scripts/epspdf/makegray.pro
 @dirrmtry share/texmf/doc/info
 @dirrmtry share/texmf-dist/doc/support/epspdf/images
 @dirrmtry share/texmf-dist/doc/support/epspdf
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

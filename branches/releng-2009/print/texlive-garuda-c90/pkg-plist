@@ -9,3 +9,5 @@ share/texmf-dist/fonts/tfm/public/garuda-c90/fgdr8z.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/garuda-c90
 @dirrmtry share/texmf-dist/fonts/map/dvips/garuda-c90
 @dirrmtry share/texmf-dist/dvips/garuda-c90
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -13,3 +13,5 @@ share/texmf-dist/tex/latex/carlisle/slashed.sty
 @dirrmtry share/texmf-dist/tex/latex/carlisle
 @dirrmtry share/texmf-dist/source/latex/carlisle
 @dirrmtry share/texmf-dist/doc/latex/carlisle
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

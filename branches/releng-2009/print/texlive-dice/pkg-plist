@@ -5,3 +5,5 @@ share/texmf-dist/fonts/tfm/public/dice/dice3d.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/dice
 @dirrmtry share/texmf-dist/fonts/source/public/dice
 @dirrmtry share/texmf-dist/doc/fonts/dice
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

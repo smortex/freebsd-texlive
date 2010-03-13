@@ -3,3 +3,5 @@
 share/texmf-dist/tex/plain/resumemac/resumemac.tex
 @dirrmtry share/texmf-dist/tex/plain/resumemac
 @dirrmtry share/texmf-dist/doc/plain/resumemac
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

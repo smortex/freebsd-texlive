@@ -11,3 +11,5 @@ share/texmf-dist/tex/latex/pst-eps/pst-eps.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-eps
 @dirrmtry share/texmf-dist/source/generic/pst-eps
 @dirrmtry share/texmf-dist/doc/generic/pst-eps
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

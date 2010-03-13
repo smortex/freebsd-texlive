@@ -6,3 +6,5 @@
 share/texmf-dist/tex/latex/syntax/syntax.tex
 @dirrmtry share/texmf-dist/tex/latex/syntax
 @dirrmtry share/texmf-dist/doc/latex/syntax
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

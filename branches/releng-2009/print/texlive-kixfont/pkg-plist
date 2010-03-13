@@ -5,3 +5,5 @@ share/texmf-dist/fonts/tfm/public/kixfont/kix.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/kixfont
 @dirrmtry share/texmf-dist/fonts/source/public/kixfont
 @dirrmtry share/texmf-dist/doc/fonts/kixfont
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

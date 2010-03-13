@@ -5,3 +5,5 @@
 share/texmf-dist/metapost/exteps/exteps.mp
 @dirrmtry share/texmf-dist/metapost/exteps
 @dirrmtry share/texmf-dist/doc/metapost/exteps
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

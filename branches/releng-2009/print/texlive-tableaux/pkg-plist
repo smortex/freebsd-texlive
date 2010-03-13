@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/tableaux/minimum.sty
 share/texmf-dist/tex/latex/tableaux/tableau.sty
 @dirrmtry share/texmf-dist/tex/latex/tableaux
 @dirrmtry share/texmf-dist/doc/latex/tableaux
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

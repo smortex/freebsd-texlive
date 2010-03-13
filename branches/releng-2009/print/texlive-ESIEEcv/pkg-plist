@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/ESIEEcv/ESIEEcv.sty
 @dirrmtry share/texmf-dist/tex/latex/ESIEEcv
 @dirrmtry share/texmf-dist/source/latex/ESIEEcv
 @dirrmtry share/texmf-dist/doc/latex/ESIEEcv
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

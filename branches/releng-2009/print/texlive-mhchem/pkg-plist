@@ -4,3 +4,5 @@ share/texmf-dist/tex/latex/mhchem/mhchem.sty
 share/texmf-dist/tex/latex/mhchem/rsphrase.sty
 @dirrmtry share/texmf-dist/tex/latex/mhchem
 @dirrmtry share/texmf-dist/doc/latex/mhchem
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

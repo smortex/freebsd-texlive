@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/dramatist/dramatist.sty
 @dirrmtry share/texmf-dist/tex/latex/dramatist
 @dirrmtry share/texmf-dist/source/latex/dramatist
 @dirrmtry share/texmf-dist/doc/latex/dramatist
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

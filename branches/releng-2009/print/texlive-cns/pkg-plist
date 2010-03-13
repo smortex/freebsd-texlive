@@ -297,3 +297,5 @@ share/texmf-dist/fonts/tfm/cns/c7so12/c7so1226.tfm
 @dirrmtry share/texmf-dist/doc/fonts/cns/cns40-3
 @dirrmtry share/texmf-dist/doc/fonts/cns/cns40-2
 @dirrmtry share/texmf-dist/doc/fonts/cns/cns40-1
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

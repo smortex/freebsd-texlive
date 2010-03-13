@@ -853,3 +853,5 @@ share/texmf-dist/tex/latex/cm-super/type1ec.sty
 @dirrmtry share/texmf-dist/fonts/afm/public/cm-super
 @dirrmtry share/texmf-dist/dvips/cm-super
 @dirrmtry share/texmf-dist/doc/fonts/cm-super
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

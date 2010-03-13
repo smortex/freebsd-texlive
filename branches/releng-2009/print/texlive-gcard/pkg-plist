@@ -5,3 +5,5 @@
 share/texmf-dist/tex/latex/gcard/gcard.sty
 @dirrmtry share/texmf-dist/tex/latex/gcard
 @dirrmtry share/texmf-dist/doc/latex/gcard
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

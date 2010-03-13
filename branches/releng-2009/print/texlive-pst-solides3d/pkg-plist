@@ -300,3 +300,5 @@ share/texmf-dist/tex/latex/pst-solides3d/pst-solides3d.sty
 @dirrmtry share/texmf-dist/doc/generic/pst-solides3d/doc-en
 @dirrmtry share/texmf-dist/doc/generic/pst-solides3d/doc
 @dirrmtry share/texmf-dist/doc/generic/pst-solides3d
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

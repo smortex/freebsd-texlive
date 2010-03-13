@@ -222,3 +222,5 @@ share/texmf-dist/tex/latex/archaic/viking.sty
 @dirrmtry share/texmf-dist/fonts/map/dvips/archaic
 @dirrmtry share/texmf-dist/fonts/afm/public/archaic
 @dirrmtry share/texmf-dist/doc/fonts/archaic
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

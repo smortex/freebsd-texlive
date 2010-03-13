@@ -15,3 +15,5 @@ share/texmf-dist/tex/latex/cjkpunct/CJKpunct.sty
 @dirrmtry share/texmf-dist/doc/latex/cjkpunct/setpunct
 @dirrmtry share/texmf-dist/doc/latex/cjkpunct/examples
 @dirrmtry share/texmf-dist/doc/latex/cjkpunct
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

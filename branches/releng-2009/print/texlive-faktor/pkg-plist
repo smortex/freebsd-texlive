@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/faktor/faktor.sty
 @dirrmtry share/texmf-dist/tex/latex/faktor
 @dirrmtry share/texmf-dist/source/latex/faktor
 @dirrmtry share/texmf-dist/doc/latex/faktor
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

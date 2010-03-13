@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/sdrt/sdrt.sty
 @dirrmtry share/texmf-dist/tex/latex/sdrt
 @dirrmtry share/texmf-dist/doc/latex/sdrt
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

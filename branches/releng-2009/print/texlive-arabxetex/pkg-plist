@@ -156,3 +156,5 @@ share/texmf-dist/tex/xelatex/arabxetex/araxetex.sty
 @dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping/arabxetex
 @dirrmtry share/texmf-dist/doc/xelatex/arabxetex/examples
 @dirrmtry share/texmf-dist/doc/xelatex/arabxetex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

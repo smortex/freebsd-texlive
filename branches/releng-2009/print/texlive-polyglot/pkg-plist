@@ -18,3 +18,5 @@ share/texmf-dist/tex/latex/polyglot/polyglot.sty
 @dirrmtry share/texmf-dist/source/latex/polyglot/langs
 @dirrmtry share/texmf-dist/source/latex/polyglot
 @dirrmtry share/texmf-dist/doc/latex/polyglot
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

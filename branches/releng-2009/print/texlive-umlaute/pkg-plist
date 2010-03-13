@@ -11,3 +11,5 @@ share/texmf-dist/tex/latex/umlaute/umlaute.sty
 @dirrmtry share/texmf-dist/tex/latex/umlaute
 @dirrmtry share/texmf-dist/source/latex/umlaute
 @dirrmtry share/texmf-dist/doc/latex/umlaute
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

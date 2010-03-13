@@ -5,3 +5,5 @@
 share/texmf-dist/tex/latex/macqassign/macqassign.cls
 @dirrmtry share/texmf-dist/tex/latex/macqassign
 @dirrmtry share/texmf-dist/doc/latex/macqassign
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

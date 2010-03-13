@@ -18,3 +18,5 @@ share/texmf-dist/tex/latex/natbib/natbib.sty
 @dirrmtry share/texmf-dist/source/latex/natbib
 @dirrmtry share/texmf-dist/doc/latex/natbib
 @dirrmtry share/texmf-dist/bibtex/bst/natbib
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

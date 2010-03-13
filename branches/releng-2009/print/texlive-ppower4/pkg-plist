@@ -59,3 +59,5 @@ share/texmf-dist/tex/latex/ppower4/texpause.sty
 @dirrmtry share/texmf-dist/doc/latex/ppower4/edemo
 @dirrmtry share/texmf-dist/doc/latex/ppower4/demo
 @dirrmtry share/texmf-dist/doc/latex/ppower4
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

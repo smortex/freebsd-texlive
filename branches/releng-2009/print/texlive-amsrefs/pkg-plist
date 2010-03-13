@@ -55,3 +55,5 @@ share/texmf-dist/tex/latex/amsrefs/textcmds.sty
 @dirrmtry share/texmf-dist/doc/latex/amsrefs
 @dirrmtry share/texmf-dist/bibtex/bst/amsrefs
 @dirrmtry share/texmf-dist/bibtex/bib/amsrefs
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -46,3 +46,5 @@ share/texmf-dist/tex/latex/fancytooltips/fancytooltips.sty
 @dirrmtry share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht
 @dirrmtry share/texmf-dist/doc/latex/fancytooltips/examples
 @dirrmtry share/texmf-dist/doc/latex/fancytooltips
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

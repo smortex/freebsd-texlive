@@ -20,3 +20,5 @@ share/texmf-dist/tex/latex/biblatex-philosophy/philosophy-verbose.bbx
 share/texmf-dist/tex/latex/biblatex-philosophy/philosophy-verbose.cbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-philosophy
 @dirrmtry share/texmf-dist/doc/latex/biblatex-philosophy
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

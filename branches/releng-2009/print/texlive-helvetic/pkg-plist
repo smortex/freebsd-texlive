@@ -350,3 +350,5 @@ share/texmf-dist/tex/latex/helvetic/ts1uhv.fd
 @dirrmtry share/texmf-dist/fonts/afm/urw/helvetic
 @dirrmtry share/texmf-dist/fonts/afm/adobe/helvetic
 @dirrmtry share/texmf-dist/dvips/helvetic
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

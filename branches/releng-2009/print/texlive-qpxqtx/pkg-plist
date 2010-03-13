@@ -37,3 +37,5 @@ share/texmf-dist/tex/generic/qpxqtx/qtxmath.tex
 @dirrmtry share/texmf-dist/fonts/vf/public/qpxqtx
 @dirrmtry share/texmf-dist/fonts/tfm/public/qpxqtx
 @dirrmtry share/texmf-dist/doc/fonts/qpxqtx
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

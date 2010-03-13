@@ -19,3 +19,5 @@ share/texmf-dist/tex/latex/pacioli/t1cpc.fd
 @dirrmtry share/texmf-dist/fonts/tfm/public/pacioli
 @dirrmtry share/texmf-dist/fonts/source/public/pacioli
 @dirrmtry share/texmf-dist/doc/fonts/pacioli
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

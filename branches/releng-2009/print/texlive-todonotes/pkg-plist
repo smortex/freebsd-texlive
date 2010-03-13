@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/todonotes/todonotes.sty
 @dirrmtry share/texmf-dist/tex/latex/todonotes
 @dirrmtry share/texmf-dist/source/latex/todonotes
 @dirrmtry share/texmf-dist/doc/latex/todonotes
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

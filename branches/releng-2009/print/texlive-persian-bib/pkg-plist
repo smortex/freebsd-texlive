@@ -13,3 +13,5 @@ share/texmf-dist/bibtex/csf/persian-bib/cp1256fa.csf
 @dirrmtry share/texmf-dist/doc/xelatex/persian-bib
 @dirrmtry share/texmf-dist/bibtex/csf/persian-bib
 @dirrmtry share/texmf-dist/bibtex/bst/persian-bib
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -23,3 +23,5 @@ share/texmf-dist/tex/latex/fge/fge.sty
 @dirrmtry share/texmf-dist/fonts/source/public/fge
 @dirrmtry share/texmf-dist/fonts/map/dvips/fge
 @dirrmtry share/texmf-dist/doc/fonts/fge
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

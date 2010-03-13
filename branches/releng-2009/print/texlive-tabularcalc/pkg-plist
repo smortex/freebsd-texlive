@@ -8,3 +8,5 @@
 share/texmf-dist/tex/latex/tabularcalc/tabularcalc.sty
 @dirrmtry share/texmf-dist/tex/latex/tabularcalc
 @dirrmtry share/texmf-dist/doc/latex/tabularcalc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

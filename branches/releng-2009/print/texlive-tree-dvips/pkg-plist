@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/tree-dvips/tree-dvips.sty
 @dirrmtry share/texmf-dist/source/latex/tree-dvips
 @dirrmtry share/texmf-dist/dvips/tree-dvips
 @dirrmtry share/texmf-dist/doc/latex/tree-dvips
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

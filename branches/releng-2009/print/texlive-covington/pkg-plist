@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/covington/covington.sty
 @dirrmtry share/texmf-dist/tex/latex/covington
 @dirrmtry share/texmf-dist/doc/latex/covington
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

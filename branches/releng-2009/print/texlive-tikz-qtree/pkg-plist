@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty
 share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.tex
 @dirrmtry share/texmf-dist/tex/latex/tikz-qtree
 @dirrmtry share/texmf-dist/doc/latex/tikz-qtree
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

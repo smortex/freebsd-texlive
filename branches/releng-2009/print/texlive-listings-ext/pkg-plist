@@ -20,3 +20,5 @@ share/texmf-dist/tex/latex/listings-ext/listings-ext.sty
 @dirrmtry share/texmf-dist/tex/latex/listings-ext
 @dirrmtry share/texmf-dist/source/latex/listings-ext
 @dirrmtry share/texmf-dist/doc/latex/listings-ext
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

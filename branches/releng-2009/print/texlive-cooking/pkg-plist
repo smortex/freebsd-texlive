@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/cooking/cooking.sty
 @dirrmtry share/texmf-dist/tex/latex/cooking
 @dirrmtry share/texmf-dist/source/latex/cooking
 @dirrmtry share/texmf-dist/doc/latex/cooking
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -154,3 +154,5 @@ share/texmf-dist/tex/generic/hyph-utf8/special/spechyph-ot1-la.tex
 @dirrmtry share/texmf-dist/doc/generic/hyph-utf8/hu
 @dirrmtry share/texmf-dist/doc/generic/hyph-utf8/bg
 @dirrmtry share/texmf-dist/doc/generic/hyph-utf8
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

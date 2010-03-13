@@ -7,3 +7,5 @@
 share/texmf-dist/tex/generic/hyphenex/ushyphex.tex
 @dirrmtry share/texmf-dist/tex/generic/hyphenex
 @dirrmtry share/texmf-dist/source/generic/hyphenex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/pst-platon/pst-platon.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-platon
 @dirrmtry share/texmf-dist/source/generic/pst-platon
 @dirrmtry share/texmf-dist/doc/generic/pst-platon
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

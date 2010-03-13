@@ -14,3 +14,5 @@ share/texmf-dist/tex/generic/vaucanson-g/vaucanson.sty
 @dirrmtry share/texmf-dist/tex/generic/vaucanson-g
 @dirrmtry share/texmf-dist/doc/generic/vaucanson-g/VCManual-src
 @dirrmtry share/texmf-dist/doc/generic/vaucanson-g
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

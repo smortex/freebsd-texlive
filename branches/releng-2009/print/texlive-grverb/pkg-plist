@@ -20,3 +20,5 @@ share/texmf-dist/tex/latex/grverb/grverb.sty
 @dirrmtry share/texmf-dist/fonts/map/dvips/grverb
 @dirrmtry share/texmf-dist/fonts/afm/public/grverb
 @dirrmtry share/texmf-dist/doc/latex/grverb
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/nih/denselists.sty
 share/texmf-dist/tex/latex/nih/nih.cls
 @dirrmtry share/texmf-dist/tex/latex/nih
 @dirrmtry share/texmf-dist/doc/latex/nih
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

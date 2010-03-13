@@ -351,3 +351,5 @@ share/texmf-dist/tex/generic/musixtex/musixtri.tex
 @dirrmtry share/texmf-dist/dvips/musixtex
 @dirrmtry share/texmf-dist/doc/generic/musixtex/examples
 @dirrmtry share/texmf-dist/doc/generic/musixtex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

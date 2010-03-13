@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/ptptex/ptptex.cls
 share/texmf-dist/tex/latex/ptptex/wrapft.sty
 @dirrmtry share/texmf-dist/tex/latex/ptptex
 @dirrmtry share/texmf-dist/doc/latex/ptptex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

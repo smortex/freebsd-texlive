@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/maple/mtn.cls
 @dirrmtry share/texmf-dist/tex/latex/maple
 @dirrmtry share/texmf-dist/doc/latex/maple
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

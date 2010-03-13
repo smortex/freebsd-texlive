@@ -16,3 +16,5 @@ share/texmf-dist/tex/latex/extsizes/size8.clo
 share/texmf-dist/tex/latex/extsizes/size9.clo
 @dirrmtry share/texmf-dist/tex/latex/extsizes
 @dirrmtry share/texmf-dist/doc/latex/extsizes
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

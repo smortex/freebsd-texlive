@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/pst-bar/pst-bar.sty
 @dirrmtry share/texmf-dist/source/generic/pst-bar
 @dirrmtry share/texmf-dist/dvips/pst-bar
 @dirrmtry share/texmf-dist/doc/generic/pst-bar
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

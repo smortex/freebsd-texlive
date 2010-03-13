@@ -13,3 +13,5 @@
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf-dist/source/generic/mkjobtexmf
 @dirrmtry share/texmf-dist/doc/generic/mkjobtexmf
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

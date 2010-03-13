@@ -11,3 +11,5 @@ share/texmf-dist/metapost/dviincl/fix_brks.mp
 share/texmf-dist/metapost/dviincl/fix_page.mp
 @dirrmtry share/texmf-dist/metapost/dviincl
 @dirrmtry share/texmf-dist/doc/metapost/dviincl
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

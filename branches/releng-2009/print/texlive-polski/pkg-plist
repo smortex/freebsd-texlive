@@ -32,3 +32,5 @@ share/texmf-dist/tex/latex/polski/qxenc.def
 @dirrmtry share/texmf-dist/tex/latex/polski
 @dirrmtry share/texmf-dist/source/latex/polski
 @dirrmtry share/texmf-dist/doc/latex/polski
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -66,3 +66,5 @@ share/texmf-dist/tex/latex/economic/worlddev.cls
 @dirrmtry share/texmf-dist/tex/latex/economic
 @dirrmtry share/texmf-dist/doc/bibtex/economic
 @dirrmtry share/texmf-dist/bibtex/bst/economic
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

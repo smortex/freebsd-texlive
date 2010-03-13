@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/eemeir/eemeir.sty
 @dirrmtry share/texmf-dist/tex/latex/eemeir
 @dirrmtry share/texmf-dist/source/latex/eemeir
 @dirrmtry share/texmf-dist/doc/latex/eemeir
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

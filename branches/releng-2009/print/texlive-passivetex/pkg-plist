@@ -10,3 +10,5 @@ share/texmf-dist/tex/xmltex/passivetex/teixmlslides.sty
 share/texmf-dist/tex/xmltex/passivetex/ucharacters.sty
 share/texmf-dist/tex/xmltex/passivetex/unicode.sty
 @dirrmtry share/texmf-dist/tex/xmltex/passivetex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

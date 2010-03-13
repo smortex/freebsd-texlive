@@ -27,3 +27,5 @@ share/texmf-dist/tex/latex/tufte-latex/tufte-handout.cls
 @dirrmtry share/texmf-dist/tex/latex/tufte-latex
 @dirrmtry share/texmf-dist/doc/latex/tufte-latex/graphics
 @dirrmtry share/texmf-dist/doc/latex/tufte-latex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

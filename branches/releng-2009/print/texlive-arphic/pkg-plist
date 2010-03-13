@@ -1591,3 +1591,5 @@ share/texmf-dist/fonts/vf/arphic/gkaimp/gkaimp32.vf
 @dirrmtry share/texmf-dist/doc/fonts/arphic/bsmiu
 @dirrmtry share/texmf-dist/doc/fonts/arphic/bkaiu
 @dirrmtry share/texmf-dist/doc/fonts/arphic
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

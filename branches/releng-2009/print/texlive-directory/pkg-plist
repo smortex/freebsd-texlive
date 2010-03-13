@@ -17,3 +17,5 @@ share/texmf-dist/tex/latex/directory/directory.sty
 @dirrmtry share/texmf-dist/doc/latex/directory
 @dirrmtry share/texmf-dist/bibtex/bst/directory
 @dirrmtry share/texmf-dist/bibtex/bib/directory
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

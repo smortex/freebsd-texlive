@@ -18,3 +18,5 @@ share/texmf-dist/tex/startex/base/startex.tex
 @dirrmtry share/texmf-dist/source/startex/base
 @dirrmtry share/texmf-dist/makeindex/startex
 @dirrmtry share/texmf-dist/doc/otherformats/startex/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

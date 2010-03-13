@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/inlinebib/pageranges.sty
 @dirrmtry share/texmf-dist/tex/latex/inlinebib
 @dirrmtry share/texmf-dist/doc/latex/inlinebib
 @dirrmtry share/texmf-dist/bibtex/bst/inlinebib
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -6,3 +6,5 @@ share/texmf-dist/tex/context/third/lettrine/t-lettrine.tex
 @dirrmtry share/texmf-dist/tex/context/third/lettrine
 @dirrmtry share/texmf-dist/tex/context/interface/third
 @dirrmtry share/texmf-dist/doc/context/third/lettrine
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

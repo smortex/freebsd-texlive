@@ -110,3 +110,5 @@ share/texmf-dist/tex/latex/bera/ts1fvs.fd
 @dirrmtry share/texmf-dist/fonts/map/dvips/bera
 @dirrmtry share/texmf-dist/fonts/afm/public/bera
 @dirrmtry share/texmf-dist/doc/fonts/bera
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

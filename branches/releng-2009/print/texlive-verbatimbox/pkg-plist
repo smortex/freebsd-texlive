@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/verbatimbox/verbatimbox.sty
 @dirrmtry share/texmf-dist/tex/latex/verbatimbox
 @dirrmtry share/texmf-dist/doc/latex/verbatimbox
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

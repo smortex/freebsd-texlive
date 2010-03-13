@@ -14,3 +14,5 @@ share/texmf-dist/fonts/truetype/public/junicode/Junicode-Italic.ttf
 share/texmf-dist/fonts/truetype/public/junicode/Junicode-Regular.ttf
 @dirrmtry share/texmf-dist/fonts/truetype/public/junicode
 @dirrmtry share/texmf-dist/doc/fonts/junicode
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

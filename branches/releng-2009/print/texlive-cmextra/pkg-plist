@@ -26,3 +26,5 @@ share/texmf-dist/fonts/tfm/public/cmextra/cmssu30.tfm
 share/texmf-dist/fonts/tfm/public/cmextra/cmvtti10.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/cmextra
 @dirrmtry share/texmf-dist/fonts/source/public/cmextra
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

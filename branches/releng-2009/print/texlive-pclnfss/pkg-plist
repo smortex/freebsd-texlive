@@ -57,3 +57,5 @@ share/texmf-dist/tex/latex/pclnfss/univers.sty
 @dirrmtry share/texmf-dist/source/fonts/pclnfss/tests
 @dirrmtry share/texmf-dist/source/fonts/pclnfss
 @dirrmtry share/texmf-dist/doc/fonts/pclnfss
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

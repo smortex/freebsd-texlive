@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/capt-of/capt-of.sty
 @dirrmtry share/texmf-dist/tex/latex/capt-of
 @dirrmtry share/texmf-dist/source/latex/capt-of
 @dirrmtry share/texmf-dist/doc/latex/capt-of
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

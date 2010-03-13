@@ -96,3 +96,5 @@ share/texmf-dist/tex/latex/bclogo/bcying.eps
 share/texmf-dist/tex/latex/bclogo/bcying.pdf
 @dirrmtry share/texmf-dist/tex/latex/bclogo
 @dirrmtry share/texmf-dist/doc/latex/bclogo
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

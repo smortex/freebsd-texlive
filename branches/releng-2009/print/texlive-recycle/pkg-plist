@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/recycle/recycle.sty
 @dirrmtry share/texmf-dist/fonts/source/public/recycle
 @dirrmtry share/texmf-dist/fonts/map/dvips/recycle
 @dirrmtry share/texmf-dist/doc/fonts/recycle
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

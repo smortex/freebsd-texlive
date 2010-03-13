@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/bold-extra/bold-extra.sty
 @dirrmtry share/texmf-dist/tex/latex/bold-extra
 @dirrmtry share/texmf-dist/doc/latex/bold-extra
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

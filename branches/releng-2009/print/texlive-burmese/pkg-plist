@@ -11,3 +11,5 @@ share/texmf-dist/tex/latex/burmese/ubirm.fd
 @dirrmtry share/texmf-dist/fonts/tfm/public/burmese
 @dirrmtry share/texmf-dist/fonts/map/dvips/burmese
 @dirrmtry share/texmf-dist/doc/fonts/burmese
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

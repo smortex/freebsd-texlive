@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/xifthen/xifthen.sty
 @dirrmtry share/texmf-dist/tex/latex/xifthen
 @dirrmtry share/texmf-dist/doc/latex/xifthen
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

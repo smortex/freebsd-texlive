@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/changelayout/changelayout.sty
 @dirrmtry share/texmf-dist/tex/latex/changelayout
 @dirrmtry share/texmf-dist/doc/latex/changelayout
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

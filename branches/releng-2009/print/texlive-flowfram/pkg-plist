@@ -24,3 +24,5 @@ share/texmf-dist/tex/latex/flowfram/flowfram.sty
 @dirrmtry share/texmf-dist/source/latex/flowfram
 @dirrmtry share/texmf-dist/doc/latex/flowfram/samples
 @dirrmtry share/texmf-dist/doc/latex/flowfram
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

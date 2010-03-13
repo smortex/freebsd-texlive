@@ -2930,3 +2930,5 @@ share/texmf-dist/fonts/type1/public/cbfonts/gttu3583.pfb
 @dirrmtry share/texmf-dist/fonts/map/dvips/cbfonts
 @dirrmtry share/texmf-dist/fonts/enc/dvips/cbfonts
 @dirrmtry share/texmf-dist/doc/fonts/cbfonts
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/ccfonts/ts1ccr.fd
 @dirrmtry share/texmf-dist/tex/latex/ccfonts
 @dirrmtry share/texmf-dist/source/latex/ccfonts
 @dirrmtry share/texmf-dist/doc/latex/ccfonts
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

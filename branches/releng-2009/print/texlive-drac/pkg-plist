@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/drac/drac.sty
 @dirrmtry share/texmf-dist/tex/latex/drac
 @dirrmtry share/texmf-dist/source/latex/drac
 @dirrmtry share/texmf-dist/doc/latex/drac
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

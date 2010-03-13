@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/cancel/cancel.sty
 @dirrmtry share/texmf-dist/tex/latex/cancel
 @dirrmtry share/texmf-dist/doc/latex/cancel
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

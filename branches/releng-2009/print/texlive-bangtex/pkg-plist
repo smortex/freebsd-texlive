@@ -34,3 +34,5 @@ share/texmf-dist/tex/latex/bangtex/bsize12.clo
 @dirrmtry share/texmf-dist/fonts/tfm/public/bangtex
 @dirrmtry share/texmf-dist/fonts/source/public/bangtex
 @dirrmtry share/texmf-dist/doc/latex/bangtex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

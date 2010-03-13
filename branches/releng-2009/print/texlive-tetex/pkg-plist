@@ -57,3 +57,5 @@ share/texmf/web2c/updmap.cfg
 @dirrmtry share/texmf/dvips/tetex
 @dirrmtry share/texmf/doc/man/man5
 @dirrmtry share/texmf/doc/man/man1
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

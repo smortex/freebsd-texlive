@@ -268,3 +268,5 @@ share/texmf-dist/tex/latex/ucs/xsenc.def
 @dirrmtry share/texmf-dist/tex/latex/ucs
 @dirrmtry share/texmf-dist/doc/latex/ucs/config
 @dirrmtry share/texmf-dist/doc/latex/ucs
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

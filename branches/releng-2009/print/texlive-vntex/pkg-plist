@@ -703,3 +703,5 @@ share/texmf-dist/tex/plain/vntex/vntexinfo.tex
 @dirrmtry share/texmf-dist/fonts/afm/vntex/grotesqvn
 @dirrmtry share/texmf-dist/fonts/afm/vntex/chartervn
 @dirrmtry share/texmf-dist/doc/generic/vntex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

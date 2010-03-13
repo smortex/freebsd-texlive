@@ -494,3 +494,5 @@ share/texmf-dist/tex/latex/fc/t4phonet.sty
 @dirrmtry share/texmf-dist/fonts/tfm/jknappen/fc
 @dirrmtry share/texmf-dist/fonts/source/jknappen/fc
 @dirrmtry share/texmf-dist/doc/fonts/fc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

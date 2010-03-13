@@ -17,3 +17,5 @@ share/texmf-dist/tex/latex/ednotes/mfparptc.sty
 share/texmf-dist/tex/latex/ednotes/mfparxsp.sty
 @dirrmtry share/texmf-dist/tex/latex/ednotes
 @dirrmtry share/texmf-dist/doc/latex/ednotes
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

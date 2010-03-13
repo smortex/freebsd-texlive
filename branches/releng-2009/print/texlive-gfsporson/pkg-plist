@@ -22,3 +22,5 @@ share/texmf-dist/tex/latex/gfsporson/lgrporson.fd
 @dirrmtry share/texmf-dist/fonts/enc/dvips/gfsporson
 @dirrmtry share/texmf-dist/fonts/afm/public/gfsporson
 @dirrmtry share/texmf-dist/doc/fonts/gfsporson
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

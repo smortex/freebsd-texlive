@@ -2,3 +2,5 @@
 share/texmf-dist/tex/latex/fullpict/fullpict.sty
 @dirrmtry share/texmf-dist/tex/latex/fullpict
 @dirrmtry share/texmf-dist/doc/latex/fullpict
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

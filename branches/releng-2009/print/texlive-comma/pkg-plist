@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/comma/comma.sty
 @dirrmtry share/texmf-dist/tex/latex/comma
 @dirrmtry share/texmf-dist/doc/latex/comma
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -16,3 +16,5 @@ share/texmf-dist/tex/latex/subfig/subfig.sty
 @dirrmtry share/texmf-dist/tex/latex/subfig
 @dirrmtry share/texmf-dist/source/latex/subfig
 @dirrmtry share/texmf-dist/doc/latex/subfig
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

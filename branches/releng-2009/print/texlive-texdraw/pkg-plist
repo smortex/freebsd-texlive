@@ -30,3 +30,5 @@ share/texmf-dist/tex/generic/texdraw/txdtools.tex
 @dirrmtry share/texmf/doc/info
 @dirrmtry share/texmf-dist/tex/generic/texdraw
 @dirrmtry share/texmf-dist/doc/support/texdraw
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

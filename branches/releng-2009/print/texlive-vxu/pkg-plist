@@ -17,3 +17,5 @@ share/texmf-dist/tex/latex/vxu/vxutentamen.sty
 @dirrmtry share/texmf-dist/tex/latex/vxu
 @dirrmtry share/texmf-dist/source/latex/vxu
 @dirrmtry share/texmf-dist/doc/latex/vxu
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

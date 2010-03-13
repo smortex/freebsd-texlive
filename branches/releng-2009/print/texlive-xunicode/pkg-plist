@@ -2,3 +2,5 @@
 share/texmf-dist/tex/xelatex/xunicode/xunicode.sty
 @dirrmtry share/texmf-dist/tex/xelatex/xunicode
 @dirrmtry share/texmf-dist/doc/xelatex/xunicode
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

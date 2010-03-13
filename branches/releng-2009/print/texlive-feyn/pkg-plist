@@ -37,3 +37,5 @@ share/texmf-dist/tex/latex/feyn/feyn.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/feyn
 @dirrmtry share/texmf-dist/fonts/source/public/feyn
 @dirrmtry share/texmf-dist/doc/fonts/feyn
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -19,3 +19,5 @@ share/texmf-dist/tex/latex/ucdavisthesis/ucdthesis13.clo
 @dirrmtry share/texmf-dist/source/latex/ucdavisthesis
 @dirrmtry share/texmf-dist/doc/latex/ucdavisthesis/Example
 @dirrmtry share/texmf-dist/doc/latex/ucdavisthesis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

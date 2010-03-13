@@ -31,3 +31,5 @@ share/texmf-dist/tex/latex/IEEEtran/IEEEtrantools.sty
 @dirrmtry share/texmf-dist/doc/latex/IEEEtran
 @dirrmtry share/texmf-dist/bibtex/bst/IEEEtran
 @dirrmtry share/texmf-dist/bibtex/bib/IEEEtran
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

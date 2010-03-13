@@ -66,3 +66,5 @@ share/texmf-dist/tex/latex/bardiag/pstfp.sty
 @dirrmtry share/texmf-dist/doc/latex/bardiag/example/src
 @dirrmtry share/texmf-dist/doc/latex/bardiag/example
 @dirrmtry share/texmf-dist/doc/latex/bardiag
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

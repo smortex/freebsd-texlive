@@ -11,3 +11,5 @@ share/texmf-dist/tex/plain/varisize/8point.tex
 share/texmf-dist/tex/plain/varisize/9point.tex
 @dirrmtry share/texmf-dist/tex/plain/varisize
 @dirrmtry share/texmf-dist/doc/plain/varisize
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

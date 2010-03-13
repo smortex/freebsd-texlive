@@ -26,3 +26,5 @@ share/texmf-dist/tex/latex/translator/translator-theorem-dictionary-German.dict
 share/texmf-dist/tex/latex/translator/translator.sty
 @dirrmtry share/texmf-dist/tex/latex/translator
 @dirrmtry share/texmf-dist/doc/latex/translator
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

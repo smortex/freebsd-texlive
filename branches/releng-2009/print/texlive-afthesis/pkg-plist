@@ -11,3 +11,5 @@ share/texmf-dist/tex/latex/afthesis/afthesis.sty
 @dirrmtry share/texmf-dist/tex/latex/afthesis
 @dirrmtry share/texmf-dist/doc/latex/afthesis
 @dirrmtry share/texmf-dist/bibtex/bst/afthesis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

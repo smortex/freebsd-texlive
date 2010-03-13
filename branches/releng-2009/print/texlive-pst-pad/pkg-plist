@@ -13,3 +13,5 @@ share/texmf-dist/tex/latex/pst-pad/pst-pad.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-pad
 @dirrmtry share/texmf-dist/source/generic/pst-pad
 @dirrmtry share/texmf-dist/doc/generic/pst-pad
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -797,3 +797,5 @@ share/texmf-dist/tex/latex/minitoc/xalx3.mld
 @dirrmtry share/texmf-dist/makeindex/minitoc
 @dirrmtry share/texmf-dist/doc/latex/minitoc
 @dirrmtry share/texmf-dist/bibtex/bst/minitoc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/cases/cases.sty
 @dirrmtry share/texmf-dist/tex/latex/cases
 @dirrmtry share/texmf-dist/doc/latex/cases
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

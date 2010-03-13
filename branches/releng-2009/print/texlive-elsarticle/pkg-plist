@@ -22,3 +22,5 @@ share/texmf-dist/tex/latex/elsarticle/elsarticle.cls
 @dirrmtry share/texmf-dist/source/latex/elsarticle
 @dirrmtry share/texmf-dist/doc/latex/elsarticle
 @dirrmtry share/texmf-dist/bibtex/bst/elsarticle
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

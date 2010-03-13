@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/geometry/geometry.sty
 @dirrmtry share/texmf-dist/tex/latex/geometry
 @dirrmtry share/texmf-dist/source/latex/geometry
 @dirrmtry share/texmf-dist/doc/latex/geometry
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

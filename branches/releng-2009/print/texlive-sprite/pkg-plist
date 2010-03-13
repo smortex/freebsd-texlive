@@ -2,3 +2,5 @@
 share/texmf-dist/tex/latex/sprite/sprite.sty
 @dirrmtry share/texmf-dist/tex/latex/sprite
 @dirrmtry share/texmf-dist/doc/latex/sprite
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/pst-3d/pst-3d.sty
 @dirrmtry share/texmf-dist/source/generic/pst-3d
 @dirrmtry share/texmf-dist/dvips/pst-3d
 @dirrmtry share/texmf-dist/doc/generic/pst-3d
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

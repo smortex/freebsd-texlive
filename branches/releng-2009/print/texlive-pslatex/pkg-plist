@@ -14,3 +14,5 @@ share/texmf-dist/tex/latex/pslatex/pslatex.sty
 @dirrmtry share/texmf-dist/fonts/vf/public/pslatex
 @dirrmtry share/texmf-dist/fonts/tfm/public/pslatex
 @dirrmtry share/texmf-dist/fonts/map/dvips/pslatex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

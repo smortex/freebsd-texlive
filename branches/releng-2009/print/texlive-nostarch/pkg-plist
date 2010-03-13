@@ -19,3 +19,5 @@ share/texmf-dist/tex/latex/nostarch/nshyper.sty
 @dirrmtry share/texmf-dist/makeindex/nostarch
 @dirrmtry share/texmf-dist/doc/latex/nostarch
 @dirrmtry share/texmf-dist/bibtex/bib/nostarch
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

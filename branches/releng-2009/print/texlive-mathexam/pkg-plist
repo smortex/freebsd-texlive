@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/mathexam/mathexam.sty
 @dirrmtry share/texmf-dist/tex/latex/mathexam
 @dirrmtry share/texmf-dist/source/latex/mathexam
 @dirrmtry share/texmf-dist/doc/latex/mathexam
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

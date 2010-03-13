@@ -15,3 +15,5 @@ share/texmf-dist/tex/latex/ccicons/uccicons.fd
 @dirrmtry share/texmf-dist/fonts/map/dvips/ccicons
 @dirrmtry share/texmf-dist/fonts/enc/dvips/ccicons
 @dirrmtry share/texmf-dist/doc/latex/ccicons
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

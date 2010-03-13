@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/xstring/xstring.sty
 @dirrmtry share/texmf-dist/tex/latex/xstring
 @dirrmtry share/texmf-dist/tex/generic/xstring
 @dirrmtry share/texmf-dist/doc/generic/xstring
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

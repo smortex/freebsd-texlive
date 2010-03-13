@@ -33,3 +33,5 @@ share/texmf-dist/tex/eplain/eplain.tex
 @dirrmtry share/texmf-dist/doc/eplain/doc
 @dirrmtry share/texmf-dist/doc/eplain/demo
 @dirrmtry share/texmf-dist/doc/eplain
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

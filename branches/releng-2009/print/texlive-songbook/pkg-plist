@@ -39,3 +39,5 @@ share/texmf-dist/tex/latex/songbook/songbook.sty
 @dirrmtry share/texmf-dist/doc/latex/songbook/contrib/CarolBook
 @dirrmtry share/texmf-dist/doc/latex/songbook/contrib
 @dirrmtry share/texmf-dist/doc/latex/songbook
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

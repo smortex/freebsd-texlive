@@ -47,3 +47,5 @@ share/texmf-dist/tex/plain/croatian/ttlis.tex
 @dirrmtry share/texmf-dist/tex/plain/croatian
 @dirrmtry share/texmf-dist/fonts/source/public/croatian
 @dirrmtry share/texmf-dist/doc/fonts/croatian
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

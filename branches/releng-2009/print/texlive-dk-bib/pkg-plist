@@ -21,3 +21,5 @@ share/texmf-dist/tex/latex/dk-bib/dk-bib.sty
 @dirrmtry share/texmf-dist/bibtex/csf/dk-bib
 @dirrmtry share/texmf-dist/bibtex/bst/dk-bib
 @dirrmtry share/texmf-dist/bibtex/bib/dk-bib
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

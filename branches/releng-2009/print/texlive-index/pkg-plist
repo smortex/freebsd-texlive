@@ -26,3 +26,5 @@ share/texmf-dist/tex/latex/index/index.sty
 @dirrmtry share/texmf-dist/doc/latex/index
 @dirrmtry share/texmf-dist/bibtex/bst/index
 @dirrmtry share/texmf-dist/bibtex/bib/index
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

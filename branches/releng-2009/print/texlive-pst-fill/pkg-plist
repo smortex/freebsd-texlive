@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/pst-fill/pst-fill.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-fill
 @dirrmtry share/texmf-dist/source/generic/pst-fill
 @dirrmtry share/texmf-dist/doc/generic/pst-fill
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

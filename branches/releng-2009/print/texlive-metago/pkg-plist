@@ -14,3 +14,5 @@
 share/texmf-dist/metapost/metago/metago.mp
 @dirrmtry share/texmf-dist/metapost/metago
 @dirrmtry share/texmf-dist/doc/metapost/metago
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

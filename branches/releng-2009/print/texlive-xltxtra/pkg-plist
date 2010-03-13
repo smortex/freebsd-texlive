@@ -6,3 +6,5 @@ share/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
 @dirrmtry share/texmf-dist/tex/xelatex/xltxtra
 @dirrmtry share/texmf-dist/source/xelatex/xltxtra
 @dirrmtry share/texmf-dist/doc/xelatex/xltxtra
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

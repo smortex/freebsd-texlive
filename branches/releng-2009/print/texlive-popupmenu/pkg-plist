@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/popupmenu/popupmenu.sty
 @dirrmtry share/texmf-dist/source/latex/popupmenu
 @dirrmtry share/texmf-dist/doc/latex/popupmenu/examples
 @dirrmtry share/texmf-dist/doc/latex/popupmenu
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

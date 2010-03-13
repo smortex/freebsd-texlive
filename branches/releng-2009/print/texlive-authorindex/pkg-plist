@@ -7,3 +7,5 @@
 share/texmf-dist/tex/latex/authorindex/authorindex.sty
 @dirrmtry share/texmf-dist/tex/latex/authorindex
 @dirrmtry share/texmf-dist/doc/latex/authorindex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

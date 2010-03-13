@@ -5,3 +5,5 @@ share/texmf-dist/fonts/tfm/public/greenpoint/greenpoint.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/greenpoint
 @dirrmtry share/texmf-dist/fonts/source/public/greenpoint
 @dirrmtry share/texmf-dist/doc/fonts/greenpoint
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -33,3 +33,5 @@ share/texmf-dist/tex/latex/blacklettert1/t1yfrak.fd
 @dirrmtry share/texmf-dist/fonts/vf/public/blacklettert1
 @dirrmtry share/texmf-dist/fonts/tfm/public/blacklettert1
 @dirrmtry share/texmf-dist/doc/fonts/blacklettert1
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

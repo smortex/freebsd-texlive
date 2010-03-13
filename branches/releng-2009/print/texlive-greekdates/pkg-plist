@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/greekdates/greekdates.sty
 @dirrmtry share/texmf-dist/tex/latex/greekdates
 @dirrmtry share/texmf-dist/source/latex/greekdates
 @dirrmtry share/texmf-dist/doc/latex/greekdates
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

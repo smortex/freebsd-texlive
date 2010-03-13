@@ -594,3 +594,5 @@ share/texmf-dist/tex/plain/kurier/kurier-math.tex
 @dirrmtry share/texmf-dist/fonts/enc/dvips/kurier
 @dirrmtry share/texmf-dist/fonts/afm/public/kurier
 @dirrmtry share/texmf-dist/doc/fonts/kurier
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

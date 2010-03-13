@@ -167,3 +167,5 @@ share/texmf-dist/tex/latex/initials/Zallman.fd
 @dirrmtry share/texmf-dist/fonts/afm/public/initials
 @dirrmtry share/texmf-dist/dvips/initials
 @dirrmtry share/texmf-dist/doc/fonts/initials
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

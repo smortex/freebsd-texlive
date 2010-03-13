@@ -32,3 +32,5 @@ share/texmf-dist/dvips/dvipsconfig/config.tray3
 share/texmf-dist/dvips/dvipsconfig/config.usledger
 share/texmf-dist/dvips/dvipsconfig/config.usletter
 @dirrmtry share/texmf-dist/dvips/dvipsconfig
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

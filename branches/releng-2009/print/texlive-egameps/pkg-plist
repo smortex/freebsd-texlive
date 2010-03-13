@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/egameps/egameps.sty
 @dirrmtry share/texmf-dist/tex/latex/egameps
 @dirrmtry share/texmf-dist/doc/latex/egameps
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

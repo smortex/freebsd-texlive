@@ -185,3 +185,5 @@ share/texmf-dist/tex/plain/pgfplots/pgfplotstable.tex
 @dirrmtry share/texmf-dist/doc/latex/pgfplots
 @dirrmtry share/texmf-dist/doc/generic/pgfplots
 @dirrmtry share/texmf-dist/doc/context/third/pgfplots
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

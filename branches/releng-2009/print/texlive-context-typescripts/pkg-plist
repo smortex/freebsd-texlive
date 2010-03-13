@@ -90,3 +90,5 @@ share/texmf-dist/tex/context/third/typescripts/type-yanone.mkiv
 share/texmf-dist/tex/context/third/typescripts/type-yanone.tex
 @dirrmtry share/texmf-dist/tex/context/third/typescripts
 @dirrmtry share/texmf-dist/doc/context/third/typescripts
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

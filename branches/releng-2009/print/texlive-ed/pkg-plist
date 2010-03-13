@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/ed/ed.sty
 @dirrmtry share/texmf-dist/tex/latex/ed
 @dirrmtry share/texmf-dist/source/latex/ed
 @dirrmtry share/texmf-dist/doc/latex/ed
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

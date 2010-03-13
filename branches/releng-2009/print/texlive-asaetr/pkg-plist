@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/asaetr/asaetr.sty
 @dirrmtry share/texmf-dist/tex/latex/asaetr
 @dirrmtry share/texmf-dist/doc/latex/asaetr
 @dirrmtry share/texmf-dist/bibtex/bst/asaetr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

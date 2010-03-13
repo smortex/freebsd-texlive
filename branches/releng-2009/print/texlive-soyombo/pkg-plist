@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/soyombo/soyombo.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/soyombo
 @dirrmtry share/texmf-dist/fonts/source/public/soyombo
 @dirrmtry share/texmf-dist/doc/latex/soyombo
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

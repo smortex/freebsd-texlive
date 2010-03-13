@@ -61,3 +61,5 @@ share/texmf-dist/tex/context/third/gentium/type-gentium.tex
 @dirrmtry share/texmf-dist/fonts/afm/public/gentium
 @dirrmtry share/texmf-dist/doc/latex/gentium
 @dirrmtry share/texmf-dist/doc/fonts/gentium
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

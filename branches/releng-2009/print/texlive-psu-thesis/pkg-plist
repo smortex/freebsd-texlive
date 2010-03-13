@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/psu-thesis/psu-thesis.sty
 @dirrmtry share/texmf-dist/tex/latex/psu-thesis
 @dirrmtry share/texmf-dist/doc/latex/psu-thesis
 @dirrmtry share/texmf-dist/bibtex/bst/psu-thesis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

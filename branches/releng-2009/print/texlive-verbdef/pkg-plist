@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/verbdef/verbdef.sty
 @dirrmtry share/texmf-dist/tex/latex/verbdef
 @dirrmtry share/texmf-dist/doc/latex/verbdef
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

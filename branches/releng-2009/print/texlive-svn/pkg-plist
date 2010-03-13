@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/svn/svn.sty
 @dirrmtry share/texmf-dist/tex/latex/svn
 @dirrmtry share/texmf-dist/source/latex/svn
 @dirrmtry share/texmf-dist/doc/latex/svn
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

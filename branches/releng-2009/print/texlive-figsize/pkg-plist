@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/figsize/figsize.sty
 @dirrmtry share/texmf-dist/tex/latex/figsize
 @dirrmtry share/texmf-dist/source/latex/figsize
 @dirrmtry share/texmf-dist/doc/latex/figsize
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

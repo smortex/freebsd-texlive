@@ -15,3 +15,5 @@ share/texmf-dist/scripts/pst2pdf/pst2pdf
 %%PORTSRC%%share/texmf-dist/source/latex/pst2pdf/Makefile
 @dirrmtry share/texmf-dist/source/latex/pst2pdf
 @dirrmtry share/texmf-dist/doc/latex/pst2pdf
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

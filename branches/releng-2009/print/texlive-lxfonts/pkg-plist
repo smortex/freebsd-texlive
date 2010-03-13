@@ -91,3 +91,5 @@ share/texmf-dist/tex/latex/lxfonts/lxfonts.sty
 @dirrmtry share/texmf-dist/fonts/source/public/lxfonts
 @dirrmtry share/texmf-dist/fonts/map/dvips/lxfonts
 @dirrmtry share/texmf-dist/doc/fonts/lxfonts
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

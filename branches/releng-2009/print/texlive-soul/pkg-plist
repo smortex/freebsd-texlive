@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/soul/soul.sty
 @dirrmtry share/texmf-dist/tex/latex/soul
 @dirrmtry share/texmf-dist/source/latex/soul
 @dirrmtry share/texmf-dist/doc/latex/soul
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

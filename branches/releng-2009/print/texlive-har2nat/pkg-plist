@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/har2nat/har2nat.sty
 @dirrmtry share/texmf-dist/tex/latex/har2nat
 @dirrmtry share/texmf-dist/doc/latex/har2nat
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -26,3 +26,5 @@ share/texmf-dist/tex/latex/draftcopy/draftcopy.sty
 @dirrmtry share/texmf-dist/tex/latex/draftcopy
 @dirrmtry share/texmf-dist/source/latex/draftcopy
 @dirrmtry share/texmf-dist/doc/latex/draftcopy
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

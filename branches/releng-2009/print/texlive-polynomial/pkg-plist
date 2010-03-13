@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/polynomial/polynomial.sty
 @dirrmtry share/texmf-dist/tex/latex/polynomial
 @dirrmtry share/texmf-dist/source/latex/polynomial
 @dirrmtry share/texmf-dist/doc/latex/polynomial
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

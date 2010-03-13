@@ -14,3 +14,5 @@ share/texmf-dist/fonts/type1/public/belleek/rblmi.pfb
 @dirrmtry share/texmf-dist/fonts/truetype/public/belleek
 @dirrmtry share/texmf-dist/fonts/map/dvips/belleek
 @dirrmtry share/texmf-dist/doc/fonts/belleek
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

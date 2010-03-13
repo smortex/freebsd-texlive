@@ -5,3 +5,5 @@ share/texmf-dist/tex/latex/namespc/namespc.sty
 @dirrmtry share/texmf-dist/tex/latex/namespc
 @dirrmtry share/texmf-dist/source/latex/namespc
 @dirrmtry share/texmf-dist/doc/latex/namespc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

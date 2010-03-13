@@ -8,3 +8,5 @@ share/texmf-dist/tex/generic/mathdots/mathdots.tex
 @dirrmtry share/texmf-dist/tex/generic/mathdots
 @dirrmtry share/texmf-dist/source/generic/mathdots
 @dirrmtry share/texmf-dist/doc/generic/mathdots
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

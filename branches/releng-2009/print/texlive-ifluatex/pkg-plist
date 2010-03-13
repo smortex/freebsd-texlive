@@ -8,3 +8,5 @@ share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 @dirrmtry share/texmf-dist/source/latex/oberdiek
 @dirrmtry share/texmf-dist/doc/latex/oberdiek/test
 @dirrmtry share/texmf-dist/doc/latex/oberdiek
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

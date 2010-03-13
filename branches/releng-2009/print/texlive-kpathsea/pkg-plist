@@ -65,3 +65,5 @@ share/texmf/web2c/viscii-t5.tcx
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf/doc/kpathsea
 @dirrmtry share/texmf/doc/info
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

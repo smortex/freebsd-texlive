@@ -1242,3 +1242,5 @@ share/texmf-dist/fonts/tfm/jknappen/ec/tcvt3583.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/jknappen/ec
 @dirrmtry share/texmf-dist/fonts/source/jknappen/ec
 @dirrmtry share/texmf-dist/doc/fonts/ec
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/leftidx/leftidx.sty
 @dirrmtry share/texmf-dist/tex/latex/leftidx
 @dirrmtry share/texmf-dist/source/latex/leftidx
 @dirrmtry share/texmf-dist/doc/latex/leftidx
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

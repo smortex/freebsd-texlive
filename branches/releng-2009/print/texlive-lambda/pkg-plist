@@ -29,3 +29,5 @@ share/texmf-dist/tex/lambda/config/lambda.ini
 share/texmf-dist/tex/lambda/config/language.dat
 @dirrmtry share/texmf-dist/tex/lambda/config
 @dirrmtry share/texmf-dist/tex/lambda/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

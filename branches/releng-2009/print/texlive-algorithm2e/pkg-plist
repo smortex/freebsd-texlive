@@ -16,3 +16,5 @@
 share/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 @dirrmtry share/texmf-dist/tex/latex/algorithm2e
 @dirrmtry share/texmf-dist/doc/latex/algorithm2e
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,2 +1,4 @@
 share/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
 @dirrmtry share/texmf-dist/tex/latex/dvipdfmx-def
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

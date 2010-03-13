@@ -32,3 +32,5 @@ share/texmf-dist/tex/latex/doublestroke/dsfont.sty
 @dirrmtry share/texmf-dist/fonts/source/public/doublestroke
 @dirrmtry share/texmf-dist/fonts/map/dvips/doublestroke
 @dirrmtry share/texmf-dist/doc/fonts/doublestroke
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

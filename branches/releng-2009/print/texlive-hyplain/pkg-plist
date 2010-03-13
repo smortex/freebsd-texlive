@@ -7,3 +7,5 @@ share/texmf-dist/tex/plain/hyplain/hyplain.tex
 share/texmf-dist/tex/plain/hyplain/hyrules.tex
 @dirrmtry share/texmf-dist/tex/plain/hyplain
 @dirrmtry share/texmf-dist/doc/plain/hyplain
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

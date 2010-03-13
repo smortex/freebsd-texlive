@@ -39,3 +39,5 @@ share/texmf-dist/tex/plain/armenian/kbdencod.tex
 @dirrmtry share/texmf-dist/doc/fonts/armenian/examples/plain
 @dirrmtry share/texmf-dist/doc/fonts/armenian/examples/latex
 @dirrmtry share/texmf-dist/doc/fonts/armenian
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

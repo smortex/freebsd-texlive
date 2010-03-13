@@ -36,3 +36,5 @@ share/texmf-dist/tex/lambda/oinuit/oinuit.sty
 @dirrmtry share/texmf-dist/fonts/map/dvips/oinuit
 @dirrmtry share/texmf-dist/doc/fonts/oinuit/examples
 @dirrmtry share/texmf-dist/doc/fonts/oinuit
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

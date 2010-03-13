@@ -93,3 +93,5 @@ share/texmf-dist/tex/latex/eskdx/eskdukrainian.def
 @dirrmtry share/texmf-dist/doc/latex/eskdx/source
 @dirrmtry share/texmf-dist/doc/latex/eskdx/manual
 @dirrmtry share/texmf-dist/doc/latex/eskdx
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

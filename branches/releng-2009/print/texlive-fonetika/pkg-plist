@@ -26,3 +26,5 @@ share/texmf-dist/tex/latex/fonetika/t1fonetika.fd
 @dirrmtry share/texmf-dist/fonts/map/dvips/fonetika
 @dirrmtry share/texmf-dist/fonts/afm/public/fonetika
 @dirrmtry share/texmf-dist/doc/fonts/fonetika
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/jneurosci/jneurosci.sty
 @dirrmtry share/texmf-dist/tex/latex/jneurosci
 @dirrmtry share/texmf-dist/doc/latex/jneurosci
 @dirrmtry share/texmf-dist/bibtex/bst/jneurosci
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

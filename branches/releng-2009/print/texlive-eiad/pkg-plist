@@ -80,3 +80,5 @@ share/texmf-dist/tex/latex/eiad/OT1eiadtt.fd
 @dirrmtry share/texmf-dist/fonts/tfm/public/eiad
 @dirrmtry share/texmf-dist/fonts/source/public/eiad
 @dirrmtry share/texmf-dist/doc/fonts/eiad
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

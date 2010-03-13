@@ -41,3 +41,5 @@ share/texmf-dist/tex/latex/aiaa/aiaa-tc.cls
 @dirrmtry share/texmf-dist/doc/latex/aiaa/pre2004
 @dirrmtry share/texmf-dist/doc/latex/aiaa
 @dirrmtry share/texmf-dist/bibtex/bst/aiaa
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

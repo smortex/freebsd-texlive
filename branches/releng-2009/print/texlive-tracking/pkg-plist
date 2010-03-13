@@ -1,2 +1,4 @@
 share/texmf-dist/tex/latex/tracking/tracking.sty
 @dirrmtry share/texmf-dist/tex/latex/tracking
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

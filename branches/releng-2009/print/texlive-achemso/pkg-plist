@@ -52,3 +52,5 @@ share/texmf-dist/tex/latex/achemso/natmove.sty
 @dirrmtry share/texmf-dist/source/latex/achemso
 @dirrmtry share/texmf-dist/doc/latex/achemso
 @dirrmtry share/texmf-dist/bibtex/bst/achemso
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

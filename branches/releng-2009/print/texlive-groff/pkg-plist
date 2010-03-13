@@ -13,3 +13,5 @@ share/texmf-dist/fonts/type1/groff/freeeuro.pfa
 @dirrmtry share/texmf-dist/fonts/map/dvips/groff
 @dirrmtry share/texmf-dist/fonts/enc/dvips/groff
 @dirrmtry share/texmf-dist/fonts/afm/groff
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

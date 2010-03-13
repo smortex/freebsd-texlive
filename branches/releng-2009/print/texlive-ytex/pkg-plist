@@ -10,3 +10,5 @@ share/texmf-dist/tex/ytex/base/yusage.lst
 share/texmf-dist/tex/ytex/base/yusage.tex
 share/texmf-dist/tex/ytex/base/yuser.mac
 @dirrmtry share/texmf-dist/tex/ytex/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -3,3 +3,5 @@ share/texmf-dist/tex/latex/smartref/byname.sty
 share/texmf-dist/tex/latex/smartref/smartref.sty
 @dirrmtry share/texmf-dist/tex/latex/smartref
 @dirrmtry share/texmf-dist/doc/latex/smartref
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

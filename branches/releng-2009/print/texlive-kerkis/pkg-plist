@@ -266,3 +266,5 @@ share/texmf-dist/tex/latex/kerkis/t1maksf.fd
 @dirrmtry share/texmf-dist/fonts/enc/dvips/kerkis
 @dirrmtry share/texmf-dist/fonts/afm/public/kerkis
 @dirrmtry share/texmf-dist/doc/latex/kerkis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

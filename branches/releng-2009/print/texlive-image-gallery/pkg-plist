@@ -27,3 +27,5 @@
 share/texmf-dist/tex/latex/image-gallery/image-gallery.cls
 @dirrmtry share/texmf-dist/tex/latex/image-gallery
 @dirrmtry share/texmf-dist/doc/latex/image-gallery
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/vector/vector.sty
 @dirrmtry share/texmf-dist/tex/latex/vector
 @dirrmtry share/texmf-dist/source/latex/vector
 @dirrmtry share/texmf-dist/doc/latex/vector
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

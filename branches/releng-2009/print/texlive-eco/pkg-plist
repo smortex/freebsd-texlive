@@ -517,3 +517,5 @@ share/texmf-dist/tex/latex/eco/eco.sty
 @dirrmtry share/texmf-dist/fonts/vf/public/eco
 @dirrmtry share/texmf-dist/fonts/tfm/public/eco
 @dirrmtry share/texmf-dist/doc/fonts/eco
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

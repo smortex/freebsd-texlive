@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/scalebar/scalebar.sty
 @dirrmtry share/texmf-dist/tex/latex/scalebar
 @dirrmtry share/texmf-dist/source/latex/scalebar
 @dirrmtry share/texmf-dist/doc/latex/scalebar
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

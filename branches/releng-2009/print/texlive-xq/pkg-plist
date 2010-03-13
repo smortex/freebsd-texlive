@@ -18,3 +18,5 @@ share/texmf-dist/tex/latex/xq/xq.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/xq
 @dirrmtry share/texmf-dist/fonts/source/public/xq
 @dirrmtry share/texmf-dist/doc/fonts/xq
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

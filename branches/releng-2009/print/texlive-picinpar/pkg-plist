@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/picinpar/picinpar.sty
 @dirrmtry share/texmf-dist/tex/latex/picinpar
 @dirrmtry share/texmf-dist/doc/latex/picinpar
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

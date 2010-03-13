@@ -2,3 +2,5 @@
 share/texmf-dist/tex/latex/procIAGssymp/procIAGssymp.sty
 @dirrmtry share/texmf-dist/tex/latex/procIAGssymp
 @dirrmtry share/texmf-dist/doc/latex/procIAGssymp
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

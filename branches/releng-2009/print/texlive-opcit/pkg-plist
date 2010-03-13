@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/opcit/opcit.sty
 @dirrmtry share/texmf-dist/source/latex/opcit
 @dirrmtry share/texmf-dist/doc/latex/opcit
 @dirrmtry share/texmf-dist/bibtex/bst/opcit
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -5,3 +5,5 @@ share/texmf-dist/tex/latex/bpchem/bpchem.sty
 @dirrmtry share/texmf-dist/tex/latex/bpchem
 @dirrmtry share/texmf-dist/source/latex/bpchem
 @dirrmtry share/texmf-dist/doc/latex/bpchem
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

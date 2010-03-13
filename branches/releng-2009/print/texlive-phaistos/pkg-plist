@@ -16,3 +16,5 @@ share/texmf-dist/tex/latex/phaistos/phaistos.sty
 @dirrmtry share/texmf-dist/fonts/map/dvips/phaistos
 @dirrmtry share/texmf-dist/fonts/afm/public/phaistos
 @dirrmtry share/texmf-dist/doc/fonts/phaistos
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

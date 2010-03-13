@@ -48,3 +48,5 @@ share/texmf-dist/fonts/type1/public/ethiop-t1/ethbtt10.pfb
 @dirrmtry share/texmf-dist/fonts/type1/public/ethiop-t1
 @dirrmtry share/texmf-dist/fonts/map/dvips/ethiop-t1
 @dirrmtry share/texmf-dist/doc/latex/ethiop-t1
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -9,3 +9,5 @@ share/texmf-dist/scripts/bibexport/bibexport.sh
 @dirrmtry share/texmf-dist/scripts/bibexport
 @dirrmtry share/texmf-dist/doc/latex/bibexport
 @dirrmtry share/texmf-dist/bibtex/bst/bibexport
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

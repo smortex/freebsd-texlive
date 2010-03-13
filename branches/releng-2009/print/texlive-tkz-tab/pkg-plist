@@ -20,3 +20,5 @@
 share/texmf-dist/tex/latex/tkz-tab/tkz-tab.sty
 @dirrmtry share/texmf-dist/tex/latex/tkz-tab
 @dirrmtry share/texmf-dist/doc/latex/tkz-tab
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

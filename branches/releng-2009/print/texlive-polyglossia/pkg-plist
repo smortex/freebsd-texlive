@@ -81,3 +81,5 @@ share/texmf-dist/tex/xelatex/polyglossia/polyglossia.sty
 @dirrmtry share/texmf-dist/source/xelatex/polyglossia
 @dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping/polyglossia
 @dirrmtry share/texmf-dist/doc/xelatex/polyglossia
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

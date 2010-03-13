@@ -24,3 +24,5 @@ share/texmf-dist/tex/generic/tex-ps/trans.tex
 @dirrmtry share/texmf-dist/dvips/tex-ps
 @dirrmtry share/texmf-dist/doc/generic/tex-ps/poligraf
 @dirrmtry share/texmf-dist/doc/generic/tex-ps/cmyk-hax
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

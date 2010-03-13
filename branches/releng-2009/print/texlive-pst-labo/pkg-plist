@@ -19,3 +19,5 @@ share/texmf-dist/tex/latex/pst-labo/pst-labo.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-labo
 @dirrmtry share/texmf-dist/tex/generic/pst-labo
 @dirrmtry share/texmf-dist/doc/generic/pst-labo
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

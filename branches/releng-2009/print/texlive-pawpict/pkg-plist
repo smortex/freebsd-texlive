@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/pawpict/pawpict.sty
 @dirrmtry share/texmf-dist/tex/latex/pawpict
 @dirrmtry share/texmf-dist/source/latex/pawpict
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

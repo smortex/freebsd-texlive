@@ -422,3 +422,5 @@ share/texmf-dist/tex/latex/cjk/utils/pyhyphen/pinyin.ldf
 @dirrmtry share/texmf-dist/doc/latex/cjk/doc/chinese
 @dirrmtry share/texmf-dist/doc/latex/cjk/doc
 @dirrmtry share/texmf-dist/doc/latex/cjk
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

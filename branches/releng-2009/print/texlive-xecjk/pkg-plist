@@ -14,3 +14,5 @@ share/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
 @dirrmtry share/texmf-dist/source/xelatex/xecjk
 @dirrmtry share/texmf-dist/doc/xelatex/xecjk/examples
 @dirrmtry share/texmf-dist/doc/xelatex/xecjk
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

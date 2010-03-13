@@ -14,3 +14,5 @@ share/texmf-dist/tex/latex/datatool/person.sty
 @dirrmtry share/texmf-dist/source/latex/datatool
 @dirrmtry share/texmf-dist/doc/latex/datatool
 @dirrmtry share/texmf-dist/bibtex/bst/datatool
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

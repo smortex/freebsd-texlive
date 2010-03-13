@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/xoptarg/xoptarg.sty
 @dirrmtry share/texmf-dist/tex/latex/xoptarg
 @dirrmtry share/texmf-dist/doc/latex/xoptarg
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

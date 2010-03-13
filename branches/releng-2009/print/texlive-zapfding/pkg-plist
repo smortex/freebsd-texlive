@@ -17,3 +17,5 @@ share/texmf-dist/tex/latex/zapfding/uuzd.fd
 @dirrmtry share/texmf-dist/fonts/afm/urw/zapfding
 @dirrmtry share/texmf-dist/fonts/afm/adobe/zapfding
 @dirrmtry share/texmf-dist/dvips/zapfding
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

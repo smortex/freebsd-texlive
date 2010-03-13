@@ -50,3 +50,5 @@ share/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
 @dirrmtry share/texmf-dist/fonts/map/dvips/stmaryrd
 @dirrmtry share/texmf-dist/fonts/afm/hoekwater/stmaryrd
 @dirrmtry share/texmf-dist/doc/fonts/stmaryrd
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

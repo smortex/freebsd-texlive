@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/changes/changes.sty
 @dirrmtry share/texmf-dist/tex/latex/changes
 @dirrmtry share/texmf-dist/source/latex/changes
 @dirrmtry share/texmf-dist/doc/latex/changes
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

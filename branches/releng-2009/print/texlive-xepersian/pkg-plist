@@ -60,3 +60,5 @@ share/texmf-dist/tex/xelatex/xepersian/xepersian.sty
 @dirrmtry share/texmf-dist/source/xelatex/xepersian
 @dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping/xepersian
 @dirrmtry share/texmf-dist/doc/xelatex/xepersian
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

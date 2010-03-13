@@ -29,3 +29,5 @@ share/texmf-dist/tex/xmltex/config/xmltex.ini
 @dirrmtry share/texmf-dist/tex/xmltex/config
 @dirrmtry share/texmf-dist/tex/xmltex/base
 @dirrmtry share/texmf-dist/doc/otherformats/xmltex/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

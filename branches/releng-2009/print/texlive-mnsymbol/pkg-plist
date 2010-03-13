@@ -270,3 +270,5 @@ share/texmf-dist/tex/latex/mnsymbol/MnSymbol.sty
 @dirrmtry share/texmf-dist/fonts/map/dvips/mnsymbol
 @dirrmtry share/texmf-dist/fonts/enc/dvips/mnsymbol
 @dirrmtry share/texmf-dist/doc/latex/mnsymbol
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

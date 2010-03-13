@@ -88,3 +88,5 @@ share/texmf-dist/tex/generic/mathabx/mathabx.tex
 @dirrmtry share/texmf-dist/fonts/tfm/public/mathabx
 @dirrmtry share/texmf-dist/fonts/source/public/mathabx
 @dirrmtry share/texmf-dist/doc/fonts/mathabx
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

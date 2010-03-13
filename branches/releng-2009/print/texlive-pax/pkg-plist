@@ -16,3 +16,5 @@ share/texmf-dist/tex/latex/pax/pax.sty
 @dirrmtry share/texmf-dist/source/latex/pax/license/LaTeX
 @dirrmtry share/texmf-dist/source/latex/pax
 @dirrmtry share/texmf-dist/doc/latex/pax
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

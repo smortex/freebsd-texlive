@@ -8,3 +8,5 @@ share/texmf-dist/tex/context/third/games/holz280.jpg
 share/texmf-dist/tex/context/third/games/t-games.tex
 @dirrmtry share/texmf-dist/tex/context/third/games
 @dirrmtry share/texmf-dist/doc/context/third/games
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

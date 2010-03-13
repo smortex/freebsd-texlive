@@ -11,3 +11,5 @@ share/texmf-dist/tex/latex/mciteplus/mciteplus.sty
 @dirrmtry share/texmf-dist/tex/latex/mciteplus
 @dirrmtry share/texmf-dist/doc/latex/mciteplus
 @dirrmtry share/texmf-dist/bibtex/bst/mciteplus
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/pst-asr/pst-asr.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-asr
 @dirrmtry share/texmf-dist/tex/generic/pst-asr
 @dirrmtry share/texmf-dist/doc/generic/pst-asr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

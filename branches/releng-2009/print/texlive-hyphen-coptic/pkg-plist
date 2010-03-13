@@ -1,2 +1,4 @@
 share/texmf/tex/generic/hyphen/copthyph.tex
 @dirrmtry share/texmf/tex/generic/hyphen
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

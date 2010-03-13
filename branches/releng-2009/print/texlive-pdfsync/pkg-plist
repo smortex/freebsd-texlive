@@ -2,3 +2,5 @@
 share/texmf-dist/tex/latex/pdfsync/pdfsync.sty
 @dirrmtry share/texmf-dist/tex/latex/pdfsync
 @dirrmtry share/texmf-dist/doc/latex/pdfsync
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

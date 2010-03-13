@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/casyl/casyltex.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/casyl
 @dirrmtry share/texmf-dist/fonts/source/public/casyl
 @dirrmtry share/texmf-dist/doc/latex/casyl
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -18,3 +18,5 @@ share/texmf-dist/tex/latex/sttools/texsort.sty
 @dirrmtry share/texmf-dist/tex/latex/sttools
 @dirrmtry share/texmf-dist/doc/latex/sttools/doc
 @dirrmtry share/texmf-dist/doc/latex/sttools
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

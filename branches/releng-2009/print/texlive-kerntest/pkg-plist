@@ -30,3 +30,5 @@ share/texmf-dist/tex/latex/kerntest/ts1mtx.clo
 @dirrmtry share/texmf-dist/tex/latex/kerntest
 @dirrmtry share/texmf-dist/source/latex/kerntest
 @dirrmtry share/texmf-dist/doc/latex/kerntest
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

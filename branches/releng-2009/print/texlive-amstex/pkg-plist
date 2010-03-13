@@ -19,3 +19,5 @@ share/texmf-dist/tex/amstex/config/amstex.ini
 @dirrmtry share/texmf-dist/tex/amstex/config
 @dirrmtry share/texmf-dist/tex/amstex/base
 @dirrmtry share/texmf-dist/doc/amstex/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

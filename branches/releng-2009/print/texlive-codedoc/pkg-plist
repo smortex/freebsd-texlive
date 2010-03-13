@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/codedoc/codedoc.cls
 @dirrmtry share/texmf-dist/tex/latex/codedoc
 @dirrmtry share/texmf-dist/doc/latex/codedoc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

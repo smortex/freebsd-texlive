@@ -687,3 +687,5 @@ share/texmf-dist/tex/latex/hfoldsty/ts1hfovtt.fd
 @dirrmtry share/texmf-dist/fonts/vf/public/hfoldsty
 @dirrmtry share/texmf-dist/fonts/tfm/public/hfoldsty
 @dirrmtry share/texmf-dist/doc/fonts/hfoldsty
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

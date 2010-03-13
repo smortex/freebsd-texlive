@@ -17,3 +17,5 @@
 share/texmf-dist/tex/latex/pdfcomment/pdfcomment.sty
 @dirrmtry share/texmf-dist/tex/latex/pdfcomment
 @dirrmtry share/texmf-dist/doc/latex/pdfcomment
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

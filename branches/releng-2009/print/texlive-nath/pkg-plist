@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/nath/nath.sty
 @dirrmtry share/texmf-dist/tex/latex/nath
 @dirrmtry share/texmf-dist/doc/latex/nath
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

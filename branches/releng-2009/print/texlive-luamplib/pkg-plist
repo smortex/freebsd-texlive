@@ -8,3 +8,5 @@ share/texmf-dist/tex/luatex/luamplib/luamplib.sty
 @dirrmtry share/texmf-dist/tex/luatex/luamplib
 @dirrmtry share/texmf-dist/source/luatex/luamplib
 @dirrmtry share/texmf-dist/doc/luatex/luamplib
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

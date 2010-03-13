@@ -4,3 +4,5 @@ share/texmf-dist/tex/latex/sciwordconv/Sw2Rus.sty
 @dirrmtry share/texmf-dist/tex/latex/sciwordconv
 @dirrmtry share/texmf-dist/source/latex/sciwordconv
 @dirrmtry share/texmf-dist/doc/latex/sciwordconv
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

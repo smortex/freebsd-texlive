@@ -8,3 +8,5 @@
 share/texmf-dist/tex/latex/spreadtab/spreadtab.sty
 @dirrmtry share/texmf-dist/tex/latex/spreadtab
 @dirrmtry share/texmf-dist/doc/latex/spreadtab
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

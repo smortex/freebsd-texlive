@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/frontespizio/frontespizio.sty
 @dirrmtry share/texmf-dist/tex/latex/frontespizio
 @dirrmtry share/texmf-dist/source/latex/frontespizio
 @dirrmtry share/texmf-dist/doc/latex/frontespizio
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

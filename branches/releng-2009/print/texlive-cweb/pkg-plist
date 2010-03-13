@@ -15,3 +15,5 @@ share/texmf-dist/tex/plain/cweb/pdfwebmac.tex
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf-dist/tex/plain/cweb
 @dirrmtry share/texmf-dist/doc/plain/cweb
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

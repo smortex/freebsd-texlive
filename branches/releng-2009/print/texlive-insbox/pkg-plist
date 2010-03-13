@@ -5,3 +5,5 @@
 share/texmf-dist/tex/generic/insbox/insbox.tex
 @dirrmtry share/texmf-dist/tex/generic/insbox
 @dirrmtry share/texmf-dist/doc/generic/insbox
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

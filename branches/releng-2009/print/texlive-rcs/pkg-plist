@@ -35,3 +35,5 @@ share/texmf-dist/tex/latex/rcs/rcs.sty
 @dirrmtry share/texmf-dist/source/latex/rcs/src
 @dirrmtry share/texmf-dist/source/latex/rcs
 @dirrmtry share/texmf-dist/doc/latex/rcs
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

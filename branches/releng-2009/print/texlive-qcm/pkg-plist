@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/qcm/qcm.sty
 @dirrmtry share/texmf-dist/tex/latex/qcm
 @dirrmtry share/texmf-dist/source/latex/qcm
 @dirrmtry share/texmf-dist/doc/latex/qcm
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/xtcapts/xt_capts.sty
 @dirrmtry share/texmf-dist/tex/latex/xtcapts
 @dirrmtry share/texmf-dist/source/latex/xtcapts
 @dirrmtry share/texmf-dist/doc/latex/xtcapts
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

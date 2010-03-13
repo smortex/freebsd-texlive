@@ -109,3 +109,5 @@ share/texmf-dist/tex/latex/disser/titledefs.rtx
 @dirrmtry share/texmf-dist/doc/latex/disser/include
 @dirrmtry share/texmf-dist/doc/latex/disser
 @dirrmtry share/texmf-dist/bibtex/bst/disser
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

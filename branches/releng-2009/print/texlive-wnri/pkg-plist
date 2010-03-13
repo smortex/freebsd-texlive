@@ -92,3 +92,5 @@ share/texmf-dist/tex/latex/wnri/wnri.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/wnri
 @dirrmtry share/texmf-dist/fonts/source/public/wnri
 @dirrmtry share/texmf-dist/doc/latex/wnri
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

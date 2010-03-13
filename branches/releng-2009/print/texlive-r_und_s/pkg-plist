@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/r_und_s/r_und_s.sty
 share/texmf-dist/tex/latex/r_und_s/r_und_s.tex
 @dirrmtry share/texmf-dist/tex/latex/r_und_s
 @dirrmtry share/texmf-dist/doc/latex/r_und_s
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

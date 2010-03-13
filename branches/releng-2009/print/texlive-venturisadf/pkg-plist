@@ -839,3 +839,5 @@ share/texmf-dist/tex/latex/venturissans2/ts1yv3.fd
 @dirrmtry share/texmf-dist/fonts/afm/arkandis/venturis2
 @dirrmtry share/texmf-dist/fonts/afm/arkandis/venturis
 @dirrmtry share/texmf-dist/doc/fonts/venturisadf
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

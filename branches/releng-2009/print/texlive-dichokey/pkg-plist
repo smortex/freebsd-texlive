@@ -5,3 +5,5 @@
 share/texmf-dist/tex/latex/dichokey/dichokey.sty
 @dirrmtry share/texmf-dist/tex/latex/dichokey
 @dirrmtry share/texmf-dist/doc/latex/dichokey
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

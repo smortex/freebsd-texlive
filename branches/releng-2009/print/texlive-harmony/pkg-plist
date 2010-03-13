@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/harmony/harmony.sty
 @dirrmtry share/texmf-dist/tex/latex/harmony
 @dirrmtry share/texmf-dist/doc/latex/harmony
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

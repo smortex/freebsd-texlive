@@ -30,3 +30,5 @@ share/texmf-dist/fonts/vf/cg/lettrgth/clgri.vf
 share/texmf-dist/fonts/vf/cg/lettrgth/clgri8t.vf
 @dirrmtry share/texmf-dist/fonts/vf/cg/lettrgth
 @dirrmtry share/texmf-dist/fonts/tfm/cg/lettrgth
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

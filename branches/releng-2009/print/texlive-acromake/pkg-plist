@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/acromake/acromake.sty
 @dirrmtry share/texmf-dist/tex/latex/acromake
 @dirrmtry share/texmf-dist/doc/latex/acromake
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -5,3 +5,5 @@ share/texmf-dist/tex/latex/plates/endplate.sty
 share/texmf-dist/tex/latex/plates/plates.sty
 @dirrmtry share/texmf-dist/tex/latex/plates
 @dirrmtry share/texmf-dist/doc/latex/plates
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

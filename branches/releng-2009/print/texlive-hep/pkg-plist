@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/hep/hep.sty
 @dirrmtry share/texmf-dist/tex/latex/hep
 @dirrmtry share/texmf-dist/doc/latex/hep
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

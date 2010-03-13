@@ -54,3 +54,5 @@ share/texmf-dist/tex/plain/misc/xepsf.tex
 @dirrmtry share/texmf-dist/omega/ocp/misc
 @dirrmtry share/texmf-dist/fonts/tfm/public/misc
 @dirrmtry share/texmf-dist/fonts/source/public/misc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

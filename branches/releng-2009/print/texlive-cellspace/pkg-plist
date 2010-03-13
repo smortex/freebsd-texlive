@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/cellspace/cellspace.sty
 @dirrmtry share/texmf-dist/tex/latex/cellspace
 @dirrmtry share/texmf-dist/doc/latex/cellspace
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

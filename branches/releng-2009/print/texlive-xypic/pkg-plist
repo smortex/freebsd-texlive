@@ -221,3 +221,5 @@ share/texmf-dist/tex/generic/xypic/xyxdvi.tex
 @dirrmtry share/texmf-dist/fonts/map/dvips/xypic
 @dirrmtry share/texmf-dist/dvips/xypic
 @dirrmtry share/texmf-dist/doc/generic/xypic
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

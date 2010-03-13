@@ -173,3 +173,5 @@ share/texmf-dist/tex/latex/fontinst/fontdoc.sty
 @dirrmtry share/texmf-dist/doc/fonts/fontinst/examples/basic
 @dirrmtry share/texmf-dist/doc/fonts/fontinst/encspecs
 @dirrmtry share/texmf-dist/doc/fonts/fontinst
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

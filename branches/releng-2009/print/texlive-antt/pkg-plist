@@ -505,3 +505,5 @@ share/texmf-dist/tex/plain/antt/antt-math.tex
 @dirrmtry share/texmf-dist/fonts/afm/public/antt
 @dirrmtry share/texmf-dist/doc/latex/antt
 @dirrmtry share/texmf-dist/doc/fonts/antt
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

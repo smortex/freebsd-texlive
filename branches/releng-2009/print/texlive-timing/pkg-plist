@@ -17,3 +17,5 @@ share/texmf-dist/tex/latex/timing/timing.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/timing
 @dirrmtry share/texmf-dist/fonts/source/public/timing
 @dirrmtry share/texmf-dist/doc/fonts/timing
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/gnuplottex/gnuplottex.sty
 @dirrmtry share/texmf-dist/tex/latex/gnuplottex
 @dirrmtry share/texmf-dist/source/latex/gnuplottex
 @dirrmtry share/texmf-dist/doc/latex/gnuplottex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

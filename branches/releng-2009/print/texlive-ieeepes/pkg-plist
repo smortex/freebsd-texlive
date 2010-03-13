@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/ieeepes/ieeepes.sty
 @dirrmtry share/texmf-dist/tex/latex/ieeepes
 @dirrmtry share/texmf-dist/doc/latex/ieeepes
 @dirrmtry share/texmf-dist/bibtex/bst/ieeepes
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

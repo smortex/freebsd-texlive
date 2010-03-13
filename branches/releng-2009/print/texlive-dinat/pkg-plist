@@ -3,3 +3,5 @@ share/texmf-dist/bibtex/bst/dinat/dinat.bst
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/dinat/history.html
 @dirrmtry share/texmf-dist/doc/bibtex/dinat
 @dirrmtry share/texmf-dist/bibtex/bst/dinat
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

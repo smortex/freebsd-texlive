@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/anonchap/anonchap.sty
 @dirrmtry share/texmf-dist/tex/latex/anonchap
 @dirrmtry share/texmf-dist/doc/latex/anonchap
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

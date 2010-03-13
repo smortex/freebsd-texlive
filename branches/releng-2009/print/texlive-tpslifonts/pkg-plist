@@ -5,3 +5,5 @@
 share/texmf-dist/tex/latex/tpslifonts/tpslifonts.sty
 @dirrmtry share/texmf-dist/tex/latex/tpslifonts
 @dirrmtry share/texmf-dist/doc/latex/tpslifonts
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/imac/imac.sty
 @dirrmtry share/texmf-dist/tex/latex/imac
 @dirrmtry share/texmf-dist/doc/latex/imac
 @dirrmtry share/texmf-dist/bibtex/bst/imac
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

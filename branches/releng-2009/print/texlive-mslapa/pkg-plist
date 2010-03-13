@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/mslapa/mslapa.sty
 @dirrmtry share/texmf-dist/tex/latex/mslapa
 @dirrmtry share/texmf-dist/doc/latex/mslapa
 @dirrmtry share/texmf-dist/bibtex/bst/mslapa
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

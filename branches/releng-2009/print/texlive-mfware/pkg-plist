@@ -18,3 +18,5 @@ share/texmf-dist/mft/base/plain.mft
 %%PORTDOCS%%share/texmf/doc/man/man1/pktype.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf-dist/mft/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

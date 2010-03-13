@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/nomentbl/nomentbl.sty
 @dirrmtry share/texmf-dist/source/latex/nomentbl
 @dirrmtry share/texmf-dist/makeindex/nomentbl
 @dirrmtry share/texmf-dist/doc/latex/nomentbl
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

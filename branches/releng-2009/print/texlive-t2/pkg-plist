@@ -113,3 +113,5 @@ share/texmf-dist/tex/latex/t2/misccorr.sty
 @dirrmtry share/texmf-dist/doc/generic/t2/etc/rubibtex
 @dirrmtry share/texmf-dist/doc/generic/t2/etc
 @dirrmtry share/texmf-dist/doc/generic/t2
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

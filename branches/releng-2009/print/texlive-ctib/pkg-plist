@@ -25,3 +25,5 @@ share/texmf-dist/tex/latex/ctib/lctenc.def
 @dirrmtry share/texmf-dist/fonts/tfm/public/ctib
 @dirrmtry share/texmf-dist/fonts/source/public/ctib
 @dirrmtry share/texmf-dist/doc/latex/ctib
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

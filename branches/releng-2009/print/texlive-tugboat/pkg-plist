@@ -15,3 +15,5 @@ share/texmf-dist/tex/latex/tugboat/ltugproc.sty
 @dirrmtry share/texmf-dist/source/latex/tugboat
 @dirrmtry share/texmf-dist/doc/latex/tugboat
 @dirrmtry share/texmf-dist/bibtex/bst/tugboat
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

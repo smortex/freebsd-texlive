@@ -8,3 +8,5 @@ share/texmf-dist/tex/xelatex/philokalia/philokalia.sty
 @dirrmtry share/texmf-dist/source/xelatex/philokalia
 @dirrmtry share/texmf-dist/fonts/opentype/public/philokalia
 @dirrmtry share/texmf-dist/doc/xelatex/philokalia
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

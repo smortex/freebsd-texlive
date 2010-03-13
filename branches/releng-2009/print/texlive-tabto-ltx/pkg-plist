@@ -2,3 +2,5 @@
 share/texmf-dist/tex/latex/tabto-ltx/tabto.sty
 @dirrmtry share/texmf-dist/tex/latex/tabto-ltx
 @dirrmtry share/texmf-dist/doc/latex/tabto-ltx
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -3,3 +3,5 @@
 share/texmf-dist/tex/context/third/chromato/t-chromato.tex
 @dirrmtry share/texmf-dist/tex/context/third/chromato
 @dirrmtry share/texmf-dist/doc/context/third/chromato
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/outliner/outliner.sty
 @dirrmtry share/texmf-dist/tex/latex/outliner
 @dirrmtry share/texmf-dist/doc/latex/outliner
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/bibunits/bibunits.sty
 @dirrmtry share/texmf-dist/tex/latex/bibunits
 @dirrmtry share/texmf-dist/source/latex/bibunits
 @dirrmtry share/texmf-dist/doc/latex/bibunits
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

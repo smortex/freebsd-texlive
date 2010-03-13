@@ -7,3 +7,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/fig4latex/figs/if-then_flowchart.fig
 @dirrmtry share/texmf-dist/doc/support/fig4latex/figs
 @dirrmtry share/texmf-dist/doc/support/fig4latex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

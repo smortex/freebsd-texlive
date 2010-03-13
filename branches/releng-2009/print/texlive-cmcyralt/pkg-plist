@@ -19,3 +19,5 @@ share/texmf-dist/tex/latex/cmcyralt/russian.sty
 @dirrmtry share/texmf-dist/source/latex/cmcyralt/examples
 @dirrmtry share/texmf-dist/source/latex/cmcyralt
 @dirrmtry share/texmf-dist/doc/latex/cmcyralt
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

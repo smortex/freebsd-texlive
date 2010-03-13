@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/coollist/coollist.sty
 @dirrmtry share/texmf-dist/tex/latex/coollist
 @dirrmtry share/texmf-dist/source/latex/coollist
 @dirrmtry share/texmf-dist/doc/latex/coollist
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

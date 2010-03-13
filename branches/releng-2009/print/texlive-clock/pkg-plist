@@ -14,3 +14,5 @@ share/texmf-dist/tex/latex/clock/clock.tex
 @dirrmtry share/texmf-dist/fonts/tfm/public/clock
 @dirrmtry share/texmf-dist/fonts/source/public/clock
 @dirrmtry share/texmf-dist/doc/latex/clock
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

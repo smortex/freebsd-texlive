@@ -1,2 +1,4 @@
 share/texmf-dist/tex/latex/needspace/needspace.sty
 @dirrmtry share/texmf-dist/tex/latex/needspace
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

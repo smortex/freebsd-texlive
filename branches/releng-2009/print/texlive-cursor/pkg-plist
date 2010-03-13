@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/cursor/cursor.sty
 @dirrmtry share/texmf-dist/tex/latex/cursor
 @dirrmtry share/texmf-dist/doc/latex/cursor
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

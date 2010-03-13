@@ -173,3 +173,5 @@ share/texmf-dist/tex/latex/ncntrsbk/ts1unc.fd
 @dirrmtry share/texmf-dist/fonts/afm/urw/ncntrsbk
 @dirrmtry share/texmf-dist/fonts/afm/adobe/ncntrsbk
 @dirrmtry share/texmf-dist/dvips/ncntrsbk
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -4,3 +4,5 @@ share/texmf-dist/tex/context/third/fixme/t-fixme.tex
 @dirrmtry share/texmf-dist/tex/context/third/fixme
 @dirrmtry share/texmf-dist/source/context/third/fixme/doc
 @dirrmtry share/texmf-dist/doc/context/third/fixme
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

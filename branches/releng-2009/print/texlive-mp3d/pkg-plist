@@ -40,3 +40,5 @@ share/texmf-dist/metapost/mp3d/create_animation.sh
 @dirrmtry share/texmf-dist/metapost/mp3d
 @dirrmtry share/texmf-dist/doc/metapost/mp3d/examples
 @dirrmtry share/texmf-dist/doc/metapost/mp3d
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

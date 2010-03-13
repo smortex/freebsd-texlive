@@ -6,3 +6,5 @@ share/texmf-dist/tex/xelatex/xgreek/xgreek.sty
 @dirrmtry share/texmf-dist/tex/xelatex/xgreek
 @dirrmtry share/texmf-dist/source/xelatex/xgreek
 @dirrmtry share/texmf-dist/doc/xelatex/xgreek
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

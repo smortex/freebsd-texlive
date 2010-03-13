@@ -103,3 +103,5 @@ share/texmf-dist/tex/latex/universa/uuni.fd
 @dirrmtry share/texmf-dist/fonts/tfm/public/universa
 @dirrmtry share/texmf-dist/fonts/source/public/universa
 @dirrmtry share/texmf-dist/doc/fonts/universa
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

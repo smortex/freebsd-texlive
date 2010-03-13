@@ -8,3 +8,5 @@
 share/texmf-dist/tex/latex/pst-calendar/pst-calendar.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-calendar
 @dirrmtry share/texmf-dist/doc/latex/pst-calendar
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -594,3 +594,5 @@ share/texmf-dist/tex/plain/iwona/iwona-math.tex
 @dirrmtry share/texmf-dist/fonts/enc/dvips/iwona
 @dirrmtry share/texmf-dist/fonts/afm/public/iwona
 @dirrmtry share/texmf-dist/doc/fonts/iwona
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

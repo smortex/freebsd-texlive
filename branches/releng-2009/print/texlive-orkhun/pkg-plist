@@ -15,3 +15,5 @@ share/texmf-dist/fonts/tfm/public/orkhun/orhant25.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/orkhun
 @dirrmtry share/texmf-dist/fonts/source/public/orkhun
 @dirrmtry share/texmf-dist/doc/fonts/orkhun
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

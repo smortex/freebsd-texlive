@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/pst-gantt/pst-gantt.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-gantt
 @dirrmtry share/texmf-dist/source/generic/pst-gantt
 @dirrmtry share/texmf-dist/doc/generic/pst-gantt
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -9,3 +9,5 @@ share/texmf-dist/omega/otp/omega-devanagari/sanskrit-uni2cuni.otp
 share/texmf-dist/omega/otp/omega-devanagari/velthuis2unicode.otp
 @dirrmtry share/texmf-dist/omega/otp/omega-devanagari
 @dirrmtry share/texmf-dist/doc/omega/omega-devanagari
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

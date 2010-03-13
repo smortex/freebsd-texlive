@@ -67,3 +67,5 @@ share/texmf-dist/tex/latex/epigrafica/ot1epigrafica.fd
 @dirrmtry share/texmf-dist/fonts/enc/dvips/epigrafica
 @dirrmtry share/texmf-dist/fonts/afm/public/epigrafica
 @dirrmtry share/texmf-dist/doc/fonts/epigrafica
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

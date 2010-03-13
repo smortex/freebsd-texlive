@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/easylist/easylist.sty
 @dirrmtry share/texmf-dist/tex/latex/easylist
 @dirrmtry share/texmf-dist/doc/latex/easylist
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

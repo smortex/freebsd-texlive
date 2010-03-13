@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/oldstyle/oldstyle.sty
 @dirrmtry share/texmf-dist/tex/latex/oldstyle
 @dirrmtry share/texmf-dist/source/latex/oldstyle
 @dirrmtry share/texmf-dist/doc/latex/oldstyle
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

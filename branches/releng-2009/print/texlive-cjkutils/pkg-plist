@@ -44,3 +44,5 @@ share/texmf/hbf2gf/ksso17.cfg
 @dirrmtry share/texmf/doc/cefconv
 @dirrmtry share/texmf/doc/cef5conv
 @dirrmtry share/texmf/doc/bg5conv
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

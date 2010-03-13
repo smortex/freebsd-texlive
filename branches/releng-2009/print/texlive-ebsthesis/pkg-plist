@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/ebsthesis/ebsthesis.cls
 @dirrmtry share/texmf-dist/tex/latex/ebsthesis
 @dirrmtry share/texmf-dist/source/latex/ebsthesis
 @dirrmtry share/texmf-dist/doc/latex/ebsthesis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

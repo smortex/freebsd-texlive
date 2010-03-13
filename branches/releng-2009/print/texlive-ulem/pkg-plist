@@ -3,3 +3,5 @@
 share/texmf-dist/tex/generic/ulem/ulem.sty
 @dirrmtry share/texmf-dist/tex/generic/ulem
 @dirrmtry share/texmf-dist/doc/generic/ulem
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

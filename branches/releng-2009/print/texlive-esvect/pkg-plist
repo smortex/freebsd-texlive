@@ -33,3 +33,5 @@ share/texmf-dist/tex/latex/esvect/uesvect.fd
 @dirrmtry share/texmf-dist/fonts/source/public/esvect
 @dirrmtry share/texmf-dist/fonts/map/dvips/esvect
 @dirrmtry share/texmf-dist/doc/latex/esvect
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

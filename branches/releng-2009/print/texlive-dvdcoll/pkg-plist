@@ -39,3 +39,5 @@ share/texmf-dist/tex/latex/dvdcoll/pdfnotiz.sty
 @dirrmtry share/texmf-dist/tex/latex/dvdcoll
 @dirrmtry share/texmf-dist/doc/latex/dvdcoll
 @dirrmtry share/texmf-dist/bibtex/bst/dvdcoll
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

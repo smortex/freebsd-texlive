@@ -11,3 +11,5 @@ share/texmf-dist/tex/latex/gmdoc/gmoldcomm.sty
 @dirrmtry share/texmf-dist/makeindex/gmdoc
 @dirrmtry share/texmf-dist/doc/latex/gmdoc/basedrivers
 @dirrmtry share/texmf-dist/doc/latex/gmdoc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

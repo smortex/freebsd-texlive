@@ -23,3 +23,5 @@ share/texmf-dist/tex/latex/gfsbaskerville/lgrgfsbaskerville.fd
 @dirrmtry share/texmf-dist/fonts/enc/dvips/gfsbaskerville
 @dirrmtry share/texmf-dist/fonts/afm/public/gfsbaskerville
 @dirrmtry share/texmf-dist/doc/fonts/gfsbaskerville
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

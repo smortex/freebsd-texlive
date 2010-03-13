@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/maybemath/maybemath.sty
 @dirrmtry share/texmf-dist/tex/latex/maybemath
 @dirrmtry share/texmf-dist/doc/latex/maybemath
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

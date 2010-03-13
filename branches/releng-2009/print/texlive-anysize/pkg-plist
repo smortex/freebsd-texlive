@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/anysize/anysize.sty
 @dirrmtry share/texmf-dist/tex/latex/anysize
 @dirrmtry share/texmf-dist/doc/latex/anysize
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

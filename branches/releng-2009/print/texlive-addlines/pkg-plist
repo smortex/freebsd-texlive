@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/addlines/addlines.sty
 @dirrmtry share/texmf-dist/tex/latex/addlines
 @dirrmtry share/texmf-dist/source/latex/addlines
 @dirrmtry share/texmf-dist/doc/latex/addlines
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

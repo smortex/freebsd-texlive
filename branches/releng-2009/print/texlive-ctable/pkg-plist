@@ -37,3 +37,5 @@ share/texmf-dist/tex/latex/ctable/ctable.sty
 @dirrmtry share/texmf-dist/tex/latex/ctable
 @dirrmtry share/texmf-dist/source/latex/ctable
 @dirrmtry share/texmf-dist/doc/latex/ctable
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

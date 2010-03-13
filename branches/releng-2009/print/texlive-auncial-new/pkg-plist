@@ -24,3 +24,5 @@ share/texmf-dist/tex/latex/auncial-new/b1auncl.fd
 @dirrmtry share/texmf-dist/fonts/map/dvips/auncial-new
 @dirrmtry share/texmf-dist/fonts/afm/public/auncial-new
 @dirrmtry share/texmf-dist/doc/fonts/auncial-new
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

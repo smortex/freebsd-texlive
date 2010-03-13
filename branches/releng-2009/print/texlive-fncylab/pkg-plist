@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/fncylab/fncylab.sty
 @dirrmtry share/texmf-dist/tex/latex/fncylab
 @dirrmtry share/texmf-dist/doc/latex/fncylab
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

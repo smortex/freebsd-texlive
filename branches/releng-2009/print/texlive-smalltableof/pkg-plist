@@ -2,3 +2,5 @@
 share/texmf-dist/tex/latex/smalltableof/smalltableof.sty
 @dirrmtry share/texmf-dist/tex/latex/smalltableof
 @dirrmtry share/texmf-dist/doc/latex/smalltableof
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

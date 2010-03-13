@@ -7,4 +7,4 @@ Y&Y's dviwindo; for PDF control within pdfTeX and dvipdfm; for
 TeX4ht; and for VTeX's pdf and HTML backends. The package is
 distributed with the backref and nameref packages, which make
 use of the facilities of hyperref. The package depends on the
-author's kvoptions and refcount packages.
+author's kvoptions, ltxcmdsand refcount packages.

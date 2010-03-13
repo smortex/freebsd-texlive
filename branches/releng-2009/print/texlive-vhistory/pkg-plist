@@ -20,3 +20,5 @@ share/texmf-dist/tex/latex/vhistory/sets.sty
 share/texmf-dist/tex/latex/vhistory/vhistory.sty
 @dirrmtry share/texmf-dist/tex/latex/vhistory
 @dirrmtry share/texmf-dist/doc/latex/vhistory
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

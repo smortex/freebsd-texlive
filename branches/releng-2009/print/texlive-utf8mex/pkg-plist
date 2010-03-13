@@ -14,3 +14,5 @@ share/texmf-dist/tex/mex/utf8mex/utf8plsq.tex
 @dirrmtry share/texmf-dist/tex/mex/utf8mex
 @dirrmtry share/texmf-dist/doc/mex/utf8mex/examples
 @dirrmtry share/texmf-dist/doc/mex/utf8mex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

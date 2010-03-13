@@ -125,3 +125,5 @@ share/texmf-dist/tex/generic/metapost/mpsproof.tex
 @dirrmtry share/texmf-dist/doc/metapost/base/source-tutorial
 @dirrmtry share/texmf-dist/doc/metapost/base/source-manual
 @dirrmtry share/texmf-dist/doc/metapost/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

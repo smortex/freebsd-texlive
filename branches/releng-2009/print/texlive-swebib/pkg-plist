@@ -6,3 +6,5 @@ share/texmf-dist/bibtex/bst/swebib/sweunsrt.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/swebib/README
 @dirrmtry share/texmf-dist/doc/latex/swebib
 @dirrmtry share/texmf-dist/bibtex/bst/swebib
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

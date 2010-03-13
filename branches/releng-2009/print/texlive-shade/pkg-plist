@@ -6,3 +6,5 @@ share/texmf-dist/tex/generic/shade/shade.tex
 @dirrmtry share/texmf-dist/tex/generic/shade
 @dirrmtry share/texmf-dist/fonts/source/public/shade
 @dirrmtry share/texmf-dist/doc/generic/shade
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

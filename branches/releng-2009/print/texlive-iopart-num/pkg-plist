@@ -5,3 +5,5 @@ share/texmf-dist/bibtex/bst/iopart-num/iopart-num.bst
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/iopart-num/iopart-num.tex
 @dirrmtry share/texmf-dist/doc/bibtex/iopart-num
 @dirrmtry share/texmf-dist/bibtex/bst/iopart-num
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

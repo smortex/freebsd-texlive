@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/colorinfo/colorinfo.sty
 @dirrmtry share/texmf-dist/tex/latex/colorinfo
 @dirrmtry share/texmf-dist/doc/latex/colorinfo
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

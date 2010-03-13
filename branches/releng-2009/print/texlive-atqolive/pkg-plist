@@ -24,3 +24,5 @@ share/texmf-dist/fonts/vf/cg/atqolive/caoriq.vf
 share/texmf-dist/fonts/vf/cg/atqolive/caorq.vf
 @dirrmtry share/texmf-dist/fonts/vf/cg/atqolive
 @dirrmtry share/texmf-dist/fonts/tfm/cg/atqolive
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

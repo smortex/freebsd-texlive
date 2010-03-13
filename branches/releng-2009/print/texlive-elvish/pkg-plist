@@ -12,3 +12,5 @@ share/texmf-dist/fonts/tfm/public/elvish/teng10.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/elvish
 @dirrmtry share/texmf-dist/fonts/source/public/elvish
 @dirrmtry share/texmf-dist/doc/fonts/elvish
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

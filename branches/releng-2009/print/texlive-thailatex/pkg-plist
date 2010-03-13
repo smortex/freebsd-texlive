@@ -150,3 +150,5 @@ share/texmf-dist/fonts/type1/public/thailatex/waree_o.pfb
 @dirrmtry share/texmf-dist/source/latex/thailatex
 @dirrmtry share/texmf-dist/fonts/type1/public/thailatex
 @dirrmtry share/texmf-dist/fonts/afm/public/thailatex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

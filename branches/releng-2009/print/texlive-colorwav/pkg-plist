@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/colorwav/colorwav.sty
 @dirrmtry share/texmf-dist/tex/latex/colorwav
 @dirrmtry share/texmf-dist/source/latex/colorwav
 @dirrmtry share/texmf-dist/doc/latex/colorwav
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

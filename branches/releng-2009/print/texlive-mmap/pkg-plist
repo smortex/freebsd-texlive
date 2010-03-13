@@ -47,3 +47,5 @@ share/texmf-dist/tex/latex/mmap/upzd-m.cmap
 share/texmf-dist/tex/latex/mmap/upzd.cmap
 @dirrmtry share/texmf-dist/tex/latex/mmap
 @dirrmtry share/texmf-dist/doc/latex/mmap
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -221,3 +221,5 @@ share/texmf-dist/fonts/tfm/public/malayalam/orn10.tfm
 @dirrmtry share/texmf-dist/fonts/source/public/malayalam
 @dirrmtry share/texmf-dist/doc/fonts/malayalam/article
 @dirrmtry share/texmf-dist/doc/fonts/malayalam
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -5,3 +5,5 @@
 share/texmf-dist/tex/latex/skeyval/skeyval.sty
 @dirrmtry share/texmf-dist/tex/latex/skeyval
 @dirrmtry share/texmf-dist/doc/latex/skeyval
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

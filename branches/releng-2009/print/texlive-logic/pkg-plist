@@ -5,3 +5,5 @@ share/texmf-dist/tex/latex/logic/milstd.tex
 @dirrmtry share/texmf-dist/tex/latex/logic
 @dirrmtry share/texmf-dist/fonts/tfm/public/logic
 @dirrmtry share/texmf-dist/fonts/source/public/logic
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

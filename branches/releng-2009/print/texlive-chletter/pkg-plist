@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/chletter/chletter.cls
 @dirrmtry share/texmf-dist/tex/latex/chletter
 @dirrmtry share/texmf-dist/source/latex/chletter
 @dirrmtry share/texmf-dist/doc/latex/chletter
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

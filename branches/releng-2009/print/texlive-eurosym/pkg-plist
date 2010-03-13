@@ -46,3 +46,5 @@ share/texmf-dist/tex/latex/eurosym/eurosym.sty
 @dirrmtry share/texmf-dist/doc/fonts/eurosym/src
 @dirrmtry share/texmf-dist/doc/fonts/eurosym/c
 @dirrmtry share/texmf-dist/doc/fonts/eurosym
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/miniplot/miniplot.sty
 @dirrmtry share/texmf-dist/tex/latex/miniplot
 @dirrmtry share/texmf-dist/doc/latex/miniplot/figures
 @dirrmtry share/texmf-dist/doc/latex/miniplot
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

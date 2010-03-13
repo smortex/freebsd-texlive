@@ -48,3 +48,5 @@ share/texmf-dist/tex/latex/fouriernc/ts1fnc.fd
 @dirrmtry share/texmf-dist/fonts/tfm/public/fouriernc
 @dirrmtry share/texmf-dist/fonts/afm/public/fouriernc
 @dirrmtry share/texmf-dist/doc/fonts/fouriernc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

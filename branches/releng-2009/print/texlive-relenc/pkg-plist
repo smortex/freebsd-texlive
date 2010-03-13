@@ -25,3 +25,5 @@ share/texmf-dist/tex/latex/relenc/t1rzcm.fd
 @dirrmtry share/texmf-dist/fonts/vf/public/relenc
 @dirrmtry share/texmf-dist/fonts/tfm/public/relenc
 @dirrmtry share/texmf-dist/doc/latex/relenc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

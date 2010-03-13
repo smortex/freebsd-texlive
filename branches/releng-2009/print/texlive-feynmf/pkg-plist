@@ -27,3 +27,5 @@ share/texmf-dist/tex/latex/feynmf/feynmp.sty
 @dirrmtry share/texmf-dist/metapost/feynmf
 @dirrmtry share/texmf-dist/metafont/feynmf
 @dirrmtry share/texmf-dist/doc/latex/feynmf
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

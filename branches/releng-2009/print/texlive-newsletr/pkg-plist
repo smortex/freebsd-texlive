@@ -10,3 +10,5 @@
 share/texmf-dist/tex/plain/newsletr/newsletr.tex
 @dirrmtry share/texmf-dist/tex/plain/newsletr
 @dirrmtry share/texmf-dist/doc/plain/newsletr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

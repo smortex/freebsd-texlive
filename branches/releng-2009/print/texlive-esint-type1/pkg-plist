@@ -11,3 +11,5 @@ share/texmf-dist/tex/plain/esint-type1/esint.tex
 @dirrmtry share/texmf-dist/fonts/map/dvips/esint-type1
 @dirrmtry share/texmf-dist/dvips/esint-type1
 @dirrmtry share/texmf-dist/doc/fonts/esint-type1
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -80,3 +80,5 @@ share/texmf-dist/tex/latex/txfontsb/txfontsb.sty
 @dirrmtry share/texmf-dist/fonts/enc/dvips/txfontsb
 @dirrmtry share/texmf-dist/fonts/afm/public/txfontsb
 @dirrmtry share/texmf-dist/doc/fonts/txfontsb
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -28,3 +28,5 @@ share/texmf-dist/tex/latex/bengali/ubnx.fd
 @dirrmtry share/texmf-dist/source/latex/bengali
 @dirrmtry share/texmf-dist/fonts/tfm/public/bengali
 @dirrmtry share/texmf-dist/fonts/source/public/bengali
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

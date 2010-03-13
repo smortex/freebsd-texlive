@@ -13,3 +13,5 @@ share/texmf-dist/tex/generic/borceux/MultipleArrows
 @dirrmtry share/texmf-dist/tex/generic/borceux
 @dirrmtry share/texmf-dist/source/generic/borceux/compatibility
 @dirrmtry share/texmf-dist/doc/generic/borceux
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

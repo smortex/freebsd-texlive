@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/pst-osci/pst-osci.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-osci
 @dirrmtry share/texmf-dist/tex/generic/pst-osci
 @dirrmtry share/texmf-dist/doc/generic/pst-osci
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -26,3 +26,5 @@ share/texmf-dist/tex/plain/rsfs/scrload.tex
 @dirrmtry share/texmf-dist/fonts/map/dvips/rsfs
 @dirrmtry share/texmf-dist/fonts/afm/public/rsfs
 @dirrmtry share/texmf-dist/doc/fonts/rsfs
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

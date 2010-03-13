@@ -6,3 +6,5 @@ share/texmf-dist/tex/plain/apalike/apalike.tex
 @dirrmtry share/texmf-dist/tex/latex/apalike
 @dirrmtry share/texmf-dist/doc/bibtex/apalike
 @dirrmtry share/texmf-dist/bibtex/bst/apalike
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

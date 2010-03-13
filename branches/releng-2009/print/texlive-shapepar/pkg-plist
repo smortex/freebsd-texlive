@@ -10,3 +10,5 @@
 share/texmf-dist/tex/generic/shapepar/shapepar.sty
 @dirrmtry share/texmf-dist/tex/generic/shapepar
 @dirrmtry share/texmf-dist/doc/generic/shapepar
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

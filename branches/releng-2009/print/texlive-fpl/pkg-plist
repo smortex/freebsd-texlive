@@ -33,3 +33,5 @@ share/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfm
 @dirrmtry share/texmf-dist/fonts/type1/public/fpl
 @dirrmtry share/texmf-dist/fonts/afm/public/fpl
 @dirrmtry share/texmf-dist/doc/fonts/fpl
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

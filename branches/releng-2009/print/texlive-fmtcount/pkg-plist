@@ -20,3 +20,5 @@ share/texmf-dist/tex/latex/fmtcount/fmtcount.sty
 @dirrmtry share/texmf-dist/tex/latex/fmtcount
 @dirrmtry share/texmf-dist/source/latex/fmtcount
 @dirrmtry share/texmf-dist/doc/latex/fmtcount
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

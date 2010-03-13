@@ -43,3 +43,5 @@ share/texmf-dist/tex/latex/zapfchan/ts1uzc.fd
 @dirrmtry share/texmf-dist/fonts/afm/urw/zapfchan
 @dirrmtry share/texmf-dist/fonts/afm/adobe/zapfchan
 @dirrmtry share/texmf-dist/dvips/zapfchan
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

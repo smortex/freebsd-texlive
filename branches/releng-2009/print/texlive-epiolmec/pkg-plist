@@ -11,3 +11,5 @@ share/texmf-dist/tex/latex/epiolmec/epiolmec.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/epiolmec
 @dirrmtry share/texmf-dist/fonts/map/dvips/epiolmec
 @dirrmtry share/texmf-dist/doc/latex/epiolmec
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -62,3 +62,5 @@ share/texmf-dist/fonts/vf/bitstrea/charter/bchro8t.vf
 @dirrmtry share/texmf-dist/fonts/tfm/bitstrea/charter
 @dirrmtry share/texmf-dist/fonts/afm/bitstrea/charter
 @dirrmtry share/texmf-dist/doc/fonts/charter
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

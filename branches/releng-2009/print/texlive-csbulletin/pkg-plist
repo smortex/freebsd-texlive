@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/csbulletin/csbulacronym.sty
 share/texmf-dist/tex/latex/csbulletin/csbulletin.cls
 @dirrmtry share/texmf-dist/tex/latex/csbulletin
 @dirrmtry share/texmf-dist/doc/latex/csbulletin
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

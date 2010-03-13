@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/multirow/bigstrut.sty
 share/texmf-dist/tex/latex/multirow/multirow.sty
 @dirrmtry share/texmf-dist/tex/latex/multirow
 @dirrmtry share/texmf-dist/doc/latex/multirow
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

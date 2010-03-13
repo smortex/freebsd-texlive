@@ -16,3 +16,5 @@ share/texmf-dist/tex/latex/ametsoc/ametsoc2col.sty
 @dirrmtry share/texmf-dist/doc/latex/ametsoc/bibliography
 @dirrmtry share/texmf-dist/doc/latex/ametsoc
 @dirrmtry share/texmf-dist/bibtex/bst/ametsoc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

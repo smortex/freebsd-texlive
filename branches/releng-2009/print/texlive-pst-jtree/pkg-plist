@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/pst-jtree/pst-jtree.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-jtree
 @dirrmtry share/texmf-dist/tex/generic/pst-jtree
 @dirrmtry share/texmf-dist/doc/generic/pst-jtree
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

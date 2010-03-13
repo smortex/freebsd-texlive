@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/boxedminipage/boxedminipage.sty
 @dirrmtry share/texmf-dist/tex/latex/boxedminipage
 @dirrmtry share/texmf-dist/doc/latex/boxedminipage
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

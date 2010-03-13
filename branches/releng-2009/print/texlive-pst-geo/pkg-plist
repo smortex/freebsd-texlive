@@ -88,3 +88,5 @@ share/texmf-dist/tex/latex/pst-geo/pst-map3dII.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-geo
 @dirrmtry share/texmf-dist/dvips/pst-geo
 @dirrmtry share/texmf-dist/doc/generic/pst-geo
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -36,3 +36,5 @@ share/texmf-dist/tex/latex/marvosym/umvs.fd
 @dirrmtry share/texmf-dist/doc/fonts/marvosym/mac/docs
 @dirrmtry share/texmf-dist/doc/fonts/marvosym/mac
 @dirrmtry share/texmf-dist/doc/fonts/marvosym
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

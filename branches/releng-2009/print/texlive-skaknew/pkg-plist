@@ -40,3 +40,5 @@ share/texmf-dist/fonts/type1/public/skaknew/SkakNew-FigurineBold.pfm
 @dirrmtry share/texmf-dist/fonts/map/dvips/skaknew
 @dirrmtry share/texmf-dist/fonts/afm/public/skaknew
 @dirrmtry share/texmf-dist/doc/fonts/skaknew
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

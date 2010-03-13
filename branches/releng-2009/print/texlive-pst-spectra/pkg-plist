@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/pst-spectra/pst-spectra.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-spectra
 @dirrmtry share/texmf-dist/dvips/pst-spectra
 @dirrmtry share/texmf-dist/doc/generic/pst-spectra
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

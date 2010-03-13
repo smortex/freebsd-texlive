@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/pst-blur/pst-blur.sty
 @dirrmtry share/texmf-dist/source/generic/pst-blur
 @dirrmtry share/texmf-dist/dvips/pst-blur
 @dirrmtry share/texmf-dist/doc/generic/pst-blur
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

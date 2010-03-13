@@ -123,3 +123,5 @@ share/texmf-dist/tex/latex/zefonts/zefonts.sty
 @dirrmtry share/texmf-dist/fonts/map/dvips/zefonts
 @dirrmtry share/texmf-dist/dvips/zefonts
 @dirrmtry share/texmf-dist/doc/latex/zefonts
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

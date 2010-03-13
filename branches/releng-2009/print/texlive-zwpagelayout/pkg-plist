@@ -12,3 +12,5 @@
 share/texmf-dist/tex/latex/zwpagelayout/zwpagelayout.sty
 @dirrmtry share/texmf-dist/tex/latex/zwpagelayout
 @dirrmtry share/texmf-dist/doc/latex/zwpagelayout
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

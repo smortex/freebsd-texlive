@@ -39,3 +39,5 @@ share/texmf-dist/tex/latex/kluwer/kluwer.cls
 @dirrmtry share/texmf-dist/source/latex/kluwer
 @dirrmtry share/texmf-dist/doc/latex/kluwer
 @dirrmtry share/texmf-dist/bibtex/bst/kluwer
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/tdsfrmath/tdsfrmath.sty
 @dirrmtry share/texmf-dist/tex/latex/tdsfrmath
 @dirrmtry share/texmf-dist/source/latex/tdsfrmath
 @dirrmtry share/texmf-dist/doc/latex/tdsfrmath
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

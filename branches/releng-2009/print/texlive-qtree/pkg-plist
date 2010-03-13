@@ -6,3 +6,5 @@
 share/texmf-dist/tex/latex/qtree/qtree.sty
 @dirrmtry share/texmf-dist/tex/latex/qtree
 @dirrmtry share/texmf-dist/doc/latex/qtree
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

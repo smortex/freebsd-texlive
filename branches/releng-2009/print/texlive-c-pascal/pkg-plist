@@ -11,3 +11,5 @@ share/texmf-dist/tex/generic/c-pascal/cap_pas.tex
 @dirrmtry share/texmf-dist/tex/generic/c-pascal
 @dirrmtry share/texmf-dist/doc/generic/c-pascal/prog
 @dirrmtry share/texmf-dist/doc/generic/c-pascal
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

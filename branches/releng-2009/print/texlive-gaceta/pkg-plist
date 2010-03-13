@@ -6,3 +6,5 @@
 share/texmf-dist/tex/latex/gaceta/gaceta.cls
 @dirrmtry share/texmf-dist/tex/latex/gaceta
 @dirrmtry share/texmf-dist/doc/latex/gaceta
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/slantsc/slantsc.sty
 @dirrmtry share/texmf-dist/tex/latex/slantsc
 @dirrmtry share/texmf-dist/source/latex/slantsc
 @dirrmtry share/texmf-dist/doc/latex/slantsc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

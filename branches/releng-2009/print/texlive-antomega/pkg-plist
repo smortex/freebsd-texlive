@@ -111,3 +111,5 @@ share/texmf-dist/tex/lambda/antomega/ut1enc-antomega.def
 @dirrmtry share/texmf-dist/omega/ocp/antomega/latin
 @dirrmtry share/texmf-dist/omega/ocp/antomega
 @dirrmtry share/texmf-dist/doc/omega/antomega
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

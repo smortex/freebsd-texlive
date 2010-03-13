@@ -5,3 +5,5 @@
 %%PORTDOCS%%share/texmf/doc/man/man1/pkfix-helper.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf-dist/doc/support/pkfix-helper
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

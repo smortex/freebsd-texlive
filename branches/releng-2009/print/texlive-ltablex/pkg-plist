@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/ltablex/ltablex.sty
 @dirrmtry share/texmf-dist/tex/latex/ltablex
 @dirrmtry share/texmf-dist/doc/latex/ltablex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

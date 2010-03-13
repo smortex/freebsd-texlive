@@ -11,3 +11,5 @@ share/texmf-dist/fonts/source/public/knuthotherfonts/mfbook/metafon.mf
 @dirrmtry share/texmf-dist/fonts/source/public/knuthotherfonts/mfbook
 @dirrmtry share/texmf-dist/fonts/source/public/knuthotherfonts/halftone
 @dirrmtry share/texmf-dist/fonts/source/public/knuthotherfonts/committee
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

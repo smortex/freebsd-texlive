@@ -15,3 +15,5 @@ share/texmf-dist/tex/latex/juramisc/juraurtl.cls
 @dirrmtry share/texmf-dist/doc/latex/juramisc/doc/jbook
 @dirrmtry share/texmf-dist/doc/latex/juramisc/doc
 @dirrmtry share/texmf-dist/doc/latex/juramisc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

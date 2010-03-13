@@ -17,3 +17,5 @@ share/texmf-dist/tex/latex/cbcoptic/prnthyph.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/cbcoptic
 @dirrmtry share/texmf-dist/fonts/source/public/cbcoptic
 @dirrmtry share/texmf-dist/doc/latex/cbcoptic
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

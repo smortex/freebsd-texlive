@@ -260,3 +260,5 @@ share/texmf-dist/tex/latex/palatino/ts1upl.fd
 @dirrmtry share/texmf-dist/fonts/afm/urw/palatino
 @dirrmtry share/texmf-dist/fonts/afm/adobe/palatino
 @dirrmtry share/texmf-dist/dvips/palatino
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

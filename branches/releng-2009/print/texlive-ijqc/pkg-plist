@@ -6,3 +6,5 @@ share/texmf-dist/bibtex/bst/ijqc/ijqc.bst
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/ijqc/xampl.tex
 @dirrmtry share/texmf-dist/doc/bibtex/ijqc
 @dirrmtry share/texmf-dist/bibtex/bst/ijqc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

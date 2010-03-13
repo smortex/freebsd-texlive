@@ -6,3 +6,5 @@
 share/texmf-dist/tex/latex/syllogism/syllogism.sty
 @dirrmtry share/texmf-dist/tex/latex/syllogism
 @dirrmtry share/texmf-dist/doc/latex/syllogism
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

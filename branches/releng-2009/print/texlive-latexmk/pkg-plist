@@ -24,3 +24,5 @@
 @dirrmtry share/texmf-dist/doc/support/latexmk/extra-scripts
 @dirrmtry share/texmf-dist/doc/support/latexmk/example_rcfiles
 @dirrmtry share/texmf-dist/doc/support/latexmk
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

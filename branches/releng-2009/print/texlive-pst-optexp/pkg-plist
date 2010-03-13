@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/pst-optexp/pst-optexp.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-optexp
 @dirrmtry share/texmf-dist/dvips/pst-optexp
 @dirrmtry share/texmf-dist/doc/generic/pst-optexp
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

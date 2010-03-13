@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/changepage/chngpage.sty
 @dirrmtry share/texmf-dist/tex/latex/changepage
 @dirrmtry share/texmf-dist/source/latex/changepage
 @dirrmtry share/texmf-dist/doc/latex/changepage
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

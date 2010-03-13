@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/keystroke/keystroke_right.eps
 share/texmf-dist/tex/latex/keystroke/keystroke_right.pdf
 @dirrmtry share/texmf-dist/tex/latex/keystroke
 @dirrmtry share/texmf-dist/doc/latex/keystroke
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

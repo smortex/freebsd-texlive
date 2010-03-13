@@ -16,3 +16,5 @@ share/texmf-dist/tex/latex/beamer-FUBerlin/beamerouterthemeBerlinFU.sty
 share/texmf-dist/tex/latex/beamer-FUBerlin/beamerthemeBerlinFU.sty
 @dirrmtry share/texmf-dist/tex/latex/beamer-FUBerlin
 @dirrmtry share/texmf-dist/doc/latex/beamer-FUBerlin
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

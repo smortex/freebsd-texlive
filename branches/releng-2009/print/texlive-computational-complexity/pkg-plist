@@ -34,3 +34,5 @@ share/texmf-dist/tex/latex/computational-complexity/thcc.sty
 @dirrmtry share/texmf-dist/doc/latex/computational-complexity
 @dirrmtry share/texmf-dist/bibtex/bst/computational-complexity
 @dirrmtry share/texmf-dist/bibtex/bib/computational-complexity
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

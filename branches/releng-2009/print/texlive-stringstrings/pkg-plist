@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/stringstrings/stringstrings.sty
 @dirrmtry share/texmf-dist/tex/latex/stringstrings
 @dirrmtry share/texmf-dist/source/latex/stringstrings
 @dirrmtry share/texmf-dist/doc/latex/stringstrings
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

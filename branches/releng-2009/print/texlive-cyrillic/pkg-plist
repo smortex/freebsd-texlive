@@ -128,3 +128,5 @@ share/texmf-dist/tex/latex/cyrillic/x2lcmtt.fd
 @dirrmtry share/texmf-dist/tex/latex/cyrillic
 @dirrmtry share/texmf-dist/source/latex/cyrillic
 @dirrmtry share/texmf-dist/doc/latex/cyrillic
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

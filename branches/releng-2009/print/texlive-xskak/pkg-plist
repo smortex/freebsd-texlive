@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/xskak/xskak.sty
 @dirrmtry share/texmf-dist/tex/latex/xskak
 @dirrmtry share/texmf-dist/source/latex/xskak
 @dirrmtry share/texmf-dist/doc/latex/xskak
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

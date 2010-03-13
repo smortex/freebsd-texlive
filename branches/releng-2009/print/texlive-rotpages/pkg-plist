@@ -11,3 +11,5 @@ share/texmf-dist/tex/latex/rotpages/rotpages.sty
 @dirrmtry share/texmf-dist/tex/latex/rotpages
 @dirrmtry share/texmf-dist/doc/latex/rotpages/Examples
 @dirrmtry share/texmf-dist/doc/latex/rotpages
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -56,3 +56,5 @@ share/texmf-dist/tex/latex/babelbib/swedish.bdf
 @dirrmtry share/texmf-dist/source/latex/babelbib
 @dirrmtry share/texmf-dist/doc/latex/babelbib
 @dirrmtry share/texmf-dist/bibtex/bst/babelbib
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

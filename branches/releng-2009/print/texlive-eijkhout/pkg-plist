@@ -3,3 +3,5 @@ share/texmf-dist/tex/generic/eijkhout/CD_labeler_test.tex
 share/texmf-dist/tex/generic/eijkhout/DB_process.tex
 share/texmf-dist/tex/generic/eijkhout/repeat.tex
 @dirrmtry share/texmf-dist/tex/generic/eijkhout
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

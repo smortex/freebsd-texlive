@@ -35,3 +35,5 @@ share/texmf-dist/tex/latex/inconsolata/ts1fi4.fd
 @dirrmtry share/texmf-dist/fonts/map/dvips/inconsolata
 @dirrmtry share/texmf-dist/fonts/enc/dvips/inconsolata
 @dirrmtry share/texmf-dist/doc/fonts/inconsolata
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

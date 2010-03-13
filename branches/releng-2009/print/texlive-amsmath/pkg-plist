@@ -38,3 +38,5 @@ share/texmf-dist/tex/latex/amsmath/amsxtra.sty
 @dirrmtry share/texmf-dist/tex/latex/amsmath
 @dirrmtry share/texmf-dist/source/latex/amsmath
 @dirrmtry share/texmf-dist/doc/latex/amsmath
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

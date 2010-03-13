@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/pst-fr3d/pst-fr3d.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-fr3d
 @dirrmtry share/texmf-dist/source/generic/pst-fr3d
 @dirrmtry share/texmf-dist/doc/generic/pst-fr3d
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

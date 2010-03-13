@@ -17,3 +17,5 @@ share/texmf-dist/tex/luatex/luatextra/luatextra.sty
 @dirrmtry share/texmf-dist/tex/luatex/luatextra
 @dirrmtry share/texmf-dist/source/luatex/luatextra
 @dirrmtry share/texmf-dist/doc/luatex/luatextra
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

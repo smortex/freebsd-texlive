@@ -47,3 +47,5 @@ share/texmf-dist/tex/latex/hyper/xr.hyp
 @dirrmtry share/texmf-dist/doc/latex/hyper/scontrib
 @dirrmtry share/texmf-dist/doc/latex/hyper/contrib
 @dirrmtry share/texmf-dist/doc/latex/hyper
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

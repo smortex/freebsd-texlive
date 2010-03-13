@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/breakcites/breakcites.sty
 @dirrmtry share/texmf-dist/tex/latex/breakcites
 @dirrmtry share/texmf-dist/doc/latex/breakcites
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

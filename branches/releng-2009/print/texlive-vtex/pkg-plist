@@ -11,3 +11,5 @@ share/texmf-dist/vtex/config/ugq.ali
 @dirrmtry share/texmf-dist/fonts/map/vtex/skaknew
 @dirrmtry share/texmf-dist/fonts/map/vtex/dictsym
 @dirrmtry share/texmf-dist/fonts/map/vtex/bera
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

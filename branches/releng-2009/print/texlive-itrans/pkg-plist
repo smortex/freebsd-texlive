@@ -92,3 +92,5 @@ share/texmf-dist/tex/latex/itrans/itrnstlg.tex
 @dirrmtry share/texmf-dist/fonts/source/public/itrans
 @dirrmtry share/texmf-dist/fonts/afm/public/itrans
 @dirrmtry share/texmf-dist/doc/fonts/itrans
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

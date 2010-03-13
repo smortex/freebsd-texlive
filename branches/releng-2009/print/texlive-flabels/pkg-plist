@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/flabels/flabels.sty
 @dirrmtry share/texmf-dist/tex/latex/flabels
 @dirrmtry share/texmf-dist/source/latex/flabels
 @dirrmtry share/texmf-dist/doc/latex/flabels
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

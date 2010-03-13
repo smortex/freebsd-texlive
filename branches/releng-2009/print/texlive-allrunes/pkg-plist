@@ -500,3 +500,5 @@ share/texmf-dist/tex/latex/allrunes/art.fd
 @dirrmtry share/texmf-dist/fonts/source/public/allrunes
 @dirrmtry share/texmf-dist/fonts/map/dvips/allrunes
 @dirrmtry share/texmf-dist/doc/fonts/allrunes
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

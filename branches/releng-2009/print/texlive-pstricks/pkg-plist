@@ -62,3 +62,5 @@ share/texmf-dist/tex/latex/pstricks/pstricks.sty
 @dirrmtry share/texmf-dist/dvips/pstricks
 @dirrmtry share/texmf-dist/doc/generic/pstricks/images
 @dirrmtry share/texmf-dist/doc/generic/pstricks
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

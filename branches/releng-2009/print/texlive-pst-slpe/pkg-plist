@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/pst-slpe/pst-slpe.sty
 @dirrmtry share/texmf-dist/source/generic/pst-slpe
 @dirrmtry share/texmf-dist/dvips/pst-slpe
 @dirrmtry share/texmf-dist/doc/generic/pst-slpe
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

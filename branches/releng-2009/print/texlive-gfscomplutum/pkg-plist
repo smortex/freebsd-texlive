@@ -25,3 +25,5 @@ share/texmf-dist/tex/latex/gfscomplutum/lgrcomplutum.fd
 @dirrmtry share/texmf-dist/fonts/enc/dvips/gfscomplutum
 @dirrmtry share/texmf-dist/fonts/afm/public/gfscomplutum
 @dirrmtry share/texmf-dist/doc/fonts/gfscomplutum
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

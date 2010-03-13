@@ -5,3 +5,5 @@
 share/texmf-dist/tex/latex/gauss/gauss.sty
 @dirrmtry share/texmf-dist/tex/latex/gauss
 @dirrmtry share/texmf-dist/doc/latex/gauss
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

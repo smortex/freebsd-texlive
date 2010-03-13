@@ -295,3 +295,5 @@ share/texmf-dist/tex/xelatex/velthuis/hindicaptions.sty
 @dirrmtry share/texmf-dist/fonts/map/dvips/velthuis
 @dirrmtry share/texmf-dist/fonts/afm/public/velthuis
 @dirrmtry share/texmf-dist/doc/generic/velthuis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

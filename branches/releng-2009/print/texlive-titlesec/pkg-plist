@@ -14,3 +14,5 @@ share/texmf-dist/tex/latex/titlesec/ttlps.def
 share/texmf-dist/tex/latex/titlesec/wrap.tss
 @dirrmtry share/texmf-dist/tex/latex/titlesec
 @dirrmtry share/texmf-dist/doc/latex/titlesec
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

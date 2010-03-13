@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/pst-optic/pst-optic.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-optic
 @dirrmtry share/texmf-dist/source/generic/pst-optic
 @dirrmtry share/texmf-dist/doc/generic/pst-optic
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

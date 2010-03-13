@@ -144,3 +144,5 @@ share/texmf-dist/tex/plain/semaphor/semaf.tex
 @dirrmtry share/texmf-dist/fonts/enc/dvips/semaphor
 @dirrmtry share/texmf-dist/fonts/afm/public/semaphor
 @dirrmtry share/texmf-dist/doc/fonts/semaphor
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

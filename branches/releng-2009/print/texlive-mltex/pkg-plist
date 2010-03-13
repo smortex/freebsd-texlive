@@ -11,3 +11,5 @@ share/texmf-dist/tex/mltex/config/mltex.ini
 @dirrmtry share/texmf-dist/tex/mltex/config
 @dirrmtry share/texmf-dist/tex/latex/mltex
 @dirrmtry share/texmf-dist/doc/latex/mltex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

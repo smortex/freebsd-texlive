@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/algorithms/algorithmic.sty
 @dirrmtry share/texmf-dist/tex/latex/algorithms
 @dirrmtry share/texmf-dist/source/latex/algorithms
 @dirrmtry share/texmf-dist/doc/latex/algorithms
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/uebungsblatt/uebungsblatt.cls
 share/texmf-dist/tex/latex/uebungsblatt/uebungsblatt.sty
 @dirrmtry share/texmf-dist/tex/latex/uebungsblatt
 @dirrmtry share/texmf-dist/doc/latex/uebungsblatt
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

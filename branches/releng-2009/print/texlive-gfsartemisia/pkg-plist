@@ -129,3 +129,5 @@ share/texmf-dist/tex/latex/gfsartemisia/uartemisianums.fd
 @dirrmtry share/texmf-dist/fonts/enc/dvips/gfsartemisia
 @dirrmtry share/texmf-dist/fonts/afm/public/gfsartemisia
 @dirrmtry share/texmf-dist/doc/fonts/gfsartemisia
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

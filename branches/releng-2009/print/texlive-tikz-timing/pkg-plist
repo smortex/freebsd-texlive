@@ -17,3 +17,5 @@ share/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty
 @dirrmtry share/texmf-dist/tex/latex/tikz-timing
 @dirrmtry share/texmf-dist/source/latex/tikz-timing
 @dirrmtry share/texmf-dist/doc/latex/tikz-timing
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

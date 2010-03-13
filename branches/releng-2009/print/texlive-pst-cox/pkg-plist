@@ -18,3 +18,5 @@ share/texmf-dist/tex/latex/pst-cox/pst-coxeterp.sty
 @dirrmtry share/texmf-dist/doc/generic/pst-cox/pst-coxeterp
 @dirrmtry share/texmf-dist/doc/generic/pst-cox/pst-coxcoor
 @dirrmtry share/texmf-dist/doc/generic/pst-cox
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

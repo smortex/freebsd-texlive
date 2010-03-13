@@ -10,3 +10,5 @@ share/texmf-dist/fonts/tfm/public/astro/astrosym.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/astro
 @dirrmtry share/texmf-dist/fonts/source/public/astro
 @dirrmtry share/texmf-dist/doc/fonts/astro
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

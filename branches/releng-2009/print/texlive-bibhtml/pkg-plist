@@ -17,3 +17,5 @@ share/texmf-dist/bibtex/bst/bibhtml/unsrthtml.bst
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/bibhtml/style.css
 @dirrmtry share/texmf-dist/doc/bibtex/bibhtml
 @dirrmtry share/texmf-dist/bibtex/bst/bibhtml
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

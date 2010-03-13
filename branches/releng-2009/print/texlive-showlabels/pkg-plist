@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/showlabels/showlabels.sty
 @dirrmtry share/texmf-dist/tex/latex/showlabels
 @dirrmtry share/texmf-dist/source/latex/showlabels
 @dirrmtry share/texmf-dist/doc/latex/showlabels
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

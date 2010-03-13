@@ -22,3 +22,5 @@ share/texmf-dist/tex/latex/tabvar/tabvar.sty
 @dirrmtry share/texmf-dist/fonts/map/dvips/tabvar
 @dirrmtry share/texmf-dist/fonts/afm/public/tabvar
 @dirrmtry share/texmf-dist/doc/latex/tabvar
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

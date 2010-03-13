@@ -14,3 +14,5 @@ share/texmf-dist/tex/latex/trsym/utrsy.fd
 @dirrmtry share/texmf-dist/fonts/tfm/public/trsym
 @dirrmtry share/texmf-dist/fonts/source/public/trsym
 @dirrmtry share/texmf-dist/doc/latex/trsym
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

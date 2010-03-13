@@ -32,3 +32,5 @@ share/texmf-dist/fonts/vf/cg/optima/copri.vf
 share/texmf-dist/fonts/vf/cg/optima/copri8t.vf
 @dirrmtry share/texmf-dist/fonts/vf/cg/optima
 @dirrmtry share/texmf-dist/fonts/tfm/cg/optima
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/psfrag/psfrag.sty
 @dirrmtry share/texmf-dist/source/latex/psfrag
 @dirrmtry share/texmf-dist/dvips/psfrag
 @dirrmtry share/texmf-dist/doc/latex/psfrag
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

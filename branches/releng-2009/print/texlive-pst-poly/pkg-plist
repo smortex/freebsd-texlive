@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/pst-poly/pst-poly.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-poly
 @dirrmtry share/texmf-dist/source/generic/pst-poly
 @dirrmtry share/texmf-dist/doc/generic/pst-poly
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

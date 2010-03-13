@@ -16,3 +16,5 @@ share/texmf-dist/tex/latex/papertex/papertex.cls
 @dirrmtry share/texmf-dist/doc/latex/papertex/example/img
 @dirrmtry share/texmf-dist/doc/latex/papertex/example
 @dirrmtry share/texmf-dist/doc/latex/papertex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -29,3 +29,5 @@ share/texmf/tex/latex/dvipdfm/dvipdfm.def
 @dirrmtry share/texmf/dvipdfm/config
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf/doc/dvipdfm
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

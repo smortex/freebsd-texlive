@@ -26,3 +26,5 @@ share/texmf-dist/tex/latex/seminar/slidesec.sty
 share/texmf-dist/tex/latex/seminar/xcomment.sty
 @dirrmtry share/texmf-dist/tex/latex/seminar
 @dirrmtry share/texmf-dist/doc/latex/seminar
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

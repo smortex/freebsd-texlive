@@ -193,3 +193,5 @@ share/texmf-dist/tex/latex/avantgar/ts1uag.fd
 @dirrmtry share/texmf-dist/fonts/afm/urw/avantgar
 @dirrmtry share/texmf-dist/fonts/afm/adobe/avantgar
 @dirrmtry share/texmf-dist/dvips/avantgar
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

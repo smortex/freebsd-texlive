@@ -13,3 +13,5 @@ share/texmf-dist/tex/plain/graphics-pln/psfrag.tex
 @dirrmtry share/texmf-dist/tex/plain/graphics-pln
 @dirrmtry share/texmf-dist/source/plain/graphics-pln
 @dirrmtry share/texmf-dist/doc/plain/graphics-pln
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

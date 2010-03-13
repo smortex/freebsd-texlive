@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/pst-coil/pst-coil.sty
 @dirrmtry share/texmf-dist/source/generic/pst-coil
 @dirrmtry share/texmf-dist/dvips/pst-coil
 @dirrmtry share/texmf-dist/doc/generic/pst-coil
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

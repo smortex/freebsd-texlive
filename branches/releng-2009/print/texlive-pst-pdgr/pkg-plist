@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/pst-pdgr/pst-pdgr.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-pdgr
 @dirrmtry share/texmf-dist/source/generic/pst-pdgr
 @dirrmtry share/texmf-dist/doc/generic/pst-pdgr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

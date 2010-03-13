@@ -57,3 +57,5 @@ share/texmf-dist/tex/context/third/simpleslides/t-simpleslides.tex
 @dirrmtry share/texmf-dist/doc/context/third/simpleslides/styles
 @dirrmtry share/texmf-dist/doc/context/third/simpleslides/solutions
 @dirrmtry share/texmf-dist/doc/context/third/simpleslides
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

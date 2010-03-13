@@ -21,3 +21,5 @@ share/texmf-dist/metapost/drv/drv.mp
 @dirrmtry share/texmf-dist/doc/metapost/drv/sample
 @dirrmtry share/texmf-dist/doc/metapost/drv/doc
 @dirrmtry share/texmf-dist/doc/metapost/drv
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

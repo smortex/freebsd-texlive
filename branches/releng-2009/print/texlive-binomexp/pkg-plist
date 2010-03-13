@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/binomexp/binomexp.sty
 @dirrmtry share/texmf-dist/tex/latex/binomexp
 @dirrmtry share/texmf-dist/source/latex/binomexp
 @dirrmtry share/texmf-dist/doc/latex/binomexp
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

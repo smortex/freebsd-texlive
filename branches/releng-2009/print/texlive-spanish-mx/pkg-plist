@@ -4,3 +4,5 @@ share/texmf-dist/tex/latex/spanish-mx/spanishmx.ldf
 share/texmf-dist/tex/latex/spanish-mx/spanishmx.sty
 @dirrmtry share/texmf-dist/tex/latex/spanish-mx
 @dirrmtry share/texmf-dist/doc/latex/spanish-mx
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1933,3 +1933,5 @@ share/texmf-dist/tex/latex/kpfonts/ujkpsydw.fd
 @dirrmtry share/texmf-dist/fonts/enc/dvips/kpfonts
 @dirrmtry share/texmf-dist/fonts/afm/public/kpfonts
 @dirrmtry share/texmf-dist/doc/fonts/kpfonts
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

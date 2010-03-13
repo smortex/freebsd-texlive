@@ -399,3 +399,5 @@ share/texmf/tex/latex/asymptote/ocg.sty
 @dirrmtry share/texmf/doc/asymptote
 @dirrmtry share/texmf/asymptote/GUI
 @dirrmtry share/texmf/asymptote
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

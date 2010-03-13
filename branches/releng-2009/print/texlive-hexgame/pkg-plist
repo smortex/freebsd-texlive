@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/hexgame/hexgame.sty
 @dirrmtry share/texmf-dist/tex/latex/hexgame
 @dirrmtry share/texmf-dist/doc/latex/hexgame
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

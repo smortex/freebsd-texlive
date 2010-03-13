@@ -188,3 +188,5 @@ share/texmf-dist/tex/latex/ethiop/uetho.fd
 @dirrmtry share/texmf-dist/fonts/ovf/public/ethiop
 @dirrmtry share/texmf-dist/fonts/ofm/public/ethiop
 @dirrmtry share/texmf-dist/doc/latex/ethiop
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

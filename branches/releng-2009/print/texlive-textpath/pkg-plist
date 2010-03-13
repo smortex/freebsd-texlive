@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/textpath/textpathmp.sty
 @dirrmtry share/texmf-dist/tex/latex/textpath
 @dirrmtry share/texmf-dist/metapost/textpath
 @dirrmtry share/texmf-dist/doc/metapost/textpath
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/marginnote/marginnote.sty
 @dirrmtry share/texmf-dist/tex/latex/marginnote
 @dirrmtry share/texmf-dist/source/latex/marginnote
 @dirrmtry share/texmf-dist/doc/latex/marginnote
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

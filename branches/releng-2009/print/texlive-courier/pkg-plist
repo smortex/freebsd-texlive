@@ -201,3 +201,5 @@ share/texmf-dist/tex/latex/courier/ts1ucr.fd
 @dirrmtry share/texmf-dist/fonts/afm/ibm/courier
 @dirrmtry share/texmf-dist/fonts/afm/adobe/courier
 @dirrmtry share/texmf-dist/dvips/courier
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -6,3 +6,5 @@
 share/texmf-dist/tex/latex/hepparticles/hepparticles.sty
 @dirrmtry share/texmf-dist/tex/latex/hepparticles
 @dirrmtry share/texmf-dist/doc/latex/hepparticles
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -26,3 +26,5 @@ share/texmf-dist/tex/latex/tcldoc/tclldoc.sty
 @dirrmtry share/texmf-dist/source/latex/tcldoc/examples
 @dirrmtry share/texmf-dist/source/latex/tcldoc
 @dirrmtry share/texmf-dist/doc/latex/tcldoc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

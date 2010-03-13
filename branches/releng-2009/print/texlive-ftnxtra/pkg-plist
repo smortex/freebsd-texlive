@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/ftnxtra/ftnxtra.sty
 @dirrmtry share/texmf-dist/tex/latex/ftnxtra
 @dirrmtry share/texmf-dist/source/latex/ftnxtra
 @dirrmtry share/texmf-dist/doc/latex/ftnxtra
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

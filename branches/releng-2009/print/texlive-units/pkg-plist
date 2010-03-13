@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/units/units.sty
 @dirrmtry share/texmf-dist/tex/latex/units
 @dirrmtry share/texmf-dist/source/latex/units
 @dirrmtry share/texmf-dist/doc/latex/units
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

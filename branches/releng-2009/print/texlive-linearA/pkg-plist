@@ -17,3 +17,5 @@ share/texmf-dist/tex/latex/linearA/linearA.sty
 @dirrmtry share/texmf-dist/fonts/map/dvips/linearA
 @dirrmtry share/texmf-dist/fonts/afm/public/linearA
 @dirrmtry share/texmf-dist/doc/fonts/linearA
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

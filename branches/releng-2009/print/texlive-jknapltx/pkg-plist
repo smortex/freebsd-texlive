@@ -20,3 +20,5 @@ share/texmf-dist/tex/latex/jknapltx/ustmary.fd
 share/texmf-dist/tex/latex/jknapltx/young.sty
 @dirrmtry share/texmf-dist/tex/latex/jknapltx
 @dirrmtry share/texmf-dist/doc/latex/jknapltx
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/url/url.sty
 @dirrmtry share/texmf-dist/tex/latex/url
 @dirrmtry share/texmf-dist/doc/latex/url
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

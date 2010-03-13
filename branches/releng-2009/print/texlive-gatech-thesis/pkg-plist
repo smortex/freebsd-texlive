@@ -89,3 +89,5 @@ share/texmf-dist/tex/latex/gatech-thesis/gatech-thesis.cls
 @dirrmtry share/texmf-dist/doc/latex/gatech-thesis
 @dirrmtry share/texmf-dist/bibtex/bst/gatech-thesis
 @dirrmtry share/texmf-dist/bibtex/bib/gatech-thesis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/pst-fun/pst-fun.sty
 @dirrmtry share/texmf-dist/source/generic/pst-fun
 @dirrmtry share/texmf-dist/dvips/pst-fun
 @dirrmtry share/texmf-dist/doc/generic/pst-fun
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

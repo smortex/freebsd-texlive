@@ -29,3 +29,5 @@ share/texmf-dist/tex/latex/mh/xfrac.sty
 @dirrmtry share/texmf-dist/tex/latex/mh
 @dirrmtry share/texmf-dist/source/latex/mh
 @dirrmtry share/texmf-dist/doc/latex/mh
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

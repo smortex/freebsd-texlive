@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/rtklage/rtklage.cls
 @dirrmtry share/texmf-dist/tex/latex/rtklage
 @dirrmtry share/texmf-dist/doc/latex/rtklage
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

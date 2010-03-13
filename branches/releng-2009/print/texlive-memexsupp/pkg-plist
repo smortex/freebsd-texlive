@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/memexsupp/memexsupp.sty
 @dirrmtry share/texmf-dist/tex/latex/memexsupp
 @dirrmtry share/texmf-dist/doc/latex/memexsupp
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

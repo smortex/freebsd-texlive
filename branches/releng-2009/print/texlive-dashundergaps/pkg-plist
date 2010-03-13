@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/dashundergaps/dashundergaps.sty
 @dirrmtry share/texmf-dist/doc/latex/dashundergaps/doc/tex
 @dirrmtry share/texmf-dist/doc/latex/dashundergaps/doc/pdf
 @dirrmtry share/texmf-dist/doc/latex/dashundergaps
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -16,3 +16,5 @@ share/texmf-dist/tex/generic/midnight/quire.tex
 share/texmf-dist/tex/generic/midnight/styledef.tex
 @dirrmtry share/texmf-dist/tex/generic/midnight
 @dirrmtry share/texmf-dist/doc/generic/midnight
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

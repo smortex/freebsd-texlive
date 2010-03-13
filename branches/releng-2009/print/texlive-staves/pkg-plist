@@ -13,3 +13,5 @@ share/texmf-dist/tex/latex/staves/staves.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/staves
 @dirrmtry share/texmf-dist/fonts/map/dvips/staves
 @dirrmtry share/texmf-dist/doc/fonts/staves
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

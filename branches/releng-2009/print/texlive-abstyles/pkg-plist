@@ -21,3 +21,5 @@ share/texmf-dist/tex/generic/abstyles/apreambl.tex
 @dirrmtry share/texmf-dist/doc/bibtex/abstyles
 @dirrmtry share/texmf-dist/bibtex/bst/abstyles
 @dirrmtry share/texmf-dist/bibtex/bib/abstyles
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

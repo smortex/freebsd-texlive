@@ -8,3 +8,5 @@ share/texmf-dist/fonts/vf/cg/clarendo/ccdr8tc.vf
 share/texmf-dist/fonts/vf/cg/clarendo/ccdrrc.vf
 @dirrmtry share/texmf-dist/fonts/vf/cg/clarendo
 @dirrmtry share/texmf-dist/fonts/tfm/cg/clarendo
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -5,3 +5,5 @@ share/texmf-dist/tex/latex/graphicx-psmin/graphicx-psmin.sty
 @dirrmtry share/texmf-dist/tex/latex/graphicx-psmin
 @dirrmtry share/texmf-dist/source/latex/graphicx-psmin
 @dirrmtry share/texmf-dist/doc/latex/graphicx-psmin
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

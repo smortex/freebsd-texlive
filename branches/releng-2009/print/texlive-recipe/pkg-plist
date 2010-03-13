@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/recipe/recipe.cls
 @dirrmtry share/texmf-dist/tex/latex/recipe
 @dirrmtry share/texmf-dist/doc/latex/recipe
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

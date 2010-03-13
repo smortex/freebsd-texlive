@@ -25,3 +25,5 @@ share/texmf-dist/tex/generic/ukrhyph/ukrhypsm.tex
 share/texmf-dist/tex/generic/ukrhyph/ukrhypst.tex
 @dirrmtry share/texmf-dist/tex/generic/ukrhyph
 @dirrmtry share/texmf-dist/doc/generic/ukrhyph
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -2,3 +2,5 @@ share/texmf-dist/bibtex/bst/perception/perception.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/perception/README
 @dirrmtry share/texmf-dist/doc/latex/perception
 @dirrmtry share/texmf-dist/bibtex/bst/perception
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

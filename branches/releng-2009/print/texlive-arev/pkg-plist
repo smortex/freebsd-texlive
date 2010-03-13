@@ -102,3 +102,5 @@ share/texmf-dist/tex/latex/arev/uzavm.fd
 @dirrmtry share/texmf-dist/fonts/enc/dvips/arev
 @dirrmtry share/texmf-dist/fonts/afm/public/arev
 @dirrmtry share/texmf-dist/doc/fonts/arev
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

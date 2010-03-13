@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/elsevier/elsart3p.cls
 share/texmf-dist/tex/latex/elsevier/elsart5p.cls
 @dirrmtry share/texmf-dist/tex/latex/elsevier
 @dirrmtry share/texmf-dist/doc/latex/elsevier
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -3,3 +3,5 @@
 %%PORTDOCS%%share/texmf/doc/man/man1/weave.1
 %%PORTDOCS%%share/texmf/doc/man/man1/weave.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

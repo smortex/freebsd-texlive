@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/pst-tree/pst-tree.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-tree
 @dirrmtry share/texmf-dist/source/generic/pst-tree
 @dirrmtry share/texmf-dist/doc/generic/pst-tree
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

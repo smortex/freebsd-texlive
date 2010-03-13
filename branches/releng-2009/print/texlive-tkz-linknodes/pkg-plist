@@ -11,3 +11,5 @@ share/texmf-dist/tex/latex/tkz-linknodes/tkz-linknodes.sty
 @dirrmtry share/texmf-dist/tex/latex/tkz-linknodes
 @dirrmtry share/texmf-dist/doc/latex/tkz-linknodes/doc
 @dirrmtry share/texmf-dist/doc/latex/tkz-linknodes
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

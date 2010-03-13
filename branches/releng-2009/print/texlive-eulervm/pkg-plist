@@ -56,3 +56,5 @@ share/texmf-dist/tex/latex/eulervm/uzeus.fd
 @dirrmtry share/texmf-dist/fonts/vf/public/eulervm
 @dirrmtry share/texmf-dist/fonts/tfm/public/eulervm
 @dirrmtry share/texmf-dist/doc/latex/eulervm
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

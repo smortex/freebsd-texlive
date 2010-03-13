@@ -5,3 +5,5 @@
 share/texmf-dist/tex/latex/hvindex/hvindex.sty
 @dirrmtry share/texmf-dist/tex/latex/hvindex
 @dirrmtry share/texmf-dist/doc/latex/hvindex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

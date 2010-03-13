@@ -15,3 +15,5 @@ share/texmf-dist/tex/latex/hc/hcslides.cls
 @dirrmtry share/texmf-dist/source/latex/hc
 @dirrmtry share/texmf-dist/doc/latex/hc
 @dirrmtry share/texmf-dist/bibtex/bst/hc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

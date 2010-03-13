@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/pst-exa/pst-exa.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-exa
 @dirrmtry share/texmf-dist/doc/latex/pst-exa
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

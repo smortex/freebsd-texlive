@@ -755,3 +755,5 @@ share/texmf-dist/fonts/vf/public/cmcyr/ycmu10.vf
 @dirrmtry share/texmf-dist/doc/fonts/cmcyr/vf/cmcyr6k
 @dirrmtry share/texmf-dist/doc/fonts/cmcyr/vf/cmcyr6i
 @dirrmtry share/texmf-dist/doc/fonts/cmcyr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

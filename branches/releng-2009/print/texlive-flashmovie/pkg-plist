@@ -5,3 +5,5 @@
 share/texmf-dist/tex/latex/flashmovie/flashmovie.sty
 @dirrmtry share/texmf-dist/tex/latex/flashmovie
 @dirrmtry share/texmf-dist/doc/latex/flashmovie
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

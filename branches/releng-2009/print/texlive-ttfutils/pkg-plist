@@ -32,3 +32,5 @@ share/texmf/ttf2pk/ttf2pk.cfg
 @dirrmtry share/texmf/doc/ttf2pk
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf-dist/fonts/sfd/ttf2pk
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

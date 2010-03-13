@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/ibycus-babel/lgifib.fd
 @dirrmtry share/texmf-dist/tex/latex/ibycus-babel
 @dirrmtry share/texmf-dist/source/latex/ibycus-babel
 @dirrmtry share/texmf-dist/doc/latex/ibycus-babel
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

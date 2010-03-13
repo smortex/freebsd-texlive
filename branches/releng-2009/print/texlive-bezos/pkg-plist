@@ -16,3 +16,5 @@ share/texmf-dist/tex/latex/bezos/subdocs.sty
 share/texmf-dist/tex/latex/bezos/tensind.sty
 @dirrmtry share/texmf-dist/tex/latex/bezos
 @dirrmtry share/texmf-dist/doc/latex/bezos
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

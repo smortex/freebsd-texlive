@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
 @dirrmtry share/texmf-dist/tex/latex/anyfontsize
 @dirrmtry share/texmf-dist/doc/latex/anyfontsize
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

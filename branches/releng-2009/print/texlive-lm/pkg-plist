@@ -1102,3 +1102,5 @@ share/texmf-dist/tex/latex/lm/ts1lmvtt.fd
 @dirrmtry share/texmf-dist/fonts/enc/dvips/lm
 @dirrmtry share/texmf-dist/fonts/afm/public/lm
 @dirrmtry share/texmf-dist/doc/fonts/lm
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

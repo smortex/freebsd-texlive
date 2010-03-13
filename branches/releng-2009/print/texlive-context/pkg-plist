@@ -1752,3 +1752,5 @@ share/texmf-dist/tex/mptopdf/config/mptopdf.ini
 @dirrmtry share/texmf-dist/context/data/texfont
 @dirrmtry share/texmf-dist/context/data/scite
 @dirrmtry share/texmf-dist/bibtex/bst/context
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

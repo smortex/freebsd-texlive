@@ -431,3 +431,5 @@ share/texmf-dist/fonts/type1/public/pl/plvtt10.pfm
 @dirrmtry share/texmf-dist/fonts/afm/public/pl
 @dirrmtry share/texmf-dist/dvips/pl
 @dirrmtry share/texmf-dist/doc/fonts/pl
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

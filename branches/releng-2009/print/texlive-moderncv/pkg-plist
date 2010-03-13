@@ -17,3 +17,5 @@ share/texmf-dist/tex/latex/moderncv/moderncvthemeempty.sty
 @dirrmtry share/texmf-dist/tex/latex/moderncv
 @dirrmtry share/texmf-dist/doc/latex/moderncv/examples
 @dirrmtry share/texmf-dist/doc/latex/moderncv
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -13,3 +13,5 @@ share/texmf-dist/fonts/type1/jmn/hans/hans.pfm
 @dirrmtry share/texmf-dist/fonts/map/dvips/jmn
 @dirrmtry share/texmf-dist/fonts/enc/dvips/jmn
 @dirrmtry share/texmf-dist/fonts/afm/jmn/hans
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

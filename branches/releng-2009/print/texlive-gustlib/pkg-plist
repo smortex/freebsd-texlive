@@ -39,3 +39,5 @@ share/texmf-dist/tex/plain/gustlib/verbatim-dek.tex
 @dirrmtry share/texmf-dist/doc/plain/gustlib
 @dirrmtry share/texmf-dist/bibtex/bst/gustlib
 @dirrmtry share/texmf-dist/bibtex/bib/gustlib
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

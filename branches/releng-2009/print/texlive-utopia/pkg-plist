@@ -63,3 +63,5 @@ share/texmf-dist/fonts/vf/adobe/utopia/putro8t.vf
 @dirrmtry share/texmf-dist/fonts/tfm/adobe/utopia
 @dirrmtry share/texmf-dist/fonts/afm/adobe/utopia
 @dirrmtry share/texmf-dist/doc/fonts/utopia
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

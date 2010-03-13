@@ -11,3 +11,5 @@ share/texmf-dist/tex/lualatex/luainputenc/lutf8x.def
 @dirrmtry share/texmf-dist/tex/lualatex/luainputenc
 @dirrmtry share/texmf-dist/source/lualatex/luainputenc
 @dirrmtry share/texmf-dist/doc/lualatex/luainputenc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -367,3 +367,5 @@ share/texmf-dist/tex/plain/pgf/utilities/pgfrcs.tex
 @dirrmtry share/texmf-dist/doc/generic/pgf/licenses
 @dirrmtry share/texmf-dist/doc/generic/pgf/images
 @dirrmtry share/texmf-dist/doc/generic/pgf
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

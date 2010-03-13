@@ -16,3 +16,5 @@ share/texmf-dist/tex/latex/latex2man/latex2man.sty
 @dirrmtry share/texmf/doc/info
 @dirrmtry share/texmf-dist/tex/latex/latex2man
 @dirrmtry share/texmf-dist/doc/support/latex2man
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

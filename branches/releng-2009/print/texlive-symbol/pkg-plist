@@ -21,3 +21,5 @@ share/texmf-dist/tex/latex/symbol/uusy.fd
 @dirrmtry share/texmf-dist/fonts/afm/urw/symbol
 @dirrmtry share/texmf-dist/fonts/afm/adobe/symbol
 @dirrmtry share/texmf-dist/dvips/symbol
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

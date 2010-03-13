@@ -5,3 +5,5 @@
 share/texmf-dist/tex/plain/mkpattern/mkpatter.tex
 @dirrmtry share/texmf-dist/tex/plain/mkpattern
 @dirrmtry share/texmf-dist/doc/plain/mkpattern
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

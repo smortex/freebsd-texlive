@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/tabls/tabls.sty
 @dirrmtry share/texmf-dist/tex/latex/tabls
 @dirrmtry share/texmf-dist/doc/latex/tabls
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

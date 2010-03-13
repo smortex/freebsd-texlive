@@ -5,3 +5,5 @@ share/texmf-dist/tex/latex/multibbl/multibbl.sty
 @dirrmtry share/texmf-dist/tex/latex/multibbl
 @dirrmtry share/texmf-dist/source/latex/multibbl
 @dirrmtry share/texmf-dist/doc/latex/multibbl
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

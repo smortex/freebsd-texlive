@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/xyling/xyling.sty
 @dirrmtry share/texmf-dist/tex/latex/xyling
 @dirrmtry share/texmf-dist/doc/latex/xyling
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

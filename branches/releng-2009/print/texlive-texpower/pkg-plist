@@ -70,3 +70,5 @@ share/texmf-dist/tex/latex/texpower/tpsettings.cfg
 @dirrmtry share/texmf-dist/doc/latex/texpower/tpslifonts
 @dirrmtry share/texmf-dist/doc/latex/texpower/contrib
 @dirrmtry share/texmf-dist/doc/latex/texpower
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

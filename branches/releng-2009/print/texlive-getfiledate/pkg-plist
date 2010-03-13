@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/getfiledate/getfiledate.sty
 @dirrmtry share/texmf-dist/tex/latex/getfiledate
 @dirrmtry share/texmf-dist/doc/latex/getfiledate
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

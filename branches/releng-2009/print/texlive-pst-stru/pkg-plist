@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/pst-stru/pst-stru.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-stru
 @dirrmtry share/texmf-dist/tex/generic/pst-stru
 @dirrmtry share/texmf-dist/doc/generic/pst-stru
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

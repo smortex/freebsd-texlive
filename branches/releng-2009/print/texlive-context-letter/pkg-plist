@@ -64,3 +64,5 @@ share/texmf-dist/tex/context/third/letter/style/user.ori
 @dirrmtry share/texmf-dist/tex/context/interface/third
 @dirrmtry share/texmf-dist/source/context/third/letter/doc
 @dirrmtry share/texmf-dist/doc/context/third/letter
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

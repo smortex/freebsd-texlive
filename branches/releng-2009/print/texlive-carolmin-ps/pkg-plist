@@ -16,3 +16,5 @@ share/texmf-dist/fonts/type1/public/carolmin-ps/cminb7.pfb
 @dirrmtry share/texmf-dist/fonts/map/dvips/carolmin-ps
 @dirrmtry share/texmf-dist/fonts/afm/public/carolmin-ps
 @dirrmtry share/texmf-dist/doc/fonts/carolmin-ps
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

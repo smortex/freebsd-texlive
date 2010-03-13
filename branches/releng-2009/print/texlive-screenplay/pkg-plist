@@ -11,3 +11,5 @@ share/texmf-dist/tex/latex/screenplay/screenplay.cls
 @dirrmtry share/texmf-dist/tex/latex/screenplay
 @dirrmtry share/texmf-dist/source/latex/screenplay
 @dirrmtry share/texmf-dist/doc/latex/screenplay
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

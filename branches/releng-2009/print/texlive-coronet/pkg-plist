@@ -8,3 +8,5 @@ share/texmf-dist/fonts/vf/cg/coronet/cotr.vf
 share/texmf-dist/fonts/vf/cg/coronet/cotr8t.vf
 @dirrmtry share/texmf-dist/fonts/vf/cg/coronet
 @dirrmtry share/texmf-dist/fonts/tfm/cg/coronet
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

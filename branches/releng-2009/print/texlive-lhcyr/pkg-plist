@@ -49,3 +49,5 @@ share/texmf-dist/tex/latex/lhcyr/statya.tex
 @dirrmtry share/texmf-dist/tex/latex/lhcyr/lhcyralt
 @dirrmtry share/texmf-dist/tex/latex/lhcyr
 @dirrmtry share/texmf-dist/source/latex/lhcyr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

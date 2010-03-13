@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/onlyamsmath/onlyamsmath.sty
 @dirrmtry share/texmf-dist/tex/latex/onlyamsmath
 @dirrmtry share/texmf-dist/source/latex/onlyamsmath
 @dirrmtry share/texmf-dist/doc/latex/onlyamsmath
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -2,3 +2,5 @@
 share/texmf-dist/tex/latex/karnaugh/kvmacros.tex
 @dirrmtry share/texmf-dist/tex/latex/karnaugh
 @dirrmtry share/texmf-dist/doc/latex/karnaugh
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/xnewcommand/xnewcommand.sty
 @dirrmtry share/texmf-dist/tex/latex/xnewcommand
 @dirrmtry share/texmf-dist/doc/latex/xnewcommand
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

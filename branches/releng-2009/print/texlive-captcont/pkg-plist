@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/captcont/captcont.sty
 @dirrmtry share/texmf-dist/tex/latex/captcont
 @dirrmtry share/texmf-dist/source/latex/captcont
 @dirrmtry share/texmf-dist/doc/latex/captcont
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

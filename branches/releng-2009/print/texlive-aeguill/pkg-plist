@@ -7,3 +7,5 @@
 share/texmf-dist/tex/latex/aeguill/aeguill.sty
 @dirrmtry share/texmf-dist/tex/latex/aeguill
 @dirrmtry share/texmf-dist/doc/latex/aeguill
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

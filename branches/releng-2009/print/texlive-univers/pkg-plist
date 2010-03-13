@@ -72,3 +72,5 @@ share/texmf-dist/fonts/vf/cg/univers/cunmic.vf
 share/texmf-dist/fonts/vf/cg/univers/cunmrc.vf
 @dirrmtry share/texmf-dist/fonts/vf/cg/univers
 @dirrmtry share/texmf-dist/fonts/tfm/cg/univers
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

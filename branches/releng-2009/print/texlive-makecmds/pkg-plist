@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/makecmds/makecmds.sty
 @dirrmtry share/texmf-dist/tex/latex/makecmds
 @dirrmtry share/texmf-dist/source/latex/makecmds
 @dirrmtry share/texmf-dist/doc/latex/makecmds
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

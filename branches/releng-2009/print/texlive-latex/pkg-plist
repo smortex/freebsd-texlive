@@ -327,3 +327,5 @@ share/texmf-dist/tex/latex/base/x2enc.dfu
 @dirrmtry share/texmf-dist/source/latex/base
 @dirrmtry share/texmf-dist/makeindex/latex
 @dirrmtry share/texmf-dist/doc/latex/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

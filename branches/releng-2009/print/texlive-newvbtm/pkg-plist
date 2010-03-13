@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/newvbtm/varvbtm.sty
 @dirrmtry share/texmf-dist/tex/latex/newvbtm
 @dirrmtry share/texmf-dist/source/latex/newvbtm
 @dirrmtry share/texmf-dist/doc/latex/newvbtm
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

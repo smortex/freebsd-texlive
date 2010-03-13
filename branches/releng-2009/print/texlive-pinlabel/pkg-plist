@@ -18,3 +18,5 @@ share/texmf-dist/tex/latex/pinlabel/pinlabel.sty
 @dirrmtry share/texmf-dist/tex/latex/pinlabel
 @dirrmtry share/texmf-dist/doc/latex/pinlabel/src
 @dirrmtry share/texmf-dist/doc/latex/pinlabel
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

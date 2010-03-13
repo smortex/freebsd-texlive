@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/pst-lens/pst-lens.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-lens
 @dirrmtry share/texmf-dist/source/generic/pst-lens
 @dirrmtry share/texmf-dist/doc/generic/pst-lens
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

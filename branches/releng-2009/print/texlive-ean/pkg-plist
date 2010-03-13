@@ -27,3 +27,5 @@ share/texmf-dist/tex/generic/ean/eantest.tex
 @dirrmtry share/texmf-dist/fonts/tfm/public/ean
 @dirrmtry share/texmf-dist/fonts/source/public/ean
 @dirrmtry share/texmf-dist/doc/fonts/ean
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

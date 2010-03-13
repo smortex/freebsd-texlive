@@ -4,3 +4,5 @@
 share/texmf-dist/fonts/source/public/jablantile/jablantile.mf
 @dirrmtry share/texmf-dist/fonts/source/public/jablantile
 @dirrmtry share/texmf-dist/doc/fonts/jablantile
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

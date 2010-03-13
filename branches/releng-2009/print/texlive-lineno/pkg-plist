@@ -13,3 +13,5 @@ share/texmf-dist/tex/latex/lineno/lineno.sty
 share/texmf-dist/tex/latex/lineno/vplref.sty
 @dirrmtry share/texmf-dist/tex/latex/lineno
 @dirrmtry share/texmf-dist/doc/latex/lineno
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

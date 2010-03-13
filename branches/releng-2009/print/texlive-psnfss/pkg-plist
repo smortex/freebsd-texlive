@@ -123,3 +123,5 @@ share/texmf-dist/tex/latex/psnfss/utopia.sty
 @dirrmtry share/texmf-dist/fonts/map/dvips/psnfss
 @dirrmtry share/texmf-dist/doc/latex/psnfss/test
 @dirrmtry share/texmf-dist/doc/latex/psnfss
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

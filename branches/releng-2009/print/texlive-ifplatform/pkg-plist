@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/ifplatform/ifplatform.sty
 @dirrmtry share/texmf-dist/tex/latex/ifplatform
 @dirrmtry share/texmf-dist/source/latex/ifplatform
 @dirrmtry share/texmf-dist/doc/latex/ifplatform
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/pst-math/pst-math.sty
 @dirrmtry share/texmf-dist/source/generic/pst-math
 @dirrmtry share/texmf-dist/dvips/pst-math
 @dirrmtry share/texmf-dist/doc/generic/pst-math
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

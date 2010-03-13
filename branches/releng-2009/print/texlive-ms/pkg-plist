@@ -35,3 +35,5 @@ share/texmf-dist/tex/latex/ms/ragged2e.sty
 @dirrmtry share/texmf-dist/tex/latex/ms
 @dirrmtry share/texmf-dist/source/latex/ms
 @dirrmtry share/texmf-dist/doc/latex/ms
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

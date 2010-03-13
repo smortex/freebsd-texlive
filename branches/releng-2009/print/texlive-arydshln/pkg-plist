@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/arydshln/arydshln.sty
 @dirrmtry share/texmf-dist/tex/latex/arydshln
 @dirrmtry share/texmf-dist/source/latex/arydshln
 @dirrmtry share/texmf-dist/doc/latex/arydshln
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

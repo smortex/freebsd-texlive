@@ -20,3 +20,5 @@ share/texmf-dist/tex/latex/adrconv/adrsmall.cfg
 @dirrmtry share/texmf-dist/doc/latex/adrconv
 @dirrmtry share/texmf-dist/bibtex/bst/adrconv
 @dirrmtry share/texmf-dist/bibtex/bib/adrconv
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

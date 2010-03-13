@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/gastex/gastex.sty
 @dirrmtry share/texmf-dist/tex/latex/gastex
 @dirrmtry share/texmf-dist/dvips/gastex
 @dirrmtry share/texmf-dist/doc/latex/gastex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

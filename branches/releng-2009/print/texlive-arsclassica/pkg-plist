@@ -53,3 +53,5 @@ share/texmf-dist/tex/latex/arsclassica/arsclassica.sty
 @dirrmtry share/texmf-dist/doc/latex/arsclassica/Chapters
 @dirrmtry share/texmf-dist/doc/latex/arsclassica
 @dirrmtry share/texmf-dist/bibtex/bst/arsclassica
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -16,3 +16,5 @@ share/texmf-dist/tex/texinfo/txi-sr.tex
 share/texmf-dist/tex/texinfo/txi-tr.tex
 share/texmf-dist/tex/texinfo/txi-uk.tex
 @dirrmtry share/texmf-dist/tex/texinfo
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

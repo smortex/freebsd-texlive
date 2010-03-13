@@ -6,3 +6,5 @@ share/texmf-dist/fonts/type1/public/tapir/tap.pfb
 @dirrmtry share/texmf-dist/fonts/type1/public/tapir
 @dirrmtry share/texmf-dist/fonts/source/public/tapir
 @dirrmtry share/texmf-dist/doc/latex/tapir
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

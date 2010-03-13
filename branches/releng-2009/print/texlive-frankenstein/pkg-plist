@@ -93,3 +93,5 @@ share/texmf-dist/tex/latex/frankenstein/titles.sty
 @dirrmtry share/texmf-dist/doc/latex/frankenstein
 @dirrmtry share/texmf-dist/bibtex/bst/frankenstein
 @dirrmtry share/texmf-dist/bibtex/bib/frankenstein
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

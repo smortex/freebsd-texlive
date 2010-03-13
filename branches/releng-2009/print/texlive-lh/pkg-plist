@@ -732,3 +732,5 @@ share/texmf-dist/tex/plain/lh/testkern.tex
 @dirrmtry share/texmf-dist/doc/fonts/lh/fonttest
 @dirrmtry share/texmf-dist/doc/fonts/lh/beresta
 @dirrmtry share/texmf-dist/doc/fonts/lh
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

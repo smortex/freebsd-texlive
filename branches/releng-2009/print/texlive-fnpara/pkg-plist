@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/fnpara/fnpara.sty
 @dirrmtry share/texmf-dist/tex/latex/fnpara
 @dirrmtry share/texmf-dist/doc/latex/fnpara
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

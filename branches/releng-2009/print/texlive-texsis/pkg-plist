@@ -85,3 +85,5 @@ share/texmf-dist/tex/texsis/config/texsis.ini
 @dirrmtry share/texmf-dist/tex/texsis/base
 @dirrmtry share/texmf-dist/doc/otherformats/texsis/base
 @dirrmtry share/texmf-dist/bibtex/bst/texsis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

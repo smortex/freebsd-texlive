@@ -35,3 +35,5 @@ share/texmf-dist/tex/latex/mxedruli/xucuri.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/mxedruli
 @dirrmtry share/texmf-dist/fonts/source/public/mxedruli
 @dirrmtry share/texmf-dist/doc/fonts/mxedruli
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

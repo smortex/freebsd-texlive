@@ -5,3 +5,5 @@
 share/texmf-dist/tex/latex/combelow/combelow.sty
 @dirrmtry share/texmf-dist/tex/latex/combelow
 @dirrmtry share/texmf-dist/doc/latex/combelow
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

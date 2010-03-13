@@ -14,3 +14,5 @@ share/texmf-dist/metapost/expressg/expressg.mp
 @dirrmtry share/texmf-dist/source/metapost/expressg
 @dirrmtry share/texmf-dist/metapost/expressg
 @dirrmtry share/texmf-dist/doc/metapost/expressg
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

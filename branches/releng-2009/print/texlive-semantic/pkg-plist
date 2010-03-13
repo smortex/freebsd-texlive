@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/semantic/tdiagram.sty
 @dirrmtry share/texmf-dist/tex/latex/semantic
 @dirrmtry share/texmf-dist/source/latex/semantic
 @dirrmtry share/texmf-dist/doc/latex/semantic
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

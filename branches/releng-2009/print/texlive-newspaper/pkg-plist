@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/newspaper/newspaper.sty
 @dirrmtry share/texmf-dist/tex/latex/newspaper
 @dirrmtry share/texmf-dist/source/latex/newspaper
 @dirrmtry share/texmf-dist/doc/latex/newspaper
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

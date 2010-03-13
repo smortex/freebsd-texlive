@@ -89,3 +89,5 @@ share/texmf-dist/tex/latex/cweb-latex/keyvald.sty
 @dirrmtry share/texmf-dist/doc/latex/cweb-latex/contrib/cweb-hy
 @dirrmtry share/texmf-dist/doc/latex/cweb-latex/contrib
 @dirrmtry share/texmf-dist/doc/latex/cweb-latex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

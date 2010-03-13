@@ -26,3 +26,5 @@ share/texmf-dist/tex/latex/eqexam/eqexam.sty
 @dirrmtry share/texmf-dist/doc/latex/eqexam/script
 @dirrmtry share/texmf-dist/doc/latex/eqexam/examples
 @dirrmtry share/texmf-dist/doc/latex/eqexam
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

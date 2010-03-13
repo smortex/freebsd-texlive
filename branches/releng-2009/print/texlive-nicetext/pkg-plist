@@ -25,3 +25,5 @@ share/texmf-dist/tex/latex/nicetext/wiki.sty
 @dirrmtry share/texmf-dist/source/latex/nicetext
 @dirrmtry share/texmf-dist/doc/latex/nicetext/doclog
 @dirrmtry share/texmf-dist/doc/latex/nicetext
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

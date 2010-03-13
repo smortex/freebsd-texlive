@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/digiconfigs/digiconfigs.sty
 @dirrmtry share/texmf-dist/tex/latex/digiconfigs
 @dirrmtry share/texmf-dist/doc/latex/digiconfigs
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

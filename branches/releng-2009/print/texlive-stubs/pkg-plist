@@ -7,3 +7,5 @@
 share/texmf-dist/tex/latex/stubs/stubs.sty
 @dirrmtry share/texmf-dist/tex/latex/stubs
 @dirrmtry share/texmf-dist/doc/latex/stubs
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

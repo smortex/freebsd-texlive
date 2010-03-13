@@ -20,3 +20,5 @@ share/texmf-dist/tex/latex/trajan/trajan.sty
 @dirrmtry share/texmf-dist/fonts/map/dvips/trajan
 @dirrmtry share/texmf-dist/fonts/afm/public/trajan
 @dirrmtry share/texmf-dist/doc/latex/trajan
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

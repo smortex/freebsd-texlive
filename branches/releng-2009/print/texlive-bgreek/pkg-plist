@@ -307,3 +307,5 @@ share/texmf-dist/tex/latex/bgreek/ibygreek.ldf
 @dirrmtry share/texmf-dist/fonts/vf/public/bgreek
 @dirrmtry share/texmf-dist/fonts/tfm/public/bgreek
 @dirrmtry share/texmf-dist/doc/latex/bgreek
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

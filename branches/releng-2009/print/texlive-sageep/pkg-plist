@@ -13,3 +13,5 @@ share/texmf-dist/tex/latex/sageep/sageep.cls
 @dirrmtry share/texmf-dist/source/latex/sageep
 @dirrmtry share/texmf-dist/doc/latex/sageep
 @dirrmtry share/texmf-dist/bibtex/bst/sageep
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

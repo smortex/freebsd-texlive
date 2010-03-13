@@ -39,3 +39,5 @@ share/texmf-dist/tex/latex/sanskrit/skt.sty
 @dirrmtry share/texmf-dist/fonts/source/public/sanskrit
 @dirrmtry share/texmf-dist/fonts/map/dvips/sanskrit
 @dirrmtry share/texmf-dist/doc/latex/sanskrit
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

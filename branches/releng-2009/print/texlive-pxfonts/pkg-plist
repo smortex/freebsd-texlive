@@ -179,3 +179,5 @@ share/texmf-dist/tex/latex/pxfonts/upxtt.fd
 @dirrmtry share/texmf-dist/fonts/map/dvips/pxfonts
 @dirrmtry share/texmf-dist/fonts/afm/public/pxfonts
 @dirrmtry share/texmf-dist/doc/fonts/pxfonts
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

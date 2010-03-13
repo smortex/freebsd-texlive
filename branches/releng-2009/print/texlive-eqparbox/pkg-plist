@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/eqparbox/eqparbox.sty
 @dirrmtry share/texmf-dist/tex/latex/eqparbox
 @dirrmtry share/texmf-dist/source/latex/eqparbox
 @dirrmtry share/texmf-dist/doc/latex/eqparbox
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

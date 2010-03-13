@@ -3,3 +3,5 @@ share/texmf-dist/tex/latex/calxxxx/cal2000.tex
 share/texmf-dist/tex/latex/calxxxx/calxxxx.tex
 @dirrmtry share/texmf-dist/tex/latex/calxxxx
 @dirrmtry share/texmf-dist/doc/latex/calxxxx
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

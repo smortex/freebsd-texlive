@@ -33,3 +33,5 @@ share/texmf-dist/tex/latex/othello/othello.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/othello
 @dirrmtry share/texmf-dist/fonts/source/public/othello
 @dirrmtry share/texmf-dist/doc/latex/othello
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

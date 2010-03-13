@@ -42,3 +42,5 @@ share/texmf-dist/tex/latex/graphics/truetex.def
 @dirrmtry share/texmf-dist/tex/latex/graphics
 @dirrmtry share/texmf-dist/source/latex/graphics
 @dirrmtry share/texmf-dist/doc/latex/graphics
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

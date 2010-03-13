@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/mongolian-babel/mongolian.sty
 @dirrmtry share/texmf-dist/tex/latex/mongolian-babel
 @dirrmtry share/texmf-dist/source/latex/mongolian-babel
 @dirrmtry share/texmf-dist/doc/latex/mongolian-babel
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -26,3 +26,5 @@ share/texmf-dist/tex/latex/probsoln/probsoln.sty
 @dirrmtry share/texmf-dist/source/latex/probsoln
 @dirrmtry share/texmf-dist/doc/latex/probsoln/samples
 @dirrmtry share/texmf-dist/doc/latex/probsoln
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

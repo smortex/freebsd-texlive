@@ -17,3 +17,5 @@ share/texmf-dist/tex/generic/pictex/texpictex.tex
 share/texmf-dist/tex/generic/pictex/tree.sty
 @dirrmtry share/texmf-dist/tex/generic/pictex
 @dirrmtry share/texmf-dist/doc/generic/pictex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -32,3 +32,5 @@ share/texmf-dist/fonts/vf/cg/garamond/cgmri.vf
 share/texmf-dist/fonts/vf/cg/garamond/cgmri8t.vf
 @dirrmtry share/texmf-dist/fonts/vf/cg/garamond
 @dirrmtry share/texmf-dist/fonts/tfm/cg/garamond
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

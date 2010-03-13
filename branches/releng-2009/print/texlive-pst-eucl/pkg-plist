@@ -110,3 +110,5 @@ share/texmf-dist/tex/latex/pst-eucl/pst-eucl.sty
 @dirrmtry share/texmf-dist/dvips/pst-eucl
 @dirrmtry share/texmf-dist/doc/generic/pst-eucl/Exemples
 @dirrmtry share/texmf-dist/doc/generic/pst-eucl
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

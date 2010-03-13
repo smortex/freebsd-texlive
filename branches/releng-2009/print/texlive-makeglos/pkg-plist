@@ -5,3 +5,5 @@
 share/texmf-dist/tex/latex/makeglos/makeglos.sty
 @dirrmtry share/texmf-dist/tex/latex/makeglos
 @dirrmtry share/texmf-dist/doc/latex/makeglos
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

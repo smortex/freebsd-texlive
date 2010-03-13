@@ -23,3 +23,5 @@ share/texmf-dist/metafont/mftoeps/mftoeps.mf
 @dirrmtry share/texmf-dist/source/metafont/mftoeps/m2esamp
 @dirrmtry share/texmf-dist/source/metafont/mftoeps
 @dirrmtry share/texmf-dist/metafont/mftoeps
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

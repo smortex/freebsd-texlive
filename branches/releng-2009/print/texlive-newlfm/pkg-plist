@@ -56,3 +56,5 @@ share/texmf-dist/tex/latex/newlfm/setdim.sty
 @dirrmtry share/texmf-dist/tex/latex/newlfm
 @dirrmtry share/texmf-dist/source/latex/newlfm
 @dirrmtry share/texmf-dist/doc/latex/newlfm
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

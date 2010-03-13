@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/rectopma/rectopma.sty
 @dirrmtry share/texmf-dist/tex/latex/rectopma
 @dirrmtry share/texmf-dist/doc/latex/rectopma
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

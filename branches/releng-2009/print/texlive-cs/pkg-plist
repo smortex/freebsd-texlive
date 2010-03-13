@@ -326,3 +326,5 @@ share/texmf-dist/fonts/type1/public/cs/csvtt10.pfb
 @dirrmtry share/texmf-dist/fonts/map/dvips/cs
 @dirrmtry share/texmf-dist/fonts/enc/dvips/cs
 @dirrmtry share/texmf-dist/dvips/cs
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

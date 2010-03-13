@@ -11,3 +11,5 @@ share/texmf-dist/tex/latex/ulsy/ulsy.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/ulsy
 @dirrmtry share/texmf-dist/fonts/source/public/ulsy
 @dirrmtry share/texmf-dist/doc/latex/ulsy
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

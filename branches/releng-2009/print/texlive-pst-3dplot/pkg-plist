@@ -13,3 +13,5 @@ share/texmf-dist/tex/latex/pst-3dplot/pst-3dplot.sty
 @dirrmtry share/texmf-dist/source/generic/pst-3dplot
 @dirrmtry share/texmf-dist/dvips/pst-3dplot
 @dirrmtry share/texmf-dist/doc/generic/pst-3dplot
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

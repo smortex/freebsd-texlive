@@ -5,3 +5,5 @@
 share/texmf-dist/tex/latex/ean13isbn/ean13isbn.sty
 @dirrmtry share/texmf-dist/tex/latex/ean13isbn
 @dirrmtry share/texmf-dist/doc/latex/ean13isbn
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

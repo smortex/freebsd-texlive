@@ -14,3 +14,5 @@ share/texmf-dist/tex/latex/apa/english.apa
 share/texmf-dist/tex/latex/apa/greek.apa
 @dirrmtry share/texmf-dist/tex/latex/apa
 @dirrmtry share/texmf-dist/doc/latex/apa
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

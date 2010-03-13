@@ -5,3 +5,5 @@
 share/texmf-dist/tex/latex/program/program.sty
 @dirrmtry share/texmf-dist/tex/latex/program
 @dirrmtry share/texmf-dist/doc/latex/program
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

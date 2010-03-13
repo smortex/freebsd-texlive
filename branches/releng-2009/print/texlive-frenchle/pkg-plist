@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/frenchle/frenchle.ldf
 share/texmf-dist/tex/latex/frenchle/frenchle.sty
 @dirrmtry share/texmf-dist/tex/latex/frenchle
 @dirrmtry share/texmf-dist/doc/latex/frenchle
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

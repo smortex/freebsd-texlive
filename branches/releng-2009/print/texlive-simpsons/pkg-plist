@@ -7,3 +7,5 @@ share/texmf-dist/fonts/source/public/simpsons/marge.mf
 share/texmf-dist/fonts/source/public/simpsons/simpsons.mf
 share/texmf-dist/fonts/source/public/simpsons/snpp.mf
 @dirrmtry share/texmf-dist/fonts/source/public/simpsons
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

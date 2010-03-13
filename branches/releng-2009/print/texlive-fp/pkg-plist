@@ -17,3 +17,5 @@ share/texmf-dist/tex/plain/fp/fp.tex
 @dirrmtry share/texmf-dist/tex/plain/fp
 @dirrmtry share/texmf-dist/tex/latex/fp
 @dirrmtry share/texmf-dist/doc/latex/fp
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

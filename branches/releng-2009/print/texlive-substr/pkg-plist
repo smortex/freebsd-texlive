@@ -5,3 +5,5 @@
 share/texmf-dist/tex/latex/substr/substr.sty
 @dirrmtry share/texmf-dist/tex/latex/substr
 @dirrmtry share/texmf-dist/doc/latex/substr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -123,3 +123,5 @@ share/texmf-dist/tex/latex/gfsbodoni/ubodoninums.fd
 @dirrmtry share/texmf-dist/fonts/enc/dvips/gfsbodoni
 @dirrmtry share/texmf-dist/fonts/afm/public/gfsbodoni
 @dirrmtry share/texmf-dist/doc/fonts/gfsbodoni
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -5,3 +5,5 @@ share/texmf-dist/tex/latex/notes2bib/notes2bib.sty
 @dirrmtry share/texmf-dist/tex/latex/notes2bib
 @dirrmtry share/texmf-dist/source/latex/notes2bib
 @dirrmtry share/texmf-dist/doc/latex/notes2bib
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

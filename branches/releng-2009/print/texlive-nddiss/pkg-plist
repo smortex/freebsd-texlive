@@ -26,3 +26,5 @@ share/texmf-dist/tex/latex/nddiss/nddiss2e.cls
 @dirrmtry share/texmf-dist/doc/latex/nddiss/example-v1.3
 @dirrmtry share/texmf-dist/doc/latex/nddiss
 @dirrmtry share/texmf-dist/bibtex/bst/nddiss
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

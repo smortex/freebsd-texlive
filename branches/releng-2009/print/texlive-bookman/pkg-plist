@@ -221,3 +221,5 @@ share/texmf-dist/tex/latex/bookman/ts1ubk.fd
 @dirrmtry share/texmf-dist/fonts/afm/urw/bookman
 @dirrmtry share/texmf-dist/fonts/afm/adobe/bookman
 @dirrmtry share/texmf-dist/dvips/bookman
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

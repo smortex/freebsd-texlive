@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/multido/multido.sty
 @dirrmtry share/texmf-dist/tex/latex/multido
 @dirrmtry share/texmf-dist/tex/generic/multido
 @dirrmtry share/texmf-dist/doc/generic/multido
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

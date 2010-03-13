@@ -8,3 +8,5 @@ share/texmf-dist/fonts/vf/cg/marigold/cmgr.vf
 share/texmf-dist/fonts/vf/cg/marigold/cmgr8t.vf
 @dirrmtry share/texmf-dist/fonts/vf/cg/marigold
 @dirrmtry share/texmf-dist/fonts/tfm/cg/marigold
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -11,3 +11,5 @@ share/texmf-dist/tex/latex/ocr-latex/ot1ocrbo.fd
 share/texmf-dist/tex/latex/ocr-latex/ot1ocrbs.fd
 @dirrmtry share/texmf-dist/tex/latex/ocr-latex
 @dirrmtry share/texmf-dist/doc/latex/ocr-latex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

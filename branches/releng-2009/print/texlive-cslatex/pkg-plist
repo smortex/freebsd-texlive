@@ -55,3 +55,5 @@ share/texmf-dist/tex/latex/cslatex/il2lcmtt.fd
 @dirrmtry share/texmf-dist/tex/cslatex/base
 @dirrmtry share/texmf-dist/source/cslatex/base
 @dirrmtry share/texmf-dist/doc/cslatex/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

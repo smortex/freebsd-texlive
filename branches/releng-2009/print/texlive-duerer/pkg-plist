@@ -17,3 +17,5 @@ share/texmf-dist/fonts/tfm/public/duerer/cdtt10.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/duerer
 @dirrmtry share/texmf-dist/fonts/source/public/duerer
 @dirrmtry share/texmf-dist/doc/fonts/duerer
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

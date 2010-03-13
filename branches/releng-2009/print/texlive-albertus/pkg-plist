@@ -16,3 +16,5 @@ share/texmf-dist/fonts/vf/cg/albertus/calm8t.vf
 share/texmf-dist/fonts/vf/cg/albertus/calx.vf
 @dirrmtry share/texmf-dist/fonts/vf/cg/albertus
 @dirrmtry share/texmf-dist/fonts/tfm/cg/albertus
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

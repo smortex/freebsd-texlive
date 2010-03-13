@@ -17,3 +17,5 @@ share/texmf-dist/tex/latex/psfragx/psfragx.sty
 @dirrmtry share/texmf-dist/tex/latex/psfragx
 @dirrmtry share/texmf-dist/source/latex/psfragx
 @dirrmtry share/texmf-dist/doc/latex/psfragx
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

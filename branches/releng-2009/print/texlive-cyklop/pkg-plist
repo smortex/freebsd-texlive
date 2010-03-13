@@ -69,3 +69,5 @@ share/texmf-dist/tex/latex/cyklop/t5cyklop.fd
 @dirrmtry share/texmf-dist/fonts/enc/dvips/cyklop
 @dirrmtry share/texmf-dist/fonts/afm/public/cyklop
 @dirrmtry share/texmf-dist/doc/fonts/cyklop
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

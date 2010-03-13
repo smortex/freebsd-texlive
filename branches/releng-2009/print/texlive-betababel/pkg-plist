@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/betababel/betababel.sty
 @dirrmtry share/texmf-dist/tex/latex/betababel
 @dirrmtry share/texmf-dist/doc/latex/betababel
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

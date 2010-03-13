@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/colortbl/colortbl.sty
 @dirrmtry share/texmf-dist/tex/latex/colortbl
 @dirrmtry share/texmf-dist/source/latex/colortbl
 @dirrmtry share/texmf-dist/doc/latex/colortbl
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

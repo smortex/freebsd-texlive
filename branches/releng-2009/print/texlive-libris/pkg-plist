@@ -81,3 +81,5 @@ share/texmf-dist/tex/latex/libris/ts1ylyw.fd
 @dirrmtry share/texmf-dist/fonts/enc/dvips/libris
 @dirrmtry share/texmf-dist/fonts/afm/arkandis/libris
 @dirrmtry share/texmf-dist/doc/fonts/libris
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

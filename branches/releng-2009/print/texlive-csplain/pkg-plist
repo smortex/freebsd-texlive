@@ -29,3 +29,5 @@ share/texmf-dist/tex/csplain/base/slovak.sty
 share/texmf-dist/tex/csplain/base/t1code.tex
 share/texmf-dist/tex/csplain/base/ttimes.tex
 @dirrmtry share/texmf-dist/tex/csplain/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/multenum/multienum.sty
 @dirrmtry share/texmf-dist/tex/latex/multenum
 @dirrmtry share/texmf-dist/doc/latex/multenum
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/ascelike/ascelike.cls
 @dirrmtry share/texmf-dist/doc/latex/ascelike
 @dirrmtry share/texmf-dist/bibtex/bst/ascelike
 @dirrmtry share/texmf-dist/bibtex/bib/ascelike
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

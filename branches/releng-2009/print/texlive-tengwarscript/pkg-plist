@@ -86,3 +86,5 @@ share/texmf-dist/tex/latex/tengwarscript/unicodeparmaite.cfg
 @dirrmtry share/texmf-dist/fonts/map/dvips/tengwarscript
 @dirrmtry share/texmf-dist/fonts/enc/dvips/tengwarscript
 @dirrmtry share/texmf-dist/doc/latex/tengwarscript
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

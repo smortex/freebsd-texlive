@@ -13,3 +13,5 @@ share/texmf-dist/tex/generic/textmerg/textmerg.tex
 @dirrmtry share/texmf-dist/tex/generic/textmerg
 @dirrmtry share/texmf-dist/source/generic/textmerg
 @dirrmtry share/texmf-dist/doc/generic/textmerg
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

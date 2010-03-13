@@ -64,3 +64,5 @@ share/texmf-dist/tex/latex/wsuipa/uipa.fd
 @dirrmtry share/texmf-dist/doc/generic/wsuipa/latex2e
 @dirrmtry share/texmf-dist/doc/generic/wsuipa/latex209
 @dirrmtry share/texmf-dist/doc/generic/wsuipa
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

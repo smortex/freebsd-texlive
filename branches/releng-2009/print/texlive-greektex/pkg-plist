@@ -6,3 +6,5 @@
 share/texmf-dist/tex/latex/greektex/greektex.sty
 @dirrmtry share/texmf-dist/tex/latex/greektex
 @dirrmtry share/texmf-dist/doc/latex/greektex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

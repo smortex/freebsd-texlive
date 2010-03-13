@@ -27,3 +27,5 @@ share/texmf-dist/tex/latex/AkkTeX/akktex.sty
 share/texmf-dist/tex/latex/AkkTeX/akkwidepage.sty
 @dirrmtry share/texmf-dist/tex/latex/AkkTeX
 @dirrmtry share/texmf-dist/doc/latex/AkkTeX
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

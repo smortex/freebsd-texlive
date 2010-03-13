@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/eltex/eltex6.tex
 share/texmf-dist/tex/latex/eltex/eltex7.tex
 @dirrmtry share/texmf-dist/tex/latex/eltex
 @dirrmtry share/texmf-dist/doc/latex/eltex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

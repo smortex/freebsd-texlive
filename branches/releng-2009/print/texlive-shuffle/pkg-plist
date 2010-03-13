@@ -14,3 +14,5 @@ share/texmf-dist/tex/latex/shuffle/shuffle.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/shuffle
 @dirrmtry share/texmf-dist/fonts/source/public/shuffle
 @dirrmtry share/texmf-dist/doc/latex/shuffle
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

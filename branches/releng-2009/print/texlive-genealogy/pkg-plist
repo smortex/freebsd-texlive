@@ -8,3 +8,5 @@ share/texmf-dist/fonts/tfm/public/genealogy/drgen10.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/genealogy
 @dirrmtry share/texmf-dist/fonts/source/public/genealogy
 @dirrmtry share/texmf-dist/doc/fonts/genealogy
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

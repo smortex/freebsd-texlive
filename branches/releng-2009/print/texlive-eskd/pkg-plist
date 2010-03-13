@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/eskd/eskd.cls
 @dirrmtry share/texmf-dist/tex/latex/eskd
 @dirrmtry share/texmf-dist/source/latex/eskd
 @dirrmtry share/texmf-dist/doc/latex/eskd
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

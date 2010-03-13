@@ -2,3 +2,5 @@
 share/texmf-dist/tex/latex/courseoutline/courseoutline.cls
 @dirrmtry share/texmf-dist/tex/latex/courseoutline
 @dirrmtry share/texmf-dist/doc/latex/courseoutline
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

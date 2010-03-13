@@ -34,3 +34,5 @@ share/texmf-dist/tex/latex/revtex4/rmp.rtx
 @dirrmtry share/texmf-dist/doc/latex/revtex4
 @dirrmtry share/texmf-dist/bibtex/bst/revtex4
 @dirrmtry share/texmf-dist/bibtex/bib/revtex4
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

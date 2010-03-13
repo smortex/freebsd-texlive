@@ -220,3 +220,5 @@ share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemetree.sty
 @dirrmtry share/texmf-dist/doc/latex/beamer/doc/licenses
 @dirrmtry share/texmf-dist/doc/latex/beamer/doc
 @dirrmtry share/texmf-dist/doc/latex/beamer
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -51,3 +51,5 @@ share/texmf-dist/tex/latex/mflogo/ulogo.fd
 @dirrmtry share/texmf-dist/fonts/map/dvips/mflogo
 @dirrmtry share/texmf-dist/fonts/afm/hoekwater/mflogo
 @dirrmtry share/texmf-dist/doc/latex/mflogo
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

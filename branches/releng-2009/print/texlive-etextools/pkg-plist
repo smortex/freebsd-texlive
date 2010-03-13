@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/etextools/etextools.sty
 @dirrmtry share/texmf-dist/tex/latex/etextools
 @dirrmtry share/texmf-dist/source/latex/etextools
 @dirrmtry share/texmf-dist/doc/latex/etextools
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

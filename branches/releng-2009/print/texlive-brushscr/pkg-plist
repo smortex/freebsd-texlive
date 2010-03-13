@@ -30,3 +30,5 @@ share/texmf-dist/tex/latex/brushscr/t1pbsi.fd
 @dirrmtry share/texmf-dist/fonts/afm/public/brushscr
 @dirrmtry share/texmf-dist/dvips/brushscr
 @dirrmtry share/texmf-dist/doc/latex/brushscr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

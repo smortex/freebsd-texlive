@@ -6,3 +6,5 @@
 share/texmf-dist/tex/latex/tdclock/tdclock.sty
 @dirrmtry share/texmf-dist/tex/latex/tdclock
 @dirrmtry share/texmf-dist/doc/latex/tdclock
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

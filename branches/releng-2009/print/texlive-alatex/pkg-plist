@@ -16,3 +16,5 @@ share/texmf-dist/tex/alatex/base/metaclas.cfg
 @dirrmtry share/texmf-dist/tex/alatex/base
 @dirrmtry share/texmf-dist/source/alatex/base
 @dirrmtry share/texmf-dist/doc/otherformats/alatex/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -58,3 +58,5 @@ share/texmf-dist/tex/latex/otibet/t1tib.fd
 @dirrmtry share/texmf-dist/fonts/ovf/public/otibet
 @dirrmtry share/texmf-dist/fonts/ofm/public/otibet
 @dirrmtry share/texmf-dist/doc/latex/otibet
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

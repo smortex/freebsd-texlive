@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/pst-ob3d/pst-ob3d.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-ob3d
 @dirrmtry share/texmf-dist/source/generic/pst-ob3d
 @dirrmtry share/texmf-dist/doc/generic/pst-ob3d
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

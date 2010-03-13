@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/pst-circ/pst-circ.sty
 @dirrmtry share/texmf-dist/source/generic/pst-circ
 @dirrmtry share/texmf-dist/dvips/pst-circ
 @dirrmtry share/texmf-dist/doc/generic/pst-circ
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

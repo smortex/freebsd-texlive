@@ -11,3 +11,5 @@ share/texmf-dist/tex/latex/imtekda/IMTEKda.cls
 @dirrmtry share/texmf-dist/source/latex/imtekda
 @dirrmtry share/texmf-dist/doc/latex/imtekda/figures
 @dirrmtry share/texmf-dist/doc/latex/imtekda
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

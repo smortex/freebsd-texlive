@@ -33,3 +33,5 @@ share/texmf-dist/tex/latex/antp/qxantp.fd
 @dirrmtry share/texmf-dist/fonts/afm/public/antp
 @dirrmtry share/texmf-dist/dvips/antp
 @dirrmtry share/texmf-dist/doc/fonts/antp
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

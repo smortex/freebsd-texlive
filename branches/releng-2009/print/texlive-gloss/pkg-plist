@@ -11,3 +11,5 @@ share/texmf-dist/tex/latex/gloss/gloss.sty
 @dirrmtry share/texmf-dist/doc/latex/gloss
 @dirrmtry share/texmf-dist/bibtex/bst/gloss
 @dirrmtry share/texmf-dist/bibtex/bib/gloss
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

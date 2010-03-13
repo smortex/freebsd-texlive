@@ -65,3 +65,5 @@ share/texmf-dist/tex/latex/expl3/l3xref.sty
 @dirrmtry share/texmf-dist/source/latex/expl3
 @dirrmtry share/texmf-dist/makeindex/expl3
 @dirrmtry share/texmf-dist/doc/latex/expl3
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

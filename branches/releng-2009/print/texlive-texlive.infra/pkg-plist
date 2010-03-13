@@ -58,8 +58,9 @@ share/tlpkg/TeXLive/waitVariableX.pm
 share/tlpkg/installer/config.guess
 @dirrmtry share/tlpkg/installer
 @dirrmtry share/tlpkg/TeXLive
-@dirrmtry share/tlpkg
 @dirrmtry share/texmf/scripts/texlive/tlmgrgui
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/readme-txt.dir
 @dirrmtry share/readme-html.dir
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

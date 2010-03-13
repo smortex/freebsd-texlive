@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/biblist/biblist.sty
 @dirrmtry share/texmf-dist/tex/latex/biblist
 @dirrmtry share/texmf-dist/source/latex/biblist
 @dirrmtry share/texmf-dist/doc/latex/biblist
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

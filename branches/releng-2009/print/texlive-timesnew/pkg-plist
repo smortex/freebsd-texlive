@@ -88,3 +88,5 @@ share/texmf-dist/fonts/vf/monotype/timesnew/mntri8t.vf
 @dirrmtry share/texmf-dist/fonts/vf/ibm/timesnew
 @dirrmtry share/texmf-dist/fonts/tfm/monotype/timesnew
 @dirrmtry share/texmf-dist/fonts/tfm/ibm/timesnew
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

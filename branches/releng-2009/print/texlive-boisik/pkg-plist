@@ -129,3 +129,5 @@ share/texmf-dist/tex/latex/boisik/ubskex.fd
 @dirrmtry share/texmf-dist/fonts/source/public/boisik
 @dirrmtry share/texmf-dist/doc/fonts/boisik/example
 @dirrmtry share/texmf-dist/doc/fonts/boisik
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/robustindex/robustglossary.sty
 share/texmf-dist/tex/latex/robustindex/robustindex.sty
 @dirrmtry share/texmf-dist/tex/latex/robustindex
 @dirrmtry share/texmf-dist/doc/latex/robustindex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

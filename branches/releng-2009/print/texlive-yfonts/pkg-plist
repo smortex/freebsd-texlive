@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/yfonts/yfonts.sty
 @dirrmtry share/texmf-dist/tex/latex/yfonts
 @dirrmtry share/texmf-dist/source/latex/yfonts
 @dirrmtry share/texmf-dist/doc/latex/yfonts
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

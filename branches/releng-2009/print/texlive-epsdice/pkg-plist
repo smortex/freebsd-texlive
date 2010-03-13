@@ -11,3 +11,5 @@ share/texmf-dist/tex/latex/epsdice/epsdice.sty
 @dirrmtry share/texmf-dist/tex/latex/epsdice
 @dirrmtry share/texmf-dist/source/latex/epsdice
 @dirrmtry share/texmf-dist/doc/latex/epsdice
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

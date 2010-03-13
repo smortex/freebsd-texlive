@@ -16,3 +16,5 @@ share/texmf-dist/tex/latex/cookybooky/myRecipe.cfg
 @dirrmtry share/texmf-dist/doc/latex/cookybooky/examples
 @dirrmtry share/texmf-dist/doc/latex/cookybooky/documentation
 @dirrmtry share/texmf-dist/doc/latex/cookybooky
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

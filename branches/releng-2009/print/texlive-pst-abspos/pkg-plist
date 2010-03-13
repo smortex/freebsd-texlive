@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/pst-abspos/pst-abspos.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-abspos
 @dirrmtry share/texmf-dist/source/generic/pst-abspos
 @dirrmtry share/texmf-dist/doc/generic/pst-abspos
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

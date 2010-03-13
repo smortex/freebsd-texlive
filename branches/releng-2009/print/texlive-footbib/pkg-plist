@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/footbib/footbib.sty
 @dirrmtry share/texmf-dist/tex/latex/footbib
 @dirrmtry share/texmf-dist/source/latex/footbib
 @dirrmtry share/texmf-dist/doc/latex/footbib
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

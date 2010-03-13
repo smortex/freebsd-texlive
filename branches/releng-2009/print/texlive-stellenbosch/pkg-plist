@@ -75,3 +75,5 @@ share/texmf-dist/tex/latex/stellenbosch/ustitle.sty
 @dirrmtry share/texmf-dist/doc/latex/stellenbosch/templates
 @dirrmtry share/texmf-dist/doc/latex/stellenbosch
 @dirrmtry share/texmf-dist/bibtex/bst/stellenbosch
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -13,3 +13,5 @@ share/tlpkg/installer/install-menu-wizard.pl
 @dirrmtry share/tlpkg/installer
 @dirrmtry share/texmf/scripts/texlive/lua/texlive
 @dirrmtry share/texmf/doc/man/man1
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

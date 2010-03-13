@@ -23,3 +23,5 @@ share/texmf-dist/tex/psizzl/config/psizzl.ini
 @dirrmtry share/texmf-dist/tex/psizzl/base
 @dirrmtry share/texmf-dist/source/psizzl/base
 @dirrmtry share/texmf-dist/doc/otherformats/psizzl/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

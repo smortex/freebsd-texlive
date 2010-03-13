@@ -102,3 +102,5 @@ share/texmf-dist/fonts/vf/public/mathpazo/zplmr7y.vf
 @dirrmtry share/texmf-dist/fonts/tfm/public/mathpazo
 @dirrmtry share/texmf-dist/fonts/afm/public/mathpazo
 @dirrmtry share/texmf-dist/doc/latex/mathpazo
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

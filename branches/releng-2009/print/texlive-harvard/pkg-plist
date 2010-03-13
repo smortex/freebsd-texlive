@@ -20,3 +20,5 @@ share/texmf-dist/tex/latex/harvard/harvard.sty
 @dirrmtry share/texmf-dist/doc/latex/harvard
 @dirrmtry share/texmf-dist/bibtex/bst/harvard
 @dirrmtry share/texmf-dist/bibtex/bib/harvard
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

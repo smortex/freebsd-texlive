@@ -40,3 +40,5 @@ share/texmf-dist/tex/latex/thuthesis/thuthesis.cls
 @dirrmtry share/texmf-dist/doc/latex/thuthesis/example
 @dirrmtry share/texmf-dist/doc/latex/thuthesis
 @dirrmtry share/texmf-dist/bibtex/bst/thuthesis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

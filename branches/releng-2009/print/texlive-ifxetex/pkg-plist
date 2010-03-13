@@ -6,3 +6,5 @@ share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 @dirrmtry share/texmf-dist/tex/generic/ifxetex
 @dirrmtry share/texmf-dist/source/generic/ifxetex
 @dirrmtry share/texmf-dist/doc/generic/ifxetex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

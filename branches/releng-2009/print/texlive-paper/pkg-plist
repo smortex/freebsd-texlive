@@ -15,3 +15,5 @@ share/texmf-dist/tex/latex/paper/paper.sty
 @dirrmtry share/texmf-dist/tex/latex/paper
 @dirrmtry share/texmf-dist/source/latex/paper
 @dirrmtry share/texmf-dist/doc/latex/paper
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -13,3 +13,5 @@ share/texmf-dist/tex/latex/examplep/examplep.sty
 share/texmf-dist/tex/latex/examplep/verbfwr.sty
 @dirrmtry share/texmf-dist/tex/latex/examplep
 @dirrmtry share/texmf-dist/doc/latex/examplep
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

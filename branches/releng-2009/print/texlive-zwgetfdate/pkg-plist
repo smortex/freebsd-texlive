@@ -5,3 +5,5 @@
 share/texmf-dist/tex/latex/zwgetfdate/zwgetfdate.sty
 @dirrmtry share/texmf-dist/tex/latex/zwgetfdate
 @dirrmtry share/texmf-dist/doc/latex/zwgetfdate
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

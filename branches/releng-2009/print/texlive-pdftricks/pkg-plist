@@ -6,3 +6,5 @@
 share/texmf-dist/tex/latex/pdftricks/pdftricks.sty
 @dirrmtry share/texmf-dist/tex/latex/pdftricks
 @dirrmtry share/texmf-dist/doc/latex/pdftricks
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

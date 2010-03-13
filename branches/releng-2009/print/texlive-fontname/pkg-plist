@@ -70,3 +70,5 @@ share/texmf-dist/fonts/map/fontname/yandy.map
 @dirrmtry share/texmf/doc/info
 @dirrmtry share/texmf-dist/fonts/map/fontname
 @dirrmtry share/texmf-dist/doc/fonts/fontname
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

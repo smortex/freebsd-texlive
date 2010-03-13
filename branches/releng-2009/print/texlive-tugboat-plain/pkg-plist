@@ -6,3 +6,5 @@ share/texmf-dist/tex/plain/tugboat-plain/tugboat.sty
 share/texmf-dist/tex/plain/tugboat-plain/tugproc.sty
 @dirrmtry share/texmf-dist/tex/plain/tugboat-plain
 @dirrmtry share/texmf-dist/doc/plain/tugboat-plain
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

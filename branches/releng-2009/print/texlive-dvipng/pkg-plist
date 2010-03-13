@@ -6,3 +6,5 @@
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf/doc/info
 @dirrmtry share/texmf/doc/dvipng
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

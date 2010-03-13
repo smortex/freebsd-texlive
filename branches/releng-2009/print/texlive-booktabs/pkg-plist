@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/booktabs/booktabs.sty
 @dirrmtry share/texmf-dist/tex/latex/booktabs
 @dirrmtry share/texmf-dist/source/latex/booktabs
 @dirrmtry share/texmf-dist/doc/latex/booktabs
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

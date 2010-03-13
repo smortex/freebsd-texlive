@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/protocol/protocol.cls
 @dirrmtry share/texmf-dist/tex/latex/protocol
 @dirrmtry share/texmf-dist/source/latex/protocol
 @dirrmtry share/texmf-dist/doc/latex/protocol
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

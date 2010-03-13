@@ -88,3 +88,5 @@ share/texmf-dist/metapost/metauml/util_shade.mp
 @dirrmtry share/texmf-dist/doc/metapost/metauml/metauml_manual/fig
 @dirrmtry share/texmf-dist/doc/metapost/metauml/metauml_manual
 @dirrmtry share/texmf-dist/doc/metapost/metauml
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

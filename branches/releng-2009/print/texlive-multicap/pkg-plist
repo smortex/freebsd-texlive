@@ -4,3 +4,5 @@ share/texmf-dist/tex/latex/multicap/multicap.sty
 @dirrmtry share/texmf-dist/tex/latex/multicap
 @dirrmtry share/texmf-dist/source/latex/multicap
 @dirrmtry share/texmf-dist/doc/latex/multicap
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

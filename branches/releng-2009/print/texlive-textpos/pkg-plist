@@ -24,3 +24,5 @@ share/texmf-dist/tex/latex/textpos/textpos.sty
 @dirrmtry share/texmf-dist/source/latex/textpos
 @dirrmtry share/texmf-dist/doc/latex/textpos/examples
 @dirrmtry share/texmf-dist/doc/latex/textpos
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

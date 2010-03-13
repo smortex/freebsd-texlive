@@ -41,3 +41,5 @@ share/texmf-dist/tex/latex/classicthesis/classicthesis.sty
 @dirrmtry share/texmf-dist/doc/latex/classicthesis/Examples
 @dirrmtry share/texmf-dist/doc/latex/classicthesis/Chapters
 @dirrmtry share/texmf-dist/doc/latex/classicthesis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

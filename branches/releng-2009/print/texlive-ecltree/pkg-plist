@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/ecltree/ecltree.sty
 @dirrmtry share/texmf-dist/tex/latex/ecltree
 @dirrmtry share/texmf-dist/doc/latex/ecltree
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

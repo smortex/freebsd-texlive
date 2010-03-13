@@ -54,3 +54,5 @@ share/texmf-dist/bibtex/bst/beebe/refer.bst
 share/texmf-dist/bibtex/bst/beebe/xbtxbst.doc
 @dirrmtry share/texmf-dist/bibtex/bst/beebe
 @dirrmtry share/texmf-dist/bibtex/bib/beebe
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

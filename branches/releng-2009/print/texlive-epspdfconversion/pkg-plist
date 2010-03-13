@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/epspdfconversion/epspdfconversion.sty
 @dirrmtry share/texmf-dist/tex/latex/epspdfconversion
 @dirrmtry share/texmf-dist/doc/latex/epspdfconversion/example
 @dirrmtry share/texmf-dist/doc/latex/epspdfconversion
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

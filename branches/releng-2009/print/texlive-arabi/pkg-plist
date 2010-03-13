@@ -213,3 +213,5 @@ share/texmf-dist/tex/latex/arabi/translit.sty
 @dirrmtry share/texmf-dist/fonts/enc/dvips/arabi
 @dirrmtry share/texmf-dist/fonts/afm/arabi/arabeyes
 @dirrmtry share/texmf-dist/doc/latex/arabi
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

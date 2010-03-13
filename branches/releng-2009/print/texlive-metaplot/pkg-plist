@@ -18,3 +18,5 @@ share/texmf-dist/metapost/metaplot/metaplot.mp
 @dirrmtry share/texmf-dist/metapost/metaplot
 @dirrmtry share/texmf-dist/doc/latex/metaplot/examples
 @dirrmtry share/texmf-dist/doc/latex/metaplot
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

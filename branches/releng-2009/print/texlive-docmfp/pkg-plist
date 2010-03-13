@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/docmfp/docmfp.sty
 @dirrmtry share/texmf-dist/tex/latex/docmfp
 @dirrmtry share/texmf-dist/source/latex/docmfp
 @dirrmtry share/texmf-dist/doc/latex/docmfp
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

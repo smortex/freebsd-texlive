@@ -15,3 +15,5 @@ share/texmf-dist/tex/latex/xdoc/xdoc2.sty
 @dirrmtry share/texmf-dist/source/latex/xdoc
 @dirrmtry share/texmf-dist/makeindex/xdoc
 @dirrmtry share/texmf-dist/doc/latex/xdoc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

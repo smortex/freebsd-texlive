@@ -14,3 +14,5 @@ share/texmf-dist/tex/latex/pst-text/pst-text.sty
 @dirrmtry share/texmf-dist/source/generic/pst-text
 @dirrmtry share/texmf-dist/dvips/pst-text
 @dirrmtry share/texmf-dist/doc/generic/pst-text
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

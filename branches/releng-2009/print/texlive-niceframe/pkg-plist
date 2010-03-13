@@ -18,3 +18,5 @@ share/texmf-dist/tex/latex/niceframe/niceframe.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/niceframe
 @dirrmtry share/texmf-dist/fonts/source/public/niceframe
 @dirrmtry share/texmf-dist/doc/latex/niceframe
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

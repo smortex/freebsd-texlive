@@ -64,3 +64,5 @@ share/texmf/tex/generic/pdftex/glyphtounicode.tex
 @dirrmtry share/texmf-dist/doc/pdftex/manual/samplepdf
 @dirrmtry share/texmf-dist/doc/pdftex/manual
 @dirrmtry share/texmf-dist/doc/pdftex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

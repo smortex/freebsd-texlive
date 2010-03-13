@@ -6,3 +6,5 @@
 share/texmf-dist/tex/xelatex/fontwrap/fontwrap.sty
 @dirrmtry share/texmf-dist/tex/xelatex/fontwrap
 @dirrmtry share/texmf-dist/doc/xelatex/fontwrap
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

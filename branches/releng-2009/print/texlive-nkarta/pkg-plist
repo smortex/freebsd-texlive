@@ -16,3 +16,5 @@ share/texmf-dist/metapost/nkarta/nkchars.mp
 @dirrmtry share/texmf-dist/fonts/tfm/public/nkarta
 @dirrmtry share/texmf-dist/fonts/source/public/nkarta
 @dirrmtry share/texmf-dist/doc/fonts/nkarta
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

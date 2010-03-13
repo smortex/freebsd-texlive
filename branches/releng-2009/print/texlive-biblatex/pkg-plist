@@ -186,3 +186,5 @@ share/texmf-dist/tex/latex/biblatex/lbx/swedish.lbx
 @dirrmtry share/texmf-dist/bibtex/csf/biblatex
 @dirrmtry share/texmf-dist/bibtex/bst/biblatex
 @dirrmtry share/texmf-dist/bibtex/bib/biblatex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

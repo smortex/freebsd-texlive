@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/vmargin/vmargin.sty
 @dirrmtry share/texmf-dist/tex/latex/vmargin
 @dirrmtry share/texmf-dist/source/latex/vmargin
 @dirrmtry share/texmf-dist/doc/latex/vmargin
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

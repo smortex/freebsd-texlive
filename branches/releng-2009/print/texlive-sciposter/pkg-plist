@@ -44,3 +44,5 @@ share/texmf-dist/tex/latex/sciposter/sciposter.cls
 @dirrmtry share/texmf-dist/doc/latex/sciposter/sciposterexample/auto
 @dirrmtry share/texmf-dist/doc/latex/sciposter/sciposterexample
 @dirrmtry share/texmf-dist/doc/latex/sciposter
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -30,3 +30,5 @@ share/texmf-dist/tex/latex/pdfscreen/pdfscreen.sty
 share/texmf-dist/tex/latex/pdfscreen/right.pdf
 @dirrmtry share/texmf-dist/tex/latex/pdfscreen
 @dirrmtry share/texmf-dist/doc/latex/pdfscreen
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

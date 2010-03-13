@@ -18,3 +18,5 @@ share/texmf-dist/metafont/roex/roex.mf
 @dirrmtry share/texmf-dist/source/metafont/roex/roexsamp
 @dirrmtry share/texmf-dist/source/metafont/roex
 @dirrmtry share/texmf-dist/metafont/roex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

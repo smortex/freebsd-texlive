@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/fwlw/fwlw.sty
 @dirrmtry share/texmf-dist/tex/latex/fwlw
 @dirrmtry share/texmf-dist/doc/latex/fwlw
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

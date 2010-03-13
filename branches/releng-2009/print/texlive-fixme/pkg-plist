@@ -31,3 +31,5 @@ share/texmf-dist/tex/latex/fixme/themes/fxthemesignature.sty
 @dirrmtry share/texmf-dist/tex/latex/fixme
 @dirrmtry share/texmf-dist/source/latex/fixme
 @dirrmtry share/texmf-dist/doc/latex/fixme
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

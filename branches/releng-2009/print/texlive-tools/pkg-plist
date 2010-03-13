@@ -95,3 +95,5 @@ share/texmf-dist/tex/latex/tools/xspace.sty
 @dirrmtry share/texmf-dist/tex/latex/tools
 @dirrmtry share/texmf-dist/source/latex/tools
 @dirrmtry share/texmf-dist/doc/latex/tools
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

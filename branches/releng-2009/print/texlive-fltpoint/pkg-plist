@@ -8,3 +8,5 @@ share/texmf-dist/tex/generic/fltpoint/fltpoint.tex
 @dirrmtry share/texmf-dist/tex/generic/fltpoint
 @dirrmtry share/texmf-dist/source/generic/fltpoint
 @dirrmtry share/texmf-dist/doc/generic/fltpoint
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

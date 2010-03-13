@@ -13,3 +13,5 @@ share/texmf-dist/tex/latex/xwatermark/xwatermark.sty
 @dirrmtry share/texmf-dist/tex/latex/xwatermark
 @dirrmtry share/texmf-dist/doc/latex/xwatermark/Graphics
 @dirrmtry share/texmf-dist/doc/latex/xwatermark
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

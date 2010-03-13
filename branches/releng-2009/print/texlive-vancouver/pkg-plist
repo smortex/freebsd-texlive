@@ -6,3 +6,5 @@ share/texmf-dist/bibtex/bst/vancouver/vancouver.bst
 @dirrmtry share/texmf-dist/doc/bibtex/vancouver
 @dirrmtry share/texmf-dist/bibtex/bst/vancouver
 @dirrmtry share/texmf-dist/bibtex/bib/vancouver
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

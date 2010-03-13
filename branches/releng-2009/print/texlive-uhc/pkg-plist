@@ -3205,3 +3205,5 @@ share/texmf-dist/fonts/vf/uhc/wmj/wmjxo9.vf
 @dirrmtry share/texmf-dist/fonts/afm/uhc/umj
 @dirrmtry share/texmf-dist/dvips/uhc
 @dirrmtry share/texmf-dist/doc/fonts/uhc/umj
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

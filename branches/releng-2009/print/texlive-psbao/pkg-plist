@@ -5,3 +5,5 @@
 share/texmf-dist/tex/latex/psbao/psbao.sty
 @dirrmtry share/texmf-dist/tex/latex/psbao
 @dirrmtry share/texmf-dist/doc/latex/psbao
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

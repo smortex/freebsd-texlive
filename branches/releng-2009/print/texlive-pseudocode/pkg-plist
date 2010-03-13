@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/pseudocode/pseudocode.sty
 @dirrmtry share/texmf-dist/tex/latex/pseudocode
 @dirrmtry share/texmf-dist/doc/latex/pseudocode
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

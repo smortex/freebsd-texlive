@@ -21,3 +21,5 @@ share/texmf-dist/tex/latex/iso/isov2.cls
 @dirrmtry share/texmf-dist/source/latex/iso
 @dirrmtry share/texmf-dist/makeindex/iso
 @dirrmtry share/texmf-dist/doc/latex/iso
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

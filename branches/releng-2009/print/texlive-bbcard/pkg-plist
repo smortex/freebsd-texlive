@@ -7,3 +7,5 @@ share/texmf-dist/metapost/bbcard/calendar.mp
 share/texmf-dist/metapost/bbcard/scorecard.mp
 @dirrmtry share/texmf-dist/metapost/bbcard
 @dirrmtry share/texmf-dist/doc/metapost/bbcard
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

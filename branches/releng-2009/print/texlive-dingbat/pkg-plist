@@ -15,3 +15,5 @@ share/texmf-dist/tex/latex/dingbat/udingbat.fd
 @dirrmtry share/texmf-dist/fonts/tfm/public/dingbat
 @dirrmtry share/texmf-dist/fonts/source/public/dingbat
 @dirrmtry share/texmf-dist/doc/fonts/dingbat
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

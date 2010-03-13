@@ -86,3 +86,5 @@ share/texmf-dist/tex/latex/aurical/aurical.sty
 @dirrmtry share/texmf-dist/fonts/map/dvips/aurical
 @dirrmtry share/texmf-dist/fonts/afm/public/aurical
 @dirrmtry share/texmf-dist/doc/latex/aurical
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

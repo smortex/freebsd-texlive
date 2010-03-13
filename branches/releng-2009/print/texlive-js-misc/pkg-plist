@@ -23,3 +23,5 @@ share/texmf-dist/tex/plain/js-misc/xfig.tex
 @dirrmtry share/texmf-dist/tex/plain/js-misc
 @dirrmtry share/texmf-dist/doc/plain/js-misc/xfig
 @dirrmtry share/texmf-dist/doc/plain/js-misc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

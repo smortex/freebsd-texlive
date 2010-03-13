@@ -66,3 +66,5 @@ share/texmf-dist/tex/latex/confproc/newapave.sty
 @dirrmtry share/texmf-dist/doc/latex/confproc/example
 @dirrmtry share/texmf-dist/doc/latex/confproc
 @dirrmtry share/texmf-dist/bibtex/bst/confproc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

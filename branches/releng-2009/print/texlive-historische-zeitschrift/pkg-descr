@@ -1,0 +1,8 @@
+The package provides citations according with the house style
+of the 'Historische Zeitschrift', a German historical journal.
+The scheme is a fullcite for the first citation and 'Author,
+Shorttitle (as note N, P)' for later citations (P being the
+page number). For further details, see the description of the
+house style at the journal's site. The package depends on
+biblatex (version 0.8 or higher) as well as etoolbox (version
+1.5 or higher).

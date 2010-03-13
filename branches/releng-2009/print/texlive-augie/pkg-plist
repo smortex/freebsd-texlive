@@ -26,3 +26,5 @@ share/texmf-dist/tex/latex/augie/ts1augie.fd
 @dirrmtry share/texmf-dist/fonts/map/dvips/augie
 @dirrmtry share/texmf-dist/fonts/afm/public/augie
 @dirrmtry share/texmf-dist/doc/latex/augie
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

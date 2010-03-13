@@ -35,3 +35,5 @@ share/texmf-dist/tex/latex/HA-prosper/Styles/Tycja/HAPTycja.sty
 @dirrmtry share/texmf-dist/tex/latex/HA-prosper
 @dirrmtry share/texmf-dist/source/latex/HA-prosper
 @dirrmtry share/texmf-dist/doc/latex/HA-prosper
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

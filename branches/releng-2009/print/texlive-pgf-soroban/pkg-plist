@@ -6,3 +6,5 @@
 share/texmf-dist/tex/latex/pgf-soroban/pgf-soroban.sty
 @dirrmtry share/texmf-dist/tex/latex/pgf-soroban
 @dirrmtry share/texmf-dist/doc/latex/pgf-soroban
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

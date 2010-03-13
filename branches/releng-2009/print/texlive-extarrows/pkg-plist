@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/extarrows/extarrows.sty
 @dirrmtry share/texmf-dist/tex/latex/extarrows
 @dirrmtry share/texmf-dist/doc/latex/extarrows
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

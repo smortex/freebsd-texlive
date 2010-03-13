@@ -30,3 +30,5 @@ share/texmf-dist/tex/latex/ncclatex/ncctitlepage.sty
 share/texmf-dist/tex/latex/ncclatex/sibjnm.cls
 @dirrmtry share/texmf-dist/tex/latex/ncclatex
 @dirrmtry share/texmf-dist/doc/latex/ncclatex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

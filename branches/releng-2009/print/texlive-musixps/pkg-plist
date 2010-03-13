@@ -9,3 +9,5 @@ share/texmf-dist/tex/generic/musixps/slurs.tex
 @dirrmtry share/texmf-dist/fonts/source/public/musixps
 @dirrmtry share/texmf-dist/dvips/musixps
 @dirrmtry share/texmf-dist/doc/generic/musixps
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

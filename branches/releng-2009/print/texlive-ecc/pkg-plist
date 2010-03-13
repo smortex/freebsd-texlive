@@ -67,3 +67,5 @@ share/texmf-dist/fonts/tfm/public/ecc/toti10.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/ecc
 @dirrmtry share/texmf-dist/fonts/source/public/ecc
 @dirrmtry share/texmf-dist/doc/fonts/ecc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -31,3 +31,5 @@ share/texmf-dist/tex/latex/upmethodology/upmethodology-version.sty
 @dirrmtry share/texmf-dist/tex/latex/upmethodology
 @dirrmtry share/texmf-dist/source/latex/upmethodology
 @dirrmtry share/texmf-dist/doc/latex/upmethodology
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

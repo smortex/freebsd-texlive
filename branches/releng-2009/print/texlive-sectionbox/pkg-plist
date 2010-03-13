@@ -17,3 +17,5 @@ share/texmf-dist/tex/latex/sectionbox/sectionbox.sty
 @dirrmtry share/texmf-dist/tex/latex/sectionbox
 @dirrmtry share/texmf-dist/doc/latex/sectionbox/example
 @dirrmtry share/texmf-dist/doc/latex/sectionbox
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -4,3 +4,5 @@
 share/texmf-dist/tex/context/third/bnf/t-bnf.tex
 @dirrmtry share/texmf-dist/tex/context/third/bnf
 @dirrmtry share/texmf-dist/doc/context/third/bnf
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

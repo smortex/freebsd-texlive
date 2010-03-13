@@ -115,3 +115,5 @@ share/texmf-dist/tex/latex/frcursive/t1frc.fd
 @dirrmtry share/texmf-dist/doc/fonts/frcursive/latex
 @dirrmtry share/texmf-dist/doc/fonts/frcursive/doc
 @dirrmtry share/texmf-dist/doc/fonts/frcursive
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

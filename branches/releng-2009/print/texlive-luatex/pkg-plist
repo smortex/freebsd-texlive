@@ -11,3 +11,5 @@ share/texmf/tex/generic/config/luatexiniconfig.tex
 @dirrmtry share/texmf/tex/generic/config
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf-dist/doc/luatex/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

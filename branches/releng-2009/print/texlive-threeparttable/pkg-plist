@@ -5,3 +5,5 @@ share/texmf-dist/tex/latex/threeparttable/3parttable.sty
 share/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 @dirrmtry share/texmf-dist/tex/latex/threeparttable
 @dirrmtry share/texmf-dist/doc/latex/threeparttable
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

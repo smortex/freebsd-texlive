@@ -8,3 +8,5 @@ share/texmf/xdvi/pixmaps/toolbar.xpm
 share/texmf/xdvi/pixmaps/toolbar2.xpm
 @dirrmtry share/texmf/xdvi/pixmaps
 @dirrmtry share/texmf/doc/man/man1
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

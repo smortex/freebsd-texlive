@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/papercdcase/papercdcase.sty
 @dirrmtry share/texmf-dist/tex/latex/papercdcase
 @dirrmtry share/texmf-dist/source/latex/papercdcase
 @dirrmtry share/texmf-dist/doc/latex/papercdcase
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

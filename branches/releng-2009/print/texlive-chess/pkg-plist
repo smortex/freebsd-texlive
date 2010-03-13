@@ -14,3 +14,5 @@ share/texmf-dist/tex/latex/chess/chesskey.sty
 share/texmf-dist/tex/latex/chess/chessmg.sty
 @dirrmtry share/texmf-dist/tex/latex/chess
 @dirrmtry share/texmf-dist/fonts/source/public/chess
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

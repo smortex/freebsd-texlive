@@ -126,3 +126,5 @@ share/texmf-dist/tex/latex/gfsneohellenic/uneohellenicnums.fd
 @dirrmtry share/texmf-dist/fonts/enc/dvips/gfsneohellenic
 @dirrmtry share/texmf-dist/fonts/afm/public/gfsneohellenic
 @dirrmtry share/texmf-dist/doc/fonts/gfsneohellenic
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

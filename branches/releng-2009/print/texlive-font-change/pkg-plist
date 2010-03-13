@@ -22,3 +22,5 @@ share/texmf-dist/tex/plain/font-change/font_times.tex
 share/texmf-dist/tex/plain/font-change/font_utopia.tex
 @dirrmtry share/texmf-dist/tex/plain/font-change
 @dirrmtry share/texmf-dist/doc/plain/font-change
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

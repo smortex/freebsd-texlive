@@ -26,3 +26,5 @@ share/texmf-dist/tex/latex/ginpenc/next.gie
 @dirrmtry share/texmf-dist/tex/latex/ginpenc
 @dirrmtry share/texmf-dist/source/latex/ginpenc
 @dirrmtry share/texmf-dist/doc/latex/ginpenc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

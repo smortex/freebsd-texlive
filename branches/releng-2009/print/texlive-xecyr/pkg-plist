@@ -31,3 +31,5 @@ share/texmf-dist/tex/xelatex/xecyr/xecyr.sty
 @dirrmtry share/texmf-dist/tex/xelatex/xecyr
 @dirrmtry share/texmf-dist/tex/generic/xecyr
 @dirrmtry share/texmf-dist/doc/xelatex/xecyr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -16,3 +16,5 @@ share/texmf-dist/tex/latex/pst-uml/pst-uml.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-uml
 @dirrmtry share/texmf-dist/source/generic/pst-uml
 @dirrmtry share/texmf-dist/doc/generic/pst-uml
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

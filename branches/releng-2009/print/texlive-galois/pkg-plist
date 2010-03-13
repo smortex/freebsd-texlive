@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/galois/galois.sty
 @dirrmtry share/texmf-dist/tex/latex/galois
 @dirrmtry share/texmf-dist/source/latex/galois
 @dirrmtry share/texmf-dist/doc/latex/galois
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

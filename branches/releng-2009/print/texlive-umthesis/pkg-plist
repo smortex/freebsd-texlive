@@ -13,3 +13,5 @@
 share/texmf-dist/tex/latex/umthesis/umthesis.cls
 @dirrmtry share/texmf-dist/tex/latex/umthesis
 @dirrmtry share/texmf-dist/doc/latex/umthesis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

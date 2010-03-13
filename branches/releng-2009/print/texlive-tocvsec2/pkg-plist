@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/tocvsec2/tocvsec2.sty
 @dirrmtry share/texmf-dist/tex/latex/tocvsec2
 @dirrmtry share/texmf-dist/source/latex/tocvsec2
 @dirrmtry share/texmf-dist/doc/latex/tocvsec2
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

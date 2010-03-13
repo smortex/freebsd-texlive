@@ -41,3 +41,5 @@ share/texmf-dist/tex/latex/phonetic/phonetic.sty
 @dirrmtry share/texmf-dist/doc/fonts/phonetic/Doc/209
 @dirrmtry share/texmf-dist/doc/fonts/phonetic/Doc
 @dirrmtry share/texmf-dist/doc/fonts/phonetic
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

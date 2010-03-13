@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/abstract/abstract.sty
 @dirrmtry share/texmf-dist/tex/latex/abstract
 @dirrmtry share/texmf-dist/source/latex/abstract
 @dirrmtry share/texmf-dist/doc/latex/abstract
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

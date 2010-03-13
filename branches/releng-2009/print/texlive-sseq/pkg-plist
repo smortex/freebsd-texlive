@@ -5,3 +5,5 @@ share/texmf-dist/tex/latex/sseq/sseq.sty
 @dirrmtry share/texmf-dist/tex/latex/sseq
 @dirrmtry share/texmf-dist/source/latex/sseq
 @dirrmtry share/texmf-dist/doc/latex/sseq
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

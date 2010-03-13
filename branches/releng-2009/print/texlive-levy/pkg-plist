@@ -54,3 +54,5 @@ share/texmf-dist/tex/plain/levy/greekmacros.tex
 @dirrmtry share/texmf-dist/tex/latex/levy
 @dirrmtry share/texmf-dist/fonts/source/public/levy
 @dirrmtry share/texmf-dist/doc/fonts/levy
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

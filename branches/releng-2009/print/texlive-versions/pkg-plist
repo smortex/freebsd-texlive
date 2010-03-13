@@ -1,2 +1,4 @@
 share/texmf-dist/tex/latex/versions/versions.sty
 @dirrmtry share/texmf-dist/tex/latex/versions
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

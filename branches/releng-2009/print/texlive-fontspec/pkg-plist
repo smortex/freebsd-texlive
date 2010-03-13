@@ -8,3 +8,5 @@ share/texmf-dist/tex/xelatex/fontspec/fontspec.sty
 @dirrmtry share/texmf-dist/tex/xelatex/fontspec
 @dirrmtry share/texmf-dist/source/xelatex/fontspec
 @dirrmtry share/texmf-dist/doc/xelatex/fontspec
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -44,3 +44,5 @@ share/texmf-dist/fonts/source/public/sauter/c-cmti.mf
 share/texmf-dist/fonts/source/public/sauter/c-cmtt.mf
 share/texmf-dist/fonts/source/public/sauter/c-sigma.mf
 @dirrmtry share/texmf-dist/fonts/source/public/sauter
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

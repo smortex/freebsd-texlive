@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/pst-light3d/pst-light3d.sty
 @dirrmtry share/texmf-dist/source/generic/pst-light3d
 @dirrmtry share/texmf-dist/dvips/pst-light3d
 @dirrmtry share/texmf-dist/doc/generic/pst-light3d
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -30,3 +30,5 @@ share/texmf-dist/tex/latex/jeopardy/jeopardy.sty
 @dirrmtry share/texmf-dist/source/latex/jeopardy
 @dirrmtry share/texmf-dist/doc/latex/jeopardy/example
 @dirrmtry share/texmf-dist/doc/latex/jeopardy
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

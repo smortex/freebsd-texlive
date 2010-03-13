@@ -2,3 +2,5 @@
 share/texmf-dist/tex/latex/here/here.sty
 @dirrmtry share/texmf-dist/tex/latex/here
 @dirrmtry share/texmf-dist/doc/latex/here
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/ushort/ushort.sty
 @dirrmtry share/texmf-dist/tex/latex/ushort
 @dirrmtry share/texmf-dist/source/latex/ushort
 @dirrmtry share/texmf-dist/doc/latex/ushort
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

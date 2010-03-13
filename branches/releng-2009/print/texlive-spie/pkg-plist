@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/spie/spie.cls
 @dirrmtry share/texmf-dist/doc/latex/spie
 @dirrmtry share/texmf-dist/bibtex/bst/spie
 @dirrmtry share/texmf-dist/bibtex/bib/spie
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

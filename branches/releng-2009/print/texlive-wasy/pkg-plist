@@ -50,3 +50,5 @@ share/texmf-dist/tex/plain/wasy/wasyfont.tex
 @dirrmtry share/texmf-dist/fonts/map/dvips/wasy
 @dirrmtry share/texmf-dist/fonts/afm/public/wasy
 @dirrmtry share/texmf-dist/doc/fonts/wasy
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

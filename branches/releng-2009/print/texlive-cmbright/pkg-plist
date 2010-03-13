@@ -186,3 +186,5 @@ share/texmf-dist/tex/latex/cmbright/ts1cmtl.fd
 @dirrmtry share/texmf-dist/fonts/tfm/public/cmbright
 @dirrmtry share/texmf-dist/fonts/source/public/cmbright
 @dirrmtry share/texmf-dist/doc/latex/cmbright
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

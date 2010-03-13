@@ -118,3 +118,5 @@ share/texmf-dist/tex/latex/interactiveworkbook/interactiveworkbook.sty
 @dirrmtry share/texmf-dist/doc/latex/interactiveworkbook/samplefiles
 @dirrmtry share/texmf-dist/doc/latex/interactiveworkbook/epsfiles
 @dirrmtry share/texmf-dist/doc/latex/interactiveworkbook/documentation
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

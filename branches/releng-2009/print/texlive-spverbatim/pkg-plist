@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/spverbatim/spverbatim.sty
 @dirrmtry share/texmf-dist/tex/latex/spverbatim
 @dirrmtry share/texmf-dist/source/latex/spverbatim
 @dirrmtry share/texmf-dist/doc/latex/spverbatim
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

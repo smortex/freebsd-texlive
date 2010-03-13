@@ -536,3 +536,5 @@ share/texmf/xindy/tex/inputenc/latin3.xdy
 @dirrmtry share/texmf/doc/xindy/style-tutorial
 @dirrmtry share/texmf/doc/xindy
 @dirrmtry share/texmf/doc/man/man1
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

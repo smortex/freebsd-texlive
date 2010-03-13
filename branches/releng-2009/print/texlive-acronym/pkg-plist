@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/acronym/acronym.sty
 @dirrmtry share/texmf-dist/tex/latex/acronym
 @dirrmtry share/texmf-dist/source/latex/acronym
 @dirrmtry share/texmf-dist/doc/latex/acronym
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

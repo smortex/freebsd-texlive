@@ -43,3 +43,5 @@ share/texmf-dist/tex/latex/jurabib/spjbbib.ldf
 @dirrmtry share/texmf-dist/doc/latex/jurabib
 @dirrmtry share/texmf-dist/bibtex/bst/jurabib
 @dirrmtry share/texmf-dist/bibtex/bib/jurabib
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

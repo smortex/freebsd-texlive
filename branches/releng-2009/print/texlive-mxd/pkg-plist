@@ -24,3 +24,5 @@ share/texmf-dist/tex/latex/mxd/mxd.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/mxd
 @dirrmtry share/texmf-dist/fonts/source/public/mxd
 @dirrmtry share/texmf-dist/doc/latex/mxd
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

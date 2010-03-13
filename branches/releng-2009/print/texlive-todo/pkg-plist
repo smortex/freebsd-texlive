@@ -5,3 +5,5 @@ share/texmf-dist/tex/latex/todo/todo.sty
 @dirrmtry share/texmf-dist/tex/latex/todo
 @dirrmtry share/texmf-dist/source/latex/todo
 @dirrmtry share/texmf-dist/doc/latex/todo
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

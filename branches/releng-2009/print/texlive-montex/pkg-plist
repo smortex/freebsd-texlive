@@ -321,3 +321,5 @@ share/texmf-dist/tex/latex/montex/xalx.def
 @dirrmtry share/texmf-dist/fonts/map/dvips/montex
 @dirrmtry share/texmf-dist/doc/latex/montex/mfinput/bithe
 @dirrmtry share/texmf-dist/doc/latex/montex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

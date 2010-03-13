@@ -5,3 +5,5 @@
 share/texmf-dist/tex/latex/engtlc/engtlc.sty
 @dirrmtry share/texmf-dist/tex/latex/engtlc
 @dirrmtry share/texmf-dist/doc/latex/engtlc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

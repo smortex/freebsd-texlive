@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/cd-cover/cd-cover.cls
 @dirrmtry share/texmf-dist/tex/latex/cd-cover
 @dirrmtry share/texmf-dist/source/latex/cd-cover
 @dirrmtry share/texmf-dist/doc/latex/cd-cover
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

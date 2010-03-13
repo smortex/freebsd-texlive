@@ -30,3 +30,5 @@ share/texmf-dist/tex/latex/lettre/lettre.cls
 share/texmf-dist/tex/latex/lettre/obs.ins
 @dirrmtry share/texmf-dist/tex/latex/lettre
 @dirrmtry share/texmf-dist/doc/latex/lettre
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

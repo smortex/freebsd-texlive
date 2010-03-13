@@ -24,3 +24,5 @@ share/texmf-dist/tex/latex/chemarrow/chemarrow.sty
 @dirrmtry share/texmf-dist/fonts/map/dvips/chemarrow
 @dirrmtry share/texmf-dist/fonts/afm/public/chemarrow
 @dirrmtry share/texmf-dist/doc/fonts/chemarrow
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

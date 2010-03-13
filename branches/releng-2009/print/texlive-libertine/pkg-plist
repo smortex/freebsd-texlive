@@ -16940,3 +16940,5 @@ share/texmf-dist/tex/latex/libertine/ufxlff.fd
 @dirrmtry share/texmf-dist/dvips/libertine
 @dirrmtry share/texmf-dist/doc/fonts/libertine/pdfs
 @dirrmtry share/texmf-dist/doc/fonts/libertine
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

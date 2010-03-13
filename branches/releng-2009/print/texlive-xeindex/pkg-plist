@@ -4,3 +4,5 @@
 share/texmf-dist/tex/xelatex/xeindex/xeindex.sty
 @dirrmtry share/texmf-dist/tex/xelatex/xeindex
 @dirrmtry share/texmf-dist/doc/xelatex/xeindex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

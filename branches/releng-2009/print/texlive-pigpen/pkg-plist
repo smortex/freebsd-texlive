@@ -13,3 +13,5 @@ share/texmf-dist/tex/latex/pigpen/pigpen.tex
 @dirrmtry share/texmf-dist/fonts/source/public/pigpen
 @dirrmtry share/texmf-dist/fonts/map/dvips/pigpen
 @dirrmtry share/texmf-dist/doc/latex/pigpen
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

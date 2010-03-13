@@ -5,3 +5,5 @@
 share/texmf-dist/tex/latex/germkorr/germkorr.sty
 @dirrmtry share/texmf-dist/tex/latex/germkorr
 @dirrmtry share/texmf-dist/doc/latex/germkorr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

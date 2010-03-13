@@ -20,3 +20,5 @@ share/texmf-dist/tex/latex/circuitikz/pgfcircvoltage.sty
 share/texmf-dist/tex/latex/circuitikz/t-circuitikz.tex
 @dirrmtry share/texmf-dist/tex/latex/circuitikz
 @dirrmtry share/texmf-dist/doc/latex/circuitikz
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -8,3 +8,5 @@
 share/texmf-dist/tex/latex/technics/technics.sty
 @dirrmtry share/texmf-dist/tex/latex/technics
 @dirrmtry share/texmf-dist/doc/latex/technics
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

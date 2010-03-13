@@ -19,3 +19,5 @@ share/texmf-dist/bibtex/bst/base/unsrt.bst
 @dirrmtry share/texmf-dist/doc/bibtex/base
 @dirrmtry share/texmf-dist/bibtex/bst/base
 @dirrmtry share/texmf-dist/bibtex/bib/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

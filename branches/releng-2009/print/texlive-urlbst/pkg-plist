@@ -19,3 +19,5 @@ share/texmf-dist/bibtex/bst/urlbst/unsrturl.bst
 @dirrmtry share/texmf-dist/doc/latex/urlbst
 @dirrmtry share/texmf-dist/bibtex/bst/urlbst
 @dirrmtry share/texmf-dist/bibtex/bib/urlbst
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/concprog/ConcProg.cls
 @dirrmtry share/texmf-dist/tex/latex/concprog
 @dirrmtry share/texmf-dist/doc/latex/concprog
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -648,3 +648,5 @@ share/texmf-dist/tex/latex/mathdesign/mdugm/ts1mdugm.fd
 @dirrmtry share/texmf-dist/doc/latex/mathdesign/mdput
 @dirrmtry share/texmf-dist/doc/latex/mathdesign/mdbch
 @dirrmtry share/texmf-dist/doc/latex/mathdesign
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -22,3 +22,5 @@ share/texmf-dist/tex/latex/pbsheet/pbsheet.cls
 @dirrmtry share/texmf-dist/doc/latex/pbsheet/xpl/img
 @dirrmtry share/texmf-dist/doc/latex/pbsheet/xpl
 @dirrmtry share/texmf-dist/doc/latex/pbsheet
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -16,3 +16,5 @@ share/texmf-dist/tex/latex/aguplus/agupp.sty
 @dirrmtry share/texmf-dist/tex/latex/aguplus
 @dirrmtry share/texmf-dist/doc/latex/aguplus
 @dirrmtry share/texmf-dist/bibtex/bst/aguplus
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

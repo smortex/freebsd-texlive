@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/boolexpr/boolexpr.sty
 @dirrmtry share/texmf-dist/tex/latex/boolexpr
 @dirrmtry share/texmf-dist/source/latex/boolexpr
 @dirrmtry share/texmf-dist/doc/latex/boolexpr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

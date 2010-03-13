@@ -364,3 +364,5 @@ share/texmf-dist/tex/plain/omega/omega.tex
 @dirrmtry share/texmf-dist/fonts/afm/public/omega
 @dirrmtry share/texmf-dist/dvips/omega
 @dirrmtry share/texmf-dist/doc/omega/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

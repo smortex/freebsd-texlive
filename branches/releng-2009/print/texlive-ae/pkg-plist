@@ -140,3 +140,5 @@ share/texmf-dist/tex/latex/ae/t1laett.fd
 @dirrmtry share/texmf-dist/fonts/vf/public/ae
 @dirrmtry share/texmf-dist/fonts/tfm/public/ae
 @dirrmtry share/texmf-dist/doc/fonts/ae
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

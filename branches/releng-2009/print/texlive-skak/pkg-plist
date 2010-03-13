@@ -52,3 +52,5 @@ share/texmf-dist/tex/latex/skak/uskak.fd
 @dirrmtry share/texmf-dist/fonts/tfm/public/skak
 @dirrmtry share/texmf-dist/fonts/source/public/skak
 @dirrmtry share/texmf-dist/doc/latex/skak
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

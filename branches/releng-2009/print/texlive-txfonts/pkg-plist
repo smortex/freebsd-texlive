@@ -320,3 +320,5 @@ share/texmf-dist/tex/latex/txfonts/utxtt.fd
 @dirrmtry share/texmf-dist/fonts/enc/dvips/txfonts
 @dirrmtry share/texmf-dist/fonts/afm/public/txfonts
 @dirrmtry share/texmf-dist/doc/fonts/txfonts
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

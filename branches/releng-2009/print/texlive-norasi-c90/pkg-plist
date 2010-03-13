@@ -9,3 +9,5 @@ share/texmf-dist/fonts/tfm/public/norasi-c90/ftnr8z.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/norasi-c90
 @dirrmtry share/texmf-dist/fonts/map/dvips/norasi-c90
 @dirrmtry share/texmf-dist/dvips/norasi-c90
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

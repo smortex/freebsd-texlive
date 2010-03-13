@@ -1336,3 +1336,5 @@ share/texmf-dist/fonts/vf/wadalab/umrj/umrjff.vf
 @dirrmtry share/texmf-dist/doc/fonts/wadalab/mc2j
 @dirrmtry share/texmf-dist/doc/fonts/wadalab/dmj
 @dirrmtry share/texmf-dist/doc/fonts/wadalab/dgj
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

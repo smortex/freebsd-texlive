@@ -3,3 +3,5 @@
 %%PORTDOCS%%share/texmf/doc/man/man1/purifyeps.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf-dist/doc/support/purifyeps
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -16,3 +16,5 @@ share/texmf-dist/tex/latex/concmath/uccb.fd
 @dirrmtry share/texmf-dist/tex/latex/concmath
 @dirrmtry share/texmf-dist/source/latex/concmath
 @dirrmtry share/texmf-dist/doc/fonts/concmath
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

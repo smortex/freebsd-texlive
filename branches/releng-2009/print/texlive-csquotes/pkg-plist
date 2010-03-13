@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/csquotes/csquotes.def
 share/texmf-dist/tex/latex/csquotes/csquotes.sty
 @dirrmtry share/texmf-dist/tex/latex/csquotes
 @dirrmtry share/texmf-dist/doc/latex/csquotes
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

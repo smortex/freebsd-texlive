@@ -41,3 +41,5 @@ share/texmf-dist/tex/latex/ifsym/uifwea.fd
 @dirrmtry share/texmf-dist/fonts/tfm/public/ifsym
 @dirrmtry share/texmf-dist/fonts/source/public/ifsym
 @dirrmtry share/texmf-dist/doc/fonts/ifsym
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

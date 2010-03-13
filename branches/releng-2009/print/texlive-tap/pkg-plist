@@ -28,3 +28,5 @@ share/texmf-dist/tex/generic/tap/tap.tex
 @dirrmtry share/texmf-dist/source/generic/tap/tabcv/sampdos
 @dirrmtry share/texmf-dist/source/generic/tap/tabcv
 @dirrmtry share/texmf-dist/doc/generic/tap
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

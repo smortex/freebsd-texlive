@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/linguex/linguho.sty
 share/texmf-dist/tex/latex/linguex/ps-trees.sty
 @dirrmtry share/texmf-dist/tex/latex/linguex
 @dirrmtry share/texmf-dist/doc/latex/linguex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

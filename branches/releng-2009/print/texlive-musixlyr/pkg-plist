@@ -6,3 +6,5 @@
 share/texmf-dist/tex/generic/musixlyr/musixlyr.tex
 @dirrmtry share/texmf-dist/tex/generic/musixlyr
 @dirrmtry share/texmf-dist/doc/latex/musixlyr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

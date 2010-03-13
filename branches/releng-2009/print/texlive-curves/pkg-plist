@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/curves/curvesls.sty
 @dirrmtry share/texmf-dist/tex/latex/curves
 @dirrmtry share/texmf-dist/source/latex/curves
 @dirrmtry share/texmf-dist/doc/latex/curves
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

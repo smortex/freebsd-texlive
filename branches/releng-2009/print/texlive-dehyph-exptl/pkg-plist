@@ -16,3 +16,5 @@ share/texmf-dist/tex/generic/dehyph-exptl/dehyphts-x-2009-06-19.pat
 share/texmf-dist/tex/generic/dehyph-exptl/dehyphts-x-2009-06-19.tex
 @dirrmtry share/texmf-dist/tex/generic/dehyph-exptl
 @dirrmtry share/texmf-dist/doc/generic/dehyph-exptl
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

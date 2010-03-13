@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/pagecont/pagecont.sty
 @dirrmtry share/texmf-dist/tex/latex/pagecont
 @dirrmtry share/texmf-dist/source/latex/pagecont
 @dirrmtry share/texmf-dist/doc/latex/pagecont
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/typehtml/typehtml.sty
 @dirrmtry share/texmf-dist/tex/latex/typehtml
 @dirrmtry share/texmf-dist/source/latex/typehtml
 @dirrmtry share/texmf-dist/doc/latex/typehtml
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

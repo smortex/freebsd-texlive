@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/formular/formular.sty
 @dirrmtry share/texmf-dist/tex/latex/formular
 @dirrmtry share/texmf-dist/source/latex/formular
 @dirrmtry share/texmf-dist/doc/latex/formular
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

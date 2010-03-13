@@ -87,3 +87,5 @@ share/texmf-dist/tex/latex/hyperref/xr-hyper.sty
 @dirrmtry share/texmf-dist/source/latex/hyperref/doc
 @dirrmtry share/texmf-dist/source/latex/hyperref
 @dirrmtry share/texmf-dist/doc/latex/hyperref
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/gmiflink/gmiflink.sty
 @dirrmtry share/texmf-dist/tex/latex/gmiflink
 @dirrmtry share/texmf-dist/doc/latex/gmiflink
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -35,3 +35,5 @@ share/texmf-dist/tex/latex/memoir/mempatch.sty
 @dirrmtry share/texmf-dist/source/latex/memoir
 @dirrmtry share/texmf-dist/makeindex/memoir
 @dirrmtry share/texmf-dist/doc/latex/memoir
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

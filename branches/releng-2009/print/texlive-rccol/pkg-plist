@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/rccol/rccol.sty
 @dirrmtry share/texmf-dist/tex/latex/rccol
 @dirrmtry share/texmf-dist/source/latex/rccol
 @dirrmtry share/texmf-dist/doc/latex/rccol
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

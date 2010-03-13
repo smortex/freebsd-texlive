@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/autoarea/autoarea.sty
 @dirrmtry share/texmf-dist/tex/latex/autoarea
 @dirrmtry share/texmf-dist/doc/latex/autoarea/autodemo
 @dirrmtry share/texmf-dist/doc/latex/autoarea
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

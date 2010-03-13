@@ -128,3 +128,5 @@ share/texmf-dist/tex/latex/musictex/musicvbm.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/musictex
 @dirrmtry share/texmf-dist/fonts/source/public/musictex
 @dirrmtry share/texmf-dist/doc/generic/musictex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/pst-mirror/pst-mirror.sty
 @dirrmtry share/texmf-dist/source/generic/pst-mirror
 @dirrmtry share/texmf-dist/dvips/pst-mirror
 @dirrmtry share/texmf-dist/doc/generic/pst-mirror
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

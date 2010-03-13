@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/mafr/fiche.cls
 share/texmf-dist/tex/latex/mafr/mafr.sty
 @dirrmtry share/texmf-dist/tex/latex/mafr
 @dirrmtry share/texmf-dist/doc/latex/mafr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -28,3 +28,5 @@ share/texmf-dist/fonts/tfm/public/euro-ce/eurosp.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/euro-ce
 @dirrmtry share/texmf-dist/fonts/source/public/euro-ce
 @dirrmtry share/texmf-dist/doc/fonts/euro-ce
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

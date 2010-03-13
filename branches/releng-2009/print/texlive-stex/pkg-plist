@@ -52,3 +52,5 @@ share/texmf-dist/tex/latex/stex/stex.sty
 @dirrmtry share/texmf-dist/source/latex/stex
 @dirrmtry share/texmf-dist/makeindex/stex
 @dirrmtry share/texmf-dist/doc/latex/stex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/ftcap/ftcap.sty
 @dirrmtry share/texmf-dist/tex/latex/ftcap
 @dirrmtry share/texmf-dist/doc/latex/ftcap
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

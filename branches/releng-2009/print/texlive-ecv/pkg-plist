@@ -18,3 +18,5 @@ share/texmf-dist/tex/latex/ecv/ecvNLS.sty
 @dirrmtry share/texmf-dist/source/latex/ecv
 @dirrmtry share/texmf-dist/doc/latex/ecv/template
 @dirrmtry share/texmf-dist/doc/latex/ecv
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

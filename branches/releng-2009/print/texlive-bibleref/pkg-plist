@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/bibleref/bibleref.sty
 @dirrmtry share/texmf-dist/tex/latex/bibleref
 @dirrmtry share/texmf-dist/source/latex/bibleref
 @dirrmtry share/texmf-dist/doc/latex/bibleref
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

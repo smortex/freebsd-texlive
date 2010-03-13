@@ -8,3 +8,5 @@
 share/texmf-dist/tex/latex/tkz-orm/tkz-orm.sty
 @dirrmtry share/texmf-dist/tex/latex/tkz-orm
 @dirrmtry share/texmf-dist/doc/latex/tkz-orm
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

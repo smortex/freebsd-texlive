@@ -9,3 +9,5 @@ share/texmf/tex/generic/hyphen/ushyphmax.tex
 share/texmf/tex/generic/hyphen/zerohyph.tex
 @dirrmtry share/texmf/tex/generic/hyphen
 @dirrmtry share/texmf/tex/generic/config
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

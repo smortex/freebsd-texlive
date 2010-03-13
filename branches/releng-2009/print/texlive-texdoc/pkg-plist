@@ -23,3 +23,5 @@ share/texmf/texdoctk/texdoctk.dat
 @dirrmtry share/texmf/texdoc
 @dirrmtry share/texmf/doc/texdoc
 @dirrmtry share/texmf/doc/man/man1
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -272,3 +272,5 @@ share/texmf-dist/tex/latex/tipa/vowel.sty
 @dirrmtry share/texmf-dist/fonts/source/public/tipa
 @dirrmtry share/texmf-dist/fonts/map/dvips/tipa
 @dirrmtry share/texmf-dist/doc/fonts/tipa
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

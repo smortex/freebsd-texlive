@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/isonums/isonums.sty
 @dirrmtry share/texmf-dist/tex/latex/isonums
 @dirrmtry share/texmf-dist/doc/latex/isonums
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

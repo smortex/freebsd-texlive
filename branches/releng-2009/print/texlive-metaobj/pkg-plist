@@ -11,3 +11,5 @@ share/texmf-dist/metapost/metaobj/pstricksex3.mp
 share/texmf-dist/metapost/metaobj/pstricksex4.mp
 @dirrmtry share/texmf-dist/metapost/metaobj
 @dirrmtry share/texmf-dist/doc/metapost/metaobj
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -23,3 +23,5 @@ share/texmf-dist/tex/latex/cjhebrew/cjhebrew.sty
 @dirrmtry share/texmf-dist/fonts/enc/dvips/cjhebrew
 @dirrmtry share/texmf-dist/fonts/afm/public/cjhebrew
 @dirrmtry share/texmf-dist/doc/fonts/cjhebrew
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

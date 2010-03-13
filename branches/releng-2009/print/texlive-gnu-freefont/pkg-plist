@@ -44,3 +44,5 @@ share/texmf-dist/fonts/truetype/public/gnu-freefont/FreeSerifItalic.ttf
 @dirrmtry share/texmf-dist/fonts/sfd/gnu-freefont
 @dirrmtry share/texmf-dist/fonts/opentype/public/gnu-freefont
 @dirrmtry share/texmf-dist/doc/fonts/gnu-freefont
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

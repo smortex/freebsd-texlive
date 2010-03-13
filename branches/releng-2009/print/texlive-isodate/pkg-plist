@@ -23,3 +23,5 @@ share/texmf-dist/tex/latex/isodate/swedish.idf
 @dirrmtry share/texmf-dist/tex/latex/isodate
 @dirrmtry share/texmf-dist/source/latex/isodate
 @dirrmtry share/texmf-dist/doc/latex/isodate
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

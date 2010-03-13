@@ -6,3 +6,5 @@
 share/texmf-dist/tex/latex/yplan/yplan.sty
 @dirrmtry share/texmf-dist/tex/latex/yplan
 @dirrmtry share/texmf-dist/doc/latex/yplan
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

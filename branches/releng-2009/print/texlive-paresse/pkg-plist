@@ -16,3 +16,5 @@ share/texmf-dist/tex/latex/paresse/paresse.sty
 @dirrmtry share/texmf-dist/tex/latex/paresse
 @dirrmtry share/texmf-dist/source/latex/paresse
 @dirrmtry share/texmf-dist/doc/latex/paresse
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

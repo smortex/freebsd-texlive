@@ -12,3 +12,5 @@ share/texmf-dist/fonts/type1/public/figbas/plrj.pfb
 @dirrmtry share/texmf-dist/fonts/tfm/public/figbas
 @dirrmtry share/texmf-dist/fonts/map/dvips/figbas
 @dirrmtry share/texmf-dist/fonts/afm/public/figbas
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -60,3 +60,5 @@ share/texmf-dist/fonts/tfm/public/concmath-fonts/xccsy9.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/concmath-fonts
 @dirrmtry share/texmf-dist/fonts/source/public/concmath-fonts
 @dirrmtry share/texmf-dist/doc/fonts/concmath-fonts
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

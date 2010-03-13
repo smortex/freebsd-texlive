@@ -3,3 +3,5 @@
 share/texmf-dist/tex/context/third/typearea/t-typearea.tex
 @dirrmtry share/texmf-dist/tex/context/third/typearea
 @dirrmtry share/texmf-dist/doc/context/third/typearea
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

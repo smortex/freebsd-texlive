@@ -5,3 +5,5 @@
 share/texmf-dist/tex/latex/zed-csp/zed-csp.sty
 @dirrmtry share/texmf-dist/tex/latex/zed-csp
 @dirrmtry share/texmf-dist/doc/latex/zed-csp
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

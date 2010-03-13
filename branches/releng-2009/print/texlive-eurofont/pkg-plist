@@ -35,3 +35,5 @@ share/texmf-dist/tex/latex/eurofont/uzpeutt.fd
 @dirrmtry share/texmf-dist/source/fonts/eurofont
 @dirrmtry share/texmf-dist/fonts/map/dvips/eurofont
 @dirrmtry share/texmf-dist/doc/fonts/eurofont
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

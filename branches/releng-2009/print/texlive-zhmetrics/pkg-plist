@@ -4957,3 +4957,5 @@ share/texmf-dist/tex/latex/zhmetrics/c70zhyou.fd
 @dirrmtry share/texmf-dist/fonts/tfm/zhmetrics/gbk
 @dirrmtry share/texmf-dist/fonts/tfm/zhmetrics/cyberb
 @dirrmtry share/texmf-dist/doc/fonts/zhmetrics
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

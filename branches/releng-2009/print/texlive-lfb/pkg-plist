@@ -70,3 +70,5 @@ share/texmf-dist/fonts/tfm/public/lfb/lfbb9.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/lfb
 @dirrmtry share/texmf-dist/fonts/source/public/lfb
 @dirrmtry share/texmf-dist/doc/fonts/lfb
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -116,3 +116,5 @@ share/texmf-dist/tex/latex/cmll/ueull.fd
 @dirrmtry share/texmf-dist/fonts/source/public/cmll
 @dirrmtry share/texmf-dist/fonts/map/dvips/cmll
 @dirrmtry share/texmf-dist/doc/fonts/cmll
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

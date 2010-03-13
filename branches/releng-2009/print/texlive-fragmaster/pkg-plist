@@ -14,3 +14,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/fragmaster/example/parabel_fm.pdf
 @dirrmtry share/texmf-dist/doc/support/fragmaster/example
 @dirrmtry share/texmf-dist/doc/support/fragmaster
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -14,3 +14,5 @@ share/tlpkg/tlpostcode/xetex.pl
 @dirrmtry share/texmf-dist/scripts/xetex/perl
 @dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping/base
 @dirrmtry share/texmf-dist/doc/xetex/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

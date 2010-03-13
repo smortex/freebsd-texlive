@@ -221,3 +221,5 @@ share/texmf-dist/fonts/tfm/public/cm/cmvtt10.tfm
 @dirrmtry share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600
 @dirrmtry share/texmf-dist/fonts/map/dvips/cm
 @dirrmtry share/texmf-dist/doc/fonts/cm
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -37,3 +37,5 @@ share/texmf-dist/tex/latex/amscls/upref.sty
 @dirrmtry share/texmf-dist/source/latex/amscls
 @dirrmtry share/texmf-dist/doc/latex/amscls
 @dirrmtry share/texmf-dist/bibtex/bst/amscls
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

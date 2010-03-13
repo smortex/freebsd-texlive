@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/pst-vowel/pst-vowel.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-vowel
 @dirrmtry share/texmf-dist/doc/latex/pst-vowel
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

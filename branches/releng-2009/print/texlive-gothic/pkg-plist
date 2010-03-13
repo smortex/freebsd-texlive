@@ -97,3 +97,5 @@ share/texmf-dist/fonts/vf/public/gothic/tswab.vf
 @dirrmtry share/texmf-dist/fonts/afm/public/gothic
 @dirrmtry share/texmf-dist/dvips/gothic
 @dirrmtry share/texmf-dist/doc/fonts/gothic
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

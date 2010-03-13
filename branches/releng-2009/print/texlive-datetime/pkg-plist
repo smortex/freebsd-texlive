@@ -57,3 +57,5 @@ share/texmf-dist/tex/latex/datetime/dt-welsh.def
 @dirrmtry share/texmf-dist/tex/latex/datetime
 @dirrmtry share/texmf-dist/source/latex/datetime
 @dirrmtry share/texmf-dist/doc/latex/datetime
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

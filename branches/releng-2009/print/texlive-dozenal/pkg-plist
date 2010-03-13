@@ -141,3 +141,5 @@ share/texmf-dist/tex/latex/dozenal/dozenal.sty
 @dirrmtry share/texmf-dist/fonts/source/public/dozenal
 @dirrmtry share/texmf-dist/fonts/map/dvips/dozenal
 @dirrmtry share/texmf-dist/doc/fonts/dozenal
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/refcheck/refcheck.sty
 @dirrmtry share/texmf-dist/tex/latex/refcheck
 @dirrmtry share/texmf-dist/doc/latex/refcheck
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

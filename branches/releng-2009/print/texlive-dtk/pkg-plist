@@ -18,3 +18,5 @@ share/texmf-dist/tex/latex/dtk/dtklogos.sty
 @dirrmtry share/texmf-dist/doc/latex/dtk
 @dirrmtry share/texmf-dist/bibtex/bst/dtk
 @dirrmtry share/texmf-dist/bibtex/bib/dtk
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

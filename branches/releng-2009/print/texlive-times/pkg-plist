@@ -257,3 +257,5 @@ share/texmf-dist/tex/latex/times/ts1utm.fd
 @dirrmtry share/texmf-dist/fonts/afm/ibm/times
 @dirrmtry share/texmf-dist/fonts/afm/adobe/times
 @dirrmtry share/texmf-dist/dvips/times
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

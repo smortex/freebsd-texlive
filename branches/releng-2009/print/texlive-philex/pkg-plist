@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/philex/philex.sty
 @dirrmtry share/texmf-dist/tex/latex/philex
 @dirrmtry share/texmf-dist/doc/latex/philex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

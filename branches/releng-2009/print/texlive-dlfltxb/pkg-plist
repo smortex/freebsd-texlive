@@ -20,3 +20,5 @@ share/texmf-dist/tex/latex/dlfltxb/dlfltxbtocconfig.sty
 @dirrmtry share/texmf-dist/tex/latex/dlfltxb
 @dirrmtry share/texmf-dist/doc/latex/dlfltxb
 @dirrmtry share/texmf-dist/bibtex/bst/dlfltxb
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

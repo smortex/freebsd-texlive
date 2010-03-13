@@ -5,3 +5,5 @@ share/texmf-dist/fonts/enc/dvips/c90/c90.enc
 @dirrmtry share/texmf-dist/source/fonts/enc/c90
 @dirrmtry share/texmf-dist/fonts/enc/dvips/c90
 @dirrmtry share/texmf-dist/doc/fonts/enc/c90
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

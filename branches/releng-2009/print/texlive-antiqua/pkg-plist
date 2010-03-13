@@ -35,3 +35,5 @@ share/texmf-dist/tex/latex/antiqua/ts1uaq.fd
 @dirrmtry share/texmf-dist/fonts/afm/urw/antiqua
 @dirrmtry share/texmf-dist/dvips/antiqua
 @dirrmtry share/texmf-dist/doc/fonts/antiqua
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

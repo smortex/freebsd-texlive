@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/bbding/bbding.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/bbding
 @dirrmtry share/texmf-dist/fonts/source/public/bbding
 @dirrmtry share/texmf-dist/doc/latex/bbding
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -29,3 +29,5 @@ share/texmf-dist/tex/latex/bayer/universal.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/bayer
 @dirrmtry share/texmf-dist/fonts/source/public/bayer
 @dirrmtry share/texmf-dist/doc/latex/bayer
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

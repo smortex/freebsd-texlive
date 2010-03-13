@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/a5comb/a5comb.sty
 @dirrmtry share/texmf-dist/tex/latex/a5comb
 @dirrmtry share/texmf-dist/doc/latex/a5comb
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

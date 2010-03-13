@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/ntheorem/ntheorem.sty
 @dirrmtry share/texmf-dist/tex/latex/ntheorem
 @dirrmtry share/texmf-dist/source/latex/ntheorem
 @dirrmtry share/texmf-dist/doc/latex/ntheorem
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

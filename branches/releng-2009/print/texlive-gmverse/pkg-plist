@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/gmverse/gmverse.sty
 @dirrmtry share/texmf-dist/tex/latex/gmverse
 @dirrmtry share/texmf-dist/doc/latex/gmverse
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

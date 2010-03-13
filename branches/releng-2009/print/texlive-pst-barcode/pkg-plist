@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/pst-barcode/pst-barcode.sty
 @dirrmtry share/texmf-dist/source/generic/pst-barcode
 @dirrmtry share/texmf-dist/dvips/pst-barcode
 @dirrmtry share/texmf-dist/doc/generic/pst-barcode
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

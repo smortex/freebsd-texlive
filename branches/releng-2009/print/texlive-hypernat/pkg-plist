@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/hypernat/hypernat.sty
 @dirrmtry share/texmf-dist/tex/latex/hypernat
 @dirrmtry share/texmf-dist/doc/latex/hypernat
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -4,3 +4,5 @@
 share/texmf-dist/metapost/hatching/hatching.mp
 @dirrmtry share/texmf-dist/metapost/hatching
 @dirrmtry share/texmf-dist/doc/metapost/hatching
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

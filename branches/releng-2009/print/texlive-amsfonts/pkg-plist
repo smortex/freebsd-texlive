@@ -655,3 +655,5 @@ share/texmf-dist/tex/plain/amsfonts/cyracc.def
 @dirrmtry share/texmf-dist/fonts/afm/public/amsfonts/cmextra
 @dirrmtry share/texmf-dist/fonts/afm/public/amsfonts/cm
 @dirrmtry share/texmf-dist/doc/fonts/amsfonts
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -21,3 +21,5 @@ share/texmf-dist/tex/latex/apl/aplstyle.sty
 @dirrmtry share/texmf-dist/source/fonts/apl
 @dirrmtry share/texmf-dist/fonts/tfm/public/apl
 @dirrmtry share/texmf-dist/fonts/source/public/apl
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

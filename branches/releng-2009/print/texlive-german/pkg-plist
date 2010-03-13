@@ -12,3 +12,5 @@ share/texmf-dist/tex/generic/german/ngerman.sty
 @dirrmtry share/texmf-dist/source/generic/german
 @dirrmtry share/texmf-dist/doc/generic/german/betatest
 @dirrmtry share/texmf-dist/doc/generic/german
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

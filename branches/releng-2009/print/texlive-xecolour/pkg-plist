@@ -4,3 +4,5 @@
 share/texmf-dist/tex/xelatex/xecolour/xecolour.sty
 @dirrmtry share/texmf-dist/tex/xelatex/xecolour
 @dirrmtry share/texmf-dist/doc/xelatex/xecolour
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

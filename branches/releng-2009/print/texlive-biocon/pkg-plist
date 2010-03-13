@@ -13,3 +13,5 @@ share/texmf-dist/tex/latex/biocon/biocon-old.sty
 share/texmf-dist/tex/latex/biocon/biocon.sty
 @dirrmtry share/texmf-dist/tex/latex/biocon
 @dirrmtry share/texmf-dist/doc/latex/biocon
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

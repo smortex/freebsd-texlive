@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 share/texmf-dist/tex/latex/fancyhdr/fancyheadings.sty
 @dirrmtry share/texmf-dist/tex/latex/fancyhdr
 @dirrmtry share/texmf-dist/doc/latex/fancyhdr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

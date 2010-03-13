@@ -13,3 +13,5 @@ share/texmf-dist/tex/latex/multibib/multibib.sty
 @dirrmtry share/texmf-dist/makeindex/multibib
 @dirrmtry share/texmf-dist/doc/latex/multibib
 @dirrmtry share/texmf-dist/bibtex/bst/multibib
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

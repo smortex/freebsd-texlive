@@ -71,3 +71,5 @@ share/texmf-dist/tex/latex/revtex/revtex4-1.cls
 @dirrmtry share/texmf-dist/doc/latex/revtex/aip
 @dirrmtry share/texmf-dist/doc/latex/revtex
 @dirrmtry share/texmf-dist/bibtex/bst/revtex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

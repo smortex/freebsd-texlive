@@ -31,3 +31,5 @@ share/texmf-dist/fonts/tfm/public/concrete/ccti10.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/concrete
 @dirrmtry share/texmf-dist/fonts/source/public/concrete
 @dirrmtry share/texmf-dist/doc/fonts/concrete
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

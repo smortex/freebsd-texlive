@@ -5,3 +5,5 @@ share/texmf/fonts/cmap/dvipdfmx/README
 share/texmf/fonts/map/dvipdfmx/cid-x.map
 @dirrmtry share/texmf/fonts/map/dvipdfmx
 @dirrmtry share/texmf/doc/man/man1
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

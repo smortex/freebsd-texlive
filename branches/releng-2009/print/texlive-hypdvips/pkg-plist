@@ -21,3 +21,5 @@ share/texmf-dist/tex/latex/hypdvips/hypdvips.sty
 @dirrmtry share/texmf-dist/tex/latex/hypdvips
 @dirrmtry share/texmf-dist/doc/latex/hypdvips/images
 @dirrmtry share/texmf-dist/doc/latex/hypdvips
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

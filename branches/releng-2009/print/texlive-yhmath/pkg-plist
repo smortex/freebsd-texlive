@@ -22,3 +22,5 @@ share/texmf-dist/tex/latex/yhmath/yhmath.sty
 @dirrmtry share/texmf-dist/fonts/source/public/yhmath
 @dirrmtry share/texmf-dist/fonts/map/dvips/yhmath
 @dirrmtry share/texmf-dist/doc/latex/yhmath
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -6,3 +6,5 @@
 share/texmf-dist/tex/latex/bracketkey/bracketkey.sty
 @dirrmtry share/texmf-dist/tex/latex/bracketkey
 @dirrmtry share/texmf-dist/doc/latex/bracketkey
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

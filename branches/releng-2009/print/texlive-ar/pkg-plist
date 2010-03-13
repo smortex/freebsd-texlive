@@ -18,3 +18,5 @@ share/texmf-dist/tex/latex/ar/ar.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/ar
 @dirrmtry share/texmf-dist/fonts/source/public/ar
 @dirrmtry share/texmf-dist/doc/latex/ar
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

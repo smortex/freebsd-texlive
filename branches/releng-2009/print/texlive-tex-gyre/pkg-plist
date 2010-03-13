@@ -902,3 +902,5 @@ share/texmf-dist/tex/latex/tex-gyre/ts1qzc.fd
 @dirrmtry share/texmf-dist/fonts/enc/dvips/tex-gyre
 @dirrmtry share/texmf-dist/fonts/afm/public/tex-gyre
 @dirrmtry share/texmf-dist/doc/fonts/tex-gyre
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

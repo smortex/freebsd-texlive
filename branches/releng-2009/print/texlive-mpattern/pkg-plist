@@ -6,3 +6,5 @@
 share/texmf-dist/metapost/mpattern/mpattern.mp
 @dirrmtry share/texmf-dist/metapost/mpattern
 @dirrmtry share/texmf-dist/doc/metapost/mpattern
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

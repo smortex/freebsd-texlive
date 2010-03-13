@@ -6,3 +6,5 @@ share/texmf-dist/tex/context/third/simplefonts/t-simplefonts.tex
 @dirrmtry share/texmf-dist/tex/context/third/simplefonts
 @dirrmtry share/texmf-dist/source/context/third/simplefonts/doc
 @dirrmtry share/texmf-dist/doc/context/third/simplefonts
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

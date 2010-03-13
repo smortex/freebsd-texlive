@@ -71,3 +71,5 @@ share/texmf-dist/tex/xelatex/bidi/xltxtra-bidi.def
 @dirrmtry share/texmf-dist/tex/xelatex/bidi
 @dirrmtry share/texmf-dist/source/xelatex/bidi
 @dirrmtry share/texmf-dist/doc/xelatex/bidi
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

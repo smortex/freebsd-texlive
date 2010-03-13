@@ -21,3 +21,5 @@ share/texmf-dist/tex/latex/germbib/mynormal.sty
 @dirrmtry share/texmf-dist/tex/latex/germbib
 @dirrmtry share/texmf-dist/doc/bibtex/germbib
 @dirrmtry share/texmf-dist/bibtex/bst/germbib
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

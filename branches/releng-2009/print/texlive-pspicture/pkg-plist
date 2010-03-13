@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/pspicture/pspicture.sty
 @dirrmtry share/texmf-dist/source/latex/pspicture
 @dirrmtry share/texmf-dist/dvips/pspicture
 @dirrmtry share/texmf-dist/doc/latex/pspicture
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

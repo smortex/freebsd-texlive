@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/tikz-inet/tikz-inet.sty
 @dirrmtry share/texmf-dist/tex/latex/tikz-inet
 @dirrmtry share/texmf-dist/doc/latex/tikz-inet
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

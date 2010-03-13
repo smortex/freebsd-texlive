@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 @dirrmtry share/texmf-dist/tex/latex/tocbibind
 @dirrmtry share/texmf-dist/source/latex/tocbibind
 @dirrmtry share/texmf-dist/doc/latex/tocbibind
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

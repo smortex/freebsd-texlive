@@ -4,3 +4,5 @@
 share/texmf-dist/tex/latex/sfg/sfg.sty
 @dirrmtry share/texmf-dist/tex/latex/sfg
 @dirrmtry share/texmf-dist/doc/latex/sfg
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

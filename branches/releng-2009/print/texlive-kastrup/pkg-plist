@@ -6,3 +6,5 @@ share/texmf-dist/tex/generic/kastrup/binhex.tex
 @dirrmtry share/texmf-dist/tex/generic/kastrup
 @dirrmtry share/texmf-dist/source/generic/kastrup
 @dirrmtry share/texmf-dist/doc/generic/kastrup
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -5,3 +5,5 @@
 share/texmf-dist/tex/latex/hepunits/hepunits.sty
 @dirrmtry share/texmf-dist/tex/latex/hepunits
 @dirrmtry share/texmf-dist/doc/latex/hepunits
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

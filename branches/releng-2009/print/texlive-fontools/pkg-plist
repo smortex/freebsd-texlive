@@ -37,3 +37,5 @@ share/texmf-dist/fonts/enc/dvips/fontools/fontools_ts1.enc
 @dirrmtry share/texmf-dist/doc/support/fontools/examples/frutiger
 @dirrmtry share/texmf-dist/doc/support/fontools/examples/berling
 @dirrmtry share/texmf-dist/doc/support/fontools
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

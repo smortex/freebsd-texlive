@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/pst-bspline/pst-bspline.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-bspline
 @dirrmtry share/texmf-dist/tex/generic/pst-bspline
 @dirrmtry share/texmf-dist/doc/generic/pst-bspline
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

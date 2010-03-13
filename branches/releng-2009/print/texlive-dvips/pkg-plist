@@ -89,3 +89,5 @@ share/texmf/fonts/map/dvips/updmap/psfonts_t1.map
 @dirrmtry share/texmf/doc/dvips
 @dirrmtry share/texmf-dist/tex/generic/dvips
 @dirrmtry share/texmf-dist/dvips/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

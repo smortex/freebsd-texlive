@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/pst-ghsb/pst-ghsb.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-ghsb
 @dirrmtry share/texmf-dist/dvips/pst-ghsb
 @dirrmtry share/texmf-dist/doc/generic/pst-ghsb
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

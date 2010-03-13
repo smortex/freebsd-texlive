@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/rmpage/rmpgen.cfg
 @dirrmtry share/texmf-dist/tex/latex/rmpage
 @dirrmtry share/texmf-dist/source/latex/rmpage
 @dirrmtry share/texmf-dist/doc/latex/rmpage
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

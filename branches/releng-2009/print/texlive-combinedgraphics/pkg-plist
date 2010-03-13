@@ -19,3 +19,5 @@ share/texmf-dist/tex/latex/combinedgraphics/combinedgraphics.sty
 @dirrmtry share/texmf-dist/source/latex/combinedgraphics
 @dirrmtry share/texmf-dist/doc/latex/combinedgraphics/test
 @dirrmtry share/texmf-dist/doc/latex/combinedgraphics
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

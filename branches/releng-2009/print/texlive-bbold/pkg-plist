@@ -37,3 +37,5 @@ share/texmf-dist/tex/latex/bbold/bbold.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/bbold
 @dirrmtry share/texmf-dist/fonts/source/public/bbold
 @dirrmtry share/texmf-dist/doc/latex/bbold
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

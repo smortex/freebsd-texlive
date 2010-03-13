@@ -10,3 +10,5 @@ share/texmf-dist/tex/latex/showexpl/showexpl.sty
 @dirrmtry share/texmf-dist/tex/latex/showexpl
 @dirrmtry share/texmf-dist/source/latex/showexpl
 @dirrmtry share/texmf-dist/doc/latex/showexpl
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

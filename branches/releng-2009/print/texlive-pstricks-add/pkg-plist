@@ -13,3 +13,5 @@ share/texmf-dist/tex/latex/pstricks-add/pstricks-add.sty
 @dirrmtry share/texmf-dist/source/generic/pstricks-add
 @dirrmtry share/texmf-dist/dvips/pstricks-add
 @dirrmtry share/texmf-dist/doc/generic/pstricks-add
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

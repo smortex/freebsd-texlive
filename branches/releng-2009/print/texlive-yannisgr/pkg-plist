@@ -36,3 +36,5 @@ share/texmf-dist/fonts/source/public/yannisgr/rgrupper.mf
 share/texmf-dist/fonts/source/public/yannisgr/scsc.mf
 @dirrmtry share/texmf-dist/fonts/source/public/yannisgr
 @dirrmtry share/texmf-dist/doc/plain/yannisgr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

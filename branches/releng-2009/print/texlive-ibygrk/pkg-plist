@@ -70,3 +70,5 @@ share/texmf-dist/tex/generic/ibygrk/version4.tex
 @dirrmtry share/texmf-dist/fonts/enc/dvips/ibygrk
 @dirrmtry share/texmf-dist/fonts/afm/public/ibygrk
 @dirrmtry share/texmf-dist/doc/fonts/ibygrk
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

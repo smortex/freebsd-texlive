@@ -21,3 +21,5 @@ share/texmf-dist/tex/latex/hepthesis/hepthesis.cls
 @dirrmtry share/texmf-dist/source/latex/hepthesis
 @dirrmtry share/texmf-dist/doc/latex/hepthesis/example
 @dirrmtry share/texmf-dist/doc/latex/hepthesis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

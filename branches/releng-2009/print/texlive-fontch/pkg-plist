@@ -5,3 +5,5 @@ share/texmf-dist/tex/plain/fontch/bsymbols.tex
 share/texmf-dist/tex/plain/fontch/fontch.tex
 @dirrmtry share/texmf-dist/tex/plain/fontch
 @dirrmtry share/texmf-dist/doc/plain/fontch
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

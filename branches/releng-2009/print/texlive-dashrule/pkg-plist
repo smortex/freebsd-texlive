@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/dashrule/dashrule.sty
 @dirrmtry share/texmf-dist/tex/latex/dashrule
 @dirrmtry share/texmf-dist/source/latex/dashrule
 @dirrmtry share/texmf-dist/doc/latex/dashrule
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

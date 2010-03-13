@@ -16,3 +16,5 @@ share/texmf-dist/tex/latex/mfnfss/uyswab.fd
 @dirrmtry share/texmf-dist/tex/latex/mfnfss
 @dirrmtry share/texmf-dist/source/latex/mfnfss
 @dirrmtry share/texmf-dist/doc/latex/mfnfss
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

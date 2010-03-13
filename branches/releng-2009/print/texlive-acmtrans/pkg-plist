@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/acmtrans/acmtrans2e.cls
 @dirrmtry share/texmf-dist/doc/latex/acmtrans
 @dirrmtry share/texmf-dist/bibtex/bst/acmtrans
 @dirrmtry share/texmf-dist/bibtex/bib/acmtrans
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

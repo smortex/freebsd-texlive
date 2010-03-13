@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/a0poster/a0poster.cls
 share/texmf-dist/tex/latex/a0poster/a0size.sty
 @dirrmtry share/texmf-dist/tex/latex/a0poster
 @dirrmtry share/texmf-dist/doc/latex/a0poster
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

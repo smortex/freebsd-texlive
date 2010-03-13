@@ -83,3 +83,5 @@ share/texmf-dist/tex/latex/shipunov/starfn.sty
 @dirrmtry share/texmf-dist/scripts/shipunov
 @dirrmtry share/texmf-dist/doc/latex/shipunov
 @dirrmtry share/texmf-dist/bibtex/bst/shipunov
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -13,3 +13,5 @@ share/texmf-dist/tex/latex/ijmart/ijmart.cls
 @dirrmtry share/texmf-dist/source/latex/ijmart
 @dirrmtry share/texmf-dist/doc/latex/ijmart
 @dirrmtry share/texmf-dist/bibtex/bst/ijmart
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

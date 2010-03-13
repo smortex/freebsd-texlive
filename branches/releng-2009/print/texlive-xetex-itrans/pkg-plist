@@ -7,3 +7,5 @@ share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-sankan.map
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-sankan.tec
 @dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans
 @dirrmtry share/texmf-dist/doc/xelatex/xetex-itrans
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

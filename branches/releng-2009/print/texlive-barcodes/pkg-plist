@@ -29,3 +29,5 @@ share/texmf-dist/tex/latex/barcodes/barcodes.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/barcodes
 @dirrmtry share/texmf-dist/fonts/source/public/barcodes
 @dirrmtry share/texmf-dist/doc/latex/barcodes
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

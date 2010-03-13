@@ -8,3 +8,5 @@ share/texmf-dist/bibtex/bst/sort-by-letters/siam-letters.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/sort-by-letters/README
 @dirrmtry share/texmf-dist/doc/latex/sort-by-letters
 @dirrmtry share/texmf-dist/bibtex/bst/sort-by-letters
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

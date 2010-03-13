@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/ntabbing/ntabbing.sty
 @dirrmtry share/texmf-dist/tex/latex/ntabbing
 @dirrmtry share/texmf-dist/doc/latex/ntabbing
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

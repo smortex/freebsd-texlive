@@ -16,3 +16,5 @@ share/texmf-dist/makeindex/base/tex.ist
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf-dist/makeindex/base
 @dirrmtry share/texmf-dist/doc/support/makeindex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

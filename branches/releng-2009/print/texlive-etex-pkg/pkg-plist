@@ -2,3 +2,5 @@
 share/texmf-dist/tex/latex/etex-pkg/etex.sty
 @dirrmtry share/texmf-dist/tex/latex/etex-pkg
 @dirrmtry share/texmf-dist/doc/latex/etex-pkg
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -70,3 +70,5 @@ share/texmf-dist/tex/latex/lithuanian/lithuanian.sty
 @dirrmtry share/texmf-dist/fonts/map/dvips/lithuanian
 @dirrmtry share/texmf-dist/fonts/enc/dvips/lithuanian
 @dirrmtry share/texmf-dist/doc/latex/lithuanian
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

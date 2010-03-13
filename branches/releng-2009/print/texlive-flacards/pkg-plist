@@ -9,3 +9,5 @@
 share/texmf-dist/tex/latex/flacards/flacards.cls
 @dirrmtry share/texmf-dist/tex/latex/flacards
 @dirrmtry share/texmf-dist/doc/latex/flacards
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

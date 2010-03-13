@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/accfonts/IndUni_Omega.def
 share/texmf-dist/tex/latex/accfonts/Norman.def
 @dirrmtry share/texmf-dist/tex/latex/accfonts
 @dirrmtry share/texmf-dist/doc/fonts/accfonts
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

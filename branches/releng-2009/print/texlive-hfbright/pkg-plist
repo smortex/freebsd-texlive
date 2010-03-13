@@ -64,3 +64,5 @@ share/texmf-dist/fonts/type1/public/hfbright/hftl10.pfb
 @dirrmtry share/texmf-dist/fonts/afm/public/hfbright
 @dirrmtry share/texmf-dist/dvips/hfbright
 @dirrmtry share/texmf-dist/doc/fonts/hfbright
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

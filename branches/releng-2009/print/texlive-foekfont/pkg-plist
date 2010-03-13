@@ -13,3 +13,5 @@ share/texmf-dist/tex/latex/foekfont/t1foekfont.fd
 @dirrmtry share/texmf-dist/fonts/tfm/public/foekfont
 @dirrmtry share/texmf-dist/fonts/map/dvips/foekfont
 @dirrmtry share/texmf-dist/doc/latex/foekfont
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -23,3 +23,5 @@ share/texmf-dist/scripts/latexdiff/latexrevise.pl
 @dirrmtry share/texmf-dist/doc/latex/latexdiff/example
 @dirrmtry share/texmf-dist/doc/latex/latexdiff/contrib
 @dirrmtry share/texmf-dist/doc/latex/latexdiff
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

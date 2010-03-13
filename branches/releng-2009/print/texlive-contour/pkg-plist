@@ -15,3 +15,5 @@ share/texmf-dist/tex/latex/contour/vtex.cnt
 @dirrmtry share/texmf-dist/tex/latex/contour
 @dirrmtry share/texmf-dist/source/latex/contour
 @dirrmtry share/texmf-dist/doc/latex/contour
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

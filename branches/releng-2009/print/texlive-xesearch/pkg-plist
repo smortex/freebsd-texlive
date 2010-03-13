@@ -5,3 +5,5 @@ share/texmf-dist/tex/xetex/xesearch/t-xesearch.tex
 share/texmf-dist/tex/xetex/xesearch/xesearch.sty
 @dirrmtry share/texmf-dist/tex/xetex/xesearch
 @dirrmtry share/texmf-dist/doc/xetex/xesearch
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

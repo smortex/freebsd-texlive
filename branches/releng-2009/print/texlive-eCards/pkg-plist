@@ -42,3 +42,5 @@ share/texmf-dist/tex/latex/eCards/eCardsList.def
 @dirrmtry share/texmf-dist/doc/latex/eCards/presidents
 @dirrmtry share/texmf-dist/doc/latex/eCards/graphics
 @dirrmtry share/texmf-dist/doc/latex/eCards
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

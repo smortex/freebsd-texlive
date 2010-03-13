@@ -23,3 +23,5 @@ share/texmf-dist/tex/latex/thmtools/unique.sty
 @dirrmtry share/texmf-dist/tex/latex/thmtools
 @dirrmtry share/texmf-dist/source/latex/thmtools
 @dirrmtry share/texmf-dist/doc/latex/thmtools
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

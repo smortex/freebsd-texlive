@@ -1,2 +1,4 @@
 share/texmf-dist/tex/latex/mhs/mhs.sty
 @dirrmtry share/texmf-dist/tex/latex/mhs
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

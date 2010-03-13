@@ -42,3 +42,5 @@ share/texmf-dist/tex/generic/genmisc/weekday.sty
 share/texmf-dist/tex/generic/genmisc/wiggly.tex
 share/texmf-dist/tex/generic/genmisc/zip.tex
 @dirrmtry share/texmf-dist/tex/generic/genmisc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

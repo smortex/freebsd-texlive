@@ -64,3 +64,5 @@ share/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 @dirrmtry share/texmf-dist/source/latex/glossaries
 @dirrmtry share/texmf-dist/doc/latex/glossaries/samples
 @dirrmtry share/texmf-dist/doc/latex/glossaries
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

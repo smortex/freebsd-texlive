@@ -97,3 +97,5 @@ share/texmf-dist/tex/latex/prosper/yellow-bullet-on-white.ps
 @dirrmtry share/texmf-dist/tex/latex/prosper
 @dirrmtry share/texmf-dist/source/latex/prosper
 @dirrmtry share/texmf-dist/doc/latex/prosper
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -7,3 +7,5 @@ share/texmf/doc/man/man1/pk2bm.man1.pdf
 share/texmf/doc/man/man1/ps2pk.1
 share/texmf/doc/man/man1/ps2pk.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

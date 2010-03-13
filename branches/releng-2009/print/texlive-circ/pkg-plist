@@ -33,3 +33,5 @@ share/texmf-dist/tex/latex/circ/physics.def
 @dirrmtry share/texmf-dist/fonts/tfm/public/circ
 @dirrmtry share/texmf-dist/fonts/source/public/circ
 @dirrmtry share/texmf-dist/doc/latex/circ
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

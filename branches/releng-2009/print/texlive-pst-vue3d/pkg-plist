@@ -12,3 +12,5 @@ share/texmf-dist/tex/latex/pst-vue3d/pst-vue3d.sty
 @dirrmtry share/texmf-dist/source/generic/pst-vue3d
 @dirrmtry share/texmf-dist/dvips/pst-vue3d
 @dirrmtry share/texmf-dist/doc/generic/pst-vue3d
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

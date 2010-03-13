@@ -3,3 +3,5 @@
 share/texmf-dist/tex/latex/stage/stage.cls
 @dirrmtry share/texmf-dist/tex/latex/stage
 @dirrmtry share/texmf-dist/doc/latex/stage
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

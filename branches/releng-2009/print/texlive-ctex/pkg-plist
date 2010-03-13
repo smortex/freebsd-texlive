@@ -60,3 +60,5 @@ share/texmf-dist/tex/latex/ctex/opt/ctex-common-opts.def
 @dirrmtry share/texmf-dist/tex/latex/ctex
 @dirrmtry share/texmf-dist/doc/latex/ctex/test
 @dirrmtry share/texmf-dist/doc/latex/ctex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

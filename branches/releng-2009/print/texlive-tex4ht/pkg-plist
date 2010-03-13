@@ -4043,3 +4043,5 @@ share/texmf/scripts/tex4ht/htmove.pl
 @dirrmtry share/texmf-dist/tex4ht/base/unix
 @dirrmtry share/texmf-dist/tex/generic/tex4ht
 @dirrmtry share/texmf-dist/doc/generic/tex4ht
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

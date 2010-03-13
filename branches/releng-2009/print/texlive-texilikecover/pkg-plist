@@ -1,2 +1,4 @@
 share/texmf-dist/tex/latex/texilikecover/texilikecover.sty
 @dirrmtry share/texmf-dist/tex/latex/texilikecover
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

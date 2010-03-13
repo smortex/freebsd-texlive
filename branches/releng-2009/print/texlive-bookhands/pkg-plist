@@ -298,3 +298,5 @@ share/texmf-dist/tex/latex/bookhands/uncial.sty
 @dirrmtry share/texmf-dist/source/latex/bookhands/auncial
 @dirrmtry share/texmf-dist/fonts/source/public/bookhands
 @dirrmtry share/texmf-dist/doc/fonts/bookhands
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

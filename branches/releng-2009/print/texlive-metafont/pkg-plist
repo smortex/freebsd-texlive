@@ -24,3 +24,5 @@ share/texmf-dist/metafont/misc/ztest.mf
 @dirrmtry share/texmf-dist/metafont/misc
 @dirrmtry share/texmf-dist/metafont/config
 @dirrmtry share/texmf-dist/metafont/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

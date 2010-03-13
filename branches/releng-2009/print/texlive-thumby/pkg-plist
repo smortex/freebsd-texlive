@@ -6,3 +6,5 @@
 share/texmf-dist/tex/latex/thumby/thumby.sty
 @dirrmtry share/texmf-dist/tex/latex/thumby
 @dirrmtry share/texmf-dist/doc/latex/thumby
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -3,3 +3,5 @@
 share/texmf-dist/metapost/garrigues/garrigues.mp
 @dirrmtry share/texmf-dist/metapost/garrigues
 @dirrmtry share/texmf-dist/doc/metapost/garrigues
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

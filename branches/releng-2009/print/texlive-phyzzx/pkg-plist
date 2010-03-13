@@ -9,3 +9,5 @@ share/texmf-dist/tex/phyzzx/config/phyzzx.ini
 @dirrmtry share/texmf-dist/tex/phyzzx/config
 @dirrmtry share/texmf-dist/tex/phyzzx/base
 @dirrmtry share/texmf-dist/doc/otherformats/phyzzx/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

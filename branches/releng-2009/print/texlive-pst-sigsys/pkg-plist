@@ -8,3 +8,5 @@ share/texmf-dist/tex/latex/pst-sigsys/pst-sigsys.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-sigsys
 @dirrmtry share/texmf-dist/tex/generic/pst-sigsys
 @dirrmtry share/texmf-dist/doc/generic/pst-sigsys
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -59,3 +59,5 @@ share/texmf-dist/tex/plain/knitting/knitting.tex
 @dirrmtry share/texmf-dist/fonts/map/dvips/knitting
 @dirrmtry share/texmf-dist/fonts/afm/public/knitting
 @dirrmtry share/texmf-dist/doc/fonts/knitting
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

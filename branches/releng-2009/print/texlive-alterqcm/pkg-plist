@@ -26,3 +26,5 @@ share/texmf-dist/tex/latex/alterqcm/alterqcm.sty
 @dirrmtry share/texmf-dist/tex/latex/alterqcm
 @dirrmtry share/texmf-dist/doc/latex/alterqcm/doc
 @dirrmtry share/texmf-dist/doc/latex/alterqcm
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -13,3 +13,5 @@ share/texmf-dist/tex/latex/dictsym/dictsym.sty
 @dirrmtry share/texmf-dist/fonts/map/dvips/dictsym
 @dirrmtry share/texmf-dist/fonts/afm/public/dictsym
 @dirrmtry share/texmf-dist/doc/fonts/dictsym
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

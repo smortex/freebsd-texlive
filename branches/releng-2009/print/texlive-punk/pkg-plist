@@ -18,3 +18,5 @@ share/texmf-dist/fonts/tfm/public/punk/punkbx20.tfm
 share/texmf-dist/fonts/tfm/public/punk/punksl20.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/punk
 @dirrmtry share/texmf-dist/fonts/source/public/punk
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -290,3 +290,5 @@ share/texmf-dist/tex/generic/babel/welsh.sty
 @dirrmtry share/texmf-dist/source/generic/babel
 @dirrmtry share/texmf-dist/makeindex/babel
 @dirrmtry share/texmf-dist/doc/generic/babel
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

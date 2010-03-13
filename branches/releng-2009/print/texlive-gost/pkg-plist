@@ -14,3 +14,5 @@ share/texmf-dist/bibtex/csf/gost/ruscii.csf
 @dirrmtry share/texmf-dist/doc/bibtex/gost
 @dirrmtry share/texmf-dist/bibtex/csf/gost
 @dirrmtry share/texmf-dist/bibtex/bst/gost
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

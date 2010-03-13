@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/tensor/tensor.sty
 @dirrmtry share/texmf-dist/tex/latex/tensor
 @dirrmtry share/texmf-dist/source/latex/tensor
 @dirrmtry share/texmf-dist/doc/latex/tensor
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -11,3 +11,5 @@ share/texmf-dist/tex/latex/msc/msc.sty
 @dirrmtry share/texmf-dist/tex/latex/msc
 @dirrmtry share/texmf-dist/doc/latex/msc
 @dirrmtry share/texmf-dist/bibtex/bib/msc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

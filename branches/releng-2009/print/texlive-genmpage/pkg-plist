@@ -6,3 +6,5 @@ share/texmf-dist/tex/latex/genmpage/genmpage.sty
 @dirrmtry share/texmf-dist/tex/latex/genmpage
 @dirrmtry share/texmf-dist/source/latex/genmpage
 @dirrmtry share/texmf-dist/doc/latex/genmpage
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

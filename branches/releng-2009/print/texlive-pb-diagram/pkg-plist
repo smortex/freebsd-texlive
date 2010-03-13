@@ -9,3 +9,5 @@ share/texmf-dist/tex/latex/pb-diagram/pb-lams.sty
 share/texmf-dist/tex/latex/pb-diagram/pb-xy.sty
 @dirrmtry share/texmf-dist/tex/latex/pb-diagram
 @dirrmtry share/texmf-dist/doc/latex/pb-diagram
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

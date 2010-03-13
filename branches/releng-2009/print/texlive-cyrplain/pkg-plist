@@ -13,3 +13,5 @@ share/texmf-dist/tex/plain/cyrplain/plainenc.tex
 share/texmf-dist/tex/plain/cyrplain/txxdefs.tex
 share/texmf-dist/tex/plain/cyrplain/txxextra.tex
 @dirrmtry share/texmf-dist/tex/plain/cyrplain
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

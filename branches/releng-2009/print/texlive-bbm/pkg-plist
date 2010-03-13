@@ -97,3 +97,5 @@ share/texmf-dist/fonts/tfm/public/bbm/bbmtt9.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/bbm
 @dirrmtry share/texmf-dist/fonts/source/public/bbm
 @dirrmtry share/texmf-dist/doc/fonts/bbm
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

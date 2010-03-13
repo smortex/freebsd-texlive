@@ -5,3 +5,5 @@ share/texmf-dist/tex/latex/logical-markup-utils/onedash.sty
 share/texmf-dist/tex/latex/logical-markup-utils/quoted.sty
 @dirrmtry share/texmf-dist/tex/latex/logical-markup-utils
 @dirrmtry share/texmf-dist/doc/latex/logical-markup-utils
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

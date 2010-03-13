@@ -7,3 +7,5 @@ share/texmf-dist/tex/latex/biblatex-contrib/biblatex-nature/cbx/nature.cbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-contrib/biblatex-nature/cbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-contrib/biblatex-nature/bbx
 @dirrmtry share/texmf-dist/doc/latex/biblatex-contrib/biblatex-nature
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
