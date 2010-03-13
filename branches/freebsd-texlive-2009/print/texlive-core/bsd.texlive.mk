@@ -27,7 +27,7 @@ ${WRKDIR}/.install_files: build
 	@(  cd ${WRKDIR} && cat tlpkg/tlpobj/${PORTNAME}.tlpobj | awk '\
 		$$0 ~ /^ / { \
 		    source=$$1; \
-		    target="share/$$1"; \
+		    target="share/" $$1; \
 		    if (index($$1, "RELOC/")) { \
 			sub("RELOC/", "", source); \
 			sub("RELOC/", "texmf-dist/", target); \
@@ -41,10 +41,10 @@ ${WRKDIR}/.install_files: build
 	@(  cd ${WRKDIR} && cat tlpkg/tlpobj/${PORTNAME}.doc.tlpobj | awk '\
 		$$0 ~ /^ / { \
 		    source=$$1; \
-		    target=$$1; \
+		    target="share/" $$1; \
 		    if (index($$1, "RELOC/")) { \
 			sub("RELOC/", "", source); \
-			sub("RELOC/", "share/texmf-dist/", target); \
+			sub("RELOC/", "texmf-dist/", target); \
 		    } \
 		    if (system("[ -e ${PREFIX}/" target " ]") != 0) { \
 			print source "	" target "	%%PORTDOCS%%"; \
@@ -56,10 +56,10 @@ ${WRKDIR}/.install_files: build
 	@(  cd ${WRKDIR} && cat tlpkg/tlpobj/${PORTNAME}.source.tlpobj | awk '\
 		$$0 ~ /^ / { \
 		    source=$$1; \
-		    target=$$1; \
+		    target="share/" $$1; \
 		    if (index($$1, "RELOC/")) { \
 			sub("RELOC/", "", source); \
-			sub("RELOC/", "share/texmf-dist/", target); \
+			sub("RELOC/", "texmf-dist/", target); \
 		    } \
 		    if (system("[ -e ${PREFIX}/" target " ]") != 0) { \
 			print source "	" target "	%%PORTSRC%%"; \
