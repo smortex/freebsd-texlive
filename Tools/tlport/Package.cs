@@ -50,7 +50,8 @@ namespace TeXLive
 			if (name == "core") {
 				return; // Do not auto-generate this one!
 			}
-			Console.WriteLine("===> Creating print/texlive-{0}...", name);
+			if (TLPort.Verbosity > 0)
+				Console.WriteLine("===> Creating print/texlive-{0}...", name);
 			CreatePortDirectory();
 			CreateMakefile();
 			CreatePkgDescr();
@@ -153,6 +154,7 @@ namespace TeXLive
 			p.StartInfo = psi;
 			p.Start();
 			p.WaitForExit();
+			p.Dispose ();
 		}
 		
 		/// <summary>
@@ -162,11 +164,17 @@ namespace TeXLive
 		{
 			Process p = new Process ();
 			ProcessStartInfo psi = new ProcessStartInfo ("make", "pkg-plist");
-			psi.UseShellExecute = true;
+			if (TLPort.Verbosity < 2) {
+				psi.RedirectStandardOutput = true;
+				psi.UseShellExecute = false;
+			} else {
+				psi.UseShellExecute = true;
+			}
 			psi.WorkingDirectory = PortDirectory;
 			p.StartInfo = psi;
 			p.Start ();
 			p.WaitForExit ();
+			p.Dispose ();
 		}
 		
 		/// <summary>
@@ -176,11 +184,17 @@ namespace TeXLive
 		{
 			Process p = new Process ();
 			ProcessStartInfo psi = new ProcessStartInfo ("make", "clean");
-			psi.UseShellExecute = true;
+			if (TLPort.Verbosity < 2) {
+				psi.RedirectStandardOutput = true;
+				psi.UseShellExecute = false;
+			} else {
+				psi.UseShellExecute = true;
+			}
 			psi.WorkingDirectory = PortDirectory;
 			p.StartInfo = psi;
 			p.Start ();
 			p.WaitForExit ();
+			p.Dispose ();
 		}
 
 		/// <summary>
@@ -236,7 +250,8 @@ namespace TeXLive
 					// Fallback on the first file listed in the archive that
 					// does not exist on the filesystem.
 					if (detect_file_name == null) {
-						Console.Error.WriteLine("Cannot be smart with {0}", name);
+						if (TLPort.Verbosity > 1)
+							Console.Error.WriteLine("Cannot be smart with {0}", name);
 						foreach (string file in files) {
 							if (!System.IO.File.Exists(file)) {
 								detect_file_name = file;
