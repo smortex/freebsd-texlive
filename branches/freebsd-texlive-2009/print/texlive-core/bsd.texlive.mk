@@ -75,6 +75,8 @@ pkg-plist: ${WRKDIR}/.install_files
 		echo @dirrmtry $$dir >> ${PLIST} ;\
 	    fi; \
 	done
+	@echo "@exec %D/bin/mktexlsr" >> ${PLIST}
+	@echo "@unexec %D/bin/mktexlsr" >> ${PLIST}
 
 do-install: ${WRKDIR}/.install_files
 	@for dir in `cut -f 2 < ${WRKDIR}/.install_files | xargs dirname | sort -r | uniq`; do \
@@ -87,14 +89,6 @@ do-install: ${WRKDIR}/.install_files
 	    done < ${WRKDIR}/.install_files \
 	)
 
-# updmap seems to be part of the deprecated teTeX...  Some work may be needed here.
 post-install:
-	@(  if grep -q '\.map$$' ${PLIST} && [ -f ${LOCALBASE}/share/texmf/web2c/updmap.cfg ] ; then \
-		echo "Updating font map files..."; \
-		${PREFIX}/bin/updmap-sys --syncwithtrees; \
-	    else \
-		echo "Updating ls-R databases..."; \
-		${PREFIX}/bin/mktexlsr; \
-	    fi \
-	)
-
+	@echo "Updating ls-R databases..."
+	@${PREFIX}/bin/mktexlsr
