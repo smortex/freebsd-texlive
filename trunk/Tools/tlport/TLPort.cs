@@ -41,19 +41,62 @@ namespace TeXLive
 {
 	class TLPort
 	{
+		
+		public static int Verbosity {
+			get { return verbosity; }
+		}
+		
+		private static int verbosity = 0;
 
+		private static void ShowHelp (NDesk.Options.OptionSet options)
+		{
+			Console.WriteLine("Usage: {0} [OPTIONS]+ <tlpobjdir> <portsdir>", AssemblyName());
+			Console.WriteLine("Generate TeXLive FreeBSD ports");
+			Console.WriteLine();
+			Console.WriteLine("Options:");
+			options.WriteOptionDescriptions(Console.Out);
+		}
+		
+		private static string AssemblyName()
+		{
+			return System.Reflection.Assembly.GetExecutingAssembly().GetName().Name;
+		}
+		
 		public static int Main(string[] args)
 		{
-			if (args.Length != 2) {
-				Console.Error.WriteLine("usage: tlport <tlpobjdir> <portsdir>");
+			List<string> extra;
+			bool show_help = false;
+			
+			var p = new NDesk.Options.OptionSet () {
+				{ "v|verbose", "Increase verbosity",   v => { ++verbosity; } },
+				{ "h|help",    "Display this message", v => { show_help = v != null; } }
+			};
+			try {
+				extra = p.Parse (args);
+			} catch (NDesk.Options.OptionException e) {
+				Console.Write("{0}: ", AssemblyName());
+				Console.WriteLine(e.Message);
+				Console.WriteLine("Try `{0} --help' for more information.", AssemblyName());
+				return 1;
+			}
+		
+			if (show_help) {
+				ShowHelp (p);
+				return 0;
+			}
+			
+			if (extra.Count != 2) {
+				ShowHelp (p);
 				return 1;
 			}
 
 			PackageCollection packages = new PackageCollection();
-			packages.TlpObjDir = args[0];
-			packages.PortsDir  = args[1];
+			packages.TlpObjDir = extra[0];
+			packages.PortsDir  = extra[1];
 
-			Console.Error.WriteLine("===> Building package list (this takes a while)");
+			if (Verbosity > 0)
+				Console.Error.WriteLine("===> Building package list (this takes a while)");
+			
 			// Read all scheme-*. They reference all collections, that in turn
 			// reference each package.
 			foreach (string s in System.IO.Directory.GetFiles(packages.TlpObjDir, "scheme-*")) {
@@ -67,7 +110,8 @@ namespace TeXLive
 				if (pkg.Eligible) {
 					pkg.CreatePort();
 				} else {
-					Console.Error.WriteLine("{0}: not eligible for building a port.", pkg.Name);
+					if (Verbosity > 0)
+						Console.Error.WriteLine("{0}: not eligible for building a port.", pkg.Name);
 				}
 			}
 			return 0;
