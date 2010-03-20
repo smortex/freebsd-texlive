@@ -1,11 +1,7 @@
 share/texmf-dist/bibtex/bst/revtex/aipauth4-1.bst
-share/texmf-dist/bibtex/bst/revtex/aipauth4-1long.bst
 share/texmf-dist/bibtex/bst/revtex/aipnum4-1.bst
-share/texmf-dist/bibtex/bst/revtex/aipnum4-1long.bst
 share/texmf-dist/bibtex/bst/revtex/apsrev4-1.bst
-share/texmf-dist/bibtex/bst/revtex/apsrev4-1long.bst
 share/texmf-dist/bibtex/bst/revtex/apsrmp4-1.bst
-share/texmf-dist/bibtex/bst/revtex/apsrmp4-1long.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/revtex/00readme.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/revtex/DOWNLOAD
 %%PORTDOCS%%share/texmf-dist/doc/latex/revtex/README
@@ -14,7 +10,6 @@ share/texmf-dist/bibtex/bst/revtex/apsrmp4-1long.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/revtex/aip/docs.sty
 %%PORTDOCS%%share/texmf-dist/doc/latex/revtex/aps/apsguide4-1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/revtex/aps/apsguide4-1.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/revtex/aps/docs.sty
 %%PORTDOCS%%share/texmf-dist/doc/latex/revtex/auguide/auguide4-1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/revtex/auguide/auguide4-1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/revtex/auguide/docs.sty
@@ -30,7 +25,6 @@ share/texmf-dist/bibtex/bst/revtex/apsrmp4-1long.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/revtex/sample/aip/fig_2.eps
 %%PORTDOCS%%share/texmf-dist/doc/latex/revtex/sample/aps/apssamp.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/revtex/sample/aps/apssamp.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/revtex/sample/aps/apssamp.rty
 %%PORTDOCS%%share/texmf-dist/doc/latex/revtex/sample/aps/apssamp.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/revtex/sample/aps/apstemplate.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/revtex/sample/aps/fig_1.eps
@@ -59,6 +53,7 @@ share/texmf-dist/tex/latex/revtex/ltxdocext.sty
 share/texmf-dist/tex/latex/revtex/ltxfront.sty
 share/texmf-dist/tex/latex/revtex/ltxgrid.sty
 share/texmf-dist/tex/latex/revtex/ltxutil.sty
+share/texmf-dist/tex/latex/revtex/reftest4-1.tex
 share/texmf-dist/tex/latex/revtex/revsymb4-1.sty
 share/texmf-dist/tex/latex/revtex/revtex4-1.cls
 @dirrmtry share/texmf-dist/tex/latex/revtex
