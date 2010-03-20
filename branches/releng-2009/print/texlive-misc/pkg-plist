@@ -42,6 +42,7 @@ share/texmf-dist/omega/ocp/misc/ebcdic.ocp
 share/texmf-dist/omega/ocp/misc/id.ocp
 share/texmf-dist/omega/otp/misc/ebcdic.otp
 share/texmf-dist/omega/otp/misc/id.otp
+share/texmf-dist/tex/generic/misc/bibnames.sty
 share/texmf-dist/tex/generic/misc/null.tex
 share/texmf-dist/tex/generic/misc/texnames.sty
 share/texmf-dist/tex/plain/misc/idxmac.tex
