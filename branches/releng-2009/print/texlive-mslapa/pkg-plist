@@ -2,6 +2,8 @@ share/texmf-dist/bibtex/bst/mslapa/mslapa.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/mslapa/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/mslapa/bibfile.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/mslapa/examp.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mslapa/mslapa.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mslapa/mslapa.tex
 share/texmf-dist/tex/latex/mslapa/mslapa.sty
 @dirrmtry share/texmf-dist/tex/latex/mslapa
 @dirrmtry share/texmf-dist/doc/latex/mslapa
