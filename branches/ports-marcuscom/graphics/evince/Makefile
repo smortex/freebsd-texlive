@@ -3,11 +3,11 @@
 # Whom:					Adam Weinberger <adamw@FreeBSD.org>
 #
 # $FreeBSD$
-#    $MCom: ports/graphics/evince/Makefile,v 1.133 2010/01/12 07:37:25 avl Exp $
+#    $MCom$
 #
 
 PORTNAME=	evince
-PORTVERSION=	2.29.5
+PORTVERSION=	2.30.0
 PORTREVISION=	1
 CATEGORIES=	graphics print gnome
 MASTER_SITES=	GNOME
@@ -53,7 +53,7 @@ OPTIONS=	DVI		"Enable DVI viewer support"		off \
 WITH_DBUS=	yes
 .endif
 
-.if defined(WITH_DVI) || defined(WITH_T1LIB)
+.if defined(WITH_DVI) || defined(WITH_T1LIB) || exists(${LOCALBASE}/lib/libkpathsea.a)
 BUILD_DEPENDS+=	tex:${PORTSDIR}/print/texlive-core
 RUN_DEPENDS+=	tex:${PORTSDIR}/print/texlive-core
 
@@ -118,6 +118,9 @@ PLIST_SUB+=		COMICS="@comment "
 post-patch:
 	@${REINPLACE_CMD} -e 's|execinfo.h|#|g' \
 		${WRKSRC}/configure
+	@${REINPLACE_CMD} -e '/^DOC_MODULE_VERSION/d' \
+		${WRKSRC}/help/reference/libdocument/Makefile.in \
+		${WRKSRC}/help/reference/libview/Makefile.in
 
 post-install:
 	@-update-desktop-database
