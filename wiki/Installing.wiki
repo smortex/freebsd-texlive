@@ -14,6 +14,7 @@ FreeBSD ports for all TeXLive packages are located in the `releng` branch of the
 {{{
 shell> svn co "http://bsd-sharp.googlecode.com/svn/branches/portshaker/"
 shell> cd portshaker
+*read the README file*
 shell> make PREFIX="/usr/local"
 shell> make PREFIX="/usr/local" install
 shell> make -C examples PREFIX="/usr/local" install
@@ -33,6 +34,7 @@ shell> portshaker -v
 {{{
 shell> svn co "http://bsd-sharp.googlecode.com/svn/branches/portshaker/"
 shell> cd portshaker
+*read the README file*
 shell> make PREFIX="/usr/local"
 shell> make PREFIX="/usr/local" install
 shell> make -C examples PREFIX="/usr/local" install
