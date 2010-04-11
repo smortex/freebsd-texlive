@@ -24,6 +24,7 @@
 
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Diagnostics;
 
 namespace TeXLive
@@ -41,15 +42,54 @@ namespace TeXLive
 		protected PackageCollection collection;
 
 		private string detect_file_name;
+		
+		public bool Exists {
+			get {
+				return System.IO.Directory.Exists (PortDirectory);
+			}
+		}
+		
+		public int PortRevision {
+			get {
+				int res = 0;
+				Process p = new Process();
+				ProcessStartInfo psi = new ProcessStartInfo("make", "-V PORTREVISION");
+				psi.UseShellExecute = true;
+				psi.WorkingDirectory = PortDirectory;
+				psi.RedirectStandardOutput = true;
+				psi.UseShellExecute = false;
+				p.StartInfo = psi;
+				p.Start();
+				p.WaitForExit();
+				res = int.Parse (p.StandardOutput.ReadLine ());
+				p.Dispose ();
+				return res;
+			}
+		}
+		
+		public bool LocalyModified {
+			get {
+				bool res;
+				Process p = new Process();
+				ProcessStartInfo psi = new ProcessStartInfo("svn", "diff");
+				psi.UseShellExecute = true;
+				psi.WorkingDirectory = PortDirectory;
+				psi.RedirectStandardOutput = true;
+				psi.UseShellExecute = false;
+				p.StartInfo = psi;
+				p.Start();
+				p.WaitForExit();
+				res = ! string.IsNullOrEmpty (p.StandardOutput.ReadToEnd ());
+				p.Dispose ();
+				return res;
+			}
+		}
 
 		/// <summary>
 		/// Create the FreeBSD port of the package.
 		/// </summary>
 		public void CreatePort()
 		{
-			if (name == "core") {
-				return; // Do not auto-generate this one!
-			}
 			if (TLPort.Verbosity > 0)
 				Console.WriteLine("===> Creating print/texlive-{0}...", name);
 			CreatePortDirectory();
@@ -58,6 +98,19 @@ namespace TeXLive
 			CreateDistinfo();
 			CreatePkgPlist ();
 			Clean ();
+		}
+		
+		/// <summary>
+		/// Update the FreeBSD port of the package
+		/// </summary>
+		public void UpdatePort ()
+		{
+			CreateDistinfo ();
+			if (LocalyModified) {
+				CreateMakefile (PortRevision + 1);
+				CreatePkgPlist ();
+				Clean ();
+			}
 		}
 
 		/// <summary>
@@ -79,22 +132,59 @@ namespace TeXLive
 		{
 			System.IO.Directory.CreateDirectory(PortDirectory);
 		}
-
+		
 		/// <summary>
 		/// Create the Makefile of the FreeBSD port.
 		/// </summary>
-		private void CreateMakefile()
+		private void CreateMakefile ()
 		{
-			System.IO.StreamWriter makefile = new System.IO.StreamWriter(System.IO.Path.Combine(PortDirectory, "Makefile"));
+			CreateMakefile (0);
+		}
 
+		/// <summary>
+		/// Create the Makefile of the FreeBSD port with a given PORTREVISION.
+		/// </summary>
+		/// <param name="PortRevision">
+		/// A <see cref="System.Int32"/>
+		/// </param>
+		private void CreateMakefile (int PortRevision)
+		{
+			List<string> header = new List<string> ();
+			
+			string makefile_path = System.IO.Path.Combine(PortDirectory, "Makefile");
+			
+			// If there is alread a Makefile, copy it's header
+			if (System.IO.File.Exists (makefile_path)) {
+				System.IO.StreamReader old_makefile = new System.IO.StreamReader (makefile_path);
+				while (!old_makefile.EndOfStream) {
+					string line = old_makefile.ReadLine ();
+					if (line.StartsWith ("#"))
+						header.Add (line);
+					else
+						break;
+				}
+				old_makefile.Close ();
+			}
+			
+			// Create the new makefile
+			System.IO.StreamWriter makefile = new System.IO.StreamWriter(makefile_path);
+
+			if (header.Count == 0) {
 			makefile.WriteLine("# New ports collection makefile for:\ttexlive-{0}", name);
 			makefile.WriteLine("# Date created:\t\t{0}", DateTime.Now);
 			makefile.WriteLine("# Whom:\t\t{0}", "romain@blogreen.org");
 			makefile.WriteLine("#");
 			makefile.WriteLine("# $FreeBSD$");
 			makefile.WriteLine("#");
+			} else {
+				foreach (string line in header)
+					makefile.WriteLine (line);
+			}
 			makefile.WriteLine();
 			makefile.WriteLine("PORTNAME=\t{0}", name);
+			if (PortRevision > 0) {
+				makefile.WriteLine ("PORTREVISION=\t{0}", PortRevision);
+			}
 			makefile.WriteLine("CATEGORIES=\tprint");
 			if (files.Count == 0) {
 				makefile.WriteLine("DISTFILES=\t# None");
@@ -326,7 +416,7 @@ namespace TeXLive
 		/// </summary>
 		public bool Eligible {
 			get {
-				return ((files.Count > 0) || (depend.Count > 0));
+				return ((files.Count > 0) || (depend.Count > 0)) && (name != "core");
 			}
 		}
 
