@@ -109,7 +109,7 @@ namespace TeXLive
 			foreach (Package pkg in packages.Values) {
 				if (pkg.Eligible) {
 					if (!pkg.Exists) {
-					pkg.CreatePort();
+						pkg.CreatePort();
 					} else {
 						pkg.UpdatePort ();
 					}

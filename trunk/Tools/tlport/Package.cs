@@ -170,12 +170,12 @@ namespace TeXLive
 			System.IO.StreamWriter makefile = new System.IO.StreamWriter(makefile_path);
 
 			if (header.Count == 0) {
-			makefile.WriteLine("# New ports collection makefile for:\ttexlive-{0}", name);
-			makefile.WriteLine("# Date created:\t\t{0}", DateTime.Now);
-			makefile.WriteLine("# Whom:\t\t{0}", "romain@blogreen.org");
-			makefile.WriteLine("#");
-			makefile.WriteLine("# $FreeBSD$");
-			makefile.WriteLine("#");
+				makefile.WriteLine("# New ports collection makefile for:\ttexlive-{0}", name);
+				makefile.WriteLine("# Date created:\t\t{0}", DateTime.Now);
+				makefile.WriteLine("# Whom:\t\t{0}", "romain@blogreen.org");
+				makefile.WriteLine("#");
+				makefile.WriteLine("# $FreeBSD$");
+				makefile.WriteLine("#");
 			} else {
 				foreach (string line in header)
 					makefile.WriteLine (line);
