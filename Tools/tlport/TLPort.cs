@@ -108,7 +108,11 @@ namespace TeXLive
 
 			foreach (Package pkg in packages.Values) {
 				if (pkg.Eligible) {
+					if (!pkg.Exists) {
 					pkg.CreatePort();
+					} else {
+						pkg.UpdatePort ();
+					}
 				} else {
 					if (Verbosity > 0)
 						Console.Error.WriteLine("{0}: not eligible for building a port.", pkg.Name);

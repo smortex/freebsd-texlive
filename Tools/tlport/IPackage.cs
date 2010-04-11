@@ -39,6 +39,13 @@ namespace TeXLive
 		string Name {
 			get ;
 		}
+		
+		/// <summary>
+		/// A port for this package exists
+		/// </summary>
+		bool Exists {
+			get ;
+		}
 
 		/// <summary>
 		/// Files provided in the package.
