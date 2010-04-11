@@ -43,12 +43,18 @@ namespace TeXLive
 
 		private string detect_file_name;
 		
+		/// <summary>
+		/// Check is a FreeBSD port for the TeXLive package exists.
+		/// </summary>
 		public bool Exists {
 			get {
 				return System.IO.Directory.Exists (PortDirectory);
 			}
 		}
 		
+		/// <summary>
+		/// Get FreeBSD port's revision
+		/// </summary>
 		public int PortRevision {
 			get {
 				int res = 0;
@@ -67,12 +73,14 @@ namespace TeXLive
 			}
 		}
 		
+		/// <summary>
+		/// Modification status of the port in the FreeBSD TeXLive VCS local checkout.
+		/// </summary>
 		public bool LocalyModified {
 			get {
 				bool res;
 				Process p = new Process();
 				ProcessStartInfo psi = new ProcessStartInfo("svn", "diff");
-				psi.UseShellExecute = true;
 				psi.WorkingDirectory = PortDirectory;
 				psi.RedirectStandardOutput = true;
 				psi.UseShellExecute = false;
@@ -98,6 +106,26 @@ namespace TeXLive
 			CreateDistinfo();
 			CreatePkgPlist ();
 			Clean ();
+			AddToVcs ();
+		}
+		
+		/// <summary>
+		/// Add the port to the VCS (currently subversion, no real plan to change that though)
+		/// </summary>
+		private void AddToVcs ()
+		{
+			Process p = new Process();
+			ProcessStartInfo psi = new ProcessStartInfo("svn", string.Format ("add {0}", PortDirectory));
+			if (TLPort.Verbosity < 2) {
+				psi.RedirectStandardOutput = true;
+				psi.UseShellExecute = false;
+			} else {
+				psi.UseShellExecute = true;
+			}
+			p.StartInfo = psi;
+			p.Start();
+			p.WaitForExit();
+			p.Dispose ();
 		}
 		
 		/// <summary>
