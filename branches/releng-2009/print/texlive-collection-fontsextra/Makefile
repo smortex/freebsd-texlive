@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -13,7 +14,6 @@ MAINTAINER=	romain@blogreen.org
 COMMENT=	Extra fonts
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asana-Math.otf:${PORTSDIR}/print/texlive-Asana-Math \
-		${LOCALBASE}/share/texmf-dist/fonts/tfm/cg/albertus/ale10u.tfm:${PORTSDIR}/print/texlive-albertus \
 		${LOCALBASE}/share/texmf-dist/tex/latex/allrunes/allrunes.sty:${PORTSDIR}/print/texlive-allrunes \
 		${LOCALBASE}/share/texmf-dist/dvips/antiqua/config.uaq:${PORTSDIR}/print/texlive-antiqua \
 		${LOCALBASE}/share/texmf-dist/dvips/antp/antp.cfg:${PORTSDIR}/print/texlive-antp \
@@ -24,7 +24,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/tex/latex/arev/arev.sty:${PORTSDIR}/print/texlive-arev \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ascii/ascii.sty:${PORTSDIR}/print/texlive-ascii \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/astro/astrosym.cal:${PORTSDIR}/print/texlive-astro \
-		${LOCALBASE}/share/texmf-dist/fonts/tfm/cg/atqolive/anb10u.tfm:${PORTSDIR}/print/texlive-atqolive \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/augie/augie___.afm:${PORTSDIR}/print/texlive-augie \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/auncial-new/auncl10.afm:${PORTSDIR}/print/texlive-auncial-new \
 		${LOCALBASE}/share/texmf-dist/tex/latex/aurical/aurical.sty:${PORTSDIR}/print/texlive-aurical \

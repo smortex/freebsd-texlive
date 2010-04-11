@@ -15,12 +15,15 @@ share/texmf-dist/fonts/misc/xetex/fontmapping/polyglossia/farsidigits.tec
 share/texmf-dist/fonts/misc/xetex/fontmapping/polyglossia/thaidigits.map
 share/texmf-dist/fonts/misc/xetex/fontmapping/polyglossia/thaidigits.tec
 %%PORTSRC%%share/texmf-dist/source/xelatex/polyglossia/polyglossia.dtx
+share/texmf-dist/tex/xelatex/polyglossia/arabicnumbers.sty
+share/texmf-dist/tex/xelatex/polyglossia/babel-hebrewalph.def
 share/texmf-dist/tex/xelatex/polyglossia/babelsh.def
 share/texmf-dist/tex/xelatex/polyglossia/cal-util.def
 share/texmf-dist/tex/xelatex/polyglossia/farsical.sty
 share/texmf-dist/tex/xelatex/polyglossia/gloss-albanian.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-amharic.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-arabic.ldf
+share/texmf-dist/tex/xelatex/polyglossia/gloss-asturian.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-bahasai.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-bahasam.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-basque.ldf
@@ -51,6 +54,7 @@ share/texmf-dist/tex/xelatex/polyglossia/gloss-irish.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-italian.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-latin.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-latvian.ldf
+share/texmf-dist/tex/xelatex/polyglossia/gloss-lithuanian.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-lsorbian.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-magyar.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-norsk.ldf
@@ -71,12 +75,17 @@ share/texmf-dist/tex/xelatex/polyglossia/gloss-syriac.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-thai.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-turkish.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-ukrainian.ldf
+share/texmf-dist/tex/xelatex/polyglossia/gloss-urdu.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-usorbian.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-vietnamese.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-welsh.ldf
 share/texmf-dist/tex/xelatex/polyglossia/hebrewcal.sty
 share/texmf-dist/tex/xelatex/polyglossia/hijrical.sty
 share/texmf-dist/tex/xelatex/polyglossia/polyglossia.sty
+share/texmf-dist/tex/xelatex/polyglossia/test-polyglossia-setup.aux
+share/texmf-dist/tex/xelatex/polyglossia/test-polyglossia-setup.log
+share/texmf-dist/tex/xelatex/polyglossia/test-polyglossia-setup.pdf
+share/texmf-dist/tex/xelatex/polyglossia/test-polyglossia-setup.tex
 @dirrmtry share/texmf-dist/tex/xelatex/polyglossia
 @dirrmtry share/texmf-dist/source/xelatex/polyglossia
 @dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping/polyglossia

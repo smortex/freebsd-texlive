@@ -6,12 +6,12 @@
 #
 
 PORTNAME=	youngtab
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
 COMMENT=	Typeset Young-Tableaux.
 
-NOPORTDOCS=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

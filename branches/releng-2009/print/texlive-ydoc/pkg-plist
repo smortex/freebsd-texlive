@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ydoc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ydoc/ydoc.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/ydoc/ydoc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ydoc/ydoc.ins
+share/texmf-dist/tex/latex/ydoc/ydoc-code.sty
+share/texmf-dist/tex/latex/ydoc/ydoc-desc.sty
+share/texmf-dist/tex/latex/ydoc/ydoc-doc.sty
+share/texmf-dist/tex/latex/ydoc/ydoc-expl.sty
+share/texmf-dist/tex/latex/ydoc/ydoc.cls
+share/texmf-dist/tex/latex/ydoc/ydoc.sty
+@dirrmtry share/texmf-dist/tex/latex/ydoc
+@dirrmtry share/texmf-dist/source/latex/ydoc
+@dirrmtry share/texmf-dist/doc/latex/ydoc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

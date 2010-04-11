@@ -1,9 +1,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/expl3/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/expl3/expl3.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/expl3/source3.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/expl3/source3.tex
 share/texmf-dist/makeindex/expl3/l3doc.ist
 %%PORTSRC%%share/texmf-dist/source/latex/expl3/expl3.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/expl3/l3.ins
 %%PORTSRC%%share/texmf-dist/source/latex/expl3/l3alloc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/expl3/l3basics.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/expl3/l3box.dtx
@@ -15,6 +15,7 @@ share/texmf-dist/makeindex/expl3/l3doc.ist
 %%PORTSRC%%share/texmf-dist/source/latex/expl3/l3expan.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/expl3/l3file.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/expl3/l3final.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/expl3/l3format.ins
 %%PORTSRC%%share/texmf-dist/source/latex/expl3/l3int.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/expl3/l3intexpr.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/expl3/l3io.dtx
@@ -34,6 +35,7 @@ share/texmf-dist/makeindex/expl3/l3doc.ist
 %%PORTSRC%%share/texmf-dist/source/latex/expl3/l3toks.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/expl3/l3vers.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/expl3/l3xref.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/expl3/source3.tex
 share/texmf-dist/tex/latex/expl3/expl3.sty
 share/texmf-dist/tex/latex/expl3/l3basics.sty
 share/texmf-dist/tex/latex/expl3/l3box.sty

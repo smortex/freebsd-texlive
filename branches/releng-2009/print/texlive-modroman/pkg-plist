@@ -1,7 +1,13 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/modroman/LISEZMOI
-%%PORTDOCS%%share/texmf-dist/doc/latex/modroman/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/modroman/MODRdoctools.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/modroman/modroman-en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/modroman/modroman-en.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/modroman/modroman-fr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/modroman/modroman-fr.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/modroman/modroman.dtx
 %%PORTDOCS%%share/texmf-dist/doc/latex/modroman/modroman.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/modroman/LISEZMOI
 %%PORTSRC%%share/texmf-dist/source/latex/modroman/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/modroman/README
 %%PORTSRC%%share/texmf-dist/source/latex/modroman/modroman.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/modroman/modroman.ins
 share/texmf-dist/tex/latex/modroman/modroman.sty

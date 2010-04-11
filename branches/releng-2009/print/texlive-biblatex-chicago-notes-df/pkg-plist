@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago-notes-df/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago-notes-df/RELEASE
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago-notes-df/biblatex-chicago-notes-df.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago-notes-df/biblatex-chicago-notes-df.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago-notes-df/chicago-test.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago-notes-df/sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago-notes-df/sample.tex
+share/texmf-dist/tex/latex/biblatex-chicago-notes-df/biblatex-chicago.sty
+share/texmf-dist/tex/latex/biblatex-chicago-notes-df/chicago-notes-df.bbx
+share/texmf-dist/tex/latex/biblatex-chicago-notes-df/chicago-notes-df.cbx
+share/texmf-dist/tex/latex/biblatex-chicago-notes-df/cms-american.lbx
+share/texmf-dist/tex/latex/biblatex-chicago-notes-df/cms-french.lbx
+share/texmf-dist/tex/latex/biblatex-chicago-notes-df/cms-german.lbx
+share/texmf-dist/tex/latex/biblatex-chicago-notes-df/cms-ngerman.lbx
+@dirrmtry share/texmf-dist/tex/latex/biblatex-chicago-notes-df
+@dirrmtry share/texmf-dist/doc/latex/biblatex-chicago-notes-df
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

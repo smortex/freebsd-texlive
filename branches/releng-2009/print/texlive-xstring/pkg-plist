@@ -1,15 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/xstring/README
-%%PORTDOCS%%share/texmf-dist/doc/generic/xstring/test_etex.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/xstring/test_etex.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/xstring/test_latex.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/xstring/test_latex.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/xstring/xstring_doc_en.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/xstring/xstring_doc_en.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/xstring/xstring_doc_fr.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/xstring/xstring_doc_fr.tex
+share/texmf-dist/tex/generic/xstring/xstring.sty
 share/texmf-dist/tex/generic/xstring/xstring.tex
-share/texmf-dist/tex/latex/xstring/xstring.sty
-@dirrmtry share/texmf-dist/tex/latex/xstring
 @dirrmtry share/texmf-dist/tex/generic/xstring
 @dirrmtry share/texmf-dist/doc/generic/xstring
 @exec %D/bin/mktexlsr

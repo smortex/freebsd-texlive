@@ -28,7 +28,6 @@ share/texmf-dist/tex/latex/ltxmisc/truncate.sty
 share/texmf-dist/tex/latex/ltxmisc/underscore.sty
 share/texmf-dist/tex/latex/ltxmisc/verbasef.sty
 share/texmf-dist/tex/latex/ltxmisc/vrbexin.sty
-share/texmf-dist/tex/latex/ltxmisc/vruler.sty
 @dirrmtry share/texmf-dist/tex/latex/ltxmisc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

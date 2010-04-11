@@ -1,6 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/aleq.jpg
-%%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/blackpanel.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/game1-two.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/game1-two.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/game1.pdf
@@ -11,15 +10,13 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/game2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/game2a.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/game2a.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/game3.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/game3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/game3-CZ.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/game3-CZ.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/game3-oneplayer-CZ.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/game3-oneplayer-CZ.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/game4.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/game4.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/jeopardy-CZ.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/jeopardy-CZ.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/joke.jpg
-%%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/logo-bc.jpg
-%%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/pdfscreen.cfg
 %%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/example/picture.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/jeopardy/jeopardy.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/jeopardy/jeopardy.dtx

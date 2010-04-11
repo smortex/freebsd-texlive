@@ -1,15 +1,19 @@
-share/texmf-dist/bibtex/bib/adrconv/example.bib
+share/texmf-dist/bibtex/bst/adrconv/adrbirthday.bst
 share/texmf-dist/bibtex/bst/adrconv/adrconv.bst
 share/texmf-dist/bibtex/bst/adrconv/adrfax.bst
-share/texmf-dist/bibtex/bst/adrconv/birthday.bst
-share/texmf-dist/bibtex/bst/adrconv/email.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/adrconv/2latex.vim
 %%PORTDOCS%%share/texmf-dist/doc/latex/adrconv/adrconv.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/adrconv/adrconv_pages08.pages/Contents/PkgInfo
+%%PORTDOCS%%share/texmf-dist/doc/latex/adrconv/adrconv_pages08.pages/QuickLook/Thumbnail.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/adrconv/adrconv_pages08.pages/index.xml.gz
 %%PORTDOCS%%share/texmf-dist/doc/latex/adrconv/adrdir.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/adrconv/adrfax.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/adrconv/adrguide.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/adrconv/adrguide.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/adrconv/adrmontage1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/adrconv/adrmontage2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/adrconv/birthday.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/adrconv/email.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/adrconv/example.bib
 %%PORTSRC%%share/texmf-dist/source/latex/adrconv/adrconv.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/adrconv/adrconv.ins
 share/texmf-dist/tex/latex/adrconv/adrdir.cfg
@@ -17,8 +21,10 @@ share/texmf-dist/tex/latex/adrconv/adrplaner.cfg
 share/texmf-dist/tex/latex/adrconv/adrsmall.cfg
 @dirrmtry share/texmf-dist/tex/latex/adrconv
 @dirrmtry share/texmf-dist/source/latex/adrconv
+@dirrmtry share/texmf-dist/doc/latex/adrconv/adrconv_pages08.pages/QuickLook
+@dirrmtry share/texmf-dist/doc/latex/adrconv/adrconv_pages08.pages/Contents
+@dirrmtry share/texmf-dist/doc/latex/adrconv/adrconv_pages08.pages
 @dirrmtry share/texmf-dist/doc/latex/adrconv
 @dirrmtry share/texmf-dist/bibtex/bst/adrconv
-@dirrmtry share/texmf-dist/bibtex/bib/adrconv
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

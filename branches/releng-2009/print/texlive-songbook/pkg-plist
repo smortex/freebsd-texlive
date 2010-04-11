@@ -27,14 +27,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/songbook/sampleToc.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/songbook/sampleWBK.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/songbook/songbook.pdf
-share/texmf-dist/makeindex/songbook/songbook.ist
 %%PORTSRC%%share/texmf-dist/source/latex/songbook/songbook.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/songbook/songbook.ins
 share/texmf-dist/tex/latex/songbook/conditionals.sty
 share/texmf-dist/tex/latex/songbook/songbook.sty
 @dirrmtry share/texmf-dist/tex/latex/songbook
 @dirrmtry share/texmf-dist/source/latex/songbook
-@dirrmtry share/texmf-dist/makeindex/songbook
 @dirrmtry share/texmf-dist/doc/latex/songbook/contrib/crd2sb
 @dirrmtry share/texmf-dist/doc/latex/songbook/contrib/CarolBook
 @dirrmtry share/texmf-dist/doc/latex/songbook/contrib

@@ -1,3 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/nonfloat/nonfloat-en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nonfloat/nonfloat-en.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/nonfloat/nonfloat.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/nonfloat/nonfloat.drv
 %%PORTSRC%%share/texmf-dist/source/latex/nonfloat/nonfloat.dtx

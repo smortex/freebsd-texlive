@@ -6,16 +6,17 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/Test-philosophy-modern.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/Test-philosophy-verbose.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/Test-philosophy-verbose.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/philosophy-authoryear-doc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/philosophy-authoryear-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/biblatex-philosophy.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/biblatex-philosophy.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/modern3.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/philosophy-examples.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/philosophy-verbose-doc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/philosophy-verbose-doc.tex
+share/texmf-dist/tex/latex/biblatex-philosophy/english-philosophy.lbx
 share/texmf-dist/tex/latex/biblatex-philosophy/italian-philosophy.lbx
 share/texmf-dist/tex/latex/biblatex-philosophy/philosophy-classic.bbx
 share/texmf-dist/tex/latex/biblatex-philosophy/philosophy-classic.cbx
 share/texmf-dist/tex/latex/biblatex-philosophy/philosophy-modern.bbx
 share/texmf-dist/tex/latex/biblatex-philosophy/philosophy-modern.cbx
+share/texmf-dist/tex/latex/biblatex-philosophy/philosophy-standard.bbx
 share/texmf-dist/tex/latex/biblatex-philosophy/philosophy-verbose.bbx
 share/texmf-dist/tex/latex/biblatex-philosophy/philosophy-verbose.cbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-philosophy

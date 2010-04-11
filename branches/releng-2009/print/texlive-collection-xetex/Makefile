@@ -6,15 +6,15 @@
 #
 
 PORTNAME=	collection-xetex
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@blogreen.org
 COMMENT=	XeTeX packages
 
-RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/arabxetex/arabicdigits.map:${PORTSDIR}/print/texlive-arabxetex \
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/xelatex/arabxetex/arabxetex.sty:${PORTSDIR}/print/texlive-arabxetex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/euenc/eu1enc.def:${PORTSDIR}/print/texlive-euenc \
-		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidi/bidi.sty:${PORTSDIR}/print/texlive-bidi \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fontspec/fontspec.sty:${PORTSDIR}/print/texlive-fontspec \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fontwrap/fontwrap.sty:${PORTSDIR}/print/texlive-fontwrap \
 		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/harvardkyoto/README:${PORTSDIR}/print/texlive-harvardkyoto \

@@ -6,11 +6,13 @@
 #
 
 PORTNAME=	bidi
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
-COMMENT=	Support for bidirectional typesetting with XeLaTeX.
+COMMENT=	Support for bidirectional typesetting in LaTeX.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

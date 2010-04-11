@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	mfpic4ode
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

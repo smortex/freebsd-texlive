@@ -1,3 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/todo/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/todo/todo-spl.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/todo/todo-spl.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/todo/todo.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/todo/todo.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/todo/todo.ins

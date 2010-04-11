@@ -15,7 +15,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/ctabbing.sty
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/demo.ms
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/energy.d
-%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/examples.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/figs.1
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/figs.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/grdemo-doc.ms
@@ -24,7 +23,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/grdemo.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/grdemo.ms
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/lead.d
-%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/manfig.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/matmul.d
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mp.1
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpboxes.bib
@@ -33,13 +31,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpgraph.bib
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpgraph.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpgraph.tex
-%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpintro.bib
-%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpintro.tex
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mplibapi.tex
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman-app-legacy.tex
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman-app-optab.tex
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman-app-refman.tex
-%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman-optab.tex
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman.bib
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman.ist
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman.mp

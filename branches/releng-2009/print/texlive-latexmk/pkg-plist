@@ -3,7 +3,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/INSTALL
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/README
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/README
+%%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/glossary_latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/pdflatexmkrc
+%%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/sagetex_latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/README1
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/dvipdfm_call
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/dvipdfm_call.bat

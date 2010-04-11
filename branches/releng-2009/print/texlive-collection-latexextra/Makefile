@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -24,7 +25,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/acromake/acromake.sty:${PORTSDIR}/print/texlive-acromake \
 		${LOCALBASE}/share/texmf-dist/tex/latex/acronym/acronym.sty:${PORTSDIR}/print/texlive-acronym \
 		${LOCALBASE}/share/texmf-dist/tex/latex/addlines/addlines.sty:${PORTSDIR}/print/texlive-addlines \
-		${LOCALBASE}/share/texmf-dist/bibtex/bib/adrconv/example.bib:${PORTSDIR}/print/texlive-adrconv \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/adrconv/adrbirthday.bst:${PORTSDIR}/print/texlive-adrconv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/adrlist/adrlist.sty:${PORTSDIR}/print/texlive-adrlist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/advdate/advdate.sty:${PORTSDIR}/print/texlive-advdate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/akletter/akletter.cls:${PORTSDIR}/print/texlive-akletter \
@@ -129,6 +130,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/csquotes/csquotes.sty:${PORTSDIR}/print/texlive-csquotes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/csvtools/csvtools.sty:${PORTSDIR}/print/texlive-csvtools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cuisine/cuisine.sty:${PORTSDIR}/print/texlive-cuisine \
+		${LOCALBASE}/share/texmf-dist/tex/latex/currfile/currfile.sty:${PORTSDIR}/print/texlive-currfile \
 		${LOCALBASE}/share/texmf-dist/tex/latex/currvita/currvita.sty:${PORTSDIR}/print/texlive-currvita \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cursor/cursor.sty:${PORTSDIR}/print/texlive-cursor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cv/CV.sty:${PORTSDIR}/print/texlive-cv \
@@ -220,6 +222,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancytooltips/fancytooltips.sty:${PORTSDIR}/print/texlive-fancytooltips \
 		${LOCALBASE}/share/texmf-dist/tex/latex/figsize/figsize.sty:${PORTSDIR}/print/texlive-figsize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filecontents/filecontents.sty:${PORTSDIR}/print/texlive-filecontents \
+		${LOCALBASE}/share/texmf-dist/tex/latex/filehook/filehook.sty:${PORTSDIR}/print/texlive-filehook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fink/fink.sty:${PORTSDIR}/print/texlive-fink \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixfoot/fixfoot.sty:${PORTSDIR}/print/texlive-fixfoot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixme/fixme.sty:${PORTSDIR}/print/texlive-fixme \
@@ -402,6 +405,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/newlfm/newlfm.cls:${PORTSDIR}/print/texlive-newlfm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newspaper/newspaper.sty:${PORTSDIR}/print/texlive-newspaper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newvbtm/newvbtm.sty:${PORTSDIR}/print/texlive-newvbtm \
+		${LOCALBASE}/share/texmf-dist/tex/latex/newverbs/newverbs.sty:${PORTSDIR}/print/texlive-newverbs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nextpage/nextpage.sty:${PORTSDIR}/print/texlive-nextpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nfssext-cfr/nfssext-cfr.sty:${PORTSDIR}/print/texlive-nfssext-cfr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/niceframe/niceframe.sty:${PORTSDIR}/print/texlive-niceframe \
@@ -415,6 +419,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/ntheorem/ntheorem.sty:${PORTSDIR}/print/texlive-ntheorem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/numname/numname.sty:${PORTSDIR}/print/texlive-numname \
 		${LOCALBASE}/share/texmf-dist/tex/latex/numprint/numprint.sty:${PORTSDIR}/print/texlive-numprint \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ocgtools/ocgtools.sty:${PORTSDIR}/print/texlive-ocgtools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ocr-latex/ocr.sty:${PORTSDIR}/print/texlive-ocr-latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/octavo/octavo.cls:${PORTSDIR}/print/texlive-octavo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/oldstyle/oldstyle.sty:${PORTSDIR}/print/texlive-oldstyle \
@@ -437,6 +442,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/pax/pax.sty:${PORTSDIR}/print/texlive-pax \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pbox/pbox.sty:${PORTSDIR}/print/texlive-pbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pbsheet/pbsheet.cls:${PORTSDIR}/print/texlive-pbsheet \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pdf14/pdf14.sty:${PORTSDIR}/print/texlive-pdf14 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdfcomment/pdfcomment.sty:${PORTSDIR}/print/texlive-pdfcomment \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdfcprot/pdfcprot.sty:${PORTSDIR}/print/texlive-pdfcprot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdfmarginpar/pdfmarginpar.sty:${PORTSDIR}/print/texlive-pdfmarginpar \
@@ -557,6 +563,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/sseq/sseq.sty:${PORTSDIR}/print/texlive-sseq \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ssqquote/ssqquote.sty:${PORTSDIR}/print/texlive-ssqquote \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stack/stack.sty:${PORTSDIR}/print/texlive-stack \
+		${LOCALBASE}/share/texmf-dist/tex/latex/standalone/standalone.cls:${PORTSDIR}/print/texlive-standalone \
 		${LOCALBASE}/share/texmf-dist/tex/latex/statistik/statistik.sty:${PORTSDIR}/print/texlive-statistik \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stdclsdv/stdclsdv.sty:${PORTSDIR}/print/texlive-stdclsdv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stdpage/stdpage.sty:${PORTSDIR}/print/texlive-stdpage \
@@ -666,6 +673,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/volumes/volumes.sty:${PORTSDIR}/print/texlive-volumes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vpe/vpe.sty:${PORTSDIR}/print/texlive-vpe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vrsion/vrsion.sty:${PORTSDIR}/print/texlive-vrsion \
+		${LOCALBASE}/share/texmf-dist/tex/latex/vruler/vruler.sty:${PORTSDIR}/print/texlive-vruler \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vwcol/vwcol.sty:${PORTSDIR}/print/texlive-vwcol \
 		${LOCALBASE}/share/texmf-dist/tex/latex/wallpaper/wallpaper.sty:${PORTSDIR}/print/texlive-wallpaper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/warning/warning.sty:${PORTSDIR}/print/texlive-warning \
@@ -685,11 +693,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/xmpincl/xmpincl.sty:${PORTSDIR}/print/texlive-xmpincl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xnewcommand/xnewcommand.sty:${PORTSDIR}/print/texlive-xnewcommand \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xoptarg/xoptarg.sty:${PORTSDIR}/print/texlive-xoptarg \
-		${LOCALBASE}/share/texmf-dist/tex/generic/xstring/xstring.tex:${PORTSDIR}/print/texlive-xstring \
+		${LOCALBASE}/share/texmf-dist/tex/generic/xstring/xstring.sty:${PORTSDIR}/print/texlive-xstring \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xwatermark/xwatermark.sty:${PORTSDIR}/print/texlive-xwatermark \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xytree/xytree.sty:${PORTSDIR}/print/texlive-xytree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yafoot/dblfnote.sty:${PORTSDIR}/print/texlive-yafoot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yagusylo/yagusylo.sty:${PORTSDIR}/print/texlive-yagusylo \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ydoc/ydoc.cls:${PORTSDIR}/print/texlive-ydoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yplan/yplan.sty:${PORTSDIR}/print/texlive-yplan \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zed-csp/zed-csp.sty:${PORTSDIR}/print/texlive-zed-csp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ziffer/ziffer.sty:${PORTSDIR}/print/texlive-ziffer \
@@ -781,6 +790,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/petri-nets/pndraw.sty:${PORTSDIR}/print/texlive-petri-nets \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty:${PORTSDIR}/print/texlive-pgf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-soroban/pgf-soroban.sty:${PORTSDIR}/print/texlive-pgf-soroban \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-umlsd/pgf-umlsd.sty:${PORTSDIR}/print/texlive-pgf-umlsd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfopts/pgfopts.sty:${PORTSDIR}/print/texlive-pgfopts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty:${PORTSDIR}/print/texlive-pgfplots \
 		${LOCALBASE}/share/texmf-dist/tex/latex/picinpar/picinpar.sty:${PORTSDIR}/print/texlive-picinpar \
@@ -802,6 +812,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-orm/tkz-orm.sty:${PORTSDIR}/print/texlive-tkz-orm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-tab/tkz-tab.sty:${PORTSDIR}/print/texlive-tkz-tab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tufte-latex/tufte-book.cls:${PORTSDIR}/print/texlive-tufte-latex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xypdf/xypdf.sty:${PORTSDIR}/print/texlive-xypdf \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xypic/xypic.sty:${PORTSDIR}/print/texlive-xypic
 
 NOPORTDOCS=	yes

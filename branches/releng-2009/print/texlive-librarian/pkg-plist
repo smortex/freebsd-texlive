@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/librarian/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/librarian/authoryear.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/librarian/librarian-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/librarian/librarian-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/librarian/librarian.bib
+share/texmf-dist/tex/generic/librarian/librarian.sty
+share/texmf-dist/tex/generic/librarian/librarian.tex
+share/texmf-dist/tex/generic/librarian/t-librarian.tex
+@dirrmtry share/texmf-dist/tex/generic/librarian
+@dirrmtry share/texmf-dist/doc/generic/librarian
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

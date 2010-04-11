@@ -6,10 +6,11 @@
 #
 
 PORTNAME=	pgfplots
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
-COMMENT=	Create normal/logarithmic plots in LaTeX.
+COMMENT=	Create normal/logarithmic plots in two and three dimensions.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

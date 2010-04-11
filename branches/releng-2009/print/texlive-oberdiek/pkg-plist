@@ -34,6 +34,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/gettitlestring.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/grfext.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/grffile.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/hologo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/holtxdoc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/hycolor.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/hypbmsec.pdf
@@ -268,6 +269,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/uniquecounter-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/uniquecounter.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/zref-example-lastpage.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/zref-example-nextpage.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/zref-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/zref.pdf
 share/texmf-dist/scripts/oberdiek/luacolor.lua
@@ -304,6 +306,7 @@ share/texmf-dist/scripts/oberdiek/pdftexcmds.lua
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/gettitlestring.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/grfext.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/grffile.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/oberdiek/hologo.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/holtxdoc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/hycolor.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/hypbmsec.dtx
@@ -373,6 +376,8 @@ share/texmf-dist/tex/generic/oberdiek/embedfile.sty
 share/texmf-dist/tex/generic/oberdiek/engord.sty
 share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+share/texmf-dist/tex/generic/oberdiek/hologo-test1.tex
+share/texmf-dist/tex/generic/oberdiek/hologo.sty
 share/texmf-dist/tex/generic/oberdiek/hyphsubst.sty
 share/texmf-dist/tex/generic/oberdiek/iflang.sty
 share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
@@ -552,9 +557,12 @@ share/texmf-dist/tex/latex/oberdiek/zref-counter.sty
 share/texmf-dist/tex/latex/oberdiek/zref-dotfill.sty
 share/texmf-dist/tex/latex/oberdiek/zref-hyperref.sty
 share/texmf-dist/tex/latex/oberdiek/zref-lastpage.sty
+share/texmf-dist/tex/latex/oberdiek/zref-marks.sty
+share/texmf-dist/tex/latex/oberdiek/zref-nextpage.sty
 share/texmf-dist/tex/latex/oberdiek/zref-perpage.sty
 share/texmf-dist/tex/latex/oberdiek/zref-runs.sty
 share/texmf-dist/tex/latex/oberdiek/zref-savepos.sty
+share/texmf-dist/tex/latex/oberdiek/zref-thepage.sty
 share/texmf-dist/tex/latex/oberdiek/zref-titleref.sty
 share/texmf-dist/tex/latex/oberdiek/zref-totpages.sty
 share/texmf-dist/tex/latex/oberdiek/zref-user.sty

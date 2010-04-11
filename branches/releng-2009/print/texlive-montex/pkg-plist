@@ -9,8 +9,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/montex/UPDATE
 %%PORTDOCS%%share/texmf-dist/doc/latex/montex/cyrename.pl
 %%PORTDOCS%%share/texmf-dist/doc/latex/montex/fontlist.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/montex/mfinput/bithe/testfont.input
-%%PORTDOCS%%share/texmf-dist/doc/latex/montex/mfinput/bithe/testfont.sh
+%%PORTDOCS%%share/texmf-dist/doc/latex/montex/mfinput/bicig/testfont.input
+%%PORTDOCS%%share/texmf-dist/doc/latex/montex/mfinput/bicig/testfont.sh
 %%PORTDOCS%%share/texmf-dist/doc/latex/montex/mkmlsmf.pl
 %%PORTDOCS%%share/texmf-dist/doc/latex/montex/mls-diag.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/montex/mlsquick.pdf
@@ -319,7 +319,7 @@ share/texmf-dist/tex/latex/montex/xalx.def
 @dirrmtry share/texmf-dist/fonts/tfm/public/montex
 @dirrmtry share/texmf-dist/fonts/source/public/montex
 @dirrmtry share/texmf-dist/fonts/map/dvips/montex
-@dirrmtry share/texmf-dist/doc/latex/montex/mfinput/bithe
+@dirrmtry share/texmf-dist/doc/latex/montex/mfinput/bicig
 @dirrmtry share/texmf-dist/doc/latex/montex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

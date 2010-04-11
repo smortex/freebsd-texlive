@@ -1,7 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-geo/Changes
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-geo/PSTricks.bib
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-geo/README
-%%PORTDOCS%%share/texmf-dist/doc/generic/pst-geo/index.phtml
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-geo/pst-geo-compress.pl
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-geo/pst-geo-decompress.pl
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-geo/pst-map2d-doc.pdf
@@ -14,8 +13,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-geo/pst-map3d-doc.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-geo/pst-map3dII-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-geo/pst-map3dII-doc.tex
-share/texmf-dist/dvips/pst-geo/map3d.pro
-share/texmf-dist/dvips/pst-geo/map3dII.pro
 share/texmf-dist/dvips/pst-geo/pst-map3d.pro
 share/texmf-dist/dvips/pst-geo/pst-map3dII.pro
 share/texmf-dist/tex/generic/pst-geo/data/README
