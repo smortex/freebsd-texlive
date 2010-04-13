@@ -40,6 +40,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/test2-wrapfig.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/test3-wrapfig.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/test3-wrapfig.tex
+%%PORTSRC%%share/texmf-dist/source/xelatex/bidi/bidi.dtx
 share/texmf-dist/tex/latex/bidi/amsart-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/amsbook-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/amsmath-xetex-bidi.def
@@ -103,6 +104,7 @@ share/texmf-dist/tex/latex/bidi/xcolor-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/xltxtra-xetex-bidi.def
 @dirrmtry share/texmf-dist/tex/latex/bidi
+@dirrmtry share/texmf-dist/source/xelatex/bidi
 @dirrmtry share/texmf-dist/doc/latex/bidi
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -4,3 +4,6 @@ SIZE (TeXLive/2009/bidi.tar.xz) = 34876
 MD5 (TeXLive/2009/bidi.doc.tar.xz) = 370e323e87dfb34dbd69d8a32c967db8
 SHA256 (TeXLive/2009/bidi.doc.tar.xz) = f7e6651e9ce074c251dfe6c50091eefce76f879761fa2bb9434e65b3a2571807
 SIZE (TeXLive/2009/bidi.doc.tar.xz) = 1274708
+MD5 (TeXLive/2009/bidi.source.tar.xz) = cee802fc2d98b75c58b4ba137fd8cf9b
+SHA256 (TeXLive/2009/bidi.source.tar.xz) = a10601270770d62b4e5986ac75cda9c386e67fa6e739234bfc9a722cd156c5e9
+SIZE (TeXLive/2009/bidi.source.tar.xz) = 41120
