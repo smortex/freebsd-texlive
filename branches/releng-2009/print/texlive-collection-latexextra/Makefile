@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -460,6 +460,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/pittetd/pittetd.cls:${PORTSDIR}/print/texlive-pittetd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/placeins/placeins.sty:${PORTSDIR}/print/texlive-placeins \
 		${LOCALBASE}/share/texmf-dist/tex/latex/plates/plates.sty:${PORTSDIR}/print/texlive-plates \
+		${LOCALBASE}/share/texmf-dist/tex/latex/plantslabels/plantslabels.sty:${PORTSDIR}/print/texlive-plantslabels \
 		${LOCALBASE}/share/texmf-dist/tex/latex/plweb/pcode.sty:${PORTSDIR}/print/texlive-plweb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/polyglot/polyglot.sty:${PORTSDIR}/print/texlive-polyglot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/polynom/polynom.sty:${PORTSDIR}/print/texlive-polynom \

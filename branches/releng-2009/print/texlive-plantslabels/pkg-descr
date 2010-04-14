@@ -1,0 +1,2 @@
+The package defines a command \plant, which has three mandatory
+and seven optional argument. The package uses the labels

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -80,7 +80,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/tex/latex/fourier/fourier.sty:${PORTSDIR}/print/texlive-fourier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fouriernc/fouriernc.sty:${PORTSDIR}/print/texlive-fouriernc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/frcursive/frcursive.sty:${PORTSDIR}/print/texlive-frcursive \
-		${LOCALBASE}/share/texmf-dist/fonts/tfm/cg/garamond/cgmb.tfm:${PORTSDIR}/print/texlive-garamond \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/genealogy/drgen.mf:${PORTSDIR}/print/texlive-genealogy \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/gentium/GenBasB.afm:${PORTSDIR}/print/texlive-gentium \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gfsartemisia/gfsartemisia.sty:${PORTSDIR}/print/texlive-gfsartemisia \
@@ -146,7 +145,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/tex/latex/trajan/trajan.sty:${PORTSDIR}/print/texlive-trajan \
 		${LOCALBASE}/share/texmf-dist/tex/latex/txfontsb/txfontsb.sty:${PORTSDIR}/print/texlive-txfontsb \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/umtypewriter/UMTypewriter-Bold.otf:${PORTSDIR}/print/texlive-umtypewriter \
-		${LOCALBASE}/share/texmf-dist/fonts/tfm/cg/univers/cunb.tfm:${PORTSDIR}/print/texlive-univers \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/universa/fulbc10.mf:${PORTSDIR}/print/texlive-universa \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/venturis/yvtb8a.afm:${PORTSDIR}/print/texlive-venturisadf \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/wsuipa/iaccent.mf:${PORTSDIR}/print/texlive-wsuipa \

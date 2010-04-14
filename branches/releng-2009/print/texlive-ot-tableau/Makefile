@@ -1,17 +1,17 @@
-# New ports collection makefile for:	texlive-bidi
-# Date created:		13/03/2010 05:00:44
+# New ports collection makefile for:	texlive-ot-tableau
+# Date created:		04/14/2010 05:52:09
 # Whom:		romain@blogreen.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	bidi
-PORTREVISION=	4
+PORTNAME=	ot-tableau
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
-COMMENT=	Support for bidirectional typesetting in LaTeX.
+COMMENT=	Optimality Theory tableaux in LaTeX.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

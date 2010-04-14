@@ -47,6 +47,9 @@ share/texmf-dist/tex/latex/bidi/amsmath-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/amsthm-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/array-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/article-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/artikel1-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/artikel2-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/artikel3-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/arydshln-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/bidi.sty
 share/texmf-dist/tex/latex/bidi/bidi2in1.sty
@@ -55,6 +58,8 @@ share/texmf-dist/tex/latex/bidi/bidiftnxtra.sty
 share/texmf-dist/tex/latex/bidi/bidimoderncv.cls
 share/texmf-dist/tex/latex/bidi/bidipoem.sty
 share/texmf-dist/tex/latex/bidi/bidipresentation.cls
+share/texmf-dist/tex/latex/bidi/boek-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/boek3-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/book-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/bookest-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/breqn-xetex-bidi.def
@@ -64,7 +69,10 @@ share/texmf-dist/tex/latex/bidi/colortbl-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/cvthemebidicasual.sty
 share/texmf-dist/tex/latex/bidi/cvthemebidiclassic.sty
 share/texmf-dist/tex/latex/bidi/draftwatermark-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/extarticle-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/extbook-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/extletter-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/extreport-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/fancyhdr-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/fleqn-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/flowfram-xetex-bidi.def
@@ -85,11 +93,13 @@ share/texmf-dist/tex/latex/bidi/pdfpages-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/pgf-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/pstricks-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/ragged2e-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/rapport1-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/rapport3-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/refrep-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/report-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/scrartcl-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/scrbook-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/scrlettr-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/scrreprt-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/stabular-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/subfigure-xetex-bidi.def

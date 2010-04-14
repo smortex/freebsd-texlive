@@ -6,6 +6,7 @@
 #
 
 PORTNAME=	collection-plainextra
+PORTREVISION=	1
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -26,7 +27,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/plain/figflow/figflow.tex:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/plain/resumemac/resumemac.tex:${PORTSDIR}/print/texlive-resumemac \
 		${LOCALBASE}/share/texmf-dist/tex/plain/timetable/timetable.tex:${PORTSDIR}/print/texlive-timetable \
 		${LOCALBASE}/share/texmf-dist/tex/plain/treetex/treetex.tex:${PORTSDIR}/print/texlive-treetex \
-		${LOCALBASE}/share/texmf-dist/tex/plain/typespec/TypeSp01.tex:${PORTSDIR}/print/texlive-typespec \
 		${LOCALBASE}/share/texmf-dist/tex/plain/varisize/10point.tex:${PORTSDIR}/print/texlive-varisize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/apalike/apalike.sty:${PORTSDIR}/print/texlive-apalike \
