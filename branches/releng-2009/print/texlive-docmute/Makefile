@@ -6,10 +6,11 @@
 #
 
 PORTNAME=	docmute
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
-COMMENT=	Convert document fragments into graphics.
+COMMENT=	Input files ignoring LaTeX preamble, etc.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

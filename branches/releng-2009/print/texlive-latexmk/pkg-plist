@@ -3,6 +3,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/INSTALL
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/README
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/README
+%%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/asymptote_latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/glossary_latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/pdflatexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/sagetex_latexmkrc
@@ -21,7 +22,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/latexmk.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/latexmk.txt
 %%PORTDOCS%%share/texmf/doc/man/man1/latexmk.1
-%%PORTDOCS%%share/texmf/doc/man/man1/latexmk.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf-dist/doc/support/latexmk/extra-scripts
 @dirrmtry share/texmf-dist/doc/support/latexmk/example_rcfiles

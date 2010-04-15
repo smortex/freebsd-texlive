@@ -1,8 +1,6 @@
 share/texmf-dist/bibtex/bst/achemso/achemso.bst
 share/texmf-dist/bibtex/bst/achemso/biochem.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/achemso/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/achemso/achemso-demo.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/achemso/achemso-demo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/achemso/achemso-demo.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/achemso/achemso.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/achemso/achemso.dtx
@@ -29,6 +27,7 @@ share/texmf-dist/tex/latex/achemso/config/jacsat.cfg
 share/texmf-dist/tex/latex/achemso/config/jafcau.cfg
 share/texmf-dist/tex/latex/achemso/config/jcchff.cfg
 share/texmf-dist/tex/latex/achemso/config/jceaax.cfg
+share/texmf-dist/tex/latex/achemso/config/jceda8.cfg
 share/texmf-dist/tex/latex/achemso/config/jcisd8.cfg
 share/texmf-dist/tex/latex/achemso/config/jctcce.cfg
 share/texmf-dist/tex/latex/achemso/config/jmcmar.cfg
