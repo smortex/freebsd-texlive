@@ -1,0 +1,4 @@
+This is a collection of shell scripts which provide an
+interface to the pdfpages LaTeX package. They do such jobs as
+selecting pages, concatenating files, doing n-up formatting,
+and so on.
