@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -591,6 +591,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/tablists/tablists.sty:${PORTSDIR}/print/texlive-tablists \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabls/tabls.sty:${PORTSDIR}/print/texlive-tabls \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabto-ltx/tabto.sty:${PORTSDIR}/print/texlive-tabto-ltx \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tabularborder/tabularborder.sty:${PORTSDIR}/print/texlive-tabularborder \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabularcalc/tabularcalc.sty:${PORTSDIR}/print/texlive-tabularcalc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabularew/tabularew.sty:${PORTSDIR}/print/texlive-tabularew \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabulary/tabulary.sty:${PORTSDIR}/print/texlive-tabulary \

@@ -1,6 +1,5 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/philex/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/philex/philex.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/philex/philex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/philex/philexmanualb.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/philex/philexmanualb.tex
 share/texmf-dist/tex/latex/philex/philex.sty
 @dirrmtry share/texmf-dist/tex/latex/philex
 @dirrmtry share/texmf-dist/doc/latex/philex

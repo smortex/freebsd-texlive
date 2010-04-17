@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	bidi
-PORTREVISION=	4
+PORTREVISION=	5
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
-COMMENT=	Support for bidirectional typesetting in LaTeX.
+COMMENT=	Support for bidirectional typesetting in plain TeX and LaTeX.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
