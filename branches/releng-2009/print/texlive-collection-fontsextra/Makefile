@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -44,13 +44,11 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/carolmin-ps/cmin10.afm:${PORTSDIR}/print/texlive-carolmin-ps \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ccicons/ccicons.sty:${PORTSDIR}/print/texlive-ccicons \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cherokee/cherokee.sty:${PORTSDIR}/print/texlive-cherokee \
-		${LOCALBASE}/share/texmf-dist/fonts/tfm/cg/clarendo/ccdr8tc.tfm:${PORTSDIR}/print/texlive-clarendo \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/cm-lgc/fcmb6y.afm:${PORTSDIR}/print/texlive-cm-lgc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmbright/cmbright.sty:${PORTSDIR}/print/texlive-cmbright \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmll/cmll.sty:${PORTSDIR}/print/texlive-cmll \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/cmpica/cmpica.mf:${PORTSDIR}/print/texlive-cmpica \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/concmath-fonts/xccam10.mf:${PORTSDIR}/print/texlive-concmath-fonts \
-		${LOCALBASE}/share/texmf-dist/fonts/tfm/cg/coronet/cor10u.tfm:${PORTSDIR}/print/texlive-coronet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/courier-scaled/8rpcrs.fd:${PORTSDIR}/print/texlive-courier-scaled \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/cryst/cryst.afm:${PORTSDIR}/print/texlive-cryst \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cyklop/cyklop.sty:${PORTSDIR}/print/texlive-cyklop \
@@ -106,7 +104,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/knuthotherfonts/committee/font1.mf:${PORTSDIR}/print/texlive-knuthotherfonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kpfonts/kpfonts.sty:${PORTSDIR}/print/texlive-kpfonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kurier/kurier.sty:${PORTSDIR}/print/texlive-kurier \
-		${LOCALBASE}/share/texmf-dist/fonts/tfm/cg/lettrgth/clgb.tfm:${PORTSDIR}/print/texlive-lettrgth \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/lfb/accents.mf:${PORTSDIR}/print/texlive-lfb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libertine/libertine.sty:${PORTSDIR}/print/texlive-libertine \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libris/libris.sty:${PORTSDIR}/print/texlive-libris \
@@ -114,7 +111,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/logic/milstd.mf:${PORTSDIR}/print/texlive-logic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lxfonts/lxfonts.sty:${PORTSDIR}/print/texlive-lxfonts \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/ly1/pcr8y.map:${PORTSDIR}/print/texlive-ly1 \
-		${LOCALBASE}/share/texmf-dist/fonts/tfm/cg/marigold/cmgr.tfm:${PORTSDIR}/print/texlive-marigold \
 		${LOCALBASE}/share/texmf-dist/tex/generic/mathabx/mathabx.sty:${PORTSDIR}/print/texlive-mathabx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathdesign/mathdesign.sty:${PORTSDIR}/print/texlive-mathdesign \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc:${PORTSDIR}/print/texlive-mnsymbol \
@@ -122,7 +118,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/ocherokee/Cherokee-Bold.afm:${PORTSDIR}/print/texlive-ocherokee \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/ogham/ogham.mf:${PORTSDIR}/print/texlive-ogham \
 		${LOCALBASE}/share/texmf-dist/tex/lambda/oinuit/oinuit.sty:${PORTSDIR}/print/texlive-oinuit \
-		${LOCALBASE}/share/texmf-dist/fonts/tfm/cg/optima/copb.tfm:${PORTSDIR}/print/texlive-optima \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/orkhun/orhant.mf:${PORTSDIR}/print/texlive-orkhun \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/osmanian/osmanian.mf:${PORTSDIR}/print/texlive-osmanian \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pacioli/pacioli.sty:${PORTSDIR}/print/texlive-pacioli \

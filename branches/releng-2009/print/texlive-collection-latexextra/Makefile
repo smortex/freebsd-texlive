@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTREVISION=	3
+PORTREVISION=	4
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -364,6 +364,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/mceinleger/mceinleger.sty:${PORTSDIR}/print/texlive-mceinleger \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mcite/mcite.sty:${PORTSDIR}/print/texlive-mcite \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mciteplus/mciteplus.sty:${PORTSDIR}/print/texlive-mciteplus \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mdframed/mdframed.sty:${PORTSDIR}/print/texlive-mdframed \
 		${LOCALBASE}/share/texmf-dist/tex/latex/memexsupp/memexsupp.sty:${PORTSDIR}/print/texlive-memexsupp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/menu/menu.sty:${PORTSDIR}/print/texlive-menu \
 		${LOCALBASE}/share/texmf-dist/tex/latex/method/method.sty:${PORTSDIR}/print/texlive-method \
@@ -802,6 +803,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/pinlabel/pinlabel.sty:${PORTSDIR}/print/texlive-pinlabel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pmgraph/pmgraph.sty:${PORTSDIR}/print/texlive-pmgraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/randbild/randbild.sty:${PORTSDIR}/print/texlive-randbild \
+		${LOCALBASE}/share/texmf-dist/tex/latex/roundbox/roundbox.sty:${PORTSDIR}/print/texlive-roundbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/schemabloc/schemabloc.sty:${PORTSDIR}/print/texlive-schemabloc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/swimgraf/swimgraf.sty:${PORTSDIR}/print/texlive-swimgraf \
 		${LOCALBASE}/share/texmf-dist/tex/generic/texdraw/texdraw.sty:${PORTSDIR}/print/texlive-texdraw \

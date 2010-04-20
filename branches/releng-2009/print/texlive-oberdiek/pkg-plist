@@ -262,6 +262,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/uniquecounter-test2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/uniquecounter-test3.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/zref-test-runs.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/zref-test-titleref-memoir.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/zref-test1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/transparent-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/transparent.pdf

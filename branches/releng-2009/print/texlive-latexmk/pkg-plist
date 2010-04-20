@@ -22,6 +22,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/latexmk.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/latexmk.txt
 %%PORTDOCS%%share/texmf/doc/man/man1/latexmk.1
+%%PORTDOCS%%share/texmf/doc/man/man1/latexmk.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf-dist/doc/support/latexmk/extra-scripts
 @dirrmtry share/texmf-dist/doc/support/latexmk/example_rcfiles
