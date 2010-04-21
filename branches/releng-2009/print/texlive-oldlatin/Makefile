@@ -1,16 +1,15 @@
-# New ports collection makefile for:	texlive-flashmovie
-# Date created:		13/03/2010 04:42:31
+# New ports collection makefile for:	texlive-oldlatin
+# Date created:		04/21/2010 05:35:25
 # Whom:		romain@blogreen.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	flashmovie
-PORTREVISION=	2
+PORTNAME=	oldlatin
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
-COMMENT=	Directly embed flash movies into PDF files.
+COMMENT=	Compute Modern like font with long s.
 
 NOPORTSRC=	yes
 

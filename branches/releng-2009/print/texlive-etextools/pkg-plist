@@ -1,4 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/etextools/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/etextools/etextools-examples.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/etextools/etextools-examples.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/etextools/etextools.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/etextools/etextools.drv
 %%PORTSRC%%share/texmf-dist/source/latex/etextools/etextools.dtx
