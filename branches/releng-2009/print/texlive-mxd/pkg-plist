@@ -1,5 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/mxd/INSTALL
 %%PORTDOCS%%share/texmf-dist/doc/latex/mxd/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/mxd/mxd4tex.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/mxd/mxd4tex.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/mxd/mxd4tex.tex
 share/texmf-dist/fonts/source/public/mxd/mxdatoms.mf
 share/texmf-dist/fonts/source/public/mxd/mxdcodes.mf
