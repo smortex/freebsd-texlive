@@ -29,6 +29,7 @@ share/readme-txt.dir/README.ZH-CN
 share/release-texlive.txt
 %%PORTDOCS%%share/texmf/doc/man/man1/tlmgr.1
 %%PORTDOCS%%share/texmf/doc/man/man1/tlmgr.man1.pdf
+%%PORTDOCS%%share/texmf/scripts/texlive/NEWS
 share/texmf/scripts/texlive/tlmgrgui.pl
 share/texmf/scripts/texlive/tlmgrgui/do_listframe.pl
 share/texmf/scripts/texlive/tlmgrgui/gui-arch.pl
