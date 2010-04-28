@@ -1,17 +1,17 @@
-# New ports collection makefile for:	texlive-pst-plot
-# Date created:		13/03/2010 04:57:21
+# New ports collection makefile for:	texlive-biblatex-historian
+# Date created:		04/28/2010 05:35:15
 # Whom:		romain@blogreen.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	pst-plot
-PORTREVISION=	3
+PORTNAME=	biblatex-historian
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
-COMMENT=	Plot data using PSTricks.
+COMMENT=	A Biblatex style.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

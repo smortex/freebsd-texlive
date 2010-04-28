@@ -1,0 +1,7 @@
+Decorates individual paragraphs of a document, offering five
+pre-defined styles. The command offers an optional 'key-value'
+argument with the user may define parameters of the selected
+style. (Paragraphs may not include displayed mathematics.)
+Predefined style offer a spiral-notebook, a zebra-like, a
+dashed, a marked design, and an underlined style. Users may
+also define their own styles.

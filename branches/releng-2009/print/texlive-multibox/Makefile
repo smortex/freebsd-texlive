@@ -1,16 +1,15 @@
-# New ports collection makefile for:	texlive-mdframed
-# Date created:		04/20/2010 05:38:16
+# New ports collection makefile for:	texlive-multibox
+# Date created:		04/28/2010 05:39:31
 # Whom:		romain@blogreen.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	mdframed
-PORTREVISION=	1
+PORTNAME=	multibox
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
-COMMENT=	Framed environments that can split at page boundaries.
+COMMENT=	Multiple boxes and frames for the picture environment.
 
 NOPORTSRC=	yes
 

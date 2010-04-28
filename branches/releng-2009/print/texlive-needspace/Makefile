@@ -6,12 +6,12 @@
 #
 
 PORTNAME=	needspace
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
 COMMENT=	Insert pagebreak if not enough space.
 
-NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
