@@ -7,6 +7,7 @@
 
 PORTNAME=	texlive-core
 PORTVERSION=	20091011
+PORTREVISION=	1
 CATEGORIES=	print
 MASTER_SITES=	${MASTER_SITE_TEX_CTAN}
 MASTER_SITE_SUBDIR=	systems/texlive/Source
@@ -79,6 +80,57 @@ post-extract:
 	@find ${WRKSRC} -name 'Makefile.in' | xargs sed -I '' -e 's|\(\$$[{(]prefix[)}]\)/texmf|\1/share/texmf|'
 
 post-install:
+	@${LN} -sf pdftex ${PREFIX}/bin/amstex
+	@${LN} -sf ../../texmf-dist/scripts/bundledoc/arlatex ${PREFIX}/bin/arlatex
+	@${LN} -sf ../../texmf-dist/scripts/bibexport/bibexport.sh ${PREFIX}/bin/bibexport
+	@${LN} -sf ../../texmf-dist/scripts/bundledoc/bundledoc ${PREFIX}/bin/bundledoc
+	@${LN} -sf pdftex ${PREFIX}/bin/cslatex
+	@${LN} -sf pdftex ${PREFIX}/bin/csplain
+	@${LN} -sf ../../texmf-dist/scripts/de-macro/de-macro ${PREFIX}/bin/de-macro
+	@${LN} -sf luatex ${PREFIX}/bin/dvilualatex
+	@${LN} -sf luatex ${PREFIX}/bin/dviluatex
+	@${LN} -sf pdftex ${PREFIX}/bin/eplain
+	@${LN} -sf pdftex ${PREFIX}/bin/etex
+	@${LN} -sf pdftex ${PREFIX}/bin/jadetex
+	@${LN} -sf aleph ${PREFIX}/bin/lamed
+	@${LN} -sf pdftex ${PREFIX}/bin/latex
+	@${LN} -sf ../../texmf-dist/scripts/latexdiff/latexdiff.pl ${PREFIX}/bin/latexdiff
+	@${LN} -sf ../../texmf-dist/scripts/latexdiff/latexdiff-vc.pl ${PREFIX}/bin/latexdiff-vc
+	@${LN} -sf ../../texmf-dist/scripts/latexdiff/latexrevise.pl ${PREFIX}/bin/latexrevise
+	@${LN} -sf luatex ${PREFIX}/bin/lualatex
+	@${LN} -sf mpost ${PREFIX}/bin/metafun
+	@${LN} -sf pdftex ${PREFIX}/bin/mex
+	@${LN} -sf mpost ${PREFIX}/bin/mfplain
+	@${LN} -sf pdftex ${PREFIX}/bin/mllatex
+	@${LN} -sf pdftex ${PREFIX}/bin/mltex
+	@${LN} -sf ../../texmf-dist/scripts/pdfjam/pdf180 ${PREFIX}/bin/pdf180
+	@${LN} -sf ../../texmf-dist/scripts/pdfjam/pdf270 ${PREFIX}/bin/pdf270
+	@${LN} -sf ../../texmf-dist/scripts/pdfjam/pdf90 ${PREFIX}/bin/pdf90
+	@${LN} -sf ../../texmf-dist/scripts/pdfjam/pdfbook ${PREFIX}/bin/pdfbook
+	@${LN} -sf pdftex ${PREFIX}/bin/pdfcslatex
+	@${LN} -sf pdftex ${PREFIX}/bin/pdfcsplain
+	@${LN} -sf pdftex ${PREFIX}/bin/pdfetex
+	@${LN} -sf ../../texmf-dist/scripts/pdfjam/pdfflip ${PREFIX}/bin/pdfflip
+	@${LN} -sf pdftex ${PREFIX}/bin/pdfjadetex
+	@${LN} -sf ../../texmf-dist/scripts/pdfjam/pdfjam ${PREFIX}/bin/pdfjam
+	@${LN} -sf ../../texmf-dist/scripts/pdfjam/pdfjam-pocketmod ${PREFIX}/bin/pdfjam-pocketmod
+	@${LN} -sf ../../texmf-dist/scripts/pdfjam/pdfjam-slides3up ${PREFIX}/bin/pdfjam-slides3up
+	@${LN} -sf ../../texmf-dist/scripts/pdfjam/pdfjam-slides6up ${PREFIX}/bin/pdfjam-slides6up
+	@${LN} -sf ../../texmf-dist/scripts/pdfjam/pdfjoin ${PREFIX}/bin/pdfjoin
+	@${LN} -sf pdftex ${PREFIX}/bin/pdflatex
+	@${LN} -sf pdftex ${PREFIX}/bin/pdfmex
+	@${LN} -sf ../../texmf-dist/scripts/pdfjam/pdfnup ${PREFIX}/bin/pdfnup
+	@${LN} -sf ../../texmf-dist/scripts/pdfjam/pdfpun ${PREFIX}/bin/pdfpun
+	@${LN} -sf pdftex ${PREFIX}/bin/pdfxmltex
+	@${LN} -sf pdftex ${PREFIX}/bin/physe
+	@${LN} -sf pdftex ${PREFIX}/bin/phyzzx
+	@${LN} -sf ../../texmf/scripts/xindy/texindy.pl ${PREFIX}/bin/texindy
+	@${LN} -sf pdftex ${PREFIX}/bin/texsis
+	@${LN} -sf pdftex ${PREFIX}/bin/utf8mex
+	@${LN} -sf ../../texmf/asymptote/GUI/xasy.py ${PREFIX}/bin/xasy
+	@${LN} -sf xetex ${PREFIX}/bin/xelatex
+	@${LN} -sf ../../texmf/scripts/xindy/xindy.pl ${PREFIX}/bin/xindy
+	@${LN} -sf pdftex ${PREFIX}/bin/xmltex
 	@echo "Updating ls-R databases..."
 	@mktexlsr
 

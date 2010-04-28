@@ -7,6 +7,8 @@ bin/aleph
 bin/allcm
 bin/allec
 bin/allneeded
+bin/amstex
+bin/arlatex
 bin/autoinst
 bin/bbox
 bin/bg5+latex
@@ -14,8 +16,10 @@ bin/bg5+pdflatex
 bin/bg5conv
 bin/bg5latex
 bin/bg5pdflatex
+bin/bibexport
 bin/bibtex
 bin/bibtex8
+bin/bundledoc
 bin/cachepic
 bin/cef5conv
 bin/cef5latex
@@ -29,10 +33,13 @@ bin/cefspdflatex
 bin/cfftot1
 bin/cmap2enc
 bin/context
+bin/cslatex
+bin/csplain
 bin/ctangle
 bin/ctie
 bin/ctxtools
 bin/cweave
+bin/de-macro
 bin/detex
 bin/devnag
 bin/disdvi
@@ -52,6 +59,8 @@ bin/dvilj2p
 bin/dvilj4
 bin/dvilj4l
 bin/dvilj6
+bin/dvilualatex
+bin/dviluatex
 bin/dvipdfm
 bin/dvipdfmx
 bin/dvipdft
@@ -66,10 +75,12 @@ bin/dvitype
 bin/e2pall
 bin/ebb
 bin/ebong
+bin/eplain
 bin/epsffit
 bin/epspdf
 bin/epspdftk
 bin/epstopdf
+bin/etex
 bin/extconv
 bin/extractbb
 bin/extractres
@@ -109,6 +120,7 @@ bin/httexi
 bin/htxelatex
 bin/htxetex
 bin/includeres
+bin/jadetex
 bin/kpseaccess
 bin/kpsepath
 bin/kpsereadlink
@@ -118,9 +130,15 @@ bin/kpsewhere
 bin/kpsewhich
 bin/kpsexpand
 bin/lacheck
+bin/lamed
+bin/latex
 bin/latex2man
+bin/latexdiff
+bin/latexdiff-vc
 bin/latexmk
+bin/latexrevise
 bin/listings-ext.sh
+bin/lualatex
 bin/luatangle
 bin/luatex
 bin/luatools
@@ -128,8 +146,11 @@ bin/mag
 bin/makeglossaries
 bin/makeindex
 bin/makempy
+bin/metafun
+bin/mex
 bin/mf
 bin/mf-nowin
+bin/mfplain
 bin/mft
 bin/mk4ht
 bin/mkgrkindex
@@ -143,6 +164,8 @@ bin/mktexlsr
 bin/mktexmf
 bin/mktexpk
 bin/mktextfm
+bin/mllatex
+bin/mltex
 bin/mmafm
 bin/mmpfb
 bin/mpost
@@ -165,18 +188,39 @@ bin/outocp
 bin/ovf2ovp
 bin/ovp2ovf
 bin/patgen
+bin/pdf180
+bin/pdf270
+bin/pdf90
 bin/pdfannotextractor
 bin/pdfatfi
+bin/pdfbook
 bin/pdfclose
 bin/pdfcrop
+bin/pdfcslatex
+bin/pdfcsplain
+bin/pdfetex
+bin/pdfflip
+bin/pdfjadetex
+bin/pdfjam
+bin/pdfjam-pocketmod
+bin/pdfjam-slides3up
+bin/pdfjam-slides6up
+bin/pdfjoin
+bin/pdflatex
+bin/pdfmex
+bin/pdfnup
 bin/pdfopen
+bin/pdfpun
 bin/pdftex
 bin/pdfthumb
 bin/pdftools
 bin/pdftosrc
+bin/pdfxmltex
 bin/perltex
 bin/pfb2pfa
 bin/pfm2kpx
+bin/physe
+bin/phyzzx
 bin/pk2bm
 bin/pkfix
 bin/pkfix-helper
@@ -242,11 +286,13 @@ bin/texdoctk
 bin/texexec
 bin/texfont
 bin/texhash
+bin/texindy
 bin/texlinks
 bin/texloganalyser
 bin/texlua
 bin/texluac
 bin/texmfstart
+bin/texsis
 bin/textools
 bin/texutil
 bin/tftopl
@@ -263,6 +309,7 @@ bin/ttftotype42
 bin/ulqda
 bin/updmap
 bin/updmap-sys
+bin/utf8mex
 bin/vftovp
 bin/vlna
 bin/vpe
@@ -270,10 +317,14 @@ bin/vpl2ovp
 bin/vpl2vpl
 bin/vptovf
 bin/weave
+bin/xasy
 bin/xdvi
 bin/xdvi-xaw
 bin/xdvipdfmx
+bin/xelatex
 bin/xetex
+bin/xindy
+bin/xmltex
 bin/xmltools
 include/kpathsea/absolute.h
 include/kpathsea/c-auto.h
@@ -545,3 +596,5 @@ share/texmf/xdvi/xdvi.cfg
 @dirrm share/texmf
 @dirrm share/lcdf-typetools
 @dirrm include/kpathsea
+@unexec rm -f %D/share/texo f-dist/ls-R
+@unexec rm -f %D/share/texmf/ls-R
