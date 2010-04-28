@@ -20,6 +20,7 @@ PLIST_SUB+=		PORTSRC=""
 PLIST_SUB+=		PORTSRC="@comment"
 .endif
 
+FETCH_ARGS=	-ApR	# Do NOT restart a previously interrupted transfer
 USE_XZ=		yes
 NO_BUILD=	yes
 
