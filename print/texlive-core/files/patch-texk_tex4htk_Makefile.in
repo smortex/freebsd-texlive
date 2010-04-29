@@ -3,27 +3,30 @@ $FreeBSD$
 
 --- texk/tex4htk/Makefile.in.orig
 +++ texk/tex4htk/Makefile.in
-@@ -32,15 +32,15 @@
- install-exec: all
- 	$(SHELL) $(top_srcdir)/../mkinstalldirs $(bindir)
- 	for p in $(programs); do $(INSTALL_LIBTOOL_PROG) $$p $(bindir); done
--	$(INSTALL) -d "$(prefix)/texmf-dist/scripts/tex4ht"
--	for p in $(shell_scripts); do $(INSTALL_SCRIPT) $(srcdir)/$$p "$(prefix)/texmf-dist/scripts/tex4ht/$$p.sh"; done
--	for p in $(perl_scripts); do $(INSTALL_SCRIPT) $(srcdir)/$$p "$(prefix)/texmf-dist/scripts/tex4ht/$$p.pl"; done
--	if test -d "$(bindir)/../../texmf-dist/scripts/tex4ht"; then \
--	  d=../../texmf-dist/scripts/tex4ht; \
--	elif test -d "$(bindir)/../texmf-dist/scripts/tex4ht"; then \
--	  d=../texmf-dist/scripts/tex4ht; \
-+	$(INSTALL) -d "$(prefix)/share/texmf-dist/scripts/tex4ht"
-+	for p in $(shell_scripts); do $(INSTALL_SCRIPT) $(srcdir)/$$p "$(prefix)/share/texmf-dist/scripts/tex4ht/$$p.sh"; done
-+	for p in $(perl_scripts); do $(INSTALL_SCRIPT) $(srcdir)/$$p "$(prefix)/share/texmf-dist/scripts/tex4ht/$$p.pl"; done
-+	if test -d "$(bindir)/../../share/texmf-dist/scripts/tex4ht"; then \
-+	  d=../../share/texmf-dist/scripts/tex4ht; \
-+	elif test -d "$(bindir)/../share/texmf-dist/scripts/tex4ht"; then \
-+	  d=../share/texmf-dist/scripts/tex4ht; \
- 	else \
--	  echo "Error: texmf-dist/scripts/tex4ht directory not found" >&2; \
-+	  echo "Error: share/texmf-dist/scripts/tex4ht directory not found" >&2; \
- 	  exit 1; \
- 	fi; \
- 	for p in $(shell_scripts); do rm -f $(bindir)/$$p; ln -s $$d/$$p.sh $(bindir)/$$p; done; \
+@@ -273,7 +273,7 @@
+ 	xhlatex xhmcontext xhmex xhmlatex xhmmex xhmtex xhmtexi \
+ 	xhmxelatex xhmxetex xhtex xhtexi xhxelatex xhxetex xv4ht.java
+ tex4ht_subdir = texmf-dist/scripts/tex4ht
+-tex4htdir = ${prefix}/$(tex4ht_subdir)
++tex4htdir = ${prefix}/share/$(tex4ht_subdir)
+ tex4ht_SCRIPTS = 
+ bin_SCRIPTS = 
+ all: c-auto.h
+@@ -844,13 +844,13 @@
+ 	@cd $(DESTDIR)$(bindir) && \
+ 	  for p in $(perl_scripts); do \
+ 	    rm -f $$p; \
+-	    echo "creating link '$$p' -> '$(REL)/$(tex4ht_subdir)/$$p.pl'"; \
+-	    $(LN_S) $(REL)/$(tex4ht_subdir)/$$p.pl $$p; \
++	    echo "creating link '$$p' -> '$(REL)/share/$(tex4ht_subdir)/$$p.pl'"; \
++	    $(LN_S) $(REL)/share/$(tex4ht_subdir)/$$p.pl $$p; \
+ 	  done && \
+ 	  for p in $(shell_scripts); do \
+ 	    rm -f $$p; \
+-	    echo "creating link '$$p' -> '$(REL)/$(tex4ht_subdir)/$$p.sh'"; \
+-	    $(LN_S) $(REL)/$(tex4ht_subdir)/$$p.sh $$p; \
++	    echo "creating link '$$p' -> '$(REL)/share/$(tex4ht_subdir)/$$p.sh'"; \
++	    $(LN_S) $(REL)/share/$(tex4ht_subdir)/$$p.sh $$p; \
+ 	  done
+ 
+ uninstall-hook:
