@@ -1,4 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/needspace/needspace.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/needspace/needspace.tex
 share/texmf-dist/tex/latex/needspace/needspace.sty
 @dirrmtry share/texmf-dist/tex/latex/needspace
+@dirrmtry share/texmf-dist/doc/latex/needspace
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

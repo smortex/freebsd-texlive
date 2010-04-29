@@ -1,17 +1,17 @@
-# New ports collection makefile for:	texlive-bibleref
-# Date created:		13/03/2010 04:32:16
+# New ports collection makefile for:	texlive-context-fullpage
+# Date created:		04/29/2010 05:34:27
 # Whom:		romain@blogreen.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	bibleref
-PORTREVISION=	1
+PORTNAME=	context-fullpage
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
-COMMENT=	Format bible citations.
+COMMENT=	Overfull pages with ConTeXt
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
