@@ -1,4 +1,0 @@
-The package uses PStricks; the user may define the width of the
-table, the number of lines and the height of each line.
-Placement of labels within the boxes may be absolute, or as a
-percentage of the width; various other controls are available.

@@ -1,6 +1,0 @@
-A modification of the standard LaTeX letter class which prints
-multiple, pre-stamped, 5.5" by 3.5" postcards (a US standard
-size) via the envlab and mailing packages. An address database
-is employed to address the front side of each postcard and a
-message is printed on the back side of all. An illustrative
-example is provided.

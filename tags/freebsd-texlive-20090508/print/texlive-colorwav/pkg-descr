@@ -1,4 +1,0 @@
-The package allows the user to obtain an RGB value (suitable
-for use in the color package) from a wavelength of light. The
-default unit is nanometres, but other units may be used. Note
-that this function is also available within the xcolor.

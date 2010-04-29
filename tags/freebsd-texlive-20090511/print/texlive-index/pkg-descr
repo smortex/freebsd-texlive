@@ -1,7 +1,0 @@
-This is a reimplementation of LaTeX's indexing macros to
-provide better support for indexing. For example, it supports
-multiple indexes in a single document and provides a more
-robust \index command. It supplies short hand notations for the
-\index command (^{word}) and a * variation of \index
-(abbreviated _{word}) that prints the word being indexed, as
-well as creating an index entry for it.

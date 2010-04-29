@@ -1,6 +1,0 @@
-This package provides array data structures in (La)TeX, in the
-meaning of the classical procedural programming languages like
-Fortran, Ada or C, and macros to manipulate them. Arrays can be
-mono or bi-dimensional. This is useful for applications which
-require high level programming techniques, like algorithmic
-graphics programmed in the TeX language.

@@ -1,4 +1,0 @@
-The package adds several kinds of guillemets (Polish cmr,
-Cyrillic cmr, lasy and ec) to the ae fonts. It is useful if you
-are using the ae fonts to produce PDF files, since the
-additional guillemets exist in Type 1 versions.

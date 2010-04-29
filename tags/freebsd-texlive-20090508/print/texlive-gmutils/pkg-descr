@@ -1,6 +1,0 @@
-Miscellaneous macros used by others of the author’s packages.
-Contents of the package: \newgif and other globals; \@ifnextcat
-and \@ifXeTeX; \(Re)storeMacro(s) to override redefinitions;
-\afterfi and friends; commands from relsize, etc.; “almost an
-environment” or redefinition of \begin (\begin* doesn't check
-if the argument environment is defined).

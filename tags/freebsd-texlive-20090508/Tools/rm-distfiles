@@ -1,6 +1,0 @@
-#!/bin/sh
-#
-# Remove the current port's distfiles
-
-files=`make -V DISTFILES`
-cd `make -V _DISTDIR` && rm -vf ${files}

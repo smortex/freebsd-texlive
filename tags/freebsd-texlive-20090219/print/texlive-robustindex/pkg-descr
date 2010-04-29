@@ -1,5 +1,0 @@
-Third parties often change the page numbers without rerunning
-makeindex. One would like to make the page numbers in the index
-entries more robust. This bundle provides robustindex.sty and
-robustglossary.sty, which use the \pageref mechanism to
-maintain correct page numbers

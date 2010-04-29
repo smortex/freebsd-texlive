@@ -1,6 +1,0 @@
-The package defines a command \readtabline which prompts the
-user for the name of a file of data. The command's one numeric
-argument <n> specifies the number of fields to appear in the
-table being generated; the package reads <n> lines at a time
-from the data file, and creates one tabular line from each such
-set.

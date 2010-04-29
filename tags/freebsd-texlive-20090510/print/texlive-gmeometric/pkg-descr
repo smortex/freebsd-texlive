@@ -1,6 +1,0 @@
-Changing the size of the typeset area is well-known to be a
-dangerous operation in TeX documents. This package identifies
-the circumstances where the \geometry command of the geometry
-package may safely be used, (other, of course, than in the
-preamble of a document) and provides a mechanism for using it.
-The package makes use of the author’s gmutils package.

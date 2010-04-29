@@ -1,5 +1,0 @@
-This package supports the preparation of semi one sided
-documents. That is, two sided documents, where all text is
-output on right-hand pages—as in a one-sided documents—and
-only special contents are output on left-hand pages on user
-request, e.g., floating objects.

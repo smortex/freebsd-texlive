@@ -1,2 +1,0 @@
-Defines macros \makeendnotes, which converts \footnote to
-produce endnotes; and \theendnotes which prints them out.

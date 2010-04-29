@@ -1,5 +1,0 @@
-This package defines a couple of editorial notes that simplify
-collaboration on a LaTeX text. These allow authors to annotate
-status information in the source. In draft mode, the
-annotations are shown for communication, and in publication
-mode these are suppressed.

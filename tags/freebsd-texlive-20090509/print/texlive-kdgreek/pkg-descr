@@ -1,7 +1,0 @@
-The fonts are distributed as MetaFont source; the design
-derives from Silvio Levy’s fonts, but has also been
-influenced by Yannis Haralambous’ work. They are 8-bit fonts
-which, the author believes, leads to more robust macro
-programming. Both ancient and modern Greek are supported.
-Macros to work with Plain TeX (‘greektex’) and with LaTeX
-2.09 (‘grlatex’) are provided.

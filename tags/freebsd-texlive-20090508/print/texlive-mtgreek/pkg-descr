@@ -1,6 +1,0 @@
-This package is an add-on to the MathTime a style to provide
-TeX support for the use of the MathTime(tm) fonts (formerly
-distributed by YandY, Inc.). The MathTime package has uppercase
-Greek letters hardwired to be upright and only upright; this
-package provides a switch to choose between the two kinds of
-Greek uppercase letters.

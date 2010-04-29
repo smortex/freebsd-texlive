@@ -1,3 +1,0 @@
-The package provides the means to typeset ISBN codes with EAN-
-13; it uses the (generic) package ean13.tex to typeset the
-actual barcode.

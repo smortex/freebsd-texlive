@@ -1,4 +1,0 @@
-DVICOPY is a utility program that allows one to take a DVI file
-that references composite fonts (VF) and convert it into a DVI
-file that does not contain such references. It also serves as a
-basis for writing DVI drivers (much like DVItype).

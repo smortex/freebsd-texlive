@@ -1,4 +1,0 @@
-Prints a card-size calendar for any year, AD or BC, with
-Gregorian or Julian leap rules (useful for years before
-adoption of Gregorian rules). Cal2000.tex prints a calendar for
-years 1990--2020.

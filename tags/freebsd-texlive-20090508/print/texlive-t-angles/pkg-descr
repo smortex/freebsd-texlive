@@ -1,6 +1,0 @@
-A LaTeX2e package for drawing tangles, trees, Hopf algebra
-operations and other pictures. It is based on emTeX or TPIC
-\special's. Therefore, it can be used with the most popular
-drivers, including emTeX drivers, dviwin, xdvi and dvips, and
-(using some code from ConTeXt) it may also be used with
-PDFLaTeX.

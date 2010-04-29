@@ -1,4 +1,0 @@
-The package provides experimental hyphenation patterns for the
-German language, covering both traditional and reformed
-orthography. The patterns can be used with packages Babel and
-hyphsubst.

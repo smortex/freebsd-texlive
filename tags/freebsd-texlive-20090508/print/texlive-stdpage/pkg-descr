@@ -1,6 +1,0 @@
-For translations, proofreading, journal contributions etc.
-standard pages are used. Those standard pages consist of a
-fixed number of lines and characters per line. This package
-produces pages with n lines of at most m characters each. For
-instance the German "Normseite": 60 lines of 30 characters
-each.

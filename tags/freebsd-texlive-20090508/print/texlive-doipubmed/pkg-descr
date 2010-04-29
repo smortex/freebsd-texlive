@@ -1,3 +1,0 @@
-The package provides the commands \doi, \pubmed and \citeurl.
-These commands are primarily designed for use in
-bibliographies. A LaTeX2HTML style file is also provided.

@@ -1,4 +1,0 @@
-This experimental package can read and parse text tables
-delimited by user-defined tokens (e.g., tab). It can be used
-for serial letters and the like, making it easier to export the
-data file from MS-Excel/MS-Word

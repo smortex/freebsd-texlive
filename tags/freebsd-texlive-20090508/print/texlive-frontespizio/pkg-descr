@@ -1,8 +1,0 @@
-Typesetting a frontispiece independently of the layout of the
-main document is difficult. This package provides a solution by
-producing an auxiliary TeX file to be typeset on its own and
-the result is automatically included at the next run. The
-markup necessary for the frontispiece is written in the main
-document in a frontespizio environment. Documentation is mainly
-in Italian, as the style is probably apt only to theses in
-Italy.

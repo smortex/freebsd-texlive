@@ -1,5 +1,0 @@
-This language support package provides: – Lithuanian language
-hyphenation patterns; – Lithuanian support for Babel; –
-Lithuanian mapping and metrics for using the URW base-35 Type 1
-fonts; – examples for making Lithuanian fonts with fontinst;
-and – extra tools for intputenc and fontenc.

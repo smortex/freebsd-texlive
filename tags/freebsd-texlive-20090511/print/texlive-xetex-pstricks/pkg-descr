@@ -1,6 +1,0 @@
-The package provides an indirection scheme for XeTeX to use the
-pstricks xdvipdfmx.con configuration file, so that XeTeX
-documents will load it in preference to the standard
-pstricks.con configuration file. With this configuration, many
-PSTricks features can be used in xelatex or plain xetex
-documents.

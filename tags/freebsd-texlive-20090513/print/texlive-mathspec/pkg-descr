@@ -1,3 +1,0 @@
-The mathspec package provides an interface to typeset
-mathematics in XeLaTeX with arbitrary text fonts using fontspec
-as a backend.

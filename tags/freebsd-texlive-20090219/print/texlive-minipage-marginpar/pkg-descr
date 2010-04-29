@@ -1,7 +1,0 @@
-This package allows \marginpar-commands inside of minipages and
-other boxes. (It takes another approach than marginnote by
-Markus Kohm: it saves all \marginpar-commands and typesets them
-outside (i.e., after) the box.) The package defines an
-environment minipagewithmarginpars (to be used like
-minipage)—and the internal commands may be used by other
-packages to define similar environments or commands.

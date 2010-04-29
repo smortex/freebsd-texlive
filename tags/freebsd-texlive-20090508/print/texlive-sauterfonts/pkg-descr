@@ -1,7 +1,0 @@
-A package providing font definition files (plus a replacement
-for the package exscale) to access many of the fonts in
-Sauter's collection. These fonts are available in all point
-sizes and look nicer for such "intermediate" document sizes as
-11pt. Also included is the package sbbm, an alternative to
-access the bbm fonts, a nice collection of blackboard bold
-symbols.

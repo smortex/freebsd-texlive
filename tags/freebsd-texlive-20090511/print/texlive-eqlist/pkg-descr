@@ -1,3 +1,0 @@
-This package provides a list environment which sets a
-description-like list but with the difference that the
-indentation corresponds to the longest item of the list.

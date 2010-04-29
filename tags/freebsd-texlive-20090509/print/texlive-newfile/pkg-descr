@@ -1,4 +1,0 @@
-Commands are defined to manage the limited pool of input and
-output handles provided by TeX. The streams so provided are
-mapped to various of the LaTeX input and output mechanisms.
-Some facilities of the verbatim package are also mapped.

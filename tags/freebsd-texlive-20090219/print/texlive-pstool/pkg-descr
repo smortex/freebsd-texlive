@@ -1,9 +1,0 @@
-The package works in the same sort of way as pst-pdf,
-processing PostScript graphics with psfrag labels within
-documents running with pdfLaTeX. Pstool ensures that each
-version of each graphic is compiled once only (the graphic is
-(re-)compiled only if it has changed since the previous
-compilation of the document). This drastically speeds up the
-running of the package in the typical case (though the first
-run of any document is inevitably just as slow as with any
-similar package).

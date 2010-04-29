@@ -1,4 +1,0 @@
-The package provides a command \isotope for setting the atomic
-weight and atomic number indications of isotopes. (The naive
-way of doing the job with (La)TeX mathematics commands produces
-an unsatisfactory result.)

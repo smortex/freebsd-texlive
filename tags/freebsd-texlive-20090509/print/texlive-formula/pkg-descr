@@ -1,4 +1,0 @@
-Support for typesetting physical symbols, ensuring the same
-shape in text and maths mode. The user may specify their own
-units, and may change the format for the package’s predefined
-physical units.

@@ -1,4 +1,0 @@
-When typesetting forms there often arises the need for defining
-fields which consist of one or more lines where the customer
-can write something down manually. This package offers some
-commands for defining such fields in a distinctive way.

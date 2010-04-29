@@ -1,5 +1,0 @@
-This package provides a simple infrastructure for recording
-errata in LaTeX documents. This allows the user to maintain an
-updated version of the document (with all errors corrected) and
-to automatically generate an errata document highlighting the
-difference to the published version.

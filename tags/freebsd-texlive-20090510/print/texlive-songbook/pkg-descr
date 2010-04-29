@@ -1,9 +1,0 @@
-The Songbook package provides an all purpose songbook style for
-LaTeX2e. The package allows for three types of output from a
-single input file: words and chords books for the musicians to
-play from, words only songbooks for the congregation to sing
-from, and overhead transparency masters for congregational use.
-The package will also print a table of contents, an index
-sorted by title and first line, and an index sorted by key, or
-by artist/composer. The package attempts to handle songs in
-multiple keys, as well as songs in multiple languages.

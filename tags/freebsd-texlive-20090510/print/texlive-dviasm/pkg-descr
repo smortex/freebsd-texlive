@@ -1,4 +1,0 @@
-A Python script to support changing or creating DVI files via
-disassembling into text, editing, and then reassembling into
-binary format. It supports advanced features such as adding a
-preprint number or watermarks.

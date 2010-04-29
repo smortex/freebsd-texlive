@@ -1,6 +1,0 @@
-The isodoc class can be used for the preparation of letters and
-invoices (and, in the future, similar documents). Documents are
-set up with options, thus making the class easily adaptable to
-user's wishes and extensible for other document types. The
-class is based on Victor Eijkhout's NTG brief class, which
-implements the NEN1026 standard.

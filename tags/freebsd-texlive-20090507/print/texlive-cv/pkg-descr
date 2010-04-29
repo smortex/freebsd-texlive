@@ -1,5 +1,0 @@
-The package is distributed with two example files; they (and
-their formatted output) constitute the only real documentation.
-Note that cv is just a package: you choose the overall
-formatting by deciding which class to use, while the package
-provides the detailed formatting.

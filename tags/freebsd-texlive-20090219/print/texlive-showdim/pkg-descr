@@ -1,4 +1,0 @@
-A package for LaTeX providing a number of commands for printing
-the value of a TeX dimension. For example,
-\tenthpt{\baselineskip} yields the current value of
-\baselineskip rounded to the nearest tenth of a point.

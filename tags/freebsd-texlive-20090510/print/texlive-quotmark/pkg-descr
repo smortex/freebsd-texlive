@@ -1,5 +1,0 @@
-The package provides a means of ensuring consistent quote marks
-throughout your document. The style can be changed either via
-package option or command. The package detects if babel or
-ngerman have been loaded, and will use the punctuation marks
-appropriate for the current language.

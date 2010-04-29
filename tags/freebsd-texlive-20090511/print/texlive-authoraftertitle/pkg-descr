@@ -1,3 +1,0 @@
-This jiffy package makes the author, title and date of the
-package available to the user (as \MyAuthor, etc) after the
-\maketitle command has been executed.

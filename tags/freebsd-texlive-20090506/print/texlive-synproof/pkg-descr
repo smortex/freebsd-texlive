@@ -1,5 +1,0 @@
-The package provides a set of macros based on PSTricks that
-will enable you to draw syntactic proofs easily (inspired by
-the Gamut books). Very few commands are needed, however fine
-tuning of the various parameters (dimensions) can still be
-achieved through “key=value” pairs.

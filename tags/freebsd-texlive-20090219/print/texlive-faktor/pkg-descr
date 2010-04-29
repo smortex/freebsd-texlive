@@ -1,6 +1,0 @@
-The package provides the means to typeset factor structures, as
-are used in many areas of algebraic notation. The structure is
-similar to the ‘A/B’ that is provided by the nicefrac
-package (part of the units distribution), and by the xfrac
-package; the most obvious difference is that the numerator and
-denominator’s sizes do not change in the \faktor command.

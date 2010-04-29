@@ -1,3 +1,0 @@
-This packages contains the binaries of the TeX Live tools
-(notably tlmgr). Together with texlive.infra, it provides all
-the basic TeX Live infrastructure.

@@ -1,6 +1,0 @@
-Provides hyphenatable spacing out (letterspacing), underlining,
-striking out, etc., using the TeX hyphenation algorithm to find
-the proper hyphens automatically. The package also provides a
-mechanism that can be used to implement similar tasks, that
-have to treat text syllable by syllable. This is shown in two
-examples.

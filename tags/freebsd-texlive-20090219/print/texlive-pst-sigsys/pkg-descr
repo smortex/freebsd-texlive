@@ -1,7 +1,0 @@
-The package offers a collection of useful macros for
-disciplines related to signal processing. It defines macros for
-plotting a sequence of numbers, drawing the pole-zero diagram
-of a system, shading the region of convergence, creating an
-adder or a multiplier node, placing a framed node at a given
-coordinate, creating an up-sampler or a down-sampler node, and
-connecting a list of nodes using any node-connecting macro.

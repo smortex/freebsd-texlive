@@ -1,4 +1,0 @@
-The package runs with pdfTeX or XeTeX, and creates an auxiliary
-file with geometrical information to permit references back and
-forth between source and PDF, assuming a conforming editor and
-PDF viewer.

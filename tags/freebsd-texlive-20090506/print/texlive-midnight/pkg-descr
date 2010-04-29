@@ -1,6 +1,0 @@
-Included are: – quire: making booklets, etc.; – gloss:
-vertically align words in consecutive sentences; – loop: a
-looping construct; – dolines: 'meta'-macros to separate
-arguments by newlines; – labels: address labels and bulk mail
-letters; – styledef: selectively input part of a file; and
-– border: borders around boxes.

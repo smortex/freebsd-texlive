@@ -1,5 +1,0 @@
-Provides additional facilities in a picture environment for
-drawing linear, cubic, and rational quadratic Bezier curves
-(standard LaTeX only offers non-rational quadratic splines).
-Provides a package multiply that provides a command for
-multiplication of a length without numerical overflow.

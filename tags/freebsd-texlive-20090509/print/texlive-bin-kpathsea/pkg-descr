@@ -1,4 +1,0 @@
-The library is at the centre of pretty much all Unix-based TeX
-executable. It is no longer distributed separately, but rather
-consititutes a central part of the sources of the TeX-live
-distribution.

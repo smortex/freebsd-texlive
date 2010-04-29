@@ -1,5 +1,0 @@
-Progress is a package which. when compiling TeX and LaTeX
-documents, generates a HTML file showing an overview of a
-document's state (of how finished it is). The report is sent to
-file \ProgressReportName, which is by default the \jobname with
-the date appended (but is user-modifiable).

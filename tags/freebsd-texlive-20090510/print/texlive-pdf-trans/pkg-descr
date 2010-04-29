@@ -1,3 +1,0 @@
-pdf-trans is a set of macros for various transformations of TeX
-boxes (based on plain and pdfeTeX primitives). It was initially
-inspired by trans.tex, remade to work with pdfTeX.

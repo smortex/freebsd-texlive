@@ -1,3 +1,0 @@
-The package provides a facility to typeset certain logic
-formulae. It provides an environment like eqnarray, an extended
-newtheorem environment, and several macros.

@@ -1,5 +1,0 @@
-Three hyperref-based macros that simplify usage of \hypertarget
-and \hyperlink: one argument instead of the same one twice.
-Also \gmiflink and \gmifref which typeset plain text instead of
-generating an error or printing ‘??’ if there is no
-respective hypertarget or label.

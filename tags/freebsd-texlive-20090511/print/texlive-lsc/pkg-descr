@@ -1,6 +1,0 @@
-This package is similar to the msc package in that it provides
-macros for typesetting a variant of sequence diagrams, in this
-case the Live Sequence Charts of Damm and Harel. The package
-supports the full LSC language of the original LSC paper, the
-Klose-extensions for formal verification and some of the Harel-
-extensions for the Play-In/Play-Out approach (cf. the manual).

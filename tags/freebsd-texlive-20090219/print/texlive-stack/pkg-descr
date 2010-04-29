@@ -1,5 +1,0 @@
-The package provides a small set of commands to implement
-stacks independently of TeX's own stack. As an example of how
-the stacks might be used, the documentation offers a small
-"relinput" package that implements the backbone of the import
-package.

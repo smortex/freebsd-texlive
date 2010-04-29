@@ -1,7 +1,0 @@
-There are a lot of packages for typesetting units in LaTeX2e.
-Some define macros to typeset a lot of units but do not suit to
-the actual font settings, some make the characters needed
-available but do not predefine any unit. This package tries to
-comply with both requirements. It predefines common units,
-defines an easy to use interface to define new units and
-changes the output concerning to the surrounding font settings.

@@ -1,3 +1,0 @@
-Define a \makebox* command that does the same as a \makebox
-command, except that the width is given by a sample text
-instead of an explicit length measure.

@@ -1,6 +1,0 @@
-The package provides macros to produce the ‘Box notation’
-of SDRT (and DRT), to draw trees representing discourse
-relations, and finally to have an easy access to various
-mathematical symbols used in that theory, mostly with automatic
-mathematics mode, so they work the same in formulae and in
-text.

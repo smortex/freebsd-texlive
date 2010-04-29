@@ -1,4 +1,0 @@
-Provides integration between FoilTeX and LaTeX2HTML, adding
-sectioning commands and elements of logical formatting to
-FoilTeX and providing support for FoilTeX commands in
-LaTeX2HTML.

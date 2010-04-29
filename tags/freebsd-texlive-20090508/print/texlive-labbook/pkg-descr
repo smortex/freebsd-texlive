@@ -1,5 +1,0 @@
-This class is designed to typeset laboratory journals that
-contain chronologically ordered records about experiments. From
-the sectioning commands, an experiment index is generated. The
-class is based on the KOMA-Script class scrbook.cls. There can
-be several index entries for one experiment.

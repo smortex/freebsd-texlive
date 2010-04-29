@@ -1,6 +1,0 @@
-This small package aims at making debugging (especially in an
-interactive way) easier, by providing \show variants suited to
-LaTeX2e commands (whether with optional arguments or robust)
-and environments. The variant commands also display the
-internal macros used by such commands, if any. The \showcs
-variant helps with macros with exotic names.

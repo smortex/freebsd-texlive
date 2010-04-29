@@ -1,4 +1,0 @@
-This package offers environments and commands for one-level and
-two-level lists of short items (e.g., exercises in textbooks).
-The environments support optional arguments of item numbering
-similar to the enumerate or paralist packages.

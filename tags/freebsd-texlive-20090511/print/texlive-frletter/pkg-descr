@@ -1,4 +1,0 @@
-A small class for typesetting letters in France. No assumption
-is made about the language in use. The class represents a small
-modification of the beletter class, which is itself a
-modification of the standard LaTeX letter class.

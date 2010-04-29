@@ -1,5 +1,0 @@
-This package provides two macros \engrec and \EnGrec to convert
-number arguments to lower case or upper case greek letters.
-They have the syntax of \alph, i.e. \engrec{a_counter},
-\EnGrec{a_counter}. Options are provided to work with the
-upgreek and fourier packages. Requires amstext.

@@ -1,4 +1,0 @@
-Adds a macro \rgcount which displays the allocation status of
-the TeX registers. The display is written into the .log file as
-it is a bit verbose. An automatic call to \rgcount is done at
-\begin{document} and \end{document}.
