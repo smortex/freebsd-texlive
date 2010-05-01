@@ -1,7 +1,7 @@
 #summary Staying up-to-date with TeXLive.
 #labels Featured
 
-The FreeBSD TeXLive repository is automatically updated each night at 5am CEST.
+The FreeBSD TeXLive repository is automatically updated each night at 5.30am UTC.
 
 = Updating the ports tree =
 
@@ -13,8 +13,4 @@ Run `portshaker` without argument to update and merge to your local Ports Tree b
 
 = Updating ports =
 
-The easiest way is using `ports-mgmt/portupgrade`:
-
-{{{
-# portupgrade -r texlive-core
-}}}
+Update your ports as usual using `portmaster` or `portupgrade`.
