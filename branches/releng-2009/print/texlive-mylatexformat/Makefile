@@ -1,16 +1,15 @@
-# New ports collection makefile for:	texlive-pst-plot
-# Date created:		13/03/2010 04:57:21
+# New ports collection makefile for:	texlive-mylatexformat
+# Date created:		05/01/2010 07:59:25
 # Whom:		romain@blogreen.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	pst-plot
-PORTREVISION=	4
+PORTNAME=	mylatexformat
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
-COMMENT=	Plot data using PSTricks.
+COMMENT=	Build a format based on the preamble of a LaTeX file.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

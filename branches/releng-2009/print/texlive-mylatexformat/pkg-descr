@@ -1,0 +1,6 @@
+The use of formats helps to speed up compilations: packages
+which have been dumped in the format are loaded at very high
+speed. This is useful when a document loads many packages
+(including large packages such as pgf-TikZ). The package was
+largely developed on the basis of mylatex, and eliminates many
+of the limitations and problems of that package.
