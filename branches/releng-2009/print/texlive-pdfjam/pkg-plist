@@ -3,6 +3,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pdfjam/VERSION
 %%PORTDOCS%%share/texmf-dist/doc/latex/pdfjam/pdfdroplets.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/pdfjam/pdfjam.conf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfjam/tests.zip
 share/texmf-dist/scripts/pdfjam/pdf180
 share/texmf-dist/scripts/pdfjam/pdf270
 share/texmf-dist/scripts/pdfjam/pdf90
@@ -16,17 +17,29 @@ share/texmf-dist/scripts/pdfjam/pdfjoin
 share/texmf-dist/scripts/pdfjam/pdfnup
 share/texmf-dist/scripts/pdfjam/pdfpun
 %%PORTDOCS%%share/texmf/doc/man/man1/pdf180.1
+%%PORTDOCS%%share/texmf/doc/man/man1/pdf180.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/pdf270.1
+%%PORTDOCS%%share/texmf/doc/man/man1/pdf270.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/pdf90.1
+%%PORTDOCS%%share/texmf/doc/man/man1/pdf90.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/pdfbook.1
+%%PORTDOCS%%share/texmf/doc/man/man1/pdfbook.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/pdfflip.1
+%%PORTDOCS%%share/texmf/doc/man/man1/pdfflip.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/pdfjam-pocketmod.1
+%%PORTDOCS%%share/texmf/doc/man/man1/pdfjam-pocketmod.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/pdfjam-slides3up.1
+%%PORTDOCS%%share/texmf/doc/man/man1/pdfjam-slides3up.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/pdfjam-slides6up.1
+%%PORTDOCS%%share/texmf/doc/man/man1/pdfjam-slides6up.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/pdfjam.1
+%%PORTDOCS%%share/texmf/doc/man/man1/pdfjam.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/pdfjoin.1
+%%PORTDOCS%%share/texmf/doc/man/man1/pdfjoin.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/pdfnup.1
+%%PORTDOCS%%share/texmf/doc/man/man1/pdfnup.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/pdfpun.1
+%%PORTDOCS%%share/texmf/doc/man/man1/pdfpun.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf-dist/scripts/pdfjam
 @dirrmtry share/texmf-dist/doc/latex/pdfjam

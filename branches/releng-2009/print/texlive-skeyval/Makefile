@@ -6,10 +6,11 @@
 #
 
 PORTNAME=	skeyval
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
-COMMENT=	Extensions to xkeyval
+COMMENT=	Extensions to xkeyval.
 
 NOPORTSRC=	yes
 

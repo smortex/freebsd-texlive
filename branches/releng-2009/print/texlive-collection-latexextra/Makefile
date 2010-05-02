@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTREVISION=	6
+PORTREVISION=	7
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -659,7 +659,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/underlin/underlin.sty:${PORTSDIR}/print/texlive-underlin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/undertilde/undertilde.sty:${PORTSDIR}/print/texlive-undertilde \
 		${LOCALBASE}/share/texmf-dist/tex/latex/units/units.sty:${PORTSDIR}/print/texlive-units \
-		${LOCALBASE}/share/texmf-dist/tex/latex/unroman/unroman.sty:${PORTSDIR}/print/texlive-unroman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/upmethodology/upmethodology-backpage.sty:${PORTSDIR}/print/texlive-upmethodology \
 		${LOCALBASE}/share/texmf-dist/tex/latex/upquote/upquote.sty:${PORTSDIR}/print/texlive-upquote \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ushort/ushort.sty:${PORTSDIR}/print/texlive-ushort \
