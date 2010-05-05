@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	hyphen-base
-PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
