@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	ifluatex
-PORTREVISION=	6
+PORTREVISION=	7
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org

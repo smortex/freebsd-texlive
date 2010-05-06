@@ -1,11 +1,12 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/calligra.dvi
-%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/la.dvi
-%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/outline.dvi
-%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/pvscript.dvi
-%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/startrek.dvi
-%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/suetterl.dvi
-%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/twcal.dvi
-%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/va.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/doc/calligra.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/doc/la.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/doc/outline.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/startrek.map
+%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/stclass.zip
+%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/stmov.zip
+%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/tngcril.zip
+%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/tngmon.zip
+%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/tngtit.zip
 %%PORTSRC%%share/texmf-dist/source/latex/fundus/calligra.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/fundus/calligra.ins
 %%PORTSRC%%share/texmf-dist/source/latex/fundus/la.dtx
@@ -16,14 +17,8 @@
 %%PORTSRC%%share/texmf-dist/source/latex/fundus/pvscript.ins
 %%PORTSRC%%share/texmf-dist/source/latex/fundus/startrek.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/fundus/startrek.ins
-%%PORTSRC%%share/texmf-dist/source/latex/fundus/startrek.map
-%%PORTSRC%%share/texmf-dist/source/latex/fundus/stclass.zip
-%%PORTSRC%%share/texmf-dist/source/latex/fundus/stmov.zip
 %%PORTSRC%%share/texmf-dist/source/latex/fundus/suetterl.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/fundus/suetterl.ins
-%%PORTSRC%%share/texmf-dist/source/latex/fundus/tngcril.zip
-%%PORTSRC%%share/texmf-dist/source/latex/fundus/tngmon.zip
-%%PORTSRC%%share/texmf-dist/source/latex/fundus/tngtit.zip
 %%PORTSRC%%share/texmf-dist/source/latex/fundus/twcal.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/fundus/twcal.ins
 %%PORTSRC%%share/texmf-dist/source/latex/fundus/va.dtx
@@ -41,6 +36,7 @@ share/texmf-dist/tex/latex/fundus/twcal.sty
 share/texmf-dist/tex/latex/fundus/va.sty
 @dirrmtry share/texmf-dist/tex/latex/fundus
 @dirrmtry share/texmf-dist/source/latex/fundus
+@dirrmtry share/texmf-dist/doc/latex/fundus/doc
 @dirrmtry share/texmf-dist/doc/latex/fundus
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
