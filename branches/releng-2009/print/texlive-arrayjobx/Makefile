@@ -1,16 +1,15 @@
-# New ports collection makefile for:	texlive-skeyval
-# Date created:		13/03/2010 04:49:03
+# New ports collection makefile for:	texlive-arrayjobx
+# Date created:		05/07/2010 05:37:09
 # Whom:		romain@blogreen.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	skeyval
-PORTREVISION=	2
+PORTNAME=	arrayjobx
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
-COMMENT=	Extensions to xkeyval.
+COMMENT=	Array data structures for (La)TeX.
 
 NOPORTSRC=	yes
 

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTREVISION=	7
+PORTREVISION=	8
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -39,6 +39,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/appendix/appendix.sty:${PORTSDIR}/print/texlive-appendix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arcs/arcs.sty:${PORTSDIR}/print/texlive-arcs \
 		${LOCALBASE}/share/texmf-dist/tex/generic/arrayjob/arrayjob.sty:${PORTSDIR}/print/texlive-arrayjob \
+		${LOCALBASE}/share/texmf-dist/tex/generic/arrayjobx/arrayjobx.sty:${PORTSDIR}/print/texlive-arrayjobx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/assignment/assignment.cls:${PORTSDIR}/print/texlive-assignment \
 		${LOCALBASE}/share/texmf-dist/tex/latex/attachfile/attachfile.sty:${PORTSDIR}/print/texlive-attachfile \
 		${LOCALBASE}/share/texmf-dist/tex/latex/authoraftertitle/authoraftertitle.sty:${PORTSDIR}/print/texlive-authoraftertitle \
@@ -784,6 +785,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/eepic/eepic.sty:${PORTSDIR}/print/texlive-eepic \
 		${LOCALBASE}/share/texmf-dist/scripts/epspdf/epspdf:${PORTSDIR}/print/texlive-epspdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/epspdfconversion/epspdfconversion.sty:${PORTSDIR}/print/texlive-epspdfconversion \
+		${LOCALBASE}/share/texmf-dist/tex/latex/esk/esk.sty:${PORTSDIR}/print/texlive-esk \
 		${LOCALBASE}/share/texmf-dist/scripts/fig4latex/fig4latex:${PORTSDIR}/print/texlive-fig4latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gnuplottex/gnuplottex.sty:${PORTSDIR}/print/texlive-gnuplottex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/here/here.sty:${PORTSDIR}/print/texlive-here \

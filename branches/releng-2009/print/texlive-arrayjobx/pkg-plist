@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/arrayjobx/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/arrayjobx/arrayjob.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/arrayjobx/arrayjob.sty
+%%PORTDOCS%%share/texmf-dist/doc/generic/arrayjobx/arrayjob.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/arrayjobx/arrayjobx.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/arrayjobx/arrayjobx.tex
+share/texmf-dist/tex/generic/arrayjobx/arrayjobx.sty
+@dirrmtry share/texmf-dist/tex/generic/arrayjobx
+@dirrmtry share/texmf-dist/doc/generic/arrayjobx
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

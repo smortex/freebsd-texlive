@@ -1,18 +1,16 @@
-# New ports collection makefile for:	texlive-skeyval
-# Date created:		13/03/2010 04:49:03
+# New ports collection makefile for:	texlive-esk
+# Date created:		05/07/2010 05:40:07
 # Whom:		romain@blogreen.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	skeyval
-PORTREVISION=	2
+PORTNAME=	esk
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
-COMMENT=	Extensions to xkeyval.
+COMMENT=	Package to encapsulate Sketch files in LaTeX sources.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

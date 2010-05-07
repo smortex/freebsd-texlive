@@ -1,0 +1,9 @@
+The ESK package allows to encapsulate Sketch files in LaTeX
+sources. This is very useful for keeping illustrations in sync
+with the text. It also frees the user from inventing
+descriptive names for new files that fit into the confines of
+file system conventions. Sketch is a 3D scene description
+language by Eugene K. Ressler and can generate TikZ and
+PSTricks code. ESK behaves in a similar fashion to EMP (which
+encapsulates Metapost files), and was in fact developed from
+it.
