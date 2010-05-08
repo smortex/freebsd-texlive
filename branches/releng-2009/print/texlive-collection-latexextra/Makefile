@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTREVISION=	8
+PORTREVISION=	9
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -38,7 +38,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty:${PORTSDIR}/print/texlive-anyfontsize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/appendix/appendix.sty:${PORTSDIR}/print/texlive-appendix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arcs/arcs.sty:${PORTSDIR}/print/texlive-arcs \
-		${LOCALBASE}/share/texmf-dist/tex/generic/arrayjob/arrayjob.sty:${PORTSDIR}/print/texlive-arrayjob \
 		${LOCALBASE}/share/texmf-dist/tex/generic/arrayjobx/arrayjobx.sty:${PORTSDIR}/print/texlive-arrayjobx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/assignment/assignment.cls:${PORTSDIR}/print/texlive-assignment \
 		${LOCALBASE}/share/texmf-dist/tex/latex/attachfile/attachfile.sty:${PORTSDIR}/print/texlive-attachfile \
@@ -416,10 +415,13 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/niceframe/niceframe.sty:${PORTSDIR}/print/texlive-niceframe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nicetext/fifinddo.sty:${PORTSDIR}/print/texlive-nicetext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/noitcrul/noitcrul.sty:${PORTSDIR}/print/texlive-noitcrul \
+		${LOCALBASE}/share/texmf-dist/tex/latex/nolbreaks/nolbreaks.sty:${PORTSDIR}/print/texlive-nolbreaks \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nomencl/nomencl.sty:${PORTSDIR}/print/texlive-nomencl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nomentbl/nomentbl.sty:${PORTSDIR}/print/texlive-nomentbl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nonfloat/nonfloat.sty:${PORTSDIR}/print/texlive-nonfloat \
+		${LOCALBASE}/share/texmf-dist/tex/latex/nopageno/nopageno.sty:${PORTSDIR}/print/texlive-nopageno \
 		${LOCALBASE}/share/texmf-dist/tex/latex/notes/notes.sty:${PORTSDIR}/print/texlive-notes \
+		${LOCALBASE}/share/texmf-dist/tex/latex/notoccite/notoccite.sty:${PORTSDIR}/print/texlive-notoccite \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ntabbing/ntabbing.sty:${PORTSDIR}/print/texlive-ntabbing \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ntheorem/ntheorem.sty:${PORTSDIR}/print/texlive-ntheorem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/numname/numname.sty:${PORTSDIR}/print/texlive-numname \
@@ -430,6 +432,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/oldstyle/oldstyle.sty:${PORTSDIR}/print/texlive-oldstyle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/onlyamsmath/onlyamsmath.sty:${PORTSDIR}/print/texlive-onlyamsmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/opcit/opcit.sty:${PORTSDIR}/print/texlive-opcit \
+		${LOCALBASE}/share/texmf-dist/tex/latex/optional/optional.sty:${PORTSDIR}/print/texlive-optional \
 		${LOCALBASE}/share/texmf-dist/tex/latex/outline/outline.sty:${PORTSDIR}/print/texlive-outline \
 		${LOCALBASE}/share/texmf-dist/tex/latex/outliner/outliner.sty:${PORTSDIR}/print/texlive-outliner \
 		${LOCALBASE}/share/texmf-dist/tex/latex/overpic/overpic.sty:${PORTSDIR}/print/texlive-overpic \

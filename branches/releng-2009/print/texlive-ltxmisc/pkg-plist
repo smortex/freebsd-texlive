@@ -6,9 +6,6 @@ share/texmf-dist/tex/latex/ltxmisc/flashcard.cls
 share/texmf-dist/tex/latex/ltxmisc/iagproc.cls
 share/texmf-dist/tex/latex/ltxmisc/linsys.sty
 share/texmf-dist/tex/latex/ltxmisc/mitpress.sty
-share/texmf-dist/tex/latex/ltxmisc/nolbreaks.sty
-share/texmf-dist/tex/latex/ltxmisc/notoccite.sty
-share/texmf-dist/tex/latex/ltxmisc/optional.sty
 share/texmf-dist/tex/latex/ltxmisc/parskip.sty
 share/texmf-dist/tex/latex/ltxmisc/path.sty
 share/texmf-dist/tex/latex/ltxmisc/romanneg.sty

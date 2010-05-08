@@ -1,18 +1,16 @@
-# New ports collection makefile for:	texlive-ltxmisc
-# Date created:		13/03/2010 04:20:37
+# New ports collection makefile for:	texlive-optional
+# Date created:		05/08/2010 05:39:06
 # Whom:		romain@blogreen.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	ltxmisc
-PORTREVISION=	3
+PORTNAME=	optional
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
-COMMENT=	Miscellaneous LaTeX packages, etc.
+COMMENT=	Facilitate optional printing of parts of a document.
 
-NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

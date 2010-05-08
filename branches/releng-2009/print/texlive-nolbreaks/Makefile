@@ -1,18 +1,16 @@
-# New ports collection makefile for:	texlive-ltxmisc
-# Date created:		13/03/2010 04:20:37
+# New ports collection makefile for:	texlive-nolbreaks
+# Date created:		05/08/2010 05:39:00
 # Whom:		romain@blogreen.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	ltxmisc
-PORTREVISION=	3
+PORTNAME=	nolbreaks
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
-COMMENT=	Miscellaneous LaTeX packages, etc.
+COMMENT=	No line breaks in text.
 
-NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

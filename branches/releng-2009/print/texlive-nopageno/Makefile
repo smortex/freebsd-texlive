@@ -1,18 +1,16 @@
-# New ports collection makefile for:	texlive-ltxmisc
-# Date created:		13/03/2010 04:20:37
+# New ports collection makefile for:	texlive-nopageno
+# Date created:		05/08/2010 05:39:02
 # Whom:		romain@blogreen.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	ltxmisc
-PORTREVISION=	3
+PORTNAME=	nopageno
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
-COMMENT=	Miscellaneous LaTeX packages, etc.
+COMMENT=	No page numbers in LaTeX documents.
 
-NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
