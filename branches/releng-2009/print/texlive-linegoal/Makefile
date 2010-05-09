@@ -1,16 +1,15 @@
-# New ports collection makefile for:	texlive-fundus
-# Date created:		13/03/2010 04:42:59
+# New ports collection makefile for:	texlive-linegoal
+# Date created:		05/09/2010 05:41:43
 # Whom:		romain@blogreen.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	fundus
-PORTREVISION=	2
+PORTNAME=	linegoal
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
-COMMENT=	Providing LaTeX access to various font families.
+COMMENT=	A "dimen" that returns the space left on the line.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

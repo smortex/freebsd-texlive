@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTREVISION=	9
+PORTREVISION=	10
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -330,6 +330,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/lewis/lewis.sty:${PORTSDIR}/print/texlive-lewis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lhelp/lhelp.sty:${PORTSDIR}/print/texlive-lhelp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/limap/limap.cls:${PORTSDIR}/print/texlive-limap \
+		${LOCALBASE}/share/texmf-dist/tex/latex/linegoal/linegoal.sty:${PORTSDIR}/print/texlive-linegoal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lipsum/lipsum.sty:${PORTSDIR}/print/texlive-lipsum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listing/listing.sty:${PORTSDIR}/print/texlive-listing \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listofsymbols/listofsymbols.sty:${PORTSDIR}/print/texlive-listofsymbols \
