@@ -1,7 +1,8 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/mcite/mcite.dvi
-%%PORTSRC%%share/texmf-dist/source/latex/mcite/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/mcite/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/mcite/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/mcite/mcite.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/mcite/mcite.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/mcite/Makefile
-%%PORTSRC%%share/texmf-dist/source/latex/mcite/README
 %%PORTSRC%%share/texmf-dist/source/latex/mcite/mcite.drv
 %%PORTSRC%%share/texmf-dist/source/latex/mcite/mcite.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/mcite/mcite.ins

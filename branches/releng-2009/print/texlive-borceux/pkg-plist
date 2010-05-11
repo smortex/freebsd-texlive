@@ -1,5 +1,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/borceux/Diagram_Mode_d_Emploi
+%%PORTDOCS%%share/texmf-dist/doc/generic/borceux/Diagram_Mode_d_Emploi.aux
 %%PORTDOCS%%share/texmf-dist/doc/generic/borceux/Diagram_Read_Me
+%%PORTDOCS%%share/texmf-dist/doc/generic/borceux/Diagram_Read_Me.aux
+%%PORTDOCS%%share/texmf-dist/doc/generic/borceux/compatibility/OldDiagram
+%%PORTDOCS%%share/texmf-dist/doc/generic/borceux/compatibility/OldMaxiDiagram
+%%PORTDOCS%%share/texmf-dist/doc/generic/borceux/compatibility/OldMicroDiagram
+%%PORTDOCS%%share/texmf-dist/doc/generic/borceux/compatibility/OldMiniDiagram
+%%PORTDOCS%%share/texmf-dist/doc/generic/borceux/compatibility/OldMultipleArrows
 %%PORTSRC%%share/texmf-dist/source/generic/borceux/compatibility/OldDiagram
 %%PORTSRC%%share/texmf-dist/source/generic/borceux/compatibility/OldMaxiDiagram
 %%PORTSRC%%share/texmf-dist/source/generic/borceux/compatibility/OldMicroDiagram
@@ -12,6 +19,7 @@ share/texmf-dist/tex/generic/borceux/MiniDiagram
 share/texmf-dist/tex/generic/borceux/MultipleArrows
 @dirrmtry share/texmf-dist/tex/generic/borceux
 @dirrmtry share/texmf-dist/source/generic/borceux/compatibility
+@dirrmtry share/texmf-dist/doc/generic/borceux/compatibility
 @dirrmtry share/texmf-dist/doc/generic/borceux
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
