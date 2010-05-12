@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	texdoc
-PORTREVISION=	10
+PORTREVISION=	11
 CATEGORIES=	print
 
 MAINTAINER=	romain@blogreen.org
