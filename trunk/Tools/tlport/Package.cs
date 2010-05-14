@@ -284,6 +284,7 @@ namespace TeXLive
 			ProcessStartInfo psi = new ProcessStartInfo ("make", "pkg-plist");
 			if (TLPort.Verbosity < 2) {
 				psi.RedirectStandardOutput = true;
+				psi.RedirectStandardError = true;
 				psi.UseShellExecute = false;
 			} else {
 				psi.UseShellExecute = true;
