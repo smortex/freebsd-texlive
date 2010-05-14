@@ -1,7 +1,7 @@
 #-*- mode: makefile; tab-width: 4; -*-
 # ex:ts=4
 #
-# $FreeBSD: ports/Mk/bsd.port.mk,v 1.637 2010/04/27 21:58:23 gahr Exp $
+# $FreeBSD: ports/Mk/bsd.port.mk,v 1.638 2010/05/12 19:57:57 pav Exp $
 #	$NetBSD: $
 #
 #	bsd.port.mk - 940820 Jordan K. Hubbard.
@@ -1987,7 +1987,9 @@ BUILD_DEPENDS+=			imake:${X_IMAKE_PORT}
 .if defined(USE_DISPLAY) && !defined(DISPLAY)
 BUILD_DEPENDS+=	Xvfb:${X_VFBSERVER_PORT} \
 	${X11BASE}/lib/X11/fonts/misc/8x13O.pcf.gz:${X_FONTS_MISC_PORT} \
-	${X11BASE}/lib/X11/fonts/misc/fonts.alias:${X_FONTS_ALIAS_PORT}
+	${X11BASE}/lib/X11/fonts/misc/fonts.alias:${X_FONTS_ALIAS_PORT} \
+	${X11BASE}/share/X11/xkb/rules/base:${PORTSDIR}/x11/xkeyboard-config \
+	xkbcomp:${PORTSDIR}/x11/xkbcomp
 .if !defined(PACKAGE_BUILDING)
 CONFIGURE_ENV+=	DISPLAY="localhost:1001"
 MAKE_ENV+=		DISPLAY="localhost:1001"

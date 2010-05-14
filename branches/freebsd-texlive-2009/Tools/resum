@@ -23,17 +23,30 @@ for i; do
 	esac
 done
 
-
-
 for d in $@; do
 	(
+	case $d in
+	*texlive-core)
+		exit 1;;
+	esac
 	cd $d || exit 1
 	if [ $fetch = 1 ]; then
-		${tools_dir}/rm-distfiles
+	    	make distclean
+		#${tools_dir}/rm-distfiles
 	fi
 	port fetch
 	if [ -n "`svn status`" ]; then
+		installed=$(pkg_info -E "$(make -V UNIQUENAME)-[0-9]*")
+		if [ -n "${installed}" ]; then
+			sudo pkg_delete "${installed}"
+		fi
+
 		${tools_dir}/bump-portrevision
+		make clean
+		make pkg-plist
+		if [ -n "${installed}" ]; then
+			sudo make package clean
+		fi
 	fi
 	)
 done
