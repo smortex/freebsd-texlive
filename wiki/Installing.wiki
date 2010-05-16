@@ -17,19 +17,15 @@ shell> cd portshaker
 *read the README file*
 shell> make PREFIX="/usr/local"
 shell> make PREFIX="/usr/local" install
-shell> make -C examples PREFIX="/usr/local" install
-shell> cat << EOT > "/usr/local/etc/portshaker.conf"
-mirror_base_dir="/var/cache/portshaker"
-ports_trees="main"
-main_ports_tree="/usr/ports"
-main_merge_from="ports freebsd_texlive_releng freebsd_texlive_ports"
-EOT
+shell> make -C examples PREFIX="/usr/local" WITH_TEXLIVE=yes install
 shell> portshaker -v
 }}}
 
-== Building your own TeXLive ports ==
+== Building your own TeXLive ports (painful so NOT recommanded) ==
 
-=== Checkout the FreeBSD-TeXLive repository (painful so NOT recommanded) ===
+*WARNING* These instructions are deprecated.
+
+=== Checkout the FreeBSD-TeXLive repository ===
 
 {{{
 shell> svn co "http://bsd-sharp.googlecode.com/svn/branches/portshaker/"
@@ -37,7 +33,7 @@ shell> cd portshaker
 *read the README file*
 shell> make PREFIX="/usr/local"
 shell> make PREFIX="/usr/local" install
-shell> make -C examples PREFIX="/usr/local" install
+shell> make -C examples WITH_TEXLIVE=yes PREFIX="/usr/local" install
 shell> cat << EOT > "/usr/local/etc/portshaker.conf"
 mirror_base_dir="/var/cache/portshaker"
 ports_trees="main"
