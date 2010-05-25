@@ -1,7 +1,7 @@
 #-*- mode: makefile; tab-width: 4; -*-
 # ex:ts=4
 #
-# $FreeBSD: ports/Mk/bsd.port.mk,v 1.638 2010/05/12 19:57:57 pav Exp $
+# $FreeBSD: ports/Mk/bsd.port.mk,v 1.639 2010/05/25 00:25:02 alepulver Exp $
 #	$NetBSD: $
 #
 #	bsd.port.mk - 940820 Jordan K. Hubbard.
@@ -2508,6 +2508,9 @@ MOTIFLIB?=	-L${X11BASE}/lib -lXm -lXp
 ALL_TARGET?=		all
 INSTALL_TARGET?=	install
 
+# Integrate with the license auditing framework
+.include "${PORTSDIR}/Mk/bsd.licenses.mk"
+
 # Popular master sites
 .include "${PORTSDIR}/Mk/bsd.sites.mk"
 
@@ -3323,6 +3326,8 @@ ignorelist-verbose:
 # Clean directories for ftp or CDROM.
 ################################################################
 
+.if !defined(LICENSE)
+
 .if defined(RESTRICTED)
 clean-restricted:	delete-distfiles delete-package
 clean-restricted-list: delete-distfiles-list delete-package-list
@@ -3340,6 +3345,8 @@ RESTRICTED_FILES?=	${_DISTFILES} ${_PATCHFILES}
 clean-for-cdrom:
 clean-for-cdrom-list:
 .endif
+
+.endif # !defined(LICENSE)
 
 .if defined(ALL_HOOK)
 all:
@@ -4346,7 +4353,8 @@ _CHROOT_SEQ=
 _SANITY_SEQ=	${_CHROOT_SEQ} pre-everything check-makefile \
 				check-categories check-makevars check-desktop-entries \
 				check-conflicts check-depends check-deprecated \
-				check-vulnerable buildanyway-message options-message
+				check-vulnerable check-license buildanyway-message \
+				options-message
 _FETCH_DEP=		check-sanity
 _FETCH_SEQ=		fetch-depends pre-fetch pre-fetch-script \
 				do-fetch post-fetch post-fetch-script
@@ -4355,7 +4363,7 @@ _EXTRACT_SEQ=	extract-message checksum extract-depends pre-extract \
 				pre-extract-script do-extract \
 				post-extract post-extract-script
 _PATCH_DEP=		extract
-_PATCH_SEQ=		patch-message patch-depends patch-dos2unix pre-patch \
+_PATCH_SEQ=		ask-license patch-message patch-depends patch-dos2unix pre-patch \
 				pre-patch-script do-patch post-patch post-patch-script
 _CONFIGURE_DEP=	patch
 _CONFIGURE_SEQ=	build-depends lib-depends configure-message \
@@ -4369,8 +4377,9 @@ _INSTALL_SEQ=	install-message run-depends lib-depends apply-slist pre-install \
 				pre-install-script generate-plist check-already-installed
 _INSTALL_SUSEQ= check-umask install-mtree pre-su-install \
 				pre-su-install-script create-users-groups do-install \
-				install-desktop-entries post-install post-install-script \
-				add-plist-info add-plist-docs add-plist-examples add-plist-data \
+				install-desktop-entries install-license \
+				post-install post-install-script add-plist-info \
+				add-plist-docs add-plist-examples add-plist-data \
 				add-plist-post install-rc-script compress-man \
 				install-ldconfig-file fake-pkg security-check
 _PACKAGE_DEP=	install
