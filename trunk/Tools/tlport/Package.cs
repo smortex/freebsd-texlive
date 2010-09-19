@@ -135,7 +135,7 @@ namespace TeXLive
 		{
 			CreateDistinfo ();
 			if (LocalyModified) {
-				CreateMakefile (PortRevision + 1);
+				CreateMakefile ();
 				CreatePkgPlist ();
 				Clean ();
 			}
@@ -164,18 +164,20 @@ namespace TeXLive
 		/// <summary>
 		/// Create the Makefile of the FreeBSD port.
 		/// </summary>
-		private void CreateMakefile ()
+		private void CreateMakefile()
 		{
-			CreateMakefile (0);
+			DateTime d = DateTime.UtcNow.Date;
+			int PortVersion = d.Day + d.Month * 100 + d.Year * 10000;
+			CreateMakefile (PortVersion);
 		}
 
 		/// <summary>
-		/// Create the Makefile of the FreeBSD port with a given PORTREVISION.
+		/// Create the Makefile of the FreeBSD port with a given PORTVERSION.
 		/// </summary>
-		/// <param name="PortRevision">
+		/// <param name="PortVersion">
 		/// A <see cref="System.Int32"/>
 		/// </param>
-		private void CreateMakefile (int PortRevision)
+		private void CreateMakefile (int PortVersion)
 		{
 			List<string> header = new List<string> ();
 			
@@ -210,15 +212,13 @@ namespace TeXLive
 			}
 			makefile.WriteLine();
 			makefile.WriteLine("PORTNAME=\t{0}", name);
-			if (PortRevision > 0) {
-				makefile.WriteLine ("PORTREVISION=\t{0}", PortRevision);
-			}
+			makefile.WriteLine ("PORTVERSION=\t{0}", PortVersion);
 			makefile.WriteLine("CATEGORIES=\tprint");
 			if (files.Count == 0) {
 				makefile.WriteLine("DISTFILES=\t# None");
 			}
 			makefile.WriteLine();
-			makefile.WriteLine("MAINTAINER=\t{0}", "romain@blogreen.org");
+			makefile.WriteLine("MAINTAINER=\t{0}", "romain@FreeBSD.org");
 			makefile.WriteLine("COMMENT=\t{0}", short_description);
 
 			if (depend.Count > 0) {
