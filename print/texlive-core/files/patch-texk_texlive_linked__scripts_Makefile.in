@@ -3,7 +3,7 @@ $FreeBSD$
 
 --- texk/texlive/linked_scripts/Makefile.in.orig
 +++ texk/texlive/linked_scripts/Makefile.in
-@@ -554,26 +554,23 @@
+@@ -589,16 +589,16 @@
  	  for s in $(nobase_dist_scriptx_SCRIPTS); do \
  	    target=`basename $$s | sed 's,\.[^/]*$$,,' | tr '[A-Z]' '[a-z]'`; \
  	    rm -f $$target; \
@@ -22,16 +22,18 @@ $FreeBSD$
 +	    echo "creating link '$$target' -> '$(REL)/share/texmf-dist/scripts/$$s'"; \
 +	    $(LN_S) $(REL)/share/texmf-dist/scripts/$$s $$target; \
  	  done && \
- 	  rm -f rpdfcrop && \
- 	  echo "creating link 'rpdfcrop' -> 'pdfcrop'" && \
- 	  $(LN_S) pdfcrop rpdfcrop && \
- 	  rm -f getnonfreefonts-sys && \
- 	  echo "creating link 'getnonfreefonts-sys' -> 'getnonfreefonts'" && \
--	  $(LN_S) getnonfreefonts getnonfreefonts-sys && \
--	  rm -f man && \
--	  echo "creating link 'man' -> '$(REL)/texmf/doc/man'" && \
--	  (ln -s $(REL)/texmf/doc/man man || :)
-+	  $(LN_S) getnonfreefonts getnonfreefonts-sys
+ 	  for s in $(bin_links); do \
+ 	    link=`echo $$s | sed 's,.*:,,'`; \
+@@ -608,9 +608,9 @@
+ 	    $(LN_S) $$file $$link; \
+ 	  done && \
+ 	  rm -f man && \
+-	  if test -d $(REL)/texmf/doc/man; then \
+-	    echo "creating link 'man' -> '$(REL)/texmf/doc/man'" && \
+-	    (ln -s $(REL)/texmf/doc/man man || :); \
++	  if test -d $(REL)/share/texmf/doc/man; then \
++	    echo "creating link 'man' -> '$(REL)/share/texmf/doc/man'" && \
++	    (ln -s $(REL)/share/texmf/doc/man man || :); \
+ 	  else :; fi
  
  uninstall-hook:
- 	@for s in $(nobase_dist_scriptx_SCRIPTS) $(nobase_dist_script_SCRIPTS); do \

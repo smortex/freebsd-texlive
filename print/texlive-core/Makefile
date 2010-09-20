@@ -6,34 +6,32 @@
 #
 
 PORTNAME=	texlive-core
-PORTVERSION=	20091011
-PORTREVISION=	1
+PORTVERSION=	20100720
 CATEGORIES=	print
 MASTER_SITES=	${MASTER_SITE_TEX_CTAN}
 MASTER_SITE_SUBDIR=	systems/texlive/Source
 DISTNAME=	texlive-${PORTVERSION}-source
 
-MAINTAINER=	romain@blogreen.org
+MAINTAINER=	romain@FreeBSD.org
 COMMENT=	TeXLive (binaries)
 
 LIB_DEPENDS=	fontconfig.1:${PORTSDIR}/x11-fonts/fontconfig
 
 CONFLICTS=	teTeX-base-[0-9]*
 
-USE_XLIB=	yes
-USE_PERL5=	yes
-
-USE_XZ=		yes
-GNU_CONFIGURE=	yes
-USE_GMAKE=	yes
 CONFIGURE_ENV=	CFLAGS="-fPIC"
 CONFIGURE_ARGS=	--bindir=${LOCALBASE}/bin \
 		--libdir=${LOCALBASE}/lib \
 		--datadir=${LOCALBASE}/share \
 		--mandir=${LOCALBASE}/man \
 		--infodir=${LOCALBASE}/info \
-		--with-tex-banner=r"TeX Live 2009/FreeBSD"
+		--with-tex-banner="TeXLive 2010/FreeBSD"
+GNU_CONFIGURE=	yes
 MAKE_ARGS+=	GNUMAKE="${GMAKE}" ARCH="arch/unix"
+USE_GMAKE=	yes
+USE_PERL5=	yes
+USE_XLIB=	yes
+USE_XZ=		yes
 
 MAN1=		afm2pl.1 afm2tfm.1 aleph.1 allcm.1 allneeded.1 amstex.1 \
 		bbox.1 bibtex.1 cfftot1.1 ctangle.1 ctie.1 ctxtools.1 \
@@ -45,25 +43,25 @@ MAN1=		afm2pl.1 afm2tfm.1 aleph.1 allcm.1 allneeded.1 amstex.1 \
 		extractres.1 fixdlsrps.1 fixfmps.1 fixmacps.1 fixpsditps.1 \
 		fixpspps.1 fixscribeps.1 fixtpps.1 fixwfwps.1 fixwpps.1 \
 		fixwwps.1 fmtutil-sys.1 fmtutil.1 fontinst.1 getafm.1 \
-		getnonfreefonts-sys.1 getnonfreefonts.1 gftodvi.1 gftopk.1 \
+		gftodvi.1 gftopk.1 \
 		gftype.1 gsftopk.1 hbf2gf.1 includeres.1 \
 		kpseaccess.1 kpsepath.1 kpsereadlink.1 \
 		kpsestat.1 kpsetool.1 kpsewhere.1 kpsewhich.1 lacheck.1 \
 		latex.1 luatex.1 mag.1 makeindex.1 \
-		makempy.1 mf-nowin.1 mf.1 mft.1 mkindex.1 mkjobtexmf.1 \
+		mf-nowin.1 mf.1 mft.1 mkindex.1 mkjobtexmf.1 \
 		mkocp.1 mkofm.1 mktexlsr.1 mktexmf.1 mktexpk.1 mktextfm.1 \
 		mmafm.1 mmpfb.1 mpost.1 mptopdf.1 ofm2opl.1 \
 		opl2ofm.1 otfinfo.1 otftotfm.1 otp2ocp.1 outocp.1 \
 		ovf2ovp.1 ovp2ovf.1 patgen.1 pdfetex.1 pdflatex.1 \
-		pdftex.1 pdftools.1 pdftosrc.1 pfb2pfa.1 \
+		pdftex.1 pdftosrc.1 pfb2pfa.1 \
 		pk2bm.1 pktogf.1 pktype.1 pltotf.1 pooltype.1 ps2eps.1 \
 		ps2frag.1 ps2pk.1 psbook.1 pslatex.1 psmerge.1 psnup.1 \
 		psresize.1 psselect.1 pstopdf.1 pstops.1 rubibtex.1 \
 		rumakeindex.1 synctex.1 t1ascii.1 t1asm.1 t1binary.1 \
 		t1disasm.1 t1dotlessj.1 t1lint.1 t1mac.1 t1rawafm.1 \
 		t1reencode.1 t1testpage.1 t1unmac.1 tangle.1 tcdialog.1 tex.1 \
-		texconfig-sys.1 texconfig.1 texdoctk.1 texexec.1 texfind.1 \
-		texfont.1 texlinks.1 texmfstart.1 textools.1 texutil.1 \
+		texconfig-sys.1 texconfig.1 texdoctk.1 texexec.1 \
+		texlinks.1 texmfstart.1 \
 		tftopl.1 thumbpdf.1 tie.1 tpic2pdftex.1 ttf2afm.1 ttf2pk.1 \
 		ttf2tfm.1 ttfdump.1 ttftotype42.1 updmap-sys.1 updmap.1 \
 		vftovp.1 vlna.1 vptovf.1 weave.1 xdvi.1
