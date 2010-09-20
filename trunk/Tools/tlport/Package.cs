@@ -202,7 +202,7 @@ namespace TeXLive
 			if (header.Count == 0) {
 				makefile.WriteLine("# New ports collection makefile for:\ttexlive-{0}", name);
 				makefile.WriteLine("# Date created:\t\t{0}", DateTime.Now);
-				makefile.WriteLine("# Whom:\t\t{0}", "romain@blogreen.org");
+				makefile.WriteLine("# Whom:\t\t{0}", "romain@FreeBSD.org");
 				makefile.WriteLine("#");
 				makefile.WriteLine("# $FreeBSD$");
 				makefile.WriteLine("#");
