@@ -9,6 +9,7 @@ bin/allec
 bin/allneeded
 bin/amstex
 bin/arlatex
+bin/authorindex
 bin/autoinst
 bin/bbox
 bin/bg5+latex
@@ -19,6 +20,7 @@ bin/bg5pdflatex
 bin/bibexport
 bin/bibtex
 bin/bibtex8
+bin/bibtexu
 bin/bundledoc
 bin/cachepic
 bin/cef5conv
@@ -31,6 +33,8 @@ bin/cefsconv
 bin/cefslatex
 bin/cefspdflatex
 bin/cfftot1
+bin/chktex
+bin/chkweb
 bin/cmap2enc
 bin/context
 bin/cslatex
@@ -42,6 +46,7 @@ bin/cweave
 bin/de-macro
 bin/detex
 bin/devnag
+bin/deweb
 bin/disdvi
 bin/dt2dv
 bin/dv2dt
@@ -69,6 +74,7 @@ bin/dvipos
 bin/dvips
 bin/dvired
 bin/dviselect
+bin/dvisvgm
 bin/dvitodvi
 bin/dvitomp
 bin/dvitype
@@ -104,8 +110,6 @@ bin/fragmaster
 bin/gbklatex
 bin/gbkpdflatex
 bin/getafm
-bin/getnonfreefonts
-bin/getnonfreefonts-sys
 bin/gftodvi
 bin/gftopk
 bin/gftype
@@ -139,13 +143,14 @@ bin/latexmk
 bin/latexrevise
 bin/listings-ext.sh
 bin/lualatex
-bin/luatangle
 bin/luatex
 bin/luatools
 bin/mag
 bin/makeglossaries
 bin/makeindex
-bin/makempy
+bin/makejvf
+bin/mathspic
+bin/mendex
 bin/metafun
 bin/mex
 bin/mf
@@ -156,6 +161,7 @@ bin/mk4ht
 bin/mkgrkindex
 bin/mkindex
 bin/mkjobtexmf
+bin/mkluatexfontdb
 bin/mkocp
 bin/mkofm
 bin/mkt1font
@@ -169,10 +175,8 @@ bin/mltex
 bin/mmafm
 bin/mmpfb
 bin/mpost
-bin/mpstools
 bin/mptopdf
 bin/mtxrun
-bin/mtxtools
 bin/musixflx
 bin/odvicopy
 bin/odvitype
@@ -188,6 +192,7 @@ bin/outocp
 bin/ovf2ovp
 bin/ovp2ovf
 bin/patgen
+bin/pbibtex
 bin/pdf180
 bin/pdf270
 bin/pdf90
@@ -213,9 +218,9 @@ bin/pdfopen
 bin/pdfpun
 bin/pdftex
 bin/pdfthumb
-bin/pdftools
 bin/pdftosrc
 bin/pdfxmltex
+bin/pdvitype
 bin/perltex
 bin/pfb2pfa
 bin/pfm2kpx
@@ -228,6 +233,7 @@ bin/pktogf
 bin/pktype
 bin/pltotf
 bin/pooltype
+bin/ppltotf
 bin/ppower4
 bin/ps2eps
 bin/ps2frag
@@ -242,13 +248,15 @@ bin/psselect
 bin/pst2pdf
 bin/pstopdf
 bin/pstops
+bin/ptex
+bin/ptftopl
 bin/purifyeps
+bin/repstopdf
 bin/rlxtools
 bin/rpdfcrop
 bin/rubibtex
 bin/rumakeindex
 bin/rungs
-bin/runtools
 bin/showchar
 bin/showglyphs
 bin/simpdftex
@@ -284,7 +292,6 @@ bin/texdirflatten
 bin/texdoc
 bin/texdoctk
 bin/texexec
-bin/texfont
 bin/texhash
 bin/texindy
 bin/texlinks
@@ -293,13 +300,10 @@ bin/texlua
 bin/texluac
 bin/texmfstart
 bin/texsis
-bin/textools
-bin/texutil
 bin/tftopl
 bin/thumbpdf
 bin/tie
 bin/tlmgr
-bin/tmftools
 bin/tpic2pdftex
 bin/ttf2afm
 bin/ttf2pk
@@ -325,7 +329,6 @@ bin/xelatex
 bin/xetex
 bin/xindy
 bin/xmltex
-bin/xmltools
 include/kpathsea/absolute.h
 include/kpathsea/c-auto.h
 include/kpathsea/c-ctype.h
@@ -376,11 +379,21 @@ include/kpathsea/truncate.h
 include/kpathsea/types.h
 include/kpathsea/variable.h
 include/kpathsea/version.h
+include/kpathsea/win32lib.h
 include/kpathsea/xopendir.h
 include/kpathsea/xstat.h
+include/ptexenc/ptexenc.h
 lib/libkpathsea.a
 lib/libkpathsea.la
-man/man1/lambda.1
+lib/libptexenc.a
+lib/libptexenc.la
+man/man1/chktex.1
+man/man1/chkweb.1
+man/man1/deweb.1
+man/man1/dvisvgm.1
+man/man1/lamed.1
+man/man1/mendex.1
+man/man1/otangle.1
 share/texmf-dist/bibtex/csf/base/88591lat.csf
 share/texmf-dist/bibtex/csf/base/88591sca.csf
 share/texmf-dist/bibtex/csf/base/ascii.csf
@@ -396,27 +409,14 @@ share/texmf-dist/fonts/map/glyphlist/texglyphlist.txt
 share/texmf-dist/scripts/accfonts/mkt1font
 share/texmf-dist/scripts/accfonts/vpl2ovp
 share/texmf-dist/scripts/accfonts/vpl2vpl
+share/texmf-dist/scripts/authorindex/authorindex
 share/texmf-dist/scripts/bengali/ebong.py
+share/texmf-dist/scripts/bibexport/bibexport.sh
+share/texmf-dist/scripts/bundledoc/arlatex
+share/texmf-dist/scripts/bundledoc/bundledoc
 share/texmf-dist/scripts/cachepic/cachepic.tlu
-share/texmf-dist/scripts/context/lua/luatools.lua
-share/texmf-dist/scripts/context/lua/mtxrun.lua
-share/texmf-dist/scripts/context/ruby/texmfstart.rb
-share/texmf-dist/scripts/context/stubs/unix/context
-share/texmf-dist/scripts/context/stubs/unix/ctxtools
-share/texmf-dist/scripts/context/stubs/unix/makempy
-share/texmf-dist/scripts/context/stubs/unix/mpstools
-share/texmf-dist/scripts/context/stubs/unix/mptopdf
-share/texmf-dist/scripts/context/stubs/unix/mtxtools
-share/texmf-dist/scripts/context/stubs/unix/pdftools
-share/texmf-dist/scripts/context/stubs/unix/pstopdf
-share/texmf-dist/scripts/context/stubs/unix/rlxtools
-share/texmf-dist/scripts/context/stubs/unix/runtools
-share/texmf-dist/scripts/context/stubs/unix/texexec
-share/texmf-dist/scripts/context/stubs/unix/texfont
-share/texmf-dist/scripts/context/stubs/unix/textools
-share/texmf-dist/scripts/context/stubs/unix/texutil
-share/texmf-dist/scripts/context/stubs/unix/tmftools
-share/texmf-dist/scripts/context/stubs/unix/xmltools
+share/texmf-dist/scripts/context/perl/mptopdf.pl
+share/texmf-dist/scripts/de-macro/de-macro
 share/texmf-dist/scripts/dviasm/dviasm.py
 share/texmf-dist/scripts/epspdf/epspdf
 share/texmf-dist/scripts/epspdf/epspdftk
@@ -433,20 +433,37 @@ share/texmf-dist/scripts/fontools/showglyphs
 share/texmf-dist/scripts/fragmaster/fragmaster.pl
 share/texmf-dist/scripts/glossaries/makeglossaries
 share/texmf-dist/scripts/latex2man/latex2man
+share/texmf-dist/scripts/latexdiff/latexdiff-vc.pl
+share/texmf-dist/scripts/latexdiff/latexdiff.pl
+share/texmf-dist/scripts/latexdiff/latexrevise.pl
 share/texmf-dist/scripts/latexmk/latexmk.pl
 share/texmf-dist/scripts/listings-ext/listings-ext.sh
+share/texmf-dist/scripts/luaotfload/mkluatexfontdb.lua
+share/texmf-dist/scripts/mathspic/mathspic.pl
 share/texmf-dist/scripts/mkgrkindex/mkgrkindex
 share/texmf-dist/scripts/mkjobtexmf/mkjobtexmf.pl
 share/texmf-dist/scripts/oberdiek/pdfatfi.pl
 share/texmf-dist/scripts/pax/pdfannotextractor.pl
 share/texmf-dist/scripts/pdfcrop/pdfcrop.pl
-share/texmf-dist/scripts/perltex/perltex
+share/texmf-dist/scripts/pdfjam/pdf180
+share/texmf-dist/scripts/pdfjam/pdf270
+share/texmf-dist/scripts/pdfjam/pdf90
+share/texmf-dist/scripts/pdfjam/pdfbook
+share/texmf-dist/scripts/pdfjam/pdfflip
+share/texmf-dist/scripts/pdfjam/pdfjam
+share/texmf-dist/scripts/pdfjam/pdfjam-pocketmod
+share/texmf-dist/scripts/pdfjam/pdfjam-slides3up
+share/texmf-dist/scripts/pdfjam/pdfjam-slides6up
+share/texmf-dist/scripts/pdfjam/pdfjoin
+share/texmf-dist/scripts/pdfjam/pdfnup
+share/texmf-dist/scripts/pdfjam/pdfpun
+share/texmf-dist/scripts/perltex/perltex.pl
 share/texmf-dist/scripts/pkfix-helper/pkfix-helper
 share/texmf-dist/scripts/pkfix/pkfix.pl
 share/texmf-dist/scripts/ppower4/pdfthumb.tlu
 share/texmf-dist/scripts/ppower4/ppower4.tlu
 share/texmf-dist/scripts/pst-pdf/ps4pdf
-share/texmf-dist/scripts/pst2pdf/pst2pdf.pl
+share/texmf-dist/scripts/pst2pdf/pst2pdf
 share/texmf-dist/scripts/purifyeps/purifyeps
 share/texmf-dist/scripts/splitindex/perl/splitindex.pl
 share/texmf-dist/scripts/svn-multi/svn-multi.pl
@@ -466,13 +483,17 @@ share/texmf-dist/scripts/texloganalyser/texloganalyser
 share/texmf-dist/scripts/thumbpdf/thumbpdf.pl
 share/texmf-dist/scripts/ulqda/ulqda.pl
 share/texmf-dist/scripts/vpe/vpe.pl
+share/texmf/chktex/chktexrc
 share/texmf/doc/bibtex8/00readme.txt
 share/texmf/doc/bibtex8/HISTORY
 share/texmf/doc/bibtex8/csfile.txt
 share/texmf/doc/bibtex8/file_id.diz
-share/texmf/doc/tetex/TETEXDOC.dvi
+share/texmf/doc/bibtexu/00readme.txt
+share/texmf/doc/bibtexu/HISTORY
+share/texmf/doc/bibtexu/csfile.txt
+share/texmf/doc/bibtexu/file_id.diz
+share/texmf/doc/chktex/ChkTeX.pdf
 share/texmf/doc/tetex/TETEXDOC.pdf
-share/texmf/doc/tetex/TETEXDOC.ps
 share/texmf/doc/tetex/teTeX-FAQ
 share/texmf/dvipdfmx/dvipdfmx.cfg
 share/texmf/dvips/base/color.pro
@@ -487,7 +508,6 @@ share/texmf/dvips/gsftopk/render.ps
 share/texmf/fonts/cmap/dvipdfmx/EUC-UCS2
 share/texmf/fonts/map/dvipdfm/dvipdfmx/cid-x.map
 share/texmf/scripts/a2ping/a2ping.pl
-share/texmf/scripts/getnonfreefonts/getnonfreefonts.pl
 share/texmf/scripts/simpdftex/simpdftex
 share/texmf/scripts/tetex/e2pall.pl
 share/texmf/scripts/tetex/texdoctk.pl
@@ -513,6 +533,8 @@ share/texmf/xdvi/XDvi
 share/texmf/xdvi/pixmap/toolbar.xpm
 share/texmf/xdvi/pixmap/toolbar2.xpm
 share/texmf/xdvi/xdvi.cfg
+@unexec rm -f %D/share/texmf-dist/ls-R
+@unexec rm -f %D/share/texmf/ls-R
 @dirrm share/texmf/xdvi/pixmap
 @dirrm share/texmf/xdvi
 @dirrm share/texmf/web2c
@@ -524,7 +546,6 @@ share/texmf/xdvi/xdvi.cfg
 @dirrm share/texmf/scripts/texdoc
 @dirrm share/texmf/scripts/tetex
 @dirrm share/texmf/scripts/simpdftex
-@dirrm share/texmf/scripts/getnonfreefonts
 @dirrm share/texmf/scripts/a2ping
 @dirrm share/texmf/scripts
 @dirrm share/texmf/fonts/map/dvipdfm/dvipdfmx
@@ -538,8 +559,11 @@ share/texmf/xdvi/xdvi.cfg
 @dirrm share/texmf/dvips
 @dirrm share/texmf/dvipdfmx
 @dirrm share/texmf/doc/tetex
+@dirrm share/texmf/doc/chktex
+@dirrm share/texmf/doc/bibtexu
 @dirrm share/texmf/doc/bibtex8
 @dirrm share/texmf/doc
+@dirrm share/texmf/chktex
 @dirrm share/texmf-dist/scripts/vpe
 @dirrm share/texmf-dist/scripts/ulqda
 @dirrm share/texmf-dist/scripts/thumbpdf
@@ -558,13 +582,17 @@ share/texmf/xdvi/xdvi.cfg
 @dirrm share/texmf-dist/scripts/pkfix-helper
 @dirrm share/texmf-dist/scripts/pkfix
 @dirrm share/texmf-dist/scripts/perltex
+@dirrm share/texmf-dist/scripts/pdfjam
 @dirrm share/texmf-dist/scripts/pdfcrop
 @dirrm share/texmf-dist/scripts/pax
 @dirrm share/texmf-dist/scripts/oberdiek
 @dirrm share/texmf-dist/scripts/mkjobtexmf
 @dirrm share/texmf-dist/scripts/mkgrkindex
+@dirrm share/texmf-dist/scripts/mathspic
+@dirrm share/texmf-dist/scripts/luaotfload
 @dirrm share/texmf-dist/scripts/listings-ext
 @dirrm share/texmf-dist/scripts/latexmk
+@dirrm share/texmf-dist/scripts/latexdiff
 @dirrm share/texmf-dist/scripts/latex2man
 @dirrm share/texmf-dist/scripts/glossaries
 @dirrm share/texmf-dist/scripts/fragmaster
@@ -574,13 +602,14 @@ share/texmf/xdvi/xdvi.cfg
 @dirrm share/texmf-dist/scripts/epstopdf
 @dirrm share/texmf-dist/scripts/epspdf
 @dirrm share/texmf-dist/scripts/dviasm
-@dirrm share/texmf-dist/scripts/context/stubs/unix
-@dirrm share/texmf-dist/scripts/context/stubs
-@dirrm share/texmf-dist/scripts/context/ruby
-@dirrm share/texmf-dist/scripts/context/lua
+@dirrm share/texmf-dist/scripts/de-macro
+@dirrm share/texmf-dist/scripts/context/perl
 @dirrm share/texmf-dist/scripts/context
 @dirrm share/texmf-dist/scripts/cachepic
+@dirrm share/texmf-dist/scripts/bundledoc
+@dirrm share/texmf-dist/scripts/bibexport
 @dirrm share/texmf-dist/scripts/bengali
+@dirrm share/texmf-dist/scripts/authorindex
 @dirrm share/texmf-dist/scripts/accfonts
 @dirrm share/texmf-dist/scripts
 @dirrm share/texmf-dist/fonts/map/glyphlist
@@ -594,7 +623,6 @@ share/texmf/xdvi/xdvi.cfg
 @dirrm share/texmf-dist/bibtex
 @dirrm share/texmf-dist
 @dirrm share/texmf
-@dirrm share/lcdf-typetools
+@dirrm share/lcdf-typetools-for-tex-live
+@dirrm include/ptexenc
 @dirrm include/kpathsea
-@unexec rm -f %D/share/texo f-dist/ls-R
-@unexec rm -f %D/share/texmf/ls-R
