@@ -80,14 +80,14 @@ namespace TeXLive
 			get {
 				bool res;
 				Process p = new Process();
-				ProcessStartInfo psi = new ProcessStartInfo("svn", "diff");
+				ProcessStartInfo psi = new ProcessStartInfo("svn", "diff distinfo");
 				psi.WorkingDirectory = PortDirectory;
 				psi.RedirectStandardOutput = true;
 				psi.UseShellExecute = false;
 				p.StartInfo = psi;
 				p.Start();
-				p.WaitForExit();
 				res = ! string.IsNullOrEmpty (p.StandardOutput.ReadToEnd ());
+				p.WaitForExit();
 				p.Dispose ();
 				return res;
 			}
@@ -133,6 +133,13 @@ namespace TeXLive
 		/// </summary>
 		public void UpdatePort ()
 		{
+			if (TLPort.Verbosity > 0)
+				Console.WriteLine("===> Updating print/texlive-{0}...", name);
+			
+			// Makefile may need to be updated before generating distinfo
+			CreateMakefile ();
+			
+			// Update distinfo
 			if (!CreateDistinfo ()) {
 				// Should never fail (we already have distfiles): the port was removed!
 				DeletePort ();
@@ -140,9 +147,16 @@ namespace TeXLive
 			}
 			
 			if (LocalyModified) {
-				CreateMakefile ();
 				CreatePkgPlist ();
 				Clean ();
+			} else {
+				Process p = new Process();
+				ProcessStartInfo psi = new ProcessStartInfo("svn", "revert Makefile");
+				psi.UseShellExecute = true;
+				p.StartInfo = psi;
+				p.Start();
+				p.WaitForExit();
+				p.Dispose ();
 			}
 		}
 
@@ -272,10 +286,10 @@ namespace TeXLive
 		{
 			bool result;
 			Process p = new Process();
-			ProcessStartInfo psi = new ProcessStartInfo("port", "fetch");
+			ProcessStartInfo psi = new ProcessStartInfo("make", "makesum FETCH_CMD=false");
+			p.StartInfo = psi;
 			psi.UseShellExecute = true;
 			psi.WorkingDirectory = PortDirectory;
-			p.StartInfo = psi;
 			p.Start();
 			p.WaitForExit();
 			result = p.ExitCode == 0;
@@ -315,23 +329,14 @@ namespace TeXLive
 			                System.IO.Path.Combine ("..", "MOVED")));
 			
 			System.IO.StreamWriter m = new System.IO.StreamWriter (mf, true);
-			m.WriteLine (string.Format ("print/texlive-{0}||{1:YYYY}-{2:MM}-{3:dd}|Upstream support dropped", Name,
-			                            DateTime.UtcNow.Year,
-			                            DateTime.UtcNow.Month,
-			                            DateTime.UtcNow.Day));
+			m.WriteLine (string.Format ("print/texlive-{0}||{1:yyyy}-{1:MM}-{1:dd}|Upstream support dropped", Name,
+			                            DateTime.UtcNow));
 			m.Close();
 			
 			// Remove the port from the repository
 			Process p = new Process ();
-			ProcessStartInfo psi = new ProcessStartInfo ("svn", string.Format ("delet %s", PortDirectory));
+			ProcessStartInfo psi = new ProcessStartInfo ("svn", string.Format ("delete --force {0}", PortDirectory));
 			psi.UseShellExecute = true;
-			if (TLPort.Verbosity < 2) {
-				psi.RedirectStandardOutput = true;
-				psi.RedirectStandardError = true;
-				psi.UseShellExecute = false;
-			} else {
-				psi.UseShellExecute = true;
-			}
 			p.StartInfo = psi;
 			p.Start ();
 			p.WaitForExit ();
@@ -345,12 +350,7 @@ namespace TeXLive
 		{
 			Process p = new Process ();
 			ProcessStartInfo psi = new ProcessStartInfo ("make", "clean");
-			if (TLPort.Verbosity < 2) {
-				psi.RedirectStandardOutput = true;
-				psi.UseShellExecute = false;
-			} else {
-				psi.UseShellExecute = true;
-			}
+			psi.UseShellExecute = true;
 			psi.WorkingDirectory = PortDirectory;
 			p.StartInfo = psi;
 			p.Start ();
