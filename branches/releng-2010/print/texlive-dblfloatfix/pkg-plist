@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/dblfloatfix/dblfloatfix.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dblfloatfix/dblfloatfix.tex
+share/texmf-dist/tex/latex/dblfloatfix/dblfloatfix.sty
+@dirrmtry share/texmf-dist/tex/latex/dblfloatfix
+@dirrmtry share/texmf-dist/doc/latex/dblfloatfix
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

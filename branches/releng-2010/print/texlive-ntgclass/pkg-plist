@@ -1,0 +1,38 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ntgclass/00readme.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/ntgclass/a4.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ntgclass/artdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ntgclass/artdoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ntgclass/brief.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ntgclass/brief.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ntgclass/briefdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ntgclass/briefdoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ntgclass/catalog.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/ntgclass/changes.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/ntgclass/classdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ntgclass/classdoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ntgclass/manifest.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/ntgclass/ntgclass.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ntgclass/rapdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ntgclass/rapdoc.tex
+%%PORTSRC%%share/texmf-dist/source/latex/ntgclass/a4.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ntgclass/a4.ins
+%%PORTSRC%%share/texmf-dist/source/latex/ntgclass/brief.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ntgclass/ntgclass.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ntgclass/ntgclass.ins
+share/texmf-dist/tex/latex/ntgclass/a4.sty
+share/texmf-dist/tex/latex/ntgclass/artikel1.cls
+share/texmf-dist/tex/latex/ntgclass/artikel2.cls
+share/texmf-dist/tex/latex/ntgclass/artikel3.cls
+share/texmf-dist/tex/latex/ntgclass/boek.cls
+share/texmf-dist/tex/latex/ntgclass/boek3.cls
+share/texmf-dist/tex/latex/ntgclass/brief.cls
+share/texmf-dist/tex/latex/ntgclass/ntg10.clo
+share/texmf-dist/tex/latex/ntgclass/ntg11.clo
+share/texmf-dist/tex/latex/ntgclass/ntg12.clo
+share/texmf-dist/tex/latex/ntgclass/rapport1.cls
+share/texmf-dist/tex/latex/ntgclass/rapport3.cls
+@dirrmtry share/texmf-dist/tex/latex/ntgclass
+@dirrmtry share/texmf-dist/source/latex/ntgclass
+@dirrmtry share/texmf-dist/doc/latex/ntgclass
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,5 @@
+The package provides an expandable variant of the LaTeX kernel
+command \@testopt, named \@expandable@testopt, and a more
+general \@expandable@ifopt, both intended for package writers.
+Also we have a variant of \newcommand which uses these macros
+to check for optional arguments.

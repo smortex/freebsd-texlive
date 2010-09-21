@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/calrsfs/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/calrsfs/calrsfs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/calrsfs/calrsfs.tex
+share/texmf-dist/tex/latex/calrsfs/OMSrsfs.fd
+share/texmf-dist/tex/latex/calrsfs/calrsfs.sty
+@dirrmtry share/texmf-dist/tex/latex/calrsfs
+@dirrmtry share/texmf-dist/doc/latex/calrsfs
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

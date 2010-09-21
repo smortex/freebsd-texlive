@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-fill/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-fill/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-fill/pst-fill.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/pst-fill/Makefile
+%%PORTSRC%%share/texmf-dist/source/generic/pst-fill/pst-fill.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/pst-fill/pst-fill.ins
+share/texmf-dist/tex/generic/pst-fill/pst-fill.tex
+share/texmf-dist/tex/latex/pst-fill/pst-fill.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-fill
+@dirrmtry share/texmf-dist/tex/generic/pst-fill
+@dirrmtry share/texmf-dist/source/generic/pst-fill
+@dirrmtry share/texmf-dist/doc/generic/pst-fill
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

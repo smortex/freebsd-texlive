@@ -1,0 +1,5 @@
+Sometimes we need to say "Capitolo primo" or "Capitolo uno"
+instead of "Capitolo 1", that is, spelling the number in words
+instead of the usual digit form. This package provides support
+for spelling out numbers in Italian words, both in cardinal and
+in ordinal form.

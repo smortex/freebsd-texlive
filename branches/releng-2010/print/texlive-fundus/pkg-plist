@@ -1,0 +1,43 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/doc/calligra.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/doc/la.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/doc/outline.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/doc/twcal.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/startrek.map
+%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/stclass.zip
+%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/stmov.zip
+%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/tngcril.zip
+%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/tngmon.zip
+%%PORTDOCS%%share/texmf-dist/doc/latex/fundus/tngtit.zip
+%%PORTSRC%%share/texmf-dist/source/latex/fundus/calligra.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fundus/calligra.ins
+%%PORTSRC%%share/texmf-dist/source/latex/fundus/la.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fundus/la.ins
+%%PORTSRC%%share/texmf-dist/source/latex/fundus/outline.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fundus/outline.ins
+%%PORTSRC%%share/texmf-dist/source/latex/fundus/pvscript.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fundus/pvscript.ins
+%%PORTSRC%%share/texmf-dist/source/latex/fundus/startrek.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fundus/startrek.ins
+%%PORTSRC%%share/texmf-dist/source/latex/fundus/suetterl.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fundus/suetterl.ins
+%%PORTSRC%%share/texmf-dist/source/latex/fundus/twcal.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fundus/twcal.ins
+%%PORTSRC%%share/texmf-dist/source/latex/fundus/va.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fundus/va.ins
+share/texmf-dist/tex/latex/fundus/calligra.sty
+share/texmf-dist/tex/latex/fundus/cyr.sty
+share/texmf-dist/tex/latex/fundus/la.sty
+share/texmf-dist/tex/latex/fundus/ot1ocm.fd
+share/texmf-dist/tex/latex/fundus/ot1ocmss.fd
+share/texmf-dist/tex/latex/fundus/ot1ocmtt.fd
+share/texmf-dist/tex/latex/fundus/pvscript.sty
+share/texmf-dist/tex/latex/fundus/startrek.sty
+share/texmf-dist/tex/latex/fundus/suetterl.sty
+share/texmf-dist/tex/latex/fundus/twcal.sty
+share/texmf-dist/tex/latex/fundus/va.sty
+@dirrmtry share/texmf-dist/tex/latex/fundus
+@dirrmtry share/texmf-dist/source/latex/fundus
+@dirrmtry share/texmf-dist/doc/latex/fundus/doc
+@dirrmtry share/texmf-dist/doc/latex/fundus
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

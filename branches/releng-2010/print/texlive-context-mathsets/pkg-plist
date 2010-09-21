@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/context/third/mathsets/README
+%%PORTDOCS%%share/texmf-dist/doc/context/third/mathsets/mathsets-doc.pdf
+share/texmf-dist/tex/context/interface/third/t-mathsets.xml
+share/texmf-dist/tex/context/third/mathsets/t-mathsets.tex
+@dirrmtry share/texmf-dist/tex/context/third/mathsets
+@dirrmtry share/texmf-dist/tex/context/interface/third
+@dirrmtry share/texmf-dist/doc/context/third/mathsets
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

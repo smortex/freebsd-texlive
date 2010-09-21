@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/marginfix/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/marginfix/marginfix.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/marginfix/marginfix.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/marginfix/marginfix.ins
+share/texmf-dist/tex/latex/marginfix/marginfix.sty
+@dirrmtry share/texmf-dist/tex/latex/marginfix
+@dirrmtry share/texmf-dist/source/latex/marginfix
+@dirrmtry share/texmf-dist/doc/latex/marginfix
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

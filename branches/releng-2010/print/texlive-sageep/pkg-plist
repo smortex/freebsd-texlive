@@ -1,0 +1,17 @@
+share/texmf-dist/bibtex/bst/sageep/sageep.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/sageep/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/sageep/sageep.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/sageep/sageep.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sageep/sageep_graphic2009.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/sageep/sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sageep/sample.tex
+%%PORTSRC%%share/texmf-dist/source/latex/sageep/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/sageep/sageep.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/sageep/sageep.ins
+share/texmf-dist/tex/latex/sageep/sageep.cls
+@dirrmtry share/texmf-dist/tex/latex/sageep
+@dirrmtry share/texmf-dist/source/latex/sageep
+@dirrmtry share/texmf-dist/doc/latex/sageep
+@dirrmtry share/texmf-dist/bibtex/bst/sageep
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

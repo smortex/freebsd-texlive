@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/rotating/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/rotating/cat.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/rotating/examples.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/rotating/rotating.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/rotating/rotating.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/rotating/rotating.ins
+share/texmf-dist/tex/latex/rotating/rotating.sty
+@dirrmtry share/texmf-dist/tex/latex/rotating
+@dirrmtry share/texmf-dist/source/latex/rotating
+@dirrmtry share/texmf-dist/doc/latex/rotating
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

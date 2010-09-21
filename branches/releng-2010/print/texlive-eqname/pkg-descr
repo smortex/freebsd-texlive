@@ -1,0 +1,3 @@
+The \eqname command provides a name tag for the current
+equation, in place of an equation number. The name tag will be
+picked up by a subsequent \label command.

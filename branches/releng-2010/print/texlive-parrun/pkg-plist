@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/parrun/parrun.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/parrun/readme
+%%PORTSRC%%share/texmf-dist/source/latex/parrun/parrun.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/parrun/parrun.ins
+share/texmf-dist/tex/latex/parrun/parrun.sty
+@dirrmtry share/texmf-dist/tex/latex/parrun
+@dirrmtry share/texmf-dist/source/latex/parrun
+@dirrmtry share/texmf-dist/doc/latex/parrun
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

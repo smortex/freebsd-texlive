@@ -1,0 +1,12 @@
+share/texmf-dist/bibtex/bst/din1505/abbrvdin.bst
+share/texmf-dist/bibtex/bst/din1505/alphadin.bst
+share/texmf-dist/bibtex/bst/din1505/natdin.bst
+share/texmf-dist/bibtex/bst/din1505/plaindin.bst
+share/texmf-dist/bibtex/bst/din1505/unsrtdin.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/din1505/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/latex/din1505/leitbild.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/din1505/natbib.cfg
+@dirrmtry share/texmf-dist/doc/latex/din1505
+@dirrmtry share/texmf-dist/bibtex/bst/din1505
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

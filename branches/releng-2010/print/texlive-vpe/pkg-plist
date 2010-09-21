@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/vpe/vpe.txt
+share/texmf-dist/tex/latex/vpe/vpe.sty
+@dirrmtry share/texmf-dist/tex/latex/vpe
+@dirrmtry share/texmf-dist/doc/latex/vpe
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

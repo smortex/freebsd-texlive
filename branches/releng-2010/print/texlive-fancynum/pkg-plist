@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancynum/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancynum/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancynum/aue.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancynum/ctt.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancynum/dbltable.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancynum/examples.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancynum/fancynum.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/fancynum/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/fancynum/fancynum.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fancynum/fancynum.ins
+%%PORTSRC%%share/texmf-dist/source/latex/fancynum/tables.c
+share/texmf-dist/tex/latex/fancynum/fancynum.sty
+@dirrmtry share/texmf-dist/tex/latex/fancynum
+@dirrmtry share/texmf-dist/source/latex/fancynum
+@dirrmtry share/texmf-dist/doc/latex/fancynum
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

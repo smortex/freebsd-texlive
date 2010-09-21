@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xgreek/README.1ST
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xgreek/xgreek.pdf
+%%PORTSRC%%share/texmf-dist/source/xelatex/xgreek/xgreek.dtx
+%%PORTSRC%%share/texmf-dist/source/xelatex/xgreek/xgreek.ins
+share/texmf-dist/tex/xelatex/xgreek/xgreek.sty
+@dirrmtry share/texmf-dist/tex/xelatex/xgreek
+@dirrmtry share/texmf-dist/source/xelatex/xgreek
+@dirrmtry share/texmf-dist/doc/xelatex/xgreek
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

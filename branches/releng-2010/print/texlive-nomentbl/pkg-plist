@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/nomentbl/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/nomentbl/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nomentbl/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/nomentbl/nomentbl.pdf
+share/texmf-dist/makeindex/nomentbl/nomentbl.ist
+%%PORTSRC%%share/texmf-dist/source/latex/nomentbl/nomentbl.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/nomentbl/nomentbl.ins
+share/texmf-dist/tex/latex/nomentbl/nomentbl.sty
+@dirrmtry share/texmf-dist/tex/latex/nomentbl
+@dirrmtry share/texmf-dist/source/latex/nomentbl
+@dirrmtry share/texmf-dist/makeindex/nomentbl
+@dirrmtry share/texmf-dist/doc/latex/nomentbl
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

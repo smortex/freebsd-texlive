@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dice/dice3d.dvi
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dice/dice3d.tex
+share/texmf-dist/fonts/source/public/dice/dice3d.mf
+share/texmf-dist/fonts/tfm/public/dice/dice3d.tfm
+@dirrmtry share/texmf-dist/fonts/tfm/public/dice
+@dirrmtry share/texmf-dist/fonts/source/public/dice
+@dirrmtry share/texmf-dist/doc/fonts/dice
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pb-diagram/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/pb-diagram/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pb-diagram/pb-examples.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pb-diagram/pb-manual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pb-diagram/pb-manual.tex
+share/texmf-dist/tex/latex/pb-diagram/lamsarrow.sty
+share/texmf-dist/tex/latex/pb-diagram/pb-diagram.sty
+share/texmf-dist/tex/latex/pb-diagram/pb-lams.sty
+share/texmf-dist/tex/latex/pb-diagram/pb-xy.sty
+@dirrmtry share/texmf-dist/tex/latex/pb-diagram
+@dirrmtry share/texmf-dist/doc/latex/pb-diagram
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

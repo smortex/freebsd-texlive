@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/advdate/advdate.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/advdate/advdate.tex
+share/texmf-dist/tex/latex/advdate/advdate.sty
+@dirrmtry share/texmf-dist/tex/latex/advdate
+@dirrmtry share/texmf-dist/doc/latex/advdate
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

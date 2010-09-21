@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cite/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/cite/chapterbib.ltx
+%%PORTDOCS%%share/texmf-dist/doc/latex/cite/chapterbib.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cite/cite.ltx
+%%PORTDOCS%%share/texmf-dist/doc/latex/cite/cite.pdf
+share/texmf-dist/tex/latex/cite/chapterbib.sty
+share/texmf-dist/tex/latex/cite/cite.sty
+share/texmf-dist/tex/latex/cite/drftcite.sty
+share/texmf-dist/tex/latex/cite/overcite.sty
+@dirrmtry share/texmf-dist/tex/latex/cite
+@dirrmtry share/texmf-dist/doc/latex/cite
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

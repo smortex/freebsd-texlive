@@ -1,0 +1,5 @@
+The bundle provides classes for formatting theses and exams in
+the format required by Vaxjo University, Sweden. The directory
+contain the following classes and packages: - actawex:
+doctorial theses in Acta Wexionensia; - rfmsi: master theses; -
+vxulicentiate: licentiate theses; and - vxutentamen: exams.

@@ -1,0 +1,33 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/upmethodology/AUTHORS
+%%PORTDOCS%%share/texmf-dist/doc/latex/upmethodology/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/upmethodology/Changelog
+%%PORTDOCS%%share/texmf-dist/doc/latex/upmethodology/INSTALL
+%%PORTDOCS%%share/texmf-dist/doc/latex/upmethodology/NEWS
+%%PORTDOCS%%share/texmf-dist/doc/latex/upmethodology/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/upmethodology/TODO
+%%PORTDOCS%%share/texmf-dist/doc/latex/upmethodology/VERSION
+%%PORTDOCS%%share/texmf-dist/doc/latex/upmethodology/arakhne_org_logo.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/upmethodology/caution.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/upmethodology/frontclassic.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/upmethodology/frontmodern.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/upmethodology/illustration.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/upmethodology/info.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/upmethodology/question.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/upmethodology/small_arakhne_org_logo.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/upmethodology/upmethodology-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/upmethodology/upmethodology-doc.tex
+share/texmf-dist/tex/latex/upmethodology/upmethodology-backpage.sty
+share/texmf-dist/tex/latex/upmethodology/upmethodology-code.sty
+share/texmf-dist/tex/latex/upmethodology/upmethodology-document.cls
+share/texmf-dist/tex/latex/upmethodology/upmethodology-document.sty
+share/texmf-dist/tex/latex/upmethodology/upmethodology-extension.sty
+share/texmf-dist/tex/latex/upmethodology/upmethodology-fmt.sty
+share/texmf-dist/tex/latex/upmethodology/upmethodology-frontpage.sty
+share/texmf-dist/tex/latex/upmethodology/upmethodology-p-common.sty
+share/texmf-dist/tex/latex/upmethodology/upmethodology-spec.sty
+share/texmf-dist/tex/latex/upmethodology/upmethodology-task.sty
+share/texmf-dist/tex/latex/upmethodology/upmethodology-version.sty
+@dirrmtry share/texmf-dist/tex/latex/upmethodology
+@dirrmtry share/texmf-dist/doc/latex/upmethodology
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

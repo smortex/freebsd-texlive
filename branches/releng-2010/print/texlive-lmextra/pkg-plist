@@ -1,0 +1,4 @@
+share/texmf-dist/fonts/truetype/hoekwater/lmextra/lmtypewriter10-regular.ttf
+@dirrmtry share/texmf-dist/fonts/truetype/hoekwater/lmextra
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

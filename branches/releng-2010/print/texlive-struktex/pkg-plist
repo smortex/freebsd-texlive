@@ -1,0 +1,25 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/struktex/LIESMICH
+%%PORTDOCS%%share/texmf-dist/doc/latex/struktex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/struktex/THIS_IS_VERSION_v101
+%%PORTDOCS%%share/texmf-dist/doc/latex/struktex/getversion.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/struktex/struktex-test-0.nss
+%%PORTDOCS%%share/texmf-dist/doc/latex/struktex/struktex-test-1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/struktex/struktex-test-2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/struktex/struktex-test-3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/struktex/struktex-test-4.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/struktex/struktex.de.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/struktex/struktex.el
+%%PORTDOCS%%share/texmf-dist/doc/latex/struktex/struktex.en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/struktex/struktex.makemake
+%%PORTDOCS%%share/texmf-dist/doc/latex/struktex/struktex.mk
+%%PORTSRC%%share/texmf-dist/source/latex/struktex/struktex.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/struktex/struktex.ins
+share/texmf-dist/tex/latex/struktex/strukdoc.sty
+share/texmf-dist/tex/latex/struktex/struktex.sty
+share/texmf-dist/tex/latex/struktex/struktxf.sty
+share/texmf-dist/tex/latex/struktex/struktxp.sty
+@dirrmtry share/texmf-dist/tex/latex/struktex
+@dirrmtry share/texmf-dist/source/latex/struktex
+@dirrmtry share/texmf-dist/doc/latex/struktex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

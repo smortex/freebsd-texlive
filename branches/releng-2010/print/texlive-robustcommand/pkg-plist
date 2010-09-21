@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/robustcommand/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/robustcommand/robustcommand.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/robustcommand/robustcommand.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/robustcommand/robustcommand.ins
+share/texmf-dist/tex/latex/robustcommand/robustcommand.sty
+@dirrmtry share/texmf-dist/tex/latex/robustcommand
+@dirrmtry share/texmf-dist/source/latex/robustcommand
+@dirrmtry share/texmf-dist/doc/latex/robustcommand
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

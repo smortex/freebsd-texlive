@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/etextools/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/etextools/etextools-examples.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/etextools/etextools-examples.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/etextools/etextools.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/etextools/etextools.drv
+%%PORTSRC%%share/texmf-dist/source/latex/etextools/etextools.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/etextools/etextools.ins
+share/texmf-dist/tex/latex/etextools/etextools.sty
+@dirrmtry share/texmf-dist/tex/latex/etextools
+@dirrmtry share/texmf-dist/source/latex/etextools
+@dirrmtry share/texmf-dist/doc/latex/etextools
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

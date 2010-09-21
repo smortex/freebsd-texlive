@@ -1,0 +1,27 @@
+share/texmf-dist/metafont/mftoeps/mftoeps.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/mftoeps/0mftoeps.doc
+%%PORTSRC%%share/texmf-dist/source/metafont/mftoeps/m2esamp/0m2esamp.doc
+%%PORTSRC%%share/texmf-dist/source/metafont/mftoeps/m2esamp/clipcir.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/mftoeps/m2esamp/clipsqu.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/mftoeps/m2esamp/holeclip.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/mftoeps/m2esamp/holeclip.tex
+%%PORTSRC%%share/texmf-dist/source/metafont/mftoeps/m2esamp/holefill.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/mftoeps/m2esamp/polygons.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/mftoeps/m2esamp/rectan.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/mftoeps/m2esamp/rectan_.bat
+%%PORTSRC%%share/texmf-dist/source/metafont/mftoeps/m2esamp/sample1a.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/mftoeps/m2esamp/sample1b.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/mftoeps/m2esamp/sample2a.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/mftoeps/m2esamp/sample2b.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/mftoeps/m2esamp/sample2c.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/mftoeps/m2esamp/sample2d.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/mftoeps/m2esamp/sample2e.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/mftoeps/m2esamp/sample3.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/mftoeps/m2esamp/sample4.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/mftoeps/m2esamp/sample5.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/mftoeps/m2esamp/stereo.mf
+@dirrmtry share/texmf-dist/source/metafont/mftoeps/m2esamp
+@dirrmtry share/texmf-dist/source/metafont/mftoeps
+@dirrmtry share/texmf-dist/metafont/mftoeps
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

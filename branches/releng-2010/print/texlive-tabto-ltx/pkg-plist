@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabto-ltx/tabto-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabto-ltx/tabto-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabto-ltx/tabto.txt
+share/texmf-dist/tex/latex/tabto-ltx/tabto.sty
+@dirrmtry share/texmf-dist/tex/latex/tabto-ltx
+@dirrmtry share/texmf-dist/doc/latex/tabto-ltx
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

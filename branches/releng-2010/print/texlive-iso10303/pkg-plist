@@ -1,0 +1,61 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/iso10303/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/iso10303/step4ht.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/iso10303/stepe.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/iso10303/stepman.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/iso10303/step4ht.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/iso10303/step4ht.ins
+%%PORTSRC%%share/texmf-dist/source/latex/iso10303/stepe.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/iso10303/stepe.ins
+share/texmf-dist/tex/latex/iso10303/aicv1.sty
+share/texmf-dist/tex/latex/iso10303/apendint.tex
+share/texmf-dist/tex/latex/iso10303/apmpspec.tex
+share/texmf-dist/tex/latex/iso10303/apmptbl.tex
+share/texmf-dist/tex/latex/iso10303/apmptempl.tex
+share/texmf-dist/tex/latex/iso10303/apsstempl.tex
+share/texmf-dist/tex/latex/iso10303/apv12.sty
+share/texmf-dist/tex/latex/iso10303/atsv11.sty
+share/texmf-dist/tex/latex/iso10303/bpfap1.tex
+share/texmf-dist/tex/latex/iso10303/bpfap10.tex
+share/texmf-dist/tex/latex/iso10303/bpfap11.tex
+share/texmf-dist/tex/latex/iso10303/bpfap12.tex
+share/texmf-dist/tex/latex/iso10303/bpfap13.tex
+share/texmf-dist/tex/latex/iso10303/bpfap14.tex
+share/texmf-dist/tex/latex/iso10303/bpfap15.tex
+share/texmf-dist/tex/latex/iso10303/bpfap16.tex
+share/texmf-dist/tex/latex/iso10303/bpfap2.tex
+share/texmf-dist/tex/latex/iso10303/bpfap3.tex
+share/texmf-dist/tex/latex/iso10303/bpfap4.tex
+share/texmf-dist/tex/latex/iso10303/bpfap5.tex
+share/texmf-dist/tex/latex/iso10303/bpfap6.tex
+share/texmf-dist/tex/latex/iso10303/bpfap7.tex
+share/texmf-dist/tex/latex/iso10303/bpfap8.tex
+share/texmf-dist/tex/latex/iso10303/bpfap9.tex
+share/texmf-dist/tex/latex/iso10303/bpfats1.tex
+share/texmf-dist/tex/latex/iso10303/bpfats10.tex
+share/texmf-dist/tex/latex/iso10303/bpfats11.tex
+share/texmf-dist/tex/latex/iso10303/bpfats12.tex
+share/texmf-dist/tex/latex/iso10303/bpfats14.tex
+share/texmf-dist/tex/latex/iso10303/bpfats2.tex
+share/texmf-dist/tex/latex/iso10303/bpfats3.tex
+share/texmf-dist/tex/latex/iso10303/bpfats4.tex
+share/texmf-dist/tex/latex/iso10303/bpfats5.tex
+share/texmf-dist/tex/latex/iso10303/bpfats6.tex
+share/texmf-dist/tex/latex/iso10303/bpfats7.tex
+share/texmf-dist/tex/latex/iso10303/bpfats8.tex
+share/texmf-dist/tex/latex/iso10303/bpfats9.tex
+share/texmf-dist/tex/latex/iso10303/bpfir1.tex
+share/texmf-dist/tex/latex/iso10303/bpfir2.tex
+share/texmf-dist/tex/latex/iso10303/bpfir3.tex
+share/texmf-dist/tex/latex/iso10303/bpfs1.tex
+share/texmf-dist/tex/latex/iso10303/bpfs2.tex
+share/texmf-dist/tex/latex/iso10303/bpfs3.tex
+share/texmf-dist/tex/latex/iso10303/irv12.sty
+share/texmf-dist/tex/latex/iso10303/stepman.tex
+share/texmf-dist/tex/latex/iso10303/stepv13.4ht
+share/texmf-dist/tex/latex/iso10303/stepv13.sty
+share/texmf-dist/tex/latex/iso10303/stppdlst.tex
+@dirrmtry share/texmf-dist/tex/latex/iso10303
+@dirrmtry share/texmf-dist/source/latex/iso10303
+@dirrmtry share/texmf-dist/doc/latex/iso10303
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

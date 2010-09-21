@@ -1,0 +1,22 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-electricfield/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-electricfield/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-electricfield/pst-electricfield-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-electricfield/pst-electricfield-docDE.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-electricfield/pst-electricfield-docDE.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-electricfield/pst-electricfield-docEN.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-electricfield/pst-electricfield-docEN.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-electricfield/pst-electricfield-docFR.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-electricfield/pst-electricfield-docFR.tex
+share/texmf-dist/dvips/pst-electricfield/pst-electricfield.pro
+%%PORTSRC%%share/texmf-dist/source/generic/pst-electricfield/Makefile
+%%PORTSRC%%share/texmf-dist/source/generic/pst-electricfield/Makefile.latex
+%%PORTSRC%%share/texmf-dist/source/generic/pst-electricfield/Makefile.pst2pdf
+share/texmf-dist/tex/generic/pst-electricfield/pst-electricfield.tex
+share/texmf-dist/tex/latex/pst-electricfield/pst-electricfield.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-electricfield
+@dirrmtry share/texmf-dist/tex/generic/pst-electricfield
+@dirrmtry share/texmf-dist/source/generic/pst-electricfield
+@dirrmtry share/texmf-dist/dvips/pst-electricfield
+@dirrmtry share/texmf-dist/doc/generic/pst-electricfield
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

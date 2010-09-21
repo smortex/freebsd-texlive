@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/context/third/degrade/degrade-demo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/degrade/degrade-doc.pdf
+share/texmf-dist/tex/context/third/degrade/t-degrade.tex
+@dirrmtry share/texmf-dist/tex/context/third/degrade
+@dirrmtry share/texmf-dist/doc/context/third/degrade
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

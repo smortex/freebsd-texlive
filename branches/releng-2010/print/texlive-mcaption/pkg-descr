@@ -1,0 +1,5 @@
+The mcaption package provides an mcaption environment which
+puts figure or table captions in the margin. The package works
+with the standard classes and with the KOMA-Script document
+classes scrartcl, scrreprt and scrbook. The package requires
+the changepage package.

@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/regcount/readme
+%%PORTSRC%%share/texmf-dist/source/latex/regcount/regcount.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/regcount/regcount.ins
+share/texmf-dist/tex/latex/regcount/regcount.sty
+@dirrmtry share/texmf-dist/tex/latex/regcount
+@dirrmtry share/texmf-dist/source/latex/regcount
+@dirrmtry share/texmf-dist/doc/latex/regcount
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

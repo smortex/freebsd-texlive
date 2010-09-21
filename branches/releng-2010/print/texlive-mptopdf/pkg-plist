@@ -1,0 +1,14 @@
+share/texmf-dist/scripts/context/perl/mptopdf.pl
+share/texmf-dist/tex/context/base/supp-mis.mkii
+share/texmf-dist/tex/context/base/supp-mpe.mkii
+share/texmf-dist/tex/context/base/supp-pdf.mkii
+share/texmf-dist/tex/context/base/syst-tex.mkii
+share/texmf-dist/tex/generic/context/mptopdf.tex
+%%PORTDOCS%%share/texmf/doc/man/man1/mptopdf.1
+%%PORTDOCS%%share/texmf/doc/man/man1/mptopdf.man1.pdf
+@dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf-dist/tex/generic/context
+@dirrmtry share/texmf-dist/tex/context/base
+@dirrmtry share/texmf-dist/scripts/context/perl
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

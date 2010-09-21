@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/delimtxt/delimtxt.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/delimtxt/resulta.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/delimtxt/resultb.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/delimtxt/resultc.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/delimtxt/test1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/delimtxt/test2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/delimtxt/test3.tex
+%%PORTSRC%%share/texmf-dist/source/latex/delimtxt/delimtxt.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/delimtxt/delimtxt.ins
+share/texmf-dist/tex/latex/delimtxt/delimtxt.sty
+@dirrmtry share/texmf-dist/tex/latex/delimtxt
+@dirrmtry share/texmf-dist/source/latex/delimtxt
+@dirrmtry share/texmf-dist/doc/latex/delimtxt
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

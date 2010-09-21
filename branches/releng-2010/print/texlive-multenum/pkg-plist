@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/multenum/multienum.article
+%%PORTDOCS%%share/texmf-dist/doc/latex/multenum/multienum.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/multenum/multienum.sample
+share/texmf-dist/tex/latex/multenum/multienum.sty
+@dirrmtry share/texmf-dist/tex/latex/multenum
+@dirrmtry share/texmf-dist/doc/latex/multenum
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

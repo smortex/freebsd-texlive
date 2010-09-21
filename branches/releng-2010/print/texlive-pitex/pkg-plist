@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/plain/pitex/README
+share/texmf-dist/tex/plain/pitex/fonts.ptx
+share/texmf-dist/tex/plain/pitex/pitex.tex
+share/texmf-dist/tex/plain/pitex/sections.ptx
+@dirrmtry share/texmf-dist/tex/plain/pitex
+@dirrmtry share/texmf-dist/doc/plain/pitex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

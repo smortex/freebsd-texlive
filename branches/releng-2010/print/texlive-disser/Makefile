@@ -1,0 +1,17 @@
+# New ports collection makefile for:	texlive-disser
+# Date created:		13/03/2010 04:34:37
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	disser
+PORTVERSION=	20100921
+CATEGORIES=	print
+
+MAINTAINER=	romain@FreeBSD.org
+COMMENT=	Class and templates for typesetting dissertations in Russian.
+
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

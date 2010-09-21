@@ -1,0 +1,31 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/gallery-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/gallery-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/mypics.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic001.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic002.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic003.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic004.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic005.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic006.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic007.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic008.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic009.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic010.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic011.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic012.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic013.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic014.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic015.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic016.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic017.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic018.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic019.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic020.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic021.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic022.jpg
+share/texmf-dist/tex/latex/image-gallery/image-gallery.cls
+@dirrmtry share/texmf-dist/tex/latex/image-gallery
+@dirrmtry share/texmf-dist/doc/latex/image-gallery
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

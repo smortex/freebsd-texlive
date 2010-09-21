@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/kix/kix.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/kix/kix.tex
+share/texmf-dist/tex/latex/kix/kix.sty
+@dirrmtry share/texmf-dist/tex/latex/kix
+@dirrmtry share/texmf-dist/doc/latex/kix
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

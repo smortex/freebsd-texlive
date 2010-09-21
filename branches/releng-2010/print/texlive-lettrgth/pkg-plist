@@ -1,0 +1,34 @@
+share/texmf-dist/fonts/tfm/cg/lettrgth/clgb.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/clgb8t.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/clgr.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/clgr8t.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/clgri.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/clgri8t.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/lgb10u.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/lgb2n.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/lgb6j.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/lgb7j.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/lgb8u.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/lgb9t.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/lgi10u.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/lgi2n.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/lgi6j.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/lgi7j.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/lgi8u.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/lgi9t.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/lgr10u.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/lgr2n.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/lgr6j.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/lgr7j.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/lgr8u.tfm
+share/texmf-dist/fonts/tfm/cg/lettrgth/lgr9t.tfm
+share/texmf-dist/fonts/vf/cg/lettrgth/clgb.vf
+share/texmf-dist/fonts/vf/cg/lettrgth/clgb8t.vf
+share/texmf-dist/fonts/vf/cg/lettrgth/clgr.vf
+share/texmf-dist/fonts/vf/cg/lettrgth/clgr8t.vf
+share/texmf-dist/fonts/vf/cg/lettrgth/clgri.vf
+share/texmf-dist/fonts/vf/cg/lettrgth/clgri8t.vf
+@dirrmtry share/texmf-dist/fonts/vf/cg/lettrgth
+@dirrmtry share/texmf-dist/fonts/tfm/cg/lettrgth
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/trimspaces/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/trimspaces/trimspaces.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/trimspaces/trimspaces.ins
+%%PORTSRC%%share/texmf-dist/source/latex/trimspaces/trimspaces.tex
+share/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+@dirrmtry share/texmf-dist/tex/latex/trimspaces
+@dirrmtry share/texmf-dist/source/latex/trimspaces
+@dirrmtry share/texmf-dist/doc/latex/trimspaces
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

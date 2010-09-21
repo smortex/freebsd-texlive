@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/combelow/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/combelow/combelow.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/combelow/combelow.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/combelow/combelow.tex
+share/texmf-dist/tex/latex/combelow/combelow.sty
+@dirrmtry share/texmf-dist/tex/latex/combelow
+@dirrmtry share/texmf-dist/doc/latex/combelow
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

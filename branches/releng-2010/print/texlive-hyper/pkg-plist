@@ -1,0 +1,51 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/hyper/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/hyper/TODO
+%%PORTDOCS%%share/texmf-dist/doc/latex/hyper/contrib/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/hyper/contrib/harvard-to.hyp
+%%PORTDOCS%%share/texmf-dist/doc/latex/hyper/defpattern.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/hyper/hyper.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/hyper/scontrib/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/hyper/scontrib/harvard.hyp
+%%PORTSRC%%share/texmf-dist/source/latex/hyper/Makefile-MSDos
+%%PORTSRC%%share/texmf-dist/source/latex/hyper/Makefile-Unix
+%%PORTSRC%%share/texmf-dist/source/latex/hyper/backcite.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/hyper/dvi2pdf.pl
+%%PORTSRC%%share/texmf-dist/source/latex/hyper/hyper.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/hyper/hyper.ins
+share/texmf-dist/tex/latex/hyper/amsart.hyp
+share/texmf-dist/tex/latex/hyper/amsbook.hyp
+share/texmf-dist/tex/latex/hyper/amsdtx.hyp
+share/texmf-dist/tex/latex/hyper/amsldoc.hyp
+share/texmf-dist/tex/latex/hyper/amsmath.hyp
+share/texmf-dist/tex/latex/hyper/amsproc.hyp
+share/texmf-dist/tex/latex/hyper/amstex.hyp
+share/texmf-dist/tex/latex/hyper/amsthm.hyp
+share/texmf-dist/tex/latex/hyper/article.hyp
+share/texmf-dist/tex/latex/hyper/book.hyp
+share/texmf-dist/tex/latex/hyper/cweb.hyp
+share/texmf-dist/tex/latex/hyper/doc.hyp
+share/texmf-dist/tex/latex/hyper/fancyheadings.hyp
+share/texmf-dist/tex/latex/hyper/ftnright.hyp
+share/texmf-dist/tex/latex/hyper/hxt-bc.sty
+share/texmf-dist/tex/latex/hyper/hyper.sty
+share/texmf-dist/tex/latex/hyper/leqno.hyp
+share/texmf-dist/tex/latex/hyper/letter.hyp
+share/texmf-dist/tex/latex/hyper/longtable.hyp
+share/texmf-dist/tex/latex/hyper/ltnews.hyp
+share/texmf-dist/tex/latex/hyper/ltxdoc.hyp
+share/texmf-dist/tex/latex/hyper/ltxguide.hyp
+share/texmf-dist/tex/latex/hyper/natbib.hyp
+share/texmf-dist/tex/latex/hyper/proc.hyp
+share/texmf-dist/tex/latex/hyper/report.hyp
+share/texmf-dist/tex/latex/hyper/slides.hyp
+share/texmf-dist/tex/latex/hyper/subeqnarray.hyp
+share/texmf-dist/tex/latex/hyper/theorem.hyp
+share/texmf-dist/tex/latex/hyper/upref.hyp
+share/texmf-dist/tex/latex/hyper/xr.hyp
+@dirrmtry share/texmf-dist/tex/latex/hyper
+@dirrmtry share/texmf-dist/source/latex/hyper
+@dirrmtry share/texmf-dist/doc/latex/hyper/scontrib
+@dirrmtry share/texmf-dist/doc/latex/hyper/contrib
+@dirrmtry share/texmf-dist/doc/latex/hyper
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,18 @@
+# New ports collection makefile for:	texlive-pst-solides3d
+# Date created:		13/03/2010 04:57:28
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	pst-solides3d
+PORTVERSION=	20100921
+CATEGORIES=	print
+
+MAINTAINER=	romain@FreeBSD.org
+COMMENT=	Draw perspective views of 3D solids.
+
+NOPORTSRC=	yes
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

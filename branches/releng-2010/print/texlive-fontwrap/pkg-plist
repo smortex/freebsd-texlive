@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/fontwrap/README
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/fontwrap/fontwrap.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/fontwrap/fontwrap.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/fontwrap/fontwrap_example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/fontwrap/fontwrap_example.tex
+share/texmf-dist/tex/xelatex/fontwrap/fontwrap.sty
+@dirrmtry share/texmf-dist/tex/xelatex/fontwrap
+@dirrmtry share/texmf-dist/doc/xelatex/fontwrap
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,25 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/xits/FONTLOG
+%%PORTDOCS%%share/texmf-dist/doc/fonts/xits/OFL-FAQ.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/xits/OFL.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/xits/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/xits/type-xits.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/xits/user-guide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/xits/user-guide.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/xits/xits-specimen.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/xits/xits-specimen.tex
+share/texmf-dist/fonts/opentype/public/xits/xits-bold.otf
+share/texmf-dist/fonts/opentype/public/xits/xits-bolditalic.otf
+share/texmf-dist/fonts/opentype/public/xits/xits-italic.otf
+share/texmf-dist/fonts/opentype/public/xits/xits-math.otf
+share/texmf-dist/fonts/opentype/public/xits/xits-regular.otf
+%%PORTSRC%%share/texmf-dist/source/fonts/xits/xits-bold.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/xits/xits-bolditalic.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/xits/xits-italic.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/xits/xits-math.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/xits/xits-regular.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/xits/xits.fea
+@dirrmtry share/texmf-dist/source/fonts/xits
+@dirrmtry share/texmf-dist/fonts/opentype/public/xits
+@dirrmtry share/texmf-dist/doc/fonts/xits
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

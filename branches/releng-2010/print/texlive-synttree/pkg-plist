@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/synttree/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/synttree/synttree.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/synttree/synttree.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/synttree/synttree.ins
+share/texmf-dist/tex/latex/synttree/synttree.sty
+@dirrmtry share/texmf-dist/tex/latex/synttree
+@dirrmtry share/texmf-dist/source/latex/synttree
+@dirrmtry share/texmf-dist/doc/latex/synttree
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

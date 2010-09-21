@@ -1,0 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bezos/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/bezos/accents.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bezos/accents.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/bezos/bezos.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bezos/bezos.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/bezos/esindex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bezos/esindex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/bezos/tensind.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bezos/tensind.tex
+share/texmf-dist/tex/latex/bezos/accents.sty
+share/texmf-dist/tex/latex/bezos/arabicfront.sty
+share/texmf-dist/tex/latex/bezos/checkend.sty
+share/texmf-dist/tex/latex/bezos/dotlessi.sty
+share/texmf-dist/tex/latex/bezos/esindex.sty
+share/texmf-dist/tex/latex/bezos/subdocs.sty
+share/texmf-dist/tex/latex/bezos/tensind.sty
+@dirrmtry share/texmf-dist/tex/latex/bezos
+@dirrmtry share/texmf-dist/doc/latex/bezos
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

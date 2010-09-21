@@ -1,0 +1,6 @@
+A LaTeX package that allows the user to make indexes with GNU's
+Texindex program, instead of makeindex. It provides the
+indexing commands available in Texinfo by default, but only
+defines the concept index (cp) by default -- the user must
+define other standard indexes, and there is no provision for
+custom indexes. The package is not currently maintained.

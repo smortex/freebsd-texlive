@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/comment/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/comment/comm_latest.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/comment/comment.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/comment/comment.tex
+share/texmf-dist/tex/latex/comment/comment.sty
+@dirrmtry share/texmf-dist/tex/latex/comment
+@dirrmtry share/texmf-dist/doc/latex/comment
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

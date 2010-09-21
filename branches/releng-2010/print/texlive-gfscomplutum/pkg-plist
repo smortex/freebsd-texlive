@@ -1,0 +1,30 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gfscomplutum/OFL-FAQ.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gfscomplutum/OFL.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gfscomplutum/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gfscomplutum/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gfscomplutum/gfscomplutum.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gfscomplutum/gfscomplutum.tex
+share/texmf-dist/fonts/afm/public/gfscomplutum/GFSComplutum-Regular.afm
+share/texmf-dist/fonts/enc/dvips/gfscomplutum/gpcomplutum.enc
+share/texmf-dist/fonts/map/dvips/gfscomplutum/gfscomplutum.map
+share/texmf-dist/fonts/opentype/public/gfscomplutum/GFSPolyglot.otf
+share/texmf-dist/fonts/tfm/public/gfscomplutum/gcomplutum8a.tfm
+share/texmf-dist/fonts/tfm/public/gfscomplutum/gcomplutum8r.tfm
+share/texmf-dist/fonts/tfm/public/gfscomplutum/gcomplutumo8a.tfm
+share/texmf-dist/fonts/tfm/public/gfscomplutum/gcomplutumo8r.tfm
+share/texmf-dist/fonts/type1/public/gfscomplutum/GFSComplutum-Regular.pfb
+share/texmf-dist/fonts/vf/public/gfscomplutum/gcomplutum8a.vf
+share/texmf-dist/fonts/vf/public/gfscomplutum/gcomplutumo8a.vf
+share/texmf-dist/tex/latex/gfscomplutum/gfscomplutum.sty
+share/texmf-dist/tex/latex/gfscomplutum/lgrcomplutum.fd
+@dirrmtry share/texmf-dist/tex/latex/gfscomplutum
+@dirrmtry share/texmf-dist/fonts/vf/public/gfscomplutum
+@dirrmtry share/texmf-dist/fonts/type1/public/gfscomplutum
+@dirrmtry share/texmf-dist/fonts/tfm/public/gfscomplutum
+@dirrmtry share/texmf-dist/fonts/opentype/public/gfscomplutum
+@dirrmtry share/texmf-dist/fonts/map/dvips/gfscomplutum
+@dirrmtry share/texmf-dist/fonts/enc/dvips/gfscomplutum
+@dirrmtry share/texmf-dist/fonts/afm/public/gfscomplutum
+@dirrmtry share/texmf-dist/doc/fonts/gfscomplutum
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

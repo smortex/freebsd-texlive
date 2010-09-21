@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/uebungsblatt/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/uebungsblatt/history.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/uebungsblatt/uebungsblatt-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/uebungsblatt/uebungsblatt-doc.tex
+share/texmf-dist/tex/latex/uebungsblatt/uebungsblatt.cls
+share/texmf-dist/tex/latex/uebungsblatt/uebungsblatt.sty
+@dirrmtry share/texmf-dist/tex/latex/uebungsblatt
+@dirrmtry share/texmf-dist/doc/latex/uebungsblatt
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

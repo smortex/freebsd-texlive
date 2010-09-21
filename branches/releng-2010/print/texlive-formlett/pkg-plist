@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/formlett/prog_manual.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/formlett/prog_manual.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/formlett/user_manual.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/formlett/user_manual.tex
+share/texmf-dist/tex/latex/formlett/formlett.sty
+@dirrmtry share/texmf-dist/tex/latex/formlett
+@dirrmtry share/texmf-dist/doc/latex/formlett
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

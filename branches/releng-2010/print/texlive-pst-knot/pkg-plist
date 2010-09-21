@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-knot/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-knot/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-knot/pst-knot-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-knot/pst-knot-doc.tex
+share/texmf-dist/dvips/pst-knot/pst-psm.pro
+share/texmf-dist/tex/generic/pst-knot/pst-knot.tex
+share/texmf-dist/tex/latex/pst-knot/pst-knot.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-knot
+@dirrmtry share/texmf-dist/tex/generic/pst-knot
+@dirrmtry share/texmf-dist/dvips/pst-knot
+@dirrmtry share/texmf-dist/doc/generic/pst-knot
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

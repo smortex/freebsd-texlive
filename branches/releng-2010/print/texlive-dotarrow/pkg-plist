@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/dotarrow/DotArrow.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dotarrow/DotArrow.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dotarrow/README
+%%PORTSRC%%share/texmf-dist/source/latex/dotarrow/DotArrow.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/dotarrow/DotArrow.ins
+share/texmf-dist/tex/latex/dotarrow/DotArrow.sty
+@dirrmtry share/texmf-dist/tex/latex/dotarrow
+@dirrmtry share/texmf-dist/source/latex/dotarrow
+@dirrmtry share/texmf-dist/doc/latex/dotarrow
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

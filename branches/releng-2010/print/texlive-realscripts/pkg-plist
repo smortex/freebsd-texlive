@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/realscripts/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/realscripts/realscripts.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/realscripts/realscripts.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/realscripts/realscripts.ins
+share/texmf-dist/tex/latex/realscripts/realscripts.sty
+@dirrmtry share/texmf-dist/tex/latex/realscripts
+@dirrmtry share/texmf-dist/source/latex/realscripts
+@dirrmtry share/texmf-dist/doc/latex/realscripts
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

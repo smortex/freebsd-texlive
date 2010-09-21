@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/forarray/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/forarray/forarray
+%%PORTDOCS%%share/texmf-dist/doc/latex/forarray/forarray-test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/forarray/forarray-test.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/forarray/forarray.dtm
+%%PORTDOCS%%share/texmf-dist/doc/latex/forarray/forarray.dts
+%%PORTDOCS%%share/texmf-dist/doc/latex/forarray/forarray.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/forarray/forarray.dtx
+share/texmf-dist/tex/latex/forarray/forarray.sty
+@dirrmtry share/texmf-dist/tex/latex/forarray
+@dirrmtry share/texmf-dist/source/latex/forarray
+@dirrmtry share/texmf-dist/doc/latex/forarray
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

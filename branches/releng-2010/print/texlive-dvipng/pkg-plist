@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf/doc/dvipng/dvipng.html
+%%PORTDOCS%%share/texmf/doc/dvipng/dvipng.pdf
+%%PORTDOCS%%share/texmf/doc/info/dvipng.info
+%%PORTDOCS%%share/texmf/doc/man/man1/dvigif.1
+%%PORTDOCS%%share/texmf/doc/man/man1/dvigif.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/dvipng.1
+%%PORTDOCS%%share/texmf/doc/man/man1/dvipng.man1.pdf
+@dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/info
+@dirrmtry share/texmf/doc/dvipng
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

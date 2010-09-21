@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/soyombo/soyo4tex.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/soyombo/soyo4tex.tex
+share/texmf-dist/fonts/source/public/soyombo/soyombo.mf
+share/texmf-dist/fonts/source/public/soyombo/soyombot.mf
+share/texmf-dist/fonts/tfm/public/soyombo/soyombo.tfm
+share/texmf-dist/fonts/tfm/public/soyombo/soyombot.tfm
+share/texmf-dist/tex/latex/soyombo/soyombo.sty
+@dirrmtry share/texmf-dist/tex/latex/soyombo
+@dirrmtry share/texmf-dist/fonts/tfm/public/soyombo
+@dirrmtry share/texmf-dist/fonts/source/public/soyombo
+@dirrmtry share/texmf-dist/doc/latex/soyombo
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

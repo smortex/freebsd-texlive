@@ -1,0 +1,45 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/inconsolata/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/fonts/inconsolata/GNUmakefile
+%%PORTDOCS%%share/texmf-dist/doc/fonts/inconsolata/NEWS
+%%PORTDOCS%%share/texmf-dist/doc/fonts/inconsolata/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/inconsolata/fonttable.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/inconsolata/inconsolata.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/inconsolata/inconsolata.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/inconsolata/test-spacing.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/inconsolata/test-textless.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/inconsolata/test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/inconsolata/test.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/inconsolata/testmin.tex
+share/texmf-dist/fonts/enc/dvips/inconsolata/fi4-ec.enc
+share/texmf-dist/fonts/enc/dvips/inconsolata/fi4-ei1.enc
+share/texmf-dist/fonts/enc/dvips/inconsolata/fi4-ot1tt.enc
+share/texmf-dist/fonts/enc/dvips/inconsolata/fi4-qxtt.enc
+share/texmf-dist/fonts/enc/dvips/inconsolata/fi4-texnansi.enc
+share/texmf-dist/fonts/enc/dvips/inconsolata/fi4-ts1.enc
+share/texmf-dist/fonts/map/dvips/inconsolata/fi4.map
+share/texmf-dist/fonts/opentype/public/inconsolata/Inconsolata.otf
+share/texmf-dist/fonts/tfm/public/inconsolata/ec-inconsolata.tfm
+share/texmf-dist/fonts/tfm/public/inconsolata/ei1-inconsolata.tfm
+share/texmf-dist/fonts/tfm/public/inconsolata/qx-inconsolata.tfm
+share/texmf-dist/fonts/tfm/public/inconsolata/rm-inconsolata.tfm
+share/texmf-dist/fonts/tfm/public/inconsolata/texnansi-inconsolata.tfm
+share/texmf-dist/fonts/tfm/public/inconsolata/ts1-inconsolata.tfm
+share/texmf-dist/fonts/type1/public/inconsolata/Inconsolata.pfb
+%%PORTSRC%%share/texmf-dist/source/fonts/inconsolata/Inconsolata.sfd
+share/texmf-dist/tex/latex/inconsolata/ei1fi4.fd
+share/texmf-dist/tex/latex/inconsolata/inconsolata.sty
+share/texmf-dist/tex/latex/inconsolata/ly1fi4.fd
+share/texmf-dist/tex/latex/inconsolata/ot1fi4.fd
+share/texmf-dist/tex/latex/inconsolata/qxfi4.fd
+share/texmf-dist/tex/latex/inconsolata/t1fi4.fd
+share/texmf-dist/tex/latex/inconsolata/ts1fi4.fd
+@dirrmtry share/texmf-dist/tex/latex/inconsolata
+@dirrmtry share/texmf-dist/source/fonts/inconsolata
+@dirrmtry share/texmf-dist/fonts/type1/public/inconsolata
+@dirrmtry share/texmf-dist/fonts/tfm/public/inconsolata
+@dirrmtry share/texmf-dist/fonts/opentype/public/inconsolata
+@dirrmtry share/texmf-dist/fonts/map/dvips/inconsolata
+@dirrmtry share/texmf-dist/fonts/enc/dvips/inconsolata
+@dirrmtry share/texmf-dist/doc/fonts/inconsolata
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

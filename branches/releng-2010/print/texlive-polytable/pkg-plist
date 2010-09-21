@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/polytable/README
+%%PORTSRC%%share/texmf-dist/source/latex/polytable/polytable.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/polytable/polytable.ins
+share/texmf-dist/tex/latex/polytable/polytable.sty
+@dirrmtry share/texmf-dist/tex/latex/polytable
+@dirrmtry share/texmf-dist/source/latex/polytable
+@dirrmtry share/texmf-dist/doc/latex/polytable
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

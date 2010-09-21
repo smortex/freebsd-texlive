@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/digiconfigs/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/digiconfigs/digiconfigs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/digiconfigs/digiconfigs.tex
+share/texmf-dist/tex/latex/digiconfigs/digiconfigs.sty
+@dirrmtry share/texmf-dist/tex/latex/digiconfigs
+@dirrmtry share/texmf-dist/doc/latex/digiconfigs
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

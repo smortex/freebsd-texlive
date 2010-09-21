@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/method/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/method/method.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/method/methtest.tex
+%%PORTSRC%%share/texmf-dist/source/latex/method/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/method/method.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/method/method.ins
+share/texmf-dist/tex/latex/method/method.sty
+@dirrmtry share/texmf-dist/tex/latex/method
+@dirrmtry share/texmf-dist/source/latex/method
+@dirrmtry share/texmf-dist/doc/latex/method
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,22 @@
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/startex/base/guide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/startex/base/ideas.pdf
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/startex/base/startex.pdf
+share/texmf-dist/makeindex/startex/stxglo.ist
+share/texmf-dist/makeindex/startex/stxind.ist
+%%PORTSRC%%share/texmf-dist/source/startex/base/INSTALL
+%%PORTSRC%%share/texmf-dist/source/startex/base/README
+%%PORTSRC%%share/texmf-dist/source/startex/base/startex.bib
+%%PORTSRC%%share/texmf-dist/source/startex/base/startex.dtx
+%%PORTSRC%%share/texmf-dist/source/startex/base/startex.ins
+share/texmf-dist/tex/startex/base/a4-article.stx
+share/texmf-dist/tex/startex/base/article.stx
+share/texmf-dist/tex/startex/base/ifi-article.stx
+share/texmf-dist/tex/startex/base/ifi-artikkel.stx
+share/texmf-dist/tex/startex/base/startex.lan
+share/texmf-dist/tex/startex/base/startex.tex
+@dirrmtry share/texmf-dist/tex/startex/base
+@dirrmtry share/texmf-dist/source/startex/base
+@dirrmtry share/texmf-dist/makeindex/startex
+@dirrmtry share/texmf-dist/doc/otherformats/startex/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

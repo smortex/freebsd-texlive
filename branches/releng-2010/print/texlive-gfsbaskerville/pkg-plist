@@ -1,0 +1,27 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gfsbaskerville/OFL-FAQ.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gfsbaskerville/OFL.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gfsbaskerville/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gfsbaskerville/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gfsbaskerville/gfsbaskerville.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gfsbaskerville/gfsbaskerville.tex
+share/texmf-dist/fonts/afm/public/gfsbaskerville/GFSBaskerville-Regular.afm
+share/texmf-dist/fonts/enc/dvips/gfsbaskerville/gpgfsbaskerville.enc
+share/texmf-dist/fonts/map/dvips/gfsbaskerville/gfsbaskerville.map
+share/texmf-dist/fonts/opentype/public/gfsbaskerville/GFSBaskerville.otf
+share/texmf-dist/fonts/tfm/public/gfsbaskerville/ggfsbaskervillerg6a.tfm
+share/texmf-dist/fonts/tfm/public/gfsbaskerville/ggfsbaskervillerg6r.tfm
+share/texmf-dist/fonts/type1/public/gfsbaskerville/GFSBaskerville-Regular.pfb
+share/texmf-dist/fonts/vf/public/gfsbaskerville/ggfsbaskervillerg6a.vf
+share/texmf-dist/tex/latex/gfsbaskerville/gfsbaskerville.sty
+share/texmf-dist/tex/latex/gfsbaskerville/lgrgfsbaskerville.fd
+@dirrmtry share/texmf-dist/tex/latex/gfsbaskerville
+@dirrmtry share/texmf-dist/fonts/vf/public/gfsbaskerville
+@dirrmtry share/texmf-dist/fonts/type1/public/gfsbaskerville
+@dirrmtry share/texmf-dist/fonts/tfm/public/gfsbaskerville
+@dirrmtry share/texmf-dist/fonts/opentype/public/gfsbaskerville
+@dirrmtry share/texmf-dist/fonts/map/dvips/gfsbaskerville
+@dirrmtry share/texmf-dist/fonts/enc/dvips/gfsbaskerville
+@dirrmtry share/texmf-dist/fonts/afm/public/gfsbaskerville
+@dirrmtry share/texmf-dist/doc/fonts/gfsbaskerville
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

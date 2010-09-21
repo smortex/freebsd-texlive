@@ -1,0 +1,7 @@
+Lets you shade or colour the cells in the alignment
+environments such as \halign and LaTeX's tabular and array
+environments. The colortbl or package is to be preferred today
+with LaTeX (it assures compatibility with the longtable
+package, which is no longer true with colortab); another modern
+option is the table-colouring option of the xcolor. However,
+colortab remains an adequate solution for use with Plain TeX.

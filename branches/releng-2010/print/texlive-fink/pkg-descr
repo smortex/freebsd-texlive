@@ -1,0 +1,5 @@
+This package looks over your shoulder and keeps track of files
+\input'ed (the LaTeX way) or \include'ed in your document. You
+then have permanent access to the name of the file currently
+being processed through the macro \finkfile. FiNK also comes
+with support for AUC-TeX.

@@ -1,0 +1,4 @@
+Provides a \DeclareFixedFootnote command to provide a single
+command for a frequently-used footnote. The package ensures
+that only one instance of the footnote text appears on each
+page (LaTeX needs to be run several times to achieve this).

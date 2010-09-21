@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/siunitx/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/siunitx/siunitx.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/siunitx/siunitx.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/siunitx/siunitx.ins
+share/texmf-dist/tex/latex/siunitx/config/siunitx-abbreviations.cfg
+share/texmf-dist/tex/latex/siunitx/config/siunitx-binary.cfg
+share/texmf-dist/tex/latex/siunitx/config/siunitx-version-1.cfg
+share/texmf-dist/tex/latex/siunitx/siunitx.sty
+@dirrmtry share/texmf-dist/tex/latex/siunitx/config
+@dirrmtry share/texmf-dist/tex/latex/siunitx
+@dirrmtry share/texmf-dist/source/latex/siunitx
+@dirrmtry share/texmf-dist/doc/latex/siunitx
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

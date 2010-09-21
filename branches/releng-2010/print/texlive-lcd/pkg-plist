@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/lcd/00readme
+%%PORTDOCS%%share/texmf-dist/doc/latex/lcd/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lcd/example.tex
+%%PORTSRC%%share/texmf-dist/source/latex/lcd/lcd.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/lcd/lcd.ins
+share/texmf-dist/tex/latex/lcd/lcd.sty
+@dirrmtry share/texmf-dist/tex/latex/lcd
+@dirrmtry share/texmf-dist/source/latex/lcd
+@dirrmtry share/texmf-dist/doc/latex/lcd
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

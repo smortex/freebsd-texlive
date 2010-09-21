@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/petiteannonce/baignoire.JPG
+%%PORTDOCS%%share/texmf-dist/doc/latex/petiteannonce/petiteannonce.doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/petiteannonce/petiteannonce.doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/petiteannonce/petiteannonceexample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/petiteannonce/petiteannonceexample.tex
+share/texmf-dist/tex/latex/petiteannonce/petiteannonce.cls
+@dirrmtry share/texmf-dist/tex/latex/petiteannonce
+@dirrmtry share/texmf-dist/doc/latex/petiteannonce
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

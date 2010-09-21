@@ -1,0 +1,3 @@
+The cclicenses package helps users typesetting Creative Commons
+logos in LaTeX. It defines some commands useful to quickly
+write these logos, related to CC licences versions 1.0 and 2.0.

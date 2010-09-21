@@ -1,0 +1,23 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/combinedgraphics/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/combinedgraphics/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/combinedgraphics/combinedgraphics.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/combinedgraphics/test/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/combinedgraphics/test/combinedgraphics_test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/combinedgraphics/test/combinedgraphics_test.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/combinedgraphics/test/gnuplot42.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/combinedgraphics/test/gnuplot42.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/combinedgraphics/test/gnuplot42.plt
+%%PORTDOCS%%share/texmf-dist/doc/latex/combinedgraphics/test/gnuplot42.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/combinedgraphics/test/xfig325.fig
+%%PORTDOCS%%share/texmf-dist/doc/latex/combinedgraphics/test/xfig325.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/combinedgraphics/test/xfig325.tex
+%%PORTSRC%%share/texmf-dist/source/latex/combinedgraphics/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/combinedgraphics/combinedgraphics.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/combinedgraphics/combinedgraphics.ins
+share/texmf-dist/tex/latex/combinedgraphics/combinedgraphics.sty
+@dirrmtry share/texmf-dist/tex/latex/combinedgraphics
+@dirrmtry share/texmf-dist/source/latex/combinedgraphics
+@dirrmtry share/texmf-dist/doc/latex/combinedgraphics/test
+@dirrmtry share/texmf-dist/doc/latex/combinedgraphics
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

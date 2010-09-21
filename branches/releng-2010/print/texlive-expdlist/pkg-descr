@@ -1,0 +1,5 @@
+The package provides additional features for the LaTeX
+description environment, including adjustable left margin. The
+package also allows the user to 'break' a list (for example, to
+interpose a comment) without affecting the structure of the
+list (so that, for example, numbered lists remain in sequence).

@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/xcomment/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/xcomment/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/generic/xcomment/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/xcomment/xcomment-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/xcomment/xcomment-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/xcomment/xcomment.tex
+share/texmf-dist/tex/generic/xcomment/xcomment.sty
+@dirrmtry share/texmf-dist/tex/generic/xcomment
+@dirrmtry share/texmf-dist/doc/generic/xcomment
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

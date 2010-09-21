@@ -1,0 +1,87 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/knitting/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/knitting/knitexamples.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/knitting/knitkey.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/knitting/knitting-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/knitting/knitting-doc.tex
+share/texmf-dist/fonts/afm/public/knitting/knitg_sc_in.afm
+share/texmf-dist/fonts/afm/public/knitting/knitg_sc_out.afm
+share/texmf-dist/fonts/afm/public/knitting/knitgg.afm
+share/texmf-dist/fonts/afm/public/knitting/knitgn.afm
+share/texmf-dist/fonts/afm/public/knitting/knitgp.afm
+share/texmf-dist/fonts/afm/public/knitting/knitn_sc_in.afm
+share/texmf-dist/fonts/afm/public/knitting/knitn_sc_out.afm
+share/texmf-dist/fonts/afm/public/knitting/knitnl.afm
+share/texmf-dist/fonts/afm/public/knitting/knitnn.afm
+share/texmf-dist/fonts/afm/public/knitting/knitnp.afm
+share/texmf-dist/fonts/afm/public/knitting/knitnr.afm
+share/texmf-dist/fonts/afm/public/knitting/knitw_sc_in.afm
+share/texmf-dist/fonts/afm/public/knitting/knitw_sc_out.afm
+share/texmf-dist/fonts/afm/public/knitting/knitwg.afm
+share/texmf-dist/fonts/afm/public/knitting/knitwn.afm
+share/texmf-dist/fonts/afm/public/knitting/knitwp.afm
+share/texmf-dist/fonts/map/dvips/knitting/knitfont.map
+share/texmf-dist/fonts/source/public/knitting/knit_dimens.mf
+share/texmf-dist/fonts/source/public/knitting/knit_grid_cables.mf
+share/texmf-dist/fonts/source/public/knitting/knit_nogrid_cables.mf
+share/texmf-dist/fonts/source/public/knitting/knit_symbols.mf
+share/texmf-dist/fonts/source/public/knitting/knitg_sc_in.mf
+share/texmf-dist/fonts/source/public/knitting/knitg_sc_out.mf
+share/texmf-dist/fonts/source/public/knitting/knitgg.mf
+share/texmf-dist/fonts/source/public/knitting/knitgn.mf
+share/texmf-dist/fonts/source/public/knitting/knitgp.mf
+share/texmf-dist/fonts/source/public/knitting/knitn_sc_in.mf
+share/texmf-dist/fonts/source/public/knitting/knitn_sc_out.mf
+share/texmf-dist/fonts/source/public/knitting/knitnl.mf
+share/texmf-dist/fonts/source/public/knitting/knitnn.mf
+share/texmf-dist/fonts/source/public/knitting/knitnp.mf
+share/texmf-dist/fonts/source/public/knitting/knitnr.mf
+share/texmf-dist/fonts/source/public/knitting/knitw_sc_in.mf
+share/texmf-dist/fonts/source/public/knitting/knitw_sc_out.mf
+share/texmf-dist/fonts/source/public/knitting/knitwg.mf
+share/texmf-dist/fonts/source/public/knitting/knitwn.mf
+share/texmf-dist/fonts/source/public/knitting/knitwp.mf
+share/texmf-dist/fonts/tfm/public/knitting/knitg_sc_in.tfm
+share/texmf-dist/fonts/tfm/public/knitting/knitg_sc_out.tfm
+share/texmf-dist/fonts/tfm/public/knitting/knitgg.tfm
+share/texmf-dist/fonts/tfm/public/knitting/knitgn.tfm
+share/texmf-dist/fonts/tfm/public/knitting/knitgp.tfm
+share/texmf-dist/fonts/tfm/public/knitting/knitn_sc_in.tfm
+share/texmf-dist/fonts/tfm/public/knitting/knitn_sc_out.tfm
+share/texmf-dist/fonts/tfm/public/knitting/knitnl.tfm
+share/texmf-dist/fonts/tfm/public/knitting/knitnn.tfm
+share/texmf-dist/fonts/tfm/public/knitting/knitnp.tfm
+share/texmf-dist/fonts/tfm/public/knitting/knitnr.tfm
+share/texmf-dist/fonts/tfm/public/knitting/knitw_sc_in.tfm
+share/texmf-dist/fonts/tfm/public/knitting/knitw_sc_out.tfm
+share/texmf-dist/fonts/tfm/public/knitting/knitwg.tfm
+share/texmf-dist/fonts/tfm/public/knitting/knitwn.tfm
+share/texmf-dist/fonts/tfm/public/knitting/knitwp.tfm
+share/texmf-dist/fonts/type1/public/knitting/knitg_sc_in.pfb
+share/texmf-dist/fonts/type1/public/knitting/knitg_sc_out.pfb
+share/texmf-dist/fonts/type1/public/knitting/knitgg.pfb
+share/texmf-dist/fonts/type1/public/knitting/knitgn.pfb
+share/texmf-dist/fonts/type1/public/knitting/knitgp.pfb
+share/texmf-dist/fonts/type1/public/knitting/knitn_sc_in.pfb
+share/texmf-dist/fonts/type1/public/knitting/knitn_sc_out.pfb
+share/texmf-dist/fonts/type1/public/knitting/knitnl.pfb
+share/texmf-dist/fonts/type1/public/knitting/knitnn.pfb
+share/texmf-dist/fonts/type1/public/knitting/knitnp.pfb
+share/texmf-dist/fonts/type1/public/knitting/knitnr.pfb
+share/texmf-dist/fonts/type1/public/knitting/knitw_sc_in.pfb
+share/texmf-dist/fonts/type1/public/knitting/knitw_sc_out.pfb
+share/texmf-dist/fonts/type1/public/knitting/knitwg.pfb
+share/texmf-dist/fonts/type1/public/knitting/knitwn.pfb
+share/texmf-dist/fonts/type1/public/knitting/knitwp.pfb
+share/texmf-dist/tex/latex/knitting/knitting.sty
+share/texmf-dist/tex/latex/knitting/uknit.fd
+share/texmf-dist/tex/plain/knitting/knitting.tex
+@dirrmtry share/texmf-dist/tex/plain/knitting
+@dirrmtry share/texmf-dist/tex/latex/knitting
+@dirrmtry share/texmf-dist/fonts/type1/public/knitting
+@dirrmtry share/texmf-dist/fonts/tfm/public/knitting
+@dirrmtry share/texmf-dist/fonts/source/public/knitting
+@dirrmtry share/texmf-dist/fonts/map/dvips/knitting
+@dirrmtry share/texmf-dist/fonts/afm/public/knitting
+@dirrmtry share/texmf-dist/doc/fonts/knitting
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

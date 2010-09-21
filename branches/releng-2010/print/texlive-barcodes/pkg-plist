@@ -1,0 +1,33 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/barcodes/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/barcodes/bcfaq.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/barcodes/changes
+%%PORTDOCS%%share/texmf-dist/doc/latex/barcodes/code39.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/barcodes/codean.pl
+%%PORTDOCS%%share/texmf-dist/doc/latex/barcodes/eandoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/barcodes/eandoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/barcodes/examples.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/barcodes/install.bat
+%%PORTDOCS%%share/texmf-dist/doc/latex/barcodes/wlcdb.vpl
+%%PORTDOCS%%share/texmf-dist/doc/latex/barcodes/wlcf39.vpl
+%%PORTDOCS%%share/texmf-dist/doc/latex/barcodes/wlitf.vpl
+share/texmf-dist/fonts/source/public/barcodes/wlc11.mf
+share/texmf-dist/fonts/source/public/barcodes/wlc128.mf
+share/texmf-dist/fonts/source/public/barcodes/wlc39.mf
+share/texmf-dist/fonts/source/public/barcodes/wlc93.mf
+share/texmf-dist/fonts/source/public/barcodes/wlcr39.mf
+share/texmf-dist/fonts/source/public/barcodes/wlean.mf
+share/texmf-dist/fonts/tfm/public/barcodes/wlc11.tfm
+share/texmf-dist/fonts/tfm/public/barcodes/wlc128.tfm
+share/texmf-dist/fonts/tfm/public/barcodes/wlc39.tfm
+share/texmf-dist/fonts/tfm/public/barcodes/wlc93.tfm
+share/texmf-dist/fonts/tfm/public/barcodes/wlcr39.tfm
+%%PORTSRC%%share/texmf-dist/source/latex/barcodes/barcodes.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/barcodes/barcodes.ins
+share/texmf-dist/tex/latex/barcodes/barcodes.sty
+@dirrmtry share/texmf-dist/tex/latex/barcodes
+@dirrmtry share/texmf-dist/source/latex/barcodes
+@dirrmtry share/texmf-dist/fonts/tfm/public/barcodes
+@dirrmtry share/texmf-dist/fonts/source/public/barcodes
+@dirrmtry share/texmf-dist/doc/latex/barcodes
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

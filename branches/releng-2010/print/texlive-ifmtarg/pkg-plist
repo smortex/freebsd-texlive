@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ifmtarg/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ifmtarg/ifmtarg.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/ifmtarg/ifmtarg.ins
+%%PORTSRC%%share/texmf-dist/source/latex/ifmtarg/ifmtarg.tex
+share/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+@dirrmtry share/texmf-dist/tex/latex/ifmtarg
+@dirrmtry share/texmf-dist/source/latex/ifmtarg
+@dirrmtry share/texmf-dist/doc/latex/ifmtarg
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

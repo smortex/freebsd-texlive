@@ -1,0 +1,15 @@
+share/texmf-dist/bibtex/bst/mciteplus/IEEEtranM.bst
+share/texmf-dist/bibtex/bst/mciteplus/IEEEtranMN.bst
+share/texmf-dist/bibtex/bst/mciteplus/apsrevM.bst
+share/texmf-dist/bibtex/bst/mciteplus/apsrmpM.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/mciteplus/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/mciteplus/changelog.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/mciteplus/mciteplus_code.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/mciteplus/mciteplus_doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mciteplus/mciteplus_doc.tex
+share/texmf-dist/tex/latex/mciteplus/mciteplus.sty
+@dirrmtry share/texmf-dist/tex/latex/mciteplus
+@dirrmtry share/texmf-dist/doc/latex/mciteplus
+@dirrmtry share/texmf-dist/bibtex/bst/mciteplus
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

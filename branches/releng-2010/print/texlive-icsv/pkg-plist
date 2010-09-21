@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/icsv/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/icsv/icsv-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/icsv/icsv.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/icsv/icsv.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/icsv/icsv.ins
+share/texmf-dist/tex/latex/icsv/icsv.cls
+@dirrmtry share/texmf-dist/tex/latex/icsv
+@dirrmtry share/texmf-dist/source/latex/icsv
+@dirrmtry share/texmf-dist/doc/latex/icsv
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

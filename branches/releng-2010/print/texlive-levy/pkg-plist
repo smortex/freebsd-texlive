@@ -1,0 +1,58 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/levy/00readme.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/levy/greekhist.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/levy/greekuse.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/levy/grinstall.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/levy/grtestfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/levy/makeall
+%%PORTDOCS%%share/texmf-dist/doc/fonts/levy/makefont
+%%PORTDOCS%%share/texmf-dist/doc/fonts/levy/testfont
+%%PORTDOCS%%share/texmf-dist/doc/fonts/levy/todo.txt
+share/texmf-dist/fonts/source/public/levy/a.mf
+share/texmf-dist/fonts/source/public/levy/b.mf
+share/texmf-dist/fonts/source/public/levy/d.mf
+share/texmf-dist/fonts/source/public/levy/digits.mf
+share/texmf-dist/fonts/source/public/levy/e.mf
+share/texmf-dist/fonts/source/public/levy/f.mf
+share/texmf-dist/fonts/source/public/levy/g.mf
+share/texmf-dist/fonts/source/public/levy/gen_acc.mf
+share/texmf-dist/fonts/source/public/levy/gen_sigma.mf
+share/texmf-dist/fonts/source/public/levy/graccent.mf
+share/texmf-dist/fonts/source/public/levy/grbase.mf
+share/texmf-dist/fonts/source/public/levy/grbld10.mf
+share/texmf-dist/fonts/source/public/levy/grbld8.mf
+share/texmf-dist/fonts/source/public/levy/grbld9.mf
+share/texmf-dist/fonts/source/public/levy/greek.mf
+share/texmf-dist/fonts/source/public/levy/grpunct.mf
+share/texmf-dist/fonts/source/public/levy/grreg10.mf
+share/texmf-dist/fonts/source/public/levy/grreg8.mf
+share/texmf-dist/fonts/source/public/levy/grreg9.mf
+share/texmf-dist/fonts/source/public/levy/grtt10.mf
+share/texmf-dist/fonts/source/public/levy/h.mf
+share/texmf-dist/fonts/source/public/levy/i.mf
+share/texmf-dist/fonts/source/public/levy/j.mf
+share/texmf-dist/fonts/source/public/levy/k.mf
+share/texmf-dist/fonts/source/public/levy/l.mf
+share/texmf-dist/fonts/source/public/levy/lig.mf
+share/texmf-dist/fonts/source/public/levy/lower.mf
+share/texmf-dist/fonts/source/public/levy/m.mf
+share/texmf-dist/fonts/source/public/levy/n.mf
+share/texmf-dist/fonts/source/public/levy/o.mf
+share/texmf-dist/fonts/source/public/levy/p.mf
+share/texmf-dist/fonts/source/public/levy/q.mf
+share/texmf-dist/fonts/source/public/levy/r.mf
+share/texmf-dist/fonts/source/public/levy/s.mf
+share/texmf-dist/fonts/source/public/levy/t.mf
+share/texmf-dist/fonts/source/public/levy/u.mf
+share/texmf-dist/fonts/source/public/levy/upper.mf
+share/texmf-dist/fonts/source/public/levy/w.mf
+share/texmf-dist/fonts/source/public/levy/x.mf
+share/texmf-dist/fonts/source/public/levy/y.mf
+share/texmf-dist/fonts/source/public/levy/z.mf
+share/texmf-dist/tex/latex/levy/slgreek.sty
+share/texmf-dist/tex/plain/levy/greekmacros.tex
+@dirrmtry share/texmf-dist/tex/plain/levy
+@dirrmtry share/texmf-dist/tex/latex/levy
+@dirrmtry share/texmf-dist/fonts/source/public/levy
+@dirrmtry share/texmf-dist/doc/fonts/levy
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

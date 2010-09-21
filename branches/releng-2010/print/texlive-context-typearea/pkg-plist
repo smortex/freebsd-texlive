@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/context/third/typearea/typearea-demo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/typearea/typearea-doc.pdf
+share/texmf-dist/tex/context/third/typearea/t-typearea.tex
+@dirrmtry share/texmf-dist/tex/context/third/typearea
+@dirrmtry share/texmf-dist/doc/context/third/typearea
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

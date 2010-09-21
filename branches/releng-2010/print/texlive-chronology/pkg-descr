@@ -1,0 +1,4 @@
+A timeline package that allows labelling of events with per-day
+granularity. Other features include relative positioning with
+unit specification, adjustable tick mark step size, and scaling
+to specified width.

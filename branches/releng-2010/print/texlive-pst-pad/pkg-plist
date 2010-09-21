@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-pad/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-pad/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-pad/pst-pad-doc-header.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-pad/pst-pad-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-pad/pst-pad-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-pad/pst-pad-docDE.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-pad/pst-pad-docDE.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-pad/showexpl.cfg
+%%PORTSRC%%share/texmf-dist/source/generic/pst-pad/Makefile
+share/texmf-dist/tex/generic/pst-pad/pst-pad.tex
+share/texmf-dist/tex/latex/pst-pad/pst-pad.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-pad
+@dirrmtry share/texmf-dist/tex/generic/pst-pad
+@dirrmtry share/texmf-dist/source/generic/pst-pad
+@dirrmtry share/texmf-dist/doc/generic/pst-pad
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/overpic/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/overpic/README.de
+%%PORTDOCS%%share/texmf-dist/doc/latex/overpic/opic-abs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/overpic/opic-abs.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/overpic/opic-rel.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/overpic/opic-rel.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/overpic/overpic-readme-de.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/overpic/overpic-readme-de.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/overpic/overpic-readme.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/overpic/overpic-readme.tex
+share/texmf-dist/tex/latex/overpic/overpic.sty
+@dirrmtry share/texmf-dist/tex/latex/overpic
+@dirrmtry share/texmf-dist/doc/latex/overpic
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

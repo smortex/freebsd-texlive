@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/labbook/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/labbook/boilerplates.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/labbook/examplde.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/labbook/examplen.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/labbook/labboode.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/labbook/labboode.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/labbook/labbook.el
+%%PORTDOCS%%share/texmf-dist/doc/latex/labbook/labbook.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/labbook/labbook.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/labbook/labbook.ins
+share/texmf-dist/tex/latex/labbook/labbook.cls
+@dirrmtry share/texmf-dist/tex/latex/labbook
+@dirrmtry share/texmf-dist/source/latex/labbook
+@dirrmtry share/texmf-dist/doc/latex/labbook
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

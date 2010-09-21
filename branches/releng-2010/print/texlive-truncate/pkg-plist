@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/truncate/miscdoc.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/truncate/truncate.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/truncate/truncate.tex
+share/texmf-dist/tex/latex/truncate/truncate.sty
+@dirrmtry share/texmf-dist/tex/latex/truncate
+@dirrmtry share/texmf-dist/doc/latex/truncate
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/crossreference/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/crossreference/crossreference.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/crossreference/xrefexample.tex
+%%PORTSRC%%share/texmf-dist/source/latex/crossreference/crossreference.drv
+%%PORTSRC%%share/texmf-dist/source/latex/crossreference/crossreference.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/crossreference/crossreference.ins
+share/texmf-dist/tex/latex/crossreference/crossreference.sty
+@dirrmtry share/texmf-dist/tex/latex/crossreference
+@dirrmtry share/texmf-dist/source/latex/crossreference
+@dirrmtry share/texmf-dist/doc/latex/crossreference
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

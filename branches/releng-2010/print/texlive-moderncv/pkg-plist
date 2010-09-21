@@ -1,0 +1,24 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/moderncv/CHANGELOG
+%%PORTDOCS%%share/texmf-dist/doc/latex/moderncv/KNOWN_BUGS
+%%PORTDOCS%%share/texmf-dist/doc/latex/moderncv/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/moderncv/examples/letter.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/moderncv/examples/letter.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/moderncv/examples/picture.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/moderncv/examples/picture.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/moderncv/examples/publications.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/moderncv/examples/template.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/moderncv/examples/template.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/moderncv/examples/template_casual_orange.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/moderncv/examples/template_classic_green.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/moderncv/examples/template_multibib.pdf
+share/texmf-dist/tex/latex/moderncv/moderncv.cls
+share/texmf-dist/tex/latex/moderncv/moderncvcompatibility.sty
+share/texmf-dist/tex/latex/moderncv/moderncvthemecasual.sty
+share/texmf-dist/tex/latex/moderncv/moderncvthemeclassic.sty
+share/texmf-dist/tex/latex/moderncv/moderncvthemeempty.sty
+share/texmf-dist/tex/latex/moderncv/tweaklist.sty
+@dirrmtry share/texmf-dist/tex/latex/moderncv
+@dirrmtry share/texmf-dist/doc/latex/moderncv/examples
+@dirrmtry share/texmf-dist/doc/latex/moderncv
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

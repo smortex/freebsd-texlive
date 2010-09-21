@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/logreq/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/logreq/examples/01-basic.run.xml
+%%PORTDOCS%%share/texmf-dist/doc/latex/logreq/examples/01-basic.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/logreq/examples/02-index.run.xml
+%%PORTDOCS%%share/texmf-dist/doc/latex/logreq/examples/02-index.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/logreq/examples/03-biblatex+bibtex8.run.xml
+%%PORTDOCS%%share/texmf-dist/doc/latex/logreq/examples/03-biblatex+bibtex8.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/logreq/examples/04-biblatex+bibtex+refsections.run.xml
+%%PORTDOCS%%share/texmf-dist/doc/latex/logreq/examples/04-biblatex+bibtex+refsections.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/logreq/examples/05-biblatex+biber.run.xml
+%%PORTDOCS%%share/texmf-dist/doc/latex/logreq/examples/05-biblatex+biber.tex
+share/texmf-dist/tex/latex/logreq/logreq.def
+share/texmf-dist/tex/latex/logreq/logreq.sty
+@dirrmtry share/texmf-dist/tex/latex/logreq
+@dirrmtry share/texmf-dist/doc/latex/logreq/examples
+@dirrmtry share/texmf-dist/doc/latex/logreq
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/subeqn/manifest.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/subeqn/subeqn.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/subeqn/subeqn.tex
+%%PORTSRC%%share/texmf-dist/source/latex/subeqn/subeqn.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/subeqn/subeqn.ins
+share/texmf-dist/tex/latex/subeqn/subeqn.sty
+@dirrmtry share/texmf-dist/tex/latex/subeqn
+@dirrmtry share/texmf-dist/source/latex/subeqn
+@dirrmtry share/texmf-dist/doc/latex/subeqn
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

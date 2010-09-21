@@ -1,0 +1,5 @@
+Two files are compared and a new TeX file is output. When the
+output file is processed with (La)TeX it marks new changes with
+blue and old text with red with a strike-through line.
+Furthermore, passages with changes are marked at the margin
+with grey bars by the LaTeX changebar package.

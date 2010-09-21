@@ -1,0 +1,4 @@
+Generates a PK file from an Adobe Type 1 font. PK fonts are (or
+used to be) valuable in enabling previewers to view documents
+generated that use Type 1 fonts. The program makes use of code
+donated to the X consortium by IBM.

@@ -1,0 +1,4 @@
+share/texmf-dist/tex/latex/vertbars/vertbars.sty
+@dirrmtry share/texmf-dist/tex/latex/vertbars
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

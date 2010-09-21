@@ -1,0 +1,3 @@
+The package harmony.sty uses the packages ifthen and amssymb
+from the amsfonts bundle, together with the LaTeX font
+lcirclew10 and the font musix13 from musixtex.

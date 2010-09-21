@@ -1,0 +1,8 @@
+This package addresses the problem of expressing citations in a
+style that is natural for humanities studies, yet does not
+interfere with the flow of text (as author-year styles do). The
+package differs from footbib in that it uses real footnotes,
+potentially in the same series as any of the document's other
+footnotes. Opcit also, as its name implies, avoids repetition
+of full citations, achieving this, to a large extent,
+automatically.

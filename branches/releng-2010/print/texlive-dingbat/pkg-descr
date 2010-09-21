@@ -1,0 +1,2 @@
+The fonts (ark10 and dingbat) are specified in MetaFont;
+support macros are provided for use in plain TeX and in LaTeX.

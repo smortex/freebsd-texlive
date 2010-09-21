@@ -1,0 +1,51 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/INSTALL
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/jmlr-manual.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/jmlr-manual.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/jmlr-manual0x.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/jmlr-manual1x.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/jmlr-manual2x.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/jmlr-manual3x.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/jmlr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/bookLogo-gray.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/bookLogo.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/jmlrbook-sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/paper1/paper1.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/paper1/paper1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/paper2/paper2.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/paper2/paper2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/paper3/paper3.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/paper3/paper3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/paper4/paper4.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/paper4/paper4.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/proceedings-sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-papers/images/circle-gray.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-papers/images/circle.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-papers/images/nodes-gray.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-papers/images/nodes.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-papers/images/square-gray.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-papers/images/square.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-papers/images/teximage.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-papers/jmlr-sample.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-papers/jmlr-sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-papers/jmlrwcp-sample.tex
+share/texmf-dist/scripts/jmlr/makejmlrbook
+share/texmf-dist/scripts/jmlr/makejmlrbook.bat
+%%PORTSRC%%share/texmf-dist/source/latex/jmlr/jmlr.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/jmlr/jmlr.ins
+share/texmf-dist/tex/latex/jmlr/jmlr.cls
+share/texmf-dist/tex/latex/jmlr/jmlrbook.cls
+@dirrmtry share/texmf-dist/tex/latex/jmlr
+@dirrmtry share/texmf-dist/source/latex/jmlr
+@dirrmtry share/texmf-dist/scripts/jmlr
+@dirrmtry share/texmf-dist/doc/latex/jmlr/sample-papers/images
+@dirrmtry share/texmf-dist/doc/latex/jmlr/sample-papers
+@dirrmtry share/texmf-dist/doc/latex/jmlr/sample-books/paper4
+@dirrmtry share/texmf-dist/doc/latex/jmlr/sample-books/paper3
+@dirrmtry share/texmf-dist/doc/latex/jmlr/sample-books/paper2
+@dirrmtry share/texmf-dist/doc/latex/jmlr/sample-books/paper1
+@dirrmtry share/texmf-dist/doc/latex/jmlr/sample-books
+@dirrmtry share/texmf-dist/doc/latex/jmlr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,3 @@
+This simple LaTeX package provides support for drawing
+execution stack (typically to illustrate assembly language
+notions). The code is written on top of TikZ.

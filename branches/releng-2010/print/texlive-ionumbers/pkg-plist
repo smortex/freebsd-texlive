@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ionumbers/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/ionumbers/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ionumbers/ionumbers.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ionumbers/ionumbers_test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ionumbers/ionumbers_test.tex
+%%PORTSRC%%share/texmf-dist/source/latex/ionumbers/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/ionumbers/ionumbers.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ionumbers/ionumbers.ins
+share/texmf-dist/tex/latex/ionumbers/ionumbers.sty
+@dirrmtry share/texmf-dist/tex/latex/ionumbers
+@dirrmtry share/texmf-dist/source/latex/ionumbers
+@dirrmtry share/texmf-dist/doc/latex/ionumbers
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

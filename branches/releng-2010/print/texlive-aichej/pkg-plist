@@ -1,0 +1,4 @@
+share/texmf-dist/bibtex/bst/aichej/aichej.bst
+@dirrmtry share/texmf-dist/bibtex/bst/aichej
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

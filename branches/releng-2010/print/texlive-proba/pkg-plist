@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/proba/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/proba/proba.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/proba/proba.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/proba/proba.ins
+share/texmf-dist/tex/latex/proba/proba.sty
+@dirrmtry share/texmf-dist/tex/latex/proba
+@dirrmtry share/texmf-dist/source/latex/proba
+@dirrmtry share/texmf-dist/doc/latex/proba
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

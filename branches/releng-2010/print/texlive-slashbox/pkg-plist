@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/slashbox/slashbox.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/slashbox/slashbox.tex
+share/texmf-dist/tex/latex/slashbox/slashbox.sty
+@dirrmtry share/texmf-dist/tex/latex/slashbox
+@dirrmtry share/texmf-dist/doc/latex/slashbox
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,38 @@
+share/texmf-dist/bibtex/bib/revtex4/apssamp.bib
+share/texmf-dist/bibtex/bst/revtex4/apsrev.bst
+share/texmf-dist/bibtex/bst/revtex4/apsrmp.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/revtex4/DOWNLOAD
+%%PORTDOCS%%share/texmf-dist/doc/latex/revtex4/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/revtex4/apssamp.end
+%%PORTDOCS%%share/texmf-dist/doc/latex/revtex4/apssamp.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/revtex4/auguide.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/revtex4/differ.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/revtex4/fig_1.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/revtex4/fig_2.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/revtex4/ltxdocext.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/revtex4/ltxgrid.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/revtex4/ltxutil.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/revtex4/revtex4.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/revtex4/summary.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/revtex4/template.aps
+%%PORTSRC%%share/texmf-dist/source/latex/revtex4/ltxdocext.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/revtex4/ltxgrid.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/revtex4/ltxutil.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/revtex4/revtex4.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/revtex4/revtex4.ins
+%%PORTSRC%%share/texmf-dist/source/latex/revtex4/textcase.dtx
+share/texmf-dist/tex/latex/revtex4/10pt.rtx
+share/texmf-dist/tex/latex/revtex4/11pt.rtx
+share/texmf-dist/tex/latex/revtex4/12pt.rtx
+share/texmf-dist/tex/latex/revtex4/aps.rtx
+share/texmf-dist/tex/latex/revtex4/docs.sty
+share/texmf-dist/tex/latex/revtex4/revsymb.sty
+share/texmf-dist/tex/latex/revtex4/revtex4.cls
+share/texmf-dist/tex/latex/revtex4/rmp.rtx
+@dirrmtry share/texmf-dist/tex/latex/revtex4
+@dirrmtry share/texmf-dist/source/latex/revtex4
+@dirrmtry share/texmf-dist/doc/latex/revtex4
+@dirrmtry share/texmf-dist/bibtex/bst/revtex4
+@dirrmtry share/texmf-dist/bibtex/bib/revtex4
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/newverbs/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/newverbs/newverbs.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/newverbs/newverbs.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/newverbs/newverbs.ins
+share/texmf-dist/tex/latex/newverbs/newverbs.sty
+@dirrmtry share/texmf-dist/tex/latex/newverbs
+@dirrmtry share/texmf-dist/source/latex/newverbs
+@dirrmtry share/texmf-dist/doc/latex/newverbs
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

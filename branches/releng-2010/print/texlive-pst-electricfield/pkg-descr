@@ -1,0 +1,4 @@
+The package provides macros to plot electric field and
+equipotential lines using PStricks. There may be any number of
+charges which can be placed in a cartesian coordinate system by
+(x,y) values.

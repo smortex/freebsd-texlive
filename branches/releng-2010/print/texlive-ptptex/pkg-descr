@@ -1,0 +1,3 @@
+The distribution contains the class (which offers an option
+file for preprints), and a template. The class requires the
+cite, overcite and wrapfig packages.

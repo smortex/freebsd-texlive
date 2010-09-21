@@ -1,0 +1,22 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/xq/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/xq/xqexample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/xq/xqexample.tex
+share/texmf-dist/fonts/source/public/xq/xqaddsignsbase.mf
+share/texmf-dist/fonts/source/public/xq/xqaddsignslarge.mf
+share/texmf-dist/fonts/source/public/xq/xqaddsignsnormal.mf
+share/texmf-dist/fonts/source/public/xq/xqbase.mf
+share/texmf-dist/fonts/source/public/xq/xqhints.mf
+share/texmf-dist/fonts/source/public/xq/xqlarge.mf
+share/texmf-dist/fonts/source/public/xq/xqnormal.mf
+share/texmf-dist/fonts/source/public/xq/xqwestbase.mf
+share/texmf-dist/fonts/source/public/xq/xqwestlarge.mf
+share/texmf-dist/fonts/source/public/xq/xqwestnormal.mf
+share/texmf-dist/fonts/tfm/public/xq/xqlarge.tfm
+share/texmf-dist/fonts/tfm/public/xq/xqnormal.tfm
+share/texmf-dist/tex/latex/xq/xq.sty
+@dirrmtry share/texmf-dist/tex/latex/xq
+@dirrmtry share/texmf-dist/fonts/tfm/public/xq
+@dirrmtry share/texmf-dist/fonts/source/public/xq
+@dirrmtry share/texmf-dist/doc/fonts/xq
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocr-latex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocr-latex/ocr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocr-latex/ocr.tex
+share/texmf-dist/tex/latex/ocr-latex/ocr.sty
+share/texmf-dist/tex/latex/ocr-latex/ot1oca.fd
+share/texmf-dist/tex/latex/ocr-latex/ot1ocra.fd
+share/texmf-dist/tex/latex/ocr-latex/ot1ocrb.fd
+share/texmf-dist/tex/latex/ocr-latex/ot1ocrbn.fd
+share/texmf-dist/tex/latex/ocr-latex/ot1ocrbns.fd
+share/texmf-dist/tex/latex/ocr-latex/ot1ocrbo.fd
+share/texmf-dist/tex/latex/ocr-latex/ot1ocrbs.fd
+@dirrmtry share/texmf-dist/tex/latex/ocr-latex
+@dirrmtry share/texmf-dist/doc/latex/ocr-latex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

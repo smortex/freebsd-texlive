@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/screenplay/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/screenplay/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/screenplay/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/screenplay/screenplay.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/screenplay/test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/screenplay/test.tex
+%%PORTSRC%%share/texmf-dist/source/latex/screenplay/screenplay.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/screenplay/screenplay.ins
+share/texmf-dist/tex/latex/screenplay/hardmarg.sty
+share/texmf-dist/tex/latex/screenplay/screenplay.cls
+@dirrmtry share/texmf-dist/tex/latex/screenplay
+@dirrmtry share/texmf-dist/source/latex/screenplay
+@dirrmtry share/texmf-dist/doc/latex/screenplay
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

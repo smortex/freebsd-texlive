@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/rlepsf/read.me
+%%PORTDOCS%%share/texmf-dist/doc/generic/rlepsf/rlepsdoc.ps
+share/texmf-dist/tex/generic/rlepsf/rlepsf.tex
+@dirrmtry share/texmf-dist/tex/generic/rlepsf
+@dirrmtry share/texmf-dist/doc/generic/rlepsf
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

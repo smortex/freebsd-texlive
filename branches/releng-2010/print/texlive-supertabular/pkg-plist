@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/supertabular/CATALOG
+%%PORTDOCS%%share/texmf-dist/doc/latex/supertabular/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/latex/supertabular/MANIFEST
+%%PORTDOCS%%share/texmf-dist/doc/latex/supertabular/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/supertabular/supertabular.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/supertabular/supertabular.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/supertabular/supertabular.ins
+share/texmf-dist/tex/latex/supertabular/supertabular.sty
+@dirrmtry share/texmf-dist/tex/latex/supertabular
+@dirrmtry share/texmf-dist/source/latex/supertabular
+@dirrmtry share/texmf-dist/doc/latex/supertabular
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

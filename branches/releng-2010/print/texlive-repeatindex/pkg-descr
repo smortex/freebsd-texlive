@@ -1,0 +1,3 @@
+This Package repeats item of an index if a page or column break
+occurs within a list of subitems. This helps to find out to
+which main item a subitem belongs.

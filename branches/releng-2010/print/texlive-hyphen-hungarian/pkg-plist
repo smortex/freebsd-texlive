@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf/doc/generic/huhyphen/huhyphn.pdf
+%%PORTDOCS%%share/texmf/doc/generic/huhyphen/hyph_hu.dic
+%%PORTDOCS%%share/texmf/doc/generic/huhyphen/searchforerrors.rb
+%%PORTDOCS%%share/texmf/doc/generic/huhyphen/testhyphenation.rb
+@dirrmtry share/texmf/doc/generic/huhyphen
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

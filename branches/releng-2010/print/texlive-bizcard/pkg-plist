@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bizcard/bizcard.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bizcard/bizex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bizcard/bizex.tex
+%%PORTSRC%%share/texmf-dist/source/latex/bizcard/bizcard.drv
+%%PORTSRC%%share/texmf-dist/source/latex/bizcard/bizcard.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/bizcard/bizcard.ins
+share/texmf-dist/tex/latex/bizcard/bizcard.sty
+@dirrmtry share/texmf-dist/tex/latex/bizcard
+@dirrmtry share/texmf-dist/source/latex/bizcard
+@dirrmtry share/texmf-dist/doc/latex/bizcard
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

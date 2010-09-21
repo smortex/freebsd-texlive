@@ -1,0 +1,4 @@
+The package defines an environment thmbox that presents
+theorems, definitions and similar objects in boxes decorated
+with frames and various aesthetic features. The standard macro
+\newtheorem may be redefined to use the environment.

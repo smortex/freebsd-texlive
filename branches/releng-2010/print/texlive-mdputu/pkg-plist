@@ -1,0 +1,23 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdputu/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdputu/mdputu.dtx
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdputu/mdputu.ins
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdputu/mdputu.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdputu/sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdputu/sample.tex
+share/texmf-dist/fonts/tfm/public/mdputu/mdputubi7t.tfm
+share/texmf-dist/fonts/tfm/public/mdputu/mdputubi8t.tfm
+share/texmf-dist/fonts/tfm/public/mdputu/mdputuri7t.tfm
+share/texmf-dist/fonts/tfm/public/mdputu/mdputuri8t.tfm
+share/texmf-dist/fonts/vf/public/mdputu/mdputubi7t.vf
+share/texmf-dist/fonts/vf/public/mdputu/mdputubi8t.vf
+share/texmf-dist/fonts/vf/public/mdputu/mdputuri7t.vf
+share/texmf-dist/fonts/vf/public/mdputu/mdputuri8t.vf
+share/texmf-dist/tex/latex/mdputu/mdputu.sty
+share/texmf-dist/tex/latex/mdputu/ot1mdputu.fd
+share/texmf-dist/tex/latex/mdputu/t1mdputu.fd
+@dirrmtry share/texmf-dist/tex/latex/mdputu
+@dirrmtry share/texmf-dist/fonts/vf/public/mdputu
+@dirrmtry share/texmf-dist/fonts/tfm/public/mdputu
+@dirrmtry share/texmf-dist/doc/latex/mdputu
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

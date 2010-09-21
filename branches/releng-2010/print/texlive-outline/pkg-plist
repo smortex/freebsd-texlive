@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/outline/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/outline/outline-sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/outline/outline.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/outline/outline.tex
+share/texmf-dist/tex/latex/outline/outline.sty
+@dirrmtry share/texmf-dist/tex/latex/outline
+@dirrmtry share/texmf-dist/doc/latex/outline
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

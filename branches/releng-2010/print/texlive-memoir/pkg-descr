@@ -1,0 +1,16 @@
+The memoir class is for typesetting poetry, fiction, non-
+fiction, and mathematical works. Permissible document 'base'
+font sizes range from 9 to 60pt. There is a range of page-
+styles and well over a dozen chapter-styles to choose from, as
+well as methods for specifying your own layouts and designs.
+The class also provides the functionality of over thirty of the
+more popular packages, thus simplifying document sources. The
+class automatically loads an associated patch file mempatch;
+the patch file may be updated from time to time, between
+releases of the class itself. (The patch file stays around even
+when there are no extant patches.) Users who wish to use the
+hyperref package, in a document written with the memoir class,
+should also use the memhfixc package (part of this bundle).
+Note, however, that current versions of hyperref actually load
+the package automatically if they detect that they are running
+under memoir.

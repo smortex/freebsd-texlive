@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/metapost/epsincl/0info.txt
+%%PORTDOCS%%share/texmf-dist/doc/metapost/epsincl/README
+%%PORTDOCS%%share/texmf-dist/doc/metapost/epsincl/epsincl.awk
+%%PORTDOCS%%share/texmf-dist/doc/metapost/epsincl/epsincl.bat
+%%PORTDOCS%%share/texmf-dist/doc/metapost/epsincl/testinc0.eps
+%%PORTDOCS%%share/texmf-dist/doc/metapost/epsincl/testincl.bat
+%%PORTDOCS%%share/texmf-dist/doc/metapost/epsincl/testincl.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/epsincl/testincl.sh
+share/texmf-dist/metapost/epsincl/epsincl.mp
+@dirrmtry share/texmf-dist/metapost/epsincl
+@dirrmtry share/texmf-dist/doc/metapost/epsincl
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

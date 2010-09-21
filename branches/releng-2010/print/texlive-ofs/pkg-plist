@@ -1,0 +1,45 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/ofs/changes.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/ofs/eurotex2003-ofs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/ofs/eurotex2003-ofs.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/ofs/ofs-slt.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/ofs/ofsdoc-e.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/ofs/ofsdoc-e.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/ofs/ofsdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/ofs/ofsdoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/ofs/ofsmtdef.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/ofs/ofstest.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/ofs/readme.ofs
+share/texmf-dist/tex/generic/ofs/a117.tex
+share/texmf-dist/tex/generic/ofs/a35.sty
+share/texmf-dist/tex/generic/ofs/a35.tex
+share/texmf-dist/tex/generic/ofs/allfonts.sty
+share/texmf-dist/tex/generic/ofs/allfonts.tex
+share/texmf-dist/tex/generic/ofs/amsfn.tex
+share/texmf-dist/tex/generic/ofs/mtfn.tex
+share/texmf-dist/tex/generic/ofs/ofs-6a.tex
+share/texmf-dist/tex/generic/ofs/ofs-6c.tex
+share/texmf-dist/tex/generic/ofs/ofs-6k.tex
+share/texmf-dist/tex/generic/ofs/ofs-6s.tex
+share/texmf-dist/tex/generic/ofs/ofs-6t.tex
+share/texmf-dist/tex/generic/ofs/ofs-6x.tex
+share/texmf-dist/tex/generic/ofs/ofs-6y.tex
+share/texmf-dist/tex/generic/ofs/ofs-8c.tex
+share/texmf-dist/tex/generic/ofs/ofs-8t.tex
+share/texmf-dist/tex/generic/ofs/ofs-8x.tex
+share/texmf-dist/tex/generic/ofs/ofs-8z.tex
+share/texmf-dist/tex/generic/ofs/ofs-ams.tex
+share/texmf-dist/tex/generic/ofs/ofs-cm.tex
+share/texmf-dist/tex/generic/ofs/ofs-mt.tex
+share/texmf-dist/tex/generic/ofs/ofs-ps.tex
+share/texmf-dist/tex/generic/ofs/ofs-px.tex
+share/texmf-dist/tex/generic/ofs/ofs-slt.tex
+share/texmf-dist/tex/generic/ofs/ofs-tx.tex
+share/texmf-dist/tex/generic/ofs/ofs.sty
+share/texmf-dist/tex/generic/ofs/ofs.tex
+share/texmf-dist/tex/generic/ofs/ofsdef.tex
+share/texmf-dist/tex/generic/ofs/pantyk.tex
+share/texmf-dist/tex/generic/ofs/txfn.tex
+@dirrmtry share/texmf-dist/tex/generic/ofs
+@dirrmtry share/texmf-dist/doc/generic/ofs
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

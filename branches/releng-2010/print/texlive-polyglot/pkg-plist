@@ -1,0 +1,22 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/polyglot/sample.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/polyglot/sample.tex
+%%PORTSRC%%share/texmf-dist/source/latex/polyglot/langs/english.ld
+%%PORTSRC%%share/texmf-dist/source/latex/polyglot/langs/french.ld
+%%PORTSRC%%share/texmf-dist/source/latex/polyglot/langs/french.ot1
+%%PORTSRC%%share/texmf-dist/source/latex/polyglot/langs/german.ld
+%%PORTSRC%%share/texmf-dist/source/latex/polyglot/langs/german.ot1
+%%PORTSRC%%share/texmf-dist/source/latex/polyglot/langs/r_hebrew.ld
+%%PORTSRC%%share/texmf-dist/source/latex/polyglot/langs/spanish.ld
+%%PORTSRC%%share/texmf-dist/source/latex/polyglot/langs/spanish.ot1
+%%PORTSRC%%share/texmf-dist/source/latex/polyglot/polyglot.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/polyglot/polyglot.ins
+%%PORTSRC%%share/texmf-dist/source/latex/polyglot/polyglot.ltx
+share/texmf-dist/tex/latex/polyglot/polyglot.cfg
+share/texmf-dist/tex/latex/polyglot/polyglot.def
+share/texmf-dist/tex/latex/polyglot/polyglot.sty
+@dirrmtry share/texmf-dist/tex/latex/polyglot
+@dirrmtry share/texmf-dist/source/latex/polyglot/langs
+@dirrmtry share/texmf-dist/source/latex/polyglot
+@dirrmtry share/texmf-dist/doc/latex/polyglot
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/papercdcase/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/papercdcase/interactive.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/papercdcase/papercdcase.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/papercdcase/papercdcase.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/papercdcase/papercdcase.ins
+share/texmf-dist/tex/latex/papercdcase/papercdcase.sty
+@dirrmtry share/texmf-dist/tex/latex/papercdcase
+@dirrmtry share/texmf-dist/source/latex/papercdcase
+@dirrmtry share/texmf-dist/doc/latex/papercdcase
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

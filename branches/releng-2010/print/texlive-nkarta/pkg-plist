@@ -1,0 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/nkarta/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/nkarta/figtable.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/nkarta/figtable.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/nkarta/fonttable.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/nkarta/fonttable.tex
+share/texmf-dist/fonts/source/public/nkarta/nkarta.mf
+share/texmf-dist/fonts/source/public/nkarta/nkarta15.mf
+share/texmf-dist/fonts/source/public/nkarta/nkchars.mf
+share/texmf-dist/fonts/tfm/public/nkarta/nkarta15.tfm
+share/texmf-dist/metapost/nkarta/nkarta.mp
+share/texmf-dist/metapost/nkarta/nkchars.mp
+%%PORTSRC%%share/texmf-dist/source/latex/nkarta/nkarta.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/nkarta/nkarta.ins
+@dirrmtry share/texmf-dist/source/latex/nkarta
+@dirrmtry share/texmf-dist/metapost/nkarta
+@dirrmtry share/texmf-dist/fonts/tfm/public/nkarta
+@dirrmtry share/texmf-dist/fonts/source/public/nkarta
+@dirrmtry share/texmf-dist/doc/fonts/nkarta
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

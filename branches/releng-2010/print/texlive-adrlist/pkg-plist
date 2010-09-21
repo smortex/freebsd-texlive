@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/adrlist/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/adrlist/adrlist.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/adrlist/adrlist.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/adrlist/adrlist.ins
+share/texmf-dist/tex/latex/adrlist/adrlist.sty
+@dirrmtry share/texmf-dist/tex/latex/adrlist
+@dirrmtry share/texmf-dist/source/latex/adrlist
+@dirrmtry share/texmf-dist/doc/latex/adrlist
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

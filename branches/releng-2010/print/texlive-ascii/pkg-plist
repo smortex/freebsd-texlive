@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ascii/ascii2006.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ascii/asciisty1994.pdf
+share/texmf-dist/fonts/map/dvips/ascii/ascii.map
+share/texmf-dist/fonts/tfm/public/ascii/ASCII.tfm
+share/texmf-dist/fonts/type1/public/ascii/ASCII.pfb
+%%PORTSRC%%share/texmf-dist/source/latex/ascii/ascii.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ascii/ascii.ins
+share/texmf-dist/tex/latex/ascii/ascii.sty
+@dirrmtry share/texmf-dist/tex/latex/ascii
+@dirrmtry share/texmf-dist/source/latex/ascii
+@dirrmtry share/texmf-dist/fonts/type1/public/ascii
+@dirrmtry share/texmf-dist/fonts/tfm/public/ascii
+@dirrmtry share/texmf-dist/fonts/map/dvips/ascii
+@dirrmtry share/texmf-dist/doc/fonts/ascii
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

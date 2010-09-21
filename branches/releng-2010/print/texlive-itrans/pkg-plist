@@ -1,0 +1,96 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/itrans/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/itrans/beng.itx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/itrans/dvnc.itx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/itrans/dvng.itx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/itrans/ex_latex.itx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/itrans/ex_ltn1.itx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/itrans/ex_ps.itx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/itrans/ex_utf8.itx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/itrans/flag.ips
+%%PORTDOCS%%share/texmf-dist/doc/fonts/itrans/gujdoc.itx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/itrans/icsx.itx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/itrans/idoc.itx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/itrans/kantex.itx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/itrans/nehru.itx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/itrans/pundoc.itx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/itrans/romancsx.itx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/itrans/tamil.itx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/itrans/tblall.itx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/itrans/tech.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/itrans/tlgutx.itx
+share/texmf-dist/fonts/afm/public/itrans/devnac.afm
+share/texmf-dist/fonts/afm/public/itrans/itxbeng.afm
+share/texmf-dist/fonts/afm/public/itrans/itxguj.afm
+share/texmf-dist/fonts/afm/public/itrans/ncpi____.afm
+share/texmf-dist/fonts/afm/public/itrans/ncpr____.afm
+share/texmf-dist/fonts/afm/public/itrans/pun.afm
+share/texmf-dist/fonts/afm/public/itrans/xdvng.afm
+share/texmf-dist/fonts/source/public/itrans/kan12.mf
+share/texmf-dist/fonts/source/public/itrans/kan12b.mf
+share/texmf-dist/fonts/source/public/itrans/kan12nx.mf
+share/texmf-dist/fonts/source/public/itrans/kan12ny.mf
+share/texmf-dist/fonts/source/public/itrans/kan12s.mf
+share/texmf-dist/fonts/source/public/itrans/kan18.mf
+share/texmf-dist/fonts/source/public/itrans/kanbase.mf
+share/texmf-dist/fonts/source/public/itrans/kancodes.mf
+share/texmf-dist/fonts/source/public/itrans/kanlets.mf
+share/texmf-dist/fonts/source/public/itrans/kanmain.mf
+share/texmf-dist/fonts/source/public/itrans/kanparam.mf
+share/texmf-dist/fonts/source/public/itrans/kanspc.mf
+share/texmf-dist/fonts/source/public/itrans/kanvarna.mf
+share/texmf-dist/fonts/source/public/itrans/tamilORG.mf
+share/texmf-dist/fonts/source/public/itrans/tel12.mf
+share/texmf-dist/fonts/source/public/itrans/tel12b.mf
+share/texmf-dist/fonts/source/public/itrans/tel12nx.mf
+share/texmf-dist/fonts/source/public/itrans/tel12ny.mf
+share/texmf-dist/fonts/source/public/itrans/tel12s.mf
+share/texmf-dist/fonts/source/public/itrans/tel18.mf
+share/texmf-dist/fonts/source/public/itrans/telbase.mf
+share/texmf-dist/fonts/source/public/itrans/telchrs1.mf
+share/texmf-dist/fonts/source/public/itrans/telchrs2.mf
+share/texmf-dist/fonts/source/public/itrans/telchrs3.mf
+share/texmf-dist/fonts/source/public/itrans/telcodes.mf
+share/texmf-dist/fonts/source/public/itrans/telmode.mf
+share/texmf-dist/fonts/source/public/itrans/telparam.mf
+share/texmf-dist/fonts/source/public/itrans/telspc.mf
+share/texmf-dist/fonts/source/public/itrans/telugu.mf
+share/texmf-dist/fonts/source/public/itrans/wntml12.mf
+share/texmf-dist/fonts/source/public/itrans/wntml17.mf
+share/texmf-dist/fonts/tfm/public/itrans/kan12.tfm
+share/texmf-dist/fonts/tfm/public/itrans/kan12b.tfm
+share/texmf-dist/fonts/tfm/public/itrans/kan12nx.tfm
+share/texmf-dist/fonts/tfm/public/itrans/kan12s.tfm
+share/texmf-dist/fonts/tfm/public/itrans/kan18.tfm
+share/texmf-dist/fonts/tfm/public/itrans/ncpicsxp.tfm
+share/texmf-dist/fonts/tfm/public/itrans/ncprcsxp.tfm
+share/texmf-dist/fonts/tfm/public/itrans/tel12.tfm
+share/texmf-dist/fonts/tfm/public/itrans/tel12b.tfm
+share/texmf-dist/fonts/tfm/public/itrans/tel12nx.tfm
+share/texmf-dist/fonts/tfm/public/itrans/tel12ny.tfm
+share/texmf-dist/fonts/tfm/public/itrans/tel12s.tfm
+share/texmf-dist/fonts/tfm/public/itrans/tel18.tfm
+share/texmf-dist/fonts/tfm/public/itrans/telspc.tfm
+share/texmf-dist/fonts/tfm/public/itrans/wntml12.tfm
+share/texmf-dist/fonts/tfm/public/itrans/wntml17.tfm
+share/texmf-dist/fonts/truetype/public/itrans/itxbeng.ttf
+share/texmf-dist/fonts/truetype/public/itrans/itxguj.ttf
+share/texmf-dist/fonts/truetype/public/itrans/ncpi____.ttf
+share/texmf-dist/fonts/truetype/public/itrans/ncpr____.ttf
+share/texmf-dist/fonts/truetype/public/itrans/xdvng.ttf
+share/texmf-dist/fonts/type1/public/itrans/ncpi____.pfb
+share/texmf-dist/fonts/type1/public/itrans/ncpr____.pfb
+share/texmf-dist/fonts/type1/public/itrans/pun.pfb
+share/texmf-dist/fonts/type1/public/itrans/xdvng.pfb
+share/texmf-dist/tex/latex/itrans/htmlstub.sty
+share/texmf-dist/tex/latex/itrans/idevn.tex
+share/texmf-dist/tex/latex/itrans/itrans.sty
+share/texmf-dist/tex/latex/itrans/itrnstlg.tex
+@dirrmtry share/texmf-dist/tex/latex/itrans
+@dirrmtry share/texmf-dist/fonts/type1/public/itrans
+@dirrmtry share/texmf-dist/fonts/truetype/public/itrans
+@dirrmtry share/texmf-dist/fonts/tfm/public/itrans
+@dirrmtry share/texmf-dist/fonts/source/public/itrans
+@dirrmtry share/texmf-dist/fonts/afm/public/itrans
+@dirrmtry share/texmf-dist/doc/fonts/itrans
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

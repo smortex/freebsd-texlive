@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/poster-mac/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/poster-mac/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/generic/poster-mac/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/poster-mac/poster-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/poster-mac/poster-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/poster-mac/poster1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/poster-mac/poster2.pdf
+share/texmf-dist/tex/generic/poster-mac/poster.sty
+share/texmf-dist/tex/generic/poster-mac/poster.tex
+@dirrmtry share/texmf-dist/tex/generic/poster-mac
+@dirrmtry share/texmf-dist/doc/generic/poster-mac
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

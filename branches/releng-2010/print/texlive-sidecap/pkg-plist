@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/sidecap/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/sidecap/sc-test-common.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sidecap/sc-test1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sidecap/sc-test2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sidecap/sc-test3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sidecap/sc-test4.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sidecap/sc-test5.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sidecap/sc-test6.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sidecap/sidecap.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/sidecap/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/sidecap/sidecap.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/sidecap/sidecap.ins
+share/texmf-dist/tex/latex/sidecap/sidecap.sty
+@dirrmtry share/texmf-dist/tex/latex/sidecap
+@dirrmtry share/texmf-dist/source/latex/sidecap
+@dirrmtry share/texmf-dist/doc/latex/sidecap
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

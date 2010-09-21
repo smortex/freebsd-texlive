@@ -1,0 +1,21 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/msg/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/latex/msg/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/msg/README_msg_doc.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/msg/msg.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/msg/msgguide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/msg/msgguide.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/msg/msgtest.tex
+%%PORTSRC%%share/texmf-dist/source/latex/msg/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/msg/msg.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/msg/msg.ins
+%%PORTSRC%%share/texmf-dist/source/latex/msg/msgfiles.dtx
+share/texmf-dist/tex/latex/msg/french_msg-msg.tex
+share/texmf-dist/tex/latex/msg/german_msg-msg.tex
+share/texmf-dist/tex/latex/msg/msg-msg.tex
+share/texmf-dist/tex/latex/msg/msg.sty
+share/texmf-dist/tex/latex/msg/norsk_msg-msg.tex
+@dirrmtry share/texmf-dist/tex/latex/msg
+@dirrmtry share/texmf-dist/source/latex/msg
+@dirrmtry share/texmf-dist/doc/latex/msg
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

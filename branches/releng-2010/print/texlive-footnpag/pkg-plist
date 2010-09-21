@@ -1,0 +1,27 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnpag/CATALOG
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnpag/History
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnpag/INSTALL
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnpag/Imakefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnpag/License
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnpag/MANIFEST
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnpag/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnpag/TODO
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnpag/footnpag-doc.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnpag/footnpag-user.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnpag/footnpag-user.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnpag/footnpag.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnpag/test/Imakefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnpag/test/eqnarray-fnmark.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnpag/test/late.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnpag/test/many.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnpag/test/minipage.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnpag/test/report.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnpag/test/title-2col.tex
+%%PORTSRC%%share/texmf-dist/source/latex/footnpag/Makefile
+share/texmf-dist/tex/latex/footnpag/footnpag.sty
+@dirrmtry share/texmf-dist/tex/latex/footnpag
+@dirrmtry share/texmf-dist/source/latex/footnpag
+@dirrmtry share/texmf-dist/doc/latex/footnpag/test
+@dirrmtry share/texmf-dist/doc/latex/footnpag
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

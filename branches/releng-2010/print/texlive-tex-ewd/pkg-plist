@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/tex-ewd/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/tex-ewd/bsdlic.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/tex-ewd/p0.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tex-ewd/t1.tex
+share/texmf-dist/tex/generic/tex-ewd/dotnot.tex
+@dirrmtry share/texmf-dist/tex/generic/tex-ewd
+@dirrmtry share/texmf-dist/doc/generic/tex-ewd
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

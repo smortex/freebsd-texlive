@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/stubs/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/stubs/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stubs/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/latex/stubs/changelog.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/stubs/stubs_ex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stubs/stubs_ex.tex
+share/texmf-dist/tex/latex/stubs/stubs.sty
+@dirrmtry share/texmf-dist/tex/latex/stubs
+@dirrmtry share/texmf-dist/doc/latex/stubs
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

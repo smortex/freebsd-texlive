@@ -1,0 +1,4 @@
+The package generates random integers, rational numbers, and
+decimal numbers. The package uses the lcg package to generate
+random integers, and then builds rational numbers and decimal
+numbers from the generated integers.

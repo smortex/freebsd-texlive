@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/drawstack/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/drawstack/stack-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/drawstack/stack-example.tex
+share/texmf-dist/tex/latex/drawstack/drawstack.sty
+@dirrmtry share/texmf-dist/tex/latex/drawstack
+@dirrmtry share/texmf-dist/doc/latex/drawstack
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

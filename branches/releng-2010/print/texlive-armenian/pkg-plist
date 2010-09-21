@@ -1,0 +1,43 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/armenian/examples/latex/manual.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/armenian/examples/latex/raffi.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/armenian/examples/plain/first.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/armenian/examples/plain/table.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/armenian/manual.ps.gz
+%%PORTDOCS%%share/texmf-dist/doc/fonts/armenian/readme.txt
+share/texmf-dist/fonts/source/public/armenian/arssb10.mf
+share/texmf-dist/fonts/source/public/armenian/arssbs10.mf
+share/texmf-dist/fonts/source/public/armenian/arssr10.mf
+share/texmf-dist/fonts/source/public/armenian/arsssl10.mf
+share/texmf-dist/fonts/source/public/armenian/artmb10.mf
+share/texmf-dist/fonts/source/public/armenian/artmbi10.mf
+share/texmf-dist/fonts/source/public/armenian/artmbs10.mf
+share/texmf-dist/fonts/source/public/armenian/artmi10.mf
+share/texmf-dist/fonts/source/public/armenian/artmr10.mf
+share/texmf-dist/fonts/source/public/armenian/artmsl10.mf
+share/texmf-dist/fonts/source/public/armenian/ps2mfbas.mf
+share/texmf-dist/fonts/tfm/public/armenian/arssb10.tfm
+share/texmf-dist/fonts/tfm/public/armenian/arssbs10.tfm
+share/texmf-dist/fonts/tfm/public/armenian/arssr10.tfm
+share/texmf-dist/fonts/tfm/public/armenian/arsssl10.tfm
+share/texmf-dist/fonts/tfm/public/armenian/artmb10.tfm
+share/texmf-dist/fonts/tfm/public/armenian/artmbi10.tfm
+share/texmf-dist/fonts/tfm/public/armenian/artmbs10.tfm
+share/texmf-dist/fonts/tfm/public/armenian/artmi10.tfm
+share/texmf-dist/fonts/tfm/public/armenian/artmr10.tfm
+share/texmf-dist/fonts/tfm/public/armenian/artmsl10.tfm
+share/texmf-dist/tex/latex/armenian/armscii8.def
+share/texmf-dist/tex/latex/armenian/armtex.sty
+share/texmf-dist/tex/latex/armenian/ot6cmr.fd
+share/texmf-dist/tex/latex/armenian/ot6cmss.fd
+share/texmf-dist/tex/latex/armenian/ot6enc.def
+share/texmf-dist/tex/plain/armenian/arm.tex
+share/texmf-dist/tex/plain/armenian/kbdencod.tex
+@dirrmtry share/texmf-dist/tex/plain/armenian
+@dirrmtry share/texmf-dist/tex/latex/armenian
+@dirrmtry share/texmf-dist/fonts/tfm/public/armenian
+@dirrmtry share/texmf-dist/fonts/source/public/armenian
+@dirrmtry share/texmf-dist/doc/fonts/armenian/examples/plain
+@dirrmtry share/texmf-dist/doc/fonts/armenian/examples/latex
+@dirrmtry share/texmf-dist/doc/fonts/armenian
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

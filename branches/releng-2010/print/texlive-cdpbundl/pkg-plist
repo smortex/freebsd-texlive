@@ -1,0 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cdpbundl/00readme.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/cdpbundl/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/cdpbundl/manifest.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/cdpbundl/overview.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/cdpbundl/cdpbundl.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/cdpbundl/cdpbundl.ins
+share/texmf-dist/tex/latex/cdpbundl/adiseal.sty
+share/texmf-dist/tex/latex/cdpbundl/articoletteracdp.cls
+share/texmf-dist/tex/latex/cdpbundl/cdpaddon.sty
+share/texmf-dist/tex/latex/cdpbundl/cdpshues-example.def
+share/texmf-dist/tex/latex/cdpbundl/cdpshues.cfg
+share/texmf-dist/tex/latex/cdpbundl/epson-stylus-740.def
+share/texmf-dist/tex/latex/cdpbundl/hp-laserjet-4500.def
+share/texmf-dist/tex/latex/cdpbundl/lettcdpadi.cls
+share/texmf-dist/tex/latex/cdpbundl/letteracdp.cls
+@dirrmtry share/texmf-dist/tex/latex/cdpbundl
+@dirrmtry share/texmf-dist/source/latex/cdpbundl
+@dirrmtry share/texmf-dist/doc/latex/cdpbundl
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

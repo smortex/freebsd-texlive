@@ -1,0 +1,15 @@
+share/texmf-dist/bibtex/bst/rsc/angew.bst
+share/texmf-dist/bibtex/bst/rsc/rsc.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/rsc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/rsc/rsc-demo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/rsc/rsc.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/rsc/rsc.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/rsc/rsc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/rsc/rsc.ins
+share/texmf-dist/tex/latex/rsc/rsc.sty
+@dirrmtry share/texmf-dist/tex/latex/rsc
+@dirrmtry share/texmf-dist/source/latex/rsc
+@dirrmtry share/texmf-dist/doc/latex/rsc
+@dirrmtry share/texmf-dist/bibtex/bst/rsc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

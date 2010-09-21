@@ -1,0 +1,23 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/punknova/NEWS
+%%PORTDOCS%%share/texmf-dist/doc/fonts/punknova/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/punknova/documentation/documentation-sources/sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/punknova/documentation/sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/punknova/source/punkfont-bold.mp
+%%PORTDOCS%%share/texmf-dist/doc/fonts/punknova/source/punkfont-boldslanted.mp
+%%PORTDOCS%%share/texmf-dist/doc/fonts/punknova/source/punkfont-characters.mp
+%%PORTDOCS%%share/texmf-dist/doc/fonts/punknova/source/punkfont-definitions.mp
+%%PORTDOCS%%share/texmf-dist/doc/fonts/punknova/source/punkfont-slanted.mp
+%%PORTDOCS%%share/texmf-dist/doc/fonts/punknova/source/punkfont.mp
+%%PORTDOCS%%share/texmf-dist/doc/fonts/punknova/tools/build.py
+share/texmf-dist/fonts/opentype/public/punknova/punknova-bold.otf
+share/texmf-dist/fonts/opentype/public/punknova/punknova-boldslanted.otf
+share/texmf-dist/fonts/opentype/public/punknova/punknova-regular.otf
+share/texmf-dist/fonts/opentype/public/punknova/punknova-slanted.otf
+@dirrmtry share/texmf-dist/fonts/opentype/public/punknova
+@dirrmtry share/texmf-dist/doc/fonts/punknova/tools
+@dirrmtry share/texmf-dist/doc/fonts/punknova/source
+@dirrmtry share/texmf-dist/doc/fonts/punknova/documentation/documentation-sources
+@dirrmtry share/texmf-dist/doc/fonts/punknova/documentation
+@dirrmtry share/texmf-dist/doc/fonts/punknova
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

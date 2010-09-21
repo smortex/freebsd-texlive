@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tableaux/exemples.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tableaux/exemples.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tableaux/tableau.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tableaux/tableau.tex
+share/texmf-dist/tex/latex/tableaux/minimum.sty
+share/texmf-dist/tex/latex/tableaux/tableau.sty
+@dirrmtry share/texmf-dist/tex/latex/tableaux
+@dirrmtry share/texmf-dist/doc/latex/tableaux
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

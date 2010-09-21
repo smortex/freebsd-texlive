@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cryst/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/cryst/cryst1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cryst/cryst1.tex
+share/texmf-dist/fonts/afm/public/cryst/cryst.afm
+share/texmf-dist/fonts/source/public/cryst/cryst.mf
+share/texmf-dist/fonts/tfm/public/cryst/cryst.tfm
+share/texmf-dist/fonts/type1/public/cryst/cryst.pfb
+@dirrmtry share/texmf-dist/fonts/type1/public/cryst
+@dirrmtry share/texmf-dist/fonts/tfm/public/cryst
+@dirrmtry share/texmf-dist/fonts/source/public/cryst
+@dirrmtry share/texmf-dist/fonts/afm/public/cryst
+@dirrmtry share/texmf-dist/doc/latex/cryst
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

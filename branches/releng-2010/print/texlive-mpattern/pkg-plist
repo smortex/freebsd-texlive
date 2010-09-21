@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpattern/README
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpattern/README.PL
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpattern/mpattern_test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpattern/mpattern_test.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpattern/test.mp
+share/texmf-dist/metapost/mpattern/mpattern.mp
+@dirrmtry share/texmf-dist/metapost/mpattern
+@dirrmtry share/texmf-dist/doc/metapost/mpattern
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

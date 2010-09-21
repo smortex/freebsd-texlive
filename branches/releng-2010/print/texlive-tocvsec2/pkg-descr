@@ -1,0 +1,3 @@
+Provides control over section numbering (without recourse to
+starred sectional commands) and/or the entries in the Table of
+Contents on a section by section basis.

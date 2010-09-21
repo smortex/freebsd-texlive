@@ -1,0 +1,9 @@
+The xpackages is a bundle of prototype implementations of new
+concepts for a LaTeX Designer Interface. The bundle contains: -
+ldcsetup, which establishes an environment for the other
+packages; - template and xtemplate, which define template
+functions from which instances may be derived; and - xparse,
+which permits flexible specifications of command arguments. In
+addition, the package l3keys2e provides an interface whereby
+LaTeX 2e programs may use the experimental LaTeX 3 keys
+package, l3keys.

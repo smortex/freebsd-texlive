@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancybox/Changes
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancybox/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancybox/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancybox/fancybox-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancybox/fancybox-doc.tex
+share/texmf-dist/tex/latex/fancybox/fancybox.sty
+@dirrmtry share/texmf-dist/tex/latex/fancybox
+@dirrmtry share/texmf-dist/doc/latex/fancybox
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

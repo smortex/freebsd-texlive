@@ -1,0 +1,55 @@
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/Changes
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/README
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/TODO
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/luatexbase-attr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/luatexbase-cctb.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/luatexbase-compat.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/luatexbase-loader.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/luatexbase-mcb.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/luatexbase-modutils.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/luatexbase-regs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/luatexbase.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-attr-latex.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-attr-plain.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-cctb-latex.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-cctb-plain.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-compat-latex.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-compat-plain.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-loader-latex.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-loader-plain.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-loader.lua
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-loader.sub.lua
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-mcb-latex.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-mcb-plain.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-modutils-latex.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-modutils-plain.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-modutils.lua
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-regs-latex.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-regs-plain.tex
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexbase/Makefile
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexbase/luatexbase-attr.dtx
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexbase/luatexbase-cctb.dtx
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexbase/luatexbase-compat.dtx
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexbase/luatexbase-loader.dtx
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexbase/luatexbase-mcb.dtx
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexbase/luatexbase-modutils.dtx
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexbase/luatexbase-regs.dtx
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexbase/luatexbase.dtx
+share/texmf-dist/tex/luatex/luatexbase/attr.lua
+share/texmf-dist/tex/luatex/luatexbase/cctb.lua
+share/texmf-dist/tex/luatex/luatexbase/luatexbase-attr.sty
+share/texmf-dist/tex/luatex/luatexbase/luatexbase-cctb.sty
+share/texmf-dist/tex/luatex/luatexbase/luatexbase-compat.sty
+share/texmf-dist/tex/luatex/luatexbase/luatexbase-loader.sty
+share/texmf-dist/tex/luatex/luatexbase/luatexbase-mcb.sty
+share/texmf-dist/tex/luatex/luatexbase/luatexbase-modutils.sty
+share/texmf-dist/tex/luatex/luatexbase/luatexbase-regs.sty
+share/texmf-dist/tex/luatex/luatexbase/luatexbase.loader.lua
+share/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+share/texmf-dist/tex/luatex/luatexbase/mcb.lua
+share/texmf-dist/tex/luatex/luatexbase/modutils.lua
+@dirrmtry share/texmf-dist/tex/luatex/luatexbase
+@dirrmtry share/texmf-dist/source/luatex/luatexbase
+@dirrmtry share/texmf-dist/doc/luatex/luatexbase
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

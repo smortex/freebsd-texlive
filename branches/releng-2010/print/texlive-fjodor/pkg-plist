@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fjodor/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/fjodor/dostojevski.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fjodor/dostojevski.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fjodor/fjodor.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fjodor/fjodor.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fjodor/srbook-mem.sty
+share/texmf-dist/tex/latex/fjodor/fjodor.sty
+@dirrmtry share/texmf-dist/tex/latex/fjodor
+@dirrmtry share/texmf-dist/doc/latex/fjodor
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

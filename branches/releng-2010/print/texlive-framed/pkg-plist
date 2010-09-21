@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/framed/framed.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/framed/framed.tex
+share/texmf-dist/tex/latex/framed/framed.sty
+@dirrmtry share/texmf-dist/tex/latex/framed
+@dirrmtry share/texmf-dist/doc/latex/framed
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

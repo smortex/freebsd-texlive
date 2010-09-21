@@ -1,0 +1,3 @@
+The bundle contains two packages: soton-palette which defines
+colour-ways, and soton-beamer, which uses the colours to
+produce compliant presentations.

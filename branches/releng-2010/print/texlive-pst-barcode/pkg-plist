@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-barcode/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-barcode/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-barcode/pst-barcode-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-barcode/pst-barcode-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-barcode/pst-barcode-doc.tex
+share/texmf-dist/dvips/pst-barcode/pst-barcode.pro
+%%PORTSRC%%share/texmf-dist/source/generic/pst-barcode/Makefile
+share/texmf-dist/tex/generic/pst-barcode/pst-barcode.tex
+share/texmf-dist/tex/latex/pst-barcode/pst-barcode.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-barcode
+@dirrmtry share/texmf-dist/tex/generic/pst-barcode
+@dirrmtry share/texmf-dist/source/generic/pst-barcode
+@dirrmtry share/texmf-dist/dvips/pst-barcode
+@dirrmtry share/texmf-dist/doc/generic/pst-barcode
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,4 @@
+share/texmf-dist/tex/latex/showdim/showdim.sty
+@dirrmtry share/texmf-dist/tex/latex/showdim
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

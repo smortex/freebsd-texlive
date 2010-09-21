@@ -1,0 +1,3 @@
+A package to encapsulate gnuplot commands in a LaTeX source
+file, so that a document's figures are maintained in parallel
+with the document source itself.

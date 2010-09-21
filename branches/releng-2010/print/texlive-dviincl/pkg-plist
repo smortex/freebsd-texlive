@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/metapost/dviincl/0czytaj.sla
+%%PORTDOCS%%share/texmf-dist/doc/metapost/dviincl/0dviincl.inf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/dviincl/README
+%%PORTDOCS%%share/texmf-dist/doc/metapost/dviincl/README.pl
+%%PORTDOCS%%share/texmf-dist/doc/metapost/dviincl/storyx.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/dviincl/test-bop.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/dviincl/test-bop.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/dviincl/testit.bat
+%%PORTDOCS%%share/texmf-dist/doc/metapost/dviincl/testit.sh
+share/texmf-dist/metapost/dviincl/fix_brks.mp
+share/texmf-dist/metapost/dviincl/fix_page.mp
+@dirrmtry share/texmf-dist/metapost/dviincl
+@dirrmtry share/texmf-dist/doc/metapost/dviincl
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

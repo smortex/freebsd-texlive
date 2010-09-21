@@ -1,0 +1,9 @@
+The current release of this package typesets mathematics with
+unicode input and using OpenType maths fonts. (There is little
+compatibility with older maths packages.) XeTeX support is well
+tested, though LuaTeX support less so. The package can typeset
+using STIX fonts, the XITS development of those fonts, the
+Asana-Math fonts and the commercial Cambria Math fonts. There
+is no support yet for any extra alphabets in the Unicode
+'private use area'. The package relies on recent versions of
+the fontspec package and the expl3 and xpackages bundles.

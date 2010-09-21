@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/imtekda/IMTEKda.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/imtekda/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/imtekda/diplarb.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/imtekda/diplarb.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/imtekda/figures/bild.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/imtekda/figures/bild.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/imtekda/IMTEKda.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/imtekda/IMTEKda.ins
+share/texmf-dist/tex/latex/imtekda/IMTEKda.cls
+@dirrmtry share/texmf-dist/tex/latex/imtekda
+@dirrmtry share/texmf-dist/source/latex/imtekda
+@dirrmtry share/texmf-dist/doc/latex/imtekda/figures
+@dirrmtry share/texmf-dist/doc/latex/imtekda
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

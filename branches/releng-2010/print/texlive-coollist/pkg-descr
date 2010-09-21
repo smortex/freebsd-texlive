@@ -1,0 +1,6 @@
+Lists are defined as a sequence of tokens separated by a comma.
+The coollist package allows the user to access certain elements
+of the list while neglecting others--essentially turning lists
+into a sort of array. Lists elements are accessed by specifying
+the position of the object within the list (the index of the
+item).

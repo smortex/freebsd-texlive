@@ -1,0 +1,15 @@
+This package provides a few tools to ease using fonts
+(especially Truetype/Opentype ones) with Latex and fontinst:
+AFM2AFM - reencode .afm files; designed to replace fontinst's
+\reencodefont for big .afm files; AUTOINST - simplify the use
+of the LCDF TypeTools by creating a command file for otftotfm,
+plus .fd and .sty files; CMAP2ENC - convert glyph indices in
+TrueType fonts without glyph names (such as Linotype Palatino)
+to Adobe glyph names; FONT2AFM - create font metrics; this is
+just a wrapper script around tools such as pf2afm, ttf2afm,
+pfm2kpx and ot2kpx; OT2KPX - extract all kerning pairs from an
+OpenType font; PFM2KPX - extract all kerning pairs from buggy
+.pfm files (the ones where pf2afm complains ".notdef character
+occurred among kern pairs"); and SHOWGLYPHS - create a pdf file
+that shows all glyphs in a font. Please see the documentation
+of the individual programs for further information.

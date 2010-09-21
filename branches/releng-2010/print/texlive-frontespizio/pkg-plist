@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/frontespizio/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/frontespizio/examplea-frn.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frontespizio/examplea.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frontespizio/exampleb-frn.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frontespizio/exampleb.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frontespizio/examplec-frn.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frontespizio/examplec.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frontespizio/exampled-frn.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frontespizio/exampled.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frontespizio/frontespizio.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/frontespizio/makedoc.sh
+%%PORTSRC%%share/texmf-dist/source/latex/frontespizio/frontespizio.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/frontespizio/frontespizio.ins
+share/texmf-dist/tex/latex/frontespizio/frontespizio.sty
+@dirrmtry share/texmf-dist/tex/latex/frontespizio
+@dirrmtry share/texmf-dist/source/latex/frontespizio
+@dirrmtry share/texmf-dist/doc/latex/frontespizio
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,7 @@
+The package draws Discourse Representation Structures (DRSs).
+It can draw embedded DRSs, if-then conditions and
+quantificational "duplex conditions" (with a properly scaled
+connecting diamond). Formatting parameters allow the user to
+control the appearance and placement of DRSs, and of DRS
+variables and conditions. The package is based on DRS macros in
+the covington package.

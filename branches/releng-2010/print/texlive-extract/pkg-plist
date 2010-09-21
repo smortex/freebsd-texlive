@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/extract/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/extract/extract.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/extract/extract.dtx
+share/texmf-dist/tex/latex/extract/extract.sty
+@dirrmtry share/texmf-dist/tex/latex/extract
+@dirrmtry share/texmf-dist/source/latex/extract
+@dirrmtry share/texmf-dist/doc/latex/extract
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,37 @@
+%%PORTDOCS%%share/texmf-dist/doc/eplain/AUTHORS
+%%PORTDOCS%%share/texmf-dist/doc/eplain/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/eplain/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/eplain/INSTALL
+%%PORTDOCS%%share/texmf-dist/doc/eplain/NEWS
+%%PORTDOCS%%share/texmf-dist/doc/eplain/PROJECTS
+%%PORTDOCS%%share/texmf-dist/doc/eplain/README
+%%PORTDOCS%%share/texmf-dist/doc/eplain/README.TOP
+%%PORTDOCS%%share/texmf-dist/doc/eplain/demo/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/eplain/demo/lscommnt.tex
+%%PORTDOCS%%share/texmf-dist/doc/eplain/demo/xhyper.tex
+%%PORTDOCS%%share/texmf-dist/doc/eplain/doc/eplain.html
+%%PORTDOCS%%share/texmf-dist/doc/eplain/doc/eplain.pdf
+%%PORTDOCS%%share/texmf-dist/doc/eplain/doc/lscommnt.jpg
+%%PORTDOCS%%share/texmf-dist/doc/eplain/doc/xhyper.jpg
+%%PORTDOCS%%share/texmf-dist/doc/eplain/util/idxuniq
+%%PORTDOCS%%share/texmf-dist/doc/eplain/util/trimsee
+%%PORTSRC%%share/texmf-dist/source/eplain/eplain-source-3.4.zip
+%%PORTSRC%%share/texmf-dist/source/eplain/xeplain.tex
+share/texmf-dist/tex/eplain/arrow.tex
+share/texmf-dist/tex/eplain/btxmac.tex
+share/texmf-dist/tex/eplain/eplain.aux
+share/texmf-dist/tex/eplain/eplain.ini
+share/texmf-dist/tex/eplain/eplain.tex
+%%PORTDOCS%%share/texmf/doc/info/eplain.info
+%%PORTDOCS%%share/texmf/doc/man/man1/eplain.1
+%%PORTDOCS%%share/texmf/doc/man/man1/eplain.man1.pdf
+@dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/info
+@dirrmtry share/texmf-dist/tex/eplain
+@dirrmtry share/texmf-dist/source/eplain
+@dirrmtry share/texmf-dist/doc/eplain/util
+@dirrmtry share/texmf-dist/doc/eplain/doc
+@dirrmtry share/texmf-dist/doc/eplain/demo
+@dirrmtry share/texmf-dist/doc/eplain
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

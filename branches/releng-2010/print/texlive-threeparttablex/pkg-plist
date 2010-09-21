@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/threeparttablex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/threeparttablex/threeparttablex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/threeparttablex/threeparttablex.tex
+share/texmf-dist/tex/latex/threeparttablex/threeparttablex.sty
+@dirrmtry share/texmf-dist/tex/latex/threeparttablex
+@dirrmtry share/texmf-dist/doc/latex/threeparttablex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

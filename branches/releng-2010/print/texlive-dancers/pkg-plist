@@ -1,0 +1,6 @@
+share/texmf-dist/fonts/source/public/dancers/dancers.mf
+share/texmf-dist/fonts/tfm/public/dancers/dancers.tfm
+@dirrmtry share/texmf-dist/fonts/tfm/public/dancers
+@dirrmtry share/texmf-dist/fonts/source/public/dancers
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

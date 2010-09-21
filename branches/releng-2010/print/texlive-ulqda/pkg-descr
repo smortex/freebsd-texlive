@@ -1,0 +1,7 @@
+The package is for use in Qualitative Data Analysis research.
+It supports the integration of Qualitative Data Analysis (QDA)
+research tasks, specifically for Grounded Theory, into the
+LaTeX work flow. It assists in the analysis of textual data
+such as interview transcripts and field notes by providing the
+LaTeX user with macros which are used to markup textual
+information -- for example, in-depth interviews.

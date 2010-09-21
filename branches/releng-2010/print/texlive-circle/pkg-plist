@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/circle/circle.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/circle/circle.tex
+share/texmf-dist/tex/latex/circle/circle.sty
+@dirrmtry share/texmf-dist/tex/latex/circle
+@dirrmtry share/texmf-dist/doc/latex/circle
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

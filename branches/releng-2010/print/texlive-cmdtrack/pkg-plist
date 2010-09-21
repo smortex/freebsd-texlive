@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cmdtrack/cmdtrack.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/cmdtrack/cmdtrack.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/cmdtrack/cmdtrack.ins
+share/texmf-dist/tex/latex/cmdtrack/cmdtrack.sty
+@dirrmtry share/texmf-dist/tex/latex/cmdtrack
+@dirrmtry share/texmf-dist/source/latex/cmdtrack
+@dirrmtry share/texmf-dist/doc/latex/cmdtrack
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

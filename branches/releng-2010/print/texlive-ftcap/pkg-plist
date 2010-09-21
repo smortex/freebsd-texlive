@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ftcap/ftcap.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ftcap/ftcap.tex
+share/texmf-dist/tex/latex/ftcap/ftcap.sty
+@dirrmtry share/texmf-dist/tex/latex/ftcap
+@dirrmtry share/texmf-dist/doc/latex/ftcap
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

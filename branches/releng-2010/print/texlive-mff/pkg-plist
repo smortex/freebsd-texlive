@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/mff/mffdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mff/mffdoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mff/table.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mff/test.tex
+%%PORTSRC%%share/texmf-dist/source/latex/mff/file_id.diz
+%%PORTSRC%%share/texmf-dist/source/latex/mff/mff.mfj
+%%PORTSRC%%share/texmf-dist/source/latex/mff/test.bat
+share/texmf-dist/tex/latex/mff/mfarithm.tex
+share/texmf-dist/tex/latex/mff/mfcorfnt.tex
+share/texmf-dist/tex/latex/mff/mfdcdata.tex
+share/texmf-dist/tex/latex/mff/mff.sty
+share/texmf-dist/tex/latex/mff/mfsauter.tex
+share/texmf-dist/tex/latex/mff/mftricks.tex
+@dirrmtry share/texmf-dist/tex/latex/mff
+@dirrmtry share/texmf-dist/source/latex/mff
+@dirrmtry share/texmf-dist/doc/latex/mff
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

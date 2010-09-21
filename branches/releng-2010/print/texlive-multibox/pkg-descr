@@ -1,0 +1,3 @@
+The package defines commands \multibox and \multiframe, that
+take a sequence of texts to be placed in boxes; the arguments
+correspond to those of multiput.

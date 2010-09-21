@@ -1,0 +1,10 @@
+The package provides printable cut-outs for various CD, DVD and
+other disc holders. The name of the package comes from its
+implementation and ease of use; it was designed just for text
+content, but since the text is placed in a \parbox in a tabular
+environment cell, a rather wide range of things may be placed.
+Supported cover styles are: - jewel case front, back and
+individual spine; - two-page jewel case front; - slim DVD
+keepcase; - normal DVD keepcase; - Blu-Ray keepcase; - custom-
+sized keepcase; - disk sleeve; - one sided DVD keepcase inlay;
+- one sided Blu-Ray keepcase inlay; and - custom-sized inlay

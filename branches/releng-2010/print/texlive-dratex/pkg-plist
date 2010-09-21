@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/dratex/Examples.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/dratex/README
+share/texmf-dist/tex/generic/dratex/AlDraTex.sty
+share/texmf-dist/tex/generic/dratex/DraTex.sty
+share/texmf-dist/tex/generic/dratex/TeXProject.sty
+share/texmf-dist/tex/generic/dratex/wotree.sty
+@dirrmtry share/texmf-dist/tex/generic/dratex
+@dirrmtry share/texmf-dist/doc/generic/dratex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

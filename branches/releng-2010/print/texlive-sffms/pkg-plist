@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/sffms/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/sffms/blind.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sffms/sffms_manual.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/sffms/sffms.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/sffms/sffms.ins
+share/texmf-dist/tex/latex/sffms/sffdumb.sty
+share/texmf-dist/tex/latex/sffms/sffms.cls
+share/texmf-dist/tex/latex/sffms/sffsmart.sty
+@dirrmtry share/texmf-dist/tex/latex/sffms
+@dirrmtry share/texmf-dist/source/latex/sffms
+@dirrmtry share/texmf-dist/doc/latex/sffms
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

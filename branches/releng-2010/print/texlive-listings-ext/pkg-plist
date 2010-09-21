@@ -1,0 +1,25 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/listings-ext/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/listings-ext/THIS_IS_VERSION_v67
+%%PORTDOCS%%share/texmf-dist/doc/latex/listings-ext/getversion.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/listings-ext/hyperref.cfg
+%%PORTDOCS%%share/texmf-dist/doc/latex/listings-ext/listings-ext.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/listings-ext/listings-ext.el
+%%PORTDOCS%%share/texmf-dist/doc/latex/listings-ext/listings-ext.makemake
+%%PORTDOCS%%share/texmf-dist/doc/latex/listings-ext/listings-ext.mk
+%%PORTDOCS%%share/texmf-dist/doc/latex/listings-ext/listings-ext.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/listings-ext/listings-ext_exmpl_a.java
+%%PORTDOCS%%share/texmf-dist/doc/latex/listings-ext/listings-ext_exmpl_b.java
+%%PORTDOCS%%share/texmf-dist/doc/latex/listings-ext/listings-ext_exmpl_c.java
+%%PORTDOCS%%share/texmf-dist/doc/latex/listings-ext/listings-ext_exmpl_d.java
+%%PORTDOCS%%share/texmf-dist/doc/latex/listings-ext/listings-ext_exmpl_e.java
+%%PORTDOCS%%share/texmf-dist/doc/latex/listings-ext/listings-ext_test_a.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/listings-ext/listings-ext_test_d.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/listings-ext/listings.cfg
+%%PORTSRC%%share/texmf-dist/source/latex/listings-ext/listings-ext.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/listings-ext/listings-ext.ins
+share/texmf-dist/tex/latex/listings-ext/listings-ext.sty
+@dirrmtry share/texmf-dist/tex/latex/listings-ext
+@dirrmtry share/texmf-dist/source/latex/listings-ext
+@dirrmtry share/texmf-dist/doc/latex/listings-ext
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

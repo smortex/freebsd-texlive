@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/youngtab/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/youngtab/makeydoc
+%%PORTDOCS%%share/texmf-dist/doc/latex/youngtab/makeydoc.bat
+%%PORTDOCS%%share/texmf-dist/doc/latex/youngtab/youngtab.el
+%%PORTDOCS%%share/texmf-dist/doc/latex/youngtab/youngtab.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/youngtab/youngtab.tex
+%%PORTSRC%%share/texmf-dist/source/latex/youngtab/youngtab.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/youngtab/youngtab.ins
+share/texmf-dist/tex/latex/youngtab/youngtab.sty
+@dirrmtry share/texmf-dist/tex/latex/youngtab
+@dirrmtry share/texmf-dist/source/latex/youngtab
+@dirrmtry share/texmf-dist/doc/latex/youngtab
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

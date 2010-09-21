@@ -1,0 +1,46 @@
+share/texmf-dist/bibtex/bst/seuthesis/seuthesis.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/a3cover/A3cover.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/a3cover/A4cover.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/a3cover/a3cover.bat
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/a3cover/a3cover.sh
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/a3cover/a4cover.bat
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/a3cover/a4cover.sh
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/a3cover/bookspine_hor.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/a3cover/bookspine_ver.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/figures/back-cover.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/figures/doctor.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/figures/engineering.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/figures/front-cover.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/figures/master.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/figures/seu-badge-logo.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/figures/seu-badge-logo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/figures/seu-color-logo.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/figures/seu-text-logo.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/figures/seu-text-logo.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/gind.ist
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/sample-bachelor.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/sample-doctor.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/sample-engineering.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/sample-master.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/seuthesis.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/seuthesis.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/zharticle/scrsize9pt.clo
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/zharticle/zharticle.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/zharticle/zharticle.cfg
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesis/zharticle/zharticle.cls
+%%PORTSRC%%share/texmf-dist/source/latex/seuthesis/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/seuthesis/seuthesis.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/seuthesis/seuthesis.ins
+share/texmf-dist/tex/latex/seuthesis/seuthesis-gbk.cfg
+share/texmf-dist/tex/latex/seuthesis/seuthesis-utf8.cfg
+share/texmf-dist/tex/latex/seuthesis/seuthesis.cls
+@dirrmtry share/texmf-dist/tex/latex/seuthesis
+@dirrmtry share/texmf-dist/source/latex/seuthesis
+@dirrmtry share/texmf-dist/doc/latex/seuthesis/zharticle
+@dirrmtry share/texmf-dist/doc/latex/seuthesis/figures
+@dirrmtry share/texmf-dist/doc/latex/seuthesis/a3cover
+@dirrmtry share/texmf-dist/doc/latex/seuthesis
+@dirrmtry share/texmf-dist/bibtex/bst/seuthesis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

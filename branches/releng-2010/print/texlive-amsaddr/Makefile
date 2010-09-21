@@ -1,0 +1,17 @@
+# New ports collection makefile for:	texlive-amsaddr
+# Date created:		13/03/2010 04:38:37
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	amsaddr
+PORTVERSION=	20100921
+CATEGORIES=	print
+
+MAINTAINER=	romain@FreeBSD.org
+COMMENT=	Alter the position of affiliations in amsart.
+
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

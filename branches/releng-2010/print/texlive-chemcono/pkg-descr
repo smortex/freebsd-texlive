@@ -1,0 +1,5 @@
+A LaTeX package for using compound numbers in chemistry
+documents. It works like \cite and the \thebibliography, using
+\fcite and \theffbibliography instead. It allows compound names
+in documents to be numbered and does not affect the normal
+citation routines.

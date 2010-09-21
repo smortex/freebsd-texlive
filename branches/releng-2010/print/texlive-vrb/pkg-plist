@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/vrb/readme
+share/texmf-dist/tex/generic/vrb/vrb.tex
+@dirrmtry share/texmf-dist/tex/generic/vrb
+@dirrmtry share/texmf-dist/doc/generic/vrb
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

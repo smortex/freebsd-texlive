@@ -1,0 +1,5 @@
+A small collection of styles for the biblatex package. It was
+designed for citations in the humanities and offers some
+features that are not provided by the standard biblatex styles.
+Biblatex-dw is dependent on biblatex (at least version 0.9) and
+cannot be used without it.

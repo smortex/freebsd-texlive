@@ -1,0 +1,4 @@
+Provides macros for defining systematic mnemonic abbreviations,
+starting with ` for math symbols and \" for arrows, using
+standard symbols as well as those from the amsfonts bundle and
+the stmaryrd package.

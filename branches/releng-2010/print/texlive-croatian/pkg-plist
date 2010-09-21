@@ -1,0 +1,51 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/croatian/crogl.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/croatian/readme.txt
+share/texmf-dist/fonts/source/public/croatian/bass.mf
+share/texmf-dist/fonts/source/public/croatian/bass10.mf
+share/texmf-dist/fonts/source/public/croatian/basscc.mf
+share/texmf-dist/fonts/source/public/croatian/cal.mf
+share/texmf-dist/fonts/source/public/croatian/cal10.mf
+share/texmf-dist/fonts/source/public/croatian/croatian-i.mf
+share/texmf-dist/fonts/source/public/croatian/croblm.mf
+share/texmf-dist/fonts/source/public/croatian/croblv.mf
+share/texmf-dist/fonts/source/public/croatian/crocyrm.mf
+share/texmf-dist/fonts/source/public/croatian/crocyrv.mf
+share/texmf-dist/fonts/source/public/croatian/gg.mf
+share/texmf-dist/fonts/source/public/croatian/gg10.mf
+share/texmf-dist/fonts/source/public/croatian/ggv.mf
+share/texmf-dist/fonts/source/public/croatian/ggv1.mf
+share/texmf-dist/fonts/source/public/croatian/glz.mf
+share/texmf-dist/fonts/source/public/croatian/hcyr.mf
+share/texmf-dist/fonts/source/public/croatian/kraj.mf
+share/texmf-dist/fonts/source/public/croatian/kur.mf
+share/texmf-dist/fonts/source/public/croatian/kurzivm.mf
+share/texmf-dist/fonts/source/public/croatian/kurzivv.mf
+share/texmf-dist/fonts/source/public/croatian/lom.mf
+share/texmf-dist/fonts/source/public/croatian/lomm.mf
+share/texmf-dist/fonts/source/public/croatian/lomv.mf
+share/texmf-dist/fonts/source/public/croatian/obl.mf
+share/texmf-dist/fonts/source/public/croatian/obl10.mf
+share/texmf-dist/fonts/source/public/croatian/oblm.mf
+share/texmf-dist/fonts/source/public/croatian/oblv.mf
+share/texmf-dist/fonts/source/public/croatian/ple.mf
+share/texmf-dist/fonts/source/public/croatian/plet.mf
+share/texmf-dist/fonts/source/public/croatian/pleter.mf
+share/texmf-dist/fonts/source/public/croatian/stechak.mf
+share/texmf-dist/fonts/source/public/croatian/ugl.mf
+share/texmf-dist/fonts/source/public/croatian/ugl10.mf
+share/texmf-dist/fonts/source/public/croatian/ugv.mf
+share/texmf-dist/fonts/source/public/croatian/ugve.mf
+share/texmf-dist/tex/plain/croatian/glhyphen.tex
+share/texmf-dist/tex/plain/croatian/llig.tex
+share/texmf-dist/tex/plain/croatian/ste.tex
+share/texmf-dist/tex/plain/croatian/ttabl.tex
+share/texmf-dist/tex/plain/croatian/ttablb.tex
+share/texmf-dist/tex/plain/croatian/ttablhc.tex
+share/texmf-dist/tex/plain/croatian/ttablo.tex
+share/texmf-dist/tex/plain/croatian/ttabloku.tex
+share/texmf-dist/tex/plain/croatian/ttlis.tex
+@dirrmtry share/texmf-dist/tex/plain/croatian
+@dirrmtry share/texmf-dist/fonts/source/public/croatian
+@dirrmtry share/texmf-dist/doc/fonts/croatian
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

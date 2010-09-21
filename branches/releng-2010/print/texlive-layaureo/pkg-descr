@@ -1,0 +1,5 @@
+This package produces a wide page layout for documents that use
+A4 paper size. Moreover, LayAureo provides both a simple hook
+for leaving an empty space which is required if pages are
+bundled by a press binding use option binding=length), and an
+option called big which it forces typearea to become maximum.

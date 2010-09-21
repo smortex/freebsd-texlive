@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-historian/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-historian/historian.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-historian/historian.pdf
+share/texmf-dist/tex/latex/biblatex-historian/historian.bbx
+share/texmf-dist/tex/latex/biblatex-historian/historian.cbx
+share/texmf-dist/tex/latex/biblatex-historian/historian.lbx
+@dirrmtry share/texmf-dist/tex/latex/biblatex-historian
+@dirrmtry share/texmf-dist/doc/latex/biblatex-historian
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

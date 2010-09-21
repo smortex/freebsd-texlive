@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cursor/cursor.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cursor/cursor.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cursor/read.me
+share/texmf-dist/tex/latex/cursor/cursor.sty
+@dirrmtry share/texmf-dist/tex/latex/cursor
+@dirrmtry share/texmf-dist/doc/latex/cursor
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

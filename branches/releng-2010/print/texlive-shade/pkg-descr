@@ -1,0 +1,4 @@
+The package provides a shaded backdrop to a box of text. It
+uses a MetaFont font (provided) which generates to appropriate
+shading dependent on the resolution used in the MetaFont
+printer parameters.

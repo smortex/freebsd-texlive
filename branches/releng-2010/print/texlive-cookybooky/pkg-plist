@@ -1,0 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cookybooky/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/cookybooky/documentation/Manual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cookybooky/examples/ex_1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cookybooky/examples/ex_1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cookybooky/examples/graphics/bg.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/cookybooky/examples/graphics/bg_transparent.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/cookybooky/examples/graphics/bgraph.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/cookybooky/examples/graphics/sgraph.eps
+%%PORTSRC%%share/texmf-dist/source/latex/cookybooky/cookybooky.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/cookybooky/cookybooky.ins
+share/texmf-dist/tex/latex/cookybooky/cookybooky.sty
+share/texmf-dist/tex/latex/cookybooky/myRecipe.cfg
+@dirrmtry share/texmf-dist/tex/latex/cookybooky
+@dirrmtry share/texmf-dist/source/latex/cookybooky
+@dirrmtry share/texmf-dist/doc/latex/cookybooky/examples/graphics
+@dirrmtry share/texmf-dist/doc/latex/cookybooky/examples
+@dirrmtry share/texmf-dist/doc/latex/cookybooky/documentation
+@dirrmtry share/texmf-dist/doc/latex/cookybooky
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

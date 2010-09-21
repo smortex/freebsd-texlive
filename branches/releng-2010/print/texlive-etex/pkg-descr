@@ -1,0 +1,5 @@
+An extended version of TeX (which is capable of running as if
+it were TeX unmodified). E-TeX has been specified by the LaTeX
+team as the engine for the development of LaTeX, in the
+immediate future; as a result, LaTeX (in all current TeX
+distributions) uses e-TeX rather than 'unadorned' TeX.

@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/genealogy/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/genealogy/licence.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/genealogy/testgen.dvi
+%%PORTDOCS%%share/texmf-dist/doc/fonts/genealogy/testgen.tex
+share/texmf-dist/fonts/source/public/genealogy/drgen.mf
+share/texmf-dist/fonts/source/public/genealogy/drgen10.mf
+share/texmf-dist/fonts/tfm/public/genealogy/drgen10.tfm
+@dirrmtry share/texmf-dist/fonts/tfm/public/genealogy
+@dirrmtry share/texmf-dist/fonts/source/public/genealogy
+@dirrmtry share/texmf-dist/doc/fonts/genealogy
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

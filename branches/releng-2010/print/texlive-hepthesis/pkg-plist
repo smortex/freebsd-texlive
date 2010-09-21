@@ -1,0 +1,30 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/TODO
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/appendices.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/backmatter.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/chap1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/chap2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/chap3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/ckmfitter-alpha-combined.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/extrastyles.zip
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/frontmatter.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/getNewBibtex
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/h-physrev.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/lhcb-detector-cross-section.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/mythesis.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/mythesis.cls
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/mythesis.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/mythesismath.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/hepthesis.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/hepthesis.tex
+share/texmf-dist/tex/latex/hepthesis/hepthesis.cls
+@dirrmtry share/texmf-dist/tex/latex/hepthesis
+@dirrmtry share/texmf-dist/doc/latex/hepthesis/example
+@dirrmtry share/texmf-dist/doc/latex/hepthesis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

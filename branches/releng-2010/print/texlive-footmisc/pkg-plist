@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/footmisc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/footmisc/footmisc.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/footmisc/footmisc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/footmisc/footmisc.ins
+share/texmf-dist/tex/latex/footmisc/footmisc.sty
+@dirrmtry share/texmf-dist/tex/latex/footmisc
+@dirrmtry share/texmf-dist/source/latex/footmisc
+@dirrmtry share/texmf-dist/doc/latex/footmisc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

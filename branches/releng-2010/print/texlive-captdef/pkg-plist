@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/captdef/captdef.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/captdef/captdef.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/captdef/miscdoc.sty
+share/texmf-dist/tex/latex/captdef/captdef.sty
+@dirrmtry share/texmf-dist/tex/latex/captdef
+@dirrmtry share/texmf-dist/doc/latex/captdef
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

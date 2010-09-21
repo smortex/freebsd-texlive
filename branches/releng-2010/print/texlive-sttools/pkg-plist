@@ -1,0 +1,22 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/doc/cuted.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/doc/cuted.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/doc/floatpag.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/doc/floatpag.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/doc/flushend.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/doc/flushend.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/index.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/presfull.pdf
+share/texmf-dist/tex/latex/sttools/boundbox.sty
+share/texmf-dist/tex/latex/sttools/cuted.sty
+share/texmf-dist/tex/latex/sttools/floatpag.sty
+share/texmf-dist/tex/latex/sttools/flushend.sty
+share/texmf-dist/tex/latex/sttools/marginal.sty
+share/texmf-dist/tex/latex/sttools/midfloat.sty
+share/texmf-dist/tex/latex/sttools/stabular.sty
+share/texmf-dist/tex/latex/sttools/stfloats.sty
+share/texmf-dist/tex/latex/sttools/texsort.sty
+@dirrmtry share/texmf-dist/tex/latex/sttools
+@dirrmtry share/texmf-dist/doc/latex/sttools/doc
+@dirrmtry share/texmf-dist/doc/latex/sttools
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

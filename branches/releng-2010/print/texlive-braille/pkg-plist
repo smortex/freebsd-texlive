@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/braille/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/braille/braille.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/braille/braillegif1.gif
+%%PORTDOCS%%share/texmf-dist/doc/latex/braille/braillegif2.gif
+%%PORTDOCS%%share/texmf-dist/doc/latex/braille/grade1.py
+%%PORTDOCS%%share/texmf-dist/doc/latex/braille/grade2.py
+%%PORTDOCS%%share/texmf-dist/doc/latex/braille/summary.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/braille/summary.tex
+share/texmf-dist/tex/latex/braille/braille.sty
+@dirrmtry share/texmf-dist/tex/latex/braille
+@dirrmtry share/texmf-dist/doc/latex/braille
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

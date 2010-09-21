@@ -1,0 +1,4 @@
+The package extends vowel.sty (distributed as part of the tipa
+bundle) by allowing the user to draw arrows between vowels to
+show relationships such as diphthong membership. The package
+depends on use of pstricks.

@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/flv-player-license/MPL-1.1
+%%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/flv-player-license/license.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/test-beamer.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/test-beamer.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/test-flv.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/test-flv.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/test.tex
+share/texmf-dist/tex/latex/flashmovie/flashmovie.sty
+share/texmf-dist/tex/latex/flashmovie/player_flv_maxi.swf
+@dirrmtry share/texmf-dist/tex/latex/flashmovie
+@dirrmtry share/texmf-dist/doc/latex/flashmovie/flv-player-license
+@dirrmtry share/texmf-dist/doc/latex/flashmovie
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/autotab/autotab.tex
+share/texmf-dist/tex/latex/autotab/autotab.sty
+@dirrmtry share/texmf-dist/tex/latex/autotab
+@dirrmtry share/texmf-dist/doc/latex/autotab
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

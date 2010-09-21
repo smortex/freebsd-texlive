@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/euproposal/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/euproposal/euproposal.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/euproposal/propB.delivs
+%%PORTDOCS%%share/texmf-dist/doc/latex/euproposal/propB.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/euproposal/propB.tex
+%%PORTSRC%%share/texmf-dist/source/latex/euproposal/euproposal.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/euproposal/euproposal.ins
+share/texmf-dist/tex/latex/euproposal/euproposal.cls
+@dirrmtry share/texmf-dist/tex/latex/euproposal
+@dirrmtry share/texmf-dist/source/latex/euproposal
+@dirrmtry share/texmf-dist/doc/latex/euproposal
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

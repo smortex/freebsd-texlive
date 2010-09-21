@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/williams/README
+share/texmf-dist/tex/latex/williams/antree.sty
+share/texmf-dist/tex/latex/williams/toklist.sty
+@dirrmtry share/texmf-dist/tex/latex/williams
+@dirrmtry share/texmf-dist/doc/latex/williams
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

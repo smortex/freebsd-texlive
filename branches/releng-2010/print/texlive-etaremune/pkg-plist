@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/etaremune/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/etaremune/etaremune.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/etaremune/etaremune.dtx
+share/texmf-dist/tex/latex/etaremune/etaremune.sty
+@dirrmtry share/texmf-dist/tex/latex/etaremune
+@dirrmtry share/texmf-dist/source/latex/etaremune
+@dirrmtry share/texmf-dist/doc/latex/etaremune
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,6 @@
+The package modifies the behaviour of characters in maths mode
+so that: '.' is used as a one-thousand separator (as is common
+in Germany) ',' is used as a decimal separator (as is common in
+Germany) '--' is represented with spacing as appropriate to
+such constructs as '1.000,--'. These conversions may be
+switched on and off.

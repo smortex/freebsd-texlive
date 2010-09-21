@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/lgreek/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/lgreek/lgreekuse.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lgreek/lgreekuse.tex
+share/texmf-dist/tex/latex/lgreek/LGcmr.fd
+share/texmf-dist/tex/latex/lgreek/LGcmtt.fd
+share/texmf-dist/tex/latex/lgreek/LGenc.def
+share/texmf-dist/tex/latex/lgreek/lgreek.sty
+@dirrmtry share/texmf-dist/tex/latex/lgreek
+@dirrmtry share/texmf-dist/doc/latex/lgreek
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

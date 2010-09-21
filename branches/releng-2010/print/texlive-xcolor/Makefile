@@ -1,0 +1,17 @@
+# New ports collection makefile for:	texlive-xcolor
+# Date created:		13/03/2010 04:53:06
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	xcolor
+PORTVERSION=	20100921
+CATEGORIES=	print
+
+MAINTAINER=	romain@FreeBSD.org
+COMMENT=	Driver-independent color extensions for LaTeX and pdfLaTeX.
+
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

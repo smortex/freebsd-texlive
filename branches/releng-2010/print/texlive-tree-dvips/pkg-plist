@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tree-dvips/Readme
+%%PORTDOCS%%share/texmf-dist/doc/latex/tree-dvips/lingmacros-manual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tree-dvips/lingmacros-manual.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tree-dvips/tree-manual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tree-dvips/tree-manual.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tree-dvips/tree.script
+share/texmf-dist/dvips/tree-dvips/tree-dvips.pro
+%%PORTSRC%%share/texmf-dist/source/latex/tree-dvips/Makefile
+share/texmf-dist/tex/latex/tree-dvips/lingmacros.sty
+share/texmf-dist/tex/latex/tree-dvips/tree-dvips.sty
+@dirrmtry share/texmf-dist/tex/latex/tree-dvips
+@dirrmtry share/texmf-dist/source/latex/tree-dvips
+@dirrmtry share/texmf-dist/dvips/tree-dvips
+@dirrmtry share/texmf-dist/doc/latex/tree-dvips
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

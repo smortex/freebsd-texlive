@@ -1,0 +1,60 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logoEPFL.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logoEPFL.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logoINPG.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logoINPG.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logopoliba.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logopoliba.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logopolito.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logopolito.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logouniba.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logouniba.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounibg.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounibg.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounibo.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounibo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounibs.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounibs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounige.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounige.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounipa.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounipa.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounipd.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounipd.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounipi.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounipi.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounipmn.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounipmn.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logouniroma1.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logouniroma1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logouniroma2.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logouniroma2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logouniroma3.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logouniroma3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounisa.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounisa.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounito.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounito.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounits.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logounits.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logouniur.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/logouniur.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/manifest.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example.xmpdata
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/toptesi/toptesi.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/toptesi/toptesi.ins
+share/texmf-dist/tex/latex/toptesi/topcoman.sty
+share/texmf-dist/tex/latex/toptesi/topfront.sty
+share/texmf-dist/tex/latex/toptesi/topsiz14.clo
+share/texmf-dist/tex/latex/toptesi/toptesi.cfg
+share/texmf-dist/tex/latex/toptesi/toptesi.cls
+share/texmf-dist/tex/latex/toptesi/toptesi.sty
+share/texmf-dist/tex/latex/toptesi/trieste.sty
+@dirrmtry share/texmf-dist/tex/latex/toptesi
+@dirrmtry share/texmf-dist/source/latex/toptesi
+@dirrmtry share/texmf-dist/doc/latex/toptesi
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

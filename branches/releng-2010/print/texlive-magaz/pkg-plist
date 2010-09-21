@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/magaz/magaz.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/magaz/magaz.tex
+share/texmf-dist/tex/latex/magaz/magaz.sty
+@dirrmtry share/texmf-dist/tex/latex/magaz
+@dirrmtry share/texmf-dist/doc/latex/magaz
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

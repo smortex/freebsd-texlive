@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-vowel/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-vowel/pst-vowel.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-vowel/pst-vowel.tex
+share/texmf-dist/tex/latex/pst-vowel/pst-vowel.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-vowel
+@dirrmtry share/texmf-dist/doc/latex/pst-vowel
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

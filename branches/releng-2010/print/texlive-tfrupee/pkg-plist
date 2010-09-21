@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/tfrupee/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/fonts/tfrupee/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/tfrupee/tfrupee.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/tfrupee/tfrupee.tex
+share/texmf-dist/fonts/afm/public/tfrupee/tfrupee.afm
+share/texmf-dist/fonts/map/dvips/tfrupee/tfrupee.map
+share/texmf-dist/fonts/tfm/public/tfrupee/tfrupee.tfm
+share/texmf-dist/fonts/type1/public/tfrupee/tfrupee.pfb
+%%PORTSRC%%share/texmf-dist/source/fonts/tfrupee/tfrupee.sfd
+share/texmf-dist/tex/latex/tfrupee/tfrupee.sty
+@dirrmtry share/texmf-dist/tex/latex/tfrupee
+@dirrmtry share/texmf-dist/source/fonts/tfrupee
+@dirrmtry share/texmf-dist/fonts/type1/public/tfrupee
+@dirrmtry share/texmf-dist/fonts/tfm/public/tfrupee
+@dirrmtry share/texmf-dist/fonts/map/dvips/tfrupee
+@dirrmtry share/texmf-dist/fonts/afm/public/tfrupee
+@dirrmtry share/texmf-dist/doc/fonts/tfrupee
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

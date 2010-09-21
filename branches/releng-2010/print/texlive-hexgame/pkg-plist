@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/hexgame/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/hexgame/hexgame.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/hexgame/hexgame.tex
+share/texmf-dist/tex/latex/hexgame/hexgame.sty
+@dirrmtry share/texmf-dist/tex/latex/hexgame
+@dirrmtry share/texmf-dist/doc/latex/hexgame
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

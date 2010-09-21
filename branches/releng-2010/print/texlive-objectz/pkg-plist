@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/objectz/catalog
+%%PORTDOCS%%share/texmf-dist/doc/latex/objectz/makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/objectz/manifest
+%%PORTDOCS%%share/texmf-dist/doc/latex/objectz/ozguide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/objectz/ozguide.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/objectz/oztest.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/objectz/readme
+%%PORTSRC%%share/texmf-dist/source/latex/objectz/oz.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/objectz/oz.ins
+share/texmf-dist/tex/latex/objectz/oz.sty
+@dirrmtry share/texmf-dist/tex/latex/objectz
+@dirrmtry share/texmf-dist/source/latex/objectz
+@dirrmtry share/texmf-dist/doc/latex/objectz
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

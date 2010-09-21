@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/yplan/yplan
+%%PORTDOCS%%share/texmf-dist/doc/latex/yplan/yplan.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/yplan/yplan00.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/yplan/yplan00a.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/yplan/yplan00b.tex
+share/texmf-dist/tex/latex/yplan/yplan.sty
+@dirrmtry share/texmf-dist/tex/latex/yplan
+@dirrmtry share/texmf-dist/doc/latex/yplan
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

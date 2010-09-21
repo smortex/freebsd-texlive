@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/skeycommand/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/skeycommand/skeycommand-guide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/skeycommand/skeycommand-guide.tex
+share/texmf-dist/tex/latex/skeycommand/skeycommand.sty
+@dirrmtry share/texmf-dist/tex/latex/skeycommand
+@dirrmtry share/texmf-dist/doc/latex/skeycommand
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

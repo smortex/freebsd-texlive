@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/undertilde/undertilde.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/undertilde/undertilde.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/undertilde/undertilde.ins
+share/texmf-dist/tex/latex/undertilde/undertilde.sty
+@dirrmtry share/texmf-dist/tex/latex/undertilde
+@dirrmtry share/texmf-dist/source/latex/undertilde
+@dirrmtry share/texmf-dist/doc/latex/undertilde
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,30 @@
+share/texmf-dist/bibtex/bst/dtk/dtk.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/dtk/doc/beispiel.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/dtk/doc/beispiel.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dtk/doc/beispiel.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk00.clo
+%%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk01.clo
+%%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk02.clo
+%%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk03.clo
+%%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk05.clo
+%%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk06.clo
+%%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk95.clo
+%%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk96.clo
+%%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk97.clo
+%%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk98.clo
+%%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk99.clo
+%%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/textlist.sty
+share/texmf-dist/makeindex/dtk/dtk-adr.ist
+share/texmf-dist/makeindex/dtk/dtk-idx.ist
+share/texmf-dist/tex/latex/dtk/dtk-pdf.sty
+share/texmf-dist/tex/latex/dtk/dtk.clo
+share/texmf-dist/tex/latex/dtk/dtk.cls
+share/texmf-dist/tex/latex/dtk/dtk10.clo
+share/texmf-dist/tex/latex/dtk/dtklogos.sty
+@dirrmtry share/texmf-dist/tex/latex/dtk
+@dirrmtry share/texmf-dist/makeindex/dtk
+@dirrmtry share/texmf-dist/doc/latex/dtk/historical
+@dirrmtry share/texmf-dist/doc/latex/dtk/doc
+@dirrmtry share/texmf-dist/bibtex/bst/dtk
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

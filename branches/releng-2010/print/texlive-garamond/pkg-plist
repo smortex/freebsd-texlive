@@ -1,0 +1,36 @@
+share/texmf-dist/fonts/tfm/cg/garamond/cgmb.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/cgmb8t.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/cgmbi.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/cgmbi8t.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/cgmr.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/cgmr8t.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/cgmri.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/cgmri8t.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/gra10u.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/gra6j.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/gra7j.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/gra8u.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/grh10u.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/grh6j.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/grh7j.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/grh8u.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/grk10u.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/grk6j.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/grk7j.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/grk8u.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/grl10u.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/grl6j.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/grl7j.tfm
+share/texmf-dist/fonts/tfm/cg/garamond/grl8u.tfm
+share/texmf-dist/fonts/vf/cg/garamond/cgmb.vf
+share/texmf-dist/fonts/vf/cg/garamond/cgmb8t.vf
+share/texmf-dist/fonts/vf/cg/garamond/cgmbi.vf
+share/texmf-dist/fonts/vf/cg/garamond/cgmbi8t.vf
+share/texmf-dist/fonts/vf/cg/garamond/cgmr.vf
+share/texmf-dist/fonts/vf/cg/garamond/cgmr8t.vf
+share/texmf-dist/fonts/vf/cg/garamond/cgmri.vf
+share/texmf-dist/fonts/vf/cg/garamond/cgmri8t.vf
+@dirrmtry share/texmf-dist/fonts/vf/cg/garamond
+@dirrmtry share/texmf-dist/fonts/tfm/cg/garamond
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

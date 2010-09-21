@@ -1,0 +1,5 @@
+The package provides settings and macros for typesetting
+mathematics with LaTeX in compliance with French usage. It
+comes with two document classes, 'fiche' and 'cours', useful to
+create short high school documents such as tests or lessons.
+The documentation is in French.

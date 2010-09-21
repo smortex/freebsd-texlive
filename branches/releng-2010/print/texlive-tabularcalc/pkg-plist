@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabularcalc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabularcalc/tabularcalc_doc_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabularcalc/tabularcalc_doc_en.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabularcalc/tabularcalc_doc_fr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabularcalc/tabularcalc_doc_fr.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabularcalc/tabularcalc_doc_vn.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabularcalc/tabularcalc_doc_vn.tex
+share/texmf-dist/tex/latex/tabularcalc/tabularcalc.sty
+@dirrmtry share/texmf-dist/tex/latex/tabularcalc
+@dirrmtry share/texmf-dist/doc/latex/tabularcalc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

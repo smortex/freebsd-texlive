@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/mlist/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/mlist/mlist.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/mlist/mlist.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mlist/mlist.ins
+share/texmf-dist/tex/latex/mlist/mlist.cfg
+share/texmf-dist/tex/latex/mlist/mlist.sty
+@dirrmtry share/texmf-dist/tex/latex/mlist
+@dirrmtry share/texmf-dist/source/latex/mlist
+@dirrmtry share/texmf-dist/doc/latex/mlist
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

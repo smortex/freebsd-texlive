@@ -1,0 +1,61 @@
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/simpleslides.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/simpleslides.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/solutions/generic-talk-15min-45min.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/solutions/speaker_introduction-2min.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/solutions/style-template.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/BigNumber-blue.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/BigNumber-red.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/BottomSquares.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/Boxed.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/Ellipse.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/Embossed.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/Framed-square.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/Framed-stripe.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/FramedTitle.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/HorizontalStripes-blue.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/HorizontalStripes-green.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/HorizontalStripes-red.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/NarrowStripes-blue.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/NarrowStripes-green.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/NarrowStripes-red.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/RainbowStripe.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/Rounded.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/Shaded-blue.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/Shaded-green.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/SideSquares.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/SideToc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/Split.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/Sunrise.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/Swoosh.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/ThickStripes.pdf
+share/texmf-dist/tex/context/interface/third/t-simpleslides.xml
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-f-default.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-BigNumber.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-BottomSquares.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-Boxed.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-BoxedTitle.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-Ellipse.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-Embossed.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-Framed.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-FramedTitle.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-HorizontalStripes.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-NarrowStripes.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-PlainCounter.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-RainbowStripe.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-Rounded.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-Shaded.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-SideSquares.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-SideToc.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-Split.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-Sunrise.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-Swoosh.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-ThickStripes.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-default.tex
+share/texmf-dist/tex/context/third/simpleslides/t-simpleslides.tex
+@dirrmtry share/texmf-dist/tex/context/third/simpleslides
+@dirrmtry share/texmf-dist/tex/context/interface/third
+@dirrmtry share/texmf-dist/doc/context/third/simpleslides/styles
+@dirrmtry share/texmf-dist/doc/context/third/simpleslides/solutions
+@dirrmtry share/texmf-dist/doc/context/third/simpleslides
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

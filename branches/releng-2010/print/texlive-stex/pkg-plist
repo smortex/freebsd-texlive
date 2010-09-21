@@ -1,0 +1,211 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/assignment/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/assignment/assignment.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/cmathml/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/cmathml/cmathml.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/cnx/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/cnx/cnx.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/dcm/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/dcm/dcm.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/all.omdoc
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/all.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/functions.omdoc
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/functions.sms
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/functions.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/post.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/pre.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/reals.omdoc
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/reals.sms
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/reals.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/continuous.omdoc
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/continuous.sms
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/continuous.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/differentiable.omdoc
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/differentiable.sms
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/differentiable.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/paper.omdoc
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/paper.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/paper.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/test/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/mikoslides/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/mikoslides/mikoslides.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/modules/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/modules/modules.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/omd/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/omd/omd.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/omdoc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/omdoc/omdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/omtext/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/omtext/omtext.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/presentation/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/presentation/presentation.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/problem/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/problem/problem.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/reqdoc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/reqdoc/reqdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/reqdoc/requirements.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/reqdoc/requirements.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sproof/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sproof/sproof.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sref/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sref/book.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sref/book.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sref/idc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sref/idc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sref/scr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sref/scr.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sref/sref.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/statements/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/statements/statements.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/stex.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/stex/assignment/assignment.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/Modparse.pm
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/README
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/TexId.pm
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/allgen
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/bms
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/checksum
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/convert-paths
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/filedate
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/gen-symdef-table.pl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/idcheck
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/msplit
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/old/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/old/defcon.l
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/old/idcheck.l
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/old/modstr.l
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/old/symdef
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/rf
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/rng2dot/ModelRNC.pm
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/rng2dot/rng2dot
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/sgraph
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/sms
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/termin
+%%PORTSRC%%share/texmf-dist/source/latex/stex/cmathml/cmathml.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/cnx/cnx.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/dcm/dcm.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/mikoslides/mikoslides.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/modules/modules.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/omd/omd.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/omdoc/omdoc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/omtext/omtext.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/presentation/presentation.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/problem/problem.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/reqdoc/reqdoc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/sproof/sproof.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/sref/sref.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/statements/statements.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/ltxml2cnx.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/omdocpost.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/owl2post.xsl
+share/texmf-dist/tex/latex/stex/assignment/assignment.sty
+share/texmf-dist/tex/latex/stex/assignment/assignment.sty.ltxml
+share/texmf-dist/tex/latex/stex/cmathml/cmathml.sty
+share/texmf-dist/tex/latex/stex/cmathml/cmathml.sty.ltxml
+share/texmf-dist/tex/latex/stex/cnx/cnx.cls
+share/texmf-dist/tex/latex/stex/cnx/cnx.cls.ltxml
+share/texmf-dist/tex/latex/stex/dcm/dcm.sty
+share/texmf-dist/tex/latex/stex/dcm/dcm.sty.ltxml
+share/texmf-dist/tex/latex/stex/mikoslides/beamerthemeJacobs.sty
+share/texmf-dist/tex/latex/stex/mikoslides/cc-by-sa.eps
+share/texmf-dist/tex/latex/stex/mikoslides/cc-by-sa.png
+share/texmf-dist/tex/latex/stex/mikoslides/cc_somerights.eps
+share/texmf-dist/tex/latex/stex/mikoslides/cc_somerights.jpg
+share/texmf-dist/tex/latex/stex/mikoslides/cc_somerights.pdf
+share/texmf-dist/tex/latex/stex/mikoslides/jacobs-logo.eps
+share/texmf-dist/tex/latex/stex/mikoslides/jacobs-logo.pdf
+share/texmf-dist/tex/latex/stex/mikoslides/jacobs-logo.png
+share/texmf-dist/tex/latex/stex/mikoslides/mikoaffiliation.sty
+share/texmf-dist/tex/latex/stex/mikoslides/mikoaffiliation.sty.ltxml
+share/texmf-dist/tex/latex/stex/mikoslides/mikoslides.cls
+share/texmf-dist/tex/latex/stex/mikoslides/mikoslides.cls.ltxml
+share/texmf-dist/tex/latex/stex/mikoslides/shading-l2r.eps
+share/texmf-dist/tex/latex/stex/mikoslides/shading-l2r.png
+share/texmf-dist/tex/latex/stex/modules/modules.sty
+share/texmf-dist/tex/latex/stex/modules/modules.sty.ltxml
+share/texmf-dist/tex/latex/stex/omd/omd.sty
+share/texmf-dist/tex/latex/stex/omd/omd.sty.ltxml
+share/texmf-dist/tex/latex/stex/omdoc/omdoc.cls
+share/texmf-dist/tex/latex/stex/omdoc/omdoc.cls.ltxml
+share/texmf-dist/tex/latex/stex/omdoc/omdoc.sty
+share/texmf-dist/tex/latex/stex/omdoc/omdoc.sty.ltxml
+share/texmf-dist/tex/latex/stex/omtext/omtext.sty
+share/texmf-dist/tex/latex/stex/omtext/omtext.sty.ltxml
+share/texmf-dist/tex/latex/stex/presentation/presentation.sty
+share/texmf-dist/tex/latex/stex/presentation/presentation.sty.ltxml
+share/texmf-dist/tex/latex/stex/problem/problem.sty
+share/texmf-dist/tex/latex/stex/problem/problem.sty.ltxml
+share/texmf-dist/tex/latex/stex/reqdoc/reqdoc.sty
+share/texmf-dist/tex/latex/stex/reqdoc/reqdoc.sty.ltxml
+share/texmf-dist/tex/latex/stex/sproof/sproof.sty
+share/texmf-dist/tex/latex/stex/sproof/sproof.sty.ltxml
+share/texmf-dist/tex/latex/stex/sref/sref.sty
+share/texmf-dist/tex/latex/stex/sref/sref.sty.ltxml
+share/texmf-dist/tex/latex/stex/statements/statements.sty
+share/texmf-dist/tex/latex/stex/statements/statements.sty.ltxml
+share/texmf-dist/tex/latex/stex/stex-logo.sty
+share/texmf-dist/tex/latex/stex/stex-logo.sty.ltxml
+share/texmf-dist/tex/latex/stex/stex.sty
+share/texmf-dist/tex/latex/stex/stex.sty.ltxml
+@dirrmtry share/texmf-dist/tex/latex/stex/statements
+@dirrmtry share/texmf-dist/tex/latex/stex/sref
+@dirrmtry share/texmf-dist/tex/latex/stex/sproof
+@dirrmtry share/texmf-dist/tex/latex/stex/reqdoc
+@dirrmtry share/texmf-dist/tex/latex/stex/problem
+@dirrmtry share/texmf-dist/tex/latex/stex/presentation
+@dirrmtry share/texmf-dist/tex/latex/stex/omtext
+@dirrmtry share/texmf-dist/tex/latex/stex/omdoc
+@dirrmtry share/texmf-dist/tex/latex/stex/omd
+@dirrmtry share/texmf-dist/tex/latex/stex/modules
+@dirrmtry share/texmf-dist/tex/latex/stex/mikoslides
+@dirrmtry share/texmf-dist/tex/latex/stex/dcm
+@dirrmtry share/texmf-dist/tex/latex/stex/cnx
+@dirrmtry share/texmf-dist/tex/latex/stex/cmathml
+@dirrmtry share/texmf-dist/tex/latex/stex/assignment
+@dirrmtry share/texmf-dist/tex/latex/stex
+@dirrmtry share/texmf-dist/source/latex/stex/xsl
+@dirrmtry share/texmf-dist/source/latex/stex/statements
+@dirrmtry share/texmf-dist/source/latex/stex/sref
+@dirrmtry share/texmf-dist/source/latex/stex/sproof
+@dirrmtry share/texmf-dist/source/latex/stex/reqdoc
+@dirrmtry share/texmf-dist/source/latex/stex/problem
+@dirrmtry share/texmf-dist/source/latex/stex/presentation
+@dirrmtry share/texmf-dist/source/latex/stex/omtext
+@dirrmtry share/texmf-dist/source/latex/stex/omdoc
+@dirrmtry share/texmf-dist/source/latex/stex/omd
+@dirrmtry share/texmf-dist/source/latex/stex/modules
+@dirrmtry share/texmf-dist/source/latex/stex/mikoslides
+@dirrmtry share/texmf-dist/source/latex/stex/dcm
+@dirrmtry share/texmf-dist/source/latex/stex/cnx
+@dirrmtry share/texmf-dist/source/latex/stex/cmathml
+@dirrmtry share/texmf-dist/source/latex/stex/bin/rng2dot
+@dirrmtry share/texmf-dist/source/latex/stex/bin/old
+@dirrmtry share/texmf-dist/source/latex/stex/bin
+@dirrmtry share/texmf-dist/source/latex/stex/assignment
+@dirrmtry share/texmf-dist/doc/latex/stex/statements
+@dirrmtry share/texmf-dist/doc/latex/stex/sref
+@dirrmtry share/texmf-dist/doc/latex/stex/sproof
+@dirrmtry share/texmf-dist/doc/latex/stex/reqdoc
+@dirrmtry share/texmf-dist/doc/latex/stex/problem
+@dirrmtry share/texmf-dist/doc/latex/stex/presentation
+@dirrmtry share/texmf-dist/doc/latex/stex/omtext
+@dirrmtry share/texmf-dist/doc/latex/stex/omdoc
+@dirrmtry share/texmf-dist/doc/latex/stex/omd
+@dirrmtry share/texmf-dist/doc/latex/stex/modules
+@dirrmtry share/texmf-dist/doc/latex/stex/mikoslides
+@dirrmtry share/texmf-dist/doc/latex/stex/example/test
+@dirrmtry share/texmf-dist/doc/latex/stex/example/paper
+@dirrmtry share/texmf-dist/doc/latex/stex/example/background
+@dirrmtry share/texmf-dist/doc/latex/stex/example
+@dirrmtry share/texmf-dist/doc/latex/stex/dcm
+@dirrmtry share/texmf-dist/doc/latex/stex/cnx
+@dirrmtry share/texmf-dist/doc/latex/stex/cmathml
+@dirrmtry share/texmf-dist/doc/latex/stex/assignment
+@dirrmtry share/texmf-dist/doc/latex/stex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

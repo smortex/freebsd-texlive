@@ -1,0 +1,3 @@
+The package provides rudimentary support for drawing Lewis
+Structures. Support is limited to elements that support the
+octet rule.

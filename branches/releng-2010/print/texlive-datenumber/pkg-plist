@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/datenumber/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/datenumber/doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/datenumber/doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/datenumber/docgerman.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/datenumber/docgerman.tex
+%%PORTSRC%%share/texmf-dist/source/latex/datenumber/datenumber.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/datenumber/datenumber.ins
+share/texmf-dist/tex/latex/datenumber/datenumber.sty
+share/texmf-dist/tex/latex/datenumber/datenumberUSenglish.ldf
+share/texmf-dist/tex/latex/datenumber/datenumberdummy.ldf
+share/texmf-dist/tex/latex/datenumber/datenumberenglish.ldf
+share/texmf-dist/tex/latex/datenumber/datenumberfrench.ldf
+share/texmf-dist/tex/latex/datenumber/datenumbergerman.ldf
+share/texmf-dist/tex/latex/datenumber/datenumberspanish.ldf
+@dirrmtry share/texmf-dist/tex/latex/datenumber
+@dirrmtry share/texmf-dist/source/latex/datenumber
+@dirrmtry share/texmf-dist/doc/latex/datenumber
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

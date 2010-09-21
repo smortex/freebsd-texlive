@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fwlw/fwlw.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fwlw/fwlw.tex
+share/texmf-dist/tex/latex/fwlw/fwlw.sty
+@dirrmtry share/texmf-dist/tex/latex/fwlw
+@dirrmtry share/texmf-dist/doc/latex/fwlw
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

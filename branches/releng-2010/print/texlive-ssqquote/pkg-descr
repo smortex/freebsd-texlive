@@ -1,0 +1,4 @@
+LaTeX package and font definition file to access the `cmssq'
+fonts, i.e. Computer Modern Sans Serif Quotation Style. The
+LaTeX package also defines a chapterquotes environment as an
+example application.

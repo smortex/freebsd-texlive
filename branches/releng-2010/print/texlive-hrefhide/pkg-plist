@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/muench/hrefhide/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/muench/hrefhide/hrefhide-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/muench/hrefhide/hrefhide-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/muench/hrefhide/hrefhide.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/muench/hrefhide/hrefhide.drv
+%%PORTSRC%%share/texmf-dist/source/latex/muench/hrefhide/hrefhide.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/muench/hrefhide/hrefhide.ins
+%%PORTSRC%%share/texmf-dist/source/latex/muench/hrefhide/ltxdoc.cfg
+share/texmf-dist/tex/latex/muench/hrefhide/hrefhide.sty
+@dirrmtry share/texmf-dist/tex/latex/muench/hrefhide
+@dirrmtry share/texmf-dist/source/latex/muench/hrefhide
+@dirrmtry share/texmf-dist/doc/latex/muench/hrefhide
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

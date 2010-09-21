@@ -1,0 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/makeindex/doc-src.zip
+%%PORTDOCS%%share/texmf-dist/doc/support/makeindex/ind-src.zip
+%%PORTDOCS%%share/texmf-dist/doc/support/makeindex/ind.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/makeindex/makeindex.pdf
+share/texmf-dist/makeindex/base/din.ist
+share/texmf-dist/makeindex/base/icase.ist
+share/texmf-dist/makeindex/base/latex.ist
+share/texmf-dist/makeindex/base/math.ist
+share/texmf-dist/makeindex/base/mkind.ist
+share/texmf-dist/makeindex/base/puncts.ist
+share/texmf-dist/makeindex/base/tex.ist
+%%PORTDOCS%%share/texmf/doc/man/man1/makeindex.1
+%%PORTDOCS%%share/texmf/doc/man/man1/makeindex.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/mkindex.1
+%%PORTDOCS%%share/texmf/doc/man/man1/mkindex.man1.pdf
+@dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf-dist/makeindex/base
+@dirrmtry share/texmf-dist/doc/support/makeindex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

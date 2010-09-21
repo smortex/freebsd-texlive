@@ -1,0 +1,4 @@
+The package records the value that was last set, for any
+counter of interest; since most such counters are simply
+incremented when they are changed, the recorded value will be
+the maximum value.

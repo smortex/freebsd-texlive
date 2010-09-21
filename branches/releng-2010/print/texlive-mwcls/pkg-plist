@@ -1,0 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/mwcls/CZYTAJ
+%%PORTDOCS%%share/texmf-dist/doc/latex/mwcls/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/latex/mwcls/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/mwcls/mwclsdoc.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/mwcls/mwcls.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mwcls/mwcls.ins
+share/texmf-dist/tex/latex/mwcls/mw10.clo
+share/texmf-dist/tex/latex/mwcls/mw11.clo
+share/texmf-dist/tex/latex/mwcls/mw12.clo
+share/texmf-dist/tex/latex/mwcls/mwart.cls
+share/texmf-dist/tex/latex/mwcls/mwbk.cls
+share/texmf-dist/tex/latex/mwcls/mwbk10.clo
+share/texmf-dist/tex/latex/mwcls/mwbk11.clo
+share/texmf-dist/tex/latex/mwcls/mwbk12.clo
+share/texmf-dist/tex/latex/mwcls/mwrep.cls
+@dirrmtry share/texmf-dist/tex/latex/mwcls
+@dirrmtry share/texmf-dist/source/latex/mwcls
+@dirrmtry share/texmf-dist/doc/latex/mwcls
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

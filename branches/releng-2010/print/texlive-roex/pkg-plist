@@ -1,0 +1,22 @@
+share/texmf-dist/metafont/roex/roex.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/roex/0roex.doc
+%%PORTSRC%%share/texmf-dist/source/metafont/roex/roexsamp/0roexsam.doc
+%%PORTSRC%%share/texmf-dist/source/metafont/roex/roexsamp/es-01.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/roex/roexsamp/es-02.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/roex/roexsamp/es-03.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/roex/roexsamp/ro-01.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/roex/roexsamp/ro-02.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/roex/roexsamp/ro-03.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/roex/roexsamp/ro-04.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/roex/roexsamp/ro-05.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/roex/roexsamp/ro-06.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/roex/roexsamp/ro-07.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/roex/roexsamp/roes-01.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/roex/roexsamp/roes-02.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/roex/roexsamp/roes-03.mf
+%%PORTSRC%%share/texmf-dist/source/metafont/roex/roexsamp/roes-04.mf
+@dirrmtry share/texmf-dist/source/metafont/roex/roexsamp
+@dirrmtry share/texmf-dist/source/metafont/roex
+@dirrmtry share/texmf-dist/metafont/roex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

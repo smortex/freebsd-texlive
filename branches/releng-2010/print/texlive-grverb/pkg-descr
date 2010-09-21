@@ -1,0 +1,4 @@
+The package provides verbatim typsetting, in the context of the
+Greek option in babel. The package uses the public domain
+Greek-CourierPlain font, and the font itself (in Type 1
+format), metrics and a font map entry for its use are provided.

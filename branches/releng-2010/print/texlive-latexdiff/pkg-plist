@@ -1,0 +1,27 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/latexdiff/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/latex/latexdiff/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/latexdiff/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/latexdiff/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/latexdiff/contrib/latexdiff-wrap
+%%PORTDOCS%%share/texmf-dist/doc/latex/latexdiff/contrib/latexdiff.spec
+%%PORTDOCS%%share/texmf-dist/doc/latex/latexdiff/example/example-draft.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/latexdiff/example/example-rev.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/latexdiff/latexdiff
+%%PORTDOCS%%share/texmf-dist/doc/latex/latexdiff/latexdiff-fast
+%%PORTDOCS%%share/texmf-dist/doc/latex/latexdiff/latexdiff-man.pdf
+share/texmf-dist/scripts/latexdiff/latexdiff-vc.pl
+share/texmf-dist/scripts/latexdiff/latexdiff.pl
+share/texmf-dist/scripts/latexdiff/latexrevise.pl
+%%PORTDOCS%%share/texmf/doc/man/man1/latexdiff-vc.1
+%%PORTDOCS%%share/texmf/doc/man/man1/latexdiff-vc.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/latexdiff.1
+%%PORTDOCS%%share/texmf/doc/man/man1/latexdiff.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/latexrevise.1
+%%PORTDOCS%%share/texmf/doc/man/man1/latexrevise.man1.pdf
+@dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf-dist/scripts/latexdiff
+@dirrmtry share/texmf-dist/doc/latex/latexdiff/example
+@dirrmtry share/texmf-dist/doc/latex/latexdiff/contrib
+@dirrmtry share/texmf-dist/doc/latex/latexdiff
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

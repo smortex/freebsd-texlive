@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/harmony/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/harmony/harmony.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/harmony/harmony.tex
+share/texmf-dist/tex/latex/harmony/harmony.sty
+@dirrmtry share/texmf-dist/tex/latex/harmony
+@dirrmtry share/texmf-dist/doc/latex/harmony
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

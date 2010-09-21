@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/metapost/bpolynomial/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/metapost/bpolynomial/README
+%%PORTDOCS%%share/texmf-dist/doc/metapost/bpolynomial/TODO
+%%PORTDOCS%%share/texmf-dist/doc/metapost/bpolynomial/bpolynomial.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/bpolynomial/bpolynomial.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/bpolynomial/examples.mp
+share/texmf-dist/metapost/bpolynomial/bpolynomial.mp
+@dirrmtry share/texmf-dist/metapost/bpolynomial
+@dirrmtry share/texmf-dist/doc/metapost/bpolynomial
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

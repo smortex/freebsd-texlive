@@ -1,0 +1,106 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/mathpazo/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/mathpazo/gpl.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/mathpazo/mapfplm.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mathpazo/mapppl.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mathpazo/mapzplm.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mathpazo/pazofnst.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mathpazo/pazotest.pdf
+share/texmf-dist/fonts/afm/public/mathpazo/fplmb.afm
+share/texmf-dist/fonts/afm/public/mathpazo/fplmbb.afm
+share/texmf-dist/fonts/afm/public/mathpazo/fplmbi.afm
+share/texmf-dist/fonts/afm/public/mathpazo/fplmr.afm
+share/texmf-dist/fonts/afm/public/mathpazo/fplmri.afm
+share/texmf-dist/fonts/tfm/public/mathpazo/fplmb.tfm
+share/texmf-dist/fonts/tfm/public/mathpazo/fplmbb.tfm
+share/texmf-dist/fonts/tfm/public/mathpazo/fplmbi.tfm
+share/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
+share/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
+share/texmf-dist/fonts/tfm/public/mathpazo/zplmb7m.tfm
+share/texmf-dist/fonts/tfm/public/mathpazo/zplmb7t.tfm
+share/texmf-dist/fonts/tfm/public/mathpazo/zplmb7y.tfm
+share/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
+share/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+share/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
+share/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
+share/texmf-dist/fonts/type1/public/mathpazo/fplmb.pfb
+share/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb
+share/texmf-dist/fonts/type1/public/mathpazo/fplmbi.pfb
+share/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb
+share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb
+share/texmf-dist/fonts/vf/public/mathpazo/zplmb7m.vf
+share/texmf-dist/fonts/vf/public/mathpazo/zplmb7t.vf
+share/texmf-dist/fonts/vf/public/mathpazo/zplmb7y.vf
+share/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
+share/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf
+share/texmf-dist/fonts/vf/public/mathpazo/zplmr7v.vf
+share/texmf-dist/fonts/vf/public/mathpazo/zplmr7y.vf
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/cmbsy10.pl
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/cmbx10.pl
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/cmex10.pl
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/cmmi10.pl
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/cmmib10.pl
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/cmr10.pl
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/cmsy10.pl
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/fplmb.inf
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/fplmb.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/fplmb.pl
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/fplmbb.inf
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/fplmbb.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/fplmbb.pl
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/fplmbi.inf
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/fplmbi.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/fplmbi.pl
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/fplmr.inf
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/fplmr.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/fplmr.pl
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/fplmri.inf
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/fplmri.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/fplmri.pl
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/haxzplmb.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/haxzplmr.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/inf/fplmb.inf
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/inf/fplmbb.inf
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/inf/fplmbi.inf
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/inf/fplmr.inf
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/inf/fplmri.inf
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/nokernum.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/omsnames.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/pazofnst/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/pazofnst/cmbsy10.pl
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/pazofnst/cmbx10.pl
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/pazofnst/cmex10.pl
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/pazofnst/cmmi10.pl
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/pazofnst/cmmib10.pl
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/pazofnst/cmr10.pl
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/pazofnst/cmsy10.pl
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/pazofnst/haxzplmb.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/pazofnst/haxzplmr.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/pazofnst/nokernum.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/pazofnst/omsnames.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/pazofnst/pazofnst.tex
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/pazofnst/unsetcm4pl.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/pazofnst/unsetint.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/pazofnst/unsetosf.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/pazofnst/unsetpl4cm.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/pazofnst/unsetpunct.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/pazofnst/zplmbgop.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/pazofnst/zplmsum.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/pplr8a.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/unsetcm4pl.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/unsetint.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/unsetosf.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/unsetpl4cm.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/unsetpunct.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/zplmbgop.mtx
+%%PORTSRC%%share/texmf-dist/source/latex/mathpazo/zplmsum.mtx
+@dirrmtry share/texmf-dist/source/latex/mathpazo/pazofnst
+@dirrmtry share/texmf-dist/source/latex/mathpazo/inf
+@dirrmtry share/texmf-dist/source/latex/mathpazo
+@dirrmtry share/texmf-dist/fonts/vf/public/mathpazo
+@dirrmtry share/texmf-dist/fonts/type1/public/mathpazo
+@dirrmtry share/texmf-dist/fonts/tfm/public/mathpazo
+@dirrmtry share/texmf-dist/fonts/afm/public/mathpazo
+@dirrmtry share/texmf-dist/doc/latex/mathpazo
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

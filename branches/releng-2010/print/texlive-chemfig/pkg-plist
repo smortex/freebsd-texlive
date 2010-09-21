@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemfig/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemfig/chemfig_doc_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemfig/chemfig_doc_en.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemfig/chemfig_doc_fr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemfig/chemfig_doc_fr.tex
+share/texmf-dist/tex/latex/chemfig/chemfig.sty
+@dirrmtry share/texmf-dist/tex/latex/chemfig
+@dirrmtry share/texmf-dist/doc/latex/chemfig
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

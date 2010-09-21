@@ -1,0 +1,5 @@
+Adds two user commands to standard PiCTeX. One command uses
+relative coordinates, thus eliminating the need to calculate
+the coordinate of every point manually as in standard PiCTeX.
+The other command modifies \plot to use a rule instead of dots
+if the line segment is horizontal or vertical.

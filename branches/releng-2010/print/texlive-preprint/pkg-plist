@@ -1,0 +1,32 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/preprint/00readme.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/preprint/00readme.unix
+%%PORTDOCS%%share/texmf-dist/doc/latex/preprint/authblk.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/preprint/balance.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/preprint/figcaps.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/preprint/fullpage.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/preprint/sublabel.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/preprint/authblk.drv
+%%PORTSRC%%share/texmf-dist/source/latex/preprint/authblk.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/preprint/authblk.ins
+%%PORTSRC%%share/texmf-dist/source/latex/preprint/balance.drv
+%%PORTSRC%%share/texmf-dist/source/latex/preprint/balance.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/preprint/balance.ins
+%%PORTSRC%%share/texmf-dist/source/latex/preprint/figcaps.drv
+%%PORTSRC%%share/texmf-dist/source/latex/preprint/figcaps.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/preprint/figcaps.ins
+%%PORTSRC%%share/texmf-dist/source/latex/preprint/fullpage.drv
+%%PORTSRC%%share/texmf-dist/source/latex/preprint/fullpage.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/preprint/fullpage.ins
+%%PORTSRC%%share/texmf-dist/source/latex/preprint/sublabel.drv
+%%PORTSRC%%share/texmf-dist/source/latex/preprint/sublabel.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/preprint/sublabel.ins
+share/texmf-dist/tex/latex/preprint/authblk.sty
+share/texmf-dist/tex/latex/preprint/balance.sty
+share/texmf-dist/tex/latex/preprint/figcaps.sty
+share/texmf-dist/tex/latex/preprint/fullpage.sty
+share/texmf-dist/tex/latex/preprint/sublabel.sty
+@dirrmtry share/texmf-dist/tex/latex/preprint
+@dirrmtry share/texmf-dist/source/latex/preprint
+@dirrmtry share/texmf-dist/doc/latex/preprint
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

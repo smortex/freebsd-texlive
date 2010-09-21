@@ -1,0 +1,5 @@
+The package contains macros which allow authors to easily
+customise how cross-references appear in their document, both
+in general (across all cross-references) and for particular
+types of references (identified by a prefix in the reference
+label), in a very generic manner.

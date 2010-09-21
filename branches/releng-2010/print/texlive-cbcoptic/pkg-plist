@@ -1,0 +1,21 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cbcoptic/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/cbcoptic/coptfont.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cbcoptic/testcop.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cbcoptic/testcopOK.pdf
+share/texmf-dist/fonts/source/public/cbcoptic/coptbase.mf
+share/texmf-dist/fonts/source/public/cbcoptic/copti.mf
+share/texmf-dist/fonts/source/public/cbcoptic/copto.mf
+share/texmf-dist/fonts/tfm/public/cbcoptic/copti.tfm
+share/texmf-dist/fonts/tfm/public/cbcoptic/copto.tfm
+share/texmf-dist/fonts/type1/public/cbcoptic/copti.pfb
+share/texmf-dist/fonts/type1/public/cbcoptic/copto.pfb
+share/texmf-dist/tex/latex/cbcoptic/coptic.sty
+share/texmf-dist/tex/latex/cbcoptic/lcopcoptic.fd
+share/texmf-dist/tex/latex/cbcoptic/prnthyph.sty
+@dirrmtry share/texmf-dist/tex/latex/cbcoptic
+@dirrmtry share/texmf-dist/fonts/type1/public/cbcoptic
+@dirrmtry share/texmf-dist/fonts/tfm/public/cbcoptic
+@dirrmtry share/texmf-dist/fonts/source/public/cbcoptic
+@dirrmtry share/texmf-dist/doc/latex/cbcoptic
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,20 @@
+share/texmf-dist/fonts/tfm/cg/albertus/ale10u.tfm
+share/texmf-dist/fonts/tfm/cg/albertus/ale6j.tfm
+share/texmf-dist/fonts/tfm/cg/albertus/ale7j.tfm
+share/texmf-dist/fonts/tfm/cg/albertus/ale8u.tfm
+share/texmf-dist/fonts/tfm/cg/albertus/alr10u.tfm
+share/texmf-dist/fonts/tfm/cg/albertus/alr6j.tfm
+share/texmf-dist/fonts/tfm/cg/albertus/alr7j.tfm
+share/texmf-dist/fonts/tfm/cg/albertus/alr8u.tfm
+share/texmf-dist/fonts/tfm/cg/albertus/cal8tx.tfm
+share/texmf-dist/fonts/tfm/cg/albertus/calm.tfm
+share/texmf-dist/fonts/tfm/cg/albertus/calm8t.tfm
+share/texmf-dist/fonts/tfm/cg/albertus/calx.tfm
+share/texmf-dist/fonts/vf/cg/albertus/cal8tx.vf
+share/texmf-dist/fonts/vf/cg/albertus/calm.vf
+share/texmf-dist/fonts/vf/cg/albertus/calm8t.vf
+share/texmf-dist/fonts/vf/cg/albertus/calx.vf
+@dirrmtry share/texmf-dist/fonts/vf/cg/albertus
+@dirrmtry share/texmf-dist/fonts/tfm/cg/albertus
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

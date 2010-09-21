@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/midpage/midpage.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/midpage/midpage.tex
+share/texmf-dist/tex/latex/midpage/midpage.sty
+@dirrmtry share/texmf-dist/tex/latex/midpage
+@dirrmtry share/texmf-dist/doc/latex/midpage
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

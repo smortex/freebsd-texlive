@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/totpages/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/totpages/totexmpl.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/totpages/totpages.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/totpages/totpages.drv
+%%PORTSRC%%share/texmf-dist/source/latex/totpages/totpages.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/totpages/totpages.ins
+share/texmf-dist/tex/latex/totpages/totpages.sty
+@dirrmtry share/texmf-dist/tex/latex/totpages
+@dirrmtry share/texmf-dist/source/latex/totpages
+@dirrmtry share/texmf-dist/doc/latex/totpages
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

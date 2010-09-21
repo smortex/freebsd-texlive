@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/calligra/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/calligra/testfont.pdf
+share/texmf-dist/fonts/source/public/calligra/callig15.mf
+share/texmf-dist/fonts/source/public/calligra/calligra.mf
+share/texmf-dist/fonts/tfm/public/calligra/callig15.tfm
+@dirrmtry share/texmf-dist/fonts/tfm/public/calligra
+@dirrmtry share/texmf-dist/fonts/source/public/calligra
+@dirrmtry share/texmf-dist/doc/latex/calligra
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

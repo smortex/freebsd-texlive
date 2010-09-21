@@ -1,0 +1,44 @@
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/README
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/cube10.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/cube4-eng.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/cube5.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/cube6.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/cube7.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/cube8.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/cube9.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/gutmp1-eng.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/gutmp1.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/gutmp2-eng.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/gutmp2.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/gutmp3-eng.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/gutmp3.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/gutmp4-eng.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/gutmp4.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/gutmp5-eng.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/gutmp5.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/gutmp6-eng.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/gutmp6.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/gutmp7-eng.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/gutmp7.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/gutmp8-eng.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/gutmp8.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/gutmp9.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/monge-eng.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/examples/monge.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/gut2001.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/paper1997corrected.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/tb57roeg.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/tb57roegel.ltx
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mp3d/tugboat-geometry-space.pdf
+share/texmf-dist/metapost/mp3d/3d.mp
+share/texmf-dist/metapost/mp3d/3danim.mp
+share/texmf-dist/metapost/mp3d/3dgeom.mp
+share/texmf-dist/metapost/mp3d/3dpoly.mp
+share/texmf-dist/metapost/mp3d/3dutil.mp
+share/texmf-dist/metapost/mp3d/animpoly.mp
+share/texmf-dist/metapost/mp3d/create_animation.sh
+@dirrmtry share/texmf-dist/metapost/mp3d
+@dirrmtry share/texmf-dist/doc/metapost/mp3d/examples
+@dirrmtry share/texmf-dist/doc/metapost/mp3d
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

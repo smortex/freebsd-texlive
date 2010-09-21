@@ -1,0 +1,37 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/othello/boards.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/othello/ot.bat
+%%PORTDOCS%%share/texmf-dist/doc/latex/othello/ot1.bat.bat
+%%PORTDOCS%%share/texmf-dist/doc/latex/othello/othello.tex
+share/texmf-dist/fonts/source/public/othello/ot.mf
+share/texmf-dist/fonts/source/public/othello/ot10.mf
+share/texmf-dist/fonts/source/public/othello/ot15.mf
+share/texmf-dist/fonts/source/public/othello/ot1bla10.mf
+share/texmf-dist/fonts/source/public/othello/ot1bla15.mf
+share/texmf-dist/fonts/source/public/othello/ot1bla20.mf
+share/texmf-dist/fonts/source/public/othello/ot1black.mf
+share/texmf-dist/fonts/source/public/othello/ot1neu.mf
+share/texmf-dist/fonts/source/public/othello/ot1neu10.mf
+share/texmf-dist/fonts/source/public/othello/ot1neu15.mf
+share/texmf-dist/fonts/source/public/othello/ot1neu20.mf
+share/texmf-dist/fonts/source/public/othello/ot1whi10.mf
+share/texmf-dist/fonts/source/public/othello/ot1whi15.mf
+share/texmf-dist/fonts/source/public/othello/ot1whi20.mf
+share/texmf-dist/fonts/source/public/othello/ot1white.mf
+share/texmf-dist/fonts/tfm/public/othello/ot10.tfm
+share/texmf-dist/fonts/tfm/public/othello/ot15.tfm
+share/texmf-dist/fonts/tfm/public/othello/ot1bla10.tfm
+share/texmf-dist/fonts/tfm/public/othello/ot1bla15.tfm
+share/texmf-dist/fonts/tfm/public/othello/ot1bla20.tfm
+share/texmf-dist/fonts/tfm/public/othello/ot1neu10.tfm
+share/texmf-dist/fonts/tfm/public/othello/ot1neu15.tfm
+share/texmf-dist/fonts/tfm/public/othello/ot1neu20.tfm
+share/texmf-dist/fonts/tfm/public/othello/ot1whi10.tfm
+share/texmf-dist/fonts/tfm/public/othello/ot1whi15.tfm
+share/texmf-dist/fonts/tfm/public/othello/ot1whi20.tfm
+share/texmf-dist/tex/latex/othello/othello.sty
+@dirrmtry share/texmf-dist/tex/latex/othello
+@dirrmtry share/texmf-dist/fonts/tfm/public/othello
+@dirrmtry share/texmf-dist/fonts/source/public/othello
+@dirrmtry share/texmf-dist/doc/latex/othello
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/metre/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/metre/demo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/metre/demo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/metre/greek1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/metre/greek2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/metre/greek3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/metre/igreek1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/metre/igreek2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/metre/igreek3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/metre/metre.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/metre/metre.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/metre/metre.ins
+share/texmf-dist/tex/latex/metre/metre.sty
+@dirrmtry share/texmf-dist/tex/latex/metre
+@dirrmtry share/texmf-dist/source/latex/metre
+@dirrmtry share/texmf-dist/doc/latex/metre
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

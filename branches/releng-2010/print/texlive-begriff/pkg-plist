@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/begriff/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/begriff/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/begriff/examples.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/begriff/examples.tex
+share/texmf-dist/tex/latex/begriff/begriff.sty
+@dirrmtry share/texmf-dist/tex/latex/begriff
+@dirrmtry share/texmf-dist/doc/latex/begriff
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

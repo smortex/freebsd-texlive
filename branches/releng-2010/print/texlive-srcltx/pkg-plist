@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/srcltx/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/srcltx/srcltx.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/srcltx/srcltx.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/srcltx/srcltx.ins
+share/texmf-dist/tex/latex/srcltx/srcltx.sty
+share/texmf-dist/tex/latex/srcltx/srctex.sty
+@dirrmtry share/texmf-dist/tex/latex/srcltx
+@dirrmtry share/texmf-dist/source/latex/srcltx
+@dirrmtry share/texmf-dist/doc/latex/srcltx
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

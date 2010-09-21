@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/wasysym/wasysym.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/wasysym/wasysym.upl
+%%PORTDOCS%%share/texmf-dist/doc/latex/wasysym/wasysym.xml
+%%PORTSRC%%share/texmf-dist/source/latex/wasysym/wasysym.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/wasysym/wasysym.ins
+share/texmf-dist/tex/latex/wasysym/uwasy.fd
+share/texmf-dist/tex/latex/wasysym/uwasyvar.fd
+share/texmf-dist/tex/latex/wasysym/wasysym.sty
+@dirrmtry share/texmf-dist/tex/latex/wasysym
+@dirrmtry share/texmf-dist/source/latex/wasysym
+@dirrmtry share/texmf-dist/doc/latex/wasysym
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
