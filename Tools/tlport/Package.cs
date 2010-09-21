@@ -133,7 +133,12 @@ namespace TeXLive
 		/// </summary>
 		public void UpdatePort ()
 		{
-			CreateDistinfo ();
+			if (!CreateDistinfo ()) {
+				// Should never fail (we already have distfiles): the port was removed!
+				DeletePort ();
+				return;
+			}
+			
 			if (LocalyModified) {
 				CreateMakefile ();
 				CreatePkgPlist ();
@@ -263,8 +268,9 @@ namespace TeXLive
 		/// <summary>
 		/// Rely on port(1) to fetch the source tarball and build distinfo
 		/// </summary>
-		private void CreateDistinfo()
+		private bool CreateDistinfo()
 		{
+			bool result;
 			Process p = new Process();
 			ProcessStartInfo psi = new ProcessStartInfo("port", "fetch");
 			psi.UseShellExecute = true;
@@ -272,7 +278,9 @@ namespace TeXLive
 			p.StartInfo = psi;
 			p.Start();
 			p.WaitForExit();
+			result = p.ExitCode == 0;
 			p.Dispose ();
+			return result;
 		}
 		
 		/// <summary>
@@ -290,6 +298,40 @@ namespace TeXLive
 				psi.UseShellExecute = true;
 			}
 			psi.WorkingDirectory = PortDirectory;
+			p.StartInfo = psi;
+			p.Start ();
+			p.WaitForExit ();
+			p.Dispose ();
+		}
+		
+		/// <summary>
+		/// Remove the ports from the repository
+		/// </summary>
+		private void DeletePort ()
+		{
+			// Add a line to the MOVED file
+			string mf = System.IO.Path.Combine (PortDirectory,
+			              System.IO.Path.Combine ("..",
+			                System.IO.Path.Combine ("..", "MOVED")));
+			
+			System.IO.StreamWriter m = new System.IO.StreamWriter (mf, true);
+			m.WriteLine (string.Format ("print/texlive-{0}||{1:YYYY}-{2:MM}-{3:dd}|Upstream support dropped", Name,
+			                            DateTime.UtcNow.Year,
+			                            DateTime.UtcNow.Month,
+			                            DateTime.UtcNow.Day));
+			m.Close();
+			
+			// Remove the port from the repository
+			Process p = new Process ();
+			ProcessStartInfo psi = new ProcessStartInfo ("svn", string.Format ("delet %s", PortDirectory));
+			psi.UseShellExecute = true;
+			if (TLPort.Verbosity < 2) {
+				psi.RedirectStandardOutput = true;
+				psi.RedirectStandardError = true;
+				psi.UseShellExecute = false;
+			} else {
+				psi.UseShellExecute = true;
+			}
 			p.StartInfo = psi;
 			p.Start ();
 			p.WaitForExit ();
