@@ -40,6 +40,7 @@ share/texmf-dist/fonts/truetype/public/gnu-freefont/FreeSerifItalic.ttf
 %%PORTSRC%%share/texmf-dist/source/fonts/gnu-freefont/FreeSerifBold.sfd
 %%PORTSRC%%share/texmf-dist/source/fonts/gnu-freefont/FreeSerifBoldItalic.sfd
 %%PORTSRC%%share/texmf-dist/source/fonts/gnu-freefont/FreeSerifItalic.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/gnu-freefont/Malayalam.sfd
 @dirrmtry share/texmf-dist/source/fonts/gnu-freefont
 @dirrmtry share/texmf-dist/fonts/truetype/public/gnu-freefont
 @dirrmtry share/texmf-dist/fonts/opentype/public/gnu-freefont

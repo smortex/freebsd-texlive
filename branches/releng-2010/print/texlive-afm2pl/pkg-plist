@@ -16,8 +16,6 @@ share/texmf/tex/fontinst/afm2pl/README
 share/texmf/tex/fontinst/afm2pl/ly1.etx
 share/texmf/tex/fontinst/afm2pl/ly1c.etx
 share/texmf/tex/fontinst/afm2pl/makesc8y.tex
-share/texmf/tex/latex/afm2pl/uclcptm.sty
-@dirrmtry share/texmf/tex/latex/afm2pl
 @dirrmtry share/texmf/tex/fontinst/afm2pl
 @dirrmtry share/texmf/fonts/lig/afm2pl
 @dirrmtry share/texmf/fonts/enc/dvips/afm2pl

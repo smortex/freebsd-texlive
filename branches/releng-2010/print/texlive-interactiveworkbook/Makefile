@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	interactiveworkbook
-PORTVERSION=	20100921
+PORTVERSION=	20100922
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
