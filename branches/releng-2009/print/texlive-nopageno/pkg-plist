@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/nopageno/nopageno.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/nopageno/nopageno.tex
-share/texmf-dist/tex/latex/nopageno/nopageno.sty
-@dirrmtry share/texmf-dist/tex/latex/nopageno
-@dirrmtry share/texmf-dist/doc/latex/nopageno
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

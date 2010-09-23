@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/susy/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/susy/README.TEXLIVE
-share/texmf-dist/tex/latex/susy/susy.sty
-@dirrmtry share/texmf-dist/tex/latex/susy
-@dirrmtry share/texmf-dist/doc/latex/susy
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

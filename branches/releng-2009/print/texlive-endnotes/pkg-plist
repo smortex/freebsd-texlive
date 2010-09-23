@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/endnotes/endnotes.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/endnotes/endnotes.tex
-share/texmf-dist/tex/latex/endnotes/endnotes.sty
-@dirrmtry share/texmf-dist/tex/latex/endnotes
-@dirrmtry share/texmf-dist/doc/latex/endnotes
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

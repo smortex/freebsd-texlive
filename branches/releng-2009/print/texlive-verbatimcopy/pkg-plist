@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/verbatimcopy/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/verbatimcopy/verbatimcopy.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/verbatimcopy/verbatimcopy.tex
-share/texmf-dist/tex/latex/verbatimcopy/verbatimcopy.sty
-@dirrmtry share/texmf-dist/tex/latex/verbatimcopy
-@dirrmtry share/texmf-dist/doc/latex/verbatimcopy
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

@@ -1,5 +1,0 @@
-Petri-nets is a set of TeX/LaTeX packages about Petri nets and
-related models. Three packages are available: - the first
-allows the user to draw Petri-nets in PostScript documents; -
-the second defines macros related to PBC, M-nets and B(PN)
-models; and - the last gathers together the previous two.

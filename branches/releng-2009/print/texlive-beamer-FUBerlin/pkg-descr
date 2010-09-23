@@ -1,7 +1,0 @@
-The bundle provides a beamer-derived class and a theme style
-file for the corporate design of the Free University in Berlin.
-Users may use the class itself (FUbeamer) or use the theme in
-the usual way with \usetheme{BerlinFU}. Examples of using both
-the class and the theme are provided; the PDF is visually
-identical, so the catalogue only lists one; the sources of the
-examples do of course differ.

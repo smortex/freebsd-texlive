@@ -1,4 +1,0 @@
-share/texmf-dist/dvips/colorsep/colorsep.pro
-@dirrmtry share/texmf-dist/dvips/colorsep
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

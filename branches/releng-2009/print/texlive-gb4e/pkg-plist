@@ -1,9 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/gb4e/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/gb4e/gb4e-doc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/gb4e/gb4e-doc.tex
-share/texmf-dist/tex/latex/gb4e/cgloss4e.sty
-share/texmf-dist/tex/latex/gb4e/gb4e.sty
-@dirrmtry share/texmf-dist/tex/latex/gb4e
-@dirrmtry share/texmf-dist/doc/latex/gb4e
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/varsfromjobname/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/varsfromjobname/varsfromjobname.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/varsfromjobname/varsfromjobname.tex
-share/texmf-dist/tex/latex/varsfromjobname/varsfromjobname.sty
-@dirrmtry share/texmf-dist/tex/latex/varsfromjobname
-@dirrmtry share/texmf-dist/doc/latex/varsfromjobname
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

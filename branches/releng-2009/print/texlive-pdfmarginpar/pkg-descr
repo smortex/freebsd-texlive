@@ -1,8 +1,0 @@
-The package provides the \pdfmarginpar command which is similar
-in spirit to \marginpar. However, it creates PDF annotations
-which can be viewed with Adobe Reader in place of text marginal
-texts. Small icons indicate the in-text position where the
-message originates, popups provide the messages themselves.
-Thus bugfixes and other such communication are clearly visible
-together with its text source, while the document itself is not
-obscured.

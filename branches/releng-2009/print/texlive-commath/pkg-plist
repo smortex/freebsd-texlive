@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/commath/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/commath/commath.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/commath/commath.tex
-share/texmf-dist/tex/latex/commath/commath.sty
-@dirrmtry share/texmf-dist/tex/latex/commath
-@dirrmtry share/texmf-dist/doc/latex/commath
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

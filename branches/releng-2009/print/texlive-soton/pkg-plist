@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/soton/README
-share/texmf-dist/tex/latex/soton/soton-beamer.sty
-share/texmf-dist/tex/latex/soton/soton-palette.sty
-@dirrmtry share/texmf-dist/tex/latex/soton
-@dirrmtry share/texmf-dist/doc/latex/soton
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

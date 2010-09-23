@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/lewis/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/lewis/lewis.pdf
-share/texmf-dist/tex/latex/lewis/lewis.sty
-@dirrmtry share/texmf-dist/tex/latex/lewis
-@dirrmtry share/texmf-dist/doc/latex/lewis
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

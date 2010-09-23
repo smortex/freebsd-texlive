@@ -1,9 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/sgame/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/sgame/sgame.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/sgame/sgame.tex
-share/texmf-dist/tex/latex/sgame/sgame.sty
-share/texmf-dist/tex/latex/sgame/sgamevar.sty
-@dirrmtry share/texmf-dist/tex/latex/sgame
-@dirrmtry share/texmf-dist/doc/latex/sgame
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

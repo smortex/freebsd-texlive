@@ -1,5 +1,0 @@
-%%PORTDOCS%%share/texmf/doc/man/man1/texdirflatten.1
-%%PORTDOCS%%share/texmf/doc/man/man1/texdirflatten.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

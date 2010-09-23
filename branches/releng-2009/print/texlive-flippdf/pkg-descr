@@ -1,5 +1,0 @@
-The package allows the production of a document with pages
-"mirrored". This is sometimes required by publishers who want
-camera-ready documents to be printed on transparent film (to be
-viewed from the "wrong" side). The package requires everypage,
-and only works with pdfLaTeX in PDF mode.

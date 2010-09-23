@@ -1,4 +1,0 @@
-share/texmf-dist/tex/latex/setspace/setspace.sty
-@dirrmtry share/texmf-dist/tex/latex/setspace
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

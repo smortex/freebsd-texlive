@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/concprog/program.dvi
-%%PORTDOCS%%share/texmf-dist/doc/latex/concprog/program.tex
-share/texmf-dist/tex/latex/concprog/ConcProg.cls
-@dirrmtry share/texmf-dist/tex/latex/concprog
-@dirrmtry share/texmf-dist/doc/latex/concprog
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

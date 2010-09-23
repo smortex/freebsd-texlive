@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/dpfloat/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/dpfloat/dpfloat.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/dpfloat/dpfloat.tex
-share/texmf-dist/tex/latex/dpfloat/dpfloat.sty
-@dirrmtry share/texmf-dist/tex/latex/dpfloat
-@dirrmtry share/texmf-dist/doc/latex/dpfloat
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

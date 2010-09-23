@@ -1,6 +1,0 @@
-Basic utitility programs, comprising: - dvitype, which converts
-a TeX output (DVI) file to a plain text file (see also the DVI
-Text Language suite); - pooltype, which converts a TeX-suite
-program's "pool" (string) file into human-readable form; and -
-tftopl and pltotf, which convert TeX Font Metric (TFM) file to
-human readable Property List (PL) files and vice versa.

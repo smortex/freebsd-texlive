@@ -1,6 +1,0 @@
-The dot2texi package allows you to embed graphs in the DOT
-graph description language in your LaTeX documents. The dot2tex
-tool is used to invoke Graphviz for graph layout, and to
-transform the output from Graphviz to LaTeX code. The generated
-code relies on the TikZ and PGF package or the PSTricks
-package. The process is automated if shell escape is enabled.

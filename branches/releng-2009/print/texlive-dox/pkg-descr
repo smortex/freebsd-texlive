@@ -1,6 +1,0 @@
-The doc package provides LaTeX developers with means to
-describe the usage and the definition of new macros and
-environments. However, there is no simple way to extend this
-functionality to other items (options or counters, for
-instance). The DoX package is designed to circumvent this
-limitation.

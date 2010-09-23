@@ -1,4 +1,0 @@
-share/texmf-dist/tex/latex/upquote/upquote.sty
-@dirrmtry share/texmf-dist/tex/latex/upquote
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

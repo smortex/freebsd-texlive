@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/extarrows/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/extarrows/extarrows-test.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/extarrows/extarrows-test.tex
-share/texmf-dist/tex/latex/extarrows/extarrows.sty
-@dirrmtry share/texmf-dist/tex/latex/extarrows
-@dirrmtry share/texmf-dist/doc/latex/extarrows
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

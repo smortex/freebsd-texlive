@@ -1,5 +1,0 @@
-In Stochastic Geometry and Digital Image Analysis some problems
-can be solved in terms of so-called "configurations". A
-configuration is basically a square matrix of \circ and \bullet
-symbols. This package provides a convenient and compact
-mechanism for displaying these configurations.

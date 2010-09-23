@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/blkarray/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/blkarray/blkarray.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/blkarray/blkarray.tex
-share/texmf-dist/tex/latex/blkarray/blkarray.sty
-@dirrmtry share/texmf-dist/tex/latex/blkarray
-@dirrmtry share/texmf-dist/doc/latex/blkarray
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

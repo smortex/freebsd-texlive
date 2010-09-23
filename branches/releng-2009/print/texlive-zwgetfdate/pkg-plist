@@ -1,9 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/zwgetfdate/License.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/zwgetfdate/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/zwgetfdate/zwgetfdate.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/zwgetfdate/zwgetfdate.tex
-share/texmf-dist/tex/latex/zwgetfdate/zwgetfdate.sty
-@dirrmtry share/texmf-dist/tex/latex/zwgetfdate
-@dirrmtry share/texmf-dist/doc/latex/zwgetfdate
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

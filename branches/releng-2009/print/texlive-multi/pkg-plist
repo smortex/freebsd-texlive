@@ -1,6 +1,0 @@
-share/texmf-dist/dvips/multi/2up.pro
-share/texmf-dist/dvips/multi/4up.pro
-share/texmf-dist/dvips/multi/multi.pro
-@dirrmtry share/texmf-dist/dvips/multi
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

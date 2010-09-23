@@ -1,9 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/pagerange/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/pagerange/pagerange-guide.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pagerange/pagerange-guide.tex
-share/texmf-dist/tex/latex/pagerange/pagerange-guide.cfg
-share/texmf-dist/tex/latex/pagerange/pagerange.sty
-@dirrmtry share/texmf-dist/tex/latex/pagerange
-@dirrmtry share/texmf-dist/doc/latex/pagerange
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

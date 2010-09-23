@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/sdrt/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/sdrt/sdrt-doc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/sdrt/sdrt-doc.tex
-share/texmf-dist/tex/latex/sdrt/sdrt.sty
-@dirrmtry share/texmf-dist/tex/latex/sdrt
-@dirrmtry share/texmf-dist/doc/latex/sdrt
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

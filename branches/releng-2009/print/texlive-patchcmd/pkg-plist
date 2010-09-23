@@ -1,9 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/patchcmd/patchcmd.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/patchcmd/patchcmd.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/patchcmd/patchcmd.ins
-share/texmf-dist/tex/latex/patchcmd/patchcmd.sty
-@dirrmtry share/texmf-dist/tex/latex/patchcmd
-@dirrmtry share/texmf-dist/source/latex/patchcmd
-@dirrmtry share/texmf-dist/doc/latex/patchcmd
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

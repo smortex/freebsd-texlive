@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/theoremref/COPYING
-%%PORTDOCS%%share/texmf-dist/doc/latex/theoremref/README
-share/texmf-dist/tex/latex/theoremref/theoremref.sty
-@dirrmtry share/texmf-dist/tex/latex/theoremref
-@dirrmtry share/texmf-dist/doc/latex/theoremref
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

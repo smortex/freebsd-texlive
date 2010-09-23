@@ -1,5 +1,0 @@
-share/texmf/doc/man/man1/dvidvi.1
-share/texmf/doc/man/man1/dvidvi.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

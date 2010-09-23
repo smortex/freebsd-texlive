@@ -1,6 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/generic/abbr/README
-share/texmf-dist/tex/generic/abbr/abbr.tex
-@dirrmtry share/texmf-dist/tex/generic/abbr
-@dirrmtry share/texmf-dist/doc/generic/abbr
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

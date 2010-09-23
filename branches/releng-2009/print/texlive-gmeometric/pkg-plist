@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/gmeometric/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/gmeometric/gmeometric.pdf
-share/texmf-dist/tex/latex/gmeometric/gmeometric.sty
-@dirrmtry share/texmf-dist/tex/latex/gmeometric
-@dirrmtry share/texmf-dist/doc/latex/gmeometric
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

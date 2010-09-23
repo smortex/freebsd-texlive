@@ -1,9 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/zed-csp/csp2e.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/zed-csp/csp2e.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/zed-csp/zed2e.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/zed-csp/zed2e.tex
-share/texmf-dist/tex/latex/zed-csp/zed-csp.sty
-@dirrmtry share/texmf-dist/tex/latex/zed-csp
-@dirrmtry share/texmf-dist/doc/latex/zed-csp
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

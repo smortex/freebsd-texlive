@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/notoccite/notoccite.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/notoccite/notoccite.tex
-share/texmf-dist/tex/latex/notoccite/notoccite.sty
-@dirrmtry share/texmf-dist/tex/latex/notoccite
-@dirrmtry share/texmf-dist/doc/latex/notoccite
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

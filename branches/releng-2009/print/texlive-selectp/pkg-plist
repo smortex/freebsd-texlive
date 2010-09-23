@@ -1,4 +1,0 @@
-share/texmf-dist/tex/latex/selectp/selectp.sty
-@dirrmtry share/texmf-dist/tex/latex/selectp
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

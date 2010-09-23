@@ -1,4 +1,0 @@
-This package provides some enhancements for the gmdoc package:
-nicer formatting for multiple line inline comments, an ability
-to "comment out" some code, and a macro to input other files in
-"normal" LaTeX mode.

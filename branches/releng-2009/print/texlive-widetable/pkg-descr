@@ -1,6 +1,0 @@
-The package defines a new environment that, unlike tabularX,
-typesets a table of specified width by working on the inter-
-column glue; the tabular cells will all be stretched (or
-shrunk) according to need. The package will use the e-TeX
-arithmetic extensions if they are available (they are, in most
-modern distributions).

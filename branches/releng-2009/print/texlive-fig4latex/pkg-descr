@@ -1,5 +1,0 @@
-Fig4LaTeX simplifies management of the figures in a large LaTeX
-document. Fig4LaTeX is appropriate for projects that include
-figures with graphics created by XFig -- in particular,
-graphics which use the combined PS/LaTeX (or PDF/LaTeX) export
-method. An example document (with its output) is provided.

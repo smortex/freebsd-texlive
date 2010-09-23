@@ -1,5 +1,0 @@
-Frans Velthuis' preprocessor for Devanagari text, and fonts and
-macros to use when typesetting the processed text. The macros
-provide features that support Sanskrit, Hindi, Marathi, Nepali,
-and other languages typically printed in the Devanagari script.
-The fonts are available both in Metafont and Type 1 format.

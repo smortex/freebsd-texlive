@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/generic/fenixpar/README
-share/texmf-dist/tex/generic/fenixpar/fenixpar.sty
-share/texmf-dist/tex/generic/fenixpar/fenixtok.sty
-@dirrmtry share/texmf-dist/tex/generic/fenixpar
-@dirrmtry share/texmf-dist/doc/generic/fenixpar
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

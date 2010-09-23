@@ -1,3 +1,0 @@
-The package provides a map for use with Jonathan Kew's TECkit,
-to translate Devanagari (encoded according to the Harvard/Kyoto
-convention) to Unicode (range 0900-097F).

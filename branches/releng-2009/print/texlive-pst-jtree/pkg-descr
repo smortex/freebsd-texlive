@@ -1,4 +1,0 @@
-jTree uses PStricks to enable linguists to typeset complex
-trees. The package requires use of PStricks (of course) and
-xkeyval packages. jTree is a development of, and replacement
-for, the jftree package, which is no longer available.

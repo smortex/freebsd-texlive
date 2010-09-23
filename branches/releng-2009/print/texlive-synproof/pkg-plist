@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/synproof/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/synproof/synproof-doc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/synproof/synproof-doc.tex
-share/texmf-dist/tex/latex/synproof/synproof.sty
-@dirrmtry share/texmf-dist/tex/latex/synproof
-@dirrmtry share/texmf-dist/doc/latex/synproof
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

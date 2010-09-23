@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/muthesis/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/muthesis/muthesis.tar.gz
-share/texmf-dist/tex/latex/muthesis/muthesis.cls
-share/texmf-dist/tex/latex/muthesis/third-rep.cls
-@dirrmtry share/texmf-dist/tex/latex/muthesis
-@dirrmtry share/texmf-dist/doc/latex/muthesis
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

@@ -1,9 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/hvindex/Changes
-%%PORTDOCS%%share/texmf-dist/doc/latex/hvindex/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/hvindex/hvindex.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/hvindex/hvindex.tex
-share/texmf-dist/tex/latex/hvindex/hvindex.sty
-@dirrmtry share/texmf-dist/tex/latex/hvindex
-@dirrmtry share/texmf-dist/doc/latex/hvindex
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

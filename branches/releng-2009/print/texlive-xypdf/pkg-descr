@@ -1,6 +1,0 @@
-The package improves the output quality of the Xy-pic package
-when PDF documents are generated. It produces generic PDF code
-for graphical elements like lines, curves and circles instead
-of approximating these elements with glyphs in special fonts as
-the original Xy-pic package does. The xypdf package works both
-with pdfLaTeX and with compilation using LaTeX and dvipdfmx.

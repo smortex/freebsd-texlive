@@ -1,5 +1,0 @@
-These macros allows you to combine the power of the graphical
-front-end of Scientific Word/Scientific WorkPlace (SW/SWP) with
-one's own favourite TeX compiler (for example, MiKTeX).
-Currently includes support for Russian language; other
-languages can be handled easily.

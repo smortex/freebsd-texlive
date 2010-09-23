@@ -1,6 +1,0 @@
-DCpic is a package for typesetting Commutative Diagrams within
-a LaTeX and TeX documents. Its distinguishing features are: a
-powerful graphical engine, the PiCTeX package; an easy
-specification syntax in which a commutative diagram is
-described in terms of its objects and its arrows (morphism),
-positioned in a Cartesian coordinate system.

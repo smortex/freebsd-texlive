@@ -1,4 +1,0 @@
-This small package provides a convenient input syntax for boxes
-that don't break their text over lines automatically, but do
-allow manual line breaks. The boxes shrink to the natural width
-of the longest line they contain.

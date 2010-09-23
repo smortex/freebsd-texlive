@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/lazylist/lazylist.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/lazylist/lazylist.tex
-share/texmf-dist/tex/latex/lazylist/lazylist.sty
-@dirrmtry share/texmf-dist/tex/latex/lazylist
-@dirrmtry share/texmf-dist/doc/latex/lazylist
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

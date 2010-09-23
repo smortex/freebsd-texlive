@@ -1,4 +1,0 @@
-Defines some commands to draw signal flow graphs as used by
-electrical and electronics engineers and graph theorists.
-Requires fp and pstricks packages (and a relatively fast
-machine).

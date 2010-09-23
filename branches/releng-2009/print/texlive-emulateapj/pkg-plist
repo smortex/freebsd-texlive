@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/emulateapj/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/emulateapj/sample.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/emulateapj/sample.tex
-share/texmf-dist/tex/latex/emulateapj/emulateapj.cls
-@dirrmtry share/texmf-dist/tex/latex/emulateapj
-@dirrmtry share/texmf-dist/doc/latex/emulateapj
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

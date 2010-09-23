@@ -1,3 +1,0 @@
-Defines a single command, \setbibref, which sets whichever of
-\bibname and \refname is in use. (\bibname is used in book.cls
-and report.cls, and \refname is used in article.cls.)

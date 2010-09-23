@@ -1,9 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/fixfoot/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/fixfoot/fixfoot.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/fixfoot/fixfoot.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/fixfoot/testfix.tex
-share/texmf-dist/tex/latex/fixfoot/fixfoot.sty
-@dirrmtry share/texmf-dist/tex/latex/fixfoot
-@dirrmtry share/texmf-dist/doc/latex/fixfoot
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

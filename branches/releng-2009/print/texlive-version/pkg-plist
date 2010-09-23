@@ -1,4 +1,0 @@
-share/texmf-dist/tex/latex/version/version.sty
-@dirrmtry share/texmf-dist/tex/latex/version
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

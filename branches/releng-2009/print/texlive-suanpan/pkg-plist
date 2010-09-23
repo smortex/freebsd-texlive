@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/metapost/suanpan/README
-%%PORTDOCS%%share/texmf-dist/doc/metapost/suanpan/article.txt
-share/texmf-dist/metapost/suanpan/abacus.mp
-share/texmf-dist/metapost/suanpan/suanpan.mp
-@dirrmtry share/texmf-dist/metapost/suanpan
-@dirrmtry share/texmf-dist/doc/metapost/suanpan
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

@@ -1,8 +1,0 @@
-The linegoal package provides a macro \linegoal to be used with
-\setlength: \setlength<some dimen>\linegoal will assign to
-<some dimen> the horizontal length of the remainder of the
-line. This is achieved using the \pdfsavepos primitive of
-pdftex, and the zref-savepos package. Example: Some text:
-\begin{tabularx}\linegoal{|l|X|} \hline one & two \\ three &
-four \\\hline \end{tabularx} will position the table after the
-initial text, and make the table fill the rest of the line.

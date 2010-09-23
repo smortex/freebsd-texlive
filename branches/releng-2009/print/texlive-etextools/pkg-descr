@@ -1,7 +1,0 @@
-The package offers four categories of macros: - the \expandnext
-macro and other expansion control macros; - the \FE@testopt and
-\FE@ifstar macros for fully expandable (FE) (starred-)macros
-with option; - fully expandable command list parsers: \csvloop,
-\listloop and a general constructor; - three macros lacking
-from the etoolbox package: \listdel, \listgdel and \listxdel.
-The package is dependent on the etex and the etoolbox packages.

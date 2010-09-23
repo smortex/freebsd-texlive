@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf/doc/man/man1/getafm.1
-%%PORTDOCS%%share/texmf/doc/man/man1/getafm.man1.pdf
-share/texmf/dvips/getafm/getafm.ps
-@dirrmtry share/texmf/dvips/getafm
-@dirrmtry share/texmf/doc/man/man1
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

@@ -1,6 +1,0 @@
-The tclldoc package and class simplify the application of the
-doc/docstrip style of literate programming with Dr. John
-Ousterhout's Tool Command Language (Tcl, pronounced "tickle",
-a.k.a. The Cool Language). The tclldoc package is a bit like
-the doc package is for LaTeX, whereas the tclldoc class more
-parallels the ltxdoc class.

@@ -1,4 +1,0 @@
-share/texmf-dist/tex/latex/relsize/relsize.sty
-@dirrmtry share/texmf-dist/tex/latex/relsize
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

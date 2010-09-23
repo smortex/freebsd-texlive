@@ -1,3 +1,0 @@
-Input or include stand-alone LaTeX documents, ignoring
-everything but the material between \begin{document} and
-\end{document}.

@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/multibox/multibox.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/multibox/multibox.tex
-share/texmf-dist/tex/latex/multibox/multibox.sty
-@dirrmtry share/texmf-dist/tex/latex/multibox
-@dirrmtry share/texmf-dist/doc/latex/multibox
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/censor/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/censor/censor.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/censor/censor.tex
-share/texmf-dist/tex/latex/censor/censor.sty
-@dirrmtry share/texmf-dist/tex/latex/censor
-@dirrmtry share/texmf-dist/doc/latex/censor
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

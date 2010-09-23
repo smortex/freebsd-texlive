@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/clrscode/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/clrscode/clrscode.pdf
-share/texmf-dist/tex/latex/clrscode/clrscode.sty
-@dirrmtry share/texmf-dist/tex/latex/clrscode
-@dirrmtry share/texmf-dist/doc/latex/clrscode
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

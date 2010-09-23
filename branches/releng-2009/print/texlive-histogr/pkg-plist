@@ -1,9 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/histogr/histogr.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/histogr/histogr.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/histogr/histogr.ins
-share/texmf-dist/tex/latex/histogr/histogr.sty
-@dirrmtry share/texmf-dist/tex/latex/histogr
-@dirrmtry share/texmf-dist/source/latex/histogr
-@dirrmtry share/texmf-dist/doc/latex/histogr
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

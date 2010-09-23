@@ -1,8 +1,0 @@
-The package ltxnew provides the \new, \renew and \provide
-prefixes for checking definitions. It is designed to work with
-e-TeX distributions of LaTeX and relies on the LaTeX macro
-\@ifdefinable. Local allocation of counters, dimensions, skips,
-muskips, boxes, tokens and marks are provided by the etex
-package. \new and \renew as well as \provide may be used for
-all kind of control sequences. Please refer to the section
-"Using \new" of the PDF documentation.

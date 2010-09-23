@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/sansmath/miscdoc.sty
-%%PORTDOCS%%share/texmf-dist/doc/latex/sansmath/sansmath.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/sansmath/sansmath.tex
-share/texmf-dist/tex/latex/sansmath/sansmath.sty
-@dirrmtry share/texmf-dist/tex/latex/sansmath
-@dirrmtry share/texmf-dist/doc/latex/sansmath
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

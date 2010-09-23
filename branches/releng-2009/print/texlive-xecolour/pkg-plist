@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecolour/README
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecolour/xecolour-user.pdf
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecolour/xecolour-user.tex
-share/texmf-dist/tex/xelatex/xecolour/xecolour.sty
-@dirrmtry share/texmf-dist/tex/xelatex/xecolour
-@dirrmtry share/texmf-dist/doc/xelatex/xecolour
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

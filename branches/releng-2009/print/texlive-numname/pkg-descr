@@ -1,4 +1,0 @@
-The package can generate cardinal (one, two, ...) and ordinal
-(first, second, ...) numbers. The code derives from the memoir
-class, and is extracted for the convenience of non-users of
-that class.

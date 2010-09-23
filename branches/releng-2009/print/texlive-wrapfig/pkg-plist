@@ -1,6 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/wrapfig/multiple-span.txt
-share/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-@dirrmtry share/texmf-dist/tex/latex/wrapfig
-@dirrmtry share/texmf-dist/doc/latex/wrapfig
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/qobitree/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/qobitree/example.tex
-share/texmf-dist/tex/latex/qobitree/qobitree.tex
-@dirrmtry share/texmf-dist/tex/latex/qobitree
-@dirrmtry share/texmf-dist/doc/latex/qobitree
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

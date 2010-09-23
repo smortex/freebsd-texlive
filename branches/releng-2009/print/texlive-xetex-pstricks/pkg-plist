@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/xetex/xetex-pstricks/README
-share/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
-share/texmf-dist/tex/xetex/xetex-pstricks/pstricks.con
-@dirrmtry share/texmf-dist/tex/xetex/xetex-pstricks
-@dirrmtry share/texmf-dist/tex/xelatex/xetex-pstricks
-@dirrmtry share/texmf-dist/doc/xetex/xetex-pstricks
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

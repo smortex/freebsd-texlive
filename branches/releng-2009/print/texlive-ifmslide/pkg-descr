@@ -1,6 +1,0 @@
-This package is used to produce printed slides with latex and
-online presentations with pdflatex. It is provided by the
-'Institute of Mechanics' (ifm) Univ. of Technology Darmstadt,
-Germany. It is based on ideas of pdfslide, but completely
-rewritten for compatibility with texpower and seminar. The
-manual describes all functions and provides a sample.

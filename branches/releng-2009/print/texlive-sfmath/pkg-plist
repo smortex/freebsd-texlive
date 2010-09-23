@@ -1,4 +1,0 @@
-share/texmf-dist/tex/latex/sfmath/sfmath.sty
-@dirrmtry share/texmf-dist/tex/latex/sfmath
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

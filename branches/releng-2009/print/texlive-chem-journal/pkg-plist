@@ -1,7 +1,0 @@
-share/texmf-dist/bibtex/bst/chem-journal/jcc.bst
-share/texmf-dist/bibtex/bst/chem-journal/jpc.bst
-share/texmf-dist/bibtex/bst/chem-journal/pccp.bst
-share/texmf-dist/bibtex/bst/chem-journal/revcompchem.bst
-@dirrmtry share/texmf-dist/bibtex/bst/chem-journal
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

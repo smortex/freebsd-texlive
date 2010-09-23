@@ -1,5 +1,0 @@
-%%PORTDOCS%%share/texmf/doc/man/man1/tex.1
-%%PORTDOCS%%share/texmf/doc/man/man1/tex.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

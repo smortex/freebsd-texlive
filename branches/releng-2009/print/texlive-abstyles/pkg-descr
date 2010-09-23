@@ -1,4 +1,0 @@
-A family of modifications of the standard BibTeX styles whose
-behaviour may be changed by changing the user document, without
-change to the styles themselves. The package is largely used
-nowadays in its adaptation for working with Babel.

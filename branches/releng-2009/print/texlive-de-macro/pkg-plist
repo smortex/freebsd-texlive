@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/support/de-macro/README
-%%PORTDOCS%%share/texmf-dist/doc/support/de-macro/user-guide.pdf
-%%PORTDOCS%%share/texmf-dist/doc/support/de-macro/user-guide.tex
-share/texmf-dist/scripts/de-macro/de-macro
-@dirrmtry share/texmf-dist/scripts/de-macro
-@dirrmtry share/texmf-dist/doc/support/de-macro
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

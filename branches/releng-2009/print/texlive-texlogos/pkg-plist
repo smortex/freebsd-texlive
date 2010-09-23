@@ -1,4 +1,0 @@
-share/texmf-dist/tex/latex/texlogos/texlogos.sty
-@dirrmtry share/texmf-dist/tex/latex/texlogos
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

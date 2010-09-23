@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframed-doc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframed-doc.tex
-share/texmf-dist/tex/latex/mdframed/mdframed.sty
-@dirrmtry share/texmf-dist/tex/latex/mdframed
-@dirrmtry share/texmf-dist/doc/latex/mdframed
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

@@ -1,3 +1,0 @@
-The (PSTricks-related) package provides a command
-\pstPutAbs(x,y) to put an object at an arbitrary absolute (or
-even a relative) position on the page.

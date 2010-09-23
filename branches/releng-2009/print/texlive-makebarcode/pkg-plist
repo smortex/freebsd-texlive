@@ -1,9 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/makebarcode/License.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/makebarcode/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/makebarcode/makebarcode.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/makebarcode/makebarcode.tex
-share/texmf-dist/tex/latex/makebarcode/makebarcode.sty
-@dirrmtry share/texmf-dist/tex/latex/makebarcode
-@dirrmtry share/texmf-dist/doc/latex/makebarcode
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

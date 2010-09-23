@@ -1,6 +1,0 @@
-The package provides easy access to ancient Greek names of days
-and months of various regions of Greece. In case the historical
-information about a region is not complete, we use the Athenian
-name of the month. Moreover commands and options are provided,
-in order to completely switch to the "ancient way", commands
-such as \today.

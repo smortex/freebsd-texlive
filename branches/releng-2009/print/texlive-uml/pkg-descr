@@ -1,4 +1,0 @@
-A PSTricks related package for writing UML (Unified Modelling
-Language) diagrams in LaTeX. Currently, it implements a subset
-of class diagrams, and some extra constructs as well. The
-package cannot be used together with pst-uml.

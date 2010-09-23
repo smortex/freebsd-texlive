@@ -1,4 +1,0 @@
-share/texmf-dist/tex/latex/nextpage/nextpage.sty
-@dirrmtry share/texmf-dist/tex/latex/nextpage
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

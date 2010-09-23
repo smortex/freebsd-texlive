@@ -1,4 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/support/pkfix/README
-@dirrmtry share/texmf-dist/doc/support/pkfix
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

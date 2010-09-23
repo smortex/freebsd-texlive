@@ -1,4 +1,0 @@
-share/texmf-dist/tex/latex/midpage/midpage.sty
-@dirrmtry share/texmf-dist/tex/latex/midpage
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

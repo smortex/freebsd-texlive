@@ -1,4 +1,0 @@
-The package enables the user to typeset version control
-information provided by RCS keywords (e.g., $ID: ... $) in
-LaTeX documents that contain multiple TeX files. The package is
-based on the author's svn-multi package.

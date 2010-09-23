@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/nath/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/nath/nathguide.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/nath/nathguide.tex
-share/texmf-dist/tex/latex/nath/nath.sty
-@dirrmtry share/texmf-dist/tex/latex/nath
-@dirrmtry share/texmf-dist/doc/latex/nath
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

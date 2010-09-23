@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/numname/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/numname/numname.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/numname/numname.tex
-share/texmf-dist/tex/latex/numname/numname.sty
-@dirrmtry share/texmf-dist/tex/latex/numname
-@dirrmtry share/texmf-dist/doc/latex/numname
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

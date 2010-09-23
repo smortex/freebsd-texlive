@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/optional/optional.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/optional/optional.tex
-share/texmf-dist/tex/latex/optional/optional.sty
-@dirrmtry share/texmf-dist/tex/latex/optional
-@dirrmtry share/texmf-dist/doc/latex/optional
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

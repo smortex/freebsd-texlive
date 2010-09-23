@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/ot-tableau/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/ot-tableau/ot-tableau.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/ot-tableau/ot-tableau.tex
-share/texmf-dist/tex/latex/ot-tableau/ot-tableau.sty
-@dirrmtry share/texmf-dist/tex/latex/ot-tableau
-@dirrmtry share/texmf-dist/doc/latex/ot-tableau
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

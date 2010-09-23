@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/plain/harvmac/README
-%%PORTDOCS%%share/texmf-dist/doc/plain/harvmac/harvsamp.tex
-share/texmf-dist/tex/plain/harvmac/harvmac.tex
-@dirrmtry share/texmf-dist/tex/plain/harvmac
-@dirrmtry share/texmf-dist/doc/plain/harvmac
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

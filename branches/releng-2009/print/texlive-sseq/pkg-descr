@@ -1,7 +1,0 @@
-The package provides commands to draw spectral sequence
-diagrams, providing facilities for clipping and arranging
-multiple symbols so that they do not overlap. The package is
-built using pgf, and shares that systems large demands for TeX
-system memory. Its geometric commands are based on a turtle
-graphics model, and control structures such as loops and
-conditionals are available.

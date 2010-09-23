@@ -1,5 +1,0 @@
-share/texmf/tex/generic/hyphen/grahyph5.tex
-share/texmf/tex/generic/hyphen/ibyhyph.tex
-@dirrmtry share/texmf/tex/generic/hyphen
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

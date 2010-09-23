@@ -1,6 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/roundbox/README
-share/texmf-dist/tex/latex/roundbox/roundbox.sty
-@dirrmtry share/texmf-dist/tex/latex/roundbox
-@dirrmtry share/texmf-dist/doc/latex/roundbox
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

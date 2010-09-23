@@ -1,3 +1,0 @@
-The package enables the user to directly incorporate MetaPost
-diagrams into a document, using LuaTeX's built-in MetaPost
-library. The facility is only available in PDF mode.

@@ -1,6 +1,0 @@
-share/texmf-dist/metapost/context/third/gnuplot/mp-gnuplot.mp
-share/texmf-dist/tex/context/third/gnuplot/t-gnuplot.tex
-@dirrmtry share/texmf-dist/tex/context/third/gnuplot
-@dirrmtry share/texmf-dist/metapost/context/third/gnuplot
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

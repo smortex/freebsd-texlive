@@ -1,4 +1,0 @@
-This class is used with LaTeX presentations using the prosper
-class. ppr-prv stands for 'Prosper Preview'. The aim of this
-class is to produce a printable version of the slides written
-with Prosper, with two slides per page.

@@ -1,3 +1,0 @@
-The package defines a command \cb that positions a comma below
-a letter, as required (for example) in Romanian typesetting.
-The command is robust, but interferes with hyphenation.

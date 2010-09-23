@@ -1,5 +1,0 @@
-A tool to translate UNIX manual pages written with LaTeX into a
-man-page format understood by the Unix man(1) command.
-Alternatively HTML or TexInfo code can be produced. Output of
-parts of the text may be supressed using the conditional text
-feature.

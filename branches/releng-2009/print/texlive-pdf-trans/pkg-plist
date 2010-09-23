@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/generic/pdf-trans/example.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/pdf-trans/example.tex
-share/texmf-dist/tex/generic/pdf-trans/pdf-trans.tex
-@dirrmtry share/texmf-dist/tex/generic/pdf-trans
-@dirrmtry share/texmf-dist/doc/generic/pdf-trans
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

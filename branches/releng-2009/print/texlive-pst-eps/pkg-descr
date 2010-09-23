@@ -1,3 +1,0 @@
-Pst-eps is a PSTricks-based package for exporting PSTricks
-images 'on the fly' to encapsulated PostScript (EPS) image
-files, which can then be read into a document in the usual way.

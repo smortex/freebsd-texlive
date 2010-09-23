@@ -1,4 +1,0 @@
-share/texmf-dist/fonts/sfd/dnp/DNP.sfd
-@dirrmtry share/texmf-dist/fonts/sfd/dnp
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

@@ -1,9 +1,0 @@
-%%PORTSRC%%share/texmf-dist/source/latex/limap/Makefile
-%%PORTSRC%%share/texmf-dist/source/latex/limap/limap.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/limap/limap.ins
-share/texmf-dist/tex/latex/limap/limap.cls
-share/texmf-dist/tex/latex/limap/limap.sty
-@dirrmtry share/texmf-dist/tex/latex/limap
-@dirrmtry share/texmf-dist/source/latex/limap
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

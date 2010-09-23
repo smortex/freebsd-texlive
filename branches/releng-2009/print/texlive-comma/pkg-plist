@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/comma/comma.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/comma/comma.tex
-share/texmf-dist/tex/latex/comma/comma.sty
-@dirrmtry share/texmf-dist/tex/latex/comma
-@dirrmtry share/texmf-dist/doc/latex/comma
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

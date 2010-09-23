@@ -1,5 +1,0 @@
-The package provides commands (\underline, \dotuline and
-\dashuline) each of which underlines its argument with one of
-the styles the package is capable of. A phantom mode is
-provided, where the underline (of whatever form) can serve for
-a 'fill-in block' for student evaluation sheets.

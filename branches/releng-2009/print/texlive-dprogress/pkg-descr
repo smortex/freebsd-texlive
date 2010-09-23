@@ -1,6 +1,0 @@
-The package logs LaTeX's progress through the file, making the
-LaTeX output more verbose. This helps to make LaTeX debugging
-easier, as it is simpler to find where exactly LaTeX failed.
-The package outputs the typesetting of section, subsection and
-subsubsection headers and (if amsmath is loaded) details of the
-align environment.

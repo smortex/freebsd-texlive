@@ -1,7 +1,0 @@
-This package provides a LaTeX2e document class named 'ua-
-thesis' for typesetting theses and dissertations in the
-official format required by the University of Arizona.
-Moreover, there is a fully compatible alternative document
-class 'my-thesis' for private 'nice' copies of the
-dissertation, and the respective title pages are available as
-separate packages to work with any document class.

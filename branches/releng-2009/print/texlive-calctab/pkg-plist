@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/calctab/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/calctab/calctab_manual.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/calctab/calctab_manual.tex
-share/texmf-dist/tex/latex/calctab/calctab.sty
-@dirrmtry share/texmf-dist/tex/latex/calctab
-@dirrmtry share/texmf-dist/doc/latex/calctab
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

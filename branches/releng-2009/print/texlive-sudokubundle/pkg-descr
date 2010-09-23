@@ -1,8 +1,0 @@
-The bundle provides three packages: - printsudoku, which
-provides a command \sudoku whose argument is the name of a file
-containing a puzzle specification; - solvesudoku, which
-attempts to find a solution to the puzzle in the file named in
-the argument; and - createsudoku, which uses the random package
-to generate a puzzle according to a bunch of parameters that
-the user sets via macros. The bundle comes with a set of ready-
-prepared puzzle files.

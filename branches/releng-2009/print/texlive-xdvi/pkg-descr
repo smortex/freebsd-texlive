@@ -1,5 +1,0 @@
-The canonical previewer for use on Unix and other X-windows
-based systems. The distribution has been integrated with that
-of xdvik (no longer separately available), so that it will
-build with web2c "out of the box". In practice, it is usually
-distributed via Tex-live.

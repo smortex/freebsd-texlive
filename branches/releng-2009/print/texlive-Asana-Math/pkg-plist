@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/fonts/Asana-Math/README.1ST
-share/texmf-dist/fonts/opentype/public/Asana-Math/Asana-Math.otf
-share/texmf-dist/fonts/truetype/public/Asana-Math/Asana-Math.ttf
-@dirrmtry share/texmf-dist/fonts/truetype/public/Asana-Math
-@dirrmtry share/texmf-dist/fonts/opentype/public/Asana-Math
-@dirrmtry share/texmf-dist/doc/fonts/Asana-Math
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

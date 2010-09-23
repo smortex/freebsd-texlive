@@ -1,9 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-3dplot/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-3dplot/tikz-3dplot_documentation.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-3dplot/tikz-3dplot_documentation.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-3dplot/tikz-3dplot_documentation_figures.tex
-share/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty
-@dirrmtry share/texmf-dist/tex/latex/tikz-3dplot
-@dirrmtry share/texmf-dist/doc/latex/tikz-3dplot
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

@@ -1,4 +1,0 @@
-The package multibbl redefines the standard bibliographic
-commands so that one can generate multiple reference sections.
-Each section has it own auxiliary file (for use with BibTeX)
-and title.

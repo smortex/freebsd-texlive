@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/nolbreaks/nolbreaks.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/nolbreaks/nolbreaks.tex
-share/texmf-dist/tex/latex/nolbreaks/nolbreaks.sty
-@dirrmtry share/texmf-dist/tex/latex/nolbreaks
-@dirrmtry share/texmf-dist/doc/latex/nolbreaks
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

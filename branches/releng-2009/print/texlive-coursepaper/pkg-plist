@@ -1,6 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/coursepaper/coursepaper.tex
-share/texmf-dist/tex/latex/coursepaper/coursepaper.cls
-@dirrmtry share/texmf-dist/tex/latex/coursepaper
-@dirrmtry share/texmf-dist/doc/latex/coursepaper
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

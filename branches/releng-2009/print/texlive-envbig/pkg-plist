@@ -1,6 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/envbig/README
-share/texmf-dist/tex/latex/envbig/envbig.sty
-@dirrmtry share/texmf-dist/tex/latex/envbig
-@dirrmtry share/texmf-dist/doc/latex/envbig
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

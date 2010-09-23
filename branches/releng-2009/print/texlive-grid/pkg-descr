@@ -1,8 +1,0 @@
-The package enables grid typesetting in double column
-documents. Grid typesetting (vertical aligning of lines of text
-in adjacent columns) is a difficult task in LaTeX, and the
-present package is no more than an attempt to help users to
-achieve it in a limited way. An example document, grid.tex, is
-provided with simple instructions to typeset it using the
-package. The package needs a lot of, this is only a
-beginning...

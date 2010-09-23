@@ -1,6 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/scientificpaper/README
-share/texmf-dist/tex/latex/scientificpaper/science.sty
-@dirrmtry share/texmf-dist/tex/latex/scientificpaper
-@dirrmtry share/texmf-dist/doc/latex/scientificpaper
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

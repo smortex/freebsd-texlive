@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/ifmtarg/ifmtarg.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/ifmtarg/ifmtarg.tex
-share/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
-@dirrmtry share/texmf-dist/tex/latex/ifmtarg
-@dirrmtry share/texmf-dist/doc/latex/ifmtarg
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

@@ -1,3 +1,0 @@
-The tabular environment is changed as the outer \tabcolesp's
-are compensated so that a \hline has the same length as the
-text. No @{} is needed.

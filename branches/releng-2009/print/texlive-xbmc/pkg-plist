@@ -1,6 +1,0 @@
-share/texmf-dist/fonts/source/public/xbmc/xbmc10.mf
-share/texmf-dist/fonts/tfm/public/xbmc/xbmc10.tfm
-@dirrmtry share/texmf-dist/fonts/tfm/public/xbmc
-@dirrmtry share/texmf-dist/fonts/source/public/xbmc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

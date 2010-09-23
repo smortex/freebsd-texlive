@@ -1,9 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/plain/mkpattern/README
-%%PORTDOCS%%share/texmf-dist/doc/plain/mkpattern/mkpatdoc.tex
-%%PORTDOCS%%share/texmf-dist/doc/plain/mkpattern/mkpatter.pdf
-%%PORTDOCS%%share/texmf-dist/doc/plain/mkpattern/mkpattern-exmpl.tex
-share/texmf-dist/tex/plain/mkpattern/mkpatter.tex
-@dirrmtry share/texmf-dist/tex/plain/mkpattern
-@dirrmtry share/texmf-dist/doc/plain/mkpattern
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

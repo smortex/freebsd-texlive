@@ -1,4 +1,0 @@
-The steinmetz package provides a command for typesetting
-complex numbers in the Steinmetz notation used in
-electrotechnics as: <modulus><argument or phase inside an angle
-symbol> The package makes use of pict2e.

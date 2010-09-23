@@ -1,9 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/overpic/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/overpic/README.de
-%%PORTDOCS%%share/texmf-dist/doc/latex/overpic/opic-abs.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/overpic/opic-rel.tex
-share/texmf-dist/tex/latex/overpic/overpic.sty
-@dirrmtry share/texmf-dist/tex/latex/overpic
-@dirrmtry share/texmf-dist/doc/latex/overpic
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

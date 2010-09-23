@@ -1,4 +1,0 @@
-The package allows the user to construct tables in a manner
-similar to a spreadsheet. The cells of a table have row and
-column indices and these can be used in formulas to generate
-values in other cells.

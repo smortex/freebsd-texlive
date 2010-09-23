@@ -1,4 +1,0 @@
-A tool (preprocessor) for writing your pRaa-ne-r ka-thaa in the
-bengali langauage. It allows one to write the text in Rapid
-Roman Bangla and convert it to the bangtex format by a python
-program. All LaTeX markups are preserved in the target file.

@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancybox/fancybox.doc
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancybox/fancybox.pdf
-share/texmf-dist/tex/latex/fancybox/fancybox.sty
-@dirrmtry share/texmf-dist/tex/latex/fancybox
-@dirrmtry share/texmf-dist/doc/latex/fancybox
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

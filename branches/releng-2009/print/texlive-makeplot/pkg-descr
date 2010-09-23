@@ -1,5 +1,0 @@
-Existing approaches to create EPS files from Matlab (laprint,
-mma2ltx, print -eps, etc.) aren't satisfactory; makeplot aims
-to resolve this problem. Makeplot is a LaTeX package that uses
-the pstricks pst-plot functions to plot data that it takes from
-Matlab output files.

@@ -1,4 +1,0 @@
-The package arose from a requirement to link the elements of an
-amsmath align or aligned environment. The package makes use of
-PGF/TikZ. The package documentation relies on the facilities of
-the tkz-doc bundle

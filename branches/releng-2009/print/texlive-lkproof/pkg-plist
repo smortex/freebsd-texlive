@@ -1,6 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/lkproof/proofeg.tex
-share/texmf-dist/tex/latex/lkproof/proof.sty
-@dirrmtry share/texmf-dist/tex/latex/lkproof
-@dirrmtry share/texmf-dist/doc/latex/lkproof
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

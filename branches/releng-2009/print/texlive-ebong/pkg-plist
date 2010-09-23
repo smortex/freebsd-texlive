@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/ebong/ANNOUNCE.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/ebong/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/ebong/eb.b
-%%PORTDOCS%%share/texmf-dist/doc/latex/ebong/eb.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/ebong/eb_tex.tex
-@dirrmtry share/texmf-dist/doc/latex/ebong
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

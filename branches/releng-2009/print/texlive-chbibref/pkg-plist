@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/chbibref/chbibref.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/chbibref/chbibref.tex
-share/texmf-dist/tex/latex/chbibref/chbibref.sty
-@dirrmtry share/texmf-dist/tex/latex/chbibref
-@dirrmtry share/texmf-dist/doc/latex/chbibref
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

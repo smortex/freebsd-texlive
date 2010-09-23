@@ -1,4 +1,0 @@
-%%PORTDOCS%%share/texmf/doc/texworks/README
-@dirrmtry share/texmf/doc/texworks
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

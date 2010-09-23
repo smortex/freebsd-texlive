@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/support/texdiff/README
-%%PORTDOCS%%share/texmf/doc/man/man1/texdiff.1
-%%PORTDOCS%%share/texmf/doc/man/man1/texdiff.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf-dist/doc/support/texdiff
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

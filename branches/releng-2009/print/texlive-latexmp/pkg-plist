@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/metapost/latexmp/README
-%%PORTDOCS%%share/texmf-dist/doc/metapost/latexmp/latexmp.pdf
-share/texmf-dist/metapost/latexmp/latexmp.mp
-@dirrmtry share/texmf-dist/metapost/latexmp
-@dirrmtry share/texmf-dist/doc/metapost/latexmp
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

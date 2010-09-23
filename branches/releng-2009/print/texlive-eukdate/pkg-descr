@@ -1,5 +1,0 @@
-The package is used to change the format of \today's date,
-including the weekday, e.g., "Saturday, 26 June 2008", the 'UK
-format', which is preferred in many parts of the world, as
-distinct from that which is used in \maketitle of the article
-class, "June 26, 2008", the 'US format'.

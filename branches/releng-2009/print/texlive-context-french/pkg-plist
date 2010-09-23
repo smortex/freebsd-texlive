@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/context/third/french/french-demo.pdf
-%%PORTDOCS%%share/texmf-dist/doc/context/third/french/french-doc.pdf
-share/texmf-dist/tex/context/third/french/t-french.tex
-@dirrmtry share/texmf-dist/tex/context/third/french
-@dirrmtry share/texmf-dist/doc/context/third/french
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

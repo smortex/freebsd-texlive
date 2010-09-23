@@ -1,5 +1,0 @@
-Makeindex is resolutely stuck with Latin-based alphabets, so
-will not deal with Greek indexes, unaided. This package
-provides a Perl script that will transmute the index of a Greek
-document in such a way that makeindex will sort the entries
-according to the rules of the Greek alphabet.

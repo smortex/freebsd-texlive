@@ -1,4 +1,0 @@
-share/texmf-dist/bibtex/bst/fbs/fbs.bst
-@dirrmtry share/texmf-dist/bibtex/bst/fbs
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

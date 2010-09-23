@@ -1,5 +1,0 @@
-Provides the capability of adding keywords (with a \keywords
-command), a running title (\runningtitle), AMS subject
-classifications (\amssubj), and an 'author's footnote' as
-footnotes to the title or first page of a document. Works with
-any class for which the \thanks macro works (e.g., article).

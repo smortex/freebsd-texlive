@@ -1,4 +1,0 @@
-The package is based on XeSearch, and will automatically index
-words or phrases in an XeLaTeX document. Words are declared in
-a list, and every occurrence then creates an index entry whose
-content can be fully specified beforehand.

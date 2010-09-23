@@ -1,4 +1,0 @@
-share/texmf-dist/tex/latex/titlefoot/titlefoot.sty
-@dirrmtry share/texmf-dist/tex/latex/titlefoot
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

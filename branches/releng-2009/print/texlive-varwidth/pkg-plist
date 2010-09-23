@@ -1,4 +1,0 @@
-share/texmf-dist/tex/latex/varwidth/varwidth.sty
-@dirrmtry share/texmf-dist/tex/latex/varwidth
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

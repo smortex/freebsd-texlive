@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf/doc/man/man1/dvitype.1
-%%PORTDOCS%%share/texmf/doc/man/man1/dvitype.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/pooltype.1
-%%PORTDOCS%%share/texmf/doc/man/man1/pooltype.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

@@ -1,9 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/dichokey/dichokey.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/dichokey/dichokey.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/dichokey/rhodocyb.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/dichokey/rhodocyb.tex
-share/texmf-dist/tex/latex/dichokey/dichokey.sty
-@dirrmtry share/texmf-dist/tex/latex/dichokey
-@dirrmtry share/texmf-dist/doc/latex/dichokey
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

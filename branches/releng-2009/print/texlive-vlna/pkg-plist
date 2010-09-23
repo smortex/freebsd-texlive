@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf/doc/man/man1/vlna.1
-%%PORTDOCS%%share/texmf/doc/man/man1/vlna.man1.pdf
-%%PORTDOCS%%share/texmf/doc/vlna/vlna.pdf
-@dirrmtry share/texmf/doc/vlna
-@dirrmtry share/texmf/doc/man/man1
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

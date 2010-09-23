@@ -1,5 +1,0 @@
-The calctab package helps the user to typeset a kind of
-economic table such as invoices, expense notes and liquidation,
-or other tabular material with a values column. The code
-computes sum and percentage with floating point numeric methods
-(using the fltpoint package) and builds the render table task.

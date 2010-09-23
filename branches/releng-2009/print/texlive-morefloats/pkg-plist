@@ -1,4 +1,0 @@
-share/texmf-dist/tex/latex/morefloats/morefloats.sty
-@dirrmtry share/texmf-dist/tex/latex/morefloats
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
