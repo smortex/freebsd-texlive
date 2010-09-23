@@ -1,0 +1,38 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bangtex/README.bangtex
+%%PORTDOCS%%share/texmf-dist/doc/latex/bangtex/manual.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/bangtex/samplett.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/bangtex/samptex.tex
+share/texmf-dist/fonts/source/public/bangtex/bang10.mf
+share/texmf-dist/fonts/source/public/bangtex/bangbase.mf
+share/texmf-dist/fonts/source/public/bangtex/bangconso.mf
+share/texmf-dist/fonts/source/public/bangtex/bangdefs.mf
+share/texmf-dist/fonts/source/public/bangtex/bangfala.mf
+share/texmf-dist/fonts/source/public/bangtex/banghalf.mf
+share/texmf-dist/fonts/source/public/bangtex/bangjuk.mf
+share/texmf-dist/fonts/source/public/bangtex/bangkaar.mf
+share/texmf-dist/fonts/source/public/bangtex/banglig.mf
+share/texmf-dist/fonts/source/public/bangtex/bangmac.mf
+share/texmf-dist/fonts/source/public/bangtex/bangnum.mf
+share/texmf-dist/fonts/source/public/bangtex/bangpunc.mf
+share/texmf-dist/fonts/source/public/bangtex/bangsl10.mf
+share/texmf-dist/fonts/source/public/bangtex/bangvow.mf
+share/texmf-dist/fonts/source/public/bangtex/bangwd10.mf
+share/texmf-dist/fonts/tfm/public/bangtex/bang10.tfm
+share/texmf-dist/fonts/tfm/public/bangtex/bangsl10.tfm
+share/texmf-dist/fonts/tfm/public/bangtex/bangwd10.tfm
+share/texmf-dist/tex/latex/bangtex/bangfont.tex
+share/texmf-dist/tex/latex/bangtex/barticle.cls
+share/texmf-dist/tex/latex/bangtex/bbk10.clo
+share/texmf-dist/tex/latex/bangtex/bbk11.clo
+share/texmf-dist/tex/latex/bangtex/bbk12.clo
+share/texmf-dist/tex/latex/bangtex/bbook.cls
+share/texmf-dist/tex/latex/bangtex/bletter.cls
+share/texmf-dist/tex/latex/bangtex/bsize10.clo
+share/texmf-dist/tex/latex/bangtex/bsize11.clo
+share/texmf-dist/tex/latex/bangtex/bsize12.clo
+@dirrmtry share/texmf-dist/tex/latex/bangtex
+@dirrmtry share/texmf-dist/fonts/tfm/public/bangtex
+@dirrmtry share/texmf-dist/fonts/source/public/bangtex
+@dirrmtry share/texmf-dist/doc/latex/bangtex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

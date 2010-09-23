@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fouridx/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/fouridx/fouridx.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/fouridx/fouridx.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fouridx/fouridx.ins
+share/texmf-dist/tex/latex/fouridx/fouridx.sty
+@dirrmtry share/texmf-dist/tex/latex/fouridx
+@dirrmtry share/texmf-dist/source/latex/fouridx
+@dirrmtry share/texmf-dist/doc/latex/fouridx
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

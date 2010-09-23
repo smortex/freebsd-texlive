@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/arrayjob/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/arrayjob/arrayjob.doc
+%%PORTDOCS%%share/texmf-dist/doc/generic/arrayjob/arrayjob.pdf
+share/texmf-dist/tex/generic/arrayjob/arrayjob.sty
+@dirrmtry share/texmf-dist/tex/generic/arrayjob
+@dirrmtry share/texmf-dist/doc/generic/arrayjob
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

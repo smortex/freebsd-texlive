@@ -1,0 +1,30 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oldstandard/FONTLOG.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oldstandard/OFL-FAQ.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oldstandard/OFL.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oldstandard/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oldstandard/didot-de.png
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oldstandard/didot-fr.png
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oldstandard/gendocs.sh
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oldstandard/genfonts.sh
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oldstandard/greek-contextual.png
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oldstandard/oldstand-manual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oldstandard/oldstand-manual.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oldstandard/opentype.png
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oldstandard/ost-generate.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oldstandard/serbian.png
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oldstandard/spadmin-add.png
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oldstandard/spadmin.png
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oldstandard/stand-su.png
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oldstandard/teubner.png
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oldstandard/truetype.png
+share/texmf-dist/fonts/opentype/public/oldstandard/OldStandard-Bold.otf
+share/texmf-dist/fonts/opentype/public/oldstandard/OldStandard-Italic.otf
+share/texmf-dist/fonts/opentype/public/oldstandard/OldStandard-Regular.otf
+%%PORTSRC%%share/texmf-dist/source/fonts/oldstandard/OldStandard-Bold.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/oldstandard/OldStandard-Italic.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/oldstandard/OldStandard-Regular.sfd
+@dirrmtry share/texmf-dist/source/fonts/oldstandard
+@dirrmtry share/texmf-dist/fonts/opentype/public/oldstandard
+@dirrmtry share/texmf-dist/doc/fonts/oldstandard
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,5 @@
+Ebezier is a device independent extension for the standard
+picture environment. Linear, quadratic, and cubic bezier curves
+are supplied in connection with higher level circle drawing
+commands. Additionally some macros for the calculation of curve
+lenghts are part of this package.

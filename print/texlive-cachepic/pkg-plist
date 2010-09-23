@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cachepic/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/cachepic/cachepic.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cachepic/cachepic.tex
+share/texmf-dist/scripts/cachepic/cachepic.cmd
+share/texmf-dist/tex/latex/cachepic/cachepic.sty
+share/texmf-dist/tex/latex/cachepic/prcachepic.def
+@dirrmtry share/texmf-dist/tex/latex/cachepic
+@dirrmtry share/texmf-dist/doc/latex/cachepic
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

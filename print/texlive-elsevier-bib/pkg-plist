@@ -1,0 +1,9 @@
+share/texmf-dist/bibtex/bst/elsevier-bib/elsart-harv.bst
+share/texmf-dist/bibtex/bst/elsevier-bib/elsart-num-names.bst
+share/texmf-dist/bibtex/bst/elsevier-bib/elsart-num-sort.bst
+share/texmf-dist/bibtex/bst/elsevier-bib/elsart-num.bst
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/elsevier-bib/README-bst
+@dirrmtry share/texmf-dist/doc/bibtex/elsevier-bib
+@dirrmtry share/texmf-dist/bibtex/bst/elsevier-bib
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

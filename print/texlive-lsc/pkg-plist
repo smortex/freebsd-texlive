@@ -1,0 +1,10 @@
+share/texmf-dist/bibtex/bib/lsc/lsc.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/lsc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/lsc/lsc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lsc/lsc.tex
+share/texmf-dist/tex/latex/lsc/lsc.sty
+@dirrmtry share/texmf-dist/tex/latex/lsc
+@dirrmtry share/texmf-dist/doc/latex/lsc
+@dirrmtry share/texmf-dist/bibtex/bib/lsc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

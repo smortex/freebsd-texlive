@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/dcpic/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/dcpic/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/generic/dcpic/examples.tex
+share/texmf-dist/tex/generic/dcpic/dcpic.sty
+@dirrmtry share/texmf-dist/tex/generic/dcpic
+@dirrmtry share/texmf-dist/doc/generic/dcpic
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

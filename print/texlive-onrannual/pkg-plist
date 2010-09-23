@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/onrannual/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/onrannual/sample.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/onrannual/samplefigure.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/onrannual/samplefigure.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/onrannual/skeleton.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/onrannual/skeleton.tex
+share/texmf-dist/tex/latex/onrannual/onrannual.cls
+@dirrmtry share/texmf-dist/tex/latex/onrannual
+@dirrmtry share/texmf-dist/doc/latex/onrannual
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

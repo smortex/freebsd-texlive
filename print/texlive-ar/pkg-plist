@@ -1,0 +1,22 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ar/ar.txt
+share/texmf-dist/fonts/source/public/ar/ar10.mf
+share/texmf-dist/fonts/source/public/ar/ar12.mf
+share/texmf-dist/fonts/source/public/ar/ar5.mf
+share/texmf-dist/fonts/source/public/ar/ar6.mf
+share/texmf-dist/fonts/source/public/ar/ar7.mf
+share/texmf-dist/fonts/source/public/ar/ar8.mf
+share/texmf-dist/fonts/source/public/ar/ar9.mf
+share/texmf-dist/fonts/tfm/public/ar/ar10.tfm
+share/texmf-dist/fonts/tfm/public/ar/ar12.tfm
+share/texmf-dist/fonts/tfm/public/ar/ar5.tfm
+share/texmf-dist/fonts/tfm/public/ar/ar6.tfm
+share/texmf-dist/fonts/tfm/public/ar/ar7.tfm
+share/texmf-dist/fonts/tfm/public/ar/ar8.tfm
+share/texmf-dist/fonts/tfm/public/ar/ar9.tfm
+share/texmf-dist/tex/latex/ar/ar.sty
+@dirrmtry share/texmf-dist/tex/latex/ar
+@dirrmtry share/texmf-dist/fonts/tfm/public/ar
+@dirrmtry share/texmf-dist/fonts/source/public/ar
+@dirrmtry share/texmf-dist/doc/latex/ar
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

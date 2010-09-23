@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cooltooltips/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/cooltooltips/cooltooltips.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/cooltooltips/cooltooltips.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/cooltooltips/cooltooltips.ins
+share/texmf-dist/tex/latex/cooltooltips/cooltooltips.sty
+@dirrmtry share/texmf-dist/tex/latex/cooltooltips
+@dirrmtry share/texmf-dist/source/latex/cooltooltips
+@dirrmtry share/texmf-dist/doc/latex/cooltooltips
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

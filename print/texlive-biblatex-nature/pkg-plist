@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-nature/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-nature/biblatex-nature.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-nature/style-nature.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-nature/style-nature.tex
+share/texmf-dist/tex/latex/biblatex-nature/bbx/nature.bbx
+share/texmf-dist/tex/latex/biblatex-nature/cbx/nature.cbx
+@dirrmtry share/texmf-dist/tex/latex/biblatex-nature/cbx
+@dirrmtry share/texmf-dist/tex/latex/biblatex-nature/bbx
+@dirrmtry share/texmf-dist/doc/latex/biblatex-nature
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

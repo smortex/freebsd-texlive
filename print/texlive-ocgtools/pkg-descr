@@ -1,0 +1,9 @@
+The package provides the means to insert OGC (Optional Group
+Content, known as layers) into PDF presentations. This allows
+the user to insert any TeX material into separate layers in a
+PDF document and also insert links which toggle these layers on
+and off. Parts of the PDF document, such as formatted text,
+tables, maths formulas or graphics may be switched to visible
+or invisible state by clicking active links or buttons. The
+documentation discusses the package's relation to various
+apparently similar packages.

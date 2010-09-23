@@ -1,0 +1,4 @@
+The package provides tools for defining LaTeX commands and
+environments using combinations of parameters and keys. All the
+facilities of the xkeyval and skeyval packages are available to
+the user of skeycommand.

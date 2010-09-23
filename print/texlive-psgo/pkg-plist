@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/psgo/Changes
+%%PORTDOCS%%share/texmf-dist/doc/latex/psgo/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/psgo/psgomanual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/psgo/psgomanual.tex
+share/texmf-dist/tex/latex/psgo/psgo.sty
+@dirrmtry share/texmf-dist/tex/latex/psgo
+@dirrmtry share/texmf-dist/doc/latex/psgo
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

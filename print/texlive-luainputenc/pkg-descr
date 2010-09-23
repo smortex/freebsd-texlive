@@ -1,0 +1,7 @@
+LuaTeX operates by default in UTF-8 input; thus LaTeX documents
+that need 8-bit character-sets need special treatment. (In
+fact, LaTeX documents using UTF-8 with "traditional" -- 256-
+glyph -- fonts also need support from this package.) The
+package, therefore, replaces the LaTeX standard inputenc for
+use under LuaTeX. With a current LuaTeX,the package has the
+same behaviour with LuaTeX as inputenc has under pdfTeX.

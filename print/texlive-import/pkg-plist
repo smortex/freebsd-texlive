@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/import/import.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/import/import.tex
+share/texmf-dist/tex/latex/import/import.sty
+@dirrmtry share/texmf-dist/tex/latex/import
+@dirrmtry share/texmf-dist/doc/latex/import
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

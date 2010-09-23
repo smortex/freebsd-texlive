@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-calendar/Changes
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-calendar/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-calendar/pst-calendar-docDE.ltx
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-calendar/pst-calendar-docDE.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-calendar/pst-calendar-docDE.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-calendar/pst-calendar-docFR.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-calendar/pst-calendar-docFR.tex
+share/texmf-dist/tex/latex/pst-calendar/pst-calendar.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-calendar
+@dirrmtry share/texmf-dist/doc/latex/pst-calendar
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

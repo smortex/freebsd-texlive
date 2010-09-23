@@ -1,0 +1,26 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabvar/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabvar/demo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabvar/demo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabvar/tabvar.pdf
+share/texmf-dist/fonts/afm/public/tabvar/tabvar.afm
+share/texmf-dist/fonts/map/dvips/tabvar/tabvar.map
+share/texmf-dist/fonts/tfm/public/tabvar/tabvar.tfm
+share/texmf-dist/fonts/type1/public/tabvar/tabvar.pfb
+share/texmf-dist/metapost/tabvar/tabvar.mp
+%%PORTSRC%%share/texmf-dist/source/latex/tabvar/tabvar.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tabvar/tabvar.ins
+share/texmf-dist/tex/latex/tabvar/tabvar.1
+share/texmf-dist/tex/latex/tabvar/tabvar.2
+share/texmf-dist/tex/latex/tabvar/tabvar.3
+share/texmf-dist/tex/latex/tabvar/tabvar.cfg
+share/texmf-dist/tex/latex/tabvar/tabvar.sty
+@dirrmtry share/texmf-dist/tex/latex/tabvar
+@dirrmtry share/texmf-dist/source/latex/tabvar
+@dirrmtry share/texmf-dist/metapost/tabvar
+@dirrmtry share/texmf-dist/fonts/type1/public/tabvar
+@dirrmtry share/texmf-dist/fonts/tfm/public/tabvar
+@dirrmtry share/texmf-dist/fonts/map/dvips/tabvar
+@dirrmtry share/texmf-dist/fonts/afm/public/tabvar
+@dirrmtry share/texmf-dist/doc/latex/tabvar
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

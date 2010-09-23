@@ -1,0 +1,7 @@
+Dvisvgm is a command line utility that converts TeX DVI files
+to the XML-based Scalable Vector Graphics format. The current
+version provides basic conversion functionality; development of
+an improved version continues. Users will need a working TeX
+installation including the kpathsea library and Type 1 versions
+of the fonts used in the DVI file. Dvisvgm has been
+successfully tested with both teTeX and MikTeX.

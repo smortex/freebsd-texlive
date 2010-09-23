@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-eps/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-eps/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-eps/pst-eps-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-eps/pst-eps-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-eps/pst-eps-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-eps/spirale.eps
+%%PORTSRC%%share/texmf-dist/source/generic/pst-eps/Makefile
+share/texmf-dist/tex/generic/pst-eps/pst-eps.tex
+share/texmf-dist/tex/latex/pst-eps/pst-eps.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-eps
+@dirrmtry share/texmf-dist/tex/generic/pst-eps
+@dirrmtry share/texmf-dist/source/generic/pst-eps
+@dirrmtry share/texmf-dist/doc/generic/pst-eps
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-optexp/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-optexp/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-optexp/parque-nacional.eps
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-optexp/pst-optexp-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-optexp/pst-optexp-doc.tex
+share/texmf-dist/dvips/pst-optexp/pst-optexp.pro
+share/texmf-dist/tex/generic/pst-optexp/pst-optexp.tex
+share/texmf-dist/tex/latex/pst-optexp/pst-optexp.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-optexp
+@dirrmtry share/texmf-dist/tex/generic/pst-optexp
+@dirrmtry share/texmf-dist/dvips/pst-optexp
+@dirrmtry share/texmf-dist/doc/generic/pst-optexp
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

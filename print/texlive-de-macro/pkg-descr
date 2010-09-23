@@ -1,0 +1,7 @@
+De-macro is a Python script that helps authors who like to use
+private LaTeX macros (for example, as abbreviations). A
+technical editor or a cooperating author may balk at such a
+manuscript; you can avoid manuscript rejection misery by
+running de-macro on it. De-macro will expand macros defined in
+\(re)newcommand or \(re)newenvironment commands, within the
+document, or in the document's "private" package file.

@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/auto-pst-pdf/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/auto-pst-pdf/auto-pst-pdf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/auto-pst-pdf/example-psfrag.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/auto-pst-pdf/example.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/auto-pst-pdf/example.tex
+%%PORTSRC%%share/texmf-dist/source/latex/auto-pst-pdf/auto-pst-pdf.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/auto-pst-pdf/auto-pst-pdf.ins
+share/texmf-dist/tex/latex/auto-pst-pdf/auto-pst-pdf.sty
+@dirrmtry share/texmf-dist/tex/latex/auto-pst-pdf
+@dirrmtry share/texmf-dist/source/latex/auto-pst-pdf
+@dirrmtry share/texmf-dist/doc/latex/auto-pst-pdf
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

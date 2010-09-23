@@ -1,0 +1,35 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fontspec/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/fontspec/fontspec-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fontspec/fontspec-testsuite.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fontspec/fontspec.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/fontspec.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/L001a.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/L002a.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/L003a.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/L003b.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/L005a.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/L006a.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/X001a.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/X002a.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/X003a.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/X004a.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/X005a.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/X006a.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/X100a.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/X100b.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/X100c.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/X100d.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/X100e.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/testsuite-listing.tex
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/testsuite.cls
+share/texmf-dist/tex/latex/fontspec/fontspec-patches.sty
+share/texmf-dist/tex/latex/fontspec/fontspec.cfg
+share/texmf-dist/tex/latex/fontspec/fontspec.lua
+share/texmf-dist/tex/latex/fontspec/fontspec.sty
+@dirrmtry share/texmf-dist/tex/latex/fontspec
+@dirrmtry share/texmf-dist/source/latex/fontspec/testsuite
+@dirrmtry share/texmf-dist/source/latex/fontspec
+@dirrmtry share/texmf-dist/doc/latex/fontspec
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

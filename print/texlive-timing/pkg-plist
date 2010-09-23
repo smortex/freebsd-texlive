@@ -1,0 +1,25 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/timing/prozt1.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/timing/read.me
+%%PORTDOCS%%share/texmf-dist/doc/fonts/timing/tim0594.upl
+%%PORTDOCS%%share/texmf-dist/doc/fonts/timing/timing.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/timing/timing.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/timing/timing1.pk
+%%PORTDOCS%%share/texmf-dist/doc/fonts/timing/timing1s.pk
+%%PORTDOCS%%share/texmf-dist/doc/fonts/timing/timing2.pk
+%%PORTDOCS%%share/texmf-dist/doc/fonts/timing/timing2s.pk
+share/texmf-dist/fonts/source/public/timing/timing.mf
+share/texmf-dist/fonts/source/public/timing/timing1.mf
+share/texmf-dist/fonts/source/public/timing/timing1s.mf
+share/texmf-dist/fonts/source/public/timing/timing2.mf
+share/texmf-dist/fonts/source/public/timing/timing2s.mf
+share/texmf-dist/fonts/tfm/public/timing/timing1.tfm
+share/texmf-dist/fonts/tfm/public/timing/timing1s.tfm
+share/texmf-dist/fonts/tfm/public/timing/timing2.tfm
+share/texmf-dist/fonts/tfm/public/timing/timing2s.tfm
+share/texmf-dist/tex/latex/timing/timing.sty
+@dirrmtry share/texmf-dist/tex/latex/timing
+@dirrmtry share/texmf-dist/fonts/tfm/public/timing
+@dirrmtry share/texmf-dist/fonts/source/public/timing
+@dirrmtry share/texmf-dist/doc/fonts/timing
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

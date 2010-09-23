@@ -1,0 +1,8 @@
+The package addresses, for LaTeX documents, the severe
+limitation on the number of output streams that TeX provides.
+The package uses a single TeX output stream, and writes
+"marked-up" output to this stream. The user may then post-
+process the marked-up output file, using LaTeX, and the
+document's output appears as separate files, according to the
+calls made to the package. The output to be post-processed uses
+macros from the widely-available ProTeX package.

@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/epspdfconversion/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/epspdfconversion/epspdfconversion.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/epspdfconversion/example/epspdfconversion_docu.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/epspdfconversion/example/image.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/epspdfconversion/example/image2.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/epspdfconversion/example/optionstable.tex
+share/texmf-dist/tex/latex/epspdfconversion/epspdfconversion.sty
+@dirrmtry share/texmf-dist/tex/latex/epspdfconversion
+@dirrmtry share/texmf-dist/doc/latex/epspdfconversion/example
+@dirrmtry share/texmf-dist/doc/latex/epspdfconversion
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

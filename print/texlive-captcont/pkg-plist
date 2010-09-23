@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/captcont/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/captcont/captcont.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/captcont/ltxdoc.cfg
+%%PORTDOCS%%share/texmf-dist/doc/latex/captcont/test.tex
+%%PORTSRC%%share/texmf-dist/source/latex/captcont/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/captcont/captcont.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/captcont/captcont.ins
+share/texmf-dist/tex/latex/captcont/captcont.sty
+@dirrmtry share/texmf-dist/tex/latex/captcont
+@dirrmtry share/texmf-dist/source/latex/captcont
+@dirrmtry share/texmf-dist/doc/latex/captcont
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

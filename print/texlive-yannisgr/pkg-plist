@@ -1,0 +1,40 @@
+%%PORTDOCS%%share/texmf-dist/doc/plain/yannisgr/00changes.txt
+%%PORTDOCS%%share/texmf-dist/doc/plain/yannisgr/00readme.txt
+%%PORTDOCS%%share/texmf-dist/doc/plain/yannisgr/monsyl.txt
+%%PORTDOCS%%share/texmf-dist/doc/plain/yannisgr/rgr.readme
+%%PORTDOCS%%share/texmf-dist/doc/plain/yannisgr/rgreekmacros.tex
+%%PORTDOCS%%share/texmf-dist/doc/plain/yannisgr/rgrhyph.tex
+%%PORTDOCS%%share/texmf-dist/doc/plain/yannisgr/rgrpaper.tex
+%%PORTDOCS%%share/texmf-dist/doc/plain/yannisgr/rgrtestfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/plain/yannisgr/tomakeformat.txt
+share/texmf-dist/fonts/source/public/yannisgr/csc_misce.mf
+share/texmf-dist/fonts/source/public/yannisgr/gen_m_acc.mf
+share/texmf-dist/fonts/source/public/yannisgr/greekcsc.mf
+share/texmf-dist/fonts/source/public/yannisgr/it_digits.mf
+share/texmf-dist/fonts/source/public/yannisgr/it_lig.mf
+share/texmf-dist/fonts/source/public/yannisgr/it_lower.mf
+share/texmf-dist/fonts/source/public/yannisgr/ligcsc.mf
+share/texmf-dist/fonts/source/public/yannisgr/m_accent.mf
+share/texmf-dist/fonts/source/public/yannisgr/m_greek.mf
+share/texmf-dist/fonts/source/public/yannisgr/mrgrbf10.mf
+share/texmf-dist/fonts/source/public/yannisgr/mrgrrg10.mf
+share/texmf-dist/fonts/source/public/yannisgr/mrgrsl10.mf
+share/texmf-dist/fonts/source/public/yannisgr/mrgrti10.mf
+share/texmf-dist/fonts/source/public/yannisgr/rgen_acc.mf
+share/texmf-dist/fonts/source/public/yannisgr/rgraccent.mf
+share/texmf-dist/fonts/source/public/yannisgr/rgrbase.mf
+share/texmf-dist/fonts/source/public/yannisgr/rgrbf10.mf
+share/texmf-dist/fonts/source/public/yannisgr/rgreek.mf
+share/texmf-dist/fonts/source/public/yannisgr/rgrlig.mf
+share/texmf-dist/fonts/source/public/yannisgr/rgrlower.mf
+share/texmf-dist/fonts/source/public/yannisgr/rgrpunct.mf
+share/texmf-dist/fonts/source/public/yannisgr/rgrrg10.mf
+share/texmf-dist/fonts/source/public/yannisgr/rgrsc10.mf
+share/texmf-dist/fonts/source/public/yannisgr/rgrsl10.mf
+share/texmf-dist/fonts/source/public/yannisgr/rgrti10.mf
+share/texmf-dist/fonts/source/public/yannisgr/rgrupper.mf
+share/texmf-dist/fonts/source/public/yannisgr/scsc.mf
+@dirrmtry share/texmf-dist/fonts/source/public/yannisgr
+@dirrmtry share/texmf-dist/doc/plain/yannisgr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

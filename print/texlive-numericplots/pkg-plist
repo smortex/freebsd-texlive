@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/BasicFunctionality.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/DataTestRealData.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/FurtherExamples.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/License.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/MultiplePlots.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/NumericPlots.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/NumericPlotsDoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/README.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/TechnicalDetails.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/TestPlots.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/history.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/options.tex
+share/texmf-dist/tex/latex/numericplots/NumericPlots.sty
+@dirrmtry share/texmf-dist/tex/latex/numericplots
+@dirrmtry share/texmf-dist/doc/latex/numericplots
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

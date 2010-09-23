@@ -1,0 +1,7 @@
+share/texmf/doc/man/man1/dt2dv.1
+share/texmf/doc/man/man1/dt2dv.man1.pdf
+share/texmf/doc/man/man1/dv2dt.1
+share/texmf/doc/man/man1/dv2dt.man1.pdf
+@dirrmtry share/texmf/doc/man/man1
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

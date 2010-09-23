@@ -1,0 +1,21 @@
+%%PORTDOCS%%share/texmf-dist/doc/mex/base/00readme
+%%PORTDOCS%%share/texmf-dist/doc/mex/base/mex.html
+%%PORTDOCS%%share/texmf-dist/doc/mex/base/mexinfo.eng
+%%PORTDOCS%%share/texmf-dist/doc/mex/base/mexinfo.pol
+%%PORTDOCS%%share/texmf-dist/doc/mex/base/qq.eps
+%%PORTDOCS%%share/texmf-dist/doc/mex/base/tstmex.tex
+%%PORTSRC%%share/texmf-dist/source/mex/base/eminst.zip
+%%PORTSRC%%share/texmf-dist/source/mex/base/istyles.zip
+share/texmf-dist/tex/mex/base/lamex.tex
+share/texmf-dist/tex/mex/base/mex.tex
+share/texmf-dist/tex/mex/base/mex1.tex
+share/texmf-dist/tex/mex/base/mex2.tex
+share/texmf-dist/tex/mex/base/mexconf.tex
+share/texmf-dist/tex/mex/config/mex.ini
+share/texmf-dist/tex/mex/config/pdfmex.ini
+@dirrmtry share/texmf-dist/tex/mex/config
+@dirrmtry share/texmf-dist/tex/mex/base
+@dirrmtry share/texmf-dist/source/mex/base
+@dirrmtry share/texmf-dist/doc/mex/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

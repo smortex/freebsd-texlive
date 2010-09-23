@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/spotcolor/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/spotcolor/readme.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/spotcolor/readme.tcp
+%%PORTDOCS%%share/texmf-dist/doc/latex/spotcolor/readme.tex
+share/texmf-dist/tex/latex/spotcolor/spotcolor.sty
+share/texmf-dist/tex/latex/spotcolor/spotcolorhks.tex
+share/texmf-dist/tex/latex/spotcolor/spotcolorpantone.tex
+@dirrmtry share/texmf-dist/tex/latex/spotcolor
+@dirrmtry share/texmf-dist/doc/latex/spotcolor
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

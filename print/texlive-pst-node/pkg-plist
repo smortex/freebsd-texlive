@@ -1,0 +1,21 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-node/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-node/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-node/more_docs/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-node/more_docs/psmatrix-docDE.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-node/more_docs/psmatrix-docDE.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-node/more_docs/psmatrix-docDE.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-node/pst-node-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-node/pst-node-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-node/pst-node-doc.tex
+share/texmf-dist/dvips/pst-node/pst-node.pro
+%%PORTSRC%%share/texmf-dist/source/generic/pst-node/Makefile
+share/texmf-dist/tex/generic/pst-node/pst-node.tex
+share/texmf-dist/tex/latex/pst-node/pst-node.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-node
+@dirrmtry share/texmf-dist/tex/generic/pst-node
+@dirrmtry share/texmf-dist/source/generic/pst-node
+@dirrmtry share/texmf-dist/dvips/pst-node
+@dirrmtry share/texmf-dist/doc/generic/pst-node/more_docs
+@dirrmtry share/texmf-dist/doc/generic/pst-node
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

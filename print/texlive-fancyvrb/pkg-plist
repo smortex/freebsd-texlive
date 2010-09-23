@@ -1,0 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancyvrb/Changes
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancyvrb/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancyvrb/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancyvrb/README.contrib
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancyvrb/fancyvrb.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancyvrb/fvrb-ex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancyvrb/t-fvrbex.tex
+%%PORTSRC%%share/texmf-dist/source/latex/fancyvrb/fancyvrb.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fancyvrb/fancyvrb.ins
+%%PORTSRC%%share/texmf-dist/source/latex/fancyvrb/fvrb-ex.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fancyvrb/fvrb-ex.ins
+share/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+share/texmf-dist/tex/latex/fancyvrb/fvrb-ex.sty
+share/texmf-dist/tex/latex/fancyvrb/hbaw.sty
+share/texmf-dist/tex/latex/fancyvrb/hcolor.sty
+@dirrmtry share/texmf-dist/tex/latex/fancyvrb
+@dirrmtry share/texmf-dist/source/latex/fancyvrb
+@dirrmtry share/texmf-dist/doc/latex/fancyvrb
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

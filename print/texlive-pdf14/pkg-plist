@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdf14/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdf14/pdf14.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdf14/test-pdf14.tex
+%%PORTSRC%%share/texmf-dist/source/latex/pdf14/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/pdf14/pdf14.dtx
+share/texmf-dist/tex/latex/pdf14/pdf14.sty
+@dirrmtry share/texmf-dist/tex/latex/pdf14
+@dirrmtry share/texmf-dist/source/latex/pdf14
+@dirrmtry share/texmf-dist/doc/latex/pdf14
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

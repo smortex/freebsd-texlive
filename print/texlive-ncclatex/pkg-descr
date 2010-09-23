@@ -1,0 +1,7 @@
+The ncc class provides a framework for a common class to
+replace the standard article, book and report classes, and
+providing a "preprint" class. The class's extensions are
+provided in a number of small packages, some of which may also
+be used with the standard classes. The ncclatex package also
+loads many of the packages of, and requires the latest version
+of the ncctools bundle.

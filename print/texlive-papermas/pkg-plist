@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/papermas/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/papermas/ltxdoc.cfg
+%%PORTDOCS%%share/texmf-dist/doc/latex/papermas/papermas-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/papermas/papermas-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/papermas/papermas.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/papermas/papermas.drv
+%%PORTSRC%%share/texmf-dist/source/latex/papermas/papermas.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/papermas/papermas.ins
+share/texmf-dist/tex/latex/papermas/papermas.sty
+@dirrmtry share/texmf-dist/tex/latex/papermas
+@dirrmtry share/texmf-dist/source/latex/papermas
+@dirrmtry share/texmf-dist/doc/latex/papermas
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,8 @@
+%%PORTSRC%%share/texmf-dist/source/latex/stack/stack.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stack/stack.ins
+share/texmf-dist/tex/latex/stack/relinput.sty
+share/texmf-dist/tex/latex/stack/stack.sty
+@dirrmtry share/texmf-dist/tex/latex/stack
+@dirrmtry share/texmf-dist/source/latex/stack
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

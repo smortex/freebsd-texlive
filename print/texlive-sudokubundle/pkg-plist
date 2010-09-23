@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/sudokubundle/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/sudokubundle/somesudoku.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sudokubundle/sudokubundle.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/sudokubundle/sudokubundle.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/sudokubundle/sudokubundle.ins
+share/texmf-dist/tex/latex/sudokubundle/createsudoku.sty
+share/texmf-dist/tex/latex/sudokubundle/printsudoku.sty
+share/texmf-dist/tex/latex/sudokubundle/solvesudoku.sty
+@dirrmtry share/texmf-dist/tex/latex/sudokubundle
+@dirrmtry share/texmf-dist/source/latex/sudokubundle
+@dirrmtry share/texmf-dist/doc/latex/sudokubundle
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

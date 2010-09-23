@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/paper/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/paper/install
+%%PORTDOCS%%share/texmf-dist/doc/latex/paper/journal1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/paper/journal2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/paper/local.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/paper/paper.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/paper/testj.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/paper/testp.tex
+%%PORTSRC%%share/texmf-dist/source/latex/paper/paper.drv
+%%PORTSRC%%share/texmf-dist/source/latex/paper/paper.dtx
+share/texmf-dist/tex/latex/paper/journal.cls
+share/texmf-dist/tex/latex/paper/journal.sty
+share/texmf-dist/tex/latex/paper/paper.cls
+share/texmf-dist/tex/latex/paper/paper.sty
+@dirrmtry share/texmf-dist/tex/latex/paper
+@dirrmtry share/texmf-dist/source/latex/paper
+@dirrmtry share/texmf-dist/doc/latex/paper
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

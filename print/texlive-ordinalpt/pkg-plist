@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ordinalpt/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ordinalpt/ordinalpt.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/ordinalpt/ordinalpt.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ordinalpt/ordinalpt.ins
+share/texmf-dist/tex/latex/ordinalpt/ordinalpt.sty
+@dirrmtry share/texmf-dist/tex/latex/ordinalpt
+@dirrmtry share/texmf-dist/source/latex/ordinalpt
+@dirrmtry share/texmf-dist/doc/latex/ordinalpt
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

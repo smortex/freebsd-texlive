@@ -1,0 +1,43 @@
+share/texmf-dist/bibtex/bst/amscls/amsalpha.bst
+share/texmf-dist/bibtex/bst/amscls/amsplain.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/amscls/00LICENSE.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/amscls/amsart.template
+%%PORTDOCS%%share/texmf-dist/doc/latex/amscls/amsbook.template
+%%PORTDOCS%%share/texmf-dist/doc/latex/amscls/amsclass.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/amscls/amsdtx.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/amscls/amsmidx.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/amscls/amsmidx.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/amscls/amsproc.template
+%%PORTDOCS%%share/texmf-dist/doc/latex/amscls/amsthdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/amscls/diffs-c.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/amscls/instr-l.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/amscls/thmtest.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/amscls/upref.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/amscls/00readme.txt
+%%PORTSRC%%share/texmf-dist/source/latex/amscls/ams-c1.ins
+%%PORTSRC%%share/texmf-dist/source/latex/amscls/amsclass.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/amscls/amsdtx.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/amscls/amsdtx.ins
+%%PORTSRC%%share/texmf-dist/source/latex/amscls/amsmidx.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/amscls/amsmidx.ins
+%%PORTSRC%%share/texmf-dist/source/latex/amscls/amsthdoc.tex
+%%PORTSRC%%share/texmf-dist/source/latex/amscls/install.txt
+%%PORTSRC%%share/texmf-dist/source/latex/amscls/instr-l.tex
+%%PORTSRC%%share/texmf-dist/source/latex/amscls/manifest.txt
+%%PORTSRC%%share/texmf-dist/source/latex/amscls/thmtest.tex
+%%PORTSRC%%share/texmf-dist/source/latex/amscls/upref.dtx
+share/texmf-dist/tex/latex/amscls/amsart.cls
+share/texmf-dist/tex/latex/amscls/amsbook.cls
+share/texmf-dist/tex/latex/amscls/amsbooka.sty
+share/texmf-dist/tex/latex/amscls/amsdtx.cls
+share/texmf-dist/tex/latex/amscls/amsmidx.sty
+share/texmf-dist/tex/latex/amscls/amsproc.cls
+share/texmf-dist/tex/latex/amscls/amsthm.sty
+share/texmf-dist/tex/latex/amscls/rkvbeta.sty
+share/texmf-dist/tex/latex/amscls/upref.sty
+@dirrmtry share/texmf-dist/tex/latex/amscls
+@dirrmtry share/texmf-dist/source/latex/amscls
+@dirrmtry share/texmf-dist/doc/latex/amscls
+@dirrmtry share/texmf-dist/bibtex/bst/amscls
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

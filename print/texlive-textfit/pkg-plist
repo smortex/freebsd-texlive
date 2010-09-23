@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/textfit/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/textfit/makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/textfit/manifest
+%%PORTSRC%%share/texmf-dist/source/latex/textfit/textfit.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/textfit/textfit.ins
+share/texmf-dist/tex/latex/textfit/textfit.sty
+@dirrmtry share/texmf-dist/tex/latex/textfit
+@dirrmtry share/texmf-dist/source/latex/textfit
+@dirrmtry share/texmf-dist/doc/latex/textfit
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

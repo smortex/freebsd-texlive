@@ -1,0 +1,31 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/CHANGE.LOG
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/CHANGE.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/FILES.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/NNOUNCE.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/RELEAS03.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/demo/arseneau.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/demo/substr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/docsrc/fifinddo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/docsrc/makedoc.cfg
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/docsrc/makedoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/docsrc/mdoccheat.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/docsrc/niceverb.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/docsrc/wikicheat.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/fifinddo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/makedoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/mdoccheat.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/niceverb.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/wikicheat.pdf
+share/texmf-dist/tex/latex/nicetext/fifinddo.sty
+share/texmf-dist/tex/latex/nicetext/makedoc.sty
+share/texmf-dist/tex/latex/nicetext/mdoccorr.cfg
+share/texmf-dist/tex/latex/nicetext/niceverb.sty
+share/texmf-dist/tex/latex/nicetext/wiki.sty
+@dirrmtry share/texmf-dist/tex/latex/nicetext
+@dirrmtry share/texmf-dist/doc/latex/nicetext/docsrc
+@dirrmtry share/texmf-dist/doc/latex/nicetext/demo
+@dirrmtry share/texmf-dist/doc/latex/nicetext
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

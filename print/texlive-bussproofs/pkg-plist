@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bussproofs/testbp2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bussproofs/testbp2.tex
+share/texmf-dist/tex/latex/bussproofs/bussproofs.sty
+@dirrmtry share/texmf-dist/tex/latex/bussproofs
+@dirrmtry share/texmf-dist/doc/latex/bussproofs
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftwatermark/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftwatermark/draftwatermark.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/draftwatermark/draftwatermark.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/draftwatermark/draftwatermark.ins
+share/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
+@dirrmtry share/texmf-dist/tex/latex/draftwatermark
+@dirrmtry share/texmf-dist/source/latex/draftwatermark
+@dirrmtry share/texmf-dist/doc/latex/draftwatermark
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

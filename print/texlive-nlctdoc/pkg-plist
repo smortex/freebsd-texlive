@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/nlctdoc/README
+share/texmf-dist/tex/latex/nlctdoc/nlctdoc.cls
+@dirrmtry share/texmf-dist/tex/latex/nlctdoc
+@dirrmtry share/texmf-dist/doc/latex/nlctdoc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

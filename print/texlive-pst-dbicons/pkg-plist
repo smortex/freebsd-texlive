@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-dbicons/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-dbicons/mondial-ER.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-dbicons/pst-dbicons.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/pst-dbicons/pst-dbicons.drv
+%%PORTSRC%%share/texmf-dist/source/generic/pst-dbicons/pst-dbicons.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/pst-dbicons/pst-dbicons.ins
+share/texmf-dist/tex/latex/pst-dbicons/pst-dbicons.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-dbicons
+@dirrmtry share/texmf-dist/source/generic/pst-dbicons
+@dirrmtry share/texmf-dist/doc/generic/pst-dbicons
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

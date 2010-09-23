@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/repeatindex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/repeatindex/testrepeatindex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/repeatindex/testrepeatindex.tex
+share/texmf-dist/makeindex/repeatindex/repeatindex.ist
+share/texmf-dist/tex/latex/repeatindex/repeatindex.sty
+@dirrmtry share/texmf-dist/tex/latex/repeatindex
+@dirrmtry share/texmf-dist/makeindex/repeatindex
+@dirrmtry share/texmf-dist/doc/latex/repeatindex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

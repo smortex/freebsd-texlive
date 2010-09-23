@@ -1,0 +1,4 @@
+Findhyph is a Perl script that will analyse the log file from
+running your document with \tracingparagraphs=1 set. The output
+contains enough context to enable you to find the hyphenated
+word that's being referenced.

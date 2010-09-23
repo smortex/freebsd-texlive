@@ -1,0 +1,4 @@
+share/texmf-dist/bibtex/bst/apalike2/apalike2.bst
+@dirrmtry share/texmf-dist/bibtex/bst/apalike2
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

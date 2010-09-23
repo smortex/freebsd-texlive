@@ -1,0 +1,26 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gfsporson/OFL-FAQ.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gfsporson/OFL.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gfsporson/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gfsporson/gfsporson.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gfsporson/gfsporson.tex
+share/texmf-dist/fonts/afm/public/gfsporson/GFSPorson-Regular.afm
+share/texmf-dist/fonts/enc/dvips/gfsporson/porsonel.enc
+share/texmf-dist/fonts/map/dvips/gfsporson/gfsporson.map
+share/texmf-dist/fonts/opentype/public/gfsporson/GFSPorson.otf
+share/texmf-dist/fonts/tfm/public/gfsporson/gporsonrg6a.tfm
+share/texmf-dist/fonts/tfm/public/gfsporson/gporsonrg6r.tfm
+share/texmf-dist/fonts/type1/public/gfsporson/GFSPorson-Regular.pfb
+share/texmf-dist/fonts/vf/public/gfsporson/gporsonrg6a.vf
+share/texmf-dist/tex/latex/gfsporson/gfsporson.sty
+share/texmf-dist/tex/latex/gfsporson/lgrporson.fd
+@dirrmtry share/texmf-dist/tex/latex/gfsporson
+@dirrmtry share/texmf-dist/fonts/vf/public/gfsporson
+@dirrmtry share/texmf-dist/fonts/type1/public/gfsporson
+@dirrmtry share/texmf-dist/fonts/tfm/public/gfsporson
+@dirrmtry share/texmf-dist/fonts/opentype/public/gfsporson
+@dirrmtry share/texmf-dist/fonts/map/dvips/gfsporson
+@dirrmtry share/texmf-dist/fonts/enc/dvips/gfsporson
+@dirrmtry share/texmf-dist/fonts/afm/public/gfsporson
+@dirrmtry share/texmf-dist/doc/fonts/gfsporson
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

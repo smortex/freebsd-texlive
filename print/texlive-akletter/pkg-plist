@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/akletter/akletter.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/akletter/akletter.upl
+%%PORTDOCS%%share/texmf-dist/doc/latex/akletter/letterdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/akletter/letterdoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/akletter/lettereng.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/akletter/lettereng.tex
+share/texmf-dist/tex/latex/akletter/akfax.cfg
+share/texmf-dist/tex/latex/akletter/akletter.cfg
+share/texmf-dist/tex/latex/akletter/akletter.cls
+share/texmf-dist/tex/latex/akletter/myletter.cls
+@dirrmtry share/texmf-dist/tex/latex/akletter
+@dirrmtry share/texmf-dist/doc/latex/akletter
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

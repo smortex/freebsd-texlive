@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/technics/png2eps.sh
+%%PORTDOCS%%share/texmf-dist/doc/latex/technics/rf-logo.zip
+%%PORTDOCS%%share/texmf-dist/doc/latex/technics/technics.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/technics/technics.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/technics/view-dvi.sh
+%%PORTDOCS%%share/texmf-dist/doc/latex/technics/vmlinux.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/technics/vmlinux.png
+share/texmf-dist/tex/latex/technics/technics.sty
+@dirrmtry share/texmf-dist/tex/latex/technics
+@dirrmtry share/texmf-dist/doc/latex/technics
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/leading/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/leading/leading.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/leading/leading.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/leading/leading.ins
+share/texmf-dist/tex/latex/leading/leading.sty
+@dirrmtry share/texmf-dist/tex/latex/leading
+@dirrmtry share/texmf-dist/source/latex/leading
+@dirrmtry share/texmf-dist/doc/latex/leading
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

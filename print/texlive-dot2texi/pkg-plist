@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/dot2texi/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/dot2texi/dot2texi.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dot2texi/dot2texi.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dot2texi/examples/d2tpstexamples.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dot2texi/examples/d2tpstexamples.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dot2texi/examples/d2ttikzexamples.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dot2texi/examples/d2ttikzexamples.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dot2texi/examples/docgraphs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dot2texi/examples/docgraphs.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dot2texi/examples/docgraphsorig.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dot2texi/gpl.txt
+share/texmf-dist/tex/latex/dot2texi/dot2texi.sty
+@dirrmtry share/texmf-dist/tex/latex/dot2texi
+@dirrmtry share/texmf-dist/doc/latex/dot2texi/examples
+@dirrmtry share/texmf-dist/doc/latex/dot2texi
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

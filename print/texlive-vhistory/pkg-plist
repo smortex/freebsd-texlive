@@ -1,0 +1,24 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/README.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/de_beispiel.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/de_einleitung.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/de_sets.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/de_vhistory.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/en_example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/en_introduction.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/en_sets.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/en_vhistory.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/hyperref.cfg
+%%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/vh_set_example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/vh_set_example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/vh_sets_de.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/vh_sets_de.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/vh_sets_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/vh_sets_en.tex
+share/texmf-dist/tex/latex/vhistory/sets.sty
+share/texmf-dist/tex/latex/vhistory/vhistory.sty
+@dirrmtry share/texmf-dist/tex/latex/vhistory
+@dirrmtry share/texmf-dist/doc/latex/vhistory
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

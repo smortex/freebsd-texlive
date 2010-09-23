@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/nih/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/nih/example-biosketch.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nih/example-biosketch.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/nih/example-nih-cls.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nih/example-nih-cls.tex
+share/texmf-dist/tex/latex/nih/denselists.sty
+share/texmf-dist/tex/latex/nih/nih.cls
+@dirrmtry share/texmf-dist/tex/latex/nih
+@dirrmtry share/texmf-dist/doc/latex/nih
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

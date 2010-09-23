@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-text/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-text/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-text/pst-text-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-text/pst-text-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-text/pst-text-doc.tex
+share/texmf-dist/dvips/pst-text/pst-text.pro
+%%PORTSRC%%share/texmf-dist/source/generic/pst-text/Makefile
+share/texmf-dist/tex/generic/pst-text/pst-char.tex
+share/texmf-dist/tex/generic/pst-text/pst-text.tex
+share/texmf-dist/tex/latex/pst-text/pst-char.sty
+share/texmf-dist/tex/latex/pst-text/pst-text.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-text
+@dirrmtry share/texmf-dist/tex/generic/pst-text
+@dirrmtry share/texmf-dist/source/generic/pst-text
+@dirrmtry share/texmf-dist/dvips/pst-text
+@dirrmtry share/texmf-dist/doc/generic/pst-text
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

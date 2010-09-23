@@ -1,0 +1,5 @@
+This package implements a dialect of the Beta Code encoding
+(TLG and Perseus Projects) for typesetting classical Greek
+using Claudio Beccari's Greek Fonts. The package provides
+virtual fonts, to reference Beccari's fonts in bgreek mode, and
+support macros for use with LaTeX.

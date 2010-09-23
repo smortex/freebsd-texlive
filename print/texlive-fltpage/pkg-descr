@@ -1,0 +1,5 @@
+Defines environments FPfigure and FPtable, analogous to figure
+and table. In twoside mode the caption will be set on the
+opposite page of a figure/table which needs a whole page. In
+oneside mode the caption will be set on the preceding or
+following page.

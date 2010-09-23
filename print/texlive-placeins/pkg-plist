@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/placeins/placeins-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/placeins/placeins-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/placeins/placeins.txt
+share/texmf-dist/tex/latex/placeins/placeins.sty
+@dirrmtry share/texmf-dist/tex/latex/placeins
+@dirrmtry share/texmf-dist/doc/latex/placeins
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

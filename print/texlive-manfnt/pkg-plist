@@ -1,0 +1,13 @@
+share/texmf-dist/fonts/afm/hoekwater/manfnt/manfnt.afm
+share/texmf-dist/fonts/map/dvips/manfnt/manfnt.map
+share/texmf-dist/fonts/type1/hoekwater/manfnt/manfnt.pfb
+%%PORTSRC%%share/texmf-dist/source/latex/manfnt/manfnt.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/manfnt/manfnt.ins
+share/texmf-dist/tex/latex/manfnt/manfnt.sty
+@dirrmtry share/texmf-dist/tex/latex/manfnt
+@dirrmtry share/texmf-dist/source/latex/manfnt
+@dirrmtry share/texmf-dist/fonts/type1/hoekwater/manfnt
+@dirrmtry share/texmf-dist/fonts/map/dvips/manfnt
+@dirrmtry share/texmf-dist/fonts/afm/hoekwater/manfnt
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

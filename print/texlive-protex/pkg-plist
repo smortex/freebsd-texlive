@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/protex/LitProg
+%%PORTDOCS%%share/texmf-dist/doc/latex/protex/README
+share/texmf-dist/tex/latex/protex/AlProTex.sty
+share/texmf-dist/tex/latex/protex/ProTex.sty
+@dirrmtry share/texmf-dist/tex/latex/protex
+@dirrmtry share/texmf-dist/doc/latex/protex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

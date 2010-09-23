@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-gr3d/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-gr3d/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-gr3d/pst-gr3d.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/pst-gr3d/pst-gr3d.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/pst-gr3d/pst-gr3d.ins
+share/texmf-dist/tex/generic/pst-gr3d/pst-gr3d.tex
+share/texmf-dist/tex/latex/pst-gr3d/pst-gr3d.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-gr3d
+@dirrmtry share/texmf-dist/tex/generic/pst-gr3d
+@dirrmtry share/texmf-dist/source/latex/pst-gr3d
+@dirrmtry share/texmf-dist/doc/generic/pst-gr3d
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

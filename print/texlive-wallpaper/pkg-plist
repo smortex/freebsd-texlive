@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/wallpaper/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/wallpaper/example/TGTamber.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/wallpaper/example/auto/example.el
+%%PORTDOCS%%share/texmf-dist/doc/latex/wallpaper/example/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/wallpaper/example/hya.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/wallpaper/wallpapermanual.pdf
+share/texmf-dist/tex/latex/wallpaper/wallpaper.sty
+@dirrmtry share/texmf-dist/tex/latex/wallpaper
+@dirrmtry share/texmf-dist/doc/latex/wallpaper/example/auto
+@dirrmtry share/texmf-dist/doc/latex/wallpaper/example
+@dirrmtry share/texmf-dist/doc/latex/wallpaper
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

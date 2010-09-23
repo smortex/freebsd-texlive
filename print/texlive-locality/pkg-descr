@@ -1,0 +1,4 @@
+A toolbox of macros designed to allow the LaTeX programmer to
+work around some of the restrictions of the TeX grouping
+mechanisms. The present release offers a preliminary view of
+the package; not all of its facilities are working optimally

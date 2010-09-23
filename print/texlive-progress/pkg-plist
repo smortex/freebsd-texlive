@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/progress/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/progress/progress.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/progress/progress.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/progress/progress20030701.html
+share/texmf-dist/tex/latex/progress/progress.sty
+@dirrmtry share/texmf-dist/tex/latex/progress
+@dirrmtry share/texmf-dist/doc/latex/progress
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

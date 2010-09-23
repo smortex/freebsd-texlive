@@ -1,0 +1,29 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/epspdf/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/support/epspdf/Changelog
+%%PORTDOCS%%share/texmf-dist/doc/support/epspdf/README
+%%PORTDOCS%%share/texmf-dist/doc/support/epspdf/README.tl
+%%PORTDOCS%%share/texmf-dist/doc/support/epspdf/default.css
+%%PORTDOCS%%share/texmf-dist/doc/support/epspdf/epspdf.install
+%%PORTDOCS%%share/texmf-dist/doc/support/epspdf/epspdf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/epspdf/epspdf.texi
+%%PORTDOCS%%share/texmf-dist/doc/support/epspdf/images/cnv_osx.png
+%%PORTDOCS%%share/texmf-dist/doc/support/epspdf/images/config_lnx.png
+%%PORTDOCS%%share/texmf-dist/doc/support/epspdf/images/epspdf.png
+%%PORTDOCS%%share/texmf-dist/doc/support/epspdf/images/logo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/epspdf/images/main_w32.png
+%%PORTDOCS%%share/texmf-dist/doc/support/epspdf/images/ps_settings.png
+%%PORTDOCS%%share/texmf-dist/doc/support/epspdf/index.html
+%%PORTDOCS%%share/texmf-dist/doc/support/epspdf/pstexi.tex
+share/texmf-dist/scripts/epspdf/epspdf.help
+share/texmf-dist/scripts/epspdf/epspdf.icns
+share/texmf-dist/scripts/epspdf/epspdf.ico
+share/texmf-dist/scripts/epspdf/epspdf.rb
+share/texmf-dist/scripts/epspdf/epspdfrc.rb
+share/texmf-dist/scripts/epspdf/epspdftk.tcl
+share/texmf-dist/scripts/epspdf/makegray.pro
+%%PORTDOCS%%share/texmf/doc/info/epspdf.info
+@dirrmtry share/texmf/doc/info
+@dirrmtry share/texmf-dist/doc/support/epspdf/images
+@dirrmtry share/texmf-dist/doc/support/epspdf
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

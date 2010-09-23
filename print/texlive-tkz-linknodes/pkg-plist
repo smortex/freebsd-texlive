@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/doc/TKZdoc-linknodes-us.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/doc/TKZdoc-linknodes-us.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/doc/equation.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/doc/equation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/doc/quadratic.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/doc/quadratic.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/doc/system.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/doc/system.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/readme-linknodes.txt
+share/texmf-dist/tex/latex/tkz-linknodes/tkz-linknodes.sty
+@dirrmtry share/texmf-dist/tex/latex/tkz-linknodes
+@dirrmtry share/texmf-dist/doc/latex/tkz-linknodes/doc
+@dirrmtry share/texmf-dist/doc/latex/tkz-linknodes
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

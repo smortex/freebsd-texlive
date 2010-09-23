@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bracketkey/Malva.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bracketkey/Malva.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/bracketkey/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/bracketkey/bracketkey.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bracketkey/bracketkey.tex
+share/texmf-dist/tex/latex/bracketkey/bracketkey.sty
+@dirrmtry share/texmf-dist/tex/latex/bracketkey
+@dirrmtry share/texmf-dist/doc/latex/bracketkey
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

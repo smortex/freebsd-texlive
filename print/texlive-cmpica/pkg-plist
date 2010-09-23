@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cmpica/README
+share/texmf-dist/fonts/source/public/cmpica/cmpica.mf
+share/texmf-dist/fonts/source/public/cmpica/cmpicab.mf
+share/texmf-dist/fonts/source/public/cmpica/cmpicati.mf
+share/texmf-dist/fonts/source/public/cmpica/pcpunct.mf
+share/texmf-dist/fonts/source/public/cmpica/pica.mf
+share/texmf-dist/fonts/tfm/public/cmpica/cmpica.tfm
+share/texmf-dist/fonts/tfm/public/cmpica/cmpicab.tfm
+share/texmf-dist/fonts/tfm/public/cmpica/cmpicati.tfm
+@dirrmtry share/texmf-dist/fonts/tfm/public/cmpica
+@dirrmtry share/texmf-dist/fonts/source/public/cmpica
+@dirrmtry share/texmf-dist/doc/latex/cmpica
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

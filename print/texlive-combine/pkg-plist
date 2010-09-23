@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/combine/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/combine/combine.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/combine/combine.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/combine/combine.ins
+share/texmf-dist/tex/latex/combine/combcite.sty
+share/texmf-dist/tex/latex/combine/combine.cls
+share/texmf-dist/tex/latex/combine/combinet.sty
+share/texmf-dist/tex/latex/combine/combnat.sty
+@dirrmtry share/texmf-dist/tex/latex/combine
+@dirrmtry share/texmf-dist/source/latex/combine
+@dirrmtry share/texmf-dist/doc/latex/combine
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/mylatexformat/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/mylatexformat/mylatexformat.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/mylatexformat/mylatexformat.drv
+%%PORTSRC%%share/texmf-dist/source/latex/mylatexformat/mylatexformat.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mylatexformat/mylatexformat.ins
+share/texmf-dist/tex/latex/mylatexformat/mylatexformat.ltx
+@dirrmtry share/texmf-dist/tex/latex/mylatexformat
+@dirrmtry share/texmf-dist/source/latex/mylatexformat
+@dirrmtry share/texmf-dist/doc/latex/mylatexformat
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

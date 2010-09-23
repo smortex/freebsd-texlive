@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/algorithms/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/algorithms/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/algorithms/THANKS
+%%PORTDOCS%%share/texmf-dist/doc/latex/algorithms/algorithms.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/algorithms/algorithms.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/algorithms/algorithms.ins
+share/texmf-dist/tex/latex/algorithms/algorithm.sty
+share/texmf-dist/tex/latex/algorithms/algorithmic.sty
+@dirrmtry share/texmf-dist/tex/latex/algorithms
+@dirrmtry share/texmf-dist/source/latex/algorithms
+@dirrmtry share/texmf-dist/doc/latex/algorithms
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

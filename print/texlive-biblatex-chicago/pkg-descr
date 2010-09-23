@@ -1,0 +1,4 @@
+This is a biblatex style that implements the Chicago 'author-
+date' and 'notes with bibliography' style specifications given
+in the Chicago Manual of Style, 15th edition. The package was
+previously known as biblatex-chicago-notes-df.

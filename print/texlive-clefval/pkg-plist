@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/clefval/Changements
+%%PORTDOCS%%share/texmf-dist/doc/latex/clefval/Changes
+%%PORTDOCS%%share/texmf-dist/doc/latex/clefval/LISEZMOI
+%%PORTDOCS%%share/texmf-dist/doc/latex/clefval/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/clefval/clefval.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/clefval/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/clefval/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/clefval/exemple.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/clefval/exemple.tex
+%%PORTSRC%%share/texmf-dist/source/latex/clefval/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/clefval/clefval.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/clefval/clefval.ins
+%%PORTSRC%%share/texmf-dist/source/latex/clefval/fra-clefval.ins
+share/texmf-dist/tex/latex/clefval/clefval.sty
+@dirrmtry share/texmf-dist/tex/latex/clefval
+@dirrmtry share/texmf-dist/source/latex/clefval
+@dirrmtry share/texmf-dist/doc/latex/clefval
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

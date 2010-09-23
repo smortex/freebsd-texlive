@@ -1,0 +1,5 @@
+This package makes PiCTeX recognize lines and arcs in
+determining the "bounding box" of a picture. (PiCTeX so far
+accounted for put commands only). The "bounding box" is
+essential for proper placement of a picture between running
+text and margins and for keeping the running text away.

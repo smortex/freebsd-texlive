@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/diagnose/INSTALL
+%%PORTDOCS%%share/texmf-dist/doc/latex/diagnose/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/diagnose/diagnose.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/diagnose/diagnose.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/diagnose/mls-diag.tex
+share/texmf-dist/tex/latex/diagnose/diagnose.sty
+@dirrmtry share/texmf-dist/tex/latex/diagnose
+@dirrmtry share/texmf-dist/doc/latex/diagnose
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

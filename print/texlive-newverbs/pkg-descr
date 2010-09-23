@@ -1,0 +1,5 @@
+The package allows the definition of \verb variants which add
+TeX code before and after the verbatim text (e.g., quotes or
+surrounding \fbox{}). When used together with the shortvrb
+package it allows the definition of short verbatim characters
+which use this package's variant instead of the normal \verb.

@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/inlinedef/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/inlinedef/inlinedef.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/inlinedef/inlinetest.tex
+%%PORTSRC%%share/texmf-dist/source/latex/inlinedef/inlinedef.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/inlinedef/inlinedef.ins
+share/texmf-dist/tex/latex/inlinedef/inlinedef.sty
+@dirrmtry share/texmf-dist/tex/latex/inlinedef
+@dirrmtry share/texmf-dist/source/latex/inlinedef
+@dirrmtry share/texmf-dist/doc/latex/inlinedef
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

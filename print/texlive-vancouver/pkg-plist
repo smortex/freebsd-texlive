@@ -1,0 +1,10 @@
+share/texmf-dist/bibtex/bib/vancouver/vancouver.bib
+share/texmf-dist/bibtex/bst/vancouver/vancouver.bst
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/vancouver/README
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/vancouver/vancouver.pdf
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/vancouver/vancouver.tex
+@dirrmtry share/texmf-dist/doc/bibtex/vancouver
+@dirrmtry share/texmf-dist/bibtex/bst/vancouver
+@dirrmtry share/texmf-dist/bibtex/bib/vancouver
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

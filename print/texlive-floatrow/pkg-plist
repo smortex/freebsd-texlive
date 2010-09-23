@@ -1,0 +1,31 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/floatrow/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/floatrow/floatrow-rus.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/floatrow/floatrow-rus.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/floatrow/floatrow.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/floatrow/fr-sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/floatrow/frsample01.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/floatrow/frsample02.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/floatrow/frsample03.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/floatrow/frsample04.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/floatrow/frsample05.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/floatrow/frsample06.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/floatrow/frsample07.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/floatrow/frsample10.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/floatrow/frsample11.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/floatrow/frsample12.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/floatrow/pictures.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/floatrow/sample-longtable-rus.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/floatrow/sample-longtable.tex
+%%PORTSRC%%share/texmf-dist/source/latex/floatrow/floatrow.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/floatrow/floatrow.ins
+share/texmf-dist/tex/latex/floatrow/floatpagestyle.sty
+share/texmf-dist/tex/latex/floatrow/floatrow.sty
+share/texmf-dist/tex/latex/floatrow/fr-fancy.sty
+share/texmf-dist/tex/latex/floatrow/fr-longtable.sty
+share/texmf-dist/tex/latex/floatrow/fr-subfig.sty
+share/texmf-dist/tex/latex/floatrow/listpen.sty
+@dirrmtry share/texmf-dist/tex/latex/floatrow
+@dirrmtry share/texmf-dist/source/latex/floatrow
+@dirrmtry share/texmf-dist/doc/latex/floatrow
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

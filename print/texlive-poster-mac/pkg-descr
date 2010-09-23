@@ -1,0 +1,8 @@
+The package offers macros for making posters and banners with
+TeX. It is compatible with most TeX macro formats, including
+Plain TeX, LaTeX, AmSTeX, and AmS-LaTeX. The package creates a
+poster as huge box, which is then distributed over as many
+printer pages as necessary. The only special requirement is
+that your printer not be bothered by text that lies off the
+page. This is true of most printers, including laser printers
+and PostScript printers.

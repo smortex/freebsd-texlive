@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/etoolbox/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/etoolbox/etoolbox.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/etoolbox/etoolbox.tex
+share/texmf-dist/tex/latex/etoolbox/etoolbox.def
+share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+@dirrmtry share/texmf-dist/tex/latex/etoolbox
+@dirrmtry share/texmf-dist/doc/latex/etoolbox
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

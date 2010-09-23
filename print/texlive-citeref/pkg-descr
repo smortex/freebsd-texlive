@@ -1,0 +1,2 @@
+The citeref package does its job without using the indexing
+facilities, and needs no special \cite-replacement package.

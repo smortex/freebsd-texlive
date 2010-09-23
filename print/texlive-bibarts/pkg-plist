@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bibarts/bibarts.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bibarts/bibarts.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/bibarts/gbib209.bat
+%%PORTDOCS%%share/texmf-dist/doc/latex/bibarts/gbib2e.bat
+%%PORTDOCS%%share/texmf-dist/doc/latex/bibarts/gbibsort.exe
+share/texmf-dist/makeindex/bibarts/gbibarts.ist
+%%PORTSRC%%share/texmf-dist/source/latex/bibarts/gbibsort.c
+share/texmf-dist/tex/latex/bibarts/bibarts.sty
+@dirrmtry share/texmf-dist/tex/latex/bibarts
+@dirrmtry share/texmf-dist/source/latex/bibarts
+@dirrmtry share/texmf-dist/makeindex/bibarts
+@dirrmtry share/texmf-dist/doc/latex/bibarts
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

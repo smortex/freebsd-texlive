@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/metapost/venn/README
+share/texmf-dist/metapost/venn/venn.mp
+@dirrmtry share/texmf-dist/metapost/venn
+@dirrmtry share/texmf-dist/doc/metapost/venn
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

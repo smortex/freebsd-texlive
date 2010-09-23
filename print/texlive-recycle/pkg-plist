@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/recycle/README
+share/texmf-dist/fonts/map/dvips/recycle/recycle.map
+share/texmf-dist/fonts/source/public/recycle/recycle.mf
+share/texmf-dist/fonts/tfm/public/recycle/recycle.tfm
+share/texmf-dist/fonts/type1/public/recycle/recycle.pfb
+share/texmf-dist/tex/latex/recycle/recycle.sty
+@dirrmtry share/texmf-dist/tex/latex/recycle
+@dirrmtry share/texmf-dist/fonts/type1/public/recycle
+@dirrmtry share/texmf-dist/fonts/tfm/public/recycle
+@dirrmtry share/texmf-dist/fonts/source/public/recycle
+@dirrmtry share/texmf-dist/fonts/map/dvips/recycle
+@dirrmtry share/texmf-dist/doc/fonts/recycle
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

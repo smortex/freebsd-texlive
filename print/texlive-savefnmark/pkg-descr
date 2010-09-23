@@ -1,0 +1,4 @@
+Sometimes the same footnote applies to more than one location
+in a table. With this package the mark of a footnote can be
+saved into a name, and re-used subsequently without creating
+another footnote at the bottom.

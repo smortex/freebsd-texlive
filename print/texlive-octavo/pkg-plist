@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/octavo/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/octavo/changes
+%%PORTDOCS%%share/texmf-dist/doc/latex/octavo/tub-octavo.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/octavo/octavo.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/octavo/octavo.ins
+share/texmf-dist/tex/latex/octavo/oct10.clo
+share/texmf-dist/tex/latex/octavo/oct11.clo
+share/texmf-dist/tex/latex/octavo/oct12.clo
+share/texmf-dist/tex/latex/octavo/octavo.cls
+@dirrmtry share/texmf-dist/tex/latex/octavo
+@dirrmtry share/texmf-dist/source/latex/octavo
+@dirrmtry share/texmf-dist/doc/latex/octavo
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

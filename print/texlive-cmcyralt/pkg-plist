@@ -1,0 +1,23 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cmcyralt/rhyphen.tex
+%%PORTSRC%%share/texmf-dist/source/latex/cmcyralt/INSTALL
+%%PORTSRC%%share/texmf-dist/source/latex/cmcyralt/README
+%%PORTSRC%%share/texmf-dist/source/latex/cmcyralt/examples/karabas.tex
+%%PORTSRC%%share/texmf-dist/source/latex/cmcyralt/examples/kniga.tex
+%%PORTSRC%%share/texmf-dist/source/latex/cmcyralt/examples/otchet.tex
+%%PORTSRC%%share/texmf-dist/source/latex/cmcyralt/examples/pismo.tex
+%%PORTSRC%%share/texmf-dist/source/latex/cmcyralt/examples/rusfonts.tex
+%%PORTSRC%%share/texmf-dist/source/latex/cmcyralt/examples/statya.tex
+%%PORTSRC%%share/texmf-dist/source/latex/cmcyralt/hyphen.cfg
+share/texmf-dist/tex/latex/cmcyralt/OT1cmcss.fd
+share/texmf-dist/tex/latex/cmcyralt/OT1cmctt.fd
+share/texmf-dist/tex/latex/cmcyralt/OT1cmcyr.fd
+share/texmf-dist/tex/latex/cmcyralt/cmcyralt.sty
+share/texmf-dist/tex/latex/cmcyralt/fancycha.sty
+share/texmf-dist/tex/latex/cmcyralt/glava.sty
+share/texmf-dist/tex/latex/cmcyralt/russian.sty
+@dirrmtry share/texmf-dist/tex/latex/cmcyralt
+@dirrmtry share/texmf-dist/source/latex/cmcyralt/examples
+@dirrmtry share/texmf-dist/source/latex/cmcyralt
+@dirrmtry share/texmf-dist/doc/latex/cmcyralt
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

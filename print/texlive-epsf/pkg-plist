@@ -1,0 +1,24 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/epsf/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/generic/epsf/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/generic/epsf/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/epsf/bboxgrid.ps
+%%PORTDOCS%%share/texmf-dist/doc/generic/epsf/epsf-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/epsf/epsf-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/epsf/fndbadps
+%%PORTDOCS%%share/texmf-dist/doc/generic/epsf/okay/teps.eps
+%%PORTDOCS%%share/texmf-dist/doc/generic/epsf/okay/tepsf.eps
+%%PORTDOCS%%share/texmf-dist/doc/generic/epsf/okay/tepsf1.dvi
+%%PORTDOCS%%share/texmf-dist/doc/generic/epsf/okay/tepsf2.dvi
+%%PORTDOCS%%share/texmf-dist/doc/generic/epsf/okay/tepsf3.dvi
+%%PORTDOCS%%share/texmf-dist/doc/generic/epsf/teps.eps
+%%PORTDOCS%%share/texmf-dist/doc/generic/epsf/tepsf.eps
+%%PORTDOCS%%share/texmf-dist/doc/generic/epsf/tepsf1.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/epsf/tepsf2.ltx
+%%PORTDOCS%%share/texmf-dist/doc/generic/epsf/tepsf3.tex
+share/texmf-dist/tex/generic/epsf/epsf.sty
+share/texmf-dist/tex/generic/epsf/epsf.tex
+@dirrmtry share/texmf-dist/tex/generic/epsf
+@dirrmtry share/texmf-dist/doc/generic/epsf/okay
+@dirrmtry share/texmf-dist/doc/generic/epsf
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

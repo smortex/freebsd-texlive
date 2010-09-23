@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdftricks/makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdftricks/manual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdftricks/pst2pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdftricks/test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdftricks/test.tex
+share/texmf-dist/tex/latex/pdftricks/pdftricks.sty
+@dirrmtry share/texmf-dist/tex/latex/pdftricks
+@dirrmtry share/texmf-dist/doc/latex/pdftricks
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

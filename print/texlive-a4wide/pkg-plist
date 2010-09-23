@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/a4wide/a4wide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/a4wide/a4wide.tex
+share/texmf-dist/tex/latex/a4wide/a4wide.sty
+@dirrmtry share/texmf-dist/tex/latex/a4wide
+@dirrmtry share/texmf-dist/doc/latex/a4wide
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

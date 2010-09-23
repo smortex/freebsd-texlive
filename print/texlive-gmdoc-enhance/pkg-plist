@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/gmdoc-enhance/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/gmdoc-enhance/gmdoc-enhance.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/gmdoc-enhance/gmdoc-enhance.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/gmdoc-enhance/gmdoc-enhance.ins
+share/texmf-dist/tex/latex/gmdoc-enhance/gmdoc-enhance.sty
+@dirrmtry share/texmf-dist/tex/latex/gmdoc-enhance
+@dirrmtry share/texmf-dist/source/latex/gmdoc-enhance
+@dirrmtry share/texmf-dist/doc/latex/gmdoc-enhance
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,4 @@
+TeXdoc is an application for easy access to the package
+documentation of a TeX distributions (i.e., .dvi, .pdf or .ps
+files on the $TEXDOCS tree). It is distributed with TeX-Live
+and a derivative is distributed with miktex.

@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/animate/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/latex/animate/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/animate/animate.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/animate/animate.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/animate/files/bye_0.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/animate/files/bye_1.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/animate/files/bye_2.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/animate/files/bye_3.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/animate/files/exp.mp
+%%PORTDOCS%%share/texmf-dist/doc/latex/animate/files/mailto.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/animate/files/scarab.mp
+%%PORTDOCS%%share/texmf-dist/doc/latex/animate/files/timeline.txt
+share/texmf-dist/tex/latex/animate/animate.sty
+share/texmf-dist/tex/latex/animate/animfp.sty
+@dirrmtry share/texmf-dist/tex/latex/animate
+@dirrmtry share/texmf-dist/doc/latex/animate/files
+@dirrmtry share/texmf-dist/doc/latex/animate
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,3 @@
+The package provides the command \chemfig{<code>}, which draws
+2D molecules using the tikz package. The <code> contains
+instructions for the drawing.

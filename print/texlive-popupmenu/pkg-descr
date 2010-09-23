@@ -1,0 +1,9 @@
+The package creates a menu structure (an array of menu items),
+which is passed to the Acrobat JavaScript method
+app.popUpMenuEx() which creates the popup menu. Using the
+environments defined in this package, and the command
+\popUpMenu, you can create and display hierarchical menus. Menu
+items can have JavaScript actions associated with them, or they
+may be marked and disabled. The package only requires hyperref;
+it will run with over any of the conventional means of
+generating PDF (LaTeX via dvips or dvipdfm, or PDFLaTeX).

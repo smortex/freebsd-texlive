@@ -1,0 +1,9 @@
+The packages offers two styles philosophy-classic and
+philosophy-modern, that facilitate the production of produce
+two different kinds of bibliography, based on the authoryear
+style, with options and features to manage the information
+about the translation of foreign texts or their reprints.
+Though the package's default settings are based on the
+conventions used in Italian publications, these styles can be
+used with every language recognized by babel, possibly with
+some simple redefinitions.

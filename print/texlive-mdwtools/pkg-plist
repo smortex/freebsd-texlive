@@ -1,0 +1,42 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdwtools/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdwtools/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdwtools/at.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdwtools/cmtt.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdwtools/doafter.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdwtools/doafter.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdwtools/footnote.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdwtools/gpl.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdwtools/mathenv.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdwtools/mdwlist.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdwtools/mdwmath.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdwtools/mdwtab.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdwtools/mdwtools.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdwtools/sverb.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdwtools/syntax.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/mdwtools/at.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mdwtools/cmtt.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mdwtools/doafter.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mdwtools/footnote.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mdwtools/mdwlist.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mdwtools/mdwmath.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mdwtools/mdwtab.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mdwtools/mdwtools.ins
+%%PORTSRC%%share/texmf-dist/source/latex/mdwtools/sverb.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mdwtools/syntax.dtx
+share/texmf-dist/tex/latex/mdwtools/at.sty
+share/texmf-dist/tex/latex/mdwtools/cmtt.sty
+share/texmf-dist/tex/latex/mdwtools/doafter.sty
+share/texmf-dist/tex/latex/mdwtools/footnote.sty
+share/texmf-dist/tex/latex/mdwtools/mTTcmtt.fd
+share/texmf-dist/tex/latex/mdwtools/mTTenc.def
+share/texmf-dist/tex/latex/mdwtools/mathenv.sty
+share/texmf-dist/tex/latex/mdwtools/mdwlist.sty
+share/texmf-dist/tex/latex/mdwtools/mdwmath.sty
+share/texmf-dist/tex/latex/mdwtools/mdwtab.sty
+share/texmf-dist/tex/latex/mdwtools/sverb.sty
+share/texmf-dist/tex/latex/mdwtools/syntax.sty
+@dirrmtry share/texmf-dist/tex/latex/mdwtools
+@dirrmtry share/texmf-dist/source/latex/mdwtools
+@dirrmtry share/texmf-dist/doc/latex/mdwtools
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

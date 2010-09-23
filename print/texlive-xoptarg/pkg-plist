@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/xoptarg/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/xoptarg/xoptarg.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xoptarg/xoptarg.tex
+share/texmf-dist/tex/latex/xoptarg/xoptarg.sty
+@dirrmtry share/texmf-dist/tex/latex/xoptarg
+@dirrmtry share/texmf-dist/doc/latex/xoptarg
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

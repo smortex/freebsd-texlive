@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/gastex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/gastex/ex-beamer-gastex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/gastex/ex-gastex.tex
+share/texmf-dist/dvips/gastex/gastex.pro
+share/texmf-dist/tex/latex/gastex/gastex.sty
+@dirrmtry share/texmf-dist/tex/latex/gastex
+@dirrmtry share/texmf-dist/dvips/gastex
+@dirrmtry share/texmf-dist/doc/latex/gastex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

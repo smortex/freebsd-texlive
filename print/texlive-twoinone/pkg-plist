@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/twoinone/twoinone.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/twoinone/twoinone.tex
+share/texmf-dist/tex/latex/twoinone/2in1.sty
+@dirrmtry share/texmf-dist/tex/latex/twoinone
+@dirrmtry share/texmf-dist/doc/latex/twoinone
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

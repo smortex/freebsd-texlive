@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/chngcntr/chngcntr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chngcntr/chngcntr.tex
+share/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+@dirrmtry share/texmf-dist/tex/latex/chngcntr
+@dirrmtry share/texmf-dist/doc/latex/chngcntr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

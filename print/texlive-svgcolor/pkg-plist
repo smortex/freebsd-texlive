@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/svgcolor/README
+share/texmf-dist/tex/latex/svgcolor/svgcolor.sty
+@dirrmtry share/texmf-dist/tex/latex/svgcolor
+@dirrmtry share/texmf-dist/doc/latex/svgcolor
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

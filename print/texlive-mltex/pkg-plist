@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/mltex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/mltex/mltex.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/mltex/testmlft.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/mltex/testmlft.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mltex/testmlsw.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/mltex/testmlsw.tex
+share/texmf-dist/tex/latex/mltex/lo1enc.def
+share/texmf-dist/tex/latex/mltex/mlltxchg.def
+share/texmf-dist/tex/latex/mltex/mltex.sty
+share/texmf-dist/tex/mltex/config/mltex.ini
+@dirrmtry share/texmf-dist/tex/mltex/config
+@dirrmtry share/texmf-dist/tex/latex/mltex
+@dirrmtry share/texmf-dist/doc/latex/mltex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/rvwrite/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/rvwrite/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/rvwrite/rvwrite-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rvwrite/rvwrite-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/rvwrite/test.tex
+share/texmf-dist/tex/latex/rvwrite/rvwrite.sty
+@dirrmtry share/texmf-dist/tex/latex/rvwrite
+@dirrmtry share/texmf-dist/doc/latex/rvwrite
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

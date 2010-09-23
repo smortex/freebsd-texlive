@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/background/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/background/background.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/background/background.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/background/background.ins
+share/texmf-dist/tex/latex/background/background.sty
+@dirrmtry share/texmf-dist/tex/latex/background
+@dirrmtry share/texmf-dist/source/latex/background
+@dirrmtry share/texmf-dist/doc/latex/background
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

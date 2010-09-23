@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cjkpunct/CJKpunct.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cjkpunct/CJKpunct.spa
+%%PORTDOCS%%share/texmf-dist/doc/latex/cjkpunct/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/cjkpunct/README.zh-cn.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/cjkpunct/examples/example-CJKfntef.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cjkpunct/examples/example-gb.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cjkpunct/examples/example-gbk.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cjkpunct/examples/example-utf8.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cjkpunct/setpunct/setpunct-macros.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cjkpunct/setpunct/setpunct-main.tex
+%%PORTSRC%%share/texmf-dist/source/latex/cjkpunct/CJKpunct.dtx
+share/texmf-dist/tex/latex/cjkpunct/CJKpunct.sty
+@dirrmtry share/texmf-dist/tex/latex/cjkpunct
+@dirrmtry share/texmf-dist/source/latex/cjkpunct
+@dirrmtry share/texmf-dist/doc/latex/cjkpunct/setpunct
+@dirrmtry share/texmf-dist/doc/latex/cjkpunct/examples
+@dirrmtry share/texmf-dist/doc/latex/cjkpunct
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/barr/diaxydoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/barr/diaxydoc.tex
+share/texmf-dist/tex/generic/barr/diagxy.tex
+@dirrmtry share/texmf-dist/tex/generic/barr
+@dirrmtry share/texmf-dist/doc/generic/barr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

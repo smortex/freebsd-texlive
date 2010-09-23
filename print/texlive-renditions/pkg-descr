@@ -1,0 +1,3 @@
+The package sets up 'comment' environments, called renditions;
+each rendition is thought of as a version of the basic content
+of the document that includes it.

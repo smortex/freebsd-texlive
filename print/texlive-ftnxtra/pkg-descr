@@ -1,0 +1,2 @@
+The package treats footnotes in \caption, the tabular
+environment, and \chapter and other \section-like commands.

@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/rtklage/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/rtklage/bspklage.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/rtklage/rtklage.pdf
+share/texmf-dist/tex/latex/rtklage/rtklage.cls
+@dirrmtry share/texmf-dist/tex/latex/rtklage
+@dirrmtry share/texmf-dist/doc/latex/rtklage
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

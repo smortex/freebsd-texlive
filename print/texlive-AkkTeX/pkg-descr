@@ -1,0 +1,7 @@
+The bundle provides: - new document classes for technical
+documents, thesis works, manuscripts and lecture notes; - many
+mathematical packages providing a large number of macros for
+mathematical texts; - layout providing a non-empty parskip with
+extended length corrections and new section definition
+commands; - easy label creation for counters; and - german
+language tools and predefined abbreviations.

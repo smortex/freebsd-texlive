@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/2up/2up-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/2up/2up-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/2up/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/2up/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/generic/2up/README
+share/texmf-dist/tex/generic/2up/2up.sty
+share/texmf-dist/tex/generic/2up/2up.tex
+@dirrmtry share/texmf-dist/tex/generic/2up
+@dirrmtry share/texmf-dist/doc/generic/2up
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/printlen/printlen-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/printlen/printlen-doc.tex
+share/texmf-dist/tex/latex/printlen/printlen.sty
+@dirrmtry share/texmf-dist/tex/latex/printlen
+@dirrmtry share/texmf-dist/doc/latex/printlen
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

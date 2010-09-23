@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/texcount/QuickReference.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/texcount/QuickReference.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/texcount/README
+%%PORTDOCS%%share/texmf-dist/doc/support/texcount/TeXcount.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/texcount/TeXcount.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/texcount/macros.tex
+@dirrmtry share/texmf-dist/doc/support/texcount
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,8 @@
+This package consists of prerex.sty, a LaTeX package for
+producing charts of course nodes linked by arrows representing
+pre- and co-requisites, and prerex, an interactive program for
+creating and editing chart descriptions. The implementation of
+prerex.sty is built on PGF, so that it may be used equally
+happily with latex or pdflatex; prerex itself is written in C.
+The package includes source code for a previewer application, a
+lightweight Qt-4 and poppler-based prerex-enabled PDF viewer.

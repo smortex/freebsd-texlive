@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/aleph/base/News
+%%PORTDOCS%%share/texmf-dist/doc/aleph/base/readme.txt
+%%PORTDOCS%%share/texmf/doc/man/man1/aleph.1
+%%PORTDOCS%%share/texmf/doc/man/man1/aleph.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/lamed.1
+%%PORTDOCS%%share/texmf/doc/man/man1/lamed.man1.pdf
+@dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf-dist/doc/aleph/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/excludeonly/excludeonly.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/excludeonly/excludeonly.tex
+share/texmf-dist/tex/latex/excludeonly/excludeonly.sty
+@dirrmtry share/texmf-dist/tex/latex/excludeonly
+@dirrmtry share/texmf-dist/doc/latex/excludeonly
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

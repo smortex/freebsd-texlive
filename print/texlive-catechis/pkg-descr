@@ -1,0 +1,4 @@
+The macros include: - format for question-and-answer; -
+comments on answers; - citations; - a specialised enumerate
+which only operates in the catechism parts of a document. The
+macros are all highly customisable.

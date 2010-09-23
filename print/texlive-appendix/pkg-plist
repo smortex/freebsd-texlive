@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/appendix/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/appendix/appendix.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/appendix/appendix.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/appendix/appendix.ins
+share/texmf-dist/tex/latex/appendix/appendix.sty
+@dirrmtry share/texmf-dist/tex/latex/appendix
+@dirrmtry share/texmf-dist/source/latex/appendix
+@dirrmtry share/texmf-dist/doc/latex/appendix
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

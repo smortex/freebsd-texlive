@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/coolstr/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/coolstr/coolstr.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/coolstr/coolstr.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/coolstr/coolstr.ins
+share/texmf-dist/tex/latex/coolstr/coolstr.sty
+@dirrmtry share/texmf-dist/tex/latex/coolstr
+@dirrmtry share/texmf-dist/source/latex/coolstr
+@dirrmtry share/texmf-dist/doc/latex/coolstr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

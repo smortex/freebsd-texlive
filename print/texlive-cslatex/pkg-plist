@@ -1,0 +1,59 @@
+%%PORTDOCS%%share/texmf-dist/doc/cslatex/base/INSTALL.cslatex
+%%PORTDOCS%%share/texmf-dist/doc/cslatex/base/README-cspsfont
+%%PORTDOCS%%share/texmf-dist/doc/cslatex/base/README.cslatex
+%%PORTDOCS%%share/texmf-dist/doc/cslatex/base/cs-fonts.doc
+%%PORTDOCS%%share/texmf-dist/doc/cslatex/base/cscorr.tab
+%%PORTDOCS%%share/texmf-dist/doc/cslatex/base/csplain.doc
+%%PORTDOCS%%share/texmf-dist/doc/cslatex/base/license.eng
+%%PORTDOCS%%share/texmf-dist/doc/cslatex/base/mklinks
+%%PORTDOCS%%share/texmf-dist/doc/cslatex/base/parpozn.tex
+%%PORTDOCS%%share/texmf-dist/doc/cslatex/base/prvni.tex
+%%PORTDOCS%%share/texmf-dist/doc/cslatex/base/test8z.tex
+%%PORTDOCS%%share/texmf-dist/doc/cslatex/base/testlat.tex
+%%PORTDOCS%%share/texmf-dist/doc/cslatex/base/zmeny.txt
+%%PORTSRC%%share/texmf-dist/source/cslatex/base/cslatex.dtx
+%%PORTSRC%%share/texmf-dist/source/cslatex/base/cslatex.ins
+%%PORTSRC%%share/texmf-dist/source/cslatex/base/cslatex.txt
+share/texmf-dist/tex/cslatex/base/cslatex-utf8.ini
+share/texmf-dist/tex/cslatex/base/cslatex.ini
+share/texmf-dist/tex/cslatex/base/cspsfont.il2
+share/texmf-dist/tex/cslatex/base/cspsfont.tex
+share/texmf-dist/tex/cslatex/base/cspsfont.xl2
+share/texmf-dist/tex/cslatex/base/fonttext.cfg
+share/texmf-dist/tex/cslatex/base/hyphen.cfg
+share/texmf-dist/tex/cslatex/base/il2pag.fd
+share/texmf-dist/tex/cslatex/base/il2pbk.fd
+share/texmf-dist/tex/cslatex/base/il2pcr.fd
+share/texmf-dist/tex/cslatex/base/il2phv.fd
+share/texmf-dist/tex/cslatex/base/il2phvn.fd
+share/texmf-dist/tex/cslatex/base/il2pnc.fd
+share/texmf-dist/tex/cslatex/base/il2ppl.fd
+share/texmf-dist/tex/cslatex/base/il2ptm.fd
+share/texmf-dist/tex/cslatex/base/il2pzc.fd
+share/texmf-dist/tex/cslatex/base/nhelvet.sty
+share/texmf-dist/tex/cslatex/base/ntimes.sty
+share/texmf-dist/tex/cslatex/base/xl2pag.fd
+share/texmf-dist/tex/cslatex/base/xl2pbk.fd
+share/texmf-dist/tex/cslatex/base/xl2pcr.fd
+share/texmf-dist/tex/cslatex/base/xl2phv.fd
+share/texmf-dist/tex/cslatex/base/xl2phvn.fd
+share/texmf-dist/tex/cslatex/base/xl2pnc.fd
+share/texmf-dist/tex/cslatex/base/xl2ppl.fd
+share/texmf-dist/tex/cslatex/base/xl2ptm.fd
+share/texmf-dist/tex/cslatex/base/xl2pzc.fd
+share/texmf-dist/tex/latex/cslatex/il2cmdh.fd
+share/texmf-dist/tex/latex/cslatex/il2cmfib.fd
+share/texmf-dist/tex/latex/cslatex/il2cmfr.fd
+share/texmf-dist/tex/latex/cslatex/il2cmr.fd
+share/texmf-dist/tex/latex/cslatex/il2cmss.fd
+share/texmf-dist/tex/latex/cslatex/il2cmtt.fd
+share/texmf-dist/tex/latex/cslatex/il2cmvtt.fd
+share/texmf-dist/tex/latex/cslatex/il2enc.def
+share/texmf-dist/tex/latex/cslatex/il2lcmss.fd
+share/texmf-dist/tex/latex/cslatex/il2lcmtt.fd
+@dirrmtry share/texmf-dist/tex/latex/cslatex
+@dirrmtry share/texmf-dist/tex/cslatex/base
+@dirrmtry share/texmf-dist/source/cslatex/base
+@dirrmtry share/texmf-dist/doc/cslatex/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

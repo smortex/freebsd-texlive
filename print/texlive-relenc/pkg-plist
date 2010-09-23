@@ -1,0 +1,27 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/relenc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/relenc/reldemo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/relenc/relenc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/relenc/zcmr8d.vf2
+%%PORTDOCS%%share/texmf-dist/doc/latex/relenc/zcmr8d.vf3
+%%PORTDOCS%%share/texmf-dist/doc/latex/relenc/zcmra.vf2
+%%PORTDOCS%%share/texmf-dist/doc/latex/relenc/zcmra.vf3
+share/texmf-dist/fonts/tfm/public/relenc/zcmr8d.tfm
+share/texmf-dist/fonts/tfm/public/relenc/zcmra.tfm
+share/texmf-dist/fonts/vf/public/relenc/zcmr8d.vf
+share/texmf-dist/fonts/vf/public/relenc/zcmra.vf
+%%PORTSRC%%share/texmf-dist/source/latex/relenc/relenc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/relenc/relenc.ins
+%%PORTSRC%%share/texmf-dist/source/latex/relenc/t1renc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/relenc/t1rzcm.fdd
+share/texmf-dist/tex/latex/relenc/2sidedoc.sty
+share/texmf-dist/tex/latex/relenc/ecsubzcm.sty
+share/texmf-dist/tex/latex/relenc/relenc.sty
+share/texmf-dist/tex/latex/relenc/t1renc.def
+share/texmf-dist/tex/latex/relenc/t1rzcm.fd
+@dirrmtry share/texmf-dist/tex/latex/relenc
+@dirrmtry share/texmf-dist/source/latex/relenc
+@dirrmtry share/texmf-dist/fonts/vf/public/relenc
+@dirrmtry share/texmf-dist/fonts/tfm/public/relenc
+@dirrmtry share/texmf-dist/doc/latex/relenc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

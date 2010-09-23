@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/xdoc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/xdoc/docindex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xdoc/xdoc2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xdoc/xdocdemo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xdoc/xdocdemo.tex
+share/texmf-dist/makeindex/xdoc/docindex.ist
+%%PORTSRC%%share/texmf-dist/source/latex/xdoc/docindex.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xdoc/docindex.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xdoc/xdoc2.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xdoc/xdoc2.ins
+share/texmf-dist/tex/latex/xdoc/docidx2e.sty
+share/texmf-dist/tex/latex/xdoc/docindex.sty
+share/texmf-dist/tex/latex/xdoc/xdoc2.sty
+@dirrmtry share/texmf-dist/tex/latex/xdoc
+@dirrmtry share/texmf-dist/source/latex/xdoc
+@dirrmtry share/texmf-dist/makeindex/xdoc
+@dirrmtry share/texmf-dist/doc/latex/xdoc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

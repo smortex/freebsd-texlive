@@ -1,0 +1,11 @@
+An extended set of fonts for use in mathematics, including:
+extra mathematical symbols; blackboard bold letters (uppercase
+only); fraktur letters; subscript sizes of bold math italic and
+bold Greek letters; subscript sizes of large symbols such as
+sum and product; added sizes of the Computer Modern small caps
+font; cyrillic fonts (from the University of Washington); Euler
+mathematical fonts. All fonts are provided as Adobe Type 1
+files, and all except the Euler fonts are provided as MetaFont
+source. The distribution also includes the canonical Type 1
+versions of the Computer Modern family of fonts. Plain TeX and
+LaTeX macros for using the fonts are provided.

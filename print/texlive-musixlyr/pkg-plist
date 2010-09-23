@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/musixlyr/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/musixlyr/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/musixlyr/mxlyrdoc.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/musixlyr/mxlyrdoc.mx1
+%%PORTDOCS%%share/texmf-dist/doc/latex/musixlyr/mxlyrdoc.tex
+share/texmf-dist/tex/generic/musixlyr/musixlyr.tex
+@dirrmtry share/texmf-dist/tex/generic/musixlyr
+@dirrmtry share/texmf-dist/doc/latex/musixlyr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

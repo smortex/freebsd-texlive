@@ -1,0 +1,27 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fge/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fge/fge-doc.pdf
+share/texmf-dist/fonts/map/dvips/fge/fge.map
+share/texmf-dist/fonts/source/public/fge/fgebase.mf
+share/texmf-dist/fonts/source/public/fge/fgeit.mf
+share/texmf-dist/fonts/source/public/fge/fgeit10.mf
+share/texmf-dist/fonts/source/public/fge/fgerm.mf
+share/texmf-dist/fonts/source/public/fge/fgerm10.mf
+share/texmf-dist/fonts/tfm/public/fge/fgeit10.tfm
+share/texmf-dist/fonts/tfm/public/fge/fgerm10.tfm
+share/texmf-dist/fonts/type1/public/fge/fgeit10.pfb
+share/texmf-dist/fonts/type1/public/fge/fgerm10.pfb
+%%PORTSRC%%share/texmf-dist/source/fonts/fge/fge.dtx
+%%PORTSRC%%share/texmf-dist/source/fonts/fge/fge.ins
+share/texmf-dist/tex/latex/fge/Ufgeit.fd
+share/texmf-dist/tex/latex/fge/Ufgerm.fd
+share/texmf-dist/tex/latex/fge/fge.cfg
+share/texmf-dist/tex/latex/fge/fge.sty
+@dirrmtry share/texmf-dist/tex/latex/fge
+@dirrmtry share/texmf-dist/source/fonts/fge
+@dirrmtry share/texmf-dist/fonts/type1/public/fge
+@dirrmtry share/texmf-dist/fonts/tfm/public/fge
+@dirrmtry share/texmf-dist/fonts/source/public/fge
+@dirrmtry share/texmf-dist/fonts/map/dvips/fge
+@dirrmtry share/texmf-dist/doc/fonts/fge
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

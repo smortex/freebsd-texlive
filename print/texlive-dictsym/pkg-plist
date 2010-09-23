@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dictsym/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dictsym/dictsym.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dictsym/dictsym.tex
+share/texmf-dist/fonts/afm/public/dictsym/dictsym.afm
+share/texmf-dist/fonts/map/dvips/dictsym/dictsym.map
+share/texmf-dist/fonts/tfm/public/dictsym/dictsym.tfm
+share/texmf-dist/fonts/type1/public/dictsym/dictsym.pfb
+share/texmf-dist/fonts/type1/public/dictsym/dictsym.pfm
+share/texmf-dist/tex/latex/dictsym/dictsym.sty
+@dirrmtry share/texmf-dist/tex/latex/dictsym
+@dirrmtry share/texmf-dist/fonts/type1/public/dictsym
+@dirrmtry share/texmf-dist/fonts/tfm/public/dictsym
+@dirrmtry share/texmf-dist/fonts/map/dvips/dictsym
+@dirrmtry share/texmf-dist/fonts/afm/public/dictsym
+@dirrmtry share/texmf-dist/doc/fonts/dictsym
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

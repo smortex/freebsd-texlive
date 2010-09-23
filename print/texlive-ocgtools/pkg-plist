@@ -1,0 +1,49 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/book.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-article.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-article.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-beamer-Hannover.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-beamer-Hannover.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-beamer-Marburg.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-beamer-Marburg.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-beamer.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-beamer.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-fancytooltips.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-fancytooltips.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-minimal.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-minimal.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-pdfscreen-nopanel.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-pdfscreen-nopanel.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-pdfscreen-panelleft.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-pdfscreen-panelleft.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-pdfscreen.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-pdfscreen.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-web-leftpanel.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-web-leftpanel.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-web-rightpanel.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-web-rightpanel.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-web.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-web.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-preview.bat
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-preview.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-preview.sh
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-preview.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-scrartcl.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-scrartcl.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-test.bat
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-test.sh
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-test.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/pdfscreen.cfg
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/tall.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/tall.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/wide.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/ocgtools.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/ocgtools/ocgtools.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ocgtools/ocgtools.ins
+share/texmf-dist/tex/latex/ocgtools/ocgtools.sty
+@dirrmtry share/texmf-dist/tex/latex/ocgtools
+@dirrmtry share/texmf-dist/source/latex/ocgtools
+@dirrmtry share/texmf-dist/doc/latex/ocgtools/examples
+@dirrmtry share/texmf-dist/doc/latex/ocgtools
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

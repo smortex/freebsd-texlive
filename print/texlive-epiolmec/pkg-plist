@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/epiolmec/GlyphAccessCommands.pdf
+share/texmf-dist/fonts/map/dvips/epiolmec/epiolmec.map
+share/texmf-dist/fonts/tfm/public/epiolmec/EpiOlmec.tfm
+share/texmf-dist/fonts/type1/public/epiolmec/Epi-Olmec.pfb
+%%PORTSRC%%share/texmf-dist/source/latex/epiolmec/epiolmec.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/epiolmec/epiolmec.ins
+share/texmf-dist/tex/latex/epiolmec/epiolmec.sty
+@dirrmtry share/texmf-dist/tex/latex/epiolmec
+@dirrmtry share/texmf-dist/source/latex/epiolmec
+@dirrmtry share/texmf-dist/fonts/type1/public/epiolmec
+@dirrmtry share/texmf-dist/fonts/tfm/public/epiolmec
+@dirrmtry share/texmf-dist/fonts/map/dvips/epiolmec
+@dirrmtry share/texmf-dist/doc/latex/epiolmec
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

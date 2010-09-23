@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/stdclsdv/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stdclsdv/stdclsdv.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/stdclsdv/stdclsdv.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stdclsdv/stdclsdv.ins
+share/texmf-dist/tex/latex/stdclsdv/stdclsdv.sty
+@dirrmtry share/texmf-dist/tex/latex/stdclsdv
+@dirrmtry share/texmf-dist/source/latex/stdclsdv
+@dirrmtry share/texmf-dist/doc/latex/stdclsdv
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

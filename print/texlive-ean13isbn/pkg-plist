@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ean13isbn/License.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/ean13isbn/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ean13isbn/ean13isbn.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ean13isbn/ean13isbn.tex
+share/texmf-dist/tex/latex/ean13isbn/ean13isbn.sty
+@dirrmtry share/texmf-dist/tex/latex/ean13isbn
+@dirrmtry share/texmf-dist/doc/latex/ean13isbn
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/frame/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/frame/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/generic/frame/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/frame/frame-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/frame/frame-doc.tex
+share/texmf-dist/tex/generic/frame/frame.sty
+share/texmf-dist/tex/generic/frame/frame.tex
+@dirrmtry share/texmf-dist/tex/generic/frame
+@dirrmtry share/texmf-dist/doc/generic/frame
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

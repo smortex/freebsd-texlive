@@ -1,0 +1,3 @@
+Fragmaster enables you to use psfrag with PDFLaTeX. It takes
+EPS files and psfrag substitution definition files, and
+produces PDF and EPS files with the substitutions included.

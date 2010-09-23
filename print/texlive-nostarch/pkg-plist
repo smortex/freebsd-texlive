@@ -1,0 +1,23 @@
+share/texmf-dist/bibtex/bib/nostarch/nostarch.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/nostarch/100euroie.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/nostarch/100euroit.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/nostarch/1eurogr.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/nostarch/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/nostarch/nostarch.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nostarch/nssample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nostarch/nssample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/nostarch/recycled.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/nostarch/vitruvian.jpg
+share/texmf-dist/makeindex/nostarch/nostarch.ist
+%%PORTSRC%%share/texmf-dist/source/latex/nostarch/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/nostarch/nostarch.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/nostarch/nostarch.ins
+share/texmf-dist/tex/latex/nostarch/nostarch.cls
+share/texmf-dist/tex/latex/nostarch/nshyper.sty
+@dirrmtry share/texmf-dist/tex/latex/nostarch
+@dirrmtry share/texmf-dist/source/latex/nostarch
+@dirrmtry share/texmf-dist/makeindex/nostarch
+@dirrmtry share/texmf-dist/doc/latex/nostarch
+@dirrmtry share/texmf-dist/bibtex/bib/nostarch
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

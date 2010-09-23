@@ -1,0 +1,4 @@
+The package includes TrueType fonts from SIL, files needed to
+use them in pdfTeX in multiple encodings (agr, t2a, ec/T1,
+texnansi, l7x, qx, t5) and support files for ConTeXt. Other
+encodings, and LaTeX support remain to be added.

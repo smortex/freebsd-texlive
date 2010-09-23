@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/maybemath/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/maybemath/maybemath.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/maybemath/maybemath.tex
+share/texmf-dist/tex/latex/maybemath/maybemath.sty
+@dirrmtry share/texmf-dist/tex/latex/maybemath
+@dirrmtry share/texmf-dist/doc/latex/maybemath
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

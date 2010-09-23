@@ -1,0 +1,6 @@
+A package for (La)TeX which provides some macros which are
+convenient for writing indices, glossaries, or other macros. It
+contains macros which support: implicit macros; fancy optional
+arguments; loops over tokenlists and itemlists; searching and
+splitting; controlled expansion; redefinition of macros; and
+concatenated macro names; macros for text replacement.

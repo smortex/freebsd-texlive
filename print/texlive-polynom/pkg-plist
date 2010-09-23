@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/polynom/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/polynom/polydemo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/polynom/polydemo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/polynom/polynom.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/polynom/polynom.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/polynom/polynom.ins
+share/texmf-dist/tex/latex/polynom/polynom.sty
+@dirrmtry share/texmf-dist/tex/latex/polynom
+@dirrmtry share/texmf-dist/source/latex/polynom
+@dirrmtry share/texmf-dist/doc/latex/polynom
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

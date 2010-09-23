@@ -1,0 +1,21 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/changebar/00readme.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/changebar/catalog.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/changebar/cbtest1-ltx.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/changebar/cbtest1-pdf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/changebar/cbtest1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/changebar/cbtest2-ltx.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/changebar/cbtest2-pdf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/changebar/cbtest2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/changebar/changebar.bug
+%%PORTDOCS%%share/texmf-dist/doc/latex/changebar/changebar.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/changebar/chbar.1
+%%PORTDOCS%%share/texmf-dist/doc/latex/changebar/chbar.sh
+%%PORTDOCS%%share/texmf-dist/doc/latex/changebar/manifest.txt
+%%PORTSRC%%share/texmf-dist/source/latex/changebar/changebar.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/changebar/changebar.ins
+share/texmf-dist/tex/latex/changebar/changebar.sty
+@dirrmtry share/texmf-dist/tex/latex/changebar
+@dirrmtry share/texmf-dist/source/latex/changebar
+@dirrmtry share/texmf-dist/doc/latex/changebar
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

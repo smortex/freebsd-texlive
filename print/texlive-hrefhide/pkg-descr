@@ -1,0 +1,7 @@
+This package provides the command \hrefdisplayonly (which
+provides a substitute for \href). While the (hyperlinked) text
+appears like an ordinary \href in the compiled PDF file, the
+same text will be "hidden" when printing the text. (Hiding is
+actually achieved by making the text the same colour as the
+background, thus preserving the layout of the rest of the
+text.)

@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/complexity/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/complexity/complexity.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/complexity/complexity.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/complexity/tableofclasses.tex
+share/texmf-dist/tex/latex/complexity/complexity.sty
+share/texmf-dist/tex/latex/complexity/mycomplexity.sty
+@dirrmtry share/texmf-dist/tex/latex/complexity
+@dirrmtry share/texmf-dist/doc/latex/complexity
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

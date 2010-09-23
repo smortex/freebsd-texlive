@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/lps/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/lps/lps.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lps/lpstemplate.tex
+%%PORTSRC%%share/texmf-dist/source/latex/lps/lps.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/lps/lps.ins
+share/texmf-dist/tex/latex/lps/lps.cls
+@dirrmtry share/texmf-dist/tex/latex/lps
+@dirrmtry share/texmf-dist/source/latex/lps
+@dirrmtry share/texmf-dist/doc/latex/lps
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

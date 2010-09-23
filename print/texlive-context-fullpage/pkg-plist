@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/context/third/fullpage/fullpage-doc.pdf
+share/texmf-dist/tex/context/third/fullpage/t-fullpage.tex
+@dirrmtry share/texmf-dist/tex/context/third/fullpage
+@dirrmtry share/texmf-dist/doc/context/third/fullpage
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

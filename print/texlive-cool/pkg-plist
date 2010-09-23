@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cool/Content_LaTeX_Package_Demo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cool/Content_LaTeX_Package_Demo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cool/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/cool/cool.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/cool/cool.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/cool/cool.ins
+share/texmf-dist/tex/latex/cool/cool.sty
+@dirrmtry share/texmf-dist/tex/latex/cool
+@dirrmtry share/texmf-dist/source/latex/cool
+@dirrmtry share/texmf-dist/doc/latex/cool
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

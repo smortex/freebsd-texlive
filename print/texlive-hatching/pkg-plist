@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/metapost/hatching/README
+%%PORTDOCS%%share/texmf-dist/doc/metapost/hatching/htchuse.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/hatching/htchuse_.tex
+share/texmf-dist/metapost/hatching/hatching.mp
+@dirrmtry share/texmf-dist/metapost/hatching
+@dirrmtry share/texmf-dist/doc/metapost/hatching
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

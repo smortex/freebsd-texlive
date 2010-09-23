@@ -1,0 +1,5 @@
+The macros enable the user to draw simple circuit diagrams in
+the picture environment, with no need of special resources. The
+macros are appropriate for drawing for school materials. The
+circuit symbols accord to the various parts of the standard IEC
+617.

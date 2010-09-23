@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bigfoot/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/bigfoot/bigfoot.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bigfoot/perpage.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bigfoot/suffix.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/bigfoot/bigfoot.drv
+%%PORTSRC%%share/texmf-dist/source/latex/bigfoot/bigfoot.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/bigfoot/bigfoot.ins
+%%PORTSRC%%share/texmf-dist/source/latex/bigfoot/perpage.drv
+%%PORTSRC%%share/texmf-dist/source/latex/bigfoot/perpage.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/bigfoot/suffix.drv
+%%PORTSRC%%share/texmf-dist/source/latex/bigfoot/suffix.dtx
+share/texmf-dist/tex/latex/bigfoot/bigfoot.sty
+share/texmf-dist/tex/latex/bigfoot/perpage.sty
+share/texmf-dist/tex/latex/bigfoot/suffix.sty
+@dirrmtry share/texmf-dist/tex/latex/bigfoot
+@dirrmtry share/texmf-dist/source/latex/bigfoot
+@dirrmtry share/texmf-dist/doc/latex/bigfoot
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

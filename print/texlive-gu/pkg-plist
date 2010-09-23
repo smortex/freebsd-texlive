@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/gu/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/gu/gudemo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/gu/gudoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/gu/gudoc.tex
+share/texmf-dist/tex/latex/gu/gu.sty
+@dirrmtry share/texmf-dist/tex/latex/gu
+@dirrmtry share/texmf-dist/doc/latex/gu
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

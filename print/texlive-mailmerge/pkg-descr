@@ -1,0 +1,6 @@
+The package mailmerge provides an interface to produce text
+from a template, where fields are replaced by actual data, as
+in a database. The package may be used to produce several
+letters from a template, certificates or other such documents.
+It allows access to the entry number, number of entries and so
+on.

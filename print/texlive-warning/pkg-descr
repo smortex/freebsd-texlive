@@ -1,0 +1,4 @@
+This package provides a command that generates a list of
+warnings that are printed out at the very end of the logfile.
+This is useful for warning such as 'Rerun for this or that
+reason' or 'This is a draft, change it before the final run'.

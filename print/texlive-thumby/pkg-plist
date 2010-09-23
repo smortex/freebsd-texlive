@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/thumby/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/thumby/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/thumby/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/thumby/latexmkrc
+%%PORTDOCS%%share/texmf-dist/doc/latex/thumby/thumby.pdf
+share/texmf-dist/tex/latex/thumby/thumby.sty
+@dirrmtry share/texmf-dist/tex/latex/thumby
+@dirrmtry share/texmf-dist/doc/latex/thumby
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

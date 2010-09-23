@@ -1,0 +1,4 @@
+The mattens package contains the definitions to typeset
+matrices, vectors and tensors as used in the engineering
+community for the representation of common vectors and tensors
+such as forces, velocities, moments of inertia, etc.

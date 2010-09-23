@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/schemabloc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/schemabloc/schemabloc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/schemabloc/schemabloc.tex
+share/texmf-dist/tex/latex/schemabloc/schemabloc.sty
+@dirrmtry share/texmf-dist/tex/latex/schemabloc
+@dirrmtry share/texmf-dist/doc/latex/schemabloc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

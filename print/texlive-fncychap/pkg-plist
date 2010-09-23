@@ -1,0 +1,22 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/Bjarne.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/Bjarnes.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/Bjornstrup.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/BjornstrupS.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/Conny.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/Connys.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/Glenn.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/Glenns.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/Lenny.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/Lennys.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/Rejne.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/Rejnes.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/Sonny.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/Sonnys.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/fncychap.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/fncychap.tex
+share/texmf-dist/tex/latex/fncychap/fncychap.sty
+@dirrmtry share/texmf-dist/tex/latex/fncychap
+@dirrmtry share/texmf-dist/doc/latex/fncychap
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

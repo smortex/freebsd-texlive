@@ -1,0 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-magneticfield/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-magneticfield/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-magneticfield/pst-magneticfield-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-magneticfield/pst-magneticfield-docDE.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-magneticfield/pst-magneticfield-docDE.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-magneticfield/pst-magneticfield-docEN.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-magneticfield/pst-magneticfield-docEN.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-magneticfield/pst-magneticfield-docFR.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-magneticfield/pst-magneticfield-docFR.tex
+share/texmf-dist/dvips/pst-magneticfield/pst-magneticfield.pro
+%%PORTSRC%%share/texmf-dist/source/generic/pst-magneticfield/Makefile
+share/texmf-dist/tex/generic/pst-magneticfield/pst-magneticfield.tex
+share/texmf-dist/tex/latex/pst-magneticfield/pst-magneticfield.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-magneticfield
+@dirrmtry share/texmf-dist/tex/generic/pst-magneticfield
+@dirrmtry share/texmf-dist/source/generic/pst-magneticfield
+@dirrmtry share/texmf-dist/dvips/pst-magneticfield
+@dirrmtry share/texmf-dist/doc/generic/pst-magneticfield
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

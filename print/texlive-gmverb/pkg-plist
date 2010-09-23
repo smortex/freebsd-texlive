@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/gmverb/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/gmverb/gmverb.pdf
+share/texmf-dist/tex/latex/gmverb/gmverb.sty
+@dirrmtry share/texmf-dist/tex/latex/gmverb
+@dirrmtry share/texmf-dist/doc/latex/gmverb
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

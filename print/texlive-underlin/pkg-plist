@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/underlin/underlin.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/underlin/underlin.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/underlin/underlin.ins
+share/texmf-dist/tex/latex/underlin/underlin.sty
+@dirrmtry share/texmf-dist/tex/latex/underlin
+@dirrmtry share/texmf-dist/source/latex/underlin
+@dirrmtry share/texmf-dist/doc/latex/underlin
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

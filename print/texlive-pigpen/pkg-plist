@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pigpen/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pigpen/pigpendoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pigpen/pigpendoc.tex
+share/texmf-dist/fonts/map/dvips/pigpen/pigpen.map
+share/texmf-dist/fonts/source/public/pigpen/pigpen.mf
+share/texmf-dist/fonts/tfm/public/pigpen/pigpen.tfm
+share/texmf-dist/fonts/type1/public/pigpen/pigpen.pfa
+share/texmf-dist/tex/latex/pigpen/pigpen.sty
+share/texmf-dist/tex/latex/pigpen/pigpen.tex
+@dirrmtry share/texmf-dist/tex/latex/pigpen
+@dirrmtry share/texmf-dist/fonts/type1/public/pigpen
+@dirrmtry share/texmf-dist/fonts/tfm/public/pigpen
+@dirrmtry share/texmf-dist/fonts/source/public/pigpen
+@dirrmtry share/texmf-dist/fonts/map/dvips/pigpen
+@dirrmtry share/texmf-dist/doc/latex/pigpen
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-fun/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-fun/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-fun/pst-fun-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-fun/pst-fun-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-fun/pst-fun-doc.tex
+share/texmf-dist/dvips/pst-fun/pst-fun.pro
+%%PORTSRC%%share/texmf-dist/source/generic/pst-fun/Makefile
+share/texmf-dist/tex/generic/pst-fun/pst-fun.tex
+share/texmf-dist/tex/latex/pst-fun/pst-fun.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-fun
+@dirrmtry share/texmf-dist/tex/generic/pst-fun
+@dirrmtry share/texmf-dist/source/generic/pst-fun
+@dirrmtry share/texmf-dist/dvips/pst-fun
+@dirrmtry share/texmf-dist/doc/generic/pst-fun
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

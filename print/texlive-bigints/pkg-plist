@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bigints/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/bigints/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/bigints/bigints.forlisting
+%%PORTDOCS%%share/texmf-dist/doc/latex/bigints/bigints.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bigints/bigints.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/bigints/perso.ist
+share/texmf-dist/tex/latex/bigints/bigints.sty
+@dirrmtry share/texmf-dist/tex/latex/bigints
+@dirrmtry share/texmf-dist/doc/latex/bigints
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

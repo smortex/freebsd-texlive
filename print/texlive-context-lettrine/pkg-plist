@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/context/third/lettrine/W.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/lettrine/lettrine-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/lettrine/lettrine-doc.tex
+share/texmf-dist/tex/context/interface/third/lettrine.xml
+share/texmf-dist/tex/context/third/lettrine/t-lettrine.tex
+@dirrmtry share/texmf-dist/tex/context/third/lettrine
+@dirrmtry share/texmf-dist/tex/context/interface/third
+@dirrmtry share/texmf-dist/doc/context/third/lettrine
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

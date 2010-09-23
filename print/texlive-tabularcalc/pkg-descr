@@ -1,0 +1,6 @@
+Given a list of numbers and one (or more) formulas, the package
+offers an easy syntax to build a table of values, i.e., a
+tabular in which the first row contains the list of numbers,
+and the other rows contain the calculated values of the
+formulas for each number of the list. The table may be built
+either horizontally or vertically and is fully customizable.

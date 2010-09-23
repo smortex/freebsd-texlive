@@ -1,0 +1,12 @@
+share/texmf-dist/bibtex/bst/opcit/opcit.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/opcit/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/opcit/opcit.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/opcit/opcit.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/opcit/opcit.ins
+share/texmf-dist/tex/latex/opcit/opcit.sty
+@dirrmtry share/texmf-dist/tex/latex/opcit
+@dirrmtry share/texmf-dist/source/latex/opcit
+@dirrmtry share/texmf-dist/doc/latex/opcit
+@dirrmtry share/texmf-dist/bibtex/bst/opcit
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

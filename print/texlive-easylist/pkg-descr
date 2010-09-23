@@ -1,0 +1,5 @@
+This package allows you to create lists of numbered items (as
+in Wittgenstein's 'Tractatus') with a single active character
+as the only command. A variety of parameters are available to
+configure the appearance of the list; lists may be nested
+(effectively to unlimited depth).

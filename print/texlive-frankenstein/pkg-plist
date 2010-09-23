@@ -1,0 +1,97 @@
+share/texmf-dist/bibtex/bib/frankenstein/frankenstein.bib
+share/texmf-dist/bibtex/bst/frankenstein/achicago.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/Frankenfile
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/INSTALL
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/abbrevs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/abbrevs.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/achicago-bst.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/achicago-bst.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/achicago-bst.ver
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/achicago.bsq
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/achicago.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/achicago.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/attrib.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/attrib.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/blkcntrl.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/blkcntrl.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/compsci.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/compsci.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/dialogue.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/dialogue.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/lips.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/lips.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/moredefs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/moredefs.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/newclude.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/newclude.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/slemph.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/slemph.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/titles.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/titles.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/unsupported/README-unsupported
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/unsupported/bits.cfg
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/unsupported/bits.ins
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/unsupported/bits.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/unsupported/bits.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/unsupported/bits.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/unsupported/drama.ins
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/unsupported/drama.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/unsupported/drama.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/unsupported/drama.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/unsupported/includex-test.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/unsupported/includex.ins
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/unsupported/includex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/unsupported/includex.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/frankenstein/unsupported/includex.tex
+%%PORTSRC%%share/texmf-dist/source/latex/frankenstein/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/frankenstein/abbrevs.ins
+%%PORTSRC%%share/texmf-dist/source/latex/frankenstein/achicago-bst.ins
+%%PORTSRC%%share/texmf-dist/source/latex/frankenstein/achicago.ins
+%%PORTSRC%%share/texmf-dist/source/latex/frankenstein/attrib.ins
+%%PORTSRC%%share/texmf-dist/source/latex/frankenstein/blkcntrl.ins
+%%PORTSRC%%share/texmf-dist/source/latex/frankenstein/compsci.ins
+%%PORTSRC%%share/texmf-dist/source/latex/frankenstein/dialogue.ins
+%%PORTSRC%%share/texmf-dist/source/latex/frankenstein/lips.ins
+%%PORTSRC%%share/texmf-dist/source/latex/frankenstein/moredefs.ins
+%%PORTSRC%%share/texmf-dist/source/latex/frankenstein/newclude.ins
+%%PORTSRC%%share/texmf-dist/source/latex/frankenstein/slemph.ins
+%%PORTSRC%%share/texmf-dist/source/latex/frankenstein/titles.ins
+share/texmf-dist/tex/latex/frankenstein/abbrevs.cfg
+share/texmf-dist/tex/latex/frankenstein/abbrevs.stq
+share/texmf-dist/tex/latex/frankenstein/abbrevs.sty
+share/texmf-dist/tex/latex/frankenstein/achicago.stq
+share/texmf-dist/tex/latex/frankenstein/achicago.sty
+share/texmf-dist/tex/latex/frankenstein/allocate.sto
+share/texmf-dist/tex/latex/frankenstein/attrib.stq
+share/texmf-dist/tex/latex/frankenstein/attrib.sty
+share/texmf-dist/tex/latex/frankenstein/blkcntrl.stq
+share/texmf-dist/tex/latex/frankenstein/blkcntrl.sty
+share/texmf-dist/tex/latex/frankenstein/compsci.cfg
+share/texmf-dist/tex/latex/frankenstein/compsci.stq
+share/texmf-dist/tex/latex/frankenstein/compsci.sty
+share/texmf-dist/tex/latex/frankenstein/dialogue.stq
+share/texmf-dist/tex/latex/frankenstein/dialogue.sty
+share/texmf-dist/tex/latex/frankenstein/lips.stq
+share/texmf-dist/tex/latex/frankenstein/lips.sty
+share/texmf-dist/tex/latex/frankenstein/moredefs.stq
+share/texmf-dist/tex/latex/frankenstein/moredefs.sty
+share/texmf-dist/tex/latex/frankenstein/newclude.stq
+share/texmf-dist/tex/latex/frankenstein/newclude.sty
+share/texmf-dist/tex/latex/frankenstein/simple.sto
+share/texmf-dist/tex/latex/frankenstein/slemph.cfg
+share/texmf-dist/tex/latex/frankenstein/slemph.stq
+share/texmf-dist/tex/latex/frankenstein/slemph.sty
+share/texmf-dist/tex/latex/frankenstein/tag.sto
+share/texmf-dist/tex/latex/frankenstein/titles.cfg
+share/texmf-dist/tex/latex/frankenstein/titles.stq
+share/texmf-dist/tex/latex/frankenstein/titles.sty
+@dirrmtry share/texmf-dist/tex/latex/frankenstein
+@dirrmtry share/texmf-dist/source/latex/frankenstein
+@dirrmtry share/texmf-dist/doc/latex/frankenstein/unsupported
+@dirrmtry share/texmf-dist/doc/latex/frankenstein
+@dirrmtry share/texmf-dist/bibtex/bst/frankenstein
+@dirrmtry share/texmf-dist/bibtex/bib/frankenstein
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

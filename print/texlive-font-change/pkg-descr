@@ -1,0 +1,7 @@
+Macros to Change Text and Math fonts in TeX: 19 Beautiful
+Variants These macros are written for plain TeX and can be used
+with other packages like AmSTeX, eplain, etc. They allow you to
+change the fonts (text and math) in your TeX document with only
+one statement. Also different font sizes are available. All the
+fonts called by these macro files are free and are included in
+the present MiKTeX and TeX Live distributions.

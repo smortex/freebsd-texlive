@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-2dplot/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-2dplot/data1.dat
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-2dplot/data2.dat
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-2dplot/data3.dat
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-2dplot/pst-2dplot-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-2dplot/pst-2dplot-doc.tex
+share/texmf-dist/tex/latex/pst-2dplot/pst-2dplot.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-2dplot
+@dirrmtry share/texmf-dist/doc/generic/pst-2dplot
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,7 @@
+The package provides a means of marking a source, so that
+samples of it may be included in a document (by means of the
+listings package) in a stable fashion, regardless of any change
+to the source. The markup in the source text defines tags for
+blocks of source. These tags are processed by a shell script to
+make a steering file that is used by the package when LaTeX is
+being run.y

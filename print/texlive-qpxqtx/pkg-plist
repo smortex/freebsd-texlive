@@ -1,0 +1,41 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/qpxqtx/00README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/qpxqtx/p01tst.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/qpxqtx/p02tst.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/qpxqtx/qpxsymb.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/qpxqtx/qpxtest.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/qpxqtx/qtxsymb.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/qpxqtx/qtxtest.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/qpxqtx/t01tst.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/qpxqtx/t02tst.tex
+share/texmf-dist/fonts/tfm/public/qpxqtx/qpxbmi.tfm
+share/texmf-dist/fonts/tfm/public/qpxqtx/qpxbmia.tfm
+share/texmf-dist/fonts/tfm/public/qpxqtx/qpxmi.tfm
+share/texmf-dist/fonts/tfm/public/qpxqtx/qpxmia.tfm
+share/texmf-dist/fonts/tfm/public/qpxqtx/qtxbmi.tfm
+share/texmf-dist/fonts/tfm/public/qpxqtx/qtxbmia.tfm
+share/texmf-dist/fonts/tfm/public/qpxqtx/qtxmi.tfm
+share/texmf-dist/fonts/tfm/public/qpxqtx/qtxmia.tfm
+share/texmf-dist/fonts/vf/public/qpxqtx/qpxbmi.vf
+share/texmf-dist/fonts/vf/public/qpxqtx/qpxbmia.vf
+share/texmf-dist/fonts/vf/public/qpxqtx/qpxmi.vf
+share/texmf-dist/fonts/vf/public/qpxqtx/qpxmia.vf
+share/texmf-dist/fonts/vf/public/qpxqtx/qtxbmi.vf
+share/texmf-dist/fonts/vf/public/qpxqtx/qtxbmia.vf
+share/texmf-dist/fonts/vf/public/qpxqtx/qtxmi.vf
+share/texmf-dist/fonts/vf/public/qpxqtx/qtxmia.vf
+share/texmf-dist/tex/generic/qpxqtx/amspbold.tex
+share/texmf-dist/tex/generic/qpxqtx/amsqpx.def
+share/texmf-dist/tex/generic/qpxqtx/amsqpx.tex
+share/texmf-dist/tex/generic/qpxqtx/amsqtx.def
+share/texmf-dist/tex/generic/qpxqtx/amsqtx.tex
+share/texmf-dist/tex/generic/qpxqtx/amstbold.tex
+share/texmf-dist/tex/generic/qpxqtx/qpxmath.sty
+share/texmf-dist/tex/generic/qpxqtx/qpxmath.tex
+share/texmf-dist/tex/generic/qpxqtx/qtxmath.sty
+share/texmf-dist/tex/generic/qpxqtx/qtxmath.tex
+@dirrmtry share/texmf-dist/tex/generic/qpxqtx
+@dirrmtry share/texmf-dist/fonts/vf/public/qpxqtx
+@dirrmtry share/texmf-dist/fonts/tfm/public/qpxqtx
+@dirrmtry share/texmf-dist/doc/fonts/qpxqtx
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/contour/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/latex/contour/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/contour/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/contour/contour.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/contour/contourtest.tex
+%%PORTSRC%%share/texmf-dist/source/latex/contour/contour.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/contour/contour.ins
+share/texmf-dist/tex/latex/contour/contour.cfg
+share/texmf-dist/tex/latex/contour/contour.sty
+share/texmf-dist/tex/latex/contour/dvips.cnt
+share/texmf-dist/tex/latex/contour/dvipsone.cnt
+share/texmf-dist/tex/latex/contour/pdftex.cnt
+share/texmf-dist/tex/latex/contour/vtex.cnt
+@dirrmtry share/texmf-dist/tex/latex/contour
+@dirrmtry share/texmf-dist/source/latex/contour
+@dirrmtry share/texmf-dist/doc/latex/contour
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

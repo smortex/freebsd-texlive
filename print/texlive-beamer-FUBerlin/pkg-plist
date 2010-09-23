@@ -1,0 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer-FUBerlin/Changes
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer-FUBerlin/FULogo.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer-FUBerlin/FUbib.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer-FUBerlin/FUlogo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer-FUBerlin/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer-FUBerlin/exampleClass.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer-FUBerlin/exampleClass.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer-FUBerlin/exampleTheme.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer-FUBerlin/exampleTheme.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer-FUBerlin/geo.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer-FUBerlin/silberlaube2.jpg
+share/texmf-dist/tex/latex/beamer-FUBerlin/FUbeamer.cls
+share/texmf-dist/tex/latex/beamer-FUBerlin/beamercolorthemeBerlinFU.sty
+share/texmf-dist/tex/latex/beamer-FUBerlin/beamerfontthemeBerlinFU.sty
+share/texmf-dist/tex/latex/beamer-FUBerlin/beamerouterthemeBerlinFU.sty
+share/texmf-dist/tex/latex/beamer-FUBerlin/beamerthemeBerlinFU.sty
+@dirrmtry share/texmf-dist/tex/latex/beamer-FUBerlin
+@dirrmtry share/texmf-dist/doc/latex/beamer-FUBerlin
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

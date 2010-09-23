@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-doc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-doc/tkzexample.sty
+share/texmf-dist/tex/latex/tkz-doc/tkz-doc.cls
+@dirrmtry share/texmf-dist/tex/latex/tkz-doc
+@dirrmtry share/texmf-dist/doc/latex/tkz-doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

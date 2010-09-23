@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/metapost/metago/README
+%%PORTDOCS%%share/texmf-dist/doc/metapost/metago/example-program.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/metago/example-program.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/metago/example-script-1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/metago/example-script-2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/metago/example-script-3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/metago/example-script-4.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/metago/example-script-5.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/metago/example-script-6.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/metago/example-script-7.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/metago/example-script-8.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/metago/example-script.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/metago/script.go
+share/texmf-dist/metapost/metago/metago.mp
+@dirrmtry share/texmf-dist/metapost/metago
+@dirrmtry share/texmf-dist/doc/metapost/metago
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

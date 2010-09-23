@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/foekfont/FoekFont.sfd
+%%PORTDOCS%%share/texmf-dist/doc/latex/foekfont/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/foekfont/foekfont.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/foekfont/foekfont.tex
+share/texmf-dist/fonts/map/dvips/foekfont/foekfont.map
+share/texmf-dist/fonts/tfm/public/foekfont/foekfont.tfm
+share/texmf-dist/fonts/type1/public/foekfont/FoekFont.pfb
+share/texmf-dist/tex/latex/foekfont/foekfont.sty
+share/texmf-dist/tex/latex/foekfont/ot1foekfont.fd
+share/texmf-dist/tex/latex/foekfont/t1foekfont.fd
+@dirrmtry share/texmf-dist/tex/latex/foekfont
+@dirrmtry share/texmf-dist/fonts/type1/public/foekfont
+@dirrmtry share/texmf-dist/fonts/tfm/public/foekfont
+@dirrmtry share/texmf-dist/fonts/map/dvips/foekfont
+@dirrmtry share/texmf-dist/doc/latex/foekfont
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

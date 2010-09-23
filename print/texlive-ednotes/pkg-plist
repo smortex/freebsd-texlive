@@ -1,0 +1,21 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ednotes/CHANGES.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/ednotes/CHANGING.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/ednotes/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ednotes/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/latex/ednotes/README4U.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/ednotes/READMORE.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/ednotes/ednotes.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ednotes/ednotes.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ednotes/ednotugb.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ednotes/emathtst.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ednotes/varnrule.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ednotes/visible.txt
+share/texmf-dist/tex/latex/ednotes/edcntwd0.sty
+share/texmf-dist/tex/latex/ednotes/ednotes.sty
+share/texmf-dist/tex/latex/ednotes/lblchng1.sty
+share/texmf-dist/tex/latex/ednotes/mfparptc.sty
+share/texmf-dist/tex/latex/ednotes/mfparxsp.sty
+@dirrmtry share/texmf-dist/tex/latex/ednotes
+@dirrmtry share/texmf-dist/doc/latex/ednotes
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

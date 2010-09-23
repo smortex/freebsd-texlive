@@ -1,0 +1,8 @@
+Texapi provides utility macros to write format-independent (and
+-aware) packages. It is similar in spirit to the etoolbox,
+except that it isn't tied to LaTeX. Tools include: engine and
+format detection, expansion control, command definition and
+manipulation, various testing macros, string operations, and
+highly customizable while and for loops. The package requires
+e-TeX (and, should you want to compile its documentation, the
+pitex package is also needed).

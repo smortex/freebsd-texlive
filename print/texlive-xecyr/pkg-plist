@@ -1,0 +1,35 @@
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/1251.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/866.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/README
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/TODO
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/iso.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/koi8-r.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/language.dat.add
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/rubibtex-ex-x.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/rubibtex-ex-x.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/rubibtex-ex.bib
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/rumakeindex-ex-x.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/rumakeindex-ex-x.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/xecyr-doc-ru.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/xecyr-doc-ru.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/xecyr-ex1-ru-x.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/xecyr-ex1-ru-x.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/xecyr-ex2-ru-x.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/xecyr-ex2-ru-x.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/xecyr-ex3-ru-x.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/xecyr-ex3-ru-x.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/xecyr-ex4-ru-x.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/xecyr-ex4-ru-x.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/xecyr-ex5-ru-x.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/xecyr-ex5-ru-x.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/xecyr-ex6-ru-x.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/xecyr-ex6-ru-x.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/xecyr-ex7-ru-x.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecyr/xecyr-ex7-ru-x.tex
+share/texmf-dist/tex/generic/xecyr/xu-ruenhyph.tex
+share/texmf-dist/tex/xelatex/xecyr/xecyr.sty
+@dirrmtry share/texmf-dist/tex/xelatex/xecyr
+@dirrmtry share/texmf-dist/tex/generic/xecyr
+@dirrmtry share/texmf-dist/doc/xelatex/xecyr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

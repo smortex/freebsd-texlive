@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/gmdoc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/gmdoc/basedrivers/doc_gmdoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/gmdoc/basedrivers/docstrip_gmdoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/gmdoc/basedrivers/source2e_gmdoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/gmdoc/gmdoc.pdf
+share/texmf-dist/makeindex/gmdoc/gmglo.ist
+share/texmf-dist/tex/latex/gmdoc/gmdoc.sty
+share/texmf-dist/tex/latex/gmdoc/gmdocc.cls
+share/texmf-dist/tex/latex/gmdoc/gmoldcomm.sty
+@dirrmtry share/texmf-dist/tex/latex/gmdoc
+@dirrmtry share/texmf-dist/makeindex/gmdoc
+@dirrmtry share/texmf-dist/doc/latex/gmdoc/basedrivers
+@dirrmtry share/texmf-dist/doc/latex/gmdoc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

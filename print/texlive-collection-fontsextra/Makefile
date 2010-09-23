@@ -1,0 +1,200 @@
+# New ports collection makefile for:	texlive-collection-fontsextra
+# Date created:		13/03/2010 04:29:28
+# Whom:		romain@blogreen.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	collection-fontsextra
+PORTVERSION=	20100922
+CATEGORIES=	print
+DISTFILES=	# None
+
+MAINTAINER=	romain@FreeBSD.org
+COMMENT=	Extra fonts
+
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asana-Math.otf:${PORTSDIR}/print/texlive-Asana-Math \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/adfsymbols/ArrowsADF.afm:${PORTSDIR}/print/texlive-adfsymbols \
+		${LOCALBASE}/share/texmf-dist/tex/latex/allrunes/allrunes.sty:${PORTSDIR}/print/texlive-allrunes \
+		${LOCALBASE}/share/texmf-dist/dvips/antiqua/config.uaq:${PORTSDIR}/print/texlive-antiqua \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/antt/anttb.afm:${PORTSDIR}/print/texlive-antt \
+		${LOCALBASE}/share/texmf-dist/tex/latex/apl/apl.sty:${PORTSDIR}/print/texlive-apl \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ar/ar.sty:${PORTSDIR}/print/texlive-ar \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/archaic/aram10.afm:${PORTSDIR}/print/texlive-archaic \
+		${LOCALBASE}/share/texmf-dist/tex/latex/arev/arev.sty:${PORTSDIR}/print/texlive-arev \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ascii/ascii.sty:${PORTSDIR}/print/texlive-ascii \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/astro/astrosym.cal:${PORTSDIR}/print/texlive-astro \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/augie/augie___.afm:${PORTSDIR}/print/texlive-augie \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/auncial-new/auncl10.afm:${PORTSDIR}/print/texlive-auncial-new \
+		${LOCALBASE}/share/texmf-dist/tex/latex/aurical/aurical.sty:${PORTSDIR}/print/texlive-aurical \
+		${LOCALBASE}/share/texmf-dist/tex/latex/barcodes/barcodes.sty:${PORTSDIR}/print/texlive-barcodes \
+		${LOCALBASE}/share/texmf-dist/tex/latex/baskervald/baskervald.sty:${PORTSDIR}/print/texlive-baskervald \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bbding/bbding.sty:${PORTSDIR}/print/texlive-bbding \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/bbm/bbm10.mf:${PORTSDIR}/print/texlive-bbm \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bbm-macros/bbm.sty:${PORTSDIR}/print/texlive-bbm-macros \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bbold/bbold.sty:${PORTSDIR}/print/texlive-bbold \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/belleek/belleek.map:${PORTSDIR}/print/texlive-belleek \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bera/bera.sty:${PORTSDIR}/print/texlive-bera \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/berenisadf/ybdb.afm:${PORTSDIR}/print/texlive-berenisadf \
+		${LOCALBASE}/share/texmf-dist/fonts/tfm/public/blacklettert1/tfrak.tfm:${PORTSDIR}/print/texlive-blacklettert1 \
+		${LOCALBASE}/share/texmf-dist/tex/latex/boisik/boisik.sty:${PORTSDIR}/print/texlive-boisik \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/bookhands/auncl10.mf:${PORTSDIR}/print/texlive-bookhands \
+		${LOCALBASE}/share/texmf-dist/tex/latex/braille/braille.sty:${PORTSDIR}/print/texlive-braille \
+		${LOCALBASE}/share/texmf-dist/dvips/brushscr/config.pbsi:${PORTSDIR}/print/texlive-brushscr \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/calligra/callig15.mf:${PORTSDIR}/print/texlive-calligra \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/carolmin-ps/cmin10.afm:${PORTSDIR}/print/texlive-carolmin-ps \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ccicons/ccicons.sty:${PORTSDIR}/print/texlive-ccicons \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cfr-lm/cfr-lm.sty:${PORTSDIR}/print/texlive-cfr-lm \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cherokee/cherokee.sty:${PORTSDIR}/print/texlive-cherokee \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/cm-lgc/fcmb6y.afm:${PORTSDIR}/print/texlive-cm-lgc \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/cm-unicode/cmunbbx.afm:${PORTSDIR}/print/texlive-cm-unicode \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cmbright/cmbright.sty:${PORTSDIR}/print/texlive-cmbright \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cmll/cmll.sty:${PORTSDIR}/print/texlive-cmll \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/cmpica/cmpica.mf:${PORTSDIR}/print/texlive-cmpica \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/concmath-fonts/xccam10.mf:${PORTSDIR}/print/texlive-concmath-fonts \
+		${LOCALBASE}/share/texmf-dist/tex/latex/courier-scaled/8rpcrs.fd:${PORTSDIR}/print/texlive-courier-scaled \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/cryst/cryst.afm:${PORTSDIR}/print/texlive-cryst \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cyklop/cyklop.sty:${PORTSDIR}/print/texlive-cyklop \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/dancers/dancers.mf:${PORTSDIR}/print/texlive-dancers \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/dice/dice3d.mf:${PORTSDIR}/print/texlive-dice \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dictsym/dictsym.sty:${PORTSDIR}/print/texlive-dictsym \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dingbat/dingbat.sty:${PORTSDIR}/print/texlive-dingbat \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/doublestroke/dstroke.map:${PORTSDIR}/print/texlive-doublestroke \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dozenal/dozenal.sty:${PORTSDIR}/print/texlive-dozenal \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/duerer/cdb10.mf:${PORTSDIR}/print/texlive-duerer \
+		${LOCALBASE}/share/texmf-dist/tex/latex/duerer-latex/duerer.sty:${PORTSDIR}/print/texlive-duerer-latex \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/ean/ocrb10.mf:${PORTSDIR}/print/texlive-ean \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/ecc/conc10pt.mf:${PORTSDIR}/print/texlive-ecc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/eco/eco.sty:${PORTSDIR}/print/texlive-eco \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/eiad/eiadb10.mf:${PORTSDIR}/print/texlive-eiad \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/eiad-ltx/Fbf10.mf:${PORTSDIR}/print/texlive-eiad-ltx \
+		${LOCALBASE}/share/texmf-dist/tex/latex/electrum/electrum.sty:${PORTSDIR}/print/texlive-electrum \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/elvish/cirth.mf:${PORTSDIR}/print/texlive-elvish \
+		${LOCALBASE}/share/texmf-dist/tex/latex/epigrafica/epigrafica.sty:${PORTSDIR}/print/texlive-epigrafica \
+		${LOCALBASE}/share/texmf-dist/tex/latex/epsdice/epsdice.sty:${PORTSDIR}/print/texlive-epsdice \
+		${LOCALBASE}/share/texmf-dist/tex/latex/esvect/esvect.sty:${PORTSDIR}/print/texlive-esvect \
+		${LOCALBASE}/share/texmf-dist/tex/latex/eulervm/eulervm.sty:${PORTSDIR}/print/texlive-eulervm \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/euxm/euxm10.mf:${PORTSDIR}/print/texlive-euxm \
+		${LOCALBASE}/share/texmf-dist/tex/latex/feyn/feyn.sty:${PORTSDIR}/print/texlive-feyn \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fge/fge.sty:${PORTSDIR}/print/texlive-fge \
+		${LOCALBASE}/share/texmf-dist/tex/latex/foekfont/foekfont.sty:${PORTSDIR}/print/texlive-foekfont \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fonetika/fonetika.sty:${PORTSDIR}/print/texlive-fonetika \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fourier/fourier.sty:${PORTSDIR}/print/texlive-fourier \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fouriernc/fouriernc.sty:${PORTSDIR}/print/texlive-fouriernc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/frcursive/frcursive.sty:${PORTSDIR}/print/texlive-frcursive \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/genealogy/drgen.mf:${PORTSDIR}/print/texlive-genealogy \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/gentium/GenBasB.afm:${PORTSDIR}/print/texlive-gentium \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gfsartemisia/gfsartemisia.sty:${PORTSDIR}/print/texlive-gfsartemisia \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gfsbodoni/gfsbodoni.sty:${PORTSDIR}/print/texlive-gfsbodoni \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gfscomplutum/gfscomplutum.sty:${PORTSDIR}/print/texlive-gfscomplutum \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gfsdidot/gfsdidot.sty:${PORTSDIR}/print/texlive-gfsdidot \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gfsneohellenic/gfsneohellenic.sty:${PORTSDIR}/print/texlive-gfsneohellenic \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gfssolomos/gfssolomos.sty:${PORTSDIR}/print/texlive-gfssolomos \
+		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/gnu-freefont/FreeMono.otf:${PORTSDIR}/print/texlive-gnu-freefont \
+		${LOCALBASE}/share/texmf-dist/dvips/gothic/config.yfrak:${PORTSDIR}/print/texlive-gothic \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/greenpoint/greenpoint.mf:${PORTSDIR}/print/texlive-greenpoint \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/groff/freeeuro.afm:${PORTSDIR}/print/texlive-groff \
+		${LOCALBASE}/share/texmf-dist/dvips/grotesq/config.ugq:${PORTSDIR}/print/texlive-grotesq \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/hands/hands.mf:${PORTSDIR}/print/texlive-hands \
+		${LOCALBASE}/share/texmf-dist/dvips/hfbright/config.hfbright:${PORTSDIR}/print/texlive-hfbright \
+		${LOCALBASE}/share/texmf-dist/tex/latex/hfoldsty/hfoldsty.sty:${PORTSDIR}/print/texlive-hfoldsty \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ifsym/ifsym.sty:${PORTSDIR}/print/texlive-ifsym \
+		${LOCALBASE}/share/texmf-dist/tex/latex/inconsolata/inconsolata.sty:${PORTSDIR}/print/texlive-inconsolata \
+		${LOCALBASE}/share/texmf-dist/dvips/initials/config.Acorn:${PORTSDIR}/print/texlive-initials \
+		${LOCALBASE}/share/texmf-dist/tex/latex/iwona/iwona.sty:${PORTSDIR}/print/texlive-iwona \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/jablantile/jablantile.mf:${PORTSDIR}/print/texlive-jablantile \
+		${LOCALBASE}/share/texmf-dist/tex/latex/jamtimes/jamtimes.sty:${PORTSDIR}/print/texlive-jamtimes \
+		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/junicode/Junicode-Bold.ttf:${PORTSDIR}/print/texlive-junicode \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/kixfont/kix.mf:${PORTSDIR}/print/texlive-kixfont \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/knuthotherfonts/committee/font1.mf:${PORTSDIR}/print/texlive-knuthotherfonts \
+		${LOCALBASE}/share/texmf-dist/tex/latex/kpfonts/kpfonts.sty:${PORTSDIR}/print/texlive-kpfonts \
+		${LOCALBASE}/share/texmf-dist/tex/latex/kurier/kurier.sty:${PORTSDIR}/print/texlive-kurier \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/lfb/accents.mf:${PORTSDIR}/print/texlive-lfb \
+		${LOCALBASE}/share/texmf-dist/tex/latex/libertine/libertine.sty:${PORTSDIR}/print/texlive-libertine \
+		${LOCALBASE}/share/texmf-dist/tex/latex/libris/libris.sty:${PORTSDIR}/print/texlive-libris \
+		${LOCALBASE}/share/texmf-dist/tex/latex/linearA/linearA.sty:${PORTSDIR}/print/texlive-linearA \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/logic/milstd.mf:${PORTSDIR}/print/texlive-logic \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lxfonts/lxfonts.sty:${PORTSDIR}/print/texlive-lxfonts \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc:${PORTSDIR}/print/texlive-ly1 \
+		${LOCALBASE}/share/texmf-dist/tex/generic/mathabx/mathabx.sty:${PORTSDIR}/print/texlive-mathabx \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mathdesign/mathdesign.sty:${PORTSDIR}/print/texlive-mathdesign \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mdputu/mdputu.sty:${PORTSDIR}/print/texlive-mdputu \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc:${PORTSDIR}/print/texlive-mnsymbol \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/nkarta/nkarta.mf:${PORTSDIR}/print/texlive-nkarta \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/ocherokee/Cherokee-Bold.afm:${PORTSDIR}/print/texlive-ocherokee \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/ogham/ogham.mf:${PORTSDIR}/print/texlive-ogham \
+		${LOCALBASE}/share/texmf-dist/tex/lambda/oinuit/oinuit.sty:${PORTSDIR}/print/texlive-oinuit \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/oldlatin/olb10.mf:${PORTSDIR}/print/texlive-oldlatin \
+		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/oldstandard/OldStandard-Bold.otf:${PORTSDIR}/print/texlive-oldstandard \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/orkhun/orhant.mf:${PORTSDIR}/print/texlive-orkhun \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/osmanian/osmanian.mf:${PORTSDIR}/print/texlive-osmanian \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pacioli/pacioli.sty:${PORTSDIR}/print/texlive-pacioli \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pclnfss/albertus.sty:${PORTSDIR}/print/texlive-pclnfss \
+		${LOCALBASE}/share/texmf-dist/tex/latex/phaistos/phaistos.sty:${PORTSDIR}/print/texlive-phaistos \
+		${LOCALBASE}/share/texmf-dist/tex/latex/phonetic/phonetic.sty:${PORTSDIR}/print/texlive-phonetic \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pigpen/pigpen.sty:${PORTSDIR}/print/texlive-pigpen \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/gust/poltawski/antpb10.afm:${PORTSDIR}/print/texlive-poltawski \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/itc/psafm/stonesan/is8b8a.afm:${PORTSDIR}/print/texlive-psafm \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/punk/punk.mf:${PORTSDIR}/print/texlive-punk \
+		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/punknova/punknova-bold.otf:${PORTSDIR}/print/texlive-punknova \
+		${LOCALBASE}/share/texmf-dist/tex/latex/recycle/recycle.sty:${PORTSDIR}/print/texlive-recycle \
+		${LOCALBASE}/share/texmf-dist/tex/latex/romande/romande.sty:${PORTSDIR}/print/texlive-romande \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/sauter/b-cmb.mf:${PORTSDIR}/print/texlive-sauter \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sauterfonts/sbbm.sty:${PORTSDIR}/print/texlive-sauterfonts \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/semaphor/smfb10.afm:${PORTSDIR}/print/texlive-semaphor \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/simpsons/bart.mf:${PORTSDIR}/print/texlive-simpsons \
+		${LOCALBASE}/share/texmf-dist/tex/latex/skull/skull.sty:${PORTSDIR}/print/texlive-skull \
+		${LOCALBASE}/share/texmf-dist/tex/latex/staves/staves.sty:${PORTSDIR}/print/texlive-staves \
+		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/stix/STIXGeneral.otf:${PORTSDIR}/print/texlive-stix \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/tapir/tap-enc.mf:${PORTSDIR}/print/texlive-tapir \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tengwarscript/tengwarscript.sty:${PORTSDIR}/print/texlive-tengwarscript \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tfrupee/tfrupee.sty:${PORTSDIR}/print/texlive-tfrupee \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tpslifonts/tpslifonts.sty:${PORTSDIR}/print/texlive-tpslifonts \
+		${LOCALBASE}/share/texmf-dist/tex/latex/trajan/trajan.sty:${PORTSDIR}/print/texlive-trajan \
+		${LOCALBASE}/share/texmf-dist/tex/latex/txfontsb/txfontsb.sty:${PORTSDIR}/print/texlive-txfontsb \
+		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/umtypewriter/UMTypewriter-Bold.otf:${PORTSDIR}/print/texlive-umtypewriter \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/universa/fulbc10.mf:${PORTSDIR}/print/texlive-universa \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/venturis/yvtb8a.afm:${PORTSDIR}/print/texlive-venturisadf \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/wsuipa/iaccent.mf:${PORTSDIR}/print/texlive-wsuipa \
+		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/xits/xits-bold.otf:${PORTSDIR}/print/texlive-xits \
+		${LOCALBASE}/share/texmf-dist/tex/latex/yfonts/yfonts.sty:${PORTSDIR}/print/texlive-yfonts \
+		${LOCALBASE}/share/texmf-dist/tex/latex/zefonts/zefonts.sty:${PORTSDIR}/print/texlive-zefonts \
+		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
+		${LOCALBASE}/share/texmf-dist/tex/latex/apalike/apalike.sty:${PORTSDIR}/print/texlive-apalike \
+		${LOCALBASE}/share/texmf-dist/bibtex/bib/base/xampl.bib:${PORTSDIR}/print/texlive-bibtex \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cm/cmtext-bsr-interpolated.map:${PORTSDIR}/print/texlive-cm \
+		${LOCALBASE}/share/texmf/dvipdfm/config/config:${PORTSDIR}/print/texlive-dvipdfm \
+		${LOCALBASE}/share/texmf/dvipdfmx/dvipdfmx.cfg:${PORTSDIR}/print/texlive-dvipdfmx \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def:${PORTSDIR}/print/texlive-dvipdfmx-def \
+		${LOCALBASE}/share/texmf-dist/dvips/base/ehandler.ps:${PORTSDIR}/print/texlive-dvips \
+		${LOCALBASE}/share/texmf-dist/tex/generic/enctex/1250-csf.tex:${PORTSDIR}/print/texlive-enctex \
+		${LOCALBASE}/share/texmf-dist/tex/plain/etex/etex.src:${PORTSDIR}/print/texlive-etex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/etex-pkg/etex.sty:${PORTSDIR}/print/texlive-etex-pkg \
+		${LOCALBASE}/share/texmf-dist/fonts/map/glyphlist/glyphlist.txt:${PORTSDIR}/print/texlive-glyphlist \
+		${LOCALBASE}/share/texmf/dvips/gsftopk/render.ps:${PORTSDIR}/print/texlive-gsftopk \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8 \
+		${LOCALBASE}/share/texmf/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
+		${LOCALBASE}/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty:${PORTSDIR}/print/texlive-ifluatex \
+		${LOCALBASE}/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty:${PORTSDIR}/print/texlive-ifxetex \
+		${LOCALBASE}/share/texmf/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
+		${LOCALBASE}/share/texmf-dist/scripts/lua-alt-getopt/alt_getopt.lua:${PORTSDIR}/print/texlive-lua-alt-getopt \
+		${LOCALBASE}/share/texmf/tex/generic/config/luatexiniconfig.tex:${PORTSDIR}/print/texlive-luatex \
+		${LOCALBASE}/share/texmf-dist/makeindex/base/din.ist:${PORTSDIR}/print/texlive-makeindex \
+		${LOCALBASE}/share/texmf-dist/metafont/base/expr.mf:${PORTSDIR}/print/texlive-metafont \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mflogo/mflogo.sty:${PORTSDIR}/print/texlive-mflogo \
+		${LOCALBASE}/share/texmf-dist/mft/base/README:${PORTSDIR}/print/texlive-mfware \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/misc/black.mf:${PORTSDIR}/print/texlive-misc \
+		${LOCALBASE}/share/texmf/fonts/map/pdftex/updmap/pdftex.map:${PORTSDIR}/print/texlive-pdftex \
+		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
+		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
+		${LOCALBASE}/share/texmf/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
+		${LOCALBASE}/share/texmf/texconfig/README:${PORTSDIR}/print/texlive-texconfig \
+		${LOCALBASE}/share/texmf/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
+		${LOCALBASE}/share/texmf/scripts/texlive/tlmgr.pl:${PORTSDIR}/print/texlive-texlive.infra \
+		${LOCALBASE}/share/texmf/xdvi/XDvi:${PORTSDIR}/print/texlive-xdvi
+
+NOPORTDOCS=	yes
+NOPORTSRC=	yes
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

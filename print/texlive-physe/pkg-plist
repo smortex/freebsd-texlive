@@ -1,0 +1,7 @@
+share/texmf-dist/tex/physe/base/physe.tex
+share/texmf-dist/tex/physe/base/physupdt.tex
+share/texmf-dist/tex/physe/config/physe.ini
+@dirrmtry share/texmf-dist/tex/physe/config
+@dirrmtry share/texmf-dist/tex/physe/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-3d/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-3d/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-3d/pst-3d-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-3d/pst-3d-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-3d/pst-3d-doc.tex
+share/texmf-dist/dvips/pst-3d/pst-3d.pro
+%%PORTSRC%%share/texmf-dist/source/generic/pst-3d/Makefile
+share/texmf-dist/tex/generic/pst-3d/pst-3d.tex
+share/texmf-dist/tex/latex/pst-3d/pst-3d.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-3d
+@dirrmtry share/texmf-dist/tex/generic/pst-3d
+@dirrmtry share/texmf-dist/source/generic/pst-3d
+@dirrmtry share/texmf-dist/dvips/pst-3d
+@dirrmtry share/texmf-dist/doc/generic/pst-3d
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

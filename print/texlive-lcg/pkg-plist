@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/lcg/lcg.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/lcg/lcg.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/lcg/lcg.ins
+share/texmf-dist/tex/latex/lcg/lcg.sty
+@dirrmtry share/texmf-dist/tex/latex/lcg
+@dirrmtry share/texmf-dist/source/latex/lcg
+@dirrmtry share/texmf-dist/doc/latex/lcg
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/multido/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/multido/multido-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/multido/multido-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/multido/multido.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/multido/Makefile
+share/texmf-dist/tex/generic/multido/multido.tex
+share/texmf-dist/tex/latex/multido/multido.sty
+@dirrmtry share/texmf-dist/tex/latex/multido
+@dirrmtry share/texmf-dist/tex/generic/multido
+@dirrmtry share/texmf-dist/source/generic/multido
+@dirrmtry share/texmf-dist/doc/generic/multido
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,21 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcprot/00CONTEN
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcprot/00README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcprot/INSTALL.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcprot/LEGAL.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcprot/Makefile.unx
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcprot/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcprot/TODO
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcprot/pdfcprot.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/pdfcprot/pdfcprot.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/pdfcprot/pdfcprot.ins
+share/texmf-dist/tex/latex/pdfcprot/pdfcprot.sty
+share/texmf-dist/tex/latex/pdfcprot/pplmnOT1.cpa
+share/texmf-dist/tex/latex/pdfcprot/pplmnOT2.cpa
+share/texmf-dist/tex/latex/pdfcprot/pplmnT1.cpa
+share/texmf-dist/tex/latex/pdfcprot/pplmnT2A.cpa
+share/texmf-dist/tex/latex/pdfcprot/pplmnTS1.cpa
+@dirrmtry share/texmf-dist/tex/latex/pdfcprot
+@dirrmtry share/texmf-dist/source/latex/pdfcprot
+@dirrmtry share/texmf-dist/doc/latex/pdfcprot
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

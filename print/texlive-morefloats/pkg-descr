@@ -1,0 +1,6 @@
+LaTeX can, by default, only cope with 18 outstanding floats;
+any more, and you get the error "too many unprocessed floats".
+This package increases that limit to 36 outstanding floats.
+However, if you're specifying floats that can't be placed
+anywhere, the package merely delays the arrival of the error
+message.

@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/metapost/exteps/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/metapost/exteps/README
+%%PORTDOCS%%share/texmf-dist/doc/metapost/exteps/delfin
+%%PORTDOCS%%share/texmf-dist/doc/metapost/exteps/exteps.pdf
+share/texmf-dist/metapost/exteps/exteps.mp
+@dirrmtry share/texmf-dist/metapost/exteps
+@dirrmtry share/texmf-dist/doc/metapost/exteps
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

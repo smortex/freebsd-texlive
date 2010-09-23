@@ -1,0 +1,33 @@
+share/texmf-dist/tex/csplain/base/cavantga.tex
+share/texmf-dist/tex/csplain/base/cbookman.tex
+share/texmf-dist/tex/csplain/base/chelvet.tex
+share/texmf-dist/tex/csplain/base/cncent.tex
+share/texmf-dist/tex/csplain/base/cpalatin.tex
+share/texmf-dist/tex/csplain/base/csenc-k.tex
+share/texmf-dist/tex/csplain/base/csenc-p.tex
+share/texmf-dist/tex/csplain/base/csenc-u.tex
+share/texmf-dist/tex/csplain/base/csenc-w.tex
+share/texmf-dist/tex/csplain/base/cseplain.ini
+share/texmf-dist/tex/csplain/base/csfonts.tex
+share/texmf-dist/tex/csplain/base/csplain-utf8.ini
+share/texmf-dist/tex/csplain/base/csplain.ini
+share/texmf-dist/tex/csplain/base/ctimes.tex
+share/texmf-dist/tex/csplain/base/czech.sty
+share/texmf-dist/tex/csplain/base/czhyphen.ex
+share/texmf-dist/tex/csplain/base/czhyphen.tex
+share/texmf-dist/tex/csplain/base/dcfonts.tex
+share/texmf-dist/tex/csplain/base/ecfonts.tex
+share/texmf-dist/tex/csplain/base/extcode.tex
+share/texmf-dist/tex/csplain/base/fonttabs.tex
+share/texmf-dist/tex/csplain/base/hyphen.ex
+share/texmf-dist/tex/csplain/base/hyphen.lan
+share/texmf-dist/tex/csplain/base/il2code.tex
+share/texmf-dist/tex/csplain/base/plaina4.tex
+share/texmf-dist/tex/csplain/base/skhyphen.ex
+share/texmf-dist/tex/csplain/base/skhyphen.tex
+share/texmf-dist/tex/csplain/base/slovak.sty
+share/texmf-dist/tex/csplain/base/t1code.tex
+share/texmf-dist/tex/csplain/base/ttimes.tex
+@dirrmtry share/texmf-dist/tex/csplain/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

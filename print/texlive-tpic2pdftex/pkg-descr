@@ -1,0 +1,2 @@
+The AWK script converts pic language, embedded inline
+(delimited by .PS and .PE markers), to \pdfliteral commands.

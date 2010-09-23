@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/perltex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/perltex/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/perltex/perltex.pdf
+share/texmf-dist/scripts/perltex/perltex.pl
+%%PORTSRC%%share/texmf-dist/source/latex/perltex/perltex.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/perltex/perltex.ins
+share/texmf-dist/tex/latex/perltex/perltex.sty
+%%PORTDOCS%%share/texmf/doc/man/man1/perltex.1
+%%PORTDOCS%%share/texmf/doc/man/man1/perltex.man1.pdf
+@dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf-dist/tex/latex/perltex
+@dirrmtry share/texmf-dist/source/latex/perltex
+@dirrmtry share/texmf-dist/doc/latex/perltex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

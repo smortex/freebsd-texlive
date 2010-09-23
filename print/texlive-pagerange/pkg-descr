@@ -1,0 +1,3 @@
+The package defines a command \pagerange that typesets ranges
+of page numbers, expanding them (e.g., adding first or large
+page numbers) and standardising them.

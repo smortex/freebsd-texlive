@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/facsimile/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/facsimile/example.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/facsimile/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/facsimile/facsimile.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/facsimile/facsimile.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/facsimile/facsimile.ins
+share/texmf-dist/tex/latex/facsimile/fac-de.cfg
+share/texmf-dist/tex/latex/facsimile/fac-en.cfg
+share/texmf-dist/tex/latex/facsimile/facsimile.cls
+@dirrmtry share/texmf-dist/tex/latex/facsimile
+@dirrmtry share/texmf-dist/source/latex/facsimile
+@dirrmtry share/texmf-dist/doc/latex/facsimile
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

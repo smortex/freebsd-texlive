@@ -1,0 +1,34 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/brushscr/AAA_readme.bbl
+%%PORTDOCS%%share/texmf-dist/doc/latex/brushscr/AAA_readme.blg
+%%PORTDOCS%%share/texmf-dist/doc/latex/brushscr/AAA_readme.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/brushscr/AAA_readme.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/brushscr/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/brushscr/example.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/brushscr/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/brushscr/generate.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/brushscr/kern.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/brushscr/sample.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/brushscr/sample.tex
+share/texmf-dist/dvips/brushscr/config.pbsi
+share/texmf-dist/fonts/afm/public/brushscr/BrushScriptX-Italic.afm
+share/texmf-dist/fonts/map/dvips/brushscr/pbsi.map
+share/texmf-dist/fonts/tfm/public/brushscr/pbsi.tfm
+share/texmf-dist/fonts/tfm/public/brushscr/pbsi8r.tfm
+share/texmf-dist/fonts/tfm/public/brushscr/pbsi8t.tfm
+share/texmf-dist/fonts/type1/public/brushscr/BrushScriptX-Italic.pfb
+share/texmf-dist/fonts/vf/public/brushscr/pbsi8t.vf
+%%PORTSRC%%share/texmf-dist/source/latex/brushscr/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/brushscr/pbsi.mtx
+share/texmf-dist/tex/latex/brushscr/pbsi.sty
+share/texmf-dist/tex/latex/brushscr/t1pbsi.fd
+@dirrmtry share/texmf-dist/tex/latex/brushscr
+@dirrmtry share/texmf-dist/source/latex/brushscr
+@dirrmtry share/texmf-dist/fonts/vf/public/brushscr
+@dirrmtry share/texmf-dist/fonts/type1/public/brushscr
+@dirrmtry share/texmf-dist/fonts/tfm/public/brushscr
+@dirrmtry share/texmf-dist/fonts/map/dvips/brushscr
+@dirrmtry share/texmf-dist/fonts/afm/public/brushscr
+@dirrmtry share/texmf-dist/dvips/brushscr
+@dirrmtry share/texmf-dist/doc/latex/brushscr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

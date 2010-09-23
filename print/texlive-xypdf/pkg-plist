@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/xypdf/README
+share/texmf-dist/tex/latex/xypdf/xypdf.sty
+@dirrmtry share/texmf-dist/tex/latex/xypdf
+@dirrmtry share/texmf-dist/doc/latex/xypdf
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

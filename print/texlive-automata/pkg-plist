@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/metapost/automata/README
+%%PORTDOCS%%share/texmf-dist/doc/metapost/automata/example.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/automata/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/automata/example.tex
+share/texmf-dist/metapost/automata/automata.mp
+@dirrmtry share/texmf-dist/metapost/automata
+@dirrmtry share/texmf-dist/doc/metapost/automata
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

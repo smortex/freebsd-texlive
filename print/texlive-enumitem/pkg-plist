@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/enumitem/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/enumitem/enumitem.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/enumitem/enumitem.tex
+share/texmf-dist/tex/latex/enumitem/enumitem.sty
+@dirrmtry share/texmf-dist/tex/latex/enumitem
+@dirrmtry share/texmf-dist/doc/latex/enumitem
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

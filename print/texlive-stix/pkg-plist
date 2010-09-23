@@ -1,0 +1,66 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXGeneral.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXGeneralBol.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXGeneralBolIta.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXGeneralItalic.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXIntDBol.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXIntDReg.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXIntSmBol.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXIntSmReg.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXIntUpBol.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXIntUpDBol.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXIntUpDReg.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXIntUpReg.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXIntUpSmBol.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXIntUpSmReg.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXNonUni.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXNonUniBol.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXNonUniBolIta.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXNonUniIta.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXSizFiveSymReg.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXSizFourSymBol.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXSizFourSymReg.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXSizOneSymBol.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXSizOneSymReg.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXSizThreeSymBol.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXSizThreeSymReg.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXSizTwoSymBol.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXSizTwoSymReg.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXVar.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXVarBol.otf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/STIX_Font_License_2010.pdf
+share/texmf-dist/fonts/opentype/public/stix/STIXGeneral.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXGeneralBol.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXGeneralBolIta.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXGeneralItalic.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXIntDBol.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXIntDReg.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXIntSmBol.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXIntSmReg.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXIntUpBol.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXIntUpDBol.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXIntUpDReg.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXIntUpReg.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXIntUpSmBol.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXIntUpSmReg.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXNonUni.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXNonUniBol.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXNonUniBolIta.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXNonUniIta.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXSizFiveSymReg.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXSizFourSymBol.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXSizFourSymReg.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXSizOneSymBol.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXSizOneSymReg.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXSizThreeSymBol.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXSizThreeSymReg.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXSizTwoSymBol.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXSizTwoSymReg.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXVar.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXVarBol.otf
+@dirrmtry share/texmf-dist/fonts/opentype/public/stix
+@dirrmtry share/texmf-dist/doc/fonts/stix/Glyphs
+@dirrmtry share/texmf-dist/doc/fonts/stix
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

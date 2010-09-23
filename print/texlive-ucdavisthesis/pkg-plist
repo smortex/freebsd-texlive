@@ -1,0 +1,23 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ucdavisthesis/Example/ucdavisthesis_example.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/ucdavisthesis/Example/ucdavisthesis_example_Chap1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ucdavisthesis/Example/ucdavisthesis_example_Chap2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ucdavisthesis/Example/ucdavisthesis_example_Chap3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ucdavisthesis/Example/ucdavisthesis_example_figure.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/ucdavisthesis/Example/ucdavisthesis_example_figure.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ucdavisthesis/Example/ucdavisthesis_example_main.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ucdavisthesis/Example/ucdavisthesis_example_main.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ucdavisthesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ucdavisthesis/ucdavisthesis.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/ucdavisthesis/ucdavisthesis.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ucdavisthesis/ucdavisthesis.ins
+share/texmf-dist/tex/latex/ucdavisthesis/ucdavisthesis.cls
+share/texmf-dist/tex/latex/ucdavisthesis/ucdthesis10.clo
+share/texmf-dist/tex/latex/ucdavisthesis/ucdthesis11.clo
+share/texmf-dist/tex/latex/ucdavisthesis/ucdthesis12.clo
+share/texmf-dist/tex/latex/ucdavisthesis/ucdthesis13.clo
+@dirrmtry share/texmf-dist/tex/latex/ucdavisthesis
+@dirrmtry share/texmf-dist/source/latex/ucdavisthesis
+@dirrmtry share/texmf-dist/doc/latex/ucdavisthesis/Example
+@dirrmtry share/texmf-dist/doc/latex/ucdavisthesis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

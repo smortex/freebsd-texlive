@@ -1,0 +1,9 @@
+YaX is advertised as a key system, but it rather organizes
+attributes in parameters, which parameters can be executed, so
+that YaX is halfway between key management and macro definition
+(and actually hopes to provide a user's interface). Values
+assigned to attributes can be retrieved and tested in various
+ways, with full expandability ensured as much as possible.
+Finally, YaX's syntax is a quite peculiar (as few braces as
+possible), but may be customized. YaX is based on texapi and
+thus requires e-TeX.

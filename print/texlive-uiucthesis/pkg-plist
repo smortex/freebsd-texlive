@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/uiucthesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/uiucthesis/thesis-ex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/uiucthesis/thesis-ex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uiucthesis/uiucthesis.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/uiucthesis/uiucthesis.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/uiucthesis/uiucthesis.ins
+share/texmf-dist/tex/latex/uiucthesis/uiucthesis.cls
+share/texmf-dist/tex/latex/uiucthesis/uiucthesis.sty
+@dirrmtry share/texmf-dist/tex/latex/uiucthesis
+@dirrmtry share/texmf-dist/source/latex/uiucthesis
+@dirrmtry share/texmf-dist/doc/latex/uiucthesis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

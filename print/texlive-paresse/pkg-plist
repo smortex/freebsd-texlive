@@ -1,0 +1,24 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/paresse/LISEZMOI
+%%PORTDOCS%%share/texmf-dist/doc/latex/paresse/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/paresse/paresse-en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/paresse/paresse-en.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/paresse/paresse-ex-en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/paresse/paresse-ex-en.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/paresse/paresse-ex-fr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/paresse/paresse-ex-fr.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/paresse/paresse-fourier-en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/paresse/paresse-fourier-en.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/paresse/paresse-fourier-fr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/paresse/paresse-fourier-fr.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/paresse/paresse-fr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/paresse/paresse-fr.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/paresse/paresse.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/paresse/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/paresse/paresse.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/paresse/paresse.ins
+share/texmf-dist/tex/latex/paresse/paresse.sty
+@dirrmtry share/texmf-dist/tex/latex/paresse
+@dirrmtry share/texmf-dist/source/latex/paresse
+@dirrmtry share/texmf-dist/doc/latex/paresse
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

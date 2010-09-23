@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/titleref/miscdoc.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/titleref/titleref.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/titleref/titleref.tex
+share/texmf-dist/tex/latex/titleref/titleref.sty
+@dirrmtry share/texmf-dist/tex/latex/titleref
+@dirrmtry share/texmf-dist/doc/latex/titleref
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

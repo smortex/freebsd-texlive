@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/trsym/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/trsym/manifest.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/trsym/trsym.pdf
+share/texmf-dist/fonts/source/public/trsym/trsy.mf
+share/texmf-dist/fonts/source/public/trsym/trsy10.mf
+share/texmf-dist/fonts/source/public/trsym/trsy12.mf
+share/texmf-dist/fonts/tfm/public/trsym/trsy10.tfm
+share/texmf-dist/fonts/tfm/public/trsym/trsy12.tfm
+%%PORTSRC%%share/texmf-dist/source/latex/trsym/trsym.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/trsym/trsym.ins
+share/texmf-dist/tex/latex/trsym/trsym.sty
+share/texmf-dist/tex/latex/trsym/utrsy.fd
+@dirrmtry share/texmf-dist/tex/latex/trsym
+@dirrmtry share/texmf-dist/source/latex/trsym
+@dirrmtry share/texmf-dist/fonts/tfm/public/trsym
+@dirrmtry share/texmf-dist/fonts/source/public/trsym
+@dirrmtry share/texmf-dist/doc/latex/trsym
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

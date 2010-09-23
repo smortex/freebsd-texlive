@@ -1,0 +1,30 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/bibliografia-suftesi.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/esempiofrontespizio.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/example/Capitoli/primo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/example/Capitoli/quarto.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/example/Capitoli/secondo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/example/Capitoli/terzo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/example/Immagini/don.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/example/Immagini/lamport.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/example/MaterialeInizialeFinale/Conclusione.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/example/MaterialeInizialeFinale/Introduzione.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/example/MaterialeInizialeFinale/Ringraziamenti.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/example/bibliografia.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/example/logo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/example/tesi.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/example/tesi.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/layoutDX.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/layoutSX.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/logo.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/suftesi-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/suftesi-doc.tex
+share/texmf-dist/tex/latex/suftesi/suftesi.cls
+@dirrmtry share/texmf-dist/tex/latex/suftesi
+@dirrmtry share/texmf-dist/doc/latex/suftesi/example/MaterialeInizialeFinale
+@dirrmtry share/texmf-dist/doc/latex/suftesi/example/Immagini
+@dirrmtry share/texmf-dist/doc/latex/suftesi/example/Capitoli
+@dirrmtry share/texmf-dist/doc/latex/suftesi/example
+@dirrmtry share/texmf-dist/doc/latex/suftesi
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

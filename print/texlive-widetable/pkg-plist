@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/widetable/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/widetable/manifest.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/widetable/widetable.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/widetable/widetable.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/widetable/widetable.ins
+share/texmf-dist/tex/latex/widetable/widetable.sty
+@dirrmtry share/texmf-dist/tex/latex/widetable
+@dirrmtry share/texmf-dist/source/latex/widetable
+@dirrmtry share/texmf-dist/doc/latex/widetable
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

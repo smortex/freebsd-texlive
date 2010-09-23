@@ -1,0 +1,6 @@
+Ibycus is a Greek typeface, based on Silvio Levy's realisation
+of a classic Didot cut of Greek type from around 1800. The
+fonts are available both as MetaFont source and in Adobe Type 1
+format. This distribution of ibycus is accompanied by a set of
+macro packages to use it with Plain TeX or LaTeX, but for use
+with Babel, see the ibycus-babel package.

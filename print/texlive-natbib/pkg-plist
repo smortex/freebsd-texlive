@@ -1,0 +1,22 @@
+share/texmf-dist/bibtex/bst/natbib/abbrvnat.bst
+share/texmf-dist/bibtex/bst/natbib/plainnat.bst
+share/texmf-dist/bibtex/bst/natbib/unsrtnat.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/natbib/README.1st
+%%PORTDOCS%%share/texmf-dist/doc/latex/natbib/README.v831a
+%%PORTDOCS%%share/texmf-dist/doc/latex/natbib/natbib.ltx
+%%PORTDOCS%%share/texmf-dist/doc/latex/natbib/natbib.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/natbib/natnotes.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/natbib/natnotes.tex
+%%PORTSRC%%share/texmf-dist/source/latex/natbib/bibentry.drv
+%%PORTSRC%%share/texmf-dist/source/latex/natbib/bibentry.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/natbib/bibentry.ins
+%%PORTSRC%%share/texmf-dist/source/latex/natbib/natbib.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/natbib/natbib.ins
+share/texmf-dist/tex/latex/natbib/bibentry.sty
+share/texmf-dist/tex/latex/natbib/natbib.sty
+@dirrmtry share/texmf-dist/tex/latex/natbib
+@dirrmtry share/texmf-dist/source/latex/natbib
+@dirrmtry share/texmf-dist/doc/latex/natbib
+@dirrmtry share/texmf-dist/bibtex/bst/natbib
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

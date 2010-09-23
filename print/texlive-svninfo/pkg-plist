@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/svninfo/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/svninfo/svninfo.init
+%%PORTDOCS%%share/texmf-dist/doc/latex/svninfo/svninfo.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/svninfo/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/svninfo/svninfo.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/svninfo/svninfo.ins
+share/texmf-dist/tex/latex/svninfo/svninfo.cfg
+share/texmf-dist/tex/latex/svninfo/svninfo.sty
+@dirrmtry share/texmf-dist/tex/latex/svninfo
+@dirrmtry share/texmf-dist/source/latex/svninfo
+@dirrmtry share/texmf-dist/doc/latex/svninfo
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

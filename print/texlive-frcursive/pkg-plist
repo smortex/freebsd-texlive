@@ -1,0 +1,119 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/frcursive/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/fonts/frcursive/FILES
+%%PORTDOCS%%share/texmf-dist/doc/fonts/frcursive/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/frcursive/doc/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/fonts/frcursive/fcsource.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/frcursive/figs.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/frcursive/frcursive.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/frcursive/latex/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/fonts/frcursive/lttst.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/frcursive/mf/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/fonts/frcursive/mkdrv.sh
+%%PORTDOCS%%share/texmf-dist/doc/fonts/frcursive/test/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/fonts/frcursive/tfc.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/frcursive/txt-en.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/frcursive/txt-fr.tex
+share/texmf-dist/fonts/source/public/frcursive/frca10.mf
+share/texmf-dist/fonts/source/public/frcursive/frcbx10.mf
+share/texmf-dist/fonts/source/public/frcursive/frcbx11.mf
+share/texmf-dist/fonts/source/public/frcursive/frcbx12.mf
+share/texmf-dist/fonts/source/public/frcursive/frcbx14.mf
+share/texmf-dist/fonts/source/public/frcursive/frcbx17.mf
+share/texmf-dist/fonts/source/public/frcursive/frcbx7.mf
+share/texmf-dist/fonts/source/public/frcursive/frcbx8.mf
+share/texmf-dist/fonts/source/public/frcursive/frcbx9.mf
+share/texmf-dist/fonts/source/public/frcursive/frcc10.mf
+share/texmf-dist/fonts/source/public/frcursive/frcc11.mf
+share/texmf-dist/fonts/source/public/frcursive/frcc12.mf
+share/texmf-dist/fonts/source/public/frcursive/frcc14.mf
+share/texmf-dist/fonts/source/public/frcursive/frcf10.mf
+share/texmf-dist/fonts/source/public/frcursive/frcf11.mf
+share/texmf-dist/fonts/source/public/frcursive/frcf12.mf
+share/texmf-dist/fonts/source/public/frcursive/frcf14.mf
+share/texmf-dist/fonts/source/public/frcursive/frcr10.mf
+share/texmf-dist/fonts/source/public/frcursive/frcr11.mf
+share/texmf-dist/fonts/source/public/frcursive/frcr12.mf
+share/texmf-dist/fonts/source/public/frcursive/frcr14.mf
+share/texmf-dist/fonts/source/public/frcursive/frcr17.mf
+share/texmf-dist/fonts/source/public/frcursive/frcr7.mf
+share/texmf-dist/fonts/source/public/frcursive/frcr8.mf
+share/texmf-dist/fonts/source/public/frcursive/frcr9.mf
+share/texmf-dist/fonts/source/public/frcursive/frcsl10.mf
+share/texmf-dist/fonts/source/public/frcursive/frcsl11.mf
+share/texmf-dist/fonts/source/public/frcursive/frcsl12.mf
+share/texmf-dist/fonts/source/public/frcursive/frcsl14.mf
+share/texmf-dist/fonts/source/public/frcursive/frcsl17.mf
+share/texmf-dist/fonts/source/public/frcursive/frcsl7.mf
+share/texmf-dist/fonts/source/public/frcursive/frcsl8.mf
+share/texmf-dist/fonts/source/public/frcursive/frcsl9.mf
+share/texmf-dist/fonts/source/public/frcursive/frcslbx10.mf
+share/texmf-dist/fonts/source/public/frcursive/frcslbx11.mf
+share/texmf-dist/fonts/source/public/frcursive/frcslbx12.mf
+share/texmf-dist/fonts/source/public/frcursive/frcslbx14.mf
+share/texmf-dist/fonts/source/public/frcursive/frcslbx17.mf
+share/texmf-dist/fonts/source/public/frcursive/frcslbx7.mf
+share/texmf-dist/fonts/source/public/frcursive/frcslbx8.mf
+share/texmf-dist/fonts/source/public/frcursive/frcslbx9.mf
+share/texmf-dist/fonts/source/public/frcursive/frcursive.mf
+share/texmf-dist/fonts/source/public/frcursive/frcw10.mf
+share/texmf-dist/fonts/tfm/public/frcursive/frca10.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcbx10.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcbx11.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcbx12.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcbx14.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcbx17.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcbx7.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcbx8.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcbx9.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcc10.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcc11.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcc12.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcc14.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcf10.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcf11.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcf12.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcf14.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcr10.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcr11.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcr12.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcr14.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcr17.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcr7.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcr8.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcr9.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcsl10.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcsl11.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcsl12.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcsl14.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcsl17.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcsl7.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcsl8.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcsl9.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcslbx10.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcslbx11.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcslbx12.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcslbx14.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcslbx17.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcslbx7.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcslbx8.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcslbx9.tfm
+share/texmf-dist/fonts/tfm/public/frcursive/frcw10.tfm
+share/texmf-dist/metapost/frcursive/chars.mp
+%%PORTSRC%%share/texmf-dist/source/fonts/frcursive/Makefile
+%%PORTSRC%%share/texmf-dist/source/fonts/frcursive/frcursive.dtx
+%%PORTSRC%%share/texmf-dist/source/fonts/frcursive/frcursive.ins
+share/texmf-dist/tex/latex/frcursive/frcursive.sty
+share/texmf-dist/tex/latex/frcursive/ot1frc.fd
+share/texmf-dist/tex/latex/frcursive/t1frc.fd
+@dirrmtry share/texmf-dist/tex/latex/frcursive
+@dirrmtry share/texmf-dist/source/fonts/frcursive
+@dirrmtry share/texmf-dist/metapost/frcursive
+@dirrmtry share/texmf-dist/fonts/tfm/public/frcursive
+@dirrmtry share/texmf-dist/fonts/source/public/frcursive
+@dirrmtry share/texmf-dist/doc/fonts/frcursive/test
+@dirrmtry share/texmf-dist/doc/fonts/frcursive/mf
+@dirrmtry share/texmf-dist/doc/fonts/frcursive/latex
+@dirrmtry share/texmf-dist/doc/fonts/frcursive/doc
+@dirrmtry share/texmf-dist/doc/fonts/frcursive
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

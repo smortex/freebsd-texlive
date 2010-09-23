@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/mafr/ALIRE
+%%PORTDOCS%%share/texmf-dist/doc/latex/mafr/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/mafr/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/mafr/docmafr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mafr/docmafr.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mafr/triangle.eps
+share/texmf-dist/tex/latex/mafr/cours.cls
+share/texmf-dist/tex/latex/mafr/fiche.cls
+share/texmf-dist/tex/latex/mafr/mafr.sty
+@dirrmtry share/texmf-dist/tex/latex/mafr
+@dirrmtry share/texmf-dist/doc/latex/mafr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

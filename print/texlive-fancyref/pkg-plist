@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancyref/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancyref/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancyref/fancyref.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancyref/freftest.tex
+%%PORTSRC%%share/texmf-dist/source/latex/fancyref/fancyref.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fancyref/fancyref.ins
+share/texmf-dist/tex/latex/fancyref/fancyref.sty
+@dirrmtry share/texmf-dist/tex/latex/fancyref
+@dirrmtry share/texmf-dist/source/latex/fancyref
+@dirrmtry share/texmf-dist/doc/latex/fancyref
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

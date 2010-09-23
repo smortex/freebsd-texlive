@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/vruler/miscdoc.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/vruler/vruler-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/vruler/vruler.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/vruler/vruler.tex
+share/texmf-dist/tex/latex/vruler/vruler.sty
+@dirrmtry share/texmf-dist/tex/latex/vruler
+@dirrmtry share/texmf-dist/doc/latex/vruler
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

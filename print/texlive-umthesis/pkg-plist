@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/umthesis/PDP.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/umthesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/umthesis/appendix.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/umthesis/conclusion.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/umthesis/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/umthesis/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/umthesis/exp1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/umthesis/exp2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/umthesis/exp3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/umthesis/felty.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/umthesis/intro.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/umthesis/mybibstyle.bst
+share/texmf-dist/tex/latex/umthesis/umthesis.cls
+@dirrmtry share/texmf-dist/tex/latex/umthesis
+@dirrmtry share/texmf-dist/doc/latex/umthesis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

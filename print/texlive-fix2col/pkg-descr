@@ -1,0 +1,4 @@
+Fix mark handling so that \firstmark is taken from the first
+column if that column has any marks at all; keep two column
+floats like figure* in sequence with single column floats like
+figure.

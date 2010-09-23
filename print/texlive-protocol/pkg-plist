@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/protocol/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/protocol/protest.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/protocol/protocol.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/protocol/protocol.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/protocol/protocol.ins
+share/texmf-dist/tex/latex/protocol/protocol.cls
+@dirrmtry share/texmf-dist/tex/latex/protocol
+@dirrmtry share/texmf-dist/source/latex/protocol
+@dirrmtry share/texmf-dist/doc/latex/protocol
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

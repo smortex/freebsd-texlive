@@ -1,0 +1,2 @@
+The package loads properties (key, value) from a properties
+file, e.g. \jobname.properties.

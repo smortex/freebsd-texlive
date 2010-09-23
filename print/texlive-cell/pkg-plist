@@ -1,0 +1,8 @@
+share/texmf-dist/bibtex/bst/cell/cell.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/cell/README
+share/texmf-dist/tex/latex/cell/cell.sty
+@dirrmtry share/texmf-dist/tex/latex/cell
+@dirrmtry share/texmf-dist/doc/latex/cell
+@dirrmtry share/texmf-dist/bibtex/bst/cell
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

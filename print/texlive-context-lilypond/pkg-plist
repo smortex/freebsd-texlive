@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/context/third/lilypond/demo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/lilypond/t-lilypond.pdf
+share/texmf-dist/tex/context/third/lilypond/t-lilypond.tex
+@dirrmtry share/texmf-dist/tex/context/third/lilypond
+@dirrmtry share/texmf-dist/doc/context/third/lilypond
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

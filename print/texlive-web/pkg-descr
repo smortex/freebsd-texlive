@@ -1,0 +1,5 @@
+This is the system that Knuth developed to support the
+development of TeX. Included are weave, which converts a web
+source to something that may be typeset (with appropriate macro
+support) by Plain TeX, and tangle, which converts a web source
+to compilable Pascal.

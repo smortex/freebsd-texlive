@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/plain/cweb/cwebman.dvi
+share/texmf-dist/tex/plain/cweb/cwebmac.tex
+share/texmf-dist/tex/plain/cweb/pdfXcwebmac.tex
+share/texmf-dist/tex/plain/cweb/pdfcwebmac.tex
+share/texmf-dist/tex/plain/cweb/pdfdcwebmac.tex
+share/texmf-dist/tex/plain/cweb/pdffcwebmac.tex
+share/texmf-dist/tex/plain/cweb/pdficwebmac.tex
+share/texmf-dist/tex/plain/cweb/pdfwebmac.tex
+%%PORTDOCS%%share/texmf/doc/man/man1/ctangle.1
+%%PORTDOCS%%share/texmf/doc/man/man1/ctangle.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/cweave.1
+%%PORTDOCS%%share/texmf/doc/man/man1/cweave.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/cweb.1
+%%PORTDOCS%%share/texmf/doc/man/man1/cweb.man1.pdf
+@dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf-dist/tex/plain/cweb
+@dirrmtry share/texmf-dist/doc/plain/cweb
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/plain/present/HowToTalkTeX.pdf
+%%PORTDOCS%%share/texmf-dist/doc/plain/present/HowToTalkTeX.tex
+%%PORTDOCS%%share/texmf-dist/doc/plain/present/Pfeil1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/plain/present/Pfeil2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/plain/present/Pfeil3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/plain/present/Pfeil4.pdf
+%%PORTDOCS%%share/texmf-dist/doc/plain/present/README
+%%PORTDOCS%%share/texmf-dist/doc/plain/present/Sagnac.pdf
+%%PORTDOCS%%share/texmf-dist/doc/plain/present/Stern.png
+share/texmf-dist/tex/plain/present/present.tex
+@dirrmtry share/texmf-dist/tex/plain/present
+@dirrmtry share/texmf-dist/doc/plain/present
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

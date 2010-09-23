@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/duotenzor/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/duotenzor/duotenzormanual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/duotenzor/duotenzormanual.tex
+share/texmf-dist/tex/latex/duotenzor/duotenzor.sty
+@dirrmtry share/texmf-dist/tex/latex/duotenzor
+@dirrmtry share/texmf-dist/doc/latex/duotenzor
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

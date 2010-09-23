@@ -1,0 +1,25 @@
+share/texmf-dist/bibtex/bst/germbib/gerabbrv.bst
+share/texmf-dist/bibtex/bst/germbib/geralpha.bst
+share/texmf-dist/bibtex/bst/germbib/gerapali.bst
+share/texmf-dist/bibtex/bst/germbib/gerplain.bst
+share/texmf-dist/bibtex/bst/germbib/gerunsrt.bst
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/germbib/README.bibgerm
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/germbib/apalike.doc
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/germbib/apalike.germbib_sty
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/germbib/apalike.tex
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/germbib/btxdoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/germbib/btxhak.tex
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/germbib/gerbibtx.bib
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/germbib/gerbibtx.tex
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/germbib/gerxampl.bib
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/germbib/schaum.bib
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/germbib/testbibgerm.tex
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/germbib/testgerb.tex
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/germbib/xampl.bib
+share/texmf-dist/tex/latex/germbib/bibgerm.sty
+share/texmf-dist/tex/latex/germbib/mynormal.sty
+@dirrmtry share/texmf-dist/tex/latex/germbib
+@dirrmtry share/texmf-dist/doc/bibtex/germbib
+@dirrmtry share/texmf-dist/bibtex/bst/germbib
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

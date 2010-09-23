@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer-contrib/README.themes
+share/texmf-dist/tex/latex/beamer-contrib/beamerthemeJLTree.sty
+@dirrmtry share/texmf-dist/tex/latex/beamer-contrib
+@dirrmtry share/texmf-dist/doc/latex/beamer-contrib
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

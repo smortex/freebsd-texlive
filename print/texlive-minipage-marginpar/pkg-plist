@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/minipage-marginpar/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/minipage-marginpar/minipage-marginpar.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/minipage-marginpar/minipage-marginpar.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/minipage-marginpar/minipage-marginpar.ins
+share/texmf-dist/tex/latex/minipage-marginpar/minipage-marginpar.sty
+share/texmf-dist/tex/latex/minipage-marginpar/mpgmpar.sty
+@dirrmtry share/texmf-dist/tex/latex/minipage-marginpar
+@dirrmtry share/texmf-dist/source/latex/minipage-marginpar
+@dirrmtry share/texmf-dist/doc/latex/minipage-marginpar
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

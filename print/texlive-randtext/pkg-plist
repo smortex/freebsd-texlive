@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/randtext/README
+share/texmf-dist/tex/latex/randtext/randtext.sty
+@dirrmtry share/texmf-dist/tex/latex/randtext
+@dirrmtry share/texmf-dist/doc/latex/randtext
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

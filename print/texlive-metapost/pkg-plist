@@ -1,0 +1,124 @@
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/grdemo-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/grdemo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/index.html
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/mpboxes.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/mpgraph.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/mpintro.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/mpman.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/README
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/TODO
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/agepop91.d
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/agepopm.d
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/cm2lm.map
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/countries.d
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/ctabbing.sty
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/demo.ms
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/energy.d
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/figs.1
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/figs.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/grdemo-doc.ms
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/grdemo-doc.ps
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/grdemo.eps
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/grdemo.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/grdemo.ms
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/lead.d
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/matmul.d
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mp.1
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpboxes.bib
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpboxes.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpboxes.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpgraph.bib
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpgraph.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpgraph.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mplibapi.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman-app-legacy.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman-app-optab.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman-app-refman.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman.bib
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman.ist
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/timepop.d
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/abstract.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/annulus.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/arrows.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/biblio.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/circles.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/commands.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/compilation.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/conclusion.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/data.d
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/data.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/data.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/draw.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/draw.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/fill.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/fill.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/graph.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/inclusion.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/intro.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/label.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/label.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/mpintro.bib
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/mpintro.ltx
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/paperclip.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/parabola.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/previewer.eps
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/previewer.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/previewer.png
+share/texmf-dist/metapost/base/TEX.mp
+share/texmf-dist/metapost/base/boxes.mp
+share/texmf-dist/metapost/base/format.mp
+share/texmf-dist/metapost/base/graph.mp
+share/texmf-dist/metapost/base/marith.mp
+share/texmf-dist/metapost/base/mfplain.mp
+share/texmf-dist/metapost/base/mpost.mp
+share/texmf-dist/metapost/base/plain.mp
+share/texmf-dist/metapost/base/rboxes.mp
+share/texmf-dist/metapost/base/sarith.mp
+share/texmf-dist/metapost/base/string.mp
+share/texmf-dist/metapost/base/texnum.mp
+share/texmf-dist/metapost/base/troffnum.mp
+share/texmf-dist/metapost/config/mfplain.ini
+share/texmf-dist/metapost/misc/null.mp
+share/texmf-dist/metapost/support/charlib/12
+share/texmf-dist/metapost/support/charlib/14
+share/texmf-dist/metapost/support/charlib/34
+share/texmf-dist/metapost/support/charlib/Ao
+share/texmf-dist/metapost/support/charlib/Fi
+share/texmf-dist/metapost/support/charlib/Fl
+share/texmf-dist/metapost/support/charlib/L1
+share/texmf-dist/metapost/support/charlib/LH
+share/texmf-dist/metapost/support/charlib/Lb
+share/texmf-dist/metapost/support/charlib/Sl
+share/texmf-dist/metapost/support/charlib/ao.x
+share/texmf-dist/metapost/support/charlib/bx
+share/texmf-dist/metapost/support/charlib/ci
+share/texmf-dist/metapost/support/charlib/ff
+share/texmf-dist/metapost/support/charlib/lh.x
+share/texmf-dist/metapost/support/charlib/ob
+share/texmf-dist/metapost/support/charlib/rh
+share/texmf-dist/metapost/support/charlib/sq
+share/texmf-dist/metapost/support/charlib/twiddle
+share/texmf-dist/metapost/support/trchars.adj
+share/texmf-dist/metapost/support/trfonts.map
+share/texmf-dist/tex/generic/metapost/mproof.tex
+share/texmf-dist/tex/generic/metapost/mpsproof.tex
+%%PORTDOCS%%share/texmf/doc/man/man1/dvitomp.1
+%%PORTDOCS%%share/texmf/doc/man/man1/dvitomp.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/mpost.1
+%%PORTDOCS%%share/texmf/doc/man/man1/mpost.man1.pdf
+@dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf-dist/tex/generic/metapost
+@dirrmtry share/texmf-dist/metapost/support/charlib
+@dirrmtry share/texmf-dist/metapost/support
+@dirrmtry share/texmf-dist/metapost/misc
+@dirrmtry share/texmf-dist/metapost/config
+@dirrmtry share/texmf-dist/metapost/base
+@dirrmtry share/texmf-dist/doc/metapost/base/source-tutorial
+@dirrmtry share/texmf-dist/doc/metapost/base/source-manual
+@dirrmtry share/texmf-dist/doc/metapost/base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

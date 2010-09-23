@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/rcsinfo/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/rcsinfo/README-1.9
+%%PORTDOCS%%share/texmf-dist/doc/latex/rcsinfo/rcsinfo.init
+%%PORTDOCS%%share/texmf-dist/doc/latex/rcsinfo/rcsinfo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rcsinfo/rcsinfo.perl
+%%PORTDOCS%%share/texmf-dist/doc/latex/rcsinfo/rcsinfo2html.tex
+%%PORTSRC%%share/texmf-dist/source/latex/rcsinfo/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/rcsinfo/rcsinfo.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/rcsinfo/rcsinfo.ins
+share/texmf-dist/tex/latex/rcsinfo/rcsinfo.cfg
+share/texmf-dist/tex/latex/rcsinfo/rcsinfo.sty
+@dirrmtry share/texmf-dist/tex/latex/rcsinfo
+@dirrmtry share/texmf-dist/source/latex/rcsinfo
+@dirrmtry share/texmf-dist/doc/latex/rcsinfo
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

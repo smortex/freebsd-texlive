@@ -1,0 +1,4 @@
+This package is designed to emulate the way windows explorer
+displays directory and file trees, with the root at top left,
+and each level of subtree displaying one step in to the right.
+The macros work equally well with Plain TeX and with LaTeX.

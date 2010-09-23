@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/mfpic4ode/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/mfpic4ode/demo/demo-plain.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mfpic4ode/demo/demo-plain.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mfpic4ode/demo/demo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mfpic4ode/demo/demo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mfpic4ode/mfpic4ode.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/mfpic4ode/mfpic4ode.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mfpic4ode/mfpic4ode.ins
+share/texmf-dist/tex/latex/mfpic4ode/mfpic4ode.sty
+share/texmf-dist/tex/latex/mfpic4ode/mfpic4ode.tex
+@dirrmtry share/texmf-dist/tex/latex/mfpic4ode
+@dirrmtry share/texmf-dist/source/latex/mfpic4ode
+@dirrmtry share/texmf-dist/doc/latex/mfpic4ode/demo
+@dirrmtry share/texmf-dist/doc/latex/mfpic4ode
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

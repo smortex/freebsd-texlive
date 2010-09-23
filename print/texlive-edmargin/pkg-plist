@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/edmargin/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/edmargin/edmargin.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/edmargin/edmargin.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/edmargin/edmargin.ins
+share/texmf-dist/tex/latex/edmargin/edmargin.sty
+@dirrmtry share/texmf-dist/tex/latex/edmargin
+@dirrmtry share/texmf-dist/source/latex/edmargin
+@dirrmtry share/texmf-dist/doc/latex/edmargin
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

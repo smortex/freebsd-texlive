@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/encxvlna/License.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/encxvlna/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/encxvlna/encxvlna.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/encxvlna/encxvlna.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/encxvlna/vlna-inc.tex
+share/texmf-dist/tex/latex/encxvlna/encxvlna.sty
+share/texmf-dist/tex/plain/encxvlna/encxvlna.tex
+@dirrmtry share/texmf-dist/tex/plain/encxvlna
+@dirrmtry share/texmf-dist/tex/latex/encxvlna
+@dirrmtry share/texmf-dist/doc/generic/encxvlna
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

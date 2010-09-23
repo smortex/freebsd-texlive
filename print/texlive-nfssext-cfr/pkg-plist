@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/nfssext-cfr/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/nfssext-cfr/nfssext-cfr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nfssext-cfr/nfssext-cfr.tex
+share/texmf-dist/tex/latex/nfssext-cfr/nfssext-cfr.sty
+@dirrmtry share/texmf-dist/tex/latex/nfssext-cfr
+@dirrmtry share/texmf-dist/doc/latex/nfssext-cfr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

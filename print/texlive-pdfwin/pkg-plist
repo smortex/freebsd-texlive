@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfwin/BucResampling.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfwin/BucSystem1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfwin/BucSystem2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfwin/BucSystem3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfwin/BucSystem4.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfwin/BucSystem5.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfwin/BucSystem6.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfwin/Bucuresti2003.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfwin/JWGU-Logo.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfwin/Thumbs.db
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfwin/marble.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfwin/normprot.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfwin/shortvec.tex
+share/texmf-dist/tex/latex/pdfwin/pdfwin.cfg
+share/texmf-dist/tex/latex/pdfwin/pdfwin.sty
+@dirrmtry share/texmf-dist/tex/latex/pdfwin
+@dirrmtry share/texmf-dist/doc/latex/pdfwin
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

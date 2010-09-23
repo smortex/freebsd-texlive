@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/texments/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/texments/texments.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/texments/texments.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/texments/texments.ins
+share/texmf-dist/tex/latex/texments/texments.sty
+@dirrmtry share/texmf-dist/tex/latex/texments
+@dirrmtry share/texmf-dist/source/latex/texments
+@dirrmtry share/texmf-dist/doc/latex/texments
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
