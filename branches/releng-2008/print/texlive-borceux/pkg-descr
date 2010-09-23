@@ -1,8 +1,0 @@
-The macros support the construction of diagrams, such as those
-that appear in category theory texts. The user gives the list
-of vertices and arrows to be included, just as when composing a
-matrix, and the program takes care of computing the dimensions
-of the arrows and realizing the pagesetting. All the user has
-to do about the arrows is to specify their type (monomorphism,
-pair of adjoint arrows, etc.) and their direction (north,
-south-east, etc.); 12 types and 32 directions are available.

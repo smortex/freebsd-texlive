@@ -1,4 +1,0 @@
-Generates listings of bibliographic data bases in BibTeX format
-— for example for archival purposes. Included is a
-listbib.bst which is better suited for this purpose than the
-standard styles.

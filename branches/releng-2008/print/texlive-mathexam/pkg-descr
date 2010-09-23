@@ -1,8 +1,0 @@
-The package can help you typeset exams (mostly in mathematics
-and related disciplines where students are required to show
-their calculations followed by one or more short answers). It
-provides commands for inclusion of space for calculations, as
-well as commands for automatic creation of “answer spaces”.
-In addition, the package will automatically create page headers
-and footers, and will let you include instructions and space
-for students to put their name.

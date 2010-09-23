@@ -1,5 +1,0 @@
-The svn package lets you typeset (in LaTeX) the value of
-Subversion keywords. It is approximately an equivalent to the
-rcs package, but for Subversion rather than CVS. Details of
-Subversion (a replacement for CVS) is available from the
-project’s home site.

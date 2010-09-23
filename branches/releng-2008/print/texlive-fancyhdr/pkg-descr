@@ -1,4 +1,0 @@
-The package provides extensive facilities, both for
-constructing headers and footers, and for controlling their use
-(for example, at times when LaTeX would automatically change
-the heading style in use).

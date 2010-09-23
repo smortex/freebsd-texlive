@@ -1,3 +1,0 @@
-Provides commands \branch and \leaf for specifying the elements
-of the tree; you build up your tree with those commands, and
-then issue the \tree command to typeset the whole.

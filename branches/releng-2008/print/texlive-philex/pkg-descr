@@ -1,7 +1,0 @@
-Philex provides means for creating and cross-referencing named
-or numbered environments. Possible uses would be equations,
-example sentences (as in linguistics or philosophy) or named
-principles. Cross references may refer either to the number, or
-to a short name of the target environment, or to the contents
-of the environment. Philex builds on the facilities of the
-linguex package.

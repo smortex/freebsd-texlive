@@ -1,6 +1,0 @@
-Endheads provides running headers of the form “Notes to pp.
-xx–yy” for endnotes sections. It also enables one to reset
-the endnotes counter, and put a line marking the chapter change
-in the endnotes, at the beginning of every chapter. Endheads
-requires the fancyhdr, needspace, ifthen, and endnotes
-packages.

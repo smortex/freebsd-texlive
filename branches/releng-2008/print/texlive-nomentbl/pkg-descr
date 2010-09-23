@@ -1,3 +1,0 @@
-Nomentbl typeset nomenclatures in a longtable instead of the
-makeindex style of nomencl. A nomenclature entry may have three
-arguments: Symbol, description and physical unit.

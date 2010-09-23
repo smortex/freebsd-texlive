@@ -1,5 +1,0 @@
-The trivfloat package provides a quick method for defining new
-float types in LaTeX. A single command sets up a new float in
-the same style as the LaTeX kernel figure and table float
-types. The package works with memoir as well as the standard
-classes.

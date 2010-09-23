@@ -1,8 +1,0 @@
-The package provides picture-mode environments whose size is
-related to the size of the page. The fullpict environment takes
-arguments to specify the dimension of the picture in picture
-mode ‘unit lengths’; the value for \unitlength is defined
-by the fact that the picture is to be 90% of \textwidth.
-Similar environments halfpict (half the width of fullpict), and
-scalepict (a given percentage of the width of fullpict), are
-also defined.

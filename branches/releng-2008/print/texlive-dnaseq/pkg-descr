@@ -1,4 +1,0 @@
-Defines a means of specifying sequences of bases. The bases may
-be numbered (per line) and you may specify that subsequences be
-coloured. For a more ‘vanilla-flavoured’ way of typesetting
-base sequences, the user might consider the seqsplit package.

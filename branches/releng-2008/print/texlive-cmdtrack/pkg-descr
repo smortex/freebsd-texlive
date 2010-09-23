@@ -1,8 +1,0 @@
-Aids in the task of checking whether a command defined in a
-document preamble is actually used somewhere in the document.
-If you use the package cmdtrack to the preamble of your
-document, all \newcommand and similar statements between that
-point and the beginning of the document will be marked for
-logging. At the end of the document a report of the command
-usage will be printed in the TeX log, for example: mdash was
-used on line 25; ndash was never used.
