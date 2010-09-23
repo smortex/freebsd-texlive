@@ -151,7 +151,7 @@ namespace TeXLive
 				Clean ();
 			} else {
 				Process p = new Process();
-				ProcessStartInfo psi = new ProcessStartInfo("svn", "revert Makefile");
+				ProcessStartInfo psi = new ProcessStartInfo("svn", "revert --quiet Makefile");
 				psi.WorkingDirectory = PortDirectory;
 				psi.UseShellExecute = true;
 				p.StartInfo = psi;
