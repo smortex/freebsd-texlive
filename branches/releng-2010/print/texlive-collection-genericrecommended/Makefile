@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-genericrecommended
-PORTVERSION=	20100922
+PORTVERSION=	20100923
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -18,6 +18,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/epsf/epsf.sty:${PORTSDIR}
 		${LOCALBASE}/share/texmf-dist/tex/generic/genmisc/anti.tex:${PORTSDIR}/print/texlive-genmisc \
 		${LOCALBASE}/share/texmf-dist/tex/generic/kastrup/binhex.tex:${PORTSDIR}/print/texlive-kastrup \
 		${LOCALBASE}/share/texmf-dist/tex/generic/multido/multido.tex:${PORTSDIR}/print/texlive-multido \
+		${LOCALBASE}/share/texmf-dist/tex/latex/path/path.sty:${PORTSDIR}/print/texlive-path \
 		${LOCALBASE}/share/texmf-dist/dvips/tex-ps/crops.pro:${PORTSDIR}/print/texlive-tex-ps \
 		${LOCALBASE}/share/texmf-dist/tex/generic/ulem/ulem.sty:${PORTSDIR}/print/texlive-ulem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \

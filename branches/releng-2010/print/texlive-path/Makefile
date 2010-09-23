@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-printlen
-# Date created:		13/03/2010 04:47:34
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-path
+# Date created:		09/23/2010 05:44:49
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	printlen
+PORTNAME=	path
 PORTVERSION=	20100923
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Print lengths using specified units.
+COMMENT=	Typeset paths, making them breakable.
 
 NOPORTSRC=	yes
 

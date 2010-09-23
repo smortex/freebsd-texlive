@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20100922
+PORTVERSION=	20100923
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -696,6 +696,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/spreadtab/spreadtab.sty:${PORTSDIR}/print/texlive-spreadtab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spverbatim/spverbatim.sty:${PORTSDIR}/print/texlive-spverbatim \
 		${LOCALBASE}/share/texmf-dist/tex/latex/splitindex/splitindex.tex:${PORTSDIR}/print/texlive-splitindex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/spot/spot.sty:${PORTSDIR}/print/texlive-spot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spotcolor/spotcolor.sty:${PORTSDIR}/print/texlive-spotcolor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sprite/sprite.sty:${PORTSDIR}/print/texlive-sprite \
 		${LOCALBASE}/share/texmf-dist/tex/latex/srcltx/srcltx.sty:${PORTSDIR}/print/texlive-srcltx \
