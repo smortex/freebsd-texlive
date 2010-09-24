@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pagesLTS/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pagesLTS/pagesLTS-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pagesLTS/pagesLTS-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pagesLTS/pagesLTS.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/pagesLTS/ltxdoc.cfg
+%%PORTSRC%%share/texmf-dist/source/latex/pagesLTS/pagesLTS.drv
+%%PORTSRC%%share/texmf-dist/source/latex/pagesLTS/pagesLTS.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/pagesLTS/pagesLTS.ins
+share/texmf-dist/tex/latex/pagesLTS/pagesLTS.sty
+@dirrmtry share/texmf-dist/tex/latex/pagesLTS
+@dirrmtry share/texmf-dist/source/latex/pagesLTS
+@dirrmtry share/texmf-dist/doc/latex/pagesLTS
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
