@@ -1,7 +1,7 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/path/path-doc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/path/path-doc.tex
-share/texmf-dist/tex/latex/path/path.sty
-@dirrmtry share/texmf-dist/tex/latex/path
-@dirrmtry share/texmf-dist/doc/latex/path
+%%PORTDOCS%%share/texmf-dist/doc/generic/path/path-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/path/path-doc.tex
+share/texmf-dist/tex/generic/path/path.sty
+@dirrmtry share/texmf-dist/tex/generic/path
+@dirrmtry share/texmf-dist/doc/generic/path
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -2,6 +2,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/exteps/README
 %%PORTDOCS%%share/texmf-dist/doc/metapost/exteps/delfin
 %%PORTDOCS%%share/texmf-dist/doc/metapost/exteps/exteps.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/exteps/exteps.tex
 share/texmf-dist/metapost/exteps/exteps.mp
 @dirrmtry share/texmf-dist/metapost/exteps
 @dirrmtry share/texmf-dist/doc/metapost/exteps

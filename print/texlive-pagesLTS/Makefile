@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-path
-# Date created:		09/23/2010 05:44:49
+# New ports collection makefile for:	texlive-pagesLTS
+# Date created:		09/24/2010 04:55:02
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	path
+PORTNAME=	pagesLTS
 PORTVERSION=	20100924
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset paths, making them breakable.
+COMMENT=	Variants of last page labels.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

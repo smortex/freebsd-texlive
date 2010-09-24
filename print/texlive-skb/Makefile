@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-path
-# Date created:		09/23/2010 05:44:49
+# New ports collection makefile for:	texlive-skb
+# Date created:		09/24/2010 04:57:00
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	path
+PORTNAME=	skb
 PORTVERSION=	20100924
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset paths, making them breakable.
+COMMENT=	Tools for a repository of long-living documents.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

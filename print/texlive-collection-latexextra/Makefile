@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20100923
+PORTVERSION=	20100924
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -566,7 +566,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/pagecont/pagecont.sty:${PORTSDIR}/print/texlive-pagecont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pagenote/pagenote.sty:${PORTSDIR}/print/texlive-pagenote \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pagerange/pagerange.sty:${PORTSDIR}/print/texlive-pagerange \
-		${LOCALBASE}/share/texmf-dist/tex/latex/pageslts/pagesLTS.sty:${PORTSDIR}/print/texlive-pageslts \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pagesLTS/pagesLTS.sty:${PORTSDIR}/print/texlive-pagesLTS \
 		${LOCALBASE}/share/texmf-dist/tex/latex/paper/paper.cls:${PORTSDIR}/print/texlive-paper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/papercdcase/papercdcase.sty:${PORTSDIR}/print/texlive-papercdcase \
 		${LOCALBASE}/share/texmf-dist/tex/latex/papermas/papermas.sty:${PORTSDIR}/print/texlive-papermas \
@@ -684,6 +684,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/simplecd/simplecd.sty:${PORTSDIR}/print/texlive-simplecd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/simplecv/simplecv.cls:${PORTSDIR}/print/texlive-simplecv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/simplewick/simplewick.sty:${PORTSDIR}/print/texlive-simplewick \
+		${LOCALBASE}/share/texmf-dist/tex/latex/skb/skb.sty:${PORTSDIR}/print/texlive-skb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skeycommand/skeycommand.sty:${PORTSDIR}/print/texlive-skeycommand \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skeyval/skeyval.sty:${PORTSDIR}/print/texlive-skeyval \
 		${LOCALBASE}/share/texmf-dist/tex/latex/slantsc/slantsc.sty:${PORTSDIR}/print/texlive-slantsc \
