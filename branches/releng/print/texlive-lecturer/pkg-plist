@@ -1,0 +1,25 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/LecturerDemo-BeamerCambridgeUS.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/LecturerDemo-BeamerCambridgeUS.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/LecturerDemo-KitschScienceFiction.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/LecturerDemo-KitschScienceFiction.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/LecturerDemo-Mondrian.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/LecturerDemo-Mondrian.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/LecturerDemo-SimplePresentation.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/LecturerDemo-SimplePresentation.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/LecturerDemo-SquaresOfAs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/LecturerDemo-SquaresOfAs.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/LecturerDemo-ThePoodleLectures.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/LecturerDemo-ThePoodleLectures.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/LecturerDemo-VisualDoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/LecturerDemo-VisualDoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/lecturer-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/lecturer-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/universe.jpg
+share/texmf-dist/tex/generic/lecturer/lecturer.sty
+share/texmf-dist/tex/generic/lecturer/lecturer.tex
+share/texmf-dist/tex/generic/lecturer/t-lecturer.tex
+@dirrmtry share/texmf-dist/tex/generic/lecturer
+@dirrmtry share/texmf-dist/doc/generic/lecturer
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
