@@ -1,0 +1,23 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/adforn/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/fonts/adforn/NOTICE
+%%PORTDOCS%%share/texmf-dist/doc/fonts/adforn/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/adforn/adforn.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/adforn/adforn.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/adforn/manifest.txt
+share/texmf-dist/fonts/afm/arkandis/adforn/OrnementsADF.afm
+share/texmf-dist/fonts/enc/dvips/adforn/OrnementsADF.enc
+share/texmf-dist/fonts/map/dvips/adforn/OrnementsADF.map
+share/texmf-dist/fonts/tfm/arkandis/adforn/OrnementsADF.tfm
+share/texmf-dist/fonts/type1/arkandis/adforn/OrnementsADF.pfb
+share/texmf-dist/fonts/type1/arkandis/adforn/OrnementsADF.pfm
+share/texmf-dist/tex/latex/adforn/adforn.sty
+share/texmf-dist/tex/latex/adforn/uOrnementsADF.fd
+@dirrmtry share/texmf-dist/tex/latex/adforn
+@dirrmtry share/texmf-dist/fonts/type1/arkandis/adforn
+@dirrmtry share/texmf-dist/fonts/tfm/arkandis/adforn
+@dirrmtry share/texmf-dist/fonts/map/dvips/adforn
+@dirrmtry share/texmf-dist/fonts/enc/dvips/adforn
+@dirrmtry share/texmf-dist/fonts/afm/arkandis/adforn
+@dirrmtry share/texmf-dist/doc/fonts/adforn
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

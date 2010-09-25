@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-genericextra
-PORTVERSION=	20100922
+PORTVERSION=	20100925
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -27,6 +27,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/abbr/abbr.tex:${PORTSDIR}
 		${LOCALBASE}/share/texmf-dist/tex/generic/fltpoint/fltpoint.sty:${PORTSDIR}/print/texlive-fltpoint \
 		${LOCALBASE}/share/texmf-dist/tex/generic/iftex/iftex.sty:${PORTSDIR}/print/texlive-iftex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/insbox/insbox.tex:${PORTSDIR}/print/texlive-insbox \
+		${LOCALBASE}/share/texmf-dist/tex/generic/lecturer/lecturer.sty:${PORTSDIR}/print/texlive-lecturer \
 		${LOCALBASE}/share/texmf-dist/tex/generic/librarian/librarian.sty:${PORTSDIR}/print/texlive-librarian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/mathdots/mathdots.sty:${PORTSDIR}/print/texlive-mathdots \
 		${LOCALBASE}/share/texmf-dist/tex/plain/metatex/metatex.tex:${PORTSDIR}/print/texlive-metatex \

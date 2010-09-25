@@ -1,4 +1,3 @@
-share/texmf-dist/bibtex/bib/gatech-thesis/example-thesis.bib
 share/texmf-dist/bibtex/bst/gatech-thesis/gatech-thesis-losa.bst
 share/texmf-dist/bibtex/bst/gatech-thesis/gatech-thesis.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/CHANGES
@@ -11,68 +10,9 @@ share/texmf-dist/bibtex/bst/gatech-thesis/gatech-thesis.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/NOTES
 %%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/TODO
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/example-thesis.ps.gz
+%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/example-thesis.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/example-thesis.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/example-thesis.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/CLEAN.bat
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/CLEAN.sh
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/DO_pdf.bat
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/DO_pdf.sh
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/DO_postscript.bat
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/DO_postscript.sh
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/MANIFEST
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/jules-verne-ack.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/jules-verne-bib.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/jules-verne-chapter1.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/jules-verne-chapter2.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/jules-verne-chapter3.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/jules-verne-chapter4.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/jules-verne-chapter5.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/jules-verne-dedication.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/jules-verne-summary.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/jules-verne-test.eps
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/jules-verne-test.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/jules-verne-vita.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/jules-verne.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/jules-verne.ps.gz
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic/jules-verne.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/CLEAN.bat
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/CLEAN.sh
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/DO_pdf.bat
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/DO_pdf.sh
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/DO_postscript.bat
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/DO_postscript.sh
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/MANIFEST
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/code/crc16.c
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/code/crc32-thehardway.java
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/code/crc32.c
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/code/crc32.cxx
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/code/crc32.java
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/code/crc8.m
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/fig/jules-verne-test.eps
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/fig/jules-verne-test.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/hack-applabel.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/hack-chaplabel.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/hack-part.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/jules-verne-ack.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/jules-verne-bib.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/jules-verne-chapter1.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/jules-verne-chapter2.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/jules-verne-chapter3.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/jules-verne-chapter4.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/jules-verne-chapter5.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/jules-verne-dedication.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/jules-verne-gloss.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/jules-verne-losa.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/jules-verne-programs.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/jules-verne-summary.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/jules-verne-vita.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/jules-verne.sty
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/jules-verne.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/textcompfix.sty
-%%PORTDOCS%%share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/textcompsym.sty
 share/texmf-dist/makeindex/gatech-thesis/gatech-thesis-index.ist
 share/texmf-dist/tex/latex/gatech-thesis/gatech-thesis-gloss.sty
 share/texmf-dist/tex/latex/gatech-thesis/gatech-thesis-index.sty
@@ -81,13 +21,7 @@ share/texmf-dist/tex/latex/gatech-thesis/gatech-thesis-patch.sty
 share/texmf-dist/tex/latex/gatech-thesis/gatech-thesis.cls
 @dirrmtry share/texmf-dist/tex/latex/gatech-thesis
 @dirrmtry share/texmf-dist/makeindex/gatech-thesis
-@dirrmtry share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/fig
-@dirrmtry share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles/code
-@dirrmtry share/texmf-dist/doc/latex/gatech-thesis/julesverne/bellswhistles
-@dirrmtry share/texmf-dist/doc/latex/gatech-thesis/julesverne/basic
-@dirrmtry share/texmf-dist/doc/latex/gatech-thesis/julesverne
 @dirrmtry share/texmf-dist/doc/latex/gatech-thesis
 @dirrmtry share/texmf-dist/bibtex/bst/gatech-thesis
-@dirrmtry share/texmf-dist/bibtex/bib/gatech-thesis
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
