@@ -1,0 +1,6 @@
+20100925:
+  AFFECTS: users of editors/hte
+  AUTHOR: romain@FreeBSD.org
+
+  The port editors/hte now installs the editor as bin/hte instead of bin/ht to
+  avoid conflicting with print/texlive-core.

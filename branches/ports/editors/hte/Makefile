@@ -8,6 +8,7 @@
 
 PORTNAME=	hte
 PORTVERSION=	2.0.18
+PORTREVISION=	1
 CATEGORIES=	editors
 MASTER_SITES=	SF/${PORTNAME}/ht-source
 DISTNAME=	ht-${PORTVERSION}
@@ -53,7 +54,7 @@ post-patch:
 			${WRKSRC}/configure
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/ht ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/ht ${PREFIX}/bin/hte
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${DOCSDIR}
 	${INSTALL_DATA} ${WRKSRC}/README ${DOCSDIR}
