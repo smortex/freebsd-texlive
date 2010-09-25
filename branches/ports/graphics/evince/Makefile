@@ -3,11 +3,11 @@
 # Whom:					Adam Weinberger <adamw@FreeBSD.org>
 #
 # $FreeBSD$
-#   $MCom$
+#    $MCom: ports-stable/graphics/evince/Makefile,v 1.11 2010/06/24 10:03:54 kwm Exp $
 #
 
 PORTNAME=	evince
-PORTVERSION=	2.28.2
+PORTVERSION=	2.30.3
 PORTREVISION=	3
 CATEGORIES=	graphics print gnome
 MASTER_SITES=	GNOME
@@ -42,6 +42,7 @@ MAN1=		evince.1
 OPTIONS=	DVI		"Enable DVI viewer support"		off \
 		T1LIB		"Enable T1LIB for TYPE1 fonts to DVI (Enables DVI)"	off \
 		NAUTILUS	"Enable Nautilus plugin"		on  \
+		KEYRING		"Enable Gnome-Keyring without Nautilus" on \
 		DBUS		"Enable D-BUS support"			on \
 		COMICS		"Enable comic book archives support"	on \
 		IMPRESS		"Enable Impress presentations support"	off \
@@ -76,8 +77,11 @@ PLIST_SUB+=		NAUTILUS=""
 .else
 BUILD_DEPENDS+=	${LOCALBASE}/share/icons/gnome/index.theme:${PORTSDIR}/misc/gnome-icon-theme
 RUN_DEPENDS+=	${LOCALBASE}/share/icons/gnome/index.theme:${PORTSDIR}/misc/gnome-icon-theme
-LIB_DEPENDS+=	gnome-keyring.0:${PORTSDIR}/security/gnome-keyring
-USE_GNOME+=		libglade2
+.if !defined(WITHOUT_KEYRING)
+LIB_DEPENDS+=	gnome-keyring.0:${PORTSDIR}/security/libgnome-keyring
+.else
+CONFIGURE_ARGS+=	--without-keyring
+.endif
 CONFIGURE_ARGS+=	--disable-nautilus
 PLIST_SUB+=		NAUTILUS="@comment "
 .endif
@@ -117,6 +121,9 @@ PLIST_SUB+=		COMICS="@comment "
 post-patch:
 	@${REINPLACE_CMD} -e 's|execinfo.h|#|g' \
 		${WRKSRC}/configure
+	@${REINPLACE_CMD} -e '/^DOC_MODULE_VERSION/d' \
+		${WRKSRC}/help/reference/libdocument/Makefile.in \
+		${WRKSRC}/help/reference/libview/Makefile.in
 
 post-install:
 	@-update-desktop-database
