@@ -15,6 +15,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/README
 %%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/lecturer-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/lecturer-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/ltr-areas.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/ltr-graphics.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/ltr-job.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/ltr-navigation.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/ltr-slides.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/ltr-steps.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/lecturer/universe.jpg
 share/texmf-dist/tex/generic/lecturer/lecturer.sty
 share/texmf-dist/tex/generic/lecturer/lecturer.tex
