@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20100924
+PORTVERSION=	20100929
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -328,6 +328,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty:${PORTSDIR}/print/texlive-etoolbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eukdate/eukdate.sty:${PORTSDIR}/print/texlive-eukdate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/europecv/europecv.cls:${PORTSDIR}/print/texlive-europecv \
+		${LOCALBASE}/share/texmf-dist/tex/latex/everyhook/everyhook.sty:${PORTSDIR}/print/texlive-everyhook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/everypage/everypage.sty:${PORTSDIR}/print/texlive-everypage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/exam/exam.cls:${PORTSDIR}/print/texlive-exam \
 		${LOCALBASE}/share/texmf-dist/tex/latex/examdesign/examdesign.cls:${PORTSDIR}/print/texlive-examdesign \
