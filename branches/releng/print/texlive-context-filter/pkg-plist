@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/context/third/filter/filter.txt
+share/texmf-dist/tex/context/third/filter/t-filter.tex
+@dirrmtry share/texmf-dist/tex/context/third/filter
+@dirrmtry share/texmf-dist/doc/context/third/filter
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/everyhook/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/everyhook/everyhook.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/everyhook/everyhook.dtx
+share/texmf-dist/tex/latex/everyhook/everyhook.sty
+@dirrmtry share/texmf-dist/tex/latex/everyhook
+@dirrmtry share/texmf-dist/source/latex/everyhook
+@dirrmtry share/texmf-dist/doc/latex/everyhook
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
