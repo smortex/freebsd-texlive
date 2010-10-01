@@ -1,7 +1,7 @@
 #summary Staying up-to-date with TeXLive.
 #labels Featured
 
-The FreeBSD TeXLive repository is automatically updated each night at 4.30am UTC.
+The FreeBSD TeXLive repository is automatically updated each night at 4.30am UTC.  The process is generaly less than one hour long, so the repository is generaly updated before 5.30 UTC.
 
 = Updating the ports tree =
 
