@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-pagesLTS
-# Date created:		09/24/2010 04:55:02
+# New ports collection makefile for:	texlive-parskip
+# Date created:		10/01/2010 05:00:54
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	pagesLTS
+PORTNAME=	parskip
 PORTVERSION=	20101001
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Variants of last page labels.
+COMMENT=	Layout with zero \parindent, non-zero \parskip.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

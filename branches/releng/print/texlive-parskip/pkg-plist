@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/parskip/parskip-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/parskip/parskip-doc.tex
+share/texmf-dist/tex/latex/parskip/parskip.sty
+@dirrmtry share/texmf-dist/tex/latex/parskip
+@dirrmtry share/texmf-dist/doc/latex/parskip
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
