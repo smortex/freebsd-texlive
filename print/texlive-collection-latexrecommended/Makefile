@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexrecommended
-PORTVERSION=	20100922
+PORTVERSION=	20101001
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -41,6 +41,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/anysize/anysize.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/microtype/microtype.sty:${PORTSDIR}/print/texlive-microtype \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ms/count1to.sty:${PORTSDIR}/print/texlive-ms \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ntgclass/a4.sty:${PORTSDIR}/print/texlive-ntgclass \
+		${LOCALBASE}/share/texmf-dist/tex/latex/parskip/parskip.sty:${PORTSDIR}/print/texlive-parskip \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdfpages/pdfpages.sty:${PORTSDIR}/print/texlive-pdfpages \
 		${LOCALBASE}/share/texmf-dist/tex/latex/powerdot/powerdot.cls:${PORTSDIR}/print/texlive-powerdot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/psfrag/psfrag.sty:${PORTSDIR}/print/texlive-psfrag \
