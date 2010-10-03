@@ -1,0 +1,24 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/starfont/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/fonts/starfont/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/fonts/starfont/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/starfont/STRFNSAN.TTF
+%%PORTDOCS%%share/texmf-dist/doc/fonts/starfont/STRFNSER.TTF
+%%PORTDOCS%%share/texmf-dist/doc/fonts/starfont/starfont.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/starfont/starfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/starfont/table.pdf
+share/texmf-dist/fonts/afm/public/starfont/starfont.afm
+share/texmf-dist/fonts/afm/public/starfont/strfnser.afm
+share/texmf-dist/fonts/map/dvips/starfont/starfont.map
+share/texmf-dist/fonts/tfm/public/starfont/fstr8x.tfm
+share/texmf-dist/fonts/tfm/public/starfont/fsts8x.tfm
+share/texmf-dist/fonts/type1/public/starfont/starfont.pfb
+share/texmf-dist/fonts/type1/public/starfont/strfnser.pfb
+share/texmf-dist/tex/latex/starfont/starfont.sty
+@dirrmtry share/texmf-dist/tex/latex/starfont
+@dirrmtry share/texmf-dist/fonts/type1/public/starfont
+@dirrmtry share/texmf-dist/fonts/tfm/public/starfont
+@dirrmtry share/texmf-dist/fonts/map/dvips/starfont
+@dirrmtry share/texmf-dist/fonts/afm/public/starfont
+@dirrmtry share/texmf-dist/doc/fonts/starfont
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
