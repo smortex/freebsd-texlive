@@ -1,4 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/rmpage/readme
+%%PORTDOCS%%share/texmf-dist/doc/latex/rmpage/rmpage-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rmpage/rmpage-doc.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/rmpage/rmpage.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/rmpage/rmplocal.gfc
 share/texmf-dist/tex/latex/rmpage/rmpage.sty

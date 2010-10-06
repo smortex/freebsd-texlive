@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cutwin/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/cutwin/cutwin.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/cutwin/cutwin.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/cutwin/cutwin.ins
+share/texmf-dist/tex/latex/cutwin/cutwin.sty
+@dirrmtry share/texmf-dist/tex/latex/cutwin
+@dirrmtry share/texmf-dist/source/latex/cutwin
+@dirrmtry share/texmf-dist/doc/latex/cutwin
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
