@@ -1,4 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/rtkinenc/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/rtkinenc/rtkinenc-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rtkinenc/rtkinenc-doc.tex
 %%PORTSRC%%share/texmf-dist/source/latex/rtkinenc/rtkinenc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/rtkinenc/rtkinenc.ins
 share/texmf-dist/tex/latex/rtkinenc/rtkinenc.sty

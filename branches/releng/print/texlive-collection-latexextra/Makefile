@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20100929
+PORTVERSION=	20101006
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -255,6 +255,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/currfile/currfile.sty:${PORTSDIR}/print/texlive-currfile \
 		${LOCALBASE}/share/texmf-dist/tex/latex/currvita/currvita.sty:${PORTSDIR}/print/texlive-currvita \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cursor/cursor.sty:${PORTSDIR}/print/texlive-cursor \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cutwin/cutwin.sty:${PORTSDIR}/print/texlive-cutwin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cv/CV.sty:${PORTSDIR}/print/texlive-cv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cweb-latex/cwbl-german.sty:${PORTSDIR}/print/texlive-cweb-latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dashbox/dashbox.sty:${PORTSDIR}/print/texlive-dashbox \
