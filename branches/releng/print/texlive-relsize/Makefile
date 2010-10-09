@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	relsize
-PORTVERSION=	20100922
+PORTVERSION=	20101009
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Set the font size relative to the current font size.
 
-NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

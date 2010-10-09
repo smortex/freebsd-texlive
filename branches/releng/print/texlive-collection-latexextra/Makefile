@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20101006
+PORTVERSION=	20101009
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -58,7 +58,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty:${PORTSDIR}/print/texlive-ifxetex \
 		${LOCALBASE}/share/texmf/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
 		${LOCALBASE}/share/texmf-dist/scripts/lua-alt-getopt/alt_getopt.lua:${PORTSDIR}/print/texlive-lua-alt-getopt \
-		${LOCALBASE}/share/texmf/tex/generic/config/luatexiniconfig.tex:${PORTSDIR}/print/texlive-luatex \
+		${LOCALBASE}/share/texmf/tex/generic/config/luatex-unicode-letters.tex:${PORTSDIR}/print/texlive-luatex \
 		${LOCALBASE}/share/texmf-dist/makeindex/base/din.ist:${PORTSDIR}/print/texlive-makeindex \
 		${LOCALBASE}/share/texmf-dist/metafont/base/expr.mf:${PORTSDIR}/print/texlive-metafont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mflogo/mflogo.sty:${PORTSDIR}/print/texlive-mflogo \
@@ -191,6 +191,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/bussproofs/bussproofs.sty:${PORTSDIR}/print/texlive-bussproofs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/calctab/calctab.sty:${PORTSDIR}/print/texlive-calctab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/calrsfs/calrsfs.sty:${PORTSDIR}/print/texlive-calrsfs \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cals/cals.sty:${PORTSDIR}/print/texlive-cals \
 		${LOCALBASE}/share/texmf-dist/tex/latex/calxxxx/calxxxx.tex:${PORTSDIR}/print/texlive-calxxxx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cancel/cancel.sty:${PORTSDIR}/print/texlive-cancel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/capt-of/capt-of.sty:${PORTSDIR}/print/texlive-capt-of \
@@ -831,7 +832,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty:${PORTSDIR}/print/texlive-wrapfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xargs/xargs.sty:${PORTSDIR}/print/texlive-xargs \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/xbmc/xbmc10.mf:${PORTSDIR}/print/texlive-xbmc \
-		${LOCALBASE}/share/texmf-dist/tex/generic/xcomment/xcomment.sty:${PORTSDIR}/print/texlive-xcomment \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xtab/xtab.sty:${PORTSDIR}/print/texlive-xtab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xtcapts/xt_capts.sty:${PORTSDIR}/print/texlive-xtcapts \
 		${LOCALBASE}/share/texmf-dist/makeindex/xdoc/docindex.ist:${PORTSDIR}/print/texlive-xdoc \

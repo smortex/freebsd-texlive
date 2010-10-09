@@ -1,0 +1,5 @@
+The package allows the user to typeset multipage tables with
+repeatable headers and footers, and with cells spanned over
+rows and columns. Decorations are supported: padding,
+background color, width of separation rules. The package is
+compatible with multicol and pdfsync.

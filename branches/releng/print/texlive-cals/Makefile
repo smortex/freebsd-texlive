@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-adforn
-# Date created:		09/25/2010 04:38:21
+# New ports collection makefile for:	texlive-cals
+# Date created:		10/09/2010 04:49:20
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	adforn
+PORTNAME=	cals
 PORTVERSION=	20101009
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	OrnementsADF font with TeX/LaTeX support
+COMMENT=	Multipage tables with wide range of features.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

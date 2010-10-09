@@ -1,4 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/fonts/Asana-Math/README.1ST
+%%PORTDOCS%%share/texmf-dist/doc/fonts/Asana-Math/README
 share/texmf-dist/fonts/opentype/public/Asana-Math/Asana-Math.otf
 share/texmf-dist/fonts/truetype/public/Asana-Math/Asana-Math.ttf
 @dirrmtry share/texmf-dist/fonts/truetype/public/Asana-Math
