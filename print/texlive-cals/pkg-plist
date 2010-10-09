@@ -1,0 +1,135 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/cals.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/examples/demo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/examples/demo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/examples/table1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/examples/table2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/examples/table3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/examples/table4.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/cell/test_10_create.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/cell/test_10_create.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/cell/test_20_colwidth.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/cell/test_20_colwidth.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/cell/test_30_decor.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/cell/test_30_decor.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/cell/test_40_width.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/cell/test_40_width.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/cell/test_50_hooks.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/cell/test_50_hooks.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/colsep/test_10_outone.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/colsep/test_10_outone.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/colsep/test_20_row.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/colsep/test_20_row.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/decoration/test_10_withwidth2.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/decoration/test_10_withwidth2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/decoration/test_20_withcolor2.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/decoration/test_20_withcolor2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/decoration/test_30_halfwidth.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/decoration/test_30_halfwidth.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/decoration/test_50_maxwidth.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/decoration/test_50_maxwidth.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/decoration/test_60_row.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/decoration/test_60_row.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/decoration/test_70_align.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/decoration/test_70_align.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/llt/test_10_cons_rot.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/llt/test_10_cons_rot.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/llt/test_20_snoc_decons.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/llt/test_20_snoc_decons.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/llt/test_30_all.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/llt/test_30_all.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_010_wrongbreak.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_010_wrongbreak.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_020_wrongnobreak.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_020_wrongnobreak.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_030_spanbreak.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_030_spanbreak.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_040_rowheight.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_040_rowheight.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_050_leftskip_rowspan.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_050_leftskip_rowspan.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/rowsep/test_10_waitrule.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/rowsep/test_10_waitrule.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/rowsep/test_15_waitover.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/rowsep/test_15_waitover.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/rowsep/test_20_pack.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/rowsep/test_20_pack.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/rowsep/test_30_jointwo.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/rowsep/test_30_jointwo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/rowsep/test_35_joinone.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/rowsep/test_35_joinone.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/rowsep/test_40_construct.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/rowsep/test_40_construct.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/span/test_10_queue.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/span/test_10_queue.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/span/test_20_decor.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/span/test_20_decor.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/span/test_30_iftlrb.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/span/test_30_iftlrb.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/span/test_40_lr_queue.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/span/test_40_lr_queue.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/span/test_50_dimen.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/span/test_50_dimen.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/span/test_60_content.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/span/test_60_content.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/span/test_70_intercept.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/span/test_70_intercept.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/span/test_80_marker.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/span/test_80_marker.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/support/LatexTest.py
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/support/run_tests.py
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/table/test_10_ifbreak.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/table/test_10_ifbreak.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/table/test_20_dispatch.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/table/test_20_dispatch.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/table/test_30_issue_rowsep.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/table/test_30_issue_rowsep.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/table/test_40_issuerow.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/table/test_40_issuerow.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/table/test_50_row.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/table/test_50_row.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/table/test_60_whitespace.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/table/test_60_whitespace.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/table/test_70_lrskip.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/table/test_70_lrskip.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/template.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/visual_tables/test_10_simple_2x2_with_parbreak.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/visual_tables/test_10_simple_2x2_with_parbreak.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/visual_tables/test_10_simple_2x2_with_parbreak.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/visual_tables/test_20_thead_tfoot.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/visual_tables/test_20_thead_tfoot.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/visual_tables/test_20_thead_tfoot.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/visual_tables/test_30_tbreak.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/visual_tables/test_30_tbreak.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/visual_tables/test_30_tbreak.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/visual_tables/test_40_span.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/visual_tables/test_40_span.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/visual_tables/test_40_span.tex
+%%PORTSRC%%share/texmf-dist/source/latex/cals/cals.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/cals/cals.ins
+%%PORTSRC%%share/texmf-dist/source/latex/cals/cell.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/cals/colsep.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/cals/decor.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/cals/lltokens.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/cals/rowsep.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/cals/span.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/cals/table.dtx
+share/texmf-dist/tex/latex/cals/cals.sty
+@dirrmtry share/texmf-dist/tex/latex/cals
+@dirrmtry share/texmf-dist/source/latex/cals
+@dirrmtry share/texmf-dist/doc/latex/cals/test/visual_tables
+@dirrmtry share/texmf-dist/doc/latex/cals/test/table
+@dirrmtry share/texmf-dist/doc/latex/cals/test/support
+@dirrmtry share/texmf-dist/doc/latex/cals/test/span
+@dirrmtry share/texmf-dist/doc/latex/cals/test/rowsep
+@dirrmtry share/texmf-dist/doc/latex/cals/test/regression
+@dirrmtry share/texmf-dist/doc/latex/cals/test/llt
+@dirrmtry share/texmf-dist/doc/latex/cals/test/decoration
+@dirrmtry share/texmf-dist/doc/latex/cals/test/colsep
+@dirrmtry share/texmf-dist/doc/latex/cals/test/cell
+@dirrmtry share/texmf-dist/doc/latex/cals/test
+@dirrmtry share/texmf-dist/doc/latex/cals/examples
+@dirrmtry share/texmf-dist/doc/latex/cals
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

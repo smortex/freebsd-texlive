@@ -2,6 +2,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/program/gpl-3.0.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/program/plink.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/program/program-demo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/program/program-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/program/program-doc.tex
 share/texmf-dist/tex/latex/program/program.sty
 @dirrmtry share/texmf-dist/tex/latex/program
 @dirrmtry share/texmf-dist/doc/latex/program

@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	Asana-Math
-PORTVERSION=	20100922
+PORTVERSION=	20101009
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A font to typeset maths in Xe(La)TeX.
+COMMENT=	A font to typeset maths in Xe(La)TeX and Lua(La)TeX.
 
 NOPORTSRC=	yes
 
