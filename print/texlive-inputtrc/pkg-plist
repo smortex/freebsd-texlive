@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/inputtrc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/inputtrc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/makedoc.cfg
+share/texmf-dist/tex/latex/inputtrc/inputtrc.sty
+@dirrmtry share/texmf-dist/tex/latex/inputtrc
+@dirrmtry share/texmf-dist/doc/latex/inputtrc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

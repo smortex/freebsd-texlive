@@ -3,8 +3,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/xcomment/README
 %%PORTDOCS%%share/texmf-dist/doc/generic/xcomment/xcomment-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/xcomment/xcomment-doc.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/xcomment/xcomment.tex
 share/texmf-dist/tex/generic/xcomment/xcomment.sty
+share/texmf-dist/tex/generic/xcomment/xcomment.tex
 @dirrmtry share/texmf-dist/tex/generic/xcomment
 @dirrmtry share/texmf-dist/doc/generic/xcomment
 @exec %D/bin/mktexlsr

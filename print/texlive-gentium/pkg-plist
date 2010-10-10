@@ -52,6 +52,8 @@ share/texmf-dist/fonts/tfm/public/gentium/texnansi-gentium-italic.tfm
 share/texmf-dist/fonts/tfm/public/gentium/texnansi-gentium-roman.tfm
 share/texmf-dist/fonts/tfm/public/gentium/texnansi-gentiumbasic-bold.tfm
 share/texmf-dist/fonts/tfm/public/gentium/texnansi-gentiumbasic-bolditalic.tfm
+share/texmf-dist/fonts/truetype/public/gentium/GenAI102.ttf
+share/texmf-dist/fonts/truetype/public/gentium/GenAR102.ttf
 share/texmf-dist/fonts/truetype/public/gentium/GenBasB.ttf
 share/texmf-dist/fonts/truetype/public/gentium/GenBasBI.ttf
 share/texmf-dist/fonts/truetype/public/gentium/GenBasI.ttf

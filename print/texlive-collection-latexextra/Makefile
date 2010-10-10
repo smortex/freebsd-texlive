@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20101009
+PORTVERSION=	20101010
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -428,6 +428,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/imakeidx/imakeidx.sty:${PORTSDIR}/print/texlive-imakeidx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/import/import.sty:${PORTSDIR}/print/texlive-import \
 		${LOCALBASE}/share/texmf-dist/tex/latex/inlinedef/inlinedef.sty:${PORTSDIR}/print/texlive-inlinedef \
+		${LOCALBASE}/share/texmf-dist/tex/latex/inputtrc/inputtrc.sty:${PORTSDIR}/print/texlive-inputtrc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/interactiveworkbook/interactiveworkbook.sty:${PORTSDIR}/print/texlive-interactiveworkbook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/inversepath/inversepath.sty:${PORTSDIR}/print/texlive-inversepath \
 		${LOCALBASE}/share/texmf-dist/makeindex/iso/iso.ist:${PORTSDIR}/print/texlive-iso \
@@ -832,6 +833,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty:${PORTSDIR}/print/texlive-wrapfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xargs/xargs.sty:${PORTSDIR}/print/texlive-xargs \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/xbmc/xbmc10.mf:${PORTSDIR}/print/texlive-xbmc \
+		${LOCALBASE}/share/texmf-dist/tex/generic/xcomment/xcomment.sty:${PORTSDIR}/print/texlive-xcomment \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xtab/xtab.sty:${PORTSDIR}/print/texlive-xtab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xtcapts/xt_capts.sty:${PORTSDIR}/print/texlive-xtcapts \
 		${LOCALBASE}/share/texmf-dist/makeindex/xdoc/docindex.ist:${PORTSDIR}/print/texlive-xdoc \

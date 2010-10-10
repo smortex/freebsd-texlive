@@ -1,0 +1,6 @@
+The package produces screen/log messages of the form '<current>
+INPUTTING <next>' reporting LaTeX input commands (<current> and
+<next> being file names). The message is indented to reflect
+the level of input nesting. Tracing may be turned on and off,
+and the unit of indentation may be adjusted. The implementation
+somewhat resembles those of packages FiNK and inputfile.
