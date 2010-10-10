@@ -1,19 +1,8 @@
 share/texmf-dist/bibtex/bst/cell/cell.bst
-%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/cell/test_10_create.chk
-%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/cell/test_10_create.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/cell/test_20_colwidth.chk
-%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/cell/test_20_colwidth.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/cell/test_30_decor.chk
-%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/cell/test_30_decor.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/cell/test_40_width.chk
-%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/cell/test_40_width.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/cell/test_50_hooks.chk
-%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/cell/test_50_hooks.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/cell/README
 share/texmf-dist/tex/latex/cell/cell.sty
 @dirrmtry share/texmf-dist/tex/latex/cell
 @dirrmtry share/texmf-dist/doc/latex/cell
-@dirrmtry share/texmf-dist/doc/latex/cals/test/cell
 @dirrmtry share/texmf-dist/bibtex/bst/cell
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
