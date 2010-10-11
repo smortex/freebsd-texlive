@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-hrefhide
-# Date created:		09/21/2010 11:48:02
+# New ports collection makefile for:	texlive-chextras
+# Date created:		10/11/2010 04:49:30
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	hrefhide
+PORTNAME=	chextras
 PORTVERSION=	20101011
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Suppress hyper links when printing.
+COMMENT=	A companion package for the Swiss typesetter.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

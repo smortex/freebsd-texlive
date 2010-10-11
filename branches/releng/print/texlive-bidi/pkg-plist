@@ -1,7 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/bidi/bibitem.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/bidi/bidi-doc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/bidi/bidi-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/bidi/bidi.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/bidisample2e.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/bidismall2e.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/ctg.jpg
@@ -23,6 +21,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/test2-colortbl.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/test2-wrapfig.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/test3-wrapfig.tex
+%%PORTSRC%%share/texmf-dist/source/latex/bidi/bidi.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/bidi/bidi.ins
 share/texmf-dist/tex/latex/bidi/amsart-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/amsbook-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/amsmath-xetex-bidi.def
@@ -33,6 +33,7 @@ share/texmf-dist/tex/latex/bidi/artikel1-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/artikel2-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/artikel3-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/arydshln-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/bibitem.pdf
 share/texmf-dist/tex/latex/bidi/bidi.sty
 share/texmf-dist/tex/latex/bidi/bidi.tex
 share/texmf-dist/tex/latex/bidi/bidi2in1.sty
@@ -102,6 +103,7 @@ share/texmf-dist/tex/latex/bidi/xcolor-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/xltxtra-xetex-bidi.def
 @dirrmtry share/texmf-dist/tex/latex/bidi
+@dirrmtry share/texmf-dist/source/latex/bidi
 @dirrmtry share/texmf-dist/doc/latex/bidi
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

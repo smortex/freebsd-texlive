@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	bidi
-PORTVERSION=	20100925
+PORTVERSION=	20101011
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Support for bidirectional typesetting in plain TeX and LaTeX.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

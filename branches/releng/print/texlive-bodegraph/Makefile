@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-hrefhide
-# Date created:		09/21/2010 11:48:02
+# New ports collection makefile for:	texlive-bodegraph
+# Date created:		10/11/2010 04:47:01
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	hrefhide
+PORTNAME=	bodegraph
 PORTVERSION=	20101011
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Suppress hyper links when printing.
+COMMENT=	Draw Bode, Nyquist and Black plots with gnuplot and TikZ.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
