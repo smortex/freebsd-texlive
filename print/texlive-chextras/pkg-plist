@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/chextras/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/chextras/chextras.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/chextras/chextras.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/chextras/chextras.ins
+share/texmf-dist/tex/latex/chextras/chextras.sty
+share/texmf-dist/tex/latex/chextras/eu1lmros.fd
+share/texmf-dist/tex/latex/chextras/eu1lmssos.fd
+share/texmf-dist/tex/latex/chextras/eu1lmttos.fd
+share/texmf-dist/tex/latex/chextras/eu1lmvttos.fd
+share/texmf-dist/tex/latex/chextras/t1lmros.fd
+share/texmf-dist/tex/latex/chextras/t1lmssos.fd
+share/texmf-dist/tex/latex/chextras/t1lmttos.fd
+share/texmf-dist/tex/latex/chextras/t1lmvttos.fd
+@dirrmtry share/texmf-dist/tex/latex/chextras
+@dirrmtry share/texmf-dist/source/latex/chextras
+@dirrmtry share/texmf-dist/doc/latex/chextras
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

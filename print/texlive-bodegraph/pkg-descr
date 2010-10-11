@@ -1,0 +1,3 @@
+The package provides facilities to draw Bode, Nyquist and Black
+plots using Gnuplot and Tikz. Elementary Transfer Functions and
+basic correctors are preprogrammed for use.

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20100922
+PORTVERSION=	20101011
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -16,6 +16,7 @@ COMMENT=	Graphics packages and programs
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/asyfig/asyfig.sty:${PORTSDIR}/print/texlive-asyfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/autoarea/autoarea.sty:${PORTSDIR}/print/texlive-autoarea \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bardiag/bardiag.sty:${PORTSDIR}/print/texlive-bardiag \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bodegraph/bodegraph.sty:${PORTSDIR}/print/texlive-bodegraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cachepic/cachepic.sty:${PORTSDIR}/print/texlive-cachepic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemfig/chemfig.sty:${PORTSDIR}/print/texlive-chemfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/combinedgraphics/combinedgraphics.sty:${PORTSDIR}/print/texlive-combinedgraphics \
@@ -91,7 +92,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/asyfig/asyfig.sty:${PORTSDI
 		${LOCALBASE}/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty:${PORTSDIR}/print/texlive-ifxetex \
 		${LOCALBASE}/share/texmf/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
 		${LOCALBASE}/share/texmf-dist/scripts/lua-alt-getopt/alt_getopt.lua:${PORTSDIR}/print/texlive-lua-alt-getopt \
-		${LOCALBASE}/share/texmf/tex/generic/config/luatexiniconfig.tex:${PORTSDIR}/print/texlive-luatex \
+		${LOCALBASE}/share/texmf/tex/generic/config/luatex-unicode-letters.tex:${PORTSDIR}/print/texlive-luatex \
 		${LOCALBASE}/share/texmf-dist/makeindex/base/din.ist:${PORTSDIR}/print/texlive-makeindex \
 		${LOCALBASE}/share/texmf-dist/metafont/base/expr.mf:${PORTSDIR}/print/texlive-metafont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mflogo/mflogo.sty:${PORTSDIR}/print/texlive-mflogo \

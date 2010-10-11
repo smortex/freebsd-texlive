@@ -1,0 +1,4 @@
+The package simplifies the preparation of Swiss documents and
+letters by setting up linguistic and common packages. While
+linked to the chletter document class, it is not tied to it and
+may be used as a general purpose package.
