@@ -18,7 +18,6 @@ share/texmf-dist/makeindex/expl3/l3doc.ist
 %%PORTSRC%%share/texmf-dist/source/latex/expl3/l3final.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/expl3/l3fp.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/expl3/l3int.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/expl3/l3intexpr.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/expl3/l3io.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/expl3/l3keys.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/expl3/l3keyval.dtx
@@ -48,7 +47,6 @@ share/texmf-dist/tex/latex/expl3/l3expan.sty
 share/texmf-dist/tex/latex/expl3/l3file.sty
 share/texmf-dist/tex/latex/expl3/l3fp.sty
 share/texmf-dist/tex/latex/expl3/l3int.sty
-share/texmf-dist/tex/latex/expl3/l3intexpr.sty
 share/texmf-dist/tex/latex/expl3/l3io.sty
 share/texmf-dist/tex/latex/expl3/l3keys.sty
 share/texmf-dist/tex/latex/expl3/l3keyval.sty

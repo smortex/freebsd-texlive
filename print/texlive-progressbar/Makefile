@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-inputtrc
-# Date created:		10/10/2010 04:53:12
+# New ports collection makefile for:	texlive-progressbar
+# Date created:		10/12/2010 04:56:29
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	inputtrc
+PORTNAME=	progressbar
 PORTVERSION=	20101012
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Trace which file loads which.
+COMMENT=	Visualize shares of total amounts in the form of a (progress-)bar.
 
 NOPORTSRC=	yes
 

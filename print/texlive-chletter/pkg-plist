@@ -1,6 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/chletter/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/chletter/chletterdoc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/chletter/sampleletter.ltx
+%%PORTDOCS%%share/texmf-dist/doc/latex/chletter/chletter.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chletter/chlettmp.tex
 %%PORTSRC%%share/texmf-dist/source/latex/chletter/chletter.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/chletter/chletter.ins
 share/texmf-dist/tex/latex/chletter/chletter.cls

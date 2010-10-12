@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/progressbar/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/progressbar/progressbar.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/progressbar/progressbar.tex
+share/texmf-dist/tex/latex/progressbar/progressbar.sty
+@dirrmtry share/texmf-dist/tex/latex/progressbar
+@dirrmtry share/texmf-dist/doc/latex/progressbar
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20101011
+PORTVERSION=	20101012
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -620,6 +620,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/probsoln/probsoln.sty:${PORTSDIR}/print/texlive-probsoln \
 		${LOCALBASE}/share/texmf-dist/tex/latex/program/program.sty:${PORTSDIR}/print/texlive-program \
 		${LOCALBASE}/share/texmf-dist/tex/latex/progress/progress.sty:${PORTSDIR}/print/texlive-progress \
+		${LOCALBASE}/share/texmf-dist/tex/latex/progressbar/progressbar.sty:${PORTSDIR}/print/texlive-progressbar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/properties/properties.sty:${PORTSDIR}/print/texlive-properties \
 		${LOCALBASE}/share/texmf-dist/tex/latex/prosper/prosper.cls:${PORTSDIR}/print/texlive-prosper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/protex/AlProTex.sty:${PORTSDIR}/print/texlive-protex \
