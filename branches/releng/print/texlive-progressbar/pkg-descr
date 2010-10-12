@@ -1,0 +1,6 @@
+This package allows you to easily visualize shares of total
+amounts in the form of a bar. So basically you can convert any
+number between 0 and 1 to a progressbar using the command
+\progressbar{<number>}. Also a lot of customizations are
+possible, allowing you to create an unique progressbar on your
+own.
