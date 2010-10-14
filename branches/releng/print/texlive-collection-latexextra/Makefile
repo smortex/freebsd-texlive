@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20101012
+PORTVERSION=	20101014
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -653,6 +653,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/rmpage/rmpage.sty:${PORTSDIR}/print/texlive-rmpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/robustcommand/robustcommand.sty:${PORTSDIR}/print/texlive-robustcommand \
 		${LOCALBASE}/share/texmf-dist/tex/latex/robustindex/robustindex.sty:${PORTSDIR}/print/texlive-robustindex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/romanneg/romanneg.sty:${PORTSDIR}/print/texlive-romanneg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/romannum/romannum.sty:${PORTSDIR}/print/texlive-romannum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rotfloat/rotfloat.sty:${PORTSDIR}/print/texlive-rotfloat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rotpages/rotpages.sty:${PORTSDIR}/print/texlive-rotpages \
@@ -667,6 +668,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/sciwordconv/Sw2Rus.sty:${PORTSDIR}/print/texlive-sciwordconv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/script/script.cls:${PORTSDIR}/print/texlive-script \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sdrt/sdrt.sty:${PORTSDIR}/print/texlive-sdrt \
+		${LOCALBASE}/share/texmf-dist/tex/latex/secdot/secdot.sty:${PORTSDIR}/print/texlive-secdot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sectionbox/sectionbox.sty:${PORTSDIR}/print/texlive-sectionbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sectsty/sectsty.sty:${PORTSDIR}/print/texlive-sectsty \
 		${LOCALBASE}/share/texmf-dist/tex/latex/selectp/selectp.sty:${PORTSDIR}/print/texlive-selectp \

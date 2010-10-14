@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/secdot/secdot.ltx
+%%PORTDOCS%%share/texmf-dist/doc/latex/secdot/secdot.pdf
+share/texmf-dist/tex/latex/secdot/secdot.sty
+@dirrmtry share/texmf-dist/tex/latex/secdot
+@dirrmtry share/texmf-dist/doc/latex/secdot
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

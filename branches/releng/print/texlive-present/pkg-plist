@@ -7,6 +7,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/plain/present/README
 %%PORTDOCS%%share/texmf-dist/doc/plain/present/Sagnac.pdf
 %%PORTDOCS%%share/texmf-dist/doc/plain/present/Stern.png
+%%PORTDOCS%%share/texmf-dist/doc/plain/present/background.png
 share/texmf-dist/tex/plain/present/present.tex
 @dirrmtry share/texmf-dist/tex/plain/present
 @dirrmtry share/texmf-dist/doc/plain/present

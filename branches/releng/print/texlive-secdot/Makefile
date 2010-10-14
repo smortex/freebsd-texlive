@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-xypic
-# Date created:		13/03/2010 04:53:00
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-secdot
+# Date created:		10/14/2010 04:57:32
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	xypic
+PORTNAME=	secdot
 PORTVERSION=	20101014
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Flexible diagramming macros.
+COMMENT=	Section numbers with trailing dots.
 
 NOPORTSRC=	yes
 
