@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/romanneg/romanneg.ltx
+%%PORTDOCS%%share/texmf-dist/doc/latex/romanneg/romanneg.pdf
+share/texmf-dist/tex/latex/romanneg/romanneg.sty
+@dirrmtry share/texmf-dist/tex/latex/romanneg
+@dirrmtry share/texmf-dist/doc/latex/romanneg
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
