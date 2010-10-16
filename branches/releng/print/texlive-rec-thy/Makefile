@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-biblatex-chem
-# Date created:		13/03/2010 04:23:08
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-rec-thy
+# Date created:		10/16/2010 05:02:05
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	biblatex-chem
+PORTNAME=	rec-thy
 PORTVERSION=	20101016
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Chemistry styles for biblatex.
+COMMENT=	Commands to typeset recursion theory papers.
 
 NOPORTSRC=	yes
 

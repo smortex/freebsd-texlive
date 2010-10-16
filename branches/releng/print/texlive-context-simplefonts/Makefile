@@ -6,12 +6,13 @@
 #
 
 PORTNAME=	context-simplefonts
-PORTVERSION=	20100922
+PORTVERSION=	20101016
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Simplified font usage for ConTeXt.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
