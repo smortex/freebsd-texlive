@@ -1,5 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xbase/commands-check.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xbase/ldcsetup.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xbase/regression-test.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xbase/template-test.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xbase/template-test2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xbase/template.pdf

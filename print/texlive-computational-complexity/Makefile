@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	computational-complexity
-PORTVERSION=	20100922
+PORTVERSION=	20101016
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

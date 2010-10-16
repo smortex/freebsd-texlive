@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20101014
+PORTVERSION=	20101016
 CATEGORIES=	print
 DISTFILES=	# None
 
