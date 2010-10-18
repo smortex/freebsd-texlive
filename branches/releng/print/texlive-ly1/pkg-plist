@@ -26,8 +26,6 @@ share/texmf-dist/fonts/tfm/adobe/ly1/phvb8y.tfm
 share/texmf-dist/fonts/tfm/adobe/ly1/phvb8yn.tfm
 share/texmf-dist/fonts/tfm/adobe/ly1/phvbo8y.tfm
 share/texmf-dist/fonts/tfm/adobe/ly1/phvbo8yn.tfm
-share/texmf-dist/fonts/tfm/adobe/ly1/phvl8y.tfm
-share/texmf-dist/fonts/tfm/adobe/ly1/phvlo8y.tfm
 share/texmf-dist/fonts/tfm/adobe/ly1/phvr8y.tfm
 share/texmf-dist/fonts/tfm/adobe/ly1/phvr8yn.tfm
 share/texmf-dist/fonts/tfm/adobe/ly1/phvro8y.tfm
@@ -61,6 +59,8 @@ share/texmf-dist/fonts/tfm/adobe/ly1/ptmro8y.tfm
 share/texmf-dist/fonts/tfm/adobe/ly1/ptmrr8ye.tfm
 share/texmf-dist/fonts/tfm/adobe/ly1/pzcmi8y.tfm
 share/texmf-dist/fonts/tfm/adobe/ly1/pzdr.tfm
+share/texmf-dist/fonts/vf/adobe/ly1/ptmbc8y.vf
+share/texmf-dist/fonts/vf/adobe/ly1/ptmrc8y.vf
 share/texmf-dist/tex/latex/ly1/ly1enc.def
 share/texmf-dist/tex/latex/ly1/ly1pag.fd
 share/texmf-dist/tex/latex/ly1/ly1pbk.fd
@@ -74,6 +74,7 @@ share/texmf-dist/tex/latex/ly1/texnansi.sty
 share/texmf-dist/tex/plain/ly1/texnansi.tex
 @dirrmtry share/texmf-dist/tex/plain/ly1
 @dirrmtry share/texmf-dist/tex/latex/ly1
+@dirrmtry share/texmf-dist/fonts/vf/adobe/ly1
 @dirrmtry share/texmf-dist/fonts/tfm/adobe/ly1
 @dirrmtry share/texmf-dist/fonts/map/dvips/ly1
 @dirrmtry share/texmf-dist/fonts/enc/dvips/ly1
