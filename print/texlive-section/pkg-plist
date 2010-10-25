@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/section/section-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/section/section-doc.tex
+share/texmf-dist/tex/latex/section/section.sty
+@dirrmtry share/texmf-dist/tex/latex/section
+@dirrmtry share/texmf-dist/doc/latex/section
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

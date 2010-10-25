@@ -1,4 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/selectp/selectp-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/selectp/selectp-doc.tex
 share/texmf-dist/tex/latex/selectp/selectp.sty
 @dirrmtry share/texmf-dist/tex/latex/selectp
+@dirrmtry share/texmf-dist/doc/latex/selectp
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

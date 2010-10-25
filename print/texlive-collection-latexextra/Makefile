@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20101016
+PORTVERSION=	20101025
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -444,6 +444,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/keycommand/keycommand.sty:${PORTSDIR}/print/texlive-keycommand \
 		${LOCALBASE}/share/texmf-dist/tex/latex/keystroke/keystroke.sty:${PORTSDIR}/print/texlive-keystroke \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kix/kix.sty:${PORTSDIR}/print/texlive-kix \
+		${LOCALBASE}/share/texmf-dist/tex/latex/koma-moderncvclassic/koma-moderncvclassic.sty:${PORTSDIR}/print/texlive-koma-moderncvclassic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/labbook/labbook.cls:${PORTSDIR}/print/texlive-labbook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/labelcas/labelcas.sty:${PORTSDIR}/print/texlive-labelcas \
 		${LOCALBASE}/share/texmf-dist/tex/latex/labels/labels.sty:${PORTSDIR}/print/texlive-labels \
