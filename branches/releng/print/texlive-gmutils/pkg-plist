@@ -1,5 +1,18 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/gmutils/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/gmutils/gmutils.pdf
+share/texmf-dist/tex/latex/gmutils/gmRCS.sty
+share/texmf-dist/tex/latex/gmutils/gmampulex.sty
+share/texmf-dist/tex/latex/gmutils/gmbase.sty
+share/texmf-dist/tex/latex/gmutils/gmcommand.sty
+share/texmf-dist/tex/latex/gmutils/gmenvir.sty
+share/texmf-dist/tex/latex/gmutils/gmlogos.sty
+share/texmf-dist/tex/latex/gmutils/gmmeta.sty
+share/texmf-dist/tex/latex/gmutils/gmmw.sty
+share/texmf-dist/tex/latex/gmutils/gmnotonlypream.sty
+share/texmf-dist/tex/latex/gmutils/gmparts.sty
+share/texmf-dist/tex/latex/gmutils/gmrelsize.sty
+share/texmf-dist/tex/latex/gmutils/gmtypos.sty
+share/texmf-dist/tex/latex/gmutils/gmurl.sty
 share/texmf-dist/tex/latex/gmutils/gmutils.sty
 @dirrmtry share/texmf-dist/tex/latex/gmutils
 @dirrmtry share/texmf-dist/doc/latex/gmutils

@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-tfrupee
-# Date created:		09/21/2010 11:38:34
+# New ports collection makefile for:	texlive-sepnum
+# Date created:		10/25/2010 05:02:26
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	tfrupee
+PORTNAME=	sepnum
 PORTVERSION=	20101025
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A font offering the new (Indian) Rupee symbol.
+COMMENT=	Print numbers in a "friendly" format.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

@@ -1,0 +1,6 @@
+This package provides an imitation of the moderncv class with
+the classic style (by Xavier Danaux), to be used in conjunction
+with the koma-classes. Thus it is possible to configure
+pagelayout, headings etc. the way it is done in koma-classes.
+Moreover, it is possible to use biblatex, while the original
+moderncv-class is incompatible with biblatex.

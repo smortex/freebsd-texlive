@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/koma-moderncvclassic/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/koma-moderncvclassic/cvbasic.tex
+share/texmf-dist/tex/latex/koma-moderncvclassic/koma-moderncvclassic.sty
+@dirrmtry share/texmf-dist/tex/latex/koma-moderncvclassic
+@dirrmtry share/texmf-dist/doc/latex/koma-moderncvclassic
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

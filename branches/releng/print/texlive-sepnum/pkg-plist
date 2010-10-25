@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/sepnum/sepnum-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sepnum/sepnum-doc.tex
+share/texmf-dist/tex/latex/sepnum/sepnum.sty
+@dirrmtry share/texmf-dist/tex/latex/sepnum
+@dirrmtry share/texmf-dist/doc/latex/sepnum
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
