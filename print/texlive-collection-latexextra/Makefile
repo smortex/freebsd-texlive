@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20101025
+PORTVERSION=	20101026
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -200,6 +200,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/captdef/captdef.sty:${PORTSDIR}/print/texlive-captdef \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cases/cases.sty:${PORTSDIR}/print/texlive-cases \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/casyl/casyll10.mf:${PORTSDIR}/print/texlive-casyl \
+		${LOCALBASE}/share/texmf-dist/tex/latex/catchfilebetweentags/catchfilebetweentags.sty:${PORTSDIR}/print/texlive-catchfilebetweentags \
 		${LOCALBASE}/share/texmf-dist/tex/latex/catechis/catechis.sty:${PORTSDIR}/print/texlive-catechis \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/cbcoptic/coptbase.mf:${PORTSDIR}/print/texlive-cbcoptic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ccaption/ccaption.sty:${PORTSDIR}/print/texlive-ccaption \
@@ -432,6 +433,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/inlinedef/inlinedef.sty:${PORTSDIR}/print/texlive-inlinedef \
 		${LOCALBASE}/share/texmf-dist/tex/latex/inputtrc/inputtrc.sty:${PORTSDIR}/print/texlive-inputtrc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/interactiveworkbook/interactiveworkbook.sty:${PORTSDIR}/print/texlive-interactiveworkbook \
+		${LOCALBASE}/share/texmf-dist/tex/latex/interfaces/interfaces.sty:${PORTSDIR}/print/texlive-interfaces \
 		${LOCALBASE}/share/texmf-dist/tex/latex/inversepath/inversepath.sty:${PORTSDIR}/print/texlive-inversepath \
 		${LOCALBASE}/share/texmf-dist/makeindex/iso/iso.ist:${PORTSDIR}/print/texlive-iso \
 		${LOCALBASE}/share/texmf-dist/tex/latex/iso10303/aicv1.sty:${PORTSDIR}/print/texlive-iso10303 \
@@ -580,6 +582,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/papertex/papertex.cls:${PORTSDIR}/print/texlive-papertex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/paralist/paralist.sty:${PORTSDIR}/print/texlive-paralist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/paresse/paresse.sty:${PORTSDIR}/print/texlive-paresse \
+		${LOCALBASE}/share/texmf-dist/tex/latex/parselines/parselines.sty:${PORTSDIR}/print/texlive-parselines \
 		${LOCALBASE}/share/texmf-dist/tex/latex/patchcmd/patchcmd.sty:${PORTSDIR}/print/texlive-patchcmd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pauldoc/pauldoc.sty:${PORTSDIR}/print/texlive-pauldoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pawpict/pawpict.sty:${PORTSDIR}/print/texlive-pawpict \

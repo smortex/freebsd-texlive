@@ -1,5 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/sfg/Changes
 %%PORTDOCS%%share/texmf-dist/doc/latex/sfg/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/sfg/sfg-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sfg/sfg-doc.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/sfg/sfg_test.tex
 share/texmf-dist/tex/latex/sfg/sfg.sty
 @dirrmtry share/texmf-dist/tex/latex/sfg

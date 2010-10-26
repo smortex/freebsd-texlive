@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/parselines/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/parselines/parselines.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/parselines/parselines.drv
+%%PORTSRC%%share/texmf-dist/source/latex/parselines/parselines.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/parselines/parselines.ins
+share/texmf-dist/tex/latex/parselines/parselines.sty
+@dirrmtry share/texmf-dist/tex/latex/parselines
+@dirrmtry share/texmf-dist/source/latex/parselines
+@dirrmtry share/texmf-dist/doc/latex/parselines
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

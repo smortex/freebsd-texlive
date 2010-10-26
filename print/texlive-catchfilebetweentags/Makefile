@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-secdot
-# Date created:		10/14/2010 04:57:32
+# New ports collection makefile for:	texlive-catchfilebetweentags
+# Date created:		10/26/2010 04:49:41
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	secdot
+PORTNAME=	catchfilebetweentags
 PORTVERSION=	20101026
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Section numbers with trailing dots.
+COMMENT=	Catch text delimited by docstrip tags.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

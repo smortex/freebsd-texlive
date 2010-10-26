@@ -1,0 +1,3 @@
+The package defines an environment "parse lines" which
+processes each line of an environment with a macro. An example
+of shading the lines of an environment is given.
