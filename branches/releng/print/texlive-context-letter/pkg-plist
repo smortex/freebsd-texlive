@@ -47,6 +47,7 @@ share/texmf-dist/tex/context/third/letter/style/dutch.nls
 share/texmf-dist/tex/context/third/letter/style/english.nls
 share/texmf-dist/tex/context/third/letter/style/french.nls
 share/texmf-dist/tex/context/third/letter/style/fullblock.nls
+share/texmf-dist/tex/context/third/letter/style/gbrief.nls
 share/texmf-dist/tex/context/third/letter/style/hanging.nls
 share/texmf-dist/tex/context/third/letter/style/knuth.nls
 share/texmf-dist/tex/context/third/letter/style/memo.nls

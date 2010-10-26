@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/catchfilebetweentags/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/catchfilebetweentags/catchfilebetweentags.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/catchfilebetweentags/catchfilebetweentags.drv
+%%PORTSRC%%share/texmf-dist/source/latex/catchfilebetweentags/catchfilebetweentags.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/catchfilebetweentags/catchfilebetweentags.ins
+share/texmf-dist/tex/latex/catchfilebetweentags/catchfilebetweentags.sty
+@dirrmtry share/texmf-dist/tex/latex/catchfilebetweentags
+@dirrmtry share/texmf-dist/source/latex/catchfilebetweentags
+@dirrmtry share/texmf-dist/doc/latex/catchfilebetweentags
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

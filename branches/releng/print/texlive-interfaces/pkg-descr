@@ -1,0 +1,9 @@
+The package provides a small number of convenient macros that
+access features in other frequently-used packages. Most of
+these macros use pgfkeys to provide a key-value syntax. The
+package also uses the package scrlfile from the Koma-Script
+bundle (for controlled loading of other files) and etoolbox.
+The package provides sub-packages containing actual interfaces:
+by default, the package loads all available interface sub-
+packages, but techniques are provided for the user to select no
+more than the interfaces needed for a job.

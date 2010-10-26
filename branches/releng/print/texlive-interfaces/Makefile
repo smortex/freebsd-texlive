@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-secdot
-# Date created:		10/14/2010 04:57:32
+# New ports collection makefile for:	texlive-interfaces
+# Date created:		10/26/2010 04:53:34
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	secdot
+PORTNAME=	interfaces
 PORTVERSION=	20101026
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Section numbers with trailing dots.
+COMMENT=	Set parameters for other packages, conveniently.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
