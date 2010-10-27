@@ -1,8 +1,9 @@
-%%PORTDOCS%%share/texmf-dist/doc/fonts/xits/FONTLOG
+%%PORTDOCS%%share/texmf-dist/doc/fonts/xits/FONTLOG.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/xits/OFL-FAQ.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/xits/OFL.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/xits/README
-%%PORTDOCS%%share/texmf-dist/doc/fonts/xits/type-xits.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/xits/build.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/xits/fontcoverage.py
 %%PORTDOCS%%share/texmf-dist/doc/fonts/xits/user-guide.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/xits/user-guide.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/xits/xits-specimen.pdf

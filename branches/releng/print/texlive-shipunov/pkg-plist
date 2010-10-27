@@ -1,4 +1,5 @@
 share/texmf-dist/bibtex/bst/shipunov/rusnat.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/shipunov/NEWS
 %%PORTDOCS%%share/texmf-dist/doc/latex/shipunov/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/shipunov/altverse-ex-en.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/shipunov/altverse-ex-en.tex
@@ -46,8 +47,6 @@ share/texmf-dist/bibtex/bst/shipunov/rusnat.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/shipunov/numerus-ex-ru.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/shipunov/punct-ex-en.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/shipunov/punct-ex-en.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/shipunov/review.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/shipunov/review.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/shipunov/rusnat-doc-ru.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/shipunov/rusnat-doc-ru.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/shipunov/rusnat-ex-ru.bib
