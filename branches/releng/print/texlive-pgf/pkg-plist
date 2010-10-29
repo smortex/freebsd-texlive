@@ -28,6 +28,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-base-design.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-base-external.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-base-images.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-base-internalregisters.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-base-layers.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-base-matrices.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-base-nodes.tex
@@ -41,6 +42,14 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-base-transformations.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-base-transparency.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-drivers.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-dv-axes.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-dv-backend.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-dv-examples.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-dv-formats.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-dv-introduction.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-dv-main.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-dv-stylesheets.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-dv-visualizers.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-guidelines.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-installation.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-introduction.tex
@@ -48,34 +57,49 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-arrows.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-automata.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-backgrounds.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-calc.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-calendar.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-chains.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-circuits.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-decorations.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-edges.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-er.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-external.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-fadings.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-fit.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-fixedpoint.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-folding.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-fpu.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-lsystems.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-matrices.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-mindmaps.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-patterns.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-petri.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-plot-handlers.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-plot-marks.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-profiler.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-shadings.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-shadows.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-shapes.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-spy.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-svg-path.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-through.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-trees.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-library-turtle.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-license.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-main.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-math-algorithms.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-math-commands.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-math-design.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-math-numberprinting.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-math-parsing.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-module-parser.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-oo.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-pages.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-pgfcalendar.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-pgffor.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-pgfkeys.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-pgfkeysfiltered.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-pgfsys-commands.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-pgfsys-overview.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-pgfsys-paths.tex
@@ -94,7 +118,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-tikz-trees.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-tutorial-Euclid.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-tutorial-chains.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-tutorial-map.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-tutorial-nodes.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-tutorial-nodes.tex.orig
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-tutorial.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/pgfmanual-en-xxcolor.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/plots/pgf-asymptotic-example.gnuplot
@@ -111,13 +137,18 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/plots/pgfmanual-sine.table
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/plots/pgfplotgnuplot-example.gnuplot
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/plots/pgfplotgnuplot-example.table
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/text-en/texmf.cnf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-dvipdfm/en/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-dvipdfm/en/pgfmanual.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-dvipdfm/pgfmanual-dvipdfm.cfg
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-dvipdfmx/en/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-dvipdfmx/en/pgfmanual.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-dvipdfmx/pgfmanual-dvipdfmx.cfg
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-dvips/en/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-dvips/en/pgfmanual.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-dvips/pgfmanual-dvips.cfg
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-pdftex/en/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-pdftex/en/pgfmanual.figlist
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-pdftex/en/pgfmanual.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-pdftex/pgfmanual-pdftex.cfg
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-tex4ht/en/Makefile
@@ -125,40 +156,54 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-tex4ht/pgfmanual-tex4ht.cfg
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-vtex/en/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-vtex/en/pgfmanual.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-vtex/en/plots/pgf-asymptotic-example.gnuplot
-%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-vtex/en/plots/pgf-asymptotic-example.table
-%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-vtex/en/plots/pgf-exp.gnuplot
-%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-vtex/en/plots/pgf-exp.table
-%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-vtex/en/plots/pgf-parametric-example.gnuplot
-%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-vtex/en/plots/pgf-parametric-example.table
-%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-vtex/en/plots/pgf-sin.gnuplot
-%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-vtex/en/plots/pgf-sin.table
-%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-vtex/en/plots/pgf-x.gnuplot
-%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-vtex/en/plots/pgf-x.table
-%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-vtex/en/plots/pgfmanual-sine.gnuplot
-%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-vtex/en/plots/pgfmanual-sine.table
-%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-vtex/en/plots/pgfplotgnuplot-example.gnuplot
-%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-vtex/en/plots/pgfplotgnuplot-example.table
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-vtex/pgfmanual-vtex.cfg
-share/texmf-dist/tex/context/pgf/basiclayer/t-pgf.tex
-share/texmf-dist/tex/context/pgf/basiclayer/t-pgfbim.tex
-share/texmf-dist/tex/context/pgf/basiclayer/t-pgfbla.tex
-share/texmf-dist/tex/context/pgf/basiclayer/t-pgfbma.tex
-share/texmf-dist/tex/context/pgf/basiclayer/t-pgfbpl.tex
-share/texmf-dist/tex/context/pgf/basiclayer/t-pgfbpt.tex
-share/texmf-dist/tex/context/pgf/basiclayer/t-pgfbsh.tex
-share/texmf-dist/tex/context/pgf/basiclayer/t-pgfbsn.tex
-share/texmf-dist/tex/context/pgf/basiclayer/t-pgfcor.tex
-share/texmf-dist/tex/context/pgf/frontendlayer/t-tikz.tex
-share/texmf-dist/tex/context/pgf/math/t-pgfmat.tex
-share/texmf-dist/tex/context/pgf/systemlayer/t-pgfsys.tex
-share/texmf-dist/tex/context/pgf/utilities/t-pgfcal.tex
-share/texmf-dist/tex/context/pgf/utilities/t-pgffor.tex
-share/texmf-dist/tex/context/pgf/utilities/t-pgfkey.tex
-share/texmf-dist/tex/context/pgf/utilities/t-pgfmod.tex
-share/texmf-dist/tex/context/pgf/utilities/t-pgfrcs.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-xetex/en/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-xetex/en/pgfmanual.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pgf/version-for-xetex/pgfmanual-xetex.cfg
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf/README
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/incoming/GrzegorzMurzynowski/pgfdatabasearrows.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/incoming/GrzegorzMurzynowski/pgfdatabasearrows.sty
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/incoming/GrzegorzMurzynowski/pgfdatabasearrows.tex
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/incoming/KarlheinzOchs/basics.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/incoming/KarlheinzOchs/basics.tex
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/incoming/KarlheinzOchs/fir.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/incoming/KarlheinzOchs/fir.tex
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/incoming/KarlheinzOchs/interconnection.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/incoming/KarlheinzOchs/interconnection.tex
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/incoming/KarlheinzOchs/macros.sty
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/incoming/KarlheinzOchs/pgflibrarytikzsignalflowarrows.code.tex
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/incoming/KarlheinzOchs/pgflibrarytikzsignalflowblocks.code.tex
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/incoming/KarlheinzOchs/pgflibrarytikzsignalflowdiagram.code.tex
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/incoming/KarlheinzOchs/pgflibrarytikzsignalflowoperators.code.tex
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/incoming/KarlheinzOchs/placement.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/incoming/KarlheinzOchs/placement.tex
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/incoming/KarlheinzOchs/signalflowdiagram.sty
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/testsuite/external/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/testsuite/external/tikzexternaltest.code.tex
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/testsuite/external/tikzexternaltest.sharedpreamble.tex
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/testsuite/external/tikzexternaltest.tex
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/testsuite/external/tikzexternaltestmakefile.tex
+%%PORTSRC%%share/texmf-dist/source/latex/pgf/testsuite/mathtest/pgfmathtestsuite.tex
+share/texmf-dist/tex/context/third/pgf/basiclayer/t-pgf.tex
+share/texmf-dist/tex/context/third/pgf/basiclayer/t-pgfbim.tex
+share/texmf-dist/tex/context/third/pgf/basiclayer/t-pgfbla.tex
+share/texmf-dist/tex/context/third/pgf/basiclayer/t-pgfbma.tex
+share/texmf-dist/tex/context/third/pgf/basiclayer/t-pgfbpl.tex
+share/texmf-dist/tex/context/third/pgf/basiclayer/t-pgfbpt.tex
+share/texmf-dist/tex/context/third/pgf/basiclayer/t-pgfbsh.tex
+share/texmf-dist/tex/context/third/pgf/basiclayer/t-pgfbsn.tex
+share/texmf-dist/tex/context/third/pgf/basiclayer/t-pgfcor.tex
+share/texmf-dist/tex/context/third/pgf/frontendlayer/t-tikz.tex
+share/texmf-dist/tex/context/third/pgf/math/t-pgfmat.tex
+share/texmf-dist/tex/context/third/pgf/systemlayer/t-pgfsys.tex
+share/texmf-dist/tex/context/third/pgf/utilities/t-pgfcal.tex
+share/texmf-dist/tex/context/third/pgf/utilities/t-pgffor.tex
+share/texmf-dist/tex/context/third/pgf/utilities/t-pgfkey.tex
+share/texmf-dist/tex/context/third/pgf/utilities/t-pgfmod.tex
+share/texmf-dist/tex/context/third/pgf/utilities/t-pgfrcs.tex
 share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
@@ -173,6 +218,27 @@ share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/svg/svgpgf.cfg
+share/texmf-dist/tex/generic/pgf/frontendlayer/svg/svgpgf.xmt
+share/texmf-dist/tex/generic/pgf/frontendlayer/svg/svgtest.cfg
+share/texmf-dist/tex/generic/pgf/frontendlayer/svg/svgtest.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/svg/svgtest.xml
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/circuits/tikzlibrarycircuits.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/circuits/tikzlibrarycircuits.ee.IEC.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/circuits/tikzlibrarycircuits.ee.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/circuits/tikzlibrarycircuits.logic.CDH.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/circuits/tikzlibrarycircuits.logic.IEC.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/circuits/tikzlibrarycircuits.logic.US.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/circuits/tikzlibrarycircuits.logic.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/datavisualization/tikzlibrarydatavisualization.3d.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/datavisualization/tikzlibrarydatavisualization.barcharts.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/datavisualization/tikzlibrarydatavisualization.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/datavisualization/tikzlibrarydatavisualization.formats.functions.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/datavisualization/tikzlibrarydatavisualization.polar.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/datavisualization/tikzlibrarydatavisualization.sparklines.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/graphs/tikzlibrarygraphs.basic.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/graphs/tikzlibrarygraphs.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzexternalshared.code.tex
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary3d.code.tex
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryautomata.code.tex
@@ -191,7 +257,11 @@ share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorat
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryer.code.tex
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfixedpointarithmetic.code.tex
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfolding.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfpu.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarylindenmayersystems.code.tex
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymindmap.code.tex
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
@@ -200,6 +270,7 @@ share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplothan
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryscopes.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshadings.code.tex
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshadows.code.tex
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex
@@ -211,45 +282,72 @@ share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarysnakes.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryspy.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarysvg.path.code.tex
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarythrough.code.tex
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytrees.code.tex
+share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryturtle.code.tex
 share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/datavisualization/pgflibrarydatavisualization.barcharts.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/datavisualization/pgflibrarydatavisualization.formats.functions.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/datavisualization/pgflibrarydatavisualization.polar.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.footprints.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.fractals.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.shapes.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.text.code.tex
 share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
-share/texmf-dist/tex/generic/pgf/libraries/pgflibrarydecorations.footprints.code.tex
-share/texmf-dist/tex/generic/pgf/libraries/pgflibrarydecorations.fractals.code.tex
-share/texmf-dist/tex/generic/pgf/libraries/pgflibrarydecorations.markings.code.tex
-share/texmf-dist/tex/generic/pgf/libraries/pgflibrarydecorations.pathmorphing.code.tex
-share/texmf-dist/tex/generic/pgf/libraries/pgflibrarydecorations.pathreplacing.code.tex
-share/texmf-dist/tex/generic/pgf/libraries/pgflibrarydecorations.shapes.code.tex
-share/texmf-dist/tex/generic/pgf/libraries/pgflibrarydecorations.text.code.tex
 share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfixedpointarithmetic.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/pgflibrarylindenmayersystems.code.tex
 share/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
 share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
-share/texmf-dist/tex/generic/pgf/libraries/pgflibraryshapes.arrows.code.tex
-share/texmf-dist/tex/generic/pgf/libraries/pgflibraryshapes.callouts.code.tex
-share/texmf-dist/tex/generic/pgf/libraries/pgflibraryshapes.code.tex
-share/texmf-dist/tex/generic/pgf/libraries/pgflibraryshapes.gates.logic.IEC.code.tex
-share/texmf-dist/tex/generic/pgf/libraries/pgflibraryshapes.gates.logic.US.code.tex
-share/texmf-dist/tex/generic/pgf/libraries/pgflibraryshapes.geometric.code.tex
-share/texmf-dist/tex/generic/pgf/libraries/pgflibraryshapes.misc.code.tex
-share/texmf-dist/tex/generic/pgf/libraries/pgflibraryshapes.multipart.code.tex
-share/texmf-dist/tex/generic/pgf/libraries/pgflibraryshapes.symbols.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/pgflibraryprofiler.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/pgflibraryshadings.code.tex
 share/texmf-dist/tex/generic/pgf/libraries/pgflibrarysnakes.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/pgflibrarysvg.path.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/shapes/circuits/pgflibraryshapes.gates.ee.IEC.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/shapes/circuits/pgflibraryshapes.gates.ee.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/shapes/circuits/pgflibraryshapes.gates.logic.IEC.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/shapes/circuits/pgflibraryshapes.gates.logic.US.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/shapes/circuits/pgflibraryshapes.gates.logic.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
+share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.code.tex
 share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-share/texmf-dist/tex/generic/pgf/math/pgfmathbase.code.tex
 share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-share/texmf-dist/tex/generic/pgf/math/pgfmathoperations.code.tex
+share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex
+share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex
+share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex
+share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex
+share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex
 share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-share/texmf-dist/tex/generic/pgf/math/pgfmathrnd.code.tex
-share/texmf-dist/tex/generic/pgf/math/pgfmathtrig.code.tex
 share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+share/texmf-dist/tex/generic/pgf/modules/pgfmoduledatavisualization.code.tex
 share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
 share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+share/texmf-dist/tex/generic/pgf/modules/pgfmoduleoo.code.tex
+share/texmf-dist/tex/generic/pgf/modules/pgfmoduleparser.code.tex
 share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 share/texmf-dist/tex/generic/pgf/modules/pgfmodulesnakes.code.tex
+share/texmf-dist/tex/generic/pgf/modules/pgfmodulesorting.code.tex
+share/texmf-dist/tex/generic/pgf/rendering/pgfrenderpoints.code.tex
+share/texmf-dist/tex/generic/pgf/rendering/pgfrendertransform.code.tex
 share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf-via-dvi.def
 share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
@@ -269,8 +367,10 @@ share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 share/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.tex
 share/texmf-dist/tex/generic/pgf/utilities/pgfexternal.tex
+share/texmf-dist/tex/generic/pgf/utilities/pgfexternalwithdepth.tex
 share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 share/texmf-dist/tex/generic/pgf/utilities/pgfutil-context.def
@@ -300,6 +400,11 @@ share/texmf-dist/tex/latex/pgf/compatibility/pgflibrarytikzbackgrounds.sty
 share/texmf-dist/tex/latex/pgf/compatibility/pgflibrarytikztrees.sty
 share/texmf-dist/tex/latex/pgf/compatibility/pgfnodes.sty
 share/texmf-dist/tex/latex/pgf/compatibility/pgfshade.sty
+share/texmf-dist/tex/latex/pgf/doc/pgfmanual.code.tex
+share/texmf-dist/tex/latex/pgf/doc/pgfmanual.pdflinks.code.tex
+share/texmf-dist/tex/latex/pgf/doc/pgfmanual.prettyprinter.code.tex
+share/texmf-dist/tex/latex/pgf/doc/pgfmanual.sty
+share/texmf-dist/tex/latex/pgf/frontendlayer/libraries/tikzlibraryexternal.code.tex
 share/texmf-dist/tex/latex/pgf/frontendlayer/pgfpict2e.sty
 share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 share/texmf-dist/tex/latex/pgf/math/pgfmath.sty
@@ -309,6 +414,7 @@ share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
 share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
 share/texmf-dist/tex/latex/pgf/utilities/pgfpages.sty
 share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+share/texmf-dist/tex/latex/pgf/utilities/tikzexternal.sty
 share/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
 share/texmf-dist/tex/plain/pgf/basiclayer/pgf.tex
 share/texmf-dist/tex/plain/pgf/basiclayer/pgfbaseimage.tex
@@ -334,23 +440,40 @@ share/texmf-dist/tex/plain/pgf/utilities/pgfrcs.tex
 @dirrmtry share/texmf-dist/tex/latex/pgf/utilities
 @dirrmtry share/texmf-dist/tex/latex/pgf/systemlayer
 @dirrmtry share/texmf-dist/tex/latex/pgf/math
+@dirrmtry share/texmf-dist/tex/latex/pgf/frontendlayer/libraries
 @dirrmtry share/texmf-dist/tex/latex/pgf/frontendlayer
+@dirrmtry share/texmf-dist/tex/latex/pgf/doc
 @dirrmtry share/texmf-dist/tex/latex/pgf/compatibility
 @dirrmtry share/texmf-dist/tex/latex/pgf/basiclayer
 @dirrmtry share/texmf-dist/tex/generic/pgf/utilities
 @dirrmtry share/texmf-dist/tex/generic/pgf/systemlayer
+@dirrmtry share/texmf-dist/tex/generic/pgf/rendering
 @dirrmtry share/texmf-dist/tex/generic/pgf/modules
 @dirrmtry share/texmf-dist/tex/generic/pgf/math
+@dirrmtry share/texmf-dist/tex/generic/pgf/libraries/shapes/circuits
+@dirrmtry share/texmf-dist/tex/generic/pgf/libraries/shapes
+@dirrmtry share/texmf-dist/tex/generic/pgf/libraries/decorations
+@dirrmtry share/texmf-dist/tex/generic/pgf/libraries/datavisualization
 @dirrmtry share/texmf-dist/tex/generic/pgf/libraries
+@dirrmtry share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/graphs
+@dirrmtry share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/datavisualization
+@dirrmtry share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/circuits
 @dirrmtry share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
 @dirrmtry share/texmf-dist/tex/generic/pgf/frontendlayer/tikz
+@dirrmtry share/texmf-dist/tex/generic/pgf/frontendlayer/svg
 @dirrmtry share/texmf-dist/tex/generic/pgf/basiclayer
-@dirrmtry share/texmf-dist/tex/context/pgf/utilities
-@dirrmtry share/texmf-dist/tex/context/pgf/systemlayer
-@dirrmtry share/texmf-dist/tex/context/pgf/math
-@dirrmtry share/texmf-dist/tex/context/pgf/frontendlayer
-@dirrmtry share/texmf-dist/tex/context/pgf/basiclayer
-@dirrmtry share/texmf-dist/doc/generic/pgf/version-for-vtex/en/plots
+@dirrmtry share/texmf-dist/tex/context/third/pgf/utilities
+@dirrmtry share/texmf-dist/tex/context/third/pgf/systemlayer
+@dirrmtry share/texmf-dist/tex/context/third/pgf/math
+@dirrmtry share/texmf-dist/tex/context/third/pgf/frontendlayer
+@dirrmtry share/texmf-dist/tex/context/third/pgf/basiclayer
+@dirrmtry share/texmf-dist/source/latex/pgf/testsuite/mathtest
+@dirrmtry share/texmf-dist/source/latex/pgf/testsuite/external
+@dirrmtry share/texmf-dist/source/latex/pgf/incoming/KarlheinzOchs
+@dirrmtry share/texmf-dist/source/latex/pgf/incoming/GrzegorzMurzynowski
+@dirrmtry share/texmf-dist/doc/latex/pgf
+@dirrmtry share/texmf-dist/doc/generic/pgf/version-for-xetex/en
+@dirrmtry share/texmf-dist/doc/generic/pgf/version-for-xetex
 @dirrmtry share/texmf-dist/doc/generic/pgf/version-for-vtex/en
 @dirrmtry share/texmf-dist/doc/generic/pgf/version-for-vtex
 @dirrmtry share/texmf-dist/doc/generic/pgf/version-for-tex4ht/en
@@ -359,6 +482,8 @@ share/texmf-dist/tex/plain/pgf/utilities/pgfrcs.tex
 @dirrmtry share/texmf-dist/doc/generic/pgf/version-for-pdftex
 @dirrmtry share/texmf-dist/doc/generic/pgf/version-for-dvips/en
 @dirrmtry share/texmf-dist/doc/generic/pgf/version-for-dvips
+@dirrmtry share/texmf-dist/doc/generic/pgf/version-for-dvipdfmx/en
+@dirrmtry share/texmf-dist/doc/generic/pgf/version-for-dvipdfmx
 @dirrmtry share/texmf-dist/doc/generic/pgf/version-for-dvipdfm/en
 @dirrmtry share/texmf-dist/doc/generic/pgf/version-for-dvipdfm
 @dirrmtry share/texmf-dist/doc/generic/pgf/text-en/plots
