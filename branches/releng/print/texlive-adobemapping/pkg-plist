@@ -216,6 +216,9 @@ share/texmf-dist/fonts/cmap/adobemapping/ak12/CMap/UniKS-UTF32-V
 share/texmf-dist/fonts/cmap/adobemapping/ak12/CMap/UniKS-UTF8-H
 share/texmf-dist/fonts/cmap/adobemapping/ak12/CMap/UniKS-UTF8-V
 share/texmf-dist/fonts/cmap/adobemapping/ak12/cid2code.txt
+share/texmf-dist/fonts/cmap/adobemapping/cmap-current-versions.txt
+share/texmf-dist/fonts/cmap/adobemapping/cmap-readme.txt
+share/texmf-dist/fonts/cmap/adobemapping/mapping-readme.txt
 @dirrmtry share/texmf-dist/fonts/cmap/adobemapping/ak12/CMap
 @dirrmtry share/texmf-dist/fonts/cmap/adobemapping/ak12
 @dirrmtry share/texmf-dist/fonts/cmap/adobemapping/aj16/CMap
