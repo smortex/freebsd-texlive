@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	musixlyr
-PORTVERSION=	20100922
+PORTVERSION=	20101101
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	MusiXTeX Extension Package for Lyrics Handling.
+COMMENT=	The musixlyr package
 
 NOPORTSRC=	yes
 
