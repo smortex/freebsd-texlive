@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-music
-PORTVERSION=	20100922
+PORTVERSION=	20101103
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -19,8 +19,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/abc/abc.sty:${PORTSDIR}/pri
 		${LOCALBASE}/share/texmf-dist/tex/latex/guitar/guitar.sty:${PORTSDIR}/print/texlive-guitar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/harmony/harmony.sty:${PORTSDIR}/print/texlive-harmony \
 		${LOCALBASE}/share/texmf-dist/tex/generic/musictex/musictex.tex:${PORTSDIR}/print/texlive-musictex \
-		${LOCALBASE}/share/texmf-dist/tex/generic/musixlyr/musixlyr.tex:${PORTSDIR}/print/texlive-musixlyr \
-		${LOCALBASE}/share/texmf-dist/tex/generic/musixps/musixps.tex:${PORTSDIR}/print/texlive-musixps \
 		${LOCALBASE}/share/texmf-dist/tex/generic/musixtex/musixtex.sty:${PORTSDIR}/print/texlive-musixtex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/songbook/songbook.sty:${PORTSDIR}/print/texlive-songbook \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
@@ -68,7 +66,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/abc/abc.sty:${PORTSDIR}/pri
 		${LOCALBASE}/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty:${PORTSDIR}/print/texlive-ifxetex \
 		${LOCALBASE}/share/texmf/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
 		${LOCALBASE}/share/texmf-dist/scripts/lua-alt-getopt/alt_getopt.lua:${PORTSDIR}/print/texlive-lua-alt-getopt \
-		${LOCALBASE}/share/texmf/tex/generic/config/luatexiniconfig.tex:${PORTSDIR}/print/texlive-luatex \
+		${LOCALBASE}/share/texmf/tex/generic/config/luatex-unicode-letters.tex:${PORTSDIR}/print/texlive-luatex \
 		${LOCALBASE}/share/texmf-dist/makeindex/base/din.ist:${PORTSDIR}/print/texlive-makeindex \
 		${LOCALBASE}/share/texmf-dist/metafont/base/expr.mf:${PORTSDIR}/print/texlive-metafont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mflogo/mflogo.sty:${PORTSDIR}/print/texlive-mflogo \
