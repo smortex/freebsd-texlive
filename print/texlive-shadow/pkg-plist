@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/shadow/shadow-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/shadow/shadow-doc.tex
+share/texmf-dist/tex/latex/shadow/shadow.sty
+@dirrmtry share/texmf-dist/tex/latex/shadow
+@dirrmtry share/texmf-dist/doc/latex/shadow
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

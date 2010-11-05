@@ -1,3 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/addons/curly.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/addons/musixcrd/doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/addons/musixcrd/musixcrd.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/addons/musixcrd/readme
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/addons/tuplet.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/addons/underbracket.sty
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/8bitchar.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/adagio.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/albinoni.tex
@@ -80,7 +86,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixdoc.sty
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixdoc.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixlyr/README.musixlyr
-%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixlyr/README.underbracket
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixlyr/examples/nonmoriar.dvi
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixlyr/examples/nonmoriar.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixlyr/examples/nonmoriar.tex
@@ -331,7 +336,12 @@ share/texmf-dist/fonts/type1/public/musixtex/xslup20.pfb
 share/texmf-dist/fonts/type1/public/musixtex/xslz20.pfb
 share/texmf-dist/fonts/type1/public/musixtex/xslz20d.pfb
 share/texmf-dist/fonts/type1/public/musixtex/xtie20.pfb
-share/texmf-dist/tex/generic/musixtex/curly.tex
+%%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/doc.tex
+%%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/makefile
+%%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/musixcrd.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/musixcrd.sty
+%%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/readme
+%%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/strip.tex
 share/texmf-dist/tex/generic/musixtex/musixadd.tex
 share/texmf-dist/tex/generic/musixtex/musixbar.tex
 share/texmf-dist/tex/generic/musixtex/musixbbm.tex
@@ -373,9 +383,8 @@ share/texmf-dist/tex/generic/musixtex/musixtex.sty
 share/texmf-dist/tex/generic/musixtex/musixtex.tex
 share/texmf-dist/tex/generic/musixtex/musixtmr.tex
 share/texmf-dist/tex/generic/musixtex/musixtri.tex
-share/texmf-dist/tex/generic/musixtex/tuplet.tex
-share/texmf-dist/tex/generic/musixtex/underbracket.sty
 @dirrmtry share/texmf-dist/tex/generic/musixtex
+@dirrmtry share/texmf-dist/source/generic/musixtex/musixcrd
 @dirrmtry share/texmf-dist/fonts/type1/public/musixtex
 @dirrmtry share/texmf-dist/fonts/tfm/public/musixtex
 @dirrmtry share/texmf-dist/fonts/source/public/musixtex
@@ -386,6 +395,8 @@ share/texmf-dist/tex/generic/musixtex/underbracket.sty
 @dirrmtry share/texmf-dist/doc/generic/musixtex/musixlyr/examples
 @dirrmtry share/texmf-dist/doc/generic/musixtex/musixlyr
 @dirrmtry share/texmf-dist/doc/generic/musixtex/examples
+@dirrmtry share/texmf-dist/doc/generic/musixtex/addons/musixcrd
+@dirrmtry share/texmf-dist/doc/generic/musixtex/addons
 @dirrmtry share/texmf-dist/doc/generic/musixtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

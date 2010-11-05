@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20101026
+PORTVERSION=	20101105
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -684,6 +684,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/sfheaders/sfheaders.sty:${PORTSDIR}/print/texlive-sfheaders \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sfmath/sfmath.sty:${PORTSDIR}/print/texlive-sfmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/shadbox/shadbox.sty:${PORTSDIR}/print/texlive-shadbox \
+		${LOCALBASE}/share/texmf-dist/tex/latex/shadow/shadow.sty:${PORTSDIR}/print/texlive-shadow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/shadethm/shadethm.sty:${PORTSDIR}/print/texlive-shadethm \
 		${LOCALBASE}/share/texmf-dist/tex/generic/shapepar/shapepar.sty:${PORTSDIR}/print/texlive-shapepar \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/shipunov/rusnat.bst:${PORTSDIR}/print/texlive-shipunov \
@@ -707,6 +708,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/snapshot/snapshot.sty:${PORTSDIR}/print/texlive-snapshot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/soul/soul.sty:${PORTSDIR}/print/texlive-soul \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sparklines/sparklines.sty:${PORTSDIR}/print/texlive-sparklines \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sphack/sphack.sty:${PORTSDIR}/print/texlive-sphack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spreadtab/spreadtab.sty:${PORTSDIR}/print/texlive-spreadtab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spverbatim/spverbatim.sty:${PORTSDIR}/print/texlive-spverbatim \
 		${LOCALBASE}/share/texmf-dist/tex/latex/splitindex/splitindex.tex:${PORTSDIR}/print/texlive-splitindex \
@@ -728,6 +730,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/subdepth/subdepth.sty:${PORTSDIR}/print/texlive-subdepth \
 		${LOCALBASE}/share/texmf-dist/tex/latex/subeqn/subeqn.sty:${PORTSDIR}/print/texlive-subeqn \
 		${LOCALBASE}/share/texmf-dist/tex/latex/subeqnarray/subeqnarray.sty:${PORTSDIR}/print/texlive-subeqnarray \
+		${LOCALBASE}/share/texmf-dist/tex/latex/subfigmat/subfigmat.sty:${PORTSDIR}/print/texlive-subfigmat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/subfigure/subfigure.sty:${PORTSDIR}/print/texlive-subfigure \
 		${LOCALBASE}/share/texmf-dist/tex/latex/subfloat/subfloat.sty:${PORTSDIR}/print/texlive-subfloat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/substr/substr.sty:${PORTSDIR}/print/texlive-substr \

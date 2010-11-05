@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/statex/statex-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/statex/statex-example.tex
+share/texmf-dist/tex/latex/statex/statex.sty
+@dirrmtry share/texmf-dist/tex/latex/statex
+@dirrmtry share/texmf-dist/doc/latex/statex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

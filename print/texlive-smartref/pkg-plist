@@ -1,4 +1,6 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/smartref/readme.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/smartref/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/smartref/smartref-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/smartref/smartref-doc.tex
 share/texmf-dist/tex/latex/smartref/byname.sty
 share/texmf-dist/tex/latex/smartref/smartref.sty
 @dirrmtry share/texmf-dist/tex/latex/smartref

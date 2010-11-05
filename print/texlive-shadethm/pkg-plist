@@ -1,4 +1,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/shadethm/1st_read.me
+%%PORTDOCS%%share/texmf-dist/doc/latex/shadethm/shadetest.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/shadethm/shadetest.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/shadethm/shadethm-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/shadethm/shadethm-doc.tex
 share/texmf-dist/tex/latex/shadethm/colored.sth
 share/texmf-dist/tex/latex/shadethm/shadein.sth
 share/texmf-dist/tex/latex/shadethm/shadethm.sty

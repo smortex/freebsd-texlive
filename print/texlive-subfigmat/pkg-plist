@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/subfigmat/subfigmat-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/subfigmat/subfigmat-doc.tex
+share/texmf-dist/tex/latex/subfigmat/subfigmat.sty
+@dirrmtry share/texmf-dist/tex/latex/subfigmat
+@dirrmtry share/texmf-dist/doc/latex/subfigmat
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
