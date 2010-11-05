@@ -1,0 +1,27 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/CV_PubList_Kohlhase.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/DCMpersons.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/Makefile.template
+%%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/cvpubsmiko.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/dfgproposal.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/finalreport.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/finalreport.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/funds.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/mittel.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/preconditions.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/progressreport.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/progresssummary.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/proposal.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/proposal.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/state.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/workplan.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/zusammenfassung.tex
+%%PORTSRC%%share/texmf-dist/source/latex/dfgproposal/dfgproposal.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/dfgproposal/dfgproposal.ins
+share/texmf-dist/tex/latex/dfgproposal/dfgproposal.cls
+@dirrmtry share/texmf-dist/tex/latex/dfgproposal
+@dirrmtry share/texmf-dist/source/latex/dfgproposal
+@dirrmtry share/texmf-dist/doc/latex/dfgproposal
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

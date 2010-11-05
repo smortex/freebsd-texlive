@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	musixtex
-PORTVERSION=	20101101
+PORTVERSION=	20101105
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Sophisticated music typesetting
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

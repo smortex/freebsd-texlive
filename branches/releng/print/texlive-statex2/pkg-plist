@@ -1,4 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/statex2/statex2-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/statex2/statex2-example.tex
 share/texmf-dist/tex/latex/statex2/statex2.sty
 @dirrmtry share/texmf-dist/tex/latex/statex2
+@dirrmtry share/texmf-dist/doc/latex/statex2
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

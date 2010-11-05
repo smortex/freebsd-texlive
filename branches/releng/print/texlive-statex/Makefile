@@ -1,11 +1,11 @@
-# New ports collection makefile for:	texlive-statex2
-# Date created:		13/03/2010 04:54:49
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-statex
+# Date created:		11/05/2010 05:03:52
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	statex2
+PORTNAME=	statex
 PORTVERSION=	20101105
 CATEGORIES=	print
 
