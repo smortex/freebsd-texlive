@@ -1,4 +1,7 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/picinpar/picinpar.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/picinpar/picinpar-de.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/picinpar/picinpar-de.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/picinpar/picinpar-en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/picinpar/picinpar-en.tex
 share/texmf-dist/tex/latex/picinpar/picinpar.sty
 @dirrmtry share/texmf-dist/tex/latex/picinpar
 @dirrmtry share/texmf-dist/doc/latex/picinpar

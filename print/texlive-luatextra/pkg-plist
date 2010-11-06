@@ -1,9 +1,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatextra/News
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatextra/README
-%%PORTDOCS%%share/texmf-dist/doc/luatex/luatextra/luatextra-reference.pdf
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatextra/luatextra.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatextra/test.tex
 %%PORTSRC%%share/texmf-dist/source/luatex/luatextra/Makefile
-%%PORTSRC%%share/texmf-dist/source/luatex/luatextra/luatextra-reference.tex
 %%PORTSRC%%share/texmf-dist/source/luatex/luatextra/luatextra.dtx
 share/texmf-dist/tex/luatex/luatextra/luatextra-latex.tex
 share/texmf-dist/tex/luatex/luatextra/luatextra.lua

@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/showtags/showtags-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/showtags/showtags-doc.tex
+share/texmf-dist/tex/latex/showtags/showtags.sty
+@dirrmtry share/texmf-dist/tex/latex/showtags
+@dirrmtry share/texmf-dist/doc/latex/showtags
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
