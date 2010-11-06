@@ -11,6 +11,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/luatexbase.pdf
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-attr-latex.tex
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-attr-plain.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-base-latex.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-base-plain.tex
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-cctb-latex.tex
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-cctb-plain.tex
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-compat-latex.tex

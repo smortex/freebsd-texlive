@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-luatexbase
-# Date created:		09/21/2010 11:53:50
+# New ports collection makefile for:	texlive-showtags
+# Date created:		11/06/2010 04:38:07
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	luatexbase
+PORTNAME=	showtags
 PORTVERSION=	20101106
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Basic resource management for LuaTeX code.
+COMMENT=	Print the tags of bibliography entries.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

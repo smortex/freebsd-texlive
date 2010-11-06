@@ -2,6 +2,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/luainputenc/README
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/luainputenc/inputenc.sty.diff
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/luainputenc/luainputenc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luainputenc/test.tex
 %%PORTSRC%%share/texmf-dist/source/lualatex/luainputenc/Makefile
 %%PORTSRC%%share/texmf-dist/source/lualatex/luainputenc/luainputenc.dtx
 share/texmf-dist/tex/lualatex/luainputenc/luainputenc.lua
