@@ -5,14 +5,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/README.TEXLIVE
 %%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/cvpubsmiko.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/dfgproposal.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/finalreport.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/finalreport.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/funds.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/mittel.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/preconditions.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/progressreport.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/progresssummary.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/proposal.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/proposal.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/state.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/dfgproposal/workplan.tex

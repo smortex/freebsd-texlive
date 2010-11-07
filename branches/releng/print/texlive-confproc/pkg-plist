@@ -31,7 +31,6 @@ share/texmf-dist/bibtex/bst/confproc/newapave.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/confproc/example/exclasslastel.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/confproc/example/exclasslastpb.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/confproc/example/exclasspre.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/confproc/example/expapersswitch.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/confproc/example/exportIndividualPDFs.sh
 %%PORTDOCS%%share/texmf-dist/doc/latex/confproc/example/exprogram.csv
 %%PORTDOCS%%share/texmf-dist/doc/latex/confproc/example/exsessions.tex
@@ -40,7 +39,6 @@ share/texmf-dist/bibtex/bst/confproc/newapave.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/confproc/example/newapave.sty
 %%PORTDOCS%%share/texmf-dist/doc/latex/confproc/example/papers/IEEEtran.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/confproc/example/papers/dafx_06.sty
-%%PORTDOCS%%share/texmf-dist/doc/latex/confproc/example/papers/expages.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/confproc/example/papers/p_001.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/confproc/example/papers/p_003.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/confproc/example/papers/p_005.pdf
