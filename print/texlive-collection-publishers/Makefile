@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20101105
+PORTVERSION=	20101108
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -35,7 +35,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebsthesis/ebsthesis.cls:${PORTSDIR}/print/texlive-ebsthesis \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/economic/aer.bst:${PORTSDIR}/print/texlive-economic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/elbioimp/elbioimp.cls:${PORTSDIR}/print/texlive-elbioimp \
-		${LOCALBASE}/share/texmf-dist/tex/latex/elsevier/elsart.cls:${PORTSDIR}/print/texlive-elsevier \
+		${LOCALBASE}/share/texmf-dist/tex/latex/elsarticle/elsarticle.cls:${PORTSDIR}/print/texlive-elsarticle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/elteikthesis/elteikthesis.cls:${PORTSDIR}/print/texlive-elteikthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/erdc/erdc.cls:${PORTSDIR}/print/texlive-erdc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/estcpmm/estcpmm.cls:${PORTSDIR}/print/texlive-estcpmm \

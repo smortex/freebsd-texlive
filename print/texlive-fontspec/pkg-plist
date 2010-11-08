@@ -4,9 +4,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/fontspec/fontspec.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/fontspec/Makefile
 %%PORTSRC%%share/texmf-dist/source/latex/fontspec/fontspec.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/F-emph-01.ltx
-%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/F-test-prog-01.ltx
-%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/F001a.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/F001a-basic-loading.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/F001b-emph.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/F002a.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/F003a.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/F003b.ltx
@@ -19,6 +18,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/F100c.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/F100d.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/F100e.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/F200a-test-prog.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/testsuite-listing.tex
 %%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/testsuite.cls
 share/texmf-dist/tex/latex/fontspec/fontspec-patches.sty

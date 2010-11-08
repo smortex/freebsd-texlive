@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20101106
+PORTVERSION=	20101108
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -305,7 +305,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/ellipsis/ellipsis.sty:${PORTSDIR}/print/texlive-ellipsis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/elmath/elmath.sty:${PORTSDIR}/print/texlive-elmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/elpres/elpres.cls:${PORTSDIR}/print/texlive-elpres \
-		${LOCALBASE}/share/texmf-dist/tex/latex/elsarticle/elsarticle.cls:${PORTSDIR}/print/texlive-elsarticle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/em/em.sty:${PORTSDIR}/print/texlive-em \
 		${LOCALBASE}/share/texmf-dist/tex/latex/emptypage/emptypage.sty:${PORTSDIR}/print/texlive-emptypage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/emulateapj/emulateapj.cls:${PORTSDIR}/print/texlive-emulateapj \
