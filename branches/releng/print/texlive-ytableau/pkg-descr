@@ -1,0 +1,4 @@
+The package provides several functions for drawing Young
+tableaux and Young diagrams, extending the young and youngtab
+packages but providing lots more features. Skew and coloured
+tableaux are easy, and keyval-syntax configuration is provided.

@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ytableau/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ytableau/ytableau.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/ytableau/ytableau.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ytableau/ytableau.ins
+share/texmf-dist/tex/latex/ytableau/ytableau.sty
+@dirrmtry share/texmf-dist/tex/latex/ytableau
+@dirrmtry share/texmf-dist/source/latex/ytableau
+@dirrmtry share/texmf-dist/doc/latex/ytableau
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

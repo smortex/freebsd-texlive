@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-mathextra
-PORTVERSION=	20101105
+PORTVERSION=	20101108
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -54,6 +54,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/12many/12many.sty:${PORTSDI
 		${LOCALBASE}/share/texmf-dist/tex/latex/unicode-math/unicode-math.sty:${PORTSDIR}/print/texlive-unicode-math \
 		${LOCALBASE}/share/texmf-dist/metapost/venn/venn.mp:${PORTSDIR}/print/texlive-venn \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yhmath/yhmath.sty:${PORTSDIR}/print/texlive-yhmath \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ytableau/ytableau.sty:${PORTSDIR}/print/texlive-ytableau \
 		${LOCALBASE}/share/texmf-dist/dvips/avantgar/config.uag:${PORTSDIR}/print/texlive-avantgar \
 		${LOCALBASE}/share/texmf-dist/dvips/bookman/config.ubk:${PORTSDIR}/print/texlive-bookman \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/bitstrea/charter/bchb8a.afm:${PORTSDIR}/print/texlive-charter \

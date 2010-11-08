@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20101106
+PORTVERSION=	20101108
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -46,7 +46,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/aichej/aichej.bst:${PORTSD
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/din1505/abbrvdin.bst:${PORTSDIR}/print/texlive-din1505 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dk-bib/dk-bib.sty:${PORTSDIR}/print/texlive-dk-bib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/doipubmed/doipubmed.sty:${PORTSDIR}/print/texlive-doipubmed \
-		${LOCALBASE}/share/texmf-dist/bibtex/bst/elsevier-bib/elsart-harv.bst:${PORTSDIR}/print/texlive-elsevier-bib \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/fbs/fbs.bst:${PORTSDIR}/print/texlive-fbs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/figbib/figbib.sty:${PORTSDIR}/print/texlive-figbib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/footbib/footbib.sty:${PORTSDIR}/print/texlive-footbib \
