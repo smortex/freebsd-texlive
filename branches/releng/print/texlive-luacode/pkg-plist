@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luacode/News
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luacode/README
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luacode/luacode.pdf
+%%PORTSRC%%share/texmf-dist/source/lualatex/luacode/Makefile
+%%PORTSRC%%share/texmf-dist/source/lualatex/luacode/luacode.dtx
+share/texmf-dist/tex/lualatex/luacode/luacode.sty
+@dirrmtry share/texmf-dist/tex/lualatex/luacode
+@dirrmtry share/texmf-dist/source/lualatex/luacode
+@dirrmtry share/texmf-dist/doc/lualatex/luacode
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
