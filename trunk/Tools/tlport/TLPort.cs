@@ -23,6 +23,7 @@
 // POSSIBILITY OF SUCH DAMAGE.
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 // This program will build all ports for TeXLive except print/texlive-core
 // which is provided in the freebsd-texlive Subversion repository.
@@ -118,7 +119,49 @@ namespace TeXLive
 						Console.Error.WriteLine("{0}: not eligible for building a port.", pkg.Name);
 				}
 			}
+						
+			// Detect deprecated packages
+			if (Verbosity > 0)
+				Console.Error.WriteLine ("===> Looking for deleted packages");
+			
+			foreach (string path in System.IO.Directory.GetDirectories (System.IO.Path.Combine (packages.PortsDir, "print"))) {
+				string s = System.IO.Path.GetFileName (path);
+				if (s.StartsWith ("texlive-")) {
+					if (!packages.ContainsKey (s.Substring (8))) {
+						DeletePort (packages.PortsDir, System.IO.Path.Combine ("print", s));
+					}
+				}
+			}
+			
 			return 0;
+		}
+
+		/// <summary>
+		/// Remove the ports from the repository
+		/// </summary>
+		static private void DeletePort (string PortsDir, string PortName)
+		{
+			// Add a line to the MOVED file
+			string mf = System.IO.Path.Combine (PortsDir, "MOVED");
+			
+			System.IO.StreamWriter m = new System.IO.StreamWriter (mf, true);
+			m.WriteLine (string.Format ("{0}||{1:yyyy}-{1:MM}-{1:dd}|Upstream support dropped", PortName,
+			                            DateTime.UtcNow));
+			m.Close();
+			
+			// Remove the port from the repository
+			Process p = new Process ();
+			ProcessStartInfo psi = new ProcessStartInfo ("svn", string.Format ("delete --force {0}", System.IO.Path.Combine (PortsDir, PortName)));
+			if (TLPort.Verbosity < 2) {
+				psi.RedirectStandardOutput = true;
+				psi.UseShellExecute = false;
+			} else {
+				psi.UseShellExecute = true;
+			}
+			p.StartInfo = psi;
+			p.Start();
+			p.WaitForExit();
+			p.Dispose ();
 		}
 	}
 }

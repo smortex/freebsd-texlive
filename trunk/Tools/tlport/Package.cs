@@ -138,13 +138,7 @@ namespace TeXLive
 			
 			// Makefile may need to be updated before generating distinfo
 			CreateMakefile ();
-			
-			// Update distinfo
-			if (!CreateDistinfo ()) {
-				// Should never fail (we already have distfiles): the port was removed!
-				DeletePort ();
-				return;
-			}
+			CreateDistinfo ();
 			
 			if (LocalyModified) {
 				CreatePkgPlist ();
@@ -288,11 +282,17 @@ namespace TeXLive
 			bool result;
 			Process p = new Process();
 			ProcessStartInfo psi = new ProcessStartInfo("make", "makesum FETCH_CMD=false");
-			p.StartInfo = psi;
-			psi.UseShellExecute = true;
+			if (TLPort.Verbosity < 2) {
+				psi.RedirectStandardOutput = true;
+				psi.RedirectStandardError = true;
+				psi.UseShellExecute = false;
+			} else {
+				psi.UseShellExecute = true;
+			}
 			psi.WorkingDirectory = PortDirectory;
-			p.Start();
-			p.WaitForExit();
+			p.StartInfo = psi;
+			p.Start ();
+			p.WaitForExit ();
 			result = p.ExitCode == 0;
 			p.Dispose ();
 			return result;
@@ -313,31 +313,6 @@ namespace TeXLive
 				psi.UseShellExecute = true;
 			}
 			psi.WorkingDirectory = PortDirectory;
-			p.StartInfo = psi;
-			p.Start ();
-			p.WaitForExit ();
-			p.Dispose ();
-		}
-		
-		/// <summary>
-		/// Remove the ports from the repository
-		/// </summary>
-		private void DeletePort ()
-		{
-			// Add a line to the MOVED file
-			string mf = System.IO.Path.Combine (PortDirectory,
-			              System.IO.Path.Combine ("..",
-			                System.IO.Path.Combine ("..", "MOVED")));
-			
-			System.IO.StreamWriter m = new System.IO.StreamWriter (mf, true);
-			m.WriteLine (string.Format ("print/texlive-{0}||{1:yyyy}-{1:MM}-{1:dd}|Upstream support dropped", Name,
-			                            DateTime.UtcNow));
-			m.Close();
-			
-			// Remove the port from the repository
-			Process p = new Process ();
-			ProcessStartInfo psi = new ProcessStartInfo ("svn", string.Format ("delete --force {0}", PortDirectory));
-			psi.UseShellExecute = true;
 			p.StartInfo = psi;
 			p.Start ();
 			p.WaitForExit ();
