@@ -1,9 +1,0 @@
-The package was designed as an extension of the lastpage
-package -- as well as that package's LastPage label (created
-\AtEndDocument) it adds a VeryLastPage (created
-\AfterLastShipout). When more than one page numbering scheme is
-in operation (as in a book class document with frontmatter),
-the labels above do not give the total number of pages, so the
-package also provides labels pagesLTS.<numbering scheme>, where
-the numbering scheme is arabic, roman, etc. The package relies
-on the undolabl package.

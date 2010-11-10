@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20101003
+PORTVERSION=	20101110
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -75,7 +75,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/tex/latex/epsdice/epsdice.sty:${PORTSDIR}/print/texlive-epsdice \
 		${LOCALBASE}/share/texmf-dist/tex/latex/esvect/esvect.sty:${PORTSDIR}/print/texlive-esvect \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eulervm/eulervm.sty:${PORTSDIR}/print/texlive-eulervm \
-		${LOCALBASE}/share/texmf-dist/fonts/source/public/euxm/euxm10.mf:${PORTSDIR}/print/texlive-euxm \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/euxm/eubase.mf:${PORTSDIR}/print/texlive-euxm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/feyn/feyn.sty:${PORTSDIR}/print/texlive-feyn \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fge/fge.sty:${PORTSDIR}/print/texlive-fge \
 		${LOCALBASE}/share/texmf-dist/tex/latex/foekfont/foekfont.sty:${PORTSDIR}/print/texlive-foekfont \
@@ -180,7 +180,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty:${PORTSDIR}/print/texlive-ifxetex \
 		${LOCALBASE}/share/texmf/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
 		${LOCALBASE}/share/texmf-dist/scripts/lua-alt-getopt/alt_getopt.lua:${PORTSDIR}/print/texlive-lua-alt-getopt \
-		${LOCALBASE}/share/texmf/tex/generic/config/luatexiniconfig.tex:${PORTSDIR}/print/texlive-luatex \
+		${LOCALBASE}/share/texmf/tex/generic/config/luatex-unicode-letters.tex:${PORTSDIR}/print/texlive-luatex \
 		${LOCALBASE}/share/texmf-dist/makeindex/base/din.ist:${PORTSDIR}/print/texlive-makeindex \
 		${LOCALBASE}/share/texmf-dist/metafont/base/expr.mf:${PORTSDIR}/print/texlive-metafont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mflogo/mflogo.sty:${PORTSDIR}/print/texlive-mflogo \

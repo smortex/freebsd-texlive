@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/sphack/sphack-doc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/sphack/sphack-doc.tex
-share/texmf-dist/tex/latex/sphack/sphack.sty
-@dirrmtry share/texmf-dist/tex/latex/sphack
-@dirrmtry share/texmf-dist/doc/latex/sphack
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

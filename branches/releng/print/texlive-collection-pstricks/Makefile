@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pstricks
-PORTVERSION=	20100922
+PORTVERSION=	20101110
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -105,7 +105,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/auto-pst-pdf/auto-pst-pdf.s
 		${LOCALBASE}/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty:${PORTSDIR}/print/texlive-ifxetex \
 		${LOCALBASE}/share/texmf/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
 		${LOCALBASE}/share/texmf-dist/scripts/lua-alt-getopt/alt_getopt.lua:${PORTSDIR}/print/texlive-lua-alt-getopt \
-		${LOCALBASE}/share/texmf/tex/generic/config/luatexiniconfig.tex:${PORTSDIR}/print/texlive-luatex \
+		${LOCALBASE}/share/texmf/tex/generic/config/luatex-unicode-letters.tex:${PORTSDIR}/print/texlive-luatex \
 		${LOCALBASE}/share/texmf-dist/makeindex/base/din.ist:${PORTSDIR}/print/texlive-makeindex \
 		${LOCALBASE}/share/texmf-dist/metafont/base/expr.mf:${PORTSDIR}/print/texlive-metafont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mflogo/mflogo.sty:${PORTSDIR}/print/texlive-mflogo \
@@ -124,6 +124,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/auto-pst-pdf/auto-pst-pdf.s
 		${LOCALBASE}/share/texmf-dist/tex/generic/genmisc/anti.tex:${PORTSDIR}/print/texlive-genmisc \
 		${LOCALBASE}/share/texmf-dist/tex/generic/kastrup/binhex.tex:${PORTSDIR}/print/texlive-kastrup \
 		${LOCALBASE}/share/texmf-dist/tex/generic/multido/multido.tex:${PORTSDIR}/print/texlive-multido \
+		${LOCALBASE}/share/texmf-dist/tex/generic/path/path.sty:${PORTSDIR}/print/texlive-path \
 		${LOCALBASE}/share/texmf-dist/dvips/tex-ps/crops.pro:${PORTSDIR}/print/texlive-tex-ps \
 		${LOCALBASE}/share/texmf-dist/tex/generic/ulem/ulem.sty:${PORTSDIR}/print/texlive-ulem
 
