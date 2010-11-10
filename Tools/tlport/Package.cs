@@ -75,19 +75,25 @@ namespace TeXLive
 		
 		/// <summary>
 		/// Modification status of the port in the FreeBSD TeXLive VCS local checkout.
+		/// The Makefile should just have it's version/date that changes.
 		/// </summary>
 		public bool LocalyModified {
 			get {
 				bool res;
 				Process p = new Process();
-				ProcessStartInfo psi = new ProcessStartInfo("svn", "diff distinfo");
+				ProcessStartInfo psi = new ProcessStartInfo("svn", "diff");
 				psi.WorkingDirectory = PortDirectory;
 				psi.RedirectStandardOutput = true;
 				psi.UseShellExecute = false;
 				p.StartInfo = psi;
 				p.Start();
-				res = ! string.IsNullOrEmpty (p.StandardOutput.ReadToEnd ());
-				p.WaitForExit();
+				int modifications = 0;
+				while (!p.StandardOutput.EndOfStream) {
+					string s = p.StandardOutput.ReadLine ();
+					if (s.StartsWith ("+") || s.StartsWith ("-"))
+						modifications++;
+				}
+				res = modifications > 4;
 				p.Dispose ();
 				return res;
 			}
