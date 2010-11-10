@@ -1,7 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/ltablex/ltablex.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/ltablex/ltablex.tex
-share/texmf-dist/tex/latex/ltablex/ltablex.sty
-@dirrmtry share/texmf-dist/tex/latex/ltablex
-@dirrmtry share/texmf-dist/doc/latex/ltablex
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

@@ -1,6 +1,0 @@
-The eCards package for LaTeX enables you to create a series of
-electronic (flash) cards. The document author provides
-questions, hints and answers to a series of questions. Users
-can test their knowledge by responding to the questions. The
-questions are delivered in random order. eCards makes use of
-the acroTeX bundle.
