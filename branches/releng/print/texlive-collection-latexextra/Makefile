@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20101108
+PORTVERSION=	20101111
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -193,7 +193,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/calctab/calctab.sty:${PORTSDIR}/print/texlive-calctab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/calrsfs/calrsfs.sty:${PORTSDIR}/print/texlive-calrsfs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cals/cals.sty:${PORTSDIR}/print/texlive-cals \
-		${LOCALBASE}/share/texmf-dist/tex/latex/calxxxx/calxxxx.tex:${PORTSDIR}/print/texlive-calxxxx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cancel/cancel.sty:${PORTSDIR}/print/texlive-cancel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/capt-of/capt-of.sty:${PORTSDIR}/print/texlive-capt-of \
 		${LOCALBASE}/share/texmf-dist/tex/latex/captcont/captcont.sty:${PORTSDIR}/print/texlive-captcont \
