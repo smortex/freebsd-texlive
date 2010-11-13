@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20101111
+PORTVERSION=	20101113
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -938,6 +938,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/gridset/gridset.sty:${PORTSDIR}/print/texlive-gridset \
 		${LOCALBASE}/share/texmf-dist/tex/latex/guitlogo/guit.cfg:${PORTSDIR}/print/texlive-guitlogo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hanging/hanging.sty:${PORTSDIR}/print/texlive-hanging \
+		${LOCALBASE}/share/texmf-dist/tex/latex/hardwrap/hardwrap.sty:${PORTSDIR}/print/texlive-hardwrap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/harpoon/harpoon.sty:${PORTSDIR}/print/texlive-harpoon \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/hc/hc-de.bst:${PORTSDIR}/print/texlive-hc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hhtensor/hhtensor.sty:${PORTSDIR}/print/texlive-hhtensor \

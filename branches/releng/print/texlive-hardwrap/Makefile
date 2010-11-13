@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-jamtimes
-# Date created:		09/21/2010 11:37:42
+# New ports collection makefile for:	texlive-hardwrap
+# Date created:		11/13/2010 04:53:33
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	jamtimes
+PORTNAME=	hardwrap
 PORTVERSION=	20101113
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Expanded Times Roman fonts.
+COMMENT=	Hard wrap text to a certain character length.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
