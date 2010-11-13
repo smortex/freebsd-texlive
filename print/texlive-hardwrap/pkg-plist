@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/hardwrap/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/hardwrap/hardwrap.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/hardwrap/hardwrap.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/hardwrap/hardwrap.ins
+share/texmf-dist/tex/latex/hardwrap/hardwrap.sty
+@dirrmtry share/texmf-dist/tex/latex/hardwrap
+@dirrmtry share/texmf-dist/source/latex/hardwrap
+@dirrmtry share/texmf-dist/doc/latex/hardwrap
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

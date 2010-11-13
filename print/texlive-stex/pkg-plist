@@ -1,6 +1,4 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/stex/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/stex/assignment/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/stex/assignment/assignment.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/stex/cmathml/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/stex/cmathml/cmathml.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/stex/cnx/README
@@ -31,12 +29,14 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/paper.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/paper.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/test/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/hwexam/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/hwexam/hwexam.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/metakeys/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/metakeys/metakeys.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/stex/mikoslides/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/stex/mikoslides/mikoslides.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/stex/modules/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/stex/modules/modules.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/stex/omd/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/stex/omd/omd.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/stex/omdoc/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/stex/omdoc/omdoc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/stex/omtext/README
@@ -62,7 +62,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/stex/statements/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/stex/statements/statements.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/stex/stex.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/stex/assignment/assignment.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/stex/bin/Makefile
 %%PORTSRC%%share/texmf-dist/source/latex/stex/bin/Modparse.pm
 %%PORTSRC%%share/texmf-dist/source/latex/stex/bin/README
@@ -73,6 +72,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/stex/bin/convert-paths
 %%PORTSRC%%share/texmf-dist/source/latex/stex/bin/filedate
 %%PORTSRC%%share/texmf-dist/source/latex/stex/bin/gen-symdef-table.pl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/grep-rerun
 %%PORTSRC%%share/texmf-dist/source/latex/stex/bin/idcheck
 %%PORTSRC%%share/texmf-dist/source/latex/stex/bin/msplit
 %%PORTSRC%%share/texmf-dist/source/latex/stex/bin/old/Makefile
@@ -85,13 +85,16 @@
 %%PORTSRC%%share/texmf-dist/source/latex/stex/bin/rng2dot/rng2dot
 %%PORTSRC%%share/texmf-dist/source/latex/stex/bin/sgraph
 %%PORTSRC%%share/texmf-dist/source/latex/stex/bin/sms
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/stexml
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/stexmlmod
 %%PORTSRC%%share/texmf-dist/source/latex/stex/bin/termin
 %%PORTSRC%%share/texmf-dist/source/latex/stex/cmathml/cmathml.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/stex/cnx/cnx.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/stex/dcm/dcm.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/hwexam/hwexam.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/metakeys/metakeys.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/stex/mikoslides/mikoslides.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/stex/modules/modules.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/stex/omd/omd.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/stex/omdoc/omdoc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/stex/omtext/omtext.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/stex/presentation/presentation.dtx
@@ -103,14 +106,16 @@
 %%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/ltxml2cnx.xsl
 %%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/omdocpost.xsl
 %%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/owl2post.xsl
-share/texmf-dist/tex/latex/stex/assignment/assignment.sty
-share/texmf-dist/tex/latex/stex/assignment/assignment.sty.ltxml
 share/texmf-dist/tex/latex/stex/cmathml/cmathml.sty
 share/texmf-dist/tex/latex/stex/cmathml/cmathml.sty.ltxml
 share/texmf-dist/tex/latex/stex/cnx/cnx.cls
 share/texmf-dist/tex/latex/stex/cnx/cnx.cls.ltxml
 share/texmf-dist/tex/latex/stex/dcm/dcm.sty
 share/texmf-dist/tex/latex/stex/dcm/dcm.sty.ltxml
+share/texmf-dist/tex/latex/stex/hwexam/hwexam.sty
+share/texmf-dist/tex/latex/stex/hwexam/hwexam.sty.ltxml
+share/texmf-dist/tex/latex/stex/metakeys/metakeys.sty
+share/texmf-dist/tex/latex/stex/metakeys/metakeys.sty.ltxml
 share/texmf-dist/tex/latex/stex/mikoslides/beamerthemeJacobs.sty
 share/texmf-dist/tex/latex/stex/mikoslides/cc-by-sa.eps
 share/texmf-dist/tex/latex/stex/mikoslides/cc-by-sa.png
@@ -128,8 +133,6 @@ share/texmf-dist/tex/latex/stex/mikoslides/shading-l2r.eps
 share/texmf-dist/tex/latex/stex/mikoslides/shading-l2r.png
 share/texmf-dist/tex/latex/stex/modules/modules.sty
 share/texmf-dist/tex/latex/stex/modules/modules.sty.ltxml
-share/texmf-dist/tex/latex/stex/omd/omd.sty
-share/texmf-dist/tex/latex/stex/omd/omd.sty.ltxml
 share/texmf-dist/tex/latex/stex/omdoc/omdoc.cls
 share/texmf-dist/tex/latex/stex/omdoc/omdoc.cls.ltxml
 share/texmf-dist/tex/latex/stex/omdoc/omdoc.sty
@@ -160,13 +163,13 @@ share/texmf-dist/tex/latex/stex/stex.sty.ltxml
 @dirrmtry share/texmf-dist/tex/latex/stex/presentation
 @dirrmtry share/texmf-dist/tex/latex/stex/omtext
 @dirrmtry share/texmf-dist/tex/latex/stex/omdoc
-@dirrmtry share/texmf-dist/tex/latex/stex/omd
 @dirrmtry share/texmf-dist/tex/latex/stex/modules
 @dirrmtry share/texmf-dist/tex/latex/stex/mikoslides
+@dirrmtry share/texmf-dist/tex/latex/stex/metakeys
+@dirrmtry share/texmf-dist/tex/latex/stex/hwexam
 @dirrmtry share/texmf-dist/tex/latex/stex/dcm
 @dirrmtry share/texmf-dist/tex/latex/stex/cnx
 @dirrmtry share/texmf-dist/tex/latex/stex/cmathml
-@dirrmtry share/texmf-dist/tex/latex/stex/assignment
 @dirrmtry share/texmf-dist/tex/latex/stex
 @dirrmtry share/texmf-dist/source/latex/stex/xsl
 @dirrmtry share/texmf-dist/source/latex/stex/statements
@@ -177,16 +180,16 @@ share/texmf-dist/tex/latex/stex/stex.sty.ltxml
 @dirrmtry share/texmf-dist/source/latex/stex/presentation
 @dirrmtry share/texmf-dist/source/latex/stex/omtext
 @dirrmtry share/texmf-dist/source/latex/stex/omdoc
-@dirrmtry share/texmf-dist/source/latex/stex/omd
 @dirrmtry share/texmf-dist/source/latex/stex/modules
 @dirrmtry share/texmf-dist/source/latex/stex/mikoslides
+@dirrmtry share/texmf-dist/source/latex/stex/metakeys
+@dirrmtry share/texmf-dist/source/latex/stex/hwexam
 @dirrmtry share/texmf-dist/source/latex/stex/dcm
 @dirrmtry share/texmf-dist/source/latex/stex/cnx
 @dirrmtry share/texmf-dist/source/latex/stex/cmathml
 @dirrmtry share/texmf-dist/source/latex/stex/bin/rng2dot
 @dirrmtry share/texmf-dist/source/latex/stex/bin/old
 @dirrmtry share/texmf-dist/source/latex/stex/bin
-@dirrmtry share/texmf-dist/source/latex/stex/assignment
 @dirrmtry share/texmf-dist/doc/latex/stex/statements
 @dirrmtry share/texmf-dist/doc/latex/stex/sref
 @dirrmtry share/texmf-dist/doc/latex/stex/sproof
@@ -195,9 +198,10 @@ share/texmf-dist/tex/latex/stex/stex.sty.ltxml
 @dirrmtry share/texmf-dist/doc/latex/stex/presentation
 @dirrmtry share/texmf-dist/doc/latex/stex/omtext
 @dirrmtry share/texmf-dist/doc/latex/stex/omdoc
-@dirrmtry share/texmf-dist/doc/latex/stex/omd
 @dirrmtry share/texmf-dist/doc/latex/stex/modules
 @dirrmtry share/texmf-dist/doc/latex/stex/mikoslides
+@dirrmtry share/texmf-dist/doc/latex/stex/metakeys
+@dirrmtry share/texmf-dist/doc/latex/stex/hwexam
 @dirrmtry share/texmf-dist/doc/latex/stex/example/test
 @dirrmtry share/texmf-dist/doc/latex/stex/example/paper
 @dirrmtry share/texmf-dist/doc/latex/stex/example/background
@@ -205,7 +209,6 @@ share/texmf-dist/tex/latex/stex/stex.sty.ltxml
 @dirrmtry share/texmf-dist/doc/latex/stex/dcm
 @dirrmtry share/texmf-dist/doc/latex/stex/cnx
 @dirrmtry share/texmf-dist/doc/latex/stex/cmathml
-@dirrmtry share/texmf-dist/doc/latex/stex/assignment
 @dirrmtry share/texmf-dist/doc/latex/stex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
