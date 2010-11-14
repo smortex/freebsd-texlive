@@ -53,6 +53,7 @@ share/tlpkg/TeXLive/TLWinGoo.pm
 share/tlpkg/TeXLive/TeXCatalogue.pm
 share/tlpkg/TeXLive/trans.pl
 share/tlpkg/TeXLive/waitVariableX.pm
+%%PORTDOCS%%share/tlpkg/installer/COPYING.MinGW-runtime.txt
 share/tlpkg/installer/config.guess
 @dirrmtry share/tlpkg/installer
 @dirrmtry share/tlpkg/TeXLive

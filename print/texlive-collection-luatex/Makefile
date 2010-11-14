@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-luatex
-PORTVERSION=	20101110
+PORTVERSION=	20101114
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -51,6 +51,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/luatex/lualibs/lualibs-aux.lua:${PORTSDIR}/print/texlive-lualibs \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luamplib/luamplib.sty:${PORTSDIR}/print/texlive-luamplib \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luaotfload/luaotfload.sty:${PORTSDIR}/print/texlive-luaotfload \
+		${LOCALBASE}/share/texmf-dist/tex/latex/luasseq/luasseq.sty:${PORTSDIR}/print/texlive-luasseq \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexbase/luatexbase.sty:${PORTSDIR}/print/texlive-luatexbase \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatextra/luatextra.sty:${PORTSDIR}/print/texlive-luatextra
 

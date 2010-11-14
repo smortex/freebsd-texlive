@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabu/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabu/tabu.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/tabu/tabu.drv
+%%PORTSRC%%share/texmf-dist/source/latex/tabu/tabu.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tabu/tabu.ins
+share/texmf-dist/tex/latex/tabu/tabu.sty
+@dirrmtry share/texmf-dist/tex/latex/tabu
+@dirrmtry share/texmf-dist/source/latex/tabu
+@dirrmtry share/texmf-dist/doc/latex/tabu
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

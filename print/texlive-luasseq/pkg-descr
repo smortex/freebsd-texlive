@@ -1,0 +1,3 @@
+The package is an update of the author's sseq package, for use
+with LuaLaTeX. This version uses less memory, and operates
+faster than the original; it also offers several enhancements.
