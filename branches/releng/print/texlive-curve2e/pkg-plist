@@ -1,8 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/curve2e/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/curve2e/curve2e.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/curve2e/manifest.txt
 %%PORTSRC%%share/texmf-dist/source/latex/curve2e/curve2e.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/curve2e/curve2e.ins
 share/texmf-dist/tex/latex/curve2e/curve2e.sty
 @dirrmtry share/texmf-dist/tex/latex/curve2e
 @dirrmtry share/texmf-dist/source/latex/curve2e

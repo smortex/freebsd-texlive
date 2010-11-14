@@ -1,7 +1,4 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/addons/curly.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/addons/musixcrd/doc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/addons/musixcrd/musixcrd.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/addons/musixcrd/readme
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/addons/tuplet.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/addons/underbracket.sty
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/8bitchar.tex
@@ -82,6 +79,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/widor.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/widor_16.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/widor_20.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixcrd/README.musixcrd
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixcrd/doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixdoc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixdoc.sty
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixdoc.tex
@@ -350,6 +349,7 @@ share/texmf-dist/tex/generic/musixtex/musixbm.tex
 share/texmf-dist/tex/generic/musixtex/musixcho.tex
 share/texmf-dist/tex/generic/musixtex/musixcpt.sty
 share/texmf-dist/tex/generic/musixtex/musixcpt.tex
+share/texmf-dist/tex/generic/musixtex/musixcrd.tex
 share/texmf-dist/tex/generic/musixtex/musixdat.tex
 share/texmf-dist/tex/generic/musixtex/musixdbr.tex
 share/texmf-dist/tex/generic/musixtex/musixdia.tex
@@ -394,8 +394,8 @@ share/texmf-dist/tex/generic/musixtex/musixtri.tex
 @dirrmtry share/texmf-dist/doc/generic/musixtex/psfonts
 @dirrmtry share/texmf-dist/doc/generic/musixtex/musixlyr/examples
 @dirrmtry share/texmf-dist/doc/generic/musixtex/musixlyr
+@dirrmtry share/texmf-dist/doc/generic/musixtex/musixcrd
 @dirrmtry share/texmf-dist/doc/generic/musixtex/examples
-@dirrmtry share/texmf-dist/doc/generic/musixtex/addons/musixcrd
 @dirrmtry share/texmf-dist/doc/generic/musixtex/addons
 @dirrmtry share/texmf-dist/doc/generic/musixtex
 @exec %D/bin/mktexlsr
