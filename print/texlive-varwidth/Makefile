@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	varwidth
-PORTVERSION=	20100922
+PORTVERSION=	20101115
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	A variable-width minipage.
 
-NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
