@@ -2,6 +2,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/Changes.dvips
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/Changes.generic
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/Changes.latex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/PSTricks.bib
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/ctandir.sty
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/images/flowers.eps
