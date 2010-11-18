@@ -1,10 +1,9 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/tapir/readme
-%%PORTDOCS%%share/texmf-dist/doc/latex/tapir/readme.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/tapir/readme
 share/texmf-dist/fonts/source/public/tapir/tap-enc.mf
 share/texmf-dist/fonts/source/public/tapir/tap.mf
 share/texmf-dist/fonts/type1/public/tapir/tap.pfb
 @dirrmtry share/texmf-dist/fonts/type1/public/tapir
 @dirrmtry share/texmf-dist/fonts/source/public/tapir
-@dirrmtry share/texmf-dist/doc/latex/tapir
+@dirrmtry share/texmf-dist/doc/fonts/tapir
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
