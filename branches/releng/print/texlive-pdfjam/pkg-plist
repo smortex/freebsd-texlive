@@ -1,9 +1,9 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/pdfjam/COPYING
-%%PORTDOCS%%share/texmf-dist/doc/latex/pdfjam/PDFjam-README.html
-%%PORTDOCS%%share/texmf-dist/doc/latex/pdfjam/VERSION
-%%PORTDOCS%%share/texmf-dist/doc/latex/pdfjam/pdfdroplets.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/pdfjam/pdfjam.conf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pdfjam/tests.zip
+%%PORTDOCS%%share/texmf-dist/doc/support/pdfjam/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/support/pdfjam/PDFjam-README.html
+%%PORTDOCS%%share/texmf-dist/doc/support/pdfjam/VERSION
+%%PORTDOCS%%share/texmf-dist/doc/support/pdfjam/pdfdroplets.png
+%%PORTDOCS%%share/texmf-dist/doc/support/pdfjam/pdfjam.conf
+%%PORTDOCS%%share/texmf-dist/doc/support/pdfjam/tests.zip
 share/texmf-dist/scripts/pdfjam/pdf180
 share/texmf-dist/scripts/pdfjam/pdf270
 share/texmf-dist/scripts/pdfjam/pdf90
@@ -42,6 +42,6 @@ share/texmf-dist/scripts/pdfjam/pdfpun
 %%PORTDOCS%%share/texmf/doc/man/man1/pdfpun.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf-dist/scripts/pdfjam
-@dirrmtry share/texmf-dist/doc/latex/pdfjam
+@dirrmtry share/texmf-dist/doc/support/pdfjam
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
