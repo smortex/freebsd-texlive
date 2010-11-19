@@ -21,8 +21,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-loader-plain.tex
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-loader.lua
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-loader.sub.lua
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-mcb-aux.tex
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-mcb-latex.tex
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-mcb-plain.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-mcb.lua
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-modutils-latex.tex
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-modutils-plain.tex
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexbase/test-modutils.lua

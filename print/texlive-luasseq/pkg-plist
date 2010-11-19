@@ -1,10 +1,11 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/luasseq/luasseq.lua
-%%PORTDOCS%%share/texmf-dist/doc/latex/luasseq/luasseq.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/luasseq/luasseq.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/luasseq/luasseq.ins
-share/texmf-dist/tex/latex/luasseq/luasseq.sty
-@dirrmtry share/texmf-dist/tex/latex/luasseq
-@dirrmtry share/texmf-dist/source/latex/luasseq
-@dirrmtry share/texmf-dist/doc/latex/luasseq
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luasseq/luasseq.pdf
+share/texmf-dist/scripts/luasseq/luasseq.lua
+%%PORTSRC%%share/texmf-dist/source/lualatex/luasseq/luasseq.dtx
+%%PORTSRC%%share/texmf-dist/source/lualatex/luasseq/luasseq.ins
+share/texmf-dist/tex/lualatex/luasseq/luasseq.sty
+@dirrmtry share/texmf-dist/tex/lualatex/luasseq
+@dirrmtry share/texmf-dist/source/lualatex/luasseq
+@dirrmtry share/texmf-dist/scripts/luasseq
+@dirrmtry share/texmf-dist/doc/lualatex/luasseq
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -1,14 +1,12 @@
-%%PORTDOCS%%share/texmf-dist/doc/luatex/luatextra/News
-%%PORTDOCS%%share/texmf-dist/doc/luatex/luatextra/README
-%%PORTDOCS%%share/texmf-dist/doc/luatex/luatextra/luatextra.pdf
-%%PORTDOCS%%share/texmf-dist/doc/luatex/luatextra/test.tex
-%%PORTSRC%%share/texmf-dist/source/luatex/luatextra/Makefile
-%%PORTSRC%%share/texmf-dist/source/luatex/luatextra/luatextra.dtx
-share/texmf-dist/tex/luatex/luatextra/luatextra-latex.tex
-share/texmf-dist/tex/luatex/luatextra/luatextra.lua
-share/texmf-dist/tex/luatex/luatextra/luatextra.sty
-@dirrmtry share/texmf-dist/tex/luatex/luatextra
-@dirrmtry share/texmf-dist/source/luatex/luatextra
-@dirrmtry share/texmf-dist/doc/luatex/luatextra
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luatextra/News
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luatextra/README
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luatextra/luatextra.pdf
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luatextra/test.tex
+%%PORTSRC%%share/texmf-dist/source/lualatex/luatextra/Makefile
+%%PORTSRC%%share/texmf-dist/source/lualatex/luatextra/luatextra.dtx
+share/texmf-dist/tex/lualatex/luatextra/luatextra.sty
+@dirrmtry share/texmf-dist/tex/lualatex/luatextra
+@dirrmtry share/texmf-dist/source/lualatex/luatextra
+@dirrmtry share/texmf-dist/doc/lualatex/luatextra
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
