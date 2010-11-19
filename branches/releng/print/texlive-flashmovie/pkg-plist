@@ -1,8 +1,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/flv-player-license/MPL-1.1
 %%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/flv-player-license/license.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/test-beamer.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/test-beamer.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/test-beamer-0.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/test-beamer-0.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/test-beamer-1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/test-flv.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/test-flv.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/flashmovie/test.tex
