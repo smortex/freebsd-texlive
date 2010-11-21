@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20101119
+PORTVERSION=	20101121
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -541,7 +541,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/germkorr/germkorr.sty:${PORTSDIR}/print/texlive-germkorr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kalender/kalender.sty:${PORTSDIR}/print/texlive-kalender \
 		${LOCALBASE}/share/texmf-dist/tex/latex/r_und_s/r_und_s.sty:${PORTSDIR}/print/texlive-r_und_s \
-		${LOCALBASE}/share/texmf-dist/tex/latex/uhrzeit/uhrzeit.sty:${PORTSDIR}/print/texlive-uhrzeit \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umlaute/umlaute.sty:${PORTSDIR}/print/texlive-umlaute \
 		${LOCALBASE}/share/texmf/tex/generic/hyphen/dehyphn.tex:${PORTSDIR}/print/texlive-hyphen-german \
 		${LOCALBASE}/share/texmf-dist/tex/latex/betababel/betababel.sty:${PORTSDIR}/print/texlive-betababel \
@@ -673,6 +672,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/achemso/achemso.cls:${PORTSDIR}/print/texlive-achemso \
 		${LOCALBASE}/share/texmf-dist/tex/latex/acromake/acromake.sty:${PORTSDIR}/print/texlive-acromake \
 		${LOCALBASE}/share/texmf-dist/tex/latex/acronym/acronym.sty:${PORTSDIR}/print/texlive-acronym \
+		${LOCALBASE}/share/texmf-dist/tex/latex/acroterm/acroterm.sty:${PORTSDIR}/print/texlive-acroterm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/addlines/addlines.sty:${PORTSDIR}/print/texlive-addlines \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/adrconv/adrbirthday.bst:${PORTSDIR}/print/texlive-adrconv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/adrlist/adrlist.sty:${PORTSDIR}/print/texlive-adrlist \
@@ -750,7 +750,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/chngcntr/chngcntr.sty:${PORTSDIR}/print/texlive-chngcntr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chronology/chronology.sty:${PORTSDIR}/print/texlive-chronology \
 		${LOCALBASE}/share/texmf-dist/tex/latex/circ/circ.sty:${PORTSDIR}/print/texlive-circ \
-		${LOCALBASE}/share/texmf-dist/tex/latex/cjw/cjw-env.cls:${PORTSDIR}/print/texlive-cjw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/clefval/clefval.sty:${PORTSDIR}/print/texlive-clefval \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cleveref/cleveref.sty:${PORTSDIR}/print/texlive-cleveref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/clock/clock.sty:${PORTSDIR}/print/texlive-clock \
@@ -787,7 +786,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/cuisine/cuisine.sty:${PORTSDIR}/print/texlive-cuisine \
 		${LOCALBASE}/share/texmf-dist/tex/latex/currfile/currfile.sty:${PORTSDIR}/print/texlive-currfile \
 		${LOCALBASE}/share/texmf-dist/tex/latex/currvita/currvita.sty:${PORTSDIR}/print/texlive-currvita \
-		${LOCALBASE}/share/texmf-dist/tex/latex/cursor/cursor.sty:${PORTSDIR}/print/texlive-cursor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cutwin/cutwin.sty:${PORTSDIR}/print/texlive-cutwin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cv/CV.sty:${PORTSDIR}/print/texlive-cv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cweb-latex/cwbl-german.sty:${PORTSDIR}/print/texlive-cweb-latex \
@@ -1020,7 +1018,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/manfnt/manfnt.sty:${PORTSDIR}/print/texlive-manfnt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/manuscript/manuscript.sty:${PORTSDIR}/print/texlive-manuscript \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mapcodes/mapcodes.sty:${PORTSDIR}/print/texlive-mapcodes \
-		${LOCALBASE}/share/texmf-dist/tex/latex/maple/mtn.cls:${PORTSDIR}/print/texlive-maple \
 		${LOCALBASE}/share/texmf-dist/tex/latex/marginfix/marginfix.sty:${PORTSDIR}/print/texlive-marginfix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/marginnote/marginnote.sty:${PORTSDIR}/print/texlive-marginnote \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathexam/mathexam.sty:${PORTSDIR}/print/texlive-mathexam \

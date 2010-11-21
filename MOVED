@@ -35,3 +35,7 @@ print/texlive-univers||2010-11-10|Upstream support dropped
 print/texlive-unroman||2010-11-10|Upstream support dropped
 print/texlive-vtex||2010-11-10|Upstream support dropped
 print/texlive-calxxxx||2010-11-11|Upstream support dropped
+print/texlive-cjw||2010-11-21|Upstream support dropped
+print/texlive-cursor||2010-11-21|Upstream support dropped
+print/texlive-maple||2010-11-21|Upstream support dropped
+print/texlive-uhrzeit||2010-11-21|Upstream support dropped
