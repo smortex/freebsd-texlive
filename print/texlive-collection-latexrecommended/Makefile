@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexrecommended
-PORTVERSION=	20101025
+PORTVERSION=	20101122
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -53,6 +53,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/anysize/anysize.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/sepnum/sepnum.sty:${PORTSDIR}/print/texlive-sepnum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/setspace/setspace.sty:${PORTSDIR}/print/texlive-setspace \
 		${LOCALBASE}/share/texmf-dist/tex/latex/subfig/subfig.sty:${PORTSDIR}/print/texlive-subfig \
+		${LOCALBASE}/share/texmf-dist/tex/latex/textcase/textcase.sty:${PORTSDIR}/print/texlive-textcase \
 		${LOCALBASE}/share/texmf-dist/tex/generic/thumbpdf/thumbpdf.sty:${PORTSDIR}/print/texlive-thumbpdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/typehtml/typehtml.sty:${PORTSDIR}/print/texlive-typehtml \
 		${LOCALBASE}/share/texmf-dist/tex/latex/underscore/underscore.sty:${PORTSDIR}/print/texlive-underscore \
