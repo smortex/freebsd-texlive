@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20101121
+PORTVERSION=	20101122
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1292,7 +1292,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/texments/texments.sty:${PORTSDIR}/print/texlive-texments \
 		${LOCALBASE}/share/texmf-dist/tex/latex/texpower/texpower.sty:${PORTSDIR}/print/texlive-texpower \
 		${LOCALBASE}/share/texmf-dist/tex/latex/texshade/texshade.sty:${PORTSDIR}/print/texlive-texshade \
-		${LOCALBASE}/share/texmf-dist/tex/latex/textcase/textcase.sty:${PORTSDIR}/print/texlive-textcase \
 		${LOCALBASE}/share/texmf-dist/tex/latex/textfit/textfit.sty:${PORTSDIR}/print/texlive-textfit \
 		${LOCALBASE}/share/texmf-dist/tex/generic/textmerg/textmerg.sty:${PORTSDIR}/print/texlive-textmerg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/textpos/textpos.sty:${PORTSDIR}/print/texlive-textpos \
@@ -1431,6 +1430,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/sepnum/sepnum.sty:${PORTSDIR}/print/texlive-sepnum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/setspace/setspace.sty:${PORTSDIR}/print/texlive-setspace \
 		${LOCALBASE}/share/texmf-dist/tex/latex/subfig/subfig.sty:${PORTSDIR}/print/texlive-subfig \
+		${LOCALBASE}/share/texmf-dist/tex/latex/textcase/textcase.sty:${PORTSDIR}/print/texlive-textcase \
 		${LOCALBASE}/share/texmf-dist/tex/generic/thumbpdf/thumbpdf.sty:${PORTSDIR}/print/texlive-thumbpdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/typehtml/typehtml.sty:${PORTSDIR}/print/texlive-typehtml \
 		${LOCALBASE}/share/texmf-dist/tex/latex/underscore/underscore.sty:${PORTSDIR}/print/texlive-underscore \
@@ -1523,7 +1523,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/gchords/gchords.sty:${PORTSDIR}/print/texlive-gchords \
 		${LOCALBASE}/share/texmf-dist/tex/latex/guitar/guitar.sty:${PORTSDIR}/print/texlive-guitar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/harmony/harmony.sty:${PORTSDIR}/print/texlive-harmony \
-		${LOCALBASE}/share/texmf-dist/tex/generic/musictex/musictex.tex:${PORTSDIR}/print/texlive-musictex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/musixtex/musixtex.sty:${PORTSDIR}/print/texlive-musixtex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/songbook/songbook.sty:${PORTSDIR}/print/texlive-songbook \
 		${LOCALBASE}/share/texmf-dist/tex/lambda/antomega/antomega.sty:${PORTSDIR}/print/texlive-antomega \
