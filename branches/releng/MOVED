@@ -40,3 +40,8 @@ print/texlive-cursor||2010-11-21|Upstream support dropped
 print/texlive-maple||2010-11-21|Upstream support dropped
 print/texlive-uhrzeit||2010-11-21|Upstream support dropped
 print/texlive-musictex||2010-11-22|Upstream support dropped
+print/texlive-acromake||2010-11-23|Upstream support dropped
+print/texlive-armenian||2010-11-23|Upstream support dropped
+print/texlive-mapcodes||2010-11-23|Upstream support dropped
+print/texlive-mhs||2010-11-23|Upstream support dropped
+print/texlive-siggraph||2010-11-23|Upstream support dropped

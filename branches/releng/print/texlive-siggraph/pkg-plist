@@ -1,9 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/siggraph/README
-%%PORTSRC%%share/texmf-dist/source/latex/siggraph/siggraph.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/siggraph/siggraph.ins
-share/texmf-dist/tex/latex/siggraph/siggraph.cls
-@dirrmtry share/texmf-dist/tex/latex/siggraph
-@dirrmtry share/texmf-dist/source/latex/siggraph
-@dirrmtry share/texmf-dist/doc/latex/siggraph
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
