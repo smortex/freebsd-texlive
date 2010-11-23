@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20101122
+PORTVERSION=	20101123
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -208,6 +208,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/bbm/bbm10.mf:${PORTSDIR}/print/texlive-bbm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bbm-macros/bbm.sty:${PORTSDIR}/print/texlive-bbm-macros \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bbold/bbold.sty:${PORTSDIR}/print/texlive-bbold \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/bbold-type1/bbold10.afm:${PORTSDIR}/print/texlive-bbold-type1 \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/belleek/belleek.map:${PORTSDIR}/print/texlive-belleek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bera/bera.sty:${PORTSDIR}/print/texlive-bera \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/berenisadf/ybdb.afm:${PORTSDIR}/print/texlive-berenisadf \
@@ -226,6 +227,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmbright/cmbright.sty:${PORTSDIR}/print/texlive-cmbright \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmll/cmll.sty:${PORTSDIR}/print/texlive-cmll \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/cmpica/cmpica.mf:${PORTSDIR}/print/texlive-cmpica \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cmtiup/cmtiup.sty:${PORTSDIR}/print/texlive-cmtiup \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/concmath-fonts/xccam10.mf:${PORTSDIR}/print/texlive-concmath-fonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/courier-scaled/8rpcrs.fd:${PORTSDIR}/print/texlive-courier-scaled \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/cryst/cryst.afm:${PORTSDIR}/print/texlive-cryst \
@@ -415,6 +417,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/generic/dirtree/dirtree.sty:${PORTSDIR}/print/texlive-dirtree \
 		${LOCALBASE}/share/texmf-dist/tex/generic/eijkhout/CD_labeler.tex:${PORTSDIR}/print/texlive-eijkhout \
 		${LOCALBASE}/share/texmf-dist/tex/latex/encxvlna/encxvlna.sty:${PORTSDIR}/print/texlive-encxvlna \
+		${LOCALBASE}/share/texmf-dist/tex/generic/epigram/epigram.tex:${PORTSDIR}/print/texlive-epigram \
 		${LOCALBASE}/share/texmf-dist/tex/generic/fenixpar/fenixpar.sty:${PORTSDIR}/print/texlive-fenixpar \
 		${LOCALBASE}/share/texmf-dist/tex/generic/fltpoint/fltpoint.sty:${PORTSDIR}/print/texlive-fltpoint \
 		${LOCALBASE}/share/texmf-dist/tex/generic/iftex/iftex.sty:${PORTSDIR}/print/texlive-iftex \
@@ -486,7 +489,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/arabtex/arabtex.sty:${PORTSDIR}/print/texlive-arabtex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bidi/bidi.sty:${PORTSDIR}/print/texlive-bidi \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/persian-bib/acm-fa.bst:${PORTSDIR}/print/texlive-persian-bib \
-		${LOCALBASE}/share/texmf-dist/fonts/source/public/armenian/arssb10.mf:${PORTSDIR}/print/texlive-armenian \
 		${LOCALBASE}/share/texmf-dist/fonts/cmap/adobemapping/LICENSE:${PORTSDIR}/print/texlive-adobemapping \
 		${LOCALBASE}/share/texmf-dist/dvips/arphic/config.bkaiu:${PORTSDIR}/print/texlive-arphic \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/c90/c90.enc:${PORTSDIR}/print/texlive-c90 \
@@ -670,7 +672,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/a5comb/a5comb.sty:${PORTSDIR}/print/texlive-a5comb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/abstract/abstract.sty:${PORTSDIR}/print/texlive-abstract \
 		${LOCALBASE}/share/texmf-dist/tex/latex/achemso/achemso.cls:${PORTSDIR}/print/texlive-achemso \
-		${LOCALBASE}/share/texmf-dist/tex/latex/acromake/acromake.sty:${PORTSDIR}/print/texlive-acromake \
 		${LOCALBASE}/share/texmf-dist/tex/latex/acronym/acronym.sty:${PORTSDIR}/print/texlive-acronym \
 		${LOCALBASE}/share/texmf-dist/tex/latex/acroterm/acroterm.sty:${PORTSDIR}/print/texlive-acroterm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/addlines/addlines.sty:${PORTSDIR}/print/texlive-addlines \
@@ -804,6 +805,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/dichokey/dichokey.sty:${PORTSDIR}/print/texlive-dichokey \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dinbrief/dinbrief.cls:${PORTSDIR}/print/texlive-dinbrief \
 		${LOCALBASE}/share/texmf-dist/tex/latex/directory/directory.sty:${PORTSDIR}/print/texlive-directory \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty:${PORTSDIR}/print/texlive-dirtytalk \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/dlfltxb/dlfltxbbibtex.bst:${PORTSDIR}/print/texlive-dlfltxb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dnaseq/dnaseq.sty:${PORTSDIR}/print/texlive-dnaseq \
 		${LOCALBASE}/share/texmf-dist/tex/latex/docmfp/docmfp.sty:${PORTSDIR}/print/texlive-docmfp \
@@ -1017,7 +1019,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/makeglos/makeglos.sty:${PORTSDIR}/print/texlive-makeglos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/manfnt/manfnt.sty:${PORTSDIR}/print/texlive-manfnt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/manuscript/manuscript.sty:${PORTSDIR}/print/texlive-manuscript \
-		${LOCALBASE}/share/texmf-dist/tex/latex/mapcodes/mapcodes.sty:${PORTSDIR}/print/texlive-mapcodes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/marginfix/marginfix.sty:${PORTSDIR}/print/texlive-marginfix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/marginnote/marginnote.sty:${PORTSDIR}/print/texlive-marginnote \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathexam/mathexam.sty:${PORTSDIR}/print/texlive-mathexam \
@@ -1680,7 +1681,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/ryethesis/ryethesis.cls:${PORTSDIR}/print/texlive-ryethesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sageep/sageep.cls:${PORTSDIR}/print/texlive-sageep \
 		${LOCALBASE}/share/texmf-dist/tex/latex/seuthesis/seuthesis.cls:${PORTSDIR}/print/texlive-seuthesis \
-		${LOCALBASE}/share/texmf-dist/tex/latex/siggraph/siggraph.cls:${PORTSDIR}/print/texlive-siggraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/soton/soton-beamer.sty:${PORTSDIR}/print/texlive-soton \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spie/spie.cls:${PORTSDIR}/print/texlive-spie \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/stellenbosch/usmeg-a.bst:${PORTSDIR}/print/texlive-stellenbosch \
@@ -1739,7 +1739,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/hepunits/hepunits.sty:${PORTSDIR}/print/texlive-hepunits \
 		${LOCALBASE}/share/texmf-dist/tex/latex/karnaugh/kvmacros.tex:${PORTSDIR}/print/texlive-karnaugh \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mhchem/mhchem.sty:${PORTSDIR}/print/texlive-mhchem \
-		${LOCALBASE}/share/texmf-dist/tex/latex/mhs/mhs.sty:${PORTSDIR}/print/texlive-mhs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/miller/miller.sty:${PORTSDIR}/print/texlive-miller \
 		${LOCALBASE}/share/texmf-dist/tex/latex/objectz/oz.sty:${PORTSDIR}/print/texlive-objectz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pseudocode/pseudocode.sty:${PORTSDIR}/print/texlive-pseudocode \

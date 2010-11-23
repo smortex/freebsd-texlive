@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bbold-type1/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bbold-type1/test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bbold-type1/test.tex
+share/texmf-dist/fonts/afm/public/bbold-type1/bbold10.afm
+share/texmf-dist/fonts/afm/public/bbold-type1/bbold5.afm
+share/texmf-dist/fonts/afm/public/bbold-type1/bbold7.afm
+share/texmf-dist/fonts/map/dvips/bbold-type1/bbold.map
+share/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb
+share/texmf-dist/fonts/type1/public/bbold-type1/bbold5.pfb
+share/texmf-dist/fonts/type1/public/bbold-type1/bbold7.pfb
+@dirrmtry share/texmf-dist/fonts/type1/public/bbold-type1
+@dirrmtry share/texmf-dist/fonts/map/dvips/bbold-type1
+@dirrmtry share/texmf-dist/fonts/afm/public/bbold-type1
+@dirrmtry share/texmf-dist/doc/fonts/bbold-type1
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

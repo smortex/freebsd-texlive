@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20101108
+PORTVERSION=	20101123
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -73,7 +73,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/ryethesis/ryethesis.cls:${PORTSDIR}/print/texlive-ryethesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sageep/sageep.cls:${PORTSDIR}/print/texlive-sageep \
 		${LOCALBASE}/share/texmf-dist/tex/latex/seuthesis/seuthesis.cls:${PORTSDIR}/print/texlive-seuthesis \
-		${LOCALBASE}/share/texmf-dist/tex/latex/siggraph/siggraph.cls:${PORTSDIR}/print/texlive-siggraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/soton/soton-beamer.sty:${PORTSDIR}/print/texlive-soton \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spie/spie.cls:${PORTSDIR}/print/texlive-spie \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/stellenbosch/usmeg-a.bst:${PORTSDIR}/print/texlive-stellenbosch \

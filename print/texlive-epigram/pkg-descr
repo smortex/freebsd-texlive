@@ -1,0 +1,3 @@
+The package determines (on the basis of the width of the text
+of the epigram, laid out on a single line) whether to produce a
+line or a displayed paragraph.

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20101110
+PORTVERSION=	20101123
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -34,6 +34,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/bbm/bbm10.mf:${PORTSDIR}/print/texlive-bbm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bbm-macros/bbm.sty:${PORTSDIR}/print/texlive-bbm-macros \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bbold/bbold.sty:${PORTSDIR}/print/texlive-bbold \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/bbold-type1/bbold10.afm:${PORTSDIR}/print/texlive-bbold-type1 \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/belleek/belleek.map:${PORTSDIR}/print/texlive-belleek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bera/bera.sty:${PORTSDIR}/print/texlive-bera \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/berenisadf/ybdb.afm:${PORTSDIR}/print/texlive-berenisadf \
@@ -52,6 +53,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmbright/cmbright.sty:${PORTSDIR}/print/texlive-cmbright \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmll/cmll.sty:${PORTSDIR}/print/texlive-cmll \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/cmpica/cmpica.mf:${PORTSDIR}/print/texlive-cmpica \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cmtiup/cmtiup.sty:${PORTSDIR}/print/texlive-cmtiup \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/concmath-fonts/xccam10.mf:${PORTSDIR}/print/texlive-concmath-fonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/courier-scaled/8rpcrs.fd:${PORTSDIR}/print/texlive-courier-scaled \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/cryst/cryst.afm:${PORTSDIR}/print/texlive-cryst \

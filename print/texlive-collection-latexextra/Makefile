@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20101122
+PORTVERSION=	20101123
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -141,7 +141,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/a5comb/a5comb.sty:${PORTSDIR}/print/texlive-a5comb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/abstract/abstract.sty:${PORTSDIR}/print/texlive-abstract \
 		${LOCALBASE}/share/texmf-dist/tex/latex/achemso/achemso.cls:${PORTSDIR}/print/texlive-achemso \
-		${LOCALBASE}/share/texmf-dist/tex/latex/acromake/acromake.sty:${PORTSDIR}/print/texlive-acromake \
 		${LOCALBASE}/share/texmf-dist/tex/latex/acronym/acronym.sty:${PORTSDIR}/print/texlive-acronym \
 		${LOCALBASE}/share/texmf-dist/tex/latex/acroterm/acroterm.sty:${PORTSDIR}/print/texlive-acroterm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/addlines/addlines.sty:${PORTSDIR}/print/texlive-addlines \
@@ -275,6 +274,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/dichokey/dichokey.sty:${PORTSDIR}/print/texlive-dichokey \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dinbrief/dinbrief.cls:${PORTSDIR}/print/texlive-dinbrief \
 		${LOCALBASE}/share/texmf-dist/tex/latex/directory/directory.sty:${PORTSDIR}/print/texlive-directory \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty:${PORTSDIR}/print/texlive-dirtytalk \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/dlfltxb/dlfltxbbibtex.bst:${PORTSDIR}/print/texlive-dlfltxb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dnaseq/dnaseq.sty:${PORTSDIR}/print/texlive-dnaseq \
 		${LOCALBASE}/share/texmf-dist/tex/latex/docmfp/docmfp.sty:${PORTSDIR}/print/texlive-docmfp \
@@ -488,7 +488,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/makeglos/makeglos.sty:${PORTSDIR}/print/texlive-makeglos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/manfnt/manfnt.sty:${PORTSDIR}/print/texlive-manfnt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/manuscript/manuscript.sty:${PORTSDIR}/print/texlive-manuscript \
-		${LOCALBASE}/share/texmf-dist/tex/latex/mapcodes/mapcodes.sty:${PORTSDIR}/print/texlive-mapcodes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/marginfix/marginfix.sty:${PORTSDIR}/print/texlive-marginfix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/marginnote/marginnote.sty:${PORTSDIR}/print/texlive-marginnote \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathexam/mathexam.sty:${PORTSDIR}/print/texlive-mathexam \

@@ -1,0 +1,4 @@
+share/texmf-dist/tex/generic/epigram/epigram.tex
+@dirrmtry share/texmf-dist/tex/generic/epigram
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

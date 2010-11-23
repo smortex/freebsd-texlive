@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-science
-PORTVERSION=	20101110
+PORTVERSION=	20101123
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -47,7 +47,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIstyle/sistyle.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/hepunits/hepunits.sty:${PORTSDIR}/print/texlive-hepunits \
 		${LOCALBASE}/share/texmf-dist/tex/latex/karnaugh/kvmacros.tex:${PORTSDIR}/print/texlive-karnaugh \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mhchem/mhchem.sty:${PORTSDIR}/print/texlive-mhchem \
-		${LOCALBASE}/share/texmf-dist/tex/latex/mhs/mhs.sty:${PORTSDIR}/print/texlive-mhs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/miller/miller.sty:${PORTSDIR}/print/texlive-miller \
 		${LOCALBASE}/share/texmf-dist/tex/latex/objectz/oz.sty:${PORTSDIR}/print/texlive-objectz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pseudocode/pseudocode.sty:${PORTSDIR}/print/texlive-pseudocode \

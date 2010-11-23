@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-biblatex-chem
-# Date created:		13/03/2010 04:23:08
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-cmtiup
+# Date created:		11/23/2010 04:40:04
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	biblatex-chem
+PORTNAME=	cmtiup
 PORTVERSION=	20101123
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Chemistry styles for biblatex.
+COMMENT=	Upright punctuation with CM slanted.
 
 NOPORTSRC=	yes
 
