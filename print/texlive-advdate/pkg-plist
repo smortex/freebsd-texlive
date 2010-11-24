@@ -1,5 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/advdate/advdate.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/advdate/advdate.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/advdate/manifest.txt
 share/texmf-dist/tex/latex/advdate/advdate.sty
 @dirrmtry share/texmf-dist/tex/latex/advdate
 @dirrmtry share/texmf-dist/doc/latex/advdate
