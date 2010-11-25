@@ -1,9 +1,9 @@
 share/texmf-dist/bibtex/bst/tugboat/ltugbib.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/tugboat/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tugboat/ltubguid.ltx
 %%PORTDOCS%%share/texmf-dist/doc/latex/tugboat/ltubguid.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tugboat/manifest.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/tugboat/tugboat.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/tugboat/ltubguid.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/tugboat/tugboat.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tugboat/tugboat.ins
 share/texmf-dist/tex/latex/tugboat/ltugboat.cls
