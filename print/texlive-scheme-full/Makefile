@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20101123
+PORTVERSION=	20101126
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1243,7 +1243,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/sprite/sprite.sty:${PORTSDIR}/print/texlive-sprite \
 		${LOCALBASE}/share/texmf-dist/tex/latex/srcltx/srcltx.sty:${PORTSDIR}/print/texlive-srcltx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sseq/sseq.sty:${PORTSDIR}/print/texlive-sseq \
-		${LOCALBASE}/share/texmf-dist/tex/latex/ssqquote/ssqquote.sty:${PORTSDIR}/print/texlive-ssqquote \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stack/stack.sty:${PORTSDIR}/print/texlive-stack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/standalone/standalone.cls:${PORTSDIR}/print/texlive-standalone \
 		${LOCALBASE}/share/texmf-dist/tex/latex/statistik/statistik.sty:${PORTSDIR}/print/texlive-statistik \
@@ -1330,7 +1329,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/twoinone/2in1.sty:${PORTSDIR}/print/texlive-twoinone \
 		${LOCALBASE}/share/texmf-dist/tex/latex/twoup/twoup.sty:${PORTSDIR}/print/texlive-twoup \
 		${LOCALBASE}/share/texmf-dist/tex/latex/type1cm/type1cm.sty:${PORTSDIR}/print/texlive-type1cm \
-		${LOCALBASE}/share/texmf-dist/tex/latex/typedref/typedref.sty:${PORTSDIR}/print/texlive-typedref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/typogrid/typogrid.sty:${PORTSDIR}/print/texlive-typogrid \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucs/ucs.sty:${PORTSDIR}/print/texlive-ucs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uebungsblatt/uebungsblatt.cls:${PORTSDIR}/print/texlive-uebungsblatt \
@@ -1354,7 +1352,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/versions/versions.sty:${PORTSDIR}/print/texlive-versions \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vertbars/vertbars.sty:${PORTSDIR}/print/texlive-vertbars \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vhistory/vhistory.sty:${PORTSDIR}/print/texlive-vhistory \
-		${LOCALBASE}/share/texmf-dist/tex/latex/vita/vita.cls:${PORTSDIR}/print/texlive-vita \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vmargin/vmargin.sty:${PORTSDIR}/print/texlive-vmargin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/volumes/volumes.sty:${PORTSDIR}/print/texlive-volumes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vpe/vpe.sty:${PORTSDIR}/print/texlive-vpe \

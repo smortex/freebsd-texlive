@@ -1,6 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/pdftex/Announcement-1.40.2
 %%PORTDOCS%%share/texmf-dist/doc/pdftex/NEWS
 %%PORTDOCS%%share/texmf-dist/doc/pdftex/README
+%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/ChangeLog
 %%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/README
 %%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/makefiles.cmd
@@ -11,7 +12,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/pdftex-syntax.txt
 %%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/pdftex-t.tex
 %%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/pdftex-t.txt
-%%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/pdftex-w.pdf
 %%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/pdftex-w.tex
 %%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/samplepdf/cmr10.103
 %%PORTDOCS%%share/texmf-dist/doc/pdftex/manual/samplepdf/obj.dat
