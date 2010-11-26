@@ -45,3 +45,6 @@ print/texlive-armenian||2010-11-23|Upstream support dropped
 print/texlive-mapcodes||2010-11-23|Upstream support dropped
 print/texlive-mhs||2010-11-23|Upstream support dropped
 print/texlive-siggraph||2010-11-23|Upstream support dropped
+print/texlive-ssqquote||2010-11-26|Upstream support dropped
+print/texlive-typedref||2010-11-26|Upstream support dropped
+print/texlive-vita||2010-11-26|Upstream support dropped
