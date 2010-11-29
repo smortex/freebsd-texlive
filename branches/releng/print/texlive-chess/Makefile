@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	chess
-PORTVERSION=	20100922
+PORTVERSION=	20101129
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Fonts for typesetting chess boards.
 
-NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
