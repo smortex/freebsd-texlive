@@ -6,14 +6,12 @@
 #
 
 PORTNAME=	vertbars
-PORTVERSION=	20100922
+PORTVERSION=	20101130
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Mark vertical rules in margin of text.
 
-NOPORTDOCS=	yes
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

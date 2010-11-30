@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20101126
+PORTVERSION=	20101130
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -387,6 +387,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/startex/base/startex.tex:${PORTSDIR}/print/texlive-startex \
 		${LOCALBASE}/share/texmf-dist/tex/texsis/base/texsis.tex:${PORTSDIR}/print/texlive-texsis \
 		${LOCALBASE}/share/texmf-dist/tex/ytex/base/ybase.mac:${PORTSDIR}/print/texlive-ytex \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/bartel-chess-fonts/elch-bishop.mf:${PORTSDIR}/print/texlive-bartel-chess-fonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cchess/cchess.sty:${PORTSDIR}/print/texlive-cchess \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chess/chess.sty:${PORTSDIR}/print/texlive-chess \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chess-problem-diagrams/diagram.sty:${PORTSDIR}/print/texlive-chess-problem-diagrams \
@@ -879,6 +880,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/figsize/figsize.sty:${PORTSDIR}/print/texlive-figsize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filecontents/filecontents.sty:${PORTSDIR}/print/texlive-filecontents \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filehook/filehook.sty:${PORTSDIR}/print/texlive-filehook \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fileinfo/myfilist.sty:${PORTSDIR}/print/texlive-fileinfo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fink/fink.sty:${PORTSDIR}/print/texlive-fink \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixfoot/fixfoot.sty:${PORTSDIR}/print/texlive-fixfoot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixme/fixme.sty:${PORTSDIR}/print/texlive-fixme \
@@ -913,7 +915,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/frankenstein/frankenstein.bib:${PORTSDIR}/print/texlive-frankenstein \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ftcap/ftcap.sty:${PORTSDIR}/print/texlive-ftcap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ftnxtra/ftnxtra.sty:${PORTSDIR}/print/texlive-ftnxtra \
-		${LOCALBASE}/share/texmf-dist/tex/latex/fribrief/fribrief.cls:${PORTSDIR}/print/texlive-fribrief \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fullpict/fullpict.sty:${PORTSDIR}/print/texlive-fullpict \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fundus/calligra.sty:${PORTSDIR}/print/texlive-fundus \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fwlw/fwlw.sty:${PORTSDIR}/print/texlive-fwlw \
@@ -1332,7 +1333,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/typogrid/typogrid.sty:${PORTSDIR}/print/texlive-typogrid \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucs/ucs.sty:${PORTSDIR}/print/texlive-ucs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uebungsblatt/uebungsblatt.cls:${PORTSDIR}/print/texlive-uebungsblatt \
-		${LOCALBASE}/share/texmf-dist/tex/latex/ulsy/ulsy.sty:${PORTSDIR}/print/texlive-ulsy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umoline/umoline.sty:${PORTSDIR}/print/texlive-umoline \
 		${LOCALBASE}/share/texmf-dist/tex/latex/underlin/underlin.sty:${PORTSDIR}/print/texlive-underlin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/undertilde/undertilde.sty:${PORTSDIR}/print/texlive-undertilde \
