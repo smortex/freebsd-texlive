@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/CONTENTs.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/docsrc/README.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/docsrc/makedoc.cfg
+%%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/docsrc/myfilist.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/docsrc/readprov.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/gather.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/myfilist.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/readprov.pdf
+share/texmf-dist/tex/latex/fileinfo/myfilist.sty
+share/texmf-dist/tex/latex/fileinfo/readprov.sty
+@dirrmtry share/texmf-dist/tex/latex/fileinfo
+@dirrmtry share/texmf-dist/doc/latex/fileinfo/docsrc
+@dirrmtry share/texmf-dist/doc/latex/fileinfo
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

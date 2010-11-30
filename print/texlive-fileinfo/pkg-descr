@@ -1,0 +1,4 @@
+The bundle provides two packages, readprov and myfilist. The
+readprov package provides a means of reading file information
+without loading the body of the file. The myfilist uses
+readprov to control what \listfiles will report.
