@@ -50,3 +50,7 @@ print/texlive-typedref||2010-11-26|Upstream support dropped
 print/texlive-vita||2010-11-26|Upstream support dropped
 print/texlive-fribrief||2010-11-30|Upstream support dropped
 print/texlive-ulsy||2010-11-30|Upstream support dropped
+print/texlive-adrlist||2010-12-01|Upstream support dropped
+print/texlive-apl||2010-12-01|Upstream support dropped
+print/texlive-autotab||2010-12-01|Upstream support dropped
+print/texlive-cchess||2010-12-01|Upstream support dropped

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-games
-PORTVERSION=	20101130
+PORTVERSION=	20101201
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -14,7 +14,6 @@ MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Games typesetting
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/source/public/bartel-chess-fonts/elch-bishop.mf:${PORTSDIR}/print/texlive-bartel-chess-fonts \
-		${LOCALBASE}/share/texmf-dist/tex/latex/cchess/cchess.sty:${PORTSDIR}/print/texlive-cchess \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chess/chess.sty:${PORTSDIR}/print/texlive-chess \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chess-problem-diagrams/diagram.sty:${PORTSDIR}/print/texlive-chess-problem-diagrams \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chessboard/chessboard.sty:${PORTSDIR}/print/texlive-chessboard \

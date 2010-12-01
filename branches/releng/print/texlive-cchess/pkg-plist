@@ -1,9 +1,0 @@
-share/texmf-dist/fonts/source/public/cchess/cchess46.mf
-share/texmf-dist/fonts/source/public/cchess/ccpieces.mf
-share/texmf-dist/fonts/tfm/public/cchess/cchess46.tfm
-share/texmf-dist/tex/latex/cchess/cchess.sty
-@dirrmtry share/texmf-dist/tex/latex/cchess
-@dirrmtry share/texmf-dist/fonts/tfm/public/cchess
-@dirrmtry share/texmf-dist/fonts/source/public/cchess
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
