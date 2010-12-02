@@ -54,3 +54,5 @@ print/texlive-adrlist||2010-12-01|Upstream support dropped
 print/texlive-apl||2010-12-01|Upstream support dropped
 print/texlive-autotab||2010-12-01|Upstream support dropped
 print/texlive-cchess||2010-12-01|Upstream support dropped
+print/texlive-ntabbing||2010-12-02|Upstream support dropped
+print/texlive-vrb||2010-12-02|Upstream support dropped

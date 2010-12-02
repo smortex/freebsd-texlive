@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	xepersian
-PORTVERSION=	20100925
+PORTVERSION=	20101202
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Persian for LaTeX over XeTeX.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

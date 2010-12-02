@@ -1,3 +1,0 @@
-An extension of the tabbing environment that supports automatic
-line numbering. The lines can be referenced using the standard
-\label and \ref mechanism.

@@ -36,6 +36,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bartel-chess-fonts/other-sources/px9.mf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bartel-chess-fonts/other-sources/scan.mf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bartel-chess-fonts/other-sources/screengrid.mf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bartel-chess-fonts/other-sources/tt.mf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bartel-chess-fonts/other-sources/turnboard.mf
 share/texmf-dist/fonts/source/public/bartel-chess-fonts/elch-bishop.mf
 share/texmf-dist/fonts/source/public/bartel-chess-fonts/elch-blackfield.mf

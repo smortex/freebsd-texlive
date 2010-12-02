@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20101201
+PORTVERSION=	20101202
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -433,7 +433,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/generic/shade/shade.tex:${PORTSDIR}/print/texlive-shade \
 		${LOCALBASE}/share/texmf-dist/tex/generic/tabto-generic/tabto.tex:${PORTSDIR}/print/texlive-tabto-generic \
 		${LOCALBASE}/share/texmf-dist/tex/generic/texapi/texapi.tex:${PORTSDIR}/print/texlive-texapi \
-		${LOCALBASE}/share/texmf-dist/tex/generic/vrb/vrb.tex:${PORTSDIR}/print/texlive-vrb \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xlop/xlop.sty:${PORTSDIR}/print/texlive-xlop \
 		${LOCALBASE}/share/texmf-dist/tex/generic/yax/yax.sty:${PORTSDIR}/print/texlive-yax \
 		${LOCALBASE}/share/texmf-dist/tex/generic/epsf/epsf.sty:${PORTSDIR}/print/texlive-epsf \
@@ -1082,7 +1081,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/nopageno/nopageno.sty:${PORTSDIR}/print/texlive-nopageno \
 		${LOCALBASE}/share/texmf-dist/tex/latex/notes/notes.sty:${PORTSDIR}/print/texlive-notes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/notoccite/notoccite.sty:${PORTSDIR}/print/texlive-notoccite \
-		${LOCALBASE}/share/texmf-dist/tex/latex/ntabbing/ntabbing.sty:${PORTSDIR}/print/texlive-ntabbing \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ntheorem/ntheorem.sty:${PORTSDIR}/print/texlive-ntheorem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/numname/numname.sty:${PORTSDIR}/print/texlive-numname \
 		${LOCALBASE}/share/texmf-dist/tex/latex/numprint/numprint.sty:${PORTSDIR}/print/texlive-numprint \
