@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20101201
+PORTVERSION=	20101202
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -552,7 +552,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/nopageno/nopageno.sty:${PORTSDIR}/print/texlive-nopageno \
 		${LOCALBASE}/share/texmf-dist/tex/latex/notes/notes.sty:${PORTSDIR}/print/texlive-notes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/notoccite/notoccite.sty:${PORTSDIR}/print/texlive-notoccite \
-		${LOCALBASE}/share/texmf-dist/tex/latex/ntabbing/ntabbing.sty:${PORTSDIR}/print/texlive-ntabbing \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ntheorem/ntheorem.sty:${PORTSDIR}/print/texlive-ntheorem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/numname/numname.sty:${PORTSDIR}/print/texlive-numname \
 		${LOCALBASE}/share/texmf-dist/tex/latex/numprint/numprint.sty:${PORTSDIR}/print/texlive-numprint \

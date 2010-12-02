@@ -1,11 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/FileList.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/RELEASE.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/docsrc/README.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/docsrc/gather.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/docsrc/inputtrc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/docsrc/makedoc.cfg
 %%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/inputtrc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/inputtrc.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/makedoc.cfg
 share/texmf-dist/tex/latex/inputtrc/inputtrc.sty
 @dirrmtry share/texmf-dist/tex/latex/inputtrc
+@dirrmtry share/texmf-dist/doc/latex/inputtrc/docsrc
 @dirrmtry share/texmf-dist/doc/latex/inputtrc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

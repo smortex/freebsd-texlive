@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	bartel-chess-fonts
-PORTVERSION=	20101130
+PORTVERSION=	20101202
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The bartel-chess-fonts package
+COMMENT=	A set of fonts supporting chess diagrams.
 
 NOPORTSRC=	yes
 
