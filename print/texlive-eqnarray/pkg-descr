@@ -1,0 +1,5 @@
+Defines an equationarray environment, that allows more than
+three columns, but otherwise behaves like LaTeX's eqnarray
+environment. This environment is similar, in some ways, to the
+align environment of amsmath. The package requires the array
+package.

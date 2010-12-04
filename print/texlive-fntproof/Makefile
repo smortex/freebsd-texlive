@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-inputtrc
-# Date created:		10/10/2010 04:53:12
+# New ports collection makefile for:	texlive-fntproof
+# Date created:		12/04/2010 04:42:28
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	inputtrc
+PORTNAME=	fntproof
 PORTVERSION=	20101204
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Trace which file loads which.
+COMMENT=	A programmable font test pattern generator.
 
 NOPORTSRC=	yes
 

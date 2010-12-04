@@ -1,0 +1,7 @@
+The package implements all the font testing commands of Knuth's
+testfont.tex, but arranges that information necessary for each
+command is supplied as arguments to that command, rather than
+prompted for. This makes it possible to type all the tests in
+one command line, and easy to input the package in a file and
+to use the commands there. A few additional commands supporting
+this last purpose are also made available.
