@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/fntproof/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/fntproof/fntproof-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/fntproof/fntproof-doc.tex
+share/texmf-dist/tex/generic/fntproof/fntproof.tex
+@dirrmtry share/texmf-dist/tex/generic/fntproof
+@dirrmtry share/texmf-dist/doc/generic/fntproof
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
