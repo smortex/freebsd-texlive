@@ -1,20 +1,22 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/RunDoc
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/manifest.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/pdpream.ble
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-example.lyx
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-example1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-example1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-example2.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-example2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-example3.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-example3.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-styleexample.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-styletest.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot.layout
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdotDE.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdotDE.tex
-%%PORTSRC%%share/texmf-dist/source/latex/powerdot/powerdot.dtx
 share/texmf-dist/tex/latex/powerdot/powerdot-aggie.sty
 share/texmf-dist/tex/latex/powerdot/powerdot-bframe.sty
 share/texmf-dist/tex/latex/powerdot/powerdot-ciment.sty
@@ -35,7 +37,6 @@ share/texmf-dist/tex/latex/powerdot/powerdot-tycja.sty
 share/texmf-dist/tex/latex/powerdot/powerdot-upen.sty
 share/texmf-dist/tex/latex/powerdot/powerdot.cls
 @dirrmtry share/texmf-dist/tex/latex/powerdot
-@dirrmtry share/texmf-dist/source/latex/powerdot
 @dirrmtry share/texmf-dist/doc/latex/powerdot
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
