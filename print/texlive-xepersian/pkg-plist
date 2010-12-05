@@ -1,12 +1,18 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/README
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/clouds.jpg
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/ctg.jpg
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/ftxe-0.11.py
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/ireland.jpg
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/rain.jpg
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/sun.jpg
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/img/ireland.jpg
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/img/weather/clouds.jpg
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/img/weather/rain.jpg
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/img/weather/sun.jpg
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/magazine-sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/test-correction.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/test-empty-form.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/test-question-only.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/test-solution-form.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/xepersian.pdf
 share/texmf-dist/fonts/misc/xetex/fontmapping/xepersian/parsidigits.map
+share/texmf-dist/fonts/misc/xetex/fontmapping/xepersian/parsidigits.tec
 %%PORTSRC%%share/texmf-dist/source/xelatex/xepersian/xepersian.dtx
 %%PORTSRC%%share/texmf-dist/source/xelatex/xepersian/xepersian.ins
 share/texmf-dist/tex/xelatex/xepersian/algorithm-xepersian.def
@@ -63,6 +69,8 @@ share/texmf-dist/tex/xelatex/xepersian/xepersian.sty
 @dirrmtry share/texmf-dist/tex/xelatex/xepersian
 @dirrmtry share/texmf-dist/source/xelatex/xepersian
 @dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping/xepersian
+@dirrmtry share/texmf-dist/doc/xelatex/xepersian/img/weather
+@dirrmtry share/texmf-dist/doc/xelatex/xepersian/img
 @dirrmtry share/texmf-dist/doc/xelatex/xepersian
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
