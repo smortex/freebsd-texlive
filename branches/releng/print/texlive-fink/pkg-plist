@@ -3,6 +3,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/fink/THANKS
 %%PORTDOCS%%share/texmf-dist/doc/latex/fink/fink.el
 %%PORTDOCS%%share/texmf-dist/doc/latex/fink/fink.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fink/header.inc
 %%PORTSRC%%share/texmf-dist/source/latex/fink/fink.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/fink/fink.ins
 share/texmf-dist/tex/latex/fink/fink.sty
