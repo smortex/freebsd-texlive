@@ -2,7 +2,7 @@ share/texmf-dist/bibtex/bst/natbib/abbrvnat.bst
 share/texmf-dist/bibtex/bst/natbib/plainnat.bst
 share/texmf-dist/bibtex/bst/natbib/unsrtnat.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/natbib/README.1st
-%%PORTDOCS%%share/texmf-dist/doc/latex/natbib/README.v831a
+%%PORTDOCS%%share/texmf-dist/doc/latex/natbib/README.v831b
 %%PORTDOCS%%share/texmf-dist/doc/latex/natbib/natbib.ltx
 %%PORTDOCS%%share/texmf-dist/doc/latex/natbib/natbib.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/natbib/natnotes.pdf
