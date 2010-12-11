@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-interfaces
-# Date created:		10/26/2010 04:53:34
+# New ports collection makefile for:	texlive-tucv
+# Date created:		12/11/2010 04:58:44
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	interfaces
+PORTNAME=	tucv
 PORTVERSION=	20101211
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Set parameters for other packages, conveniently.
+COMMENT=	Support for typesetting a CV or resumee.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

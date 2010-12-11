@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-metapost
-PORTVERSION=	20101110
+PORTVERSION=	20101211
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -44,6 +44,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/metapost/automata/automata.mp:${PORTS
 		${LOCALBASE}/share/texmf-dist/metapost/splines/splines.mp:${PORTSDIR}/print/texlive-splines \
 		${LOCALBASE}/share/texmf-dist/metapost/suanpan/abacus.mp:${PORTSDIR}/print/texlive-suanpan \
 		${LOCALBASE}/share/texmf-dist/metapost/textpath/textpath.mp:${PORTSDIR}/print/texlive-textpath \
+		${LOCALBASE}/share/texmf-dist/metapost/threeddice/threeddice.mp:${PORTSDIR}/print/texlive-threeddice \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/apalike/apalike.sty:${PORTSDIR}/print/texlive-apalike \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/base/xampl.bib:${PORTSDIR}/print/texlive-bibtex \

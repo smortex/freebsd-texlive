@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/piff/README
+share/texmf-dist/tex/latex/piff/duplicat.sty
+share/texmf-dist/tex/latex/piff/newproof.sty
+share/texmf-dist/tex/latex/piff/onepagem.sty
+share/texmf-dist/tex/latex/piff/time.sty
+@dirrmtry share/texmf-dist/tex/latex/piff
+@dirrmtry share/texmf-dist/doc/latex/piff
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

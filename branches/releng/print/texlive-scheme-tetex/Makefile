@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-tetex
-PORTVERSION=	20101204
+PORTVERSION=	20101211
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -382,6 +382,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/metapost/splines/splines.mp:${PORTSDIR}/print/texlive-splines \
 		${LOCALBASE}/share/texmf-dist/metapost/suanpan/abacus.mp:${PORTSDIR}/print/texlive-suanpan \
 		${LOCALBASE}/share/texmf-dist/metapost/textpath/textpath.mp:${PORTSDIR}/print/texlive-textpath \
+		${LOCALBASE}/share/texmf-dist/metapost/threeddice/threeddice.mp:${PORTSDIR}/print/texlive-threeddice \
 		${LOCALBASE}/share/texmf-dist/tex/lambda/antomega/antomega.sty:${PORTSDIR}/print/texlive-antomega \
 		${LOCALBASE}/share/texmf-dist/tex/lambda/base/lambda.tex:${PORTSDIR}/print/texlive-lambda \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mxd/mxd.sty:${PORTSDIR}/print/texlive-mxd \

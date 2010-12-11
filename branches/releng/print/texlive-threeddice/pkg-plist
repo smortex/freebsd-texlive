@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/metapost/threeddice/README
+%%PORTDOCS%%share/texmf-dist/doc/metapost/threeddice/threeddice-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/threeddice/threeddice-doc.tex
+share/texmf-dist/metapost/threeddice/threeddice.mp
+@dirrmtry share/texmf-dist/metapost/threeddice
+@dirrmtry share/texmf-dist/doc/metapost/threeddice
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

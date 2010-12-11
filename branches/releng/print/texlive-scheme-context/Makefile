@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-context
-PORTVERSION=	20101110
+PORTVERSION=	20101211
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -102,6 +102,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/context/base/context.tex:${PORTSD
 		${LOCALBASE}/share/texmf-dist/metapost/splines/splines.mp:${PORTSDIR}/print/texlive-splines \
 		${LOCALBASE}/share/texmf-dist/metapost/suanpan/abacus.mp:${PORTSDIR}/print/texlive-suanpan \
 		${LOCALBASE}/share/texmf-dist/metapost/textpath/textpath.mp:${PORTSDIR}/print/texlive-textpath \
+		${LOCALBASE}/share/texmf-dist/metapost/threeddice/threeddice.mp:${PORTSDIR}/print/texlive-threeddice \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/tex-gyre/qagb.afm:${PORTSDIR}/print/texlive-tex-gyre \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/antt/anttb.afm:${PORTSDIR}/print/texlive-antt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/iwona/iwona.sty:${PORTSDIR}/print/texlive-iwona \
