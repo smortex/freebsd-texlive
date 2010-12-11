@@ -3,10 +3,14 @@ share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/brh-kan.map
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/brh-kan.tec
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-dvn.map
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-dvn.tec
+share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-iast.map
+share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-iast.tec
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-kan.map
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-kan.tec
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-sankan.map
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-sankan.tec
+share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-santel.map
+share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-santel.tec
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-sdvn.map
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-sdvn.tec
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-tel.map

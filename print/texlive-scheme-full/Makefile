@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20101204
+PORTVERSION=	20101211
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -840,6 +840,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/engpron/engpron.sty:${PORTSDIR}/print/texlive-engpron \
 		${LOCALBASE}/share/texmf-dist/tex/latex/engrec/engrec.sty:${PORTSDIR}/print/texlive-engrec \
 		${LOCALBASE}/share/texmf-dist/tex/latex/enumitem/enumitem.sty:${PORTSDIR}/print/texlive-enumitem \
+		${LOCALBASE}/share/texmf-dist/tex/latex/enumitem-zref/enumitem-zref.sty:${PORTSDIR}/print/texlive-enumitem-zref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/envbig/envbig.sty:${PORTSDIR}/print/texlive-envbig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/environ/environ.sty:${PORTSDIR}/print/texlive-environ \
 		${LOCALBASE}/share/texmf-dist/tex/latex/envlab/envlab.sty:${PORTSDIR}/print/texlive-envlab \
@@ -911,7 +912,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/frankenstein/frankenstein.bib:${PORTSDIR}/print/texlive-frankenstein \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ftcap/ftcap.sty:${PORTSDIR}/print/texlive-ftcap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ftnxtra/ftnxtra.sty:${PORTSDIR}/print/texlive-ftnxtra \
-		${LOCALBASE}/share/texmf-dist/tex/latex/fullpict/fullpict.sty:${PORTSDIR}/print/texlive-fullpict \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fundus/calligra.sty:${PORTSDIR}/print/texlive-fundus \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fwlw/fwlw.sty:${PORTSDIR}/print/texlive-fwlw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/g-brief/g-brief.cls:${PORTSDIR}/print/texlive-g-brief \
@@ -1127,6 +1127,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/petiteannonce/petiteannonce.cls:${PORTSDIR}/print/texlive-petiteannonce \
 		${LOCALBASE}/share/texmf-dist/tex/latex/philex/philex.sty:${PORTSDIR}/print/texlive-philex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/photo/photo.sty:${PORTSDIR}/print/texlive-photo \
+		${LOCALBASE}/share/texmf-dist/tex/latex/piff/duplicat.sty:${PORTSDIR}/print/texlive-piff \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pittetd/pittetd.cls:${PORTSDIR}/print/texlive-pittetd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/placeins/placeins.sty:${PORTSDIR}/print/texlive-placeins \
 		${LOCALBASE}/share/texmf-dist/tex/latex/plates/plates.sty:${PORTSDIR}/print/texlive-plates \
@@ -1322,6 +1323,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/trsym/trsym.sty:${PORTSDIR}/print/texlive-trsym \
 		${LOCALBASE}/share/texmf-dist/tex/latex/trivfloat/trivfloat.sty:${PORTSDIR}/print/texlive-trivfloat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/truncate/truncate.sty:${PORTSDIR}/print/texlive-truncate \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tucv/tucv.sty:${PORTSDIR}/print/texlive-tucv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/twoinone/2in1.sty:${PORTSDIR}/print/texlive-twoinone \
 		${LOCALBASE}/share/texmf-dist/tex/latex/twoup/twoup.sty:${PORTSDIR}/print/texlive-twoup \
 		${LOCALBASE}/share/texmf-dist/tex/latex/type1cm/type1cm.sty:${PORTSDIR}/print/texlive-type1cm \
@@ -1512,6 +1514,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/metapost/splines/splines.mp:${PORTSDIR}/print/texlive-splines \
 		${LOCALBASE}/share/texmf-dist/metapost/suanpan/abacus.mp:${PORTSDIR}/print/texlive-suanpan \
 		${LOCALBASE}/share/texmf-dist/metapost/textpath/textpath.mp:${PORTSDIR}/print/texlive-textpath \
+		${LOCALBASE}/share/texmf-dist/metapost/threeddice/threeddice.mp:${PORTSDIR}/print/texlive-threeddice \
 		${LOCALBASE}/share/texmf-dist/tex/latex/abc/abc.sty:${PORTSDIR}/print/texlive-abc \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/figbas/cmrj.afm:${PORTSDIR}/print/texlive-figbas \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gchords/gchords.sty:${PORTSDIR}/print/texlive-gchords \

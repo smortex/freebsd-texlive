@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tucv/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tucv/tucv.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tucv/tucv_ex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tucv/tucv_ex.tex
+%%PORTSRC%%share/texmf-dist/source/latex/tucv/tucv.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tucv/tucv.ins
+share/texmf-dist/tex/latex/tucv/tucv.sty
+@dirrmtry share/texmf-dist/tex/latex/tucv
+@dirrmtry share/texmf-dist/source/latex/tucv
+@dirrmtry share/texmf-dist/doc/latex/tucv
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

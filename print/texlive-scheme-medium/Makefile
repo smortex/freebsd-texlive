@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-medium
-PORTVERSION=	20101204
+PORTVERSION=	20101211
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -325,6 +325,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/metapost/splines/splines.mp:${PORTSDIR}/print/texlive-splines \
 		${LOCALBASE}/share/texmf-dist/metapost/suanpan/abacus.mp:${PORTSDIR}/print/texlive-suanpan \
 		${LOCALBASE}/share/texmf-dist/metapost/textpath/textpath.mp:${PORTSDIR}/print/texlive-textpath \
+		${LOCALBASE}/share/texmf-dist/metapost/threeddice/threeddice.mp:${PORTSDIR}/print/texlive-threeddice \
 		${LOCALBASE}/share/texmf-dist/tex/texinfo/texinfo.tex:${PORTSDIR}/print/texlive-texinfo \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/arabxetex/arabxetex.sty:${PORTSDIR}/print/texlive-arabxetex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/euenc/eu1enc.def:${PORTSDIR}/print/texlive-euenc \

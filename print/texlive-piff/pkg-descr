@@ -1,0 +1,5 @@
+The set consists (now) of: - a small package for dealing with
+duplicate-numbered output pages; - newproof, for defining
+mathematical proof structures; - onepagem for omitting the page
+number in one-page documents and - time, which prints a 12-hour
+format time.
