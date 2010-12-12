@@ -15,6 +15,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/Sonnys.eps
 %%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/fncychap.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/fncychap.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/manifest.txt
 share/texmf-dist/tex/latex/fncychap/fncychap.sty
 @dirrmtry share/texmf-dist/tex/latex/fncychap
 @dirrmtry share/texmf-dist/doc/latex/fncychap
