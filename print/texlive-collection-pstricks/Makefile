@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pstricks
-PORTVERSION=	20101110
+PORTVERSION=	20101215
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -87,7 +87,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/auto-pst-pdf/auto-pst-pdf.s
 		${LOCALBASE}/share/texmf-dist/tex/latex/uml/uml.sty:${PORTSDIR}/print/texlive-uml \
 		${LOCALBASE}/share/texmf-dist/tex/generic/vaucanson-g/vaucanson-g.sty:${PORTSDIR}/print/texlive-vaucanson-g \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
-		${LOCALBASE}/share/texmf-dist/tex/latex/apalike/apalike.sty:${PORTSDIR}/print/texlive-apalike \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/base/xampl.bib:${PORTSDIR}/print/texlive-bibtex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cm/cmtext-bsr-interpolated.map:${PORTSDIR}/print/texlive-cm \
 		${LOCALBASE}/share/texmf/dvipdfm/config/config:${PORTSDIR}/print/texlive-dvipdfm \

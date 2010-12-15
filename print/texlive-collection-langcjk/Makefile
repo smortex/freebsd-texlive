@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-langcjk
-PORTVERSION=	20101110
+PORTVERSION=	20101215
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -34,7 +34,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/cmap/adobemapping/LICENSE:${POR
 		${LOCALBASE}/share/texmf-dist/fonts/tfm/zhmetrics/cyberb/cyberb00.tfm:${PORTSDIR}/print/texlive-zhmetrics \
 		${LOCALBASE}/share/texmf-dist/tex/xetex/zhspacing/plain/zhspacing.sty:${PORTSDIR}/print/texlive-zhspacing \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
-		${LOCALBASE}/share/texmf-dist/tex/latex/apalike/apalike.sty:${PORTSDIR}/print/texlive-apalike \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/base/xampl.bib:${PORTSDIR}/print/texlive-bibtex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cm/cmtext-bsr-interpolated.map:${PORTSDIR}/print/texlive-cm \
 		${LOCALBASE}/share/texmf/dvipdfm/config/config:${PORTSDIR}/print/texlive-dvipdfm \

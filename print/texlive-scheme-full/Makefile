@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20101212
+PORTVERSION=	20101215
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -14,7 +14,6 @@ MAINTAINER=	romain@FreeBSD.org
 COMMENT=	full scheme (everything)
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
-		${LOCALBASE}/share/texmf-dist/tex/latex/apalike/apalike.sty:${PORTSDIR}/print/texlive-apalike \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/base/xampl.bib:${PORTSDIR}/print/texlive-bibtex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cm/cmtext-bsr-interpolated.map:${PORTSDIR}/print/texlive-cm \
 		${LOCALBASE}/share/texmf/dvipdfm/config/config:${PORTSDIR}/print/texlive-dvipdfm \
@@ -1658,6 +1657,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/lps/lps.cls:${PORTSDIR}/print/texlive-lps \
 		${LOCALBASE}/share/texmf-dist/tex/latex/macqassign/macqassign.cls:${PORTSDIR}/print/texlive-macqassign \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mentis/mentis.cls:${PORTSDIR}/print/texlive-mentis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/msuthesis/gb4e-compat.tex:${PORTSDIR}/print/texlive-msuthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/muthesis/muthesis.cls:${PORTSDIR}/print/texlive-muthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nature/nature.cls:${PORTSDIR}/print/texlive-nature \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/nddiss/nddiss2e.bst:${PORTSDIR}/print/texlive-nddiss \

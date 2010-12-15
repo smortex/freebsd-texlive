@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-xml
-PORTVERSION=	20101110
+PORTVERSION=	20101215
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -28,7 +28,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/context/base/context.tex:${PORTSD
 		${LOCALBASE}/share/texmf-dist/tex/latex/wasysym/wasysym.sty:${PORTSDIR}/print/texlive-wasysym \
 		${LOCALBASE}/share/texmf-dist/tex/xmltex/base/xmltex.tex:${PORTSDIR}/print/texlive-xmltex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
-		${LOCALBASE}/share/texmf-dist/tex/latex/apalike/apalike.sty:${PORTSDIR}/print/texlive-apalike \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/base/xampl.bib:${PORTSDIR}/print/texlive-bibtex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cm/cmtext-bsr-interpolated.map:${PORTSDIR}/print/texlive-cm \
 		${LOCALBASE}/share/texmf/dvipdfm/config/config:${PORTSDIR}/print/texlive-dvipdfm \

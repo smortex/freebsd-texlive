@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-xetex
-PORTVERSION=	20101110
+PORTVERSION=	20101215
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -36,7 +36,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/xelatex/arabxetex/arabxetex.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/xltxtra/xltxtra.sty:${PORTSDIR}/print/texlive-xltxtra \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xunicode/xunicode.sty:${PORTSDIR}/print/texlive-xunicode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
-		${LOCALBASE}/share/texmf-dist/tex/latex/apalike/apalike.sty:${PORTSDIR}/print/texlive-apalike \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/base/xampl.bib:${PORTSDIR}/print/texlive-bibtex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cm/cmtext-bsr-interpolated.map:${PORTSDIR}/print/texlive-cm \
 		${LOCALBASE}/share/texmf/dvipdfm/config/config:${PORTSDIR}/print/texlive-dvipdfm \

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-langtibetan
-PORTVERSION=	20101110
+PORTVERSION=	20101215
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -16,7 +16,6 @@ COMMENT=	Tibetan
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ctib/ctib.sty:${PORTSDIR}/print/texlive-ctib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/otibet/otibet.sty:${PORTSDIR}/print/texlive-otibet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
-		${LOCALBASE}/share/texmf-dist/tex/latex/apalike/apalike.sty:${PORTSDIR}/print/texlive-apalike \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/base/xampl.bib:${PORTSDIR}/print/texlive-bibtex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cm/cmtext-bsr-interpolated.map:${PORTSDIR}/print/texlive-cm \
 		${LOCALBASE}/share/texmf/dvipdfm/config/config:${PORTSDIR}/print/texlive-dvipdfm \
