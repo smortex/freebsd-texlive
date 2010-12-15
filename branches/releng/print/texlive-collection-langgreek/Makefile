@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-langgreek
-PORTVERSION=	20101110
+PORTVERSION=	20101215
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -34,7 +34,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/betababel/betababel.sty:${P
 		${LOCALBASE}/share/texmf/tex/generic/hyphen/grmhyph5.tex:${PORTSDIR}/print/texlive-hyphen-greek \
 		${LOCALBASE}/share/texmf/tex/generic/hyphen/grahyph5.tex:${PORTSDIR}/print/texlive-hyphen-ancientgreek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
-		${LOCALBASE}/share/texmf-dist/tex/latex/apalike/apalike.sty:${PORTSDIR}/print/texlive-apalike \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/base/xampl.bib:${PORTSDIR}/print/texlive-bibtex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cm/cmtext-bsr-interpolated.map:${PORTSDIR}/print/texlive-cm \
 		${LOCALBASE}/share/texmf/dvipdfm/config/config:${PORTSDIR}/print/texlive-dvipdfm \

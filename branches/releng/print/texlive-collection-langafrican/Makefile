@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-langafrican
-PORTVERSION=	20101110
+PORTVERSION=	20101215
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -17,7 +17,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ethiop/ethiop.sty:${PORTSDI
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/ethiop-t1/ethiop.map:${PORTSDIR}/print/texlive-ethiop-t1 \
 		${LOCALBASE}/share/texmf-dist/fonts/source/jknappen/fc/b-fcbx.mf:${PORTSDIR}/print/texlive-fc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
-		${LOCALBASE}/share/texmf-dist/tex/latex/apalike/apalike.sty:${PORTSDIR}/print/texlive-apalike \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/base/xampl.bib:${PORTSDIR}/print/texlive-bibtex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cm/cmtext-bsr-interpolated.map:${PORTSDIR}/print/texlive-cm \
 		${LOCALBASE}/share/texmf/dvipdfm/config/config:${PORTSDIR}/print/texlive-dvipdfm \

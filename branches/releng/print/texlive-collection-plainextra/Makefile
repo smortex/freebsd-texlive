@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-plainextra
-PORTVERSION=	20101110
+PORTVERSION=	20101215
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -31,7 +31,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/plain/figflow/figflow.tex:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/plain/treetex/treetex.tex:${PORTSDIR}/print/texlive-treetex \
 		${LOCALBASE}/share/texmf-dist/tex/plain/varisize/10point.tex:${PORTSDIR}/print/texlive-varisize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
-		${LOCALBASE}/share/texmf-dist/tex/latex/apalike/apalike.sty:${PORTSDIR}/print/texlive-apalike \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/base/xampl.bib:${PORTSDIR}/print/texlive-bibtex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cm/cmtext-bsr-interpolated.map:${PORTSDIR}/print/texlive-cm \
 		${LOCALBASE}/share/texmf/dvipdfm/config/config:${PORTSDIR}/print/texlive-dvipdfm \

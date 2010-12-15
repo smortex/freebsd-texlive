@@ -1,12 +1,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/ifmslide/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/ifmslide/genbutton
-%%PORTDOCS%%share/texmf-dist/doc/latex/ifmslide/ifmman.dep
 %%PORTDOCS%%share/texmf-dist/doc/latex/ifmslide/ifmman.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/ifmslide/ifmman.tex
 share/texmf-dist/tex/latex/ifmslide/aqua_ravines.eps
 share/texmf-dist/tex/latex/ifmslide/aqua_ravines.jpg
-share/texmf-dist/tex/latex/ifmslide/athenep1.eps
-share/texmf-dist/tex/latex/ifmslide/athenep1.pdf
 share/texmf-dist/tex/latex/ifmslide/button1c.eps
 share/texmf-dist/tex/latex/ifmslide/button1c.pdf
 share/texmf-dist/tex/latex/ifmslide/button1e.eps
