@@ -6,8 +6,6 @@
 %%PORTDOCS%%share/texmf/doc/man/man1/fixdlsrps.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/fixfmps.1
 %%PORTDOCS%%share/texmf/doc/man/man1/fixfmps.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/fixmacps.1
-%%PORTDOCS%%share/texmf/doc/man/man1/fixmacps.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/fixpsditps.1
 %%PORTDOCS%%share/texmf/doc/man/man1/fixpsditps.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/fixpspps.1
@@ -36,9 +34,6 @@
 %%PORTDOCS%%share/texmf/doc/man/man1/psselect.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/pstops.1
 %%PORTDOCS%%share/texmf/doc/man/man1/pstops.man1.pdf
-share/texmf/dvips/psutils/md68_0.ps
-share/texmf/dvips/psutils/md71_0.ps
-@dirrmtry share/texmf/dvips/psutils
 @dirrmtry share/texmf/doc/man/man1
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

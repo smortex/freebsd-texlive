@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	msuthesis
-PORTVERSION=	20101215
+PORTVERSION=	20101217
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The msuthesis package
+COMMENT=	Class for Michigan State University Master's and PhD theses.
 
 NOPORTSRC=	yes
 
