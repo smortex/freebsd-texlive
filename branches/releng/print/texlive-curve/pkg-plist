@@ -3,13 +3,18 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/curve/THANKS
 %%PORTDOCS%%share/texmf-dist/doc/latex/curve/curve.el
 %%PORTDOCS%%share/texmf-dist/doc/latex/curve/curve.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/curve/cv.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/curve/rubric.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/curve/examples/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/curve/examples/bib.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/curve/examples/bib.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/curve/examples/raw.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/curve/examples/rubric.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/curve/header.inc
 %%PORTSRC%%share/texmf-dist/source/latex/curve/curve.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/curve/curve.ins
 share/texmf-dist/tex/latex/curve/curve.cls
 @dirrmtry share/texmf-dist/tex/latex/curve
 @dirrmtry share/texmf-dist/source/latex/curve
+@dirrmtry share/texmf-dist/doc/latex/curve/examples
 @dirrmtry share/texmf-dist/doc/latex/curve
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
