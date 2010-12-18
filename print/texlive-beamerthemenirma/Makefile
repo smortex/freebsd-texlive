@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-tabu
-# Date created:		11/14/2010 04:59:37
+# New ports collection makefile for:	texlive-beamerthemenirma
+# Date created:		12/18/2010 04:48:28
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	tabu
+PORTNAME=	beamerthemenirma
 PORTVERSION=	20101218
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Flexible LaTeX tabulars.
+COMMENT=	A Beamer theme for academic presentations.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

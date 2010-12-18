@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20101215
+PORTVERSION=	20101218
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -163,6 +163,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/background/background.sty:${PORTSDIR}/print/texlive-background \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamer-contrib/beamerthemeJLTree.sty:${PORTSDIR}/print/texlive-beamer-contrib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerposter/beamerposter.sty:${PORTSDIR}/print/texlive-beamerposter \
+		${LOCALBASE}/share/texmf-dist/tex/latex/beamerthemenirma/beamerthemenirma.sty:${PORTSDIR}/print/texlive-beamerthemenirma \
 		${LOCALBASE}/share/texmf-dist/tex/latex/begriff/begriff.sty:${PORTSDIR}/print/texlive-begriff \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beton/beton.sty:${PORTSDIR}/print/texlive-beton \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bez123/bez123.sty:${PORTSDIR}/print/texlive-bez123 \

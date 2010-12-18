@@ -1,9 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/xlop/LISEZ.MOI
-%%PORTDOCS%%share/texmf-dist/doc/generic/xlop/README
-%%PORTDOCS%%share/texmf-dist/doc/generic/xlop/XLOP03
-%%PORTDOCS%%share/texmf-dist/doc/generic/xlop/fr-user.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/xlop/fr-user.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/xlop/READ.ME
 %%PORTDOCS%%share/texmf-dist/doc/generic/xlop/history.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/xlop/xlop-doc-fr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/xlop/xlop-doc-fr.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/xlop/xlop-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/xlop/xlop-doc.tex
 %%PORTSRC%%share/texmf-dist/source/generic/xlop/manual.sty
 share/texmf-dist/tex/generic/xlop/xlop.sty
 share/texmf-dist/tex/generic/xlop/xlop.tex
