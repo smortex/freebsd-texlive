@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerthemenirma/README
+share/texmf-dist/tex/latex/beamerthemenirma/beamerthemenirma.sty
+@dirrmtry share/texmf-dist/tex/latex/beamerthemenirma
+@dirrmtry share/texmf-dist/doc/latex/beamerthemenirma
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
