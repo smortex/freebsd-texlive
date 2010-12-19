@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-omega
-PORTVERSION=	20101215
+PORTVERSION=	20101219
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -15,7 +15,6 @@ COMMENT=	Omega
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/lambda/antomega/antomega.sty:${PORTSDIR}/print/texlive-antomega \
 		${LOCALBASE}/share/texmf-dist/tex/lambda/base/lambda.tex:${PORTSDIR}/print/texlive-lambda \
-		${LOCALBASE}/share/texmf-dist/tex/latex/mxd/mxd.sty:${PORTSDIR}/print/texlive-mxd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mxedruli/mxedruli.sty:${PORTSDIR}/print/texlive-mxedruli \
 		${LOCALBASE}/share/texmf-dist/tex/plain/omega/omega.tex:${PORTSDIR}/print/texlive-omega \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \

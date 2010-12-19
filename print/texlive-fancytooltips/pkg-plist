@@ -1,8 +1,15 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview/fancy-preview
 %%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview/fancy-preview-demo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview/fancy-preview-demo.sin.table
 %%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview/fancy-preview-demo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview/fancypreview.bat
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview2/LDF.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview2/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview2/complie.sh
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview2/fancy-preview
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview2/marik.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview2/slides.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview2/slides.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancytooltips-example-dvips.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancytooltips-example-dvips.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancytooltips-example-min-dvips.pdf
@@ -34,7 +41,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/tooltips2html2.html
 %%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tooltipy.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tooltipy.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tooltipy.tips
 %%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/fancytooltips.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/readme
 %%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/tip.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/tip.tex
 %%PORTSRC%%share/texmf-dist/source/latex/fancytooltips/fancytooltips.dtx
@@ -47,6 +56,7 @@ share/texmf-dist/tex/latex/fancytooltips/fancytooltips.sty
 @dirrmtry share/texmf-dist/source/latex/fancytooltips
 @dirrmtry share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/images
 @dirrmtry share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht
+@dirrmtry share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview2
 @dirrmtry share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview
 @dirrmtry share/texmf-dist/doc/latex/fancytooltips/examples
 @dirrmtry share/texmf-dist/doc/latex/fancytooltips

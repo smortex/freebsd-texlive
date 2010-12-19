@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-msuthesis
-# Date created:		12/15/2010 05:04:57
+# New ports collection makefile for:	texlive-comfortaa
+# Date created:		12/19/2010 04:39:16
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	msuthesis
+PORTNAME=	comfortaa
 PORTVERSION=	20101219
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class for Michigan State University Master's and PhD theses.
+COMMENT=	Sans serif font, with LaTeX support.
 
 NOPORTSRC=	yes
 
