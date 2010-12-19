@@ -1,5 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/book.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/fancytipmark.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-article.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-article.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-example-beamer-Hannover.pdf
@@ -33,7 +34,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-test.bat
 %%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-test.sh
 %%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/ocgtools-test.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/pdfscreen.cfg
 %%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/tall.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/tall.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/ocgtools/examples/wide.jpg
