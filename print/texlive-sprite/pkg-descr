@@ -1,7 +1,0 @@
-The 'sprite' format the package sets is very simple, and may be
-viewed in a fixed-width font rather readily. The package
-provides the means of typesetting these sprites at arbitrary
-sizes; in principal, one might use them to substitute for
-characters one needed, but the author notes that their use is
-rather TeX-memory-intensive so that their use as a font
-substitute is hardly likely to be tenable.
