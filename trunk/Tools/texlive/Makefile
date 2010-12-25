@@ -124,3 +124,4 @@ commit:
 	@echo "===>  Committing..."
 .endif
 	@svn commit -m "(releng) Sync TeXLive packages with upstream." "${RELENGDIR}"
+	@(cd "${RELENGDIR}" && svn up) > /dev/null
