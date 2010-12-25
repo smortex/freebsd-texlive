@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/lpic/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/lpic/instructions-differential.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/lpic/instructions-differential.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lpic/instructions.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lpic/instructions.tex
+share/texmf-dist/tex/latex/lpic/lpic.sty
+@dirrmtry share/texmf-dist/tex/latex/lpic
+@dirrmtry share/texmf-dist/doc/latex/lpic
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

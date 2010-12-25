@@ -2,8 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latex2man/INSTALL
 %%PORTDOCS%%share/texmf-dist/doc/support/latex2man/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/support/latex2man/README
-%%PORTDOCS%%share/texmf-dist/doc/support/latex2man/THIS-IS-VERSION-1.23
+%%PORTDOCS%%share/texmf-dist/doc/support/latex2man/THIS-IS-VERSION-1.24
+%%PORTDOCS%%share/texmf-dist/doc/support/latex2man/latex2man-CHANGES.html
 %%PORTDOCS%%share/texmf-dist/doc/support/latex2man/latex2man.1
+%%PORTDOCS%%share/texmf-dist/doc/support/latex2man/latex2man.css
 %%PORTDOCS%%share/texmf-dist/doc/support/latex2man/latex2man.html
 %%PORTDOCS%%share/texmf-dist/doc/support/latex2man/latex2man.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/latex2man/latex2man.tex

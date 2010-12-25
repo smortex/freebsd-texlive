@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/ucharclasses/README
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/ucharclasses/ucharclasses.pdf
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/ucharclasses/ucharclasses.tex
-share/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty
-@dirrmtry share/texmf-dist/tex/xelatex/ucharclasses
-@dirrmtry share/texmf-dist/doc/xelatex/ucharclasses
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
