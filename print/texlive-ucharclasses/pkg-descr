@@ -1,5 +1,0 @@
-The package takes care of switching fonts when you switch from
-one Unicode block to another in the text of a document. This
-way, you can write a document with no explicit font selection,
-but a series of rules of the form "when entering block , switch
-font to use ".
