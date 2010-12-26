@@ -1,31 +1,8 @@
-%%PORTDOCS%%share/texmf-dist/doc/fonts/ean/README
-%%PORTDOCS%%share/texmf-dist/doc/fonts/ean/ocrbinfo
-share/texmf-dist/fonts/source/public/ean/ocrb10.mf
-share/texmf-dist/fonts/source/public/ean/ocrb10e.mf
-share/texmf-dist/fonts/source/public/ean/ocrb10f.mf
-share/texmf-dist/fonts/source/public/ean/ocrb10g.mf
-share/texmf-dist/fonts/source/public/ean/ocrb10l.mf
-share/texmf-dist/fonts/source/public/ean/ocrb10s.mf
-share/texmf-dist/fonts/source/public/ean/ocrb10x.mf
-share/texmf-dist/fonts/source/public/ean/ocrb5.mf
-share/texmf-dist/fonts/source/public/ean/ocrb6.mf
-share/texmf-dist/fonts/source/public/ean/ocrb7.mf
-share/texmf-dist/fonts/source/public/ean/ocrb8.mf
-share/texmf-dist/fonts/source/public/ean/ocrb9.mf
-share/texmf-dist/fonts/source/public/ean/ocrbdef.mf
-share/texmf-dist/fonts/source/public/ean/ocrbmac.mf
-share/texmf-dist/fonts/tfm/public/ean/ocrb10.tfm
-share/texmf-dist/fonts/tfm/public/ean/ocrb5.tfm
-share/texmf-dist/fonts/tfm/public/ean/ocrb6.tfm
-share/texmf-dist/fonts/tfm/public/ean/ocrb7.tfm
-share/texmf-dist/fonts/tfm/public/ean/ocrb8.tfm
-share/texmf-dist/fonts/tfm/public/ean/ocrb9.tfm
+%%PORTDOCS%%share/texmf-dist/doc/generic/ean/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/ean/eantest.tex
 share/texmf-dist/tex/generic/ean/ean13.tex
 share/texmf-dist/tex/generic/ean/ean8.tex
-share/texmf-dist/tex/generic/ean/eantest.tex
 @dirrmtry share/texmf-dist/tex/generic/ean
-@dirrmtry share/texmf-dist/fonts/tfm/public/ean
-@dirrmtry share/texmf-dist/fonts/source/public/ean
-@dirrmtry share/texmf-dist/doc/fonts/ean
+@dirrmtry share/texmf-dist/doc/generic/ean
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

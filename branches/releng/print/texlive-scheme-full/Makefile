@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20101225
+PORTVERSION=	20101226
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -237,9 +237,10 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/dingbat/dingbat.sty:${PORTSDIR}/print/texlive-dingbat \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/doublestroke/dstroke.map:${PORTSDIR}/print/texlive-doublestroke \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dozenal/dozenal.sty:${PORTSDIR}/print/texlive-dozenal \
+		${LOCALBASE}/share/texmf-dist/tex/latex/droid/droid.sty:${PORTSDIR}/print/texlive-droid \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/duerer/cdb10.mf:${PORTSDIR}/print/texlive-duerer \
 		${LOCALBASE}/share/texmf-dist/tex/latex/duerer-latex/duerer.sty:${PORTSDIR}/print/texlive-duerer-latex \
-		${LOCALBASE}/share/texmf-dist/fonts/source/public/ean/ocrb10.mf:${PORTSDIR}/print/texlive-ean \
+		${LOCALBASE}/share/texmf-dist/tex/generic/ean/ean13.tex:${PORTSDIR}/print/texlive-ean \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/ecc/conc10pt.mf:${PORTSDIR}/print/texlive-ecc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eco/eco.sty:${PORTSDIR}/print/texlive-eco \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/eiad/eiadb10.mf:${PORTSDIR}/print/texlive-eiad \
@@ -298,6 +299,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc:${PORTSDIR}/print/texlive-mnsymbol \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/nkarta/nkarta.mf:${PORTSDIR}/print/texlive-nkarta \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/ocherokee/Cherokee-Bold.afm:${PORTSDIR}/print/texlive-ocherokee \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/ocr-b/ocrb10.mf:${PORTSDIR}/print/texlive-ocr-b \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/ogham/ogham.mf:${PORTSDIR}/print/texlive-ogham \
 		${LOCALBASE}/share/texmf-dist/tex/lambda/oinuit/oinuit.sty:${PORTSDIR}/print/texlive-oinuit \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/oldlatin/olb10.mf:${PORTSDIR}/print/texlive-oldlatin \
