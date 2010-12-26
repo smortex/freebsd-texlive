@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-comfortaa
-# Date created:		12/19/2010 04:39:16
+# New ports collection makefile for:	texlive-droid
+# Date created:		12/26/2010 04:39:13
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	comfortaa
+PORTNAME=	droid
 PORTVERSION=	20101226
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Sans serif font, with LaTeX support.
+COMMENT=	LaTeX support for the Droid font families.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

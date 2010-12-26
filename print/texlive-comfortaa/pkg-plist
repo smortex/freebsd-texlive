@@ -1,3 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/comfortaa/CHANGES
 %%PORTDOCS%%share/texmf-dist/doc/fonts/comfortaa/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/fonts/comfortaa/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/comfortaa/README.comfortaa
@@ -13,6 +14,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/comfortaa/comfortaa.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/comfortaa/comfortaa.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/comfortaa/manifest.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/comfortaa/source/comfortaa/CHANGES
 %%PORTDOCS%%share/texmf-dist/doc/fonts/comfortaa/source/comfortaa/README.comfortaa
 %%PORTDOCS%%share/texmf-dist/doc/fonts/comfortaa/source/comfortaa/comfortaa.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/comfortaa/source/comfortaa/comfortaa.tex

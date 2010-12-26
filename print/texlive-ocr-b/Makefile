@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-comfortaa
-# Date created:		12/19/2010 04:39:16
+# New ports collection makefile for:	texlive-ocr-b
+# Date created:		12/26/2010 04:40:12
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	comfortaa
+PORTNAME=	ocr-b
 PORTVERSION=	20101226
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Sans serif font, with LaTeX support.
+COMMENT=	Fonts for OCR-B.
 
 NOPORTSRC=	yes
 
