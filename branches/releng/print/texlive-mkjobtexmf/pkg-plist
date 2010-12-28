@@ -1,7 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/README
 %%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/mkjobtexmf.html
 %%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/mkjobtexmf.ltx
-%%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/mkjobtexmf.man
 %%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/mkjobtexmf.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/mkjobtexmf.txt
 %%PORTSRC%%share/texmf-dist/source/generic/mkjobtexmf/Makefile.in

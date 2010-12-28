@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20101225
+PORTVERSION=	20101228
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -89,7 +89,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/drs/drs.sty:${PORTSDIR}/print/texlive-drs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/duotenzor/duotenzor.sty:${PORTSDIR}/print/texlive-duotenzor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eepic/eepic.sty:${PORTSDIR}/print/texlive-eepic \
-		${LOCALBASE}/share/texmf-dist/scripts/epspdf/epspdf:${PORTSDIR}/print/texlive-epspdf \
+		${LOCALBASE}/share/texmf-dist/scripts/epspdf/epspdf.help:${PORTSDIR}/print/texlive-epspdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/epspdfconversion/epspdfconversion.sty:${PORTSDIR}/print/texlive-epspdfconversion \
 		${LOCALBASE}/share/texmf-dist/tex/latex/esk/esk.sty:${PORTSDIR}/print/texlive-esk \
 		${LOCALBASE}/share/texmf-dist/scripts/fig4latex/fig4latex:${PORTSDIR}/print/texlive-fig4latex \
