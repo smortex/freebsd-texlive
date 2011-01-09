@@ -1,6 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/censor/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/censor/censor.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/censor/censor.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/censor/manifest.txt
 share/texmf-dist/tex/latex/censor/censor.sty
 @dirrmtry share/texmf-dist/tex/latex/censor
 @dirrmtry share/texmf-dist/doc/latex/censor

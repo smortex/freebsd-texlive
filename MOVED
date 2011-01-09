@@ -66,3 +66,9 @@ print/texlive-tracking||2010-12-21|Upstream support dropped
 print/texlive-tree-dvips||2010-12-21|Upstream support dropped
 print/texlive-jhep||2010-12-24|Upstream support dropped
 print/texlive-ucharclasses||2010-12-25|Upstream support dropped
+print/texlive-acmtrans||2011-01-08|Upstream support dropped
+print/texlive-ytex||2011-01-08|Upstream support dropped
+print/texlive-zefonts||2011-01-08|Upstream support dropped
+print/texlive-acmtrans||2011-01-09|Upstream support dropped
+print/texlive-ytex||2011-01-09|Upstream support dropped
+print/texlive-zefonts||2011-01-09|Upstream support dropped

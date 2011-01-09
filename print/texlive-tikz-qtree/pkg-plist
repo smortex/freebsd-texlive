@@ -1,6 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-qtree/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-qtree/test.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-qtree/test.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-qtree/tests.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-qtree/tikz-qtree-manual.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-qtree/tikz-qtree-manual.tex
 share/texmf-dist/tex/latex/tikz-qtree/pgfsubpic.sty

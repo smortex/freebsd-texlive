@@ -1,3 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/droid/CHANGES
 %%PORTDOCS%%share/texmf-dist/doc/fonts/droid/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/droid/droid.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/droid/droid.tex
@@ -624,6 +625,7 @@ share/texmf-dist/fonts/vf/public/droid/x2-DroidSerif-Regular-Slanted-SmallCaps.v
 share/texmf-dist/fonts/vf/public/droid/x2-DroidSerif-Regular-Slanted.vf
 share/texmf-dist/fonts/vf/public/droid/x2-DroidSerif-Regular-SmallCaps.vf
 share/texmf-dist/fonts/vf/public/droid/x2-DroidSerif-Regular.vf
+%%PORTSRC%%share/texmf-dist/source/droid/CHANGES
 %%PORTSRC%%share/texmf-dist/source/droid/Makefile
 %%PORTSRC%%share/texmf-dist/source/droid/README
 %%PORTSRC%%share/texmf-dist/source/droid/droid-drv.tex

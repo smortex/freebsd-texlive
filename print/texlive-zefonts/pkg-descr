@@ -1,4 +1,0 @@
-Virtual T1 encoded (mostly) Computer Modern fonts based on
-(OT1) Computer Modern together with Times and Helvetica fonts,
-intended to simulate 'ec' fonts. The 'ae' fonts do a similar
-task, but miss some glyphs that aren't available in OT1.
