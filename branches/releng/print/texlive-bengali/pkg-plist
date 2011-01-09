@@ -1,3 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bengali/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bengali/bengdoc.bn
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bengali/bengdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bengali/example.bn
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bengali/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bengali/manifest.txt
 share/texmf-dist/fonts/source/public/bengali/bn.mf
 share/texmf-dist/fonts/source/public/bengali/bnbanjon.mf
 share/texmf-dist/fonts/source/public/bengali/bndigit.mf
@@ -19,8 +25,6 @@ share/texmf-dist/fonts/tfm/public/bengali/bnsl10.tfm
 share/texmf-dist/fonts/tfm/public/bengali/xbnr10.tfm
 share/texmf-dist/fonts/tfm/public/bengali/xbnsl10.tfm
 %%PORTSRC%%share/texmf-dist/source/latex/bengali/beng.c
-%%PORTSRC%%share/texmf-dist/source/latex/bengali/bengdoc.bn
-%%PORTSRC%%share/texmf-dist/source/latex/bengali/example.bn
 share/texmf-dist/tex/latex/bengali/beng.sty
 share/texmf-dist/tex/latex/bengali/ubn.fd
 share/texmf-dist/tex/latex/bengali/ubnx.fd
@@ -28,5 +32,6 @@ share/texmf-dist/tex/latex/bengali/ubnx.fd
 @dirrmtry share/texmf-dist/source/latex/bengali
 @dirrmtry share/texmf-dist/fonts/tfm/public/bengali
 @dirrmtry share/texmf-dist/fonts/source/public/bengali
+@dirrmtry share/texmf-dist/doc/fonts/bengali
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

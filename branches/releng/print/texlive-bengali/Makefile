@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	bengali
-PORTVERSION=	20100922
+PORTVERSION=	20110109
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Support for the Bengali language.
 
-NOPORTDOCS=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

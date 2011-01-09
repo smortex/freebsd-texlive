@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/spanglish/README
+share/texmf-dist/tex/latex/spanglish/spanglish.ldf
+share/texmf-dist/tex/latex/spanglish/spanglish.sty
+@dirrmtry share/texmf-dist/tex/latex/spanglish
+@dirrmtry share/texmf-dist/doc/latex/spanglish
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

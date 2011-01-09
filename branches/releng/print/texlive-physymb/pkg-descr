@@ -1,0 +1,5 @@
+The package contains a large collection of small macros that
+may be useful to physicists and occasionally some
+mathematicians. It streamlines writing Dirac notation,
+derivatives, vector variables, unit vectors, scientific
+notation, elementary particles, and many other things.

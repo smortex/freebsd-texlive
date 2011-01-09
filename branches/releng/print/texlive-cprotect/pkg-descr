@@ -1,0 +1,6 @@
+The package defines the macro \cprotect that makes a following
+macro proof against verbatim in its argument; as, for example,
+\cprotect\section{\verb"foo"} A similar macro \cprotEnv
+(applied to the \begin of an environment) sanitises the
+behavior of fragile environments. Moving arguments, and
+corresponding tables of work happily.

@@ -2,6 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/filehook/filehook.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/filehook/filehook.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/filehook/filehook.ins
+share/texmf-dist/tex/latex/filehook/filehook-fink.sty
+share/texmf-dist/tex/latex/filehook/filehook-listings.sty
+share/texmf-dist/tex/latex/filehook/filehook-memoir.sty
+share/texmf-dist/tex/latex/filehook/filehook-scrlfile.sty
 share/texmf-dist/tex/latex/filehook/filehook.sty
 @dirrmtry share/texmf-dist/tex/latex/filehook
 @dirrmtry share/texmf-dist/source/latex/filehook

@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/productbox/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/productbox/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/productbox/productbox.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/productbox/productbox.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/productbox/productbox.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/productbox/productbox.ins
+share/texmf-dist/tex/latex/productbox/productbox.sty
+@dirrmtry share/texmf-dist/tex/latex/productbox
+@dirrmtry share/texmf-dist/source/latex/productbox
+@dirrmtry share/texmf-dist/doc/latex/productbox
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

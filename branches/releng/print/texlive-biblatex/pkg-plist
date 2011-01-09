@@ -47,6 +47,8 @@ share/texmf-dist/bibtex/csf/biblatex/winansi_se.csf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/17-numeric-prefixed-2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/18-numeric-hybrid.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/18-numeric-hybrid.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/19-alphabetic-prefixed.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/19-alphabetic-prefixed.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/20-indexing-basic.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/20-indexing-basic.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/21-indexing-advanced.pdf
@@ -135,6 +137,7 @@ share/texmf-dist/tex/latex/biblatex/biblatex.cfg
 share/texmf-dist/tex/latex/biblatex/biblatex.def
 share/texmf-dist/tex/latex/biblatex/biblatex.sty
 share/texmf-dist/tex/latex/biblatex/blx-compat.def
+share/texmf-dist/tex/latex/biblatex/blx-mcite.def
 share/texmf-dist/tex/latex/biblatex/blx-natbib.def
 share/texmf-dist/tex/latex/biblatex/cbx/alphabetic-verb.cbx
 share/texmf-dist/tex/latex/biblatex/cbx/alphabetic.cbx

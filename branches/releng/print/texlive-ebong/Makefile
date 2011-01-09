@@ -6,9 +6,8 @@
 #
 
 PORTNAME=	ebong
-PORTVERSION=	20100922
+PORTVERSION=	20110109
 CATEGORIES=	print
-DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Utility for writing Bengali in Rapid Roman Format.

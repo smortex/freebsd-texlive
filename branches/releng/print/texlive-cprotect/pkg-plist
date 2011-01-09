@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cprotect/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/cprotect/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/cprotect/cprotect.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/cprotect/cprotect.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/cprotect/cprotect.ins
+share/texmf-dist/tex/latex/cprotect/cprotect.sty
+@dirrmtry share/texmf-dist/tex/latex/cprotect
+@dirrmtry share/texmf-dist/source/latex/cprotect
+@dirrmtry share/texmf-dist/doc/latex/cprotect
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

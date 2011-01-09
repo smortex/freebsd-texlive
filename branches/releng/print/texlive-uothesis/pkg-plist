@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/uothesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/uothesis/uothesis.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/uothesis/uothesis.dtx
+share/texmf-dist/tex/latex/uothesis/uothesis.cls
+@dirrmtry share/texmf-dist/tex/latex/uothesis
+@dirrmtry share/texmf-dist/source/latex/uothesis
+@dirrmtry share/texmf-dist/doc/latex/uothesis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
