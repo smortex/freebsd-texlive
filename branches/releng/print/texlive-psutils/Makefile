@@ -6,9 +6,8 @@
 #
 
 PORTNAME=	psutils
-PORTVERSION=	20101217
+PORTVERSION=	20110111
 CATEGORIES=	print
-DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	PostScript utilities.
