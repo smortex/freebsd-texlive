@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontutils
-PORTVERSION=	20101217
+PORTVERSION=	20110111
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -49,6 +49,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf/fonts/enc/dvips/afm2pl/afm2pl-ot1.enc:${PORTSDIR}/print/texlive-afm2pl \
 		${LOCALBASE}/share/texmf-dist/scripts/epstopdf/epstopdf.pl:${PORTSDIR}/print/texlive-epstopdf \
 		${LOCALBASE}/share/texmf/doc/man/man1/mag.1:${PORTSDIR}/print/texlive-ps2pkm \
+		${LOCALBASE}/share/texmf/scripts/ps2eps/ps2eps.pl:${PORTSDIR}/print/texlive-pstools \
+		${LOCALBASE}/share/texmf/scripts/psutils/extractres.pl:${PORTSDIR}/print/texlive-psutils \
 		${LOCALBASE}/share/texmf-dist/dvips/dvipsconfig/README:${PORTSDIR}/print/texlive-dvipsconfig \
 		${LOCALBASE}/share/texmf-dist/tex/fontinst/base/fontinst.sty:${PORTSDIR}/print/texlive-fontinst \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/fontools/fontools_ly1.enc:${PORTSDIR}/print/texlive-fontools \

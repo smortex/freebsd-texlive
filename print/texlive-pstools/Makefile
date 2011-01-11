@@ -6,9 +6,8 @@
 #
 
 PORTNAME=	pstools
-PORTVERSION=	20100922
+PORTVERSION=	20110111
 CATEGORIES=	print
-DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Produce Encapsulated PostScript from PostScript.
