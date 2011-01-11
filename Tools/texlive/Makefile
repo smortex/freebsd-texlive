@@ -24,9 +24,9 @@ FTLMIRROR?=	rsync://distrib-coffee.ipsl.jussieu.fr/pub/mirrors/ctan/systems/texl
 # -------------------------------------------------------------------------
 
 # Changing this with no good reason to do so will break this Makefile:
-FETCHDIR?=	${DISTDIR}/TeXLive/
+FETCHDIR?=	${DISTDIR}/TeXLive
 PORTSDIR?=	/usr/ports
-RELENGDIR?=	${FTLROOT}/branches/releng/
+RELENGDIR?=	${FTLROOT}/branches/releng
 SVNROOT?=	https://freebsd-texlive.googlecode.com/svn
 
 # -------------------------------------------------------------------------
@@ -80,13 +80,13 @@ fetch:
 .ifdef V
 	@echo "===>  Updating source tarballs..."
 .endif
-	@cd ${FETCHDIR} && rsync ${RSYNC_VERBOSE} -a --no-motd --delete ${FTLMIRROR} .
+	@cd ${FETCHDIR} && rsync ${RSYNC_VERBOSE} -a -c --no-motd --delete ${FTLMIRROR} .
 
 extract:
 .ifdef V
 	@echo "===>  Extracting source tarballs..."
 .endif
-	@for i in ${FETCHDIR}/*.tar.xz; do nice -n 15 tar xf $$i tlpkg/tlpobj/; done
+	@for i in ${FETCHDIR}/*.tar.xz; do nice -n 15 tar xf $$i tlpkg/tlpobj/ || ( echo $$i && false ); done
 
 link:
 .ifdef V
