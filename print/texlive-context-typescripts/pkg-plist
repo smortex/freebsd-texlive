@@ -3,6 +3,8 @@ share/texmf-dist/tex/context/third/typescripts/type-adobe.mkii
 share/texmf-dist/tex/context/third/typescripts/type-adobe.mkiv
 share/texmf-dist/tex/context/third/typescripts/type-aller.mkii
 share/texmf-dist/tex/context/third/typescripts/type-aller.mkiv
+share/texmf-dist/tex/context/third/typescripts/type-anivers.mkii
+share/texmf-dist/tex/context/third/typescripts/type-anivers.mkiv
 share/texmf-dist/tex/context/third/typescripts/type-apostrophiclab.mkii
 share/texmf-dist/tex/context/third/typescripts/type-apostrophiclab.mkiv
 share/texmf-dist/tex/context/third/typescripts/type-apostrophiclab.tex
@@ -22,11 +24,18 @@ share/texmf-dist/tex/context/third/typescripts/type-cmu.mkii
 share/texmf-dist/tex/context/third/typescripts/type-cmu.mkiv
 share/texmf-dist/tex/context/third/typescripts/type-dejavu.mkii
 share/texmf-dist/tex/context/third/typescripts/type-dejavu.mkiv
+share/texmf-dist/tex/context/third/typescripts/type-delicious.mkii
+share/texmf-dist/tex/context/third/typescripts/type-delicious.mkiv
+share/texmf-dist/tex/context/third/typescripts/type-diavlo.mkii
+share/texmf-dist/tex/context/third/typescripts/type-diavlo.mkiv
 share/texmf-dist/tex/context/third/typescripts/type-droid.mkii
 share/texmf-dist/tex/context/third/typescripts/type-droid.mkiv
 share/texmf-dist/tex/context/third/typescripts/type-exljbris.mkii
 share/texmf-dist/tex/context/third/typescripts/type-exljbris.mkiv
-share/texmf-dist/tex/context/third/typescripts/type-exljbris.tex
+share/texmf-dist/tex/context/third/typescripts/type-fertigo.mkii
+share/texmf-dist/tex/context/third/typescripts/type-fertigo.mkiv
+share/texmf-dist/tex/context/third/typescripts/type-fontin.mkii
+share/texmf-dist/tex/context/third/typescripts/type-fontin.mkiv
 share/texmf-dist/tex/context/third/typescripts/type-fontsite.mkii
 share/texmf-dist/tex/context/third/typescripts/type-fontsite.mkiv
 share/texmf-dist/tex/context/third/typescripts/type-fontsite.tex
@@ -50,6 +59,8 @@ share/texmf-dist/tex/context/third/typescripts/type-mgopen.mkii
 share/texmf-dist/tex/context/third/typescripts/type-mgopen.mkiv
 share/texmf-dist/tex/context/third/typescripts/type-mgopen.tex
 share/texmf-dist/tex/context/third/typescripts/type-miso.tex
+share/texmf-dist/tex/context/third/typescripts/type-museo.mkii
+share/texmf-dist/tex/context/third/typescripts/type-museo.mkiv
 share/texmf-dist/tex/context/third/typescripts/type-nichtlustig.tex
 share/texmf-dist/tex/context/third/typescripts/type-optical.tex
 share/texmf-dist/tex/context/third/typescripts/type-pigiarniq.mkii
@@ -63,6 +74,8 @@ share/texmf-dist/tex/context/third/typescripts/type-samba.tex
 share/texmf-dist/tex/context/third/typescripts/type-smeltery.mkii
 share/texmf-dist/tex/context/third/typescripts/type-smeltery.mkiv
 share/texmf-dist/tex/context/third/typescripts/type-smeltery.tex
+share/texmf-dist/tex/context/third/typescripts/type-tallys.mkii
+share/texmf-dist/tex/context/third/typescripts/type-tallys.mkiv
 share/texmf-dist/tex/context/third/typescripts/type-tuffy.mkii
 share/texmf-dist/tex/context/third/typescripts/type-tuffy.mkiv
 share/texmf-dist/tex/context/third/typescripts/type-uqammaq.tex
