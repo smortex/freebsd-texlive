@@ -1,5 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/lato/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/lato/manifest.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/lato/CHANGES
 %%PORTDOCS%%share/texmf-dist/doc/latex/lato/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/lato/lato.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/lato/lato.tex
@@ -220,6 +221,7 @@ share/texmf-dist/fonts/vf/public/lato/ts1-Lato-Italic.vf
 share/texmf-dist/fonts/vf/public/lato/ts1-Lato-Light.vf
 share/texmf-dist/fonts/vf/public/lato/ts1-Lato-LightItalic.vf
 share/texmf-dist/fonts/vf/public/lato/ts1-Lato-Regular.vf
+%%PORTSRC%%share/texmf-dist/source/lato/CHANGES
 %%PORTSRC%%share/texmf-dist/source/lato/Makefile
 %%PORTSRC%%share/texmf-dist/source/lato/README
 %%PORTSRC%%share/texmf-dist/source/lato/lato-dotlessj.etx

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110111
+PORTVERSION=	20110113
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -296,6 +296,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/lxfonts/lxfonts.sty:${PORTSDIR}/print/texlive-lxfonts \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc:${PORTSDIR}/print/texlive-ly1 \
 		${LOCALBASE}/share/texmf-dist/tex/generic/mathabx/mathabx.sty:${PORTSDIR}/print/texlive-mathabx \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/mathabx-type1/mathabx.map:${PORTSDIR}/print/texlive-mathabx-type1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathdesign/mathdesign.sty:${PORTSDIR}/print/texlive-mathdesign \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdputu/mdputu.sty:${PORTSDIR}/print/texlive-mdputu \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc:${PORTSDIR}/print/texlive-mnsymbol \
