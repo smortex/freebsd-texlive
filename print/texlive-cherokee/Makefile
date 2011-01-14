@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	cherokee
-PORTVERSION=	20100922
+PORTVERSION=	20110114
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	A font for the Cherokee script.
 
-NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
