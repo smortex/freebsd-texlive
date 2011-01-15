@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-medium
-PORTVERSION=	20110111
+PORTVERSION=	20110115
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -257,7 +257,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/boldtensors/boldtensors.sty:${PORTSDIR}/print/texlive-boldtensors \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bosisio/accenti.sty:${PORTSDIR}/print/texlive-bosisio \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ccfonts/ccfonts.sty:${PORTSDIR}/print/texlive-ccfonts \
-		${LOCALBASE}/share/texmf-dist/tex/latex/circle/circle.sty:${PORTSDIR}/print/texlive-circle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/commath/commath.sty:${PORTSDIR}/print/texlive-commath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/concmath/concmath.sty:${PORTSDIR}/print/texlive-concmath \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/concrete/cccsc10.mf:${PORTSDIR}/print/texlive-concrete \
