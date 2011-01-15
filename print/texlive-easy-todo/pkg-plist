@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/easy-todo/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/easy-todo/easy-todo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/easy-todo/easy-todo.tex
+share/texmf-dist/tex/latex/easy-todo/easy-todo.sty
+@dirrmtry share/texmf-dist/tex/latex/easy-todo
+@dirrmtry share/texmf-dist/doc/latex/easy-todo
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-langafrican
-PORTVERSION=	20101215
+PORTVERSION=	20110115
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -16,6 +16,8 @@ COMMENT=	African scripts
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ethiop/ethiop.sty:${PORTSDIR}/print/texlive-ethiop \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/ethiop-t1/ethiop.map:${PORTSDIR}/print/texlive-ethiop-t1 \
 		${LOCALBASE}/share/texmf-dist/fonts/source/jknappen/fc/b-fcbx.mf:${PORTSDIR}/print/texlive-fc \
+		${LOCALBASE}/share/texmf/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/base/xampl.bib:${PORTSDIR}/print/texlive-bibtex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cm/cmtext-bsr-interpolated.map:${PORTSDIR}/print/texlive-cm \
@@ -28,8 +30,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ethiop/ethiop.sty:${PORTSDI
 		${LOCALBASE}/share/texmf-dist/tex/latex/etex-pkg/etex.sty:${PORTSDIR}/print/texlive-etex-pkg \
 		${LOCALBASE}/share/texmf-dist/fonts/map/glyphlist/glyphlist.txt:${PORTSDIR}/print/texlive-glyphlist \
 		${LOCALBASE}/share/texmf/dvips/gsftopk/render.ps:${PORTSDIR}/print/texlive-gsftopk \
-		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8 \
-		${LOCALBASE}/share/texmf/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
 		${LOCALBASE}/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty:${PORTSDIR}/print/texlive-ifluatex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty:${PORTSDIR}/print/texlive-ifxetex \
 		${LOCALBASE}/share/texmf/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \

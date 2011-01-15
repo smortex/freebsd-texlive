@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110113
+PORTVERSION=	20110115
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -826,6 +826,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/dtk/dtk.cls:${PORTSDIR}/print/texlive-dtk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dvdcoll/dvdcoll.cls:${PORTSDIR}/print/texlive-dvdcoll \
 		${LOCALBASE}/share/texmf-dist/tex/latex/easy/easy.sty:${PORTSDIR}/print/texlive-easy \
+		${LOCALBASE}/share/texmf-dist/tex/latex/easy-todo/easy-todo.sty:${PORTSDIR}/print/texlive-easy-todo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/easylist/easylist.sty:${PORTSDIR}/print/texlive-easylist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ean13isbn/ean13isbn.sty:${PORTSDIR}/print/texlive-ean13isbn \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebezier/ebezier.sty:${PORTSDIR}/print/texlive-ebezier \
@@ -1453,7 +1454,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/boldtensors/boldtensors.sty:${PORTSDIR}/print/texlive-boldtensors \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bosisio/accenti.sty:${PORTSDIR}/print/texlive-bosisio \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ccfonts/ccfonts.sty:${PORTSDIR}/print/texlive-ccfonts \
-		${LOCALBASE}/share/texmf-dist/tex/latex/circle/circle.sty:${PORTSDIR}/print/texlive-circle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/commath/commath.sty:${PORTSDIR}/print/texlive-commath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/concmath/concmath.sty:${PORTSDIR}/print/texlive-concmath \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/concrete/cccsc10.mf:${PORTSDIR}/print/texlive-concrete \

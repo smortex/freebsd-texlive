@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110109
+PORTVERSION=	20110115
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -292,6 +292,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/dtk/dtk.cls:${PORTSDIR}/print/texlive-dtk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dvdcoll/dvdcoll.cls:${PORTSDIR}/print/texlive-dvdcoll \
 		${LOCALBASE}/share/texmf-dist/tex/latex/easy/easy.sty:${PORTSDIR}/print/texlive-easy \
+		${LOCALBASE}/share/texmf-dist/tex/latex/easy-todo/easy-todo.sty:${PORTSDIR}/print/texlive-easy-todo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/easylist/easylist.sty:${PORTSDIR}/print/texlive-easylist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ean13isbn/ean13isbn.sty:${PORTSDIR}/print/texlive-ean13isbn \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebezier/ebezier.sty:${PORTSDIR}/print/texlive-ebezier \
