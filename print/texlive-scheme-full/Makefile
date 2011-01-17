@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110115
+PORTVERSION=	20110117
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1398,7 +1398,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/booktabs/booktabs.sty:${PORTSDIR}/print/texlive-booktabs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/caption/caption.sty:${PORTSDIR}/print/texlive-caption \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cite/cite.sty:${PORTSDIR}/print/texlive-cite \
-		${LOCALBASE}/share/texmf-dist/tex/latex/citeref/citeref.sty:${PORTSDIR}/print/texlive-citeref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmap/cmap.sty:${PORTSDIR}/print/texlive-cmap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/crop/crop.sty:${PORTSDIR}/print/texlive-crop \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ctable/ctable.sty:${PORTSDIR}/print/texlive-ctable \
