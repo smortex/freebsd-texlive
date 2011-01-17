@@ -1,5 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/ed/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/ed/ed.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ed/ed.sty.ltxml
 %%PORTSRC%%share/texmf-dist/source/latex/ed/ed.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/ed/ed.ins
 share/texmf-dist/tex/latex/ed/ed.sty

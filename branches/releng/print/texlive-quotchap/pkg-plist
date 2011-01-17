@@ -1,6 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/quotchap/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/quotchap/document.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/quotchap/document.tex
-%%PORTSRC%%share/texmf-dist/source/latex/quotchap/00readme.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/quotchap/quotchap.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/quotchap/quotchap.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/quotchap/quotchap.ins
 share/texmf-dist/tex/latex/quotchap/quotchap.sty

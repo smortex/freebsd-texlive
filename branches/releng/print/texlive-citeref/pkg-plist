@@ -1,4 +1,0 @@
-share/texmf-dist/tex/latex/citeref/citeref.sty
-@dirrmtry share/texmf-dist/tex/latex/citeref
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
