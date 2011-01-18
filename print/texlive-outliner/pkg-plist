@@ -1,4 +1,3 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/outliner/outline_test.dvi
 %%PORTDOCS%%share/texmf-dist/doc/latex/outliner/outline_test.tex
 share/texmf-dist/tex/latex/outliner/outliner.sty
 @dirrmtry share/texmf-dist/tex/latex/outliner
