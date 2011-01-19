@@ -12,7 +12,6 @@ share/texmf-dist/tex/latex/interfaces/interfaces-enumitem.sty
 share/texmf-dist/tex/latex/interfaces/interfaces-environ.sty
 share/texmf-dist/tex/latex/interfaces/interfaces-etoolbox.sty
 share/texmf-dist/tex/latex/interfaces/interfaces-fancyhdr.sty
-share/texmf-dist/tex/latex/interfaces/interfaces-graphics.sty
 share/texmf-dist/tex/latex/interfaces/interfaces-hypbmsec.sty
 share/texmf-dist/tex/latex/interfaces/interfaces-hyperref.sty
 share/texmf-dist/tex/latex/interfaces/interfaces-makecell.sty

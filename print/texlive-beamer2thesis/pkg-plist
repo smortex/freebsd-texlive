@@ -1,0 +1,23 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer2thesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer2thesis/beamer2thesis.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer2thesis/beamer2thesis.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer2thesis/beamer2thesis_ita.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer2thesis/beamer2thesis_ita.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer2thesis/beamer2thesis_logos.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer2thesis/beamer2thesis_logos.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer2thesis/content_end.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer2thesis/content_end_ita.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer2thesis/content_initial.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer2thesis/content_initial_ita.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer2thesis/license
+share/texmf-dist/tex/latex/beamer2thesis/beamer2thesis.jpg
+share/texmf-dist/tex/latex/beamer2thesis/beamercolorthemetorinoth.sty
+share/texmf-dist/tex/latex/beamer2thesis/beamerfontthemetorinoth.sty
+share/texmf-dist/tex/latex/beamer2thesis/beamerinnerthemetorinoth.sty
+share/texmf-dist/tex/latex/beamer2thesis/beamerouterthemetorinoth.sty
+share/texmf-dist/tex/latex/beamer2thesis/beamerthemeTorinoTh.sty
+share/texmf-dist/tex/latex/beamer2thesis/logopolito.jpg
+@dirrmtry share/texmf-dist/tex/latex/beamer2thesis
+@dirrmtry share/texmf-dist/doc/latex/beamer2thesis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

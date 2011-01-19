@@ -1,6 +1,8 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/cmbright/copyrite.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/cmbright/manifest.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/cmbright/readme
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cmbright/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cmbright/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cmbright/cmbright.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cmbright/manifest.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/cmbright/cmbright.pdf
 share/texmf-dist/fonts/source/public/cmbright/ams10pt.mf
 share/texmf-dist/fonts/source/public/cmbright/ams8pt.mf
 share/texmf-dist/fonts/source/public/cmbright/ams9pt.mf
@@ -76,7 +78,6 @@ share/texmf-dist/fonts/source/public/cmbright/ebsr8.mf
 share/texmf-dist/fonts/source/public/cmbright/ebsr9.mf
 share/texmf-dist/fonts/source/public/cmbright/ebtl10.mf
 share/texmf-dist/fonts/source/public/cmbright/ebto10.mf
-share/texmf-dist/fonts/source/public/cmbright/manifest.txt
 share/texmf-dist/fonts/source/public/cmbright/mathsl.mf
 share/texmf-dist/fonts/source/public/cmbright/msa.mf
 share/texmf-dist/fonts/source/public/cmbright/msb.mf
@@ -166,10 +167,8 @@ share/texmf-dist/fonts/tfm/public/cmbright/tbsr8.tfm
 share/texmf-dist/fonts/tfm/public/cmbright/tbsr9.tfm
 share/texmf-dist/fonts/tfm/public/cmbright/tbtl10.tfm
 share/texmf-dist/fonts/tfm/public/cmbright/tbto10.tfm
-%%PORTSRC%%share/texmf-dist/source/latex/cmbright/cmbr.fdd
 %%PORTSRC%%share/texmf-dist/source/latex/cmbright/cmbright.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/cmbright/cmbright.ins
-%%PORTSRC%%share/texmf-dist/source/latex/cmbright/oinst.ins
 share/texmf-dist/tex/latex/cmbright/cmbright.sty
 share/texmf-dist/tex/latex/cmbright/omlcmbr.fd
 share/texmf-dist/tex/latex/cmbright/omlcmbrm.fd
@@ -186,5 +185,6 @@ share/texmf-dist/tex/latex/cmbright/ts1cmtl.fd
 @dirrmtry share/texmf-dist/fonts/tfm/public/cmbright
 @dirrmtry share/texmf-dist/fonts/source/public/cmbright
 @dirrmtry share/texmf-dist/doc/latex/cmbright
+@dirrmtry share/texmf-dist/doc/fonts/cmbright
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
