@@ -129,7 +129,12 @@ post-install:
 	@${LN} -sf xetex ${PREFIX}/bin/xelatex
 	@${LN} -sf ../../texmf/scripts/xindy/xindy.pl ${PREFIX}/bin/xindy
 	@${LN} -sf pdftex ${PREFIX}/bin/xmltex
+.if defined(WITHOUT_TEXLIVE_MKTEXLSR)
+	@echo "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr."
+	@echo "You MUST run 'mktexlsr' to update TeXLive installed files database."
+.else
 	@echo "Updating ls-R databases..."
 	@mktexlsr
+.endif
 
 .include <bsd.port.mk>

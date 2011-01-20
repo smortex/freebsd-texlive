@@ -1,0 +1,17 @@
+************************************************************************
+* The FreeBSD TeXLive ports are split in a HUGE number of ports.  To
+  ease up installing, you are advised to install so called 'schemes'
+  (available as print/texlive-scheme-*) and 'collections' (provided by
+  print/texlive-collection-*);
+
+* If you don't know exactly which TeXLive packages you need, you are
+  strongly advised to install the print/texlive-scheme-full port to
+  install a complete TeXLive system;
+
+* Each addition or removal of a TeXLive package require mktexlsr to be
+  run as root to update the list of files available to the document
+  processor.  This is done automatically by default, but can take a LONG
+  time if you have many TeXLive packages installed, so you might want
+  to disable this feature defining WITHOUT_TEXLIVE_MKTEXLSR and run it
+  manually (you will be kindly reminded to do so by the ports system).
+************************************************************************

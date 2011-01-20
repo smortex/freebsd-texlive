@@ -8,6 +8,8 @@ PKGNAMEPREFIX=		texlive-
 
 RUN_DEPENDS+=		mktexlsr:${PORTSDIR}/print/texlive-core
 
+MASTER_SITE_TEX_CTAN+=	http://distrib-coffee.ipsl.jussieu.fr/pub/mirrors/ctan/%SUBDIR%/
+
 DISTFILES=		${PORTNAME}${EXTRACT_SUFX}
 .if !defined(NOPORTDOCS)
 DISTFILES+=		${PORTNAME}.doc${EXTRACT_SUFX}
@@ -22,6 +24,8 @@ PLIST_SUB+=		PORTSRC="@comment"
 FETCH_ARGS=	-ApR	# Do NOT restart a previously interrupted transfer
 USE_XZ=		yes
 NO_BUILD=	yes
+
+MKTEXLSR=	${PREFIX}/bin/mktexlsr
 
 ${WRKDIR}/.install_files: build
 	@(  cd ${WRKDIR} && cat tlpkg/tlpobj/${PORTNAME}.tlpobj | awk '\
@@ -90,5 +94,11 @@ do-install: ${WRKDIR}/.install_files
 	)
 
 post-install:
+.if defined(WITHOUT_TEXLIVE_MKTEXLSR)
+	@echo "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running ${MKTEXLSR}."
+	@echo "You MUST run 'mktexlsr' to update TeXLive installed files database."
+.else
 	@echo "Updating ls-R databases..."
-	@${PREFIX}/bin/mktexlsr
+	@${MKTEXLSR}
+.endif
+
