@@ -123,6 +123,5 @@ commit:
 .ifdef V
 	@echo "===>  Committing..."
 .endif
-	@svn commit -m "(releng) Sync TeXLive packages with upstream." "${RELENGDIR}"
-	@(cd "${RELENGDIR}" && svn up) > /dev/null
-
+	@svn commit --non-interactive --trust-server-cert -m "(releng) Sync TeXLive packages with upstream." "${RELENGDIR}"
+	@(cd "${RELENGDIR}" && svn up --non-interactive --trust-server-cert) > /dev/null
