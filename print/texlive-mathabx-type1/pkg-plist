@@ -1,4 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/mathabx-type1/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/mathabx-type1/README
 share/texmf-dist/fonts/map/dvips/mathabx-type1/mathabx.map
 share/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb
 share/texmf-dist/fonts/type1/public/mathabx-type1/matha12.pfb
@@ -27,6 +27,6 @@ share/texmf-dist/fonts/type1/public/mathabx-type1/mathx8.pfb
 share/texmf-dist/fonts/type1/public/mathabx-type1/mathx9.pfb
 @dirrmtry share/texmf-dist/fonts/type1/public/mathabx-type1
 @dirrmtry share/texmf-dist/fonts/map/dvips/mathabx-type1
-@dirrmtry share/texmf-dist/doc/latex/mathabx-type1
+@dirrmtry share/texmf-dist/doc/fonts/mathabx-type1
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
