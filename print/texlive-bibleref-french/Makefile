@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-turnthepage
-# Date created:		01/08/2011 17:06:31
+# New ports collection makefile for:	texlive-bibleref-french
+# Date created:		01/24/2011 04:47:42
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	turnthepage
+PORTNAME=	bibleref-french
 PORTVERSION=	20110124
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provide "turn page" instructions.
+COMMENT=	French translations for bibleref.
 
 NOPORTSRC=	yes
 
