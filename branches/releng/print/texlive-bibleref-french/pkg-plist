@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bibleref-french/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/bibleref-french/shorthands.txt
+share/texmf-dist/tex/latex/bibleref-french/bibleref-french.sty
+@dirrmtry share/texmf-dist/tex/latex/bibleref-french
+@dirrmtry share/texmf-dist/doc/latex/bibleref-french
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
