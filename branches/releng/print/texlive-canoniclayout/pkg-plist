@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/canoniclayout/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/canoniclayout/canoniclayout.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/canoniclayout/canoniclayout.dtx
+share/texmf-dist/tex/latex/canoniclayout/canoniclayout.sty
+@dirrmtry share/texmf-dist/tex/latex/canoniclayout
+@dirrmtry share/texmf-dist/source/latex/canoniclayout
+@dirrmtry share/texmf-dist/doc/latex/canoniclayout
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

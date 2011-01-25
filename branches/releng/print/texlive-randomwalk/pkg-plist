@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/randomwalk/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/randomwalk/randomwalk.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/randomwalk/randomwalk.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/randomwalk/randomwalk.ins
+share/texmf-dist/tex/latex/randomwalk/randomwalk.sty
+@dirrmtry share/texmf-dist/tex/latex/randomwalk
+@dirrmtry share/texmf-dist/source/latex/randomwalk
+@dirrmtry share/texmf-dist/doc/latex/randomwalk
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

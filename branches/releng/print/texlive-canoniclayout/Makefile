@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-easy-todo
-# Date created:		01/15/2011 04:53:30
+# New ports collection makefile for:	texlive-canoniclayout
+# Date created:		01/25/2011 04:52:05
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	easy-todo
+PORTNAME=	canoniclayout
 PORTVERSION=	20110125
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	To-do notes in a document.
+COMMENT=	The canoniclayout package
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-easy-todo
-# Date created:		01/15/2011 04:53:30
+# New ports collection makefile for:	texlive-randomwalk
+# Date created:		01/25/2011 04:50:41
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	easy-todo
+PORTNAME=	randomwalk
 PORTVERSION=	20110125
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	To-do notes in a document.
+COMMENT=	Random walks using TikZ.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
