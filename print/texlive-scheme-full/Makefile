@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110124
+PORTVERSION=	20110125
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -653,6 +653,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/prerex/prerex.sty:${PORTSDIR}/print/texlive-prerex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/productbox/productbox.sty:${PORTSDIR}/print/texlive-productbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/randbild/randbild.sty:${PORTSDIR}/print/texlive-randbild \
+		${LOCALBASE}/share/texmf-dist/tex/latex/randomwalk/randomwalk.sty:${PORTSDIR}/print/texlive-randomwalk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/roundbox/roundbox.sty:${PORTSDIR}/print/texlive-roundbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/schemabloc/schemabloc.sty:${PORTSDIR}/print/texlive-schemabloc \
 		${LOCALBASE}/share/texmf-dist/tex/generic/texdraw/texdraw.sty:${PORTSDIR}/print/texlive-texdraw \
@@ -730,6 +731,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/calrsfs/calrsfs.sty:${PORTSDIR}/print/texlive-calrsfs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cals/cals.sty:${PORTSDIR}/print/texlive-cals \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cancel/cancel.sty:${PORTSDIR}/print/texlive-cancel \
+		${LOCALBASE}/share/texmf-dist/tex/latex/canoniclayout/canoniclayout.sty:${PORTSDIR}/print/texlive-canoniclayout \
 		${LOCALBASE}/share/texmf-dist/tex/latex/capt-of/capt-of.sty:${PORTSDIR}/print/texlive-capt-of \
 		${LOCALBASE}/share/texmf-dist/tex/latex/captcont/captcont.sty:${PORTSDIR}/print/texlive-captcont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/captdef/captdef.sty:${PORTSDIR}/print/texlive-captdef \

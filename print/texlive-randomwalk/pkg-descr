@@ -1,0 +1,3 @@
+The randomwalk package provides a user command, \RandomWalk, to
+draw random walks with a given number of steps. Lengths and
+angles of the steps can be customized in various ways.
