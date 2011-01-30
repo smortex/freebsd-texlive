@@ -1,0 +1,8 @@
+The package provides the macros \trimbox, \clipbox and
+\adjustbox as addition to the macros \resizebox, \scalebox and
+\rotatebox from the graphics package. The package reuses the
+"key=value" interface of the graphicx package. The pgf package
+is used to implement the trimming and clipping operations as
+well as to parse the numeric values. Environment versions of
+the macros are also provided. Both macros and environments
+support verbatim content.

@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-inputtrc
-# Date created:		10/10/2010 04:53:12
+# New ports collection makefile for:	texlive-mathastext
+# Date created:		01/30/2011 04:57:10
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	inputtrc
+PORTNAME=	mathastext
 PORTVERSION=	20110130
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Trace which file loads which.
+COMMENT=	Use the text font in simple mathematics.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

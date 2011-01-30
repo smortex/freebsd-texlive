@@ -1,0 +1,10 @@
+The mathastext package propagates the document text font to
+mathematical mode, for the letters of the Latin alphabet and,
+optionally, other characters in the font. Thus it makes
+possible (for a document with simple mathematics) to use a
+quite arbitrary text font without worrying too much that no
+specially designed accompanying maths fonts are available. The
+package also offers a simple mechanism for using many different
+choices of (text hence, now, math) font in the same document.
+Of course, using one font for two purposes helps produce
+smaller PDF files.

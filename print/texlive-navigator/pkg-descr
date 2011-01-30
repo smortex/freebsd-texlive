@@ -1,0 +1,8 @@
+Navigator implements PDF features for all formats (with some
+limitations in ConTeXt) with PDFTeX, LuaTeX and XeTeX (i.e.
+xdvipdfmx). Features include: - Customizable outlines (i.e.
+bookmarks); - Anchors; - Links and actions (e.g. JavaScript or
+user-defined PDF actions); - File embedding (not in ConTeXt); -
+Document information and PDF viewer's display (not in ConTeXt);
+and - Commands to create and use raw PDF objects. Navigator
+requires texapi and yax, both version at least 1.03.

@@ -1,0 +1,6 @@
+The bundle provides three packages: - texlinks: shorthand
+macros for TeX-related external hyperlinks with hyperref, the
+blog package in the present bundle, etc; - hypertoc: adjust the
+presentation of coloured frames in hyperref tables of contents
+(article class only); - blog: fast generation of simple HTML by
+expanding LaTeX macros, using the fifinddo package.
