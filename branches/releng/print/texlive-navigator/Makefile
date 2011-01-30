@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-inputtrc
-# Date created:		10/10/2010 04:53:12
+# New ports collection makefile for:	texlive-navigator
+# Date created:		01/30/2011 04:45:37
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	inputtrc
+PORTNAME=	navigator
 PORTVERSION=	20110130
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Trace which file loads which.
+COMMENT=	PDF features across formats and engines.
 
 NOPORTSRC=	yes
 

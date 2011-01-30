@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	context-fullpage
-PORTVERSION=	20110109
+PORTVERSION=	20110130
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

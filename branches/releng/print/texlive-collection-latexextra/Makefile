@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110125
+PORTVERSION=	20110130
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -70,6 +70,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
 		${LOCALBASE}/share/texmf/scripts/texlive/tlmgr.pl:${PORTSDIR}/print/texlive-texlive.infra \
 		${LOCALBASE}/share/texmf/xdvi/XDvi:${PORTSDIR}/print/texlive-xdvi \
+		${LOCALBASE}/share/texmf-dist/tex/latex/adjustbox/adjustbox.sty:${PORTSDIR}/print/texlive-adjustbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/asyfig/asyfig.sty:${PORTSDIR}/print/texlive-asyfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/autoarea/autoarea.sty:${PORTSDIR}/print/texlive-autoarea \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bardiag/bardiag.sty:${PORTSDIR}/print/texlive-bardiag \
@@ -494,6 +495,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/manuscript/manuscript.sty:${PORTSDIR}/print/texlive-manuscript \
 		${LOCALBASE}/share/texmf-dist/tex/latex/marginfix/marginfix.sty:${PORTSDIR}/print/texlive-marginfix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/marginnote/marginnote.sty:${PORTSDIR}/print/texlive-marginnote \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mathastext/mathastext.sty:${PORTSDIR}/print/texlive-mathastext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathexam/mathexam.sty:${PORTSDIR}/print/texlive-mathexam \
 		${LOCALBASE}/share/texmf-dist/tex/latex/maybemath/maybemath.sty:${PORTSDIR}/print/texlive-maybemath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mcaption/mcaption.sty:${PORTSDIR}/print/texlive-mcaption \
@@ -521,6 +523,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/modref/modref.sty:${PORTSDIR}/print/texlive-modref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/modroman/modroman.sty:${PORTSDIR}/print/texlive-modroman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/morefloats/morefloats.sty:${PORTSDIR}/print/texlive-morefloats \
+		${LOCALBASE}/share/texmf-dist/tex/latex/morehype/atari.fdf:${PORTSDIR}/print/texlive-morehype \
 		${LOCALBASE}/share/texmf-dist/tex/latex/moresize/moresize.sty:${PORTSDIR}/print/texlive-moresize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/moreverb/moreverb.sty:${PORTSDIR}/print/texlive-moreverb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/movie15/movie15.sty:${PORTSDIR}/print/texlive-movie15 \

@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-inputtrc
-# Date created:		10/10/2010 04:53:12
+# New ports collection makefile for:	texlive-morehype
+# Date created:		01/30/2011 04:57:38
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	inputtrc
+PORTNAME=	morehype
 PORTVERSION=	20110130
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Trace which file loads which.
+COMMENT=	Hypertext tools for use with LaTeX.
 
 NOPORTSRC=	yes
 
