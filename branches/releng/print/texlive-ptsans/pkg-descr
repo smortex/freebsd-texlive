@@ -1,0 +1,7 @@
+This package contains LaTeX support for the font PT Sans
+developed by ParaType for the project "public Types of Russian
+Federation", and released under an open user license. The fonts
+are included in this distribution, in TrueType format (only:
+note that use of such fonts with TeX and pdfTeX is not
+trivial). The fonts provide coverage of the T2* and X2
+encodings, and partial coverage of T1.
