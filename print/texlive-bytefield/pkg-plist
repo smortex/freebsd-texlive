@@ -1,7 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/bytefield/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/bytefield/bf-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bytefield/bf-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/bytefield/bytefield.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/bytefield/example.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/bytefield/example.tex
 %%PORTSRC%%share/texmf-dist/source/latex/bytefield/bytefield.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/bytefield/bytefield.ins
 share/texmf-dist/tex/latex/bytefield/bytefield.sty

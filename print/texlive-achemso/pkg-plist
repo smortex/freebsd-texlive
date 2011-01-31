@@ -1,6 +1,8 @@
 share/texmf-dist/bibtex/bst/achemso/achemso.bst
 share/texmf-dist/bibtex/bst/achemso/biochem.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/achemso/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/achemso/achemso-demo.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/achemso/achemso-demo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/achemso/achemso-demo.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/achemso/achemso.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/achemso/achemso.dtx
@@ -8,8 +10,10 @@ share/texmf-dist/bibtex/bst/achemso/biochem.bst
 share/texmf-dist/tex/latex/achemso/achemso.cls
 share/texmf-dist/tex/latex/achemso/achemso.sty
 share/texmf-dist/tex/latex/achemso/config/acbcct.cfg
+share/texmf-dist/tex/latex/achemso/config/accacs.cfg
 share/texmf-dist/tex/latex/achemso/config/achre4.cfg
 share/texmf-dist/tex/latex/achemso/config/acncdm.cfg
+share/texmf-dist/tex/latex/achemso/config/acsccc.cfg
 share/texmf-dist/tex/latex/achemso/config/ancac3.cfg
 share/texmf-dist/tex/latex/achemso/config/ancham.cfg
 share/texmf-dist/tex/latex/achemso/config/bcches.cfg
@@ -26,7 +30,6 @@ share/texmf-dist/tex/latex/achemso/config/iecred.cfg
 share/texmf-dist/tex/latex/achemso/config/inoraj.cfg
 share/texmf-dist/tex/latex/achemso/config/jacsat.cfg
 share/texmf-dist/tex/latex/achemso/config/jafcau.cfg
-share/texmf-dist/tex/latex/achemso/config/jcchff.cfg
 share/texmf-dist/tex/latex/achemso/config/jceaax.cfg
 share/texmf-dist/tex/latex/achemso/config/jceda8.cfg
 share/texmf-dist/tex/latex/achemso/config/jcisd8.cfg
