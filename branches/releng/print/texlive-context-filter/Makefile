@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	context-filter
-PORTVERSION=	20101103
+PORTVERSION=	20110202
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The context-filter package
+COMMENT=	Run external programs on the contents of a start-stop environment.
 
 NOPORTSRC=	yes
 

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-gust
-PORTVERSION=	20110117
+PORTVERSION=	20110202
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -82,7 +82,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/amstex/base/amstex.tex:${PORTSDIR
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-simpleslides.xml:${PORTSDIR}/print/texlive-context-simpleslides \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/typearea/t-typearea.tex:${PORTSDIR}/print/texlive-context-typearea \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/typescripts/type-adobe.mkii:${PORTSDIR}/print/texlive-context-typescripts \
-		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-vim.xml:${PORTSDIR}/print/texlive-context-vim \
+		${LOCALBASE}/share/texmf-dist/tex/context/third/vim/2context.vim:${PORTSDIR}/print/texlive-context-vim \
 		${LOCALBASE}/share/texmf-dist/scripts/accfonts/mkt1font:${PORTSDIR}/print/texlive-accfonts \
 		${LOCALBASE}/share/texmf/fonts/enc/dvips/afm2pl/afm2pl-ot1.enc:${PORTSDIR}/print/texlive-afm2pl \
 		${LOCALBASE}/share/texmf-dist/scripts/epstopdf/epstopdf.pl:${PORTSDIR}/print/texlive-epstopdf \
