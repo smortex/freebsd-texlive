@@ -1,6 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ptsans/OT_TT_Install_E.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ptsans/OT_TT_Install_R.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ptsans/PTFreeFontLicense_eng_1.2.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ptsans/PTFreeFontLicense_rus_1.2.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ptsans/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ptsans/caroncorrection.py
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ptsans/ptsans-sample.pdf
