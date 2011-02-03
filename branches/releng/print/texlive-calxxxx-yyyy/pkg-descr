@@ -1,0 +1,5 @@
+The package prints a calendar for 2 or more years, according to
+a language selection. The package is also "culture dependent",
+in the sense that it will start weeks according to local rules:
+e.g., weeks conventionally start on Monday in the English-
+speaking world.

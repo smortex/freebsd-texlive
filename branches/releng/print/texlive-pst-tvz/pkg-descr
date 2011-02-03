@@ -1,0 +1,3 @@
+The package uses PSTricks to draw trees with more than one root
+node. It is similar to pst-tree, though it uses a different
+placement algorithm.

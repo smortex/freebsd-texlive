@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	fileinfo
-PORTVERSION=	20101202
+PORTVERSION=	20110203
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Get file information without loading the file.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

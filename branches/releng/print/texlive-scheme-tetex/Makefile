@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-tetex
-PORTVERSION=	20110202
+PORTVERSION=	20110203
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -514,6 +514,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-text/pst-text.tex:${PORTSDIR}/print/texlive-pst-text \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-thick/pst-thick.tex:${PORTSDIR}/print/texlive-pst-thick \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-tree/pst-tree.tex:${PORTSDIR}/print/texlive-pst-tree \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-tvz/pst-tvz.tex:${PORTSDIR}/print/texlive-pst-tvz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-uml/pst-uml.sty:${PORTSDIR}/print/texlive-pst-uml \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-vowel/pst-vowel.sty:${PORTSDIR}/print/texlive-pst-vowel \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-vue3d/pst-vue3d.tex:${PORTSDIR}/print/texlive-pst-vue3d \
