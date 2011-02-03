@@ -3,14 +3,14 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/README.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/RELEASE.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/docsrc/README.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/docsrc/gather.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/docsrc/inputtrc.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/docsrc/makedoc.cfg
 %%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/inputtrc.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/inputtrc/README.tex
+%%PORTSRC%%share/texmf-dist/source/latex/inputtrc/gather.tex
+%%PORTSRC%%share/texmf-dist/source/latex/inputtrc/inputtrc.tex
+%%PORTSRC%%share/texmf-dist/source/latex/inputtrc/makedoc.cfg
 share/texmf-dist/tex/latex/inputtrc/inputtrc.sty
 @dirrmtry share/texmf-dist/tex/latex/inputtrc
-@dirrmtry share/texmf-dist/doc/latex/inputtrc/docsrc
+@dirrmtry share/texmf-dist/source/latex/inputtrc
 @dirrmtry share/texmf-dist/doc/latex/inputtrc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

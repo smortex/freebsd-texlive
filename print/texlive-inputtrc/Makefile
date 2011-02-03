@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	inputtrc
-PORTVERSION=	20110130
+PORTVERSION=	20110203
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Trace which file loads which.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

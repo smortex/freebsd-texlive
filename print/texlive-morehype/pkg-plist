@@ -4,17 +4,17 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/morehype/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/morehype/RELEASE.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/morehype/blog.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/docsrc/README.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/docsrc/blog.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/docsrc/gather.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/docsrc/hypertoc.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/docsrc/makedoc.cfg
-%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/docsrc/makehtml.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/docsrc/mdoccorr.cfg
-%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/docsrc/texlinks.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/docsrc/texmap.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/morehype/hypertoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/makehtml.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/morehype/texlinks.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/texmap.tex
+%%PORTSRC%%share/texmf-dist/source/latex/morehype/README.tex
+%%PORTSRC%%share/texmf-dist/source/latex/morehype/blog.tex
+%%PORTSRC%%share/texmf-dist/source/latex/morehype/gather.tex
+%%PORTSRC%%share/texmf-dist/source/latex/morehype/hypertoc.tex
+%%PORTSRC%%share/texmf-dist/source/latex/morehype/makedoc.cfg
+%%PORTSRC%%share/texmf-dist/source/latex/morehype/mdoccorr.cfg
+%%PORTSRC%%share/texmf-dist/source/latex/morehype/texlinks.tex
 share/texmf-dist/tex/latex/morehype/atari.fdf
 share/texmf-dist/tex/latex/morehype/blog.sty
 share/texmf-dist/tex/latex/morehype/hypertoc.sty
@@ -22,7 +22,7 @@ share/texmf-dist/tex/latex/morehype/lang-de.fdf
 share/texmf-dist/tex/latex/morehype/lang-en.fdf
 share/texmf-dist/tex/latex/morehype/texlinks.sty
 @dirrmtry share/texmf-dist/tex/latex/morehype
-@dirrmtry share/texmf-dist/doc/latex/morehype/docsrc
+@dirrmtry share/texmf-dist/source/latex/morehype
 @dirrmtry share/texmf-dist/doc/latex/morehype
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

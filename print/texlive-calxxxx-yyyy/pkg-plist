@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/calxxxx-yyyy/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/calxxxx-yyyy/README.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/calxxxx-yyyy/README.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calxxxx-yyyy/calxxxx-yyyy_DE.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/calxxxx-yyyy/calxxxx-yyyy_DK.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/calxxxx-yyyy/calxxxx-yyyy_EN.pdf
+share/texmf-dist/tex/latex/calxxxx-yyyy/calxxxx-yyyy.tex
+@dirrmtry share/texmf-dist/tex/latex/calxxxx-yyyy
+@dirrmtry share/texmf-dist/doc/latex/calxxxx-yyyy
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

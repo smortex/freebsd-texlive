@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110130
+PORTVERSION=	20110203
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -196,6 +196,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/calctab/calctab.sty:${PORTSDIR}/print/texlive-calctab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/calrsfs/calrsfs.sty:${PORTSDIR}/print/texlive-calrsfs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cals/cals.sty:${PORTSDIR}/print/texlive-cals \
+		${LOCALBASE}/share/texmf-dist/tex/latex/calxxxx-yyyy/calxxxx-yyyy.tex:${PORTSDIR}/print/texlive-calxxxx-yyyy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cancel/cancel.sty:${PORTSDIR}/print/texlive-cancel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/canoniclayout/canoniclayout.sty:${PORTSDIR}/print/texlive-canoniclayout \
 		${LOCALBASE}/share/texmf-dist/tex/latex/capt-of/capt-of.sty:${PORTSDIR}/print/texlive-capt-of \
@@ -419,7 +420,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/histogr/histogr.sty:${PORTSDIR}/print/texlive-histogr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hitec/hitec.cls:${PORTSDIR}/print/texlive-hitec \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hpsdiss/hpsdiss.cls:${PORTSDIR}/print/texlive-hpsdiss \
-		${LOCALBASE}/share/texmf-dist/tex/latex/muench/hrefhide/hrefhide.sty:${PORTSDIR}/print/texlive-hrefhide \
+		${LOCALBASE}/share/texmf-dist/tex/latex/hrefhide/hrefhide.sty:${PORTSDIR}/print/texlive-hrefhide \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hvindex/hvindex.sty:${PORTSDIR}/print/texlive-hvindex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hypdvips/hypdvips.sty:${PORTSDIR}/print/texlive-hypdvips \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hyper/hyper.sty:${PORTSDIR}/print/texlive-hyper \

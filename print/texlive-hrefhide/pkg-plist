@@ -1,14 +1,14 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/muench/hrefhide/Readme
-%%PORTDOCS%%share/texmf-dist/doc/latex/muench/hrefhide/hrefhide-example.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/muench/hrefhide/hrefhide-example.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/muench/hrefhide/hrefhide.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/muench/hrefhide/hrefhide.drv
-%%PORTSRC%%share/texmf-dist/source/latex/muench/hrefhide/hrefhide.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/muench/hrefhide/hrefhide.ins
-%%PORTSRC%%share/texmf-dist/source/latex/muench/hrefhide/ltxdoc.cfg
-share/texmf-dist/tex/latex/muench/hrefhide/hrefhide.sty
-@dirrmtry share/texmf-dist/tex/latex/muench/hrefhide
-@dirrmtry share/texmf-dist/source/latex/muench/hrefhide
-@dirrmtry share/texmf-dist/doc/latex/muench/hrefhide
+%%PORTDOCS%%share/texmf-dist/doc/latex/hrefhide/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/hrefhide/hrefhide-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/hrefhide/hrefhide-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/hrefhide/hrefhide.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/hrefhide/hrefhide.drv
+%%PORTSRC%%share/texmf-dist/source/latex/hrefhide/hrefhide.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/hrefhide/hrefhide.ins
+%%PORTSRC%%share/texmf-dist/source/latex/hrefhide/ltxdoc.cfg
+share/texmf-dist/tex/latex/hrefhide/hrefhide.sty
+@dirrmtry share/texmf-dist/tex/latex/hrefhide
+@dirrmtry share/texmf-dist/source/latex/hrefhide
+@dirrmtry share/texmf-dist/doc/latex/hrefhide
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

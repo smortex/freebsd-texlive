@@ -2,17 +2,18 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/README.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/README.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/docsrc/README.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/docsrc/makedoc.cfg
-%%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/docsrc/myfilist.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/docsrc/readprov.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/RELEASE.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/gather.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/myfilist.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/readprov.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/fileinfo/README.tex
+%%PORTSRC%%share/texmf-dist/source/latex/fileinfo/makedoc.cfg
+%%PORTSRC%%share/texmf-dist/source/latex/fileinfo/myfilist.tex
+%%PORTSRC%%share/texmf-dist/source/latex/fileinfo/readprov.tex
 share/texmf-dist/tex/latex/fileinfo/myfilist.sty
 share/texmf-dist/tex/latex/fileinfo/readprov.sty
 @dirrmtry share/texmf-dist/tex/latex/fileinfo
-@dirrmtry share/texmf-dist/doc/latex/fileinfo/docsrc
+@dirrmtry share/texmf-dist/source/latex/fileinfo
 @dirrmtry share/texmf-dist/doc/latex/fileinfo
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

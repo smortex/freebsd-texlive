@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-morehype
-# Date created:		01/30/2011 04:57:38
+# New ports collection makefile for:	texlive-pst-tvz
+# Date created:		02/03/2011 05:05:06
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	morehype
+PORTNAME=	pst-tvz
 PORTVERSION=	20110203
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Hypertext tools for use with LaTeX.
+COMMENT=	Draw trees with more than on root node, using PSTricks.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

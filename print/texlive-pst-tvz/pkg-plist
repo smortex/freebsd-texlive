@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-tvz/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-tvz/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-tvz/pst-tvz-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-tvz/pst-tvz-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-tvz/pst-tvz-doc.tex
+%%PORTSRC%%share/texmf-dist/source/generic/pst-tvz/Makefile
+share/texmf-dist/tex/generic/pst-tvz/pst-tvz.tex
+share/texmf-dist/tex/latex/pst-tvz/pst-tvz.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-tvz
+@dirrmtry share/texmf-dist/tex/generic/pst-tvz
+@dirrmtry share/texmf-dist/source/generic/pst-tvz
+@dirrmtry share/texmf-dist/doc/generic/pst-tvz
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
