@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110203
+PORTVERSION=	20110204
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -202,6 +202,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/augie/augie___.afm:${PORTSDIR}/print/texlive-augie \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/auncial-new/auncl10.afm:${PORTSDIR}/print/texlive-auncial-new \
 		${LOCALBASE}/share/texmf-dist/tex/latex/aurical/aurical.sty:${PORTSDIR}/print/texlive-aurical \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/b1encoding/TeXB1.enc:${PORTSDIR}/print/texlive-b1encoding \
 		${LOCALBASE}/share/texmf-dist/tex/latex/barcodes/barcodes.sty:${PORTSDIR}/print/texlive-barcodes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/baskervald/baskervald.sty:${PORTSDIR}/print/texlive-baskervald \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bbding/bbding.sty:${PORTSDIR}/print/texlive-bbding \
