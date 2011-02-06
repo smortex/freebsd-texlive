@@ -1,0 +1,9 @@
+
+$FreeBSD$
+
+--- /dev/null
++++ source/latex/kotex-util/Makefile
+@@ -0,0 +1,3 @@
++all: hbibtex hmakeindex
++
++.include <bsd.prog.mk>

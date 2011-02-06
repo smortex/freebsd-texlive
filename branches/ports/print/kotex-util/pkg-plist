@@ -1,0 +1,9 @@
+@comment $FreeBSD$
+bin/euc-bookmark.pl
+bin/hbibtex
+bin/hmakeindex
+bin/hypua2jamo.pl
+bin/insertjamofiller.pl
+bin/jamo2hypua.pl
+bin/komkindex.pl
+bin/ttf2kotexfont.pl
