@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-mathextra
-PORTVERSION=	20110115
+PORTVERSION=	20110206
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -36,6 +36,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/12many/12many.sty:${PORTSDI
 		${LOCALBASE}/share/texmf-dist/tex/latex/ot-tableau/ot-tableau.sty:${PORTSDIR}/print/texlive-ot-tableau \
 		${LOCALBASE}/share/texmf-dist/tex/latex/oubraces/oubraces.sty:${PORTSDIR}/print/texlive-oubraces \
 		${LOCALBASE}/share/texmf-dist/tex/latex/proba/proba.sty:${PORTSDIR}/print/texlive-proba \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pzccal/pzccal.sty:${PORTSDIR}/print/texlive-pzccal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/realscripts/realscripts.sty:${PORTSDIR}/print/texlive-realscripts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rec-thy/rec-thy.sty:${PORTSDIR}/print/texlive-rec-thy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/shuffle/shuffle.sty:${PORTSDIR}/print/texlive-shuffle \

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	context-simplefonts
-PORTVERSION=	20110111
+PORTVERSION=	20110206
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

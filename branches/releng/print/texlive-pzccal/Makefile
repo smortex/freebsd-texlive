@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-pgf-umlsd
-# Date created:		04/11/2010 14:21:58
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-pzccal
+# Date created:		02/06/2011 05:04:56
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	pgf-umlsd
+PORTNAME=	pzccal
 PORTVERSION=	20110206
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw UML Sequence Diagrams.
+COMMENT=	Zapf Chancery as calligraphic math alphabet.
 
 NOPORTSRC=	yes
 

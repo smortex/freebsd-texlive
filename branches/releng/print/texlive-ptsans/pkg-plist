@@ -1,13 +1,21 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ptsans/CHANGELOG
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ptsans/OT_TT_Install_E.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ptsans/OT_TT_Install_R.txt
-%%PORTDOCS%%share/texmf-dist/doc/fonts/ptsans/PTFreeFontLicense_eng_1.2.txt
-%%PORTDOCS%%share/texmf-dist/doc/fonts/ptsans/PTFreeFontLicense_rus_1.2.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ptsans/PT_Free_Font_License_eng_1.2.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ptsans/README
-%%PORTDOCS%%share/texmf-dist/doc/fonts/ptsans/caroncorrection.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ptsans/manifest.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ptsans/ptsans-sample.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ptsans/ptsans-sample.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ptsans/ptsans.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ptsans/ptsans.tex
+share/texmf-dist/fonts/afm/paratype/ptsans/PTC55F.afm
+share/texmf-dist/fonts/afm/paratype/ptsans/PTC75F.afm
+share/texmf-dist/fonts/afm/paratype/ptsans/PTN57F.afm
+share/texmf-dist/fonts/afm/paratype/ptsans/PTN77F.afm
+share/texmf-dist/fonts/afm/paratype/ptsans/PTS55F.afm
+share/texmf-dist/fonts/afm/paratype/ptsans/PTS56F.afm
+share/texmf-dist/fonts/afm/paratype/ptsans/PTS75F.afm
+share/texmf-dist/fonts/afm/paratype/ptsans/PTS76F.afm
 share/texmf-dist/fonts/enc/dvips/ptsans/ptsans_4vthwy.enc
 share/texmf-dist/fonts/enc/dvips/ptsans/ptsans_ehhm7n.enc
 share/texmf-dist/fonts/enc/dvips/ptsans/ptsans_gbnwo7.enc
@@ -16,10 +24,8 @@ share/texmf-dist/fonts/enc/dvips/ptsans/ptsans_kojssb.enc
 share/texmf-dist/fonts/enc/dvips/ptsans/ptsans_ngryl2.enc
 share/texmf-dist/fonts/enc/dvips/ptsans/ptsans_vvnrpx.enc
 share/texmf-dist/fonts/enc/dvips/ptsans/ptsans_ztjweu.enc
-share/texmf-dist/fonts/map/dvips/ptsans/PTSans-full.map
-share/texmf-dist/fonts/map/dvips/ptsans/PTSans.map
-share/texmf-dist/fonts/map/dvips/ptsans/PTSansCaption.map
-share/texmf-dist/fonts/map/dvips/ptsans/PTSansNarrow.map
+share/texmf-dist/fonts/map/dvips/ptsans/PTSans-truetype.map
+share/texmf-dist/fonts/map/dvips/ptsans/PTSans-type1.map
 share/texmf-dist/fonts/tfm/paratype/ptsans/PTSans-Bold-tlf-il2.tfm
 share/texmf-dist/fonts/tfm/paratype/ptsans/PTSans-Bold-tlf-ot1.tfm
 share/texmf-dist/fonts/tfm/paratype/ptsans/PTSans-Bold-tlf-t1--base.tfm
@@ -140,6 +146,14 @@ share/texmf-dist/fonts/truetype/paratype/ptsans/PTS55F.ttf
 share/texmf-dist/fonts/truetype/paratype/ptsans/PTS56F.ttf
 share/texmf-dist/fonts/truetype/paratype/ptsans/PTS75F.ttf
 share/texmf-dist/fonts/truetype/paratype/ptsans/PTS76F.ttf
+share/texmf-dist/fonts/type1/paratype/ptsans/PTC55F.pfb
+share/texmf-dist/fonts/type1/paratype/ptsans/PTC75F.pfb
+share/texmf-dist/fonts/type1/paratype/ptsans/PTN57F.pfb
+share/texmf-dist/fonts/type1/paratype/ptsans/PTN77F.pfb
+share/texmf-dist/fonts/type1/paratype/ptsans/PTS55F.pfb
+share/texmf-dist/fonts/type1/paratype/ptsans/PTS56F.pfb
+share/texmf-dist/fonts/type1/paratype/ptsans/PTS75F.pfb
+share/texmf-dist/fonts/type1/paratype/ptsans/PTS76F.pfb
 share/texmf-dist/fonts/vf/paratype/ptsans/PTSans-Bold-tlf-t1.vf
 share/texmf-dist/fonts/vf/paratype/ptsans/PTSans-Bold-tlf-t2a.vf
 share/texmf-dist/fonts/vf/paratype/ptsans/PTSans-Bold-tlf-t2b.vf
@@ -196,10 +210,7 @@ share/texmf-dist/tex/latex/ptsans/OT1PTSansCaption-TLF.fd
 share/texmf-dist/tex/latex/ptsans/OT1PTSansNarrow-TLF.fd
 share/texmf-dist/tex/latex/ptsans/PTSans.sty
 share/texmf-dist/tex/latex/ptsans/PTSansCaption.sty
-share/texmf-dist/tex/latex/ptsans/PTSansCaptionOld.sty
 share/texmf-dist/tex/latex/ptsans/PTSansNarrow.sty
-share/texmf-dist/tex/latex/ptsans/PTSansNarrowOld.sty
-share/texmf-dist/tex/latex/ptsans/PTSansOld.sty
 share/texmf-dist/tex/latex/ptsans/T1PTSans-TLF.fd
 share/texmf-dist/tex/latex/ptsans/T1PTSansCaption-TLF.fd
 share/texmf-dist/tex/latex/ptsans/T1PTSansNarrow-TLF.fd
@@ -220,10 +231,12 @@ share/texmf-dist/tex/latex/ptsans/X2PTSansCaption-TLF.fd
 share/texmf-dist/tex/latex/ptsans/X2PTSansNarrow-TLF.fd
 @dirrmtry share/texmf-dist/tex/latex/ptsans
 @dirrmtry share/texmf-dist/fonts/vf/paratype/ptsans
+@dirrmtry share/texmf-dist/fonts/type1/paratype/ptsans
 @dirrmtry share/texmf-dist/fonts/truetype/paratype/ptsans
 @dirrmtry share/texmf-dist/fonts/tfm/paratype/ptsans
 @dirrmtry share/texmf-dist/fonts/map/dvips/ptsans
 @dirrmtry share/texmf-dist/fonts/enc/dvips/ptsans
+@dirrmtry share/texmf-dist/fonts/afm/paratype/ptsans
 @dirrmtry share/texmf-dist/doc/fonts/ptsans
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
