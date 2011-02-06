@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-ptsans
-# Date created:		01/31/2011 04:44:18
+# New ports collection makefile for:	texlive-collcell
+# Date created:		02/06/2011 04:52:30
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	ptsans
+PORTNAME=	collcell
 PORTVERSION=	20110206
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	PT Sans font and LaTeX support.
+COMMENT=	Collect contents of a tabular cell as argument to a macro.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

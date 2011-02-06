@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110204
+PORTVERSION=	20110206
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -318,7 +318,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/pigpen/pigpen.sty:${PORTSDIR}/print/texlive-pigpen \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/gust/poltawski/antpb10.afm:${PORTSDIR}/print/texlive-poltawski \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/itc/psafm/stonesan/is8b8a.afm:${PORTSDIR}/print/texlive-psafm \
-		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/ptsans/ptsans_4vthwy.enc:${PORTSDIR}/print/texlive-ptsans \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/paratype/ptsans/PTC55F.afm:${PORTSDIR}/print/texlive-ptsans \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/paratype/ptserif/PTF55F.afm:${PORTSDIR}/print/texlive-ptserif \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/punk/punk.mf:${PORTSDIR}/print/texlive-punk \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/punknova/punknova-bold.otf:${PORTSDIR}/print/texlive-punknova \
 		${LOCALBASE}/share/texmf-dist/tex/latex/recycle/recycle.sty:${PORTSDIR}/print/texlive-recycle \
@@ -771,6 +772,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmsd/cmsd.sty:${PORTSDIR}/print/texlive-cmsd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/codedoc/codedoc.cls:${PORTSDIR}/print/texlive-codedoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/codepage/codepage.sty:${PORTSDIR}/print/texlive-codepage \
+		${LOCALBASE}/share/texmf-dist/tex/latex/collcell/collcell.sty:${PORTSDIR}/print/texlive-collcell \
 		${LOCALBASE}/share/texmf-dist/tex/latex/colordoc/colordoc.sty:${PORTSDIR}/print/texlive-colordoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/colorinfo/colorinfo.sty:${PORTSDIR}/print/texlive-colorinfo \
 		${LOCALBASE}/share/texmf-dist/tex/generic/colortab/colortab.sty:${PORTSDIR}/print/texlive-colortab \
@@ -1480,6 +1482,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/ot-tableau/ot-tableau.sty:${PORTSDIR}/print/texlive-ot-tableau \
 		${LOCALBASE}/share/texmf-dist/tex/latex/oubraces/oubraces.sty:${PORTSDIR}/print/texlive-oubraces \
 		${LOCALBASE}/share/texmf-dist/tex/latex/proba/proba.sty:${PORTSDIR}/print/texlive-proba \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pzccal/pzccal.sty:${PORTSDIR}/print/texlive-pzccal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/realscripts/realscripts.sty:${PORTSDIR}/print/texlive-realscripts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rec-thy/rec-thy.sty:${PORTSDIR}/print/texlive-rec-thy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/shuffle/shuffle.sty:${PORTSDIR}/print/texlive-shuffle \

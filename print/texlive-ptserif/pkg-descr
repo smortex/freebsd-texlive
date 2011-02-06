@@ -1,0 +1,9 @@
+This package contains LaTeX support for the font PT Serif
+developed by ParaType for the project "Public Types of Russian
+Federation", and released under an open user license. The fonts
+are included in this distribution, in TrueType format and
+converted Type 1 format (as kindly allowed by ParaType).
+trivial). The fonts provide coverage of the T2* and X2
+encodings, and partial coverage of T1 OT1, TS1 and IL2
+(sufficient for typesetting text in Czech and Slovak languages
+-- the purpose of encoding IL2).
