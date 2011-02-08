@@ -6,14 +6,15 @@
 #
 
 PORTNAME=	collection-langgerman
-PORTVERSION=	20101215
+PORTVERSION=	20110208
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	German
 
-RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/dehyph-exptl/dehyph-exptl.tex:${PORTSDIR}/print/texlive-dehyph-exptl \
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-german/bibleref-german.sty:${PORTSDIR}/print/texlive-bibleref-german \
+		${LOCALBASE}/share/texmf-dist/tex/generic/dehyph-exptl/dehyph-exptl.tex:${PORTSDIR}/print/texlive-dehyph-exptl \
 		${LOCALBASE}/share/texmf-dist/tex/generic/german/german.sty:${PORTSDIR}/print/texlive-german \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/germbib/gerabbrv.bst:${PORTSDIR}/print/texlive-germbib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/germkorr/germkorr.sty:${PORTSDIR}/print/texlive-germkorr \

@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-context-filter
-# Date created:		09/29/2010 04:35:38
+# New ports collection makefile for:	texlive-bibleref-german
+# Date created:		02/08/2011 04:46:45
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	context-filter
+PORTNAME=	bibleref-german
 PORTVERSION=	20110208
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Run external programs on the contents of a start-stop environment.
+COMMENT=	German adaptation of bibleref.
 
 NOPORTSRC=	yes
 

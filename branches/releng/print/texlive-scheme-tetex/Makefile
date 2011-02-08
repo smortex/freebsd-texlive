@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-tetex
-PORTVERSION=	20110206
+PORTVERSION=	20110208
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -213,6 +213,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabvar/tabvar.sty:${PORTSDIR}/print/texlive-tabvar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tdsfrmath/tdsfrmath.sty:${PORTSDIR}/print/texlive-tdsfrmath \
 		${LOCALBASE}/share/texmf-dist/tex/generic/variations/variations.sty:${PORTSDIR}/print/texlive-variations \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-german/bibleref-german.sty:${PORTSDIR}/print/texlive-bibleref-german \
 		${LOCALBASE}/share/texmf-dist/tex/generic/dehyph-exptl/dehyph-exptl.tex:${PORTSDIR}/print/texlive-dehyph-exptl \
 		${LOCALBASE}/share/texmf-dist/tex/generic/german/german.sty:${PORTSDIR}/print/texlive-german \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/germbib/gerabbrv.bst:${PORTSDIR}/print/texlive-germbib \
