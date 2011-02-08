@@ -1,5 +1,6 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/collcell/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/collcell/collcell.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/collcell/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/collcell/README
 %%PORTSRC%%share/texmf-dist/source/latex/collcell/collcell.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/collcell/collcell.ins
 share/texmf-dist/tex/latex/collcell/collcell.sty
