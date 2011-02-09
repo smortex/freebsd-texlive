@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110208
+PORTVERSION=	20110209
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1664,6 +1664,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/erdc/erdc.cls:${PORTSDIR}/print/texlive-erdc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/estcpmm/estcpmm.cls:${PORTSDIR}/print/texlive-estcpmm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/euproposal/euproposal.cls:${PORTSDIR}/print/texlive-euproposal \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fbithesis/fbithesis.cls:${PORTSDIR}/print/texlive-fbithesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gaceta/gaceta.cls:${PORTSDIR}/print/texlive-gaceta \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gatech-thesis/gatech-thesis.cls:${PORTSDIR}/print/texlive-gatech-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/har2nat/har2nat.sty:${PORTSDIR}/print/texlive-har2nat \
