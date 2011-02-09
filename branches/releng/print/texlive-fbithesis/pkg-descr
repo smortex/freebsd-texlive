@@ -1,0 +1,6 @@
+At the department of computer science at the University of
+Dortmund there are cardboard cover pages for research or
+internal reports like master/phd-theses. The main function of
+this LaTeX2e document-class is a replacement for the \maketitle
+command to typeset a title page that is adjusted to these cover
+pages.

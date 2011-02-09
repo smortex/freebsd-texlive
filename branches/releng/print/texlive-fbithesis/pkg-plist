@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fbithesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/fbithesis/distribution.key
+%%PORTDOCS%%share/texmf-dist/doc/latex/fbithesis/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fbithesis/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fbithesis/exampleaux.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fbithesis/fbithesis.dtx.asc
+%%PORTDOCS%%share/texmf-dist/doc/latex/fbithesis/fbithesis.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/fbithesis/fbithesis.drv
+%%PORTSRC%%share/texmf-dist/source/latex/fbithesis/fbithesis.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fbithesis/fbithesis.ins
+share/texmf-dist/tex/latex/fbithesis/fbithesis.cfg
+share/texmf-dist/tex/latex/fbithesis/fbithesis.cls
+@dirrmtry share/texmf-dist/tex/latex/fbithesis
+@dirrmtry share/texmf-dist/source/latex/fbithesis
+@dirrmtry share/texmf-dist/doc/latex/fbithesis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
