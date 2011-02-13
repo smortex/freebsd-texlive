@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	dvi2tty
-PORTVERSION=	20110209
+PORTVERSION=	20110213
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
@@ -14,7 +14,6 @@ COMMENT=	Produce ASCII from DVI.
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
-NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -6,16 +6,15 @@
 #
 
 PORTNAME=	musixflx
-PORTVERSION=	20100922
+PORTVERSION=	20110213
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A helper application for MusixTeX
+COMMENT=	The musixflx package
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
-NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

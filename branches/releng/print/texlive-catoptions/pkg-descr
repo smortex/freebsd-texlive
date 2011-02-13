@@ -1,0 +1,6 @@
+The package changes package loading internals so that all
+subsequently loaded packages can rely on normal/standard
+catcodes of all ASCII characters. The package defines canonical
+control sequences to represent all the visible ASCII
+characters. It also provides robust options parsing mechanisms,
+in addition to many other TeX programming tools.
