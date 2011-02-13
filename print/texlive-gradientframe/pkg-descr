@@ -1,0 +1,3 @@
+The package provides a means of drawing graded frames around
+objects. The gradients of the frames are drawn using the color
+package.

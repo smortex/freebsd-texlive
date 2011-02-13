@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/gradientframe/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/gradientframe/gradientframe.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/gradientframe/gradientframe.dtx
+share/texmf-dist/tex/latex/gradientframe/gradientframe.sty
+@dirrmtry share/texmf-dist/tex/latex/gradientframe
+@dirrmtry share/texmf-dist/source/latex/gradientframe
+@dirrmtry share/texmf-dist/doc/latex/gradientframe
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

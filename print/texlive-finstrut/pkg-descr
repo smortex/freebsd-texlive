@@ -1,0 +1,5 @@
+The command \@finalstrut is used automatically used at the end
+of footnote texts to insert a strut to avoid mis-spacing of
+multiple footnotes. Unfortunately the command can cause a blank
+line at the end of a footnote. The package provides a solution
+to this problem.
