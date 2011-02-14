@@ -1,6 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/context/third/gnuplot/examples/example.plt
+%%PORTDOCS%%share/texmf-dist/doc/context/third/gnuplot/examples/fullpage-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/gnuplot/examples/fullpage-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/gnuplot/gnuplot-context-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/gnuplot/gnuplot-context-doc.tex
 share/texmf-dist/metapost/context/third/gnuplot/mp-gnuplot.mp
 share/texmf-dist/tex/context/third/gnuplot/t-gnuplot.tex
 @dirrmtry share/texmf-dist/tex/context/third/gnuplot
 @dirrmtry share/texmf-dist/metapost/context/third/gnuplot
+@dirrmtry share/texmf-dist/doc/context/third/gnuplot/examples
+@dirrmtry share/texmf-dist/doc/context/third/gnuplot
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
