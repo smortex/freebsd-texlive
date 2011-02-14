@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	context-gnuplot
-PORTVERSION=	20110111
+PORTVERSION=	20110214
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Inclusion of Gnuplot graphs in ConTeXt.
 
-NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

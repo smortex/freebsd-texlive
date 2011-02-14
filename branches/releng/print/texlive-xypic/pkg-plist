@@ -11,12 +11,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/xypic/support/dvitogif89a
 %%PORTDOCS%%share/texmf-dist/doc/generic/xypic/support/install-tds
 %%PORTDOCS%%share/texmf-dist/doc/generic/xypic/support/pnmrawtopcropwhite.c
-%%PORTDOCS%%share/texmf-dist/doc/generic/xypic/xy384src.tar.gz
+%%PORTDOCS%%share/texmf-dist/doc/generic/xypic/xy385src.tar.gz
 %%PORTDOCS%%share/texmf-dist/doc/generic/xypic/xyguide.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/xypic/xypdf.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/xypic/xyrefer.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/xypic/xysource.pdf
-share/texmf-dist/dvips/xypic/xy384dict.pro
+share/texmf-dist/dvips/xypic/xy385dict.pro
 share/texmf-dist/fonts/afm/public/xypic/xyatip10.afm
 share/texmf-dist/fonts/afm/public/xypic/xybsql10.afm
 share/texmf-dist/fonts/afm/public/xypic/xybtip10.afm
