@@ -1,0 +1,7 @@
+This is a minimalist class file for formatting manuscripts in
+the style described in the American Psychological Association
+(APA) 6th edition guidelines. Perhaps someday the established
+(and more capable) apa class will gain support for the 6th
+edition of the APA guidelines, in which case users should
+probably use it instead. But in the mean time, this class may
+be useful.

@@ -1,7 +1,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/finstrut/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/finstrut/SRCFILEs.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/finstrut/finstrut.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/finstrut/fstrutst.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/finstrut/finstrut.tex
+%%PORTSRC%%share/texmf-dist/source/latex/finstrut/fstrutst.tex
 %%PORTSRC%%share/texmf-dist/source/latex/finstrut/srcfiles.tex
 share/texmf-dist/tex/latex/finstrut/finstrut.sty
 @dirrmtry share/texmf-dist/tex/latex/finstrut

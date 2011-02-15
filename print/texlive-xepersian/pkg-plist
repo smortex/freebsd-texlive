@@ -34,6 +34,7 @@ share/texmf-dist/tex/xelatex/xepersian/breqn-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/color-localise.def
 share/texmf-dist/tex/xelatex/xepersian/commands-ltx.def
 share/texmf-dist/tex/xelatex/xepersian/commands-xepersian.def
+share/texmf-dist/tex/xelatex/xepersian/empheq-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/enumerate-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/environments-ltx.def
 share/texmf-dist/tex/xelatex/xepersian/environments-xepersian.def
