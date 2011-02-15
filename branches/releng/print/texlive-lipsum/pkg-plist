@@ -1,4 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/lipsum/README.1st
+%%PORTDOCS%%share/texmf-dist/doc/latex/lipsum/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/lipsum/lipsum.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/lipsum/lipsum.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/lipsum/lipsum.ins

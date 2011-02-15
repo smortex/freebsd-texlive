@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-interfaces
-# Date created:		10/26/2010 04:53:34
+# New ports collection makefile for:	texlive-apa6e
+# Date created:		02/15/2011 05:13:28
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	interfaces
+PORTNAME=	apa6e
 PORTVERSION=	20110215
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Set parameters for other packages, conveniently.
+COMMENT=	Format manuscripts to APA 6th edition guidelines.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
