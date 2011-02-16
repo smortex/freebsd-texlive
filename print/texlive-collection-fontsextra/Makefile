@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20110206
+PORTVERSION=	20110216
 CATEGORIES=	print
 DISTFILES=	# None
 

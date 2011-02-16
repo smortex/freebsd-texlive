@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110215
+PORTVERSION=	20110216
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -961,6 +961,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/hardwrap/hardwrap.sty:${PORTSDIR}/print/texlive-hardwrap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/harpoon/harpoon.sty:${PORTSDIR}/print/texlive-harpoon \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/hc/hc-de.bst:${PORTSDIR}/print/texlive-hc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/he-she/he-she.sty:${PORTSDIR}/print/texlive-he-she \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hhtensor/hhtensor.sty:${PORTSDIR}/print/texlive-hhtensor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/histogr/histogr.sty:${PORTSDIR}/print/texlive-histogr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hitec/hitec.cls:${PORTSDIR}/print/texlive-hitec \
