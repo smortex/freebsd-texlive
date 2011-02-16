@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/he-she/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/he-she/he-she.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/he-she/he-she.tex
+share/texmf-dist/tex/latex/he-she/he-she.sty
+@dirrmtry share/texmf-dist/tex/latex/he-she
+@dirrmtry share/texmf-dist/doc/latex/he-she
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
