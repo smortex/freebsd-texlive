@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-medium
-PORTVERSION=	20110213
+PORTVERSION=	20110219
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -218,11 +218,13 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/fonts/source/jknappen/ec/ecbi.mf:${PORTSDIR}/print/texlive-ec \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty:${PORTSDIR}/print/texlive-eso-pic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/euler/euler.sty:${PORTSDIR}/print/texlive-euler \
+		${LOCALBASE}/share/texmf-dist/tex/latex/expl3/expl3.sty:${PORTSDIR}/print/texlive-expl3 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/extsizes/extsizes.sty:${PORTSDIR}/print/texlive-extsizes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancybox/fancybox.sty:${PORTSDIR}/print/texlive-fancybox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancyref/fancyref.sty:${PORTSDIR}/print/texlive-fancyref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty:${PORTSDIR}/print/texlive-fancyvrb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/float/float.sty:${PORTSDIR}/print/texlive-float \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fontspec/fontspec.sty:${PORTSDIR}/print/texlive-fontspec \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fp/fp.sty:${PORTSDIR}/print/texlive-fp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/index/index.sty:${PORTSDIR}/print/texlive-index \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jknapltx/greekctr.sty:${PORTSDIR}/print/texlive-jknapltx \
@@ -231,6 +233,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdwtools/at.sty:${PORTSDIR}/print/texlive-mdwtools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/memoir/memoir.cls:${PORTSDIR}/print/texlive-memoir \
 		${LOCALBASE}/share/texmf-dist/tex/latex/metalogo/metalogo.sty:${PORTSDIR}/print/texlive-metalogo \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mh/breqn.sty:${PORTSDIR}/print/texlive-mh \
 		${LOCALBASE}/share/texmf-dist/tex/latex/microtype/microtype.sty:${PORTSDIR}/print/texlive-microtype \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ms/count1to.sty:${PORTSDIR}/print/texlive-ms \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ntgclass/a4.sty:${PORTSDIR}/print/texlive-ntgclass \
@@ -253,6 +256,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/url/url.sty:${PORTSDIR}/print/texlive-url \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xcolor/xcolor.sty:${PORTSDIR}/print/texlive-xcolor \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex:${PORTSDIR}/print/texlive-xkeyval \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xpackages/xbase/ldcsetup.sty:${PORTSDIR}/print/texlive-xpackages \
 		${LOCALBASE}/share/texmf-dist/tex/latex/12many/12many.sty:${PORTSDIR}/print/texlive-12many \
 		${LOCALBASE}/share/texmf-dist/tex/amstex/base/amstex.tex:${PORTSDIR}/print/texlive-amstex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/binomexp/binomexp.sty:${PORTSDIR}/print/texlive-binomexp \
@@ -331,7 +335,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/texinfo/texinfo.tex:${PORTSDIR}/print/texlive-texinfo \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/arabxetex/arabxetex.sty:${PORTSDIR}/print/texlive-arabxetex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/euenc/eu1enc.def:${PORTSDIR}/print/texlive-euenc \
-		${LOCALBASE}/share/texmf-dist/tex/latex/fontspec/fontspec.sty:${PORTSDIR}/print/texlive-fontspec \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fontwrap/fontwrap.sty:${PORTSDIR}/print/texlive-fontwrap \
 		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/harvardkyoto/README:${PORTSDIR}/print/texlive-harvardkyoto \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/mathspec/mathspec.sty:${PORTSDIR}/print/texlive-mathspec \

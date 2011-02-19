@@ -1,4 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/was/fixmath.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/was/gensymb.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/was/icomma.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/was/readme.1st
+%%PORTDOCS%%share/texmf-dist/doc/latex/was/upgreek.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/was/fixmath.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/was/fixmath.ins
 %%PORTSRC%%share/texmf-dist/source/latex/was/gensymb.dtx

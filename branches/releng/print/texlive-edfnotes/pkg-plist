@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/edfnotes/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/edfnotes/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/edfnotes/edfnotes.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/edfnotes/README.tex
+%%PORTSRC%%share/texmf-dist/source/latex/edfnotes/edfnotes.tex
+%%PORTSRC%%share/texmf-dist/source/latex/edfnotes/srcfiles.tex
+share/texmf-dist/tex/latex/edfnotes/edfnotes.sty
+@dirrmtry share/texmf-dist/tex/latex/edfnotes
+@dirrmtry share/texmf-dist/source/latex/edfnotes
+@dirrmtry share/texmf-dist/doc/latex/edfnotes
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

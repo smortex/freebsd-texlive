@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	lineno
-PORTVERSION=	20100922
+PORTVERSION=	20110219
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Line numbers on paragraphs.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

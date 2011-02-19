@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexrecommended
-PORTVERSION=	20110117
+PORTVERSION=	20110219
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -19,46 +19,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/anysize/anysize.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/caption/caption.sty:${PORTSDIR}/print/texlive-caption \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cite/cite.sty:${PORTSDIR}/print/texlive-cite \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmap/cmap.sty:${PORTSDIR}/print/texlive-cmap \
-		${LOCALBASE}/share/texmf-dist/tex/latex/crop/crop.sty:${PORTSDIR}/print/texlive-crop \
-		${LOCALBASE}/share/texmf-dist/tex/latex/ctable/ctable.sty:${PORTSDIR}/print/texlive-ctable \
-		${LOCALBASE}/share/texmf-dist/fonts/source/jknappen/ec/ecbi.mf:${PORTSDIR}/print/texlive-ec \
-		${LOCALBASE}/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty:${PORTSDIR}/print/texlive-eso-pic \
-		${LOCALBASE}/share/texmf-dist/tex/latex/euler/euler.sty:${PORTSDIR}/print/texlive-euler \
-		${LOCALBASE}/share/texmf-dist/tex/latex/extsizes/extsizes.sty:${PORTSDIR}/print/texlive-extsizes \
-		${LOCALBASE}/share/texmf-dist/tex/latex/fancybox/fancybox.sty:${PORTSDIR}/print/texlive-fancybox \
-		${LOCALBASE}/share/texmf-dist/tex/latex/fancyref/fancyref.sty:${PORTSDIR}/print/texlive-fancyref \
-		${LOCALBASE}/share/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty:${PORTSDIR}/print/texlive-fancyvrb \
-		${LOCALBASE}/share/texmf-dist/tex/latex/float/float.sty:${PORTSDIR}/print/texlive-float \
-		${LOCALBASE}/share/texmf-dist/tex/latex/fp/fp.sty:${PORTSDIR}/print/texlive-fp \
-		${LOCALBASE}/share/texmf-dist/tex/latex/index/index.sty:${PORTSDIR}/print/texlive-index \
-		${LOCALBASE}/share/texmf-dist/tex/latex/jknapltx/greekctr.sty:${PORTSDIR}/print/texlive-jknapltx \
-		${LOCALBASE}/share/texmf-dist/doc/latex/koma-script/INSTALL.txt:${PORTSDIR}/print/texlive-koma-script \
-		${LOCALBASE}/share/texmf-dist/tex/latex/listings/listings.sty:${PORTSDIR}/print/texlive-listings \
-		${LOCALBASE}/share/texmf-dist/tex/latex/mdwtools/at.sty:${PORTSDIR}/print/texlive-mdwtools \
-		${LOCALBASE}/share/texmf-dist/tex/latex/memoir/memoir.cls:${PORTSDIR}/print/texlive-memoir \
-		${LOCALBASE}/share/texmf-dist/tex/latex/metalogo/metalogo.sty:${PORTSDIR}/print/texlive-metalogo \
-		${LOCALBASE}/share/texmf-dist/tex/latex/microtype/microtype.sty:${PORTSDIR}/print/texlive-microtype \
-		${LOCALBASE}/share/texmf-dist/tex/latex/ms/count1to.sty:${PORTSDIR}/print/texlive-ms \
-		${LOCALBASE}/share/texmf-dist/tex/latex/ntgclass/a4.sty:${PORTSDIR}/print/texlive-ntgclass \
-		${LOCALBASE}/share/texmf-dist/tex/latex/parskip/parskip.sty:${PORTSDIR}/print/texlive-parskip \
-		${LOCALBASE}/share/texmf-dist/tex/latex/pdfpages/pdfpages.sty:${PORTSDIR}/print/texlive-pdfpages \
-		${LOCALBASE}/share/texmf-dist/tex/latex/powerdot/powerdot.cls:${PORTSDIR}/print/texlive-powerdot \
-		${LOCALBASE}/share/texmf-dist/tex/latex/psfrag/psfrag.sty:${PORTSDIR}/print/texlive-psfrag \
-		${LOCALBASE}/share/texmf-dist/tex/latex/rcs/rcs.sty:${PORTSDIR}/print/texlive-rcs \
-		${LOCALBASE}/share/texmf-dist/tex/latex/rotating/rotating.sty:${PORTSDIR}/print/texlive-rotating \
-		${LOCALBASE}/share/texmf-dist/tex/latex/sansmath/sansmath.sty:${PORTSDIR}/print/texlive-sansmath \
-		${LOCALBASE}/share/texmf-dist/tex/latex/section/section.sty:${PORTSDIR}/print/texlive-section \
-		${LOCALBASE}/share/texmf-dist/tex/latex/seminar/seminar.cls:${PORTSDIR}/print/texlive-seminar \
-		${LOCALBASE}/share/texmf-dist/tex/latex/sepnum/sepnum.sty:${PORTSDIR}/print/texlive-sepnum \
-		${LOCALBASE}/share/texmf-dist/tex/latex/setspace/setspace.sty:${PORTSDIR}/print/texlive-setspace \
-		${LOCALBASE}/share/texmf-dist/tex/latex/subfig/subfig.sty:${PORTSDIR}/print/texlive-subfig \
-		${LOCALBASE}/share/texmf-dist/tex/latex/textcase/textcase.sty:${PORTSDIR}/print/texlive-textcase \
-		${LOCALBASE}/share/texmf-dist/tex/generic/thumbpdf/thumbpdf.sty:${PORTSDIR}/print/texlive-thumbpdf \
-		${LOCALBASE}/share/texmf-dist/tex/latex/typehtml/typehtml.sty:${PORTSDIR}/print/texlive-typehtml \
-		${LOCALBASE}/share/texmf-dist/tex/latex/underscore/underscore.sty:${PORTSDIR}/print/texlive-underscore \
-		${LOCALBASE}/share/texmf-dist/tex/latex/url/url.sty:${PORTSDIR}/print/texlive-url \
-		${LOCALBASE}/share/texmf-dist/tex/latex/xcolor/xcolor.sty:${PORTSDIR}/print/texlive-xcolor \
-		${LOCALBASE}/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex:${PORTSDIR}/print/texlive-xkeyval \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print/texlive-ae \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/amscls/amsalpha.bst:${PORTSDIR}/print/texlive-amscls \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsmath/amsmath.sty:${PORTSDIR}/print/texlive-amsmath \
@@ -115,7 +75,51 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/anysize/anysize.sty:${PORTS
 		${LOCALBASE}/share/texmf/texconfig/README:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
 		${LOCALBASE}/share/texmf/scripts/texlive/tlmgr.pl:${PORTSDIR}/print/texlive-texlive.infra \
-		${LOCALBASE}/share/texmf/xdvi/XDvi:${PORTSDIR}/print/texlive-xdvi
+		${LOCALBASE}/share/texmf/xdvi/XDvi:${PORTSDIR}/print/texlive-xdvi \
+		${LOCALBASE}/share/texmf-dist/tex/latex/crop/crop.sty:${PORTSDIR}/print/texlive-crop \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ctable/ctable.sty:${PORTSDIR}/print/texlive-ctable \
+		${LOCALBASE}/share/texmf-dist/fonts/source/jknappen/ec/ecbi.mf:${PORTSDIR}/print/texlive-ec \
+		${LOCALBASE}/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty:${PORTSDIR}/print/texlive-eso-pic \
+		${LOCALBASE}/share/texmf-dist/tex/latex/euler/euler.sty:${PORTSDIR}/print/texlive-euler \
+		${LOCALBASE}/share/texmf-dist/tex/latex/expl3/expl3.sty:${PORTSDIR}/print/texlive-expl3 \
+		${LOCALBASE}/share/texmf-dist/tex/latex/extsizes/extsizes.sty:${PORTSDIR}/print/texlive-extsizes \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fancybox/fancybox.sty:${PORTSDIR}/print/texlive-fancybox \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fancyref/fancyref.sty:${PORTSDIR}/print/texlive-fancyref \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty:${PORTSDIR}/print/texlive-fancyvrb \
+		${LOCALBASE}/share/texmf-dist/tex/latex/float/float.sty:${PORTSDIR}/print/texlive-float \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fontspec/fontspec.sty:${PORTSDIR}/print/texlive-fontspec \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fp/fp.sty:${PORTSDIR}/print/texlive-fp \
+		${LOCALBASE}/share/texmf-dist/tex/latex/index/index.sty:${PORTSDIR}/print/texlive-index \
+		${LOCALBASE}/share/texmf-dist/tex/latex/jknapltx/greekctr.sty:${PORTSDIR}/print/texlive-jknapltx \
+		${LOCALBASE}/share/texmf-dist/doc/latex/koma-script/INSTALL.txt:${PORTSDIR}/print/texlive-koma-script \
+		${LOCALBASE}/share/texmf-dist/tex/latex/listings/listings.sty:${PORTSDIR}/print/texlive-listings \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mdwtools/at.sty:${PORTSDIR}/print/texlive-mdwtools \
+		${LOCALBASE}/share/texmf-dist/tex/latex/memoir/memoir.cls:${PORTSDIR}/print/texlive-memoir \
+		${LOCALBASE}/share/texmf-dist/tex/latex/metalogo/metalogo.sty:${PORTSDIR}/print/texlive-metalogo \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mh/breqn.sty:${PORTSDIR}/print/texlive-mh \
+		${LOCALBASE}/share/texmf-dist/tex/latex/microtype/microtype.sty:${PORTSDIR}/print/texlive-microtype \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ms/count1to.sty:${PORTSDIR}/print/texlive-ms \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ntgclass/a4.sty:${PORTSDIR}/print/texlive-ntgclass \
+		${LOCALBASE}/share/texmf-dist/tex/latex/parskip/parskip.sty:${PORTSDIR}/print/texlive-parskip \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pdfpages/pdfpages.sty:${PORTSDIR}/print/texlive-pdfpages \
+		${LOCALBASE}/share/texmf-dist/tex/latex/powerdot/powerdot.cls:${PORTSDIR}/print/texlive-powerdot \
+		${LOCALBASE}/share/texmf-dist/tex/latex/psfrag/psfrag.sty:${PORTSDIR}/print/texlive-psfrag \
+		${LOCALBASE}/share/texmf-dist/tex/latex/rcs/rcs.sty:${PORTSDIR}/print/texlive-rcs \
+		${LOCALBASE}/share/texmf-dist/tex/latex/rotating/rotating.sty:${PORTSDIR}/print/texlive-rotating \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sansmath/sansmath.sty:${PORTSDIR}/print/texlive-sansmath \
+		${LOCALBASE}/share/texmf-dist/tex/latex/section/section.sty:${PORTSDIR}/print/texlive-section \
+		${LOCALBASE}/share/texmf-dist/tex/latex/seminar/seminar.cls:${PORTSDIR}/print/texlive-seminar \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sepnum/sepnum.sty:${PORTSDIR}/print/texlive-sepnum \
+		${LOCALBASE}/share/texmf-dist/tex/latex/setspace/setspace.sty:${PORTSDIR}/print/texlive-setspace \
+		${LOCALBASE}/share/texmf-dist/tex/latex/subfig/subfig.sty:${PORTSDIR}/print/texlive-subfig \
+		${LOCALBASE}/share/texmf-dist/tex/latex/textcase/textcase.sty:${PORTSDIR}/print/texlive-textcase \
+		${LOCALBASE}/share/texmf-dist/tex/generic/thumbpdf/thumbpdf.sty:${PORTSDIR}/print/texlive-thumbpdf \
+		${LOCALBASE}/share/texmf-dist/tex/latex/typehtml/typehtml.sty:${PORTSDIR}/print/texlive-typehtml \
+		${LOCALBASE}/share/texmf-dist/tex/latex/underscore/underscore.sty:${PORTSDIR}/print/texlive-underscore \
+		${LOCALBASE}/share/texmf-dist/tex/latex/url/url.sty:${PORTSDIR}/print/texlive-url \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xcolor/xcolor.sty:${PORTSDIR}/print/texlive-xcolor \
+		${LOCALBASE}/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex:${PORTSDIR}/print/texlive-xkeyval \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xpackages/xbase/ldcsetup.sty:${PORTSDIR}/print/texlive-xpackages
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
