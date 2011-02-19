@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20110216
+PORTVERSION=	20110219
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -149,6 +149,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/punknova/punknova-bold.otf:${PORTSDIR}/print/texlive-punknova \
 		${LOCALBASE}/share/texmf-dist/tex/latex/recycle/recycle.sty:${PORTSDIR}/print/texlive-recycle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/romande/romande.sty:${PORTSDIR}/print/texlive-romande \
+		${LOCALBASE}/share/texmf-dist/tex/latex/public/rsfso/rsfso.sty:${PORTSDIR}/print/texlive-rsfso \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/sauter/b-cmb.mf:${PORTSDIR}/print/texlive-sauter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sauterfonts/sbbm.sty:${PORTSDIR}/print/texlive-sauterfonts \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/semaphor/smfb10.afm:${PORTSDIR}/print/texlive-semaphor \

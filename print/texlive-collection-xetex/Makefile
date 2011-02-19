@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-xetex
-PORTVERSION=	20101225
+PORTVERSION=	20110219
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -15,7 +15,6 @@ COMMENT=	XeTeX packages
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/xelatex/arabxetex/arabxetex.sty:${PORTSDIR}/print/texlive-arabxetex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/euenc/eu1enc.def:${PORTSDIR}/print/texlive-euenc \
-		${LOCALBASE}/share/texmf-dist/tex/latex/fontspec/fontspec.sty:${PORTSDIR}/print/texlive-fontspec \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fontwrap/fontwrap.sty:${PORTSDIR}/print/texlive-fontwrap \
 		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/harvardkyoto/README:${PORTSDIR}/print/texlive-harvardkyoto \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/mathspec/mathspec.sty:${PORTSDIR}/print/texlive-mathspec \
