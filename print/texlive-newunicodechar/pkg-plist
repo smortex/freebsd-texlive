@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/newunicodechar/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/newunicodechar/newunicodechar.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/newunicodechar/newunicodechar.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/newunicodechar/newunicodechar.ins
+share/texmf-dist/tex/latex/newunicodechar/newunicodechar.sty
+@dirrmtry share/texmf-dist/tex/latex/newunicodechar
+@dirrmtry share/texmf-dist/source/latex/newunicodechar
+@dirrmtry share/texmf-dist/doc/latex/newunicodechar
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

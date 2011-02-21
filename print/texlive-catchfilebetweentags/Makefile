@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	catchfilebetweentags
-PORTVERSION=	20101026
+PORTVERSION=	20110221
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

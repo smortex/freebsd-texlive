@@ -1,0 +1,6 @@
+The package provides a friendly interface for defining the
+meaning of Unicode characters. The document should be processed
+by (pdf)LaTeX with \usepackage[utf8]{inputenc} or by
+XeLaTeX/LuaLaTeX. The command provided is
+\newunicodechar{<char>}{<code>} where <char> is a directly-
+typed Unicode character, and <code> is its replacement.

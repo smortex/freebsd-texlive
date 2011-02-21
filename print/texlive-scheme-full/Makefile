@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110219
+PORTVERSION=	20110221
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -926,7 +926,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/footnpag/footnpag.sty:${PORTSDIR}/print/texlive-footnpag \
 		${LOCALBASE}/share/texmf-dist/tex/latex/forarray/forarray.sty:${PORTSDIR}/print/texlive-forarray \
 		${LOCALBASE}/share/texmf-dist/tex/latex/forloop/forloop.sty:${PORTSDIR}/print/texlive-forloop \
-		${LOCALBASE}/share/texmf-dist/tex/latex/formlett/formlett.sty:${PORTSDIR}/print/texlive-formlett \
+		${LOCALBASE}/share/texmf-dist/tex/generic/formlett/formlett.sty:${PORTSDIR}/print/texlive-formlett \
 		${LOCALBASE}/share/texmf-dist/tex/latex/formular/formular.sty:${PORTSDIR}/print/texlive-formular \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fragments/checklab.tex:${PORTSDIR}/print/texlive-fragments \
 		${LOCALBASE}/share/texmf-dist/tex/generic/frame/frame.sty:${PORTSDIR}/print/texlive-frame \
@@ -1092,6 +1092,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/newfile/newfile.sty:${PORTSDIR}/print/texlive-newfile \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newlfm/newlfm.cls:${PORTSDIR}/print/texlive-newlfm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newspaper/newspaper.sty:${PORTSDIR}/print/texlive-newspaper \
+		${LOCALBASE}/share/texmf-dist/tex/latex/newunicodechar/newunicodechar.sty:${PORTSDIR}/print/texlive-newunicodechar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newvbtm/newvbtm.sty:${PORTSDIR}/print/texlive-newvbtm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newverbs/newverbs.sty:${PORTSDIR}/print/texlive-newverbs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nextpage/nextpage.sty:${PORTSDIR}/print/texlive-nextpage \
@@ -1461,7 +1462,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex:${PORTSDIR}/print/texlive-xkeyval \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xpackages/xbase/ldcsetup.sty:${PORTSDIR}/print/texlive-xpackages \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luacode/luacode.sty:${PORTSDIR}/print/texlive-luacode \
-		${LOCALBASE}/share/texmf-dist/tex/lualatex/luaindex/luaindex.sty:${PORTSDIR}/print/texlive-luaindex \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luainputenc/luainputenc.sty:${PORTSDIR}/print/texlive-luainputenc \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/lualibs/lualibs-aux.lua:${PORTSDIR}/print/texlive-lualibs \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luamplib/luamplib.sty:${PORTSDIR}/print/texlive-luamplib \

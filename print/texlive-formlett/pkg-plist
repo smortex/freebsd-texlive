@@ -1,9 +1,9 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/formlett/prog_manual.dvi
-%%PORTDOCS%%share/texmf-dist/doc/latex/formlett/prog_manual.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/formlett/user_manual.dvi
-%%PORTDOCS%%share/texmf-dist/doc/latex/formlett/user_manual.tex
-share/texmf-dist/tex/latex/formlett/formlett.sty
-@dirrmtry share/texmf-dist/tex/latex/formlett
-@dirrmtry share/texmf-dist/doc/latex/formlett
+%%PORTDOCS%%share/texmf-dist/doc/generic/formlett/prog_manual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/formlett/prog_manual.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/formlett/user_manual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/formlett/user_manual.tex
+share/texmf-dist/tex/generic/formlett/formlett.sty
+@dirrmtry share/texmf-dist/tex/generic/formlett
+@dirrmtry share/texmf-dist/doc/generic/formlett
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
