@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20110219
+PORTVERSION=	20110222
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -136,7 +136,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/oldlatin/olb10.mf:${PORTSDIR}/print/texlive-oldlatin \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/oldstandard/OldStandard-Bold.otf:${PORTSDIR}/print/texlive-oldstandard \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/orkhun/orhant.mf:${PORTSDIR}/print/texlive-orkhun \
-		${LOCALBASE}/share/texmf-dist/fonts/source/public/osmanian/osmanian.mf:${PORTSDIR}/print/texlive-osmanian \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pacioli/pacioli.sty:${PORTSDIR}/print/texlive-pacioli \
 		${LOCALBASE}/share/texmf-dist/tex/latex/phaistos/phaistos.sty:${PORTSDIR}/print/texlive-phaistos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/phonetic/phonetic.sty:${PORTSDIR}/print/texlive-phonetic \
