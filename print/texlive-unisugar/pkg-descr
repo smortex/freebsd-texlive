@@ -1,0 +1,5 @@
+The package allows the user to define shorthand aliases for
+single Unicode characters, and also provides support for such
+aliases in RTL-text. The package requires an TeX-alike system
+that uses Unicode input in a native way: current examples are
+XeTeX and LuaTeX.

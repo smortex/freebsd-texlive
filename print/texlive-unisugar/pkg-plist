@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/unisugar/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/unisugar/gedit-mixed-sugar.png
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/unisugar/gedit-mixed-traditional.png
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/unisugar/sugar.png
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/unisugar/traditional.png
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/unisugar/unisugar.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/unisugar/unisugar.tex
+share/texmf-dist/tex/xelatex/unisugar/unisugar.sty
+@dirrmtry share/texmf-dist/tex/xelatex/unisugar
+@dirrmtry share/texmf-dist/doc/xelatex/unisugar
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

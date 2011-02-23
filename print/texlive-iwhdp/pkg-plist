@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/iwhdp/Anleitung.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/iwhdp/Anleitung.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/iwhdp/Anleitung.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/iwhdp/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/iwhdp/iwhdp_paper.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/iwhdp/iwhdp_paper.tex
+share/texmf-dist/tex/latex/iwhdp/iwhdp.cls
+@dirrmtry share/texmf-dist/tex/latex/iwhdp
+@dirrmtry share/texmf-dist/doc/latex/iwhdp
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
