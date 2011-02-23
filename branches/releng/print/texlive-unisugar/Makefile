@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-drv
-# Date created:		13/03/2010 04:21:55
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-unisugar
+# Date created:		02/23/2011 08:36:11
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	drv
+PORTNAME=	unisugar
 PORTVERSION=	20110223
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Derivation trees with MetaPost.
+COMMENT=	Define syntactic sugar for Unicode LaTeX.
 
 NOPORTSRC=	yes
 

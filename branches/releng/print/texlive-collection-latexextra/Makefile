@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110221
+PORTVERSION=	20110223
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -451,6 +451,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/isodoc/isodoc.cls:${PORTSDIR}/print/texlive-isodoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/isorot/isorot.sty:${PORTSDIR}/print/texlive-isorot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/isotope/isotope.sty:${PORTSDIR}/print/texlive-isotope \
+		${LOCALBASE}/share/texmf-dist/tex/latex/iwhdp/iwhdp.cls:${PORTSDIR}/print/texlive-iwhdp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kerntest/kerntest.cls:${PORTSDIR}/print/texlive-kerntest \
 		${LOCALBASE}/share/texmf-dist/tex/latex/keycommand/keycommand.sty:${PORTSDIR}/print/texlive-keycommand \
 		${LOCALBASE}/share/texmf-dist/tex/latex/keystroke/keystroke.sty:${PORTSDIR}/print/texlive-keystroke \
