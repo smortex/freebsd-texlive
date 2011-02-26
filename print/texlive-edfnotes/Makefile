@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	edfnotes
-PORTVERSION=	20110221
+PORTVERSION=	20110226
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Line number the notes of critical editions.
+COMMENT=	Critical annotations to footnotes with ednotes.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
