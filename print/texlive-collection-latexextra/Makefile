@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110223
+PORTVERSION=	20110227
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -148,6 +148,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/acronym/acronym.sty:${PORTSDIR}/print/texlive-acronym \
 		${LOCALBASE}/share/texmf-dist/tex/latex/acroterm/acroterm.sty:${PORTSDIR}/print/texlive-acroterm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/addlines/addlines.sty:${PORTSDIR}/print/texlive-addlines \
+		${LOCALBASE}/share/texmf-dist/tex/latex/adjmulticol/adjmulticol.sty:${PORTSDIR}/print/texlive-adjmulticol \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/adrconv/adrbirthday.bst:${PORTSDIR}/print/texlive-adrconv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/advdate/advdate.sty:${PORTSDIR}/print/texlive-advdate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/akletter/akletter.cls:${PORTSDIR}/print/texlive-akletter \
