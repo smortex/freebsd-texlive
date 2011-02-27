@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-edfnotes
-# Date created:		02/19/2011 04:46:59
+# New ports collection makefile for:	texlive-adjmulticol
+# Date created:		02/27/2011 04:50:35
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	edfnotes
+PORTNAME=	adjmulticol
 PORTVERSION=	20110227
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Critical annotations to footnotes with ednotes.
+COMMENT=	Adjusting margins for multicolumn and single column output.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
