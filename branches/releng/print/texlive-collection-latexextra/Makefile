@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110227
+PORTVERSION=	20110301
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -789,7 +789,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/thumby/thumby.sty:${PORTSDIR}/print/texlive-thumby \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ticket/ticket.sty:${PORTSDIR}/print/texlive-ticket \
 		${LOCALBASE}/share/texmf-dist/tex/latex/timesht/timesht.cls:${PORTSDIR}/print/texlive-timesht \
-		${LOCALBASE}/share/texmf-dist/tex/latex/timing/timing.sty:${PORTSDIR}/print/texlive-timing \
 		${LOCALBASE}/share/texmf-dist/tex/latex/titlefoot/titlefoot.sty:${PORTSDIR}/print/texlive-titlefoot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/titlepic/titlepic.sty:${PORTSDIR}/print/texlive-titlepic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/titleref/titleref.sty:${PORTSDIR}/print/texlive-titleref \
