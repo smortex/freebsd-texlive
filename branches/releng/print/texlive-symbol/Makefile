@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	symbol
-PORTVERSION=	20100922
+PORTVERSION=	20110303
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The symbol package
+COMMENT=	URW "Base 35" font pack for LaTeX.
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes

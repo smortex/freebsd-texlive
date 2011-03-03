@@ -1,4 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-3dplot/CHANGELOG
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-3dplot/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-3dplot/externalize_images.bat
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-3dplot/tikz-3dplot_documentation.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-3dplot/tikz-3dplot_documentation.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-3dplot/tikz-3dplot_documentation_figures.tex

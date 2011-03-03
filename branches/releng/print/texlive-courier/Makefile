@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	courier
-PORTVERSION=	20110119
+PORTVERSION=	20110303
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Adobe Type 1 "free" copies of Courier.
+COMMENT=	URW "Base 35" font pack for LaTeX.
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes

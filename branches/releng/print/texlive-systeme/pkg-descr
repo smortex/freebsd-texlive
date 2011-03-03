@@ -1,0 +1,4 @@
+This small package allows you to enter systems of equations or
+inequalities in an intuitive way, and produces typeset output
+where the terms and signs are aligned vertically. The package
+works with plain TeX or LaTeX, but e-TeX is required.

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-genericextra
-PORTVERSION=	20110130
+PORTVERSION=	20110303
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -40,6 +40,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/abbr/abbr.tex:${PORTSDIR}
 		${LOCALBASE}/share/texmf-dist/tex/generic/ofs/ofs.sty:${PORTSDIR}/print/texlive-ofs \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pdf-trans/pdf-trans.tex:${PORTSDIR}/print/texlive-pdf-trans \
 		${LOCALBASE}/share/texmf-dist/tex/generic/shade/shade.tex:${PORTSDIR}/print/texlive-shade \
+		${LOCALBASE}/share/texmf-dist/tex/generic/systeme/systeme.sty:${PORTSDIR}/print/texlive-systeme \
 		${LOCALBASE}/share/texmf-dist/tex/generic/tabto-generic/tabto.tex:${PORTSDIR}/print/texlive-tabto-generic \
 		${LOCALBASE}/share/texmf-dist/tex/generic/texapi/texapi.tex:${PORTSDIR}/print/texlive-texapi \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xlop/xlop.sty:${PORTSDIR}/print/texlive-xlop \

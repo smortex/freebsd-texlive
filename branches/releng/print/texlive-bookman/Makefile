@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	bookman
-PORTVERSION=	20110119
+PORTVERSION=	20110303
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The bookman package
+COMMENT=	URW "Base 35" font pack for LaTeX.
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes

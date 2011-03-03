@@ -1,8 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/standalone/gincltex.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/standalone/standalone.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/standalone/Makefile
 %%PORTSRC%%share/texmf-dist/source/latex/standalone/README
+%%PORTSRC%%share/texmf-dist/source/latex/standalone/gincltex.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/standalone/gincltex.ins
 %%PORTSRC%%share/texmf-dist/source/latex/standalone/standalone.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/standalone/standalone.ins
+share/texmf-dist/tex/latex/standalone/gincltex.sty
 share/texmf-dist/tex/latex/standalone/standalone.cfg
 share/texmf-dist/tex/latex/standalone/standalone.cls
 share/texmf-dist/tex/latex/standalone/standalone.sty
