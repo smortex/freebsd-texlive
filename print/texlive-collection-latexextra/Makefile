@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110301
+PORTVERSION=	20110303
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -111,6 +111,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-umlsd/pgf-umlsd.sty:${PORTSDIR}/print/texlive-pgf-umlsd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfopts/pgfopts.sty:${PORTSDIR}/print/texlive-pgfopts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty:${PORTSDIR}/print/texlive-pgfplots \
+		${LOCALBASE}/share/texmf-dist/tex/latex/piano/piano.sty:${PORTSDIR}/print/texlive-piano \
 		${LOCALBASE}/share/texmf-dist/tex/latex/picinpar/picinpar.sty:${PORTSDIR}/print/texlive-picinpar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pict2e/pict2e.sty:${PORTSDIR}/print/texlive-pict2e \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pictex/pictex.sty:${PORTSDIR}/print/texlive-pictex \
@@ -167,6 +168,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/authoraftertitle/authoraftertitle.sty:${PORTSDIR}/print/texlive-authoraftertitle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/authorindex/authorindex.sty:${PORTSDIR}/print/texlive-authorindex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/background/background.sty:${PORTSDIR}/print/texlive-background \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bashful/bashful.sty:${PORTSDIR}/print/texlive-bashful \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamer-contrib/beamerthemeJLTree.sty:${PORTSDIR}/print/texlive-beamer-contrib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamer2thesis/beamer2thesis.jpg:${PORTSDIR}/print/texlive-beamer2thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerposter/beamerposter.sty:${PORTSDIR}/print/texlive-beamerposter \
@@ -828,7 +830,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/varindex/varindex.sty:${PORTSDIR}/print/texlive-varindex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/varsfromjobname/varsfromjobname.sty:${PORTSDIR}/print/texlive-varsfromjobname \
 		${LOCALBASE}/share/texmf-dist/tex/latex/varwidth/varwidth.sty:${PORTSDIR}/print/texlive-varwidth \
-		${LOCALBASE}/share/texmf-dist/tex/latex/vector/vector.sty:${PORTSDIR}/print/texlive-vector \
 		${LOCALBASE}/share/texmf-dist/tex/latex/verbatimbox/verbatimbox.sty:${PORTSDIR}/print/texlive-verbatimbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/verbatimcopy/verbatimcopy.sty:${PORTSDIR}/print/texlive-verbatimcopy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/verbdef/verbdef.sty:${PORTSDIR}/print/texlive-verbdef \

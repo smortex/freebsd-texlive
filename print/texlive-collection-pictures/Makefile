@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20110213
+PORTVERSION=	20110303
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -54,6 +54,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/adjustbox/adjustbox.sty:${P
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-umlsd/pgf-umlsd.sty:${PORTSDIR}/print/texlive-pgf-umlsd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfopts/pgfopts.sty:${PORTSDIR}/print/texlive-pgfopts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty:${PORTSDIR}/print/texlive-pgfplots \
+		${LOCALBASE}/share/texmf-dist/tex/latex/piano/piano.sty:${PORTSDIR}/print/texlive-piano \
 		${LOCALBASE}/share/texmf-dist/tex/latex/picinpar/picinpar.sty:${PORTSDIR}/print/texlive-picinpar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pict2e/pict2e.sty:${PORTSDIR}/print/texlive-pict2e \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pictex/pictex.sty:${PORTSDIR}/print/texlive-pictex \

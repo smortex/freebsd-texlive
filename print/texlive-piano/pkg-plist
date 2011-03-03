@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/piano/README
+share/texmf-dist/tex/latex/piano/piano.sty
+@dirrmtry share/texmf-dist/tex/latex/piano
+@dirrmtry share/texmf-dist/doc/latex/piano
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
