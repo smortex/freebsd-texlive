@@ -1,4 +1,0 @@
-The package provides commands for typesetting complex chemical
-reaction schemes with LaTeX and ChemFig. The package requires
-the packages ChemFig, mhchem, chemexec (not on CTAN) and and
-chemcompounds.
