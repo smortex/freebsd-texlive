@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110304
+PORTVERSION=	20110306
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -518,7 +518,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/xetex/zhspacing/plain/zhspacing.sty:${PORTSDIR}/print/texlive-zhspacing \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hrlatex/hrlatex.sty:${PORTSDIR}/print/texlive-hrlatex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cmcyr/cmcyr.map:${PORTSDIR}/print/texlive-cmcyr \
-		${LOCALBASE}/share/texmf-dist/tex/latex/cmcyralt/cmcyralt.sty:${PORTSDIR}/print/texlive-cmcyralt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cyrillic/cp1251.def:${PORTSDIR}/print/texlive-cyrillic \
 		${LOCALBASE}/share/texmf-dist/tex/plain/cyrplain/README:${PORTSDIR}/print/texlive-cyrplain \
 		${LOCALBASE}/share/texmf-dist/tex/latex/disser/disser.cls:${PORTSDIR}/print/texlive-disser \
@@ -1366,6 +1365,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/units/units.sty:${PORTSDIR}/print/texlive-units \
 		${LOCALBASE}/share/texmf-dist/tex/latex/upmethodology/upmethodology-backpage.sty:${PORTSDIR}/print/texlive-upmethodology \
 		${LOCALBASE}/share/texmf-dist/tex/latex/upquote/upquote.sty:${PORTSDIR}/print/texlive-upquote \
+		${LOCALBASE}/share/texmf-dist/tex/latex/uri/uri.sty:${PORTSDIR}/print/texlive-uri \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ushort/ushort.sty:${PORTSDIR}/print/texlive-ushort \
 		${LOCALBASE}/share/texmf-dist/tex/latex/varindex/varindex.sty:${PORTSDIR}/print/texlive-varindex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/varsfromjobname/varsfromjobname.sty:${PORTSDIR}/print/texlive-varsfromjobname \

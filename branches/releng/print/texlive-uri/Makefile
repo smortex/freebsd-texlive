@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-systeme
-# Date created:		03/03/2011 04:46:26
+# New ports collection makefile for:	texlive-uri
+# Date created:		03/06/2011 05:03:13
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	systeme
+PORTNAME=	uri
 PORTVERSION=	20110306
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Format systems of equations.
+COMMENT=	The uri package
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

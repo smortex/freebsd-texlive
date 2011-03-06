@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-langcyrillic
-PORTVERSION=	20101215
+PORTVERSION=	20110306
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -14,7 +14,6 @@ MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Cyrillic
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cmcyr/cmcyr.map:${PORTSDIR}/print/texlive-cmcyr \
-		${LOCALBASE}/share/texmf-dist/tex/latex/cmcyralt/cmcyralt.sty:${PORTSDIR}/print/texlive-cmcyralt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cyrillic/cp1251.def:${PORTSDIR}/print/texlive-cyrillic \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
 		${LOCALBASE}/share/texmf-dist/tex/plain/cyrplain/README:${PORTSDIR}/print/texlive-cyrplain \

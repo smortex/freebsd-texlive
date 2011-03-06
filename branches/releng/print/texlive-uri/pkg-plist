@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/uri/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/uri/uri-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/uri/uri-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uri/uri.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/uri/ltxdoc.cfg
+%%PORTSRC%%share/texmf-dist/source/latex/uri/uri.drv
+%%PORTSRC%%share/texmf-dist/source/latex/uri/uri.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/uri/uri.ins
+share/texmf-dist/tex/latex/uri/uri.sty
+@dirrmtry share/texmf-dist/tex/latex/uri
+@dirrmtry share/texmf-dist/source/latex/uri
+@dirrmtry share/texmf-dist/doc/latex/uri
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

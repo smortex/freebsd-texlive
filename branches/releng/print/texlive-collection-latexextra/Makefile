@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110303
+PORTVERSION=	20110306
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -826,6 +826,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/units/units.sty:${PORTSDIR}/print/texlive-units \
 		${LOCALBASE}/share/texmf-dist/tex/latex/upmethodology/upmethodology-backpage.sty:${PORTSDIR}/print/texlive-upmethodology \
 		${LOCALBASE}/share/texmf-dist/tex/latex/upquote/upquote.sty:${PORTSDIR}/print/texlive-upquote \
+		${LOCALBASE}/share/texmf-dist/tex/latex/uri/uri.sty:${PORTSDIR}/print/texlive-uri \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ushort/ushort.sty:${PORTSDIR}/print/texlive-ushort \
 		${LOCALBASE}/share/texmf-dist/tex/latex/varindex/varindex.sty:${PORTSDIR}/print/texlive-varindex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/varsfromjobname/varsfromjobname.sty:${PORTSDIR}/print/texlive-varsfromjobname \

@@ -3,10 +3,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-sigsys/pst-sigsys-doc.bib
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-sigsys/pst-sigsys-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-sigsys/pst-sigsys-doc.tex
+%%PORTSRC%%share/texmf-dist/source/generic/pst-sigsys/Makefile
 share/texmf-dist/tex/generic/pst-sigsys/pst-sigsys.tex
 share/texmf-dist/tex/latex/pst-sigsys/pst-sigsys.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-sigsys
 @dirrmtry share/texmf-dist/tex/generic/pst-sigsys
+@dirrmtry share/texmf-dist/source/generic/pst-sigsys
 @dirrmtry share/texmf-dist/doc/generic/pst-sigsys
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
