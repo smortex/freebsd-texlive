@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20110302
+PORTVERSION=	20110309
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -19,6 +19,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/aichej/aichej.bst:${PORTSD
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/apalike2/apalike2.bst:${PORTSDIR}/print/texlive-apalike2 \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/beebe/gut.bib:${PORTSDIR}/print/texlive-beebe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibarts/bibarts.sty:${PORTSDIR}/print/texlive-bibarts \
+		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/bibexport/expkeys.bst:${PORTSDIR}/print/texlive-bibexport \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/bibhtml/abbrvhtml.bst:${PORTSDIR}/print/texlive-bibhtml \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex/biblatex.sty:${PORTSDIR}/print/texlive-biblatex \
@@ -85,7 +86,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/aichej/aichej.bst:${PORTSD
 		${LOCALBASE}/share/texmf-dist/tex/latex/graphics/graphics.sty:${PORTSDIR}/print/texlive-graphics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hyperref/hyperref.sty:${PORTSDIR}/print/texlive-hyperref \
 		${LOCALBASE}/share/texmf-dist/makeindex/latex/gglo.ist:${PORTSDIR}/print/texlive-latex \
-		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/latex-fonts/circle.mf:${PORTSDIR}/print/texlive-latex-fonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/latexconfig/color.cfg:${PORTSDIR}/print/texlive-latexconfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltxmisc/abstbook.cls:${PORTSDIR}/print/texlive-ltxmisc \

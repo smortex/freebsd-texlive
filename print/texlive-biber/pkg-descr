@@ -1,0 +1,7 @@
+Biber is a BibTeX replacement for users of biblatex. The
+present release was developed for use with biblatex 1.2. Biber
+reads UTF-8 input, and by default produces UTF-8 output, though
+it can produce LaTeX accent-command-letter combinations if
+required. Note: biber is formally named "biblatex-biber", to
+distinguish it from an earlier (now apparently moribund)
+project called "biber".
