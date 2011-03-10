@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110307
+PORTVERSION=	20110310
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -633,6 +633,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/epspdfconversion/epspdfconversion.sty:${PORTSDIR}/print/texlive-epspdfconversion \
 		${LOCALBASE}/share/texmf-dist/tex/latex/esk/esk.sty:${PORTSDIR}/print/texlive-esk \
 		${LOCALBASE}/share/texmf-dist/scripts/fig4latex/fig4latex:${PORTSDIR}/print/texlive-fig4latex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gincltex/gincltex.sty:${PORTSDIR}/print/texlive-gincltex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gnuplottex/gnuplottex.sty:${PORTSDIR}/print/texlive-gnuplottex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gradientframe/gradientframe.sty:${PORTSDIR}/print/texlive-gradientframe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/here/here.sty:${PORTSDIR}/print/texlive-here \
@@ -1748,6 +1749,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemarrow/chemarrow.sty:${PORTSDIR}/print/texlive-chemarrow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemcompounds/chemcompounds.sty:${PORTSDIR}/print/texlive-chemcompounds \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemcono/chemcono.sty:${PORTSDIR}/print/texlive-chemcono \
+		${LOCALBASE}/share/texmf-dist/tex/latex/chemexec/chemexec.sty:${PORTSDIR}/print/texlive-chemexec \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemstyle/chemstyle.sty:${PORTSDIR}/print/texlive-chemstyle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/clrscode/clrscode.sty:${PORTSDIR}/print/texlive-clrscode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/complexity/complexity.sty:${PORTSDIR}/print/texlive-complexity \
@@ -1788,6 +1790,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/texinfo/texinfo.tex:${PORTSDIR}/print/texlive-texinfo \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/arabxetex/arabxetex.sty:${PORTSDIR}/print/texlive-arabxetex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/euenc/eu1enc.def:${PORTSDIR}/print/texlive-euenc \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/fixlatvian/fixlatvian.sty:${PORTSDIR}/print/texlive-fixlatvian \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fontwrap/fontwrap.sty:${PORTSDIR}/print/texlive-fontwrap \
 		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/harvardkyoto/README:${PORTSDIR}/print/texlive-harvardkyoto \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/mathspec/mathspec.sty:${PORTSDIR}/print/texlive-mathspec \

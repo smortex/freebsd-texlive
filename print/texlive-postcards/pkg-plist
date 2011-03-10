@@ -1,6 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/postcards/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/postcards/datasmp.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/postcards/pcardsmp.dvi
 %%PORTDOCS%%share/texmf-dist/doc/latex/postcards/pcardsmp.tex
 share/texmf-dist/tex/latex/postcards/postcards.cls
 @dirrmtry share/texmf-dist/tex/latex/postcards
