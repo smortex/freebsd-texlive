@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	pawpict
-PORTVERSION=	20100922
+PORTVERSION=	20110310
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Using graphics from PAW.
 
-NOPORTDOCS=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

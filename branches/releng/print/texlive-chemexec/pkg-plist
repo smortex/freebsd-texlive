@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemexec/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemexec/chemexec_de.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemexec/chemexec_de.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemexec/chemexec_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemexec/chemexec_en.tex
+share/texmf-dist/tex/latex/chemexec/chemexec.sty
+@dirrmtry share/texmf-dist/tex/latex/chemexec
+@dirrmtry share/texmf-dist/doc/latex/chemexec
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-context-filter
-# Date created:		09/29/2010 04:35:38
+# New ports collection makefile for:	texlive-chemexec
+# Date created:		03/10/2011 05:09:55
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	context-filter
+PORTNAME=	chemexec
 PORTVERSION=	20110310
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Run external programs on the contents of a start-stop environment.
+COMMENT=	Creating (chemical) exercise sheets.
 
 NOPORTSRC=	yes
 

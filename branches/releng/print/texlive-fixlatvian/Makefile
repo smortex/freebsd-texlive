@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-chemfig
-# Date created:		09/21/2010 11:44:10
+# New ports collection makefile for:	texlive-fixlatvian
+# Date created:		03/10/2011 05:10:44
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	chemfig
+PORTNAME=	fixlatvian
 PORTVERSION=	20110310
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw molecules with easy syntax.
+COMMENT=	Improve Latvian language support in XeLaTeX.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
