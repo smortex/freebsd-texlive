@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-systeme
-# Date created:		03/03/2011 04:46:26
+# New ports collection makefile for:	texlive-musixguit
+# Date created:		03/11/2011 05:06:10
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	systeme
+PORTNAME=	musixguit
 PORTVERSION=	20110311
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Format systems of equations.
+COMMENT=	Easy notation for guitar music, in MusixTeX.
 
 NOPORTSRC=	yes
 

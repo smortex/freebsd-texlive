@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110310
+PORTVERSION=	20110311
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -518,7 +518,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/menu/menu.sty:${PORTSDIR}/print/texlive-menu \
 		${LOCALBASE}/share/texmf-dist/tex/latex/method/method.sty:${PORTSDIR}/print/texlive-method \
 		${LOCALBASE}/share/texmf-dist/tex/latex/metre/metre.sty:${PORTSDIR}/print/texlive-metre \
-		${LOCALBASE}/share/texmf-dist/tex/latex/mff/mff.sty:${PORTSDIR}/print/texlive-mff \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mftinc/mftinc.sty:${PORTSDIR}/print/texlive-mftinc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/midpage/midpage.sty:${PORTSDIR}/print/texlive-midpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minibox/minibox.sty:${PORTSDIR}/print/texlive-minibox \

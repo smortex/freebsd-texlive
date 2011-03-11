@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/musixguit/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/musixguit/musixguit_de.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/musixguit/musixguit_de.tex
+share/texmf-dist/tex/latex/musixguit/musixguit.sty
+@dirrmtry share/texmf-dist/tex/latex/musixguit
+@dirrmtry share/texmf-dist/doc/latex/musixguit
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

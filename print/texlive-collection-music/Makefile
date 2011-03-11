@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-music
-PORTVERSION=	20101215
+PORTVERSION=	20110311
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -18,6 +18,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/abc/abc.sty:${PORTSDIR}/pri
 		${LOCALBASE}/share/texmf-dist/tex/latex/gchords/gchords.sty:${PORTSDIR}/print/texlive-gchords \
 		${LOCALBASE}/share/texmf-dist/tex/latex/guitar/guitar.sty:${PORTSDIR}/print/texlive-guitar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/harmony/harmony.sty:${PORTSDIR}/print/texlive-harmony \
+		${LOCALBASE}/share/texmf-dist/tex/latex/musixguit/musixguit.sty:${PORTSDIR}/print/texlive-musixguit \
 		${LOCALBASE}/share/texmf-dist/tex/generic/musixtex/musixtex.sty:${PORTSDIR}/print/texlive-musixtex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/songbook/songbook.sty:${PORTSDIR}/print/texlive-songbook \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
