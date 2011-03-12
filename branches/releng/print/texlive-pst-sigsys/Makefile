@@ -6,12 +6,13 @@
 #
 
 PORTNAME=	pst-sigsys
-PORTVERSION=	20110306
+PORTVERSION=	20110312
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Support of signal processing-related disciplines.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
