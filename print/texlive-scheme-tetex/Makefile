@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-tetex
-PORTVERSION=	20110310
+PORTVERSION=	20110312
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -396,6 +396,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/autoarea/autoarea.sty:${PORTSDIR}/print/texlive-autoarea \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bardiag/bardiag.sty:${PORTSDIR}/print/texlive-bardiag \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bodegraph/bodegraph.sty:${PORTSDIR}/print/texlive-bodegraph \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bondgraph/bondgraph.sty:${PORTSDIR}/print/texlive-bondgraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cachepic/cachepic.sty:${PORTSDIR}/print/texlive-cachepic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemfig/chemfig.sty:${PORTSDIR}/print/texlive-chemfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/combinedgraphics/combinedgraphics.sty:${PORTSDIR}/print/texlive-combinedgraphics \

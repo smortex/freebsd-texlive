@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/urwchancal/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/urwchancal/urwchancal-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/urwchancal/urwchancal-doc.tex
+share/texmf-dist/fonts/tfm/urw/urwchancal/urwchancal.tfm
+share/texmf-dist/fonts/vf/urw/urwchancal/urwchancal.vf
+share/texmf-dist/tex/latex/urwchancal/urwchancal.sty
+share/texmf-dist/tex/latex/urwchancal/uurwchancal.fd
+@dirrmtry share/texmf-dist/tex/latex/urwchancal
+@dirrmtry share/texmf-dist/fonts/vf/urw/urwchancal
+@dirrmtry share/texmf-dist/fonts/tfm/urw/urwchancal
+@dirrmtry share/texmf-dist/doc/fonts/urwchancal
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
