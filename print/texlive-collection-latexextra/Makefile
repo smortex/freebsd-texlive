@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110312
+PORTVERSION=	20110313
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -111,6 +111,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty:${PORTSDIR}/print/texlive-pgf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-soroban/pgf-soroban.sty:${PORTSDIR}/print/texlive-pgf-soroban \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-umlsd/pgf-umlsd.sty:${PORTSDIR}/print/texlive-pgf-umlsd \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pgfgantt/pgfgantt.sty:${PORTSDIR}/print/texlive-pgfgantt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfopts/pgfopts.sty:${PORTSDIR}/print/texlive-pgfopts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty:${PORTSDIR}/print/texlive-pgfplots \
 		${LOCALBASE}/share/texmf-dist/tex/latex/piano/piano.sty:${PORTSDIR}/print/texlive-piano \
