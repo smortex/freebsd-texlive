@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-mathastext
-# Date created:		01/30/2011 04:57:10
+# New ports collection makefile for:	texlive-gmp
+# Date created:		03/14/2011 04:39:43
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	mathastext
+PORTNAME=	gmp
 PORTVERSION=	20110314
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use the text font in simple mathematics.
+COMMENT=	Allow integration between MetaPost pictures and LaTeX.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
