@@ -1,0 +1,3 @@
+The package provides a version of graphicx that avoids loading
+the graphics bundle's (original) keyval package, which clashes
+with pstricks' use of xkeyval.

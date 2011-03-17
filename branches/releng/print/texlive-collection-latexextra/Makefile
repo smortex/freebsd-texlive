@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110313
+PORTVERSION=	20110317
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -478,6 +478,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/lettrine/lettrine.sty:${PORTSDIR}/print/texlive-lettrine \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lewis/lewis.sty:${PORTSDIR}/print/texlive-lewis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lhelp/lhelp.sty:${PORTSDIR}/print/texlive-lhelp \
+		${LOCALBASE}/share/texmf-dist/tex/latex/libgreek/libgreek.sty:${PORTSDIR}/print/texlive-libgreek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/limap/limap.cls:${PORTSDIR}/print/texlive-limap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/linegoal/linegoal.sty:${PORTSDIR}/print/texlive-linegoal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lipsum/lipsum.sty:${PORTSDIR}/print/texlive-lipsum \

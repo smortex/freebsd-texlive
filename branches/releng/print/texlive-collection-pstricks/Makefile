@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pstricks
-PORTVERSION=	20110203
+PORTVERSION=	20110317
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -49,6 +49,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/auto-pst-pdf/auto-pst-pdf.s
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-ghsb/pst-ghsb.tex:${PORTSDIR}/print/texlive-pst-ghsb \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-gr3d/pst-gr3d.tex:${PORTSDIR}/print/texlive-pst-gr3d \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-grad/pst-grad.tex:${PORTSDIR}/print/texlive-pst-grad \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-graphicx/pst-graphicx.tex:${PORTSDIR}/print/texlive-pst-graphicx \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-infixplot/pst-infixplot.tex:${PORTSDIR}/print/texlive-pst-infixplot \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-jtree/pst-jtree.tex:${PORTSDIR}/print/texlive-pst-jtree \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-knot/pst-knot.tex:${PORTSDIR}/print/texlive-pst-knot \
