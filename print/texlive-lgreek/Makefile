@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	lgreek
-PORTVERSION=	20100922
+PORTVERSION=	20110317
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros for using Silvio Levy's Greek fonts.
+COMMENT=	LaTeX macros for using Silvio Levy's Greek fonts.
 
 NOPORTSRC=	yes
 

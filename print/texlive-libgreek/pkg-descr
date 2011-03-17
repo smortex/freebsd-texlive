@@ -1,0 +1,5 @@
+The package is for LaTeX users who wish to use the Libertine or
+Biolinum font for the Greek letters in math mode. It is not
+necessary to load the libertine package itself, but of course
+the Linux-Libertine/Biolinum fonts and LaTeX support files must
+have been installed.

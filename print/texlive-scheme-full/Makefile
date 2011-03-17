@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110314
+PORTVERSION=	20110317
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -63,7 +63,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-mla/american-mla.lbx:${PORTSDIR}/print/texlive-biblatex-mla \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/biblatex-nature/biblatex-nature.bib:${PORTSDIR}/print/texlive-biblatex-nature \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-philosophy/english-philosophy.lbx:${PORTSDIR}/print/texlive-biblatex-philosophy \
-		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-science/bbx/science.bbx:${PORTSDIR}/print/texlive-biblatex-science \
+		${LOCALBASE}/share/texmf-dist/bibtex/bib/biblatex-science/biblatex-science.bib:${PORTSDIR}/print/texlive-biblatex-science \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblist/biblist.sty:${PORTSDIR}/print/texlive-biblist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibtopic/bibtopic.sty:${PORTSDIR}/print/texlive-bibtopic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibtopicprefix/bibtopicprefix.sty:${PORTSDIR}/print/texlive-bibtopicprefix \
@@ -1018,6 +1018,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/lettrine/lettrine.sty:${PORTSDIR}/print/texlive-lettrine \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lewis/lewis.sty:${PORTSDIR}/print/texlive-lewis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lhelp/lhelp.sty:${PORTSDIR}/print/texlive-lhelp \
+		${LOCALBASE}/share/texmf-dist/tex/latex/libgreek/libgreek.sty:${PORTSDIR}/print/texlive-libgreek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/limap/limap.cls:${PORTSDIR}/print/texlive-limap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/linegoal/linegoal.sty:${PORTSDIR}/print/texlive-linegoal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lipsum/lipsum.sty:${PORTSDIR}/print/texlive-lipsum \
@@ -1616,6 +1617,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-ghsb/pst-ghsb.tex:${PORTSDIR}/print/texlive-pst-ghsb \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-gr3d/pst-gr3d.tex:${PORTSDIR}/print/texlive-pst-gr3d \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-grad/pst-grad.tex:${PORTSDIR}/print/texlive-pst-grad \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-graphicx/pst-graphicx.tex:${PORTSDIR}/print/texlive-pst-graphicx \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-infixplot/pst-infixplot.tex:${PORTSDIR}/print/texlive-pst-infixplot \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-jtree/pst-jtree.tex:${PORTSDIR}/print/texlive-pst-jtree \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-knot/pst-knot.tex:${PORTSDIR}/print/texlive-pst-knot \

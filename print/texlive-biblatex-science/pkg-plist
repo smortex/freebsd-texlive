@@ -1,11 +1,11 @@
+share/texmf-dist/bibtex/bib/biblatex-science/biblatex-science.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-science/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-science/biblatex-science.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-science/style-science.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-science/style-science.tex
-share/texmf-dist/tex/latex/biblatex-science/bbx/science.bbx
-share/texmf-dist/tex/latex/biblatex-science/cbx/science.cbx
-@dirrmtry share/texmf-dist/tex/latex/biblatex-science/cbx
-@dirrmtry share/texmf-dist/tex/latex/biblatex-science/bbx
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-science/biblatex-science.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-science/biblatex-science.tex
+share/texmf-dist/tex/latex/biblatex-science/science.bbx
+share/texmf-dist/tex/latex/biblatex-science/science.cbx
+@dirrmtry share/texmf-dist/tex/latex/biblatex-science
 @dirrmtry share/texmf-dist/doc/latex/biblatex-science
+@dirrmtry share/texmf-dist/bibtex/bib/biblatex-science
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
