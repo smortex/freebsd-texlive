@@ -1,0 +1,6 @@
+The package allows you to change the colour of the structural
+elements (inner theme and outer theme) of your beamer
+presentation during the presentation. There is a manual option
+but there is also the option to have your structure colour
+change from one colour to another as a function of how far
+through the presentation you are.

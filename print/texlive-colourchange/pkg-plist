@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/colourchange/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/colourchange/colourchangedoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/colourchange/colourchangedoc.tex
+share/texmf-dist/tex/latex/colourchange/colourchange.sty
+@dirrmtry share/texmf-dist/tex/latex/colourchange
+@dirrmtry share/texmf-dist/doc/latex/colourchange
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
