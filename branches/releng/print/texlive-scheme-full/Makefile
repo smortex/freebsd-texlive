@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110317
+PORTVERSION=	20110319
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -786,6 +786,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/colorinfo/colorinfo.sty:${PORTSDIR}/print/texlive-colorinfo \
 		${LOCALBASE}/share/texmf-dist/tex/generic/colortab/colortab.sty:${PORTSDIR}/print/texlive-colortab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/colorwav/colorwav.sty:${PORTSDIR}/print/texlive-colorwav \
+		${LOCALBASE}/share/texmf-dist/tex/latex/colourchange/colourchange.sty:${PORTSDIR}/print/texlive-colourchange \
 		${LOCALBASE}/share/texmf-dist/tex/latex/combelow/combelow.sty:${PORTSDIR}/print/texlive-combelow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/combine/combine.cls:${PORTSDIR}/print/texlive-combine \
 		${LOCALBASE}/share/texmf-dist/tex/latex/comma/comma.sty:${PORTSDIR}/print/texlive-comma \
@@ -1189,6 +1190,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/psfragx/psfragx.sty:${PORTSDIR}/print/texlive-psfragx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-pdf/pst-pdf.sty:${PORTSDIR}/print/texlive-pst-pdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pstool/pstool.sty:${PORTSDIR}/print/texlive-pstool \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pxgreeks/pxgreeks.sty:${PORTSDIR}/print/texlive-pxgreeks \
 		${LOCALBASE}/share/texmf-dist/tex/latex/qcm/qcm.cls:${PORTSDIR}/print/texlive-qcm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/qstest/qstest.sty:${PORTSDIR}/print/texlive-qstest \
 		${LOCALBASE}/share/texmf-dist/tex/latex/qsymbols/qsymbols.sty:${PORTSDIR}/print/texlive-qsymbols \
@@ -1358,6 +1360,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/turnthepage/turnthepage.sty:${PORTSDIR}/print/texlive-turnthepage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/twoinone/2in1.sty:${PORTSDIR}/print/texlive-twoinone \
 		${LOCALBASE}/share/texmf-dist/tex/latex/twoup/twoup.sty:${PORTSDIR}/print/texlive-twoup \
+		${LOCALBASE}/share/texmf-dist/tex/latex/txgreeks/txgreeks.sty:${PORTSDIR}/print/texlive-txgreeks \
 		${LOCALBASE}/share/texmf-dist/tex/latex/type1cm/type1cm.sty:${PORTSDIR}/print/texlive-type1cm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/typogrid/typogrid.sty:${PORTSDIR}/print/texlive-typogrid \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucs/ucs.sty:${PORTSDIR}/print/texlive-ucs \

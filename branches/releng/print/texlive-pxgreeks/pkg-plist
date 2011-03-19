@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pxgreeks/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pxgreeks/pxgreeks.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/pxgreeks/pxgreeks.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/pxgreeks/pxgreeks.ins
+share/texmf-dist/tex/latex/pxgreeks/pxgreeks.sty
+@dirrmtry share/texmf-dist/tex/latex/pxgreeks
+@dirrmtry share/texmf-dist/source/latex/pxgreeks
+@dirrmtry share/texmf-dist/doc/latex/pxgreeks
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

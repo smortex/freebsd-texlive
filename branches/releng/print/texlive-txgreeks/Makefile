@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-uothesis
-# Date created:		01/08/2011 17:12:39
+# New ports collection makefile for:	texlive-txgreeks
+# Date created:		03/19/2011 05:02:21
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	uothesis
+PORTNAME=	txgreeks
 PORTVERSION=	20110319
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class for dissertations and theses at the University of Oregon.
+COMMENT=	Shape selection for TX fonts Greek letters.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

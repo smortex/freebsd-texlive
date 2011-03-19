@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-uothesis
-# Date created:		01/08/2011 17:12:39
+# New ports collection makefile for:	texlive-colourchange
+# Date created:		03/19/2011 04:52:50
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	uothesis
+PORTNAME=	colourchange
 PORTVERSION=	20110319
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class for dissertations and theses at the University of Oregon.
+COMMENT=	colourchange
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

@@ -1,0 +1,7 @@
+The package allows LaTeX users who use the PX fonts to select
+the shapes (italic or upright) for the Greek lowercase and
+uppercase letters. Once the shapes for lowercase and uppercase
+have been selected via a package option, the \other prefix
+(e.g., \otheralpha) allows using the alternate glyph (as in the
+fourier package). The pxgreeks package does not constrain the
+text font that may be used in the document.
