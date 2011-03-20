@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-pagesLTS
-# Date created:		09/24/2010 04:55:02
+# New ports collection makefile for:	texlive-tree-dvips
+# Date created:		03/20/2011 04:47:29
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	pagesLTS
+PORTNAME=	tree-dvips
 PORTVERSION=	20110320
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Variants of last page labels.
+COMMENT=	Trees and other linguists' macros.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

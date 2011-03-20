@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-humanities
-PORTVERSION=	20110219
+PORTVERSION=	20110320
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -43,6 +43,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/alnumsec/alnumsec.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/screenplay/screenplay.cls:${PORTSDIR}/print/texlive-screenplay \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sides/sides.cls:${PORTSDIR}/print/texlive-sides \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stage/stage.cls:${PORTSDIR}/print/texlive-stage \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tree-dvips/tree-dvips.sty:${PORTSDIR}/print/texlive-tree-dvips \
 		${LOCALBASE}/share/texmf-dist/tex/latex/verse/verse.sty:${PORTSDIR}/print/texlive-verse \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xyling/xyling.sty:${PORTSDIR}/print/texlive-xyling \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print/texlive-ae \

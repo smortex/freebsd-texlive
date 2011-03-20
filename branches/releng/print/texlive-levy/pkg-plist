@@ -1,4 +1,6 @@
-%%PORTDOCS%%share/texmf-dist/doc/fonts/levy/00readme.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/levy/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/levy/digits.mf-old
+%%PORTDOCS%%share/texmf-dist/doc/fonts/levy/g.mf-old
 %%PORTDOCS%%share/texmf-dist/doc/fonts/levy/greekhist.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/levy/greekuse.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/levy/grinstall.tex
@@ -6,7 +8,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/levy/makeall
 %%PORTDOCS%%share/texmf-dist/doc/fonts/levy/makefont
 %%PORTDOCS%%share/texmf-dist/doc/fonts/levy/testfont
-%%PORTDOCS%%share/texmf-dist/doc/fonts/levy/todo.txt
 share/texmf-dist/fonts/source/public/levy/a.mf
 share/texmf-dist/fonts/source/public/levy/b.mf
 share/texmf-dist/fonts/source/public/levy/d.mf
@@ -48,10 +49,16 @@ share/texmf-dist/fonts/source/public/levy/w.mf
 share/texmf-dist/fonts/source/public/levy/x.mf
 share/texmf-dist/fonts/source/public/levy/y.mf
 share/texmf-dist/fonts/source/public/levy/z.mf
-share/texmf-dist/tex/latex/levy/slgreek.sty
-share/texmf-dist/tex/plain/levy/greekmacros.tex
-@dirrmtry share/texmf-dist/tex/plain/levy
-@dirrmtry share/texmf-dist/tex/latex/levy
+share/texmf-dist/fonts/tfm/public/levy/grbld10.tfm
+share/texmf-dist/fonts/tfm/public/levy/grbld8.tfm
+share/texmf-dist/fonts/tfm/public/levy/grbld9.tfm
+share/texmf-dist/fonts/tfm/public/levy/grreg10.tfm
+share/texmf-dist/fonts/tfm/public/levy/grreg8.tfm
+share/texmf-dist/fonts/tfm/public/levy/grreg9.tfm
+share/texmf-dist/tex/generic/levy/greekmacros.tex
+share/texmf-dist/tex/generic/levy/slgreek.sty
+@dirrmtry share/texmf-dist/tex/generic/levy
+@dirrmtry share/texmf-dist/fonts/tfm/public/levy
 @dirrmtry share/texmf-dist/fonts/source/public/levy
 @dirrmtry share/texmf-dist/doc/fonts/levy
 @exec %D/bin/mktexlsr
