@@ -289,11 +289,16 @@ share/texmf-dist/tex/platex/base/treport.sty
 share/texmf-dist/tex/platex/base/tsize10.clo
 share/texmf-dist/tex/platex/base/tsize11.clo
 share/texmf-dist/tex/platex/base/tsize12.clo
+share/texmf-dist/tex/platex/config/eplatex.ini
 share/texmf-dist/tex/platex/config/hyphen.cfg
 share/texmf-dist/tex/platex/config/platex.ini
 share/texmf-dist/tex/ptex/base/ascii-jplain.tex
+share/texmf-dist/tex/ptex/base/eptex.src
+share/texmf-dist/tex/ptex/base/eptexdefs.lib
 share/texmf-dist/tex/ptex/base/kinsoku.tex
+share/texmf-dist/tex/ptex/base/language.def
 share/texmf-dist/tex/ptex/base/ptex.tex
+share/texmf-dist/tex/ptex/config/eptex.ini
 share/texmf-dist/tex/ptex/config/ptex.ini
 share/texmf-dist/tex/ptexgeneric/config/language.ptx
 share/texmf-dist/tex/ptexgeneric/hyphen/copthyph.tex
