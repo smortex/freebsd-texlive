@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	iwhdp
-PORTVERSION=	20110223
+PORTVERSION=	20110321
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Discussion papers for Halle Institute of Economic Research.
+COMMENT=	Halle Institute for Economic Research (IWH) Discussion Papers.
 
 NOPORTSRC=	yes
 
