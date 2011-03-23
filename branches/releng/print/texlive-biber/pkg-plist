@@ -1,6 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/biber/biber.pdf
 %%PORTSRC%%share/texmf-dist/source/bibtex/biber/README
-%%PORTSRC%%share/texmf-dist/source/bibtex/biber/biblatex-biber-v0.8.3.tar.gz
+%%PORTSRC%%share/texmf-dist/source/bibtex/biber/biblatex-biber.tar.gz
 @dirrmtry share/texmf-dist/source/bibtex/biber
 @dirrmtry share/texmf-dist/doc/bibtex/biber
 @exec %D/bin/mktexlsr

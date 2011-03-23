@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20110313
+PORTVERSION=	20110323
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -20,7 +20,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/adjustbox/adjustbox.sty:${P
 		${LOCALBASE}/share/texmf-dist/tex/latex/bodegraph/bodegraph.sty:${PORTSDIR}/print/texlive-bodegraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bondgraph/bondgraph.sty:${PORTSDIR}/print/texlive-bondgraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cachepic/cachepic.sty:${PORTSDIR}/print/texlive-cachepic \
-		${LOCALBASE}/share/texmf-dist/tex/latex/chemfig/chemfig.sty:${PORTSDIR}/print/texlive-chemfig \
+		${LOCALBASE}/share/texmf-dist/tex/generic/chemfig/chemfig.sty:${PORTSDIR}/print/texlive-chemfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/combinedgraphics/combinedgraphics.sty:${PORTSDIR}/print/texlive-combinedgraphics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/circuitikz/circuitikz.sty:${PORTSDIR}/print/texlive-circuitikz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/curve/curve.cls:${PORTSDIR}/print/texlive-curve \
