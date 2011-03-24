@@ -296,9 +296,9 @@ share/texmf-dist/tex/ptex/base/ascii-jplain.tex
 share/texmf-dist/tex/ptex/base/eptex.src
 share/texmf-dist/tex/ptex/base/eptexdefs.lib
 share/texmf-dist/tex/ptex/base/kinsoku.tex
-share/texmf-dist/tex/ptex/base/language.def
 share/texmf-dist/tex/ptex/base/ptex.tex
 share/texmf-dist/tex/ptex/config/eptex.ini
+share/texmf-dist/tex/ptex/config/language.def
 share/texmf-dist/tex/ptex/config/ptex.ini
 share/texmf-dist/tex/ptexgeneric/config/language.ptx
 share/texmf-dist/tex/ptexgeneric/hyphen/copthyph.tex

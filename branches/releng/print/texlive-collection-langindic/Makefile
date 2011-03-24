@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-langindic
-PORTVERSION=	20110109
+PORTVERSION=	20110324
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -21,7 +21,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/source/public/bangtex/bang10.mf
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/itrans/itrans.sty:${PORTSDIR}/print/texlive-itrans \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/malayalam/effects/effect.mf:${PORTSDIR}/print/texlive-malayalam \
-		${LOCALBASE}/share/texmf-dist/omega/otp/omega-devanagari/hindi-cuni2font.otp:${PORTSDIR}/print/texlive-omega-devanagari \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/sanskrit/skt.map:${PORTSDIR}/print/texlive-sanskrit \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/velthuis/dvnb10.afm:${PORTSDIR}/print/texlive-velthuis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/wnri/wnri.sty:${PORTSDIR}/print/texlive-wnri \

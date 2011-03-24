@@ -116,6 +116,7 @@ share/texmf-dist/fonts/type1/public/thailatex/waree_o.pfb
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/babel/thai.ins
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/babel/thai.sty
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/babel/thswitch.sty
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/babel/tis620.def
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/configure
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/configure.in
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/doc/Makefile.am
@@ -141,7 +142,6 @@ share/texmf-dist/fonts/type1/public/thailatex/waree_o.pfb
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/scripts/sync-babel
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/scripts/sync-thailatex.in
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/scripts/tlatex
-%%PORTSRC%%share/texmf-dist/source/latex/thailatex/thailatex.spec.in
 @dirrmtry share/texmf-dist/source/latex/thailatex/scripts
 @dirrmtry share/texmf-dist/source/latex/thailatex/fonts
 @dirrmtry share/texmf-dist/source/latex/thailatex/emacs

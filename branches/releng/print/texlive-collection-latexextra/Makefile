@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110323
+PORTVERSION=	20110324
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -547,7 +547,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/mslapa/mslapa.sty:${PORTSDIR}/print/texlive-mslapa \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mtgreek/mtgreek.sty:${PORTSDIR}/print/texlive-mtgreek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multenum/multienum.sty:${PORTSDIR}/print/texlive-multenum \
-		${LOCALBASE}/share/texmf-dist/tex/latex/multibox/multibox.sty:${PORTSDIR}/print/texlive-multibox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multibbl/multibbl.sty:${PORTSDIR}/print/texlive-multibbl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multicap/multicap.sty:${PORTSDIR}/print/texlive-multicap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multirow/multirow.sty:${PORTSDIR}/print/texlive-multirow \
