@@ -1,20 +1,20 @@
-# New ports collection makefile for:	texlive-biber
-# Date created:		03/09/2011 04:39:20
+# New ports collection makefile for:	texlive-texdef
+# Date created:		03/24/2011 04:42:35
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	biber
+PORTNAME=	texdef
 PORTVERSION=	20110324
 CATEGORIES=	print
-DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A BibTeX replacement for users of biblatex.
+COMMENT=	Display the definitions of TeX commands.
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

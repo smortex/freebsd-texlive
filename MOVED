@@ -84,3 +84,5 @@ print/texlive-vector||2011-03-03|Upstream support dropped
 print/texlive-mychemistry||2011-03-04|Upstream support dropped
 print/texlive-cmcyralt||2011-03-06|Upstream support dropped
 print/texlive-mff||2011-03-11|Upstream support dropped
+print/texlive-multibox||2011-03-24|Upstream support dropped
+print/texlive-omega-devanagari||2011-03-24|Upstream support dropped

@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/texdef/INSTALL
+%%PORTDOCS%%share/texmf-dist/doc/support/texdef/README
+share/texmf-dist/scripts/texdef/texdef.pl
+@dirrmtry share/texmf-dist/scripts/texdef
+@dirrmtry share/texmf-dist/doc/support/texdef
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-adjustbox
-# Date created:		01/30/2011 04:50:02
+# New ports collection makefile for:	texlive-mychemistry
+# Date created:		03/24/2011 05:11:42
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	adjustbox
+PORTNAME=	mychemistry
 PORTVERSION=	20110324
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Apply graphics package macros to general boxes.
+COMMENT=	Create reaction schemes with LaTeX and ChemFig.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
