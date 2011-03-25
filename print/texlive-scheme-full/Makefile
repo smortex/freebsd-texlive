@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110324
+PORTVERSION=	20110325
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -907,6 +907,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/filecontents/filecontents.sty:${PORTSDIR}/print/texlive-filecontents \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filehook/filehook.sty:${PORTSDIR}/print/texlive-filehook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fileinfo/myfilist.sty:${PORTSDIR}/print/texlive-fileinfo \
+		${LOCALBASE}/share/texmf-dist/tex/latex/filemod/filemod.sty:${PORTSDIR}/print/texlive-filemod \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fink/fink.sty:${PORTSDIR}/print/texlive-fink \
 		${LOCALBASE}/share/texmf-dist/tex/latex/finstrut/finstrut.sty:${PORTSDIR}/print/texlive-finstrut \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixfoot/fixfoot.sty:${PORTSDIR}/print/texlive-fixfoot \
