@@ -2,9 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/turnthepage/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/turnthepage/perso.ist
 %%PORTDOCS%%share/texmf-dist/doc/latex/turnthepage/turnthepage-bib.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/turnthepage/turnthepage.forlisting
 %%PORTDOCS%%share/texmf-dist/doc/latex/turnthepage/turnthepage.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/turnthepage/turnthepage.tex
+share/texmf-dist/tex/latex/turnthepage/turnpageetex.sty
+share/texmf-dist/tex/latex/turnthepage/turnpagewoetex.sty
 share/texmf-dist/tex/latex/turnthepage/turnthepage.sty
 @dirrmtry share/texmf-dist/tex/latex/turnthepage
 @dirrmtry share/texmf-dist/doc/latex/turnthepage

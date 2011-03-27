@@ -10,6 +10,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/jmlr.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/bookLogo-gray.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/bookLogo.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/jmlrbook-sample.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/jmlrbook-sample.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/paper1/paper1.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/paper1/paper1.tex
@@ -19,6 +20,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/paper3/paper3.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/paper4/paper4.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/paper4/paper4.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/proceedings-sample.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/proceedings-sample.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-papers/images/circle-gray.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-papers/images/circle.jpg
@@ -28,7 +30,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-papers/images/square.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-papers/images/teximage.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-papers/jmlr-sample.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-papers/jmlr-sample.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-papers/jmlr-sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-papers/jmlrwcp-sample.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-papers/jmlrwcp-sample.tex
 share/texmf-dist/scripts/jmlr/makejmlrbook
 share/texmf-dist/scripts/jmlr/makejmlrbook.bat
