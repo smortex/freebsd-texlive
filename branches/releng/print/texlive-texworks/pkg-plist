@@ -1,5 +1,8 @@
 %%PORTDOCS%%share/texmf/doc/texworks/README
+share/tlpkg/texworks/poppler-data/CMakeLists.txt
 share/tlpkg/texworks/poppler-data/COPYING
+share/tlpkg/texworks/poppler-data/COPYING.adobe
+share/tlpkg/texworks/poppler-data/COPYING.gpl2
 share/tlpkg/texworks/poppler-data/Makefile
 share/tlpkg/texworks/poppler-data/README
 share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/Adobe-CNS1-0
@@ -8,8 +11,9 @@ share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/Adobe-CNS1-2
 share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/Adobe-CNS1-3
 share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/Adobe-CNS1-4
 share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/Adobe-CNS1-5
+share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/Adobe-CNS1-6
 share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/Adobe-CNS1-B5pc
-share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/Adobe-CNS1-ETenms-B5
+share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/Adobe-CNS1-ETen-B5
 share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/Adobe-CNS1-H-CID
 share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/Adobe-CNS1-H-Host
 share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/Adobe-CNS1-H-Mac
@@ -22,16 +26,8 @@ share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/B5pc-UCS2C
 share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/B5pc-V
 share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/CNS-EUC-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/CNS-EUC-V
-share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/CNS01-RKSJ-H
-share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/CNS02-RKSJ-H
-share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/CNS03-RKSJ-H
-share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/CNS04-RKSJ-H
-share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/CNS05-RKSJ-H
-share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/CNS06-RKSJ-H
-share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/CNS07-RKSJ-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/CNS1-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/CNS1-V
-share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/CNS15-RKSJ-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/CNS2-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/CNS2-V
 share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1/ETHK-B5-H
@@ -78,7 +74,6 @@ share/tlpkg/texworks/poppler-data/cMap/Adobe-GB1/Adobe-GB1-UCS2
 share/tlpkg/texworks/poppler-data/cMap/Adobe-GB1/GB-EUC-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-GB1/GB-EUC-V
 share/tlpkg/texworks/poppler-data/cMap/Adobe-GB1/GB-H
-share/tlpkg/texworks/poppler-data/cMap/Adobe-GB1/GB-RKSJ-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-GB1/GB-V
 share/tlpkg/texworks/poppler-data/cMap/Adobe-GB1/GBK-EUC-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-GB1/GBK-EUC-UCS2
@@ -90,7 +85,6 @@ share/tlpkg/texworks/poppler-data/cMap/Adobe-GB1/GBKp-EUC-V
 share/tlpkg/texworks/poppler-data/cMap/Adobe-GB1/GBT-EUC-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-GB1/GBT-EUC-V
 share/tlpkg/texworks/poppler-data/cMap/Adobe-GB1/GBT-H
-share/tlpkg/texworks/poppler-data/cMap/Adobe-GB1/GBT-RKSJ-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-GB1/GBT-V
 share/tlpkg/texworks/poppler-data/cMap/Adobe-GB1/GBTpc-EUC-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-GB1/GBTpc-EUC-V
@@ -108,7 +102,6 @@ share/tlpkg/texworks/poppler-data/cMap/Adobe-GB1/UniGB-UTF32-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-GB1/UniGB-UTF32-V
 share/tlpkg/texworks/poppler-data/cMap/Adobe-GB1/UniGB-UTF8-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-GB1/UniGB-UTF8-V
-share/tlpkg/texworks/poppler-data/cMap/Adobe-HongKong1/HK-RKSJ-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-Japan1/78-EUC-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-Japan1/78-EUC-V
 share/tlpkg/texworks/poppler-data/cMap/Adobe-Japan1/78-H
@@ -158,7 +151,6 @@ share/tlpkg/texworks/poppler-data/cMap/Adobe-Japan1/Hiragana
 share/tlpkg/texworks/poppler-data/cMap/Adobe-Japan1/Hojo-EUC-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-Japan1/Hojo-EUC-V
 share/tlpkg/texworks/poppler-data/cMap/Adobe-Japan1/Hojo-H
-share/tlpkg/texworks/poppler-data/cMap/Adobe-Japan1/Hojo-RKSJ-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-Japan1/Hojo-V
 share/tlpkg/texworks/poppler-data/cMap/Adobe-Japan1/Katakana
 share/tlpkg/texworks/poppler-data/cMap/Adobe-Japan1/NWP-H
@@ -216,9 +208,7 @@ share/tlpkg/texworks/poppler-data/cMap/Adobe-Korea1/KSC-EUC-V
 share/tlpkg/texworks/poppler-data/cMap/Adobe-Korea1/KSC-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-Korea1/KSC-Johab-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-Korea1/KSC-Johab-V
-share/tlpkg/texworks/poppler-data/cMap/Adobe-Korea1/KSC-RKSJ-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-Korea1/KSC-V
-share/tlpkg/texworks/poppler-data/cMap/Adobe-Korea1/KSC2-RKSJ-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-Korea1/KSCms-UHC-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-Korea1/KSCms-UHC-HW-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-Korea1/KSCms-UHC-HW-V
@@ -238,11 +228,9 @@ share/tlpkg/texworks/poppler-data/cMap/Adobe-Korea1/UniKS-UTF32-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-Korea1/UniKS-UTF32-V
 share/tlpkg/texworks/poppler-data/cMap/Adobe-Korea1/UniKS-UTF8-H
 share/tlpkg/texworks/poppler-data/cMap/Adobe-Korea1/UniKS-UTF8-V
-share/tlpkg/texworks/poppler-data/cMap/Adobe-Vietnam1/TCVN-RKSJ-H
 share/tlpkg/texworks/poppler-data/cidToUnicode/Adobe-CNS1
 share/tlpkg/texworks/poppler-data/cidToUnicode/Adobe-GB1
 share/tlpkg/texworks/poppler-data/cidToUnicode/Adobe-Japan1
-share/tlpkg/texworks/poppler-data/cidToUnicode/Adobe-Japan2
 share/tlpkg/texworks/poppler-data/cidToUnicode/Adobe-Korea1
 share/tlpkg/texworks/poppler-data/nameToUnicode/Bulgarian
 share/tlpkg/texworks/poppler-data/nameToUnicode/Greek
@@ -264,64 +252,101 @@ share/tlpkg/texworks/poppler-data/unicodeMap/Latin2
 share/tlpkg/texworks/poppler-data/unicodeMap/Shift-JIS
 share/tlpkg/texworks/poppler-data/unicodeMap/TIS-620
 share/tlpkg/texworks/poppler-data/unicodeMap/Windows-1255
-share/tlpkg/texworks/texworks-help/TeXworks-manual/en/HardWrap.jpeg
-share/tlpkg/texworks/texworks-help/TeXworks-manual/en/TW-error.PNG
-share/tlpkg/texworks/texworks-help/TeXworks-manual/en/TeXworks.PNG
-share/tlpkg/texworks/texworks-help/TeXworks-manual/en/barredeux.jpeg
-share/tlpkg/texworks/texworks-help/TeXworks-manual/en/barreun.jpeg
-share/tlpkg/texworks/texworks-help/TeXworks-manual/en/compo.jpeg
-share/tlpkg/texworks/texworks-help/TeXworks-manual/en/contents_motif.gif
-share/tlpkg/texworks/texworks-help/TeXworks-manual/en/findrepl.jpg
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/Acknowledgements.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/AdvanceduseScripting.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/Beyondthismanual.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/CompilingTw.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/CustomizingTw.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/Firststeps.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/GoingfurtherEditingtools.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/GoingfurtherOthertools.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/Installation.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/Introduction.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/Regularexpressions.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/TeXworks-manual.pdf
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/bibname.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/contentsname.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/LMB.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/Linux.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/Mac.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/MacCmdKey.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/MacOptKey.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/RMB.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/TeXworks.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/Windows.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/cmsy10-c-41.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/cmsy10-c-4d.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/cmsy10-c-53.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/consoleOutput.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/errorParsingScript.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/example.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/iconAbortTypesetting.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/iconTypeset.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/index0x.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/index1x.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/index2x.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/index3x.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/index4x.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/index5x.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/index6x.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/index7x.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/index8x.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/interface-summary.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/replaceDialog.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/screenshotHardWrapDlg.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/toolbar1.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images/toolbar2.png
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index.css
 share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index10.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index12.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index13.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index14.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index15.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index16.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index17.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index18.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index19.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index2.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index20.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index21.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index23.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index24.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index25.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index26.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index27.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index28.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index29.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index30.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index32.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index33.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index34.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index36.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index37.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index40.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index41.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index42.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index44.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index45.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index46.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index47.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index48.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index49.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index5.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index6.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index8.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/index9.html
+share/tlpkg/texworks/texworks-help/TeXworks-manual/en/indexname.html
 share/tlpkg/texworks/texworks-help/TeXworks-manual/en/manual.css
-share/tlpkg/texworks/texworks-help/TeXworks-manual/en/manual001.html
-share/tlpkg/texworks/texworks-help/TeXworks-manual/en/manual002.html
-share/tlpkg/texworks/texworks-help/TeXworks-manual/en/manual003.html
-share/tlpkg/texworks/texworks-help/TeXworks-manual/en/manual004.html
-share/tlpkg/texworks/texworks-help/TeXworks-manual/en/manual005.html
-share/tlpkg/texworks/texworks-help/TeXworks-manual/en/manual006.html
-share/tlpkg/texworks/texworks-help/TeXworks-manual/en/manual007.html
-share/tlpkg/texworks/texworks-help/TeXworks-manual/en/manual008.html
-share/tlpkg/texworks/texworks-help/TeXworks-manual/en/manual009.html
-share/tlpkg/texworks/texworks-help/TeXworks-manual/en/manual010.html
-share/tlpkg/texworks/texworks-help/TeXworks-manual/en/next_motif.gif
-share/tlpkg/texworks/texworks-help/TeXworks-manual/en/previous_motif.gif
-share/tlpkg/texworks/texworks-help/TeXworks-manual/en/stop.PNG
 share/tlpkg/texworks/texworks-help/TeXworks-manual/en/tw-help-title.txt
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/HardWrap.png
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/TW-error.PNG
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/TeXworks.PNG
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/barredeux.jpeg
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/barreun.jpeg
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/compo.jpeg
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/contents_motif.gif
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/index.html
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/manuel.css
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/manuel001.html
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/manuel002.html
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/manuel003.html
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/manuel004.html
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/manuel005.html
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/manuel006.html
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/manuel007.html
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/manuel008.html
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/manuel009.html
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/manuel010.html
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/next_motif.gif
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/previous_motif.gif
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/rechremp.jpeg
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/stop.PNG
-share/tlpkg/texworks/texworks-help/TeXworks-manual/fr/tw-help-title.txt
-@dirrmtry share/tlpkg/texworks/texworks-help/TeXworks-manual/fr
+@dirrmtry share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images
 @dirrmtry share/tlpkg/texworks/texworks-help/TeXworks-manual/en
 @dirrmtry share/tlpkg/texworks/poppler-data/unicodeMap
 @dirrmtry share/tlpkg/texworks/poppler-data/nameToUnicode
 @dirrmtry share/tlpkg/texworks/poppler-data/cidToUnicode
-@dirrmtry share/tlpkg/texworks/poppler-data/cMap/Adobe-Vietnam1
 @dirrmtry share/tlpkg/texworks/poppler-data/cMap/Adobe-Korea1
 @dirrmtry share/tlpkg/texworks/poppler-data/cMap/Adobe-Japan2
 @dirrmtry share/tlpkg/texworks/poppler-data/cMap/Adobe-Japan1
-@dirrmtry share/tlpkg/texworks/poppler-data/cMap/Adobe-HongKong1
 @dirrmtry share/tlpkg/texworks/poppler-data/cMap/Adobe-GB1
 @dirrmtry share/tlpkg/texworks/poppler-data/cMap/Adobe-CNS1
 @dirrmtry share/tlpkg/texworks/poppler-data
