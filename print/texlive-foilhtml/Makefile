@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	foilhtml
-PORTVERSION=	20100922
+PORTVERSION=	20110329
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Interface between foiltex and LaTeX2HTML.
 
-NOPORTDOCS=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
