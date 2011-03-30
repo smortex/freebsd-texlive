@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110327
+PORTVERSION=	20110330
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -387,7 +387,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/fontools/fontools_ly1.enc:${PORTSDIR}/print/texlive-fontools \
 		${LOCALBASE}/share/texmf/dvips/getafm/getafm.ps:${PORTSDIR}/print/texlive-getafm \
 		${LOCALBASE}/share/texmf-dist/fonts/sfd/ttf2pk/Big5.sfd:${PORTSDIR}/print/texlive-ttfutils \
-		${LOCALBASE}/share/texmf-dist/tex/alatex/base/metaclas.cfg:${PORTSDIR}/print/texlive-alatex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/edmac/edmac.tex:${PORTSDIR}/print/texlive-edmac \
 		${LOCALBASE}/share/texmf-dist/tex/eplain/eplain.tex:${PORTSDIR}/print/texlive-eplain \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mltex/mltex.sty:${PORTSDIR}/print/texlive-mltex \
@@ -1502,7 +1501,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/ot-tableau/ot-tableau.sty:${PORTSDIR}/print/texlive-ot-tableau \
 		${LOCALBASE}/share/texmf-dist/tex/latex/oubraces/oubraces.sty:${PORTSDIR}/print/texlive-oubraces \
 		${LOCALBASE}/share/texmf-dist/tex/latex/proba/proba.sty:${PORTSDIR}/print/texlive-proba \
-		${LOCALBASE}/share/texmf-dist/tex/latex/pzccal/pzccal.sty:${PORTSDIR}/print/texlive-pzccal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/realscripts/realscripts.sty:${PORTSDIR}/print/texlive-realscripts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rec-thy/rec-thy.sty:${PORTSDIR}/print/texlive-rec-thy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/shuffle/shuffle.sty:${PORTSDIR}/print/texlive-shuffle \
