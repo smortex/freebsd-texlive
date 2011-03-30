@@ -86,3 +86,5 @@ print/texlive-cmcyralt||2011-03-06|Upstream support dropped
 print/texlive-mff||2011-03-11|Upstream support dropped
 print/texlive-multibox||2011-03-24|Upstream support dropped
 print/texlive-omega-devanagari||2011-03-24|Upstream support dropped
+print/texlive-alatex||2011-03-30|Upstream support dropped
+print/texlive-pzccal||2011-03-30|Upstream support dropped

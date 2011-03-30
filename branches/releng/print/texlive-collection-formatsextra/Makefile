@@ -6,15 +6,14 @@
 #
 
 PORTNAME=	collection-formatsextra
-PORTVERSION=	20110109
+PORTVERSION=	20110330
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Extra formats
 
-RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/alatex/base/metaclas.cfg:${PORTSDIR}/print/texlive-alatex \
-		${LOCALBASE}/share/texmf-dist/tex/generic/edmac/edmac.tex:${PORTSDIR}/print/texlive-edmac \
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/edmac/edmac.tex:${PORTSDIR}/print/texlive-edmac \
 		${LOCALBASE}/share/texmf-dist/tex/eplain/eplain.tex:${PORTSDIR}/print/texlive-eplain \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mltex/mltex.sty:${PORTSDIR}/print/texlive-mltex \
 		${LOCALBASE}/share/texmf-dist/tex/physe/base/physe.tex:${PORTSDIR}/print/texlive-physe \
