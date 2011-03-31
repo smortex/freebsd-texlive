@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-formatsextra
-PORTVERSION=	20110330
+PORTVERSION=	20110331
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -16,8 +16,6 @@ COMMENT=	Extra formats
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/edmac/edmac.tex:${PORTSDIR}/print/texlive-edmac \
 		${LOCALBASE}/share/texmf-dist/tex/eplain/eplain.tex:${PORTSDIR}/print/texlive-eplain \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mltex/mltex.sty:${PORTSDIR}/print/texlive-mltex \
-		${LOCALBASE}/share/texmf-dist/tex/physe/base/physe.tex:${PORTSDIR}/print/texlive-physe \
-		${LOCALBASE}/share/texmf-dist/tex/phyzzx/base/phyzzx.tex:${PORTSDIR}/print/texlive-phyzzx \
 		${LOCALBASE}/share/texmf-dist/tex/psizzl/base/psizzl.tex:${PORTSDIR}/print/texlive-psizzl \
 		${LOCALBASE}/share/texmf-dist/tex/startex/base/startex.tex:${PORTSDIR}/print/texlive-startex \
 		${LOCALBASE}/share/texmf-dist/tex/texsis/base/texsis.tex:${PORTSDIR}/print/texlive-texsis \
