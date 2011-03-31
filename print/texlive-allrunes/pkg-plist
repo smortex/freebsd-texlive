@@ -1,8 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/allrunes/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/allrunes/allrunes.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/allrunes/allrunes.ps
-%%PORTDOCS%%share/texmf-dist/doc/fonts/allrunes/ar_demo.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/allrunes/ar_demo.tex
 share/texmf-dist/fonts/map/dvips/allrunes/allrunes.map
 share/texmf-dist/fonts/source/public/allrunes/frua.mf
 share/texmf-dist/fonts/source/public/allrunes/fruabm.mf
@@ -228,26 +225,6 @@ share/texmf-dist/fonts/source/public/allrunes/frutnq.mf
 share/texmf-dist/fonts/source/public/allrunes/frutnr.mf
 share/texmf-dist/fonts/source/public/allrunes/frutns.mf
 share/texmf-dist/fonts/source/public/allrunes/frutnt.mf
-share/texmf-dist/fonts/tfm/public/allrunes/fruamn8z.tfm
-share/texmf-dist/fonts/tfm/public/allrunes/fruann8z.tfm
-share/texmf-dist/fonts/tfm/public/allrunes/frucmn8z.tfm
-share/texmf-dist/fonts/tfm/public/allrunes/frucnn8z.tfm
-share/texmf-dist/fonts/tfm/public/allrunes/frulmn8z.tfm
-share/texmf-dist/fonts/tfm/public/allrunes/frulnm8z.tfm
-share/texmf-dist/fonts/tfm/public/allrunes/frulnn8z.tfm
-share/texmf-dist/fonts/tfm/public/allrunes/frulnr8z.tfm
-share/texmf-dist/fonts/tfm/public/allrunes/frulns8z.tfm
-share/texmf-dist/fonts/tfm/public/allrunes/frummn8z.tfm
-share/texmf-dist/fonts/tfm/public/allrunes/frumnn8z.tfm
-share/texmf-dist/fonts/tfm/public/allrunes/frunbn8z.tfm
-share/texmf-dist/fonts/tfm/public/allrunes/frunln8z.tfm
-share/texmf-dist/fonts/tfm/public/allrunes/frunmm8z.tfm
-share/texmf-dist/fonts/tfm/public/allrunes/frunmn8z.tfm
-share/texmf-dist/fonts/tfm/public/allrunes/frunmr8z.tfm
-share/texmf-dist/fonts/tfm/public/allrunes/frunms8z.tfm
-share/texmf-dist/fonts/tfm/public/allrunes/frunnn8z.tfm
-share/texmf-dist/fonts/tfm/public/allrunes/frutmn8z.tfm
-share/texmf-dist/fonts/tfm/public/allrunes/frutnn8z.tfm
 share/texmf-dist/fonts/type1/public/allrunes/fruabm.pfb
 share/texmf-dist/fonts/type1/public/allrunes/fruabn.pfb
 share/texmf-dist/fonts/type1/public/allrunes/fruabq.pfb
@@ -274,14 +251,12 @@ share/texmf-dist/fonts/type1/public/allrunes/fruals.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frualt.pfb
 share/texmf-dist/fonts/type1/public/allrunes/fruamm.pfb
 share/texmf-dist/fonts/type1/public/allrunes/fruamn.pfb
-share/texmf-dist/fonts/type1/public/allrunes/fruamn8z.pfb
 share/texmf-dist/fonts/type1/public/allrunes/fruamq.pfb
 share/texmf-dist/fonts/type1/public/allrunes/fruamr.pfb
 share/texmf-dist/fonts/type1/public/allrunes/fruams.pfb
 share/texmf-dist/fonts/type1/public/allrunes/fruamt.pfb
 share/texmf-dist/fonts/type1/public/allrunes/fruanm.pfb
 share/texmf-dist/fonts/type1/public/allrunes/fruann.pfb
-share/texmf-dist/fonts/type1/public/allrunes/fruann8z.pfb
 share/texmf-dist/fonts/type1/public/allrunes/fruanq.pfb
 share/texmf-dist/fonts/type1/public/allrunes/fruanr.pfb
 share/texmf-dist/fonts/type1/public/allrunes/fruans.pfb
@@ -312,14 +287,12 @@ share/texmf-dist/fonts/type1/public/allrunes/frucls.pfb
 share/texmf-dist/fonts/type1/public/allrunes/fruclt.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frucmm.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frucmn.pfb
-share/texmf-dist/fonts/type1/public/allrunes/frucmn8z.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frucmq.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frucmr.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frucms.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frucmt.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frucnm.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frucnn.pfb
-share/texmf-dist/fonts/type1/public/allrunes/frucnn8z.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frucnq.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frucnr.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frucns.pfb
@@ -350,20 +323,15 @@ share/texmf-dist/fonts/type1/public/allrunes/frulls.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frullt.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frulmm.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frulmn.pfb
-share/texmf-dist/fonts/type1/public/allrunes/frulmn8z.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frulmq.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frulmr.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frulms.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frulmt.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frulnm.pfb
-share/texmf-dist/fonts/type1/public/allrunes/frulnm8z.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frulnn.pfb
-share/texmf-dist/fonts/type1/public/allrunes/frulnn8z.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frulnq.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frulnr.pfb
-share/texmf-dist/fonts/type1/public/allrunes/frulnr8z.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frulns.pfb
-share/texmf-dist/fonts/type1/public/allrunes/frulns8z.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frulnt.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frumbm.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frumbn.pfb
@@ -391,21 +359,18 @@ share/texmf-dist/fonts/type1/public/allrunes/frumls.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frumlt.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frummm.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frummn.pfb
-share/texmf-dist/fonts/type1/public/allrunes/frummn8z.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frummq.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frummr.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frumms.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frummt.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frumnm.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frumnn.pfb
-share/texmf-dist/fonts/type1/public/allrunes/frumnn8z.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frumnq.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frumnr.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frumns.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frumnt.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunbm.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunbn.pfb
-share/texmf-dist/fonts/type1/public/allrunes/frunbn8z.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunbq.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunbr.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunbs.pfb
@@ -424,24 +389,18 @@ share/texmf-dist/fonts/type1/public/allrunes/frunks.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunkt.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunlm.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunln.pfb
-share/texmf-dist/fonts/type1/public/allrunes/frunln8z.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunlq.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunlr.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunls.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunlt.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunmm.pfb
-share/texmf-dist/fonts/type1/public/allrunes/frunmm8z.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunmn.pfb
-share/texmf-dist/fonts/type1/public/allrunes/frunmn8z.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunmq.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunmr.pfb
-share/texmf-dist/fonts/type1/public/allrunes/frunmr8z.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunms.pfb
-share/texmf-dist/fonts/type1/public/allrunes/frunms8z.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunmt.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunnm.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunnn.pfb
-share/texmf-dist/fonts/type1/public/allrunes/frunnn8z.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunnq.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunnr.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frunns.pfb
@@ -472,14 +431,12 @@ share/texmf-dist/fonts/type1/public/allrunes/frutls.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frutlt.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frutmm.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frutmn.pfb
-share/texmf-dist/fonts/type1/public/allrunes/frutmn8z.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frutmq.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frutmr.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frutms.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frutmt.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frutnm.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frutnn.pfb
-share/texmf-dist/fonts/type1/public/allrunes/frutnn8z.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frutnq.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frutnr.pfb
 share/texmf-dist/fonts/type1/public/allrunes/frutns.pfb
@@ -496,7 +453,6 @@ share/texmf-dist/tex/latex/allrunes/art.fd
 @dirrmtry share/texmf-dist/tex/latex/allrunes
 @dirrmtry share/texmf-dist/source/fonts/allrunes
 @dirrmtry share/texmf-dist/fonts/type1/public/allrunes
-@dirrmtry share/texmf-dist/fonts/tfm/public/allrunes
 @dirrmtry share/texmf-dist/fonts/source/public/allrunes
 @dirrmtry share/texmf-dist/fonts/map/dvips/allrunes
 @dirrmtry share/texmf-dist/doc/fonts/allrunes
