@@ -1,0 +1,21 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/prodint/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/prodint/config.prodint
+%%PORTDOCS%%share/texmf-dist/doc/fonts/prodint/prodint.bma
+%%PORTDOCS%%share/texmf-dist/doc/fonts/prodint/prodint.mt1
+%%PORTDOCS%%share/texmf-dist/doc/fonts/prodint/prodint.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/prodint/prodint.pfa
+%%PORTDOCS%%share/texmf-dist/doc/fonts/prodint/prodint.sit.hqx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/prodint/prodint.tex
+share/texmf-dist/fonts/afm/public/prodint/prodint.afm
+share/texmf-dist/fonts/map/dvips/prodint/prodint.map
+share/texmf-dist/fonts/tfm/public/prodint/prodint.tfm
+share/texmf-dist/fonts/type1/public/prodint/prodint.pfb
+share/texmf-dist/tex/latex/prodint/prodint.sty
+@dirrmtry share/texmf-dist/tex/latex/prodint
+@dirrmtry share/texmf-dist/fonts/type1/public/prodint
+@dirrmtry share/texmf-dist/fonts/tfm/public/prodint
+@dirrmtry share/texmf-dist/fonts/map/dvips/prodint
+@dirrmtry share/texmf-dist/fonts/afm/public/prodint
+@dirrmtry share/texmf-dist/doc/fonts/prodint
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

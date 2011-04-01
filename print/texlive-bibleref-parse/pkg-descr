@@ -1,0 +1,4 @@
+The package parses Bible passages that are given in human
+readable format. It accepts a wide variety of formats. This
+allows for a simpler and more convenient interface to the
+functionality of the bibleref package.

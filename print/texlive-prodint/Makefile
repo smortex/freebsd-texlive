@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-piff
-# Date created:		12/11/2010 04:55:34
+# New ports collection makefile for:	texlive-prodint
+# Date created:		04/01/2011 04:44:50
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	piff
+PORTNAME=	prodint
 PORTVERSION=	20110401
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macro tools by Mike Piff.
+COMMENT=	A font that provides the product integral symbol.
 
 NOPORTSRC=	yes
 

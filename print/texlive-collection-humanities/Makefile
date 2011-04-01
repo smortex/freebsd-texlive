@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-humanities
-PORTVERSION=	20110320
+PORTVERSION=	20110401
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -16,6 +16,7 @@ COMMENT=	Humanities packages
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/alnumsec/alnumsec.sty:${PORTSDIR}/print/texlive-alnumsec \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arydshln/arydshln.sty:${PORTSDIR}/print/texlive-arydshln \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref/bibleref.sty:${PORTSDIR}/print/texlive-bibleref \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-parse/bibleref-parse.sty:${PORTSDIR}/print/texlive-bibleref-parse \
 		${LOCALBASE}/share/texmf-dist/tex/latex/covington/covington.sty:${PORTSDIR}/print/texlive-covington \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dramatist/dramatist.sty:${PORTSDIR}/print/texlive-dramatist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ecltree/ecltree.sty:${PORTSDIR}/print/texlive-ecltree \

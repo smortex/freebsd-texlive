@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20110312
+PORTVERSION=	20110401
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -141,6 +141,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/tex/latex/phonetic/phonetic.sty:${PORTSDIR}/print/texlive-phonetic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pigpen/pigpen.sty:${PORTSDIR}/print/texlive-pigpen \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/gust/poltawski/antpb10.afm:${PORTSDIR}/print/texlive-poltawski \
+		${LOCALBASE}/share/texmf-dist/tex/latex/prodint/prodint.sty:${PORTSDIR}/print/texlive-prodint \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/itc/psafm/stonesan/is8b8a.afm:${PORTSDIR}/print/texlive-psafm \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/paratype/ptsans/PTC55F.afm:${PORTSDIR}/print/texlive-ptsans \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/paratype/ptserif/PTF55F.afm:${PORTSDIR}/print/texlive-ptserif \
