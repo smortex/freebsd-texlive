@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-piff
-# Date created:		12/11/2010 04:55:34
+# New ports collection makefile for:	texlive-bibleref-parse
+# Date created:		04/01/2011 04:47:35
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	piff
+PORTNAME=	bibleref-parse
 PORTVERSION=	20110401
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macro tools by Mike Piff.
+COMMENT=	Specify Bible passages in human-readable format.
 
 NOPORTSRC=	yes
 

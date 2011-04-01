@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bibleref-parse/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/bibleref-parse/bibleref-parse.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bibleref-parse/bibleref-parse.tex
+share/texmf-dist/tex/latex/bibleref-parse/bibleref-parse.sty
+@dirrmtry share/texmf-dist/tex/latex/bibleref-parse
+@dirrmtry share/texmf-dist/doc/latex/bibleref-parse
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

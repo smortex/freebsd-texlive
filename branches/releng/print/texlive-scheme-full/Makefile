@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110331
+PORTVERSION=	20110401
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -318,6 +318,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/phonetic/phonetic.sty:${PORTSDIR}/print/texlive-phonetic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pigpen/pigpen.sty:${PORTSDIR}/print/texlive-pigpen \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/gust/poltawski/antpb10.afm:${PORTSDIR}/print/texlive-poltawski \
+		${LOCALBASE}/share/texmf-dist/tex/latex/prodint/prodint.sty:${PORTSDIR}/print/texlive-prodint \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/itc/psafm/stonesan/is8b8a.afm:${PORTSDIR}/print/texlive-psafm \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/paratype/ptsans/PTC55F.afm:${PORTSDIR}/print/texlive-ptsans \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/paratype/ptserif/PTF55F.afm:${PORTSDIR}/print/texlive-ptserif \
@@ -461,6 +462,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/alnumsec/alnumsec.sty:${PORTSDIR}/print/texlive-alnumsec \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arydshln/arydshln.sty:${PORTSDIR}/print/texlive-arydshln \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref/bibleref.sty:${PORTSDIR}/print/texlive-bibleref \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-parse/bibleref-parse.sty:${PORTSDIR}/print/texlive-bibleref-parse \
 		${LOCALBASE}/share/texmf-dist/tex/latex/covington/covington.sty:${PORTSDIR}/print/texlive-covington \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dramatist/dramatist.sty:${PORTSDIR}/print/texlive-dramatist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ecltree/ecltree.sty:${PORTSDIR}/print/texlive-ecltree \

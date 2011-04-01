@@ -1,4 +1,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/piff/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/piff/duplicat-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/piff/duplicat-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/piff/newproof-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/piff/newproof-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/piff/onepagem-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/piff/onepagem-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/piff/time-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/piff/time-doc.tex
 share/texmf-dist/tex/latex/piff/duplicat.sty
 share/texmf-dist/tex/latex/piff/newproof.sty
 share/texmf-dist/tex/latex/piff/onepagem.sty
