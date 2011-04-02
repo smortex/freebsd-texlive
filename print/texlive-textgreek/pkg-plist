@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/textgreek/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/textgreek/textgreek.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/textgreek/textgreek.dtx
+share/texmf-dist/tex/latex/textgreek/textgreek.sty
+@dirrmtry share/texmf-dist/tex/latex/textgreek
+@dirrmtry share/texmf-dist/source/latex/textgreek
+@dirrmtry share/texmf-dist/doc/latex/textgreek
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

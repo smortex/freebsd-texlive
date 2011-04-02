@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110401
+PORTVERSION=	20110402
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1325,6 +1325,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/texpower/texpower.sty:${PORTSDIR}/print/texlive-texpower \
 		${LOCALBASE}/share/texmf-dist/tex/latex/texshade/texshade.sty:${PORTSDIR}/print/texlive-texshade \
 		${LOCALBASE}/share/texmf-dist/tex/latex/textfit/textfit.sty:${PORTSDIR}/print/texlive-textfit \
+		${LOCALBASE}/share/texmf-dist/tex/latex/textgreek/textgreek.sty:${PORTSDIR}/print/texlive-textgreek \
 		${LOCALBASE}/share/texmf-dist/tex/generic/textmerg/textmerg.sty:${PORTSDIR}/print/texlive-textmerg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/textpos/textpos.sty:${PORTSDIR}/print/texlive-textpos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/theoremref/theoremref.sty:${PORTSDIR}/print/texlive-theoremref \
