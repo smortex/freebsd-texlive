@@ -1,4 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/version/version-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/version/version-doc.tex
 share/texmf-dist/tex/latex/version/version.sty
 @dirrmtry share/texmf-dist/tex/latex/version
+@dirrmtry share/texmf-dist/doc/latex/version
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

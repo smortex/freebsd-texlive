@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/verbasef/verbasef-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/verbasef/verbasef-doc.tex
+share/texmf-dist/tex/latex/verbasef/verbasef.sty
+@dirrmtry share/texmf-dist/tex/latex/verbasef
+@dirrmtry share/texmf-dist/doc/latex/verbasef
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	versions
-PORTVERSION=	20100922
+PORTVERSION=	20110404
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Optionally omit pieces of text.
 
-NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

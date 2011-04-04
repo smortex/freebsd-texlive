@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-bibleref-german
-# Date created:		02/08/2011 04:46:45
+# New ports collection makefile for:	texlive-verbasef
+# Date created:		04/04/2011 05:03:08
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	bibleref-german
+PORTNAME=	verbasef
 PORTVERSION=	20110404
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	German adaptation of bibleref.
+COMMENT=	VERBatim Automatic Splitting of External Files.
 
 NOPORTSRC=	yes
 
