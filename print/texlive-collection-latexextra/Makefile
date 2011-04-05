@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110404
+PORTVERSION=	20110405
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -864,7 +864,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/xbmc/xbmc10.mf:${PORTSDIR}/print/texlive-xbmc \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xcomment/xcomment.sty:${PORTSDIR}/print/texlive-xcomment \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xtab/xtab.sty:${PORTSDIR}/print/texlive-xtab \
-		${LOCALBASE}/share/texmf-dist/tex/latex/xtcapts/xt_capts.sty:${PORTSDIR}/print/texlive-xtcapts \
 		${LOCALBASE}/share/texmf-dist/makeindex/xdoc/docindex.ist:${PORTSDIR}/print/texlive-xdoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xfor/xfor.sty:${PORTSDIR}/print/texlive-xfor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xifthen/xifthen.sty:${PORTSDIR}/print/texlive-xifthen \

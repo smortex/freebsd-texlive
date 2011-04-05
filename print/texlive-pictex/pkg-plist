@@ -1,6 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pictex/00index
+%%PORTDOCS%%share/texmf-dist/doc/generic/pictex/README
 %%PORTDOCS%%share/texmf-dist/doc/generic/pictex/pictexzusatz.txt
-%%PORTDOCS%%share/texmf-dist/doc/generic/pictex/readme
 %%PORTDOCS%%share/texmf-dist/doc/generic/pictex/readme.errorbars
 share/texmf-dist/tex/generic/pictex/errorbars.tex
 share/texmf-dist/tex/generic/pictex/latexpicobjs.tex
