@@ -1,6 +1,6 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/localloc/localloc.dvi
+%%PORTDOCS%%share/texmf-dist/doc/latex/localloc/localloc.README
+%%PORTDOCS%%share/texmf-dist/doc/latex/localloc/localloc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/localloc/localtst.tex
-%%PORTSRC%%share/texmf-dist/source/latex/localloc/localloc.README
 %%PORTSRC%%share/texmf-dist/source/latex/localloc/localloc.drv
 %%PORTSRC%%share/texmf-dist/source/latex/localloc/localloc.dtx
 share/texmf-dist/tex/latex/localloc/localloc.sty
