@@ -3,6 +3,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/kpfonts/christophe.cls
 %%PORTDOCS%%share/texmf-dist/doc/fonts/kpfonts/kpfonts-abstract.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/kpfonts/kpfonts-abstract.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/kpfonts/kpfonts-math-symbols-tables.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/kpfonts/kpfonts-math-symbols-tables.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/kpfonts/kpfonts.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/kpfonts/kpfonts.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/kpfonts/readme.txt

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	context-mathsets
-PORTVERSION=	20100922
+PORTVERSION=	20110406
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
