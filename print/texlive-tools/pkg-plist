@@ -1,3 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcldoc/tools/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcldoc/tools/eemenu.dtx
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcldoc/tools/eemenu.ins
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcldoc/tools/sourcedtx.dtx
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcldoc/tools/sourcedtx.ins
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/afterpage.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/array.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/bm.pdf
@@ -95,5 +100,6 @@ share/texmf-dist/tex/latex/tools/xspace.sty
 @dirrmtry share/texmf-dist/tex/latex/tools
 @dirrmtry share/texmf-dist/source/latex/tools
 @dirrmtry share/texmf-dist/doc/latex/tools
+@dirrmtry share/texmf-dist/doc/latex/tcldoc/tools
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
