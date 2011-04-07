@@ -4,12 +4,14 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/mpboxes.pdf
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/mpgraph.pdf
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/mpintro.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/mplibapi.pdf
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/mpman.pdf
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/README
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/TODO
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/agepop91.d
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/agepopm.d
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/charts.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/cm2lm.map
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/countries.d
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/ctabbing.sty
@@ -24,7 +26,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/grdemo.ms
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/lead.d
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/matmul.d
-%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mp.1
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpboxes.bib
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpboxes.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpboxes.tex
@@ -35,6 +36,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman-app-legacy.tex
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman-app-optab.tex
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman-app-refman.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman-charts.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman.bib
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman.ist
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman.mp

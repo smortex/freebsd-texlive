@@ -48,10 +48,6 @@ share/texmf-dist/fonts/tfm/cspsfonts-adobe/avantgar/rpagd.tfm
 share/texmf-dist/fonts/tfm/cspsfonts-adobe/avantgar/rpagdo.tfm
 share/texmf-dist/fonts/tfm/cspsfonts-adobe/avantgar/rpagk.tfm
 share/texmf-dist/fonts/tfm/cspsfonts-adobe/avantgar/rpagko.tfm
-share/texmf-dist/fonts/tfm/groff/avantgar/pagd8g.tfm
-share/texmf-dist/fonts/tfm/groff/avantgar/pagdo8g.tfm
-share/texmf-dist/fonts/tfm/groff/avantgar/pagk8g.tfm
-share/texmf-dist/fonts/tfm/groff/avantgar/pagko8g.tfm
 share/texmf-dist/fonts/tfm/urw35vf/avantgar/uagb7t.tfm
 share/texmf-dist/fonts/tfm/urw35vf/avantgar/uagb8c.tfm
 share/texmf-dist/fonts/tfm/urw35vf/avantgar/uagb8r.tfm
@@ -186,7 +182,6 @@ share/texmf-dist/tex/latex/avantgar/ts1uag.fd
 @dirrmtry share/texmf-dist/fonts/vf/adobe/avantgar
 @dirrmtry share/texmf-dist/fonts/type1/urw/avantgar
 @dirrmtry share/texmf-dist/fonts/tfm/urw35vf/avantgar
-@dirrmtry share/texmf-dist/fonts/tfm/groff/avantgar
 @dirrmtry share/texmf-dist/fonts/tfm/cspsfonts-adobe/avantgar
 @dirrmtry share/texmf-dist/fonts/tfm/adobe/avantgar
 @dirrmtry share/texmf-dist/fonts/map/dvips/avantgar

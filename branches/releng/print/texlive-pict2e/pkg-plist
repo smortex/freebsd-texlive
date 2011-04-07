@@ -6,6 +6,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/pict2e/pict2e.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/pict2e/pict2e.ins
 share/texmf-dist/tex/latex/pict2e/p2e-dvipdfm.def
+share/texmf-dist/tex/latex/pict2e/p2e-dvipdfmx.def
 share/texmf-dist/tex/latex/pict2e/p2e-dvips.def
 share/texmf-dist/tex/latex/pict2e/p2e-pctex32.def
 share/texmf-dist/tex/latex/pict2e/p2e-pctexps.def
