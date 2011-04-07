@@ -1,3 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/ChangeLog-115.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/ChangeLog-T114.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/ChangeLog-musixdoc-115.txt
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/addons/curly.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/addons/tuplet.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/addons/underbracket.sty
@@ -91,16 +94,22 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixlyr/mxlyrdoc.dvi
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixlyr/mxlyrdoc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixlyr/mxlyrdoc.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixre1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixre1.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/notationMistakes/coulhack.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/notationMistakes/sottieng.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/notationMistakes/sottieng.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/notationMistakes/sottiger.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/notationMistakes/sottiger.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/notationMistakes/sottigra.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/notationMistakes/sottigra.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/psfonts/CHANGES.psfonts
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/psfonts/README.psfonts
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/psslurs/README.psslurs
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/psslurs/slurs.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/psslurs/slurs.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/sottieng.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/sottieng.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/reference/musixre1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/reference/musixre1.tex
 share/texmf-dist/dvips/musixtex/psslurs.pro
+share/texmf-dist/fonts/map/dvipdfm/musixtex/musix.map
 share/texmf-dist/fonts/map/dvips/musixtex/musix.map
 share/texmf-dist/fonts/source/public/musixtex/musexgen.mf
 share/texmf-dist/fonts/source/public/musixtex/musix11.mf
@@ -338,7 +347,6 @@ share/texmf-dist/fonts/type1/public/musixtex/xtie20.pfb
 %%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/doc.tex
 %%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/makefile
 %%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/musixcrd.dtx
-%%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/musixcrd.sty
 %%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/readme
 %%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/strip.tex
 share/texmf-dist/tex/generic/musixtex/musixadd.tex
@@ -347,7 +355,6 @@ share/texmf-dist/tex/generic/musixtex/musixbbm.tex
 share/texmf-dist/tex/generic/musixtex/musixblx.tex
 share/texmf-dist/tex/generic/musixtex/musixbm.tex
 share/texmf-dist/tex/generic/musixtex/musixcho.tex
-share/texmf-dist/tex/generic/musixtex/musixcpt.sty
 share/texmf-dist/tex/generic/musixtex/musixcpt.tex
 share/texmf-dist/tex/generic/musixtex/musixcrd.tex
 share/texmf-dist/tex/generic/musixtex/musixdat.tex
@@ -364,9 +371,7 @@ share/texmf-dist/tex/generic/musixtex/musixgui.tex
 share/texmf-dist/tex/generic/musixtex/musixhor.tex
 share/texmf-dist/tex/generic/musixtex/musixhou.tex
 share/texmf-dist/tex/generic/musixtex/musixinv.tex
-share/texmf-dist/tex/generic/musixtex/musixlex.tex
 share/texmf-dist/tex/generic/musixtex/musixlit.tex
-share/texmf-dist/tex/generic/musixtex/musixltx.tex
 share/texmf-dist/tex/generic/musixtex/musixlyr.tex
 share/texmf-dist/tex/generic/musixtex/musixmad.tex
 share/texmf-dist/tex/generic/musixtex/musixper.tex
@@ -379,19 +384,26 @@ share/texmf-dist/tex/generic/musixtex/musixste.tex
 share/texmf-dist/tex/generic/musixtex/musixstf.tex
 share/texmf-dist/tex/generic/musixtex/musixstr.tex
 share/texmf-dist/tex/generic/musixtex/musixsty.tex
-share/texmf-dist/tex/generic/musixtex/musixtex.sty
 share/texmf-dist/tex/generic/musixtex/musixtex.tex
 share/texmf-dist/tex/generic/musixtex/musixtmr.tex
 share/texmf-dist/tex/generic/musixtex/musixtri.tex
+share/texmf-dist/tex/latex/musixtex/musixcpt.sty
+share/texmf-dist/tex/latex/musixtex/musixcrd.sty
+share/texmf-dist/tex/latex/musixtex/musixltx.tex
+share/texmf-dist/tex/latex/musixtex/musixtex.sty
+@dirrmtry share/texmf-dist/tex/latex/musixtex
 @dirrmtry share/texmf-dist/tex/generic/musixtex
 @dirrmtry share/texmf-dist/source/generic/musixtex/musixcrd
 @dirrmtry share/texmf-dist/fonts/type1/public/musixtex
 @dirrmtry share/texmf-dist/fonts/tfm/public/musixtex
 @dirrmtry share/texmf-dist/fonts/source/public/musixtex
 @dirrmtry share/texmf-dist/fonts/map/dvips/musixtex
+@dirrmtry share/texmf-dist/fonts/map/dvipdfm/musixtex
 @dirrmtry share/texmf-dist/dvips/musixtex
+@dirrmtry share/texmf-dist/doc/generic/musixtex/reference
 @dirrmtry share/texmf-dist/doc/generic/musixtex/psslurs
 @dirrmtry share/texmf-dist/doc/generic/musixtex/psfonts
+@dirrmtry share/texmf-dist/doc/generic/musixtex/notationMistakes
 @dirrmtry share/texmf-dist/doc/generic/musixtex/musixlyr/examples
 @dirrmtry share/texmf-dist/doc/generic/musixtex/musixlyr
 @dirrmtry share/texmf-dist/doc/generic/musixtex/musixcrd
