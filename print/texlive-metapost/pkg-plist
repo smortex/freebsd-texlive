@@ -70,6 +70,42 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/previewer.eps
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/previewer.pdf
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/previewer.png
+share/texmf-dist/fonts/tfm/metapost/freeeuro.tfm
+share/texmf-dist/fonts/tfm/metapost/pagd8g.tfm
+share/texmf-dist/fonts/tfm/metapost/pagdo8g.tfm
+share/texmf-dist/fonts/tfm/metapost/pagk8g.tfm
+share/texmf-dist/fonts/tfm/metapost/pagko8g.tfm
+share/texmf-dist/fonts/tfm/metapost/pbkd8g.tfm
+share/texmf-dist/fonts/tfm/metapost/pbkdi8g.tfm
+share/texmf-dist/fonts/tfm/metapost/pbkl8g.tfm
+share/texmf-dist/fonts/tfm/metapost/pbkli8g.tfm
+share/texmf-dist/fonts/tfm/metapost/pcrb8g.tfm
+share/texmf-dist/fonts/tfm/metapost/pcrbo8g.tfm
+share/texmf-dist/fonts/tfm/metapost/pcrr8g.tfm
+share/texmf-dist/fonts/tfm/metapost/pcrro8g.tfm
+share/texmf-dist/fonts/tfm/metapost/phvb8g.tfm
+share/texmf-dist/fonts/tfm/metapost/phvb8gn.tfm
+share/texmf-dist/fonts/tfm/metapost/phvbo8g.tfm
+share/texmf-dist/fonts/tfm/metapost/phvbo8gn.tfm
+share/texmf-dist/fonts/tfm/metapost/phvr8g.tfm
+share/texmf-dist/fonts/tfm/metapost/phvr8gn.tfm
+share/texmf-dist/fonts/tfm/metapost/phvro8g.tfm
+share/texmf-dist/fonts/tfm/metapost/phvro8gn.tfm
+share/texmf-dist/fonts/tfm/metapost/pncb8g.tfm
+share/texmf-dist/fonts/tfm/metapost/pncbi8g.tfm
+share/texmf-dist/fonts/tfm/metapost/pncr8g.tfm
+share/texmf-dist/fonts/tfm/metapost/pncri8g.tfm
+share/texmf-dist/fonts/tfm/metapost/pplb8g.tfm
+share/texmf-dist/fonts/tfm/metapost/pplbi8g.tfm
+share/texmf-dist/fonts/tfm/metapost/pplr8g.tfm
+share/texmf-dist/fonts/tfm/metapost/pplri8g.tfm
+share/texmf-dist/fonts/tfm/metapost/psyrgo.tfm
+share/texmf-dist/fonts/tfm/metapost/ptmb8g.tfm
+share/texmf-dist/fonts/tfm/metapost/ptmbi8g.tfm
+share/texmf-dist/fonts/tfm/metapost/ptmr8g.tfm
+share/texmf-dist/fonts/tfm/metapost/ptmri8g.tfm
+share/texmf-dist/fonts/tfm/metapost/pzcmi8g.tfm
+share/texmf-dist/fonts/tfm/metapost/zpzdr-reversed.tfm
 share/texmf-dist/metapost/base/TEX.mp
 share/texmf-dist/metapost/base/boxes.mp
 share/texmf-dist/metapost/base/format.mp
@@ -119,6 +155,7 @@ share/texmf-dist/tex/generic/metapost/mpsproof.tex
 @dirrmtry share/texmf-dist/metapost/misc
 @dirrmtry share/texmf-dist/metapost/config
 @dirrmtry share/texmf-dist/metapost/base
+@dirrmtry share/texmf-dist/fonts/tfm/metapost
 @dirrmtry share/texmf-dist/doc/metapost/base/source-tutorial
 @dirrmtry share/texmf-dist/doc/metapost/base/source-manual
 @dirrmtry share/texmf-dist/doc/metapost/base
