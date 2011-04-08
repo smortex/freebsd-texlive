@@ -6,13 +6,13 @@
 #
 
 PORTNAME=	context
-PORTVERSION=	20110213
+PORTVERSION=	20110408
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	The ConTeXt macro package.
 
-RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/metapost/base/TEX.mp:${PORTSDIR}/print/texlive-metapost \
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/tfm/metapost/freeeuro.tfm:${PORTSDIR}/print/texlive-metapost \
 		${LOCALBASE}/share/texmf/fonts/map/pdftex/updmap/pdftex.map:${PORTSDIR}/print/texlive-pdftex \
 		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/base/qx-unicode.map:${PORTSDIR}/print/texlive-xetex \
 		${LOCALBASE}/share/texmf/tex/generic/config/luatex-unicode-letters.tex:${PORTSDIR}/print/texlive-luatex \
