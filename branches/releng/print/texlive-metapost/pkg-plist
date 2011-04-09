@@ -70,6 +70,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/previewer.eps
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/previewer.pdf
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-tutorial/previewer.png
+share/texmf-dist/fonts/afm/metapost/freeeuro.afm
+share/texmf-dist/fonts/afm/metapost/psyrgo.afm
+share/texmf-dist/fonts/afm/metapost/zpzdr-reversed.afm
+share/texmf-dist/fonts/enc/dvips/metapost/groff.enc
+share/texmf-dist/fonts/map/dvips/metapost/troff-updmap.map
+share/texmf-dist/fonts/map/dvips/metapost/troff.map
 share/texmf-dist/fonts/tfm/metapost/freeeuro.tfm
 share/texmf-dist/fonts/tfm/metapost/pagd8g.tfm
 share/texmf-dist/fonts/tfm/metapost/pagdo8g.tfm
@@ -106,6 +112,7 @@ share/texmf-dist/fonts/tfm/metapost/ptmr8g.tfm
 share/texmf-dist/fonts/tfm/metapost/ptmri8g.tfm
 share/texmf-dist/fonts/tfm/metapost/pzcmi8g.tfm
 share/texmf-dist/fonts/tfm/metapost/zpzdr-reversed.tfm
+share/texmf-dist/fonts/type1/metapost/freeeuro.pfa
 share/texmf-dist/metapost/base/TEX.mp
 share/texmf-dist/metapost/base/boxes.mp
 share/texmf-dist/metapost/base/format.mp
@@ -155,7 +162,11 @@ share/texmf-dist/tex/generic/metapost/mpsproof.tex
 @dirrmtry share/texmf-dist/metapost/misc
 @dirrmtry share/texmf-dist/metapost/config
 @dirrmtry share/texmf-dist/metapost/base
+@dirrmtry share/texmf-dist/fonts/type1/metapost
 @dirrmtry share/texmf-dist/fonts/tfm/metapost
+@dirrmtry share/texmf-dist/fonts/map/dvips/metapost
+@dirrmtry share/texmf-dist/fonts/enc/dvips/metapost
+@dirrmtry share/texmf-dist/fonts/afm/metapost
 @dirrmtry share/texmf-dist/doc/metapost/base/source-tutorial
 @dirrmtry share/texmf-dist/doc/metapost/base/source-manual
 @dirrmtry share/texmf-dist/doc/metapost/base
