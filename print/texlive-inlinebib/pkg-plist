@@ -1,13 +1,13 @@
 share/texmf-dist/bibtex/bst/inlinebib/inlinebib.bst
-%%PORTDOCS%%share/texmf-dist/doc/latex/inlinebib/MANIFEST
-%%PORTDOCS%%share/texmf-dist/doc/latex/inlinebib/inlinebib.htm
-%%PORTDOCS%%share/texmf-dist/doc/latex/inlinebib/inlinebib.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/inlinebib/inlinebib1.gif
-%%PORTDOCS%%share/texmf-dist/doc/latex/inlinebib/inlinebib2.gif
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/inlinebib/MANIFEST
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/inlinebib/inlinebib.htm
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/inlinebib/inlinebib.txt
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/inlinebib/inlinebib1.gif
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/inlinebib/inlinebib2.gif
 share/texmf-dist/tex/latex/inlinebib/inlinebib.sty
 share/texmf-dist/tex/latex/inlinebib/pageranges.sty
 @dirrmtry share/texmf-dist/tex/latex/inlinebib
-@dirrmtry share/texmf-dist/doc/latex/inlinebib
+@dirrmtry share/texmf-dist/doc/bibtex/inlinebib
 @dirrmtry share/texmf-dist/bibtex/bst/inlinebib
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

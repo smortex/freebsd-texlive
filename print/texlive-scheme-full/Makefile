@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110408
+PORTVERSION=	20110409
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1228,7 +1228,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/scale/scale.sty:${PORTSDIR}/print/texlive-scale \
 		${LOCALBASE}/share/texmf-dist/tex/latex/scalebar/scalebar.sty:${PORTSDIR}/print/texlive-scalebar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sciwordconv/Sw2Rus.sty:${PORTSDIR}/print/texlive-sciwordconv \
-		${LOCALBASE}/share/texmf-dist/tex/latex/script/script.cls:${PORTSDIR}/print/texlive-script \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sdrt/sdrt.sty:${PORTSDIR}/print/texlive-sdrt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/secdot/secdot.sty:${PORTSDIR}/print/texlive-secdot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sectionbox/sectionbox.sty:${PORTSDIR}/print/texlive-sectionbox \
@@ -1540,7 +1539,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/metapost/metago/metago.mp:${PORTSDIR}/print/texlive-metago \
 		${LOCALBASE}/share/texmf-dist/metapost/metaobj/connections.mp:${PORTSDIR}/print/texlive-metaobj \
 		${LOCALBASE}/share/texmf-dist/metapost/metaplot/axes.mp:${PORTSDIR}/print/texlive-metaplot \
-		${LOCALBASE}/share/texmf-dist/fonts/tfm/metapost/freeeuro.tfm:${PORTSDIR}/print/texlive-metapost \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/metapost/freeeuro.afm:${PORTSDIR}/print/texlive-metapost \
 		${LOCALBASE}/share/texmf-dist/metapost/metauml/metauml.mp:${PORTSDIR}/print/texlive-metauml \
 		${LOCALBASE}/share/texmf-dist/tex/generic/mfpic/mfpic.sty:${PORTSDIR}/print/texlive-mfpic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mfpic4ode/mfpic4ode.sty:${PORTSDIR}/print/texlive-mfpic4ode \

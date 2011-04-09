@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110407
+PORTVERSION=	20110409
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -689,7 +689,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/scale/scale.sty:${PORTSDIR}/print/texlive-scale \
 		${LOCALBASE}/share/texmf-dist/tex/latex/scalebar/scalebar.sty:${PORTSDIR}/print/texlive-scalebar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sciwordconv/Sw2Rus.sty:${PORTSDIR}/print/texlive-sciwordconv \
-		${LOCALBASE}/share/texmf-dist/tex/latex/script/script.cls:${PORTSDIR}/print/texlive-script \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sdrt/sdrt.sty:${PORTSDIR}/print/texlive-sdrt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/secdot/secdot.sty:${PORTSDIR}/print/texlive-secdot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sectionbox/sectionbox.sty:${PORTSDIR}/print/texlive-sectionbox \
