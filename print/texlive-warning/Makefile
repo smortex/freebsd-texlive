@@ -6,13 +6,13 @@
 #
 
 PORTNAME=	warning
-PORTVERSION=	20100922
+PORTVERSION=	20110410
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Global warnings at the end of the logfile.
 
-NOPORTDOCS=	yes
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

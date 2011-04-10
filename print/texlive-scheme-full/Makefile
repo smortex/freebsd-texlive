@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110409
+PORTVERSION=	20110410
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -217,7 +217,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/berenisadf/ybdb.afm:${PORTSDIR}/print/texlive-berenisadf \
 		${LOCALBASE}/share/texmf-dist/fonts/tfm/public/blacklettert1/tfrak.tfm:${PORTSDIR}/print/texlive-blacklettert1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boisik/boisik.sty:${PORTSDIR}/print/texlive-boisik \
-		${LOCALBASE}/share/texmf-dist/fonts/source/public/bookhands/auncl10.mf:${PORTSDIR}/print/texlive-bookhands \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/bookhands/sqrc10.afm:${PORTSDIR}/print/texlive-bookhands \
 		${LOCALBASE}/share/texmf-dist/tex/latex/braille/braille.sty:${PORTSDIR}/print/texlive-braille \
 		${LOCALBASE}/share/texmf-dist/dvips/brushscr/config.pbsi:${PORTSDIR}/print/texlive-brushscr \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/calligra/callig15.mf:${PORTSDIR}/print/texlive-calligra \
@@ -1387,7 +1387,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/vmargin/vmargin.sty:${PORTSDIR}/print/texlive-vmargin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/volumes/volumes.sty:${PORTSDIR}/print/texlive-volumes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vpe/vpe.sty:${PORTSDIR}/print/texlive-vpe \
-		${LOCALBASE}/share/texmf-dist/tex/latex/vrsion/vrsion.sty:${PORTSDIR}/print/texlive-vrsion \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vruler/vruler.sty:${PORTSDIR}/print/texlive-vruler \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vwcol/vwcol.sty:${PORTSDIR}/print/texlive-vwcol \
 		${LOCALBASE}/share/texmf-dist/tex/latex/wallpaper/wallpaper.sty:${PORTSDIR}/print/texlive-wallpaper \

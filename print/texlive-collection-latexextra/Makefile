@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110409
+PORTVERSION=	20110410
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -848,7 +848,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/vmargin/vmargin.sty:${PORTSDIR}/print/texlive-vmargin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/volumes/volumes.sty:${PORTSDIR}/print/texlive-volumes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vpe/vpe.sty:${PORTSDIR}/print/texlive-vpe \
-		${LOCALBASE}/share/texmf-dist/tex/latex/vrsion/vrsion.sty:${PORTSDIR}/print/texlive-vrsion \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vruler/vruler.sty:${PORTSDIR}/print/texlive-vruler \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vwcol/vwcol.sty:${PORTSDIR}/print/texlive-vwcol \
 		${LOCALBASE}/share/texmf-dist/tex/latex/wallpaper/wallpaper.sty:${PORTSDIR}/print/texlive-wallpaper \
