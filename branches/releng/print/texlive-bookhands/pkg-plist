@@ -1,55 +1,61 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/README.PRW
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/README.auncial
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/README.carolmin
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/README.egothic
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/README.humanist
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/README.huncial
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/README.inslrmaj
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/README.inslrmin
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/README.pgothic
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/README.rotunda
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/README.rustic
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/README.sqrcaps
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/README.tgothic
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/README.uncial
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/auncial-allfont.ps.gz
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/auncial-allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/allsqrcaps.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/auncial-README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/auncial-tryfont.ps.gz
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/auncial-tryfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/auncial/allfont.ps.gz
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/auncial/allfont.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/bsamples.ps.gz
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/bsamples.tex
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/carolmin-allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/carolmin-README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/carolmin-tryfont.tex
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/egothic-allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/carolmin/allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/egothic-README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/egothic-tryfont.tex
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/humanist-allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/egothic/allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/humanist-README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/humanist-tryfont.tex
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/huncial-allfont.ps.gz
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/huncial-allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/humanist/allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/huncial-README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/huncial-tryfont.ps.gz
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/huncial-tryfont.tex
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/inslrmaj-allfont.ps.gz
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/inslrmaj-allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/huncial/allfont.ps.gz
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/huncial/allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/inslrmaj-README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/inslrmaj-tryfont.ps.gz
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/inslrmaj-tryfont.tex
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/inslrmin-allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/inslrmaj/allfont.ps.gz
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/inslrmaj/allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/inslrmin-README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/inslrmin-tryfont.tex
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/pgothic-allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/inslrmin/allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/pgothic-README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/pgothic-tryfont.tex
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/rotunda-allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/pgothic/allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/rotunda-README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/rotunda-tryfont.tex
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/rustic-allfont.ps.gz
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/rustic-allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/rotunda/allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/rustic-README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/rustic-tryfont.ps.gz
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/rustic-tryfont.tex
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/sqrcaps-allfont.tex
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/sqrcaps-tryfont.tex
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/tgothic-allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/rustic/allfont.ps.gz
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/rustic/allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/sqrcaps-README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/sqrcaps.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/sqrcaps/allsqrcaps.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/tgothic-README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/tgothic-tryfont.tex
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/uncial-allfont.ps.gz
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/uncial-allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/tgothic/allfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/trysqrcaps.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/trysqrcaps.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/uncial-README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/uncial-tryfont.ps.gz
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/uncial-tryfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/uncial/allfont.ps.gz
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bookhands/uncial/allfont.tex
+share/texmf-dist/fonts/afm/public/bookhands/sqrc10.afm
+share/texmf-dist/fonts/afm/public/bookhands/sqrcb10.afm
+share/texmf-dist/fonts/map/dvips/bookhands/sqrcaps.map
 share/texmf-dist/fonts/source/public/bookhands/auncl10.mf
 share/texmf-dist/fonts/source/public/bookhands/auncl17.mf
 share/texmf-dist/fonts/source/public/bookhands/auncl7.mf
@@ -170,18 +176,6 @@ share/texmf-dist/fonts/source/public/bookhands/rustlig.mf
 share/texmf-dist/fonts/source/public/bookhands/rustpunct.mf
 share/texmf-dist/fonts/source/public/bookhands/rusttitle.mf
 share/texmf-dist/fonts/source/public/bookhands/rustu.mf
-share/texmf-dist/fonts/source/public/bookhands/sqrc10.mf
-share/texmf-dist/fonts/source/public/bookhands/sqrc17.mf
-share/texmf-dist/fonts/source/public/bookhands/sqrc7.mf
-share/texmf-dist/fonts/source/public/bookhands/sqrcb10.mf
-share/texmf-dist/fonts/source/public/bookhands/sqrcb17.mf
-share/texmf-dist/fonts/source/public/bookhands/sqrcb7.mf
-share/texmf-dist/fonts/source/public/bookhands/sqrcdig.mf
-share/texmf-dist/fonts/source/public/bookhands/sqrcl.mf
-share/texmf-dist/fonts/source/public/bookhands/sqrclig.mf
-share/texmf-dist/fonts/source/public/bookhands/sqrcpunct.mf
-share/texmf-dist/fonts/source/public/bookhands/sqrctitle.mf
-share/texmf-dist/fonts/source/public/bookhands/sqrcu.mf
 share/texmf-dist/fonts/source/public/bookhands/tgoth10.mf
 share/texmf-dist/fonts/source/public/bookhands/tgoth17.mf
 share/texmf-dist/fonts/source/public/bookhands/tgoth7.mf
@@ -206,32 +200,106 @@ share/texmf-dist/fonts/source/public/bookhands/uncllig.mf
 share/texmf-dist/fonts/source/public/bookhands/unclpunct.mf
 share/texmf-dist/fonts/source/public/bookhands/uncltitle.mf
 share/texmf-dist/fonts/source/public/bookhands/unclu.mf
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/auncial/auncial.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/auncial/auncial.ins
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/carolmin/carolmin.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/carolmin/carolmin.ins
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/egothic/egothic.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/egothic/egothic.ins
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/humanist/humanist.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/humanist/humanist.ins
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/huncial/huncial.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/huncial/huncial.ins
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/inslrmaj/inslrmaj.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/inslrmaj/inslrmaj.ins
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/inslrmin/inslrmin.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/inslrmin/inslrmin.ins
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/pgothic/pgothic.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/pgothic/pgothic.ins
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/rotunda/rotunda.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/rotunda/rotunda.ins
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/rustic/rustic.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/rustic/rustic.ins
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/sqrcaps/sqrcaps.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/sqrcaps/sqrcaps.ins
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/tgothic/tgothic.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/tgothic/tgothic.ins
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/uncial/uncial.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/bookhands/uncial/uncial.ins
+share/texmf-dist/fonts/tfm/public/bookhands/auncl10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/auncl17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/auncl7.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/aunclb10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/aunclb17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/aunclb7.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/cmin10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/cmin17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/cmin7.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/cminb10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/cminb17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/cminb7.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/egoth10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/egoth17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/egoth7.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/egothb10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/egothb17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/egothb7.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/hmin10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/hmin17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/hmin7.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/hminb10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/hminb17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/hminb7.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/huncl10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/huncl17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/huncl7.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/hunclb10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/hunclb17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/hunclb7.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/imaj10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/imaj17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/imaj7.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/imajb10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/imajb17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/imajb7.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/imin10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/imin17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/imin7.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/iminb10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/iminb17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/iminb7.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/pgoth10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/pgoth17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/pgoth7.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/pgothb10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/pgothb17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/rtnd10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/rtnd17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/rtnd7.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/rtndb10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/rtndb17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/rtndb7.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/rust10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/rust17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/rust7.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/rustb10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/rustb17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/rustb7.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/sqrc10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/sqrcb10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/tgoth10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/tgoth17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/tgoth7.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/tgothb10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/tgothb17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/uncl10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/uncl17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/uncl7.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/unclb10.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/unclb17.tfm
+share/texmf-dist/fonts/tfm/public/bookhands/unclb7.tfm
+share/texmf-dist/fonts/type1/public/bookhands/sqrc10.pfb
+share/texmf-dist/fonts/type1/public/bookhands/sqrcb10.pfb
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/auncial.dtx
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/auncial.ins
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/carolmin.dtx
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/carolmin.ins
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/egothic.dtx
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/egothic.ins
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/humanist.dtx
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/humanist.ins
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/huncial.dtx
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/huncial.ins
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/inslrmaj.dtx
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/inslrmaj.ins
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/inslrmin.dtx
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/inslrmin.ins
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/pgothic.dtx
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/pgothic.ins
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/rotunda.dtx
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/rotunda.ins
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/rustic.dtx
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/rustic.ins
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/sqrcaps.dtx
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/sqrcaps.ins
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/tgothic.dtx
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/tgothic.ins
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/uncial.dtx
+%%PORTSRC%%share/texmf-dist/source/fonts/bookhands/uncial.ins
 share/texmf-dist/tex/latex/bookhands/allcmin.sty
 share/texmf-dist/tex/latex/bookhands/allegoth.sty
 share/texmf-dist/tex/latex/bookhands/allhmin.sty
@@ -283,20 +351,25 @@ share/texmf-dist/tex/latex/bookhands/t1uncl.fd
 share/texmf-dist/tex/latex/bookhands/tgothic.sty
 share/texmf-dist/tex/latex/bookhands/uncial.sty
 @dirrmtry share/texmf-dist/tex/latex/bookhands
-@dirrmtry share/texmf-dist/source/latex/bookhands/uncial
-@dirrmtry share/texmf-dist/source/latex/bookhands/tgothic
-@dirrmtry share/texmf-dist/source/latex/bookhands/sqrcaps
-@dirrmtry share/texmf-dist/source/latex/bookhands/rustic
-@dirrmtry share/texmf-dist/source/latex/bookhands/rotunda
-@dirrmtry share/texmf-dist/source/latex/bookhands/pgothic
-@dirrmtry share/texmf-dist/source/latex/bookhands/inslrmin
-@dirrmtry share/texmf-dist/source/latex/bookhands/inslrmaj
-@dirrmtry share/texmf-dist/source/latex/bookhands/huncial
-@dirrmtry share/texmf-dist/source/latex/bookhands/humanist
-@dirrmtry share/texmf-dist/source/latex/bookhands/egothic
-@dirrmtry share/texmf-dist/source/latex/bookhands/carolmin
-@dirrmtry share/texmf-dist/source/latex/bookhands/auncial
+@dirrmtry share/texmf-dist/source/fonts/bookhands
+@dirrmtry share/texmf-dist/fonts/type1/public/bookhands
+@dirrmtry share/texmf-dist/fonts/tfm/public/bookhands
 @dirrmtry share/texmf-dist/fonts/source/public/bookhands
+@dirrmtry share/texmf-dist/fonts/map/dvips/bookhands
+@dirrmtry share/texmf-dist/fonts/afm/public/bookhands
+@dirrmtry share/texmf-dist/doc/fonts/bookhands/uncial
+@dirrmtry share/texmf-dist/doc/fonts/bookhands/tgothic
+@dirrmtry share/texmf-dist/doc/fonts/bookhands/sqrcaps
+@dirrmtry share/texmf-dist/doc/fonts/bookhands/rustic
+@dirrmtry share/texmf-dist/doc/fonts/bookhands/rotunda
+@dirrmtry share/texmf-dist/doc/fonts/bookhands/pgothic
+@dirrmtry share/texmf-dist/doc/fonts/bookhands/inslrmin
+@dirrmtry share/texmf-dist/doc/fonts/bookhands/inslrmaj
+@dirrmtry share/texmf-dist/doc/fonts/bookhands/huncial
+@dirrmtry share/texmf-dist/doc/fonts/bookhands/humanist
+@dirrmtry share/texmf-dist/doc/fonts/bookhands/egothic
+@dirrmtry share/texmf-dist/doc/fonts/bookhands/carolmin
+@dirrmtry share/texmf-dist/doc/fonts/bookhands/auncial
 @dirrmtry share/texmf-dist/doc/fonts/bookhands
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

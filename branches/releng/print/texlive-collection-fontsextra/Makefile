@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20110408
+PORTVERSION=	20110410
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -40,7 +40,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/berenisadf/ybdb.afm:${PORTSDIR}/print/texlive-berenisadf \
 		${LOCALBASE}/share/texmf-dist/fonts/tfm/public/blacklettert1/tfrak.tfm:${PORTSDIR}/print/texlive-blacklettert1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boisik/boisik.sty:${PORTSDIR}/print/texlive-boisik \
-		${LOCALBASE}/share/texmf-dist/fonts/source/public/bookhands/auncl10.mf:${PORTSDIR}/print/texlive-bookhands \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/bookhands/sqrc10.afm:${PORTSDIR}/print/texlive-bookhands \
 		${LOCALBASE}/share/texmf-dist/tex/latex/braille/braille.sty:${PORTSDIR}/print/texlive-braille \
 		${LOCALBASE}/share/texmf-dist/dvips/brushscr/config.pbsi:${PORTSDIR}/print/texlive-brushscr \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/calligra/callig15.mf:${PORTSDIR}/print/texlive-calligra \

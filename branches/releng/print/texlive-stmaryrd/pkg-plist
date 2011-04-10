@@ -1,11 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stmaryrd/INSTALL
 %%PORTDOCS%%share/texmf-dist/doc/fonts/stmaryrd/README
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stmaryrd/stmaryrd.dvi
-share/texmf-dist/fonts/afm/hoekwater/stmaryrd/stmary10.afm
-share/texmf-dist/fonts/afm/hoekwater/stmaryrd/stmary5.afm
-share/texmf-dist/fonts/afm/hoekwater/stmaryrd/stmary6.afm
-share/texmf-dist/fonts/afm/hoekwater/stmaryrd/stmary7.afm
-share/texmf-dist/fonts/afm/hoekwater/stmaryrd/stmary8.afm
-share/texmf-dist/fonts/afm/hoekwater/stmaryrd/stmary9.afm
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stmaryrd/README.hoekwater
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stmaryrd/stmaryrd.pdf
+share/texmf-dist/fonts/afm/public/stmaryrd/stmary10.afm
+share/texmf-dist/fonts/afm/public/stmaryrd/stmary5.afm
+share/texmf-dist/fonts/afm/public/stmaryrd/stmary6.afm
+share/texmf-dist/fonts/afm/public/stmaryrd/stmary7.afm
+share/texmf-dist/fonts/afm/public/stmaryrd/stmary8.afm
+share/texmf-dist/fonts/afm/public/stmaryrd/stmary9.afm
 share/texmf-dist/fonts/map/dvips/stmaryrd/stmaryrd.map
 share/texmf-dist/fonts/source/public/stmaryrd/stmary10.mf
 share/texmf-dist/fonts/source/public/stmaryrd/stmary5.mf
@@ -24,31 +26,29 @@ share/texmf-dist/fonts/tfm/public/stmaryrd/stmary6.tfm
 share/texmf-dist/fonts/tfm/public/stmaryrd/stmary7.tfm
 share/texmf-dist/fonts/tfm/public/stmaryrd/stmary8.tfm
 share/texmf-dist/fonts/tfm/public/stmaryrd/stmary9.tfm
-share/texmf-dist/fonts/type1/hoekwater/stmaryrd/stmary10.pfb
-share/texmf-dist/fonts/type1/hoekwater/stmaryrd/stmary10.pfm
-share/texmf-dist/fonts/type1/hoekwater/stmaryrd/stmary5.pfb
-share/texmf-dist/fonts/type1/hoekwater/stmaryrd/stmary5.pfm
-share/texmf-dist/fonts/type1/hoekwater/stmaryrd/stmary6.pfb
-share/texmf-dist/fonts/type1/hoekwater/stmaryrd/stmary6.pfm
-share/texmf-dist/fonts/type1/hoekwater/stmaryrd/stmary7.pfb
-share/texmf-dist/fonts/type1/hoekwater/stmaryrd/stmary7.pfm
-share/texmf-dist/fonts/type1/hoekwater/stmaryrd/stmary8.pfb
-share/texmf-dist/fonts/type1/hoekwater/stmaryrd/stmary8.pfm
-share/texmf-dist/fonts/type1/hoekwater/stmaryrd/stmary9.pfb
-share/texmf-dist/fonts/type1/hoekwater/stmaryrd/stmary9.pfm
-%%PORTSRC%%share/texmf-dist/source/fonts/stmaryrd/00Description
-%%PORTSRC%%share/texmf-dist/source/fonts/stmaryrd/INSTALL
+share/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb
+share/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfm
+share/texmf-dist/fonts/type1/public/stmaryrd/stmary5.pfb
+share/texmf-dist/fonts/type1/public/stmaryrd/stmary5.pfm
+share/texmf-dist/fonts/type1/public/stmaryrd/stmary6.pfb
+share/texmf-dist/fonts/type1/public/stmaryrd/stmary6.pfm
+share/texmf-dist/fonts/type1/public/stmaryrd/stmary7.pfb
+share/texmf-dist/fonts/type1/public/stmaryrd/stmary7.pfm
+share/texmf-dist/fonts/type1/public/stmaryrd/stmary8.pfb
+share/texmf-dist/fonts/type1/public/stmaryrd/stmary8.pfm
+share/texmf-dist/fonts/type1/public/stmaryrd/stmary9.pfb
+share/texmf-dist/fonts/type1/public/stmaryrd/stmary9.pfm
 %%PORTSRC%%share/texmf-dist/source/fonts/stmaryrd/stmaryrd.dtx
 %%PORTSRC%%share/texmf-dist/source/fonts/stmaryrd/stmaryrd.ins
 share/texmf-dist/tex/latex/stmaryrd/Ustmry.fd
 share/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
 @dirrmtry share/texmf-dist/tex/latex/stmaryrd
 @dirrmtry share/texmf-dist/source/fonts/stmaryrd
-@dirrmtry share/texmf-dist/fonts/type1/hoekwater/stmaryrd
+@dirrmtry share/texmf-dist/fonts/type1/public/stmaryrd
 @dirrmtry share/texmf-dist/fonts/tfm/public/stmaryrd
 @dirrmtry share/texmf-dist/fonts/source/public/stmaryrd
 @dirrmtry share/texmf-dist/fonts/map/dvips/stmaryrd
-@dirrmtry share/texmf-dist/fonts/afm/hoekwater/stmaryrd
+@dirrmtry share/texmf-dist/fonts/afm/public/stmaryrd
 @dirrmtry share/texmf-dist/doc/fonts/stmaryrd
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
