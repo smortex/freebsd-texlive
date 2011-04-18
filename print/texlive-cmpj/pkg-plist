@@ -1,0 +1,19 @@
+share/texmf-dist/bibtex/bst/cmpj/cmpj.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/cmpj/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/cmpj/cmp-logo.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/cmpj/cmp-logo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cmpj/usrguide/eps_demo.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/cmpj/usrguide/eps_demo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cmpj/usrguide/icmphome.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/cmpj/usrguide/icmphome.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cmpj/usrguide/mybibdb.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/cmpj/usrguide/template.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cmpj/usrguide/template.ps
+%%PORTDOCS%%share/texmf-dist/doc/latex/cmpj/usrguide/template.tex
+share/texmf-dist/tex/latex/cmpj/cmpj.sty
+@dirrmtry share/texmf-dist/tex/latex/cmpj
+@dirrmtry share/texmf-dist/doc/latex/cmpj/usrguide
+@dirrmtry share/texmf-dist/doc/latex/cmpj
+@dirrmtry share/texmf-dist/bibtex/bst/cmpj
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
