@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-mathextra
-PORTVERSION=	20110330
+PORTVERSION=	20110418
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -136,7 +136,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/12many/12many.sty:${PORTSDI
 		${LOCALBASE}/share/texmf-dist/tex/latex/mfnfss/oldgerm.sty:${PORTSDIR}/print/texlive-mfnfss \
 		${LOCALBASE}/share/texmf-dist/tex/generic/context/mptopdf.tex:${PORTSDIR}/print/texlive-mptopdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/natbib/natbib.sty:${PORTSDIR}/print/texlive-natbib \
-		${LOCALBASE}/share/texmf-dist/scripts/oberdiek/luacolor.lua:${PORTSDIR}/print/texlive-oberdiek \
+		${LOCALBASE}/share/texmf-dist/bibtex/oberdiek/oberdiek-bundle.bib:${PORTSDIR}/print/texlive-oberdiek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdftex-def/pdftex.def:${PORTSDIR}/print/texlive-pdftex-def \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pslatex/pslatex.sty:${PORTSDIR}/print/texlive-pslatex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/psnfss/charter.map:${PORTSDIR}/print/texlive-psnfss \

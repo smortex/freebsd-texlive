@@ -2,6 +2,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/INSTALL
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/glossaries-user.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/glossaries-user.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/glossaries-user.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/glossaries.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/glossariesbegin.html
@@ -11,6 +12,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/glossary2glossaries.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/glossary2glossaries.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/mfirstuc-manual.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/mfirstuc-manual.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/mfirstuc-manual.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/database1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/database2.tex

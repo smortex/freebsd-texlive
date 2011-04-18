@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	mfware
-PORTVERSION=	20110213
+PORTVERSION=	20110418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Supporting tools for use with MetaFont.
+COMMENT=	Supporting tools for use with Metafont.
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

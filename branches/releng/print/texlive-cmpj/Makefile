@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-etex
-# Date created:		13/03/2010 04:19:36
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-cmpj
+# Date created:		04/18/2011 05:09:50
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	etex
+PORTNAME=	cmpj
 PORTVERSION=	20110418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	An extended version of TeX, from the NTS project.
+COMMENT=	Style for the journal Condensed Matter Physics.
 
 NOPORTSRC=	yes
 
