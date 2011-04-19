@@ -222,6 +222,7 @@ share/texmf-dist/bibtex/oberdiek/oberdiek-bundle.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/ltxcmds-test-gobble.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/ltxcmds-test-ifboxempty.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/ltxcmds-test-ifempty.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/ltxcmds-test-nextchar.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/ltxcmds-test-zapspace.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/ltxcmds-test1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/luacolor-test1.tex

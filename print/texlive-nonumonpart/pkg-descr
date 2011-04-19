@@ -1,0 +1,4 @@
+The package bundles the answer to the long-standing FAQ about
+removing page numbers on \part pages. The package accepts no
+options and defines no user commands; the user needs only to
+load it, and the requirement is met.

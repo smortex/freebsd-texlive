@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/nonumonpart/LISEZMOI
+%%PORTDOCS%%share/texmf-dist/doc/latex/nonumonpart/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/nonumonpart/nonumonpart-en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nonumonpart/nonumonpart-fr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nonumonpart/nonumonpart.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/nonumonpart/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/nonumonpart/nonumonpart.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/nonumonpart/nonumonpart.ins
+share/texmf-dist/tex/latex/nonumonpart/nonumonpart.sty
+@dirrmtry share/texmf-dist/tex/latex/nonumonpart
+@dirrmtry share/texmf-dist/source/latex/nonumonpart
+@dirrmtry share/texmf-dist/doc/latex/nonumonpart
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,2 @@
+The package can typeset tabs on the side of a page. It requires
+TikZ from the pgf bundle.

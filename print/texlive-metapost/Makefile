@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	metapost
-PORTVERSION=	20110409
+PORTVERSION=	20110419
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A development of MetaFont for creating graphics.
+COMMENT=	A development of Metafont for creating graphics.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
