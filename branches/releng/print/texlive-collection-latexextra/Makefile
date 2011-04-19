@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110418
+PORTVERSION=	20110419
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -361,6 +361,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/facsimile/facsimile.cls:${PORTSDIR}/print/texlive-facsimile \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancynum/fancynum.sty:${PORTSDIR}/print/texlive-fancynum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancypar/fancypar.sty:${PORTSDIR}/print/texlive-fancypar \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fancytabs/fancytabs.sty:${PORTSDIR}/print/texlive-fancytabs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancytooltips/fancytooltips.sty:${PORTSDIR}/print/texlive-fancytooltips \
 		${LOCALBASE}/share/texmf-dist/tex/latex/figsize/figsize.sty:${PORTSDIR}/print/texlive-figsize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filecontents/filecontents.sty:${PORTSDIR}/print/texlive-filecontents \
@@ -573,6 +574,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/nomencl/nomencl.sty:${PORTSDIR}/print/texlive-nomencl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nomentbl/nomentbl.sty:${PORTSDIR}/print/texlive-nomentbl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nonfloat/nonfloat.sty:${PORTSDIR}/print/texlive-nonfloat \
+		${LOCALBASE}/share/texmf-dist/tex/latex/nonumonpart/nonumonpart.sty:${PORTSDIR}/print/texlive-nonumonpart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nopageno/nopageno.sty:${PORTSDIR}/print/texlive-nopageno \
 		${LOCALBASE}/share/texmf-dist/tex/latex/notes/notes.sty:${PORTSDIR}/print/texlive-notes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/notoccite/notoccite.sty:${PORTSDIR}/print/texlive-notoccite \

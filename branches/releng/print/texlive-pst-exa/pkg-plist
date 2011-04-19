@@ -1,5 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst-exa/Changes
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst-exa/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-exa/pst-exa-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-exa/pst-exa-doc.tex
 share/texmf-dist/tex/latex/pst-exa/pst-exa.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-exa
 @dirrmtry share/texmf-dist/doc/latex/pst-exa
