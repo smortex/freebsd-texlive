@@ -78,6 +78,7 @@ share/texmf-dist/tex/latex/bidi/luatex-bidi.def
 share/texmf-dist/tex/latex/bidi/memoir-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/minitoc-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/multicol-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/multienum-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/pdfpages-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/pgf-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/plain-luatex-bidi.def
