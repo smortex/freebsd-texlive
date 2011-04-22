@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-colortab
-# Date created:		09/21/2010 11:45:59
+# New ports collection makefile for:	texlive-sitem
+# Date created:		04/22/2011 05:00:01
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	colortab
+PORTNAME=	sitem
 PORTVERSION=	20110422
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Shade cells of tables and halign.
+COMMENT=	Save the optional argument of \item.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

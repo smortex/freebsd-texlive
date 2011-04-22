@@ -2,8 +2,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/colortab/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/generic/colortab/colortab-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/colortab/colortab-doc.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/colortab/colortab.tex
 share/texmf-dist/tex/generic/colortab/colortab.sty
+share/texmf-dist/tex/generic/colortab/colortab.tex
 @dirrmtry share/texmf-dist/tex/generic/colortab
 @dirrmtry share/texmf-dist/doc/generic/colortab
 @exec %D/bin/mktexlsr
