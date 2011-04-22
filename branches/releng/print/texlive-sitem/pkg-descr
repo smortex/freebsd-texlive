@@ -1,0 +1,2 @@
+The package modifies \item commands to save the optional
+argument in a box.

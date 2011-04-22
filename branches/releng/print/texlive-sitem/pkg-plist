@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/sitem/sitem.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/sitem/sitem.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/sitem/sitem.ins
+share/texmf-dist/tex/latex/sitem/sitem.sty
+@dirrmtry share/texmf-dist/tex/latex/sitem
+@dirrmtry share/texmf-dist/source/latex/sitem
+@dirrmtry share/texmf-dist/doc/latex/sitem
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
