@@ -1,4 +1,4 @@
-share/texmf-dist/bibtex/oberdiek/oberdiek-bundle.bib
+share/texmf-dist/bibtex/bib/oberdiek/oberdiek-bundle.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/accsupp-example1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/accsupp-example2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/accsupp.pdf
@@ -178,6 +178,8 @@ share/texmf-dist/bibtex/oberdiek/oberdiek-bundle.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/grfext-test2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/grffile-test1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/hobsub-test1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/hologo-test-spacefactor.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/hologo-test1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/hopatch-test1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/hopatch-test2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/hycolor-test-xcol1.tex
@@ -426,8 +428,6 @@ share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 share/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 share/texmf-dist/tex/generic/oberdiek/hobsub.sty
-share/texmf-dist/tex/generic/oberdiek/hologo-test-spacefactor.tex
-share/texmf-dist/tex/generic/oberdiek/hologo-test1.tex
 share/texmf-dist/tex/generic/oberdiek/hologo.sty
 share/texmf-dist/tex/generic/oberdiek/hyphsubst.sty
 share/texmf-dist/tex/generic/oberdiek/iflang.sty
@@ -635,6 +635,6 @@ share/texmf-dist/tex/latex/oberdiek/zref.sty
 @dirrmtry share/texmf-dist/doc/latex/oberdiek/test
 @dirrmtry share/texmf-dist/doc/latex/oberdiek/example
 @dirrmtry share/texmf-dist/doc/latex/oberdiek
-@dirrmtry share/texmf-dist/bibtex/oberdiek
+@dirrmtry share/texmf-dist/bibtex/bib/oberdiek
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

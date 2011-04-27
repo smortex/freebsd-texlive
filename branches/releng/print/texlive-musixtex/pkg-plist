@@ -30,7 +30,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/fantaisi.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/fantcmol.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/fantfuga.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/fstsaens.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/fugcmoll.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/fugue.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/gloriab.tex
@@ -344,6 +343,12 @@ share/texmf-dist/fonts/type1/public/musixtex/xslup20.pfb
 share/texmf-dist/fonts/type1/public/musixtex/xslz20.pfb
 share/texmf-dist/fonts/type1/public/musixtex/xslz20d.pfb
 share/texmf-dist/fonts/type1/public/musixtex/xtie20.pfb
+share/texmf-dist/scripts/musixtex/Windows/musixflx.bat
+share/texmf-dist/scripts/musixtex/Windows/musixtex.bat
+share/texmf-dist/scripts/musixtex/doc/musixflx.1
+share/texmf-dist/scripts/musixtex/doc/musixtex.1
+share/texmf-dist/scripts/musixtex/musixflx.lua
+share/texmf-dist/scripts/musixtex/musixtex.lua
 %%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/doc.tex
 %%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/makefile
 %%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/musixcrd.dtx
@@ -391,9 +396,17 @@ share/texmf-dist/tex/latex/musixtex/musixcpt.sty
 share/texmf-dist/tex/latex/musixtex/musixcrd.sty
 share/texmf-dist/tex/latex/musixtex/musixltx.tex
 share/texmf-dist/tex/latex/musixtex/musixtex.sty
+%%PORTDOCS%%share/texmf/doc/man/man1/musixflx.1
+%%PORTDOCS%%share/texmf/doc/man/man1/musixflx.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/musixtex.1
+%%PORTDOCS%%share/texmf/doc/man/man1/musixtex.man1.pdf
+@dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf-dist/tex/latex/musixtex
 @dirrmtry share/texmf-dist/tex/generic/musixtex
 @dirrmtry share/texmf-dist/source/generic/musixtex/musixcrd
+@dirrmtry share/texmf-dist/scripts/musixtex/doc
+@dirrmtry share/texmf-dist/scripts/musixtex/Windows
+@dirrmtry share/texmf-dist/scripts/musixtex
 @dirrmtry share/texmf-dist/fonts/type1/public/musixtex
 @dirrmtry share/texmf-dist/fonts/tfm/public/musixtex
 @dirrmtry share/texmf-dist/fonts/source/public/musixtex

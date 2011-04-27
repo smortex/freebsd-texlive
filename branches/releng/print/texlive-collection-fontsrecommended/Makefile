@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsrecommended
-PORTVERSION=	20101215
+PORTVERSION=	20110427
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -21,8 +21,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/dvips/avantgar/config.uag:${PORTSDIR}
 		${LOCALBASE}/share/texmf-dist/dvips/courier/config.ucr:${PORTSDIR}/print/texlive-courier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/euro/euro.sty:${PORTSDIR}/print/texlive-euro \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/euro-ce/ceit.mf:${PORTSDIR}/print/texlive-euro-ce \
-		${LOCALBASE}/share/texmf-dist/tex/latex/eurofont/eurofont.sty:${PORTSDIR}/print/texlive-eurofont \
-		${LOCALBASE}/share/texmf-dist/tex/latex/eurosans/eurosans.sty:${PORTSDIR}/print/texlive-eurosans \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eurosym/eurosym.sty:${PORTSDIR}/print/texlive-eurosym \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/fpl/fplbij8a.afm:${PORTSDIR}/print/texlive-fpl \
 		${LOCALBASE}/share/texmf-dist/dvips/helvetic/config.uhv:${PORTSDIR}/print/texlive-helvetic \

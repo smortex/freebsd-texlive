@@ -11,6 +11,7 @@ share/texmf-dist/tex/latex/biblatex-apa/apa.cbx
 share/texmf-dist/tex/latex/biblatex-apa/dutch-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/french-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/german-apa.lbx
+share/texmf-dist/tex/latex/biblatex-apa/greek-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/ngerman-apa.lbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-apa
 @dirrmtry share/texmf-dist/doc/latex/biblatex-apa

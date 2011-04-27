@@ -6,12 +6,12 @@
 #
 
 PORTNAME=	ctie
-PORTVERSION=	20110418
+PORTVERSION=	20110427
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The ctie package
+COMMENT=	C version of tie (merging Web change files).
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core

@@ -4914,6 +4914,7 @@ share/texmf-dist/fonts/tfm/zhmetrics/uniyou/uniyouslfd.tfm
 share/texmf-dist/fonts/tfm/zhmetrics/uniyou/uniyouslfe.tfm
 share/texmf-dist/fonts/tfm/zhmetrics/uniyou/uniyouslff.tfm
 %%PORTSRC%%share/texmf-dist/source/fonts/zhmetrics/CTeXFonts.lua
+%%PORTSRC%%share/texmf-dist/source/fonts/zhmetrics/ttfonts.map
 %%PORTSRC%%share/texmf-dist/source/fonts/zhmetrics/zhfd.lua
 %%PORTSRC%%share/texmf-dist/source/fonts/zhmetrics/zhtfm.lua
 share/texmf-dist/tex/generic/zhmetrics/zhwinfonts.tex
