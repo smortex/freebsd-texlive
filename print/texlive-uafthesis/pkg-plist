@@ -1,0 +1,27 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/uafthesis/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/uafthesis/bib_styles/agufull08.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/uafthesis/bib_styles/unsrtabbrv3.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/uafthesis/example/abstract.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uafthesis/example/acknowledgements.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uafthesis/example/apx1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uafthesis/example/build.sh
+%%PORTDOCS%%share/texmf-dist/doc/latex/uafthesis/example/ch1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uafthesis/example/ch2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uafthesis/example/ch3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uafthesis/example/custom-macros.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uafthesis/example/example.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/uafthesis/example/example.loa.bk
+%%PORTDOCS%%share/texmf-dist/doc/latex/uafthesis/example/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/uafthesis/example/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uafthesis/example/example.toc.bk
+%%PORTDOCS%%share/texmf-dist/doc/latex/uafthesis/example/fig/fivebatteries.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uafthesis/example/fig/onebattery.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uafthesis/example/quotepage.tex
+share/texmf-dist/tex/latex/uafthesis/uafthesis.cls
+@dirrmtry share/texmf-dist/tex/latex/uafthesis
+@dirrmtry share/texmf-dist/doc/latex/uafthesis/example/fig
+@dirrmtry share/texmf-dist/doc/latex/uafthesis/example
+@dirrmtry share/texmf-dist/doc/latex/uafthesis/bib_styles
+@dirrmtry share/texmf-dist/doc/latex/uafthesis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

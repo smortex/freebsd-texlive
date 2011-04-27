@@ -1,6 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/euro/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/euro/euro.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/euro/euro.txt
-%%PORTSRC%%share/texmf-dist/source/latex/euro/Makefile
 %%PORTSRC%%share/texmf-dist/source/latex/euro/euro.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/euro/euro.ins
 share/texmf-dist/tex/latex/euro/euro.sty

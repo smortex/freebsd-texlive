@@ -1,8 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/eurosans/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/eurosans/eurosans.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/eurosans/eurosans.tex
-share/texmf-dist/tex/latex/eurosans/eurosans.sty
-@dirrmtry share/texmf-dist/tex/latex/eurosans
-@dirrmtry share/texmf-dist/doc/latex/eurosans
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

@@ -95,3 +95,6 @@ print/texlive-beamer-contrib||2011-04-07|Upstream support dropped
 print/texlive-groff||2011-04-08|Upstream support dropped
 print/texlive-script||2011-04-09|Upstream support dropped
 print/texlive-vrsion||2011-04-10|Upstream support dropped
+print/texlive-eurofont||2011-04-27|Upstream support dropped
+print/texlive-eurosans||2011-04-27|Upstream support dropped
+print/texlive-musixflx||2011-04-27|Upstream support dropped

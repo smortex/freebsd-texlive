@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/uni-wtal-ger/LIESMICH
+%%PORTDOCS%%share/texmf-dist/doc/latex/uni-wtal-ger/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/uni-wtal-ger/germanistik.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/uni-wtal-ger/germanistik.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/uni-wtal-ger/germanistik.tex
+share/texmf-dist/tex/latex/uni-wtal-ger/uni-wtal-ger.bbx
+share/texmf-dist/tex/latex/uni-wtal-ger/uni-wtal-ger.cbx
+@dirrmtry share/texmf-dist/tex/latex/uni-wtal-ger
+@dirrmtry share/texmf-dist/doc/latex/uni-wtal-ger
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
