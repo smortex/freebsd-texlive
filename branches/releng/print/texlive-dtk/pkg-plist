@@ -1,4 +1,5 @@
 share/texmf-dist/bibtex/bst/dtk/dtk.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/dtk/Changes
 %%PORTDOCS%%share/texmf-dist/doc/latex/dtk/doc/beispiel.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/dtk/doc/beispiel.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/dtk/doc/beispiel.tex
@@ -26,6 +27,7 @@ share/texmf-dist/tex/latex/dtk/dtklogos.sty
 @dirrmtry share/texmf-dist/makeindex/dtk
 @dirrmtry share/texmf-dist/doc/latex/dtk/historical
 @dirrmtry share/texmf-dist/doc/latex/dtk/doc
+@dirrmtry share/texmf-dist/doc/latex/dtk
 @dirrmtry share/texmf-dist/bibtex/bst/dtk
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
