@@ -1,29 +1,30 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xbase/ldcsetup.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xbase/template-test.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xbase/template-test2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xbase/template.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xbase/tprestrict-test.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xbase/xparse.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xbase/xtemplate.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xcoffins/l3coffins.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xcoffins/xcoffins-test.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xcoffins/xcoffins-tschichold-example-keyval.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xcoffins/xcoffins-tschichold-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xcoffins/xcoffins.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xhead/xhead-test.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xhead/xhead.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xtras/l3keys2e-demo.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xtras/l3keys2e.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/xpackages/xbase/ldcsetup.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/xpackages/xbase/template-test.tex
-%%PORTSRC%%share/texmf-dist/source/latex/xpackages/xbase/template-test2.tex
 %%PORTSRC%%share/texmf-dist/source/latex/xpackages/xbase/template.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/xpackages/xbase/tprestrict-test.tex
 %%PORTSRC%%share/texmf-dist/source/latex/xpackages/xbase/xbase.ins
 %%PORTSRC%%share/texmf-dist/source/latex/xpackages/xbase/xparse.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/xpackages/xbase/xtemplate.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/xpackages/xcoffins/l3coffins.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/xpackages/xcoffins/xcoffins-test.tex
-%%PORTSRC%%share/texmf-dist/source/latex/xpackages/xcoffins/xcoffins-tschichold-example.tex
 %%PORTSRC%%share/texmf-dist/source/latex/xpackages/xcoffins/xcoffins.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/xpackages/xcoffins/xcoffins.ins
-%%PORTSRC%%share/texmf-dist/source/latex/xpackages/xhead/xhead-test.tex
 %%PORTSRC%%share/texmf-dist/source/latex/xpackages/xhead/xhead.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/xpackages/xhead/xhead.ins
-%%PORTSRC%%share/texmf-dist/source/latex/xpackages/xtras/l3keys2e-demo.tex
 %%PORTSRC%%share/texmf-dist/source/latex/xpackages/xtras/l3keys2e.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/xpackages/xtras/l3keys2e.ins
 share/texmf-dist/tex/latex/xpackages/xbase/ldcsetup.sty
@@ -33,7 +34,6 @@ share/texmf-dist/tex/latex/xpackages/xbase/xtemplate.sty
 share/texmf-dist/tex/latex/xpackages/xcoffins/l3coffins.sty
 share/texmf-dist/tex/latex/xpackages/xcoffins/xcoffins.sty
 share/texmf-dist/tex/latex/xpackages/xhead/xhead.sty
-share/texmf-dist/tex/latex/xpackages/xhead/xtextblock.sty
 share/texmf-dist/tex/latex/xpackages/xtras/l3keys2e.sty
 @dirrmtry share/texmf-dist/tex/latex/xpackages/xtras
 @dirrmtry share/texmf-dist/tex/latex/xpackages/xhead
