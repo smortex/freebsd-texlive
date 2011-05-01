@@ -1,0 +1,5 @@
+A simple package providing nuclear sub- and superscripts as
+commonly used in radiochemistry, radiation science, and nuclear
+physics and engineering applications. Isotopes which have Z
+with more digits than A require special spacing to appear
+properly; this spacing is supported in the package.

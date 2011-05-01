@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/nuc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/nuc/nuc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nuc/nuc.tex
+share/texmf-dist/tex/latex/nuc/nuc.sty
+@dirrmtry share/texmf-dist/tex/latex/nuc
+@dirrmtry share/texmf-dist/doc/latex/nuc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
