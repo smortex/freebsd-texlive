@@ -5,7 +5,6 @@
 %%PORTSRC%%share/texmf-dist/source/latex/hrefhide/hrefhide.drv
 %%PORTSRC%%share/texmf-dist/source/latex/hrefhide/hrefhide.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/hrefhide/hrefhide.ins
-%%PORTSRC%%share/texmf-dist/source/latex/hrefhide/ltxdoc.cfg
 share/texmf-dist/tex/latex/hrefhide/hrefhide.sty
 @dirrmtry share/texmf-dist/tex/latex/hrefhide
 @dirrmtry share/texmf-dist/source/latex/hrefhide

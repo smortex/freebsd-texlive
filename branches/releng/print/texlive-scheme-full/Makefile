@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110427
+PORTVERSION=	20110501
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1784,6 +1784,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/mhchem/mhchem.sty:${PORTSDIR}/print/texlive-mhchem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/miller/miller.sty:${PORTSDIR}/print/texlive-miller \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mychemistry/mychemistry.sty:${PORTSDIR}/print/texlive-mychemistry \
+		${LOCALBASE}/share/texmf-dist/tex/latex/nuc/nuc.sty:${PORTSDIR}/print/texlive-nuc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/objectz/oz.sty:${PORTSDIR}/print/texlive-objectz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/physymb/physymb.sty:${PORTSDIR}/print/texlive-physymb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pseudocode/pseudocode.sty:${PORTSDIR}/print/texlive-pseudocode \

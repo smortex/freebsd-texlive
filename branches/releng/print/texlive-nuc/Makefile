@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-hrefhide
-# Date created:		09/21/2010 11:48:02
+# New ports collection makefile for:	texlive-nuc
+# Date created:		05/01/2011 05:10:08
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	hrefhide
+PORTNAME=	nuc
 PORTVERSION=	20110501
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Suppress hyper links when printing.
+COMMENT=	Notation for nuclear isotopes.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
