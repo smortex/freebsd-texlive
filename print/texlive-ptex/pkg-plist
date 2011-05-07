@@ -289,7 +289,6 @@ share/texmf-dist/tex/platex/base/treport.sty
 share/texmf-dist/tex/platex/base/tsize10.clo
 share/texmf-dist/tex/platex/base/tsize11.clo
 share/texmf-dist/tex/platex/base/tsize12.clo
-share/texmf-dist/tex/platex/config/eplatex.ini
 share/texmf-dist/tex/platex/config/hyphen.cfg
 share/texmf-dist/tex/platex/config/platex.ini
 share/texmf-dist/tex/ptex/base/ascii-jplain.tex

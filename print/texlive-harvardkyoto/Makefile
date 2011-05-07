@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	harvardkyoto
-PORTVERSION=	20100922
+PORTVERSION=	20110507
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	XeTeX input map for Unicode Devanagari.
+COMMENT=	The harvardkyoto package
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
