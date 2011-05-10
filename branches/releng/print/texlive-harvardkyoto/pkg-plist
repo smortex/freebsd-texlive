@@ -1,8 +1,0 @@
-share/texmf-dist/fonts/misc/xetex/fontmapping/harvardkyoto/README
-share/texmf-dist/fonts/misc/xetex/fontmapping/harvardkyoto/harvardkyoto.map
-share/texmf-dist/fonts/misc/xetex/fontmapping/harvardkyoto/harvardkyoto.tec
-share/texmf-dist/fonts/misc/xetex/fontmapping/harvardkyoto/iast.map
-share/texmf-dist/fonts/misc/xetex/fontmapping/harvardkyoto/iast.tec
-@dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping/harvardkyoto
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

@@ -6,11 +6,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xbase/tprestrict-test.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xbase/xparse.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xbase/xtemplate.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xcoffins/l3coffins.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xcoffins/xcoffins-test.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xcoffins/xcoffins-tschichold-example-keyval.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xcoffins/xcoffins-tschichold-example.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xcoffins/xcoffins.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xhead/xhead-test.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xhead/xhead.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpackages/xtras/l3keys2e-demo.tex
