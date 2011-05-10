@@ -1,0 +1,8 @@
+share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-devanagari/README
+share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-devanagari/harvardkyoto.map
+share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-devanagari/harvardkyoto.tec
+share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-devanagari/iast.map
+share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-devanagari/iast.tec
+@dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-devanagari
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

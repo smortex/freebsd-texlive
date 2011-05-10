@@ -1,5 +1,9 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/wnri/wnritest.dvi
-%%PORTDOCS%%share/texmf-dist/doc/latex/wnri/wnritest.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wnri/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wnri/old/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wnri/old/barnett.map
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wnri/old/lushucid.map
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wnri/old/newgb.map
+share/texmf-dist/fonts/map/dvips/wnri/wnindic.map
 share/texmf-dist/fonts/source/public/wnri/acctmax.mf
 share/texmf-dist/fonts/source/public/wnri/acutacct.mf
 share/texmf-dist/fonts/source/public/wnri/addpunc.mf
@@ -56,7 +60,6 @@ share/texmf-dist/fonts/source/public/wnri/umlaacct.mf
 share/texmf-dist/fonts/source/public/wnri/urmcacct.mf
 share/texmf-dist/fonts/source/public/wnri/urngacct.mf
 share/texmf-dist/fonts/source/public/wnri/uumlacct.mf
-share/texmf-dist/fonts/source/public/wnri/wnindic.map
 share/texmf-dist/fonts/source/public/wnri/wnrib10.mf
 share/texmf-dist/fonts/source/public/wnri/wnrib8.mf
 share/texmf-dist/fonts/source/public/wnri/wnribi10.mf
@@ -79,18 +82,10 @@ share/texmf-dist/fonts/tfm/public/wnri/wnris10.tfm
 share/texmf-dist/fonts/tfm/public/wnri/wnris8.tfm
 share/texmf-dist/fonts/tfm/public/wnri/wnrit10.tfm
 share/texmf-dist/fonts/tfm/public/wnri/wnrit8.tfm
-%%PORTSRC%%share/texmf-dist/source/latex/wnri/readme.2e
-%%PORTSRC%%share/texmf-dist/source/latex/wnri/wnri.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/wnri/wnri.ins
-share/texmf-dist/tex/latex/wnri/ot1wnr.fd
-share/texmf-dist/tex/latex/wnri/ot1wnss.fd
-share/texmf-dist/tex/latex/wnri/ot1wntt.fd
-share/texmf-dist/tex/latex/wnri/wnri.def
-share/texmf-dist/tex/latex/wnri/wnri.sty
-@dirrmtry share/texmf-dist/tex/latex/wnri
-@dirrmtry share/texmf-dist/source/latex/wnri
 @dirrmtry share/texmf-dist/fonts/tfm/public/wnri
 @dirrmtry share/texmf-dist/fonts/source/public/wnri
-@dirrmtry share/texmf-dist/doc/latex/wnri
+@dirrmtry share/texmf-dist/fonts/map/dvips/wnri
+@dirrmtry share/texmf-dist/doc/fonts/wnri/old
+@dirrmtry share/texmf-dist/doc/fonts/wnri
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
