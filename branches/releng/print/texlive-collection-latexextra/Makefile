@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110427
+PORTVERSION=	20110511
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -709,7 +709,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/shipunov/rusnat.bst:${PORTSDIR}/print/texlive-shipunov \
 		${LOCALBASE}/share/texmf-dist/tex/latex/shorttoc/shorttoc.sty:${PORTSDIR}/print/texlive-shorttoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/show2e/show2e.sty:${PORTSDIR}/print/texlive-show2e \
-		${LOCALBASE}/share/texmf-dist/tex/latex/showdim/showdim.sty:${PORTSDIR}/print/texlive-showdim \
 		${LOCALBASE}/share/texmf-dist/tex/latex/showexpl/showexpl.sty:${PORTSDIR}/print/texlive-showexpl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/showlabels/showlabels.sty:${PORTSDIR}/print/texlive-showlabels \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sidecap/sidecap.sty:${PORTSDIR}/print/texlive-sidecap \
