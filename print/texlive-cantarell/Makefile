@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-droid
-# Date created:		12/26/2010 04:39:13
+# New ports collection makefile for:	texlive-cantarell
+# Date created:		05/11/2011 04:42:30
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	droid
+PORTNAME=	cantarell
 PORTVERSION=	20110511
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX support for the Droid font families.
+COMMENT=	LaTeX support for the Cantarell font family.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

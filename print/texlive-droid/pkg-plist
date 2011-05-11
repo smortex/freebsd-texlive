@@ -2,6 +2,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/droid/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/droid/droid.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/droid/droid.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/droid/droidsans-samples.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/droid/droidsans-samples.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/droid/droidsansmono-samples.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/droid/droidsansmono-samples.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/droid/droidserif-samples.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/droid/droidserif-samples.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/droid/manifest.txt
 share/texmf-dist/fonts/afm/public/droid/DroidSans-Bold.afm
 share/texmf-dist/fonts/afm/public/droid/DroidSans.afm
@@ -637,6 +643,12 @@ share/texmf-dist/fonts/vf/public/droid/x2-DroidSerif-Regular.vf
 %%PORTSRC%%share/texmf-dist/source/droid/droid-reglyph.tex
 %%PORTSRC%%share/texmf-dist/source/droid/droid.pdf
 %%PORTSRC%%share/texmf-dist/source/droid/droid.tex
+%%PORTSRC%%share/texmf-dist/source/droid/droidsans-samples.pdf
+%%PORTSRC%%share/texmf-dist/source/droid/droidsans-samples.tex
+%%PORTSRC%%share/texmf-dist/source/droid/droidsansmono-samples.pdf
+%%PORTSRC%%share/texmf-dist/source/droid/droidsansmono-samples.tex
+%%PORTSRC%%share/texmf-dist/source/droid/droidserif-samples.pdf
+%%PORTSRC%%share/texmf-dist/source/droid/droidserif-samples.tex
 %%PORTSRC%%share/texmf-dist/source/droid/ttf2type1.pe
 share/texmf-dist/tex/latex/droid/droid.sty
 share/texmf-dist/tex/latex/droid/droidmono.sty

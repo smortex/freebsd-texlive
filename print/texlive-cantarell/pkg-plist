@@ -1,0 +1,103 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cantarell/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cantarell/cantarell-samples.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cantarell/cantarell-samples.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cantarell/cantarell.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cantarell/cantarell.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cantarell/manifest.txt
+share/texmf-dist/fonts/afm/public/cantarell/Cantarell-Bold.afm
+share/texmf-dist/fonts/afm/public/cantarell/Cantarell-Regular.afm
+share/texmf-dist/fonts/enc/dvips/cantarell/cantarell-fixlatin.enc
+share/texmf-dist/fonts/enc/dvips/cantarell/cantarell-fixtextcomp.enc
+share/texmf-dist/fonts/enc/dvips/cantarell/cantarell-ot1.enc
+share/texmf-dist/fonts/enc/dvips/cantarell/cantarell-t1.enc
+share/texmf-dist/fonts/enc/dvips/cantarell/cantarell-ts1.enc
+share/texmf-dist/fonts/map/dvips/cantarell/cantarell.map
+share/texmf-dist/fonts/tfm/public/cantarell/ot1-Cantarell-Bold-Slanted-SmallCaps.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/ot1-Cantarell-Bold-Slanted.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/ot1-Cantarell-Bold-SmallCaps.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/ot1-Cantarell-Bold.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/ot1-Cantarell-Regular-Slanted-SmallCaps.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/ot1-Cantarell-Regular-Slanted.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/ot1-Cantarell-Regular-SmallCaps.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/ot1-Cantarell-Regular.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/raw-fixlatin-Cantarell-Bold-Slanted.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/raw-fixlatin-Cantarell-Bold.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/raw-fixlatin-Cantarell-Regular-Slanted.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/raw-fixlatin-Cantarell-Regular.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/raw-fixtextcomp-Cantarell-Bold-Slanted.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/raw-fixtextcomp-Cantarell-Bold.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/raw-fixtextcomp-Cantarell-Regular-Slanted.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/raw-fixtextcomp-Cantarell-Regular.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/raw-ot1-Cantarell-Bold-Slanted.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/raw-ot1-Cantarell-Bold.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/raw-ot1-Cantarell-Regular-Slanted.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/raw-ot1-Cantarell-Regular.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/raw-t1-Cantarell-Bold-Slanted.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/raw-t1-Cantarell-Bold.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/raw-t1-Cantarell-Regular-Slanted.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/raw-t1-Cantarell-Regular.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/raw-ts1-Cantarell-Bold-Slanted.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/raw-ts1-Cantarell-Bold.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/raw-ts1-Cantarell-Regular-Slanted.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/raw-ts1-Cantarell-Regular.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/t1-Cantarell-Bold-Slanted-SmallCaps.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/t1-Cantarell-Bold-Slanted.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/t1-Cantarell-Bold-SmallCaps.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/t1-Cantarell-Bold.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/t1-Cantarell-Regular-Slanted-SmallCaps.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/t1-Cantarell-Regular-Slanted.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/t1-Cantarell-Regular-SmallCaps.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/t1-Cantarell-Regular.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/ts1-Cantarell-Bold-Slanted.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/ts1-Cantarell-Bold.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/ts1-Cantarell-Regular-Slanted.tfm
+share/texmf-dist/fonts/tfm/public/cantarell/ts1-Cantarell-Regular.tfm
+share/texmf-dist/fonts/type1/public/cantarell/Cantarell-Bold.pfb
+share/texmf-dist/fonts/type1/public/cantarell/Cantarell-Regular.pfb
+share/texmf-dist/fonts/vf/public/cantarell/ot1-Cantarell-Bold-Slanted-SmallCaps.vf
+share/texmf-dist/fonts/vf/public/cantarell/ot1-Cantarell-Bold-Slanted.vf
+share/texmf-dist/fonts/vf/public/cantarell/ot1-Cantarell-Bold-SmallCaps.vf
+share/texmf-dist/fonts/vf/public/cantarell/ot1-Cantarell-Bold.vf
+share/texmf-dist/fonts/vf/public/cantarell/ot1-Cantarell-Regular-Slanted-SmallCaps.vf
+share/texmf-dist/fonts/vf/public/cantarell/ot1-Cantarell-Regular-Slanted.vf
+share/texmf-dist/fonts/vf/public/cantarell/ot1-Cantarell-Regular-SmallCaps.vf
+share/texmf-dist/fonts/vf/public/cantarell/ot1-Cantarell-Regular.vf
+share/texmf-dist/fonts/vf/public/cantarell/t1-Cantarell-Bold-Slanted-SmallCaps.vf
+share/texmf-dist/fonts/vf/public/cantarell/t1-Cantarell-Bold-Slanted.vf
+share/texmf-dist/fonts/vf/public/cantarell/t1-Cantarell-Bold-SmallCaps.vf
+share/texmf-dist/fonts/vf/public/cantarell/t1-Cantarell-Bold.vf
+share/texmf-dist/fonts/vf/public/cantarell/t1-Cantarell-Regular-Slanted-SmallCaps.vf
+share/texmf-dist/fonts/vf/public/cantarell/t1-Cantarell-Regular-Slanted.vf
+share/texmf-dist/fonts/vf/public/cantarell/t1-Cantarell-Regular-SmallCaps.vf
+share/texmf-dist/fonts/vf/public/cantarell/t1-Cantarell-Regular.vf
+share/texmf-dist/fonts/vf/public/cantarell/ts1-Cantarell-Bold-Slanted.vf
+share/texmf-dist/fonts/vf/public/cantarell/ts1-Cantarell-Bold.vf
+share/texmf-dist/fonts/vf/public/cantarell/ts1-Cantarell-Regular-Slanted.vf
+share/texmf-dist/fonts/vf/public/cantarell/ts1-Cantarell-Regular.vf
+%%PORTSRC%%share/texmf-dist/source/cantarell/Makefile
+%%PORTSRC%%share/texmf-dist/source/cantarell/README
+%%PORTSRC%%share/texmf-dist/source/cantarell/cantarell-drv.tex
+%%PORTSRC%%share/texmf-dist/source/cantarell/cantarell-fixlatin.etx
+%%PORTSRC%%share/texmf-dist/source/cantarell/cantarell-fixtextcomp.etx
+%%PORTSRC%%share/texmf-dist/source/cantarell/cantarell-map.tex
+%%PORTSRC%%share/texmf-dist/source/cantarell/cantarell-reglyph.tex
+%%PORTSRC%%share/texmf-dist/source/cantarell/cantarell-samples.pdf
+%%PORTSRC%%share/texmf-dist/source/cantarell/cantarell-samples.tex
+%%PORTSRC%%share/texmf-dist/source/cantarell/cantarell.pdf
+%%PORTSRC%%share/texmf-dist/source/cantarell/cantarell.tex
+%%PORTSRC%%share/texmf-dist/source/cantarell/sfd2type1.pe
+share/texmf-dist/tex/latex/cantarell/cantarell.sty
+share/texmf-dist/tex/latex/cantarell/ot1fca.fd
+share/texmf-dist/tex/latex/cantarell/t1fca.fd
+share/texmf-dist/tex/latex/cantarell/ts1fca.fd
+@dirrmtry share/texmf-dist/tex/latex/cantarell
+@dirrmtry share/texmf-dist/source/cantarell
+@dirrmtry share/texmf-dist/fonts/vf/public/cantarell
+@dirrmtry share/texmf-dist/fonts/type1/public/cantarell
+@dirrmtry share/texmf-dist/fonts/tfm/public/cantarell
+@dirrmtry share/texmf-dist/fonts/map/dvips/cantarell
+@dirrmtry share/texmf-dist/fonts/enc/dvips/cantarell
+@dirrmtry share/texmf-dist/fonts/afm/public/cantarell
+@dirrmtry share/texmf-dist/doc/fonts/cantarell
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

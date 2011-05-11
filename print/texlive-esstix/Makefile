@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-droid
-# Date created:		12/26/2010 04:39:13
+# New ports collection makefile for:	texlive-esstix
+# Date created:		05/11/2011 04:43:05
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	droid
+PORTNAME=	esstix
 PORTVERSION=	20110511
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX support for the Droid font families.
+COMMENT=	PostScript versions of the ESSTIX, with macro support.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

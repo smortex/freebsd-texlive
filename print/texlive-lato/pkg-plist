@@ -2,6 +2,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/lato/manifest.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/lato/CHANGES
 %%PORTDOCS%%share/texmf-dist/doc/latex/lato/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/lato/lato-samples.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lato/lato-samples.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/lato/lato.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/lato/lato.tex
 share/texmf-dist/fonts/afm/public/lato/Lato-Black-LCDFJ.afm
@@ -230,6 +232,8 @@ share/texmf-dist/fonts/vf/public/lato/ts1-Lato-Regular.vf
 %%PORTSRC%%share/texmf-dist/source/lato/lato-fixtextcomp.etx
 %%PORTSRC%%share/texmf-dist/source/lato/lato-map.tex
 %%PORTSRC%%share/texmf-dist/source/lato/lato-reglyph.tex
+%%PORTSRC%%share/texmf-dist/source/lato/lato-samples.pdf
+%%PORTSRC%%share/texmf-dist/source/lato/lato-samples.tex
 %%PORTSRC%%share/texmf-dist/source/lato/lato.pdf
 %%PORTSRC%%share/texmf-dist/source/lato/lato.tex
 %%PORTSRC%%share/texmf-dist/source/lato/ttf2type1.pe
