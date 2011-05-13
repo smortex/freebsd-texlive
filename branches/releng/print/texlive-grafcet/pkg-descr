@@ -1,0 +1,5 @@
+The package provides a library (GRAFCET) that can draw
+Grafcet/SFC diagrams, in accordance with EN 60848, using
+Pgf/TikZ. L'objectif de la librairie GRAFCET est de permettre
+le trace de grafcet selon la norme EN~60848 a partir de
+Pgf/TikZ.

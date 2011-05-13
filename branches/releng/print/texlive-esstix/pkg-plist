@@ -54,32 +54,32 @@ share/texmf-dist/fonts/afm/esstix/ESSTIX8_.afm
 share/texmf-dist/fonts/afm/esstix/ESSTIX9_.PFM
 share/texmf-dist/fonts/afm/esstix/ESSTIX9_.afm
 share/texmf-dist/fonts/map/dvips/esstix/ESSTIX.map
-share/texmf-dist/fonts/tfm/stix/esstix/esstixbb.tfm
-share/texmf-dist/fonts/tfm/stix/esstix/esstixcal.tfm
-share/texmf-dist/fonts/tfm/stix/esstix/esstixfrak.tfm
-share/texmf-dist/fonts/tfm/stix/esstix/rESSTIX13.tfm
-share/texmf-dist/fonts/tfm/stix/esstix/rESSTIX14.tfm
-share/texmf-dist/fonts/tfm/stix/esstix/rESSTIX15.tfm
-share/texmf-dist/fonts/type1/stix/esstix/ESSTIX10.pfb
-share/texmf-dist/fonts/type1/stix/esstix/ESSTIX11.pfb
-share/texmf-dist/fonts/type1/stix/esstix/ESSTIX12.pfb
-share/texmf-dist/fonts/type1/stix/esstix/ESSTIX13.pfb
-share/texmf-dist/fonts/type1/stix/esstix/ESSTIX14.pfb
-share/texmf-dist/fonts/type1/stix/esstix/ESSTIX15.pfb
-share/texmf-dist/fonts/type1/stix/esstix/ESSTIX16.pfb
-share/texmf-dist/fonts/type1/stix/esstix/ESSTIX17.pfb
-share/texmf-dist/fonts/type1/stix/esstix/ESSTIX1_.pfb
-share/texmf-dist/fonts/type1/stix/esstix/ESSTIX2_.pfb
-share/texmf-dist/fonts/type1/stix/esstix/ESSTIX3_.pfb
-share/texmf-dist/fonts/type1/stix/esstix/ESSTIX4_.pfb
-share/texmf-dist/fonts/type1/stix/esstix/ESSTIX5_.pfb
-share/texmf-dist/fonts/type1/stix/esstix/ESSTIX6_.pfb
-share/texmf-dist/fonts/type1/stix/esstix/ESSTIX7_.pfb
-share/texmf-dist/fonts/type1/stix/esstix/ESSTIX8_.pfb
-share/texmf-dist/fonts/type1/stix/esstix/ESSTIX9_.pfb
-share/texmf-dist/fonts/vf/stix/esstix/esstixbb.vf
-share/texmf-dist/fonts/vf/stix/esstix/esstixcal.vf
-share/texmf-dist/fonts/vf/stix/esstix/esstixfrak.vf
+share/texmf-dist/fonts/tfm/public/esstix/esstixbb.tfm
+share/texmf-dist/fonts/tfm/public/esstix/esstixcal.tfm
+share/texmf-dist/fonts/tfm/public/esstix/esstixfrak.tfm
+share/texmf-dist/fonts/tfm/public/esstix/rESSTIX13.tfm
+share/texmf-dist/fonts/tfm/public/esstix/rESSTIX14.tfm
+share/texmf-dist/fonts/tfm/public/esstix/rESSTIX15.tfm
+share/texmf-dist/fonts/type1/public/esstix/ESSTIX10.pfb
+share/texmf-dist/fonts/type1/public/esstix/ESSTIX11.pfb
+share/texmf-dist/fonts/type1/public/esstix/ESSTIX12.pfb
+share/texmf-dist/fonts/type1/public/esstix/ESSTIX13.pfb
+share/texmf-dist/fonts/type1/public/esstix/ESSTIX14.pfb
+share/texmf-dist/fonts/type1/public/esstix/ESSTIX15.pfb
+share/texmf-dist/fonts/type1/public/esstix/ESSTIX16.pfb
+share/texmf-dist/fonts/type1/public/esstix/ESSTIX17.pfb
+share/texmf-dist/fonts/type1/public/esstix/ESSTIX1_.pfb
+share/texmf-dist/fonts/type1/public/esstix/ESSTIX2_.pfb
+share/texmf-dist/fonts/type1/public/esstix/ESSTIX3_.pfb
+share/texmf-dist/fonts/type1/public/esstix/ESSTIX4_.pfb
+share/texmf-dist/fonts/type1/public/esstix/ESSTIX5_.pfb
+share/texmf-dist/fonts/type1/public/esstix/ESSTIX6_.pfb
+share/texmf-dist/fonts/type1/public/esstix/ESSTIX7_.pfb
+share/texmf-dist/fonts/type1/public/esstix/ESSTIX8_.pfb
+share/texmf-dist/fonts/type1/public/esstix/ESSTIX9_.pfb
+share/texmf-dist/fonts/vf/public/esstix/esstixbb.vf
+share/texmf-dist/fonts/vf/public/esstix/esstixcal.vf
+share/texmf-dist/fonts/vf/public/esstix/esstixfrak.vf
 share/texmf-dist/tex/latex/esstix/esstixbb.sty
 share/texmf-dist/tex/latex/esstix/esstixcal.sty
 share/texmf-dist/tex/latex/esstix/esstixfrak.sty
@@ -87,9 +87,9 @@ share/texmf-dist/tex/latex/esstix/uesstixbb.fd
 share/texmf-dist/tex/latex/esstix/uesstixcal.fd
 share/texmf-dist/tex/latex/esstix/uesstixfrak.fd
 @dirrmtry share/texmf-dist/tex/latex/esstix
-@dirrmtry share/texmf-dist/fonts/vf/stix/esstix
-@dirrmtry share/texmf-dist/fonts/type1/stix/esstix
-@dirrmtry share/texmf-dist/fonts/tfm/stix/esstix
+@dirrmtry share/texmf-dist/fonts/vf/public/esstix
+@dirrmtry share/texmf-dist/fonts/type1/public/esstix
+@dirrmtry share/texmf-dist/fonts/tfm/public/esstix
 @dirrmtry share/texmf-dist/fonts/map/dvips/esstix
 @dirrmtry share/texmf-dist/fonts/afm/esstix
 @dirrmtry share/texmf-dist/doc/fonts/esstix

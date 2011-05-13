@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/grafcet/grafcet.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/grafcet/grafcet.tex
+share/texmf-dist/tex/latex/grafcet/grafcet.sty
+@dirrmtry share/texmf-dist/tex/latex/grafcet
+@dirrmtry share/texmf-dist/doc/latex/grafcet
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
