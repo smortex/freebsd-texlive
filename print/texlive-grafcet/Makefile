@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-esstix
-# Date created:		05/11/2011 04:43:05
+# New ports collection makefile for:	texlive-grafcet
+# Date created:		05/13/2011 04:49:36
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	esstix
+PORTNAME=	grafcet
 PORTVERSION=	20110513
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	PostScript versions of the ESSTIX, with macro support.
+COMMENT=	Draw Grafcet/SFC with TikZ.
 
 NOPORTSRC=	yes
 
