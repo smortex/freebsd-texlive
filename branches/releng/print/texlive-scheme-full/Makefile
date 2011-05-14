@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110513
+PORTVERSION=	20110514
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1746,6 +1746,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/uiucthesis/uiucthesis.cls:${PORTSDIR}/print/texlive-uiucthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umthesis/umthesis.cls:${PORTSDIR}/print/texlive-umthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umich-thesis/umich-thesis.cls:${PORTSDIR}/print/texlive-umich-thesis \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/unamthesis/UNAMThesis.bst:${PORTSDIR}/print/texlive-unamthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ut-thesis/ut-thesis.cls:${PORTSDIR}/print/texlive-ut-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uothesis/uothesis.cls:${PORTSDIR}/print/texlive-uothesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uowthesis/UoWlogo.eps:${PORTSDIR}/print/texlive-uowthesis \

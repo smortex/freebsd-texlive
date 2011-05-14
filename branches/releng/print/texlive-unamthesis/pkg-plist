@@ -1,0 +1,20 @@
+share/texmf-dist/bibtex/bst/unamthesis/UNAMThesis.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/unamthesis/Escudo-IBT.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/unamthesis/Escudo-IBT.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/unamthesis/Escudo-UNAM.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/unamthesis/Escudo-UNAM.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/unamthesis/LEEME
+%%PORTDOCS%%share/texmf-dist/doc/latex/unamthesis/License
+%%PORTDOCS%%share/texmf-dist/doc/latex/unamthesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/unamthesis/Thesis-Universidad_Nacional_Autonoma_de_Mexico.shl
+%%PORTDOCS%%share/texmf-dist/doc/latex/unamthesis/UNAMThesis.cst
+%%PORTDOCS%%share/texmf-dist/doc/latex/unamthesis/UNAMThesis.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/unamthesis/UNAMThesis.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/unamthesis/UNAMThesisSWP.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/unamthesis/testBib.bib
+share/texmf-dist/tex/latex/unamthesis/UNAMThesis.sty
+@dirrmtry share/texmf-dist/tex/latex/unamthesis
+@dirrmtry share/texmf-dist/doc/latex/unamthesis
+@dirrmtry share/texmf-dist/bibtex/bst/unamthesis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

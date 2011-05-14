@@ -3,11 +3,27 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/MANIFEST.TXT
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/TODO.TXT
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/skb.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/skb/ug-slides-anim.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/skb/ug-slides-noanim.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/skb/ug-slides-notes.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/database/acronyms.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/database/bibliography.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/database/bibtex-styles.bbx
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/database/bibtex/article.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/database/bibtex/book.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/database/bibtex/collection.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/database/bibtex/conference.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/database/bibtex/inbook.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/database/bibtex/incollection.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/database/bibtex/inproceedings.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/database/bibtex/manual.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/database/bibtex/misc.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/database/bibtex/online.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/database/bibtex/proceedings.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/database/bibtex/report.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/database/bibtex/standard.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/database/bibtex/techreport.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/database/bibtex/unpublished.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/examples/example-toc.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/examples/example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/examples/figure-classic.tex
@@ -25,12 +41,29 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/examples/used-options.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/dirtree/baf.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/dirtree/complete.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/dirtree/exa-doc.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/dirtree/publish-art.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/dirtree/publish.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/dirtree/repository.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/dirtree/skb-distribution.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/multiexample/dpe-0.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/multiexample/dpe-1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/multiexample/dpe-10.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/multiexample/dpe-11.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/multiexample/dpe-12.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/multiexample/dpe-13.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/multiexample/dpe-14.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/multiexample/dpe-2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/multiexample/dpe-3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/multiexample/dpe-4.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/multiexample/dpe-5.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/multiexample/dpe-6.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/multiexample/dpe-7.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/multiexample/dpe-8.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/figures/multiexample/dpe-9.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/repository/abstract.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/repository/applicability.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/repository/exa-doc/documentation.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/repository/example-article.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/repository/getting-started/config-cmd.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/repository/getting-started/config-opt-table.tex
@@ -77,6 +110,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/slides/example-art-toc.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/slides/intent.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/slides/manual-acrbib.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/slides/manual-figures-exa.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/slides/manual-figures-exna.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/slides/manual-figures-opt.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/slides/manual-figures.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/slides/manual-haf.tex
@@ -98,7 +133,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/slides/start-distribution.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/slides/start-folders.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/slides/start-installation.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/slides/start-rebuild.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/slides/start-rebuild1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/slides/start-rebuild2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/slides/start-used-options.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/slides/story-long1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/skb/user-guide/slides/story-long2.tex
@@ -118,6 +154,7 @@ share/texmf-dist/tex/latex/skb/skbbeamer.cls
 share/texmf-dist/tex/latex/skb/skbbook.cls
 share/texmf-dist/tex/latex/skb/skblncsbeamer.cls
 share/texmf-dist/tex/latex/skb/skblncsppt.cls
+share/texmf-dist/tex/latex/skb/skbmoderncv.cls
 @dirrmtry share/texmf-dist/tex/latex/skb
 @dirrmtry share/texmf-dist/source/latex/skb
 @dirrmtry share/texmf-dist/doc/latex/skb/user-guide/slides
@@ -125,9 +162,13 @@ share/texmf-dist/tex/latex/skb/skblncsppt.cls
 @dirrmtry share/texmf-dist/doc/latex/skb/user-guide/repository/separate
 @dirrmtry share/texmf-dist/doc/latex/skb/user-guide/repository/manual
 @dirrmtry share/texmf-dist/doc/latex/skb/user-guide/repository/getting-started
+@dirrmtry share/texmf-dist/doc/latex/skb/user-guide/repository/exa-doc
 @dirrmtry share/texmf-dist/doc/latex/skb/user-guide/repository
+@dirrmtry share/texmf-dist/doc/latex/skb/user-guide/figures/multiexample
 @dirrmtry share/texmf-dist/doc/latex/skb/user-guide/figures/dirtree
 @dirrmtry share/texmf-dist/doc/latex/skb/user-guide/examples
+@dirrmtry share/texmf-dist/doc/latex/skb/user-guide/database/bibtex
+@dirrmtry share/texmf-dist/doc/latex/skb/user-guide/database
 @dirrmtry share/texmf-dist/doc/latex/skb/user-guide
 @dirrmtry share/texmf-dist/doc/latex/skb
 @exec %D/bin/mktexlsr
