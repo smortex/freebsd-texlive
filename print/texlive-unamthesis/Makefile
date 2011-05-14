@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-skb
-# Date created:		09/24/2010 04:57:00
+# New ports collection makefile for:	texlive-unamthesis
+# Date created:		05/14/2011 05:07:27
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	skb
+PORTNAME=	unamthesis
 PORTVERSION=	20110514
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Tools for a repository of long-living documents.
+COMMENT=	The unamthesis package
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
