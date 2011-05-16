@@ -1,6 +1,4 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/ChangeLog
-%%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/FAQ
-%%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/INSTALL
 %%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/Makefile.unpacked
 %%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/NEWS
@@ -29,6 +27,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/source/eskdexplan.sty.in
 %%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/source/eskdfont.sty.in
 %%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/source/eskdfootnote.sty.in
+%%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/source/eskdfreesize.sty.in
 %%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/source/eskdgraph.cls.in
 %%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/source/eskdhash.sty.in
 %%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/source/eskdindent.sty.in
@@ -55,8 +54,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/test/drawing-a3-p.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/test/drawing-a3.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/test/drawing-a4.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/test/footnote.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/test/freesizesheets.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/test/general.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/test/general2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/test/numbering.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/test/pagestyle.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/test/spec.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/test/specii.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eskdx/test/twoside.tex
@@ -69,6 +72,7 @@ share/texmf-dist/tex/latex/eskdx/eskddstu.sty
 share/texmf-dist/tex/latex/eskdx/eskdexplan.sty
 share/texmf-dist/tex/latex/eskdx/eskdfont.sty
 share/texmf-dist/tex/latex/eskdx/eskdfootnote.sty
+share/texmf-dist/tex/latex/eskdx/eskdfreesize.sty
 share/texmf-dist/tex/latex/eskdx/eskdgraph.cls
 share/texmf-dist/tex/latex/eskdx/eskdhash.sty
 share/texmf-dist/tex/latex/eskdx/eskdindent.sty

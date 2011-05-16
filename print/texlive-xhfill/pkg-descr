@@ -1,0 +1,3 @@
+The package provides extended macros for the default \hrulefill
+command. It allows modification of the width and the colour of
+the line.
