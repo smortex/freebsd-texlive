@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-tetex
-PORTVERSION=	20110513
+PORTVERSION=	20110516
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -245,7 +245,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/layaureo/layaureo.sty:${PORTSDIR}/print/texlive-layaureo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mongolian-babel/mn.def:${PORTSDIR}/print/texlive-mongolian-babel \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/montex/mongolian.map:${PORTSDIR}/print/texlive-montex \
-		${LOCALBASE}/share/texmf-dist/tex/latex/soyombo/soyombo.sty:${PORTSDIR}/print/texlive-soyombo \
 		${LOCALBASE}/share/texmf/tex/generic/hyphen/copthyph.tex:${PORTSDIR}/print/texlive-hyphen-coptic \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cc-pl/ccpl.map:${PORTSDIR}/print/texlive-cc-pl \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/gustlib/plbib.bib:${PORTSDIR}/print/texlive-gustlib \

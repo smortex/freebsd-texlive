@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/xhfill/Changes
+%%PORTDOCS%%share/texmf-dist/doc/latex/xhfill/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/xhfill/xhfill-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xhfill/xhfill-doc.tex
+share/texmf-dist/tex/latex/xhfill/xhfill.sty
+@dirrmtry share/texmf-dist/tex/latex/xhfill
+@dirrmtry share/texmf-dist/doc/latex/xhfill
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

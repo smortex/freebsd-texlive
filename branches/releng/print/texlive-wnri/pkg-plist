@@ -3,7 +3,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/wnri/old/barnett.map
 %%PORTDOCS%%share/texmf-dist/doc/fonts/wnri/old/lushucid.map
 %%PORTDOCS%%share/texmf-dist/doc/fonts/wnri/old/newgb.map
-share/texmf-dist/fonts/map/dvips/wnri/wnindic.map
 share/texmf-dist/fonts/source/public/wnri/acctmax.mf
 share/texmf-dist/fonts/source/public/wnri/acutacct.mf
 share/texmf-dist/fonts/source/public/wnri/addpunc.mf
@@ -60,6 +59,7 @@ share/texmf-dist/fonts/source/public/wnri/umlaacct.mf
 share/texmf-dist/fonts/source/public/wnri/urmcacct.mf
 share/texmf-dist/fonts/source/public/wnri/urngacct.mf
 share/texmf-dist/fonts/source/public/wnri/uumlacct.mf
+share/texmf-dist/fonts/source/public/wnri/wnindic.map
 share/texmf-dist/fonts/source/public/wnri/wnrib10.mf
 share/texmf-dist/fonts/source/public/wnri/wnrib8.mf
 share/texmf-dist/fonts/source/public/wnri/wnribi10.mf
@@ -84,7 +84,6 @@ share/texmf-dist/fonts/tfm/public/wnri/wnrit10.tfm
 share/texmf-dist/fonts/tfm/public/wnri/wnrit8.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/wnri
 @dirrmtry share/texmf-dist/fonts/source/public/wnri
-@dirrmtry share/texmf-dist/fonts/map/dvips/wnri
 @dirrmtry share/texmf-dist/doc/fonts/wnri/old
 @dirrmtry share/texmf-dist/doc/fonts/wnri
 @exec %D/bin/mktexlsr

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-langmongolian
-PORTVERSION=	20101215
+PORTVERSION=	20110516
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -46,8 +46,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf/scripts/texlive/tlmgr.pl:${PORTSDIR}/print/texlive-texlive.infra \
 		${LOCALBASE}/share/texmf/xdvi/XDvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mongolian-babel/mn.def:${PORTSDIR}/print/texlive-mongolian-babel \
-		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/montex/mongolian.map:${PORTSDIR}/print/texlive-montex \
-		${LOCALBASE}/share/texmf-dist/tex/latex/soyombo/soyombo.sty:${PORTSDIR}/print/texlive-soyombo
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/montex/mongolian.map:${PORTSDIR}/print/texlive-montex
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes

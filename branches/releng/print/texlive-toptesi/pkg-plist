@@ -53,7 +53,6 @@ share/texmf-dist/tex/latex/toptesi/topsiz14.clo
 share/texmf-dist/tex/latex/toptesi/toptesi.cfg
 share/texmf-dist/tex/latex/toptesi/toptesi.cls
 share/texmf-dist/tex/latex/toptesi/toptesi.sty
-share/texmf-dist/tex/latex/toptesi/trieste.sty
 @dirrmtry share/texmf-dist/tex/latex/toptesi
 @dirrmtry share/texmf-dist/source/latex/toptesi
 @dirrmtry share/texmf-dist/doc/latex/toptesi

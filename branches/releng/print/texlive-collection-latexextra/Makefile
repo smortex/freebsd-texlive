@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110513
+PORTVERSION=	20110516
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -513,6 +513,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/manuscript/manuscript.sty:${PORTSDIR}/print/texlive-manuscript \
 		${LOCALBASE}/share/texmf-dist/tex/latex/marginfix/marginfix.sty:${PORTSDIR}/print/texlive-marginfix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/marginnote/marginnote.sty:${PORTSDIR}/print/texlive-marginnote \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mathalfa/mathalfa.sty:${PORTSDIR}/print/texlive-mathalfa \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathastext/mathastext.sty:${PORTSDIR}/print/texlive-mathastext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathexam/mathexam.sty:${PORTSDIR}/print/texlive-mathexam \
 		${LOCALBASE}/share/texmf-dist/tex/latex/maybemath/maybemath.sty:${PORTSDIR}/print/texlive-maybemath \
@@ -863,6 +864,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/xargs/xargs.sty:${PORTSDIR}/print/texlive-xargs \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/xbmc/xbmc10.mf:${PORTSDIR}/print/texlive-xbmc \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xcomment/xcomment.sty:${PORTSDIR}/print/texlive-xcomment \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xhfill/xhfill.sty:${PORTSDIR}/print/texlive-xhfill \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xtab/xtab.sty:${PORTSDIR}/print/texlive-xtab \
 		${LOCALBASE}/share/texmf-dist/makeindex/xdoc/docindex.ist:${PORTSDIR}/print/texlive-xdoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xfor/xfor.sty:${PORTSDIR}/print/texlive-xfor \

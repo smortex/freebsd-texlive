@@ -1,6 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tablenotes/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/tablenotes/mynotes.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tablenotes/mynotes.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tablenotes/test.pdf
 share/texmf-dist/tex/latex/tablenotes/mynotes.sty
 @dirrmtry share/texmf-dist/tex/latex/tablenotes
 @dirrmtry share/texmf-dist/doc/latex/tablenotes

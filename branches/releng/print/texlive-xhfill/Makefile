@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-tablenotes
-# Date created:		13/03/2010 04:49:48
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-xhfill
+# Date created:		05/16/2011 05:06:52
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	tablenotes
+PORTNAME=	xhfill
 PORTVERSION=	20110516
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Notes in tables or images.
+COMMENT=	Extending \hrulefill.
 
 NOPORTSRC=	yes
 
