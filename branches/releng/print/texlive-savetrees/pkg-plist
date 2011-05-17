@@ -1,6 +1,5 @@
 share/texmf-dist/bibtex/bst/savetrees/savetrees.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/savetrees/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/savetrees/makethin.pl
 %%PORTDOCS%%share/texmf-dist/doc/latex/savetrees/savetrees.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/savetrees/savetrees.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/savetrees/savetrees.ins

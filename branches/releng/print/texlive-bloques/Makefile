@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-systeme
-# Date created:		03/03/2011 04:46:26
+# New ports collection makefile for:	texlive-bloques
+# Date created:		05/17/2011 04:53:25
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	systeme
+PORTNAME=	bloques
 PORTVERSION=	20110517
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Format systems of equations.
+COMMENT=	Generate control diagrams.
 
 NOPORTSRC=	yes
 

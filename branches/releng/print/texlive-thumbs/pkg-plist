@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/thumbs/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/thumbs/thumbs-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/thumbs/thumbs-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/thumbs/thumbs.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/thumbs/thumbs.drv
+%%PORTSRC%%share/texmf-dist/source/latex/thumbs/thumbs.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/thumbs/thumbs.ins
+share/texmf-dist/tex/latex/thumbs/thumbs.sty
+@dirrmtry share/texmf-dist/tex/latex/thumbs
+@dirrmtry share/texmf-dist/source/latex/thumbs
+@dirrmtry share/texmf-dist/doc/latex/thumbs
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
