@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110516
+PORTVERSION=	20110517
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -74,6 +74,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/asyfig/asyfig.sty:${PORTSDIR}/print/texlive-asyfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/autoarea/autoarea.sty:${PORTSDIR}/print/texlive-autoarea \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bardiag/bardiag.sty:${PORTSDIR}/print/texlive-bardiag \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bloques/bloques.sty:${PORTSDIR}/print/texlive-bloques \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bodegraph/bodegraph.sty:${PORTSDIR}/print/texlive-bodegraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bondgraph/bondgraph.sty:${PORTSDIR}/print/texlive-bondgraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cachepic/cachepic.sty:${PORTSDIR}/print/texlive-cachepic \
@@ -796,6 +797,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/thinsp/thinsp.sty:${PORTSDIR}/print/texlive-thinsp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/thmtools/thmtools.sty:${PORTSDIR}/print/texlive-thmtools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/thumb/thumb.sty:${PORTSDIR}/print/texlive-thumb \
+		${LOCALBASE}/share/texmf-dist/tex/latex/thumbs/thumbs.sty:${PORTSDIR}/print/texlive-thumbs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/thumby/thumby.sty:${PORTSDIR}/print/texlive-thumby \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ticket/ticket.sty:${PORTSDIR}/print/texlive-ticket \
 		${LOCALBASE}/share/texmf-dist/tex/latex/timesht/timesht.cls:${PORTSDIR}/print/texlive-timesht \

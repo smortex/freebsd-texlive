@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110516
+PORTVERSION=	20110517
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -617,6 +617,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/asyfig/asyfig.sty:${PORTSDIR}/print/texlive-asyfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/autoarea/autoarea.sty:${PORTSDIR}/print/texlive-autoarea \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bardiag/bardiag.sty:${PORTSDIR}/print/texlive-bardiag \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bloques/bloques.sty:${PORTSDIR}/print/texlive-bloques \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bodegraph/bodegraph.sty:${PORTSDIR}/print/texlive-bodegraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bondgraph/bondgraph.sty:${PORTSDIR}/print/texlive-bondgraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cachepic/cachepic.sty:${PORTSDIR}/print/texlive-cachepic \
@@ -1339,6 +1340,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/thinsp/thinsp.sty:${PORTSDIR}/print/texlive-thinsp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/thmtools/thmtools.sty:${PORTSDIR}/print/texlive-thmtools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/thumb/thumb.sty:${PORTSDIR}/print/texlive-thumb \
+		${LOCALBASE}/share/texmf-dist/tex/latex/thumbs/thumbs.sty:${PORTSDIR}/print/texlive-thumbs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/thumby/thumby.sty:${PORTSDIR}/print/texlive-thumby \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ticket/ticket.sty:${PORTSDIR}/print/texlive-ticket \
 		${LOCALBASE}/share/texmf-dist/tex/latex/timesht/timesht.cls:${PORTSDIR}/print/texlive-timesht \
@@ -1768,6 +1770,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemcompounds/chemcompounds.sty:${PORTSDIR}/print/texlive-chemcompounds \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemcono/chemcono.sty:${PORTSDIR}/print/texlive-chemcono \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemexec/chemexec.sty:${PORTSDIR}/print/texlive-chemexec \
+		${LOCALBASE}/share/texmf-dist/tex/latex/chemmacros/chemmacros.sty:${PORTSDIR}/print/texlive-chemmacros \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemstyle/chemstyle.sty:${PORTSDIR}/print/texlive-chemstyle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/clrscode/clrscode.sty:${PORTSDIR}/print/texlive-clrscode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/complexity/complexity.sty:${PORTSDIR}/print/texlive-complexity \

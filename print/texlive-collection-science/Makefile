@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-science
-PORTVERSION=	20110501
+PORTVERSION=	20110517
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -26,6 +26,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIstyle/sistyle.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemcompounds/chemcompounds.sty:${PORTSDIR}/print/texlive-chemcompounds \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemcono/chemcono.sty:${PORTSDIR}/print/texlive-chemcono \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemexec/chemexec.sty:${PORTSDIR}/print/texlive-chemexec \
+		${LOCALBASE}/share/texmf-dist/tex/latex/chemmacros/chemmacros.sty:${PORTSDIR}/print/texlive-chemmacros \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemstyle/chemstyle.sty:${PORTSDIR}/print/texlive-chemstyle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/clrscode/clrscode.sty:${PORTSDIR}/print/texlive-clrscode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/complexity/complexity.sty:${PORTSDIR}/print/texlive-complexity \

@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-systeme
-# Date created:		03/03/2011 04:46:26
+# New ports collection makefile for:	texlive-chemmacros
+# Date created:		05/17/2011 05:13:09
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	systeme
+PORTNAME=	chemmacros
 PORTVERSION=	20110517
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Format systems of equations.
+COMMENT=	A collection of macros to support typesetting chemistry documents.
 
 NOPORTSRC=	yes
 
