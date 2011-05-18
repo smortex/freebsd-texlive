@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	unamthesis
-PORTVERSION=	20110514
+PORTVERSION=	20110518
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The unamthesis package
+COMMENT=	Style for Universidad Nacional Autonoma de Mexico theses.
 
 NOPORTSRC=	yes
 
