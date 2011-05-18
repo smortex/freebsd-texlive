@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	biblatex-philosophy
-PORTVERSION=	20101123
+PORTVERSION=	20110518
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
