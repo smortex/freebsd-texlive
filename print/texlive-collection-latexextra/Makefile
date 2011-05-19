@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110517
+PORTVERSION=	20110519
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -230,6 +230,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/changes/changes.sty:${PORTSDIR}/print/texlive-changes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chappg/chappg.sty:${PORTSDIR}/print/texlive-chappg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chapterfolder/chapterfolder.sty:${PORTSDIR}/print/texlive-chapterfolder \
+		${LOCALBASE}/share/texmf-dist/tex/latex/chet/chet.cls:${PORTSDIR}/print/texlive-chet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chextras/chextras.sty:${PORTSDIR}/print/texlive-chextras \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chletter/chletter.cls:${PORTSDIR}/print/texlive-chletter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chngcntr/chngcntr.sty:${PORTSDIR}/print/texlive-chngcntr \
@@ -673,6 +674,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/refstyle/refstyle.sty:${PORTSDIR}/print/texlive-refstyle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/regcount/regcount.sty:${PORTSDIR}/print/texlive-regcount \
 		${LOCALBASE}/share/texmf-dist/tex/latex/register/register.sty:${PORTSDIR}/print/texlive-register \
+		${LOCALBASE}/share/texmf-dist/tex/latex/regstats/regstats.sty:${PORTSDIR}/print/texlive-regstats \
 		${LOCALBASE}/share/texmf-dist/tex/latex/relenc/relenc.sty:${PORTSDIR}/print/texlive-relenc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/relsize/relsize.sty:${PORTSDIR}/print/texlive-relsize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/repeatindex/repeatindex.sty:${PORTSDIR}/print/texlive-repeatindex \

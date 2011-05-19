@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/regstats/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/regstats/regstats-example.log
+%%PORTDOCS%%share/texmf-dist/doc/latex/regstats/regstats-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/regstats/regstats-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/regstats/regstats.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/regstats/regstats.drv
+%%PORTSRC%%share/texmf-dist/source/latex/regstats/regstats.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/regstats/regstats.ins
+share/texmf-dist/tex/latex/regstats/regstats.sty
+@dirrmtry share/texmf-dist/tex/latex/regstats
+@dirrmtry share/texmf-dist/source/latex/regstats
+@dirrmtry share/texmf-dist/doc/latex/regstats
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

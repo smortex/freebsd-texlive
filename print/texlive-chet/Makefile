@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-grafcet
-# Date created:		05/13/2011 04:49:36
+# New ports collection makefile for:	texlive-chet
+# Date created:		05/19/2011 04:56:09
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	grafcet
+PORTNAME=	chet
 PORTVERSION=	20110519
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw Grafcet/SFC with TikZ.
+COMMENT=	The chet package
 
 NOPORTSRC=	yes
 
