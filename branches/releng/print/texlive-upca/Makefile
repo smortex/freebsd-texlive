@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-grafcet
-# Date created:		05/13/2011 04:49:36
+# New ports collection makefile for:	texlive-upca
+# Date created:		05/19/2011 04:49:04
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	grafcet
+PORTNAME=	upca
 PORTVERSION=	20110519
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw Grafcet/SFC with TikZ.
+COMMENT=	The upca package
 
 NOPORTSRC=	yes
 

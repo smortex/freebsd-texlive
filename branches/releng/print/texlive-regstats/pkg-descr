@@ -1,0 +1,4 @@
+The package will report number of used registers (counter,
+dimen, skip, muskip, box, token, input, output, math families,
+languages, insertions), and will compare the number to the
+maximum available number of such registers.

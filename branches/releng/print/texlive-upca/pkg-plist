@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/upca/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/upca/test-upca.tex
+share/texmf-dist/tex/generic/upca/upca.tex
+@dirrmtry share/texmf-dist/tex/generic/upca
+@dirrmtry share/texmf-dist/doc/generic/upca
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
