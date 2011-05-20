@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	chet
-PORTVERSION=	20110519
+PORTVERSION=	20110520
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The chet package
+COMMENT=	LaTeX class inspired by harvmac.
 
 NOPORTSRC=	yes
 
