@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110519
+PORTVERSION=	20110522
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -834,7 +834,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/uebungsblatt/uebungsblatt.cls:${PORTSDIR}/print/texlive-uebungsblatt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umoline/umoline.sty:${PORTSDIR}/print/texlive-umoline \
 		${LOCALBASE}/share/texmf-dist/tex/latex/underlin/underlin.sty:${PORTSDIR}/print/texlive-underlin \
-		${LOCALBASE}/share/texmf-dist/tex/latex/undertilde/undertilde.sty:${PORTSDIR}/print/texlive-undertilde \
 		${LOCALBASE}/share/texmf-dist/tex/latex/undolabl/undolabl.sty:${PORTSDIR}/print/texlive-undolabl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/units/units.sty:${PORTSDIR}/print/texlive-units \
 		${LOCALBASE}/share/texmf-dist/tex/latex/upmethodology/upmethodology-backpage.sty:${PORTSDIR}/print/texlive-upmethodology \
