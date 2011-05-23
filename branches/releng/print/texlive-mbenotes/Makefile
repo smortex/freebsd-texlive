@@ -1,12 +1,12 @@
-# New ports collection makefile for:	texlive-tablenotes
-# Date created:		13/03/2010 04:49:48
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-mbenotes
+# Date created:		05/23/2011 05:00:49
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	tablenotes
-PORTVERSION=	20110516
+PORTNAME=	mbenotes
+PORTVERSION=	20110523
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

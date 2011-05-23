@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110522
+PORTVERSION=	20110523
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -519,6 +519,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathastext/mathastext.sty:${PORTSDIR}/print/texlive-mathastext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathexam/mathexam.sty:${PORTSDIR}/print/texlive-mathexam \
 		${LOCALBASE}/share/texmf-dist/tex/latex/maybemath/maybemath.sty:${PORTSDIR}/print/texlive-maybemath \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mbenotes/mbenotes.sty:${PORTSDIR}/print/texlive-mbenotes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mcaption/mcaption.sty:${PORTSDIR}/print/texlive-mcaption \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mceinleger/mceinleger.sty:${PORTSDIR}/print/texlive-mceinleger \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mcite/mcite.sty:${PORTSDIR}/print/texlive-mcite \
@@ -766,7 +767,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/syntrace/syntrace.sty:${PORTSDIR}/print/texlive-syntrace \
 		${LOCALBASE}/share/texmf-dist/tex/latex/synttree/synttree.sty:${PORTSDIR}/print/texlive-synttree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tableaux/minimum.sty:${PORTSDIR}/print/texlive-tableaux \
-		${LOCALBASE}/share/texmf-dist/tex/latex/tablenotes/mynotes.sty:${PORTSDIR}/print/texlive-tablenotes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tablists/tablists.sty:${PORTSDIR}/print/texlive-tablists \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabls/tabls.sty:${PORTSDIR}/print/texlive-tabls \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabto-ltx/tabto.sty:${PORTSDIR}/print/texlive-tabto-ltx \
