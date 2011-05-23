@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/mbenotes/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/mbenotes/mbe.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mbenotes/mbenotes.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mbenotes/mbenotes.tex
+share/texmf-dist/tex/latex/mbenotes/mbenotes.sty
+@dirrmtry share/texmf-dist/tex/latex/mbenotes
+@dirrmtry share/texmf-dist/doc/latex/mbenotes
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

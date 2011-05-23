@@ -1,0 +1,4 @@
+The package defines a command \tabnote, which stores notes for
+later processing by the command \thetabnotes, and a
+corresponding \imgnote for images. The package is derived from
+mechanisms in the package endnotes.
