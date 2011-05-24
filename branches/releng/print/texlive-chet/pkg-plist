@@ -1,7 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/chet/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/chet/chetdoc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/chet/chetdoc.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/chet/chetmacros.txt
 share/texmf-dist/tex/latex/chet/chet.cls
 @dirrmtry share/texmf-dist/tex/latex/chet
 @dirrmtry share/texmf-dist/doc/latex/chet

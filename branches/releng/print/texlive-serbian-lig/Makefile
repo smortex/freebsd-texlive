@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-fdsymbol
-# Date created:		05/11/2011 04:43:08
+# New ports collection makefile for:	texlive-serbian-lig
+# Date created:		05/24/2011 05:01:00
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	fdsymbol
+PORTNAME=	serbian-lig
 PORTVERSION=	20110524
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A maths symbol font.
+COMMENT=	Control ligatures in Serbian.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
