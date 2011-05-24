@@ -1,11 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wadalab/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/wadalab/dgj/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/wadalab/dmj/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/wadalab/mc2j/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/wadalab/mcj/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/wadalab/mr2j/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/wadalab/mrj/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/wadalab/wadalab-sampler.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/wadalab/wadalab-sampler.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wadalab/wadalab-sampler.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wadalab/wadalab-sampler.tex
 share/texmf-dist/fonts/afm/wadalab/dgj/dgjgreek.afm
 share/texmf-dist/fonts/afm/wadalab/dgj/dgjhira.afm
 share/texmf-dist/fonts/afm/wadalab/dgj/dgjhw.afm
@@ -1329,12 +1330,12 @@ share/texmf-dist/fonts/vf/wadalab/umrj/umrjff.vf
 @dirrmtry share/texmf-dist/fonts/afm/wadalab/mc2j
 @dirrmtry share/texmf-dist/fonts/afm/wadalab/dmj
 @dirrmtry share/texmf-dist/fonts/afm/wadalab/dgj
-@dirrmtry share/texmf-dist/doc/latex/wadalab
 @dirrmtry share/texmf-dist/doc/fonts/wadalab/mrj
 @dirrmtry share/texmf-dist/doc/fonts/wadalab/mr2j
 @dirrmtry share/texmf-dist/doc/fonts/wadalab/mcj
 @dirrmtry share/texmf-dist/doc/fonts/wadalab/mc2j
 @dirrmtry share/texmf-dist/doc/fonts/wadalab/dmj
 @dirrmtry share/texmf-dist/doc/fonts/wadalab/dgj
+@dirrmtry share/texmf-dist/doc/fonts/wadalab
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

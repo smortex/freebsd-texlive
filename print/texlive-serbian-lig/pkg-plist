@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/serbian-lig/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/serbian-lig/lig-list.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/serbian-lig/lig-list.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/serbian-lig/serbian-lig.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/serbian-lig/serbian-lig.tex
+share/texmf-dist/tex/latex/serbian-lig/serbian-lig.sty
+@dirrmtry share/texmf-dist/tex/latex/serbian-lig
+@dirrmtry share/texmf-dist/doc/latex/serbian-lig
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

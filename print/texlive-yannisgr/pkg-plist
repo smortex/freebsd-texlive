@@ -1,12 +1,16 @@
-%%PORTDOCS%%share/texmf-dist/doc/plain/yannisgr/00changes.txt
-%%PORTDOCS%%share/texmf-dist/doc/plain/yannisgr/00readme.txt
-%%PORTDOCS%%share/texmf-dist/doc/plain/yannisgr/monsyl.txt
-%%PORTDOCS%%share/texmf-dist/doc/plain/yannisgr/rgr.readme
-%%PORTDOCS%%share/texmf-dist/doc/plain/yannisgr/rgreekmacros.tex
-%%PORTDOCS%%share/texmf-dist/doc/plain/yannisgr/rgrhyph.tex
-%%PORTDOCS%%share/texmf-dist/doc/plain/yannisgr/rgrpaper.tex
-%%PORTDOCS%%share/texmf-dist/doc/plain/yannisgr/rgrtestfont.tex
-%%PORTDOCS%%share/texmf-dist/doc/plain/yannisgr/tomakeformat.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/yannisgr/00changes.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/yannisgr/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/yannisgr/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/fonts/yannisgr/monsyl.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/yannisgr/rgreekmacros.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/yannisgr/rgrhyph.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/yannisgr/rgrpaper.lis
+%%PORTDOCS%%share/texmf-dist/doc/fonts/yannisgr/rgrpaper.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/yannisgr/rgrsc10.300gf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/yannisgr/rgrsc10.lis
+%%PORTDOCS%%share/texmf-dist/doc/fonts/yannisgr/rgrsc10.pl
+%%PORTDOCS%%share/texmf-dist/doc/fonts/yannisgr/rgrtestfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/yannisgr/tomakeformat.txt
 share/texmf-dist/fonts/source/public/yannisgr/csc_misce.mf
 share/texmf-dist/fonts/source/public/yannisgr/gen_m_acc.mf
 share/texmf-dist/fonts/source/public/yannisgr/greekcsc.mf
@@ -34,7 +38,17 @@ share/texmf-dist/fonts/source/public/yannisgr/rgrsl10.mf
 share/texmf-dist/fonts/source/public/yannisgr/rgrti10.mf
 share/texmf-dist/fonts/source/public/yannisgr/rgrupper.mf
 share/texmf-dist/fonts/source/public/yannisgr/scsc.mf
+share/texmf-dist/fonts/tfm/public/yannisgr/mrgrbf10.tfm
+share/texmf-dist/fonts/tfm/public/yannisgr/mrgrrg10.tfm
+share/texmf-dist/fonts/tfm/public/yannisgr/mrgrsl10.tfm
+share/texmf-dist/fonts/tfm/public/yannisgr/mrgrti10.tfm
+share/texmf-dist/fonts/tfm/public/yannisgr/rgrbf10.tfm
+share/texmf-dist/fonts/tfm/public/yannisgr/rgrrg10.tfm
+share/texmf-dist/fonts/tfm/public/yannisgr/rgrsc10.tfm
+share/texmf-dist/fonts/tfm/public/yannisgr/rgrsl10.tfm
+share/texmf-dist/fonts/tfm/public/yannisgr/rgrti10.tfm
+@dirrmtry share/texmf-dist/fonts/tfm/public/yannisgr
 @dirrmtry share/texmf-dist/fonts/source/public/yannisgr
-@dirrmtry share/texmf-dist/doc/plain/yannisgr
+@dirrmtry share/texmf-dist/doc/fonts/yannisgr
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
