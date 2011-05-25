@@ -1,5 +1,5 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/ccicons/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/ccicons/ccicons.pdf
+share/texmf-dist/fonts/afm/public/ccicons/ccicons.afm
 share/texmf-dist/fonts/enc/dvips/ccicons/ccicons-u.enc
 share/texmf-dist/fonts/map/dvips/ccicons/ccicons.map
 share/texmf-dist/fonts/tfm/public/ccicons/ccicons.tfm
@@ -14,6 +14,7 @@ share/texmf-dist/tex/latex/ccicons/uccicons.fd
 @dirrmtry share/texmf-dist/fonts/tfm/public/ccicons
 @dirrmtry share/texmf-dist/fonts/map/dvips/ccicons
 @dirrmtry share/texmf-dist/fonts/enc/dvips/ccicons
+@dirrmtry share/texmf-dist/fonts/afm/public/ccicons
 @dirrmtry share/texmf-dist/doc/latex/ccicons
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

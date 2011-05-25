@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110524
+PORTVERSION=	20110525
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -991,6 +991,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/idxlayout/idxlayout.sty:${PORTSDIR}/print/texlive-idxlayout \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifmslide/ifmslide.sty:${PORTSDIR}/print/texlive-ifmslide \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty:${PORTSDIR}/print/texlive-ifmtarg \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ifnextok/ifnextok.sty:${PORTSDIR}/print/texlive-ifnextok \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifplatform/ifplatform.sty:${PORTSDIR}/print/texlive-ifplatform \
 		${LOCALBASE}/share/texmf-dist/tex/latex/image-gallery/image-gallery.cls:${PORTSDIR}/print/texlive-image-gallery \
 		${LOCALBASE}/share/texmf-dist/tex/latex/imakeidx/imakeidx.sty:${PORTSDIR}/print/texlive-imakeidx \
@@ -1252,7 +1253,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/serbian-lig/serbian-lig.sty:${PORTSDIR}/print/texlive-serbian-lig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sf298/sf298.sty:${PORTSDIR}/print/texlive-sf298 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sffms/sffms.cls:${PORTSDIR}/print/texlive-sffms \
-		${LOCALBASE}/share/texmf-dist/tex/latex/sfheaders/sfheaders.sty:${PORTSDIR}/print/texlive-sfheaders \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sfmath/sfmath.sty:${PORTSDIR}/print/texlive-sfmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/shadow/shadow.sty:${PORTSDIR}/print/texlive-shadow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/shadethm/shadethm.sty:${PORTSDIR}/print/texlive-shadethm \

@@ -1,6 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/sfheaders/README
-share/texmf-dist/tex/latex/sfheaders/sfheaders.sty
-@dirrmtry share/texmf-dist/tex/latex/sfheaders
-@dirrmtry share/texmf-dist/doc/latex/sfheaders
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
