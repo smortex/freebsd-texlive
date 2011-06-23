@@ -63,7 +63,6 @@ print/texlive-mxd||2010-12-19|Upstream support dropped
 print/texlive-shadbox||2010-12-21|Upstream support dropped
 print/texlive-sprite||2010-12-21|Upstream support dropped
 print/texlive-tracking||2010-12-21|Upstream support dropped
-print/texlive-tree-dvips||2010-12-21|Upstream support dropped
 print/texlive-jhep||2010-12-24|Upstream support dropped
 print/texlive-ucharclasses||2010-12-25|Upstream support dropped
 print/texlive-acmtrans||2011-01-08|Upstream support dropped
@@ -81,7 +80,6 @@ print/texlive-luaindex||2011-02-21|Upstream support dropped
 print/texlive-osmanian||2011-02-22|Upstream support dropped
 print/texlive-timing||2011-03-01|Upstream support dropped
 print/texlive-vector||2011-03-03|Upstream support dropped
-print/texlive-mychemistry||2011-03-04|Upstream support dropped
 print/texlive-cmcyralt||2011-03-06|Upstream support dropped
 print/texlive-mff||2011-03-11|Upstream support dropped
 print/texlive-multibox||2011-03-24|Upstream support dropped
