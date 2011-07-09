@@ -1,5 +1,7 @@
 #summary How to install TeXLive on FreeBSD.
 #labels Featured,Phase-Deploy
+#sidebar TableOfContents
+
 
 = How to install TeXLive on FreeBSD =
 
@@ -30,3 +32,13 @@ shell> make
 }}}
 
 You should update your ports quite often since TeXLive tarballs are updated daily.  A crontab will hopefully do it for you while you sleep
+
+= Custom PREFIX =
+
+As suggested in Issue 17, it is possible to install TeXLive ports under a custom PREFIX to avoid clashes with teTeX.  This can be achieved my modifying `/etc/make.conf`:
+
+{{{
+.if (!empty(.CURDIR:M/usr/ports/print/texlive-*))
+PREFIX=         /usr/local/texlive
+.endif
+}}}
