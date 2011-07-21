@@ -1,15 +1,19 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/doc/TKZdoc-linknodes-us.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/doc/TKZdoc-linknodes-us.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/doc/equation.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/doc/equation.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/doc/quadratic.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/doc/quadratic.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/doc/system.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/doc/system.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/examples/equation.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/examples/latex/equation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/examples/latex/quadratic.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/examples/latex/system.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/examples/quadratic.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/examples/system.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/latex/TKZdoc-linknodes-us.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/latex/linknodes.ist
 %%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/readme-linknodes.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/tkz-linknodes-screen.pdf
 share/texmf-dist/tex/latex/tkz-linknodes/tkz-linknodes.sty
 @dirrmtry share/texmf-dist/tex/latex/tkz-linknodes
-@dirrmtry share/texmf-dist/doc/latex/tkz-linknodes/doc
+@dirrmtry share/texmf-dist/doc/latex/tkz-linknodes/latex
+@dirrmtry share/texmf-dist/doc/latex/tkz-linknodes/examples/latex
+@dirrmtry share/texmf-dist/doc/latex/tkz-linknodes/examples
 @dirrmtry share/texmf-dist/doc/latex/tkz-linknodes
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

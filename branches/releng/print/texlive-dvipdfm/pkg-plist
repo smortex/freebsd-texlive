@@ -20,12 +20,8 @@
 %%PORTDOCS%%share/texmf/doc/man/man1/ebb.man1.pdf
 share/texmf/dvipdfm/config/config
 share/texmf/dvipdfm/config/config-win32
-share/texmf/fonts/map/dvipdfm/updmap/dvipdfm.map
-share/texmf/fonts/map/dvipdfm/updmap/dvipdfm_dl14.map
-share/texmf/fonts/map/dvipdfm/updmap/dvipdfm_ndl14.map
 share/texmf/tex/latex/dvipdfm/dvipdfm.def
 @dirrmtry share/texmf/tex/latex/dvipdfm
-@dirrmtry share/texmf/fonts/map/dvipdfm/updmap
 @dirrmtry share/texmf/dvipdfm/config
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf/doc/dvipdfm

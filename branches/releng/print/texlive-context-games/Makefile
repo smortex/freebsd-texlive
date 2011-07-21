@@ -6,13 +6,14 @@
 #
 
 PORTNAME=	context-games
-PORTVERSION=	20100922
+PORTVERSION=	20110721
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	The context-games package
 
-RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/afm/public/skaknew/AlphaDia.afm:${PORTSDIR}/print/texlive-skaknew
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/afm/public/skaknew/AlphaDia.afm:${PORTSDIR}/print/texlive-skaknew \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORTSDIR}/print/texlive-context
 
 NOPORTSRC=	yes
 

@@ -1,8 +1,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/README.TEXLIVE
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/manifest.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-doc.xmpdata
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example.xmpdata
@@ -10,7 +10,6 @@
 %%PORTSRC%%share/texmf-dist/source/latex/toptesi/toptesi.dtx
 share/texmf-dist/tex/latex/toptesi/topcoman.sty
 share/texmf-dist/tex/latex/toptesi/topfront.sty
-share/texmf-dist/tex/latex/toptesi/topsiz14.clo
 share/texmf-dist/tex/latex/toptesi/toptesi.cfg
 share/texmf-dist/tex/latex/toptesi/toptesi.cls
 share/texmf-dist/tex/latex/toptesi/toptesi.sty

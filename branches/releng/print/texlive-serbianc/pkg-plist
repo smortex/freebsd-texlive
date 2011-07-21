@@ -1,0 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/serbianc/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/generic/serbianc/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/generic/serbianc/Copyright
+%%PORTDOCS%%share/texmf-dist/doc/generic/serbianc/INSTALL
+%%PORTDOCS%%share/texmf-dist/doc/generic/serbianc/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/serbianc/README.Files
+%%PORTDOCS%%share/texmf-dist/doc/generic/serbianc/sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/serbianc/sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/serbianc/README
+%%PORTSRC%%share/texmf-dist/source/generic/serbianc/serbianc.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/serbianc/serbianc.ins
+%%PORTSRC%%share/texmf-dist/source/generic/serbianc/serbianc.patch
+share/texmf-dist/tex/generic/serbianc/serbianc.ldf
+share/texmf-dist/tex/generic/serbianc/serbianc.sty
+@dirrmtry share/texmf-dist/tex/generic/serbianc
+@dirrmtry share/texmf-dist/source/generic/serbianc
+@dirrmtry share/texmf-dist/doc/latex/serbianc
+@dirrmtry share/texmf-dist/doc/generic/serbianc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

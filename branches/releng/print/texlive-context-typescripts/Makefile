@@ -6,11 +6,13 @@
 #
 
 PORTNAME=	context-typescripts
-PORTVERSION=	20110113
+PORTVERSION=	20110721
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Small modules to load various fonts for use in ConTeXt.
+
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORTSDIR}/print/texlive-context
 
 NOPORTSRC=	yes
 

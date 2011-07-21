@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20110517
+PORTVERSION=	20110721
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -77,7 +77,13 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/adjustbox/adjustbox.sty:${P
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-inet/tikz-inet.sty:${PORTSDIR}/print/texlive-tikz-inet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty:${PORTSDIR}/print/texlive-tikz-qtree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty:${PORTSDIR}/print/texlive-tikz-timing \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-base/tkz-base.sty:${PORTSDIR}/print/texlive-tkz-base \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-berge/tkz-berge.sty:${PORTSDIR}/print/texlive-tkz-berge \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-doc/tkz-doc.cls:${PORTSDIR}/print/texlive-tkz-doc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.sty:${PORTSDIR}/print/texlive-tkz-euclide \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-fct/tkz-fct.sty:${PORTSDIR}/print/texlive-tkz-fct \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-graph/tkz-graph.sty:${PORTSDIR}/print/texlive-tkz-graph \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-kiviat/tkz-kiviat.sty:${PORTSDIR}/print/texlive-tkz-kiviat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-linknodes/tkz-linknodes.sty:${PORTSDIR}/print/texlive-tkz-linknodes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-orm/tkz-orm.sty:${PORTSDIR}/print/texlive-tkz-orm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-tab/tkz-tab.sty:${PORTSDIR}/print/texlive-tkz-tab \

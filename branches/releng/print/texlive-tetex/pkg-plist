@@ -43,7 +43,6 @@ share/texmf/fonts/enc/dvips/tetex/bbad153f.enc
 share/texmf/fonts/enc/dvips/tetex/d9b29452.enc
 share/texmf/fonts/enc/dvips/tetex/f7b6d320.enc
 share/texmf/fonts/enc/dvips/tetex/mtex.enc
-share/texmf/fonts/map/dvipdfm/tetex/cm-dvipdfm-fix.map
 share/texmf/fonts/map/dvips/tetex/README
 share/texmf/fonts/map/dvips/tetex/cid-base.map
 share/texmf/fonts/map/dvips/tetex/dvipdfm35.map
@@ -55,7 +54,6 @@ share/texmf/scripts/tetex/updmap-sys.sh
 share/texmf/scripts/tetex/updmap.pl
 share/texmf/web2c/updmap.cfg
 @dirrmtry share/texmf/fonts/map/dvips/tetex
-@dirrmtry share/texmf/fonts/map/dvipdfm/tetex
 @dirrmtry share/texmf/fonts/enc/dvips/tetex
 @dirrmtry share/texmf/dvips/tetex
 @dirrmtry share/texmf/doc/man/man5

@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	hyphen-greek
-PORTVERSION=	20101020
+PORTVERSION=	20110721
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Hyphenation for Greek text.
+COMMENT=	Modern Greek hyphenation patterns.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8

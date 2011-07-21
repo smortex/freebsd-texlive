@@ -1,0 +1,25 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-base/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-base/examples/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-base/examples/info_base_tex.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-base/examples/latex/tkzbase-tex.zip
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-base/examples/tkzbasepreamble.ltx
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-base/latex/TKZdoc.zip
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-base/tkz-base-screen.pdf
+share/texmf-dist/tex/latex/tkz-base/tkz-base.cfg
+share/texmf-dist/tex/latex/tkz-base/tkz-base.sty
+share/texmf-dist/tex/latex/tkz-base/tkz-obj-marks.tex
+share/texmf-dist/tex/latex/tkz-base/tkz-obj-points.tex
+share/texmf-dist/tex/latex/tkz-base/tkz-obj-segments.tex
+share/texmf-dist/tex/latex/tkz-base/tkz-tools-arith.tex
+share/texmf-dist/tex/latex/tkz-base/tkz-tools-base.tex
+share/texmf-dist/tex/latex/tkz-base/tkz-tools-math.tex
+share/texmf-dist/tex/latex/tkz-base/tkz-tools-misc.tex
+share/texmf-dist/tex/latex/tkz-base/tkz-tools-obsolete.tex
+share/texmf-dist/tex/latex/tkz-base/tkz-tools-utilities.tex
+@dirrmtry share/texmf-dist/tex/latex/tkz-base
+@dirrmtry share/texmf-dist/doc/latex/tkz-base/latex
+@dirrmtry share/texmf-dist/doc/latex/tkz-base/examples/latex
+@dirrmtry share/texmf-dist/doc/latex/tkz-base/examples
+@dirrmtry share/texmf-dist/doc/latex/tkz-base
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

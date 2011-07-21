@@ -6,11 +6,12 @@
 #
 
 PORTNAME=	hyphen-coptic
-PORTVERSION=	20101020
+PORTVERSION=	20110721
 CATEGORIES=	print
+DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The hyphen-coptic package
+COMMENT=	Coptic hyphenation patterns.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8

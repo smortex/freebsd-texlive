@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-gust
-PORTVERSION=	20110511
+PORTVERSION=	20110721
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -26,7 +26,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/amstex/base/amstex.tex:${PORTSDIR
 		${LOCALBASE}/share/texmf/doc/man/man1/dvibook.1:${PORTSDIR}/print/texlive-seetexk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/seminar/seminar.cls:${PORTSDIR}/print/texlive-seminar \
 		${LOCALBASE}/share/texmf-dist/tex/generic/tex4ht/tex4ht.sty:${PORTSDIR}/print/texlive-tex4ht \
-		${LOCALBASE}/share/texmf/scripts/tetex/texdoctk.pl:${PORTSDIR}/print/texlive-texdoc \
+		${LOCALBASE}/share/texmf-dist/texdoc/texdoc.cnf:${PORTSDIR}/print/texlive-texdoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/base/xampl.bib:${PORTSDIR}/print/texlive-bibtex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cm/cmtext-bsr-interpolated.map:${PORTSDIR}/print/texlive-cm \
@@ -58,7 +58,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/amstex/base/amstex.tex:${PORTSDIR
 		${LOCALBASE}/share/texmf/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
 		${LOCALBASE}/share/texmf/scripts/texlive/tlmgr.pl:${PORTSDIR}/print/texlive-texlive.infra \
 		${LOCALBASE}/share/texmf/xdvi/XDvi:${PORTSDIR}/print/texlive-xdvi \
-		${LOCALBASE}/share/texmf-dist/tex/context/base/context.tex:${PORTSDIR}/print/texlive-context \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORTSDIR}/print/texlive-context \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/jmn/hans/hans-sh.afm:${PORTSDIR}/print/texlive-jmn \
 		${LOCALBASE}/share/texmf-dist/fonts/truetype/hoekwater/lmextra/lmtypewriter10-regular.ttf:${PORTSDIR}/print/texlive-lmextra \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-account.xml:${PORTSDIR}/print/texlive-context-account \
