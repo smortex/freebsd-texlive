@@ -1,24 +1,25 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/TKZdoc-tab-adapt.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/TKZdoc-tab-examples.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/TKZdoc-tab-image.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/TKZdoc-tab-init.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/TKZdoc-tab-install.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/TKZdoc-tab-main.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/TKZdoc-tab-sign.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/TKZdoc-tab-slope.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/TKZdoc-tab-tangente.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/TKZdoc-tab-tv.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/TKZdoc-tab-valeurs.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/TKZdoc-tab-variation.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/TKZdoc-tab.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/doctab.ist
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/latex/TKZ-doc-tab-faq.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-adapt.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-bac.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-examples.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-image.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-init.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-install.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-main.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-sign.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-slope.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-style.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-tangente.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-tv.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-valeurs.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-variation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab.ist
 %%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/readme-us.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/sign-latin1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/sign-latin1.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/var-latin1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/var-latin1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/tkz-tab-screen.pdf
 share/texmf-dist/tex/latex/tkz-tab/tkz-tab.sty
 @dirrmtry share/texmf-dist/tex/latex/tkz-tab
+@dirrmtry share/texmf-dist/doc/latex/tkz-tab/latex
 @dirrmtry share/texmf-dist/doc/latex/tkz-tab
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

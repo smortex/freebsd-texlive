@@ -6,12 +6,12 @@
 #
 
 PORTNAME=	hyphen-arabic
-PORTVERSION=	20100922
+PORTVERSION=	20110721
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The hyphen-arabic package
+COMMENT=	(No) Arabic hyphenation patterns.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8

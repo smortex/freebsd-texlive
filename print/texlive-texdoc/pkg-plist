@@ -1,3 +1,4 @@
+share/texmf-dist/texdoc/texdoc.cnf
 %%PORTDOCS%%share/texmf/doc/man/man1/texdoc.1
 %%PORTDOCS%%share/texmf/doc/man/man1/texdoc.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/texdoctk.1
@@ -14,14 +15,14 @@ share/texmf/scripts/texdoc/functions.tlu
 share/texmf/scripts/texdoc/main.tlu
 share/texmf/scripts/texdoc/score.tlu
 share/texmf/scripts/texdoc/search.tlu
+share/texmf/scripts/texdoc/texdoclib.tlu
 share/texmf/scripts/texdoc/view.tlu
-share/texmf/texdoc/texdoc.cnf
 share/texmf/texdoctk/texdocrc-win32.defaults
 share/texmf/texdoctk/texdocrc.defaults
 share/texmf/texdoctk/texdoctk.dat
 @dirrmtry share/texmf/texdoctk
-@dirrmtry share/texmf/texdoc
 @dirrmtry share/texmf/doc/texdoc
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf-dist/texdoc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -1,0 +1,53 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/examples/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/examples/info_euclide_tex.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/examples/latex/euclide-tex.zip
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/examples/tkzeuclpreamble.ltx
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-FAQ.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-alea.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-arcs.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-base.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-circles.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-compass.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-config.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-exemples.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-installation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-intersec.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-lines.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-main.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-obj.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-points.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-polygons.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-presentation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-rapporteur.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-sectors.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-segments.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-tips_and_tricks.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-tools.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-transf.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-vec.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/latex/euclide.ist
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/readme-tkz-euclide-fr.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/readme-tkz-euclide.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-euclide/tkz-euclide-screen.pdf
+share/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.sty
+share/texmf-dist/tex/latex/tkz-euclide/tkz-lib-symbols.tex
+share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-addpoints.tex
+share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-angles.tex
+share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-arcs.tex
+share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-circles.tex
+share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-lines.tex
+share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-polygons.tex
+share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-protractor.tex
+share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-sectors.tex
+share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-vectors.tex
+share/texmf-dist/tex/latex/tkz-euclide/tkz-tools-intersections.tex
+share/texmf-dist/tex/latex/tkz-euclide/tkz-tools-transformations.tex
+@dirrmtry share/texmf-dist/tex/latex/tkz-euclide
+@dirrmtry share/texmf-dist/doc/latex/tkz-euclide/latex
+@dirrmtry share/texmf-dist/doc/latex/tkz-euclide/examples/latex
+@dirrmtry share/texmf-dist/doc/latex/tkz-euclide/examples
+@dirrmtry share/texmf-dist/doc/latex/tkz-euclide
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

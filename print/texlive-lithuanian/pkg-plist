@@ -2,7 +2,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/lithuanian/ChangeLog
 %%PORTDOCS%%share/texmf-dist/doc/latex/lithuanian/Copyright
 %%PORTDOCS%%share/texmf-dist/doc/latex/lithuanian/README.lithuanian
-%%PORTDOCS%%share/texmf-dist/doc/latex/lithuanian/l7xenc.dfu
 %%PORTDOCS%%share/texmf-dist/doc/latex/lithuanian/latin7lt.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/lithuanian/latin7x.etx
 %%PORTDOCS%%share/texmf-dist/doc/latex/lithuanian/latin7x.mtx
@@ -53,6 +52,7 @@ share/texmf-dist/tex/latex/lithuanian/cp775.def
 share/texmf-dist/tex/latex/lithuanian/cpKBL.def
 share/texmf-dist/tex/latex/lithuanian/cpRIM.def
 share/texmf-dist/tex/latex/lithuanian/l7xenc.def
+share/texmf-dist/tex/latex/lithuanian/l7xenc.dfu
 share/texmf-dist/tex/latex/lithuanian/l7xenc.sty
 share/texmf-dist/tex/latex/lithuanian/l7xuag.fd
 share/texmf-dist/tex/latex/lithuanian/l7xubk.fd

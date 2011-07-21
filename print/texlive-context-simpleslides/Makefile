@@ -6,11 +6,13 @@
 #
 
 PORTNAME=	context-simpleslides
-PORTVERSION=	20100922
+PORTVERSION=	20110721
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	A module for preparing presentations.
+
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORTSDIR}/print/texlive-context
 
 NOPORTSRC=	yes
 

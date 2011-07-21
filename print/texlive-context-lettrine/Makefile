@@ -6,11 +6,13 @@
 #
 
 PORTNAME=	context-lettrine
-PORTVERSION=	20100922
+PORTVERSION=	20110721
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	A ConTeXt implementation of lettrines.
+
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORTSDIR}/print/texlive-context
 
 NOPORTSRC=	yes
 

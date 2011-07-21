@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110525
+PORTVERSION=	20110721
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -163,10 +163,10 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/scripts/texdef/texdef.pl:${PORTSDIR}/print/texlive-texdef \
 		${LOCALBASE}/share/texmf-dist/scripts/texdiff/texdiff:${PORTSDIR}/print/texlive-texdiff \
 		${LOCALBASE}/share/texmf-dist/scripts/texdirflatten/texdirflatten:${PORTSDIR}/print/texlive-texdirflatten \
-		${LOCALBASE}/share/texmf/scripts/tetex/texdoctk.pl:${PORTSDIR}/print/texlive-texdoc \
+		${LOCALBASE}/share/texmf-dist/texdoc/texdoc.cnf:${PORTSDIR}/print/texlive-texdoc \
 		${LOCALBASE}/share/texmf-dist/scripts/texloganalyser/texloganalyser:${PORTSDIR}/print/texlive-texloganalyser \
 		${LOCALBASE}/share/texmf/scripts/xindy/texindy.pl:${PORTSDIR}/print/texlive-xindy \
-		${LOCALBASE}/share/texmf-dist/tex/context/base/context.tex:${PORTSDIR}/print/texlive-context \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORTSDIR}/print/texlive-context \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/jmn/hans/hans-sh.afm:${PORTSDIR}/print/texlive-jmn \
 		${LOCALBASE}/share/texmf-dist/fonts/truetype/hoekwater/lmextra/lmtypewriter10-regular.ttf:${PORTSDIR}/print/texlive-lmextra \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-account.xml:${PORTSDIR}/print/texlive-context-account \
@@ -597,7 +597,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/lithuanian/lithuanian.sty:${PORTSDIR}/print/texlive-lithuanian \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mongolian-babel/mn.def:${PORTSDIR}/print/texlive-mongolian-babel \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/montex/mongolian.map:${PORTSDIR}/print/texlive-montex \
-		${LOCALBASE}/share/texmf/tex/generic/hyphen/copthyph.tex:${PORTSDIR}/print/texlive-hyphen-coptic \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cc-pl/ccpl.map:${PORTSDIR}/print/texlive-cc-pl \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/gustlib/plbib.bib:${PORTSDIR}/print/texlive-gustlib \
 		${LOCALBASE}/share/texmf-dist/tex/mex/base/mex.tex:${PORTSDIR}/print/texlive-mex \
@@ -678,7 +677,13 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-inet/tikz-inet.sty:${PORTSDIR}/print/texlive-tikz-inet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty:${PORTSDIR}/print/texlive-tikz-qtree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty:${PORTSDIR}/print/texlive-tikz-timing \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-base/tkz-base.sty:${PORTSDIR}/print/texlive-tkz-base \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-berge/tkz-berge.sty:${PORTSDIR}/print/texlive-tkz-berge \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-doc/tkz-doc.cls:${PORTSDIR}/print/texlive-tkz-doc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.sty:${PORTSDIR}/print/texlive-tkz-euclide \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-fct/tkz-fct.sty:${PORTSDIR}/print/texlive-tkz-fct \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-graph/tkz-graph.sty:${PORTSDIR}/print/texlive-tkz-graph \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-kiviat/tkz-kiviat.sty:${PORTSDIR}/print/texlive-tkz-kiviat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-linknodes/tkz-linknodes.sty:${PORTSDIR}/print/texlive-tkz-linknodes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-orm/tkz-orm.sty:${PORTSDIR}/print/texlive-tkz-orm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-tab/tkz-tab.sty:${PORTSDIR}/print/texlive-tkz-tab \
@@ -866,7 +871,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/ellipsis/ellipsis.sty:${PORTSDIR}/print/texlive-ellipsis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/elmath/elmath.sty:${PORTSDIR}/print/texlive-elmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/elpres/elpres.cls:${PORTSDIR}/print/texlive-elpres \
-		${LOCALBASE}/share/texmf-dist/tex/latex/em/em.sty:${PORTSDIR}/print/texlive-em \
 		${LOCALBASE}/share/texmf-dist/tex/latex/emptypage/emptypage.sty:${PORTSDIR}/print/texlive-emptypage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/emulateapj/emulateapj.cls:${PORTSDIR}/print/texlive-emulateapj \
 		${LOCALBASE}/share/texmf-dist/tex/latex/endfloat/endfloat.sty:${PORTSDIR}/print/texlive-endfloat \
@@ -1251,6 +1255,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/semioneside/semioneside.sty:${PORTSDIR}/print/texlive-semioneside \
 		${LOCALBASE}/share/texmf-dist/tex/latex/seqsplit/seqsplit.sty:${PORTSDIR}/print/texlive-seqsplit \
 		${LOCALBASE}/share/texmf-dist/tex/latex/serbian-lig/serbian-lig.sty:${PORTSDIR}/print/texlive-serbian-lig \
+		${LOCALBASE}/share/texmf-dist/tex/generic/serbianc/serbianc.sty:${PORTSDIR}/print/texlive-serbianc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sf298/sf298.sty:${PORTSDIR}/print/texlive-sf298 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sffms/sffms.cls:${PORTSDIR}/print/texlive-sffms \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sfmath/sfmath.sty:${PORTSDIR}/print/texlive-sfmath \

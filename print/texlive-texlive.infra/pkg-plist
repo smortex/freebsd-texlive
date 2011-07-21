@@ -32,7 +32,6 @@ share/release-texlive.txt
 %%PORTDOCS%%share/texmf/doc/man/man1/tlmgr.1
 %%PORTDOCS%%share/texmf/doc/man/man1/tlmgr.man1.pdf
 %%PORTDOCS%%share/texmf/scripts/texlive/NEWS
-share/texmf/scripts/texlive/tlmgrgui.ico
 share/texmf/scripts/texlive/tlmgrgui.pl
 share/texmf/scripts/texlive/uninstall-win32.pl
 share/texmf/web2c/fmtutil-hdr.cnf
@@ -42,7 +41,6 @@ share/tlpkg/TeXLive/Splashscreen.pm
 share/tlpkg/TeXLive/TLConfFile.pm
 share/tlpkg/TeXLive/TLConfig.pm
 share/tlpkg/TeXLive/TLDownload.pm
-share/tlpkg/TeXLive/TLMedia.pm
 share/tlpkg/TeXLive/TLPDB.pm
 share/tlpkg/TeXLive/TLPOBJ.pm
 share/tlpkg/TeXLive/TLPSRC.pm

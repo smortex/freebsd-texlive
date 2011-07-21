@@ -6,14 +6,14 @@
 #
 
 PORTNAME=	scheme-context
-PORTVERSION=	20110511
+PORTVERSION=	20110721
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	ConTeXt scheme
 
-RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/context/base/context.tex:${PORTSDIR}/print/texlive-context \
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORTSDIR}/print/texlive-context \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/jmn/hans/hans-sh.afm:${PORTSDIR}/print/texlive-jmn \
 		${LOCALBASE}/share/texmf-dist/fonts/truetype/hoekwater/lmextra/lmtypewriter10-regular.ttf:${PORTSDIR}/print/texlive-lmextra \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-account.xml:${PORTSDIR}/print/texlive-context-account \
@@ -112,8 +112,10 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/context/base/context.tex:${PORTSD
 		${LOCALBASE}/share/texmf-dist/fonts/afm/gust/poltawski/antpb10.afm:${PORTSDIR}/print/texlive-poltawski \
 		${LOCALBASE}/share/texmf-dist/tex/latex/txfonts/txfonts.sty:${PORTSDIR}/print/texlive-txfonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pxfonts/pxfonts.sty:${PORTSDIR}/print/texlive-pxfonts \
-		${LOCALBASE}/share/texmf-dist/tex/generic/context/mptopdf.tex:${PORTSDIR}/print/texlive-mptopdf \
-		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/base/qx-unicode.map:${PORTSDIR}/print/texlive-xetex
+		${LOCALBASE}/share/texmf-dist/tex/latex/eulervm/eulervm.sty:${PORTSDIR}/print/texlive-eulervm \
+		${LOCALBASE}/share/texmf-dist/tex/latex/marvosym/marvosym.sty:${PORTSDIR}/print/texlive-marvosym \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/wasy/wasy10.afm:${PORTSDIR}/print/texlive-wasy \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc:${PORTSDIR}/print/texlive-ly1
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes

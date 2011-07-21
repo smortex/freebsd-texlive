@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-medium
-PORTVERSION=	20110511
+PORTVERSION=	20110721
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -78,10 +78,10 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/scripts/texdef/texdef.pl:${PORTSDIR}/print/texlive-texdef \
 		${LOCALBASE}/share/texmf-dist/scripts/texdiff/texdiff:${PORTSDIR}/print/texlive-texdiff \
 		${LOCALBASE}/share/texmf-dist/scripts/texdirflatten/texdirflatten:${PORTSDIR}/print/texlive-texdirflatten \
-		${LOCALBASE}/share/texmf/scripts/tetex/texdoctk.pl:${PORTSDIR}/print/texlive-texdoc \
+		${LOCALBASE}/share/texmf-dist/texdoc/texdoc.cnf:${PORTSDIR}/print/texlive-texdoc \
 		${LOCALBASE}/share/texmf-dist/scripts/texloganalyser/texloganalyser:${PORTSDIR}/print/texlive-texloganalyser \
 		${LOCALBASE}/share/texmf/scripts/xindy/texindy.pl:${PORTSDIR}/print/texlive-xindy \
-		${LOCALBASE}/share/texmf-dist/tex/context/base/context.tex:${PORTSDIR}/print/texlive-context \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORTSDIR}/print/texlive-context \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/jmn/hans/hans-sh.afm:${PORTSDIR}/print/texlive-jmn \
 		${LOCALBASE}/share/texmf-dist/fonts/truetype/hoekwater/lmextra/lmtypewriter10-regular.ttf:${PORTSDIR}/print/texlive-lmextra \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-account.xml:${PORTSDIR}/print/texlive-context-account \

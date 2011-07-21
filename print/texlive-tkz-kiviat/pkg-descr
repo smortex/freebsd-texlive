@@ -1,0 +1,3 @@
+The package allows the user to draw Kiviat Graphs directly, or
+with data from an external file. The drawing is done with the
+help of pgfplots.

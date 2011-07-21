@@ -6,11 +6,13 @@
 #
 
 PORTNAME=	context-gnuplot
-PORTVERSION=	20110214
+PORTVERSION=	20110721
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Inclusion of Gnuplot graphs in ConTeXt.
+
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORTSDIR}/print/texlive-context
 
 NOPORTSRC=	yes
 

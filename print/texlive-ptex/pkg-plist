@@ -300,11 +300,13 @@ share/texmf-dist/tex/ptex/config/eptex.ini
 share/texmf-dist/tex/ptex/config/language.def
 share/texmf-dist/tex/ptex/config/ptex.ini
 share/texmf-dist/tex/ptexgeneric/config/language.ptx
-share/texmf-dist/tex/ptexgeneric/hyphen/copthyph.tex
 share/texmf-dist/tex/ptexgeneric/hyphen/grahyph5.tex
 share/texmf-dist/tex/ptexgeneric/hyphen/grmhyph5.tex
 share/texmf-dist/tex/ptexgeneric/hyphen/grphyph5.tex
 share/texmf-dist/tex/ptexgeneric/hyphen/ibyhyph.tex
+%%PORTDOCS%%share/texmf/doc/man/man1/mendex.1
+%%PORTDOCS%%share/texmf/doc/man/man1/mendex.man1.pdf
+@dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf-dist/tex/ptexgeneric/hyphen
 @dirrmtry share/texmf-dist/tex/ptexgeneric/config
 @dirrmtry share/texmf-dist/tex/ptex/config

@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-kiviat/TKZdoc-kiviat-main.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-kiviat/examples/latex/file.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-kiviat/examples/latex/kiviat1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-kiviat/examples/latex/kiviat2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-kiviat/examples/latex/kiviat3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-kiviat/examples/latex/kiviat4.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-kiviat/examples/latex/kiviat5.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-kiviat/latex/TKZdoc-kiviat-main.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-kiviat/latex/file.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-kiviat/latex/file2.dat
+share/texmf-dist/tex/latex/tkz-kiviat/tkz-kiviat.sty
+@dirrmtry share/texmf-dist/tex/latex/tkz-kiviat
+@dirrmtry share/texmf-dist/doc/latex/tkz-kiviat/latex
+@dirrmtry share/texmf-dist/doc/latex/tkz-kiviat/examples/latex
+@dirrmtry share/texmf-dist/doc/latex/tkz-kiviat
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

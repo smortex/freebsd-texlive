@@ -1,0 +1,22 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-Dijkstra.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-Welsh.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-annales.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-couverture.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-edge.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-installation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-label.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-main.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-presentation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-prob.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-style.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-vertex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-vertices.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-graph/latex/graph.ist
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-graph/readme-tkz-graph.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/tkz-graph/tkz-graph-screen.pdf
+share/texmf-dist/tex/latex/tkz-graph/tkz-graph.sty
+@dirrmtry share/texmf-dist/tex/latex/tkz-graph
+@dirrmtry share/texmf-dist/doc/latex/tkz-graph/latex
+@dirrmtry share/texmf-dist/doc/latex/tkz-graph
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

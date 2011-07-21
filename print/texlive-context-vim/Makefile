@@ -6,11 +6,14 @@
 #
 
 PORTNAME=	context-vim
-PORTVERSION=	20110310
+PORTVERSION=	20110721
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Generate Context syntax highlighting code from vim.
+
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/context/third/filter/t-filter.tex:${PORTSDIR}/print/texlive-context-filter \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORTSDIR}/print/texlive-context
 
 NOPORTSRC=	yes
 

@@ -6,12 +6,12 @@
 #
 
 PORTNAME=	hyphen-ethiopic
-PORTVERSION=	20110115
+PORTVERSION=	20110721
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The hyphen-ethiopic package
+COMMENT=	Hyphenation patterns for Ethiopic scripts.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8

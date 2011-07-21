@@ -1,0 +1,26 @@
+%%PORTDOCS%%share/texmf-dist/doc/context/third/context-notes-zh-cn/README
+%%PORTDOCS%%share/texmf-dist/doc/context/third/context-notes-zh-cn/ctxnotes.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/context-notes-zh-cn/src/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/context/third/context-notes-zh-cn/src/basis.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/context-notes-zh-cn/src/bibl-lyr.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/context-notes-zh-cn/src/bibliography.bib
+%%PORTDOCS%%share/texmf-dist/doc/context/third/context-notes-zh-cn/src/ctxnotes.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/context-notes-zh-cn/src/doc-env.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/context-notes-zh-cn/src/figures/bookmark.png
+%%PORTDOCS%%share/texmf-dist/doc/context/third/context-notes-zh-cn/src/figures/cow.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/context-notes-zh-cn/src/figures/gardeninglion.jpg
+%%PORTDOCS%%share/texmf-dist/doc/context/third/context-notes-zh-cn/src/figures/header.png
+%%PORTDOCS%%share/texmf-dist/doc/context/third/context-notes-zh-cn/src/fonts.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/context-notes-zh-cn/src/layout.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/context-notes-zh-cn/src/metafun.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/context-notes-zh-cn/src/project.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/context-notes-zh-cn/src/references.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/context-notes-zh-cn/src/t-layout.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/context-notes-zh-cn/src/t-zhfonts.lua
+%%PORTDOCS%%share/texmf-dist/doc/context/third/context-notes-zh-cn/src/t-zhfonts.mkiv
+%%PORTDOCS%%share/texmf-dist/doc/context/third/context-notes-zh-cn/src/t-zhspuncs.lua
+@dirrmtry share/texmf-dist/doc/context/third/context-notes-zh-cn/src/figures
+@dirrmtry share/texmf-dist/doc/context/third/context-notes-zh-cn/src
+@dirrmtry share/texmf-dist/doc/context/third/context-notes-zh-cn
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

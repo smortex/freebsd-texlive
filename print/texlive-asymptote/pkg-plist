@@ -57,6 +57,7 @@ share/texmf/asymptote/plain.asy
 share/texmf/asymptote/plain_Label.asy
 share/texmf/asymptote/plain_arcs.asy
 share/texmf/asymptote/plain_arrows.asy
+share/texmf/asymptote/plain_bounds.asy
 share/texmf/asymptote/plain_boxes.asy
 share/texmf/asymptote/plain_constants.asy
 share/texmf/asymptote/plain_debugger.asy
@@ -66,6 +67,8 @@ share/texmf/asymptote/plain_markers.asy
 share/texmf/asymptote/plain_paths.asy
 share/texmf/asymptote/plain_pens.asy
 share/texmf/asymptote/plain_picture.asy
+share/texmf/asymptote/plain_prethree.asy
+share/texmf/asymptote/plain_scaling.asy
 share/texmf/asymptote/plain_shipout.asy
 share/texmf/asymptote/plain_strings.asy
 share/texmf/asymptote/plain_xasy.asy
@@ -94,6 +97,8 @@ share/texmf/asymptote/unicode.asy
 share/texmf/asymptote/version.asy
 share/texmf/asymptote/x11colors.asy
 %%PORTDOCS%%share/texmf/doc/asymptote/CAD.pdf
+%%PORTDOCS%%share/texmf/doc/asymptote/TeXShopAndAsymptote.pdf
+%%PORTDOCS%%share/texmf/doc/asymptote/asy-latex.pdf
 %%PORTDOCS%%share/texmf/doc/asymptote/asymptote.pdf
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/100d.views
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/1overx.asy
@@ -294,6 +299,7 @@ share/texmf/asymptote/x11colors.asy
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/partitionExample.asy
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/pathintersectsurface.asy
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/pdb.asy
+%%PORTDOCS%%share/texmf/doc/asymptote/examples/penfunctionimage.asy
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/penimage.asy
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/phase.asy
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/piicon.eps
@@ -395,6 +401,7 @@ share/texmf/asymptote/x11colors.asy
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/westnile.csv
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/workcone.asy
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/worksheet.asy
+%%PORTDOCS%%share/texmf/doc/asymptote/examples/worldmap.asy
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/xsin1x.asy
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/xstitch.asy
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/xxsq01.asy
