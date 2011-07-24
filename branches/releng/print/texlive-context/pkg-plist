@@ -318,7 +318,6 @@ share/texmf-dist/fonts/misc/xetex/fontmapping/context/tlig.map
 share/texmf-dist/fonts/misc/xetex/fontmapping/context/tlig.tec
 share/texmf-dist/fonts/opentype/context/tests/texmfhome.otf
 share/texmf-dist/fonts/tfm/hoekwater/context/contnav.tfm
-share/texmf-dist/fonts/tfm/hoekwater/context/fmvr8x.tfm
 share/texmf-dist/fonts/type1/hoekwater/context/contnav.pfb
 share/texmf-dist/metapost/context/base/metafun.mp
 share/texmf-dist/metapost/context/base/mp-back.mp
@@ -643,7 +642,6 @@ share/texmf-dist/tex/context/base/data-fil.lua
 share/texmf-dist/tex/context/base/data-gen.lua
 share/texmf-dist/tex/context/base/data-ini.lua
 share/texmf-dist/tex/context/base/data-inp.lua
-share/texmf-dist/tex/context/base/data-kps.lua
 share/texmf-dist/tex/context/base/data-lst.lua
 share/texmf-dist/tex/context/base/data-lua.lua
 share/texmf-dist/tex/context/base/data-met.lua
@@ -1544,7 +1542,6 @@ share/texmf-dist/tex/context/base/trac-deb.lua
 share/texmf-dist/tex/context/base/trac-deb.mkiv
 share/texmf-dist/tex/context/base/trac-inf.lua
 share/texmf-dist/tex/context/base/trac-lmx.lua
-share/texmf-dist/tex/context/base/trac-lmx.mkiv
 share/texmf-dist/tex/context/base/trac-log.lua
 share/texmf-dist/tex/context/base/trac-pro.lua
 share/texmf-dist/tex/context/base/trac-set.lua
@@ -2060,7 +2057,6 @@ share/texmf-dist/tex/context/test/pdf-x3-2002.mkiv
 share/texmf-dist/tex/context/test/pdf-x3-2003.mkiv
 share/texmf-dist/tex/context/test/pdf-x4.mkiv
 share/texmf-dist/tex/context/test/pdf-x4p.mkiv
-share/texmf-dist/tex/context/test/x-cals-test.cdx
 share/texmf-dist/tex/context/user/cont-sys.rme
 share/texmf-dist/tex/generic/context/luatex-basics-gen.lua
 share/texmf-dist/tex/generic/context/luatex-basics-nod.lua
