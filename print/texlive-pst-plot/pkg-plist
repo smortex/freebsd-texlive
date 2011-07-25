@@ -8,6 +8,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/pst-plot-doc.dat
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/pst-plot-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/pst-plot-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/pst-plot97.tex
 %%PORTSRC%%share/texmf-dist/source/generic/pst-plot/Makefile
 share/texmf-dist/tex/generic/pst-plot/pst-plot.tex
 share/texmf-dist/tex/latex/pst-plot/pst-plot.sty
