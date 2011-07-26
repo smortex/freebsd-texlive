@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/collectbox/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/collectbox/collectbox.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/collectbox/collectbox.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/collectbox/collectbox.ins
+share/texmf-dist/tex/latex/collectbox/collectbox.sty
+@dirrmtry share/texmf-dist/tex/latex/collectbox
+@dirrmtry share/texmf-dist/source/latex/collectbox
+@dirrmtry share/texmf-dist/doc/latex/collectbox
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
