@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-xetex
-PORTVERSION=	20110510
+PORTVERSION=	20110727
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -29,7 +29,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/xelatex/arabxetex/arabxetex.sty:$
 		${LOCALBASE}/share/texmf-dist/tex/xetex/xesearch/xesearch.sty:${PORTSDIR}/print/texlive-xesearch \
 		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/base/qx-unicode.map:${PORTSDIR}/print/texlive-xetex \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xetex-def/xetex.def:${PORTSDIR}/print/texlive-xetex-def \
-		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-devanagari/README:${PORTSDIR}/print/texlive-xetex-devanagari \
 		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/brh-kan.map:${PORTSDIR}/print/texlive-xetex-itrans \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con:${PORTSDIR}/print/texlive-xetex-pstricks \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xetexconfig/unicode-letters.tex:${PORTSDIR}/print/texlive-xetexconfig \

@@ -6,11 +6,13 @@
 #
 
 PORTNAME=	velthuis
-PORTVERSION=	20110303
+PORTVERSION=	20110727
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Typeset Devanagari.
+
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-devanagari/README:${PORTSDIR}/print/texlive-xetex-devanagari
 
 NOPORTSRC=	yes
 

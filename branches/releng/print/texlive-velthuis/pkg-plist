@@ -78,12 +78,6 @@ share/texmf-dist/fonts/afm/public/velthuis/dvpnn10.afm
 share/texmf-dist/fonts/afm/public/velthuis/dvpnn8.afm
 share/texmf-dist/fonts/afm/public/velthuis/dvpnn9.afm
 share/texmf-dist/fonts/map/dvips/velthuis/dvng.map
-share/texmf-dist/fonts/misc/xetex/fontmapping/velthuis/devanagarinumerals.map
-share/texmf-dist/fonts/misc/xetex/fontmapping/velthuis/devanagarinumerals.tec
-share/texmf-dist/fonts/misc/xetex/fontmapping/velthuis/velthuis-sanskrit.map
-share/texmf-dist/fonts/misc/xetex/fontmapping/velthuis/velthuis-sanskrit.tec
-share/texmf-dist/fonts/misc/xetex/fontmapping/velthuis/velthuis.map
-share/texmf-dist/fonts/misc/xetex/fontmapping/velthuis/velthuis.tec
 share/texmf-dist/fonts/source/public/velthuis/dnchars.mf
 share/texmf-dist/fonts/source/public/velthuis/dndefs.mf
 share/texmf-dist/fonts/source/public/velthuis/dngen.mf
@@ -291,7 +285,6 @@ share/texmf-dist/tex/xelatex/velthuis/hindicaptions.sty
 @dirrmtry share/texmf-dist/fonts/type1/public/velthuis
 @dirrmtry share/texmf-dist/fonts/tfm/public/velthuis
 @dirrmtry share/texmf-dist/fonts/source/public/velthuis
-@dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping/velthuis
 @dirrmtry share/texmf-dist/fonts/map/dvips/velthuis
 @dirrmtry share/texmf-dist/fonts/afm/public/velthuis
 @dirrmtry share/texmf-dist/doc/generic/velthuis
