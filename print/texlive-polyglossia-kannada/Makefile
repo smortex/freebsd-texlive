@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-xetex-devanagari
-# Date created:		05/10/2011 05:10:19
+# New ports collection makefile for:	texlive-polyglossia-kannada
+# Date created:		07/27/2011 04:49:46
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	xetex-devanagari
+PORTNAME=	polyglossia-kannada
 PORTVERSION=	20110727
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	XeTeX input map for Unicode Devanagari.
+COMMENT=	Kannada support for users of polyglossia.
 
+NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

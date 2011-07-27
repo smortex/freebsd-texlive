@@ -1,0 +1,4 @@
+share/texmf-dist/tex/latex/polyglossia-kannada/gloss-kannada.ldf
+@dirrmtry share/texmf-dist/tex/latex/polyglossia-kannada
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
