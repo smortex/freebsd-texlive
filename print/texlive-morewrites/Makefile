@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-xits
-# Date created:		09/21/2010 11:38:41
+# New ports collection makefile for:	texlive-morewrites
+# Date created:		07/28/2011 05:02:15
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	xits
+PORTNAME=	morewrites
 PORTVERSION=	20110728
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A Scientific Times-like font with support for mathematical typesetting.
+COMMENT=	Always room for a new write stream.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

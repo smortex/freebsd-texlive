@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/morewrites/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/morewrites/morewrites.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/morewrites/morewrites.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/morewrites/morewrites.ins
+share/texmf-dist/tex/latex/morewrites/morewrites.sty
+@dirrmtry share/texmf-dist/tex/latex/morewrites
+@dirrmtry share/texmf-dist/source/latex/morewrites
+@dirrmtry share/texmf-dist/doc/latex/morewrites
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

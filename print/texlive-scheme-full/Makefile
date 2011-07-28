@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110727
+PORTVERSION=	20110728
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1053,6 +1053,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltabptch/ltabptch.sty:${PORTSDIR}/print/texlive-ltabptch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltxdockit/ltxdockit.cls:${PORTSDIR}/print/texlive-ltxdockit \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltxindex/ltxindex.sty:${PORTSDIR}/print/texlive-ltxindex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ltxkeys/ltxkeys.sty:${PORTSDIR}/print/texlive-ltxkeys \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltxnew/ltxnew.sty:${PORTSDIR}/print/texlive-ltxnew \
 		${LOCALBASE}/share/texmf-dist/tex/latex/magaz/magaz.sty:${PORTSDIR}/print/texlive-magaz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mailing/mailing.sty:${PORTSDIR}/print/texlive-mailing \
@@ -1096,10 +1097,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/moderncv/moderncv.cls:${PORTSDIR}/print/texlive-moderncv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/modref/modref.sty:${PORTSDIR}/print/texlive-modref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/modroman/modroman.sty:${PORTSDIR}/print/texlive-modroman \
+		${LOCALBASE}/share/texmf-dist/tex/latex/moreenum/moreenum.sty:${PORTSDIR}/print/texlive-moreenum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/morefloats/morefloats.sty:${PORTSDIR}/print/texlive-morefloats \
 		${LOCALBASE}/share/texmf-dist/tex/latex/morehype/atari.fdf:${PORTSDIR}/print/texlive-morehype \
 		${LOCALBASE}/share/texmf-dist/tex/latex/moresize/moresize.sty:${PORTSDIR}/print/texlive-moresize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/moreverb/moreverb.sty:${PORTSDIR}/print/texlive-moreverb \
+		${LOCALBASE}/share/texmf-dist/tex/latex/morewrites/morewrites.sty:${PORTSDIR}/print/texlive-morewrites \
 		${LOCALBASE}/share/texmf-dist/tex/latex/movie15/movie15.sty:${PORTSDIR}/print/texlive-movie15 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mparhack/mparhack.sty:${PORTSDIR}/print/texlive-mparhack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/msc/msc.sty:${PORTSDIR}/print/texlive-msc \
@@ -1193,7 +1196,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/polytable/polytable.sty:${PORTSDIR}/print/texlive-polytable \
 		${LOCALBASE}/share/texmf-dist/tex/latex/postcards/postcards.cls:${PORTSDIR}/print/texlive-postcards \
 		${LOCALBASE}/share/texmf-dist/tex/generic/poster-mac/poster.sty:${PORTSDIR}/print/texlive-poster-mac \
-		${LOCALBASE}/share/texmf-dist/scripts/ppower4/pdfthumb.tlu:${PORTSDIR}/print/texlive-ppower4 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ppr-prv/ppr-prv.cls:${PORTSDIR}/print/texlive-ppr-prv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/preprint/authblk.sty:${PORTSDIR}/print/texlive-preprint \
 		${LOCALBASE}/share/texmf-dist/tex/latex/prettyref/prettyref.sty:${PORTSDIR}/print/texlive-prettyref \
