@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-xits
-# Date created:		09/21/2010 11:38:41
+# New ports collection makefile for:	texlive-ltxkeys
+# Date created:		07/28/2011 05:01:27
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	xits
+PORTNAME=	ltxkeys
 PORTVERSION=	20110728
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A Scientific Times-like font with support for mathematical typesetting.
+COMMENT=	A robust key parser for LaTeX.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

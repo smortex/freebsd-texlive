@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/moreenum/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/moreenum/testcase-moreenum.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/moreenum/testcase-moreenum.tex
+share/texmf-dist/tex/latex/moreenum/moreenum.sty
+@dirrmtry share/texmf-dist/tex/latex/moreenum
+@dirrmtry share/texmf-dist/doc/latex/moreenum
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

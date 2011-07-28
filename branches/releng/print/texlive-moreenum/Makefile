@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-xits
-# Date created:		09/21/2010 11:38:41
+# New ports collection makefile for:	texlive-moreenum
+# Date created:		07/28/2011 05:02:11
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	xits
+PORTNAME=	moreenum
 PORTVERSION=	20110728
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A Scientific Times-like font with support for mathematical typesetting.
+COMMENT=	More enumeration options.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
