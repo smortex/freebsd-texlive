@@ -1,0 +1,37 @@
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpcolornames/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpcolornames/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpcolornames/README
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpcolornames/expl-array-index.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpcolornames/fig-clash-svg-dvips.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpcolornames/mpcolornames.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpcolornames/mpcolornames.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpcolornames/proof-mpcolornames.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpcolornames/proof-spec-dvipsnam-def.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpcolornames/proof-spec-plain-mp.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpcolornames/proof-spec-svgnam-def.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpcolornames/proof-spec-x11nam-def.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpcolornames/proof-spec-xcolor-sty.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpcolornames/tab-clash-svg-dvips.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpcolornames/tab-spec-dvipsnam-def.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpcolornames/tab-spec-plain-mp.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpcolornames/tab-spec-svgnam-def.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpcolornames/tab-spec-x11nam-def.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mpcolornames/tab-spec-xcolor-sty.tex
+share/texmf-dist/metapost/mpcolornames/mpcolornames-spec-dvipsnam-def.mp
+share/texmf-dist/metapost/mpcolornames/mpcolornames-spec-plain-mp.mp
+share/texmf-dist/metapost/mpcolornames/mpcolornames-spec-svgnam-def.mp
+share/texmf-dist/metapost/mpcolornames/mpcolornames-spec-x11nam-def.mp
+share/texmf-dist/metapost/mpcolornames/mpcolornames-spec-xcolor-sty.mp
+share/texmf-dist/metapost/mpcolornames/mpcolornames.mp
+%%PORTSRC%%share/texmf-dist/source/metapost/mpcolornames/Makefile
+%%PORTSRC%%share/texmf-dist/source/metapost/mpcolornames/spec-dvipsnam-def.awk
+%%PORTSRC%%share/texmf-dist/source/metapost/mpcolornames/spec-plain-mp.awk
+%%PORTSRC%%share/texmf-dist/source/metapost/mpcolornames/spec-svgnam-def.awk
+%%PORTSRC%%share/texmf-dist/source/metapost/mpcolornames/spec-x11nam-def.awk
+%%PORTSRC%%share/texmf-dist/source/metapost/mpcolornames/spec-xcolor-sty.awk
+%%PORTSRC%%share/texmf-dist/source/metapost/mpcolornames/tab-clash-svg-dvips.awk
+@dirrmtry share/texmf-dist/source/metapost/mpcolornames
+@dirrmtry share/texmf-dist/metapost/mpcolornames
+@dirrmtry share/texmf-dist/doc/metapost/mpcolornames
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
