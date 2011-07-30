@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	bibleref-french
-PORTVERSION=	20110418
+PORTVERSION=	20110730
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	French translations for bibleref.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
