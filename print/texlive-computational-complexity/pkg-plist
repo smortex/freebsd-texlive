@@ -26,6 +26,7 @@ share/texmf-dist/tex/latex/computational-complexity/ccdbs.sty
 share/texmf-dist/tex/latex/computational-complexity/cclayout.sty
 share/texmf-dist/tex/latex/computational-complexity/ccproof.sty
 share/texmf-dist/tex/latex/computational-complexity/ccqed.sty
+share/texmf-dist/tex/latex/computational-complexity/ccref.sty
 share/texmf-dist/tex/latex/computational-complexity/ccreltx.sty
 share/texmf-dist/tex/latex/computational-complexity/ccthm.sty
 share/texmf-dist/tex/latex/computational-complexity/relabel.sty

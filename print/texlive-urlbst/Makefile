@@ -6,11 +6,13 @@
 #
 
 PORTNAME=	urlbst
-PORTVERSION=	20110724
+PORTVERSION=	20110730
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Web support for BibTeX.
+
+RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
