@@ -10,6 +10,9 @@ share/texmf-dist/bibtex/csf/persian-bib/cp1256fa.csf
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/persian-bib/Persian-bib-userguide.pdf
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/persian-bib/Persian-bib-userguide.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/persian-bib/README
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/persian-bib/bibtex-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/persian-bib/bibtex-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/persian-bib/gen_pdf.pl
 @dirrmtry share/texmf-dist/doc/xelatex/persian-bib
 @dirrmtry share/texmf-dist/bibtex/csf/persian-bib
 @dirrmtry share/texmf-dist/bibtex/bst/persian-bib

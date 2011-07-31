@@ -7,7 +7,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-node/pst-node-doc.bib
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-node/pst-node-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-node/pst-node-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-node/pst-node97.tex
 share/texmf-dist/dvips/pst-node/pst-node.pro
+share/texmf-dist/dvips/pst-node/pst-node97.pro
 %%PORTSRC%%share/texmf-dist/source/generic/pst-node/Makefile
 share/texmf-dist/tex/generic/pst-node/pst-node.tex
 share/texmf-dist/tex/latex/pst-node/pst-node.sty
