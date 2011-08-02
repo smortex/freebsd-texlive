@@ -1,12 +1,12 @@
-# New ports collection makefile for:	texlive-xpackages
-# Date created:		13/03/2010 04:38:16
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-l3packages
+# Date created:		08/02/2011 05:06:20
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	xpackages
-PORTVERSION=	20110510
+PORTNAME=	l3packages
+PORTVERSION=	20110802
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

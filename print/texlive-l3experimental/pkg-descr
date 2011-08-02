@@ -1,0 +1,9 @@
+The l3experimental packages are a collection of experimental
+implementations for aspects of the LaTeX3 kernel, dealing with
+higher-level ideas such as the Designer Interface. Some of them
+work as stand alone packages, providing new functionality, and
+can be used on top of LaTeX2e with no changes to the existing
+kernel. The present release includes: - l3coffins: kernel
+support for xcoffins; and - xcoffins, which allows the
+alignment of boxes using a series of 'handle' positions,
+supplementing the simple TeX reference point.

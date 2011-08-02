@@ -1,0 +1,63 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/expl3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/interface3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/source3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/source3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/source3body.tex
+share/texmf-dist/makeindex/l3kernel/l3doc.ist
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/expl3.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3alloc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3basics.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3bootstrap.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3box.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3clist.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3doc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3expan.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3file.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3final.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3fp.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3int.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3io.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3keys.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3keyval.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3luatex.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3msg.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3names.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3prg.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3prop.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3quark.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3seq.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3skip.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3tl.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3token.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3toks.dtx
+share/texmf-dist/tex/latex/l3kernel/expl3.sty
+share/texmf-dist/tex/latex/l3kernel/l3basics.sty
+share/texmf-dist/tex/latex/l3kernel/l3bootstrap.sty
+share/texmf-dist/tex/latex/l3kernel/l3box.sty
+share/texmf-dist/tex/latex/l3kernel/l3clist.sty
+share/texmf-dist/tex/latex/l3kernel/l3doc.cls
+share/texmf-dist/tex/latex/l3kernel/l3expan.sty
+share/texmf-dist/tex/latex/l3kernel/l3file.sty
+share/texmf-dist/tex/latex/l3kernel/l3fp.sty
+share/texmf-dist/tex/latex/l3kernel/l3int.sty
+share/texmf-dist/tex/latex/l3kernel/l3io.sty
+share/texmf-dist/tex/latex/l3kernel/l3keys.sty
+share/texmf-dist/tex/latex/l3kernel/l3keyval.sty
+share/texmf-dist/tex/latex/l3kernel/l3luatex.sty
+share/texmf-dist/tex/latex/l3kernel/l3msg.sty
+share/texmf-dist/tex/latex/l3kernel/l3names.sty
+share/texmf-dist/tex/latex/l3kernel/l3prg.sty
+share/texmf-dist/tex/latex/l3kernel/l3prop.sty
+share/texmf-dist/tex/latex/l3kernel/l3quark.sty
+share/texmf-dist/tex/latex/l3kernel/l3seq.sty
+share/texmf-dist/tex/latex/l3kernel/l3skip.sty
+share/texmf-dist/tex/latex/l3kernel/l3tl.sty
+share/texmf-dist/tex/latex/l3kernel/l3token.sty
+share/texmf-dist/tex/latex/l3kernel/l3toks.sty
+@dirrmtry share/texmf-dist/tex/latex/l3kernel
+@dirrmtry share/texmf-dist/source/latex/l3kernel
+@dirrmtry share/texmf-dist/makeindex/l3kernel
+@dirrmtry share/texmf-dist/doc/latex/l3kernel
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

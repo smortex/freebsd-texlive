@@ -1,0 +1,32 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/l3packages/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/l3packages/l3keys2e/l3keys2e.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/l3packages/xfrac/xfrac.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/l3packages/xparse/xparse.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/l3packages/xtemplate/xtemplate.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/l3packages/l3keys2e/l3keys2e.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3packages/l3keys2e/l3keys2e.ins
+%%PORTSRC%%share/texmf-dist/source/latex/l3packages/xfrac/xfrac.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3packages/xfrac/xfrac.ins
+%%PORTSRC%%share/texmf-dist/source/latex/l3packages/xparse/xparse.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3packages/xparse/xparse.ins
+%%PORTSRC%%share/texmf-dist/source/latex/l3packages/xtemplate/xtemplate.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3packages/xtemplate/xtemplate.ins
+share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+share/texmf-dist/tex/latex/l3packages/xfrac/xfrac.sty
+share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+share/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+@dirrmtry share/texmf-dist/tex/latex/l3packages/xtemplate
+@dirrmtry share/texmf-dist/tex/latex/l3packages/xparse
+@dirrmtry share/texmf-dist/tex/latex/l3packages/xfrac
+@dirrmtry share/texmf-dist/tex/latex/l3packages/l3keys2e
+@dirrmtry share/texmf-dist/source/latex/l3packages/xtemplate
+@dirrmtry share/texmf-dist/source/latex/l3packages/xparse
+@dirrmtry share/texmf-dist/source/latex/l3packages/xfrac
+@dirrmtry share/texmf-dist/source/latex/l3packages/l3keys2e
+@dirrmtry share/texmf-dist/doc/latex/l3packages/xtemplate
+@dirrmtry share/texmf-dist/doc/latex/l3packages/xparse
+@dirrmtry share/texmf-dist/doc/latex/l3packages/xfrac
+@dirrmtry share/texmf-dist/doc/latex/l3packages/l3keys2e
+@dirrmtry share/texmf-dist/doc/latex/l3packages
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

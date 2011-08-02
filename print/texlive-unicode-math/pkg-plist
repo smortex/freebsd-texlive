@@ -5,6 +5,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/unicode-math/unimath-symbols.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/Makefile
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/F-alph-spaces.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/F-arrow-accents.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/F-mathstyle-french.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/F-mathstyle-iso.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/F-mathstyle-literal.ltx
@@ -16,6 +17,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/F-slash-delim-2.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/F-sqrt-n.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/F-sqrt.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/L-sscale-dimen.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/L600a.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/L600b.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/L600c.ltx
@@ -29,10 +31,6 @@
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/L604b.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/L650a.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/L650b.ltx
-%%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/L700a.ltx
-%%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/L700b.ltx
-%%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/L700c.ltx
-%%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/L700d.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/X002a.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/X002b.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/X002c.ltx
@@ -148,7 +146,9 @@
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/X600d.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/X600f.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/X601a.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/X601b.ignore.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/X601b.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/X601f.ignore.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/X601f.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/X604a.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/X604b.ltx
@@ -156,8 +156,6 @@
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/X620b.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/X650a.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/X650b.ltx
-%%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/X700a.ltx
-%%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/X700b.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/umtest-preamble.tex
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/umtest-suite-F.tex
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/testfiles/umtest-suite-L.tex
@@ -166,6 +164,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/unicode-math.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/unicode-math/unimath-symbols.ltx
 share/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex
+share/texmf-dist/tex/latex/unicode-math/unicode-math.lua
 share/texmf-dist/tex/latex/unicode-math/unicode-math.sty
 @dirrmtry share/texmf-dist/tex/latex/unicode-math
 @dirrmtry share/texmf-dist/source/latex/unicode-math/testfiles
