@@ -105,3 +105,6 @@ print/texlive-tablenotes||2011-05-23|Upstream support dropped
 print/texlive-sfheaders||2011-05-25|Upstream support dropped
 print/texlive-em||2011-07-21|Upstream support dropped
 print/texlive-ppower4||2011-07-28|Upstream support dropped
+print/texlive-expl3||2011-08-02|Upstream support dropped
+print/texlive-msuthesis||2011-08-02|Upstream support dropped
+print/texlive-xpackages||2011-08-02|Upstream support dropped

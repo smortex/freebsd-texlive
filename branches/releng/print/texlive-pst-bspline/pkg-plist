@@ -1,10 +1,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-bspline/README
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-bspline/pst-bspline-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-bspline/pst-bspline-doc.tex
+share/texmf-dist/dvips/pst-bspline/pst-bspline.pro
 share/texmf-dist/tex/generic/pst-bspline/pst-bspline.tex
 share/texmf-dist/tex/latex/pst-bspline/pst-bspline.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-bspline
 @dirrmtry share/texmf-dist/tex/generic/pst-bspline
+@dirrmtry share/texmf-dist/dvips/pst-bspline
 @dirrmtry share/texmf-dist/doc/generic/pst-bspline
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

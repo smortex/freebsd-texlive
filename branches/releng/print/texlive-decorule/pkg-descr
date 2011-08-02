@@ -1,0 +1,6 @@
+The package implements a decorative swelled rule using only a
+symbol from a font installed with all distributions of TeX, so
+it works independently, without the need to install any
+additional software or fonts. This is the packaged version of
+the macro which was originally published in the "Typographers'
+Inn" column in TUGboat 31:1 (2010).

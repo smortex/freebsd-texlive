@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/decorule/MANIFEST
+%%PORTDOCS%%share/texmf-dist/doc/latex/decorule/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/decorule/decorule.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/decorule/decorule.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/decorule/decorule.ins
+share/texmf-dist/tex/latex/decorule/decorule.sty
+@dirrmtry share/texmf-dist/tex/latex/decorule
+@dirrmtry share/texmf-dist/source/latex/decorule
+@dirrmtry share/texmf-dist/doc/latex/decorule
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

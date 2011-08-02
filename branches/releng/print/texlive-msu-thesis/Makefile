@@ -1,12 +1,12 @@
-# New ports collection makefile for:	texlive-msuthesis
-# Date created:		12/15/2010 05:04:57
+# New ports collection makefile for:	texlive-msu-thesis
+# Date created:		08/02/2011 05:10:17
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	msuthesis
-PORTVERSION=	20101221
+PORTNAME=	msu-thesis
+PORTVERSION=	20110802
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
