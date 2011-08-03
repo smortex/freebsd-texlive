@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/luatex/interpreter/README
+%%PORTDOCS%%share/texmf-dist/doc/luatex/interpreter/interpreter-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/interpreter/interpreter-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/interpreter/interpreter-doc.txt
+share/texmf-dist/scripts/interpreter/i-doc.lua
+share/texmf-dist/scripts/interpreter/interpreter.lua
+share/texmf-dist/tex/luatex/interpreter/interpreter.sty
+share/texmf-dist/tex/luatex/interpreter/interpreter.tex
+@dirrmtry share/texmf-dist/tex/luatex/interpreter
+@dirrmtry share/texmf-dist/scripts/interpreter
+@dirrmtry share/texmf-dist/doc/luatex/interpreter
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

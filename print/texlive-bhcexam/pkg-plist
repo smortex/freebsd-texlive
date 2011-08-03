@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bhcexam/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/bhcexam/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/bhcexam/test1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/bhcexam/test2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/bhcexam/test3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/bhcexam/test4.tex
+%%PORTSRC%%share/texmf-dist/source/latex/bhcexam/BHCexam.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/bhcexam/BHCexam.ins
+share/texmf-dist/tex/latex/bhcexam/BHCexam.cfg
+share/texmf-dist/tex/latex/bhcexam/BHCexam.cls
+@dirrmtry share/texmf-dist/tex/latex/bhcexam
+@dirrmtry share/texmf-dist/source/latex/bhcexam
+@dirrmtry share/texmf-dist/doc/latex/bhcexam
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

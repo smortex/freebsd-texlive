@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-bclogo
-# Date created:		13/03/2010 04:55:59
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-interpreter
+# Date created:		08/03/2011 05:05:53
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	bclogo
+PORTNAME=	interpreter
 PORTVERSION=	20110803
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Creating colourful boxes with logos.
+COMMENT=	Translate input files on the fly.
 
 NOPORTSRC=	yes
 

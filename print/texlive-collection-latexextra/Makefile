@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110802
+PORTVERSION=	20110803
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -188,6 +188,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/beton/beton.sty:${PORTSDIR}/print/texlive-beton \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bez123/bez123.sty:${PORTSDIR}/print/texlive-bez123 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bezos/accents.sty:${PORTSDIR}/print/texlive-bezos \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bhcexam/BHCexam.cfg:${PORTSDIR}/print/texlive-bhcexam \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bigfoot/bigfoot.sty:${PORTSDIR}/print/texlive-bigfoot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bigints/bigints.sty:${PORTSDIR}/print/texlive-bigints \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bizcard/bizcard.sty:${PORTSDIR}/print/texlive-bizcard \
