@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110802
+PORTVERSION=	20110803
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -733,6 +733,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/beton/beton.sty:${PORTSDIR}/print/texlive-beton \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bez123/bez123.sty:${PORTSDIR}/print/texlive-bez123 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bezos/accents.sty:${PORTSDIR}/print/texlive-bezos \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bhcexam/BHCexam.cfg:${PORTSDIR}/print/texlive-bhcexam \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bigfoot/bigfoot.sty:${PORTSDIR}/print/texlive-bigfoot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bigints/bigints.sty:${PORTSDIR}/print/texlive-bigints \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bizcard/bizcard.sty:${PORTSDIR}/print/texlive-bizcard \
@@ -1494,6 +1495,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/url/url.sty:${PORTSDIR}/print/texlive-url \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xcolor/xcolor.sty:${PORTSDIR}/print/texlive-xcolor \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex:${PORTSDIR}/print/texlive-xkeyval \
+		${LOCALBASE}/share/texmf-dist/tex/luatex/interpreter/interpreter.sty:${PORTSDIR}/print/texlive-interpreter \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luacode/luacode.sty:${PORTSDIR}/print/texlive-luacode \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luainputenc/luainputenc.sty:${PORTSDIR}/print/texlive-luainputenc \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.sty:${PORTSDIR}/print/texlive-lualatex-math \
@@ -1831,6 +1833,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/arabxetex/arabxetex.sty:${PORTSDIR}/print/texlive-arabxetex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/euenc/eu1enc.def:${PORTSDIR}/print/texlive-euenc \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fixlatvian/fixlatvian.sty:${PORTSDIR}/print/texlive-fixlatvian \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/fontbook/fontbook.sty:${PORTSDIR}/print/texlive-fontbook \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fontwrap/fontwrap.sty:${PORTSDIR}/print/texlive-fontwrap \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/mathspec/mathspec.sty:${PORTSDIR}/print/texlive-mathspec \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/philokalia/philokalia.sty:${PORTSDIR}/print/texlive-philokalia \

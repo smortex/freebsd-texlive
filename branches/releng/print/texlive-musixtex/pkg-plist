@@ -107,6 +107,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/psslurs/slurs.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/reference/musixre1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/reference/musixre1.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/scripts/musixflx.1
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/scripts/musixflx.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/scripts/musixtex.1
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/scripts/musixtex.pdf
+share/texmf-dist/dvips/musixtex/psslurs.pro
 share/texmf-dist/fonts/map/dvips/musixtex/musix.map
 share/texmf-dist/fonts/source/public/musixtex/musexgen.mf
 share/texmf-dist/fonts/source/public/musixtex/musix11.mf
@@ -343,10 +348,6 @@ share/texmf-dist/fonts/type1/public/musixtex/xslz20d.pfb
 share/texmf-dist/fonts/type1/public/musixtex/xtie20.pfb
 share/texmf-dist/scripts/musixtex/Windows/musixflx.bat
 share/texmf-dist/scripts/musixtex/Windows/musixtex.bat
-share/texmf-dist/scripts/musixtex/doc/musixflx.1
-share/texmf-dist/scripts/musixtex/doc/musixflx.pdf
-share/texmf-dist/scripts/musixtex/doc/musixtex.1
-share/texmf-dist/scripts/musixtex/doc/musixtex.pdf
 share/texmf-dist/scripts/musixtex/musixflx.lua
 share/texmf-dist/scripts/musixtex/musixtex.lua
 %%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/doc.tex
@@ -404,13 +405,14 @@ share/texmf-dist/tex/latex/musixtex/musixtex.sty
 @dirrmtry share/texmf-dist/tex/latex/musixtex
 @dirrmtry share/texmf-dist/tex/generic/musixtex
 @dirrmtry share/texmf-dist/source/generic/musixtex/musixcrd
-@dirrmtry share/texmf-dist/scripts/musixtex/doc
 @dirrmtry share/texmf-dist/scripts/musixtex/Windows
 @dirrmtry share/texmf-dist/scripts/musixtex
 @dirrmtry share/texmf-dist/fonts/type1/public/musixtex
 @dirrmtry share/texmf-dist/fonts/tfm/public/musixtex
 @dirrmtry share/texmf-dist/fonts/source/public/musixtex
 @dirrmtry share/texmf-dist/fonts/map/dvips/musixtex
+@dirrmtry share/texmf-dist/dvips/musixtex
+@dirrmtry share/texmf-dist/doc/generic/musixtex/scripts
 @dirrmtry share/texmf-dist/doc/generic/musixtex/reference
 @dirrmtry share/texmf-dist/doc/generic/musixtex/psslurs
 @dirrmtry share/texmf-dist/doc/generic/musixtex/psfonts

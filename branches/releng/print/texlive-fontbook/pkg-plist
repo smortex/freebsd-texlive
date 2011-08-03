@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/fontbook/README
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/fontbook/fontbook-freefonts.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/fontbook/fontbook-freefonts.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/fontbook/fontbook.pdf
+%%PORTSRC%%share/texmf-dist/source/xelatex/fontbook/fontbook.dtx
+%%PORTSRC%%share/texmf-dist/source/xelatex/fontbook/fontbook.ins
+share/texmf-dist/tex/xelatex/fontbook/fontbook.sty
+@dirrmtry share/texmf-dist/tex/xelatex/fontbook
+@dirrmtry share/texmf-dist/source/xelatex/fontbook
+@dirrmtry share/texmf-dist/doc/xelatex/fontbook
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
