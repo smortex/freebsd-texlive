@@ -134,6 +134,7 @@ share/texmf-dist/makeindex/latex/gind.ist
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltnews17.tex
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltnews18.tex
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltnews19.tex
+%%PORTSRC%%share/texmf-dist/source/latex/base/ltnews20.tex
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltoutenc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltoutenc.ins
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltoutput.dtx

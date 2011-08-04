@@ -33,7 +33,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/gfx/example_2.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/gfx/example_3.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/gfx/example_4.jpg
-share/texmf-dist/tex/latex/classicthesis/classicthesis-ldpkg.sty
+share/texmf-dist/tex/latex/classicthesis/classicthesis-preamble.sty
 share/texmf-dist/tex/latex/classicthesis/classicthesis.sty
 @dirrmtry share/texmf-dist/tex/latex/classicthesis
 @dirrmtry share/texmf-dist/doc/latex/classicthesis/gfx

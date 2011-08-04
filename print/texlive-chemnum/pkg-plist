@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/bsp.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/chemnum_doc_de.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/chemnum_doc_de.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/chemnum_doc_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/chemnum_doc_en.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/scheme-bla.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/scheme-tmp.eps
+share/texmf-dist/tex/latex/chemnum/chemnum.sty
+@dirrmtry share/texmf-dist/tex/latex/chemnum
+@dirrmtry share/texmf-dist/doc/latex/chemnum
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

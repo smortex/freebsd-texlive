@@ -2,7 +2,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/morefloats/morefloats-example.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/morefloats/morefloats-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/morefloats/morefloats.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/morefloats/ltxdoc.cfg
 %%PORTSRC%%share/texmf-dist/source/latex/morefloats/morefloats.drv
 %%PORTSRC%%share/texmf-dist/source/latex/morefloats/morefloats.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/morefloats/morefloats.ins
