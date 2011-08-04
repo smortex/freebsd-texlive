@@ -2,7 +2,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/bidi.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/bidisample2e.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/bidismall2e.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/bidi/ctg.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/gull.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/picture.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/presentation-sample.tex
@@ -42,6 +41,14 @@ share/texmf-dist/tex/latex/bidi/bidiftnxtra.sty
 share/texmf-dist/tex/latex/bidi/bidimoderncv.cls
 share/texmf-dist/tex/latex/bidi/bidipoem.sty
 share/texmf-dist/tex/latex/bidi/bidipresentation.cls
+share/texmf-dist/tex/latex/bidi/biditufte-book.cls
+share/texmf-dist/tex/latex/bidi/biditufte-handout.cls
+share/texmf-dist/tex/latex/bidi/bidituftefloat.sty
+share/texmf-dist/tex/latex/bidi/bidituftegeneralstructure.sty
+share/texmf-dist/tex/latex/bidi/bidituftehyperref.sty
+share/texmf-dist/tex/latex/bidi/bidituftesidenote.sty
+share/texmf-dist/tex/latex/bidi/bidituftetitle.sty
+share/texmf-dist/tex/latex/bidi/bidituftetoc.sty
 share/texmf-dist/tex/latex/bidi/boek-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/boek3-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/book-xetex-bidi.def
@@ -68,6 +75,7 @@ share/texmf-dist/tex/latex/bidi/footnote-luatex-bidi.def
 share/texmf-dist/tex/latex/bidi/footnote-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/framed-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/graphicx-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/hvfloat-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/hyperref-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/leqno-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/letter-xetex-bidi.def
@@ -79,6 +87,7 @@ share/texmf-dist/tex/latex/bidi/memoir-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/minitoc-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/multicol-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/multienum-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/natbib-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/pdfpages-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/pgf-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/plain-luatex-bidi.def
@@ -94,6 +103,7 @@ share/texmf-dist/tex/latex/bidi/scrartcl-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/scrbook-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/scrlettr-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/scrreprt-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/sidecap-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/stabular-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/subfigure-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/tabls-xetex-bidi.def
