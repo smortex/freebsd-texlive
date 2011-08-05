@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	decimal
-PORTVERSION=	20100922
+PORTVERSION=	20110805
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	LaTeX package for the English raised decimal point.
 
-NOPORTDOCS=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

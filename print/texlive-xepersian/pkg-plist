@@ -1,5 +1,4 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/README
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/ctg.jpg
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/ftxe-0.11.py
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/img/ireland.jpg
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/img/weather/clouds.jpg
@@ -26,6 +25,7 @@ share/texmf-dist/tex/xelatex/xepersian/artikel3-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/backref-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/bidicode-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/bidimoderncv-xepersian.def
+share/texmf-dist/tex/xelatex/xepersian/bidituftesidenote-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/boek-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/boek3-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/book-xepersian.def
@@ -40,6 +40,7 @@ share/texmf-dist/tex/xelatex/xepersian/environments-ltx.def
 share/texmf-dist/tex/xelatex/xepersian/environments-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/extarticle-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/extbook-xepersian.def
+share/texmf-dist/tex/xelatex/xepersian/extrafootnotefeatures-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/extreport-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/flowfram-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/footnote-bidi-xepersian.def
@@ -53,6 +54,7 @@ share/texmf-dist/tex/xelatex/xepersian/messages-localise.def
 share/texmf-dist/tex/xelatex/xepersian/minitoc-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/misc-localise-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/multicol-xepersian.def
+share/texmf-dist/tex/xelatex/xepersian/natbib-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/packages-localise-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/rapport1-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/rapport3-xepersian.def

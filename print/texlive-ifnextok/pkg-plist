@@ -1,9 +1,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/ifnextok/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ifnextok/RELEASEs.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/ifnextok/SRCFILEs.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/ifnextok/ifnextok.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ifnextok/testIfNT.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/ifnextok/ifnextok.tex
 %%PORTSRC%%share/texmf-dist/source/latex/ifnextok/makedoc.cfg
 %%PORTSRC%%share/texmf-dist/source/latex/ifnextok/srcfiles.tex
+%%PORTSRC%%share/texmf-dist/source/latex/ifnextok/testIfNT.tex
 share/texmf-dist/tex/latex/ifnextok/ifnextok.sty
 @dirrmtry share/texmf-dist/tex/latex/ifnextok
 @dirrmtry share/texmf-dist/source/latex/ifnextok
