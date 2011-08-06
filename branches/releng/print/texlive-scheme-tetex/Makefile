@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-tetex
-PORTVERSION=	20110802
+PORTVERSION=	20110806
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -103,6 +103,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/fontinst/base/fontinst.sty:${PORTSDIR}/print/texlive-fontinst \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/fontools/fontools_ly1.enc:${PORTSDIR}/print/texlive-fontools \
 		${LOCALBASE}/share/texmf/dvips/getafm/getafm.ps:${PORTSDIR}/print/texlive-getafm \
+		${LOCALBASE}/share/texmf-dist/metapost/mf2pt1/mf2pt1.mp:${PORTSDIR}/print/texlive-mf2pt1 \
 		${LOCALBASE}/share/texmf-dist/fonts/sfd/ttf2pk/Big5.sfd:${PORTSDIR}/print/texlive-ttfutils \
 		${LOCALBASE}/share/texmf-dist/dvips/avantgar/config.uag:${PORTSDIR}/print/texlive-avantgar \
 		${LOCALBASE}/share/texmf-dist/dvips/bookman/config.ubk:${PORTSDIR}/print/texlive-bookman \
