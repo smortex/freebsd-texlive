@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	tex
-PORTVERSION=	20110721
+PORTVERSION=	20110806
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -14,6 +14,7 @@ MAINTAINER=	romain@FreeBSD.org
 COMMENT=	A sophisticated typesetting engine.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
+		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
 NOPORTSRC=	yes

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	mex
-PORTVERSION=	20110721
+PORTVERSION=	20110806
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
@@ -17,6 +17,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/dvips/pl/config.pl:${PORTSDIR}/print/
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8 \
 		${LOCALBASE}/share/texmf/fonts/map/pdftex/updmap/pdftex.map:${PORTSDIR}/print/texlive-pdftex \
 		${LOCALBASE}/share/texmf/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
+		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
 
