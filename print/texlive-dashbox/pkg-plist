@@ -1,7 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/dashbox/dashbox.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/dashbox/dashbox.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/dashbox/dashbox.ins
 share/texmf-dist/tex/latex/dashbox/dashbox.sty
 @dirrmtry share/texmf-dist/tex/latex/dashbox
 @dirrmtry share/texmf-dist/source/latex/dashbox
+@dirrmtry share/texmf-dist/doc/latex/dashbox
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
