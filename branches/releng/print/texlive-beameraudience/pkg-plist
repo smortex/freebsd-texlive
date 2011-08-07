@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/beameraudience/README
+share/texmf-dist/tex/latex/beameraudience/beameraudience.sty
+@dirrmtry share/texmf-dist/tex/latex/beameraudience
+@dirrmtry share/texmf-dist/doc/latex/beameraudience
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
