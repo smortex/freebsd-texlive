@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamersubframe/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamersubframe/beamersubframe-append.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamersubframe/beamersubframe-append.svg
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamersubframe/beamersubframe-embed.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamersubframe/beamersubframe-embed.svg
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamersubframe/beamersubframe.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamersubframe/beamersubframe.tex
+share/texmf-dist/tex/latex/beamersubframe/beamersubframe.sty
+@dirrmtry share/texmf-dist/tex/latex/beamersubframe
+@dirrmtry share/texmf-dist/doc/latex/beamersubframe
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

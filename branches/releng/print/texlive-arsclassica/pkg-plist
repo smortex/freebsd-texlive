@@ -1,4 +1,3 @@
-share/texmf-dist/bibtex/bst/arsclassica/classic.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/ArsClassica.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/ArsClassica.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Bibliography.bib
@@ -18,40 +17,15 @@ share/texmf-dist/bibtex/bst/arsclassica/classic.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Graphics/Example_3.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Graphics/Example_4.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Graphics/GuITlogo.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Italian/ArsClassica.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Italian/ArsClassica.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Italian/Bibliografia.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Italian/Capitoli/Basi.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Italian/Capitoli/Codice.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Italian/Immagini/LogoGuIT.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Italian/Immagini/Uccelli.jpg
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Italian/Immagini/esempio_1.jpg
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Italian/Immagini/esempio_2.jpg
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Italian/Immagini/esempio_3.jpg
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Italian/Immagini/esempio_4.jpg
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Italian/MaterialeInizialeFinale/Bibliografia.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Italian/MaterialeInizialeFinale/DietroAlTitolo.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Italian/MaterialeInizialeFinale/Frontespizio.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Italian/MaterialeInizialeFinale/IndiceAnalitico.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Italian/MaterialeInizialeFinale/Indici.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Italian/MaterialeInizialeFinale/Ringraziamenti.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Italian/MaterialeInizialeFinale/Sommario+Abstract.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Italian/arsclassica.sty
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Italian/italadhoc.sty
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/arsclassica-preamble.tex
 share/texmf-dist/makeindex/arsclassica/classic.ist
-share/texmf-dist/tex/latex/arsclassica/adhoc.sty
 share/texmf-dist/tex/latex/arsclassica/arsclassica.sty
 @dirrmtry share/texmf-dist/tex/latex/arsclassica
 @dirrmtry share/texmf-dist/makeindex/arsclassica
-@dirrmtry share/texmf-dist/doc/latex/arsclassica/Italian/MaterialeInizialeFinale
-@dirrmtry share/texmf-dist/doc/latex/arsclassica/Italian/Immagini
-@dirrmtry share/texmf-dist/doc/latex/arsclassica/Italian/Capitoli
-@dirrmtry share/texmf-dist/doc/latex/arsclassica/Italian
 @dirrmtry share/texmf-dist/doc/latex/arsclassica/Graphics
 @dirrmtry share/texmf-dist/doc/latex/arsclassica/FrontBackMatter
 @dirrmtry share/texmf-dist/doc/latex/arsclassica/Chapters
 @dirrmtry share/texmf-dist/doc/latex/arsclassica
-@dirrmtry share/texmf-dist/bibtex/bst/arsclassica
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

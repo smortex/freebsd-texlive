@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/plain/getoptk/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/plain/getoptk/COPYING-FR
+%%PORTDOCS%%share/texmf-dist/doc/plain/getoptk/README
+%%PORTDOCS%%share/texmf-dist/doc/plain/getoptk/guide.pdf
+share/texmf-dist/tex/plain/getoptk/getoptk.tex
+@dirrmtry share/texmf-dist/tex/plain/getoptk
+@dirrmtry share/texmf-dist/doc/plain/getoptk
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

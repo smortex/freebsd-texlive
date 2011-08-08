@@ -1,0 +1,8 @@
+share/texmf-dist/bibtex/bst/vak/vak.bst
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/vak/README
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/vak/test-key.zip
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/vak/test.zip
+@dirrmtry share/texmf-dist/doc/bibtex/vak
+@dirrmtry share/texmf-dist/bibtex/bst/vak
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

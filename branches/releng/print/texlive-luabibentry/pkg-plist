@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luabibentry/News
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luabibentry/README
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luabibentry/luabibentry.pdf
+%%PORTSRC%%share/texmf-dist/source/lualatex/luabibentry/Makefile
+%%PORTSRC%%share/texmf-dist/source/lualatex/luabibentry/luabibentry.dtx
+share/texmf-dist/tex/lualatex/luabibentry/luabibentry.lua
+share/texmf-dist/tex/lualatex/luabibentry/luabibentry.sty
+@dirrmtry share/texmf-dist/tex/lualatex/luabibentry
+@dirrmtry share/texmf-dist/source/lualatex/luabibentry
+@dirrmtry share/texmf-dist/doc/lualatex/luabibentry
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
