@@ -1,0 +1,12 @@
+share/texmf-dist/bibtex/bst/cascadilla/cascadilla.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/cascadilla/LICENSE.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/cascadilla/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/cascadilla/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cascadilla/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cascadilla/exampleref.bib
+share/texmf-dist/tex/latex/cascadilla/cascadilla.cls
+@dirrmtry share/texmf-dist/tex/latex/cascadilla
+@dirrmtry share/texmf-dist/doc/latex/cascadilla
+@dirrmtry share/texmf-dist/bibtex/bst/cascadilla
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

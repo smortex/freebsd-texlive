@@ -1,0 +1,4 @@
+Float text around figures and tables which do not span the full
+width of a page, improving upon floatfig, allowing
+tables/figures to be set left/right or alternating on even/odd
+pages.

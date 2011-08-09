@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/srbook-mem/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/srbook-mem/SerbianBookMem.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/srbook-mem/SerbianBookMem.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/srbook-mem/Test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/srbook-mem/Test.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/srbook-mem/TestLight.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/srbook-mem/TestLight.tex
+share/texmf-dist/tex/latex/srbook-mem/srbook-mem.sty
+@dirrmtry share/texmf-dist/tex/latex/srbook-mem
+@dirrmtry share/texmf-dist/doc/latex/srbook-mem
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20110721
+PORTVERSION=	20110809
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -87,6 +87,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/adjustbox/adjustbox.sty:${P
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-linknodes/tkz-linknodes.sty:${PORTSDIR}/print/texlive-tkz-linknodes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-orm/tkz-orm.sty:${PORTSDIR}/print/texlive-tkz-orm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-tab/tkz-tab.sty:${PORTSDIR}/print/texlive-tkz-tab \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tsemlines/tsemlines.sty:${PORTSDIR}/print/texlive-tsemlines \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tufte-latex/tufte-book.cls:${PORTSDIR}/print/texlive-tufte-latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xypdf/xypdf.sty:${PORTSDIR}/print/texlive-xypdf \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xypic/xypic.sty:${PORTSDIR}/print/texlive-xypic \

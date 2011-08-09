@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-chemfig
-# Date created:		09/21/2010 11:44:10
+# New ports collection makefile for:	texlive-dutchcal
+# Date created:		08/09/2011 04:44:17
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	chemfig
+PORTNAME=	dutchcal
 PORTVERSION=	20110809
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw molecules with easy syntax.
+COMMENT=	A reworking of ESSTIX13, adding a bold version.
 
 NOPORTSRC=	yes
 

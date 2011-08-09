@@ -1,0 +1,4 @@
+The package provides an environment for syntax highlighting
+source code in LaTeX documents. The highlighted source code
+output is formatted via powerful Pygments library of the Python
+language.
