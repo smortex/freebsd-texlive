@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-chemfig
-# Date created:		09/21/2010 11:44:10
+# New ports collection makefile for:	texlive-tsemlines
+# Date created:		08/09/2011 04:53:20
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	chemfig
+PORTNAME=	tsemlines
 PORTVERSION=	20110809
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw molecules with easy syntax.
+COMMENT=	Support for the ancient \emline macro.
 
+NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

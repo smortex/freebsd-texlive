@@ -1,0 +1,23 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dutchcal/README
+share/texmf-dist/fonts/afm/public/dutchcal/DutchCalBold.afm
+share/texmf-dist/fonts/afm/public/dutchcal/DutchCalReg.afm
+share/texmf-dist/fonts/map/dvips/dutchcal/dutchcal.map
+share/texmf-dist/fonts/tfm/public/dutchcal/dutchcal-b.tfm
+share/texmf-dist/fonts/tfm/public/dutchcal/dutchcal-r.tfm
+share/texmf-dist/fonts/tfm/public/dutchcal/rdutchcalb.tfm
+share/texmf-dist/fonts/tfm/public/dutchcal/rdutchcalr.tfm
+share/texmf-dist/fonts/type1/public/dutchcal/DutchCalBold.pfb
+share/texmf-dist/fonts/type1/public/dutchcal/DutchCalReg.pfb
+share/texmf-dist/fonts/vf/public/dutchcal/dutchcal-b.vf
+share/texmf-dist/fonts/vf/public/dutchcal/dutchcal-r.vf
+share/texmf-dist/tex/latex/dutchcal/dutchcal.sty
+share/texmf-dist/tex/latex/dutchcal/udutchcal.fd
+@dirrmtry share/texmf-dist/tex/latex/dutchcal
+@dirrmtry share/texmf-dist/fonts/vf/public/dutchcal
+@dirrmtry share/texmf-dist/fonts/type1/public/dutchcal
+@dirrmtry share/texmf-dist/fonts/tfm/public/dutchcal
+@dirrmtry share/texmf-dist/fonts/map/dvips/dutchcal
+@dirrmtry share/texmf-dist/fonts/afm/public/dutchcal
+@dirrmtry share/texmf-dist/doc/fonts/dutchcal
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

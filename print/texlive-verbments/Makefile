@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-chemfig
-# Date created:		09/21/2010 11:44:10
+# New ports collection makefile for:	texlive-verbments
+# Date created:		08/09/2011 05:05:19
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	chemfig
+PORTNAME=	verbments
 PORTVERSION=	20110809
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw molecules with easy syntax.
+COMMENT=	Syntax highlighting of source code in LaTeX documents.
 
 NOPORTSRC=	yes
 

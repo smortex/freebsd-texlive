@@ -1,0 +1,3 @@
+Babel defines dates for Serbian texts, in Latin script. The
+style it uses does not match current practices. The present
+package defines a \date command that solves the problem.

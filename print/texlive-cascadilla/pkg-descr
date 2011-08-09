@@ -1,0 +1,5 @@
+The class provides an extension of the standard LaTeX article
+class that may be used to typeset papers conforming to the
+stylesheet of the Cascadilla Proceedings Project, which is used
+by a number of linguistics conference proceedings (e.g.,
+WCCFL).

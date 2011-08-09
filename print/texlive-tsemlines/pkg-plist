@@ -1,0 +1,4 @@
+share/texmf-dist/tex/latex/tsemlines/tsemlines.sty
+@dirrmtry share/texmf-dist/tex/latex/tsemlines
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

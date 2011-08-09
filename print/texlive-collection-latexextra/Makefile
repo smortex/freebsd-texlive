@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110808
+PORTVERSION=	20110809
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -144,6 +144,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-linknodes/tkz-linknodes.sty:${PORTSDIR}/print/texlive-tkz-linknodes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-orm/tkz-orm.sty:${PORTSDIR}/print/texlive-tkz-orm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-tab/tkz-tab.sty:${PORTSDIR}/print/texlive-tkz-tab \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tsemlines/tsemlines.sty:${PORTSDIR}/print/texlive-tsemlines \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tufte-latex/tufte-book.cls:${PORTSDIR}/print/texlive-tufte-latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xypdf/xypdf.sty:${PORTSDIR}/print/texlive-xypdf \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xypic/xypic.sty:${PORTSDIR}/print/texlive-xypic \
@@ -392,6 +393,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/flashcards/flashcards.cls:${PORTSDIR}/print/texlive-flashcards \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flashmovie/flashmovie.sty:${PORTSDIR}/print/texlive-flashmovie \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flippdf/flippdf.sty:${PORTSDIR}/print/texlive-flippdf \
+		${LOCALBASE}/share/texmf-dist/tex/latex/floatflt/floatflt.sty:${PORTSDIR}/print/texlive-floatflt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/floatrow/floatrow.sty:${PORTSDIR}/print/texlive-floatrow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flowfram/flowfram.sty:${PORTSDIR}/print/texlive-flowfram \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fltpage/fltpage.sty:${PORTSDIR}/print/texlive-fltpage \
@@ -719,6 +721,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/semantic/semantic.sty:${PORTSDIR}/print/texlive-semantic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/semioneside/semioneside.sty:${PORTSDIR}/print/texlive-semioneside \
 		${LOCALBASE}/share/texmf-dist/tex/latex/seqsplit/seqsplit.sty:${PORTSDIR}/print/texlive-seqsplit \
+		${LOCALBASE}/share/texmf-dist/tex/latex/serbian-apostrophe/serbian-apostrophe.sty:${PORTSDIR}/print/texlive-serbian-apostrophe \
+		${LOCALBASE}/share/texmf-dist/tex/latex/serbian-date-lat/serbian-date-lat.sty:${PORTSDIR}/print/texlive-serbian-date-lat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/serbian-lig/serbian-lig.sty:${PORTSDIR}/print/texlive-serbian-lig \
 		${LOCALBASE}/share/texmf-dist/tex/generic/serbianc/serbianc.sty:${PORTSDIR}/print/texlive-serbianc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sf298/sf298.sty:${PORTSDIR}/print/texlive-sf298 \
@@ -754,6 +758,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/splitindex/splitindex.tex:${PORTSDIR}/print/texlive-splitindex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spot/spot.sty:${PORTSDIR}/print/texlive-spot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spotcolor/spotcolor.sty:${PORTSDIR}/print/texlive-spotcolor \
+		${LOCALBASE}/share/texmf-dist/tex/latex/srbook-mem/srbook-mem.sty:${PORTSDIR}/print/texlive-srbook-mem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/srcltx/srcltx.sty:${PORTSDIR}/print/texlive-srcltx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sseq/sseq.sty:${PORTSDIR}/print/texlive-sseq \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stack/stack.sty:${PORTSDIR}/print/texlive-stack \
@@ -862,6 +867,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/verbatimbox/verbatimbox.sty:${PORTSDIR}/print/texlive-verbatimbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/verbatimcopy/verbatimcopy.sty:${PORTSDIR}/print/texlive-verbatimcopy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/verbdef/verbdef.sty:${PORTSDIR}/print/texlive-verbdef \
+		${LOCALBASE}/share/texmf-dist/tex/latex/verbments/verbments.sty:${PORTSDIR}/print/texlive-verbments \
 		${LOCALBASE}/share/texmf-dist/tex/latex/version/version.sty:${PORTSDIR}/print/texlive-version \
 		${LOCALBASE}/share/texmf-dist/tex/latex/versions/versions.sty:${PORTSDIR}/print/texlive-versions \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vertbars/vertbars.sty:${PORTSDIR}/print/texlive-vertbars \

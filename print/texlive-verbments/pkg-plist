@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/verbments/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/verbments/verbments.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/verbments/verbments.tex
+share/texmf-dist/tex/latex/verbments/verbments.sty
+@dirrmtry share/texmf-dist/tex/latex/verbments
+@dirrmtry share/texmf-dist/doc/latex/verbments
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

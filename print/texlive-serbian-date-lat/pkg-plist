@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/serbian-date-lat/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/serbian-date-lat/SerbianDateLat.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/serbian-date-lat/SerbianDateLat.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/serbian-date-lat/TestDateLat.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/serbian-date-lat/TestDateLat.tex
+share/texmf-dist/tex/latex/serbian-date-lat/serbian-date-lat.sty
+@dirrmtry share/texmf-dist/tex/latex/serbian-date-lat
+@dirrmtry share/texmf-dist/doc/latex/serbian-date-lat
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
