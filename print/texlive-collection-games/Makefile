@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-games
-PORTVERSION=	20110427
+PORTVERSION=	20110810
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -25,6 +25,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/source/public/bartel-chess-font
 		${LOCALBASE}/share/texmf-dist/tex/latex/hexgame/hexgame.sty:${PORTSDIR}/print/texlive-hexgame \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jeopardy/jeopardy.sty:${PORTSDIR}/print/texlive-jeopardy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/othello/othello.sty:${PORTSDIR}/print/texlive-othello \
+		${LOCALBASE}/share/texmf-dist/tex/latex/othelloboard/othelloboard.sty:${PORTSDIR}/print/texlive-othelloboard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/psgo/psgo.sty:${PORTSDIR}/print/texlive-psgo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sgame/sgame.sty:${PORTSDIR}/print/texlive-sgame \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skak/skak.sty:${PORTSDIR}/print/texlive-skak \

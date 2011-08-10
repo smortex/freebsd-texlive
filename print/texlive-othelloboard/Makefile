@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-rsfso
-# Date created:		02/19/2011 04:44:26
+# New ports collection makefile for:	texlive-othelloboard
+# Date created:		08/10/2011 04:46:48
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	rsfso
+PORTNAME=	othelloboard
 PORTVERSION=	20110810
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A mathematical calligraphic font based on rsfs.
+COMMENT=	Typeset Othello (Reversi) diagrams of any size, with annotations.
 
 NOPORTSRC=	yes
 

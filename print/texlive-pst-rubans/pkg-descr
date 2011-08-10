@@ -1,0 +1,6 @@
+The package uses PStricks and pst-solides3d to draw three
+dimensional ribbons on a cylinder, torus, sphere, cone or
+paraboloid. The width of the ribbon, the number of turns, the
+colour of the outer and the inner surface of the ribbon may be
+set. In the case of circular and conical helices, one may also
+choose the number of ribbons.
