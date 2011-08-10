@@ -1,0 +1,5 @@
+The package enables the user to generate high-quality Othello
+(also known as Reversi) board diagrams of any size. The
+diagrams support annotations, including full game transcripts.
+Automated board or transcript creation, from plain text formats
+standard to WZebra and other programs is also supported.

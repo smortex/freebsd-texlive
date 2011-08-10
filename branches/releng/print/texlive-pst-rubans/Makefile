@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-rsfso
-# Date created:		02/19/2011 04:44:26
+# New ports collection makefile for:	texlive-pst-rubans
+# Date created:		08/10/2011 05:09:04
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	rsfso
+PORTNAME=	pst-rubans
 PORTVERSION=	20110810
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A mathematical calligraphic font based on rsfs.
+COMMENT=	Draw three-dimensional ribbons.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110809
+PORTVERSION=	20110810
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -412,6 +412,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/hexgame/hexgame.sty:${PORTSDIR}/print/texlive-hexgame \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jeopardy/jeopardy.sty:${PORTSDIR}/print/texlive-jeopardy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/othello/othello.sty:${PORTSDIR}/print/texlive-othello \
+		${LOCALBASE}/share/texmf-dist/tex/latex/othelloboard/othelloboard.sty:${PORTSDIR}/print/texlive-othelloboard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/psgo/psgo.sty:${PORTSDIR}/print/texlive-psgo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sgame/sgame.sty:${PORTSDIR}/print/texlive-sgame \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skak/skak.sty:${PORTSDIR}/print/texlive-skak \
@@ -1681,6 +1682,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-plot/pst-plot.tex:${PORTSDIR}/print/texlive-pst-plot \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-poly/pst-poly.tex:${PORTSDIR}/print/texlive-pst-poly \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-qtree/pst-qtree.tex:${PORTSDIR}/print/texlive-pst-qtree \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-rubans/pst-rubans.tex:${PORTSDIR}/print/texlive-pst-rubans \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-sigsys/pst-sigsys.tex:${PORTSDIR}/print/texlive-pst-sigsys \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-slpe/pst-slpe.tex:${PORTSDIR}/print/texlive-pst-slpe \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-spectra/pst-spectra.tex:${PORTSDIR}/print/texlive-pst-spectra \

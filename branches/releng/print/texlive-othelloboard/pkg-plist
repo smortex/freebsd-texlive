@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/othelloboard/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/othelloboard/othelloboard.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/othelloboard/othelloboard.tex
+share/texmf-dist/tex/latex/othelloboard/othelloboard.sty
+@dirrmtry share/texmf-dist/tex/latex/othelloboard
+@dirrmtry share/texmf-dist/doc/latex/othelloboard
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

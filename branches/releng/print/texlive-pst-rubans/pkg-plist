@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-rubans/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-rubans/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-rubans/pst-rubans-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-rubans/pst-rubans-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-rubans/pst-rubans-doc.tex
+%%PORTSRC%%share/texmf-dist/source/generic/pst-rubans/Makefile
+share/texmf-dist/tex/generic/pst-rubans/pst-rubans.tex
+share/texmf-dist/tex/latex/pst-rubans/pst-rubans.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-rubans
+@dirrmtry share/texmf-dist/tex/generic/pst-rubans
+@dirrmtry share/texmf-dist/source/generic/pst-rubans
+@dirrmtry share/texmf-dist/doc/generic/pst-rubans
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
