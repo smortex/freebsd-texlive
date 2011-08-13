@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/match_parens/README
+%%PORTDOCS%%share/texmf-dist/doc/support/match_parens/created.rid
+%%PORTDOCS%%share/texmf-dist/doc/support/match_parens/fr_class_index.html
+%%PORTDOCS%%share/texmf-dist/doc/support/match_parens/fr_file_index.html
+%%PORTDOCS%%share/texmf-dist/doc/support/match_parens/fr_method_index.html
+%%PORTDOCS%%share/texmf-dist/doc/support/match_parens/index.html
+%%PORTDOCS%%share/texmf-dist/doc/support/match_parens/match_parens.html
+%%PORTDOCS%%share/texmf-dist/doc/support/match_parens/rdoc-style.css
+share/texmf-dist/scripts/match_parens/match_parens
+@dirrmtry share/texmf-dist/scripts/match_parens
+@dirrmtry share/texmf-dist/doc/support/match_parens
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

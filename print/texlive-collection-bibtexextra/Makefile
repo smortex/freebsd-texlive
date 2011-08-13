@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20110808
+PORTVERSION=	20110813
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -29,6 +29,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/aichej/aichej.bst:${PORTSD
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-dw/bbx/authortitle-dw.bbx:${PORTSDIR}/print/texlive-biblatex-dw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-historian/historian.bbx:${PORTSDIR}/print/texlive-biblatex-historian \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/biblatex-ieee/biblatex-ieee.bib:${PORTSDIR}/print/texlive-biblatex-ieee \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-juradiss/biblatex-juradiss.bbx:${PORTSDIR}/print/texlive-biblatex-juradiss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-mla/american-mla.lbx:${PORTSDIR}/print/texlive-biblatex-mla \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/biblatex-nature/biblatex-nature.bib:${PORTSDIR}/print/texlive-biblatex-nature \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-philosophy/english-philosophy.lbx:${PORTSDIR}/print/texlive-biblatex-philosophy \

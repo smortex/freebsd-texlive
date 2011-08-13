@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-thumbpdf
-# Date created:		13/03/2010 04:54:06
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-match_parens
+# Date created:		08/13/2011 04:42:14
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	thumbpdf
+PORTNAME=	match_parens
 PORTVERSION=	20110813
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Thumbnails for pdfTeX and dvips/ps2pdf.
+COMMENT=	Easily detect mismatched parens.
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

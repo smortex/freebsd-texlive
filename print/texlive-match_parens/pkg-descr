@@ -1,0 +1,6 @@
+Mismatches of parentheses, braces, (angle) brackets, especially
+in TeX sources which may be rich in those, may be difficult to
+trace. This little script helps you by writing your text to
+standard output, after adding a left margin to your text, which
+will normally be almost empty, but will clearly show any
+mismatches.

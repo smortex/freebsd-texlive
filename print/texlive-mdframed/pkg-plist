@@ -4,7 +4,11 @@
 share/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
 share/texmf-dist/tex/latex/mdframed/md-frame-1.mdf
 share/texmf-dist/tex/latex/mdframed/md-frame-3.mdf
+share/texmf-dist/tex/latex/mdframed/md-framepre-0.mdf
+share/texmf-dist/tex/latex/mdframed/md-framepre-1.mdf
+share/texmf-dist/tex/latex/mdframed/md-framepre-3.mdf
 share/texmf-dist/tex/latex/mdframed/mdframed.sty
+share/texmf-dist/tex/latex/mdframed/mdframedpre.sty
 @dirrmtry share/texmf-dist/tex/latex/mdframed
 @dirrmtry share/texmf-dist/doc/latex/mdframed
 @exec %D/bin/mktexlsr
