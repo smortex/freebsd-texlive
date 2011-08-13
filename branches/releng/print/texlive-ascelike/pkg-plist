@@ -1,5 +1,6 @@
 share/texmf-dist/bibtex/bst/ascelike/ascelike.bst
-%%PORTDOCS%%share/texmf-dist/doc/latex/ascelike/Readme
+%%PORTDOCS%%share/texmf-dist/doc/latex/ascelike/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ascelike/Readme.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/ascelike/ascexmpl.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/ascelike/ascexmpl.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/ascelike/ascexmpl.tex

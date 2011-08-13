@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-juradiss/README
+share/texmf-dist/tex/latex/biblatex-juradiss/biblatex-juradiss.bbx
+share/texmf-dist/tex/latex/biblatex-juradiss/biblatex-juradiss.cbx
+@dirrmtry share/texmf-dist/tex/latex/biblatex-juradiss
+@dirrmtry share/texmf-dist/doc/latex/biblatex-juradiss
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
