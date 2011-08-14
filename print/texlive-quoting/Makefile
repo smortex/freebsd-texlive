@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-l3kernel
-# Date created:		08/02/2011 05:06:20
+# New ports collection makefile for:	texlive-quoting
+# Date created:		08/14/2011 05:02:20
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	l3kernel
+PORTNAME=	quoting
 PORTVERSION=	20110814
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX3 programming conventions.
+COMMENT=	Consolidated environment for displayed text.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

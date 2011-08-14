@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	beamersubframe
-PORTVERSION=	20110808
+PORTVERSION=	20110814
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Reorder frames in the PDF file.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

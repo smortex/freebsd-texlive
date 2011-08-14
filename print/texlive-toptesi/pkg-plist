@@ -1,8 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/FrontespiziAssemblati.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/LPPL.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/manifest.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-doc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-doc.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-doc.xmpdata
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-doc-xetex-a.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-doc-xetex-def.ps
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-doc-xetex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example-xetex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example-xetex.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example.xmpdata

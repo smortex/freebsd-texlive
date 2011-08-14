@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pagecolor/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pagecolor/pagecolor-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pagecolor/pagecolor-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pagecolor/pagecolor.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/pagecolor/pagecolor.drv
+%%PORTSRC%%share/texmf-dist/source/latex/pagecolor/pagecolor.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/pagecolor/pagecolor.ins
+share/texmf-dist/tex/latex/pagecolor/pagecolor.sty
+@dirrmtry share/texmf-dist/tex/latex/pagecolor
+@dirrmtry share/texmf-dist/source/latex/pagecolor
+@dirrmtry share/texmf-dist/doc/latex/pagecolor
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
