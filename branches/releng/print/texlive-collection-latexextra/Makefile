@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110813
+PORTVERSION=	20110814
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -613,6 +613,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/outline/outline.sty:${PORTSDIR}/print/texlive-outline \
 		${LOCALBASE}/share/texmf-dist/tex/latex/outliner/outliner.sty:${PORTSDIR}/print/texlive-outliner \
 		${LOCALBASE}/share/texmf-dist/tex/latex/overpic/overpic.sty:${PORTSDIR}/print/texlive-overpic \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pagecolor/pagecolor.sty:${PORTSDIR}/print/texlive-pagecolor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pagecont/pagecont.sty:${PORTSDIR}/print/texlive-pagecont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pagenote/pagenote.sty:${PORTSDIR}/print/texlive-pagenote \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pagerange/pagerange.sty:${PORTSDIR}/print/texlive-pagerange \
@@ -675,6 +676,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/pstool/pstool.sty:${PORTSDIR}/print/texlive-pstool \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pxgreeks/pxgreeks.sty:${PORTSDIR}/print/texlive-pxgreeks \
 		${LOCALBASE}/share/texmf-dist/tex/latex/qcm/qcm.cls:${PORTSDIR}/print/texlive-qcm \
+		${LOCALBASE}/share/texmf-dist/tex/latex/quoting/quoting.sty:${PORTSDIR}/print/texlive-quoting \
 		${LOCALBASE}/share/texmf-dist/tex/latex/qstest/qstest.sty:${PORTSDIR}/print/texlive-qstest \
 		${LOCALBASE}/share/texmf-dist/tex/latex/qsymbols/qsymbols.sty:${PORTSDIR}/print/texlive-qsymbols \
 		${LOCALBASE}/share/texmf-dist/tex/latex/quotchap/quotchap.sty:${PORTSDIR}/print/texlive-quotchap \
@@ -683,6 +685,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/rccol/rccol.sty:${PORTSDIR}/print/texlive-rccol \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rcs-multi/rcs-multi.sty:${PORTSDIR}/print/texlive-rcs-multi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rcsinfo/rcsinfo.sty:${PORTSDIR}/print/texlive-rcsinfo \
+		${LOCALBASE}/share/texmf-dist/tex/latex/realboxes/realboxes.sty:${PORTSDIR}/print/texlive-realboxes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/recipe/recipe.cls:${PORTSDIR}/print/texlive-recipe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/recipecard/recipecard.cls:${PORTSDIR}/print/texlive-recipecard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rectopma/rectopma.sty:${PORTSDIR}/print/texlive-rectopma \
