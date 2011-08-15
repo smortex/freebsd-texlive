@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110814
+PORTVERSION=	20110815
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -244,6 +244,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/cryst/cryst.afm:${PORTSDIR}/print/texlive-cryst \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cyklop/cyklop.sty:${PORTSDIR}/print/texlive-cyklop \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/dancers/dancers.mf:${PORTSDIR}/print/texlive-dancers \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dejavu/dejavu.sty:${PORTSDIR}/print/texlive-dejavu \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/dice/dice3d.mf:${PORTSDIR}/print/texlive-dice \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dictsym/dictsym.sty:${PORTSDIR}/print/texlive-dictsym \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dingbat/dingbat.sty:${PORTSDIR}/print/texlive-dingbat \
@@ -1169,7 +1170,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/pagecont/pagecont.sty:${PORTSDIR}/print/texlive-pagecont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pagenote/pagenote.sty:${PORTSDIR}/print/texlive-pagenote \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pagerange/pagerange.sty:${PORTSDIR}/print/texlive-pagerange \
-		${LOCALBASE}/share/texmf-dist/tex/latex/pagesLTS/pagesLTS.sty:${PORTSDIR}/print/texlive-pagesLTS \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pageslts/pageslts.sty:${PORTSDIR}/print/texlive-pageslts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/paper/paper.cls:${PORTSDIR}/print/texlive-paper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/papercdcase/papercdcase.sty:${PORTSDIR}/print/texlive-papercdcase \
 		${LOCALBASE}/share/texmf-dist/tex/latex/papermas/papermas.sty:${PORTSDIR}/print/texlive-papermas \

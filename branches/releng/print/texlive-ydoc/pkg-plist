@@ -1,7 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/ydoc/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/ydoc/ydoc.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/ydoc/ydoc.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/ydoc/ydocstrip.tex
 share/texmf-dist/tex/latex/ydoc/ydoc-code.sty
 share/texmf-dist/tex/latex/ydoc/ydoc-desc.sty
 share/texmf-dist/tex/latex/ydoc/ydoc-doc.sty

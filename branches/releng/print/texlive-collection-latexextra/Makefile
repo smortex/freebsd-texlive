@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110814
+PORTVERSION=	20110815
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -617,7 +617,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/pagecont/pagecont.sty:${PORTSDIR}/print/texlive-pagecont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pagenote/pagenote.sty:${PORTSDIR}/print/texlive-pagenote \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pagerange/pagerange.sty:${PORTSDIR}/print/texlive-pagerange \
-		${LOCALBASE}/share/texmf-dist/tex/latex/pagesLTS/pagesLTS.sty:${PORTSDIR}/print/texlive-pagesLTS \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pageslts/pageslts.sty:${PORTSDIR}/print/texlive-pageslts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/paper/paper.cls:${PORTSDIR}/print/texlive-paper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/papercdcase/papercdcase.sty:${PORTSDIR}/print/texlive-papercdcase \
 		${LOCALBASE}/share/texmf-dist/tex/latex/papermas/papermas.sty:${PORTSDIR}/print/texlive-papermas \

@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-l3packages
-# Date created:		08/02/2011 05:06:20
+# New ports collection makefile for:	texlive-dejavu
+# Date created:		08/15/2011 04:45:05
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	l3packages
+PORTNAME=	dejavu
 PORTVERSION=	20110815
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	High-level LaTeX3 concepts.
+COMMENT=	LaTeX support for the fonts DejaVu.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
