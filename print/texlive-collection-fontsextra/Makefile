@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20110814
+PORTVERSION=	20110815
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -62,6 +62,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/cryst/cryst.afm:${PORTSDIR}/print/texlive-cryst \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cyklop/cyklop.sty:${PORTSDIR}/print/texlive-cyklop \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/dancers/dancers.mf:${PORTSDIR}/print/texlive-dancers \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dejavu/dejavu.sty:${PORTSDIR}/print/texlive-dejavu \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/dice/dice3d.mf:${PORTSDIR}/print/texlive-dice \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dictsym/dictsym.sty:${PORTSDIR}/print/texlive-dictsym \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dingbat/dingbat.sty:${PORTSDIR}/print/texlive-dingbat \

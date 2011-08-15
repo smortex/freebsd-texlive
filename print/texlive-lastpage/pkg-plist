@@ -2,7 +2,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/lastpage/lastpage-example.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/lastpage/lastpage-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/lastpage/lastpage.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/lastpage/ltxdoc.cfg
 %%PORTSRC%%share/texmf-dist/source/latex/lastpage/lastpage.drv
 %%PORTSRC%%share/texmf-dist/source/latex/lastpage/lastpage.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/lastpage/lastpage.ins

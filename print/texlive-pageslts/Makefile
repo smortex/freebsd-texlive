@@ -1,12 +1,12 @@
-# New ports collection makefile for:	texlive-pagesLTS
-# Date created:		09/24/2010 04:55:02
+# New ports collection makefile for:	texlive-pageslts
+# Date created:		08/15/2011 05:02:05
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	pagesLTS
-PORTVERSION=	20110320
+PORTNAME=	pageslts
+PORTVERSION=	20110815
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
