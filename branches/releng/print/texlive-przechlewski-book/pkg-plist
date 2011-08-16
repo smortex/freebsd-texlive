@@ -1,0 +1,45 @@
+share/texmf-dist/bibtex/bst/przechlewski-book/papalike.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/README.pl
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/TAM-pl.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/b313.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p21.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p22.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p23.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p24.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p31.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p310.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p311.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p312.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p313.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p313_utf8.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p32.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p33.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p34.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p35.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p36.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p37.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p38.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p39.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p41.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p42.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p43.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p44.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p45.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/p46.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/rys1_5.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/wkmgr.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/wkmgr.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/wkmgr1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/wkmgr1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/wkmgr2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/wkmgr2.tex
+share/texmf-dist/tex/latex/przechlewski-book/upmgr.cls
+share/texmf-dist/tex/latex/przechlewski-book/wkmgr.cls
+@dirrmtry share/texmf-dist/tex/latex/przechlewski-book
+@dirrmtry share/texmf-dist/doc/latex/przechlewski-book
+@dirrmtry share/texmf-dist/bibtex/bst/przechlewski-book
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
