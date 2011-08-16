@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-gust
-PORTVERSION=	20110806
+PORTVERSION=	20110816
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -138,6 +138,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/amstex/base/amstex.tex:${PORTSDIR
 		${LOCALBASE}/share/texmf-dist/tex/latex/mwcls/mw10.clo:${PORTSDIR}/print/texlive-mwcls \
 		${LOCALBASE}/share/texmf-dist/dvips/pl/config.pl:${PORTSDIR}/print/texlive-pl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/polski/polski.sty:${PORTSDIR}/print/texlive-polski \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/przechlewski-book/papalike.bst:${PORTSDIR}/print/texlive-przechlewski-book \
 		${LOCALBASE}/share/texmf-dist/fonts/tfm/public/qpxqtx/qpxbmi.tfm:${PORTSDIR}/print/texlive-qpxqtx \
 		${LOCALBASE}/share/texmf-dist/tex/generic/tap/tap.tex:${PORTSDIR}/print/texlive-tap \
 		${LOCALBASE}/share/texmf-dist/tex/mex/utf8mex/utf8-pl.tex:${PORTSDIR}/print/texlive-utf8mex \

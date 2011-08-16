@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/keyval2e/README
+share/texmf-dist/tex/latex/keyval2e/keyval2e.sty
+@dirrmtry share/texmf-dist/tex/latex/keyval2e
+@dirrmtry share/texmf-dist/doc/latex/keyval2e
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

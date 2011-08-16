@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	chess-problem-diagrams
-PORTVERSION=	20100922
+PORTVERSION=	20110816
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
