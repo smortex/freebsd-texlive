@@ -3,6 +3,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/plain/getoptk/README
 %%PORTDOCS%%share/texmf-dist/doc/plain/getoptk/guide.pdf
 share/texmf-dist/tex/plain/getoptk/getoptk.tex
+share/texmf-dist/tex/plain/getoptk/guide.tex
 @dirrmtry share/texmf-dist/tex/plain/getoptk
 @dirrmtry share/texmf-dist/doc/plain/getoptk
 @exec %D/bin/mktexlsr

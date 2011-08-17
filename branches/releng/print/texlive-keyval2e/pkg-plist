@@ -1,4 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/keyval2e/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/keyval2e/keyval2e-examples.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/keyval2e/keyval2e-guide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/keyval2e/keyval2e-guide.tex
 share/texmf-dist/tex/latex/keyval2e/keyval2e.sty
 @dirrmtry share/texmf-dist/tex/latex/keyval2e
 @dirrmtry share/texmf-dist/doc/latex/keyval2e

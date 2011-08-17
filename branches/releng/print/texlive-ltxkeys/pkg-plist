@@ -1,5 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/ltxkeys/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/ltxkeys/ltxkeys-guide.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/ltxkeys/ltxkeys-guide.tex
 share/texmf-dist/tex/latex/ltxkeys/ltxkeys.sty
 @dirrmtry share/texmf-dist/tex/latex/ltxkeys
 @dirrmtry share/texmf-dist/doc/latex/ltxkeys
