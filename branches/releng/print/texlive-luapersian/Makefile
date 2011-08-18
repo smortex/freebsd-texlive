@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-barr
-# Date created:		13/03/2010 04:31:19
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-luapersian
+# Date created:		08/18/2011 05:07:13
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	barr
+PORTNAME=	luapersian
 PORTVERSION=	20110818
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Diagram macros by Michael Barr.
+COMMENT=	Persian for LaTeX in LuaTeX.
 
 NOPORTSRC=	yes
 
