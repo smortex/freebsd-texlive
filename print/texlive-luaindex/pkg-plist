@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luaindex/README
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luaindex/luaindex-example.ldx
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luaindex/luaindex-example.ltx
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luaindex/luaindex-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luaindex/luaindex.ltx
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luaindex/luaindex.pdf
+share/texmf-dist/scripts/luaindex/luaindex.lua
+%%PORTSRC%%share/texmf-dist/source/lualatex/luaindex/luaindex.dtx
+share/texmf-dist/tex/lualatex/luaindex/luaindex.sty
+@dirrmtry share/texmf-dist/tex/lualatex/luaindex
+@dirrmtry share/texmf-dist/source/lualatex/luaindex
+@dirrmtry share/texmf-dist/scripts/luaindex
+@dirrmtry share/texmf-dist/doc/lualatex/luaindex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

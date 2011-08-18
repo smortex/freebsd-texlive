@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20110809
+PORTVERSION=	20110818
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -102,7 +102,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/uowthesis/UoWlogo.eps:${PORTSDIR}/print/texlive-uowthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uwthesis/uwthesis.cls:${PORTSDIR}/print/texlive-uwthesis \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/vancouver/vancouver.bib:${PORTSDIR}/print/texlive-vancouver \
-		${LOCALBASE}/share/texmf-dist/tex/latex/vxu/actawex.cls:${PORTSDIR}/print/texlive-vxu \
 		${LOCALBASE}/share/texmf-dist/tex/latex/york-thesis/york-thesis.cls:${PORTSDIR}/print/texlive-york-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print/texlive-ae \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/amscls/amsalpha.bst:${PORTSDIR}/print/texlive-amscls \
