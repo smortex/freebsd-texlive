@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110820
+PORTVERSION=	20110821
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -324,14 +324,13 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/oldstandard/OldStandard-Bold.otf:${PORTSDIR}/print/texlive-oldstandard \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/orkhun/orhant.mf:${PORTSDIR}/print/texlive-orkhun \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pacioli/pacioli.sty:${PORTSDIR}/print/texlive-pacioli \
+		${LOCALBASE}/share/texmf-dist/tex/latex/paratype/paratype.sty:${PORTSDIR}/print/texlive-paratype \
 		${LOCALBASE}/share/texmf-dist/tex/latex/phaistos/phaistos.sty:${PORTSDIR}/print/texlive-phaistos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/phonetic/phonetic.sty:${PORTSDIR}/print/texlive-phonetic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pigpen/pigpen.sty:${PORTSDIR}/print/texlive-pigpen \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/gust/poltawski/antpb10.afm:${PORTSDIR}/print/texlive-poltawski \
 		${LOCALBASE}/share/texmf-dist/tex/latex/prodint/prodint.sty:${PORTSDIR}/print/texlive-prodint \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/itc/psafm/stonesan/is8b8a.afm:${PORTSDIR}/print/texlive-psafm \
-		${LOCALBASE}/share/texmf-dist/fonts/afm/paratype/ptsans/PTC55F.afm:${PORTSDIR}/print/texlive-ptsans \
-		${LOCALBASE}/share/texmf-dist/fonts/afm/paratype/ptserif/PTF55F.afm:${PORTSDIR}/print/texlive-ptserif \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/punk/punk.mf:${PORTSDIR}/print/texlive-punk \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/punknova/punknova-bold.otf:${PORTSDIR}/print/texlive-punknova \
 		${LOCALBASE}/share/texmf-dist/tex/latex/recycle/recycle.sty:${PORTSDIR}/print/texlive-recycle \
