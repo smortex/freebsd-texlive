@@ -1,0 +1,8 @@
+#!/bin/sh
+
+PORTSDIR=${PORTSDIR:=/usr/ports}
+
+echo "Searching...  This takes a while."
+for file; do
+    grep "/${file}\$" ${PORTSDIR}/print/texlive-*/pkg-plist | awk -F':' ' { n = split($1, a, "/"); print a[n-2]"/"a[n-1]" provides "$2 }'
+done
