@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20110821
+PORTVERSION=	20110824
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -149,6 +149,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/fonts/afm/gust/poltawski/antpb10.afm:${PORTSDIR}/print/texlive-poltawski \
 		${LOCALBASE}/share/texmf-dist/tex/latex/prodint/prodint.sty:${PORTSDIR}/print/texlive-prodint \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/itc/psafm/stonesan/is8b8a.afm:${PORTSDIR}/print/texlive-psafm \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/pxtxalfa/pxtx.map:${PORTSDIR}/print/texlive-pxtxalfa \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/punk/punk.mf:${PORTSDIR}/print/texlive-punk \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/punknova/punknova-bold.otf:${PORTSDIR}/print/texlive-punknova \
 		${LOCALBASE}/share/texmf-dist/tex/latex/recycle/recycle.sty:${PORTSDIR}/print/texlive-recycle \

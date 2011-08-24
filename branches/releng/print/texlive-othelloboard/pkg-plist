@@ -1,4 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/othelloboard/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/othelloboard/example-rose-chps1-2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/othelloboard/example-rose-chps1-2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/othelloboard/othelloboard.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/othelloboard/othelloboard.tex
 share/texmf-dist/tex/latex/othelloboard/othelloboard.sty

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110821
+PORTVERSION=	20110824
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -331,6 +331,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/fonts/afm/gust/poltawski/antpb10.afm:${PORTSDIR}/print/texlive-poltawski \
 		${LOCALBASE}/share/texmf-dist/tex/latex/prodint/prodint.sty:${PORTSDIR}/print/texlive-prodint \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/itc/psafm/stonesan/is8b8a.afm:${PORTSDIR}/print/texlive-psafm \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/pxtxalfa/pxtx.map:${PORTSDIR}/print/texlive-pxtxalfa \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/punk/punk.mf:${PORTSDIR}/print/texlive-punk \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/punknova/punknova-bold.otf:${PORTSDIR}/print/texlive-punknova \
 		${LOCALBASE}/share/texmf-dist/tex/latex/recycle/recycle.sty:${PORTSDIR}/print/texlive-recycle \
@@ -1030,6 +1031,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/isorot/isorot.sty:${PORTSDIR}/print/texlive-isorot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/isotope/isotope.sty:${PORTSDIR}/print/texlive-isotope \
 		${LOCALBASE}/share/texmf-dist/tex/latex/iwhdp/iwhdp.cls:${PORTSDIR}/print/texlive-iwhdp \
+		${LOCALBASE}/share/texmf-dist/tex/latex/jlabels/jlabels.sty:${PORTSDIR}/print/texlive-jlabels \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jvlisting/jvlisting.sty:${PORTSDIR}/print/texlive-jvlisting \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kerntest/kerntest.cls:${PORTSDIR}/print/texlive-kerntest \
 		${LOCALBASE}/share/texmf-dist/tex/latex/keycommand/keycommand.sty:${PORTSDIR}/print/texlive-keycommand \
@@ -1757,6 +1759,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/macqassign/macqassign.cls:${PORTSDIR}/print/texlive-macqassign \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mentis/mentis.cls:${PORTSDIR}/print/texlive-mentis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/msu-thesis/msu-thesis.cls:${PORTSDIR}/print/texlive-msu-thesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/musuos/musuos.cls:${PORTSDIR}/print/texlive-musuos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/muthesis/muthesis.cls:${PORTSDIR}/print/texlive-muthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nature/nature.cls:${PORTSDIR}/print/texlive-nature \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/nddiss/nddiss2e.bst:${PORTSDIR}/print/texlive-nddiss \
