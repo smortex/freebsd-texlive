@@ -1,40 +1,26 @@
-%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/LICENSE
-%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/PROBLEMS
+%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/FONTLOG.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/OFL-FAQ.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/OFL.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/README
-%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/mac/docs/obsolete/tex-me.tex
-%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/mac/docs/textures
-%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/mac/oztex/configs/addmarvo
-%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/mac/oztex/dvips/inputs/config.fmv
-%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/mac/oztex/dvips/inputs/fmv.map
-%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/mac/oztex/ps-files/marvosym.afm
-%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/mac/oztex/ps-files/marvosym.pfa
-%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/mac/oztex/ps-files/readme.txt
-%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/mac/oztex/tex-font/misc/fmvr8x.tfm
-%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/mac/readme.txt
-%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/mac/the_font.bin
 %%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/marvodoc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/marvodoc.tex
-%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/vtex/install.txt
-%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/vtex/marvosym.ali
 share/texmf-dist/fonts/afm/public/marvosym/marvosym.afm
 share/texmf-dist/fonts/map/dvips/marvosym/marvosym.map
 share/texmf-dist/fonts/tfm/public/marvosym/umvs.tfm
+share/texmf-dist/fonts/truetype/public/marvosym/marvosym.ttf
 share/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb
+%%PORTSRC%%share/texmf-dist/source/fonts/marvosym/generate_marvosym_derivs.sh
+%%PORTSRC%%share/texmf-dist/source/fonts/marvosym/patch_marvosym_afm.sed
+%%PORTSRC%%share/texmf-dist/source/fonts/marvosym/patch_marvosym_pfb.sed
 share/texmf-dist/tex/latex/marvosym/marvosym.sty
 share/texmf-dist/tex/latex/marvosym/umvs.fd
 @dirrmtry share/texmf-dist/tex/latex/marvosym
+@dirrmtry share/texmf-dist/source/fonts/marvosym
 @dirrmtry share/texmf-dist/fonts/type1/public/marvosym
+@dirrmtry share/texmf-dist/fonts/truetype/public/marvosym
 @dirrmtry share/texmf-dist/fonts/tfm/public/marvosym
 @dirrmtry share/texmf-dist/fonts/map/dvips/marvosym
 @dirrmtry share/texmf-dist/fonts/afm/public/marvosym
-@dirrmtry share/texmf-dist/doc/fonts/marvosym/vtex
-@dirrmtry share/texmf-dist/doc/fonts/marvosym/mac/oztex/tex-font/misc
-@dirrmtry share/texmf-dist/doc/fonts/marvosym/mac/oztex/ps-files
-@dirrmtry share/texmf-dist/doc/fonts/marvosym/mac/oztex/dvips/inputs
-@dirrmtry share/texmf-dist/doc/fonts/marvosym/mac/oztex/configs
-@dirrmtry share/texmf-dist/doc/fonts/marvosym/mac/docs/obsolete
-@dirrmtry share/texmf-dist/doc/fonts/marvosym/mac/docs
-@dirrmtry share/texmf-dist/doc/fonts/marvosym/mac
 @dirrmtry share/texmf-dist/doc/fonts/marvosym
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

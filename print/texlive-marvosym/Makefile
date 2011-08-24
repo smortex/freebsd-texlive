@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	marvosym
-PORTVERSION=	20110427
+PORTVERSION=	20110824
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Martin Vogel's Symbols (marvosym) font.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

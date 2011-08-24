@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/jlabels/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/jlabels/README.TEXLIVE
+share/texmf-dist/tex/latex/jlabels/jlabels.sty
+@dirrmtry share/texmf-dist/tex/latex/jlabels
+@dirrmtry share/texmf-dist/doc/latex/jlabels
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

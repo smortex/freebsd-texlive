@@ -1,21 +1,17 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/HELP.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/MATHSPIC.BAT
 %%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/README.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/cleanmathspic.pl
-%%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/drawcube.pl
-%%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/drawcurvedarrow.pl
-%%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/figures.tgz
 %%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/grabtexdata.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/mathpic.pl
-%%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/mathsPICa4.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/mathsPICa5.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/mathsPICfigures.zip
+%%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/mathsPICmanual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/mathsPICmanual.zip
 %%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/mathspic.1
 %%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/mathspic.lib
 %%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/mathspic.sh
-%%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/sourcecode.html
-%%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/sourcecode.nw
-%%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/sourcecode.pdf
-share/texmf-dist/scripts/mathspic/mathspic.pl
+%%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/sourcecode113.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/sourcecode113.nw
+%%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/sourcecode113.pdf
+share/texmf-dist/scripts/mathspic/mathspic113.pl
 share/texmf-dist/tex/latex/mathspic/mathspic.sty
 @dirrmtry share/texmf-dist/tex/latex/mathspic
 @dirrmtry share/texmf-dist/scripts/mathspic

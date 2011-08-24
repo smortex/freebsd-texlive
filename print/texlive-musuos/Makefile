@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-prerex
-# Date created:		09/21/2010 11:44:40
+# New ports collection makefile for:	texlive-musuos
+# Date created:		08/24/2011 05:11:18
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	prerex
+PORTNAME=	musuos
 PORTVERSION=	20110824
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Interactive editor and macro support for prerequisite charts.
+COMMENT=	Typeset papers for the department of music, Osnabruck.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
