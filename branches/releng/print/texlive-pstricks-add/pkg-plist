@@ -7,6 +7,7 @@
 share/texmf-dist/dvips/pstricks-add/pstricks-add.pro
 %%PORTSRC%%share/texmf-dist/source/generic/pstricks-add/Makefile
 share/texmf-dist/tex/generic/pstricks-add/pstricks-add.tex
+share/texmf-dist/tex/latex/pstricks-add/pstricks-add.cfg
 share/texmf-dist/tex/latex/pstricks-add/pstricks-add.sty
 @dirrmtry share/texmf-dist/tex/latex/pstricks-add
 @dirrmtry share/texmf-dist/tex/generic/pstricks-add

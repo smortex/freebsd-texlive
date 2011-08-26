@@ -41,8 +41,6 @@ share/texmf-dist/tex/latex/ledmac/afoot.sty
 share/texmf-dist/tex/latex/ledmac/ledarab.sty
 share/texmf-dist/tex/latex/ledmac/ledmac.sty
 share/texmf-dist/tex/latex/ledmac/ledpar.sty
-share/texmf-dist/tex/latex/ledmac/ledparpatch.sty
-share/texmf-dist/tex/latex/ledmac/ledpatch.sty
 @dirrmtry share/texmf-dist/tex/latex/ledmac
 @dirrmtry share/texmf-dist/source/latex/ledmac
 @dirrmtry share/texmf-dist/doc/latex/ledmac

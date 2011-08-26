@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-collectbox
-# Date created:		07/26/2011 04:53:07
+# New ports collection makefile for:	texlive-sidenotes
+# Date created:		08/26/2011 05:03:41
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	collectbox
+PORTNAME=	sidenotes
 PORTVERSION=	20110826
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Collect and process macro arguments as boxes.
+COMMENT=	Typeset notes containing rich content, in the margin.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
