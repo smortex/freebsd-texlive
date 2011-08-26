@@ -39,7 +39,6 @@
 %%PORTDOCS%%share/texmf/doc/web2c/web2c.html
 %%PORTDOCS%%share/texmf/doc/web2c/web2c.pdf
 share/texmf/web2c/amiga-pl.tcx
-share/texmf/web2c/context.cnf
 share/texmf/web2c/cp1250cs.tcx
 share/texmf/web2c/cp1250pl.tcx
 share/texmf/web2c/cp1250t1.tcx

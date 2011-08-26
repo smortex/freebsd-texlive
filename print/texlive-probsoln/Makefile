@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	probsoln
-PORTVERSION=	20100922
+PORTVERSION=	20110826
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	generate problem sheets and their solution sheets
+COMMENT=	generate problem sheets and their solution sheets.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -11,25 +11,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/doc/prerex.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/doc/prerex.sty.7
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/doc/prerex.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/patches/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/patches/kpdf-3.5.10.patch
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/patches/kpdf-3.5.8.patch
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/patches/kpdf-3.5.9.patch
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/patches/okular-4.0.3.patch
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/patches/okular-4.0.4.patch
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/patches/okular-4.1.0.patch
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/patches/okular-4.1.1.patch
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/patches/okular-4.1.2.patch
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/patches/okular-4.1.3.patch
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/patches/okular-4.1.4.patch
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/patches/okular-4.2.0.patch
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/patches/okular-4.3.0.patch
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/patches/okular-4.4.0.patch
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/prerex-6.1.0.tar.gz
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/vprerex-6.0.1.tar.gz
+%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/prerex-6.1.1.tar.gz
+%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/vprerex-6.1.1.tar.gz
 share/texmf-dist/tex/latex/prerex/prerex.sty
 @dirrmtry share/texmf-dist/tex/latex/prerex
-@dirrmtry share/texmf-dist/doc/latex/prerex/patches
 @dirrmtry share/texmf-dist/doc/latex/prerex/doc
 @dirrmtry share/texmf-dist/doc/latex/prerex
 @exec %D/bin/mktexlsr

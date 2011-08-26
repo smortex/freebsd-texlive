@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110824
+PORTVERSION=	20110826
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -742,6 +742,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/showexpl/showexpl.sty:${PORTSDIR}/print/texlive-showexpl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/showlabels/showlabels.sty:${PORTSDIR}/print/texlive-showlabels \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sidecap/sidecap.sty:${PORTSDIR}/print/texlive-sidecap \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sidenotes/sidenotes.sty:${PORTSDIR}/print/texlive-sidenotes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/silence/silence.sty:${PORTSDIR}/print/texlive-silence \
 		${LOCALBASE}/share/texmf-dist/tex/latex/simplecd/simplecd.sty:${PORTSDIR}/print/texlive-simplecd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/simplecv/simplecv.cls:${PORTSDIR}/print/texlive-simplecv \
