@@ -1,0 +1,4 @@
+The package enables drawing of braid diagrams with PGF/TikZ
+using a simple syntax. The braid itself is specified by giving
+a word in the braid group, and there are many options for
+styling the strands and for drawing "floors".

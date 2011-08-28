@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	isotope
-PORTVERSION=	20100922
+PORTVERSION=	20110828
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A package for type setting isotopes
+COMMENT=	A package for typesetting isotopes
 
-NOPORTDOCS=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

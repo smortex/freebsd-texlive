@@ -1,42 +1,55 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/ANNOUNCE.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/CHANGE.LOG
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/CHANGE.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/FILEs.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/FileList.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/NNOUNCE.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/README.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/RELEAS03.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/RELEAS04.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/RELEASE042.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/SrcFILEs.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/demo/arseneau.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/demo/iso.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/demo/lns.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/demo/sample.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/demo/substr.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/fifinddo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/makedoc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/mdoccheat.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/niceverb.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/run/arseneau.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/run/fdtxttex.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/run/fdtxttex.tpl
-%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/run/makedoc.tpl
-%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/run/sample.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/run/substr.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/wikicheat.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/nicetext/README.tex
 %%PORTSRC%%share/texmf-dist/source/latex/nicetext/fifinddo.tex
-%%PORTSRC%%share/texmf-dist/source/latex/nicetext/gather.tex
-%%PORTSRC%%share/texmf-dist/source/latex/nicetext/makedoc.cfg
 %%PORTSRC%%share/texmf-dist/source/latex/nicetext/makedoc.tex
 %%PORTSRC%%share/texmf-dist/source/latex/nicetext/mdoccheat.tex
 %%PORTSRC%%share/texmf-dist/source/latex/nicetext/niceverb.tex
+%%PORTSRC%%share/texmf-dist/source/latex/nicetext/srcfiles.tex
 %%PORTSRC%%share/texmf-dist/source/latex/nicetext/wikicheat.tex
 share/texmf-dist/tex/latex/nicetext/fifinddo.sty
+share/texmf-dist/tex/latex/nicetext/makedoc.cfg
 share/texmf-dist/tex/latex/nicetext/makedoc.sty
 share/texmf-dist/tex/latex/nicetext/mdoccorr.cfg
 share/texmf-dist/tex/latex/nicetext/niceverb.sty
+share/texmf-dist/tex/latex/nicetext/run/README-run.txt
+share/texmf-dist/tex/latex/nicetext/run/arseneau.tex
+share/texmf-dist/tex/latex/nicetext/run/atari.cfg
+share/texmf-dist/tex/latex/nicetext/run/atari.fdf
+share/texmf-dist/tex/latex/nicetext/run/atari.txt
+share/texmf-dist/tex/latex/nicetext/run/copyfile.cfg
+share/texmf-dist/tex/latex/nicetext/run/copyfile.tex
+share/texmf-dist/tex/latex/nicetext/run/fddial0g.sty
+share/texmf-dist/tex/latex/nicetext/run/fdtxttex.cfg
+share/texmf-dist/tex/latex/nicetext/run/fdtxttex.tex
+share/texmf-dist/tex/latex/nicetext/run/fdtxttex.tpl
+share/texmf-dist/tex/latex/nicetext/run/lines.txt
+share/texmf-dist/tex/latex/nicetext/run/makedoc.tpl
+share/texmf-dist/tex/latex/nicetext/run/sample.txt
+share/texmf-dist/tex/latex/nicetext/run/substr.tex
 share/texmf-dist/tex/latex/nicetext/wiki.sty
+@dirrmtry share/texmf-dist/tex/latex/nicetext/run
 @dirrmtry share/texmf-dist/tex/latex/nicetext
 @dirrmtry share/texmf-dist/source/latex/nicetext
-@dirrmtry share/texmf-dist/doc/latex/nicetext/run
 @dirrmtry share/texmf-dist/doc/latex/nicetext/demo
 @dirrmtry share/texmf-dist/doc/latex/nicetext
 @exec %D/bin/mktexlsr

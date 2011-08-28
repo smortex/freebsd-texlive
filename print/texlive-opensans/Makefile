@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-comfortaa
-# Date created:		12/19/2010 04:39:16
+# New ports collection makefile for:	texlive-opensans
+# Date created:		08/28/2011 04:51:04
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	comfortaa
+PORTNAME=	opensans
 PORTVERSION=	20110828
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Sans serif font, with LaTeX support.
+COMMENT=	The Open Sans font family, and LaTeX support.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
