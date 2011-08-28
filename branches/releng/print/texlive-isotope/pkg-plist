@@ -1,7 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/isotope/README
 %%PORTSRC%%share/texmf-dist/source/latex/isotope/isotope.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/isotope/isotope.ins
 share/texmf-dist/tex/latex/isotope/isotope.sty
 @dirrmtry share/texmf-dist/tex/latex/isotope
 @dirrmtry share/texmf-dist/source/latex/isotope
+@dirrmtry share/texmf-dist/doc/latex/isotope
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

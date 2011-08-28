@@ -1,12 +1,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/musuos/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/musuos/gind.ist
 %%PORTDOCS%%share/texmf-dist/doc/latex/musuos/musuos.pdf
-share/texmf-dist/makeindex/musuos/gind.ist
 %%PORTSRC%%share/texmf-dist/source/latex/musuos/musuos.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/musuos/musuos.ins
 share/texmf-dist/tex/latex/musuos/musuos.cls
 @dirrmtry share/texmf-dist/tex/latex/musuos
 @dirrmtry share/texmf-dist/source/latex/musuos
-@dirrmtry share/texmf-dist/makeindex/musuos
 @dirrmtry share/texmf-dist/doc/latex/musuos
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
