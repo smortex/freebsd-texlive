@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-langarabic
-PORTVERSION=	20101215
+PORTVERSION=	20110829
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -19,6 +19,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/afm/arabi/arabeyes/ae_almohanad
 		${LOCALBASE}/share/texmf/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8 \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/persian-bib/acm-fa.bst:${PORTSDIR}/print/texlive-persian-bib \
+		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/persian-modern/pm-bold.ttf:${PORTSDIR}/print/texlive-persian-modern \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/base/xampl.bib:${PORTSDIR}/print/texlive-bibtex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cm/cmtext-bsr-interpolated.map:${PORTSDIR}/print/texlive-cm \

@@ -1,0 +1,32 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/persian-modern/OFL-FAQ.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/persian-modern/OFL.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/persian-modern/README
+share/texmf-dist/fonts/truetype/public/persian-modern/pm-bold.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/pm-bolditalic.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/pm-boldoblique.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/pm-italic.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/pm-italicoutline.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/pm-italicshadow.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/pm-oblique.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/pm-obliqueoutline.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/pm-obliqueshadow.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/pm-outline.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/pm-regular.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/pm-shadow.ttf
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/pm-bold.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/pm-bolditalic.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/pm-boldoblique.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/pm-italic.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/pm-italicoutline.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/pm-italicshadow.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/pm-oblique.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/pm-obliqueoutline.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/pm-obliqueshadow.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/pm-outline.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/pm-regular.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/pm-shadow.sfd
+@dirrmtry share/texmf-dist/source/fonts/persian-modern
+@dirrmtry share/texmf-dist/fonts/truetype/public/persian-modern
+@dirrmtry share/texmf-dist/doc/fonts/persian-modern
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
