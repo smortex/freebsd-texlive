@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110828
+PORTVERSION=	20110829
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -513,6 +513,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/arabtex/arabtex.sty:${PORTSDIR}/print/texlive-arabtex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bidi/bidi.sty:${PORTSDIR}/print/texlive-bidi \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/persian-bib/acm-fa.bst:${PORTSDIR}/print/texlive-persian-bib \
+		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/persian-modern/pm-bold.ttf:${PORTSDIR}/print/texlive-persian-modern \
 		${LOCALBASE}/share/texmf-dist/fonts/cmap/adobemapping/LICENSE:${PORTSDIR}/print/texlive-adobemapping \
 		${LOCALBASE}/share/texmf-dist/dvips/arphic/config.bkaiu:${PORTSDIR}/print/texlive-arphic \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/c90/c90.enc:${PORTSDIR}/print/texlive-c90 \
