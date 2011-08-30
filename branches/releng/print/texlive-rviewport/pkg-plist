@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/rviewport/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/rviewport/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/rviewport/rviewport.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rviewport/vitruvian.jpg
+%%PORTSRC%%share/texmf-dist/source/latex/rviewport/rviewport.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/rviewport/rviewport.ins
+share/texmf-dist/tex/latex/rviewport/rviewport.sty
+@dirrmtry share/texmf-dist/tex/latex/rviewport
+@dirrmtry share/texmf-dist/source/latex/rviewport
+@dirrmtry share/texmf-dist/doc/latex/rviewport
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/serbian-def-cyr/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/serbian-def-cyr/proba.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/serbian-def-cyr/proba.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/serbian-def-cyr/usage.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/serbian-def-cyr/usage.tex
+share/texmf-dist/tex/latex/serbian-def-cyr/serbian-def-cyr.sty
+@dirrmtry share/texmf-dist/tex/latex/serbian-def-cyr
+@dirrmtry share/texmf-dist/doc/latex/serbian-def-cyr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

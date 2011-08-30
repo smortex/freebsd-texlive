@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-l3packages
-# Date created:		08/02/2011 05:06:20
+# New ports collection makefile for:	texlive-serbian-def-cyr
+# Date created:		08/30/2011 05:03:17
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	l3packages
+PORTNAME=	serbian-def-cyr
 PORTVERSION=	20110830
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	High-level LaTeX3 concepts.
+COMMENT=	The serbian-def-cyr package
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
