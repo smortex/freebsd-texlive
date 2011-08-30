@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110829
+PORTVERSION=	20110830
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -685,6 +685,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/randbild/randbild.sty:${PORTSDIR}/print/texlive-randbild \
 		${LOCALBASE}/share/texmf-dist/tex/latex/randomwalk/randomwalk.sty:${PORTSDIR}/print/texlive-randomwalk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/roundbox/roundbox.sty:${PORTSDIR}/print/texlive-roundbox \
+		${LOCALBASE}/share/texmf-dist/tex/latex/rviewport/rviewport.sty:${PORTSDIR}/print/texlive-rviewport \
 		${LOCALBASE}/share/texmf-dist/tex/latex/schemabloc/schemabloc.sty:${PORTSDIR}/print/texlive-schemabloc \
 		${LOCALBASE}/share/texmf-dist/tex/generic/texdraw/texdraw.sty:${PORTSDIR}/print/texlive-texdraw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty:${PORTSDIR}/print/texlive-tikz-3dplot \
@@ -1285,6 +1286,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/seqsplit/seqsplit.sty:${PORTSDIR}/print/texlive-seqsplit \
 		${LOCALBASE}/share/texmf-dist/tex/latex/serbian-apostrophe/serbian-apostrophe.sty:${PORTSDIR}/print/texlive-serbian-apostrophe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/serbian-date-lat/serbian-date-lat.sty:${PORTSDIR}/print/texlive-serbian-date-lat \
+		${LOCALBASE}/share/texmf-dist/tex/latex/serbian-def-cyr/serbian-def-cyr.sty:${PORTSDIR}/print/texlive-serbian-def-cyr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/serbian-lig/serbian-lig.sty:${PORTSDIR}/print/texlive-serbian-lig \
 		${LOCALBASE}/share/texmf-dist/tex/generic/serbianc/serbianc.sty:${PORTSDIR}/print/texlive-serbianc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sf298/sf298.sty:${PORTSDIR}/print/texlive-sf298 \
@@ -1491,9 +1493,9 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/index/index.sty:${PORTSDIR}/print/texlive-index \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jknapltx/greekctr.sty:${PORTSDIR}/print/texlive-jknapltx \
 		${LOCALBASE}/share/texmf-dist/doc/latex/koma-script/INSTALL.txt:${PORTSDIR}/print/texlive-koma-script \
-		${LOCALBASE}/share/texmf-dist/tex/latex/l3kernel/expl3.sty:${PORTSDIR}/print/texlive-l3kernel \
+		${LOCALBASE}/share/texmf-dist/makeindex/l3kernel/l3doc.ist:${PORTSDIR}/print/texlive-l3kernel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty:${PORTSDIR}/print/texlive-l3packages \
-		${LOCALBASE}/share/texmf-dist/tex/latex/l3experimental/xcoffins/l3coffins.sty:${PORTSDIR}/print/texlive-l3experimental \
+		${LOCALBASE}/share/texmf-dist/tex/latex/l3experimental/xcoffins/l3coffins-scaling.sty:${PORTSDIR}/print/texlive-l3experimental \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listings/listings.sty:${PORTSDIR}/print/texlive-listings \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdwtools/at.sty:${PORTSDIR}/print/texlive-mdwtools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/memoir/memoir.cls:${PORTSDIR}/print/texlive-memoir \

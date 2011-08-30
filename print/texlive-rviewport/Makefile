@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-l3packages
-# Date created:		08/02/2011 05:06:20
+# New ports collection makefile for:	texlive-rviewport
+# Date created:		08/30/2011 04:53:14
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	l3packages
+PORTNAME=	rviewport
 PORTVERSION=	20110830
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	High-level LaTeX3 concepts.
+COMMENT=	Relative Viewport for Graphics Inclusion.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
