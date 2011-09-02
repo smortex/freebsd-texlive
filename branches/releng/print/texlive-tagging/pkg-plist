@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tagging/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tagging/tagging.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tagging/tagging.tex
+share/texmf-dist/tex/latex/tagging/tagging.sty
+@dirrmtry share/texmf-dist/tex/latex/tagging
+@dirrmtry share/texmf-dist/doc/latex/tagging
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

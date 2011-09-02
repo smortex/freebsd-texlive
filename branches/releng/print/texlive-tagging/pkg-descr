@@ -1,0 +1,3 @@
+The package allows the user to generate multiple documents from
+a single source, by marking pieces of the document with tags
+and specifying which marked pieces to include or exclude.
