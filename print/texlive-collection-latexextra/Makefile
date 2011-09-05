@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110902
+PORTVERSION=	20110905
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -429,6 +429,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/genmpage/genmpage.sty:${PORTSDIR}/print/texlive-genmpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/getfiledate/getfiledate.sty:${PORTSDIR}/print/texlive-getfiledate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ginpenc/ginpenc.sty:${PORTSDIR}/print/texlive-ginpenc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gitinfo/gitinfo.sty:${PORTSDIR}/print/texlive-gitinfo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gloss/gloss.sty:${PORTSDIR}/print/texlive-gloss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries/base/glossaries.sty:${PORTSDIR}/print/texlive-glossaries \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmdoc/gmdoc.sty:${PORTSDIR}/print/texlive-gmdoc \
@@ -564,7 +565,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/modroman/modroman.sty:${PORTSDIR}/print/texlive-modroman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/moreenum/moreenum.sty:${PORTSDIR}/print/texlive-moreenum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/morefloats/morefloats.sty:${PORTSDIR}/print/texlive-morefloats \
-		${LOCALBASE}/share/texmf-dist/tex/latex/morehype/atari.fdf:${PORTSDIR}/print/texlive-morehype \
+		${LOCALBASE}/share/texmf-dist/tex/latex/morehype/blog.sty:${PORTSDIR}/print/texlive-morehype \
 		${LOCALBASE}/share/texmf-dist/tex/latex/moresize/moresize.sty:${PORTSDIR}/print/texlive-moresize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/moreverb/moreverb.sty:${PORTSDIR}/print/texlive-moreverb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/morewrites/morewrites.sty:${PORTSDIR}/print/texlive-morewrites \

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20110818
+PORTVERSION=	20110905
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -32,6 +32,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/aichej/aichej.bst:${PORTSD
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-juradiss/biblatex-juradiss.bbx:${PORTSDIR}/print/texlive-biblatex-juradiss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-mla/american-mla.lbx:${PORTSDIR}/print/texlive-biblatex-mla \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/biblatex-nature/biblatex-nature.bib:${PORTSDIR}/print/texlive-biblatex-nature \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-nejm/nejm.bbx:${PORTSDIR}/print/texlive-biblatex-nejm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-philosophy/english-philosophy.lbx:${PORTSDIR}/print/texlive-biblatex-philosophy \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/biblatex-science/biblatex-science.bib:${PORTSDIR}/print/texlive-biblatex-science \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblist/biblist.sty:${PORTSDIR}/print/texlive-biblist \
@@ -76,6 +77,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/aichej/aichej.bst:${PORTSD
 		${LOCALBASE}/share/texmf-dist/tex/latex/uni-wtal-ger/uni-wtal-ger.bbx:${PORTSDIR}/print/texlive-uni-wtal-ger \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/urlbst/abbrvurl.bst:${PORTSDIR}/print/texlive-urlbst \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/vak/vak.bst:${PORTSDIR}/print/texlive-vak \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xcite/xcite.sty:${PORTSDIR}/print/texlive-xcite \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print/texlive-ae \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/amscls/amsalpha.bst:${PORTSDIR}/print/texlive-amscls \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsmath/amsmath.sty:${PORTSDIR}/print/texlive-amsmath \

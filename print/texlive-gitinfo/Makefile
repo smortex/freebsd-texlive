@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-morehype
-# Date created:		01/30/2011 04:57:38
+# New ports collection makefile for:	texlive-gitinfo
+# Date created:		09/05/2011 05:19:27
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	morehype
+PORTNAME=	gitinfo
 PORTVERSION=	20110905
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Hypertext tools for use with LaTeX.
+COMMENT=	Access metadata from the git distributed version control system.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

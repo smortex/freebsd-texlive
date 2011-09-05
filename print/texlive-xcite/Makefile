@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-morehype
-# Date created:		01/30/2011 04:57:38
+# New ports collection makefile for:	texlive-xcite
+# Date created:		09/05/2011 05:03:00
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	morehype
+PORTNAME=	xcite
 PORTVERSION=	20110905
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Hypertext tools for use with LaTeX.
+COMMENT=	Use citation keys from a different document.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
