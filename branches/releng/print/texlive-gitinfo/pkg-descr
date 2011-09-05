@@ -1,0 +1,4 @@
+The package makes it possible to incorporate git version
+control metadata into documents. For memoir users, the package
+provides the means to tailor page headers and footers to use
+the metadata.

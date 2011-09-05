@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-turnthepage
-# Date created:		01/08/2011 17:06:31
+# New ports collection makefile for:	texlive-biblatex-nejm
+# Date created:		09/05/2011 05:02:09
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	turnthepage
+PORTNAME=	biblatex-nejm
 PORTVERSION=	20110905
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provide "turn page" instructions.
+COMMENT=	Biblatex style for the New England Journal of Medicine (NEJM).
 
 NOPORTSRC=	yes
 

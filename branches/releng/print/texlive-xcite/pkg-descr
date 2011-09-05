@@ -1,0 +1,2 @@
+The package lets you use citation keys from another document,
+just as the xr package allows cross-document use of labels.

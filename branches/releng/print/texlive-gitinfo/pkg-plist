@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/gitinfo/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/gitinfo/gitHeadInfo.gin
+%%PORTDOCS%%share/texmf-dist/doc/latex/gitinfo/gitinfo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/gitinfo/gitinfo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/gitinfo/post-xxx-sample.txt
+share/texmf-dist/tex/latex/gitinfo/gitinfo.sty
+share/texmf-dist/tex/latex/gitinfo/gitsetinfo.sty
+@dirrmtry share/texmf-dist/tex/latex/gitinfo
+@dirrmtry share/texmf-dist/doc/latex/gitinfo
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

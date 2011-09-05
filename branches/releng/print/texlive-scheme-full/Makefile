@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110902
+PORTVERSION=	20110905
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -63,6 +63,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-juradiss/biblatex-juradiss.bbx:${PORTSDIR}/print/texlive-biblatex-juradiss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-mla/american-mla.lbx:${PORTSDIR}/print/texlive-biblatex-mla \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/biblatex-nature/biblatex-nature.bib:${PORTSDIR}/print/texlive-biblatex-nature \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-nejm/nejm.bbx:${PORTSDIR}/print/texlive-biblatex-nejm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-philosophy/english-philosophy.lbx:${PORTSDIR}/print/texlive-biblatex-philosophy \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/biblatex-science/biblatex-science.bib:${PORTSDIR}/print/texlive-biblatex-science \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblist/biblist.sty:${PORTSDIR}/print/texlive-biblist \
@@ -107,6 +108,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/uni-wtal-ger/uni-wtal-ger.bbx:${PORTSDIR}/print/texlive-uni-wtal-ger \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/urlbst/abbrvurl.bst:${PORTSDIR}/print/texlive-urlbst \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/vak/vak.bst:${PORTSDIR}/print/texlive-vak \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xcite/xcite.sty:${PORTSDIR}/print/texlive-xcite \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print/texlive-ae \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/amscls/amsalpha.bst:${PORTSDIR}/print/texlive-amscls \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsmath/amsmath.sty:${PORTSDIR}/print/texlive-amsmath \
@@ -985,6 +987,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/genmpage/genmpage.sty:${PORTSDIR}/print/texlive-genmpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/getfiledate/getfiledate.sty:${PORTSDIR}/print/texlive-getfiledate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ginpenc/ginpenc.sty:${PORTSDIR}/print/texlive-ginpenc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gitinfo/gitinfo.sty:${PORTSDIR}/print/texlive-gitinfo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gloss/gloss.sty:${PORTSDIR}/print/texlive-gloss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries/base/glossaries.sty:${PORTSDIR}/print/texlive-glossaries \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmdoc/gmdoc.sty:${PORTSDIR}/print/texlive-gmdoc \
@@ -1120,7 +1123,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/modroman/modroman.sty:${PORTSDIR}/print/texlive-modroman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/moreenum/moreenum.sty:${PORTSDIR}/print/texlive-moreenum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/morefloats/morefloats.sty:${PORTSDIR}/print/texlive-morefloats \
-		${LOCALBASE}/share/texmf-dist/tex/latex/morehype/atari.fdf:${PORTSDIR}/print/texlive-morehype \
+		${LOCALBASE}/share/texmf-dist/tex/latex/morehype/blog.sty:${PORTSDIR}/print/texlive-morehype \
 		${LOCALBASE}/share/texmf-dist/tex/latex/moresize/moresize.sty:${PORTSDIR}/print/texlive-moresize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/moreverb/moreverb.sty:${PORTSDIR}/print/texlive-moreverb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/morewrites/morewrites.sty:${PORTSDIR}/print/texlive-morewrites \
