@@ -19,8 +19,8 @@ share/texmf-dist/tex/latex/morehype/blog.sty
 share/texmf-dist/tex/latex/morehype/hypertoc.sty
 share/texmf-dist/tex/latex/morehype/lang-de.fdf
 share/texmf-dist/tex/latex/morehype/lang-en.fdf
+share/texmf-dist/tex/latex/morehype/lnavicol.sty
 share/texmf-dist/tex/latex/morehype/texlinks.sty
-share/texmf-dist/tex/latex/morehype/twocolpg.sty
 @dirrmtry share/texmf-dist/tex/latex/morehype
 @dirrmtry share/texmf-dist/source/latex/morehype
 @dirrmtry share/texmf-dist/doc/latex/morehype/demo/writings

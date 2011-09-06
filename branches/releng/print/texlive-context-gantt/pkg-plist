@@ -1,0 +1,6 @@
+share/texmf-dist/tex/context/third/gantt/gantt-s-mp.tex
+share/texmf-dist/tex/context/third/gantt/gantt-s-tikz.tex
+share/texmf-dist/tex/context/third/gantt/t-gantt.tex
+@dirrmtry share/texmf-dist/tex/context/third/gantt
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	serbian-apostrophe
-PORTVERSION=	20110809
+PORTVERSION=	20110906
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

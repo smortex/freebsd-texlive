@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-msu-thesis
-# Date created:		08/02/2011 05:10:17
+# New ports collection makefile for:	texlive-lapdf
+# Date created:		09/06/2011 04:53:24
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	msu-thesis
+PORTNAME=	lapdf
 PORTVERSION=	20110906
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class for Michigan State University Master's and PhD theses.
+COMMENT=	PDF drawing directly in TeX documents.
 
 NOPORTSRC=	yes
 
