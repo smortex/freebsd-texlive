@@ -261,10 +261,6 @@ share/texmf-dist/context/data/texworks/texworks-setup.ini
 %%PORTDOCS%%share/texmf-dist/doc/context/manuals/reference/en/typography/glyphs.tex
 %%PORTDOCS%%share/texmf-dist/doc/context/scripts/perl/texshow.1
 %%PORTDOCS%%share/texmf-dist/doc/context/scripts/perl/texshow.html
-%%PORTDOCS%%share/texmf-dist/doc/latex/context-gantt/metapost/context/third/hatching/mp-hatching.mp
-%%PORTDOCS%%share/texmf-dist/doc/latex/context-gantt/tex/context/third/gantt/gantt-s-mp.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/context-gantt/tex/context/third/gantt/gantt-s-tikz.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/context-gantt/tex/context/third/gantt/t-gantt.tex
 share/texmf-dist/fonts/afm/hoekwater/context/contnav.afm
 share/texmf-dist/fonts/cid/fontforge/Adobe-CNS1-4.cidmap
 share/texmf-dist/fonts/cid/fontforge/Adobe-GB1-4.cidmap
@@ -2138,8 +2134,6 @@ share/texmf-dist/tex/mptopdf/config/mptopdf.ini
 @dirrmtry share/texmf-dist/fonts/enc/dvips/context
 @dirrmtry share/texmf-dist/fonts/cid/fontforge
 @dirrmtry share/texmf-dist/fonts/afm/hoekwater/context
-@dirrmtry share/texmf-dist/doc/latex/context-gantt/tex/context/third/gantt
-@dirrmtry share/texmf-dist/doc/latex/context-gantt/metapost/context/third/hatching
 @dirrmtry share/texmf-dist/doc/context/scripts/perl
 @dirrmtry share/texmf-dist/doc/context/manuals/reference/en/typography
 @dirrmtry share/texmf-dist/doc/context/manuals/reference/en/tables

@@ -45,6 +45,7 @@ share/texmf-dist/fonts/source/public/fdsymbol/fddelims.mf
 share/texmf-dist/fonts/source/public/fdsymbol/fdgeometric.mf
 share/texmf-dist/fonts/source/public/fdsymbol/fdoperators.mf
 share/texmf-dist/fonts/source/public/fdsymbol/fdrelations.mf
+share/texmf-dist/fonts/source/public/fdsymbol/fdturnstile.mf
 share/texmf-dist/fonts/tfm/public/fdsymbol/FdSymbolA-Bold.tfm
 share/texmf-dist/fonts/tfm/public/fdsymbol/FdSymbolA-Book.tfm
 share/texmf-dist/fonts/tfm/public/fdsymbol/FdSymbolA-Medium.tfm
