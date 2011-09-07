@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	gincltex
-PORTVERSION=	20110310
+PORTVERSION=	20110907
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Include TeX files as graphics (.tex support for \includegraphics)
+COMMENT=	Include TeX files as graphics (.tex support for \includegraphics).
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
