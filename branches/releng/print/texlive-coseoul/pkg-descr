@@ -1,0 +1,4 @@
+The package provides "relative" commands that may be used in
+place of \chapter, \section, etc. The documentation shows a
+number of document-management scenarios in which such commands
+are valuable.

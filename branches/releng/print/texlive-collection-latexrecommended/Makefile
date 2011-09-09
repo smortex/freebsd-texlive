@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexrecommended
-PORTVERSION=	20110830
+PORTVERSION=	20110909
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -93,7 +93,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/anysize/anysize.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/doc/latex/koma-script/INSTALL.txt:${PORTSDIR}/print/texlive-koma-script \
 		${LOCALBASE}/share/texmf-dist/makeindex/l3kernel/l3doc.ist:${PORTSDIR}/print/texlive-l3kernel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty:${PORTSDIR}/print/texlive-l3packages \
-		${LOCALBASE}/share/texmf-dist/tex/latex/l3experimental/xcoffins/l3coffins-scaling.sty:${PORTSDIR}/print/texlive-l3experimental \
+		${LOCALBASE}/share/texmf-dist/tex/latex/l3experimental/xcoffins/xcoffins.sty:${PORTSDIR}/print/texlive-l3experimental \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listings/listings.sty:${PORTSDIR}/print/texlive-listings \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdwtools/at.sty:${PORTSDIR}/print/texlive-mdwtools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/memoir/memoir.cls:${PORTSDIR}/print/texlive-memoir \

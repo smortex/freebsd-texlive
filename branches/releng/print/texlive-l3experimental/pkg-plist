@@ -1,13 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/xcoffins/l3coffins-scaling.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/xcoffins/xcoffins-test.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/xcoffins/xcoffins-tschichold-example-keyval.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/xcoffins/xcoffins-tschichold-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/xcoffins/xcoffins.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/l3experimental/xcoffins/l3coffins-scaling.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/xcoffins/xcoffins.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/xcoffins/xcoffins.ins
-share/texmf-dist/tex/latex/l3experimental/xcoffins/l3coffins-scaling.sty
 share/texmf-dist/tex/latex/l3experimental/xcoffins/xcoffins.sty
 @dirrmtry share/texmf-dist/tex/latex/l3experimental/xcoffins
 @dirrmtry share/texmf-dist/source/latex/l3experimental/xcoffins

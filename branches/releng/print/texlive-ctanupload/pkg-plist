@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/ctanupload/Makefile.example
+%%PORTDOCS%%share/texmf-dist/doc/support/ctanupload/README
+%%PORTDOCS%%share/texmf-dist/doc/support/ctanupload/ctanupload.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/ctanupload/ctanupload.tex
+share/texmf-dist/scripts/ctanupload/ctanupload.pl
+@dirrmtry share/texmf-dist/scripts/ctanupload
+@dirrmtry share/texmf-dist/doc/support/ctanupload
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
