@@ -2,7 +2,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/Changes.dvips
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/Changes.generic
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/Changes.latex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/PSTricks.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/README
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/ctandir.sty
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/images/flowers.eps
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/images/tiger.eps
@@ -36,6 +38,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstnews1-12.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstnews97-15.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstnews97-15.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstricks-add-data9.data
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstricks-bug.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstricks-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/test-pst.pdf

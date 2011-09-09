@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-l3packages
-# Date created:		08/02/2011 05:06:20
+# New ports collection makefile for:	texlive-coseoul
+# Date created:		09/09/2011 04:56:05
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	l3packages
+PORTNAME=	coseoul
 PORTVERSION=	20110909
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	High-level LaTeX3 concepts.
+COMMENT=	Context sensitive outline elements
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

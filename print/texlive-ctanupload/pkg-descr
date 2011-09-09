@@ -1,0 +1,3 @@
+The package provides a Perl script that allows the uploads of a
+contribution to CTAN from the command line. The aim us to
+simplify the release process for LaTeX package authors.
