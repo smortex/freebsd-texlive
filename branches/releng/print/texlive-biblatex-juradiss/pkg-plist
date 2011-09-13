@@ -1,4 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-juradiss/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-juradiss/biber.conf
 share/texmf-dist/tex/latex/biblatex-juradiss/biblatex-juradiss.bbx
 share/texmf-dist/tex/latex/biblatex-juradiss/biblatex-juradiss.cbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-juradiss
