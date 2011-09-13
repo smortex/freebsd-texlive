@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	biblatex-juradiss
-PORTVERSION=	20110813
+PORTVERSION=	20110913
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

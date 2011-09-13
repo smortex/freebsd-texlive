@@ -7,7 +7,7 @@ share/texmf-dist/bibtex/bst/stellenbosch/ussagus.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/stellenbosch/USlogos-doc-4.0.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/stellenbosch/USnomencl-1.1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/stellenbosch/USsummary-1.0a.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/stellenbosch/USthesis-4.1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stellenbosch/USthesis-4.2.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/stellenbosch/UStitle-1.0.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/stellenbosch/templates/masters-sample.zip
 %%PORTDOCS%%share/texmf-dist/doc/latex/stellenbosch/templates/report-sample.zip
@@ -15,7 +15,7 @@ share/texmf-dist/bibtex/bst/stellenbosch/ussagus.bst
 %%PORTSRC%%share/texmf-dist/source/latex/stellenbosch/USlogos-4.0-src.zip
 %%PORTSRC%%share/texmf-dist/source/latex/stellenbosch/USnomencl-1.1-src.zip
 %%PORTSRC%%share/texmf-dist/source/latex/stellenbosch/USsummary-1.0a-src.zip
-%%PORTSRC%%share/texmf-dist/source/latex/stellenbosch/USthesis-4.1-src.zip
+%%PORTSRC%%share/texmf-dist/source/latex/stellenbosch/USthesis-4.2-src.zip
 %%PORTSRC%%share/texmf-dist/source/latex/stellenbosch/UStitle-1.0-src.zip
 share/texmf-dist/tex/latex/stellenbosch/logos/USEngLogo-BW-top.eps
 share/texmf-dist/tex/latex/stellenbosch/logos/USEngLogo-BW-top.pdf
