@@ -1,9 +1,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/circuitikz/CHANGELOG
 %%PORTDOCS%%share/texmf-dist/doc/latex/circuitikz/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/circuitikz/circuitikz-context.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/circuitikz/circuitikz-context.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/circuitikz/circuitikzmanual.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/circuitikz/circuitikzmanual.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/circuitikz/context.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/circuitikz/context.tex
 share/texmf-dist/tex/latex/circuitikz/circuitikz.code.tex
 share/texmf-dist/tex/latex/circuitikz/circuitikz.sty
 share/texmf-dist/tex/latex/circuitikz/circuitikz1.code.tex

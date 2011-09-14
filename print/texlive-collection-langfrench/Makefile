@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-langfrench
-PORTVERSION=	20110404
+PORTVERSION=	20110914
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -18,6 +18,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/aeguill/aeguill.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-french/bibleref-french.sty:${PORTSDIR}/print/texlive-bibleref-french \
 		${LOCALBASE}/share/texmf-dist/tex/latex/frenchle/frenchle.sty:${PORTSDIR}/print/texlive-frenchle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/frletter/frletter.cls:${PORTSDIR}/print/texlive-frletter \
+		${LOCALBASE}/share/texmf-dist/tex/latex/impnattypo/impnattypo.sty:${PORTSDIR}/print/texlive-impnattypo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mafr/mafr.sty:${PORTSDIR}/print/texlive-mafr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabvar/tabvar.sty:${PORTSDIR}/print/texlive-tabvar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tdsfrmath/tdsfrmath.sty:${PORTSDIR}/print/texlive-tdsfrmath \

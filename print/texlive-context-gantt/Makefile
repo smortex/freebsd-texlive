@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	context-gantt
-PORTVERSION=	20110909
+PORTVERSION=	20110914
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
@@ -15,6 +15,7 @@ COMMENT=	GANTT module for ConTeXt.
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORTSDIR}/print/texlive-context \
 		${LOCALBASE}/share/texmf-dist/metapost/hatching/hatching.mp:${PORTSDIR}/print/texlive-hatching
 
+NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

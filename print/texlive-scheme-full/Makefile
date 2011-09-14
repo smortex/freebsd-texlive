@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110909
+PORTVERSION=	20110914
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -517,7 +517,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/arabtex/arabtex.sty:${PORTSDIR}/print/texlive-arabtex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bidi/bidi.sty:${PORTSDIR}/print/texlive-bidi \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/persian-bib/acm-fa.bst:${PORTSDIR}/print/texlive-persian-bib \
-		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/persian-modern/pm-bold.ttf:${PORTSDIR}/print/texlive-persian-modern \
+		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/persian-modern/persian-modern-bold.ttf:${PORTSDIR}/print/texlive-persian-modern \
 		${LOCALBASE}/share/texmf-dist/fonts/cmap/adobemapping/LICENSE:${PORTSDIR}/print/texlive-adobemapping \
 		${LOCALBASE}/share/texmf-dist/dvips/arphic/config.bkaiu:${PORTSDIR}/print/texlive-arphic \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/c90/c90.enc:${PORTSDIR}/print/texlive-c90 \
@@ -561,6 +561,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-french/bibleref-french.sty:${PORTSDIR}/print/texlive-bibleref-french \
 		${LOCALBASE}/share/texmf-dist/tex/latex/frenchle/frenchle.sty:${PORTSDIR}/print/texlive-frenchle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/frletter/frletter.cls:${PORTSDIR}/print/texlive-frletter \
+		${LOCALBASE}/share/texmf-dist/tex/latex/impnattypo/impnattypo.sty:${PORTSDIR}/print/texlive-impnattypo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mafr/mafr.sty:${PORTSDIR}/print/texlive-mafr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabvar/tabvar.sty:${PORTSDIR}/print/texlive-tabvar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tdsfrmath/tdsfrmath.sty:${PORTSDIR}/print/texlive-tdsfrmath \
@@ -709,7 +710,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-tab/tkz-tab.sty:${PORTSDIR}/print/texlive-tkz-tab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tsemlines/tsemlines.sty:${PORTSDIR}/print/texlive-tsemlines \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tufte-latex/tufte-book.cls:${PORTSDIR}/print/texlive-tufte-latex \
-		${LOCALBASE}/share/texmf-dist/tex/latex/xypdf/xypdf.sty:${PORTSDIR}/print/texlive-xypdf \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xypic/xypic.sty:${PORTSDIR}/print/texlive-xypic \
 		${LOCALBASE}/share/texmf-dist/tex/generic/2up/2up.sty:${PORTSDIR}/print/texlive-2up \
 		${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:${PORTSDIR}/print/texlive-AkkTeX \
@@ -1167,6 +1167,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/nopageno/nopageno.sty:${PORTSDIR}/print/texlive-nopageno \
 		${LOCALBASE}/share/texmf-dist/tex/latex/notes/notes.sty:${PORTSDIR}/print/texlive-notes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/notoccite/notoccite.sty:${PORTSDIR}/print/texlive-notoccite \
+		${LOCALBASE}/share/texmf-dist/tex/latex/nowidow/nowidow.sty:${PORTSDIR}/print/texlive-nowidow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ntheorem/ntheorem.sty:${PORTSDIR}/print/texlive-ntheorem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/numname/numname.sty:${PORTSDIR}/print/texlive-numname \
 		${LOCALBASE}/share/texmf-dist/tex/latex/numprint/numprint.sty:${PORTSDIR}/print/texlive-numprint \
