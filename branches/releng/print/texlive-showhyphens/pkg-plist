@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/showhyphens/README
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/showhyphens/showhyphens-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/showhyphens/showhyphens-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/showhyphens/showhyphens-sample.pdf
+share/texmf-dist/tex/lualatex/showhyphens/showhyphens.sty
+@dirrmtry share/texmf-dist/tex/lualatex/showhyphens
+@dirrmtry share/texmf-dist/doc/lualatex/showhyphens
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

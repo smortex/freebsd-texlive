@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20110914
+PORTVERSION=	20110917
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -76,6 +76,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/adjustbox/adjustbox.sty:${P
 		${LOCALBASE}/share/texmf-dist/tex/latex/rviewport/rviewport.sty:${PORTSDIR}/print/texlive-rviewport \
 		${LOCALBASE}/share/texmf-dist/tex/latex/schemabloc/schemabloc.sty:${PORTSDIR}/print/texlive-schemabloc \
 		${LOCALBASE}/share/texmf-dist/tex/generic/texdraw/texdraw.sty:${PORTSDIR}/print/texlive-texdraw \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty:${PORTSDIR}/print/texlive-tikz-cd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty:${PORTSDIR}/print/texlive-tikz-3dplot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-inet/tikz-inet.sty:${PORTSDIR}/print/texlive-tikz-inet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty:${PORTSDIR}/print/texlive-tikz-qtree \

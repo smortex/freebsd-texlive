@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-cd/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-cd/pgfmanualstyle.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-cd/tikz-cd-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-cd/tikz-cd-doc.tex
+share/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty
+@dirrmtry share/texmf-dist/tex/latex/tikz-cd
+@dirrmtry share/texmf-dist/doc/latex/tikz-cd
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
