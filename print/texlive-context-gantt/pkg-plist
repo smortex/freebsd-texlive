@@ -1,6 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/context/third/gantt/README
+%%PORTDOCS%%share/texmf-dist/doc/context/third/gantt/examples/gantt-1.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/gantt/examples/gantt-2.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/gantt/examples/gantt-3.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/gantt/examples/gantt-4.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/gantt/examples/gantt-5.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/gantt/gantt.txt
 share/texmf-dist/tex/context/third/gantt/gantt-s-mp.tex
 share/texmf-dist/tex/context/third/gantt/gantt-s-tikz.tex
 share/texmf-dist/tex/context/third/gantt/t-gantt.tex
 @dirrmtry share/texmf-dist/tex/context/third/gantt
+@dirrmtry share/texmf-dist/doc/context/third/gantt/examples
+@dirrmtry share/texmf-dist/doc/context/third/gantt
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

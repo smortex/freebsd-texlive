@@ -1,18 +1,10 @@
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/MANIFEST
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/Makefile
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/README
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/lualatex-math.el
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/lualatex-math.pdf
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/test-amsmath.tex
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/test-kernel.tex
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/test-unicode.tex
-share/texmf-dist/scripts/lualatex-math/lualatex-math.lua
 %%PORTSRC%%share/texmf-dist/source/lualatex/lualatex-math/lualatex-math.dtx
 %%PORTSRC%%share/texmf-dist/source/lualatex/lualatex-math/lualatex-math.ins
+share/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.lua
 share/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.sty
 @dirrmtry share/texmf-dist/tex/lualatex/lualatex-math
 @dirrmtry share/texmf-dist/source/lualatex/lualatex-math
-@dirrmtry share/texmf-dist/scripts/lualatex-math
 @dirrmtry share/texmf-dist/doc/lualatex/lualatex-math
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

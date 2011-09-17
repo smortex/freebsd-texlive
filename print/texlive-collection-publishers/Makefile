@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20110824
+PORTVERSION=	20110917
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -77,6 +77,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/revtex4/revtex4.cls:${PORTSDIR}/print/texlive-revtex4 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ryethesis/ryethesis.cls:${PORTSDIR}/print/texlive-ryethesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sageep/sageep.cls:${PORTSDIR}/print/texlive-sageep \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sapthesis/sapthesis.cls:${PORTSDIR}/print/texlive-sapthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/seuthesis/seuthesis.cls:${PORTSDIR}/print/texlive-seuthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/soton/soton-beamer.sty:${PORTSDIR}/print/texlive-soton \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spie/spie.cls:${PORTSDIR}/print/texlive-spie \

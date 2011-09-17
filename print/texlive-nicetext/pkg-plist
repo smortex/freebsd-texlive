@@ -9,6 +9,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/RELEAS03.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/RELEAS04.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/RELEASE042.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/RELEASE043.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/SrcFILEs.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/demo/arseneau.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/demo/iso.txt
@@ -17,6 +18,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/demo/substr.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/fifinddo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/makedoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/mdoccheat.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/niceverb.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/wikicheat.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/nicetext/README.tex
@@ -46,6 +48,7 @@ share/texmf-dist/tex/latex/nicetext/run/lines.txt
 share/texmf-dist/tex/latex/nicetext/run/makedoc.tpl
 share/texmf-dist/tex/latex/nicetext/run/sample.txt
 share/texmf-dist/tex/latex/nicetext/run/substr.tex
+share/texmf-dist/tex/latex/nicetext/run/u8atablg.fdf
 share/texmf-dist/tex/latex/nicetext/wiki.sty
 @dirrmtry share/texmf-dist/tex/latex/nicetext/run
 @dirrmtry share/texmf-dist/tex/latex/nicetext

@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	impnattypo
-PORTVERSION=	20110914
+PORTVERSION=	20110917
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The impnattypo package
+COMMENT=	Support typography of l'Imprimerie Nationale FranASSaise.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

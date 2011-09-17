@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/delim/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/delim/delim.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/delim/delim.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/delim/delim.ins
+share/texmf-dist/tex/latex/delim/delim.sty
+@dirrmtry share/texmf-dist/tex/latex/delim
+@dirrmtry share/texmf-dist/source/latex/delim
+@dirrmtry share/texmf-dist/doc/latex/delim
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

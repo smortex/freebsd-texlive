@@ -5,8 +5,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/hyph-utf8/es/README
 %%PORTDOCS%%share/texmf-dist/doc/generic/hyph-utf8/es/division.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/hyph-utf8/hu/huhyphn.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/hyph-utf8/hyphenation-distribution.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/hyph-utf8/hyphenation-distribution.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/hyph-utf8/hyphenation.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/hyph-utf8/hyphenation.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/hyph-utf8/img/miktex-languages.png
+%%PORTDOCS%%share/texmf-dist/doc/generic/hyph-utf8/img/texlive-collection-lang.png
 %%PORTDOCS%%share/texmf-dist/doc/generic/hyph-utf8/sa/hyphenmin.txt
 %%PORTDOCS%%share/texmf-dist/doc/luatex/hyph-utf8/README
 %%PORTDOCS%%share/texmf-dist/doc/luatex/hyph-utf8/luatex-hyphen.pdf
@@ -532,6 +536,7 @@ share/texmf-dist/tex/luatex/hyph-utf8/luatex-hyphen.lua
 @dirrmtry share/texmf-dist/source/generic/hyph-utf8
 @dirrmtry share/texmf-dist/doc/luatex/hyph-utf8
 @dirrmtry share/texmf-dist/doc/generic/hyph-utf8/sa
+@dirrmtry share/texmf-dist/doc/generic/hyph-utf8/img
 @dirrmtry share/texmf-dist/doc/generic/hyph-utf8/hu
 @dirrmtry share/texmf-dist/doc/generic/hyph-utf8/es
 @dirrmtry share/texmf-dist/doc/generic/hyph-utf8/bg
