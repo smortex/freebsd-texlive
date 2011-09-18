@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-l3experimental
-# Date created:		08/02/2011 05:06:21
+# New ports collection makefile for:	texlive-ifoddpage
+# Date created:		09/18/2011 04:57:26
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	l3experimental
+PORTNAME=	ifoddpage
 PORTVERSION=	20110918
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Experimental LaTeX3 concepts.
+COMMENT=	The ifoddpage package
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

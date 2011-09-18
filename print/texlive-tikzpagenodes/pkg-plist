@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikzpagenodes/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikzpagenodes/tikzpagenodes.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/tikzpagenodes/tikzpagenodes.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tikzpagenodes/tikzpagenodes.ins
+share/texmf-dist/tex/latex/tikzpagenodes/tikzpagenodes.sty
+@dirrmtry share/texmf-dist/tex/latex/tikzpagenodes
+@dirrmtry share/texmf-dist/source/latex/tikzpagenodes
+@dirrmtry share/texmf-dist/doc/latex/tikzpagenodes
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
