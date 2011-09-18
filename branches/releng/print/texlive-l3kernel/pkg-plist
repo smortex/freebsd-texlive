@@ -62,7 +62,6 @@ share/texmf-dist/tex/latex/l3kernel/l3seq.sty
 share/texmf-dist/tex/latex/l3kernel/l3skip.sty
 share/texmf-dist/tex/latex/l3kernel/l3tl.sty
 share/texmf-dist/tex/latex/l3kernel/l3token.sty
-share/texmf-dist/tex/latex/l3kernel/l3toks.sty
 @dirrmtry share/texmf-dist/tex/latex/l3kernel
 @dirrmtry share/texmf-dist/source/latex/l3kernel
 @dirrmtry share/texmf-dist/makeindex/l3kernel

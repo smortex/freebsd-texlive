@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110917
+PORTVERSION=	20110918
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -138,6 +138,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-inet/tikz-inet.sty:${PORTSDIR}/print/texlive-tikz-inet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty:${PORTSDIR}/print/texlive-tikz-qtree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty:${PORTSDIR}/print/texlive-tikz-timing \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpagenodes/tikzpagenodes.sty:${PORTSDIR}/print/texlive-tikzpagenodes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-base/tkz-base.sty:${PORTSDIR}/print/texlive-tkz-base \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-berge/tkz-berge.sty:${PORTSDIR}/print/texlive-tkz-berge \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-doc/tkz-doc.cls:${PORTSDIR}/print/texlive-tkz-doc \
@@ -466,6 +467,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifmslide/ifmslide.sty:${PORTSDIR}/print/texlive-ifmslide \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty:${PORTSDIR}/print/texlive-ifmtarg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifnextok/ifnextok.sty:${PORTSDIR}/print/texlive-ifnextok \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty:${PORTSDIR}/print/texlive-ifoddpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifplatform/ifplatform.sty:${PORTSDIR}/print/texlive-ifplatform \
 		${LOCALBASE}/share/texmf-dist/tex/latex/image-gallery/image-gallery.cls:${PORTSDIR}/print/texlive-image-gallery \
 		${LOCALBASE}/share/texmf-dist/tex/latex/imakeidx/imakeidx.sty:${PORTSDIR}/print/texlive-imakeidx \

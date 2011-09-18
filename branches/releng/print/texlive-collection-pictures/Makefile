@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20110917
+PORTVERSION=	20110918
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -81,6 +81,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/adjustbox/adjustbox.sty:${P
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-inet/tikz-inet.sty:${PORTSDIR}/print/texlive-tikz-inet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty:${PORTSDIR}/print/texlive-tikz-qtree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty:${PORTSDIR}/print/texlive-tikz-timing \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpagenodes/tikzpagenodes.sty:${PORTSDIR}/print/texlive-tikzpagenodes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-base/tkz-base.sty:${PORTSDIR}/print/texlive-tkz-base \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-berge/tkz-berge.sty:${PORTSDIR}/print/texlive-tkz-berge \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-doc/tkz-doc.cls:${PORTSDIR}/print/texlive-tkz-doc \
