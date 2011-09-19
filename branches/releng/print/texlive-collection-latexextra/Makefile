@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110918
+PORTVERSION=	20110919
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -633,6 +633,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/papercdcase/papercdcase.sty:${PORTSDIR}/print/texlive-papercdcase \
 		${LOCALBASE}/share/texmf-dist/tex/latex/papermas/papermas.sty:${PORTSDIR}/print/texlive-papermas \
 		${LOCALBASE}/share/texmf-dist/tex/latex/papertex/papertex.cls:${PORTSDIR}/print/texlive-papertex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/paracol/paracol.sty:${PORTSDIR}/print/texlive-paracol \
 		${LOCALBASE}/share/texmf-dist/tex/latex/paralist/paralist.sty:${PORTSDIR}/print/texlive-paralist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/paresse/paresse.sty:${PORTSDIR}/print/texlive-paresse \
 		${LOCALBASE}/share/texmf-dist/tex/latex/parselines/parselines.sty:${PORTSDIR}/print/texlive-parselines \

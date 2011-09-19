@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/paracol/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/paracol/paracol-man.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/paracol/paracol-man.tex
+share/texmf-dist/tex/latex/paracol/paracol.sty
+@dirrmtry share/texmf-dist/tex/latex/paracol
+@dirrmtry share/texmf-dist/doc/latex/paracol
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
