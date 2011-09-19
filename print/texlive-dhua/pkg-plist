@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/dhua/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/dhua/README.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dhua/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/dhua/SrcFILEs.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/dhua/dhua.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/dhua/README.tex
+%%PORTSRC%%share/texmf-dist/source/latex/dhua/dhua.tex
+%%PORTSRC%%share/texmf-dist/source/latex/dhua/srcfiles.tex
+share/texmf-dist/tex/latex/dhua/dhua.cfg
+share/texmf-dist/tex/latex/dhua/dhua.sty
+@dirrmtry share/texmf-dist/tex/latex/dhua
+@dirrmtry share/texmf-dist/source/latex/dhua
+@dirrmtry share/texmf-dist/doc/latex/dhua
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
