@@ -1,6 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/minted/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/minted/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/minted/minted.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/minted/Makefile
 %%PORTSRC%%share/texmf-dist/source/latex/minted/minted.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/minted/minted.ins
 share/texmf-dist/tex/latex/minted/minted.sty

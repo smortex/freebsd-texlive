@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20110905
+PORTVERSION=	20110920
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -45,6 +45,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/aichej/aichej.bst:${PORTSD
 		${LOCALBASE}/share/texmf-dist/tex/latex/chicago/chicago.sty:${PORTSDIR}/print/texlive-chicago \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/chicago-annote/chicago-annote.bst:${PORTSDIR}/print/texlive-chicago-annote \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/chembst/ChemCommun.bst:${PORTSDIR}/print/texlive-chembst \
+		${LOCALBASE}/share/texmf-dist/tex/latex/chscite/chscite.sty:${PORTSDIR}/print/texlive-chscite \
 		${LOCALBASE}/share/texmf-dist/tex/latex/collref/collref.sty:${PORTSDIR}/print/texlive-collref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/compactbib/compactbib.sty:${PORTSDIR}/print/texlive-compactbib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/custom-bib/catalan.mbs:${PORTSDIR}/print/texlive-custom-bib \

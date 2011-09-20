@@ -1,0 +1,12 @@
+share/texmf-dist/bibtex/bst/chscite/chscite.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/chscite/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/chscite/chscite.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/chscite/chscite.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/chscite/chscite.ins
+share/texmf-dist/tex/latex/chscite/chscite.sty
+@dirrmtry share/texmf-dist/tex/latex/chscite
+@dirrmtry share/texmf-dist/source/latex/chscite
+@dirrmtry share/texmf-dist/doc/latex/chscite
+@dirrmtry share/texmf-dist/bibtex/bst/chscite
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

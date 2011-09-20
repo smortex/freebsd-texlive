@@ -5,6 +5,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/xits/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/xits/user-guide.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/xits/user-guide.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/xits/xits-math.lfg
 %%PORTDOCS%%share/texmf-dist/doc/fonts/xits/xits-specimen.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/xits/xits-specimen.tex
 share/texmf-dist/fonts/opentype/public/xits/xits-bold.otf

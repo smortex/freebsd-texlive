@@ -79,6 +79,7 @@ share/texmf-dist/tex/latex/bidi/hvfloat-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/hyperref-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/leqno-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/letter-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/lettrine-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/listings-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/loadingorder-bidi.def
 share/texmf-dist/tex/latex/bidi/longtable-xetex-bidi.def

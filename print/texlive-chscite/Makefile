@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-nowidow
-# Date created:		09/14/2011 05:01:11
+# New ports collection makefile for:	texlive-chscite
+# Date created:		09/20/2011 04:40:47
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	nowidow
+PORTNAME=	chscite
 PORTVERSION=	20110920
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Avoid widows.
+COMMENT=	Bibliography style for Chalmers University of Technology.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
