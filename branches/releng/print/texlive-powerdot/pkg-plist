@@ -3,7 +3,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/RunDoc
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/RunExamples
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/RunSlideDoc
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/doc-source/images/powerdot-default.ps
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/manifest.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-example.lyx
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-example.tex
@@ -21,6 +20,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdotDE.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdotDE.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdotSlide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdotSlide.tex
 share/texmf-dist/tex/latex/powerdot/powerdot-aggie.sty
 share/texmf-dist/tex/latex/powerdot/powerdot-bframe.sty
 share/texmf-dist/tex/latex/powerdot/powerdot-ciment.sty
@@ -41,7 +42,6 @@ share/texmf-dist/tex/latex/powerdot/powerdot-tycja.sty
 share/texmf-dist/tex/latex/powerdot/powerdot-upen.sty
 share/texmf-dist/tex/latex/powerdot/powerdot.cls
 @dirrmtry share/texmf-dist/tex/latex/powerdot
-@dirrmtry share/texmf-dist/doc/latex/powerdot/doc-source/images
 @dirrmtry share/texmf-dist/doc/latex/powerdot
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
