@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110919
+PORTVERSION=	20110921
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -387,7 +387,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/filecontents/filecontents.sty:${PORTSDIR}/print/texlive-filecontents \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filehook/filehook.sty:${PORTSDIR}/print/texlive-filehook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fileinfo/myfilist.sty:${PORTSDIR}/print/texlive-fileinfo \
-		${LOCALBASE}/share/texmf-dist/tex/generic/filemod/filemod.tex:${PORTSDIR}/print/texlive-filemod \
+		${LOCALBASE}/share/texmf-dist/tex/latex/filemod/filemod.sty:${PORTSDIR}/print/texlive-filemod \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fink/fink.sty:${PORTSDIR}/print/texlive-fink \
 		${LOCALBASE}/share/texmf-dist/tex/latex/finstrut/finstrut.sty:${PORTSDIR}/print/texlive-finstrut \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixfoot/fixfoot.sty:${PORTSDIR}/print/texlive-fixfoot \
@@ -411,6 +411,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/fncylab/fncylab.sty:${PORTSDIR}/print/texlive-fncylab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fnpara/fnpara.sty:${PORTSDIR}/print/texlive-fnpara \
 		${LOCALBASE}/share/texmf-dist/tex/latex/foilhtml/foilhtml.sty:${PORTSDIR}/print/texlive-foilhtml \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fontaxes/fontaxes.sty:${PORTSDIR}/print/texlive-fontaxes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fonttable/fonttable.sty:${PORTSDIR}/print/texlive-fonttable \
 		${LOCALBASE}/share/texmf-dist/tex/latex/footmisc/footmisc.sty:${PORTSDIR}/print/texlive-footmisc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/footnpag/footnpag.sty:${PORTSDIR}/print/texlive-footnpag \
@@ -803,6 +804,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/syntax/syntax.tex:${PORTSDIR}/print/texlive-syntax \
 		${LOCALBASE}/share/texmf-dist/tex/latex/syntrace/syntrace.sty:${PORTSDIR}/print/texlive-syntrace \
 		${LOCALBASE}/share/texmf-dist/tex/latex/synttree/synttree.sty:${PORTSDIR}/print/texlive-synttree \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tabfigures/tabfigures.sty:${PORTSDIR}/print/texlive-tabfigures \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tableaux/minimum.sty:${PORTSDIR}/print/texlive-tableaux \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tablists/tablists.sty:${PORTSDIR}/print/texlive-tablists \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabls/tabls.sty:${PORTSDIR}/print/texlive-tabls \
