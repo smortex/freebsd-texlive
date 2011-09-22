@@ -1,11 +1,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/filemod/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/filemod/filemod.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/filemod/filemod.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/filemod/filemod.ins
+share/texmf-dist/tex/generic/filemod/filemod-expmin.tex
+share/texmf-dist/tex/generic/filemod/filemod.tex
 share/texmf-dist/tex/latex/filemod/filemod-expmin.sty
 share/texmf-dist/tex/latex/filemod/filemod.sty
 @dirrmtry share/texmf-dist/tex/latex/filemod
-@dirrmtry share/texmf-dist/source/latex/filemod
+@dirrmtry share/texmf-dist/tex/generic/filemod
 @dirrmtry share/texmf-dist/doc/latex/filemod
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-filemod
-# Date created:		03/25/2011 04:56:42
+# New ports collection makefile for:	texlive-pgfmolbio
+# Date created:		09/22/2011 04:51:24
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	filemod
+PORTNAME=	pgfmolbio
 PORTVERSION=	20110922
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provide file modification times, and compare them.
+COMMENT=	Draw graphs typically found in molevular biology texts.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
