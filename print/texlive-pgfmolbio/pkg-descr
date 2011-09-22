@@ -1,0 +1,4 @@
+The package draws graphs typically found in molecular biology
+texts. Currently, the package contains one module, which
+creates DNA sequencing chromatograms from files in standard
+chromatogram format (scf).
