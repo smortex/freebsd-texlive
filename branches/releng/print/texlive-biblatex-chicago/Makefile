@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	biblatex-chicago
-PORTVERSION=	20110902
+PORTVERSION=	20110923
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

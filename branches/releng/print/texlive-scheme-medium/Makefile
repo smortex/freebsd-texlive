@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-medium
-PORTVERSION=	20110919
+PORTVERSION=	20110923
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -50,6 +50,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/bibtex/csf/base/88591lat.csf:${PORTSDIR}/print/texlive-bibtex8 \
 		${LOCALBASE}/share/texmf-dist/scripts/bundledoc/arlatex:${PORTSDIR}/print/texlive-bundledoc \
 		${LOCALBASE}/share/texmf/chktex/chktexrc:${PORTSDIR}/print/texlive-chktex \
+		${LOCALBASE}/share/texmf-dist/scripts/ctanify/ctanify:${PORTSDIR}/print/texlive-ctanify \
 		${LOCALBASE}/share/texmf-dist/scripts/ctanupload/ctanupload.pl:${PORTSDIR}/print/texlive-ctanupload \
 		${LOCALBASE}/share/texmf-dist/tex/plain/cweb/cwebmac.tex:${PORTSDIR}/print/texlive-cweb \
 		${LOCALBASE}/share/texmf-dist/scripts/de-macro/de-macro:${PORTSDIR}/print/texlive-de-macro \
@@ -81,6 +82,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/scripts/texdiff/texdiff:${PORTSDIR}/print/texlive-texdiff \
 		${LOCALBASE}/share/texmf-dist/scripts/texdirflatten/texdirflatten:${PORTSDIR}/print/texlive-texdirflatten \
 		${LOCALBASE}/share/texmf-dist/texdoc/texdoc.cnf:${PORTSDIR}/print/texlive-texdoc \
+		${LOCALBASE}/share/texmf-dist/scripts/texliveonfly/texliveonfly.py:${PORTSDIR}/print/texlive-texliveonfly \
 		${LOCALBASE}/share/texmf-dist/scripts/texloganalyser/texloganalyser:${PORTSDIR}/print/texlive-texloganalyser \
 		${LOCALBASE}/share/texmf/scripts/xindy/texindy.pl:${PORTSDIR}/print/texlive-xindy \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORTSDIR}/print/texlive-context \

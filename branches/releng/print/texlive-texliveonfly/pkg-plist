@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/texliveonfly/README
+share/texmf-dist/scripts/texliveonfly/texliveonfly.py
+@dirrmtry share/texmf-dist/scripts/texliveonfly
+@dirrmtry share/texmf-dist/doc/support/texliveonfly
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
