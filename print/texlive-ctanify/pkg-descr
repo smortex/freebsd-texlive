@@ -1,0 +1,8 @@
+Given a list of filenames, ctanify creates a tarball (a .tar.gz
+file) with the files laid out in CTAN's preferred structure.
+The tarball additionally contains a ZIP (.zip) file with copies
+of all files laid out in the standard TeX Directory Structure
+(TDS), which may be used by those intending to install the
+package, or by those who need to incorporate it in a
+distribution. (The TDS ZIP file will be installed in the CTAN
+install/ tree.)

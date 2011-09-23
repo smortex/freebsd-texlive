@@ -1,0 +1,9 @@
+The package provides a script that performs 'on the fly'
+downloads of missing packages, while a document is being
+compiled. (This feature is already available in the MikTeX
+distribution for Windows machines.) To use the script, replace
+your (LaTeX) compilation command with texliveonfly.py file.tex
+(default options are --engine=lualatex and --arguments="-
+synctex=1 -interaction=nonstopmode", both of which may be
+changed). The script is designed to work on Linux
+distributions.
