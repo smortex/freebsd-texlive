@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20110922
+PORTVERSION=	20110924
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -786,6 +786,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/stdclsdv/stdclsdv.sty:${PORTSDIR}/print/texlive-stdclsdv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stdpage/stdpage.sty:${PORTSDIR}/print/texlive-stdpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stex/stex.sty:${PORTSDIR}/print/texlive-stex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/storebox/storebox.sty:${PORTSDIR}/print/texlive-storebox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stringstrings/stringstrings.sty:${PORTSDIR}/print/texlive-stringstrings \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sttools/boundbox.sty:${PORTSDIR}/print/texlive-sttools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stubs/stubs.sty:${PORTSDIR}/print/texlive-stubs \

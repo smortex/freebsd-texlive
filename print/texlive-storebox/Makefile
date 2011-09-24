@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-nowidow
-# Date created:		09/14/2011 05:01:11
+# New ports collection makefile for:	texlive-storebox
+# Date created:		09/24/2011 05:03:13
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	nowidow
+PORTNAME=	storebox
 PORTVERSION=	20110924
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Avoid widows.
+COMMENT=	Storing information for reuse.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
