@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/storebox/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/storebox/storebox.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/storebox/storebox.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/storebox/storebox.ins
+share/texmf-dist/tex/latex/storebox/storebox.sty
+@dirrmtry share/texmf-dist/tex/latex/storebox
+@dirrmtry share/texmf-dist/source/latex/storebox
+@dirrmtry share/texmf-dist/doc/latex/storebox
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

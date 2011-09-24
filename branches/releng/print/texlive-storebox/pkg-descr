@@ -1,0 +1,6 @@
+The package provides "store boxes" whose user interface matches
+that of normal LaTeX "save boxes", except that the content of a
+store box appears at most once in the output PDF file, however
+often it is used. The present version of the package supports
+pdfLaTeX and LuaLaTeX; when DVI is output, store boxes behave
+the same as save boxes.
