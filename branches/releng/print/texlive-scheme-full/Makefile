@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110924
+PORTVERSION=	20110927
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -562,6 +562,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/aeguill/aeguill.sty:${PORTSDIR}/print/texlive-aeguill \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/bib-fr/abbrv-fr.bst:${PORTSDIR}/print/texlive-bib-fr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-french/bibleref-french.sty:${PORTSDIR}/print/texlive-bibleref-french \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/facture/facture.cls:${PORTSDIR}/print/texlive-facture \
 		${LOCALBASE}/share/texmf-dist/tex/latex/frenchle/frenchle.sty:${PORTSDIR}/print/texlive-frenchle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/frletter/frletter.cls:${PORTSDIR}/print/texlive-frletter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/impnattypo/impnattypo.sty:${PORTSDIR}/print/texlive-impnattypo \
@@ -676,7 +677,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/miniplot/miniplot.sty:${PORTSDIR}/print/texlive-miniplot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/numericplots/NumericPlots.sty:${PORTSDIR}/print/texlive-numericplots \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pb-diagram/pb-diagram.sty:${PORTSDIR}/print/texlive-pb-diagram \
-		${LOCALBASE}/share/texmf-dist/tex/latex/petri-nets/pndraw.sty:${PORTSDIR}/print/texlive-petri-nets \
+		${LOCALBASE}/share/texmf-dist/tex/generic/petri-nets/pndraw.sty:${PORTSDIR}/print/texlive-petri-nets \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty:${PORTSDIR}/print/texlive-pgf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-soroban/pgf-soroban.sty:${PORTSDIR}/print/texlive-pgf-soroban \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-umlsd/pgf-umlsd.sty:${PORTSDIR}/print/texlive-pgf-umlsd \

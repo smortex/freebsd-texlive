@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20110922
+PORTVERSION=	20110927
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -54,7 +54,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/adjustbox/adjustbox.sty:${P
 		${LOCALBASE}/share/texmf-dist/tex/latex/miniplot/miniplot.sty:${PORTSDIR}/print/texlive-miniplot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/numericplots/NumericPlots.sty:${PORTSDIR}/print/texlive-numericplots \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pb-diagram/pb-diagram.sty:${PORTSDIR}/print/texlive-pb-diagram \
-		${LOCALBASE}/share/texmf-dist/tex/latex/petri-nets/pndraw.sty:${PORTSDIR}/print/texlive-petri-nets \
+		${LOCALBASE}/share/texmf-dist/tex/generic/petri-nets/pndraw.sty:${PORTSDIR}/print/texlive-petri-nets \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty:${PORTSDIR}/print/texlive-pgf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-soroban/pgf-soroban.sty:${PORTSDIR}/print/texlive-pgf-soroban \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-umlsd/pgf-umlsd.sty:${PORTSDIR}/print/texlive-pgf-umlsd \

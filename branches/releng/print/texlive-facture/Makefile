@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-dingbat
-# Date created:		13/03/2010 04:26:14
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-facture
+# Date created:		09/27/2011 04:48:25
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	dingbat
+PORTNAME=	facture
 PORTVERSION=	20110927
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Two dingbat symbol fonts.
+COMMENT=	Generate an invoice.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
