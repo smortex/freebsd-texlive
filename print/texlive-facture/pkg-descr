@@ -1,0 +1,5 @@
+Une classe simple permettant de produite une facture, avec ou
+sans TVA, avec gestion d'une adresse differente pour la
+livraison et pour la facturation. A simple class that allows
+production of an invoice, with or without VAT; different
+addresses for delivery and for billing are permitted.

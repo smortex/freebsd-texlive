@@ -6,12 +6,13 @@
 #
 
 PORTNAME=	petri-nets
-PORTVERSION=	20100922
+PORTVERSION=	20110927
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	A set TeX/LaTeX packages for drawing Petri nets.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

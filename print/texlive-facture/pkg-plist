@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/facture/README
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/facture/exemple.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/facture/exemple.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/facture/exemplesansTVA.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/facture/exemplesansTVA.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/facture/facture.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/facture/makefile
+%%PORTSRC%%share/texmf-dist/source/xelatex/facture/facture.dtx
+%%PORTSRC%%share/texmf-dist/source/xelatex/facture/facture.ins
+share/texmf-dist/tex/xelatex/facture/facture.cls
+@dirrmtry share/texmf-dist/tex/xelatex/facture
+@dirrmtry share/texmf-dist/source/xelatex/facture
+@dirrmtry share/texmf-dist/doc/xelatex/facture
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
