@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-musuos/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-musuos/biblatex-musuos.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-musuos/biblatex-musuos.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-musuos/musuos-bsp.bib
+share/texmf-dist/tex/latex/biblatex-musuos/german-musuos.lbx
+share/texmf-dist/tex/latex/biblatex-musuos/musuos.bbx
+share/texmf-dist/tex/latex/biblatex-musuos/musuos.cbx
+@dirrmtry share/texmf-dist/tex/latex/biblatex-musuos
+@dirrmtry share/texmf-dist/doc/latex/biblatex-musuos
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

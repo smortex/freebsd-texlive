@@ -1,6 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/niceframe/bbding10.mf
+%%PORTDOCS%%share/texmf-dist/doc/latex/niceframe/dingbat.mf
 %%PORTDOCS%%share/texmf-dist/doc/latex/niceframe/example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/niceframe/niceframe.pdf
-share/texmf-dist/fonts/source/public/niceframe/dingbat.mf
 share/texmf-dist/fonts/source/public/niceframe/karta.mf
 share/texmf-dist/fonts/source/public/niceframe/karta15.mf
 share/texmf-dist/fonts/source/public/niceframe/umrand.mf

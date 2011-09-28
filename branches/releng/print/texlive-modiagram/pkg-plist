@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/modiagram/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/modiagram/modiagram_doc_de.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/modiagram/modiagram_doc_de.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/modiagram/modiagram_doc_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/modiagram/modiagram_doc_en.tex
+share/texmf-dist/tex/latex/modiagram/modiagram.sty
+@dirrmtry share/texmf-dist/tex/latex/modiagram
+@dirrmtry share/texmf-dist/doc/latex/modiagram
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

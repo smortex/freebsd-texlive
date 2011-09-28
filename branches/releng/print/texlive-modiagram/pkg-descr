@@ -1,0 +1,7 @@
+The package provides an environment MOdiagram and some
+commands, to create molecular orbital diagrams using the TikZ
+package. For example, the MO diagram of dihydrogen would be set
+like: \begin{MOdiagram} \atom{left}{ 1s = {0;up} }
+\atom{right}{ 1s = {0;up} } \molecule{ 1sMO = {1;pair, } }
+\end{MOdiagram} The package also needs the l3kernel l3packages
+bundles from the LaTeX 3 distribution.

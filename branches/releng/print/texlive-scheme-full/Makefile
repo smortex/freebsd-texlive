@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110927
+PORTVERSION=	20110928
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -62,6 +62,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/biblatex-ieee/biblatex-ieee.bib:${PORTSDIR}/print/texlive-biblatex-ieee \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-juradiss/biblatex-juradiss.bbx:${PORTSDIR}/print/texlive-biblatex-juradiss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-mla/american-mla.lbx:${PORTSDIR}/print/texlive-biblatex-mla \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-musuos/german-musuos.lbx:${PORTSDIR}/print/texlive-biblatex-musuos \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/biblatex-nature/biblatex-nature.bib:${PORTSDIR}/print/texlive-biblatex-nature \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-nejm/nejm.bbx:${PORTSDIR}/print/texlive-biblatex-nejm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-philosophy/english-philosophy.lbx:${PORTSDIR}/print/texlive-biblatex-philosophy \
@@ -94,6 +95,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/iopart-num/iopart-num.bst:${PORTSDIR}/print/texlive-iopart-num \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jneurosci/jneurosci.sty:${PORTSDIR}/print/texlive-jneurosci \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jurabib/jurabib.sty:${PORTSDIR}/print/texlive-jurabib \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/ksfh_nat/ksfh_nat.bst:${PORTSDIR}/print/texlive-ksfh_nat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listbib/listbib.sty:${PORTSDIR}/print/texlive-listbib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/logreq/logreq.sty:${PORTSDIR}/print/texlive-logreq \
 		${LOCALBASE}/share/texmf-dist/tex/latex/margbib/margbib.sty:${PORTSDIR}/print/texlive-margbib \
@@ -675,6 +677,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/lpic/lpic.sty:${PORTSDIR}/print/texlive-lpic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathspic/mathspic.sty:${PORTSDIR}/print/texlive-mathspic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/miniplot/miniplot.sty:${PORTSDIR}/print/texlive-miniplot \
+		${LOCALBASE}/share/texmf-dist/tex/latex/modiagram/modiagram.sty:${PORTSDIR}/print/texlive-modiagram \
 		${LOCALBASE}/share/texmf-dist/tex/latex/numericplots/NumericPlots.sty:${PORTSDIR}/print/texlive-numericplots \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pb-diagram/pb-diagram.sty:${PORTSDIR}/print/texlive-pb-diagram \
 		${LOCALBASE}/share/texmf-dist/tex/generic/petri-nets/pndraw.sty:${PORTSDIR}/print/texlive-petri-nets \

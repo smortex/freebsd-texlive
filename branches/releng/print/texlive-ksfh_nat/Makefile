@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-biblatex-chem
-# Date created:		13/03/2010 04:23:08
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-ksfh_nat
+# Date created:		09/28/2011 04:40:41
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	biblatex-chem
+PORTNAME=	ksfh_nat
 PORTVERSION=	20110928
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Chemistry styles for biblatex.
+COMMENT=	The ksfh_nat package
 
+NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
