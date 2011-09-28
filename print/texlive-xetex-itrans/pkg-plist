@@ -1,4 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xetex-itrans/README
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xetex-itrans/itrans-tamil-sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xetex-itrans/itrans-tamil-sample.tex
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/brh-kan.map
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/brh-kan.tec
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-dvn.map
@@ -13,6 +15,8 @@ share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-santel.map
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-santel.tec
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-sdvn.map
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-sdvn.tec
+share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-tamil.map
+share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-tamil.tec
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-tel.map
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-tel.tec
 @dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans

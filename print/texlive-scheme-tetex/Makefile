@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-tetex
-PORTVERSION=	20110927
+PORTVERSION=	20110928
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -435,6 +435,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/lpic/lpic.sty:${PORTSDIR}/print/texlive-lpic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathspic/mathspic.sty:${PORTSDIR}/print/texlive-mathspic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/miniplot/miniplot.sty:${PORTSDIR}/print/texlive-miniplot \
+		${LOCALBASE}/share/texmf-dist/tex/latex/modiagram/modiagram.sty:${PORTSDIR}/print/texlive-modiagram \
 		${LOCALBASE}/share/texmf-dist/tex/latex/numericplots/NumericPlots.sty:${PORTSDIR}/print/texlive-numericplots \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pb-diagram/pb-diagram.sty:${PORTSDIR}/print/texlive-pb-diagram \
 		${LOCALBASE}/share/texmf-dist/tex/generic/petri-nets/pndraw.sty:${PORTSDIR}/print/texlive-petri-nets \
