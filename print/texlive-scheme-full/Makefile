@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20110928
+PORTVERSION=	20111001
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1097,6 +1097,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltxindex/ltxindex.sty:${PORTSDIR}/print/texlive-ltxindex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltxkeys/ltxkeys.sty:${PORTSDIR}/print/texlive-ltxkeys \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltxnew/ltxnew.sty:${PORTSDIR}/print/texlive-ltxnew \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ltxtools/ltxtools.sty:${PORTSDIR}/print/texlive-ltxtools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/magaz/magaz.sty:${PORTSDIR}/print/texlive-magaz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mailing/mailing.sty:${PORTSDIR}/print/texlive-mailing \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mailmerge/mailmerge.sty:${PORTSDIR}/print/texlive-mailmerge \
@@ -1137,6 +1138,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/mlist/mlist.sty:${PORTSDIR}/print/texlive-mlist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mmap/mmap.sty:${PORTSDIR}/print/texlive-mmap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/moderncv/moderncv.cls:${PORTSDIR}/print/texlive-moderncv \
+		${LOCALBASE}/share/texmf-dist/tex/latex/moderntimeline/moderntimeline.sty:${PORTSDIR}/print/texlive-moderntimeline \
 		${LOCALBASE}/share/texmf-dist/tex/latex/modref/modref.sty:${PORTSDIR}/print/texlive-modref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/modroman/modroman.sty:${PORTSDIR}/print/texlive-modroman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/moreenum/moreenum.sty:${PORTSDIR}/print/texlive-moreenum \
@@ -1903,7 +1905,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/polyglossia/polyglossia.sty:${PORTSDIR}/print/texlive-polyglossia \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/unisugar/unisugar.sty:${PORTSDIR}/print/texlive-unisugar \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecjk/xeCJK.sty:${PORTSDIR}/print/texlive-xecjk \
-		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecolour/xecolour.sty:${PORTSDIR}/print/texlive-xecolour \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecolor/xecolor.sty:${PORTSDIR}/print/texlive-xecolor \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecyr/xecyr.sty:${PORTSDIR}/print/texlive-xecyr \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xeindex/xeindex.sty:${PORTSDIR}/print/texlive-xeindex \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xepersian/xepersian.sty:${PORTSDIR}/print/texlive-xepersian \

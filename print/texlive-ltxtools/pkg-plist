@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ltxtools/README
+share/texmf-dist/tex/latex/ltxtools/ltxtools.sty
+@dirrmtry share/texmf-dist/tex/latex/ltxtools
+@dirrmtry share/texmf-dist/doc/latex/ltxtools
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

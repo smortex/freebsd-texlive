@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecolor/README
+share/texmf-dist/tex/xelatex/xecolor/xecolor.sty
+@dirrmtry share/texmf-dist/tex/xelatex/xecolor
+@dirrmtry share/texmf-dist/doc/xelatex/xecolor
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
