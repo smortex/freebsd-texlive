@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/moderntimeline/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/moderntimeline/moderntimeline.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/moderntimeline/moderntimeline.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/moderntimeline/moderntimeline.ins
+share/texmf-dist/tex/latex/moderntimeline/moderntimeline.sty
+@dirrmtry share/texmf-dist/tex/latex/moderntimeline
+@dirrmtry share/texmf-dist/source/latex/moderntimeline
+@dirrmtry share/texmf-dist/doc/latex/moderntimeline
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

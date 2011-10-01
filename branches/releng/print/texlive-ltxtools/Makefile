@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-biblatex-chicago
-# Date created:		09/21/2010 11:35:06
+# New ports collection makefile for:	texlive-ltxtools
+# Date created:		10/01/2011 04:59:47
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	biblatex-chicago
+PORTNAME=	ltxtools
 PORTVERSION=	20111001
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Chicago style files for biblatex.
+COMMENT=	A collection of LaTeX API macros.
 
 NOPORTSRC=	yes
 
