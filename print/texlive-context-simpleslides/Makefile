@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	context-simpleslides
-PORTVERSION=	20110805
+PORTVERSION=	20111003
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

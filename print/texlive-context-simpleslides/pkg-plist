@@ -1,3 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/example.tex
 %%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/simpleslides.pdf
 %%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/simpleslides.tex
 %%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/solutions/generic-talk-15min-45min.tex
@@ -21,6 +23,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/RainbowStripe.pdf
 %%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/Rounded.pdf
 %%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/Shaded-blue.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/Shaded-bluered.pdf
 %%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/Shaded-green.pdf
 %%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/SideSquares.pdf
 %%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/SideToc.pdf
@@ -28,7 +31,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/Sunrise.pdf
 %%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/Swoosh.pdf
 %%PORTDOCS%%share/texmf-dist/doc/context/third/simpleslides/styles/ThickStripes.pdf
+share/texmf-dist/scripts/context/lua/third/simpleslides/mtx-simpleslides.lua
 share/texmf-dist/tex/context/interface/third/t-simpleslides.xml
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-c-default.tex
 share/texmf-dist/tex/context/third/simpleslides/simpleslides-f-default.tex
 share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-BigNumber.tex
 share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-BottomSquares.tex
@@ -54,6 +59,7 @@ share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-default.tex
 share/texmf-dist/tex/context/third/simpleslides/t-simpleslides.tex
 @dirrmtry share/texmf-dist/tex/context/third/simpleslides
 @dirrmtry share/texmf-dist/tex/context/interface/third
+@dirrmtry share/texmf-dist/scripts/context/lua/third/simpleslides
 @dirrmtry share/texmf-dist/doc/context/third/simpleslides/styles
 @dirrmtry share/texmf-dist/doc/context/third/simpleslides/solutions
 @dirrmtry share/texmf-dist/doc/context/third/simpleslides
