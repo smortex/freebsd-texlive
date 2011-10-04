@@ -1,0 +1,4 @@
+The package defines some node shapes useful for drawing TQFT
+diagrams with TikZ/PGF. That is, it defines highly customisable
+shapes that look like cobordisms between circles, such as those
+used in TQFT and other mathematical diagrams.

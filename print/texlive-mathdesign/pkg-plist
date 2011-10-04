@@ -1,10 +1,11 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/mathdesign/MD-adobe-utopia-doc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/mathdesign/MD-adobe-utopia-example.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/mathdesign/MD-bitstream-charter-doc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/mathdesign/MD-bitstream-charter-example.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/mathdesign/MD-urw-garamond-doc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/mathdesign/MD-urw-garamond-example.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/mathdesign/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/mathdesign/MD-adobe-utopia-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/mathdesign/MD-adobe-utopia-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/mathdesign/MD-bitstream-charter-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/mathdesign/MD-bitstream-charter-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/mathdesign/MD-urw-garamond-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/mathdesign/MD-urw-garamond-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/mathdesign/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/mathdesign/mathdesign-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/mathdesign/mathdesign-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/mathdesign/mdbch/MD-bitstream-charter-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/mathdesign/mdbch/mdbchtest.tex
@@ -648,5 +649,6 @@ share/texmf-dist/tex/latex/mathdesign/mdugm/ts1mdugm.fd
 @dirrmtry share/texmf-dist/doc/latex/mathdesign/mdput
 @dirrmtry share/texmf-dist/doc/latex/mathdesign/mdbch
 @dirrmtry share/texmf-dist/doc/latex/mathdesign
+@dirrmtry share/texmf-dist/doc/fonts/mathdesign
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
