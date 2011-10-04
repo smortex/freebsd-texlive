@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-texapi
-# Date created:		09/21/2010 11:40:04
+# New ports collection makefile for:	texlive-tqft
+# Date created:		10/04/2011 04:52:15
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	texapi
+PORTNAME=	tqft
 PORTVERSION=	20111004
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros to write format-independent packages.
+COMMENT=	Drawing TQFT diagrams with TikZ/PGF.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

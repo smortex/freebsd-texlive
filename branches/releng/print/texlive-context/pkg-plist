@@ -380,7 +380,6 @@ share/texmf-dist/scripts/context/lua/mtx-unzip.lua
 share/texmf-dist/scripts/context/lua/mtx-update.lua
 share/texmf-dist/scripts/context/lua/mtx-watch.lua
 share/texmf-dist/scripts/context/lua/mtxrun.rme
-share/texmf-dist/scripts/context/lua/third/simpleslides/mtx-simpleslides.lua
 share/texmf-dist/scripts/context/perl/makempy.pl
 share/texmf-dist/scripts/context/perl/path_tre.pm
 share/texmf-dist/scripts/context/perl/pdftrimwhite.pl
@@ -2122,7 +2121,6 @@ share/texmf-dist/tex/mptopdf/config/mptopdf.ini
 @dirrmtry share/texmf-dist/scripts/context/ruby/base/kpse
 @dirrmtry share/texmf-dist/scripts/context/ruby/base
 @dirrmtry share/texmf-dist/scripts/context/perl
-@dirrmtry share/texmf-dist/scripts/context/lua/third/simpleslides
 @dirrmtry share/texmf-dist/metapost/context/font
 @dirrmtry share/texmf-dist/metapost/context/base
 @dirrmtry share/texmf-dist/fonts/type1/hoekwater/context
