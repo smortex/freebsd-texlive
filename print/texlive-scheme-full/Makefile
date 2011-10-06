@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20111004
+PORTVERSION=	20111006
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -197,7 +197,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/lettrine.xml:${PORTSDIR}/print/texlive-context-lettrine \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/lilypond/t-lilypond.tex:${PORTSDIR}/print/texlive-context-lilypond \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-mathsets.xml:${PORTSDIR}/print/texlive-context-mathsets \
-		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-rst.xml:${PORTSDIR}/print/texlive-context-rst \
+		${LOCALBASE}/share/texmf-dist/scripts/context/lua/third/rst/mtx-t-rst.lua:${PORTSDIR}/print/texlive-context-rst \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/ruby/t-ruby.tex:${PORTSDIR}/print/texlive-context-ruby \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/simplefonts/t-simplefonts.lua:${PORTSDIR}/print/texlive-context-simplefonts \
 		${LOCALBASE}/share/texmf-dist/scripts/context/lua/third/simpleslides/mtx-simpleslides.lua:${PORTSDIR}/print/texlive-context-simpleslides \
@@ -1049,6 +1049,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/interactiveworkbook/interactiveworkbook.sty:${PORTSDIR}/print/texlive-interactiveworkbook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/interfaces/interfaces.sty:${PORTSDIR}/print/texlive-interfaces \
 		${LOCALBASE}/share/texmf-dist/tex/latex/inversepath/inversepath.sty:${PORTSDIR}/print/texlive-inversepath \
+		${LOCALBASE}/share/texmf-dist/tex/latex/invoice/invoice.sty:${PORTSDIR}/print/texlive-invoice \
 		${LOCALBASE}/share/texmf-dist/makeindex/iso/iso.ist:${PORTSDIR}/print/texlive-iso \
 		${LOCALBASE}/share/texmf-dist/tex/latex/iso10303/aicv1.sty:${PORTSDIR}/print/texlive-iso10303 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/isodate/isodate.sty:${PORTSDIR}/print/texlive-isodate \

@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/invoice/00README.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/invoice/copying
+%%PORTDOCS%%share/texmf-dist/doc/latex/invoice/history
+%%PORTDOCS%%share/texmf-dist/doc/latex/invoice/install
+%%PORTDOCS%%share/texmf-dist/doc/latex/invoice/invoice.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/invoice/invoice.tex
+share/texmf-dist/tex/latex/invoice/invoice.def
+share/texmf-dist/tex/latex/invoice/invoice.sty
+@dirrmtry share/texmf-dist/tex/latex/invoice
+@dirrmtry share/texmf-dist/doc/latex/invoice
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

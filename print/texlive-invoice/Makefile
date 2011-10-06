@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-moderntimeline
-# Date created:		10/01/2011 05:00:29
+# New ports collection makefile for:	texlive-invoice
+# Date created:		10/06/2011 05:09:50
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	moderntimeline
+PORTNAME=	invoice
 PORTVERSION=	20111006
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Timelines for use with moderncv.
+COMMENT=	Generate invoices.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

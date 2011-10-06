@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-context
-PORTVERSION=	20111003
+PORTVERSION=	20111006
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -33,7 +33,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORT
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/lettrine.xml:${PORTSDIR}/print/texlive-context-lettrine \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/lilypond/t-lilypond.tex:${PORTSDIR}/print/texlive-context-lilypond \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-mathsets.xml:${PORTSDIR}/print/texlive-context-mathsets \
-		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-rst.xml:${PORTSDIR}/print/texlive-context-rst \
+		${LOCALBASE}/share/texmf-dist/scripts/context/lua/third/rst/mtx-t-rst.lua:${PORTSDIR}/print/texlive-context-rst \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/ruby/t-ruby.tex:${PORTSDIR}/print/texlive-context-ruby \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/simplefonts/t-simplefonts.lua:${PORTSDIR}/print/texlive-context-simplefonts \
 		${LOCALBASE}/share/texmf-dist/scripts/context/lua/third/simpleslides/mtx-simpleslides.lua:${PORTSDIR}/print/texlive-context-simpleslides \
