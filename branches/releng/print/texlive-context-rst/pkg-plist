@@ -1,8 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/context/third/rst/COPYING
 %%PORTDOCS%%share/texmf-dist/doc/context/third/rst/README.rst
 %%PORTDOCS%%share/texmf-dist/doc/context/third/rst/documentation.rst
 %%PORTDOCS%%share/texmf-dist/doc/context/third/rst/hybridtest.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/rst/inc-first.rst
+%%PORTDOCS%%share/texmf-dist/doc/context/third/rst/inc-second.rst
+%%PORTDOCS%%share/texmf-dist/doc/context/third/rst/inc-third.rst
+%%PORTDOCS%%share/texmf-dist/doc/context/third/rst/inc.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/rst/manual.bib
+%%PORTDOCS%%share/texmf-dist/doc/context/third/rst/manual.pdf
 %%PORTDOCS%%share/texmf-dist/doc/context/third/rst/manual.tex
 %%PORTDOCS%%share/texmf-dist/doc/context/third/rst/moduletest.tex
+share/texmf-dist/scripts/context/lua/third/rst/mtx-t-rst.lua
 share/texmf-dist/tex/context/interface/third/t-rst.xml
 share/texmf-dist/tex/context/third/rst/rst_context.lua
 share/texmf-dist/tex/context/third/rst/rst_directives.lua
@@ -12,6 +20,7 @@ share/texmf-dist/tex/context/third/rst/rst_setups.lua
 share/texmf-dist/tex/context/third/rst/t-rst.mkiv
 @dirrmtry share/texmf-dist/tex/context/third/rst
 @dirrmtry share/texmf-dist/tex/context/interface/third
+@dirrmtry share/texmf-dist/scripts/context/lua/third/rst
 @dirrmtry share/texmf-dist/doc/context/third/rst
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

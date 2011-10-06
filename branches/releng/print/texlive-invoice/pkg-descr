@@ -1,0 +1,4 @@
+The package may be used for generating invoices. The package
+can deal with invisible expense items and deductions; output
+may be presented in any of 10 different languages. The package
+depends on the fp and calc packages for its calculations.
