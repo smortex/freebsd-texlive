@@ -19,7 +19,7 @@ shell> make -C /usr/ports/ports-mgmt/portshaker-config install # Ensure TEXLIVE 
 shell> portshaker -v
 }}}
 
-The ports are updated daily. [Updating]
+The ports are updated daily. [Upgrading]
 
 === Generate the ports yourself (NOT recommended) ===
 
