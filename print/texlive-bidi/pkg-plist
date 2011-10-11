@@ -41,6 +41,7 @@ share/texmf-dist/tex/latex/bidi/bidiftnxtra.sty
 share/texmf-dist/tex/latex/bidi/bidimoderncv.cls
 share/texmf-dist/tex/latex/bidi/bidipoem.sty
 share/texmf-dist/tex/latex/bidi/bidipresentation.cls
+share/texmf-dist/tex/latex/bidi/biditools.sty
 share/texmf-dist/tex/latex/bidi/biditufte-book.cls
 share/texmf-dist/tex/latex/bidi/biditufte-handout.cls
 share/texmf-dist/tex/latex/bidi/bidituftefloat.sty
