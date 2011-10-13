@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	antiqua
-PORTVERSION=	20110329
+PORTVERSION=	20111013
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	URW Antiqua font pack for LaTeX.
+COMMENT=	URW Antiqua condensed font, for use with TeX.
 
 NOPORTSRC=	yes
 
