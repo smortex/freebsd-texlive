@@ -3,6 +3,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/morehype/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/morehype/RELEASE.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/morehype/SRCFILEs.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/SrcFILEs.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/morehype/blog.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/morehype/demo/texblog/makehtml.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/morehype/demo/texblog/texblog.fdf
@@ -12,14 +13,19 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/morehype/demo/writings/writings.fdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/morehype/hypertoc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/morehype/texlinks.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/morehype/README.tex
 %%PORTSRC%%share/texmf-dist/source/latex/morehype/blog.tex
 %%PORTSRC%%share/texmf-dist/source/latex/morehype/hypertoc.tex
+%%PORTSRC%%share/texmf-dist/source/latex/morehype/srcfiles.tex
 %%PORTSRC%%share/texmf-dist/source/latex/morehype/texlinks.tex
 share/texmf-dist/tex/latex/morehype/blog.sty
+share/texmf-dist/tex/latex/morehype/blogdot.css
+share/texmf-dist/tex/latex/morehype/blogdot.sty
 share/texmf-dist/tex/latex/morehype/hypertoc.sty
 share/texmf-dist/tex/latex/morehype/lang-de.fdf
 share/texmf-dist/tex/latex/morehype/lang-en.fdf
 share/texmf-dist/tex/latex/morehype/lnavicol.sty
+share/texmf-dist/tex/latex/morehype/texblog.fdf
 share/texmf-dist/tex/latex/morehype/texlinks.sty
 @dirrmtry share/texmf-dist/tex/latex/morehype
 @dirrmtry share/texmf-dist/source/latex/morehype
