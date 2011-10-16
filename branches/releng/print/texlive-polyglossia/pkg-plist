@@ -1,6 +1,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/polyglossia/README
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/polyglossia/example-arabic.pdf
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/polyglossia/example-arabic.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/polyglossia/example-thai.pdf
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/polyglossia/example-thai.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/polyglossia/examples.pdf
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/polyglossia/examples.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/polyglossia/polyglossia.pdf
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/polyglossia/polyglossia.tex
@@ -55,6 +58,7 @@ share/texmf-dist/tex/xelatex/polyglossia/gloss-icelandic.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-interlingua.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-irish.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-italian.ldf
+share/texmf-dist/tex/xelatex/polyglossia/gloss-kannada.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-lao.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-latin.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-latvian.ldf
