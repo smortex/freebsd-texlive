@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20111013
+PORTVERSION=	20111016
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -609,7 +609,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/scripts/ebong/ebong.py:${PORTSDIR}/print/texlive-ebong \
 		${LOCALBASE}/share/texmf-dist/tex/latex/itrans/itrans.sty:${PORTSDIR}/print/texlive-itrans \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/malayalam/effects/effect.mf:${PORTSDIR}/print/texlive-malayalam \
-		${LOCALBASE}/share/texmf-dist/tex/latex/polyglossia-kannada/gloss-kannada.ldf:${PORTSDIR}/print/texlive-polyglossia-kannada \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/sanskrit/skt.map:${PORTSDIR}/print/texlive-sanskrit \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/velthuis/dvnb10.afm:${PORTSDIR}/print/texlive-velthuis \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/wnri/acctmax.mf:${PORTSDIR}/print/texlive-wnri \

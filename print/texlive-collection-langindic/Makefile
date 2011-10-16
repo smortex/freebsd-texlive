@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-langindic
-PORTVERSION=	20110727
+PORTVERSION=	20111016
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -22,7 +22,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/source/public/bangtex/bang10.mf
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/itrans/itrans.sty:${PORTSDIR}/print/texlive-itrans \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/malayalam/effects/effect.mf:${PORTSDIR}/print/texlive-malayalam \
-		${LOCALBASE}/share/texmf-dist/tex/latex/polyglossia-kannada/gloss-kannada.ldf:${PORTSDIR}/print/texlive-polyglossia-kannada \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/sanskrit/skt.map:${PORTSDIR}/print/texlive-sanskrit \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/velthuis/dvnb10.afm:${PORTSDIR}/print/texlive-velthuis \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/wnri/acctmax.mf:${PORTSDIR}/print/texlive-wnri \
