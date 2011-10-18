@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/calligra-type1/README
+share/texmf-dist/fonts/afm/public/calligra-type1/callig15.afm
+share/texmf-dist/fonts/map/dvips/calligra-type1/calligra.map
+share/texmf-dist/fonts/type1/public/calligra-type1/callig15.pfb
+@dirrmtry share/texmf-dist/fonts/type1/public/calligra-type1
+@dirrmtry share/texmf-dist/fonts/map/dvips/calligra-type1
+@dirrmtry share/texmf-dist/fonts/afm/public/calligra-type1
+@dirrmtry share/texmf-dist/doc/fonts/calligra-type1
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

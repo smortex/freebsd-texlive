@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-morehype
-# Date created:		01/30/2011 04:57:38
+# New ports collection makefile for:	texlive-calligra-type1
+# Date created:		10/18/2011 04:41:19
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	morehype
+PORTNAME=	calligra-type1
 PORTVERSION=	20111018
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Hypertext tools for use with LaTeX.
+COMMENT=	Type 1 version of Caliigra.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
