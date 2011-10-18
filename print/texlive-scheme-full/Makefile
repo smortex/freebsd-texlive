@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20111016
+PORTVERSION=	20111018
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -236,6 +236,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/braille/braille.sty:${PORTSDIR}/print/texlive-braille \
 		${LOCALBASE}/share/texmf-dist/dvips/brushscr/config.pbsi:${PORTSDIR}/print/texlive-brushscr \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/calligra/callig15.mf:${PORTSDIR}/print/texlive-calligra \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/calligra-type1/callig15.afm:${PORTSDIR}/print/texlive-calligra-type1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cantarell/cantarell.sty:${PORTSDIR}/print/texlive-cantarell \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/carolmin-ps/cmin10.afm:${PORTSDIR}/print/texlive-carolmin-ps \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ccicons/ccicons.sty:${PORTSDIR}/print/texlive-ccicons \
