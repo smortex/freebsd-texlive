@@ -1,0 +1,4 @@
+The package provides macros for command definition that save
+the name of the command being defined in a file or a macro
+container. The list could be useful for spelling exceptions in
+text editors that do not support TeX syntax.
