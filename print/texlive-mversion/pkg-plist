@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/mversion/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/mversion/mVersion.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/mversion/mVersion.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mversion/mVersion.ins
+share/texmf-dist/tex/latex/mversion/mVersion.sty
+@dirrmtry share/texmf-dist/tex/latex/mversion
+@dirrmtry share/texmf-dist/source/latex/mversion
+@dirrmtry share/texmf-dist/doc/latex/mversion
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
