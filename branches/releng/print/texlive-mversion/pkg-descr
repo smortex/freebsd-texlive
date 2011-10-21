@@ -1,0 +1,6 @@
+The package enables the user to keep track of different
+versions of a latex document. The command \version prints the
+version and build numbers; each time you compile your document,
+the build number is increased by one. By placing \version in
+the header or footer, each page can be marked with the unique
+build number describing the progress of your document.

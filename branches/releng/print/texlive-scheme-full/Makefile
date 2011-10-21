@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20111020
+PORTVERSION=	20111021
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1159,6 +1159,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/multibbl/multibbl.sty:${PORTSDIR}/print/texlive-multibbl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multicap/multicap.sty:${PORTSDIR}/print/texlive-multicap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multirow/multirow.sty:${PORTSDIR}/print/texlive-multirow \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mversion/mVersion.sty:${PORTSDIR}/print/texlive-mversion \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mylatexformat/mylatexformat.ltx:${PORTSDIR}/print/texlive-mylatexformat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nag/nag.sty:${PORTSDIR}/print/texlive-nag \
 		${LOCALBASE}/share/texmf-dist/tex/latex/namespc/namespc.sty:${PORTSDIR}/print/texlive-namespc \
