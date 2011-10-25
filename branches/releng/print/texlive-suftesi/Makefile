@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	suftesi
-PORTVERSION=	20111024
+PORTVERSION=	20111025
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A document class for typesetting theses.
+COMMENT=	A document class for typesetting theses, books and articles.
 
 NOPORTSRC=	yes
 
