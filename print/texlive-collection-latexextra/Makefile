@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20111025
+PORTVERSION=	20111027
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -436,6 +436,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/gcite/gcite.sty:${PORTSDIR}/print/texlive-gcite \
 		${LOCALBASE}/share/texmf-dist/tex/latex/genmpage/genmpage.sty:${PORTSDIR}/print/texlive-genmpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/getfiledate/getfiledate.sty:${PORTSDIR}/print/texlive-getfiledate \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ghab/ghab.sty:${PORTSDIR}/print/texlive-ghab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ginpenc/ginpenc.sty:${PORTSDIR}/print/texlive-ginpenc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gitinfo/gitinfo.sty:${PORTSDIR}/print/texlive-gitinfo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gloss/gloss.sty:${PORTSDIR}/print/texlive-gloss \
@@ -866,6 +867,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/topfloat/topfloat.sty:${PORTSDIR}/print/texlive-topfloat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/totcount/totcount.sty:${PORTSDIR}/print/texlive-totcount \
 		${LOCALBASE}/share/texmf-dist/tex/latex/totpages/totpages.sty:${PORTSDIR}/print/texlive-totpages \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tram/tram.sty:${PORTSDIR}/print/texlive-tram \
 		${LOCALBASE}/share/texmf-dist/tex/latex/trfsigns/trfsigns.sty:${PORTSDIR}/print/texlive-trfsigns \
 		${LOCALBASE}/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty:${PORTSDIR}/print/texlive-trimspaces \
 		${LOCALBASE}/share/texmf-dist/tex/latex/trsym/trsym.sty:${PORTSDIR}/print/texlive-trsym \

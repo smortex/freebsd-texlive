@@ -1,6 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-func/Changes
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-func/README
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-func/pst-func-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-func/pst-func-doc.data
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-func/pst-func-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-func/pst-func-doc.tex
 share/texmf-dist/dvips/pst-func/pst-func.pro
