@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-csquotes
-# Date created:		13/03/2010 04:40:23
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-tram
+# Date created:		10/27/2011 05:05:33
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	csquotes
+PORTNAME=	tram
 PORTVERSION=	20111027
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Context sensitive quotation facilities.
+COMMENT=	Typeset tram boxes in LaTeX.
 
 NOPORTSRC=	yes
 

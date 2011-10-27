@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-csquotes
-# Date created:		13/03/2010 04:40:23
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-ghab
+# Date created:		10/27/2011 04:58:26
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	csquotes
+PORTNAME=	ghab
 PORTVERSION=	20111027
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Context sensitive quotation facilities.
+COMMENT=	Typeset ghab boxes in LaTeX.
 
 NOPORTSRC=	yes
 
