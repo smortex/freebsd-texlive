@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-ghab
-# Date created:		10/27/2011 04:58:26
+# New ports collection makefile for:	texlive-crbox
+# Date created:		10/29/2011 04:54:46
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	ghab
+PORTNAME=	crbox
 PORTVERSION=	20111029
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset ghab boxes in LaTeX.
+COMMENT=	Boxes with crossed corners.
 
 NOPORTSRC=	yes
 
