@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/crbox/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/crbox/crbox-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/crbox/crbox-doc.tex
+share/texmf-dist/tex/latex/crbox/crbox.sty
+@dirrmtry share/texmf-dist/tex/latex/crbox
+@dirrmtry share/texmf-dist/doc/latex/crbox
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
