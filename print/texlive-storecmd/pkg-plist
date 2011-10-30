@@ -1,5 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/storecmd/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/storecmd/storecmd-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/storecmd/storecmd-guide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/storecmd/storecmd-guide.tex
 share/texmf-dist/tex/latex/storecmd/storecmd.sty
 @dirrmtry share/texmf-dist/tex/latex/storecmd
 @dirrmtry share/texmf-dist/doc/latex/storecmd

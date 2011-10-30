@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/platex/japanese/README
+%%PORTDOCS%%share/texmf-dist/doc/platex/japanese/sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/platex/japanese/sample.tex
+%%PORTSRC%%share/texmf-dist/source/platex/japanese/japanese.dtx
+%%PORTSRC%%share/texmf-dist/source/platex/japanese/japanese.ins
+share/texmf-dist/tex/platex/japanese/japanese.ldf
+@dirrmtry share/texmf-dist/tex/platex/japanese
+@dirrmtry share/texmf-dist/source/platex/japanese
+@dirrmtry share/texmf-dist/doc/platex/japanese
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
