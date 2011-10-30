@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20111029
+PORTVERSION=	20111030
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -534,6 +534,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/ctex/ctex.sty:${PORTSDIR}/print/texlive-ctex \
 		${LOCALBASE}/share/texmf-dist/fonts/sfd/dnp/DNP.sfd:${PORTSDIR}/print/texlive-dnp \
 		${LOCALBASE}/share/texmf-dist/dvips/garuda-c90/config.garuda-c90:${PORTSDIR}/print/texlive-garuda-c90 \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/ipaex/otf-ipa.map:${PORTSDIR}/print/texlive-ipaex \
+		${LOCALBASE}/share/texmf-dist/tex/platex/japanese/japanese.ldf:${PORTSDIR}/print/texlive-japanese \
 		${LOCALBASE}/share/texmf-dist/tex/platex/jsclasses/jsarticle.cls:${PORTSDIR}/print/texlive-jsclasses \
 		${LOCALBASE}/share/texmf-dist/dvips/norasi-c90/config.norasi-c90:${PORTSDIR}/print/texlive-norasi-c90 \
 		${LOCALBASE}/share/texmf-dist/tex/ptex/base/ptex.tex:${PORTSDIR}/print/texlive-ptex \
@@ -815,7 +817,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/changes/changes.sty:${PORTSDIR}/print/texlive-changes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chappg/chappg.sty:${PORTSDIR}/print/texlive-chappg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chapterfolder/chapterfolder.sty:${PORTSDIR}/print/texlive-chapterfolder \
-		${LOCALBASE}/share/texmf-dist/tex/latex/chet/chet.cls:${PORTSDIR}/print/texlive-chet \
+		${LOCALBASE}/share/texmf-dist/tex/latex/chet/chet.sty:${PORTSDIR}/print/texlive-chet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chextras/chextras.sty:${PORTSDIR}/print/texlive-chextras \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chletter/chletter.cls:${PORTSDIR}/print/texlive-chletter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chngcntr/chngcntr.sty:${PORTSDIR}/print/texlive-chngcntr \

@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-beamer2thesis
-# Date created:		01/19/2011 04:49:49
+# New ports collection makefile for:	texlive-japanese
+# Date created:		10/30/2011 04:48:01
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	beamer2thesis
+PORTNAME=	japanese
 PORTVERSION=	20111030
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Thesis presentations using beamer.
+COMMENT=	A substitute for a babel package for Japanese.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

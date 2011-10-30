@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-beamer2thesis
-# Date created:		01/19/2011 04:49:49
+# New ports collection makefile for:	texlive-ipaex
+# Date created:		10/30/2011 04:47:59
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	beamer2thesis
+PORTNAME=	ipaex
 PORTVERSION=	20111030
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Thesis presentations using beamer.
+COMMENT=	IPA and IPAex fonts from Information-technology Promotion Agency, Japan.
 
 NOPORTSRC=	yes
 

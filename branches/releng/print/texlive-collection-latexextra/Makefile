@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20111029
+PORTVERSION=	20111030
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -247,7 +247,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/changes/changes.sty:${PORTSDIR}/print/texlive-changes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chappg/chappg.sty:${PORTSDIR}/print/texlive-chappg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chapterfolder/chapterfolder.sty:${PORTSDIR}/print/texlive-chapterfolder \
-		${LOCALBASE}/share/texmf-dist/tex/latex/chet/chet.cls:${PORTSDIR}/print/texlive-chet \
+		${LOCALBASE}/share/texmf-dist/tex/latex/chet/chet.sty:${PORTSDIR}/print/texlive-chet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chextras/chextras.sty:${PORTSDIR}/print/texlive-chextras \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chletter/chletter.cls:${PORTSDIR}/print/texlive-chletter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chngcntr/chngcntr.sty:${PORTSDIR}/print/texlive-chngcntr \
