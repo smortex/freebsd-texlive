@@ -29,14 +29,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/ptex/pbibtex/jbtxhak.pdf
 %%PORTDOCS%%share/texmf-dist/doc/ptex/pbibtex/jbtxhak.tex
 share/texmf-dist/fonts/map/dvipdfmx/ptex/morisawa.map
-share/texmf-dist/fonts/map/dvipdfmx/ptex/ptex-hiragino-N.map
+share/texmf-dist/fonts/map/dvipdfmx/ptex/ptex-hiragino-04.map
 share/texmf-dist/fonts/map/dvipdfmx/ptex/ptex-hiragino.map
-share/texmf-dist/fonts/map/dvipdfmx/ptex/ptex-ipa-otf.map
-share/texmf-dist/fonts/map/dvipdfmx/ptex/ptex-ipa-ttf.map
-share/texmf-dist/fonts/map/dvipdfmx/ptex/ptex-kozuka-Pr6N.map
-share/texmf-dist/fonts/map/dvipdfmx/ptex/ptex-kozuka-Pro.map
+share/texmf-dist/fonts/map/dvipdfmx/ptex/ptex-kozuka-04.map
 share/texmf-dist/fonts/map/dvipdfmx/ptex/ptex-kozuka.map
-share/texmf-dist/fonts/map/dvipdfmx/ptex/ptex-morisawa-Pr6N.map
+share/texmf-dist/fonts/map/dvipdfmx/ptex/ptex-morisawa-04.map
 share/texmf-dist/fonts/map/dvipdfmx/ptex/ptex-morisawa.map
 share/texmf-dist/fonts/map/dvipdfmx/ptex/ptex-noEmbed.map
 share/texmf-dist/fonts/source/ptex/ascgrp/ascgrp.mf
