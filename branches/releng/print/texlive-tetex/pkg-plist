@@ -44,7 +44,6 @@ share/texmf/fonts/enc/dvips/tetex/d9b29452.enc
 share/texmf/fonts/enc/dvips/tetex/f7b6d320.enc
 share/texmf/fonts/enc/dvips/tetex/mtex.enc
 share/texmf/fonts/map/dvips/tetex/README
-share/texmf/fonts/map/dvips/tetex/cid-base.map
 share/texmf/fonts/map/dvips/tetex/dvipdfm35.map
 share/texmf/fonts/map/dvips/tetex/dvips35.map
 share/texmf/fonts/map/dvips/tetex/mathpple.map

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	ptex
-PORTVERSION=	20111103
+PORTVERSION=	20111104
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
@@ -19,7 +19,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/web2c/amiga-pl.tcx:${PORTSDIR}/print/texli
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8 \
 		${LOCALBASE}/share/texmf-dist/fonts/cmap/adobemapping/LICENSE:${PORTSDIR}/print/texlive-adobemapping \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/ipaex/otf-ipa.map:${PORTSDIR}/print/texlive-ipaex \
-		${LOCALBASE}/share/texmf-dist/tex/platex/japanese/japanese.ldf:${PORTSDIR}/print/texlive-japanese
+		${LOCALBASE}/share/texmf-dist/tex/platex/japanese/japanese.ldf:${PORTSDIR}/print/texlive-japanese \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/japanese-otf/otf-cktx.map:${PORTSDIR}/print/texlive-japanese-otf
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
