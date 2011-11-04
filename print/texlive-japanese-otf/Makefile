@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-ipaex
-# Date created:		10/30/2011 04:47:59
+# New ports collection makefile for:	texlive-japanese-otf
+# Date created:		11/04/2011 04:48:12
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	ipaex
+PORTNAME=	japanese-otf
 PORTVERSION=	20111104
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	IPA and IPAex fonts from Information-technology Promotion Agency, Japan.
+COMMENT=	The japanese-otf package
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

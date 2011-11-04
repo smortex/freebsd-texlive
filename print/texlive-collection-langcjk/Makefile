@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-langcjk
-PORTVERSION=	20111030
+PORTVERSION=	20111104
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -27,6 +27,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/cmap/adobemapping/LICENSE:${POR
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8 \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/ipaex/otf-ipa.map:${PORTSDIR}/print/texlive-ipaex \
 		${LOCALBASE}/share/texmf-dist/tex/platex/japanese/japanese.ldf:${PORTSDIR}/print/texlive-japanese \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/japanese-otf/otf-cktx.map:${PORTSDIR}/print/texlive-japanese-otf \
 		${LOCALBASE}/share/texmf-dist/tex/platex/jsclasses/jsarticle.cls:${PORTSDIR}/print/texlive-jsclasses \
 		${LOCALBASE}/share/texmf-dist/dvips/norasi-c90/config.norasi-c90:${PORTSDIR}/print/texlive-norasi-c90 \
 		${LOCALBASE}/share/texmf-dist/tex/ptex/base/ptex.tex:${PORTSDIR}/print/texlive-ptex \
