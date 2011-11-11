@@ -1,0 +1,4 @@
+The package provides the command \tablefootnote to be used in a
+table or sidewaystableenvironment, where \footnote will not
+work (and when using \footnotemark and \footnotetext, and
+adjusting the counter as necessary, is too much work.

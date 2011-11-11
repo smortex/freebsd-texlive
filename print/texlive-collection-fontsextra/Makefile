@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20111018
+PORTVERSION=	20111111
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -59,6 +59,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmtiup/cmtiup.sty:${PORTSDIR}/print/texlive-cmtiup \
 		${LOCALBASE}/share/texmf-dist/tex/latex/comfortaa/comfortaa.sty:${PORTSDIR}/print/texlive-comfortaa \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/concmath-fonts/xccam10.mf:${PORTSDIR}/print/texlive-concmath-fonts \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cookingsymbols/cookingsymbols.sty:${PORTSDIR}/print/texlive-cookingsymbols \
 		${LOCALBASE}/share/texmf-dist/tex/latex/courier-scaled/8rpcrs.fd:${PORTSDIR}/print/texlive-courier-scaled \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/cryst/cryst.afm:${PORTSDIR}/print/texlive-cryst \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cyklop/cyklop.sty:${PORTSDIR}/print/texlive-cyklop \

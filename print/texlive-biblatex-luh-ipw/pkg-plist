@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-luh-ipw/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-luh-ipw/biblatex-luh-ipw-preamble.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-luh-ipw/biblatex-luh-ipw-print.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-luh-ipw/biblatex-luh-ipw-screen.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-luh-ipw/de-biblatex-luh-ipw.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-luh-ipw/de-biblatex-luh-ipw.tex
+share/texmf-dist/tex/latex/biblatex-luh-ipw/bbx/authoryear-luh-ipw.bbx
+share/texmf-dist/tex/latex/biblatex-luh-ipw/bbx/standard-luh-ipw.bbx
+share/texmf-dist/tex/latex/biblatex-luh-ipw/bbx/verbose-inote-luh-ipw.bbx
+share/texmf-dist/tex/latex/biblatex-luh-ipw/cbx/authoryear-luh-ipw.cbx
+share/texmf-dist/tex/latex/biblatex-luh-ipw/cbx/verbose-inote-luh-ipw.cbx
+share/texmf-dist/tex/latex/biblatex-luh-ipw/lbx/english-luh-ipw.lbx
+share/texmf-dist/tex/latex/biblatex-luh-ipw/lbx/german-luh-ipw.lbx
+@dirrmtry share/texmf-dist/tex/latex/biblatex-luh-ipw/lbx
+@dirrmtry share/texmf-dist/tex/latex/biblatex-luh-ipw/cbx
+@dirrmtry share/texmf-dist/tex/latex/biblatex-luh-ipw/bbx
+@dirrmtry share/texmf-dist/doc/latex/biblatex-luh-ipw
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

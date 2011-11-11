@@ -1,0 +1,11 @@
+E-TeX provides 32 768 mark registers; using this facility is
+far more comfortable than LaTeX tricks with \markright,
+\markboth, \leftmark and \rightmark. The package provides two
+commands for marking: \marksthe and \marksthecs, which have *
+forms which disable expansion; new mark registers are allocated
+as needed. Syntax is closely modelled on the \marks primitive.
+Four commands are provided for retrieving the marks registers'
+content: \thefirstmarks, \thebotmarks, thetopmarks and
+\getthemarks; and the command \ifmarksequal is available for
+comparing the content of marks registers. The package requires
+an e-TeX-enabled engine, and the etex package.

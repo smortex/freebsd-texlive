@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20111030
+PORTVERSION=	20111111
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -332,6 +332,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/dvdcoll/dvdcoll.cls:${PORTSDIR}/print/texlive-dvdcoll \
 		${LOCALBASE}/share/texmf-dist/tex/latex/easy/easy.sty:${PORTSDIR}/print/texlive-easy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/easy-todo/easy-todo.sty:${PORTSDIR}/print/texlive-easy-todo \
+		${LOCALBASE}/share/texmf-dist/tex/latex/easyfig/easyfig.sty:${PORTSDIR}/print/texlive-easyfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/easylist/easylist.sty:${PORTSDIR}/print/texlive-easylist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ean13isbn/ean13isbn.sty:${PORTSDIR}/print/texlive-ean13isbn \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebezier/ebezier.sty:${PORTSDIR}/print/texlive-ebezier \
@@ -344,6 +345,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/ellipsis/ellipsis.sty:${PORTSDIR}/print/texlive-ellipsis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/elmath/elmath.sty:${PORTSDIR}/print/texlive-elmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/elpres/elpres.cls:${PORTSDIR}/print/texlive-elpres \
+		${LOCALBASE}/share/texmf-dist/tex/latex/emarks/emarks.sty:${PORTSDIR}/print/texlive-emarks \
 		${LOCALBASE}/share/texmf-dist/tex/latex/emptypage/emptypage.sty:${PORTSDIR}/print/texlive-emptypage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/emulateapj/emulateapj.cls:${PORTSDIR}/print/texlive-emulateapj \
 		${LOCALBASE}/share/texmf-dist/tex/latex/endfloat/endfloat.sty:${PORTSDIR}/print/texlive-endfloat \
@@ -461,6 +463,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/hhtensor/hhtensor.sty:${PORTSDIR}/print/texlive-hhtensor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/histogr/histogr.sty:${PORTSDIR}/print/texlive-histogr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hitec/hitec.cls:${PORTSDIR}/print/texlive-hitec \
+		${LOCALBASE}/share/texmf-dist/tex/latex/hletter/hletter.cls:${PORTSDIR}/print/texlive-hletter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hpsdiss/hpsdiss.cls:${PORTSDIR}/print/texlive-hpsdiss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hrefhide/hrefhide.sty:${PORTSDIR}/print/texlive-hrefhide \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hvindex/hvindex.sty:${PORTSDIR}/print/texlive-hvindex \
@@ -525,6 +528,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/lkproof/proof.sty:${PORTSDIR}/print/texlive-lkproof \
 		${LOCALBASE}/share/texmf-dist/tex/latex/locality/locality.sty:${PORTSDIR}/print/texlive-locality \
 		${LOCALBASE}/share/texmf-dist/tex/latex/localloc/localloc.sty:${PORTSDIR}/print/texlive-localloc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/logbox/logbox.sty:${PORTSDIR}/print/texlive-logbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/logical-markup-utils/onedash.sty:${PORTSDIR}/print/texlive-logical-markup-utils \
 		${LOCALBASE}/share/texmf-dist/tex/latex/logpap/logpap.sty:${PORTSDIR}/print/texlive-logpap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lsc/lsc.sty:${PORTSDIR}/print/texlive-lsc \
@@ -558,6 +562,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/mcite/mcite.sty:${PORTSDIR}/print/texlive-mcite \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mciteplus/mciteplus.sty:${PORTSDIR}/print/texlive-mciteplus \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdframed/mdframed.sty:${PORTSDIR}/print/texlive-mdframed \
+		${LOCALBASE}/share/texmf-dist/tex/latex/meetingmins/meetingmins.cls:${PORTSDIR}/print/texlive-meetingmins \
 		${LOCALBASE}/share/texmf-dist/tex/latex/memexsupp/memexsupp.sty:${PORTSDIR}/print/texlive-memexsupp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/menu/menu.sty:${PORTSDIR}/print/texlive-menu \
 		${LOCALBASE}/share/texmf-dist/tex/latex/method/method.sty:${PORTSDIR}/print/texlive-method \
@@ -816,6 +821,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/synttree/synttree.sty:${PORTSDIR}/print/texlive-synttree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabfigures/tabfigures.sty:${PORTSDIR}/print/texlive-tabfigures \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tableaux/minimum.sty:${PORTSDIR}/print/texlive-tableaux \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tablefootnote/tablefootnote.sty:${PORTSDIR}/print/texlive-tablefootnote \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tablists/tablists.sty:${PORTSDIR}/print/texlive-tablists \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabls/tabls.sty:${PORTSDIR}/print/texlive-tabls \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabto-ltx/tabto.sty:${PORTSDIR}/print/texlive-tabto-ltx \

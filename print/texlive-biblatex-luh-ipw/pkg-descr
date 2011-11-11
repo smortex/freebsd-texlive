@@ -1,0 +1,6 @@
+The bundle is a small collection of styles for biblatex. It was
+designed for citations in the Humanities, following the
+guidelines of style of the institutes for the social sciences
+of the Leibniz University Hannover/LUH (especially the
+Institute of Political Science). The bundle depends on biblatex
+(version 1.1 at least) and cannot be used without it.

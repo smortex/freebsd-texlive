@@ -59,6 +59,7 @@ share/texmf-dist/tex/latex/bidi/caption-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/color-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/colortbl-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/combine-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/crop-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/cvthemebidicasual.sty
 share/texmf-dist/tex/latex/bidi/cvthemebidiclassic.sty
 share/texmf-dist/tex/latex/bidi/dblfnote-xetex-bidi.def
@@ -93,6 +94,7 @@ share/texmf-dist/tex/latex/bidi/multienum-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/natbib-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/pdfpages-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/pgf-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/picinpar-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/plain-luatex-bidi.def
 share/texmf-dist/tex/latex/bidi/plain-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/pstricks-xetex-bidi.def

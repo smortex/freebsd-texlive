@@ -1,6 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/moreenum/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/moreenum/testcase-moreenum.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/moreenum/testcase-moreenum.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/moreenum/moreenum-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/moreenum/moreenum-doc.tex
 share/texmf-dist/tex/latex/moreenum/moreenum.sty
 @dirrmtry share/texmf-dist/tex/latex/moreenum
 @dirrmtry share/texmf-dist/doc/latex/moreenum

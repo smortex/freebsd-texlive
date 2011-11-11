@@ -314,6 +314,9 @@ share/texmf/xindy/modules/lang/norwegian/latin1.xdy
 share/texmf/xindy/modules/lang/norwegian/utf8-lang.xdy
 share/texmf/xindy/modules/lang/norwegian/utf8-test.xdy
 share/texmf/xindy/modules/lang/norwegian/utf8.xdy
+share/texmf/xindy/modules/lang/persian/utf8-lang.xdy
+share/texmf/xindy/modules/lang/persian/utf8-test.xdy
+share/texmf/xindy/modules/lang/persian/utf8.xdy
 share/texmf/xindy/modules/lang/polish/cp1250-lang.xdy
 share/texmf/xindy/modules/lang/polish/cp1250-test.xdy
 share/texmf/xindy/modules/lang/polish/cp1250.xdy
@@ -482,6 +485,7 @@ share/texmf/xindy/modules/tex/inputenc/latin3.xdy
 @dirrmtry share/texmf/xindy/modules/lang/romanian
 @dirrmtry share/texmf/xindy/modules/lang/portuguese
 @dirrmtry share/texmf/xindy/modules/lang/polish
+@dirrmtry share/texmf/xindy/modules/lang/persian
 @dirrmtry share/texmf/xindy/modules/lang/norwegian
 @dirrmtry share/texmf/xindy/modules/lang/mongolian
 @dirrmtry share/texmf/xindy/modules/lang/macedonian

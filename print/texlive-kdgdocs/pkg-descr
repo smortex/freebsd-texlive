@@ -1,0 +1,5 @@
+The bundle provides two classes for usage by KdG professors and
+master students: - kdgcoursetext: for writing course texts, and
+- kdgmasterthesis: for writing master's theses. The bundle
+replaces the original kdgcoursetext package (now removed from
+the archive).

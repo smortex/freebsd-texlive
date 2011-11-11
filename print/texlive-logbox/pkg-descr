@@ -1,0 +1,4 @@
+The command \logbox does \showbox without stopping the
+compilation. The package's main command is \viewbox*: the box
+is typeset (copied) with its dimensions, and its contents are
+logged in the .log file.

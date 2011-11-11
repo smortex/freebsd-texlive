@@ -6,12 +6,13 @@
 #
 
 PORTNAME=	frcursive
-PORTVERSION=	20100922
+PORTVERSION=	20111111
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	French cursive hand fonts.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
