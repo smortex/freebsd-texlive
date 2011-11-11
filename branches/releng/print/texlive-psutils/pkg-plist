@@ -20,6 +20,8 @@
 %%PORTDOCS%%share/texmf/doc/man/man1/fixwpps.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/fixwwps.1
 %%PORTDOCS%%share/texmf/doc/man/man1/fixwwps.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/getafm.1
+%%PORTDOCS%%share/texmf/doc/man/man1/getafm.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/includeres.1
 %%PORTDOCS%%share/texmf/doc/man/man1/includeres.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/psbook.1
@@ -34,6 +36,7 @@
 %%PORTDOCS%%share/texmf/doc/man/man1/psselect.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/pstops.1
 %%PORTDOCS%%share/texmf/doc/man/man1/pstops.man1.pdf
+share/texmf/dvips/getafm/getafm.ps
 share/texmf/scripts/psutils/extractres.pl
 share/texmf/scripts/psutils/fixdlsrps.pl
 share/texmf/scripts/psutils/fixfmps.pl
@@ -47,6 +50,7 @@ share/texmf/scripts/psutils/fixwwps.pl
 share/texmf/scripts/psutils/includeres.pl
 share/texmf/scripts/psutils/psmerge.pl
 @dirrmtry share/texmf/scripts/psutils
+@dirrmtry share/texmf/dvips/getafm
 @dirrmtry share/texmf/doc/man/man1
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -1,0 +1,4 @@
+The class allows formatting of meeting minutes using \section
+commands (which provide hierarchical structure). An agenda can
+also be produced for distribution prior to the meeting, with
+user-selected portions suppressed from printing.

@@ -1,0 +1,7 @@
+The package provides the command \Figure[<key=value>...]{<image
+filename>} to simplify the business of including an image as
+figure in the most common form (centred and with caption and
+label). Caption and label are set using the caption and label
+keys. The label defaults to fig:<image filename> if not used.
+The package uses the author's package adjustbox to centre an
+image and to allow for easy further modifications.

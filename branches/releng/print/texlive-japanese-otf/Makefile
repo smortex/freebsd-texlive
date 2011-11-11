@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	japanese-otf
-PORTVERSION=	20111104
+PORTVERSION=	20111111
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The japanese-otf package
+COMMENT=	Advanced font selection for platex and its friends.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

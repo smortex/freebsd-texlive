@@ -1,0 +1,5 @@
+The package permits the user to specify easily, with the aid of
+self defined key-words, letters (with a logo and private) and
+headings. The heading may include a footer and the letter
+provides commands to include a scanned signature and two
+signees. The package works with the merge package.
