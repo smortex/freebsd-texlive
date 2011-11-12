@@ -235,7 +235,6 @@ share/texmf-dist/pbibtex/bst/tipsj.bst
 %%PORTSRC%%share/texmf-dist/source/platex/base/kinsoku.dtx
 %%PORTSRC%%share/texmf-dist/source/platex/base/nidanfloat.dtx
 %%PORTSRC%%share/texmf-dist/source/platex/base/nidanfloat.ins
-%%PORTSRC%%share/texmf-dist/source/platex/base/pl209.def
 %%PORTSRC%%share/texmf-dist/source/platex/base/pl209.dtx
 %%PORTSRC%%share/texmf-dist/source/platex/base/pl209.ins
 %%PORTSRC%%share/texmf-dist/source/platex/base/platex.dtx
@@ -278,6 +277,7 @@ share/texmf-dist/tex/platex/base/jy1mc.fd
 share/texmf-dist/tex/platex/base/kinsoku.tex
 share/texmf-dist/tex/platex/base/nidanfloat.sty
 share/texmf-dist/tex/platex/base/oldpfont.sty
+share/texmf-dist/tex/platex/base/pl209.def
 share/texmf-dist/tex/platex/base/platex.ltx
 share/texmf-dist/tex/platex/base/plcore.ltx
 share/texmf-dist/tex/platex/base/pldefs.ltx
