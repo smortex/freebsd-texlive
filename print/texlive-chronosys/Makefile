@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-titlesec
-# Date created:		13/03/2010 04:50:28
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-chronosys
+# Date created:		11/14/2011 04:46:46
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	titlesec
+PORTNAME=	chronosys
 PORTVERSION=	20111114
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Select alternative section titles.
+COMMENT=	Drawing time-line diagrams.
 
 NOPORTSRC=	yes
 

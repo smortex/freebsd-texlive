@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/chronosys/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/chronosys/docchronosys_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/chronosys/docchronosys_en.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/chronosys/docchronosys_fr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/chronosys/docchronosys_fr.tex
+share/texmf-dist/tex/generic/chronosys/chronosys.sty
+share/texmf-dist/tex/generic/chronosys/chronosys.tex
+share/texmf-dist/tex/generic/chronosys/chronosyschr.tex
+share/texmf-dist/tex/generic/chronosys/x-chronosys.tex
+@dirrmtry share/texmf-dist/tex/generic/chronosys
+@dirrmtry share/texmf-dist/doc/generic/chronosys
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
