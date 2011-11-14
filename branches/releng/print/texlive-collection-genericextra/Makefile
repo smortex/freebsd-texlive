@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-genericextra
-PORTVERSION=	20111111
+PORTVERSION=	20111114
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -18,6 +18,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/abbr/abbr.tex:${PORTSDIR}
 		${LOCALBASE}/share/texmf-dist/tex/generic/barr/diagxy.tex:${PORTSDIR}/print/texlive-barr \
 		${LOCALBASE}/share/texmf-dist/tex/generic/borceux/Diagram:${PORTSDIR}/print/texlive-borceux \
 		${LOCALBASE}/share/texmf-dist/tex/generic/c-pascal/cap.tex:${PORTSDIR}/print/texlive-c-pascal \
+		${LOCALBASE}/share/texmf-dist/tex/generic/chronosys/chronosys.sty:${PORTSDIR}/print/texlive-chronosys \
 		${LOCALBASE}/share/texmf-dist/dvips/colorsep/colorsep.pro:${PORTSDIR}/print/texlive-colorsep \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/dinat/dinat.bst:${PORTSDIR}/print/texlive-dinat \
 		${LOCALBASE}/share/texmf-dist/tex/generic/dirtree/dirtree.sty:${PORTSDIR}/print/texlive-dirtree \
