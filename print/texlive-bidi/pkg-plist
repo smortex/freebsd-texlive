@@ -1,4 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/bidi/bidi-logo.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/bidi.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/bidisample2e.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/bidismall2e.tex
@@ -33,6 +34,7 @@ share/texmf-dist/tex/latex/bidi/artikel2-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/artikel3-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/arydshln-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/bibitem.pdf
+share/texmf-dist/tex/latex/bidi/bidi-logo.pdf
 share/texmf-dist/tex/latex/bidi/bidi.sty
 share/texmf-dist/tex/latex/bidi/bidi.tex
 share/texmf-dist/tex/latex/bidi/bidi2in1.sty
@@ -60,6 +62,7 @@ share/texmf-dist/tex/latex/bidi/color-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/colortbl-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/combine-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/crop-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/cutwin-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/cvthemebidicasual.sty
 share/texmf-dist/tex/latex/bidi/cvthemebidiclassic.sty
 share/texmf-dist/tex/latex/bidi/dblfnote-xetex-bidi.def
