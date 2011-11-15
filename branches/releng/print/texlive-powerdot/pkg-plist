@@ -4,6 +4,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/RunExamples
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/RunSlideDoc
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/manifest.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-de.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-de.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-example.lyx
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-example1.pdf
@@ -18,8 +20,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot.layout
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdotDE.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdotDE.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdotSlide.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdotSlide.tex
 share/texmf-dist/tex/latex/powerdot/powerdot-aggie.sty

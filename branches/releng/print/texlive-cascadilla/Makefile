@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	cascadilla
-PORTVERSION=	20110809
+PORTVERSION=	20111115
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A document class for typesetting papers conforming to the stylesheet of the Cascadilla Proceedings Project.
+COMMENT=	Typeset papers conforming to the stylesheet of the Cascadilla Proceedings Project.
 
 NOPORTSRC=	yes
 
