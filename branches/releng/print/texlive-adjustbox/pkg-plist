@@ -3,9 +3,12 @@
 %%PORTSRC%%share/texmf-dist/source/latex/adjustbox/adjustbox.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/adjustbox/adjustbox.ins
 share/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+share/texmf-dist/tex/latex/adjustbox/adjdvips.def
 share/texmf-dist/tex/latex/adjustbox/adjgrfx.sty
+share/texmf-dist/tex/latex/adjustbox/adjpdftex.def
 share/texmf-dist/tex/latex/adjustbox/adjpgf.def
 share/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+share/texmf-dist/tex/latex/adjustbox/adjxetex.def
 @dirrmtry share/texmf-dist/tex/latex/adjustbox
 @dirrmtry share/texmf-dist/source/latex/adjustbox
 @dirrmtry share/texmf-dist/doc/latex/adjustbox

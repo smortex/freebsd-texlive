@@ -1,14 +1,20 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframed-doc-en.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframed-doc-en.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframed-example-default.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframed-example-default.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframed-example-pstricks.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframed-example-pstricks.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframed-example-texsx.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframed-example-texsx.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframed-example-tikz.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframed-example-tikz.tex
+share/texmf-dist/tex/latex/mdframed/ltxmdf.cls
 share/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
 share/texmf-dist/tex/latex/mdframed/md-frame-1.mdf
+share/texmf-dist/tex/latex/mdframed/md-frame-2.mdf
 share/texmf-dist/tex/latex/mdframed/md-frame-3.mdf
-share/texmf-dist/tex/latex/mdframed/md-framepre-0.mdf
-share/texmf-dist/tex/latex/mdframed/md-framepre-1.mdf
-share/texmf-dist/tex/latex/mdframed/md-framepre-3.mdf
 share/texmf-dist/tex/latex/mdframed/mdframed.sty
-share/texmf-dist/tex/latex/mdframed/mdframedpre.sty
 @dirrmtry share/texmf-dist/tex/latex/mdframed
 @dirrmtry share/texmf-dist/doc/latex/mdframed
 @exec %D/bin/mktexlsr
