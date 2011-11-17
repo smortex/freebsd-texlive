@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20111111
+PORTVERSION=	20111117
 CATEGORIES=	print
 DISTFILES=	# None
 
