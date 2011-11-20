@@ -1,0 +1,7 @@
+The package provides a collection of styles for biblatex
+(version 1.7 is required, currently). It was designed for
+citations in German Humanities, especially film studies, and
+offers some features that are not provided by the standard
+biblatex styles. The style is highly optimized for documents
+written in German, and the main documentation is only available
+in German.
