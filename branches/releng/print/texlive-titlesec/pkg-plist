@@ -8,6 +8,7 @@ share/texmf-dist/tex/latex/titlesec/frame.tss
 share/texmf-dist/tex/latex/titlesec/leftmargin.tss
 share/texmf-dist/tex/latex/titlesec/margin.tss
 share/texmf-dist/tex/latex/titlesec/rightmargin.tss
+share/texmf-dist/tex/latex/titlesec/titleps.sty
 share/texmf-dist/tex/latex/titlesec/titlesec.sty
 share/texmf-dist/tex/latex/titlesec/titletoc.sty
 share/texmf-dist/tex/latex/titlesec/ttlkeys.def
