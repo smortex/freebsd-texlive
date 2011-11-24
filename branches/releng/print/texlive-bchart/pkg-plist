@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bchart/LICENSE.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/bchart/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/bchart/bchart.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bchart/bchart.tex
+share/texmf-dist/tex/latex/bchart/bchart.sty
+@dirrmtry share/texmf-dist/tex/latex/bchart
+@dirrmtry share/texmf-dist/doc/latex/bchart
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

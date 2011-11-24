@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20111111
+PORTVERSION=	20111124
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -188,6 +188,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/authorindex/authorindex.sty:${PORTSDIR}/print/texlive-authorindex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/background/background.sty:${PORTSDIR}/print/texlive-background \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bashful/bashful.sty:${PORTSDIR}/print/texlive-bashful \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bchart/bchart.sty:${PORTSDIR}/print/texlive-bchart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamer2thesis/beamer2thesis.jpg:${PORTSDIR}/print/texlive-beamer2thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beameraudience/beameraudience.sty:${PORTSDIR}/print/texlive-beameraudience \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerposter/beamerposter.sty:${PORTSDIR}/print/texlive-beamerposter \
@@ -310,6 +311,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/decorule/decorule.sty:${PORTSDIR}/print/texlive-decorule \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delim/delim.sty:${PORTSDIR}/print/texlive-delim \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delimtxt/delimtxt.sty:${PORTSDIR}/print/texlive-delimtxt \
+		${LOCALBASE}/share/texmf-dist/tex/latex/diagbox/diagbox.sty:${PORTSDIR}/print/texlive-diagbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/diagnose/diagnose.sty:${PORTSDIR}/print/texlive-diagnose \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dichokey/dichokey.sty:${PORTSDIR}/print/texlive-dichokey \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dinbrief/dinbrief.cls:${PORTSDIR}/print/texlive-dinbrief \
