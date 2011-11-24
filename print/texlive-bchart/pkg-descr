@@ -1,0 +1,3 @@
+The package provides horizontal bar charts, drawn using TikZ on
+a numeric X-axis. The focus of the package is simplicity and
+aesthetics.

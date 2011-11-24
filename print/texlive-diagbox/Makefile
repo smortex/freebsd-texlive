@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-jvlisting
-# Date created:		07/26/2011 04:56:46
+# New ports collection makefile for:	texlive-diagbox
+# Date created:		11/24/2011 04:55:16
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	jvlisting
+PORTNAME=	diagbox
 PORTVERSION=	20111124
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A replacement for LaTeX's verbatim package.
+COMMENT=	Table heads with diagonal lines.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

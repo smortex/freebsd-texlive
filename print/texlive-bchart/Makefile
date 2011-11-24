@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-jvlisting
-# Date created:		07/26/2011 04:56:46
+# New ports collection makefile for:	texlive-bchart
+# Date created:		11/24/2011 04:53:14
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	jvlisting
+PORTNAME=	bchart
 PORTVERSION=	20111124
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A replacement for LaTeX's verbatim package.
+COMMENT=	Draw simple bar charts in LaTeX
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

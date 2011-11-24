@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/diagbox/diagbox.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/diagbox/diagbox.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/diagbox/diagbox.ins
+share/texmf-dist/tex/latex/diagbox/diagbox.sty
+@dirrmtry share/texmf-dist/tex/latex/diagbox
+@dirrmtry share/texmf-dist/source/latex/diagbox
+@dirrmtry share/texmf-dist/doc/latex/diagbox
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
