@@ -6,6 +6,8 @@ share/texmf/fonts/cmap/README
 share/texmf/fonts/cmap/dvipdfmx/README
 share/texmf/fonts/map/dvipdfmx/cid-x.map
 share/texmf/fonts/map/dvipdfmx/ckx.map
+share/tlpkg/tlpostcode/dvipdfmx.pl
+@dirrmtry share/tlpkg/tlpostcode
 @dirrmtry share/texmf/fonts/map/dvipdfmx
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf/doc/dvipdfmx

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20111124
+PORTVERSION=	20111126
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1074,6 +1074,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/iwhdp/iwhdp.cls:${PORTSDIR}/print/texlive-iwhdp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jlabels/jlabels.sty:${PORTSDIR}/print/texlive-jlabels \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jvlisting/jvlisting.sty:${PORTSDIR}/print/texlive-jvlisting \
+		${LOCALBASE}/share/texmf-dist/tex/latex/kantlipsum/kantlipsum.sty:${PORTSDIR}/print/texlive-kantlipsum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kerntest/kerntest.cls:${PORTSDIR}/print/texlive-kerntest \
 		${LOCALBASE}/share/texmf-dist/tex/latex/keycommand/keycommand.sty:${PORTSDIR}/print/texlive-keycommand \
 		${LOCALBASE}/share/texmf-dist/tex/latex/keystroke/keystroke.sty:${PORTSDIR}/print/texlive-keystroke \

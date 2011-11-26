@@ -1,6 +1,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/ltxkeys/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ltxkeys/ltxkeys-guide.cfg
+%%PORTDOCS%%share/texmf-dist/doc/latex/ltxkeys/ltxkeys-guide.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/ltxkeys/ltxkeys-guide.tex
 share/texmf-dist/tex/latex/ltxkeys/ltxkeys.sty
+share/texmf-dist/tex/latex/ltxkeys/pathkeys.sty
 @dirrmtry share/texmf-dist/tex/latex/ltxkeys
 @dirrmtry share/texmf-dist/doc/latex/ltxkeys
 @exec %D/bin/mktexlsr

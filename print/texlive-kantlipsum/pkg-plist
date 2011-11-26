@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/kantlipsum/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/kantlipsum/kantlipsum.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/kantlipsum/kantlipsum.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/kantlipsum/kantlipsum.ins
+share/texmf-dist/tex/latex/kantlipsum/kantlipsum.sty
+@dirrmtry share/texmf-dist/tex/latex/kantlipsum
+@dirrmtry share/texmf-dist/source/latex/kantlipsum
+@dirrmtry share/texmf-dist/doc/latex/kantlipsum
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

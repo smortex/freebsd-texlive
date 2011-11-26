@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-ltxkeys
-# Date created:		07/28/2011 05:01:27
+# New ports collection makefile for:	texlive-kantlipsum
+# Date created:		11/26/2011 04:59:16
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	ltxkeys
+PORTNAME=	kantlipsum
 PORTVERSION=	20111126
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A robust key parser for LaTeX.
+COMMENT=	Generate sentences in Kant's style.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
