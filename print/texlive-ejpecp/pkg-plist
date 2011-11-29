@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ejpecp/LPPL
+%%PORTDOCS%%share/texmf-dist/doc/latex/ejpecp/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ejpecp/ejpecp.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ejpecp/sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ejpecp/sample.tex
+%%PORTSRC%%share/texmf-dist/source/latex/ejpecp/ejpecp.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ejpecp/ejpecp.ins
+share/texmf-dist/tex/latex/ejpecp/ejpecp.cls
+@dirrmtry share/texmf-dist/tex/latex/ejpecp
+@dirrmtry share/texmf-dist/source/latex/ejpecp
+@dirrmtry share/texmf-dist/doc/latex/ejpecp
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

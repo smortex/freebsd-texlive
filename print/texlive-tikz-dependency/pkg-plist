@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-dependency/tikz-dependency-doc.pdf
+share/texmf-dist/tex/latex/tikz-dependency/tikz-dependency.sty
+@dirrmtry share/texmf-dist/tex/latex/tikz-dependency
+@dirrmtry share/texmf-dist/doc/latex/tikz-dependency
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

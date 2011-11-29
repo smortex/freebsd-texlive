@@ -1,0 +1,5 @@
+The package provides a library that draws together existing
+TikZ facilities to make a comfortable environment for drawing
+dependency graphs. Basic facilities of the package include a
+lot of styling facilities, to let you personalize the look and
+feel of the graphs.
