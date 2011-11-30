@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20111129
+PORTVERSION=	20111130
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -434,6 +434,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/frankenstein/frankenstein.bib:${PORTSDIR}/print/texlive-frankenstein \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ftcap/ftcap.sty:${PORTSDIR}/print/texlive-ftcap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ftnxtra/ftnxtra.sty:${PORTSDIR}/print/texlive-ftnxtra \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fullwidth/fullwidth.sty:${PORTSDIR}/print/texlive-fullwidth \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fundus/calligra.sty:${PORTSDIR}/print/texlive-fundus \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fwlw/fwlw.sty:${PORTSDIR}/print/texlive-fwlw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/g-brief/g-brief.cls:${PORTSDIR}/print/texlive-g-brief \

@@ -1,3 +1,4 @@
+share/texmf-dist/bibtex/bst/bibexport/expcites.bst
 share/texmf-dist/bibtex/bst/bibexport/expkeys.bst
 share/texmf-dist/bibtex/bst/bibexport/export.bst
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/bibexport/README

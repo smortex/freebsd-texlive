@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20111124
+PORTVERSION=	20111130
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -20,7 +20,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/aichej/aichej.bst:${PORTSD
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/beebe/gut.bib:${PORTSDIR}/print/texlive-beebe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibarts/bibarts.sty:${PORTSDIR}/print/texlive-bibarts \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
-		${LOCALBASE}/share/texmf-dist/bibtex/bst/bibexport/expkeys.bst:${PORTSDIR}/print/texlive-bibexport \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/bibexport/expcites.bst:${PORTSDIR}/print/texlive-bibexport \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/bibhtml/abbrvhtml.bst:${PORTSDIR}/print/texlive-bibhtml \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex/biblatex.sty:${PORTSDIR}/print/texlive-biblatex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx:${PORTSDIR}/print/texlive-biblatex-apa \
