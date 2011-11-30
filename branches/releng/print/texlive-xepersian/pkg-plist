@@ -9,6 +9,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/test-empty-form.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/test-question-only.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/test-solution-form.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/xepersian-logo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/xepersian-logo.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/xepersian.pdf
 share/texmf-dist/fonts/misc/xetex/fontmapping/xepersian/parsidigits.map
 share/texmf-dist/fonts/misc/xetex/fontmapping/xepersian/parsidigits.tec
@@ -53,7 +55,6 @@ share/texmf-dist/tex/xelatex/xepersian/memoir-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/messages-localise.def
 share/texmf-dist/tex/xelatex/xepersian/minitoc-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/misc-localise-xepersian.def
-share/texmf-dist/tex/xelatex/xepersian/multicol-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/natbib-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/packages-localise-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/rapport1-xepersian.def

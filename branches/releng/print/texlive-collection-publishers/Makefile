@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20111129
+PORTVERSION=	20111130
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -24,6 +24,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/ametsoc/ametsoc.sty:${PORTSDIR}/print/texlive-ametsoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/aomart/aomart.cls:${PORTSDIR}/print/texlive-aomart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/apa/apa.cls:${PORTSDIR}/print/texlive-apa \
+		${LOCALBASE}/share/texmf-dist/tex/latex/apa6/apa6.cls:${PORTSDIR}/print/texlive-apa6 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/apa6e/apa6e.cls:${PORTSDIR}/print/texlive-apa6e \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arsclassica/arsclassica.sty:${PORTSDIR}/print/texlive-arsclassica \
 		${LOCALBASE}/share/texmf-dist/tex/latex/asaetr/asaetr.cls:${PORTSDIR}/print/texlive-asaetr \

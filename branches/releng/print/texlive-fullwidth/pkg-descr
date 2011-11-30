@@ -1,0 +1,5 @@
+The package provides the environment fullwidth, which sets the
+left and right margins in a simple way. There is no constraint
+about page breaks; if you are using the twoside mode, you can
+set the inner and outer margins to avoid the effects of the
+different margins.

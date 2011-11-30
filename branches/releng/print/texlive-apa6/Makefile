@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-tikz-dependency
-# Date created:		11/29/2011 04:52:13
+# New ports collection makefile for:	texlive-apa6
+# Date created:		11/30/2011 05:10:47
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	tikz-dependency
+PORTNAME=	apa6
 PORTVERSION=	20111130
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A library for drawing dependency graphs.
+COMMENT=	Format documents in APA style (6th edition).
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

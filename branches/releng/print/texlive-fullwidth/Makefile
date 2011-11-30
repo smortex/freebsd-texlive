@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-tikz-dependency
-# Date created:		11/29/2011 04:52:13
+# New ports collection makefile for:	texlive-fullwidth
+# Date created:		11/30/2011 04:58:28
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	tikz-dependency
+PORTNAME=	fullwidth
 PORTVERSION=	20111130
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A library for drawing dependency graphs.
+COMMENT=	Adjust margins of text block.
 
 NOPORTSRC=	yes
 

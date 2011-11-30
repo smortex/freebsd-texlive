@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20111129
+PORTVERSION=	20111130
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -51,7 +51,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/apalike2/apalike2.bst:${PORTSDIR}/print/texlive-apalike2 \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/beebe/gut.bib:${PORTSDIR}/print/texlive-beebe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibarts/bibarts.sty:${PORTSDIR}/print/texlive-bibarts \
-		${LOCALBASE}/share/texmf-dist/bibtex/bst/bibexport/expkeys.bst:${PORTSDIR}/print/texlive-bibexport \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/bibexport/expcites.bst:${PORTSDIR}/print/texlive-bibexport \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/bibhtml/abbrvhtml.bst:${PORTSDIR}/print/texlive-bibhtml \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex/biblatex.sty:${PORTSDIR}/print/texlive-biblatex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx:${PORTSDIR}/print/texlive-biblatex-apa \
@@ -1009,6 +1009,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/frankenstein/frankenstein.bib:${PORTSDIR}/print/texlive-frankenstein \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ftcap/ftcap.sty:${PORTSDIR}/print/texlive-ftcap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ftnxtra/ftnxtra.sty:${PORTSDIR}/print/texlive-ftnxtra \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fullwidth/fullwidth.sty:${PORTSDIR}/print/texlive-fullwidth \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fundus/calligra.sty:${PORTSDIR}/print/texlive-fundus \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fwlw/fwlw.sty:${PORTSDIR}/print/texlive-fwlw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/g-brief/g-brief.cls:${PORTSDIR}/print/texlive-g-brief \
@@ -1783,6 +1784,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/ametsoc/ametsoc.sty:${PORTSDIR}/print/texlive-ametsoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/aomart/aomart.cls:${PORTSDIR}/print/texlive-aomart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/apa/apa.cls:${PORTSDIR}/print/texlive-apa \
+		${LOCALBASE}/share/texmf-dist/tex/latex/apa6/apa6.cls:${PORTSDIR}/print/texlive-apa6 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/apa6e/apa6e.cls:${PORTSDIR}/print/texlive-apa6e \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arsclassica/arsclassica.sty:${PORTSDIR}/print/texlive-arsclassica \
 		${LOCALBASE}/share/texmf-dist/tex/latex/asaetr/asaetr.cls:${PORTSDIR}/print/texlive-asaetr \
