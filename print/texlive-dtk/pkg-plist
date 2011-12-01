@@ -34,6 +34,7 @@ share/texmf-dist/bibtex/bst/dtk/dtk.bst
 share/texmf-dist/makeindex/dtk/dtk-adr.ist
 share/texmf-dist/makeindex/dtk/dtk-idx.ist
 share/texmf-dist/tex/latex/dtk/dtk-pdf.sty
+share/texmf-dist/tex/latex/dtk/dtk-url.sty
 share/texmf-dist/tex/latex/dtk/dtk.clo
 share/texmf-dist/tex/latex/dtk/dtk.cls
 share/texmf-dist/tex/latex/dtk/dtk11.clo
