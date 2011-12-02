@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20111130
+PORTVERSION=	20111202
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -322,6 +322,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/dnaseq/dnaseq.sty:${PORTSDIR}/print/texlive-dnaseq \
 		${LOCALBASE}/share/texmf-dist/tex/latex/docmfp/docmfp.sty:${PORTSDIR}/print/texlive-docmfp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/docmute/docmute.sty:${PORTSDIR}/print/texlive-docmute \
+		${LOCALBASE}/share/texmf-dist/tex/latex/documentation/documentation.sty:${PORTSDIR}/print/texlive-documentation \
 		${LOCALBASE}/share/texmf-dist/tex/latex/doi/doi.sty:${PORTSDIR}/print/texlive-doi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dotarrow/DotArrow.sty:${PORTSDIR}/print/texlive-dotarrow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dotseqn/dotseqn.sty:${PORTSDIR}/print/texlive-dotseqn \
