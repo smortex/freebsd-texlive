@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-chemfig
-# Date created:		09/21/2010 11:44:10
+# New ports collection makefile for:	texlive-gamebook
+# Date created:		12/03/2011 04:46:39
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	chemfig
+PORTNAME=	gamebook
 PORTVERSION=	20111203
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw molecules with easy syntax.
+COMMENT=	Typeset gamebooks and other interactive novels.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
