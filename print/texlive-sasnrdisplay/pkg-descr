@@ -1,0 +1,5 @@
+The SASnRdisplay package serves as a front-end to the listings,
+which permits statisticians and others to import source code,
+and the results of their calculations or simulations into LaTeX
+projects. The package is also capable of overloading the Sweave
+and SASweave packages.

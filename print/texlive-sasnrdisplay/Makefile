@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-chemfig
-# Date created:		09/21/2010 11:44:10
+# New ports collection makefile for:	texlive-sasnrdisplay
+# Date created:		12/03/2011 05:12:33
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	chemfig
+PORTNAME=	sasnrdisplay
 PORTVERSION=	20111203
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw molecules with easy syntax.
+COMMENT=	Typeset SAS or R code or output.
 
 NOPORTSRC=	yes
 

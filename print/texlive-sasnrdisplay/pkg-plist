@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/sasnrdisplay/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/sasnrdisplay/SASnRdisplay.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sasnrdisplay/SASnRdisplay.tex
+share/texmf-dist/tex/latex/sasnrdisplay/SASnRdisplay.sty
+@dirrmtry share/texmf-dist/tex/latex/sasnrdisplay
+@dirrmtry share/texmf-dist/doc/latex/sasnrdisplay
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

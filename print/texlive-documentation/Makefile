@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	documentation
-PORTVERSION=	20111202
+PORTVERSION=	20111203
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The documentation package
+COMMENT=	Documentation support for C, Java and assembler code.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

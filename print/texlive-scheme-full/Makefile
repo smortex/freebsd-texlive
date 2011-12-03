@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20111202
+PORTVERSION=	20111203
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -424,6 +424,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/crossword/cwpuzzle.sty:${PORTSDIR}/print/texlive-crossword \
 		${LOCALBASE}/share/texmf-dist/tex/latex/crosswrd/crosswrd.sty:${PORTSDIR}/print/texlive-crosswrd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/egameps/egameps.sty:${PORTSDIR}/print/texlive-egameps \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gamebook/gamebook.sty:${PORTSDIR}/print/texlive-gamebook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/go/go.sty:${PORTSDIR}/print/texlive-go \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hexgame/hexgame.sty:${PORTSDIR}/print/texlive-hexgame \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jeopardy/jeopardy.sty:${PORTSDIR}/print/texlive-jeopardy \
@@ -1913,6 +1914,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/objectz/oz.sty:${PORTSDIR}/print/texlive-objectz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/physymb/physymb.sty:${PORTSDIR}/print/texlive-physymb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pseudocode/pseudocode.sty:${PORTSDIR}/print/texlive-pseudocode \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sasnrdisplay/SASnRdisplay.sty:${PORTSDIR}/print/texlive-sasnrdisplay \
 		${LOCALBASE}/share/texmf-dist/tex/latex/scientificpaper/science.sty:${PORTSDIR}/print/texlive-scientificpaper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sciposter/sciposter.cls:${PORTSDIR}/print/texlive-sciposter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sfg/sfg.sty:${PORTSDIR}/print/texlive-sfg \
