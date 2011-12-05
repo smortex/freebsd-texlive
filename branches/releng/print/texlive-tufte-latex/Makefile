@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	tufte-latex
-PORTVERSION=	20110829
+PORTVERSION=	20111205
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
@@ -19,7 +19,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/xifthen/xifthen.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/sauerj/collect.sty:${PORTSDIR}/print/texlive-sauerj \
 		${LOCALBASE}/share/texmf-dist/tex/latex/placeins/placeins.sty:${PORTSDIR}/print/texlive-placeins
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
