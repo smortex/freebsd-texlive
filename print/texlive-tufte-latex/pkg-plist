@@ -1,6 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/History.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/Manifest.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/graphics/be-contents.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/graphics/be-title.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/graphics/ei-contents.pdf
@@ -8,10 +7,13 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/graphics/helix.asy
 %%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/graphics/helix.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/graphics/hilbertcurves.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/graphics/hilbertrecursive.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/graphics/nasa_vision_sm.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/graphics/satir_graph.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/graphics/sine.asy
 %%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/graphics/sine.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/graphics/sine2.asy
+%%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/graphics/sine2.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/graphics/vdqi-contents.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/graphics/vdqi-title.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/graphics/ve-contents.pdf
@@ -21,10 +23,19 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/sample-handout.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/sample-handout.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tufte-latex/sample-handout.tex
+%%PORTSRC%%share/texmf-dist/source/latex/tufte-latex/sample-book.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/tufte-latex/sample-book.tex
+%%PORTSRC%%share/texmf-dist/source/latex/tufte-latex/sample-handout.bib
+%%PORTSRC%%share/texmf-dist/source/latex/tufte-latex/sample-handout.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/tufte-latex/sample-handout.tex
+%%PORTSRC%%share/texmf-dist/source/latex/tufte-latex/tufte-book.cls
+%%PORTSRC%%share/texmf-dist/source/latex/tufte-latex/tufte-common.def
+%%PORTSRC%%share/texmf-dist/source/latex/tufte-latex/tufte-handout.cls
 share/texmf-dist/tex/latex/tufte-latex/tufte-book.cls
 share/texmf-dist/tex/latex/tufte-latex/tufte-common.def
 share/texmf-dist/tex/latex/tufte-latex/tufte-handout.cls
 @dirrmtry share/texmf-dist/tex/latex/tufte-latex
+@dirrmtry share/texmf-dist/source/latex/tufte-latex
 @dirrmtry share/texmf-dist/doc/latex/tufte-latex/graphics
 @dirrmtry share/texmf-dist/doc/latex/tufte-latex
 @exec %D/bin/mktexlsr

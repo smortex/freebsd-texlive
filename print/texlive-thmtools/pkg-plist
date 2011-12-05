@@ -15,6 +15,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/thmtools/thm-ntheorem.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/thmtools/thm-patch.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/thmtools/thm-restate.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/thmtools/thmdef-mdframed.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/thmtools/thmdef-shaded.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/thmtools/thmdef-thmbox.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/thmtools/thmtools.dtx
@@ -31,6 +32,7 @@ share/texmf-dist/tex/latex/thmtools/thm-llncs.sty
 share/texmf-dist/tex/latex/thmtools/thm-ntheorem.sty
 share/texmf-dist/tex/latex/thmtools/thm-patch.sty
 share/texmf-dist/tex/latex/thmtools/thm-restate.sty
+share/texmf-dist/tex/latex/thmtools/thmdef-mdframed.sty
 share/texmf-dist/tex/latex/thmtools/thmdef-shaded.sty
 share/texmf-dist/tex/latex/thmtools/thmdef-thmbox.sty
 share/texmf-dist/tex/latex/thmtools/thmtools.sty

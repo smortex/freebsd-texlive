@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-interpreter
-# Date created:		08/03/2011 05:05:53
+# New ports collection makefile for:	texlive-gates
+# Date created:		12/05/2011 04:46:50
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	interpreter
+PORTNAME=	gates
 PORTVERSION=	20111205
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Translate input files on the fly.
+COMMENT=	Support for writing modular and customisable code.
 
 NOPORTSRC=	yes
 

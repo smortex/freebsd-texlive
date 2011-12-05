@@ -1,7 +1,21 @@
 %%PORTDOCS%%share/texmf-dist/doc/plain/pitex/README
+%%PORTDOCS%%share/texmf-dist/doc/plain/pitex/foundry-settings.lua
+%%PORTDOCS%%share/texmf-dist/doc/plain/pitex/i-pitex.lua
+%%PORTDOCS%%share/texmf-dist/doc/plain/pitex/pitex-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/plain/pitex/pitex-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/plain/pitex/pitex-doc.txt
+share/texmf-dist/tex/plain/pitex/base.ptxlua
+share/texmf-dist/tex/plain/pitex/blocks.ptx
+share/texmf-dist/tex/plain/pitex/files.ptx
 share/texmf-dist/tex/plain/pitex/fonts.ptx
+share/texmf-dist/tex/plain/pitex/fonts.ptxlua
+share/texmf-dist/tex/plain/pitex/inserts.ptx
+share/texmf-dist/tex/plain/pitex/lua.ptx
+share/texmf-dist/tex/plain/pitex/output.ptx
 share/texmf-dist/tex/plain/pitex/pitex.tex
+share/texmf-dist/tex/plain/pitex/references.ptx
 share/texmf-dist/tex/plain/pitex/sections.ptx
+share/texmf-dist/tex/plain/pitex/verbatim.ptx
 @dirrmtry share/texmf-dist/tex/plain/pitex
 @dirrmtry share/texmf-dist/doc/plain/pitex
 @exec %D/bin/mktexlsr
