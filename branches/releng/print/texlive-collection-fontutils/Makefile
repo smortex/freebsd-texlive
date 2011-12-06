@@ -6,12 +6,12 @@
 #
 
 PORTNAME=	collection-fontutils
-PORTVERSION=	20111111
+PORTVERSION=	20111206
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	TeX and Outline font utilities
+COMMENT=	Graphics TeX and outline font utilities
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/base/xampl.bib:${PORTSDIR}/print/texlive-bibtex \
@@ -47,6 +47,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf/xdvi/XDvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/scripts/accfonts/mkt1font:${PORTSDIR}/print/texlive-accfonts \
 		${LOCALBASE}/share/texmf/fonts/enc/dvips/afm2pl/afm2pl-ot1.enc:${PORTSDIR}/print/texlive-afm2pl \
+		${LOCALBASE}/share/texmf-dist/scripts/dosepsbin/dosepsbin.pl:${PORTSDIR}/print/texlive-dosepsbin \
 		${LOCALBASE}/share/texmf-dist/scripts/epstopdf/epstopdf.pl:${PORTSDIR}/print/texlive-epstopdf \
 		${LOCALBASE}/share/texmf/doc/man/man1/mag.1:${PORTSDIR}/print/texlive-ps2pkm \
 		${LOCALBASE}/share/texmf/scripts/ps2eps/ps2eps.pl:${PORTSDIR}/print/texlive-pstools \

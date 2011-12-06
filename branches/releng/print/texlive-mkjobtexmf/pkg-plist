@@ -1,8 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/clean-case.pl
 %%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/mkjobtexmf.html
 %%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/mkjobtexmf.ltx
 %%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/mkjobtexmf.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/mkjobtexmf.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/version.pl
 %%PORTSRC%%share/texmf-dist/source/generic/mkjobtexmf/Makefile.in
 %%PORTSRC%%share/texmf-dist/source/generic/mkjobtexmf/configure
 %%PORTSRC%%share/texmf-dist/source/generic/mkjobtexmf/configure.ac

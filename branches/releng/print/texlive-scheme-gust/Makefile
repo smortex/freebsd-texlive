@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-gust
-PORTVERSION=	20111205
+PORTVERSION=	20111206
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -87,6 +87,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/amstex/base/amstex.tex:${PORTSDIR
 		${LOCALBASE}/share/texmf-dist/tex/context/third/vim/2context.vim:${PORTSDIR}/print/texlive-context-vim \
 		${LOCALBASE}/share/texmf-dist/scripts/accfonts/mkt1font:${PORTSDIR}/print/texlive-accfonts \
 		${LOCALBASE}/share/texmf/fonts/enc/dvips/afm2pl/afm2pl-ot1.enc:${PORTSDIR}/print/texlive-afm2pl \
+		${LOCALBASE}/share/texmf-dist/scripts/dosepsbin/dosepsbin.pl:${PORTSDIR}/print/texlive-dosepsbin \
 		${LOCALBASE}/share/texmf-dist/scripts/epstopdf/epstopdf.pl:${PORTSDIR}/print/texlive-epstopdf \
 		${LOCALBASE}/share/texmf/doc/man/man1/mag.1:${PORTSDIR}/print/texlive-ps2pkm \
 		${LOCALBASE}/share/texmf/scripts/ps2eps/ps2eps.pl:${PORTSDIR}/print/texlive-pstools \

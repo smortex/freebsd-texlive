@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-documentation-german
-PORTVERSION=	20111020
+PORTVERSION=	20111206
 CATEGORIES=	print
 DISTFILES=	# None
 
