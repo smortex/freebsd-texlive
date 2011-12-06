@@ -1,17 +1,16 @@
-# New ports collection makefile for:	texlive-biber
-# Date created:		03/09/2011 04:39:20
+# New ports collection makefile for:	texlive-dosepsbin
+# Date created:		12/06/2011 04:47:47
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	biber
+PORTNAME=	dosepsbin
 PORTVERSION=	20111206
 CATEGORIES=	print
-DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A BibTeX replacement for users of biblatex.
+COMMENT=	Deal with DOS binary EPS files.
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
