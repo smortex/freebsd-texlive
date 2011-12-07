@@ -1,0 +1,37 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/OFL-FAQ.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/OFL.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/documentation/NEWS-Arabic.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/documentation/NEWS.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/documentation/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/documentation/amiri-table.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/amiri-regular.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/amiri-regular.sfd
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/basic.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/classes.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/contextuals.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/enclosing.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/kashida.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/kerning.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/lang.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/lellah.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/local.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/quran.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/rtlm.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/stylisticsets.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/test-suite/basic.test
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/test-suite/extendedmeem.test
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/test-suite/lellah.test
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/tools/build.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/tools/runtest.py
+share/texmf-dist/fonts/truetype/public/amiri/amiri-regular.ttf
+share/texmf-dist/fonts/truetype/public/amiri/amiri-slanted.ttf
+@dirrmtry share/texmf-dist/fonts/truetype/public/amiri
+@dirrmtry share/texmf-dist/doc/fonts/amiri/tools
+@dirrmtry share/texmf-dist/doc/fonts/amiri/test-suite
+@dirrmtry share/texmf-dist/doc/fonts/amiri/sources
+@dirrmtry share/texmf-dist/doc/fonts/amiri/documentation
+@dirrmtry share/texmf-dist/doc/fonts/amiri
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
