@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-moderncv
-# Date created:		13/03/2010 04:45:52
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-amiri
+# Date created:		12/07/2011 04:48:23
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	moderncv
+PORTNAME=	amiri
 PORTVERSION=	20111207
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A modern curriculum vitae class.
+COMMENT=	A classical Arabic typeface, Naskh style.
 
 NOPORTSRC=	yes
 

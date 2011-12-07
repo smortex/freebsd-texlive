@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20111202
+PORTVERSION=	20111207
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -408,6 +408,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/flagderiv/flagderiv.sty:${PORTSDIR}/print/texlive-flagderiv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flashcards/flashcards.cls:${PORTSDIR}/print/texlive-flashcards \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flashmovie/flashmovie.sty:${PORTSDIR}/print/texlive-flashmovie \
+		${LOCALBASE}/share/texmf-dist/tex/latex/flipbook/flipbook.sty:${PORTSDIR}/print/texlive-flipbook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flippdf/flippdf.sty:${PORTSDIR}/print/texlive-flippdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/floatflt/floatflt.sty:${PORTSDIR}/print/texlive-floatflt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/floatrow/floatrow.sty:${PORTSDIR}/print/texlive-floatrow \

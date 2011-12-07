@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20111206
+PORTVERSION=	20111207
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -526,6 +526,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/ethiop/ethiop.sty:${PORTSDIR}/print/texlive-ethiop \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/ethiop-t1/ethiop.map:${PORTSDIR}/print/texlive-ethiop-t1 \
 		${LOCALBASE}/share/texmf-dist/fonts/source/jknappen/fc/b-fcbx.mf:${PORTSDIR}/print/texlive-fc \
+		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/amiri/amiri-regular.ttf:${PORTSDIR}/print/texlive-amiri \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arabi/arabeyes/ae_almohanad_boldItalitalic.afm:${PORTSDIR}/print/texlive-arabi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arabtex/arabtex.sty:${PORTSDIR}/print/texlive-arabtex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bidi/bidi.sty:${PORTSDIR}/print/texlive-bidi \
@@ -986,6 +987,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/flagderiv/flagderiv.sty:${PORTSDIR}/print/texlive-flagderiv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flashcards/flashcards.cls:${PORTSDIR}/print/texlive-flashcards \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flashmovie/flashmovie.sty:${PORTSDIR}/print/texlive-flashmovie \
+		${LOCALBASE}/share/texmf-dist/tex/latex/flipbook/flipbook.sty:${PORTSDIR}/print/texlive-flipbook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flippdf/flippdf.sty:${PORTSDIR}/print/texlive-flippdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/floatflt/floatflt.sty:${PORTSDIR}/print/texlive-floatflt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/floatrow/floatrow.sty:${PORTSDIR}/print/texlive-floatrow \

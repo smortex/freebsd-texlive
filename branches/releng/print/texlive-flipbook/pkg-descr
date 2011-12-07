@@ -1,0 +1,5 @@
+The package provides techniques for adding flip book animations
+in the corner of your LaTeX documents (using images or ASCII
+art). Animations are defined as a set of numbered files (e.g.,
+"im1.pdf", "im2.pdf", "im3.pdf", ...). The package relies on
+fancyhdr to control the corners.
