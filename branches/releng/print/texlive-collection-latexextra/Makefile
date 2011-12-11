@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20111207
+PORTVERSION=	20111211
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -841,6 +841,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/talk/talk.cls:${PORTSDIR}/print/texlive-talk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/taupin/smallcap.sty:${PORTSDIR}/print/texlive-taupin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tcldoc/tcldoc.cls:${PORTSDIR}/print/texlive-tcldoc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty:${PORTSDIR}/print/texlive-tcolorbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tdclock/tdclock.sty:${PORTSDIR}/print/texlive-tdclock \
 		${LOCALBASE}/share/texmf-dist/tex/latex/technics/technics.sty:${PORTSDIR}/print/texlive-technics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ted/ted.sty:${PORTSDIR}/print/texlive-ted \

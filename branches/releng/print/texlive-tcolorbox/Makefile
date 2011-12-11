@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-chemnum
-# Date created:		08/04/2011 05:10:31
+# New ports collection makefile for:	texlive-tcolorbox
+# Date created:		12/11/2011 05:04:41
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	chemnum
+PORTNAME=	tcolorbox
 PORTVERSION=	20111211
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A method of numbering chemical compounds.
+COMMENT=	The tcolorbox package
 
 NOPORTSRC=	yes
 

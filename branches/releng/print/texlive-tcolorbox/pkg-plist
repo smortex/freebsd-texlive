@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcblistings.code.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcbtheorems.code.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.pdf
+share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+@dirrmtry share/texmf-dist/tex/latex/tcolorbox
+@dirrmtry share/texmf-dist/doc/latex/tcolorbox
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
