@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/copyrightbox/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/copyrightbox/coin.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/copyrightbox/copyrightbox.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/copyrightbox/copyrightbox.tex
+share/texmf-dist/tex/latex/copyrightbox/copyrightbox.sty
+@dirrmtry share/texmf-dist/tex/latex/copyrightbox
+@dirrmtry share/texmf-dist/doc/latex/copyrightbox
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,7 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pbsheet/LPPL
 %%PORTDOCS%%share/texmf-dist/doc/latex/pbsheet/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/pbsheet/pbsheet.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pbsheet/pbsheet.ps
 %%PORTDOCS%%share/texmf-dist/doc/latex/pbsheet/xpl/GNUmakefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/pbsheet/xpl/img/simbin.eps
 %%PORTDOCS%%share/texmf-dist/doc/latex/pbsheet/xpl/img/simbin.pdf
@@ -11,7 +10,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pbsheet/xpl/pgm/rint.m
 %%PORTDOCS%%share/texmf-dist/doc/latex/pbsheet/xpl/pgm/simbin.m
 %%PORTDOCS%%share/texmf-dist/doc/latex/pbsheet/xpl/xpl-fr.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/pbsheet/xpl/xpl-fr.dvi
 %%PORTDOCS%%share/texmf-dist/doc/latex/pbsheet/xpl/xpl-fr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pbsheet/xpl/xpl-fr.ps
 %%PORTDOCS%%share/texmf-dist/doc/latex/pbsheet/xpl/xpl-fr.tex
 %%PORTSRC%%share/texmf-dist/source/latex/pbsheet/pbsheet.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/pbsheet/pbsheet.ins

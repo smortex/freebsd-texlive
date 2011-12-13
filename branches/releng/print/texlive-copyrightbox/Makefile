@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-l3experimental
-# Date created:		08/02/2011 05:06:21
+# New ports collection makefile for:	texlive-copyrightbox
+# Date created:		12/13/2011 04:56:28
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	l3experimental
+PORTNAME=	copyrightbox
 PORTVERSION=	20111213
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Experimental LaTeX3 concepts.
+COMMENT=	Provide copyright notices for images in a document.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
