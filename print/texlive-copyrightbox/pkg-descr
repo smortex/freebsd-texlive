@@ -1,0 +1,3 @@
+The package command \copyrightbox[<placement>]{<image
+command>}{<text>}, which places the text as a copyright notice
+relating to the matter created by the image command.

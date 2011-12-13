@@ -5,6 +5,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/README
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/asymptote_latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/glossary_latexmkrc
+%%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/mpost_latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/pdflatexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/sagetex_latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/README1
