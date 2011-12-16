@@ -4,6 +4,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/pst2pdf-doc.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/pst2pdf-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/pst2pdf-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/test.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/test1-pdf.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/test1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/test2-pdf.pdf
