@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-tetex
-PORTVERSION=	20111213
+PORTVERSION=	20111220
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -76,7 +76,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/context/third/chromato/t-chromato.tex:${PORTSDIR}/print/texlive-context-chromato \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/construction-plan/t-construction-plan.tex:${PORTSDIR}/print/texlive-context-construction-plan \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/degrade/t-degrade.tex:${PORTSDIR}/print/texlive-context-degrade \
-		${LOCALBASE}/share/texmf-dist/tex/context/third/filter/t-filter.tex:${PORTSDIR}/print/texlive-context-filter \
+		${LOCALBASE}/share/texmf-dist/tex/context/third/filter/t-filter.mkii:${PORTSDIR}/print/texlive-context-filter \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/fixme/t-fixme.tex:${PORTSDIR}/print/texlive-context-fixme \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/french/t-french.mkiv:${PORTSDIR}/print/texlive-context-french \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-fullpage.xml:${PORTSDIR}/print/texlive-context-fullpage \

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20111111
+PORTVERSION=	20111220
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -138,7 +138,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/ocherokee/Cherokee-Bold.afm:${PORTSDIR}/print/texlive-ocherokee \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/ocr-b/ocrb10.mf:${PORTSDIR}/print/texlive-ocr-b \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/ocr-b-outline/ocrb.map:${PORTSDIR}/print/texlive-ocr-b-outline \
-		${LOCALBASE}/share/texmf-dist/fonts/source/public/ogham/ogham.mf:${PORTSDIR}/print/texlive-ogham \
 		${LOCALBASE}/share/texmf-dist/tex/lambda/oinuit/oinuit.sty:${PORTSDIR}/print/texlive-oinuit \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/oldlatin/olb10.mf:${PORTSDIR}/print/texlive-oldlatin \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/oldstandard/OldStandard-Bold.otf:${PORTSDIR}/print/texlive-oldstandard \

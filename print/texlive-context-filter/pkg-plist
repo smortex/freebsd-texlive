@@ -1,5 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/context/third/filter/filter.txt
-share/texmf-dist/tex/context/third/filter/t-filter.tex
+share/texmf-dist/tex/context/third/filter/t-filter.mkii
+share/texmf-dist/tex/context/third/filter/t-filter.mkiv
 share/texmf-dist/tex/context/third/filter/t-module-catcodes.tex
 @dirrmtry share/texmf-dist/tex/context/third/filter
 @dirrmtry share/texmf-dist/doc/context/third/filter

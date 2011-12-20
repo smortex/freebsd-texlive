@@ -1,7 +1,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/context/third/vim/vim.txt
 share/texmf-dist/tex/context/third/vim/2context.vim
 share/texmf-dist/tex/context/third/vim/t-syntax-groups.tex
-share/texmf-dist/tex/context/third/vim/t-syntax-highlight.tex
+share/texmf-dist/tex/context/third/vim/t-syntax-highlight.mkii
+share/texmf-dist/tex/context/third/vim/t-syntax-highlight.mkiv
 share/texmf-dist/tex/context/third/vim/t-vim.tex
 @dirrmtry share/texmf-dist/tex/context/third/vim
 @dirrmtry share/texmf-dist/doc/context/third/vim
