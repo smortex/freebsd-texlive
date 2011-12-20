@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	authoraftertitle
-PORTVERSION=	20100922
+PORTVERSION=	20111220
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

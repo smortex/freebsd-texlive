@@ -1,5 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/titlesec/CHANGES
 %%PORTDOCS%%share/texmf-dist/doc/latex/titlesec/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/titlesec/titleps.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/titlesec/titleps.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/titlesec/titlesec.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/titlesec/titlesec.tex
 share/texmf-dist/tex/latex/titlesec/block.tss

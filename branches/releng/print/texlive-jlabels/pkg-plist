@@ -1,5 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/jlabels/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/jlabels/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/latex/jlabels/jlabels.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/jlabels/jlabels.tex
 share/texmf-dist/tex/latex/jlabels/jlabels.sty
 @dirrmtry share/texmf-dist/tex/latex/jlabels
 @dirrmtry share/texmf-dist/doc/latex/jlabels
