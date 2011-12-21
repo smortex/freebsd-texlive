@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-fontaxes
-# Date created:		09/21/2011 04:57:54
+# New ports collection makefile for:	texlive-ogham
+# Date created:		12/21/2011 04:44:23
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	fontaxes
+PORTNAME=	ogham
 PORTVERSION=	20111221
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Additional font axes for LaTeX.
+COMMENT=	Fonts for typesetting Ogham script.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

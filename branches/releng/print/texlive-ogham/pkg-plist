@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ogham/testfont.pdf
+share/texmf-dist/fonts/source/public/ogham/ogham.mf
+share/texmf-dist/fonts/tfm/public/ogham/ogham.tfm
+@dirrmtry share/texmf-dist/fonts/tfm/public/ogham
+@dirrmtry share/texmf-dist/fonts/source/public/ogham
+@dirrmtry share/texmf-dist/doc/fonts/ogham
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

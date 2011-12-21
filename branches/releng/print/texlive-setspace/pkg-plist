@@ -1,4 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/setspace/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/setspace/setspace-test.tex
 share/texmf-dist/tex/latex/setspace/setspace.sty
 @dirrmtry share/texmf-dist/tex/latex/setspace
+@dirrmtry share/texmf-dist/doc/latex/setspace
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
