@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20111220
+PORTVERSION=	20111221
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -195,7 +195,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/context/third/games/games-go.lua:${PORTSDIR}/print/texlive-context-games \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/gantt/gantt-s-mp.tex:${PORTSDIR}/print/texlive-context-gantt \
 		${LOCALBASE}/share/texmf-dist/metapost/context/third/gnuplot/mp-gnuplot.mp:${PORTSDIR}/print/texlive-context-gnuplot \
-		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-letter.xml:${PORTSDIR}/print/texlive-context-letter \
+		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-correspondence.xml:${PORTSDIR}/print/texlive-context-letter \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/lettrine.xml:${PORTSDIR}/print/texlive-context-lettrine \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/lilypond/t-lilypond.tex:${PORTSDIR}/print/texlive-context-lilypond \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-mathsets.xml:${PORTSDIR}/print/texlive-context-mathsets \
@@ -331,6 +331,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/ocherokee/Cherokee-Bold.afm:${PORTSDIR}/print/texlive-ocherokee \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/ocr-b/ocrb10.mf:${PORTSDIR}/print/texlive-ocr-b \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/ocr-b-outline/ocrb.map:${PORTSDIR}/print/texlive-ocr-b-outline \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/ogham/ogham.mf:${PORTSDIR}/print/texlive-ogham \
 		${LOCALBASE}/share/texmf-dist/tex/lambda/oinuit/oinuit.sty:${PORTSDIR}/print/texlive-oinuit \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/oldlatin/olb10.mf:${PORTSDIR}/print/texlive-oldlatin \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/oldstandard/OldStandard-Bold.otf:${PORTSDIR}/print/texlive-oldstandard \
@@ -837,7 +838,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/cleveref/cleveref.sty:${PORTSDIR}/print/texlive-cleveref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/clock/clock.sty:${PORTSDIR}/print/texlive-clock \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmdstring/cmdstring.sty:${PORTSDIR}/print/texlive-cmdstring \
-		${LOCALBASE}/share/texmf-dist/tex/latex/cmdtrack/cmdtrack.sty:${PORTSDIR}/print/texlive-cmdtrack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmsd/cmsd.sty:${PORTSDIR}/print/texlive-cmsd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/codedoc/codedoc.cls:${PORTSDIR}/print/texlive-codedoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/codepage/codepage.sty:${PORTSDIR}/print/texlive-codepage \

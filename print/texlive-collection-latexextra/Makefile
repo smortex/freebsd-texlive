@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20111220
+PORTVERSION=	20111221
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -259,7 +259,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/cleveref/cleveref.sty:${PORTSDIR}/print/texlive-cleveref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/clock/clock.sty:${PORTSDIR}/print/texlive-clock \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmdstring/cmdstring.sty:${PORTSDIR}/print/texlive-cmdstring \
-		${LOCALBASE}/share/texmf-dist/tex/latex/cmdtrack/cmdtrack.sty:${PORTSDIR}/print/texlive-cmdtrack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmsd/cmsd.sty:${PORTSDIR}/print/texlive-cmsd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/codedoc/codedoc.cls:${PORTSDIR}/print/texlive-codedoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/codepage/codepage.sty:${PORTSDIR}/print/texlive-codepage \

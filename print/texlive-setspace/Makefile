@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	setspace
-PORTVERSION=	20110119
+PORTVERSION=	20111221
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Set space between lines.
 
-NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

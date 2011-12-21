@@ -1,69 +1,44 @@
 %%PORTDOCS%%share/texmf-dist/doc/context/third/letter/README
-%%PORTDOCS%%share/texmf-dist/doc/context/third/letter/correspondence.pdf
-%%PORTDOCS%%share/texmf-dist/doc/context/third/letter/todo.txt
-%%PORTSRC%%share/texmf-dist/source/context/third/letter/doc/correspondence-environment.tex
-%%PORTSRC%%share/texmf-dist/source/context/third/letter/doc/correspondence-introduction.tex
-%%PORTSRC%%share/texmf-dist/source/context/third/letter/doc/correspondence-labeltext.tex
-%%PORTSRC%%share/texmf-dist/source/context/third/letter/doc/correspondence-letter-background.tex
-%%PORTSRC%%share/texmf-dist/source/context/third/letter/doc/correspondence-letter-beginner.tex
-%%PORTSRC%%share/texmf-dist/source/context/third/letter/doc/correspondence-letter-examples.tex
-%%PORTSRC%%share/texmf-dist/source/context/third/letter/doc/correspondence-letter-extension.tex
-%%PORTSRC%%share/texmf-dist/source/context/third/letter/doc/correspondence-letter-header.tex
-%%PORTSRC%%share/texmf-dist/source/context/third/letter/doc/correspondence-letter-interface.tex
-%%PORTSRC%%share/texmf-dist/source/context/third/letter/doc/correspondence-letter-layout.tex
-%%PORTSRC%%share/texmf-dist/source/context/third/letter/doc/correspondence-letter-pagenumber.tex
-%%PORTSRC%%share/texmf-dist/source/context/third/letter/doc/correspondence-letter-reference.tex
-%%PORTSRC%%share/texmf-dist/source/context/third/letter/doc/correspondence-letter-styles.tex
-%%PORTSRC%%share/texmf-dist/source/context/third/letter/doc/correspondence-letter-values.tex
-%%PORTSRC%%share/texmf-dist/source/context/third/letter/doc/correspondence-resume-examples.tex
-%%PORTSRC%%share/texmf-dist/source/context/third/letter/doc/correspondence-resume-interface.tex
-%%PORTSRC%%share/texmf-dist/source/context/third/letter/doc/correspondence-revision.tex
-%%PORTSRC%%share/texmf-dist/source/context/third/letter/doc/correspondence.tex
-share/texmf-dist/tex/context/interface/third/t-letter.xml
-share/texmf-dist/tex/context/interface/third/t-resume.xml
-share/texmf-dist/tex/context/third/letter/base/t-correspondence.mkii
-share/texmf-dist/tex/context/third/letter/base/t-correspondence.mkiv
-share/texmf-dist/tex/context/third/letter/base/t-correspondence.tex
-share/texmf-dist/tex/context/third/letter/base/t-letter.tex
-share/texmf-dist/tex/context/third/letter/base/t-resume.tex
-share/texmf-dist/tex/context/third/letter/extension/addrentry.nle
-share/texmf-dist/tex/context/third/letter/extension/corres.nle
-share/texmf-dist/tex/context/third/letter/extension/label.nle
-share/texmf-dist/tex/context/third/letter/extension/optimize.nle
-share/texmf-dist/tex/context/third/letter/extension/pragma.nle
-share/texmf-dist/tex/context/third/letter/interface/default.nli
-share/texmf-dist/tex/context/third/letter/interface/default.nri
-share/texmf-dist/tex/context/third/letter/interface/knuth.nli
-share/texmf-dist/tex/context/third/letter/interface/moderncv.nri
-share/texmf-dist/tex/context/third/letter/interface/pragma.nli
-share/texmf-dist/tex/context/third/letter/style/blockstyle.nls
-share/texmf-dist/tex/context/third/letter/style/casual.nrs
-share/texmf-dist/tex/context/third/letter/style/classic.nrs
-share/texmf-dist/tex/context/third/letter/style/default.nls
-share/texmf-dist/tex/context/third/letter/style/default.nrs
-share/texmf-dist/tex/context/third/letter/style/dina.nls
-share/texmf-dist/tex/context/third/letter/style/dinb.nls
-share/texmf-dist/tex/context/third/letter/style/dutch.nls
-share/texmf-dist/tex/context/third/letter/style/english.nls
-share/texmf-dist/tex/context/third/letter/style/french.nls
-share/texmf-dist/tex/context/third/letter/style/fullblock.nls
-share/texmf-dist/tex/context/third/letter/style/gbrief.nls
-share/texmf-dist/tex/context/third/letter/style/hanging.nls
-share/texmf-dist/tex/context/third/letter/style/knuth.nls
-share/texmf-dist/tex/context/third/letter/style/memo.nls
-share/texmf-dist/tex/context/third/letter/style/modified.nls
-share/texmf-dist/tex/context/third/letter/style/pragma.nls
-share/texmf-dist/tex/context/third/letter/style/semiblock.nls
-share/texmf-dist/tex/context/third/letter/style/simplified.nls
-share/texmf-dist/tex/context/third/letter/style/swiss.nls
-share/texmf-dist/tex/context/third/letter/style/swissleft.nls
-share/texmf-dist/tex/context/third/letter/style/user.ori
+share/texmf-dist/tex/context/interface/third/t-correspondence.xml
+share/texmf-dist/tex/context/third/letter/base/s-cor-00.lua
+share/texmf-dist/tex/context/third/letter/base/s-cor-00.mkii
+share/texmf-dist/tex/context/third/letter/base/s-cor-00.mkvi
+share/texmf-dist/tex/context/third/letter/base/s-cor-01.mkii
+share/texmf-dist/tex/context/third/letter/base/s-cor-01.mkvi
+share/texmf-dist/tex/context/third/letter/base/s-cor-02.mkii
+share/texmf-dist/tex/context/third/letter/base/s-cor-02.mkvi
+share/texmf-dist/tex/context/third/letter/base/t-letter.mkii
+share/texmf-dist/tex/context/third/letter/base/t-letter.mkiv
+share/texmf-dist/tex/context/third/letter/base/t-memo.mkii
+share/texmf-dist/tex/context/third/letter/base/t-memo.mkiv
+share/texmf-dist/tex/context/third/letter/style/letter-imp-default.mkii
+share/texmf-dist/tex/context/third/letter/style/letter-imp-default.mkiv
+share/texmf-dist/tex/context/third/letter/style/letter-imp-dina.mkii
+share/texmf-dist/tex/context/third/letter/style/letter-imp-dina.mkiv
+share/texmf-dist/tex/context/third/letter/style/letter-imp-dinb.mkii
+share/texmf-dist/tex/context/third/letter/style/letter-imp-dinb.mkiv
+share/texmf-dist/tex/context/third/letter/style/letter-imp-dutch.mkii
+share/texmf-dist/tex/context/third/letter/style/letter-imp-dutch.mkiv
+share/texmf-dist/tex/context/third/letter/style/letter-imp-french.mkii
+share/texmf-dist/tex/context/third/letter/style/letter-imp-french.mkiv
+share/texmf-dist/tex/context/third/letter/style/letter-imp-gbrief.mkii
+share/texmf-dist/tex/context/third/letter/style/letter-imp-gbrief.mkiv
+share/texmf-dist/tex/context/third/letter/style/letter-imp-swiss.mkii
+share/texmf-dist/tex/context/third/letter/style/letter-imp-swiss.mkiv
+share/texmf-dist/tex/context/third/letter/style/letter-imp-swissleft.mkii
+share/texmf-dist/tex/context/third/letter/style/letter-imp-swissleft.mkiv
+share/texmf-dist/tex/context/third/letter/style/letter-imp-test.mkiv
+share/texmf-dist/tex/context/third/letter/style/memo-imp-default.mkii
+share/texmf-dist/tex/context/third/letter/style/memo-imp-default.mkiv
+share/texmf-dist/tex/context/third/letter/style/memo-imp-margin.mkii
+share/texmf-dist/tex/context/third/letter/style/memo-imp-margin.mkiv
+share/texmf-dist/tex/context/third/letter/style/memo-imp-memo.mkii
+share/texmf-dist/tex/context/third/letter/style/memo-imp-memo.mkiv
+share/texmf-dist/tex/context/third/letter/style/memo-imp-table.mkii
+share/texmf-dist/tex/context/third/letter/style/memo-imp-table.mkiv
 @dirrmtry share/texmf-dist/tex/context/third/letter/style
-@dirrmtry share/texmf-dist/tex/context/third/letter/interface
-@dirrmtry share/texmf-dist/tex/context/third/letter/extension
 @dirrmtry share/texmf-dist/tex/context/third/letter/base
 @dirrmtry share/texmf-dist/tex/context/interface/third
-@dirrmtry share/texmf-dist/source/context/third/letter/doc
 @dirrmtry share/texmf-dist/doc/context/third/letter
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

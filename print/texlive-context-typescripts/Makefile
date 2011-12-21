@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	context-typescripts
-PORTVERSION=	20111205
+PORTVERSION=	20111221
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

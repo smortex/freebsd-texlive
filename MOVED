@@ -113,3 +113,4 @@ print/texlive-vxu||2011-08-18|Upstream support dropped
 print/texlive-ptsans||2011-08-21|Upstream support dropped
 print/texlive-ptserif||2011-08-21|Upstream support dropped
 print/texlive-ogham||2011-12-20|Upstream support dropped
+print/texlive-cmdtrack||2011-12-21|Upstream support dropped

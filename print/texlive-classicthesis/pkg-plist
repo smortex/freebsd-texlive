@@ -28,12 +28,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/FrontBackmatter/Titlepage.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/LISTOFFILES
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/classicthesis-config.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/gfx/TFZsuperellipse_bw.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/gfx/example_1.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/gfx/example_2.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/gfx/example_3.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/gfx/example_4.jpg
-share/texmf-dist/tex/latex/classicthesis/classicthesis-preamble.sty
 share/texmf-dist/tex/latex/classicthesis/classicthesis.sty
 @dirrmtry share/texmf-dist/tex/latex/classicthesis
 @dirrmtry share/texmf-dist/doc/latex/classicthesis/gfx

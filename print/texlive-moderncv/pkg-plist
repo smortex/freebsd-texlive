@@ -13,11 +13,20 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/moderncv/examples/template_casual_orange.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/moderncv/examples/template_classic_green.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/moderncv/examples/template_multibib.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/moderncv/examples/template_oldstyle_grey.pdf
 share/texmf-dist/tex/latex/moderncv/moderncv.cls
+share/texmf-dist/tex/latex/moderncv/moderncvcolorblack.sty
+share/texmf-dist/tex/latex/moderncv/moderncvcolorblue.sty
+share/texmf-dist/tex/latex/moderncv/moderncvcolorgreen.sty
+share/texmf-dist/tex/latex/moderncv/moderncvcolorgrey.sty
+share/texmf-dist/tex/latex/moderncv/moderncvcolororange.sty
+share/texmf-dist/tex/latex/moderncv/moderncvcolorpurple.sty
+share/texmf-dist/tex/latex/moderncv/moderncvcolorred.sty
 share/texmf-dist/tex/latex/moderncv/moderncvcompatibility.sty
-share/texmf-dist/tex/latex/moderncv/moderncvthemecasual.sty
-share/texmf-dist/tex/latex/moderncv/moderncvthemeclassic.sty
-share/texmf-dist/tex/latex/moderncv/moderncvthemeempty.sty
+share/texmf-dist/tex/latex/moderncv/moderncvstylecasual.sty
+share/texmf-dist/tex/latex/moderncv/moderncvstyleclassic.sty
+share/texmf-dist/tex/latex/moderncv/moderncvstyleempty.sty
+share/texmf-dist/tex/latex/moderncv/moderncvstyleoldstyle.sty
 share/texmf-dist/tex/latex/moderncv/tweaklist.sty
 @dirrmtry share/texmf-dist/tex/latex/moderncv
 @dirrmtry share/texmf-dist/doc/latex/moderncv/examples
