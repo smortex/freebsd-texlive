@@ -1,4 +1,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/ltxtools/README
+share/texmf-dist/tex/latex/ltxtools/ltxtools-base.sty
+share/texmf-dist/tex/latex/ltxtools/ltxtools-doc.sty
+share/texmf-dist/tex/latex/ltxtools/ltxtools-environ.sty
+share/texmf-dist/tex/latex/ltxtools/ltxtools-incluput.sty
+share/texmf-dist/tex/latex/ltxtools/ltxtools-index.sty
+share/texmf-dist/tex/latex/ltxtools/ltxtools-review.sty
+share/texmf-dist/tex/latex/ltxtools/ltxtools-trace.sty
 share/texmf-dist/tex/latex/ltxtools/ltxtools.sty
 @dirrmtry share/texmf-dist/tex/latex/ltxtools
 @dirrmtry share/texmf-dist/doc/latex/ltxtools
