@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/keyreader/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/keyreader/keyreader-guide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/keyreader/keyreader-guide.tex
+share/texmf-dist/tex/latex/keyreader/keyreader-guide.cfg
+share/texmf-dist/tex/latex/keyreader/keyreader.sty
+@dirrmtry share/texmf-dist/tex/latex/keyreader
+@dirrmtry share/texmf-dist/doc/latex/keyreader
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

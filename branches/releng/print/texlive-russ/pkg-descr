@@ -1,6 +1,0 @@
-The package aims to facilitate Russian typesetting (based on
-input using MicroSoft Code Page 1251). Russian hyphenation is
-selected, and various mathematical commands are set up in
-Russian style. Furthermore all Cyrillic letters' catcodes are
-set to "letter", so that commands with Cyrillic letters in
-their names may be defined.

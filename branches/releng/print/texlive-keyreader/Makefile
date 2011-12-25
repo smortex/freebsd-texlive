@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-russ
-# Date created:		10/14/2010 04:44:49
+# New ports collection makefile for:	texlive-keyreader
+# Date created:		12/25/2011 04:59:23
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	russ
-PORTVERSION=	20101014
+PORTNAME=	keyreader
+PORTVERSION=	20111225
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX in Russian, without babel.
+COMMENT=	A robust interface to xkeyval.
 
 NOPORTSRC=	yes
 
