@@ -1,0 +1,7 @@
+The package provides a robust interface to controlling keys in
+xkeyval, removing some of that package's restrictions and
+adding the concept of complementary boolean keys. The package
+addresses some of the issues now covered by the author's
+ltxkeys package, which was assumed to be a replacement for
+keyreader. Since the package has remained a favourite with
+users, it has been reinstated.

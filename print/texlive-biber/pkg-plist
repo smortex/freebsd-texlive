@@ -1,6 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/biber/biber.pdf
-%%PORTSRC%%share/texmf-dist/source/bibtex/biber/README.TEXLIVE
 %%PORTSRC%%share/texmf-dist/source/bibtex/biber/biblatex-biber.tar.gz
+%%PORTSRC%%share/texmf-dist/source/bibtex/biber/utf8-macro-map.html
 @dirrmtry share/texmf-dist/source/bibtex/biber
 @dirrmtry share/texmf-dist/doc/bibtex/biber
 @exec %D/bin/mktexlsr

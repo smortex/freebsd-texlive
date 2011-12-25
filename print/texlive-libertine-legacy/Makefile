@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-ejpecp
-# Date created:		11/29/2011 05:09:49
+# New ports collection makefile for:	texlive-libertine-legacy
+# Date created:		12/25/2011 04:44:56
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	ejpecp
+PORTNAME=	libertine-legacy
 PORTVERSION=	20111225
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class for EJP and ECP.
+COMMENT=	Linux Libertine fonts for TeX and pfdTeX users.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

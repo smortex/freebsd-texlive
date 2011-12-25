@@ -114,3 +114,6 @@ print/texlive-ptsans||2011-08-21|Upstream support dropped
 print/texlive-ptserif||2011-08-21|Upstream support dropped
 print/texlive-ogham||2011-12-20|Upstream support dropped
 print/texlive-cmdtrack||2011-12-21|Upstream support dropped
+print/texlive-fltpage||2011-12-25|Upstream support dropped
+print/texlive-kalender||2011-12-25|Upstream support dropped
+print/texlive-russ||2011-12-25|Upstream support dropped

@@ -1,6 +1,0 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/russ/README
-share/texmf-dist/tex/latex/russ/russ.sty
-@dirrmtry share/texmf-dist/tex/latex/russ
-@dirrmtry share/texmf-dist/doc/latex/russ
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20111221
+PORTVERSION=	20111225
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -413,7 +413,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/floatflt/floatflt.sty:${PORTSDIR}/print/texlive-floatflt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/floatrow/floatrow.sty:${PORTSDIR}/print/texlive-floatrow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flowfram/flowfram.sty:${PORTSDIR}/print/texlive-flowfram \
-		${LOCALBASE}/share/texmf-dist/tex/latex/fltpage/fltpage.sty:${PORTSDIR}/print/texlive-fltpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fmp/fmp.sty:${PORTSDIR}/print/texlive-fmp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fmtcount/fmtcount.sty:${PORTSDIR}/print/texlive-fmtcount \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fn2end/fn2end.sty:${PORTSDIR}/print/texlive-fn2end \
@@ -506,6 +505,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/kantlipsum/kantlipsum.sty:${PORTSDIR}/print/texlive-kantlipsum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kerntest/kerntest.cls:${PORTSDIR}/print/texlive-kerntest \
 		${LOCALBASE}/share/texmf-dist/tex/latex/keycommand/keycommand.sty:${PORTSDIR}/print/texlive-keycommand \
+		${LOCALBASE}/share/texmf-dist/tex/latex/keyreader/keyreader.sty:${PORTSDIR}/print/texlive-keyreader \
 		${LOCALBASE}/share/texmf-dist/tex/latex/keystroke/keystroke.sty:${PORTSDIR}/print/texlive-keystroke \
 		${LOCALBASE}/share/texmf-dist/tex/latex/keyval2e/keyval2e.sty:${PORTSDIR}/print/texlive-keyval2e \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kix/kix.sty:${PORTSDIR}/print/texlive-kix \
