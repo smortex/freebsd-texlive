@@ -1,5 +1,6 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/courier-scaled/Couriers.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/courier-scaled/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/courier-scaled/Couriers.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/courier-scaled/Couriers.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/courier-scaled/README
 share/texmf-dist/tex/latex/courier-scaled/8rpcrs.fd
 share/texmf-dist/tex/latex/courier-scaled/couriers.sty
 share/texmf-dist/tex/latex/courier-scaled/il2pcrs.fd
@@ -12,6 +13,6 @@ share/texmf-dist/tex/latex/courier-scaled/t5pcrs.fd
 share/texmf-dist/tex/latex/courier-scaled/ts1pcrs.fd
 share/texmf-dist/tex/latex/courier-scaled/xl2pcrs.fd
 @dirrmtry share/texmf-dist/tex/latex/courier-scaled
-@dirrmtry share/texmf-dist/doc/latex/courier-scaled
+@dirrmtry share/texmf-dist/doc/fonts/courier-scaled
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
