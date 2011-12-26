@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	endfloat
-PORTVERSION=	20111216
+PORTVERSION=	20111226
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Move floats to the end with markers where they belong.
+COMMENT=	Move floats to the end, leaving markers where they belong.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
