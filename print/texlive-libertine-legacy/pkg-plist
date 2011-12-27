@@ -8,9 +8,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-legacy/grimm.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-legacy/grimme.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-legacy/grimmf.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-legacy/index.ist
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-legacy/lgrfxl.inc
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-legacy/lgrfxlj.inc
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-legacy/libertine.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-legacy/libertinedoku.cls
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-legacy/libertineglyph.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-legacy/libertinekerning_fxb_b_ic.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-legacy/libertinekerning_fxb_b_n.tex
@@ -61,9 +63,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-legacy/pdfs/libertinetext.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-legacy/pdfs/libertinetexte.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-legacy/pdfs/libertinetextf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-legacy/samples/libertinetext.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-legacy/samples/libertinetexte.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-legacy/samples/libertinetextf.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-legacy/t1fxb.inc
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-legacy/t1fxbf.inc
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-legacy/t1fxbfo.inc
@@ -3368,7 +3367,6 @@ share/texmf-dist/fonts/vf/public/libertine-legacy/fxlzo-ts1.vf
 share/texmf-dist/fonts/vf/public/libertine-legacy/fxlzo-ts1fitted.vf
 share/texmf-dist/fonts/vf/public/libertine-legacy/fxlzo-ts1o.vf
 share/texmf-dist/fonts/vf/public/libertine-legacy/fxlzo-ts1os.vf
-share/texmf-dist/makeindex/libertine-legacy/index.ist
 share/texmf-dist/tex/latex/libertine-legacy/eu1fxb.fd
 share/texmf-dist/tex/latex/libertine-legacy/eu1fxbf.fd
 share/texmf-dist/tex/latex/libertine-legacy/eu1fxbfo.fd
@@ -3420,7 +3418,6 @@ share/texmf-dist/tex/latex/libertine-legacy/libertine-uni-31.def
 share/texmf-dist/tex/latex/libertine-legacy/libertine-uni-32.def
 share/texmf-dist/tex/latex/libertine-legacy/libertine.sty
 share/texmf-dist/tex/latex/libertine-legacy/libertinecomp.sty
-share/texmf-dist/tex/latex/libertine-legacy/libertinedoku.cls
 share/texmf-dist/tex/latex/libertine-legacy/libertinekey.sty
 share/texmf-dist/tex/latex/libertine-legacy/libertinelist.sty
 share/texmf-dist/tex/latex/libertine-legacy/libertinelogo.sty
@@ -3531,7 +3528,6 @@ share/texmf-dist/tex/latex/libertine-legacy/ufxlf6.fd
 share/texmf-dist/tex/latex/libertine-legacy/ufxlfb.fd
 share/texmf-dist/tex/latex/libertine-legacy/ufxlff.fd
 @dirrmtry share/texmf-dist/tex/latex/libertine-legacy
-@dirrmtry share/texmf-dist/makeindex/libertine-legacy
 @dirrmtry share/texmf-dist/fonts/vf/public/libertine-legacy
 @dirrmtry share/texmf-dist/fonts/type1/public/libertine-legacy
 @dirrmtry share/texmf-dist/fonts/tfm/public/libertine-legacy
@@ -3540,7 +3536,6 @@ share/texmf-dist/tex/latex/libertine-legacy/ufxlff.fd
 @dirrmtry share/texmf-dist/fonts/enc/dvips/libertine-legacy
 @dirrmtry share/texmf-dist/fonts/afm/public/libertine-legacy
 @dirrmtry share/texmf-dist/dvips/libertine-legacy
-@dirrmtry share/texmf-dist/doc/fonts/libertine-legacy/samples
 @dirrmtry share/texmf-dist/doc/fonts/libertine-legacy/pdfs
 @dirrmtry share/texmf-dist/doc/fonts/libertine-legacy
 @exec %D/bin/mktexlsr
