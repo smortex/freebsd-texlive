@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	libertine-legacy
-PORTVERSION=	20111225
+PORTVERSION=	20111227
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
