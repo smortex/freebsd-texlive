@@ -14,6 +14,7 @@ share/texmf-dist/bibtex/bst/dtk/dtk.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk05.clo
 %%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk06.clo
 %%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk10.clo
+%%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk11.clo
 %%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk95.clo
 %%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk96.clo
 %%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk97.clo
@@ -37,7 +38,7 @@ share/texmf-dist/tex/latex/dtk/dtk-pdf.sty
 share/texmf-dist/tex/latex/dtk/dtk-url.sty
 share/texmf-dist/tex/latex/dtk/dtk.clo
 share/texmf-dist/tex/latex/dtk/dtk.cls
-share/texmf-dist/tex/latex/dtk/dtk11.clo
+share/texmf-dist/tex/latex/dtk/dtk12.clo
 share/texmf-dist/tex/latex/dtk/dtklogos.sty
 @dirrmtry share/texmf-dist/tex/latex/dtk
 @dirrmtry share/texmf-dist/makeindex/dtk

@@ -7,6 +7,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/documentation/README-Arabic.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/documentation/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/documentation/amiri-table.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/amiri-bold.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/amiri-bold.sfd
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/amiri-regular.fea
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/amiri-regular.sfd
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/basic.fea
@@ -23,9 +25,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/stylisticsets.fea
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/test-suite/basic.test
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/test-suite/extendedmeem.test
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/test-suite/high_baa.test
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/test-suite/lellah.test
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/tools/build.py
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/tools/runtest.py
+share/texmf-dist/fonts/truetype/public/amiri/amiri-bold.ttf
+share/texmf-dist/fonts/truetype/public/amiri/amiri-boldslanted.ttf
 share/texmf-dist/fonts/truetype/public/amiri/amiri-regular.ttf
 share/texmf-dist/fonts/truetype/public/amiri/amiri-slanted.ttf
 @dirrmtry share/texmf-dist/fonts/truetype/public/amiri
