@@ -1,8 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ginpenc/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/latex/ginpenc/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/ginpenc/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/ginpenc/ginpenc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/ginpenc/news-message.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/ginpenc/testginpenc.tex
-%%PORTSRC%%share/texmf-dist/source/latex/ginpenc/Makefile
 %%PORTSRC%%share/texmf-dist/source/latex/ginpenc/ginpenc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/ginpenc/ginpenc.ins
 share/texmf-dist/tex/latex/ginpenc/ansinew.gie

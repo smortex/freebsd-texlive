@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pstricks
-PORTVERSION=	20110810
+PORTVERSION=	20120103
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -73,6 +73,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/auto-pst-pdf/auto-pst-pdf.s
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-rubans/pst-rubans.tex:${PORTSDIR}/print/texlive-pst-rubans \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-sigsys/pst-sigsys.tex:${PORTSDIR}/print/texlive-pst-sigsys \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-slpe/pst-slpe.tex:${PORTSDIR}/print/texlive-pst-slpe \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-solarsystem/pst-solarsystem.tex:${PORTSDIR}/print/texlive-pst-solarsystem \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-spectra/pst-spectra.tex:${PORTSDIR}/print/texlive-pst-spectra \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-solides3d/pst-solides3d.tex:${PORTSDIR}/print/texlive-pst-solides3d \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-soroban/pst-soroban.sty:${PORTSDIR}/print/texlive-pst-soroban \

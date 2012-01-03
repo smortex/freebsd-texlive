@@ -1,0 +1,7 @@
+The package uses pstricks to produce diagrams of the visible
+planets, projected on the plane of the ecliptic. It is not
+possible to represent all the planets in their real
+proportions, so only Mercury, Venus, Earth and Mars have their
+orbits in correct proportions and their relative sizes are
+observed. Saturn and Jupiter are in the right direction, but
+not in the correct size.

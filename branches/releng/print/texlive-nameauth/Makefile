@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-luacode
-# Date created:		11/09/2010 05:02:10
+# New ports collection makefile for:	texlive-nameauth
+# Date created:		01/03/2012 05:00:25
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	luacode
+PORTNAME=	nameauth
 PORTVERSION=	20120103
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Helper for executing lua code from within TeX.
+COMMENT=	Name authority mechanism for consistency in body text and index.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

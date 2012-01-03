@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-tetex
-PORTVERSION=	20111225
+PORTVERSION=	20120103
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -288,7 +288,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/doc/latex/koma-script/INSTALL.txt:${PORTSDIR}/print/texlive-koma-script \
 		${LOCALBASE}/share/texmf-dist/makeindex/l3kernel/l3doc.ist:${PORTSDIR}/print/texlive-l3kernel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty:${PORTSDIR}/print/texlive-l3packages \
-		${LOCALBASE}/share/texmf-dist/tex/latex/l3experimental/l3str/l3regex.sty:${PORTSDIR}/print/texlive-l3experimental \
+		${LOCALBASE}/share/texmf-dist/tex/latex/l3experimental/l3str/l3flag.sty:${PORTSDIR}/print/texlive-l3experimental \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listings/listings.sty:${PORTSDIR}/print/texlive-listings \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdwtools/at.sty:${PORTSDIR}/print/texlive-mdwtools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/memoir/memoir.cls:${PORTSDIR}/print/texlive-memoir \
@@ -543,6 +543,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-rubans/pst-rubans.tex:${PORTSDIR}/print/texlive-pst-rubans \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-sigsys/pst-sigsys.tex:${PORTSDIR}/print/texlive-pst-sigsys \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-slpe/pst-slpe.tex:${PORTSDIR}/print/texlive-pst-slpe \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-solarsystem/pst-solarsystem.tex:${PORTSDIR}/print/texlive-pst-solarsystem \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-spectra/pst-spectra.tex:${PORTSDIR}/print/texlive-pst-spectra \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-solides3d/pst-solides3d.tex:${PORTSDIR}/print/texlive-pst-solides3d \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-soroban/pst-soroban.sty:${PORTSDIR}/print/texlive-pst-soroban \

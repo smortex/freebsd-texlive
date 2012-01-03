@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-solarsystem/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-solarsystem/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-solarsystem/pst-solarsystem-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-solarsystem/pst-solarsystem-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-solarsystem/pst-solarsystem-doc.tex
+share/texmf-dist/dvips/pst-solarsystem/pst-solarsystem.pro
+%%PORTSRC%%share/texmf-dist/source/generic/pst-solarsystem/Makefile
+share/texmf-dist/tex/generic/pst-solarsystem/pst-solarsystem.tex
+share/texmf-dist/tex/latex/pst-solarsystem/pst-solarsystem.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-solarsystem
+@dirrmtry share/texmf-dist/tex/generic/pst-solarsystem
+@dirrmtry share/texmf-dist/source/generic/pst-solarsystem
+@dirrmtry share/texmf-dist/dvips/pst-solarsystem
+@dirrmtry share/texmf-dist/doc/generic/pst-solarsystem
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

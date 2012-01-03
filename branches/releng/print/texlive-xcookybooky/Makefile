@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-luacode
-# Date created:		11/09/2010 05:02:10
+# New ports collection makefile for:	texlive-xcookybooky
+# Date created:		01/03/2012 05:05:45
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	luacode
+PORTNAME=	xcookybooky
 PORTVERSION=	20120103
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Helper for executing lua code from within TeX.
+COMMENT=	The xcookybooky package
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

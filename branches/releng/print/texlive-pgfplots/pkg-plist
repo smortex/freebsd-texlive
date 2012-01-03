@@ -13,6 +13,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_10.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_11.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_11.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_12.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_12.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_13.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_13.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_2.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_3.pdf
@@ -197,8 +201,8 @@ share/texmf-dist/scripts/pgfplots/matlab2pgfplots.m
 share/texmf-dist/scripts/pgfplots/matlab2pgfplots.sh
 share/texmf-dist/scripts/pgfplots/pgf2pdf.sh
 share/texmf-dist/scripts/pgfplots/pgfplots.py
-%%PORTSRC%%share/texmf-dist/source/context/third/pgfplots/pgfplotstests.zip
-%%PORTSRC%%share/texmf-dist/source/latex/pgfplots/pgfplotstests.zip
+%%PORTSRC%%share/texmf-dist/source/context/third/pgfplots/pgfplotstests.tar.bz2
+%%PORTSRC%%share/texmf-dist/source/latex/pgfplots/pgfplotstests.tar.bz2
 share/texmf-dist/tex/context/third/pgfplots/t-pgfplots.tex
 share/texmf-dist/tex/context/third/pgfplots/t-pgfplotstable.tex
 share/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
@@ -237,6 +241,8 @@ share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_tikzexte
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_tikzlibraryexternal.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfplotscompatib/tikzlibrarydateplot.code.tex
 share/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+share/texmf-dist/tex/generic/pgfplots/pgfplots.multiaxis.code.tex
+share/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex
 share/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex
 share/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex
 share/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex

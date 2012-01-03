@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-luacode
-# Date created:		11/09/2010 05:02:10
+# New ports collection makefile for:	texlive-pst-solarsystem
+# Date created:		01/03/2012 05:09:23
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	luacode
+PORTNAME=	pst-solarsystem
 PORTVERSION=	20120103
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Helper for executing lua code from within TeX.
+COMMENT=	Plot the solar system for a specific date.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
