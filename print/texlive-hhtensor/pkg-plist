@@ -1,6 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/hhtensor/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/latex/hhtensor/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/hhtensor/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/hhtensor/getversion.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/hhtensor/hhtensor.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/hhtensor/Makefile
 %%PORTSRC%%share/texmf-dist/source/latex/hhtensor/hhtensor.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/hhtensor/hhtensor.ins
 share/texmf-dist/tex/latex/hhtensor/hhtensor.sty
