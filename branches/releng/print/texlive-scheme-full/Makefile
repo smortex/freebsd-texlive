@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20120103
+PORTVERSION=	20120105
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -159,6 +159,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf/doc/man/man1/lacheck.1:${PORTSDIR}/print/texlive-lacheck \
 		${LOCALBASE}/share/texmf-dist/tex/latex/latex2man/latex2man.sty:${PORTSDIR}/print/texlive-latex2man \
 		${LOCALBASE}/share/texmf-dist/scripts/latexdiff/latexdiff-vc.pl:${PORTSDIR}/print/texlive-latexdiff \
+		${LOCALBASE}/share/texmf-dist/scripts/latexfileversion/latexfileversion:${PORTSDIR}/print/texlive-latexfileversion \
 		${LOCALBASE}/share/texmf-dist/scripts/latexmk/latexmk.pl:${PORTSDIR}/print/texlive-latexmk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listings-ext/listings-ext.sty:${PORTSDIR}/print/texlive-listings-ext \
 		${LOCALBASE}/share/texmf-dist/scripts/match_parens/match_parens:${PORTSDIR}/print/texlive-match_parens \
@@ -428,6 +429,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/egameps/egameps.sty:${PORTSDIR}/print/texlive-egameps \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gamebook/gamebook.sty:${PORTSDIR}/print/texlive-gamebook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/go/go.sty:${PORTSDIR}/print/texlive-go \
+		${LOCALBASE}/share/texmf-dist/tex/plain/hanoi/hanoi.tex:${PORTSDIR}/print/texlive-hanoi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hexgame/hexgame.sty:${PORTSDIR}/print/texlive-hexgame \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jeopardy/jeopardy.sty:${PORTSDIR}/print/texlive-jeopardy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/othello/othello.sty:${PORTSDIR}/print/texlive-othello \
@@ -1316,6 +1318,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/rmpage/rmpage.sty:${PORTSDIR}/print/texlive-rmpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/robustcommand/robustcommand.sty:${PORTSDIR}/print/texlive-robustcommand \
 		${LOCALBASE}/share/texmf-dist/tex/latex/robustindex/robustindex.sty:${PORTSDIR}/print/texlive-robustindex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/romanbar/romanbar.sty:${PORTSDIR}/print/texlive-romanbar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/romanneg/romanneg.sty:${PORTSDIR}/print/texlive-romanneg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/romannum/romannum.sty:${PORTSDIR}/print/texlive-romannum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rotfloat/rotfloat.sty:${PORTSDIR}/print/texlive-rotfloat \

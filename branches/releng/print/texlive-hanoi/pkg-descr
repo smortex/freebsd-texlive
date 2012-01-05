@@ -1,0 +1,4 @@
+The Plain TeX program (typed in the shape of the towers of
+Hanoi) serves both as a game and as a TeX programming exercise.
+As a game it will solve the towers with (up to) 15 discs (with
+15 discs, 32767 moves are needed).

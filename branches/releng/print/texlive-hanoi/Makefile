@@ -1,17 +1,19 @@
-# New ports collection makefile for:	texlive-thumbs
-# Date created:		05/17/2011 05:05:38
+# New ports collection makefile for:	texlive-hanoi
+# Date created:		01/05/2012 04:46:07
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	thumbs
+PORTNAME=	hanoi
 PORTVERSION=	20120105
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create thumb indexes.
+COMMENT=	Tower of Hanoi in TeX.
 
+NOPORTDOCS=	yes
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

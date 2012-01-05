@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/romanbar/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/romanbar/romanbar-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/romanbar/romanbar-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/romanbar/romanbar.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/romanbar/romanbar.drv
+%%PORTSRC%%share/texmf-dist/source/latex/romanbar/romanbar.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/romanbar/romanbar.ins
+share/texmf-dist/tex/latex/romanbar/romanbar.sty
+@dirrmtry share/texmf-dist/tex/latex/romanbar
+@dirrmtry share/texmf-dist/source/latex/romanbar
+@dirrmtry share/texmf-dist/doc/latex/romanbar
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,8 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/onlyamsmath/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/latex/onlyamsmath/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/onlyamsmath/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/onlyamsmath/onlyamsmath-v.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/onlyamsmath/onlyamsmath.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/onlyamsmath/onlyamsmath.xml
 %%PORTDOCS%%share/texmf-dist/doc/latex/onlyamsmath/onlyamsmathtest.tex
-%%PORTSRC%%share/texmf-dist/source/latex/onlyamsmath/Makefile
 %%PORTSRC%%share/texmf-dist/source/latex/onlyamsmath/onlyamsmath.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/onlyamsmath/onlyamsmath.ins
 share/texmf-dist/tex/latex/onlyamsmath/onlyamsmath.sty

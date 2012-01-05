@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-binextra
-PORTVERSION=	20110923
+PORTVERSION=	20120105
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -65,6 +65,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf/doc/man/man1/lacheck.1:${PORTSDIR}/print/texlive-lacheck \
 		${LOCALBASE}/share/texmf-dist/tex/latex/latex2man/latex2man.sty:${PORTSDIR}/print/texlive-latex2man \
 		${LOCALBASE}/share/texmf-dist/scripts/latexdiff/latexdiff-vc.pl:${PORTSDIR}/print/texlive-latexdiff \
+		${LOCALBASE}/share/texmf-dist/scripts/latexfileversion/latexfileversion:${PORTSDIR}/print/texlive-latexfileversion \
 		${LOCALBASE}/share/texmf-dist/scripts/latexmk/latexmk.pl:${PORTSDIR}/print/texlive-latexmk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listings-ext/listings-ext.sty:${PORTSDIR}/print/texlive-listings-ext \
 		${LOCALBASE}/share/texmf-dist/scripts/match_parens/match_parens:${PORTSDIR}/print/texlive-match_parens \

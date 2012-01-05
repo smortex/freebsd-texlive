@@ -1,13 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/hfoldsty/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/fonts/hfoldsty/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/fonts/hfoldsty/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/hfoldsty/TODO
-%%PORTDOCS%%share/texmf-dist/doc/fonts/hfoldsty/TS1.etx
-%%PORTDOCS%%share/texmf-dist/doc/fonts/hfoldsty/dostretch.mtx
-%%PORTDOCS%%share/texmf-dist/doc/fonts/hfoldsty/generate.sh
 %%PORTDOCS%%share/texmf-dist/doc/fonts/hfoldsty/gpl.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/hfoldsty/hfoldsty.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/hfoldsty/hfoldsty.xml
-%%PORTDOCS%%share/texmf-dist/doc/fonts/hfoldsty/t19.etx
 %%PORTDOCS%%share/texmf-dist/doc/fonts/hfoldsty/test-eco-hfo.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/hfoldsty/test-eco.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/hfoldsty/test-hfo.tex
@@ -646,6 +643,11 @@ share/texmf-dist/fonts/vf/public/hfoldsty/hfoxc3583.vf
 %%PORTSRC%%share/texmf-dist/source/fonts/hfoldsty/Makefile
 %%PORTSRC%%share/texmf-dist/source/fonts/hfoldsty/hfoldsty.dtx
 %%PORTSRC%%share/texmf-dist/source/fonts/hfoldsty/hfoldsty.ins
+%%PORTSRC%%share/texmf-dist/source/fonts/hfoldsty/src/Makefile
+%%PORTSRC%%share/texmf-dist/source/fonts/hfoldsty/src/TS1.etx
+%%PORTSRC%%share/texmf-dist/source/fonts/hfoldsty/src/dostretch.mtx
+%%PORTSRC%%share/texmf-dist/source/fonts/hfoldsty/src/generate.sh
+%%PORTSRC%%share/texmf-dist/source/fonts/hfoldsty/src/t19.etx
 share/texmf-dist/tex/latex/hfoldsty/hfoldsty.sty
 share/texmf-dist/tex/latex/hfoldsty/hforbxitT1.cpa
 share/texmf-dist/tex/latex/hfoldsty/hforbxitTS1.cpa
@@ -683,6 +685,7 @@ share/texmf-dist/tex/latex/hfoldsty/ts1hfoss.fd
 share/texmf-dist/tex/latex/hfoldsty/ts1hfott.fd
 share/texmf-dist/tex/latex/hfoldsty/ts1hfovtt.fd
 @dirrmtry share/texmf-dist/tex/latex/hfoldsty
+@dirrmtry share/texmf-dist/source/fonts/hfoldsty/src
 @dirrmtry share/texmf-dist/source/fonts/hfoldsty
 @dirrmtry share/texmf-dist/fonts/vf/public/hfoldsty
 @dirrmtry share/texmf-dist/fonts/tfm/public/hfoldsty

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120103
+PORTVERSION=	20120105
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -738,6 +738,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print
 		${LOCALBASE}/share/texmf-dist/tex/latex/rmpage/rmpage.sty:${PORTSDIR}/print/texlive-rmpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/robustcommand/robustcommand.sty:${PORTSDIR}/print/texlive-robustcommand \
 		${LOCALBASE}/share/texmf-dist/tex/latex/robustindex/robustindex.sty:${PORTSDIR}/print/texlive-robustindex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/romanbar/romanbar.sty:${PORTSDIR}/print/texlive-romanbar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/romanneg/romanneg.sty:${PORTSDIR}/print/texlive-romanneg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/romannum/romannum.sty:${PORTSDIR}/print/texlive-romannum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rotfloat/rotfloat.sty:${PORTSDIR}/print/texlive-rotfloat \
