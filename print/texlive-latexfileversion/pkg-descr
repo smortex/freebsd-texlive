@@ -1,0 +1,5 @@
+This simple shell script prints the version and date of a LaTeX
+class or style file. Syntax: latexfileversion <file> This
+programme handles style files (extension .sty), class files
+(extension .cls), and other tex input files. The file extension
+must be given.

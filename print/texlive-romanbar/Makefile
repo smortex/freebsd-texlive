@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-thumbs
-# Date created:		05/17/2011 05:05:38
+# New ports collection makefile for:	texlive-romanbar
+# Date created:		01/05/2012 05:02:29
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	thumbs
+PORTNAME=	romanbar
 PORTVERSION=	20120105
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create thumb indexes.
+COMMENT=	Write roman number with "bars".
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

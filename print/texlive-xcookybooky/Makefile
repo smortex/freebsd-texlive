@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	xcookybooky
-PORTVERSION=	20120103
+PORTVERSION=	20120105
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The xcookybooky package
+COMMENT=	Typeset (potentially long) recipes.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

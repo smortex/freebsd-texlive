@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-games
-PORTVERSION=	20120103
+PORTVERSION=	20120105
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -23,6 +23,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/source/public/bartel-chess-font
 		${LOCALBASE}/share/texmf-dist/tex/latex/egameps/egameps.sty:${PORTSDIR}/print/texlive-egameps \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gamebook/gamebook.sty:${PORTSDIR}/print/texlive-gamebook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/go/go.sty:${PORTSDIR}/print/texlive-go \
+		${LOCALBASE}/share/texmf-dist/tex/plain/hanoi/hanoi.tex:${PORTSDIR}/print/texlive-hanoi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hexgame/hexgame.sty:${PORTSDIR}/print/texlive-hexgame \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jeopardy/jeopardy.sty:${PORTSDIR}/print/texlive-jeopardy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/othello/othello.sty:${PORTSDIR}/print/texlive-othello \
