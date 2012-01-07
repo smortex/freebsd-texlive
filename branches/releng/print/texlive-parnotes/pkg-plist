@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/parnotes/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/parnotes/README.TEXLIVE
+share/texmf-dist/tex/latex/parnotes/parnotes.sty
+@dirrmtry share/texmf-dist/tex/latex/parnotes
+@dirrmtry share/texmf-dist/doc/latex/parnotes
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

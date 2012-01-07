@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-tetex
-PORTVERSION=	20120103
+PORTVERSION=	20120107
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -458,6 +458,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/productbox/productbox.sty:${PORTSDIR}/print/texlive-productbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/randbild/randbild.sty:${PORTSDIR}/print/texlive-randbild \
 		${LOCALBASE}/share/texmf-dist/tex/latex/randomwalk/randomwalk.sty:${PORTSDIR}/print/texlive-randomwalk \
+		${LOCALBASE}/share/texmf-dist/tex/latex/reotex/reotex.sty:${PORTSDIR}/print/texlive-reotex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/roundbox/roundbox.sty:${PORTSDIR}/print/texlive-roundbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rviewport/rviewport.sty:${PORTSDIR}/print/texlive-rviewport \
 		${LOCALBASE}/share/texmf-dist/tex/latex/schemabloc/schemabloc.sty:${PORTSDIR}/print/texlive-schemabloc \
@@ -550,6 +551,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-stru/pst-stru.tex:${PORTSDIR}/print/texlive-pst-stru \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-text/pst-text.tex:${PORTSDIR}/print/texlive-pst-text \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-thick/pst-thick.tex:${PORTSDIR}/print/texlive-pst-thick \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-tools/pst-tools.tex:${PORTSDIR}/print/texlive-pst-tools \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-tree/pst-tree.tex:${PORTSDIR}/print/texlive-pst-tree \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-tvz/pst-tvz.tex:${PORTSDIR}/print/texlive-pst-tvz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-uml/pst-uml.sty:${PORTSDIR}/print/texlive-pst-uml \

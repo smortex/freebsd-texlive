@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-jmlr
-# Date created:		09/21/2010 11:56:24
+# New ports collection makefile for:	texlive-pst-tools
+# Date created:		01/07/2012 05:09:10
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	jmlr
+PORTNAME=	pst-tools
 PORTVERSION=	20120107
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class files for the Journal of Machine Learning Research.
+COMMENT=	PStricks support functions.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

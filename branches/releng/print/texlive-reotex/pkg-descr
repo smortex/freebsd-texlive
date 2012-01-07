@@ -1,0 +1,2 @@
+The package defines macros and other utilities to design Reo
+Circuits. The package require PGF/TikZ support.

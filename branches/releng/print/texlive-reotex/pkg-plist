@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/reotex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/reotex/reotex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/reotex/reotex.tex
+share/texmf-dist/tex/latex/reotex/reotex.sty
+@dirrmtry share/texmf-dist/tex/latex/reotex
+@dirrmtry share/texmf-dist/doc/latex/reotex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

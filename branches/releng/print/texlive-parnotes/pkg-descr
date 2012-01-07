@@ -1,0 +1,3 @@
+The package provides the \parnote command. The notes are set as
+(normal) running paragraphs; placement is at the end of each
+paragraph, or manually, using the \parnotes command.
