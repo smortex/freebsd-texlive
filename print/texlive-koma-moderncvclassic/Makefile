@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	koma-moderncvclassic
-PORTVERSION=	20111008
+PORTVERSION=	20120107
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

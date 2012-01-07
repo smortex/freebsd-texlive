@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-ec
-# Date created:		13/03/2010 04:34:42
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-reotex
+# Date created:		01/07/2012 04:52:46
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	ec
+PORTNAME=	reotex
 PORTVERSION=	20120107
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Computer modern fonts in T1 and TS1 encodings.
+COMMENT=	Draw Reo Channels and Circuits.
 
 NOPORTSRC=	yes
 

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pstricks
-PORTVERSION=	20120103
+PORTVERSION=	20120107
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -80,6 +80,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/auto-pst-pdf/auto-pst-pdf.s
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-stru/pst-stru.tex:${PORTSDIR}/print/texlive-pst-stru \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-text/pst-text.tex:${PORTSDIR}/print/texlive-pst-text \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-thick/pst-thick.tex:${PORTSDIR}/print/texlive-pst-thick \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-tools/pst-tools.tex:${PORTSDIR}/print/texlive-pst-tools \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-tree/pst-tree.tex:${PORTSDIR}/print/texlive-pst-tree \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-tvz/pst-tvz.tex:${PORTSDIR}/print/texlive-pst-tvz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-uml/pst-uml.sty:${PORTSDIR}/print/texlive-pst-uml \
