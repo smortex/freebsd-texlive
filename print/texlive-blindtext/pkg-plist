@@ -2,7 +2,13 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/blindtext/blindtext.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/blindtext/blindtext.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/blindtext/blindtext.ins
-%%PORTSRC%%share/texmf-dist/source/latex/blindtext/blindtext_texts.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/blindtext/blindtext_american.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/blindtext/blindtext_catalan.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/blindtext/blindtext_english.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/blindtext/blindtext_french.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/blindtext/blindtext_german.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/blindtext/blindtext_latin.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/blindtext/blindtext_ngerman.dtx
 share/texmf-dist/tex/latex/blindtext/blindtext.sty
 @dirrmtry share/texmf-dist/tex/latex/blindtext
 @dirrmtry share/texmf-dist/source/latex/blindtext
