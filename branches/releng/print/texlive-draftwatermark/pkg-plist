@@ -1,5 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/draftwatermark/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/draftwatermark/draftwatermark.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/draftwatermark/test_draftwatermark.tex
 %%PORTSRC%%share/texmf-dist/source/latex/draftwatermark/draftwatermark.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/draftwatermark/draftwatermark.ins
 share/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
