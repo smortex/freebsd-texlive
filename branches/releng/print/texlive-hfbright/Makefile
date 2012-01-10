@@ -6,12 +6,13 @@
 #
 
 PORTNAME=	hfbright
-PORTVERSION=	20100922
+PORTVERSION=	20120110
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	The hfbright fonts.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

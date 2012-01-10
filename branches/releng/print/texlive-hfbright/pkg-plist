@@ -1,5 +1,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/hfbright/README
-share/texmf-dist/dvips/hfbright/config.hfbright
+%%PORTDOCS%%share/texmf-dist/doc/fonts/hfbright/config.hfbright
+%%PORTDOCS%%share/texmf-dist/doc/fonts/hfbright/generate.sh
+%%PORTDOCS%%share/texmf-dist/doc/fonts/hfbright/install.sh
+%%PORTDOCS%%share/texmf-dist/doc/fonts/hfbright/simplify-rename.pe
 share/texmf-dist/fonts/afm/public/hfbright/hfbr10.afm
 share/texmf-dist/fonts/afm/public/hfbright/hfbr17.afm
 share/texmf-dist/fonts/afm/public/hfbright/hfbr8.afm
@@ -54,15 +57,10 @@ share/texmf-dist/fonts/type1/public/hfbright/hfbrsy8.pfb
 share/texmf-dist/fonts/type1/public/hfbright/hfbrsy9.pfb
 share/texmf-dist/fonts/type1/public/hfbright/hfsltl10.pfb
 share/texmf-dist/fonts/type1/public/hfbright/hftl10.pfb
-%%PORTSRC%%share/texmf-dist/source/fonts/hfbright/generate.sh
-%%PORTSRC%%share/texmf-dist/source/fonts/hfbright/install.sh
-%%PORTSRC%%share/texmf-dist/source/fonts/hfbright/simplify-rename.pe
-@dirrmtry share/texmf-dist/source/fonts/hfbright
 @dirrmtry share/texmf-dist/fonts/type1/public/hfbright
 @dirrmtry share/texmf-dist/fonts/map/dvips/hfbright
 @dirrmtry share/texmf-dist/fonts/enc/dvips/hfbright
 @dirrmtry share/texmf-dist/fonts/afm/public/hfbright
-@dirrmtry share/texmf-dist/dvips/hfbright
 @dirrmtry share/texmf-dist/doc/fonts/hfbright
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
