@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-thumbs
-# Date created:		05/17/2011 05:05:38
+# New ports collection makefile for:	texlive-mdsymbol
+# Date created:		01/10/2012 04:44:04
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	thumbs
+PORTNAME=	mdsymbol
 PORTVERSION=	20120110
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create thumb indexes.
+COMMENT=	Symbol fonts to match Adobe Myriad Pro.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

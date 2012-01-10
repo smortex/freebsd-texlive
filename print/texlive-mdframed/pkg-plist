@@ -2,22 +2,13 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/donald-duck.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframed-example-default.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframed-example-default.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframed-example-pstricks.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframed-example-pstricks.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframed-example-texsx.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframed-example-texsx.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframed-example-tikz.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframed-example-tikz.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframed.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/mdframed/mdframed-examples.dtx
+%%PORTDOCS%%share/texmf-dist/doc/latex/mdframed/mdframedmake.bat
 %%PORTSRC%%share/texmf-dist/source/latex/mdframed/mdframed.dtx
 share/texmf-dist/tex/latex/mdframed/ltxmdf.cls
-share/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
-share/texmf-dist/tex/latex/mdframed/md-frame-1.mdf
-share/texmf-dist/tex/latex/mdframed/md-frame-2.mdf
-share/texmf-dist/tex/latex/mdframed/md-frame-3.mdf
-share/texmf-dist/tex/latex/mdframed/mdframed.sty
 @dirrmtry share/texmf-dist/tex/latex/mdframed
 @dirrmtry share/texmf-dist/source/latex/mdframed
 @dirrmtry share/texmf-dist/doc/latex/mdframed
