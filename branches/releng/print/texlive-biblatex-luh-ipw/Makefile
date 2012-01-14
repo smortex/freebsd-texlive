@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	biblatex-luh-ipw
-PORTVERSION=	20111111
+PORTVERSION=	20120114
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
