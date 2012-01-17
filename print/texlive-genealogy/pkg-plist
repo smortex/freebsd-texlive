@@ -1,6 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/genealogy/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/genealogy/licence.txt
-%%PORTDOCS%%share/texmf-dist/doc/fonts/genealogy/testgen.dvi
 %%PORTDOCS%%share/texmf-dist/doc/fonts/genealogy/testgen.tex
 share/texmf-dist/fonts/source/public/genealogy/drgen.mf
 share/texmf-dist/fonts/source/public/genealogy/drgen10.mf
