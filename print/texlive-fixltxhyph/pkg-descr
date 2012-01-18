@@ -1,0 +1,7 @@
+The package fixes the problem of TeX faiing to hyphenate letter
+strings that seem (to TeX) to be words, but which are followed
+by an apostrophe and then an emphasis command. The cause of the
+problem is not the apostrophe, but the font change in the
+middle of the string. The problem arises in Catalan, French and
+Italian (it could arise in Romansh, were there LaTeX support
+for it).

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-tetex
-PORTVERSION=	20120111
+PORTVERSION=	20120118
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -246,6 +246,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/yannisgr/csc_misce.mf:${PORTSDIR}/print/texlive-yannisgr \
 		${LOCALBASE}/share/texmf/tex/generic/hyphen/grmhyph5.tex:${PORTSDIR}/print/texlive-hyphen-greek \
 		${LOCALBASE}/share/texmf/tex/generic/hyphen/grahyph5.tex:${PORTSDIR}/print/texlive-hyphen-ancientgreek \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fixltxhyph/fixltxhyph.sty:${PORTSDIR}/print/texlive-fixltxhyph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/frontespizio/frontespizio.sty:${PORTSDIR}/print/texlive-frontespizio \
 		${LOCALBASE}/share/texmf-dist/tex/latex/itnumpar/itnumpar.sty:${PORTSDIR}/print/texlive-itnumpar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/layaureo/layaureo.sty:${PORTSDIR}/print/texlive-layaureo \
