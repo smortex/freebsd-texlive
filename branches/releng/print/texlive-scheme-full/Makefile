@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20120116
+PORTVERSION=	20120118
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -628,6 +628,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/wnri/acctmax.mf:${PORTSDIR}/print/texlive-wnri \
 		${LOCALBASE}/share/texmf-dist/tex/latex/wnri-latex/ot1wnr.fd:${PORTSDIR}/print/texlive-wnri-latex \
 		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-devanagari/README:${PORTSDIR}/print/texlive-xetex-devanagari \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fixltxhyph/fixltxhyph.sty:${PORTSDIR}/print/texlive-fixltxhyph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/frontespizio/frontespizio.sty:${PORTSDIR}/print/texlive-frontespizio \
 		${LOCALBASE}/share/texmf-dist/tex/latex/itnumpar/itnumpar.sty:${PORTSDIR}/print/texlive-itnumpar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/layaureo/layaureo.sty:${PORTSDIR}/print/texlive-layaureo \
@@ -1682,6 +1683,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/abc/abc.sty:${PORTSDIR}/print/texlive-abc \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/figbas/cmrj.afm:${PORTSDIR}/print/texlive-figbas \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gchords/gchords.sty:${PORTSDIR}/print/texlive-gchords \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gtrcrd/gtrcrd.sty:${PORTSDIR}/print/texlive-gtrcrd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/guitar/guitar.sty:${PORTSDIR}/print/texlive-guitar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/harmony/harmony.sty:${PORTSDIR}/print/texlive-harmony \
 		${LOCALBASE}/share/texmf-dist/tex/latex/musixguit/musixguit.sty:${PORTSDIR}/print/texlive-musixguit \

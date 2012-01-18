@@ -1,0 +1,6 @@
+The package provides the means to specify guitar chords to be
+played with each part of the lyrics of a song. The syntax of
+the macros reduces the change of failing to provide a chord
+where one is needed, and the structure of the macros ensures
+that the chord specification appears immediately above the
+start of the lyric.

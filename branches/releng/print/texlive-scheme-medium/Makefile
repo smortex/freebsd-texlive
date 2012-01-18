@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-medium
-PORTVERSION=	20120111
+PORTVERSION=	20120118
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -202,6 +202,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/r_und_s/r_und_s.sty:${PORTSDIR}/print/texlive-r_und_s \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umlaute/umlaute.sty:${PORTSDIR}/print/texlive-umlaute \
 		${LOCALBASE}/share/texmf/tex/generic/hyphen/dehyphn.tex:${PORTSDIR}/print/texlive-hyphen-german \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fixltxhyph/fixltxhyph.sty:${PORTSDIR}/print/texlive-fixltxhyph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/frontespizio/frontespizio.sty:${PORTSDIR}/print/texlive-frontespizio \
 		${LOCALBASE}/share/texmf-dist/tex/latex/itnumpar/itnumpar.sty:${PORTSDIR}/print/texlive-itnumpar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/layaureo/layaureo.sty:${PORTSDIR}/print/texlive-layaureo \

@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-apa6
-# Date created:		11/30/2011 05:10:47
+# New ports collection makefile for:	texlive-gtrcrd
+# Date created:		01/18/2012 05:08:34
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	apa6
+PORTNAME=	gtrcrd
 PORTVERSION=	20120118
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Format documents in APA style (6th edition).
+COMMENT=	Add chords to lyrics.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

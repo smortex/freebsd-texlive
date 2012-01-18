@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-apa6
-# Date created:		11/30/2011 05:10:47
+# New ports collection makefile for:	texlive-fixltxhyph
+# Date created:		01/18/2012 04:50:48
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	apa6
+PORTNAME=	fixltxhyph
 PORTVERSION=	20120118
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Format documents in APA style (6th edition).
+COMMENT=	Allow hyphenation of partially-emphasised substrings.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
