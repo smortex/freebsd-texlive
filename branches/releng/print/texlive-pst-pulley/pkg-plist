@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-pulley/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-pulley/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-pulley/pst-pulley-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-pulley/pst-pulley-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-pulley/pst-pulley-doc.tex
+%%PORTSRC%%share/texmf-dist/source/generic/pst-pulley/Makefile
+share/texmf-dist/tex/generic/pst-pulley/pst-pulley.tex
+share/texmf-dist/tex/latex/pst-pulley/pst-pulley.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-pulley
+@dirrmtry share/texmf-dist/tex/generic/pst-pulley
+@dirrmtry share/texmf-dist/source/generic/pst-pulley
+@dirrmtry share/texmf-dist/doc/generic/pst-pulley
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

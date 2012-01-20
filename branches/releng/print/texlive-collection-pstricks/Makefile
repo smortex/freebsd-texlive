@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pstricks
-PORTVERSION=	20120107
+PORTVERSION=	20120120
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -69,6 +69,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/auto-pst-pdf/auto-pst-pdf.s
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-platon/pst-platon.sty:${PORTSDIR}/print/texlive-pst-platon \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-plot/pst-plot.tex:${PORTSDIR}/print/texlive-pst-plot \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-poly/pst-poly.tex:${PORTSDIR}/print/texlive-pst-poly \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-pulley/pst-pulley.tex:${PORTSDIR}/print/texlive-pst-pulley \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-qtree/pst-qtree.tex:${PORTSDIR}/print/texlive-pst-qtree \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-rubans/pst-rubans.tex:${PORTSDIR}/print/texlive-pst-rubans \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-sigsys/pst-sigsys.tex:${PORTSDIR}/print/texlive-pst-sigsys \

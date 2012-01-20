@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-sapthesis
-# Date created:		09/17/2011 05:09:38
+# New ports collection makefile for:	texlive-pst-pulley
+# Date created:		01/20/2012 05:10:17
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	sapthesis
+PORTNAME=	pst-pulley
 PORTVERSION=	20120120
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset theses for Sapienza-University, Rome.
+COMMENT=	Plot pulleys, using pstricks.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

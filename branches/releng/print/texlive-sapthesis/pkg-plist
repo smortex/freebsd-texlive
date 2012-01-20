@@ -1,6 +1,7 @@
 share/texmf-dist/bibtex/bst/sapthesis/sapthesis.bst
-%%PORTDOCS%%share/texmf-dist/doc/latex/sapthesis/README.TEXLIVE
-%%PORTDOCS%%share/texmf-dist/doc/latex/sapthesis/README.sapthesis
+%%PORTDOCS%%share/texmf-dist/doc/latex/sapthesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/sapthesis/sapienza-MLblack-pos.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sapthesis/sapienza-MLred-pos.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/sapthesis/sapthesis-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/sapthesis/sapthesis-doc.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/sapthesis/sapthesis-example.pdf

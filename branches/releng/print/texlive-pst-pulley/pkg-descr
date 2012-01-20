@@ -1,0 +1,4 @@
+The package enables the user to draw pulley systems with up to
+6 pulleys. The pulley diagrams are labelled with the physical
+properties of the system. The package uses pstricks, and
+requires a several pstricks-related packages.
