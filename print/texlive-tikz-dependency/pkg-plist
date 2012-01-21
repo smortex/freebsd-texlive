@@ -1,6 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-dependency/AUTHORS
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-dependency/LICENSE
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-dependency/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-dependency/VERSION
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-dependency/pgfmanual-en-macros.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-dependency/pgfmanual.code.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-dependency/pgfmanual.pdflinks.code.tex
