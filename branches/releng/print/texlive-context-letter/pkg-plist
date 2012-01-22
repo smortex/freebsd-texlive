@@ -1,5 +1,4 @@
 %%PORTDOCS%%share/texmf-dist/doc/context/third/letter/README
-share/texmf-dist/tex/context/interface/third/t-correspondence.xml
 share/texmf-dist/tex/context/third/letter/base/s-cor-00.lua
 share/texmf-dist/tex/context/third/letter/base/s-cor-00.mkii
 share/texmf-dist/tex/context/third/letter/base/s-cor-00.mkvi
@@ -29,10 +28,14 @@ share/texmf-dist/tex/context/third/letter/style/letter-imp-gbrief.mkii
 share/texmf-dist/tex/context/third/letter/style/letter-imp-gbrief.mkiv
 share/texmf-dist/tex/context/third/letter/style/letter-imp-hanging.mkii
 share/texmf-dist/tex/context/third/letter/style/letter-imp-hanging.mkiv
+share/texmf-dist/tex/context/third/letter/style/letter-imp-knuth.mkii
+share/texmf-dist/tex/context/third/letter/style/letter-imp-knuth.mkiv
 share/texmf-dist/tex/context/third/letter/style/letter-imp-modified.mkii
 share/texmf-dist/tex/context/third/letter/style/letter-imp-modified.mkiv
 share/texmf-dist/tex/context/third/letter/style/letter-imp-semiblock.mkii
 share/texmf-dist/tex/context/third/letter/style/letter-imp-semiblock.mkiv
+share/texmf-dist/tex/context/third/letter/style/letter-imp-setups.mkii
+share/texmf-dist/tex/context/third/letter/style/letter-imp-setups.mkiv
 share/texmf-dist/tex/context/third/letter/style/letter-imp-simplified.mkii
 share/texmf-dist/tex/context/third/letter/style/letter-imp-simplified.mkiv
 share/texmf-dist/tex/context/third/letter/style/letter-imp-swiss.mkii
@@ -49,7 +52,6 @@ share/texmf-dist/tex/context/third/letter/style/memo-imp-table.mkii
 share/texmf-dist/tex/context/third/letter/style/memo-imp-table.mkiv
 @dirrmtry share/texmf-dist/tex/context/third/letter/style
 @dirrmtry share/texmf-dist/tex/context/third/letter/base
-@dirrmtry share/texmf-dist/tex/context/interface/third
 @dirrmtry share/texmf-dist/doc/context/third/letter
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

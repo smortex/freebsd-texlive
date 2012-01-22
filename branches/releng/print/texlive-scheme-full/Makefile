@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20120121
+PORTVERSION=	20120122
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -196,7 +196,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/context/third/games/games-go.lua:${PORTSDIR}/print/texlive-context-games \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/gantt/gantt-s-mp.tex:${PORTSDIR}/print/texlive-context-gantt \
 		${LOCALBASE}/share/texmf-dist/metapost/context/third/gnuplot/mp-gnuplot.mp:${PORTSDIR}/print/texlive-context-gnuplot \
-		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-correspondence.xml:${PORTSDIR}/print/texlive-context-letter \
+		${LOCALBASE}/share/texmf-dist/tex/context/third/letter/base/s-cor-00.lua:${PORTSDIR}/print/texlive-context-letter \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/lettrine.xml:${PORTSDIR}/print/texlive-context-lettrine \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/lilypond/t-lilypond.tex:${PORTSDIR}/print/texlive-context-lilypond \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-mathsets.xml:${PORTSDIR}/print/texlive-context-mathsets \
