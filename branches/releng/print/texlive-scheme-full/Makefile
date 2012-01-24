@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20120122
+PORTVERSION=	20120124
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -564,7 +564,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/disser/disser.cls:${PORTSDIR}/print/texlive-disser \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eskd/eskd.cls:${PORTSDIR}/print/texlive-eskd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eskdx/eskdafterpkg.sty:${PORTSDIR}/print/texlive-eskdx \
-		${LOCALBASE}/share/texmf-dist/bibtex/bst/gost/gost71s.bst:${PORTSDIR}/print/texlive-gost \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/gost/gost705s.bst:${PORTSDIR}/print/texlive-gost \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lcyw/cmap-cyr-vf.sty:${PORTSDIR}/print/texlive-lcyw \
 		${LOCALBASE}/share/texmf-dist/fonts/source/lh/base/fikparm.mf:${PORTSDIR}/print/texlive-lh \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lhcyr/karabas.tex:${PORTSDIR}/print/texlive-lhcyr \
