@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-modiagram
-# Date created:		09/28/2011 04:51:32
+# New ports collection makefile for:	texlive-outlines
+# Date created:		01/25/2012 05:02:55
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	modiagram
+PORTNAME=	outlines
 PORTVERSION=	20120125
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Drawing molecular orbital diagrams.
+COMMENT=	Produce "outline" lists.
 
 NOPORTSRC=	yes
 
