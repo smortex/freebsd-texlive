@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120121
+PORTVERSION=	20120125
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -698,6 +698,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/optional/optional.sty:${PORTSDIR}/print/texlive-optional \
 		${LOCALBASE}/share/texmf-dist/tex/latex/outline/outline.sty:${PORTSDIR}/print/texlive-outline \
 		${LOCALBASE}/share/texmf-dist/tex/latex/outliner/outliner.sty:${PORTSDIR}/print/texlive-outliner \
+		${LOCALBASE}/share/texmf-dist/tex/latex/outlines/outlines.sty:${PORTSDIR}/print/texlive-outlines \
 		${LOCALBASE}/share/texmf-dist/tex/latex/overpic/overpic.sty:${PORTSDIR}/print/texlive-overpic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pagecolor/pagecolor.sty:${PORTSDIR}/print/texlive-pagecolor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pagecont/pagecont.sty:${PORTSDIR}/print/texlive-pagecont \
@@ -996,6 +997,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/xmpincl/xmpincl.sty:${PORTSDIR}/print/texlive-xmpincl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xnewcommand/xnewcommand.sty:${PORTSDIR}/print/texlive-xnewcommand \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xoptarg/xoptarg.sty:${PORTSDIR}/print/texlive-xoptarg \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xpatch/xpatch.sty:${PORTSDIR}/print/texlive-xpatch \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xstring/xstring.sty:${PORTSDIR}/print/texlive-xstring \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xwatermark/xwatermark.sty:${PORTSDIR}/print/texlive-xwatermark \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xytree/xytree.sty:${PORTSDIR}/print/texlive-xytree \

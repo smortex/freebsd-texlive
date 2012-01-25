@@ -12,6 +12,8 @@ share/texmf-dist/bibtex/csf/gost/ruscii.csf
 share/texmf-dist/bibtex/csf/gost/utf8cyrillic.csf
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/README
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/gost705-custom.pdf
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/gost705-sorted.pdf
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/gost705-unsorted.pdf
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/gost705.pdf
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/gost780.pdf
 %%PORTSRC%%share/texmf-dist/source/bibtex/gost/gost.dtx
