@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-tcolorbox
-# Date created:		12/11/2011 05:04:41
+# New ports collection makefile for:	texlive-russ
+# Date created:		01/28/2012 04:47:52
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	tcolorbox
+PORTNAME=	russ
 PORTVERSION=	20120128
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Coloured boxes, for LaTeX examples and theorems, etc.
+COMMENT=	LaTeX in Russian, without babel.
 
 NOPORTSRC=	yes
 
