@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20120130
+PORTVERSION=	20120131
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -216,7 +216,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/archaic/aram10.afm:${PORTSDIR}/print/texlive-archaic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arev/arev.sty:${PORTSDIR}/print/texlive-arev \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ascii/ascii.sty:${PORTSDIR}/print/texlive-ascii \
-		${LOCALBASE}/share/texmf-dist/fonts/source/public/aspectratio/ar10.mf:${PORTSDIR}/print/texlive-aspectratio \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/aspectratio/aspectratio.map:${PORTSDIR}/print/texlive-aspectratio \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/astro/astrosym.cal:${PORTSDIR}/print/texlive-astro \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/augie/augie___.afm:${PORTSDIR}/print/texlive-augie \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/auncial-new/auncl10.afm:${PORTSDIR}/print/texlive-auncial-new \
@@ -1659,7 +1659,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/metapost/epsincl/epsincl.mp:${PORTSDIR}/print/texlive-epsincl \
 		${LOCALBASE}/share/texmf-dist/metapost/expressg/aam.mp:${PORTSDIR}/print/texlive-expressg \
 		${LOCALBASE}/share/texmf-dist/metapost/exteps/exteps.mp:${PORTSDIR}/print/texlive-exteps \
-		${LOCALBASE}/share/texmf-dist/metapost/featpost/featpost3Dplus2D.mp:${PORTSDIR}/print/texlive-featpost \
+		${LOCALBASE}/share/texmf-dist/metapost/featpost/featpost.mp:${PORTSDIR}/print/texlive-featpost \
 		${LOCALBASE}/share/texmf-dist/tex/latex/feynmf/feynmf.sty:${PORTSDIR}/print/texlive-feynmf \
 		${LOCALBASE}/share/texmf-dist/metapost/garrigues/garrigues.mp:${PORTSDIR}/print/texlive-garrigues \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmp/gmp.sty:${PORTSDIR}/print/texlive-gmp \

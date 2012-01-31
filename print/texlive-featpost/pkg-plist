@@ -1,4 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/COMPILE.sh
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/README
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/allps/acmaglev.1
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/allps/ahoraesglobal.1
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/allps/aledlogo.1
@@ -98,7 +99,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/allps/integerbars.1
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/allps/integratorfigures.1
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/allps/integratorfigures.2
-%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/allps/intersection2D.1
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/allps/joinedemptylines.1
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/allps/kindofcube.1
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/allps/kindofcube.2
@@ -219,6 +219,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/allps/rigorousdiscoptions.1
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/allps/rigorousfearpath.1
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/allps/rmnbob.1
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/allps/ropepatterns.1
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/allps/rotatnlc.1
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/allps/rungekuttasecond.1
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/allps/rungekuttasecond.2
@@ -286,23 +287,65 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/allps/verygoodcone.1
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/allps/xraycamera.1
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/FeatPostExemplifier.ps.bz2
-%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostbeamer.aux
-%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostbeamer.log
-%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostbeamer.nav
-%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostbeamer.out
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostbeamer.pdf
-%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostbeamer.snm
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostbeamer.tex
-%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostbeamer.toc
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostdocsource.tex
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostmanual.aux
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostmanual.log
-%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostmanual.nav
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostmanual.out
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostmanual.pdf
-%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostmanual.snm
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostmanual.tex
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostmanual.toc
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles.zip
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/3.eps
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/3.jpeg
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/3.pgm
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/CompanionsCollection.jpg
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/Diagram1.1
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/Diagram1.dia
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/Diagram1.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/KnuthCollection.jpg
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/dia.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/fekslatexmp.1
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/fekslatexmp.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/intersection2D.1
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/intersection2D.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/metapostpropaganda.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/minimal-1.mps
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/minimal-1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/minimal.jpeg
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/minimal.jpg
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/minimal.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/minimal.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/pifpaf.jpeg
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/pifpafphoto.jpg
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/pifpafpropaganda.0
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/pifpafpropaganda.1
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/pifpafpropaganda.10
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/pifpafpropaganda.11
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/pifpafpropaganda.12
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/pifpafpropaganda.13
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/pifpafpropaganda.14
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/pifpafpropaganda.15
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/pifpafpropaganda.2
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/pifpafpropaganda.3
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/pifpafpropaganda.4
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/pifpafpropaganda.5
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/pifpafpropaganda.6
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/pifpafpropaganda.7
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/pifpafpropaganda.8
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/pifpafpropaganda.9
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/pifpafpropaganda.log
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/pifpafpropaganda.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/recursives.2
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/recursives.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/sriyantrafinal-1.svg
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/sriyantrafinal.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/todo.jpg
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/workflow-from-mpman-charts.1
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/workflow-from-mpman-charts.2
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/workflow-from-mpman-charts.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/xfig.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/acmaglev.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/ahoraesglobal.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/aledlogo.mp
@@ -310,7 +353,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/antimattermeteor.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/bananadimmer.log
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/bananadimmer.mp
-%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/bananadimmer.mp~
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/borderframetest.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/brownellips.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/bstr.mp
@@ -370,7 +412,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/inductionbob.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/integerbars.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/integratorfigures.mp
-%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/intersection2D.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/joinedemptylines.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/kindofcube.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/kindofcuber.mp
@@ -383,7 +424,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/matricskoc.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/metalcharge.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/mptoolcone.mp
-%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/mpxerr.tex
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/mypatent.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/mypatentpieces.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/mysquaresectionbar.mp
@@ -424,7 +464,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/resistcircuit.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/revolipsoid.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/revolvers.mp
-%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/revolvers.mp~
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/rigorcubo.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/rigorouscircle.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/rigorouscone.mp
@@ -432,6 +471,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/rigorousdiscoptions.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/rigorousfearpath.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/rmnbob.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/ropepatterns.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/rotatnlc.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/rungekuttasecond.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/sal.mp
@@ -476,9 +516,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/vanallenbelt.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/verygoodcone.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/xraycamera.mp
+share/texmf-dist/metapost/featpost/featpost.mp
 share/texmf-dist/metapost/featpost/featpost3Dplus2D.mp
 @dirrmtry share/texmf-dist/metapost/featpost
 @dirrmtry share/texmf-dist/doc/metapost/featpost/example
+@dirrmtry share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles
 @dirrmtry share/texmf-dist/doc/metapost/featpost/doc
 @dirrmtry share/texmf-dist/doc/metapost/featpost/allps
 @dirrmtry share/texmf-dist/doc/metapost/featpost
