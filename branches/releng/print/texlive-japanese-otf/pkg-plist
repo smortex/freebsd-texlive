@@ -2,9 +2,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf/readme.en.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf/readme.txt
 share/texmf-dist/fonts/map/dvipdfmx/japanese-otf/otf-cktx.map
-share/texmf-dist/fonts/map/dvipdfmx/japanese-otf/otf-hiragino.map
-share/texmf-dist/fonts/map/dvipdfmx/japanese-otf/otf-kozuka.map
-share/texmf-dist/fonts/map/dvipdfmx/japanese-otf/otf-morisawa.map
 share/texmf-dist/fonts/map/dvipdfmx/japanese-otf/otf-noEmbed.map
 share/texmf-dist/fonts/ofm/public/japanese-otf/hirakaku-w3-h.ofm
 share/texmf-dist/fonts/ofm/public/japanese-otf/hirakaku-w3-v.ofm
@@ -1957,24 +1954,20 @@ share/texmf-dist/fonts/vf/public/japanese-otf/utftmrf-v.vf
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/script/mktfm.pl
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/script/mkutfvf.pl
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/script/mkvpkana.pl
-%%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/sty/ajmacros.sty
-%%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/sty/mlcid.sty
-%%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/sty/mlutf.sty
-%%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/sty/otf.sty
-%%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/sty/redeffont.sty
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/test/brsgtest.tex
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/test/jis2004.tex
+%%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/test/koreanexample.tex
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/test/otftest.tex
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/test/pkanatest.tex
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/test/pkanatest2.tex
 share/texmf-dist/tex/platex/japanese-otf/ajmacros.sty
 share/texmf-dist/tex/platex/japanese-otf/mlcid.sty
 share/texmf-dist/tex/platex/japanese-otf/mlutf.sty
+share/texmf-dist/tex/platex/japanese-otf/otf-hangul.dfu
 share/texmf-dist/tex/platex/japanese-otf/otf.sty
 share/texmf-dist/tex/platex/japanese-otf/redeffont.sty
 @dirrmtry share/texmf-dist/tex/platex/japanese-otf
 @dirrmtry share/texmf-dist/source/fonts/japanese-otf/test
-@dirrmtry share/texmf-dist/source/fonts/japanese-otf/sty
 @dirrmtry share/texmf-dist/source/fonts/japanese-otf/script
 @dirrmtry share/texmf-dist/source/fonts/japanese-otf/basepl
 @dirrmtry share/texmf-dist/source/fonts/japanese-otf

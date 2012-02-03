@@ -1,0 +1,25 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/jfontmaps/README
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/hiragino/otf-hiragino.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/hiragino/otf-up-hiragino.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/hiragino/ptex-hiragino-04.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/hiragino/ptex-hiragino.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/hiragino/uptex-hiragino-04.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/hiragino/uptex-hiragino.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/kozuka/otf-kozuka.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/kozuka/otf-up-kozuka.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/kozuka/ptex-kozuka-04.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/kozuka/ptex-kozuka.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/kozuka/uptex-kozuka-04.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/kozuka/uptex-kozuka.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/morisawa/otf-morisawa.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/morisawa/otf-up-morisawa.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/morisawa/ptex-morisawa-04.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/morisawa/ptex-morisawa.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/morisawa/uptex-morisawa-04.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/morisawa/uptex-morisawa.map
+@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/morisawa
+@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/kozuka
+@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/hiragino
+@dirrmtry share/texmf-dist/doc/fonts/jfontmaps
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
