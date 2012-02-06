@@ -19,7 +19,6 @@ print/texlive-marigold||2010-11-10|Upstream support dropped
 print/texlive-musixlyr||2010-11-10|Upstream support dropped
 print/texlive-musixps||2010-11-10|Upstream support dropped
 print/texlive-optima||2010-11-10|Upstream support dropped
-print/texlive-pageslts||2010-11-10|Upstream support dropped
 print/texlive-pclnfss||2010-11-10|Upstream support dropped
 print/texlive-popupmenu||2010-11-10|Upstream support dropped
 print/texlive-rangen||2010-11-10|Upstream support dropped
@@ -76,7 +75,6 @@ print/texlive-citeref||2011-01-17|Upstream support dropped
 print/texlive-dialogl||2011-01-22|Upstream support dropped
 print/texlive-croatian||2011-01-30|Upstream support dropped
 print/texlive-collection-latex3||2011-02-19|Upstream support dropped
-print/texlive-luaindex||2011-02-21|Upstream support dropped
 print/texlive-osmanian||2011-02-22|Upstream support dropped
 print/texlive-timing||2011-03-01|Upstream support dropped
 print/texlive-vector||2011-03-03|Upstream support dropped
@@ -112,11 +110,9 @@ print/texlive-pagesLTS||2011-08-15|Upstream support dropped
 print/texlive-vxu||2011-08-18|Upstream support dropped
 print/texlive-ptsans||2011-08-21|Upstream support dropped
 print/texlive-ptserif||2011-08-21|Upstream support dropped
-print/texlive-ogham||2011-12-20|Upstream support dropped
 print/texlive-cmdtrack||2011-12-21|Upstream support dropped
 print/texlive-fltpage||2011-12-25|Upstream support dropped
 print/texlive-kalender||2011-12-25|Upstream support dropped
-print/texlive-russ||2011-12-25|Upstream support dropped
 print/texlive-stex||2012-01-11|Upstream support dropped
 print/texlive-scientificpaper||2012-01-16|Upstream support dropped
 print/texlive-ar||2012-01-30|Upstream support dropped
