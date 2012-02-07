@@ -1,4 +1,4 @@
-// Copyright (c) 2008, Romain Tartière <romain@blogreen.org>
+// Copyright (c) 2008-2012, Romain Tartière <romain@blogreen.org>
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -21,6 +21,7 @@
 // CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 // ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 // POSSIBILITY OF SUCH DAMAGE.
+
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -91,9 +92,7 @@ namespace TeXLive
 				return 1;
 			}
 
-			PackageCollection packages = new PackageCollection();
-			packages.TlpObjDir = extra[0];
-			packages.PortsDir  = extra[1];
+			PackageCollection packages = new PackageCollection (extra[0], extra[1]);
 
 			if (Verbosity > 0)
 				Console.Error.WriteLine("===> Building package list (this takes a while)");
@@ -111,6 +110,7 @@ namespace TeXLive
 				if (pkg.Eligible) {
 					if (!pkg.Exists) {
 						pkg.CreatePort();
+						packages.moved.Remove (pkg.PortDirectory);
 					} else {
 						pkg.UpdatePort ();
 					}
@@ -128,10 +128,13 @@ namespace TeXLive
 				string s = System.IO.Path.GetFileName (path);
 				if (s.StartsWith ("texlive-")) {
 					if (!packages.ContainsKey (s.Substring (8))) {
+						packages.moved.Add ("print/" + s);
 						DeletePort (packages.PortsDir, System.IO.Path.Combine ("print", s));
 					}
 				}
 			}
+			
+			packages.moved.Save ();
 			
 			return 0;
 		}
@@ -141,14 +144,6 @@ namespace TeXLive
 		/// </summary>
 		static private void DeletePort (string PortsDir, string PortName)
 		{
-			// Add a line to the MOVED file
-			string mf = System.IO.Path.Combine (PortsDir, "MOVED");
-			
-			System.IO.StreamWriter m = new System.IO.StreamWriter (mf, true);
-			m.WriteLine (string.Format ("{0}||{1:yyyy}-{1:MM}-{1:dd}|Upstream support dropped", PortName,
-			                            DateTime.UtcNow));
-			m.Close();
-			
 			// Remove the port from the repository
 			Process p = new Process ();
 			ProcessStartInfo psi = new ProcessStartInfo ("svn", string.Format ("delete --force {0}", System.IO.Path.Combine (PortsDir, PortName)));

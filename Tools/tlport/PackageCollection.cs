@@ -1,4 +1,4 @@
-// Copyright (c) 2008, Romain Tartière <romain@blogreen.org>
+// Copyright (c) 2008-2012, Romain Tartière <romain@blogreen.org>
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -32,12 +32,22 @@ namespace TeXLive
 	/// </summary>
 	public class PackageCollection: Dictionary<string, Package>
 	{
+		public MovedFile moved;
+		
 		public string TlpObjDir {
 			get; set;
 		}
 
 		public string PortsDir {
 			get; set;
+		}
+		
+		public PackageCollection (string TlpObjDir, string PortsDir)
+		{
+			this.TlpObjDir = TlpObjDir;
+			this.PortsDir = PortsDir;
+			
+			moved = new MovedFile (System.IO.Path.Combine (PortsDir, "MOVED"));
 		}
 	}
 }
