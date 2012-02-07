@@ -28,7 +28,7 @@ NO_BUILD=	yes
 MKTEXLSR=	${PREFIX}/bin/mktexlsr
 
 ${WRKDIR}/.install_files: build
-	@(  cd ${WRKDIR} && cat tlpkg/tlpobj/${PORTNAME}.tlpobj | awk '\
+	@(  cd ${WRKDIR} && ${CAT} tlpkg/tlpobj/${PORTNAME}.tlpobj | ${AWK} '\
 		$$0 ~ /^ / { \
 		    source=$$1; \
 		    target="share/" $$1; \
@@ -42,7 +42,7 @@ ${WRKDIR}/.install_files: build
 		}' > ${WRKDIR}/.install_files; \
 	)
 .if !defined(NOPORTDOCS)
-	@(  cd ${WRKDIR} && cat tlpkg/tlpobj/${PORTNAME}.doc.tlpobj | awk '\
+	@(  cd ${WRKDIR} && ${CAT} tlpkg/tlpobj/${PORTNAME}.doc.tlpobj | ${AWK} '\
 		$$0 ~ /^ / { \
 		    source=$$1; \
 		    target="share/" $$1; \
@@ -57,7 +57,7 @@ ${WRKDIR}/.install_files: build
 	)
 .endif
 .if !defined(NOPORTSRC)
-	@(  cd ${WRKDIR} && cat tlpkg/tlpobj/${PORTNAME}.source.tlpobj | awk '\
+	@(  cd ${WRKDIR} && ${CAT} tlpkg/tlpobj/${PORTNAME}.source.tlpobj | ${AWK} '\
 		$$0 ~ /^ / { \
 		    source=$$1; \
 		    target="share/" $$1; \
@@ -73,17 +73,17 @@ ${WRKDIR}/.install_files: build
 .endif
 
 pkg-plist: ${WRKDIR}/.install_files
-	@sort -k 2 < ${WRKDIR}/.install_files | awk ' { print $$3 $$2 } ' > ${PLIST}
-	@for dir in `cut -f 2 < ${WRKDIR}/.install_files | xargs dirname | sort -r | uniq`; do \
+	@${SORT} -k 2 < ${WRKDIR}/.install_files | ${AWK} ' { print $$3 $$2 } ' > ${PLIST}
+	@for dir in `${CUT} -f 2 < ${WRKDIR}/.install_files | ${XARGS} dirname | ${SORT} -r | uniq`; do \
 	    if [ ! -d "${PREFIX}/$$dir" ]; then \
-		echo @dirrmtry $$dir >> ${PLIST} ;\
+		${ECHO} @dirrmtry $$dir >> ${PLIST} ;\
 	    fi; \
 	done
 	@echo "@exec %D/bin/mktexlsr" >> ${PLIST}
 	@echo "@unexec %D/bin/mktexlsr" >> ${PLIST}
 
 do-install: ${WRKDIR}/.install_files
-	@for dir in `cut -f 2 < ${WRKDIR}/.install_files | xargs dirname | sort -r | uniq`; do \
+	@for dir in `${CUT} -f 2 < ${WRKDIR}/.install_files | ${XARGS} dirname | ${SORT} -r | uniq`; do \
 	    if [ ! -d "${PREFIX}/$$dir" ]; then \
 		${MKDIR} "${PREFIX}/$$dir" ;\
 	    fi; \
@@ -95,10 +95,10 @@ do-install: ${WRKDIR}/.install_files
 
 post-install:
 .if defined(WITHOUT_TEXLIVE_MKTEXLSR)
-	@echo "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running ${MKTEXLSR}."
-	@echo "You MUST run 'mktexlsr' to update TeXLive installed files database."
+	@${ECHO} "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running ${MKTEXLSR}."
+	@${ECHO} "You MUST run 'mktexlsr' to update TeXLive installed files database."
 .else
-	@echo "Updating ls-R databases..."
+	@${ECHO} "Updating ls-R databases..."
 	@${MKTEXLSR}
 .endif
 
