@@ -1,4 +1,4 @@
-// Copyright (c) 2008, 2009, 2010 Romain Tartière <romain@blogreen.org>
+// Copyright (c) 2008-2012, Romain Tartière <romain@blogreen.org>
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without

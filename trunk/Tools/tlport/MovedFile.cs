@@ -23,42 +23,68 @@
 // POSSIBILITY OF SUCH DAMAGE.
 
 using System;
-using System.Collections;
+using System.Collections.Generic;
+using System.IO;
 
 namespace TeXLive
 {
-	/// <summary>
-	/// TeXLive package interface.
-	/// </summary>
-	public interface IPackage
+	public class MovedFile
 	{
-
-		/// <summary>
-		/// Package Name.
-		/// </summary>
-		string Name {
-			get ;
+		public string FileName { get; set; }
+		private List<string[]> Lines;
+		
+		public MovedFile (string FileName)
+		{
+			this.FileName = FileName;
+			
+			Lines = new List<string[]>();
+			using (StreamReader sr = new StreamReader (FileName)) {
+				do {
+					string line = sr.ReadLine ();
+					Lines.Add (line.Split ('|'));
+				} while (!sr.EndOfStream);
+			}
 		}
 		
-		/// <summary>
-		/// A port for this package exists
-		/// </summary>
-		bool Exists {
-			get ;
+		public void Add (string Port)
+		{
+			Add (Port, string.Format ("{0:yyyy}-{0:MM}-{0:dd}", DateTime.UtcNow), "Upstream support dropped");
 		}
-
-		/// <summary>
-		/// Files provided in the package.
-		/// </summary>
-		ArrayList Files {
-			get ;
+		
+		public void Add (string Port, string Date, string Reason)
+		{
+			string[] line = new string[] { Port, "", Date, Reason };
+			Lines.Add (line);
 		}
-
-		/// <summary>
-		/// An array of Pachage dependencies.
-		/// </summary>
-		ArrayList Depends {
-			get ;
+		
+		public bool Remove (string Port)
+		{
+			for (int i = 0; i < Lines.Count; i++) {
+				if (Lines[i][0] == Port) {
+					Lines.RemoveAt (i);
+					return true;
+				}		
+			}
+			return false;
+		}
+		
+		public bool HasPort (string Port)
+		{
+			foreach (string [] pieces in Lines) {
+				if (pieces[0] == Port)
+					return true;
+			}
+			return false;
+		}
+		
+		public void Save ()
+		{
+			using (StreamWriter sw = new StreamWriter (FileName)) {
+				foreach (string[] pieces in Lines) {
+					sw.WriteLine (string.Format ("{0}|{1}|{2}|{3}", pieces[0], pieces[1], pieces[2], pieces[3]));
+				}
+			}
 		}
 	}
 }
+
