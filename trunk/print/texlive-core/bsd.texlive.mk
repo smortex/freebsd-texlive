@@ -24,6 +24,7 @@ PLIST_SUB+=		PORTSRC="@comment"
 FETCH_ARGS=	-ApR	# Do NOT restart a previously interrupted transfer
 USE_XZ=		yes
 NO_BUILD=	yes
+NO_WRKSUBDIR=	yes
 
 MKTEXLSR=	${PREFIX}/bin/mktexlsr
 
