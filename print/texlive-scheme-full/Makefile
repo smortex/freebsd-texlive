@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20120203
+PORTVERSION=	20120207
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -550,7 +550,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/platex/japanese/japanese.ldf:${PORTSDIR}/print/texlive-japanese \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/japanese-otf/otf-cktx.map:${PORTSDIR}/print/texlive-japanese-otf \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/japanese-otf-uptex/otf-up-noEmbed.map:${PORTSDIR}/print/texlive-japanese-otf-uptex \
-		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/hiragino/otf-hiragino.map:${PORTSDIR}/print/texlive-jfontmaps \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/otf-hiragino.map:${PORTSDIR}/print/texlive-jfontmaps \
 		${LOCALBASE}/share/texmf-dist/tex/platex/jsclasses/jsarticle.cls:${PORTSDIR}/print/texlive-jsclasses \
 		${LOCALBASE}/share/texmf-dist/dvips/norasi-c90/config.norasi-c90:${PORTSDIR}/print/texlive-norasi-c90 \
 		${LOCALBASE}/share/texmf-dist/tex/ptex/base/ptex.tex:${PORTSDIR}/print/texlive-ptex \
@@ -676,9 +676,9 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/index/index.sty:${PORTSDIR}/print/texlive-index \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jknapltx/greekctr.sty:${PORTSDIR}/print/texlive-jknapltx \
 		${LOCALBASE}/share/texmf-dist/doc/latex/koma-script/INSTALL.txt:${PORTSDIR}/print/texlive-koma-script \
-		${LOCALBASE}/share/texmf-dist/tex/latex/l3kernel/expl3.sty:${PORTSDIR}/print/texlive-l3kernel \
+		${LOCALBASE}/share/texmf-dist/makeindex/l3kernel/l3doc.ist:${PORTSDIR}/print/texlive-l3kernel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty:${PORTSDIR}/print/texlive-l3packages \
-		${LOCALBASE}/share/texmf-dist/tex/latex/l3experimental/l3str/l3flag.sty:${PORTSDIR}/print/texlive-l3experimental \
+		${LOCALBASE}/share/texmf-dist/tex/latex/l3experimental/l3dt/l3dt.sty:${PORTSDIR}/print/texlive-l3experimental \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listings/listings.sty:${PORTSDIR}/print/texlive-listings \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdwtools/at.sty:${PORTSDIR}/print/texlive-mdwtools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/memoir/memoir.cls:${PORTSDIR}/print/texlive-memoir \
