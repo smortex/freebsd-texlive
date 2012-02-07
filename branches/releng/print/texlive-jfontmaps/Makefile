@@ -6,11 +6,13 @@
 #
 
 PORTNAME=	jfontmaps
-PORTVERSION=	20120203
+PORTVERSION=	20120207
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	The jfontmaps package
+
+RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
 NOPORTSRC=	yes
 

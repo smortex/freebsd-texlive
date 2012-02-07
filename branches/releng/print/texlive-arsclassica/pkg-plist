@@ -1,4 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/ArsClassica.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/ArsClassica.run.xml
+%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/ArsClassica.synctex.gz
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/ArsClassica.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Bibliography.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/CHANGES
@@ -16,9 +18,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Graphics/Example_2.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Graphics/Example_3.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Graphics/Example_4.jpg
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Graphics/GuITlogo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/arsclassica-preamble.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/arsclassica-settings.tex
 share/texmf-dist/makeindex/arsclassica/classic.ist
 share/texmf-dist/tex/latex/arsclassica/arsclassica.sty
 @dirrmtry share/texmf-dist/tex/latex/arsclassica
