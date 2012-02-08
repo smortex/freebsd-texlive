@@ -1,4 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/support/findhyph/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/support/findhyph/Makefile.doc
 %%PORTDOCS%%share/texmf-dist/doc/support/findhyph/README
 %%PORTDOCS%%share/texmf-dist/doc/support/findhyph/findhyph.bat
 %%PORTDOCS%%share/texmf-dist/doc/support/findhyph/findhyph.txt

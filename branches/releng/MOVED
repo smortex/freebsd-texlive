@@ -116,3 +116,5 @@ print/texlive-kalender||2011-12-25|Upstream support dropped
 print/texlive-stex||2012-01-11|Upstream support dropped
 print/texlive-scientificpaper||2012-01-16|Upstream support dropped
 print/texlive-ar||2012-01-30|Upstream support dropped
+print/texlive-dfgproposal||2012-02-08|Upstream support dropped
+print/texlive-euproposal||2012-02-08|Upstream support dropped
