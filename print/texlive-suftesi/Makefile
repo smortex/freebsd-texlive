@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	suftesi
-PORTVERSION=	20111205
+PORTVERSION=	20120208
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	A document class for typesetting theses, books and articles.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
