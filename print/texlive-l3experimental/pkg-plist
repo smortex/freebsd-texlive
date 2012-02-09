@@ -1,5 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/l3dt/l3dt.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/l3sort/l3sort.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/l3str/l3flag.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/l3str/l3regex.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/l3str/l3str.pdf
@@ -9,17 +10,24 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/xgalley/xgalley.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3dt/l3dt.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3dt/l3dt.ins
+%%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3sort/l3sort.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3sort/l3sort.ins
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3str/l3flag.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3str/l3regex.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3str/l3str.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3str/l3str.ins
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3str/l3tl-analysis.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3experimental/xcoffins/xcoffins-test.tex
+%%PORTSRC%%share/texmf-dist/source/latex/l3experimental/xcoffins/xcoffins-tschichold-example-keyval.tex
+%%PORTSRC%%share/texmf-dist/source/latex/l3experimental/xcoffins/xcoffins-tschichold-example.tex
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/xcoffins/xcoffins.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/xcoffins/xcoffins.ins
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/xgalley/l3galley.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3experimental/xgalley/xgalley-demo.tex
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/xgalley/xgalley.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/xgalley/xgalley.ins
 share/texmf-dist/tex/latex/l3experimental/l3dt/l3dt.sty
+share/texmf-dist/tex/latex/l3experimental/l3sort/l3sort.sty
 share/texmf-dist/tex/latex/l3experimental/l3str/l3flag.sty
 share/texmf-dist/tex/latex/l3experimental/l3str/l3regex.sty
 share/texmf-dist/tex/latex/l3experimental/l3str/l3str.sty
@@ -30,14 +38,17 @@ share/texmf-dist/tex/latex/l3experimental/xgalley/xgalley.sty
 @dirrmtry share/texmf-dist/tex/latex/l3experimental/xgalley
 @dirrmtry share/texmf-dist/tex/latex/l3experimental/xcoffins
 @dirrmtry share/texmf-dist/tex/latex/l3experimental/l3str
+@dirrmtry share/texmf-dist/tex/latex/l3experimental/l3sort
 @dirrmtry share/texmf-dist/tex/latex/l3experimental/l3dt
 @dirrmtry share/texmf-dist/source/latex/l3experimental/xgalley
 @dirrmtry share/texmf-dist/source/latex/l3experimental/xcoffins
 @dirrmtry share/texmf-dist/source/latex/l3experimental/l3str
+@dirrmtry share/texmf-dist/source/latex/l3experimental/l3sort
 @dirrmtry share/texmf-dist/source/latex/l3experimental/l3dt
 @dirrmtry share/texmf-dist/doc/latex/l3experimental/xgalley
 @dirrmtry share/texmf-dist/doc/latex/l3experimental/xcoffins
 @dirrmtry share/texmf-dist/doc/latex/l3experimental/l3str
+@dirrmtry share/texmf-dist/doc/latex/l3experimental/l3sort
 @dirrmtry share/texmf-dist/doc/latex/l3experimental/l3dt
 @dirrmtry share/texmf-dist/doc/latex/l3experimental
 @exec %D/bin/mktexlsr
