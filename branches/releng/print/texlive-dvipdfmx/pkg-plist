@@ -4,6 +4,7 @@
 %%PORTDOCS%%share/texmf/doc/man/man1/extractbb.man1.pdf
 share/texmf/fonts/cmap/README
 share/texmf/fonts/cmap/dvipdfmx/README
+share/texmf/fonts/cmap/dvipdfmx/UTF8-UCS2
 share/texmf/fonts/map/dvipdfmx/cid-x.map
 share/texmf/fonts/map/dvipdfmx/ckx.map
 share/tlpkg/tlpostcode/dvipdfmx.pl
