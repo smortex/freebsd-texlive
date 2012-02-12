@@ -1,15 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ipaex/Copyright
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ipaex/README
-share/texmf-dist/fonts/map/dvipdfmx/ipaex/otf-ipa.map
-share/texmf-dist/fonts/map/dvipdfmx/ipaex/otf-ipaex.map
-share/texmf-dist/fonts/map/dvipdfmx/ipaex/ptex-ipa.map
-share/texmf-dist/fonts/map/dvipdfmx/ipaex/ptex-ipaex.map
 share/texmf-dist/fonts/truetype/public/ipaex/ipaexg.ttf
 share/texmf-dist/fonts/truetype/public/ipaex/ipaexm.ttf
 share/texmf-dist/fonts/truetype/public/ipaex/ipag.ttf
 share/texmf-dist/fonts/truetype/public/ipaex/ipam.ttf
 @dirrmtry share/texmf-dist/fonts/truetype/public/ipaex
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/ipaex
 @dirrmtry share/texmf-dist/doc/fonts/ipaex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

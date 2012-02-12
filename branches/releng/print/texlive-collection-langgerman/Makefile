@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-langgerman
-PORTVERSION=	20111225
+PORTVERSION=	20120212
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -19,6 +19,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-german/bibleref-ge
 		${LOCALBASE}/share/texmf-dist/tex/generic/german/german.sty:${PORTSDIR}/print/texlive-german \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/germbib/gerabbrv.bst:${PORTSDIR}/print/texlive-germbib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/germkorr/germkorr.sty:${PORTSDIR}/print/texlive-germkorr \
+		${LOCALBASE}/share/texmf-dist/tex/latex/hausarbeit-jura/hausarbeit-jura.cls:${PORTSDIR}/print/texlive-hausarbeit-jura \
 		${LOCALBASE}/share/texmf-dist/tex/latex/r_und_s/r_und_s.sty:${PORTSDIR}/print/texlive-r_und_s \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umlaute/umlaute.sty:${PORTSDIR}/print/texlive-umlaute \
 		${LOCALBASE}/share/texmf/tex/generic/hyphen/dehyphn.tex:${PORTSDIR}/print/texlive-hyphen-german \
