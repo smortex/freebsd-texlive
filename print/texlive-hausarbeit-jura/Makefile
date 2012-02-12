@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-l3experimental
-# Date created:		08/02/2011 05:06:21
+# New ports collection makefile for:	texlive-hausarbeit-jura
+# Date created:		02/12/2012 04:57:27
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	l3experimental
+PORTNAME=	hausarbeit-jura
 PORTVERSION=	20120212
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Experimental LaTeX3 concepts.
+COMMENT=	Class for writing "juristiche Hausarbeiten" at German Universities.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

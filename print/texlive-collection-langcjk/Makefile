@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-langcjk
-PORTVERSION=	20120207
+PORTVERSION=	20120212
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -25,7 +25,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/cmap/adobemapping/LICENSE:${POR
 		${LOCALBASE}/share/texmf-dist/dvips/garuda-c90/config.garuda-c90:${PORTSDIR}/print/texlive-garuda-c90 \
 		${LOCALBASE}/share/texmf/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8 \
-		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/ipaex/otf-ipa.map:${PORTSDIR}/print/texlive-ipaex \
+		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/ipaex/ipaexg.ttf:${PORTSDIR}/print/texlive-ipaex \
 		${LOCALBASE}/share/texmf-dist/tex/platex/japanese/japanese.ldf:${PORTSDIR}/print/texlive-japanese \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/japanese-otf/otf-cktx.map:${PORTSDIR}/print/texlive-japanese-otf \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/japanese-otf-uptex/otf-up-noEmbed.map:${PORTSDIR}/print/texlive-japanese-otf-uptex \

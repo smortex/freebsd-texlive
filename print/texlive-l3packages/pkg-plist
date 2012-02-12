@@ -3,7 +3,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3packages/xfrac/xfrac.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3packages/xparse/xparse.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3packages/xtemplate/xtemplate.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/l3packages/l3keys2e/l3keys2e-demo.tex
 %%PORTSRC%%share/texmf-dist/source/latex/l3packages/l3keys2e/l3keys2e.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3packages/l3keys2e/l3keys2e.ins
 %%PORTSRC%%share/texmf-dist/source/latex/l3packages/xfrac/xfrac.dtx
