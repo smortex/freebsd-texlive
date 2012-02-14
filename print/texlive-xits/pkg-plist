@@ -3,6 +3,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/xits/OFL-FAQ.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/xits/OFL.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/xits/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/xits/postprocess.py
 %%PORTDOCS%%share/texmf-dist/doc/fonts/xits/user-guide.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/xits/user-guide.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/xits/xits-math.lfg
