@@ -56,6 +56,8 @@ share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-Sunrise.tex
 share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-Swoosh.tex
 share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-ThickStripes.tex
 share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-default.tex
+share/texmf-dist/tex/context/third/simpleslides/t-simpleslides.mkii
+share/texmf-dist/tex/context/third/simpleslides/t-simpleslides.mkiv
 share/texmf-dist/tex/context/third/simpleslides/t-simpleslides.tex
 @dirrmtry share/texmf-dist/tex/context/third/simpleslides
 @dirrmtry share/texmf-dist/tex/context/interface/third
