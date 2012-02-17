@@ -10,6 +10,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/apa6/apa6.ins
 share/texmf-dist/tex/latex/apa6/apa6.cls
 share/texmf-dist/tex/latex/apa6/config/APAamerican.txt
+share/texmf-dist/tex/latex/apa6/config/APAbritish.txt
 share/texmf-dist/tex/latex/apa6/config/APAdutch.txt
 share/texmf-dist/tex/latex/apa6/config/APAendfloat.cfg
 share/texmf-dist/tex/latex/apa6/config/APAenglish.txt

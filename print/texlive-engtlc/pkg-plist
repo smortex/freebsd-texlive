@@ -1,7 +1,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/engtlc/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/engtlc/eng_engtlc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/engtlc/engtlc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/engtlc/engtlc.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/engtlc/ita_engtlc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/engtlc/itengtlc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/engtlc/itengtlc.tex
 share/texmf-dist/tex/latex/engtlc/engtlc.sty
 @dirrmtry share/texmf-dist/tex/latex/engtlc
 @dirrmtry share/texmf-dist/doc/latex/engtlc
