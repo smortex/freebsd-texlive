@@ -2,12 +2,13 @@ share/texmf-dist/bibtex/bst/apacite/apacann.bst
 share/texmf-dist/bibtex/bst/apacite/apacannx.bst
 share/texmf-dist/bibtex/bst/apacite/apacite.bst
 share/texmf-dist/bibtex/bst/apacite/apacitex.bst
-%%PORTDOCS%%share/texmf-dist/doc/latex/apacite/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/apacite/apa5ex.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/apacite/apacite.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/apacite/apacite.drv
-%%PORTSRC%%share/texmf-dist/source/latex/apacite/apacite.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/apacite/apacite.ins
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/apacite/README
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/apacite/apa5ex.bib
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/apacite/apacite.pdf
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/apacite/apacxmpl.tex
+%%PORTSRC%%share/texmf-dist/source/bibtex/apacite/apacite.drv
+%%PORTSRC%%share/texmf-dist/source/bibtex/apacite/apacite.dtx
+%%PORTSRC%%share/texmf-dist/source/bibtex/apacite/apacite.ins
 share/texmf-dist/tex/latex/apacite/apacdoc.sty
 share/texmf-dist/tex/latex/apacite/apacite.sty
 share/texmf-dist/tex/latex/apacite/dutch.apc
@@ -21,8 +22,8 @@ share/texmf-dist/tex/latex/apacite/norsk.apc
 share/texmf-dist/tex/latex/apacite/spanish.apc
 share/texmf-dist/tex/latex/apacite/swedish.apc
 @dirrmtry share/texmf-dist/tex/latex/apacite
-@dirrmtry share/texmf-dist/source/latex/apacite
-@dirrmtry share/texmf-dist/doc/latex/apacite
+@dirrmtry share/texmf-dist/source/bibtex/apacite
+@dirrmtry share/texmf-dist/doc/bibtex/apacite
 @dirrmtry share/texmf-dist/bibtex/bst/apacite
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
