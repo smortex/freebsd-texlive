@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	thailatex
-PORTVERSION=	20110324
+PORTVERSION=	20120219
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Typeset Thai texts with standard LaTeX classes.
 
-NOPORTDOCS=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

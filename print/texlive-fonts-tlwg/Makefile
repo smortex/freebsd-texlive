@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-biblatex-fiwi
-# Date created:		11/20/2011 04:39:01
+# New ports collection makefile for:	texlive-fonts-tlwg
+# Date created:		02/19/2012 04:50:13
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	biblatex-fiwi
+PORTNAME=	fonts-tlwg
 PORTVERSION=	20120219
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Biblatex styles for use in German humanities.
+COMMENT=	Thai fonts for LaTeX from TLWG.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

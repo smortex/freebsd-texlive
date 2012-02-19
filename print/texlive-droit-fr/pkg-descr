@@ -1,0 +1,4 @@
+The bundle provides a toolkit intended for students writing a
+thesis in French law. It features: - a LaTeX document class; -
+a bibliographic style for Biblatex package; - a practical
+example of french thesis document; and - documentation.

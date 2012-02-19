@@ -1,0 +1,25 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/doc/.latexmkrc
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/doc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/doc/droit-fr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/doc/droit-fr.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/.latexmkrc
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/annexes.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/bibliographie.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/bibliographie.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/conclusion.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/glossaire.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/index.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/introduction.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/main.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/misc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/partie1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/partie2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/titre.tex
+share/texmf-dist/tex/latex/droit-fr/droit-fr.bbx
+share/texmf-dist/tex/latex/droit-fr/droit-fr.cbx
+share/texmf-dist/tex/latex/droit-fr/droit-fr.cls
+@dirrmtry share/texmf-dist/tex/latex/droit-fr
+@dirrmtry share/texmf-dist/doc/latex/droit-fr/example
+@dirrmtry share/texmf-dist/doc/latex/droit-fr/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
