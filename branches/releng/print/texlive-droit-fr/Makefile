@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-biblatex-fiwi
-# Date created:		11/20/2011 04:39:01
+# New ports collection makefile for:	texlive-droit-fr
+# Date created:		02/19/2012 04:51:07
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	biblatex-fiwi
+PORTNAME=	droit-fr
 PORTVERSION=	20120219
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Biblatex styles for use in German humanities.
+COMMENT=	Document class and bibliographic style for French law.
 
 NOPORTSRC=	yes
 

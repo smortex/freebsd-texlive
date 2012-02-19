@@ -1,8 +1,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/CHANGES
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/README.TEXLIVE
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox-example.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox-example.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.pdf
 share/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
