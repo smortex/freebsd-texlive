@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120217
+PORTVERSION=	20120221
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -475,6 +475,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/fontaxes/fontaxes.sty:${PORTSDIR}/print/texlive-fontaxes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fonttable/fonttable.sty:${PORTSDIR}/print/texlive-fonttable \
 		${LOCALBASE}/share/texmf-dist/tex/latex/footmisc/footmisc.sty:${PORTSDIR}/print/texlive-footmisc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/footnoterange/footnoterange.sty:${PORTSDIR}/print/texlive-footnoterange \
 		${LOCALBASE}/share/texmf-dist/tex/latex/footnpag/footnpag.sty:${PORTSDIR}/print/texlive-footnpag \
 		${LOCALBASE}/share/texmf-dist/tex/latex/forarray/forarray.sty:${PORTSDIR}/print/texlive-forarray \
 		${LOCALBASE}/share/texmf-dist/tex/latex/forloop/forloop.sty:${PORTSDIR}/print/texlive-forloop \
@@ -486,6 +487,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/frankenstein/frankenstein.bib:${PORTSDIR}/print/texlive-frankenstein \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ftcap/ftcap.sty:${PORTSDIR}/print/texlive-ftcap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ftnxtra/ftnxtra.sty:${PORTSDIR}/print/texlive-ftnxtra \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fullblck/fullblck.sty:${PORTSDIR}/print/texlive-fullblck \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fullwidth/fullwidth.sty:${PORTSDIR}/print/texlive-fullwidth \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fundus/calligra.sty:${PORTSDIR}/print/texlive-fundus \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fwlw/fwlw.sty:${PORTSDIR}/print/texlive-fwlw \
