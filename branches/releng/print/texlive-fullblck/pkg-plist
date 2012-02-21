@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fullblck/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/fullblck/fullblck.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/fullblck/fullblck.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fullblck/fullblck.dtx.asc
+%%PORTSRC%%share/texmf-dist/source/latex/fullblck/fullblck.ins
+share/texmf-dist/tex/latex/fullblck/fullblck.sty
+@dirrmtry share/texmf-dist/tex/latex/fullblck
+@dirrmtry share/texmf-dist/source/latex/fullblck
+@dirrmtry share/texmf-dist/doc/latex/fullblck
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

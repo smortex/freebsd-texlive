@@ -1,0 +1,7 @@
+The package provides environments footnoterange and
+footnoterange*. Multiple footnotes inside these environments
+are not referenced as (e.g.) "1 2 3 4" but as "1-4", i.e., the
+range (from first to last referred footnote at that place) is
+given. If hyperref package and use of its hyperfootnotes-option
+the references are hyperlinked. (References to footnotes in the
+footnoterange* environment are never hyperlinked.)

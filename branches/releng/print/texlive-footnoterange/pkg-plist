@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnoterange/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnoterange/footnoterange-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnoterange/footnoterange-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnoterange/footnoterange.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/footnoterange/footnoterange.drv
+%%PORTSRC%%share/texmf-dist/source/latex/footnoterange/footnoterange.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/footnoterange/footnoterange.ins
+share/texmf-dist/tex/latex/footnoterange/footnoterange.sty
+@dirrmtry share/texmf-dist/tex/latex/footnoterange
+@dirrmtry share/texmf-dist/source/latex/footnoterange
+@dirrmtry share/texmf-dist/doc/latex/footnoterange
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
