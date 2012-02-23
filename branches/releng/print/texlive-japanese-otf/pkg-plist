@@ -1962,9 +1962,7 @@ share/texmf-dist/fonts/vf/public/japanese-otf/utftmrf-v.vf
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/test/pkanatest2.tex
 share/texmf-dist/tex/platex/japanese-otf/ajmacros.sty
 share/texmf-dist/tex/platex/japanese-otf/mlcid.sty
-share/texmf-dist/tex/platex/japanese-otf/mlutf.sty
 share/texmf-dist/tex/platex/japanese-otf/otf-hangul.dfu
-share/texmf-dist/tex/platex/japanese-otf/otf.sty
 share/texmf-dist/tex/platex/japanese-otf/redeffont.sty
 @dirrmtry share/texmf-dist/tex/platex/japanese-otf
 @dirrmtry share/texmf-dist/source/fonts/japanese-otf/test

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pstricks
-PORTVERSION=	20120120
+PORTVERSION=	20120223
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -54,6 +54,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/auto-pst-pdf/auto-pst-pdf.s
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-jtree/pst-jtree.tex:${PORTSDIR}/print/texlive-pst-jtree \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-knot/pst-knot.tex:${PORTSDIR}/print/texlive-pst-knot \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-labo/pst-labo.tex:${PORTSDIR}/print/texlive-pst-labo \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pst-layout/pst-layout.sty:${PORTSDIR}/print/texlive-pst-layout \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-lens/pst-lens.tex:${PORTSDIR}/print/texlive-pst-lens \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-light3d/pst-light3d.tex:${PORTSDIR}/print/texlive-pst-light3d \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-magneticfield/pst-magneticfield.tex:${PORTSDIR}/print/texlive-pst-magneticfield \

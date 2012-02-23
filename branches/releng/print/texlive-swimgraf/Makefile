@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-nameauth
-# Date created:		01/03/2012 05:00:25
+# New ports collection makefile for:	texlive-swimgraf
+# Date created:		02/23/2012 04:52:52
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	nameauth
+PORTNAME=	swimgraf
 PORTVERSION=	20120223
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Name authority mechanism for consistency in body text and index.
+COMMENT=	Graphical/textual representations of swimming performances
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

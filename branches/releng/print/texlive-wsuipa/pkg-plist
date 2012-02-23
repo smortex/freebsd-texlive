@@ -1,17 +1,17 @@
-%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/LICENCE-wsuipa.txt
-%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/README
-%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/changes.dec93
-%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/changes.jun91
-%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/changes.mar91
-%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/changes.may92
-%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/changes.nov90
-%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/compilefonts
-%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/ipamacs.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/ipaman.ps
-%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/latex209/ipalman.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/latex209/lipaman.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/latex2e/ipaman.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/wsuipa/text1/ipaman.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wsuipa/LICENCE-wsuipa.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wsuipa/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wsuipa/changes.dec93
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wsuipa/changes.jun91
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wsuipa/changes.mar91
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wsuipa/changes.may92
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wsuipa/changes.nov90
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wsuipa/compilefonts
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wsuipa/ipamacs.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wsuipa/ipaman.ps
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wsuipa/latex209/ipalman.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wsuipa/latex209/lipaman.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wsuipa/latex2e/ipaman.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wsuipa/text1/ipaman.tex
 share/texmf-dist/fonts/source/public/wsuipa/iaccent.mf
 share/texmf-dist/fonts/source/public/wsuipa/igreekl.mf
 share/texmf-dist/fonts/source/public/wsuipa/iparoman.mf
@@ -60,9 +60,9 @@ share/texmf-dist/tex/latex/wsuipa/uipa.fd
 @dirrmtry share/texmf-dist/tex/latex/wsuipa
 @dirrmtry share/texmf-dist/fonts/tfm/public/wsuipa
 @dirrmtry share/texmf-dist/fonts/source/public/wsuipa
-@dirrmtry share/texmf-dist/doc/generic/wsuipa/text1
-@dirrmtry share/texmf-dist/doc/generic/wsuipa/latex2e
-@dirrmtry share/texmf-dist/doc/generic/wsuipa/latex209
-@dirrmtry share/texmf-dist/doc/generic/wsuipa
+@dirrmtry share/texmf-dist/doc/fonts/wsuipa/text1
+@dirrmtry share/texmf-dist/doc/fonts/wsuipa/latex2e
+@dirrmtry share/texmf-dist/doc/fonts/wsuipa/latex209
+@dirrmtry share/texmf-dist/doc/fonts/wsuipa
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
