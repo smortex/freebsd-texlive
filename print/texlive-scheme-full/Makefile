@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20120221
+PORTVERSION=	20120223
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -567,7 +567,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/disser/disser.cls:${PORTSDIR}/print/texlive-disser \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eskd/eskd.cls:${PORTSDIR}/print/texlive-eskd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eskdx/eskdafterpkg.sty:${PORTSDIR}/print/texlive-eskdx \
-		${LOCALBASE}/share/texmf-dist/bibtex/bst/gost/gost705s.bst:${PORTSDIR}/print/texlive-gost \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/gost/gost2003.bst:${PORTSDIR}/print/texlive-gost \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lcyw/cmap-cyr-vf.sty:${PORTSDIR}/print/texlive-lcyw \
 		${LOCALBASE}/share/texmf-dist/fonts/source/lh/base/fikparm.mf:${PORTSDIR}/print/texlive-lh \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lhcyr/karabas.tex:${PORTSDIR}/print/texlive-lhcyr \
@@ -774,6 +774,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/roundbox/roundbox.sty:${PORTSDIR}/print/texlive-roundbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rviewport/rviewport.sty:${PORTSDIR}/print/texlive-rviewport \
 		${LOCALBASE}/share/texmf-dist/tex/latex/schemabloc/schemabloc.sty:${PORTSDIR}/print/texlive-schemabloc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/swimgraf/swimgraf.sty:${PORTSDIR}/print/texlive-swimgraf \
 		${LOCALBASE}/share/texmf-dist/tex/generic/texdraw/texdraw.sty:${PORTSDIR}/print/texlive-texdraw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty:${PORTSDIR}/print/texlive-tikz-cd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty:${PORTSDIR}/print/texlive-tikz-3dplot \
@@ -1761,6 +1762,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-jtree/pst-jtree.tex:${PORTSDIR}/print/texlive-pst-jtree \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-knot/pst-knot.tex:${PORTSDIR}/print/texlive-pst-knot \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-labo/pst-labo.tex:${PORTSDIR}/print/texlive-pst-labo \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pst-layout/pst-layout.sty:${PORTSDIR}/print/texlive-pst-layout \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-lens/pst-lens.tex:${PORTSDIR}/print/texlive-pst-lens \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-light3d/pst-light3d.tex:${PORTSDIR}/print/texlive-pst-light3d \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-magneticfield/pst-magneticfield.tex:${PORTSDIR}/print/texlive-pst-magneticfield \

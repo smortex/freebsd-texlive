@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-nameauth
-# Date created:		01/03/2012 05:00:25
+# New ports collection makefile for:	texlive-pst-layout
+# Date created:		02/23/2012 05:08:50
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	nameauth
+PORTNAME=	pst-layout
 PORTVERSION=	20120223
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Name authority mechanism for consistency in body text and index.
+COMMENT=	Page layout macros based on PStricks packages.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

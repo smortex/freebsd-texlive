@@ -1,0 +1,4 @@
+The package provides a means of creating elaborate ("pseudo-
+tabular") layouts of material, typically to be overlaid on an
+included graphic. The package requires a recent version of the
+package pst-node and some other pstricks-related material.

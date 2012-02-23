@@ -1,0 +1,39 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/100br1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/100br1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/100br2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/100br2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/fcanada.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/fcanada11.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/fcanada12.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/fcanada13.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/fcanada14.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/fcanada15.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/fcanada16.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/fcanada17.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/fontario10.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/fontario11.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/fontario12.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/fontario13.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/fontario14.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/fontario15.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/fontario16.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/fontario17.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/fontario8.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/fontario9.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/fworld.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/mcanada.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/mworld.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/sample1.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/sample2.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/text1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/text1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/text2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/swimgraf/text2.tex
+share/texmf-dist/tex/latex/swimgraf/swimgraf.cfg
+share/texmf-dist/tex/latex/swimgraf/swimgraf.sty
+@dirrmtry share/texmf-dist/tex/latex/swimgraf
+@dirrmtry share/texmf-dist/doc/latex/swimgraf
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
