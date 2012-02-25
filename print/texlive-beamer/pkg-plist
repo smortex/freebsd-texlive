@@ -104,15 +104,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beamerugthemeWarsaw.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beamerugthemeboxes.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beamerugthemedefault.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beameruserguide.idx
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beameruserguide.out
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beameruserguide.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beameruserguide.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/licenses/LICENSE
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/themeexamples/beamerthemeexample.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/themeexamples/beamerthememakeexamples.sh
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/emacs/beamer.el
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-conference-talk/beamerexample-conference-talk.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-beamer-version.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-body.tex
@@ -125,9 +122,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-pic6.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-print-version.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-style.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/beamerexample-conference-talk.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/beamerexample-lecture-beamer-version.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/beamerexample-lecture-print-version.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/lyx-based-presentation/beamerexample-lyx.lyx
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/conference-talks/conference-ornate-20min.de.lyx
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/conference-talks/conference-ornate-20min.de.tex
@@ -159,6 +153,7 @@ share/texmf-dist/tex/latex/beamer/beamerarticle.sty
 share/texmf-dist/tex/latex/beamer/beamerbasearticle.sty
 share/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
 share/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+share/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty.orig
 share/texmf-dist/tex/latex/beamer/beamerbasecolor.sty
 share/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty
 share/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
@@ -261,52 +256,55 @@ share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeSzeged.sty
 share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeWarsaw.sty
 share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeboxes.sty
 share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemedefault.sty
-share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemebars.sty
-share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemeclassic.sty
-share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemecompatibility.sty
-share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemelined.sty
-share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemeplain.sty
-share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemeshadow.sty
-share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemesidebar.sty
-share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemesplit.sty
-share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemetree.sty
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Brazilian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Croatian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-English.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-French.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-German.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Greek.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Norsk.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Polish.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Serbian.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Brazilian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Croatian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-English.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-French.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-German.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Greek.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Polish.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Serbian.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Brazilian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Croatian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-English.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-French.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-German.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Greek.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Polish.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Serbian.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Brazilian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Croatian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-English.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-French.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-German.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Greek.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Norsk.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Polish.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Serbian.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Brazilian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Croatian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-English.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-French.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-German.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Greek.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Norsk.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Polish.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Serbian.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Brazilian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Croatian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-English.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-French.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-German.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Greek.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Norsk.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Polish.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Serbian.dict
@@ -319,7 +317,6 @@ share/texmf-dist/tex/latex/beamer/translator/translator.sty
 @dirrmtry share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary
 @dirrmtry share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary
 @dirrmtry share/texmf-dist/tex/latex/beamer/translator
-@dirrmtry share/texmf-dist/tex/latex/beamer/themes/theme/compatibility
 @dirrmtry share/texmf-dist/tex/latex/beamer/themes/theme
 @dirrmtry share/texmf-dist/tex/latex/beamer/themes/outer
 @dirrmtry share/texmf-dist/tex/latex/beamer/themes/inner
@@ -336,7 +333,6 @@ share/texmf-dist/tex/latex/beamer/translator/translator.sty
 @dirrmtry share/texmf-dist/doc/latex/beamer/examples/lyx-based-presentation
 @dirrmtry share/texmf-dist/doc/latex/beamer/examples/a-lecture
 @dirrmtry share/texmf-dist/doc/latex/beamer/examples/a-conference-talk
-@dirrmtry share/texmf-dist/doc/latex/beamer/examples
 @dirrmtry share/texmf-dist/doc/latex/beamer/emacs
 @dirrmtry share/texmf-dist/doc/latex/beamer/doc/themeexamples
 @dirrmtry share/texmf-dist/doc/latex/beamer/doc/licenses
