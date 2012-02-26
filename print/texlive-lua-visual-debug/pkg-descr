@@ -1,0 +1,2 @@
+The package uses lua code to provide visible indications of
+boxes, glues, kerns and penalties in the PDF output.

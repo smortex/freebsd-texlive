@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20120225
+PORTVERSION=	20120226
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -627,7 +627,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/bengali/bn.mf:${PORTSDIR}/print/texlive-bengali \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/burmese/burmese.map:${PORTSDIR}/print/texlive-burmese \
 		${LOCALBASE}/share/texmf-dist/scripts/ebong/ebong.py:${PORTSDIR}/print/texlive-ebong \
-		${LOCALBASE}/share/texmf-dist/tex/latex/itrans/itrans.sty:${PORTSDIR}/print/texlive-itrans \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/malayalam/effects/effect.mf:${PORTSDIR}/print/texlive-malayalam \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/sanskrit/skt.map:${PORTSDIR}/print/texlive-sanskrit \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/velthuis/dvnb10.afm:${PORTSDIR}/print/texlive-velthuis \
@@ -1600,6 +1599,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/zwgetfdate/zwgetfdate.sty:${PORTSDIR}/print/texlive-zwgetfdate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zwpagelayout/zwpagelayout.sty:${PORTSDIR}/print/texlive-zwpagelayout \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/interpreter/interpreter.sty:${PORTSDIR}/print/texlive-interpreter \
+		${LOCALBASE}/share/texmf-dist/tex/lualatex/lua-visual-debug/lua-visual-debug.sty:${PORTSDIR}/print/texlive-lua-visual-debug \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luabibentry/luabibentry.sty:${PORTSDIR}/print/texlive-luabibentry \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luacode/luacode.sty:${PORTSDIR}/print/texlive-luacode \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luaindex/luaindex.sty:${PORTSDIR}/print/texlive-luaindex \
