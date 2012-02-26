@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-thumbs
-# Date created:		05/17/2011 05:05:38
+# New ports collection makefile for:	texlive-lua-visual-debug
+# Date created:		02/26/2012 05:06:01
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	thumbs
+PORTNAME=	lua-visual-debug
 PORTVERSION=	20120226
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create thumb indexes.
+COMMENT=	Visual debugging with LuaLaTeX.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
