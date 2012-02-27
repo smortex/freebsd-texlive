@@ -7,6 +7,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/bezos/bezos.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/bezos/esindex.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bezos/esindex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/bezos/soulpos.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bezos/soulpos.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/bezos/tensind.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bezos/tensind.tex
 share/texmf-dist/tex/latex/bezos/accents.sty
@@ -15,6 +17,7 @@ share/texmf-dist/tex/latex/bezos/babeltools.sty
 share/texmf-dist/tex/latex/bezos/checkend.sty
 share/texmf-dist/tex/latex/bezos/dotlessi.sty
 share/texmf-dist/tex/latex/bezos/esindex.sty
+share/texmf-dist/tex/latex/bezos/soulpos.sty
 share/texmf-dist/tex/latex/bezos/subdocs.sty
 share/texmf-dist/tex/latex/bezos/tensind.sty
 @dirrmtry share/texmf-dist/tex/latex/bezos
