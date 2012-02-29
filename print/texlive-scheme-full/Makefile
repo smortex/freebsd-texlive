@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20120226
+PORTVERSION=	20120229
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -496,6 +496,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/alnumsec/alnumsec.sty:${PORTSDIR}/print/texlive-alnumsec \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arydshln/arydshln.sty:${PORTSDIR}/print/texlive-arydshln \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref/bibleref.sty:${PORTSDIR}/print/texlive-bibleref \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-lds/bibleref-lds.sty:${PORTSDIR}/print/texlive-bibleref-lds \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-mouth/bibleref-mouth.sty:${PORTSDIR}/print/texlive-bibleref-mouth \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-parse/bibleref-parse.sty:${PORTSDIR}/print/texlive-bibleref-parse \
 		${LOCALBASE}/share/texmf-dist/tex/latex/covington/covington.sty:${PORTSDIR}/print/texlive-covington \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dramatist/dramatist.sty:${PORTSDIR}/print/texlive-dramatist \
@@ -1599,7 +1601,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/zwgetfdate/zwgetfdate.sty:${PORTSDIR}/print/texlive-zwgetfdate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zwpagelayout/zwpagelayout.sty:${PORTSDIR}/print/texlive-zwpagelayout \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/interpreter/interpreter.sty:${PORTSDIR}/print/texlive-interpreter \
-		${LOCALBASE}/share/texmf-dist/tex/lualatex/lua-visual-debug/lua-visual-debug.sty:${PORTSDIR}/print/texlive-lua-visual-debug \
+		${LOCALBASE}/share/texmf-dist/tex/luatex/lua-visual-debug/lua-visual-debug.sty:${PORTSDIR}/print/texlive-lua-visual-debug \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luabibentry/luabibentry.sty:${PORTSDIR}/print/texlive-luabibentry \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luacode/luacode.sty:${PORTSDIR}/print/texlive-luacode \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luaindex/luaindex.sty:${PORTSDIR}/print/texlive-luaindex \
@@ -1894,7 +1896,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/uothesis/uothesis.cls:${PORTSDIR}/print/texlive-uothesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uowthesis/UoWlogo.eps:${PORTSDIR}/print/texlive-uowthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uwthesis/uwthesis.cls:${PORTSDIR}/print/texlive-uwthesis \
-		${LOCALBASE}/share/texmf-dist/bibtex/bib/vancouver/vancouver.bib:${PORTSDIR}/print/texlive-vancouver \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/vancouver/vancouver.bst:${PORTSDIR}/print/texlive-vancouver \
 		${LOCALBASE}/share/texmf-dist/tex/latex/york-thesis/york-thesis.cls:${PORTSDIR}/print/texlive-york-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/SIstyle/sistyle.sty:${PORTSDIR}/print/texlive-SIstyle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTSDIR}/print/texlive-SIunits \
