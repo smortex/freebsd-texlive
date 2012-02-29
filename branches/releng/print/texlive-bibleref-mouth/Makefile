@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-l3kernel
-# Date created:		08/02/2011 05:06:20
+# New ports collection makefile for:	texlive-bibleref-mouth
+# Date created:		02/29/2012 04:50:29
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	l3kernel
+PORTNAME=	bibleref-mouth
 PORTVERSION=	20120229
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX3 programming conventions.
+COMMENT=	Consistent formatting of Bible references.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

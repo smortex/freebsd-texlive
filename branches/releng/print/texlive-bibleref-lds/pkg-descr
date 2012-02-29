@@ -1,0 +1,5 @@
+The package extends the bibleref-mouth package to support
+references to the scriptures of The Church of Jesus Christ of
+Latter-day Saints (LDS). The package requires bibleref-mouth to
+run, and its reference syntax is the same as that of the parent
+package.

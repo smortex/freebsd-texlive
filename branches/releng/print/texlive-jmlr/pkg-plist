@@ -1,12 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/CHANGES
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/INSTALL
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/jmlr-manual.html
-%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/jmlr-manual.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/jmlr-manual0x.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/jmlr-manual1x.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/jmlr-manual2x.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/jmlr-manual3x.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/jmlr.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/bookLogo-gray.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-books/bookLogo.png

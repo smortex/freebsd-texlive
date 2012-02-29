@@ -1,0 +1,6 @@
+The package allows Bible references to be formatted in a
+consistent way. It is similar to the bibleref package, except
+that the formatting macros are all purely expandable -- that
+is, they are all implemented in TeX's mouth. This means that
+they can be used in any expandable context, such as an argument
+to a \url command.

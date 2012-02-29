@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	lua-visual-debug
-PORTVERSION=	20120226
+PORTVERSION=	20120229
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

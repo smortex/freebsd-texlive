@@ -1,11 +1,13 @@
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lua-visual-debug/README
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lua-visual-debug/lvdebug-doc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lua-visual-debug/lvdebug-doc.tex
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lua-visual-debug/lvdebug-sample.pdf
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lua-visual-debug/sample.tex
-share/texmf-dist/tex/lualatex/lua-visual-debug/lua-visual-debug.lua
-share/texmf-dist/tex/lualatex/lua-visual-debug/lua-visual-debug.sty
-@dirrmtry share/texmf-dist/tex/lualatex/lua-visual-debug
-@dirrmtry share/texmf-dist/doc/lualatex/lua-visual-debug
+%%PORTDOCS%%share/texmf-dist/doc/luatex/lua-visual-debug/README
+%%PORTDOCS%%share/texmf-dist/doc/luatex/lua-visual-debug/lvdebug-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/lua-visual-debug/lvdebug-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/lua-visual-debug/sample-plain.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/lua-visual-debug/sample-plain.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/lua-visual-debug/sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/lua-visual-debug/sample.tex
+share/texmf-dist/tex/luatex/lua-visual-debug/lua-visual-debug.lua
+share/texmf-dist/tex/luatex/lua-visual-debug/lua-visual-debug.sty
+@dirrmtry share/texmf-dist/tex/luatex/lua-visual-debug
+@dirrmtry share/texmf-dist/doc/luatex/lua-visual-debug
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
