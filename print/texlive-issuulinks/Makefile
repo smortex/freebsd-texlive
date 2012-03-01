@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-menukeys
-# Date created:		02/25/2012 05:01:38
+# New ports collection makefile for:	texlive-issuulinks
+# Date created:		03/01/2012 05:04:50
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	menukeys
+PORTNAME=	issuulinks
 PORTVERSION=	20120301
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Format menu sequences, paths and keystrokes from lists.
+COMMENT=	Produce external links instead of internal ones.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
