@@ -3,6 +3,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/README.TEXLIVE
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox-example.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.tex
+share/texmf-dist/tex/latex/tcolorbox/tcbdocumentation.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
