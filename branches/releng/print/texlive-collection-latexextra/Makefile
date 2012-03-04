@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120301
+PORTVERSION=	20120304
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -588,6 +588,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/listofsymbols/listofsymbols.sty:${PORTSDIR}/print/texlive-listofsymbols \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listliketab/listliketab.sty:${PORTSDIR}/print/texlive-listliketab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lkproof/proof.sty:${PORTSDIR}/print/texlive-lkproof \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lmake/lmake.sty:${PORTSDIR}/print/texlive-lmake \
 		${LOCALBASE}/share/texmf-dist/tex/latex/locality/locality.sty:${PORTSDIR}/print/texlive-locality \
 		${LOCALBASE}/share/texmf-dist/tex/latex/localloc/localloc.sty:${PORTSDIR}/print/texlive-localloc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/logbox/logbox.sty:${PORTSDIR}/print/texlive-logbox \

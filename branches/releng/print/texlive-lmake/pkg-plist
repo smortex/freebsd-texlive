@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/lmake/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/lmake/lmake.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/lmake/lmake.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/lmake/lmake.ins
+share/texmf-dist/tex/latex/lmake/lmake.sty
+@dirrmtry share/texmf-dist/tex/latex/lmake
+@dirrmtry share/texmf-dist/source/latex/lmake
+@dirrmtry share/texmf-dist/doc/latex/lmake
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

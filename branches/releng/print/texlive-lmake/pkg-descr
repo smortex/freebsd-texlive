@@ -1,0 +1,3 @@
+The package provides commands to simplify processing of
+sequential list-like structures, such as making a series of
+'similar' commands from a list of names.
