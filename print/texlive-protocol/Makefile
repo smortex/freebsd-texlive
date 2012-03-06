@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	protocol
-PORTVERSION=	20111015
+PORTVERSION=	20120306
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A class for typesetting minutes of meetings.
+COMMENT=	A class for minutes of meetings.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
