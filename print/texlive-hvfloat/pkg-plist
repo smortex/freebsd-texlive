@@ -1,8 +1,7 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/hvfloat/VERSION-1.1
+%%PORTDOCS%%share/texmf-dist/doc/latex/hvfloat/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/hvfloat/bateaux.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/hvfloat/hvfloat.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/hvfloat/hvfloat.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/hvfloat/rose.eps
 %%PORTDOCS%%share/texmf-dist/doc/latex/hvfloat/rose.png
 share/texmf-dist/tex/latex/hvfloat/hvfloat.sty
 @dirrmtry share/texmf-dist/tex/latex/hvfloat

@@ -1,0 +1,4 @@
+The package allows the content of footnotes to be defined
+before their marks are inserted in a document. In this way,
+footnotes and endnotes can easily be grouped together in a
+separate file, so that the main body is less cluttered.
