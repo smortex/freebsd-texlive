@@ -54,6 +54,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beamerugcolorthemeseagull.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beamerugcolorthemeseahorse.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beamerugcolorthemesidebartab.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beamerugcolorthemespruce.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beamerugcolorthemestructure.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beamerugcolorthemewhale.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beamerugcolorthemewolverine.pdf
@@ -86,6 +87,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beamerugthemeCopenhagen.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beamerugthemeDarmstadt.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beamerugthemeDresden.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beamerugthemeEastLansing.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beamerugthemeFrankfurt.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beamerugthemeGoettingen.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beamerugthemeHannover.pdf
@@ -110,6 +112,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/themeexamples/beamerthemeexample.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/themeexamples/beamerthememakeexamples.sh
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/emacs/beamer.el
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-conference-talk/beamerexample-conference-talk.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-beamer-version.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-body.tex
@@ -122,6 +125,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-pic6.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-print-version.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-style.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/beamerexample-conference-talk.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/beamerexample-lecture-beamer-version.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/beamerexample-lecture-print-version.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/lyx-based-presentation/beamerexample-lyx.lyx
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/conference-talks/conference-ornate-20min.de.lyx
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/conference-talks/conference-ornate-20min.de.tex
@@ -153,7 +159,6 @@ share/texmf-dist/tex/latex/beamer/beamerarticle.sty
 share/texmf-dist/tex/latex/beamer/beamerbasearticle.sty
 share/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
 share/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
-share/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty.orig
 share/texmf-dist/tex/latex/beamer/beamerbasecolor.sty
 share/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty
 share/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
@@ -205,6 +210,7 @@ share/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemerose.sty
 share/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemeseagull.sty
 share/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemeseahorse.sty
 share/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemesidebartab.sty
+share/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemespruce.sty
 share/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemestructure.sty
 share/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemewhale.sty
 share/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemewolverine.sty
@@ -238,6 +244,7 @@ share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeCambridgeUS.sty
 share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeCopenhagen.sty
 share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeDarmstadt.sty
 share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeDresden.sty
+share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeEastLansing.sty
 share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeFrankfurt.sty
 share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeGoettingen.sty
 share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeHannover.sty
@@ -333,6 +340,7 @@ share/texmf-dist/tex/latex/beamer/translator/translator.sty
 @dirrmtry share/texmf-dist/doc/latex/beamer/examples/lyx-based-presentation
 @dirrmtry share/texmf-dist/doc/latex/beamer/examples/a-lecture
 @dirrmtry share/texmf-dist/doc/latex/beamer/examples/a-conference-talk
+@dirrmtry share/texmf-dist/doc/latex/beamer/examples
 @dirrmtry share/texmf-dist/doc/latex/beamer/emacs
 @dirrmtry share/texmf-dist/doc/latex/beamer/doc/themeexamples
 @dirrmtry share/texmf-dist/doc/latex/beamer/doc/licenses
