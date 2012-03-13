@@ -1,9 +1,9 @@
 share/texmf-dist/fonts/source/public/skull/skull.mf
-%%PORTSRC%%share/texmf-dist/source/latex/skull/skull.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/skull/skull.ins
+%%PORTSRC%%share/texmf-dist/source/fonts/skull/skull.dtx
+%%PORTSRC%%share/texmf-dist/source/fonts/skull/skull.ins
 share/texmf-dist/tex/latex/skull/skull.sty
 @dirrmtry share/texmf-dist/tex/latex/skull
-@dirrmtry share/texmf-dist/source/latex/skull
+@dirrmtry share/texmf-dist/source/fonts/skull
 @dirrmtry share/texmf-dist/fonts/source/public/skull
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
