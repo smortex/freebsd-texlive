@@ -1,0 +1,45 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/TUIdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/TUIdoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/example/abstract.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/example/agradec.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/example/ap01.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/example/bibliotesis.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/example/ch01.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/example/ch02.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/example/ch03.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/example/coleccion.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/example/dedicat.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/example/hyphenation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/example/imagen.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/example/intro.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/example/lipsum.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/example/listofsymbols.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/example/main.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/example/main.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/example/plegal.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/example/portada.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/example/resumen.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/template/abstract.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/template/agradec.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/template/ap01.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/template/bibliotesis.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/template/ch01.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/template/ch02.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/template/ch03.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/template/coleccion.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/template/dedicat.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/template/hyphenation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/template/intro.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/template/listofsymbols.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/template/main.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/template/plegal.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/template/portada.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tui/template/resumen.tex
+share/texmf-dist/tex/latex/tui/tui.cls
+@dirrmtry share/texmf-dist/tex/latex/tui
+@dirrmtry share/texmf-dist/doc/latex/tui/template
+@dirrmtry share/texmf-dist/doc/latex/tui/example
+@dirrmtry share/texmf-dist/doc/latex/tui
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

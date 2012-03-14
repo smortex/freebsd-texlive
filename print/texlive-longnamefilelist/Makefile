@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-csvsimple
-# Date created:		09/21/2010 11:46:13
+# New ports collection makefile for:	texlive-longnamefilelist
+# Date created:		03/14/2012 05:11:19
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	csvsimple
+PORTNAME=	longnamefilelist
 PORTVERSION=	20120314
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Simple CSV file processing.
+COMMENT=	Tidy \listfiles with long file names.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

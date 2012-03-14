@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-medium
-PORTVERSION=	20120229
+PORTVERSION=	20120314
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -372,6 +372,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/xetex/xetexfontinfo/aat-info.tex:${PORTSDIR}/print/texlive-xetexfontinfo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xltxtra/xltxtra.sty:${PORTSDIR}/print/texlive-xltxtra \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xunicode/xunicode.sty:${PORTSDIR}/print/texlive-xunicode \
+		${LOCALBASE}/share/texmf-dist/scripts/checkcites/checkcites.lua:${PORTSDIR}/print/texlive-checkcites \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/interpreter/interpreter.sty:${PORTSDIR}/print/texlive-interpreter \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/lua-visual-debug/lua-visual-debug.sty:${PORTSDIR}/print/texlive-lua-visual-debug \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luabibentry/luabibentry.sty:${PORTSDIR}/print/texlive-luabibentry \

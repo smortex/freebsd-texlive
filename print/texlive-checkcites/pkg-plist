@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/checkcites/README
+%%PORTDOCS%%share/texmf-dist/doc/support/checkcites/checkcites-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/checkcites/checkcites-doc.tex
+share/texmf-dist/scripts/checkcites/checkcites.lua
+@dirrmtry share/texmf-dist/scripts/checkcites
+@dirrmtry share/texmf-dist/doc/support/checkcites
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
