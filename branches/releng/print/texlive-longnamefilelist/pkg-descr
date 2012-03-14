@@ -1,0 +1,6 @@
+The package equips LaTeX's \listfiles command with an optional
+argument for the number of characters in the longest base
+filename. This way you get a neatly aligned file list even when
+it contains files whose base names have more than 8 characters.
+The package can be combined with the myfilist package as
+explained in the documentation.

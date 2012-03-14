@@ -1,0 +1,3 @@
+The package provides a lua script written for the sole purpose
+of detecting undefined and unused references from LaTeX
+auxiliary or bibliography files.
