@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-tetex
-PORTVERSION=	20120223
+PORTVERSION=	20120315
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -572,6 +572,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/generic/pstricks-add/pstricks-add.tex:${PORTSDIR}/print/texlive-pstricks-add \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uml/uml.sty:${PORTSDIR}/print/texlive-uml \
 		${LOCALBASE}/share/texmf-dist/tex/generic/vaucanson-g/vaucanson-g.sty:${PORTSDIR}/print/texlive-vaucanson-g \
+		${LOCALBASE}/share/texmf-dist/tex/latex/vocaltract/VocalTract.sty:${PORTSDIR}/print/texlive-vocaltract \
 		${LOCALBASE}/share/texmf-dist/tex/texinfo/texinfo.tex:${PORTSDIR}/print/texlive-texinfo
 
 NOPORTDOCS=	yes

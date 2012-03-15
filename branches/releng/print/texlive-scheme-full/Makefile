@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20120314
+PORTVERSION=	20120315
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -467,7 +467,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/generic/librarian/librarian.sty:${PORTSDIR}/print/texlive-librarian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/mathdots/mathdots.sty:${PORTSDIR}/print/texlive-mathdots \
 		${LOCALBASE}/share/texmf-dist/tex/plain/metatex/metatex.tex:${PORTSDIR}/print/texlive-metatex \
-		${LOCALBASE}/share/texmf-dist/metafont/mftoeps/mftoeps.mf:${PORTSDIR}/print/texlive-mftoeps \
 		${LOCALBASE}/share/texmf-dist/tex/generic/midnight/border.tex:${PORTSDIR}/print/texlive-midnight \
 		${LOCALBASE}/share/texmf-dist/dvips/multi/2up.pro:${PORTSDIR}/print/texlive-multi \
 		${LOCALBASE}/share/texmf-dist/tex/generic/navigator/navigator.sty:${PORTSDIR}/print/texlive-navigator \
@@ -1809,6 +1808,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/generic/pstricks-add/pstricks-add.tex:${PORTSDIR}/print/texlive-pstricks-add \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uml/uml.sty:${PORTSDIR}/print/texlive-uml \
 		${LOCALBASE}/share/texmf-dist/tex/generic/vaucanson-g/vaucanson-g.sty:${PORTSDIR}/print/texlive-vaucanson-g \
+		${LOCALBASE}/share/texmf-dist/tex/latex/vocaltract/VocalTract.sty:${PORTSDIR}/print/texlive-vocaltract \
 		${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${PORTSDIR}/print/texlive-IEEEconf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls:${PORTSDIR}/print/texlive-IEEEtran \
 		${LOCALBASE}/share/texmf-dist/tex/latex/aastex/aastex.cls:${PORTSDIR}/print/texlive-aastex \
