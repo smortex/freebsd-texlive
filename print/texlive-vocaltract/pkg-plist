@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/vocaltract/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/vocaltract/vtLatex_AnimationDemo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/vocaltract/vtLatex_AnimationLauncher.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/vocaltract/vtLatex_FigureDemo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/vocaltract/vtLatex_FigureDemo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/vocaltract/vtLatex_FigureLauncher.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/vocaltract/vtLatex_TimeParams.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/vocaltract/vtMAINVisual.m
+%%PORTDOCS%%share/texmf-dist/doc/latex/vocaltract/vtQueryVisual.m
+share/texmf-dist/tex/latex/vocaltract/VocalTract.sty
+@dirrmtry share/texmf-dist/tex/latex/vocaltract
+@dirrmtry share/texmf-dist/doc/latex/vocaltract
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

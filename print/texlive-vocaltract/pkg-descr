@@ -1,0 +1,8 @@
+The package enables the user to visualise the vocal tract. The
+vocal tract (in the package) is manipulated by a vector of
+articulation parameters according to the S. Maeda model.
+Animation may be achieved by providing a sequence of vectors
+over time (e.g., from Matlab). A sequence of vectors for
+certain German phonemes is embedded in the package, which
+allows for animation when no other vector is available. The
+package's graphics are produced using pstricks.

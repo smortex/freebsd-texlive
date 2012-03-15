@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-genericextra
-PORTVERSION=	20111205
+PORTVERSION=	20120315
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -36,7 +36,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/abbr/abbr.tex:${PORTSDIR}
 		${LOCALBASE}/share/texmf-dist/tex/generic/librarian/librarian.sty:${PORTSDIR}/print/texlive-librarian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/mathdots/mathdots.sty:${PORTSDIR}/print/texlive-mathdots \
 		${LOCALBASE}/share/texmf-dist/tex/plain/metatex/metatex.tex:${PORTSDIR}/print/texlive-metatex \
-		${LOCALBASE}/share/texmf-dist/metafont/mftoeps/mftoeps.mf:${PORTSDIR}/print/texlive-mftoeps \
 		${LOCALBASE}/share/texmf-dist/tex/generic/midnight/border.tex:${PORTSDIR}/print/texlive-midnight \
 		${LOCALBASE}/share/texmf-dist/dvips/multi/2up.pro:${PORTSDIR}/print/texlive-multi \
 		${LOCALBASE}/share/texmf-dist/tex/generic/navigator/navigator.sty:${PORTSDIR}/print/texlive-navigator \
