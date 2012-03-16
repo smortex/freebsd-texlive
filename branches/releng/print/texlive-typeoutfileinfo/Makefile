@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-jfontmaps
-# Date created:		02/03/2012 04:51:09
+# New ports collection makefile for:	texlive-typeoutfileinfo
+# Date created:		03/16/2012 04:51:41
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	jfontmaps
+PORTNAME=	typeoutfileinfo
 PORTVERSION=	20120316
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Font maps for Japanese fonts.
+COMMENT=	The typeoutfileinfo package
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

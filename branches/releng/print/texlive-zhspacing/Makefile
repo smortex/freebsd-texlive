@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	zhspacing
-PORTVERSION=	20100922
+PORTVERSION=	20120316
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A simple solution for typesetting CJK documents in XeTeX.
+COMMENT=	Spacing for mixed CJK-English documents in XeTeX.
 
 NOPORTSRC=	yes
 
