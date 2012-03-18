@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	typeoutfileinfo
-PORTVERSION=	20120316
+PORTVERSION=	20120318
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The typeoutfileinfo package
+COMMENT=	Display class/package/file information.
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
