@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120314
+PORTVERSION=	20120319
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -653,7 +653,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/moresize/moresize.sty:${PORTSDIR}/print/texlive-moresize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/moreverb/moreverb.sty:${PORTSDIR}/print/texlive-moreverb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/morewrites/morewrites.sty:${PORTSDIR}/print/texlive-morewrites \
-		${LOCALBASE}/share/texmf-dist/tex/latex/movie15/movie15.sty:${PORTSDIR}/print/texlive-movie15 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mparhack/mparhack.sty:${PORTSDIR}/print/texlive-mparhack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/msc/msc.sty:${PORTSDIR}/print/texlive-msc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/msg/msg.sty:${PORTSDIR}/print/texlive-msg \
