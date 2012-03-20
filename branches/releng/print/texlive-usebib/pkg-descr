@@ -1,0 +1,6 @@
+The package is described by its author as "a poor person's
+replacement for the more powerful methods provided by biblatex
+to access data from a .bib file". Its principle commands are
+\bibinput (which specifies a database to use) and \usebibdata
+(which typesets a single field from a specified entry in that
+database.

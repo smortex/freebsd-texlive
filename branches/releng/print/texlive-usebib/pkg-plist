@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/usebib/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/usebib/usebib.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/usebib/usebib.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/usebib/usebib.ins
+share/texmf-dist/tex/latex/usebib/usebib.sty
+@dirrmtry share/texmf-dist/tex/latex/usebib
+@dirrmtry share/texmf-dist/source/latex/usebib
+@dirrmtry share/texmf-dist/doc/latex/usebib
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
