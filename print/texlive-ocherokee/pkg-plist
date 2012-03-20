@@ -1,3 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/omega/ocherokee/READ.ME
 %%PORTDOCS%%share/texmf-dist/doc/omega/ocherokee/cherokee.pdf
 %%PORTDOCS%%share/texmf-dist/doc/omega/ocherokee/chief.tex
 %%PORTDOCS%%share/texmf-dist/doc/omega/ocherokee/proverb.tex
@@ -24,6 +25,10 @@ share/texmf-dist/fonts/type1/public/ocherokee/Cherokee-Bold.pfb
 share/texmf-dist/fonts/type1/public/ocherokee/Cherokee.pfb
 share/texmf-dist/omega/ocp/ocherokee/cher2uni.ocp
 share/texmf-dist/omega/otp/ocherokee/cher2uni.otp
+share/texmf-dist/tex/lambda/ocherokee/lchcmr.fd
+share/texmf-dist/tex/lambda/ocherokee/lchenc.def
+share/texmf-dist/tex/lambda/ocherokee/ocherokee.sty
+@dirrmtry share/texmf-dist/tex/lambda/ocherokee
 @dirrmtry share/texmf-dist/omega/otp/ocherokee
 @dirrmtry share/texmf-dist/omega/ocp/ocherokee
 @dirrmtry share/texmf-dist/fonts/type1/public/ocherokee
