@@ -6,12 +6,12 @@
 #
 
 PORTNAME=	collection-texworks
-PORTVERSION=	20101215
+PORTVERSION=	20120321
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The TeXworks Editor
+COMMENT=	TeXworks editor
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/base/xampl.bib:${PORTSDIR}/print/texlive-bibtex \

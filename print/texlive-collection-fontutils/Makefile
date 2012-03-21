@@ -6,12 +6,12 @@
 #
 
 PORTNAME=	collection-fontutils
-PORTVERSION=	20111206
+PORTVERSION=	20120321
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Graphics TeX and outline font utilities
+COMMENT=	Graphics and font utilities
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/base/xampl.bib:${PORTSDIR}/print/texlive-bibtex \
