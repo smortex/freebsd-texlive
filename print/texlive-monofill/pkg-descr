@@ -1,0 +1,3 @@
+The package provides horizontal alignment, as in the LaTeX
+command \listfiles (or the author's longnamefilelist package).
+Uses may include in-text tables, or even code listings.
