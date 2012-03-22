@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20120320
+PORTVERSION=	20120322
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1049,7 +1049,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/flacards/flacards.cls:${PORTSDIR}/print/texlive-flacards \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flagderiv/flagderiv.sty:${PORTSDIR}/print/texlive-flagderiv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flashcards/flashcards.cls:${PORTSDIR}/print/texlive-flashcards \
-		${LOCALBASE}/share/texmf-dist/tex/latex/flashmovie/flashmovie.sty:${PORTSDIR}/print/texlive-flashmovie \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flipbook/flipbook.sty:${PORTSDIR}/print/texlive-flipbook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flippdf/flippdf.sty:${PORTSDIR}/print/texlive-flippdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/floatflt/floatflt.sty:${PORTSDIR}/print/texlive-floatflt \
@@ -1237,6 +1236,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/moderntimeline/moderntimeline.sty:${PORTSDIR}/print/texlive-moderntimeline \
 		${LOCALBASE}/share/texmf-dist/tex/latex/modref/modref.sty:${PORTSDIR}/print/texlive-modref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/modroman/modroman.sty:${PORTSDIR}/print/texlive-modroman \
+		${LOCALBASE}/share/texmf-dist/tex/latex/monofill/monofill.sty:${PORTSDIR}/print/texlive-monofill \
 		${LOCALBASE}/share/texmf-dist/tex/latex/moreenum/moreenum.sty:${PORTSDIR}/print/texlive-moreenum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/morefloats/morefloats.sty:${PORTSDIR}/print/texlive-morefloats \
 		${LOCALBASE}/share/texmf-dist/tex/latex/morehype/blog.sty:${PORTSDIR}/print/texlive-morehype \
