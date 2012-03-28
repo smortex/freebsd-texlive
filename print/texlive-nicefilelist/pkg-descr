@@ -1,0 +1,5 @@
+The package extends longnamefilelist, keeping separate columns
+for date, version and "caption" (the caption now separately
+listed). Alignment is not disturbed by short file name
+extensions, such as ".fd". The package is not compatible with
+longnamefilelist: users need to re-read the documentation.
