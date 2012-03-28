@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20120322
+PORTVERSION=	20120328
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1268,6 +1268,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/newverbs/newverbs.sty:${PORTSDIR}/print/texlive-newverbs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nextpage/nextpage.sty:${PORTSDIR}/print/texlive-nextpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nfssext-cfr/nfssext-cfr.sty:${PORTSDIR}/print/texlive-nfssext-cfr \
+		${LOCALBASE}/share/texmf-dist/tex/latex/nicefilelist/nicefilelist.sty:${PORTSDIR}/print/texlive-nicefilelist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/niceframe/niceframe.sty:${PORTSDIR}/print/texlive-niceframe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nicetext/fifinddo.sty:${PORTSDIR}/print/texlive-nicetext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nlctdoc/nlctdoc.cls:${PORTSDIR}/print/texlive-nlctdoc \
