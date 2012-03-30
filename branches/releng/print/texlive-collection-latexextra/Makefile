@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120328
+PORTVERSION=	20120330
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -459,6 +459,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/flacards/flacards.cls:${PORTSDIR}/print/texlive-flacards \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flagderiv/flagderiv.sty:${PORTSDIR}/print/texlive-flagderiv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flashcards/flashcards.cls:${PORTSDIR}/print/texlive-flashcards \
+		${LOCALBASE}/share/texmf-dist/tex/latex/flashmovie/flashmovie.sty:${PORTSDIR}/print/texlive-flashmovie \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flipbook/flipbook.sty:${PORTSDIR}/print/texlive-flipbook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flippdf/flippdf.sty:${PORTSDIR}/print/texlive-flippdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/floatflt/floatflt.sty:${PORTSDIR}/print/texlive-floatflt \
@@ -625,6 +626,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/mcite/mcite.sty:${PORTSDIR}/print/texlive-mcite \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mciteplus/mciteplus.sty:${PORTSDIR}/print/texlive-mciteplus \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdframed/mdframed.sty:${PORTSDIR}/print/texlive-mdframed \
+		${LOCALBASE}/share/texmf-dist/tex/latex/media9/media9.sty:${PORTSDIR}/print/texlive-media9 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/meetingmins/meetingmins.cls:${PORTSDIR}/print/texlive-meetingmins \
 		${LOCALBASE}/share/texmf-dist/tex/latex/memexsupp/memexsupp.sty:${PORTSDIR}/print/texlive-memexsupp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/menu/menu.sty:${PORTSDIR}/print/texlive-menu \
@@ -653,6 +655,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/moresize/moresize.sty:${PORTSDIR}/print/texlive-moresize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/moreverb/moreverb.sty:${PORTSDIR}/print/texlive-moreverb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/morewrites/morewrites.sty:${PORTSDIR}/print/texlive-morewrites \
+		${LOCALBASE}/share/texmf-dist/tex/latex/movie15/movie15.sty:${PORTSDIR}/print/texlive-movie15 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mparhack/mparhack.sty:${PORTSDIR}/print/texlive-mparhack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/msc/msc.sty:${PORTSDIR}/print/texlive-msc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/msg/msg.sty:${PORTSDIR}/print/texlive-msg \
