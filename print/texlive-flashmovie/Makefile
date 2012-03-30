@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-nameauth
-# Date created:		01/03/2012 05:00:25
+# New ports collection makefile for:	texlive-flashmovie
+# Date created:		03/30/2012 04:58:44
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	nameauth
+PORTNAME=	flashmovie
 PORTVERSION=	20120330
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Name authority mechanism for consistency in body text and index.
+COMMENT=	Directly embed flash movies into PDF files.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
