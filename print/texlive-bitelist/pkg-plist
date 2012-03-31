@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/bitelist/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/bitelist/bitelist.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/bitelist/bitelist.tex
+%%PORTSRC%%share/texmf-dist/source/generic/bitelist/srcfiles.tex
+share/texmf-dist/tex/generic/bitelist/bitedemo.tex
+share/texmf-dist/tex/generic/bitelist/bitelist.sty
+@dirrmtry share/texmf-dist/tex/generic/bitelist
+@dirrmtry share/texmf-dist/source/generic/bitelist
+@dirrmtry share/texmf-dist/doc/generic/bitelist
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
