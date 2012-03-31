@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikzpfeile/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikzpfeile/tikzpfeile.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/tikzpfeile/tikzpfeile.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tikzpfeile/tikzpfeile.ins
+share/texmf-dist/tex/latex/tikzpfeile/tikzpfeile.sty
+@dirrmtry share/texmf-dist/tex/latex/tikzpfeile
+@dirrmtry share/texmf-dist/source/latex/tikzpfeile
+@dirrmtry share/texmf-dist/doc/latex/tikzpfeile
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120330
+PORTVERSION=	20120331
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -195,6 +195,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty:${PORTSDIR}/print/texlive-tikz-qtree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty:${PORTSDIR}/print/texlive-tikz-timing \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpagenodes/tikzpagenodes.sty:${PORTSDIR}/print/texlive-tikzpagenodes \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpfeile/tikzpfeile.sty:${PORTSDIR}/print/texlive-tikzpfeile \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tqft/tqft.sty:${PORTSDIR}/print/texlive-tqft \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-base/tkz-base.sty:${PORTSDIR}/print/texlive-tkz-base \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-berge/tkz-berge.sty:${PORTSDIR}/print/texlive-tkz-berge \
@@ -333,6 +334,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/cool/cool.sty:${PORTSDIR}/print/texlive-cool \
 		${LOCALBASE}/share/texmf-dist/tex/latex/coollist/coollist.sty:${PORTSDIR}/print/texlive-coollist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/coolstr/coolstr.sty:${PORTSDIR}/print/texlive-coolstr \
+		${LOCALBASE}/share/texmf-dist/tex/latex/coolthms/coolthms.sty:${PORTSDIR}/print/texlive-coolthms \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cooltooltips/cooltooltips.sty:${PORTSDIR}/print/texlive-cooltooltips \
 		${LOCALBASE}/share/texmf-dist/tex/latex/coordsys/coordsys.sty:${PORTSDIR}/print/texlive-coordsys \
 		${LOCALBASE}/share/texmf-dist/tex/latex/copyrightbox/copyrightbox.sty:${PORTSDIR}/print/texlive-copyrightbox \

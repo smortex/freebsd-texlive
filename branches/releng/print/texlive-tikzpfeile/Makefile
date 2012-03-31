@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-monofill
-# Date created:		03/22/2012 05:11:02
+# New ports collection makefile for:	texlive-tikzpfeile
+# Date created:		03/31/2012 04:53:53
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	monofill
+PORTNAME=	tikzpfeile
 PORTVERSION=	20120331
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Alignment of plain text.
+COMMENT=	Draw arrows using PGF/TikZ.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

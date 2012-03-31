@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-tetex
-PORTVERSION=	20120316
+PORTVERSION=	20120331
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -478,6 +478,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty:${PORTSDIR}/print/texlive-tikz-qtree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty:${PORTSDIR}/print/texlive-tikz-timing \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpagenodes/tikzpagenodes.sty:${PORTSDIR}/print/texlive-tikzpagenodes \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpfeile/tikzpfeile.sty:${PORTSDIR}/print/texlive-tikzpfeile \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tqft/tqft.sty:${PORTSDIR}/print/texlive-tqft \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-base/tkz-base.sty:${PORTSDIR}/print/texlive-tkz-base \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-berge/tkz-berge.sty:${PORTSDIR}/print/texlive-tkz-berge \

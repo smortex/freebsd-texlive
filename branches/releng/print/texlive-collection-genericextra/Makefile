@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-genericextra
-PORTVERSION=	20120315
+PORTVERSION=	20120331
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -16,6 +16,7 @@ COMMENT=	Extra generic packages
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/abbr/abbr.tex:${PORTSDIR}/print/texlive-abbr \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/abstyles/acompat.bib:${PORTSDIR}/print/texlive-abstyles \
 		${LOCALBASE}/share/texmf-dist/tex/generic/barr/diagxy.tex:${PORTSDIR}/print/texlive-barr \
+		${LOCALBASE}/share/texmf-dist/tex/generic/bitelist/bitelist.sty:${PORTSDIR}/print/texlive-bitelist \
 		${LOCALBASE}/share/texmf-dist/tex/generic/borceux/Diagram:${PORTSDIR}/print/texlive-borceux \
 		${LOCALBASE}/share/texmf-dist/tex/generic/c-pascal/cap.tex:${PORTSDIR}/print/texlive-c-pascal \
 		${LOCALBASE}/share/texmf-dist/tex/generic/chronosys/chronosys.sty:${PORTSDIR}/print/texlive-chronosys \
