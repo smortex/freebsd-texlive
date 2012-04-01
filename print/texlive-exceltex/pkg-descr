@@ -1,0 +1,11 @@
+Exceltex is a LaTeX package combined with a helper program
+written in Perl. It provides an easy to use yet powerfull and
+flexible way to get data from Spreadsheets into LaTeX. In
+contrast to other solutions, exceltex does not seek to make the
+creation of tables in LaTeX easier, but to get data from
+Spreadsheets into LaTeX as easily as possible. The Excel (TM)
+file format only acts as an interface between the spreadsheet
+application and exceltex beacause it is easily accessible (via
+the Spreadsheet::ParseExcel Perl module) and because most
+spreadsheet applications are able to read and write Excel
+files.

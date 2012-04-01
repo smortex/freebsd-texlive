@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20120331
+PORTVERSION=	20120401
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -114,6 +114,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/fbs/fbs.bst:${PORTSDIR}/print/texlive-fbs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/figbib/figbib.sty:${PORTSDIR}/print/texlive-figbib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/footbib/footbib.sty:${PORTSDIR}/print/texlive-footbib \
+		${LOCALBASE}/share/texmf-dist/tex/latex/geschichtsfrkl/geschichtsfrkl.bbx:${PORTSDIR}/print/texlive-geschichtsfrkl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/harvard/harvard.sty:${PORTSDIR}/print/texlive-harvard \
 		${LOCALBASE}/share/texmf-dist/tex/plain/harvmac/harvmac.tex:${PORTSDIR}/print/texlive-harvmac \
 		${LOCALBASE}/share/texmf-dist/tex/latex/historische-zeitschrift/bbx/historische-zeitschrift.bbx:${PORTSDIR}/print/texlive-historische-zeitschrift \
@@ -1027,6 +1028,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/exam/exam.cls:${PORTSDIR}/print/texlive-exam \
 		${LOCALBASE}/share/texmf-dist/tex/latex/examdesign/examdesign.cls:${PORTSDIR}/print/texlive-examdesign \
 		${LOCALBASE}/share/texmf-dist/tex/latex/examplep/examplep.sty:${PORTSDIR}/print/texlive-examplep \
+		${LOCALBASE}/share/texmf-dist/tex/latex/exceltex/exceltex.sty:${PORTSDIR}/print/texlive-exceltex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/excludeonly/excludeonly.sty:${PORTSDIR}/print/texlive-excludeonly \
 		${LOCALBASE}/share/texmf-dist/tex/latex/exercise/exercise.sty:${PORTSDIR}/print/texlive-exercise \
 		${LOCALBASE}/share/texmf-dist/tex/latex/exp-testopt/exp-testopt.sty:${PORTSDIR}/print/texlive-exp-testopt \
@@ -1463,6 +1465,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/statistik/statistik.sty:${PORTSDIR}/print/texlive-statistik \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stdclsdv/stdclsdv.sty:${PORTSDIR}/print/texlive-stdclsdv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stdpage/stdpage.sty:${PORTSDIR}/print/texlive-stdpage \
+		${LOCALBASE}/share/texmf-dist/tex/latex/stex/stex.sty:${PORTSDIR}/print/texlive-stex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/storebox/storebox.sty:${PORTSDIR}/print/texlive-storebox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/storecmd/storecmd.sty:${PORTSDIR}/print/texlive-storecmd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stringstrings/stringstrings.sty:${PORTSDIR}/print/texlive-stringstrings \

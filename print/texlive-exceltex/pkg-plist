@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/exceltex/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/latex/exceltex/INSTALL
+%%PORTDOCS%%share/texmf-dist/doc/latex/exceltex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/exceltex/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/latex/exceltex/exceltex
+share/texmf-dist/tex/latex/exceltex/exceltex.sty
+@dirrmtry share/texmf-dist/tex/latex/exceltex
+@dirrmtry share/texmf-dist/doc/latex/exceltex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

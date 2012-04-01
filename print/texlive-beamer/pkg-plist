@@ -168,7 +168,6 @@ share/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
 share/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
 share/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
 share/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty
-share/texmf-dist/tex/latex/beamer/beamerbasemisc.log
 share/texmf-dist/tex/latex/beamer/beamerbasemisc.sty
 share/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
 share/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
@@ -264,6 +263,15 @@ share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeSzeged.sty
 share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeWarsaw.sty
 share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeboxes.sty
 share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemedefault.sty
+share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemebars.sty
+share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemeclassic.sty
+share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemecompatibility.sty
+share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemelined.sty
+share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemeplain.sty
+share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemeshadow.sty
+share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemesidebar.sty
+share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemesplit.sty
+share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemetree.sty
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Brazilian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Croatian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-English.dict
@@ -325,6 +333,7 @@ share/texmf-dist/tex/latex/beamer/translator/translator.sty
 @dirrmtry share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary
 @dirrmtry share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary
 @dirrmtry share/texmf-dist/tex/latex/beamer/translator
+@dirrmtry share/texmf-dist/tex/latex/beamer/themes/theme/compatibility
 @dirrmtry share/texmf-dist/tex/latex/beamer/themes/theme
 @dirrmtry share/texmf-dist/tex/latex/beamer/themes/outer
 @dirrmtry share/texmf-dist/tex/latex/beamer/themes/inner
