@@ -1,0 +1,3 @@
+This is a small TeX Live scheme, corresponding to MacTeX's
+BasicTeX variant.  It adds various hyphenations and recommended
+packages to scheme-basic.

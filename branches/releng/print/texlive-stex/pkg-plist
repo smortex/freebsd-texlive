@@ -1,0 +1,628 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/cmath/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/cmath/cmath.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/cmathml/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/cmathml/cmathml.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/cnx/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/cnx/cnx.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/dcm/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/dcm/dcm.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/all.omdoc
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/all.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/functions.omdoc
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/functions.sms
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/functions.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/post.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/pre.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/reals.omdoc
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/reals.sms
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/background/reals.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/continuous.omdoc
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/continuous.sms
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/continuous.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/differentiable.omdoc
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/differentiable.sms
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/differentiable.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/intro.omdoc
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/intro.sms
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/intro.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/paper.omdoc
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/paper.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/paper.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/test/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/hwexam/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/hwexam/hwexam.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/metakeys/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/metakeys/metakeys.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/mikoslides/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/mikoslides/mikoslides.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/modules/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/modules/modules.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/omdoc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/omdoc/omdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/omtext/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/omtext/omtext.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/presentation/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/presentation/presentation.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/problem/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/problem/problem.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/rdfmeta/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/rdfmeta/certification.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/rdfmeta/certification.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/rdfmeta/rdfmeta.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/reqdoc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/reqdoc/reqdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/reqdoc/requirements.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/reqdoc/requirements.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sproof/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sproof/sproof.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sref/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sref/book.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sref/book.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sref/idc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sref/idc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sref/idcmain.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sref/scr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sref/scr.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sref/scrmain.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/sref/sref.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/statements/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/statements/statements.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/stex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/workaddress/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stex/workaddress/workaddress.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/Modparse.pm
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/README
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/TexId.pm
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/allgen
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/bms
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/checksum
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/convert-paths
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/filedate
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/gen-symdef-table.pl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/grep-rerun
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/idcheck
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/msplit
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/old/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/old/defcon.l
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/old/idcheck.l
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/old/modstr.l
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/old/symdef
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/rf
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/rng2dot/ModelRNC.pm
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/rng2dot/rng2dot
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/sgraph
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/sms
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/stexml
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/stexmlmod
+%%PORTSRC%%share/texmf-dist/source/latex/stex/bin/termin
+%%PORTSRC%%share/texmf-dist/source/latex/stex/cmath/cmath.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/cmath/cmath.ins
+%%PORTSRC%%share/texmf-dist/source/latex/stex/cmathml/cmathml.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/cmathml/cmathml.ins
+%%PORTSRC%%share/texmf-dist/source/latex/stex/cnx/cnx.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/cnx/cnx.ins
+%%PORTSRC%%share/texmf-dist/source/latex/stex/dcm/dcm.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/dcm/dcm.ins
+%%PORTSRC%%share/texmf-dist/source/latex/stex/hwexam/hwexam.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/hwexam/hwexam.ins
+%%PORTSRC%%share/texmf-dist/source/latex/stex/make/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/stex/make/Makefile.base.in
+%%PORTSRC%%share/texmf-dist/source/latex/stex/make/Makefile.base.vars
+%%PORTSRC%%share/texmf-dist/source/latex/stex/make/Makefile.in
+%%PORTSRC%%share/texmf-dist/source/latex/stex/make/Makefile.latex.in
+%%PORTSRC%%share/texmf-dist/source/latex/stex/make/Makefile.latex.vars
+%%PORTSRC%%share/texmf-dist/source/latex/stex/make/Makefile.latexml.in
+%%PORTSRC%%share/texmf-dist/source/latex/stex/make/Makefile.latexml.vars
+%%PORTSRC%%share/texmf-dist/source/latex/stex/make/Makefile.subdirs
+%%PORTSRC%%share/texmf-dist/source/latex/stex/make/Makefile.vars
+%%PORTSRC%%share/texmf-dist/source/latex/stex/make/README
+%%PORTSRC%%share/texmf-dist/source/latex/stex/metakeys/metakeys.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/metakeys/metakeys.ins
+%%PORTSRC%%share/texmf-dist/source/latex/stex/mikoslides/mikoslides.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/mikoslides/mikoslides.ins
+%%PORTSRC%%share/texmf-dist/source/latex/stex/modules/modules.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/modules/modules.ins
+%%PORTSRC%%share/texmf-dist/source/latex/stex/omdoc/omdoc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/omdoc/omdoc.ins
+%%PORTSRC%%share/texmf-dist/source/latex/stex/omtext/omtext.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/omtext/omtext.ins
+%%PORTSRC%%share/texmf-dist/source/latex/stex/presentation/presentation.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/presentation/presentation.ins
+%%PORTSRC%%share/texmf-dist/source/latex/stex/problem/problem.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/problem/problem.ins
+%%PORTSRC%%share/texmf-dist/source/latex/stex/rdfmeta/rdfmeta.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/rdfmeta/rdfmeta.ins
+%%PORTSRC%%share/texmf-dist/source/latex/stex/reqdoc/reqdoc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/reqdoc/reqdoc.ins
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/LaTeXML-bib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/LaTeXML-bib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/LaTeXML-block.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/LaTeXML-block.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/LaTeXML-common.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/LaTeXML-common.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/LaTeXML-inline.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/LaTeXML-inline.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/LaTeXML-math.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/LaTeXML-math.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/LaTeXML-para.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/LaTeXML-para.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/LaTeXML-picture.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/LaTeXML-picture.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/LaTeXML-structure.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/LaTeXML-structure.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/LaTeXML-tabular.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/LaTeXML-tabular.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/LaTeXML.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/LaTeXML.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/TAGS
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-animation.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-animation.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-animevents-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-animevents-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-basic-clip.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-basic-clip.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-basic-filter.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-basic-filter.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-basic-font.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-basic-font.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-basic-graphics-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-basic-graphics-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-basic-structure.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-basic-structure.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-basic-text.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-basic-text.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-clip.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-clip.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-conditional.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-conditional.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-container-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-container-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-core-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-core-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-cursor.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-cursor.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-datatypes.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-datatypes.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-docevents-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-docevents-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-extensibility.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-extensibility.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-extresources-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-extresources-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-filter.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-filter.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-font.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-font.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-gradient.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-gradient.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-graphevents-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-graphevents-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-graphics-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-graphics-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-hyperlink.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-hyperlink.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-image.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-image.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-marker.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-marker.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-mask.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-mask.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-opacity-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-opacity-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-paint-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-paint-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-pattern.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-pattern.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-profile.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-profile.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-qname.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-script.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-script.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-shape.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-shape.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-structure.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-structure.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-style.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-style.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-text.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-text.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-view.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-view.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-viewport-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-viewport-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-xlink-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg-xlink-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg11-basic.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg11-tiny.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg11.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML/svg11.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/metadata.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc+ltxml.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/MARCRelators.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/README
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/arith1.omdoc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/creativecommons.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/dublincore.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/mathml3-common.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/mathml3-content.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/mathml3-presentation.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/mathml3-strict-content.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/mathml3-strict.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/mathml3.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/mocksoap.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/omcd2.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/omcdgroup2.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/omcdsig2.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/omdoc-common.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/omdoc.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/omdocadt.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/omdoccc.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/omdoccth.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/omdocdc.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/omdocdg.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/omdocdoc.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/omdocext.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/omdocmeta.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/omdocmobj.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/omdocmtxt.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/omdocpf.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/omdocphys.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/omdocpres.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/omdocquiz.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/omdocrt.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/omdocst.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/openmath2.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/pxhtml.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/schemas.xml
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/todo
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/todo.txt
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/xhtml-applet.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/xhtml-attribs.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/xhtml-basic-table.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/xhtml-bdo.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/xhtml-datatypes.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/xhtml-hypertext.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/xhtml-image.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/xhtml-inlstyle.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/xhtml-list.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/xhtml-object.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/xhtml-param.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/xhtml-table.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/omdoc/xhtml-text.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/owl.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/owl2+ltxml.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/owl2-xml.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/owl2xml.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/schemas.xml
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/statements.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-animation.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-animevents-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-basic-clip.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-basic-filter.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-basic-font.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-basic-graphics-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-basic-structure.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-basic-text.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-clip.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-conditional.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-container-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-core-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-cursor.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-datatypes.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-docevents-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-extensibility.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-extresources-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-filter.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-font.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-gradient.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-graphevents-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-graphics-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-hyperlink.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-image.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-marker.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-mask.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-opacity-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-paint-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-pattern.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-profile.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-qname.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-script.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-shape.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-structure.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-style.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-text.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-view.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-viewport-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-xlink-attrib.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg11-basic.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg11-tiny.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg11.rnc
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/LaTeXML-bib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/LaTeXML-block.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/LaTeXML-common.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/LaTeXML-inline.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/LaTeXML-math.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/LaTeXML-para.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/LaTeXML-picture.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/LaTeXML-structure.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/LaTeXML-tabular.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/LaTeXML.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/MARCRelators.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/creativecommons.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/dublincore.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/mathml3-cds-pragmatic.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/mathml3-common.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/mathml3-content.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/mathml3-pragmatic.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/mathml3-presentation.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/mathml3-strict-content.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/mathml3-strict.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/mathml3.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/metadata.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/omdoc+ltxml.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/omdoc-common.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/omdoc-xhtml.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/omdoc.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/omdocadt.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/omdocattribs.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/omdoccc.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/omdoccth.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/omdocdc.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/omdocdg.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/omdocdoc.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/omdocext.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/omdocmeta.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/omdocmobj.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/omdocmtxt.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/omdocpf.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/omdocpres.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/omdocquiz.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/omdocrt.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/omdocst.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/openmath2.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/openmath3.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/owl.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/owl2+ltxml.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/owl2-xml.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/owl2xml.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/pxhtml.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/statements.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-animation.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-animevents-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-basic-clip.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-basic-filter.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-basic-font.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-basic-graphics-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-basic-structure.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-basic-text.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-clip.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-conditional.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-container-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-core-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-cursor.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-datatypes.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-docevents-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-extensibility.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-extresources-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-filter.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-font.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-gradient.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-graphevents-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-graphics-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-hyperlink.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-image.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-marker.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-mask.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-opacity-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-paint-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-pattern.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-profile.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-script.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-shape.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-structure.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-style.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-text.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-view.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-viewport-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg-xlink-attrib.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/svg11.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/xhtml-applet.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/xhtml-attribs.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/xhtml-base.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/xhtml-basic-table.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/xhtml-bdo.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/xhtml-datatypes.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/xhtml-hypertext.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/xhtml-image.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/xhtml-inlstyle.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/xhtml-link.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/xhtml-list.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/xhtml-object.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/xhtml-param.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/xhtml-table.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rng/xhtml-text.rng
+%%PORTSRC%%share/texmf-dist/source/latex/stex/sproof/sproof.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/sproof/sproof.ins
+%%PORTSRC%%share/texmf-dist/source/latex/stex/sref/sref.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/sref/sref.ins
+%%PORTSRC%%share/texmf-dist/source/latex/stex/statements/statements.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/statements/statements.ins
+%%PORTSRC%%share/texmf-dist/source/latex/stex/workaddress/workaddress.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stex/workaddress/workaddress.ins
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/LaTeXML-bib-xhtml.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/LaTeXML-block-xhtml.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/LaTeXML-common.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/LaTeXML-html.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/LaTeXML-html5.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/LaTeXML-inline-xhtml.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/LaTeXML-math-image.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/LaTeXML-math-mathml-html5.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/LaTeXML-math-mathml.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/LaTeXML-para-html5.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/LaTeXML-para-xhtml.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/LaTeXML-picture-image.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/LaTeXML-picture-svg-html5.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/LaTeXML-picture-svg.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/LaTeXML-structure-html5.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/LaTeXML-structure-xhtml.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/LaTeXML-tabular-xhtml.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/LaTeXML-webpage-html5.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/LaTeXML-webpage-xhtml.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/LaTeXML-xhtml.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/amsart.css
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/closedbib.css
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/core.css
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/marginpar.css
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/navbar-left.css
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/navbar-right.css
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/LaTeXML/theme-blue.css
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/doc.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/graphics.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/listings.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/ltxml2cnx.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/math.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/notations.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/omdocpost.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/owl2post.xsl
+%%PORTSRC%%share/texmf-dist/source/latex/stex/xsl/symbols.xsl
+share/texmf-dist/tex/latex/stex/cmath/cmath.sty
+share/texmf-dist/tex/latex/stex/cmath/cmath.sty.ltxml
+share/texmf-dist/tex/latex/stex/cmathml/cmathml.sty
+share/texmf-dist/tex/latex/stex/cmathml/cmathml.sty.ltxml
+share/texmf-dist/tex/latex/stex/cmathml/cmathmlx.sty
+share/texmf-dist/tex/latex/stex/cmathml/cmathmlx.sty.ltxml
+share/texmf-dist/tex/latex/stex/cnx/cnx.cls
+share/texmf-dist/tex/latex/stex/cnx/cnx.cls.ltxml
+share/texmf-dist/tex/latex/stex/ctansvn.sty
+share/texmf-dist/tex/latex/stex/dcm/dcm.sty
+share/texmf-dist/tex/latex/stex/dcm/dcm.sty.ltxml
+share/texmf-dist/tex/latex/stex/hwexam/hwexam.cls
+share/texmf-dist/tex/latex/stex/hwexam/hwexam.cls.ltxml
+share/texmf-dist/tex/latex/stex/hwexam/hwexam.sty
+share/texmf-dist/tex/latex/stex/hwexam/hwexam.sty.ltxml
+share/texmf-dist/tex/latex/stex/metakeys/metakeys.sty
+share/texmf-dist/tex/latex/stex/metakeys/metakeys.sty.ltxml
+share/texmf-dist/tex/latex/stex/mikoslides/beamerthemeJacobs.sty
+share/texmf-dist/tex/latex/stex/mikoslides/cc-by-sa.png
+share/texmf-dist/tex/latex/stex/mikoslides/cc_somerights.png
+share/texmf-dist/tex/latex/stex/mikoslides/dangerous-bend.png
+share/texmf-dist/tex/latex/stex/mikoslides/jacobs-logo.png
+share/texmf-dist/tex/latex/stex/mikoslides/mikoaffiliation.sty
+share/texmf-dist/tex/latex/stex/mikoslides/mikoaffiliation.sty.ltxml
+share/texmf-dist/tex/latex/stex/mikoslides/mikoslides.cls
+share/texmf-dist/tex/latex/stex/mikoslides/mikoslides.cls.ltxml
+share/texmf-dist/tex/latex/stex/mikoslides/shading-l2r.png
+share/texmf-dist/tex/latex/stex/modules/modules.sty
+share/texmf-dist/tex/latex/stex/modules/modules.sty.ltxml
+share/texmf-dist/tex/latex/stex/omdoc/omdoc.cls
+share/texmf-dist/tex/latex/stex/omdoc/omdoc.cls.ltxml
+share/texmf-dist/tex/latex/stex/omdoc/omdoc.sty
+share/texmf-dist/tex/latex/stex/omdoc/omdoc.sty.ltxml
+share/texmf-dist/tex/latex/stex/omtext/omtext.sty
+share/texmf-dist/tex/latex/stex/omtext/omtext.sty.ltxml
+share/texmf-dist/tex/latex/stex/presentation/presentation.sty
+share/texmf-dist/tex/latex/stex/presentation/presentation.sty.ltxml
+share/texmf-dist/tex/latex/stex/problem/problem.sty
+share/texmf-dist/tex/latex/stex/problem/problem.sty.ltxml
+share/texmf-dist/tex/latex/stex/rdfmeta/rdfmeta.sty
+share/texmf-dist/tex/latex/stex/rdfmeta/rdfmeta.sty.ltxml
+share/texmf-dist/tex/latex/stex/reqdoc/reqdoc.sty
+share/texmf-dist/tex/latex/stex/reqdoc/reqdoc.sty.ltxml
+share/texmf-dist/tex/latex/stex/sproof/sproof.sty
+share/texmf-dist/tex/latex/stex/sproof/sproof.sty.ltxml
+share/texmf-dist/tex/latex/stex/sref/sref.sty
+share/texmf-dist/tex/latex/stex/sref/sref.sty.ltxml
+share/texmf-dist/tex/latex/stex/statements/statements.sty
+share/texmf-dist/tex/latex/stex/statements/statements.sty.ltxml
+share/texmf-dist/tex/latex/stex/stex-logo.sty
+share/texmf-dist/tex/latex/stex/stex-logo.sty.ltxml
+share/texmf-dist/tex/latex/stex/stex.sty
+share/texmf-dist/tex/latex/stex/stex.sty.ltxml
+share/texmf-dist/tex/latex/stex/stex.tex
+share/texmf-dist/tex/latex/stex/workaddress/workaddress.sty
+share/texmf-dist/tex/latex/stex/workaddress/workaddress.sty.ltxml
+@dirrmtry share/texmf-dist/tex/latex/stex/workaddress
+@dirrmtry share/texmf-dist/tex/latex/stex/statements
+@dirrmtry share/texmf-dist/tex/latex/stex/sref
+@dirrmtry share/texmf-dist/tex/latex/stex/sproof
+@dirrmtry share/texmf-dist/tex/latex/stex/reqdoc
+@dirrmtry share/texmf-dist/tex/latex/stex/rdfmeta
+@dirrmtry share/texmf-dist/tex/latex/stex/problem
+@dirrmtry share/texmf-dist/tex/latex/stex/presentation
+@dirrmtry share/texmf-dist/tex/latex/stex/omtext
+@dirrmtry share/texmf-dist/tex/latex/stex/omdoc
+@dirrmtry share/texmf-dist/tex/latex/stex/modules
+@dirrmtry share/texmf-dist/tex/latex/stex/mikoslides
+@dirrmtry share/texmf-dist/tex/latex/stex/metakeys
+@dirrmtry share/texmf-dist/tex/latex/stex/hwexam
+@dirrmtry share/texmf-dist/tex/latex/stex/dcm
+@dirrmtry share/texmf-dist/tex/latex/stex/cnx
+@dirrmtry share/texmf-dist/tex/latex/stex/cmathml
+@dirrmtry share/texmf-dist/tex/latex/stex/cmath
+@dirrmtry share/texmf-dist/tex/latex/stex
+@dirrmtry share/texmf-dist/source/latex/stex/xsl/LaTeXML
+@dirrmtry share/texmf-dist/source/latex/stex/xsl
+@dirrmtry share/texmf-dist/source/latex/stex/workaddress
+@dirrmtry share/texmf-dist/source/latex/stex/statements
+@dirrmtry share/texmf-dist/source/latex/stex/sref
+@dirrmtry share/texmf-dist/source/latex/stex/sproof
+@dirrmtry share/texmf-dist/source/latex/stex/schema/rng
+@dirrmtry share/texmf-dist/source/latex/stex/schema/rnc/svg
+@dirrmtry share/texmf-dist/source/latex/stex/schema/rnc/omdoc
+@dirrmtry share/texmf-dist/source/latex/stex/schema/rnc/LaTeXML
+@dirrmtry share/texmf-dist/source/latex/stex/schema/rnc
+@dirrmtry share/texmf-dist/source/latex/stex/schema
+@dirrmtry share/texmf-dist/source/latex/stex/reqdoc
+@dirrmtry share/texmf-dist/source/latex/stex/rdfmeta
+@dirrmtry share/texmf-dist/source/latex/stex/problem
+@dirrmtry share/texmf-dist/source/latex/stex/presentation
+@dirrmtry share/texmf-dist/source/latex/stex/omtext
+@dirrmtry share/texmf-dist/source/latex/stex/omdoc
+@dirrmtry share/texmf-dist/source/latex/stex/modules
+@dirrmtry share/texmf-dist/source/latex/stex/mikoslides
+@dirrmtry share/texmf-dist/source/latex/stex/metakeys
+@dirrmtry share/texmf-dist/source/latex/stex/make
+@dirrmtry share/texmf-dist/source/latex/stex/hwexam
+@dirrmtry share/texmf-dist/source/latex/stex/dcm
+@dirrmtry share/texmf-dist/source/latex/stex/cnx
+@dirrmtry share/texmf-dist/source/latex/stex/cmathml
+@dirrmtry share/texmf-dist/source/latex/stex/cmath
+@dirrmtry share/texmf-dist/source/latex/stex/bin/rng2dot
+@dirrmtry share/texmf-dist/source/latex/stex/bin/old
+@dirrmtry share/texmf-dist/source/latex/stex/bin
+@dirrmtry share/texmf-dist/doc/latex/stex/workaddress
+@dirrmtry share/texmf-dist/doc/latex/stex/statements
+@dirrmtry share/texmf-dist/doc/latex/stex/sref
+@dirrmtry share/texmf-dist/doc/latex/stex/sproof
+@dirrmtry share/texmf-dist/doc/latex/stex/reqdoc
+@dirrmtry share/texmf-dist/doc/latex/stex/rdfmeta
+@dirrmtry share/texmf-dist/doc/latex/stex/problem
+@dirrmtry share/texmf-dist/doc/latex/stex/presentation
+@dirrmtry share/texmf-dist/doc/latex/stex/omtext
+@dirrmtry share/texmf-dist/doc/latex/stex/omdoc
+@dirrmtry share/texmf-dist/doc/latex/stex/modules
+@dirrmtry share/texmf-dist/doc/latex/stex/mikoslides
+@dirrmtry share/texmf-dist/doc/latex/stex/metakeys
+@dirrmtry share/texmf-dist/doc/latex/stex/hwexam
+@dirrmtry share/texmf-dist/doc/latex/stex/example/test
+@dirrmtry share/texmf-dist/doc/latex/stex/example/paper
+@dirrmtry share/texmf-dist/doc/latex/stex/example/background
+@dirrmtry share/texmf-dist/doc/latex/stex/example
+@dirrmtry share/texmf-dist/doc/latex/stex/dcm
+@dirrmtry share/texmf-dist/doc/latex/stex/cnx
+@dirrmtry share/texmf-dist/doc/latex/stex/cmathml
+@dirrmtry share/texmf-dist/doc/latex/stex/cmath
+@dirrmtry share/texmf-dist/doc/latex/stex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
