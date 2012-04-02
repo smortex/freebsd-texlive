@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/appendixnumberbeamer/README
+share/texmf-dist/tex/latex/appendixnumberbeamer/appendixnumberbeamer.sty
+@dirrmtry share/texmf-dist/tex/latex/appendixnumberbeamer
+@dirrmtry share/texmf-dist/doc/latex/appendixnumberbeamer
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

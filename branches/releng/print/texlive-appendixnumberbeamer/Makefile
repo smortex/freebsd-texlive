@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-biblatex-ieee
-# Date created:		02/15/2011 04:45:55
+# New ports collection makefile for:	texlive-appendixnumberbeamer
+# Date created:		04/02/2012 04:55:31
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	biblatex-ieee
+PORTNAME=	appendixnumberbeamer
 PORTVERSION=	20120402
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Ieee style files for biblatex.
+COMMENT=	Manage frame numbering in appendixes in beamer.
 
 NOPORTSRC=	yes
 

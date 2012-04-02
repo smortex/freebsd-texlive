@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ifthenx/README
+share/texmf-dist/tex/latex/ifthenx/ifthenx.sty
+@dirrmtry share/texmf-dist/tex/latex/ifthenx
+@dirrmtry share/texmf-dist/doc/latex/ifthenx
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

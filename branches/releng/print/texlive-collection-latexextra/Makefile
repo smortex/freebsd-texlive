@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120401
+PORTVERSION=	20120402
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -235,6 +235,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/answers/answers.sty:${PORTSDIR}/print/texlive-answers \
 		${LOCALBASE}/share/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty:${PORTSDIR}/print/texlive-anyfontsize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/appendix/appendix.sty:${PORTSDIR}/print/texlive-appendix \
+		${LOCALBASE}/share/texmf-dist/tex/latex/appendixnumberbeamer/appendixnumberbeamer.sty:${PORTSDIR}/print/texlive-appendixnumberbeamer \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arcs/arcs.sty:${PORTSDIR}/print/texlive-arcs \
 		${LOCALBASE}/share/texmf-dist/tex/generic/arrayjobx/arrayjobx.sty:${PORTSDIR}/print/texlive-arrayjobx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/assignment/assignment.cls:${PORTSDIR}/print/texlive-assignment \
@@ -540,6 +541,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifnextok/ifnextok.sty:${PORTSDIR}/print/texlive-ifnextok \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty:${PORTSDIR}/print/texlive-ifoddpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifplatform/ifplatform.sty:${PORTSDIR}/print/texlive-ifplatform \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ifthenx/ifthenx.sty:${PORTSDIR}/print/texlive-ifthenx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/image-gallery/image-gallery.cls:${PORTSDIR}/print/texlive-image-gallery \
 		${LOCALBASE}/share/texmf-dist/tex/latex/imakeidx/imakeidx.sty:${PORTSDIR}/print/texlive-imakeidx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/import/import.sty:${PORTSDIR}/print/texlive-import \

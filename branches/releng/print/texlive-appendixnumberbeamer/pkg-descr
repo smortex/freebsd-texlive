@@ -1,0 +1,3 @@
+The package arranges that an appendix in a beamer presentation
+is not counted in the frame count of the presentation;
+appendixes are numbered starting from one.
