@@ -6,19 +6,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/paper/paper.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/paper/testj.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/paper/testp.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/Makefile
-%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/continuous.omdoc
-%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/continuous.sms
-%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/continuous.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/differentiable.omdoc
-%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/differentiable.sms
-%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/differentiable.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/intro.omdoc
-%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/intro.sms
-%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/intro.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/paper.omdoc
-%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/paper.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/stex/example/paper/paper.tex
 %%PORTSRC%%share/texmf-dist/source/latex/paper/paper.drv
 %%PORTSRC%%share/texmf-dist/source/latex/paper/paper.dtx
 share/texmf-dist/tex/latex/paper/journal.cls
@@ -27,7 +14,6 @@ share/texmf-dist/tex/latex/paper/paper.cls
 share/texmf-dist/tex/latex/paper/paper.sty
 @dirrmtry share/texmf-dist/tex/latex/paper
 @dirrmtry share/texmf-dist/source/latex/paper
-@dirrmtry share/texmf-dist/doc/latex/stex/example/paper
 @dirrmtry share/texmf-dist/doc/latex/paper
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

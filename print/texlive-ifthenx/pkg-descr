@@ -1,0 +1,5 @@
+The package extends the ifthen package, providing extra
+predicates for the package's \ifthenelse command. The package
+is complementary to xifthen, in that they provide different
+facilities; the two may be loaded in the same document, as long
+as xifthen is loaded first.
