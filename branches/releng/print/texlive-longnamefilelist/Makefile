@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	longnamefilelist
-PORTVERSION=	20120316
+PORTVERSION=	20120403
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
