@@ -1,13 +1,8 @@
-%%PORTDOCS%%share/texmf-dist/doc/fonts/libertine/Bugs.txt
-%%PORTDOCS%%share/texmf-dist/doc/fonts/libertine/ChangeLog.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine/GPL.txt
-%%PORTDOCS%%share/texmf-dist/doc/fonts/libertine/INSTALL.txt
-%%PORTDOCS%%share/texmf-dist/doc/fonts/libertine/LICENCE.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine/OFL.txt
-%%PORTDOCS%%share/texmf-dist/doc/fonts/libertine/README.libertine
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertine/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine/libertine.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/libertine/libertine.sty
-%%PORTDOCS%%share/texmf-dist/doc/fonts/libertine/libertine.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertine/lppl.txt
 share/texmf-dist/fonts/opentype/public/libertine/LinBiolinum_K.otf
 share/texmf-dist/fonts/opentype/public/libertine/LinBiolinum_R.otf
 share/texmf-dist/fonts/opentype/public/libertine/LinBiolinum_RB.otf
