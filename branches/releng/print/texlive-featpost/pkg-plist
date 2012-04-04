@@ -6,8 +6,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostdocsource.tex
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostmanual.pdf
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostmanual.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/lastfiguretest.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/lastfiguretest.tex
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropaganda.pdf
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropaganda.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles.zip
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/3.eps
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/3.jpeg
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/3.pgm
@@ -61,6 +64,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/aledlogo.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/anglinerigorouscircle.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/antimattermeteor.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/bananadimmer.log
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/bananadimmer.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/borderframetest.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/brownellips.mp

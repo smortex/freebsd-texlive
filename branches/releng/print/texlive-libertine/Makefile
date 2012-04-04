@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	libertine
-PORTVERSION=	20111225
+PORTVERSION=	20120404
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use the font Libertine with LaTeX.
+COMMENT=	Linux Libertine fonts for use with lua(La)TeX and xe(La)TeX.
 
 NOPORTSRC=	yes
 
