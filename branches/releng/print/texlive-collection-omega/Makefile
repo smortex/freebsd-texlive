@@ -6,12 +6,12 @@
 #
 
 PORTNAME=	collection-omega
-PORTVERSION=	20120321
+PORTVERSION=	20120405
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Omega packages.
+COMMENT=	Omega packages
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/lambda/antomega/antomega.sty:${PORTSDIR}/print/texlive-antomega \
 		${LOCALBASE}/share/texmf-dist/tex/lambda/base/lambda.tex:${PORTSDIR}/print/texlive-lambda \

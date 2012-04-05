@@ -9,6 +9,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/epix.asy
 %%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/epix.prc
 %%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/mailto.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/players/APlayer.mxml
+%%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/players/BSD-License
+%%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/players/SMPfixes.patch
+%%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/players/StrobeMediaPlayback-license
+%%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/players/VPlayer.mxml
 %%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/random.mp4
 %%PORTDOCS%%share/texmf-dist/doc/latex/media9/media9.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/media9/media9.tex
@@ -17,13 +22,13 @@ share/texmf-dist/tex/latex/media9/javascript/3Dspintool.js
 share/texmf-dist/tex/latex/media9/javascript/animation.js
 share/texmf-dist/tex/latex/media9/javascript/asylabels.js
 share/texmf-dist/tex/latex/media9/media9.sty
-share/texmf-dist/tex/latex/media9/players/APlayer.mxml
 share/texmf-dist/tex/latex/media9/players/APlayer.swf
-share/texmf-dist/tex/latex/media9/players/VPlayer.mxml
+share/texmf-dist/tex/latex/media9/players/StrobeMediaPlayback.swf
 share/texmf-dist/tex/latex/media9/players/VPlayer.swf
 @dirrmtry share/texmf-dist/tex/latex/media9/players
 @dirrmtry share/texmf-dist/tex/latex/media9/javascript
 @dirrmtry share/texmf-dist/tex/latex/media9
+@dirrmtry share/texmf-dist/doc/latex/media9/files/players
 @dirrmtry share/texmf-dist/doc/latex/media9/files
 @dirrmtry share/texmf-dist/doc/latex/media9
 @exec %D/bin/mktexlsr
