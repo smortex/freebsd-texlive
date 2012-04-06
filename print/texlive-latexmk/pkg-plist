@@ -3,11 +3,13 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/INSTALL
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/README
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/README
+%%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/Sweave_latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/asymptote_latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/glossary_latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/mpost_latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/pdflatexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/sagetex_latexmkrc
+%%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/xelatex_latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/README1
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/dvipdfm_call
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/dvipdfm_call.bat
@@ -19,12 +21,13 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/pst2pdf_for_latexmk
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/pst2pdf_for_latexmk_README.txt
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/startacroread
-%%PORTDOCS%%share/texmf-dist/doc/support/latexmk/latexmk.bat
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/latexmk.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/latexmk.txt
+%%PORTSRC%%share/texmf-dist/source/support/latexmk/latexmk.bat
 %%PORTDOCS%%share/texmf/doc/man/man1/latexmk.1
 %%PORTDOCS%%share/texmf/doc/man/man1/latexmk.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf-dist/source/support/latexmk
 @dirrmtry share/texmf-dist/doc/support/latexmk/extra-scripts
 @dirrmtry share/texmf-dist/doc/support/latexmk/example_rcfiles
 @dirrmtry share/texmf-dist/doc/support/latexmk

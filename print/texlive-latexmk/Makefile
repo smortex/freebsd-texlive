@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	latexmk
-PORTVERSION=	20111213
+PORTVERSION=	20120406
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
@@ -14,7 +14,6 @@ COMMENT=	Fully automated LaTeX document generation routine.
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
