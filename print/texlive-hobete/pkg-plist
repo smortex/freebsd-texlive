@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/hobete/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/hobete/hobete_doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/hobete/hobete_doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/hobete/poster-test.tex
+share/texmf-dist/tex/latex/hobete/beamercolorthemehohenheim.sty
+share/texmf-dist/tex/latex/hobete/beamerouterthemehohenheim.sty
+share/texmf-dist/tex/latex/hobete/beamerouterthemehohenheimposter.sty
+share/texmf-dist/tex/latex/hobete/beamerthemehohenheim.sty
+share/texmf-dist/tex/latex/hobete/hobete.sty
+@dirrmtry share/texmf-dist/tex/latex/hobete
+@dirrmtry share/texmf-dist/doc/latex/hobete
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

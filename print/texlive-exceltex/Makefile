@@ -6,11 +6,13 @@
 #
 
 PORTNAME=	exceltex
-PORTVERSION=	20120401
+PORTVERSION=	20120407
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Get data from Excel files into LaTeX.
+
+RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
 NOPORTSRC=	yes
 

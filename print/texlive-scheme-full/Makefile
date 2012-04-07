@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20120402
+PORTVERSION=	20120407
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1857,6 +1857,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/gaceta/gaceta.cls:${PORTSDIR}/print/texlive-gaceta \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gatech-thesis/gatech-thesis.cls:${PORTSDIR}/print/texlive-gatech-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/har2nat/har2nat.sty:${PORTSDIR}/print/texlive-har2nat \
+		${LOCALBASE}/share/texmf-dist/tex/latex/hobete/hobete.sty:${PORTSDIR}/print/texlive-hobete \
 		${LOCALBASE}/share/texmf-dist/tex/latex/icsv/icsv.cls:${PORTSDIR}/print/texlive-icsv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ieeepes/ieeepes.sty:${PORTSDIR}/print/texlive-ieeepes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ijmart/ijmart.cls:${PORTSDIR}/print/texlive-ijmart \

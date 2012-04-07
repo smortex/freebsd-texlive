@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-menukeys
-# Date created:		02/25/2012 05:01:38
+# New ports collection makefile for:	texlive-hobete
+# Date created:		04/07/2012 05:12:10
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	menukeys
+PORTNAME=	hobete
 PORTVERSION=	20120407
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Format menu sequences, paths and keystrokes from lists.
+COMMENT=	Unofficial beamer theme for the University of Hohenheim.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
