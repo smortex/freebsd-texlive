@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20120407
+PORTVERSION=	20120412
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -30,6 +30,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/asaetr/asaetr.cls:${PORTSDIR}/print/texlive-asaetr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ascelike/ascelike.cls:${PORTSDIR}/print/texlive-ascelike \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamer-FUBerlin/FUbeamer.cls:${PORTSDIR}/print/texlive-beamer-FUBerlin \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bgteubner/bgteubner.cls:${PORTSDIR}/print/texlive-bgteubner \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cascadilla/cascadilla.cls:${PORTSDIR}/print/texlive-cascadilla \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/chem-journal/jcc.bst:${PORTSDIR}/print/texlive-chem-journal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/classicthesis/classicthesis.sty:${PORTSDIR}/print/texlive-classicthesis \

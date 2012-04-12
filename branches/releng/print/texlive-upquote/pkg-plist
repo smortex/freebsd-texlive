@@ -1,4 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/upquote/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/upquote/upquote.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/upquote/upquote.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/upquote/upquote.ins
 share/texmf-dist/tex/latex/upquote/upquote.sty
 @dirrmtry share/texmf-dist/tex/latex/upquote
+@dirrmtry share/texmf-dist/source/latex/upquote
+@dirrmtry share/texmf-dist/doc/latex/upquote
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
