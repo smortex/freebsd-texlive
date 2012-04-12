@@ -1,6 +1,0 @@
-share/texmf-dist/tex/latex/taupin/smallcap.sty
-share/texmf-dist/tex/latex/taupin/t1cmsc.fd
-share/texmf-dist/tex/latex/taupin/varsects.sty
-@dirrmtry share/texmf-dist/tex/latex/taupin
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr

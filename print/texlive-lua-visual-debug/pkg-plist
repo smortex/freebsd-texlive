@@ -1,10 +1,13 @@
 %%PORTDOCS%%share/texmf-dist/doc/luatex/lua-visual-debug/README
+%%PORTDOCS%%share/texmf-dist/doc/luatex/lua-visual-debug/README.doc
 %%PORTDOCS%%share/texmf-dist/doc/luatex/lua-visual-debug/lvdebug-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/luatex/lua-visual-debug/lvdebug-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/lua-visual-debug/lvdebugdetail1-num.png
 %%PORTDOCS%%share/texmf-dist/doc/luatex/lua-visual-debug/sample-plain.pdf
 %%PORTDOCS%%share/texmf-dist/doc/luatex/lua-visual-debug/sample-plain.tex
 %%PORTDOCS%%share/texmf-dist/doc/luatex/lua-visual-debug/sample.pdf
 %%PORTDOCS%%share/texmf-dist/doc/luatex/lua-visual-debug/sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/lua-visual-debug/strut.png
 share/texmf-dist/tex/luatex/lua-visual-debug/lua-visual-debug.lua
 share/texmf-dist/tex/luatex/lua-visual-debug/lua-visual-debug.sty
 @dirrmtry share/texmf-dist/tex/luatex/lua-visual-debug

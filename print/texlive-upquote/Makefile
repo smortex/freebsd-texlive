@@ -6,14 +6,12 @@
 #
 
 PORTNAME=	upquote
-PORTVERSION=	20100922
+PORTVERSION=	20120412
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Show "realistic" quotes in verbatim.
 
-NOPORTDOCS=	yes
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

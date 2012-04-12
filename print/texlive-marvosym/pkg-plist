@@ -1,9 +1,13 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/FONTLOG.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/OFL-FAQ.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/OFL.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/README.TEXLIVE
 %%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/marvodoc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/marvodoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/marvosym-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/marvosym/marvosym-doc.tex
 share/texmf-dist/fonts/afm/public/marvosym/marvosym.afm
 share/texmf-dist/fonts/map/dvips/marvosym/marvosym.map
 share/texmf-dist/fonts/tfm/public/marvosym/umvs.tfm

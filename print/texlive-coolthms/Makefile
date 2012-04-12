@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	coolthms
-PORTVERSION=	20120331
+PORTVERSION=	20120412
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The coolthms package
+COMMENT=	Reference items in a theorem environment.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
