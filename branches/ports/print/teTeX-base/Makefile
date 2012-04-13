@@ -7,7 +7,7 @@
 
 PORTNAME=	teTeX-base
 PORTVERSION=	3.0
-PORTREVISION=	21
+PORTREVISION=	23
 CATEGORIES=	print
 MASTER_SITES=	${MASTER_SITE_TEX_CTAN} \
 		ftp://ftp.ascii.co.jp/pub/TeX/ascii-ptex/dvips/:1
@@ -49,8 +49,8 @@ CONFIGURE_ARGS=	--disable-multiplatform \
 		--without-xdvik --without-oxdvik
 CONFIGURE_ENV=	INSTALL_SCRIPT="${INSTALL_SCRIPT}" \
 		INSTALL_DATA="${INSTALL_DATA}" \
-		INSTALL_PROGRAM="${INSTALL_PROGRAM}" \
-		CFLAGS="${CFLAGS} -I${LOCALBASE}/include"
+		INSTALL_PROGRAM="${INSTALL_PROGRAM}"
+CFLAGS+=	-I${LOCALBASE}/include
 PKGMESSAGE=	${WRKDIR}/pkg-message
 CONFLICTS=	ja-ptex-base-[0-9]* latex2e-[0-9]* \
 		tex-[0-9]* dvips-[0-9]* xdvi-[0-9]* \
@@ -178,8 +178,6 @@ post-install:
 	${MKDIR} ${PREFIX}/${TEXMFCONFIGDIR}/texconfig
 	${INSTALL_DATA} ${PREFIX}/${TEXMFDIR}/texconfig/tcfmgr.map \
 		${PREFIX}/${TEXMFCONFIGDIR}/texconfig/tcfmgr.map
-	${INSTALL_SCRIPT} ${WRKSRC}/utils/texinfo/util/texi2dvi ${PREFIX}/bin
-	${INSTALL_SCRIPT} ${WRKSRC}/utils/texinfo/util/texi2pdf ${PREFIX}/bin
 	${MV} -f ${PREFIX}/bin/texdoctk ${PREFIX}/bin/texdoctk.real
 	${INSTALL_SCRIPT} ${WRKDIR}/texdoctk.wrapper ${PREFIX}/bin/texdoctk
 	${MKDIR} ${PREFIX}/${UPDMAPDIR}
