@@ -7,8 +7,8 @@
 #
 
 PORTNAME=	evince
-PORTVERSION=	2.30.3
-PORTREVISION=	3
+PORTVERSION=	2.32.0
+PORTREVISION=	8
 CATEGORIES=	graphics print gnome
 MASTER_SITES=	GNOME
 DIST_SUBDIR=	gnome2
@@ -17,25 +17,28 @@ MAINTAINER=	gnome@FreeBSD.org
 COMMENT=	GNOME 2 multi-format document viewer
 
 BUILD_DEPENDS=	${LOCALBASE}/share/icons/gnome/index.theme:${PORTSDIR}/misc/gnome-icon-theme
-LIB_DEPENDS=	poppler-glib.4:${PORTSDIR}/graphics/poppler-gtk \
+LIB_DEPENDS=	poppler-glib.8:${PORTSDIR}/graphics/poppler-glib \
 		spectre.1:${PORTSDIR}/print/libspectre
 RUN_DEPENDS=	${LOCALBASE}/share/icons/gnome/index.theme:${PORTSDIR}/misc/gnome-icon-theme
 
 USE_LDCONFIG=	yes
 USE_BZIP2=	yes
-USE_AUTOTOOLS=	libtool:22
+USE_AUTOTOOLS=	libtool
 INSTALLS_ICONS=	yes
 USE_GETTEXT=	yes
 USE_GMAKE=	yes
 INSTALLS_OMF=	yes
 USE_GNOME=	gnomehack intlhack gnomeprefix desktopfileutils \
-		gnomedocutils ltasneededhack
-CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \
-		LDFLAGS="-L${LOCALBASE}/lib"
+		gnomedocutils ltasneededhack gconf2
+CPPFLAGS+=	-I${LOCALBASE}/include
+LDFLAGS+=	-L${LOCALBASE}/lib
 
-GCONF_SCHEMAS=	evince.schemas \
+GLIB_SCHEMAS=	org.gnome.Evince.gschema.xml
+GCONF_SCHEMAS=	\
 		evince-thumbnailer.schemas \
 		evince-thumbnailer-ps.schemas
+
+PLIST_SUB+=	VERSION=2.32
 
 MAN1=		evince.1
 
@@ -95,7 +98,7 @@ PLIST_SUB+=		IMPRESS="@comment "
 .endif
 
 .if defined(WITH_DJVU)
-LIB_DEPENDS+=		djvulibre.22:${PORTSDIR}/graphics/djvulibre-nox11
+LIB_DEPENDS+=		djvulibre.24:${PORTSDIR}/graphics/djvulibre-nox11
 CONFIGURE_ARGS+=	--enable-djvu
 GCONF_SCHEMAS+=		evince-thumbnailer-djvu.schemas
 PLIST_SUB+=		DJVU=""
@@ -120,6 +123,7 @@ PLIST_SUB+=		COMICS="@comment "
 
 post-patch:
 	@${REINPLACE_CMD} -e 's|execinfo.h|#|g' \
+		-e 's|" == "|" = "|g' \
 		${WRKSRC}/configure
 	@${REINPLACE_CMD} -e '/^DOC_MODULE_VERSION/d' \
 		${WRKSRC}/help/reference/libdocument/Makefile.in \
