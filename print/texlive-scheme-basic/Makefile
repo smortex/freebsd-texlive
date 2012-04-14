@@ -6,12 +6,12 @@
 #
 
 PORTNAME=	scheme-basic
-PORTVERSION=	20110427
+PORTVERSION=	20120414
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	basic scheme (plain and LaTeX)
+COMMENT=	basic scheme (plain and latex)
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/base/xampl.bib:${PORTSDIR}/print/texlive-bibtex \

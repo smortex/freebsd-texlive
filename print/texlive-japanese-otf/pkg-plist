@@ -1,6 +1,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf/COPYRIGHT
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf/readme.en.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf/readme.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf/test/brsgtest.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf/test/jis2004.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf/test/koreanexample.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf/test/otftest.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf/test/pkanatest.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf/test/pkanatest2.tex
 share/texmf-dist/fonts/map/dvipdfmx/japanese-otf/otf-cktx.map
 share/texmf-dist/fonts/map/dvipdfmx/japanese-otf/otf-noEmbed.map
 share/texmf-dist/fonts/ofm/public/japanese-otf/hirakaku-w3-h.ofm
@@ -1954,18 +1960,11 @@ share/texmf-dist/fonts/vf/public/japanese-otf/utftmrf-v.vf
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/script/mktfm.pl
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/script/mkutfvf.pl
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/script/mkvpkana.pl
-%%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/test/brsgtest.tex
-%%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/test/jis2004.tex
-%%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/test/koreanexample.tex
-%%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/test/otftest.tex
-%%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/test/pkanatest.tex
-%%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf/test/pkanatest2.tex
 share/texmf-dist/tex/platex/japanese-otf/ajmacros.sty
 share/texmf-dist/tex/platex/japanese-otf/mlcid.sty
 share/texmf-dist/tex/platex/japanese-otf/otf-hangul.dfu
 share/texmf-dist/tex/platex/japanese-otf/redeffont.sty
 @dirrmtry share/texmf-dist/tex/platex/japanese-otf
-@dirrmtry share/texmf-dist/source/fonts/japanese-otf/test
 @dirrmtry share/texmf-dist/source/fonts/japanese-otf/script
 @dirrmtry share/texmf-dist/source/fonts/japanese-otf/basepl
 @dirrmtry share/texmf-dist/source/fonts/japanese-otf
@@ -1973,6 +1972,7 @@ share/texmf-dist/tex/platex/japanese-otf/redeffont.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/japanese-otf
 @dirrmtry share/texmf-dist/fonts/ofm/public/japanese-otf
 @dirrmtry share/texmf-dist/fonts/map/dvipdfmx/japanese-otf
+@dirrmtry share/texmf-dist/doc/fonts/japanese-otf/test
 @dirrmtry share/texmf-dist/doc/fonts/japanese-otf
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

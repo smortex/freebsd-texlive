@@ -1,6 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/00otf-uptex.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/COPYRIGHT
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/readme.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/test/uplatex/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/test/uplatex/sp_cns_utf.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/test/uplatex/sp_gb_utf.tex
