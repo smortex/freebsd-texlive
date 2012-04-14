@@ -113,7 +113,6 @@ print/texlive-ptserif||2011-08-21|Upstream support dropped
 print/texlive-cmdtrack||2011-12-21|Upstream support dropped
 print/texlive-fltpage||2011-12-25|Upstream support dropped
 print/texlive-kalender||2011-12-25|Upstream support dropped
-print/texlive-stex||2012-01-11|Upstream support dropped
 print/texlive-scientificpaper||2012-01-16|Upstream support dropped
 print/texlive-ar||2012-01-30|Upstream support dropped
 print/texlive-dfgproposal||2012-02-08|Upstream support dropped
@@ -122,7 +121,5 @@ print/texlive-cookybooky||2012-02-17|Upstream support dropped
 print/texlive-xcookybooky||2012-02-17|Upstream support dropped
 print/texlive-itrans||2012-02-26|Upstream support dropped
 print/texlive-mftoeps||2012-03-15|Upstream support dropped
-print/texlive-movie15||2012-03-19|Upstream support dropped
-print/texlive-flashmovie||2012-03-22|Upstream support dropped
 print/texlive-libertine||2012-04-12|Upstream support dropped
 print/texlive-taupin||2012-04-12|Upstream support dropped
