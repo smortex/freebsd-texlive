@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/romansh/romansh.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/romansh/romansh.dtx
+share/texmf-dist/tex/latex/romansh/romansh.ldf
+@dirrmtry share/texmf-dist/tex/latex/romansh
+@dirrmtry share/texmf-dist/source/latex/romansh
+@dirrmtry share/texmf-dist/doc/latex/romansh
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

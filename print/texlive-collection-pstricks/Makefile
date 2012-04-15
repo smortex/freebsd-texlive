@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pstricks
-PORTVERSION=	20120315
+PORTVERSION=	20120415
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -57,6 +57,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/bclogo/bclogo.sty:${PORTSDIR}/print/texlive-bclogo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/makeplot/makeplot.sty:${PORTSDIR}/print/texlive-makeplot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdftricks/pdftricks.sty:${PORTSDIR}/print/texlive-pdftricks \
+		${LOCALBASE}/share/texmf-dist/scripts/pedigree-perl/Pedigree.pm:${PORTSDIR}/print/texlive-pedigree-perl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/psbao/psbao.sty:${PORTSDIR}/print/texlive-psbao \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-2dplot/pst-2dplot.sty:${PORTSDIR}/print/texlive-pst-2dplot \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-3d/pst-3d.tex:${PORTSDIR}/print/texlive-pst-3d \

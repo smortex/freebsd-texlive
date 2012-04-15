@@ -1,0 +1,5 @@
+This program generates TeX commands to typeset pedigrees --
+either TeX fragments or full LaTeX files, to be processed by
+the authors' pst-pdgr package. The program has support for
+multilanguage pedigrees (at the present moment the English and
+Russian languages are supported).

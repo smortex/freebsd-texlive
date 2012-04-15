@@ -1,0 +1,8 @@
+The class provides a set of functionality for writing
+"curriculum vitae" with different layouts. The idea is that a
+user can write some custom configuration directives, by means
+of which is possible both to produce different c.v. layouts and
+quickly switch among them. In order to process such directives,
+the class uses a set of lists, provided by the package
+etextools. Basic support for using TikZ decorations is also
+provided.
