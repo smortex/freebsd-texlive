@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20120412
+PORTVERSION=	20120415
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -435,7 +435,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/go/go.sty:${PORTSDIR}/print/texlive-go \
 		${LOCALBASE}/share/texmf-dist/tex/plain/hanoi/hanoi.tex:${PORTSDIR}/print/texlive-hanoi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hexgame/hexgame.sty:${PORTSDIR}/print/texlive-hexgame \
-		${LOCALBASE}/share/texmf-dist/tex/latex/jeopardy/jeopardy.sty:${PORTSDIR}/print/texlive-jeopardy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/othello/othello.sty:${PORTSDIR}/print/texlive-othello \
 		${LOCALBASE}/share/texmf-dist/tex/latex/othelloboard/othelloboard.sty:${PORTSDIR}/print/texlive-othelloboard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/psgo/psgo.sty:${PORTSDIR}/print/texlive-psgo \
@@ -1082,6 +1081,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/generic/frame/frame.sty:${PORTSDIR}/print/texlive-frame \
 		${LOCALBASE}/share/texmf-dist/tex/latex/framed/framed.sty:${PORTSDIR}/print/texlive-framed \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/frankenstein/frankenstein.bib:${PORTSDIR}/print/texlive-frankenstein \
+		${LOCALBASE}/share/texmf-dist/tex/latex/friulan/friulan.ldf:${PORTSDIR}/print/texlive-friulan \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ftcap/ftcap.sty:${PORTSDIR}/print/texlive-ftcap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ftnxtra/ftnxtra.sty:${PORTSDIR}/print/texlive-ftnxtra \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fullblck/fullblck.sty:${PORTSDIR}/print/texlive-fullblck \
@@ -1263,6 +1263,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/multicap/multicap.sty:${PORTSDIR}/print/texlive-multicap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multirow/multirow.sty:${PORTSDIR}/print/texlive-multirow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mversion/mVersion.sty:${PORTSDIR}/print/texlive-mversion \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mycv/mycv.cls:${PORTSDIR}/print/texlive-mycv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mylatexformat/mylatexformat.ltx:${PORTSDIR}/print/texlive-mylatexformat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nag/nag.sty:${PORTSDIR}/print/texlive-nag \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nameauth/nameauth.sty:${PORTSDIR}/print/texlive-nameauth \
@@ -1401,6 +1402,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/romanbar/romanbar.sty:${PORTSDIR}/print/texlive-romanbar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/romanneg/romanneg.sty:${PORTSDIR}/print/texlive-romanneg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/romannum/romannum.sty:${PORTSDIR}/print/texlive-romannum \
+		${LOCALBASE}/share/texmf-dist/tex/latex/romansh/romansh.ldf:${PORTSDIR}/print/texlive-romansh \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rotfloat/rotfloat.sty:${PORTSDIR}/print/texlive-rotfloat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rotpages/rotpages.sty:${PORTSDIR}/print/texlive-rotpages \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rtkinenc/rtkinenc.sty:${PORTSDIR}/print/texlive-rtkinenc \
@@ -1743,6 +1745,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/bclogo/bclogo.sty:${PORTSDIR}/print/texlive-bclogo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/makeplot/makeplot.sty:${PORTSDIR}/print/texlive-makeplot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdftricks/pdftricks.sty:${PORTSDIR}/print/texlive-pdftricks \
+		${LOCALBASE}/share/texmf-dist/scripts/pedigree-perl/Pedigree.pm:${PORTSDIR}/print/texlive-pedigree-perl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/psbao/psbao.sty:${PORTSDIR}/print/texlive-psbao \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-2dplot/pst-2dplot.sty:${PORTSDIR}/print/texlive-pst-2dplot \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-3d/pst-3d.tex:${PORTSDIR}/print/texlive-pst-3d \

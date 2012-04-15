@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-present
-# Date created:		09/21/2010 11:54:45
+# New ports collection makefile for:	texlive-mycv
+# Date created:		04/15/2012 05:03:48
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	present
+PORTNAME=	mycv
 PORTVERSION=	20120415
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Presentations with Plain TeX.
+COMMENT=	A list-driven curriculum vitae class, allowing TikZ decorations,
 
 NOPORTSRC=	yes
 

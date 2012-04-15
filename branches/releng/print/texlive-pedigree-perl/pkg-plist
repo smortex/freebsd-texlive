@@ -1,0 +1,58 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/NEWS
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/Pedigree.3
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/Pedigree/AbortionNode.3
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/Pedigree/Area.3
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/Pedigree/ChildlessNode.3
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/Pedigree/Language.3
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/Pedigree/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/Pedigree/MarriageNode.3
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/Pedigree/Node.3
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/Pedigree/Parser.3
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/Pedigree/PersonNode.3
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/Pedigree/TwinsNode.3
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/README
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/doc/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/doc/abortions.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/doc/english.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/doc/english1.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/doc/pedigree.bib
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/doc/pedigree.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/doc/pedigree.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/doc/russian.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/examples/abortions.csv
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/examples/badsort.csv
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/examples/childlessness.csv
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/examples/consanguinic.csv
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/examples/english.cfg
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/examples/english.csv
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/examples/english1.cfg
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/examples/english_short.cfg
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/examples/pedigree.cfg
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/examples/russian.cfg
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/examples/russian.csv
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/examples/sort1.csv
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/examples/sort2.csv
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/examples/sort3.csv
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/examples/twins.csv
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/pedigree.1
+share/texmf-dist/scripts/pedigree-perl/Pedigree.pm
+share/texmf-dist/scripts/pedigree-perl/Pedigree/AbortionNode.pm
+share/texmf-dist/scripts/pedigree-perl/Pedigree/Area.pm
+share/texmf-dist/scripts/pedigree-perl/Pedigree/ChildlessNode.pm
+share/texmf-dist/scripts/pedigree-perl/Pedigree/Language.pm
+share/texmf-dist/scripts/pedigree-perl/Pedigree/MarriageNode.pm
+share/texmf-dist/scripts/pedigree-perl/Pedigree/Node.pm
+share/texmf-dist/scripts/pedigree-perl/Pedigree/Parser.pm
+share/texmf-dist/scripts/pedigree-perl/Pedigree/PersonNode.pm
+share/texmf-dist/scripts/pedigree-perl/Pedigree/TwinsNode.pm
+share/texmf-dist/scripts/pedigree-perl/pedigree.pl
+@dirrmtry share/texmf-dist/scripts/pedigree-perl/Pedigree
+@dirrmtry share/texmf-dist/scripts/pedigree-perl
+@dirrmtry share/texmf-dist/doc/support/pedigree-perl/examples
+@dirrmtry share/texmf-dist/doc/support/pedigree-perl/doc
+@dirrmtry share/texmf-dist/doc/support/pedigree-perl/Pedigree
+@dirrmtry share/texmf-dist/doc/support/pedigree-perl
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

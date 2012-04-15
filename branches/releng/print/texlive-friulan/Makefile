@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-present
-# Date created:		09/21/2010 11:54:45
+# New ports collection makefile for:	texlive-friulan
+# Date created:		04/15/2012 05:00:46
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	present
+PORTNAME=	friulan
 PORTVERSION=	20120415
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Presentations with Plain TeX.
+COMMENT=	Babel/Polyglossia support for Friulan(Furlan).
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

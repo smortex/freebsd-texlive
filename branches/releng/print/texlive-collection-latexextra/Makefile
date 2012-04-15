@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120412
+PORTVERSION=	20120415
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -490,6 +490,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/generic/frame/frame.sty:${PORTSDIR}/print/texlive-frame \
 		${LOCALBASE}/share/texmf-dist/tex/latex/framed/framed.sty:${PORTSDIR}/print/texlive-framed \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/frankenstein/frankenstein.bib:${PORTSDIR}/print/texlive-frankenstein \
+		${LOCALBASE}/share/texmf-dist/tex/latex/friulan/friulan.ldf:${PORTSDIR}/print/texlive-friulan \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ftcap/ftcap.sty:${PORTSDIR}/print/texlive-ftcap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ftnxtra/ftnxtra.sty:${PORTSDIR}/print/texlive-ftnxtra \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fullblck/fullblck.sty:${PORTSDIR}/print/texlive-fullblck \
@@ -671,6 +672,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/multicap/multicap.sty:${PORTSDIR}/print/texlive-multicap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multirow/multirow.sty:${PORTSDIR}/print/texlive-multirow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mversion/mVersion.sty:${PORTSDIR}/print/texlive-mversion \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mycv/mycv.cls:${PORTSDIR}/print/texlive-mycv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mylatexformat/mylatexformat.ltx:${PORTSDIR}/print/texlive-mylatexformat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nag/nag.sty:${PORTSDIR}/print/texlive-nag \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nameauth/nameauth.sty:${PORTSDIR}/print/texlive-nameauth \
@@ -809,6 +811,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/romanbar/romanbar.sty:${PORTSDIR}/print/texlive-romanbar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/romanneg/romanneg.sty:${PORTSDIR}/print/texlive-romanneg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/romannum/romannum.sty:${PORTSDIR}/print/texlive-romannum \
+		${LOCALBASE}/share/texmf-dist/tex/latex/romansh/romansh.ldf:${PORTSDIR}/print/texlive-romansh \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rotfloat/rotfloat.sty:${PORTSDIR}/print/texlive-rotfloat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rotpages/rotpages.sty:${PORTSDIR}/print/texlive-rotpages \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rtkinenc/rtkinenc.sty:${PORTSDIR}/print/texlive-rtkinenc \
