@@ -19,6 +19,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/doc/english1.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/doc/pedigree.bib
 %%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/doc/pedigree.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/doc/pedigree.ps
 %%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/doc/pedigree.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/doc/russian.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/examples/abortions.csv
