@@ -1,0 +1,5 @@
+The package generalises the macro patching commands provided by
+P. Lehmann's etoolbox. The difference between this package and
+its sibling xpatch is that this package sports a very powerful
+\regexpatchcmd based on the l3regex module of the LaTeX3
+experimental packages.

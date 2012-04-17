@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/regexpatch/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/regexpatch/regexpatch.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/regexpatch/regexpatch.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/regexpatch/regexpatch.ins
+share/texmf-dist/tex/latex/regexpatch/regexpatch.sty
+@dirrmtry share/texmf-dist/tex/latex/regexpatch
+@dirrmtry share/texmf-dist/source/latex/regexpatch
+@dirrmtry share/texmf-dist/doc/latex/regexpatch
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
