@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20120415
+PORTVERSION=	20120417
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1389,6 +1389,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/refman/pagepc.sty:${PORTSDIR}/print/texlive-refman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/refstyle/refstyle.sty:${PORTSDIR}/print/texlive-refstyle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/regcount/regcount.sty:${PORTSDIR}/print/texlive-regcount \
+		${LOCALBASE}/share/texmf-dist/tex/latex/regexpatch/regexpatch.sty:${PORTSDIR}/print/texlive-regexpatch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/register/register.sty:${PORTSDIR}/print/texlive-register \
 		${LOCALBASE}/share/texmf-dist/tex/latex/regstats/regstats.sty:${PORTSDIR}/print/texlive-regstats \
 		${LOCALBASE}/share/texmf-dist/tex/latex/relenc/relenc.sty:${PORTSDIR}/print/texlive-relenc \
