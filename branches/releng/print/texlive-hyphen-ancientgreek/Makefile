@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	hyphen-ancientgreek
-PORTVERSION=	20110721
+PORTVERSION=	20120418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

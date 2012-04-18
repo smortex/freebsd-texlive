@@ -24,10 +24,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/mycv.pdf
 share/texmf-dist/tex/latex/mycv/mycv.cls
-share/texmf-dist/tex/latex/mycv/mycv_base.tex
-share/texmf-dist/tex/latex/mycv/mycv_dec.tex
-share/texmf-dist/tex/latex/mycv/mycv_default_style.tex
-share/texmf-dist/tex/latex/mycv/mycv_misc.tex
+share/texmf-dist/tex/latex/mycv/mycv_base.def
+share/texmf-dist/tex/latex/mycv/mycv_dec.def
+share/texmf-dist/tex/latex/mycv/mycv_misc.def
+share/texmf-dist/tex/latex/mycv/mycv_style.def
 @dirrmtry share/texmf-dist/tex/latex/mycv
 @dirrmtry share/texmf-dist/doc/latex/mycv/Examples/Models
 @dirrmtry share/texmf-dist/doc/latex/mycv/Examples/Contents

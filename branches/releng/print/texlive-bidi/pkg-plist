@@ -95,6 +95,8 @@ share/texmf-dist/tex/latex/bidi/minitoc-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/multicol-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/multienum-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/natbib-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/ntheorem-hyper-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/ntheorem-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/pdfpages-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/pgf-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/picinpar-xetex-bidi.def

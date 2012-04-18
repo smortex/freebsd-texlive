@@ -1,18 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/fontools/GPLv2.txt
 %%PORTDOCS%%share/texmf-dist/doc/support/fontools/README
-%%PORTDOCS%%share/texmf-dist/doc/support/fontools/examples/berling/berling.sty
-%%PORTDOCS%%share/texmf-dist/doc/support/fontools/examples/berling/berling.sub
-%%PORTDOCS%%share/texmf-dist/doc/support/fontools/examples/berling/makeberling
-%%PORTDOCS%%share/texmf-dist/doc/support/fontools/examples/berling/mbr_fnst.tex
-%%PORTDOCS%%share/texmf-dist/doc/support/fontools/examples/frutiger/frutiger.sty
-%%PORTDOCS%%share/texmf-dist/doc/support/fontools/examples/frutiger/frutiger.sub
-%%PORTDOCS%%share/texmf-dist/doc/support/fontools/examples/frutiger/lfr_fnst.tex
-%%PORTDOCS%%share/texmf-dist/doc/support/fontools/examples/frutiger/makefrutiger
-%%PORTDOCS%%share/texmf-dist/doc/support/fontools/examples/palatinox/Palatino_fnst.tex
-%%PORTDOCS%%share/texmf-dist/doc/support/fontools/examples/palatinox/make_Palatino
-%%PORTDOCS%%share/texmf-dist/doc/support/fontools/examples/palatinox/pala.sub
-%%PORTDOCS%%share/texmf-dist/doc/support/fontools/examples/palatinox/palatinox.sty
-%%PORTDOCS%%share/texmf-dist/doc/support/fontools/examples/palatinox/unsetSCaps.mtx
 share/texmf-dist/fonts/enc/dvips/fontools/fontools_ly1.enc
 share/texmf-dist/fonts/enc/dvips/fontools/fontools_ot1.enc
 share/texmf-dist/fonts/enc/dvips/fontools/fontools_t1.enc
@@ -21,21 +8,10 @@ share/texmf-dist/fonts/enc/dvips/fontools/fontools_ts1.enc
 %%PORTDOCS%%share/texmf/doc/man/man1/afm2afm.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/autoinst.1
 %%PORTDOCS%%share/texmf/doc/man/man1/autoinst.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/cmap2enc.1
-%%PORTDOCS%%share/texmf/doc/man/man1/cmap2enc.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/font2afm.1
-%%PORTDOCS%%share/texmf/doc/man/man1/font2afm.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/ot2kpx.1
 %%PORTDOCS%%share/texmf/doc/man/man1/ot2kpx.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/pfm2kpx.1
-%%PORTDOCS%%share/texmf/doc/man/man1/pfm2kpx.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/showglyphs.1
-%%PORTDOCS%%share/texmf/doc/man/man1/showglyphs.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf-dist/fonts/enc/dvips/fontools
-@dirrmtry share/texmf-dist/doc/support/fontools/examples/palatinox
-@dirrmtry share/texmf-dist/doc/support/fontools/examples/frutiger
-@dirrmtry share/texmf-dist/doc/support/fontools/examples/berling
 @dirrmtry share/texmf-dist/doc/support/fontools
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
