@@ -1,0 +1,4 @@
+share/texmf-dist/tex/latex/fundus-cyr/cyr.sty
+@dirrmtry share/texmf-dist/tex/latex/fundus-cyr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

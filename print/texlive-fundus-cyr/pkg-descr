@@ -1,0 +1,4 @@
+The package supports the use of the Washington Cyrillic fonts
+with LaTeX (Note that standard LateX has support, too, as
+encoding OT2). The package is distributed as part of the fundus
+bundle.

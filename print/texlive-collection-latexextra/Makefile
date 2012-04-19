@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120417
+PORTVERSION=	20120419
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -495,7 +495,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/ftnxtra/ftnxtra.sty:${PORTSDIR}/print/texlive-ftnxtra \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fullblck/fullblck.sty:${PORTSDIR}/print/texlive-fullblck \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fullwidth/fullwidth.sty:${PORTSDIR}/print/texlive-fullwidth \
-		${LOCALBASE}/share/texmf-dist/tex/latex/fundus/calligra.sty:${PORTSDIR}/print/texlive-fundus \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fundus-calligra/calligra.sty:${PORTSDIR}/print/texlive-fundus-calligra \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fundus-cyr/cyr.sty:${PORTSDIR}/print/texlive-fundus-cyr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fwlw/fwlw.sty:${PORTSDIR}/print/texlive-fwlw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/g-brief/g-brief.cls:${PORTSDIR}/print/texlive-g-brief \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gauss/gauss.sty:${PORTSDIR}/print/texlive-gauss \
