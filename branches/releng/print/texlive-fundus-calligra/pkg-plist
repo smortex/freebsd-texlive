@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fundus-calligra/calligra.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/fundus-calligra/calligra.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fundus-calligra/calligra.ins
+share/texmf-dist/tex/latex/fundus-calligra/calligra.sty
+@dirrmtry share/texmf-dist/tex/latex/fundus-calligra
+@dirrmtry share/texmf-dist/source/latex/fundus-calligra
+@dirrmtry share/texmf-dist/doc/latex/fundus-calligra
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

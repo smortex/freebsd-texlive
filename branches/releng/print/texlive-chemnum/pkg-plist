@@ -1,9 +1,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/chemnum-codehelper.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/chemnum_doc_de.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/chemnum_doc_de.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/chemnum_doc_en.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/chemnum_doc_en.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/chemnum_de.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/chemnum_de.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/chemnum_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/chemnum_en.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/scheme-bla.eps
 %%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/scheme-tmp.eps
 share/texmf-dist/tex/latex/chemnum/chemnum.sty

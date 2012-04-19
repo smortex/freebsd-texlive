@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-hyphen-base
-# Date created:		13/03/2010 04:19:41
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-fundus-cyr
+# Date created:		04/19/2012 05:11:22
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	hyphen-base
+PORTNAME=	fundus-cyr
 PORTVERSION=	20120419
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The hyphen-base package
+COMMENT=	Support for Washington University Cyrillic fonts.
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
