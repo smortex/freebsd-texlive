@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120420
+PORTVERSION=	20120421
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -211,7 +211,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/tufte-latex/tufte-book.cls:${PORTSDIR}/print/texlive-tufte-latex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xypic/xypic.sty:${PORTSDIR}/print/texlive-xypic \
 		${LOCALBASE}/share/texmf-dist/tex/generic/2up/2up.sty:${PORTSDIR}/print/texlive-2up \
-		${LOCALBASE}/share/texmf-dist/tex/latex/AkkTeX/akkconditional.sty:${PORTSDIR}/print/texlive-AkkTeX \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ESIEEcv/ESIEEcv.sty:${PORTSDIR}/print/texlive-ESIEEcv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/HA-prosper/HA-prosper.sty:${PORTSDIR}/print/texlive-HA-prosper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/Tabbing/Tabbing.sty:${PORTSDIR}/print/texlive-Tabbing \
@@ -226,6 +225,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/adjmulticol/adjmulticol.sty:${PORTSDIR}/print/texlive-adjmulticol \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/adrconv/adrbirthday.bst:${PORTSDIR}/print/texlive-adrconv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/advdate/advdate.sty:${PORTSDIR}/print/texlive-advdate \
+		${LOCALBASE}/share/texmf-dist/tex/latex/akktex/akktex.sty:${PORTSDIR}/print/texlive-akktex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/akletter/akletter.cls:${PORTSDIR}/print/texlive-akletter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/alterqcm/alterqcm.sty:${PORTSDIR}/print/texlive-alterqcm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/altfont/altfont.sty:${PORTSDIR}/print/texlive-altfont \

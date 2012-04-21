@@ -1,0 +1,32 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/akktex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/akktex/README.TEXLIVE
+share/texmf-dist/tex/latex/akktex/akkconditional.sty
+share/texmf-dist/tex/latex/akktex/akkcounterlabelpattern.sty
+share/texmf-dist/tex/latex/akktex/akkcs.sty
+share/texmf-dist/tex/latex/akktex/akkdoc.sty
+share/texmf-dist/tex/latex/akktex/akkgerman.sty
+share/texmf-dist/tex/latex/akktex/akkgermanabbreviations.sty
+share/texmf-dist/tex/latex/akktex/akklecture.cls
+share/texmf-dist/tex/latex/akktex/akklongpage.sty
+share/texmf-dist/tex/latex/akktex/akkmath.sty
+share/texmf-dist/tex/latex/akktex/akkmathbasic.sty
+share/texmf-dist/tex/latex/akktex/akkmathdisc.sty
+share/texmf-dist/tex/latex/akktex/akkmathfun.sty
+share/texmf-dist/tex/latex/akktex/akkmathnum.sty
+share/texmf-dist/tex/latex/akktex/akkmathpaper.sty
+share/texmf-dist/tex/latex/akktex/akkmathproof.sty
+share/texmf-dist/tex/latex/akktex/akkmathrel.sty
+share/texmf-dist/tex/latex/akktex/akkmathset.sty
+share/texmf-dist/tex/latex/akktex/akkmathtext.sty
+share/texmf-dist/tex/latex/akktex/akknum.sty
+share/texmf-dist/tex/latex/akktex/akkparskip.sty
+share/texmf-dist/tex/latex/akktex/akkscript.cls
+share/texmf-dist/tex/latex/akktex/akksection.sty
+share/texmf-dist/tex/latex/akktex/akkstring.sty
+share/texmf-dist/tex/latex/akktex/akktecdoc.cls
+share/texmf-dist/tex/latex/akktex/akktex.sty
+share/texmf-dist/tex/latex/akktex/akkwidepage.sty
+@dirrmtry share/texmf-dist/tex/latex/akktex
+@dirrmtry share/texmf-dist/doc/latex/akktex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

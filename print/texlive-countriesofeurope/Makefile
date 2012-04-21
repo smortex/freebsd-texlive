@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-prerex
-# Date created:		09/21/2010 11:44:40
+# New ports collection makefile for:	texlive-countriesofeurope
+# Date created:		04/21/2012 04:43:54
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	prerex
+PORTNAME=	countriesofeurope
 PORTVERSION=	20120421
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Interactive editor and macro support for prerequisite charts.
+COMMENT=	A font with the images of the countries of Europe.
 
 NOPORTSRC=	yes
 
