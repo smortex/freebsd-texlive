@@ -1,12 +1,12 @@
-# New ports collection makefile for:	texlive-AkkTeX
-# Date created:		13/03/2010 04:38:19
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-akktex
+# Date created:		04/21/2012 04:54:46
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	AkkTeX
-PORTVERSION=	20100922
+PORTNAME=	akktex
+PORTVERSION=	20120421
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

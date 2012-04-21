@@ -1,4 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/generic/thumbpdf/readme.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/thumbpdf/README
 share/texmf-dist/tex/generic/thumbpdf/thumbpdf.sty
 share/texmf-dist/tex/generic/thumbpdf/thumbpdf.tex
 %%PORTDOCS%%share/texmf/doc/man/man1/thumbpdf.1

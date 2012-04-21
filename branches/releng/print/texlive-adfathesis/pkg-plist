@@ -1,0 +1,13 @@
+share/texmf-dist/bibtex/bst/adfathesis/adfathesis.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/adfathesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/adfathesis/adfathesis.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/adfathesis/template.tex
+%%PORTSRC%%share/texmf-dist/source/latex/adfathesis/adfathesis.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/adfathesis/adfathesis.ins
+share/texmf-dist/tex/latex/adfathesis/adfathesis.cls
+@dirrmtry share/texmf-dist/tex/latex/adfathesis
+@dirrmtry share/texmf-dist/source/latex/adfathesis
+@dirrmtry share/texmf-dist/doc/latex/adfathesis
+@dirrmtry share/texmf-dist/bibtex/bst/adfathesis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

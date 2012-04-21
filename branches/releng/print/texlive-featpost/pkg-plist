@@ -272,6 +272,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/trajectoryline.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/trianglecenterofmass.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/triangulartrimesh.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/trig.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/trigonometry.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/troncoconedef.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/tropicalglobe.mp

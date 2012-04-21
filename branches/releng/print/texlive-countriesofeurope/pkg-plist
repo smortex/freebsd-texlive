@@ -1,0 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/countriesofeurope/CountriesOfEurope.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/countriesofeurope/CountriesOfEurope.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/countriesofeurope/README
+share/texmf-dist/dvips/countriesofeurope/config.CountriesOfEurope
+share/texmf-dist/fonts/afm/public/countriesofeurope/CountriesOfEurope.afm
+share/texmf-dist/fonts/enc/dvips/countriesofeurope/CountriesOfEurope.enc
+share/texmf-dist/fonts/map/dvips/countriesofeurope/CountriesOfEurope.map
+share/texmf-dist/fonts/tfm/public/countriesofeurope/CountriesOfEurope.tfm
+share/texmf-dist/fonts/type1/public/countriesofeurope/CountriesOfEurope.pfb
+share/texmf-dist/tex/latex/countriesofeurope/CountriesOfEurope.sty
+@dirrmtry share/texmf-dist/tex/latex/countriesofeurope
+@dirrmtry share/texmf-dist/fonts/type1/public/countriesofeurope
+@dirrmtry share/texmf-dist/fonts/tfm/public/countriesofeurope
+@dirrmtry share/texmf-dist/fonts/map/dvips/countriesofeurope
+@dirrmtry share/texmf-dist/fonts/enc/dvips/countriesofeurope
+@dirrmtry share/texmf-dist/fonts/afm/public/countriesofeurope
+@dirrmtry share/texmf-dist/dvips/countriesofeurope
+@dirrmtry share/texmf-dist/doc/fonts/countriesofeurope
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

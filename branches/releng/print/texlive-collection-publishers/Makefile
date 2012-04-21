@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20120412
+PORTVERSION=	20120421
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -18,6 +18,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/aastex/aastex.cls:${PORTSDIR}/print/texlive-aastex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/acmconf/acmconf.cls:${PORTSDIR}/print/texlive-acmconf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/active-conf/active-conf.cls:${PORTSDIR}/print/texlive-active-conf \
+		${LOCALBASE}/share/texmf-dist/tex/latex/adfathesis/adfathesis.cls:${PORTSDIR}/print/texlive-adfathesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/afthesis/afthesis.cls:${PORTSDIR}/print/texlive-afthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/aguplus/aguplus.cls:${PORTSDIR}/print/texlive-aguplus \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/aiaa/aiaa.bst:${PORTSDIR}/print/texlive-aiaa \

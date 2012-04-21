@@ -11,7 +11,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/doc/prerex.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/doc/prerex.sty.7
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/doc/prerex.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/prerex-6.4.0.tar.gz
+%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/prerex-6.4.2.tar.gz
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/vprerex-6.4.0.tar.gz
 share/texmf-dist/tex/latex/prerex/prerex.sty
 @dirrmtry share/texmf-dist/tex/latex/prerex
