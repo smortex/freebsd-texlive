@@ -7,6 +7,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbdocumentation.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 @dirrmtry share/texmf-dist/tex/latex/tcolorbox
