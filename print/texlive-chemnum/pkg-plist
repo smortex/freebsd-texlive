@@ -3,8 +3,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/chemnum_de.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/chemnum_en.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/chemnum_en.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/scheme-bla.eps
-%%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/scheme-tmp.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/scheme-bla.ps
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/scheme-tmp.ps
 share/texmf-dist/tex/latex/chemnum/chemnum.sty
 @dirrmtry share/texmf-dist/tex/latex/chemnum
 @dirrmtry share/texmf-dist/doc/latex/chemnum

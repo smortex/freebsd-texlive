@@ -9,7 +9,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/example/bibliografia.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/example/logo.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/example/tesi.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/suftesi.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/suftesi.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/suftesi/suftesi.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/suftesi/suftesi.ins

@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-chemnum
-# Date created:		08/04/2011 05:10:31
+# New ports collection makefile for:	texlive-pgfkeyx
+# Date created:		04/25/2012 04:54:34
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	chemnum
+PORTNAME=	pgfkeyx
 PORTVERSION=	20120425
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A method of numbering chemical compounds.
+COMMENT=	Extended and more robust version of pgfkeys.
 
 NOPORTSRC=	yes
 

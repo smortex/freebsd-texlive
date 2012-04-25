@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-chemnum
-# Date created:		08/04/2011 05:10:31
+# New ports collection makefile for:	texlive-luatexja
+# Date created:		04/25/2012 04:49:55
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	chemnum
+PORTNAME=	luatexja
 PORTVERSION=	20120425
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A method of numbering chemical compounds.
+COMMENT=	Typesest Japanese with lua(la)tex.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

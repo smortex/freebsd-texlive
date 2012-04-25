@@ -50,6 +50,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/hyperref/test/testbookmark.tex
 %%PORTSRC%%share/texmf-dist/source/latex/hyperref/test/testfor2.tex
 %%PORTSRC%%share/texmf-dist/source/latex/hyperref/test/testform.tex
+%%PORTSRC%%share/texmf-dist/source/latex/hyperref/test/testinfo.tex
 %%PORTSRC%%share/texmf-dist/source/latex/hyperref/test/testnb.tex
 %%PORTSRC%%share/texmf-dist/source/latex/hyperref/test/testoz.tex
 %%PORTSRC%%share/texmf-dist/source/latex/hyperref/test/testslide.tex
