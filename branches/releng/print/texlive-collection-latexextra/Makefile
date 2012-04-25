@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120421
+PORTVERSION=	20120425
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -168,6 +168,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-soroban/pgf-soroban.sty:${PORTSDIR}/print/texlive-pgf-soroban \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-umlsd/pgf-umlsd.sty:${PORTSDIR}/print/texlive-pgf-umlsd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfgantt/pgfgantt.sty:${PORTSDIR}/print/texlive-pgfgantt \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pgfkeyx/pgfkeyx.sty:${PORTSDIR}/print/texlive-pgfkeyx \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/pgfmolbio/pgfmolbio.sty:${PORTSDIR}/print/texlive-pgfmolbio \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfopts/pgfopts.sty:${PORTSDIR}/print/texlive-pgfopts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty:${PORTSDIR}/print/texlive-pgfplots \

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-langcjk
-PORTVERSION=	20120316
+PORTVERSION=	20120425
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -32,6 +32,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/cmap/adobemapping/LICENSE:${POR
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/japanese-otf-uptex/otf-up-noEmbed.map:${PORTSDIR}/print/texlive-japanese-otf-uptex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/otf-hiragino.map:${PORTSDIR}/print/texlive-jfontmaps \
 		${LOCALBASE}/share/texmf-dist/tex/platex/jsclasses/jsarticle.cls:${PORTSDIR}/print/texlive-jsclasses \
+		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexja/luatexja.sty:${PORTSDIR}/print/texlive-luatexja \
 		${LOCALBASE}/share/texmf-dist/dvips/norasi-c90/config.norasi-c90:${PORTSDIR}/print/texlive-norasi-c90 \
 		${LOCALBASE}/share/texmf-dist/tex/ptex/base/ptex.tex:${PORTSDIR}/print/texlive-ptex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/thailatex/lthenc.def:${PORTSDIR}/print/texlive-thailatex \

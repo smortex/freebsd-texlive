@@ -1,0 +1,3 @@
+The package supports typesetting Japanese documents with
+LuaTeX. Both the Plain and LaTeX2e formats may be used with the
+package.

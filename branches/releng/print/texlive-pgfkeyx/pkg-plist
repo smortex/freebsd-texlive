@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgfkeyx/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgfkeyx/pgfkeyx-test1.tex
+share/texmf-dist/tex/latex/pgfkeyx/pgfkeyx.sty
+@dirrmtry share/texmf-dist/tex/latex/pgfkeyx
+@dirrmtry share/texmf-dist/doc/latex/pgfkeyx
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

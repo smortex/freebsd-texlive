@@ -1,0 +1,101 @@
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/README
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/jfm-test.lua
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/ltjclasses.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/ltjltxdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/ltjsclasses.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/luatexja-en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/luatexja-ja.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/luatexja-zh.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/luatexja-zh.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/luatexja.dtx
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/luatexja.ins
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexja/ltjclasses.dtx
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexja/ltjclasses.ins
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexja/ltjlist.lua
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexja/ltjltxdoc.dtx
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexja/ltjltxdoc.ins
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexja/ltjsclasses.dtx
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexja/ltjsclasses.ins
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexja/luatexja-kinsoku_make.tex
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexja/mk-rmlgbm-data.tex
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/Blocks.txt
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/blocks2defcharrange.rb
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/chars2defcharrange.rb
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/jfm-readable.rb
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/jisx0208table.tex
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/kyoikukanji.txt
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/kyoikukanjiChars.tex
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/unicodeBlocks.tex
+share/texmf-dist/tex/luatex/luatexja/addons/luatexja-ajmacros.sty
+share/texmf-dist/tex/luatex/luatexja/addons/luatexja-fontspec.sty
+share/texmf-dist/tex/luatex/luatexja/addons/luatexja-otf.sty
+share/texmf-dist/tex/luatex/luatexja/jfm-banjiao.lua
+share/texmf-dist/tex/luatex/luatexja/jfm-jis.lua
+share/texmf-dist/tex/luatex/luatexja/jfm-kaiming.lua
+share/texmf-dist/tex/luatex/luatexja/jfm-min.lua
+share/texmf-dist/tex/luatex/luatexja/jfm-mono.lua
+share/texmf-dist/tex/luatex/luatexja/jfm-prop.lua
+share/texmf-dist/tex/luatex/luatexja/jfm-quanjiao.lua
+share/texmf-dist/tex/luatex/luatexja/jfm-ujis.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-base.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-base.sty
+share/texmf-dist/tex/luatex/luatexja/ltj-cctbreg.sty
+share/texmf-dist/tex/luatex/luatexja/ltj-charrange.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-cid-adobe-cns1.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-cid-adobe-gb1.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-cid-adobe-japan1.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-cid-adobe-korea1.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-compat-ptex.sty
+share/texmf-dist/tex/luatex/luatexja/ltj-compat.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-debug.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-infomute.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-inputbuf.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-jfmglue.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-jfont.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-jisx0208.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-latex.sty
+share/texmf-dist/tex/luatex/luatexja/ltj-math.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-otf.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-plain.sty
+share/texmf-dist/tex/luatex/luatexja/ltj-pretreat.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-rmlgbm.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-setwidth.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-stack.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-tangle.lua
+share/texmf-dist/tex/luatex/luatexja/ltjclasses/ltjarticle.cls
+share/texmf-dist/tex/luatex/luatexja/ltjclasses/ltjbk10.clo
+share/texmf-dist/tex/luatex/luatexja/ltjclasses/ltjbk11.clo
+share/texmf-dist/tex/luatex/luatexja/ltjclasses/ltjbk12.clo
+share/texmf-dist/tex/luatex/luatexja/ltjclasses/ltjbook.cls
+share/texmf-dist/tex/luatex/luatexja/ltjclasses/ltjltxdoc.cls
+share/texmf-dist/tex/luatex/luatexja/ltjclasses/ltjreport.cls
+share/texmf-dist/tex/luatex/luatexja/ltjclasses/ltjsize10.clo
+share/texmf-dist/tex/luatex/luatexja/ltjclasses/ltjsize11.clo
+share/texmf-dist/tex/luatex/luatexja/ltjclasses/ltjsize12.clo
+share/texmf-dist/tex/luatex/luatexja/ltjsclasses/ltjsarticle.cls
+share/texmf-dist/tex/luatex/luatexja/ltjsclasses/ltjsbook.cls
+share/texmf-dist/tex/luatex/luatexja/ltjsclasses/ltjskiyou.cls
+share/texmf-dist/tex/luatex/luatexja/ltjsclasses/ltjspf.cls
+share/texmf-dist/tex/luatex/luatexja/luatexja-compat.sty
+share/texmf-dist/tex/luatex/luatexja/luatexja-core.sty
+share/texmf-dist/tex/luatex/luatexja/luatexja-kinsoku.tex
+share/texmf-dist/tex/luatex/luatexja/luatexja.lua
+share/texmf-dist/tex/luatex/luatexja/luatexja.sty
+share/texmf-dist/tex/luatex/luatexja/patches/lltjcore.sty
+share/texmf-dist/tex/luatex/luatexja/patches/lltjdefs.sty
+share/texmf-dist/tex/luatex/luatexja/patches/lltjfont.sty
+share/texmf-dist/tex/luatex/luatexja/patches/lltjp-listings-jpt.tex
+share/texmf-dist/tex/luatex/luatexja/patches/lltjp-listings.sty
+share/texmf-dist/tex/luatex/luatexja/patches/lltjp-unicode-math.sty
+share/texmf-dist/tex/luatex/luatexja/patches/lltjp-xunicode.sty
+@dirrmtry share/texmf-dist/tex/luatex/luatexja/patches
+@dirrmtry share/texmf-dist/tex/luatex/luatexja/ltjsclasses
+@dirrmtry share/texmf-dist/tex/luatex/luatexja/ltjclasses
+@dirrmtry share/texmf-dist/tex/luatex/luatexja/addons
+@dirrmtry share/texmf-dist/tex/luatex/luatexja
+@dirrmtry share/texmf-dist/source/luatex/luatexja/tool
+@dirrmtry share/texmf-dist/source/luatex/luatexja
+@dirrmtry share/texmf-dist/doc/luatex/luatexja
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
