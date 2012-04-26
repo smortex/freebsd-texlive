@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	ucs
-PORTVERSION=	20120423
+PORTVERSION=	20120426
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extended UTF-8 input encoding for LaTeX.
+COMMENT=	Extended UTF-8 input encoding support for LaTeX.
 
 NOPORTSRC=	yes
 
