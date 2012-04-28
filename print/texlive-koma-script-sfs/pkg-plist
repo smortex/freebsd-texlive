@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/koma-script-sfs/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/koma-script-sfs/SFSesim.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/koma-script-sfs/SFSesim.tex
+share/texmf-dist/tex/latex/koma-script-sfs/SFS.lco
+@dirrmtry share/texmf-dist/tex/latex/koma-script-sfs
+@dirrmtry share/texmf-dist/doc/latex/koma-script-sfs
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

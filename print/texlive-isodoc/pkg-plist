@@ -7,7 +7,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/inst
 %%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/invoice.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/isodoc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/isodocsymbols.sty
 %%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/isontg.sty
 %%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/isowybo.sty
 %%PORTDOCS%%share/texmf-dist/doc/latex/isodoc/language_template.tex
@@ -22,6 +21,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/isodoc/isodoc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/isodoc/isodoc.ins
 share/texmf-dist/tex/latex/isodoc/isodoc.cls
+share/texmf-dist/tex/latex/isodoc/isodocsymbols.sty
 @dirrmtry share/texmf-dist/tex/latex/isodoc
 @dirrmtry share/texmf-dist/source/latex/isodoc
 @dirrmtry share/texmf-dist/doc/latex/isodoc

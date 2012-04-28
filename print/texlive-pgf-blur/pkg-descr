@@ -1,0 +1,4 @@
+The package adds blurred/faded/fuzzy shadows to TikZ/PGF
+pictures. It is configured as a TikZ/PGF library module. The
+method is similar to that of the author's pst-blur package for
+PSTricks.
