@@ -1,0 +1,6 @@
+A koma-script parameter set for letters on A4 paper, complying
+with Finnish standards SFS 2486, 2487 and 2488; suitable for
+window envelopes with window on the left size in the sizes C5,
+C65, E5 and E65 (although, because the address window is
+smaller, for sizes E5 and E65 the address may not fit within
+the window, but ordinary 3-line address should fit).
