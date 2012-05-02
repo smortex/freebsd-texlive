@@ -1,5 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/texdef/INSTALL
 %%PORTDOCS%%share/texmf-dist/doc/support/texdef/README
+%%PORTDOCS%%share/texmf-dist/doc/support/texdef/texdef.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/texdef/texdef.tex
 share/texmf-dist/scripts/texdef/texdef.pl
 @dirrmtry share/texmf-dist/scripts/texdef
 @dirrmtry share/texmf-dist/doc/support/texdef
