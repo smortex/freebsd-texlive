@@ -49,6 +49,7 @@ share/texmf-dist/tex/xelatex/polyglossia/gloss-estonian.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-farsi.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-finnish.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-french.ldf
+share/texmf-dist/tex/xelatex/polyglossia/gloss-friulan.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-galician.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-german.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-greek.ldf
@@ -73,6 +74,7 @@ share/texmf-dist/tex/xelatex/polyglossia/gloss-occitan.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-polish.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-portuges.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-romanian.ldf
+share/texmf-dist/tex/xelatex/polyglossia/gloss-romansh.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-russian.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-samin.ldf
 share/texmf-dist/tex/xelatex/polyglossia/gloss-sanskrit.ldf
