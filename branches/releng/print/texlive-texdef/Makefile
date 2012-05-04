@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	texdef
-PORTVERSION=	20120502
+PORTVERSION=	20120504
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
@@ -14,7 +14,6 @@ COMMENT=	Display the definitions of TeX commands.
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
