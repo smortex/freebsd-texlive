@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/sansmathaccent/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/sansmathaccent/sansmathaccent.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/sansmathaccent/sansmathaccent.tex
+share/texmf-dist/fonts/map/dvips/sansmathaccent/sansmathaccent.map
+share/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi10.tfm
+share/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi12.tfm
+share/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi17.tfm
+share/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
+share/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi9.tfm
+share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+share/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+@dirrmtry share/texmf-dist/tex/latex/sansmathaccent
+@dirrmtry share/texmf-dist/fonts/tfm/public/sansmathaccent
+@dirrmtry share/texmf-dist/fonts/map/dvips/sansmathaccent
+@dirrmtry share/texmf-dist/doc/fonts/sansmathaccent
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

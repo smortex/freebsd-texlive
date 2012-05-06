@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/imsproc/README
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/imsproc/logo.JPG
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/imsproc/sample-imsproc.tex
+share/texmf-dist/tex/xelatex/imsproc/imsproc.cls
+@dirrmtry share/texmf-dist/tex/xelatex/imsproc
+@dirrmtry share/texmf-dist/doc/xelatex/imsproc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

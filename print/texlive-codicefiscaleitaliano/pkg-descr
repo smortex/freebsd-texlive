@@ -1,0 +1,5 @@
+The alphanumeric string that forms the Italian personal Fiscal
+Code is prone to be misspelled thus rendering a legal document
+invalid. The package quickly verifies the consistency of the
+fiscal code string, and can therefore be useful for lawyers and
+accountants that use fiscal codes very frequently.

@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/articleingud/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/articleingud/articleingud.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/articleingud/plantilla.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/articleingud/template.tex
+%%PORTSRC%%share/texmf-dist/source/latex/articleingud/articleingud.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/articleingud/articleingud.ins
+share/texmf-dist/tex/latex/articleingud/articleingud.cls
+@dirrmtry share/texmf-dist/tex/latex/articleingud
+@dirrmtry share/texmf-dist/source/latex/articleingud
+@dirrmtry share/texmf-dist/doc/latex/articleingud
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

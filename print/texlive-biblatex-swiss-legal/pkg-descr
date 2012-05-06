@@ -1,0 +1,5 @@
+The package provides biblatex bibliography and citation styles
+for documents written in accordance with Swiss legal citation
+standards. Currently, the package is only usable for French
+documents; translations to German and Italian are under
+development for future versions.

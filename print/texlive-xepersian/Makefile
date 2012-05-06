@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	xepersian
-PORTVERSION=	20120415
+PORTVERSION=	20120506
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Persian for LaTeX over XeTeX.
+COMMENT=	Persian for LaTeX, using XeTeX.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

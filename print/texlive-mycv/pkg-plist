@@ -12,22 +12,24 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/Contents/footer_sign.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/Contents/header_contacts.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/Contents/header_title.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/Models/NOTES
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/Models/model-common.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/Models/model-dpl.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/Models/model-dpl2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/Models/model-spl.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/mycv-example-common.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/mycv-example-dpl.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/mycv-example-dpl.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/mycv-example-dpl2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/mycv-example-dpl2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/mycv-example-spl.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/mycv-example-spl.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/mycv.pdf
 share/texmf-dist/tex/latex/mycv/mycv.cls
 share/texmf-dist/tex/latex/mycv/mycv_base.def
-share/texmf-dist/tex/latex/mycv/mycv_dec.def
+share/texmf-dist/tex/latex/mycv/mycv_dec.sty
 share/texmf-dist/tex/latex/mycv/mycv_misc.def
-share/texmf-dist/tex/latex/mycv/mycv_style.def
+share/texmf-dist/tex/latex/mycv/mycv_style.sty
 @dirrmtry share/texmf-dist/tex/latex/mycv
 @dirrmtry share/texmf-dist/doc/latex/mycv/Examples/Models
 @dirrmtry share/texmf-dist/doc/latex/mycv/Examples/Contents

@@ -1,11 +1,14 @@
-share/texmf-dist/bibtex/bib/biblatex-ieee/biblatex-ieee.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-ieee/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-ieee/biblatex-ieee-alphabetic.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-ieee/biblatex-ieee-alphabetic.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-ieee/biblatex-ieee.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-ieee/biblatex-ieee.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-ieee/biblatex-ieee.tex
+share/texmf-dist/tex/latex/biblatex-ieee/ieee-alphabetic.bbx
+share/texmf-dist/tex/latex/biblatex-ieee/ieee-alphabetic.cbx
 share/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
 share/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-ieee
 @dirrmtry share/texmf-dist/doc/latex/biblatex-ieee
-@dirrmtry share/texmf-dist/bibtex/bib/biblatex-ieee
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

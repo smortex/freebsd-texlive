@@ -1,0 +1,5 @@
+The bundle contains a small collection of add-on packages for
+the listings package. Current packages are: [?] lstlinebgrd:
+colour the background of some or all lines of a listing; and
+[?] lstautogobble: set the standard "gobble" option to the
+indent of the first line of the code.
