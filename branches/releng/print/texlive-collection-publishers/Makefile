@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20120421
+PORTVERSION=	20120506
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -28,6 +28,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/apa6/apa6.cls:${PORTSDIR}/print/texlive-apa6 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/apa6e/apa6e.cls:${PORTSDIR}/print/texlive-apa6e \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arsclassica/arsclassica.sty:${PORTSDIR}/print/texlive-arsclassica \
+		${LOCALBASE}/share/texmf-dist/tex/latex/articleingud/articleingud.cls:${PORTSDIR}/print/texlive-articleingud \
 		${LOCALBASE}/share/texmf-dist/tex/latex/asaetr/asaetr.cls:${PORTSDIR}/print/texlive-asaetr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ascelike/ascelike.cls:${PORTSDIR}/print/texlive-ascelike \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamer-FUBerlin/FUbeamer.cls:${PORTSDIR}/print/texlive-beamer-FUBerlin \
@@ -55,6 +56,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/ieeepes/ieeepes.sty:${PORTSDIR}/print/texlive-ieeepes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ijmart/ijmart.cls:${PORTSDIR}/print/texlive-ijmart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/imac/imac.sty:${PORTSDIR}/print/texlive-imac \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/imsproc/imsproc.cls:${PORTSDIR}/print/texlive-imsproc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/imtekda/IMTEKda.cls:${PORTSDIR}/print/texlive-imtekda \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jmlr/jmlr.cls:${PORTSDIR}/print/texlive-jmlr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jpsj/jpsj2.cls:${PORTSDIR}/print/texlive-jpsj \

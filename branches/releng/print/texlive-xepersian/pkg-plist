@@ -47,6 +47,7 @@ share/texmf-dist/tex/xelatex/xepersian/extreport-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/flowfram-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/footnote-bidi-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/hyperref-xepersian.def
+share/texmf-dist/tex/xelatex/xepersian/imsproc-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/kashida-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/listings-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/loadingorder-bidi-xepersian.def

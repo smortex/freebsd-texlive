@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/codicefiscaleitaliano/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/codicefiscaleitaliano/codicefiscaleitaliano.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/codicefiscaleitaliano/codicefiscaleitaliano.dtx
+share/texmf-dist/tex/latex/codicefiscaleitaliano/codicefiscaleitaliano.sty
+@dirrmtry share/texmf-dist/tex/latex/codicefiscaleitaliano
+@dirrmtry share/texmf-dist/source/latex/codicefiscaleitaliano
+@dirrmtry share/texmf-dist/doc/latex/codicefiscaleitaliano
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

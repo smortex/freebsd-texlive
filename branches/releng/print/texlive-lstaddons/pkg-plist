@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/lstaddons/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/lstaddons/lstautogobble.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lstaddons/lstlinebgrd.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/lstaddons/lstaddons.ins
+%%PORTSRC%%share/texmf-dist/source/latex/lstaddons/lstautogobble.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/lstaddons/lstlinebgrd.dtx
+share/texmf-dist/tex/latex/lstaddons/lstautogobble.sty
+share/texmf-dist/tex/latex/lstaddons/lstlinebgrd.sty
+@dirrmtry share/texmf-dist/tex/latex/lstaddons
+@dirrmtry share/texmf-dist/source/latex/lstaddons
+@dirrmtry share/texmf-dist/doc/latex/lstaddons
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	mycv
-PORTVERSION=	20120418
+PORTVERSION=	20120506
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A list-driven curriculum vitae class, allowing TikZ decorations,
+COMMENT=	A list-driven CV class, allowing TikZ decorations.
 
 NOPORTSRC=	yes
 

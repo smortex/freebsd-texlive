@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-swiss-legal/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-swiss-legal/biblatex-swiss-legal.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-swiss-legal/doc_source/biblatex-swiss-legal.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-swiss-legal/doc_source/biblioinstructions.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-swiss-legal/doc_source/listerevuesCH.tex
+share/texmf-dist/tex/latex/biblatex-swiss-legal/biblatex-swiss-legal-fr.lbx
+share/texmf-dist/tex/latex/biblatex-swiss-legal/biblatex-swiss-legal-general.bbx
+share/texmf-dist/tex/latex/biblatex-swiss-legal/biblatex-swiss-legal-general.cbx
+@dirrmtry share/texmf-dist/tex/latex/biblatex-swiss-legal
+@dirrmtry share/texmf-dist/doc/latex/biblatex-swiss-legal/doc_source
+@dirrmtry share/texmf-dist/doc/latex/biblatex-swiss-legal
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

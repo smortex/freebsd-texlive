@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20120401
+PORTVERSION=	20120506
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -85,7 +85,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-dw/bbx/authortitle-dw.bbx:${PORTSDIR}/print/texlive-biblatex-dw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-fiwi/fiwi-yearbeginning.bbx:${PORTSDIR}/print/texlive-biblatex-fiwi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-historian/historian.bbx:${PORTSDIR}/print/texlive-biblatex-historian \
-		${LOCALBASE}/share/texmf-dist/bibtex/bib/biblatex-ieee/biblatex-ieee.bib:${PORTSDIR}/print/texlive-biblatex-ieee \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-ieee/ieee-alphabetic.bbx:${PORTSDIR}/print/texlive-biblatex-ieee \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-juradiss/biblatex-juradiss.bbx:${PORTSDIR}/print/texlive-biblatex-juradiss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-luh-ipw/bbx/authoryear-luh-ipw.bbx:${PORTSDIR}/print/texlive-biblatex-luh-ipw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-mla/american-mla.lbx:${PORTSDIR}/print/texlive-biblatex-mla \
@@ -94,6 +94,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-nejm/nejm.bbx:${PORTSDIR}/print/texlive-biblatex-nejm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-philosophy/english-philosophy.lbx:${PORTSDIR}/print/texlive-biblatex-philosophy \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/biblatex-science/biblatex-science.bib:${PORTSDIR}/print/texlive-biblatex-science \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-swiss-legal/biblatex-swiss-legal-fr.lbx:${PORTSDIR}/print/texlive-biblatex-swiss-legal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblist/biblist.sty:${PORTSDIR}/print/texlive-biblist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibtopic/bibtopic.sty:${PORTSDIR}/print/texlive-bibtopic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibtopicprefix/bibtopicprefix.sty:${PORTSDIR}/print/texlive-bibtopicprefix \

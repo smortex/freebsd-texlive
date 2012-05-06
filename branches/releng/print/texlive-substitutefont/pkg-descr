@@ -1,0 +1,5 @@
+Many free fonts are extensions of a basic font family with new
+glyphs or shapes. Such fonts may be given a new name due to
+licence reasons or to the creator's preference. The package
+facilitates the task of setting up a font family as substitute
+for another one, using its \substitutefont command.
