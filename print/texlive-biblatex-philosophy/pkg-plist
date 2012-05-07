@@ -1,11 +1,10 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/CHANGES.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/Test-philosophy-classic.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/Test-philosophy-modern.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/Test-philosophy-verbose.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/biblatex-philosophy.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/biblatex-philosophy.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/biblatex-philosophy.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/philosophy-examples.bib
 share/texmf-dist/tex/latex/biblatex-philosophy/english-philosophy.lbx
 share/texmf-dist/tex/latex/biblatex-philosophy/italian-philosophy.lbx
 share/texmf-dist/tex/latex/biblatex-philosophy/philosophy-classic.bbx
