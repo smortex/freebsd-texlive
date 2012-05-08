@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	codicefiscaleitaliano
-PORTVERSION=	20120506
+PORTVERSION=	20120508
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

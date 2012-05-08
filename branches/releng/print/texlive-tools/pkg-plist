@@ -1,3 +1,40 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/generate/MacTT
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/generate/OpenType
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/generate/TrueType
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/generate/WOFF
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/generate/buildutils.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/generate/buildutils.pyc
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/report/OS2UnicodeRange
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/report/OpenType/UnicodeRanges.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/report/OpenType/__init__.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/report/kernclasses.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/report/ligatureLookups.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/report/private_use.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/report/range_report.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/script-menu/nameBySlot.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/script-menu/unnameBySlot.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/test/MES-Conformance/CheckConformance.pl
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/test/MES-Conformance/MES-1.lst
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/test/MES-Conformance/MES-1.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/test/MES-Conformance/MES-2.lst
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/test/MES-Conformance/MES-2.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/test/MES-Conformance/MES-3B.lst
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/test/MES-Conformance/MES-3B.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/test/MES-Conformance/WGL4.lst
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/test/MES-Conformance/mes-list-expand.pl
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/test/checkGlyphNumbers.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/test/findBackLayers.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/test/isMonoMono.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/test/ranges/Arabic/arabic_test.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/test/ranges/Arabic/generate_arabic_shaping.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/test/ranges/Arabic/unicode_joining.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/test/validate.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/utility/KerningNumerals.pl
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/utility/fontforge-interp.sh
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/utility/freefont-ttf.spec
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/utility/hex_range.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/utility/metafont/bulk_eps_import.py
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gnu-freefont/tools/utility/special-purpose/makeBraille.py
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/afterpage.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/array.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/bm.pdf
@@ -95,5 +132,15 @@ share/texmf-dist/tex/latex/tools/xspace.sty
 @dirrmtry share/texmf-dist/tex/latex/tools
 @dirrmtry share/texmf-dist/source/latex/tools
 @dirrmtry share/texmf-dist/doc/latex/tools
+@dirrmtry share/texmf-dist/doc/fonts/gnu-freefont/tools/utility/special-purpose
+@dirrmtry share/texmf-dist/doc/fonts/gnu-freefont/tools/utility/metafont
+@dirrmtry share/texmf-dist/doc/fonts/gnu-freefont/tools/utility
+@dirrmtry share/texmf-dist/doc/fonts/gnu-freefont/tools/test/ranges/Arabic
+@dirrmtry share/texmf-dist/doc/fonts/gnu-freefont/tools/test/MES-Conformance
+@dirrmtry share/texmf-dist/doc/fonts/gnu-freefont/tools/test
+@dirrmtry share/texmf-dist/doc/fonts/gnu-freefont/tools/script-menu
+@dirrmtry share/texmf-dist/doc/fonts/gnu-freefont/tools/report/OpenType
+@dirrmtry share/texmf-dist/doc/fonts/gnu-freefont/tools/report
+@dirrmtry share/texmf-dist/doc/fonts/gnu-freefont/tools/generate
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

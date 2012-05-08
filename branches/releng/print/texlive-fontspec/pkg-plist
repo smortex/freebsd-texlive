@@ -6,6 +6,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/fontspec/fontspec.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/F-alias-feature-option.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/F-alias-feature.ltx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/F-autofake.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/F-autoscaling.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/F-charactervariant.ltx
 %%PORTSRC%%share/texmf-dist/source/latex/fontspec/testsuite/F-colour-basic.ltx
