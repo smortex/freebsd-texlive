@@ -1,5 +1,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/svn-multi/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/svn-multi/example_chap1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/svn-multi/example_main.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/svn-multi/group_example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/svn-multi/svn-multi.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/svn-multi/svn-multi-pl.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/svn-multi/svn-multi-pl.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/svn-multi/svn-multi.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/svn-multi/svn-multi.ins
@@ -7,6 +11,7 @@ share/texmf-dist/tex/latex/svn-multi/svn-multi.sty
 share/texmf-dist/tex/latex/svn-multi/svnkw.sty
 @dirrmtry share/texmf-dist/tex/latex/svn-multi
 @dirrmtry share/texmf-dist/source/latex/svn-multi
+@dirrmtry share/texmf-dist/doc/support/svn-multi
 @dirrmtry share/texmf-dist/doc/latex/svn-multi
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
