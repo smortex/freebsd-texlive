@@ -1,20 +1,15 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/README
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/README.txt
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example-CJKchecksingle.tex
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example-CJKfntef.tex
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example-addspaces.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example-autofake.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example-fallback.tex
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/examples/example-CJKchecksingle.tex
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/examples/example-CJKfntef.tex
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/examples/example-addspaces.tex
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/examples/example-fallback.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example-subCJKblock.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/xeCJK.cmds
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/xeCJK.pdf
 %%PORTSRC%%share/texmf-dist/source/xelatex/xecjk/xeCJK.dtx
 %%PORTSRC%%share/texmf-dist/source/xelatex/xecjk/xeCJK.ins
 share/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
 @dirrmtry share/texmf-dist/tex/xelatex/xecjk
 @dirrmtry share/texmf-dist/source/xelatex/xecjk
-@dirrmtry share/texmf-dist/doc/xelatex/xecjk/examples
 @dirrmtry share/texmf-dist/doc/xelatex/xecjk
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
