@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120506
+PORTVERSION=	20120510
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -678,6 +678,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/multicap/multicap.sty:${PORTSDIR}/print/texlive-multicap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multirow/multirow.sty:${PORTSDIR}/print/texlive-multirow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mversion/mVersion.sty:${PORTSDIR}/print/texlive-mversion \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mwe/mwe.sty:${PORTSDIR}/print/texlive-mwe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mycv/mycv.cls:${PORTSDIR}/print/texlive-mycv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mylatexformat/mylatexformat.ltx:${PORTSDIR}/print/texlive-mylatexformat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nag/nag.sty:${PORTSDIR}/print/texlive-nag \

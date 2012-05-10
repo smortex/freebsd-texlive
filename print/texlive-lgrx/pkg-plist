@@ -1,0 +1,22 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/lgrx/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/lgrx/README.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/lgrx/greek-unicode.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lgrx/greek-unicode.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lgrx/greekhyperref.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lgrx/greekhyperref.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lgrx/lgrenc.dfu
+%%PORTDOCS%%share/texmf-dist/doc/latex/lgrx/lgrenc.dfu.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/lgrx/lgrxenc-test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lgrx/lgrxenc-test.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lgrx/lgrxenc.def.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/lgrx/lgrxenc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lgrx/lgrxenc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lgrx/textalpha-test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lgrx/textalpha-test.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lgrx/textalpha.sty.html
+share/texmf-dist/tex/latex/lgrx/lgrxenc.def
+share/texmf-dist/tex/latex/lgrx/textalpha.sty
+@dirrmtry share/texmf-dist/tex/latex/lgrx
+@dirrmtry share/texmf-dist/doc/latex/lgrx
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
