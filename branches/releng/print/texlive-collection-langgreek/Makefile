@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-langgreek
-PORTVERSION=	20101215
+PORTVERSION=	20120510
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -27,6 +27,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/betababel/betababel.sty:${P
 		${LOCALBASE}/share/texmf-dist/tex/latex/kerkis/kerkis.sty:${PORTSDIR}/print/texlive-kerkis \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/levy/a.mf:${PORTSDIR}/print/texlive-levy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lgreek/lgreek.sty:${PORTSDIR}/print/texlive-lgreek \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lgrx/lgrxenc.def:${PORTSDIR}/print/texlive-lgrx \
 		${LOCALBASE}/share/texmf-dist/makeindex/mkgrkindex/lowercase-headers.ist:${PORTSDIR}/print/texlive-mkgrkindex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/teubner/teubner.sty:${PORTSDIR}/print/texlive-teubner \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xgreek/xgreek.sty:${PORTSDIR}/print/texlive-xgreek \

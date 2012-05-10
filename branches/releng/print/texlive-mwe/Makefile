@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-notes
-# Date created:		13/03/2010 04:46:29
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-mwe
+# Date created:		05/10/2012 05:04:24
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	notes
+PORTNAME=	mwe
 PORTVERSION=	20120510
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Mark sections of a document.
+COMMENT=	Packages and image files for MWEs.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

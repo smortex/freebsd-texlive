@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	scheme-full
-PORTVERSION=	20120506
+PORTVERSION=	20120510
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -624,6 +624,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/kerkis/kerkis.sty:${PORTSDIR}/print/texlive-kerkis \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/levy/a.mf:${PORTSDIR}/print/texlive-levy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lgreek/lgreek.sty:${PORTSDIR}/print/texlive-lgreek \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lgrx/lgrxenc.def:${PORTSDIR}/print/texlive-lgrx \
 		${LOCALBASE}/share/texmf-dist/makeindex/mkgrkindex/lowercase-headers.ist:${PORTSDIR}/print/texlive-mkgrkindex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/teubner/teubner.sty:${PORTSDIR}/print/texlive-teubner \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xgreek/xgreek.sty:${PORTSDIR}/print/texlive-xgreek \
@@ -1274,6 +1275,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/multicap/multicap.sty:${PORTSDIR}/print/texlive-multicap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multirow/multirow.sty:${PORTSDIR}/print/texlive-multirow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mversion/mVersion.sty:${PORTSDIR}/print/texlive-mversion \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mwe/mwe.sty:${PORTSDIR}/print/texlive-mwe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mycv/mycv.cls:${PORTSDIR}/print/texlive-mycv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mylatexformat/mylatexformat.ltx:${PORTSDIR}/print/texlive-mylatexformat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nag/nag.sty:${PORTSDIR}/print/texlive-nag \
