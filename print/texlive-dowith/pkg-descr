@@ -1,0 +1,7 @@
+The package provides macros for applying a command to all
+elements of a list without separators, such as
+'\DoWithAllIn{<cmd>}{<list-macro>}', and also for extending and
+reducing macros storing such lists. Applications in mind
+belonged to LaTeX, but the package should work with other
+formats as well. Loop and list macros in other packages are
+discussed.

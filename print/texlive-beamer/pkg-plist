@@ -154,6 +154,10 @@ share/texmf-dist/tex/latex/beamer/art/beamericonbook.20.pdf
 share/texmf-dist/tex/latex/beamer/art/beamericonbook.eps
 share/texmf-dist/tex/latex/beamer/art/beamericonbook.pdf
 share/texmf-dist/tex/latex/beamer/art/beamericonbook.tex
+share/texmf-dist/tex/latex/beamer/art/beamericononline.20.eps
+share/texmf-dist/tex/latex/beamer/art/beamericononline.20.pdf
+share/texmf-dist/tex/latex/beamer/art/beamericononline.eps
+share/texmf-dist/tex/latex/beamer/art/beamericononline.pdf
 share/texmf-dist/tex/latex/beamer/beamer.cls
 share/texmf-dist/tex/latex/beamer/beamerarticle.sty
 share/texmf-dist/tex/latex/beamer/beamerbasearticle.sty
@@ -234,6 +238,7 @@ share/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemesmoothbars.sty
 share/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemesmoothtree.sty
 share/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemesplit.sty
 share/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemetree.sty
+share/texmf-dist/tex/latex/beamer/themes/outer/beameroutherthemeshadow.sty
 share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeAnnArbor.sty
 share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeAntibes.sty
 share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeBergen.sty

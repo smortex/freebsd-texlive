@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bwl/doc/bwl-FU.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bwl/doc/bwl-FU.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bwl/doc/bwl-FU.tex
+share/texmf-dist/tex/latex/biblatex-bwl/bwl-FU.bbx
+share/texmf-dist/tex/latex/biblatex-bwl/bwl-FU.cbx
+@dirrmtry share/texmf-dist/tex/latex/biblatex-bwl
+@dirrmtry share/texmf-dist/doc/latex/biblatex-bwl/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

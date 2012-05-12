@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20120506
+PORTVERSION=	20120512
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -137,6 +137,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdputu/mdputu.sty:${PORTSDIR}/print/texlive-mdputu \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdsymbol/mdsymbol.sty:${PORTSDIR}/print/texlive-mdsymbol \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc:${PORTSDIR}/print/texlive-mnsymbol \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/public/newtx/libertinealt.enc:${PORTSDIR}/print/texlive-newtx \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/nkarta/nkarta.mf:${PORTSDIR}/print/texlive-nkarta \
 		${LOCALBASE}/share/texmf-dist/tex/lambda/ocherokee/ocherokee.sty:${PORTSDIR}/print/texlive-ocherokee \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/ocr-b/ocrb10.mf:${PORTSDIR}/print/texlive-ocr-b \

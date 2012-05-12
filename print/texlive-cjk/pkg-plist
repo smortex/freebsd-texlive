@@ -56,7 +56,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/cjk/doc/ruby.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/cjk/doc/thaifont.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/cjk/doc/vertical.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/cjk/doc/xCJK.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/cjk/examples/Big5.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/cjk/examples/Big5vert.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/cjk/examples/CEF_test.tex
@@ -98,11 +97,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/cjk/examples/pdf/pytest.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/cjk/examples/pdf/rubytest.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/cjk/examples/pdf/thai.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/cjk/examples/pdf/xCJK.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cjk/examples/pdf/thai_utf8.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/cjk/examples/py_test.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/cjk/examples/rubytest.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/cjk/examples/thai.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/cjk/examples/xCJK.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/cjk/texlive/bin-cjkutils.pl
 %%PORTDOCS%%share/texmf-dist/doc/latex/cjk/texlive/c90.pl
 %%PORTDOCS%%share/texmf-dist/doc/latex/cjk/texlive/cjk-build.pl
@@ -352,8 +350,6 @@ share/texmf-dist/tex/latex/cjk/texinput/UTF8/ja.cpx
 share/texmf-dist/tex/latex/cjk/texinput/UTF8/ko-Hang.cpx
 share/texmf-dist/tex/latex/cjk/texinput/UTF8/ko-Hang2.cpx
 share/texmf-dist/tex/latex/cjk/texinput/UTF8/ko-Hani.cpx
-share/texmf-dist/tex/latex/cjk/texinput/UTF8/xUTF8.chr
-share/texmf-dist/tex/latex/cjk/texinput/UTF8/xUTF8.enc
 share/texmf-dist/tex/latex/cjk/texinput/UTF8/zh-Hans.cpx
 share/texmf-dist/tex/latex/cjk/texinput/UTF8/zh-Hant.cpx
 share/texmf-dist/tex/latex/cjk/texinput/extended.chr
@@ -374,9 +370,6 @@ share/texmf-dist/tex/latex/cjk/texinput/thai/c90enc.def
 share/texmf-dist/tex/latex/cjk/texinput/thai/c90gar.fd
 share/texmf-dist/tex/latex/cjk/texinput/thai/c90nrsr.fd
 share/texmf-dist/tex/latex/cjk/texinput/thai/thaicjk.ldf
-share/texmf-dist/tex/latex/cjk/texinput/xCJK.sty
-share/texmf-dist/tex/latex/cjk/texinput/xpmC.chr
-share/texmf-dist/tex/latex/cjk/texinput/xpmC.enc
 share/texmf-dist/tex/latex/cjk/utils/pyhyphen/pinyin.ldf
 @dirrmtry share/texmf-dist/tex/latex/cjk/utils/pyhyphen
 @dirrmtry share/texmf-dist/tex/latex/cjk/texinput/thai

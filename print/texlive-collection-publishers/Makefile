@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20120506
+PORTVERSION=	20120512
 CATEGORIES=	print
 DISTFILES=	# None
 

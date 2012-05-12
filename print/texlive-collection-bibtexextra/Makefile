@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20120506
+PORTVERSION=	20120512
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -80,6 +80,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${POR
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/bibhtml/abbrvhtml.bst:${PORTSDIR}/print/texlive-bibhtml \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex/biblatex.sty:${PORTSDIR}/print/texlive-biblatex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx:${PORTSDIR}/print/texlive-biblatex-apa \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-bwl/bwl-FU.bbx:${PORTSDIR}/print/texlive-biblatex-bwl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-chem/chem-acs.bbx:${PORTSDIR}/print/texlive-biblatex-chem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-chicago/biblatex-chicago.sty:${PORTSDIR}/print/texlive-biblatex-chicago \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-dw/bbx/authortitle-dw.bbx:${PORTSDIR}/print/texlive-biblatex-dw \

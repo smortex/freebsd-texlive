@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-genericextra
-PORTVERSION=	20120331
+PORTVERSION=	20120512
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -23,6 +23,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/abbr/abbr.tex:${PORTSDIR}
 		${LOCALBASE}/share/texmf-dist/dvips/colorsep/colorsep.pro:${PORTSDIR}/print/texlive-colorsep \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/dinat/dinat.bst:${PORTSDIR}/print/texlive-dinat \
 		${LOCALBASE}/share/texmf-dist/tex/generic/dirtree/dirtree.sty:${PORTSDIR}/print/texlive-dirtree \
+		${LOCALBASE}/share/texmf-dist/tex/generic/dowith/dowith.sty:${PORTSDIR}/print/texlive-dowith \
 		${LOCALBASE}/share/texmf-dist/tex/generic/eijkhout/CD_labeler.tex:${PORTSDIR}/print/texlive-eijkhout \
 		${LOCALBASE}/share/texmf-dist/tex/latex/encxvlna/encxvlna.sty:${PORTSDIR}/print/texlive-encxvlna \
 		${LOCALBASE}/share/texmf-dist/tex/generic/epigram/epigram.tex:${PORTSDIR}/print/texlive-epigram \
