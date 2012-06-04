@@ -7,7 +7,7 @@
 
 PORTNAME=	teTeX
 PORTVERSION=	3.0
-PORTREVISION=	5
+PORTREVISION=	7
 CATEGORIES=	print
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -34,7 +34,7 @@ RUN_DEPENDS+=	xdvi:${PORTSDIR}/print/xdvik
 #      in print/teTeX-base.
 DEPENDS_ARGS+=	BATCH=yes
 
-CONFLICTS=	latex2e-[0-9]* tex-[0-9]* dvips-[0-9]* xdvi-[0-9]*
+CONFLICTS=	latex2e-[0-9]* tex-[0-9]* dvips-[0-9]* xdvi-[0-9]* texlive-core-[0-9]*
 
 .if defined(WITH_LETTERSIZE)
 FLAVOR+=	letter
