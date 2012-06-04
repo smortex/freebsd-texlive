@@ -7,7 +7,7 @@
 
 PORTNAME=	texlive-core
 PORTVERSION=	20110705
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	print
 MASTER_SITES=	${MASTER_SITE_TEX_CTAN}
 MASTER_SITE_SUBDIR=	systems/texlive/Source
@@ -16,16 +16,14 @@ DISTNAME=	texlive-${PORTVERSION}-source
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	TeXLive (binaries)
 
-LIB_DEPENDS=	fontconfig.1:${PORTSDIR}/x11-fonts/fontconfig
+LIB_DEPENDS=	fontconfig:${PORTSDIR}/x11-fonts/fontconfig
 
 CONFLICTS=	teTeX-base-[0-9]*
 
-CONFIGURE_ENV=	CFLAGS="-fPIC"
+CFLAGS+=	-fPIC
 CONFIGURE_ARGS=	--bindir=${PREFIX}/bin \
 		--libdir=${PREFIX}/lib \
 		--datadir=${PREFIX}/share \
-		--mandir=${PREFIX}/man \
-		--infodir=${PREFIX}/info \
 		--with-tex-banner="TeXLive 2011/FreeBSD"
 GNU_CONFIGURE=	yes
 MAKE_ARGS+=	GNUMAKE="${GMAKE}" ARCH="arch/unix"
@@ -73,8 +71,10 @@ MAN5=		fmtutil.cnf.5 synctex.5 updmap.cfg.5
 INFO=		dvipng dvips kpathsea web2c
 
 post-extract:
-	@find ${WRKSRC} -name 'Makefile.in' | xargs sed -EI '' \
+	@${FIND} ${WRKSRC} -name 'Makefile.in' | ${XARGS} ${SED} -EI '' \
 	    -e 's,(\$$[{(]prefix[)}])/(texmf|\$$[{(]scriptsdir[)}]),\1/share/\2,'
+	@${REINPLACE_CMD} 's/\$$(REL)\/texmf\//\$$(REL)\/share\/texmf\//g' ${WRKSRC}/texk/texlive/linked_scripts/Makefile.in
+	@${REINPLACE_CMD} 's/\$$(REL)\/texmf-dist\//\$$(REL)\/share\/texmf-dist\//g' ${WRKSRC}/texk/texlive/linked_scripts/Makefile.in
 
 post-install:
 	@${LN} -sf pdftex ${PREFIX}/bin/amstex
@@ -129,14 +129,14 @@ post-install:
 	@${LN} -sf ${PREFIX}/share/texmf/scripts/xindy/xindy.pl ${PREFIX}/bin/xindy
 	@${LN} -sf pdftex ${PREFIX}/bin/xmltex
 .if defined(WITHOUT_TEXLIVE_MKTEXLSR)
-	@echo "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr."
-	@echo "You MUST run 'mktexlsr' to update TeXLive installed files database."
+	@${ECHO_CMD} "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr."
+	@${ECHO_CMD} "You MUST run 'mktexlsr' to update TeXLive installed files database."
 .else
-	@echo "Updating ls-R databases..."
+	@${ECHO_CMD} "Updating ls-R databases..."
 	@${PREFIX}/bin/mktexlsr
 .endif
 
 pretty-print-man1:
-	echo ${MAN1:O} | fmt 60 60 | sed -e 's|^|		|' -e 's|$$| \\|'
+	${ECHO_CMD} ${MAN1:O} | fmt 60 60 | ${SED} -e 's|^|		|' -e 's|$$| \\|'
 
 .include <bsd.port.mk>
