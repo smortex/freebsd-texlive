@@ -20,8 +20,8 @@ USE_PERL5=	yes
 PAPERSIZE=	letter
 .endif
 
-RUN_DEPENDS=	latex:${PORTSDIR}/print/teTeX \
-		psnup:${PORTSDIR}/print/psutils-${PAPERSIZE} \
+RUN_DEPENDS=	latex:${PORTSDIR}/print/texlive-tetex \
+		psnup:${PORTSDIR}/print/texlive-psutils \
 		uncompface:${PORTSDIR}/mail/faces \
 		convert:${PORTSDIR}/graphics/ImageMagick \
 		${SITE_PERL}/Date/Parse.pm:${PORTSDIR}/devel/p5-TimeDate \
