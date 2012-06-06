@@ -1,0 +1,6 @@
+TikZ-UML is a TikZ extension to manage common UML diagrams: class diagrams, use
+case diagrams, state-machine diagrams and sequence diagrams. The first goal is
+to propose an alternative to pst-uml package written by Maurice Diamantini, as
+TikZ is an alternative itself to PSTricks.
+
+WWW:	http://www.ensta-paristech.fr/~kielbasi/tikzuml/index.php?lang=en

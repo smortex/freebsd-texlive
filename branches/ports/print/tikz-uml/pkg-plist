@@ -1,0 +1,16 @@
+@comment $FreeBSD$
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-uml/tikz-uml-userguide-fr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-uml/tikz-uml-userguide-fr.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-uml/tikz-uml-userguide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-uml/tikz-uml-userguide.tex
+share/texmf-dist/tex/latex/tikz-uml/tikz-uml.sty
+@dirrm share/texmf-dist/tex/latex/tikz-uml
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+%%PORTDOCS%%@dirrm share/texmf-dist/doc/latex/tikz-uml
+%%PORTDOCS%%@dirrmtry share/texmf-dist/doc/latex
+%%PORTDOCS%%@dirrmtry share/texmf-dist/doc
+@dirrmtry share/texmf-dist
+@dirrmtry share
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
