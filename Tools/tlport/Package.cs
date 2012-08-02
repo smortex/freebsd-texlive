@@ -36,6 +36,7 @@ namespace TeXLive
 	{
 		protected string name;
 		protected string version;
+		protected int epoch;
 		protected string short_description;
 		protected string long_description;
 		protected ArrayList depend;
@@ -194,12 +195,16 @@ namespace TeXLive
 			// If there is alread a Makefile, copy it's header
 			if (System.IO.File.Exists (makefile_path)) {
 				System.IO.StreamReader old_makefile = new System.IO.StreamReader (makefile_path);
+				bool read_header = true;
 				while (!old_makefile.EndOfStream) {
 					string line = old_makefile.ReadLine ();
-					if (line.StartsWith ("#"))
+					if (read_header && line.StartsWith ("#"))
 						header.Add (line);
-					else
-						break;
+					else {
+						read_header = false;
+						if (line.StartsWith ("PORTEPOCH=\t"))
+							epoch = int.Parse (line.Split ('\t')[1]);
+					}
 				}
 				old_makefile.Close ();
 			}
@@ -221,6 +226,9 @@ namespace TeXLive
 			makefile.WriteLine();
 			makefile.WriteLine("PORTNAME=\t{0}", name);
 			makefile.WriteLine ("PORTVERSION=\t{0}", version);
+			if (epoch > 0) {
+				makefile.WriteLine ("PORTEPOCH=\t{0}", epoch);
+			}
 			makefile.WriteLine("CATEGORIES=\tprint");
 			if (files.Count == 0) {
 				makefile.WriteLine("DISTFILES=\t# None");
@@ -502,6 +510,7 @@ namespace TeXLive
 			System.IO.StreamReader tlobj = new System.IO.StreamReader(FileName, true);
 			
 			version = System.IO.File.GetCreationTimeUtc (FileName).ToString ("yyyyMMdd");
+			epoch = 0;
 
 			// Read package information
 			string s;
