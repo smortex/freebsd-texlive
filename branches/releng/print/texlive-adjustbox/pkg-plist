@@ -1,14 +1,18 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/adjustbox/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/adjustbox/adjcalc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/adjustbox/adjustbox.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/adjustbox/trimclip.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/adjustbox/adjcalc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/adjustbox/adjustbox.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/adjustbox/adjustbox.ins
+%%PORTSRC%%share/texmf-dist/source/latex/adjustbox/trimclip.dtx
 share/texmf-dist/tex/latex/adjustbox/adjcalc.sty
-share/texmf-dist/tex/latex/adjustbox/adjdvips.def
-share/texmf-dist/tex/latex/adjustbox/adjgrfx.sty
-share/texmf-dist/tex/latex/adjustbox/adjpdftex.def
-share/texmf-dist/tex/latex/adjustbox/adjpgf.def
 share/texmf-dist/tex/latex/adjustbox/adjustbox.sty
-share/texmf-dist/tex/latex/adjustbox/adjxetex.def
+share/texmf-dist/tex/latex/adjustbox/tc-dvips.def
+share/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+share/texmf-dist/tex/latex/adjustbox/tc-pgf.def
+share/texmf-dist/tex/latex/adjustbox/tc-xetex.def
+share/texmf-dist/tex/latex/adjustbox/trimclip.sty
 @dirrmtry share/texmf-dist/tex/latex/adjustbox
 @dirrmtry share/texmf-dist/source/latex/adjustbox
 @dirrmtry share/texmf-dist/doc/latex/adjustbox

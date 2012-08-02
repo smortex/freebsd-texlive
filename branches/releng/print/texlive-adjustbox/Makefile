@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	adjustbox
-PORTVERSION=	20111116
+PORTVERSION=	20120522
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Apply graphics package macros to general boxes.
+COMMENT=	The adjustbox package
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

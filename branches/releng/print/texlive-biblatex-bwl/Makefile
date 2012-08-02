@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	biblatex-bwl
-PORTVERSION=	20120512
+PORTVERSION=	20120522
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Biblatex citations for FU Berlin.
+COMMENT=	The biblatex-bwl package
 
 NOPORTSRC=	yes
 

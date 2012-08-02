@@ -1,0 +1,5 @@
+TeX-Gyre-Math is to be a collection of maths fonts to match the
+text fonts of the TeX-Gyre collection. The collection will be
+made available in OpenType format, only; fonts will conform to
+the developing standards for OpenType maths fonts. At present,
+only TeX-Gyre-Math-Pagella is available.

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	historische-zeitschrift
-PORTVERSION=	20101025
+PORTVERSION=	20120724
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

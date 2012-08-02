@@ -1,0 +1,8 @@
+The package typesets a character inside a box, showing where
+reference point is, and displaying width, height, and depth
+information of the character. The output is like that on page
+63 of "The TeXBook" or page 101 of "The METAFONTbook". The
+package itself is motivated by Knuth's macros in the file
+manmac.tex. Users should note that using a small size for the
+character inside the box does not make any sense: use a large
+size.

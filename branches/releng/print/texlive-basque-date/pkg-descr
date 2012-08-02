@@ -1,0 +1,5 @@
+The package provides two LaTeX commands to print the current
+date in Basque according to the correct forms ruled by The
+Basque Language Academy (Euskaltzaindia). The commands
+automatically solve the complex declination issues of numbers
+in Basque.

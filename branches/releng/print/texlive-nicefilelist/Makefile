@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	nicefilelist
-PORTVERSION=	20120331
+PORTVERSION=	20120522
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provide \listfiles alignment.
+COMMENT=	The nicefilelist package
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	ccicons
-PORTVERSION=	20110922
+PORTVERSION=	20120524
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX support for Creative Commons icons.
+COMMENT=	The ccicons package
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

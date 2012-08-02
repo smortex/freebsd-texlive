@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	plain
-PORTVERSION=	20101125
+PORTVERSION=	20120525
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The Plain TeX format.
+COMMENT=	The plain package
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes

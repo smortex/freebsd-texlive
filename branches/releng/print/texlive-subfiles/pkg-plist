@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/subfiles/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/subfiles/subfiles.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/subfiles/subfiles.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/subfiles/subfiles.ins
+share/texmf-dist/tex/latex/subfiles/subfiles.cls
+share/texmf-dist/tex/latex/subfiles/subfiles.sty
+@dirrmtry share/texmf-dist/tex/latex/subfiles
+@dirrmtry share/texmf-dist/source/latex/subfiles
+@dirrmtry share/texmf-dist/doc/latex/subfiles
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

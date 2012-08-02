@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/doc.html
+share/texmf/scripts/texlive/var/texcatalogue.keywords
+@dirrmtry share/texmf/scripts/texlive/var
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

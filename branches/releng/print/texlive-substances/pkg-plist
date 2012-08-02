@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/substances/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/substances/substances-examples.sub
+%%PORTDOCS%%share/texmf-dist/doc/latex/substances/substances_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/substances/substances_en.tex
+share/texmf-dist/tex/latex/substances/substances-default.def
+share/texmf-dist/tex/latex/substances/substances.sty
+@dirrmtry share/texmf-dist/tex/latex/substances
+@dirrmtry share/texmf-dist/doc/latex/substances
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

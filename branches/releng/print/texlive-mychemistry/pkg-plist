@@ -1,8 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/mychemistry/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/mychemistry/examples.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/mychemistry/examples.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/mychemistry/mychemistry_de.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/mychemistry/mychemistry_de.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/mychemistry/mychemistry_en.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/mychemistry/mychemistry_en.tex
 share/texmf-dist/tex/latex/mychemistry/mychemistry.sty

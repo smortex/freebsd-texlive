@@ -238,7 +238,6 @@ share/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemesmoothbars.sty
 share/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemesmoothtree.sty
 share/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemesplit.sty
 share/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemetree.sty
-share/texmf-dist/tex/latex/beamer/themes/outer/beameroutherthemeshadow.sty
 share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeAnnArbor.sty
 share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeAntibes.sty
 share/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeBergen.sty
@@ -284,6 +283,7 @@ share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/t
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-German.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Greek.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Norsk.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Nynorsk.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Polish.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Serbian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Brazilian.dict
@@ -309,6 +309,7 @@ share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-German.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Greek.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Norsk.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Nynorsk.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Polish.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Serbian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Brazilian.dict
@@ -318,6 +319,7 @@ share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-German.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Greek.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Norsk.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Nynorsk.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Polish.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Serbian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Brazilian.dict

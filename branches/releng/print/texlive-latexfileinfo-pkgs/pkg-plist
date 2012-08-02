@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/latexfileinfo-pkgs/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/latexfileinfo-pkgs/latexfileinfo_pkgs.htm
+%%PORTSRC%%share/texmf-dist/source/latex/latexfileinfo-pkgs/SrcFILEs.txt
+%%PORTSRC%%share/texmf-dist/source/latex/latexfileinfo-pkgs/latexfileinfo_pkgs.tex
+%%PORTSRC%%share/texmf-dist/source/latex/latexfileinfo-pkgs/mkht_ltxfinfo_pkgs.tex
+share/texmf-dist/tex/latex/latexfileinfo-pkgs/latexfileinfo_pkgs.RLS
+@dirrmtry share/texmf-dist/tex/latex/latexfileinfo-pkgs
+@dirrmtry share/texmf-dist/source/latex/latexfileinfo-pkgs
+@dirrmtry share/texmf-dist/doc/latex/latexfileinfo-pkgs
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

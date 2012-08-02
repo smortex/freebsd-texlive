@@ -1,3 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/README.TEXLIVE
 %%PORTDOCS%%share/texmf-dist/doc/latex/sttools/doc/cuted.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/sttools/doc/cuted.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/sttools/doc/floatpag.pdf
@@ -5,7 +6,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/sttools/doc/flushend.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/sttools/doc/flushend.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/sttools/index.html
-%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/presfull.pdf
 share/texmf-dist/tex/latex/sttools/boundbox.sty
 share/texmf-dist/tex/latex/sttools/cuted.sty
 share/texmf-dist/tex/latex/sttools/floatpag.sty

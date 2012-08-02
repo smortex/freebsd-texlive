@@ -6,14 +6,14 @@
 #
 
 PORTNAME=	collection-documentation-mongolian
-PORTVERSION=	20100922
+PORTVERSION=	20100610
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Mongolian documentation
 
-RUN_DEPENDS=	
+RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes

@@ -32,6 +32,7 @@
 share/texmf-dist/tex/luatex/luatexja/addons/luatexja-ajmacros.sty
 share/texmf-dist/tex/luatex/luatexja/addons/luatexja-fontspec.sty
 share/texmf-dist/tex/luatex/luatexja/addons/luatexja-otf.sty
+share/texmf-dist/tex/luatex/luatexja/addons/luatexja-preset.sty
 share/texmf-dist/tex/luatex/luatexja/jfm-banjiao.lua
 share/texmf-dist/tex/luatex/luatexja/jfm-jis.lua
 share/texmf-dist/tex/luatex/luatexja/jfm-kaiming.lua

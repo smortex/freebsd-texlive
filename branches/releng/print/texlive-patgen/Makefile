@@ -6,12 +6,12 @@
 #
 
 PORTNAME=	patgen
-PORTVERSION=	20110721
+PORTVERSION=	20120529
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The patgen package
+COMMENT=	Generate hyphenation patterns.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core

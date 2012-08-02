@@ -126,3 +126,6 @@ print/texlive-taupin||2012-04-12|Upstream support dropped
 print/texlive-jeopardy||2012-04-15|Upstream support dropped
 print/texlive-fundus||2012-04-19|Upstream support dropped
 print/texlive-AkkTeX||2012-04-21|Upstream support dropped
+print/texlive-hyphen-lao||2012-08-02|Upstream support dropped
+print/texlive-ocgtools||2012-08-02|Upstream support dropped
+print/texlive-tcdialog||2012-08-02|Upstream support dropped

@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	collectbox
-PORTVERSION=	20110908
+PORTVERSION=	20120522
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Collect and process macro arguments as boxes.
+COMMENT=	The collectbox package
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

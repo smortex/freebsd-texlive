@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	fileinfo
-PORTVERSION=	20120321
+PORTVERSION=	20120529
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Get file information without loading the file.
+COMMENT=	Enhanced display of LaTeX File Information.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

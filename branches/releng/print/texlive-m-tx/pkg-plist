@@ -1,0 +1,64 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/m-tx.1
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/m-tx.1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/borup.mtx
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/chord.mtx
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/dertod.mtx
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/docversion
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/dona.mtx
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/dwoman.mta
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/dwoman.mtb
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/halleluja.ltx
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/kanons.ltx
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/kroonhom.mtx
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/loofnou.mtx
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/lyrics.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/macro.mtx
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/make-dvi
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/make-pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/make-target
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/melisma.mta
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/melisma1.mtb
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/melisma2.mtb
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/melisma3.mtb
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/melisma4.mtb
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/melisma5.mtb
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/melisma6.mtb
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/meter.mtx
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/mozart.mtx
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/mozart0.mtx
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/mtxdoc.sty
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/mtxdoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/mtxindex.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/mtxlatex.sty
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/netfirst.mtx
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/netsoos.mta
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/netsoos1.mtb
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/netsoos2.mtb
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/notes.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/pdfcat
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/psalm42.mtx
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/sanctus.mtx
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/title.mtx
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/title1.mtx
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/viva.mtx
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/volta.mtx
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/prepmx.1
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/prepmx.1.pdf
+share/texmf-dist/scripts/m-tx/Windows/m-tx.bat
+share/texmf-dist/scripts/m-tx/m-tx.lua
+share/texmf-dist/tex/generic/m-tx/mtx.tex
+%%PORTDOCS%%share/texmf/doc/man/man1/m-tx.1
+%%PORTDOCS%%share/texmf/doc/man/man1/m-tx.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/prepmx.1
+%%PORTDOCS%%share/texmf/doc/man/man1/prepmx.man1.pdf
+@dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf-dist/tex/generic/m-tx
+@dirrmtry share/texmf-dist/scripts/m-tx/Windows
+@dirrmtry share/texmf-dist/scripts/m-tx
+@dirrmtry share/texmf-dist/doc/generic/m-tx/mtx060
+@dirrmtry share/texmf-dist/doc/generic/m-tx
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

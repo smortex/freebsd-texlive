@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/typeface/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/typeface/typeface-all-rm.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/typeface/typeface-test.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/typeface/typeface.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/typeface/typeface.tex
+%%PORTSRC%%share/texmf-dist/source/latex/typeface/typeface-all-rm.bat
+share/texmf-dist/tex/latex/typeface/typeface.cfg
+share/texmf-dist/tex/latex/typeface/typeface.sty
+@dirrmtry share/texmf-dist/tex/latex/typeface
+@dirrmtry share/texmf-dist/source/latex/typeface
+@dirrmtry share/texmf-dist/doc/latex/typeface
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

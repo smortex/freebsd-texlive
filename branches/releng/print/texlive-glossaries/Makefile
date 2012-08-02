@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	glossaries
-PORTVERSION=	20110418
+PORTVERSION=	20120522
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create glossaries and lists of acronyms.
+COMMENT=	The glossaries package
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

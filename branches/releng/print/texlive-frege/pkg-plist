@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/frege/GNU.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/frege/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/frege/frege.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/frege/frege.tex
+share/texmf-dist/tex/latex/frege/frege.sty
+@dirrmtry share/texmf-dist/tex/latex/frege
+@dirrmtry share/texmf-dist/doc/latex/frege
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

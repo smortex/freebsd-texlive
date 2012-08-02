@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	philosophersimprint
-PORTVERSION=	20111206
+PORTVERSION=	20120605
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

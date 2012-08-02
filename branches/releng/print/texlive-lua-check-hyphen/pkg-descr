@@ -1,0 +1,6 @@
+The package looks at all hyphenation breaks in the document,
+comparing them against a white-list prepared by the author. If
+a hyphenation break is found, for which there is no entry in
+the white-list, the package flags the line where the break
+starts. The author may then either add the hyphenation to the
+white-list, or adjust the document to avoid the break.

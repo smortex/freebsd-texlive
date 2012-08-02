@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/python/README
+share/texmf-dist/tex/latex/python/python.sty
+@dirrmtry share/texmf-dist/tex/latex/python
+@dirrmtry share/texmf-dist/doc/latex/python
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

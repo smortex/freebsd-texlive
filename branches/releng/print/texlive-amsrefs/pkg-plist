@@ -25,6 +25,7 @@ share/texmf-dist/bibtex/bst/amsrefs/amsry.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/amsrefs/rkeyval.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/amsrefs/textcmds.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/amsrefs/00readme.txt
+%%PORTSRC%%share/texmf-dist/source/latex/amsrefs/README
 %%PORTSRC%%share/texmf-dist/source/latex/amsrefs/amsrdoc.tex
 %%PORTSRC%%share/texmf-dist/source/latex/amsrefs/amsrefs.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/amsrefs/amsrefs.ins

@@ -1,5 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/README
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/ftxe-0.11.py
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/ftxe-0.12.py
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/img/ireland.jpg
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/img/weather/clouds.jpg
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/img/weather/rain.jpg
@@ -46,6 +46,7 @@ share/texmf-dist/tex/xelatex/xepersian/extrafootnotefeatures-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/extreport-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/flowfram-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/footnote-bidi-xepersian.def
+share/texmf-dist/tex/xelatex/xepersian/framed-bidi-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/hyperref-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/imsproc-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/kashida-xepersian.def
@@ -65,6 +66,7 @@ share/texmf-dist/tex/xelatex/xepersian/report-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/scrartcl-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/scrbook-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/scrreprt-xepersian.def
+share/texmf-dist/tex/xelatex/xepersian/tkz-linknodes-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/tocloft-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/xepersian-magazine.cls
 share/texmf-dist/tex/xelatex/xepersian/xepersian-mathsdigitspec.sty

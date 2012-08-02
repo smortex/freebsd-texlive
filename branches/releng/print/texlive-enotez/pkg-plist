@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/enotez/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/enotez/enotez_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/enotez/enotez_en.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/enotez/enotez_split_example.tex
+share/texmf-dist/tex/latex/enotez/enotez.sty
+@dirrmtry share/texmf-dist/tex/latex/enotez
+@dirrmtry share/texmf-dist/doc/latex/enotez
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

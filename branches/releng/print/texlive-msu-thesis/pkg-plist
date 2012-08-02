@@ -1,17 +1,16 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/msu-thesis/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/msu-thesis/msu-thesis.pdf
-%%PORTDOCS%%share/texmf-dist/doc/msu-thesis/msu-thesis.tex
-%%PORTDOCS%%share/texmf-dist/doc/msu-thesis/samples/MSU-thesis-template.pdf
-%%PORTDOCS%%share/texmf-dist/doc/msu-thesis/samples/MSU-thesis-template.tex
-%%PORTDOCS%%share/texmf-dist/doc/msu-thesis/samples/MSU-thesis-testfile.bib
-%%PORTDOCS%%share/texmf-dist/doc/msu-thesis/samples/MSU-thesis-testfile.pdf
-%%PORTDOCS%%share/texmf-dist/doc/msu-thesis/samples/MSU-thesis-testfile.tex
-%%PORTDOCS%%share/texmf-dist/doc/msu-thesis/samples/unified.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/msu-thesis/msu-thesis.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/msu-thesis/samples/MSU-thesis-template.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/msu-thesis/samples/MSU-thesis-template.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/msu-thesis/samples/MSU-thesis-testfile.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/msu-thesis/samples/MSU-thesis-testfile.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/msu-thesis/samples/MSU-thesis-testfile.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/msu-thesis/samples/unified.bst
 share/texmf-dist/tex/latex/msu-thesis/gb4e-compat.tex
 share/texmf-dist/tex/latex/msu-thesis/msu-thesis.cls
 @dirrmtry share/texmf-dist/tex/latex/msu-thesis
-@dirrmtry share/texmf-dist/doc/msu-thesis/samples
-@dirrmtry share/texmf-dist/doc/msu-thesis
+@dirrmtry share/texmf-dist/doc/latex/msu-thesis/samples
 @dirrmtry share/texmf-dist/doc/latex/msu-thesis
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

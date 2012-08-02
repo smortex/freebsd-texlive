@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	mycv
-PORTVERSION=	20120506
+PORTVERSION=	20120603
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	A list-driven CV class, allowing TikZ decorations.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

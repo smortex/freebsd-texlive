@@ -1,0 +1,7 @@
+The calculator and calculus packages define several
+instructions which allow us to realise algebraic operations and
+to evaluate elementary functions and derivatives in our
+documents. The package's main goal is to define the arithmetic
+and functional calculations need in the author's package
+xpicture, but the numeric abilities of "calculator" and
+"calculus" may be useful in other contexts.
