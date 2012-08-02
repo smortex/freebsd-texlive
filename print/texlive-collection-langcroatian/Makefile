@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-langcroatian
 PORTVERSION=	20110128
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

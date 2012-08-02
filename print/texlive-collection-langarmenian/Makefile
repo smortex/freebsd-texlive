@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-langarmenian
 PORTVERSION=	20101122
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

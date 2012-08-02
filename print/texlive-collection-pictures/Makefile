@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-pictures
 PORTVERSION=	20120424
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

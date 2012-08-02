@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-langgreek
 PORTVERSION=	20120509
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

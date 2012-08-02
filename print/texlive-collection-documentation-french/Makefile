@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-documentation-french
 PORTVERSION=	20120115
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

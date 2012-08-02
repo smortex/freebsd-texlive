@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-documentation-serbian
 PORTVERSION=	20100624
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

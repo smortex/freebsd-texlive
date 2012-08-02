@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-xetex
 PORTVERSION=	20120405
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

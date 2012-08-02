@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-mathextra
 PORTVERSION=	20120408
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

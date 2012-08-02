@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-documentation-arabic
 PORTVERSION=	20100610
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

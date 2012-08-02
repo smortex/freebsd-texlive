@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-langarabic
 PORTVERSION=	20111206
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

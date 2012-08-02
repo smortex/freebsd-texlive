@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-metapost
 PORTVERSION=	20110728
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 
