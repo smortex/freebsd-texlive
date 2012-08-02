@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	currfile
-PORTVERSION=	20120510
+PORTVERSION=	20120516
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros for file name and path of input files.
+COMMENT=	Provide file name and path of input files.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

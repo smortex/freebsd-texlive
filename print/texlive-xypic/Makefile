@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	xypic
-PORTVERSION=	20110804
+PORTVERSION=	20120525
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Flexible diagramming macros.
+COMMENT=	The xypic package
 
 NOPORTSRC=	yes
 

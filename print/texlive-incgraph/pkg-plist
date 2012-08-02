@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/incgraph/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/latex/incgraph/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/incgraph/exaimage-0001.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/incgraph/exaimage-0037.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/incgraph/exaimage-0123.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/incgraph/example.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/incgraph/incgraph-example-a.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/incgraph/incgraph-example-a.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/incgraph/incgraph-example-b.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/incgraph/incgraph-example-b.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/incgraph/incgraph-example-c.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/incgraph/incgraph-example-c.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/incgraph/incgraph.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/incgraph/incgraph.tex
+share/texmf-dist/tex/latex/incgraph/incgraph.sty
+@dirrmtry share/texmf-dist/tex/latex/incgraph
+@dirrmtry share/texmf-dist/doc/latex/incgraph
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

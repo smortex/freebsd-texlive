@@ -6,14 +6,15 @@
 #
 
 PORTNAME=	collection-documentation-english
-PORTVERSION=	20120512
+PORTVERSION=	20120511
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	English documentation
 
-RUN_DEPENDS=	
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/latexfileinfo-pkgs/latexfileinfo_pkgs.RLS:${PORTSDIR}/print/texlive-latexfileinfo-pkgs \
+		${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes

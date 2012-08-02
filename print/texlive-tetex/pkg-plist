@@ -1,3 +1,4 @@
+share/texmf-dist/web2c/updmap.cfg
 %%PORTDOCS%%share/texmf/doc/man/man1/allcm.1
 %%PORTDOCS%%share/texmf/doc/man/man1/allcm.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/allec.1
@@ -57,5 +58,6 @@ share/texmf/web2c/updmap.cfg
 @dirrmtry share/texmf/dvips/tetex
 @dirrmtry share/texmf/doc/man/man5
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf-dist/web2c
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -1,42 +1,29 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/CHANGELOG
-%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Doc/Chapters/Fundamentals.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Doc/Chapters/Usage.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Doc/FrontBackMatter/Contents.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Doc/FrontBackMatter/Titlepage+Abstract.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Doc/Images/logo-1.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Doc/mycv-macros.sty
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Doc/mycv.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/Contents/contents_partA.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/Contents/contents_partB.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/Contents/contents_partC.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/Contents/footer_sign.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/Contents/header_contacts.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/Contents/header_title.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/Models/model-common.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/Models/model-dpl.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/Models/model-dpl2.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/Models/model-spl.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/mycv-example-common.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/Notes.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/mycv-example-dpl.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/mycv-example-dpl.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/mycv-example-dpl2.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/mycv-example-dpl2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/mycv-example-spl.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/mycv-example-spl.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/mycv-example-spl2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/Examples/mycv-examples.dtx
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/mycv/checksum.pl
 %%PORTDOCS%%share/texmf-dist/doc/latex/mycv/mycv.pdf
+share/texmf-dist/scripts/mycv/mycv_split_contents.pl
+%%PORTSRC%%share/texmf-dist/source/latex/mycv/mycv.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mycv/mycv.ins
 share/texmf-dist/tex/latex/mycv/mycv.cls
 share/texmf-dist/tex/latex/mycv/mycv_base.def
 share/texmf-dist/tex/latex/mycv/mycv_dec.sty
 share/texmf-dist/tex/latex/mycv/mycv_misc.def
 share/texmf-dist/tex/latex/mycv/mycv_style.sty
+share/texmf-dist/tex/latex/mycv/mycv_version.def
 @dirrmtry share/texmf-dist/tex/latex/mycv
-@dirrmtry share/texmf-dist/doc/latex/mycv/Examples/Models
-@dirrmtry share/texmf-dist/doc/latex/mycv/Examples/Contents
+@dirrmtry share/texmf-dist/source/latex/mycv
+@dirrmtry share/texmf-dist/scripts/mycv
 @dirrmtry share/texmf-dist/doc/latex/mycv/Examples
 @dirrmtry share/texmf-dist/doc/latex/mycv/Doc/Images
-@dirrmtry share/texmf-dist/doc/latex/mycv/Doc/FrontBackMatter
-@dirrmtry share/texmf-dist/doc/latex/mycv/Doc/Chapters
 @dirrmtry share/texmf-dist/doc/latex/mycv/Doc
 @dirrmtry share/texmf-dist/doc/latex/mycv
 @exec %D/bin/mktexlsr

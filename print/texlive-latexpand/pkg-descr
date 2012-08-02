@@ -1,0 +1,3 @@
+Latexpand is a Perl script that simply replaces \input and
+\include commands with the content of the file input/included.
+The script does not deal with \includeonly commands.

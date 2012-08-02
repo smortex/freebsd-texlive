@@ -6,14 +6,14 @@
 #
 
 PORTNAME=	collection-documentation-bulgarian
-PORTVERSION=	20100922
+PORTVERSION=	20100709
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Bulgarian documentation
 
-RUN_DEPENDS=	
+RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes

@@ -6,10 +6,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/animate/files/bye_1.eps
 %%PORTDOCS%%share/texmf-dist/doc/latex/animate/files/bye_2.eps
 %%PORTDOCS%%share/texmf-dist/doc/latex/animate/files/bye_3.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/animate/files/click.mp3
 %%PORTDOCS%%share/texmf-dist/doc/latex/animate/files/exp.mp
 %%PORTDOCS%%share/texmf-dist/doc/latex/animate/files/mailto.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/animate/files/pstmetronome.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/animate/files/scarab.mp
-%%PORTDOCS%%share/texmf-dist/doc/latex/animate/files/timeline.txt
 share/texmf-dist/tex/latex/animate/animate.sty
 share/texmf-dist/tex/latex/animate/animfp.sty
 @dirrmtry share/texmf-dist/tex/latex/animate

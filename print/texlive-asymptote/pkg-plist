@@ -99,6 +99,7 @@ share/texmf/asymptote/x11colors.asy
 %%PORTDOCS%%share/texmf/doc/asymptote/CAD.pdf
 %%PORTDOCS%%share/texmf/doc/asymptote/TeXShopAndAsymptote.pdf
 %%PORTDOCS%%share/texmf/doc/asymptote/asy-latex.pdf
+%%PORTDOCS%%share/texmf/doc/asymptote/asyRefCard.pdf
 %%PORTDOCS%%share/texmf/doc/asymptote/asymptote.pdf
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/100d.views
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/1overx.asy
@@ -315,6 +316,7 @@ share/texmf/asymptote/x11colors.asy
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/progrid.asy
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/projectelevation.asy
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/projectrevolution.asy
+%%PORTDOCS%%share/texmf/doc/asymptote/examples/pseudosphere.asy
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/quartercircle.asy
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/quilt.asy
 %%PORTDOCS%%share/texmf/doc/asymptote/examples/rainbow.asy

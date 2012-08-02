@@ -1,47 +1,21 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview/fancy-preview
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview/fancy-preview-demo.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview/fancy-preview-demo.sin.table
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview/fancy-preview-demo.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview/fancypreview.bat
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview2/LDF.jpg
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview2/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview2/complie.sh
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview2/fancy-preview
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview2/marik.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview2/slides.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview2/slides.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancytooltips-example-dvips.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancytooltips-example-dvips.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancytooltips-example-min-dvips.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancytooltips-example-min-dvips.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancytooltips-example-min.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancytooltips-example-min.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/cite.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview-demo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview-demo.sin.table
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview-demo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview-demo2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview-demo2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancytooltips-example.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/fancytooltips-example.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tecna2.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/images/ttp-1.jpg
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/logo.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/overlib.js
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/overlib_anchor.js
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/overlib_centerpopup.js
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/overlib_crossframe.js
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/overlib_cssstyle.js
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/overlib_debug.js
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/overlib_exclusive.js
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/overlib_followscroll.js
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/overlib_hideform.js
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/overlib_setonoff.js
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/overlib_shadow.js
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/tooltips2html-js.js
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/tooltips2html.css
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/tooltips2html.html
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/tooltips2html.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/tooltips2html.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/tooltips2html.tips
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/tooltips2html2.html
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tooltipy.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tooltipy.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/tooltipy.tips
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/pics/tecna2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/pics/tooltipy.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/pics/tooltipy.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/pics/tooltipy.tips
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/examples/readme
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/fancy-preview
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/fancytipmark1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/fancytipmark2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/fancytipmark3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/fancytipmark4.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/fancytooltips.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/readme
 %%PORTDOCS%%share/texmf-dist/doc/latex/fancytooltips/tip.pdf
@@ -54,10 +28,7 @@ share/texmf-dist/tex/latex/fancytooltips/fancytipmark.svg
 share/texmf-dist/tex/latex/fancytooltips/fancytooltips.sty
 @dirrmtry share/texmf-dist/tex/latex/fancytooltips
 @dirrmtry share/texmf-dist/source/latex/fancytooltips
-@dirrmtry share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht/images
-@dirrmtry share/texmf-dist/doc/latex/fancytooltips/examples/tex4ht
-@dirrmtry share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview2
-@dirrmtry share/texmf-dist/doc/latex/fancytooltips/examples/fancy-preview
+@dirrmtry share/texmf-dist/doc/latex/fancytooltips/examples/pics
 @dirrmtry share/texmf-dist/doc/latex/fancytooltips/examples
 @dirrmtry share/texmf-dist/doc/latex/fancytooltips
 @exec %D/bin/mktexlsr

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	bibtexu
-PORTVERSION=	20100922
+PORTVERSION=	20120529
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -15,7 +15,6 @@ COMMENT=	The bibtexu package
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
-NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

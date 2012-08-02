@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	tugboat-plain
-PORTVERSION=	20110317
+PORTVERSION=	20120524
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Plain TeX macros for TUGboat.
+COMMENT=	The tugboat-plain package
 
 NOPORTSRC=	yes
 

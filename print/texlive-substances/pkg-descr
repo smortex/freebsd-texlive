@@ -1,0 +1,4 @@
+The package provides the means to create a database-like file
+that contains data of various chemicals. These data may be
+retrieved in the document; an index of the chemicals mentioned
+in the document can be created..

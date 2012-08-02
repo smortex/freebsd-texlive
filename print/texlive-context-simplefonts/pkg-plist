@@ -1,6 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/context/third/simplefonts/README
 share/texmf-dist/tex/context/third/simplefonts/t-simplefonts.lua
-share/texmf-dist/tex/context/third/simplefonts/t-simplefonts.tex
+share/texmf-dist/tex/context/third/simplefonts/t-simplefonts.mkii
+share/texmf-dist/tex/context/third/simplefonts/t-simplefonts.mkiv
 @dirrmtry share/texmf-dist/tex/context/third/simplefonts
 @dirrmtry share/texmf-dist/doc/context/third/simplefonts
 @exec %D/bin/mktexlsr

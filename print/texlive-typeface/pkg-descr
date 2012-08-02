@@ -1,0 +1,12 @@
+The package provides the means of establishing a consistent set
+of fonts for use in a LaTeX document. It allows mixing and
+matching the Type 1 font sets available on the archive (and it
+may be extended, via its configuration file, to support other
+fonts). Font-set definition takes the form of a set of options
+that are read when the package is loaded: for each typographic
+category (main body font, sans-serif font, monospace font,
+mathematics fonts, text figures, and so on), a font or a
+transformation is given in those options. The approach enables
+the user to remember their own configurations (as a single
+command) and to borrow configurations that other users have
+developed. The present release is designated "for review".

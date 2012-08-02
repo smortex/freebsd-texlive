@@ -1,13 +1,15 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/README.html
-%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/substitutefont.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/substitutefont.sty.xhtml
-%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/test-cyrillic.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/test-cyrillic.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/test-greek.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/test-greek.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/test-txtt.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/test-txtt.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/cyrillic-lm-lgc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/cyrillic-lm-lgc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/cyrillic-times-paratype.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/cyrillic-times-paratype.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/greek-palatino-didot.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/greek-palatino-didot.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/greek-times-bodoni.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/greek-times-bodoni.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/substitutefont.sty.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/substitutefont.sty.txt
 share/texmf-dist/tex/latex/substitutefont/substitutefont.sty
 @dirrmtry share/texmf-dist/tex/latex/substitutefont
 @dirrmtry share/texmf-dist/doc/latex/substitutefont

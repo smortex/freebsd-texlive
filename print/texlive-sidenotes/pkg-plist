@@ -1,7 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/sidenotes/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/sidenotes/sidenotes.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sidenotes/sn.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/sidenotes/sn_usage_biblatex.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/sidenotes/sn_usage_biblatex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sidenotes/sn_usage_bibtex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sidenotes/sn_usage_bibtex.tex
 %%PORTSRC%%share/texmf-dist/source/latex/sidenotes/sidenotes.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/sidenotes/sidenotes.ins
 share/texmf-dist/tex/latex/sidenotes/sidenotes.sty

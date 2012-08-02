@@ -1,0 +1,3 @@
+These files are regenerated as needed, which is often, so we
+make them a separate package.  See the tl-update-auto script
+for the process.

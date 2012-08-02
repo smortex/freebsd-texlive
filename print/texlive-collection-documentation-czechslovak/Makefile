@@ -6,14 +6,14 @@
 #
 
 PORTNAME=	collection-documentation-czechslovak
-PORTVERSION=	20110721
+PORTVERSION=	20110617
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Czech/Slovak documentation
 
-RUN_DEPENDS=	
+RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes

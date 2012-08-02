@@ -1,14 +1,16 @@
-%%PORTDOCS%%share/texmf-dist/doc/generic/pst-optexp/Changes
-%%PORTDOCS%%share/texmf-dist/doc/generic/pst-optexp/README
-%%PORTDOCS%%share/texmf-dist/doc/generic/pst-optexp/parque-nacional.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pst-optexp/pst-optexp-doc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/pst-optexp/pst-optexp-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-optexp/Changes
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-optexp/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-optexp/pst-optexp-DE.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-optexp/pst-optexp-quickref.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-optexp/pst-optexp.pdf
 share/texmf-dist/dvips/pst-optexp/pst-optexp.pro
-share/texmf-dist/tex/generic/pst-optexp/pst-optexp.tex
+%%PORTSRC%%share/texmf-dist/source/latex/pst-optexp/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/pst-optexp/pst-optexp.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/pst-optexp/pst-optexp.ins
 share/texmf-dist/tex/latex/pst-optexp/pst-optexp.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-optexp
-@dirrmtry share/texmf-dist/tex/generic/pst-optexp
+@dirrmtry share/texmf-dist/source/latex/pst-optexp
 @dirrmtry share/texmf-dist/dvips/pst-optexp
-@dirrmtry share/texmf-dist/doc/generic/pst-optexp
+@dirrmtry share/texmf-dist/doc/latex/pst-optexp
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

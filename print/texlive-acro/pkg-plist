@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/acro/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/acro/acro_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/acro/acro_en.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/acro/example_one.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/acro/example_two.tex
+share/texmf-dist/tex/latex/acro/acro.sty
+@dirrmtry share/texmf-dist/tex/latex/acro
+@dirrmtry share/texmf-dist/doc/latex/acro
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

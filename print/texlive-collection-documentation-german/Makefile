@@ -6,14 +6,14 @@
 #
 
 PORTNAME=	collection-documentation-german
-PORTVERSION=	20120207
+PORTVERSION=	20120206
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	German documentation
 
-RUN_DEPENDS=	
+RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes

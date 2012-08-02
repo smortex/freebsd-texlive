@@ -1,0 +1,7 @@
+The package allows manipulations of any LuaTeX document (it is
+known to work with Plain LuaTeX and LuaLaTeX). Most of the
+package's functions are merely for fun or educational use, but
+some functions (for example, colorstretch for visualising the
+badness and font expansion of each line, and letterspaceadjust
+doing what its name says) could be useful in a "normal" LuaTeX
+document.

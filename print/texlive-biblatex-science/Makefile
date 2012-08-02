@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	biblatex-science
-PORTVERSION=	20110317
+PORTVERSION=	20120730
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

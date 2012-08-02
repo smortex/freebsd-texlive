@@ -1,0 +1,4 @@
+The class is derived from the LaTeX book class. The extensions
+solve grammatical and numeration issues that occur when book-
+type documents are written in Basque. The class is useful for
+writing books, PhD and Master Theses, etc., in Basque.

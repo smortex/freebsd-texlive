@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/embrac/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/embrac/embrac_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/embrac/embrac_en.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/embrac/embrac_kerning_test.tex
+share/texmf-dist/tex/latex/embrac/embrac.sty
+@dirrmtry share/texmf-dist/tex/latex/embrac
+@dirrmtry share/texmf-dist/doc/latex/embrac
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

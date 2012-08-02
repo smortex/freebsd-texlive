@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lua-check-hyphen/doc/README.md
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lua-check-hyphen/doc/luacheckhyphenmanual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lua-check-hyphen/doc/luacheckhyphenmanual.tex
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lua-check-hyphen/doc/sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lua-check-hyphen/doc/sample.tex
+share/texmf-dist/tex/lualatex/lua-check-hyphen/lua-check-hyphen.lua
+share/texmf-dist/tex/lualatex/lua-check-hyphen/lua-check-hyphen.sty
+@dirrmtry share/texmf-dist/tex/lualatex/lua-check-hyphen
+@dirrmtry share/texmf-dist/doc/lualatex/lua-check-hyphen/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

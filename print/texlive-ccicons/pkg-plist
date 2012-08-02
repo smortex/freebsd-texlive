@@ -3,11 +3,13 @@ share/texmf-dist/fonts/enc/dvips/ccicons/ccicons-u.enc
 share/texmf-dist/fonts/map/dvips/ccicons/ccicons.map
 share/texmf-dist/fonts/tfm/public/ccicons/ccicons.tfm
 share/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb
+%%PORTSRC%%share/texmf-dist/source/fonts/ccicons/ccicons.sfd
 %%PORTSRC%%share/texmf-dist/source/latex/ccicons/ccicons.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/ccicons/ccicons.ins
 share/texmf-dist/tex/latex/ccicons/ccicons.sty
 @dirrmtry share/texmf-dist/tex/latex/ccicons
 @dirrmtry share/texmf-dist/source/latex/ccicons
+@dirrmtry share/texmf-dist/source/fonts/ccicons
 @dirrmtry share/texmf-dist/fonts/type1/public/ccicons
 @dirrmtry share/texmf-dist/fonts/tfm/public/ccicons
 @dirrmtry share/texmf-dist/fonts/map/dvips/ccicons

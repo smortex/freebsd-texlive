@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	context
-PORTVERSION=	20111004
+PORTVERSION=	20120609
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
@@ -19,7 +19,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/afm/metapost/freeeuro.afm:${POR
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/lm/lmb10.afm:${PORTSDIR}/print/texlive-lm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty:${PORTSDIR}/print/texlive-stmaryrd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
-		${LOCALBASE}/share/texmf-dist/tex/generic/context/mptopdf.tex:${PORTSDIR}/print/texlive-mptopdf \
+		${LOCALBASE}/share/texmf-dist/tex/generic/context/mptopdf/mptopdf.tex:${PORTSDIR}/print/texlive-mptopdf \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
 NOPORTSRC=	yes

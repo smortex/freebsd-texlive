@@ -11,6 +11,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/Makefile.in
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/NEWS
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/README
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/README.hyphen
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/TODO
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/aclocal.m4
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/babel/Makefile.am
@@ -29,6 +30,31 @@
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/emacs/Makefile.am
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/emacs/Makefile.in
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/emacs/thai-latex-setup.el
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/Makefile.am
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/Makefile.in
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/README
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/conv-utf8-hex.sed
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/diff-dicts.sh
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/hyph-th-utf8.tex.in
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/hyph-th.tex.in
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/loadhyph-th.tex
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/tdict-city.txt
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/tdict-collection.txt
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/tdict-common.txt
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/tdict-country.txt
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/tdict-district.txt
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/tdict-geo.txt
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/tdict-history.txt
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/tdict-ict.txt
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/tdict-lang-ethnic.txt
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/tdict-proper.txt
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/tdict-science.txt
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/tdict-spell.txt
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/tdict-std-compound.txt
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/tdict-std.txt
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/test-hyphen.sh
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/thai-exc.pat
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/hyphen/thai.tra
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/install-sh
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/missing
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/scripts/Makefile.am
@@ -36,12 +62,16 @@
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/scripts/sync-babel
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/scripts/sync-thailatex.in
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/scripts/tlatex
+share/texmf-dist/tex/generic/thailatex/hyph-th-utf8.tex
+share/texmf-dist/tex/generic/thailatex/hyph-th.tex
+share/texmf-dist/tex/generic/thailatex/loadhyph-th.tex
 share/texmf-dist/tex/generic/thailatex/lthenc.def
 share/texmf-dist/tex/generic/thailatex/thai.ldf
 share/texmf-dist/tex/generic/thailatex/thswitch.sty
 share/texmf-dist/tex/generic/thailatex/tis620.def
 @dirrmtry share/texmf-dist/tex/generic/thailatex
 @dirrmtry share/texmf-dist/source/latex/thailatex/scripts
+@dirrmtry share/texmf-dist/source/latex/thailatex/hyphen
 @dirrmtry share/texmf-dist/source/latex/thailatex/emacs
 @dirrmtry share/texmf-dist/source/latex/thailatex/doc
 @dirrmtry share/texmf-dist/source/latex/thailatex/babel

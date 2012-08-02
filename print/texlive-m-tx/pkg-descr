@@ -1,0 +1,5 @@
+M-Tx is a preprocessor to pmx, which is itself a preprocessor
+to musixtex, a music typesetting system. The prime motivation
+to the development of M-Tx was to provide lyrics for music to
+be typeset. In fact, pmx now provides a lyrics interface, but
+M-Tx continues in use by those who prefer its language.

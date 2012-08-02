@@ -32,6 +32,7 @@ share/texmf-dist/tex/latex/nicetext/fifinddo.sty
 share/texmf-dist/tex/latex/nicetext/makedoc.cfg
 share/texmf-dist/tex/latex/nicetext/makedoc.sty
 share/texmf-dist/tex/latex/nicetext/mdoccorr.cfg
+share/texmf-dist/tex/latex/nicetext/nicetext.RLS
 share/texmf-dist/tex/latex/nicetext/niceverb.sty
 share/texmf-dist/tex/latex/nicetext/run/README-run.txt
 share/texmf-dist/tex/latex/nicetext/run/arseneau.tex

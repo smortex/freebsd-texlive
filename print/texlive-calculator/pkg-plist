@@ -1,0 +1,67 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator10.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator11.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator12.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator13.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator14.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator15.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator16.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator17.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator18.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator19.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator20.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator21.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator22.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator23.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator24.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator25.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator26.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator27.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator28.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator29.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator30.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator31.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator32.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator33.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator34.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator35.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator36.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator37.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator38.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator39.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator4.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator40.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator41.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator42.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator43.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator44.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator45.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator46.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator47.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator48.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator49.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator5.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator50.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator51.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator52.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator53.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator54.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator55.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator56.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator57.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator6.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator7.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator8.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculator/calculator9.tex
+%%PORTSRC%%share/texmf-dist/source/latex/calculator/calculator.dtx
+share/texmf-dist/tex/latex/calculator/calculator.sty
+share/texmf-dist/tex/latex/calculator/calculus.sty
+@dirrmtry share/texmf-dist/tex/latex/calculator
+@dirrmtry share/texmf-dist/source/latex/calculator
+@dirrmtry share/texmf-dist/doc/latex/calculator
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

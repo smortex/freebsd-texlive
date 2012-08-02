@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	lgrx
-PORTVERSION=	20120510
+PORTVERSION=	20120712
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The lgrx package
+COMMENT=	Greek text with the LGR font encoding.
 
 NOPORTSRC=	yes
 

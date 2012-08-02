@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/harnon-cv/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/harnon-cv/sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/harnon-cv/sample.tex
+share/texmf-dist/tex/latex/harnon-cv/harnon-cv.cls
+@dirrmtry share/texmf-dist/tex/latex/harnon-cv
+@dirrmtry share/texmf-dist/doc/latex/harnon-cv
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

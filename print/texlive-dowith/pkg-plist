@@ -3,6 +3,7 @@
 %%PORTSRC%%share/texmf-dist/source/generic/dowith/SrcFILEs.txt
 %%PORTSRC%%share/texmf-dist/source/generic/dowith/dowith.tex
 %%PORTSRC%%share/texmf-dist/source/generic/dowith/srcfiles.tex
+share/texmf-dist/tex/generic/dowith/dowith.RLS
 share/texmf-dist/tex/generic/dowith/dowith.sty
 @dirrmtry share/texmf-dist/tex/generic/dowith
 @dirrmtry share/texmf-dist/source/generic/dowith

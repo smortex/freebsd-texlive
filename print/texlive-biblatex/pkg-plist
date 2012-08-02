@@ -1,4 +1,3 @@
-share/texmf-dist/bibtex/bib/biblatex/biblatex-examples.bib
 share/texmf-dist/bibtex/bst/biblatex/biblatex.bst
 share/texmf-dist/bibtex/csf/biblatex/latin1.csf
 share/texmf-dist/bibtex/csf/biblatex/latin1_at.csf
@@ -25,6 +24,7 @@ share/texmf-dist/bibtex/csf/biblatex/winansi_se.csf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/RELEASE
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/biblatex.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/biblatex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/bibtex/bib/biblatex-examples.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/01-introduction.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/01-introduction.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/02-annotations.pdf
@@ -63,6 +63,8 @@ share/texmf-dist/bibtex/csf/biblatex/winansi_se.csf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/40-style-alphabetic.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/41-style-alphabetic-verb.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/41-style-alphabetic-verb.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/42-style-alphabetic-template.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/42-style-alphabetic-template.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/50-style-authoryear.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/50-style-authoryear.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/51-style-authoryear-ibid.pdf
@@ -105,6 +107,10 @@ share/texmf-dist/bibtex/csf/biblatex/winansi_se.csf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/81-style-draft.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/82-style-debug.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/82-style-debug.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/90-related-entries.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/90-related-entries.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/91-sorting-schemes.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/91-sorting-schemes.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/biblatex-examples.bib
 share/texmf-dist/tex/latex/biblatex/bbx/alphabetic-verb.bbx
 share/texmf-dist/tex/latex/biblatex/bbx/alphabetic.bbx
@@ -136,7 +142,10 @@ share/texmf-dist/tex/latex/biblatex/bbx/verbose.bbx
 share/texmf-dist/tex/latex/biblatex/biblatex.cfg
 share/texmf-dist/tex/latex/biblatex/biblatex.def
 share/texmf-dist/tex/latex/biblatex/biblatex.sty
+share/texmf-dist/tex/latex/biblatex/biblatex1.sty
+share/texmf-dist/tex/latex/biblatex/biblatex2.sty
 share/texmf-dist/tex/latex/biblatex/blx-compat.def
+share/texmf-dist/tex/latex/biblatex/blx-dm.def
 share/texmf-dist/tex/latex/biblatex/blx-mcite.def
 share/texmf-dist/tex/latex/biblatex/blx-natbib.def
 share/texmf-dist/tex/latex/biblatex/cbx/alphabetic-verb.cbx
@@ -181,6 +190,7 @@ share/texmf-dist/tex/latex/biblatex/lbx/finnish.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/french.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/german.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/greek.lbx
+share/texmf-dist/tex/latex/biblatex/lbx/icelandic.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/italian.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/naustrian.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/newzealand.lbx
@@ -198,9 +208,9 @@ share/texmf-dist/tex/latex/biblatex/lbx/swedish.lbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex/bbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex
 @dirrmtry share/texmf-dist/doc/latex/biblatex/examples
+@dirrmtry share/texmf-dist/doc/latex/biblatex/bibtex/bib
 @dirrmtry share/texmf-dist/doc/latex/biblatex
 @dirrmtry share/texmf-dist/bibtex/csf/biblatex
 @dirrmtry share/texmf-dist/bibtex/bst/biblatex
-@dirrmtry share/texmf-dist/bibtex/bib/biblatex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

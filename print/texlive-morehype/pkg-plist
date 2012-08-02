@@ -15,6 +15,8 @@
 %%PORTSRC%%share/texmf-dist/source/latex/morehype/hypertoc.tex
 %%PORTSRC%%share/texmf-dist/source/latex/morehype/srcfiles.tex
 %%PORTSRC%%share/texmf-dist/source/latex/morehype/texlinks.tex
+%%PORTSRC%%share/texmf-dist/source/latex/morehype/upsfl.sh
+share/texmf-dist/tex/latex/morehype/atari_ht.fdf
 share/texmf-dist/tex/latex/morehype/blog.sty
 share/texmf-dist/tex/latex/morehype/blogdot.cfg
 share/texmf-dist/tex/latex/morehype/blogdot.css
@@ -23,6 +25,7 @@ share/texmf-dist/tex/latex/morehype/hypertoc.sty
 share/texmf-dist/tex/latex/morehype/lang-de.fdf
 share/texmf-dist/tex/latex/morehype/lang-en.fdf
 share/texmf-dist/tex/latex/morehype/lnavicol.sty
+share/texmf-dist/tex/latex/morehype/morehype.RLS
 share/texmf-dist/tex/latex/morehype/texblog.fdf
 share/texmf-dist/tex/latex/morehype/texlinks.sty
 @dirrmtry share/texmf-dist/tex/latex/morehype
