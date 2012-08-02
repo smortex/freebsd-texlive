@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-formatsextra
 PORTVERSION=	20110330
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

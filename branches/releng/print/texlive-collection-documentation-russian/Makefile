@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-documentation-russian
 PORTVERSION=	20100610
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

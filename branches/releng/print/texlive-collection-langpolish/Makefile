@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-langpolish
 PORTVERSION=	20110815
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

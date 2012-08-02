@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-fontutils
 PORTVERSION=	20120320
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

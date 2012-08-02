@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-pstricks
 PORTVERSION=	20120414
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

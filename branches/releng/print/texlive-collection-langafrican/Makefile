@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-langafrican
 PORTVERSION=	20110114
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-documentation-czechslovak
 PORTVERSION=	20110617
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

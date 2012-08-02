@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-plainextra
 PORTVERSION=	20110807
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

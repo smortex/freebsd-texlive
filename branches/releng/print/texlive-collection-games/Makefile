@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-games
 PORTVERSION=	20120414
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

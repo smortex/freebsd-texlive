@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-latex
 PORTVERSION=	20120106
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

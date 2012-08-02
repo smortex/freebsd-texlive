@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-langspanish
 PORTVERSION=	20110227
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

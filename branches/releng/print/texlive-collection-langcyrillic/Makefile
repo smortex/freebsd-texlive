@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-langcyrillic
 PORTVERSION=	20120127
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-documentation-bulgarian
 PORTVERSION=	20100709
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-langmongolian
 PORTVERSION=	20110514
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

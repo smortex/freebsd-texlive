@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-omega
 PORTVERSION=	20120404
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

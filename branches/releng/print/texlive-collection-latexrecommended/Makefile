@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-latexrecommended
 PORTVERSION=	20120331
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 

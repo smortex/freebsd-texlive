@@ -7,6 +7,7 @@
 
 PORTNAME=	collection-genericrecommended
 PORTVERSION=	20100923
+PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 
