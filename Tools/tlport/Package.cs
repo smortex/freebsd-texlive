@@ -35,6 +35,7 @@ namespace TeXLive
 	public abstract class Package: IPackage
 	{
 		protected string name;
+		protected string version;
 		protected string short_description;
 		protected string long_description;
 		protected ArrayList depend;
@@ -180,24 +181,11 @@ namespace TeXLive
 		{
 			System.IO.Directory.CreateDirectory(PortDirectory);
 		}
-		
+
 		/// <summary>
 		/// Create the Makefile of the FreeBSD port.
 		/// </summary>
-		private void CreateMakefile()
-		{
-			DateTime d = DateTime.UtcNow.Date;
-			int PortVersion = d.Day + d.Month * 100 + d.Year * 10000;
-			CreateMakefile (PortVersion);
-		}
-
-		/// <summary>
-		/// Create the Makefile of the FreeBSD port with a given PORTVERSION.
-		/// </summary>
-		/// <param name="PortVersion">
-		/// A <see cref="System.Int32"/>
-		/// </param>
-		private void CreateMakefile (int PortVersion)
+		private void CreateMakefile ()
 		{
 			List<string> header = new List<string> ();
 			
@@ -232,7 +220,7 @@ namespace TeXLive
 			}
 			makefile.WriteLine();
 			makefile.WriteLine("PORTNAME=\t{0}", name);
-			makefile.WriteLine ("PORTVERSION=\t{0}", PortVersion);
+			makefile.WriteLine ("PORTVERSION=\t{0}", version);
 			makefile.WriteLine("CATEGORIES=\tprint");
 			if (files.Count == 0) {
 				makefile.WriteLine("DISTFILES=\t# None");
@@ -512,6 +500,8 @@ namespace TeXLive
 
 			string FileName = System.IO.Path.Combine(collection.TlpObjDir, PackageName + ".tlpobj");
 			System.IO.StreamReader tlobj = new System.IO.StreamReader(FileName, true);
+			
+			version = System.IO.File.GetCreationTimeUtc (FileName).ToString ("yyyyMMdd");
 
 			// Read package information
 			string s;
