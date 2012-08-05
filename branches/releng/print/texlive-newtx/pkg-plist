@@ -57,6 +57,7 @@ share/texmf-dist/fonts/tfm/public/newtx/ntxmi17.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxmi5.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxmi7.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
+share/texmf-dist/fonts/tfm/public/newtx/ntxsups.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsy5.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsy7.tfm
@@ -141,6 +142,7 @@ share/texmf-dist/fonts/type1/public/newtx/ntxbexb.pfb
 share/texmf-dist/fonts/type1/public/newtx/ntxbexmods.pfb
 share/texmf-dist/fonts/type1/public/newtx/ntxexb.pfb
 share/texmf-dist/fonts/type1/public/newtx/ntxexmods.pfb
+share/texmf-dist/fonts/type1/public/newtx/ntxsups.pfb
 share/texmf-dist/fonts/type1/public/newtx/rntxbmi.pfb
 share/texmf-dist/fonts/type1/public/newtx/rntxbmi5.pfb
 share/texmf-dist/fonts/type1/public/newtx/rntxbmi7.pfb
@@ -222,6 +224,7 @@ share/texmf-dist/fonts/vf/public/newtx/tyxij.vf
 share/texmf-dist/fonts/vf/public/newtx/tyxrj.vf
 share/texmf-dist/fonts/vf/public/newtx/tyxslj.vf
 share/texmf-dist/tex/latex/newtx/ly1ntxr.fd
+share/texmf-dist/tex/latex/newtx/ly1ntxr1.fd
 share/texmf-dist/tex/latex/newtx/ly1ntxrj.fd
 share/texmf-dist/tex/latex/newtx/ly1ntxss.fd
 share/texmf-dist/tex/latex/newtx/ly1ntxtt.fd
@@ -234,14 +237,17 @@ share/texmf-dist/tex/latex/newtx/omsntxsy.fd
 share/texmf-dist/tex/latex/newtx/omxntxex.fd
 share/texmf-dist/tex/latex/newtx/omxntxexv.fd
 share/texmf-dist/tex/latex/newtx/ot1ntxr.fd
+share/texmf-dist/tex/latex/newtx/ot1ntxr1.fd
 share/texmf-dist/tex/latex/newtx/ot1ntxrj.fd
 share/texmf-dist/tex/latex/newtx/ot1ntxss.fd
 share/texmf-dist/tex/latex/newtx/ot1ntxtt.fd
 share/texmf-dist/tex/latex/newtx/t1ntxr.fd
+share/texmf-dist/tex/latex/newtx/t1ntxr1.fd
 share/texmf-dist/tex/latex/newtx/t1ntxrj.fd
 share/texmf-dist/tex/latex/newtx/t1ntxss.fd
 share/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 share/texmf-dist/tex/latex/newtx/ts1ntxr.fd
+share/texmf-dist/tex/latex/newtx/ts1ntxr1.fd
 share/texmf-dist/tex/latex/newtx/ts1ntxrj.fd
 share/texmf-dist/tex/latex/newtx/ts1ntxss.fd
 share/texmf-dist/tex/latex/newtx/ts1ntxtt.fd
