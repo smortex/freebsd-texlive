@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120730
+PORTVERSION=	20120807
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -38,7 +38,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/mflogo/mflogo.sty:${PORTSDIR}/print/texlive-mflogo \
 		${LOCALBASE}/share/texmf-dist/mft/base/README:${PORTSDIR}/print/texlive-mfware \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/misc/black.mf:${PORTSDIR}/print/texlive-misc \
-		${LOCALBASE}/share/texmf/fonts/map/pdftex/updmap/pdftex.map:${PORTSDIR}/print/texlive-pdftex \
+		${LOCALBASE}/share/texmf-dist/scripts/simpdftex/simpdftex:${PORTSDIR}/print/texlive-pdftex \
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/web2c/updmap.cfg:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
@@ -701,6 +701,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/ncclatex/ncclatex.sty:${PORTSDIR}/print/texlive-ncclatex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ncctools/afterpackage.sty:${PORTSDIR}/print/texlive-ncctools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/needspace/needspace.sty:${PORTSDIR}/print/texlive-needspace \
+		${LOCALBASE}/share/texmf-dist/tex/latex/nestquot/nestquot.sty:${PORTSDIR}/print/texlive-nestquot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newfile/newfile.sty:${PORTSDIR}/print/texlive-newfile \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newlfm/newlfm.cls:${PORTSDIR}/print/texlive-newlfm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newspaper/newspaper.sty:${PORTSDIR}/print/texlive-newspaper \

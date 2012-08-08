@@ -1,0 +1,4 @@
+share/texmf-dist/tex/latex/nestquot/nestquot.sty
+@dirrmtry share/texmf-dist/tex/latex/nestquot
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
