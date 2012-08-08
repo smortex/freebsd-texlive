@@ -45,6 +45,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/pdftex/thanh/ext/mktfm8z
 %%PORTDOCS%%share/texmf-dist/doc/pdftex/thanh/ext/protcode.tex
 %%PORTDOCS%%share/texmf-dist/doc/pdftex/thanh/ext/ufntinst.sty
+share/texmf-dist/scripts/simpdftex/simpdftex
 %%PORTDOCS%%share/texmf/doc/man/man1/pdfetex.1
 %%PORTDOCS%%share/texmf/doc/man/man1/pdfetex.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/pdftex.1
@@ -59,6 +60,7 @@ share/texmf/tex/generic/pdftex/glyphtounicode.tex
 @dirrmtry share/texmf/tex/generic/config
 @dirrmtry share/texmf/fonts/map/pdftex/updmap
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf-dist/scripts/simpdftex
 @dirrmtry share/texmf-dist/doc/pdftex/thanh/ext
 @dirrmtry share/texmf-dist/doc/pdftex/pdftex-pdfkeys
 @dirrmtry share/texmf-dist/doc/pdftex/manual/samplepdf

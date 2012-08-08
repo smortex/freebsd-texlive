@@ -25,7 +25,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf/doc/man/man1/dt2dv.1:${PORTSDIR}/print/texlive-dtl \
 		${LOCALBASE}/share/texmf/doc/man/man1/dvi2tty.1:${PORTSDIR}/print/texlive-dvi2tty \
 		${LOCALBASE}/share/texmf/doc/man/man1/dvidvi.1:${PORTSDIR}/print/texlive-dvidvi \
-		${LOCALBASE}/share/texmf/scripts/tetex/e2pall.pl:${PORTSDIR}/print/texlive-pdftools \
+		${LOCALBASE}/share/texmf-dist/scripts/tetex/e2pall.pl:${PORTSDIR}/print/texlive-pdftools \
 		${LOCALBASE}/share/texmf/doc/man/man1/dvibook.1:${PORTSDIR}/print/texlive-seetexk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmbright/cmbright.sty:${PORTSDIR}/print/texlive-cmbright \
 		${LOCALBASE}/share/texmf-dist/tex/plain/cweb/cwebmac.tex:${PORTSDIR}/print/texlive-cweb \
@@ -62,7 +62,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/mflogo/mflogo.sty:${PORTSDIR}/print/texlive-mflogo \
 		${LOCALBASE}/share/texmf-dist/mft/base/README:${PORTSDIR}/print/texlive-mfware \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/misc/black.mf:${PORTSDIR}/print/texlive-misc \
-		${LOCALBASE}/share/texmf/fonts/map/pdftex/updmap/pdftex.map:${PORTSDIR}/print/texlive-pdftex \
+		${LOCALBASE}/share/texmf-dist/scripts/simpdftex/simpdftex:${PORTSDIR}/print/texlive-pdftex \
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/web2c/updmap.cfg:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/share/texmf/texconfig/README:${PORTSDIR}/print/texlive-texconfig \

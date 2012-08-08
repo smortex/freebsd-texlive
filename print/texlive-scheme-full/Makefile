@@ -39,7 +39,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/mflogo/mflogo.sty:${PORTSDIR}/print/texlive-mflogo \
 		${LOCALBASE}/share/texmf-dist/mft/base/README:${PORTSDIR}/print/texlive-mfware \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/misc/black.mf:${PORTSDIR}/print/texlive-misc \
-		${LOCALBASE}/share/texmf/fonts/map/pdftex/updmap/pdftex.map:${PORTSDIR}/print/texlive-pdftex \
+		${LOCALBASE}/share/texmf-dist/scripts/simpdftex/simpdftex:${PORTSDIR}/print/texlive-pdftex \
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/web2c/updmap.cfg:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
@@ -146,7 +146,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/usebib/usebib.sty:${PORTSDIR}/print/texlive-usebib \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/vak/vak.bst:${PORTSDIR}/print/texlive-vak \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xcite/xcite.sty:${PORTSDIR}/print/texlive-xcite \
-		${LOCALBASE}/share/texmf/scripts/a2ping/a2ping.pl:${PORTSDIR}/print/texlive-a2ping \
+		${LOCALBASE}/share/texmf-dist/scripts/a2ping/a2ping.pl:${PORTSDIR}/print/texlive-a2ping \
 		${LOCALBASE}/share/texmf/tex/latex/asymptote/asymptote.sty:${PORTSDIR}/print/texlive-asymptote \
 		${LOCALBASE}/share/texmf-dist/bibtex/csf/base/88591lat.csf:${PORTSDIR}/print/texlive-bibtex8 \
 		${LOCALBASE}/share/texmf-dist/scripts/bundledoc/arlatex:${PORTSDIR}/print/texlive-bundledoc \
@@ -174,7 +174,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/scripts/mkjobtexmf/mkjobtexmf.pl:${PORTSDIR}/print/texlive-mkjobtexmf \
 		${LOCALBASE}/share/texmf-dist/scripts/pdfcrop/pdfcrop.pl:${PORTSDIR}/print/texlive-pdfcrop \
 		${LOCALBASE}/share/texmf-dist/scripts/pdfjam/pdf180:${PORTSDIR}/print/texlive-pdfjam \
-		${LOCALBASE}/share/texmf/scripts/tetex/e2pall.pl:${PORTSDIR}/print/texlive-pdftools \
+		${LOCALBASE}/share/texmf-dist/scripts/tetex/e2pall.pl:${PORTSDIR}/print/texlive-pdftools \
 		${LOCALBASE}/share/texmf-dist/scripts/pkfix/pkfix.pl:${PORTSDIR}/print/texlive-pkfix \
 		${LOCALBASE}/share/texmf-dist/scripts/pkfix-helper/pkfix-helper:${PORTSDIR}/print/texlive-pkfix-helper \
 		${LOCALBASE}/share/texmf-dist/scripts/purifyeps/purifyeps:${PORTSDIR}/print/texlive-purifyeps \
@@ -184,7 +184,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/scripts/texdef/texdef.pl:${PORTSDIR}/print/texlive-texdef \
 		${LOCALBASE}/share/texmf-dist/scripts/texdiff/texdiff:${PORTSDIR}/print/texlive-texdiff \
 		${LOCALBASE}/share/texmf-dist/scripts/texdirflatten/texdirflatten:${PORTSDIR}/print/texlive-texdirflatten \
-		${LOCALBASE}/share/texmf-dist/texdoc/texdoc.cnf:${PORTSDIR}/print/texlive-texdoc \
+		${LOCALBASE}/share/texmf-dist/scripts/tetex/texdoctk.pl:${PORTSDIR}/print/texlive-texdoc \
 		${LOCALBASE}/share/texmf-dist/scripts/texliveonfly/texliveonfly.py:${PORTSDIR}/print/texlive-texliveonfly \
 		${LOCALBASE}/share/texmf-dist/scripts/texloganalyser/texloganalyser:${PORTSDIR}/print/texlive-texloganalyser \
 		${LOCALBASE}/share/texmf-dist/scripts/typeoutfileinfo/typeoutfileinfo.sh:${PORTSDIR}/print/texlive-typeoutfileinfo \
@@ -538,6 +538,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/poetrytex/poetrytex.sty:${PORTSDIR}/print/texlive-poetrytex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/qobitree/qobitree.tex:${PORTSDIR}/print/texlive-qobitree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/qtree/qtree.sty:${PORTSDIR}/print/texlive-qtree \
+		${LOCALBASE}/share/texmf-dist/tex/latex/rrgtrees/rrgtrees.sty:${PORTSDIR}/print/texlive-rrgtrees \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rtklage/rtklage.cls:${PORTSDIR}/print/texlive-rtklage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/screenplay/screenplay.cls:${PORTSDIR}/print/texlive-screenplay \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sides/sides.cls:${PORTSDIR}/print/texlive-sides \
@@ -1313,6 +1314,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/ncclatex/ncclatex.sty:${PORTSDIR}/print/texlive-ncclatex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ncctools/afterpackage.sty:${PORTSDIR}/print/texlive-ncctools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/needspace/needspace.sty:${PORTSDIR}/print/texlive-needspace \
+		${LOCALBASE}/share/texmf-dist/tex/latex/nestquot/nestquot.sty:${PORTSDIR}/print/texlive-nestquot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newfile/newfile.sty:${PORTSDIR}/print/texlive-newfile \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newlfm/newlfm.cls:${PORTSDIR}/print/texlive-newlfm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newspaper/newspaper.sty:${PORTSDIR}/print/texlive-newspaper \

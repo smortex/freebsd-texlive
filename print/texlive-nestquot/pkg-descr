@@ -1,0 +1,5 @@
+Provides two new commands: \nlq and \nrq for nesting left and
+right quotes that properly change between double and single
+quotes according to their nesting level. For example, the input
+\nlq Foo \nlq bar\nrq\ bletch\nrq will be typeset as if it had
+been entered as "Foo 'bar' bletch".

@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/rrgtrees/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/rrgtrees/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/rrgtrees/rrgtrees.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/rrgtrees/rrgtrees.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/rrgtrees/rrgtrees.ins
+share/texmf-dist/tex/latex/rrgtrees/rrgtrees.sty
+@dirrmtry share/texmf-dist/tex/latex/rrgtrees
+@dirrmtry share/texmf-dist/source/latex/rrgtrees
+@dirrmtry share/texmf-dist/doc/latex/rrgtrees
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,3 +1,4 @@
+share/texmf-dist/scripts/tetex/e2pall.pl
 %%PORTDOCS%%share/texmf/doc/man/man1/e2pall.1
 %%PORTDOCS%%share/texmf/doc/man/man1/e2pall.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/pdfclose.1
@@ -7,5 +8,6 @@
 %%PORTDOCS%%share/texmf/doc/man/man1/pdftosrc.1
 %%PORTDOCS%%share/texmf/doc/man/man1/pdftosrc.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf-dist/scripts/tetex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

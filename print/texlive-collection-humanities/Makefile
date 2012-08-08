@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-humanities
-PORTVERSION=	20120724
+PORTVERSION=	20120807
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -43,6 +43,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/alnumsec/alnumsec.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/poetrytex/poetrytex.sty:${PORTSDIR}/print/texlive-poetrytex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/qobitree/qobitree.tex:${PORTSDIR}/print/texlive-qobitree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/qtree/qtree.sty:${PORTSDIR}/print/texlive-qtree \
+		${LOCALBASE}/share/texmf-dist/tex/latex/rrgtrees/rrgtrees.sty:${PORTSDIR}/print/texlive-rrgtrees \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rtklage/rtklage.cls:${PORTSDIR}/print/texlive-rtklage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/screenplay/screenplay.cls:${PORTSDIR}/print/texlive-screenplay \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sides/sides.cls:${PORTSDIR}/print/texlive-sides \
@@ -75,7 +76,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/alnumsec/alnumsec.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/mflogo/mflogo.sty:${PORTSDIR}/print/texlive-mflogo \
 		${LOCALBASE}/share/texmf-dist/mft/base/README:${PORTSDIR}/print/texlive-mfware \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/misc/black.mf:${PORTSDIR}/print/texlive-misc \
-		${LOCALBASE}/share/texmf/fonts/map/pdftex/updmap/pdftex.map:${PORTSDIR}/print/texlive-pdftex \
+		${LOCALBASE}/share/texmf-dist/scripts/simpdftex/simpdftex:${PORTSDIR}/print/texlive-pdftex \
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/web2c/updmap.cfg:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
