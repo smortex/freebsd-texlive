@@ -1,3 +1,11 @@
+share/texmf-dist/scripts/tetex/allcm.sh
+share/texmf-dist/scripts/tetex/allneeded.sh
+share/texmf-dist/scripts/tetex/dvi2fax.sh
+share/texmf-dist/scripts/tetex/dvired.sh
+share/texmf-dist/scripts/tetex/kpsetool.sh
+share/texmf-dist/scripts/tetex/kpsewhere.sh
+share/texmf-dist/scripts/tetex/updmap-sys.sh
+share/texmf-dist/scripts/tetex/updmap.pl
 share/texmf-dist/web2c/updmap.cfg
 %%PORTDOCS%%share/texmf/doc/man/man1/allcm.1
 %%PORTDOCS%%share/texmf/doc/man/man1/allcm.man1.pdf
@@ -13,6 +21,10 @@ share/texmf-dist/web2c/updmap.cfg
 %%PORTDOCS%%share/texmf/doc/man/man1/fmtutil-sys.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/fmtutil.1
 %%PORTDOCS%%share/texmf/doc/man/man1/fmtutil.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/kpsetool.1
+%%PORTDOCS%%share/texmf/doc/man/man1/kpsetool.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/kpsewhere.1
+%%PORTDOCS%%share/texmf/doc/man/man1/kpsewhere.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/texlinks.1
 %%PORTDOCS%%share/texmf/doc/man/man1/texlinks.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/updmap-sys.1
@@ -50,8 +62,6 @@ share/texmf/fonts/map/dvips/tetex/dvips35.map
 share/texmf/fonts/map/dvips/tetex/mathpple.map
 share/texmf/fonts/map/dvips/tetex/pdftex35.map
 share/texmf/fonts/map/dvips/tetex/ps2pk35.map
-share/texmf/scripts/tetex/updmap-sys.sh
-share/texmf/scripts/tetex/updmap.pl
 share/texmf/web2c/updmap.cfg
 @dirrmtry share/texmf/fonts/map/dvips/tetex
 @dirrmtry share/texmf/fonts/enc/dvips/tetex
@@ -59,5 +69,6 @@ share/texmf/web2c/updmap.cfg
 @dirrmtry share/texmf/doc/man/man5
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf-dist/web2c
+@dirrmtry share/texmf-dist/scripts/tetex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20120512
+PORTVERSION=	20120808
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -74,6 +74,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/nostarch/nostarch.cls:${PORTSDIR}/print/texlive-nostarch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nrc/nrc1.cls:${PORTSDIR}/print/texlive-nrc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/onrannual/onrannual.cls:${PORTSDIR}/print/texlive-onrannual \
+		${LOCALBASE}/share/texmf-dist/tex/latex/opteng/opteng.sty:${PORTSDIR}/print/texlive-opteng \
 		${LOCALBASE}/share/texmf-dist/tex/latex/philosophersimprint/philosophersimprint.cls:${PORTSDIR}/print/texlive-philosophersimprint \
 		${LOCALBASE}/share/texmf-dist/tex/latex/powerdot-FUBerlin/FUpowerdot.cls:${PORTSDIR}/print/texlive-powerdot-FUBerlin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pracjourn/pracjourn.cls:${PORTSDIR}/print/texlive-pracjourn \
@@ -138,9 +139,9 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/mflogo/mflogo.sty:${PORTSDIR}/print/texlive-mflogo \
 		${LOCALBASE}/share/texmf-dist/mft/base/README:${PORTSDIR}/print/texlive-mfware \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/misc/black.mf:${PORTSDIR}/print/texlive-misc \
-		${LOCALBASE}/share/texmf/fonts/map/pdftex/updmap/pdftex.map:${PORTSDIR}/print/texlive-pdftex \
+		${LOCALBASE}/share/texmf-dist/scripts/simpdftex/simpdftex:${PORTSDIR}/print/texlive-pdftex \
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
-		${LOCALBASE}/share/texmf-dist/web2c/updmap.cfg:${PORTSDIR}/print/texlive-tetex \
+		${LOCALBASE}/share/texmf-dist/scripts/tetex/allcm.sh:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
 		${LOCALBASE}/share/texmf/texconfig/README:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \

@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/opteng/OptEngInstruct.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/opteng/OptEngInstruct.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/opteng/README
+share/texmf-dist/tex/latex/opteng/opteng.sty
+@dirrmtry share/texmf-dist/tex/latex/opteng
+@dirrmtry share/texmf-dist/doc/latex/opteng
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

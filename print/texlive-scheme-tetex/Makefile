@@ -64,7 +64,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/misc/black.mf:${PORTSDIR}/print/texlive-misc \
 		${LOCALBASE}/share/texmf-dist/scripts/simpdftex/simpdftex:${PORTSDIR}/print/texlive-pdftex \
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
-		${LOCALBASE}/share/texmf-dist/web2c/updmap.cfg:${PORTSDIR}/print/texlive-tetex \
+		${LOCALBASE}/share/texmf-dist/scripts/tetex/allcm.sh:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/share/texmf/texconfig/README:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
 		${LOCALBASE}/share/texmf/scripts/texlive/tlmgr.pl:${PORTSDIR}/print/texlive-texlive.infra \
@@ -101,7 +101,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/scripts/dosepsbin/dosepsbin.pl:${PORTSDIR}/print/texlive-dosepsbin \
 		${LOCALBASE}/share/texmf-dist/scripts/epstopdf/epstopdf.pl:${PORTSDIR}/print/texlive-epstopdf \
 		${LOCALBASE}/share/texmf/doc/man/man1/mag.1:${PORTSDIR}/print/texlive-ps2pkm \
-		${LOCALBASE}/share/texmf/scripts/ps2eps/ps2eps.pl:${PORTSDIR}/print/texlive-pstools \
+		${LOCALBASE}/share/texmf-dist/scripts/tetex/ps2frag.sh:${PORTSDIR}/print/texlive-pstools \
 		${LOCALBASE}/share/texmf/dvips/getafm/getafm.ps:${PORTSDIR}/print/texlive-psutils \
 		${LOCALBASE}/share/texmf-dist/dvips/dvipsconfig/README:${PORTSDIR}/print/texlive-dvipsconfig \
 		${LOCALBASE}/share/texmf-dist/tex/fontinst/base/fontinst.sty:${PORTSDIR}/print/texlive-fontinst \
@@ -175,6 +175,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/hrlatex/hrlatex.sty:${PORTSDIR}/print/texlive-hrlatex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cmcyr/cmcyr.map:${PORTSDIR}/print/texlive-cmcyr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cyrillic/cp1251.def:${PORTSDIR}/print/texlive-cyrillic \
+		${LOCALBASE}/share/texmf-dist/scripts/tetex/rubibtex.sh:${PORTSDIR}/print/texlive-cyrillic-bin \
 		${LOCALBASE}/share/texmf-dist/tex/plain/cyrplain/README:${PORTSDIR}/print/texlive-cyrplain \
 		${LOCALBASE}/share/texmf-dist/tex/latex/disser/disser.cls:${PORTSDIR}/print/texlive-disser \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eskd/eskd.cls:${PORTSDIR}/print/texlive-eskd \

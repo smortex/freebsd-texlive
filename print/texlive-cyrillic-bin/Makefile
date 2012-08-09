@@ -6,9 +6,8 @@
 #
 
 PORTNAME=	cyrillic-bin
-PORTVERSION=	20120529
+PORTVERSION=	20120808
 CATEGORIES=	print
-DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Cyrillic bibtex and makeindex.
