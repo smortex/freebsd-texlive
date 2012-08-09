@@ -39,9 +39,9 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/mflogo/mflogo.sty:${PORTSDIR}/print/texlive-mflogo \
 		${LOCALBASE}/share/texmf-dist/mft/base/README:${PORTSDIR}/print/texlive-mfware \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/misc/black.mf:${PORTSDIR}/print/texlive-misc \
-		${LOCALBASE}/share/texmf/fonts/map/pdftex/updmap/pdftex.map:${PORTSDIR}/print/texlive-pdftex \
+		${LOCALBASE}/share/texmf-dist/scripts/simpdftex/simpdftex:${PORTSDIR}/print/texlive-pdftex \
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
-		${LOCALBASE}/share/texmf-dist/web2c/updmap.cfg:${PORTSDIR}/print/texlive-tetex \
+		${LOCALBASE}/share/texmf-dist/scripts/tetex/allcm.sh:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
 		${LOCALBASE}/share/texmf/texconfig/README:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
@@ -52,7 +52,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/scripts/dosepsbin/dosepsbin.pl:${PORTSDIR}/print/texlive-dosepsbin \
 		${LOCALBASE}/share/texmf-dist/scripts/epstopdf/epstopdf.pl:${PORTSDIR}/print/texlive-epstopdf \
 		${LOCALBASE}/share/texmf/doc/man/man1/mag.1:${PORTSDIR}/print/texlive-ps2pkm \
-		${LOCALBASE}/share/texmf/scripts/ps2eps/ps2eps.pl:${PORTSDIR}/print/texlive-pstools \
+		${LOCALBASE}/share/texmf-dist/scripts/tetex/ps2frag.sh:${PORTSDIR}/print/texlive-pstools \
 		${LOCALBASE}/share/texmf/dvips/getafm/getafm.ps:${PORTSDIR}/print/texlive-psutils \
 		${LOCALBASE}/share/texmf-dist/dvips/dvipsconfig/README:${PORTSDIR}/print/texlive-dvipsconfig \
 		${LOCALBASE}/share/texmf-dist/tex/fontinst/base/fontinst.sty:${PORTSDIR}/print/texlive-fontinst \

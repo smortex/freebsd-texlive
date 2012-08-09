@@ -16,7 +16,7 @@ COMMENT=	Cyrillic
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cmcyr/cmcyr.map:${PORTSDIR}/print/texlive-cmcyr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cyrillic/cp1251.def:${PORTSDIR}/print/texlive-cyrillic \
-		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
+		${LOCALBASE}/share/texmf-dist/scripts/tetex/rubibtex.sh:${PORTSDIR}/print/texlive-cyrillic-bin \
 		${LOCALBASE}/share/texmf-dist/tex/plain/cyrplain/README:${PORTSDIR}/print/texlive-cyrplain \
 		${LOCALBASE}/share/texmf-dist/tex/latex/disser/disser.cls:${PORTSDIR}/print/texlive-disser \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eskd/eskd.cls:${PORTSDIR}/print/texlive-eskd \
@@ -54,9 +54,10 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cmcyr/cmcyr.map:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/mflogo/mflogo.sty:${PORTSDIR}/print/texlive-mflogo \
 		${LOCALBASE}/share/texmf-dist/mft/base/README:${PORTSDIR}/print/texlive-mfware \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/misc/black.mf:${PORTSDIR}/print/texlive-misc \
-		${LOCALBASE}/share/texmf/fonts/map/pdftex/updmap/pdftex.map:${PORTSDIR}/print/texlive-pdftex \
+		${LOCALBASE}/share/texmf-dist/scripts/simpdftex/simpdftex:${PORTSDIR}/print/texlive-pdftex \
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
-		${LOCALBASE}/share/texmf-dist/web2c/updmap.cfg:${PORTSDIR}/print/texlive-tetex \
+		${LOCALBASE}/share/texmf-dist/scripts/tetex/allcm.sh:${PORTSDIR}/print/texlive-tetex \
+		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
 		${LOCALBASE}/share/texmf/texconfig/README:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
 		${LOCALBASE}/share/texmf/scripts/texlive/tlmgr.pl:${PORTSDIR}/print/texlive-texlive.infra \

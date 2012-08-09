@@ -1,7 +1,10 @@
+share/texmf-dist/scripts/tetex/rubibtex.sh
+share/texmf-dist/scripts/tetex/rumakeindex.sh
 %%PORTDOCS%%share/texmf/doc/man/man1/rubibtex.1
 %%PORTDOCS%%share/texmf/doc/man/man1/rubibtex.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/rumakeindex.1
 %%PORTDOCS%%share/texmf/doc/man/man1/rumakeindex.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf-dist/scripts/tetex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

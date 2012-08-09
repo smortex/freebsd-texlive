@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-texlive-docindex
-# Date created:		08/02/2012 12:13:55
+# New ports collection makefile for:	texlive-opteng
+# Date created:		08/09/2012 05:23:20
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	texlive-docindex
+PORTNAME=	opteng
 PORTVERSION=	20120808
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	SPIE Optical Engineering and OE Letters manuscript template.
 
 NOPORTSRC=	yes
 

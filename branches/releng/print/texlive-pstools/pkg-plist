@@ -1,3 +1,5 @@
+share/texmf-dist/scripts/tetex/ps2frag.sh
+share/texmf-dist/scripts/tetex/pslatex.sh
 %%PORTDOCS%%share/texmf/doc/man/man1/bbox.1
 %%PORTDOCS%%share/texmf/doc/man/man1/bbox.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/ps2eps.1
@@ -9,5 +11,6 @@
 share/texmf/scripts/ps2eps/ps2eps.pl
 @dirrmtry share/texmf/scripts/ps2eps
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf-dist/scripts/tetex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

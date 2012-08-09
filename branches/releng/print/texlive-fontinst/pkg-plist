@@ -69,6 +69,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fontinst/test/v1931test0.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fontinst/test/v1931test1.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fontinst/test/v1931test2.tex
+share/texmf-dist/scripts/tetex/fontinst.sh
 %%PORTSRC%%share/texmf-dist/source/fontinst/base/CHANGES
 %%PORTSRC%%share/texmf-dist/source/fontinst/base/fibasics.dtx
 %%PORTSRC%%share/texmf-dist/source/fontinst/base/ficommon.dtx
@@ -164,6 +165,7 @@ share/texmf-dist/tex/latex/fontinst/fontdoc.sty
 @dirrmtry share/texmf-dist/tex/fontinst/latinetx
 @dirrmtry share/texmf-dist/tex/fontinst/base
 @dirrmtry share/texmf-dist/source/fontinst/base
+@dirrmtry share/texmf-dist/scripts/tetex
 @dirrmtry share/texmf-dist/doc/fonts/fontinst/test
 @dirrmtry share/texmf-dist/doc/fonts/fontinst/talks
 @dirrmtry share/texmf-dist/doc/fonts/fontinst/manual
