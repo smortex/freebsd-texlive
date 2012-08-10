@@ -2,6 +2,7 @@
 %%PORTDOCS%%share/texmf/doc/man/man1/texconfig-sys.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/texconfig.1
 %%PORTDOCS%%share/texmf/doc/man/man1/texconfig.man1.pdf
+share/texmf/scripts/tetex/texconfig.sh
 @dirrmtry share/texmf/doc/man/man1
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

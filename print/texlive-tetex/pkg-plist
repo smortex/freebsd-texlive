@@ -21,10 +21,14 @@ share/texmf-dist/web2c/updmap.cfg
 %%PORTDOCS%%share/texmf/doc/man/man1/fmtutil-sys.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/fmtutil.1
 %%PORTDOCS%%share/texmf/doc/man/man1/fmtutil.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/kpsepath.1
+%%PORTDOCS%%share/texmf/doc/man/man1/kpsepath.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/kpsetool.1
 %%PORTDOCS%%share/texmf/doc/man/man1/kpsetool.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/kpsewhere.1
 %%PORTDOCS%%share/texmf/doc/man/man1/kpsewhere.man1.pdf
+%%PORTDOCS%%share/texmf/doc/man/man1/kpsexpand.1
+%%PORTDOCS%%share/texmf/doc/man/man1/kpsexpand.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/texlinks.1
 %%PORTDOCS%%share/texmf/doc/man/man1/texlinks.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/updmap-sys.1

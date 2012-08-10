@@ -6,16 +6,12 @@
 %%PORTDOCS%%share/texmf/doc/kpathsea/kpathsea.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/kpseaccess.1
 %%PORTDOCS%%share/texmf/doc/man/man1/kpseaccess.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/kpsepath.1
-%%PORTDOCS%%share/texmf/doc/man/man1/kpsepath.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/kpsereadlink.1
 %%PORTDOCS%%share/texmf/doc/man/man1/kpsereadlink.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/kpsestat.1
 %%PORTDOCS%%share/texmf/doc/man/man1/kpsestat.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/kpsewhich.1
 %%PORTDOCS%%share/texmf/doc/man/man1/kpsewhich.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/kpsexpand.1
-%%PORTDOCS%%share/texmf/doc/man/man1/kpsexpand.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/mkocp.1
 %%PORTDOCS%%share/texmf/doc/man/man1/mkocp.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/mkofm.1
