@@ -1,0 +1,8 @@
+LaTeX's figures, tables, and \marginpars are dangerous for
+footnotes (and probably also \enlargethispage). Here is a
+proposal (a 'patch' package) to help, by using \holdinginserts
+in a simple way. It replaces the original problem with a new
+one -- it is an experiment to find out whether the new problem
+is less bad (or it is just a contribution to the discussion,
+maybe just a summary of previous work). The files provide
+further information.
