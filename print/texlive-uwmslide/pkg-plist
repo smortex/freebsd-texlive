@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/uwmslide/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/uwmslide/logo.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/uwmslide/test.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uwmslide/vaux.eps
+share/texmf-dist/tex/latex/uwmslide/uwmslide.cls
+@dirrmtry share/texmf-dist/tex/latex/uwmslide
+@dirrmtry share/texmf-dist/doc/latex/uwmslide
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -66,6 +66,11 @@ share/texmf/fonts/map/dvips/tetex/dvips35.map
 share/texmf/fonts/map/dvips/tetex/mathpple.map
 share/texmf/fonts/map/dvips/tetex/pdftex35.map
 share/texmf/fonts/map/dvips/tetex/ps2pk35.map
+share/texmf/scripts/tetex/fmtutil-sys.sh
+share/texmf/scripts/tetex/fmtutil.sh
+share/texmf/scripts/tetex/texconfig-dialog.sh
+share/texmf/scripts/tetex/texconfig-sys.sh
+share/texmf/scripts/tetex/texlinks.sh
 share/texmf/web2c/updmap.cfg
 @dirrmtry share/texmf/fonts/map/dvips/tetex
 @dirrmtry share/texmf/fonts/enc/dvips/tetex
