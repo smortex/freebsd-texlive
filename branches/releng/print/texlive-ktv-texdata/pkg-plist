@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ktv-texdata/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ktv-texdata/README.txt.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/ktv-texdata/ktv-data.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ktv-texdata/ktv-test.KTVhint
+%%PORTDOCS%%share/texmf-dist/doc/latex/ktv-texdata/ktv-test.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ktv-texdata/ktv-texdata.ktvnum
+%%PORTDOCS%%share/texmf-dist/doc/latex/ktv-texdata/ktv-texdata.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/ktv-texdata/ktv-texdata.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ktv-texdata/ktv-texdata.ins
+share/texmf-dist/tex/latex/ktv-texdata/ktv-buildnum.sty
+share/texmf-dist/tex/latex/ktv-texdata/ktv-texdata.sty
+@dirrmtry share/texmf-dist/tex/latex/ktv-texdata
+@dirrmtry share/texmf-dist/source/latex/ktv-texdata
+@dirrmtry share/texmf-dist/doc/latex/ktv-texdata
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

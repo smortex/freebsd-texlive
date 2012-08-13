@@ -1,0 +1,5 @@
+The package defines an exercice environment which numbers every
+exercise, and a command \get to extract a collection whose
+argument is a comma-separated set of exercise index numbers.
+While the package was designed for teachers constructing tables
+of exercises, it plainly has more general application.
