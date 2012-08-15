@@ -9,6 +9,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/mpost_latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/pdflatexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/sagetex_latexmkrc
+%%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/sweave_latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/xelatex_latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/README1
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/dvipdfm_call

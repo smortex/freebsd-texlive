@@ -1,0 +1,4 @@
+This is a redistribution of a pure lua xml library, LuaXML. The
+library was originally distributed as part of the odsfile
+package, but is made available separately in the hope that it
+can be useful for other projects.

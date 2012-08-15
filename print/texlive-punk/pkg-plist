@@ -1,3 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/punk/punk.sty
+%%PORTDOCS%%share/texmf-dist/doc/fonts/punk/punktest.tex
 share/texmf-dist/fonts/source/public/punk/punk.mf
 share/texmf-dist/fonts/source/public/punk/punk10.mf
 share/texmf-dist/fonts/source/public/punk/punk12.mf
@@ -18,5 +20,6 @@ share/texmf-dist/fonts/tfm/public/punk/punkbx20.tfm
 share/texmf-dist/fonts/tfm/public/punk/punksl20.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/punk
 @dirrmtry share/texmf-dist/fonts/source/public/punk
+@dirrmtry share/texmf-dist/doc/fonts/punk
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

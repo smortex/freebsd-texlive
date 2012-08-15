@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120812
+PORTVERSION=	20120814
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1046,6 +1046,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/xnewcommand/xnewcommand.sty:${PORTSDIR}/print/texlive-xnewcommand \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xoptarg/xoptarg.sty:${PORTSDIR}/print/texlive-xoptarg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xpatch/xpatch.sty:${PORTSDIR}/print/texlive-xpatch \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xpeek/xpeek.sty:${PORTSDIR}/print/texlive-xpeek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xpunctuate/xpunctuate.sty:${PORTSDIR}/print/texlive-xpunctuate \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xstring/xstring.sty:${PORTSDIR}/print/texlive-xstring \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xwatermark/xwatermark.sty:${PORTSDIR}/print/texlive-xwatermark \
