@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luaxml/README
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luaxml/luaxml.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luaxml/luaxml.tex
+share/texmf-dist/tex/luatex/luaxml/luaxml-mod-handler.lua
+share/texmf-dist/tex/luatex/luaxml/luaxml-mod-xml.lua
+share/texmf-dist/tex/luatex/luaxml/luaxml-selectors.lua
+share/texmf-dist/tex/luatex/luaxml/luaxml-stack.lua
+@dirrmtry share/texmf-dist/tex/luatex/luaxml
+@dirrmtry share/texmf-dist/doc/luatex/luaxml
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,5 @@
+The distribution includes a package and a lua library that can
+together read OpenDocument spreadsheet documents as LaTeX
+tables. Cells in the tables may be processed by LaTeX macros,
+so that (for example) the package may be used for drawing some
+plots. The package uses lua's zip library.

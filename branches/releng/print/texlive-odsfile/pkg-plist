@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/odsfile/README
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/odsfile/odsfile.pdf
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/odsfile/odsfile.tex
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/odsfile/pokus.ods
+share/texmf-dist/tex/lualatex/odsfile/odsfile.lua
+share/texmf-dist/tex/lualatex/odsfile/odsfile.sty
+@dirrmtry share/texmf-dist/tex/lualatex/odsfile
+@dirrmtry share/texmf-dist/doc/lualatex/odsfile
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

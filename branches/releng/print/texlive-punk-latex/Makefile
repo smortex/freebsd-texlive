@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-punk
-# Date created:		13/03/2010 04:29:01
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-punk-latex
+# Date created:		08/15/2012 04:54:20
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	punk
+PORTNAME=	punk-latex
 PORTVERSION=	20120814
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Donald Knuth's punk font.
+COMMENT=	LaTeX support for punk fonts.
 
 NOPORTSRC=	yes
 
