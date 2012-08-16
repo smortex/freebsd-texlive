@@ -1,3 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/figbas/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/figbas/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/figbas/figbas.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/figbas/figbas.tex
 share/texmf-dist/fonts/afm/public/figbas/cmrj.afm
 share/texmf-dist/fonts/afm/public/figbas/cmssj.afm
 share/texmf-dist/fonts/afm/public/figbas/plrj.afm
@@ -12,5 +16,6 @@ share/texmf-dist/fonts/type1/public/figbas/plrj.pfb
 @dirrmtry share/texmf-dist/fonts/tfm/public/figbas
 @dirrmtry share/texmf-dist/fonts/map/dvips/figbas
 @dirrmtry share/texmf-dist/fonts/afm/public/figbas
+@dirrmtry share/texmf-dist/doc/fonts/figbas
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
