@@ -56,6 +56,7 @@ share/texmf-dist/tex/generic/pstricks/config/README
 share/texmf-dist/tex/generic/pstricks/config/distiller.cfg
 share/texmf-dist/tex/generic/pstricks/config/dvips.cfg
 share/texmf-dist/tex/generic/pstricks/config/dvipsone.cfg
+share/texmf-dist/tex/generic/pstricks/config/gastex.cfg
 share/texmf-dist/tex/generic/pstricks/config/textures.cfg
 share/texmf-dist/tex/generic/pstricks/config/vtex.cfg
 share/texmf-dist/tex/generic/pstricks/config/xdvipdfmx.cfg

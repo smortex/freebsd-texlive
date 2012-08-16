@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	figbas
-PORTVERSION=	20110113
+PORTVERSION=	20120815
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Mini-fonts for figured-bass notation in music.
 
-NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

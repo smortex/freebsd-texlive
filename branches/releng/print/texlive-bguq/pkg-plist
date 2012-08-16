@@ -1,6 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bguq/INSTALL.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bguq/Makefile
-%%PORTDOCS%%share/texmf-dist/doc/fonts/bguq/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/bguq/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/bguq/bguq-doc.pdf
 share/texmf-dist/fonts/map/dvips/bguq/bguq.map
 share/texmf-dist/fonts/source/public/bguq/bguq.mf
