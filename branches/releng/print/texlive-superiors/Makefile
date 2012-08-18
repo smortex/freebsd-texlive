@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-chemnum
-# Date created:		08/04/2011 05:10:31
+# New ports collection makefile for:	texlive-superiors
+# Date created:		08/18/2012 04:59:40
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	chemnum
+PORTNAME=	superiors
 PORTVERSION=	20120816
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A method of numbering chemical compounds.
+COMMENT=	Attach superior figures to a font family.
 
 NOPORTSRC=	yes
 
