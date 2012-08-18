@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20120814
+PORTVERSION=	20120816
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -172,6 +172,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/tex/latex/staves/staves.sty:${PORTSDIR}/print/texlive-staves \
 		${LOCALBASE}/share/texmf-dist/tex/latex/starfont/starfont.sty:${PORTSDIR}/print/texlive-starfont \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/stix/STIXGeneral.otf:${PORTSDIR}/print/texlive-stix \
+		${LOCALBASE}/share/texmf-dist/tex/latex/public/superiors/superiors.sty:${PORTSDIR}/print/texlive-superiors \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/tapir/tap-enc.mf:${PORTSDIR}/print/texlive-tapir \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tengwarscript/tengwarscript.sty:${PORTSDIR}/print/texlive-tengwarscript \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tfrupee/tfrupee.sty:${PORTSDIR}/print/texlive-tfrupee \

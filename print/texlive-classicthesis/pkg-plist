@@ -11,6 +11,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/ClassicThesis.tps
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/Examples/classicthesis-article.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/Examples/classicthesis-article.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/Examples/classicthesis-book-xelatex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/Examples/classicthesis-book-xelatex.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/Examples/classicthesis-book.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/Examples/classicthesis-book.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/Examples/classicthesis-cv.pdf

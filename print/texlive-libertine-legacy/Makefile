@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	libertine-legacy
-PORTVERSION=	20120103
+PORTVERSION=	20120816
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Linux Libertine fonts for TeX and pfdTeX users.
+COMMENT=	Linux Libertine fonts for (La)TeX and pdf(La)TeX users.
 
 NOPORTSRC=	yes
 
