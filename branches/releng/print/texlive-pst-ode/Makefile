@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-newtx
-# Date created:		05/12/2012 04:45:47
+# New ports collection makefile for:	texlive-pst-ode
+# Date created:		08/19/2012 05:20:07
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	newtx
+PORTNAME=	pst-ode
 PORTVERSION=	20120817
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Alternative uses of the TX fonts, with improved metrics.
+COMMENT=	Solving initial value problems for sets of Ordinary Differential Equations.
 
 NOPORTSRC=	yes
 

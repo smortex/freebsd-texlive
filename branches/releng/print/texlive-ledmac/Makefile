@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	ledmac
-PORTVERSION=	20120713
+PORTVERSION=	20120817
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset scholarly editions in parallel texts.
+COMMENT=	Typeset scholarly editions.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

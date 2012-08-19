@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	xpeek
-PORTVERSION=	20120814
+PORTVERSION=	20120818
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The xpeek package
+COMMENT=	Define commands that peek ahead in the input stream.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
