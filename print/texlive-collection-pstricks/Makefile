@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pstricks
-PORTVERSION=	20120414
+PORTVERSION=	20120817
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -43,7 +43,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/scripts/tetex/allcm.sh:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
-		${LOCALBASE}/share/texmf/texconfig/README:${PORTSDIR}/print/texlive-texconfig \
+		${LOCALBASE}/share/texmf/scripts/tetex/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
 		${LOCALBASE}/share/texmf/scripts/texlive/tlmgr.pl:${PORTSDIR}/print/texlive-texlive.infra \
 		${LOCALBASE}/share/texmf/xdvi/XDvi:${PORTSDIR}/print/texlive-xdvi \
@@ -105,6 +105,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-mirror/pst-mirror.tex:${PORTSDIR}/print/texlive-pst-mirror \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-node/pst-node.tex:${PORTSDIR}/print/texlive-pst-node \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-ob3d/pst-ob3d.tex:${PORTSDIR}/print/texlive-pst-ob3d \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-ode/pst-ode.tex:${PORTSDIR}/print/texlive-pst-ode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-optexp/pst-optexp.sty:${PORTSDIR}/print/texlive-pst-optexp \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-optic/pst-optic.tex:${PORTSDIR}/print/texlive-pst-optic \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-osci/pst-osci.tex:${PORTSDIR}/print/texlive-pst-osci \

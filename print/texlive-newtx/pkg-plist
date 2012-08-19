@@ -13,7 +13,6 @@ share/texmf-dist/fonts/enc/public/newtx/alt-mn-greek.enc
 share/texmf-dist/fonts/enc/public/newtx/libertinealt.enc
 share/texmf-dist/fonts/enc/public/newtx/sups.enc
 share/texmf-dist/fonts/map/dvips/public/newtx/ntx.map
-share/texmf-dist/fonts/map/dvips/public/newtx/superiors.map
 share/texmf-dist/fonts/map/dvips/public/newtx/zmn.map
 share/texmf-dist/fonts/tfm/public/newtx/LibertineTheta-Regular.tfm
 share/texmf-dist/fonts/tfm/public/newtx/fxlri-5alt.tfm

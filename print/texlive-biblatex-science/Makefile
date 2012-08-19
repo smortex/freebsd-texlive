@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	biblatex-science
-PORTVERSION=	20120730
+PORTVERSION=	20120818
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Biblatex support for Science.
+COMMENT=	Biblatex implementation of the Science bibliography style.
 
 NOPORTSRC=	yes
 

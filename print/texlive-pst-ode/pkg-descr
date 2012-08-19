@@ -1,0 +1,9 @@
+The package defines \pstODEsolve for solving initial value
+problems for sets of Ordinary Differential Equations (ODE)
+using the Runge-Kutta-Fehlberg (RKF45) method with automatic
+step size adjustment. The result is stored as a PostScript
+object and may be plotted later using macros from other
+PSTricks packages, such as \listplot (pst-plot) and
+\listplotThreeD (pst-3dplot), or may be further processed by
+user-defined PostScript procedures. Optionally, the computed
+state vectors can be written as a table to a text file.

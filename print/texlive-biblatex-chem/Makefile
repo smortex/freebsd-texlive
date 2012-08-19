@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	biblatex-chem
-PORTVERSION=	20120521
+PORTVERSION=	20120818
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Chemistry styles for biblatex.
+COMMENT=	A set of biblatex implementations of chemistry-related bibliography styles.
 
 NOPORTSRC=	yes
 
