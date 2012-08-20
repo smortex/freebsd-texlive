@@ -9,6 +9,7 @@ share/texmf-dist/bibtex/bst/cmpj/cmpj.bst
 share/texmf-dist/tex/latex/cmpj/cmp-logo.eps
 share/texmf-dist/tex/latex/cmpj/cmp-logo.pdf
 share/texmf-dist/tex/latex/cmpj/cmpj.sty
+share/texmf-dist/tex/latex/cmpj/cmpj2.sty
 @dirrmtry share/texmf-dist/tex/latex/cmpj
 @dirrmtry share/texmf-dist/doc/latex/cmpj
 @dirrmtry share/texmf-dist/bibtex/bst/cmpj

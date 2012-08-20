@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-cmpj
-# Date created:		04/18/2011 05:09:50
+# New ports collection makefile for:	texlive-GS1
+# Date created:		08/20/2012 05:04:21
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	cmpj
+PORTNAME=	GS1
 PORTVERSION=	20120819
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Style for the journal Condensed Matter Physics.
+COMMENT=	The GS1 package
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

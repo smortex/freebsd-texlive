@@ -1,0 +1,29 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/GS1/GS1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/GS1/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/GS1/examples/EANBarcode.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/GS1/examples/EANBarcode.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/GS1/examples/EANControlDigit.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/GS1/examples/EANControlDigit.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/GS1/examples/GSSetup.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/GS1/examples/GSSetup.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/GS1/examples/GS_cut_EAN_control_digit.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/GS1/examples/GS_cut_EAN_control_digit.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/GS1/examples/GS_set_EAN_control_digit.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/GS1/examples/GS_set_EAN_control_digit.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/GS1/examples/GS_set_code_digit_seq.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/GS1/examples/GS_set_code_digit_seq.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/GS1/examples/int_set_to_EAN_control_digit.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/GS1/examples/int_set_to_EAN_control_digit.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/GS1/rule-D.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/GS1/GS1.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/GS1/GS1.ins
+%%PORTSRC%%share/texmf-dist/source/latex/GS1/README
+%%PORTSRC%%share/texmf-dist/source/latex/GS1/rule-D.dtx
+share/texmf-dist/tex/latex/GS1/GS1.sty
+share/texmf-dist/tex/latex/GS1/rule-D.sty
+@dirrmtry share/texmf-dist/tex/latex/GS1
+@dirrmtry share/texmf-dist/source/latex/GS1
+@dirrmtry share/texmf-dist/doc/latex/GS1/examples
+@dirrmtry share/texmf-dist/doc/latex/GS1
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
