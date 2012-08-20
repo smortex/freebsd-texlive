@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120814
+PORTVERSION=	20120819
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -214,6 +214,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/generic/xypic/xypic.sty:${PORTSDIR}/print/texlive-xypic \
 		${LOCALBASE}/share/texmf-dist/tex/generic/2up/2up.sty:${PORTSDIR}/print/texlive-2up \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ESIEEcv/ESIEEcv.sty:${PORTSDIR}/print/texlive-ESIEEcv \
+		${LOCALBASE}/share/texmf-dist/tex/latex/GS1/GS1.sty:${PORTSDIR}/print/texlive-GS1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/HA-prosper/HA-prosper.sty:${PORTSDIR}/print/texlive-HA-prosper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/Tabbing/Tabbing.sty:${PORTSDIR}/print/texlive-Tabbing \
 		${LOCALBASE}/share/texmf-dist/tex/latex/a0poster/a0poster.cls:${PORTSDIR}/print/texlive-a0poster \
