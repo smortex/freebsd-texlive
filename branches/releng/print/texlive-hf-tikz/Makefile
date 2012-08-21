@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-catoptions
-# Date created:		02/12/2011 04:52:19
+# New ports collection makefile for:	texlive-hf-tikz
+# Date created:		08/21/2012 05:00:52
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	catoptions
+PORTNAME=	hf-tikz
 PORTVERSION=	20120820
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Preserving and recalling standard catcodes.
+COMMENT=	A simple way to highlight formulas and formula parts.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
