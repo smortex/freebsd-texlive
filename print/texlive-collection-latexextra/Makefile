@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120819
+PORTVERSION=	20120821
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -153,6 +153,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/gradientframe/gradientframe.sty:${PORTSDIR}/print/texlive-gradientframe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/grafcet/grafcet.sty:${PORTSDIR}/print/texlive-grafcet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/here/here.sty:${PORTSDIR}/print/texlive-here \
+		${LOCALBASE}/share/texmf-dist/tex/latex/hf-tikz/hf-tikz.sty:${PORTSDIR}/print/texlive-hf-tikz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hvfloat/hvfloat.sty:${PORTSDIR}/print/texlive-hvfloat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/knitting/knitting.sty:${PORTSDIR}/print/texlive-knitting \
 		${LOCALBASE}/share/texmf-dist/tex/latex/knittingpattern/knittingpattern.cls:${PORTSDIR}/print/texlive-knittingpattern \
@@ -313,6 +314,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/chapterfolder/chapterfolder.sty:${PORTSDIR}/print/texlive-chapterfolder \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chet/chet.sty:${PORTSDIR}/print/texlive-chet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chextras/chextras.sty:${PORTSDIR}/print/texlive-chextras \
+		${LOCALBASE}/share/texmf-dist/tex/latex/chkfloat/chkfloat.sty:${PORTSDIR}/print/texlive-chkfloat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chletter/chletter.cls:${PORTSDIR}/print/texlive-chletter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chngcntr/chngcntr.sty:${PORTSDIR}/print/texlive-chngcntr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chronology/chronology.sty:${PORTSDIR}/print/texlive-chronology \
