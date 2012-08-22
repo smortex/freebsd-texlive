@@ -1,0 +1,3 @@
+The package checks for floats that are placed too far from
+their origin. It was motivated by a question on the question
+and answer page.

@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	latexmk
-PORTVERSION=	20120814
+PORTVERSION=	20120821
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fully automated LaTeX document generation routine.
+COMMENT=	Fully automated LaTeX document generation.
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
