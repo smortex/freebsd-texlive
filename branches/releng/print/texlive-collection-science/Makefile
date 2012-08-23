@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-science
-PORTVERSION=	20120727
+PORTVERSION=	20120822
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -36,6 +36,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIstyle/sistyle.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/drawstack/drawstack.sty:${PORTSDIR}/print/texlive-drawstack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dyntree/dyntree.sty:${PORTSDIR}/print/texlive-dyntree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eltex/eltex1.tex:${PORTSDIR}/print/texlive-eltex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/endiagram/endiagram.sty:${PORTSDIR}/print/texlive-endiagram \
 		${LOCALBASE}/share/texmf-dist/tex/latex/engtlc/engtlc.sty:${PORTSDIR}/print/texlive-engtlc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fouridx/fouridx.sty:${PORTSDIR}/print/texlive-fouridx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/functan/functan.sty:${PORTSDIR}/print/texlive-functan \
@@ -97,7 +98,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIstyle/sistyle.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/scripts/tetex/allcm.sh:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
-		${LOCALBASE}/share/texmf/texconfig/README:${PORTSDIR}/print/texlive-texconfig \
+		${LOCALBASE}/share/texmf/scripts/tetex/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
 		${LOCALBASE}/share/texmf/scripts/texlive/tlmgr.pl:${PORTSDIR}/print/texlive-texlive.infra \
 		${LOCALBASE}/share/texmf/xdvi/XDvi:${PORTSDIR}/print/texlive-xdvi \

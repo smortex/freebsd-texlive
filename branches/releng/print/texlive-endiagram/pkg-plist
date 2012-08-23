@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/endiagram/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/endiagram/endiagram_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/endiagram/endiagram_en.tex
+share/texmf-dist/tex/latex/endiagram/endiagram.sty
+@dirrmtry share/texmf-dist/tex/latex/endiagram
+@dirrmtry share/texmf-dist/doc/latex/endiagram
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

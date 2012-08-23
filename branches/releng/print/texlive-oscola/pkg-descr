@@ -1,0 +1,6 @@
+The package provides a set of style files for use with Biblatex
+(v 2+) and Biber (v 1+) to produce citations and bibliographies
+in accordance with the widely-used Oxford Standard for the
+Citation of Legal Authorities. It also includes facilities for
+constructing tables of cases and legislation from citations (in
+conjunction with appropriate indexing packages).

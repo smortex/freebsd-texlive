@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-texlive-docindex
-# Date created:		08/02/2012 12:13:55
+# New ports collection makefile for:	texlive-oscola
+# Date created:		08/23/2012 04:55:45
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	texlive-docindex
+PORTNAME=	oscola
 PORTVERSION=	20120822
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	BibLaTeX style for the Oxford Standard for the Citation of Legal Authorities.
 
 NOPORTSRC=	yes
 

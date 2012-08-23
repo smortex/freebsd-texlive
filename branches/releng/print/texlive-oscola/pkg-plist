@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/oscola/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/oscola/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/latex/oscola/oscola-examples.bib
+share/texmf-dist/makeindex/oscola/oscola.ist
+share/texmf-dist/tex/latex/oscola/english-oscola.lbx
+share/texmf-dist/tex/latex/oscola/oscola.bbx
+share/texmf-dist/tex/latex/oscola/oscola.cbx
+@dirrmtry share/texmf-dist/tex/latex/oscola
+@dirrmtry share/texmf-dist/makeindex/oscola
+@dirrmtry share/texmf-dist/doc/latex/oscola
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
