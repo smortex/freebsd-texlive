@@ -135,6 +135,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/multibib/multibib.sty:${PORTSDIR}/print/texlive-multibib \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/munich/munich.bst:${PORTSDIR}/print/texlive-munich \
 		${LOCALBASE}/share/texmf-dist/tex/latex/notes2bib/notes2bib.sty:${PORTSDIR}/print/texlive-notes2bib \
+		${LOCALBASE}/share/texmf-dist/makeindex/oscola/oscola.ist:${PORTSDIR}/print/texlive-oscola \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/perception/perception.bst:${PORTSDIR}/print/texlive-perception \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/pnas2009/pnas2009.bst:${PORTSDIR}/print/texlive-pnas2009 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rsc/rsc.sty:${PORTSDIR}/print/texlive-rsc \
@@ -769,6 +770,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/gradientframe/gradientframe.sty:${PORTSDIR}/print/texlive-gradientframe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/grafcet/grafcet.sty:${PORTSDIR}/print/texlive-grafcet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/here/here.sty:${PORTSDIR}/print/texlive-here \
+		${LOCALBASE}/share/texmf-dist/tex/latex/hf-tikz/hf-tikz.sty:${PORTSDIR}/print/texlive-hf-tikz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hvfloat/hvfloat.sty:${PORTSDIR}/print/texlive-hvfloat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/knitting/knitting.sty:${PORTSDIR}/print/texlive-knitting \
 		${LOCALBASE}/share/texmf-dist/tex/latex/knittingpattern/knittingpattern.cls:${PORTSDIR}/print/texlive-knittingpattern \
@@ -929,6 +931,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/chapterfolder/chapterfolder.sty:${PORTSDIR}/print/texlive-chapterfolder \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chet/chet.sty:${PORTSDIR}/print/texlive-chet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chextras/chextras.sty:${PORTSDIR}/print/texlive-chextras \
+		${LOCALBASE}/share/texmf-dist/tex/latex/chkfloat/chkfloat.sty:${PORTSDIR}/print/texlive-chkfloat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chletter/chletter.cls:${PORTSDIR}/print/texlive-chletter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chngcntr/chngcntr.sty:${PORTSDIR}/print/texlive-chngcntr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chronology/chronology.sty:${PORTSDIR}/print/texlive-chronology \
@@ -2014,6 +2017,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/drawstack/drawstack.sty:${PORTSDIR}/print/texlive-drawstack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dyntree/dyntree.sty:${PORTSDIR}/print/texlive-dyntree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eltex/eltex1.tex:${PORTSDIR}/print/texlive-eltex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/endiagram/endiagram.sty:${PORTSDIR}/print/texlive-endiagram \
 		${LOCALBASE}/share/texmf-dist/tex/latex/engtlc/engtlc.sty:${PORTSDIR}/print/texlive-engtlc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fouridx/fouridx.sty:${PORTSDIR}/print/texlive-fouridx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/functan/functan.sty:${PORTSDIR}/print/texlive-functan \
