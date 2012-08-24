@@ -144,20 +144,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/short-talks/speaker_introduction-ornate-2min.en.lyx
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/short-talks/speaker_introduction-ornate-2min.en.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/short-talks/speaker_introduction-ornate-2min.fr.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/presentations-en/images/beamer/TU.jpg
-%%PORTDOCS%%share/texmf-dist/doc/latex/presentations-en/images/beamer/TeX.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/presentations-en/images/beamer/beamer0.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/presentations-en/images/beamer/beamer1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/presentations-en/images/beamer/beamer2.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/presentations-en/images/beamer/beamernavbar.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/presentations-en/images/beamer/beamernavsymbols.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/presentations-en/images/beamer/beamernavsymbols.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/presentations-en/images/beamer/grating.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/presentations-en/images/beamer/ligaturen.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/presentations-en/images/beamer/multimedia.jpg
-%%PORTDOCS%%share/texmf-dist/doc/latex/presentations-en/images/beamer/multimedia.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/presentations-en/images/beamer/transition1.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/presentations-en/images/beamer/zedat.pdf
 share/texmf-dist/tex/latex/beamer/art/beamericonarticle.20.eps
 share/texmf-dist/tex/latex/beamer/art/beamericonarticle.20.pdf
 share/texmf-dist/tex/latex/beamer/art/beamericonarticle.eps
@@ -365,7 +351,6 @@ share/texmf-dist/tex/latex/beamer/translator/translator.sty
 @dirrmtry share/texmf-dist/tex/latex/beamer/emulation
 @dirrmtry share/texmf-dist/tex/latex/beamer/art
 @dirrmtry share/texmf-dist/tex/latex/beamer
-@dirrmtry share/texmf-dist/doc/latex/presentations-en/images/beamer
 @dirrmtry share/texmf-dist/doc/latex/beamer/solutions/short-talks
 @dirrmtry share/texmf-dist/doc/latex/beamer/solutions/generic-talks
 @dirrmtry share/texmf-dist/doc/latex/beamer/solutions/conference-talks

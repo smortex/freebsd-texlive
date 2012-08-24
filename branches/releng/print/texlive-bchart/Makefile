@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	bchart
-PORTVERSION=	20120319
+PORTVERSION=	20120823
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw simple bar charts in LaTeX
+COMMENT=	Draw simple bar charts in LaTeX.
 
 NOPORTSRC=	yes
 
