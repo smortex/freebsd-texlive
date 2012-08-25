@@ -11,11 +11,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pdfscreen/square.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/pdfscreen/tex.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/pdfscreen/widepanel.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/presentations-en/images/pdfscreen/Tore3d.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/presentations-en/images/pdfscreen/mp.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/presentations-en/images/pdfscreen/mpgraph.mps
-%%PORTDOCS%%share/texmf-dist/doc/latex/presentations-en/images/pdfscreen/pst.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/presentations-en/images/pdfscreen/tex.png
 share/texmf-dist/tex/latex/pdfscreen/but.pdf
 share/texmf-dist/tex/latex/pdfscreen/button.pdf
 share/texmf-dist/tex/latex/pdfscreen/left.pdf
@@ -34,7 +29,6 @@ share/texmf-dist/tex/latex/pdfscreen/overlay9.pdf
 share/texmf-dist/tex/latex/pdfscreen/pdfscreen.sty
 share/texmf-dist/tex/latex/pdfscreen/right.pdf
 @dirrmtry share/texmf-dist/tex/latex/pdfscreen
-@dirrmtry share/texmf-dist/doc/latex/presentations-en/images/pdfscreen
 @dirrmtry share/texmf-dist/doc/latex/pdfscreen
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
