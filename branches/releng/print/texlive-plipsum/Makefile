@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-comfortaa
-# Date created:		12/19/2010 04:39:16
+# New ports collection makefile for:	texlive-plipsum
+# Date created:		08/29/2012 05:22:05
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	comfortaa
+PORTNAME=	plipsum
 PORTVERSION=	20120828
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Sans serif font, with LaTeX support.
+COMMENT=	'Lorem ipsum' for Plain TeX developers.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
