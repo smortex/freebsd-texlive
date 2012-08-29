@@ -85,7 +85,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/context/third/games/games-go.lua:${PORTSDIR}/print/texlive-context-games \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/gantt/gantt-s-mp.tex:${PORTSDIR}/print/texlive-context-gantt \
 		${LOCALBASE}/share/texmf-dist/metapost/context/third/gnuplot/mp-gnuplot.mp:${PORTSDIR}/print/texlive-context-gnuplot \
-		${LOCALBASE}/share/texmf-dist/tex/context/third/letter/base/s-cor-00.lua:${PORTSDIR}/print/texlive-context-letter \
+		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-letter.xml:${PORTSDIR}/print/texlive-context-letter \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/lettrine.xml:${PORTSDIR}/print/texlive-context-lettrine \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/lilypond/t-lilypond.tex:${PORTSDIR}/print/texlive-context-lilypond \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-mathsets.xml:${PORTSDIR}/print/texlive-context-mathsets \
@@ -446,6 +446,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/gradientframe/gradientframe.sty:${PORTSDIR}/print/texlive-gradientframe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/grafcet/grafcet.sty:${PORTSDIR}/print/texlive-grafcet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/here/here.sty:${PORTSDIR}/print/texlive-here \
+		${LOCALBASE}/share/texmf-dist/tex/latex/hf-tikz/hf-tikz.sty:${PORTSDIR}/print/texlive-hf-tikz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hvfloat/hvfloat.sty:${PORTSDIR}/print/texlive-hvfloat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/knitting/knitting.sty:${PORTSDIR}/print/texlive-knitting \
 		${LOCALBASE}/share/texmf-dist/tex/latex/knittingpattern/knittingpattern.cls:${PORTSDIR}/print/texlive-knittingpattern \
@@ -555,6 +556,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-mirror/pst-mirror.tex:${PORTSDIR}/print/texlive-pst-mirror \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-node/pst-node.tex:${PORTSDIR}/print/texlive-pst-node \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-ob3d/pst-ob3d.tex:${PORTSDIR}/print/texlive-pst-ob3d \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-ode/pst-ode.tex:${PORTSDIR}/print/texlive-pst-ode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-optexp/pst-optexp.sty:${PORTSDIR}/print/texlive-pst-optexp \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-optic/pst-optic.tex:${PORTSDIR}/print/texlive-pst-optic \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-osci/pst-osci.tex:${PORTSDIR}/print/texlive-pst-osci \
