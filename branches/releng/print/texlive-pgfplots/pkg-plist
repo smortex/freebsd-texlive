@@ -3,40 +3,13 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgfplots/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/ChangeLog
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/TeX-programming-notes.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/TeX-programming-notes.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_0.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_0.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_1.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_10.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_10.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_11.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_11.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_12.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_12.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_13.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_13.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_2.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_2.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_3.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_3.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_4.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_4.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_5.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_5.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_6.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_6.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_7.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_7.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_8.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_8.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_9.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/bugtracker/minimal_9.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/cartesian_phase_diagram.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/figures/external1.gnuplot
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/figures/external1.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/figures/external2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/figures/pgfplots-surface-cutoff.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/figures/pgfplotsclickable-fig1.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/figures/pgfplotsclickable-fig2.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/figures/pgfplotsclickable-fig3.png
@@ -53,7 +26,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/gallery/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/gallery/extractexamples.pl
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/gallery/gallery.css
-%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/gibbs_phase_diagram.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/gnuplot/pgfplots_DoG.gnuplot
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/gnuplot/pgfplots_DoG.table
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/gnuplot/pgfplots_exp
@@ -106,6 +78,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/pgfplots.reference.coordfiltering.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/pgfplots.reference.errorbars.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/pgfplots.reference.gridoptions-axiscoordinates.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/pgfplots.reference.layers.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/pgfplots.reference.linefitting.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/pgfplots.reference.markers-meta.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/pgfplots.reference.miscellaneous.tex
@@ -116,6 +89,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/pgfplots.reference.styleoptions.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/pgfplots.reference.symbolic-transformations.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/pgfplots.reference.symbolic.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/pgfplots.reference.technicalinternals.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/pgfplots.reference.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/pgfplots.reference.tickoptions.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/pgfplots.reference.tikzinteroperability.tex
@@ -197,6 +171,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/todo.archive.txt
 %%PORTDOCS%%share/texmf-dist/doc/plain/pgfplots/pgfplotsexample.pdf
 %%PORTDOCS%%share/texmf-dist/doc/plain/pgfplots/pgfplotsexample.tex
+share/texmf-dist/scripts/lua/pgfplots/pgfplots.lua
 share/texmf-dist/scripts/pgfplots/matlab2pgfplots.m
 share/texmf-dist/scripts/pgfplots/matlab2pgfplots.sh
 share/texmf-dist/scripts/pgfplots/pgf2pdf.sh
@@ -228,6 +203,8 @@ share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.c
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_misc.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfcoreexternal.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfcoreimage.code.tex
+share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfcorelayers.code.tex
+share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfcorescopes.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfkeys.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfkeysfiltered.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryfpu.code.tex
@@ -244,6 +221,7 @@ share/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 share/texmf-dist/tex/generic/pgfplots/pgfplots.multiaxis.code.tex
 share/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex
 share/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex
+share/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex
 share/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex
 share/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
 share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex
@@ -254,6 +232,7 @@ share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-
 share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def
 share/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex
 share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
+share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex
 share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex
 share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
 share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex
@@ -280,12 +259,12 @@ share/texmf-dist/tex/plain/pgfplots/pgfplotstable.tex
 @dirrmtry share/texmf-dist/source/latex/pgfplots
 @dirrmtry share/texmf-dist/source/context/third/pgfplots
 @dirrmtry share/texmf-dist/scripts/pgfplots
+@dirrmtry share/texmf-dist/scripts/lua/pgfplots
 @dirrmtry share/texmf-dist/doc/plain/pgfplots
 @dirrmtry share/texmf-dist/doc/latex/pgfplots/plotdata
 @dirrmtry share/texmf-dist/doc/latex/pgfplots/gnuplot
 @dirrmtry share/texmf-dist/doc/latex/pgfplots/gallery
 @dirrmtry share/texmf-dist/doc/latex/pgfplots/figures
-@dirrmtry share/texmf-dist/doc/latex/pgfplots/bugtracker
 @dirrmtry share/texmf-dist/doc/latex/pgfplots
 @dirrmtry share/texmf-dist/doc/generic/pgfplots
 @dirrmtry share/texmf-dist/doc/context/third/pgfplots
