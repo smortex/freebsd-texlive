@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/counttexruns/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/counttexruns/counttexruns.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/counttexruns/counttexruns.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/counttexruns/counttexruns.ins
+share/texmf-dist/tex/latex/counttexruns/counttexruns.sty
+@dirrmtry share/texmf-dist/tex/latex/counttexruns
+@dirrmtry share/texmf-dist/source/latex/counttexruns
+@dirrmtry share/texmf-dist/doc/latex/counttexruns
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
