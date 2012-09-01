@@ -1,0 +1,3 @@
+The package counts how often a LaTeX document is compiled,
+keeping the data in an external file. To print the count, can
+use the macro \thecounttexruns.

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120821
+PORTVERSION=	20120831
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -349,6 +349,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/coordsys/coordsys.sty:${PORTSDIR}/print/texlive-coordsys \
 		${LOCALBASE}/share/texmf-dist/tex/latex/copyrightbox/copyrightbox.sty:${PORTSDIR}/print/texlive-copyrightbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/coseoul/coseoul.sty:${PORTSDIR}/print/texlive-coseoul \
+		${LOCALBASE}/share/texmf-dist/tex/latex/counttexruns/counttexruns.sty:${PORTSDIR}/print/texlive-counttexruns \
 		${LOCALBASE}/share/texmf-dist/tex/latex/courseoutline/courseoutline.cls:${PORTSDIR}/print/texlive-courseoutline \
 		${LOCALBASE}/share/texmf-dist/tex/latex/coursepaper/coursepaper.cls:${PORTSDIR}/print/texlive-coursepaper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/coverpage/CoverPage.cfg:${PORTSDIR}/print/texlive-coverpage \
