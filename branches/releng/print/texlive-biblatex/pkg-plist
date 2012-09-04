@@ -1,3 +1,4 @@
+share/texmf-dist/bibtex/bib/biblatex/biblatex/biblatex-examples.bib
 share/texmf-dist/bibtex/bst/biblatex/biblatex.bst
 share/texmf-dist/bibtex/csf/biblatex/latin1.csf
 share/texmf-dist/bibtex/csf/biblatex/latin1_at.csf
@@ -24,7 +25,6 @@ share/texmf-dist/bibtex/csf/biblatex/winansi_se.csf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/RELEASE
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/biblatex.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/biblatex.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/bibtex/bib/biblatex/biblatex-examples.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/01-introduction.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/01-introduction.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/02-annotations.pdf
@@ -208,9 +208,9 @@ share/texmf-dist/tex/latex/biblatex/lbx/swedish.lbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex/bbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex
 @dirrmtry share/texmf-dist/doc/latex/biblatex/examples
-@dirrmtry share/texmf-dist/doc/latex/biblatex/bibtex/bib/biblatex
 @dirrmtry share/texmf-dist/doc/latex/biblatex
 @dirrmtry share/texmf-dist/bibtex/csf/biblatex
 @dirrmtry share/texmf-dist/bibtex/bst/biblatex
+@dirrmtry share/texmf-dist/bibtex/bib/biblatex/biblatex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
