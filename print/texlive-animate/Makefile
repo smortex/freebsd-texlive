@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	animate
-PORTVERSION=	20120525
+PORTVERSION=	20120905
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The animate package
+COMMENT=	Create PDF animations from graphics files and inline graphics.
 
 NOPORTSRC=	yes
 

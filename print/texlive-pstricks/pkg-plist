@@ -9,7 +9,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/images/flowers.eps
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/images/tiger.eps
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/images/tiger.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-doc.cls
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-doc.ist
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-news.sty
@@ -67,6 +66,7 @@ share/texmf-dist/tex/generic/pstricks/pstricks.con
 share/texmf-dist/tex/generic/pstricks/pstricks.tex
 share/texmf-dist/tex/generic/pstricks/pstricks97.tex
 share/texmf-dist/tex/latex/pstricks/pst-all.sty
+share/texmf-dist/tex/latex/pstricks/pst-doc.cls
 share/texmf-dist/tex/latex/pstricks/pst-key.sty
 share/texmf-dist/tex/latex/pstricks/pstcol.sty
 share/texmf-dist/tex/latex/pstricks/pstricks.sty
