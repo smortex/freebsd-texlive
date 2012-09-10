@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120831
+PORTVERSION=	20120909
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -925,6 +925,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/substitutefont/substitutefont.sty:${PORTSDIR}/print/texlive-substitutefont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/substr/substr.sty:${PORTSDIR}/print/texlive-substr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/supertabular/supertabular.sty:${PORTSDIR}/print/texlive-supertabular \
+		${LOCALBASE}/share/texmf-dist/tex/latex/svg/svg.sty:${PORTSDIR}/print/texlive-svg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/svgcolor/svgcolor.sty:${PORTSDIR}/print/texlive-svgcolor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/svn/svn.sty:${PORTSDIR}/print/texlive-svn \
 		${LOCALBASE}/share/texmf-dist/tex/latex/svn-multi/svn-multi.sty:${PORTSDIR}/print/texlive-svn-multi \
