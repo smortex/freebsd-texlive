@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-imakeidx
-# Date created:		09/21/2010 11:48:10
+# New ports collection makefile for:	texlive-svg
+# Date created:		09/10/2012 05:18:25
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	imakeidx
+PORTNAME=	svg
 PORTVERSION=	20120909
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A package for producing multiple indexes.
+COMMENT=	Include and extract SVG pictures using Inkscape.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

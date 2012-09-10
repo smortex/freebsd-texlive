@@ -1,0 +1,10 @@
+The package provides a command similar to \includegraphics
+command of the graphicx package, which enables the inclusion of
+SVG images using Inkscape. \includesvg[options]{svg filename} A
+variety of options is available, including width, height, and
+path of the SVG. The image is converted to an appropriate
+format, using the \write18 mechanism to execute a shell
+command, and the package also offers the means of saving a PDF,
+EPS, or PNG copy of the image, at the same time. The
+documentation shows an example using an SVG created from the
+high energy particle physics analysis package ROOT.
