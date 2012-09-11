@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20120816
+PORTVERSION=	20120910
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -110,6 +110,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/dvips/gothic/config.yfrak:${PORTSDIR}/print/texlive-gothic \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/greenpoint/greenpoint.mf:${PORTSDIR}/print/texlive-greenpoint \
 		${LOCALBASE}/share/texmf-dist/dvips/grotesq/config.ugq:${PORTSDIR}/print/texlive-grotesq \
+		${LOCALBASE}/share/texmf-dist/tex/latex/hacm/hacm.sty:${PORTSDIR}/print/texlive-hacm \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/hands/hands.mf:${PORTSDIR}/print/texlive-hands \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/hfbright/hfbr10.afm:${PORTSDIR}/print/texlive-hfbright \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hfoldsty/hfoldsty.sty:${PORTSDIR}/print/texlive-hfoldsty \

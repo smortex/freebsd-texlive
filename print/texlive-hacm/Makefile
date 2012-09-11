@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-media9
-# Date created:		03/30/2012 05:01:29
+# New ports collection makefile for:	texlive-hacm
+# Date created:		09/11/2012 04:48:59
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	media9
+PORTNAME=	hacm
 PORTVERSION=	20120910
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multimedia inclusion package with Adobe Reader-9/X compatibility.
+COMMENT=	Font support for the Arka language.
 
 NOPORTSRC=	yes
 

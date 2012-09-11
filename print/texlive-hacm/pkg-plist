@@ -1,0 +1,55 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/hacm/hacmdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/hacm/hacmdoc.tex
+share/texmf-dist/fonts/map/dvips/hacm/hacm.map
+share/texmf-dist/fonts/tfm/hacm/alblant.tfm
+share/texmf-dist/fonts/tfm/hacm/defans.tfm
+share/texmf-dist/fonts/tfm/hacm/fenlil.tfm
+share/texmf-dist/fonts/tfm/hacm/fialis.tfm
+share/texmf-dist/fonts/tfm/hacm/inje.tfm
+share/texmf-dist/fonts/tfm/hacm/kardinal.tfm
+share/texmf-dist/fonts/tfm/hacm/lantia.tfm
+share/texmf-dist/fonts/tfm/hacm/nalnia.tfm
+share/texmf-dist/fonts/tfm/hacm/olivia.tfm
+share/texmf-dist/fonts/tfm/hacm/ralblant.tfm
+share/texmf-dist/fonts/tfm/hacm/rdefans.tfm
+share/texmf-dist/fonts/tfm/hacm/rfenlil.tfm
+share/texmf-dist/fonts/tfm/hacm/rfialis.tfm
+share/texmf-dist/fonts/tfm/hacm/rinje.tfm
+share/texmf-dist/fonts/tfm/hacm/rkardinal.tfm
+share/texmf-dist/fonts/tfm/hacm/rlantia.tfm
+share/texmf-dist/fonts/tfm/hacm/rnalnia.tfm
+share/texmf-dist/fonts/tfm/hacm/rolivia.tfm
+share/texmf-dist/fonts/type1/hacm/alblant.pfb
+share/texmf-dist/fonts/type1/hacm/defans.pfb
+share/texmf-dist/fonts/type1/hacm/fenlil.pfb
+share/texmf-dist/fonts/type1/hacm/fialis.pfb
+share/texmf-dist/fonts/type1/hacm/inje.pfb
+share/texmf-dist/fonts/type1/hacm/kardinal.pfb
+share/texmf-dist/fonts/type1/hacm/lantia.pfb
+share/texmf-dist/fonts/type1/hacm/nalnia.pfb
+share/texmf-dist/fonts/type1/hacm/olivia.pfb
+share/texmf-dist/fonts/vf/hacm/alblant.vf
+share/texmf-dist/fonts/vf/hacm/defans.vf
+share/texmf-dist/fonts/vf/hacm/fenlil.vf
+share/texmf-dist/fonts/vf/hacm/fialis.vf
+share/texmf-dist/fonts/vf/hacm/inje.vf
+share/texmf-dist/fonts/vf/hacm/kardinal.vf
+share/texmf-dist/fonts/vf/hacm/lantia.vf
+share/texmf-dist/fonts/vf/hacm/nalnia.vf
+share/texmf-dist/fonts/vf/hacm/olivia.vf
+share/texmf-dist/tex/latex/hacm/hacm.sty
+share/texmf-dist/tex/latex/hacm/ot1halb.fd
+share/texmf-dist/tex/latex/hacm/ot1hdef.fd
+share/texmf-dist/tex/latex/hacm/ot1hfen.fd
+share/texmf-dist/tex/latex/hacm/ot1hfia.fd
+share/texmf-dist/tex/latex/hacm/ot1hinj.fd
+share/texmf-dist/tex/latex/hacm/ot1hkar.fd
+share/texmf-dist/tex/latex/hacm/ot1hlan.fd
+@dirrmtry share/texmf-dist/tex/latex/hacm
+@dirrmtry share/texmf-dist/fonts/vf/hacm
+@dirrmtry share/texmf-dist/fonts/type1/hacm
+@dirrmtry share/texmf-dist/fonts/tfm/hacm
+@dirrmtry share/texmf-dist/fonts/map/dvips/hacm
+@dirrmtry share/texmf-dist/doc/fonts/hacm
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

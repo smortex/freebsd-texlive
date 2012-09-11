@@ -99,6 +99,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-phys/phys.bbx:${PORTSDIR}/print/texlive-biblatex-phys \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-science/science.bbx:${PORTSDIR}/print/texlive-biblatex-science \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-swiss-legal/biblatex-swiss-legal-fr.lbx:${PORTSDIR}/print/texlive-biblatex-swiss-legal \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-trad/trad-abbrv.bbx:${PORTSDIR}/print/texlive-biblatex-trad \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblist/biblist.sty:${PORTSDIR}/print/texlive-biblist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibtopic/bibtopic.sty:${PORTSDIR}/print/texlive-bibtopic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibtopicprefix/bibtopicprefix.sty:${PORTSDIR}/print/texlive-bibtopicprefix \
@@ -315,6 +316,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/dvips/gothic/config.yfrak:${PORTSDIR}/print/texlive-gothic \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/greenpoint/greenpoint.mf:${PORTSDIR}/print/texlive-greenpoint \
 		${LOCALBASE}/share/texmf-dist/dvips/grotesq/config.ugq:${PORTSDIR}/print/texlive-grotesq \
+		${LOCALBASE}/share/texmf-dist/tex/latex/hacm/hacm.sty:${PORTSDIR}/print/texlive-hacm \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/hands/hands.mf:${PORTSDIR}/print/texlive-hands \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/hfbright/hfbr10.afm:${PORTSDIR}/print/texlive-hfbright \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hfoldsty/hfoldsty.sty:${PORTSDIR}/print/texlive-hfoldsty \
@@ -1541,6 +1543,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/substitutefont/substitutefont.sty:${PORTSDIR}/print/texlive-substitutefont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/substr/substr.sty:${PORTSDIR}/print/texlive-substr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/supertabular/supertabular.sty:${PORTSDIR}/print/texlive-supertabular \
+		${LOCALBASE}/share/texmf-dist/tex/latex/svg/svg.sty:${PORTSDIR}/print/texlive-svg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/svgcolor/svgcolor.sty:${PORTSDIR}/print/texlive-svgcolor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/svn/svn.sty:${PORTSDIR}/print/texlive-svn \
 		${LOCALBASE}/share/texmf-dist/tex/latex/svn-multi/svn-multi.sty:${PORTSDIR}/print/texlive-svn-multi \
