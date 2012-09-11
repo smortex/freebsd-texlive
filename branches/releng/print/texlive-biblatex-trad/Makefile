@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-media9
-# Date created:		03/30/2012 05:01:29
+# New ports collection makefile for:	texlive-biblatex-trad
+# Date created:		09/11/2012 04:45:14
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	media9
+PORTNAME=	biblatex-trad
 PORTVERSION=	20120910
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multimedia inclusion package with Adobe Reader-9/X compatibility.
+COMMENT=	"Traditional" BibTeX styles with BibLaTeX.
 
 NOPORTSRC=	yes
 

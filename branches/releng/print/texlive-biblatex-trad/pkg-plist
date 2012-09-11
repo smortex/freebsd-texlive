@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-trad/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-trad/biblatex-trad.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-trad/biblatex-trad.tex
+share/texmf-dist/tex/latex/biblatex-trad/trad-abbrv.bbx
+share/texmf-dist/tex/latex/biblatex-trad/trad-abbrv.cbx
+share/texmf-dist/tex/latex/biblatex-trad/trad-alpha.bbx
+share/texmf-dist/tex/latex/biblatex-trad/trad-alpha.cbx
+share/texmf-dist/tex/latex/biblatex-trad/trad-plain.bbx
+share/texmf-dist/tex/latex/biblatex-trad/trad-plain.cbx
+share/texmf-dist/tex/latex/biblatex-trad/trad-standard.bbx
+share/texmf-dist/tex/latex/biblatex-trad/trad-standard.cbx
+share/texmf-dist/tex/latex/biblatex-trad/trad-unsrt.bbx
+share/texmf-dist/tex/latex/biblatex-trad/trad-unsrt.cbx
+@dirrmtry share/texmf-dist/tex/latex/biblatex-trad
+@dirrmtry share/texmf-dist/doc/latex/biblatex-trad
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
