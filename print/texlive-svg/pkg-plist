@@ -12,59 +12,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/svg/root.pdf_tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/svg/root.svg
 %%PORTDOCS%%share/texmf-dist/doc/latex/svg/svg.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-animation.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-animevents-attrib.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-basic-clip.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-basic-filter.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-basic-font.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-basic-graphics-attrib.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-basic-structure.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-basic-text.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-clip.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-conditional.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-container-attrib.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-core-attrib.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-cursor.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-datatypes.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-docevents-attrib.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-extensibility.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-extresources-attrib.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-filter.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-font.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-gradient.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-graphevents-attrib.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-graphics-attrib.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-hyperlink.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-image.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-marker.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-mask.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-opacity-attrib.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-paint-attrib.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-pattern.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-profile.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-qname.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-script.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-shape.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-structure.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-style.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-text.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-view.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-viewport-attrib.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg-xlink-attrib.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg11-basic.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg11-tiny.rnc
-%%PORTSRC%%share/texmf-dist/source/latex/stex/schema/rnc/svg/svg11.rnc
 %%PORTSRC%%share/texmf-dist/source/latex/svg/svg.dtx
-share/texmf-dist/tex/generic/pgf/frontendlayer/svg/svgpgf.cfg
-share/texmf-dist/tex/generic/pgf/frontendlayer/svg/svgpgf.xmt
-share/texmf-dist/tex/generic/pgf/frontendlayer/svg/svgtest.cfg
-share/texmf-dist/tex/generic/pgf/frontendlayer/svg/svgtest.tex
-share/texmf-dist/tex/generic/pgf/frontendlayer/svg/svgtest.xml
 share/texmf-dist/tex/latex/svg/svg.sty
 @dirrmtry share/texmf-dist/tex/latex/svg
-@dirrmtry share/texmf-dist/tex/generic/pgf/frontendlayer/svg
 @dirrmtry share/texmf-dist/source/latex/svg
-@dirrmtry share/texmf-dist/source/latex/stex/schema/rnc/svg
 @dirrmtry share/texmf-dist/doc/latex/svg
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
