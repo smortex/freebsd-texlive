@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20120808
+PORTVERSION=	20120911
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -111,6 +111,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/ut-thesis/ut-thesis.cls:${PORTSDIR}/print/texlive-ut-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uothesis/uothesis.cls:${PORTSDIR}/print/texlive-uothesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uowthesis/UoWlogo.eps:${PORTSDIR}/print/texlive-uowthesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/uspatent/uspatent.cls:${PORTSDIR}/print/texlive-uspatent \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uwthesis/uwthesis.cls:${PORTSDIR}/print/texlive-uwthesis \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/vancouver/vancouver.bst:${PORTSDIR}/print/texlive-vancouver \
 		${LOCALBASE}/share/texmf-dist/tex/latex/york-thesis/york-thesis.cls:${PORTSDIR}/print/texlive-york-thesis \
@@ -143,7 +144,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/scripts/tetex/allcm.sh:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
-		${LOCALBASE}/share/texmf/texconfig/README:${PORTSDIR}/print/texlive-texconfig \
+		${LOCALBASE}/share/texmf/scripts/tetex/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
 		${LOCALBASE}/share/texmf/scripts/texlive/tlmgr.pl:${PORTSDIR}/print/texlive-texlive.infra \
 		${LOCALBASE}/share/texmf/xdvi/XDvi:${PORTSDIR}/print/texlive-xdvi \
