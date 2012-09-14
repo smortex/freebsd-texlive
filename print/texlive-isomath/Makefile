@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	isomath
-PORTVERSION=	20110206
+PORTVERSION=	20120913
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Mathematics "for scientists" (conformant to ISO 31).
+COMMENT=	Mathematics style for science and technology.
 
 NOPORTSRC=	yes
 
