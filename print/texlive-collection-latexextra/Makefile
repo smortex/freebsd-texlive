@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120909
+PORTVERSION=	20120915
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -491,6 +491,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/fncylab/fncylab.sty:${PORTSDIR}/print/texlive-fncylab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fnpara/fnpara.sty:${PORTSDIR}/print/texlive-fnpara \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fnpct/fnpct.sty:${PORTSDIR}/print/texlive-fnpct \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fnumprint/fnumprint.sty:${PORTSDIR}/print/texlive-fnumprint \
 		${LOCALBASE}/share/texmf-dist/tex/latex/foilhtml/foilhtml.sty:${PORTSDIR}/print/texlive-foilhtml \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fontaxes/fontaxes.sty:${PORTSDIR}/print/texlive-fontaxes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fonttable/fonttable.sty:${PORTSDIR}/print/texlive-fonttable \

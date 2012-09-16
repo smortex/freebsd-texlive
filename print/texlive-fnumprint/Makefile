@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-hacm
-# Date created:		09/11/2012 04:48:59
+# New ports collection makefile for:	texlive-fnumprint
+# Date created:		09/16/2012 05:18:26
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	hacm
+PORTNAME=	fnumprint
 PORTVERSION=	20120915
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Font support for the Arka language.
+COMMENT=	Print a number in 'appropriate' format.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

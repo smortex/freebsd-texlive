@@ -1,10 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/plain/plipsum/README
+%%PORTDOCS%%share/texmf-dist/doc/plain/plipsum/compile.sh
+%%PORTDOCS%%share/texmf-dist/doc/plain/plipsum/plipsum.nw
+%%PORTDOCS%%share/texmf-dist/doc/plain/plipsum/plipsumdoc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/plain/plipsum/pliptest.tex
-%%PORTSRC%%share/texmf-dist/source/plain/plipsum/plipsum.dtx
-%%PORTSRC%%share/texmf-dist/source/plain/plipsum/plipsum.ins
 share/texmf-dist/tex/plain/plipsum/plipsum.tex
 @dirrmtry share/texmf-dist/tex/plain/plipsum
-@dirrmtry share/texmf-dist/source/plain/plipsum
 @dirrmtry share/texmf-dist/doc/plain/plipsum
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
