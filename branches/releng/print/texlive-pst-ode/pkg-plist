@@ -1,8 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-ode/ChangeLog
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-ode/README
-%%PORTDOCS%%share/texmf-dist/doc/generic/pst-ode/lorenz.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/pst-ode/ode.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/pst-ode/particle.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-ode/pst-ode-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-ode/pst-ode-doc.tex
 share/texmf-dist/dvips/pst-ode/pst-ode.pro
