@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/eledmac.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/eledpar.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/eledmac/eledmac.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/eledmac/eledmac.ins
+%%PORTSRC%%share/texmf-dist/source/latex/eledmac/eledpar.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/eledmac/eledpar.ins
+share/texmf-dist/tex/latex/eledmac/eledmac.sty
+share/texmf-dist/tex/latex/eledmac/eledpar.sty
+@dirrmtry share/texmf-dist/tex/latex/eledmac
+@dirrmtry share/texmf-dist/source/latex/eledmac
+@dirrmtry share/texmf-dist/doc/latex/eledmac
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

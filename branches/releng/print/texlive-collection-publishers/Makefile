@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20120911
+PORTVERSION=	20120919
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -38,6 +38,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/classicthesis/classicthesis.sty:${PORTSDIR}/print/texlive-classicthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmpj/cmpj.sty:${PORTSDIR}/print/texlive-cmpj \
 		${LOCALBASE}/share/texmf-dist/tex/latex/confproc/confproc.cls:${PORTSDIR}/print/texlive-confproc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/designcon/designcon.cls:${PORTSDIR}/print/texlive-designcon \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebsthesis/ebsthesis.cls:${PORTSDIR}/print/texlive-ebsthesis \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/economic/aer.bst:${PORTSDIR}/print/texlive-economic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ejpecp/ejpecp.cls:${PORTSDIR}/print/texlive-ejpecp \
@@ -81,6 +82,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/procIAGssymp/procIAGssymp.sty:${PORTSDIR}/print/texlive-procIAGssymp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ptptex/ptptex.cls:${PORTSDIR}/print/texlive-ptptex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/psu-thesis/psu-thesis.sty:${PORTSDIR}/print/texlive-psu-thesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/resphilosophica/resphilosophica.cls:${PORTSDIR}/print/texlive-resphilosophica \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/revtex/aipauth4-1.bst:${PORTSDIR}/print/texlive-revtex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/revtex4/revtex4.cls:${PORTSDIR}/print/texlive-revtex4 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ryethesis/ryethesis.cls:${PORTSDIR}/print/texlive-ryethesis \

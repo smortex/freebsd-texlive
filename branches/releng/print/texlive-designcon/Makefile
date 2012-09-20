@@ -1,18 +1,16 @@
-# New ports collection makefile for:	texlive-jfontmaps
-# Date created:		02/03/2012 04:51:09
+# New ports collection makefile for:	texlive-designcon
+# Date created:		09/20/2012 05:34:51
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	jfontmaps
+PORTNAME=	designcon
 PORTVERSION=	20120919
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Font maps for Japanese fonts.
-
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
+COMMENT=	The designcon package
 
 NOPORTSRC=	yes
 

@@ -1,0 +1,4 @@
+The package calculates the age of someone or something in
+years. Internally it uses the datenumber package to calculate
+the age in days; conversion from days to years is then
+performed, taking care of leap years and such odd things.

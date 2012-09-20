@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-humanities
-PORTVERSION=	20120807
+PORTVERSION=	20120919
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -24,6 +24,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/alnumsec/alnumsec.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/ecltree/ecltree.sty:${PORTSDIR}/print/texlive-ecltree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/edfnotes/edfnotes.sty:${PORTSDIR}/print/texlive-edfnotes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ednotes/ednotes.sty:${PORTSDIR}/print/texlive-ednotes \
+		${LOCALBASE}/share/texmf-dist/tex/latex/eledmac/eledmac.sty:${PORTSDIR}/print/texlive-eledmac \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gb4e/gb4e.sty:${PORTSDIR}/print/texlive-gb4e \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmverse/gmverse.sty:${PORTSDIR}/print/texlive-gmverse \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jura/jura.cls:${PORTSDIR}/print/texlive-jura \

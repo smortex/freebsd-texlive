@@ -1,0 +1,17 @@
+share/texmf-dist/bibtex/bst/resphilosophica/resphilosophica.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/resphilosophica/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/resphilosophica/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/resphilosophica/resphilosophica.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/resphilosophica/resphilosophica.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/resphilosophica/rpsample.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/resphilosophica/rpsample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/resphilosophica/rpsample.tex
+%%PORTSRC%%share/texmf-dist/source/latex/resphilosophica/resphilosophica.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/resphilosophica/resphilosophica.ins
+share/texmf-dist/tex/latex/resphilosophica/resphilosophica.cls
+@dirrmtry share/texmf-dist/tex/latex/resphilosophica
+@dirrmtry share/texmf-dist/source/latex/resphilosophica
+@dirrmtry share/texmf-dist/doc/latex/resphilosophica
+@dirrmtry share/texmf-dist/bibtex/bst/resphilosophica
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

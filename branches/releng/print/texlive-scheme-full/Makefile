@@ -524,6 +524,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/ecltree/ecltree.sty:${PORTSDIR}/print/texlive-ecltree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/edfnotes/edfnotes.sty:${PORTSDIR}/print/texlive-edfnotes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ednotes/ednotes.sty:${PORTSDIR}/print/texlive-ednotes \
+		${LOCALBASE}/share/texmf-dist/tex/latex/eledmac/eledmac.sty:${PORTSDIR}/print/texlive-eledmac \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gb4e/gb4e.sty:${PORTSDIR}/print/texlive-gb4e \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmverse/gmverse.sty:${PORTSDIR}/print/texlive-gmverse \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jura/jura.cls:${PORTSDIR}/print/texlive-jura \
@@ -902,6 +903,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/breakurl/breakurl.sty:${PORTSDIR}/print/texlive-breakurl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bullcntr/bullcntr.sty:${PORTSDIR}/print/texlive-bullcntr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bussproofs/bussproofs.sty:${PORTSDIR}/print/texlive-bussproofs \
+		${LOCALBASE}/share/texmf-dist/tex/latex/calcage/calcage.sty:${PORTSDIR}/print/texlive-calcage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/calctab/calctab.sty:${PORTSDIR}/print/texlive-calctab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/calculator/calculator.sty:${PORTSDIR}/print/texlive-calculator \
 		${LOCALBASE}/share/texmf-dist/tex/latex/calrsfs/calrsfs.sty:${PORTSDIR}/print/texlive-calrsfs \
@@ -1109,6 +1111,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/fncylab/fncylab.sty:${PORTSDIR}/print/texlive-fncylab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fnpara/fnpara.sty:${PORTSDIR}/print/texlive-fnpara \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fnpct/fnpct.sty:${PORTSDIR}/print/texlive-fnpct \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fnumprint/fnumprint.sty:${PORTSDIR}/print/texlive-fnumprint \
 		${LOCALBASE}/share/texmf-dist/tex/latex/foilhtml/foilhtml.sty:${PORTSDIR}/print/texlive-foilhtml \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fontaxes/fontaxes.sty:${PORTSDIR}/print/texlive-fontaxes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fonttable/fonttable.sty:${PORTSDIR}/print/texlive-fonttable \
@@ -1923,6 +1926,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/classicthesis/classicthesis.sty:${PORTSDIR}/print/texlive-classicthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmpj/cmpj.sty:${PORTSDIR}/print/texlive-cmpj \
 		${LOCALBASE}/share/texmf-dist/tex/latex/confproc/confproc.cls:${PORTSDIR}/print/texlive-confproc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/designcon/designcon.cls:${PORTSDIR}/print/texlive-designcon \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebsthesis/ebsthesis.cls:${PORTSDIR}/print/texlive-ebsthesis \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/economic/aer.bst:${PORTSDIR}/print/texlive-economic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ejpecp/ejpecp.cls:${PORTSDIR}/print/texlive-ejpecp \
@@ -1966,6 +1970,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/procIAGssymp/procIAGssymp.sty:${PORTSDIR}/print/texlive-procIAGssymp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ptptex/ptptex.cls:${PORTSDIR}/print/texlive-ptptex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/psu-thesis/psu-thesis.sty:${PORTSDIR}/print/texlive-psu-thesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/resphilosophica/resphilosophica.cls:${PORTSDIR}/print/texlive-resphilosophica \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/revtex/aipauth4-1.bst:${PORTSDIR}/print/texlive-revtex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/revtex4/revtex4.cls:${PORTSDIR}/print/texlive-revtex4 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ryethesis/ryethesis.cls:${PORTSDIR}/print/texlive-ryethesis \
@@ -1996,6 +2001,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/ut-thesis/ut-thesis.cls:${PORTSDIR}/print/texlive-ut-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uothesis/uothesis.cls:${PORTSDIR}/print/texlive-uothesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uowthesis/UoWlogo.eps:${PORTSDIR}/print/texlive-uowthesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/uspatent/uspatent.cls:${PORTSDIR}/print/texlive-uspatent \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uwthesis/uwthesis.cls:${PORTSDIR}/print/texlive-uwthesis \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/vancouver/vancouver.bst:${PORTSDIR}/print/texlive-vancouver \
 		${LOCALBASE}/share/texmf-dist/tex/latex/york-thesis/york-thesis.cls:${PORTSDIR}/print/texlive-york-thesis \
