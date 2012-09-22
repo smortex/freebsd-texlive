@@ -1,34 +1,33 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/DocSource/DocumentSettings.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/DocSource/DrawingZoomBad.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/DocSource/DrawingZoomGood.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/DocSource/LyX.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/DocSource/LyXCustomInsets.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/DocSource/LyXDocumentSettingsFont.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/DocSource/LyXDocumentSettingsOutput.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/DocSource/LyXEnvironments.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/DocSource/LyXSettings.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/DocSource/LyXSettingsDocumentClass.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/DocSource/PatentApplicationGuide.lyx
-%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/DocSource/PatentApplicationGuide.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/DocSource/TeXworks.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/DocSource/TpXSettingsAccess.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/DocSource/VisioSave.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/DocSource/annotationAlignment.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/DocumentSettings.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/DrawingZoomBad.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/DrawingZoomGood.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/Drawings.lyx
 %%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/Drawings.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/LyX.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/LyXCustomInsets.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/LyXDocumentSettingsFont.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/LyXDocumentSettingsOutput.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/LyXEnvironments.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/LyXSettings.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/LyXSettingsDocumentClass.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/PatentApplication.lyx
 %%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/PatentApplication.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/PatentApplication.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/PatentApplicationGuide.lyx
 %%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/PatentApplicationGuide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/PatentApplicationGuide.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/TeXworks.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/TpXDrawing.tpx
+%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/TpXSettingsAccess.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/VisioDrawing.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/VisioDrawing.vsd
 %%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/VisioMainDrawing.vsd
+%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/VisioSave.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/annotationAlignment.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/uspatent.layout
 share/texmf-dist/tex/latex/uspatent/uspatent.cls
 @dirrmtry share/texmf-dist/tex/latex/uspatent
-@dirrmtry share/texmf-dist/doc/latex/uspatent/DocSource
 @dirrmtry share/texmf-dist/doc/latex/uspatent
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
