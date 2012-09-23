@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/catcodes/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/catcodes/SrcFILEs.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/catcodes/catcodes.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/catcodes/catcodes.tex
+%%PORTSRC%%share/texmf-dist/source/generic/catcodes/srcfiles.tex
+share/texmf-dist/tex/generic/catcodes/actcodes.sty
+share/texmf-dist/tex/generic/catcodes/catchdq.sty
+share/texmf-dist/tex/generic/catcodes/catcodes.RLS
+share/texmf-dist/tex/generic/catcodes/stacklet.sty
+@dirrmtry share/texmf-dist/tex/generic/catcodes
+@dirrmtry share/texmf-dist/source/generic/catcodes
+@dirrmtry share/texmf-dist/doc/generic/catcodes
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

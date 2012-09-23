@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-resphilosophica
-# Date created:		09/20/2012 05:35:34
+# New ports collection makefile for:	texlive-langcode
+# Date created:		09/23/2012 05:11:47
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	resphilosophica
+PORTNAME=	langcode
 PORTVERSION=	20120922
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset articles for the journal Res Philosophica.
+COMMENT=	The langcode package
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

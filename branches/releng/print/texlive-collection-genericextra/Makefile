@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-genericextra
-PORTVERSION=	20120511
+PORTVERSION=	20120922
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -20,6 +20,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/abbr/abbr.tex:${PORTSDIR}
 		${LOCALBASE}/share/texmf-dist/tex/generic/bitelist/bitelist.sty:${PORTSDIR}/print/texlive-bitelist \
 		${LOCALBASE}/share/texmf-dist/tex/generic/borceux/Diagram:${PORTSDIR}/print/texlive-borceux \
 		${LOCALBASE}/share/texmf-dist/tex/generic/c-pascal/cap.tex:${PORTSDIR}/print/texlive-c-pascal \
+		${LOCALBASE}/share/texmf-dist/tex/generic/catcodes/actcodes.sty:${PORTSDIR}/print/texlive-catcodes \
 		${LOCALBASE}/share/texmf-dist/tex/generic/chronosys/chronosys.sty:${PORTSDIR}/print/texlive-chronosys \
 		${LOCALBASE}/share/texmf-dist/dvips/colorsep/colorsep.pro:${PORTSDIR}/print/texlive-colorsep \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/dinat/dinat.bst:${PORTSDIR}/print/texlive-dinat \
@@ -35,6 +36,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/abbr/abbr.tex:${PORTSDIR}
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifetex/ifetex.sty:${PORTSDIR}/print/texlive-ifetex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/iftex/iftex.sty:${PORTSDIR}/print/texlive-iftex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/insbox/insbox.tex:${PORTSDIR}/print/texlive-insbox \
+		${LOCALBASE}/share/texmf-dist/tex/generic/langcode/langcode.sty:${PORTSDIR}/print/texlive-langcode \
 		${LOCALBASE}/share/texmf-dist/tex/generic/lecturer/lecturer.sty:${PORTSDIR}/print/texlive-lecturer \
 		${LOCALBASE}/share/texmf-dist/tex/generic/librarian/librarian.sty:${PORTSDIR}/print/texlive-librarian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/mathdots/mathdots.sty:${PORTSDIR}/print/texlive-mathdots \
@@ -44,6 +46,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/abbr/abbr.tex:${PORTSDIR}
 		${LOCALBASE}/share/texmf-dist/tex/generic/navigator/navigator.sty:${PORTSDIR}/print/texlive-navigator \
 		${LOCALBASE}/share/texmf-dist/tex/generic/ofs/ofs.sty:${PORTSDIR}/print/texlive-ofs \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pdf-trans/pdf-trans.tex:${PORTSDIR}/print/texlive-pdf-trans \
+		${LOCALBASE}/share/texmf-dist/tex/generic/plainpkg/plainpkg.tex:${PORTSDIR}/print/texlive-plainpkg \
 		${LOCALBASE}/share/texmf-dist/tex/generic/shade/shade.tex:${PORTSDIR}/print/texlive-shade \
 		${LOCALBASE}/share/texmf-dist/tex/generic/systeme/systeme.sty:${PORTSDIR}/print/texlive-systeme \
 		${LOCALBASE}/share/texmf-dist/tex/generic/tabto-generic/tabto.tex:${PORTSDIR}/print/texlive-tabto-generic \
@@ -80,7 +83,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/abbr/abbr.tex:${PORTSDIR}
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/scripts/tetex/allcm.sh:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
-		${LOCALBASE}/share/texmf/texconfig/README:${PORTSDIR}/print/texlive-texconfig \
+		${LOCALBASE}/share/texmf/scripts/tetex/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
 		${LOCALBASE}/share/texmf/scripts/texlive/tlmgr.pl:${PORTSDIR}/print/texlive-texlive.infra \
 		${LOCALBASE}/share/texmf/xdvi/XDvi:${PORTSDIR}/print/texlive-xdvi

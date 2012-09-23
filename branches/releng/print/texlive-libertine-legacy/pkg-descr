@@ -1,4 +1,0 @@
-The package provides support for (traditional-)TeX-based users
-of the libertine bundle, who were left isolated when that
-bundle switched to OTF-only form on 2012-12-11 (thus only, now,
-supporting XeTeX and LuaTeX users).

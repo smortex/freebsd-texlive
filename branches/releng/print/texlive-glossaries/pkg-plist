@@ -68,6 +68,7 @@ share/texmf-dist/scripts/glossaries/makeglossaries.bat
 %%PORTSRC%%share/texmf-dist/source/latex/glossaries/glossaries.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/glossaries/glossaries.ins
 %%PORTSRC%%share/texmf-dist/source/latex/glossaries/glossaries.perl
+%%PORTSRC%%share/texmf-dist/source/latex/glossaries/mfirstuc.perl
 share/texmf-dist/tex/latex/glossaries/base/glossaries-babel.sty
 share/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-207.sty
 share/texmf-dist/tex/latex/glossaries/base/glossaries-polyglossia.sty
