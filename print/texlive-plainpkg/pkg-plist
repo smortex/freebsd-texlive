@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/plainpkg/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/plainpkg/SrcFILEs.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/plainpkg/plainpkg-doc.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/plainpkg/plainpkg-doc.tex
+%%PORTSRC%%share/texmf-dist/source/generic/plainpkg/srcfiles.tex
+share/texmf-dist/tex/generic/plainpkg/plainpkg.tex
+@dirrmtry share/texmf-dist/tex/generic/plainpkg
+@dirrmtry share/texmf-dist/source/generic/plainpkg
+@dirrmtry share/texmf-dist/doc/generic/plainpkg
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20120910
+PORTVERSION=	20120922
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -39,6 +39,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/tex/latex/bera/bera.sty:${PORTSDIR}/print/texlive-bera \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/berenisadf/ybdb.afm:${PORTSDIR}/print/texlive-berenisadf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bguq/bguq.sty:${PORTSDIR}/print/texlive-bguq \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biolinum-type1/biolinum-type1.sty:${PORTSDIR}/print/texlive-biolinum-type1 \
 		${LOCALBASE}/share/texmf-dist/fonts/tfm/public/blacklettert1/tfrak.tfm:${PORTSDIR}/print/texlive-blacklettert1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boisik/boisik.sty:${PORTSDIR}/print/texlive-boisik \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/bookhands/sqrc10.afm:${PORTSDIR}/print/texlive-bookhands \
@@ -127,8 +128,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/tex/latex/kurier/kurier.sty:${PORTSDIR}/print/texlive-kurier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lato/lato.sty:${PORTSDIR}/print/texlive-lato \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/lfb/accents.mf:${PORTSDIR}/print/texlive-lfb \
+		${LOCALBASE}/share/texmf-dist/tex/latex/libertine-type1/libertine-type1.sty:${PORTSDIR}/print/texlive-libertine-type1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libertineotf/libertineotf.sty:${PORTSDIR}/print/texlive-libertineotf \
-		${LOCALBASE}/share/texmf-dist/dvips/libertine-legacy/config.libertine:${PORTSDIR}/print/texlive-libertine-legacy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libris/libris.sty:${PORTSDIR}/print/texlive-libris \
 		${LOCALBASE}/share/texmf-dist/tex/latex/linearA/linearA.sty:${PORTSDIR}/print/texlive-linearA \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lxfonts/lxfonts.sty:${PORTSDIR}/print/texlive-lxfonts \
@@ -158,10 +159,10 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/fonts/afm/gust/poltawski/antpb10.afm:${PORTSDIR}/print/texlive-poltawski \
 		${LOCALBASE}/share/texmf-dist/tex/latex/prodint/prodint.sty:${PORTSDIR}/print/texlive-prodint \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/itc/psafm/stonesan/is8b8a.afm:${PORTSDIR}/print/texlive-psafm \
-		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/pxtxalfa/pxtx.map:${PORTSDIR}/print/texlive-pxtxalfa \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/punk/punk.mf:${PORTSDIR}/print/texlive-punk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/punk-latex/ot1pnk.fd:${PORTSDIR}/print/texlive-punk-latex \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/punknova/punknova-bold.otf:${PORTSDIR}/print/texlive-punknova \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/pxtxalfa/pxtx.map:${PORTSDIR}/print/texlive-pxtxalfa \
 		${LOCALBASE}/share/texmf-dist/tex/latex/recycle/recycle.sty:${PORTSDIR}/print/texlive-recycle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/romande/romande.sty:${PORTSDIR}/print/texlive-romande \
 		${LOCALBASE}/share/texmf-dist/tex/latex/public/rsfso/rsfso.sty:${PORTSDIR}/print/texlive-rsfso \
@@ -170,8 +171,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/tex/latex/sauterfonts/sbbm.sty:${PORTSDIR}/print/texlive-sauterfonts \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/semaphor/smfb10.afm:${PORTSDIR}/print/texlive-semaphor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skull/skull.sty:${PORTSDIR}/print/texlive-skull \
-		${LOCALBASE}/share/texmf-dist/tex/latex/staves/staves.sty:${PORTSDIR}/print/texlive-staves \
 		${LOCALBASE}/share/texmf-dist/tex/latex/starfont/starfont.sty:${PORTSDIR}/print/texlive-starfont \
+		${LOCALBASE}/share/texmf-dist/tex/latex/staves/staves.sty:${PORTSDIR}/print/texlive-staves \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/stix/STIXGeneral.otf:${PORTSDIR}/print/texlive-stix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/public/superiors/superiors.sty:${PORTSDIR}/print/texlive-superiors \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/tapir/tap-enc.mf:${PORTSDIR}/print/texlive-tapir \

@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-resphilosophica
-# Date created:		09/20/2012 05:35:34
+# New ports collection makefile for:	texlive-biolinum-type1
+# Date created:		09/23/2012 05:07:46
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	resphilosophica
+PORTNAME=	biolinum-type1
 PORTVERSION=	20120922
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset articles for the journal Res Philosophica.
+COMMENT=	(pdf)LaTeX support for the Biolinum family of fonts.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

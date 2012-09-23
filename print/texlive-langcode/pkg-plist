@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/langcode/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/langcode/SrcFILEs.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/langcode/langcode.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/langcode/langcode.tex
+%%PORTSRC%%share/texmf-dist/source/generic/langcode/srcfiles.tex
+share/texmf-dist/tex/generic/langcode/langcode.sty
+@dirrmtry share/texmf-dist/tex/generic/langcode
+@dirrmtry share/texmf-dist/source/generic/langcode
+@dirrmtry share/texmf-dist/doc/generic/langcode
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
