@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-langcjk
-PORTVERSION=	20120724
+PORTVERSION=	20120923
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -42,7 +42,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/scripts/tetex/allcm.sh:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
-		${LOCALBASE}/share/texmf/texconfig/README:${PORTSDIR}/print/texlive-texconfig \
+		${LOCALBASE}/share/texmf/scripts/tetex/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
 		${LOCALBASE}/share/texmf/scripts/texlive/tlmgr.pl:${PORTSDIR}/print/texlive-texlive.infra \
 		${LOCALBASE}/share/texmf/xdvi/XDvi:${PORTSDIR}/print/texlive-xdvi \
@@ -66,6 +66,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexja/luatexja.sty:${PORTSDIR}/print/texlive-luatexja \
 		${LOCALBASE}/share/texmf-dist/dvips/norasi-c90/config.norasi-c90:${PORTSDIR}/print/texlive-norasi-c90 \
 		${LOCALBASE}/share/texmf-dist/tex/ptex/base/ptex.tex:${PORTSDIR}/print/texlive-ptex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pxcjkcat/pxcjkcat.sty:${PORTSDIR}/print/texlive-pxcjkcat \
 		${LOCALBASE}/share/texmf-dist/tex/generic/thailatex/hyph-th-utf8.tex:${PORTSDIR}/print/texlive-thailatex \
 		${LOCALBASE}/share/texmf-dist/dvips/uhc/config.uhc:${PORTSDIR}/print/texlive-uhc \
 		${LOCALBASE}/share/texmf-dist/tex/uptex/base/uptex.tex:${PORTSDIR}/print/texlive-uptex \

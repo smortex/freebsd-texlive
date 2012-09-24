@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-texlive-docindex
-# Date created:		08/02/2012 12:13:55
+# New ports collection makefile for:	texlive-pxcjkcat
+# Date created:		09/24/2012 05:06:55
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	texlive-docindex
+PORTNAME=	pxcjkcat
 PORTVERSION=	20120923
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	The pxcjkcat package
 
 NOPORTSRC=	yes
 
