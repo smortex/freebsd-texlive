@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pxcjkcat/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/pxcjkcat/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pxcjkcat/README-ja
+share/texmf-dist/tex/latex/pxcjkcat/pxcjkcat.sty
+@dirrmtry share/texmf-dist/tex/latex/pxcjkcat
+@dirrmtry share/texmf-dist/doc/latex/pxcjkcat
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

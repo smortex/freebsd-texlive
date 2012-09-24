@@ -1,0 +1,4 @@
+The package provides means for the creation of simple Bohr
+models of atoms up to the atomic number 112. In addition,
+commands are provided to convert atomic numbers to element
+symbols or element names and vice versa.

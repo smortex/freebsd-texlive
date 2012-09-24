@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-science
-PORTVERSION=	20120822
+PORTVERSION=	20120923
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -20,6 +20,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIstyle/sistyle.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty:${PORTSDIR}/print/texlive-algorithmicx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/algorithms/algorithm.sty:${PORTSDIR}/print/texlive-algorithms \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biocon/biocon.sty:${PORTSDIR}/print/texlive-biocon \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bohr/bohr.sty:${PORTSDIR}/print/texlive-bohr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bpchem/bpchem.sty:${PORTSDIR}/print/texlive-bpchem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bytefield/bytefield.sty:${PORTSDIR}/print/texlive-bytefield \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemarrow/chemarrow.sty:${PORTSDIR}/print/texlive-chemarrow \

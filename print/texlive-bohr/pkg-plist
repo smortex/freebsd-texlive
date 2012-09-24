@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bohr/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/bohr/bohr_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bohr/bohr_en.tex
+share/texmf-dist/tex/latex/bohr/bohr.sty
+share/texmf-dist/tex/latex/bohr/bohr_elements_english.def
+share/texmf-dist/tex/latex/bohr/bohr_elements_german.def
+@dirrmtry share/texmf-dist/tex/latex/bohr
+@dirrmtry share/texmf-dist/doc/latex/bohr
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
