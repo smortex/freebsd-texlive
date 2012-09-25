@@ -1,5 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/libgreek/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/libgreek/libgreek.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/libgreek/libgreekcheck.tex
 %%PORTSRC%%share/texmf-dist/source/latex/libgreek/libgreek.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/libgreek/libgreek.ins
 share/texmf-dist/tex/latex/libgreek/libgreek.sty
