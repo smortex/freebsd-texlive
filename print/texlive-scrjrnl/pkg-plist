@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/scrjrnl/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/scrjrnl/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/scrjrnl/scrjrnl.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/scrjrnl/scrjrnl.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/scrjrnl/scrjrnl.ins
+share/texmf-dist/tex/latex/scrjrnl/scrjrnl.cls
+@dirrmtry share/texmf-dist/tex/latex/scrjrnl
+@dirrmtry share/texmf-dist/source/latex/scrjrnl
+@dirrmtry share/texmf-dist/doc/latex/scrjrnl
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

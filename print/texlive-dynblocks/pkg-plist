@@ -1,0 +1,27 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/dynblocks/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/dynblocks/dynblocks.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dynblocks/dynblocks.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dynblocks/images/alert_1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dynblocks/images/alert_2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dynblocks/images/align.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dynblocks/images/basic_1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dynblocks/images/basic_2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dynblocks/images/cmbx_1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dynblocks/images/cmbx_2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dynblocks/images/cmby_1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dynblocks/images/cmby_2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dynblocks/images/custcol_1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dynblocks/images/custcol_2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dynblocks/images/custcol_3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dynblocks/images/custcol_4.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dynblocks/images/estl.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dynblocks/images/shdrndc_1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dynblocks/images/shdrndc_2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dynblocks/images/szeg_1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dynblocks/images/szeg_2.pdf
+share/texmf-dist/tex/latex/dynblocks/dynblocks.sty
+@dirrmtry share/texmf-dist/tex/latex/dynblocks
+@dirrmtry share/texmf-dist/doc/latex/dynblocks/images
+@dirrmtry share/texmf-dist/doc/latex/dynblocks
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
