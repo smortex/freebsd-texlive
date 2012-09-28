@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-ucharclasses
-# Date created:		09/27/2012 05:24:39
+# New ports collection makefile for:	texlive-libertine
+# Date created:		09/28/2012 04:58:02
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	ucharclasses
+PORTNAME=	libertine
 PORTVERSION=	20120927
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Switch fonts in XeTeX according to what is being processed.
+COMMENT=	Simple use of Linux Libertine and Biolinum fonts.
 
 NOPORTSRC=	yes
 
