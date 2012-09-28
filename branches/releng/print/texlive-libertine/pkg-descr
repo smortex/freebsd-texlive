@@ -1,0 +1,4 @@
+The package offers compatibility to old documents which use
+\usepackage{libertine}. The package passes all options to the
+packages biolinum-type1 and libertine-type1, and sets the
+default font encoding to T1

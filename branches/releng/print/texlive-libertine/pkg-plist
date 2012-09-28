@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/libertine/Changes
+%%PORTDOCS%%share/texmf-dist/doc/latex/libertine/README
+share/texmf-dist/tex/latex/libertine/libertine.sty
+@dirrmtry share/texmf-dist/tex/latex/libertine
+@dirrmtry share/texmf-dist/doc/latex/libertine
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
