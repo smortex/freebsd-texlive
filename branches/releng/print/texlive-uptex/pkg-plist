@@ -27,6 +27,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/uptex/base/samples/area-uptex.mp
 %%PORTDOCS%%share/texmf-dist/doc/uptex/base/samples/area-utf8-incl.tex
 %%PORTDOCS%%share/texmf-dist/doc/uptex/base/samples/area-utf8.mp
+%%PORTDOCS%%share/texmf-dist/doc/uptex/base/samples/bkmk-docinfo.txt
 %%PORTDOCS%%share/texmf-dist/doc/uptex/base/samples/bkmk-jis.tex
 %%PORTDOCS%%share/texmf-dist/doc/uptex/base/samples/bkmk-utf8.tex
 %%PORTDOCS%%share/texmf-dist/doc/uptex/base/samples/box-euc.eps

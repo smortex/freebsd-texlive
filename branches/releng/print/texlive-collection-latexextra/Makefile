@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120919
+PORTVERSION=	20120929
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -401,6 +401,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty:${PORTSDIR}/print/texlive-draftwatermark \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dtk/dtk.cls:${PORTSDIR}/print/texlive-dtk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dvdcoll/dvdcoll.cls:${PORTSDIR}/print/texlive-dvdcoll \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dynblocks/dynblocks.sty:${PORTSDIR}/print/texlive-dynblocks \
 		${LOCALBASE}/share/texmf-dist/tex/latex/easy/easy.sty:${PORTSDIR}/print/texlive-easy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/easy-todo/easy-todo.sty:${PORTSDIR}/print/texlive-easy-todo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/easyfig/easyfig.sty:${PORTSDIR}/print/texlive-easyfig \
@@ -735,6 +736,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/ntheorem/ntheorem.sty:${PORTSDIR}/print/texlive-ntheorem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/numname/numname.sty:${PORTSDIR}/print/texlive-numname \
 		${LOCALBASE}/share/texmf-dist/tex/latex/numprint/numprint.sty:${PORTSDIR}/print/texlive-numprint \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ocgx/ocgx.sty:${PORTSDIR}/print/texlive-ocgx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ocr-latex/ocr.sty:${PORTSDIR}/print/texlive-ocr-latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/octavo/octavo.cls:${PORTSDIR}/print/texlive-octavo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/oldstyle/oldstyle.sty:${PORTSDIR}/print/texlive-oldstyle \

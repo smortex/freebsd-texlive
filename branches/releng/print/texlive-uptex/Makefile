@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	uptex
-PORTVERSION=	20120918
+PORTVERSION=	20120929
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The uptex package
+COMMENT=	Unicode version of pTeX.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/ptex/base/ptex.tex:${PORTSDIR}/print/texlive-ptex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8 \

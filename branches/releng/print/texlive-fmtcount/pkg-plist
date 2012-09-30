@@ -6,7 +6,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/fmtcount/fmtcount.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/fmtcount/fmtcount.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/fmtcount/fmtcount.ins
-%%PORTSRC%%share/texmf-dist/source/latex/fmtcount/fmtcount.perl
 share/texmf-dist/tex/latex/fmtcount/fc-UKenglish.def
 share/texmf-dist/tex/latex/fmtcount/fc-USenglish.def
 share/texmf-dist/tex/latex/fmtcount/fc-american.def

@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgx/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgx/demo-ocgx.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgx/demo-ocgx.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgx/ocgx-example-1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgx/ocgx-manual-en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocgx/ocgx-manual-en.tex
+share/texmf-dist/tex/latex/ocgx/ocgx.sty
+share/texmf-dist/tex/latex/ocgx/tikzlibraryocgx.code.tex
+@dirrmtry share/texmf-dist/tex/latex/ocgx
+@dirrmtry share/texmf-dist/doc/latex/ocgx
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
