@@ -9,6 +9,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/RELEASE042.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/RELEASE043.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/RELEASE044.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/RELEASE051.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/SrcFILEs.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/demo/arseneau.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/demo/iso.txt
@@ -50,6 +51,7 @@ share/texmf-dist/tex/latex/nicetext/run/makedoc.tpl
 share/texmf-dist/tex/latex/nicetext/run/sample.txt
 share/texmf-dist/tex/latex/nicetext/run/substr.tex
 share/texmf-dist/tex/latex/nicetext/run/u8atablg.fdf
+share/texmf-dist/tex/latex/nicetext/stacklet.sty
 share/texmf-dist/tex/latex/nicetext/wiki.sty
 @dirrmtry share/texmf-dist/tex/latex/nicetext/run
 @dirrmtry share/texmf-dist/tex/latex/nicetext

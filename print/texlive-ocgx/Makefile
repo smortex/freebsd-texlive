@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-mathastext
-# Date created:		01/30/2011 04:57:10
+# New ports collection makefile for:	texlive-ocgx
+# Date created:		09/30/2012 05:10:16
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	mathastext
+PORTNAME=	ocgx
 PORTVERSION=	20120929
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use the text font in simple mathematics.
+COMMENT=	The ocgx package
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
