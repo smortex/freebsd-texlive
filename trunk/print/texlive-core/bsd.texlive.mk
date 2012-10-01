@@ -1,21 +1,17 @@
 
 PORTVERSION?=		20110705
-MASTER_SITES?=		${MASTER_SITE_TEX_CTAN}
-MASTER_SITE_SUBDIR?=	systems/texlive/tlnet/archive
+MASTER_SITES?=		http://texlive-distfiles.blogreen.org/
 DIST_SUBDIR=		TeXLive
 PKGNAMEPREFIX=		texlive-
-#DISTNAME=		${PORTNAME}
 
 RUN_DEPENDS+=		mktexlsr:${PORTSDIR}/print/texlive-core
 
-MASTER_SITE_TEX_CTAN+=	http://distrib-coffee.ipsl.jussieu.fr/pub/mirrors/ctan/%SUBDIR%/
-
-DISTFILES=		${PORTNAME}${EXTRACT_SUFX}
+DISTFILES=		${PORTNAME}-${PORTVERSION}${EXTRACT_SUFX}
 .if !defined(NOPORTDOCS)
-DISTFILES+=		${PORTNAME}.doc${EXTRACT_SUFX}
+DISTFILES+=		${PORTNAME}.doc-${PORTVERSION}${EXTRACT_SUFX}
 .endif
 .if !defined(NOPORTSRC)
-DISTFILES+=		${PORTNAME}.source${EXTRACT_SUFX}
+DISTFILES+=		${PORTNAME}.source-${PORTVERSION}${EXTRACT_SUFX}
 PLIST_SUB+=		PORTSRC=""
 .else
 PLIST_SUB+=		PORTSRC="@comment"
