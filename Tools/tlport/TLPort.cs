@@ -52,7 +52,7 @@ namespace TeXLive
 
 		private static void ShowHelp (NDesk.Options.OptionSet options)
 		{
-			Console.WriteLine("Usage: {0} [OPTIONS]+ <tlpobjdir> <portsdir>", AssemblyName());
+			Console.WriteLine("Usage: {0} [OPTIONS]+ <tlpobjdir> <portsdir> <distdir>", AssemblyName());
 			Console.WriteLine("Generate TeXLive FreeBSD ports");
 			Console.WriteLine();
 			Console.WriteLine("Options:");
@@ -87,12 +87,12 @@ namespace TeXLive
 				return 0;
 			}
 			
-			if (extra.Count != 2) {
+			if (extra.Count != 3) {
 				ShowHelp (p);
 				return 1;
 			}
 
-			PackageCollection packages = new PackageCollection (extra[0], extra[1]);
+			PackageCollection packages = new PackageCollection (extra[0], extra[1], extra[2]);
 
 			if (Verbosity > 0)
 				Console.Error.WriteLine("===> Building package list (this takes a while)");

@@ -41,11 +41,16 @@ namespace TeXLive
 		public string PortsDir {
 			get; set;
 		}
+
+		public string DistDir {
+			get; set;
+		}
 		
-		public PackageCollection (string TlpObjDir, string PortsDir)
+		public PackageCollection (string TlpObjDir, string PortsDir, string DistDir)
 		{
 			this.TlpObjDir = TlpObjDir;
 			this.PortsDir = PortsDir;
+			this.DistDir = DistDir;
 			
 			moved = new MovedFile (System.IO.Path.Combine (PortsDir, "MOVED"));
 		}
