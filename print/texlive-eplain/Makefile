@@ -12,7 +12,7 @@ CATEGORIES=	print
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Extended plain tex macros.
 
-RUN_DEPENDS=	${LOCALBASE}/share/texmf/fonts/map/pdftex/updmap/pdftex.map:${PORTSDIR}/print/texlive-pdftex \
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/simpdftex/simpdftex:${PORTSDIR}/print/texlive-pdftex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
 
