@@ -99,7 +99,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-phys/phys.bbx:${PORTSDIR}/print/texlive-biblatex-phys \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-science/science.bbx:${PORTSDIR}/print/texlive-biblatex-science \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-swiss-legal/biblatex-swiss-legal-fr.lbx:${PORTSDIR}/print/texlive-biblatex-swiss-legal \
-		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-trad/trad-abbrv.bbx:${PORTSDIR}/print/texlive-biblatex-trad \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-trad/bbx/trad-abbrv.bbx:${PORTSDIR}/print/texlive-biblatex-trad \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblist/biblist.sty:${PORTSDIR}/print/texlive-biblist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibtopic/bibtopic.sty:${PORTSDIR}/print/texlive-bibtopic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibtopicprefix/bibtopicprefix.sty:${PORTSDIR}/print/texlive-bibtopicprefix \
@@ -334,6 +334,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/kurier/kurier.sty:${PORTSDIR}/print/texlive-kurier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lato/lato.sty:${PORTSDIR}/print/texlive-lato \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/lfb/accents.mf:${PORTSDIR}/print/texlive-lfb \
+		${LOCALBASE}/share/texmf-dist/tex/latex/libertine/libertine.sty:${PORTSDIR}/print/texlive-libertine \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libertine-type1/libertine-type1.sty:${PORTSDIR}/print/texlive-libertine-type1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libertineotf/libertineotf.sty:${PORTSDIR}/print/texlive-libertineotf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libris/libris.sty:${PORTSDIR}/print/texlive-libris \
@@ -1360,6 +1361,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/ntheorem/ntheorem.sty:${PORTSDIR}/print/texlive-ntheorem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/numname/numname.sty:${PORTSDIR}/print/texlive-numname \
 		${LOCALBASE}/share/texmf-dist/tex/latex/numprint/numprint.sty:${PORTSDIR}/print/texlive-numprint \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ocgx/ocgx.sty:${PORTSDIR}/print/texlive-ocgx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ocr-latex/ocr.sty:${PORTSDIR}/print/texlive-ocr-latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/octavo/octavo.cls:${PORTSDIR}/print/texlive-octavo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/oldstyle/oldstyle.sty:${PORTSDIR}/print/texlive-oldstyle \
