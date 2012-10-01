@@ -35,7 +35,7 @@ namespace TeXLive
 	public abstract class Package: IPackage
 	{
 		protected string name;
-		protected string version;
+		protected int version;
 		protected int epoch;
 		protected string short_description;
 		protected string long_description;
@@ -191,6 +191,8 @@ namespace TeXLive
 			List<string> header = new List<string> ();
 			
 			string makefile_path = System.IO.Path.Combine(PortDirectory, "Makefile");
+
+			int oldversion = 0;
 			
 			// If there is alread a Makefile, copy it's header
 			if (System.IO.File.Exists (makefile_path)) {
@@ -204,10 +206,15 @@ namespace TeXLive
 						read_header = false;
 						if (line.StartsWith ("PORTEPOCH=\t"))
 							epoch = int.Parse (line.Split ('\t')[1]);
+						if (line.StartsWith ("PORTVERSION=\t"))
+							oldversion = int.Parse (line.Split ('\t')[1]);
 					}
 				}
 				old_makefile.Close ();
 			}
+
+			if (oldversion > version)
+				epoch++;
 			
 			// Create the new makefile
 			System.IO.StreamWriter makefile = new System.IO.StreamWriter(makefile_path);
@@ -508,8 +515,9 @@ namespace TeXLive
 
 			string FileName = System.IO.Path.Combine(collection.TlpObjDir, PackageName + ".tlpobj");
 			System.IO.StreamReader tlobj = new System.IO.StreamReader(FileName, true);
-			
-			version = System.IO.File.GetCreationTimeUtc (FileName).ToString ("yyyyMMdd");
+
+			string Distfile = System.IO.Path.Combine (collection.DistDir, PackageName + ".tar.xz");
+			version = int.Parse (System.IO.File.GetLastWriteTimeUtc (Distfile).ToString ("yyyyMMdd"));
 			epoch = 0;
 
 			// Read package information
