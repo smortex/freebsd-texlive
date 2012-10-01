@@ -63,7 +63,6 @@ print/texlive-shadbox||2010-12-21|Upstream support dropped
 print/texlive-sprite||2010-12-21|Upstream support dropped
 print/texlive-tracking||2010-12-21|Upstream support dropped
 print/texlive-jhep||2010-12-24|Upstream support dropped
-print/texlive-ucharclasses||2010-12-25|Upstream support dropped
 print/texlive-acmtrans||2011-01-08|Upstream support dropped
 print/texlive-ytex||2011-01-08|Upstream support dropped
 print/texlive-zefonts||2011-01-08|Upstream support dropped
@@ -121,7 +120,6 @@ print/texlive-cookybooky||2012-02-17|Upstream support dropped
 print/texlive-xcookybooky||2012-02-17|Upstream support dropped
 print/texlive-itrans||2012-02-26|Upstream support dropped
 print/texlive-mftoeps||2012-03-15|Upstream support dropped
-print/texlive-libertine||2012-04-12|Upstream support dropped
 print/texlive-taupin||2012-04-12|Upstream support dropped
 print/texlive-jeopardy||2012-04-15|Upstream support dropped
 print/texlive-fundus||2012-04-19|Upstream support dropped
