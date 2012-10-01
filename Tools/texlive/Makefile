@@ -13,8 +13,7 @@ COREDIR?=	${FTLROOT}/trunk/print/texlive-core
 DISTDIR?=	${FTLROOT}/distfiles
 
 # Don't forget to build it.
-#TLPORT?=	${FTLROOT}/trunk/Tools/tlport/bin/Debug/tlport.exe
-TLPORT?=	${FTLROOT}/trunk/Tools/tlport/TLPort.exe
+TLPORT?=	${FTLROOT}/trunk/Tools/tlport/bin/Debug/tlport.exe
 
 # -------------------------------------------------------------------------
 
@@ -24,7 +23,8 @@ FTLMIRROR?=	rsync://distrib-coffee.ipsl.jussieu.fr/pub/mirrors/ctan/systems/texl
 # -------------------------------------------------------------------------
 
 # Changing this with no good reason to do so will break this Makefile:
-FETCHDIR?=	${DISTDIR}/TeXLive
+FETCHDIR?=	${DISTDIR}/mirror
+PUBLICDIR?=	${DISTDIR}/TeXLive
 PORTSDIR?=	/usr/ports
 RELENGDIR?=	${FTLROOT}/branches/releng
 SVNROOT?=	https://freebsd-texlive.googlecode.com/svn
@@ -48,19 +48,20 @@ help:
 	@echo "   ${MAKE} update"
 	@echo
 	@echo "Other targets (targets with a * are executed as part of update"
-	@echo "  - clean*   -- Remove extracted metadata;"
-	@echo "  - mrproper -- Remove generated ports (breaks VCS information);"
-	@echo "  - fetch*   -- Mirror TeXLive distfiles locally;"
-	@echo "  - extract* -- Extracts TeXLive package infromations;"
-	@echo "  - link*    -- Create the texlive-core link in the releng branch;"
-	@echo "  - build*   -- Create or update ports in the releng branch;"
-	@echo "  - rmlink*  -- Remove the texlive-core link from the releng branch;"
-	@echo "  - copy     -- Copy ports to the system's ports tree;"
-	@echo "  - resum    -- Update ports the old buggy way (but fast);"
-	@echo "  - commit*  -- Push branch modifications."
+	@echo "  - clean*      -- Remove extracted metadata;"
+	@echo "  - mrproper    -- Remove generated ports (breaks VCS information);"
+	@echo "  - fetch*      -- Mirror TeXLive distfiles locally;"
+	@echo "  - extract*    -- Extracts TeXLive package infromations;"
+	@echo "  - versionify* -- Add version information to distfiles;"
+	@echo "  - link*       -- Create the texlive-core link in the releng branch;"
+	@echo "  - build*      -- Create or update ports in the releng branch;"
+	@echo "  - rmlink*     -- Remove the texlive-core link from the releng branch;"
+	@echo "  - copy        -- Copy ports to the system's ports tree;"
+	@echo "  - resum       -- Update ports the old buggy way (but fast);"
+	@echo "  - commit*     -- Push branch modifications."
 
 update:
-	@${MAKE} clean fetch extract link build rmlink commit
+	@${MAKE} clean fetch extract versionify link build rmlink commit
 
 # -------------------------------------------------------------------------
 
@@ -80,7 +81,17 @@ fetch:
 .ifdef V
 	@echo "===>  Updating source tarballs..."
 .endif
-	@cd ${FETCHDIR} && rsync ${RSYNC_VERBOSE} -a -c --no-motd --delete ${FTLMIRROR} .
+	@cd ${FETCHDIR} && rsync ${RSYNC_VERBOSE} -a --no-motd --delete ${FTLMIRROR} .
+
+versionify:
+.ifdef V
+	@echo "===>  Adding version information to source tarballs..."
+.endif
+	@mkdir -p ${PUBLICDIR}
+	@find ${FETCHDIR} -type f -name '*.tar.xz' | while read file; do \
+	    version=`stat -f '%Sm' -t '%Y%m%d' $${file}`; \
+	    cp -p "$${file}" "$$(echo -n "$${file}" | sed -Ee "s|${FETCHDIR}|${PUBLICDIR}|" -e "s|^(.*)(\\.tar\\.xz)$$|\1-$${version}\2|")"; \
+	done
 
 extract:
 .ifdef V
@@ -99,7 +110,7 @@ build:
 .ifdef V
 	@echo "===>  Generating all ports..."
 .endif
-	@env DISTDIR="${DISTDIR}" DISABLE_VULNERABILITIES="yes" DISABLE_LICENSES="yes" mono --debug ${TLPORT} ${TLPORT_FLAGS} ${.CURDIR}/tlpkg/tlpobj ${RELENGDIR}
+	@env DISTDIR="${DISTDIR}" DISABLE_VULNERABILITIES="yes" DISABLE_LICENSES="yes" mono --debug ${TLPORT} ${TLPORT_FLAGS} ${.CURDIR}/tlpkg/tlpobj ${RELENGDIR} ${FETCHDIR}
 
 rmlink:
 .ifdef V
