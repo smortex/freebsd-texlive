@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/abraces/abraces-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/abraces/abraces-doc.tex
+share/texmf-dist/tex/latex/abraces/abraces.sty
+@dirrmtry share/texmf-dist/tex/latex/abraces
+@dirrmtry share/texmf-dist/doc/latex/abraces
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

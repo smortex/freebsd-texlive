@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-ocgx
-# Date created:		09/30/2012 05:10:16
+# New ports collection makefile for:	texlive-abraces
+# Date created:		10/06/2012 04:57:11
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	ocgx
+PORTNAME=	abraces
 PORTVERSION=	20121005
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use OCGs within a PDF document without JavaScript.
+COMMENT=	Asymmetric over-/underbraces in maths.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
