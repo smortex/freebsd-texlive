@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20120929
+PORTVERSION=	20121005
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -222,6 +222,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/a0poster/a0poster.cls:${PORTSDIR}/print/texlive-a0poster \
 		${LOCALBASE}/share/texmf-dist/tex/latex/a4wide/a4wide.sty:${PORTSDIR}/print/texlive-a4wide \
 		${LOCALBASE}/share/texmf-dist/tex/latex/a5comb/a5comb.sty:${PORTSDIR}/print/texlive-a5comb \
+		${LOCALBASE}/share/texmf-dist/tex/latex/abraces/abraces.sty:${PORTSDIR}/print/texlive-abraces \
 		${LOCALBASE}/share/texmf-dist/tex/latex/abstract/abstract.sty:${PORTSDIR}/print/texlive-abstract \
 		${LOCALBASE}/share/texmf-dist/tex/latex/achemso/achemso.cls:${PORTSDIR}/print/texlive-achemso \
 		${LOCALBASE}/share/texmf-dist/tex/latex/acro/acro.sty:${PORTSDIR}/print/texlive-acro \
