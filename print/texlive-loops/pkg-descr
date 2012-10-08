@@ -1,0 +1,4 @@
+The package provides efficient looping macros for processing
+both csv (separated-values) and nsv/tsv (non-separated values)
+lists. Csv lists which have associated parsers may be processed
+with the tools of the package.

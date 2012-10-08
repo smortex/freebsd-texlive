@@ -717,7 +717,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/index/index.sty:${PORTSDIR}/print/texlive-index \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jknapltx/greekctr.sty:${PORTSDIR}/print/texlive-jknapltx \
 		${LOCALBASE}/share/texmf-dist/doc/latex/koma-script/INSTALL.txt:${PORTSDIR}/print/texlive-koma-script \
-		${LOCALBASE}/share/texmf-dist/tex/latex/l3kernel/expl3.sty:${PORTSDIR}/print/texlive-l3kernel \
+		${LOCALBASE}/share/texmf-dist/makeindex/l3kernel/l3doc.ist:${PORTSDIR}/print/texlive-l3kernel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty:${PORTSDIR}/print/texlive-l3packages \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3experimental/l3dt/l3dt.sty:${PORTSDIR}/print/texlive-l3experimental \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listings/listings.sty:${PORTSDIR}/print/texlive-listings \
@@ -847,6 +847,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/a0poster/a0poster.cls:${PORTSDIR}/print/texlive-a0poster \
 		${LOCALBASE}/share/texmf-dist/tex/latex/a4wide/a4wide.sty:${PORTSDIR}/print/texlive-a4wide \
 		${LOCALBASE}/share/texmf-dist/tex/latex/a5comb/a5comb.sty:${PORTSDIR}/print/texlive-a5comb \
+		${LOCALBASE}/share/texmf-dist/tex/latex/abraces/abraces.sty:${PORTSDIR}/print/texlive-abraces \
 		${LOCALBASE}/share/texmf-dist/tex/latex/abstract/abstract.sty:${PORTSDIR}/print/texlive-abstract \
 		${LOCALBASE}/share/texmf-dist/tex/latex/achemso/achemso.cls:${PORTSDIR}/print/texlive-achemso \
 		${LOCALBASE}/share/texmf-dist/tex/latex/acro/acro.sty:${PORTSDIR}/print/texlive-acro \
@@ -1252,7 +1253,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/logbox/logbox.sty:${PORTSDIR}/print/texlive-logbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/logical-markup-utils/onedash.sty:${PORTSDIR}/print/texlive-logical-markup-utils \
 		${LOCALBASE}/share/texmf-dist/tex/latex/logpap/logpap.sty:${PORTSDIR}/print/texlive-logpap \
-		${LOCALBASE}/share/texmf-dist/tex/latex/longnamefilelist/lonaflst.sty:${PORTSDIR}/print/texlive-longnamefilelist \
+		${LOCALBASE}/share/texmf-dist/tex/latex/longnamefilelist/longnamefilelist.sty:${PORTSDIR}/print/texlive-longnamefilelist \
+		${LOCALBASE}/share/texmf-dist/tex/latex/loops/loops.sty:${PORTSDIR}/print/texlive-loops \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lsc/lsc.sty:${PORTSDIR}/print/texlive-lsc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lstaddons/lstautogobble.sty:${PORTSDIR}/print/texlive-lstaddons \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltabptch/ltabptch.sty:${PORTSDIR}/print/texlive-ltabptch \
