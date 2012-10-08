@@ -5,7 +5,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-type1/LICENCE.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-type1/OFL-1.1.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-type1/README
-%%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-type1/Readme-TEX.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-type1/ToDo.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-type1/samples.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine-type1/samples.tex
@@ -211,12 +210,6 @@ share/texmf-dist/fonts/enc/dvips/libertine-type1/a_zxvhqu.enc
 share/texmf-dist/fonts/enc/dvips/libertine-type1/a_zycpkp.enc
 share/texmf-dist/fonts/enc/dvips/libertine-type1/a_zzhupw.enc
 share/texmf-dist/fonts/map/dvips/libertine-type1/libertine-type1.map
-share/texmf-dist/fonts/otf/public/libertine-type1/LinLibertine_R.otf
-share/texmf-dist/fonts/otf/public/libertine-type1/LinLibertine_RB.otf
-share/texmf-dist/fonts/otf/public/libertine-type1/LinLibertine_RBI.otf
-share/texmf-dist/fonts/otf/public/libertine-type1/LinLibertine_RI.otf
-share/texmf-dist/fonts/otf/public/libertine-type1/LinLibertine_RZ.otf
-share/texmf-dist/fonts/otf/public/libertine-type1/LinLibertine_RZI.otf
 share/texmf-dist/fonts/tfm/public/libertine-type1/LinLibertineO-lf-ly1--base.tfm
 share/texmf-dist/fonts/tfm/public/libertine-type1/LinLibertineO-lf-ly1.tfm
 share/texmf-dist/fonts/tfm/public/libertine-type1/LinLibertineO-lf-ot1--base.tfm
@@ -1009,7 +1002,6 @@ share/texmf-dist/tex/latex/libertine-type1/libertine-type1.sty
 @dirrmtry share/texmf-dist/fonts/vf/public/libertine-type1
 @dirrmtry share/texmf-dist/fonts/type1/public/libertine-type1
 @dirrmtry share/texmf-dist/fonts/tfm/public/libertine-type1
-@dirrmtry share/texmf-dist/fonts/otf/public/libertine-type1
 @dirrmtry share/texmf-dist/fonts/map/dvips/libertine-type1
 @dirrmtry share/texmf-dist/fonts/enc/dvips/libertine-type1
 @dirrmtry share/texmf-dist/doc/fonts/libertine-type1

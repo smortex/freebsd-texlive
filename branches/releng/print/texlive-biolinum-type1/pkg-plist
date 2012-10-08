@@ -5,7 +5,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/biolinum-type1/LICENCE.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/biolinum-type1/OFL-1.1.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/biolinum-type1/README
-%%PORTDOCS%%share/texmf-dist/doc/fonts/biolinum-type1/Readme-TEX.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/biolinum-type1/ToDo.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/biolinum-type1/samples.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/biolinum-type1/samples.tex
@@ -77,9 +76,6 @@ share/texmf-dist/fonts/enc/dvips/biolinum-type1/a_xeech7.enc
 share/texmf-dist/fonts/enc/dvips/biolinum-type1/a_xz74p6.enc
 share/texmf-dist/fonts/enc/dvips/biolinum-type1/a_zacdtl.enc
 share/texmf-dist/fonts/map/dvips/biolinum-type1/biolinum-type1.map
-share/texmf-dist/fonts/otf/public/biolinum-type1/LinBiolinum_R.otf
-share/texmf-dist/fonts/otf/public/biolinum-type1/LinBiolinum_RB.otf
-share/texmf-dist/fonts/otf/public/biolinum-type1/LinBiolinum_RI.otf
 share/texmf-dist/fonts/tfm/public/biolinum-type1/LinBiolinumO-lf-ly1--base.tfm
 share/texmf-dist/fonts/tfm/public/biolinum-type1/LinBiolinumO-lf-ly1.tfm
 share/texmf-dist/fonts/tfm/public/biolinum-type1/LinBiolinumO-lf-ot1--base.tfm
@@ -506,7 +502,6 @@ share/texmf-dist/tex/latex/biolinum-type1/biolinum-type1.sty
 @dirrmtry share/texmf-dist/fonts/vf/public/biolinum-type1
 @dirrmtry share/texmf-dist/fonts/type1/public/biolinum-type1
 @dirrmtry share/texmf-dist/fonts/tfm/public/biolinum-type1
-@dirrmtry share/texmf-dist/fonts/otf/public/biolinum-type1
 @dirrmtry share/texmf-dist/fonts/map/dvips/biolinum-type1
 @dirrmtry share/texmf-dist/fonts/enc/dvips/biolinum-type1
 @dirrmtry share/texmf-dist/doc/fonts/biolinum-type1
