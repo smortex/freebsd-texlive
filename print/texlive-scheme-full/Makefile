@@ -347,7 +347,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdputu/mdputu.sty:${PORTSDIR}/print/texlive-mdputu \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdsymbol/mdsymbol.sty:${PORTSDIR}/print/texlive-mdsymbol \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc:${PORTSDIR}/print/texlive-mnsymbol \
-		${LOCALBASE}/share/texmf-dist/fonts/enc/public/newtx/alt-mn-greek.enc:${PORTSDIR}/print/texlive-newtx \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/newtx/alt-mn-greek.enc:${PORTSDIR}/print/texlive-newtx \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/nkarta/nkarta.mf:${PORTSDIR}/print/texlive-nkarta \
 		${LOCALBASE}/share/texmf-dist/tex/lambda/ocherokee/ocherokee.sty:${PORTSDIR}/print/texlive-ocherokee \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/ocr-b/ocrb10.mf:${PORTSDIR}/print/texlive-ocr-b \
@@ -529,6 +529,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/ecltree/ecltree.sty:${PORTSDIR}/print/texlive-ecltree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/edfnotes/edfnotes.sty:${PORTSDIR}/print/texlive-edfnotes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ednotes/ednotes.sty:${PORTSDIR}/print/texlive-ednotes \
+		${LOCALBASE}/share/texmf-dist/tex/latex/eledform/eledform.sty:${PORTSDIR}/print/texlive-eledform \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eledmac/eledmac.sty:${PORTSDIR}/print/texlive-eledmac \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gb4e/gb4e.sty:${PORTSDIR}/print/texlive-gb4e \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmverse/gmverse.sty:${PORTSDIR}/print/texlive-gmverse \
@@ -1710,7 +1711,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/luatex/lualibs/lualibs-aux.lua:${PORTSDIR}/print/texlive-lualibs \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luamplib/luamplib.sty:${PORTSDIR}/print/texlive-luamplib \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luaotfload/luaotfload.sty:${PORTSDIR}/print/texlive-luaotfload \
-		${LOCALBASE}/share/texmf-dist/tex/lualatex/luapersian/luapersian.sty:${PORTSDIR}/print/texlive-luapersian \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luasseq/luasseq.sty:${PORTSDIR}/print/texlive-luasseq \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexbase/luatexbase.sty:${PORTSDIR}/print/texlive-luatexbase \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luatextra/luatextra.sty:${PORTSDIR}/print/texlive-luatextra \

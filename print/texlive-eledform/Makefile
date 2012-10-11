@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-newtx
-# Date created:		05/12/2012 04:45:47
+# New ports collection makefile for:	texlive-eledform
+# Date created:		10/11/2012 04:53:48
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	newtx
+PORTNAME=	eledform
 PORTVERSION=	20121010
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Alternative uses of the TX fonts, with improved metrics.
+COMMENT=	Define textual variants.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
