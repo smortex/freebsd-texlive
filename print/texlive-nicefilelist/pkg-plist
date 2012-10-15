@@ -1,15 +1,14 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicefilelist/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicefilelist/SrcFILEs.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicefilelist/empty.f
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicefilelist/nicefilelist.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/nicefilelist/empty.f
-%%PORTSRC%%share/texmf-dist/source/latex/nicefilelist/nicefilelist.tex
-%%PORTSRC%%share/texmf-dist/source/latex/nicefilelist/provonly.fd
-%%PORTSRC%%share/texmf-dist/source/latex/nicefilelist/srcfiles.tex
-%%PORTSRC%%share/texmf-dist/source/latex/nicefilelist/wrong.prv
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicefilelist/nicefilelist.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicefilelist/provonly.fd
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicefilelist/srcfiles.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicefilelist/wrong.prv
 share/texmf-dist/tex/latex/nicefilelist/nicefilelist.RLS
 share/texmf-dist/tex/latex/nicefilelist/nicefilelist.sty
 @dirrmtry share/texmf-dist/tex/latex/nicefilelist
-@dirrmtry share/texmf-dist/source/latex/nicefilelist
 @dirrmtry share/texmf-dist/doc/latex/nicefilelist
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

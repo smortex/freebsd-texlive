@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20121007
+PORTVERSION=	20121014
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -459,6 +459,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/exp-testopt/exp-testopt.sty:${PORTSDIR}/print/texlive-exp-testopt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/expdlist/expdlist.sty:${PORTSDIR}/print/texlive-expdlist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/export/export.sty:${PORTSDIR}/print/texlive-export \
+		${LOCALBASE}/share/texmf-dist/tex/latex/exsheets/exsheets.sty:${PORTSDIR}/print/texlive-exsheets \
 		${LOCALBASE}/share/texmf-dist/tex/latex/extract/extract.sty:${PORTSDIR}/print/texlive-extract \
 		${LOCALBASE}/share/texmf-dist/tex/latex/facsimile/facsimile.cls:${PORTSDIR}/print/texlive-facsimile \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancynum/fancynum.sty:${PORTSDIR}/print/texlive-fancynum \

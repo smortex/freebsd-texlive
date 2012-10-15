@@ -1,0 +1,8 @@
+The package provides a class based on memoir to prepare theses
+and memoirs compliant with the presentation rules set forth by
+the Faculty of Graduate Studies of Universite Laval, Quebec,
+Canada. The class also comes with an extensive set of templates
+for the various types of theses and memoirs offered at Laval.
+Please note that the documentation for the class and the
+comments in the templates are all written in French, the
+language of the target audience.

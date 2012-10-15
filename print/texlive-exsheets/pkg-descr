@@ -1,0 +1,9 @@
+The package provides the means to create exercises or questions
+and their corresponding solutions. The questions may be divided
+into classes and/or topics and may be printed selectively.
+Meta-data to questions can be added and recovered. The
+solutions may be printed where they are, or collected and
+printed at a later point in the document all together, section-
+wise or selectively by ID. The package provides the means to
+selectively include questions from an external file, and to
+control the style of headings of both questions and solutions.

@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-nicefilelist
-# Date created:		03/28/2012 05:02:52
+# New ports collection makefile for:	texlive-pkuthss
+# Date created:		10/15/2012 05:17:45
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	nicefilelist
+PORTNAME=	pkuthss
 PORTVERSION=	20121014
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provide \listfiles alignment.
+COMMENT=	LaTeX template for dissertations in Peking University.
 
 NOPORTSRC=	yes
 
