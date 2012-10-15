@@ -1,0 +1,30 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulthese/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulthese/abstract.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulthese/annexe.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulthese/avantpropos.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulthese/chapitre1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulthese/chapitre2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulthese/conclusion.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulthese/gabarit-doctorat-cotutelle.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulthese/gabarit-doctorat-extension-UQO.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulthese/gabarit-doctorat-extension-UdeS.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulthese/gabarit-doctorat-mesure.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulthese/gabarit-doctorat-multifacultaire.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulthese/gabarit-doctorat.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulthese/gabarit-maitrise-extension-UQAC.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulthese/gabarit-maitrise-mesure.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulthese/gabarit-maitrise.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulthese/introduction.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulthese/remerciements.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulthese/resume.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ulthese/ulthese.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/ulthese/ulthese.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/ulthese/ulthese.ins
+share/texmf-dist/tex/latex/ulthese/ul_p.eps
+share/texmf-dist/tex/latex/ulthese/ul_p.pdf
+share/texmf-dist/tex/latex/ulthese/ulthese.cls
+@dirrmtry share/texmf-dist/tex/latex/ulthese
+@dirrmtry share/texmf-dist/source/latex/ulthese
+@dirrmtry share/texmf-dist/doc/latex/ulthese
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

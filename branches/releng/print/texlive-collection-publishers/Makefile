@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20120926
+PORTVERSION=	20121014
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -76,6 +76,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/onrannual/onrannual.cls:${PORTSDIR}/print/texlive-onrannual \
 		${LOCALBASE}/share/texmf-dist/tex/latex/opteng/opteng.sty:${PORTSDIR}/print/texlive-opteng \
 		${LOCALBASE}/share/texmf-dist/tex/latex/philosophersimprint/philosophersimprint.cls:${PORTSDIR}/print/texlive-philosophersimprint \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pkuthss/pkuthss.cls:${PORTSDIR}/print/texlive-pkuthss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/powerdot-FUBerlin/FUpowerdot.cls:${PORTSDIR}/print/texlive-powerdot-FUBerlin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pracjourn/pracjourn.cls:${PORTSDIR}/print/texlive-pracjourn \
 		${LOCALBASE}/share/texmf-dist/tex/latex/procIAGssymp/procIAGssymp.sty:${PORTSDIR}/print/texlive-procIAGssymp \
@@ -107,6 +108,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucdavisthesis/ucdavisthesis.cls:${PORTSDIR}/print/texlive-ucdavisthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucthesis/ucthesis.cls:${PORTSDIR}/print/texlive-ucthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uiucthesis/uiucthesis.cls:${PORTSDIR}/print/texlive-uiucthesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ulthese/ulthese.cls:${PORTSDIR}/print/texlive-ulthese \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umthesis/umthesis.cls:${PORTSDIR}/print/texlive-umthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umich-thesis/umich-thesis.cls:${PORTSDIR}/print/texlive-umich-thesis \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/unamthesis/UNAMThesis.bst:${PORTSDIR}/print/texlive-unamthesis \

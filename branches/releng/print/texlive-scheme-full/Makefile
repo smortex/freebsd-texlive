@@ -83,6 +83,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex/biblatex.sty:${PORTSDIR}/print/texlive-biblatex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx:${PORTSDIR}/print/texlive-biblatex-apa \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-bwl/bwl-FU.bbx:${PORTSDIR}/print/texlive-biblatex-bwl \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-caspervector/biblatex-caspervector-gbk.def:${PORTSDIR}/print/texlive-biblatex-caspervector \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-chem/chem-acs.bbx:${PORTSDIR}/print/texlive-biblatex-chem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-chicago/biblatex-chicago.sty:${PORTSDIR}/print/texlive-biblatex-chicago \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-dw/bbx/authortitle-dw.bbx:${PORTSDIR}/print/texlive-biblatex-dw \
@@ -1085,6 +1086,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/exp-testopt/exp-testopt.sty:${PORTSDIR}/print/texlive-exp-testopt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/expdlist/expdlist.sty:${PORTSDIR}/print/texlive-expdlist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/export/export.sty:${PORTSDIR}/print/texlive-export \
+		${LOCALBASE}/share/texmf-dist/tex/latex/exsheets/exsheets.sty:${PORTSDIR}/print/texlive-exsheets \
 		${LOCALBASE}/share/texmf-dist/tex/latex/extract/extract.sty:${PORTSDIR}/print/texlive-extract \
 		${LOCALBASE}/share/texmf-dist/tex/latex/facsimile/facsimile.cls:${PORTSDIR}/print/texlive-facsimile \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancynum/fancynum.sty:${PORTSDIR}/print/texlive-fancynum \
@@ -1974,6 +1976,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/onrannual/onrannual.cls:${PORTSDIR}/print/texlive-onrannual \
 		${LOCALBASE}/share/texmf-dist/tex/latex/opteng/opteng.sty:${PORTSDIR}/print/texlive-opteng \
 		${LOCALBASE}/share/texmf-dist/tex/latex/philosophersimprint/philosophersimprint.cls:${PORTSDIR}/print/texlive-philosophersimprint \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pkuthss/pkuthss.cls:${PORTSDIR}/print/texlive-pkuthss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/powerdot-FUBerlin/FUpowerdot.cls:${PORTSDIR}/print/texlive-powerdot-FUBerlin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pracjourn/pracjourn.cls:${PORTSDIR}/print/texlive-pracjourn \
 		${LOCALBASE}/share/texmf-dist/tex/latex/procIAGssymp/procIAGssymp.sty:${PORTSDIR}/print/texlive-procIAGssymp \
@@ -2005,6 +2008,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucdavisthesis/ucdavisthesis.cls:${PORTSDIR}/print/texlive-ucdavisthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucthesis/ucthesis.cls:${PORTSDIR}/print/texlive-ucthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uiucthesis/uiucthesis.cls:${PORTSDIR}/print/texlive-uiucthesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ulthese/ulthese.cls:${PORTSDIR}/print/texlive-ulthese \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umthesis/umthesis.cls:${PORTSDIR}/print/texlive-umthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umich-thesis/umich-thesis.cls:${PORTSDIR}/print/texlive-umich-thesis \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/unamthesis/UNAMThesis.bst:${PORTSDIR}/print/texlive-unamthesis \

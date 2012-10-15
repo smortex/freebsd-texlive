@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-nicefilelist
-# Date created:		03/28/2012 05:02:52
+# New ports collection makefile for:	texlive-ulthese
+# Date created:		10/15/2012 05:18:17
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	nicefilelist
+PORTNAME=	ulthese
 PORTVERSION=	20121014
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provide \listfiles alignment.
+COMMENT=	Thesis class and templates for Universite Laval.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
