@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-ltxkeys
-# Date created:		07/28/2011 05:01:27
+# New ports collection makefile for:	texlive-actuarialangle
+# Date created:		10/19/2012 05:02:33
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	ltxkeys
+PORTNAME=	actuarialangle
 PORTVERSION=	20121018
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A robust key parser for LaTeX.
+COMMENT=	Symbol for use in "present value" statements of an annuity.
 
 NOPORTSRC=	yes
 

@@ -1,15 +1,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/xwatermark/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/xwatermark/tab-globaloptions.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/xwatermark/tab-localoptions.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/xwatermark/xwatermark-examples.cfg
-%%PORTDOCS%%share/texmf-dist/doc/latex/xwatermark/xwatermark-examples1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/xwatermark/xwatermark-examples1.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/xwatermark/xwatermark-examples2.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/xwatermark/xwatermark-examples2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/xwatermark/xwatermark-guide.cfg
 %%PORTDOCS%%share/texmf-dist/doc/latex/xwatermark/xwatermark-guide.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/xwatermark/xwatermark-guide.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/xwatermark/xwatermark-test-20120201.tex
 share/texmf-dist/tex/latex/xwatermark/xwatermark.sty
 @dirrmtry share/texmf-dist/tex/latex/xwatermark
 @dirrmtry share/texmf-dist/doc/latex/xwatermark

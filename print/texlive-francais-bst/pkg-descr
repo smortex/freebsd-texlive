@@ -1,0 +1,5 @@
+The package provides bibliographies (in French) conforming to
+the rules in "Guide de la communication ecrite" (Malo, M.,
+Quebec Amerique, 1996. ISBN 978-2-8903-7875-9) The BibTeX
+styles were generated using custom-bib and they are compatible
+with natbib

@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/setdeck/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/setdeck/setdeck.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/setdeck/setdeck.tex
+share/texmf-dist/tex/latex/setdeck/setdeck.sty
+@dirrmtry share/texmf-dist/tex/latex/setdeck
+@dirrmtry share/texmf-dist/doc/latex/setdeck
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
