@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20121014
+PORTVERSION=	20121018
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -190,6 +190,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/roundbox/roundbox.sty:${PORTSDIR}/print/texlive-roundbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rviewport/rviewport.sty:${PORTSDIR}/print/texlive-rviewport \
 		${LOCALBASE}/share/texmf-dist/tex/latex/schemabloc/schemabloc.sty:${PORTSDIR}/print/texlive-schemabloc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/setdeck/setdeck.sty:${PORTSDIR}/print/texlive-setdeck \
 		${LOCALBASE}/share/texmf-dist/tex/latex/swimgraf/swimgraf.sty:${PORTSDIR}/print/texlive-swimgraf \
 		${LOCALBASE}/share/texmf-dist/tex/generic/texdraw/texdraw.sty:${PORTSDIR}/print/texlive-texdraw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty:${PORTSDIR}/print/texlive-tikz-cd \
@@ -228,6 +229,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/acro/acro.sty:${PORTSDIR}/print/texlive-acro \
 		${LOCALBASE}/share/texmf-dist/tex/latex/acronym/acronym.sty:${PORTSDIR}/print/texlive-acronym \
 		${LOCALBASE}/share/texmf-dist/tex/latex/acroterm/acroterm.sty:${PORTSDIR}/print/texlive-acroterm \
+		${LOCALBASE}/share/texmf-dist/tex/latex/actuarialangle/actuarialangle.sty:${PORTSDIR}/print/texlive-actuarialangle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/addlines/addlines.sty:${PORTSDIR}/print/texlive-addlines \
 		${LOCALBASE}/share/texmf-dist/tex/latex/adjmulticol/adjmulticol.sty:${PORTSDIR}/print/texlive-adjmulticol \
 		${LOCALBASE}/share/texmf-dist/tex/latex/adjustbox/adjustbox.sty:${PORTSDIR}/print/texlive-adjustbox \

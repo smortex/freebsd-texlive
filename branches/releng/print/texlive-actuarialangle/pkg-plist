@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/actuarialangle/README
+share/texmf-dist/tex/latex/actuarialangle/actuarialangle.sty
+@dirrmtry share/texmf-dist/tex/latex/actuarialangle
+@dirrmtry share/texmf-dist/doc/latex/actuarialangle
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

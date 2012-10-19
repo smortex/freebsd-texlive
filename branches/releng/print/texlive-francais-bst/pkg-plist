@@ -1,0 +1,8 @@
+share/texmf-dist/bibtex/bst/francais-bst/francais.bst
+share/texmf-dist/bibtex/bst/francais-bst/francaissc.bst
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/francais-bst/README
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/francais-bst/francaisbst.tex
+@dirrmtry share/texmf-dist/doc/bibtex/francais-bst
+@dirrmtry share/texmf-dist/bibtex/bst/francais-bst
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
