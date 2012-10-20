@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-nicefilelist
-# Date created:		03/28/2012 05:02:52
+# New ports collection makefile for:	texlive-filedate
+# Date created:		10/20/2012 05:01:04
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	nicefilelist
+PORTNAME=	filedate
 PORTVERSION=	20121019
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provide \listfiles alignment.
+COMMENT=	The filedate package
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

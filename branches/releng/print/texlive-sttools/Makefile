@@ -6,13 +6,12 @@
 #
 
 PORTNAME=	sttools
-PORTVERSION=	20120528
+PORTVERSION=	20121019
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Various macros.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

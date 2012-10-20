@@ -1,11 +1,25 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/README.TEXLIVE
-%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/doc/cuted.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/doc/cuted.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/doc/floatpag.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/doc/floatpag.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/doc/flushend.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/doc/flushend.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/index.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/boundbox.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/cuted.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/floatpag.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/flushend.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/marginal.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/midfloat.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/stabular.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/stfloats.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/sttools.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sttools/texsort.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/sttools/boundbox.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/sttools/cuted.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/sttools/floatpag.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/sttools/flushend.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/sttools/marginal.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/sttools/midfloat.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/sttools/stabular.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/sttools/stfloats.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/sttools/sttools.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/sttools/sttools.ins
+%%PORTSRC%%share/texmf-dist/source/latex/sttools/texsort.dtx
 share/texmf-dist/tex/latex/sttools/boundbox.sty
 share/texmf-dist/tex/latex/sttools/cuted.sty
 share/texmf-dist/tex/latex/sttools/floatpag.sty
@@ -16,7 +30,7 @@ share/texmf-dist/tex/latex/sttools/stabular.sty
 share/texmf-dist/tex/latex/sttools/stfloats.sty
 share/texmf-dist/tex/latex/sttools/texsort.sty
 @dirrmtry share/texmf-dist/tex/latex/sttools
-@dirrmtry share/texmf-dist/doc/latex/sttools/doc
+@dirrmtry share/texmf-dist/source/latex/sttools
 @dirrmtry share/texmf-dist/doc/latex/sttools
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

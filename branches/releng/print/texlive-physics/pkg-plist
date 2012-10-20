@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/physics/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/physics/physics.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/physics/physics.tex
+share/texmf-dist/tex/latex/physics/physics.sty
+@dirrmtry share/texmf-dist/tex/latex/physics
+@dirrmtry share/texmf-dist/doc/latex/physics
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

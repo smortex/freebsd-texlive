@@ -6,12 +6,12 @@
 #
 
 PORTNAME=	pgfmolbio
-PORTVERSION=	20110921
+PORTVERSION=	20121019
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw graphs typically found in molevular biology texts.
+COMMENT=	Draw graphs typically found in molecular biology texts.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-science
-PORTVERSION=	20120923
+PORTVERSION=	20121019
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -56,6 +56,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIstyle/sistyle.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/mychemistry/mychemistry.sty:${PORTSDIR}/print/texlive-mychemistry \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nuc/nuc.sty:${PORTSDIR}/print/texlive-nuc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/objectz/oz.sty:${PORTSDIR}/print/texlive-objectz \
+		${LOCALBASE}/share/texmf-dist/tex/latex/physics/physics.sty:${PORTSDIR}/print/texlive-physics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/physymb/physymb.sty:${PORTSDIR}/print/texlive-physymb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pseudocode/pseudocode.sty:${PORTSDIR}/print/texlive-pseudocode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sasnrdisplay/SASnRdisplay.cfg:${PORTSDIR}/print/texlive-sasnrdisplay \
