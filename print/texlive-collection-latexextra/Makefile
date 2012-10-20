@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20121018
+PORTVERSION=	20121019
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -470,6 +470,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancytooltips/fancytooltips.sty:${PORTSDIR}/print/texlive-fancytooltips \
 		${LOCALBASE}/share/texmf-dist/tex/latex/figsize/figsize.sty:${PORTSDIR}/print/texlive-figsize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filecontents/filecontents.sty:${PORTSDIR}/print/texlive-filecontents \
+		${LOCALBASE}/share/texmf-dist/tex/latex/filedate/filedate.sty:${PORTSDIR}/print/texlive-filedate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filehook/filehook.sty:${PORTSDIR}/print/texlive-filehook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fileinfo/fileinfo.RLS:${PORTSDIR}/print/texlive-fileinfo \
 		${LOCALBASE}/share/texmf-dist/tex/generic/filemod/filemod.tex:${PORTSDIR}/print/texlive-filemod \

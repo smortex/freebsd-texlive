@@ -1,14 +1,15 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/README.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/README.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/RELEASE.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/SrcFILEs.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/inputtrc.RLS
 %%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/inputtrc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/inputtrc.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/inputtrc/srcfiles.tex
+%%PORTSRC%%share/texmf-dist/source/latex/inputtrc/README.tex
+%%PORTSRC%%share/texmf-dist/source/latex/inputtrc/inputtrc.tex
+%%PORTSRC%%share/texmf-dist/source/latex/inputtrc/srcfiles.tex
+share/texmf-dist/tex/latex/inputtrc/inputtrc.RLS
 share/texmf-dist/tex/latex/inputtrc/inputtrc.sty
 @dirrmtry share/texmf-dist/tex/latex/inputtrc
+@dirrmtry share/texmf-dist/source/latex/inputtrc
 @dirrmtry share/texmf-dist/doc/latex/inputtrc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
