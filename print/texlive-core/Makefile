@@ -30,7 +30,7 @@ GNU_CONFIGURE=	yes
 MAKE_ARGS+=	GNUMAKE="${GMAKE}" ARCH="arch/unix"
 USE_GMAKE=	yes
 USE_PERL5=	yes
-USE_XLIB=	yes
+USE_XORG=	x11 xaw xmu xp xproto
 USE_XZ=		yes
 
 MAN1=		afm2pl.1 afm2tfm.1 aleph.1 allcm.1 allneeded.1 amstex.1 \
