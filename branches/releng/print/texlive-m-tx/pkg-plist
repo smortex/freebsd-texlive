@@ -1,5 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/m-tx.1
-%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/m-tx.1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/m-tx.html
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/README
@@ -45,8 +44,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/title1.mtx
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/viva.mtx
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/volta.mtx
-%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/prepmx.1
-%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/prepmx.1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/prepmx.html
 share/texmf-dist/scripts/m-tx/Windows/m-tx.bat
 share/texmf-dist/scripts/m-tx/m-tx.lua
 share/texmf-dist/tex/generic/m-tx/mtx.tex
