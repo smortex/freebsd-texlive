@@ -151,6 +151,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/vak/vak.bst:${PORTSDIR}/print/texlive-vak \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xcite/xcite.sty:${PORTSDIR}/print/texlive-xcite \
 		${LOCALBASE}/share/texmf-dist/scripts/a2ping/a2ping.pl:${PORTSDIR}/print/texlive-a2ping \
+		${LOCALBASE}/share/texmf-dist/scripts/adhocfilelist/adhocfilelist.sh:${PORTSDIR}/print/texlive-adhocfilelist \
 		${LOCALBASE}/share/texmf/tex/latex/asymptote/asymptote.sty:${PORTSDIR}/print/texlive-asymptote \
 		${LOCALBASE}/share/texmf-dist/bibtex/csf/base/88591lat.csf:${PORTSDIR}/print/texlive-bibtex8 \
 		${LOCALBASE}/share/texmf-dist/scripts/bundledoc/arlatex:${PORTSDIR}/print/texlive-bundledoc \
@@ -1098,6 +1099,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancytooltips/fancytooltips.sty:${PORTSDIR}/print/texlive-fancytooltips \
 		${LOCALBASE}/share/texmf-dist/tex/latex/figsize/figsize.sty:${PORTSDIR}/print/texlive-figsize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filecontents/filecontents.sty:${PORTSDIR}/print/texlive-filecontents \
+		${LOCALBASE}/share/texmf-dist/tex/latex/filedate/filedate.sty:${PORTSDIR}/print/texlive-filedate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filehook/filehook.sty:${PORTSDIR}/print/texlive-filehook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fileinfo/fileinfo.RLS:${PORTSDIR}/print/texlive-fileinfo \
 		${LOCALBASE}/share/texmf-dist/tex/generic/filemod/filemod.tex:${PORTSDIR}/print/texlive-filemod \
@@ -2065,6 +2067,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/mychemistry/mychemistry.sty:${PORTSDIR}/print/texlive-mychemistry \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nuc/nuc.sty:${PORTSDIR}/print/texlive-nuc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/objectz/oz.sty:${PORTSDIR}/print/texlive-objectz \
+		${LOCALBASE}/share/texmf-dist/tex/latex/physics/physics.sty:${PORTSDIR}/print/texlive-physics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/physymb/physymb.sty:${PORTSDIR}/print/texlive-physymb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pseudocode/pseudocode.sty:${PORTSDIR}/print/texlive-pseudocode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sasnrdisplay/SASnRdisplay.cfg:${PORTSDIR}/print/texlive-sasnrdisplay \
