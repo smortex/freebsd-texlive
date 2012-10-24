@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-suftesi
-# Date created:		09/21/2010 11:58:08
+# New ports collection makefile for:	texlive-biblatex-publist
+# Date created:		10/24/2012 04:46:46
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	suftesi
+PORTNAME=	biblatex-publist
 PORTVERSION=	20121023
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A document class for typesetting theses, books and articles.
+COMMENT=	BibLaTeX bibliography support for publication lists.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

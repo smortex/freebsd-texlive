@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20121018
+PORTVERSION=	20121023
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -97,6 +97,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-nejm/nejm.bbx:${PORTSDIR}/print/texlive-biblatex-nejm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-philosophy/english-philosophy.lbx:${PORTSDIR}/print/texlive-biblatex-philosophy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-phys/phys.bbx:${PORTSDIR}/print/texlive-biblatex-phys \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-publist/publist.bbx:${PORTSDIR}/print/texlive-biblatex-publist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-science/science.bbx:${PORTSDIR}/print/texlive-biblatex-science \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-swiss-legal/biblatex-swiss-legal-fr.lbx:${PORTSDIR}/print/texlive-biblatex-swiss-legal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-trad/bbx/trad-abbrv.bbx:${PORTSDIR}/print/texlive-biblatex-trad \
