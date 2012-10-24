@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-publist/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-publist/biblatex-publist.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-publist/biblatex-publist.tex
+share/texmf-dist/tex/latex/biblatex-publist/publist.bbx
+@dirrmtry share/texmf-dist/tex/latex/biblatex-publist
+@dirrmtry share/texmf-dist/doc/latex/biblatex-publist
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

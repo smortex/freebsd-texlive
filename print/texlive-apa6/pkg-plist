@@ -1,6 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/apa6/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/apa6/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/apa6/apa6.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/apa6/pseudoTeX/TeX2WordForapa6.bas
 %%PORTDOCS%%share/texmf-dist/doc/latex/apa6/pseudoTeX/apa6.ptex
 %%PORTDOCS%%share/texmf-dist/doc/latex/apa6/samples/Figure1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/apa6/samples/bibliography.bib

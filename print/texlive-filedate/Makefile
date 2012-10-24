@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	filedate
-PORTVERSION=	20121019
+PORTVERSION=	20121023
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The filedate package
+COMMENT=	Access and compare info and modification dates.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
