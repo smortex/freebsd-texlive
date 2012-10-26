@@ -4,6 +4,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/fmtcount/fc-lang.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/fmtcount/fc-samp.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/fmtcount/fmtcount.pdf
+share/texmf-dist/scripts/fmtcount/fmtcount.perl
 %%PORTSRC%%share/texmf-dist/source/latex/fmtcount/fmtcount.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/fmtcount/fmtcount.ins
 share/texmf-dist/tex/latex/fmtcount/fc-UKenglish.def
@@ -26,6 +27,7 @@ share/texmf-dist/tex/latex/fmtcount/fcprefix.sty
 share/texmf-dist/tex/latex/fmtcount/fmtcount.sty
 @dirrmtry share/texmf-dist/tex/latex/fmtcount
 @dirrmtry share/texmf-dist/source/latex/fmtcount
+@dirrmtry share/texmf-dist/scripts/fmtcount
 @dirrmtry share/texmf-dist/doc/latex/fmtcount
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

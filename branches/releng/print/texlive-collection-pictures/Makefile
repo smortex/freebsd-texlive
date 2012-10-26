@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20121018
+PORTVERSION=	20121025
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -93,6 +93,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/asyfig/asyfig.sty:${PORTSDI
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty:${PORTSDIR}/print/texlive-tikz-timing \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpagenodes/tikzpagenodes.sty:${PORTSDIR}/print/texlive-tikzpagenodes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpfeile/tikzpfeile.sty:${PORTSDIR}/print/texlive-tikzpfeile \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikzposter/tikzposter.cls:${PORTSDIR}/print/texlive-tikzposter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tqft/tqft.sty:${PORTSDIR}/print/texlive-tqft \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-base/tkz-base.sty:${PORTSDIR}/print/texlive-tkz-base \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-berge/tkz-berge.sty:${PORTSDIR}/print/texlive-tkz-berge \
