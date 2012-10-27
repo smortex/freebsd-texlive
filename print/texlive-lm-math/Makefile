@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-fileinfo
-# Date created:		11/30/2010 04:53:16
+# New ports collection makefile for:	texlive-lm-math
+# Date created:		10/27/2012 04:47:42
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	fileinfo
+PORTNAME=	lm-math
 PORTVERSION=	20121026
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Enhanced display of LaTeX File Information.
+COMMENT=	OpenType maths fonts for Latin Modern.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
