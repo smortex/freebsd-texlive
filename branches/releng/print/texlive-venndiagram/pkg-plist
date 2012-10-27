@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/venndiagram/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/latex/venndiagram/INSTALL
+%%PORTDOCS%%share/texmf-dist/doc/latex/venndiagram/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/venndiagram/samples/venn-sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/venndiagram/samples/venn-sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/venndiagram/venndiagram.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/venndiagram/venndiagram.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/venndiagram/venndiagram.ins
+share/texmf-dist/tex/latex/venndiagram/venndiagram.sty
+@dirrmtry share/texmf-dist/tex/latex/venndiagram
+@dirrmtry share/texmf-dist/source/latex/venndiagram
+@dirrmtry share/texmf-dist/doc/latex/venndiagram/samples
+@dirrmtry share/texmf-dist/doc/latex/venndiagram
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

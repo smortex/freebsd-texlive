@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/GUST-FONT-LICENSE.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/INSTALL.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/MANIFEST-Latin-Modern-Math.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/README-Latin-Modern-Math.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/math-test-context.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/math-test.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-context-lmodern_math.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-context-lmodern_math.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-lualatex-lmodern_math.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-lualatex-lmodern_math.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-word-lmodern_math.docx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-word-lmodern_math.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-xelatex-lmodern_math.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-xelatex-lmodern_math.tex
+share/texmf-dist/fonts/opentype/public/lm-math/lmodern-math.otf
+@dirrmtry share/texmf-dist/fonts/opentype/public/lm-math
+@dirrmtry share/texmf-dist/doc/fonts/lm-math
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,15 +1,29 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/GUST-FONT-LICENSE.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/INSTALL.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/MANIFEST-TeX-Gyre-Pagella-Math.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/MANIFEST-TeX-Gyre-Termes-Math.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/README-TeX-Gyre-Pagella-Math.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/README-TeX-Gyre-Termes-Math.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/math-test-context.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/math-test.tex
-%%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/presentation-tg_pagella_math.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/test-context-tg_pagella_math.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/test-context-tg_pagella_math.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/test-context-tg_termes_math.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/test-context-tg_termes_math.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/test-lualatex-tg_pagella_math.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/test-lualatex-tg_pagella_math.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/test-lualatex-tg_termes_math.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/test-lualatex-tg_termes_math.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/test-word-tg_pagella_math.docx
 %%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/test-word-tg_pagella_math.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/test-word-tg_termes_math.docx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/test-word-tg_termes_math.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/test-xelatex-tg_pagella_math.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/test-xelatex-tg_pagella_math.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/test-xelatex-tg_termes_math.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/test-xelatex-tg_termes_math.tex
 share/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyrepagella-math.otf
+share/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyretermes-math.otf
 @dirrmtry share/texmf-dist/fonts/opentype/public/tex-gyre-math
 @dirrmtry share/texmf-dist/doc/fonts/tex-gyre-math
 @exec %D/bin/mktexlsr
