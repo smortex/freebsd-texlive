@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikzscale/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikzscale/linewidth.tikz
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikzscale/pgfplots-test.tikz
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikzscale/test-tikzscale.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikzscale/test-tikzscale.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikzscale/testNode.tikz
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikzscale/testRectangle.tikz
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikzscale/testgraphic2D.tikz
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikzscale/tikzscale.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/tikzscale/tikzscale.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tikzscale/tikzscale.ins
+share/texmf-dist/tex/latex/tikzscale/tikzscale.sty
+@dirrmtry share/texmf-dist/tex/latex/tikzscale
+@dirrmtry share/texmf-dist/source/latex/tikzscale
+@dirrmtry share/texmf-dist/doc/latex/tikzscale
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

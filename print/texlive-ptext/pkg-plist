@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/ptext/README
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/ptext/ptext.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/ptext/ptext.tex
+share/texmf-dist/tex/xelatex/ptext/ptext.sty
+@dirrmtry share/texmf-dist/tex/xelatex/ptext
+@dirrmtry share/texmf-dist/doc/xelatex/ptext
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

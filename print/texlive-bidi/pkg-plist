@@ -35,6 +35,7 @@ share/texmf-dist/tex/latex/bidi/artikel2-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/artikel3-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/arydshln-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/bibitem.pdf
+share/texmf-dist/tex/latex/bidi/bidi-longtable.sty
 share/texmf-dist/tex/latex/bidi/bidi.sty
 share/texmf-dist/tex/latex/bidi/bidi.tex
 share/texmf-dist/tex/latex/bidi/bidi2in1.sty
@@ -74,6 +75,7 @@ share/texmf-dist/tex/latex/bidi/extletter-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/extrafootnotefeatures.def
 share/texmf-dist/tex/latex/bidi/extreport-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/fancyhdr-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/fix2col-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/fleqn-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/float-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/flowfram-xetex-bidi.def

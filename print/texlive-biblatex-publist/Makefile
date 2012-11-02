@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	biblatex-publist
-PORTVERSION=	20121024
+PORTVERSION=	20121030
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

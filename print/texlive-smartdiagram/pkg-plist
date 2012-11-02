@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/smartdiagram/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/smartdiagram/smartdiagram.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/smartdiagram/smartdiagram.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/smartdiagram/smartdiagram.ins
+share/texmf-dist/tex/latex/smartdiagram/smartdiagram.sty
+@dirrmtry share/texmf-dist/tex/latex/smartdiagram
+@dirrmtry share/texmf-dist/source/latex/smartdiagram
+@dirrmtry share/texmf-dist/doc/latex/smartdiagram
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

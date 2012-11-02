@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20121019
+PORTVERSION=	20121031
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -148,6 +148,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/epspdfconversion/epspdfconversion.sty:${PORTSDIR}/print/texlive-epspdfconversion \
 		${LOCALBASE}/share/texmf-dist/tex/latex/esk/esk.sty:${PORTSDIR}/print/texlive-esk \
 		${LOCALBASE}/share/texmf-dist/scripts/fig4latex/fig4latex:${PORTSDIR}/print/texlive-fig4latex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/forest/forest.sty:${PORTSDIR}/print/texlive-forest \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gincltex/gincltex.sty:${PORTSDIR}/print/texlive-gincltex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gnuplottex/gnuplottex.sty:${PORTSDIR}/print/texlive-gnuplottex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gradientframe/gradientframe.sty:${PORTSDIR}/print/texlive-gradientframe \
@@ -191,6 +192,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/rviewport/rviewport.sty:${PORTSDIR}/print/texlive-rviewport \
 		${LOCALBASE}/share/texmf-dist/tex/latex/schemabloc/schemabloc.sty:${PORTSDIR}/print/texlive-schemabloc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/setdeck/setdeck.sty:${PORTSDIR}/print/texlive-setdeck \
+		${LOCALBASE}/share/texmf-dist/tex/latex/smartdiagram/smartdiagram.sty:${PORTSDIR}/print/texlive-smartdiagram \
 		${LOCALBASE}/share/texmf-dist/tex/latex/swimgraf/swimgraf.sty:${PORTSDIR}/print/texlive-swimgraf \
 		${LOCALBASE}/share/texmf-dist/tex/generic/texdraw/texdraw.sty:${PORTSDIR}/print/texlive-texdraw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty:${PORTSDIR}/print/texlive-tikz-cd \
@@ -201,6 +203,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty:${PORTSDIR}/print/texlive-tikz-timing \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpagenodes/tikzpagenodes.sty:${PORTSDIR}/print/texlive-tikzpagenodes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpfeile/tikzpfeile.sty:${PORTSDIR}/print/texlive-tikzpfeile \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikzposter/tikzposter.cls:${PORTSDIR}/print/texlive-tikzposter \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikzscale/tikzscale.sty:${PORTSDIR}/print/texlive-tikzscale \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tqft/tqft.sty:${PORTSDIR}/print/texlive-tqft \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-base/tkz-base.sty:${PORTSDIR}/print/texlive-tkz-base \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-berge/tkz-berge.sty:${PORTSDIR}/print/texlive-tkz-berge \
@@ -214,6 +218,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-tab/tkz-tab.sty:${PORTSDIR}/print/texlive-tkz-tab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tsemlines/tsemlines.sty:${PORTSDIR}/print/texlive-tsemlines \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tufte-latex/tufte-book.cls:${PORTSDIR}/print/texlive-tufte-latex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/venndiagram/venndiagram.sty:${PORTSDIR}/print/texlive-venndiagram \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xypic/xypic.sty:${PORTSDIR}/print/texlive-xypic \
 		${LOCALBASE}/share/texmf-dist/tex/generic/2up/2up.sty:${PORTSDIR}/print/texlive-2up \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ESIEEcv/ESIEEcv.sty:${PORTSDIR}/print/texlive-ESIEEcv \
@@ -250,6 +255,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/generic/arrayjobx/arrayjobx.sty:${PORTSDIR}/print/texlive-arrayjobx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/assignment/assignment.cls:${PORTSDIR}/print/texlive-assignment \
 		${LOCALBASE}/share/texmf-dist/tex/latex/attachfile/attachfile.sty:${PORTSDIR}/print/texlive-attachfile \
+		${LOCALBASE}/share/texmf-dist/tex/latex/autopdf/autopdf.sty:${PORTSDIR}/print/texlive-autopdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/authoraftertitle/authoraftertitle.sty:${PORTSDIR}/print/texlive-authoraftertitle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/authorindex/authorindex.sty:${PORTSDIR}/print/texlive-authorindex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/autonum/autonum.sty:${PORTSDIR}/print/texlive-autonum \

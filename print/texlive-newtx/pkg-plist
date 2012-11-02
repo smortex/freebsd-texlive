@@ -14,6 +14,7 @@ share/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc
 share/texmf-dist/fonts/enc/dvips/newtx/sups.enc
 share/texmf-dist/fonts/map/dvips/newtx/newtx.map
 share/texmf-dist/fonts/map/dvips/newtx/zmn.map
+share/texmf-dist/fonts/tfm/public/newtx/Libertine-nu.tfm
 share/texmf-dist/fonts/tfm/public/newtx/LibertineI-5nu.tfm
 share/texmf-dist/fonts/tfm/public/newtx/LibertineI-7nu.tfm
 share/texmf-dist/fonts/tfm/public/newtx/LibertineI-nu.tfm
@@ -33,7 +34,6 @@ share/texmf-dist/fonts/tfm/public/newtx/fxlzi-7letters.tfm
 share/texmf-dist/fonts/tfm/public/newtx/fxlzi-jv.tfm
 share/texmf-dist/fonts/tfm/public/newtx/fxlzi-jv5.tfm
 share/texmf-dist/fonts/tfm/public/newtx/fxlzi-jv7.tfm
-share/texmf-dist/fonts/tfm/public/newtx/libertine-nu.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxbex.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxbexa.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxbexb.tfm

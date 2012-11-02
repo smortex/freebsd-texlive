@@ -1,4 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/monofill/Announce.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/monofill/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/monofill/SrcFILEs.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/monofill/monofill.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/monofill/monofill.tex
 %%PORTSRC%%share/texmf-dist/source/latex/monofill/srcfiles.tex

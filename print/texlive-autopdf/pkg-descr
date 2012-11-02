@@ -1,0 +1,4 @@
+The package facilitates the on-the-fly conversion of various
+graphics formats to formats supported by pdfLaTeX (e.g. PDF).
+It uses a range of external programs, and therefore requires
+that the LaTeX run starts with write18 enabled.
