@@ -179,7 +179,6 @@ share/texmf-dist/fonts/map/dvips/lm/lm-t5.map
 share/texmf-dist/fonts/map/dvips/lm/lm-texnansi.map
 share/texmf-dist/fonts/map/dvips/lm/lm-ts1.map
 share/texmf-dist/fonts/map/dvips/lm/lm.map
-share/texmf-dist/fonts/opentype/public/lm/lmmath-regular.otf
 share/texmf-dist/fonts/opentype/public/lm/lmmono10-italic.otf
 share/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf
 share/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf
