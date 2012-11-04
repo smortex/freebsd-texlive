@@ -383,7 +383,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/schulschriften/wedn14.mf:${PORTSDIR}/print/texlive-schulschriften \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/semaphor/smfb10.afm:${PORTSDIR}/print/texlive-semaphor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skull/skull.sty:${PORTSDIR}/print/texlive-skull \
-		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/sourcesanspro/a_27srwj.enc:${PORTSDIR}/print/texlive-sourcesanspro \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sourcecodepro/sourcecodepro.sty:${PORTSDIR}/print/texlive-sourcecodepro \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sourcesanspro/sourcesanspro.sty:${PORTSDIR}/print/texlive-sourcesanspro \
 		${LOCALBASE}/share/texmf-dist/tex/latex/starfont/starfont.sty:${PORTSDIR}/print/texlive-starfont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/staves/staves.sty:${PORTSDIR}/print/texlive-staves \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/stix/STIXGeneral.otf:${PORTSDIR}/print/texlive-stix \
@@ -1873,6 +1874,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-eucl/pst-eucl.tex:${PORTSDIR}/print/texlive-pst-eucl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-exa/pst-exa.sty:${PORTSDIR}/print/texlive-pst-exa \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-fill/pst-fill.tex:${PORTSDIR}/print/texlive-pst-fill \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-fit/pst-fit.tex:${PORTSDIR}/print/texlive-pst-fit \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-fr3d/pst-fr3d.tex:${PORTSDIR}/print/texlive-pst-fr3d \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-fractal/pst-fractal.tex:${PORTSDIR}/print/texlive-pst-fractal \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-fun/pst-fun.tex:${PORTSDIR}/print/texlive-pst-fun \
