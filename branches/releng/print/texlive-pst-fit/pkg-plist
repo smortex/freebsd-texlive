@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-fit/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-fit/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-fit/pst-fit-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-fit/pst-fit-doc.data
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-fit/pst-fit-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-fit/pst-fit-doc.tex
+%%PORTSRC%%share/texmf-dist/source/generic/pst-fit/Makefile
+share/texmf-dist/tex/generic/pst-fit/pst-fit.tex
+share/texmf-dist/tex/latex/pst-fit/pst-fit.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-fit
+@dirrmtry share/texmf-dist/tex/generic/pst-fit
+@dirrmtry share/texmf-dist/source/generic/pst-fit
+@dirrmtry share/texmf-dist/doc/generic/pst-fit
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pstricks
-PORTVERSION=	20120817
+PORTVERSION=	20121103
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -83,6 +83,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-eucl/pst-eucl.tex:${PORTSDIR}/print/texlive-pst-eucl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-exa/pst-exa.sty:${PORTSDIR}/print/texlive-pst-exa \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-fill/pst-fill.tex:${PORTSDIR}/print/texlive-pst-fill \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-fit/pst-fit.tex:${PORTSDIR}/print/texlive-pst-fit \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-fr3d/pst-fr3d.tex:${PORTSDIR}/print/texlive-pst-fr3d \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-fractal/pst-fractal.tex:${PORTSDIR}/print/texlive-pst-fractal \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-fun/pst-fun.tex:${PORTSDIR}/print/texlive-pst-fun \

@@ -49,10 +49,12 @@ share/texmf-dist/bibtex/csf/biblatex/winansi_se.csf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/18-numeric-hybrid.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/19-alphabetic-prefixed.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/19-alphabetic-prefixed.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/20-indexing-basic.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/20-indexing-basic.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/21-indexing-advanced.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/21-indexing-advanced.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/20-indexing-single.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/20-indexing-single.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/21-indexing-multiple.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/21-indexing-multiple.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/22-indexing-subentry.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/22-indexing-subentry.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/30-style-numeric.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/30-style-numeric.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/31-style-numeric-comp.pdf
@@ -183,6 +185,7 @@ share/texmf-dist/tex/latex/biblatex/lbx/brazil.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/brazilian.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/british.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/canadian.lbx
+share/texmf-dist/tex/latex/biblatex/lbx/catalan.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/danish.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/dutch.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/english.lbx

@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20121031
+PORTVERSION=	20121103
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -173,7 +173,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/schulschriften/wedn14.mf:${PORTSDIR}/print/texlive-schulschriften \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/semaphor/smfb10.afm:${PORTSDIR}/print/texlive-semaphor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skull/skull.sty:${PORTSDIR}/print/texlive-skull \
-		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/sourcesanspro/a_27srwj.enc:${PORTSDIR}/print/texlive-sourcesanspro \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sourcecodepro/sourcecodepro.sty:${PORTSDIR}/print/texlive-sourcecodepro \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sourcesanspro/sourcesanspro.sty:${PORTSDIR}/print/texlive-sourcesanspro \
 		${LOCALBASE}/share/texmf-dist/tex/latex/starfont/starfont.sty:${PORTSDIR}/print/texlive-starfont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/staves/staves.sty:${PORTSDIR}/print/texlive-staves \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/stix/STIXGeneral.otf:${PORTSDIR}/print/texlive-stix \

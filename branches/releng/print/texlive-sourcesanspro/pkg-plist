@@ -1,8 +1,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/sourcesanspro/LICENSE.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/sourcesanspro/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/sourcesanspro/README.doc
-%%PORTDOCS%%share/texmf-dist/doc/fonts/sourcesanspro/SourceSansPro.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/sourcesanspro/SourceSansPro.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/sourcesanspro/sourcesanspro.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/sourcesanspro/sourcesanspro.tex
 share/texmf-dist/fonts/enc/dvips/sourcesanspro/a_27srwj.enc
 share/texmf-dist/fonts/enc/dvips/sourcesanspro/a_2cvp4u.enc
 share/texmf-dist/fonts/enc/dvips/sourcesanspro/a_2n3jyq.enc
@@ -1015,10 +1015,6 @@ share/texmf-dist/tex/latex/sourcesanspro/OT1SourceSansPro-OsF.fd
 share/texmf-dist/tex/latex/sourcesanspro/OT1SourceSansPro-Sup.fd
 share/texmf-dist/tex/latex/sourcesanspro/OT1SourceSansPro-TLF.fd
 share/texmf-dist/tex/latex/sourcesanspro/OT1SourceSansPro-TOsF.fd
-share/texmf-dist/tex/latex/sourcesanspro/SourceSansPro-otf.sty
-share/texmf-dist/tex/latex/sourcesanspro/SourceSansPro-type1-autoinst.sty
-share/texmf-dist/tex/latex/sourcesanspro/SourceSansPro-type1.sty
-share/texmf-dist/tex/latex/sourcesanspro/SourceSansPro.sty
 share/texmf-dist/tex/latex/sourcesanspro/T1SourceSansPro-LF.fd
 share/texmf-dist/tex/latex/sourcesanspro/T1SourceSansPro-OsF.fd
 share/texmf-dist/tex/latex/sourcesanspro/T1SourceSansPro-Sup.fd
@@ -1028,6 +1024,10 @@ share/texmf-dist/tex/latex/sourcesanspro/TS1SourceSansPro-LF.fd
 share/texmf-dist/tex/latex/sourcesanspro/TS1SourceSansPro-OsF.fd
 share/texmf-dist/tex/latex/sourcesanspro/TS1SourceSansPro-TLF.fd
 share/texmf-dist/tex/latex/sourcesanspro/TS1SourceSansPro-TOsF.fd
+share/texmf-dist/tex/latex/sourcesanspro/sourcesanspro-otf.sty
+share/texmf-dist/tex/latex/sourcesanspro/sourcesanspro-type1-autoinst.sty
+share/texmf-dist/tex/latex/sourcesanspro/sourcesanspro-type1.sty
+share/texmf-dist/tex/latex/sourcesanspro/sourcesanspro.sty
 @dirrmtry share/texmf-dist/tex/latex/sourcesanspro
 @dirrmtry share/texmf-dist/fonts/vf/adobe/sourcesanspro
 @dirrmtry share/texmf-dist/fonts/type1/adobe/sourcesanspro

@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-physics
-# Date created:		10/20/2012 05:16:36
+# New ports collection makefile for:	texlive-sourcecodepro
+# Date created:		11/04/2012 04:51:31
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	physics
+PORTNAME=	sourcecodepro
 PORTVERSION=	20121103
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros supporting the Mathematics of Physics.
+COMMENT=	Use SourceCodePro with TeX(-alike) systems.
 
 NOPORTSRC=	yes
 

@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-physics
-# Date created:		10/20/2012 05:16:36
+# New ports collection makefile for:	texlive-pst-fit
+# Date created:		11/04/2012 05:17:24
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	physics
+PORTNAME=	pst-fit
 PORTVERSION=	20121103
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros supporting the Mathematics of Physics.
+COMMENT=	Macros for curve fitting.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
