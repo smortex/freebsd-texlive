@@ -1,5 +1,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/sourcecodepro/LICENSE.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/sourcecodepro/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/sourcecodepro/sourcecodepro-otf-specimen.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sourcecodepro/sourcecodepro-otf-specimen.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sourcecodepro/sourcecodepro-type1-specimen.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sourcecodepro/sourcecodepro-type1-specimen.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/sourcecodepro/sourcecodepro.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/sourcecodepro/sourcecodepro.tex
 share/texmf-dist/fonts/enc/dvips/sourcecodepro/a_374ovw.enc

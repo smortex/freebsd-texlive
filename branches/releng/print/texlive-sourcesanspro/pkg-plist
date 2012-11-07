@@ -1,8 +1,11 @@
-%%PORTDOCS%%share/texmf-dist/doc/fonts/sourcesanspro/LICENSE.txt
-%%PORTDOCS%%share/texmf-dist/doc/fonts/sourcesanspro/README
-%%PORTDOCS%%share/texmf-dist/doc/fonts/sourcesanspro/README.doc
-%%PORTDOCS%%share/texmf-dist/doc/fonts/sourcesanspro/sourcesanspro.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/sourcesanspro/sourcesanspro.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sourcesanspro/LICENSE.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/sourcesanspro/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/sourcesanspro/sourcesanspro-otf-specimen.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sourcesanspro/sourcesanspro-otf-specimen.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sourcesanspro/sourcesanspro-type1-specimen.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sourcesanspro/sourcesanspro-type1-specimen.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sourcesanspro/sourcesanspro.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sourcesanspro/sourcesanspro.tex
 share/texmf-dist/fonts/enc/dvips/sourcesanspro/a_27srwj.enc
 share/texmf-dist/fonts/enc/dvips/sourcesanspro/a_2cvp4u.enc
 share/texmf-dist/fonts/enc/dvips/sourcesanspro/a_2n3jyq.enc
@@ -1035,6 +1038,6 @@ share/texmf-dist/tex/latex/sourcesanspro/sourcesanspro.sty
 @dirrmtry share/texmf-dist/fonts/opentype/adobe/sourcesanspro
 @dirrmtry share/texmf-dist/fonts/map/dvips/sourcesanspro
 @dirrmtry share/texmf-dist/fonts/enc/dvips/sourcesanspro
-@dirrmtry share/texmf-dist/doc/fonts/sourcesanspro
+@dirrmtry share/texmf-dist/doc/latex/sourcesanspro
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

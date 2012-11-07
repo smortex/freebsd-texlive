@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20121103
+PORTVERSION=	20121106
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -46,6 +46,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/boondox/boondox.map:${PORTSDIR}/print/texlive-boondox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/braille/braille.sty:${PORTSDIR}/print/texlive-braille \
 		${LOCALBASE}/share/texmf-dist/dvips/brushscr/config.pbsi:${PORTSDIR}/print/texlive-brushscr \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cabin/cabin.sty:${PORTSDIR}/print/texlive-cabin \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/calligra/callig15.mf:${PORTSDIR}/print/texlive-calligra \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/calligra-type1/callig15.afm:${PORTSDIR}/print/texlive-calligra-type1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cantarell/cantarell.sty:${PORTSDIR}/print/texlive-cantarell \

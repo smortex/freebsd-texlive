@@ -1,4 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/simplecd/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/simplecd/examples.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/simplecd/examples.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/simplecd/simplecd.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/simplecd/simplecd.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/simplecd/simplecd.ins

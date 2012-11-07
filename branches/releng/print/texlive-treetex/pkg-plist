@@ -1,9 +1,5 @@
-%%PORTDOCS%%share/texmf-dist/doc/plain/treetex/epodd.bbl
-%%PORTDOCS%%share/texmf-dist/doc/plain/treetex/epodd.dvi
 %%PORTDOCS%%share/texmf-dist/doc/plain/treetex/epodd.tex
 %%PORTDOCS%%share/texmf-dist/doc/plain/treetex/readme
-%%PORTDOCS%%share/texmf-dist/doc/plain/treetex/tree_doc.bbl
-%%PORTDOCS%%share/texmf-dist/doc/plain/treetex/tree_doc.dvi
 %%PORTDOCS%%share/texmf-dist/doc/plain/treetex/tree_doc.tex
 share/texmf-dist/tex/plain/treetex/classes.tex
 share/texmf-dist/tex/plain/treetex/l_pic.tex

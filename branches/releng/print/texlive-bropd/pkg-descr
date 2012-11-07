@@ -1,0 +1,4 @@
+The package simplifies the process of writing differential
+operators and brackets in LaTeX. The commands facilitate the
+easy manipulation of equations involving brackets and allow
+partial differentials to be expressed in an alternate form.
