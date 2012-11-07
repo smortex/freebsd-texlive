@@ -2,6 +2,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/dozenal/dozenal.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/dozenal/testdozchars.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/dozenal/testfdzchars.tex
+share/texmf-dist/fonts/afm/public/dozenal/fdzb8a.afm
+share/texmf-dist/fonts/afm/public/dozenal/fdzbi8a.afm
+share/texmf-dist/fonts/afm/public/dozenal/fdzbs8a.afm
+share/texmf-dist/fonts/afm/public/dozenal/fdzi8a.afm
+share/texmf-dist/fonts/afm/public/dozenal/fdzr8a.afm
+share/texmf-dist/fonts/afm/public/dozenal/fdzs8a.afm
 share/texmf-dist/fonts/map/dvips/dozenal/fdz.map
 share/texmf-dist/fonts/source/public/dozenal/dozchars10.mf
 share/texmf-dist/fonts/source/public/dozenal/dozchars12.mf
@@ -140,6 +146,7 @@ share/texmf-dist/tex/latex/dozenal/dozenal.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/dozenal
 @dirrmtry share/texmf-dist/fonts/source/public/dozenal
 @dirrmtry share/texmf-dist/fonts/map/dvips/dozenal
+@dirrmtry share/texmf-dist/fonts/afm/public/dozenal
 @dirrmtry share/texmf-dist/doc/fonts/dozenal
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

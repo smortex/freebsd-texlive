@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-sourcesanspro
-# Date created:		11/02/2012 04:55:00
+# New ports collection makefile for:	texlive-cabin
+# Date created:		11/07/2012 17:57:30
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	sourcesanspro
+PORTNAME=	cabin
 PORTVERSION=	20121106
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use SourceSansPro with TeX(-alike) systems.
+COMMENT=	A humanist Sans Serif font, with LaTeX support.
 
 NOPORTSRC=	yes
 

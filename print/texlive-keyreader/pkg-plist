@@ -1,6 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/keyreader/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/keyreader/keyreader-example1.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/keyreader/keyreader-guide.cfg
 %%PORTDOCS%%share/texmf-dist/doc/latex/keyreader/keyreader-guide.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/keyreader/keyreader-guide.tex
 share/texmf-dist/tex/latex/keyreader/keyreader.sty
