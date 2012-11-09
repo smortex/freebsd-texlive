@@ -2,8 +2,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/filedate/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/filedate/SrcFILEs.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/filedate/filedate.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/filedate/fdatechk.tex
 %%PORTSRC%%share/texmf-dist/source/latex/filedate/filedate.tex
+%%PORTSRC%%share/texmf-dist/source/latex/filedate/makedoc.cfg
 %%PORTSRC%%share/texmf-dist/source/latex/filedate/srcfiles.tex
+share/texmf-dist/tex/latex/filedate/filedate.RLS
 share/texmf-dist/tex/latex/filedate/filedate.sty
 @dirrmtry share/texmf-dist/tex/latex/filedate
 @dirrmtry share/texmf-dist/source/latex/filedate
