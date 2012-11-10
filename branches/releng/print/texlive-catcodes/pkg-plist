@@ -2,6 +2,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/catcodes/SrcFILEs.txt
 %%PORTDOCS%%share/texmf-dist/doc/generic/catcodes/catcodes.pdf
 %%PORTSRC%%share/texmf-dist/source/generic/catcodes/catcodes.tex
+%%PORTSRC%%share/texmf-dist/source/generic/catcodes/fdatechk.tex
+%%PORTSRC%%share/texmf-dist/source/generic/catcodes/makedoc.cfg
+%%PORTSRC%%share/texmf-dist/source/generic/catcodes/mdoccorr.cfg
 %%PORTSRC%%share/texmf-dist/source/generic/catcodes/srcfiles.tex
 share/texmf-dist/tex/generic/catcodes/actcodes.sty
 share/texmf-dist/tex/generic/catcodes/catchdq.sty

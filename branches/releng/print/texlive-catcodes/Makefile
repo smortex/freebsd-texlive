@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	catcodes
-PORTVERSION=	20120922
+PORTVERSION=	20121109
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The catcodes package
+COMMENT=	Generic handling of TeX category codes.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
