@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	sidenotes
-PORTVERSION=	20120524
+PORTVERSION=	20121113
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The sidenotes package
+COMMENT=	Typeset notes containing rich content, in the margin.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -1,10 +1,11 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/CONTENTs.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/README.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/RELEASE.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/RELEASEs.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/SrcFILEs.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/myfilist.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/fileinfo/readprov.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/fileinfo/README.tex
+%%PORTSRC%%share/texmf-dist/source/latex/fileinfo/fdatechk.tex
 %%PORTSRC%%share/texmf-dist/source/latex/fileinfo/gather.tex
 %%PORTSRC%%share/texmf-dist/source/latex/fileinfo/myfilist.tex
 %%PORTSRC%%share/texmf-dist/source/latex/fileinfo/readprov.tex

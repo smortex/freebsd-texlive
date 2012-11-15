@@ -1,6 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-caspervector/ChangeLog.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-caspervector/Makefile.doc
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-caspervector/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-caspervector/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-caspervector/readme.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-caspervector/readme.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-caspervector/readme.tex
