@@ -1,27 +1,45 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/CHANGES
 %%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/ffuserguide.html
 %%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/ffuserguide.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/ffuserguide.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/ffuserguideidx.ist
 %%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/flowfram.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/brochure.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/brochure.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/egg.eps
 %%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/egg.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/news.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/news.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/news2.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/news2.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/poster.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/poster.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample-article.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample-article.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample-blanks.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample-brochure.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample-brochure.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample-news.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample-news.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample-news2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample-news2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample-pages.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample-pages.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample-poster.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample-poster.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample-rot.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample-rot.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sample3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sampleRL.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sampleRL.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sheep.eps
 %%PORTDOCS%%share/texmf-dist/doc/latex/flowfram/samples/sheep.png
+share/texmf-dist/scripts/flowfram/flowfram.perl
 %%PORTSRC%%share/texmf-dist/source/latex/flowfram/flowfram.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/flowfram/flowfram.ins
-%%PORTSRC%%share/texmf-dist/source/latex/flowfram/flowfram.perl
 share/texmf-dist/tex/latex/flowfram/flowfram.sty
 @dirrmtry share/texmf-dist/tex/latex/flowfram
 @dirrmtry share/texmf-dist/source/latex/flowfram
+@dirrmtry share/texmf-dist/scripts/flowfram
 @dirrmtry share/texmf-dist/doc/latex/flowfram/samples
 @dirrmtry share/texmf-dist/doc/latex/flowfram
 @exec %D/bin/mktexlsr

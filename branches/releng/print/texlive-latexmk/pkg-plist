@@ -4,6 +4,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/README
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/README
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/Sweave_latexmkrc
+%%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/TeX4ht-latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/asymptote_latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/glossary_latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/mpost_latexmkrc
@@ -16,9 +17,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/dvipdfm_call.bat
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/dvipdfmx_call
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/dvipdfmx_call.bat
+%%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/htlatexonly
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/kickxdvi
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/l1
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/l2
+%%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/myhtlatex2
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/pst2pdf_for_latexmk
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/pst2pdf_for_latexmk_README.txt
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/startacroread

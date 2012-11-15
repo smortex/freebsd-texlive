@@ -256,6 +256,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/boondox/boondox.map:${PORTSDIR}/print/texlive-boondox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/braille/braille.sty:${PORTSDIR}/print/texlive-braille \
 		${LOCALBASE}/share/texmf-dist/dvips/brushscr/config.pbsi:${PORTSDIR}/print/texlive-brushscr \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cabin/cabin.sty:${PORTSDIR}/print/texlive-cabin \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/calligra/callig15.mf:${PORTSDIR}/print/texlive-calligra \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/calligra-type1/callig15.afm:${PORTSDIR}/print/texlive-calligra-type1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cantarell/cantarell.sty:${PORTSDIR}/print/texlive-cantarell \
@@ -374,6 +375,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/punk-latex/ot1pnk.fd:${PORTSDIR}/print/texlive-punk-latex \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/punknova/punknova-bold.otf:${PORTSDIR}/print/texlive-punknova \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/pxtxalfa/pxtx.map:${PORTSDIR}/print/texlive-pxtxalfa \
+		${LOCALBASE}/share/texmf-dist/tex/latex/quattrocento/quattrocento.sty:${PORTSDIR}/print/texlive-quattrocento \
 		${LOCALBASE}/share/texmf-dist/tex/latex/recycle/recycle.sty:${PORTSDIR}/print/texlive-recycle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/romande/romande.sty:${PORTSDIR}/print/texlive-romande \
 		${LOCALBASE}/share/texmf-dist/tex/latex/public/rsfso/rsfso.sty:${PORTSDIR}/print/texlive-rsfso \
@@ -524,7 +526,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/jadetex/base/dsssl.def:${PORTSDIR}/print/texlive-jadetex \
 		${LOCALBASE}/share/texmf-dist/tex/xmltex/passivetex/dummyels.sty:${PORTSDIR}/print/texlive-passivetex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/tex4ht/tex4ht.sty:${PORTSDIR}/print/texlive-tex4ht \
-		${LOCALBASE}/share/texmf-dist/tex/xmltex/xmlplay/play.xmt:${PORTSDIR}/print/texlive-xmlplay \
 		${LOCALBASE}/share/texmf-dist/tex/xmltex/base/xmltex.tex:${PORTSDIR}/print/texlive-xmltex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/alnumsec/alnumsec.sty:${PORTSDIR}/print/texlive-alnumsec \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arydshln/arydshln.sty:${PORTSDIR}/print/texlive-arydshln \
@@ -1740,6 +1741,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/binomexp/binomexp.sty:${PORTSDIR}/print/texlive-binomexp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boldtensors/boldtensors.sty:${PORTSDIR}/print/texlive-boldtensors \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bosisio/accenti.sty:${PORTSDIR}/print/texlive-bosisio \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bropd/bropd.sty:${PORTSDIR}/print/texlive-bropd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ccfonts/ccfonts.sty:${PORTSDIR}/print/texlive-ccfonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/commath/commath.sty:${PORTSDIR}/print/texlive-commath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/concmath/concmath.sty:${PORTSDIR}/print/texlive-concmath \

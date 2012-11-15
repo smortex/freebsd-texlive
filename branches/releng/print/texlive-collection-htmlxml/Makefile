@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-htmlxml
-PORTVERSION=	20100610
+PORTVERSION=	20121114
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -17,7 +17,6 @@ COMMENT=	HTML/SGML/XML support
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/jadetex/base/dsssl.def:${PORTSDIR}/print/texlive-jadetex \
 		${LOCALBASE}/share/texmf-dist/tex/xmltex/passivetex/dummyels.sty:${PORTSDIR}/print/texlive-passivetex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/tex4ht/tex4ht.sty:${PORTSDIR}/print/texlive-tex4ht \
-		${LOCALBASE}/share/texmf-dist/tex/xmltex/xmlplay/play.xmt:${PORTSDIR}/print/texlive-xmlplay \
 		${LOCALBASE}/share/texmf-dist/tex/xmltex/base/xmltex.tex:${PORTSDIR}/print/texlive-xmltex \
 		${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
@@ -64,6 +63,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/jadetex/base/dsssl.def:${PORTSDIR
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/fpl/fplbij8a.afm:${PORTSDIR}/print/texlive-fpl \
 		${LOCALBASE}/share/texmf-dist/dvips/helvetic/config.uhv:${PORTSDIR}/print/texlive-helvetic \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/lm/lmb10.afm:${PORTSDIR}/print/texlive-lm \
+		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/lm-math/lmodern-math.otf:${PORTSDIR}/print/texlive-lm-math \
 		${LOCALBASE}/share/texmf-dist/tex/latex/marvosym/marvosym.sty:${PORTSDIR}/print/texlive-marvosym \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/mathpazo/fplmb.afm:${PORTSDIR}/print/texlive-mathpazo \
 		${LOCALBASE}/share/texmf-dist/dvips/ncntrsbk/config.unc:${PORTSDIR}/print/texlive-ncntrsbk \

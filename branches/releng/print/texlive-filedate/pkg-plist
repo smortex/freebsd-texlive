@@ -4,7 +4,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/filedate/filedate.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/filedate/fdatechk.tex
 %%PORTSRC%%share/texmf-dist/source/latex/filedate/filedate.tex
-%%PORTSRC%%share/texmf-dist/source/latex/filedate/makedoc.cfg
 %%PORTSRC%%share/texmf-dist/source/latex/filedate/srcfiles.tex
 share/texmf-dist/tex/latex/filedate/filedate.RLS
 share/texmf-dist/tex/latex/filedate/filedate.sty
