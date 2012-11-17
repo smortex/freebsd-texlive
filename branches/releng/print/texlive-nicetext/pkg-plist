@@ -33,7 +33,23 @@ share/texmf-dist/tex/latex/nicetext/makedoc.sty
 share/texmf-dist/tex/latex/nicetext/mdoccorr.cfg
 share/texmf-dist/tex/latex/nicetext/nicetext.RLS
 share/texmf-dist/tex/latex/nicetext/niceverb.sty
+share/texmf-dist/tex/latex/nicetext/run/README-run.txt
+share/texmf-dist/tex/latex/nicetext/run/arseneau.tex
+share/texmf-dist/tex/latex/nicetext/run/atari.cfg
+share/texmf-dist/tex/latex/nicetext/run/atari.txt
+share/texmf-dist/tex/latex/nicetext/run/copyfile.cfg
+share/texmf-dist/tex/latex/nicetext/run/copyfile.tex
+share/texmf-dist/tex/latex/nicetext/run/fddial0g.sty
+share/texmf-dist/tex/latex/nicetext/run/fdtxttex.cfg
+share/texmf-dist/tex/latex/nicetext/run/fdtxttex.tex
+share/texmf-dist/tex/latex/nicetext/run/fdtxttex.tpl
+share/texmf-dist/tex/latex/nicetext/run/lines.txt
+share/texmf-dist/tex/latex/nicetext/run/makedoc.tpl
+share/texmf-dist/tex/latex/nicetext/run/sample.txt
+share/texmf-dist/tex/latex/nicetext/run/substr.tex
+share/texmf-dist/tex/latex/nicetext/run/u8atablg.fdf
 share/texmf-dist/tex/latex/nicetext/wiki.sty
+@dirrmtry share/texmf-dist/tex/latex/nicetext/run
 @dirrmtry share/texmf-dist/tex/latex/nicetext
 @dirrmtry share/texmf-dist/source/latex/nicetext
 @dirrmtry share/texmf-dist/doc/latex/nicetext/demo
