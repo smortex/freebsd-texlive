@@ -1,17 +1,16 @@
-# New ports collection makefile for:	texlive-articleingud
-# Date created:		05/06/2012 05:13:12
+# New ports collection makefile for:	texlive-etoc
+# Date created:		11/21/2012 05:19:21
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	articleingud
+PORTNAME=	etoc
 PORTVERSION=	20121120
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX class for articles published in INGENIERIA review.
+COMMENT=	Easily customisable TOCs.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
