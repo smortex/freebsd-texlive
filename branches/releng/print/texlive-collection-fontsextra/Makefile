@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20121111
+PORTVERSION=	20121120
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -39,7 +39,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/tex/latex/bera/bera.sty:${PORTSDIR}/print/texlive-bera \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/berenisadf/ybdb.afm:${PORTSDIR}/print/texlive-berenisadf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bguq/bguq.sty:${PORTSDIR}/print/texlive-bguq \
-		${LOCALBASE}/share/texmf-dist/tex/latex/biolinum-type1/biolinum-type1.sty:${PORTSDIR}/print/texlive-biolinum-type1 \
 		${LOCALBASE}/share/texmf-dist/fonts/tfm/public/blacklettert1/tfrak.tfm:${PORTSDIR}/print/texlive-blacklettert1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boisik/boisik.sty:${PORTSDIR}/print/texlive-boisik \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/bookhands/sqrc10.afm:${PORTSDIR}/print/texlive-bookhands \
@@ -130,7 +129,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/tex/latex/lato/lato.sty:${PORTSDIR}/print/texlive-lato \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/lfb/accents.mf:${PORTSDIR}/print/texlive-lfb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libertine/libertine.sty:${PORTSDIR}/print/texlive-libertine \
-		${LOCALBASE}/share/texmf-dist/tex/latex/libertine-type1/libertine-type1.sty:${PORTSDIR}/print/texlive-libertine-type1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libertineotf/libertineotf.sty:${PORTSDIR}/print/texlive-libertineotf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libris/libris.sty:${PORTSDIR}/print/texlive-libris \
 		${LOCALBASE}/share/texmf-dist/tex/latex/linearA/linearA.sty:${PORTSDIR}/print/texlive-linearA \

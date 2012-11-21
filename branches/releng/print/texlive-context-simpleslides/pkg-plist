@@ -43,6 +43,7 @@ share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-Ellipse.tex
 share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-Embossed.tex
 share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-Framed.tex
 share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-FramedTitle.tex
+share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-FuzzyTopic.tex
 share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-HorizontalStripes.tex
 share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-NarrowStripes.tex
 share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-PlainCounter.tex
@@ -58,7 +59,7 @@ share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-ThickStripes.tex
 share/texmf-dist/tex/context/third/simpleslides/simpleslides-s-default.tex
 share/texmf-dist/tex/context/third/simpleslides/t-simpleslides.mkii
 share/texmf-dist/tex/context/third/simpleslides/t-simpleslides.mkiv
-share/texmf-dist/tex/context/third/simpleslides/t-simpleslides.tex
+share/texmf-dist/tex/context/third/simpleslides/t-slidesvisualcounter.tex
 @dirrmtry share/texmf-dist/tex/context/third/simpleslides
 @dirrmtry share/texmf-dist/tex/context/interface/third
 @dirrmtry share/texmf-dist/scripts/context/lua/third/simpleslides

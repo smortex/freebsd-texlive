@@ -249,7 +249,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/bera/bera.sty:${PORTSDIR}/print/texlive-bera \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/berenisadf/ybdb.afm:${PORTSDIR}/print/texlive-berenisadf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bguq/bguq.sty:${PORTSDIR}/print/texlive-bguq \
-		${LOCALBASE}/share/texmf-dist/tex/latex/biolinum-type1/biolinum-type1.sty:${PORTSDIR}/print/texlive-biolinum-type1 \
 		${LOCALBASE}/share/texmf-dist/fonts/tfm/public/blacklettert1/tfrak.tfm:${PORTSDIR}/print/texlive-blacklettert1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boisik/boisik.sty:${PORTSDIR}/print/texlive-boisik \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/bookhands/sqrc10.afm:${PORTSDIR}/print/texlive-bookhands \
@@ -340,7 +339,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/lato/lato.sty:${PORTSDIR}/print/texlive-lato \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/lfb/accents.mf:${PORTSDIR}/print/texlive-lfb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libertine/libertine.sty:${PORTSDIR}/print/texlive-libertine \
-		${LOCALBASE}/share/texmf-dist/tex/latex/libertine-type1/libertine-type1.sty:${PORTSDIR}/print/texlive-libertine-type1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libertineotf/libertineotf.sty:${PORTSDIR}/print/texlive-libertineotf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libris/libris.sty:${PORTSDIR}/print/texlive-libris \
 		${LOCALBASE}/share/texmf-dist/tex/latex/linearA/linearA.sty:${PORTSDIR}/print/texlive-linearA \
@@ -1088,6 +1086,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/dvips/esint-type1/config.esint:${PORTSDIR}/print/texlive-esint-type1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/etaremune/etaremune.sty:${PORTSDIR}/print/texlive-etaremune \
 		${LOCALBASE}/share/texmf-dist/tex/latex/etextools/etextools.sty:${PORTSDIR}/print/texlive-etextools \
+		${LOCALBASE}/share/texmf-dist/tex/latex/etoc/etoc.sty:${PORTSDIR}/print/texlive-etoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty:${PORTSDIR}/print/texlive-etoolbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eukdate/eukdate.sty:${PORTSDIR}/print/texlive-eukdate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/europecv/europecv.cls:${PORTSDIR}/print/texlive-europecv \
@@ -1823,7 +1822,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/musixguit/musixguit.sty:${PORTSDIR}/print/texlive-musixguit \
 		${LOCALBASE}/share/texmf-dist/tex/generic/musixtex/musixtex.tex:${PORTSDIR}/print/texlive-musixtex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/musixtex-fonts/musix.map:${PORTSDIR}/print/texlive-musixtex-fonts \
-		${LOCALBASE}/share/texmf-dist/tex/generic/pmx/pmx.tex:${PORTSDIR}/print/texlive-pmx \
+		${LOCALBASE}/share/texmf-dist/scripts/pmx/pmx2pdf.lua:${PORTSDIR}/print/texlive-pmx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/songbook/songbook.sty:${PORTSDIR}/print/texlive-songbook \
 		${LOCALBASE}/share/texmf-dist/tex/lambda/antomega/antomega.sty:${PORTSDIR}/print/texlive-antomega \
 		${LOCALBASE}/share/texmf-dist/tex/lambda/base/lambda.tex:${PORTSDIR}/print/texlive-lambda \

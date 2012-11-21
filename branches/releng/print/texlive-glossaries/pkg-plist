@@ -64,7 +64,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/samplexdy.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/samplexdy2.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/samplexdy2.tex
+share/texmf-dist/scripts/glossaries/glossaries.perl
 share/texmf-dist/scripts/glossaries/makeglossaries.bat
+share/texmf-dist/scripts/glossaries/mfirstuc.perl
 %%PORTSRC%%share/texmf-dist/source/latex/glossaries/glossaries.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/glossaries/glossaries.ins
 %%PORTSRC%%share/texmf-dist/source/latex/glossaries/glossaries.perl

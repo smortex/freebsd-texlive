@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	libertine
-PORTVERSION=	20121023
+PORTVERSION=	20121120
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Simple use of Linux Libertine and Biolinum fonts.
+COMMENT=	Use of Linux Libertine and Biolinum fonts with LaTeX.
 
 NOPORTSRC=	yes
 
