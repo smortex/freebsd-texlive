@@ -1,14 +1,20 @@
-%%PORTDOCS%%share/texmf-dist/doc/support/adhocfilelist/RELEASE.txt
+%%PORTDOCS%%share/texmf-dist/doc/support/adhocfilelist/README
+%%PORTDOCS%%share/texmf-dist/doc/support/adhocfilelist/RELEASEs.txt
 %%PORTDOCS%%share/texmf-dist/doc/support/adhocfilelist/SrcFILEs.txt
 %%PORTDOCS%%share/texmf-dist/doc/support/adhocfilelist/adhocfilelist.htm
-%%PORTDOCS%%share/texmf-dist/doc/support/adhocfilelist/makehtml.log
+%%PORTDOCS%%share/texmf-dist/doc/support/adhocfilelist/demo/herelist.txt
 share/texmf-dist/scripts/adhocfilelist/adhocfilelist.sh
 share/texmf-dist/scripts/adhocfilelist/herelist.sh
-%%PORTSRC%%share/texmf-dist/source/adhocfilelist/adhocfilelist.tex
-%%PORTSRC%%share/texmf-dist/source/adhocfilelist/srcfiles.tex
-%%PORTSRC%%share/texmf-dist/source/adhocfilelist/texblog.fdf
-@dirrmtry share/texmf-dist/source/adhocfilelist
+%%PORTSRC%%share/texmf-dist/source/support/adhocfilelist/adhocfilelist.tex
+%%PORTSRC%%share/texmf-dist/source/support/adhocfilelist/fdatechk.tex
+%%PORTSRC%%share/texmf-dist/source/support/adhocfilelist/makehtml.tex
+%%PORTSRC%%share/texmf-dist/source/support/adhocfilelist/srcfiles.tex
+%%PORTSRC%%share/texmf-dist/source/support/adhocfilelist/texblog.fdf
+share/texmf-dist/tex/support/adhocfilelist/adhocfilelist.RLS
+@dirrmtry share/texmf-dist/tex/support/adhocfilelist
+@dirrmtry share/texmf-dist/source/support/adhocfilelist
 @dirrmtry share/texmf-dist/scripts/adhocfilelist
+@dirrmtry share/texmf-dist/doc/support/adhocfilelist/demo
 @dirrmtry share/texmf-dist/doc/support/adhocfilelist
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

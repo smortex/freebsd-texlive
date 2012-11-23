@@ -1,10 +1,10 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/greektex/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/greektex/gehyphw.gr
-%%PORTDOCS%%share/texmf-dist/doc/latex/greektex/greektexdoc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/greektex/greektexdoc.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/greektex/ywcl.zip
+%%PORTDOCS%%share/texmf-dist/doc/fonts/greektex/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/greektex/gehyphw.gr
+%%PORTDOCS%%share/texmf-dist/doc/fonts/greektex/greektexdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/greektex/greektexdoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/greektex/ywcl.zip
 share/texmf-dist/tex/latex/greektex/greektex.sty
 @dirrmtry share/texmf-dist/tex/latex/greektex
-@dirrmtry share/texmf-dist/doc/latex/greektex
+@dirrmtry share/texmf-dist/doc/fonts/greektex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
