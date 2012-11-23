@@ -1,8 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/dowith/Announce.txt
 %%PORTDOCS%%share/texmf-dist/doc/generic/dowith/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/dowith/SrcFILEs.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/dowith/domore.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/dowith/dowith.pdf
-%%PORTSRC%%share/texmf-dist/source/generic/dowith/SrcFILEs.txt
+%%PORTSRC%%share/texmf-dist/source/generic/dowith/domore.tex
 %%PORTSRC%%share/texmf-dist/source/generic/dowith/dowith.tex
 %%PORTSRC%%share/texmf-dist/source/generic/dowith/srcfiles.tex
+share/texmf-dist/tex/generic/dowith/domore.sty
 share/texmf-dist/tex/generic/dowith/dowith.RLS
 share/texmf-dist/tex/generic/dowith/dowith.sty
 @dirrmtry share/texmf-dist/tex/generic/dowith
