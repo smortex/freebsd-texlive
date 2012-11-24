@@ -3,6 +3,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/ltxkeys/ltxkeys-guide.cfg
 %%PORTDOCS%%share/texmf-dist/doc/latex/ltxkeys/ltxkeys-guide.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/ltxkeys/ltxkeys-guide.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ltxkeys/ltxkeys-test-20121122.tex
 share/texmf-dist/tex/latex/ltxkeys/ltxkeys.sty
 @dirrmtry share/texmf-dist/tex/latex/ltxkeys
 @dirrmtry share/texmf-dist/doc/latex/ltxkeys
