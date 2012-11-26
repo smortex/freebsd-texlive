@@ -286,6 +286,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/binomexp/binomexp.sty:${PORTSDIR}/print/texlive-binomexp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boldtensors/boldtensors.sty:${PORTSDIR}/print/texlive-boldtensors \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bosisio/accenti.sty:${PORTSDIR}/print/texlive-bosisio \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bropd/bropd.sty:${PORTSDIR}/print/texlive-bropd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ccfonts/ccfonts.sty:${PORTSDIR}/print/texlive-ccfonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/commath/commath.sty:${PORTSDIR}/print/texlive-commath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/concmath/concmath.sty:${PORTSDIR}/print/texlive-concmath \
@@ -370,7 +371,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/realscripts/realscripts.sty:${PORTSDIR}/print/texlive-realscripts \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty:${PORTSDIR}/print/texlive-ucharclasses \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/unisugar/unisugar.sty:${PORTSDIR}/print/texlive-unisugar \
-		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecjk/xeCJK.sty:${PORTSDIR}/print/texlive-xecjk \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecjk/config/xeCJK.cfg:${PORTSDIR}/print/texlive-xecjk \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecolor/xecolor.sty:${PORTSDIR}/print/texlive-xecolor \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecyr/xecyr.sty:${PORTSDIR}/print/texlive-xecyr \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xeindex/xeindex.sty:${PORTSDIR}/print/texlive-xeindex \

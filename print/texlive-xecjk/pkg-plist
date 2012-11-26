@@ -1,13 +1,18 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/README
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-CJKecglue.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-CJKfntef.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-autofake.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-checksingle.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-fallback.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-punctstyle.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-subCJKblock.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-verbatim.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/xeCJK.pdf
 %%PORTSRC%%share/texmf-dist/source/xelatex/xecjk/xeCJK.dtx
 %%PORTSRC%%share/texmf-dist/source/xelatex/xecjk/xeCJK.ins
+share/texmf-dist/tex/xelatex/xecjk/config/xeCJK.cfg
 share/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+@dirrmtry share/texmf-dist/tex/xelatex/xecjk/config
 @dirrmtry share/texmf-dist/tex/xelatex/xecjk
 @dirrmtry share/texmf-dist/source/xelatex/xecjk
 @dirrmtry share/texmf-dist/doc/xelatex/xecjk/example
