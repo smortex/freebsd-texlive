@@ -1464,6 +1464,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/qsymbols/qsymbols.sty:${PORTSDIR}/print/texlive-qsymbols \
 		${LOCALBASE}/share/texmf-dist/tex/latex/quotchap/quotchap.sty:${PORTSDIR}/print/texlive-quotchap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/quotmark/quotmark.sty:${PORTSDIR}/print/texlive-quotmark \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ran_toks/ran_toks.sty:${PORTSDIR}/print/texlive-ran_toks \
 		${LOCALBASE}/share/texmf-dist/tex/latex/randtext/randtext.sty:${PORTSDIR}/print/texlive-randtext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rccol/rccol.sty:${PORTSDIR}/print/texlive-rccol \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rcs-multi/rcs-multi.sty:${PORTSDIR}/print/texlive-rcs-multi \
@@ -2108,7 +2109,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/realscripts/realscripts.sty:${PORTSDIR}/print/texlive-realscripts \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty:${PORTSDIR}/print/texlive-ucharclasses \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/unisugar/unisugar.sty:${PORTSDIR}/print/texlive-unisugar \
-		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecjk/xeCJK.sty:${PORTSDIR}/print/texlive-xecjk \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecjk/config/xeCJK.cfg:${PORTSDIR}/print/texlive-xecjk \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecolor/xecolor.sty:${PORTSDIR}/print/texlive-xecolor \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecyr/xecyr.sty:${PORTSDIR}/print/texlive-xecyr \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xeindex/xeindex.sty:${PORTSDIR}/print/texlive-xeindex \

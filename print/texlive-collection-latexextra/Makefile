@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20121120
+PORTVERSION=	20121126
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -831,6 +831,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/qsymbols/qsymbols.sty:${PORTSDIR}/print/texlive-qsymbols \
 		${LOCALBASE}/share/texmf-dist/tex/latex/quotchap/quotchap.sty:${PORTSDIR}/print/texlive-quotchap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/quotmark/quotmark.sty:${PORTSDIR}/print/texlive-quotmark \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ran_toks/ran_toks.sty:${PORTSDIR}/print/texlive-ran_toks \
 		${LOCALBASE}/share/texmf-dist/tex/latex/randtext/randtext.sty:${PORTSDIR}/print/texlive-randtext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rccol/rccol.sty:${PORTSDIR}/print/texlive-rccol \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rcs-multi/rcs-multi.sty:${PORTSDIR}/print/texlive-rcs-multi \
