@@ -5,14 +5,14 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/superiors/stempelfoot1-crop.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/superiors/superiors-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/superiors/superiors-doc.tex
-share/texmf-dist/fonts/enc/public/superiors/sups.enc
+share/texmf-dist/fonts/enc/dvips/superiors/sups.enc
 share/texmf-dist/fonts/map/dvips/public/superiors/superiors.map
 share/texmf-dist/fonts/tfm/public/superiors/libertinesups.tfm
 share/texmf-dist/tex/latex/public/superiors/superiors.sty
 @dirrmtry share/texmf-dist/tex/latex/public/superiors
 @dirrmtry share/texmf-dist/fonts/tfm/public/superiors
 @dirrmtry share/texmf-dist/fonts/map/dvips/public/superiors
-@dirrmtry share/texmf-dist/fonts/enc/public/superiors
+@dirrmtry share/texmf-dist/fonts/enc/dvips/superiors
 @dirrmtry share/texmf-dist/doc/fonts/superiors
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
