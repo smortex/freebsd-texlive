@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20121120
+PORTVERSION=	20121128
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -129,7 +129,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/tex/latex/lato/lato.sty:${PORTSDIR}/print/texlive-lato \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/lfb/accents.mf:${PORTSDIR}/print/texlive-lfb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libertine/libertine.sty:${PORTSDIR}/print/texlive-libertine \
-		${LOCALBASE}/share/texmf-dist/tex/latex/libertineotf/libertineotf.sty:${PORTSDIR}/print/texlive-libertineotf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libris/libris.sty:${PORTSDIR}/print/texlive-libris \
 		${LOCALBASE}/share/texmf-dist/tex/latex/linearA/linearA.sty:${PORTSDIR}/print/texlive-linearA \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lxfonts/lxfonts.sty:${PORTSDIR}/print/texlive-lxfonts \
