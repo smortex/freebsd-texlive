@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/commado/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/commado/SrcFILEs.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/commado/commado.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/commado/commado.tex
+%%PORTSRC%%share/texmf-dist/source/generic/commado/srcfiles.tex
+share/texmf-dist/tex/generic/commado/commado.RLS
+share/texmf-dist/tex/generic/commado/commado.sty
+share/texmf-dist/tex/generic/commado/filesdo.sty
+@dirrmtry share/texmf-dist/tex/generic/commado
+@dirrmtry share/texmf-dist/source/generic/commado
+@dirrmtry share/texmf-dist/doc/generic/commado
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

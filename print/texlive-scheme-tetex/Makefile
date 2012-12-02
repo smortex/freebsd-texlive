@@ -90,7 +90,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/context/third/lilypond/t-lilypond.tex:${PORTSDIR}/print/texlive-context-lilypond \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-mathsets.xml:${PORTSDIR}/print/texlive-context-mathsets \
 		${LOCALBASE}/share/texmf-dist/scripts/context/lua/third/rst/mtx-t-rst.lua:${PORTSDIR}/print/texlive-context-rst \
-		${LOCALBASE}/share/texmf-dist/tex/context/third/ruby/t-ruby.tex:${PORTSDIR}/print/texlive-context-ruby \
+		${LOCALBASE}/share/texmf-dist/tex/context/third/ruby/t-ruby.mkii:${PORTSDIR}/print/texlive-context-ruby \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/simplefonts/t-simplefonts.lua:${PORTSDIR}/print/texlive-context-simplefonts \
 		${LOCALBASE}/share/texmf-dist/scripts/context/lua/third/simpleslides/mtx-simpleslides.lua:${PORTSDIR}/print/texlive-context-simpleslides \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/typearea/t-typearea.tex:${PORTSDIR}/print/texlive-context-typearea \
@@ -342,6 +342,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/binomexp/binomexp.sty:${PORTSDIR}/print/texlive-binomexp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boldtensors/boldtensors.sty:${PORTSDIR}/print/texlive-boldtensors \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bosisio/accenti.sty:${PORTSDIR}/print/texlive-bosisio \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bropd/bropd.sty:${PORTSDIR}/print/texlive-bropd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ccfonts/ccfonts.sty:${PORTSDIR}/print/texlive-ccfonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/commath/commath.sty:${PORTSDIR}/print/texlive-commath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/concmath/concmath.sty:${PORTSDIR}/print/texlive-concmath \
@@ -543,6 +544,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-eucl/pst-eucl.tex:${PORTSDIR}/print/texlive-pst-eucl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-exa/pst-exa.sty:${PORTSDIR}/print/texlive-pst-exa \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-fill/pst-fill.tex:${PORTSDIR}/print/texlive-pst-fill \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-fit/pst-fit.tex:${PORTSDIR}/print/texlive-pst-fit \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-fr3d/pst-fr3d.tex:${PORTSDIR}/print/texlive-pst-fr3d \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-fractal/pst-fractal.tex:${PORTSDIR}/print/texlive-pst-fractal \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-fun/pst-fun.tex:${PORTSDIR}/print/texlive-pst-fun \

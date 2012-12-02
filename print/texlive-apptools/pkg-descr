@@ -1,0 +1,5 @@
+The package provides an \AtAppendix command to add code to a
+hook that is executed when \appendix is called by the user.
+Additionally, a TeX conditional \ifappendix and a LaTeX-style
+conditional \IfAppendix are provided to check if \appendix has
+already been called.

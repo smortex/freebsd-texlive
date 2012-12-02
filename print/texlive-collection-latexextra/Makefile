@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20121126
+PORTVERSION=	20121201
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -251,6 +251,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty:${PORTSDIR}/print/texlive-anyfontsize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/appendix/appendix.sty:${PORTSDIR}/print/texlive-appendix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/appendixnumberbeamer/appendixnumberbeamer.sty:${PORTSDIR}/print/texlive-appendixnumberbeamer \
+		${LOCALBASE}/share/texmf-dist/tex/latex/apptools/apptools.sty:${PORTSDIR}/print/texlive-apptools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arcs/arcs.sty:${PORTSDIR}/print/texlive-arcs \
 		${LOCALBASE}/share/texmf-dist/tex/generic/arrayjobx/arrayjobx.sty:${PORTSDIR}/print/texlive-arrayjobx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/assignment/assignment.cls:${PORTSDIR}/print/texlive-assignment \
@@ -347,6 +348,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/combelow/combelow.sty:${PORTSDIR}/print/texlive-combelow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/combine/combine.cls:${PORTSDIR}/print/texlive-combine \
 		${LOCALBASE}/share/texmf-dist/tex/latex/comma/comma.sty:${PORTSDIR}/print/texlive-comma \
+		${LOCALBASE}/share/texmf-dist/tex/generic/commado/commado.sty:${PORTSDIR}/print/texlive-commado \
 		${LOCALBASE}/share/texmf-dist/tex/latex/comment/comment.sty:${PORTSDIR}/print/texlive-comment \
 		${LOCALBASE}/share/texmf-dist/tex/latex/concprog/ConcProg.cls:${PORTSDIR}/print/texlive-concprog \
 		${LOCALBASE}/share/texmf-dist/tex/latex/constants/constants.sty:${PORTSDIR}/print/texlive-constants \
