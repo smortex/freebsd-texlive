@@ -216,7 +216,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/context/third/lilypond/t-lilypond.tex:${PORTSDIR}/print/texlive-context-lilypond \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-mathsets.xml:${PORTSDIR}/print/texlive-context-mathsets \
 		${LOCALBASE}/share/texmf-dist/scripts/context/lua/third/rst/mtx-t-rst.lua:${PORTSDIR}/print/texlive-context-rst \
-		${LOCALBASE}/share/texmf-dist/tex/context/third/ruby/t-ruby.tex:${PORTSDIR}/print/texlive-context-ruby \
+		${LOCALBASE}/share/texmf-dist/tex/context/third/ruby/t-ruby.mkii:${PORTSDIR}/print/texlive-context-ruby \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/simplefonts/t-simplefonts.lua:${PORTSDIR}/print/texlive-context-simplefonts \
 		${LOCALBASE}/share/texmf-dist/scripts/context/lua/third/simpleslides/mtx-simpleslides.lua:${PORTSDIR}/print/texlive-context-simpleslides \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/typearea/t-typearea.tex:${PORTSDIR}/print/texlive-context-typearea \
@@ -339,7 +339,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/lato/lato.sty:${PORTSDIR}/print/texlive-lato \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/lfb/accents.mf:${PORTSDIR}/print/texlive-lfb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libertine/libertine.sty:${PORTSDIR}/print/texlive-libertine \
-		${LOCALBASE}/share/texmf-dist/tex/latex/libertineotf/libertineotf.sty:${PORTSDIR}/print/texlive-libertineotf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libris/libris.sty:${PORTSDIR}/print/texlive-libris \
 		${LOCALBASE}/share/texmf-dist/tex/latex/linearA/linearA.sty:${PORTSDIR}/print/texlive-linearA \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lxfonts/lxfonts.sty:${PORTSDIR}/print/texlive-lxfonts \
@@ -884,6 +883,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty:${PORTSDIR}/print/texlive-anyfontsize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/appendix/appendix.sty:${PORTSDIR}/print/texlive-appendix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/appendixnumberbeamer/appendixnumberbeamer.sty:${PORTSDIR}/print/texlive-appendixnumberbeamer \
+		${LOCALBASE}/share/texmf-dist/tex/latex/apptools/apptools.sty:${PORTSDIR}/print/texlive-apptools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arcs/arcs.sty:${PORTSDIR}/print/texlive-arcs \
 		${LOCALBASE}/share/texmf-dist/tex/generic/arrayjobx/arrayjobx.sty:${PORTSDIR}/print/texlive-arrayjobx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/assignment/assignment.cls:${PORTSDIR}/print/texlive-assignment \
@@ -980,6 +980,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/combelow/combelow.sty:${PORTSDIR}/print/texlive-combelow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/combine/combine.cls:${PORTSDIR}/print/texlive-combine \
 		${LOCALBASE}/share/texmf-dist/tex/latex/comma/comma.sty:${PORTSDIR}/print/texlive-comma \
+		${LOCALBASE}/share/texmf-dist/tex/generic/commado/commado.sty:${PORTSDIR}/print/texlive-commado \
 		${LOCALBASE}/share/texmf-dist/tex/latex/comment/comment.sty:${PORTSDIR}/print/texlive-comment \
 		${LOCALBASE}/share/texmf-dist/tex/latex/concprog/ConcProg.cls:${PORTSDIR}/print/texlive-concprog \
 		${LOCALBASE}/share/texmf-dist/tex/latex/constants/constants.sty:${PORTSDIR}/print/texlive-constants \

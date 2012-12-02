@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-libertine
-# Date created:		09/28/2012 04:58:02
+# New ports collection makefile for:	texlive-commado
+# Date created:		12/02/2012 05:02:55
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	libertine
+PORTNAME=	commado
 PORTVERSION=	20121201
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use of Linux Libertine and Biolinum fonts with LaTeX.
+COMMENT=	Expandable iteration on comma-separated and filename lists.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

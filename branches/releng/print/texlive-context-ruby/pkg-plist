@@ -1,5 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/context/third/ruby/README
-share/texmf-dist/tex/context/third/ruby/t-ruby.tex
+share/texmf-dist/tex/context/third/ruby/t-ruby.mkii
+share/texmf-dist/tex/context/third/ruby/t-ruby.mkiv
+share/texmf-dist/tex/context/third/ruby/t-ruby.mkvi
 @dirrmtry share/texmf-dist/tex/context/third/ruby
 @dirrmtry share/texmf-dist/doc/context/third/ruby
 @exec %D/bin/mktexlsr

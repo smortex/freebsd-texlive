@@ -1,0 +1,11 @@
+The bundle provides two packages: commado and filesdo. The
+package commado provides the command \DoWithCSL:
+\DoWithCSL{cmd}{list} applies an existing one-parameter macro
+cmd to each item in a list list in which terms are separated by
+commas. The package filesdo provides the command
+\DoWithBasesExts: \DoWithBasesExts{cmd}{bases}{exts} which runs
+the single parameter command cmd on each file whose base and
+extension are respectively from the comma-separated lists bases
+and exts. These 'loop'-like commands are (themselves) entirely
+expandable. The packages rely on packages plainpkg, and
+stacklet
