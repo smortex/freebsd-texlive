@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-commado
-# Date created:		12/02/2012 05:02:55
+# New ports collection makefile for:	texlive-spelling
+# Date created:		12/04/2012 05:13:27
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	commado
+PORTNAME=	spelling
 PORTVERSION=	20121203
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Expandable iteration on comma-separated and filename lists.
+COMMENT=	Support for spell-checking of LuaLaTeX documents.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
