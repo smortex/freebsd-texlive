@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-acro
-# Date created:		08/02/2012 12:33:55
+# New ports collection makefile for:	texlive-librebaskerville
+# Date created:		12/04/2012 04:48:39
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	acro
+PORTNAME=	librebaskerville
 PORTVERSION=	20121203
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset acronyms.
+COMMENT=	LaTeX support for the Libre Baskerville family of fonts.
 
 NOPORTSRC=	yes
 

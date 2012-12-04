@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/spelling/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/spelling/README
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/spelling/spelling-doc.bad
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/spelling/spelling-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/spelling/spelling-doc.tex
+share/texmf-dist/scripts/spelling/spelling-recurse.lua
+share/texmf-dist/scripts/spelling/spelling-stage-1.lua
+share/texmf-dist/scripts/spelling/spelling-stage-2.lua
+share/texmf-dist/scripts/spelling/spelling-stage-3.lua
+share/texmf-dist/scripts/spelling/spelling-stage-4.lua
+share/texmf-dist/scripts/spelling/spelling.lua
+share/texmf-dist/tex/lualatex/spelling/spelling.sty
+@dirrmtry share/texmf-dist/tex/lualatex/spelling
+@dirrmtry share/texmf-dist/scripts/spelling
+@dirrmtry share/texmf-dist/doc/lualatex/spelling
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

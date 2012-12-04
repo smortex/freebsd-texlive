@@ -3,35 +3,40 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/morehype/RELEASEs.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/morehype/SrcFILEs.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/morehype/blog.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/demo/texblog/makehtml.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/demo/texblog/texmap.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/demo/writings/makehtml.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/demo/writings/schreibt.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/demo/writings/writings.fdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/blogdemo/hellowor/hellowor.htm
+%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/blogdemo/hellowor/hellowor.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/blogdemo/hellowor/mkhellow.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/blogdemo/writings/makehtml.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/blogdemo/writings/schreibt.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/blogdemo/writings/writings.fdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/blogexec.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/morehype/hypertoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/morehype/markblog.htm
 %%PORTDOCS%%share/texmf-dist/doc/latex/morehype/texlinks.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/morehype/README.tex
 %%PORTSRC%%share/texmf-dist/source/latex/morehype/blog.tex
+%%PORTSRC%%share/texmf-dist/source/latex/morehype/blogexec.tex
 %%PORTSRC%%share/texmf-dist/source/latex/morehype/hypertoc.tex
+%%PORTSRC%%share/texmf-dist/source/latex/morehype/markblog.tex
 %%PORTSRC%%share/texmf-dist/source/latex/morehype/srcfiles.tex
 %%PORTSRC%%share/texmf-dist/source/latex/morehype/texlinks.tex
-%%PORTSRC%%share/texmf-dist/source/latex/morehype/upsfl.sh
 share/texmf-dist/tex/latex/morehype/atari_ht.fdf
 share/texmf-dist/tex/latex/morehype/blog.sty
 share/texmf-dist/tex/latex/morehype/blogdot.cfg
 share/texmf-dist/tex/latex/morehype/blogdot.css
 share/texmf-dist/tex/latex/morehype/blogdot.sty
+share/texmf-dist/tex/latex/morehype/blogexec.sty
+share/texmf-dist/tex/latex/morehype/blogligs.sty
 share/texmf-dist/tex/latex/morehype/hypertoc.sty
-share/texmf-dist/tex/latex/morehype/lang-de.fdf
-share/texmf-dist/tex/latex/morehype/lang-en.fdf
 share/texmf-dist/tex/latex/morehype/lnavicol.sty
+share/texmf-dist/tex/latex/morehype/markblog.sty
 share/texmf-dist/tex/latex/morehype/morehype.RLS
 share/texmf-dist/tex/latex/morehype/texblog.fdf
 share/texmf-dist/tex/latex/morehype/texlinks.sty
 @dirrmtry share/texmf-dist/tex/latex/morehype
 @dirrmtry share/texmf-dist/source/latex/morehype
-@dirrmtry share/texmf-dist/doc/latex/morehype/demo/writings
-@dirrmtry share/texmf-dist/doc/latex/morehype/demo/texblog
+@dirrmtry share/texmf-dist/doc/latex/morehype/blogdemo/writings
+@dirrmtry share/texmf-dist/doc/latex/morehype/blogdemo/hellowor
 @dirrmtry share/texmf-dist/doc/latex/morehype
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

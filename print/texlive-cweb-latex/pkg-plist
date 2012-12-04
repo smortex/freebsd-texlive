@@ -3,6 +3,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/cweb-latex/INSTALL
 %%PORTDOCS%%share/texmf-dist/doc/latex/cweb-latex/License
 %%PORTDOCS%%share/texmf-dist/doc/latex/cweb-latex/MANIFEST
+%%PORTDOCS%%share/texmf-dist/doc/latex/cweb-latex/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/cweb-latex/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/cweb-latex/contrib/Index
 %%PORTDOCS%%share/texmf-dist/doc/latex/cweb-latex/contrib/cwbl-deutsch.sty
@@ -15,7 +16,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/cweb-latex/contrib/wagner/cwebzw.sty
 %%PORTDOCS%%share/texmf-dist/doc/latex/cweb-latex/cweb-conf.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/cweb-latex/cweb-user.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/cweb-latex/cwebbase.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/cweb-latex/examples/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/cweb-latex/examples/compare/wcltx.aux
 %%PORTDOCS%%share/texmf-dist/doc/latex/cweb-latex/examples/compare/wcltx.bbl
@@ -72,14 +72,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/cweb-latex/src/test/titlepage.w
 %%PORTDOCS%%share/texmf-dist/doc/latex/cweb-latex/src/test/token.w
 %%PORTDOCS%%share/texmf-dist/doc/latex/cweb-latex/src/test/vbar.w
-%%PORTSRC%%share/texmf-dist/source/latex/cweb-latex/Makefile
 share/texmf-dist/tex/latex/cweb-latex/cwbl-german.sty
 share/texmf-dist/tex/latex/cweb-latex/cweb.cls
-share/texmf-dist/tex/latex/cweb-latex/cweb.cls.patch
 share/texmf-dist/tex/latex/cweb-latex/cwebarray.sty
+share/texmf-dist/tex/latex/cweb-latex/cwebbase.tex
 share/texmf-dist/tex/latex/cweb-latex/keyvald.sty
 @dirrmtry share/texmf-dist/tex/latex/cweb-latex
-@dirrmtry share/texmf-dist/source/latex/cweb-latex
 @dirrmtry share/texmf-dist/doc/latex/cweb-latex/src/test
 @dirrmtry share/texmf-dist/doc/latex/cweb-latex/src/style
 @dirrmtry share/texmf-dist/doc/latex/cweb-latex/src
