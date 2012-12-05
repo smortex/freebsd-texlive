@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocg-p/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocg-p/examples/ocg-p_example_1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocg-p/examples/ocg-p_example_1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocg-p/examples/ocg-p_example_2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocg-p/examples/ocg-p_example_2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocg-p/examples/ocg-p_example_3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocg-p/examples/ocg-p_example_3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocg-p/ocg-p.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ocg-p/ocg-p.tex
+share/texmf-dist/tex/latex/ocg-p/ocg-p.sty
+@dirrmtry share/texmf-dist/tex/latex/ocg-p
+@dirrmtry share/texmf-dist/doc/latex/ocg-p/examples
+@dirrmtry share/texmf-dist/doc/latex/ocg-p
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
