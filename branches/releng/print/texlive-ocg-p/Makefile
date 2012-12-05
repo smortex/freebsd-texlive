@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-libertine
-# Date created:		09/28/2012 04:58:02
+# New ports collection makefile for:	texlive-ocg-p
+# Date created:		12/05/2012 05:28:15
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	libertine
+PORTNAME=	ocg-p
 PORTVERSION=	20121204
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use of Linux Libertine and Biolinum fonts with LaTeX.
+COMMENT=	PDF OCG support in LaTeX.
 
 NOPORTSRC=	yes
 

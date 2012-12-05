@@ -1,0 +1,4 @@
+The package provides OCG (Optional Content Groups) support
+within a PDF document, replacing the ocg.sty distributed with
+asymptote. Nested OCGs are supported. The package may be used
+with PFDLatex and XeLaTeX.

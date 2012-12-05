@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20121201
+PORTVERSION=	20121204
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -751,6 +751,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/ntheorem/ntheorem.sty:${PORTSDIR}/print/texlive-ntheorem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/numname/numname.sty:${PORTSDIR}/print/texlive-numname \
 		${LOCALBASE}/share/texmf-dist/tex/latex/numprint/numprint.sty:${PORTSDIR}/print/texlive-numprint \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ocg-p/ocg-p.sty:${PORTSDIR}/print/texlive-ocg-p \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ocgx/ocgx.sty:${PORTSDIR}/print/texlive-ocgx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ocr-latex/ocr.sty:${PORTSDIR}/print/texlive-ocr-latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/octavo/octavo.cls:${PORTSDIR}/print/texlive-octavo \
