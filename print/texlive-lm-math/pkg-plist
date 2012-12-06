@@ -12,7 +12,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-word-lmodern_math.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-xelatex-lmodern_math.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-xelatex-lmodern_math.tex
-share/texmf-dist/fonts/opentype/public/lm-math/lmodern-math.otf
+share/texmf-dist/fonts/opentype/public/lm-math/latinmodernmath-regular.otf
 @dirrmtry share/texmf-dist/fonts/opentype/public/lm-math
 @dirrmtry share/texmf-dist/doc/fonts/lm-math
 @exec %D/bin/mktexlsr

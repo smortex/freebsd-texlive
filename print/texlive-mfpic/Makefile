@@ -6,12 +6,12 @@
 #
 
 PORTNAME=	mfpic
-PORTVERSION=	20110323
+PORTVERSION=	20121205
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw MetaFont/Post pictures from (La)TeX commands.
+COMMENT=	Draw Metafont/post pictures from (La)TeX commands.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

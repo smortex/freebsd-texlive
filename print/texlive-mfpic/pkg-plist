@@ -22,6 +22,7 @@ share/texmf-dist/metapost/mfpic/grafbase.mp
 %%PORTSRC%%share/texmf-dist/source/generic/mfpic/mfpic.ins
 share/texmf-dist/tex/generic/mfpic/mfpic.sty
 share/texmf-dist/tex/generic/mfpic/mfpic.tex
+share/texmf-dist/tex/generic/mfpic/mfpicdef.tex
 @dirrmtry share/texmf-dist/tex/generic/mfpic
 @dirrmtry share/texmf-dist/source/generic/mfpic
 @dirrmtry share/texmf-dist/metapost/mfpic
