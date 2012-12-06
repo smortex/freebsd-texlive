@@ -414,7 +414,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/fpl/fplbij8a.afm:${PORTSDIR}/print/texlive-fpl \
 		${LOCALBASE}/share/texmf-dist/dvips/helvetic/config.uhv:${PORTSDIR}/print/texlive-helvetic \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/lm/lmb10.afm:${PORTSDIR}/print/texlive-lm \
-		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/lm-math/lmodern-math.otf:${PORTSDIR}/print/texlive-lm-math \
+		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/lm-math/latinmodernmath-regular.otf:${PORTSDIR}/print/texlive-lm-math \
 		${LOCALBASE}/share/texmf-dist/tex/latex/marvosym/marvosym.sty:${PORTSDIR}/print/texlive-marvosym \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/mathpazo/fplmb.afm:${PORTSDIR}/print/texlive-mathpazo \
 		${LOCALBASE}/share/texmf-dist/dvips/ncntrsbk/config.unc:${PORTSDIR}/print/texlive-ncntrsbk \
@@ -423,7 +423,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/rsfs/rsfs10.afm:${PORTSDIR}/print/texlive-rsfs \
 		${LOCALBASE}/share/texmf-dist/dvips/symbol/config.usy:${PORTSDIR}/print/texlive-symbol \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/tex-gyre/qagb.afm:${PORTSDIR}/print/texlive-tex-gyre \
-		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyrepagella-math.otf:${PORTSDIR}/print/texlive-tex-gyre-math \
+		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyrepagellamath-regular.otf:${PORTSDIR}/print/texlive-tex-gyre-math \
 		${LOCALBASE}/share/texmf-dist/dvips/times/config.utm:${PORTSDIR}/print/texlive-times \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tipa/tipa.sty:${PORTSDIR}/print/texlive-tipa \
 		${LOCALBASE}/share/texmf-dist/tex/latex/txfonts/txfonts.sty:${PORTSDIR}/print/texlive-txfonts \

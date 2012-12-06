@@ -73,6 +73,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORT
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/fpl/fplbij8a.afm:${PORTSDIR}/print/texlive-fpl \
 		${LOCALBASE}/share/texmf-dist/dvips/helvetic/config.uhv:${PORTSDIR}/print/texlive-helvetic \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/lm/lmb10.afm:${PORTSDIR}/print/texlive-lm \
+		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/lm-math/latinmodernmath-regular.otf:${PORTSDIR}/print/texlive-lm-math \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/mathpazo/fplmb.afm:${PORTSDIR}/print/texlive-mathpazo \
 		${LOCALBASE}/share/texmf-dist/dvips/ncntrsbk/config.unc:${PORTSDIR}/print/texlive-ncntrsbk \
 		${LOCALBASE}/share/texmf-dist/dvips/palatino/config.upl:${PORTSDIR}/print/texlive-palatino \
@@ -80,7 +81,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORT
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/rsfs/rsfs10.afm:${PORTSDIR}/print/texlive-rsfs \
 		${LOCALBASE}/share/texmf-dist/dvips/symbol/config.usy:${PORTSDIR}/print/texlive-symbol \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/tex-gyre/qagb.afm:${PORTSDIR}/print/texlive-tex-gyre \
-		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyrepagella-math.otf:${PORTSDIR}/print/texlive-tex-gyre-math \
+		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyrepagellamath-regular.otf:${PORTSDIR}/print/texlive-tex-gyre-math \
 		${LOCALBASE}/share/texmf-dist/dvips/times/config.utm:${PORTSDIR}/print/texlive-times \
 		${LOCALBASE}/share/texmf-dist/tex/latex/txfonts/txfonts.sty:${PORTSDIR}/print/texlive-txfonts \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/adobe/utopia/putb8a.afm:${PORTSDIR}/print/texlive-utopia \

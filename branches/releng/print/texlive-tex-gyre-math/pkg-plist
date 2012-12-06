@@ -22,8 +22,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/test-xelatex-tg_pagella_math.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/test-xelatex-tg_termes_math.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/tex-gyre-math/test-xelatex-tg_termes_math.tex
-share/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyrepagella-math.otf
-share/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyretermes-math.otf
+share/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyrepagellamath-regular.otf
+share/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyretermesmath-regular.otf
 @dirrmtry share/texmf-dist/fonts/opentype/public/tex-gyre-math
 @dirrmtry share/texmf-dist/doc/fonts/tex-gyre-math
 @exec %D/bin/mktexlsr
