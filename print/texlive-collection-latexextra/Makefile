@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20121204
+PORTVERSION=	20121208
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -958,6 +958,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabfigures/tabfigures.sty:${PORTSDIR}/print/texlive-tabfigures \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tableaux/minimum.sty:${PORTSDIR}/print/texlive-tableaux \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tablefootnote/tablefootnote.sty:${PORTSDIR}/print/texlive-tablefootnote \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tableof/tableof.sty:${PORTSDIR}/print/texlive-tableof \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tablists/tablists.sty:${PORTSDIR}/print/texlive-tablists \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabls/tabls.sty:${PORTSDIR}/print/texlive-tabls \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabto-ltx/tabto.sty:${PORTSDIR}/print/texlive-tabto-ltx \

@@ -16,6 +16,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/morehype/README.tex
 %%PORTSRC%%share/texmf-dist/source/latex/morehype/blog.tex
 %%PORTSRC%%share/texmf-dist/source/latex/morehype/blogexec.tex
+%%PORTSRC%%share/texmf-dist/source/latex/morehype/fdatechk.tex
 %%PORTSRC%%share/texmf-dist/source/latex/morehype/hypertoc.tex
 %%PORTSRC%%share/texmf-dist/source/latex/morehype/markblog.tex
 %%PORTSRC%%share/texmf-dist/source/latex/morehype/srcfiles.tex

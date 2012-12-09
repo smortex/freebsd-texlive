@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tableof/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tableof/tableof.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/tableof/tableof.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tableof/tableof.ins
+share/texmf-dist/tex/latex/tableof/tableof.sty
+@dirrmtry share/texmf-dist/tex/latex/tableof
+@dirrmtry share/texmf-dist/source/latex/tableof
+@dirrmtry share/texmf-dist/doc/latex/tableof
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
