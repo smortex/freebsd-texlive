@@ -8,6 +8,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/cms-dates-sample.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/cms-notes-sample.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/cms-notes-sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/cms-trad-sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/cms-trad-sample.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/cms15-dates-sample.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/cms15-dates-sample.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/cms15-notes-sample.pdf
@@ -15,6 +17,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/dates-test.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/notes-test.bib
 share/texmf-dist/tex/latex/biblatex-chicago/biblatex-chicago.sty
+share/texmf-dist/tex/latex/biblatex-chicago/chicago-authordate-trad.bbx
+share/texmf-dist/tex/latex/biblatex-chicago/chicago-authordate-trad.cbx
 share/texmf-dist/tex/latex/biblatex-chicago/chicago-authordate.bbx
 share/texmf-dist/tex/latex/biblatex-chicago/chicago-authordate.cbx
 share/texmf-dist/tex/latex/biblatex-chicago/chicago-authordate15.bbx
@@ -24,9 +28,14 @@ share/texmf-dist/tex/latex/biblatex-chicago/chicago-notes.cbx
 share/texmf-dist/tex/latex/biblatex-chicago/chicago-notes15.bbx
 share/texmf-dist/tex/latex/biblatex-chicago/chicago-notes15.cbx
 share/texmf-dist/tex/latex/biblatex-chicago/cms-american.lbx
+share/texmf-dist/tex/latex/biblatex-chicago/cms-british.lbx
 share/texmf-dist/tex/latex/biblatex-chicago/cms-french.lbx
 share/texmf-dist/tex/latex/biblatex-chicago/cms-german.lbx
+share/texmf-dist/tex/latex/biblatex-chicago/cms-icelandic.lbx
 share/texmf-dist/tex/latex/biblatex-chicago/cms-ngerman.lbx
+share/texmf-dist/tex/latex/biblatex-chicago/cms-norsk.lbx
+share/texmf-dist/tex/latex/biblatex-chicago/cms-norwegian.lbx
+share/texmf-dist/tex/latex/biblatex-chicago/cms-nynorsk.lbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-chicago
 @dirrmtry share/texmf-dist/doc/latex/biblatex-chicago
 @exec %D/bin/mktexlsr
