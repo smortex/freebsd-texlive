@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20121208
+PORTVERSION=	20121209
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -350,6 +350,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/comma/comma.sty:${PORTSDIR}/print/texlive-comma \
 		${LOCALBASE}/share/texmf-dist/tex/generic/commado/commado.sty:${PORTSDIR}/print/texlive-commado \
 		${LOCALBASE}/share/texmf-dist/tex/latex/comment/comment.sty:${PORTSDIR}/print/texlive-comment \
+		${LOCALBASE}/share/texmf-dist/tex/latex/concepts/concepts.sty:${PORTSDIR}/print/texlive-concepts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/concprog/ConcProg.cls:${PORTSDIR}/print/texlive-concprog \
 		${LOCALBASE}/share/texmf-dist/tex/latex/constants/constants.sty:${PORTSDIR}/print/texlive-constants \
 		${LOCALBASE}/share/texmf-dist/tex/latex/contour/contour.sty:${PORTSDIR}/print/texlive-contour \
