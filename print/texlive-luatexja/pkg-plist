@@ -16,6 +16,7 @@
 %%PORTSRC%%share/texmf-dist/source/luatex/luatexja/ltjltxdoc.ins
 %%PORTSRC%%share/texmf-dist/source/luatex/luatexja/ltjsclasses.dtx
 %%PORTSRC%%share/texmf-dist/source/luatex/luatexja/ltjsclasses.ins
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexja/luatexja-kinsoku.tex
 %%PORTSRC%%share/texmf-dist/source/luatex/luatexja/luatexja-kinsoku_make.tex
 %%PORTSRC%%share/texmf-dist/source/luatex/luatexja/mk-rmlgbm-data.tex
 %%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/blocks2defcharrange.rb
@@ -29,6 +30,7 @@
 %%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/otf-AdobeSongStd-Light.txt
 %%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/otf-KozMinPr6N-Regular.txt
 %%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/unicodeBlocks.tex
+share/texmf-dist/tex/luatex/luatexja/addons/luatexja-adjust.sty
 share/texmf-dist/tex/luatex/luatexja/addons/luatexja-ajmacros.sty
 share/texmf-dist/tex/luatex/luatexja/addons/luatexja-fontspec.sty
 share/texmf-dist/tex/luatex/luatexja/addons/luatexja-otf.sty
@@ -41,6 +43,7 @@ share/texmf-dist/tex/luatex/luatexja/jfm-mono.lua
 share/texmf-dist/tex/luatex/luatexja/jfm-prop.lua
 share/texmf-dist/tex/luatex/luatexja/jfm-quanjiao.lua
 share/texmf-dist/tex/luatex/luatexja/jfm-ujis.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-adjust.lua
 share/texmf-dist/tex/luatex/luatexja/ltj-base.lua
 share/texmf-dist/tex/luatex/luatexja/ltj-base.sty
 share/texmf-dist/tex/luatex/luatexja/ltj-cctbreg.sty
@@ -57,6 +60,7 @@ share/texmf-dist/tex/luatex/luatexja/ltj-inputbuf.lua
 share/texmf-dist/tex/luatex/luatexja/ltj-jfmglue.lua
 share/texmf-dist/tex/luatex/luatexja/ltj-jfont.lua
 share/texmf-dist/tex/luatex/luatexja/ltj-jisx0208.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-kinsoku.lua
 share/texmf-dist/tex/luatex/luatexja/ltj-latex.sty
 share/texmf-dist/tex/luatex/luatexja/ltj-math.lua
 share/texmf-dist/tex/luatex/luatexja/ltj-otf.lua
@@ -82,13 +86,11 @@ share/texmf-dist/tex/luatex/luatexja/ltjsclasses/ltjskiyou.cls
 share/texmf-dist/tex/luatex/luatexja/ltjsclasses/ltjspf.cls
 share/texmf-dist/tex/luatex/luatexja/luatexja-compat.sty
 share/texmf-dist/tex/luatex/luatexja/luatexja-core.sty
-share/texmf-dist/tex/luatex/luatexja/luatexja-kinsoku.tex
 share/texmf-dist/tex/luatex/luatexja/luatexja.lua
 share/texmf-dist/tex/luatex/luatexja/luatexja.sty
 share/texmf-dist/tex/luatex/luatexja/patches/lltjcore.sty
 share/texmf-dist/tex/luatex/luatexja/patches/lltjdefs.sty
 share/texmf-dist/tex/luatex/luatexja/patches/lltjfont.sty
-share/texmf-dist/tex/luatex/luatexja/patches/lltjp-listings-jpt.tex
 share/texmf-dist/tex/luatex/luatexja/patches/lltjp-listings.sty
 share/texmf-dist/tex/luatex/luatexja/patches/lltjp-unicode-math.sty
 share/texmf-dist/tex/luatex/luatexja/patches/lltjp-xunicode.sty
