@@ -6,12 +6,12 @@
 #
 
 PORTNAME=	chet
-PORTVERSION=	20111219
+PORTVERSION=	20121210
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX class inspired by harvmac.
+COMMENT=	LaTeX layout inspired by harvmac.
 
 NOPORTSRC=	yes
 
