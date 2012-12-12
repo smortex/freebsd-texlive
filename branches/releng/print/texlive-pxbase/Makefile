@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-ocgx
-# Date created:		09/30/2012 05:10:16
+# New ports collection makefile for:	texlive-pxbase
+# Date created:		12/12/2012 04:53:47
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	ocgx
+PORTNAME=	pxbase
 PORTVERSION=	20121211
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use OCGs within a PDF document without JavaScript.
+COMMENT=	Tools for use with (u)pLaTeX.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

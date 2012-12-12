@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxbase/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxbase/README
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxbase/README-pxbabel
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxbase/README-pxcjkcat
+share/texmf-dist/tex/platex/pxbase/ifuptex.sty
+share/texmf-dist/tex/platex/pxbase/pxbabel.sty
+share/texmf-dist/tex/platex/pxbase/pxbase.def
+share/texmf-dist/tex/platex/pxbase/pxbase.sty
+share/texmf-dist/tex/platex/pxbase/pxbasenc.def
+share/texmf-dist/tex/platex/pxbase/pxbsjc.def
+share/texmf-dist/tex/platex/pxbase/pxcjkcat.sty
+share/texmf-dist/tex/platex/pxbase/pxjsfenc.def
+share/texmf-dist/tex/platex/pxbase/upkcat.sty
+@dirrmtry share/texmf-dist/tex/platex/pxbase
+@dirrmtry share/texmf-dist/doc/platex/pxbase
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
