@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-langcjk
-PORTVERSION=	20121211
+PORTVERSION=	20121212
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -66,8 +66,11 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexja/luatexja.sty:${PORTSDIR}/print/texlive-luatexja \
 		${LOCALBASE}/share/texmf-dist/dvips/norasi-c90/config.norasi-c90:${PORTSDIR}/print/texlive-norasi-c90 \
 		${LOCALBASE}/share/texmf-dist/tex/ptex/base/ptex.tex:${PORTSDIR}/print/texlive-ptex \
-		${LOCALBASE}/share/texmf-dist/tex/latex/pxcjkcat/pxcjkcat.sty:${PORTSDIR}/print/texlive-pxcjkcat \
 		${LOCALBASE}/share/texmf-dist/tex/platex/pxbase/pxbase.sty:${PORTSDIR}/print/texlive-pxbase \
+		${LOCALBASE}/share/texmf-dist/tex/platex/pxchfon/pxchfon.sty:${PORTSDIR}/print/texlive-pxchfon \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pxcjkcat/pxcjkcat.sty:${PORTSDIR}/print/texlive-pxcjkcat \
+		${LOCALBASE}/share/texmf-dist/tex/platex/pxjahyper/pxjahyper.sty:${PORTSDIR}/print/texlive-pxjahyper \
+		${LOCALBASE}/share/texmf-dist/tex/platex/pxrubrica/pxrubrica.sty:${PORTSDIR}/print/texlive-pxrubrica \
 		${LOCALBASE}/share/texmf-dist/tex/generic/thailatex/hyph-th-utf8.tex:${PORTSDIR}/print/texlive-thailatex \
 		${LOCALBASE}/share/texmf-dist/dvips/uhc/config.uhc:${PORTSDIR}/print/texlive-uhc \
 		${LOCALBASE}/share/texmf-dist/tex/uptex/base/uptex.tex:${PORTSDIR}/print/texlive-uptex \

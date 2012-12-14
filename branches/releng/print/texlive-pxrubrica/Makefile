@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-pxbase
-# Date created:		12/12/2012 04:53:47
+# New ports collection makefile for:	texlive-pxrubrica
+# Date created:		12/14/2012 04:55:01
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	pxbase
-PORTVERSION=	20121213
+PORTNAME=	pxrubrica
+PORTVERSION=	20121212
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Tools for use with (u)pLaTeX.
+COMMENT=	The pxrubrica package
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

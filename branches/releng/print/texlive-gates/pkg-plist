@@ -2,9 +2,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/gates/gates-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/gates/gates-doc.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/gates/gates-doc.txt
-%%PORTDOCS%%share/texmf-dist/doc/generic/gates/gates.tex
 share/texmf-dist/tex/generic/gates/gates.lua
 share/texmf-dist/tex/generic/gates/gates.sty
+share/texmf-dist/tex/generic/gates/gates.tex
 share/texmf-dist/tex/generic/gates/t-gates.tex
 @dirrmtry share/texmf-dist/tex/generic/gates
 @dirrmtry share/texmf-dist/doc/generic/gates
