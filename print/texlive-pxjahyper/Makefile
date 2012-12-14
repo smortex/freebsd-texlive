@@ -1,17 +1,16 @@
-# New ports collection makefile for:	texlive-dice
-# Date created:		13/03/2010 04:26:11
-# Whom:		romain@blogreen.org
+# New ports collection makefile for:	texlive-pxjahyper
+# Date created:		12/14/2012 04:55:01
+# Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	dice
+PORTNAME=	pxjahyper
 PORTVERSION=	20121212
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A font for die faces.
+COMMENT=	Hyperref support for pLaTeX.
 
 NOPORTSRC=	yes
 

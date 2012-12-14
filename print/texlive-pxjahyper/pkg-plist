@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxjahyper/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxjahyper/README
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxjahyper/pxjahyper.pdf
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxjahyper/pxjahyper.tex
+share/texmf-dist/tex/platex/pxjahyper/pxjahyper.sty
+@dirrmtry share/texmf-dist/tex/platex/pxjahyper
+@dirrmtry share/texmf-dist/doc/platex/pxjahyper
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

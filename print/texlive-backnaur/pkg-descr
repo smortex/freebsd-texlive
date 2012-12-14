@@ -1,0 +1,3 @@
+The package typesets Backus-Naur Form (BNF) definitions. It
+creates aligned lists of productions, with numbers if required.
+It can also print in-line BNF expressions using math mode.

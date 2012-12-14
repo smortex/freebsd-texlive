@@ -1,0 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxrubrica/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxrubrica/README
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxrubrica/pxrubrica-en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxrubrica/pxrubrica-en.tex
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxrubrica/pxrubrica.pdf
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxrubrica/sample/test-jlreq.pdf
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxrubrica/sample/test-jlreq.tex
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxrubrica/sample/test-sf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxrubrica/sample/test-sf.tex
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxrubrica/sample/test-toc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxrubrica/sample/test-toc.tex
+%%PORTSRC%%share/texmf-dist/source/platex/pxrubrica/pxrubrica.dtx
+%%PORTSRC%%share/texmf-dist/source/platex/pxrubrica/pxrubrica.ins
+share/texmf-dist/tex/platex/pxrubrica/pxrubrica.sty
+@dirrmtry share/texmf-dist/tex/platex/pxrubrica
+@dirrmtry share/texmf-dist/source/platex/pxrubrica
+@dirrmtry share/texmf-dist/doc/platex/pxrubrica/sample
+@dirrmtry share/texmf-dist/doc/platex/pxrubrica
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
