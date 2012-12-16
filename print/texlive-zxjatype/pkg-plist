@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/zxjatype/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/zxjatype/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/zxjatype/example/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/zxjatype/example/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/zxjatype/example/xetexsamp01.pdf
+share/texmf-dist/tex/latex/zxjatype/zxjatype.sty
+@dirrmtry share/texmf-dist/tex/latex/zxjatype
+@dirrmtry share/texmf-dist/doc/latex/zxjatype/example
+@dirrmtry share/texmf-dist/doc/latex/zxjatype
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

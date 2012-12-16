@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-langcjk
-PORTVERSION=	20121212
+PORTVERSION=	20121216
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -78,7 +78,10 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/xpinyin/xpinyin.sty:${PORTSDIR}/print/texlive-xpinyin \
 		${LOCALBASE}/share/texmf-dist/fonts/tfm/zhmetrics/cyberb/cyberb00.tfm:${PORTSDIR}/print/texlive-zhmetrics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zhnumber/zhnumber.sty:${PORTSDIR}/print/texlive-zhnumber \
-		${LOCALBASE}/share/texmf-dist/tex/xetex/zhspacing/generic/zhspacing.sty:${PORTSDIR}/print/texlive-zhspacing
+		${LOCALBASE}/share/texmf-dist/tex/xetex/zhspacing/generic/zhspacing.sty:${PORTSDIR}/print/texlive-zhspacing \
+		${LOCALBASE}/share/texmf-dist/tex/latex/zxjafbfont/zxjafbfont.sty:${PORTSDIR}/print/texlive-zxjafbfont \
+		${LOCALBASE}/share/texmf-dist/tex/latex/zxjafont/zxjafont.sty:${PORTSDIR}/print/texlive-zxjafont \
+		${LOCALBASE}/share/texmf-dist/tex/latex/zxjatype/zxjatype.sty:${PORTSDIR}/print/texlive-zxjatype
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes

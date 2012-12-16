@@ -12,6 +12,7 @@
 %%PORTSRC%%share/texmf-dist/source/xelatex/xecjk/xeCJK.ins
 share/texmf-dist/tex/xelatex/xecjk/config/xeCJK.cfg
 share/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+share/texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty
 @dirrmtry share/texmf-dist/tex/xelatex/xecjk/config
 @dirrmtry share/texmf-dist/tex/xelatex/xecjk
 @dirrmtry share/texmf-dist/source/xelatex/xecjk
