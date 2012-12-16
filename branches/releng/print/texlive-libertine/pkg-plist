@@ -4,8 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine/LICENCE.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine/ToDo.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertine/g2ntotex.c
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine/libertine.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine/libertine.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertine/rename_enc
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine/samples.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/libertine/samples.tex
 share/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc

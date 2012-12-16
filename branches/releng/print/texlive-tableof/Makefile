@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	tableof
-PORTVERSION=	20121208
+PORTVERSION=	20121215
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The tableof package
+COMMENT=	Tagging tables of contents.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

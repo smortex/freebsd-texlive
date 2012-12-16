@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-libertine
-# Date created:		09/28/2012 04:58:02
+# New ports collection makefile for:	texlive-zxjafbfont
+# Date created:		12/16/2012 07:16:47
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	libertine
-PORTVERSION=	20121214
+PORTNAME=	zxjafbfont
+PORTVERSION=	20121216
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use of Linux Libertine and Biolinum fonts with LaTeX.
+COMMENT=	The zxjafbfont package
 
 NOPORTSRC=	yes
 

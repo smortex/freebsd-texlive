@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/zxjafbfont/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/zxjafbfont/README
+share/texmf-dist/tex/latex/zxjafbfont/zxjafbfont.sty
+@dirrmtry share/texmf-dist/tex/latex/zxjafbfont
+@dirrmtry share/texmf-dist/doc/latex/zxjafbfont
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
