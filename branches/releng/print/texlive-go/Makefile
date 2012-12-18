@@ -6,14 +6,13 @@
 #
 
 PORTNAME=	go
-PORTVERSION=	20100610
+PORTVERSION=	20121217
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Fonts and macros for typesetting go games.
 
-NOPORTDOCS=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
