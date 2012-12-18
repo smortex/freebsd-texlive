@@ -1,3 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/go/gomaps.ltx
 share/texmf-dist/fonts/source/public/go/go.mf
 share/texmf-dist/fonts/source/public/go/go10.mf
 share/texmf-dist/fonts/source/public/go/go15.mf
@@ -35,11 +36,13 @@ share/texmf-dist/fonts/tfm/public/go/go2whi10.tfm
 share/texmf-dist/fonts/tfm/public/go/go2whi15.tfm
 share/texmf-dist/fonts/tfm/public/go/go2whi20.tfm
 share/texmf-dist/fonts/tfm/public/go/gosign50.tfm
-%%PORTSRC%%share/texmf-dist/source/latex/go/gomaps.ltx
+%%PORTSRC%%share/texmf-dist/source/fonts/go/go.bat
+%%PORTSRC%%share/texmf-dist/source/fonts/go/go1.bat
 share/texmf-dist/tex/latex/go/go.sty
 @dirrmtry share/texmf-dist/tex/latex/go
-@dirrmtry share/texmf-dist/source/latex/go
+@dirrmtry share/texmf-dist/source/fonts/go
 @dirrmtry share/texmf-dist/fonts/tfm/public/go
 @dirrmtry share/texmf-dist/fonts/source/public/go
+@dirrmtry share/texmf-dist/doc/fonts/go
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

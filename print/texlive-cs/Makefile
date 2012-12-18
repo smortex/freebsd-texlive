@@ -6,12 +6,12 @@
 #
 
 PORTNAME=	cs
-PORTVERSION=	20100610
+PORTVERSION=	20121217
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The cs package
+COMMENT=	Czech/Slovakian PostScript font support.
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
