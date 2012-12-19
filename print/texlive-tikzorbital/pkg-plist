@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikzorbital/tikzorbital.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikzorbital/tikzorbital.tex
+share/texmf-dist/tex/latex/tikzorbital/tikzorbital.sty
+@dirrmtry share/texmf-dist/tex/latex/tikzorbital
+@dirrmtry share/texmf-dist/doc/latex/tikzorbital
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

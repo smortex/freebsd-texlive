@@ -1,17 +1,18 @@
-# New ports collection makefile for:	texlive-tableof
-# Date created:		12/09/2012 05:10:17
+# New ports collection makefile for:	texlive-tikzorbital
+# Date created:		12/19/2012 05:04:29
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	tableof
+PORTNAME=	tikzorbital
 PORTVERSION=	20121218
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Tagging tables of contents.
+COMMENT=	Atomic and molecular orbitals using TiKZ.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
