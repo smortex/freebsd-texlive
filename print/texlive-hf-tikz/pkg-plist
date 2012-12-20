@@ -1,6 +1,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/hf-tikz/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/hf-tikz/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/hf-tikz/hf-tikz.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/hf-tikz/hf-tikz.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/hf-tikz/hf-tikz.ins
 share/texmf-dist/tex/latex/hf-tikz/hf-tikz.sty
 @dirrmtry share/texmf-dist/tex/latex/hf-tikz
 @dirrmtry share/texmf-dist/source/latex/hf-tikz
