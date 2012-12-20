@@ -6,12 +6,12 @@
 #
 
 PORTNAME=	cs
-PORTVERSION=	20121217
+PORTVERSION=	20121219
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Czech/Slovakian PostScript font support.
+COMMENT=	Czech/Slovak-tuned Computer Modern fonts.
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes

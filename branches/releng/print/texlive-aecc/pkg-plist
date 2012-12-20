@@ -1,0 +1,51 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/MANIFEST
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/aeccfonts.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/aefonts.mtx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/aehax5.mtx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/aehaxit.mtx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/aehaxrm.mtx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/aehaxsc.mtx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/aehaxsl.mtx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/aehaxss.mtx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/aelatin.mtx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/aelatint.mtx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/aesample.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/aet1.etx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/bxittest.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/clean
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/germtest.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/go
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/install
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/makepl
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/ot1tt.etx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/aecc/slitest.tex
+share/texmf-dist/fonts/tfm/public/aecc/aeccr10.tfm
+share/texmf-dist/fonts/tfm/public/aecc/aeccr5.tfm
+share/texmf-dist/fonts/tfm/public/aecc/aeccr6.tfm
+share/texmf-dist/fonts/tfm/public/aecc/aeccr7.tfm
+share/texmf-dist/fonts/tfm/public/aecc/aeccr8.tfm
+share/texmf-dist/fonts/tfm/public/aecc/aeccr9.tfm
+share/texmf-dist/fonts/tfm/public/aecc/aeccsc10.tfm
+share/texmf-dist/fonts/tfm/public/aecc/aeccsl10.tfm
+share/texmf-dist/fonts/tfm/public/aecc/aeccsl9.tfm
+share/texmf-dist/fonts/tfm/public/aecc/aeccti10.tfm
+share/texmf-dist/fonts/vf/public/aecc/aeccr10.vf
+share/texmf-dist/fonts/vf/public/aecc/aeccr5.vf
+share/texmf-dist/fonts/vf/public/aecc/aeccr6.vf
+share/texmf-dist/fonts/vf/public/aecc/aeccr7.vf
+share/texmf-dist/fonts/vf/public/aecc/aeccr8.vf
+share/texmf-dist/fonts/vf/public/aecc/aeccr9.vf
+share/texmf-dist/fonts/vf/public/aecc/aeccsc10.vf
+share/texmf-dist/fonts/vf/public/aecc/aeccsl10.vf
+share/texmf-dist/fonts/vf/public/aecc/aeccsl9.vf
+share/texmf-dist/fonts/vf/public/aecc/aeccti10.vf
+share/texmf-dist/tex/latex/aecc/aecc.sty
+share/texmf-dist/tex/latex/aecc/t1aeccr.fd
+@dirrmtry share/texmf-dist/tex/latex/aecc
+@dirrmtry share/texmf-dist/fonts/vf/public/aecc
+@dirrmtry share/texmf-dist/fonts/tfm/public/aecc
+@dirrmtry share/texmf-dist/doc/fonts/aecc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

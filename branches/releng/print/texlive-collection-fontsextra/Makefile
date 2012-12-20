@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20121203
+PORTVERSION=	20121219
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -16,6 +16,7 @@ COMMENT=	Extra fonts
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asana-Math.otf:${PORTSDIR}/print/texlive-Asana-Math \
 		${LOCALBASE}/share/texmf-dist/tex/latex/adforn/adforn.sty:${PORTSDIR}/print/texlive-adforn \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/adfsymbols/ArrowsADF.afm:${PORTSDIR}/print/texlive-adfsymbols \
+		${LOCALBASE}/share/texmf-dist/tex/latex/aecc/aecc.sty:${PORTSDIR}/print/texlive-aecc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/allrunes/allrunes.sty:${PORTSDIR}/print/texlive-allrunes \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/urw/antiqua/uaqr8ac.afm:${PORTSDIR}/print/texlive-antiqua \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/antt/anttb.afm:${PORTSDIR}/print/texlive-antt \

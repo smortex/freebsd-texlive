@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-texlive-docindex
-# Date created:		08/02/2012 12:13:55
+# New ports collection makefile for:	texlive-aecc
+# Date created:		12/20/2012 04:48:38
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	texlive-docindex
+PORTNAME=	aecc
 PORTVERSION=	20121219
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	The aecc package
 
 NOPORTSRC=	yes
 
