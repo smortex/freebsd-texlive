@@ -6,12 +6,12 @@
 #
 
 PORTNAME=	context-algorithmic
-PORTVERSION=	20110629
+PORTVERSION=	20121220
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Algorithm handling.
+COMMENT=	Algorithm handling in ConTeXt.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORTSDIR}/print/texlive-context
 
