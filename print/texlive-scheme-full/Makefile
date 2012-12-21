@@ -199,7 +199,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/fonts/afm/jmn/hans/hans-sh.afm:${PORTSDIR}/print/texlive-jmn \
 		${LOCALBASE}/share/texmf-dist/fonts/truetype/hoekwater/lmextra/lmtypewriter10-regular.ttf:${PORTSDIR}/print/texlive-lmextra \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-account.xml:${PORTSDIR}/print/texlive-context-account \
-		${LOCALBASE}/share/texmf-dist/tex/context/third/algorithmic/t-algorithmic.tex:${PORTSDIR}/print/texlive-context-algorithmic \
+		${LOCALBASE}/share/texmf-dist/tex/context/third/algorithmic/t-algorithmic.mkii:${PORTSDIR}/print/texlive-context-algorithmic \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/bnf/t-bnf.tex:${PORTSDIR}/print/texlive-context-bnf \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/chromato/t-chromato.tex:${PORTSDIR}/print/texlive-context-chromato \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/construction-plan/t-construction-plan.tex:${PORTSDIR}/print/texlive-context-construction-plan \
@@ -226,6 +226,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asana-Math.otf:${PORTSDIR}/print/texlive-Asana-Math \
 		${LOCALBASE}/share/texmf-dist/tex/latex/adforn/adforn.sty:${PORTSDIR}/print/texlive-adforn \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/adfsymbols/ArrowsADF.afm:${PORTSDIR}/print/texlive-adfsymbols \
+		${LOCALBASE}/share/texmf-dist/tex/latex/aecc/aecc.sty:${PORTSDIR}/print/texlive-aecc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/allrunes/allrunes.sty:${PORTSDIR}/print/texlive-allrunes \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/urw/antiqua/uaqr8ac.afm:${PORTSDIR}/print/texlive-antiqua \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/antt/anttb.afm:${PORTSDIR}/print/texlive-antt \
@@ -841,6 +842,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-inet/tikz-inet.sty:${PORTSDIR}/print/texlive-tikz-inet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty:${PORTSDIR}/print/texlive-tikz-qtree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty:${PORTSDIR}/print/texlive-tikz-timing \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikzorbital/tikzorbital.sty:${PORTSDIR}/print/texlive-tikzorbital \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpagenodes/tikzpagenodes.sty:${PORTSDIR}/print/texlive-tikzpagenodes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpfeile/tikzpfeile.sty:${PORTSDIR}/print/texlive-tikzpfeile \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzposter/tikzposter.cls:${PORTSDIR}/print/texlive-tikzposter \

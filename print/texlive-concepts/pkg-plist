@@ -1,9 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/concepts/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/concepts/concepts.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/concepts/concepts.dtx
+%%PORTDOCS%%share/texmf-dist/doc/latex/concepts/concepts.tex
 share/texmf-dist/tex/latex/concepts/concepts.sty
+share/texmf-dist/tex/latex/concepts/dry.sty
+share/texmf-dist/tex/latex/concepts/with.sty
 @dirrmtry share/texmf-dist/tex/latex/concepts
-@dirrmtry share/texmf-dist/source/latex/concepts
 @dirrmtry share/texmf-dist/doc/latex/concepts
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
