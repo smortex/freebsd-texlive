@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-tikz-cd
-# Date created:		09/17/2011 04:51:51
+# New ports collection makefile for:	texlive-ebgaramond
+# Date created:		12/22/2012 04:44:59
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	tikz-cd
+PORTNAME=	ebgaramond
 PORTVERSION=	20121221
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create commutative diagrams with TikZ
+COMMENT=	LaTeX support for EBGaramond fonts.
 
 NOPORTSRC=	yes
 

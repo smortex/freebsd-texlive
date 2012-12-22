@@ -1,0 +1,8 @@
+EB Garamond is a revival by Georg Duffner of the 16th century
+fonts designed by Claude Garamond. Currently only upright and
+italic variants are available. As a stop-gap, this package
+provides bold variants produced automatically by fontforge;
+these are likely to be buggy, and font metrics will certainly
+change when official bold variants become available. The LaTeX
+support package works for (pdf)LaTeX, xeLaTeX and luaLaTeX
+users.

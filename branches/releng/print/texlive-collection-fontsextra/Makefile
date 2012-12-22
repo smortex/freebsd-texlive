@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20121219
+PORTVERSION=	20121221
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -79,6 +79,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/tex/latex/duerer-latex/duerer.sty:${PORTSDIR}/print/texlive-duerer-latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dutchcal/dutchcal.sty:${PORTSDIR}/print/texlive-dutchcal \
 		${LOCALBASE}/share/texmf-dist/tex/generic/ean/ean13.tex:${PORTSDIR}/print/texlive-ean \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ebgaramond/ebgaramond.sty:${PORTSDIR}/print/texlive-ebgaramond \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/ecc/conc10pt.mf:${PORTSDIR}/print/texlive-ecc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eco/eco.sty:${PORTSDIR}/print/texlive-eco \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/eiad/eiadb10.mf:${PORTSDIR}/print/texlive-eiad \
