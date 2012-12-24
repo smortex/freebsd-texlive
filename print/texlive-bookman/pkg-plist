@@ -44,16 +44,6 @@ share/texmf-dist/fonts/tfm/adobe/bookman/pbklo7t.tfm
 share/texmf-dist/fonts/tfm/adobe/bookman/pbklo8c.tfm
 share/texmf-dist/fonts/tfm/adobe/bookman/pbklo8r.tfm
 share/texmf-dist/fonts/tfm/adobe/bookman/pbklo8t.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/bookman/pbkd8z.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/bookman/pbkdc8z.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/bookman/pbkdi8z.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/bookman/pbkl8z.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/bookman/pbklc8z.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/bookman/pbkli8z.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/bookman/rpbkd.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/bookman/rpbkdi.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/bookman/rpbkl.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/bookman/rpbkli.tfm
 share/texmf-dist/fonts/tfm/urw35vf/bookman/ubkb7t.tfm
 share/texmf-dist/fonts/tfm/urw35vf/bookman/ubkb8c.tfm
 share/texmf-dist/fonts/tfm/urw35vf/bookman/ubkb8r.tfm
@@ -148,12 +138,6 @@ share/texmf-dist/fonts/vf/adobe/bookman/pbklo.vf
 share/texmf-dist/fonts/vf/adobe/bookman/pbklo7t.vf
 share/texmf-dist/fonts/vf/adobe/bookman/pbklo8c.vf
 share/texmf-dist/fonts/vf/adobe/bookman/pbklo8t.vf
-share/texmf-dist/fonts/vf/cspsfonts-adobe/bookman/pbkd8z.vf
-share/texmf-dist/fonts/vf/cspsfonts-adobe/bookman/pbkdc8z.vf
-share/texmf-dist/fonts/vf/cspsfonts-adobe/bookman/pbkdi8z.vf
-share/texmf-dist/fonts/vf/cspsfonts-adobe/bookman/pbkl8z.vf
-share/texmf-dist/fonts/vf/cspsfonts-adobe/bookman/pbklc8z.vf
-share/texmf-dist/fonts/vf/cspsfonts-adobe/bookman/pbkli8z.vf
 share/texmf-dist/fonts/vf/urw35vf/bookman/ubkb7t.vf
 share/texmf-dist/fonts/vf/urw35vf/bookman/ubkb8c.vf
 share/texmf-dist/fonts/vf/urw35vf/bookman/ubkb8t.vf
@@ -206,11 +190,9 @@ share/texmf-dist/tex/latex/bookman/t1ubk.fd
 share/texmf-dist/tex/latex/bookman/ts1ubk.fd
 @dirrmtry share/texmf-dist/tex/latex/bookman
 @dirrmtry share/texmf-dist/fonts/vf/urw35vf/bookman
-@dirrmtry share/texmf-dist/fonts/vf/cspsfonts-adobe/bookman
 @dirrmtry share/texmf-dist/fonts/vf/adobe/bookman
 @dirrmtry share/texmf-dist/fonts/type1/urw/bookman
 @dirrmtry share/texmf-dist/fonts/tfm/urw35vf/bookman
-@dirrmtry share/texmf-dist/fonts/tfm/cspsfonts-adobe/bookman
 @dirrmtry share/texmf-dist/fonts/tfm/adobe/bookman
 @dirrmtry share/texmf-dist/fonts/map/dvips/bookman
 @dirrmtry share/texmf-dist/fonts/afm/urw/bookman

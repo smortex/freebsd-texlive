@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-langczechslovak
-PORTVERSION=	20100610
+PORTVERSION=	20121222
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -14,10 +14,10 @@ DISTFILES=	# None
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Czech/Slovak
 
-RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/dvips/cs/config.cs:${PORTSDIR}/print/texlive-cs \
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/cs/xl2.enc:${PORTSDIR}/print/texlive-cs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/csbulletin/csbulletin.cls:${PORTSDIR}/print/texlive-csbulletin \
-		${LOCALBASE}/share/texmf-dist/tex/cslatex/base/cslatex-utf8.ini:${PORTSDIR}/print/texlive-cslatex \
-		${LOCALBASE}/share/texmf-dist/tex/csplain/base/cavantga.tex:${PORTSDIR}/print/texlive-csplain \
+		${LOCALBASE}/share/texmf-dist/tex/cslatex/base/cslatex.ini:${PORTSDIR}/print/texlive-cslatex \
+		${LOCALBASE}/share/texmf-dist/tex/csplain/base/csenc-k.tex:${PORTSDIR}/print/texlive-csplain \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
 		${LOCALBASE}/share/texmf/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8 \

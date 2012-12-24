@@ -31,8 +31,6 @@ share/texmf-dist/fonts/enc/dvips/base/texmext.enc
 share/texmf-dist/fonts/enc/dvips/base/texmital.enc
 share/texmf-dist/fonts/enc/dvips/base/texmsym.enc
 share/texmf-dist/fonts/enc/dvips/base/texnansx.enc
-share/texmf-dist/fonts/enc/dvips/base/xl2.enc
-share/texmf-dist/fonts/enc/dvips/base/xt2.enc
 share/texmf-dist/tex/generic/dvips/blackdvi.sty
 share/texmf-dist/tex/generic/dvips/blackdvi.tex
 share/texmf-dist/tex/generic/dvips/colordvi.sty

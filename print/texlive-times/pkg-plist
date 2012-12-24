@@ -97,20 +97,6 @@ share/texmf-dist/fonts/tfm/cg/times/trr6j.tfm
 share/texmf-dist/fonts/tfm/cg/times/trr7j.tfm
 share/texmf-dist/fonts/tfm/cg/times/trr8u.tfm
 share/texmf-dist/fonts/tfm/cg/times/trr9t.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/times/ptmb8z.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/times/ptmbc8z.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/times/ptmbi8z.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/times/ptmr8z.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/times/ptmrc8z.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/times/ptmri8z.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/times/rptmb.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/times/rptmbi.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/times/rptmbo.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/times/rptmr.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/times/rptmri.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/times/rptmro.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/times/rptmrre.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/times/rptmrrn.tfm
 share/texmf-dist/fonts/tfm/urw35vf/times/utmb7t.tfm
 share/texmf-dist/fonts/tfm/urw35vf/times/utmb8c.tfm
 share/texmf-dist/fonts/tfm/urw35vf/times/utmb8r.tfm
@@ -195,12 +181,6 @@ share/texmf-dist/fonts/vf/cg/times/ctmr.vf
 share/texmf-dist/fonts/vf/cg/times/ctmr8t.vf
 share/texmf-dist/fonts/vf/cg/times/ctmri.vf
 share/texmf-dist/fonts/vf/cg/times/ctmri8t.vf
-share/texmf-dist/fonts/vf/cspsfonts-adobe/times/ptmb8z.vf
-share/texmf-dist/fonts/vf/cspsfonts-adobe/times/ptmbc8z.vf
-share/texmf-dist/fonts/vf/cspsfonts-adobe/times/ptmbi8z.vf
-share/texmf-dist/fonts/vf/cspsfonts-adobe/times/ptmr8z.vf
-share/texmf-dist/fonts/vf/cspsfonts-adobe/times/ptmrc8z.vf
-share/texmf-dist/fonts/vf/cspsfonts-adobe/times/ptmri8z.vf
 share/texmf-dist/fonts/vf/urw35vf/times/utmb7t.vf
 share/texmf-dist/fonts/vf/urw35vf/times/utmb8c.vf
 share/texmf-dist/fonts/vf/urw35vf/times/utmb8t.vf
@@ -231,12 +211,10 @@ share/texmf-dist/tex/latex/times/t1utm.fd
 share/texmf-dist/tex/latex/times/ts1utm.fd
 @dirrmtry share/texmf-dist/tex/latex/times
 @dirrmtry share/texmf-dist/fonts/vf/urw35vf/times
-@dirrmtry share/texmf-dist/fonts/vf/cspsfonts-adobe/times
 @dirrmtry share/texmf-dist/fonts/vf/cg/times
 @dirrmtry share/texmf-dist/fonts/vf/adobe/times
 @dirrmtry share/texmf-dist/fonts/type1/urw/times
 @dirrmtry share/texmf-dist/fonts/tfm/urw35vf/times
-@dirrmtry share/texmf-dist/fonts/tfm/cspsfonts-adobe/times
 @dirrmtry share/texmf-dist/fonts/tfm/cg/times
 @dirrmtry share/texmf-dist/fonts/tfm/adobe/times
 @dirrmtry share/texmf-dist/fonts/map/dvips/times

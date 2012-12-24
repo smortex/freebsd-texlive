@@ -7,8 +7,6 @@ share/texmf-dist/fonts/tfm/adobe/zapfchan/pzcmi7t.tfm
 share/texmf-dist/fonts/tfm/adobe/zapfchan/pzcmi8c.tfm
 share/texmf-dist/fonts/tfm/adobe/zapfchan/pzcmi8r.tfm
 share/texmf-dist/fonts/tfm/adobe/zapfchan/pzcmi8t.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/zapfchan/pzcmi8z.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/zapfchan/rpzcmi.tfm
 share/texmf-dist/fonts/tfm/urw35vf/zapfchan/uzcmi7t.tfm
 share/texmf-dist/fonts/tfm/urw35vf/zapfchan/uzcmi8c.tfm
 share/texmf-dist/fonts/tfm/urw35vf/zapfchan/uzcmi8r.tfm
@@ -19,7 +17,6 @@ share/texmf-dist/fonts/vf/adobe/zapfchan/pzcmi.vf
 share/texmf-dist/fonts/vf/adobe/zapfchan/pzcmi7t.vf
 share/texmf-dist/fonts/vf/adobe/zapfchan/pzcmi8c.vf
 share/texmf-dist/fonts/vf/adobe/zapfchan/pzcmi8t.vf
-share/texmf-dist/fonts/vf/cspsfonts-adobe/zapfchan/pzcmi8z.vf
 share/texmf-dist/fonts/vf/urw35vf/zapfchan/uzcmi7t.vf
 share/texmf-dist/fonts/vf/urw35vf/zapfchan/uzcmi8c.vf
 share/texmf-dist/fonts/vf/urw35vf/zapfchan/uzcmi8t.vf
@@ -31,11 +28,9 @@ share/texmf-dist/tex/latex/zapfchan/t1uzc.fd
 share/texmf-dist/tex/latex/zapfchan/ts1uzc.fd
 @dirrmtry share/texmf-dist/tex/latex/zapfchan
 @dirrmtry share/texmf-dist/fonts/vf/urw35vf/zapfchan
-@dirrmtry share/texmf-dist/fonts/vf/cspsfonts-adobe/zapfchan
 @dirrmtry share/texmf-dist/fonts/vf/adobe/zapfchan
 @dirrmtry share/texmf-dist/fonts/type1/urw/zapfchan
 @dirrmtry share/texmf-dist/fonts/tfm/urw35vf/zapfchan
-@dirrmtry share/texmf-dist/fonts/tfm/cspsfonts-adobe/zapfchan
 @dirrmtry share/texmf-dist/fonts/tfm/adobe/zapfchan
 @dirrmtry share/texmf-dist/fonts/map/dvips/zapfchan
 @dirrmtry share/texmf-dist/fonts/afm/urw/zapfchan
