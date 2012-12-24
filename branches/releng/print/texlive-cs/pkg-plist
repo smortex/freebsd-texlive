@@ -1,11 +1,9 @@
-share/texmf-dist/dvips/cs/config.cs
-share/texmf-dist/fonts/enc/dvips/cs/csin.enc
-share/texmf-dist/fonts/enc/dvips/cs/csr.enc
-share/texmf-dist/fonts/enc/dvips/cs/csr1.enc
-share/texmf-dist/fonts/enc/dvips/cs/cstt.enc
-share/texmf-dist/fonts/map/dvips/cs/csfont-e.map
-share/texmf-dist/fonts/map/dvips/cs/csother.map
-share/texmf-dist/fonts/map/dvips/cs/cstext.map
+share/texmf-dist/fonts/enc/dvips/cs/xl2.enc
+share/texmf-dist/fonts/enc/dvips/cs/xt2.enc
+share/texmf-dist/fonts/map/dvips/cs/cs-a35-nodownload.map
+share/texmf-dist/fonts/map/dvips/cs/cs-a35-urwdownload.map
+share/texmf-dist/fonts/map/dvips/cs/cs-charter.map
+share/texmf-dist/fonts/map/dvips/cs/csfonts.map
 share/texmf-dist/fonts/source/public/cs/csaccent.mf
 share/texmf-dist/fonts/source/public/cs/csacutl.mf
 share/texmf-dist/fonts/source/public/cs/csacutu.mf
@@ -145,6 +143,64 @@ share/texmf-dist/fonts/source/public/cs/kmtitle.mf
 share/texmf-dist/fonts/source/public/cs/lcsss8.mf
 share/texmf-dist/fonts/source/public/cs/lcsssb8.mf
 share/texmf-dist/fonts/source/public/cs/lcsssi8.mf
+share/texmf-dist/fonts/tfm/cs/cs-a35/README
+share/texmf-dist/fonts/tfm/cs/cs-a35/pagd8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pagdc8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pagdo8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pagk8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pagkc8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pagko8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pbkd8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pbkdc8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pbkdi8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pbkl8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pbklc8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pbkli8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pcrb8u.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pcrbc8u.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pcrbo8u.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pcrr8u.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pcrrc8u.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pcrro8u.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/phvb8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/phvbc8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/phvbn8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/phvbnc8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/phvbo8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/phvbon8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/phvr8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/phvrc8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/phvrn8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/phvrnc8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/phvro8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/phvron8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pncb8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pncbc8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pncbi8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pncr8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pncrc8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pncri8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pplb8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pplbc8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pplbi8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pplr8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pplrc8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pplri8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/ptmb8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/ptmbc8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/ptmbi8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/ptmr8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/ptmrc8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/ptmri8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-a35/pzcmi8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-charter/bchb8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-charter/bchbi8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-charter/bchr8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-charter/bchri8z.tfm
+share/texmf-dist/fonts/tfm/cs/cs-charter/rbchb.tfm
+share/texmf-dist/fonts/tfm/cs/cs-charter/rbchbi.tfm
+share/texmf-dist/fonts/tfm/cs/cs-charter/rbchr.tfm
+share/texmf-dist/fonts/tfm/cs/cs-charter/rbchri.tfm
 share/texmf-dist/fonts/tfm/public/cs/csb10.tfm
 share/texmf-dist/fonts/tfm/public/cs/csb12.tfm
 share/texmf-dist/fonts/tfm/public/cs/csb17.tfm
@@ -320,11 +376,35 @@ share/texmf-dist/fonts/type1/public/cs/cstt8.pfb
 share/texmf-dist/fonts/type1/public/cs/cstt9.pfb
 share/texmf-dist/fonts/type1/public/cs/csu10.pfb
 share/texmf-dist/fonts/type1/public/cs/csvtt10.pfb
+share/texmf-dist/fonts/vf/cs/cs-a35/README
+share/texmf-dist/fonts/vf/cs/cs-a35/pagdc8z.vf
+share/texmf-dist/fonts/vf/cs/cs-a35/pagkc8z.vf
+share/texmf-dist/fonts/vf/cs/cs-a35/pbkdc8z.vf
+share/texmf-dist/fonts/vf/cs/cs-a35/pbklc8z.vf
+share/texmf-dist/fonts/vf/cs/cs-a35/pcrbc8u.vf
+share/texmf-dist/fonts/vf/cs/cs-a35/pcrrc8u.vf
+share/texmf-dist/fonts/vf/cs/cs-a35/phvbc8z.vf
+share/texmf-dist/fonts/vf/cs/cs-a35/phvbnc8z.vf
+share/texmf-dist/fonts/vf/cs/cs-a35/phvrc8z.vf
+share/texmf-dist/fonts/vf/cs/cs-a35/phvrnc8z.vf
+share/texmf-dist/fonts/vf/cs/cs-a35/pncbc8z.vf
+share/texmf-dist/fonts/vf/cs/cs-a35/pncrc8z.vf
+share/texmf-dist/fonts/vf/cs/cs-a35/pplbc8z.vf
+share/texmf-dist/fonts/vf/cs/cs-a35/pplrc8z.vf
+share/texmf-dist/fonts/vf/cs/cs-a35/ptmbc8z.vf
+share/texmf-dist/fonts/vf/cs/cs-a35/ptmrc8z.vf
+share/texmf-dist/fonts/vf/cs/cs-charter/bchb8z.vf
+share/texmf-dist/fonts/vf/cs/cs-charter/bchbi8z.vf
+share/texmf-dist/fonts/vf/cs/cs-charter/bchr8z.vf
+share/texmf-dist/fonts/vf/cs/cs-charter/bchri8z.vf
+@dirrmtry share/texmf-dist/fonts/vf/cs/cs-charter
+@dirrmtry share/texmf-dist/fonts/vf/cs/cs-a35
 @dirrmtry share/texmf-dist/fonts/type1/public/cs
 @dirrmtry share/texmf-dist/fonts/tfm/public/cs
+@dirrmtry share/texmf-dist/fonts/tfm/cs/cs-charter
+@dirrmtry share/texmf-dist/fonts/tfm/cs/cs-a35
 @dirrmtry share/texmf-dist/fonts/source/public/cs
 @dirrmtry share/texmf-dist/fonts/map/dvips/cs
 @dirrmtry share/texmf-dist/fonts/enc/dvips/cs
-@dirrmtry share/texmf-dist/dvips/cs
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

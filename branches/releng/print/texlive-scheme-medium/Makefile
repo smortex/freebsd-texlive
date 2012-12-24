@@ -160,10 +160,10 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/wasysym/wasysym.sty:${PORTSDIR}/print/texlive-wasysym \
 		${LOCALBASE}/share/texmf-dist/dvips/zapfchan/config.uzc:${PORTSDIR}/print/texlive-zapfchan \
 		${LOCALBASE}/share/texmf-dist/dvips/zapfding/config.uzd:${PORTSDIR}/print/texlive-zapfding \
-		${LOCALBASE}/share/texmf-dist/dvips/cs/config.cs:${PORTSDIR}/print/texlive-cs \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/cs/xl2.enc:${PORTSDIR}/print/texlive-cs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/csbulletin/csbulletin.cls:${PORTSDIR}/print/texlive-csbulletin \
-		${LOCALBASE}/share/texmf-dist/tex/cslatex/base/cslatex-utf8.ini:${PORTSDIR}/print/texlive-cslatex \
-		${LOCALBASE}/share/texmf-dist/tex/csplain/base/cavantga.tex:${PORTSDIR}/print/texlive-csplain \
+		${LOCALBASE}/share/texmf-dist/tex/cslatex/base/cslatex.ini:${PORTSDIR}/print/texlive-cslatex \
+		${LOCALBASE}/share/texmf-dist/tex/csplain/base/csenc-k.tex:${PORTSDIR}/print/texlive-csplain \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print/texlive-ae \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/amscls/amsalpha.bst:${PORTSDIR}/print/texlive-amscls \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsmath/amsmath.sty:${PORTSDIR}/print/texlive-amsmath \

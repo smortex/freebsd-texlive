@@ -289,6 +289,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/duerer-latex/duerer.sty:${PORTSDIR}/print/texlive-duerer-latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dutchcal/dutchcal.sty:${PORTSDIR}/print/texlive-dutchcal \
 		${LOCALBASE}/share/texmf-dist/tex/generic/ean/ean13.tex:${PORTSDIR}/print/texlive-ean \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ebgaramond/ebgaramond.sty:${PORTSDIR}/print/texlive-ebgaramond \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/ecc/conc10pt.mf:${PORTSDIR}/print/texlive-ecc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eco/eco.sty:${PORTSDIR}/print/texlive-eco \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/eiad/eiadb10.mf:${PORTSDIR}/print/texlive-eiad \
@@ -627,10 +628,10 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/russ/russ.sty:${PORTSDIR}/print/texlive-russ \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/t2/t2a-mod1.enc:${PORTSDIR}/print/texlive-t2 \
 		${LOCALBASE}/share/texmf-dist/tex/generic/ukrhyph/ukrhyph.tex:${PORTSDIR}/print/texlive-ukrhyph \
-		${LOCALBASE}/share/texmf-dist/dvips/cs/config.cs:${PORTSDIR}/print/texlive-cs \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/cs/xl2.enc:${PORTSDIR}/print/texlive-cs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/csbulletin/csbulletin.cls:${PORTSDIR}/print/texlive-csbulletin \
-		${LOCALBASE}/share/texmf-dist/tex/cslatex/base/cslatex-utf8.ini:${PORTSDIR}/print/texlive-cslatex \
-		${LOCALBASE}/share/texmf-dist/tex/csplain/base/cavantga.tex:${PORTSDIR}/print/texlive-csplain \
+		${LOCALBASE}/share/texmf-dist/tex/cslatex/base/cslatex.ini:${PORTSDIR}/print/texlive-cslatex \
+		${LOCALBASE}/share/texmf-dist/tex/csplain/base/csenc-k.tex:${PORTSDIR}/print/texlive-csplain \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/finbib/finplain.bst:${PORTSDIR}/print/texlive-finbib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/aeguill/aeguill.sty:${PORTSDIR}/print/texlive-aeguill \
 		${LOCALBASE}/share/texmf-dist/tex/latex/basque-book/basque-book.cls:${PORTSDIR}/print/texlive-basque-book \

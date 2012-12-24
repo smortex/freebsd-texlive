@@ -222,10 +222,10 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/psnfss/charter.map:${PORTSDIR}/print/texlive-psnfss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pspicture/pspicture.sty:${PORTSDIR}/print/texlive-pspicture \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tools/.tex:${PORTSDIR}/print/texlive-tools \
-		${LOCALBASE}/share/texmf-dist/dvips/cs/config.cs:${PORTSDIR}/print/texlive-cs \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/cs/xl2.enc:${PORTSDIR}/print/texlive-cs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/csbulletin/csbulletin.cls:${PORTSDIR}/print/texlive-csbulletin \
-		${LOCALBASE}/share/texmf-dist/tex/cslatex/base/cslatex-utf8.ini:${PORTSDIR}/print/texlive-cslatex \
-		${LOCALBASE}/share/texmf-dist/tex/csplain/base/cavantga.tex:${PORTSDIR}/print/texlive-csplain \
+		${LOCALBASE}/share/texmf-dist/tex/cslatex/base/cslatex.ini:${PORTSDIR}/print/texlive-cslatex \
+		${LOCALBASE}/share/texmf-dist/tex/csplain/base/csenc-k.tex:${PORTSDIR}/print/texlive-csplain \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/finbib/finplain.bst:${PORTSDIR}/print/texlive-finbib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/aeguill/aeguill.sty:${PORTSDIR}/print/texlive-aeguill \
 		${LOCALBASE}/share/texmf-dist/tex/latex/basque-book/basque-book.cls:${PORTSDIR}/print/texlive-basque-book \

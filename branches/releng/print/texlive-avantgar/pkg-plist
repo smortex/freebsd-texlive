@@ -38,16 +38,6 @@ share/texmf-dist/fonts/tfm/adobe/avantgar/pagko7t.tfm
 share/texmf-dist/fonts/tfm/adobe/avantgar/pagko8c.tfm
 share/texmf-dist/fonts/tfm/adobe/avantgar/pagko8r.tfm
 share/texmf-dist/fonts/tfm/adobe/avantgar/pagko8t.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/avantgar/pagd8z.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/avantgar/pagdc8z.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/avantgar/pagdo8z.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/avantgar/pagk8z.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/avantgar/pagkc8z.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/avantgar/pagko8z.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/avantgar/rpagd.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/avantgar/rpagdo.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/avantgar/rpagk.tfm
-share/texmf-dist/fonts/tfm/cspsfonts-adobe/avantgar/rpagko.tfm
 share/texmf-dist/fonts/tfm/urw35vf/avantgar/uagb7t.tfm
 share/texmf-dist/fonts/tfm/urw35vf/avantgar/uagb8c.tfm
 share/texmf-dist/fonts/tfm/urw35vf/avantgar/uagb8r.tfm
@@ -126,12 +116,6 @@ share/texmf-dist/fonts/vf/adobe/avantgar/pagko.vf
 share/texmf-dist/fonts/vf/adobe/avantgar/pagko7t.vf
 share/texmf-dist/fonts/vf/adobe/avantgar/pagko8c.vf
 share/texmf-dist/fonts/vf/adobe/avantgar/pagko8t.vf
-share/texmf-dist/fonts/vf/cspsfonts-adobe/avantgar/pagd8z.vf
-share/texmf-dist/fonts/vf/cspsfonts-adobe/avantgar/pagdc8z.vf
-share/texmf-dist/fonts/vf/cspsfonts-adobe/avantgar/pagdo8z.vf
-share/texmf-dist/fonts/vf/cspsfonts-adobe/avantgar/pagk8z.vf
-share/texmf-dist/fonts/vf/cspsfonts-adobe/avantgar/pagkc8z.vf
-share/texmf-dist/fonts/vf/cspsfonts-adobe/avantgar/pagko8z.vf
 share/texmf-dist/fonts/vf/urw35vf/avantgar/uagb7t.vf
 share/texmf-dist/fonts/vf/urw35vf/avantgar/uagb8c.vf
 share/texmf-dist/fonts/vf/urw35vf/avantgar/uagb8t.vf
@@ -178,11 +162,9 @@ share/texmf-dist/tex/latex/avantgar/t1uag.fd
 share/texmf-dist/tex/latex/avantgar/ts1uag.fd
 @dirrmtry share/texmf-dist/tex/latex/avantgar
 @dirrmtry share/texmf-dist/fonts/vf/urw35vf/avantgar
-@dirrmtry share/texmf-dist/fonts/vf/cspsfonts-adobe/avantgar
 @dirrmtry share/texmf-dist/fonts/vf/adobe/avantgar
 @dirrmtry share/texmf-dist/fonts/type1/urw/avantgar
 @dirrmtry share/texmf-dist/fonts/tfm/urw35vf/avantgar
-@dirrmtry share/texmf-dist/fonts/tfm/cspsfonts-adobe/avantgar
 @dirrmtry share/texmf-dist/fonts/tfm/adobe/avantgar
 @dirrmtry share/texmf-dist/fonts/map/dvips/avantgar
 @dirrmtry share/texmf-dist/fonts/afm/urw/avantgar
