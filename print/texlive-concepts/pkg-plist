@@ -3,6 +3,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/concepts/concepts.tex
 share/texmf-dist/tex/latex/concepts/concepts.sty
 share/texmf-dist/tex/latex/concepts/dry.sty
+share/texmf-dist/tex/latex/concepts/packagedoc.cls
 share/texmf-dist/tex/latex/concepts/with.sty
 @dirrmtry share/texmf-dist/tex/latex/concepts
 @dirrmtry share/texmf-dist/doc/latex/concepts
