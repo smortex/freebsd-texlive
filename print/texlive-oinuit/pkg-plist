@@ -1,6 +1,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/oinuit/README.1ST
-%%PORTDOCS%%share/texmf-dist/doc/fonts/oinuit/examples/book.tex
-%%PORTDOCS%%share/texmf-dist/doc/fonts/oinuit/examples/taqtu.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oinuit/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oinuit/Table.eps
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oinuit/book.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oinuit/inuit.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/oinuit/taqtu.tex
 share/texmf-dist/fonts/map/dvips/oinuit/oinuit.map
 share/texmf-dist/fonts/ofm/public/oinuit/OInuit.ofm
 share/texmf-dist/fonts/ofm/public/oinuit/OInuitb.ofm
@@ -22,19 +25,23 @@ share/texmf-dist/fonts/type1/public/oinuit/cmssbxo10.pfb
 share/texmf-dist/omega/ocp/oinuit/Ninuit2uni.ocp
 share/texmf-dist/omega/ocp/oinuit/Qinuit2uni.ocp
 share/texmf-dist/omega/ocp/oinuit/inuitscii.ocp
+share/texmf-dist/omega/otp/oinuit/Ninuit2uni.otp
+share/texmf-dist/omega/otp/oinuit/Qinuit2uni.otp
+share/texmf-dist/omega/otp/oinuit/inuitscii.otp
 %%PORTSRC%%share/texmf-dist/source/lambda/oinuit/oinuit.dtx
 %%PORTSRC%%share/texmf-dist/source/lambda/oinuit/oinuit.ins
-%%PORTSRC%%share/texmf-dist/source/lambda/oinuit/oinuit.sty
+share/texmf-dist/tex/lambda/oinuit/litcmr.fd
+share/texmf-dist/tex/lambda/oinuit/litenc.def
 share/texmf-dist/tex/lambda/oinuit/oinuit.sty
 @dirrmtry share/texmf-dist/tex/lambda/oinuit
 @dirrmtry share/texmf-dist/source/lambda/oinuit
+@dirrmtry share/texmf-dist/omega/otp/oinuit
 @dirrmtry share/texmf-dist/omega/ocp/oinuit
 @dirrmtry share/texmf-dist/fonts/type1/public/oinuit
 @dirrmtry share/texmf-dist/fonts/tfm/public/oinuit
 @dirrmtry share/texmf-dist/fonts/ovf/public/oinuit
 @dirrmtry share/texmf-dist/fonts/ofm/public/oinuit
 @dirrmtry share/texmf-dist/fonts/map/dvips/oinuit
-@dirrmtry share/texmf-dist/doc/fonts/oinuit/examples
 @dirrmtry share/texmf-dist/doc/fonts/oinuit
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
