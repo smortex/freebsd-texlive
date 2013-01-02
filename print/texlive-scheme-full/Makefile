@@ -100,7 +100,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-phys/phys.bbx:${PORTSDIR}/print/texlive-biblatex-phys \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-publist/publist.bbx:${PORTSDIR}/print/texlive-biblatex-publist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-science/science.bbx:${PORTSDIR}/print/texlive-biblatex-science \
-		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-swiss-legal/biblatex-swiss-legal-fr.lbx:${PORTSDIR}/print/texlive-biblatex-swiss-legal \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-swiss-legal/biblatex-swiss-legal-base.bbx:${PORTSDIR}/print/texlive-biblatex-swiss-legal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-trad/bbx/trad-abbrv.bbx:${PORTSDIR}/print/texlive-biblatex-trad \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblist/biblist.sty:${PORTSDIR}/print/texlive-biblist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibtopic/bibtopic.sty:${PORTSDIR}/print/texlive-bibtopic \
@@ -1305,6 +1305,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/makecmds/makecmds.sty:${PORTSDIR}/print/texlive-makecmds \
 		${LOCALBASE}/share/texmf-dist/tex/latex/makedtx/creatdtx.sty:${PORTSDIR}/print/texlive-makedtx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/makeglos/makeglos.sty:${PORTSDIR}/print/texlive-makeglos \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mandi/mandi.sty:${PORTSDIR}/print/texlive-mandi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/manfnt/manfnt.sty:${PORTSDIR}/print/texlive-manfnt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/manuscript/manuscript.sty:${PORTSDIR}/print/texlive-manuscript \
 		${LOCALBASE}/share/texmf-dist/tex/latex/marginfix/marginfix.sty:${PORTSDIR}/print/texlive-marginfix \
@@ -1952,6 +1953,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${PORTSDIR}/print/texlive-IEEEconf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls:${PORTSDIR}/print/texlive-IEEEtran \
 		${LOCALBASE}/share/texmf-dist/tex/latex/aastex/aastex.cls:${PORTSDIR}/print/texlive-aastex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/abntex2/abntex2.cls:${PORTSDIR}/print/texlive-abntex2 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/acmconf/acmconf.cls:${PORTSDIR}/print/texlive-acmconf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/active-conf/active-conf.cls:${PORTSDIR}/print/texlive-active-conf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/adfathesis/adfathesis.cls:${PORTSDIR}/print/texlive-adfathesis \

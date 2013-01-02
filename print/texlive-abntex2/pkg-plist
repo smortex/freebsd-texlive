@@ -1,0 +1,28 @@
+share/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib
+share/texmf-dist/bibtex/bst/abntex2/abntex2-alf.bst
+share/texmf-dist/bibtex/bst/abntex2/abntex2-num.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-doc-abnt-10520-2001.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-doc-abnt-10520-2002.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-doc-abnt-6023-2000.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-doc-options.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-doc-test.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-references.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2cite-alf.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2cite-alf.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2cite.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2cite.tex
+share/texmf-dist/tex/latex/abntex2/abntex2.cls
+share/texmf-dist/tex/latex/abntex2/abntex2abrev.sty
+share/texmf-dist/tex/latex/abntex2/abntex2cite.sty
+@dirrmtry share/texmf-dist/tex/latex/abntex2
+@dirrmtry share/texmf-dist/doc/latex/abntex2
+@dirrmtry share/texmf-dist/bibtex/bst/abntex2
+@dirrmtry share/texmf-dist/bibtex/bib/abntex2
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
