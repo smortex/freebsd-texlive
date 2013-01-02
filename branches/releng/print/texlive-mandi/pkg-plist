@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/mandi/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/mandi/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/mandi/mandi.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mandi/vdemo.py
+%%PORTSRC%%share/texmf-dist/source/latex/mandi/mandi.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mandi/mandi.ins
+share/texmf-dist/tex/latex/mandi/mandi.sty
+@dirrmtry share/texmf-dist/tex/latex/mandi
+@dirrmtry share/texmf-dist/source/latex/mandi
+@dirrmtry share/texmf-dist/doc/latex/mandi
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

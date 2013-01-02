@@ -1,17 +1,16 @@
-# New ports collection makefile for:	texlive-calxxxx-yyyy
-# Date created:		02/03/2011 04:50:31
+# New ports collection makefile for:	texlive-abntex2
+# Date created:		01/02/2013 04:57:17
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	calxxxx-yyyy
+PORTNAME=	abntex2
 PORTVERSION=	20130101
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Print a calendar for a group of years.
+COMMENT=	Typeset a Brazilian academic thesis based on ABNT rules.
 
 NOPORTSRC=	yes
 

@@ -7,48 +7,32 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/documentation/README-Arabic.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/documentation/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/documentation/amiri-table.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/amiri-bold.fea.pp
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/amiri-bold.sfd
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/amiri-regular.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/amiri-boldslanted.fea.pp
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/amiri-quran.fea.pp
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/amiri-regular.fea.pp
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/amiri-regular.sfd
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/amiri-slanted.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/amiri-slanted.fea.pp
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/amiri.fea
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/basic.fea
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/classes.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/composition.fea
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/contextuals.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/Crimson-Bold.sfd
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/Crimson-BoldItalic.sfd
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/Crimson-Italic.sfd
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/Crimson-Roman-edits.sfd
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/Crimson-Roman.sfd
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/Crimson-Semibold.sfd
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/Crimson-SemiboldItalic.sfd
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/OT-featurefiles/calt.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/OT-featurefiles/calt_italic.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/OT-featurefiles/crimson.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/OT-featurefiles/crimson_italic.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/OT-featurefiles/fractions.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/OT-featurefiles/italic_glyphclasses.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/OT-featurefiles/ligatures.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/OT-featurefiles/locl.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/OT-featurefiles/numbers.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/OT-featurefiles/numbers_italic.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/OT-featurefiles/roman_glyphclasses.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/OT-featurefiles/smallcaps.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/OT-featurefiles/subs_sups.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/OT-featurefiles/variants.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/OT-featurefiles/variants_italic.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/Crimson-Bold.sfd
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/Crimson-BoldItalic.sfd
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/Crimson-Italic.sfd
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/Crimson-Roman.sfd
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/crimson/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/enclosing.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/italic_classes.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/italic_ltra.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/italic_proportional.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/italic_rtla.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/italic.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/italic_kerning.fea
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/kashida.fea
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/kerning.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/lang.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/lang_arabic.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/lang_latin.fea
-%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/latin_gsub.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/latin.fea
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/lellah.fea
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/local.fea
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/post_mark.fea
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/proportional.fea
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/quran.fea
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/rtlm.fea
@@ -57,19 +41,20 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/test-suite/enclosing.ptest
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/test-suite/extendedmeem.test
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/test-suite/high_baa.test
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/test-suite/lamlam.test
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/test-suite/lellah.test
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/test-suite/local.test
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/tools/build.py
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/tools/runtest.py
 share/texmf-dist/fonts/truetype/public/amiri/amiri-bold.ttf
 share/texmf-dist/fonts/truetype/public/amiri/amiri-boldslanted.ttf
+share/texmf-dist/fonts/truetype/public/amiri/amiri-quran.ttf
 share/texmf-dist/fonts/truetype/public/amiri/amiri-regular.ttf
 share/texmf-dist/fonts/truetype/public/amiri/amiri-slanted.ttf
 @dirrmtry share/texmf-dist/fonts/truetype/public/amiri
 @dirrmtry share/texmf-dist/doc/fonts/amiri/tools
 @dirrmtry share/texmf-dist/doc/fonts/amiri/test-suite
-@dirrmtry share/texmf-dist/doc/fonts/amiri/sources/crimson/sources/OT-featurefiles
-@dirrmtry share/texmf-dist/doc/fonts/amiri/sources/crimson/sources
+@dirrmtry share/texmf-dist/doc/fonts/amiri/sources/crimson
 @dirrmtry share/texmf-dist/doc/fonts/amiri/sources
 @dirrmtry share/texmf-dist/doc/fonts/amiri/documentation
 @dirrmtry share/texmf-dist/doc/fonts/amiri
