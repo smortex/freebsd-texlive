@@ -8,7 +8,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/file600.eps
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmx-install.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmx-install.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmx.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmx260.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmx260.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmx2pdf.html
@@ -96,6 +95,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/ref260.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/scor2prt.html
 share/texmf-dist/scripts/pmx/pmx2pdf.lua
+share/texmf-dist/tex/generic/pmx/pmx.tex
 %%PORTDOCS%%share/texmf/doc/man/man1/pmx2pdf.1
 %%PORTDOCS%%share/texmf/doc/man/man1/pmx2pdf.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/pmxab.1
@@ -103,6 +103,7 @@ share/texmf-dist/scripts/pmx/pmx2pdf.lua
 %%PORTDOCS%%share/texmf/doc/man/man1/scor2prt.1
 %%PORTDOCS%%share/texmf/doc/man/man1/scor2prt.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf-dist/tex/generic/pmx
 @dirrmtry share/texmf-dist/scripts/pmx
 @dirrmtry share/texmf-dist/doc/generic/pmx/pmxccn/eps
 @dirrmtry share/texmf-dist/doc/generic/pmx/pmxccn/addresses
