@@ -2,6 +2,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ebgaramond/EBGaramond12-Italic-Glyphs.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ebgaramond/EBGaramond12-Regular-Glyphs.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ebgaramond/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ebgaramond/ebgaramond.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ebgaramond/ebgaramond.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ebgaramond/samples.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ebgaramond/samples.tex
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_2jr53r.enc
@@ -53,6 +55,7 @@ share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_nqn6hu.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_nwvlbk.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ohs3i4.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_olppi7.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_pkuegs.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_qe4vhz.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_r25mcp.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ryre25.enc
@@ -72,6 +75,7 @@ share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_xxdw6g.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_yeedmt.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_zaj4rc.enc
 share/texmf-dist/fonts/map/dvips/ebgaramond/EBGaramond.map
+share/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Initials.otf
 share/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond12-Italic.otf
 share/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond12-Regular.otf
 share/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond12-Italic-lf-ly1.tfm
@@ -210,8 +214,15 @@ share/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond12-Regular-tosf-t1--base.
 share/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond12-Regular-tosf-t1.tfm
 share/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond12-Regular-tosf-ts1--base.tfm
 share/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond12-Regular-tosf-ts1.tfm
+share/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramondInitials-tlf-ly1--base.tfm
+share/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramondInitials-tlf-ly1.tfm
+share/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramondInitials-tlf-ot1.tfm
+share/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramondInitials-tlf-t1--base.tfm
+share/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramondInitials-tlf-t1.tfm
+share/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramondInitials-tlf-ts1.tfm
 share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond12-Italic.pfb
 share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond12-Regular.pfb
+share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramondInitials.pfb
 share/texmf-dist/fonts/vf/public/ebgaramond/EBGaramond12-Italic-lf-sc-ly1.vf
 share/texmf-dist/fonts/vf/public/ebgaramond/EBGaramond12-Italic-lf-sc-ot1.vf
 share/texmf-dist/fonts/vf/public/ebgaramond/EBGaramond12-Italic-lf-sc-t1.vf
@@ -262,25 +273,32 @@ share/texmf-dist/fonts/vf/public/ebgaramond/EBGaramond12-Regular-tosf-sc-t1.vf
 share/texmf-dist/fonts/vf/public/ebgaramond/EBGaramond12-Regular-tosf-swash-t1.vf
 share/texmf-dist/fonts/vf/public/ebgaramond/EBGaramond12-Regular-tosf-t1.vf
 share/texmf-dist/fonts/vf/public/ebgaramond/EBGaramond12-Regular-tosf-ts1.vf
+share/texmf-dist/fonts/vf/public/ebgaramond/EBGaramondInitials-tlf-ly1.vf
+share/texmf-dist/fonts/vf/public/ebgaramond/EBGaramondInitials-tlf-t1.vf
+share/texmf-dist/fonts/vf/public/ebgaramond/EBGaramondInitials-tlf-ts1.vf
 share/texmf-dist/tex/latex/ebgaramond/LY1EBGaramond-LF.fd
 share/texmf-dist/tex/latex/ebgaramond/LY1EBGaramond-OsF.fd
 share/texmf-dist/tex/latex/ebgaramond/LY1EBGaramond-Sup.fd
 share/texmf-dist/tex/latex/ebgaramond/LY1EBGaramond-TLF.fd
 share/texmf-dist/tex/latex/ebgaramond/LY1EBGaramond-TOsF.fd
+share/texmf-dist/tex/latex/ebgaramond/LY1EBGaramondInitials-TLF.fd
 share/texmf-dist/tex/latex/ebgaramond/OT1EBGaramond-LF.fd
 share/texmf-dist/tex/latex/ebgaramond/OT1EBGaramond-OsF.fd
 share/texmf-dist/tex/latex/ebgaramond/OT1EBGaramond-Sup.fd
 share/texmf-dist/tex/latex/ebgaramond/OT1EBGaramond-TLF.fd
 share/texmf-dist/tex/latex/ebgaramond/OT1EBGaramond-TOsF.fd
+share/texmf-dist/tex/latex/ebgaramond/OT1EBGaramondInitials-TLF.fd
 share/texmf-dist/tex/latex/ebgaramond/T1EBGaramond-LF.fd
 share/texmf-dist/tex/latex/ebgaramond/T1EBGaramond-OsF.fd
 share/texmf-dist/tex/latex/ebgaramond/T1EBGaramond-Sup.fd
 share/texmf-dist/tex/latex/ebgaramond/T1EBGaramond-TLF.fd
 share/texmf-dist/tex/latex/ebgaramond/T1EBGaramond-TOsF.fd
+share/texmf-dist/tex/latex/ebgaramond/T1EBGaramondInitials-TLF.fd
 share/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-LF.fd
 share/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-OsF.fd
 share/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-TLF.fd
 share/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-TOsF.fd
+share/texmf-dist/tex/latex/ebgaramond/TS1EBGaramondInitials-TLF.fd
 share/texmf-dist/tex/latex/ebgaramond/ebgaramond.sty
 @dirrmtry share/texmf-dist/tex/latex/ebgaramond
 @dirrmtry share/texmf-dist/fonts/vf/public/ebgaramond
