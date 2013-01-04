@@ -18,6 +18,7 @@ share/texmf-dist/bibtex/bst/IEEEtran/IEEEtranSN.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/bare_conf.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/bare_jrnl.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/bare_jrnl_compsoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/bare_jrnl_transmag.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/changelog.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/font_install_how.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/testflow.tex
