@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20130103
+PORTVERSION=	20130104
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -82,6 +82,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/asyfig/asyfig.sty:${PORTSDI
 		${LOCALBASE}/share/texmf-dist/tex/latex/reotex/reotex.sty:${PORTSDIR}/print/texlive-reotex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/roundbox/roundbox.sty:${PORTSDIR}/print/texlive-roundbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rviewport/rviewport.sty:${PORTSDIR}/print/texlive-rviewport \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sa-tikz/sa-tikz.sty:${PORTSDIR}/print/texlive-sa-tikz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/schemabloc/schemabloc.sty:${PORTSDIR}/print/texlive-schemabloc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/setdeck/setdeck.sty:${PORTSDIR}/print/texlive-setdeck \
 		${LOCALBASE}/share/texmf-dist/tex/latex/smartdiagram/smartdiagram.sty:${PORTSDIR}/print/texlive-smartdiagram \
@@ -93,6 +94,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/asyfig/asyfig.sty:${PORTSDI
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-inet/tikz-inet.sty:${PORTSDIR}/print/texlive-tikz-inet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty:${PORTSDIR}/print/texlive-tikz-qtree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty:${PORTSDIR}/print/texlive-tikz-timing \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikzinclude/tikzinclude.sty:${PORTSDIR}/print/texlive-tikzinclude \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzorbital/tikzorbital.sty:${PORTSDIR}/print/texlive-tikzorbital \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpagenodes/tikzpagenodes.sty:${PORTSDIR}/print/texlive-tikzpagenodes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpfeile/tikzpfeile.sty:${PORTSDIR}/print/texlive-tikzpfeile \

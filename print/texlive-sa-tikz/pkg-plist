@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/sa-tikz/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/sa-tikz/pgfmanual-en-macros.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sa-tikz/sa-tikz-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sa-tikz/sa-tikz-doc.tex
+share/texmf-dist/tex/latex/sa-tikz/sa-tikz.sty
+share/texmf-dist/tex/latex/sa-tikz/tikzlibraryswitching-architectures.code.tex
+@dirrmtry share/texmf-dist/tex/latex/sa-tikz
+@dirrmtry share/texmf-dist/doc/latex/sa-tikz
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
