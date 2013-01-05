@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-tikzscale
-# Date created:		11/02/2012 05:04:03
+# New ports collection makefile for:	texlive-tikzinclude
+# Date created:		01/05/2013 04:48:25
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	tikzscale
+PORTNAME=	tikzinclude
 PORTVERSION=	20130104
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Resize pictures while respecting text size.
+COMMENT=	Import TikZ images from colletions.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
