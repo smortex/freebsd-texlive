@@ -114,16 +114,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/emacs/beamer.el
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-conference-talk/beamerexample-conference-talk.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-beamer-version.aux
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-beamer-version.log
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-beamer-version.nav
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-beamer-version.out
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-beamer-version.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-beamer-version.snm
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-beamer-version.synctex.gz
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-beamer-version.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-beamer-version.toc
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-beamer-version.vrb
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-body.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-logo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-pic1.jpg
@@ -132,29 +123,18 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-pic4.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-pic5.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-pic6.jpg
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-print-version.aux
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-print-version.log
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-print-version.out
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-print-version.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-print-version.synctex.gz
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-print-version.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-print-version.toc
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-style.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/beamerexample-conference-talk.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/lyx-based-presentation/beamerexample-lyx.lyx
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/conference-talks/conference-ornate-20min.de.lyx
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/beamerexample-lecture-beamer-version.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/beamerexample-lecture-print-version.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/conference-talks/conference-ornate-20min.de.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/conference-talks/conference-ornate-20min.en.lyx
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/conference-talks/conference-ornate-20min.en.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/conference-talks/conference-ornate-20min.fr.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/generic-talks/generic-ornate-15min-45min.de.lyx
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/generic-talks/generic-ornate-15min-45min.de.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/generic-talks/generic-ornate-15min-45min.en.lyx
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/generic-talks/generic-ornate-15min-45min.en.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/generic-talks/generic-ornate-15min-45min.fr.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/short-talks/speaker_introduction-ornate-2min.de.lyx
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/short-talks/speaker_introduction-ornate-2min.de.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/short-talks/speaker_introduction-ornate-2min.en.lyx
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/short-talks/speaker_introduction-ornate-2min.en.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/solutions/short-talks/speaker_introduction-ornate-2min.fr.tex
 share/texmf-dist/tex/latex/beamer/art/beamericonarticle.20.eps
@@ -374,7 +354,6 @@ share/texmf-dist/tex/latex/beamer/translator/translator.sty
 @dirrmtry share/texmf-dist/doc/latex/beamer/solutions/short-talks
 @dirrmtry share/texmf-dist/doc/latex/beamer/solutions/generic-talks
 @dirrmtry share/texmf-dist/doc/latex/beamer/solutions/conference-talks
-@dirrmtry share/texmf-dist/doc/latex/beamer/examples/lyx-based-presentation
 @dirrmtry share/texmf-dist/doc/latex/beamer/examples/a-lecture
 @dirrmtry share/texmf-dist/doc/latex/beamer/examples/a-conference-talk
 @dirrmtry share/texmf-dist/doc/latex/beamer/examples
