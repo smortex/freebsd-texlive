@@ -1,18 +1,17 @@
-# New ports collection makefile for:	texlive-abntex2
-# Date created:		01/02/2013 04:57:17
+# New ports collection makefile for:	texlive-threadcol
+# Date created:		01/08/2013 04:58:27
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	abntex2
+PORTNAME=	threadcol
 PORTVERSION=	20130107
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset a Brazilian academic thesis based on ABNT rules.
+COMMENT=	Organize document columns into PDF "article thread".
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

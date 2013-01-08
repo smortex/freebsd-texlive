@@ -39,6 +39,8 @@ share/texmf-dist/web2c/updmap.cfg
 %%PORTDOCS%%share/texmf/doc/man/man5/fmtutil.cnf.man5.pdf
 %%PORTDOCS%%share/texmf/doc/man/man5/updmap.cfg.5
 %%PORTDOCS%%share/texmf/doc/man/man5/updmap.cfg.man5.pdf
+%%PORTDOCS%%share/texmf/doc/tetex/TETEXDOC.pdf
+%%PORTDOCS%%share/texmf/doc/tetex/teTeX-FAQ
 share/texmf/dvips/tetex/config.builtin35
 share/texmf/dvips/tetex/config.dfaxhigh
 share/texmf/dvips/tetex/config.dfaxlo
@@ -72,9 +74,12 @@ share/texmf/scripts/tetex/texconfig-dialog.sh
 share/texmf/scripts/tetex/texconfig-sys.sh
 share/texmf/scripts/tetex/texlinks.sh
 share/texmf/web2c/updmap.cfg
+@dirrmtry share/texmf/web2c
+@dirrmtry share/texmf/scripts/tetex
 @dirrmtry share/texmf/fonts/map/dvips/tetex
 @dirrmtry share/texmf/fonts/enc/dvips/tetex
 @dirrmtry share/texmf/dvips/tetex
+@dirrmtry share/texmf/doc/tetex
 @dirrmtry share/texmf/doc/man/man5
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf-dist/web2c
