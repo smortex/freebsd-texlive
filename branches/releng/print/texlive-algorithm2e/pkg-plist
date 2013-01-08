@@ -10,7 +10,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/algorithm2e/algorithm2e_ex07.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/algorithm2e/algorithm2e_exAlgoDisjdecomp.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/algorithm2e/algorithm2e_exIR.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/algorithm2e/algorithm2e_exProg.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/algorithm2e/algorithm2e_exfor.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/algorithm2e/algorithm2e_exgeneric.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/algorithm2e/algorithm2e_exrepeat.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/algorithm2e/algorithm2e_exswitch.tex
 share/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty

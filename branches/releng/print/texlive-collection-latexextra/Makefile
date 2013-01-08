@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20130101
+PORTVERSION=	20130107
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -190,6 +190,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/reotex/reotex.sty:${PORTSDIR}/print/texlive-reotex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/roundbox/roundbox.sty:${PORTSDIR}/print/texlive-roundbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rviewport/rviewport.sty:${PORTSDIR}/print/texlive-rviewport \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sa-tikz/sa-tikz.sty:${PORTSDIR}/print/texlive-sa-tikz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/schemabloc/schemabloc.sty:${PORTSDIR}/print/texlive-schemabloc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/setdeck/setdeck.sty:${PORTSDIR}/print/texlive-setdeck \
 		${LOCALBASE}/share/texmf-dist/tex/latex/smartdiagram/smartdiagram.sty:${PORTSDIR}/print/texlive-smartdiagram \
@@ -201,6 +202,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-inet/tikz-inet.sty:${PORTSDIR}/print/texlive-tikz-inet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty:${PORTSDIR}/print/texlive-tikz-qtree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty:${PORTSDIR}/print/texlive-tikz-timing \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikzinclude/tikzinclude.sty:${PORTSDIR}/print/texlive-tikzinclude \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzorbital/tikzorbital.sty:${PORTSDIR}/print/texlive-tikzorbital \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpagenodes/tikzpagenodes.sty:${PORTSDIR}/print/texlive-tikzpagenodes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpfeile/tikzpfeile.sty:${PORTSDIR}/print/texlive-tikzpfeile \
@@ -991,6 +993,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/generic/textmerg/textmerg.sty:${PORTSDIR}/print/texlive-textmerg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/textpos/textpos.sty:${PORTSDIR}/print/texlive-textpos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/theoremref/theoremref.sty:${PORTSDIR}/print/texlive-theoremref \
+		${LOCALBASE}/share/texmf-dist/tex/latex/threadcol/threadcol.sty:${PORTSDIR}/print/texlive-threadcol \
 		${LOCALBASE}/share/texmf-dist/tex/latex/threeparttable/threeparttable.sty:${PORTSDIR}/print/texlive-threeparttable \
 		${LOCALBASE}/share/texmf-dist/tex/latex/threeparttablex/threeparttablex.sty:${PORTSDIR}/print/texlive-threeparttablex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/thinsp/thinsp.sty:${PORTSDIR}/print/texlive-thinsp \
