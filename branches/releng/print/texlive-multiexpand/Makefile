@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-morewrites
-# Date created:		07/28/2011 05:02:15
+# New ports collection makefile for:	texlive-multiexpand
+# Date created:		01/10/2013 04:54:19
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	morewrites
+PORTNAME=	multiexpand
 PORTVERSION=	20130109
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Always room for a new write stream.
+COMMENT=	Variations on the primitive command \expandafter.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

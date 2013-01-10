@@ -1,0 +1,4 @@
+The package extends the facilities of the pict2e and the
+curve2e packages, providing extra reference frames, conic
+section curves, graphs of elementary functions and other
+parametric curves.
