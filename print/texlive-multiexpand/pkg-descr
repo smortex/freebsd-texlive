@@ -1,0 +1,7 @@
+The package provides two user commands; one that performs
+multiple expansions, and one that does multiple \expandafter
+operations, in a single macro call. The package requires eTeX's
+\numexpr command. The author suggests that the same effect
+could be provided by use of the command variant mechanisms of
+LaTeX 3 (see, for example, the interface documentation of the
+experimental LaTeX 3 kernel).

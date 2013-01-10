@@ -865,6 +865,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/tsemlines/tsemlines.sty:${PORTSDIR}/print/texlive-tsemlines \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tufte-latex/tufte-book.cls:${PORTSDIR}/print/texlive-tufte-latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/venndiagram/venndiagram.sty:${PORTSDIR}/print/texlive-venndiagram \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xpicture/xpicture.sty:${PORTSDIR}/print/texlive-xpicture \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xypic/xypic.sty:${PORTSDIR}/print/texlive-xypic \
 		${LOCALBASE}/share/texmf-dist/tex/generic/2up/2up.sty:${PORTSDIR}/print/texlive-2up \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ESIEEcv/ESIEEcv.sty:${PORTSDIR}/print/texlive-ESIEEcv \
@@ -1362,6 +1363,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/multibbl/multibbl.sty:${PORTSDIR}/print/texlive-multibbl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multicap/multicap.sty:${PORTSDIR}/print/texlive-multicap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multienv/multienv.sty:${PORTSDIR}/print/texlive-multienv \
+		${LOCALBASE}/share/texmf-dist/tex/latex/multiexpand/multiexpand.sty:${PORTSDIR}/print/texlive-multiexpand \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multirow/multirow.sty:${PORTSDIR}/print/texlive-multirow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mversion/mVersion.sty:${PORTSDIR}/print/texlive-mversion \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mwe/mwe.sty:${PORTSDIR}/print/texlive-mwe \
@@ -1636,6 +1638,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/generic/textmerg/textmerg.sty:${PORTSDIR}/print/texlive-textmerg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/textpos/textpos.sty:${PORTSDIR}/print/texlive-textpos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/theoremref/theoremref.sty:${PORTSDIR}/print/texlive-theoremref \
+		${LOCALBASE}/share/texmf-dist/tex/latex/threadcol/threadcol.sty:${PORTSDIR}/print/texlive-threadcol \
 		${LOCALBASE}/share/texmf-dist/tex/latex/threeparttable/threeparttable.sty:${PORTSDIR}/print/texlive-threeparttable \
 		${LOCALBASE}/share/texmf-dist/tex/latex/threeparttablex/threeparttablex.sty:${PORTSDIR}/print/texlive-threeparttablex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/thinsp/thinsp.sty:${PORTSDIR}/print/texlive-thinsp \

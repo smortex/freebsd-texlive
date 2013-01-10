@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpicture/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpicture/xpicture-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpicture/xpicture-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpicture/xpicture.cfgxmpl
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpicture/xpicture.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/xpicture/xpicture.dtx
+share/texmf-dist/tex/latex/xpicture/xpicture.sty
+@dirrmtry share/texmf-dist/tex/latex/xpicture
+@dirrmtry share/texmf-dist/source/latex/xpicture
+@dirrmtry share/texmf-dist/doc/latex/xpicture
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

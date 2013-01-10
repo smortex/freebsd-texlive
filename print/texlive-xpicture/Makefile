@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-morewrites
-# Date created:		07/28/2011 05:02:15
+# New ports collection makefile for:	texlive-xpicture
+# Date created:		01/10/2013 04:51:37
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	morewrites
+PORTNAME=	xpicture
 PORTVERSION=	20130109
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Always room for a new write stream.
+COMMENT=	Extensions of LaTeX picture drawing.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
