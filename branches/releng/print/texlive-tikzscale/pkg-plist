@@ -1,6 +1,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikzscale/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikzscale/histogramNormal.tikz
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikzscale/linewidth.tikz
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikzscale/pgfplots-test.tikz
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikzscale/pgfplots.randn.dat
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikzscale/test-tikzscale.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikzscale/test-tikzscale.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikzscale/testNode.tikz
