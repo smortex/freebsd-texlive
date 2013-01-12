@@ -425,6 +425,7 @@ share/texmf-dist/scripts/context/lua/mtx-tools.lua
 share/texmf-dist/scripts/context/lua/mtx-unzip.lua
 share/texmf-dist/scripts/context/lua/mtx-update.lua
 share/texmf-dist/scripts/context/lua/mtx-watch.lua
+share/texmf-dist/scripts/context/lua/mtxrun.lua
 share/texmf-dist/scripts/context/perl/makempy.pl
 share/texmf-dist/scripts/context/perl/path_tre.pm
 share/texmf-dist/scripts/context/perl/pdftrimwhite.pl
@@ -468,6 +469,7 @@ share/texmf-dist/scripts/context/ruby/rsfiltool.rb
 share/texmf-dist/scripts/context/ruby/rslibtool.rb
 share/texmf-dist/scripts/context/ruby/runtools.rb
 share/texmf-dist/scripts/context/ruby/texexec.rb
+share/texmf-dist/scripts/context/ruby/texmfstart.rb
 share/texmf-dist/scripts/context/ruby/texsync.rb
 share/texmf-dist/scripts/context/ruby/textools.rb
 share/texmf-dist/scripts/context/ruby/texutil.rb
@@ -486,10 +488,13 @@ share/texmf-dist/scripts/context/stubs/mswin/texmfstart.exe
 share/texmf-dist/scripts/context/stubs/source/mtxrun_dll.c
 share/texmf-dist/scripts/context/stubs/source/mtxrun_exe.c
 share/texmf-dist/scripts/context/stubs/source/readme.txt
+share/texmf-dist/scripts/context/stubs/unix/context
 share/texmf-dist/scripts/context/stubs/unix/luatools
 share/texmf-dist/scripts/context/stubs/unix/metatex
+share/texmf-dist/scripts/context/stubs/unix/mptopdf
 share/texmf-dist/scripts/context/stubs/unix/mtxrun
 share/texmf-dist/scripts/context/stubs/unix/mtxworks
+share/texmf-dist/scripts/context/stubs/unix/texexec
 share/texmf-dist/scripts/context/stubs/unix/texmfstart
 share/texmf-dist/tex/context/base/anch-bar.mkii
 share/texmf-dist/tex/context/base/anch-bar.mkiv
@@ -2287,12 +2292,15 @@ share/texmf-dist/tex/mptopdf/config/mptopdf.ini
 @dirrmtry share/texmf-dist/tex/context/colors/icc
 @dirrmtry share/texmf-dist/tex/context/bib
 @dirrmtry share/texmf-dist/tex/context/base
+@dirrmtry share/texmf-dist/scripts/context/stubs/unix
 @dirrmtry share/texmf-dist/scripts/context/stubs/source
 @dirrmtry share/texmf-dist/scripts/context/stubs/mswin
 @dirrmtry share/texmf-dist/scripts/context/ruby/graphics
 @dirrmtry share/texmf-dist/scripts/context/ruby/base/kpse
 @dirrmtry share/texmf-dist/scripts/context/ruby/base
+@dirrmtry share/texmf-dist/scripts/context/ruby
 @dirrmtry share/texmf-dist/scripts/context/perl
+@dirrmtry share/texmf-dist/scripts/context/lua
 @dirrmtry share/texmf-dist/metapost/context/font
 @dirrmtry share/texmf-dist/metapost/context/base
 @dirrmtry share/texmf-dist/fonts/type1/hoekwater/context
