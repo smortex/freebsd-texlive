@@ -1008,6 +1008,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/coolthms/coolthms.sty:${PORTSDIR}/print/texlive-coolthms \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cooltooltips/cooltooltips.sty:${PORTSDIR}/print/texlive-cooltooltips \
 		${LOCALBASE}/share/texmf-dist/tex/latex/coordsys/coordsys.sty:${PORTSDIR}/print/texlive-coordsys \
+		${LOCALBASE}/share/texmf-dist/tex/latex/copypaste/copypaste.sty:${PORTSDIR}/print/texlive-copypaste \
 		${LOCALBASE}/share/texmf-dist/tex/latex/copyrightbox/copyrightbox.sty:${PORTSDIR}/print/texlive-copyrightbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/coseoul/coseoul.sty:${PORTSDIR}/print/texlive-coseoul \
 		${LOCALBASE}/share/texmf-dist/tex/latex/counttexruns/counttexruns.sty:${PORTSDIR}/print/texlive-counttexruns \
@@ -1334,6 +1335,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/mftinc/mftinc.sty:${PORTSDIR}/print/texlive-mftinc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/midpage/midpage.sty:${PORTSDIR}/print/texlive-midpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minibox/minibox.sty:${PORTSDIR}/print/texlive-minibox \
+		${LOCALBASE}/share/texmf-dist/tex/generic/minifp/minifp.sty:${PORTSDIR}/print/texlive-minifp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minipage-marginpar/minipage-marginpar.sty:${PORTSDIR}/print/texlive-minipage-marginpar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minitoc/minitoc.sty:${PORTSDIR}/print/texlive-minitoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minted/minted.sty:${PORTSDIR}/print/texlive-minted \
@@ -1948,6 +1950,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-tree/pst-tree.tex:${PORTSDIR}/print/texlive-pst-tree \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-tvz/pst-tvz.tex:${PORTSDIR}/print/texlive-pst-tvz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-uml/pst-uml.sty:${PORTSDIR}/print/texlive-pst-uml \
+		${LOCALBASE}/share/texmf-dist/dvips/pst-vectorian/psvectorian.pro:${PORTSDIR}/print/texlive-pst-vectorian \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-vowel/pst-vowel.sty:${PORTSDIR}/print/texlive-pst-vowel \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-vue3d/pst-vue3d.tex:${PORTSDIR}/print/texlive-pst-vue3d \
 		${LOCALBASE}/share/texmf-dist/scripts/pst2pdf/pst2pdf:${PORTSDIR}/print/texlive-pst2pdf \
@@ -2132,6 +2135,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/polyglossia/polyglossia.sty:${PORTSDIR}/print/texlive-polyglossia \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/ptext/ptext.sty:${PORTSDIR}/print/texlive-ptext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/realscripts/realscripts.sty:${PORTSDIR}/print/texlive-realscripts \
+		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/tibetian/loctib.map:${PORTSDIR}/print/texlive-tibetian \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty:${PORTSDIR}/print/texlive-ucharclasses \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/unisugar/unisugar.sty:${PORTSDIR}/print/texlive-unisugar \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecjk/config/xeCJK.cfg:${PORTSDIR}/print/texlive-xecjk \

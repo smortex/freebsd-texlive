@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-pstricks
-PORTVERSION=	20121103
+PORTVERSION=	20130112
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -131,6 +131,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-tree/pst-tree.tex:${PORTSDIR}/print/texlive-pst-tree \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-tvz/pst-tvz.tex:${PORTSDIR}/print/texlive-pst-tvz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-uml/pst-uml.sty:${PORTSDIR}/print/texlive-pst-uml \
+		${LOCALBASE}/share/texmf-dist/dvips/pst-vectorian/psvectorian.pro:${PORTSDIR}/print/texlive-pst-vectorian \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-vowel/pst-vowel.sty:${PORTSDIR}/print/texlive-pst-vowel \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-vue3d/pst-vue3d.tex:${PORTSDIR}/print/texlive-pst-vue3d \
 		${LOCALBASE}/share/texmf-dist/scripts/pst2pdf/pst2pdf:${PORTSDIR}/print/texlive-pst2pdf \

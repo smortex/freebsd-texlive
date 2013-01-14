@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-vectorian/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-vectorian/psvectorian.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-vectorian/psvectorian.tex
+share/texmf-dist/dvips/pst-vectorian/psvectorian.pro
+share/texmf-dist/tex/latex/pst-vectorian/psvectorian.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-vectorian
+@dirrmtry share/texmf-dist/dvips/pst-vectorian
+@dirrmtry share/texmf-dist/doc/latex/pst-vectorian
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

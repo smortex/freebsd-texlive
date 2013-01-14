@@ -1,17 +1,16 @@
-# New ports collection makefile for:	texlive-dejavu
-# Date created:		08/15/2011 04:45:05
+# New ports collection makefile for:	texlive-tibetian
+# Date created:		01/14/2013 04:57:21
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	dejavu
-PORTVERSION=	20130112
-PORTEPOCH=	1
+PORTNAME=	tibetian
+PORTVERSION=	20130113
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX support for the fonts DejaVu.
+COMMENT=	The tibetian package
 
 NOPORTSRC=	yes
 
