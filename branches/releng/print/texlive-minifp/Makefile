@@ -1,19 +1,17 @@
-# New ports collection makefile for:	texlive-dejavu
-# Date created:		08/15/2011 04:45:05
+# New ports collection makefile for:	texlive-minifp
+# Date created:		01/14/2013 04:53:35
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	dejavu
+PORTNAME=	minifp
 PORTVERSION=	20130112
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX support for the fonts DejaVu.
+COMMENT=	Fixed-point real computations to 8 decimals.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

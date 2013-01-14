@@ -1,6 +1,5 @@
 share/texmf-dist/tex/generic/xetexconfig/unicode-letters.tex
 share/texmf-dist/tex/xelatex/xetexconfig/crop.cfg
-share/texmf-dist/tex/xelatex/xetexconfig/hyperref.cfg
 @dirrmtry share/texmf-dist/tex/xelatex/xetexconfig
 @dirrmtry share/texmf-dist/tex/generic/xetexconfig
 @exec %D/bin/mktexlsr

@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/minifp/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/minifp/minifp.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/minifp/test1.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/minifp/test2.tex
+%%PORTSRC%%share/texmf-dist/source/generic/minifp/minifp.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/minifp/minifp.ins
+share/texmf-dist/tex/generic/minifp/mfpextra.tex
+share/texmf-dist/tex/generic/minifp/minifp.sty
+@dirrmtry share/texmf-dist/tex/generic/minifp
+@dirrmtry share/texmf-dist/source/generic/minifp
+@dirrmtry share/texmf-dist/doc/generic/minifp
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

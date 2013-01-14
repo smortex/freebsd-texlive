@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20130109
+PORTVERSION=	20130113
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -365,6 +365,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/coolthms/coolthms.sty:${PORTSDIR}/print/texlive-coolthms \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cooltooltips/cooltooltips.sty:${PORTSDIR}/print/texlive-cooltooltips \
 		${LOCALBASE}/share/texmf-dist/tex/latex/coordsys/coordsys.sty:${PORTSDIR}/print/texlive-coordsys \
+		${LOCALBASE}/share/texmf-dist/tex/latex/copypaste/copypaste.sty:${PORTSDIR}/print/texlive-copypaste \
 		${LOCALBASE}/share/texmf-dist/tex/latex/copyrightbox/copyrightbox.sty:${PORTSDIR}/print/texlive-copyrightbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/coseoul/coseoul.sty:${PORTSDIR}/print/texlive-coseoul \
 		${LOCALBASE}/share/texmf-dist/tex/latex/counttexruns/counttexruns.sty:${PORTSDIR}/print/texlive-counttexruns \
@@ -691,6 +692,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/mftinc/mftinc.sty:${PORTSDIR}/print/texlive-mftinc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/midpage/midpage.sty:${PORTSDIR}/print/texlive-midpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minibox/minibox.sty:${PORTSDIR}/print/texlive-minibox \
+		${LOCALBASE}/share/texmf-dist/tex/generic/minifp/minifp.sty:${PORTSDIR}/print/texlive-minifp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minipage-marginpar/minipage-marginpar.sty:${PORTSDIR}/print/texlive-minipage-marginpar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minitoc/minitoc.sty:${PORTSDIR}/print/texlive-minitoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minted/minted.sty:${PORTSDIR}/print/texlive-minted \
