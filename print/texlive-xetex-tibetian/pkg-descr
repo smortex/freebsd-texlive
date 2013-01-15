@@ -1,0 +1,2 @@
+The package provides a map for use with Jonathan Kew's TECkit,
+to translate Tibetan to Unicode (range 0F00-0FFF).

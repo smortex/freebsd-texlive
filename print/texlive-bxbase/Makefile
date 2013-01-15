@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-tibetian
-# Date created:		01/14/2013 04:57:21
+# New ports collection makefile for:	texlive-bxbase
+# Date created:		01/15/2013 04:45:04
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	tibetian
-PORTVERSION=	20130113
+PORTNAME=	bxbase
+PORTVERSION=	20130114
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The tibetian package
+COMMENT=	BX bundle base components.
 
 NOPORTSRC=	yes
 
