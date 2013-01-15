@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-texlive-docindex
-# Date created:		08/02/2012 12:13:55
+# New ports collection makefile for:	texlive-xetex-tibetian
+# Date created:		01/15/2013 04:53:04
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	texlive-docindex
+PORTNAME=	xetex-tibetian
 PORTVERSION=	20130114
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	XeTeX input maps for Unicode Tibetan.
 
 NOPORTSRC=	yes
 

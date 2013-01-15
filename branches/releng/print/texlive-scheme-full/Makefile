@@ -579,6 +579,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/persian-modern/persian-modern-bold.ttf:${PORTSDIR}/print/texlive-persian-modern \
 		${LOCALBASE}/share/texmf-dist/fonts/cmap/adobemapping/LICENSE:${PORTSDIR}/print/texlive-adobemapping \
 		${LOCALBASE}/share/texmf-dist/dvips/arphic/config.bkaiu:${PORTSDIR}/print/texlive-arphic \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bxbase/bxbase.sty:${PORTSDIR}/print/texlive-bxbase \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/c90/c90.enc:${PORTSDIR}/print/texlive-c90 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cjk/contrib/wadalab/c42goth.fd:${PORTSDIR}/print/texlive-cjk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cjkpunct/CJKpunct.sty:${PORTSDIR}/print/texlive-cjkpunct \
@@ -2135,7 +2136,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/polyglossia/polyglossia.sty:${PORTSDIR}/print/texlive-polyglossia \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/ptext/ptext.sty:${PORTSDIR}/print/texlive-ptext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/realscripts/realscripts.sty:${PORTSDIR}/print/texlive-realscripts \
-		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/tibetian/loctib.map:${PORTSDIR}/print/texlive-tibetian \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty:${PORTSDIR}/print/texlive-ucharclasses \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/unisugar/unisugar.sty:${PORTSDIR}/print/texlive-unisugar \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecjk/config/xeCJK.cfg:${PORTSDIR}/print/texlive-xecjk \
@@ -2148,6 +2148,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xetex-def/xetex.def:${PORTSDIR}/print/texlive-xetex-def \
 		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/brh-kan.map:${PORTSDIR}/print/texlive-xetex-itrans \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con:${PORTSDIR}/print/texlive-xetex-pstricks \
+		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-tibetian/loctib.map:${PORTSDIR}/print/texlive-xetex-tibetian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xetexconfig/unicode-letters.tex:${PORTSDIR}/print/texlive-xetexconfig \
 		${LOCALBASE}/share/texmf-dist/tex/xetex/xetexfontinfo/aat-info.tex:${PORTSDIR}/print/texlive-xetexfontinfo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xltxtra/xltxtra.sty:${PORTSDIR}/print/texlive-xltxtra \

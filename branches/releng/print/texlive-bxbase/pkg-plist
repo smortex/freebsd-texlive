@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxbase/00README
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxbase/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxbase/README
+share/texmf-dist/tex/latex/bxbase/bxbase.def
+share/texmf-dist/tex/latex/bxbase/bxbase.sty
+share/texmf-dist/tex/latex/bxbase/bxucs.sty
+share/texmf-dist/tex/latex/bxbase/bxutf8.def
+share/texmf-dist/tex/latex/bxbase/bxutf8x.def
+share/texmf-dist/tex/latex/bxbase/zxbase.sty
+@dirrmtry share/texmf-dist/tex/latex/bxbase
+@dirrmtry share/texmf-dist/doc/latex/bxbase
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
