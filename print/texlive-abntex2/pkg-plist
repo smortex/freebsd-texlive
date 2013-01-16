@@ -8,9 +8,12 @@ share/texmf-dist/bibtex/bst/abntex2/abntex2-num.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-doc-options.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-doc-test.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-artigo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-artigo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-img-grafico.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-references.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-trabalho-academico.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-trabalho-academico.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2cite-alf.pdf
