@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	zwpagelayout
-PORTVERSION=	20120522
+PORTVERSION=	20130116
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The zwpagelayout package
+COMMENT=	Page layout and crop-marks.
 
 NOPORTSRC=	yes
 
