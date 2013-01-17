@@ -1,12 +1,12 @@
-# New ports collection makefile for:	texlive-xetex-tibetian
-# Date created:		01/15/2013 04:53:04
+# New ports collection makefile for:	texlive-xetex-tibetan
+# Date created:		01/17/2013 05:00:51
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	xetex-tibetian
-PORTVERSION=	20130114
+PORTNAME=	xetex-tibetan
+PORTVERSION=	20130116
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

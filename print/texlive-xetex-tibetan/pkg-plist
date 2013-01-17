@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/xetex/xetex-tibetan/Changelog
+%%PORTDOCS%%share/texmf-dist/doc/xetex/xetex-tibetan/README
+share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-tibetan/loctib.map
+share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-tibetan/loctib.tec
+share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-tibetan/wylie.map
+share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-tibetan/wylie.tec
+@dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-tibetan
+@dirrmtry share/texmf-dist/doc/xetex/xetex-tibetan
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
