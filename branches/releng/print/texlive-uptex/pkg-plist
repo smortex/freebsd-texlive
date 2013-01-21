@@ -153,7 +153,6 @@ share/texmf-dist/fonts/vf/uptex/min/ugoth10.vf
 share/texmf-dist/fonts/vf/uptex/min/umin10.vf
 share/texmf-dist/fonts/vf/uptex/min/utgoth10.vf
 share/texmf-dist/fonts/vf/uptex/min/utmin10.vf
-share/texmf-dist/scripts/uptex/convbkmk.rb
 %%PORTSRC%%share/texmf-dist/source/fonts/uptex/Makefile
 %%PORTSRC%%share/texmf-dist/source/fonts/uptex/README_ASCII_Corp.txt
 %%PORTSRC%%share/texmf-dist/source/fonts/uptex/README_uptex_font.txt
@@ -209,7 +208,6 @@ share/texmf-dist/tex/uptex/config/uptex.ini
 @dirrmtry share/texmf-dist/tex/uplatex/base
 @dirrmtry share/texmf-dist/source/uplatex/base
 @dirrmtry share/texmf-dist/source/fonts/uptex
-@dirrmtry share/texmf-dist/scripts/uptex
 @dirrmtry share/texmf-dist/fonts/vf/uptex/min
 @dirrmtry share/texmf-dist/fonts/vf/uptex/jis
 @dirrmtry share/texmf-dist/fonts/tfm/uptex/min

@@ -1,4 +1,3 @@
-share/texmf-dist/scripts/context/perl/mptopdf.pl
 share/texmf-dist/tex/context/base/supp-mis.mkii
 share/texmf-dist/tex/context/base/supp-mpe.mkii
 share/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -9,6 +8,5 @@ share/texmf-dist/tex/generic/context/mptopdf/mptopdf.tex
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf-dist/tex/generic/context/mptopdf
 @dirrmtry share/texmf-dist/tex/context/base
-@dirrmtry share/texmf-dist/scripts/context/perl
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -46,7 +46,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/volta.mtx
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/prepmx.html
 share/texmf-dist/scripts/m-tx/Windows/m-tx.bat
-share/texmf-dist/scripts/m-tx/m-tx.lua
 share/texmf-dist/tex/generic/m-tx/mtx.tex
 %%PORTDOCS%%share/texmf/doc/man/man1/m-tx.1
 %%PORTDOCS%%share/texmf/doc/man/man1/m-tx.man1.pdf
@@ -55,7 +54,6 @@ share/texmf-dist/tex/generic/m-tx/mtx.tex
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf-dist/tex/generic/m-tx
 @dirrmtry share/texmf-dist/scripts/m-tx/Windows
-@dirrmtry share/texmf-dist/scripts/m-tx
 @dirrmtry share/texmf-dist/doc/generic/m-tx/mtx060
 @dirrmtry share/texmf-dist/doc/generic/m-tx
 @exec %D/bin/mktexlsr

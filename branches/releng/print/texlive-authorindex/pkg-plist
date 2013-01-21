@@ -3,10 +3,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/authorindex/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/authorindex/authorindex.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/authorindex/authorindex.tex
-share/texmf-dist/scripts/authorindex/authorindex
 share/texmf-dist/tex/latex/authorindex/authorindex.sty
 @dirrmtry share/texmf-dist/tex/latex/authorindex
-@dirrmtry share/texmf-dist/scripts/authorindex
 @dirrmtry share/texmf-dist/doc/latex/authorindex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
