@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-rviewport
-# Date created:		08/30/2011 04:53:14
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	rviewport
 PORTVERSION=	20110829

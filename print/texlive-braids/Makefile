@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-braids
-# Date created:		08/28/2011 04:57:47
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	braids
 PORTVERSION=	20110905

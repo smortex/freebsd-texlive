@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-gridset
-# Date created:		13/03/2010 04:43:20
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	gridset
 PORTVERSION=	20100610

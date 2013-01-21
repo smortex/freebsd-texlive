@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fwlw
-# Date created:		13/03/2010 04:43:00
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fwlw
 PORTVERSION=	20110301

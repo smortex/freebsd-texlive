@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pgfkeyx
-# Date created:		04/25/2012 04:54:34
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pgfkeyx
 PORTVERSION=	20120424

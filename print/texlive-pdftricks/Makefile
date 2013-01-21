@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pdftricks
-# Date created:		13/03/2010 04:56:02
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pdftricks
 PORTVERSION=	20100610

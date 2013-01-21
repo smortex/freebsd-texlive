@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-titling
-# Date created:		13/03/2010 04:50:29
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	titling
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pdf-trans
-# Date created:		13/03/2010 04:31:45
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pdf-trans
 PORTVERSION=	20100610

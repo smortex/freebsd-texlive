@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-coil
-# Date created:		13/03/2010 04:56:21
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-coil
 PORTVERSION=	20110920

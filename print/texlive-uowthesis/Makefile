@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-uowthesis
-# Date created:		09/21/2010 11:58:29
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	uowthesis
 PORTVERSION=	20100914

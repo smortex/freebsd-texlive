@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-amsrefs
-# Date created:		13/03/2010 04:22:56
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	amsrefs
 PORTVERSION=	20120515

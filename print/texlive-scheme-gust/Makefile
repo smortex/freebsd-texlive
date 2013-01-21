@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-scheme-gust
-# Date created:		13/03/2010 05:01:09
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	scheme-gust
 PORTVERSION=	20110220

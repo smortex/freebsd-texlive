@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-sudoku
-# Date created:		13/03/2010 04:31:13
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sudoku
 PORTVERSION=	20100610

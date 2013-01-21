@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-texdiff
-# Date created:		13/03/2010 04:24:26
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	texdiff
 PORTVERSION=	20120515

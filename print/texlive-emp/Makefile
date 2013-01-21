@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-emp
-# Date created:		13/03/2010 04:21:57
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	emp
 PORTVERSION=	20110811

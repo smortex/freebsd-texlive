@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-sapthesis
-# Date created:		09/17/2011 05:09:38
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sapthesis
 PORTVERSION=	20121124

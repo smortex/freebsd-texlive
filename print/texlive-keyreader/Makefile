@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-keyreader
-# Date created:		12/25/2011 04:59:23
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	keyreader
 PORTVERSION=	20121107

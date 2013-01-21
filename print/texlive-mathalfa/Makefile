@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mathalfa
-# Date created:		05/16/2011 05:01:00
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mathalfa
 PORTVERSION=	20120728

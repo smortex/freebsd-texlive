@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-isonums
-# Date created:		13/03/2010 04:43:50
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	isonums
 PORTVERSION=	20100610

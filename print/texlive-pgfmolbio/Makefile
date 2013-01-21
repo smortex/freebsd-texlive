@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pgfmolbio
-# Date created:		09/22/2011 04:51:24
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pgfmolbio
 PORTVERSION=	20121019

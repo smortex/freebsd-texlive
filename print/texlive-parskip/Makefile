@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-parskip
-# Date created:		10/01/2010 05:00:54
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	parskip
 PORTVERSION=	20101001

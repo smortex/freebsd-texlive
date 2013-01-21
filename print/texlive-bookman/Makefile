@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bookman
-# Date created:		13/03/2010 04:29:31
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bookman
 PORTVERSION=	20121222

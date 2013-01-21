@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-adfsymbols
-# Date created:		09/21/2010 11:36:24
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	adfsymbols
 PORTVERSION=	20100917

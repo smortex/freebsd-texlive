@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-aspectratio
-# Date created:		01/30/2012 04:42:57
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	aspectratio
 PORTVERSION=	20120131

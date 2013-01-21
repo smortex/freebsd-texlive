@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-context-ruby
-# Date created:		13/03/2010 04:21:43
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	context-ruby
 PORTVERSION=	20121204

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mwcls
-# Date created:		13/03/2010 04:37:51
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mwcls
 PORTVERSION=	20100610

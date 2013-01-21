@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-smartref
-# Date created:		13/03/2010 04:49:07
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	smartref
 PORTVERSION=	20101105

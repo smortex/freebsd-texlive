@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pdfsync
-# Date created:		13/03/2010 04:47:07
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pdfsync
 PORTVERSION=	20101109

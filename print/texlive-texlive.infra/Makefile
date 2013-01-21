@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-texlive.infra
-# Date created:		13/03/2010 04:19:59
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	texlive.infra
 PORTVERSION=	20121112

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-aomart
-# Date created:		01/08/2011 17:11:31
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	aomart
 PORTVERSION=	20121027

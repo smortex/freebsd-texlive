@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-htmlxml
-# Date created:		13/03/2010 04:32:13
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-htmlxml
 PORTVERSION=	20121114

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ifetex
-# Date created:		11/11/2011 04:49:53
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ifetex
 PORTVERSION=	20111218

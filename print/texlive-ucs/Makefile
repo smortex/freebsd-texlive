@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ucs
-# Date created:		13/03/2010 04:50:54
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ucs
 PORTVERSION=	20120830

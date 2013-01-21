@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-shorttoc
-# Date created:		13/03/2010 04:48:52
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	shorttoc
 PORTVERSION=	20100610

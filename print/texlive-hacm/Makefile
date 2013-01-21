@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hacm
-# Date created:		09/11/2012 04:48:59
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hacm
 PORTVERSION=	20120915

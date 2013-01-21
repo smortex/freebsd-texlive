@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-spreadtab
-# Date created:		13/03/2010 04:49:12
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	spreadtab
 PORTVERSION=	20120515

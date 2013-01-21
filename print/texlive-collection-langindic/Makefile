@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-langindic
-# Date created:		13/03/2010 04:37:16
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-langindic
 PORTVERSION=	20120824

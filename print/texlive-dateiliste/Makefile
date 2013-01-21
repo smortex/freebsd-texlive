@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dateiliste
-# Date created:		13/03/2010 04:40:34
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dateiliste
 PORTVERSION=	20121016

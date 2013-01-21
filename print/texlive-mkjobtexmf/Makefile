@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mkjobtexmf
-# Date created:		13/03/2010 04:24:17
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mkjobtexmf
 PORTVERSION=	20120515

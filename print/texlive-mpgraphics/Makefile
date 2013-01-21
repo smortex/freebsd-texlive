@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mpgraphics
-# Date created:		03/07/2011 04:52:02
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mpgraphics
 PORTVERSION=	20120730

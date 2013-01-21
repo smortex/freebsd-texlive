@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mongolian-babel
-# Date created:		13/03/2010 04:37:24
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mongolian-babel
 PORTVERSION=	20100610

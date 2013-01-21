@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-antt
-# Date created:		13/03/2010 04:22:39
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	antt
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-solides3d
-# Date created:		13/03/2010 04:57:28
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-solides3d
 PORTVERSION=	20121220

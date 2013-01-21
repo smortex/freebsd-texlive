@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cell
-# Date created:		13/03/2010 04:23:18
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cell
 PORTVERSION=	20101216

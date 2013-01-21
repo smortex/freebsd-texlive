@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-captdef
-# Date created:		13/03/2010 04:39:23
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	captdef
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fontinst
-# Date created:		13/03/2010 04:30:39
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fontinst
 PORTVERSION=	20120808

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dvipos
-# Date created:		13/03/2010 04:24:08
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dvipos
 PORTVERSION=	20120529

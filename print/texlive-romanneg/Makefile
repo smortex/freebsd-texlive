@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-romanneg
-# Date created:		10/14/2010 04:57:17
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	romanneg
 PORTVERSION=	20101014

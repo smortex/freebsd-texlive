@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-actuarialangle
-# Date created:		10/19/2012 05:02:33
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	actuarialangle
 PORTVERSION=	20121018

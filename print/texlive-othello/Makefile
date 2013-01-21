@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-othello
-# Date created:		13/03/2010 04:31:09
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	othello
 PORTVERSION=	20100610

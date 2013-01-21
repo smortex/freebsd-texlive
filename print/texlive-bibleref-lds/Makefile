@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bibleref-lds
-# Date created:		02/29/2012 04:50:29
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bibleref-lds
 PORTVERSION=	20120228

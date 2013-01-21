@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-colordoc
-# Date created:		09/21/2010 11:45:58
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	colordoc
 PORTVERSION=	20100610

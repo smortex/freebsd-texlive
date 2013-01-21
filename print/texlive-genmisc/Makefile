@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-genmisc
-# Date created:		13/03/2010 04:31:54
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	genmisc
 PORTVERSION=	20120728

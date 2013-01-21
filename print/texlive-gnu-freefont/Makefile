@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-gnu-freefont
-# Date created:		13/03/2010 04:26:55
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	gnu-freefont
 PORTVERSION=	20120507

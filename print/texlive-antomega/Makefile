@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-antomega
-# Date created:		13/03/2010 04:55:29
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	antomega
 PORTVERSION=	20110404

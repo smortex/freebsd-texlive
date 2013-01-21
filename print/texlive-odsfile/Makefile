@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-odsfile
-# Date created:		08/15/2012 05:18:02
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	odsfile
 PORTVERSION=	20120814

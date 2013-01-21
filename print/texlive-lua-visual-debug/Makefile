@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-lua-visual-debug
-# Date created:		02/26/2012 05:06:01
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	lua-visual-debug
 PORTVERSION=	20120410

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mftinc
-# Date created:		13/03/2010 04:44:58
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mftinc
 PORTVERSION=	20100610

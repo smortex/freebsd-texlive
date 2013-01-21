@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pdfscreen
-# Date created:		13/03/2010 04:47:05
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pdfscreen
 PORTVERSION=	20120824

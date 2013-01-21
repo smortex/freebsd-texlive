@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fouridx
-# Date created:		13/03/2010 05:00:05
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fouridx
 PORTVERSION=	20100610

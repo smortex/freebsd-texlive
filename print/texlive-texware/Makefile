@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-texware
-# Date created:		13/03/2010 04:24:30
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	texware
 PORTVERSION=	20120529

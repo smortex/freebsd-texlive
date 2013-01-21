@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-plari
-# Date created:		13/03/2010 04:32:36
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	plari
 PORTVERSION=	20100610

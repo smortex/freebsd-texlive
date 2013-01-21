@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-skeycommand
-# Date created:		09/21/2010 11:51:20
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	skeycommand
 PORTVERSION=	20111125

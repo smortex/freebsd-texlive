@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-irish
-# Date created:		09/21/2010 11:43:35
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-irish
 PORTVERSION=	20120417

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hletter
-# Date created:		11/11/2011 05:01:10
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hletter
 PORTVERSION=	20111113

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dichokey
-# Date created:		13/03/2010 04:40:43
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dichokey
 PORTVERSION=	20100610

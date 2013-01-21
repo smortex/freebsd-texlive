@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ftnxtra
-# Date created:		13/03/2010 04:42:57
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ftnxtra
 PORTVERSION=	20100610

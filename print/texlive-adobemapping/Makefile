@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-adobemapping
-# Date created:		09/21/2010 11:40:58
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	adobemapping
 PORTVERSION=	20121026

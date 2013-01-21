@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-xcite
-# Date created:		09/05/2011 05:03:00
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	xcite
 PORTVERSION=	20110904

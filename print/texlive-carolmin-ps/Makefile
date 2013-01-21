@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-carolmin-ps
-# Date created:		13/03/2010 04:25:55
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	carolmin-ps
 PORTVERSION=	20100610

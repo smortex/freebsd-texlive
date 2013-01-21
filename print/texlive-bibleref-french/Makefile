@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bibleref-french
-# Date created:		01/24/2011 04:47:42
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bibleref-french
 PORTVERSION=	20120723

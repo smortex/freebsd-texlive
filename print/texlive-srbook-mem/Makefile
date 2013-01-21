@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-srbook-mem
-# Date created:		08/09/2011 05:03:33
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	srbook-mem
 PORTVERSION=	20110808

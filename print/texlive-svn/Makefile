@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-svn
-# Date created:		13/03/2010 04:49:38
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	svn
 PORTVERSION=	20100610

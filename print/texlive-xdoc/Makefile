@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-xdoc
-# Date created:		13/03/2010 04:51:38
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	xdoc
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hanoi
-# Date created:		01/05/2012 04:46:07
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hanoi
 PORTVERSION=	20120104

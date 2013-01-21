@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ttfutils
-# Date created:		13/03/2010 04:30:43
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ttfutils
 PORTVERSION=	20120529

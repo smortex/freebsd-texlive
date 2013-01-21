@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-grafcet
-# Date created:		05/13/2011 04:49:36
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	grafcet
 PORTVERSION=	20110518

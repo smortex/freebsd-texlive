@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pkfix-helper
-# Date created:		13/03/2010 04:24:21
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pkfix-helper
 PORTVERSION=	20110615

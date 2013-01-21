@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-eurosym
-# Date created:		13/03/2010 04:30:03
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	eurosym
 PORTVERSION=	20100610

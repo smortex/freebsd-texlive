@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-sepnum
-# Date created:		10/25/2010 05:02:26
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sepnum
 PORTVERSION=	20101025

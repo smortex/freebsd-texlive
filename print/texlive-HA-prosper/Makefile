@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-HA-prosper
-# Date created:		13/03/2010 04:38:21
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	HA-prosper
 PORTVERSION=	20100610

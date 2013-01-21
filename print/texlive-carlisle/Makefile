@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-carlisle
-# Date created:		13/03/2010 04:20:19
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	carlisle
 PORTVERSION=	20100610

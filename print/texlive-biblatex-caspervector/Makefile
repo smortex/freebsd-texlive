@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-biblatex-caspervector
-# Date created:		10/15/2012 04:45:03
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	biblatex-caspervector
 PORTVERSION=	20130112

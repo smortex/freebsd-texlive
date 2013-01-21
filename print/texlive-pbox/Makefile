@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pbox
-# Date created:		13/03/2010 04:46:59
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pbox
 PORTVERSION=	20111210

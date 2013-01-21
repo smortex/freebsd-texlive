@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-zxjafbfont
-# Date created:		12/16/2012 07:16:47
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	zxjafbfont
 PORTVERSION=	20121216

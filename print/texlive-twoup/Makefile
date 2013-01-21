@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-twoup
-# Date created:		13/03/2010 04:50:49
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	twoup
 PORTVERSION=	20100610

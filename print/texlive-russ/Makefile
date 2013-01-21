@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-russ
-# Date created:		01/28/2012 04:47:52
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	russ
 PORTVERSION=	20120127

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-latexconfig
-# Date created:		13/03/2010 04:20:28
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	latexconfig
 PORTVERSION=	20120515

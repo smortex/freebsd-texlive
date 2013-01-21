@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fnpct
-# Date created:		08/02/2012 12:38:16
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fnpct
 PORTVERSION=	20120830

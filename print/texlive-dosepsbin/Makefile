@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dosepsbin
-# Date created:		12/06/2011 04:47:47
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dosepsbin
 PORTVERSION=	20120515

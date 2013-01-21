@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-newunicodechar
-# Date created:		02/21/2011 05:02:15
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	newunicodechar
 PORTVERSION=	20121114

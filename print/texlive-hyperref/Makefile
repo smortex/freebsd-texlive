@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyperref
-# Date created:		13/03/2010 04:20:26
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyperref
 PORTVERSION=	20121109

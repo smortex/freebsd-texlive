@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-calxxxx-yyyy
-# Date created:		02/03/2011 04:50:31
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	calxxxx-yyyy
 PORTVERSION=	20130101

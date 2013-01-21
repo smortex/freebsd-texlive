@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-francais-bst
-# Date created:		10/19/2012 04:48:37
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	francais-bst
 PORTVERSION=	20121018

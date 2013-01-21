@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-comfortaa
-# Date created:		12/19/2010 04:39:16
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	comfortaa
 PORTVERSION=	20120828

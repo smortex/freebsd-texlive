@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-blockdraw_mp
-# Date created:		13/03/2010 04:21:52
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	blockdraw_mp
 PORTVERSION=	20100610

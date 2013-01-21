@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pdfcomment
-# Date created:		13/03/2010 04:47:01
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pdfcomment
 PORTVERSION=	20120929

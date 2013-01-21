@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-williams
-# Date created:		13/03/2010 04:51:30
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	williams
 PORTVERSION=	20100610

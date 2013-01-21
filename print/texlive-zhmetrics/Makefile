@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-zhmetrics
-# Date created:		13/03/2010 04:34:08
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	zhmetrics
 PORTVERSION=	20110426

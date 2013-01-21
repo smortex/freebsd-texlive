@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-shade
-# Date created:		13/03/2010 04:31:46
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	shade
 PORTVERSION=	20110427

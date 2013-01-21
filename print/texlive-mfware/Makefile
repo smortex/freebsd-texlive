@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mfware
-# Date created:		13/03/2010 04:19:50
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mfware
 PORTVERSION=	20120529

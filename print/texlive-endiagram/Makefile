@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-endiagram
-# Date created:		08/23/2012 05:28:20
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	endiagram
 PORTVERSION=	20120822

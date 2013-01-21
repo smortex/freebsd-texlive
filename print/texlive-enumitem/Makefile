@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-enumitem
-# Date created:		13/03/2010 04:41:51
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	enumitem
 PORTVERSION=	20110930

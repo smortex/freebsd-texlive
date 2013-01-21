@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-arsclassica
-# Date created:		13/03/2010 04:58:11
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	arsclassica
 PORTVERSION=	20120222

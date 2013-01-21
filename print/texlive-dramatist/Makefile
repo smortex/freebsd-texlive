@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dramatist
-# Date created:		13/03/2010 04:32:18
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dramatist
 PORTVERSION=	20100610

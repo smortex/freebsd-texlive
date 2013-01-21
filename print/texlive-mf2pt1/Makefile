@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mf2pt1
-# Date created:		08/06/2011 05:03:28
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mf2pt1
 PORTVERSION=	20120714

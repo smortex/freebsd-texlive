@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-12many
-# Date created:		13/03/2010 04:54:17
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	12many
 PORTVERSION=	20100610

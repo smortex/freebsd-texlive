@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-uhc
-# Date created:		13/03/2010 04:33:36
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	uhc
 PORTVERSION=	20100610

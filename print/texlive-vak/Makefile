@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-vak
-# Date created:		08/08/2011 04:41:59
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	vak
 PORTVERSION=	20110807

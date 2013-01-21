@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-context-fullpage
-# Date created:		04/29/2010 05:34:27
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	context-fullpage
 PORTVERSION=	20110629

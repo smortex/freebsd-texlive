@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mex
-# Date created:		13/03/2010 04:37:50
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mex
 PORTVERSION=	20110531

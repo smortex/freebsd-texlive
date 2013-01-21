@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tikz-dependency
-# Date created:		11/29/2011 04:52:13
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tikz-dependency
 PORTVERSION=	20120120

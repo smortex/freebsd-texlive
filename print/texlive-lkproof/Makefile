@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-lkproof
-# Date created:		13/03/2010 04:44:20
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	lkproof
 PORTVERSION=	20101009

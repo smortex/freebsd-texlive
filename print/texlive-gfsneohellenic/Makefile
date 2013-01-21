@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-gfsneohellenic
-# Date created:		13/03/2010 04:26:52
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	gfsneohellenic
 PORTVERSION=	20100715

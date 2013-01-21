@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dancers
-# Date created:		13/03/2010 04:26:10
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dancers
 PORTVERSION=	20100610

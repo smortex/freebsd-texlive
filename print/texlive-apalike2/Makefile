@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-apalike2
-# Date created:		13/03/2010 04:22:59
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	apalike2
 PORTVERSION=	20100610

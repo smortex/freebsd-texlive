@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-morewrites
-# Date created:		07/28/2011 05:02:15
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	morewrites
 PORTVERSION=	20130109

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-ghsb
-# Date created:		13/03/2010 04:56:52
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-ghsb
 PORTVERSION=	20100610

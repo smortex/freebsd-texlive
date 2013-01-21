@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-inlinebib
-# Date created:		13/03/2010 04:23:35
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	inlinebib
 PORTVERSION=	20110408

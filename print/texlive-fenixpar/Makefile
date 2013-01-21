@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fenixpar
-# Date created:		13/03/2010 04:31:26
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fenixpar
 PORTVERSION=	20111204

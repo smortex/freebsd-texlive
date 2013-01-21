@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-adjmulticol
-# Date created:		02/27/2011 04:50:35
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	adjmulticol
 PORTVERSION=	20110225

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-zapfding
-# Date created:		13/03/2010 04:30:28
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	zapfding
 PORTVERSION=	20121222

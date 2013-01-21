@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-documentation-serbian
-# Date created:		09/21/2010 11:36:19
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-documentation-serbian
 PORTVERSION=	20100624

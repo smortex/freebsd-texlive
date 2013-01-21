@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-natbib
-# Date created:		13/03/2010 04:20:39
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	natbib
 PORTVERSION=	20101207

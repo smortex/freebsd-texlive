@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dviljk
-# Date created:		13/03/2010 04:24:06
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dviljk
 PORTVERSION=	20120529

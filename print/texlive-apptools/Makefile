@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-apptools
-# Date created:		12/02/2012 05:01:19
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	apptools
 PORTVERSION=	20121201

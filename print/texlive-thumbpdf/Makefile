@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-thumbpdf
-# Date created:		13/03/2010 04:54:06
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	thumbpdf
 PORTVERSION=	20120529

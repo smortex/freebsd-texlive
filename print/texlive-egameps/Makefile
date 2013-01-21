@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-egameps
-# Date created:		13/03/2010 04:31:04
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	egameps
 PORTVERSION=	20100610

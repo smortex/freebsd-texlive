@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-polytable
-# Date created:		13/03/2010 04:47:25
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	polytable
 PORTVERSION=	20101106

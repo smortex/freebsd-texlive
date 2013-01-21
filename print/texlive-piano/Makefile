@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-piano
-# Date created:		03/03/2011 04:51:29
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	piano
 PORTVERSION=	20110302

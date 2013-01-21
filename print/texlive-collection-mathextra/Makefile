@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-mathextra
-# Date created:		13/03/2010 04:55:08
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-mathextra
 PORTVERSION=	20121213

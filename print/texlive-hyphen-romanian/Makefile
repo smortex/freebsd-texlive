@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-romanian
-# Date created:		09/21/2010 11:43:36
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-romanian
 PORTVERSION=	20120417

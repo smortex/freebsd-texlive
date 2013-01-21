@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-punk-latex
-# Date created:		08/15/2012 04:54:20
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	punk-latex
 PORTVERSION=	20120814

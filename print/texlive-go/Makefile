@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-go
-# Date created:		13/03/2010 04:31:05
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	go
 PORTVERSION=	20121224

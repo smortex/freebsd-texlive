@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-serbianc
-# Date created:		07/21/2011 05:11:45
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	serbianc
 PORTVERSION=	20110612

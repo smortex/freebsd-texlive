@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-calligra-type1
-# Date created:		10/18/2011 04:41:19
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	calligra-type1
 PORTVERSION=	20111017

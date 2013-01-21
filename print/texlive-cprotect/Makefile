@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cprotect
-# Date created:		01/08/2011 16:57:35
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cprotect
 PORTVERSION=	20110129

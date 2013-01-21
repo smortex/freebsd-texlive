@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-listings-ext
-# Date created:		13/03/2010 04:24:16
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	listings-ext
 PORTVERSION=	20100701

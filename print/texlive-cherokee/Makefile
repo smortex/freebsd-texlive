@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cherokee
-# Date created:		13/03/2010 04:25:57
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cherokee
 PORTVERSION=	20110113

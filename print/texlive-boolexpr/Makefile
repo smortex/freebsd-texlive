@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-boolexpr
-# Date created:		13/03/2010 04:39:08
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	boolexpr
 PORTVERSION=	20100610

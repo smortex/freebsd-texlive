@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-boites
-# Date created:		13/03/2010 04:39:04
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	boites
 PORTVERSION=	20100610

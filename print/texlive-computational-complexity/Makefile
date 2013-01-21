@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-computational-complexity
-# Date created:		13/03/2010 05:00:00
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	computational-complexity
 PORTVERSION=	20120716

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bold-extra
-# Date created:		13/03/2010 04:39:05
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bold-extra
 PORTVERSION=	20100610

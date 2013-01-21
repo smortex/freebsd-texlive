@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fundus-calligra
-# Date created:		04/19/2012 05:11:21
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fundus-calligra
 PORTVERSION=	20120418

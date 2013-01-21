@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-metafont
-# Date created:		13/03/2010 04:19:47
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	metafont
 PORTVERSION=	20120529

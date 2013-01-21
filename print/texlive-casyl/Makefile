@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-casyl
-# Date created:		13/03/2010 04:39:25
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	casyl
 PORTVERSION=	20100610

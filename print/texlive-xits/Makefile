@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-xits
-# Date created:		09/21/2010 11:38:41
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	xits
 PORTVERSION=	20120530

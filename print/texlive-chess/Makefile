@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-chess
-# Date created:		13/03/2010 04:30:58
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	chess
 PORTVERSION=	20101128

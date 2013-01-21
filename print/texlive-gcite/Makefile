@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-gcite
-# Date created:		13/03/2010 04:43:04
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	gcite
 PORTVERSION=	20100610

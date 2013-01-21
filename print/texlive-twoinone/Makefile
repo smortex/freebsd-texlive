@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-twoinone
-# Date created:		13/03/2010 04:50:48
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	twoinone
 PORTVERSION=	20100610

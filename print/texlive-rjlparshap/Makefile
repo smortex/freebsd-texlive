@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-rjlparshap
-# Date created:		13/03/2010 04:48:13
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	rjlparshap
 PORTVERSION=	20100610

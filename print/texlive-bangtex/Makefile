@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bangtex
-# Date created:		13/03/2010 04:37:02
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bangtex
 PORTVERSION=	20100610

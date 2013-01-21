@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ebong
-# Date created:		13/03/2010 04:37:05
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ebong
 PORTVERSION=	20120515

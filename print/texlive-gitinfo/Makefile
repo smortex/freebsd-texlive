@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-gitinfo
-# Date created:		09/05/2011 05:19:27
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	gitinfo
 PORTVERSION=	20110904

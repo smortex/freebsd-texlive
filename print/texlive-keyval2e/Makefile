@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-keyval2e
-# Date created:		08/16/2011 04:59:02
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	keyval2e
 PORTVERSION=	20110827

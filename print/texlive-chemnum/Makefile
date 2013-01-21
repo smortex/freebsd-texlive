@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-chemnum
-# Date created:		08/04/2011 05:10:31
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	chemnum
 PORTVERSION=	20130103

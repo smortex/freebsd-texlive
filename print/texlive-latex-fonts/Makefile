@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-latex-fonts
-# Date created:		13/03/2010 04:20:29
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	latex-fonts
 PORTVERSION=	20100610

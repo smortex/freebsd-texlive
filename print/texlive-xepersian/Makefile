@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-xepersian
-# Date created:		13/03/2010 05:00:57
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	xepersian
 PORTVERSION=	20121101

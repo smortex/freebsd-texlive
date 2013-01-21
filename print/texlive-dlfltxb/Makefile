@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dlfltxb
-# Date created:		13/03/2010 04:40:47
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dlfltxb
 PORTVERSION=	20100610

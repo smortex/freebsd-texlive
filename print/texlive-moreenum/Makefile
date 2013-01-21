@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-moreenum
-# Date created:		07/28/2011 05:02:11
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	moreenum
 PORTVERSION=	20111104

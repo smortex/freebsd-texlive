@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-coverpage
-# Date created:		13/03/2010 04:40:21
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	coverpage
 PORTVERSION=	20100610

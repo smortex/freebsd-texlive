@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dejavu
-# Date created:		08/15/2011 04:45:05
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dejavu
 PORTVERSION=	20130112

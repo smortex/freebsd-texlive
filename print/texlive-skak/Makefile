@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-skak
-# Date created:		13/03/2010 04:31:11
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	skak
 PORTVERSION=	20100610

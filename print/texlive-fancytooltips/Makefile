@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fancytooltips
-# Date created:		13/03/2010 04:42:22
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fancytooltips
 PORTVERSION=	20120724

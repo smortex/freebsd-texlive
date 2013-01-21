@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-Asana-Math
-# Date created:		13/03/2010 04:25:09
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	Asana-Math
 PORTVERSION=	20120730

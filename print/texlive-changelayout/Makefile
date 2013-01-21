@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-changelayout
-# Date created:		13/03/2010 04:39:43
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	changelayout
 PORTVERSION=	20100610

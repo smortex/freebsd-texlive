@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-paresse
-# Date created:		13/03/2010 04:46:52
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	paresse
 PORTVERSION=	20110430

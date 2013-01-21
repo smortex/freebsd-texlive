@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-graphicx
-# Date created:		03/17/2011 05:06:35
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-graphicx
 PORTVERSION=	20110315

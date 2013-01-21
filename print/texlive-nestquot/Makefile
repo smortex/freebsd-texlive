@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-nestquot
-# Date created:		08/08/2012 05:22:37
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	nestquot
 PORTVERSION=	20120807

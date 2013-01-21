@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mkgrkindex
-# Date created:		13/03/2010 04:36:52
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mkgrkindex
 PORTVERSION=	20120515

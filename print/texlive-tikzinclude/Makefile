@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tikzinclude
-# Date created:		01/05/2013 04:48:25
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tikzinclude
 PORTVERSION=	20130104

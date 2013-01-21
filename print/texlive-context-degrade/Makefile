@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-context-degrade
-# Date created:		13/03/2010 04:21:33
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	context-degrade
 PORTVERSION=	20110629

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-sauterfonts
-# Date created:		13/03/2010 04:29:04
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sauterfonts
 PORTVERSION=	20100610

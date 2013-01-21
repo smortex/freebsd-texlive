@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-exceltex
-# Date created:		04/01/2012 04:58:24
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	exceltex
 PORTVERSION=	20120515

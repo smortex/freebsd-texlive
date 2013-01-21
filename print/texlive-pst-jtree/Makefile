@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-jtree
-# Date created:		13/03/2010 04:56:59
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-jtree
 PORTVERSION=	20110106

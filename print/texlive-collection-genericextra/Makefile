@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-genericextra
-# Date created:		13/03/2010 04:31:50
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-genericextra
 PORTVERSION=	20120922

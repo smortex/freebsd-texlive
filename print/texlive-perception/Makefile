@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-perception
-# Date created:		13/03/2010 04:23:45
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	perception
 PORTVERSION=	20100610

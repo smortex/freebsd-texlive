@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-context-notes-zh-cn
-# Date created:		07/21/2011 04:50:18
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	context-notes-zh-cn
 PORTVERSION=	20110629

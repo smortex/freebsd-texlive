@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-lua-alt-getopt
-# Date created:		13/03/2010 04:19:44
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	lua-alt-getopt
 PORTVERSION=	20100610

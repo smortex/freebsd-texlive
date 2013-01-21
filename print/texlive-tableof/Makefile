@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tableof
-# Date created:		12/09/2012 05:10:17
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tableof
 PORTVERSION=	20121218

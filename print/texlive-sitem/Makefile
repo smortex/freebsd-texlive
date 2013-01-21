@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-sitem
-# Date created:		04/22/2011 05:00:01
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sitem
 PORTVERSION=	20110421

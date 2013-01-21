@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hobete
-# Date created:		04/07/2012 05:12:10
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hobete
 PORTVERSION=	20120714

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-parnotes
-# Date created:		01/07/2012 05:01:38
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	parnotes
 PORTVERSION=	20120106

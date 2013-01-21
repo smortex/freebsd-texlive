@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cascadilla
-# Date created:		08/09/2011 05:09:51
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cascadilla
 PORTVERSION=	20120119

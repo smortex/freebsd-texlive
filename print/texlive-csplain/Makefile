@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-csplain
-# Date created:		13/03/2010 04:35:16
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	csplain
 PORTVERSION=	20130111

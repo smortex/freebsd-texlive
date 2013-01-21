@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-ukrainian
-# Date created:		13/03/2010 04:35:09
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-ukrainian
 PORTVERSION=	20110623

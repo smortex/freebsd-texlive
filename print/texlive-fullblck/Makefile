@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fullblck
-# Date created:		02/21/2012 04:58:23
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fullblck
 PORTVERSION=	20120220

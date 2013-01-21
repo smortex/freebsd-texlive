@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-knitting
-# Date created:		13/03/2010 04:52:19
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	knitting
 PORTVERSION=	20100909

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-langarmenian
-# Date created:		13/03/2010 04:33:10
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-langarmenian
 PORTVERSION=	20101122

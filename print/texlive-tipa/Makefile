@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tipa
-# Date created:		13/03/2010 04:30:19
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tipa
 PORTVERSION=	20120131

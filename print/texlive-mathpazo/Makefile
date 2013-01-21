@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mathpazo
-# Date created:		13/03/2010 04:30:08
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mathpazo
 PORTVERSION=	20100610

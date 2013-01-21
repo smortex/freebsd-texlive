@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-ancientgreek
-# Date created:		13/03/2010 04:36:57
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-ancientgreek
 PORTVERSION=	20120417

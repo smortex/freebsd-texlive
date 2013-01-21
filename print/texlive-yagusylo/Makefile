@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-yagusylo
-# Date created:		13/03/2010 04:51:49
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	yagusylo
 PORTVERSION=	20100610

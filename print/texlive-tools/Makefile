@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tools
-# Date created:		13/03/2010 04:20:57
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tools
 PORTVERSION=	20120509

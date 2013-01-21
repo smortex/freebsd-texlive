@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-lecturer
-# Date created:		09/25/2010 04:42:20
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	lecturer
 PORTVERSION=	20110913

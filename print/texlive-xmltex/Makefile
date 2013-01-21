@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-xmltex
-# Date created:		13/03/2010 04:32:12
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	xmltex
 PORTVERSION=	20121116

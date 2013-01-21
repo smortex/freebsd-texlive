@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-chemcono
-# Date created:		13/03/2010 04:59:55
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	chemcono
 PORTVERSION=	20100610

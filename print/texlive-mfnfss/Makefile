@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mfnfss
-# Date created:		13/03/2010 04:20:38
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mfnfss
 PORTVERSION=	20100713

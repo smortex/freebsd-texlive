@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cryst
-# Date created:		13/03/2010 04:26:08
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cryst
 PORTVERSION=	20100610

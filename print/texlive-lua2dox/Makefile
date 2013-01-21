@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-lua2dox
-# Date created:		08/02/2012 12:47:47
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	lua2dox
 PORTVERSION=	20120728

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-keystroke
-# Date created:		13/03/2010 04:43:59
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	keystroke
 PORTVERSION=	20100610

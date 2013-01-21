@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-media9
-# Date created:		03/30/2012 05:01:29
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	media9
 PORTVERSION=	20130109

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-berenisadf
-# Date created:		09/21/2010 11:36:41
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	berenisadf
 PORTVERSION=	20101001

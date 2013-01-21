@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pdfmarginpar
-# Date created:		13/03/2010 04:47:04
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pdfmarginpar
 PORTVERSION=	20110812

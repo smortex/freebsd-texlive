@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cbcoptic
-# Date created:		13/03/2010 04:39:27
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cbcoptic
 PORTVERSION=	20100610

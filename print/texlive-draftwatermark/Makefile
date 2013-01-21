@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-draftwatermark
-# Date created:		13/03/2010 04:40:59
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	draftwatermark
 PORTVERSION=	20120108

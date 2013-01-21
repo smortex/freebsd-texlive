@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-coseoul
-# Date created:		09/09/2011 04:56:05
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	coseoul
 PORTVERSION=	20110908

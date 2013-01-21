@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ed
-# Date created:		13/03/2010 04:41:09
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ed
 PORTVERSION=	20120130

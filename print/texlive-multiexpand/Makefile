@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-multiexpand
-# Date created:		01/10/2013 04:54:19
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	multiexpand
 PORTVERSION=	20130109

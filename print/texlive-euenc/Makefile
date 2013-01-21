@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-euenc
-# Date created:		13/03/2010 05:00:43
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	euenc
 PORTVERSION=	20100919

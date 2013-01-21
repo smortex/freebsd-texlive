@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-talk
-# Date created:		13/03/2010 04:49:57
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	talk
 PORTVERSION=	20100610

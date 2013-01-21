@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-a0poster
-# Date created:		13/03/2010 04:38:23
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	a0poster
 PORTVERSION=	20100610

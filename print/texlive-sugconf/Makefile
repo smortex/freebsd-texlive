@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-sugconf
-# Date created:		13/03/2010 04:59:19
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sugconf
 PORTVERSION=	20100610

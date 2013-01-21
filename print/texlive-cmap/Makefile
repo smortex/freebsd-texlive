@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cmap
-# Date created:		13/03/2010 04:53:14
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cmap
 PORTVERSION=	20120523

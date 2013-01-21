@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-l3experimental
-# Date created:		08/02/2011 05:06:21
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	l3experimental
 PORTVERSION=	20121222

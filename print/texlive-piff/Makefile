@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-piff
-# Date created:		12/11/2010 04:55:34
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	piff
 PORTVERSION=	20110331

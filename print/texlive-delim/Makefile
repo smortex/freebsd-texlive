@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-delim
-# Date created:		09/17/2011 04:54:46
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	delim
 PORTVERSION=	20110916

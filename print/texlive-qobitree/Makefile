@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-qobitree
-# Date created:		13/03/2010 04:32:40
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	qobitree
 PORTVERSION=	20100610

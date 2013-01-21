@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-gu
-# Date created:		13/03/2010 05:00:10
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	gu
 PORTVERSION=	20100610

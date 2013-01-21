@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ltxkeys
-# Date created:		07/28/2011 05:01:27
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ltxkeys
 PORTVERSION=	20121123

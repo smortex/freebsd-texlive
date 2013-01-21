@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pax
-# Date created:		13/03/2010 04:46:58
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pax
 PORTVERSION=	20120424

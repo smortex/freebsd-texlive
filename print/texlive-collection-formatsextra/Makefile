@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-formatsextra
-# Date created:		13/03/2010 04:30:56
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-formatsextra
 PORTVERSION=	20110330

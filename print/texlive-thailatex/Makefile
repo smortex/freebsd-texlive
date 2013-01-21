@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-thailatex
-# Date created:		13/03/2010 04:33:33
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	thailatex
 PORTVERSION=	20120716

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-droid
-# Date created:		12/26/2010 04:39:13
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	droid
 PORTVERSION=	20110913

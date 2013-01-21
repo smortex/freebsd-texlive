@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-braket
-# Date created:		13/03/2010 04:39:12
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	braket
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-properties
-# Date created:		13/03/2010 04:47:37
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	properties
 PORTVERSION=	20100610

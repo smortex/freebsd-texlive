@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-superiors
-# Date created:		08/18/2012 04:59:40
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	superiors
 PORTVERSION=	20121127

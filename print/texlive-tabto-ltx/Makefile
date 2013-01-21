@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tabto-ltx
-# Date created:		13/03/2010 04:49:51
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tabto-ltx
 PORTVERSION=	20100610

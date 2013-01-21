@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-langcroatian
-# Date created:		13/03/2010 04:34:27
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-langcroatian
 PORTVERSION=	20110128

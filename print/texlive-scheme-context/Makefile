@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-scheme-context
-# Date created:		13/03/2010 04:22:54
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	scheme-context
 PORTVERSION=	20120529

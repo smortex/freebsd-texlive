@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-edfnotes
-# Date created:		02/19/2011 04:46:59
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	edfnotes
 PORTVERSION=	20110228

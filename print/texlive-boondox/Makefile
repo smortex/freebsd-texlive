@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-boondox
-# Date created:		05/07/2011 04:53:38
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	boondox
 PORTVERSION=	20110506

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-oldstyle
-# Date created:		13/03/2010 04:46:37
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	oldstyle
 PORTVERSION=	20100610

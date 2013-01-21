@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fancynum
-# Date created:		13/03/2010 04:42:19
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fancynum
 PORTVERSION=	20100610

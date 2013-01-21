@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-german
-# Date created:		13/03/2010 04:35:32
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	german
 PORTVERSION=	20100610

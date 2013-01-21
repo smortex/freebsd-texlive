@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-circ
-# Date created:		13/03/2010 04:39:50
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	circ
 PORTVERSION=	20100610

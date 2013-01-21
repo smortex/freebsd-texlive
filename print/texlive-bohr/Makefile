@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bohr
-# Date created:		09/24/2012 05:31:35
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bohr
 PORTVERSION=	20130103

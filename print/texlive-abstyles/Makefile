@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-abstyles
-# Date created:		13/03/2010 04:31:18
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	abstyles
 PORTVERSION=	20100610

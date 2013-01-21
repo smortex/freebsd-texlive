@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-binomexp
-# Date created:		13/03/2010 04:54:20
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	binomexp
 PORTVERSION=	20100610

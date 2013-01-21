@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-easylist
-# Date created:		13/03/2010 04:41:05
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	easylist
 PORTVERSION=	20110510

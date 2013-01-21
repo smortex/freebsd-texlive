@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-nolbreaks
-# Date created:		05/08/2010 05:39:00
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	nolbreaks
 PORTVERSION=	20120602

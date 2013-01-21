@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-oscola
-# Date created:		08/23/2012 04:55:45
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	oscola
 PORTVERSION=	20120822

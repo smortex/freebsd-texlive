@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tkz-tab
-# Date created:		13/03/2010 04:52:58
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tkz-tab
 PORTVERSION=	20110607

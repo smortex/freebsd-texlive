@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fnumprint
-# Date created:		09/16/2012 05:18:26
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fnumprint
 PORTVERSION=	20120915

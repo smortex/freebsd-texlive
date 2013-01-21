@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-calcage
-# Date created:		09/20/2012 05:18:21
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	calcage
 PORTVERSION=	20120919

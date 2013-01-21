@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-gfsartemisia
-# Date created:		13/03/2010 04:26:46
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	gfsartemisia
 PORTVERSION=	20100716

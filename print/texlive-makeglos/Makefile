@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-makeglos
-# Date created:		13/03/2010 04:44:40
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	makeglos
 PORTVERSION=	20100610

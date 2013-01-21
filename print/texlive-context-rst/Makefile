@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-context-rst
-# Date created:		05/11/2011 04:38:47
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	context-rst
 PORTVERSION=	20120730

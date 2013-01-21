@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-friulan
-# Date created:		04/14/2012 04:51:29
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-friulan
 PORTVERSION=	20120524

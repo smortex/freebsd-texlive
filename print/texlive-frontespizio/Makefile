@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-frontespizio
-# Date created:		13/03/2010 04:37:17
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	frontespizio
 PORTVERSION=	20110922

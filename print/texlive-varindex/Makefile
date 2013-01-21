@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-varindex
-# Date created:		13/03/2010 04:51:07
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	varindex
 PORTVERSION=	20100610

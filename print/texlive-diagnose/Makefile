@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-diagnose
-# Date created:		13/03/2010 04:40:41
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	diagnose
 PORTVERSION=	20100712

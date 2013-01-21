@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-multicap
-# Date created:		13/03/2010 04:46:07
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	multicap
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mafr
-# Date created:		13/03/2010 04:35:26
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mafr
 PORTVERSION=	20100610

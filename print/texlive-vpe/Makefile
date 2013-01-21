@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-vpe
-# Date created:		13/03/2010 04:51:22
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	vpe
 PORTVERSION=	20120420

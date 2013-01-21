@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-sageep
-# Date created:		13/03/2010 04:59:12
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sageep
 PORTVERSION=	20100610

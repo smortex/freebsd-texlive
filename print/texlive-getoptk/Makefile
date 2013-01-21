@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-getoptk
-# Date created:		08/08/2011 05:07:43
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	getoptk
 PORTVERSION=	20110816

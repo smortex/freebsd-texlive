@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ly1
-# Date created:		13/03/2010 04:28:37
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ly1
 PORTVERSION=	20110116

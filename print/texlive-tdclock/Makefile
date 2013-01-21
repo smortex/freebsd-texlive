@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tdclock
-# Date created:		13/03/2010 04:49:59
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tdclock
 PORTVERSION=	20100610

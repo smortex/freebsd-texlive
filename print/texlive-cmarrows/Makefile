@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cmarrows
-# Date created:		13/03/2010 04:21:54
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cmarrows
 PORTVERSION=	20111024

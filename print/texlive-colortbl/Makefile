@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-colortbl
-# Date created:		13/03/2010 04:20:20
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	colortbl
 PORTVERSION=	20120216

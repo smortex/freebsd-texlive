@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-jadetex
-# Date created:		13/03/2010 04:31:58
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	jadetex
 PORTVERSION=	20110805

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tkz-graph
-# Date created:		07/21/2011 05:02:11
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tkz-graph
 PORTVERSION=	20110607

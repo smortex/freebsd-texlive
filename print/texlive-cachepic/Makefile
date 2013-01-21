@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cachepic
-# Date created:		13/03/2010 04:52:00
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cachepic
 PORTVERSION=	20120515

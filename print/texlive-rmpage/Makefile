@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-rmpage
-# Date created:		13/03/2010 04:48:14
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	rmpage
 PORTVERSION=	20101006

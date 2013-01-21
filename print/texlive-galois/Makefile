@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-galois
-# Date created:		13/03/2010 05:00:07
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	galois
 PORTVERSION=	20100610

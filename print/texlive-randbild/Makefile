@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-randbild
-# Date created:		13/03/2010 04:52:43
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	randbild
 PORTVERSION=	20100610

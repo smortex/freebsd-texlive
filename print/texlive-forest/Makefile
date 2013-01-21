@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-forest
-# Date created:		11/02/2012 05:03:09
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	forest
 PORTVERSION=	20121116

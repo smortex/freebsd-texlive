@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-regstats
-# Date created:		05/19/2011 05:03:36
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	regstats
 PORTVERSION=	20120109

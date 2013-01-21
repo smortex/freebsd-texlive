@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hobby
-# Date created:		09/05/2012 05:08:43
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hobby
 PORTVERSION=	20120904

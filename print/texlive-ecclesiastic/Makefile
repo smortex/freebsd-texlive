@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ecclesiastic
-# Date created:		13/03/2010 04:41:08
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ecclesiastic
 PORTVERSION=	20120731

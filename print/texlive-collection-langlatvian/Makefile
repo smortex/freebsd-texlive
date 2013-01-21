@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-langlatvian
-# Date created:		13/03/2010 04:37:21
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-langlatvian
 PORTVERSION=	20100610

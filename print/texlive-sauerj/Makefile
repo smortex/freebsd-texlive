@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-sauerj
-# Date created:		13/03/2010 04:48:21
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sauerj
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-portuguese
-# Date created:		09/21/2010 11:43:50
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-portuguese
 PORTVERSION=	20120417

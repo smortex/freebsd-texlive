@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-listofsymbols
-# Date created:		13/03/2010 04:44:18
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	listofsymbols
 PORTVERSION=	20100610

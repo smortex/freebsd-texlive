@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-context-mathsets
-# Date created:		13/03/2010 04:21:42
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	context-mathsets
 PORTVERSION=	20110629

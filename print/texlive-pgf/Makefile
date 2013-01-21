@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pgf
-# Date created:		13/03/2010 04:52:26
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pgf
 PORTVERSION=	20110526

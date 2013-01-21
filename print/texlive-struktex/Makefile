@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-struktex
-# Date created:		13/03/2010 05:00:30
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	struktex
 PORTVERSION=	20120413

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hausarbeit-jura
-# Date created:		02/12/2012 04:57:27
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hausarbeit-jura
 PORTVERSION=	20120211

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-harpoon
-# Date created:		13/03/2010 04:43:24
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	harpoon
 PORTVERSION=	20110207

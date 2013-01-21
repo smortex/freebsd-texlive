@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-decorule
-# Date created:		08/02/2011 04:55:12
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	decorule
 PORTVERSION=	20110811

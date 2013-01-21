@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-romande
-# Date created:		09/21/2010 11:38:27
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	romande
 PORTVERSION=	20100720

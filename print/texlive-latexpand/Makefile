@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-latexpand
-# Date created:		08/02/2012 12:20:43
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	latexpand
 PORTVERSION=	20121201

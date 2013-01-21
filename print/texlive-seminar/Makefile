@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-seminar
-# Date created:		13/03/2010 04:54:02
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	seminar
 PORTVERSION=	20100610

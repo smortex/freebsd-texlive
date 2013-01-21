@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-context-lettrine
-# Date created:		13/03/2010 04:21:40
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	context-lettrine
 PORTVERSION=	20110629

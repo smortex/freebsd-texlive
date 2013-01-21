@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-censor
-# Date created:		13/03/2010 04:39:41
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	censor
 PORTVERSION=	20120911

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-xifthen
-# Date created:		13/03/2010 04:51:40
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	xifthen
 PORTVERSION=	20100610

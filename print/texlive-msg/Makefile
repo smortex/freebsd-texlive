@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-msg
-# Date created:		13/03/2010 04:46:02
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	msg
 PORTVERSION=	20100610

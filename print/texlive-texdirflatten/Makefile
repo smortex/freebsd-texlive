@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-texdirflatten
-# Date created:		13/03/2010 04:24:27
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	texdirflatten
 PORTVERSION=	20120515

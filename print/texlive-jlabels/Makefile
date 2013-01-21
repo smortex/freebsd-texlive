@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-jlabels
-# Date created:		08/24/2011 04:59:39
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	jlabels
 PORTVERSION=	20111218

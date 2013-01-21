@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-msu-thesis
-# Date created:		08/02/2011 05:10:17
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	msu-thesis
 PORTVERSION=	20121203

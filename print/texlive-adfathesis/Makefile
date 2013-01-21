@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-adfathesis
-# Date created:		04/21/2012 05:11:03
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	adfathesis
 PORTVERSION=	20120420

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-endfloat
-# Date created:		13/03/2010 04:41:44
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	endfloat
 PORTVERSION=	20111229

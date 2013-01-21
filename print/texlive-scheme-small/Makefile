@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-scheme-small
-# Date created:		04/01/2012 05:14:15
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	scheme-small
 PORTVERSION=	20120518

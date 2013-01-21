@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-exp-testopt
-# Date created:		13/03/2010 04:42:15
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	exp-testopt
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-beamerthemejltree
-# Date created:		04/07/2011 05:10:22
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	beamerthemejltree
 PORTVERSION=	20110406

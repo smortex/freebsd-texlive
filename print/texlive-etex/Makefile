@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-etex
-# Date created:		13/03/2010 04:19:36
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	etex
 PORTVERSION=	20110426

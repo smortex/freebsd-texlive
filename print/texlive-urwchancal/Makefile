@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-urwchancal
-# Date created:		03/12/2011 04:44:03
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	urwchancal
 PORTVERSION=	20110313

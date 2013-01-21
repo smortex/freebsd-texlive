@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-float
-# Date created:		13/03/2010 04:53:29
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	float
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bitelist
-# Date created:		03/31/2012 04:46:47
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bitelist
 PORTVERSION=	20120330

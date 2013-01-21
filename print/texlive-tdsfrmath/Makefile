@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tdsfrmath
-# Date created:		13/03/2010 04:35:28
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tdsfrmath
 PORTVERSION=	20100610

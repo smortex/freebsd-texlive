@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-xpeek
-# Date created:		08/15/2012 05:17:30
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	xpeek
 PORTVERSION=	20120818

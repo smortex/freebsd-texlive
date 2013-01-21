@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-datenumber
-# Date created:		13/03/2010 04:40:35
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	datenumber
 PORTVERSION=	20100614

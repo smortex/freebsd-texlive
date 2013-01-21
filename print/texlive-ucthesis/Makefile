@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ucthesis
-# Date created:		13/03/2010 04:59:33
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ucthesis
 PORTVERSION=	20100610

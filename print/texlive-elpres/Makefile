@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-elpres
-# Date created:		13/03/2010 04:41:32
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	elpres
 PORTVERSION=	20100610

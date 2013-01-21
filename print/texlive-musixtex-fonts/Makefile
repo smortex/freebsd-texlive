@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-musixtex-fonts
-# Date created:		11/11/2011 05:10:56
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	musixtex-fonts
 PORTVERSION=	20111106

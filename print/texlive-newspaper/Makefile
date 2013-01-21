@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-newspaper
-# Date created:		13/03/2010 04:46:17
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	newspaper
 PORTVERSION=	20100610

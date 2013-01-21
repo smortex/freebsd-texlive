@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-showcharinbox
-# Date created:		08/02/2012 12:44:36
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	showcharinbox
 PORTVERSION=	20120716

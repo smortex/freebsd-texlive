@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-circ
-# Date created:		13/03/2010 04:56:19
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-circ
 PORTVERSION=	20110513

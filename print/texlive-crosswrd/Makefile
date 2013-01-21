@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-crosswrd
-# Date created:		13/03/2010 04:31:03
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	crosswrd
 PORTVERSION=	20100610

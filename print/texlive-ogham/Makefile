@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ogham
-# Date created:		12/21/2011 04:44:23
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ogham
 PORTVERSION=	20111220

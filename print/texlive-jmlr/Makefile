@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-jmlr
-# Date created:		09/21/2010 11:56:24
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	jmlr
 PORTVERSION=	20120601

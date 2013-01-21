@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-elmath
-# Date created:		13/03/2010 04:41:31
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	elmath
 PORTVERSION=	20100610

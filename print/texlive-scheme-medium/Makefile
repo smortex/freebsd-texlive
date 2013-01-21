@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-scheme-medium
-# Date created:		13/03/2010 05:01:12
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	scheme-medium
 PORTVERSION=	20120518

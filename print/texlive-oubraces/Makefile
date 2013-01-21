@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-oubraces
-# Date created:		13/03/2010 04:54:45
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	oubraces
 PORTVERSION=	20110326

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-adforn
-# Date created:		09/25/2010 04:38:21
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	adforn
 PORTVERSION=	20101009

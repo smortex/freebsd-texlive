@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mp3d
-# Date created:		13/03/2010 04:22:18
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mp3d
 PORTVERSION=	20110321

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-quoting
-# Date created:		08/14/2011 05:02:20
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	quoting
 PORTVERSION=	20120223

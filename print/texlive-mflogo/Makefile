@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mflogo
-# Date created:		13/03/2010 04:19:48
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mflogo
 PORTVERSION=	20100610

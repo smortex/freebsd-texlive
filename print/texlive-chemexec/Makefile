@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-chemexec
-# Date created:		03/10/2011 05:09:55
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	chemexec
 PORTVERSION=	20110308

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-songbook
-# Date created:		13/03/2010 04:55:22
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	songbook
 PORTVERSION=	20100610

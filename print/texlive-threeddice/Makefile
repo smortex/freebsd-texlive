@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-threeddice
-# Date created:		12/11/2010 04:36:06
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	threeddice
 PORTVERSION=	20101208

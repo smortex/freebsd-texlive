@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-omegaware
-# Date created:		13/03/2010 04:55:36
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	omegaware
 PORTVERSION=	20120529

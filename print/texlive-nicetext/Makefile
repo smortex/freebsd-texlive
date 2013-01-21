@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-nicetext
-# Date created:		13/03/2010 04:46:22
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	nicetext
 PORTVERSION=	20121203

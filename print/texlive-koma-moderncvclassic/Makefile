@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-koma-moderncvclassic
-# Date created:		10/25/2010 04:54:15
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	koma-moderncvclassic
 PORTVERSION=	20120106

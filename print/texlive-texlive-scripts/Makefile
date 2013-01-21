@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-texlive-scripts
-# Date created:		13/03/2010 04:20:00
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	texlive-scripts
 PORTVERSION=	20130107

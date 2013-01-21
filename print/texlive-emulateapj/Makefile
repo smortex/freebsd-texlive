@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-emulateapj
-# Date created:		13/03/2010 04:41:43
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	emulateapj
 PORTVERSION=	20121209

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-basic
-# Date created:		13/03/2010 04:20:02
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-basic
 PORTVERSION=	20120515

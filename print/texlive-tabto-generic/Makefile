@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tabto-generic
-# Date created:		13/03/2010 04:31:47
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tabto-generic
 PORTVERSION=	20100610

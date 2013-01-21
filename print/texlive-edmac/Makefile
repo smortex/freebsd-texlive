@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-edmac
-# Date created:		13/03/2010 04:30:47
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	edmac
 PORTVERSION=	20100610

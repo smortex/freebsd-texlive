@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dnp
-# Date created:		13/03/2010 04:34:07
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dnp
 PORTVERSION=	20100610

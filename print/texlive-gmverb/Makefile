@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-gmverb
-# Date created:		13/03/2010 04:43:16
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	gmverb
 PORTVERSION=	20111015

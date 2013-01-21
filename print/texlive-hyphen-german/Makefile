@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-german
-# Date created:		13/03/2010 04:35:39
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-german
 PORTVERSION=	20110623

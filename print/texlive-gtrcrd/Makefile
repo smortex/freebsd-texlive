@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-gtrcrd
-# Date created:		01/18/2012 05:08:34
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	gtrcrd
 PORTVERSION=	20120117

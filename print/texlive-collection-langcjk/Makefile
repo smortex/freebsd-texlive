@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-langcjk
-# Date created:		13/03/2010 04:34:24
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-langcjk
 PORTVERSION=	20130114

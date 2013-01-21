@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tikzorbital
-# Date created:		12/19/2012 05:04:29
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tikzorbital
 PORTVERSION=	20121218

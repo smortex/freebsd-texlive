@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-patgen
-# Date created:		13/03/2010 04:24:17
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	patgen
 PORTVERSION=	20120529

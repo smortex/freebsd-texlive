@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-nameauth
-# Date created:		01/03/2012 05:00:25
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	nameauth
 PORTVERSION=	20120728

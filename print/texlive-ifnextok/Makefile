@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ifnextok
-# Date created:		05/25/2011 04:56:10
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ifnextok
 PORTVERSION=	20110804

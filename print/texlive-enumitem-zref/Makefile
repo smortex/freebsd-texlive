@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-enumitem-zref
-# Date created:		12/11/2010 04:50:55
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	enumitem-zref
 PORTVERSION=	20110220

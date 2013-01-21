@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ptptex
-# Date created:		13/03/2010 04:59:04
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ptptex
 PORTVERSION=	20100715

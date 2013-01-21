@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ukrhyph
-# Date created:		13/03/2010 04:35:07
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ukrhyph
 PORTVERSION=	20110116

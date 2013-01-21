@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-ethiopic
-# Date created:		01/15/2011 04:46:19
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-ethiopic
 PORTVERSION=	20110623

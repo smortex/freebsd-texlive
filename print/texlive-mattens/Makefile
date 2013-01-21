@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mattens
-# Date created:		13/03/2010 04:54:38
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mattens
 PORTVERSION=	20100610

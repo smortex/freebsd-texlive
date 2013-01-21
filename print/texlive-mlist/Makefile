@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mlist
-# Date created:		13/03/2010 04:45:50
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mlist
 PORTVERSION=	20100610

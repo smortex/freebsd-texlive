@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-lacheck
-# Date created:		13/03/2010 04:24:12
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	lacheck
 PORTVERSION=	20120529

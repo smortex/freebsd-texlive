@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-rccol
-# Date created:		13/03/2010 04:47:58
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	rccol
 PORTVERSION=	20100610

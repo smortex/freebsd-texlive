@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tufte-latex
-# Date created:		13/03/2010 04:52:59
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tufte-latex
 PORTVERSION=	20111204

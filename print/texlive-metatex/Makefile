@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-metatex
-# Date created:		13/03/2010 04:31:30
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	metatex
 PORTVERSION=	20100610

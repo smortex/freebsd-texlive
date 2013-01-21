@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-duerer-latex
-# Date created:		13/03/2010 04:26:18
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	duerer-latex
 PORTVERSION=	20100610

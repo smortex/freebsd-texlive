@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-icsv
-# Date created:		13/03/2010 04:58:35
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	icsv
 PORTVERSION=	20100610

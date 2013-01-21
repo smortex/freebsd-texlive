@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-context-simplefonts
-# Date created:		13/03/2010 04:21:44
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	context-simplefonts
 PORTVERSION=	20120727

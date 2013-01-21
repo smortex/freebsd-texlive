@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-plates
-# Date created:		13/03/2010 04:47:18
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	plates
 PORTVERSION=	20100610

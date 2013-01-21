@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-vancouver
-# Date created:		13/03/2010 04:59:39
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	vancouver
 PORTVERSION=	20120228

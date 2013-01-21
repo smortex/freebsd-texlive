@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-arrayjobx
-# Date created:		05/07/2010 05:37:09
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	arrayjobx
 PORTVERSION=	20100610

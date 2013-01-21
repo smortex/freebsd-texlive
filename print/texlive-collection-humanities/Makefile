@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-humanities
-# Date created:		13/03/2010 04:32:49
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-humanities
 PORTVERSION=	20121010

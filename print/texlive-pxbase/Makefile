@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pxbase
-# Date created:		12/12/2012 04:53:47
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pxbase
 PORTVERSION=	20121213

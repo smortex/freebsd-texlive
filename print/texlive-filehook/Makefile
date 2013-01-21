@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-filehook
-# Date created:		04/11/2010 14:18:10
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	filehook
 PORTVERSION=	20111014

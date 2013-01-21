@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-luasseq
-# Date created:		11/14/2010 05:03:14
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	luasseq
 PORTVERSION=	20101118

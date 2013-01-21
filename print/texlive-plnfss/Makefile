@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-plnfss
-# Date created:		13/03/2010 04:38:07
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	plnfss
 PORTVERSION=	20100610

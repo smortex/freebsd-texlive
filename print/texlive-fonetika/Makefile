@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fonetika
-# Date created:		13/03/2010 04:26:37
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fonetika
 PORTVERSION=	20110207

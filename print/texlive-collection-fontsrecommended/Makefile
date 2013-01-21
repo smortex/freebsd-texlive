@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-fontsrecommended
-# Date created:		13/03/2010 04:30:29
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-fontsrecommended
 PORTVERSION=	20121026

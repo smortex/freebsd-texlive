@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pdftex
-# Date created:		13/03/2010 04:19:52
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pdftex
 PORTVERSION=	20121223

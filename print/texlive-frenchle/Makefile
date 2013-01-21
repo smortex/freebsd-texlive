@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-frenchle
-# Date created:		13/03/2010 04:35:24
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	frenchle
 PORTVERSION=	20120601

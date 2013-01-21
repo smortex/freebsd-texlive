@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-beameraudience
-# Date created:		08/07/2011 04:53:29
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	beameraudience
 PORTVERSION=	20110806

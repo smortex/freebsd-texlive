@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-synttree
-# Date created:		13/03/2010 04:49:46
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	synttree
 PORTVERSION=	20100610

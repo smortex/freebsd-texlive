@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-texliveonfly
-# Date created:		09/23/2011 04:41:58
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	texliveonfly
 PORTVERSION=	20120515

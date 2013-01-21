@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-sgame
-# Date created:		13/03/2010 04:31:10
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sgame
 PORTVERSION=	20100610

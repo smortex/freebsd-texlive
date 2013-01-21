@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-sphack
-# Date created:		12/25/2010 04:57:22
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sphack
 PORTVERSION=	20101224

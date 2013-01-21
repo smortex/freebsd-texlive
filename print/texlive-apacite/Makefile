@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-apacite
-# Date created:		13/03/2010 04:22:57
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	apacite
 PORTVERSION=	20120228

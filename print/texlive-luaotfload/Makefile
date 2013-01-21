@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-luaotfload
-# Date created:		13/03/2010 04:54:14
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	luaotfload
 PORTVERSION=	20120530

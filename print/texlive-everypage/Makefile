@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-everypage
-# Date created:		13/03/2010 04:42:09
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	everypage
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-listbib
-# Date created:		13/03/2010 04:23:39
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	listbib
 PORTVERSION=	20120425

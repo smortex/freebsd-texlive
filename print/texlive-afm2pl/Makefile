@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-afm2pl
-# Date created:		13/03/2010 04:30:31
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	afm2pl
 PORTVERSION=	20120529

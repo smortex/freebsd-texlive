@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-utopia
-# Date created:		13/03/2010 04:30:24
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	utopia
 PORTVERSION=	20100610

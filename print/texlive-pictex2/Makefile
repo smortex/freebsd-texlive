@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pictex2
-# Date created:		13/03/2010 04:52:40
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pictex2
 PORTVERSION=	20100610

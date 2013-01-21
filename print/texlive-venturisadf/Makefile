@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-venturisadf
-# Date created:		13/03/2010 04:29:20
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	venturisadf
 PORTVERSION=	20100715

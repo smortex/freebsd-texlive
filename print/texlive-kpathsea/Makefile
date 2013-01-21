@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-kpathsea
-# Date created:		13/03/2010 04:19:24
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	kpathsea
 PORTVERSION=	20130112

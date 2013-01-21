@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-ob3d
-# Date created:		13/03/2010 04:57:13
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-ob3d
 PORTVERSION=	20100610

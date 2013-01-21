@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-lpic
-# Date created:		12/25/2010 04:47:14
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	lpic
 PORTVERSION=	20101224

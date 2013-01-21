@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-gentium
-# Date created:		13/03/2010 04:26:45
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	gentium
 PORTVERSION=	20101010

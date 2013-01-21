@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-epstopdf
-# Date created:		13/03/2010 04:30:32
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	epstopdf
 PORTVERSION=	20120523

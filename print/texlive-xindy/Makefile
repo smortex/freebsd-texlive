@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-xindy
-# Date created:		13/03/2010 04:24:49
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	xindy
 PORTVERSION=	20120826

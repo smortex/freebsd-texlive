@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cmtiup
-# Date created:		11/23/2010 04:40:04
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cmtiup
 PORTVERSION=	20101122

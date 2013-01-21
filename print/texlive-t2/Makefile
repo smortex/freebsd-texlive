@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-t2
-# Date created:		13/03/2010 04:35:06
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	t2
 PORTVERSION=	20110531

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-staves
-# Date created:		13/03/2010 04:29:08
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	staves
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-rubans
-# Date created:		08/10/2011 05:09:04
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-rubans
 PORTVERSION=	20110809

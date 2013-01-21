@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tagging
-# Date created:		09/02/2011 05:04:03
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tagging
 PORTVERSION=	20110901

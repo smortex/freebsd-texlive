@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-expdlist
-# Date created:		13/03/2010 04:42:16
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	expdlist
 PORTVERSION=	20100610

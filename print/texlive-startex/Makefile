@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-startex
-# Date created:		13/03/2010 04:30:53
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	startex
 PORTVERSION=	20100610

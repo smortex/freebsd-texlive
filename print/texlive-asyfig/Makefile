@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-asyfig
-# Date created:		13/03/2010 04:51:57
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	asyfig
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fontch
-# Date created:		13/03/2010 04:55:42
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fontch
 PORTVERSION=	20100610

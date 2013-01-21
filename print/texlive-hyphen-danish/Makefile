@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-danish
-# Date created:		09/21/2010 11:42:11
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-danish
 PORTVERSION=	20110623

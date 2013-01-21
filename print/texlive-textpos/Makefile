@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-textpos
-# Date created:		13/03/2010 04:50:15
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	textpos
 PORTVERSION=	20121115

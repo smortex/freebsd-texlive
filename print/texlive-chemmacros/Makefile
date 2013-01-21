@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-chemmacros
-# Date created:		05/17/2011 05:13:09
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	chemmacros
 PORTVERSION=	20130106

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-polski
-# Date created:		13/03/2010 04:37:52
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	polski
 PORTVERSION=	20100925

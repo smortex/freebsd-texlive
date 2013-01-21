@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-minifp
-# Date created:		01/14/2013 04:53:35
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	minifp
 PORTVERSION=	20130112

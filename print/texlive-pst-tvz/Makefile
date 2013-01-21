@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-tvz
-# Date created:		02/03/2011 05:05:06
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-tvz
 PORTVERSION=	20110808

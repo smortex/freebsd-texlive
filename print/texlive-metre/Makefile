@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-metre
-# Date created:		13/03/2010 04:44:56
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	metre
 PORTVERSION=	20100610

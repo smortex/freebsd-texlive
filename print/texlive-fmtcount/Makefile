@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fmtcount
-# Date created:		13/03/2010 04:40:36
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fmtcount
 PORTVERSION=	20121025

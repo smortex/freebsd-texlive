@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dynblocks
-# Date created:		09/27/2012 05:07:37
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dynblocks
 PORTVERSION=	20120929

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dvipng
-# Date created:		13/03/2010 04:24:07
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dvipng
 PORTVERSION=	20120529

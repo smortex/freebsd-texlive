@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-persian-bib
-# Date created:		13/03/2010 04:33:07
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	persian-bib
 PORTVERSION=	20110730

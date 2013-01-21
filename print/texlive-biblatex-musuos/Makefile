@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-biblatex-musuos
-# Date created:		09/28/2011 04:40:09
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	biblatex-musuos
 PORTVERSION=	20110927

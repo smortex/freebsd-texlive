@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-apa6
-# Date created:		11/30/2011 05:10:47
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	apa6
 PORTVERSION=	20130112

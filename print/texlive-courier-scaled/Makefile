@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-courier-scaled
-# Date created:		13/03/2010 04:26:07
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	courier-scaled
 PORTVERSION=	20111225

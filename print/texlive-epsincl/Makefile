@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-epsincl
-# Date created:		13/03/2010 04:21:59
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	epsincl
 PORTVERSION=	20100610

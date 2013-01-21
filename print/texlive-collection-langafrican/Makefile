@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-langafrican
-# Date created:		13/03/2010 04:33:02
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-langafrican
 PORTVERSION=	20110114

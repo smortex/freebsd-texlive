@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-context-games
-# Date created:		13/03/2010 04:21:37
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	context-games
 PORTVERSION=	20110629

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-eqlist
-# Date created:		13/03/2010 04:41:58
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	eqlist
 PORTVERSION=	20100610

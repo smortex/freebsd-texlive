@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ltabptch
-# Date created:		13/03/2010 04:44:27
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ltabptch
 PORTVERSION=	20100610

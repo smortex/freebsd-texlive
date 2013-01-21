@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-texdraw
-# Date created:		13/03/2010 04:52:46
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	texdraw
 PORTVERSION=	20110827

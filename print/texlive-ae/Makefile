@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ae
-# Date created:		13/03/2010 04:20:03
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ae
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-biblatex-juradiss
-# Date created:		08/13/2011 04:41:01
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	biblatex-juradiss
 PORTVERSION=	20120728

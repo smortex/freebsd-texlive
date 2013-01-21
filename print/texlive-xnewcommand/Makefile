@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-xnewcommand
-# Date created:		13/03/2010 04:51:42
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	xnewcommand
 PORTVERSION=	20100610

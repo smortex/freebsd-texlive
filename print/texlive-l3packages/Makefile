@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-l3packages
-# Date created:		08/02/2011 05:06:20
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	l3packages
 PORTVERSION=	20121222

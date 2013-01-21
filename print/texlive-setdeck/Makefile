@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-setdeck
-# Date created:		10/19/2012 05:01:48
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	setdeck
 PORTVERSION=	20121018

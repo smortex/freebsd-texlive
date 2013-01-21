@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-biblatex-swiss-legal
-# Date created:		05/06/2012 04:42:44
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	biblatex-swiss-legal
 PORTVERSION=	20121230

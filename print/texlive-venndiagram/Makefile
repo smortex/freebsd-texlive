@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-venndiagram
-# Date created:		10/27/2012 04:56:37
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	venndiagram
 PORTVERSION=	20121025

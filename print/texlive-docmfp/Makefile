@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-docmfp
-# Date created:		13/03/2010 04:40:49
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	docmfp
 PORTVERSION=	20100610

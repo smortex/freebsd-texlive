@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-epsf
-# Date created:		13/03/2010 04:31:51
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	epsf
 PORTVERSION=	20110219

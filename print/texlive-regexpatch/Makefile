@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-regexpatch
-# Date created:		04/17/2012 05:03:22
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	regexpatch
 PORTVERSION=	20120726

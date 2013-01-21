@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-breakurl
-# Date created:		13/03/2010 04:39:13
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	breakurl
 PORTVERSION=	20100610

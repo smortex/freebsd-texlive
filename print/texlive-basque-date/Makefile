@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-basque-date
-# Date created:		08/02/2012 12:29:00
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	basque-date
 PORTVERSION=	20120518

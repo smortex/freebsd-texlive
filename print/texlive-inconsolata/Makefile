@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-inconsolata
-# Date created:		13/03/2010 04:27:11
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	inconsolata
 PORTVERSION=	20100914

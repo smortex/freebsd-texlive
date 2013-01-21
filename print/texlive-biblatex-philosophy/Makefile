@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-biblatex-philosophy
-# Date created:		13/03/2010 04:23:10
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	biblatex-philosophy
 PORTVERSION=	20120506

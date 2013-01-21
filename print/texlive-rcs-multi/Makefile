@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-rcs-multi
-# Date created:		13/03/2010 04:47:59
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	rcs-multi
 PORTVERSION=	20110404

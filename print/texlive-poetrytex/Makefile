@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-poetrytex
-# Date created:		08/02/2012 12:26:39
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	poetrytex
 PORTVERSION=	20121007

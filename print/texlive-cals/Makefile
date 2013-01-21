@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cals
-# Date created:		10/09/2010 04:49:20
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cals
 PORTVERSION=	20110604

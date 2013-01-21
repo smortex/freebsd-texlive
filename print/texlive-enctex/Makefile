@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-enctex
-# Date created:		13/03/2010 04:19:34
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	enctex
 PORTVERSION=	20121222

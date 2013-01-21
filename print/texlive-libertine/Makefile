@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-libertine
-# Date created:		09/28/2012 04:58:02
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	libertine
 PORTVERSION=	20130102

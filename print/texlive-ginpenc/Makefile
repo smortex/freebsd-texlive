@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ginpenc
-# Date created:		13/03/2010 04:43:07
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ginpenc
 PORTVERSION=	20111231

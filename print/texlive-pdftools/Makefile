@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pdftools
-# Date created:		13/03/2010 04:24:19
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pdftools
 PORTVERSION=	20120807

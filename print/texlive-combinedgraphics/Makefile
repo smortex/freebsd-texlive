@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-combinedgraphics
-# Date created:		13/03/2010 04:52:01
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	combinedgraphics
 PORTVERSION=	20120728

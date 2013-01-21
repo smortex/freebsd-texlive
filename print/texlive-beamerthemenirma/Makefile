@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-beamerthemenirma
-# Date created:		12/18/2010 04:48:28
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	beamerthemenirma
 PORTVERSION=	20101217

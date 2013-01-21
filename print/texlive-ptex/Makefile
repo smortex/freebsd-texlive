@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ptex
-# Date created:		09/21/2010 11:41:31
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ptex
 PORTVERSION=	20120529

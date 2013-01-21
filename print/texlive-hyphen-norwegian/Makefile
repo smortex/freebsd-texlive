@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-norwegian
-# Date created:		09/21/2010 11:43:29
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-norwegian
 PORTVERSION=	20110623

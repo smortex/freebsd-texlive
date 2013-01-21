@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ctanupload
-# Date created:		09/09/2011 04:42:42
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ctanupload
 PORTVERSION=	20120515

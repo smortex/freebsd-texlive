@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-meetingmins
-# Date created:		11/11/2011 05:02:46
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	meetingmins
 PORTVERSION=	20120926

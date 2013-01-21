@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-langturkmen
-# Date created:		04/11/2010 14:16:18
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-langturkmen
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-gsftopk
-# Date created:		13/03/2010 04:19:38
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	gsftopk
 PORTVERSION=	20120529

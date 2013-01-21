@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fdsymbol
-# Date created:		05/11/2011 04:43:08
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fdsymbol
 PORTVERSION=	20120530

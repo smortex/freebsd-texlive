@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-swedish
-# Date created:		09/21/2010 11:43:54
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-swedish
 PORTVERSION=	20110623

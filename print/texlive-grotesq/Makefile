@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-grotesq
-# Date created:		13/03/2010 04:27:03
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	grotesq
 PORTVERSION=	20100610

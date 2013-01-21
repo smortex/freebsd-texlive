@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-qcm
-# Date created:		13/03/2010 04:47:47
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	qcm
 PORTVERSION=	20100610

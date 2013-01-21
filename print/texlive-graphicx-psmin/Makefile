@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-graphicx-psmin
-# Date created:		13/03/2010 04:43:17
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	graphicx-psmin
 PORTVERSION=	20100610

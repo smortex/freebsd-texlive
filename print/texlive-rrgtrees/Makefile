@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-rrgtrees
-# Date created:		08/08/2012 05:08:10
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	rrgtrees
 PORTVERSION=	20120807

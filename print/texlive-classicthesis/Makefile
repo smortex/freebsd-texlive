@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-classicthesis
-# Date created:		13/03/2010 04:58:18
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	classicthesis
 PORTVERSION=	20120816

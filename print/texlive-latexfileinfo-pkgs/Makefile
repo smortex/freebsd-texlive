@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-latexfileinfo-pkgs
-# Date created:		08/02/2012 12:21:09
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	latexfileinfo-pkgs
 PORTVERSION=	20120601

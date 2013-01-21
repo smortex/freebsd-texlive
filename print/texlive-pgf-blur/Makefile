@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pgf-blur
-# Date created:		04/28/2012 04:54:43
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pgf-blur
 PORTVERSION=	20120426

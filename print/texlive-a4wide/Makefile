@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-a4wide
-# Date created:		13/03/2010 04:38:24
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	a4wide
 PORTVERSION=	20110106

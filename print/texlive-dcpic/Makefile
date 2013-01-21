@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dcpic
-# Date created:		13/03/2010 04:52:06
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dcpic
 PORTVERSION=	20100715

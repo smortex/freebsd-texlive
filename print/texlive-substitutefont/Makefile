@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-substitutefont
-# Date created:		05/06/2012 05:07:44
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	substitutefont
 PORTVERSION=	20120710

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-yfonts
-# Date created:		13/03/2010 04:29:25
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	yfonts
 PORTVERSION=	20100610

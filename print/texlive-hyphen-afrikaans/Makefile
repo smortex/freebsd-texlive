@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-afrikaans
-# Date created:		09/21/2010 11:43:30
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-afrikaans
 PORTVERSION=	20120417

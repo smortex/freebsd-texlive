@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-galician
-# Date created:		09/21/2010 11:43:52
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-galician
 PORTVERSION=	20120417

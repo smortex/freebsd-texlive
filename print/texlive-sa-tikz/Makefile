@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-sa-tikz
-# Date created:		01/05/2013 04:48:21
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sa-tikz
 PORTVERSION=	20130104

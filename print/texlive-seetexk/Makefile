@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-seetexk
-# Date created:		13/03/2010 04:24:23
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	seetexk
 PORTVERSION=	20120529

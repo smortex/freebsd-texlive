@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-context-bnf
-# Date created:		13/03/2010 04:21:30
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	context-bnf
 PORTVERSION=	20110629

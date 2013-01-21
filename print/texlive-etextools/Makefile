@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-etextools
-# Date created:		13/03/2010 04:42:05
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	etextools
 PORTVERSION=	20101209

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-scheme-minimal
-# Date created:		13/03/2010 05:01:13
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	scheme-minimal
 PORTVERSION=	20100610

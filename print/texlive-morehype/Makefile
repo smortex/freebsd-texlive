@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-morehype
-# Date created:		01/30/2011 04:57:38
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	morehype
 PORTVERSION=	20130105

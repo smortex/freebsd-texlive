@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-toptesi
-# Date created:		13/03/2010 04:59:26
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	toptesi
 PORTVERSION=	20121229

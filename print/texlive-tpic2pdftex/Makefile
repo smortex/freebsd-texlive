@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tpic2pdftex
-# Date created:		13/03/2010 04:24:46
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tpic2pdftex
 PORTVERSION=	20120529

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-music
-# Date created:		13/03/2010 04:55:25
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-music
 PORTVERSION=	20120515

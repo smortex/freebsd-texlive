@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dowith
-# Date created:		05/12/2012 04:47:53
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dowith
 PORTVERSION=	20121201

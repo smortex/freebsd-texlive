@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-layouts
-# Date created:		13/03/2010 04:44:05
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	layouts
 PORTVERSION=	20100610

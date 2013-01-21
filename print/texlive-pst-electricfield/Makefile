@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-electricfield
-# Date created:		09/21/2010 11:55:04
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-electricfield
 PORTVERSION=	20110329

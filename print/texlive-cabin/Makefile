@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cabin
-# Date created:		11/07/2012 17:57:30
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cabin
 PORTVERSION=	20121128

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-bulgarian
-# Date created:		09/21/2010 11:42:02
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-bulgarian
 PORTVERSION=	20120417

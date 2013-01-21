@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bashful
-# Date created:		03/03/2011 04:52:31
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bashful
 PORTVERSION=	20120311

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pxfonts
-# Date created:		13/03/2010 04:30:12
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pxfonts
 PORTVERSION=	20100610

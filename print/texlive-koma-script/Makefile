@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-koma-script
-# Date created:		13/03/2010 04:53:35
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	koma-script
 PORTVERSION=	20120731

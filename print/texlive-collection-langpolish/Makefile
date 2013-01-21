@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-langpolish
-# Date created:		13/03/2010 04:37:56
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-langpolish
 PORTVERSION=	20110815

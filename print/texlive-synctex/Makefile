@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-synctex
-# Date created:		13/03/2010 04:24:24
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	synctex
 PORTVERSION=	20120529

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-tools
-# Date created:		01/07/2012 05:09:10
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-tools
 PORTVERSION=	20121017

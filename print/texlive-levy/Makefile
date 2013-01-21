@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-levy
-# Date created:		13/03/2010 04:36:50
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	levy
 PORTVERSION=	20110318

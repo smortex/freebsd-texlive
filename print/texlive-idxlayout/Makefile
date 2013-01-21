@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-idxlayout
-# Date created:		13/03/2010 04:43:36
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	idxlayout
 PORTVERSION=	20120402

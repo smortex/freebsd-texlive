@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-langdutch
-# Date created:		13/03/2010 04:35:20
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-langdutch
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-newverbs
-# Date created:		04/11/2010 14:19:35
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	newverbs
 PORTVERSION=	20120509

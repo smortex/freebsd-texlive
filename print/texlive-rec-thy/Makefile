@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-rec-thy
-# Date created:		10/16/2010 05:02:05
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	rec-thy
 PORTVERSION=	20120730

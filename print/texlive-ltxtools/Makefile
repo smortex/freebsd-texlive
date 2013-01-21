@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ltxtools
-# Date created:		10/01/2011 04:59:47
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ltxtools
 PORTVERSION=	20111222

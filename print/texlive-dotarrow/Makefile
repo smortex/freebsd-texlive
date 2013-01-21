@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dotarrow
-# Date created:		13/03/2010 04:40:52
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dotarrow
 PORTVERSION=	20100610

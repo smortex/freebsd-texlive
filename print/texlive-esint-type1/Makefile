@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-esint-type1
-# Date created:		13/03/2010 04:42:03
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	esint-type1
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-midpage
-# Date created:		13/03/2010 04:44:59
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	midpage
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pacioli
-# Date created:		13/03/2010 04:28:55
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pacioli
 PORTVERSION=	20111226

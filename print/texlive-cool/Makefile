@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cool
-# Date created:		13/03/2010 04:40:12
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cool
 PORTVERSION=	20100610

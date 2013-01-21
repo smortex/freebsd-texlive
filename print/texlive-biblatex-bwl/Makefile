@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-biblatex-bwl
-# Date created:		05/12/2012 04:41:27
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	biblatex-bwl
 PORTVERSION=	20120522

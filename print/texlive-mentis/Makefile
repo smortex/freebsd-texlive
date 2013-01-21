@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mentis
-# Date created:		13/03/2010 04:58:47
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mentis
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-biblatex-chem
-# Date created:		13/03/2010 04:23:08
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	biblatex-chem
 PORTVERSION=	20120818

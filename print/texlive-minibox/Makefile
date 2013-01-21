@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-minibox
-# Date created:		13/03/2010 04:45:00
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	minibox
 PORTVERSION=	20100610

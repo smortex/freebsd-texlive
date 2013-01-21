@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fullwidth
-# Date created:		11/30/2011 04:58:28
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fullwidth
 PORTVERSION=	20111129

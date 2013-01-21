@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-fontsextra
-# Date created:		13/03/2010 04:29:28
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-fontsextra
 PORTVERSION=	20121221

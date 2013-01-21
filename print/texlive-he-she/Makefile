@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-he-she
-# Date created:		02/16/2011 04:57:15
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	he-she
 PORTVERSION=	20111225

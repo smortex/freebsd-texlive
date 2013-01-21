@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tableaux
-# Date created:		13/03/2010 04:49:47
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tableaux
 PORTVERSION=	20100610

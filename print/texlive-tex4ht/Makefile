@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tex4ht
-# Date created:		13/03/2010 04:32:00
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tex4ht
 PORTVERSION=	20130120

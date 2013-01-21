@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-aurical
-# Date created:		13/03/2010 04:25:37
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	aurical
 PORTVERSION=	20100610

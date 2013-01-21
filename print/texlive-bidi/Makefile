@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bidi
-# Date created:		13/03/2010 05:00:44
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bidi
 PORTVERSION=	20121101

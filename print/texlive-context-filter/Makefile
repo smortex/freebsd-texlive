@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-context-filter
-# Date created:		09/29/2010 04:35:38
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	context-filter
 PORTVERSION=	20130115

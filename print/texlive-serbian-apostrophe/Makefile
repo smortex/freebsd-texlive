@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-serbian-apostrophe
-# Date created:		08/09/2011 05:02:57
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	serbian-apostrophe
 PORTVERSION=	20110905

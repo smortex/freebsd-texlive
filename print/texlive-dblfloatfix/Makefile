@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dblfloatfix
-# Date created:		13/03/2010 04:40:38
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dblfloatfix
 PORTVERSION=	20100610

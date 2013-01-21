@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-romanbar
-# Date created:		01/05/2012 05:02:29
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	romanbar
 PORTVERSION=	20120104

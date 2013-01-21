@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-sidecap
-# Date created:		13/03/2010 04:48:59
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sidecap
 PORTVERSION=	20100610

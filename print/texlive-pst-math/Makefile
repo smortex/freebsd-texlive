@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-math
-# Date created:		13/03/2010 04:57:07
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-math
 PORTVERSION=	20101025

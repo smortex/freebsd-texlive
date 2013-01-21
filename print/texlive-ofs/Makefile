@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ofs
-# Date created:		13/03/2010 04:31:43
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ofs
 PORTVERSION=	20100610

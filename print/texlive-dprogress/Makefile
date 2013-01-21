@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dprogress
-# Date created:		13/03/2010 04:40:56
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dprogress
 PORTVERSION=	20100610

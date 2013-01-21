@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-envlab
-# Date created:		13/03/2010 04:41:54
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	envlab
 PORTVERSION=	20100610

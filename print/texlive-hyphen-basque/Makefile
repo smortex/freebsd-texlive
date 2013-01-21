@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-basque
-# Date created:		09/21/2010 11:42:20
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-basque
 PORTVERSION=	20110623

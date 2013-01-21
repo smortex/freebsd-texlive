@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-everyhook
-# Date created:		09/29/2010 04:51:40
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	everyhook
 PORTVERSION=	20110205

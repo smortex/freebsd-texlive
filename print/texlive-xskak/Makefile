@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-xskak
-# Date created:		13/03/2010 04:31:16
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	xskak
 PORTVERSION=	20100715

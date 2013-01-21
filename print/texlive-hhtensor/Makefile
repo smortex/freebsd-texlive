@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hhtensor
-# Date created:		13/03/2010 04:43:26
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hhtensor
 PORTVERSION=	20111231

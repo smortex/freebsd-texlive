@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-bibtexextra
-# Date created:		13/03/2010 04:23:51
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-bibtexextra
 PORTVERSION=	20130104

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-dbicons
-# Date created:		13/03/2010 04:56:24
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-dbicons
 PORTVERSION=	20100610

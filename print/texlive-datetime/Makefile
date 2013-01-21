@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-datetime
-# Date created:		13/03/2010 04:40:37
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	datetime
 PORTVERSION=	20100922

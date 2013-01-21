@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tucv
-# Date created:		12/11/2010 04:58:44
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tucv
 PORTVERSION=	20101208

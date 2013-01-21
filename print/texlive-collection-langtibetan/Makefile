@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-langtibetan
-# Date created:		13/03/2010 04:38:05
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-langtibetan
 PORTVERSION=	20100610

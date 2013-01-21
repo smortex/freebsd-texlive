@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-latexfileversion
-# Date created:		01/05/2012 04:41:40
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	latexfileversion
 PORTVERSION=	20120104

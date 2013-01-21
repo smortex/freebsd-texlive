@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-documentation-slovenian
-# Date created:		13/03/2010 04:25:05
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-documentation-slovenian
 PORTVERSION=	20100610

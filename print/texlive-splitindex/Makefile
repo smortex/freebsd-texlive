@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-splitindex
-# Date created:		13/03/2010 04:49:15
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	splitindex
 PORTVERSION=	20120515

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cooltooltips
-# Date created:		13/03/2010 04:40:16
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cooltooltips
 PORTVERSION=	20100610

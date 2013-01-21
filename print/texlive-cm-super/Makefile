@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cm-super
-# Date created:		13/03/2010 04:29:34
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cm-super
 PORTVERSION=	20100610

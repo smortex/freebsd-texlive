@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-concmath
-# Date created:		13/03/2010 04:54:28
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	concmath
 PORTVERSION=	20100610

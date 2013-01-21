@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-subeqn
-# Date created:		13/03/2010 04:49:31
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	subeqn
 PORTVERSION=	20100610

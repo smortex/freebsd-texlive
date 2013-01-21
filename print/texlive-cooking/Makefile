@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cooking
-# Date created:		13/03/2010 04:40:10
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cooking
 PORTVERSION=	20100610

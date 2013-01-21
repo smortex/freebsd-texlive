@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-xbmc
-# Date created:		13/03/2010 04:51:34
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	xbmc
 PORTVERSION=	20100610

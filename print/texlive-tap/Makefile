@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tap
-# Date created:		13/03/2010 04:37:54
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tap
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tablor
-# Date created:		13/03/2010 04:55:00
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tablor
 PORTVERSION=	20120220

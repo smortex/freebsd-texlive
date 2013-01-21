@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-vowel
-# Date created:		13/03/2010 04:57:41
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-vowel
 PORTVERSION=	20120130

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-showlabels
-# Date created:		13/03/2010 04:48:58
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	showlabels
 PORTVERSION=	20100610
