@@ -383,11 +383,6 @@ namespace TeXLive
 						}
 					}
 
-					// Ensure this file is not already installed by texlive-core
-					if (System.IO.File.Exists(detect_file_name)) {
-						detect_file_name = null;
-					}
-
 					// Fallback on the first file listed in the archive that
 					// does not exist on the filesystem.
 					if (detect_file_name == null) {
