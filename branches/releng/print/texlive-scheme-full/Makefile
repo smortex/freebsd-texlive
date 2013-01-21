@@ -981,6 +981,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/circ/circ.sty:${PORTSDIR}/print/texlive-circ \
 		${LOCALBASE}/share/texmf-dist/tex/latex/clefval/clefval.sty:${PORTSDIR}/print/texlive-clefval \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cleveref/cleveref.sty:${PORTSDIR}/print/texlive-cleveref \
+		${LOCALBASE}/share/texmf-dist/tex/latex/clipboard/clipboard.sty:${PORTSDIR}/print/texlive-clipboard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/clock/clock.sty:${PORTSDIR}/print/texlive-clock \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmdstring/cmdstring.sty:${PORTSDIR}/print/texlive-cmdstring \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmsd/cmsd.sty:${PORTSDIR}/print/texlive-cmsd \
@@ -1009,7 +1010,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/coolthms/coolthms.sty:${PORTSDIR}/print/texlive-coolthms \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cooltooltips/cooltooltips.sty:${PORTSDIR}/print/texlive-cooltooltips \
 		${LOCALBASE}/share/texmf-dist/tex/latex/coordsys/coordsys.sty:${PORTSDIR}/print/texlive-coordsys \
-		${LOCALBASE}/share/texmf-dist/tex/latex/copypaste/copypaste.sty:${PORTSDIR}/print/texlive-copypaste \
 		${LOCALBASE}/share/texmf-dist/tex/latex/copyrightbox/copyrightbox.sty:${PORTSDIR}/print/texlive-copyrightbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/coseoul/coseoul.sty:${PORTSDIR}/print/texlive-coseoul \
 		${LOCALBASE}/share/texmf-dist/tex/latex/counttexruns/counttexruns.sty:${PORTSDIR}/print/texlive-counttexruns \
@@ -2148,7 +2148,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xetex-def/xetex.def:${PORTSDIR}/print/texlive-xetex-def \
 		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/brh-kan.map:${PORTSDIR}/print/texlive-xetex-itrans \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con:${PORTSDIR}/print/texlive-xetex-pstricks \
-		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-tibetian/loctib.map:${PORTSDIR}/print/texlive-xetex-tibetian \
+		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-tibetan/loctib.map:${PORTSDIR}/print/texlive-xetex-tibetan \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xetexconfig/unicode-letters.tex:${PORTSDIR}/print/texlive-xetexconfig \
 		${LOCALBASE}/share/texmf-dist/tex/xetex/xetexfontinfo/aat-info.tex:${PORTSDIR}/print/texlive-xetexfontinfo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xltxtra/xltxtra.sty:${PORTSDIR}/print/texlive-xltxtra \
