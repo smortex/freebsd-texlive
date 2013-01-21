@@ -36,7 +36,7 @@ ${WRKDIR}/.install_files: build
 		    if (system("[ -e \"${PREFIX}/" target "\" ]") != 0) { \
 			print source "," target ","; \
 		    } \
-		}' > ${WRKDIR}/.install_files; \
+		}' | ${GREP} -vF ../../print/texlive-core/pkg-plist > ${WRKDIR}/.install_files; \
 	)
 .if !defined(NOPORTDOCS)
 	@(  cd ${WRKDIR} && ${CAT} tlpkg/tlpobj/${PORTNAME}.doc.tlpobj | ${GREP} ^\  | ${AWK} '\
@@ -50,7 +50,7 @@ ${WRKDIR}/.install_files: build
 		    if (system("[ -e \"${PREFIX}/" target "\" ]") != 0) { \
 			print source "," target ",%%PORTDOCS%%"; \
 		    } \
-		}' >> ${WRKDIR}/.install_files; \
+		}' | ${GREP} -vF ../../print/texlive-core/pkg-plist >> ${WRKDIR}/.install_files; \
 	)
 .endif
 .if !defined(NOPORTSRC)
@@ -65,7 +65,7 @@ ${WRKDIR}/.install_files: build
 		    if (system("[ -e \"${PREFIX}/" target "\" ]") != 0) { \
 			print source "," target ",%%PORTSRC%%"; \
 		    } \
-		}' >> ${WRKDIR}/.install_files; \
+		}' | ${GREP} -vF ../../print/texlive-core/pkg-plist >> ${WRKDIR}/.install_files; \
 	)
 .endif
 

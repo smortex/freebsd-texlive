@@ -531,6 +531,11 @@ namespace TeXLive
 					s = s.Substring(1);
 					if (s.StartsWith("texmf")) {
 						// We install only texmf* files.
+
+						// ...with a few exceptions (files installed by texlive-core)
+						if (System.IO.File.Exists("/usr/local/" + s))
+							continue;
+
 						files.Add("share/" + s);
 					} else if (s.StartsWith("RELOC/")) {
 						files.Add("share/texmf-dist" + s.Substring (5));
