@@ -11,7 +11,12 @@ share/texmf-dist/bibtex/bst/abntex2/abntex2-num.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-artigo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-artigo.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-img-grafico.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-include-comandos.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-projeto-pesquisa.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-projeto-pesquisa.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-references.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-relatorio-tecnico.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-relatorio-tecnico.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-trabalho-academico.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-trabalho-academico.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2.pdf

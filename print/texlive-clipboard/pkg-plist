@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/clipboard/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/clipboard/clipboard.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/clipboard/clipboard.tex
+share/texmf-dist/tex/latex/clipboard/clipboard.sty
+@dirrmtry share/texmf-dist/tex/latex/clipboard
+@dirrmtry share/texmf-dist/doc/latex/clipboard
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,16 +1,16 @@
-# New ports collection makefile for:	texlive-pkuthss
-# Date created:		10/15/2012 05:17:45
+# New ports collection makefile for:	texlive-clipboard
+# Date created:		01/21/2013 04:52:54
 # Whom:		romain@FreeBSD.org
 #
 # $FreeBSD$
 #
 
-PORTNAME=	pkuthss
-PORTVERSION=	20130119
+PORTNAME=	clipboard
+PORTVERSION=	20130120
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX template for dissertations in Peking University.
+COMMENT=	Copy and paste into and across documents.
 
 NOPORTSRC=	yes
 

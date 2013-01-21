@@ -1,0 +1,3 @@
+The clipboard package provides a basic framework for copying
+and pasting text and commands into and across multiple
+documents. It replaces the copypaste package.
