@@ -117,8 +117,6 @@
 share/texmf-dist/dvips/musixtex/psslurs.pro
 share/texmf-dist/scripts/musixtex/Windows/musixflx.bat
 share/texmf-dist/scripts/musixtex/Windows/musixtex.bat
-share/texmf-dist/scripts/musixtex/musixflx.lua
-share/texmf-dist/scripts/musixtex/musixtex.lua
 %%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/doc.tex
 %%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/makefile
 %%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/musixcrd.dtx
@@ -175,7 +173,6 @@ share/texmf-dist/tex/latex/musixtex/musixtex.sty
 @dirrmtry share/texmf-dist/tex/generic/musixtex
 @dirrmtry share/texmf-dist/source/generic/musixtex/musixcrd
 @dirrmtry share/texmf-dist/scripts/musixtex/Windows
-@dirrmtry share/texmf-dist/scripts/musixtex
 @dirrmtry share/texmf-dist/dvips/musixtex
 @dirrmtry share/texmf-dist/doc/generic/musixtex/scripts
 @dirrmtry share/texmf-dist/doc/generic/musixtex/reference

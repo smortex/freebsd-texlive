@@ -2,6 +2,7 @@
 
 PORTNAME=	pedigree-perl
 PORTVERSION=	20120515
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

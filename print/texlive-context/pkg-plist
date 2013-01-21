@@ -2299,7 +2299,6 @@ share/texmf-dist/tex/mptopdf/config/mptopdf.ini
 @dirrmtry share/texmf-dist/scripts/context/ruby/base/kpse
 @dirrmtry share/texmf-dist/scripts/context/ruby/base
 @dirrmtry share/texmf-dist/scripts/context/ruby
-@dirrmtry share/texmf-dist/scripts/context/perl
 @dirrmtry share/texmf-dist/scripts/context/lua
 @dirrmtry share/texmf-dist/metapost/context/font
 @dirrmtry share/texmf-dist/metapost/context/base

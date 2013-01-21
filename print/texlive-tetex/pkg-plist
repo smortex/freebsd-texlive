@@ -74,8 +74,6 @@ share/texmf/scripts/tetex/texconfig-dialog.sh
 share/texmf/scripts/tetex/texconfig-sys.sh
 share/texmf/scripts/tetex/texlinks.sh
 share/texmf/web2c/updmap.cfg
-@dirrmtry share/texmf/web2c
-@dirrmtry share/texmf/scripts/tetex
 @dirrmtry share/texmf/fonts/map/dvips/tetex
 @dirrmtry share/texmf/fonts/enc/dvips/tetex
 @dirrmtry share/texmf/dvips/tetex

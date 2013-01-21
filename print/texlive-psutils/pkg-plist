@@ -37,19 +37,6 @@
 %%PORTDOCS%%share/texmf/doc/man/man1/pstops.1
 %%PORTDOCS%%share/texmf/doc/man/man1/pstops.man1.pdf
 share/texmf/dvips/getafm/getafm.ps
-share/texmf/scripts/psutils/extractres.pl
-share/texmf/scripts/psutils/fixdlsrps.pl
-share/texmf/scripts/psutils/fixfmps.pl
-share/texmf/scripts/psutils/fixpsditps.pl
-share/texmf/scripts/psutils/fixpspps.pl
-share/texmf/scripts/psutils/fixscribeps.pl
-share/texmf/scripts/psutils/fixtpps.pl
-share/texmf/scripts/psutils/fixwfwps.pl
-share/texmf/scripts/psutils/fixwpps.pl
-share/texmf/scripts/psutils/fixwwps.pl
-share/texmf/scripts/psutils/includeres.pl
-share/texmf/scripts/psutils/psmerge.pl
-@dirrmtry share/texmf/scripts/psutils
 @dirrmtry share/texmf/dvips/getafm
 @dirrmtry share/texmf/doc/man/man1
 @exec %D/bin/mktexlsr

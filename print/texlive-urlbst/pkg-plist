@@ -12,11 +12,9 @@ share/texmf-dist/bibtex/bst/urlbst/unsrturl.bst
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/urlbst/urlbst.pdf
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/urlbst/urlbst.tex
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/urlbst/urlbst.tex.in
-share/texmf-dist/scripts/urlbst/urlbst
 %%PORTSRC%%share/texmf-dist/source/bibtex/urlbst/configure
 %%PORTSRC%%share/texmf-dist/source/bibtex/urlbst/configure.ac
 @dirrmtry share/texmf-dist/source/bibtex/urlbst
-@dirrmtry share/texmf-dist/scripts/urlbst
 @dirrmtry share/texmf-dist/doc/bibtex/urlbst
 @dirrmtry share/texmf-dist/bibtex/bst/urlbst
 @exec %D/bin/mktexlsr

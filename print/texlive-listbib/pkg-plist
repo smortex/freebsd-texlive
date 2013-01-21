@@ -1,6 +1,5 @@
 share/texmf-dist/bibtex/bst/listbib/listbib.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/listbib/listbib-doc.pdf
-share/texmf-dist/scripts/listbib/listbib
 %%PORTSRC%%share/texmf-dist/source/latex/listbib/listbib-doc.drv
 %%PORTSRC%%share/texmf-dist/source/latex/listbib/listbib.drv
 %%PORTSRC%%share/texmf-dist/source/latex/listbib/listbib.dtx
@@ -10,7 +9,6 @@ share/texmf-dist/tex/latex/listbib/listbib.sty
 share/texmf-dist/tex/latex/listbib/listbib.tex
 @dirrmtry share/texmf-dist/tex/latex/listbib
 @dirrmtry share/texmf-dist/source/latex/listbib
-@dirrmtry share/texmf-dist/scripts/listbib
 @dirrmtry share/texmf-dist/doc/latex/listbib
 @dirrmtry share/texmf-dist/bibtex/bst/listbib
 @exec %D/bin/mktexlsr

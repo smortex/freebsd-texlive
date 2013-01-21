@@ -4,9 +4,6 @@ share/texmf-dist/fonts/enc/dvips/fontools/fontools_ly1.enc
 share/texmf-dist/fonts/enc/dvips/fontools/fontools_ot1.enc
 share/texmf-dist/fonts/enc/dvips/fontools/fontools_t1.enc
 share/texmf-dist/fonts/enc/dvips/fontools/fontools_ts1.enc
-share/texmf-dist/scripts/fontools/afm2afm
-share/texmf-dist/scripts/fontools/autoinst
-share/texmf-dist/scripts/fontools/ot2kpx
 %%PORTDOCS%%share/texmf/doc/man/man1/afm2afm.1
 %%PORTDOCS%%share/texmf/doc/man/man1/afm2afm.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/autoinst.1
@@ -14,7 +11,6 @@ share/texmf-dist/scripts/fontools/ot2kpx
 %%PORTDOCS%%share/texmf/doc/man/man1/ot2kpx.1
 %%PORTDOCS%%share/texmf/doc/man/man1/ot2kpx.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf-dist/scripts/fontools
 @dirrmtry share/texmf-dist/fonts/enc/dvips/fontools
 @dirrmtry share/texmf-dist/doc/support/fontools
 @exec %D/bin/mktexlsr
