@@ -1,3 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/latex-fonts/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/latex-fonts/legal.txt
 share/texmf-dist/fonts/source/public/latex-fonts/circle.mf
 share/texmf-dist/fonts/source/public/latex-fonts/icmcsc10.mf
 share/texmf-dist/fonts/source/public/latex-fonts/icmex10.mf
@@ -16,13 +18,11 @@ share/texmf-dist/fonts/source/public/latex-fonts/lasy7.mf
 share/texmf-dist/fonts/source/public/latex-fonts/lasy8.mf
 share/texmf-dist/fonts/source/public/latex-fonts/lasy9.mf
 share/texmf-dist/fonts/source/public/latex-fonts/lasyb10.mf
-share/texmf-dist/fonts/source/public/latex-fonts/lcircle.mf
 share/texmf-dist/fonts/source/public/latex-fonts/lcircle10.mf
 share/texmf-dist/fonts/source/public/latex-fonts/lcirclew10.mf
 share/texmf-dist/fonts/source/public/latex-fonts/lcmss8.mf
 share/texmf-dist/fonts/source/public/latex-fonts/lcmssb8.mf
 share/texmf-dist/fonts/source/public/latex-fonts/lcmssi8.mf
-share/texmf-dist/fonts/source/public/latex-fonts/legal.txt
 share/texmf-dist/fonts/source/public/latex-fonts/line.mf
 share/texmf-dist/fonts/source/public/latex-fonts/line10.mf
 share/texmf-dist/fonts/source/public/latex-fonts/linew10.mf
@@ -53,5 +53,6 @@ share/texmf-dist/fonts/tfm/public/latex-fonts/line10.tfm
 share/texmf-dist/fonts/tfm/public/latex-fonts/linew10.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/latex-fonts
 @dirrmtry share/texmf-dist/fonts/source/public/latex-fonts
+@dirrmtry share/texmf-dist/doc/fonts/latex-fonts
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
