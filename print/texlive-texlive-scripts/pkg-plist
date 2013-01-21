@@ -4,7 +4,6 @@ share/install-tl
 share/texmf/scripts/texlive/lua/texlive/getopt.tlu
 share/texmf/scripts/texlive/lua/texlive/tlpdb.tlu
 share/texmf/scripts/texlive/lua/texlive/utils.tlu
-share/texmf/scripts/texlive/rungs.tlu
 share/texmf/scripts/texlive/test-tlpdb.tlu
 share/texmf/scripts/texlive/texconf.tlu
 share/tlpkg/installer/ctan-mirrors.pl
@@ -13,7 +12,6 @@ share/tlpkg/installer/install-menu-text.pl
 share/tlpkg/installer/install-menu-wizard.pl
 @dirrmtry share/tlpkg/installer
 @dirrmtry share/texmf/scripts/texlive/lua/texlive
-@dirrmtry share/texmf/scripts/texlive
 @dirrmtry share/texmf/doc/man/man1
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

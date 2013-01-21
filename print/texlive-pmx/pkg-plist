@@ -1,6 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/ChangeLog
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/README
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/Windows/pmx2pdf.bat
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/examples/barsant.pmx
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/examples/dyntest.pmx
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/examples/most.pmx
@@ -12,6 +10,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmx260.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmx2pdf.html
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxab.html
+%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxbeta.html
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/README
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/addresses/btennent.eps
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/addresses/cmondrup.eps
@@ -94,7 +93,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/ref260.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/ref260.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/scor2prt.html
-share/texmf-dist/scripts/pmx/pmx2pdf.lua
 share/texmf-dist/tex/generic/pmx/pmx.tex
 %%PORTDOCS%%share/texmf/doc/man/man1/pmx2pdf.1
 %%PORTDOCS%%share/texmf/doc/man/man1/pmx2pdf.man1.pdf
@@ -104,12 +102,10 @@ share/texmf-dist/tex/generic/pmx/pmx.tex
 %%PORTDOCS%%share/texmf/doc/man/man1/scor2prt.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf-dist/tex/generic/pmx
-@dirrmtry share/texmf-dist/scripts/pmx
 @dirrmtry share/texmf-dist/doc/generic/pmx/pmxccn/eps
 @dirrmtry share/texmf-dist/doc/generic/pmx/pmxccn/addresses
 @dirrmtry share/texmf-dist/doc/generic/pmx/pmxccn
 @dirrmtry share/texmf-dist/doc/generic/pmx/examples
-@dirrmtry share/texmf-dist/doc/generic/pmx/Windows
 @dirrmtry share/texmf-dist/doc/generic/pmx
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
