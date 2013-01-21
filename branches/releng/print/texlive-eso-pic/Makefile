@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-eso-pic
-# Date created:		13/03/2010 04:53:19
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	eso-pic
 PORTVERSION=	20110225

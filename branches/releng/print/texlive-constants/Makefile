@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-constants
-# Date created:		13/03/2010 04:40:08
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	constants
 PORTVERSION=	20100610

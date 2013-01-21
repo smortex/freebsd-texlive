@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-footbib
-# Date created:		13/03/2010 04:23:31
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	footbib
 PORTVERSION=	20100610

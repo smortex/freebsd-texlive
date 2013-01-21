@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-colorsep
-# Date created:		13/03/2010 04:31:22
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	colorsep
 PORTVERSION=	20100610

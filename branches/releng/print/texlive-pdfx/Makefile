@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pdfx
-# Date created:		13/03/2010 04:47:09
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pdfx
 PORTVERSION=	20100610

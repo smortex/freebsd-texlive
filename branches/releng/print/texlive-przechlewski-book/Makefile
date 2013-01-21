@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-przechlewski-book
-# Date created:		08/16/2011 04:51:44
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	przechlewski-book
 PORTVERSION=	20110815

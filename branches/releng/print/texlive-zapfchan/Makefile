@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-zapfchan
-# Date created:		13/03/2010 04:30:27
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	zapfchan
 PORTVERSION=	20121222

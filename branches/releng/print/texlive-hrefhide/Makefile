@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hrefhide
-# Date created:		09/21/2010 11:48:02
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hrefhide
 PORTVERSION=	20110430

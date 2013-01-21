@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pkuthss
-# Date created:		10/15/2012 05:17:45
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pkuthss
 PORTVERSION=	20130119

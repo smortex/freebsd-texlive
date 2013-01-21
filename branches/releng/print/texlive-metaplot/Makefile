@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-metaplot
-# Date created:		13/03/2010 04:22:11
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	metaplot
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-farsi
-# Date created:		09/21/2010 11:40:54
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-farsi
 PORTVERSION=	20110623

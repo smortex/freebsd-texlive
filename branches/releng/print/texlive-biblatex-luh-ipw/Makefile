@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-biblatex-luh-ipw
-# Date created:		11/11/2011 04:43:44
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	biblatex-luh-ipw
 PORTVERSION=	20120113

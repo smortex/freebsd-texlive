@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-paper
-# Date created:		13/03/2010 04:46:47
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	paper
 PORTVERSION=	20120401

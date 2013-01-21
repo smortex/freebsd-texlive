@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-substr
-# Date created:		13/03/2010 04:49:35
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	substr
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-binextra
-# Date created:		13/03/2010 04:24:51
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-binextra
 PORTVERSION=	20121021

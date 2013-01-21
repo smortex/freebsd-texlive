@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-interactiveworkbook
-# Date created:		13/03/2010 04:43:44
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	interactiveworkbook
 PORTVERSION=	20100610

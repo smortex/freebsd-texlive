@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-perltex
-# Date created:		13/03/2010 04:47:11
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	perltex
 PORTVERSION=	20120515

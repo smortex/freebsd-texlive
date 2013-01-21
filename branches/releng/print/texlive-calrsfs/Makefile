@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-calrsfs
-# Date created:		13/03/2010 04:39:18
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	calrsfs
 PORTVERSION=	20100610

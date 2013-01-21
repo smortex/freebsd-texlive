@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-examdesign
-# Date created:		13/03/2010 04:42:11
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	examdesign
 PORTVERSION=	20100610

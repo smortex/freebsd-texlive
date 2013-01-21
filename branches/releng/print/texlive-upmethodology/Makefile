@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-upmethodology
-# Date created:		13/03/2010 04:51:04
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	upmethodology
 PORTVERSION=	20121007

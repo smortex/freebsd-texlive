@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-epiolmec
-# Date created:		13/03/2010 04:41:56
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	epiolmec
 PORTVERSION=	20100610

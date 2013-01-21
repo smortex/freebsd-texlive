@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-footnoterange
-# Date created:		02/21/2012 04:58:12
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	footnoterange
 PORTVERSION=	20120220

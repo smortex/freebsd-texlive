@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-authoraftertitle
-# Date created:		13/03/2010 04:38:47
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	authoraftertitle
 PORTVERSION=	20111219

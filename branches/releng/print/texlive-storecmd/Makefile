@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-storecmd
-# Date created:		10/20/2011 05:02:12
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	storecmd
 PORTVERSION=	20111029

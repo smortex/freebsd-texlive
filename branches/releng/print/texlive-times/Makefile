@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-times
-# Date created:		13/03/2010 04:30:16
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	times
 PORTVERSION=	20121222

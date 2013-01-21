@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ytableau
-# Date created:		11/08/2010 05:03:34
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ytableau
 PORTVERSION=	20120817

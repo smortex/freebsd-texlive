@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-verbments
-# Date created:		08/09/2011 05:05:19
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	verbments
 PORTVERSION=	20110825

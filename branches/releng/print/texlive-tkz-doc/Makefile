@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tkz-doc
-# Date created:		13/03/2010 04:52:52
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tkz-doc
 PORTVERSION=	20110614

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-symbol
-# Date created:		13/03/2010 04:30:15
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	symbol
 PORTVERSION=	20121222

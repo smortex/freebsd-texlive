@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-figsize
-# Date created:		13/03/2010 04:42:23
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	figsize
 PORTVERSION=	20100610

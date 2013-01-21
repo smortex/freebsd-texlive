@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-iwona
-# Date created:		13/03/2010 04:22:46
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	iwona
 PORTVERSION=	20100909

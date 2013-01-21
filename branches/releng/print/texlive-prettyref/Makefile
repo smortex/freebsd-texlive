@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-prettyref
-# Date created:		13/03/2010 04:47:32
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	prettyref
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-postcards
-# Date created:		13/03/2010 04:47:27
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	postcards
 PORTVERSION=	20110308

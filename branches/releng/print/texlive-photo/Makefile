@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-photo
-# Date created:		13/03/2010 04:47:15
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	photo
 PORTVERSION=	20100610

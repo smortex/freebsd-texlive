@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fnbreak
-# Date created:		13/03/2010 04:42:39
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fnbreak
 PORTVERSION=	20120104

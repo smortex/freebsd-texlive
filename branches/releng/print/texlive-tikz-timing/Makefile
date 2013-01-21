@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tikz-timing
-# Date created:		13/03/2010 04:52:51
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tikz-timing
 PORTVERSION=	20110111

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ecv
-# Date created:		13/03/2010 04:41:08
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ecv
 PORTVERSION=	20111224

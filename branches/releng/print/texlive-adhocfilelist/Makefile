@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-adhocfilelist
-# Date created:		10/22/2012 05:22:58
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	adhocfilelist
 PORTVERSION=	20130105

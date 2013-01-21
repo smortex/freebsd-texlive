@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cmpj
-# Date created:		04/18/2011 05:09:50
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cmpj
 PORTVERSION=	20130119

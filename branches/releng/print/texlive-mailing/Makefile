@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mailing
-# Date created:		13/03/2010 04:44:32
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mailing
 PORTVERSION=	20100610

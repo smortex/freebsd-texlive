@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-emarks
-# Date created:		11/11/2011 04:59:15
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	emarks
 PORTVERSION=	20111105

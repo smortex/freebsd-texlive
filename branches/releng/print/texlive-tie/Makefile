@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tie
-# Date created:		13/03/2010 04:24:31
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tie
 PORTVERSION=	20120529

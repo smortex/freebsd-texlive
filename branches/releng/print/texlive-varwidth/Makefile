@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-varwidth
-# Date created:		13/03/2010 04:51:10
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	varwidth
 PORTVERSION=	20110927

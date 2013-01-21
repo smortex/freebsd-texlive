@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-quotchap
-# Date created:		13/03/2010 04:47:51
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	quotchap
 PORTVERSION=	20121023

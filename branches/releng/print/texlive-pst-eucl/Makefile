@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-eucl
-# Date created:		13/03/2010 04:56:28
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-eucl
 PORTVERSION=	20130112

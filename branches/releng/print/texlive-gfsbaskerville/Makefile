@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-gfsbaskerville
-# Date created:		13/03/2010 04:36:40
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	gfsbaskerville
 PORTVERSION=	20100715

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-scheme-tetex
-# Date created:		13/03/2010 05:01:15
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	scheme-tetex
 PORTVERSION=	20110220

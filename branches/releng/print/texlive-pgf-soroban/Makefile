@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pgf-soroban
-# Date created:		13/03/2010 04:52:29
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pgf-soroban
 PORTVERSION=	20100610

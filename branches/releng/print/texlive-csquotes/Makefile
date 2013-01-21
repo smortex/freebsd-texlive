@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-csquotes
-# Date created:		13/03/2010 04:40:23
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	csquotes
 PORTVERSION=	20111026

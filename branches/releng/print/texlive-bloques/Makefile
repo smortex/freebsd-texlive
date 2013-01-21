@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bloques
-# Date created:		05/17/2011 04:53:25
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bloques
 PORTVERSION=	20110516

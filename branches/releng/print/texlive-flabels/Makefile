@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-flabels
-# Date created:		13/03/2010 04:42:28
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	flabels
 PORTVERSION=	20100610

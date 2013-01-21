@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-helvetic
-# Date created:		13/03/2010 04:30:05
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	helvetic
 PORTVERSION=	20121222

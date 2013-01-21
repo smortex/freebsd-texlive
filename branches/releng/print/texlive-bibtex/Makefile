@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bibtex
-# Date created:		13/03/2010 04:19:26
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bibtex
 PORTVERSION=	20120529

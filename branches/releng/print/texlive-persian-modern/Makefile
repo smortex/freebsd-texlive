@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-persian-modern
-# Date created:		08/29/2011 04:49:12
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	persian-modern
 PORTVERSION=	20110916

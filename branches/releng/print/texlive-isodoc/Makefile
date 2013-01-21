@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-isodoc
-# Date created:		13/03/2010 04:43:52
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	isodoc
 PORTVERSION=	20121016

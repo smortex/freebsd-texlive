@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tikz-3dplot
-# Date created:		13/03/2010 04:52:47
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tikz-3dplot
 PORTVERSION=	20120113

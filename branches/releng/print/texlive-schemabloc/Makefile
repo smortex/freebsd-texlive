@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-schemabloc
-# Date created:		13/03/2010 04:52:44
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	schemabloc
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-latexextra
-# Date created:		13/03/2010 04:53:03
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-latexextra
 PORTVERSION=	20130120

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-proba
-# Date created:		13/03/2010 04:54:47
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	proba
 PORTVERSION=	20100610

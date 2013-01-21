@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-3dplot
-# Date created:		13/03/2010 04:56:07
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-3dplot
 PORTVERSION=	20120730

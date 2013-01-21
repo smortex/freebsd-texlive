@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-skull
-# Date created:		13/03/2010 04:29:07
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	skull
 PORTVERSION=	20120312

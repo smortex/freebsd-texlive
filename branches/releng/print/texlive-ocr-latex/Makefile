@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ocr-latex
-# Date created:		13/03/2010 04:46:35
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ocr-latex
 PORTVERSION=	20100610

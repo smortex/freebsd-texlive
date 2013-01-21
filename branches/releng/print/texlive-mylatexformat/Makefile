@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mylatexformat
-# Date created:		05/01/2010 07:59:25
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mylatexformat
 PORTVERSION=	20110214

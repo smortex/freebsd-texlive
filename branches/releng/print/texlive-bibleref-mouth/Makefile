@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bibleref-mouth
-# Date created:		02/29/2012 04:50:29
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bibleref-mouth
 PORTVERSION=	20120228

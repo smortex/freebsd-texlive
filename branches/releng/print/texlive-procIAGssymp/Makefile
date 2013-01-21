@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-procIAGssymp
-# Date created:		13/03/2010 04:59:02
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	procIAGssymp
 PORTVERSION=	20100610

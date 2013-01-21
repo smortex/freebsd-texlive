@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-texconfig
-# Date created:		13/03/2010 04:19:58
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	texconfig
 PORTVERSION=	20120809

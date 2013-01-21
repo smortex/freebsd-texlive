@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-swimgraf
-# Date created:		02/23/2012 04:52:52
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	swimgraf
 PORTVERSION=	20120222

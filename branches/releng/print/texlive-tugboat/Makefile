@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tugboat
-# Date created:		13/03/2010 04:59:28
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tugboat
 PORTVERSION=	20121007

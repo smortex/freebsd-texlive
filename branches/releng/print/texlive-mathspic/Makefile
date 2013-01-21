@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mathspic
-# Date created:		09/21/2010 11:44:26
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mathspic
 PORTVERSION=	20120515

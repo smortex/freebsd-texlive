@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-gmdoc
-# Date created:		13/03/2010 04:43:10
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	gmdoc
 PORTVERSION=	20110205

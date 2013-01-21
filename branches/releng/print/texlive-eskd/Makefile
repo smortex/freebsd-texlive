@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-eskd
-# Date created:		13/03/2010 04:34:38
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	eskd
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-romansh
-# Date created:		04/15/2012 05:06:04
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	romansh
 PORTVERSION=	20120414

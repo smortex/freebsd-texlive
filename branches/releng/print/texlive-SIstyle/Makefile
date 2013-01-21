@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-SIstyle
-# Date created:		13/03/2010 04:59:43
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	SIstyle
 PORTVERSION=	20100610

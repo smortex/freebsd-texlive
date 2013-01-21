@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ms
-# Date created:		13/03/2010 04:53:48
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ms
 PORTVERSION=	20111103

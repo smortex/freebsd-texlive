@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ccaption
-# Date created:		13/03/2010 04:39:28
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ccaption
 PORTVERSION=	20110808

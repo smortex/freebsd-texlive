@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-xq
-# Date created:		13/03/2010 04:31:15
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	xq
 PORTVERSION=	20100610

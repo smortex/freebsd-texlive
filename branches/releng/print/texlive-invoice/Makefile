@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-invoice
-# Date created:		10/06/2011 05:09:50
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	invoice
 PORTVERSION=	20111005

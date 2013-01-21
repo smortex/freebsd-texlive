@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hepparticles
-# Date created:		13/03/2010 05:00:14
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hepparticles
 PORTVERSION=	20100610

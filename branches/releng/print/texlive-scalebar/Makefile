@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-scalebar
-# Date created:		13/03/2010 04:48:28
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	scalebar
 PORTVERSION=	20100610

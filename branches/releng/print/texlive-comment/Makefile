@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-comment
-# Date created:		13/03/2010 04:40:06
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	comment
 PORTVERSION=	20100610

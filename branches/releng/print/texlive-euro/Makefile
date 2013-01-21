@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-euro
-# Date created:		13/03/2010 04:29:59
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	euro
 PORTVERSION=	20110425

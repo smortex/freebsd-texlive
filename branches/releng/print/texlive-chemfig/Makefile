@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-chemfig
-# Date created:		09/21/2010 11:44:10
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	chemfig
 PORTVERSION=	20121118

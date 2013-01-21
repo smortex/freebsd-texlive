@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-sasnrdisplay
-# Date created:		12/03/2011 05:12:33
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sasnrdisplay
 PORTVERSION=	20120328

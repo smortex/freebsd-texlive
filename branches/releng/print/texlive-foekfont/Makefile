@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-foekfont
-# Date created:		13/03/2010 04:26:36
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	foekfont
 PORTVERSION=	20100610

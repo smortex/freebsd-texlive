@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-codepage
-# Date created:		13/03/2010 04:39:59
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	codepage
 PORTVERSION=	20110120

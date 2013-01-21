@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-commath
-# Date created:		13/03/2010 04:54:26
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	commath
 PORTVERSION=	20100610

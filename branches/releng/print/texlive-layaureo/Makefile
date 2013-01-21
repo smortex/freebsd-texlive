@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-layaureo
-# Date created:		09/21/2010 11:43:20
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	layaureo
 PORTVERSION=	20100621

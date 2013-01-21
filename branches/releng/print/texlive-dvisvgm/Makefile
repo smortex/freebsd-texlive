@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dvisvgm
-# Date created:		09/21/2010 11:35:51
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dvisvgm
 PORTVERSION=	20120611

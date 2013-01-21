@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bgteubner
-# Date created:		04/12/2012 05:12:41
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bgteubner
 PORTVERSION=	20120410

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-verbatimcopy
-# Date created:		13/03/2010 04:51:12
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	verbatimcopy
 PORTVERSION=	20100610

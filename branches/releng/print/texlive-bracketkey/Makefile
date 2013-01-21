@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bracketkey
-# Date created:		13/03/2010 04:39:11
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bracketkey
 PORTVERSION=	20100610

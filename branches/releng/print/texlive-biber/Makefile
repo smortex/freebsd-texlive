@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-biber
-# Date created:		03/09/2011 04:39:20
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	biber
 PORTVERSION=	20130112

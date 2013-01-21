@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-concepts
-# Date created:		12/10/2012 06:21:07
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	concepts
 PORTVERSION=	20130107

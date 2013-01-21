@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-blowup
-# Date created:		13/03/2010 04:39:03
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	blowup
 PORTVERSION=	20100610

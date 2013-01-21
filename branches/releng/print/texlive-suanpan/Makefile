@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-suanpan
-# Date created:		13/03/2010 04:22:25
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	suanpan
 PORTVERSION=	20100610

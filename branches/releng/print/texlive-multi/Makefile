@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-multi
-# Date created:		13/03/2010 04:31:33
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	multi
 PORTVERSION=	20100610

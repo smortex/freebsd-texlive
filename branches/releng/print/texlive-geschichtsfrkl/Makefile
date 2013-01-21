@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-geschichtsfrkl
-# Date created:		04/01/2012 04:41:23
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	geschichtsfrkl
 PORTVERSION=	20120410

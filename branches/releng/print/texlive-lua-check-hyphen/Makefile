@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-lua-check-hyphen
-# Date created:		08/02/2012 12:47:45
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	lua-check-hyphen
 PORTVERSION=	20120730

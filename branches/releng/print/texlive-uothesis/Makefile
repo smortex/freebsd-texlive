@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-uothesis
-# Date created:		01/08/2011 17:12:39
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	uothesis
 PORTVERSION=	20120211

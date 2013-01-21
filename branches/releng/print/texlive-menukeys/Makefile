@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-menukeys
-# Date created:		02/25/2012 05:01:38
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	menukeys
 PORTVERSION=	20120413

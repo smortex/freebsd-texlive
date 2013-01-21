@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-inversepath
-# Date created:		13/03/2010 04:43:45
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	inversepath
 PORTVERSION=	20100610

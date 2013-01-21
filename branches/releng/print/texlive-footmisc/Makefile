@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-footmisc
-# Date created:		13/03/2010 04:42:46
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	footmisc
 PORTVERSION=	20110803

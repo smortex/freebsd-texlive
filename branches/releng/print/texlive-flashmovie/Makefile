@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-flashmovie
-# Date created:		03/30/2012 04:58:44
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	flashmovie
 PORTVERSION=	20120329

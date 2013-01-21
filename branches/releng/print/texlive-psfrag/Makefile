@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-psfrag
-# Date created:		13/03/2010 04:53:58
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	psfrag
 PORTVERSION=	20100610

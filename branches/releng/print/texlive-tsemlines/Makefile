@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tsemlines
-# Date created:		08/09/2011 04:53:20
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tsemlines
 PORTVERSION=	20110808

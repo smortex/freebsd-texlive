@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-shipunov
-# Date created:		13/03/2010 04:48:51
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	shipunov
 PORTVERSION=	20111005

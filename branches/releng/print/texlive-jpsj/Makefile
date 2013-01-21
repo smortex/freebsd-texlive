@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-jpsj
-# Date created:		13/03/2010 04:58:42
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	jpsj
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ocr-b
-# Date created:		12/26/2010 04:40:12
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ocr-b
 PORTVERSION=	20101225

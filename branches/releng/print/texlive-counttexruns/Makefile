@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-counttexruns
-# Date created:		09/01/2012 05:02:26
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	counttexruns
 PORTVERSION=	20120903

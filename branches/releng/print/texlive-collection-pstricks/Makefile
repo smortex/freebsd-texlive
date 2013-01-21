@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-pstricks
-# Date created:		13/03/2010 04:57:53
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-pstricks
 PORTVERSION=	20130112

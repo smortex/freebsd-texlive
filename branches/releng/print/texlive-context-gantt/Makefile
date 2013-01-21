@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-context-gantt
-# Date created:		09/06/2011 04:40:54
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	context-gantt
 PORTVERSION=	20120821

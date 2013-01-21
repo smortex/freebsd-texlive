@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-usebib
-# Date created:		03/20/2012 04:43:51
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	usebib
 PORTVERSION=	20120415

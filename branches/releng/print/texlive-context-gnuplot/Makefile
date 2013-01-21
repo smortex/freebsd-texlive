@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-context-gnuplot
-# Date created:		13/03/2010 04:21:38
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	context-gnuplot
 PORTVERSION=	20120929

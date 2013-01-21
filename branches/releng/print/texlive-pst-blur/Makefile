@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-blur
-# Date created:		13/03/2010 04:56:16
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-blur
 PORTVERSION=	20100610

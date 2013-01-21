@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-fun
-# Date created:		13/03/2010 04:56:34
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-fun
 PORTVERSION=	20100610

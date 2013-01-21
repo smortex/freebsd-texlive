@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-breakcites
-# Date created:		13/03/2010 04:23:17
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	breakcites
 PORTVERSION=	20110111

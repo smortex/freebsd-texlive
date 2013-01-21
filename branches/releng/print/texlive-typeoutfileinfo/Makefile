@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-typeoutfileinfo
-# Date created:		03/16/2012 04:51:41
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	typeoutfileinfo
 PORTVERSION=	20120929

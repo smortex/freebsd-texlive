@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-drac
-# Date created:		13/03/2010 04:40:57
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	drac
 PORTVERSION=	20100610

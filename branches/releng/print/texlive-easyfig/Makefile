@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-easyfig
-# Date created:		11/11/2011 04:59:03
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	easyfig
 PORTVERSION=	20120516

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-microtype
-# Date created:		13/03/2010 04:53:47
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	microtype
 PORTVERSION=	20100610

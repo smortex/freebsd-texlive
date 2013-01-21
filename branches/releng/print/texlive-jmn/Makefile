@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-jmn
-# Date created:		13/03/2010 04:21:26
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	jmn
 PORTVERSION=	20110602

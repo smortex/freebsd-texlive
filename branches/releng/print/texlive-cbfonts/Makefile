@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cbfonts
-# Date created:		13/03/2010 04:35:44
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cbfonts
 PORTVERSION=	20101105

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-serbian
-# Date created:		09/21/2010 11:43:37
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-serbian
 PORTVERSION=	20120417

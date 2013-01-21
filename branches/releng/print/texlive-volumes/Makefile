@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-volumes
-# Date created:		13/03/2010 04:51:21
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	volumes
 PORTVERSION=	20100610

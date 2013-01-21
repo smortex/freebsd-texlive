@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cmsd
-# Date created:		13/03/2010 04:39:57
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cmsd
 PORTVERSION=	20100610

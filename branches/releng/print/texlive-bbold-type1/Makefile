@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bbold-type1
-# Date created:		11/23/2010 04:39:45
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bbold-type1
 PORTVERSION=	20101122

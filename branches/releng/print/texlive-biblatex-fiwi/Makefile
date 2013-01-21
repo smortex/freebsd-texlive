@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-biblatex-fiwi
-# Date created:		11/20/2011 04:39:01
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	biblatex-fiwi
 PORTVERSION=	20121211

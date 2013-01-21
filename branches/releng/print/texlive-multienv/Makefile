@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-multienv
-# Date created:		08/02/2012 12:41:43
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	multienv
 PORTVERSION=	20120522

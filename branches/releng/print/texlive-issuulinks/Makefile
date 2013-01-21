@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-issuulinks
-# Date created:		03/01/2012 05:04:50
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	issuulinks
 PORTVERSION=	20120326

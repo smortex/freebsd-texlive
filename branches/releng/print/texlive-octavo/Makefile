@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-octavo
-# Date created:		13/03/2010 04:46:36
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	octavo
 PORTVERSION=	20100610

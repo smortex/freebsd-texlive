@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cellspace
-# Date created:		13/03/2010 04:39:40
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cellspace
 PORTVERSION=	20100610

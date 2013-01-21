@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-aleph
-# Date created:		13/03/2010 04:55:34
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	aleph
 PORTVERSION=	20120529

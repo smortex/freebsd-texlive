@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fncylab
-# Date created:		13/03/2010 04:42:42
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fncylab
 PORTVERSION=	20100610

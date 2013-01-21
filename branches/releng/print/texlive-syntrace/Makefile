@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-syntrace
-# Date created:		13/03/2010 04:49:45
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	syntrace
 PORTVERSION=	20100610

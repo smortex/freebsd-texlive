@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-omega
-# Date created:		13/03/2010 04:55:37
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-omega
 PORTVERSION=	20120404

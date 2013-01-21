@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fntproof
-# Date created:		12/04/2010 04:42:28
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fntproof
 PORTVERSION=	20101203

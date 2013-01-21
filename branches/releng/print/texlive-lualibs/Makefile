@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-lualibs
-# Date created:		09/21/2010 11:53:48
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	lualibs
 PORTVERSION=	20110123

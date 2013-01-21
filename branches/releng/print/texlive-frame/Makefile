@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-frame
-# Date created:		09/21/2010 11:47:37
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	frame
 PORTVERSION=	20100610

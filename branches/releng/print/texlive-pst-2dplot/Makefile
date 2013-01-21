@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-2dplot
-# Date created:		13/03/2010 04:56:05
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-2dplot
 PORTVERSION=	20100610

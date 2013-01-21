@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-langnorwegian
-# Date created:		13/03/2010 04:37:29
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-langnorwegian
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-flowfram
-# Date created:		13/03/2010 04:42:35
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	flowfram
 PORTVERSION=	20121113

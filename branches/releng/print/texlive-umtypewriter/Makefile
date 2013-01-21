@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-umtypewriter
-# Date created:		13/03/2010 04:29:16
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	umtypewriter
 PORTVERSION=	20100610

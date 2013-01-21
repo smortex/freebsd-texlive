@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dhua
-# Date created:		09/19/2011 04:49:06
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dhua
 PORTVERSION=	20110921

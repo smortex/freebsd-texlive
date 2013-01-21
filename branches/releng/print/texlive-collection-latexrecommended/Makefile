@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-latexrecommended
-# Date created:		13/03/2010 04:54:10
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-latexrecommended
 PORTVERSION=	20120331

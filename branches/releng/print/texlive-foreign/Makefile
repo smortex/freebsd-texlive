@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-foreign
-# Date created:		08/02/2012 12:38:25
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	foreign
 PORTVERSION=	20120927

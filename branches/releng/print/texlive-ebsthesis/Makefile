@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ebsthesis
-# Date created:		13/03/2010 04:58:21
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ebsthesis
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-mongolian
-# Date created:		09/21/2010 11:43:25
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-mongolian
 PORTVERSION=	20120417

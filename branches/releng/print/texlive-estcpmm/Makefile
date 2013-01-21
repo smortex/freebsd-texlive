@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-estcpmm
-# Date created:		13/03/2010 04:58:28
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	estcpmm
 PORTVERSION=	20100610

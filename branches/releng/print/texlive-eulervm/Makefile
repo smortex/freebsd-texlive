@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-eulervm
-# Date created:		13/03/2010 04:26:32
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	eulervm
 PORTVERSION=	20100610

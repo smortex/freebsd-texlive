@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-advdate
-# Date created:		13/03/2010 04:38:33
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	advdate
 PORTVERSION=	20101123

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-makecmds
-# Date created:		13/03/2010 04:44:38
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	makecmds
 PORTVERSION=	20100610

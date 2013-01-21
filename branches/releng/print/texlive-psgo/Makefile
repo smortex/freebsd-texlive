@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-psgo
-# Date created:		13/03/2010 04:31:10
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	psgo
 PORTVERSION=	20100610

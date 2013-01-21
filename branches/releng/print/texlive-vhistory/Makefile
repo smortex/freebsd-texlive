@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-vhistory
-# Date created:		13/03/2010 04:51:17
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	vhistory
 PORTVERSION=	20100927

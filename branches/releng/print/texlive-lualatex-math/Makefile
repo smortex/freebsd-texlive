@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-lualatex-math
-# Date created:		05/10/2011 05:04:55
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	lualatex-math
 PORTVERSION=	20121028

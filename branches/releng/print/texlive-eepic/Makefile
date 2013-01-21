@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-eepic
-# Date created:		13/03/2010 04:52:11
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	eepic
 PORTVERSION=	20100610

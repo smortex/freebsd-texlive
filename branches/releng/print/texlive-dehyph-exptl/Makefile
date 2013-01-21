@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dehyph-exptl
-# Date created:		13/03/2010 04:35:31
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dehyph-exptl
 PORTVERSION=	20120609

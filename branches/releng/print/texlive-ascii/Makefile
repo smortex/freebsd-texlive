@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ascii
-# Date created:		13/03/2010 04:25:32
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ascii
 PORTVERSION=	20100610

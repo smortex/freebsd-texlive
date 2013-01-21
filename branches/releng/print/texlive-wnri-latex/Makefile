@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-wnri-latex
-# Date created:		05/10/2011 04:49:16
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	wnri-latex
 PORTVERSION=	20110507

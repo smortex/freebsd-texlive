@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-geometry
-# Date created:		13/03/2010 04:20:24
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	geometry
 PORTVERSION=	20100914

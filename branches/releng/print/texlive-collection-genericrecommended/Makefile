@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-genericrecommended
-# Date created:		13/03/2010 04:31:57
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-genericrecommended
 PORTVERSION=	20100923

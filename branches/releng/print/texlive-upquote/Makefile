@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-upquote
-# Date created:		13/03/2010 04:51:05
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	upquote
 PORTVERSION=	20120420

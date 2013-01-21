@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-polyglossia
-# Date created:		13/03/2010 05:00:51
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	polyglossia
 PORTVERSION=	20120501

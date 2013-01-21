@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cutwin
-# Date created:		10/06/2010 04:50:20
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cutwin
 PORTVERSION=	20101006

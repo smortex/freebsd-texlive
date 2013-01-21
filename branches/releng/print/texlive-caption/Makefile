@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-caption
-# Date created:		13/03/2010 04:53:10
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	caption
 PORTVERSION=	20130109

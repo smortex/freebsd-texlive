@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-esperanto
-# Date created:		09/21/2010 11:43:33
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-esperanto
 PORTVERSION=	20110623

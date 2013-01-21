@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-texdef
-# Date created:		03/24/2011 04:42:35
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	texdef
 PORTVERSION=	20120516

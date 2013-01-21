@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-graphics-pln
-# Date created:		13/03/2010 04:55:43
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	graphics-pln
 PORTVERSION=	20100610

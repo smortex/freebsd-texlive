@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-sourcecodepro
-# Date created:		11/04/2012 04:51:31
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sourcecodepro
 PORTVERSION=	20130119

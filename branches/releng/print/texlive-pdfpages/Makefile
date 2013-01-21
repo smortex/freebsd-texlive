@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pdfpages
-# Date created:		13/03/2010 04:53:54
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pdfpages
 PORTVERSION=	20120903

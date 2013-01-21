@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ticket
-# Date created:		13/03/2010 04:50:23
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ticket
 PORTVERSION=	20101208

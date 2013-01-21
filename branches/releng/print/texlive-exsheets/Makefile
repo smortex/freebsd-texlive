@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-exsheets
-# Date created:		10/15/2012 05:03:29
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	exsheets
 PORTVERSION=	20130108

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hepnames
-# Date created:		13/03/2010 05:00:13
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hepnames
 PORTVERSION=	20100610

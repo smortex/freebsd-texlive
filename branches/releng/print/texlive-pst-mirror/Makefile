@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-mirror
-# Date created:		13/03/2010 04:57:08
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-mirror
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-langgreek
-# Date created:		13/03/2010 04:36:58
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-langgreek
 PORTVERSION=	20120509

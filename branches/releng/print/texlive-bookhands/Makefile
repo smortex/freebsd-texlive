@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bookhands
-# Date created:		13/03/2010 04:25:50
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bookhands
 PORTVERSION=	20110820

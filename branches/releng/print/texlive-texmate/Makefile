@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-texmate
-# Date created:		13/03/2010 04:50:07
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	texmate
 PORTVERSION=	20100610

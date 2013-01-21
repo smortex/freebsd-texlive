@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-verbdef
-# Date created:		13/03/2010 04:51:13
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	verbdef
 PORTVERSION=	20100610

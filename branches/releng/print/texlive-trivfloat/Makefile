@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-trivfloat
-# Date created:		13/03/2010 04:50:47
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	trivfloat
 PORTVERSION=	20100610

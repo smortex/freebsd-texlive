@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bbm
-# Date created:		13/03/2010 04:25:42
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bbm
 PORTVERSION=	20100610

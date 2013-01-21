@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mltex
-# Date created:		13/03/2010 04:30:49
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mltex
 PORTVERSION=	20110531

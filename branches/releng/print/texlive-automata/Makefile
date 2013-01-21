@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-automata
-# Date created:		13/03/2010 04:21:50
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	automata
 PORTVERSION=	20100914

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-asymptote
-# Date created:		13/03/2010 04:23:53
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	asymptote
 PORTVERSION=	20120609

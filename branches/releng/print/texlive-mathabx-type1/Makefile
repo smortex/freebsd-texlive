@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mathabx-type1
-# Date created:		01/13/2011 04:41:57
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mathabx-type1
 PORTVERSION=	20110120

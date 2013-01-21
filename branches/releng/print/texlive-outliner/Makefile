@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-outliner
-# Date created:		13/03/2010 04:46:41
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	outliner
 PORTVERSION=	20110117

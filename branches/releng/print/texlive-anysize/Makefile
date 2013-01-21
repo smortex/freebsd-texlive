@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-anysize
-# Date created:		13/03/2010 04:53:05
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	anysize
 PORTVERSION=	20100610

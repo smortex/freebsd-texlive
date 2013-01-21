@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ctie
-# Date created:		13/03/2010 04:23:57
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ctie
 PORTVERSION=	20120529

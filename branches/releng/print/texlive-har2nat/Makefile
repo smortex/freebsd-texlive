@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-har2nat
-# Date created:		13/03/2010 04:58:33
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	har2nat
 PORTVERSION=	20100610

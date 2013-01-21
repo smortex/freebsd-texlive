@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-subeqnarray
-# Date created:		13/03/2010 04:49:32
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	subeqnarray
 PORTVERSION=	20100610

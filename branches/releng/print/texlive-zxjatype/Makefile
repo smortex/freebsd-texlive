@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-zxjatype
-# Date created:		12/16/2012 07:16:48
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	zxjatype
 PORTVERSION=	20121216

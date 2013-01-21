@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-zxjafont
-# Date created:		12/16/2012 07:16:47
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	zxjafont
 PORTVERSION=	20121216

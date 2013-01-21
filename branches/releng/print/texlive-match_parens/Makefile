@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-match_parens
-# Date created:		08/13/2011 04:42:14
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	match_parens
 PORTVERSION=	20120515

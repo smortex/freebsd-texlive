@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ebgaramond
-# Date created:		12/22/2012 04:44:59
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ebgaramond
 PORTVERSION=	20130102

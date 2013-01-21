@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-sepfootnotes
-# Date created:		03/08/2012 05:05:26
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sepfootnotes
 PORTVERSION=	20120307

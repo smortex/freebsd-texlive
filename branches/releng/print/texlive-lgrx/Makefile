@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-lgrx
-# Date created:		05/10/2012 04:52:33
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	lgrx
 PORTVERSION=	20120712

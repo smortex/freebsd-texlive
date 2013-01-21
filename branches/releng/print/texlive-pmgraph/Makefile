@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pmgraph
-# Date created:		13/03/2010 04:52:42
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pmgraph
 PORTVERSION=	20100610

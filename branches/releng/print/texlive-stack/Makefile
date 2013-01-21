@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-stack
-# Date created:		13/03/2010 04:49:21
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	stack
 PORTVERSION=	20100610

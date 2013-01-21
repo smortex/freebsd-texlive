@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-imakeidx
-# Date created:		09/21/2010 11:48:10
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	imakeidx
 PORTVERSION=	20121113

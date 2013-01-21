@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-egplot
-# Date created:		13/03/2010 04:41:29
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	egplot
 PORTVERSION=	20101201

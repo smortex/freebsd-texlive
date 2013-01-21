@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-randtext
-# Date created:		13/03/2010 04:47:55
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	randtext
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-siunitx
-# Date created:		13/03/2010 05:00:28
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	siunitx
 PORTVERSION=	20130110

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-embrac
-# Date created:		08/02/2012 12:37:04
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	embrac
 PORTVERSION=	20121105

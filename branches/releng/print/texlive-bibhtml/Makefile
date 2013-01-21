@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bibhtml
-# Date created:		13/03/2010 04:23:03
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bibhtml
 PORTVERSION=	20100610

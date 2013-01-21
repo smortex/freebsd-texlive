@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-arabi
-# Date created:		13/03/2010 04:33:03
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	arabi
 PORTVERSION=	20120113

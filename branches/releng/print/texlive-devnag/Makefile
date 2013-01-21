@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-devnag
-# Date created:		13/03/2010 04:37:15
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	devnag
 PORTVERSION=	20120515

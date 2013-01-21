@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-envbig
-# Date created:		13/03/2010 04:41:52
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	envbig
 PORTVERSION=	20100610

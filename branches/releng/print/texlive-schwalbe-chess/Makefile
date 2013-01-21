@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-schwalbe-chess
-# Date created:		08/11/2011 04:46:33
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	schwalbe-chess
 PORTVERSION=	20120505

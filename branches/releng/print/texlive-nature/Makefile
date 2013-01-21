@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-nature
-# Date created:		13/03/2010 04:58:50
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	nature
 PORTVERSION=	20110325

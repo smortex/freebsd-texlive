@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-chinese
-# Date created:		09/21/2010 11:41:30
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-chinese
 PORTVERSION=	20120417

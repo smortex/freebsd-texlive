@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mxedruli
-# Date created:		13/03/2010 04:55:33
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mxedruli
 PORTVERSION=	20100610

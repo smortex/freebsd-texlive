@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-interpreter
-# Date created:		08/03/2011 05:05:53
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	interpreter
 PORTVERSION=	20120730

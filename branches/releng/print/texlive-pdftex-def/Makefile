@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pdftex-def
-# Date created:		13/03/2010 04:20:52
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pdftex-def
 PORTVERSION=	20110531

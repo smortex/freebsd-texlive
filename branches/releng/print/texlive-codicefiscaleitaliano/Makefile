@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-codicefiscaleitaliano
-# Date created:		05/06/2012 04:52:45
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	codicefiscaleitaliano
 PORTVERSION=	20120507

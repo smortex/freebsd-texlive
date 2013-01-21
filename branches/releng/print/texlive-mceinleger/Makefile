@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mceinleger
-# Date created:		13/03/2010 04:44:49
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mceinleger
 PORTVERSION=	20100610

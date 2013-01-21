@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-colourchange
-# Date created:		03/19/2011 04:52:50
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	colourchange
 PORTVERSION=	20110317

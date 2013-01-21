@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-glossaries
-# Date created:		13/03/2010 04:43:09
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	glossaries
 PORTVERSION=	20121120

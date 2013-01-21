@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-notes2bib
-# Date created:		13/03/2010 04:23:44
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	notes2bib
 PORTVERSION=	20121108

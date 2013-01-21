@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-sansmathaccent
-# Date created:		05/06/2012 04:47:16
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sansmathaccent
 PORTVERSION=	20120505

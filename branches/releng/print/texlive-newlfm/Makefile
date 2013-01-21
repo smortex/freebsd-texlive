@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-newlfm
-# Date created:		13/03/2010 04:46:16
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	newlfm
 PORTVERSION=	20100610

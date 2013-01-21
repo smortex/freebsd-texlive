@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-realscripts
-# Date created:		09/21/2010 11:54:08
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	realscripts
 PORTVERSION=	20101003

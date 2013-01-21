@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ptext
-# Date created:		11/02/2012 05:24:38
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ptext
 PORTVERSION=	20121031

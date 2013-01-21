@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bbold
-# Date created:		13/03/2010 04:25:44
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bbold
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-srcltx
-# Date created:		13/03/2010 04:49:19
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	srcltx
 PORTVERSION=	20100610

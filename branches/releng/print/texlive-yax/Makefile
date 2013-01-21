@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-yax
-# Date created:		09/21/2010 11:40:06
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	yax
 PORTVERSION=	20110127

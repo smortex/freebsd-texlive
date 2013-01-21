@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-threadcol
-# Date created:		01/08/2013 04:58:27
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	threadcol
 PORTVERSION=	20130107

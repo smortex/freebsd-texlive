@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-gene-logic
-# Date created:		13/03/2010 05:00:09
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	gene-logic
 PORTVERSION=	20100610

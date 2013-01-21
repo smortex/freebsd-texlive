@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-gantt
-# Date created:		13/03/2010 04:56:38
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-gantt
 PORTVERSION=	20100610

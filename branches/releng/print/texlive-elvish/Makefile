@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-elvish
-# Date created:		13/03/2010 04:26:28
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	elvish
 PORTVERSION=	20100610

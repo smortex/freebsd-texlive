@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-extsizes
-# Date created:		13/03/2010 04:53:22
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	extsizes
 PORTVERSION=	20100610

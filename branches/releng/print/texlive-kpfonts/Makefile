@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-kpfonts
-# Date created:		13/03/2010 04:27:18
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	kpfonts
 PORTVERSION=	20110405

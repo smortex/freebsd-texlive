@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-courseoutline
-# Date created:		13/03/2010 04:40:18
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	courseoutline
 PORTVERSION=	20100610

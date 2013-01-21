@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-abraces
-# Date created:		10/06/2012 04:57:11
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	abraces
 PORTVERSION=	20121005

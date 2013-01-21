@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dvipdfm
-# Date created:		13/03/2010 04:19:29
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dvipdfm
 PORTVERSION=	20120529

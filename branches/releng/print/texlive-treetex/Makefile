@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-treetex
-# Date created:		13/03/2010 04:55:51
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	treetex
 PORTVERSION=	20121105

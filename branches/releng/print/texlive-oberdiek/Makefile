@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-oberdiek
-# Date created:		13/03/2010 04:20:40
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	oberdiek
 PORTVERSION=	20120530

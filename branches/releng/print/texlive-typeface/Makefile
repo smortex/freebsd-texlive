@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-typeface
-# Date created:		08/02/2012 12:46:32
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	typeface
 PORTVERSION=	20120716

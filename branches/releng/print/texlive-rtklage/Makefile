@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-rtklage
-# Date created:		13/03/2010 04:32:42
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	rtklage
 PORTVERSION=	20100610

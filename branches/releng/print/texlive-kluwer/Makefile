@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-kluwer
-# Date created:		13/03/2010 04:58:43
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	kluwer
 PORTVERSION=	20100610

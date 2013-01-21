@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bigints
-# Date created:		13/03/2010 04:38:58
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bigints
 PORTVERSION=	20100610

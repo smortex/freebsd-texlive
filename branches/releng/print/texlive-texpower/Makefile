@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-texpower
-# Date created:		13/03/2010 04:50:09
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	texpower
 PORTVERSION=	20100610

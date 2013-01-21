@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-italian
-# Date created:		09/21/2010 11:43:17
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-italian
 PORTVERSION=	20120417

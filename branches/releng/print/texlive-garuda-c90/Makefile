@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-garuda-c90
-# Date created:		13/03/2010 04:33:31
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	garuda-c90
 PORTVERSION=	20100610

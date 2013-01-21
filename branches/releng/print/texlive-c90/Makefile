@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-c90
-# Date created:		13/03/2010 04:33:27
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	c90
 PORTVERSION=	20100610

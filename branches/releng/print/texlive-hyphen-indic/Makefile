@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-indic
-# Date created:		09/21/2010 11:43:08
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-indic
 PORTVERSION=	20120417

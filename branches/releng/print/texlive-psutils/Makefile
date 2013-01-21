@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-psutils
-# Date created:		13/03/2010 04:30:37
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	psutils
 PORTVERSION=	20120529

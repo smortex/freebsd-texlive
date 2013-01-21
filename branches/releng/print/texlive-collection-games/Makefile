@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-games
-# Date created:		13/03/2010 04:31:17
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-games
 PORTVERSION=	20120414

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-langother
-# Date created:		13/03/2010 04:37:30
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-langother
 PORTVERSION=	20120524

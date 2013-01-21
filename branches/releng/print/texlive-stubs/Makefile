@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-stubs
-# Date created:		13/03/2010 04:49:29
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	stubs
 PORTVERSION=	20100715

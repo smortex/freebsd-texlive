@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ifoddpage
-# Date created:		09/18/2011 04:57:26
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ifoddpage
 PORTVERSION=	20110917

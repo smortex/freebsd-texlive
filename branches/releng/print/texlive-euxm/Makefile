@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-euxm
-# Date created:		13/03/2010 04:26:33
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	euxm
 PORTVERSION=	20101026

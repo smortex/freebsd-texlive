@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dpfloat
-# Date created:		13/03/2010 04:40:55
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dpfloat
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ocherokee
-# Date created:		13/03/2010 04:28:50
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ocherokee
 PORTVERSION=	20120319

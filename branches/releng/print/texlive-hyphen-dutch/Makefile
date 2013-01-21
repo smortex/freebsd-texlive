@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-dutch
-# Date created:		09/21/2010 11:42:12
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-dutch
 PORTVERSION=	20120417

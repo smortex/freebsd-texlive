@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bhcexam
-# Date created:		08/03/2011 04:53:12
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bhcexam
 PORTVERSION=	20110802

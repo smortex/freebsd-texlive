@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-titlesec
-# Date created:		13/03/2010 04:50:28
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	titlesec
 PORTVERSION=	20111218

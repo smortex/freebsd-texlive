@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bchart
-# Date created:		11/24/2011 04:53:14
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bchart
 PORTVERSION=	20120823

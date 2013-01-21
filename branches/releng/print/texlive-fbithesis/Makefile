@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fbithesis
-# Date created:		02/09/2011 05:07:00
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fbithesis
 PORTVERSION=	20110208

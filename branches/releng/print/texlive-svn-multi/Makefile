@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-svn-multi
-# Date created:		13/03/2010 04:49:39
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	svn-multi
 PORTVERSION=	20120515

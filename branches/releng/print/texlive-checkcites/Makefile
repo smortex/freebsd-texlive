@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-checkcites
-# Date created:		03/14/2012 05:21:40
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	checkcites
 PORTVERSION=	20121219

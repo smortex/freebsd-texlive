@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-texworks
-# Date created:		13/03/2010 05:00:41
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-texworks
 PORTVERSION=	20120320

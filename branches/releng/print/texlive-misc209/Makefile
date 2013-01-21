@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-misc209
-# Date created:		13/03/2010 04:45:48
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	misc209
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cleveref
-# Date created:		13/03/2010 04:39:54
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cleveref
 PORTVERSION=	20120926

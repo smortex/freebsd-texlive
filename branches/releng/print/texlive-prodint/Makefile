@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-prodint
-# Date created:		04/01/2011 04:44:50
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	prodint
 PORTVERSION=	20110331

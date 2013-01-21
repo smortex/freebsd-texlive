@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bbm-macros
-# Date created:		13/03/2010 04:25:43
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bbm-macros
 PORTVERSION=	20100610

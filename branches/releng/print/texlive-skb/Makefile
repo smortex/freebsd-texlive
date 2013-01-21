@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-skb
-# Date created:		09/24/2010 04:57:00
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	skb
 PORTVERSION=	20110605

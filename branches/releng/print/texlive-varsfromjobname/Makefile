@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-varsfromjobname
-# Date created:		13/03/2010 04:51:09
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	varsfromjobname
 PORTVERSION=	20100610

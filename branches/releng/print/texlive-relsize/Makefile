@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-relsize
-# Date created:		13/03/2010 04:48:10
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	relsize
 PORTVERSION=	20110924

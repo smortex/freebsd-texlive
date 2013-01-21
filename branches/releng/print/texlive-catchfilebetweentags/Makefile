@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-catchfilebetweentags
-# Date created:		10/26/2010 04:49:41
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	catchfilebetweentags
 PORTVERSION=	20110220

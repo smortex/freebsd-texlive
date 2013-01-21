@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-polynomial
-# Date created:		13/03/2010 04:47:22
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	polynomial
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-inputtrc
-# Date created:		10/10/2010 04:53:12
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	inputtrc
 PORTVERSION=	20121019

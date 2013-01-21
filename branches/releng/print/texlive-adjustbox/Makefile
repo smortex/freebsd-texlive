@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-adjustbox
-# Date created:		01/30/2011 04:50:02
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	adjustbox
 PORTVERSION=	20120522

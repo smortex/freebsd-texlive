@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-vntex
-# Date created:		13/03/2010 04:38:08
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	vntex
 PORTVERSION=	20110604

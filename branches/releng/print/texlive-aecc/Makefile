@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-aecc
-# Date created:		12/20/2012 04:48:38
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	aecc
 PORTVERSION=	20121219

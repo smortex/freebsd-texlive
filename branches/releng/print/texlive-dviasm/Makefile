@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dviasm
-# Date created:		13/03/2010 04:24:03
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dviasm
 PORTVERSION=	20120515

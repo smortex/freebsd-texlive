@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-makedtx
-# Date created:		13/03/2010 04:44:39
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	makedtx
 PORTVERSION=	20100610

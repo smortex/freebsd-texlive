@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fontaxes
-# Date created:		09/21/2011 04:57:54
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fontaxes
 PORTVERSION=	20111220

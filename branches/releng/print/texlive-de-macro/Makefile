@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-de-macro
-# Date created:		13/03/2010 04:23:59
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	de-macro
 PORTVERSION=	20120515

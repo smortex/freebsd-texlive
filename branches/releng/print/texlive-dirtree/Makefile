@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dirtree
-# Date created:		13/03/2010 04:31:24
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dirtree
 PORTVERSION=	20121214

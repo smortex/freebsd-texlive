@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-acroterm
-# Date created:		11/21/2010 04:49:00
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	acroterm
 PORTVERSION=	20101120

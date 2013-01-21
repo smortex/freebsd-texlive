@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-jfontmaps
-# Date created:		02/03/2012 04:51:09
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	jfontmaps
 PORTVERSION=	20120921

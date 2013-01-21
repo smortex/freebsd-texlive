@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-preprint
-# Date created:		13/03/2010 04:47:31
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	preprint
 PORTVERSION=	20100610

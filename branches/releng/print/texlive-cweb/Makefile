@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cweb
-# Date created:		13/03/2010 04:23:58
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cweb
 PORTVERSION=	20120529

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tkz-base
-# Date created:		07/21/2011 05:02:08
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tkz-base
 PORTVERSION=	20110614

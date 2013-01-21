@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-loops
-# Date created:		10/08/2012 05:09:15
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	loops
 PORTVERSION=	20121107

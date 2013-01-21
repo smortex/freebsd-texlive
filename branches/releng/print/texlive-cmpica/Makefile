@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cmpica
-# Date created:		13/03/2010 04:26:05
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cmpica
 PORTVERSION=	20100610

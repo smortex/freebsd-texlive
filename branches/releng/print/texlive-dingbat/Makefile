@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dingbat
-# Date created:		13/03/2010 04:26:14
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dingbat
 PORTVERSION=	20121010

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-alg
-# Date created:		13/03/2010 04:59:45
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	alg
 PORTVERSION=	20100610

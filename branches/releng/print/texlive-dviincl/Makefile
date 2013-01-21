@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dviincl
-# Date created:		13/03/2010 04:21:56
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dviincl
 PORTVERSION=	20100610

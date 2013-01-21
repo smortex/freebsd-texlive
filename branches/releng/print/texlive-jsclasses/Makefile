@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-jsclasses
-# Date created:		09/21/2010 11:41:30
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	jsclasses
 PORTVERSION=	20100610

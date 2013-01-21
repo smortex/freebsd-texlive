@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-japanese-otf
-# Date created:		11/04/2011 04:48:12
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	japanese-otf
 PORTVERSION=	20120413

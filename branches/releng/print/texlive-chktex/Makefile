@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-chktex
-# Date created:		09/21/2010 11:35:43
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	chktex
 PORTVERSION=	20120529

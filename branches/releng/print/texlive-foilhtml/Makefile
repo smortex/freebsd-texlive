@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-foilhtml
-# Date created:		13/03/2010 04:42:44
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	foilhtml
 PORTVERSION=	20110328

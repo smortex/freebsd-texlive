@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mcaption
-# Date created:		13/03/2010 04:44:48
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mcaption
 PORTVERSION=	20100610

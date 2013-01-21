@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-refcheck
-# Date created:		13/03/2010 04:48:04
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	refcheck
 PORTVERSION=	20110117

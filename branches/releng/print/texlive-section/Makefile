@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-section
-# Date created:		10/25/2010 05:02:25
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	section
 PORTVERSION=	20101025

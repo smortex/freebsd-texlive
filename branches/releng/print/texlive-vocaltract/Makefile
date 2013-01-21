@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-vocaltract
-# Date created:		03/15/2012 05:16:41
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	vocaltract
 PORTVERSION=	20120314

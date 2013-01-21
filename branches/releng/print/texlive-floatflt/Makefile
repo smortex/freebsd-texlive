@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-floatflt
-# Date created:		08/09/2011 04:57:28
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	floatflt
 PORTVERSION=	20120301

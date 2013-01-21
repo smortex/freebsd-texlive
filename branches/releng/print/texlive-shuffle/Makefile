@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-shuffle
-# Date created:		13/03/2010 04:54:48
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	shuffle
 PORTVERSION=	20100610

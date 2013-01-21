@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fontbook
-# Date created:		08/03/2011 05:11:08
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fontbook
 PORTVERSION=	20110820

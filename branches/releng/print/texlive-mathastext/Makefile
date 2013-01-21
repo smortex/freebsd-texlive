@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mathastext
-# Date created:		01/30/2011 04:57:10
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mathastext
 PORTVERSION=	20130112

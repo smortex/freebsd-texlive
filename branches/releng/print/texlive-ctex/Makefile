@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ctex
-# Date created:		13/03/2010 04:34:06
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ctex
 PORTVERSION=	20110516

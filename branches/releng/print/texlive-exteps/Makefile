@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-exteps
-# Date created:		13/03/2010 04:22:01
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	exteps
 PORTVERSION=	20100924

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-augie
-# Date created:		13/03/2010 04:25:35
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	augie
 PORTVERSION=	20100614

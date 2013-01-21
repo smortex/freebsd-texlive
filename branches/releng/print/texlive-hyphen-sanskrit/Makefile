@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-sanskrit
-# Date created:		09/21/2010 11:43:09
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-sanskrit
 PORTVERSION=	20121214

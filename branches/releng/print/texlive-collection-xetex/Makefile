@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-xetex
-# Date created:		13/03/2010 05:01:05
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-xetex
 PORTVERSION=	20130116

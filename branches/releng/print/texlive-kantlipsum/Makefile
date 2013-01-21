@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-kantlipsum
-# Date created:		11/26/2011 04:59:16
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	kantlipsum
 PORTVERSION=	20121018

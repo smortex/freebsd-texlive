@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-chickenize
-# Date created:		08/02/2012 12:47:43
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	chickenize
 PORTVERSION=	20120919

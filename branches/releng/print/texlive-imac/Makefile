@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-imac
-# Date created:		13/03/2010 04:58:39
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	imac
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-gustlib
-# Date created:		13/03/2010 04:37:32
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	gustlib
 PORTVERSION=	20100610

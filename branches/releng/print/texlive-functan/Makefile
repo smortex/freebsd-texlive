@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-functan
-# Date created:		13/03/2010 05:00:06
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	functan
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-crop
-# Date created:		13/03/2010 04:53:16
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	crop
 PORTVERSION=	20100610

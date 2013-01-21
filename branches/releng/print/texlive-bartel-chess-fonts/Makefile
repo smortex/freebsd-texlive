@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bartel-chess-fonts
-# Date created:		11/30/2010 04:43:17
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bartel-chess-fonts
 PORTVERSION=	20101201

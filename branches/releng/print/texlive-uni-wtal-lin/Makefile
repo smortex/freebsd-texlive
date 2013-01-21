@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-uni-wtal-lin
-# Date created:		01/05/2013 04:44:03
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	uni-wtal-lin
 PORTVERSION=	20130104

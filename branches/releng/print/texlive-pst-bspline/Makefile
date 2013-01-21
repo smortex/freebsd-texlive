@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-bspline
-# Date created:		13/03/2010 04:56:17
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-bspline
 PORTVERSION=	20120309

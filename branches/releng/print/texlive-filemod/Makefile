@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-filemod
-# Date created:		03/25/2011 04:56:42
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	filemod
 PORTVERSION=	20110921

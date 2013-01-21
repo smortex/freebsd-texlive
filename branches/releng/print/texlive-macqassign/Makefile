@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-macqassign
-# Date created:		13/03/2010 04:58:46
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	macqassign
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-physics
-# Date created:		10/20/2012 05:16:36
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	physics
 PORTVERSION=	20121221

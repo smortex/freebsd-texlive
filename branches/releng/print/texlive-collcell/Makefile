@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collcell
-# Date created:		02/06/2011 04:52:30
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collcell
 PORTVERSION=	20110228

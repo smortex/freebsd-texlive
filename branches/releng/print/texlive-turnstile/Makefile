@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-turnstile
-# Date created:		13/03/2010 04:55:05
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	turnstile
 PORTVERSION=	20100610

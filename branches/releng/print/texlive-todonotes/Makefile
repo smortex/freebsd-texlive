@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-todonotes
-# Date created:		13/03/2010 04:50:35
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	todonotes
 PORTVERSION=	20121126

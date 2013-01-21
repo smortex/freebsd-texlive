@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ctanify
-# Date created:		09/23/2011 04:41:18
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ctanify
 PORTVERSION=	20120515

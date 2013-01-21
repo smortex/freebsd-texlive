@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-aichej
-# Date created:		13/03/2010 04:22:55
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	aichej
 PORTVERSION=	20100610

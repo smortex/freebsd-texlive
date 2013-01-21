@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-totpages
-# Date created:		13/03/2010 04:50:39
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	totpages
 PORTVERSION=	20100610

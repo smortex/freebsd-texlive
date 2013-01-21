@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-europecv
-# Date created:		13/03/2010 04:42:08
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	europecv
 PORTVERSION=	20100610

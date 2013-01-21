@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ocgx
-# Date created:		09/30/2012 05:10:16
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ocgx
 PORTVERSION=	20121211

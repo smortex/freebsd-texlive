@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tkz-fct
-# Date created:		07/21/2011 05:02:10
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tkz-fct
 PORTVERSION=	20110607

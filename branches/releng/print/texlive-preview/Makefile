@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-preview
-# Date created:		13/03/2010 04:47:33
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	preview
 PORTVERSION=	20121204

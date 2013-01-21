@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-labo
-# Date created:		13/03/2010 04:57:02
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-labo
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bibleref
-# Date created:		13/03/2010 04:32:16
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bibleref
 PORTVERSION=	20110123

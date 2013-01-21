@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cyrillic
-# Date created:		13/03/2010 04:34:34
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cyrillic
 PORTVERSION=	20110804

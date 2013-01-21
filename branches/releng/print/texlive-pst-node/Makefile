@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-node
-# Date created:		13/03/2010 04:57:12
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-node
 PORTVERSION=	20120925

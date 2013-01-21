@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tqft
-# Date created:		10/04/2011 04:52:15
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tqft
 PORTVERSION=	20111003

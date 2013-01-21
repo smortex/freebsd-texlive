@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-stdpage
-# Date created:		13/03/2010 04:49:26
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	stdpage
 PORTVERSION=	20100610

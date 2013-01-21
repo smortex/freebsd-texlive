@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-purifyeps
-# Date created:		13/03/2010 04:24:22
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	purifyeps
 PORTVERSION=	20120515

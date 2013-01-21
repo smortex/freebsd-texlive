@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mptopdf
-# Date created:		09/21/2010 11:33:14
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mptopdf
 PORTVERSION=	20120529

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-duotenzor
-# Date created:		09/21/2010 11:44:18
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	duotenzor
 PORTVERSION=	20100610

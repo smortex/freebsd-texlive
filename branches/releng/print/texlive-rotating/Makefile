@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-rotating
-# Date created:		13/03/2010 04:54:01
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	rotating
 PORTVERSION=	20100610

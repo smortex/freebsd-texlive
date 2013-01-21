@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fcltxdoc
-# Date created:		11/11/2011 05:13:11
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fcltxdoc
 PORTVERSION=	20111105

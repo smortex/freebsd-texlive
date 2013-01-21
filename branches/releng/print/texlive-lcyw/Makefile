@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-lcyw
-# Date created:		13/03/2010 04:34:41
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	lcyw
 PORTVERSION=	20100610

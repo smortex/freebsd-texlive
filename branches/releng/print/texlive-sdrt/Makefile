@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-sdrt
-# Date created:		13/03/2010 04:48:36
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sdrt
 PORTVERSION=	20100610

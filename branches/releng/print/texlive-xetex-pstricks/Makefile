@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-xetex-pstricks
-# Date created:		13/03/2010 05:01:01
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	xetex-pstricks
 PORTVERSION=	20100610

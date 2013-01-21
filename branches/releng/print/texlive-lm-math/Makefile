@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-lm-math
-# Date created:		10/27/2012 04:47:42
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	lm-math
 PORTVERSION=	20121205

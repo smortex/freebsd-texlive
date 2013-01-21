@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mdframed
-# Date created:		04/20/2010 05:38:16
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mdframed
 PORTVERSION=	20120922

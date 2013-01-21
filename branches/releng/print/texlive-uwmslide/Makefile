@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-uwmslide
-# Date created:		08/11/2012 06:11:34
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	uwmslide
 PORTVERSION=	20120810

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-croatian
-# Date created:		09/21/2010 11:41:45
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-croatian
 PORTVERSION=	20110623

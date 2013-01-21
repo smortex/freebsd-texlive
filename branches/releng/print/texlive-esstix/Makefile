@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-esstix
-# Date created:		05/11/2011 04:43:05
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	esstix
 PORTVERSION=	20110512

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-biocon
-# Date created:		13/03/2010 04:59:50
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	biocon
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-baskervald
-# Date created:		09/21/2010 11:36:35
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	baskervald
 PORTVERSION=	20100717

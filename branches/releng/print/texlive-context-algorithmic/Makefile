@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-context-algorithmic
-# Date created:		13/03/2010 04:21:29
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	context-algorithmic
 PORTVERSION=	20121220

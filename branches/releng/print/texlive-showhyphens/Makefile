@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-showhyphens
-# Date created:		09/17/2011 05:06:00
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	showhyphens
 PORTVERSION=	20110916

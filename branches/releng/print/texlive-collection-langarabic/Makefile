@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-langarabic
-# Date created:		13/03/2010 04:33:08
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-langarabic
 PORTVERSION=	20111206

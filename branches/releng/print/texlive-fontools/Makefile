@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fontools
-# Date created:		13/03/2010 04:30:41
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fontools
 PORTVERSION=	20130104

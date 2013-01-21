@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ftcap
-# Date created:		13/03/2010 04:42:56
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ftcap
 PORTVERSION=	20100610

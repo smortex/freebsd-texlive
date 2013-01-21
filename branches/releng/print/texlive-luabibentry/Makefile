@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-luabibentry
-# Date created:		08/08/2011 05:06:32
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	luabibentry
 PORTVERSION=	20110807

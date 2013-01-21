@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-eemeir
-# Date created:		13/03/2010 04:41:28
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	eemeir
 PORTVERSION=	20100610

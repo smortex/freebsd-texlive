@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-multido
-# Date created:		13/03/2010 04:31:54
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	multido
 PORTVERSION=	20100610

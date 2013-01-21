@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-uptex
-# Date created:		08/02/2012 12:28:03
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	uptex
 PORTVERSION=	20120929

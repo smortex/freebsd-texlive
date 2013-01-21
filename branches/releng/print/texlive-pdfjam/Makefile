@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pdfjam
-# Date created:		04/16/2010 05:34:34
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pdfjam
 PORTVERSION=	20101117

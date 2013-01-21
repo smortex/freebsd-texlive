@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-umich-thesis
-# Date created:		13/03/2010 04:59:36
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	umich-thesis
 PORTVERSION=	20100610

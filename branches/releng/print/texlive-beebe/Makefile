@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-beebe
-# Date created:		13/03/2010 04:22:59
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	beebe
 PORTVERSION=	20130112

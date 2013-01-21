@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-unamthesis
-# Date created:		05/14/2011 05:07:27
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	unamthesis
 PORTVERSION=	20110517

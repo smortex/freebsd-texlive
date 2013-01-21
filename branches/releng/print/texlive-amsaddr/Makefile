@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-amsaddr
-# Date created:		13/03/2010 04:38:37
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	amsaddr
 PORTVERSION=	20100610

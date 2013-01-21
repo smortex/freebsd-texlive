@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-glyphlist
-# Date created:		13/03/2010 04:19:30
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	glyphlist
 PORTVERSION=	20121219

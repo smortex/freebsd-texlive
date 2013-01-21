@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-locality
-# Date created:		09/21/2010 11:48:37
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	locality
 PORTVERSION=	20101113

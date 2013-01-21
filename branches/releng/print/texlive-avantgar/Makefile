@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-avantgar
-# Date created:		13/03/2010 04:29:30
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	avantgar
 PORTVERSION=	20121222

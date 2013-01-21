@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dotseqn
-# Date created:		13/03/2010 04:40:53
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dotseqn
 PORTVERSION=	20100610

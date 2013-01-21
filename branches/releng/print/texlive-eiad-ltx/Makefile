@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-eiad-ltx
-# Date created:		13/03/2010 04:26:27
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	eiad-ltx
 PORTVERSION=	20100610

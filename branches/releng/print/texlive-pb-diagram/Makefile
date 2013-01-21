@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pb-diagram
-# Date created:		13/03/2010 04:52:22
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pb-diagram
 PORTVERSION=	20100610

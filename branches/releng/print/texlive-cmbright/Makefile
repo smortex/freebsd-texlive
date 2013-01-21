@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cmbright
-# Date created:		13/03/2010 04:26:02
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cmbright
 PORTVERSION=	20110118

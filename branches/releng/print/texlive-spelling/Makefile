@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-spelling
-# Date created:		12/04/2012 05:13:27
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	spelling
 PORTVERSION=	20121208

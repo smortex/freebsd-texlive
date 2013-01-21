@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tabu
-# Date created:		11/14/2010 04:59:37
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tabu
 PORTVERSION=	20110228

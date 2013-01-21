@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-chscite
-# Date created:		09/20/2011 04:40:47
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	chscite
 PORTVERSION=	20121217

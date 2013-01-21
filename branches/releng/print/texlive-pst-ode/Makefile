@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-ode
-# Date created:		08/19/2012 05:20:07
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-ode
 PORTVERSION=	20120915

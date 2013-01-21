@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-zed-csp
-# Date created:		13/03/2010 04:51:51
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	zed-csp
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-doipubmed
-# Date created:		13/03/2010 04:23:28
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	doipubmed
 PORTVERSION=	20100610

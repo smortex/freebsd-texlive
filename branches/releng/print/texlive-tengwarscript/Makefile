@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tengwarscript
-# Date created:		13/03/2010 04:29:10
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tengwarscript
 PORTVERSION=	20100610

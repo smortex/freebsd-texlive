@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-installfont
-# Date created:		09/21/2010 11:35:53
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	installfont
 PORTVERSION=	20120127

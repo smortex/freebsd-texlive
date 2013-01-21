@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-silence
-# Date created:		13/03/2010 04:49:00
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	silence
 PORTVERSION=	20120714

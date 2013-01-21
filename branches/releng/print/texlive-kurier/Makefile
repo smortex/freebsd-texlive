@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-kurier
-# Date created:		13/03/2010 04:22:50
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	kurier
 PORTVERSION=	20100909

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-notoccite
-# Date created:		05/08/2010 05:39:02
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	notoccite
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-g-brief
-# Date created:		13/03/2010 04:43:01
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	g-brief
 PORTVERSION=	20110122

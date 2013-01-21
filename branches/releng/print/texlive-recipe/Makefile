@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-recipe
-# Date created:		13/03/2010 04:48:01
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	recipe
 PORTVERSION=	20100610

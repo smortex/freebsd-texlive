@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cmextra
-# Date created:		13/03/2010 04:29:56
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cmextra
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fixlatvian
-# Date created:		03/10/2011 05:10:44
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fixlatvian
 PORTVERSION=	20110308

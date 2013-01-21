@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-chronosys
-# Date created:		11/14/2011 04:46:46
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	chronosys
 PORTVERSION=	20120529

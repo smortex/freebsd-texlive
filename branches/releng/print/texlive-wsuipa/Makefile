@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-wsuipa
-# Date created:		13/03/2010 04:29:24
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	wsuipa
 PORTVERSION=	20120222

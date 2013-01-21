@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-rtkinenc
-# Date created:		13/03/2010 04:48:20
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	rtkinenc
 PORTVERSION=	20101006

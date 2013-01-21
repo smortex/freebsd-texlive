@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-nonumonpart
-# Date created:		04/19/2011 04:57:45
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	nonumonpart
 PORTVERSION=	20110418

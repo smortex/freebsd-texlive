@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-biblatex-nejm
-# Date created:		09/05/2011 05:02:09
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	biblatex-nejm
 PORTVERSION=	20110919

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst2pdf
-# Date created:		13/03/2010 04:57:44
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst2pdf
 PORTVERSION=	20111215

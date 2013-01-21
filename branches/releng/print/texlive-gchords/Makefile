@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-gchords
-# Date created:		13/03/2010 04:55:12
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	gchords
 PORTVERSION=	20100610

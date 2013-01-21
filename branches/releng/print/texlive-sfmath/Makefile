@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-sfmath
-# Date created:		13/03/2010 04:48:47
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sfmath
 PORTVERSION=	20100610

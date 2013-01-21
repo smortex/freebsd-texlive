@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dnaseq
-# Date created:		13/03/2010 04:40:48
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dnaseq
 PORTVERSION=	20100610

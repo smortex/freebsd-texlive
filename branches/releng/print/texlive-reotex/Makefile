@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-reotex
-# Date created:		01/07/2012 04:52:46
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	reotex
 PORTVERSION=	20120107

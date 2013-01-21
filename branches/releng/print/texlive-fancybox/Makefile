@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fancybox
-# Date created:		13/03/2010 04:53:24
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fancybox
 PORTVERSION=	20100610

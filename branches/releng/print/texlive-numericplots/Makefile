@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-numericplots
-# Date created:		09/21/2010 11:44:27
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	numericplots
 PORTVERSION=	20120602

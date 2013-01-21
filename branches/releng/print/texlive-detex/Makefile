@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-detex
-# Date created:		13/03/2010 04:24:00
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	detex
 PORTVERSION=	20120529

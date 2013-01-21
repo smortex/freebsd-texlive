@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-nuc
-# Date created:		05/01/2011 05:10:08
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	nuc
 PORTVERSION=	20110430

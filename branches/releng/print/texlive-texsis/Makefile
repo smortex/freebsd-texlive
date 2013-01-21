@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-texsis
-# Date created:		13/03/2010 04:30:54
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	texsis
 PORTVERSION=	20110531

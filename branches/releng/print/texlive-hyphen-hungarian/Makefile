@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-hungarian
-# Date created:		09/21/2010 11:43:04
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-hungarian
 PORTVERSION=	20110623

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ocg-p
-# Date created:		12/05/2012 05:28:15
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ocg-p
 PORTVERSION=	20130112

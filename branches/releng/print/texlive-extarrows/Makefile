@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-extarrows
-# Date created:		13/03/2010 04:54:30
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	extarrows
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-engtlc
-# Date created:		13/03/2010 05:00:04
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	engtlc
 PORTVERSION=	20121219

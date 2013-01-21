@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-juraabbrev
-# Date created:		13/03/2010 04:32:25
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	juraabbrev
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-thuthesis
-# Date created:		13/03/2010 04:59:23
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	thuthesis
 PORTVERSION=	20111023

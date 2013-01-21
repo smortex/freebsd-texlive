@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-langenglish
-# Date created:		09/21/2010 11:44:00
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-langenglish
 PORTVERSION=	20100610

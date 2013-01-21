@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-logreq
-# Date created:		09/21/2010 11:35:30
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	logreq
 PORTVERSION=	20100911

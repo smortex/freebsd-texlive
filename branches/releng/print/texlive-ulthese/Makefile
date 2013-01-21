@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ulthese
-# Date created:		10/15/2012 05:18:17
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ulthese
 PORTVERSION=	20121014

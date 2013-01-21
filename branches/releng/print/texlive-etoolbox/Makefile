@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-etoolbox
-# Date created:		13/03/2010 04:42:06
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	etoolbox
 PORTVERSION=	20110104

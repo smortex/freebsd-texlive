@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-numprint
-# Date created:		13/03/2010 04:46:34
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	numprint
 PORTVERSION=	20120823

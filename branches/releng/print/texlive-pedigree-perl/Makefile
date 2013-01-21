@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pedigree-perl
-# Date created:		04/15/2012 05:11:15
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pedigree-perl
 PORTVERSION=	20120515

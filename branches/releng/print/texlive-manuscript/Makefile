@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-manuscript
-# Date created:		13/03/2010 04:44:42
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	manuscript
 PORTVERSION=	20100610

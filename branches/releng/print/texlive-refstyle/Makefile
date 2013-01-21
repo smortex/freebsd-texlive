@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-refstyle
-# Date created:		13/03/2010 04:48:06
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	refstyle
 PORTVERSION=	20101105

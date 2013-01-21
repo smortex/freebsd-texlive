@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tikz-inet
-# Date created:		13/03/2010 04:52:49
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tikz-inet
 PORTVERSION=	20100610

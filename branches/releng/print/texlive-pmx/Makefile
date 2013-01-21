@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pmx
-# Date created:		08/02/2012 12:48:54
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pmx
 PORTVERSION=	20130118

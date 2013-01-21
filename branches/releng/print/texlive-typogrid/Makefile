@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-typogrid
-# Date created:		13/03/2010 04:50:52
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	typogrid
 PORTVERSION=	20120102

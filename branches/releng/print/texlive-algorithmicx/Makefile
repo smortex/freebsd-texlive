@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-algorithmicx
-# Date created:		13/03/2010 04:59:47
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	algorithmicx
 PORTVERSION=	20100610

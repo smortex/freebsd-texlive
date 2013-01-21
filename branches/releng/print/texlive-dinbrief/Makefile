@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dinbrief
-# Date created:		13/03/2010 04:40:44
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dinbrief
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-permute
-# Date created:		13/03/2010 04:47:12
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	permute
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dashundergaps
-# Date created:		13/03/2010 04:40:32
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dashundergaps
 PORTVERSION=	20110804

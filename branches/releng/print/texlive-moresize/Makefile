@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-moresize
-# Date created:		13/03/2010 04:45:57
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	moresize
 PORTVERSION=	20100610

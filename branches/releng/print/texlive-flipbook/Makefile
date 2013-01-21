@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-flipbook
-# Date created:		12/07/2011 04:57:32
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	flipbook
 PORTVERSION=	20120309

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collectbox
-# Date created:		07/26/2011 04:53:07
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collectbox
 PORTVERSION=	20120522

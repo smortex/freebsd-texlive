@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-probsoln
-# Date created:		13/03/2010 04:47:34
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	probsoln
 PORTVERSION=	20120115

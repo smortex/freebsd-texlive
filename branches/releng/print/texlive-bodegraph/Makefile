@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bodegraph
-# Date created:		10/11/2010 04:47:01
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bodegraph
 PORTVERSION=	20101011

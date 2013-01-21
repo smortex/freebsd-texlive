@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-starfont
-# Date created:		10/03/2010 04:40:42
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	starfont
 PORTVERSION=	20101003

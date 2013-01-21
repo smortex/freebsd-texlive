@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tabfigures
-# Date created:		09/21/2011 05:04:22
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tabfigures
 PORTVERSION=	20120127

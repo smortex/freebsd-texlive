@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-IEEEconf
-# Date created:		13/03/2010 04:57:54
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	IEEEconf
 PORTVERSION=	20100610

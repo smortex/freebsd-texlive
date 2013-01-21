@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-vertbars
-# Date created:		13/03/2010 04:51:16
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	vertbars
 PORTVERSION=	20101129

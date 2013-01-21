@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fonts-tlwg
-# Date created:		02/19/2012 04:50:13
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fonts-tlwg
 PORTVERSION=	20120218

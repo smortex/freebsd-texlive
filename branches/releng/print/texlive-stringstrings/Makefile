@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-stringstrings
-# Date created:		13/03/2010 04:49:27
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	stringstrings
 PORTVERSION=	20121019

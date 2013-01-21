@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-poltawski
-# Date created:		09/21/2010 11:34:44
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	poltawski
 PORTVERSION=	20101013

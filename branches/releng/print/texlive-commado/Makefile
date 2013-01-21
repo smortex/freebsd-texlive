@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-commado
-# Date created:		12/02/2012 05:02:55
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	commado
 PORTVERSION=	20121203

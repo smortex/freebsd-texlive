@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-papermas
-# Date created:		09/21/2010 11:50:04
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	papermas
 PORTVERSION=	20110825

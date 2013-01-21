@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-smartdiagram
-# Date created:		11/02/2012 05:03:51
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	smartdiagram
 PORTVERSION=	20121030

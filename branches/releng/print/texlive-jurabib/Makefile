@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-jurabib
-# Date created:		13/03/2010 04:23:38
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	jurabib
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-lithuanian
-# Date created:		13/03/2010 04:37:22
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	lithuanian
 PORTVERSION=	20110602

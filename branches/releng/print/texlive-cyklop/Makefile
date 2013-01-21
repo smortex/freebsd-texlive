@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cyklop
-# Date created:		13/03/2010 04:26:09
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cyklop
 PORTVERSION=	20100610

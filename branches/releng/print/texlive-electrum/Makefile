@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-electrum
-# Date created:		09/21/2010 11:37:12
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	electrum
 PORTVERSION=	20100914

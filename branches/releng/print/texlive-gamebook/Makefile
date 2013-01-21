@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-gamebook
-# Date created:		12/03/2011 04:46:39
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	gamebook
 PORTVERSION=	20111202

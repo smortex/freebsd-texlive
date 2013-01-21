@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-svg
-# Date created:		09/10/2012 05:18:25
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	svg
 PORTVERSION=	20120911

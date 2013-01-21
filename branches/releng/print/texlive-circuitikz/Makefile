@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-circuitikz
-# Date created:		13/03/2010 04:52:02
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	circuitikz
 PORTVERSION=	20121231

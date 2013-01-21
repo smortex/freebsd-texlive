@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-opcit
-# Date created:		13/03/2010 04:46:39
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	opcit
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bondgraph
-# Date created:		03/12/2011 04:50:15
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bondgraph
 PORTVERSION=	20110310

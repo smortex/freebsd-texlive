@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-nopageno
-# Date created:		05/08/2010 05:39:02
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	nopageno
 PORTVERSION=	20100610

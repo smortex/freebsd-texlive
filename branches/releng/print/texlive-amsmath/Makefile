@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-amsmath
-# Date created:		13/03/2010 04:20:13
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	amsmath
 PORTVERSION=	20120515

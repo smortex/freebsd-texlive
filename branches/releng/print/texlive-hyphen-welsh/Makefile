@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-welsh
-# Date created:		09/21/2010 11:43:39
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-welsh
 PORTVERSION=	20110623

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-varisize
-# Date created:		13/03/2010 04:55:54
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	varisize
 PORTVERSION=	20100610

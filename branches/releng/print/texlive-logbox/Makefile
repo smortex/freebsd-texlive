@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-logbox
-# Date created:		11/11/2011 05:02:13
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	logbox
 PORTVERSION=	20111105

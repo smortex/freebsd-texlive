@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fix2col
-# Date created:		13/03/2010 04:20:23
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fix2col
 PORTVERSION=	20100610

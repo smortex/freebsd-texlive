@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-autopdf
-# Date created:		11/02/2012 05:04:58
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	autopdf
 PORTVERSION=	20121031

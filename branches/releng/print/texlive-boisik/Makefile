@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-boisik
-# Date created:		13/03/2010 04:25:49
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	boisik
 PORTVERSION=	20100610

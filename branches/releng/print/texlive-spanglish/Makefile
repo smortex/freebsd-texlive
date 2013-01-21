@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-spanglish
-# Date created:		01/08/2011 17:05:02
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	spanglish
 PORTVERSION=	20101231

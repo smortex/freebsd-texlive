@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pdfcprot
-# Date created:		13/03/2010 04:47:02
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pdfcprot
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tex-ps
-# Date created:		13/03/2010 04:31:55
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tex-ps
 PORTVERSION=	20100610

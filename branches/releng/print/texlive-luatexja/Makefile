@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-luatexja
-# Date created:		04/25/2012 04:49:55
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	luatexja
 PORTVERSION=	20121210

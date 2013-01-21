@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-sty2dtx
-# Date created:		01/30/2011 04:40:53
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sty2dtx
 PORTVERSION=	20121108

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-simplecd
-# Date created:		09/21/2010 11:51:18
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	simplecd
 PORTVERSION=	20121222

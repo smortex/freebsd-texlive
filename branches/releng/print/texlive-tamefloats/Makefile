@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tamefloats
-# Date created:		08/10/2012 05:19:28
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tamefloats
 PORTVERSION=	20120809

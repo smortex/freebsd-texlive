@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-finnish
-# Date created:		09/21/2010 11:42:14
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-finnish
 PORTVERSION=	20120417

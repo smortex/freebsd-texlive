@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-roundbox
-# Date created:		04/19/2010 05:39:40
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	roundbox
 PORTVERSION=	20100610

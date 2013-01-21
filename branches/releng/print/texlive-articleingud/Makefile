@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-articleingud
-# Date created:		05/06/2012 05:13:12
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	articleingud
 PORTVERSION=	20121120

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mwe
-# Date created:		05/10/2012 05:04:24
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mwe
 PORTVERSION=	20120516

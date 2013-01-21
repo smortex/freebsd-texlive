@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-rsfso
-# Date created:		02/19/2011 04:44:26
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	rsfso
 PORTVERSION=	20110809

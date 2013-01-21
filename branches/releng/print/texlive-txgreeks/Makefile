@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-txgreeks
-# Date created:		03/19/2011 05:02:21
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	txgreeks
 PORTVERSION=	20110327

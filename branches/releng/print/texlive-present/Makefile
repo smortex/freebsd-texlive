@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-present
-# Date created:		09/21/2010 11:54:45
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	present
 PORTVERSION=	20120414

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-minutes
-# Date created:		13/03/2010 04:45:47
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	minutes
 PORTVERSION=	20100610

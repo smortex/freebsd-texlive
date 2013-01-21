@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-sauter
-# Date created:		13/03/2010 04:29:03
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sauter
 PORTVERSION=	20100610

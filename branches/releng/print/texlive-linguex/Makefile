@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-linguex
-# Date created:		13/03/2010 04:32:32
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	linguex
 PORTVERSION=	20100715

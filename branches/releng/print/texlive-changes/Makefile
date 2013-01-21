@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-changes
-# Date created:		13/03/2010 04:39:45
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	changes
 PORTVERSION=	20120501

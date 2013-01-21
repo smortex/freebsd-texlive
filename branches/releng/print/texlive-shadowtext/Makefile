@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-shadowtext
-# Date created:		05/06/2012 05:06:54
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	shadowtext
 PORTVERSION=	20120521

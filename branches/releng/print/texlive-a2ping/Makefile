@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-a2ping
-# Date created:		13/03/2010 04:23:52
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	a2ping
 PORTVERSION=	20120807

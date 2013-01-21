@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-paratype
-# Date created:		08/21/2011 04:45:32
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	paratype
 PORTVERSION=	20120609

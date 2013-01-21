@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-backnaur
-# Date created:		12/14/2012 05:15:30
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	backnaur
 PORTVERSION=	20121213

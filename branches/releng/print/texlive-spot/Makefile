@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-spot
-# Date created:		09/23/2010 06:00:52
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	spot
 PORTVERSION=	20110511

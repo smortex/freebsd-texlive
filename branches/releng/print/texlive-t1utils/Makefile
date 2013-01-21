@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-t1utils
-# Date created:		13/03/2010 04:30:43
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	t1utils
 PORTVERSION=	20120529

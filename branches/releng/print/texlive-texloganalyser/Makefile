@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-texloganalyser
-# Date created:		13/03/2010 04:24:29
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	texloganalyser
 PORTVERSION=	20120515

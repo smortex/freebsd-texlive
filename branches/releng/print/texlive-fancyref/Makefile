@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fancyref
-# Date created:		13/03/2010 04:53:25
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fancyref
 PORTVERSION=	20100610

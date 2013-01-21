@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-dutchcal
-# Date created:		08/09/2011 04:44:17
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dutchcal
 PORTVERSION=	20110808

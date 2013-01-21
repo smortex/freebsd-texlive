@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-lato
-# Date created:		01/08/2011 16:47:50
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	lato
 PORTVERSION=	20120101

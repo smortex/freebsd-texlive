@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-histogr
-# Date created:		13/03/2010 04:43:27
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	histogr
 PORTVERSION=	20100610

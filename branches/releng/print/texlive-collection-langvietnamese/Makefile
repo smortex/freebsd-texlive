@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-langvietnamese
-# Date created:		13/03/2010 04:38:12
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-langvietnamese
 PORTVERSION=	20100610

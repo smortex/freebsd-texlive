@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bosisio
-# Date created:		13/03/2010 04:54:22
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bosisio
 PORTVERSION=	20100610

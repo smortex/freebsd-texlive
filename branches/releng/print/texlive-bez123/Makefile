@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bez123
-# Date created:		13/03/2010 04:38:55
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bez123
 PORTVERSION=	20100610

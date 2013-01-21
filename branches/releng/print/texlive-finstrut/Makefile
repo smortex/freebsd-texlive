@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-finstrut
-# Date created:		02/12/2011 04:54:52
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	finstrut
 PORTVERSION=	20110315

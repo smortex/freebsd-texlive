@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-totcount
-# Date created:		13/03/2010 04:50:38
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	totcount
 PORTVERSION=	20110127

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-publishers
-# Date created:		13/03/2010 04:59:42
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-publishers
 PORTVERSION=	20130101

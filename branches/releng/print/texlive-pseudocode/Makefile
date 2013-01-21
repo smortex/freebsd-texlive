@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pseudocode
-# Date created:		13/03/2010 05:00:23
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pseudocode
 PORTVERSION=	20100610

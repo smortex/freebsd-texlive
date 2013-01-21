@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-accfonts
-# Date created:		13/03/2010 04:30:30
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	accfonts
 PORTVERSION=	20100610

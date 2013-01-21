@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ifluatex
-# Date created:		13/03/2010 04:19:42
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ifluatex
 PORTVERSION=	20120530

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-petri-nets
-# Date created:		13/03/2010 04:52:23
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	petri-nets
 PORTVERSION=	20110926

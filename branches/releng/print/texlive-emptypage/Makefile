@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-emptypage
-# Date created:		13/03/2010 04:41:42
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	emptypage
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-termcal
-# Date created:		13/03/2010 04:50:03
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	termcal
 PORTVERSION=	20110518

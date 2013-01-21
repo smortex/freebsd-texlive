@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-nag
-# Date created:		13/03/2010 04:46:09
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	nag
 PORTVERSION=	20111204

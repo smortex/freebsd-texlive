@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-picinpar
-# Date created:		13/03/2010 04:52:36
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	picinpar
 PORTVERSION=	20101109

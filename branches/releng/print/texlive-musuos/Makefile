@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-musuos
-# Date created:		08/24/2011 05:11:18
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	musuos
 PORTVERSION=	20111218

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-frege
-# Date created:		08/02/2012 12:38:33
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	frege
 PORTVERSION=	20120816

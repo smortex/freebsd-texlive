@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ellipsis
-# Date created:		13/03/2010 04:41:30
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ellipsis
 PORTVERSION=	20100610

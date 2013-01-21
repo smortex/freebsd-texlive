@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-context
-# Date created:		13/03/2010 04:22:27
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-context
 PORTVERSION=	20120529

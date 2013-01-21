@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-langhebrew
-# Date created:		13/03/2010 04:37:00
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-langhebrew
 PORTVERSION=	20100610

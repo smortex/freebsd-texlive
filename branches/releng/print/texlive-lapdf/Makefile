@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-lapdf
-# Date created:		09/06/2011 04:53:24
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	lapdf
 PORTVERSION=	20110905

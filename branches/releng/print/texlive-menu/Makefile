@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-menu
-# Date created:		13/03/2010 04:44:54
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	menu
 PORTVERSION=	20100610

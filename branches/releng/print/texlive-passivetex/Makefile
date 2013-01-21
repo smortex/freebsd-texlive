@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-passivetex
-# Date created:		13/03/2010 04:31:59
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	passivetex
 PORTVERSION=	20100610

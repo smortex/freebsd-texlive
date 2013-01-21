@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-droit-fr
-# Date created:		02/19/2012 04:51:07
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	droit-fr
 PORTVERSION=	20120218

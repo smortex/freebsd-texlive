@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-vlna
-# Date created:		13/03/2010 04:35:17
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	vlna
 PORTVERSION=	20120529

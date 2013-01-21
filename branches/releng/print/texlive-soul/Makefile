@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-soul
-# Date created:		13/03/2010 04:49:10
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	soul
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hf-tikz
-# Date created:		08/21/2012 05:00:52
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hf-tikz
 PORTVERSION=	20130115

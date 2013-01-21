@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-magneticfield
-# Date created:		09/21/2010 11:55:26
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-magneticfield
 PORTVERSION=	20100613

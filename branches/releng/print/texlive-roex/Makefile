@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-roex
-# Date created:		13/03/2010 04:22:22
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	roex
 PORTVERSION=	20100610

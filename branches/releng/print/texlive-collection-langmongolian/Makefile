@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-langmongolian
-# Date created:		13/03/2010 04:37:28
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-langmongolian
 PORTVERSION=	20110514

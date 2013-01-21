@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-context-typearea
-# Date created:		13/03/2010 04:21:47
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	context-typearea
 PORTVERSION=	20110629

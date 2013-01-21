@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-czech
-# Date created:		09/21/2010 11:42:09
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-czech
 PORTVERSION=	20120417

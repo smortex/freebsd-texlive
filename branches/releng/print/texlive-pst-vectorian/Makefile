@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-vectorian
-# Date created:		01/14/2013 04:56:21
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-vectorian
 PORTVERSION=	20130112

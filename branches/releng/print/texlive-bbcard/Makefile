@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-bbcard
-# Date created:		13/03/2010 04:21:51
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bbcard
 PORTVERSION=	20100715

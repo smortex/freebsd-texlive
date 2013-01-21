@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-monofill
-# Date created:		03/22/2012 05:11:02
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	monofill
 PORTVERSION=	20121101

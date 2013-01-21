@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-science
-# Date created:		13/03/2010 05:00:37
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-science
 PORTVERSION=	20121019

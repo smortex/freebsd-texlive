@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-niceframe
-# Date created:		13/03/2010 04:46:21
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	niceframe
 PORTVERSION=	20110929

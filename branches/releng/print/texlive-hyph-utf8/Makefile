@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyph-utf8
-# Date created:		13/03/2010 04:19:39
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyph-utf8
 PORTVERSION=	20120602

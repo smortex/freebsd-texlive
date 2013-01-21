@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-contour
-# Date created:		13/03/2010 04:40:09
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	contour
 PORTVERSION=	20100614

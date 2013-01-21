@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-concprog
-# Date created:		13/03/2010 04:40:07
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	concprog
 PORTVERSION=	20100610

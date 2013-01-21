@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-paracol
-# Date created:		09/19/2011 05:00:34
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	paracol
 PORTVERSION=	20120518

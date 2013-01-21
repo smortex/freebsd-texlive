@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-erdc
-# Date created:		13/03/2010 04:58:26
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	erdc
 PORTVERSION=	20100610

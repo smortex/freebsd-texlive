@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tex-gyre
-# Date created:		13/03/2010 04:22:30
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tex-gyre
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ipaex
-# Date created:		10/30/2011 04:47:59
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ipaex
 PORTVERSION=	20120211

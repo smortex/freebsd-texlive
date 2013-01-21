@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-catalan
-# Date created:		09/21/2010 11:43:51
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-catalan
 PORTVERSION=	20120417

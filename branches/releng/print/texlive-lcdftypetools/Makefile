@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-lcdftypetools
-# Date created:		13/03/2010 04:30:34
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	lcdftypetools
 PORTVERSION=	20120529

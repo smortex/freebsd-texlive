@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tcolorbox
-# Date created:		12/11/2011 05:04:41
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tcolorbox
 PORTVERSION=	20120421

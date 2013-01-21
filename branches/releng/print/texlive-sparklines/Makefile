@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-sparklines
-# Date created:		13/03/2010 04:49:11
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sparklines
 PORTVERSION=	20100610

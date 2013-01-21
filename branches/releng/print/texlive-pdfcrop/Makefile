@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pdfcrop
-# Date created:		13/03/2010 04:24:18
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pdfcrop
 PORTVERSION=	20121105

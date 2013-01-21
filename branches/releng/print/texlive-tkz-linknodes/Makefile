@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tkz-linknodes
-# Date created:		13/03/2010 04:52:53
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tkz-linknodes
 PORTVERSION=	20110607

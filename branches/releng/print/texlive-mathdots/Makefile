@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mathdots
-# Date created:		13/03/2010 04:31:29
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mathdots
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-footnpag
-# Date created:		13/03/2010 04:42:47
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	footnpag
 PORTVERSION=	20100610

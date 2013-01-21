@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-luacode
-# Date created:		11/09/2010 05:02:10
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	luacode
 PORTVERSION=	20120125

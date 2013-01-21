@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-metapost
-# Date created:		13/03/2010 04:22:12
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	metapost
 PORTVERSION=	20120529

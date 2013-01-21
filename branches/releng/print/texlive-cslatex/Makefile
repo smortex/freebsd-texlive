@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-cslatex
-# Date created:		13/03/2010 04:35:14
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cslatex
 PORTVERSION=	20121222

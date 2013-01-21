@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-eplain
-# Date created:		13/03/2010 04:30:48
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	eplain
 PORTVERSION=	20120529

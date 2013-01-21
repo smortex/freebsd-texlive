@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-thick
-# Date created:		13/03/2010 04:57:37
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-thick
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-mychemistry
-# Date created:		03/24/2011 05:11:42
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mychemistry
 PORTVERSION=	20121222

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fontware
-# Date created:		13/03/2010 04:30:33
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fontware
 PORTVERSION=	20120529

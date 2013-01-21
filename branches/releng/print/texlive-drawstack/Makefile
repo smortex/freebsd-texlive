@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-drawstack
-# Date created:		09/21/2010 11:59:03
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	drawstack
 PORTVERSION=	20121220

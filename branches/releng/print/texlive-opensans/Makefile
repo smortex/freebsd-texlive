@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-opensans
-# Date created:		08/28/2011 04:51:04
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	opensans
 PORTVERSION=	20111201

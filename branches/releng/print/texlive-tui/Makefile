@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-tui
-# Date created:		03/14/2012 05:28:09
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tui
 PORTVERSION=	20120731

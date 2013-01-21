@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-spie
-# Date created:		13/03/2010 04:59:16
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	spie
 PORTVERSION=	20100610

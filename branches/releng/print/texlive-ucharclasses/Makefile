@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-ucharclasses
-# Date created:		09/27/2012 05:24:39
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ucharclasses
 PORTVERSION=	20120927

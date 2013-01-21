@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-soroban
-# Date created:		13/03/2010 04:57:34
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-soroban
 PORTVERSION=	20100610

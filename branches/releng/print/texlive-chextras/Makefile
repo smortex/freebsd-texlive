@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-chextras
-# Date created:		10/11/2010 04:49:30
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	chextras
 PORTVERSION=	20120724

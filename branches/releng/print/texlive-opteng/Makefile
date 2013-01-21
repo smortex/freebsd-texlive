@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-opteng
-# Date created:		08/09/2012 05:23:20
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	opteng
 PORTVERSION=	20120808

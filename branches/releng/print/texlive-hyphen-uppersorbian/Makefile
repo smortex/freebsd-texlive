@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-uppersorbian
-# Date created:		09/21/2010 11:43:38
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-uppersorbian
 PORTVERSION=	20110623

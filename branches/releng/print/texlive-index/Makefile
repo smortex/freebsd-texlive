@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-index
-# Date created:		13/03/2010 04:53:32
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	index
 PORTVERSION=	20110927

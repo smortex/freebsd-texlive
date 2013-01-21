@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-pst-eps
-# Date created:		13/03/2010 04:56:26
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pst-eps
 PORTVERSION=	20100610

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-disser
-# Date created:		13/03/2010 04:34:37
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	disser
 PORTVERSION=	20121124

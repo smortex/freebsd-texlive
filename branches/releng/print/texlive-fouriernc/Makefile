@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fouriernc
-# Date created:		13/03/2010 04:26:41
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fouriernc
 PORTVERSION=	20100610

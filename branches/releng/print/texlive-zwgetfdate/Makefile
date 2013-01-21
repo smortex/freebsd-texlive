@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-zwgetfdate
-# Date created:		13/03/2010 04:51:53
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	zwgetfdate
 PORTVERSION=	20100610

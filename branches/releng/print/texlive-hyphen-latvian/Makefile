@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-hyphen-latvian
-# Date created:		09/21/2010 11:43:22
-# Whom:		romain@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hyphen-latvian
 PORTVERSION=	20120417

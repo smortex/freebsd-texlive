@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-collection-documentation-french
-# Date created:		13/03/2010 04:24:58
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	collection-documentation-french
 PORTVERSION=	20120115

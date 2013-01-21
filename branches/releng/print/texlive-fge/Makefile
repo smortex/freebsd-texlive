@@ -1,9 +1,4 @@
-# New ports collection makefile for:	texlive-fge
-# Date created:		13/03/2010 04:26:35
-# Whom:		romain@blogreen.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fge
 PORTVERSION=	20111204
