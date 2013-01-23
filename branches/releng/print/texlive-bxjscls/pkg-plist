@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxjscls/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxjscls/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxjscls/bxjsclasses.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/bxjscls/bxjsclasses.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/bxjscls/bxjsclasses.ins
+share/texmf-dist/tex/latex/bxjscls/bxjsarticle.cls
+share/texmf-dist/tex/latex/bxjscls/bxjsptex.def
+share/texmf-dist/tex/latex/bxjscls/bxjsreport.cls
+@dirrmtry share/texmf-dist/tex/latex/bxjscls
+@dirrmtry share/texmf-dist/source/latex/bxjscls
+@dirrmtry share/texmf-dist/doc/latex/bxjscls
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

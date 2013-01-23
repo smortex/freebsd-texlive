@@ -1,4 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/README
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/m-tx.html
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx-install.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx-install.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/README
@@ -45,7 +48,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/viva.mtx
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/volta.mtx
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/prepmx.html
-share/texmf-dist/scripts/m-tx/Windows/m-tx.bat
 share/texmf-dist/tex/generic/m-tx/mtx.tex
 %%PORTDOCS%%share/texmf/doc/man/man1/m-tx.1
 %%PORTDOCS%%share/texmf/doc/man/man1/m-tx.man1.pdf
@@ -53,7 +55,6 @@ share/texmf-dist/tex/generic/m-tx/mtx.tex
 %%PORTDOCS%%share/texmf/doc/man/man1/prepmx.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
 @dirrmtry share/texmf-dist/tex/generic/m-tx
-@dirrmtry share/texmf-dist/scripts/m-tx/Windows
 @dirrmtry share/texmf-dist/doc/generic/m-tx/mtx060
 @dirrmtry share/texmf-dist/doc/generic/m-tx
 @exec %D/bin/mktexlsr

@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxpict2e/LICENSE
+share/texmf-dist/tex/latex/bxpict2e/bxdpxp2e.def
+share/texmf-dist/tex/latex/bxpict2e/bxeepic.sty
+@dirrmtry share/texmf-dist/tex/latex/bxpict2e
+@dirrmtry share/texmf-dist/doc/latex/bxpict2e
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
