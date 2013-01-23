@@ -142,6 +142,9 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/generic/ulem/ulem.sty:${PORTSDIR}/print/texlive-ulem \
 		${LOCALBASE}/share/texmf-dist/fonts/cmap/adobemapping/LICENSE:${PORTSDIR}/print/texlive-adobemapping \
 		${LOCALBASE}/share/texmf-dist/dvips/arphic/config.bkaiu:${PORTSDIR}/print/texlive-arphic \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bxbase/bxbase.sty:${PORTSDIR}/print/texlive-bxbase \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bxjscls/bxjsarticle.cls:${PORTSDIR}/print/texlive-bxjscls \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bxpict2e/bxdpxp2e.def:${PORTSDIR}/print/texlive-bxpict2e \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/c90/c90.enc:${PORTSDIR}/print/texlive-c90 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cjk/contrib/wadalab/c42goth.fd:${PORTSDIR}/print/texlive-cjk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cjkpunct/CJKpunct.sty:${PORTSDIR}/print/texlive-cjkpunct \
@@ -599,6 +602,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-tree/pst-tree.tex:${PORTSDIR}/print/texlive-pst-tree \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-tvz/pst-tvz.tex:${PORTSDIR}/print/texlive-pst-tvz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-uml/pst-uml.sty:${PORTSDIR}/print/texlive-pst-uml \
+		${LOCALBASE}/share/texmf-dist/dvips/pst-vectorian/psvectorian.pro:${PORTSDIR}/print/texlive-pst-vectorian \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-vowel/pst-vowel.sty:${PORTSDIR}/print/texlive-pst-vowel \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-vue3d/pst-vue3d.tex:${PORTSDIR}/print/texlive-pst-vue3d \
 		${LOCALBASE}/share/texmf-dist/scripts/pst2pdf/pst2pdf:${PORTSDIR}/print/texlive-pst2pdf \
