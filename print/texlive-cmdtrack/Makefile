@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	cmdtrack
 PORTVERSION=	20130123
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	Check used commands.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

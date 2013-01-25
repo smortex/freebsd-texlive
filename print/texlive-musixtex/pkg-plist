@@ -1,8 +1,8 @@
-%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/ChangeLog
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/ChangeLog-115.txt
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/ChangeLog-T114.txt
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/ChangeLog-musixdoc-115.txt
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/addons/README.underbracket
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/addons/curly.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/addons/tuplet.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/addons/underbracket.sty
@@ -83,7 +83,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/widor.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/widor_16.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/widor_20.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/gpl.txt
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixcrd/README.musixcrd
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixcrd/doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixdoc.pdf
@@ -110,13 +109,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/psslurs/slurs.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/reference/musixre1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/reference/musixre1.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/scripts/musixflx.1
-%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/scripts/musixflx.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/scripts/musixtex.1
-%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/scripts/musixtex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/scripts/musixflx.html
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/scripts/musixtex.html
 share/texmf-dist/dvips/musixtex/psslurs.pro
-share/texmf-dist/scripts/musixtex/Windows/musixflx.bat
-share/texmf-dist/scripts/musixtex/Windows/musixtex.bat
 %%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/doc.tex
 %%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/makefile
 %%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/musixcrd.dtx
@@ -172,7 +167,6 @@ share/texmf-dist/tex/latex/musixtex/musixtex.sty
 @dirrmtry share/texmf-dist/tex/latex/musixtex
 @dirrmtry share/texmf-dist/tex/generic/musixtex
 @dirrmtry share/texmf-dist/source/generic/musixtex/musixcrd
-@dirrmtry share/texmf-dist/scripts/musixtex/Windows
 @dirrmtry share/texmf-dist/dvips/musixtex
 @dirrmtry share/texmf-dist/doc/generic/musixtex/scripts
 @dirrmtry share/texmf-dist/doc/generic/musixtex/reference

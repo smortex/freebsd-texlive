@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20130120
+PORTVERSION=	20130123
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -335,6 +335,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/clipboard/clipboard.sty:${PORTSDIR}/print/texlive-clipboard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/clock/clock.sty:${PORTSDIR}/print/texlive-clock \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmdstring/cmdstring.sty:${PORTSDIR}/print/texlive-cmdstring \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cmdtrack/cmdtrack.sty:${PORTSDIR}/print/texlive-cmdtrack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmsd/cmsd.sty:${PORTSDIR}/print/texlive-cmsd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/codedoc/codedoc.cls:${PORTSDIR}/print/texlive-codedoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/codepage/codepage.sty:${PORTSDIR}/print/texlive-codepage \

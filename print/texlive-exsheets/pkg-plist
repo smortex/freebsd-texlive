@@ -8,8 +8,8 @@ share/texmf-dist/tex/latex/exsheets/exsheets.sty
 share/texmf-dist/tex/latex/exsheets/exsheets_configurations.cfg
 share/texmf-dist/tex/latex/exsheets/exsheets_headings.cfg
 share/texmf-dist/tex/latex/exsheets/exsheets_headings.def
-share/texmf-dist/tex/latex/exsheets/exsheets_tasks.cfg
-share/texmf-dist/tex/latex/exsheets/exsheets_tasks.def
+share/texmf-dist/tex/latex/exsheets/tasks.cfg
+share/texmf-dist/tex/latex/exsheets/tasks.sty
 share/texmf-dist/tex/latex/exsheets/translations.sty
 @dirrmtry share/texmf-dist/tex/latex/exsheets
 @dirrmtry share/texmf-dist/doc/latex/exsheets
