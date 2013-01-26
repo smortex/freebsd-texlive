@@ -1,13 +1,13 @@
-%%PORTDOCS%%share/texmf-dist/doc/generic/shapepar/Canflagshape.def
 %%PORTDOCS%%share/texmf-dist/doc/generic/shapepar/README.shapepar
-%%PORTDOCS%%share/texmf-dist/doc/generic/shapepar/TeXshape.def
-%%PORTDOCS%%share/texmf-dist/doc/generic/shapepar/candleshape.def
-%%PORTDOCS%%share/texmf-dist/doc/generic/shapepar/dropshape.def
 %%PORTDOCS%%share/texmf-dist/doc/generic/shapepar/proshap.py
 %%PORTDOCS%%share/texmf-dist/doc/generic/shapepar/shapepar.ltx
 %%PORTDOCS%%share/texmf-dist/doc/generic/shapepar/shapepar.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/shapepar/triangleshapes.def
+share/texmf-dist/tex/generic/shapepar/Canflagshape.def
+share/texmf-dist/tex/generic/shapepar/TeXshape.def
+share/texmf-dist/tex/generic/shapepar/candleshape.def
+share/texmf-dist/tex/generic/shapepar/dropshape.def
 share/texmf-dist/tex/generic/shapepar/shapepar.sty
+share/texmf-dist/tex/generic/shapepar/triangleshapes.def
 @dirrmtry share/texmf-dist/tex/generic/shapepar
 @dirrmtry share/texmf-dist/doc/generic/shapepar
 @exec %D/bin/mktexlsr
