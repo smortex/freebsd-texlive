@@ -1,8 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/musixtex-fonts/CHANGES.psfonts
-%%PORTDOCS%%share/texmf-dist/doc/fonts/musixtex-fonts/ChangeLog
 %%PORTDOCS%%share/texmf-dist/doc/fonts/musixtex-fonts/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/musixtex-fonts/README.psfonts
-%%PORTDOCS%%share/texmf-dist/doc/fonts/musixtex-fonts/gpl.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/musixtex-fonts/musixtex-fonts-install.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/musixtex-fonts/musixtex-fonts-install.tex
 share/texmf-dist/fonts/map/dvips/musixtex-fonts/musix.map

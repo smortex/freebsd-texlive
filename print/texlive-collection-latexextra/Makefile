@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20130123
+PORTVERSION=	20130124
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -902,6 +902,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/shorttoc/shorttoc.sty:${PORTSDIR}/print/texlive-shorttoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/show2e/show2e.sty:${PORTSDIR}/print/texlive-show2e \
 		${LOCALBASE}/share/texmf-dist/tex/latex/showcharinbox/showcharinbox.sty:${PORTSDIR}/print/texlive-showcharinbox \
+		${LOCALBASE}/share/texmf-dist/tex/latex/showdim/showdim.sty:${PORTSDIR}/print/texlive-showdim \
 		${LOCALBASE}/share/texmf-dist/tex/latex/showexpl/showexpl.sty:${PORTSDIR}/print/texlive-showexpl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/showlabels/showlabels.sty:${PORTSDIR}/print/texlive-showlabels \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sidecap/sidecap.sty:${PORTSDIR}/print/texlive-sidecap \
