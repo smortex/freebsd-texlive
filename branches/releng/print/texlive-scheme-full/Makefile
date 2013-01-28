@@ -980,6 +980,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/clipboard/clipboard.sty:${PORTSDIR}/print/texlive-clipboard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/clock/clock.sty:${PORTSDIR}/print/texlive-clock \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmdstring/cmdstring.sty:${PORTSDIR}/print/texlive-cmdstring \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cmdtrack/cmdtrack.sty:${PORTSDIR}/print/texlive-cmdtrack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmsd/cmsd.sty:${PORTSDIR}/print/texlive-cmsd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/codedoc/codedoc.cls:${PORTSDIR}/print/texlive-codedoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/codepage/codepage.sty:${PORTSDIR}/print/texlive-codepage \
@@ -1038,6 +1039,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/delimtxt/delimtxt.sty:${PORTSDIR}/print/texlive-delimtxt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/diagbox/diagbox.sty:${PORTSDIR}/print/texlive-diagbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/diagnose/diagnose.sty:${PORTSDIR}/print/texlive-diagnose \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dialogl/dialog.sty:${PORTSDIR}/print/texlive-dialogl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dichokey/dichokey.sty:${PORTSDIR}/print/texlive-dichokey \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dinbrief/dinbrief.cls:${PORTSDIR}/print/texlive-dinbrief \
 		${LOCALBASE}/share/texmf-dist/tex/latex/directory/directory.sty:${PORTSDIR}/print/texlive-directory \
@@ -1546,6 +1548,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/shorttoc/shorttoc.sty:${PORTSDIR}/print/texlive-shorttoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/show2e/show2e.sty:${PORTSDIR}/print/texlive-show2e \
 		${LOCALBASE}/share/texmf-dist/tex/latex/showcharinbox/showcharinbox.sty:${PORTSDIR}/print/texlive-showcharinbox \
+		${LOCALBASE}/share/texmf-dist/tex/latex/showdim/showdim.sty:${PORTSDIR}/print/texlive-showdim \
 		${LOCALBASE}/share/texmf-dist/tex/latex/showexpl/showexpl.sty:${PORTSDIR}/print/texlive-showexpl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/showlabels/showlabels.sty:${PORTSDIR}/print/texlive-showlabels \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sidecap/sidecap.sty:${PORTSDIR}/print/texlive-sidecap \

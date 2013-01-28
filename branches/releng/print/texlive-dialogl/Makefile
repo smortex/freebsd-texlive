@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	cabin
+PORTNAME=	dialogl
 PORTVERSION=	20130126
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A humanist Sans Serif font, with LaTeX support.
+COMMENT=	Macros for constructing interactive LaTeX scripts.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

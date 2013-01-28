@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20130124
+PORTVERSION=	20130126
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -394,6 +394,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/delimtxt/delimtxt.sty:${PORTSDIR}/print/texlive-delimtxt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/diagbox/diagbox.sty:${PORTSDIR}/print/texlive-diagbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/diagnose/diagnose.sty:${PORTSDIR}/print/texlive-diagnose \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dialogl/dialog.sty:${PORTSDIR}/print/texlive-dialogl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dichokey/dichokey.sty:${PORTSDIR}/print/texlive-dichokey \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dinbrief/dinbrief.cls:${PORTSDIR}/print/texlive-dinbrief \
 		${LOCALBASE}/share/texmf-dist/tex/latex/directory/directory.sty:${PORTSDIR}/print/texlive-directory \
