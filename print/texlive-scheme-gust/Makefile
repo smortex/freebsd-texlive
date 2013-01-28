@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	scheme-gust
-PORTVERSION=	20110220
+PORTVERSION=	20130128
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -262,7 +262,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/amstex/base/amstex.tex:${PORTSDIR
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/polyglossia/polyglossia.sty:${PORTSDIR}/print/texlive-polyglossia \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/ptext/ptext.sty:${PORTSDIR}/print/texlive-ptext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/realscripts/realscripts.sty:${PORTSDIR}/print/texlive-realscripts \
-		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/tibetian/loctib.map:${PORTSDIR}/print/texlive-tibetian \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty:${PORTSDIR}/print/texlive-ucharclasses \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/unisugar/unisugar.sty:${PORTSDIR}/print/texlive-unisugar \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecjk/config/xeCJK.cfg:${PORTSDIR}/print/texlive-xecjk \
@@ -275,6 +274,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/amstex/base/amstex.tex:${PORTSDIR
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xetex-def/xetex.def:${PORTSDIR}/print/texlive-xetex-def \
 		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/brh-kan.map:${PORTSDIR}/print/texlive-xetex-itrans \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con:${PORTSDIR}/print/texlive-xetex-pstricks \
+		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-tibetan/loctib.map:${PORTSDIR}/print/texlive-xetex-tibetan \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xetexconfig/unicode-letters.tex:${PORTSDIR}/print/texlive-xetexconfig \
 		${LOCALBASE}/share/texmf-dist/tex/xetex/xetexfontinfo/aat-info.tex:${PORTSDIR}/print/texlive-xetexfontinfo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xltxtra/xltxtra.sty:${PORTSDIR}/print/texlive-xltxtra \
