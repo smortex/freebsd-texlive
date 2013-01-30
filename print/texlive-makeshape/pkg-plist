@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/makeshape/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/makeshape/makeshape.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/makeshape/ontesting.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/makeshape/sampleshape.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/makeshape/testsample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/makeshape/testsample.tex
+%%PORTSRC%%share/texmf-dist/source/latex/makeshape/makeshape.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/makeshape/makeshape.ins
+%%PORTSRC%%share/texmf-dist/source/latex/makeshape/ontesting.dtx
+share/texmf-dist/tex/latex/makeshape/makeshape.sty
+@dirrmtry share/texmf-dist/tex/latex/makeshape
+@dirrmtry share/texmf-dist/source/latex/makeshape
+@dirrmtry share/texmf-dist/doc/latex/makeshape
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
