@@ -1,0 +1,5 @@
+The package simplifies production of custom shapes with correct
+anchor borders, in PGF/TikZ; the only requirement is a PGF path
+describing the anchor border. The package also provides macros
+that help with the management of shape parameters, and the
+definition of anchor points.
