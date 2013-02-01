@@ -1,0 +1,49 @@
+share/texmf-dist/bibtex/bst/uestcthesis/GBT7714-2005NLang-UESTC.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/UESTC.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/UESTC_LOGO.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/chapters/DuplicateMe.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/chapters/implementation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/chapters/math.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/chapters/tuition.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/clean.bat
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/compile.bat
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/Cabstract.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/Eabstract.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/acknowledgements.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/appendix.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/original.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/publications.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/reference.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/titlepage.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/translation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/Chrysanthemum.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/Penguins.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/Tulips.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/apk.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/excel.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/fisher1.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/fisher2.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/flow1.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/flow3.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/flow4.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/flow5-1.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/flow5-2.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/flow5-3.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/system.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/winedt.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/uestcthesis-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/uestcthesis-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/source/uestcthesis.dtx
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/source/uestcthesis.ins
+share/texmf-dist/tex/latex/uestcthesis/uestcthesis.cls
+@dirrmtry share/texmf-dist/tex/latex/uestcthesis
+@dirrmtry share/texmf-dist/doc/latex/uestcthesis/source
+@dirrmtry share/texmf-dist/doc/latex/uestcthesis/doc/pics
+@dirrmtry share/texmf-dist/doc/latex/uestcthesis/doc/contents
+@dirrmtry share/texmf-dist/doc/latex/uestcthesis/doc/chapters
+@dirrmtry share/texmf-dist/doc/latex/uestcthesis/doc
+@dirrmtry share/texmf-dist/doc/latex/uestcthesis
+@dirrmtry share/texmf-dist/bibtex/bst/uestcthesis
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

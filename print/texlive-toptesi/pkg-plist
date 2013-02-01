@@ -11,7 +11,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example.xmpdata
-%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/toptesi/toptesi.dtx
 share/texmf-dist/tex/latex/toptesi/topcoman.sty
 share/texmf-dist/tex/latex/toptesi/topfront.sty

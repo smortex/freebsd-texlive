@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20130101
+PORTVERSION=	20130131
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -103,6 +103,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/uafthesis/uafthesis.cls:${PORTSDIR}/print/texlive-uafthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucdavisthesis/ucdavisthesis.cls:${PORTSDIR}/print/texlive-ucdavisthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucthesis/ucthesis.cls:${PORTSDIR}/print/texlive-ucthesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/uestcthesis/uestcthesis.cls:${PORTSDIR}/print/texlive-uestcthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uiucthesis/uiucthesis.cls:${PORTSDIR}/print/texlive-uiucthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ulthese/ulthese.cls:${PORTSDIR}/print/texlive-ulthese \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umthesis/umthesis.cls:${PORTSDIR}/print/texlive-umthesis \
