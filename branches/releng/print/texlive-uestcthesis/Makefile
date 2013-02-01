@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	latexconfig
+PORTNAME=	uestcthesis
 PORTVERSION=	20130131
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The latexconfig package
+COMMENT=	The uestcthesis package
 
-NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
