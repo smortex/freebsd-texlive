@@ -171,6 +171,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/scripts/latexfileversion/latexfileversion:${PORTSDIR}/print/texlive-latexfileversion \
 		${LOCALBASE}/share/texmf-dist/scripts/latexmk/latexmk.pl:${PORTSDIR}/print/texlive-latexmk \
 		${LOCALBASE}/share/texmf-dist/scripts/latexpand/latexpand:${PORTSDIR}/print/texlive-latexpand \
+		${LOCALBASE}/share/texmf-dist/scripts/ltxfileinfo/ltxfileinfo:${PORTSDIR}/print/texlive-ltxfileinfo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listings-ext/listings-ext.sty:${PORTSDIR}/print/texlive-listings-ext \
 		${LOCALBASE}/share/texmf-dist/scripts/match_parens/match_parens:${PORTSDIR}/print/texlive-match_parens \
 		${LOCALBASE}/share/texmf-dist/scripts/mkjobtexmf/mkjobtexmf.pl:${PORTSDIR}/print/texlive-mkjobtexmf \
@@ -801,6 +802,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/knittingpattern/knittingpattern.cls:${PORTSDIR}/print/texlive-knittingpattern \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lapdf/lapdf.sty:${PORTSDIR}/print/texlive-lapdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lpic/lpic.sty:${PORTSDIR}/print/texlive-lpic \
+		${LOCALBASE}/share/texmf-dist/tex/latex/makeshape/makeshape.sty:${PORTSDIR}/print/texlive-makeshape \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathspic/mathspic.sty:${PORTSDIR}/print/texlive-mathspic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/miniplot/miniplot.sty:${PORTSDIR}/print/texlive-miniplot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/modiagram/modiagram.sty:${PORTSDIR}/print/texlive-modiagram \
@@ -2054,6 +2056,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/uafthesis/uafthesis.cls:${PORTSDIR}/print/texlive-uafthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucdavisthesis/ucdavisthesis.cls:${PORTSDIR}/print/texlive-ucdavisthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucthesis/ucthesis.cls:${PORTSDIR}/print/texlive-ucthesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/uestcthesis/uestcthesis.cls:${PORTSDIR}/print/texlive-uestcthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uiucthesis/uiucthesis.cls:${PORTSDIR}/print/texlive-uiucthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ulthese/ulthese.cls:${PORTSDIR}/print/texlive-ulthese \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umthesis/umthesis.cls:${PORTSDIR}/print/texlive-umthesis \

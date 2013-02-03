@@ -1,0 +1,4 @@
+The bash script ltxfileinfo prints information about a LaTeX
+class or style file to standard output. With the -d option,
+only the file date (which is relevant for \RequirePackage) is
+printed. Without options, more information is printed.

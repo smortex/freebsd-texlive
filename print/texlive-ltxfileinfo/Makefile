@@ -1,13 +1,15 @@
 # $FreeBSD$
 
-PORTNAME=	tugboat
+PORTNAME=	ltxfileinfo
 PORTVERSION=	20130202
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX macros for TUGboat articles.
+COMMENT=	Print version info for latex class or style file.
 
+RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
+
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

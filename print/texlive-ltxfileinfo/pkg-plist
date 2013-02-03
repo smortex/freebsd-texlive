@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/ltxfileinfo/README
+%%PORTDOCS%%share/texmf-dist/doc/support/ltxfileinfo/ltxfileinfo.pdf
+share/texmf-dist/scripts/ltxfileinfo/ltxfileinfo
+@dirrmtry share/texmf-dist/scripts/ltxfileinfo
+@dirrmtry share/texmf-dist/doc/support/ltxfileinfo
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
