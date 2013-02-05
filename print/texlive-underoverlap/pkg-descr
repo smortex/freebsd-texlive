@@ -1,0 +1,3 @@
+The package overcomes TeX's inherent limitations in commands
+that place decorations (such as braces) at arbirary positions
+over and under expressions, overlapping as necessary.

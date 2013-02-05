@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20130129
+PORTVERSION=	20130204
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -331,6 +331,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/chngcntr/chngcntr.sty:${PORTSDIR}/print/texlive-chngcntr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chronology/chronology.sty:${PORTSDIR}/print/texlive-chronology \
 		${LOCALBASE}/share/texmf-dist/tex/latex/circ/circ.sty:${PORTSDIR}/print/texlive-circ \
+		${LOCALBASE}/share/texmf-dist/tex/latex/classics/classics.sty:${PORTSDIR}/print/texlive-classics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/clefval/clefval.sty:${PORTSDIR}/print/texlive-clefval \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cleveref/cleveref.sty:${PORTSDIR}/print/texlive-cleveref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/clipboard/clipboard.sty:${PORTSDIR}/print/texlive-clipboard \
@@ -1039,6 +1040,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/uebungsblatt/uebungsblatt.cls:${PORTSDIR}/print/texlive-uebungsblatt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umoline/umoline.sty:${PORTSDIR}/print/texlive-umoline \
 		${LOCALBASE}/share/texmf-dist/tex/latex/underlin/underlin.sty:${PORTSDIR}/print/texlive-underlin \
+		${LOCALBASE}/share/texmf-dist/tex/latex/underoverlap/underoverlap.sty:${PORTSDIR}/print/texlive-underoverlap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/undolabl/undolabl.sty:${PORTSDIR}/print/texlive-undolabl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/units/units.sty:${PORTSDIR}/print/texlive-units \
 		${LOCALBASE}/share/texmf-dist/tex/latex/upmethodology/upmethodology-backpage.sty:${PORTSDIR}/print/texlive-upmethodology \
