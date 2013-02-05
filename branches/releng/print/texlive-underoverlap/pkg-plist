@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/underoverlap/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/underoverlap/dry.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/underoverlap/packagedoc.cls
+%%PORTDOCS%%share/texmf-dist/doc/latex/underoverlap/underoverlap.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/underoverlap/underoverlap.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/underoverlap/with.sty
+share/texmf-dist/tex/latex/underoverlap/underoverlap.sty
+@dirrmtry share/texmf-dist/tex/latex/underoverlap
+@dirrmtry share/texmf-dist/doc/latex/underoverlap
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

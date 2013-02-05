@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/classics/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/classics/classics.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/classics/classics.tex
+share/texmf-dist/tex/latex/classics/classics.sty
+@dirrmtry share/texmf-dist/tex/latex/classics
+@dirrmtry share/texmf-dist/doc/latex/classics
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
