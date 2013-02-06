@@ -6,8 +6,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/wallpaper/wallpapermanual.pdf
 share/texmf-dist/tex/latex/wallpaper/wallpaper.sty
 @dirrmtry share/texmf-dist/tex/latex/wallpaper
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/wallpaper/example/auto
 @dirrmtry share/texmf-dist/doc/latex/wallpaper/example
 @dirrmtry share/texmf-dist/doc/latex/wallpaper
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

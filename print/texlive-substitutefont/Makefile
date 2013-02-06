@@ -2,6 +2,7 @@
 
 PORTNAME=	substitutefont
 PORTVERSION=	20120710
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

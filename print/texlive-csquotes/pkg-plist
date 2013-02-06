@@ -7,6 +7,10 @@ share/texmf-dist/tex/latex/csquotes/csquotes.cfg
 share/texmf-dist/tex/latex/csquotes/csquotes.def
 share/texmf-dist/tex/latex/csquotes/csquotes.sty
 @dirrmtry share/texmf-dist/tex/latex/csquotes
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/csquotes
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

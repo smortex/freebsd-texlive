@@ -7,6 +7,12 @@ share/texmf-dist/tex/context/third/games/games-hex.tex
 share/texmf-dist/tex/context/third/games/holz280.jpg
 share/texmf-dist/tex/context/third/games/t-games.tex
 @dirrmtry share/texmf-dist/tex/context/third/games
+@dirrmtry share/texmf-dist/tex/context/third
+@dirrmtry share/texmf-dist/tex/context
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/context/third/games
+@dirrmtry share/texmf-dist/doc/context/third
+@dirrmtry share/texmf-dist/doc/context
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

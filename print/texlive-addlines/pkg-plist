@@ -5,7 +5,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/addlines/addlines.ins
 share/texmf-dist/tex/latex/addlines/addlines.sty
 @dirrmtry share/texmf-dist/tex/latex/addlines
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/addlines
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/addlines
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -10,8 +10,15 @@ share/texmf-dist/tex/latex/nomencl/sample02.cfg
 share/texmf-dist/tex/latex/nomencl/sample04.cfg
 share/texmf-dist/tex/latex/nomencl/sample05.cfg
 @dirrmtry share/texmf-dist/tex/latex/nomencl
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/nomencl
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/makeindex/nomencl
+@dirrmtry share/texmf-dist/makeindex
 @dirrmtry share/texmf-dist/doc/latex/nomencl
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

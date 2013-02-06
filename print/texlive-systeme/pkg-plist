@@ -4,6 +4,10 @@
 share/texmf-dist/tex/generic/systeme/systeme.sty
 share/texmf-dist/tex/generic/systeme/systeme.tex
 @dirrmtry share/texmf-dist/tex/generic/systeme
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/systeme
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

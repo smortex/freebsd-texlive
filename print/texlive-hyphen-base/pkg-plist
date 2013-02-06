@@ -10,5 +10,7 @@ share/texmf/tex/generic/hyphen/hypht1.tex
 share/texmf/tex/generic/hyphen/zerohyph.tex
 @dirrmtry share/texmf/tex/generic/hyphen
 @dirrmtry share/texmf/tex/generic/config
+@dirrmtry share/texmf/tex/generic
+@dirrmtry share/texmf/tex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -8,7 +8,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/typogrid/typogrid.ins
 share/texmf-dist/tex/latex/typogrid/typogrid.sty
 @dirrmtry share/texmf-dist/tex/latex/typogrid
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/typogrid
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/typogrid
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

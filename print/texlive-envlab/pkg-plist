@@ -9,7 +9,13 @@
 share/texmf-dist/tex/latex/envlab/envlab.cfg
 share/texmf-dist/tex/latex/envlab/envlab.sty
 @dirrmtry share/texmf-dist/tex/latex/envlab
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/envlab
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/envlab
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

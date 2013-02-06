@@ -13,7 +13,13 @@ share/texmf-dist/tex/plain/cweb/pdfwebmac.tex
 %%PORTDOCS%%share/texmf/doc/man/man1/cweb.1
 %%PORTDOCS%%share/texmf/doc/man/man1/cweb.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/plain/cweb
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/plain/cweb
+@dirrmtry share/texmf-dist/doc/plain
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -2,6 +2,7 @@
 
 PORTNAME=	texlive.infra
 PORTVERSION=	20121112
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

@@ -13,10 +13,15 @@ share/texmf-dist/fonts/opentype/public/punknova/punknova-boldslanted.otf
 share/texmf-dist/fonts/opentype/public/punknova/punknova-regular.otf
 share/texmf-dist/fonts/opentype/public/punknova/punknova-slanted.otf
 @dirrmtry share/texmf-dist/fonts/opentype/public/punknova
+@dirrmtry share/texmf-dist/fonts/opentype/public
+@dirrmtry share/texmf-dist/fonts/opentype
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/punknova/tools
 @dirrmtry share/texmf-dist/doc/fonts/punknova/source
 @dirrmtry share/texmf-dist/doc/fonts/punknova/documentation/documentation-sources
 @dirrmtry share/texmf-dist/doc/fonts/punknova/documentation
 @dirrmtry share/texmf-dist/doc/fonts/punknova
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

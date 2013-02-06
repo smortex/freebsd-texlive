@@ -7,8 +7,14 @@ share/texmf-dist/dvips/pst-fractal/pst-fractal.pro
 share/texmf-dist/tex/generic/pst-fractal/pst-fractal.tex
 share/texmf-dist/tex/latex/pst-fractal/pst-fractal.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-fractal
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/pst-fractal
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/dvips/pst-fractal
+@dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/generic/pst-fractal
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

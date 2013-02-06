@@ -287,8 +287,15 @@ share/texmf-dist/tex/generic/babel/usorbian.sty
 share/texmf-dist/tex/generic/babel/welsh.ldf
 share/texmf-dist/tex/generic/babel/welsh.sty
 @dirrmtry share/texmf-dist/tex/generic/babel
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/babel
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/makeindex/babel
+@dirrmtry share/texmf-dist/makeindex
 @dirrmtry share/texmf-dist/doc/generic/babel
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

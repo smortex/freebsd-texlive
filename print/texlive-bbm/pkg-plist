@@ -95,7 +95,14 @@ share/texmf-dist/fonts/tfm/public/bbm/bbmtt12.tfm
 share/texmf-dist/fonts/tfm/public/bbm/bbmtt8.tfm
 share/texmf-dist/fonts/tfm/public/bbm/bbmtt9.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/bbm
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/bbm
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/bbm
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

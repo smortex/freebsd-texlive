@@ -38,9 +38,16 @@ share/texmf-dist/tex/latex/morehype/morehype.RLS
 share/texmf-dist/tex/latex/morehype/texblog.fdf
 share/texmf-dist/tex/latex/morehype/texlinks.sty
 @dirrmtry share/texmf-dist/tex/latex/morehype
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/morehype
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/morehype/blogdemo/writings
 @dirrmtry share/texmf-dist/doc/latex/morehype/blogdemo/hellowor
+@dirrmtry share/texmf-dist/doc/latex/morehype/blogdemo
 @dirrmtry share/texmf-dist/doc/latex/morehype
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

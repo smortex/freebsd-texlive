@@ -25,8 +25,15 @@
 %%PORTSRC%%share/texmf-dist/source/generic/tap/tabcv/tapcv.awk
 share/texmf-dist/tex/generic/tap/tap.tex
 @dirrmtry share/texmf-dist/tex/generic/tap
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/tap/tabcv/sampdos
 @dirrmtry share/texmf-dist/source/generic/tap/tabcv
+@dirrmtry share/texmf-dist/source/generic/tap
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/generic/tap
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

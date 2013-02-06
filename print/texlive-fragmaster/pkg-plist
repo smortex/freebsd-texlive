@@ -16,5 +16,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/fragmaster/fragmaster.pdf
 @dirrmtry share/texmf-dist/doc/support/fragmaster/example
 @dirrmtry share/texmf-dist/doc/support/fragmaster
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

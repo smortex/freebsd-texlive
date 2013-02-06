@@ -6,6 +6,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/bpolynomial/examples.mp
 share/texmf-dist/metapost/bpolynomial/bpolynomial.mp
 @dirrmtry share/texmf-dist/metapost/bpolynomial
+@dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/doc/metapost/bpolynomial
+@dirrmtry share/texmf-dist/doc/metapost
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

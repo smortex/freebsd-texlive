@@ -9,9 +9,20 @@ share/texmf-dist/fonts/type1/jmn/hans/hans-sh.pfm
 share/texmf-dist/fonts/type1/jmn/hans/hans.pfb
 share/texmf-dist/fonts/type1/jmn/hans/hans.pfm
 @dirrmtry share/texmf-dist/fonts/type1/jmn/hans
+@dirrmtry share/texmf-dist/fonts/type1/jmn
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/jmn/hans
+@dirrmtry share/texmf-dist/fonts/tfm/jmn
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/map/dvips/jmn
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/enc/dvips/jmn
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
 @dirrmtry share/texmf-dist/fonts/afm/jmn/hans
+@dirrmtry share/texmf-dist/fonts/afm/jmn
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

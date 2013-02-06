@@ -20,8 +20,15 @@ share/texmf-dist/tex/latex/gatech-thesis/gatech-thesis-losa.sty
 share/texmf-dist/tex/latex/gatech-thesis/gatech-thesis-patch.sty
 share/texmf-dist/tex/latex/gatech-thesis/gatech-thesis.cls
 @dirrmtry share/texmf-dist/tex/latex/gatech-thesis
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/makeindex/gatech-thesis
+@dirrmtry share/texmf-dist/makeindex
 @dirrmtry share/texmf-dist/doc/latex/gatech-thesis
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/gatech-thesis
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

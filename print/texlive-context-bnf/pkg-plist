@@ -3,6 +3,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/context/third/bnf/t-bnf.pdf
 share/texmf-dist/tex/context/third/bnf/t-bnf.tex
 @dirrmtry share/texmf-dist/tex/context/third/bnf
+@dirrmtry share/texmf-dist/tex/context/third
+@dirrmtry share/texmf-dist/tex/context
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/context/third/bnf
+@dirrmtry share/texmf-dist/doc/context/third
+@dirrmtry share/texmf-dist/doc/context
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

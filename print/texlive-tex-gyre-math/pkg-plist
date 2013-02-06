@@ -25,6 +25,11 @@
 share/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyrepagellamath-regular.otf
 share/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyretermesmath-regular.otf
 @dirrmtry share/texmf-dist/fonts/opentype/public/tex-gyre-math
+@dirrmtry share/texmf-dist/fonts/opentype/public
+@dirrmtry share/texmf-dist/fonts/opentype
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/tex-gyre-math
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

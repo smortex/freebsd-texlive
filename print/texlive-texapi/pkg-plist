@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/texapi/texapi-doc.tex
 share/texmf-dist/tex/generic/texapi/texapi.tex
 @dirrmtry share/texmf-dist/tex/generic/texapi
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/texapi
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

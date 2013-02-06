@@ -172,8 +172,14 @@ share/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
 share/texmf-dist/tex/latex/unicode-math/unicode-math.lua
 share/texmf-dist/tex/latex/unicode-math/unicode-math.sty
 @dirrmtry share/texmf-dist/tex/latex/unicode-math
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/unicode-math/testfiles
 @dirrmtry share/texmf-dist/source/latex/unicode-math
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/unicode-math
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -55,9 +55,11 @@ share/tlpkg/TeXLive/waitVariableX.pm
 share/tlpkg/installer/config.guess
 @dirrmtry share/tlpkg/installer
 @dirrmtry share/tlpkg/TeXLive
-@dirrmtry share/tlpkg
+@dirrmtry share/texmf/web2c
+@dirrmtry share/texmf/scripts/texlive
+@dirrmtry share/texmf/scripts
 @dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/readme-txt.dir
-@dirrmtry share/readme-html.dir
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

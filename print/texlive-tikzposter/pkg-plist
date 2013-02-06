@@ -11,7 +11,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/tikzposter/tikzposter.ins
 share/texmf-dist/tex/latex/tikzposter/tikzposter.cls
 @dirrmtry share/texmf-dist/tex/latex/tikzposter
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/tikzposter
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/tikzposter
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

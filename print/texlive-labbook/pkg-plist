@@ -10,7 +10,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/labbook/labbook.ins
 share/texmf-dist/tex/latex/labbook/labbook.cls
 @dirrmtry share/texmf-dist/tex/latex/labbook
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/labbook
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/labbook
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

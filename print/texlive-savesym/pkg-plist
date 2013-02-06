@@ -1,4 +1,6 @@
 share/texmf-dist/tex/latex/savesym/savesym.sty
 @dirrmtry share/texmf-dist/tex/latex/savesym
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

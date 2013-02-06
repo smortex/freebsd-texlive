@@ -6,7 +6,13 @@
 %%PORTSRC%%share/texmf-dist/source/generic/pst-soroban/Makefile
 share/texmf-dist/tex/latex/pst-soroban/pst-soroban.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-soroban
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/pst-soroban
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/generic/pst-soroban
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

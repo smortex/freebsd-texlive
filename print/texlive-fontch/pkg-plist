@@ -6,6 +6,10 @@ share/texmf-dist/tex/plain/fontch/bsymbols.tex
 share/texmf-dist/tex/plain/fontch/fontch.tex
 share/texmf-dist/tex/plain/fontch/fontch_doc.tex
 @dirrmtry share/texmf-dist/tex/plain/fontch
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/plain/fontch
+@dirrmtry share/texmf-dist/doc/plain
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

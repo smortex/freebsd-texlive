@@ -59,9 +59,20 @@ share/texmf-dist/fonts/vf/adobe/utopia/putro7t.vf
 share/texmf-dist/fonts/vf/adobe/utopia/putro8c.vf
 share/texmf-dist/fonts/vf/adobe/utopia/putro8t.vf
 @dirrmtry share/texmf-dist/fonts/vf/adobe/utopia
+@dirrmtry share/texmf-dist/fonts/vf/adobe
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/type1/adobe/utopia
+@dirrmtry share/texmf-dist/fonts/type1/adobe
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/adobe/utopia
+@dirrmtry share/texmf-dist/fonts/tfm/adobe
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/afm/adobe/utopia
+@dirrmtry share/texmf-dist/fonts/afm/adobe
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/utopia
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

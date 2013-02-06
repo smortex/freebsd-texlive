@@ -6,7 +6,13 @@
 %%PORTSRC%%share/texmf-dist/source/generic/pst-platon/Makefile
 share/texmf-dist/tex/latex/pst-platon/pst-platon.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-platon
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/pst-platon
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/generic/pst-platon
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

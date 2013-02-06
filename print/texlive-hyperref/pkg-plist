@@ -86,9 +86,15 @@ share/texmf-dist/tex/latex/hyperref/puenc.def
 share/texmf-dist/tex/latex/hyperref/puvnenc.def
 share/texmf-dist/tex/latex/hyperref/xr-hyper.sty
 @dirrmtry share/texmf-dist/tex/latex/hyperref
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/hyperref/test
 @dirrmtry share/texmf-dist/source/latex/hyperref/doc
 @dirrmtry share/texmf-dist/source/latex/hyperref
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/hyperref
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

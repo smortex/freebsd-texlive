@@ -2,6 +2,7 @@
 
 PORTNAME=	tex-gyre-math
 PORTVERSION=	20121205
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

@@ -3,6 +3,12 @@ share/texmf-dist/tex/context/third/ruby/t-ruby.mkii
 share/texmf-dist/tex/context/third/ruby/t-ruby.mkiv
 share/texmf-dist/tex/context/third/ruby/t-ruby.mkvi
 @dirrmtry share/texmf-dist/tex/context/third/ruby
+@dirrmtry share/texmf-dist/tex/context/third
+@dirrmtry share/texmf-dist/tex/context
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/context/third/ruby
+@dirrmtry share/texmf-dist/doc/context/third
+@dirrmtry share/texmf-dist/doc/context
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

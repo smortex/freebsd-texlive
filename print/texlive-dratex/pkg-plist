@@ -5,6 +5,10 @@ share/texmf-dist/tex/generic/dratex/DraTex.sty
 share/texmf-dist/tex/generic/dratex/TeXProject.sty
 share/texmf-dist/tex/generic/dratex/wotree.sty
 @dirrmtry share/texmf-dist/tex/generic/dratex
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/dratex
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

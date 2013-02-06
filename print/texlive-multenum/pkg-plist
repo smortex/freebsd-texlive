@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/multenum/multienum.sample
 share/texmf-dist/tex/latex/multenum/multienum.sty
 @dirrmtry share/texmf-dist/tex/latex/multenum
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/multenum
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

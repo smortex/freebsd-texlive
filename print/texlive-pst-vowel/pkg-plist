@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst-vowel/pst-vowel.tex
 share/texmf-dist/tex/latex/pst-vowel/pst-vowel.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-vowel
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/pst-vowel
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

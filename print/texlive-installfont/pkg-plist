@@ -4,8 +4,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/installfont/installfont.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/installfont/installfont.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/installfont/manifest.txt
-share/texmf-dist/scripts/installfont/installfont-tl
-@dirrmtry share/texmf-dist/scripts/installfont
 @dirrmtry share/texmf-dist/doc/support/installfont
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

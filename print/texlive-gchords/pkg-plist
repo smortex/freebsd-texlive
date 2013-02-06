@@ -5,6 +5,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/gchords/get2knowu.tex
 share/texmf-dist/tex/latex/gchords/gchords.sty
 @dirrmtry share/texmf-dist/tex/latex/gchords
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/gchords
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

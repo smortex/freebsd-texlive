@@ -67,7 +67,11 @@ share/texmf-dist/tex/latex/tablor/tablor-xetex.sty
 share/texmf-dist/tex/latex/tablor/tablor.cfg
 share/texmf-dist/tex/latex/tablor/tablor.sty
 @dirrmtry share/texmf-dist/tex/latex/tablor
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/tablor/Figures
 @dirrmtry share/texmf-dist/doc/latex/tablor
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

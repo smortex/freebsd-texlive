@@ -79,8 +79,15 @@ share/texmf-dist/tex/latex/shipunov/punct.sty
 share/texmf-dist/tex/latex/shipunov/sltables.sty
 share/texmf-dist/tex/latex/shipunov/starfn.sty
 @dirrmtry share/texmf-dist/tex/latex/shipunov
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/scripts/shipunov
+@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/latex/shipunov
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/shipunov
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

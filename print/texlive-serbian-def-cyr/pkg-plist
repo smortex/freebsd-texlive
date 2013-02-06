@@ -5,6 +5,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/serbian-def-cyr/usage.tex
 share/texmf-dist/tex/latex/serbian-def-cyr/serbian-def-cyr.sty
 @dirrmtry share/texmf-dist/tex/latex/serbian-def-cyr
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/serbian-def-cyr
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

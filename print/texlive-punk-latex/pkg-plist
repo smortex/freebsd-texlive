@@ -4,6 +4,10 @@
 share/texmf-dist/tex/latex/punk-latex/ot1pnk.fd
 share/texmf-dist/tex/latex/punk-latex/punk.sty
 @dirrmtry share/texmf-dist/tex/latex/punk-latex
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/punk-latex
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

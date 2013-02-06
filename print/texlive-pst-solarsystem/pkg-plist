@@ -8,9 +8,17 @@ share/texmf-dist/dvips/pst-solarsystem/pst-solarsystem.pro
 share/texmf-dist/tex/generic/pst-solarsystem/pst-solarsystem.tex
 share/texmf-dist/tex/latex/pst-solarsystem/pst-solarsystem.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-solarsystem
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/pst-solarsystem
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/pst-solarsystem
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/dvips/pst-solarsystem
+@dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/generic/pst-solarsystem
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

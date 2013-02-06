@@ -7,8 +7,15 @@ share/texmf-dist/makeindex/bibarts/gbibarts.ist
 %%PORTSRC%%share/texmf-dist/source/latex/bibarts/gbibsort.c
 share/texmf-dist/tex/latex/bibarts/bibarts.sty
 @dirrmtry share/texmf-dist/tex/latex/bibarts
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/bibarts
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/makeindex/bibarts
+@dirrmtry share/texmf-dist/makeindex
 @dirrmtry share/texmf-dist/doc/latex/bibarts
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

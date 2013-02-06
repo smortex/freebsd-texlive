@@ -763,12 +763,29 @@ share/texmf-dist/tex/latex/sourcesanspro/TS1SourceSansPro-TOsF.fd
 share/texmf-dist/tex/latex/sourcesanspro/sourcesanspro-type1-autoinst.sty
 share/texmf-dist/tex/latex/sourcesanspro/sourcesanspro.sty
 @dirrmtry share/texmf-dist/tex/latex/sourcesanspro
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/vf/adobe/sourcesanspro
+@dirrmtry share/texmf-dist/fonts/vf/adobe
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/type1/adobe/sourcesanspro
+@dirrmtry share/texmf-dist/fonts/type1/adobe
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/adobe/sourcesanspro
+@dirrmtry share/texmf-dist/fonts/tfm/adobe
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/opentype/adobe/sourcesanspro
+@dirrmtry share/texmf-dist/fonts/opentype/adobe
+@dirrmtry share/texmf-dist/fonts/opentype
 @dirrmtry share/texmf-dist/fonts/map/dvips/sourcesanspro
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/enc/dvips/sourcesanspro
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/latex/sourcesanspro
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

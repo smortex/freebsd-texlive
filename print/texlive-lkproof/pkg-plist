@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/lkproof/proofeg.tex
 share/texmf-dist/tex/latex/lkproof/proof.sty
 @dirrmtry share/texmf-dist/tex/latex/lkproof
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/lkproof
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

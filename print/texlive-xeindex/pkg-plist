@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xeindex/xeindex.tex
 share/texmf-dist/tex/xelatex/xeindex/xeindex.sty
 @dirrmtry share/texmf-dist/tex/xelatex/xeindex
+@dirrmtry share/texmf-dist/tex/xelatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/xelatex/xeindex
+@dirrmtry share/texmf-dist/doc/xelatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

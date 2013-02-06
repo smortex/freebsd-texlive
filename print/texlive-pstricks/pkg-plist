@@ -70,10 +70,16 @@ share/texmf-dist/tex/latex/pstricks/pst-key.sty
 share/texmf-dist/tex/latex/pstricks/pstcol.sty
 share/texmf-dist/tex/latex/pstricks/pstricks.sty
 @dirrmtry share/texmf-dist/tex/latex/pstricks
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/pstricks/config
 @dirrmtry share/texmf-dist/tex/generic/pstricks
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/dvips/pstricks
+@dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/generic/pstricks/images
 @dirrmtry share/texmf-dist/doc/generic/pstricks
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

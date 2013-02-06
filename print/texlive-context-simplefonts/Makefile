@@ -2,6 +2,7 @@
 
 PORTNAME=	context-simplefonts
 PORTVERSION=	20120727
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

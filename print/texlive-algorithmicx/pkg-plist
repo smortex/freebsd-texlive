@@ -8,6 +8,10 @@ share/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
 share/texmf-dist/tex/latex/algorithmicx/algpascal.sty
 share/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 @dirrmtry share/texmf-dist/tex/latex/algorithmicx
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/algorithmicx
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

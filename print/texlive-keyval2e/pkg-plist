@@ -5,6 +5,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/keyval2e/keyval2e-guide.tex
 share/texmf-dist/tex/latex/keyval2e/keyval2e.sty
 @dirrmtry share/texmf-dist/tex/latex/keyval2e
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/keyval2e
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -612,13 +612,31 @@ share/texmf-dist/tex/latex/kurier/ts1kurierl.fd
 share/texmf-dist/tex/latex/kurier/ts1kurierlc.fd
 share/texmf-dist/tex/plain/kurier/kurier-math.tex
 @dirrmtry share/texmf-dist/tex/plain/kurier
+@dirrmtry share/texmf-dist/tex/plain
 @dirrmtry share/texmf-dist/tex/latex/kurier
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/type1/nowacki/kurier
+@dirrmtry share/texmf-dist/fonts/type1/nowacki
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/nowacki/kurier
+@dirrmtry share/texmf-dist/fonts/tfm/nowacki
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/opentype/nowacki/kurier
+@dirrmtry share/texmf-dist/fonts/opentype/nowacki
+@dirrmtry share/texmf-dist/fonts/opentype
 @dirrmtry share/texmf-dist/fonts/map/dvips/kurier
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/enc/dvips/kurier
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
 @dirrmtry share/texmf-dist/fonts/afm/nowacki/kurier
+@dirrmtry share/texmf-dist/fonts/afm/nowacki
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/kurier
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

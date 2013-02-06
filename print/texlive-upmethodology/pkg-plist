@@ -28,6 +28,10 @@ share/texmf-dist/tex/latex/upmethodology/upmethodology-spec.sty
 share/texmf-dist/tex/latex/upmethodology/upmethodology-task.sty
 share/texmf-dist/tex/latex/upmethodology/upmethodology-version.sty
 @dirrmtry share/texmf-dist/tex/latex/upmethodology
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/upmethodology
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

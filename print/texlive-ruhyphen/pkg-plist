@@ -33,6 +33,10 @@ share/texmf-dist/tex/generic/ruhyphen/ruhyphmg.tex
 share/texmf-dist/tex/generic/ruhyphen/ruhyphvl.tex
 share/texmf-dist/tex/generic/ruhyphen/ruhyphzn.tex
 @dirrmtry share/texmf-dist/tex/generic/ruhyphen
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/ruhyphen
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/keyreader/keyreader-guide.tex
 share/texmf-dist/tex/latex/keyreader/keyreader.sty
 @dirrmtry share/texmf-dist/tex/latex/keyreader
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/keyreader
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

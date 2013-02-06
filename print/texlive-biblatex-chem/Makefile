@@ -2,6 +2,7 @@
 
 PORTNAME=	biblatex-chem
 PORTVERSION=	20130128
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

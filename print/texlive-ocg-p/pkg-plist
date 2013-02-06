@@ -11,7 +11,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/ocg-p/ocg-p.tex
 share/texmf-dist/tex/latex/ocg-p/ocg-p.sty
 @dirrmtry share/texmf-dist/tex/latex/ocg-p
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/ocg-p/examples
 @dirrmtry share/texmf-dist/doc/latex/ocg-p
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

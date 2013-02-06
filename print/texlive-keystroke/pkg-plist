@@ -9,6 +9,10 @@ share/texmf-dist/tex/latex/keystroke/keystroke_middle.pdf
 share/texmf-dist/tex/latex/keystroke/keystroke_right.eps
 share/texmf-dist/tex/latex/keystroke/keystroke_right.pdf
 @dirrmtry share/texmf-dist/tex/latex/keystroke
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/keystroke
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

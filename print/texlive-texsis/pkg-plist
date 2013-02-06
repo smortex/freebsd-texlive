@@ -83,7 +83,14 @@ share/texmf-dist/tex/texsis/base/twin.txs
 share/texmf-dist/tex/texsis/config/texsis.ini
 @dirrmtry share/texmf-dist/tex/texsis/config
 @dirrmtry share/texmf-dist/tex/texsis/base
+@dirrmtry share/texmf-dist/tex/texsis
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/otherformats/texsis/base
+@dirrmtry share/texmf-dist/doc/otherformats/texsis
+@dirrmtry share/texmf-dist/doc/otherformats
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/texsis
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

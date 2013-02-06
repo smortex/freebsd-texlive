@@ -50,10 +50,21 @@ share/texmf-dist/tex/plain/misc/pdfcolor.tex
 share/texmf-dist/tex/plain/misc/tugboat.def
 share/texmf-dist/tex/plain/misc/xepsf.tex
 @dirrmtry share/texmf-dist/tex/plain/misc
+@dirrmtry share/texmf-dist/tex/plain
 @dirrmtry share/texmf-dist/tex/generic/misc
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/omega/otp/misc
+@dirrmtry share/texmf-dist/omega/otp
 @dirrmtry share/texmf-dist/omega/ocp/misc
+@dirrmtry share/texmf-dist/omega/ocp
+@dirrmtry share/texmf-dist/omega
 @dirrmtry share/texmf-dist/fonts/tfm/public/misc
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/misc
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
+@dirrmtry share/texmf-dist/fonts
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

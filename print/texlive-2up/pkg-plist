@@ -6,6 +6,10 @@
 share/texmf-dist/tex/generic/2up/2up.sty
 share/texmf-dist/tex/generic/2up/2up.tex
 @dirrmtry share/texmf-dist/tex/generic/2up
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/2up
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

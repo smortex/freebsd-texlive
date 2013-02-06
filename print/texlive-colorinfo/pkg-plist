@@ -2,6 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/colorinfo/colorinfo-test.tex
 share/texmf-dist/tex/latex/colorinfo/colorinfo.sty
 @dirrmtry share/texmf-dist/tex/latex/colorinfo
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/colorinfo
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

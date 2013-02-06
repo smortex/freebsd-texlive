@@ -9,8 +9,15 @@ share/texmf-dist/tex/generic/pst-pdgr/pst-pdgr.tex
 share/texmf-dist/tex/latex/pst-pdgr/pst-pdgr.cfg
 share/texmf-dist/tex/latex/pst-pdgr/pst-pdgr.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-pdgr
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/pst-pdgr
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/pst-pdgr
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/generic/pst-pdgr
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -2,6 +2,7 @@
 
 PORTNAME=	context-gnuplot
 PORTVERSION=	20120929
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

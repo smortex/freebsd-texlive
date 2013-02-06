@@ -6,6 +6,9 @@ share/texmf-dist/metapost/makecirc/ejemplos.mp
 share/texmf-dist/metapost/makecirc/latex.mp
 share/texmf-dist/metapost/makecirc/makecirc.mp
 @dirrmtry share/texmf-dist/metapost/makecirc
+@dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/doc/metapost/makecirc
+@dirrmtry share/texmf-dist/doc/metapost
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

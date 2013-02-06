@@ -4,7 +4,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/cclicenses/cclicenses.ins
 share/texmf-dist/tex/latex/cclicenses/cclicenses.sty
 @dirrmtry share/texmf-dist/tex/latex/cclicenses
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/cclicenses
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/cclicenses
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -2,6 +2,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/garrigues/article.txt
 share/texmf-dist/metapost/garrigues/garrigues.mp
 @dirrmtry share/texmf-dist/metapost/garrigues
+@dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/doc/metapost/garrigues
+@dirrmtry share/texmf-dist/doc/metapost
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

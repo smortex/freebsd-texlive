@@ -16,6 +16,10 @@ share/texmf-dist/tex/generic/pictex/prepictex.tex
 share/texmf-dist/tex/generic/pictex/texpictex.tex
 share/texmf-dist/tex/generic/pictex/tree.sty
 @dirrmtry share/texmf-dist/tex/generic/pictex
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/pictex
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

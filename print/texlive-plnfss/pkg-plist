@@ -17,6 +17,10 @@ share/texmf-dist/tex/plain/plnfss/t5cmr.pfd
 share/texmf-dist/tex/plain/plnfss/t5lm.pfd
 share/texmf-dist/tex/plain/plnfss/ts1lm.pfd
 @dirrmtry share/texmf-dist/tex/plain/plnfss
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/plain/plnfss
+@dirrmtry share/texmf-dist/doc/plain
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

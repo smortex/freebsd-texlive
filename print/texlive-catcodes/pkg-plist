@@ -11,7 +11,13 @@ share/texmf-dist/tex/generic/catcodes/catchdq.sty
 share/texmf-dist/tex/generic/catcodes/catcodes.RLS
 share/texmf-dist/tex/generic/catcodes/stacklet.sty
 @dirrmtry share/texmf-dist/tex/generic/catcodes
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/catcodes
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/generic/catcodes
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

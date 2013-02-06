@@ -5,5 +5,7 @@ share/texmf-dist/tex/latex/misc209/multind.sty
 share/texmf-dist/tex/latex/misc209/portland.sty
 share/texmf-dist/tex/latex/misc209/psboxit.sty
 @dirrmtry share/texmf-dist/tex/latex/misc209
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

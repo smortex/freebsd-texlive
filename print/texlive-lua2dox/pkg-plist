@@ -108,11 +108,18 @@ share/texmf-dist/scripts/lua2dox/lua.def
 share/texmf-dist/scripts/lua2dox/lua2dox.lua
 share/texmf-dist/scripts/lua2dox/lua2dox_lua
 @dirrmtry share/texmf-dist/scripts/lua2dox
+@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/support/lua2dox/examples/php/docs/html
+@dirrmtry share/texmf-dist/doc/support/lua2dox/examples/php/docs
 @dirrmtry share/texmf-dist/doc/support/lua2dox/examples/php
 @dirrmtry share/texmf-dist/doc/support/lua2dox/examples/lua/docs/html
+@dirrmtry share/texmf-dist/doc/support/lua2dox/examples/lua/docs
 @dirrmtry share/texmf-dist/doc/support/lua2dox/examples/lua
+@dirrmtry share/texmf-dist/doc/support/lua2dox/examples
 @dirrmtry share/texmf-dist/doc/support/lua2dox/docs/html
+@dirrmtry share/texmf-dist/doc/support/lua2dox/docs
 @dirrmtry share/texmf-dist/doc/support/lua2dox
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

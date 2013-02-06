@@ -2,6 +2,10 @@
 %%PORTDOCS%%share/texmf/doc/man/man1/texdiff.1
 %%PORTDOCS%%share/texmf/doc/man/man1/texdiff.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/doc/support/texdiff
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

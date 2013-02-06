@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/musixguit/musixguit_de.tex
 share/texmf-dist/tex/latex/musixguit/musixguit.sty
 @dirrmtry share/texmf-dist/tex/latex/musixguit
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/musixguit
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

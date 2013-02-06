@@ -9,7 +9,13 @@ share/texmf-dist/bibtex/bib/msc/biblio.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/msc/refman.tex
 share/texmf-dist/tex/latex/msc/msc.sty
 @dirrmtry share/texmf-dist/tex/latex/msc
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/msc
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bib/msc
+@dirrmtry share/texmf-dist/bibtex/bib
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

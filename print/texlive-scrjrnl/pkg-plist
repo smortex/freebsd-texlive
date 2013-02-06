@@ -5,7 +5,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/scrjrnl/scrjrnl.ins
 share/texmf-dist/tex/latex/scrjrnl/scrjrnl.cls
 @dirrmtry share/texmf-dist/tex/latex/scrjrnl
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/scrjrnl
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/scrjrnl
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

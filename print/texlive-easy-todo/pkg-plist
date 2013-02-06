@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/easy-todo/easy-todo.tex
 share/texmf-dist/tex/latex/easy-todo/easy-todo.sty
 @dirrmtry share/texmf-dist/tex/latex/easy-todo
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/easy-todo
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

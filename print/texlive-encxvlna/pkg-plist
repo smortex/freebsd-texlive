@@ -6,7 +6,12 @@
 share/texmf-dist/tex/latex/encxvlna/encxvlna.sty
 share/texmf-dist/tex/plain/encxvlna/encxvlna.tex
 @dirrmtry share/texmf-dist/tex/plain/encxvlna
+@dirrmtry share/texmf-dist/tex/plain
 @dirrmtry share/texmf-dist/tex/latex/encxvlna
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/encxvlna
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

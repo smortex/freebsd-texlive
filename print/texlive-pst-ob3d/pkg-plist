@@ -7,8 +7,15 @@
 share/texmf-dist/tex/generic/pst-ob3d/pst-ob3d.tex
 share/texmf-dist/tex/latex/pst-ob3d/pst-ob3d.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-ob3d
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/pst-ob3d
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/pst-ob3d
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/generic/pst-ob3d
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

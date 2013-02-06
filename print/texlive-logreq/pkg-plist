@@ -12,7 +12,11 @@
 share/texmf-dist/tex/latex/logreq/logreq.def
 share/texmf-dist/tex/latex/logreq/logreq.sty
 @dirrmtry share/texmf-dist/tex/latex/logreq
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/logreq/examples
 @dirrmtry share/texmf-dist/doc/latex/logreq
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

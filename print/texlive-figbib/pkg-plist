@@ -9,7 +9,13 @@ share/texmf-dist/bibtex/bst/figbib/figbib1.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/figbib/smiley.eps
 share/texmf-dist/tex/latex/figbib/figbib.sty
 @dirrmtry share/texmf-dist/tex/latex/figbib
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/figbib
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/figbib
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

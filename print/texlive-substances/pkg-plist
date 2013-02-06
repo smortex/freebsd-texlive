@@ -5,6 +5,10 @@
 share/texmf-dist/tex/latex/substances/substances-default.def
 share/texmf-dist/tex/latex/substances/substances.sty
 @dirrmtry share/texmf-dist/tex/latex/substances
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/substances
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

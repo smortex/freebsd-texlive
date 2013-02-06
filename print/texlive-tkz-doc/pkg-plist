@@ -2,6 +2,10 @@
 share/texmf-dist/tex/latex/tkz-doc/tkz-doc.cls
 share/texmf-dist/tex/latex/tkz-doc/tkzexample.sty
 @dirrmtry share/texmf-dist/tex/latex/tkz-doc
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/tkz-doc
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -20,6 +20,12 @@ share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-tamil.tec
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-tel.map
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-tel.tec
 @dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans
+@dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping
+@dirrmtry share/texmf-dist/fonts/misc/xetex
+@dirrmtry share/texmf-dist/fonts/misc
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/xelatex/xetex-itrans
+@dirrmtry share/texmf-dist/doc/xelatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

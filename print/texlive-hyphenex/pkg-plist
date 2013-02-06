@@ -7,6 +7,10 @@
 %%PORTSRC%%share/texmf-dist/source/generic/hyphenex/test.tex
 share/texmf-dist/tex/generic/hyphenex/ushyphex.tex
 @dirrmtry share/texmf-dist/tex/generic/hyphenex
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/hyphenex
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

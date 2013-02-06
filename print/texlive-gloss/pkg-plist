@@ -8,8 +8,15 @@ share/texmf-dist/bibtex/bst/gloss/glsshort.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/gloss/sample.tex
 share/texmf-dist/tex/latex/gloss/gloss.sty
 @dirrmtry share/texmf-dist/tex/latex/gloss
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/gloss
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/gloss
+@dirrmtry share/texmf-dist/bibtex/bst
 @dirrmtry share/texmf-dist/bibtex/bib/gloss
+@dirrmtry share/texmf-dist/bibtex/bib
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

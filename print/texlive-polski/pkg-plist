@@ -31,7 +31,13 @@ share/texmf-dist/tex/latex/polski/plprefix.sty
 share/texmf-dist/tex/latex/polski/polski.sty
 share/texmf-dist/tex/latex/polski/qxenc.def
 @dirrmtry share/texmf-dist/tex/latex/polski
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/polski
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/polski
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

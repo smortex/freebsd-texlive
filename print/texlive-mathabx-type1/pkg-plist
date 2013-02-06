@@ -26,7 +26,14 @@ share/texmf-dist/fonts/type1/public/mathabx-type1/mathx7.pfb
 share/texmf-dist/fonts/type1/public/mathabx-type1/mathx8.pfb
 share/texmf-dist/fonts/type1/public/mathabx-type1/mathx9.pfb
 @dirrmtry share/texmf-dist/fonts/type1/public/mathabx-type1
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/map/dvips/mathabx-type1
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/mathabx-type1
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

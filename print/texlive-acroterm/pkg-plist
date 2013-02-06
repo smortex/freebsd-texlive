@@ -4,7 +4,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/acroterm/acroterm.ins
 share/texmf-dist/tex/latex/acroterm/acroterm.sty
 @dirrmtry share/texmf-dist/tex/latex/acroterm
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/acroterm
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/acroterm
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

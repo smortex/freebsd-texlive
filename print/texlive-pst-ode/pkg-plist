@@ -6,8 +6,14 @@ share/texmf-dist/dvips/pst-ode/pst-ode.pro
 share/texmf-dist/tex/generic/pst-ode/pst-ode.tex
 share/texmf-dist/tex/latex/pst-ode/pst-ode.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-ode
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/pst-ode
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/dvips/pst-ode
+@dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/generic/pst-ode
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

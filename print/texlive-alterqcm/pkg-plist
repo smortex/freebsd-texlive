@@ -41,9 +41,14 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/alterqcm/latex/doc_aq-main.tex
 share/texmf-dist/tex/latex/alterqcm/alterqcm.sty
 @dirrmtry share/texmf-dist/tex/latex/alterqcm
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/alterqcm/latex
 @dirrmtry share/texmf-dist/doc/latex/alterqcm/examples/pdf
 @dirrmtry share/texmf-dist/doc/latex/alterqcm/examples/latex
+@dirrmtry share/texmf-dist/doc/latex/alterqcm/examples
 @dirrmtry share/texmf-dist/doc/latex/alterqcm
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

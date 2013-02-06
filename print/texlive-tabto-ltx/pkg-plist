@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tabto-ltx/tabto.txt
 share/texmf-dist/tex/latex/tabto-ltx/tabto.sty
 @dirrmtry share/texmf-dist/tex/latex/tabto-ltx
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/tabto-ltx
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

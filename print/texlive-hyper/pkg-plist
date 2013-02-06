@@ -43,9 +43,15 @@ share/texmf-dist/tex/latex/hyper/theorem.hyp
 share/texmf-dist/tex/latex/hyper/upref.hyp
 share/texmf-dist/tex/latex/hyper/xr.hyp
 @dirrmtry share/texmf-dist/tex/latex/hyper
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/hyper
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/hyper/scontrib
 @dirrmtry share/texmf-dist/doc/latex/hyper/contrib
 @dirrmtry share/texmf-dist/doc/latex/hyper
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

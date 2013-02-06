@@ -57,8 +57,12 @@ share/texmf-dist/tex/latex/europecv/europasslogo.eps
 share/texmf-dist/tex/latex/europecv/europasslogo.pdf
 share/texmf-dist/tex/latex/europecv/europecv.cls
 @dirrmtry share/texmf-dist/tex/latex/europecv
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/europecv/templates
 @dirrmtry share/texmf-dist/doc/latex/europecv/examples
 @dirrmtry share/texmf-dist/doc/latex/europecv
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

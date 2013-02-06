@@ -2,6 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/verbasef/verbasef-doc.tex
 share/texmf-dist/tex/latex/verbasef/verbasef.sty
 @dirrmtry share/texmf-dist/tex/latex/verbasef
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/verbasef
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

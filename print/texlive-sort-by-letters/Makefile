@@ -2,6 +2,7 @@
 
 PORTNAME=	sort-by-letters
 PORTVERSION=	20120724
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

@@ -60,7 +60,12 @@ share/texmf-dist/fonts/opentype/public/stix/STIXSizTwoSymReg.otf
 share/texmf-dist/fonts/opentype/public/stix/STIXVar.otf
 share/texmf-dist/fonts/opentype/public/stix/STIXVarBol.otf
 @dirrmtry share/texmf-dist/fonts/opentype/public/stix
+@dirrmtry share/texmf-dist/fonts/opentype/public
+@dirrmtry share/texmf-dist/fonts/opentype
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/stix/Glyphs
 @dirrmtry share/texmf-dist/doc/fonts/stix
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

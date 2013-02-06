@@ -100,8 +100,14 @@ share/texmf-dist/tex/luatex/luatexja/patches/ltj-unicode-ccfix.tex
 @dirrmtry share/texmf-dist/tex/luatex/luatexja/ltjclasses
 @dirrmtry share/texmf-dist/tex/luatex/luatexja/addons
 @dirrmtry share/texmf-dist/tex/luatex/luatexja
+@dirrmtry share/texmf-dist/tex/luatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/luatex/luatexja/tool
 @dirrmtry share/texmf-dist/source/luatex/luatexja
+@dirrmtry share/texmf-dist/source/luatex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/luatex/luatexja
+@dirrmtry share/texmf-dist/doc/luatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

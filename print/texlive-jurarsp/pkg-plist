@@ -8,8 +8,16 @@ share/texmf-dist/bibtex/bst/jurarsp/jurarsp.bst
 share/texmf-dist/tex/latex/jurarsp/jurarsp.cfg
 share/texmf-dist/tex/latex/jurarsp/jurarsp.sty
 @dirrmtry share/texmf-dist/tex/latex/jurarsp
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/jurarsp
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/jurarsp
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/jurarsp
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

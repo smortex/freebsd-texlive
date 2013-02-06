@@ -3,6 +3,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/hatching/htchuse_.tex
 share/texmf-dist/metapost/hatching/hatching.mp
 @dirrmtry share/texmf-dist/metapost/hatching
+@dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/doc/metapost/hatching
+@dirrmtry share/texmf-dist/doc/metapost
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

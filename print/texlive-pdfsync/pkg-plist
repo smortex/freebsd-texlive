@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pdfsync/pdfsync-doc.tex
 share/texmf-dist/tex/latex/pdfsync/pdfsync.sty
 @dirrmtry share/texmf-dist/tex/latex/pdfsync
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/pdfsync
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -4,7 +4,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/xpatch/xpatch.ins
 share/texmf-dist/tex/latex/xpatch/xpatch.sty
 @dirrmtry share/texmf-dist/tex/latex/xpatch
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/xpatch
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/xpatch
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

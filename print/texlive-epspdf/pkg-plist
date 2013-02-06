@@ -20,7 +20,12 @@ share/texmf-dist/scripts/epspdf/epspdfrc.rb
 share/texmf-dist/scripts/epspdf/makegray.pro
 %%PORTDOCS%%share/texmf/doc/info/epspdf.info
 @dirrmtry share/texmf/doc/info
+@dirrmtry share/texmf/doc
+@dirrmtry share/texmf-dist/scripts/epspdf
+@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/support/epspdf/images
 @dirrmtry share/texmf-dist/doc/support/epspdf
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

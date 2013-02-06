@@ -8,8 +8,13 @@ share/texmf-dist/tex/latex/gmdoc/gmdoc.sty
 share/texmf-dist/tex/latex/gmdoc/gmdocc.cls
 share/texmf-dist/tex/latex/gmdoc/gmoldcomm.sty
 @dirrmtry share/texmf-dist/tex/latex/gmdoc
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/makeindex/gmdoc
+@dirrmtry share/texmf-dist/makeindex
 @dirrmtry share/texmf-dist/doc/latex/gmdoc/basedrivers
 @dirrmtry share/texmf-dist/doc/latex/gmdoc
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

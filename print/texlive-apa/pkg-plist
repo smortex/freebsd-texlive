@@ -13,6 +13,10 @@ share/texmf-dist/tex/latex/apa/dutch.apa
 share/texmf-dist/tex/latex/apa/english.apa
 share/texmf-dist/tex/latex/apa/greek.apa
 @dirrmtry share/texmf-dist/tex/latex/apa
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/apa
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

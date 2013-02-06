@@ -1,4 +1,6 @@
 share/texmf-dist/fonts/sfd/dnp/DNP.sfd
 @dirrmtry share/texmf-dist/fonts/sfd/dnp
+@dirrmtry share/texmf-dist/fonts/sfd
+@dirrmtry share/texmf-dist/fonts
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

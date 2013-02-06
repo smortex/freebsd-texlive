@@ -37,6 +37,10 @@ share/texmf-dist/tex/latex/biblatex-chicago/cms-norsk.lbx
 share/texmf-dist/tex/latex/biblatex-chicago/cms-norwegian.lbx
 share/texmf-dist/tex/latex/biblatex-chicago/cms-nynorsk.lbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-chicago
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/biblatex-chicago
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -4,7 +4,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/collectbox/collectbox.ins
 share/texmf-dist/tex/latex/collectbox/collectbox.sty
 @dirrmtry share/texmf-dist/tex/latex/collectbox
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/collectbox
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/collectbox
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

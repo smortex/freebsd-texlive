@@ -9,6 +9,10 @@
 share/texmf/tex/generic/hyphen/grmhyph5.tex
 share/texmf/tex/generic/hyphen/grphyph5.tex
 @dirrmtry share/texmf/tex/generic/hyphen
+@dirrmtry share/texmf/tex/generic
+@dirrmtry share/texmf/tex
 @dirrmtry share/texmf/doc/generic/elhyphen
+@dirrmtry share/texmf/doc/generic
+@dirrmtry share/texmf/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

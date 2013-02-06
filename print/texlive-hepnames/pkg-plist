@@ -12,6 +12,10 @@ share/texmf-dist/tex/latex/hepnames/hepnames.sty
 share/texmf-dist/tex/latex/hepnames/hepnicenames.sty
 share/texmf-dist/tex/latex/hepnames/heppennames.sty
 @dirrmtry share/texmf-dist/tex/latex/hepnames
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/hepnames
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -12,6 +12,10 @@ share/texmf-dist/tex/latex/cmap/t2b.cmap
 share/texmf-dist/tex/latex/cmap/t2c.cmap
 share/texmf-dist/tex/latex/cmap/t5.cmap
 @dirrmtry share/texmf-dist/tex/latex/cmap
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/cmap
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

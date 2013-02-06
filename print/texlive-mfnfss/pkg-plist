@@ -15,7 +15,13 @@ share/texmf-dist/tex/latex/mfnfss/uygoth.fd
 share/texmf-dist/tex/latex/mfnfss/uyinit.fd
 share/texmf-dist/tex/latex/mfnfss/uyswab.fd
 @dirrmtry share/texmf-dist/tex/latex/mfnfss
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/mfnfss
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/mfnfss
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

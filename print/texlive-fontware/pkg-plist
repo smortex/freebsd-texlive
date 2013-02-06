@@ -7,5 +7,7 @@
 %%PORTDOCS%%share/texmf/doc/man/man1/vptovf.1
 %%PORTDOCS%%share/texmf/doc/man/man1/vptovf.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

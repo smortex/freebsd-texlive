@@ -5,6 +5,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/fontwrap/fontwrap_example.tex
 share/texmf-dist/tex/xelatex/fontwrap/fontwrap.sty
 @dirrmtry share/texmf-dist/tex/xelatex/fontwrap
+@dirrmtry share/texmf-dist/tex/xelatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/xelatex/fontwrap
+@dirrmtry share/texmf-dist/doc/xelatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

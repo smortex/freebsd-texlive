@@ -15,7 +15,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/sectionbox/sectionboxmanual.pdf
 share/texmf-dist/tex/latex/sectionbox/sectionbox.sty
 @dirrmtry share/texmf-dist/tex/latex/sectionbox
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/sectionbox/example
 @dirrmtry share/texmf-dist/doc/latex/sectionbox
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

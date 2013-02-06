@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/dpfloat/dpfloat.tex
 share/texmf-dist/tex/latex/dpfloat/dpfloat.sty
 @dirrmtry share/texmf-dist/tex/latex/dpfloat
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/dpfloat
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

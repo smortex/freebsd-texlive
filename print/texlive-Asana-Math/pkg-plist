@@ -3,7 +3,14 @@
 share/texmf-dist/fonts/opentype/public/Asana-Math/Asana-Math.otf
 share/texmf-dist/fonts/truetype/public/Asana-Math/Asana-Math.ttf
 @dirrmtry share/texmf-dist/fonts/truetype/public/Asana-Math
+@dirrmtry share/texmf-dist/fonts/truetype/public
+@dirrmtry share/texmf-dist/fonts/truetype
 @dirrmtry share/texmf-dist/fonts/opentype/public/Asana-Math
+@dirrmtry share/texmf-dist/fonts/opentype/public
+@dirrmtry share/texmf-dist/fonts/opentype
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/Asana-Math
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

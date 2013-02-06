@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/underscore/underscore.tex
 share/texmf-dist/tex/latex/underscore/underscore.sty
 @dirrmtry share/texmf-dist/tex/latex/underscore
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/underscore
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

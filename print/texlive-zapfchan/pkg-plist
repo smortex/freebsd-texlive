@@ -27,14 +27,31 @@ share/texmf-dist/tex/latex/zapfchan/ot1uzc.fd
 share/texmf-dist/tex/latex/zapfchan/t1uzc.fd
 share/texmf-dist/tex/latex/zapfchan/ts1uzc.fd
 @dirrmtry share/texmf-dist/tex/latex/zapfchan
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/vf/urw35vf/zapfchan
+@dirrmtry share/texmf-dist/fonts/vf/urw35vf
 @dirrmtry share/texmf-dist/fonts/vf/adobe/zapfchan
+@dirrmtry share/texmf-dist/fonts/vf/adobe
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/type1/urw/zapfchan
+@dirrmtry share/texmf-dist/fonts/type1/urw
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/urw35vf/zapfchan
+@dirrmtry share/texmf-dist/fonts/tfm/urw35vf
 @dirrmtry share/texmf-dist/fonts/tfm/adobe/zapfchan
+@dirrmtry share/texmf-dist/fonts/tfm/adobe
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/map/dvips/zapfchan
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/afm/urw/zapfchan
+@dirrmtry share/texmf-dist/fonts/afm/urw
 @dirrmtry share/texmf-dist/fonts/afm/adobe/zapfchan
+@dirrmtry share/texmf-dist/fonts/afm/adobe
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/dvips/zapfchan
+@dirrmtry share/texmf-dist/dvips
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

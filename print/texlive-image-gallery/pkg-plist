@@ -26,6 +26,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/image-gallery/pic022.jpg
 share/texmf-dist/tex/latex/image-gallery/image-gallery.cls
 @dirrmtry share/texmf-dist/tex/latex/image-gallery
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/image-gallery
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

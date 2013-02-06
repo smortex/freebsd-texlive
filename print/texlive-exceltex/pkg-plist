@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/exceltex/README.TEXLIVE
 share/texmf-dist/tex/latex/exceltex/exceltex.sty
 @dirrmtry share/texmf-dist/tex/latex/exceltex
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/exceltex
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

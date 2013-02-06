@@ -19,7 +19,12 @@ share/texmf-dist/tex/latex/droit-fr/droit-fr.bbx
 share/texmf-dist/tex/latex/droit-fr/droit-fr.cbx
 share/texmf-dist/tex/latex/droit-fr/droit-fr.cls
 @dirrmtry share/texmf-dist/tex/latex/droit-fr
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/droit-fr/example
 @dirrmtry share/texmf-dist/doc/latex/droit-fr/doc
+@dirrmtry share/texmf-dist/doc/latex/droit-fr
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

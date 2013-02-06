@@ -14,7 +14,12 @@ share/texmf-dist/bibtex/csf/persian-bib/cp1256fa.csf
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/persian-bib/bibtex-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/persian-bib/gen_pdf.pl
 @dirrmtry share/texmf-dist/doc/xelatex/persian-bib
+@dirrmtry share/texmf-dist/doc/xelatex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/csf/persian-bib
+@dirrmtry share/texmf-dist/bibtex/csf
 @dirrmtry share/texmf-dist/bibtex/bst/persian-bib
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

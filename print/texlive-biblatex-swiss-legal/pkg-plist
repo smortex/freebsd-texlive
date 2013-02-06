@@ -12,7 +12,11 @@ share/texmf-dist/tex/latex/biblatex-swiss-legal/biblatex-swiss-legal-general.cbx
 share/texmf-dist/tex/latex/biblatex-swiss-legal/biblatex-swiss-legal-longarticle.bbx
 share/texmf-dist/tex/latex/biblatex-swiss-legal/biblatex-swiss-legal-longarticle.cbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-swiss-legal
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/biblatex-swiss-legal/doc_source
 @dirrmtry share/texmf-dist/doc/latex/biblatex-swiss-legal
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

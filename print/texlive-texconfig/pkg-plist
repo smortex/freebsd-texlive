@@ -10,6 +10,11 @@ share/texmf/texconfig/x/xterm
 @dirrmtry share/texmf/texconfig/x
 @dirrmtry share/texmf/texconfig/v
 @dirrmtry share/texmf/texconfig/g
+@dirrmtry share/texmf/texconfig
+@dirrmtry share/texmf/scripts/tetex
+@dirrmtry share/texmf/scripts
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

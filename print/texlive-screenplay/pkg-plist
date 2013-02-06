@@ -9,7 +9,13 @@
 share/texmf-dist/tex/latex/screenplay/hardmarg.sty
 share/texmf-dist/tex/latex/screenplay/screenplay.cls
 @dirrmtry share/texmf-dist/tex/latex/screenplay
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/screenplay
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/screenplay
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

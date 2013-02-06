@@ -28,6 +28,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/uspatent/uspatent.layout
 share/texmf-dist/tex/latex/uspatent/uspatent.cls
 @dirrmtry share/texmf-dist/tex/latex/uspatent
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/uspatent
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

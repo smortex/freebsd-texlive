@@ -13,8 +13,17 @@ share/texmf-dist/fonts/type1/public/carolmin-ps/cminb10.pfb
 share/texmf-dist/fonts/type1/public/carolmin-ps/cminb17.pfb
 share/texmf-dist/fonts/type1/public/carolmin-ps/cminb7.pfb
 @dirrmtry share/texmf-dist/fonts/type1/public/carolmin-ps
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/map/dvips/carolmin-ps
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/afm/public/carolmin-ps
+@dirrmtry share/texmf-dist/fonts/afm/public
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/carolmin-ps
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

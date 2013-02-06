@@ -26,12 +26,17 @@ share/texmf-dist/tex/eplain/eplain.tex
 %%PORTDOCS%%share/texmf/doc/man/man1/eplain.1
 %%PORTDOCS%%share/texmf/doc/man/man1/eplain.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
 @dirrmtry share/texmf/doc/info
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/eplain
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/eplain
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/eplain/util
 @dirrmtry share/texmf-dist/doc/eplain/doc
 @dirrmtry share/texmf-dist/doc/eplain/demo
 @dirrmtry share/texmf-dist/doc/eplain
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

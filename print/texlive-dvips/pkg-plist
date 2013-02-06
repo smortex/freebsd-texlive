@@ -80,11 +80,24 @@ share/texmf/fonts/map/dvips/updmap/psfonts.map
 share/texmf/fonts/map/dvips/updmap/psfonts_pk.map
 share/texmf/fonts/map/dvips/updmap/psfonts_t1.map
 @dirrmtry share/texmf/fonts/map/dvips/updmap
+@dirrmtry share/texmf/fonts/map/dvips
+@dirrmtry share/texmf/fonts/map
+@dirrmtry share/texmf/fonts
 @dirrmtry share/texmf/dvips/config
+@dirrmtry share/texmf/dvips
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
 @dirrmtry share/texmf/doc/info
 @dirrmtry share/texmf/doc/dvips
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/generic/dvips
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/fonts/enc/dvips/base
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/dvips/base
+@dirrmtry share/texmf-dist/dvips
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

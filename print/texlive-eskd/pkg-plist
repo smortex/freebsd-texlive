@@ -6,7 +6,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/eskd/eskd.ins
 share/texmf-dist/tex/latex/eskd/eskd.cls
 @dirrmtry share/texmf-dist/tex/latex/eskd
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/eskd
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/eskd
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

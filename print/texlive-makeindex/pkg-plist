@@ -14,7 +14,12 @@ share/texmf-dist/makeindex/base/tex.ist
 %%PORTDOCS%%share/texmf/doc/man/man1/mkindex.1
 %%PORTDOCS%%share/texmf/doc/man/man1/mkindex.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/makeindex/base
+@dirrmtry share/texmf-dist/makeindex
 @dirrmtry share/texmf-dist/doc/support/makeindex
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

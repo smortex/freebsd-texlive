@@ -2,6 +2,7 @@
 
 PORTNAME=	fixmetodonotes
 PORTVERSION=	20120918
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

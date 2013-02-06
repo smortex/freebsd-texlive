@@ -3,5 +3,7 @@
 share/texmf/doc/man/man1/dvi2tty.1
 share/texmf/doc/man/man1/dvi2tty.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -34,14 +34,34 @@ share/texmf-dist/tex/lambda/oinuit/litcmr.fd
 share/texmf-dist/tex/lambda/oinuit/litenc.def
 share/texmf-dist/tex/lambda/oinuit/oinuit.sty
 @dirrmtry share/texmf-dist/tex/lambda/oinuit
+@dirrmtry share/texmf-dist/tex/lambda
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/lambda/oinuit
+@dirrmtry share/texmf-dist/source/lambda
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/omega/otp/oinuit
+@dirrmtry share/texmf-dist/omega/otp
 @dirrmtry share/texmf-dist/omega/ocp/oinuit
+@dirrmtry share/texmf-dist/omega/ocp
+@dirrmtry share/texmf-dist/omega
 @dirrmtry share/texmf-dist/fonts/type1/public/oinuit
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/public/oinuit
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/ovf/public/oinuit
+@dirrmtry share/texmf-dist/fonts/ovf/public
+@dirrmtry share/texmf-dist/fonts/ovf
 @dirrmtry share/texmf-dist/fonts/ofm/public/oinuit
+@dirrmtry share/texmf-dist/fonts/ofm/public
+@dirrmtry share/texmf-dist/fonts/ofm
 @dirrmtry share/texmf-dist/fonts/map/dvips/oinuit
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/oinuit
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

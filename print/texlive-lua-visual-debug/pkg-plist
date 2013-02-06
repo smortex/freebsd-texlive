@@ -11,6 +11,10 @@
 share/texmf-dist/tex/luatex/lua-visual-debug/lua-visual-debug.lua
 share/texmf-dist/tex/luatex/lua-visual-debug/lua-visual-debug.sty
 @dirrmtry share/texmf-dist/tex/luatex/lua-visual-debug
+@dirrmtry share/texmf-dist/tex/luatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/luatex/lua-visual-debug
+@dirrmtry share/texmf-dist/doc/luatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

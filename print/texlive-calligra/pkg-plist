@@ -4,7 +4,14 @@ share/texmf-dist/fonts/source/public/calligra/callig15.mf
 share/texmf-dist/fonts/source/public/calligra/calligra.mf
 share/texmf-dist/fonts/tfm/public/calligra/callig15.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/calligra
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/calligra
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/latex/calligra
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

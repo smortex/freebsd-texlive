@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-graphicx/demo.tex
 share/texmf-dist/tex/generic/pst-graphicx/pst-graphicx.tex
 @dirrmtry share/texmf-dist/tex/generic/pst-graphicx
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/pst-graphicx
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

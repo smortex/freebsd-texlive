@@ -10,6 +10,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-dependency/tikz-dependency-doc.tex
 share/texmf-dist/tex/latex/tikz-dependency/tikz-dependency.sty
 @dirrmtry share/texmf-dist/tex/latex/tikz-dependency
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/tikz-dependency
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

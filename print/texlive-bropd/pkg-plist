@@ -3,7 +3,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/bropd/bropd.dtx
 share/texmf-dist/tex/latex/bropd/bropd.sty
 @dirrmtry share/texmf-dist/tex/latex/bropd
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/bropd
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/bropd
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -6,6 +6,10 @@
 share/texmf-dist/tex/generic/xstring/xstring.sty
 share/texmf-dist/tex/generic/xstring/xstring.tex
 @dirrmtry share/texmf-dist/tex/generic/xstring
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/xstring
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

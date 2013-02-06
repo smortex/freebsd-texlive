@@ -4,7 +4,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/basque-book/basque-book.ins
 share/texmf-dist/tex/latex/basque-book/basque-book.cls
 @dirrmtry share/texmf-dist/tex/latex/basque-book
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/basque-book
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/basque-book
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

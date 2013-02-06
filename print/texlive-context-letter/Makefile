@@ -2,6 +2,7 @@
 
 PORTNAME=	context-letter
 PORTVERSION=	20130122
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

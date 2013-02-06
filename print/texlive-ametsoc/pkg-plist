@@ -12,9 +12,15 @@ share/texmf-dist/bibtex/bst/ametsoc/ametsoc.bst
 share/texmf-dist/tex/latex/ametsoc/ametsoc.sty
 share/texmf-dist/tex/latex/ametsoc/ametsoc2col.sty
 @dirrmtry share/texmf-dist/tex/latex/ametsoc
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/ametsoc/figures
 @dirrmtry share/texmf-dist/doc/latex/ametsoc/bibliography
 @dirrmtry share/texmf-dist/doc/latex/ametsoc
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/ametsoc
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

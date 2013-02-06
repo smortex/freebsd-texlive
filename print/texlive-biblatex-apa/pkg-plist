@@ -24,6 +24,10 @@ share/texmf-dist/tex/latex/biblatex-apa/norwegian-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/nynorsk-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/spanish-apa.lbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-apa
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/biblatex-apa
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

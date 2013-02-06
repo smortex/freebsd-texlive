@@ -69,14 +69,32 @@ share/texmf-dist/fonts/truetype/public/gentium/GenR102.ttf
 %%PORTSRC%%share/texmf-dist/source/fonts/gentium/gentium-t5-source.enc
 share/texmf-dist/tex/context/third/gentium/type-gentium.tex
 @dirrmtry share/texmf-dist/tex/context/third/gentium
+@dirrmtry share/texmf-dist/tex/context/third
+@dirrmtry share/texmf-dist/tex/context
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/fonts/gentium
+@dirrmtry share/texmf-dist/source/fonts
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/fonts/truetype/public/gentium
+@dirrmtry share/texmf-dist/fonts/truetype/public
+@dirrmtry share/texmf-dist/fonts/truetype
 @dirrmtry share/texmf-dist/fonts/tfm/public/gentium
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/map/pdftex/gentium
+@dirrmtry share/texmf-dist/fonts/map/pdftex
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/enc/dvips/gentium
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
 @dirrmtry share/texmf-dist/fonts/afm/public/gentium
+@dirrmtry share/texmf-dist/fonts/afm/public
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/gentium/Gentium_Basic_1.1
 @dirrmtry share/texmf-dist/doc/fonts/gentium/Gentium_1.02
 @dirrmtry share/texmf-dist/doc/fonts/gentium
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -7,6 +7,10 @@ share/texmf-dist/tex/generic/gates/gates.sty
 share/texmf-dist/tex/generic/gates/gates.tex
 share/texmf-dist/tex/generic/gates/t-gates.tex
 @dirrmtry share/texmf-dist/tex/generic/gates
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/gates
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

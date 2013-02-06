@@ -1,6 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/loops/README
 share/texmf-dist/tex/latex/loops/loops.sty
 @dirrmtry share/texmf-dist/tex/latex/loops
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/loops
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

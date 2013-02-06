@@ -14,5 +14,7 @@ share/texmf-dist/tex/latex/latexconfig/mllatex.ini
 share/texmf-dist/tex/latex/latexconfig/pdflatex.ini
 share/texmf-dist/tex/latex/latexconfig/xelatex.ini
 @dirrmtry share/texmf-dist/tex/latex/latexconfig
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

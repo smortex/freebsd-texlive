@@ -5,7 +5,14 @@ share/texmf-dist/fonts/source/public/genealogy/drgen.mf
 share/texmf-dist/fonts/source/public/genealogy/drgen10.mf
 share/texmf-dist/fonts/tfm/public/genealogy/drgen10.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/genealogy
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/genealogy
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/genealogy
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

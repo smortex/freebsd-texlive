@@ -106,9 +106,13 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tkz-fct/tkz-fct-screen.pdf
 share/texmf-dist/tex/latex/tkz-fct/tkz-fct.sty
 @dirrmtry share/texmf-dist/tex/latex/tkz-fct
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/tkz-fct/latex
 @dirrmtry share/texmf-dist/doc/latex/tkz-fct/examples/latex
 @dirrmtry share/texmf-dist/doc/latex/tkz-fct/examples
 @dirrmtry share/texmf-dist/doc/latex/tkz-fct
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

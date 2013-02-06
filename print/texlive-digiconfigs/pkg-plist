@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/digiconfigs/digiconfigs.tex
 share/texmf-dist/tex/latex/digiconfigs/digiconfigs.sty
 @dirrmtry share/texmf-dist/tex/latex/digiconfigs
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/digiconfigs
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -10,7 +10,11 @@
 share/texmf-dist/tex/latex/msu-thesis/gb4e-compat.tex
 share/texmf-dist/tex/latex/msu-thesis/msu-thesis.cls
 @dirrmtry share/texmf-dist/tex/latex/msu-thesis
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/msu-thesis/samples
 @dirrmtry share/texmf-dist/doc/latex/msu-thesis
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

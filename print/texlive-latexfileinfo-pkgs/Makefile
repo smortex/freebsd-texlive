@@ -2,6 +2,7 @@
 
 PORTNAME=	latexfileinfo-pkgs
 PORTVERSION=	20120601
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

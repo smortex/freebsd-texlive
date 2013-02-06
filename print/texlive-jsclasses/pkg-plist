@@ -18,6 +18,10 @@ share/texmf-dist/tex/platex/jsclasses/morisawa.sty
 share/texmf-dist/tex/platex/jsclasses/okumacro.sty
 share/texmf-dist/tex/platex/jsclasses/okuverb.sty
 @dirrmtry share/texmf-dist/tex/platex/jsclasses
+@dirrmtry share/texmf-dist/tex/platex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/platex/jsclasses
+@dirrmtry share/texmf-dist/source/platex
+@dirrmtry share/texmf-dist/source
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

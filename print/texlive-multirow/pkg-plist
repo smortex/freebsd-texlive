@@ -6,6 +6,10 @@ share/texmf-dist/tex/latex/multirow/bigdelim.sty
 share/texmf-dist/tex/latex/multirow/bigstrut.sty
 share/texmf-dist/tex/latex/multirow/multirow.sty
 @dirrmtry share/texmf-dist/tex/latex/multirow
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/multirow
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

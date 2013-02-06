@@ -16,6 +16,10 @@ share/texmf-dist/tex/latex/beamer2thesis/beamerouterthemetorinoth.sty
 share/texmf-dist/tex/latex/beamer2thesis/beamerthemeTorinoTh.sty
 share/texmf-dist/tex/latex/beamer2thesis/logopolito.jpg
 @dirrmtry share/texmf-dist/tex/latex/beamer2thesis
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/beamer2thesis
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

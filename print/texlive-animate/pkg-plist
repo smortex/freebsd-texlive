@@ -14,7 +14,11 @@
 share/texmf-dist/tex/latex/animate/animate.sty
 share/texmf-dist/tex/latex/animate/animfp.sty
 @dirrmtry share/texmf-dist/tex/latex/animate
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/animate/files
 @dirrmtry share/texmf-dist/doc/latex/animate
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

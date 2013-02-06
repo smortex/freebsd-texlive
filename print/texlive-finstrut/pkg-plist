@@ -7,7 +7,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/finstrut/srcfiles.tex
 share/texmf-dist/tex/latex/finstrut/finstrut.sty
 @dirrmtry share/texmf-dist/tex/latex/finstrut
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/finstrut
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/finstrut
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

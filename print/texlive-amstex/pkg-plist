@@ -16,8 +16,14 @@ share/texmf-dist/tex/amstex/config/amstex.ini
 %%PORTDOCS%%share/texmf/doc/man/man1/amstex.1
 %%PORTDOCS%%share/texmf/doc/man/man1/amstex.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/amstex/config
 @dirrmtry share/texmf-dist/tex/amstex/base
+@dirrmtry share/texmf-dist/tex/amstex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/amstex/base
+@dirrmtry share/texmf-dist/doc/amstex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

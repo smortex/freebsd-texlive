@@ -224,6 +224,7 @@ share/texmf-dist/fonts/cmap/adobemapping/mapping-readme.txt
 @dirrmtry share/texmf-dist/fonts/cmap/adobemapping/aj16/CMap
 @dirrmtry share/texmf-dist/fonts/cmap/adobemapping/aj16
 @dirrmtry share/texmf-dist/fonts/cmap/adobemapping/ai0/CMap
+@dirrmtry share/texmf-dist/fonts/cmap/adobemapping/ai0
 @dirrmtry share/texmf-dist/fonts/cmap/adobemapping/ag15/CMap
 @dirrmtry share/texmf-dist/fonts/cmap/adobemapping/ag15
 @dirrmtry share/texmf-dist/fonts/cmap/adobemapping/ac16/CMap
@@ -231,5 +232,7 @@ share/texmf-dist/fonts/cmap/adobemapping/mapping-readme.txt
 @dirrmtry share/texmf-dist/fonts/cmap/adobemapping/ToUnicode
 @dirrmtry share/texmf-dist/fonts/cmap/adobemapping/MappingOther
 @dirrmtry share/texmf-dist/fonts/cmap/adobemapping
+@dirrmtry share/texmf-dist/fonts/cmap
+@dirrmtry share/texmf-dist/fonts
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

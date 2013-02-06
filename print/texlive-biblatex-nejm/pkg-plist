@@ -4,6 +4,10 @@
 share/texmf-dist/tex/latex/biblatex-nejm/nejm.bbx
 share/texmf-dist/tex/latex/biblatex-nejm/nejm.cbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-nejm
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/biblatex-nejm
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

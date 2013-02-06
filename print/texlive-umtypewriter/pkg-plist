@@ -4,5 +4,8 @@ share/texmf-dist/fonts/opentype/public/umtypewriter/UMTypewriter-Italic.otf
 share/texmf-dist/fonts/opentype/public/umtypewriter/UMTypewriter-Oblique.otf
 share/texmf-dist/fonts/opentype/public/umtypewriter/UMTypewriter-Regular.otf
 @dirrmtry share/texmf-dist/fonts/opentype/public/umtypewriter
+@dirrmtry share/texmf-dist/fonts/opentype/public
+@dirrmtry share/texmf-dist/fonts/opentype
+@dirrmtry share/texmf-dist/fonts
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -5,6 +5,10 @@ share/texmf-dist/tex/latex/chemcono/chemcono.sty
 share/texmf-dist/tex/latex/chemcono/drftcono.sty
 share/texmf-dist/tex/latex/chemcono/showkeysff.sty
 @dirrmtry share/texmf-dist/tex/latex/chemcono
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/chemcono
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

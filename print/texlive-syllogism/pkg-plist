@@ -5,6 +5,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/syllogism/syllogism.tex
 share/texmf-dist/tex/latex/syllogism/syllogism.sty
 @dirrmtry share/texmf-dist/tex/latex/syllogism
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/syllogism
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

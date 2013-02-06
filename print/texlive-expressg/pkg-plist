@@ -12,7 +12,12 @@ share/texmf-dist/metapost/expressg/expressg.mp
 %%PORTSRC%%share/texmf-dist/source/metapost/expressg/expressg.dtx
 %%PORTSRC%%share/texmf-dist/source/metapost/expressg/expressg.ins
 @dirrmtry share/texmf-dist/source/metapost/expressg
+@dirrmtry share/texmf-dist/source/metapost
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/metapost/expressg
+@dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/doc/metapost/expressg
+@dirrmtry share/texmf-dist/doc/metapost
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

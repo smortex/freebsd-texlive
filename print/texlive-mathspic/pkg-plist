@@ -13,6 +13,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/sourcecode113.pdf
 share/texmf-dist/tex/latex/mathspic/mathspic.sty
 @dirrmtry share/texmf-dist/tex/latex/mathspic
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/mathspic
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

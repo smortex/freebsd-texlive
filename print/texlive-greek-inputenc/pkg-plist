@@ -2,6 +2,10 @@
 share/texmf-dist/tex/latex/greek-inputenc/iso-8859-7.def
 share/texmf-dist/tex/latex/greek-inputenc/macgreek.def
 @dirrmtry share/texmf-dist/tex/latex/greek-inputenc
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/greek-inputenc
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

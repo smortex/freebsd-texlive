@@ -14,8 +14,15 @@ share/texmf-dist/tex/latex/xcolor/svgnam.def
 share/texmf-dist/tex/latex/xcolor/x11nam.def
 share/texmf-dist/tex/latex/xcolor/xcolor.sty
 @dirrmtry share/texmf-dist/tex/latex/xcolor
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/xcolor
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/dvips/xcolor
+@dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/latex/xcolor
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

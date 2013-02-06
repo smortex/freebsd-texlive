@@ -19,7 +19,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/hypdvips/manifest.txt
 share/texmf-dist/tex/latex/hypdvips/hypdvips.sty
 @dirrmtry share/texmf-dist/tex/latex/hypdvips
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/hypdvips/images
 @dirrmtry share/texmf-dist/doc/latex/hypdvips
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

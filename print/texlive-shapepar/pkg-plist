@@ -9,6 +9,10 @@ share/texmf-dist/tex/generic/shapepar/dropshape.def
 share/texmf-dist/tex/generic/shapepar/shapepar.sty
 share/texmf-dist/tex/generic/shapepar/triangleshapes.def
 @dirrmtry share/texmf-dist/tex/generic/shapepar
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/shapepar
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

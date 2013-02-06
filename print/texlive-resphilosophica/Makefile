@@ -2,6 +2,7 @@
 
 PORTNAME=	resphilosophica
 PORTVERSION=	20130112
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

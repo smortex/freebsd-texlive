@@ -6,15 +6,19 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/dosepsbin/dosepsbin.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/dosepsbin/dosepsbin.txt
 %%PORTDOCS%%share/texmf-dist/doc/support/dosepsbin/version.pl
-share/texmf-dist/scripts/dosepsbin/dosepsbin.pl
 %%PORTSRC%%share/texmf-dist/source/support/dosepsbin/configure
 %%PORTSRC%%share/texmf-dist/source/support/dosepsbin/configure.ac
 %%PORTSRC%%share/texmf-dist/source/support/dosepsbin/install-sh
 %%PORTDOCS%%share/texmf/doc/man/man1/dosepsbin.1
 %%PORTDOCS%%share/texmf/doc/man/man1/dosepsbin.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/source/support/dosepsbin
-@dirrmtry share/texmf-dist/scripts/dosepsbin
+@dirrmtry share/texmf-dist/source/support
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/support/dosepsbin
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

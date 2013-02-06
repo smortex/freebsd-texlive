@@ -21,8 +21,11 @@ share/texmf-dist/metafont/misc/ztest.mf
 %%PORTDOCS%%share/texmf/doc/man/man1/mf.1
 %%PORTDOCS%%share/texmf/doc/man/man1/mf.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/metafont/misc
 @dirrmtry share/texmf-dist/metafont/config
 @dirrmtry share/texmf-dist/metafont/base
+@dirrmtry share/texmf-dist/metafont
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

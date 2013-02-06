@@ -5,6 +5,10 @@
 share/texmf-dist/tex/latex/complexity/complexity.sty
 share/texmf-dist/tex/latex/complexity/mycomplexity.sty
 @dirrmtry share/texmf-dist/tex/latex/complexity
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/complexity
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

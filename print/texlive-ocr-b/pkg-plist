@@ -20,7 +20,14 @@ share/texmf-dist/fonts/tfm/public/ocr-b/ocrb7.tfm
 share/texmf-dist/fonts/tfm/public/ocr-b/ocrb8.tfm
 share/texmf-dist/fonts/tfm/public/ocr-b/ocrb9.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/ocr-b
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/ocr-b
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/ocr-b
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

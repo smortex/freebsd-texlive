@@ -15,11 +15,17 @@
 %%PORTSRC%%share/texmf-dist/source/latex/suftesi/suftesi.ins
 share/texmf-dist/tex/latex/suftesi/suftesi.cls
 @dirrmtry share/texmf-dist/tex/latex/suftesi
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/suftesi
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/suftesi/example/MaterialeInizialeFinale
 @dirrmtry share/texmf-dist/doc/latex/suftesi/example/Immagini
 @dirrmtry share/texmf-dist/doc/latex/suftesi/example/Capitoli
 @dirrmtry share/texmf-dist/doc/latex/suftesi/example
 @dirrmtry share/texmf-dist/doc/latex/suftesi
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

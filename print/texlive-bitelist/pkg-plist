@@ -5,7 +5,13 @@
 share/texmf-dist/tex/generic/bitelist/bitedemo.tex
 share/texmf-dist/tex/generic/bitelist/bitelist.sty
 @dirrmtry share/texmf-dist/tex/generic/bitelist
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/bitelist
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/generic/bitelist
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

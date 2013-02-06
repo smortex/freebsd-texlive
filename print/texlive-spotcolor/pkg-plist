@@ -6,6 +6,10 @@ share/texmf-dist/tex/latex/spotcolor/spotcolor.sty
 share/texmf-dist/tex/latex/spotcolor/spotcolorhks.tex
 share/texmf-dist/tex/latex/spotcolor/spotcolorpantone.tex
 @dirrmtry share/texmf-dist/tex/latex/spotcolor
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/spotcolor
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

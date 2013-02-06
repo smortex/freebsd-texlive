@@ -4,7 +4,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/gridset/gridset.ins
 share/texmf-dist/tex/latex/gridset/gridset.sty
 @dirrmtry share/texmf-dist/tex/latex/gridset
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/gridset
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/gridset
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

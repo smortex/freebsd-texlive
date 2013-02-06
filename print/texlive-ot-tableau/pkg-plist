@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/ot-tableau/ot-tableau.tex
 share/texmf-dist/tex/latex/ot-tableau/ot-tableau.sty
 @dirrmtry share/texmf-dist/tex/latex/ot-tableau
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/ot-tableau
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

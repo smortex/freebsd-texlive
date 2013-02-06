@@ -19,7 +19,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tkz-tab/tkz-tab-screen.pdf
 share/texmf-dist/tex/latex/tkz-tab/tkz-tab.sty
 @dirrmtry share/texmf-dist/tex/latex/tkz-tab
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/tkz-tab/latex
 @dirrmtry share/texmf-dist/doc/latex/tkz-tab
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

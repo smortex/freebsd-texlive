@@ -29,7 +29,13 @@ share/texmf-dist/tex/luatex/luaotfload/otfl-luat-ovr.lua
 share/texmf-dist/tex/luatex/luaotfload/otfl-node-dum.lua
 share/texmf-dist/tex/luatex/luaotfload/otfl-node-inj.lua
 @dirrmtry share/texmf-dist/tex/luatex/luaotfload
+@dirrmtry share/texmf-dist/tex/luatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/luatex/luaotfload
+@dirrmtry share/texmf-dist/source/luatex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/luatex/luaotfload
+@dirrmtry share/texmf-dist/doc/luatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

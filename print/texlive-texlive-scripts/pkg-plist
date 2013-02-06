@@ -12,6 +12,11 @@ share/tlpkg/installer/install-menu-text.pl
 share/tlpkg/installer/install-menu-wizard.pl
 @dirrmtry share/tlpkg/installer
 @dirrmtry share/texmf/scripts/texlive/lua/texlive
+@dirrmtry share/texmf/scripts/texlive/lua
+@dirrmtry share/texmf/scripts/texlive
+@dirrmtry share/texmf/scripts
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

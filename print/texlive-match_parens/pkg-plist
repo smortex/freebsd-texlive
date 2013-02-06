@@ -34,8 +34,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/match_parens/wrench.png
 %%PORTDOCS%%share/texmf-dist/doc/support/match_parens/wrench_orange.png
 %%PORTDOCS%%share/texmf-dist/doc/support/match_parens/zoom.png
-share/texmf-dist/scripts/match_parens/match_parens
-@dirrmtry share/texmf-dist/scripts/match_parens
 @dirrmtry share/texmf-dist/doc/support/match_parens
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

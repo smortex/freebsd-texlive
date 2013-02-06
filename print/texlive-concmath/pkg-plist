@@ -14,7 +14,13 @@ share/texmf-dist/tex/latex/concmath/ot1ccr.fd
 share/texmf-dist/tex/latex/concmath/ucca.fd
 share/texmf-dist/tex/latex/concmath/uccb.fd
 @dirrmtry share/texmf-dist/tex/latex/concmath
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/concmath
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/fonts/concmath
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

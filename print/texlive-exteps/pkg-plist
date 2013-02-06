@@ -5,6 +5,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/exteps/exteps.tex
 share/texmf-dist/metapost/exteps/exteps.mp
 @dirrmtry share/texmf-dist/metapost/exteps
+@dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/doc/metapost/exteps
+@dirrmtry share/texmf-dist/doc/metapost
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -8,7 +8,13 @@ share/texmf-dist/tex/latex/asaetr/asaesub.sty
 share/texmf-dist/tex/latex/asaetr/asaetr.cls
 share/texmf-dist/tex/latex/asaetr/asaetr.sty
 @dirrmtry share/texmf-dist/tex/latex/asaetr
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/asaetr
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/asaetr
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

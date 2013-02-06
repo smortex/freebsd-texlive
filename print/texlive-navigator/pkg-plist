@@ -5,6 +5,10 @@ share/texmf-dist/tex/generic/navigator/navigator.sty
 share/texmf-dist/tex/generic/navigator/navigator.tex
 share/texmf-dist/tex/generic/navigator/t-navigator.tex
 @dirrmtry share/texmf-dist/tex/generic/navigator
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/navigator
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

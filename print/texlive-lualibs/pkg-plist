@@ -22,7 +22,13 @@ share/texmf-dist/tex/luatex/lualibs/lualibs-url.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-utils.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs.lua
 @dirrmtry share/texmf-dist/tex/luatex/lualibs
+@dirrmtry share/texmf-dist/tex/luatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/luatex/lualibs
+@dirrmtry share/texmf-dist/source/luatex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/luatex/lualibs
+@dirrmtry share/texmf-dist/doc/luatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

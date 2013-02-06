@@ -15,7 +15,13 @@ share/texmf-dist/tex/mex/config/mex.ini
 share/texmf-dist/tex/mex/config/pdfmex.ini
 @dirrmtry share/texmf-dist/tex/mex/config
 @dirrmtry share/texmf-dist/tex/mex/base
+@dirrmtry share/texmf-dist/tex/mex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/mex/base
+@dirrmtry share/texmf-dist/source/mex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/mex/base
+@dirrmtry share/texmf-dist/doc/mex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

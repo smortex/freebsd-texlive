@@ -17,9 +17,13 @@ share/texmf-dist/tex/latex/tkz-base/tkz-tools-misc.tex
 share/texmf-dist/tex/latex/tkz-base/tkz-tools-obsolete.tex
 share/texmf-dist/tex/latex/tkz-base/tkz-tools-utilities.tex
 @dirrmtry share/texmf-dist/tex/latex/tkz-base
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/tkz-base/latex
 @dirrmtry share/texmf-dist/doc/latex/tkz-base/examples/latex
 @dirrmtry share/texmf-dist/doc/latex/tkz-base/examples
 @dirrmtry share/texmf-dist/doc/latex/tkz-base
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

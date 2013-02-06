@@ -4,7 +4,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/cuisine/cuisine.ins
 share/texmf-dist/tex/latex/cuisine/cuisine.sty
 @dirrmtry share/texmf-dist/tex/latex/cuisine
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/cuisine
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/cuisine
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

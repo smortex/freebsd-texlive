@@ -6,7 +6,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/gnuplottex/gnuplottex.ins
 share/texmf-dist/tex/latex/gnuplottex/gnuplottex.sty
 @dirrmtry share/texmf-dist/tex/latex/gnuplottex
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/gnuplottex
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/gnuplottex
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

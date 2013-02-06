@@ -5,6 +5,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/othelloboard/othelloboard.tex
 share/texmf-dist/tex/latex/othelloboard/othelloboard.sty
 @dirrmtry share/texmf-dist/tex/latex/othelloboard
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/othelloboard
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

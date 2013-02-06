@@ -5,7 +5,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/latexfileinfo-pkgs/mkht_ltxfinfo_pkgs.tex
 share/texmf-dist/tex/latex/latexfileinfo-pkgs/latexfileinfo_pkgs.RLS
 @dirrmtry share/texmf-dist/tex/latex/latexfileinfo-pkgs
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/latexfileinfo-pkgs
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/latexfileinfo-pkgs
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

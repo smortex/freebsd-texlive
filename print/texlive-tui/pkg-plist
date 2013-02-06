@@ -37,8 +37,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tui/template/resumen.tex
 share/texmf-dist/tex/latex/tui/tui.cls
 @dirrmtry share/texmf-dist/tex/latex/tui
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/tui/template
 @dirrmtry share/texmf-dist/doc/latex/tui/example
 @dirrmtry share/texmf-dist/doc/latex/tui
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

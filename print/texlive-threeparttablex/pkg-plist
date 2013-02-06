@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/threeparttablex/threeparttablex.tex
 share/texmf-dist/tex/latex/threeparttablex/threeparttablex.sty
 @dirrmtry share/texmf-dist/tex/latex/threeparttablex
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/threeparttablex
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

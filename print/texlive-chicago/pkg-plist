@@ -1,6 +1,10 @@
 share/texmf-dist/bibtex/bst/chicago/chicago.bst
 share/texmf-dist/tex/latex/chicago/chicago.sty
 @dirrmtry share/texmf-dist/tex/latex/chicago
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/bibtex/bst/chicago
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

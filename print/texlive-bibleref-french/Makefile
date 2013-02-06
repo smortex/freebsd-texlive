@@ -2,6 +2,7 @@
 
 PORTNAME=	bibleref-french
 PORTVERSION=	20120723
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

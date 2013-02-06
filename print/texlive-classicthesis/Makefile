@@ -2,6 +2,7 @@
 
 PORTNAME=	classicthesis
 PORTVERSION=	20120816
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

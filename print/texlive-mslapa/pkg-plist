@@ -6,7 +6,13 @@ share/texmf-dist/bibtex/bst/mslapa/mslapa.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/mslapa/mslapa.tex
 share/texmf-dist/tex/latex/mslapa/mslapa.sty
 @dirrmtry share/texmf-dist/tex/latex/mslapa
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/mslapa
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/mslapa
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

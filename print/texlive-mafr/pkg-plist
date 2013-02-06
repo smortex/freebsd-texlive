@@ -8,6 +8,10 @@ share/texmf-dist/tex/latex/mafr/cours.cls
 share/texmf-dist/tex/latex/mafr/fiche.cls
 share/texmf-dist/tex/latex/mafr/mafr.sty
 @dirrmtry share/texmf-dist/tex/latex/mafr
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/mafr
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -7,5 +7,7 @@ share/texmf/doc/man/man1/dviselect.man1.pdf
 share/texmf/doc/man/man1/dvitodvi.1
 share/texmf/doc/man/man1/dvitodvi.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

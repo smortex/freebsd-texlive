@@ -8,8 +8,15 @@ share/texmf-dist/scripts/luaindex/luaindex.lua
 %%PORTSRC%%share/texmf-dist/source/lualatex/luaindex/luaindex.dtx
 share/texmf-dist/tex/lualatex/luaindex/luaindex.sty
 @dirrmtry share/texmf-dist/tex/lualatex/luaindex
+@dirrmtry share/texmf-dist/tex/lualatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/lualatex/luaindex
+@dirrmtry share/texmf-dist/source/lualatex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/scripts/luaindex
+@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/lualatex/luaindex
+@dirrmtry share/texmf-dist/doc/lualatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -18,9 +18,13 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/uafthesis/example/quotepage.tex
 share/texmf-dist/tex/latex/uafthesis/uafthesis.cls
 @dirrmtry share/texmf-dist/tex/latex/uafthesis
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/uafthesis/example/fig
 @dirrmtry share/texmf-dist/doc/latex/uafthesis/example
 @dirrmtry share/texmf-dist/doc/latex/uafthesis/bib_styles
 @dirrmtry share/texmf-dist/doc/latex/uafthesis
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

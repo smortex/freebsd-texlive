@@ -2,6 +2,7 @@
 
 PORTNAME=	tikzpagenodes
 PORTVERSION=	20120919
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

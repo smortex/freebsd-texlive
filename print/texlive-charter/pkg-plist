@@ -58,9 +58,20 @@ share/texmf-dist/fonts/vf/bitstrea/charter/bchro7t.vf
 share/texmf-dist/fonts/vf/bitstrea/charter/bchro8c.vf
 share/texmf-dist/fonts/vf/bitstrea/charter/bchro8t.vf
 @dirrmtry share/texmf-dist/fonts/vf/bitstrea/charter
+@dirrmtry share/texmf-dist/fonts/vf/bitstrea
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/type1/bitstrea/charter
+@dirrmtry share/texmf-dist/fonts/type1/bitstrea
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/bitstrea/charter
+@dirrmtry share/texmf-dist/fonts/tfm/bitstrea
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/afm/bitstrea/charter
+@dirrmtry share/texmf-dist/fonts/afm/bitstrea
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/charter
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

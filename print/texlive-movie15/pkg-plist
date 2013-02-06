@@ -16,8 +16,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/movie15/overlay-example.tex
 share/texmf-dist/tex/latex/movie15/movie15.sty
 @dirrmtry share/texmf-dist/tex/latex/movie15
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/movie15/javascript
 @dirrmtry share/texmf-dist/doc/latex/movie15/files
 @dirrmtry share/texmf-dist/doc/latex/movie15
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -28,7 +28,14 @@ share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/uptex-kozuka.map
 share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/uptex-morisawa-04.map
 share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/uptex-morisawa.map
 share/texmf-dist/scripts/jfontmaps/updmap-setup-kanji-sys.sh
+@dirrmtry share/texmf-dist/scripts/jfontmaps
+@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/fonts/map/dvipdfmx/jfontmaps
+@dirrmtry share/texmf-dist/fonts/map/dvipdfmx
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/jfontmaps
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

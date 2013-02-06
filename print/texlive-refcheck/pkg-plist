@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/refcheck/refdemo.tex
 share/texmf-dist/tex/latex/refcheck/refcheck.sty
 @dirrmtry share/texmf-dist/tex/latex/refcheck
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/refcheck
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -26,6 +26,10 @@ share/texmf-dist/tex/generic/lecturer/ltr-slides.tex
 share/texmf-dist/tex/generic/lecturer/ltr-steps.tex
 share/texmf-dist/tex/generic/lecturer/t-lecturer.tex
 @dirrmtry share/texmf-dist/tex/generic/lecturer
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/lecturer
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

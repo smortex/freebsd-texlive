@@ -138,7 +138,12 @@ share/texmf-dist/tex/latex/bclogo/bc-velo.mps
 share/texmf-dist/tex/latex/bclogo/bc-yin.mps
 share/texmf-dist/tex/latex/bclogo/bclogo.sty
 @dirrmtry share/texmf-dist/tex/latex/bclogo
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/metapost/bclogo
+@dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/doc/latex/bclogo
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

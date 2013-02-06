@@ -110,10 +110,16 @@ share/texmf-dist/dvips/pst-eucl/pst-eucl.pro
 share/texmf-dist/tex/generic/pst-eucl/pst-eucl.tex
 share/texmf-dist/tex/latex/pst-eucl/pst-eucl.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-eucl
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/pst-eucl
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/dvips/pst-eucl
+@dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/generic/pst-eucl/doc/Examples
 @dirrmtry share/texmf-dist/doc/generic/pst-eucl/doc
 @dirrmtry share/texmf-dist/doc/generic/pst-eucl
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -5,6 +5,10 @@
 share/texmf-dist/tex/generic/colortab/colortab.sty
 share/texmf-dist/tex/generic/colortab/colortab.tex
 @dirrmtry share/texmf-dist/tex/generic/colortab
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/colortab
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

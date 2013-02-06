@@ -2,6 +2,7 @@
 
 PORTNAME=	biblatex-fiwi
 PORTVERSION=	20121211
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

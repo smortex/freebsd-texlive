@@ -164,10 +164,19 @@ share/texmf-dist/tex/latex/musixtex/musixtex.sty
 %%PORTDOCS%%share/texmf/doc/man/man1/musixtex.1
 %%PORTDOCS%%share/texmf/doc/man/man1/musixtex.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/latex/musixtex
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/musixtex
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/musixtex/musixcrd
+@dirrmtry share/texmf-dist/source/generic/musixtex
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/dvips/musixtex
+@dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/generic/musixtex/scripts
 @dirrmtry share/texmf-dist/doc/generic/musixtex/reference
 @dirrmtry share/texmf-dist/doc/generic/musixtex/psslurs
@@ -178,5 +187,7 @@ share/texmf-dist/tex/latex/musixtex/musixtex.sty
 @dirrmtry share/texmf-dist/doc/generic/musixtex/examples
 @dirrmtry share/texmf-dist/doc/generic/musixtex/addons
 @dirrmtry share/texmf-dist/doc/generic/musixtex
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

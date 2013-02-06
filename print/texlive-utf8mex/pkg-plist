@@ -12,7 +12,11 @@ share/texmf-dist/tex/mex/utf8mex/utf8-pl.tex
 share/texmf-dist/tex/mex/utf8mex/utf8mex.ini
 share/texmf-dist/tex/mex/utf8mex/utf8plsq.tex
 @dirrmtry share/texmf-dist/tex/mex/utf8mex
+@dirrmtry share/texmf-dist/tex/mex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/mex/utf8mex/examples
 @dirrmtry share/texmf-dist/doc/mex/utf8mex
+@dirrmtry share/texmf-dist/doc/mex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

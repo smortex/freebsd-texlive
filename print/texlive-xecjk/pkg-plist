@@ -15,8 +15,14 @@ share/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
 share/texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty
 @dirrmtry share/texmf-dist/tex/xelatex/xecjk/config
 @dirrmtry share/texmf-dist/tex/xelatex/xecjk
+@dirrmtry share/texmf-dist/tex/xelatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/xelatex/xecjk
+@dirrmtry share/texmf-dist/source/xelatex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/xelatex/xecjk/example
 @dirrmtry share/texmf-dist/doc/xelatex/xecjk
+@dirrmtry share/texmf-dist/doc/xelatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

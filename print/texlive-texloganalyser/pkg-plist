@@ -1,4 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/texloganalyser/README
 @dirrmtry share/texmf-dist/doc/support/texloganalyser
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

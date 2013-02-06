@@ -37,11 +37,21 @@ share/texmf-dist/tex/latex/jurabib/nojbbib.ldf
 share/texmf-dist/tex/latex/jurabib/ptjbbib.ldf
 share/texmf-dist/tex/latex/jurabib/spjbbib.ldf
 @dirrmtry share/texmf-dist/tex/latex/jurabib
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/jurabib
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/jurabib/docs/german
 @dirrmtry share/texmf-dist/doc/latex/jurabib/docs/english
+@dirrmtry share/texmf-dist/doc/latex/jurabib/docs
 @dirrmtry share/texmf-dist/doc/latex/jurabib
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/jurabib
+@dirrmtry share/texmf-dist/bibtex/bst
 @dirrmtry share/texmf-dist/bibtex/bib/jurabib
+@dirrmtry share/texmf-dist/bibtex/bib
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

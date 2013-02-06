@@ -8,7 +8,13 @@ share/texmf-dist/bibtex/bst/psu-thesis/psuthesis.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/psu-thesis/phdsample.tex
 share/texmf-dist/tex/latex/psu-thesis/psu-thesis.sty
 @dirrmtry share/texmf-dist/tex/latex/psu-thesis
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/psu-thesis
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/psu-thesis
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

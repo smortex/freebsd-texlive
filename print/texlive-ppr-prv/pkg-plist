@@ -5,7 +5,13 @@
 share/texmf-dist/tex/latex/ppr-prv/HAP-ppr-prv.def
 share/texmf-dist/tex/latex/ppr-prv/ppr-prv.cls
 @dirrmtry share/texmf-dist/tex/latex/ppr-prv
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/ppr-prv
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/ppr-prv
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

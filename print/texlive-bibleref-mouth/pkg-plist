@@ -4,7 +4,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/bibleref-mouth/bibleref-mouth.ins
 share/texmf-dist/tex/latex/bibleref-mouth/bibleref-mouth.sty
 @dirrmtry share/texmf-dist/tex/latex/bibleref-mouth
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/bibleref-mouth
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/bibleref-mouth
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

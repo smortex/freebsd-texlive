@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/nfssext-cfr/nfssext-cfr.tex
 share/texmf-dist/tex/latex/nfssext-cfr/nfssext-cfr.sty
 @dirrmtry share/texmf-dist/tex/latex/nfssext-cfr
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/nfssext-cfr
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -27,9 +27,15 @@ share/texmf-dist/tex/latex/fancytooltips/fancytipmark.pdf
 share/texmf-dist/tex/latex/fancytooltips/fancytipmark.svg
 share/texmf-dist/tex/latex/fancytooltips/fancytooltips.sty
 @dirrmtry share/texmf-dist/tex/latex/fancytooltips
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/fancytooltips
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/fancytooltips/examples/pics
 @dirrmtry share/texmf-dist/doc/latex/fancytooltips/examples
 @dirrmtry share/texmf-dist/doc/latex/fancytooltips
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

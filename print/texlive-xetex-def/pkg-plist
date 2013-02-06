@@ -1,4 +1,6 @@
 share/texmf-dist/tex/xelatex/xetex-def/xetex.def
 @dirrmtry share/texmf-dist/tex/xelatex/xetex-def
+@dirrmtry share/texmf-dist/tex/xelatex
+@dirrmtry share/texmf-dist/tex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

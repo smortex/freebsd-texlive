@@ -139,14 +139,31 @@ share/texmf-dist/tex/latex/ncntrsbk/ot1unc.fd
 share/texmf-dist/tex/latex/ncntrsbk/t1unc.fd
 share/texmf-dist/tex/latex/ncntrsbk/ts1unc.fd
 @dirrmtry share/texmf-dist/tex/latex/ncntrsbk
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/vf/urw35vf/ncntrsbk
+@dirrmtry share/texmf-dist/fonts/vf/urw35vf
 @dirrmtry share/texmf-dist/fonts/vf/adobe/ncntrsbk
+@dirrmtry share/texmf-dist/fonts/vf/adobe
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/type1/urw/ncntrsbk
+@dirrmtry share/texmf-dist/fonts/type1/urw
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/urw35vf/ncntrsbk
+@dirrmtry share/texmf-dist/fonts/tfm/urw35vf
 @dirrmtry share/texmf-dist/fonts/tfm/adobe/ncntrsbk
+@dirrmtry share/texmf-dist/fonts/tfm/adobe
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/map/dvips/ncntrsbk
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/afm/urw/ncntrsbk
+@dirrmtry share/texmf-dist/fonts/afm/urw
 @dirrmtry share/texmf-dist/fonts/afm/adobe/ncntrsbk
+@dirrmtry share/texmf-dist/fonts/afm/adobe
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/dvips/ncntrsbk
+@dirrmtry share/texmf-dist/dvips
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

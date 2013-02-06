@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/formlett/user_manual.tex
 share/texmf-dist/tex/generic/formlett/formlett.sty
 @dirrmtry share/texmf-dist/tex/generic/formlett
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/formlett
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

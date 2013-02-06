@@ -22,7 +22,13 @@ share/texmf-dist/tex/latex/notes/warn.eps
 share/texmf-dist/tex/latex/notes/warn.pdf
 share/texmf-dist/tex/latex/notes/warn.png
 @dirrmtry share/texmf-dist/tex/latex/notes
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/notes
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/notes
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

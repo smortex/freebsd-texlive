@@ -3,6 +3,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/jablantile/jablantile.pdf
 share/texmf-dist/fonts/source/public/jablantile/jablantile.mf
 @dirrmtry share/texmf-dist/fonts/source/public/jablantile
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/jablantile
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

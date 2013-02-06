@@ -366,12 +366,29 @@ share/texmf-dist/tex/latex/cabin/TS1Cabin-TLF.fd
 share/texmf-dist/tex/latex/cabin/TS1CabinCondensed-TLF.fd
 share/texmf-dist/tex/latex/cabin/cabin.sty
 @dirrmtry share/texmf-dist/tex/latex/cabin
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/vf/impallari/cabin
+@dirrmtry share/texmf-dist/fonts/vf/impallari
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/type1/impallari/cabin
+@dirrmtry share/texmf-dist/fonts/type1/impallari
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/impallari/cabin
+@dirrmtry share/texmf-dist/fonts/tfm/impallari
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/opentype/impallari/cabin
+@dirrmtry share/texmf-dist/fonts/opentype/impallari
+@dirrmtry share/texmf-dist/fonts/opentype
 @dirrmtry share/texmf-dist/fonts/map/dvips/cabin
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/enc/dvips/cabin
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/cabin
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

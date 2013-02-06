@@ -34,8 +34,17 @@ share/texmf-dist/tex/generic/qpxqtx/qpxmath.tex
 share/texmf-dist/tex/generic/qpxqtx/qtxmath.sty
 share/texmf-dist/tex/generic/qpxqtx/qtxmath.tex
 @dirrmtry share/texmf-dist/tex/generic/qpxqtx
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/vf/public/qpxqtx
+@dirrmtry share/texmf-dist/fonts/vf/public
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/tfm/public/qpxqtx
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/qpxqtx
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

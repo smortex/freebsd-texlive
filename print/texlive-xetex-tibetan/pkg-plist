@@ -5,6 +5,12 @@ share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-tibetan/loctib.tec
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-tibetan/wylie.map
 share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-tibetan/wylie.tec
 @dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-tibetan
+@dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping
+@dirrmtry share/texmf-dist/fonts/misc/xetex
+@dirrmtry share/texmf-dist/fonts/misc
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/xetex/xetex-tibetan
+@dirrmtry share/texmf-dist/doc/xetex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

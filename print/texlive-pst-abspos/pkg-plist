@@ -7,8 +7,15 @@
 share/texmf-dist/tex/generic/pst-abspos/pst-abspos.tex
 share/texmf-dist/tex/latex/pst-abspos/pst-abspos.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-abspos
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/pst-abspos
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/pst-abspos
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/generic/pst-abspos
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

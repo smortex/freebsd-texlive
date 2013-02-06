@@ -15,6 +15,10 @@ share/texmf-dist/tex/latex/gmutils/gmtypos.sty
 share/texmf-dist/tex/latex/gmutils/gmurl.sty
 share/texmf-dist/tex/latex/gmutils/gmutils.sty
 @dirrmtry share/texmf-dist/tex/latex/gmutils
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/gmutils
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -10,8 +10,13 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tkz-kiviat/latex/file2.dat
 share/texmf-dist/tex/latex/tkz-kiviat/tkz-kiviat.sty
 @dirrmtry share/texmf-dist/tex/latex/tkz-kiviat
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/tkz-kiviat/latex
 @dirrmtry share/texmf-dist/doc/latex/tkz-kiviat/examples/latex
+@dirrmtry share/texmf-dist/doc/latex/tkz-kiviat/examples
 @dirrmtry share/texmf-dist/doc/latex/tkz-kiviat
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -4,7 +4,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/pxgreeks/pxgreeks.ins
 share/texmf-dist/tex/latex/pxgreeks/pxgreeks.sty
 @dirrmtry share/texmf-dist/tex/latex/pxgreeks
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/pxgreeks
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/pxgreeks
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

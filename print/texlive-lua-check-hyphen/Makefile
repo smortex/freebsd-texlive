@@ -2,6 +2,7 @@
 
 PORTNAME=	lua-check-hyphen
 PORTVERSION=	20120730
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

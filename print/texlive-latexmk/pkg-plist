@@ -31,9 +31,15 @@
 %%PORTDOCS%%share/texmf/doc/man/man1/latexmk.1
 %%PORTDOCS%%share/texmf/doc/man/man1/latexmk.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/source/support/latexmk
+@dirrmtry share/texmf-dist/source/support
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/support/latexmk/extra-scripts
 @dirrmtry share/texmf-dist/doc/support/latexmk/example_rcfiles
 @dirrmtry share/texmf-dist/doc/support/latexmk
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -18,6 +18,10 @@ share/texmf-dist/tex/latex/biblatex-fiwi/fiwi2.bbx
 share/texmf-dist/tex/latex/biblatex-fiwi/fiwi2.cbx
 share/texmf-dist/tex/latex/biblatex-fiwi/fiwi2.dbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-fiwi
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/biblatex-fiwi
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

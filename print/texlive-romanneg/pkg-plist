@@ -2,6 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/romanneg/romanneg.pdf
 share/texmf-dist/tex/latex/romanneg/romanneg.sty
 @dirrmtry share/texmf-dist/tex/latex/romanneg
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/romanneg
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

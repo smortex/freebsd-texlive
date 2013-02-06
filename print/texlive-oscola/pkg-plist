@@ -6,7 +6,12 @@ share/texmf-dist/tex/latex/oscola/english-oscola.lbx
 share/texmf-dist/tex/latex/oscola/oscola.bbx
 share/texmf-dist/tex/latex/oscola/oscola.cbx
 @dirrmtry share/texmf-dist/tex/latex/oscola
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/makeindex/oscola
+@dirrmtry share/texmf-dist/makeindex
 @dirrmtry share/texmf-dist/doc/latex/oscola
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

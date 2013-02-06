@@ -469,6 +469,7 @@ share/texmf/xindy/modules/tex/inputenc/latin1.xdy
 share/texmf/xindy/modules/tex/inputenc/latin2.xdy
 share/texmf/xindy/modules/tex/inputenc/latin3.xdy
 @dirrmtry share/texmf/xindy/modules/tex/inputenc
+@dirrmtry share/texmf/xindy/modules/tex
 @dirrmtry share/texmf/xindy/modules/styles
 @dirrmtry share/texmf/xindy/modules/rules
 @dirrmtry share/texmf/xindy/modules/ord
@@ -517,12 +518,17 @@ share/texmf/xindy/modules/tex/inputenc/latin3.xdy
 @dirrmtry share/texmf/xindy/modules/lang/bulgarian
 @dirrmtry share/texmf/xindy/modules/lang/belarusian
 @dirrmtry share/texmf/xindy/modules/lang/albanian
+@dirrmtry share/texmf/xindy/modules/lang
 @dirrmtry share/texmf/xindy/modules/class
 @dirrmtry share/texmf/xindy/modules/base
+@dirrmtry share/texmf/xindy/modules
 @dirrmtry share/texmf/xindy
 @dirrmtry share/texmf/scripts/xindy
+@dirrmtry share/texmf/scripts
 @dirrmtry share/texmf/doc/xindy/style-tutorial
 @dirrmtry share/texmf/doc/xindy
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

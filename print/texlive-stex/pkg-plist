@@ -571,6 +571,8 @@ share/texmf-dist/tex/latex/stex/workaddress/workaddress.sty.ltxml
 @dirrmtry share/texmf-dist/tex/latex/stex/cmathml
 @dirrmtry share/texmf-dist/tex/latex/stex/cmath
 @dirrmtry share/texmf-dist/tex/latex/stex
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/stex/xsl/LaTeXML
 @dirrmtry share/texmf-dist/source/latex/stex/xsl
 @dirrmtry share/texmf-dist/source/latex/stex/workaddress
@@ -601,6 +603,9 @@ share/texmf-dist/tex/latex/stex/workaddress/workaddress.sty.ltxml
 @dirrmtry share/texmf-dist/source/latex/stex/bin/rng2dot
 @dirrmtry share/texmf-dist/source/latex/stex/bin/old
 @dirrmtry share/texmf-dist/source/latex/stex/bin
+@dirrmtry share/texmf-dist/source/latex/stex
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/stex/workaddress
 @dirrmtry share/texmf-dist/doc/latex/stex/statements
 @dirrmtry share/texmf-dist/doc/latex/stex/sref
@@ -624,5 +629,7 @@ share/texmf-dist/tex/latex/stex/workaddress/workaddress.sty.ltxml
 @dirrmtry share/texmf-dist/doc/latex/stex/cmathml
 @dirrmtry share/texmf-dist/doc/latex/stex/cmath
 @dirrmtry share/texmf-dist/doc/latex/stex
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

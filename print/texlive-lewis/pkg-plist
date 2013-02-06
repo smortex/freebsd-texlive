@@ -2,6 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/lewis/lewis.pdf
 share/texmf-dist/tex/latex/lewis/lewis.sty
 @dirrmtry share/texmf-dist/tex/latex/lewis
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/lewis
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

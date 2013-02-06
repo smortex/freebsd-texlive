@@ -3,6 +3,10 @@
 share/texmf-dist/tex/generic/ean/ean13.tex
 share/texmf-dist/tex/generic/ean/ean8.tex
 @dirrmtry share/texmf-dist/tex/generic/ean
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/ean
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

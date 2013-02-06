@@ -22,5 +22,8 @@
 @dirrmtry share/texmf-dist/doc/context/third/context-notes-zh-cn/src/figures
 @dirrmtry share/texmf-dist/doc/context/third/context-notes-zh-cn/src
 @dirrmtry share/texmf-dist/doc/context/third/context-notes-zh-cn
+@dirrmtry share/texmf-dist/doc/context/third
+@dirrmtry share/texmf-dist/doc/context
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

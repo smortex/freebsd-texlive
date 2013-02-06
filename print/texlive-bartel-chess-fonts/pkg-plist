@@ -103,8 +103,15 @@ share/texmf-dist/fonts/tfm/public/bartel-chess-fonts/pkelch16.tfm
 share/texmf-dist/fonts/tfm/public/bartel-chess-fonts/pkelch8.tfm
 share/texmf-dist/fonts/tfm/public/bartel-chess-fonts/pkelch9.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/bartel-chess-fonts
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/bartel-chess-fonts
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/bartel-chess-fonts/other-sources
 @dirrmtry share/texmf-dist/doc/fonts/bartel-chess-fonts
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

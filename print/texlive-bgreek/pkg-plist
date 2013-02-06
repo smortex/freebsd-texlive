@@ -304,8 +304,17 @@ share/texmf-dist/tex/latex/bgreek/bgreek.ldf
 share/texmf-dist/tex/latex/bgreek/bgreek.sty
 share/texmf-dist/tex/latex/bgreek/ibygreek.ldf
 @dirrmtry share/texmf-dist/tex/latex/bgreek
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/vf/public/bgreek
+@dirrmtry share/texmf-dist/fonts/vf/public
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/tfm/public/bgreek
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/latex/bgreek
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

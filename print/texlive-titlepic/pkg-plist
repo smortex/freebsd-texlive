@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/titlepic/titlepic-manual.tex
 share/texmf-dist/tex/latex/titlepic/titlepic.sty
 @dirrmtry share/texmf-dist/tex/latex/titlepic
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/titlepic
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

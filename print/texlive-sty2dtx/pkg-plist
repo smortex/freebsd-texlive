@@ -1,10 +1,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/sty2dtx/README
 %%PORTDOCS%%share/texmf-dist/doc/support/sty2dtx/sty2dtx.pdf
-share/texmf-dist/scripts/sty2dtx/sty2dtx.pl
 %%PORTDOCS%%share/texmf/doc/man/man1/sty2dtx.1
 %%PORTDOCS%%share/texmf/doc/man/man1/sty2dtx.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf-dist/scripts/sty2dtx
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/doc/support/sty2dtx
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

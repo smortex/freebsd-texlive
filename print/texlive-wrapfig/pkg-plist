@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/wrapfig/wrapfig-doc.tex
 share/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 @dirrmtry share/texmf-dist/tex/latex/wrapfig
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/wrapfig
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

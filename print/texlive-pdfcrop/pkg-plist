@@ -1,4 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/pdfcrop/README
 @dirrmtry share/texmf-dist/doc/support/pdfcrop
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

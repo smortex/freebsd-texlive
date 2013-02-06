@@ -5,6 +5,10 @@ share/texmf-dist/tex/plain/treetex/classes.tex
 share/texmf-dist/tex/plain/treetex/l_pic.tex
 share/texmf-dist/tex/plain/treetex/treetex.tex
 @dirrmtry share/texmf-dist/tex/plain/treetex
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/plain/treetex
+@dirrmtry share/texmf-dist/doc/plain
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

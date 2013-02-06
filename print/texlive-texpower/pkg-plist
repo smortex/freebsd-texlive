@@ -66,9 +66,15 @@ share/texmf-dist/tex/latex/texpower/tppstcol.sty
 share/texmf-dist/tex/latex/texpower/tpsem-a4.sty
 share/texmf-dist/tex/latex/texpower/tpsettings.cfg
 @dirrmtry share/texmf-dist/tex/latex/texpower
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/texpower
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/texpower/tpslifonts
 @dirrmtry share/texmf-dist/doc/latex/texpower/contrib
 @dirrmtry share/texmf-dist/doc/latex/texpower
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

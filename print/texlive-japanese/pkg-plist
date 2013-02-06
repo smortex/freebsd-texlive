@@ -5,7 +5,13 @@
 %%PORTSRC%%share/texmf-dist/source/platex/japanese/japanese.ins
 share/texmf-dist/tex/platex/japanese/japanese.ldf
 @dirrmtry share/texmf-dist/tex/platex/japanese
+@dirrmtry share/texmf-dist/tex/platex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/platex/japanese
+@dirrmtry share/texmf-dist/source/platex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/platex/japanese
+@dirrmtry share/texmf-dist/doc/platex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

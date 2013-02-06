@@ -15,7 +15,11 @@ share/texmf-dist/tex/latex/easy/easymat.sty
 share/texmf-dist/tex/latex/easy/easytable.sty
 share/texmf-dist/tex/latex/easy/easyvector.sty
 @dirrmtry share/texmf-dist/tex/latex/easy
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/easy/for-latex2html
 @dirrmtry share/texmf-dist/doc/latex/easy
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

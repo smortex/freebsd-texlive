@@ -68,7 +68,12 @@ share/texmf-dist/fonts/map/fontname/width.map
 share/texmf-dist/fonts/map/fontname/yandy.map
 %%PORTDOCS%%share/texmf/doc/info/fontname.info
 @dirrmtry share/texmf/doc/info
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/fonts/map/fontname
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/fontname
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

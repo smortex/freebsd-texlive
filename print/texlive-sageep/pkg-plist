@@ -10,8 +10,16 @@ share/texmf-dist/bibtex/bst/sageep/sageep.bst
 %%PORTSRC%%share/texmf-dist/source/latex/sageep/sageep.ins
 share/texmf-dist/tex/latex/sageep/sageep.cls
 @dirrmtry share/texmf-dist/tex/latex/sageep
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/sageep
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/sageep
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/sageep
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

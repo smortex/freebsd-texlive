@@ -30,8 +30,17 @@ share/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfm
 %%PORTSRC%%share/texmf-dist/source/fonts/fpl/TeXPalladioL-SC.pe
 %%PORTSRC%%share/texmf-dist/source/fonts/fpl/URW-OtherSubrs.ps
 @dirrmtry share/texmf-dist/source/fonts/fpl
+@dirrmtry share/texmf-dist/source/fonts
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/fonts/type1/public/fpl
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/afm/public/fpl
+@dirrmtry share/texmf-dist/fonts/afm/public
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/fpl
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

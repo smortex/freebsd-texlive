@@ -11,9 +11,13 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tkz-linknodes/tkz-linknodes-screen.pdf
 share/texmf-dist/tex/latex/tkz-linknodes/tkz-linknodes.sty
 @dirrmtry share/texmf-dist/tex/latex/tkz-linknodes
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/tkz-linknodes/latex
 @dirrmtry share/texmf-dist/doc/latex/tkz-linknodes/examples/latex
 @dirrmtry share/texmf-dist/doc/latex/tkz-linknodes/examples
 @dirrmtry share/texmf-dist/doc/latex/tkz-linknodes
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -29,7 +29,12 @@ share/texmf-dist/tex/latex/biblatex-dw/lbx/german-dw.lbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-dw/lbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-dw/cbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-dw/bbx
+@dirrmtry share/texmf-dist/tex/latex/biblatex-dw
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/biblatex-dw/examples
 @dirrmtry share/texmf-dist/doc/latex/biblatex-dw
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -18,6 +18,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/fncychap/manifest.txt
 share/texmf-dist/tex/latex/fncychap/fncychap.sty
 @dirrmtry share/texmf-dist/tex/latex/fncychap
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/fncychap
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

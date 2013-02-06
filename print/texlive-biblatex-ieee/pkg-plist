@@ -9,6 +9,10 @@ share/texmf-dist/tex/latex/biblatex-ieee/ieee-alphabetic.cbx
 share/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
 share/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-ieee
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/biblatex-ieee
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

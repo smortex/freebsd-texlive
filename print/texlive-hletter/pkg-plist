@@ -21,6 +21,10 @@ share/texmf-dist/tex/latex/hletter/hletter.cls
 share/texmf-dist/tex/latex/hletter/hsetup.sty
 share/texmf-dist/tex/latex/hletter/mergeh.sty
 @dirrmtry share/texmf-dist/tex/latex/hletter
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/hletter
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

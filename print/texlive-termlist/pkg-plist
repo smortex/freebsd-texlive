@@ -3,7 +3,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/termlist/termlist.dtx
 share/texmf-dist/tex/latex/termlist/termlist.sty
 @dirrmtry share/texmf-dist/tex/latex/termlist
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/termlist
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/termlist
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

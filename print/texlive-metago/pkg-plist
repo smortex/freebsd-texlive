@@ -13,6 +13,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/metago/script.go
 share/texmf-dist/metapost/metago/metago.mp
 @dirrmtry share/texmf-dist/metapost/metago
+@dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/doc/metapost/metago
+@dirrmtry share/texmf-dist/doc/metapost
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -1,4 +1,6 @@
 share/texmf-dist/tex/plain/hanoi/hanoi.tex
 @dirrmtry share/texmf-dist/tex/plain/hanoi
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

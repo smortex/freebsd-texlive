@@ -8,5 +8,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/texcount/sub_options.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/texcount/sub_tc_other.tex
 @dirrmtry share/texmf-dist/doc/support/texcount
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

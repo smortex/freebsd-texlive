@@ -30,8 +30,12 @@ share/texmf-dist/tex/latex/media9/players/VPlayer.swf
 @dirrmtry share/texmf-dist/tex/latex/media9/players
 @dirrmtry share/texmf-dist/tex/latex/media9/javascript
 @dirrmtry share/texmf-dist/tex/latex/media9
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/media9/files/players
 @dirrmtry share/texmf-dist/doc/latex/media9/files
 @dirrmtry share/texmf-dist/doc/latex/media9
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

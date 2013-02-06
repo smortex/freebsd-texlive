@@ -4,7 +4,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/gmdoc-enhance/gmdoc-enhance.ins
 share/texmf-dist/tex/latex/gmdoc-enhance/gmdoc-enhance.sty
 @dirrmtry share/texmf-dist/tex/latex/gmdoc-enhance
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/gmdoc-enhance
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/gmdoc-enhance
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -13,7 +13,13 @@ share/texmf-dist/tex/plain/etex/etexdefs.lib
 %%PORTDOCS%%share/texmf/doc/man/man1/etex.1
 %%PORTDOCS%%share/texmf/doc/man/man1/etex.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/plain/etex
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/etex/base
+@dirrmtry share/texmf-dist/doc/etex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

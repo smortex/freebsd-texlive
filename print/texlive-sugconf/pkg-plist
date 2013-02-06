@@ -8,6 +8,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/sugconf/sugconf-example.tex
 share/texmf-dist/tex/latex/sugconf/sugconf.cls
 @dirrmtry share/texmf-dist/tex/latex/sugconf
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/sugconf
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

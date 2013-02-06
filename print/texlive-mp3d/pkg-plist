@@ -39,6 +39,9 @@ share/texmf-dist/metapost/mp3d/3dpoly.mp
 share/texmf-dist/metapost/mp3d/3dutil.mp
 share/texmf-dist/metapost/mp3d/animpoly.mp
 @dirrmtry share/texmf-dist/metapost/mp3d
+@dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/doc/metapost/mp3d
+@dirrmtry share/texmf-dist/doc/metapost
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

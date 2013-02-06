@@ -10,8 +10,17 @@ share/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi9.tfm
 share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 share/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
 @dirrmtry share/texmf-dist/tex/latex/sansmathaccent
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/tfm/public/sansmathaccent
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/map/dvips/sansmathaccent
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/sansmathaccent
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

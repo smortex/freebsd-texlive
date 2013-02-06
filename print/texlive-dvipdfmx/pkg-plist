@@ -10,7 +10,14 @@ share/texmf/fonts/map/dvipdfmx/updmap/kanjix.map
 share/tlpkg/tlpostcode/dvipdfmx.pl
 @dirrmtry share/tlpkg/tlpostcode
 @dirrmtry share/texmf/fonts/map/dvipdfmx/updmap
+@dirrmtry share/texmf/fonts/map/dvipdfmx
+@dirrmtry share/texmf/fonts/map
+@dirrmtry share/texmf/fonts/cmap/dvipdfmx
+@dirrmtry share/texmf/fonts/cmap
+@dirrmtry share/texmf/fonts
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
 @dirrmtry share/texmf/doc/dvipdfmx
+@dirrmtry share/texmf/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

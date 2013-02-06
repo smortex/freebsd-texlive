@@ -5,6 +5,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/mpattern/test.mp
 share/texmf-dist/metapost/mpattern/mpattern.mp
 @dirrmtry share/texmf-dist/metapost/mpattern
+@dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/doc/metapost/mpattern
+@dirrmtry share/texmf-dist/doc/metapost
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

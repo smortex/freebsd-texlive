@@ -38,10 +38,22 @@ share/texmf-dist/tex/platex/pxchfon/pxchfon.sty
 share/texmf-dist/tex/platex/pxchfon/pxchfon0.def
 share/texmf-dist/tex/platex/pxchfon/pxjafont.sty
 @dirrmtry share/texmf-dist/tex/platex/pxchfon
+@dirrmtry share/texmf-dist/tex/platex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/platex/pxchfon
+@dirrmtry share/texmf-dist/source/platex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/fonts/vf/public/pxchfon
+@dirrmtry share/texmf-dist/fonts/vf/public
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/tfm/public/pxchfon
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/sfd/pxchfon
+@dirrmtry share/texmf-dist/fonts/sfd
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/platex/pxchfon
+@dirrmtry share/texmf-dist/doc/platex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

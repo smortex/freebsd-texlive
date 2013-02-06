@@ -125,9 +125,18 @@ share/texmf-dist/tex/latex/boisik/ot1bskf.fd
 share/texmf-dist/tex/latex/boisik/ts1bsk.fd
 share/texmf-dist/tex/latex/boisik/ubskex.fd
 @dirrmtry share/texmf-dist/tex/latex/boisik
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/tfm/public/boisik
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/boisik
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/boisik/example
 @dirrmtry share/texmf-dist/doc/fonts/boisik
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

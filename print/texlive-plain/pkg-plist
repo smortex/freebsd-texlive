@@ -26,6 +26,9 @@ share/texmf-dist/tex/plain/config/tex.ini
 share/texmf-dist/tex/plain/config/xetex.ini
 @dirrmtry share/texmf-dist/tex/plain/config
 @dirrmtry share/texmf-dist/tex/plain/base
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/makeindex/plain
+@dirrmtry share/texmf-dist/makeindex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

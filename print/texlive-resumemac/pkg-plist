@@ -2,6 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/plain/resumemac/sample_resume.tex
 share/texmf-dist/tex/plain/resumemac/resumemac.tex
 @dirrmtry share/texmf-dist/tex/plain/resumemac
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/plain/resumemac
+@dirrmtry share/texmf-dist/doc/plain
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

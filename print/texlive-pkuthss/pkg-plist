@@ -46,6 +46,8 @@ share/texmf-dist/tex/latex/pkuthss/pkuthss-gbk.def
 share/texmf-dist/tex/latex/pkuthss/pkuthss-utf8.def
 share/texmf-dist/tex/latex/pkuthss/pkuthss.cls
 @dirrmtry share/texmf-dist/tex/latex/pkuthss
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/pkuthss/utf8lf/img
 @dirrmtry share/texmf-dist/doc/latex/pkuthss/utf8lf/chap
 @dirrmtry share/texmf-dist/doc/latex/pkuthss/utf8lf
@@ -53,5 +55,7 @@ share/texmf-dist/tex/latex/pkuthss/pkuthss.cls
 @dirrmtry share/texmf-dist/doc/latex/pkuthss/gbkcrlf/chap
 @dirrmtry share/texmf-dist/doc/latex/pkuthss/gbkcrlf
 @dirrmtry share/texmf-dist/doc/latex/pkuthss
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -6,8 +6,15 @@ share/texmf-dist/makeindex/fixlatvian/lv.ist
 %%PORTSRC%%share/texmf-dist/source/xelatex/fixlatvian/fixlatvian.ins
 share/texmf-dist/tex/xelatex/fixlatvian/fixlatvian.sty
 @dirrmtry share/texmf-dist/tex/xelatex/fixlatvian
+@dirrmtry share/texmf-dist/tex/xelatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/xelatex/fixlatvian
+@dirrmtry share/texmf-dist/source/xelatex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/makeindex/fixlatvian
+@dirrmtry share/texmf-dist/makeindex
 @dirrmtry share/texmf-dist/doc/xelatex/fixlatvian
+@dirrmtry share/texmf-dist/doc/xelatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

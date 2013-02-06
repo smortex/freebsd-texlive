@@ -4,7 +4,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/simplewick/simplewick.ins
 share/texmf-dist/tex/latex/simplewick/simplewick.sty
 @dirrmtry share/texmf-dist/tex/latex/simplewick
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/simplewick
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/simplewick
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

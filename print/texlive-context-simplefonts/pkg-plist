@@ -3,6 +3,12 @@ share/texmf-dist/tex/context/third/simplefonts/t-simplefonts.lua
 share/texmf-dist/tex/context/third/simplefonts/t-simplefonts.mkii
 share/texmf-dist/tex/context/third/simplefonts/t-simplefonts.mkiv
 @dirrmtry share/texmf-dist/tex/context/third/simplefonts
+@dirrmtry share/texmf-dist/tex/context/third
+@dirrmtry share/texmf-dist/tex/context
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/context/third/simplefonts
+@dirrmtry share/texmf-dist/doc/context/third
+@dirrmtry share/texmf-dist/doc/context
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

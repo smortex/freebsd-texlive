@@ -29,9 +29,20 @@ share/texmf-dist/fonts/vf/public/blacklettert1/tswab.vf
 %%PORTSRC%%share/texmf-dist/source/fonts/blacklettert1/yswab.pl
 share/texmf-dist/tex/latex/blacklettert1/t1yfrak.fd
 @dirrmtry share/texmf-dist/tex/latex/blacklettert1
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/fonts/blacklettert1
+@dirrmtry share/texmf-dist/source/fonts
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/fonts/vf/public/blacklettert1
+@dirrmtry share/texmf-dist/fonts/vf/public
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/tfm/public/blacklettert1
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/blacklettert1
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

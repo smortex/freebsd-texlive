@@ -34,6 +34,10 @@
 share/texmf-dist/tex/latex/swimgraf/swimgraf.cfg
 share/texmf-dist/tex/latex/swimgraf/swimgraf.sty
 @dirrmtry share/texmf-dist/tex/latex/swimgraf
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/swimgraf
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

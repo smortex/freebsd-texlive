@@ -4,6 +4,10 @@ share/texmf-dist/bibtex/bst/iopart-num/iopart-num.bst
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/iopart-num/iopart-num.pdf
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/iopart-num/iopart-num.tex
 @dirrmtry share/texmf-dist/doc/bibtex/iopart-num
+@dirrmtry share/texmf-dist/doc/bibtex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/iopart-num
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

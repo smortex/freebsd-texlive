@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/philex/philexmanual.tex
 share/texmf-dist/tex/latex/philex/philex.sty
 @dirrmtry share/texmf-dist/tex/latex/philex
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/philex
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

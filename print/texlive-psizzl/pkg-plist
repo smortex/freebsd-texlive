@@ -21,7 +21,14 @@ share/texmf-dist/tex/psizzl/base/thesis.Psizzl
 share/texmf-dist/tex/psizzl/config/psizzl.ini
 @dirrmtry share/texmf-dist/tex/psizzl/config
 @dirrmtry share/texmf-dist/tex/psizzl/base
+@dirrmtry share/texmf-dist/tex/psizzl
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/psizzl/base
+@dirrmtry share/texmf-dist/source/psizzl
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/otherformats/psizzl/base
+@dirrmtry share/texmf-dist/doc/otherformats/psizzl
+@dirrmtry share/texmf-dist/doc/otherformats
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

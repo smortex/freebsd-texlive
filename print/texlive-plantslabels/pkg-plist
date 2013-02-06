@@ -9,10 +9,16 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/plantslabels/example/tex/example.tex
 share/texmf-dist/tex/latex/plantslabels/plantslabels.sty
 @dirrmtry share/texmf-dist/tex/latex/plantslabels
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/plantslabels/example/tex
 @dirrmtry share/texmf-dist/doc/latex/plantslabels/example/pdf
+@dirrmtry share/texmf-dist/doc/latex/plantslabels/example
 @dirrmtry share/texmf-dist/doc/latex/plantslabels/doc/tex
 @dirrmtry share/texmf-dist/doc/latex/plantslabels/doc/pdf
+@dirrmtry share/texmf-dist/doc/latex/plantslabels/doc
 @dirrmtry share/texmf-dist/doc/latex/plantslabels
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

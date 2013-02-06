@@ -1,6 +1,9 @@
 share/texmf-dist/tex/generic/xetexconfig/unicode-letters.tex
 share/texmf-dist/tex/xelatex/xetexconfig/crop.cfg
 @dirrmtry share/texmf-dist/tex/xelatex/xetexconfig
+@dirrmtry share/texmf-dist/tex/xelatex
 @dirrmtry share/texmf-dist/tex/generic/xetexconfig
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

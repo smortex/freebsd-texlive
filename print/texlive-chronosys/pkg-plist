@@ -8,6 +8,10 @@ share/texmf-dist/tex/generic/chronosys/chronosys.tex
 share/texmf-dist/tex/generic/chronosys/chronosyschr.tex
 share/texmf-dist/tex/generic/chronosys/x-chronosys.tex
 @dirrmtry share/texmf-dist/tex/generic/chronosys
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/chronosys
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

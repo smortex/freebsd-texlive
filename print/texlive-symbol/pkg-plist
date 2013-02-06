@@ -10,13 +10,28 @@ share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb
 share/texmf-dist/fonts/type1/urw/symbol/usyr.pfm
 share/texmf-dist/tex/latex/symbol/uusy.fd
 @dirrmtry share/texmf-dist/tex/latex/symbol
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/type1/urw/symbol
+@dirrmtry share/texmf-dist/fonts/type1/urw
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/urw35vf/symbol
+@dirrmtry share/texmf-dist/fonts/tfm/urw35vf
 @dirrmtry share/texmf-dist/fonts/tfm/monotype/symbol
+@dirrmtry share/texmf-dist/fonts/tfm/monotype
 @dirrmtry share/texmf-dist/fonts/tfm/adobe/symbol
+@dirrmtry share/texmf-dist/fonts/tfm/adobe
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/map/dvips/symbol
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/afm/urw/symbol
+@dirrmtry share/texmf-dist/fonts/afm/urw
 @dirrmtry share/texmf-dist/fonts/afm/adobe/symbol
+@dirrmtry share/texmf-dist/fonts/afm/adobe
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/dvips/symbol
+@dirrmtry share/texmf-dist/dvips
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -31,7 +31,12 @@ share/texmf-dist/metapost/mpcolornames/mpcolornames.mp
 %%PORTSRC%%share/texmf-dist/source/metapost/mpcolornames/spec-xcolor-sty.awk
 %%PORTSRC%%share/texmf-dist/source/metapost/mpcolornames/tab-clash-svg-dvips.awk
 @dirrmtry share/texmf-dist/source/metapost/mpcolornames
+@dirrmtry share/texmf-dist/source/metapost
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/metapost/mpcolornames
+@dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/doc/metapost/mpcolornames
+@dirrmtry share/texmf-dist/doc/metapost
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
