@@ -1,12 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/caption/CHANGELOG
 %%PORTDOCS%%share/texmf-dist/doc/latex/caption/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/caption/SUMMARY
 %%PORTDOCS%%share/texmf-dist/doc/latex/caption/bicaption.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/caption/caption-deu.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/caption/caption-eng.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/caption/caption-rus.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/caption/caption.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/caption/caption2.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/caption/caption3.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/caption/ltcaption.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/caption/newfloat.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/caption/subcaption.pdf

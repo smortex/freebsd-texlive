@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/dtxgen/README
+%%PORTDOCS%%share/texmf-dist/doc/support/dtxgen/dtxgen.pdf
+share/texmf-dist/scripts/dtxgen/dtxgen
+@dirrmtry share/texmf-dist/scripts/dtxgen
+@dirrmtry share/texmf-dist/doc/support/dtxgen
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
