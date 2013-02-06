@@ -22,6 +22,8 @@ USE_XZ=		yes
 NO_BUILD=	yes
 NO_WRKSUBDIR=	yes
 
+UNIQ?=		/usr/bin/uniq # This should be included in ports/Mk/bsd.commands.mk
+
 MKTEXLSR=	${PREFIX}/bin/mktexlsr
 
 ${WRKDIR}/.install_files: build
@@ -71,16 +73,12 @@ ${WRKDIR}/.install_files: build
 
 pkg-plist: ${WRKDIR}/.install_files
 	@${SORT} -t',' -k 2 < ${WRKDIR}/.install_files | ${AWK} -F',' ' { print $$3 $$2 } ' > ${PLIST}
-	@for dir in `${CUT} -d',' -f 2 < ${WRKDIR}/.install_files | ${XARGS} dirname | ${SORT} -r | uniq`; do \
-	    if [ ! -d "${PREFIX}/$$dir" ]; then \
-		${ECHO} @dirrmtry $$dir >> ${PLIST} ;\
-	    fi; \
-	done
+	@${AWK} -F, '{ n = split($$2, a, "/"); path="@dirrmtry "; for (i=1; i < n; i++) { if (i > 1) {path = path "/"} path = path a[i]; if (i > 2) { print path } } }' <  work/.install_files | ${SORT} -r | ${UNIQ} >> ${PLIST} ; \
 	@${ECHO} "@exec %D/bin/mktexlsr" >> ${PLIST}
 	@${ECHO} "@unexec %D/bin/mktexlsr" >> ${PLIST}
 
 do-install: ${WRKDIR}/.install_files
-	@for dir in `${CUT} -d',' -f 2 < ${WRKDIR}/.install_files | ${XARGS} dirname | ${SORT} -r | uniq`; do \
+	@for dir in `${CUT} -d',' -f 2 < ${WRKDIR}/.install_files | ${XARGS} ${DIRNAME} | ${SORT} -r | ${UNIQ}`; do \
 	    if [ ! -d "${PREFIX}/$$dir" ]; then \
 		${MKDIR} "${PREFIX}/$$dir" ;\
 	    fi; \
