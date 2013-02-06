@@ -73,7 +73,7 @@ ${WRKDIR}/.install_files: build
 
 pkg-plist: ${WRKDIR}/.install_files
 	@${SORT} -t',' -k 2 < ${WRKDIR}/.install_files | ${AWK} -F',' ' { print $$3 $$2 } ' > ${PLIST}
-	@${AWK} -F, '{ n = split($$2, a, "/"); path="@dirrmtry "; for (i=1; i < n; i++) { if (i > 1) {path = path "/"} path = path a[i]; if (i > 2) { print path } } }' <  work/.install_files | ${SORT} -r | ${UNIQ} >> ${PLIST} ; \
+	@${AWK} -F, '{ n = split($$2, a, "/"); path="@dirrmtry "; for (i=1; i < n; i++) { if (i > 1) {path = path "/"} path = path a[i]; if (i > 2) { print path } } }' <  work/.install_files | ${SORT} -r | ${UNIQ} >> ${PLIST}
 	@${ECHO} "@exec %D/bin/mktexlsr" >> ${PLIST}
 	@${ECHO} "@unexec %D/bin/mktexlsr" >> ${PLIST}
 
