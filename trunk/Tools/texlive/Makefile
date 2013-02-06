@@ -81,6 +81,7 @@ fetch:
 .ifdef V
 	@echo "===>  Updating source tarballs..."
 .endif
+	@mkdir -p ${FETCHDIR}
 	@cd ${FETCHDIR} && rsync ${RSYNC_VERBOSE} -a --no-motd --delete ${FTLMIRROR} .
 
 versionify:
