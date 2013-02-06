@@ -1,13 +1,15 @@
 # $FreeBSD$
 
-PORTNAME=	caption
+PORTNAME=	dtxgen
 PORTVERSION=	20130205
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Customising captions in floating environments.
+COMMENT=	Creates a template for a self-extracting .dtx file.
 
+RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
+
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
