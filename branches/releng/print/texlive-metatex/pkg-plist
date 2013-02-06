@@ -9,7 +9,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/plain/metatex/mtpaper/shadow.tex
 share/texmf-dist/tex/plain/metatex/metatex.tex
 @dirrmtry share/texmf-dist/tex/plain/metatex
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/plain/metatex/mtpaper
 @dirrmtry share/texmf-dist/doc/plain/metatex
+@dirrmtry share/texmf-dist/doc/plain
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

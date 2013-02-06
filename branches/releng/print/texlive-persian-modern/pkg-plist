@@ -26,7 +26,14 @@ share/texmf-dist/fonts/truetype/public/persian-modern/persian-modern-shadow.ttf
 %%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/persian-modern-regular.sfd
 %%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/persian-modern-shadow.sfd
 @dirrmtry share/texmf-dist/source/fonts/persian-modern
+@dirrmtry share/texmf-dist/source/fonts
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/fonts/truetype/public/persian-modern
+@dirrmtry share/texmf-dist/fonts/truetype/public
+@dirrmtry share/texmf-dist/fonts/truetype
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/persian-modern
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

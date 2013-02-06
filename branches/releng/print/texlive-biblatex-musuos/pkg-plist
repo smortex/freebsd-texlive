@@ -6,6 +6,10 @@ share/texmf-dist/tex/latex/biblatex-musuos/german-musuos.lbx
 share/texmf-dist/tex/latex/biblatex-musuos/musuos.bbx
 share/texmf-dist/tex/latex/biblatex-musuos/musuos.cbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-musuos
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/biblatex-musuos
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

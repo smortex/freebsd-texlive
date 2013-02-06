@@ -15,6 +15,10 @@ share/texmf-dist/tex/latex/biblatex-philosophy/philosophy-standard.bbx
 share/texmf-dist/tex/latex/biblatex-philosophy/philosophy-verbose.bbx
 share/texmf-dist/tex/latex/biblatex-philosophy/philosophy-verbose.cbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-philosophy
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/biblatex-philosophy
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

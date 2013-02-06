@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/storecmd/storecmd-guide.tex
 share/texmf-dist/tex/latex/storecmd/storecmd.sty
 @dirrmtry share/texmf-dist/tex/latex/storecmd
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/storecmd
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

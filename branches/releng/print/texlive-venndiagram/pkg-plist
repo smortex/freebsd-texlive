@@ -8,8 +8,14 @@
 %%PORTSRC%%share/texmf-dist/source/latex/venndiagram/venndiagram.ins
 share/texmf-dist/tex/latex/venndiagram/venndiagram.sty
 @dirrmtry share/texmf-dist/tex/latex/venndiagram
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/venndiagram
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/venndiagram/samples
 @dirrmtry share/texmf-dist/doc/latex/venndiagram
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -9,7 +9,13 @@
 %%PORTSRC%%share/texmf-dist/source/xelatex/facture/facture.ins
 share/texmf-dist/tex/xelatex/facture/facture.cls
 @dirrmtry share/texmf-dist/tex/xelatex/facture
+@dirrmtry share/texmf-dist/tex/xelatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/xelatex/facture
+@dirrmtry share/texmf-dist/source/xelatex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/xelatex/facture
+@dirrmtry share/texmf-dist/doc/xelatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

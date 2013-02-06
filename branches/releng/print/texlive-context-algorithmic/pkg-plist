@@ -1,5 +1,8 @@
 share/texmf-dist/tex/context/third/algorithmic/t-algorithmic.mkii
 share/texmf-dist/tex/context/third/algorithmic/t-algorithmic.mkiv
 @dirrmtry share/texmf-dist/tex/context/third/algorithmic
+@dirrmtry share/texmf-dist/tex/context/third
+@dirrmtry share/texmf-dist/tex/context
+@dirrmtry share/texmf-dist/tex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

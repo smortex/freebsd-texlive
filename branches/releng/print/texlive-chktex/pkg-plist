@@ -1,15 +1,11 @@
-share/texmf/chktex/chktexrc
-%%PORTDOCS%%share/texmf/doc/chktex/ChkTeX.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/chktex.1
 %%PORTDOCS%%share/texmf/doc/man/man1/chktex.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/chkweb.1
 %%PORTDOCS%%share/texmf/doc/man/man1/chkweb.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/deweb.1
 %%PORTDOCS%%share/texmf/doc/man/man1/deweb.man1.pdf
-share/texmf/scripts/chktex/deweb.pl
-@dirrmtry share/texmf/scripts/chktex
 @dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/chktex
-@dirrmtry share/texmf/chktex
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

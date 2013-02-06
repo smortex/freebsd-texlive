@@ -15,7 +15,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/vprerex-6.4.2.tar.gz
 share/texmf-dist/tex/latex/prerex/prerex.sty
 @dirrmtry share/texmf-dist/tex/latex/prerex
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/prerex/doc
 @dirrmtry share/texmf-dist/doc/latex/prerex
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

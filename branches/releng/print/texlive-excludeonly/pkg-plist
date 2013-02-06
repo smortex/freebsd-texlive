@@ -2,6 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/excludeonly/excludeonly.tex
 share/texmf-dist/tex/latex/excludeonly/excludeonly.sty
 @dirrmtry share/texmf-dist/tex/latex/excludeonly
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/excludeonly
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

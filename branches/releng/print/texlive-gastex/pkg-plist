@@ -4,7 +4,12 @@
 share/texmf-dist/dvips/gastex/gastex.pro
 share/texmf-dist/tex/latex/gastex/gastex.sty
 @dirrmtry share/texmf-dist/tex/latex/gastex
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/dvips/gastex
+@dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/latex/gastex
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

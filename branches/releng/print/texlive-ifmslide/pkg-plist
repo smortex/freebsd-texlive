@@ -25,6 +25,10 @@ share/texmf-dist/tex/latex/ifmslide/ifmslide.sty
 share/texmf-dist/tex/latex/ifmslide/liquid_helium.eps
 share/texmf-dist/tex/latex/ifmslide/liquid_helium.jpg
 @dirrmtry share/texmf-dist/tex/latex/ifmslide
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/ifmslide
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -12,6 +12,10 @@ share/texmf-dist/tex/latex/pdfslide/pdfslide.cfg
 share/texmf-dist/tex/latex/pdfslide/pdfslide.sty
 share/texmf-dist/tex/latex/pdfslide/slide.clo
 @dirrmtry share/texmf-dist/tex/latex/pdfslide
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/pdfslide
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

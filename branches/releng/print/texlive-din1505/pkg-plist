@@ -7,6 +7,10 @@ share/texmf-dist/bibtex/bst/din1505/unsrtdin.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/din1505/leitbild.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/din1505/natbib.cfg
 @dirrmtry share/texmf-dist/doc/latex/din1505
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/din1505
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

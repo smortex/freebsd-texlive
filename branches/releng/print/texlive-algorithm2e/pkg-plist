@@ -17,6 +17,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/algorithm2e/algorithm2e_exswitch.tex
 share/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 @dirrmtry share/texmf-dist/tex/latex/algorithm2e
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/algorithm2e
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

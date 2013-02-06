@@ -32,7 +32,13 @@ share/texmf-dist/tex/latex/ntgclass/ntg12.clo
 share/texmf-dist/tex/latex/ntgclass/rapport1.cls
 share/texmf-dist/tex/latex/ntgclass/rapport3.cls
 @dirrmtry share/texmf-dist/tex/latex/ntgclass
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/ntgclass
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/ntgclass
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

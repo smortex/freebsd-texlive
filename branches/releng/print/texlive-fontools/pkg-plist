@@ -11,7 +11,14 @@ share/texmf-dist/fonts/enc/dvips/fontools/fontools_ts1.enc
 %%PORTDOCS%%share/texmf/doc/man/man1/ot2kpx.1
 %%PORTDOCS%%share/texmf/doc/man/man1/ot2kpx.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/fonts/enc/dvips/fontools
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/support/fontools
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -4,7 +4,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/fancytabs/fancytabs.ins
 share/texmf-dist/tex/latex/fancytabs/fancytabs.sty
 @dirrmtry share/texmf-dist/tex/latex/fancytabs
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/fancytabs
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/fancytabs
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

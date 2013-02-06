@@ -78,6 +78,8 @@ share/texmf-dist/tex/latex/cweb-latex/cwebarray.sty
 share/texmf-dist/tex/latex/cweb-latex/cwebbase.tex
 share/texmf-dist/tex/latex/cweb-latex/keyvald.sty
 @dirrmtry share/texmf-dist/tex/latex/cweb-latex
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/cweb-latex/src/test
 @dirrmtry share/texmf-dist/doc/latex/cweb-latex/src/style
 @dirrmtry share/texmf-dist/doc/latex/cweb-latex/src
@@ -87,5 +89,7 @@ share/texmf-dist/tex/latex/cweb-latex/keyvald.sty
 @dirrmtry share/texmf-dist/doc/latex/cweb-latex/contrib/cweb-hy
 @dirrmtry share/texmf-dist/doc/latex/cweb-latex/contrib
 @dirrmtry share/texmf-dist/doc/latex/cweb-latex
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

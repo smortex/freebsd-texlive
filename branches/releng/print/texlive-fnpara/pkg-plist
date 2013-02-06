@@ -2,6 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/fnpara/fnpara-doc.tex
 share/texmf-dist/tex/latex/fnpara/fnpara.sty
 @dirrmtry share/texmf-dist/tex/latex/fnpara
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/fnpara
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

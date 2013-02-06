@@ -17,6 +17,10 @@ share/texmf-dist/tex/plain/pitex/references.ptx
 share/texmf-dist/tex/plain/pitex/sections.ptx
 share/texmf-dist/tex/plain/pitex/verbatim.ptx
 @dirrmtry share/texmf-dist/tex/plain/pitex
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/plain/pitex
+@dirrmtry share/texmf-dist/doc/plain
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

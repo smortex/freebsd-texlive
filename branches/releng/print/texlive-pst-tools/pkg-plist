@@ -8,9 +8,17 @@ share/texmf-dist/dvips/pst-tools/pst-tools.pro
 share/texmf-dist/tex/generic/pst-tools/pst-tools.tex
 share/texmf-dist/tex/latex/pst-tools/pst-tools.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-tools
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/pst-tools
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/pst-tools
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/dvips/pst-tools
+@dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/generic/pst-tools
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

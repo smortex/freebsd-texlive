@@ -8,7 +8,13 @@
 share/texmf-dist/tex/generic/xlop/xlop.sty
 share/texmf-dist/tex/generic/xlop/xlop.tex
 @dirrmtry share/texmf-dist/tex/generic/xlop
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/xlop
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/generic/xlop
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

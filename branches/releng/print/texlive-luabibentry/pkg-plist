@@ -6,7 +6,13 @@
 share/texmf-dist/tex/lualatex/luabibentry/luabibentry.lua
 share/texmf-dist/tex/lualatex/luabibentry/luabibentry.sty
 @dirrmtry share/texmf-dist/tex/lualatex/luabibentry
+@dirrmtry share/texmf-dist/tex/lualatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/lualatex/luabibentry
+@dirrmtry share/texmf-dist/source/lualatex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/lualatex/luabibentry
+@dirrmtry share/texmf-dist/doc/lualatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

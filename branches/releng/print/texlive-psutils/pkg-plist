@@ -38,6 +38,9 @@
 %%PORTDOCS%%share/texmf/doc/man/man1/pstops.man1.pdf
 share/texmf/dvips/getafm/getafm.ps
 @dirrmtry share/texmf/dvips/getafm
+@dirrmtry share/texmf/dvips
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

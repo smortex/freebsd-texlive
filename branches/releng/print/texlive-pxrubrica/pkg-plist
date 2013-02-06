@@ -13,8 +13,14 @@
 %%PORTSRC%%share/texmf-dist/source/platex/pxrubrica/pxrubrica.ins
 share/texmf-dist/tex/platex/pxrubrica/pxrubrica.sty
 @dirrmtry share/texmf-dist/tex/platex/pxrubrica
+@dirrmtry share/texmf-dist/tex/platex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/platex/pxrubrica
+@dirrmtry share/texmf-dist/source/platex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/platex/pxrubrica/sample
 @dirrmtry share/texmf-dist/doc/platex/pxrubrica
+@dirrmtry share/texmf-dist/doc/platex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

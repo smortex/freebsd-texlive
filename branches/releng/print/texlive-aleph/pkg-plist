@@ -5,6 +5,10 @@
 %%PORTDOCS%%share/texmf/doc/man/man1/lamed.1
 %%PORTDOCS%%share/texmf/doc/man/man1/lamed.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/doc/aleph/base
+@dirrmtry share/texmf-dist/doc/aleph
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

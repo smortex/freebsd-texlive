@@ -54,8 +54,14 @@ share/texmf-dist/tex/generic/m-tx/mtx.tex
 %%PORTDOCS%%share/texmf/doc/man/man1/prepmx.1
 %%PORTDOCS%%share/texmf/doc/man/man1/prepmx.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/generic/m-tx
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/m-tx/mtx060
 @dirrmtry share/texmf-dist/doc/generic/m-tx
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

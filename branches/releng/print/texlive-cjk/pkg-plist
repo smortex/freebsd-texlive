@@ -372,6 +372,7 @@ share/texmf-dist/tex/latex/cjk/texinput/thai/c90nrsr.fd
 share/texmf-dist/tex/latex/cjk/texinput/thai/thaicjk.ldf
 share/texmf-dist/tex/latex/cjk/utils/pyhyphen/pinyin.ldf
 @dirrmtry share/texmf-dist/tex/latex/cjk/utils/pyhyphen
+@dirrmtry share/texmf-dist/tex/latex/cjk/utils
 @dirrmtry share/texmf-dist/tex/latex/cjk/texinput/thai
 @dirrmtry share/texmf-dist/tex/latex/cjk/texinput/mule
 @dirrmtry share/texmf-dist/tex/latex/cjk/texinput/UTF8
@@ -385,6 +386,10 @@ share/texmf-dist/tex/latex/cjk/utils/pyhyphen/pinyin.ldf
 @dirrmtry share/texmf-dist/tex/latex/cjk/texinput/Bg5
 @dirrmtry share/texmf-dist/tex/latex/cjk/texinput
 @dirrmtry share/texmf-dist/tex/latex/cjk/contrib/wadalab
+@dirrmtry share/texmf-dist/tex/latex/cjk/contrib
+@dirrmtry share/texmf-dist/tex/latex/cjk
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/cjk/utils/subfonts
 @dirrmtry share/texmf-dist/source/latex/cjk/utils/pyhyphen
 @dirrmtry share/texmf-dist/source/latex/cjk/utils/lisp/mule-2.3
@@ -397,8 +402,15 @@ share/texmf-dist/tex/latex/cjk/utils/pyhyphen/pinyin.ldf
 @dirrmtry share/texmf-dist/source/latex/cjk/utils/Bg5conv
 @dirrmtry share/texmf-dist/source/latex/cjk/utils
 @dirrmtry share/texmf-dist/source/latex/cjk/texinput/KS/HLaTeX
+@dirrmtry share/texmf-dist/source/latex/cjk/texinput/KS
+@dirrmtry share/texmf-dist/source/latex/cjk/texinput
 @dirrmtry share/texmf-dist/source/latex/cjk/contrib/wadalab
+@dirrmtry share/texmf-dist/source/latex/cjk/contrib
+@dirrmtry share/texmf-dist/source/latex/cjk
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/cjk/utils/pyhyphen
+@dirrmtry share/texmf-dist/doc/latex/cjk/utils
 @dirrmtry share/texmf-dist/doc/latex/cjk/texlive
 @dirrmtry share/texmf-dist/doc/latex/cjk/examples/pdf
 @dirrmtry share/texmf-dist/doc/latex/cjk/examples/cjk
@@ -407,6 +419,7 @@ share/texmf-dist/tex/latex/cjk/utils/pyhyphen/pinyin.ldf
 @dirrmtry share/texmf-dist/doc/latex/cjk/doc/pdfhowto/examples/texinput/JIS
 @dirrmtry share/texmf-dist/doc/latex/cjk/doc/pdfhowto/examples/texinput/GB
 @dirrmtry share/texmf-dist/doc/latex/cjk/doc/pdfhowto/examples/texinput/Bg5
+@dirrmtry share/texmf-dist/doc/latex/cjk/doc/pdfhowto/examples/texinput
 @dirrmtry share/texmf-dist/doc/latex/cjk/doc/pdfhowto/examples
 @dirrmtry share/texmf-dist/doc/latex/cjk/doc/pdfhowto
 @dirrmtry share/texmf-dist/doc/latex/cjk/doc/pdf
@@ -415,5 +428,7 @@ share/texmf-dist/tex/latex/cjk/utils/pyhyphen/pinyin.ldf
 @dirrmtry share/texmf-dist/doc/latex/cjk/doc/chinese
 @dirrmtry share/texmf-dist/doc/latex/cjk/doc
 @dirrmtry share/texmf-dist/doc/latex/cjk
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

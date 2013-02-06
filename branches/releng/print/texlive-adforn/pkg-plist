@@ -13,11 +13,26 @@ share/texmf-dist/fonts/type1/arkandis/adforn/OrnementsADF.pfm
 share/texmf-dist/tex/latex/adforn/adforn.sty
 share/texmf-dist/tex/latex/adforn/uornementsadf.fd
 @dirrmtry share/texmf-dist/tex/latex/adforn
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/type1/arkandis/adforn
+@dirrmtry share/texmf-dist/fonts/type1/arkandis
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/arkandis/adforn
+@dirrmtry share/texmf-dist/fonts/tfm/arkandis
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/map/dvips/adforn
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/enc/dvips/adforn
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
 @dirrmtry share/texmf-dist/fonts/afm/arkandis/adforn
+@dirrmtry share/texmf-dist/fonts/afm/arkandis
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/adforn
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

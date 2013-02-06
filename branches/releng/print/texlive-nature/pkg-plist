@@ -3,7 +3,13 @@ share/texmf-dist/bibtex/bst/nature/naturemag.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/nature/nature-template.tex
 share/texmf-dist/tex/latex/nature/nature.cls
 @dirrmtry share/texmf-dist/tex/latex/nature
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/nature
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/nature
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

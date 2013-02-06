@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/theoremref/theoremref-doc.tex
 share/texmf-dist/tex/latex/theoremref/theoremref.sty
 @dirrmtry share/texmf-dist/tex/latex/theoremref
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/theoremref
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

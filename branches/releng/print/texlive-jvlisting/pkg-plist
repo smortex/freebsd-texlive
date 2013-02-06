@@ -6,7 +6,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/jvlisting/jvlisting.ins
 share/texmf-dist/tex/latex/jvlisting/jvlisting.sty
 @dirrmtry share/texmf-dist/tex/latex/jvlisting
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/jvlisting
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/jvlisting
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

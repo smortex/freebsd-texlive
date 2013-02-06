@@ -747,13 +747,27 @@ share/texmf-dist/fonts/vf/public/cmcyr/ycmtt8.vf
 share/texmf-dist/fonts/vf/public/cmcyr/ycmtt9.vf
 share/texmf-dist/fonts/vf/public/cmcyr/ycmu10.vf
 @dirrmtry share/texmf-dist/fonts/vf/public/cmcyr
+@dirrmtry share/texmf-dist/fonts/vf/public
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/type1/public/cmcyr
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/public/cmcyr
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/cmcyr
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
 @dirrmtry share/texmf-dist/fonts/map/dvips/cmcyr
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/cmcyr/vf/cmcyr6w
 @dirrmtry share/texmf-dist/doc/fonts/cmcyr/vf/cmcyr6k
 @dirrmtry share/texmf-dist/doc/fonts/cmcyr/vf/cmcyr6i
+@dirrmtry share/texmf-dist/doc/fonts/cmcyr/vf
 @dirrmtry share/texmf-dist/doc/fonts/cmcyr
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

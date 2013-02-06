@@ -35,8 +35,13 @@ share/texmf-dist/scripts/jmlr/makejmlrbook.bat
 share/texmf-dist/tex/latex/jmlr/jmlr.cls
 share/texmf-dist/tex/latex/jmlr/jmlrbook.cls
 @dirrmtry share/texmf-dist/tex/latex/jmlr
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/jmlr
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/scripts/jmlr
+@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/latex/jmlr/sample-papers/images
 @dirrmtry share/texmf-dist/doc/latex/jmlr/sample-papers
 @dirrmtry share/texmf-dist/doc/latex/jmlr/sample-books/paper4
@@ -45,5 +50,7 @@ share/texmf-dist/tex/latex/jmlr/jmlrbook.cls
 @dirrmtry share/texmf-dist/doc/latex/jmlr/sample-books/paper1
 @dirrmtry share/texmf-dist/doc/latex/jmlr/sample-books
 @dirrmtry share/texmf-dist/doc/latex/jmlr
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -6,7 +6,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/arydshln/arydshln.ins
 share/texmf-dist/tex/latex/arydshln/arydshln.sty
 @dirrmtry share/texmf-dist/tex/latex/arydshln
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/arydshln
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/arydshln
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

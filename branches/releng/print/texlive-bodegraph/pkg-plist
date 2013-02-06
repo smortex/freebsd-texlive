@@ -179,7 +179,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/95.table
 share/texmf-dist/tex/latex/bodegraph/bodegraph.sty
 @dirrmtry share/texmf-dist/tex/latex/bodegraph
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph
+@dirrmtry share/texmf-dist/doc/latex/bodegraph/gnuplot
 @dirrmtry share/texmf-dist/doc/latex/bodegraph
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

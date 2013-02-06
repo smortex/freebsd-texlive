@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/covington/covingtonGerm.tex
 share/texmf-dist/tex/latex/covington/covington.sty
 @dirrmtry share/texmf-dist/tex/latex/covington
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/covington
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

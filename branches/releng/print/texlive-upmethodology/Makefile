@@ -2,6 +2,7 @@
 
 PORTNAME=	upmethodology
 PORTVERSION=	20121007
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

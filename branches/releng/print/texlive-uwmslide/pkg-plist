@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/uwmslide/vaux.eps
 share/texmf-dist/tex/latex/uwmslide/uwmslide.cls
 @dirrmtry share/texmf-dist/tex/latex/uwmslide
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/uwmslide
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/synproof/synproof-doc.tex
 share/texmf-dist/tex/latex/synproof/synproof.sty
 @dirrmtry share/texmf-dist/tex/latex/synproof
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/synproof
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -6,7 +6,13 @@
 %%PORTSRC%%share/texmf-dist/source/xelatex/fontbook/fontbook.ins
 share/texmf-dist/tex/xelatex/fontbook/fontbook.sty
 @dirrmtry share/texmf-dist/tex/xelatex/fontbook
+@dirrmtry share/texmf-dist/tex/xelatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/xelatex/fontbook
+@dirrmtry share/texmf-dist/source/xelatex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/xelatex/fontbook
+@dirrmtry share/texmf-dist/doc/xelatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

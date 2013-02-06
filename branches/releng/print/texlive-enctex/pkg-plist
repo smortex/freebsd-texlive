@@ -53,6 +53,10 @@ share/texmf-dist/tex/generic/enctex/utf8raw.tex
 share/texmf-dist/tex/generic/enctex/utf8unkn.tex
 share/texmf-dist/tex/generic/enctex/utf8warn.tex
 @dirrmtry share/texmf-dist/tex/generic/enctex
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/enctex
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

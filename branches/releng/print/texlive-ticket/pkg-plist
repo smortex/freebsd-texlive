@@ -32,6 +32,10 @@ share/texmf-dist/tex/latex/ticket/zw32010.tdf
 share/texmf-dist/tex/latex/ticket/zw3424.tdf
 share/texmf-dist/tex/latex/ticket/zw4752.tdf
 @dirrmtry share/texmf-dist/tex/latex/ticket
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/ticket
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -422,12 +422,17 @@ share/texmf/tex/latex/asymptote/asymptote.sty
 share/texmf/tex/latex/asymptote/latexmkrc
 share/texmf/tex/latex/asymptote/ocg.sty
 @dirrmtry share/texmf/tex/latex/asymptote
+@dirrmtry share/texmf/tex/latex
 @dirrmtry share/texmf/tex/context/asymptote
+@dirrmtry share/texmf/tex/context
+@dirrmtry share/texmf/tex
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
 @dirrmtry share/texmf/doc/info
 @dirrmtry share/texmf/doc/asymptote/examples/animations
 @dirrmtry share/texmf/doc/asymptote/examples
 @dirrmtry share/texmf/doc/asymptote
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf/asymptote/GUI
 @dirrmtry share/texmf/asymptote
 @exec %D/bin/mktexlsr

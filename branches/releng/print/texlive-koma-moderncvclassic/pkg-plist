@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/koma-moderncvclassic/cvbasic.tex
 share/texmf-dist/tex/latex/koma-moderncvclassic/koma-moderncvclassic.sty
 @dirrmtry share/texmf-dist/tex/latex/koma-moderncvclassic
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/koma-moderncvclassic
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

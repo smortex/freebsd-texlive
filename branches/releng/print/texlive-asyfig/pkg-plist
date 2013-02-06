@@ -8,8 +8,14 @@ share/texmf-dist/tex/latex/asyfig/asyalign.sty
 share/texmf-dist/tex/latex/asyfig/asyfig.sty
 share/texmf-dist/tex/latex/asyfig/asyprocess.sty
 @dirrmtry share/texmf-dist/tex/latex/asyfig
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/asyfig
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/asyfig/example
 @dirrmtry share/texmf-dist/doc/latex/asyfig
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

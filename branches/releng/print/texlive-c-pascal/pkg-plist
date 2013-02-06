@@ -11,7 +11,11 @@ share/texmf-dist/tex/generic/c-pascal/cap_comm.tex
 share/texmf-dist/tex/generic/c-pascal/cap_pas.tex
 share/texmf-dist/tex/generic/c-pascal/cap_pyt.tex
 @dirrmtry share/texmf-dist/tex/generic/c-pascal
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/c-pascal/prog
 @dirrmtry share/texmf-dist/doc/generic/c-pascal
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

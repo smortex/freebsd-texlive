@@ -11,9 +11,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/example/example-rev.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/latexdiff
 %%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/latexdiff-fast
-share/texmf-dist/scripts/latexdiff/latexdiff-vc.pl
-share/texmf-dist/scripts/latexdiff/latexdiff.pl
-share/texmf-dist/scripts/latexdiff/latexrevise.pl
 %%PORTDOCS%%share/texmf/doc/man/man1/latexdiff-vc.1
 %%PORTDOCS%%share/texmf/doc/man/man1/latexdiff-vc.man1.pdf
 %%PORTDOCS%%share/texmf/doc/man/man1/latexdiff.1
@@ -21,10 +18,13 @@ share/texmf-dist/scripts/latexdiff/latexrevise.pl
 %%PORTDOCS%%share/texmf/doc/man/man1/latexrevise.1
 %%PORTDOCS%%share/texmf/doc/man/man1/latexrevise.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf-dist/scripts/latexdiff
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/doc/support/latexdiff/example
 @dirrmtry share/texmf-dist/doc/support/latexdiff/doc
 @dirrmtry share/texmf-dist/doc/support/latexdiff/contrib
 @dirrmtry share/texmf-dist/doc/support/latexdiff
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

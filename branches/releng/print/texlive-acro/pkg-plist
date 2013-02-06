@@ -7,6 +7,10 @@ share/texmf-dist/tex/latex/acro/acro.sty
 share/texmf-dist/tex/latex/acro/acro0.def
 share/texmf-dist/tex/latex/acro/acro1.def
 @dirrmtry share/texmf-dist/tex/latex/acro
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/acro
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

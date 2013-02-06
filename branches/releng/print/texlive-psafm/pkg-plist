@@ -5,5 +5,9 @@ share/texmf-dist/fonts/afm/itc/psafm/stonesan/is8ri8a.afm
 share/texmf-dist/fonts/afm/itc/psafm/stonesan/is8s8a.afm
 share/texmf-dist/fonts/afm/itc/psafm/stonesan/is8si8a.afm
 @dirrmtry share/texmf-dist/fonts/afm/itc/psafm/stonesan
+@dirrmtry share/texmf-dist/fonts/afm/itc/psafm
+@dirrmtry share/texmf-dist/fonts/afm/itc
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

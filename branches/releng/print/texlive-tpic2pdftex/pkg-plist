@@ -7,5 +7,7 @@
 %%PORTDOCS%%share/texmf/doc/tpic2pdftex/example.pic
 @dirrmtry share/texmf/doc/tpic2pdftex
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

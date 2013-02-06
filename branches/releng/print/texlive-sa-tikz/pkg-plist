@@ -5,6 +5,10 @@
 share/texmf-dist/tex/latex/sa-tikz/sa-tikz.sty
 share/texmf-dist/tex/latex/sa-tikz/tikzlibraryswitching-architectures.code.tex
 @dirrmtry share/texmf-dist/tex/latex/sa-tikz
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/sa-tikz
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -12,10 +12,23 @@ share/texmf-dist/fonts/tfm/public/prodint/prodint.tfm
 share/texmf-dist/fonts/type1/public/prodint/prodint.pfb
 share/texmf-dist/tex/latex/prodint/prodint.sty
 @dirrmtry share/texmf-dist/tex/latex/prodint
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/type1/public/prodint
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/public/prodint
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/map/dvips/prodint
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/afm/public/prodint
+@dirrmtry share/texmf-dist/fonts/afm/public
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/prodint
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

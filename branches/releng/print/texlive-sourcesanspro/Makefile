@@ -2,6 +2,7 @@
 
 PORTNAME=	sourcesanspro
 PORTVERSION=	20130103
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

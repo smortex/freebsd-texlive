@@ -262,16 +262,35 @@ share/texmf-dist/tex/latex/helvetic/ot1uhv.fd
 share/texmf-dist/tex/latex/helvetic/t1uhv.fd
 share/texmf-dist/tex/latex/helvetic/ts1uhv.fd
 @dirrmtry share/texmf-dist/tex/latex/helvetic
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/vf/urw35vf/helvetic
+@dirrmtry share/texmf-dist/fonts/vf/urw35vf
 @dirrmtry share/texmf-dist/fonts/vf/monotype/helvetic
+@dirrmtry share/texmf-dist/fonts/vf/monotype
 @dirrmtry share/texmf-dist/fonts/vf/adobe/helvetic
+@dirrmtry share/texmf-dist/fonts/vf/adobe
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/type1/urw/helvetic
+@dirrmtry share/texmf-dist/fonts/type1/urw
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/urw35vf/helvetic
+@dirrmtry share/texmf-dist/fonts/tfm/urw35vf
 @dirrmtry share/texmf-dist/fonts/tfm/monotype/helvetic
+@dirrmtry share/texmf-dist/fonts/tfm/monotype
 @dirrmtry share/texmf-dist/fonts/tfm/adobe/helvetic
+@dirrmtry share/texmf-dist/fonts/tfm/adobe
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/map/dvips/helvetic
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/afm/urw/helvetic
+@dirrmtry share/texmf-dist/fonts/afm/urw
 @dirrmtry share/texmf-dist/fonts/afm/adobe/helvetic
+@dirrmtry share/texmf-dist/fonts/afm/adobe
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/dvips/helvetic
+@dirrmtry share/texmf-dist/dvips
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

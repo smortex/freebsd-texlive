@@ -85,13 +85,32 @@ share/texmf-dist/tex/latex/baskervald/t1ybvw.fd
 share/texmf-dist/tex/latex/baskervald/ts1ybv.fd
 share/texmf-dist/tex/latex/baskervald/ts1ybvw.fd
 @dirrmtry share/texmf-dist/tex/latex/baskervald
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/fonts/baskervald
+@dirrmtry share/texmf-dist/source/fonts
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/fonts/vf/arkandis/baskervald
+@dirrmtry share/texmf-dist/fonts/vf/arkandis
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/type1/arkandis/baskervald
+@dirrmtry share/texmf-dist/fonts/type1/arkandis
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/arkandis/baskervald
+@dirrmtry share/texmf-dist/fonts/tfm/arkandis
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/map/dvips/baskervald
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/enc/dvips/baskervald
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
 @dirrmtry share/texmf-dist/fonts/afm/arkandis/baskervald
+@dirrmtry share/texmf-dist/fonts/afm/arkandis
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/baskervald
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

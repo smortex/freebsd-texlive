@@ -16,7 +16,12 @@ share/texmf-dist/tex/latex/latex2man/latex2man.cfg
 share/texmf-dist/tex/latex/latex2man/latex2man.sty
 %%PORTDOCS%%share/texmf/doc/info/latex2man.info
 @dirrmtry share/texmf/doc/info
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/latex/latex2man
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/support/latex2man
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

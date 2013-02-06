@@ -513,9 +513,20 @@ share/texmf-dist/tex/latex/eco/T1cmott.fd
 share/texmf-dist/tex/latex/eco/T1cmovt.fd
 share/texmf-dist/tex/latex/eco/eco.sty
 @dirrmtry share/texmf-dist/tex/latex/eco
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/fonts/eco
+@dirrmtry share/texmf-dist/source/fonts
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/fonts/vf/public/eco
+@dirrmtry share/texmf-dist/fonts/vf/public
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/tfm/public/eco
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/eco
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

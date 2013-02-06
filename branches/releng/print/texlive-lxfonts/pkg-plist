@@ -86,10 +86,23 @@ share/texmf-dist/fonts/type1/public/lxfonts/ltclo8.pfb
 share/texmf-dist/fonts/type1/public/lxfonts/ltclq8.pfb
 share/texmf-dist/tex/latex/lxfonts/lxfonts.sty
 @dirrmtry share/texmf-dist/tex/latex/lxfonts
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/type1/public/lxfonts
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/public/lxfonts
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/lxfonts
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
 @dirrmtry share/texmf-dist/fonts/map/dvips/lxfonts
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/lxfonts
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

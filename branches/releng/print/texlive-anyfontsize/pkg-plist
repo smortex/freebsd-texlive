@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/anyfontsize/anyfontsize.tex
 share/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
 @dirrmtry share/texmf-dist/tex/latex/anyfontsize
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/anyfontsize
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

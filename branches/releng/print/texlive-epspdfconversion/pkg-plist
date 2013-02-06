@@ -6,7 +6,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/epspdfconversion/example/optionstable.tex
 share/texmf-dist/tex/latex/epspdfconversion/epspdfconversion.sty
 @dirrmtry share/texmf-dist/tex/latex/epspdfconversion
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/epspdfconversion/example
 @dirrmtry share/texmf-dist/doc/latex/epspdfconversion
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

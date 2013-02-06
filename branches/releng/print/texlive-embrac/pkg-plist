@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/embrac/embrac_kerning_test.tex
 share/texmf-dist/tex/latex/embrac/embrac.sty
 @dirrmtry share/texmf-dist/tex/latex/embrac
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/embrac
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/jlabels/jlabels.tex
 share/texmf-dist/tex/latex/jlabels/jlabels.sty
 @dirrmtry share/texmf-dist/tex/latex/jlabels
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/jlabels
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

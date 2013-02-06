@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/footnotebackref/footnotebackref.tex
 share/texmf-dist/tex/latex/footnotebackref/footnotebackref.sty
 @dirrmtry share/texmf-dist/tex/latex/footnotebackref
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/footnotebackref
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

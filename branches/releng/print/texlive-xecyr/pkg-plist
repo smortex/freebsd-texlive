@@ -33,7 +33,12 @@
 share/texmf-dist/tex/generic/xecyr/xu-ruenhyph.tex
 share/texmf-dist/tex/xelatex/xecyr/xecyr.sty
 @dirrmtry share/texmf-dist/tex/xelatex/xecyr
+@dirrmtry share/texmf-dist/tex/xelatex
 @dirrmtry share/texmf-dist/tex/generic/xecyr
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/xelatex/xecyr
+@dirrmtry share/texmf-dist/doc/xelatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

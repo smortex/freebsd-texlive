@@ -8,8 +8,14 @@
 %%PORTSRC%%share/texmf-dist/source/latex/imtekda/IMTEKda.ins
 share/texmf-dist/tex/latex/imtekda/IMTEKda.cls
 @dirrmtry share/texmf-dist/tex/latex/imtekda
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/imtekda
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/imtekda/figures
 @dirrmtry share/texmf-dist/doc/latex/imtekda
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

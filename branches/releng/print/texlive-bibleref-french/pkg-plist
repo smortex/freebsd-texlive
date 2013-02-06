@@ -11,8 +11,14 @@
 %%PORTSRC%%share/texmf-dist/source/latex/bibleref-french/bibleref-french.ins
 share/texmf-dist/tex/latex/bibleref-french/bibleref-french.sty
 @dirrmtry share/texmf-dist/tex/latex/bibleref-french
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/bibleref-french
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/bibleref-french/inclus
 @dirrmtry share/texmf-dist/doc/latex/bibleref-french
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -13,7 +13,13 @@ share/texmf-dist/tex/generic/edmac/edmacfss.sty
 share/texmf-dist/tex/generic/edmac/edstanza.tex
 share/texmf-dist/tex/generic/edmac/tabmac.tex
 @dirrmtry share/texmf-dist/tex/generic/edmac
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/edmac
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/edmac
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -5,7 +5,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/minted/minted.ins
 share/texmf-dist/tex/latex/minted/minted.sty
 @dirrmtry share/texmf-dist/tex/latex/minted
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/minted
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/minted
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

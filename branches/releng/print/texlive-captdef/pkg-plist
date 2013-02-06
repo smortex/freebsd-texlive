@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/captdef/miscdoc.sty
 share/texmf-dist/tex/latex/captdef/captdef.sty
 @dirrmtry share/texmf-dist/tex/latex/captdef
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/captdef
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

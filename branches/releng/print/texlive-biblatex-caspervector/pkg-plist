@@ -8,6 +8,10 @@ share/texmf-dist/tex/latex/biblatex-caspervector/biblatex-caspervector-utf8.def
 share/texmf-dist/tex/latex/biblatex-caspervector/caspervector.bbx
 share/texmf-dist/tex/latex/biblatex-caspervector/caspervector.cbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-caspervector
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/biblatex-caspervector
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

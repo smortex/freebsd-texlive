@@ -42,7 +42,11 @@ share/texmf-dist/tex/cslatex/cspsfonts/xl2ptm.fd
 share/texmf-dist/tex/cslatex/cspsfonts/xl2pzc.fd
 @dirrmtry share/texmf-dist/tex/cslatex/cspsfonts
 @dirrmtry share/texmf-dist/tex/cslatex/base
+@dirrmtry share/texmf-dist/tex/cslatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/cslatex/cspsfonts
 @dirrmtry share/texmf-dist/source/cslatex/base
+@dirrmtry share/texmf-dist/source/cslatex
+@dirrmtry share/texmf-dist/source
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

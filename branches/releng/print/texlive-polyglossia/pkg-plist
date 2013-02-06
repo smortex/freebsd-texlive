@@ -100,8 +100,18 @@ share/texmf-dist/tex/xelatex/polyglossia/hijrical.sty
 share/texmf-dist/tex/xelatex/polyglossia/polyglossia.sty
 share/texmf-dist/tex/xelatex/polyglossia/xgreek-fixes.def
 @dirrmtry share/texmf-dist/tex/xelatex/polyglossia
+@dirrmtry share/texmf-dist/tex/xelatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/xelatex/polyglossia
+@dirrmtry share/texmf-dist/source/xelatex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping/polyglossia
+@dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping
+@dirrmtry share/texmf-dist/fonts/misc/xetex
+@dirrmtry share/texmf-dist/fonts/misc
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/xelatex/polyglossia
+@dirrmtry share/texmf-dist/doc/xelatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -5,7 +5,13 @@ share/texmf-dist/tex/luatex/chickenize/chickenize.lua
 share/texmf-dist/tex/luatex/chickenize/chickenize.sty
 share/texmf-dist/tex/luatex/chickenize/chickenize.tex
 @dirrmtry share/texmf-dist/tex/luatex/chickenize
+@dirrmtry share/texmf-dist/tex/luatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/luatex/chickenize
+@dirrmtry share/texmf-dist/source/luatex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/luatex/chickenize
+@dirrmtry share/texmf-dist/doc/luatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

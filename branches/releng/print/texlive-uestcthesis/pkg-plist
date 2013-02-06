@@ -38,12 +38,18 @@ share/texmf-dist/bibtex/bst/uestcthesis/GBT7714-2005NLang-UESTC.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/source/uestcthesis.ins
 share/texmf-dist/tex/latex/uestcthesis/uestcthesis.cls
 @dirrmtry share/texmf-dist/tex/latex/uestcthesis
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/uestcthesis/source
 @dirrmtry share/texmf-dist/doc/latex/uestcthesis/doc/pics
 @dirrmtry share/texmf-dist/doc/latex/uestcthesis/doc/contents
 @dirrmtry share/texmf-dist/doc/latex/uestcthesis/doc/chapters
 @dirrmtry share/texmf-dist/doc/latex/uestcthesis/doc
 @dirrmtry share/texmf-dist/doc/latex/uestcthesis
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/uestcthesis
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

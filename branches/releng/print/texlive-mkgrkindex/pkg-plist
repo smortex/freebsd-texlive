@@ -3,6 +3,9 @@
 share/texmf-dist/makeindex/mkgrkindex/lowercase-headers.ist
 share/texmf-dist/makeindex/mkgrkindex/uppercase-headers.ist
 @dirrmtry share/texmf-dist/makeindex/mkgrkindex
+@dirrmtry share/texmf-dist/makeindex
 @dirrmtry share/texmf-dist/doc/support/mkgrkindex
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -859,12 +859,29 @@ share/texmf-dist/tex/latex/poltawski/t5antpl.fd
 share/texmf-dist/tex/latex/poltawski/ts1antp.fd
 share/texmf-dist/tex/latex/poltawski/ts1antpl.fd
 @dirrmtry share/texmf-dist/tex/latex/poltawski
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/type1/gust/poltawski
+@dirrmtry share/texmf-dist/fonts/type1/gust
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/gust/poltawski
+@dirrmtry share/texmf-dist/fonts/tfm/gust
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/opentype/gust/poltawski
+@dirrmtry share/texmf-dist/fonts/opentype/gust
+@dirrmtry share/texmf-dist/fonts/opentype
 @dirrmtry share/texmf-dist/fonts/map/dvips/poltawski
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/enc/dvips/poltawski
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
 @dirrmtry share/texmf-dist/fonts/afm/gust/poltawski
+@dirrmtry share/texmf-dist/fonts/afm/gust
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/poltawski
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

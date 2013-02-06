@@ -7,7 +7,13 @@ share/texmf-dist/bibtex/bst/inlinebib/inlinebib.bst
 share/texmf-dist/tex/latex/inlinebib/inlinebib.sty
 share/texmf-dist/tex/latex/inlinebib/pageranges.sty
 @dirrmtry share/texmf-dist/tex/latex/inlinebib
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/bibtex/inlinebib
+@dirrmtry share/texmf-dist/doc/bibtex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/inlinebib
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

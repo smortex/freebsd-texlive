@@ -2,6 +2,7 @@
 
 PORTNAME=	showcharinbox
 PORTVERSION=	20120716
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

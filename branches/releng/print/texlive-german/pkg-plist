@@ -9,8 +9,14 @@
 share/texmf-dist/tex/generic/german/german.sty
 share/texmf-dist/tex/generic/german/ngerman.sty
 @dirrmtry share/texmf-dist/tex/generic/german
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/german
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/generic/german/betatest
 @dirrmtry share/texmf-dist/doc/generic/german
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

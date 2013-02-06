@@ -52,11 +52,16 @@ share/texmf-dist/fonts/truetype/public/amiri/amiri-quran.ttf
 share/texmf-dist/fonts/truetype/public/amiri/amiri-regular.ttf
 share/texmf-dist/fonts/truetype/public/amiri/amiri-slanted.ttf
 @dirrmtry share/texmf-dist/fonts/truetype/public/amiri
+@dirrmtry share/texmf-dist/fonts/truetype/public
+@dirrmtry share/texmf-dist/fonts/truetype
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/amiri/tools
 @dirrmtry share/texmf-dist/doc/fonts/amiri/test-suite
 @dirrmtry share/texmf-dist/doc/fonts/amiri/sources/crimson
 @dirrmtry share/texmf-dist/doc/fonts/amiri/sources
 @dirrmtry share/texmf-dist/doc/fonts/amiri/documentation
 @dirrmtry share/texmf-dist/doc/fonts/amiri
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -5,8 +5,14 @@ share/texmf-dist/dvips/pst-bspline/pst-bspline.pro
 share/texmf-dist/tex/generic/pst-bspline/pst-bspline.tex
 share/texmf-dist/tex/latex/pst-bspline/pst-bspline.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-bspline
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/pst-bspline
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/dvips/pst-bspline
+@dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/generic/pst-bspline
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -46,7 +46,14 @@ share/texmf-dist/fonts/type1/public/ethiop-t1/ethbsb36.pfb
 share/texmf-dist/fonts/type1/public/ethiop-t1/ethbsb9.pfb
 share/texmf-dist/fonts/type1/public/ethiop-t1/ethbtt10.pfb
 @dirrmtry share/texmf-dist/fonts/type1/public/ethiop-t1
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/map/dvips/ethiop-t1
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/latex/ethiop-t1
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

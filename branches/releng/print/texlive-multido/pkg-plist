@@ -6,8 +6,15 @@
 share/texmf-dist/tex/generic/multido/multido.tex
 share/texmf-dist/tex/latex/multido/multido.sty
 @dirrmtry share/texmf-dist/tex/latex/multido
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/multido
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/multido
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/generic/multido
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

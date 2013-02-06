@@ -155,7 +155,10 @@ share/texmf-dist/tex/latex/fontinst/fontdoc.sty
 %%PORTDOCS%%share/texmf/doc/man/man1/fontinst.1
 %%PORTDOCS%%share/texmf/doc/man/man1/fontinst.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/latex/fontinst
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/fontinst/smblmtx
 @dirrmtry share/texmf-dist/tex/fontinst/smbletx
 @dirrmtry share/texmf-dist/tex/fontinst/misc
@@ -164,8 +167,13 @@ share/texmf-dist/tex/latex/fontinst/fontdoc.sty
 @dirrmtry share/texmf-dist/tex/fontinst/latinmtx
 @dirrmtry share/texmf-dist/tex/fontinst/latinetx
 @dirrmtry share/texmf-dist/tex/fontinst/base
+@dirrmtry share/texmf-dist/tex/fontinst
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/fontinst/base
+@dirrmtry share/texmf-dist/source/fontinst
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/scripts/tetex
+@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/fonts/fontinst/test
 @dirrmtry share/texmf-dist/doc/fonts/fontinst/talks
 @dirrmtry share/texmf-dist/doc/fonts/fontinst/manual
@@ -173,7 +181,10 @@ share/texmf-dist/tex/latex/fontinst/fontdoc.sty
 @dirrmtry share/texmf-dist/doc/fonts/fontinst/examples/mathptm
 @dirrmtry share/texmf-dist/doc/fonts/fontinst/examples/eurofont
 @dirrmtry share/texmf-dist/doc/fonts/fontinst/examples/basic
+@dirrmtry share/texmf-dist/doc/fonts/fontinst/examples
 @dirrmtry share/texmf-dist/doc/fonts/fontinst/encspecs
 @dirrmtry share/texmf-dist/doc/fonts/fontinst
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -40,6 +40,10 @@ share/texmf-dist/tex/generic/ofs/ofsdef.tex
 share/texmf-dist/tex/generic/ofs/pantyk.tex
 share/texmf-dist/tex/generic/ofs/txfn.tex
 @dirrmtry share/texmf-dist/tex/generic/ofs
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/ofs
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

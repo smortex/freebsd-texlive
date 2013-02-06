@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/fntproof/fntproof-doc.tex
 share/texmf-dist/tex/generic/fntproof/fntproof.tex
 @dirrmtry share/texmf-dist/tex/generic/fntproof
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/fntproof
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

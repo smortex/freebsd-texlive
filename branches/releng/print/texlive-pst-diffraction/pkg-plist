@@ -11,8 +11,15 @@
 share/texmf-dist/tex/generic/pst-diffraction/pst-diffraction.tex
 share/texmf-dist/tex/latex/pst-diffraction/pst-diffraction.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-diffraction
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/pst-diffraction
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/pst-diffraction
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/generic/pst-diffraction
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

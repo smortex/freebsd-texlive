@@ -24,7 +24,13 @@ share/texmf-dist/tex/latex/ulthese/ul_p.eps
 share/texmf-dist/tex/latex/ulthese/ul_p.pdf
 share/texmf-dist/tex/latex/ulthese/ulthese.cls
 @dirrmtry share/texmf-dist/tex/latex/ulthese
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/ulthese
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/ulthese
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

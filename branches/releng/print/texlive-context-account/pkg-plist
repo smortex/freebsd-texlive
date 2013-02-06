@@ -8,7 +8,14 @@ share/texmf-dist/tex/context/third/account/t-floatnumber.mkii
 share/texmf-dist/tex/context/third/account/t-floatnumber.mkiv
 share/texmf-dist/tex/context/third/account/t-floatnumber.tex
 @dirrmtry share/texmf-dist/tex/context/third/account
+@dirrmtry share/texmf-dist/tex/context/third
 @dirrmtry share/texmf-dist/tex/context/interface/third
+@dirrmtry share/texmf-dist/tex/context/interface
+@dirrmtry share/texmf-dist/tex/context
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/context/third/account
+@dirrmtry share/texmf-dist/doc/context/third
+@dirrmtry share/texmf-dist/doc/context
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

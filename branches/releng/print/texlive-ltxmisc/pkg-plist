@@ -10,5 +10,7 @@ share/texmf-dist/tex/latex/ltxmisc/thrmappendix.sty
 share/texmf-dist/tex/latex/ltxmisc/topcapt.sty
 share/texmf-dist/tex/latex/ltxmisc/vrbexin.sty
 @dirrmtry share/texmf-dist/tex/latex/ltxmisc
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

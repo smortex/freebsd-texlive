@@ -2,6 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/plain/harvmac/harvsamp.tex
 share/texmf-dist/tex/plain/harvmac/harvmac.tex
 @dirrmtry share/texmf-dist/tex/plain/harvmac
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/plain/harvmac
+@dirrmtry share/texmf-dist/doc/plain
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

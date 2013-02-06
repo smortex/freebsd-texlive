@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/koma-script-sfs/SFSesim.tex
 share/texmf-dist/tex/latex/koma-script-sfs/SFS.lco
 @dirrmtry share/texmf-dist/tex/latex/koma-script-sfs
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/koma-script-sfs
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

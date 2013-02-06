@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/relsize/relsize-doc.tex
 share/texmf-dist/tex/latex/relsize/relsize.sty
 @dirrmtry share/texmf-dist/tex/latex/relsize
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/relsize
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -99,9 +99,20 @@ share/texmf-dist/tex/latex/universa/t1uni.fd
 share/texmf-dist/tex/latex/universa/uni.sty
 share/texmf-dist/tex/latex/universa/uuni.fd
 @dirrmtry share/texmf-dist/tex/latex/universa
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/fonts/universa
+@dirrmtry share/texmf-dist/source/fonts
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/fonts/tfm/public/universa
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/universa
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/universa
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

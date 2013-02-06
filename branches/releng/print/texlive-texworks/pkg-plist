@@ -348,6 +348,8 @@ share/tlpkg/texworks/texworks-help/TeXworks-manual/en/manual.css
 share/tlpkg/texworks/texworks-help/TeXworks-manual/en/tw-help-title.txt
 @dirrmtry share/tlpkg/texworks/texworks-help/TeXworks-manual/en/images
 @dirrmtry share/tlpkg/texworks/texworks-help/TeXworks-manual/en
+@dirrmtry share/tlpkg/texworks/texworks-help/TeXworks-manual
+@dirrmtry share/tlpkg/texworks/texworks-help
 @dirrmtry share/tlpkg/texworks/share/poppler/unicodeMap
 @dirrmtry share/tlpkg/texworks/share/poppler/nameToUnicode
 @dirrmtry share/tlpkg/texworks/share/poppler/cidToUnicode
@@ -356,9 +358,14 @@ share/tlpkg/texworks/texworks-help/TeXworks-manual/en/tw-help-title.txt
 @dirrmtry share/tlpkg/texworks/share/poppler/cMap/Adobe-Japan1
 @dirrmtry share/tlpkg/texworks/share/poppler/cMap/Adobe-GB1
 @dirrmtry share/tlpkg/texworks/share/poppler/cMap/Adobe-CNS1
+@dirrmtry share/tlpkg/texworks/share/poppler/cMap
 @dirrmtry share/tlpkg/texworks/share/poppler
 @dirrmtry share/tlpkg/texworks/share/fonts/type1/gsfonts
+@dirrmtry share/tlpkg/texworks/share/fonts/type1
+@dirrmtry share/tlpkg/texworks/share/fonts
+@dirrmtry share/tlpkg/texworks/share
 @dirrmtry share/tlpkg/texworks
 @dirrmtry share/texmf/doc/texworks
+@dirrmtry share/texmf/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

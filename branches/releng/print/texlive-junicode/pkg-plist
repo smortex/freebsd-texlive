@@ -13,7 +13,14 @@ share/texmf-dist/fonts/truetype/public/junicode/Junicode-Italic.ttf
 share/texmf-dist/fonts/truetype/public/junicode/Junicode.ttf
 share/texmf-dist/tex/latex/junicode/mt-Junicode.cfg
 @dirrmtry share/texmf-dist/tex/latex/junicode
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/truetype/public/junicode
+@dirrmtry share/texmf-dist/fonts/truetype/public
+@dirrmtry share/texmf-dist/fonts/truetype
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/junicode
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

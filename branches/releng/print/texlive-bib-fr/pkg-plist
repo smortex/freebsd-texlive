@@ -11,6 +11,10 @@ share/texmf-dist/bibtex/bst/bib-fr/unsrtnat-fr.bst
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/bib-fr/CHANGELOG
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/bib-fr/README
 @dirrmtry share/texmf-dist/doc/bibtex/bib-fr
+@dirrmtry share/texmf-dist/doc/bibtex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/bib-fr
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

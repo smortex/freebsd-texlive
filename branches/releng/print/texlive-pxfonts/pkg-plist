@@ -173,11 +173,26 @@ share/texmf-dist/tex/latex/pxfonts/upxsyb.fd
 share/texmf-dist/tex/latex/pxfonts/upxsyc.fd
 share/texmf-dist/tex/latex/pxfonts/upxtt.fd
 @dirrmtry share/texmf-dist/tex/latex/pxfonts
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/vf/public/pxfonts
+@dirrmtry share/texmf-dist/fonts/vf/public
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/type1/public/pxfonts
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/public/pxfonts
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/map/dvips/pxfonts
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/afm/public/pxfonts
+@dirrmtry share/texmf-dist/fonts/afm/public
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/pxfonts
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

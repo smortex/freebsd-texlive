@@ -23,9 +23,17 @@ share/texmf-dist/metapost/feynmf/manpics.mp
 share/texmf-dist/tex/latex/feynmf/feynmf.sty
 share/texmf-dist/tex/latex/feynmf/feynmp.sty
 @dirrmtry share/texmf-dist/tex/latex/feynmf
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/feynmf
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/metapost/feynmf
+@dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/metafont/feynmf
+@dirrmtry share/texmf-dist/metafont
 @dirrmtry share/texmf-dist/doc/latex/feynmf
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

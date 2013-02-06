@@ -8,6 +8,10 @@
 share/texmf-dist/tex/generic/poster-mac/poster.sty
 share/texmf-dist/tex/generic/poster-mac/poster.tex
 @dirrmtry share/texmf-dist/tex/generic/poster-mac
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/poster-mac
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

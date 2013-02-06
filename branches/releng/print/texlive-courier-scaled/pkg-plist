@@ -13,6 +13,10 @@ share/texmf-dist/tex/latex/courier-scaled/t5pcrs.fd
 share/texmf-dist/tex/latex/courier-scaled/ts1pcrs.fd
 share/texmf-dist/tex/latex/courier-scaled/xl2pcrs.fd
 @dirrmtry share/texmf-dist/tex/latex/courier-scaled
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/fonts/courier-scaled
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

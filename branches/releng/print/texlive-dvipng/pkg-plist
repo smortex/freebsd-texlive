@@ -6,7 +6,9 @@
 %%PORTDOCS%%share/texmf/doc/man/man1/dvipng.1
 %%PORTDOCS%%share/texmf/doc/man/man1/dvipng.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
 @dirrmtry share/texmf/doc/info
 @dirrmtry share/texmf/doc/dvipng
+@dirrmtry share/texmf/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

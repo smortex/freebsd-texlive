@@ -315,11 +315,25 @@ share/texmf-dist/tex/latex/montex/rlbicig.sty
 share/texmf-dist/tex/latex/montex/russian.def
 share/texmf-dist/tex/latex/montex/xalx.def
 @dirrmtry share/texmf-dist/tex/latex/montex
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/type1/public/montex
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/public/montex
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/montex
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
 @dirrmtry share/texmf-dist/fonts/map/dvips/montex
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/latex/montex/mfinput/bithe
+@dirrmtry share/texmf-dist/doc/latex/montex/mfinput
 @dirrmtry share/texmf-dist/doc/latex/montex
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

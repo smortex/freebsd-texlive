@@ -14,7 +14,13 @@ share/texmf-dist/bibtex/bst/unamthesis/UNAMThesis.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/unamthesis/testBib.bib
 share/texmf-dist/tex/latex/unamthesis/UNAMThesis.sty
 @dirrmtry share/texmf-dist/tex/latex/unamthesis
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/unamthesis
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/unamthesis
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

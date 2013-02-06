@@ -3,7 +3,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/sseq/sseq.ins
 share/texmf-dist/tex/latex/sseq/sseq.sty
 @dirrmtry share/texmf-dist/tex/latex/sseq
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/sseq
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/sseq
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

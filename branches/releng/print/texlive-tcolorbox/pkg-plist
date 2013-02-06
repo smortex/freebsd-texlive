@@ -11,6 +11,10 @@ share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 @dirrmtry share/texmf-dist/tex/latex/tcolorbox
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/tcolorbox
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

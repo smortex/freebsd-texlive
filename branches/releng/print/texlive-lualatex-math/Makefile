@@ -2,6 +2,7 @@
 
 PORTNAME=	lualatex-math
 PORTVERSION=	20121028
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

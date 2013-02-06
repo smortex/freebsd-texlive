@@ -2,6 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/fn2end/fn2end.tex
 share/texmf-dist/tex/latex/fn2end/fn2end.sty
 @dirrmtry share/texmf-dist/tex/latex/fn2end
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/fn2end
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

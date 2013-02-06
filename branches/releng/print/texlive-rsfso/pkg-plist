@@ -15,9 +15,21 @@ share/texmf-dist/fonts/vf/public/rsfso/rsfso7.vf
 share/texmf-dist/tex/latex/public/rsfso/rsfso.sty
 share/texmf-dist/tex/latex/public/rsfso/ursfso.fd
 @dirrmtry share/texmf-dist/tex/latex/public/rsfso
+@dirrmtry share/texmf-dist/tex/latex/public
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/vf/public/rsfso
+@dirrmtry share/texmf-dist/fonts/vf/public
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/tfm/public/rsfso
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/map/dvips/rsfso
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/rsfso
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

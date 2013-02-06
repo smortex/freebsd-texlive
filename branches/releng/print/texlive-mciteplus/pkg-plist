@@ -9,7 +9,13 @@ share/texmf-dist/bibtex/bst/mciteplus/apsrmpM.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/mciteplus/mciteplus_doc.tex
 share/texmf-dist/tex/latex/mciteplus/mciteplus.sty
 @dirrmtry share/texmf-dist/tex/latex/mciteplus
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/mciteplus
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/mciteplus
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -10,7 +10,12 @@ share/texmf-dist/dvips/tree-dvips/tree-dvips91.pro
 share/texmf-dist/tex/latex/tree-dvips/lingmacros.sty
 share/texmf-dist/tex/latex/tree-dvips/tree-dvips.sty
 @dirrmtry share/texmf-dist/tex/latex/tree-dvips
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/dvips/tree-dvips
+@dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/latex/tree-dvips
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

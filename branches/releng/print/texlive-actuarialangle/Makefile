@@ -2,6 +2,7 @@
 
 PORTNAME=	actuarialangle
 PORTVERSION=	20121018
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

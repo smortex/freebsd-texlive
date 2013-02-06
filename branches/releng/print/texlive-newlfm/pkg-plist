@@ -54,7 +54,13 @@ share/texmf-dist/tex/latex/newlfm/addrset.sty
 share/texmf-dist/tex/latex/newlfm/newlfm.cls
 share/texmf-dist/tex/latex/newlfm/setdim.sty
 @dirrmtry share/texmf-dist/tex/latex/newlfm
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/newlfm
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/newlfm
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

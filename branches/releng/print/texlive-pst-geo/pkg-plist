@@ -80,10 +80,16 @@ share/texmf-dist/tex/latex/pst-geo/pst-map2dII.sty
 share/texmf-dist/tex/latex/pst-geo/pst-map3d.sty
 share/texmf-dist/tex/latex/pst-geo/pst-map3dII.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-geo
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/pst-geo/dataII
 @dirrmtry share/texmf-dist/tex/generic/pst-geo/data
 @dirrmtry share/texmf-dist/tex/generic/pst-geo
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/dvips/pst-geo
+@dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/generic/pst-geo
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

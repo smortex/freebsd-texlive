@@ -4,7 +4,13 @@ share/texmf-dist/bibtex/bib/lsc/lsc.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/lsc/lsc.tex
 share/texmf-dist/tex/latex/lsc/lsc.sty
 @dirrmtry share/texmf-dist/tex/latex/lsc
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/lsc
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bib/lsc
+@dirrmtry share/texmf-dist/bibtex/bib
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

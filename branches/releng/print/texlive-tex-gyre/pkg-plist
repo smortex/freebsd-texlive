@@ -895,12 +895,29 @@ share/texmf-dist/tex/latex/tex-gyre/ts1qpl.fd
 share/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
 share/texmf-dist/tex/latex/tex-gyre/ts1qzc.fd
 @dirrmtry share/texmf-dist/tex/latex/tex-gyre
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/type1/public/tex-gyre
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/public/tex-gyre
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/opentype/public/tex-gyre
+@dirrmtry share/texmf-dist/fonts/opentype/public
+@dirrmtry share/texmf-dist/fonts/opentype
 @dirrmtry share/texmf-dist/fonts/map/dvips/tex-gyre
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/enc/dvips/tex-gyre
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
 @dirrmtry share/texmf-dist/fonts/afm/public/tex-gyre
+@dirrmtry share/texmf-dist/fonts/afm/public
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/tex-gyre
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/mbenotes/mbenotes.tex
 share/texmf-dist/tex/latex/mbenotes/mbenotes.sty
 @dirrmtry share/texmf-dist/tex/latex/mbenotes
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/mbenotes
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -29,6 +29,10 @@ share/texmf-dist/tex/latex/pdfscreen/overlay9.pdf
 share/texmf-dist/tex/latex/pdfscreen/pdfscreen.sty
 share/texmf-dist/tex/latex/pdfscreen/right.pdf
 @dirrmtry share/texmf-dist/tex/latex/pdfscreen
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/pdfscreen
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

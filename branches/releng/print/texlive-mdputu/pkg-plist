@@ -16,8 +16,17 @@ share/texmf-dist/tex/latex/mdputu/mdputu.sty
 share/texmf-dist/tex/latex/mdputu/ot1mdputu.fd
 share/texmf-dist/tex/latex/mdputu/t1mdputu.fd
 @dirrmtry share/texmf-dist/tex/latex/mdputu
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/vf/public/mdputu
+@dirrmtry share/texmf-dist/fonts/vf/public
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/tfm/public/mdputu
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/latex/mdputu
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

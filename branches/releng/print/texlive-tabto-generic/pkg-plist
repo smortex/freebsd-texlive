@@ -1,4 +1,6 @@
 share/texmf-dist/tex/generic/tabto-generic/tabto.tex
 @dirrmtry share/texmf-dist/tex/generic/tabto-generic
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

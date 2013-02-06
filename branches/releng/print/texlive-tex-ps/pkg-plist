@@ -21,8 +21,14 @@ share/texmf-dist/tex/generic/tex-ps/epsfx.tex
 share/texmf-dist/tex/generic/tex-ps/poligraf.sty
 share/texmf-dist/tex/generic/tex-ps/trans.tex
 @dirrmtry share/texmf-dist/tex/generic/tex-ps
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/dvips/tex-ps
+@dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/generic/tex-ps/poligraf
 @dirrmtry share/texmf-dist/doc/generic/tex-ps/cmyk-hax
+@dirrmtry share/texmf-dist/doc/generic/tex-ps
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

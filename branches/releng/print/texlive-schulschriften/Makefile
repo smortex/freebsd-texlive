@@ -2,6 +2,7 @@
 
 PORTNAME=	schulschriften
 PORTVERSION=	20121116
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

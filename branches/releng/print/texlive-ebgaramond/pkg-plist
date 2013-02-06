@@ -301,12 +301,29 @@ share/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-TOsF.fd
 share/texmf-dist/tex/latex/ebgaramond/TS1EBGaramondInitials-TLF.fd
 share/texmf-dist/tex/latex/ebgaramond/ebgaramond.sty
 @dirrmtry share/texmf-dist/tex/latex/ebgaramond
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/vf/public/ebgaramond
+@dirrmtry share/texmf-dist/fonts/vf/public
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/type1/public/ebgaramond
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/public/ebgaramond
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/opentype/public/ebgaramond
+@dirrmtry share/texmf-dist/fonts/opentype/public
+@dirrmtry share/texmf-dist/fonts/opentype
 @dirrmtry share/texmf-dist/fonts/map/dvips/ebgaramond
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/enc/dvips/ebgaramond
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/ebgaramond
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

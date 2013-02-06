@@ -2,6 +2,7 @@
 
 PORTNAME=	footnotebackref
 PORTVERSION=	20120714
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

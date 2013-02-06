@@ -18,8 +18,15 @@ share/texmf-dist/tex/latex/iso/iso9.clo
 share/texmf-dist/tex/latex/iso/isov2.4ht
 share/texmf-dist/tex/latex/iso/isov2.cls
 @dirrmtry share/texmf-dist/tex/latex/iso
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/iso
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/makeindex/iso
+@dirrmtry share/texmf-dist/makeindex
 @dirrmtry share/texmf-dist/doc/latex/iso
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

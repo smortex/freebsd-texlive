@@ -21,9 +21,15 @@ share/texmf-dist/tex/latex/apa6/config/APAgreek.txt
 share/texmf-dist/tex/latex/apa6/config/APAngerman.txt
 @dirrmtry share/texmf-dist/tex/latex/apa6/config
 @dirrmtry share/texmf-dist/tex/latex/apa6
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/apa6
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/apa6/samples
 @dirrmtry share/texmf-dist/doc/latex/apa6/pseudoTeX
 @dirrmtry share/texmf-dist/doc/latex/apa6
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

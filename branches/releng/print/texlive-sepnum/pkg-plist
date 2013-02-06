@@ -2,6 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/sepnum/sepnum-doc.tex
 share/texmf-dist/tex/latex/sepnum/sepnum.sty
 @dirrmtry share/texmf-dist/tex/latex/sepnum
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/sepnum
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

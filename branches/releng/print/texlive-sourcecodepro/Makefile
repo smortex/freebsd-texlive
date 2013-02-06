@@ -2,6 +2,7 @@
 
 PORTNAME=	sourcecodepro
 PORTVERSION=	20130119
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

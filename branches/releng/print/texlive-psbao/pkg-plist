@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/psbao/psbaomanual.tex
 share/texmf-dist/tex/latex/psbao/psbao.sty
 @dirrmtry share/texmf-dist/tex/latex/psbao
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/psbao
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -85,8 +85,17 @@ share/texmf-dist/tex/generic/mathabx/mathabx.dcl
 share/texmf-dist/tex/generic/mathabx/mathabx.sty
 share/texmf-dist/tex/generic/mathabx/mathabx.tex
 @dirrmtry share/texmf-dist/tex/generic/mathabx
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/tfm/public/mathabx
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/mathabx
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/mathabx
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

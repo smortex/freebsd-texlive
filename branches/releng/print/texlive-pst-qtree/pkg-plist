@@ -5,7 +5,12 @@
 share/texmf-dist/tex/generic/pst-qtree/pst-qtree.tex
 share/texmf-dist/tex/latex/pst-qtree/pst-qtree.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-qtree
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/pst-qtree
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/pst-qtree
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamerposter/example.tex
 share/texmf-dist/tex/latex/beamerposter/beamerposter.sty
 @dirrmtry share/texmf-dist/tex/latex/beamerposter
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/beamerposter
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

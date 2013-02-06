@@ -1,4 +1,6 @@
 share/texmf-dist/tex/plain/placeins-plain/placeins.tex
 @dirrmtry share/texmf-dist/tex/plain/placeins-plain
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -279,14 +279,32 @@ share/texmf-dist/tex/latex/velthuis/udnpn.fd
 share/texmf-dist/tex/plain/velthuis/dnmacs.tex
 share/texmf-dist/tex/xelatex/velthuis/hindicaptions.sty
 @dirrmtry share/texmf-dist/tex/xelatex/velthuis
+@dirrmtry share/texmf-dist/tex/xelatex
 @dirrmtry share/texmf-dist/tex/plain/velthuis
+@dirrmtry share/texmf-dist/tex/plain
 @dirrmtry share/texmf-dist/tex/latex/velthuis
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/velthuis
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/type1/public/velthuis
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/public/velthuis
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/velthuis
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
 @dirrmtry share/texmf-dist/fonts/map/dvips/velthuis
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/afm/public/velthuis
+@dirrmtry share/texmf-dist/fonts/afm/public
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/generic/velthuis
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

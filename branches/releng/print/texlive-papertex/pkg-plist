@@ -11,10 +11,16 @@
 %%PORTSRC%%share/texmf-dist/source/latex/papertex/papertex.ins
 share/texmf-dist/tex/latex/papertex/papertex.cls
 @dirrmtry share/texmf-dist/tex/latex/papertex
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/papertex
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/papertex/example/img/weather
 @dirrmtry share/texmf-dist/doc/latex/papertex/example/img
 @dirrmtry share/texmf-dist/doc/latex/papertex/example
 @dirrmtry share/texmf-dist/doc/latex/papertex
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

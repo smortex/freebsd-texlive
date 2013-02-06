@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/titleref/titleref.tex
 share/texmf-dist/tex/latex/titleref/titleref.sty
 @dirrmtry share/texmf-dist/tex/latex/titleref
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/titleref
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

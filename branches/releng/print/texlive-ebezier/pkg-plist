@@ -3,7 +3,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/ebezier/ebezier.ins
 share/texmf-dist/tex/latex/ebezier/ebezier.sty
 @dirrmtry share/texmf-dist/tex/latex/ebezier
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/ebezier
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/ebezier
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -6,7 +6,13 @@ share/texmf-dist/tex/generic/fltpoint/deccomma.sty
 share/texmf-dist/tex/generic/fltpoint/fltpoint.sty
 share/texmf-dist/tex/generic/fltpoint/fltpoint.tex
 @dirrmtry share/texmf-dist/tex/generic/fltpoint
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/fltpoint
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/generic/fltpoint
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

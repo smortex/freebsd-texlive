@@ -2,6 +2,7 @@
 
 PORTNAME=	context-construction-plan
 PORTVERSION=	20110629
+PORTREVISION=	1
 PORTEPOCH=	1
 CATEGORIES=	print
 

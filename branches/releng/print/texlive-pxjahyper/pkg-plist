@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/platex/pxjahyper/pxjahyper.tex
 share/texmf-dist/tex/platex/pxjahyper/pxjahyper.sty
 @dirrmtry share/texmf-dist/tex/platex/pxjahyper
+@dirrmtry share/texmf-dist/tex/platex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/platex/pxjahyper
+@dirrmtry share/texmf-dist/doc/platex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -217,9 +217,22 @@ share/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm
 share/texmf-dist/fonts/tfm/public/cm/cmu10.tfm
 share/texmf-dist/fonts/tfm/public/cm/cmvtt10.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/cm
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/cm
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
 @dirrmtry share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600
+@dirrmtry share/texmf-dist/fonts/pk/ljfour/public/cm
+@dirrmtry share/texmf-dist/fonts/pk/ljfour/public
+@dirrmtry share/texmf-dist/fonts/pk/ljfour
+@dirrmtry share/texmf-dist/fonts/pk
 @dirrmtry share/texmf-dist/fonts/map/dvips/cm
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/cm
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

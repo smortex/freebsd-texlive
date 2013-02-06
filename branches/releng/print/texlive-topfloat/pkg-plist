@@ -2,6 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/topfloat/topfloat.tex
 share/texmf-dist/tex/latex/topfloat/topfloat.sty
 @dirrmtry share/texmf-dist/tex/latex/topfloat
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/topfloat
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

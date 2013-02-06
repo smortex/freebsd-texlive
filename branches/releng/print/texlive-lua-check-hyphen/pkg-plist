@@ -6,6 +6,11 @@
 share/texmf-dist/tex/lualatex/lua-check-hyphen/lua-check-hyphen.lua
 share/texmf-dist/tex/lualatex/lua-check-hyphen/lua-check-hyphen.sty
 @dirrmtry share/texmf-dist/tex/lualatex/lua-check-hyphen
+@dirrmtry share/texmf-dist/tex/lualatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/lualatex/lua-check-hyphen/doc
+@dirrmtry share/texmf-dist/doc/lualatex/lua-check-hyphen
+@dirrmtry share/texmf-dist/doc/lualatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

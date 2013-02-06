@@ -143,10 +143,16 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/flipbook/flipbook-ex.tex
 share/texmf-dist/tex/latex/flipbook/flipbook.sty
 @dirrmtry share/texmf-dist/tex/latex/flipbook
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/flipbook/Images/Anims/anASCII
 @dirrmtry share/texmf-dist/doc/latex/flipbook/Images/Anims/an3
 @dirrmtry share/texmf-dist/doc/latex/flipbook/Images/Anims/an2
 @dirrmtry share/texmf-dist/doc/latex/flipbook/Images/Anims/an1b
+@dirrmtry share/texmf-dist/doc/latex/flipbook/Images/Anims
+@dirrmtry share/texmf-dist/doc/latex/flipbook/Images
 @dirrmtry share/texmf-dist/doc/latex/flipbook
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

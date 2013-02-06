@@ -5,6 +5,10 @@
 share/texmf-dist/tex/lualatex/odsfile/odsfile.lua
 share/texmf-dist/tex/lualatex/odsfile/odsfile.sty
 @dirrmtry share/texmf-dist/tex/lualatex/odsfile
+@dirrmtry share/texmf-dist/tex/lualatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/lualatex/odsfile
+@dirrmtry share/texmf-dist/doc/lualatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

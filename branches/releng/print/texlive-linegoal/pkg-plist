@@ -5,7 +5,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/linegoal/linegoal.ins
 share/texmf-dist/tex/latex/linegoal/linegoal.sty
 @dirrmtry share/texmf-dist/tex/latex/linegoal
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/linegoal
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/linegoal
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

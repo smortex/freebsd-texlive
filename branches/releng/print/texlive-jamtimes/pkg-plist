@@ -113,9 +113,20 @@ share/texmf-dist/tex/latex/jamtimes/ot1jtm.fd
 share/texmf-dist/tex/latex/jamtimes/t1jtm.fd
 share/texmf-dist/tex/latex/jamtimes/ts1jtm.fd
 @dirrmtry share/texmf-dist/tex/latex/jamtimes
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/vf/public/jamtimes
+@dirrmtry share/texmf-dist/fonts/vf/public
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/tfm/public/jamtimes
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/map/dvips/jamtimes
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/latex/jamtimes
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

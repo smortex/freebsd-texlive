@@ -52,6 +52,10 @@ share/texmf-dist/tex/latex/powerdot/powerdot-tycja.sty
 share/texmf-dist/tex/latex/powerdot/powerdot-upen.sty
 share/texmf-dist/tex/latex/powerdot/powerdot.cls
 @dirrmtry share/texmf-dist/tex/latex/powerdot
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/powerdot
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

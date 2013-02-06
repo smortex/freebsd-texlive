@@ -2,6 +2,7 @@
 
 PORTNAME=	biblatex-ieee
 PORTVERSION=	20130129
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

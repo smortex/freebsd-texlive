@@ -10,7 +10,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexpand/version.txt
 share/texmf-dist/scripts/latexpand/latexpand
 @dirrmtry share/texmf-dist/scripts/latexpand
+@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/support/latexpand/tests
 @dirrmtry share/texmf-dist/doc/support/latexpand
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

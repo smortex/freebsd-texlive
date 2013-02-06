@@ -9,7 +9,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/SIstyle/sistyle.ins
 share/texmf-dist/tex/latex/SIstyle/sistyle.sty
 @dirrmtry share/texmf-dist/tex/latex/SIstyle
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/SIstyle
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/SIstyle
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

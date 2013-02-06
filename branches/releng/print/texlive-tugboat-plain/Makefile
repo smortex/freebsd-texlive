@@ -2,6 +2,7 @@
 
 PORTNAME=	tugboat-plain
 PORTVERSION=	20120524
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

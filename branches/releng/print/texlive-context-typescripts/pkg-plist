@@ -66,6 +66,12 @@ share/texmf-dist/tex/context/third/typescripts/type-verajja.mkiv
 share/texmf-dist/tex/context/third/typescripts/type-vollkorn.mkii
 share/texmf-dist/tex/context/third/typescripts/type-vollkorn.mkiv
 @dirrmtry share/texmf-dist/tex/context/third/typescripts
+@dirrmtry share/texmf-dist/tex/context/third
+@dirrmtry share/texmf-dist/tex/context
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/context/third/typescripts
+@dirrmtry share/texmf-dist/doc/context/third
+@dirrmtry share/texmf-dist/doc/context
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

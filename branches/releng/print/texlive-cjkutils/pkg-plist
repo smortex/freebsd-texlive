@@ -20,13 +20,16 @@
 %%PORTDOCS%%share/texmf/doc/man/man1/sjisconv.man1.pdf
 %%PORTDOCS%%share/texmf/doc/sjisconv/sjisconv.pdf
 share/texmf/hbf2gf/README
+@dirrmtry share/texmf/hbf2gf
 @dirrmtry share/texmf/doc/sjisconv
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
 @dirrmtry share/texmf/doc/hbf2gf
 @dirrmtry share/texmf/doc/extconv
 @dirrmtry share/texmf/doc/cefsconv
 @dirrmtry share/texmf/doc/cefconv
 @dirrmtry share/texmf/doc/cef5conv
 @dirrmtry share/texmf/doc/bg5conv
+@dirrmtry share/texmf/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

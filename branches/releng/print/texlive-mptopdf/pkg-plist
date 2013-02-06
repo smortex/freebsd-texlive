@@ -6,7 +6,13 @@ share/texmf-dist/tex/generic/context/mptopdf/mptopdf.tex
 %%PORTDOCS%%share/texmf/doc/man/man1/mptopdf.1
 %%PORTDOCS%%share/texmf/doc/man/man1/mptopdf.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/generic/context/mptopdf
+@dirrmtry share/texmf-dist/tex/generic/context
+@dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex/context/base
+@dirrmtry share/texmf-dist/tex/context
+@dirrmtry share/texmf-dist/tex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

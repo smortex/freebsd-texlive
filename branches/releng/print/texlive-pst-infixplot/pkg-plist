@@ -7,7 +7,12 @@ share/texmf-dist/tex/generic/pst-infixplot/pst-infixplot.tex
 share/texmf-dist/tex/latex/pst-infixplot/infix-RPN.sty
 share/texmf-dist/tex/latex/pst-infixplot/pst-infixplot.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-infixplot
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/pst-infixplot
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/pst-infixplot
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

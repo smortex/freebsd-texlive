@@ -4,7 +4,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/pgf-blur/pgf-blur.ins
 share/texmf-dist/tex/latex/pgf-blur/tikzlibraryshadows.blur.code.tex
 @dirrmtry share/texmf-dist/tex/latex/pgf-blur
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/pgf-blur
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/pgf-blur
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

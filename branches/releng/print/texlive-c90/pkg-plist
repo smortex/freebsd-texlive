@@ -3,7 +3,16 @@ share/texmf-dist/fonts/enc/dvips/c90/c90.enc
 %%PORTSRC%%share/texmf-dist/source/fonts/enc/c90/c90.etx
 %%PORTSRC%%share/texmf-dist/source/fonts/enc/c90/c90.mtx
 @dirrmtry share/texmf-dist/source/fonts/enc/c90
+@dirrmtry share/texmf-dist/source/fonts/enc
+@dirrmtry share/texmf-dist/source/fonts
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/fonts/enc/dvips/c90
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/enc/c90
+@dirrmtry share/texmf-dist/doc/fonts/enc
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

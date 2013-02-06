@@ -2,6 +2,10 @@
 share/texmf-dist/tex/latex/williams/antree.sty
 share/texmf-dist/tex/latex/williams/toklist.sty
 @dirrmtry share/texmf-dist/tex/latex/williams
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/williams
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

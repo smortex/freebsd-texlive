@@ -70,13 +70,19 @@ share/texmf-dist/tex/generic/thailatex/thai.ldf
 share/texmf-dist/tex/generic/thailatex/thswitch.sty
 share/texmf-dist/tex/generic/thailatex/tis620.def
 @dirrmtry share/texmf-dist/tex/generic/thailatex
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/thailatex/scripts
 @dirrmtry share/texmf-dist/source/latex/thailatex/hyphen
 @dirrmtry share/texmf-dist/source/latex/thailatex/emacs
 @dirrmtry share/texmf-dist/source/latex/thailatex/doc
 @dirrmtry share/texmf-dist/source/latex/thailatex/babel
 @dirrmtry share/texmf-dist/source/latex/thailatex
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/thailatex/examples
 @dirrmtry share/texmf-dist/doc/latex/thailatex
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

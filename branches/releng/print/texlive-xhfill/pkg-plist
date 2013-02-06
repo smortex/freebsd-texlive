@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/xhfill/xhfill-doc.tex
 share/texmf-dist/tex/latex/xhfill/xhfill.sty
 @dirrmtry share/texmf-dist/tex/latex/xhfill
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/xhfill
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

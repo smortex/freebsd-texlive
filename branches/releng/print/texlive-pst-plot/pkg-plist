@@ -13,9 +13,16 @@
 share/texmf-dist/tex/generic/pst-plot/pst-plot.tex
 share/texmf-dist/tex/latex/pst-plot/pst-plot.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-plot
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/pst-plot
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/pst-plot
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/generic/pst-plot/more_docs
 @dirrmtry share/texmf-dist/doc/generic/pst-plot
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -28,6 +28,11 @@ share/texmf-dist/tex/xmltex/config/pdfxmltex.ini
 share/texmf-dist/tex/xmltex/config/xmltex.ini
 @dirrmtry share/texmf-dist/tex/xmltex/config
 @dirrmtry share/texmf-dist/tex/xmltex/base
+@dirrmtry share/texmf-dist/tex/xmltex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/otherformats/xmltex/base
+@dirrmtry share/texmf-dist/doc/otherformats/xmltex
+@dirrmtry share/texmf-dist/doc/otherformats
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

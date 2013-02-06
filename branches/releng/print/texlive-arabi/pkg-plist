@@ -205,13 +205,28 @@ share/texmf-dist/tex/latex/arabi/puenc-ar.def
 share/texmf-dist/tex/latex/arabi/transcmr.fd
 share/texmf-dist/tex/latex/arabi/translit.sty
 @dirrmtry share/texmf-dist/tex/latex/arabi
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/type1/arabi/farsiweb
 @dirrmtry share/texmf-dist/fonts/type1/arabi/arabeyes
+@dirrmtry share/texmf-dist/fonts/type1/arabi
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/arabi/farsiweb
 @dirrmtry share/texmf-dist/fonts/tfm/arabi/arabeyes
+@dirrmtry share/texmf-dist/fonts/tfm/arabi
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/map/dvips/arabi
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/enc/dvips/arabi
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
 @dirrmtry share/texmf-dist/fonts/afm/arabi/arabeyes
+@dirrmtry share/texmf-dist/fonts/afm/arabi
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/latex/arabi
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

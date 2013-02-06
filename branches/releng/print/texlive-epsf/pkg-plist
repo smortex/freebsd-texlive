@@ -18,7 +18,11 @@
 share/texmf-dist/tex/generic/epsf/epsf.sty
 share/texmf-dist/tex/generic/epsf/epsf.tex
 @dirrmtry share/texmf-dist/tex/generic/epsf
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/epsf/okay
 @dirrmtry share/texmf-dist/doc/generic/epsf
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

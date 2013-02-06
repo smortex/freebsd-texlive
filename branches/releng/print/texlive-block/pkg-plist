@@ -2,6 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/block/block.tex
 share/texmf-dist/tex/latex/block/block.sty
 @dirrmtry share/texmf-dist/tex/latex/block
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/block
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

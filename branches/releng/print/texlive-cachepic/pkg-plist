@@ -5,6 +5,12 @@ share/texmf-dist/scripts/cachepic/cachepic.cmd
 share/texmf-dist/tex/latex/cachepic/cachepic.sty
 share/texmf-dist/tex/latex/cachepic/prcachepic.def
 @dirrmtry share/texmf-dist/tex/latex/cachepic
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/scripts/cachepic
+@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/latex/cachepic
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/mathspec/mathspec.tex
 share/texmf-dist/tex/xelatex/mathspec/mathspec.sty
 @dirrmtry share/texmf-dist/tex/xelatex/mathspec
+@dirrmtry share/texmf-dist/tex/xelatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/xelatex/mathspec
+@dirrmtry share/texmf-dist/doc/xelatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

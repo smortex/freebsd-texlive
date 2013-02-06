@@ -58,8 +58,17 @@ share/texmf-dist/fonts/tfm/public/levy/grreg9.tfm
 share/texmf-dist/tex/generic/levy/greekmacros.tex
 share/texmf-dist/tex/generic/levy/slgreek.sty
 @dirrmtry share/texmf-dist/tex/generic/levy
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/tfm/public/levy
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/levy
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/levy
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

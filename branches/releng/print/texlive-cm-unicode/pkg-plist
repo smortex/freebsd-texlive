@@ -130,10 +130,23 @@ share/texmf-dist/fonts/type1/public/cm-unicode/cmunui.pfb
 share/texmf-dist/fonts/type1/public/cm-unicode/cmunvi.pfb
 share/texmf-dist/fonts/type1/public/cm-unicode/cmunvt.pfb
 @dirrmtry share/texmf-dist/fonts/type1/public/cm-unicode
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/opentype/public/cm-unicode
+@dirrmtry share/texmf-dist/fonts/opentype/public
+@dirrmtry share/texmf-dist/fonts/opentype
 @dirrmtry share/texmf-dist/fonts/map/dvips/cm-unicode
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/enc/dvips/cm-unicode
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
 @dirrmtry share/texmf-dist/fonts/afm/public/cm-unicode
+@dirrmtry share/texmf-dist/fonts/afm/public
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/cm-unicode
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

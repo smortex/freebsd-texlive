@@ -3,7 +3,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/tabularborder/tabularborder.ins
 share/texmf-dist/tex/latex/tabularborder/tabularborder.sty
 @dirrmtry share/texmf-dist/tex/latex/tabularborder
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/tabularborder
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/tabularborder
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

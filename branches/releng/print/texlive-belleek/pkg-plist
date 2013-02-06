@@ -10,9 +10,20 @@ share/texmf-dist/fonts/type1/public/belleek/rblmi.pfb
 %%PORTSRC%%share/texmf-dist/source/latex/belleek/my2mtt.fd
 %%PORTSRC%%share/texmf-dist/source/latex/belleek/my3mtt.fd
 @dirrmtry share/texmf-dist/source/latex/belleek
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/fonts/type1/public/belleek
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/truetype/public/belleek
+@dirrmtry share/texmf-dist/fonts/truetype/public
+@dirrmtry share/texmf-dist/fonts/truetype
 @dirrmtry share/texmf-dist/fonts/map/dvips/belleek
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/belleek
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

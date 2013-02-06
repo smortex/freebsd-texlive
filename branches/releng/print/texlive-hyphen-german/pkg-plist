@@ -3,5 +3,7 @@ share/texmf/tex/generic/hyphen/dehypht.tex
 share/texmf/tex/generic/hyphen/dehyphtex.tex
 share/texmf/tex/generic/hyphen/ghyphen.README
 @dirrmtry share/texmf/tex/generic/hyphen
+@dirrmtry share/texmf/tex/generic
+@dirrmtry share/texmf/tex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

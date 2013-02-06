@@ -2,6 +2,7 @@
 
 PORTNAME=	combinedgraphics
 PORTVERSION=	20120728
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

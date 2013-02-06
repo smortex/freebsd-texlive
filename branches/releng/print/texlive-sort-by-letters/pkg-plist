@@ -7,6 +7,10 @@ share/texmf-dist/bibtex/bst/sort-by-letters/plainnat-letters.bst
 share/texmf-dist/bibtex/bst/sort-by-letters/siam-letters.bst
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/sort-by-letters/README
 @dirrmtry share/texmf-dist/doc/bibtex/sort-by-letters
+@dirrmtry share/texmf-dist/doc/bibtex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/sort-by-letters
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

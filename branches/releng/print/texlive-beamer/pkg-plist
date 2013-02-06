@@ -339,6 +339,7 @@ share/texmf-dist/tex/latex/beamer/translator/translator.sty
 @dirrmtry share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary
 @dirrmtry share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary
 @dirrmtry share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary
+@dirrmtry share/texmf-dist/tex/latex/beamer/translator/dicts
 @dirrmtry share/texmf-dist/tex/latex/beamer/translator
 @dirrmtry share/texmf-dist/tex/latex/beamer/themes/theme/compatibility
 @dirrmtry share/texmf-dist/tex/latex/beamer/themes/theme
@@ -346,14 +347,18 @@ share/texmf-dist/tex/latex/beamer/translator/translator.sty
 @dirrmtry share/texmf-dist/tex/latex/beamer/themes/inner
 @dirrmtry share/texmf-dist/tex/latex/beamer/themes/font
 @dirrmtry share/texmf-dist/tex/latex/beamer/themes/color
+@dirrmtry share/texmf-dist/tex/latex/beamer/themes
 @dirrmtry share/texmf-dist/tex/latex/beamer/multimedia
 @dirrmtry share/texmf-dist/tex/latex/beamer/emulation/examples
 @dirrmtry share/texmf-dist/tex/latex/beamer/emulation
 @dirrmtry share/texmf-dist/tex/latex/beamer/art
 @dirrmtry share/texmf-dist/tex/latex/beamer
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/beamer/solutions/short-talks
 @dirrmtry share/texmf-dist/doc/latex/beamer/solutions/generic-talks
 @dirrmtry share/texmf-dist/doc/latex/beamer/solutions/conference-talks
+@dirrmtry share/texmf-dist/doc/latex/beamer/solutions
 @dirrmtry share/texmf-dist/doc/latex/beamer/examples/a-lecture
 @dirrmtry share/texmf-dist/doc/latex/beamer/examples/a-conference-talk
 @dirrmtry share/texmf-dist/doc/latex/beamer/examples
@@ -362,5 +367,7 @@ share/texmf-dist/tex/latex/beamer/translator/translator.sty
 @dirrmtry share/texmf-dist/doc/latex/beamer/doc/licenses
 @dirrmtry share/texmf-dist/doc/latex/beamer/doc
 @dirrmtry share/texmf-dist/doc/latex/beamer
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

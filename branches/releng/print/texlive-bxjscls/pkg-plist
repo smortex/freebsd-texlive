@@ -7,7 +7,13 @@ share/texmf-dist/tex/latex/bxjscls/bxjsarticle.cls
 share/texmf-dist/tex/latex/bxjscls/bxjsptex.def
 share/texmf-dist/tex/latex/bxjscls/bxjsreport.cls
 @dirrmtry share/texmf-dist/tex/latex/bxjscls
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/bxjscls
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/bxjscls
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

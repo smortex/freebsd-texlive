@@ -3,6 +3,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/threeddice/threeddice-doc.tex
 share/texmf-dist/metapost/threeddice/threeddice.mp
 @dirrmtry share/texmf-dist/metapost/threeddice
+@dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/doc/metapost/threeddice
+@dirrmtry share/texmf-dist/doc/metapost
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

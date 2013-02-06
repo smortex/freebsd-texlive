@@ -4,7 +4,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/tableof/tableof.ins
 share/texmf-dist/tex/latex/tableof/tableof.sty
 @dirrmtry share/texmf-dist/tex/latex/tableof
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/tableof
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/tableof
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

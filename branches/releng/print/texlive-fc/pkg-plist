@@ -491,8 +491,17 @@ share/texmf-dist/tex/latex/fc/t4enc.def
 share/texmf-dist/tex/latex/fc/t4fcr.fd
 share/texmf-dist/tex/latex/fc/t4phonet.sty
 @dirrmtry share/texmf-dist/tex/latex/fc
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/tfm/jknappen/fc
+@dirrmtry share/texmf-dist/fonts/tfm/jknappen
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/jknappen/fc
+@dirrmtry share/texmf-dist/fonts/source/jknappen
+@dirrmtry share/texmf-dist/fonts/source
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/fc
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

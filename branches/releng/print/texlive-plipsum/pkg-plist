@@ -5,6 +5,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/plain/plipsum/pliptest.tex
 share/texmf-dist/tex/plain/plipsum/plipsum.tex
 @dirrmtry share/texmf-dist/tex/plain/plipsum
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/plain/plipsum
+@dirrmtry share/texmf-dist/doc/plain
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

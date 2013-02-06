@@ -3,8 +3,17 @@ share/texmf-dist/fonts/source/public/cherokee/cherokee.mf
 share/texmf-dist/fonts/tfm/public/cherokee/cherokee.tfm
 share/texmf-dist/tex/latex/cherokee/cherokee.sty
 @dirrmtry share/texmf-dist/tex/latex/cherokee
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/tfm/public/cherokee
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/cherokee
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/cherokee
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

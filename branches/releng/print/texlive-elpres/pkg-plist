@@ -5,6 +5,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/elpres/gradient2.png
 share/texmf-dist/tex/latex/elpres/elpres.cls
 @dirrmtry share/texmf-dist/tex/latex/elpres
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/elpres
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

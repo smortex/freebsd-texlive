@@ -51,5 +51,7 @@ share/texmf-dist/tex/csplain/opmac/opmac.tex
 @dirrmtry share/texmf-dist/tex/csplain/opmac
 @dirrmtry share/texmf-dist/tex/csplain/fonts
 @dirrmtry share/texmf-dist/tex/csplain/base
+@dirrmtry share/texmf-dist/tex/csplain
+@dirrmtry share/texmf-dist/tex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

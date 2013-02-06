@@ -115,8 +115,13 @@
 share/texmf-dist/tex/latex/interactiveworkbook/interactiveworkbook-web.sty
 share/texmf-dist/tex/latex/interactiveworkbook/interactiveworkbook.sty
 @dirrmtry share/texmf-dist/tex/latex/interactiveworkbook
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/interactiveworkbook/samplefiles
 @dirrmtry share/texmf-dist/doc/latex/interactiveworkbook/epsfiles
 @dirrmtry share/texmf-dist/doc/latex/interactiveworkbook/documentation
+@dirrmtry share/texmf-dist/doc/latex/interactiveworkbook
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

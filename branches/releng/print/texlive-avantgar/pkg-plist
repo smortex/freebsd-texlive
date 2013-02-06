@@ -161,14 +161,31 @@ share/texmf-dist/tex/latex/avantgar/ot1uag.fd
 share/texmf-dist/tex/latex/avantgar/t1uag.fd
 share/texmf-dist/tex/latex/avantgar/ts1uag.fd
 @dirrmtry share/texmf-dist/tex/latex/avantgar
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/vf/urw35vf/avantgar
+@dirrmtry share/texmf-dist/fonts/vf/urw35vf
 @dirrmtry share/texmf-dist/fonts/vf/adobe/avantgar
+@dirrmtry share/texmf-dist/fonts/vf/adobe
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/type1/urw/avantgar
+@dirrmtry share/texmf-dist/fonts/type1/urw
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/urw35vf/avantgar
+@dirrmtry share/texmf-dist/fonts/tfm/urw35vf
 @dirrmtry share/texmf-dist/fonts/tfm/adobe/avantgar
+@dirrmtry share/texmf-dist/fonts/tfm/adobe
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/map/dvips/avantgar
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/afm/urw/avantgar
+@dirrmtry share/texmf-dist/fonts/afm/urw
 @dirrmtry share/texmf-dist/fonts/afm/adobe/avantgar
+@dirrmtry share/texmf-dist/fonts/afm/adobe
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/dvips/avantgar
+@dirrmtry share/texmf-dist/dvips
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

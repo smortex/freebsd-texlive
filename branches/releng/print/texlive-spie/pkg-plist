@@ -6,8 +6,15 @@ share/texmf-dist/bibtex/bst/spie/spiebib.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/spie/mcr3b.eps
 share/texmf-dist/tex/latex/spie/spie.cls
 @dirrmtry share/texmf-dist/tex/latex/spie
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/spie
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/spie
+@dirrmtry share/texmf-dist/bibtex/bst
 @dirrmtry share/texmf-dist/bibtex/bib/spie
+@dirrmtry share/texmf-dist/bibtex/bib
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

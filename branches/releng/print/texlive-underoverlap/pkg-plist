@@ -6,6 +6,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/underoverlap/with.sty
 share/texmf-dist/tex/latex/underoverlap/underoverlap.sty
 @dirrmtry share/texmf-dist/tex/latex/underoverlap
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/underoverlap
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

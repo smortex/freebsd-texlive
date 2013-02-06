@@ -6,7 +6,16 @@
 share/texmf-dist/metapost/context/third/gnuplot/mp-gnuplot.mp
 share/texmf-dist/tex/context/third/gnuplot/t-gnuplot.tex
 @dirrmtry share/texmf-dist/tex/context/third/gnuplot
+@dirrmtry share/texmf-dist/tex/context/third
+@dirrmtry share/texmf-dist/tex/context
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/metapost/context/third/gnuplot
+@dirrmtry share/texmf-dist/metapost/context/third
+@dirrmtry share/texmf-dist/metapost/context
+@dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/doc/context/third/gnuplot
+@dirrmtry share/texmf-dist/doc/context/third
+@dirrmtry share/texmf-dist/doc/context
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

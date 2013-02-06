@@ -12,7 +12,11 @@ share/texmf-dist/tex/generic/vaucanson-g/Vaucanson-G.tex
 share/texmf-dist/tex/generic/vaucanson-g/vaucanson-g.sty
 share/texmf-dist/tex/generic/vaucanson-g/vaucanson.sty
 @dirrmtry share/texmf-dist/tex/generic/vaucanson-g
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/vaucanson-g/VCManual-src
 @dirrmtry share/texmf-dist/doc/generic/vaucanson-g
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

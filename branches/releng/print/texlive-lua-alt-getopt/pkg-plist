@@ -7,7 +7,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/lua-alt-getopt/tests/test.sh
 share/texmf-dist/scripts/lua-alt-getopt/alt_getopt.lua
 @dirrmtry share/texmf-dist/scripts/lua-alt-getopt
+@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/support/lua-alt-getopt/tests
 @dirrmtry share/texmf-dist/doc/support/lua-alt-getopt
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

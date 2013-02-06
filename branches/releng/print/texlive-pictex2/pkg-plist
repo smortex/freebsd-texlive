@@ -1,4 +1,6 @@
 share/texmf-dist/tex/latex/pictex2/pictex2.sty
 @dirrmtry share/texmf-dist/tex/latex/pictex2
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

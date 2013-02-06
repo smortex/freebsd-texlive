@@ -17,6 +17,9 @@ share/texmf-dist/metafont/roex/roex.mf
 %%PORTSRC%%share/texmf-dist/source/metafont/roex/roexsamp/roes-04.mf
 @dirrmtry share/texmf-dist/source/metafont/roex/roexsamp
 @dirrmtry share/texmf-dist/source/metafont/roex
+@dirrmtry share/texmf-dist/source/metafont
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/metafont/roex
+@dirrmtry share/texmf-dist/metafont
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

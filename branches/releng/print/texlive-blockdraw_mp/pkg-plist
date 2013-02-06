@@ -12,6 +12,9 @@ share/texmf-dist/metapost/blockdraw_mp/cascadedemo.mp
 share/texmf-dist/metapost/blockdraw_mp/docblockprefs.mp
 share/texmf-dist/metapost/blockdraw_mp/shiftoff.mp
 @dirrmtry share/texmf-dist/metapost/blockdraw_mp
+@dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/doc/metapost/blockdraw_mp
+@dirrmtry share/texmf-dist/doc/metapost
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

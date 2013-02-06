@@ -1,6 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/typeoutfileinfo/README
-share/texmf-dist/scripts/typeoutfileinfo/typeoutfileinfo.sh
-@dirrmtry share/texmf-dist/scripts/typeoutfileinfo
 @dirrmtry share/texmf-dist/doc/support/typeoutfileinfo
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

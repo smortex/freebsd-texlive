@@ -4,7 +4,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/xpunctuate/xpunctuate.ins
 share/texmf-dist/tex/latex/xpunctuate/xpunctuate.sty
 @dirrmtry share/texmf-dist/tex/latex/xpunctuate
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/xpunctuate
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/xpunctuate
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

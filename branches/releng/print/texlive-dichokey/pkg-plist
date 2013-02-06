@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/dichokey/rhodocyb.tex
 share/texmf-dist/tex/latex/dichokey/dichokey.sty
 @dirrmtry share/texmf-dist/tex/latex/dichokey
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/dichokey
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

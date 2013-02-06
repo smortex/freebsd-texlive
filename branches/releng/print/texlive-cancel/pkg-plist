@@ -2,6 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/cancel/cancel.tex
 share/texmf-dist/tex/latex/cancel/cancel.sty
 @dirrmtry share/texmf-dist/tex/latex/cancel
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/cancel
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

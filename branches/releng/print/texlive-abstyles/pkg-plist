@@ -18,8 +18,15 @@ share/texmf-dist/bibtex/bst/abstyles/aunsrt.bst
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/abstyles/docmac.tex
 share/texmf-dist/tex/generic/abstyles/apreambl.tex
 @dirrmtry share/texmf-dist/tex/generic/abstyles
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/bibtex/abstyles
+@dirrmtry share/texmf-dist/doc/bibtex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/abstyles
+@dirrmtry share/texmf-dist/bibtex/bst
 @dirrmtry share/texmf-dist/bibtex/bib/abstyles
+@dirrmtry share/texmf-dist/bibtex/bib
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -22,8 +22,14 @@
 %%PORTSRC%%share/texmf-dist/source/latex/probsoln/probsoln.ins
 share/texmf-dist/tex/latex/probsoln/probsoln.sty
 @dirrmtry share/texmf-dist/tex/latex/probsoln
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/probsoln
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/probsoln/samples
 @dirrmtry share/texmf-dist/doc/latex/probsoln
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

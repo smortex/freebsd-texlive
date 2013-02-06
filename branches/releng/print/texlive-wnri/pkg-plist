@@ -83,8 +83,15 @@ share/texmf-dist/fonts/tfm/public/wnri/wnris8.tfm
 share/texmf-dist/fonts/tfm/public/wnri/wnrit10.tfm
 share/texmf-dist/fonts/tfm/public/wnri/wnrit8.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/wnri
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/wnri
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/wnri/old
 @dirrmtry share/texmf-dist/doc/fonts/wnri
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

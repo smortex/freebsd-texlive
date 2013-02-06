@@ -16,7 +16,10 @@
 share/texmf-dist/metapost/metaplot/axes.mp
 share/texmf-dist/metapost/metaplot/metaplot.mp
 @dirrmtry share/texmf-dist/metapost/metaplot
+@dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/doc/latex/metaplot/examples
 @dirrmtry share/texmf-dist/doc/latex/metaplot
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

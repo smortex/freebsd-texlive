@@ -8,8 +8,14 @@
 %%PORTSRC%%share/texmf-dist/source/latex/active-conf/active-conf.ins
 share/texmf-dist/tex/latex/active-conf/active-conf.cls
 @dirrmtry share/texmf-dist/tex/latex/active-conf
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/active-conf
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/active-conf/example
 @dirrmtry share/texmf-dist/doc/latex/active-conf
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

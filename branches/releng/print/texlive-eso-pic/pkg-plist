@@ -12,7 +12,13 @@
 share/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 share/texmf-dist/tex/latex/eso-pic/showframe.sty
 @dirrmtry share/texmf-dist/tex/latex/eso-pic
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/eso-pic
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/eso-pic
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

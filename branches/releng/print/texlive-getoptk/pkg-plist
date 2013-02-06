@@ -5,6 +5,10 @@
 share/texmf-dist/tex/plain/getoptk/getoptk.tex
 share/texmf-dist/tex/plain/getoptk/guide.tex
 @dirrmtry share/texmf-dist/tex/plain/getoptk
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/plain/getoptk
+@dirrmtry share/texmf-dist/doc/plain
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -41,8 +41,12 @@ share/texmf-dist/tex/latex/sciposter/paperra1.cfg
 share/texmf-dist/tex/latex/sciposter/paperra2.cfg
 share/texmf-dist/tex/latex/sciposter/sciposter.cls
 @dirrmtry share/texmf-dist/tex/latex/sciposter
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/sciposter/sciposterexample/auto
 @dirrmtry share/texmf-dist/doc/latex/sciposter/sciposterexample
 @dirrmtry share/texmf-dist/doc/latex/sciposter
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

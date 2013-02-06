@@ -14,7 +14,13 @@ share/texmf-dist/tex/latex/textopo/biotex.sty
 share/texmf-dist/tex/latex/textopo/textopo.def
 share/texmf-dist/tex/latex/textopo/textopo.sty
 @dirrmtry share/texmf-dist/tex/latex/textopo
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/textopo
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/textopo
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

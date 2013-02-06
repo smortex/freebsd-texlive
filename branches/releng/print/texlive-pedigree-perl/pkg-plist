@@ -49,9 +49,13 @@ share/texmf-dist/scripts/pedigree-perl/Pedigree/Parser.pm
 share/texmf-dist/scripts/pedigree-perl/Pedigree/PersonNode.pm
 share/texmf-dist/scripts/pedigree-perl/Pedigree/TwinsNode.pm
 @dirrmtry share/texmf-dist/scripts/pedigree-perl/Pedigree
+@dirrmtry share/texmf-dist/scripts/pedigree-perl
+@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/support/pedigree-perl/examples
 @dirrmtry share/texmf-dist/doc/support/pedigree-perl/doc
 @dirrmtry share/texmf-dist/doc/support/pedigree-perl/Pedigree
 @dirrmtry share/texmf-dist/doc/support/pedigree-perl
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

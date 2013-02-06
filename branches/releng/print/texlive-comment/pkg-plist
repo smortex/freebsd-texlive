@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/comment/comment.tex
 share/texmf-dist/tex/latex/comment/comment.sty
 @dirrmtry share/texmf-dist/tex/latex/comment
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/comment
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

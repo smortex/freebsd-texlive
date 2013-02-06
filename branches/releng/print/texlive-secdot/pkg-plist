@@ -2,6 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/secdot/secdot.pdf
 share/texmf-dist/tex/latex/secdot/secdot.sty
 @dirrmtry share/texmf-dist/tex/latex/secdot
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/secdot
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

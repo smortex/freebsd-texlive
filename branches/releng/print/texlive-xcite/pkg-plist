@@ -4,7 +4,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/xcite/xcite.ins
 share/texmf-dist/tex/latex/xcite/xcite.sty
 @dirrmtry share/texmf-dist/tex/latex/xcite
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/xcite
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/xcite
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

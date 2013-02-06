@@ -23,10 +23,14 @@ share/texmf-dist/texdoctk/texdoctk.dat
 %%PORTDOCS%%share/texmf/doc/man/man1/texdoctk.1
 %%PORTDOCS%%share/texmf/doc/man/man1/texdoctk.man1.pdf
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/texdoctk
 @dirrmtry share/texmf-dist/texdoc
 @dirrmtry share/texmf-dist/scripts/texdoc
 @dirrmtry share/texmf-dist/scripts/tetex
+@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/texdoc
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -8,6 +8,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/unisugar/unisugar.tex
 share/texmf-dist/tex/xelatex/unisugar/unisugar.sty
 @dirrmtry share/texmf-dist/tex/xelatex/unisugar
+@dirrmtry share/texmf-dist/tex/xelatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/xelatex/unisugar
+@dirrmtry share/texmf-dist/doc/xelatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

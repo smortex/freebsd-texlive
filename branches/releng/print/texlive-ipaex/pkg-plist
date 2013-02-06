@@ -5,6 +5,11 @@ share/texmf-dist/fonts/truetype/public/ipaex/ipaexm.ttf
 share/texmf-dist/fonts/truetype/public/ipaex/ipag.ttf
 share/texmf-dist/fonts/truetype/public/ipaex/ipam.ttf
 @dirrmtry share/texmf-dist/fonts/truetype/public/ipaex
+@dirrmtry share/texmf-dist/fonts/truetype/public
+@dirrmtry share/texmf-dist/fonts/truetype
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/ipaex
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

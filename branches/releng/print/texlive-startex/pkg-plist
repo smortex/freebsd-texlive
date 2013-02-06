@@ -15,8 +15,16 @@ share/texmf-dist/tex/startex/base/ifi-artikkel.stx
 share/texmf-dist/tex/startex/base/startex.lan
 share/texmf-dist/tex/startex/base/startex.tex
 @dirrmtry share/texmf-dist/tex/startex/base
+@dirrmtry share/texmf-dist/tex/startex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/startex/base
+@dirrmtry share/texmf-dist/source/startex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/makeindex/startex
+@dirrmtry share/texmf-dist/makeindex
 @dirrmtry share/texmf-dist/doc/otherformats/startex/base
+@dirrmtry share/texmf-dist/doc/otherformats/startex
+@dirrmtry share/texmf-dist/doc/otherformats
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

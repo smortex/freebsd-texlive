@@ -14,7 +14,13 @@
 %%PORTSRC%%share/texmf-dist/source/generic/pst-uml/Makefile
 share/texmf-dist/tex/latex/pst-uml/pst-uml.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-uml
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/pst-uml
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/generic/pst-uml
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

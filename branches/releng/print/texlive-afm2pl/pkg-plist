@@ -17,8 +17,16 @@ share/texmf/tex/fontinst/afm2pl/ly1.etx
 share/texmf/tex/fontinst/afm2pl/ly1c.etx
 share/texmf/tex/fontinst/afm2pl/makesc8y.tex
 @dirrmtry share/texmf/tex/fontinst/afm2pl
+@dirrmtry share/texmf/tex/fontinst
+@dirrmtry share/texmf/tex
 @dirrmtry share/texmf/fonts/lig/afm2pl
+@dirrmtry share/texmf/fonts/lig
 @dirrmtry share/texmf/fonts/enc/dvips/afm2pl
+@dirrmtry share/texmf/fonts/enc/dvips
+@dirrmtry share/texmf/fonts/enc
+@dirrmtry share/texmf/fonts
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
+@dirrmtry share/texmf/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

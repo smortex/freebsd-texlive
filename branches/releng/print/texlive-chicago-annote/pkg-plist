@@ -1,6 +1,10 @@
 share/texmf-dist/bibtex/bst/chicago-annote/chicago-annote.bst
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/chicago-annote/README
 @dirrmtry share/texmf-dist/doc/bibtex/chicago-annote
+@dirrmtry share/texmf-dist/doc/bibtex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/chicago-annote
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

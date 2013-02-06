@@ -4,7 +4,13 @@
 %%PORTSRC%%share/texmf-dist/source/generic/kastrup/binhex.ins
 share/texmf-dist/tex/generic/kastrup/binhex.tex
 @dirrmtry share/texmf-dist/tex/generic/kastrup
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/kastrup
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/generic/kastrup
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

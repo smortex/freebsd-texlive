@@ -5,6 +5,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/mychemistry/mychemistry_en.tex
 share/texmf-dist/tex/latex/mychemistry/mychemistry.sty
 @dirrmtry share/texmf-dist/tex/latex/mychemistry
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/mychemistry
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

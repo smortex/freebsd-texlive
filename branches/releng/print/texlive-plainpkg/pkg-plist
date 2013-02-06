@@ -5,7 +5,13 @@
 %%PORTSRC%%share/texmf-dist/source/generic/plainpkg/srcfiles.tex
 share/texmf-dist/tex/generic/plainpkg/plainpkg.tex
 @dirrmtry share/texmf-dist/tex/generic/plainpkg
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/plainpkg
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/generic/plainpkg
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

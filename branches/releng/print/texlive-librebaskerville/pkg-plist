@@ -98,12 +98,29 @@ share/texmf-dist/tex/latex/librebaskerville/T1LibreBaskerville-TLF.fd
 share/texmf-dist/tex/latex/librebaskerville/TS1LibreBaskerville-TLF.fd
 share/texmf-dist/tex/latex/librebaskerville/librebaskerville.sty
 @dirrmtry share/texmf-dist/tex/latex/librebaskerville
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/vf/impallari/librebaskerville
+@dirrmtry share/texmf-dist/fonts/vf/impallari
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/type1/impallari/librebaskerville
+@dirrmtry share/texmf-dist/fonts/type1/impallari
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/impallari/librebaskerville
+@dirrmtry share/texmf-dist/fonts/tfm/impallari
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/opentype/impallari/librebaskerville
+@dirrmtry share/texmf-dist/fonts/opentype/impallari
+@dirrmtry share/texmf-dist/fonts/opentype
 @dirrmtry share/texmf-dist/fonts/map/dvips/librebaskerville
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/enc/dvips/librebaskerville
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/librebaskerville
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

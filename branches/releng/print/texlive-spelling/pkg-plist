@@ -12,7 +12,12 @@ share/texmf-dist/scripts/spelling/spelling-stage-4.lua
 share/texmf-dist/scripts/spelling/spelling.lua
 share/texmf-dist/tex/lualatex/spelling/spelling.sty
 @dirrmtry share/texmf-dist/tex/lualatex/spelling
+@dirrmtry share/texmf-dist/tex/lualatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/scripts/spelling
+@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/lualatex/spelling
+@dirrmtry share/texmf-dist/doc/lualatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

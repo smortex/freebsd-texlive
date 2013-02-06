@@ -3,5 +3,7 @@
 %%PORTDOCS%%share/texmf/doc/generic/huhyphen/searchforerrors.rb
 %%PORTDOCS%%share/texmf/doc/generic/huhyphen/testhyphenation.rb
 @dirrmtry share/texmf/doc/generic/huhyphen
+@dirrmtry share/texmf/doc/generic
+@dirrmtry share/texmf/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

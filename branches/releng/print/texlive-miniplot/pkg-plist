@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/miniplot/miniplot.tex
 share/texmf-dist/tex/latex/miniplot/miniplot.sty
 @dirrmtry share/texmf-dist/tex/latex/miniplot
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/miniplot
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

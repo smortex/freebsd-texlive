@@ -13,10 +13,16 @@ share/texmf-dist/tex/generic/pst-cox/pst-coxeterp.tex
 share/texmf-dist/tex/latex/pst-cox/pst-coxcoor.sty
 share/texmf-dist/tex/latex/pst-cox/pst-coxeterp.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-cox
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/pst-cox
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/dvips/pst-cox
+@dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/generic/pst-cox/pst-coxeterp
 @dirrmtry share/texmf-dist/doc/generic/pst-cox/pst-coxcoor
 @dirrmtry share/texmf-dist/doc/generic/pst-cox
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

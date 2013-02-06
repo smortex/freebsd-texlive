@@ -7,6 +7,11 @@ share/texmf-dist/tex/latex/historische-zeitschrift/lbx/historische-zeitschrift.l
 @dirrmtry share/texmf-dist/tex/latex/historische-zeitschrift/lbx
 @dirrmtry share/texmf-dist/tex/latex/historische-zeitschrift/cbx
 @dirrmtry share/texmf-dist/tex/latex/historische-zeitschrift/bbx
+@dirrmtry share/texmf-dist/tex/latex/historische-zeitschrift
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/historische-zeitschrift
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

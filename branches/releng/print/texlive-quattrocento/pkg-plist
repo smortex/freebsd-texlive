@@ -235,12 +235,29 @@ share/texmf-dist/tex/latex/quattrocento/TS1Quattrocento-TLF.fd
 share/texmf-dist/tex/latex/quattrocento/TS1QuattrocentoSans-TLF.fd
 share/texmf-dist/tex/latex/quattrocento/quattrocento.sty
 @dirrmtry share/texmf-dist/tex/latex/quattrocento
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/vf/impallari/quattrocento
+@dirrmtry share/texmf-dist/fonts/vf/impallari
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/type1/impallari/quattrocento
+@dirrmtry share/texmf-dist/fonts/type1/impallari
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/impallari/quattrocento
+@dirrmtry share/texmf-dist/fonts/tfm/impallari
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/opentype/impallari/quattrocento
+@dirrmtry share/texmf-dist/fonts/opentype/impallari
+@dirrmtry share/texmf-dist/fonts/opentype
 @dirrmtry share/texmf-dist/fonts/map/dvips/quattrocento
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/enc/dvips/quattrocento
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/quattrocento
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

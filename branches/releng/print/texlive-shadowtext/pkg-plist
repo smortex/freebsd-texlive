@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/shadowtext/shadowtext.tex
 share/texmf-dist/tex/latex/shadowtext/shadowtext.sty
 @dirrmtry share/texmf-dist/tex/latex/shadowtext
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/shadowtext
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

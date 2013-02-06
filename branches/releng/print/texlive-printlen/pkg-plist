@@ -2,6 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/printlen/printlen-doc.tex
 share/texmf-dist/tex/latex/printlen/printlen.sty
 @dirrmtry share/texmf-dist/tex/latex/printlen
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/printlen
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

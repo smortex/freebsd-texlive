@@ -8,7 +8,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/slantsc/slantsc.ins
 share/texmf-dist/tex/latex/slantsc/slantsc.sty
 @dirrmtry share/texmf-dist/tex/latex/slantsc
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/slantsc
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/slantsc
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

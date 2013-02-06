@@ -1,4 +1,6 @@
 share/texmf-dist/tex/latex/texilikechaps/texilikechaps.sty
 @dirrmtry share/texmf-dist/tex/latex/texilikechaps
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

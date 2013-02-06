@@ -11,6 +11,10 @@
 share/texmf-dist/tex/latex/powerdot-FUBerlin/FUpowerdot.cls
 share/texmf-dist/tex/latex/powerdot-FUBerlin/powerdot-BerlinFU.sty
 @dirrmtry share/texmf-dist/tex/latex/powerdot-FUBerlin
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/powerdot-FUBerlin
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

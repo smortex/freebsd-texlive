@@ -22,7 +22,14 @@ share/texmf-dist/tex/jadetex/base/pdfjadetex.ini
 share/texmf-dist/tex/jadetex/base/uentities.sty
 share/texmf-dist/tex/jadetex/base/ut1omlgc.fd
 @dirrmtry share/texmf-dist/tex/jadetex/base
+@dirrmtry share/texmf-dist/tex/jadetex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/jadetex/base
+@dirrmtry share/texmf-dist/source/jadetex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/otherformats/jadetex/base
+@dirrmtry share/texmf-dist/doc/otherformats/jadetex
+@dirrmtry share/texmf-dist/doc/otherformats
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

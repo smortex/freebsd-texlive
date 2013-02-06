@@ -74,8 +74,17 @@ share/texmf-dist/tex/latex/schulschriften/wesa.sty
 share/texmf-dist/tex/latex/schulschriften/wesu.sty
 share/texmf-dist/tex/latex/schulschriften/weva.sty
 @dirrmtry share/texmf-dist/tex/latex/schulschriften
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/tfm/public/schulschriften
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/schulschriften
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/schulschriften
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

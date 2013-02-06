@@ -2,6 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/upca/test-upca.tex
 share/texmf-dist/tex/generic/upca/upca.tex
 @dirrmtry share/texmf-dist/tex/generic/upca
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/upca
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

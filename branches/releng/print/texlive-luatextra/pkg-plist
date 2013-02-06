@@ -6,7 +6,13 @@
 %%PORTSRC%%share/texmf-dist/source/lualatex/luatextra/luatextra.dtx
 share/texmf-dist/tex/lualatex/luatextra/luatextra.sty
 @dirrmtry share/texmf-dist/tex/lualatex/luatextra
+@dirrmtry share/texmf-dist/tex/lualatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/lualatex/luatextra
+@dirrmtry share/texmf-dist/source/lualatex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/lualatex/luatextra
+@dirrmtry share/texmf-dist/doc/lualatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

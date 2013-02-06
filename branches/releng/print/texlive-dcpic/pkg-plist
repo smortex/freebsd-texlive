@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/dcpic/examples.tex
 share/texmf-dist/tex/generic/dcpic/dcpic.sty
 @dirrmtry share/texmf-dist/tex/generic/dcpic
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/dcpic
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

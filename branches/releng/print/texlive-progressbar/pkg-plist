@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/progressbar/progressbar.tex
 share/texmf-dist/tex/latex/progressbar/progressbar.sty
 @dirrmtry share/texmf-dist/tex/latex/progressbar
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/progressbar
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

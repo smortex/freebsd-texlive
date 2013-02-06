@@ -9,7 +9,13 @@ share/texmf-dist/tex/latex/plweb/pcode.sty
 share/texmf-dist/tex/latex/plweb/pl.cfg
 share/texmf-dist/tex/latex/plweb/pl.sty
 @dirrmtry share/texmf-dist/tex/latex/plweb
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/plweb
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/plweb
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

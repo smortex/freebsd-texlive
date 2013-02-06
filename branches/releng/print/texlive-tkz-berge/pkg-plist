@@ -172,6 +172,8 @@
 share/texmf-dist/tex/latex/tkz-berge/tkz-arith.sty
 share/texmf-dist/tex/latex/tkz-berge/tkz-berge.sty
 @dirrmtry share/texmf-dist/tex/latex/tkz-berge
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/tkz-berge/latex
 @dirrmtry share/texmf-dist/doc/latex/tkz-berge/examples/latex
 @dirrmtry share/texmf-dist/doc/latex/tkz-berge/examples
@@ -181,5 +183,7 @@ share/texmf-dist/tex/latex/tkz-berge/tkz-berge.sty
 @dirrmtry share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc
 @dirrmtry share/texmf-dist/doc/latex/tkz-berge/NamedGraphs
 @dirrmtry share/texmf-dist/doc/latex/tkz-berge
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

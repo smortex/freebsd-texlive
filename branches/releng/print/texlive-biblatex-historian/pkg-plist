@@ -5,6 +5,10 @@ share/texmf-dist/tex/latex/biblatex-historian/historian.bbx
 share/texmf-dist/tex/latex/biblatex-historian/historian.cbx
 share/texmf-dist/tex/latex/biblatex-historian/historian.lbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-historian
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/biblatex-historian
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

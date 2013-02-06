@@ -29,8 +29,15 @@ share/texmf-dist/tex/latex/abntex2/abntex2.cls
 share/texmf-dist/tex/latex/abntex2/abntex2abrev.sty
 share/texmf-dist/tex/latex/abntex2/abntex2cite.sty
 @dirrmtry share/texmf-dist/tex/latex/abntex2
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/abntex2
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/abntex2
+@dirrmtry share/texmf-dist/bibtex/bst
 @dirrmtry share/texmf-dist/bibtex/bib/abntex2
+@dirrmtry share/texmf-dist/bibtex/bib
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

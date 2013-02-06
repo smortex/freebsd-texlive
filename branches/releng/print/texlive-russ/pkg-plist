@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/russ/russ_doc.tex
 share/texmf-dist/tex/latex/russ/russ.sty
 @dirrmtry share/texmf-dist/tex/latex/russ
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/russ
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -3,7 +3,12 @@
 share/texmf-dist/makeindex/repeatindex/repeatindex.ist
 share/texmf-dist/tex/latex/repeatindex/repeatindex.sty
 @dirrmtry share/texmf-dist/tex/latex/repeatindex
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/makeindex/repeatindex
+@dirrmtry share/texmf-dist/makeindex
 @dirrmtry share/texmf-dist/doc/latex/repeatindex
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

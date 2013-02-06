@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/xifthen/xifthen.tex
 share/texmf-dist/tex/latex/xifthen/xifthen.sty
 @dirrmtry share/texmf-dist/tex/latex/xifthen
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/xifthen
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

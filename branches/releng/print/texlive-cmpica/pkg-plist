@@ -8,7 +8,14 @@ share/texmf-dist/fonts/tfm/public/cmpica/cmpica.tfm
 share/texmf-dist/fonts/tfm/public/cmpica/cmpicab.tfm
 share/texmf-dist/fonts/tfm/public/cmpica/cmpicati.tfm
 @dirrmtry share/texmf-dist/fonts/tfm/public/cmpica
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/cmpica
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/latex/cmpica
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

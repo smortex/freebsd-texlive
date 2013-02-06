@@ -9,7 +9,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/piechartmp/examples/worldmap.jpg
 share/texmf-dist/metapost/piechartmp/piechartmp.mp
 @dirrmtry share/texmf-dist/metapost/piechartmp
+@dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/doc/metapost/piechartmp/examples
 @dirrmtry share/texmf-dist/doc/metapost/piechartmp
+@dirrmtry share/texmf-dist/doc/metapost
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

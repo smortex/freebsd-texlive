@@ -6,6 +6,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/onrannual/skeleton.tex
 share/texmf-dist/tex/latex/onrannual/onrannual.cls
 @dirrmtry share/texmf-dist/tex/latex/onrannual
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/onrannual
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

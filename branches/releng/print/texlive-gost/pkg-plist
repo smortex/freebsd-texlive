@@ -33,8 +33,15 @@ share/texmf-dist/bibtex/csf/gost/utf8cyrillic.csf
 %%PORTSRC%%share/texmf-dist/source/bibtex/gost/gost.dtx
 %%PORTSRC%%share/texmf-dist/source/bibtex/gost/gost.ins
 @dirrmtry share/texmf-dist/source/bibtex/gost
+@dirrmtry share/texmf-dist/source/bibtex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/bibtex/gost
+@dirrmtry share/texmf-dist/doc/bibtex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/csf/gost
+@dirrmtry share/texmf-dist/bibtex/csf
 @dirrmtry share/texmf-dist/bibtex/bst/gost
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

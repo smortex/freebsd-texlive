@@ -29,8 +29,15 @@ share/texmf-dist/bibtex/bst/IEEEtran/IEEEtranSN.bst
 share/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
 share/texmf-dist/tex/latex/IEEEtran/IEEEtrantools.sty
 @dirrmtry share/texmf-dist/tex/latex/IEEEtran
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/IEEEtran
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/IEEEtran
+@dirrmtry share/texmf-dist/bibtex/bst
 @dirrmtry share/texmf-dist/bibtex/bib/IEEEtran
+@dirrmtry share/texmf-dist/bibtex/bib
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

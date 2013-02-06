@@ -4,7 +4,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/coolthms/coolthms.ins
 share/texmf-dist/tex/latex/coolthms/coolthms.sty
 @dirrmtry share/texmf-dist/tex/latex/coolthms
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/coolthms
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/coolthms
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

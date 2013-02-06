@@ -3,6 +3,10 @@ share/texmf-dist/bibtex/bst/vak/vak.bst
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/vak/test-key.zip
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/vak/test.zip
 @dirrmtry share/texmf-dist/doc/bibtex/vak
+@dirrmtry share/texmf-dist/doc/bibtex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/vak
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

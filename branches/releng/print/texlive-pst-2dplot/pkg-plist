@@ -6,6 +6,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-2dplot/pst-2dplot-doc.tex
 share/texmf-dist/tex/latex/pst-2dplot/pst-2dplot.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-2dplot
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/pst-2dplot
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

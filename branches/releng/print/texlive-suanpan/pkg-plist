@@ -3,6 +3,9 @@
 share/texmf-dist/metapost/suanpan/abacus.mp
 share/texmf-dist/metapost/suanpan/suanpan.mp
 @dirrmtry share/texmf-dist/metapost/suanpan
+@dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/doc/metapost/suanpan
+@dirrmtry share/texmf-dist/doc/metapost
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

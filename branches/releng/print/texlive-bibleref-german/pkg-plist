@@ -10,6 +10,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/bibleref-german/en-bibleref-german.tex
 share/texmf-dist/tex/latex/bibleref-german/bibleref-german.sty
 @dirrmtry share/texmf-dist/tex/latex/bibleref-german
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/bibleref-german
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -6,7 +6,13 @@ share/texmf-dist/bibtex/bst/bibexport/export.bst
 %%PORTSRC%%share/texmf-dist/source/bibtex/bibexport/bibexport.dtx
 %%PORTSRC%%share/texmf-dist/source/bibtex/bibexport/bibexport.ins
 @dirrmtry share/texmf-dist/source/bibtex/bibexport
+@dirrmtry share/texmf-dist/source/bibtex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/bibtex/bibexport
+@dirrmtry share/texmf-dist/doc/bibtex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/bibexport
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -11,7 +11,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/dot2texi/gpl.txt
 share/texmf-dist/tex/latex/dot2texi/dot2texi.sty
 @dirrmtry share/texmf-dist/tex/latex/dot2texi
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/dot2texi/examples
 @dirrmtry share/texmf-dist/doc/latex/dot2texi
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

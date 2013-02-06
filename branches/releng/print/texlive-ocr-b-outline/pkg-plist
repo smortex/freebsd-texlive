@@ -20,9 +20,20 @@ share/texmf-dist/fonts/type1/public/ocr-b-outline/ocrb9.pfb
 %%PORTSRC%%share/texmf-dist/source/fonts/ocr-b-outline/ocrb8.sfd
 %%PORTSRC%%share/texmf-dist/source/fonts/ocr-b-outline/ocrb9.sfd
 @dirrmtry share/texmf-dist/source/fonts/ocr-b-outline
+@dirrmtry share/texmf-dist/source/fonts
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/fonts/type1/public/ocr-b-outline
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/opentype/public/ocr-b-outline
+@dirrmtry share/texmf-dist/fonts/opentype/public
+@dirrmtry share/texmf-dist/fonts/opentype
 @dirrmtry share/texmf-dist/fonts/map/dvips/ocr-b-outline
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/ocr-b-outline
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -13,7 +13,13 @@ share/texmf-dist/tex/lualatex/pgfmolbio/pgfmolbio.domains.lua
 share/texmf-dist/tex/lualatex/pgfmolbio/pgfmolbio.domains.tex
 share/texmf-dist/tex/lualatex/pgfmolbio/pgfmolbio.sty
 @dirrmtry share/texmf-dist/tex/lualatex/pgfmolbio
+@dirrmtry share/texmf-dist/tex/lualatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/lualatex/pgfmolbio
+@dirrmtry share/texmf-dist/source/lualatex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/lualatex/pgfmolbio
+@dirrmtry share/texmf-dist/doc/lualatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

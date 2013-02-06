@@ -4,7 +4,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/boxhandler/boxhandler.ins
 share/texmf-dist/tex/latex/boxhandler/boxhandler.sty
 @dirrmtry share/texmf-dist/tex/latex/boxhandler
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/boxhandler
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/boxhandler
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -23,7 +23,14 @@ share/texmf-dist/fonts/opentype/public/xits/xits-regular.otf
 %%PORTSRC%%share/texmf-dist/source/fonts/xits/xits-regular.sfd
 %%PORTSRC%%share/texmf-dist/source/fonts/xits/xits.fea
 @dirrmtry share/texmf-dist/source/fonts/xits
+@dirrmtry share/texmf-dist/source/fonts
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/fonts/opentype/public/xits
+@dirrmtry share/texmf-dist/fonts/opentype/public
+@dirrmtry share/texmf-dist/fonts/opentype
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/xits
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

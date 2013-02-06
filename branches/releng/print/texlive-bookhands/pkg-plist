@@ -329,12 +329,27 @@ share/texmf-dist/tex/latex/bookhands/t1sqrc.fd
 share/texmf-dist/tex/latex/bookhands/t1uncl.fd
 share/texmf-dist/tex/latex/bookhands/uncial.sty
 @dirrmtry share/texmf-dist/tex/latex/bookhands
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/fonts/bookhands
+@dirrmtry share/texmf-dist/source/fonts
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/fonts/type1/public/bookhands
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/public/bookhands
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/bookhands
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
 @dirrmtry share/texmf-dist/fonts/map/dvips/bookhands
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/afm/public/bookhands
+@dirrmtry share/texmf-dist/fonts/afm/public
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/bookhands/uncial
 @dirrmtry share/texmf-dist/doc/fonts/bookhands/tgothic
 @dirrmtry share/texmf-dist/doc/fonts/bookhands/sqrcaps
@@ -349,5 +364,7 @@ share/texmf-dist/tex/latex/bookhands/uncial.sty
 @dirrmtry share/texmf-dist/doc/fonts/bookhands/carolmin
 @dirrmtry share/texmf-dist/doc/fonts/bookhands/auncial
 @dirrmtry share/texmf-dist/doc/fonts/bookhands
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

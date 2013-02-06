@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/lexikon/lexikon.upl
 share/texmf-dist/tex/latex/lexikon/lexikon.sty
 @dirrmtry share/texmf-dist/tex/latex/lexikon
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/lexikon
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

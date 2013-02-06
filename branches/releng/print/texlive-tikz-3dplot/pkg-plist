@@ -6,6 +6,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-3dplot/tikz-3dplot_documentation_figures.tex
 share/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty
 @dirrmtry share/texmf-dist/tex/latex/tikz-3dplot
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/tikz-3dplot
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

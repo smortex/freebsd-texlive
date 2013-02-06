@@ -5,7 +5,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/chletter/chletter.ins
 share/texmf-dist/tex/latex/chletter/chletter.cls
 @dirrmtry share/texmf-dist/tex/latex/chletter
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/chletter
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/chletter
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

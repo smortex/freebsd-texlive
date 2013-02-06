@@ -299,9 +299,12 @@
 share/texmf-dist/metapost/featpost/featpost.mp
 share/texmf-dist/metapost/featpost/featpost3Dplus2D.mp
 @dirrmtry share/texmf-dist/metapost/featpost
+@dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/doc/metapost/featpost/example
 @dirrmtry share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles
 @dirrmtry share/texmf-dist/doc/metapost/featpost/doc
 @dirrmtry share/texmf-dist/doc/metapost/featpost
+@dirrmtry share/texmf-dist/doc/metapost
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -14,10 +14,18 @@ share/texmf-dist/dvips/pst-node/pst-node97.pro
 share/texmf-dist/tex/generic/pst-node/pst-node.tex
 share/texmf-dist/tex/latex/pst-node/pst-node.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-node
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/pst-node
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/pst-node
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/dvips/pst-node
+@dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/generic/pst-node/more_docs
 @dirrmtry share/texmf-dist/doc/generic/pst-node
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

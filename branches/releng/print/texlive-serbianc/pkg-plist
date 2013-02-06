@@ -13,8 +13,15 @@
 share/texmf-dist/tex/generic/serbianc/serbianc.ldf
 share/texmf-dist/tex/generic/serbianc/serbianc.sty
 @dirrmtry share/texmf-dist/tex/generic/serbianc
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/serbianc
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/serbianc
+@dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc/generic/serbianc
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

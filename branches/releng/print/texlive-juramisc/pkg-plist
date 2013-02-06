@@ -12,8 +12,12 @@ share/texmf-dist/tex/latex/juramisc/jurabook.cls
 share/texmf-dist/tex/latex/juramisc/juraovw.cls
 share/texmf-dist/tex/latex/juramisc/juraurtl.cls
 @dirrmtry share/texmf-dist/tex/latex/juramisc
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/juramisc/doc/jbook
 @dirrmtry share/texmf-dist/doc/latex/juramisc/doc
 @dirrmtry share/texmf-dist/doc/latex/juramisc
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

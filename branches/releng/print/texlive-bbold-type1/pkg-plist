@@ -9,8 +9,17 @@ share/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb
 share/texmf-dist/fonts/type1/public/bbold-type1/bbold5.pfb
 share/texmf-dist/fonts/type1/public/bbold-type1/bbold7.pfb
 @dirrmtry share/texmf-dist/fonts/type1/public/bbold-type1
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/map/dvips/bbold-type1
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/afm/public/bbold-type1
+@dirrmtry share/texmf-dist/fonts/afm/public
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/bbold-type1
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

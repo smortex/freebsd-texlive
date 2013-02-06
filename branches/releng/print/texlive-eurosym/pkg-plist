@@ -39,12 +39,25 @@ share/texmf-dist/fonts/type1/public/eurosym/geymo10.pfb
 share/texmf-dist/fonts/type1/public/eurosym/geymr10.pfb
 share/texmf-dist/tex/latex/eurosym/eurosym.sty
 @dirrmtry share/texmf-dist/tex/latex/eurosym
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/type1/public/eurosym
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/public/eurosym
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/eurosym
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
 @dirrmtry share/texmf-dist/fonts/map/dvips/eurosym
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/eurosym/src
 @dirrmtry share/texmf-dist/doc/fonts/eurosym/c
 @dirrmtry share/texmf-dist/doc/fonts/eurosym
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

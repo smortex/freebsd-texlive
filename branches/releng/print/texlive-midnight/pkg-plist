@@ -15,6 +15,10 @@ share/texmf-dist/tex/generic/midnight/loop.tex
 share/texmf-dist/tex/generic/midnight/quire.tex
 share/texmf-dist/tex/generic/midnight/styledef.tex
 @dirrmtry share/texmf-dist/tex/generic/midnight
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/midnight
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

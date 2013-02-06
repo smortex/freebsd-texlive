@@ -1,4 +1,6 @@
 share/texmf-dist/tex/plain/fixpdfmag/fixpdfmag.tex
 @dirrmtry share/texmf-dist/tex/plain/fixpdfmag
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

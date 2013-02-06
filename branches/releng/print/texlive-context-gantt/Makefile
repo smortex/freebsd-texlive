@@ -2,6 +2,7 @@
 
 PORTNAME=	context-gantt
 PORTVERSION=	20120821
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

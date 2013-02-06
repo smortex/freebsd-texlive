@@ -29,6 +29,9 @@ share/texmf-dist/metapost/cmarrows/tgbx0006.mp
 share/texmf-dist/metapost/cmarrows/tgbx0007.mp
 share/texmf-dist/metapost/cmarrows/tgbx0027.mp
 @dirrmtry share/texmf-dist/metapost/cmarrows
+@dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/doc/metapost/cmarrows
+@dirrmtry share/texmf-dist/doc/metapost
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

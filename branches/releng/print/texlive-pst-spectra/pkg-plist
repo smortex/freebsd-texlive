@@ -5,8 +5,14 @@ share/texmf-dist/dvips/pst-spectra/pst-spectra.pro
 share/texmf-dist/tex/generic/pst-spectra/pst-spectra.tex
 share/texmf-dist/tex/latex/pst-spectra/pst-spectra.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-spectra
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/pst-spectra
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/dvips/pst-spectra
+@dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/generic/pst-spectra
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

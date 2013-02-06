@@ -53,7 +53,13 @@ share/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
 share/texmf-dist/tex/luatex/luatexbase/mcb.lua
 share/texmf-dist/tex/luatex/luatexbase/modutils.lua
 @dirrmtry share/texmf-dist/tex/luatex/luatexbase
+@dirrmtry share/texmf-dist/tex/luatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/luatex/luatexbase
+@dirrmtry share/texmf-dist/source/luatex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/luatex/luatexbase
+@dirrmtry share/texmf-dist/doc/luatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

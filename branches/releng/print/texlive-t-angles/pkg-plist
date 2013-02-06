@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/t-angles/t-manual.tex
 share/texmf-dist/tex/latex/t-angles/t-angles.sty
 @dirrmtry share/texmf-dist/tex/latex/t-angles
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/t-angles
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

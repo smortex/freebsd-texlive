@@ -9,6 +9,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/chemnum/scheme-tmp.ps
 share/texmf-dist/tex/latex/chemnum/chemnum.sty
 @dirrmtry share/texmf-dist/tex/latex/chemnum
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/chemnum
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

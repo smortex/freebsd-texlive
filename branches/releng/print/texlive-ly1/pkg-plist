@@ -71,11 +71,25 @@ share/texmf-dist/tex/latex/ly1/ly1pzc.fd
 share/texmf-dist/tex/latex/ly1/texnansi.sty
 share/texmf-dist/tex/plain/ly1/texnansi.tex
 @dirrmtry share/texmf-dist/tex/plain/ly1
+@dirrmtry share/texmf-dist/tex/plain
 @dirrmtry share/texmf-dist/tex/latex/ly1
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/vf/adobe/ly1
+@dirrmtry share/texmf-dist/fonts/vf/adobe
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/tfm/adobe/ly1
+@dirrmtry share/texmf-dist/fonts/tfm/adobe
+@dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/map/dvips/ly1
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/enc/dvips/ly1
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/ly1
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

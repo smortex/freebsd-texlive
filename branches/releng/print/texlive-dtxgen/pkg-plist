@@ -2,6 +2,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/dtxgen/dtxgen.pdf
 share/texmf-dist/scripts/dtxgen/dtxgen
 @dirrmtry share/texmf-dist/scripts/dtxgen
+@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/support/dtxgen
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

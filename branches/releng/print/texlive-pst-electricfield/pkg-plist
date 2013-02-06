@@ -14,9 +14,17 @@ share/texmf-dist/dvips/pst-electricfield/pst-electricfield.pro
 share/texmf-dist/tex/generic/pst-electricfield/pst-electricfield.tex
 share/texmf-dist/tex/latex/pst-electricfield/pst-electricfield.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-electricfield
+@dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/pst-electricfield
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/generic/pst-electricfield
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/dvips/pst-electricfield
+@dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/generic/pst-electricfield
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

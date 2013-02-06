@@ -8,6 +8,10 @@ share/texmf-dist/tex/latex/cite/cite.sty
 share/texmf-dist/tex/latex/cite/drftcite.sty
 share/texmf-dist/tex/latex/cite/overcite.sty
 @dirrmtry share/texmf-dist/tex/latex/cite
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/cite
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

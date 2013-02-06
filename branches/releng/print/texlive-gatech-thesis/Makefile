@@ -2,6 +2,7 @@
 
 PORTNAME=	gatech-thesis
 PORTVERSION=	20100925
+PORTREVISION=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

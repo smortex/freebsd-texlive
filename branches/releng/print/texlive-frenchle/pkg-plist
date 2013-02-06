@@ -13,7 +13,11 @@ share/texmf-dist/tex/latex/frenchle/frenchle.cfg
 share/texmf-dist/tex/latex/frenchle/frenchle.ldf
 share/texmf-dist/tex/latex/frenchle/frenchle.sty
 @dirrmtry share/texmf-dist/tex/latex/frenchle
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/frenchle/sources
 @dirrmtry share/texmf-dist/doc/latex/frenchle
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

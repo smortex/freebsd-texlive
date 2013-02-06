@@ -9,7 +9,13 @@ share/texmf-dist/tex/context/third/gantt/gantt-s-mp.tex
 share/texmf-dist/tex/context/third/gantt/gantt-s-tikz.tex
 share/texmf-dist/tex/context/third/gantt/t-gantt.tex
 @dirrmtry share/texmf-dist/tex/context/third/gantt
+@dirrmtry share/texmf-dist/tex/context/third
+@dirrmtry share/texmf-dist/tex/context
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/context/third/gantt/examples
 @dirrmtry share/texmf-dist/doc/context/third/gantt
+@dirrmtry share/texmf-dist/doc/context/third
+@dirrmtry share/texmf-dist/doc/context
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

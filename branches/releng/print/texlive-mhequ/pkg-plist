@@ -2,6 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/mhequ/example.tex
 share/texmf-dist/tex/latex/mhequ/mhequ.sty
 @dirrmtry share/texmf-dist/tex/latex/mhequ
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/mhequ
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

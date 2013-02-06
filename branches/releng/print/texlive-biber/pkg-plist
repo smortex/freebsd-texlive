@@ -3,6 +3,10 @@
 %%PORTSRC%%share/texmf-dist/source/bibtex/biber/biblatex-biber.tar.gz
 %%PORTSRC%%share/texmf-dist/source/bibtex/biber/utf8-macro-map.html
 @dirrmtry share/texmf-dist/source/bibtex/biber
+@dirrmtry share/texmf-dist/source/bibtex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/bibtex/biber
+@dirrmtry share/texmf-dist/doc/bibtex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

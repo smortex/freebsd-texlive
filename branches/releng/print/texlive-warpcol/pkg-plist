@@ -4,7 +4,13 @@
 %%PORTSRC%%share/texmf-dist/source/latex/warpcol/warpcol.ins
 share/texmf-dist/tex/latex/warpcol/warpcol.sty
 @dirrmtry share/texmf-dist/tex/latex/warpcol
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/warpcol
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/warpcol
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

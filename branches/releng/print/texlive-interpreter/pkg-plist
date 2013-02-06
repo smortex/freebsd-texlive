@@ -7,6 +7,10 @@ share/texmf-dist/tex/luatex/interpreter/interpreter.lua
 share/texmf-dist/tex/luatex/interpreter/interpreter.sty
 share/texmf-dist/tex/luatex/interpreter/interpreter.tex
 @dirrmtry share/texmf-dist/tex/luatex/interpreter
+@dirrmtry share/texmf-dist/tex/luatex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/luatex/interpreter
+@dirrmtry share/texmf-dist/doc/luatex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

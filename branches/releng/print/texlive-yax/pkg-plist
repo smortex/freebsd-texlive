@@ -5,6 +5,10 @@ share/texmf-dist/tex/generic/yax/t-yax.tex
 share/texmf-dist/tex/generic/yax/yax.sty
 share/texmf-dist/tex/generic/yax/yax.tex
 @dirrmtry share/texmf-dist/tex/generic/yax
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/yax
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

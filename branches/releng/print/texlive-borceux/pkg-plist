@@ -12,7 +12,11 @@ share/texmf-dist/tex/generic/borceux/MicroDiagram
 share/texmf-dist/tex/generic/borceux/MiniDiagram
 share/texmf-dist/tex/generic/borceux/MultipleArrows
 @dirrmtry share/texmf-dist/tex/generic/borceux
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/generic/borceux/compatibility
 @dirrmtry share/texmf-dist/doc/generic/borceux
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

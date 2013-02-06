@@ -52,9 +52,12 @@ share/texmf/web2c/mktex.cnf
 share/texmf/web2c/natural.tcx
 share/texmf/web2c/tcvn-t5.tcx
 share/texmf/web2c/viscii-t5.tcx
+@dirrmtry share/texmf/web2c
 @dirrmtry share/texmf/doc/web2c
 @dirrmtry share/texmf/doc/man/man1
+@dirrmtry share/texmf/doc/man
 @dirrmtry share/texmf/doc/kpathsea
 @dirrmtry share/texmf/doc/info
+@dirrmtry share/texmf/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

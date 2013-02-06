@@ -19,7 +19,13 @@ share/texmf-dist/bibtex/bst/germbib/gerunsrt.bst
 share/texmf-dist/tex/latex/germbib/bibgerm.sty
 share/texmf-dist/tex/latex/germbib/mynormal.sty
 @dirrmtry share/texmf-dist/tex/latex/germbib
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/bibtex/germbib
+@dirrmtry share/texmf-dist/doc/bibtex
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/germbib
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
