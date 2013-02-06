@@ -7,7 +7,7 @@ if [ $# -eq 1 -a -d "$1" ]; then
 fi
 
 if [ ! -f "Makefile" ]; then
-	echo "*** Makefile not found!" >&2
+	echo "*** Makefile not found! (PWD=$PWD)" >&2
 	exit 1
 fi
 
