@@ -1,0 +1,4 @@
+Arara is comparable with other well-known compilation tools
+like latexmk and rubber. The key difference is that that arara
+determines its actions from metadata in the source code, rather
+than relying on indirect resources, such as log file analysis.

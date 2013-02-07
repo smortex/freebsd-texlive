@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	abntex2
-PORTVERSION=	20130119
-PORTREVISION=	1
+PORTVERSION=	20130206
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset a Brazilian academic thesis based on ABNT rules.
+COMMENT=	Typeset technical and scientific Brazilian documents based on ABNT rules.
 
 NOPORTSRC=	yes
 
