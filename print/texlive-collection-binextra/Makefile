@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-binextra
-PORTVERSION=	20130205
+PORTVERSION=	20130206
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -43,6 +43,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf/xdvi/XDvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/scripts/a2ping/a2ping.pl:${PORTSDIR}/print/texlive-a2ping \
 		${LOCALBASE}/share/texmf-dist/scripts/adhocfilelist/adhocfilelist.sh:${PORTSDIR}/print/texlive-adhocfilelist \
+		${LOCALBASE}/share/texmf-dist/scripts/arara/arara.jar:${PORTSDIR}/print/texlive-arara \
 		${LOCALBASE}/share/texmf/tex/latex/asymptote/asymptote.sty:${PORTSDIR}/print/texlive-asymptote \
 		${LOCALBASE}/share/texmf-dist/bibtex/csf/base/88591lat.csf:${PORTSDIR}/print/texlive-bibtex8 \
 		${LOCALBASE}/share/texmf-dist/scripts/bundledoc/arlatex:${PORTSDIR}/print/texlive-bundledoc \

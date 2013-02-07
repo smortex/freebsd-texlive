@@ -1,0 +1,133 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/README
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/arara-usermanual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/arara-usermanual.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/arara.sty
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/arara.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/inlage/inlage-addcommand.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/inlage/inlage-addcompiler.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/inlage/inlage-araramenu.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/inlage/inlage-editcommands.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/inlage/inlage-listarara.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/inlage/inlage-newprofile.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/inlage/inlage-settings.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/installer/install-finish.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/installer/install-langsel.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/installer/install-license.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/installer/install-packs.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/installer/install-path.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/installer/install-pathwarning.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/installer/install-progress.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/installer/install-welcome.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/installer/uninstall-finish.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/installer/uninstall-welcome.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/texniccenter/texniccenter-config.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/texniccenter/texniccenter-newprofile.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/texniccenter/texniccenter-profiles.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/texshop/texshop-arara.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/texworks/texworks-add.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/texworks/texworks-arara.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/texworks/texworks-prefs.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/texworks/texworks-profile.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/winedt/winedt-ararabutton.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/winedt/winedt-menu.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/winedt/winedt-optionsinterface.png
+%%PORTDOCS%%share/texmf-dist/doc/support/arara/references.bib
+share/texmf-dist/scripts/arara/arara.jar
+share/texmf-dist/scripts/arara/arara.sh
+share/texmf-dist/scripts/arara/rules/biber.yaml
+share/texmf-dist/scripts/arara/rules/bibtex.yaml
+share/texmf-dist/scripts/arara/rules/clean.yaml
+share/texmf-dist/scripts/arara/rules/dvips.yaml
+share/texmf-dist/scripts/arara/rules/frontespizio.yaml
+share/texmf-dist/scripts/arara/rules/latex.yaml
+share/texmf-dist/scripts/arara/rules/lmkclean.yaml
+share/texmf-dist/scripts/arara/rules/lualatex.yaml
+share/texmf-dist/scripts/arara/rules/lualatexmk.yaml
+share/texmf-dist/scripts/arara/rules/luatex.yaml
+share/texmf-dist/scripts/arara/rules/make.yaml
+share/texmf-dist/scripts/arara/rules/makeglossaries.yaml
+share/texmf-dist/scripts/arara/rules/makeindex.yaml
+share/texmf-dist/scripts/arara/rules/nomencl.yaml
+share/texmf-dist/scripts/arara/rules/pdflatex.yaml
+share/texmf-dist/scripts/arara/rules/pdflatexmk.yaml
+share/texmf-dist/scripts/arara/rules/pdftex.yaml
+share/texmf-dist/scripts/arara/rules/ps2pdf.yaml
+share/texmf-dist/scripts/arara/rules/sketch.yaml
+share/texmf-dist/scripts/arara/rules/songidx.yaml
+share/texmf-dist/scripts/arara/rules/tex.yaml
+share/texmf-dist/scripts/arara/rules/xelatex.yaml
+share/texmf-dist/scripts/arara/rules/xelatexmk.yaml
+share/texmf-dist/scripts/arara/rules/xetex.yaml
+%%PORTSRC%%share/texmf-dist/source/support/arara/pom.xml
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/Arara.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/exception/AraraException.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/model/AraraCommand.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/model/AraraConfiguration.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/model/AraraDirective.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/model/AraraFilePattern.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/model/AraraLanguage.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/model/AraraRuleArgument.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/model/AraraRuleConfig.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/model/AraraTask.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/utils/AraraConstants.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/utils/AraraLocalization.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/utils/AraraLogging.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/utils/AraraMethods.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/utils/AraraResolver.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/utils/AraraUtils.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/utils/CommandLineAnalyzer.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/utils/CommandTrigger.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/utils/ConfigurationLoader.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/utils/DirectiveExtractor.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/utils/DirectiveParser.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/utils/LanguageController.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/utils/TaskDeployer.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/utils/TeeOutputStream.java
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/conf/logback.xml
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/localization/Messages.properties
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/localization/Messages_de.properties
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/localization/Messages_es.properties
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/localization/Messages_fr.properties
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/localization/Messages_it.properties
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/localization/Messages_pt_BR.properties
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/localization/Messages_ru.properties
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/localization/Messages_tr.properties
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/test/java/com/github/arara/AraraTest.java
+@dirrmtry share/texmf-dist/source/support/arara/src/test/java/com/github/arara
+@dirrmtry share/texmf-dist/source/support/arara/src/test/java/com/github
+@dirrmtry share/texmf-dist/source/support/arara/src/test/java/com
+@dirrmtry share/texmf-dist/source/support/arara/src/test/java
+@dirrmtry share/texmf-dist/source/support/arara/src/test
+@dirrmtry share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/localization
+@dirrmtry share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/conf
+@dirrmtry share/texmf-dist/source/support/arara/src/main/resources/com/github/arara
+@dirrmtry share/texmf-dist/source/support/arara/src/main/resources/com/github
+@dirrmtry share/texmf-dist/source/support/arara/src/main/resources/com
+@dirrmtry share/texmf-dist/source/support/arara/src/main/resources
+@dirrmtry share/texmf-dist/source/support/arara/src/main/java/com/github/arara/utils
+@dirrmtry share/texmf-dist/source/support/arara/src/main/java/com/github/arara/model
+@dirrmtry share/texmf-dist/source/support/arara/src/main/java/com/github/arara/exception
+@dirrmtry share/texmf-dist/source/support/arara/src/main/java/com/github/arara
+@dirrmtry share/texmf-dist/source/support/arara/src/main/java/com/github
+@dirrmtry share/texmf-dist/source/support/arara/src/main/java/com
+@dirrmtry share/texmf-dist/source/support/arara/src/main/java
+@dirrmtry share/texmf-dist/source/support/arara/src/main
+@dirrmtry share/texmf-dist/source/support/arara/src
+@dirrmtry share/texmf-dist/source/support/arara
+@dirrmtry share/texmf-dist/source/support
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/scripts/arara/rules
+@dirrmtry share/texmf-dist/scripts/arara
+@dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/doc/support/arara/figures/winedt
+@dirrmtry share/texmf-dist/doc/support/arara/figures/texworks
+@dirrmtry share/texmf-dist/doc/support/arara/figures/texshop
+@dirrmtry share/texmf-dist/doc/support/arara/figures/texniccenter
+@dirrmtry share/texmf-dist/doc/support/arara/figures/installer
+@dirrmtry share/texmf-dist/doc/support/arara/figures/inlage
+@dirrmtry share/texmf-dist/doc/support/arara/figures
+@dirrmtry share/texmf-dist/doc/support/arara
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
