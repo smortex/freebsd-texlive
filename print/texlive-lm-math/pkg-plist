@@ -4,15 +4,15 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/README-Latin-Modern-Math.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/math-test-context.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/math-test.tex
-%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-context-lmodern_math.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-context-lmodern_math.tex
-%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-lualatex-lmodern_math.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-lualatex-lmodern_math.tex
-%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-word-lmodern_math.docx
-%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-word-lmodern_math.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-xelatex-lmodern_math.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-xelatex-lmodern_math.tex
-share/texmf-dist/fonts/opentype/public/lm-math/latinmodernmath-regular.otf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-context-latinmodern_math.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-context-latinmodern_math.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-lualatex-latinmodern_math.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-lualatex-latinmodern_math.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-word-latinmodern_math.docx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-word-latinmodern_math.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-xelatex-latinmodern_math.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lm-math/test-xelatex-latinmodern_math.tex
+share/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf
 @dirrmtry share/texmf-dist/fonts/opentype/public/lm-math
 @dirrmtry share/texmf-dist/fonts/opentype/public
 @dirrmtry share/texmf-dist/fonts/opentype
