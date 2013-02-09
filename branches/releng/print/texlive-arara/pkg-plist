@@ -84,14 +84,7 @@ share/texmf-dist/scripts/arara/rules/xetex.yaml
 %%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/utils/TaskDeployer.java
 %%PORTSRC%%share/texmf-dist/source/support/arara/src/main/java/com/github/arara/utils/TeeOutputStream.java
 %%PORTSRC%%share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/conf/logback.xml
-%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/localization/Messages.properties
-%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/localization/Messages_de.properties
-%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/localization/Messages_es.properties
-%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/localization/Messages_fr.properties
-%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/localization/Messages_it.properties
-%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/localization/Messages_pt_BR.properties
-%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/localization/Messages_ru.properties
-%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/localization/Messages_tr.properties
+%%PORTSRC%%share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/localization/dummy
 %%PORTSRC%%share/texmf-dist/source/support/arara/src/test/java/com/github/arara/AraraTest.java
 @dirrmtry share/texmf-dist/source/support/arara/src/test/java/com/github/arara
 @dirrmtry share/texmf-dist/source/support/arara/src/test/java/com/github
