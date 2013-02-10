@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	coolthms
+PORTNAME=	navygame
 PORTVERSION=	20130209
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Reference items in a theorem environment.
+COMMENT=	Typeset navy games.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
