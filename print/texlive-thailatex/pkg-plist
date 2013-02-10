@@ -22,7 +22,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/babel/thswitch.sty
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/babel/tis620.def
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/configure
-%%PORTSRC%%share/texmf-dist/source/latex/thailatex/configure.in
+%%PORTSRC%%share/texmf-dist/source/latex/thailatex/configure.ac
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/doc/Makefile.am
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/doc/Makefile.in
 %%PORTSRC%%share/texmf-dist/source/latex/thailatex/doc/orchid.tex
