@@ -1,7 +1,7 @@
 # $FreeBSD$
 
-PORTNAME=	navygame
-PORTVERSION=	20130209
+PORTNAME=	battleship
+PORTVERSION=	20130211
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

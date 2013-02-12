@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-games
-PORTVERSION=	20130209
+PORTVERSION=	20130211
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -9,7 +9,8 @@ DISTFILES=	# None
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Games typesetting
 
-RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/source/public/bartel-chess-fonts/elch-bishop.mf:${PORTSDIR}/print/texlive-bartel-chess-fonts \
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/battleship/battleship.sty:${PORTSDIR}/print/texlive-battleship \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/bartel-chess-fonts/elch-bishop.mf:${PORTSDIR}/print/texlive-bartel-chess-fonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chess/chess.sty:${PORTSDIR}/print/texlive-chess \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chess-problem-diagrams/diagram.sty:${PORTSDIR}/print/texlive-chess-problem-diagrams \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chessboard/chessboard.sty:${PORTSDIR}/print/texlive-chessboard \
@@ -21,7 +22,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/source/public/bartel-chess-font
 		${LOCALBASE}/share/texmf-dist/tex/latex/go/go.sty:${PORTSDIR}/print/texlive-go \
 		${LOCALBASE}/share/texmf-dist/tex/plain/hanoi/hanoi.tex:${PORTSDIR}/print/texlive-hanoi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hexgame/hexgame.sty:${PORTSDIR}/print/texlive-hexgame \
-		${LOCALBASE}/share/texmf-dist/tex/latex/navygame/navygame.sty:${PORTSDIR}/print/texlive-navygame \
 		${LOCALBASE}/share/texmf-dist/tex/latex/othello/othello.sty:${PORTSDIR}/print/texlive-othello \
 		${LOCALBASE}/share/texmf-dist/tex/latex/othelloboard/othelloboard.sty:${PORTSDIR}/print/texlive-othelloboard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/psgo/psgo.sty:${PORTSDIR}/print/texlive-psgo \
