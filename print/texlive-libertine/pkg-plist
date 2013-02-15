@@ -1417,7 +1417,9 @@ share/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TOsF.fd
 share/texmf-dist/tex/latex/libertine/biolinum-type1.sty
 share/texmf-dist/tex/latex/libertine/libertine-type1.sty
 share/texmf-dist/tex/latex/libertine/libertine.sty
+share/texmf-dist/tex/latex/libertine/libertineMono-type1.sty
 share/texmf-dist/tex/latex/libertine/libertineotf.sty
+share/texmf-dist/tex/latex/libertine/mt-EBGaramond.cfg
 @dirrmtry share/texmf-dist/tex/latex/libertine
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex

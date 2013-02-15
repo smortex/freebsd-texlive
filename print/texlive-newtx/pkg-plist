@@ -18,6 +18,7 @@ share/texmf-dist/fonts/enc/dvips/newtx/ntx-t1-sc.enc
 share/texmf-dist/fonts/enc/dvips/newtx/sups.enc
 share/texmf-dist/fonts/map/dvips/newtx/newtx.map
 share/texmf-dist/fonts/map/dvips/newtx/zmn.map
+share/texmf-dist/fonts/map/dvips/public/newtx/newtx.map
 share/texmf-dist/fonts/tfm/public/newtx/Libertine-nu.tfm
 share/texmf-dist/fonts/tfm/public/newtx/LibertineI-5nu.tfm
 share/texmf-dist/fonts/tfm/public/newtx/LibertineI-7nu.tfm
@@ -53,6 +54,7 @@ share/texmf-dist/fonts/tfm/public/newtx/ntxbmi.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxbmi1.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxbmi15.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxbmi17.tfm
+share/texmf-dist/fonts/tfm/public/newtx/ntxbmi1x.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxbmi5.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxbmi7.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxbmia.tfm
@@ -135,9 +137,14 @@ share/texmf-dist/fonts/tfm/public/newtx/rntxbmi7.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rntxmi.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rntxmi5.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rntxmi7.tfm
+share/texmf-dist/fonts/tfm/public/newtx/rtxbmi-rev.tfm
+share/texmf-dist/fonts/tfm/public/newtx/rtxbmi.tfm
+share/texmf-dist/fonts/tfm/public/newtx/rtxbmi5-rev.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rtxbmi5.tfm
+share/texmf-dist/fonts/tfm/public/newtx/rtxbmi7-rev.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rtxbmi7.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rtxbmio.tfm
+share/texmf-dist/fonts/tfm/public/newtx/rtxmi.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rtxmi5.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rtxmi7.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rtxmio.tfm
@@ -212,8 +219,13 @@ share/texmf-dist/fonts/type1/public/newtx/rntxbmi7.pfb
 share/texmf-dist/fonts/type1/public/newtx/rntxmi.pfb
 share/texmf-dist/fonts/type1/public/newtx/rntxmi5.pfb
 share/texmf-dist/fonts/type1/public/newtx/rntxmi7.pfb
+share/texmf-dist/fonts/type1/public/newtx/rtxbmi-rev.pfb
+share/texmf-dist/fonts/type1/public/newtx/rtxbmi.pfb
+share/texmf-dist/fonts/type1/public/newtx/rtxbmi5-rev.pfb
 share/texmf-dist/fonts/type1/public/newtx/rtxbmi5.pfb
+share/texmf-dist/fonts/type1/public/newtx/rtxbmi7-rev.pfb
 share/texmf-dist/fonts/type1/public/newtx/rtxbmi7.pfb
+share/texmf-dist/fonts/type1/public/newtx/rtxmi.pfb
 share/texmf-dist/fonts/type1/public/newtx/rtxmi5.pfb
 share/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb
 share/texmf-dist/fonts/type1/public/newtx/txbsy5.pfb
@@ -235,6 +247,7 @@ share/texmf-dist/fonts/vf/public/newtx/ntxbmi.vf
 share/texmf-dist/fonts/vf/public/newtx/ntxbmi1.vf
 share/texmf-dist/fonts/vf/public/newtx/ntxbmi15.vf
 share/texmf-dist/fonts/vf/public/newtx/ntxbmi17.vf
+share/texmf-dist/fonts/vf/public/newtx/ntxbmi1x.vf
 share/texmf-dist/fonts/vf/public/newtx/ntxbmi5.vf
 share/texmf-dist/fonts/vf/public/newtx/ntxbmi7.vf
 share/texmf-dist/fonts/vf/public/newtx/ntxbmia.vf
@@ -338,6 +351,7 @@ share/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 share/texmf-dist/tex/latex/newtx/ts1ntxr.fd
 share/texmf-dist/tex/latex/newtx/ts1ntxr1.fd
 share/texmf-dist/tex/latex/newtx/ts1ntxrj.fd
+share/texmf-dist/tex/latex/newtx/ts1ntxrx.fd
 share/texmf-dist/tex/latex/newtx/ts1ntxss.fd
 share/texmf-dist/tex/latex/newtx/ts1ntxtt.fd
 share/texmf-dist/tex/latex/newtx/untxexa.fd
@@ -359,6 +373,8 @@ share/texmf-dist/tex/latex/newtx/uzmnmia.fd
 @dirrmtry share/texmf-dist/fonts/tfm/public/newtx
 @dirrmtry share/texmf-dist/fonts/tfm/public
 @dirrmtry share/texmf-dist/fonts/tfm
+@dirrmtry share/texmf-dist/fonts/map/dvips/public/newtx
+@dirrmtry share/texmf-dist/fonts/map/dvips/public
 @dirrmtry share/texmf-dist/fonts/map/dvips/newtx
 @dirrmtry share/texmf-dist/fonts/map/dvips
 @dirrmtry share/texmf-dist/fonts/map

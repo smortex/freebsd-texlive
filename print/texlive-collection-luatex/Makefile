@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-luatex
-PORTVERSION=	20121203
+PORTVERSION=	20130213
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -61,7 +61,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luaxml/luaxml-mod-handler.lua:${PORTSDIR}/print/texlive-luaxml \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/odsfile/odsfile.sty:${PORTSDIR}/print/texlive-odsfile \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/showhyphens/showhyphens.sty:${PORTSDIR}/print/texlive-showhyphens \
-		${LOCALBASE}/share/texmf-dist/tex/lualatex/spelling/spelling.sty:${PORTSDIR}/print/texlive-spelling
+		${LOCALBASE}/share/texmf-dist/tex/luatex/spelling/spelling.sty:${PORTSDIR}/print/texlive-spelling
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes

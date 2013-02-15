@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	uestcthesis
-PORTVERSION=	20130131
-PORTREVISION=	1
+PORTVERSION=	20130214
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The uestcthesis package
+COMMENT=	Thesis class for UESTC
 
 NOPORTSRC=	yes
 
