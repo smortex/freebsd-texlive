@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20130204
+PORTVERSION=	20130213
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1052,7 +1052,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/varsfromjobname/varsfromjobname.sty:${PORTSDIR}/print/texlive-varsfromjobname \
 		${LOCALBASE}/share/texmf-dist/tex/latex/varwidth/varwidth.sty:${PORTSDIR}/print/texlive-varwidth \
 		${LOCALBASE}/share/texmf-dist/tex/latex/verbasef/verbasef.sty:${PORTSDIR}/print/texlive-verbasef \
-		${LOCALBASE}/share/texmf-dist/tex/latex/verbatimbox/verbatimbox.sty:${PORTSDIR}/print/texlive-verbatimbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/verbatimcopy/verbatimcopy.sty:${PORTSDIR}/print/texlive-verbatimcopy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/verbdef/verbdef.sty:${PORTSDIR}/print/texlive-verbdef \
 		${LOCALBASE}/share/texmf-dist/tex/latex/verbments/verbments.sty:${PORTSDIR}/print/texlive-verbments \
