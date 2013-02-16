@@ -18,7 +18,6 @@ share/texmf-dist/fonts/enc/dvips/newtx/ntx-t1-sc.enc
 share/texmf-dist/fonts/enc/dvips/newtx/sups.enc
 share/texmf-dist/fonts/map/dvips/newtx/newtx.map
 share/texmf-dist/fonts/map/dvips/newtx/zmn.map
-share/texmf-dist/fonts/map/dvips/public/newtx/newtx.map
 share/texmf-dist/fonts/tfm/public/newtx/Libertine-nu.tfm
 share/texmf-dist/fonts/tfm/public/newtx/LibertineI-5nu.tfm
 share/texmf-dist/fonts/tfm/public/newtx/LibertineI-7nu.tfm
@@ -373,8 +372,6 @@ share/texmf-dist/tex/latex/newtx/uzmnmia.fd
 @dirrmtry share/texmf-dist/fonts/tfm/public/newtx
 @dirrmtry share/texmf-dist/fonts/tfm/public
 @dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/map/dvips/public/newtx
-@dirrmtry share/texmf-dist/fonts/map/dvips/public
 @dirrmtry share/texmf-dist/fonts/map/dvips/newtx
 @dirrmtry share/texmf-dist/fonts/map/dvips
 @dirrmtry share/texmf-dist/fonts/map

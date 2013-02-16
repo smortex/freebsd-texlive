@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	newtx
+PORTNAME=	tikzsymbols
 PORTVERSION=	20130216
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Alternative uses of the TX fonts, with improved metrics.
+COMMENT=	Some symbols created using TikZ.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

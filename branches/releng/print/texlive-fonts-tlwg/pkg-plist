@@ -236,7 +236,7 @@ share/texmf-dist/fonts/vf/public/fonts-tlwg/waree_o.vf
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/TODO
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/aclocal.m4
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/configure
-%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/configure.in
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/configure.ac
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/64-ttf-thai-tlwg.conf
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/89-ttf-thai-tlwg-synthetic.conf
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/Makefile.am
