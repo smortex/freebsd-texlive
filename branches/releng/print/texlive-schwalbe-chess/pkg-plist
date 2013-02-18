@@ -2,6 +2,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/schwalbe-chess/schwalbe.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/schwalbe-chess/schwalbe.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/schwalbe-chess/schwalbe.ins
+share/texmf-dist/tex/latex/schwalbe-chess/schwalbe.cls
 share/texmf-dist/tex/latex/schwalbe-chess/schwalbe.sty
 @dirrmtry share/texmf-dist/tex/latex/schwalbe-chess
 @dirrmtry share/texmf-dist/tex/latex
