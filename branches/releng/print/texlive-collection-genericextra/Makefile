@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-genericextra
-PORTVERSION=	20130121
+PORTVERSION=	20130218
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -41,6 +41,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/abbr/abbr.tex:${PORTSDIR}
 		${LOCALBASE}/share/texmf-dist/tex/generic/ofs/ofs.sty:${PORTSDIR}/print/texlive-ofs \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pdf-trans/pdf-trans.tex:${PORTSDIR}/print/texlive-pdf-trans \
 		${LOCALBASE}/share/texmf-dist/tex/generic/plainpkg/plainpkg.tex:${PORTSDIR}/print/texlive-plainpkg \
+		${LOCALBASE}/share/texmf-dist/tex/generic/schemata/schemata.sty:${PORTSDIR}/print/texlive-schemata \
 		${LOCALBASE}/share/texmf-dist/tex/generic/shade/shade.tex:${PORTSDIR}/print/texlive-shade \
 		${LOCALBASE}/share/texmf-dist/tex/generic/systeme/systeme.sty:${PORTSDIR}/print/texlive-systeme \
 		${LOCALBASE}/share/texmf-dist/tex/generic/tabto-generic/tabto.tex:${PORTSDIR}/print/texlive-tabto-generic \
