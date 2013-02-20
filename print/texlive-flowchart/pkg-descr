@@ -1,0 +1,4 @@
+The package provides a set of 'traditional' flowchart element
+shapes; the documentation shows how to build a flowchart from
+these elements, using pgf/TikZ. The package also requires the
+makeshape package.
