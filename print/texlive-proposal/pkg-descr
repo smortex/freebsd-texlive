@@ -1,0 +1,10 @@
+The process of preparing a collaborative proposal, to a major
+funding body, involves integration of contributions of a many
+people at many sites. It is therefore an ideal application for
+a text-based document preparation system such as LaTeX, in
+concert with a distributed version control system such as SVN.
+The proposal class itself provides a basis for such an
+enterprise. The dfgproposal and dfgproposal classes provide two
+specialisations of the base class for (respectively) German and
+European research proposals. The packages depend on the
+author's stex bundle.

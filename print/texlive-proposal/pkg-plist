@@ -1,0 +1,149 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/base/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/base/proposal.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/dfg/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/dfg/dfgproposal.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/eu/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/eu/euproposal.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/dfgdocs/1_02.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/dfgdocs/1_02e.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/dfgdocs/2_01.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/dfgdocs/2_010.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/dfgdocs/2_012e.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/dfgdocs/54_01_de.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/dfgdocs/54_01_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/fetopenstrep/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/fetopenstrep/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/fetopenstrep/breakthrough.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/fetopenstrep/impact.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/fetopenstrep/implementation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/fetopenstrep/methodology.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/fetopenstrep/novelty.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/fetopenstrep/propB-blx.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/fetopenstrep/propB.bbl
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/fetopenstrep/propB.deliverables
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/fetopenstrep/propB.delivs
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/fetopenstrep/propB.pdata
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/fetopenstrep/propB.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/fetopenstrep/propB.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/fetopenstrep/propB1-blx.bbl
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/fetopenstrep/propB2-blx.bbl
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/fetopenstrep/propB3-blx.bbl
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/fetopenstrep/propB4-blx.bbl
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/fetopenstrep/quality.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/fetopenstrep/workplan.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/lib/WApersons.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/lib/dummy.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/lib/jacobs-logo.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/proposal/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/proposal/funds.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/proposal/preconditions.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/proposal/proposal-blx.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/proposal/proposal.pdata
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/proposal/proposal.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/proposal/proposal.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/proposal/state.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/proposal/workplan.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/proposal/zusammenfassung.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/report/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/report/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/report/finalreport-blx.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/report/finalreport.bbl
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/report/finalreport.pdata
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/report/finalreport.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/report/finalreport.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/report/letter_submission.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/report/letter_submission.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/report/progressreport.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/report/progresssummary.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/simple-proposal/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/simple-proposal/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/simple-proposal/jacobs-logo.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/simple-proposal/letter_submission.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/simple-proposal/letter_submission.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/simple-proposal/preconditions.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/simple-proposal/proposal-blx.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/simple-proposal/proposal.bbl
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/simple-proposal/proposal.pdata
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/simple-proposal/proposal.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/simple-proposal/proposal.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/simple-proposal/proposal1-blx.bbl
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/simple-proposal/workplan.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/deliverables.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/impact.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/implementation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/issues.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/methodology.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/milestones.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/objectives.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/progress.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/propB-blx.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/propB.bbl
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/propB.deliverables
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/propB.delivs
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/propB.pdata
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/propB.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/propB.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/propB1-blx.bbl
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/propB2-blx.bbl
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/propB3-blx.bbl
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/propB4-blx.bbl
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/quality.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/risks.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/site-bar.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/site-baz.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/site-efo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/site-jacu.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/site-templatex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/workplan.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/wp-class.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/wp-dissem.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/wp-management.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/proposal/examples/strep/wp-temple.tex
+%%PORTSRC%%share/texmf-dist/source/latex/proposal/base/proposal.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/proposal/base/proposal.ins
+%%PORTSRC%%share/texmf-dist/source/latex/proposal/dfg/dfgproposal.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/proposal/dfg/dfgproposal.ins
+%%PORTSRC%%share/texmf-dist/source/latex/proposal/eu/euproposal.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/proposal/eu/euproposal.ins
+share/texmf-dist/tex/latex/proposal/base/pdata.sty
+share/texmf-dist/tex/latex/proposal/base/proposal.cls
+share/texmf-dist/tex/latex/proposal/base/reporting.cls
+share/texmf-dist/tex/latex/proposal/dfg/dfgpdata.sty
+share/texmf-dist/tex/latex/proposal/dfg/dfgproposal.cls
+share/texmf-dist/tex/latex/proposal/dfg/dfgreporting.cls
+share/texmf-dist/tex/latex/proposal/eu/eupdata.sty
+share/texmf-dist/tex/latex/proposal/eu/euproposal.cls
+share/texmf-dist/tex/latex/proposal/eu/eureporting.cls
+@dirrmtry share/texmf-dist/tex/latex/proposal/eu
+@dirrmtry share/texmf-dist/tex/latex/proposal/dfg
+@dirrmtry share/texmf-dist/tex/latex/proposal/base
+@dirrmtry share/texmf-dist/tex/latex/proposal
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/proposal/eu
+@dirrmtry share/texmf-dist/source/latex/proposal/dfg
+@dirrmtry share/texmf-dist/source/latex/proposal/base
+@dirrmtry share/texmf-dist/source/latex/proposal
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/proposal/examples/strep
+@dirrmtry share/texmf-dist/doc/latex/proposal/examples/simple-proposal
+@dirrmtry share/texmf-dist/doc/latex/proposal/examples/report
+@dirrmtry share/texmf-dist/doc/latex/proposal/examples/proposal
+@dirrmtry share/texmf-dist/doc/latex/proposal/examples/lib
+@dirrmtry share/texmf-dist/doc/latex/proposal/examples/fetopenstrep
+@dirrmtry share/texmf-dist/doc/latex/proposal/examples/dfgdocs
+@dirrmtry share/texmf-dist/doc/latex/proposal/examples
+@dirrmtry share/texmf-dist/doc/latex/proposal/eu
+@dirrmtry share/texmf-dist/doc/latex/proposal/dfg
+@dirrmtry share/texmf-dist/doc/latex/proposal/base
+@dirrmtry share/texmf-dist/doc/latex/proposal
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	proposal
 PORTVERSION=	20130220
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	A class for preparing proposals.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
