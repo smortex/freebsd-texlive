@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20130131
+PORTVERSION=	20130220
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -76,6 +76,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/powerdot-FUBerlin/FUpowerdot.cls:${PORTSDIR}/print/texlive-powerdot-FUBerlin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pracjourn/pracjourn.cls:${PORTSDIR}/print/texlive-pracjourn \
 		${LOCALBASE}/share/texmf-dist/tex/latex/procIAGssymp/procIAGssymp.sty:${PORTSDIR}/print/texlive-procIAGssymp \
+		${LOCALBASE}/share/texmf-dist/tex/latex/proposal/base/proposal.cls:${PORTSDIR}/print/texlive-proposal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ptptex/ptptex.cls:${PORTSDIR}/print/texlive-ptptex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/psu-thesis/psu-thesis.sty:${PORTSDIR}/print/texlive-psu-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/resphilosophica/resphilosophica.cls:${PORTSDIR}/print/texlive-resphilosophica \
