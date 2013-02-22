@@ -1,78 +1,78 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ebgaramond/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ebgaramond/EBGaramond-Initials-Glyphs.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ebgaramond/EBGaramond12-Italic-Glyphs.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ebgaramond/EBGaramond12-Regular-Glyphs.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ebgaramond/README
-%%PORTDOCS%%share/texmf-dist/doc/fonts/ebgaramond/ebgaramond.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/ebgaramond/ebgaramond.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ebgaramond/Specimen.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ebgaramond/samples.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ebgaramond/samples.tex
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_2jr53r.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_2qk73d.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_2cg6vv.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_2s43qf.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_2yjkdb.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_3nbbmn.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_3nynv3.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_3aytur.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_4enc56.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_4o5twj.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_4sswh2.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_5kj2k4.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_67g6va.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_6abexm.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_6jk76j.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_6w53db.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_7glv22.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_7np662.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_7w4x2o.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_agfef2.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_aidq6o.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_befngg.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_azkecq.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_be6wcg.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_by5cij.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_c2c5it.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_c33p5u.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_cpcsor.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_cqywc6.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_cukfm6.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_dcxdwz.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_dlngw2.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_dkqzrn.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_dtzwof.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_eldtwl.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_euh4o4.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_evsh4b.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_fd5ohs.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_fhfxmf.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_fy4cla.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_g26lp2.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_g2ukou.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_gpzn5j.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_g7yatv.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_h4f2qu.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_h6myna.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_hxqlvd.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_hbc3re.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_hfihb2.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_i4qnsr.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_izu5c2.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_i7zvqf.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_idiknx.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_iev2ja.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_igd4qy.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_jc5co4.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_jdp35v.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_kjotc5.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_l2m3wa.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_jfzhrq.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_jyeqlp.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_k4jaqg.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_lagezd.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_larfxh.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_mlsypb.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ldblio.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_liamow.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_llz5d3.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_lnl5q7.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_mbzrx3.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_mnaa6u.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_mqmdo5.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_mzreyo.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_nqn6hu.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_nwvlbk.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ohs3i4.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_olppi7.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_pkuegs.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_qe4vhz.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_r25mcp.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ryre25.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_s5bgbp.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_svr7qh.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_tnkp5n.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_tuhuco.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_v3xvh2.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_we3ti7.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_wfsrzn.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_wsw2et.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_x2ax47.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_xlghdx.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_o424oh.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ojas2g.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_owcucr.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_pdtbwe.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_pfqmzv.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_psb35r.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_qdw47i.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_spp6a3.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_suwt22.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_sz5zde.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_uuqhg2.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_uzjbsf.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_wounai.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_wtfxss.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_xubic3.enc
-share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_xucns5.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_xxdw6g.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_xzidwg.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_yeedmt.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_yesxmd.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_yhoxvo.enc
+share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_z5de3t.enc
 share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_zaj4rc.enc
 share/texmf-dist/fonts/map/dvips/ebgaramond/EBGaramond.map
 share/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Initials.otf
@@ -220,6 +220,9 @@ share/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramondInitials-tlf-ot1.tfm
 share/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramondInitials-tlf-t1--base.tfm
 share/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramondInitials-tlf-t1.tfm
 share/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramondInitials-tlf-ts1.tfm
+share/texmf-dist/fonts/truetype/public/ebgaramond/EBGaramond-Initials.ttf
+share/texmf-dist/fonts/truetype/public/ebgaramond/EBGaramond12-Italic.ttf
+share/texmf-dist/fonts/truetype/public/ebgaramond/EBGaramond12-Regular.ttf
 share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond12-Italic.pfb
 share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond12-Regular.pfb
 share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramondInitials.pfb
@@ -300,6 +303,7 @@ share/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-TLF.fd
 share/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-TOsF.fd
 share/texmf-dist/tex/latex/ebgaramond/TS1EBGaramondInitials-TLF.fd
 share/texmf-dist/tex/latex/ebgaramond/ebgaramond.sty
+share/texmf-dist/tex/latex/ebgaramond/mt-EBGaramond.cfg
 @dirrmtry share/texmf-dist/tex/latex/ebgaramond
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
@@ -309,6 +313,9 @@ share/texmf-dist/tex/latex/ebgaramond/ebgaramond.sty
 @dirrmtry share/texmf-dist/fonts/type1/public/ebgaramond
 @dirrmtry share/texmf-dist/fonts/type1/public
 @dirrmtry share/texmf-dist/fonts/type1
+@dirrmtry share/texmf-dist/fonts/truetype/public/ebgaramond
+@dirrmtry share/texmf-dist/fonts/truetype/public
+@dirrmtry share/texmf-dist/fonts/truetype
 @dirrmtry share/texmf-dist/fonts/tfm/public/ebgaramond
 @dirrmtry share/texmf-dist/fonts/tfm/public
 @dirrmtry share/texmf-dist/fonts/tfm
