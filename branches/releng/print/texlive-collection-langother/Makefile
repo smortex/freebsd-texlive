@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langother
-PORTVERSION=	20120524
+PORTVERSION=	20130222
 CATEGORIES=	print
 DISTFILES=	# None
 

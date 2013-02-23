@@ -111,6 +111,7 @@ share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-nn.tex
 share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-or.tex
 share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-pa.tex
 share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-pl.tex
+share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-pms.tex
 share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-pt.tex
 share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-rm.tex
 share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-ro.tex
@@ -175,6 +176,7 @@ share/texmf-dist/tex/generic/hyph-utf8/patterns/quote/hyph-quote-af.tex
 share/texmf-dist/tex/generic/hyph-utf8/patterns/quote/hyph-quote-fr.tex
 share/texmf-dist/tex/generic/hyph-utf8/patterns/quote/hyph-quote-fur.tex
 share/texmf-dist/tex/generic/hyph-utf8/patterns/quote/hyph-quote-it.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/quote/hyph-quote-pms.tex
 share/texmf-dist/tex/generic/hyph-utf8/patterns/quote/hyph-quote-rm.tex
 share/texmf-dist/tex/generic/hyph-utf8/patterns/quote/hyph-quote-uk.tex
 share/texmf-dist/tex/generic/hyph-utf8/patterns/quote/hyph-quote-zh-latn-pinyin.tex
@@ -232,6 +234,7 @@ share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-no.tex
 share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-or.tex
 share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-pa.tex
 share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-pl.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-pms.tex
 share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-pt.tex
 share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-rm.tex
 share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-ro.tex
@@ -453,6 +456,10 @@ share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-pl.chr.txt
 share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-pl.hyp.txt
 share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-pl.lic.txt
 share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-pl.pat.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-pms.chr.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-pms.hyp.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-pms.lic.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-pms.pat.txt
 share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-pt.chr.txt
 share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-pt.hyp.txt
 share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-pt.lic.txt
