@@ -5,6 +5,7 @@ share/texmf-dist/bibtex/bst/amsrefs/amsrs.bst
 share/texmf-dist/bibtex/bst/amsrefs/amsru.bst
 share/texmf-dist/bibtex/bst/amsrefs/amsry.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/amsrefs/amsrdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/amsrefs/amsrefs.faq
 %%PORTDOCS%%share/texmf-dist/doc/latex/amsrefs/amsrefs.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/amsrefs/amsxport.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/amsrefs/changes.pdf
@@ -16,7 +17,6 @@ share/texmf-dist/bibtex/bst/amsrefs/amsry.bst
 %%PORTSRC%%share/texmf-dist/source/latex/amsrefs/README
 %%PORTSRC%%share/texmf-dist/source/latex/amsrefs/amsrdoc.tex
 %%PORTSRC%%share/texmf-dist/source/latex/amsrefs/amsrefs.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/amsrefs/amsrefs.faq
 %%PORTSRC%%share/texmf-dist/source/latex/amsrefs/amsrefs.ins
 %%PORTSRC%%share/texmf-dist/source/latex/amsrefs/amsxport.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/amsrefs/amsxport.ins

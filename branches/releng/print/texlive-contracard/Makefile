@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	contracard
-PORTVERSION=	20130219
+PORTVERSION=	20130223
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generate calling cards for danses.
+COMMENT=	Generate calling cards for dances.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
