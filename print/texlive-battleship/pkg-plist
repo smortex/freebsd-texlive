@@ -5,6 +5,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/battleship/battleship.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/battleship/manifest.txt
 share/texmf-dist/tex/latex/battleship/battleship.sty
+share/texmf-dist/tex/latex/battleship/logicpuzzle.sty
 @dirrmtry share/texmf-dist/tex/latex/battleship
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
