@@ -463,6 +463,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/go/go.sty:${PORTSDIR}/print/texlive-go \
 		${LOCALBASE}/share/texmf-dist/tex/plain/hanoi/hanoi.tex:${PORTSDIR}/print/texlive-hanoi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hexgame/hexgame.sty:${PORTSDIR}/print/texlive-hexgame \
+		${LOCALBASE}/share/texmf-dist/tex/latex/logicpuzzle/logicpuzzle.sty:${PORTSDIR}/print/texlive-logicpuzzle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/othello/othello.sty:${PORTSDIR}/print/texlive-othello \
 		${LOCALBASE}/share/texmf-dist/tex/latex/othelloboard/othelloboard.sty:${PORTSDIR}/print/texlive-othelloboard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/psgo/psgo.sty:${PORTSDIR}/print/texlive-psgo \
@@ -794,6 +795,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/scripts/epspdf/epspdf.help:${PORTSDIR}/print/texlive-epspdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/epspdfconversion/epspdfconversion.sty:${PORTSDIR}/print/texlive-epspdfconversion \
 		${LOCALBASE}/share/texmf-dist/tex/latex/esk/esk.sty:${PORTSDIR}/print/texlive-esk \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fast-diagram/fast-diagram.sty:${PORTSDIR}/print/texlive-fast-diagram \
 		${LOCALBASE}/share/texmf-dist/scripts/fig4latex/fig4latex:${PORTSDIR}/print/texlive-fig4latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flowchart/flowchart.sty:${PORTSDIR}/print/texlive-flowchart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/forest/forest.sty:${PORTSDIR}/print/texlive-forest \
@@ -1535,6 +1537,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/savetrees/savetrees.sty:${PORTSDIR}/print/texlive-savetrees \
 		${LOCALBASE}/share/texmf-dist/tex/latex/scale/scale.sty:${PORTSDIR}/print/texlive-scale \
 		${LOCALBASE}/share/texmf-dist/tex/latex/scalebar/scalebar.sty:${PORTSDIR}/print/texlive-scalebar \
+		${LOCALBASE}/share/texmf-dist/tex/latex/scalerel/scalerel.sty:${PORTSDIR}/print/texlive-scalerel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sdrt/sdrt.sty:${PORTSDIR}/print/texlive-sdrt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/secdot/secdot.sty:${PORTSDIR}/print/texlive-secdot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sectionbox/sectionbox.sty:${PORTSDIR}/print/texlive-sectionbox \
@@ -2039,6 +2042,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/powerdot-FUBerlin/FUpowerdot.cls:${PORTSDIR}/print/texlive-powerdot-FUBerlin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pracjourn/pracjourn.cls:${PORTSDIR}/print/texlive-pracjourn \
 		${LOCALBASE}/share/texmf-dist/tex/latex/procIAGssymp/procIAGssymp.sty:${PORTSDIR}/print/texlive-procIAGssymp \
+		${LOCALBASE}/share/texmf-dist/tex/latex/proposal/base/proposal.cls:${PORTSDIR}/print/texlive-proposal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ptptex/ptptex.cls:${PORTSDIR}/print/texlive-ptptex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/psu-thesis/psu-thesis.sty:${PORTSDIR}/print/texlive-psu-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/resphilosophica/resphilosophica.cls:${PORTSDIR}/print/texlive-resphilosophica \

@@ -1,0 +1,23 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/INSTALL
+%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/battleship/battleship.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/battleship/battleship.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/battleship/battleship_README
+%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/bokkusu/bokkusu.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/bokkusu/bokkusu.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/bokkusu/bokkusu_README
+%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/manifest.txt
+share/texmf-dist/tex/latex/logicpuzzle/battleship.sty
+share/texmf-dist/tex/latex/logicpuzzle/bokkusu.sty
+share/texmf-dist/tex/latex/logicpuzzle/logicpuzzle.sty
+@dirrmtry share/texmf-dist/tex/latex/logicpuzzle
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/logicpuzzle/bokkusu
+@dirrmtry share/texmf-dist/doc/latex/logicpuzzle/battleship
+@dirrmtry share/texmf-dist/doc/latex/logicpuzzle
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

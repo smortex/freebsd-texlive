@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20130216
+PORTVERSION=	20130302
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -142,7 +142,9 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/scripts/epspdf/epspdf.help:${PORTSDIR}/print/texlive-epspdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/epspdfconversion/epspdfconversion.sty:${PORTSDIR}/print/texlive-epspdfconversion \
 		${LOCALBASE}/share/texmf-dist/tex/latex/esk/esk.sty:${PORTSDIR}/print/texlive-esk \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fast-diagram/fast-diagram.sty:${PORTSDIR}/print/texlive-fast-diagram \
 		${LOCALBASE}/share/texmf-dist/scripts/fig4latex/fig4latex:${PORTSDIR}/print/texlive-fig4latex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/flowchart/flowchart.sty:${PORTSDIR}/print/texlive-flowchart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/forest/forest.sty:${PORTSDIR}/print/texlive-forest \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gincltex/gincltex.sty:${PORTSDIR}/print/texlive-gincltex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gnuplottex/gnuplottex.sty:${PORTSDIR}/print/texlive-gnuplottex \
@@ -358,6 +360,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/concprog/ConcProg.cls:${PORTSDIR}/print/texlive-concprog \
 		${LOCALBASE}/share/texmf-dist/tex/latex/constants/constants.sty:${PORTSDIR}/print/texlive-constants \
 		${LOCALBASE}/share/texmf-dist/tex/latex/contour/contour.sty:${PORTSDIR}/print/texlive-contour \
+		${LOCALBASE}/share/texmf-dist/tex/latex/contracard/contracard.cls:${PORTSDIR}/print/texlive-contracard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cooking/cooking.sty:${PORTSDIR}/print/texlive-cooking \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cool/cool.sty:${PORTSDIR}/print/texlive-cool \
 		${LOCALBASE}/share/texmf-dist/tex/latex/coollist/coollist.sty:${PORTSDIR}/print/texlive-coollist \
@@ -881,6 +884,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/savetrees/savetrees.sty:${PORTSDIR}/print/texlive-savetrees \
 		${LOCALBASE}/share/texmf-dist/tex/latex/scale/scale.sty:${PORTSDIR}/print/texlive-scale \
 		${LOCALBASE}/share/texmf-dist/tex/latex/scalebar/scalebar.sty:${PORTSDIR}/print/texlive-scalebar \
+		${LOCALBASE}/share/texmf-dist/tex/latex/scalerel/scalerel.sty:${PORTSDIR}/print/texlive-scalerel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sdrt/sdrt.sty:${PORTSDIR}/print/texlive-sdrt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/secdot/secdot.sty:${PORTSDIR}/print/texlive-secdot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sectionbox/sectionbox.sty:${PORTSDIR}/print/texlive-sectionbox \
