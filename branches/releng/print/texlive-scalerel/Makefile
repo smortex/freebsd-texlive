@@ -1,12 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	realscripts
+PORTNAME=	scalerel
 PORTVERSION=	20130302
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Access OpenType subscript and superscript glyphs.
+COMMENT=	Constrained scaling and stretching of objects.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

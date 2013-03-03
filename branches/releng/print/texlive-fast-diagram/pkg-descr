@@ -1,0 +1,3 @@
+The package provides simple means of producing FAST diagrams,
+using TikZ/pgf tools. FAST diagrams are useful for functional
+analysis techniques in design methods.

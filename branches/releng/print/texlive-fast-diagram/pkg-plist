@@ -1,0 +1,31 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fast-diagram/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/fast-diagram/help.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fast-diagram/help.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fast-diagram/sources_help/commandes.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fast-diagram/sources_help/exemple.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fast-diagram/sources_help/images/antenne.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/fast-diagram/sources_help/images/batterie.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/fast-diagram/sources_help/images/biellettes.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/fast-diagram/sources_help/images/bouton.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/fast-diagram/sources_help/images/moteur.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/fast-diagram/sources_help/images/pedalier.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/fast-diagram/sources_help/images/pignons.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/fast-diagram/sources_help/images/recepteur.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/fast-diagram/sources_help/images/roue.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/fast-diagram/sources_help/images/servomoteur.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/fast-diagram/sources_help/installation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fast-diagram/sources_help/intro.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fast-diagram/sources_help/miseEnForme.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fast-diagram/sources_help/reglages.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fast-diagram/sources_help/tikz.tex
+share/texmf-dist/tex/latex/fast-diagram/fast-diagram.sty
+@dirrmtry share/texmf-dist/tex/latex/fast-diagram
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/fast-diagram/sources_help/images
+@dirrmtry share/texmf-dist/doc/latex/fast-diagram/sources_help
+@dirrmtry share/texmf-dist/doc/latex/fast-diagram
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

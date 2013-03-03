@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	battleship
-PORTVERSION=	20130225
+PORTVERSION=	20130302
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset navy games.
+COMMENT=	The battleship package
 
 NOPORTSRC=	yes
 

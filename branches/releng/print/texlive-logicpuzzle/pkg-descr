@@ -1,0 +1,4 @@
+The package enables the user to typeset various logic puzzles.
+At the moment the following puzzles are supported: - Battleship
+(aka Bimaru, Marinespiel, Batalla Naval, ...) - Bokkusu (aka
+Kakurasu, Feldersummenratsel, ...)
