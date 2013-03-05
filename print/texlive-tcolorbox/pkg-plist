@@ -1,3 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/Basilica_5.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/CHANGES
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/README.TEXLIVE
@@ -5,6 +6,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.tex
+share/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbdocumentation.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
