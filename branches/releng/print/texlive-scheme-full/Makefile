@@ -203,7 +203,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/context/third/construction-plan/t-construction-plan.tex:${PORTSDIR}/print/texlive-context-construction-plan \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/degrade/t-degrade.tex:${PORTSDIR}/print/texlive-context-degrade \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/filter/t-filter.mkii:${PORTSDIR}/print/texlive-context-filter \
-		${LOCALBASE}/share/texmf-dist/tex/context/third/fixme/t-fixme.tex:${PORTSDIR}/print/texlive-context-fixme \
+		${LOCALBASE}/share/texmf-dist/tex/context/third/fixme/t-fixme.mkii:${PORTSDIR}/print/texlive-context-fixme \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/french/t-french.mkiv:${PORTSDIR}/print/texlive-context-french \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-fullpage.xml:${PORTSDIR}/print/texlive-context-fullpage \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/games/games-go.lua:${PORTSDIR}/print/texlive-context-games \
@@ -368,7 +368,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/pigpen/pigpen.sty:${PORTSDIR}/print/texlive-pigpen \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/gust/poltawski/antpb10.afm:${PORTSDIR}/print/texlive-poltawski \
 		${LOCALBASE}/share/texmf-dist/tex/latex/prodint/prodint.sty:${PORTSDIR}/print/texlive-prodint \
-		${LOCALBASE}/share/texmf-dist/fonts/afm/itc/psafm/stonesan/is8b8a.afm:${PORTSDIR}/print/texlive-psafm \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/punk/punk.mf:${PORTSDIR}/print/texlive-punk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/punk-latex/ot1pnk.fd:${PORTSDIR}/print/texlive-punk-latex \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/punknova/punknova-bold.otf:${PORTSDIR}/print/texlive-punknova \
@@ -450,7 +449,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/psizzl/base/psizzl.tex:${PORTSDIR}/print/texlive-psizzl \
 		${LOCALBASE}/share/texmf-dist/tex/startex/base/startex.tex:${PORTSDIR}/print/texlive-startex \
 		${LOCALBASE}/share/texmf-dist/tex/texsis/base/texsis.tex:${PORTSDIR}/print/texlive-texsis \
-		${LOCALBASE}/share/texmf-dist/tex/latex/battleship/battleship.sty:${PORTSDIR}/print/texlive-battleship \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/bartel-chess-fonts/elch-bishop.mf:${PORTSDIR}/print/texlive-bartel-chess-fonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chess/chess.sty:${PORTSDIR}/print/texlive-chess \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chess-problem-diagrams/diagram.sty:${PORTSDIR}/print/texlive-chess-problem-diagrams \
@@ -1293,6 +1291,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/limap/limap.cls:${PORTSDIR}/print/texlive-limap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/linegoal/linegoal.sty:${PORTSDIR}/print/texlive-linegoal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lipsum/lipsum.sty:${PORTSDIR}/print/texlive-lipsum \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lisp-on-tex/lisp-on-tex.sty:${PORTSDIR}/print/texlive-lisp-on-tex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listing/listing.sty:${PORTSDIR}/print/texlive-listing \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listofsymbols/listofsymbols.sty:${PORTSDIR}/print/texlive-listofsymbols \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listliketab/listliketab.sty:${PORTSDIR}/print/texlive-listliketab \

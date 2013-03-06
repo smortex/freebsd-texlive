@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20130302
+PORTVERSION=	20130305
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -640,6 +640,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/limap/limap.cls:${PORTSDIR}/print/texlive-limap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/linegoal/linegoal.sty:${PORTSDIR}/print/texlive-linegoal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lipsum/lipsum.sty:${PORTSDIR}/print/texlive-lipsum \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lisp-on-tex/lisp-on-tex.sty:${PORTSDIR}/print/texlive-lisp-on-tex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listing/listing.sty:${PORTSDIR}/print/texlive-listing \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listofsymbols/listofsymbols.sty:${PORTSDIR}/print/texlive-listofsymbols \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listliketab/listliketab.sty:${PORTSDIR}/print/texlive-listliketab \
