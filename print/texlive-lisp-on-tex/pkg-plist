@@ -1,0 +1,25 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/examples/fact.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/examples/fact.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/examples/fpnummodule-mandelbrot.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/examples/fpnummodule-mandelbrot.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/examples/rocket.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/examples/rocket.tex
+share/texmf-dist/tex/latex/lisp-on-tex/lisp-arith.sty
+share/texmf-dist/tex/latex/lisp-on-tex/lisp-latexutil.sty
+share/texmf-dist/tex/latex/lisp-on-tex/lisp-mod-fpnum.sty
+share/texmf-dist/tex/latex/lisp-on-tex/lisp-on-tex.sty
+share/texmf-dist/tex/latex/lisp-on-tex/lisp-prim.sty
+share/texmf-dist/tex/latex/lisp-on-tex/lisp-read.sty
+share/texmf-dist/tex/latex/lisp-on-tex/lisp-string.sty
+share/texmf-dist/tex/latex/lisp-on-tex/lisp-util.sty
+@dirrmtry share/texmf-dist/tex/latex/lisp-on-tex
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/lisp-on-tex/examples
+@dirrmtry share/texmf-dist/doc/latex/lisp-on-tex
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
