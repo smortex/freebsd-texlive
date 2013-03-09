@@ -9,6 +9,7 @@
 share/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbdocumentation.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+share/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
