@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/newenviron/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/newenviron/newenviron-examples.tex
+share/texmf-dist/tex/latex/newenviron/newenviron.sty
+@dirrmtry share/texmf-dist/tex/latex/newenviron
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/newenviron
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

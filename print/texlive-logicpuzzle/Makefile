@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	logicpuzzle
-PORTVERSION=	20130302
+PORTVERSION=	20130311
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset navy games.
+COMMENT=	Typeset (grid-based) logic puzzles.
 
 NOPORTSRC=	yes
 
