@@ -73,7 +73,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/context/third/construction-plan/t-construction-plan.tex:${PORTSDIR}/print/texlive-context-construction-plan \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/degrade/t-degrade.tex:${PORTSDIR}/print/texlive-context-degrade \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/filter/t-filter.mkii:${PORTSDIR}/print/texlive-context-filter \
-		${LOCALBASE}/share/texmf-dist/tex/context/third/fixme/t-fixme.tex:${PORTSDIR}/print/texlive-context-fixme \
+		${LOCALBASE}/share/texmf-dist/tex/context/third/fixme/t-fixme.mkii:${PORTSDIR}/print/texlive-context-fixme \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/french/t-french.mkiv:${PORTSDIR}/print/texlive-context-french \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-fullpage.xml:${PORTSDIR}/print/texlive-context-fullpage \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/games/games-go.lua:${PORTSDIR}/print/texlive-context-games \
@@ -162,6 +162,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexja/luatexja.sty:${PORTSDIR}/print/texlive-luatexja \
 		${LOCALBASE}/share/texmf-dist/dvips/norasi-c90/config.norasi-c90:${PORTSDIR}/print/texlive-norasi-c90 \
 		${LOCALBASE}/share/texmf-dist/tex/ptex/base/ptex.tex:${PORTSDIR}/print/texlive-ptex \
+		${LOCALBASE}/share/texmf-dist/scripts/ptex2pdf/ptex2pdf.lua:${PORTSDIR}/print/texlive-ptex2pdf \
 		${LOCALBASE}/share/texmf-dist/tex/platex/pxbase/pxbase.sty:${PORTSDIR}/print/texlive-pxbase \
 		${LOCALBASE}/share/texmf-dist/tex/platex/pxchfon/pxchfon.sty:${PORTSDIR}/print/texlive-pxchfon \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pxcjkcat/pxcjkcat.sty:${PORTSDIR}/print/texlive-pxcjkcat \
@@ -608,7 +609,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/dvips/pst-vectorian/psvectorian.pro:${PORTSDIR}/print/texlive-pst-vectorian \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-vowel/pst-vowel.sty:${PORTSDIR}/print/texlive-pst-vowel \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-vue3d/pst-vue3d.tex:${PORTSDIR}/print/texlive-pst-vue3d \
-		${LOCALBASE}/share/texmf-dist/scripts/pst2pdf/pst2pdf:${PORTSDIR}/print/texlive-pst2pdf \
+		${LOCALBASE}/share/texmf-dist/scripts/pst2pdf/pst2pdf.pl:${PORTSDIR}/print/texlive-pst2pdf \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pstricks/pstricks.tex:${PORTSDIR}/print/texlive-pstricks \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pstricks-add/pstricks-add.tex:${PORTSDIR}/print/texlive-pstricks-add \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uml/uml.sty:${PORTSDIR}/print/texlive-uml \

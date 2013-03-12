@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20130305
+PORTVERSION=	20130311
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -739,6 +739,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/ncctools/afterpackage.sty:${PORTSDIR}/print/texlive-ncctools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/needspace/needspace.sty:${PORTSDIR}/print/texlive-needspace \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nestquot/nestquot.sty:${PORTSDIR}/print/texlive-nestquot \
+		${LOCALBASE}/share/texmf-dist/tex/latex/newenviron/newenviron.sty:${PORTSDIR}/print/texlive-newenviron \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newfile/newfile.sty:${PORTSDIR}/print/texlive-newfile \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newlfm/newlfm.cls:${PORTSDIR}/print/texlive-newlfm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newspaper/newspaper.sty:${PORTSDIR}/print/texlive-newspaper \

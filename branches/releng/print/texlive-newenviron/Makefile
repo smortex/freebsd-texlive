@@ -1,12 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	amsmath
+PORTNAME=	newenviron
 PORTVERSION=	20130311
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	AMS mathematical facilities for LaTeX.
+COMMENT=	Processing an environment's body.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

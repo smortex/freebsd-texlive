@@ -4,6 +4,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/exsheets/grading-table.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/exsheets/grading-table.tex
 share/texmf-dist/tex/latex/exsheets/cntformats.sty
+share/texmf-dist/tex/latex/exsheets/dicts/translations-basic-dictionary-english.trsl
+share/texmf-dist/tex/latex/exsheets/dicts/translations-basic-dictionary-french.trsl
+share/texmf-dist/tex/latex/exsheets/dicts/translations-basic-dictionary-german.trsl
+share/texmf-dist/tex/latex/exsheets/dicts/translations-basic-dictionary-spanish.trsl
 share/texmf-dist/tex/latex/exsheets/exsheets.sty
 share/texmf-dist/tex/latex/exsheets/exsheets_configurations.cfg
 share/texmf-dist/tex/latex/exsheets/exsheets_headings.cfg
@@ -11,6 +15,7 @@ share/texmf-dist/tex/latex/exsheets/exsheets_headings.def
 share/texmf-dist/tex/latex/exsheets/tasks.cfg
 share/texmf-dist/tex/latex/exsheets/tasks.sty
 share/texmf-dist/tex/latex/exsheets/translations.sty
+@dirrmtry share/texmf-dist/tex/latex/exsheets/dicts
 @dirrmtry share/texmf-dist/tex/latex/exsheets
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex

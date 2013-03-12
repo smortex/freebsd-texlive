@@ -600,6 +600,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexja/luatexja.sty:${PORTSDIR}/print/texlive-luatexja \
 		${LOCALBASE}/share/texmf-dist/dvips/norasi-c90/config.norasi-c90:${PORTSDIR}/print/texlive-norasi-c90 \
 		${LOCALBASE}/share/texmf-dist/tex/ptex/base/ptex.tex:${PORTSDIR}/print/texlive-ptex \
+		${LOCALBASE}/share/texmf-dist/scripts/ptex2pdf/ptex2pdf.lua:${PORTSDIR}/print/texlive-ptex2pdf \
 		${LOCALBASE}/share/texmf-dist/tex/platex/pxbase/pxbase.sty:${PORTSDIR}/print/texlive-pxbase \
 		${LOCALBASE}/share/texmf-dist/tex/platex/pxchfon/pxchfon.sty:${PORTSDIR}/print/texlive-pxchfon \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pxcjkcat/pxcjkcat.sty:${PORTSDIR}/print/texlive-pxcjkcat \
@@ -1390,6 +1391,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/ncctools/afterpackage.sty:${PORTSDIR}/print/texlive-ncctools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/needspace/needspace.sty:${PORTSDIR}/print/texlive-needspace \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nestquot/nestquot.sty:${PORTSDIR}/print/texlive-nestquot \
+		${LOCALBASE}/share/texmf-dist/tex/latex/newenviron/newenviron.sty:${PORTSDIR}/print/texlive-newenviron \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newfile/newfile.sty:${PORTSDIR}/print/texlive-newfile \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newlfm/newlfm.cls:${PORTSDIR}/print/texlive-newlfm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newspaper/newspaper.sty:${PORTSDIR}/print/texlive-newspaper \
@@ -1967,7 +1969,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/dvips/pst-vectorian/psvectorian.pro:${PORTSDIR}/print/texlive-pst-vectorian \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-vowel/pst-vowel.sty:${PORTSDIR}/print/texlive-pst-vowel \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-vue3d/pst-vue3d.tex:${PORTSDIR}/print/texlive-pst-vue3d \
-		${LOCALBASE}/share/texmf-dist/scripts/pst2pdf/pst2pdf:${PORTSDIR}/print/texlive-pst2pdf \
+		${LOCALBASE}/share/texmf-dist/scripts/pst2pdf/pst2pdf.pl:${PORTSDIR}/print/texlive-pst2pdf \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pstricks/pstricks.tex:${PORTSDIR}/print/texlive-pstricks \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pstricks-add/pstricks-add.tex:${PORTSDIR}/print/texlive-pstricks-add \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uml/uml.sty:${PORTSDIR}/print/texlive-uml \
@@ -2045,6 +2047,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/ptptex/ptptex.cls:${PORTSDIR}/print/texlive-ptptex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/psu-thesis/psu-thesis.sty:${PORTSDIR}/print/texlive-psu-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/resphilosophica/resphilosophica.cls:${PORTSDIR}/print/texlive-resphilosophica \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/resumecls/resumecls.cls:${PORTSDIR}/print/texlive-resumecls \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/revtex/aipauth4-1.bst:${PORTSDIR}/print/texlive-revtex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/revtex4/revtex4.cls:${PORTSDIR}/print/texlive-revtex4 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ryethesis/ryethesis.cls:${PORTSDIR}/print/texlive-ryethesis \

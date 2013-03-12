@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20130220
+PORTVERSION=	20130311
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -80,6 +80,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/ptptex/ptptex.cls:${PORTSDIR}/print/texlive-ptptex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/psu-thesis/psu-thesis.sty:${PORTSDIR}/print/texlive-psu-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/resphilosophica/resphilosophica.cls:${PORTSDIR}/print/texlive-resphilosophica \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/resumecls/resumecls.cls:${PORTSDIR}/print/texlive-resumecls \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/revtex/aipauth4-1.bst:${PORTSDIR}/print/texlive-revtex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/revtex4/revtex4.cls:${PORTSDIR}/print/texlive-revtex4 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ryethesis/ryethesis.cls:${PORTSDIR}/print/texlive-ryethesis \
