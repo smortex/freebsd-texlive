@@ -1,0 +1,5 @@
+In "Die TeXnische Komodie" (in 2004) Christian Justen described
+his use of LaTeX in his work as priest. One point was to
+arrange A5 pages onto A4 landscape paper, either side-by-side
+or as a booklet. Justen made two bash scripts for this job; the
+package provides one texlua script for both requirements.

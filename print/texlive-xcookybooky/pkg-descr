@@ -1,0 +1,7 @@
+The package enables the user to typeset recipes, which could be
+greater than one page. Above the recipe text two (optional)
+pictures can be displayed. Other features are recipe name,
+energy content, portions, preparation and baking time, baking
+temperatures, recipe source and of course preparation steps and
+required ingredients. At the bottom you may insert an optional
+hint. The package depends on the Emerald fonts.

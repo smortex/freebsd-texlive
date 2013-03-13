@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20130311
+PORTVERSION=	20130312
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -117,6 +117,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/uspatent/uspatent.cls:${PORTSDIR}/print/texlive-uspatent \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uwthesis/uwthesis.cls:${PORTSDIR}/print/texlive-uwthesis \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/vancouver/vancouver.bst:${PORTSDIR}/print/texlive-vancouver \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xcookybooky/xcookybooky.sty:${PORTSDIR}/print/texlive-xcookybooky \
 		${LOCALBASE}/share/texmf-dist/tex/latex/york-thesis/york-thesis.cls:${PORTSDIR}/print/texlive-york-thesis \
 		${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
