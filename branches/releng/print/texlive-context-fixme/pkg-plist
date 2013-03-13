@@ -1,19 +1,8 @@
-%%PORTDOCS%%share/texmf-dist/doc/context/third/fixme/fixme.pdf
-%%PORTSRC%%share/texmf-dist/source/context/third/fixme/doc/fixme.tex
 share/texmf-dist/tex/context/third/fixme/t-fixme.mkii
 share/texmf-dist/tex/context/third/fixme/t-fixme.mkiv
 @dirrmtry share/texmf-dist/tex/context/third/fixme
 @dirrmtry share/texmf-dist/tex/context/third
 @dirrmtry share/texmf-dist/tex/context
 @dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/context/third/fixme/doc
-@dirrmtry share/texmf-dist/source/context/third/fixme
-@dirrmtry share/texmf-dist/source/context/third
-@dirrmtry share/texmf-dist/source/context
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/doc/context/third/fixme
-@dirrmtry share/texmf-dist/doc/context/third
-@dirrmtry share/texmf-dist/doc/context
-@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
