@@ -312,7 +312,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/index/index.sty:${PORTSDIR}/print/texlive-index \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jknapltx/greekctr.sty:${PORTSDIR}/print/texlive-jknapltx \
 		${LOCALBASE}/share/texmf-dist/doc/latex/koma-script/INSTALL.txt:${PORTSDIR}/print/texlive-koma-script \
-		${LOCALBASE}/share/texmf-dist/makeindex/l3kernel/l3doc.ist:${PORTSDIR}/print/texlive-l3kernel \
+		${LOCALBASE}/share/texmf-dist/tex/latex/l3kernel/expl3.sty:${PORTSDIR}/print/texlive-l3kernel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty:${PORTSDIR}/print/texlive-l3packages \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3experimental/l3dt/l3dt.sty:${PORTSDIR}/print/texlive-l3experimental \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listings/listings.sty:${PORTSDIR}/print/texlive-listings \
@@ -398,6 +398,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/metapost/exteps/exteps.mp:${PORTSDIR}/print/texlive-exteps \
 		${LOCALBASE}/share/texmf-dist/metapost/featpost/featpost.mp:${PORTSDIR}/print/texlive-featpost \
 		${LOCALBASE}/share/texmf-dist/tex/latex/feynmf/feynmf.sty:${PORTSDIR}/print/texlive-feynmf \
+		${LOCALBASE}/share/texmf-dist/tex/latex/feynmp-auto/feynmp-auto.sty:${PORTSDIR}/print/texlive-feynmp-auto \
 		${LOCALBASE}/share/texmf-dist/metapost/garrigues/garrigues.mp:${PORTSDIR}/print/texlive-garrigues \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmp/gmp.sty:${PORTSDIR}/print/texlive-gmp \
 		${LOCALBASE}/share/texmf-dist/metapost/hatching/hatching.mp:${PORTSDIR}/print/texlive-hatching \

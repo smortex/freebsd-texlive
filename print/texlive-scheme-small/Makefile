@@ -87,7 +87,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/index/index.sty:${PORTSDIR}/print/texlive-index \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jknapltx/greekctr.sty:${PORTSDIR}/print/texlive-jknapltx \
 		${LOCALBASE}/share/texmf-dist/doc/latex/koma-script/INSTALL.txt:${PORTSDIR}/print/texlive-koma-script \
-		${LOCALBASE}/share/texmf-dist/makeindex/l3kernel/l3doc.ist:${PORTSDIR}/print/texlive-l3kernel \
+		${LOCALBASE}/share/texmf-dist/tex/latex/l3kernel/expl3.sty:${PORTSDIR}/print/texlive-l3kernel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty:${PORTSDIR}/print/texlive-l3packages \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3experimental/l3dt/l3dt.sty:${PORTSDIR}/print/texlive-l3experimental \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listings/listings.sty:${PORTSDIR}/print/texlive-listings \
@@ -130,6 +130,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/metapost/exteps/exteps.mp:${PORTSDIR}/print/texlive-exteps \
 		${LOCALBASE}/share/texmf-dist/metapost/featpost/featpost.mp:${PORTSDIR}/print/texlive-featpost \
 		${LOCALBASE}/share/texmf-dist/tex/latex/feynmf/feynmf.sty:${PORTSDIR}/print/texlive-feynmf \
+		${LOCALBASE}/share/texmf-dist/tex/latex/feynmp-auto/feynmp-auto.sty:${PORTSDIR}/print/texlive-feynmp-auto \
 		${LOCALBASE}/share/texmf-dist/metapost/garrigues/garrigues.mp:${PORTSDIR}/print/texlive-garrigues \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmp/gmp.sty:${PORTSDIR}/print/texlive-gmp \
 		${LOCALBASE}/share/texmf-dist/metapost/hatching/hatching.mp:${PORTSDIR}/print/texlive-hatching \
@@ -162,7 +163,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/polyglossia/polyglossia.sty:${PORTSDIR}/print/texlive-polyglossia \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/ptext/ptext.sty:${PORTSDIR}/print/texlive-ptext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/realscripts/realscripts.sty:${PORTSDIR}/print/texlive-realscripts \
-		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/tibetian/loctib.map:${PORTSDIR}/print/texlive-tibetian \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty:${PORTSDIR}/print/texlive-ucharclasses \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/unisugar/unisugar.sty:${PORTSDIR}/print/texlive-unisugar \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecjk/config/xeCJK.cfg:${PORTSDIR}/print/texlive-xecjk \
@@ -175,6 +175,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xetex-def/xetex.def:${PORTSDIR}/print/texlive-xetex-def \
 		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/brh-kan.map:${PORTSDIR}/print/texlive-xetex-itrans \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con:${PORTSDIR}/print/texlive-xetex-pstricks \
+		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-tibetan/loctib.map:${PORTSDIR}/print/texlive-xetex-tibetan \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xetexconfig/unicode-letters.tex:${PORTSDIR}/print/texlive-xetexconfig \
 		${LOCALBASE}/share/texmf-dist/tex/xetex/xetexfontinfo/aat-info.tex:${PORTSDIR}/print/texlive-xetexfontinfo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xltxtra/xltxtra.sty:${PORTSDIR}/print/texlive-xltxtra \

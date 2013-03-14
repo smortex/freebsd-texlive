@@ -1,17 +1,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/expl3.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/interface3.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/interface3.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/l3docstrip.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/l3styleguide.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/l3styleguide.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/l3syntax-changes.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/l3syntax-changes.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/source3.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/source3.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/source3body.tex
-share/texmf-dist/makeindex/l3kernel/l3doc.ist
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/expl3.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3.ins
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3alloc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3basics.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3bootstrap.dtx
@@ -26,6 +21,7 @@ share/texmf-dist/makeindex/l3kernel/l3doc.ist
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3expan.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3file.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3final.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3format.ins
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3fp-assign.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3fp-aux.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3fp-basics.dtx
@@ -86,8 +82,6 @@ share/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
 @dirrmtry share/texmf-dist/source/latex/l3kernel
 @dirrmtry share/texmf-dist/source/latex
 @dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/makeindex/l3kernel
-@dirrmtry share/texmf-dist/makeindex
 @dirrmtry share/texmf-dist/doc/latex/l3kernel
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc

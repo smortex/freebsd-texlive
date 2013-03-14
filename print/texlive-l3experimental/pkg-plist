@@ -3,6 +3,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/l3sort/l3sort.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/l3str/l3flag.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/l3str/l3regex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/l3str/l3str-convert.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/l3str/l3str-format.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/l3str/l3str.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/l3str/l3tl-analysis.pdf
@@ -16,6 +17,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3sort/l3sort.ins
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3str/l3flag.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3str/l3regex.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3str/l3str-convert.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3str/l3str-format.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3str/l3str.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3str/l3str.ins
@@ -31,6 +33,7 @@ share/texmf-dist/tex/latex/l3experimental/l3sort/l3sort.sty
 share/texmf-dist/tex/latex/l3experimental/l3str/l3flag.sty
 share/texmf-dist/tex/latex/l3experimental/l3str/l3regex-trace.sty
 share/texmf-dist/tex/latex/l3experimental/l3str/l3regex.sty
+share/texmf-dist/tex/latex/l3experimental/l3str/l3str-convert.sty
 share/texmf-dist/tex/latex/l3experimental/l3str/l3str-format.sty
 share/texmf-dist/tex/latex/l3experimental/l3str/l3str.sty
 share/texmf-dist/tex/latex/l3experimental/l3str/l3tl-analysis.sty
