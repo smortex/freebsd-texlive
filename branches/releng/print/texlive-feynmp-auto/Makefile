@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	l3kernel
+PORTNAME=	feynmp-auto
 PORTVERSION=	20130313
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX3 programming conventions.
+COMMENT=	The feynmp-auto package
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

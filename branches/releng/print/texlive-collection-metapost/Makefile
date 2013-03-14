@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-metapost
-PORTVERSION=	20110728
+PORTVERSION=	20130313
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -22,6 +22,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/metapost/automata/automata.mp:${PORTS
 		${LOCALBASE}/share/texmf-dist/metapost/exteps/exteps.mp:${PORTSDIR}/print/texlive-exteps \
 		${LOCALBASE}/share/texmf-dist/metapost/featpost/featpost.mp:${PORTSDIR}/print/texlive-featpost \
 		${LOCALBASE}/share/texmf-dist/tex/latex/feynmf/feynmf.sty:${PORTSDIR}/print/texlive-feynmf \
+		${LOCALBASE}/share/texmf-dist/tex/latex/feynmp-auto/feynmp-auto.sty:${PORTSDIR}/print/texlive-feynmp-auto \
 		${LOCALBASE}/share/texmf-dist/metapost/garrigues/garrigues.mp:${PORTSDIR}/print/texlive-garrigues \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmp/gmp.sty:${PORTSDIR}/print/texlive-gmp \
 		${LOCALBASE}/share/texmf-dist/metapost/hatching/hatching.mp:${PORTSDIR}/print/texlive-hatching \
