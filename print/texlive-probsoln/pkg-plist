@@ -5,6 +5,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/probsoln/probsoln-manual.html
 %%PORTDOCS%%share/texmf-dist/doc/latex/probsoln/probsoln-manual.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/probsoln/probsoln.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/probsoln/samples/sample-exclude.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/probsoln/samples/sample.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/probsoln/samples/sample.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/probsoln/samples/sample2.pdf
