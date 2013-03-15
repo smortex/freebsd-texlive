@@ -4,9 +4,15 @@
 %%PORTSRC%%share/texmf-dist/source/latex/microtype/microtype.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/microtype/microtype.ins
 share/texmf-dist/tex/latex/microtype/letterspace.sty
+share/texmf-dist/tex/latex/microtype/microtype-luatex.def
+share/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+share/texmf-dist/tex/latex/microtype/microtype-xetex.def
 share/texmf-dist/tex/latex/microtype/microtype.cfg
 share/texmf-dist/tex/latex/microtype/microtype.lua
 share/texmf-dist/tex/latex/microtype/microtype.sty
+share/texmf-dist/tex/latex/microtype/mt-CharisSIL.cfg
+share/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
+share/texmf-dist/tex/latex/microtype/mt-PalatinoLinotype.cfg
 share/texmf-dist/tex/latex/microtype/mt-bch.cfg
 share/texmf-dist/tex/latex/microtype/mt-blg.cfg
 share/texmf-dist/tex/latex/microtype/mt-cmr.cfg
