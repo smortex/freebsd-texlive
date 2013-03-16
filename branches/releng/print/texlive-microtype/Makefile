@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	microtype
-PORTVERSION=	20130314
+PORTVERSION=	20130315
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	An interface to the micro-typographic features of pdfTeX.
+COMMENT=	Subliminal refinements towards typographical perfection.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
