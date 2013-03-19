@@ -1,10 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/Test-philosophy-classic.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/Test-philosophy-modern.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/Test-philosophy-verbose.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/biblatex-philosophy.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/biblatex-philosophy.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/biblatex-philosophy.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/philosophy-examples.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/test-classic.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/test-modern.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/test-verbose.tex
+%%PORTSRC%%share/texmf-dist/source/latex/biblatex-philosophy/biblatex-philosophy.dtx
 share/texmf-dist/tex/latex/biblatex-philosophy/english-philosophy.lbx
 share/texmf-dist/tex/latex/biblatex-philosophy/italian-philosophy.lbx
 share/texmf-dist/tex/latex/biblatex-philosophy/philosophy-classic.bbx
@@ -17,6 +17,9 @@ share/texmf-dist/tex/latex/biblatex-philosophy/philosophy-verbose.cbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-philosophy
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/biblatex-philosophy
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/biblatex-philosophy
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc
