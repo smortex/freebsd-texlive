@@ -1,0 +1,22 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabriz-thesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabriz-thesis/appendix1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabriz-thesis/chapter1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabriz-thesis/chapter2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabriz-thesis/chapter3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabriz-thesis/dicen2fa.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabriz-thesis/dicfa2en.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabriz-thesis/en-title.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabriz-thesis/fa-title.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabriz-thesis/logo.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabriz-thesis/references.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabriz-thesis/tabriz-thesis.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tabriz-thesis/tabriz-thesis.tex
+share/texmf-dist/tex/latex/tabriz-thesis/tabriz-thesis.cls
+@dirrmtry share/texmf-dist/tex/latex/tabriz-thesis
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/tabriz-thesis
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

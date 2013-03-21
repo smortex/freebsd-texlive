@@ -740,7 +740,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/index/index.sty:${PORTSDIR}/print/texlive-index \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jknapltx/greekctr.sty:${PORTSDIR}/print/texlive-jknapltx \
 		${LOCALBASE}/share/texmf-dist/doc/latex/koma-script/INSTALL.txt:${PORTSDIR}/print/texlive-koma-script \
-		${LOCALBASE}/share/texmf-dist/tex/latex/l3kernel/expl3.sty:${PORTSDIR}/print/texlive-l3kernel \
+		${LOCALBASE}/share/texmf-dist/makeindex/l3kernel/l3doc.ist:${PORTSDIR}/print/texlive-l3kernel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty:${PORTSDIR}/print/texlive-l3packages \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3experimental/l3dt/l3dt.sty:${PORTSDIR}/print/texlive-l3experimental \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listings/listings.sty:${PORTSDIR}/print/texlive-listings \
@@ -2062,6 +2062,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/stellenbosch/usmeg-a.bst:${PORTSDIR}/print/texlive-stellenbosch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/suftesi/suftesi.cls:${PORTSDIR}/print/texlive-suftesi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sugconf/sugconf.cls:${PORTSDIR}/print/texlive-sugconf \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tabriz-thesis/tabriz-thesis.cls:${PORTSDIR}/print/texlive-tabriz-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/texilikechaps/texilikechaps.sty:${PORTSDIR}/print/texlive-texilikechaps \
 		${LOCALBASE}/share/texmf-dist/tex/latex/texilikecover/texilikecover.sty:${PORTSDIR}/print/texlive-texilikecover \
 		${LOCALBASE}/share/texmf-dist/tex/latex/thesis-titlepage-fhac/fhACtitlepage.cfg:${PORTSDIR}/print/texlive-thesis-titlepage-fhac \
