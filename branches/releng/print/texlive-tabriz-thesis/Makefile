@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	enotez
+PORTNAME=	tabriz-thesis
 PORTVERSION=	20130320
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for end-notes.
+COMMENT=	A template for the University of Tabriz.
 
 NOPORTSRC=	yes
 

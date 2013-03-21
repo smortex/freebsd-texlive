@@ -1,9 +1,14 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/README
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/config-sample.mk
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/example-en.tex
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/example-zh.tex
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/example.bib
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/example/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/example/README.md
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/example/config-sample.mk
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/example/config.mk
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/example/resume-en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/example/resume-en.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/example/resume-zh.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/example/resume-zh.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/example/resume.bib
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/resumecls.pdf
 %%PORTSRC%%share/texmf-dist/source/xelatex/resumecls/resumecls.dtx
 %%PORTSRC%%share/texmf-dist/source/xelatex/resumecls/resumecls.ins
@@ -14,6 +19,7 @@ share/texmf-dist/tex/xelatex/resumecls/resumecls.cls
 @dirrmtry share/texmf-dist/source/xelatex/resumecls
 @dirrmtry share/texmf-dist/source/xelatex
 @dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/xelatex/resumecls/example
 @dirrmtry share/texmf-dist/doc/xelatex/resumecls
 @dirrmtry share/texmf-dist/doc/xelatex
 @dirrmtry share/texmf-dist/doc

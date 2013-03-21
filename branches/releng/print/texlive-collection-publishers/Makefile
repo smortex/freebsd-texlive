@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20130312
+PORTVERSION=	20130320
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -93,6 +93,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${POR
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/stellenbosch/usmeg-a.bst:${PORTSDIR}/print/texlive-stellenbosch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/suftesi/suftesi.cls:${PORTSDIR}/print/texlive-suftesi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sugconf/sugconf.cls:${PORTSDIR}/print/texlive-sugconf \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tabriz-thesis/tabriz-thesis.cls:${PORTSDIR}/print/texlive-tabriz-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/texilikechaps/texilikechaps.sty:${PORTSDIR}/print/texlive-texilikechaps \
 		${LOCALBASE}/share/texmf-dist/tex/latex/texilikecover/texilikecover.sty:${PORTSDIR}/print/texlive-texilikecover \
 		${LOCALBASE}/share/texmf-dist/tex/latex/thesis-titlepage-fhac/fhACtitlepage.cfg:${PORTSDIR}/print/texlive-thesis-titlepage-fhac \
