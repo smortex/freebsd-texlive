@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/unswcover/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/unswcover/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/unswcover/logo_unsw_short.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/unswcover/thesis.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/unswcover/thesis.tex
+share/texmf-dist/tex/latex/unswcover/unswcover.sty
+@dirrmtry share/texmf-dist/tex/latex/unswcover
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/unswcover
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
