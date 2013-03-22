@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	media9
+PORTNAME=	unswcover
 PORTVERSION=	20130321
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multimedia inclusion package with Adobe Reader-9/X compatibility.
+COMMENT=	Typeset a dissertation cover page following UNSW guidelines.
 
 NOPORTSRC=	yes
 

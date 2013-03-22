@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	media9
+PORTNAME=	numberedblock
 PORTVERSION=	20130321
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multimedia inclusion package with Adobe Reader-9/X compatibility.
+COMMENT=	The numberedblock package
 
 NOPORTSRC=	yes
 
