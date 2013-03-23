@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	francais-bst
+PORTNAME=	ebook
 PORTVERSION=	20130322
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bibliographies conforming to French typographic standards.
+COMMENT=	The ebook package
 
 NOPORTSRC=	yes
 
