@@ -1,7 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/unswcover/COPYING
 %%PORTDOCS%%share/texmf-dist/doc/latex/unswcover/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/unswcover/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/unswcover/logo_unsw_short.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/unswcover/thesis.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/unswcover/thesis.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/unswcover/thesis.tex
 share/texmf-dist/tex/latex/unswcover/unswcover.sty
 @dirrmtry share/texmf-dist/tex/latex/unswcover
