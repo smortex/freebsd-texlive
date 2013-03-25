@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fontawesome/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/fontawesome/fontawesome.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fontawesome/fontawesome.tex
+share/texmf-dist/fonts/opentype/public/fontawesome/FontAwesome.otf
+share/texmf-dist/tex/latex/fontawesome/fontawesome.sty
+@dirrmtry share/texmf-dist/tex/latex/fontawesome
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/fonts/opentype/public/fontawesome
+@dirrmtry share/texmf-dist/fonts/opentype/public
+@dirrmtry share/texmf-dist/fonts/opentype
+@dirrmtry share/texmf-dist/fonts
+@dirrmtry share/texmf-dist/doc/latex/fontawesome
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

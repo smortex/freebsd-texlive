@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	pstricks
+PORTNAME=	fontawesome
 PORTVERSION=	20130324
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	PostScript macros for TeX.
+COMMENT=	The fontawesome package
 
 NOPORTSRC=	yes
 
