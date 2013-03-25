@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20130304
+PORTVERSION=	20130324
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -92,6 +92,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asan
 		${LOCALBASE}/share/texmf-dist/tex/latex/fge/fge.sty:${PORTSDIR}/print/texlive-fge \
 		${LOCALBASE}/share/texmf-dist/tex/latex/foekfont/foekfont.sty:${PORTSDIR}/print/texlive-foekfont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fonetika/fonetika.sty:${PORTSDIR}/print/texlive-fonetika \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fontawesome/fontawesome.sty:${PORTSDIR}/print/texlive-fontawesome \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fourier/fourier.sty:${PORTSDIR}/print/texlive-fourier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fouriernc/fouriernc.sty:${PORTSDIR}/print/texlive-fouriernc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/frcursive/frcursive.sty:${PORTSDIR}/print/texlive-frcursive \
