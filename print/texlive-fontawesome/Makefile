@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	fontawesome
-PORTVERSION=	20130324
+PORTVERSION=	20130326
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The fontawesome package
+COMMENT=	Font containing web-related icons.
 
 NOPORTSRC=	yes
 

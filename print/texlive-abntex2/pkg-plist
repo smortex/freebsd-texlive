@@ -10,6 +10,8 @@ share/texmf-dist/bibtex/bst/abntex2/abntex2-num.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-doc.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-artigo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-artigo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-glossarios.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-glossarios.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-img-grafico.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-include-comandos.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/abntex2/abntex2-modelo-projeto-pesquisa.pdf
