@@ -5,6 +5,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/dowith/dowith.pdf
 %%PORTSRC%%share/texmf-dist/source/generic/dowith/domore.tex
 %%PORTSRC%%share/texmf-dist/source/generic/dowith/dowith.tex
+%%PORTSRC%%share/texmf-dist/source/generic/dowith/fdatechk.tex
 %%PORTSRC%%share/texmf-dist/source/generic/dowith/srcfiles.tex
 share/texmf-dist/tex/generic/dowith/domore.sty
 share/texmf-dist/tex/generic/dowith/dowith.RLS
