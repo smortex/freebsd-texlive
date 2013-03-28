@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	cjk-ko
 PORTVERSION=	20130327
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	Extension of the CJK package for Korean typesetting.
 
 NOPORTSRC=	yes
 

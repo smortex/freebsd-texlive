@@ -1,0 +1,55 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-contrib/biblatex-gost/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-contrib/biblatex-gost/biblatex-gost-examples.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-contrib/biblatex-gost/biblatex-gost-examples.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-contrib/biblatex-gost/biblatex-gost-examples.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-contrib/biblatex-gost/biblatex-gost.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-contrib/biblatex-gost/biblatex-gost.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-contrib/biblatex-gost/ltxdockit.cfg
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/bbx/gost-alphabetic-min.bbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/bbx/gost-alphabetic.bbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/bbx/gost-authoryear-min.bbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/bbx/gost-authoryear.bbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/bbx/gost-footnote-min.bbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/bbx/gost-footnote.bbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/bbx/gost-inline-min.bbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/bbx/gost-inline.bbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/bbx/gost-numeric-min.bbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/bbx/gost-numeric.bbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/bbx/gost-standard.bbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/biblatex-gost.def
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/cbx/gost-alphabetic-min.cbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/cbx/gost-alphabetic.cbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/cbx/gost-authoryear-min.cbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/cbx/gost-authoryear.cbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/cbx/gost-footnote-min.cbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/cbx/gost-footnote.cbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/cbx/gost-inline-min.cbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/cbx/gost-inline.cbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/cbx/gost-numeric-min.cbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/cbx/gost-numeric.cbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/dbx/biblatex-gost.dbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/dbx/gost-alphabetic-min.dbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/dbx/gost-alphabetic.dbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/dbx/gost-authoryear-min.dbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/dbx/gost-authoryear.dbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/dbx/gost-footnote-min.dbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/dbx/gost-footnote.dbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/dbx/gost-inline-min.dbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/dbx/gost-inline.dbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/dbx/gost-numeric-min.dbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/dbx/gost-numeric.dbx
+share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/lbx/russian-gost.lbx
+@dirrmtry share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/lbx
+@dirrmtry share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/dbx
+@dirrmtry share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/cbx
+@dirrmtry share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost/bbx
+@dirrmtry share/texmf-dist/tex/latex/biblatex-contrib/biblatex-gost
+@dirrmtry share/texmf-dist/tex/latex/biblatex-contrib
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/biblatex-contrib/biblatex-gost
+@dirrmtry share/texmf-dist/doc/latex/biblatex-contrib
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

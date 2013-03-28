@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/readarray/readarray.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/readarray/readarray.tex
+share/texmf-dist/tex/latex/readarray/readarray.sty
+@dirrmtry share/texmf-dist/tex/latex/readarray
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/readarray
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

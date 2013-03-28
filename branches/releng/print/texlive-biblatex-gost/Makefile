@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	biblatex-gost
 PORTVERSION=	20130327
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	Biblatex support for GOST standard bibliographies.
 
 NOPORTSRC=	yes
 
