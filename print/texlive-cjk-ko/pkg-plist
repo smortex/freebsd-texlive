@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cjk-ko/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/cjk-ko/cjk-ko-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cjk-ko/cjk-ko-doc.tex
+share/texmf-dist/tex/latex/cjk-ko/cjkutf8-josa.sty
+share/texmf-dist/tex/latex/cjk-ko/cjkutf8-ko.sty
+share/texmf-dist/tex/latex/cjk-ko/cjkutf8-nanummjhanja.sty
+share/texmf-dist/tex/latex/cjk-ko/kolabels-utf.sty
+share/texmf-dist/tex/latex/cjk-ko/konames-utf.sty
+share/texmf-dist/tex/latex/cjk-ko/kotex.sty
+@dirrmtry share/texmf-dist/tex/latex/cjk-ko
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/cjk-ko
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

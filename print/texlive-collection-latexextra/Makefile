@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20130321
+PORTVERSION=	20130327
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -854,6 +854,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/rccol/rccol.sty:${PORTSDIR}/print/texlive-rccol \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rcs-multi/rcs-multi.sty:${PORTSDIR}/print/texlive-rcs-multi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rcsinfo/rcsinfo.sty:${PORTSDIR}/print/texlive-rcsinfo \
+		${LOCALBASE}/share/texmf-dist/tex/latex/readarray/readarray.sty:${PORTSDIR}/print/texlive-readarray \
 		${LOCALBASE}/share/texmf-dist/tex/latex/realboxes/realboxes.sty:${PORTSDIR}/print/texlive-realboxes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/recipe/recipe.cls:${PORTSDIR}/print/texlive-recipe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/recipecard/recipecard.cls:${PORTSDIR}/print/texlive-recipecard \
