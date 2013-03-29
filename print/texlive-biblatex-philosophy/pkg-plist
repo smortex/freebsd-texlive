@@ -4,6 +4,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/test-classic.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/test-modern.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-philosophy/test-verbose.tex
+%%PORTSRC%%share/texmf-dist/source/latex/biblatex-philosophy/biblatex-philosophy.bib
 %%PORTSRC%%share/texmf-dist/source/latex/biblatex-philosophy/biblatex-philosophy.dtx
 share/texmf-dist/tex/latex/biblatex-philosophy/english-philosophy.lbx
 share/texmf-dist/tex/latex/biblatex-philosophy/italian-philosophy.lbx
