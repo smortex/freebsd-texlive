@@ -1,0 +1,7 @@
+The class provides the functionality and implementation of
+packages and document classes. It is loosely based on the ydoc
+and ltxdoc classes, but has a number of incompatible
+differences. The class defines a MacroCode environment which
+offers an alternative to the the usual docstrip method of
+installing packages. It has the ability to generate both
+documentation and code in a single run of a single file.
