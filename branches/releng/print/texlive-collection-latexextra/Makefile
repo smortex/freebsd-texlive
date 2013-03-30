@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20130327
+PORTVERSION=	20130329
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -925,6 +925,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/simplewick/simplewick.sty:${PORTSDIR}/print/texlive-simplewick \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sitem/sitem.sty:${PORTSDIR}/print/texlive-sitem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skb/skb.sty:${PORTSDIR}/print/texlive-skb \
+		${LOCALBASE}/share/texmf-dist/tex/latex/skdoc/skdoc.cls:${PORTSDIR}/print/texlive-skdoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skeycommand/skeycommand.sty:${PORTSDIR}/print/texlive-skeycommand \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skeyval/skeyval.sty:${PORTSDIR}/print/texlive-skeyval \
 		${LOCALBASE}/share/texmf-dist/tex/latex/slantsc/slantsc.sty:${PORTSDIR}/print/texlive-slantsc \

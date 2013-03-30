@@ -7,11 +7,24 @@ share/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi12.tfm
 share/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi17.tfm
 share/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
 share/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi9.tfm
+share/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssxi10.tfm
+share/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssxi12.tfm
+share/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssxi17.tfm
+share/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssxi8.tfm
+share/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssxi9.tfm
+share/texmf-dist/fonts/vf/public/sansmathaccent/mathkerncmssxi10.vf
+share/texmf-dist/fonts/vf/public/sansmathaccent/mathkerncmssxi12.vf
+share/texmf-dist/fonts/vf/public/sansmathaccent/mathkerncmssxi17.vf
+share/texmf-dist/fonts/vf/public/sansmathaccent/mathkerncmssxi8.vf
+share/texmf-dist/fonts/vf/public/sansmathaccent/mathkerncmssxi9.vf
 share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 share/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
 @dirrmtry share/texmf-dist/tex/latex/sansmathaccent
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/fonts/vf/public/sansmathaccent
+@dirrmtry share/texmf-dist/fonts/vf/public
+@dirrmtry share/texmf-dist/fonts/vf
 @dirrmtry share/texmf-dist/fonts/tfm/public/sansmathaccent
 @dirrmtry share/texmf-dist/fonts/tfm/public
 @dirrmtry share/texmf-dist/fonts/tfm

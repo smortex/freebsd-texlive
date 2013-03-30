@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	imakeidx
+PORTNAME=	skdoc
 PORTVERSION=	20130329
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A package for producing multiple indexes.
+COMMENT=	Documentation and extraction for packages and document classes.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
