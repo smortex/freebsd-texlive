@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	newtx
+PORTNAME=	nanumtype1
 PORTVERSION=	20130331
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Alternative uses of the TX fonts, with improved metrics.
+COMMENT=	Type1 subfonts of Nanum Korean fonts.
 
 NOPORTSRC=	yes
 
