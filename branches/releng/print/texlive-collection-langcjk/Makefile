@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langcjk
-PORTVERSION=	20130327
+PORTVERSION=	20130331
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -63,6 +63,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/otf-hiragino.map:${PORTSDIR}/print/texlive-jfontmaps \
 		${LOCALBASE}/share/texmf-dist/tex/platex/jsclasses/jsarticle.cls:${PORTSDIR}/print/texlive-jsclasses \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexja/luatexja.sty:${PORTSDIR}/print/texlive-luatexja \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/nanumtype1/nanumgtb00.afm:${PORTSDIR}/print/texlive-nanumtype1 \
 		${LOCALBASE}/share/texmf-dist/dvips/norasi-c90/config.norasi-c90:${PORTSDIR}/print/texlive-norasi-c90 \
 		${LOCALBASE}/share/texmf-dist/tex/ptex/base/ptex.tex:${PORTSDIR}/print/texlive-ptex \
 		${LOCALBASE}/share/texmf-dist/scripts/ptex2pdf/ptex2pdf.lua:${PORTSDIR}/print/texlive-ptex2pdf \
