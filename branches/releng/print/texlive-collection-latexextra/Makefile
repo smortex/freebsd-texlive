@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20130329
+PORTVERSION=	20130401
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -590,6 +590,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty:${PORTSDIR}/print/texlive-ifoddpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifplatform/ifplatform.sty:${PORTSDIR}/print/texlive-ifplatform \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifthenx/ifthenx.sty:${PORTSDIR}/print/texlive-ifthenx \
+		${LOCALBASE}/share/texmf-dist/tex/latex/iitem/iitem.sty:${PORTSDIR}/print/texlive-iitem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/image-gallery/image-gallery.cls:${PORTSDIR}/print/texlive-image-gallery \
 		${LOCALBASE}/share/texmf-dist/tex/latex/imakeidx/imakeidx.sty:${PORTSDIR}/print/texlive-imakeidx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/import/import.sty:${PORTSDIR}/print/texlive-import \

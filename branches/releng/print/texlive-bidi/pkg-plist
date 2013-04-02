@@ -1,3 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bidi/ChangeLog
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/bidi-logo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bidi/bidi-logo.tex
@@ -59,10 +60,12 @@ share/texmf-dist/tex/latex/bidi/book-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/bookest-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/breqn-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/caption-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/caption3-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/color-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/colortbl-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/combine-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/crop-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/cuted-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/cutwin-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/cvthemebidicasual.sty
 share/texmf-dist/tex/latex/bidi/cvthemebidiclassic.sty
@@ -82,6 +85,8 @@ share/texmf-dist/tex/latex/bidi/flowfram-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/footnote-luatex-bidi.def
 share/texmf-dist/tex/latex/bidi/footnote-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/framed-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/ftnright-xetex-bidi.def
+share/texmf-dist/tex/latex/bidi/geometry-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/graphicx-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/hvfloat-xetex-bidi.def
 share/texmf-dist/tex/latex/bidi/hyperref-xetex-bidi.def

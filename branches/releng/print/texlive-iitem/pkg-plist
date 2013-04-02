@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/iitem/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/iitem/iitem.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/iitem/iitem.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/iitem/iitem.ins
+share/texmf-dist/tex/latex/iitem/iitem.sty
+@dirrmtry share/texmf-dist/tex/latex/iitem
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/iitem
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/iitem
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
