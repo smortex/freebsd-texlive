@@ -353,6 +353,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdputu/mdputu.sty:${PORTSDIR}/print/texlive-mdputu \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdsymbol/mdsymbol.sty:${PORTSDIR}/print/texlive-mdsymbol \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc:${PORTSDIR}/print/texlive-mnsymbol \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/newpx/a_3p3as7.enc:${PORTSDIR}/print/texlive-newpx \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/newtx/alt-mn-greek.enc:${PORTSDIR}/print/texlive-newtx \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/nkarta/nkarta.mf:${PORTSDIR}/print/texlive-nkarta \
 		${LOCALBASE}/share/texmf-dist/tex/lambda/ocherokee/ocherokee.sty:${PORTSDIR}/print/texlive-ocherokee \
@@ -602,6 +603,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/otf-hiragino.map:${PORTSDIR}/print/texlive-jfontmaps \
 		${LOCALBASE}/share/texmf-dist/tex/platex/jsclasses/jsarticle.cls:${PORTSDIR}/print/texlive-jsclasses \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexja/luatexja.sty:${PORTSDIR}/print/texlive-luatexja \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/nanumtype1/nanumgtb00.afm:${PORTSDIR}/print/texlive-nanumtype1 \
 		${LOCALBASE}/share/texmf-dist/dvips/norasi-c90/config.norasi-c90:${PORTSDIR}/print/texlive-norasi-c90 \
 		${LOCALBASE}/share/texmf-dist/tex/ptex/base/ptex.tex:${PORTSDIR}/print/texlive-ptex \
 		${LOCALBASE}/share/texmf-dist/scripts/ptex2pdf/ptex2pdf.lua:${PORTSDIR}/print/texlive-ptex2pdf \
@@ -1246,6 +1248,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty:${PORTSDIR}/print/texlive-ifoddpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifplatform/ifplatform.sty:${PORTSDIR}/print/texlive-ifplatform \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifthenx/ifthenx.sty:${PORTSDIR}/print/texlive-ifthenx \
+		${LOCALBASE}/share/texmf-dist/tex/latex/iitem/iitem.sty:${PORTSDIR}/print/texlive-iitem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/image-gallery/image-gallery.cls:${PORTSDIR}/print/texlive-image-gallery \
 		${LOCALBASE}/share/texmf-dist/tex/latex/imakeidx/imakeidx.sty:${PORTSDIR}/print/texlive-imakeidx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/import/import.sty:${PORTSDIR}/print/texlive-import \
@@ -1581,6 +1584,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/simplewick/simplewick.sty:${PORTSDIR}/print/texlive-simplewick \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sitem/sitem.sty:${PORTSDIR}/print/texlive-sitem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skb/skb.sty:${PORTSDIR}/print/texlive-skb \
+		${LOCALBASE}/share/texmf-dist/tex/latex/skdoc/skdoc.cls:${PORTSDIR}/print/texlive-skdoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skeycommand/skeycommand.sty:${PORTSDIR}/print/texlive-skeycommand \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skeyval/skeyval.sty:${PORTSDIR}/print/texlive-skeyval \
 		${LOCALBASE}/share/texmf-dist/tex/latex/slantsc/slantsc.sty:${PORTSDIR}/print/texlive-slantsc \

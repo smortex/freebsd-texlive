@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	tikzscale
+PORTNAME=	iitem
 PORTVERSION=	20130401
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Resize pictures while respecting text size.
+COMMENT=	The iitem package
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
