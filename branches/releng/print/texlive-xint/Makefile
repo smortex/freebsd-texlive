@@ -1,15 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	crbox
-PORTVERSION=	20111028
-PORTREVISION=	1
-PORTEPOCH=	1
+PORTNAME=	xint
+PORTVERSION=	20130402
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Boxes with crossed corners.
+COMMENT=	Expandable operations on long numbers.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

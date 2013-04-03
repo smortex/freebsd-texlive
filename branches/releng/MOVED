@@ -144,3 +144,13 @@ print/texlive-navygame||2013-02-12|Upstream support dropped
 print/texlive-verbatimbox||2013-02-15|Upstream support dropped
 print/texlive-battleship||2013-03-04|Upstream support dropped
 print/texlive-psafm||2013-03-05|Upstream support dropped
+print/texlive-bidi||2013-04-03|Upstream support dropped
+print/texlive-crbox||2013-04-03|Upstream support dropped
+print/texlive-ghab||2013-04-03|Upstream support dropped
+print/texlive-imsproc||2013-04-03|Upstream support dropped
+print/texlive-macqassign||2013-04-03|Upstream support dropped
+print/texlive-mpgraphics||2013-04-03|Upstream support dropped
+print/texlive-persian-modern||2013-04-03|Upstream support dropped
+print/texlive-roundbox||2013-04-03|Upstream support dropped
+print/texlive-tram||2013-04-03|Upstream support dropped
+print/texlive-xepersian||2013-04-03|Upstream support dropped
