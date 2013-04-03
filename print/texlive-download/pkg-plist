@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/download/download.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/download/download.tex
+share/texmf-dist/tex/latex/download/download.sty
+@dirrmtry share/texmf-dist/tex/latex/download
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/download
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

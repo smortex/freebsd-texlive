@@ -1,0 +1,8 @@
+The bundle provides two packages: - xint, which provides
+expandable TeX macros the basic arithmetic operations of
+addition, subtraction, multiplication and division, as applied
+to arbitrarily long numbers represented as chains of digits
+with an optional minus sign; and - xintgcd, which provides
+implementations of the Euclidean algorithm, and of its
+typesetting. The packages may used both with Plain TeX and
+LaTeX.

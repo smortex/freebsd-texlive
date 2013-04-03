@@ -1,13 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	imsproc
-PORTVERSION=	20120505
-PORTREVISION=	1
-PORTEPOCH=	1
+PORTNAME=	download
+PORTVERSION=	20130402
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset IMS conference proceedings.
+COMMENT=	Allow LaTeX to download files using an external process.
 
 NOPORTSRC=	yes
 

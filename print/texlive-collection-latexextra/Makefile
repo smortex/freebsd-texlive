@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20130401
+PORTVERSION=	20130402
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -186,7 +186,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/randbild/randbild.sty:${PORTSDIR}/print/texlive-randbild \
 		${LOCALBASE}/share/texmf-dist/tex/latex/randomwalk/randomwalk.sty:${PORTSDIR}/print/texlive-randomwalk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/reotex/reotex.sty:${PORTSDIR}/print/texlive-reotex \
-		${LOCALBASE}/share/texmf-dist/tex/latex/roundbox/roundbox.sty:${PORTSDIR}/print/texlive-roundbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rviewport/rviewport.sty:${PORTSDIR}/print/texlive-rviewport \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sa-tikz/sa-tikz.sty:${PORTSDIR}/print/texlive-sa-tikz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/schemabloc/schemabloc.sty:${PORTSDIR}/print/texlive-schemabloc \
@@ -375,7 +374,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/coursepaper/coursepaper.cls:${PORTSDIR}/print/texlive-coursepaper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/coverpage/CoverPage.cfg:${PORTSDIR}/print/texlive-coverpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cprotect/cprotect.sty:${PORTSDIR}/print/texlive-cprotect \
-		${LOCALBASE}/share/texmf-dist/tex/latex/crbox/crbox.sty:${PORTSDIR}/print/texlive-crbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/crossreference/crossreference.sty:${PORTSDIR}/print/texlive-crossreference \
 		${LOCALBASE}/share/texmf-dist/tex/latex/csquotes/csquotes.sty:${PORTSDIR}/print/texlive-csquotes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/csvsimple/csvsimple.sty:${PORTSDIR}/print/texlive-csvsimple \
@@ -413,6 +411,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/doi/doi.sty:${PORTSDIR}/print/texlive-doi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dotarrow/DotArrow.sty:${PORTSDIR}/print/texlive-dotarrow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dotseqn/dotseqn.sty:${PORTSDIR}/print/texlive-dotseqn \
+		${LOCALBASE}/share/texmf-dist/tex/latex/download/download.sty:${PORTSDIR}/print/texlive-download \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dox/dox.sty:${PORTSDIR}/print/texlive-dox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dpfloat/dpfloat.sty:${PORTSDIR}/print/texlive-dpfloat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dprogress/dprogress.sty:${PORTSDIR}/print/texlive-dprogress \
@@ -549,7 +548,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/gcite/gcite.sty:${PORTSDIR}/print/texlive-gcite \
 		${LOCALBASE}/share/texmf-dist/tex/latex/genmpage/genmpage.sty:${PORTSDIR}/print/texlive-genmpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/getfiledate/getfiledate.sty:${PORTSDIR}/print/texlive-getfiledate \
-		${LOCALBASE}/share/texmf-dist/tex/latex/ghab/ghab.sty:${PORTSDIR}/print/texlive-ghab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ginpenc/ginpenc.sty:${PORTSDIR}/print/texlive-ginpenc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gitinfo/gitinfo.sty:${PORTSDIR}/print/texlive-gitinfo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gloss/gloss.sty:${PORTSDIR}/print/texlive-gloss \
@@ -1033,7 +1031,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/topfloat/topfloat.sty:${PORTSDIR}/print/texlive-topfloat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/totcount/totcount.sty:${PORTSDIR}/print/texlive-totcount \
 		${LOCALBASE}/share/texmf-dist/tex/latex/totpages/totpages.sty:${PORTSDIR}/print/texlive-totpages \
-		${LOCALBASE}/share/texmf-dist/tex/latex/tram/tram.sty:${PORTSDIR}/print/texlive-tram \
 		${LOCALBASE}/share/texmf-dist/tex/latex/trfsigns/trfsigns.sty:${PORTSDIR}/print/texlive-trfsigns \
 		${LOCALBASE}/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty:${PORTSDIR}/print/texlive-trimspaces \
 		${LOCALBASE}/share/texmf-dist/tex/latex/trsym/trsym.sty:${PORTSDIR}/print/texlive-trsym \
@@ -1091,6 +1088,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/makeindex/xdoc/docindex.ist:${PORTSDIR}/print/texlive-xdoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xfor/xfor.sty:${PORTSDIR}/print/texlive-xfor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xifthen/xifthen.sty:${PORTSDIR}/print/texlive-xifthen \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xint/xint.sty:${PORTSDIR}/print/texlive-xint \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xmpincl/xmpincl.sty:${PORTSDIR}/print/texlive-xmpincl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xnewcommand/xnewcommand.sty:${PORTSDIR}/print/texlive-xnewcommand \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xoptarg/xoptarg.sty:${PORTSDIR}/print/texlive-xoptarg \

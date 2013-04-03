@@ -1,0 +1,6 @@
+The package allows the user to download files (using cURL or
+wget), from within a document. To run the external commands,
+LaTeX (or whatever) needs to be run with the --shell-escape
+flag; this creates a tension between your needs and the
+security implications of the flag; users should use due
+caution.

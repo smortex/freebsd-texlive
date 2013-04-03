@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langarabic
-PORTVERSION=	20130218
+PORTVERSION=	20130402
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -12,13 +12,11 @@ COMMENT=	Arabic
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/truetype/public/amiri/amiri-bold.ttf:${PORTSDIR}/print/texlive-amiri \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arabi/arabeyes/ae_almohanad_boldItalitalic.afm:${PORTSDIR}/print/texlive-arabi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arabtex/arabtex.sty:${PORTSDIR}/print/texlive-arabtex \
-		${LOCALBASE}/share/texmf-dist/tex/latex/bidi/bidi.sty:${PORTSDIR}/print/texlive-bidi \
 		${LOCALBASE}/share/texmf/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8 \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/persian-bib/acm-fa.bst:${PORTSDIR}/print/texlive-persian-bib \
 		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/persian-hm-ftx/HM_FTXarshia.ttf:${PORTSDIR}/print/texlive-persian-hm-ftx \
 		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/persian-hm-xbs/HM_XBKayhan-Bold.ttf:${PORTSDIR}/print/texlive-persian-hm-xbs \
-		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/persian-modern/persian-modern-bold.ttf:${PORTSDIR}/print/texlive-persian-modern \
 		${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/base/xampl.bib:${PORTSDIR}/print/texlive-bibtex \
