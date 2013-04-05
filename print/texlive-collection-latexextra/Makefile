@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20130402
+PORTVERSION=	20130403
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -927,6 +927,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/skdoc/skdoc.cls:${PORTSDIR}/print/texlive-skdoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skeycommand/skeycommand.sty:${PORTSDIR}/print/texlive-skeycommand \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skeyval/skeyval.sty:${PORTSDIR}/print/texlive-skeyval \
+		${LOCALBASE}/share/texmf-dist/tex/latex/skrapport/skrapport.cls:${PORTSDIR}/print/texlive-skrapport \
 		${LOCALBASE}/share/texmf-dist/tex/latex/slantsc/slantsc.sty:${PORTSDIR}/print/texlive-slantsc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/smalltableof/smalltableof.sty:${PORTSDIR}/print/texlive-smalltableof \
 		${LOCALBASE}/share/texmf-dist/tex/latex/smartref/smartref.sty:${PORTSDIR}/print/texlive-smartref \
@@ -1088,7 +1089,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/makeindex/xdoc/docindex.ist:${PORTSDIR}/print/texlive-xdoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xfor/xfor.sty:${PORTSDIR}/print/texlive-xfor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xifthen/xifthen.sty:${PORTSDIR}/print/texlive-xifthen \
-		${LOCALBASE}/share/texmf-dist/tex/latex/xint/xint.sty:${PORTSDIR}/print/texlive-xint \
+		${LOCALBASE}/share/texmf-dist/tex/generic/xint/xint.sty:${PORTSDIR}/print/texlive-xint \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xmpincl/xmpincl.sty:${PORTSDIR}/print/texlive-xmpincl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xnewcommand/xnewcommand.sty:${PORTSDIR}/print/texlive-xnewcommand \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xoptarg/xoptarg.sty:${PORTSDIR}/print/texlive-xoptarg \

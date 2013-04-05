@@ -1,17 +1,17 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/xint/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/xint/xint.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/xint/xint.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/xint/xint.ins
-share/texmf-dist/tex/latex/xint/xint.sty
-share/texmf-dist/tex/latex/xint/xintgcd.sty
-@dirrmtry share/texmf-dist/tex/latex/xint
-@dirrmtry share/texmf-dist/tex/latex
+%%PORTDOCS%%share/texmf-dist/doc/generic/xint/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/xint/xint.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/xint/xint.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/xint/xint.ins
+share/texmf-dist/tex/generic/xint/xint.sty
+share/texmf-dist/tex/generic/xint/xintgcd.sty
+@dirrmtry share/texmf-dist/tex/generic/xint
+@dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/latex/xint
-@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source/generic/xint
+@dirrmtry share/texmf-dist/source/generic
 @dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/doc/latex/xint
-@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc/generic/xint
+@dirrmtry share/texmf-dist/doc/generic
 @dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

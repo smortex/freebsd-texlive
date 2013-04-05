@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-mathextra
-PORTVERSION=	20121213
+PORTVERSION=	20130403
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -36,6 +36,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/12many/12many.sty:${PORTSDI
 		${LOCALBASE}/share/texmf-dist/tex/latex/proba/proba.sty:${PORTSDIR}/print/texlive-proba \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rec-thy/rec-thy.sty:${PORTSDIR}/print/texlive-rec-thy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/shuffle/shuffle.sty:${PORTSDIR}/print/texlive-shuffle \
+		${LOCALBASE}/share/texmf-dist/tex/latex/skmath/skmath.sty:${PORTSDIR}/print/texlive-skmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/statex/statex.sty:${PORTSDIR}/print/texlive-statex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/statex2/statex2.sty:${PORTSDIR}/print/texlive-statex2 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty:${PORTSDIR}/print/texlive-stmaryrd \

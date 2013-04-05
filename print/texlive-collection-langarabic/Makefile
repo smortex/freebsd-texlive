@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langarabic
-PORTVERSION=	20130402
+PORTVERSION=	20130403
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -12,6 +12,7 @@ COMMENT=	Arabic
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/truetype/public/amiri/amiri-bold.ttf:${PORTSDIR}/print/texlive-amiri \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arabi/arabeyes/ae_almohanad_boldItalitalic.afm:${PORTSDIR}/print/texlive-arabi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arabtex/arabtex.sty:${PORTSDIR}/print/texlive-arabtex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bidi/bidi.sty:${PORTSDIR}/print/texlive-bidi \
 		${LOCALBASE}/share/texmf/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8 \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/persian-bib/acm-fa.bst:${PORTSDIR}/print/texlive-persian-bib \

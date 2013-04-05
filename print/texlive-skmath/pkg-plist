@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/skmath/skmath.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/skmath/skmath.tex
+share/texmf-dist/tex/latex/skmath/skmath.sty
+@dirrmtry share/texmf-dist/tex/latex/skmath
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/skmath
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

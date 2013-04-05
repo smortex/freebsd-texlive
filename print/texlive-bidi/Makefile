@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	smartdiagram
+PORTNAME=	bidi
 PORTVERSION=	20130403
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generate diagrams from lists.
+COMMENT=	Support for bidirectional typesetting in plain TeX and LaTeX.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

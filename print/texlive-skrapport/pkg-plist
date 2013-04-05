@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/skrapport/skrapport.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/skrapport/skrapport.tex
+share/texmf-dist/tex/latex/skrapport/skrapport-colortheme-cruelwater.sty
+share/texmf-dist/tex/latex/skrapport/skrapport-colortheme-default.sty
+share/texmf-dist/tex/latex/skrapport/skrapport-colortheme-unscathed.sty
+share/texmf-dist/tex/latex/skrapport/skrapport-colortheme-violet.sty
+share/texmf-dist/tex/latex/skrapport/skrapport.cls
+@dirrmtry share/texmf-dist/tex/latex/skrapport
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/skrapport
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
