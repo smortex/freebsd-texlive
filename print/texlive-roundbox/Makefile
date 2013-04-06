@@ -1,12 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	nameauth
+PORTNAME=	roundbox
 PORTVERSION=	20130404
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Name authority mechanism for consistency in body text and index.
+COMMENT=	Round boxes in LaTeX.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

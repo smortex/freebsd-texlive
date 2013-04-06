@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	nameauth
+PORTNAME=	xepersian
 PORTVERSION=	20130404
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Name authority mechanism for consistency in body text and index.
+COMMENT=	Persian for LaTeX, using XeTeX.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
