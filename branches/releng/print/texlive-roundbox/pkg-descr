@@ -1,0 +1,2 @@
+This package implements a command \roundbox that can be used,
+in LaTeX, for producing boxes, framed with rounded corners.
