@@ -1,16 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/chronology/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/chronology/README.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/chronology/chronology.hd
-%%PORTDOCS%%share/texmf-dist/doc/latex/chronology/chronology.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/chronology/chronology.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/chronology/chronology.ins
+%%PORTDOCS%%share/texmf-dist/doc/latex/chronology/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chronology/example.tex
 share/texmf-dist/tex/latex/chronology/chronology.sty
 @dirrmtry share/texmf-dist/tex/latex/chronology
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/latex/chronology
-@dirrmtry share/texmf-dist/source/latex
-@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/chronology
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc

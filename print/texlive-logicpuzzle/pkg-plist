@@ -10,9 +10,18 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/chaossudoku/chaossudoku.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/chaossudoku/chaossudoku.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/chaossudoku/chaossudoku_README
+%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/ddsudoku/ddsudoku.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/ddsudoku/ddsudoku.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/ddsudoku/ddsudoku_README
 %%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/hakyuu/hakyuu.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/hakyuu/hakyuu.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/hakyuu/hakyuu_README
+%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/hitori/hitori.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/hitori/hitori.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/hitori/hitori_README
+%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/logicpuzzle/logicpuzzle.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/logicpuzzle/logicpuzzle.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/logicpuzzle/logicpuzzle_README
 %%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/lpsudoku/lpsudoku.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/lpsudoku/lpsudoku.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/lpsudoku/lpsudoku_README
@@ -24,7 +33,9 @@ share/texmf-dist/tex/latex/logicpuzzle/battleship.sty
 share/texmf-dist/tex/latex/logicpuzzle/bokkusu.sty
 share/texmf-dist/tex/latex/logicpuzzle/chaossudoku.sty
 share/texmf-dist/tex/latex/logicpuzzle/createlpsudoku
+share/texmf-dist/tex/latex/logicpuzzle/ddsudoku.sty
 share/texmf-dist/tex/latex/logicpuzzle/hakyuu.sty
+share/texmf-dist/tex/latex/logicpuzzle/hitori.sty
 share/texmf-dist/tex/latex/logicpuzzle/logicpuzzle.sty
 share/texmf-dist/tex/latex/logicpuzzle/lpsmag
 share/texmf-dist/tex/latex/logicpuzzle/lpsudoku.sty
@@ -35,7 +46,10 @@ share/texmf-dist/tex/latex/logicpuzzle/skyline.sty
 @dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/logicpuzzle/skyline
 @dirrmtry share/texmf-dist/doc/latex/logicpuzzle/lpsudoku
+@dirrmtry share/texmf-dist/doc/latex/logicpuzzle/logicpuzzle
+@dirrmtry share/texmf-dist/doc/latex/logicpuzzle/hitori
 @dirrmtry share/texmf-dist/doc/latex/logicpuzzle/hakyuu
+@dirrmtry share/texmf-dist/doc/latex/logicpuzzle/ddsudoku
 @dirrmtry share/texmf-dist/doc/latex/logicpuzzle/chaossudoku
 @dirrmtry share/texmf-dist/doc/latex/logicpuzzle/bokkusu
 @dirrmtry share/texmf-dist/doc/latex/logicpuzzle/battleship

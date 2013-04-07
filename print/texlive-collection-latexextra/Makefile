@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20130404
+PORTVERSION=	20130405
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -374,6 +374,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/coursepaper/coursepaper.cls:${PORTSDIR}/print/texlive-coursepaper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/coverpage/CoverPage.cfg:${PORTSDIR}/print/texlive-coverpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cprotect/cprotect.sty:${PORTSDIR}/print/texlive-cprotect \
+		${LOCALBASE}/share/texmf-dist/tex/latex/crbox/crbox.sty:${PORTSDIR}/print/texlive-crbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/crossreference/crossreference.sty:${PORTSDIR}/print/texlive-crossreference \
 		${LOCALBASE}/share/texmf-dist/tex/latex/csquotes/csquotes.sty:${PORTSDIR}/print/texlive-csquotes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/csvsimple/csvsimple.sty:${PORTSDIR}/print/texlive-csvsimple \
@@ -939,7 +940,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/sphack/sphack.sty:${PORTSDIR}/print/texlive-sphack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spreadtab/spreadtab.sty:${PORTSDIR}/print/texlive-spreadtab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spverbatim/spverbatim.sty:${PORTSDIR}/print/texlive-spverbatim \
-		${LOCALBASE}/share/texmf-dist/tex/latex/splitindex/splitindex.tex:${PORTSDIR}/print/texlive-splitindex \
+		${LOCALBASE}/share/texmf-dist/tex/generic/splitindex/splitindex.tex:${PORTSDIR}/print/texlive-splitindex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spot/spot.sty:${PORTSDIR}/print/texlive-spot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spotcolor/spotcolor.sty:${PORTSDIR}/print/texlive-spotcolor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/srbook-mem/srbook-mem.sty:${PORTSDIR}/print/texlive-srbook-mem \

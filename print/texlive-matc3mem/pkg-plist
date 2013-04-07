@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/matc3mem/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/matc3mem/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/matc3mem/matC3mem.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/matc3mem/matC3mem.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/matc3mem/matC3mem.ins
+share/texmf-dist/tex/latex/matc3mem/matC3mem.cls
+@dirrmtry share/texmf-dist/tex/latex/matc3mem
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/matc3mem
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/matc3mem
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

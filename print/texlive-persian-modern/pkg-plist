@@ -1,0 +1,39 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/persian-modern/OFL-FAQ.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/persian-modern/OFL.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/persian-modern/README
+share/texmf-dist/fonts/truetype/public/persian-modern/persian-modern-bold.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/persian-modern-bolditalic.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/persian-modern-boldoblique.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/persian-modern-italic.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/persian-modern-italicoutline.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/persian-modern-italicshadow.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/persian-modern-oblique.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/persian-modern-obliqueoutline.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/persian-modern-obliqueshadow.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/persian-modern-outline.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/persian-modern-regular.ttf
+share/texmf-dist/fonts/truetype/public/persian-modern/persian-modern-shadow.ttf
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/persian-modern-bold.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/persian-modern-bolditalic.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/persian-modern-boldoblique.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/persian-modern-italic.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/persian-modern-italicoutline.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/persian-modern-italicshadow.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/persian-modern-oblique.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/persian-modern-obliqueoutline.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/persian-modern-obliqueshadow.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/persian-modern-outline.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/persian-modern-regular.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/persian-modern/persian-modern-shadow.sfd
+@dirrmtry share/texmf-dist/source/fonts/persian-modern
+@dirrmtry share/texmf-dist/source/fonts
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/fonts/truetype/public/persian-modern
+@dirrmtry share/texmf-dist/fonts/truetype/public
+@dirrmtry share/texmf-dist/fonts/truetype
+@dirrmtry share/texmf-dist/fonts
+@dirrmtry share/texmf-dist/doc/fonts/persian-modern
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

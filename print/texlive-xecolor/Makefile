@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	xecolor
-PORTVERSION=	20110930
-PORTREVISION=	1
+PORTVERSION=	20130405
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The xecolor package
+COMMENT=	Support for color in XeLaTeX.
 
 NOPORTSRC=	yes
 
