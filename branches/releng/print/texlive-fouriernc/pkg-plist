@@ -7,6 +7,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fouriernc/setxheight.mtx
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fouriernc/specialkernings.mtx
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fouriernc/specialkerningsital.mtx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fouriernc/substitutes.zip
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fouriernc/test_fouriernc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fouriernc/unset0.mtx
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fouriernc/unset0A.mtx
@@ -23,10 +24,6 @@ share/texmf-dist/fonts/afm/public/fouriernc/fourier-mlb.afm
 share/texmf-dist/fonts/afm/public/fouriernc/fourier-mlit.afm
 share/texmf-dist/fonts/afm/public/fouriernc/fourier-mlitb.afm
 share/texmf-dist/fonts/afm/public/fouriernc/fourier-ms.afm
-share/texmf-dist/fonts/afm/public/fouriernc/pncb8a.afm
-share/texmf-dist/fonts/afm/public/fouriernc/pncbi8a.afm
-share/texmf-dist/fonts/afm/public/fouriernc/pncr8a.afm
-share/texmf-dist/fonts/afm/public/fouriernc/pncri8a.afm
 share/texmf-dist/fonts/tfm/public/fouriernc/fncmi.tfm
 share/texmf-dist/fonts/tfm/public/fouriernc/fncmib.tfm
 share/texmf-dist/fonts/tfm/public/fouriernc/fncmii.tfm

@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tram/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tram/tram-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tram/tram-doc.tex
+share/texmf-dist/fonts/source/public/tram/tram.mf
+share/texmf-dist/tex/latex/tram/tram.sty
+@dirrmtry share/texmf-dist/tex/latex/tram
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/fonts/source/public/tram
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
+@dirrmtry share/texmf-dist/fonts
+@dirrmtry share/texmf-dist/doc/latex/tram
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,12 +1,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/smartdiagram/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/smartdiagram/smartdiagram.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/smartdiagram/smartdiagramlibraryadditions.code.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/smartdiagram/smartdiagramlibrarycore.commands.code.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/smartdiagram/smartdiagramlibrarycore.definitions.code.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/smartdiagram/smartdiagramlibrarycore.styles.code.tex
 %%PORTSRC%%share/texmf-dist/source/latex/smartdiagram/smartdiagram.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/smartdiagram/smartdiagram.ins
 share/texmf-dist/tex/latex/smartdiagram/smartdiagram.sty
+share/texmf-dist/tex/latex/smartdiagram/smartdiagramlibraryadditions.code.tex
+share/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.commands.code.tex
+share/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.definitions.code.tex
+share/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.styles.code.tex
 @dirrmtry share/texmf-dist/tex/latex/smartdiagram
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
