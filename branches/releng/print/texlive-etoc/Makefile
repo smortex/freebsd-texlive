@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	etoc
-PORTVERSION=	20130305
+PORTVERSION=	20130407
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Easily customisable TOCs.
+COMMENT=	Completely customisable TOCs.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
