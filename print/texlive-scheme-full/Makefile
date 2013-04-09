@@ -580,7 +580,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/ghab/ghab.sty:${PORTSDIR}/print/texlive-ghab \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/imsproc/imsproc.cls:${PORTSDIR}/print/texlive-imsproc \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/persian-bib/acm-fa.bst:${PORTSDIR}/print/texlive-persian-bib \
-		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/persian-hm-ftx/HM_FTXarshia.ttf:${PORTSDIR}/print/texlive-persian-hm-ftx \
+		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/persian-hm-ftx/HM_FTXarshia-Bold.ttf:${PORTSDIR}/print/texlive-persian-hm-ftx \
 		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/persian-hm-xbs/HM_XBKayhan-Bold.ttf:${PORTSDIR}/print/texlive-persian-hm-xbs \
 		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/persian-modern/persian-modern-bold.ttf:${PORTSDIR}/print/texlive-persian-modern \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tram/tram.sty:${PORTSDIR}/print/texlive-tram \
@@ -2042,8 +2042,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:
 		${LOCALBASE}/share/texmf-dist/tex/latex/kdgdocs/kdgcoursetext.cls:${PORTSDIR}/print/texlive-kdgdocs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kluwer/kluwer.cls:${PORTSDIR}/print/texlive-kluwer \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lps/lps.cls:${PORTSDIR}/print/texlive-lps \
-		${LOCALBASE}/share/texmf-dist/tex/latex/matc3/matC3.sty:${PORTSDIR}/print/texlive-matc3 \
-		${LOCALBASE}/share/texmf-dist/tex/latex/matc3mem/matC3mem.cls:${PORTSDIR}/print/texlive-matc3mem \
+		${LOCALBASE}/share/texmf-dist/tex/latex/matc3/matc3.sty:${PORTSDIR}/print/texlive-matc3 \
+		${LOCALBASE}/share/texmf-dist/tex/latex/matc3mem/matc3mem.cls:${PORTSDIR}/print/texlive-matc3mem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mentis/mentis.cls:${PORTSDIR}/print/texlive-mentis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/msu-thesis/msu-thesis.cls:${PORTSDIR}/print/texlive-msu-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/musuos/musuos.cls:${PORTSDIR}/print/texlive-musuos \
