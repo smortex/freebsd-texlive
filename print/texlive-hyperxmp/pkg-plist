@@ -3,6 +3,8 @@
 %%PORTSRC%%share/texmf-dist/source/latex/hyperxmp/einstein-xmp.tex
 %%PORTSRC%%share/texmf-dist/source/latex/hyperxmp/einstein1.png
 %%PORTSRC%%share/texmf-dist/source/latex/hyperxmp/einstein2.png
+%%PORTSRC%%share/texmf-dist/source/latex/hyperxmp/gglo-hyxmp.ist
+%%PORTSRC%%share/texmf-dist/source/latex/hyperxmp/gind-hyxmp.ist
 %%PORTSRC%%share/texmf-dist/source/latex/hyperxmp/hyperxmp.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/hyperxmp/hyperxmp.ins
 share/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty

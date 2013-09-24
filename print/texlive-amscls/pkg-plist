@@ -3,6 +3,7 @@ share/texmf-dist/bibtex/bst/amscls/amsplain.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/amscls/00LICENSE.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/amscls/amsart.template
 %%PORTDOCS%%share/texmf-dist/doc/latex/amscls/amsbook.template
+%%PORTDOCS%%share/texmf-dist/doc/latex/amscls/amsbooka.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/amscls/amsclass.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/amscls/amsdtx.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/amscls/amsmidx.pdf
@@ -15,6 +16,8 @@ share/texmf-dist/bibtex/bst/amscls/amsplain.bst
 %%PORTSRC%%share/texmf-dist/source/latex/amscls/00LICENSE.txt
 %%PORTSRC%%share/texmf-dist/source/latex/amscls/00readme.txt
 %%PORTSRC%%share/texmf-dist/source/latex/amscls/ams-c1.ins
+%%PORTSRC%%share/texmf-dist/source/latex/amscls/amsbooka.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/amscls/amsbooka.ins
 %%PORTSRC%%share/texmf-dist/source/latex/amscls/amsclass.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/amscls/amsdtx.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/amscls/amsdtx.ins

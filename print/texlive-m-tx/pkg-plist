@@ -48,17 +48,16 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/viva.mtx
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/volta.mtx
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/prepmx.html
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/m-tx.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/m-tx.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/prepmx.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/prepmx.man1.pdf
 share/texmf-dist/tex/generic/m-tx/mtx.tex
-%%PORTDOCS%%share/texmf/doc/man/man1/m-tx.1
-%%PORTDOCS%%share/texmf/doc/man/man1/m-tx.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/prepmx.1
-%%PORTDOCS%%share/texmf/doc/man/man1/prepmx.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/generic/m-tx
 @dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc/generic/m-tx/mtx060
 @dirrmtry share/texmf-dist/doc/generic/m-tx
 @dirrmtry share/texmf-dist/doc/generic

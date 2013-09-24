@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	gmverse
-PORTVERSION=	20100610
-PORTREVISION=	1
+PORTVERSION=	20130410
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	a package for typesetting (short) poems.
+COMMENT=	A package for typesetting (short) poems.
 
 NOPORTSRC=	yes
 

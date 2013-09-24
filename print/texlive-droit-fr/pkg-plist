@@ -1,7 +1,7 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/doc/.latexmkrc
-%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/doc/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/doc/droit-fr.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/doc/droit-fr.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/.latexmkrc
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/droit-fr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/droit-fr.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/.latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/annexes.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/bibliographie.bib
@@ -14,7 +14,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/misc.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/partie1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/partie2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/sommaire.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/titre.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/droit-fr/example/toc.tex
 share/texmf-dist/tex/latex/droit-fr/droit-fr.bbx
 share/texmf-dist/tex/latex/droit-fr/droit-fr.cbx
 share/texmf-dist/tex/latex/droit-fr/droit-fr.cls
@@ -22,7 +24,6 @@ share/texmf-dist/tex/latex/droit-fr/droit-fr.cls
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/droit-fr/example
-@dirrmtry share/texmf-dist/doc/latex/droit-fr/doc
 @dirrmtry share/texmf-dist/doc/latex/droit-fr
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc

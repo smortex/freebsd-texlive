@@ -8,6 +8,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/caption/ltcaption.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/caption/newfloat.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/caption/subcaption.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/caption/totalcount.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/caption/bicaption.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/caption/caption-deu.tex
 %%PORTSRC%%share/texmf-dist/source/latex/caption/caption-eng.tex
@@ -21,6 +22,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/caption/ltcaption.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/caption/newfloat.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/caption/subcaption.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/caption/totalcount.dtx
 share/texmf-dist/tex/latex/caption/bicaption.sty
 share/texmf-dist/tex/latex/caption/caption.sty
 share/texmf-dist/tex/latex/caption/caption2.sty
@@ -28,6 +30,7 @@ share/texmf-dist/tex/latex/caption/caption3.sty
 share/texmf-dist/tex/latex/caption/ltcaption.sty
 share/texmf-dist/tex/latex/caption/newfloat.sty
 share/texmf-dist/tex/latex/caption/subcaption.sty
+share/texmf-dist/tex/latex/caption/totalcount.sty
 @dirrmtry share/texmf-dist/tex/latex/caption
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex

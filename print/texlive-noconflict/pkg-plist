@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/noconflict/README
+share/texmf-dist/tex/latex/noconflict/noconflict.sty
+@dirrmtry share/texmf-dist/tex/latex/noconflict
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/noconflict
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,37 @@
+%%PORTDOCS%%share/texmf-dist/doc/context/third/enigma/enigma/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/context/third/enigma/enigma/README
+%%PORTDOCS%%share/texmf-dist/doc/context/third/enigma/enigma/enigma-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/enigma/enigma/enigma_manual.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/enigma/enigma/examples/enigma-example-context.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/enigma/enigma/examples/enigma-example-latex.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/enigma/enigma/examples/enigma-example-plain.tex
+share/texmf-dist/scripts/context/lua/third/enigma/mtx-t-enigma.lua/mtx-t-enigma.lua
+share/texmf-dist/tex/context/third/enigma/t-enigma.mkv/t-enigma.mkvi
+share/texmf-dist/tex/generic/enigma/enigma.lua
+share/texmf-dist/tex/latex/enigma/enigma.sty
+share/texmf-dist/tex/plain/enigma/enigma.tex
+@dirrmtry share/texmf-dist/tex/plain/enigma
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex/latex/enigma
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex/generic/enigma
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex/context/third/enigma/t-enigma.mkv
+@dirrmtry share/texmf-dist/tex/context/third/enigma
+@dirrmtry share/texmf-dist/tex/context/third
+@dirrmtry share/texmf-dist/tex/context
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/scripts/context/lua/third/enigma/mtx-t-enigma.lua
+@dirrmtry share/texmf-dist/scripts/context/lua/third/enigma
+@dirrmtry share/texmf-dist/scripts/context/lua/third
+@dirrmtry share/texmf-dist/scripts/context/lua
+@dirrmtry share/texmf-dist/scripts/context
+@dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/doc/context/third/enigma/enigma/examples
+@dirrmtry share/texmf-dist/doc/context/third/enigma/enigma
+@dirrmtry share/texmf-dist/doc/context/third/enigma
+@dirrmtry share/texmf-dist/doc/context/third
+@dirrmtry share/texmf-dist/doc/context
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

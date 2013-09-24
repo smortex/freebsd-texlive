@@ -1,0 +1,3 @@
+The package mediates interaction between LaTeX and R; it allows
+LaTeX to set R's parameters, and provides code to read R
+output.

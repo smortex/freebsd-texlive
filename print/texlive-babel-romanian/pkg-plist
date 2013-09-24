@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-romanian/romanian.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/babel-romanian/romanian.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-romanian/romanian.ins
+share/texmf-dist/tex/generic/babel-romanian/romanian.ldf
+@dirrmtry share/texmf-dist/tex/generic/babel-romanian
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/generic/babel-romanian
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/babel-romanian
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,9 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/skmath/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/skmath/skmath.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/skmath/skmath.tex
+%%PORTSRC%%share/texmf-dist/source/latex/skmath/skmath.tex
 share/texmf-dist/tex/latex/skmath/skmath.sty
 @dirrmtry share/texmf-dist/tex/latex/skmath
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/skmath
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/skmath
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc

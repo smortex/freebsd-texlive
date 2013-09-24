@@ -1,0 +1,21 @@
+%%PORTDOCS%%share/texmf-dist/doc/xetex/xetexko/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/xetex/xetexko/README
+%%PORTDOCS%%share/texmf-dist/doc/xetex/xetexko/xetexko-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xetex/xetexko/xetexko-doc.tex
+share/texmf-dist/tex/xetex/xetexko/hanja_hangul.tab
+share/texmf-dist/tex/xetex/xetexko/hanjacom_hangul.tab
+share/texmf-dist/tex/xetex/xetexko/hanjaexa_hangul.tab
+share/texmf-dist/tex/xetex/xetexko/xetexko-font.sty
+share/texmf-dist/tex/xetex/xetexko/xetexko-hanging.sty
+share/texmf-dist/tex/xetex/xetexko/xetexko-josa.sty
+share/texmf-dist/tex/xetex/xetexko/xetexko-space.sty
+share/texmf-dist/tex/xetex/xetexko/xetexko-vertical.sty
+share/texmf-dist/tex/xetex/xetexko/xetexko.sty
+@dirrmtry share/texmf-dist/tex/xetex/xetexko
+@dirrmtry share/texmf-dist/tex/xetex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/xetex/xetexko
+@dirrmtry share/texmf-dist/doc/xetex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/arraysort/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/arraysort/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/arraysort/arraysort.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/arraysort/arraysort.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/arraysort/arraysort.ins
+share/texmf-dist/tex/latex/arraysort/arraysort.sty
+@dirrmtry share/texmf-dist/tex/latex/arraysort
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/arraysort
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/arraysort
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

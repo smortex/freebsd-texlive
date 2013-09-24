@@ -1,0 +1,4 @@
+The program is run within a git repository, and outputs the
+entire version history, as a LaTeX table. That output will
+typically be redirected to a file; the author recommends
+typesetting in landscape orientation.

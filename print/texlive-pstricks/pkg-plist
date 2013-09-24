@@ -41,6 +41,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstnews1-12.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstnews97-15.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstnews97-15.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstricks-add-data9.data
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstricks-bug.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstricks-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/test-pst.pdf
@@ -48,6 +49,7 @@
 share/texmf-dist/dvips/pstricks/pst-algparser.pro
 share/texmf-dist/dvips/pstricks/pst-dots.pro
 share/texmf-dist/dvips/pstricks/pst-dots97.pro
+share/texmf-dist/dvips/pstricks/pst-ovl.pro
 share/texmf-dist/dvips/pstricks/pstricks.pro
 share/texmf-dist/dvips/pstricks/pstricks97.pro
 share/texmf-dist/tex/generic/pstricks/config/Changes
@@ -61,6 +63,7 @@ share/texmf-dist/tex/generic/pstricks/config/vtex.cfg
 share/texmf-dist/tex/generic/pstricks/config/xdvipdfmx.cfg
 share/texmf-dist/tex/generic/pstricks/pst-fp.tex
 share/texmf-dist/tex/generic/pstricks/pst-key.tex
+share/texmf-dist/tex/generic/pstricks/pst-ovl.tex
 share/texmf-dist/tex/generic/pstricks/pstPlain.tex
 share/texmf-dist/tex/generic/pstricks/pstricks.con
 share/texmf-dist/tex/generic/pstricks/pstricks.tex
@@ -68,6 +71,7 @@ share/texmf-dist/tex/generic/pstricks/pstricks97.tex
 share/texmf-dist/tex/latex/pstricks/pst-all.sty
 share/texmf-dist/tex/latex/pstricks/pst-doc.cls
 share/texmf-dist/tex/latex/pstricks/pst-key.sty
+share/texmf-dist/tex/latex/pstricks/pst-ovl.sty
 share/texmf-dist/tex/latex/pstricks/pstcol.sty
 share/texmf-dist/tex/latex/pstricks/pstricks.sty
 @dirrmtry share/texmf-dist/tex/latex/pstricks

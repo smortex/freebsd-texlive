@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-scottish/scottish.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/babel-scottish/scottish.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-scottish/scottish.ins
+share/texmf-dist/tex/generic/babel-scottish/scottish.ldf
+@dirrmtry share/texmf-dist/tex/generic/babel-scottish
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/generic/babel-scottish
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/babel-scottish
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,3 @@
+The package provides commands to draw and annotate various
+kinds of timing diagrams, using Tikz. Documentation is sparse,
+but the source and the examples file should be of some use.

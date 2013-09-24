@@ -23,6 +23,7 @@ share/texmf-dist/tex/latex/biblatex-apa/norsk-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/norwegian-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/nynorsk-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/spanish-apa.lbx
+share/texmf-dist/tex/latex/biblatex-apa/swedish-apa.lbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-apa
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex

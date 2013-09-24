@@ -1,0 +1,43 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/history.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/license.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/sample/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/sample/chordbook.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/sample/lyricbook.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/sample/slidebook.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/sample/songs.sbd
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/sample/transparencies.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/songidx/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/songidx/authidx.c
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/songidx/bible.can
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/songidx/catholic.can
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/songidx/chars.h
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/songidx/fileio.c
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/songidx/fileio.h
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/songidx/greek.can
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/songidx/protestant.can
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/songidx/scripidx.c
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/songidx/songidx.c
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/songidx/songidx.h
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/songidx/songsort.c
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/songidx/tanakh.can
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/songidx/titleidx.c
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/songidx/vsconfig.h
+%%PORTDOCS%%share/texmf-dist/doc/latex/songs/songs.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/songs/songs.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/songs/songs.ins
+share/texmf-dist/tex/latex/songs/songs.sty
+@dirrmtry share/texmf-dist/tex/latex/songs
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/songs
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/songs/songidx
+@dirrmtry share/texmf-dist/doc/latex/songs/sample
+@dirrmtry share/texmf-dist/doc/latex/songs
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

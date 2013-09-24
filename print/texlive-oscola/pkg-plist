@@ -1,6 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/oscola/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/oscola/README.TEXLIVE
 %%PORTDOCS%%share/texmf-dist/doc/latex/oscola/oscola-examples.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/oscola/oscola.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/oscola/oscola.tex
 share/texmf-dist/makeindex/oscola/oscola.ist
 share/texmf-dist/tex/latex/oscola/english-oscola.lbx
 share/texmf-dist/tex/latex/oscola/oscola.bbx

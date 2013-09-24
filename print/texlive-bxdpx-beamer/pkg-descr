@@ -1,0 +1,4 @@
+The package is a driver to support beamer Navigation symbols
+and \framezoomed regions when using dvipdfmx as PDF generator
+(e.g., as part of e-pTeX). The package does not define any
+'user' commands.

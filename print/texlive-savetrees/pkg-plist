@@ -1,6 +1,7 @@
 share/texmf-dist/bibtex/bst/savetrees/savetrees.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/savetrees/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/savetrees/savetrees.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/savetrees/st-sample2e.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/savetrees/savetrees.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/savetrees/savetrees.ins
 share/texmf-dist/tex/latex/savetrees/savetrees.sty

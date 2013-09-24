@@ -1,11 +1,19 @@
-%%PORTDOCS%%share/texmf/doc/man/man1/chktex.1
-%%PORTDOCS%%share/texmf/doc/man/man1/chktex.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/chkweb.1
-%%PORTDOCS%%share/texmf/doc/man/man1/chkweb.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/deweb.1
-%%PORTDOCS%%share/texmf/doc/man/man1/deweb.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
+share/texmf-dist/chktex/chktexrc
+%%PORTDOCS%%share/texmf-dist/doc/chktex/ChkTeX.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/chktex.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/chktex.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/chkweb.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/chkweb.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/deweb.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/deweb.man1.pdf
+share/texmf-dist/scripts/chktex/chkweb.sh
+share/texmf-dist/scripts/chktex/deweb.pl
+@dirrmtry share/texmf-dist/scripts/chktex
+@dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
+@dirrmtry share/texmf-dist/doc/chktex
+@dirrmtry share/texmf-dist/doc
+@dirrmtry share/texmf-dist/chktex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

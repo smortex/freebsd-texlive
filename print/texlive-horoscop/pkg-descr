@@ -1,0 +1,6 @@
+The horoscop package provides a unified interface for
+astrological font packages; typesetting with pict2e of standard
+wheel charts and some variations, in PostScript- and PDF-
+generating TeX engines; and access to external calculation
+software (Astrolog and Swiss Ephemeris) for computing object
+positions.

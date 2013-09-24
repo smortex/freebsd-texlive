@@ -6,7 +6,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/amsmath/amsopn.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/amsmath/amstext.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/amsmath/amsxtra.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/amsmath/diffs-m.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/amsmath/subeqn.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/amsmath/technote.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/amsmath/testmath.pdf
@@ -26,6 +25,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/amsmath/amstext.ins
 %%PORTSRC%%share/texmf-dist/source/latex/amsmath/amsxtra.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/amsmath/amsxtra.ins
+%%PORTSRC%%share/texmf-dist/source/latex/amsmath/diffs-m.txt
 %%PORTSRC%%share/texmf-dist/source/latex/amsmath/install.txt
 %%PORTSRC%%share/texmf-dist/source/latex/amsmath/manifest.txt
 %%PORTSRC%%share/texmf-dist/source/latex/amsmath/subeqn.tex

@@ -49,6 +49,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_040_rowheight.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_050_leftskip_rowspan.chk
 %%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_050_leftskip_rowspan.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_060_alignment.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_060_alignment.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_065_alignment.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_065_alignment.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/rowsep/test_10_waitrule.chk
 %%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/rowsep/test_10_waitrule.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/rowsep/test_15_waitover.chk

@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-slovak/slovak.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/babel-slovak/slovak.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-slovak/slovak.ins
+share/texmf-dist/tex/generic/babel-slovak/slovak.ldf
+@dirrmtry share/texmf-dist/tex/generic/babel-slovak
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/generic/babel-slovak
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/babel-slovak
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

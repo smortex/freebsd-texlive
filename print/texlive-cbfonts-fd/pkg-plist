@@ -1,0 +1,25 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cbfonts-fd/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cbfonts-fd/cbfonts-fd.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cbfonts-fd/manifest.txt
+%%PORTSRC%%share/texmf-dist/source/fonts/cbfonts-fd/cbfonts-fd.fdd
+share/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+share/texmf-dist/tex/latex/cbfonts-fd/lgrcmro.fd
+share/texmf-dist/tex/latex/cbfonts-fd/lgrcmss.fd
+share/texmf-dist/tex/latex/cbfonts-fd/lgrcmtt.fd
+share/texmf-dist/tex/latex/cbfonts-fd/lgrlcmss.fd
+share/texmf-dist/tex/latex/cbfonts-fd/lgrlcmtt.fd
+share/texmf-dist/tex/latex/cbfonts-fd/lgrlmr.fd
+share/texmf-dist/tex/latex/cbfonts-fd/lgrlmro.fd
+share/texmf-dist/tex/latex/cbfonts-fd/lgrlmss.fd
+share/texmf-dist/tex/latex/cbfonts-fd/lgrlmtt.fd
+@dirrmtry share/texmf-dist/tex/latex/cbfonts-fd
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/fonts/cbfonts-fd
+@dirrmtry share/texmf-dist/source/fonts
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/fonts/cbfonts-fd
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

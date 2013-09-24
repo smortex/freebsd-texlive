@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	cmap
-PORTVERSION=	20120523
-PORTREVISION=	1
+PORTVERSION=	20130820
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The cmap package
+COMMENT=	Make PDF files searchable and copyable.
 
 NOPORTSRC=	yes
 

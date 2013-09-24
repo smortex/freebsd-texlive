@@ -1,13 +1,22 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/skrapport/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/skrapport/skrapport.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/skrapport/skrapport.tex
+%%PORTSRC%%share/texmf-dist/source/latex/skrapport/skrapport.tex
 share/texmf-dist/tex/latex/skrapport/skrapport-colortheme-cruelwater.sty
 share/texmf-dist/tex/latex/skrapport/skrapport-colortheme-default.sty
+share/texmf-dist/tex/latex/skrapport/skrapport-colortheme-skdoc.sty
 share/texmf-dist/tex/latex/skrapport/skrapport-colortheme-unscathed.sty
 share/texmf-dist/tex/latex/skrapport/skrapport-colortheme-violet.sty
+share/texmf-dist/tex/latex/skrapport/skrapport-size-common.sty
+share/texmf-dist/tex/latex/skrapport/skrapport-size10pt.clo
+share/texmf-dist/tex/latex/skrapport/skrapport-size11pt.clo
+share/texmf-dist/tex/latex/skrapport/skrapport-size12pt.clo
 share/texmf-dist/tex/latex/skrapport/skrapport.cls
 @dirrmtry share/texmf-dist/tex/latex/skrapport
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/skrapport
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/skrapport
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc

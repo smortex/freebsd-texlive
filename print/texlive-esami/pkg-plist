@@ -1,0 +1,43 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami-doc-en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami-doc-en.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami-doc-it.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami-doc-it.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/master-sol.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/master.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/problem1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/problem2-tabella.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/problem3-matching.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/problem4-fillin.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/test1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/test11.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/test12.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/test13.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/test14.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/test2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/test3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/test4.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/test5-fillin.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/testA.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/testA.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/totale-versioni.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/es-UKenglish.lng
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/es-USenglish.lng
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/es-french.lng
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/es-german.lng
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/es-greek.lng
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/es-italian.lng
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/es-spanish.lng
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/esami-xyz.cfg
+share/texmf-dist/tex/latex/esami/esami.sty
+@dirrmtry share/texmf-dist/tex/latex/esami
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/esami/doc/examples
+@dirrmtry share/texmf-dist/doc/latex/esami/doc
+@dirrmtry share/texmf-dist/doc/latex/esami
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,7 +1,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/lxfonts/LXfonts-demo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/lxfonts/LXfonts-demo.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/lxfonts/LXfonts.readme
-%%PORTDOCS%%share/texmf-dist/doc/fonts/lxfonts/manifest
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lxfonts/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lxfonts/lxfonts.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/lxfonts/manifest.txt
 share/texmf-dist/fonts/map/dvips/lxfonts/lxfonts.map
 share/texmf-dist/fonts/source/public/lxfonts/lamsya.mf
 share/texmf-dist/fonts/source/public/lxfonts/lamsyb.mf
@@ -84,10 +86,27 @@ share/texmf-dist/fonts/type1/public/lxfonts/ltclb8.pfb
 share/texmf-dist/fonts/type1/public/lxfonts/ltcli8.pfb
 share/texmf-dist/fonts/type1/public/lxfonts/ltclo8.pfb
 share/texmf-dist/fonts/type1/public/lxfonts/ltclq8.pfb
+%%PORTSRC%%share/texmf-dist/source/fonts/lxfonts/lxfonts.dtx
+share/texmf-dist/tex/latex/lxfonts/lgrllcmss.fd
+share/texmf-dist/tex/latex/lxfonts/lgrllcmtt.fd
 share/texmf-dist/tex/latex/lxfonts/lxfonts.sty
+share/texmf-dist/tex/latex/lxfonts/omlllcmm.fd
+share/texmf-dist/tex/latex/lxfonts/omsllcmsy.fd
+share/texmf-dist/tex/latex/lxfonts/omxllcmex.fd
+share/texmf-dist/tex/latex/lxfonts/ot1llcmss.fd
+share/texmf-dist/tex/latex/lxfonts/ot1llcmtt.fd
+share/texmf-dist/tex/latex/lxfonts/t1llcmss.fd
+share/texmf-dist/tex/latex/lxfonts/t1llcmtt.fd
+share/texmf-dist/tex/latex/lxfonts/ts1llcmss.fd
+share/texmf-dist/tex/latex/lxfonts/ulllasy.fd
+share/texmf-dist/tex/latex/lxfonts/ulmsa.fd
+share/texmf-dist/tex/latex/lxfonts/ulmsb.fd
 @dirrmtry share/texmf-dist/tex/latex/lxfonts
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/fonts/lxfonts
+@dirrmtry share/texmf-dist/source/fonts
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/fonts/type1/public/lxfonts
 @dirrmtry share/texmf-dist/fonts/type1/public
 @dirrmtry share/texmf-dist/fonts/type1

@@ -1,9 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/latexdiff-vc.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/latexdiff-vc.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/latexdiff.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/latexdiff.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/latexrevise.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/latexrevise.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/COPYING
 %%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/README
-%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/contrib/README.latexchanges
-%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/contrib/latexchanges.py
-%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/contrib/latexdiff-wrap
-%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/contrib/latexdiff.spec
 %%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/doc/example-diff.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/doc/latexdiff-man.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/doc/latexdiff-man.tex
@@ -11,20 +13,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/example/example-rev.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/latexdiff
 %%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/latexdiff-fast
-%%PORTDOCS%%share/texmf/doc/man/man1/latexdiff-vc.1
-%%PORTDOCS%%share/texmf/doc/man/man1/latexdiff-vc.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/latexdiff.1
-%%PORTDOCS%%share/texmf/doc/man/man1/latexdiff.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/latexrevise.1
-%%PORTDOCS%%share/texmf/doc/man/man1/latexrevise.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/doc/support/latexdiff/example
 @dirrmtry share/texmf-dist/doc/support/latexdiff/doc
-@dirrmtry share/texmf-dist/doc/support/latexdiff/contrib
 @dirrmtry share/texmf-dist/doc/support/latexdiff
 @dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

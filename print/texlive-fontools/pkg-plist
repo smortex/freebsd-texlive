@@ -1,24 +1,23 @@
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/afm2afm.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/afm2afm.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/autoinst.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/autoinst.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/ot2kpx.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/ot2kpx.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/fontools/GPLv2.txt
 %%PORTDOCS%%share/texmf-dist/doc/support/fontools/README
 share/texmf-dist/fonts/enc/dvips/fontools/fontools_ly1.enc
 share/texmf-dist/fonts/enc/dvips/fontools/fontools_ot1.enc
 share/texmf-dist/fonts/enc/dvips/fontools/fontools_t1.enc
 share/texmf-dist/fonts/enc/dvips/fontools/fontools_ts1.enc
-%%PORTDOCS%%share/texmf/doc/man/man1/afm2afm.1
-%%PORTDOCS%%share/texmf/doc/man/man1/afm2afm.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/autoinst.1
-%%PORTDOCS%%share/texmf/doc/man/man1/autoinst.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/ot2kpx.1
-%%PORTDOCS%%share/texmf/doc/man/man1/ot2kpx.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/fonts/enc/dvips/fontools
 @dirrmtry share/texmf-dist/fonts/enc/dvips
 @dirrmtry share/texmf-dist/fonts/enc
 @dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/support/fontools
 @dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

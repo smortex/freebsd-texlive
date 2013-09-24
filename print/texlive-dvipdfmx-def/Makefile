@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	dvipdfmx-def
-PORTVERSION=	20100610
-PORTREVISION=	1
+PORTVERSION=	20130922
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The dvipdfmx-def package
+COMMENT=	Configuration file for dvipdfmx graphics.
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes

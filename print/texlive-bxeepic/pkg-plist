@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxeepic/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxeepic/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxeepic/sample-bxeepic.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxeepic/sample-bxeepic.tex
+share/texmf-dist/tex/latex/bxeepic/bxdpxp2e.def
+share/texmf-dist/tex/latex/bxeepic/bxeepic.sty
+@dirrmtry share/texmf-dist/tex/latex/bxeepic
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/bxeepic
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

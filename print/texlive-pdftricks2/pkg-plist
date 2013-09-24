@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdftricks2/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdftricks2/pdftricks2-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdftricks2/pdftricks2-doc.tex
+share/texmf-dist/tex/latex/pdftricks2/pdftricks2.sty
+@dirrmtry share/texmf-dist/tex/latex/pdftricks2
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/pdftricks2
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

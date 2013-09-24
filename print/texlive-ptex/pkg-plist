@@ -1,3 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/mendex.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/mendex.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/ptex/base/COPYRIGHT
 %%PORTDOCS%%share/texmf-dist/doc/ptex/base/COPYRIGHT.txt
 %%PORTDOCS%%share/texmf-dist/doc/ptex/base/Changes.txt
@@ -29,7 +31,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/ptex/pbibtex/jbtxhak.pdf
 %%PORTDOCS%%share/texmf-dist/doc/ptex/pbibtex/jbtxhak.tex
 share/texmf-dist/fonts/map/dvipdfmx/ptex/morisawa.map
-share/texmf-dist/fonts/map/dvipdfmx/ptex/ptex-noEmbed.map
 share/texmf-dist/fonts/source/ptex/ascgrp/ascgrp.mf
 share/texmf-dist/fonts/source/ptex/ascgrp/ascii.mf
 share/texmf-dist/fonts/source/ptex/ascgrp/ascii10.mf
@@ -300,11 +301,6 @@ share/texmf-dist/tex/ptex/base/kinsoku.tex
 share/texmf-dist/tex/ptex/base/ptex.tex
 share/texmf-dist/tex/ptex/config/eptex.ini
 share/texmf-dist/tex/ptex/config/ptex.ini
-%%PORTDOCS%%share/texmf/doc/man/man1/mendex.1
-%%PORTDOCS%%share/texmf/doc/man/man1/mendex.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/ptex/config
 @dirrmtry share/texmf-dist/tex/ptex/base
 @dirrmtry share/texmf-dist/tex/ptex
@@ -349,6 +345,8 @@ share/texmf-dist/tex/ptex/config/ptex.ini
 @dirrmtry share/texmf-dist/doc/ptex/jvf
 @dirrmtry share/texmf-dist/doc/ptex/base
 @dirrmtry share/texmf-dist/doc/ptex
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

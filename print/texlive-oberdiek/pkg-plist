@@ -458,6 +458,7 @@ share/texmf-dist/scripts/oberdiek/pdftexcmds.lua
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/grfext.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/grffile.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/hobsub.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/oberdiek/hologo-eroux.patch
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/hologo.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/holtxdoc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/hopatch.dtx
@@ -499,6 +500,7 @@ share/texmf-dist/scripts/oberdiek/pdftexcmds.lua
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/pdfescape.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/pdflscape.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/pdfrender.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/oberdiek/pdftexcmds-eroux.patch
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/pdftexcmds.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/picture.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/pmboxdraw.dtx

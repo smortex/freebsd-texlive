@@ -450,7 +450,6 @@ share/texmf-dist/fonts/vf/vntex/vntopia/putrc8v.vf
 %%PORTSRC%%share/texmf-dist/source/generic/vntex/LPPL.txt
 %%PORTSRC%%share/texmf-dist/source/generic/vntex/Makefile
 %%PORTSRC%%share/texmf-dist/source/generic/vntex/README.vntopia
-%%PORTSRC%%share/texmf-dist/source/generic/vntex/babel-vi.dtx
 %%PORTSRC%%share/texmf-dist/source/generic/vntex/doc/ReleaseNotes.tex
 %%PORTSRC%%share/texmf-dist/source/generic/vntex/doc/abbr.tex
 %%PORTSRC%%share/texmf-dist/source/generic/vntex/doc/test-accents.tex
@@ -580,9 +579,7 @@ share/texmf-dist/tex/latex/vntex/t5utm.fd
 share/texmf-dist/tex/latex/vntex/t5uzcm.fd
 share/texmf-dist/tex/latex/vntex/tcvn.def
 share/texmf-dist/tex/latex/vntex/varioref-vi.sty
-share/texmf-dist/tex/latex/vntex/vietnam.ldf
 share/texmf-dist/tex/latex/vntex/vietnam.sty
-share/texmf-dist/tex/latex/vntex/vietnamese.ldf
 share/texmf-dist/tex/latex/vntex/viscii.def
 share/texmf-dist/tex/latex/vntex/vncaps.tex
 share/texmf-dist/tex/latex/vntex/vntex.sty

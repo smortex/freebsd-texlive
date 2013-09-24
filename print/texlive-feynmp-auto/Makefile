@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	feynmp-auto
-PORTVERSION=	20130313
+PORTVERSION=	20130504
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The feynmp-auto package
+COMMENT=	Automatic processing of feynmp graphics.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

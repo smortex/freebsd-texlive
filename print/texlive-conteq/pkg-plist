@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/conteq/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/conteq/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/conteq/conteq.hd
+%%PORTDOCS%%share/texmf-dist/doc/latex/conteq/conteq.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/conteq/conteq.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/conteq/conteq.ins
+share/texmf-dist/tex/latex/conteq/conteq.sty
+@dirrmtry share/texmf-dist/tex/latex/conteq
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/conteq
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/conteq
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

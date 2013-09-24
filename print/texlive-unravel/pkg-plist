@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/unravel/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/unravel/unravel.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/unravel/unravel.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/unravel/unravel.ins
+share/texmf-dist/tex/latex/unravel/unravel.sty
+@dirrmtry share/texmf-dist/tex/latex/unravel
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/unravel
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/unravel
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

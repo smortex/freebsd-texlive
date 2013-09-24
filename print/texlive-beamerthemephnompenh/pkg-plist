@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerthemephnompenh/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerthemephnompenh/beamerthemePhnomPenh.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerthemephnompenh/beamerthemePhnomPenh.tex
+share/texmf-dist/tex/latex/beamerthemephnompenh/beamerthemePhnomPenh.sty
+@dirrmtry share/texmf-dist/tex/latex/beamerthemephnompenh
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/beamerthemephnompenh
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

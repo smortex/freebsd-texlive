@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-swedish/swedish.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/babel-swedish/swedish.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-swedish/swedish.ins
+share/texmf-dist/tex/generic/babel-swedish/swedish.ldf
+@dirrmtry share/texmf-dist/tex/generic/babel-swedish
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/generic/babel-swedish
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/babel-swedish
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

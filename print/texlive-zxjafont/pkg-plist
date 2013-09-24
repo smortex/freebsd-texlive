@@ -1,5 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/zxjafont/LICENSE
 %%PORTDOCS%%share/texmf-dist/doc/latex/zxjafont/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/zxjafont/zxjafont.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/zxjafont/zxjafont.tex
 share/texmf-dist/tex/latex/zxjafont/zxjafont.sty
 @dirrmtry share/texmf-dist/tex/latex/zxjafont
 @dirrmtry share/texmf-dist/tex/latex

@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pxchfon
-PORTVERSION=	20121212
-PORTREVISION=	1
+PORTVERSION=	20130523
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Japanese font setup for pLaTeX.
+COMMENT=	Japanese font setup for pLaTeX and upLaTeX.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

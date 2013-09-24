@@ -1,0 +1,3 @@
+The package provides a mechanism for sorting arrays (or
+portions of them); the arrays should have been created using
+the arrayjobx package.

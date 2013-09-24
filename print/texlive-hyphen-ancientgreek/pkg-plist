@@ -1,7 +1,7 @@
-share/texmf/tex/generic/hyphen/grahyph5.tex
-share/texmf/tex/generic/hyphen/ibyhyph.tex
-@dirrmtry share/texmf/tex/generic/hyphen
-@dirrmtry share/texmf/tex/generic
-@dirrmtry share/texmf/tex
+share/texmf-dist/tex/generic/hyphen/grahyph5.tex
+share/texmf-dist/tex/generic/hyphen/ibyhyph.tex
+@dirrmtry share/texmf-dist/tex/generic/hyphen
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

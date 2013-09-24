@@ -1,0 +1,176 @@
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/CHANGES.md
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/INSTALL
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/README
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/VERSION
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/lilyglyphs-example-600.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/lilyglyphs-example-medium.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/lilyglyphs-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/lilyglyphs-example.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/lilyglyphs-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/lilyglyphs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/lilyglyphs.tex
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/lilyglyphs_logo/lilyglyphs_logo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/lilyglyphs_logo/lilyglyphs_logo.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/lilyglyphs_logo/lilyglyphs_logo.tex
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/lilyglyphs_private.zip
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-088c978c.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-1981c3c7.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-20e8632d.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-2abb8a04.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-2be182be.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-3b47d3fe.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-3f4afecc.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-40869867.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-5b13ce04.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-5c91a201.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-707477b7.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-76dbcd67.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-7fd84ff8.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-8155deab.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-8b332c94.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-8d82df0c.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-8d8bb8a3.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-907bc72d.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-a2bf82dd.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-ae3fd948.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-b3dc0958.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-b69af986.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-d9988a2c.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-dffaecd2.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lily-f4d0afc9.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lilyglyphsManualFonts.sty
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lilyglyphsStyle.sty
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lilypond-manuals.css
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/the-feta-font-2-16-2.html
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/license/COPYING.LPPL
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/license/MANIFEST
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/license/license-preamble.inp
+share/texmf-dist/fonts/opentype/public/lilyglyphs/FONTLOG
+share/texmf-dist/fonts/opentype/public/lilyglyphs/LICENSE.OFL
+share/texmf-dist/fonts/opentype/public/lilyglyphs/emmentaler-11.otf
+share/texmf-dist/fonts/opentype/public/lilyglyphs/emmentaler-13.otf
+share/texmf-dist/fonts/opentype/public/lilyglyphs/emmentaler-14.otf
+share/texmf-dist/fonts/opentype/public/lilyglyphs/emmentaler-16.otf
+share/texmf-dist/fonts/opentype/public/lilyglyphs/emmentaler-18.otf
+share/texmf-dist/fonts/opentype/public/lilyglyphs/emmentaler-20.otf
+share/texmf-dist/fonts/opentype/public/lilyglyphs/emmentaler-23.otf
+share/texmf-dist/fonts/opentype/public/lilyglyphs/emmentaler-26.otf
+share/texmf-dist/fonts/opentype/public/lilyglyphs/emmentaler-brace.otf
+share/texmf-dist/scripts/lilyglyphs/lily-glyph-commands.py
+share/texmf-dist/scripts/lilyglyphs/lily-image-commands.py
+share/texmf-dist/scripts/lilyglyphs/lily-rebuild-pdfs.py
+share/texmf-dist/scripts/lilyglyphs/lilyglyphs_common.py
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/fonts/README-emmentaler
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/fonts/emmentaler-2-16-2.zip
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/definitions/_template.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/definitions/beamednotes.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/definitions/dynamicsigns.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/definitions/fancyexamples.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/definitions/score.ily
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/definitions/singlenotes.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-crescHairpin.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-crotchet.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-crotchetDotted.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-crotchetDottedDouble.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-crotchetDottedDoubleDown.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-crotchetDottedDown.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-crotchetDown.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-decrescHairpin.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-fancyExample.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-halfNote.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-halfNoteDotted.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-halfNoteDottedDouble.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-halfNoteDottedDoubleDown.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-halfNoteDottedDown.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-halfNoteDown.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-quaver.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-quaverDotted.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-quaverDottedDouble.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-quaverDottedDoubleDdown.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-quaverDottedDoubleDown.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-quaverDottedDown.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-quaverDown.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-semiquaver.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-semiquaverDotted.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-semiquaverDottedDouble.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-semiquaverDottedDoubleDown.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-semiquaverDottedDown.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-semiquaverDown.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-twoBeamedQuavers.ly
+share/texmf-dist/tex/lualatex/lilyglyphs/README-tex
+share/texmf-dist/tex/lualatex/lilyglyphs/commands/README-commands
+share/texmf-dist/tex/lualatex/lilyglyphs/commands/accidentals.inp
+share/texmf-dist/tex/lualatex/lilyglyphs/commands/beamednotes.inp
+share/texmf-dist/tex/lualatex/lilyglyphs/commands/clefs.inp
+share/texmf-dist/tex/lualatex/lilyglyphs/commands/dynamics.inp
+share/texmf-dist/tex/lualatex/lilyglyphs/commands/fancyexamples.inp
+share/texmf-dist/tex/lualatex/lilyglyphs/commands/noteheads.inp
+share/texmf-dist/tex/lualatex/lilyglyphs/commands/numbers.inp
+share/texmf-dist/tex/lualatex/lilyglyphs/commands/rests.inp
+share/texmf-dist/tex/lualatex/lilyglyphs/commands/scripts.inp
+share/texmf-dist/tex/lualatex/lilyglyphs/commands/singlenotes.inp
+share/texmf-dist/tex/lualatex/lilyglyphs/commands/timesignatures.inp
+share/texmf-dist/tex/lualatex/lilyglyphs/core/README-core
+share/texmf-dist/tex/lualatex/lilyglyphs/core/dotted.inp
+share/texmf-dist/tex/lualatex/lilyglyphs/core/genericAccess.inp
+share/texmf-dist/tex/lualatex/lilyglyphs/core/keyval.inp
+share/texmf-dist/tex/lualatex/lilyglyphs/core/opticals.inp
+share/texmf-dist/tex/lualatex/lilyglyphs/lilyglyphs.sty
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/.gitignore
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-crescHairpin.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-crotchet.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-crotchetDotted.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-crotchetDottedDouble.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-crotchetDottedDoubleDown.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-crotchetDottedDown.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-crotchetDown.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-decrescHairpin.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-fancyExample.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-halfNote.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-halfNoteDotted.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-halfNoteDottedDouble.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-halfNoteDottedDoubleDown.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-halfNoteDottedDown.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-halfNoteDown.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-quaver.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-quaverDotted.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-quaverDottedDouble.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-quaverDottedDoubleDdown.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-quaverDottedDoubleDown.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-quaverDottedDown.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-quaverDown.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-semiquaver.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-semiquaverDotted.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-semiquaverDottedDouble.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-semiquaverDottedDoubleDown.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-semiquaverDottedDown.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-semiquaverDown.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-twoBeamedQuavers.pdf
+@dirrmtry share/texmf-dist/tex/lualatex/lilyglyphs/pdfs
+@dirrmtry share/texmf-dist/tex/lualatex/lilyglyphs/core
+@dirrmtry share/texmf-dist/tex/lualatex/lilyglyphs/commands
+@dirrmtry share/texmf-dist/tex/lualatex/lilyglyphs
+@dirrmtry share/texmf-dist/tex/lualatex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src
+@dirrmtry share/texmf-dist/source/luatex/lilyglyphs/glyphimages/definitions
+@dirrmtry share/texmf-dist/source/luatex/lilyglyphs/glyphimages
+@dirrmtry share/texmf-dist/source/luatex/lilyglyphs/fonts
+@dirrmtry share/texmf-dist/source/luatex/lilyglyphs
+@dirrmtry share/texmf-dist/source/luatex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/scripts/lilyglyphs
+@dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/fonts/opentype/public/lilyglyphs
+@dirrmtry share/texmf-dist/fonts/opentype/public
+@dirrmtry share/texmf-dist/fonts/opentype
+@dirrmtry share/texmf-dist/fonts
+@dirrmtry share/texmf-dist/doc/lualatex/lilyglyphs/license
+@dirrmtry share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources
+@dirrmtry share/texmf-dist/doc/lualatex/lilyglyphs/documentation/lilyglyphs_logo
+@dirrmtry share/texmf-dist/doc/lualatex/lilyglyphs/documentation
+@dirrmtry share/texmf-dist/doc/lualatex/lilyglyphs
+@dirrmtry share/texmf-dist/doc/lualatex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

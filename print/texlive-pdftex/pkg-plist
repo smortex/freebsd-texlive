@@ -1,3 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/pdfetex.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/pdfetex.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/pdftex.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/pdftex.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/pdftex/Announcement-1.40.2
 %%PORTDOCS%%share/texmf-dist/doc/pdftex/NEWS
 %%PORTDOCS%%share/texmf-dist/doc/pdftex/README
@@ -45,36 +49,31 @@
 %%PORTDOCS%%share/texmf-dist/doc/pdftex/thanh/ext/mktfm8z
 %%PORTDOCS%%share/texmf-dist/doc/pdftex/thanh/ext/protcode.tex
 %%PORTDOCS%%share/texmf-dist/doc/pdftex/thanh/ext/ufntinst.sty
+share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map
+share/texmf-dist/fonts/map/pdftex/updmap/pdftex_dl14.map
+share/texmf-dist/fonts/map/pdftex/updmap/pdftex_ndl14.map
 share/texmf-dist/scripts/simpdftex/simpdftex
-%%PORTDOCS%%share/texmf/doc/man/man1/pdfetex.1
-%%PORTDOCS%%share/texmf/doc/man/man1/pdfetex.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/pdftex.1
-%%PORTDOCS%%share/texmf/doc/man/man1/pdftex.man1.pdf
-share/texmf/fonts/map/pdftex/updmap/pdftex.map
-share/texmf/fonts/map/pdftex/updmap/pdftex_dl14.map
-share/texmf/fonts/map/pdftex/updmap/pdftex_ndl14.map
-share/texmf/tex/generic/config/pdftex-dvi.tex
-share/texmf/tex/generic/config/pdftexconfig.tex
-share/texmf/tex/generic/pdftex/glyphtounicode.tex
-@dirrmtry share/texmf/tex/generic/pdftex
-@dirrmtry share/texmf/tex/generic/config
-@dirrmtry share/texmf/tex/generic
-@dirrmtry share/texmf/tex
-@dirrmtry share/texmf/fonts/map/pdftex/updmap
-@dirrmtry share/texmf/fonts/map/pdftex
-@dirrmtry share/texmf/fonts/map
-@dirrmtry share/texmf/fonts
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
+share/texmf-dist/tex/generic/config/pdftex-dvi.tex
+share/texmf-dist/tex/generic/config/pdftexconfig.tex
+share/texmf-dist/tex/generic/pdftex/glyphtounicode.tex
+@dirrmtry share/texmf-dist/tex/generic/pdftex
+@dirrmtry share/texmf-dist/tex/generic/config
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/scripts/simpdftex
 @dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/fonts/map/pdftex/updmap
+@dirrmtry share/texmf-dist/fonts/map/pdftex
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/pdftex/thanh/ext
 @dirrmtry share/texmf-dist/doc/pdftex/thanh
 @dirrmtry share/texmf-dist/doc/pdftex/pdftex-pdfkeys
 @dirrmtry share/texmf-dist/doc/pdftex/manual/samplepdf
 @dirrmtry share/texmf-dist/doc/pdftex/manual
 @dirrmtry share/texmf-dist/doc/pdftex
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

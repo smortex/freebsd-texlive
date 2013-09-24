@@ -1,17 +1,17 @@
-%%PORTDOCS%%share/texmf/doc/man/man1/t1ascii.1
-%%PORTDOCS%%share/texmf/doc/man/man1/t1ascii.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/t1asm.1
-%%PORTDOCS%%share/texmf/doc/man/man1/t1asm.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/t1binary.1
-%%PORTDOCS%%share/texmf/doc/man/man1/t1binary.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/t1disasm.1
-%%PORTDOCS%%share/texmf/doc/man/man1/t1disasm.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/t1mac.1
-%%PORTDOCS%%share/texmf/doc/man/man1/t1mac.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/t1unmac.1
-%%PORTDOCS%%share/texmf/doc/man/man1/t1unmac.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/t1ascii.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/t1ascii.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/t1asm.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/t1asm.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/t1binary.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/t1binary.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/t1disasm.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/t1disasm.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/t1mac.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/t1mac.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/t1unmac.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/t1unmac.man1.pdf
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

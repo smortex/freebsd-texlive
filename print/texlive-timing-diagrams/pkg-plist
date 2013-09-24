@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/timing-diagrams/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/timing-diagrams/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/timing-diagrams/diagrams-examples.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/timing-diagrams/diagrams-examples.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/timing-diagrams/version.txt
+share/texmf-dist/tex/latex/timing-diagrams/timing-diagrams.sty
+@dirrmtry share/texmf-dist/tex/latex/timing-diagrams
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/timing-diagrams
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

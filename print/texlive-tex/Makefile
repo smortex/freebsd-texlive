@@ -1,15 +1,14 @@
 # $FreeBSD$
 
 PORTNAME=	tex
-PORTVERSION=	20120529
-PORTREVISION=	1
+PORTVERSION=	20130409
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	A sophisticated typesetting engine.
 
-RUN_DEPENDS=	${LOCALBASE}/share/texmf/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

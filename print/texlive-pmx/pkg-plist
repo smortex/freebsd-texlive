@@ -4,110 +4,28 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/examples/most.pmx
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/examples/mwalmnd.pmx
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/file600.eps
+%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/gpl.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/install_run_pmx270.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/install_run_pmx270.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmx-install.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmx-install.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmx260.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmx260.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmx2pdf.html
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxab.html
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/README
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/addresses/btennent.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/addresses/cmondrup.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/addresses/dlaurie.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/addresses/dsimons.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/addresses/hmorimoto.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/addresses/jpcoulon.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/addresses/mcodogno.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/addresses/noack.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/addresses/ovogel.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/addresses/rdunker.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/addresses/skneifl.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/addresses/texmusiclist.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/Donjump.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/Haydn.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/JChrBach.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/MIDI.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/MIDIbaroque.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/agon.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/autobeam.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/bars.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/beams.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/beethoven0.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/beethoven1.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/bloch.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/bruckner.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/caccini1.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/caccini2.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/caccini3.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/chords.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/chordslur.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/clefchg.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/clefchg2.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/clefnot.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/cslurs1k.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/cslurs1m.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/cslurs1n.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/cslurs2k.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/cslurs2m.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/cslurs2n.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/debussy.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/diabolica.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/dottedslur.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/dufay.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/grace.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/inlinesample.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/jumpbeam.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/jumpslur.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/keychg.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/kslurs1.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/kslurs2.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/kslurtweaks.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/macro.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/meter.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/mozart.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/notepara.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/noteparb.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/noteparc.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/ornament.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/pathetique.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/pickups.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/pitch.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/poppea.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/reloctav.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/rests.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/transpose.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/transpose1.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/transpose2.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/transpose3.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/triplerest.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/tristn.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/trists.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/vivaldi1.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/vivaldi2.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/volta.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/xtuplets.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/eps/xtupletsSich.eps
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/pmxccn2618.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxccn/pmxccn2618.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/ref260.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/ref260.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/scor2prt.html
+%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmx25-27.html
+%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmx270.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmx270.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/ref270.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/ref270.tex
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/pmx2pdf.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/pmx2pdf.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/pmxab.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/pmxab.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/scor2prt.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/scor2prt.man1.pdf
 share/texmf-dist/tex/generic/pmx/pmx.tex
-%%PORTDOCS%%share/texmf/doc/man/man1/pmx2pdf.1
-%%PORTDOCS%%share/texmf/doc/man/man1/pmx2pdf.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/pmxab.1
-%%PORTDOCS%%share/texmf/doc/man/man1/pmxab.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/scor2prt.1
-%%PORTDOCS%%share/texmf/doc/man/man1/scor2prt.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/generic/pmx
 @dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/generic/pmx/pmxccn/eps
-@dirrmtry share/texmf-dist/doc/generic/pmx/pmxccn/addresses
-@dirrmtry share/texmf-dist/doc/generic/pmx/pmxccn
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc/generic/pmx/examples
 @dirrmtry share/texmf-dist/doc/generic/pmx
 @dirrmtry share/texmf-dist/doc/generic

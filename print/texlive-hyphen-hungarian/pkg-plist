@@ -1,9 +1,9 @@
-%%PORTDOCS%%share/texmf/doc/generic/huhyphen/huhyphn.pdf
-%%PORTDOCS%%share/texmf/doc/generic/huhyphen/hyph_hu.dic
-%%PORTDOCS%%share/texmf/doc/generic/huhyphen/searchforerrors.rb
-%%PORTDOCS%%share/texmf/doc/generic/huhyphen/testhyphenation.rb
-@dirrmtry share/texmf/doc/generic/huhyphen
-@dirrmtry share/texmf/doc/generic
-@dirrmtry share/texmf/doc
+%%PORTDOCS%%share/texmf-dist/doc/generic/huhyphen/huhyphn.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/huhyphen/hyph_hu.dic
+%%PORTDOCS%%share/texmf-dist/doc/generic/huhyphen/searchforerrors.rb
+%%PORTDOCS%%share/texmf-dist/doc/generic/huhyphen/testhyphenation.rb
+@dirrmtry share/texmf-dist/doc/generic/huhyphen
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -1,39 +1,55 @@
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luaotfload/NEWS
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luaotfload/README
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luaotfload/filegraph.pdf
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luaotfload/luaotfload.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/luaotfload-tool.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/luaotfload-tool.man1.pdf
+share/texmf-dist/scripts/luaotfload/luaotfload-legacy-tool.lua
+share/texmf-dist/scripts/luaotfload/luaotfload-tool.lua
+share/texmf-dist/scripts/luaotfload/mkcharacters
+share/texmf-dist/scripts/luaotfload/mkglyphlist
+share/texmf-dist/scripts/luaotfload/mkstatus
 %%PORTSRC%%share/texmf-dist/source/luatex/luaotfload/Makefile
 %%PORTSRC%%share/texmf-dist/source/luatex/luaotfload/luaotfload.dtx
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-auxiliary.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-basics-gen.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-basics-nod.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-blacklist.cnf
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-characters.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-colors.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-database.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-extralibs.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-features.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-files.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-fonts-cbk.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-fonts-def.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-fonts-enc.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-fonts-ext.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-fonts-lua.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-fonts-tfm.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-glyphlist.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-legacy-attributes.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-legacy-database.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-legacy-merged.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-legacy.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-letterspace.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-loaders.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-merged.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-override.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-status.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-typo-krn.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload.sty
-share/texmf-dist/tex/luatex/luaotfload/otfl-blacklist.cnf
-share/texmf-dist/tex/luatex/luaotfload/otfl-data-con.lua
-share/texmf-dist/tex/luatex/luaotfload/otfl-font-cid.lua
-share/texmf-dist/tex/luatex/luaotfload/otfl-font-clr.lua
-share/texmf-dist/tex/luatex/luaotfload/otfl-font-def.lua
-share/texmf-dist/tex/luatex/luaotfload/otfl-font-dum.lua
-share/texmf-dist/tex/luatex/luaotfload/otfl-font-ini.lua
-share/texmf-dist/tex/luatex/luaotfload/otfl-font-map.lua
-share/texmf-dist/tex/luatex/luaotfload/otfl-font-nms.lua
-share/texmf-dist/tex/luatex/luaotfload/otfl-font-ota.lua
-share/texmf-dist/tex/luatex/luaotfload/otfl-font-otb.lua
-share/texmf-dist/tex/luatex/luaotfload/otfl-font-otc.lua
-share/texmf-dist/tex/luatex/luaotfload/otfl-font-otd.lua
-share/texmf-dist/tex/luatex/luaotfload/otfl-font-otf.lua
-share/texmf-dist/tex/luatex/luaotfload/otfl-font-oti.lua
-share/texmf-dist/tex/luatex/luaotfload/otfl-font-otn.lua
-share/texmf-dist/tex/luatex/luaotfload/otfl-font-ott.lua
-share/texmf-dist/tex/luatex/luaotfload/otfl-font-tfm.lua
-share/texmf-dist/tex/luatex/luaotfload/otfl-font-xtx.lua
-share/texmf-dist/tex/luatex/luaotfload/otfl-luat-dum.lua
-share/texmf-dist/tex/luatex/luaotfload/otfl-luat-ovr.lua
-share/texmf-dist/tex/luatex/luaotfload/otfl-node-dum.lua
-share/texmf-dist/tex/luatex/luaotfload/otfl-node-inj.lua
 @dirrmtry share/texmf-dist/tex/luatex/luaotfload
 @dirrmtry share/texmf-dist/tex/luatex
 @dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/luatex/luaotfload
 @dirrmtry share/texmf-dist/source/luatex
 @dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/scripts/luaotfload
+@dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc/luatex/luaotfload
 @dirrmtry share/texmf-dist/doc/luatex
 @dirrmtry share/texmf-dist/doc

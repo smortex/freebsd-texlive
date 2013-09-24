@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/colorweb/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/colorweb/colorweb.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/colorweb/colorwebfull.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/colorweb/colorwebuser.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/colorweb/descript.ion
+%%PORTSRC%%share/texmf-dist/source/latex/colorweb/colorweb.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/colorweb/colorweb.ins
+share/texmf-dist/tex/latex/colorweb/colorweb.sty
+@dirrmtry share/texmf-dist/tex/latex/colorweb
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/colorweb
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/colorweb
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

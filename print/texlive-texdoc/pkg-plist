@@ -1,7 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/texdoc.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/texdoc.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/texdoctk.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/texdoctk.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/texdoc/News
 %%PORTDOCS%%share/texmf-dist/doc/texdoc/texdoc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/texdoc/texdoc.tex
-share/texmf-dist/scripts/tetex/texdoctk.pl
 share/texmf-dist/scripts/texdoc/Data.meta.lua
 share/texmf-dist/scripts/texdoc/Data.tlpdb.lua
 share/texmf-dist/scripts/texdoc/alias.tlu
@@ -14,23 +17,19 @@ share/texmf-dist/scripts/texdoc/search.tlu
 share/texmf-dist/scripts/texdoc/texdoc.tlu
 share/texmf-dist/scripts/texdoc/texdoclib.tlu
 share/texmf-dist/scripts/texdoc/view.tlu
+share/texmf-dist/scripts/texdoctk/texdoctk.pl
 share/texmf-dist/texdoc/texdoc.cnf
 share/texmf-dist/texdoctk/texdocrc-win32.defaults
 share/texmf-dist/texdoctk/texdocrc.defaults
 share/texmf-dist/texdoctk/texdoctk.dat
-%%PORTDOCS%%share/texmf/doc/man/man1/texdoc.1
-%%PORTDOCS%%share/texmf/doc/man/man1/texdoc.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/texdoctk.1
-%%PORTDOCS%%share/texmf/doc/man/man1/texdoctk.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/texdoctk
 @dirrmtry share/texmf-dist/texdoc
+@dirrmtry share/texmf-dist/scripts/texdoctk
 @dirrmtry share/texmf-dist/scripts/texdoc
-@dirrmtry share/texmf-dist/scripts/tetex
 @dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/texdoc
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

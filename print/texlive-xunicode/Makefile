@@ -1,13 +1,14 @@
 # $FreeBSD$
 
 PORTNAME=	xunicode
-PORTVERSION=	20110912
-PORTREVISION=	1
+PORTVERSION=	20130515
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Generate Unicode characters from accented glyphs.
+
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/tipa/tipa.sty:${PORTSDIR}/print/texlive-tipa
 
 NOPORTSRC=	yes
 

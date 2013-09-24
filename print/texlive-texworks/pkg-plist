@@ -1,4 +1,4 @@
-%%PORTDOCS%%share/texmf/doc/texworks/README
+%%PORTDOCS%%share/texmf-dist/doc/texworks/README
 share/tlpkg/texworks/COPYING
 share/tlpkg/texworks/README.txt
 share/tlpkg/texworks/share/fonts/type1/gsfonts/README
@@ -365,7 +365,7 @@ share/tlpkg/texworks/texworks-help/TeXworks-manual/en/tw-help-title.txt
 @dirrmtry share/tlpkg/texworks/share/fonts
 @dirrmtry share/tlpkg/texworks/share
 @dirrmtry share/tlpkg/texworks
-@dirrmtry share/texmf/doc/texworks
-@dirrmtry share/texmf/doc
+@dirrmtry share/texmf-dist/doc/texworks
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

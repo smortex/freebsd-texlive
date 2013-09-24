@@ -1,6 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ccicons/FONTLOG.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ccicons/OFL.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/ccicons/ccicons.pdf
 share/texmf-dist/fonts/enc/dvips/ccicons/ccicons-u.enc
 share/texmf-dist/fonts/map/dvips/ccicons/ccicons.map
+share/texmf-dist/fonts/opentype/public/ccicons/ccicons.otf
 share/texmf-dist/fonts/tfm/public/ccicons/ccicons.tfm
 share/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb
 %%PORTSRC%%share/texmf-dist/source/fonts/ccicons/ccicons.sfd
@@ -21,6 +24,9 @@ share/texmf-dist/tex/latex/ccicons/ccicons.sty
 @dirrmtry share/texmf-dist/fonts/tfm/public/ccicons
 @dirrmtry share/texmf-dist/fonts/tfm/public
 @dirrmtry share/texmf-dist/fonts/tfm
+@dirrmtry share/texmf-dist/fonts/opentype/public/ccicons
+@dirrmtry share/texmf-dist/fonts/opentype/public
+@dirrmtry share/texmf-dist/fonts/opentype
 @dirrmtry share/texmf-dist/fonts/map/dvips/ccicons
 @dirrmtry share/texmf-dist/fonts/map/dvips
 @dirrmtry share/texmf-dist/fonts/map
@@ -30,6 +36,8 @@ share/texmf-dist/tex/latex/ccicons/ccicons.sty
 @dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/latex/ccicons
 @dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc/fonts/ccicons
+@dirrmtry share/texmf-dist/doc/fonts
 @dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

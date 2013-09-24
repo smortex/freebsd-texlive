@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-sorbian/lsorbian.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-sorbian/usorbian.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/babel-sorbian/lsorbian.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-sorbian/sorbian.ins
+%%PORTSRC%%share/texmf-dist/source/generic/babel-sorbian/usorbian.dtx
+share/texmf-dist/tex/generic/babel-sorbian/lsorbian.ldf
+share/texmf-dist/tex/generic/babel-sorbian/usorbian.ldf
+@dirrmtry share/texmf-dist/tex/generic/babel-sorbian
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/generic/babel-sorbian
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/babel-sorbian
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

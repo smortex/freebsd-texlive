@@ -4,7 +4,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/context/third/gnuplot/gnuplot-context-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/context/third/gnuplot/gnuplot-context-doc.tex
 share/texmf-dist/metapost/context/third/gnuplot/mp-gnuplot.mp
-share/texmf-dist/tex/context/third/gnuplot/t-gnuplot.tex
+share/texmf-dist/tex/context/third/gnuplot/t-gnuplot.mkii
+share/texmf-dist/tex/context/third/gnuplot/t-gnuplot.mkiv
 @dirrmtry share/texmf-dist/tex/context/third/gnuplot
 @dirrmtry share/texmf-dist/tex/context/third
 @dirrmtry share/texmf-dist/tex/context

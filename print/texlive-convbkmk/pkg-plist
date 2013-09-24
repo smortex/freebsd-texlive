@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/convbkmk/README
+share/texmf-dist/scripts/convbkmk/convbkmk.rb
+@dirrmtry share/texmf-dist/scripts/convbkmk
+@dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/doc/support/convbkmk
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

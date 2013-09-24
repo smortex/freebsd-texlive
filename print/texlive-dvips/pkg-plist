@@ -1,5 +1,49 @@
+%%PORTDOCS%%share/texmf-dist/doc/dvips/dvips.html
+%%PORTDOCS%%share/texmf-dist/doc/dvips/dvips.pdf
+%%PORTDOCS%%share/texmf-dist/doc/info/dvips.info
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/afm2tfm.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/afm2tfm.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/dvips.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/dvips.man1.pdf
+share/texmf-dist/dvips/base/color.pro
+share/texmf-dist/dvips/base/crop.pro
 share/texmf-dist/dvips/base/ehandler.ps
+share/texmf-dist/dvips/base/finclude.pro
+share/texmf-dist/dvips/base/hps.pro
 share/texmf-dist/dvips/base/resolution400.ps
+share/texmf-dist/dvips/base/special.pro
+share/texmf-dist/dvips/base/tex.pro
+share/texmf-dist/dvips/base/texc.pro
+share/texmf-dist/dvips/base/texps.pro
+share/texmf-dist/dvips/config/alt-rule.pro
+share/texmf-dist/dvips/config/canonex.cfg
+share/texmf-dist/dvips/config/config.bakoma
+share/texmf-dist/dvips/config/config.canonex
+share/texmf-dist/dvips/config/config.cx
+share/texmf-dist/dvips/config/config.deskjet
+share/texmf-dist/dvips/config/config.dvired
+share/texmf-dist/dvips/config/config.epson
+share/texmf-dist/dvips/config/config.ibmvga
+share/texmf-dist/dvips/config/config.ljfour
+share/texmf-dist/dvips/config/config.luc
+share/texmf-dist/dvips/config/config.mbn
+share/texmf-dist/dvips/config/config.mga
+share/texmf-dist/dvips/config/config.mirrorprint
+share/texmf-dist/dvips/config/config.ot2
+share/texmf-dist/dvips/config/config.ps
+share/texmf-dist/dvips/config/config.qms
+share/texmf-dist/dvips/config/config.toshiba
+share/texmf-dist/dvips/config/config.unms
+share/texmf-dist/dvips/config/config.xyp
+share/texmf-dist/dvips/config/cx.cfg
+share/texmf-dist/dvips/config/deskjet.cfg
+share/texmf-dist/dvips/config/dfaxhigh.cfg
+share/texmf-dist/dvips/config/dvired.cfg
+share/texmf-dist/dvips/config/epson.cfg
+share/texmf-dist/dvips/config/ibmvga.cfg
+share/texmf-dist/dvips/config/ljfour.cfg
+share/texmf-dist/dvips/config/qms.cfg
+share/texmf-dist/dvips/config/toshiba.cfg
 share/texmf-dist/fonts/enc/dvips/base/6w.enc
 share/texmf-dist/fonts/enc/dvips/base/8a.enc
 share/texmf-dist/fonts/enc/dvips/base/8r.enc
@@ -31,73 +75,35 @@ share/texmf-dist/fonts/enc/dvips/base/texmext.enc
 share/texmf-dist/fonts/enc/dvips/base/texmital.enc
 share/texmf-dist/fonts/enc/dvips/base/texmsym.enc
 share/texmf-dist/fonts/enc/dvips/base/texnansx.enc
+share/texmf-dist/fonts/map/dvips/updmap/builtin35.map
+share/texmf-dist/fonts/map/dvips/updmap/download35.map
+share/texmf-dist/fonts/map/dvips/updmap/ps2pk.map
+share/texmf-dist/fonts/map/dvips/updmap/psfonts.map
+share/texmf-dist/fonts/map/dvips/updmap/psfonts_pk.map
+share/texmf-dist/fonts/map/dvips/updmap/psfonts_t1.map
 share/texmf-dist/tex/generic/dvips/blackdvi.sty
 share/texmf-dist/tex/generic/dvips/blackdvi.tex
 share/texmf-dist/tex/generic/dvips/colordvi.sty
 share/texmf-dist/tex/generic/dvips/colordvi.tex
 share/texmf-dist/tex/generic/dvips/rotate.sty
 share/texmf-dist/tex/generic/dvips/rotate.tex
-%%PORTDOCS%%share/texmf/doc/dvips/dvips.html
-%%PORTDOCS%%share/texmf/doc/dvips/dvips.pdf
-%%PORTDOCS%%share/texmf/doc/info/dvips.info
-%%PORTDOCS%%share/texmf/doc/man/man1/afm2tfm.1
-%%PORTDOCS%%share/texmf/doc/man/man1/afm2tfm.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/dvips.1
-%%PORTDOCS%%share/texmf/doc/man/man1/dvips.man1.pdf
-share/texmf/dvips/config/alt-rule.pro
-share/texmf/dvips/config/canonex.cfg
-share/texmf/dvips/config/config.bakoma
-share/texmf/dvips/config/config.canonex
-share/texmf/dvips/config/config.cx
-share/texmf/dvips/config/config.deskjet
-share/texmf/dvips/config/config.dvired
-share/texmf/dvips/config/config.epson
-share/texmf/dvips/config/config.ibmvga
-share/texmf/dvips/config/config.ljfour
-share/texmf/dvips/config/config.luc
-share/texmf/dvips/config/config.mbn
-share/texmf/dvips/config/config.mga
-share/texmf/dvips/config/config.mirrorprint
-share/texmf/dvips/config/config.ot2
-share/texmf/dvips/config/config.ps
-share/texmf/dvips/config/config.qms
-share/texmf/dvips/config/config.toshiba
-share/texmf/dvips/config/config.unms
-share/texmf/dvips/config/config.xyp
-share/texmf/dvips/config/cx.cfg
-share/texmf/dvips/config/deskjet.cfg
-share/texmf/dvips/config/dfaxhigh.cfg
-share/texmf/dvips/config/dvired.cfg
-share/texmf/dvips/config/epson.cfg
-share/texmf/dvips/config/ibmvga.cfg
-share/texmf/dvips/config/ljfour.cfg
-share/texmf/dvips/config/qms.cfg
-share/texmf/dvips/config/toshiba.cfg
-share/texmf/fonts/map/dvips/updmap/builtin35.map
-share/texmf/fonts/map/dvips/updmap/download35.map
-share/texmf/fonts/map/dvips/updmap/ps2pk.map
-share/texmf/fonts/map/dvips/updmap/psfonts.map
-share/texmf/fonts/map/dvips/updmap/psfonts_pk.map
-share/texmf/fonts/map/dvips/updmap/psfonts_t1.map
-@dirrmtry share/texmf/fonts/map/dvips/updmap
-@dirrmtry share/texmf/fonts/map/dvips
-@dirrmtry share/texmf/fonts/map
-@dirrmtry share/texmf/fonts
-@dirrmtry share/texmf/dvips/config
-@dirrmtry share/texmf/dvips
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc/info
-@dirrmtry share/texmf/doc/dvips
-@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/generic/dvips
 @dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/fonts/map/dvips/updmap
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/enc/dvips/base
 @dirrmtry share/texmf-dist/fonts/enc/dvips
 @dirrmtry share/texmf-dist/fonts/enc
 @dirrmtry share/texmf-dist/fonts
+@dirrmtry share/texmf-dist/dvips/config
 @dirrmtry share/texmf-dist/dvips/base
 @dirrmtry share/texmf-dist/dvips
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
+@dirrmtry share/texmf-dist/doc/info
+@dirrmtry share/texmf-dist/doc/dvips
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

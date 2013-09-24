@@ -1,0 +1,4 @@
+The package provides tools to typeset drama plays. It defines
+commands to introduce characters' lines, to render stage
+directions, to divide a play into acts and scenes and to build
+the dramatis personae automatically.

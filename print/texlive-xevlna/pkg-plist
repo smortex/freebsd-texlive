@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xevlna/License.txt
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xevlna/README
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xevlna/xevlna-inc.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xevlna/xevlna.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xevlna/xevlna.tex
+share/texmf-dist/tex/xelatex/xevlna/xevlna.sty
+@dirrmtry share/texmf-dist/tex/xelatex/xevlna
+@dirrmtry share/texmf-dist/tex/xelatex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/xelatex/xevlna
+@dirrmtry share/texmf-dist/doc/xelatex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

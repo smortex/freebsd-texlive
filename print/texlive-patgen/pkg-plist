@@ -1,7 +1,7 @@
-%%PORTDOCS%%share/texmf/doc/man/man1/patgen.1
-%%PORTDOCS%%share/texmf/doc/man/man1/patgen.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/patgen.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/patgen.man1.pdf
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ltablex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ltablex/ltablex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ltablex/ltablex.tex
+share/texmf-dist/tex/latex/ltablex/ltablex.sty
+@dirrmtry share/texmf-dist/tex/latex/ltablex
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/ltablex
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

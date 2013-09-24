@@ -1,0 +1,2 @@
+The package provides simple utility methods to swap the meaning
+(token expansion) of two macros by name.

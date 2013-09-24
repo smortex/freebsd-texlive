@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-finnish/finnish.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/babel-finnish/finnish.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-finnish/finnish.ins
+share/texmf-dist/tex/generic/babel-finnish/finnish.ldf
+@dirrmtry share/texmf-dist/tex/generic/babel-finnish
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/generic/babel-finnish
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/babel-finnish
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

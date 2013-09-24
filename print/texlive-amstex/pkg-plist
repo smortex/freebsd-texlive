@@ -7,21 +7,20 @@
 %%PORTDOCS%%share/texmf-dist/doc/amstex/base/amstinst.tex
 %%PORTDOCS%%share/texmf-dist/doc/amstex/base/joyerr.tex
 %%PORTDOCS%%share/texmf-dist/doc/amstex/base/joyerr2.tex
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/amstex.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/amstex.man1.pdf
 share/texmf-dist/tex/amstex/base/amsppt.sti
 share/texmf-dist/tex/amstex/base/amsppt.sty
 share/texmf-dist/tex/amstex/base/amsppt1.tex
 share/texmf-dist/tex/amstex/base/amstex.bug
 share/texmf-dist/tex/amstex/base/amstex.tex
 share/texmf-dist/tex/amstex/config/amstex.ini
-%%PORTDOCS%%share/texmf/doc/man/man1/amstex.1
-%%PORTDOCS%%share/texmf/doc/man/man1/amstex.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/amstex/config
 @dirrmtry share/texmf-dist/tex/amstex/base
 @dirrmtry share/texmf-dist/tex/amstex
 @dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc/amstex/base
 @dirrmtry share/texmf-dist/doc/amstex
 @dirrmtry share/texmf-dist/doc

@@ -29,6 +29,7 @@ share/texmf-dist/bibtex/csf/biblatex/winansi_se.csf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/01-introduction.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/02-annotations.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/02-annotations.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/03-localization-keys.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/10-references-per-section.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/10-references-per-section.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/11-references-by-section.pdf
@@ -186,6 +187,7 @@ share/texmf-dist/tex/latex/biblatex/lbx/brazilian.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/british.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/canadian.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/catalan.lbx
+share/texmf-dist/tex/latex/biblatex/lbx/croatian.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/czech.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/danish.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/dutch.lbx
@@ -202,6 +204,7 @@ share/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/norsk.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/norwegian.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/nynorsk.lbx
+share/texmf-dist/tex/latex/biblatex/lbx/polish.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/portuges.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/portuguese.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/russian.lbx

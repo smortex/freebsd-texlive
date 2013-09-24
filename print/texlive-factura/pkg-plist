@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/factura/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/factura/factura-modelo-ya.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/factura/factura-modelo.tex
+share/texmf-dist/tex/latex/factura/factura.cls
+share/texmf-dist/tex/latex/factura/factura.def
+@dirrmtry share/texmf-dist/tex/latex/factura
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/factura
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

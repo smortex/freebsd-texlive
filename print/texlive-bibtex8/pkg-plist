@@ -3,6 +3,12 @@ share/texmf-dist/bibtex/csf/polish-csf/88592pl.csf
 share/texmf-dist/bibtex/csf/polish-csf/cp1250pl.csf
 share/texmf-dist/bibtex/csf/polish-csf/cp852pl.csf
 share/texmf-dist/bibtex/csf/polish-csf/iso8859-7.csf
+%%PORTDOCS%%share/texmf-dist/doc/bibtex8/00readme.txt
+%%PORTDOCS%%share/texmf-dist/doc/bibtex8/HISTORY
+%%PORTDOCS%%share/texmf-dist/doc/bibtex8/csfile.txt
+%%PORTDOCS%%share/texmf-dist/doc/bibtex8/file_id.diz
+@dirrmtry share/texmf-dist/doc/bibtex8
+@dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/csf/polish-csf
 @dirrmtry share/texmf-dist/bibtex/csf/base
 @dirrmtry share/texmf-dist/bibtex/csf

@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/idxcmds/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/idxcmds/idxcmds_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/idxcmds/idxcmds_en.tex
+share/texmf-dist/tex/latex/idxcmds/idxcmds.sty
+@dirrmtry share/texmf-dist/tex/latex/idxcmds
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/idxcmds
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

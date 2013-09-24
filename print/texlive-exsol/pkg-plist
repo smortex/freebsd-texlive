@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/exsol/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/exsol/exsol.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/exsol/exsol.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/exsol/exsol.ins
+share/texmf-dist/tex/latex/exsol/exsol.sty
+@dirrmtry share/texmf-dist/tex/latex/exsol
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/exsol
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/exsol
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
