@@ -14,6 +14,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/eplain/doc/xhyper.jpg
 %%PORTDOCS%%share/texmf-dist/doc/eplain/util/idxuniq
 %%PORTDOCS%%share/texmf-dist/doc/eplain/util/trimsee
+%%PORTDOCS%%share/texmf-dist/doc/info/eplain.info
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/eplain.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/eplain.man1.pdf
 %%PORTSRC%%share/texmf-dist/source/eplain/eplain-source-3.5.zip
 %%PORTSRC%%share/texmf-dist/source/eplain/xeplain.tex
 share/texmf-dist/tex/eplain/arrow.tex
@@ -21,17 +24,13 @@ share/texmf-dist/tex/eplain/btxmac.tex
 share/texmf-dist/tex/eplain/eplain.aux
 share/texmf-dist/tex/eplain/eplain.ini
 share/texmf-dist/tex/eplain/eplain.tex
-%%PORTDOCS%%share/texmf/doc/info/eplain.info
-%%PORTDOCS%%share/texmf/doc/man/man1/eplain.1
-%%PORTDOCS%%share/texmf/doc/man/man1/eplain.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc/info
-@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/eplain
 @dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/eplain
 @dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
+@dirrmtry share/texmf-dist/doc/info
 @dirrmtry share/texmf-dist/doc/eplain/util
 @dirrmtry share/texmf-dist/doc/eplain/doc
 @dirrmtry share/texmf-dist/doc/eplain/demo

@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/translations/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/translations/translations_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/translations/translations_en.tex
+share/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+share/texmf-dist/tex/latex/translations/translations-basic-dictionary-french.trsl
+share/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
+share/texmf-dist/tex/latex/translations/translations-basic-dictionary-spanish.trsl
+share/texmf-dist/tex/latex/translations/translations.sty
+@dirrmtry share/texmf-dist/tex/latex/translations
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/translations
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

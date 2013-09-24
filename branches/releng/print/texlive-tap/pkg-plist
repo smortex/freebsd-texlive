@@ -1,37 +1,35 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/tap/0README.TAP
-%%PORTDOCS%%share/texmf-dist/doc/generic/tap/0tabdoc.inf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tap/0tapdoc.inf
 %%PORTDOCS%%share/texmf-dist/doc/generic/tap/circ.eps
 %%PORTDOCS%%share/texmf-dist/doc/generic/tap/circmag.eps
+%%PORTDOCS%%share/texmf-dist/doc/generic/tap/epsfx.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/tap/tapanch.100
 %%PORTDOCS%%share/texmf-dist/doc/generic/tap/tapanch.mp
+%%PORTDOCS%%share/texmf-dist/doc/generic/tap/tapcv/sampdos/0sampdos.inf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tap/tapcv/sampdos/post1.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tap/tapcv/sampdos/post2.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tap/tapcv/sampdos/prea1.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tap/tapcv/sampdos/prea2.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tap/tapcv/sampdos/prea3.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tap/tapcv/sampdos/tapcv0.raw
+%%PORTDOCS%%share/texmf-dist/doc/generic/tap/tapcv/sampdos/tapcv1.raw
+%%PORTDOCS%%share/texmf-dist/doc/generic/tap/tapcv/sampdos/tapcv2.raw
+%%PORTDOCS%%share/texmf-dist/doc/generic/tap/tapcv/sampdos/tapcv3.raw
+%%PORTDOCS%%share/texmf-dist/doc/generic/tap/tapcv/sampdos/tapcv4.raw
+%%PORTDOCS%%share/texmf-dist/doc/generic/tap/tapcv/sampdos/tapcv5.raw
+%%PORTDOCS%%share/texmf-dist/doc/generic/tap/tapcv/sampdos/tapcv6.raw
+%%PORTDOCS%%share/texmf-dist/doc/generic/tap/tapcv/sampdos/tcv.bat
+%%PORTDOCS%%share/texmf-dist/doc/generic/tap/tapcv/sampdos/tcv_.bat
+%%PORTDOCS%%share/texmf-dist/doc/generic/tap/tapcv/tapcv.awk
 %%PORTDOCS%%share/texmf-dist/doc/generic/tap/tapdoc.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/tap/tapxamp1.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/tap/tapxamp2.tex
-%%PORTSRC%%share/texmf-dist/source/generic/tap/tabcv/sampdos/0sampdos.inf
-%%PORTSRC%%share/texmf-dist/source/generic/tap/tabcv/sampdos/post1.tex
-%%PORTSRC%%share/texmf-dist/source/generic/tap/tabcv/sampdos/post2.tex
-%%PORTSRC%%share/texmf-dist/source/generic/tap/tabcv/sampdos/prea1.tex
-%%PORTSRC%%share/texmf-dist/source/generic/tap/tabcv/sampdos/prea2.tex
-%%PORTSRC%%share/texmf-dist/source/generic/tap/tabcv/sampdos/prea3.tex
-%%PORTSRC%%share/texmf-dist/source/generic/tap/tabcv/sampdos/tapcv0.raw
-%%PORTSRC%%share/texmf-dist/source/generic/tap/tabcv/sampdos/tapcv1.raw
-%%PORTSRC%%share/texmf-dist/source/generic/tap/tabcv/sampdos/tapcv2.raw
-%%PORTSRC%%share/texmf-dist/source/generic/tap/tabcv/sampdos/tapcv3.raw
-%%PORTSRC%%share/texmf-dist/source/generic/tap/tabcv/sampdos/tapcv4.raw
-%%PORTSRC%%share/texmf-dist/source/generic/tap/tabcv/sampdos/tapcv5.raw
-%%PORTSRC%%share/texmf-dist/source/generic/tap/tabcv/sampdos/tapcv6.raw
-%%PORTSRC%%share/texmf-dist/source/generic/tap/tabcv/sampdos/tcv.bat
-%%PORTSRC%%share/texmf-dist/source/generic/tap/tabcv/sampdos/tcv_.bat
-%%PORTSRC%%share/texmf-dist/source/generic/tap/tabcv/tapcv.awk
 share/texmf-dist/tex/generic/tap/tap.tex
 @dirrmtry share/texmf-dist/tex/generic/tap
 @dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/generic/tap/tabcv/sampdos
-@dirrmtry share/texmf-dist/source/generic/tap/tabcv
-@dirrmtry share/texmf-dist/source/generic/tap
-@dirrmtry share/texmf-dist/source/generic
-@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/tap/tapcv/sampdos
+@dirrmtry share/texmf-dist/doc/generic/tap/tapcv
 @dirrmtry share/texmf-dist/doc/generic/tap
 @dirrmtry share/texmf-dist/doc/generic
 @dirrmtry share/texmf-dist/doc

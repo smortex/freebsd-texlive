@@ -1,26 +1,26 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/Contents
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/README
-%%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/more_docs/README
-%%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/more_docs/dtk02-1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/more_docs/dtk02-2.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/more_docs/tugboat01-4.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/dtk02-1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/dtk02-1.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/dtk02-2.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/dtk02-2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/dtk02-2.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/pst-plot-doc.bib
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/pst-plot-doc.dat
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/pst-plot-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/pst-plot-doc.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/pst-plot97.tex
-%%PORTSRC%%share/texmf-dist/source/generic/pst-plot/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/tugboat01-4.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/tugboat01-4.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-plot/tugboat01-4.tex
 share/texmf-dist/tex/generic/pst-plot/pst-plot.tex
+share/texmf-dist/tex/generic/pst-plot/pst-plot97.tex
 share/texmf-dist/tex/latex/pst-plot/pst-plot.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-plot
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/pst-plot
 @dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/generic/pst-plot
-@dirrmtry share/texmf-dist/source/generic
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/doc/generic/pst-plot/more_docs
 @dirrmtry share/texmf-dist/doc/generic/pst-plot
 @dirrmtry share/texmf-dist/doc/generic
 @dirrmtry share/texmf-dist/doc

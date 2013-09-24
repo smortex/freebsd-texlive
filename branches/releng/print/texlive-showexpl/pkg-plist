@@ -2,7 +2,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/showexpl/result-picture.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/showexpl/showexpl-test.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/showexpl/showexpl-test.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/showexpl/showexpl.cfg
 %%PORTDOCS%%share/texmf-dist/doc/latex/showexpl/showexpl.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/showexpl/showexpl.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/showexpl/showexpl.ins

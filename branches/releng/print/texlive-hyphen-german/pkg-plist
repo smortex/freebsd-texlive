@@ -1,9 +1,9 @@
-share/texmf/tex/generic/hyphen/dehyphn.tex
-share/texmf/tex/generic/hyphen/dehypht.tex
-share/texmf/tex/generic/hyphen/dehyphtex.tex
-share/texmf/tex/generic/hyphen/ghyphen.README
-@dirrmtry share/texmf/tex/generic/hyphen
-@dirrmtry share/texmf/tex/generic
-@dirrmtry share/texmf/tex
+share/texmf-dist/tex/generic/hyphen/dehyphn.tex
+share/texmf-dist/tex/generic/hyphen/dehypht.tex
+share/texmf-dist/tex/generic/hyphen/dehyphtex.tex
+share/texmf-dist/tex/generic/hyphen/ghyphen.README
+@dirrmtry share/texmf-dist/tex/generic/hyphen
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/interval/interval.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/interval/interval.tex
+share/texmf-dist/tex/latex/interval/interval.sty
+@dirrmtry share/texmf-dist/tex/latex/interval
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/interval
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

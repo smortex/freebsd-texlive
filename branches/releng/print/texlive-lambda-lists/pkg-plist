@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/plain/lambda-lists/README
+%%PORTDOCS%%share/texmf-dist/doc/plain/lambda-lists/lambda-lists.pdf
+%%PORTDOCS%%share/texmf-dist/doc/plain/lambda-lists/lambda-lists.tex
+share/texmf-dist/tex/plain/lambda-lists/lambda.sty
+@dirrmtry share/texmf-dist/tex/plain/lambda-lists
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/plain/lambda-lists
+@dirrmtry share/texmf-dist/doc/plain
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

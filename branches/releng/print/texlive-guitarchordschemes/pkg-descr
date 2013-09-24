@@ -1,0 +1,5 @@
+This package provides two commands (\chordscheme and \scales).
+With those commands it is possible to draw schematic diagrams
+of guitar chord tablatures and scale tablatures. Both commands
+know a range of options that allow wide customization of the
+output. The package's drawing is done with the help of TikZ.

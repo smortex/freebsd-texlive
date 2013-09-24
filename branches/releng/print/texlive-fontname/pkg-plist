@@ -43,6 +43,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fontname/texnansx.html
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fontname/xl2.html
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fontname/xt2.html
+%%PORTDOCS%%share/texmf-dist/doc/info/fontname.info
 share/texmf-dist/fonts/map/fontname/adobe.map
 share/texmf-dist/fonts/map/fontname/apple.map
 share/texmf-dist/fonts/map/fontname/bitstrea.map
@@ -66,12 +67,10 @@ share/texmf-dist/fonts/map/fontname/variant.map
 share/texmf-dist/fonts/map/fontname/weight.map
 share/texmf-dist/fonts/map/fontname/width.map
 share/texmf-dist/fonts/map/fontname/yandy.map
-%%PORTDOCS%%share/texmf/doc/info/fontname.info
-@dirrmtry share/texmf/doc/info
-@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/fonts/map/fontname
 @dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts
+@dirrmtry share/texmf-dist/doc/info
 @dirrmtry share/texmf-dist/doc/fonts/fontname
 @dirrmtry share/texmf-dist/doc/fonts
 @dirrmtry share/texmf-dist/doc

@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-thai/thai.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/babel-thai/thai.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-thai/thai.ins
+share/texmf-dist/tex/generic/babel-thai/lthenc.def
+share/texmf-dist/tex/generic/babel-thai/thai.ldf
+share/texmf-dist/tex/generic/babel-thai/tis620.def
+@dirrmtry share/texmf-dist/tex/generic/babel-thai
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/generic/babel-thai
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/babel-thai
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

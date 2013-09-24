@@ -1,3 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/skdoc/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/skdoc/skdoc.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/skdoc/skdoc.dtx
 share/texmf-dist/tex/latex/skdoc/skdoc.cls

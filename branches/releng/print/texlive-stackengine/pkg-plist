@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/stackengine/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/stackengine/stackengine.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/stackengine/stackengine.tex
+share/texmf-dist/tex/latex/stackengine/stackengine.sty
+@dirrmtry share/texmf-dist/tex/latex/stackengine
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/stackengine
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

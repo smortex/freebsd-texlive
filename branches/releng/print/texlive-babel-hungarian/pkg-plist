@@ -1,0 +1,6 @@
+share/texmf-dist/tex/latex/babel-hungarian/magyar.ldf
+@dirrmtry share/texmf-dist/tex/latex/babel-hungarian
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

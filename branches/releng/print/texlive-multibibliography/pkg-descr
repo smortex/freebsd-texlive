@@ -1,0 +1,7 @@
+Conventional standards for bibliography styles impose a forced
+choice between index and name/year citations, and corresponding
+references. The package avoids this choice, by providing
+alphabetic, sequenced, and even chronological orderings of
+references. Inline citations, that integrate these
+heterogeneous styles, are also supported (and work with other
+bibliography packages).

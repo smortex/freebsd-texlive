@@ -1,0 +1,4 @@
+The package provides several commands to prefix (and hence
+obscure) a macro's (or a sequence of macros') name, and to
+restore the original macro(s) at places in a document where
+they are needed.

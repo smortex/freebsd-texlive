@@ -1,23 +1,47 @@
-%%PORTDOCS%%share/texmf/doc/dvipdfmx/dvipdfmx-special.pdf
-%%PORTDOCS%%share/texmf/doc/dvipdfmx/dvipdfmx-special.tex
-%%PORTDOCS%%share/texmf/doc/man/man1/extractbb.1
-%%PORTDOCS%%share/texmf/doc/man/man1/extractbb.man1.pdf
-share/texmf/fonts/cmap/README
-share/texmf/fonts/cmap/dvipdfmx/README
-share/texmf/fonts/cmap/dvipdfmx/UTF8-UCS2
-share/texmf/fonts/map/dvipdfmx/ckx.map
-share/texmf/fonts/map/dvipdfmx/updmap/kanjix.map
+%%PORTDOCS%%share/texmf-dist/doc/dvipdfm/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/dvipdfm/dvipdfm.pdf
+%%PORTDOCS%%share/texmf-dist/doc/dvipdfm/dvipdfm.tex
+%%PORTDOCS%%share/texmf-dist/doc/dvipdfm/mwicks.bb
+%%PORTDOCS%%share/texmf-dist/doc/dvipdfm/mwicks.jpeg
+%%PORTDOCS%%share/texmf-dist/doc/dvipdfm/sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/dvipdfm/something.bb
+%%PORTDOCS%%share/texmf-dist/doc/dvipdfm/something.eps
+%%PORTDOCS%%share/texmf-dist/doc/dvipdfm/something.fig
+%%PORTDOCS%%share/texmf-dist/doc/dvipdfm/something.pdf
+%%PORTDOCS%%share/texmf-dist/doc/dvipdfm/transistor.bb
+%%PORTDOCS%%share/texmf-dist/doc/dvipdfm/transistor.eps
+%%PORTDOCS%%share/texmf-dist/doc/dvipdfm/transistor.fig
+%%PORTDOCS%%share/texmf-dist/doc/dvipdfm/transistor.pdf
+%%PORTDOCS%%share/texmf-dist/doc/dvipdfmx/dvipdfmx-special.pdf
+%%PORTDOCS%%share/texmf-dist/doc/dvipdfmx/dvipdfmx-special.tex
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/dvipdfm.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/dvipdfm.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/dvipdft.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/dvipdft.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/ebb.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/ebb.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/extractbb.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/extractbb.man1.pdf
+share/texmf-dist/dvipdfmx/dvipdfmx.cfg
+share/texmf-dist/fonts/cmap/dvipdfmx/EUC-UCS2
+share/texmf-dist/fonts/cmap/dvipdfmx/README
+share/texmf-dist/fonts/cmap/dvipdfmx/UTF8-UCS2
+share/texmf-dist/fonts/map/dvipdfmx/cid-x.map
+share/texmf-dist/fonts/map/dvipdfmx/ckx.map
+share/texmf-dist/fonts/map/dvipdfmx/updmap/kanjix.map
 share/tlpkg/tlpostcode/dvipdfmx.pl
 @dirrmtry share/tlpkg/tlpostcode
-@dirrmtry share/texmf/fonts/map/dvipdfmx/updmap
-@dirrmtry share/texmf/fonts/map/dvipdfmx
-@dirrmtry share/texmf/fonts/map
-@dirrmtry share/texmf/fonts/cmap/dvipdfmx
-@dirrmtry share/texmf/fonts/cmap
-@dirrmtry share/texmf/fonts
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc/dvipdfmx
-@dirrmtry share/texmf/doc
+@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/updmap
+@dirrmtry share/texmf-dist/fonts/map/dvipdfmx
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts/cmap/dvipdfmx
+@dirrmtry share/texmf-dist/fonts/cmap
+@dirrmtry share/texmf-dist/fonts
+@dirrmtry share/texmf-dist/dvipdfmx
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
+@dirrmtry share/texmf-dist/doc/dvipdfmx
+@dirrmtry share/texmf-dist/doc/dvipdfm
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

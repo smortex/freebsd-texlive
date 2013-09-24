@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	luaotfload
-PORTVERSION=	20120530
-PORTREVISION=	2
+PORTVERSION=	20130726
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	OpenType layout system for Plain TeX and LaTeX.
+COMMENT=	OpenType 'loader' for Plain TeX and LaTeX.
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxdpx-beamer/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxdpx-beamer/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxdpx-beamer/sample/test-framezoom.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxdpx-beamer/sample/test-navisymbol.tex
+share/texmf-dist/tex/latex/bxdpx-beamer/bxdpx-beamer.sty
+@dirrmtry share/texmf-dist/tex/latex/bxdpx-beamer
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/bxdpx-beamer/sample
+@dirrmtry share/texmf-dist/doc/latex/bxdpx-beamer
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

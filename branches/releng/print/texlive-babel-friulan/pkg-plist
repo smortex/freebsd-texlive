@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-friulan/friulan.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/babel-friulan/friulan.dtx
+share/texmf-dist/tex/generic/babel-friulan/friulan.ldf
+@dirrmtry share/texmf-dist/tex/generic/babel-friulan
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/generic/babel-friulan
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/babel-friulan
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

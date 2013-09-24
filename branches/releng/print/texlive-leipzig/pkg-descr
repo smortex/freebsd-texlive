@@ -1,0 +1,5 @@
+The leipzig package provides a set of macros for standard
+glossing abbreviations, with options to create new ones. They
+are mnemonic (e.g. \Acc{} for accusative, abbreviated acc).
+These abbre can be used alone or on top of the glossaries
+package for easy indexing and glossary printing.

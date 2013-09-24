@@ -1,0 +1,12 @@
+%%PORTSRC%%share/texmf-dist/source/generic/babel-vietnamese/vietnamese.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-vietnamese/vietnamese.ins
+share/texmf-dist/tex/generic/babel-vietnamese/vietnam.ldf
+share/texmf-dist/tex/generic/babel-vietnamese/vietnamese.ldf
+@dirrmtry share/texmf-dist/tex/generic/babel-vietnamese
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/generic/babel-vietnamese
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

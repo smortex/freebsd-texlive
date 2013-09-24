@@ -1,0 +1,229 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/FONTLOG.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/Gentium/FONTLOG.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/Gentium/GENTIUM-FAQ.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/Gentium/OFL-FAQ.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/Gentium/OFL.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/Gentium/QUOTES.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/Gentium/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/GentiumBasic/FONTLOG.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/GentiumBasic/GENTIUM-FAQ.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/GentiumBasic/OFL-FAQ.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/GentiumBasic/OFL.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/GentiumPlus/FONTLOG.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/GentiumPlus/GENTIUM-FAQ.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/GentiumPlus/OFL-FAQ.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/GentiumPlus/OFL.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/GentiumPlus/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/GentiumPlus/documentation/DOCUMENTATION.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/GentiumPlus/documentation/GentiumPlus-features.odt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/GentiumPlus/documentation/GentiumPlus-features.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/GentiumPlusCompact/FONTLOG.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/GentiumPlusCompact/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/GentiumPlusCompact/feat_set_tuned.xml
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/OFL-FAQ.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/OFL.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/gentium.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gentium-tug/gentium.tex
+share/texmf-dist/fonts/afm/public/gentium-tug/GenBasB.afm
+share/texmf-dist/fonts/afm/public/gentium-tug/GenBasBI.afm
+share/texmf-dist/fonts/afm/public/gentium-tug/GentiumPlus-I.afm
+share/texmf-dist/fonts/afm/public/gentium-tug/GentiumPlus-R.afm
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-agr.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-ec-sc.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-ec-ttf-sc.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-ec-ttf.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-ec.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-l7x-sc.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-l7x.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-lgr.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-ot1-sc.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-ot1.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-qx-sc.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-qx.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-t2a-sc.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-t2a.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-t2b-sc.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-t2b.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-t2c-sc.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-t2c.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-t5-sc.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-t5-ttf.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-t5.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-texnansi-sc.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-texnansi.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-ts1.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-x2-sc.enc
+share/texmf-dist/fonts/enc/dvips/gentium-tug/gentium-x2.enc
+share/texmf-dist/fonts/map/dvips/gentium-tug/gentium-type1.map
+share/texmf-dist/fonts/map/pdftex/gentium-tug/gentium-agr.map
+share/texmf-dist/fonts/map/pdftex/gentium-tug/gentium-ec.map
+share/texmf-dist/fonts/map/pdftex/gentium-tug/gentium-l7x.map
+share/texmf-dist/fonts/map/pdftex/gentium-tug/gentium-lgr.map
+share/texmf-dist/fonts/map/pdftex/gentium-tug/gentium-ot1.map
+share/texmf-dist/fonts/map/pdftex/gentium-tug/gentium-qx.map
+share/texmf-dist/fonts/map/pdftex/gentium-tug/gentium-t2a.map
+share/texmf-dist/fonts/map/pdftex/gentium-tug/gentium-t2b.map
+share/texmf-dist/fonts/map/pdftex/gentium-tug/gentium-t2c.map
+share/texmf-dist/fonts/map/pdftex/gentium-tug/gentium-t5.map
+share/texmf-dist/fonts/map/pdftex/gentium-tug/gentium-texnansi.map
+share/texmf-dist/fonts/map/pdftex/gentium-tug/gentium-truetype.map
+share/texmf-dist/fonts/map/pdftex/gentium-tug/gentium-ts1.map
+share/texmf-dist/fonts/map/pdftex/gentium-tug/gentium-x2.map
+share/texmf-dist/fonts/tfm/public/gentium-tug/agr-gentiumplus-italic.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/agr-gentiumplus-regular.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/ec-gentiumbasic-bold.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/ec-gentiumbasic-bolditalic.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/ec-gentiumplus-italic-sc.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/ec-gentiumplus-italic.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/ec-gentiumplus-regular-sc.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/ec-gentiumplus-regular.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/l7x-gentiumbasic-bold.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/l7x-gentiumbasic-bolditalic.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/l7x-gentiumplus-italic-sc.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/l7x-gentiumplus-italic.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/l7x-gentiumplus-regular-sc.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/l7x-gentiumplus-regular.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/lgr-gentiumplus-italic.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/lgr-gentiumplus-regular.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/ot1-gentiumbasic-bold.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/ot1-gentiumbasic-bolditalic.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/ot1-gentiumplus-italic-sc.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/ot1-gentiumplus-italic.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/ot1-gentiumplus-regular-sc.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/ot1-gentiumplus-regular.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/qx-gentiumbasic-bold.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/qx-gentiumbasic-bolditalic.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/qx-gentiumplus-italic-sc.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/qx-gentiumplus-italic.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/qx-gentiumplus-regular-sc.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/qx-gentiumplus-regular.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/t2a-gentiumplus-italic-sc.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/t2a-gentiumplus-italic.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/t2a-gentiumplus-regular-sc.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/t2a-gentiumplus-regular.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/t2b-gentiumplus-italic-sc.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/t2b-gentiumplus-italic.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/t2b-gentiumplus-regular-sc.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/t2b-gentiumplus-regular.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/t2c-gentiumplus-italic-sc.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/t2c-gentiumplus-italic.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/t2c-gentiumplus-regular-sc.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/t2c-gentiumplus-regular.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/t5-gentiumbasic-bold.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/t5-gentiumbasic-bolditalic.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/t5-gentiumplus-italic-sc.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/t5-gentiumplus-italic.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/t5-gentiumplus-regular-sc.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/t5-gentiumplus-regular.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/texnansi-gentiumbasic-bold.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/texnansi-gentiumbasic-bolditalic.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/texnansi-gentiumplus-italic-sc.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/texnansi-gentiumplus-italic.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/texnansi-gentiumplus-regular-sc.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/texnansi-gentiumplus-regular.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/ts1-gentiumbasic-bold.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/ts1-gentiumbasic-bolditalic.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/ts1-gentiumplus-italic.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/ts1-gentiumplus-regular.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/x2-gentiumplus-italic-sc.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/x2-gentiumplus-italic.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/x2-gentiumplus-regular-sc.tfm
+share/texmf-dist/fonts/tfm/public/gentium-tug/x2-gentiumplus-regular.tfm
+share/texmf-dist/fonts/truetype/public/gentium-tug/GenBasB.ttf
+share/texmf-dist/fonts/truetype/public/gentium-tug/GenBasBI.ttf
+share/texmf-dist/fonts/truetype/public/gentium-tug/GenBasI.ttf
+share/texmf-dist/fonts/truetype/public/gentium-tug/GenBasR.ttf
+share/texmf-dist/fonts/truetype/public/gentium-tug/GenBkBasB.ttf
+share/texmf-dist/fonts/truetype/public/gentium-tug/GenBkBasBI.ttf
+share/texmf-dist/fonts/truetype/public/gentium-tug/GenBkBasI.ttf
+share/texmf-dist/fonts/truetype/public/gentium-tug/GenBkBasR.ttf
+share/texmf-dist/fonts/truetype/public/gentium-tug/Gentium-I.ttf
+share/texmf-dist/fonts/truetype/public/gentium-tug/Gentium-R.ttf
+share/texmf-dist/fonts/truetype/public/gentium-tug/GentiumAlt-I.ttf
+share/texmf-dist/fonts/truetype/public/gentium-tug/GentiumAlt-R.ttf
+share/texmf-dist/fonts/truetype/public/gentium-tug/GentiumPlus-I.ttf
+share/texmf-dist/fonts/truetype/public/gentium-tug/GentiumPlus-R.ttf
+share/texmf-dist/fonts/truetype/public/gentium-tug/GentiumPlusCompact-I.ttf
+share/texmf-dist/fonts/truetype/public/gentium-tug/GentiumPlusCompact-R.ttf
+share/texmf-dist/fonts/type1/public/gentium-tug/GenBasB.pfb
+share/texmf-dist/fonts/type1/public/gentium-tug/GenBasBI.pfb
+share/texmf-dist/fonts/type1/public/gentium-tug/GentiumPlus-I.pfb
+share/texmf-dist/fonts/type1/public/gentium-tug/GentiumPlus-R.pfb
+%%PORTSRC%%share/texmf-dist/source/fonts/gentium-tug/generate-support-files.rb
+%%PORTSRC%%share/texmf-dist/source/fonts/gentium-tug/gentium.rb
+%%PORTSRC%%share/texmf-dist/source/fonts/gentium-tug/lig/README
+%%PORTSRC%%share/texmf-dist/source/fonts/gentium-tug/lig/gentium-agr.lig
+%%PORTSRC%%share/texmf-dist/source/fonts/gentium-tug/lig/gentium-lgr.lig
+%%PORTSRC%%share/texmf-dist/source/fonts/gentium-tug/lig/gentium-t2a.lig
+%%PORTSRC%%share/texmf-dist/source/fonts/gentium-tug/lig/gentium-t2b.lig
+%%PORTSRC%%share/texmf-dist/source/fonts/gentium-tug/lig/gentium-t2c.lig
+%%PORTSRC%%share/texmf-dist/source/fonts/gentium-tug/lig/gentium-x2.lig
+%%PORTSRC%%share/texmf-dist/source/fonts/gentium-tug/make-zip-4CTAN.sh
+%%PORTSRC%%share/texmf-dist/source/fonts/gentium-tug/type1/GentiumPlus-I-Czech.kern
+%%PORTSRC%%share/texmf-dist/source/fonts/gentium-tug/type1/GentiumPlus-R-Czech.kern
+%%PORTSRC%%share/texmf-dist/source/fonts/gentium-tug/type1/Makefile
+%%PORTSRC%%share/texmf-dist/source/fonts/gentium-tug/type1/afmcreator.py
+%%PORTSRC%%share/texmf-dist/source/fonts/gentium-tug/type1/ff-gentium.pe
+%%PORTSRC%%share/texmf-dist/source/fonts/gentium-tug/type1/generate-extra-kerns.sh
+%%PORTSRC%%share/texmf-dist/source/fonts/gentium-tug/type1/greekcorrection.py
+%%PORTSRC%%share/texmf-dist/source/fonts/gentium-tug/type1/kerncorrection.py
+share/texmf-dist/tex/context/third/gentium-tug/type-gentium.mkii
+share/texmf-dist/tex/context/third/gentium-tug/type-gentium.mkiv
+share/texmf-dist/tex/latex/gentium-tug/gentium.sty
+share/texmf-dist/tex/latex/gentium-tug/l7xgentium.fd
+share/texmf-dist/tex/latex/gentium-tug/lgrgentium.fd
+share/texmf-dist/tex/latex/gentium-tug/ly1gentium.fd
+share/texmf-dist/tex/latex/gentium-tug/ot1gentium.fd
+share/texmf-dist/tex/latex/gentium-tug/qxgentium.fd
+share/texmf-dist/tex/latex/gentium-tug/t1gentium.fd
+share/texmf-dist/tex/latex/gentium-tug/t2agentium.fd
+share/texmf-dist/tex/latex/gentium-tug/t2bgentium.fd
+share/texmf-dist/tex/latex/gentium-tug/t2cgentium.fd
+share/texmf-dist/tex/latex/gentium-tug/t5gentium.fd
+share/texmf-dist/tex/latex/gentium-tug/ts1gentium.fd
+share/texmf-dist/tex/latex/gentium-tug/x2gentium.fd
+@dirrmtry share/texmf-dist/tex/latex/gentium-tug
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex/context/third/gentium-tug
+@dirrmtry share/texmf-dist/tex/context/third
+@dirrmtry share/texmf-dist/tex/context
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/fonts/gentium-tug/type1
+@dirrmtry share/texmf-dist/source/fonts/gentium-tug/lig
+@dirrmtry share/texmf-dist/source/fonts/gentium-tug
+@dirrmtry share/texmf-dist/source/fonts
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/fonts/type1/public/gentium-tug
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
+@dirrmtry share/texmf-dist/fonts/truetype/public/gentium-tug
+@dirrmtry share/texmf-dist/fonts/truetype/public
+@dirrmtry share/texmf-dist/fonts/truetype
+@dirrmtry share/texmf-dist/fonts/tfm/public/gentium-tug
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
+@dirrmtry share/texmf-dist/fonts/map/pdftex/gentium-tug
+@dirrmtry share/texmf-dist/fonts/map/pdftex
+@dirrmtry share/texmf-dist/fonts/map/dvips/gentium-tug
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts/enc/dvips/gentium-tug
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
+@dirrmtry share/texmf-dist/fonts/afm/public/gentium-tug
+@dirrmtry share/texmf-dist/fonts/afm/public
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
+@dirrmtry share/texmf-dist/doc/fonts/gentium-tug/GentiumPlusCompact
+@dirrmtry share/texmf-dist/doc/fonts/gentium-tug/GentiumPlus/documentation
+@dirrmtry share/texmf-dist/doc/fonts/gentium-tug/GentiumPlus
+@dirrmtry share/texmf-dist/doc/fonts/gentium-tug/GentiumBasic
+@dirrmtry share/texmf-dist/doc/fonts/gentium-tug/Gentium
+@dirrmtry share/texmf-dist/doc/fonts/gentium-tug
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

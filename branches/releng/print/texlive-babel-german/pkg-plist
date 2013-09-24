@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-german/germanb.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-german/ngermanb.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/babel-german/german.ins
+%%PORTSRC%%share/texmf-dist/source/generic/babel-german/germanb.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-german/ngermanb.dtx
+share/texmf-dist/tex/generic/babel-german/germanb.ldf
+share/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+@dirrmtry share/texmf-dist/tex/generic/babel-german
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/generic/babel-german
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/babel-german
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

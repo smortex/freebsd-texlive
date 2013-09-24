@@ -1,6 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/00otf-uptex.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/COPYRIGHT
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/otf-script-gteb.diff
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/test/uplatex/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/test/uplatex/sp_cns_utf.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/test/uplatex/sp_gb_utf.tex
@@ -11,7 +12,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/test/uplatex/uotftest-utf8.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/test/uplatex/uotftest.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/test/uplatex/upbrsgtest.tex
-share/texmf-dist/fonts/map/dvipdfmx/japanese-otf-uptex/otf-up-noEmbed.map
 share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfcgrk-h.ovp
 share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfcgrk-v.ovp
 share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfcgrl-h.ovp
@@ -84,6 +84,34 @@ share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgbv-h.ovp
 share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgbv-v.ovp
 share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgbz-h.ovp
 share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgbz-v.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgej-h.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgej-v.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgek-h.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgek-v.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgel-h.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgel-v.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgem-h.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgem-v.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgen-h.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgen-v.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgeo-h.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgeo-v.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgep-h.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgep-v.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgeq-h.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgeq-v.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjger-h.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjger-v.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjges-h.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjges-v.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjget-h.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjget-v.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgeu-h.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgeu-v.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgev-h.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgev-v.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgez-h.ovp
+share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgez-v.ovp
 share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgrj-h.ovp
 share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgrj-v.ovp
 share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utfjgrk-h.ovp
@@ -302,6 +330,8 @@ share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utftmrz-h.ovp
 share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/utftmrz-v.ovp
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/upbrsgexpgothb-h.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/upbrsgexpgothb-v.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/upbrsgexpgotheb-h.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/upbrsgexpgotheb-v.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/upbrsgexpgothr-h.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/upbrsgexpgothr-v.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/upbrsgexpmgothr-h.tfm
@@ -328,6 +358,8 @@ share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/upbrsgnmlminr-h.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/upbrsgnmlminr-v.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/upexpgothb-h.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/upexpgothb-v.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/upexpgotheb-h.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/upexpgotheb-v.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/upexpgothr-h.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/upexpgothr-v.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/upexpmgothr-h.tfm
@@ -368,6 +400,8 @@ share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/upnmlminr-h.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/upnmlminr-v.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/uprubygothb-h.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/uprubygothb-v.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/uprubygotheb-h.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/uprubygotheb-v.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/uprubygothr-h.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/uprubygothr-v.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/uprubymgothr-h.tfm
@@ -450,6 +484,34 @@ share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgbv-h.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgbv-v.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgbz-h.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgbz-v.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgej-h.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgej-v.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgek-h.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgek-v.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgel-h.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgel-v.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgem-h.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgem-v.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgen-h.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgen-v.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgeo-h.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgeo-v.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgep-h.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgep-v.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgeq-h.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgeq-v.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjger-h.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjger-v.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjges-h.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjges-v.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjget-h.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjget-v.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgeu-h.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgeu-v.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgev-h.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgev-v.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgez-h.tfm
+share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgez-v.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgrj-h.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgrj-v.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utfjgrk-h.tfm
@@ -668,6 +730,8 @@ share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utftmrz-h.tfm
 share/texmf-dist/fonts/tfm/public/japanese-otf-uptex/utftmrz-v.tfm
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/upbrsgexpgothb-h.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/upbrsgexpgothb-v.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/upbrsgexpgotheb-h.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/upbrsgexpgotheb-v.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/upbrsgexpgothr-h.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/upbrsgexpgothr-v.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/upbrsgexpmgothr-h.vf
@@ -694,6 +758,8 @@ share/texmf-dist/fonts/vf/public/japanese-otf-uptex/upbrsgnmlminr-h.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/upbrsgnmlminr-v.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/upexpgothb-h.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/upexpgothb-v.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/upexpgotheb-h.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/upexpgotheb-v.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/upexpgothr-h.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/upexpgothr-v.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/upexpmgothr-h.vf
@@ -720,6 +786,8 @@ share/texmf-dist/fonts/vf/public/japanese-otf-uptex/upnmlminr-h.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/upnmlminr-v.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/uprubygothb-h.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/uprubygothb-v.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/uprubygotheb-h.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/uprubygotheb-v.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/uprubygothr-h.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/uprubygothr-v.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/uprubymgothr-h.vf
@@ -802,6 +870,34 @@ share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgbv-h.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgbv-v.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgbz-h.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgbz-v.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgej-h.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgej-v.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgek-h.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgek-v.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgel-h.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgel-v.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgem-h.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgem-v.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgen-h.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgen-v.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgeo-h.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgeo-v.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgep-h.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgep-v.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgeq-h.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgeq-v.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjger-h.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjger-v.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjges-h.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjges-v.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjget-h.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjget-v.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgeu-h.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgeu-v.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgev-h.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgev-v.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgez-h.vf
+share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgez-v.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgrj-h.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgrj-v.vf
 share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utfjgrk-h.vf
@@ -1054,9 +1150,6 @@ share/texmf-dist/tex/platex/japanese-otf-uptex/otf.sty
 @dirrmtry share/texmf-dist/fonts/ovp/public/japanese-otf-uptex
 @dirrmtry share/texmf-dist/fonts/ovp/public
 @dirrmtry share/texmf-dist/fonts/ovp
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/japanese-otf-uptex
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx
-@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/japanese-otf-uptex/test/uplatex
 @dirrmtry share/texmf-dist/doc/fonts/japanese-otf-uptex/test

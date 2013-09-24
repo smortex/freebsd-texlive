@@ -1,20 +1,22 @@
-%%PORTDOCS%%share/texmf/doc/man/man1/texconfig-sys.1
-%%PORTDOCS%%share/texmf/doc/man/man1/texconfig-sys.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/texconfig.1
-%%PORTDOCS%%share/texmf/doc/man/man1/texconfig.man1.pdf
-share/texmf/scripts/tetex/texconfig.sh
-share/texmf/texconfig/README
-share/texmf/texconfig/g/generic
-share/texmf/texconfig/v/vt100
-share/texmf/texconfig/x/xterm
-@dirrmtry share/texmf/texconfig/x
-@dirrmtry share/texmf/texconfig/v
-@dirrmtry share/texmf/texconfig/g
-@dirrmtry share/texmf/texconfig
-@dirrmtry share/texmf/scripts/tetex
-@dirrmtry share/texmf/scripts
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/texconfig-sys.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/texconfig-sys.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/texconfig.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/texconfig.man1.pdf
+share/texmf-dist/scripts/texlive/texconfig.sh
+share/texmf-dist/texconfig/README
+share/texmf-dist/texconfig/g/generic
+share/texmf-dist/texconfig/tcfmgr
+share/texmf-dist/texconfig/tcfmgr.map
+share/texmf-dist/texconfig/v/vt100
+share/texmf-dist/texconfig/x/xterm
+@dirrmtry share/texmf-dist/texconfig/x
+@dirrmtry share/texmf-dist/texconfig/v
+@dirrmtry share/texmf-dist/texconfig/g
+@dirrmtry share/texmf-dist/texconfig
+@dirrmtry share/texmf-dist/scripts/texlive
+@dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

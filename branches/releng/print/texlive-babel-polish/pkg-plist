@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-polish/polish.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/babel-polish/polish.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-polish/polish.ins
+share/texmf-dist/tex/generic/babel-polish/polish.ldf
+@dirrmtry share/texmf-dist/tex/generic/babel-polish
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/generic/babel-polish
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/babel-polish
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,4 @@
+The package provides macros for typesetting linguistic examples
+and glosses, with a refined mechanism for referencing examples
+and parts of examples. The package was written for use with
+Plain TeX, but is usable with LaTeX with the wrapper .sty file.

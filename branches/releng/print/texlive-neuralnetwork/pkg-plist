@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/neuralnetwork/examples/neural-networks-ebook.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/neuralnetwork/examples/neuralnetwork.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/neuralnetwork/examples/neuralnetwork.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/neuralnetwork/examples/xor.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/neuralnetwork/examples/xor.tex
+share/texmf-dist/tex/latex/neuralnetwork/neuralnetwork.sty
+@dirrmtry share/texmf-dist/tex/latex/neuralnetwork
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/neuralnetwork/examples
+@dirrmtry share/texmf-dist/doc/latex/neuralnetwork
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,5 @@
+The package provides a way to draw "ribbon proofs" in LaTeX. A
+ribbon proof is a diagrammatic representation of a mathematical
+proof that a computer program meets its specification. These
+diagrams are more human-readable, more scalable, and more
+easily modified than the corresponding textual proofs.

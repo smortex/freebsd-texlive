@@ -1,17 +1,25 @@
-%%PORTDOCS%%share/texmf/doc/man/man1/ttf2afm.1
-%%PORTDOCS%%share/texmf/doc/man/man1/ttf2afm.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/ttf2pk.1
-%%PORTDOCS%%share/texmf/doc/man/man1/ttf2pk.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/ttf2tfm.1
-%%PORTDOCS%%share/texmf/doc/man/man1/ttf2tfm.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/ttfdump.1
-%%PORTDOCS%%share/texmf/doc/man/man1/ttfdump.man1.pdf
-%%PORTDOCS%%share/texmf/doc/ttf2pk/ttf2pk.doc
-%%PORTDOCS%%share/texmf/doc/ttf2pk/ttf2pk.txt
-%%PORTDOCS%%share/texmf/doc/ttf2pk/ttf2tfm.txt
-@dirrmtry share/texmf/doc/ttf2pk
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/ttf2afm.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/ttf2afm.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/ttf2pk.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/ttf2pk.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/ttf2tfm.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/ttf2tfm.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/ttfdump.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/ttfdump.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/ttf2pk/ttf2pk.doc
+%%PORTDOCS%%share/texmf-dist/doc/ttf2pk/ttf2pk.txt
+%%PORTDOCS%%share/texmf-dist/doc/ttf2pk/ttf2tfm.txt
+share/texmf-dist/fonts/enc/ttf2pk/base/T1-WGL4.enc
+share/texmf-dist/ttf2pk/VPS.rpl
+share/texmf-dist/ttf2pk/ttf2pk.cfg
+@dirrmtry share/texmf-dist/ttf2pk
+@dirrmtry share/texmf-dist/fonts/enc/ttf2pk/base
+@dirrmtry share/texmf-dist/fonts/enc/ttf2pk
+@dirrmtry share/texmf-dist/fonts/enc
+@dirrmtry share/texmf-dist/fonts
+@dirrmtry share/texmf-dist/doc/ttf2pk
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

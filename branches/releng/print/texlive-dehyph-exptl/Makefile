@@ -1,14 +1,13 @@
 # $FreeBSD$
 
 PORTNAME=	dehyph-exptl
-PORTVERSION=	20120609
-PORTREVISION=	1
+PORTVERSION=	20130529
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Experimental hyphenation patterns for the German language.
 
-RUN_DEPENDS=	${LOCALBASE}/share/texmf/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8
 
 NOPORTSRC=	yes

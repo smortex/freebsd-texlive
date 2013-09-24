@@ -1,16 +1,16 @@
-share/texmf/tex/generic/config/language.dat
-share/texmf/tex/generic/config/language.dat.lua
-share/texmf/tex/generic/config/language.def
-share/texmf/tex/generic/config/language.us
-share/texmf/tex/generic/config/language.us.def
-share/texmf/tex/generic/config/language.us.lua
-share/texmf/tex/generic/hyphen/dumyhyph.tex
-share/texmf/tex/generic/hyphen/hyphen.tex
-share/texmf/tex/generic/hyphen/hypht1.tex
-share/texmf/tex/generic/hyphen/zerohyph.tex
-@dirrmtry share/texmf/tex/generic/hyphen
-@dirrmtry share/texmf/tex/generic/config
-@dirrmtry share/texmf/tex/generic
-@dirrmtry share/texmf/tex
+share/texmf-dist/tex/generic/config/language.dat
+share/texmf-dist/tex/generic/config/language.dat.lua
+share/texmf-dist/tex/generic/config/language.def
+share/texmf-dist/tex/generic/config/language.us
+share/texmf-dist/tex/generic/config/language.us.def
+share/texmf-dist/tex/generic/config/language.us.lua
+share/texmf-dist/tex/generic/hyphen/dumyhyph.tex
+share/texmf-dist/tex/generic/hyphen/hyphen.tex
+share/texmf-dist/tex/generic/hyphen/hypht1.tex
+share/texmf-dist/tex/generic/hyphen/zerohyph.tex
+@dirrmtry share/texmf-dist/tex/generic/hyphen
+@dirrmtry share/texmf-dist/tex/generic/config
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

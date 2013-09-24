@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/verbatimbox/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/verbatimbox/verbatimbox.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/verbatimbox/verbatimbox.tex
+share/texmf-dist/tex/latex/verbatimbox/verbatimbox.sty
+@dirrmtry share/texmf-dist/tex/latex/verbatimbox
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/verbatimbox
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

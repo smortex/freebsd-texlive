@@ -1,7 +1,15 @@
-%%PORTDOCS%%share/texmf/doc/man/man1/xdvi.1
-%%PORTDOCS%%share/texmf/doc/man/man1/xdvi.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/xdvi.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/xdvi.man1.pdf
+share/texmf-dist/dvips/xdvi/config.xdvi
+share/texmf-dist/xdvi/XDvi
+share/texmf-dist/xdvi/pixmap/toolbar.xpm
+share/texmf-dist/xdvi/pixmap/toolbar2.xpm
+@dirrmtry share/texmf-dist/xdvi/pixmap
+@dirrmtry share/texmf-dist/xdvi
+@dirrmtry share/texmf-dist/dvips/xdvi
+@dirrmtry share/texmf-dist/dvips
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

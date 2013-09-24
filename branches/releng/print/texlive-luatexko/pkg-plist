@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexko/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexko/README
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexko/luatexko-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexko/luatexko-doc.tex
+share/texmf-dist/tex/luatex/luatexko/luatexko-core.sty
+share/texmf-dist/tex/luatex/luatexko/luatexko-normalize.lua
+share/texmf-dist/tex/luatex/luatexko/luatexko-uhc2utf8.lua
+share/texmf-dist/tex/luatex/luatexko/luatexko.lua
+share/texmf-dist/tex/luatex/luatexko/luatexko.sty
+@dirrmtry share/texmf-dist/tex/luatex/luatexko
+@dirrmtry share/texmf-dist/tex/luatex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/luatex/luatexko
+@dirrmtry share/texmf-dist/doc/luatex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

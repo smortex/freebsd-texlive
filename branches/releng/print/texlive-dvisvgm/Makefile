@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	dvisvgm
-PORTVERSION=	20120611
-PORTREVISION=	1
+PORTVERSION=	20130409
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Converts DVI files to Scalable Vector Graphics format (SVG).
+COMMENT=	Convert DVI files to Scalable Vector Graphics format (SVG).
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

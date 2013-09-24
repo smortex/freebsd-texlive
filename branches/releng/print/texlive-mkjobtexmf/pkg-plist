@@ -5,18 +5,17 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/mkjobtexmf.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/mkjobtexmf.txt
 %%PORTDOCS%%share/texmf-dist/doc/generic/mkjobtexmf/version.pl
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/mkjobtexmf.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/mkjobtexmf.man1.pdf
 %%PORTSRC%%share/texmf-dist/source/generic/mkjobtexmf/Makefile.in
 %%PORTSRC%%share/texmf-dist/source/generic/mkjobtexmf/configure
 %%PORTSRC%%share/texmf-dist/source/generic/mkjobtexmf/configure.ac
 %%PORTSRC%%share/texmf-dist/source/generic/mkjobtexmf/install-sh
-%%PORTDOCS%%share/texmf/doc/man/man1/mkjobtexmf.1
-%%PORTDOCS%%share/texmf/doc/man/man1/mkjobtexmf.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/source/generic/mkjobtexmf
 @dirrmtry share/texmf-dist/source/generic
 @dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc/generic/mkjobtexmf
 @dirrmtry share/texmf-dist/doc/generic
 @dirrmtry share/texmf-dist/doc

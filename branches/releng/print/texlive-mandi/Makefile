@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mandi
-PORTVERSION=	20130101
-PORTREVISION=	1
+PORTVERSION=	20130629
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The mandi package
+COMMENT=	Macros for introductory physics and astronomy.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-croatian/croatian.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/babel-croatian/croatian.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-croatian/croatian.ins
+share/texmf-dist/tex/generic/babel-croatian/croatian.ldf
+@dirrmtry share/texmf-dist/tex/generic/babel-croatian
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/generic/babel-croatian
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/babel-croatian
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

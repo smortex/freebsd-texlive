@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-georgian/README
+share/texmf-dist/tex/generic/babel-georgian/georgian.ldf
+share/texmf-dist/tex/generic/babel-georgian/georgian.sty
+share/texmf-dist/tex/generic/babel-georgian/georgiancaps.tex
+@dirrmtry share/texmf-dist/tex/generic/babel-georgian
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/generic/babel-georgian
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

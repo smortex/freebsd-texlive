@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/uiucredborder/uiucredborder.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/uiucredborder/uiucredborder.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/uiucredborder/uiucredborder.ins
+share/texmf-dist/tex/latex/uiucredborder/uiucredborder.cls
+@dirrmtry share/texmf-dist/tex/latex/uiucredborder
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/uiucredborder
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/uiucredborder
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

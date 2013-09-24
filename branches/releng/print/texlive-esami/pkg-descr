@@ -1,0 +1,8 @@
+The package enables the user to typeset exams with multiple
+choice, open questions and many other types of exercise. Both
+questions and answers may be randomly distributed within the
+exam, and the solutions are typeset automatically. Exercises
+may contain a wide number of random parameters and it is
+possible to do arithmetical operations on them. The package is
+localised in Italian, English, French, German, Greek and
+Spanish.

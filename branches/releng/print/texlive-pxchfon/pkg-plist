@@ -1,5 +1,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/LICENSE
-%%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/README
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/README-ja
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/pxchfon.pdf
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/pxchfon.tex
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/sample-2000jis.pdf
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/sample-2000jis.tex
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/sample-2004jis.pdf
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/sample-2004jis.tex
 %%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/sample-pxchfon.pdf
 %%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/sample-pxchfon.tex
 share/texmf-dist/fonts/sfd/pxchfon/PXcjk0.sfd

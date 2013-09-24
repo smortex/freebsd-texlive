@@ -78,7 +78,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/uptex/base/samples/yaku-jsc-jis.tex
 %%PORTDOCS%%share/texmf-dist/doc/uptex/base/samples/yaku-jsc-utf8.tex
 share/texmf-dist/fonts/cmap/uptex/UTF8-UTF16
-share/texmf-dist/fonts/map/dvipdfmx/uptex/uptex-noEmbed.map
 share/texmf-dist/fonts/tfm/uptex/jis/upgbm-h.tfm
 share/texmf-dist/fonts/tfm/uptex/jis/upgbm-hq.tfm
 share/texmf-dist/fonts/tfm/uptex/jis/upgbm-v.tfm
@@ -222,9 +221,6 @@ share/texmf-dist/tex/uptex/config/uptex.ini
 @dirrmtry share/texmf-dist/fonts/tfm/uptex/jis
 @dirrmtry share/texmf-dist/fonts/tfm/uptex
 @dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/uptex
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx
-@dirrmtry share/texmf-dist/fonts/map
 @dirrmtry share/texmf-dist/fonts/cmap/uptex
 @dirrmtry share/texmf-dist/fonts/cmap
 @dirrmtry share/texmf-dist/fonts

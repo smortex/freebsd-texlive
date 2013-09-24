@@ -1,0 +1,7 @@
+The package redefines \maketitle to generate a title page for a
+University of Wollongong thesis, in accordance with the UoW
+branding guidelines. The package should be used with the book
+class to typeset a thesis. The package also defines a
+\declaration command that typesets the declaration that this
+thesis is your own work, etc., which is required in the front
+of each PhD Thesis.

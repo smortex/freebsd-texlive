@@ -1,0 +1,25 @@
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/selnolig/README
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/selnolig/gpp-ft.fea
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/selnolig/selnolig-bugreport.tex
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/selnolig/selnolig-english-test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/selnolig/selnolig-english-test.tex
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/selnolig/selnolig-english-wordlist.tex
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/selnolig/selnolig-german-test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/selnolig/selnolig-german-test.tex
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/selnolig/selnolig-german-wordlist.tex
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/selnolig/selnolig.pdf
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/selnolig/selnolig.tex
+share/texmf-dist/tex/lualatex/selnolig/selnolig-english-hyphex.sty
+share/texmf-dist/tex/lualatex/selnolig/selnolig-english-patterns.sty
+share/texmf-dist/tex/lualatex/selnolig/selnolig-german-hyphex.sty
+share/texmf-dist/tex/lualatex/selnolig/selnolig-german-patterns.sty
+share/texmf-dist/tex/lualatex/selnolig/selnolig.lua
+share/texmf-dist/tex/lualatex/selnolig/selnolig.sty
+@dirrmtry share/texmf-dist/tex/lualatex/selnolig
+@dirrmtry share/texmf-dist/tex/lualatex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/lualatex/selnolig
+@dirrmtry share/texmf-dist/doc/lualatex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

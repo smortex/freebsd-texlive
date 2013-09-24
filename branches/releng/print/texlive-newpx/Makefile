@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	newpx
-PORTVERSION=	20130401
+PORTVERSION=	20130914
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The newpx package
+COMMENT=	Alternative uses of the PX fonts, with improved metrics.
 
 NOPORTSRC=	yes
 

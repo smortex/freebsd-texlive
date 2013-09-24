@@ -1,0 +1,23 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/uadocs/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/uadocs/uacoursetext-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/uadocs/uacoursetext-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uadocs/uadocs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/uadocs/uamasterthesis-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/uadocs/uamasterthesis-example.tex
+%%PORTSRC%%share/texmf-dist/source/latex/uadocs/uadocs.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/uadocs/uadocs.ins
+share/texmf-dist/tex/latex/uadocs/ua_color.eps
+share/texmf-dist/tex/latex/uadocs/ua_color.pdf
+share/texmf-dist/tex/latex/uadocs/uacoursetext.cls
+share/texmf-dist/tex/latex/uadocs/uamasterthesis.cls
+@dirrmtry share/texmf-dist/tex/latex/uadocs
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/uadocs
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/uadocs
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

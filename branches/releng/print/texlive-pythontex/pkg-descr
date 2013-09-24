@@ -1,0 +1,15 @@
+The package allows you to enter Python code within a LaTeX
+document, execute the code, and access its output in the
+original document. Python code is only executed when it has
+been modified, or when it meets user-specified criteria. Code
+may be divided into user-defined sessions, which automatically
+run in parallel. Errors and warnings are synchronized with the
+LaTeX document, so that they refer to the document's line
+numbers. External dependencies can be tracked, so that code is
+re-executed when the data it depends on is modified. PythonTeX
+also provides syntax highlighting for code in LaTeX documents
+via the Pygments syntax highlighter. The package provides a
+depythontex utility, that creates a copy of the document in
+which all Python code has been replaced by its output. This is
+useful for journal submissions, sharing documents, and
+conversion to other formats.

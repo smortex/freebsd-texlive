@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ribbonproofs/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ribbonproofs/ribbonproofsmanual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ribbonproofs/ribbonproofsmanual.tex
+share/texmf-dist/tex/latex/ribbonproofs/ribbonproofs.sty
+@dirrmtry share/texmf-dist/tex/latex/ribbonproofs
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/ribbonproofs
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

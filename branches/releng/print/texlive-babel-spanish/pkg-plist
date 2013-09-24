@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-spanish/spanish.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/babel-spanish/spanish.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-spanish/spanish.ins
+share/texmf-dist/tex/generic/babel-spanish/romanidx.sty
+share/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+@dirrmtry share/texmf-dist/tex/generic/babel-spanish
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/generic/babel-spanish
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/babel-spanish
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

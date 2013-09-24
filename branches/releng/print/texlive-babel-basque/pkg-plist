@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-basque/basque.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/babel-basque/basque.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-basque/basque.ins
+share/texmf-dist/tex/generic/babel-basque/basque.ldf
+@dirrmtry share/texmf-dist/tex/generic/babel-basque
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/generic/babel-basque
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/babel-basque
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

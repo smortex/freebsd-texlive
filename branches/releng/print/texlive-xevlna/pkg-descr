@@ -1,0 +1,8 @@
+The package will directly insert nonbreakable spaces (in Czech,
+vlna or vlnka), after nonsyllabic prepositions and single
+letter conjuctions, while the document is being typeset. (The
+macros recognised maths and verbatim by TeX means.) (Inserting
+nonbreakable spaces by a preprocessor will probably never be
+fully reliable, because user defined macros and environments
+cannot reliably be recognised.) The package works both with
+(Plain) XeTeX and with XeLaTeX.

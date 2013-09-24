@@ -1,3 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/platex/jsclasses/README
+%%PORTDOCS%%share/texmf-dist/doc/platex/jsclasses/jsclasses.pdf
+%%PORTDOCS%%share/texmf-dist/doc/platex/jsclasses/jsverb.pdf
+%%PORTDOCS%%share/texmf-dist/doc/platex/jsclasses/morisawa.pdf
+%%PORTDOCS%%share/texmf-dist/doc/platex/jsclasses/okumacro.pdf
+%%PORTDOCS%%share/texmf-dist/doc/platex/jsclasses/okuverb.pdf
 %%PORTSRC%%share/texmf-dist/source/platex/jsclasses/jsclasses.dtx
 %%PORTSRC%%share/texmf-dist/source/platex/jsclasses/jsclasses.ins
 %%PORTSRC%%share/texmf-dist/source/platex/jsclasses/jsverb.dtx
@@ -23,5 +29,8 @@ share/texmf-dist/tex/platex/jsclasses/okuverb.sty
 @dirrmtry share/texmf-dist/source/platex/jsclasses
 @dirrmtry share/texmf-dist/source/platex
 @dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/platex/jsclasses
+@dirrmtry share/texmf-dist/doc/platex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

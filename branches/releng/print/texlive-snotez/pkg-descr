@@ -1,0 +1,6 @@
+The package provides a macro \sidenote, that places a note in
+the margin of the document, with its baseline aligned with the
+baseline in the body of the document. These sidenotes are
+numbered (both in the text, and on the notes themselves). The
+package loads the package etoolbox, pgfopts, marginnote and
+perpage.

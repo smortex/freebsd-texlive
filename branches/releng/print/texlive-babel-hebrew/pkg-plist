@@ -1,0 +1,54 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-hebrew/00readme.heb
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-hebrew/heb209.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-hebrew/hebinp.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-hebrew/hebrew.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/babel-hebrew/heb209.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-hebrew/hebinp.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-hebrew/hebrew.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-hebrew/hebrew.fdd
+%%PORTSRC%%share/texmf-dist/source/generic/babel-hebrew/hebrew.ins
+share/texmf-dist/tex/generic/babel-hebrew/8859-8.def
+share/texmf-dist/tex/generic/babel-hebrew/cp1255.def
+share/texmf-dist/tex/generic/babel-hebrew/cp862.def
+share/texmf-dist/tex/generic/babel-hebrew/he8OmegaHebrew.fd
+share/texmf-dist/tex/generic/babel-hebrew/he8aharoni.fd
+share/texmf-dist/tex/generic/babel-hebrew/he8cmr.fd
+share/texmf-dist/tex/generic/babel-hebrew/he8cmss.fd
+share/texmf-dist/tex/generic/babel-hebrew/he8cmtt.fd
+share/texmf-dist/tex/generic/babel-hebrew/he8david.fd
+share/texmf-dist/tex/generic/babel-hebrew/he8drugulin.fd
+share/texmf-dist/tex/generic/babel-hebrew/he8enc.def
+share/texmf-dist/tex/generic/babel-hebrew/he8frankruehl.fd
+share/texmf-dist/tex/generic/babel-hebrew/he8miriam.fd
+share/texmf-dist/tex/generic/babel-hebrew/he8nachlieli.fd
+share/texmf-dist/tex/generic/babel-hebrew/he8yad.fd
+share/texmf-dist/tex/generic/babel-hebrew/hebcal.sty
+share/texmf-dist/tex/generic/babel-hebrew/hebfont.sty
+share/texmf-dist/tex/generic/babel-hebrew/hebrew.ldf
+share/texmf-dist/tex/generic/babel-hebrew/hebrew_newcode.sty
+share/texmf-dist/tex/generic/babel-hebrew/hebrew_oldcode.sty
+share/texmf-dist/tex/generic/babel-hebrew/hebrew_p.sty
+share/texmf-dist/tex/generic/babel-hebrew/lheclas.fd
+share/texmf-dist/tex/generic/babel-hebrew/lhecmr.fd
+share/texmf-dist/tex/generic/babel-hebrew/lhecmss.fd
+share/texmf-dist/tex/generic/babel-hebrew/lhecmtt.fd
+share/texmf-dist/tex/generic/babel-hebrew/lhecrml.fd
+share/texmf-dist/tex/generic/babel-hebrew/lheenc.def
+share/texmf-dist/tex/generic/babel-hebrew/lhefr.fd
+share/texmf-dist/tex/generic/babel-hebrew/lheredis.fd
+share/texmf-dist/tex/generic/babel-hebrew/lheshold.fd
+share/texmf-dist/tex/generic/babel-hebrew/lheshscr.fd
+share/texmf-dist/tex/generic/babel-hebrew/lheshstk.fd
+share/texmf-dist/tex/generic/babel-hebrew/rlbabel.def
+share/texmf-dist/tex/generic/babel-hebrew/si960.def
+@dirrmtry share/texmf-dist/tex/generic/babel-hebrew
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/generic/babel-hebrew
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/babel-hebrew
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

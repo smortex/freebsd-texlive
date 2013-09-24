@@ -2,14 +2,13 @@
 
 PORTNAME=	ctex
 PORTVERSION=	20110516
-PORTREVISION=	1
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	LaTeX classes and packages for Chinese typesetting.
 
-RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/sfd/ttf2pk/Big5.sfd:${PORTSDIR}/print/texlive-ttfutils
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/enc/ttf2pk/base/T1-WGL4.enc:${PORTSDIR}/print/texlive-ttfutils
 
 NOPORTSRC=	yes
 

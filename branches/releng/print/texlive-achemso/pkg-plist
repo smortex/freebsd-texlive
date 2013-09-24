@@ -9,14 +9,19 @@ share/texmf-dist/bibtex/bst/achemso/biochem.bst
 %%PORTSRC%%share/texmf-dist/source/latex/achemso/achemso.ins
 share/texmf-dist/tex/latex/achemso/achemso.cls
 share/texmf-dist/tex/latex/achemso/achemso.sty
+share/texmf-dist/tex/latex/achemso/config/aamick.cfg
 share/texmf-dist/tex/latex/achemso/config/acbcct.cfg
 share/texmf-dist/tex/latex/achemso/config/accacs.cfg
 share/texmf-dist/tex/latex/achemso/config/achre4.cfg
 share/texmf-dist/tex/latex/achemso/config/acncdm.cfg
 share/texmf-dist/tex/latex/achemso/config/acsccc.cfg
 share/texmf-dist/tex/latex/achemso/config/amclct.cfg
+share/texmf-dist/tex/latex/achemso/config/amlccd.cfg
 share/texmf-dist/tex/latex/achemso/config/ancac3.cfg
 share/texmf-dist/tex/latex/achemso/config/ancham.cfg
+share/texmf-dist/tex/latex/achemso/config/apchd5.cfg
+share/texmf-dist/tex/latex/achemso/config/asbcd6.cfg
+share/texmf-dist/tex/latex/achemso/config/ascecg.cfg
 share/texmf-dist/tex/latex/achemso/config/bcches.cfg
 share/texmf-dist/tex/latex/achemso/config/bichaw.cfg
 share/texmf-dist/tex/latex/achemso/config/bipret.cfg
@@ -27,6 +32,7 @@ share/texmf-dist/tex/latex/achemso/config/cmatex.cfg
 share/texmf-dist/tex/latex/achemso/config/crtoec.cfg
 share/texmf-dist/tex/latex/achemso/config/enfuem.cfg
 share/texmf-dist/tex/latex/achemso/config/esthag.cfg
+share/texmf-dist/tex/latex/achemso/config/estlcu.cfg
 share/texmf-dist/tex/latex/achemso/config/iecred.cfg
 share/texmf-dist/tex/latex/achemso/config/inoraj.cfg
 share/texmf-dist/tex/latex/achemso/config/jacsat.cfg

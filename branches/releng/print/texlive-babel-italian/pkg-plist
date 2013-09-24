@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-italian/italian.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/babel-italian/italian.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-italian/italian.ins
+share/texmf-dist/tex/generic/babel-italian/italian.ldf
+@dirrmtry share/texmf-dist/tex/generic/babel-italian
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/generic/babel-italian
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/babel-italian
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-esperanto/esperanto.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/babel-esperanto/esperanto.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-esperanto/esperanto.ins
+share/texmf-dist/tex/generic/babel-esperanto/esperanto.ldf
+@dirrmtry share/texmf-dist/tex/generic/babel-esperanto
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/generic/babel-esperanto
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/babel-esperanto
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

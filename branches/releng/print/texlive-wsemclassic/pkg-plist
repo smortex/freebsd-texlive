@@ -1,0 +1,22 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/wsemclassic/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/wsemclassic/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/wsemclassic/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/wsemclassic/test.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/wsemclassic/user-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/wsemclassic/wsemclassic-test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/wsemclassic/wsemclassic-test.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/wsemclassic/wsemclassic.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/wsemclassic/wsemclassic.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/wsemclassic/wsemclassic.ins
+share/texmf-dist/tex/latex/wsemclassic/wsemclassic.cls
+@dirrmtry share/texmf-dist/tex/latex/wsemclassic
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/wsemclassic
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/wsemclassic
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -71,6 +71,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/tex4ht/mn7.html
 %%PORTDOCS%%share/texmf-dist/doc/generic/tex4ht/mn8.html
 %%PORTDOCS%%share/texmf-dist/doc/generic/tex4ht/mn9.html
+share/texmf-dist/scripts/tex4ht/htcopy.pl
+share/texmf-dist/scripts/tex4ht/htmove.pl
 share/texmf-dist/tex/generic/tex4ht/2up.4ht
 share/texmf-dist/tex/generic/tex4ht/8859-6.4ht
 share/texmf-dist/tex/generic/tex4ht/CJK.4ht
@@ -3810,10 +3812,6 @@ share/texmf-dist/tex4ht/xtpipes/xhtmml.4xt
 share/texmf-dist/tex4ht/xtpipes/xtpipes-default.4xt
 share/texmf-dist/tex4ht/xtpipes/xtpipes-map.dtd
 share/texmf-dist/tex4ht/xtpipes/xtpipes.dtd
-share/texmf/scripts/tex4ht/htcopy.pl
-share/texmf/scripts/tex4ht/htmove.pl
-@dirrmtry share/texmf/scripts/tex4ht
-@dirrmtry share/texmf/scripts
 @dirrmtry share/texmf-dist/tex4ht/xtpipes
 @dirrmtry share/texmf-dist/tex4ht/ht-fonts/win/1251/lh/lh-t2a
 @dirrmtry share/texmf-dist/tex4ht/ht-fonts/win/1251/lh
@@ -4106,6 +4104,8 @@ share/texmf/scripts/tex4ht/htmove.pl
 @dirrmtry share/texmf-dist/tex/generic/tex4ht
 @dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/scripts/tex4ht
+@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/generic/tex4ht
 @dirrmtry share/texmf-dist/doc/generic
 @dirrmtry share/texmf-dist/doc

@@ -1,0 +1,32 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/Abbs.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/Abstract.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/Acknow.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/Appendix.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/Chapter2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/Chapter3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/Conclusions.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/Dedicatory.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/Figures/uporto-feup.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/IEEEtranN.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/IEEEtranSN.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/Intro.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/Publications.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/Quote.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/References.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/Resumo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/Template_EN.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/Template_EN.tcp
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/Template_EN.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/Template_EN.tps
+%%PORTDOCS%%share/texmf-dist/doc/latex/feupphdteses/mymacros.tex
+share/texmf-dist/tex/latex/feupphdteses/feupphdteses.sty
+@dirrmtry share/texmf-dist/tex/latex/feupphdteses
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/feupphdteses/Figures
+@dirrmtry share/texmf-dist/doc/latex/feupphdteses
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

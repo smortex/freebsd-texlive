@@ -1,0 +1,4 @@
+The package supports typesetting Korean documents (including
+old Hangul texts), using XeTeX. It enhances the existing
+support, in XeTeX, providing features that provide quality
+typesetting.

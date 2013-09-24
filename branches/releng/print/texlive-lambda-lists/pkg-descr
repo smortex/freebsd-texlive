@@ -1,0 +1,4 @@
+These list-processing macros avoid the reassignments employed
+in the macros shown in Appendix D of the TeXbook: all the
+manipulations take place in what Knuth is pleased to call
+"TeX's mouth".

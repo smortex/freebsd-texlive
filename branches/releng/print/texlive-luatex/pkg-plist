@@ -7,22 +7,21 @@
 %%PORTDOCS%%share/texmf-dist/doc/luatex/base/luatexref-env.tex
 %%PORTDOCS%%share/texmf-dist/doc/luatex/base/luatexref-t.pdf
 %%PORTDOCS%%share/texmf-dist/doc/luatex/base/luatexref-t.tex
-%%PORTDOCS%%share/texmf/doc/man/man1/luatex.1
-%%PORTDOCS%%share/texmf/doc/man/man1/luatex.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/texlua.1
-%%PORTDOCS%%share/texmf/doc/man/man1/texlua.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/texluac.1
-%%PORTDOCS%%share/texmf/doc/man/man1/texluac.man1.pdf
-share/texmf/tex/generic/config/luatex-unicode-letters.tex
-share/texmf/tex/generic/config/luatexiniconfig.tex
-share/texmf/web2c/texmfcnf.lua
-@dirrmtry share/texmf/web2c
-@dirrmtry share/texmf/tex/generic/config
-@dirrmtry share/texmf/tex/generic
-@dirrmtry share/texmf/tex
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/luatex.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/luatex.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/texlua.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/texlua.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/texluac.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/texluac.man1.pdf
+share/texmf-dist/tex/generic/config/luatex-unicode-letters.tex
+share/texmf-dist/tex/generic/config/luatexiniconfig.tex
+share/texmf-dist/web2c/texmfcnf.lua
+@dirrmtry share/texmf-dist/web2c
+@dirrmtry share/texmf-dist/tex/generic/config
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc/luatex/base
 @dirrmtry share/texmf-dist/doc/luatex
 @dirrmtry share/texmf-dist/doc

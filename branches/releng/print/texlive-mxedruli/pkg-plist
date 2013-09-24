@@ -4,6 +4,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/mxedruli/mxeddoc.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/mxedruli/ossetic.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/mxedruli/vepxis.tex
+share/texmf-dist/fonts/afm/public/mxedruli/mxed10.afm
+share/texmf-dist/fonts/afm/public/mxedruli/mxedbf10.afm
+share/texmf-dist/fonts/afm/public/mxedruli/mxedc10.afm
+share/texmf-dist/fonts/afm/public/mxedruli/mxedi10.afm
+share/texmf-dist/fonts/afm/public/mxedruli/xuc10.afm
+share/texmf-dist/fonts/map/dvips/mxedruli/mxedruli.map
 share/texmf-dist/fonts/source/public/mxedruli/mxed.mf
 share/texmf-dist/fonts/source/public/mxedruli/mxed10.mf
 share/texmf-dist/fonts/source/public/mxedruli/mxedacc.mf
@@ -27,6 +33,11 @@ share/texmf-dist/fonts/tfm/public/mxedruli/mxedbf10.tfm
 share/texmf-dist/fonts/tfm/public/mxedruli/mxedc10.tfm
 share/texmf-dist/fonts/tfm/public/mxedruli/mxedi10.tfm
 share/texmf-dist/fonts/tfm/public/mxedruli/xuc10.tfm
+share/texmf-dist/fonts/type1/public/mxedruli/mxed10.pfb
+share/texmf-dist/fonts/type1/public/mxedruli/mxedbf10.pfb
+share/texmf-dist/fonts/type1/public/mxedruli/mxedc10.pfb
+share/texmf-dist/fonts/type1/public/mxedruli/mxedi10.pfb
+share/texmf-dist/fonts/type1/public/mxedruli/xuc10.pfb
 share/texmf-dist/tex/latex/mxedruli/mxedruli.sty
 share/texmf-dist/tex/latex/mxedruli/umxed.fd
 share/texmf-dist/tex/latex/mxedruli/uxuc.fd
@@ -34,12 +45,21 @@ share/texmf-dist/tex/latex/mxedruli/xucuri.sty
 @dirrmtry share/texmf-dist/tex/latex/mxedruli
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/fonts/type1/public/mxedruli
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
 @dirrmtry share/texmf-dist/fonts/tfm/public/mxedruli
 @dirrmtry share/texmf-dist/fonts/tfm/public
 @dirrmtry share/texmf-dist/fonts/tfm
 @dirrmtry share/texmf-dist/fonts/source/public/mxedruli
 @dirrmtry share/texmf-dist/fonts/source/public
 @dirrmtry share/texmf-dist/fonts/source
+@dirrmtry share/texmf-dist/fonts/map/dvips/mxedruli
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts/afm/public/mxedruli
+@dirrmtry share/texmf-dist/fonts/afm/public
+@dirrmtry share/texmf-dist/fonts/afm
 @dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/mxedruli
 @dirrmtry share/texmf-dist/doc/fonts

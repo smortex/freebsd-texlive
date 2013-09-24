@@ -1,2 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/bibtexu/00readme.txt
+%%PORTDOCS%%share/texmf-dist/doc/bibtexu/HISTORY
+%%PORTDOCS%%share/texmf-dist/doc/bibtexu/csfile.txt
+%%PORTDOCS%%share/texmf-dist/doc/bibtexu/file_id.diz
+@dirrmtry share/texmf-dist/doc/bibtexu
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

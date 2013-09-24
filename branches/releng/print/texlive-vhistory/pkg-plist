@@ -9,8 +9,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/en_introduction.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/en_sets.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/en_vhistory.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/example.tar.gz
-%%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/example.zip
 %%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/hyperref.cfg
 %%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/vh_set_example.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/vhistory/vh_set_example.tex

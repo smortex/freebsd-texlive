@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/nox/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/nox/nox.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nox/nox.tex
+share/texmf-dist/tex/latex/nox/nox.sty
+@dirrmtry share/texmf-dist/tex/latex/nox
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/nox
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,27 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/graphviz/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/graphviz/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/graphviz/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/graphviz/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/graphviz/graphviz.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/graphviz/test/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/graphviz/test/body.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/graphviz/test/pdf-singlefile-tmpdir.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/graphviz/test/pdf-singlefile.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/graphviz/test/pdf-tmpdir.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/graphviz/test/pdf.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/graphviz/test/ps.tex
+%%PORTSRC%%share/texmf-dist/source/latex/graphviz/graphviz.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/graphviz/graphviz.ins
+share/texmf-dist/tex/latex/graphviz/graphviz.sty
+@dirrmtry share/texmf-dist/tex/latex/graphviz
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/graphviz
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/graphviz/test
+@dirrmtry share/texmf-dist/doc/latex/graphviz
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

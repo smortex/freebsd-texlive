@@ -1,91 +1,50 @@
 # $FreeBSD$
 
 PORTNAME=	collection-humanities
-PORTVERSION=	20130214
+PORTVERSION=	20130814
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Humanities packages
 
-RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/alnumsec/alnumsec.sty:${PORTSDIR}/print/texlive-alnumsec \
-		${LOCALBASE}/share/texmf-dist/tex/latex/arydshln/arydshln.sty:${PORTSDIR}/print/texlive-arydshln \
-		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref/bibleref.sty:${PORTSDIR}/print/texlive-bibleref \
-		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-lds/bibleref-lds.sty:${PORTSDIR}/print/texlive-bibleref-lds \
-		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-mouth/bibleref-mouth.sty:${PORTSDIR}/print/texlive-bibleref-mouth \
-		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-parse/bibleref-parse.sty:${PORTSDIR}/print/texlive-bibleref-parse \
-		${LOCALBASE}/share/texmf-dist/tex/latex/covington/covington.sty:${PORTSDIR}/print/texlive-covington \
-		${LOCALBASE}/share/texmf-dist/tex/latex/dramatist/dramatist.sty:${PORTSDIR}/print/texlive-dramatist \
-		${LOCALBASE}/share/texmf-dist/tex/latex/dvgloss/dvgloss.sty:${PORTSDIR}/print/texlive-dvgloss \
-		${LOCALBASE}/share/texmf-dist/tex/latex/ecltree/ecltree.sty:${PORTSDIR}/print/texlive-ecltree \
-		${LOCALBASE}/share/texmf-dist/tex/latex/edfnotes/edfnotes.sty:${PORTSDIR}/print/texlive-edfnotes \
-		${LOCALBASE}/share/texmf-dist/tex/latex/ednotes/ednotes.sty:${PORTSDIR}/print/texlive-ednotes \
-		${LOCALBASE}/share/texmf-dist/tex/latex/eledform/eledform.sty:${PORTSDIR}/print/texlive-eledform \
-		${LOCALBASE}/share/texmf-dist/tex/latex/eledmac/eledmac.sty:${PORTSDIR}/print/texlive-eledmac \
-		${LOCALBASE}/share/texmf-dist/tex/latex/gb4e/gb4e.sty:${PORTSDIR}/print/texlive-gb4e \
-		${LOCALBASE}/share/texmf-dist/tex/latex/gmverse/gmverse.sty:${PORTSDIR}/print/texlive-gmverse \
-		${LOCALBASE}/share/texmf-dist/tex/latex/jura/jura.cls:${PORTSDIR}/print/texlive-jura \
-		${LOCALBASE}/share/texmf-dist/tex/latex/juraabbrev/juraabbrev.sty:${PORTSDIR}/print/texlive-juraabbrev \
-		${LOCALBASE}/share/texmf-dist/tex/latex/juramisc/jbgoe.clo:${PORTSDIR}/print/texlive-juramisc \
-		${LOCALBASE}/share/texmf-dist/tex/latex/jurarsp/jurarsp.sty:${PORTSDIR}/print/texlive-jurarsp \
-		${LOCALBASE}/share/texmf-dist/tex/latex/ledmac/ledmac.sty:${PORTSDIR}/print/texlive-ledmac \
-		${LOCALBASE}/share/texmf-dist/tex/latex/lexikon/lexikon.sty:${PORTSDIR}/print/texlive-lexikon \
-		${LOCALBASE}/share/texmf-dist/tex/latex/lineno/lineno.sty:${PORTSDIR}/print/texlive-lineno \
-		${LOCALBASE}/share/texmf-dist/tex/latex/linguex/linguex.sty:${PORTSDIR}/print/texlive-linguex \
-		${LOCALBASE}/share/texmf-dist/tex/latex/liturg/liturg.sty:${PORTSDIR}/print/texlive-liturg \
-		${LOCALBASE}/share/texmf-dist/tex/latex/parallel/parallel.sty:${PORTSDIR}/print/texlive-parallel \
-		${LOCALBASE}/share/texmf-dist/tex/latex/parrun/parrun.sty:${PORTSDIR}/print/texlive-parrun \
-		${LOCALBASE}/share/texmf-dist/tex/latex/plari/plari.cls:${PORTSDIR}/print/texlive-plari \
-		${LOCALBASE}/share/texmf-dist/tex/latex/play/play.cls:${PORTSDIR}/print/texlive-play \
-		${LOCALBASE}/share/texmf-dist/tex/latex/poemscol/poemscol.sty:${PORTSDIR}/print/texlive-poemscol \
-		${LOCALBASE}/share/texmf-dist/tex/latex/poetrytex/poetrytex.sty:${PORTSDIR}/print/texlive-poetrytex \
-		${LOCALBASE}/share/texmf-dist/tex/latex/qobitree/qobitree.tex:${PORTSDIR}/print/texlive-qobitree \
-		${LOCALBASE}/share/texmf-dist/tex/latex/qtree/qtree.sty:${PORTSDIR}/print/texlive-qtree \
-		${LOCALBASE}/share/texmf-dist/tex/latex/rrgtrees/rrgtrees.sty:${PORTSDIR}/print/texlive-rrgtrees \
-		${LOCALBASE}/share/texmf-dist/tex/latex/rtklage/rtklage.cls:${PORTSDIR}/print/texlive-rtklage \
-		${LOCALBASE}/share/texmf-dist/tex/latex/screenplay/screenplay.cls:${PORTSDIR}/print/texlive-screenplay \
-		${LOCALBASE}/share/texmf-dist/tex/latex/sides/sides.cls:${PORTSDIR}/print/texlive-sides \
-		${LOCALBASE}/share/texmf-dist/tex/latex/stage/stage.cls:${PORTSDIR}/print/texlive-stage \
-		${LOCALBASE}/share/texmf-dist/tex/latex/tree-dvips/tree-dvips.sty:${PORTSDIR}/print/texlive-tree-dvips \
-		${LOCALBASE}/share/texmf-dist/tex/latex/verse/verse.sty:${PORTSDIR}/print/texlive-verse \
-		${LOCALBASE}/share/texmf-dist/tex/latex/xyling/xyling.sty:${PORTSDIR}/print/texlive-xyling \
-		${LOCALBASE}/share/texmf/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/print/texlive-texlive.infra \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/base/xampl.bib:${PORTSDIR}/print/texlive-bibtex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cm/cmtext-bsr-interpolated.map:${PORTSDIR}/print/texlive-cm \
-		${LOCALBASE}/share/texmf/dvipdfm/config/config:${PORTSDIR}/print/texlive-dvipdfm \
-		${LOCALBASE}/share/texmf/dvipdfmx/dvipdfmx.cfg:${PORTSDIR}/print/texlive-dvipdfmx \
+		${LOCALBASE}/share/texmf-dist/dvipdfmx/dvipdfmx.cfg:${PORTSDIR}/print/texlive-dvipdfmx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def:${PORTSDIR}/print/texlive-dvipdfmx-def \
-		${LOCALBASE}/share/texmf-dist/dvips/base/ehandler.ps:${PORTSDIR}/print/texlive-dvips \
+		${LOCALBASE}/share/texmf-dist/dvips/base/color.pro:${PORTSDIR}/print/texlive-dvips \
 		${LOCALBASE}/share/texmf-dist/tex/generic/enctex/1250-csf.tex:${PORTSDIR}/print/texlive-enctex \
-		${LOCALBASE}/share/texmf-dist/tex/plain/etex/etex.src:${PORTSDIR}/print/texlive-etex \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/etex/xbmc10.mf:${PORTSDIR}/print/texlive-etex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/etex-pkg/etex.sty:${PORTSDIR}/print/texlive-etex-pkg \
 		${LOCALBASE}/share/texmf-dist/fonts/map/glyphlist/glyphlist.txt:${PORTSDIR}/print/texlive-glyphlist \
-		${LOCALBASE}/share/texmf/dvips/gsftopk/render.ps:${PORTSDIR}/print/texlive-gsftopk \
+		${LOCALBASE}/share/texmf-dist/dvips/gsftopk/render.ps:${PORTSDIR}/print/texlive-gsftopk \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8 \
-		${LOCALBASE}/share/texmf/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
+		${LOCALBASE}/share/texmf-dist/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
 		${LOCALBASE}/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty:${PORTSDIR}/print/texlive-ifluatex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty:${PORTSDIR}/print/texlive-ifxetex \
-		${LOCALBASE}/share/texmf/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
+		${LOCALBASE}/share/texmf-dist/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
 		${LOCALBASE}/share/texmf-dist/scripts/lua-alt-getopt/alt_getopt.lua:${PORTSDIR}/print/texlive-lua-alt-getopt \
-		${LOCALBASE}/share/texmf/tex/generic/config/luatex-unicode-letters.tex:${PORTSDIR}/print/texlive-luatex \
+		${LOCALBASE}/share/texmf-dist/tex/generic/config/luatex-unicode-letters.tex:${PORTSDIR}/print/texlive-luatex \
 		${LOCALBASE}/share/texmf-dist/makeindex/base/din.ist:${PORTSDIR}/print/texlive-makeindex \
 		${LOCALBASE}/share/texmf-dist/metafont/base/expr.mf:${PORTSDIR}/print/texlive-metafont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mflogo/mflogo.sty:${PORTSDIR}/print/texlive-mflogo \
 		${LOCALBASE}/share/texmf-dist/mft/base/README:${PORTSDIR}/print/texlive-mfware \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/misc/black.mf:${PORTSDIR}/print/texlive-misc \
-		${LOCALBASE}/share/texmf-dist/scripts/simpdftex/simpdftex:${PORTSDIR}/print/texlive-pdftex \
+		${LOCALBASE}/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map:${PORTSDIR}/print/texlive-pdftex \
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
-		${LOCALBASE}/share/texmf-dist/scripts/tetex/allcm.sh:${PORTSDIR}/print/texlive-tetex \
+		${LOCALBASE}/share/texmf-dist/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
-		${LOCALBASE}/share/texmf/scripts/tetex/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
-		${LOCALBASE}/share/texmf/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
-		${LOCALBASE}/share/texmf/scripts/texlive/tlmgr.pl:${PORTSDIR}/print/texlive-texlive.infra \
-		${LOCALBASE}/share/texmf/xdvi/XDvi:${PORTSDIR}/print/texlive-xdvi \
+		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
+		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
+		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
+		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print/texlive-ae \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/amscls/amsalpha.bst:${PORTSDIR}/print/texlive-amscls \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsmath/amsmath.sty:${PORTSDIR}/print/texlive-amsmath \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel/babel.sty:${PORTSDIR}/print/texlive-babel \
+		${LOCALBASE}/share/texmf-dist/tex/generic/babel-english/english.ldf:${PORTSDIR}/print/texlive-babel-english \
 		${LOCALBASE}/share/texmf-dist/tex/latex/babelbib/babelbib.sty:${PORTSDIR}/print/texlive-babelbib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/carlisle/dotlessj.sty:${PORTSDIR}/print/texlive-carlisle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/colortbl/colortbl.sty:${PORTSDIR}/print/texlive-colortbl \
@@ -106,7 +65,53 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/alnumsec/alnumsec.sty:${POR
 		${LOCALBASE}/share/texmf-dist/tex/latex/pslatex/pslatex.sty:${PORTSDIR}/print/texlive-pslatex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/psnfss/charter.map:${PORTSDIR}/print/texlive-psnfss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pspicture/pspicture.sty:${PORTSDIR}/print/texlive-pspicture \
-		${LOCALBASE}/share/texmf-dist/tex/latex/tools/.tex:${PORTSDIR}/print/texlive-tools
+		${LOCALBASE}/share/texmf-dist/tex/latex/tools/.tex:${PORTSDIR}/print/texlive-tools \
+		${LOCALBASE}/share/texmf-dist/tex/latex/alnumsec/alnumsec.sty:${PORTSDIR}/print/texlive-alnumsec \
+		${LOCALBASE}/share/texmf-dist/tex/latex/arydshln/arydshln.sty:${PORTSDIR}/print/texlive-arydshln \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref/bibleref.sty:${PORTSDIR}/print/texlive-bibleref \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-lds/bibleref-lds.sty:${PORTSDIR}/print/texlive-bibleref-lds \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-mouth/bibleref-mouth.sty:${PORTSDIR}/print/texlive-bibleref-mouth \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-parse/bibleref-parse.sty:${PORTSDIR}/print/texlive-bibleref-parse \
+		${LOCALBASE}/share/texmf-dist/tex/latex/covington/covington.sty:${PORTSDIR}/print/texlive-covington \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dramatist/dramatist.sty:${PORTSDIR}/print/texlive-dramatist \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dvgloss/dvgloss.sty:${PORTSDIR}/print/texlive-dvgloss \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ecltree/ecltree.sty:${PORTSDIR}/print/texlive-ecltree \
+		${LOCALBASE}/share/texmf-dist/tex/latex/edfnotes/edfnotes.sty:${PORTSDIR}/print/texlive-edfnotes \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ednotes/ednotes.sty:${PORTSDIR}/print/texlive-ednotes \
+		${LOCALBASE}/share/texmf-dist/tex/latex/eledform/eledform.sty:${PORTSDIR}/print/texlive-eledform \
+		${LOCALBASE}/share/texmf-dist/tex/latex/eledmac/eledmac.sty:${PORTSDIR}/print/texlive-eledmac \
+		${LOCALBASE}/share/texmf-dist/tex/generic/expex/expex.sty:${PORTSDIR}/print/texlive-expex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gb4e/gb4e.sty:${PORTSDIR}/print/texlive-gb4e \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gmverse/gmverse.sty:${PORTSDIR}/print/texlive-gmverse \
+		${LOCALBASE}/share/texmf-dist/tex/latex/jura/jura.cls:${PORTSDIR}/print/texlive-jura \
+		${LOCALBASE}/share/texmf-dist/tex/latex/juraabbrev/juraabbrev.sty:${PORTSDIR}/print/texlive-juraabbrev \
+		${LOCALBASE}/share/texmf-dist/tex/latex/juramisc/jbgoe.clo:${PORTSDIR}/print/texlive-juramisc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/jurarsp/jurarsp.sty:${PORTSDIR}/print/texlive-jurarsp \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ledmac/ledmac.sty:${PORTSDIR}/print/texlive-ledmac \
+		${LOCALBASE}/share/texmf-dist/tex/latex/leipzig/leipzig.sty:${PORTSDIR}/print/texlive-leipzig \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lexikon/lexikon.sty:${PORTSDIR}/print/texlive-lexikon \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lineno/lineno.sty:${PORTSDIR}/print/texlive-lineno \
+		${LOCALBASE}/share/texmf-dist/tex/latex/linguex/linguex.sty:${PORTSDIR}/print/texlive-linguex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/liturg/liturg.sty:${PORTSDIR}/print/texlive-liturg \
+		${LOCALBASE}/share/texmf-dist/tex/latex/metrix/metrix.sty:${PORTSDIR}/print/texlive-metrix \
+		${LOCALBASE}/share/texmf-dist/tex/latex/parallel/parallel.sty:${PORTSDIR}/print/texlive-parallel \
+		${LOCALBASE}/share/texmf-dist/tex/latex/parrun/parrun.sty:${PORTSDIR}/print/texlive-parrun \
+		${LOCALBASE}/share/texmf-dist/tex/latex/plari/plari.cls:${PORTSDIR}/print/texlive-plari \
+		${LOCALBASE}/share/texmf-dist/tex/latex/play/play.cls:${PORTSDIR}/print/texlive-play \
+		${LOCALBASE}/share/texmf-dist/tex/latex/poemscol/poemscol.sty:${PORTSDIR}/print/texlive-poemscol \
+		${LOCALBASE}/share/texmf-dist/tex/latex/poetrytex/poetrytex.sty:${PORTSDIR}/print/texlive-poetrytex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/qobitree/qobitree.tex:${PORTSDIR}/print/texlive-qobitree \
+		${LOCALBASE}/share/texmf-dist/tex/latex/qtree/qtree.sty:${PORTSDIR}/print/texlive-qtree \
+		${LOCALBASE}/share/texmf-dist/tex/latex/rrgtrees/rrgtrees.sty:${PORTSDIR}/print/texlive-rrgtrees \
+		${LOCALBASE}/share/texmf-dist/tex/latex/rtklage/rtklage.cls:${PORTSDIR}/print/texlive-rtklage \
+		${LOCALBASE}/share/texmf-dist/tex/latex/screenplay/screenplay.cls:${PORTSDIR}/print/texlive-screenplay \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sides/sides.cls:${PORTSDIR}/print/texlive-sides \
+		${LOCALBASE}/share/texmf-dist/tex/latex/stage/stage.cls:${PORTSDIR}/print/texlive-stage \
+		${LOCALBASE}/share/texmf-dist/tex/latex/textglos/textglos.sty:${PORTSDIR}/print/texlive-textglos \
+		${LOCALBASE}/share/texmf-dist/tex/latex/thalie/thalie.sty:${PORTSDIR}/print/texlive-thalie \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tree-dvips/tree-dvips.sty:${PORTSDIR}/print/texlive-tree-dvips \
+		${LOCALBASE}/share/texmf-dist/tex/latex/verse/verse.sty:${PORTSDIR}/print/texlive-verse \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xyling/xyling.sty:${PORTSDIR}/print/texlive-xyling
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes

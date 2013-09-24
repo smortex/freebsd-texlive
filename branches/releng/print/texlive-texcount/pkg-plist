@@ -3,6 +3,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/texcount/README
 %%PORTDOCS%%share/texmf-dist/doc/support/texcount/TeXcount.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/texcount/TeXcount.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/texcount/TechDoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/texcount/TechDoc.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/texcount/macros.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/texcount/sub_addrules.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/texcount/sub_options.tex

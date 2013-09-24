@@ -1,0 +1,6 @@
+The package may be used to type the prosodics/metrics of
+(latin) verse; it provides macros to typeset the symbols
+standing alone, and in combination with symbols, giving
+automatic alignment. The package requires tikz (including the
+calc library, and the xparse package (thus also requiring the
+experimental LaTeX 3 environment).

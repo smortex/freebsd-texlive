@@ -29,13 +29,14 @@ share/readme-txt.dir/README.SK-il2
 share/readme-txt.dir/README.SR
 share/readme-txt.dir/README.ZH-CN
 share/release-texlive.txt
-%%PORTDOCS%%share/texmf/doc/man/man1/tlmgr.1
-%%PORTDOCS%%share/texmf/doc/man/man1/tlmgr.man1.pdf
-%%PORTDOCS%%share/texmf/scripts/texlive/NEWS
-share/texmf/scripts/texlive/tlmgrgui.pl
-share/texmf/scripts/texlive/uninstall-win32.pl
-share/texmf/web2c/fmtutil-hdr.cnf
-share/texmf/web2c/updmap-hdr.cfg
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/tlmgr.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/tlmgr.man1.pdf
+%%PORTDOCS%%share/texmf-dist/scripts/texlive/NEWS
+share/texmf-dist/scripts/texlive/tlmgr.pl
+share/texmf-dist/scripts/texlive/tlmgrgui.pl
+share/texmf-dist/scripts/texlive/uninstall-win32.pl
+share/texmf-dist/web2c/fmtutil-hdr.cnf
+share/texmf-dist/web2c/updmap-hdr.cfg
 %%PORTDOCS%%share/tlpkg/README
 share/tlpkg/TeXLive/Splashscreen.pm
 share/tlpkg/TeXLive/TLConfFile.pm
@@ -55,11 +56,11 @@ share/tlpkg/TeXLive/waitVariableX.pm
 share/tlpkg/installer/config.guess
 @dirrmtry share/tlpkg/installer
 @dirrmtry share/tlpkg/TeXLive
-@dirrmtry share/texmf/web2c
-@dirrmtry share/texmf/scripts/texlive
-@dirrmtry share/texmf/scripts
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
+@dirrmtry share/texmf-dist/web2c
+@dirrmtry share/texmf-dist/scripts/texlive
+@dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

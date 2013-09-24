@@ -1,0 +1,60 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/aramaic-serto/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/aramaic-serto/assyr.font
+%%PORTDOCS%%share/texmf-dist/doc/latex/aramaic-serto/example.ptex
+%%PORTDOCS%%share/texmf-dist/doc/latex/aramaic-serto/serto.font
+%%PORTDOCS%%share/texmf-dist/doc/latex/aramaic-serto/serto.py
+%%PORTDOCS%%share/texmf-dist/doc/latex/aramaic-serto/sertodoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/aramaic-serto/sertodoc.ptex
+share/texmf-dist/fonts/afm/public/aramaic-serto/assy.afm
+share/texmf-dist/fonts/afm/public/aramaic-serto/assyrb10.afm
+share/texmf-dist/fonts/afm/public/aramaic-serto/serto10.afm
+share/texmf-dist/fonts/afm/public/aramaic-serto/sertob10.afm
+share/texmf-dist/fonts/map/dvips/aramaic-serto/syriac.map
+share/texmf-dist/fonts/source/public/aramaic-serto/assy.mf
+share/texmf-dist/fonts/source/public/aramaic-serto/assyrb10.mf
+share/texmf-dist/fonts/source/public/aramaic-serto/assyrfont.mf
+share/texmf-dist/fonts/source/public/aramaic-serto/serto.mf
+share/texmf-dist/fonts/source/public/aramaic-serto/serto10.mf
+share/texmf-dist/fonts/source/public/aramaic-serto/sertob10.mf
+share/texmf-dist/fonts/source/public/aramaic-serto/sertobase.mf
+share/texmf-dist/fonts/source/public/aramaic-serto/sertofont.mf
+share/texmf-dist/fonts/source/public/aramaic-serto/sertomacros.mf
+share/texmf-dist/fonts/source/public/aramaic-serto/syriacvowels.mf
+share/texmf-dist/fonts/source/public/aramaic-serto/test.mf
+share/texmf-dist/fonts/tfm/public/aramaic-serto/assy.tfm
+share/texmf-dist/fonts/tfm/public/aramaic-serto/assyrb10.tfm
+share/texmf-dist/fonts/tfm/public/aramaic-serto/serto10.tfm
+share/texmf-dist/fonts/tfm/public/aramaic-serto/sertob10.tfm
+share/texmf-dist/fonts/type1/public/aramaic-serto/assy.pfb
+share/texmf-dist/fonts/type1/public/aramaic-serto/assyrb10.pfb
+share/texmf-dist/fonts/type1/public/aramaic-serto/serto10.pfb
+share/texmf-dist/fonts/type1/public/aramaic-serto/sertob10.pfb
+share/texmf-dist/tex/latex/aramaic-serto/assyr.sty
+share/texmf-dist/tex/latex/aramaic-serto/serto.sty
+share/texmf-dist/tex/latex/aramaic-serto/syriac.sty
+share/texmf-dist/tex/latex/aramaic-serto/uassyr.fd
+share/texmf-dist/tex/latex/aramaic-serto/userto.fd
+@dirrmtry share/texmf-dist/tex/latex/aramaic-serto
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/fonts/type1/public/aramaic-serto
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
+@dirrmtry share/texmf-dist/fonts/tfm/public/aramaic-serto
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
+@dirrmtry share/texmf-dist/fonts/source/public/aramaic-serto
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
+@dirrmtry share/texmf-dist/fonts/map/dvips/aramaic-serto
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts/afm/public/aramaic-serto
+@dirrmtry share/texmf-dist/fonts/afm/public
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
+@dirrmtry share/texmf-dist/doc/latex/aramaic-serto
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,28 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ascii-font/README.TEXLIVE
+share/texmf-dist/fonts/map/dvips/ascii-font/ascii.map
+share/texmf-dist/fonts/tfm/public/ascii-font/ASCII.tfm
+share/texmf-dist/fonts/type1/public/ascii-font/ASCII.pfb
+%%PORTSRC%%share/texmf-dist/source/fonts/ascii-font/ascii.dtx
+%%PORTSRC%%share/texmf-dist/source/fonts/ascii-font/ascii.ins
+share/texmf-dist/tex/latex/ascii-font/ascii.sty
+@dirrmtry share/texmf-dist/tex/latex/ascii-font
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/fonts/ascii-font
+@dirrmtry share/texmf-dist/source/fonts
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/fonts/type1/public/ascii-font
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
+@dirrmtry share/texmf-dist/fonts/tfm/public/ascii-font
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
+@dirrmtry share/texmf-dist/fonts/map/dvips/ascii-font
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts
+@dirrmtry share/texmf-dist/doc/fonts/ascii-font
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

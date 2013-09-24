@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	hyphen-portuguese
-PORTVERSION=	20120417
+PORTVERSION=	20130708
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -9,7 +9,7 @@ DISTFILES=	# None
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Portuguese hyphenation patterns.
 
-RUN_DEPENDS=	${LOCALBASE}/share/texmf/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8
 
 NOPORTDOCS=	yes

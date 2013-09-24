@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-galician/galician.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-galician/glbst.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-galician/glromidx.tex
+%%PORTSRC%%share/texmf-dist/source/generic/babel-galician/galician.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-galician/galician.ins
+share/texmf-dist/tex/generic/babel-galician/galician.ldf
+@dirrmtry share/texmf-dist/tex/generic/babel-galician
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/generic/babel-galician
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/babel-galician
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

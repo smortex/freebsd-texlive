@@ -1,15 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/info/mf2pt1.info
 %%PORTDOCS%%share/texmf-dist/doc/support/mf2pt1/ChangeLog
 %%PORTDOCS%%share/texmf-dist/doc/support/mf2pt1/README
 %%PORTDOCS%%share/texmf-dist/doc/support/mf2pt1/mf2pt1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/mf2pt1/mf2pt1.texi
 share/texmf-dist/metapost/mf2pt1/mf2pt1.mp
-%%PORTDOCS%%share/texmf/doc/info/mf2pt1.info
-@dirrmtry share/texmf/doc/info
-@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/metapost/mf2pt1
 @dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/doc/support/mf2pt1
 @dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc/info
 @dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

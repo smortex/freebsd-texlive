@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/latex-git-log.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/latex-git-log.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/latex-git-log/README
+%%PORTDOCS%%share/texmf-dist/doc/support/latex-git-log/example-output.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latex-git-log/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/latex-git-log/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latex-git-log/po/de.po
+share/texmf-dist/scripts/latex-git-log/latex-git-log
+@dirrmtry share/texmf-dist/scripts/latex-git-log
+@dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/doc/support/latex-git-log/po
+@dirrmtry share/texmf-dist/doc/support/latex-git-log
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,12 +1,13 @@
 # $FreeBSD$
 
 PORTNAME=	cbfonts
-PORTVERSION=	20101105
-PORTREVISION=	1
+PORTVERSION=	20130911
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Complete set of Greek fonts.
+
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd:${PORTSDIR}/print/texlive-cbfonts-fd
 
 NOPORTSRC=	yes
 

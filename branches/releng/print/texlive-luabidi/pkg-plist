@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luabidi/README
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luabidi/test.tex
+share/texmf-dist/tex/lualatex/luabidi/arabmaths.tex
+share/texmf-dist/tex/lualatex/luabidi/autofootnoterule.tex
+share/texmf-dist/tex/lualatex/luabidi/luabidi.sty
+share/texmf-dist/tex/lualatex/luabidi/textwidthfootnoterule.tex
+@dirrmtry share/texmf-dist/tex/lualatex/luabidi
+@dirrmtry share/texmf-dist/tex/lualatex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/lualatex/luabidi
+@dirrmtry share/texmf-dist/doc/lualatex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

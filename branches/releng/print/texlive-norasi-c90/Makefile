@@ -1,13 +1,14 @@
 # $FreeBSD$
 
 PORTNAME=	norasi-c90
-PORTVERSION=	20100610
-PORTREVISION=	1
+PORTVERSION=	20130523
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	TeX support (from CJK) for the norasi font in thailatex
+COMMENT=	TeX support (from CJK) for the norasi font
+
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/fonts-tlwg/fonts-tlwg.sty:${PORTSDIR}/print/texlive-fonts-tlwg
 
 NOPORTDOCS=	yes
 

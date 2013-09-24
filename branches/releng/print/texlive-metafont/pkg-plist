@@ -1,3 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/mf-nowin.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/mf-nowin.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/mf.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/mf.man1.pdf
 share/texmf-dist/metafont/base/expr.mf
 share/texmf-dist/metafont/base/io.mf
 share/texmf-dist/metafont/base/mf.mf
@@ -16,16 +20,12 @@ share/texmf-dist/metafont/misc/rtest.mf
 share/texmf-dist/metafont/misc/test.mf
 share/texmf-dist/metafont/misc/waits.mf
 share/texmf-dist/metafont/misc/ztest.mf
-%%PORTDOCS%%share/texmf/doc/man/man1/mf-nowin.1
-%%PORTDOCS%%share/texmf/doc/man/man1/mf-nowin.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/mf.1
-%%PORTDOCS%%share/texmf/doc/man/man1/mf.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/metafont/misc
 @dirrmtry share/texmf-dist/metafont/config
 @dirrmtry share/texmf-dist/metafont/base
 @dirrmtry share/texmf-dist/metafont
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

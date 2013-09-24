@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/plain/plstmary/README
+%%PORTDOCS%%share/texmf-dist/doc/plain/plstmary/plstmary-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/plain/plstmary/plstmary-doc.tex
+share/texmf-dist/tex/plain/plstmary/stmary.tex
+@dirrmtry share/texmf-dist/tex/plain/plstmary
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/plain/plstmary
+@dirrmtry share/texmf-dist/doc/plain
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,3 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/dvitomp.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/dvitomp.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/mpost.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/mpost.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/grdemo-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/grdemo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/index.html
@@ -151,13 +155,6 @@ share/texmf-dist/metapost/support/trchars.adj
 share/texmf-dist/metapost/support/trfonts.map
 share/texmf-dist/tex/generic/metapost/mproof.tex
 share/texmf-dist/tex/generic/metapost/mpsproof.tex
-%%PORTDOCS%%share/texmf/doc/man/man1/dvitomp.1
-%%PORTDOCS%%share/texmf/doc/man/man1/dvitomp.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/mpost.1
-%%PORTDOCS%%share/texmf/doc/man/man1/mpost.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/generic/metapost
 @dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
@@ -184,6 +181,8 @@ share/texmf-dist/tex/generic/metapost/mpsproof.tex
 @dirrmtry share/texmf-dist/doc/metapost/base/source-manual
 @dirrmtry share/texmf-dist/doc/metapost/base
 @dirrmtry share/texmf-dist/doc/metapost
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

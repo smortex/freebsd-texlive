@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-bahasa/bahasa.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-bahasa/bahasam.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/babel-bahasa/bahasa.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-bahasa/bahasa.ins
+%%PORTSRC%%share/texmf-dist/source/generic/babel-bahasa/bahasam.dtx
+share/texmf-dist/tex/generic/babel-bahasa/bahasai.ldf
+share/texmf-dist/tex/generic/babel-bahasa/bahasam.ldf
+@dirrmtry share/texmf-dist/tex/generic/babel-bahasa
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/generic/babel-bahasa
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/babel-bahasa
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,17 +1,19 @@
-share/texmf-dist/scripts/tetex/ps2frag.sh
-share/texmf-dist/scripts/tetex/pslatex.sh
-%%PORTDOCS%%share/texmf/doc/man/man1/bbox.1
-%%PORTDOCS%%share/texmf/doc/man/man1/bbox.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/ps2eps.1
-%%PORTDOCS%%share/texmf/doc/man/man1/ps2eps.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/ps2frag.1
-%%PORTDOCS%%share/texmf/doc/man/man1/ps2frag.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/pslatex.1
-%%PORTDOCS%%share/texmf/doc/man/man1/pslatex.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
-@dirrmtry share/texmf-dist/scripts/tetex
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/bbox.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/bbox.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/ps2eps.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/ps2eps.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/ps2frag.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/ps2frag.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/pslatex.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/pslatex.man1.pdf
+share/texmf-dist/scripts/ps2eps/ps2eps.pl
+share/texmf-dist/scripts/texlive/ps2frag.sh
+share/texmf-dist/scripts/texlive/pslatex.sh
+@dirrmtry share/texmf-dist/scripts/texlive
+@dirrmtry share/texmf-dist/scripts/ps2eps
 @dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

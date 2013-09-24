@@ -1,18 +1,27 @@
+%%PORTDOCS%%share/texmf-dist/doc/context/scripts/mkii/mptopdf.man
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/mptopdf.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/mptopdf.man1.pdf
+share/texmf-dist/scripts/context/stubs/mswin/mptopdf.exe
 share/texmf-dist/tex/context/base/supp-mis.mkii
 share/texmf-dist/tex/context/base/supp-mpe.mkii
 share/texmf-dist/tex/context/base/supp-pdf.mkii
 share/texmf-dist/tex/context/base/syst-tex.mkii
 share/texmf-dist/tex/generic/context/mptopdf/mptopdf.tex
-%%PORTDOCS%%share/texmf/doc/man/man1/mptopdf.1
-%%PORTDOCS%%share/texmf/doc/man/man1/mptopdf.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/generic/context/mptopdf
 @dirrmtry share/texmf-dist/tex/generic/context
 @dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex/context/base
 @dirrmtry share/texmf-dist/tex/context
 @dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/scripts/context/stubs/mswin
+@dirrmtry share/texmf-dist/scripts/context/stubs
+@dirrmtry share/texmf-dist/scripts/context
+@dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
+@dirrmtry share/texmf-dist/doc/context/scripts/mkii
+@dirrmtry share/texmf-dist/doc/context/scripts
+@dirrmtry share/texmf-dist/doc/context
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -1,23 +1,64 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/BasicFunctionality.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/DataTestRealData.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/FurtherExamples.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/License.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/MatlabSupport.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/MultiplePlots.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/NumericPlots.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/NumericPlotsDoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/README.TEXLIVE
-%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/README.doc
-%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/Roll406_Ref2288.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/TechnicalDetails.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/TestPlots.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/history.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/keys_NumericDataPlot.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/options.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/BasicFunctionality.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/FurtherExamples.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/MatlabSupport.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/MultiplePlots.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/NumericPlotsDoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/Roll406_Ref2288.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/TechnicalDetails.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/TestPlots.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/BodeDiagramm.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/DataTestRealData.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/DefineData.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/LabelsNTickLabels.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/NyquistPlot.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/Sprungantwort_PT1Glied.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/basic_Boxes.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/basic_EasyPlot.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/basic_Grid.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/basic_Labels.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/basic_Legend.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/basic_LegendI.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/basic_LegendII.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/basic_LegendIII.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/basic_LineStyles.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/basic_Lines.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/basic_LogarithmicI.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/basic_LogarithmicII.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/basic_LogarithmicIII.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/basic_MultipleData.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/basic_Objects.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/basic_PlaceObjects.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/basic_PlaceObjectsII.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/basic_PlotWHoles.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/basic_UseRput.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/basic_UserLinestyles.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/data_BodeDiagrammLinearerTerm.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/data_Nyquist.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/data_SprungantwortPT1Glied.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/furtherEx_TickLabels.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/multiplots_exampleI.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/multiplots_exampleII.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/examples/multiplots_exampleIII.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/fig_NoiseData_ClosedLine.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/fig_NoiseData_OpenLine.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/history.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/keys_NumericDataPlot.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/numericplots/src/options.tex
 share/texmf-dist/tex/latex/numericplots/NumericPlots.sty
+share/texmf-dist/tex/latex/numericplots/NumericPlots_TickLabels.tex
+share/texmf-dist/tex/latex/numericplots/NumericPlots_labels.tex
+share/texmf-dist/tex/latex/numericplots/NumericPlots_legend.tex
+share/texmf-dist/tex/latex/numericplots/NumericPlots_macros.tex
+share/texmf-dist/tex/latex/numericplots/NumericPlots_styles.tex
 @dirrmtry share/texmf-dist/tex/latex/numericplots
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/numericplots/src/examples
+@dirrmtry share/texmf-dist/doc/latex/numericplots/src
 @dirrmtry share/texmf-dist/doc/latex/numericplots
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc

@@ -1,7 +1,7 @@
 %%PORTDOCS%%share/doc.html
-share/texmf/scripts/texlive/var/texcatalogue.keywords
-@dirrmtry share/texmf/scripts/texlive/var
-@dirrmtry share/texmf/scripts/texlive
-@dirrmtry share/texmf/scripts
+share/texmf-dist/scripts/texlive/var/texcatalogue.keywords
+@dirrmtry share/texmf-dist/scripts/texlive/var
+@dirrmtry share/texmf-dist/scripts/texlive
+@dirrmtry share/texmf-dist/scripts
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

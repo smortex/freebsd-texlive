@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	skeyval
-PORTVERSION=	20130213
+PORTVERSION=	20130520
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extensions to xkeyval.
+COMMENT=	Key-value parsing combining features of xkeyval and pgfkeys.
 
 NOPORTSRC=	yes
 

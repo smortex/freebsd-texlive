@@ -111,6 +111,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/reference/musixre1.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/scripts/musixflx.html
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/scripts/musixtex.html
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/musixflx.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/musixflx.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/musixtex.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/musixtex.man1.pdf
 share/texmf-dist/dvips/musixtex/psslurs.pro
 %%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/doc.tex
 %%PORTSRC%%share/texmf-dist/source/generic/musixtex/musixcrd/makefile
@@ -159,13 +163,6 @@ share/texmf-dist/tex/latex/musixtex/musixcpt.sty
 share/texmf-dist/tex/latex/musixtex/musixcrd.sty
 share/texmf-dist/tex/latex/musixtex/musixltx.tex
 share/texmf-dist/tex/latex/musixtex/musixtex.sty
-%%PORTDOCS%%share/texmf/doc/man/man1/musixflx.1
-%%PORTDOCS%%share/texmf/doc/man/man1/musixflx.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/musixtex.1
-%%PORTDOCS%%share/texmf/doc/man/man1/musixtex.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/latex/musixtex
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/musixtex
@@ -177,6 +174,8 @@ share/texmf-dist/tex/latex/musixtex/musixtex.sty
 @dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/dvips/musixtex
 @dirrmtry share/texmf-dist/dvips
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc/generic/musixtex/scripts
 @dirrmtry share/texmf-dist/doc/generic/musixtex/reference
 @dirrmtry share/texmf-dist/doc/generic/musixtex/psslurs

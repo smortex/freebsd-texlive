@@ -1,7 +1,14 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/dcpic/README
-%%PORTDOCS%%share/texmf-dist/doc/generic/dcpic/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/generic/dcpic/eurotex2001.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/dcpic/eurotex2001.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/dcpic/examples.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/dcpic/examples.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/dcpic/manDCPiC.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/dcpic/manDCPiC.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/dcpic/manDCPiCpt.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/dcpic/manDCPiCpt.tex
 share/texmf-dist/tex/generic/dcpic/dcpic.sty
+share/texmf-dist/tex/generic/dcpic/europroc.cls
 @dirrmtry share/texmf-dist/tex/generic/dcpic
 @dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex

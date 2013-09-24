@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-upenn-bc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-upenn-bc/beamerBCstyle.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-upenn-bc/beamerBCstyle.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-upenn-bc/beamerPENNstyle.pdf
+share/texmf-dist/tex/latex/beamertheme-upenn-bc/beamercolorthemegoeagles.sty
+share/texmf-dist/tex/latex/beamertheme-upenn-bc/beamercolorthemepenn.sty
+@dirrmtry share/texmf-dist/tex/latex/beamertheme-upenn-bc
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/beamertheme-upenn-bc
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

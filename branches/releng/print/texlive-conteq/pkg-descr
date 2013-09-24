@@ -1,0 +1,5 @@
+The package provides an environment conteq, which will lay out
+systems of continued equalities (or inequalities). Several
+variant layouts of the equalities are provided, and the user
+may define their own. The package is written use LaTeX 3
+macros.

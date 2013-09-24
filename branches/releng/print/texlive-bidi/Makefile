@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bidi
-PORTVERSION=	20130405
+PORTVERSION=	20130923
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for bidirectional typesetting in plain TeX and LaTeX.
+COMMENT=	Bidirectional typesetting in plain TeX and LaTeX, using XeTeX engine.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

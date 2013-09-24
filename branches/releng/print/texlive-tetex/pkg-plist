@@ -1,98 +1,95 @@
-share/texmf-dist/scripts/tetex/allcm.sh
-share/texmf-dist/scripts/tetex/allneeded.sh
-share/texmf-dist/scripts/tetex/dvi2fax.sh
-share/texmf-dist/scripts/tetex/dvired.sh
-share/texmf-dist/scripts/tetex/kpsetool.sh
-share/texmf-dist/scripts/tetex/kpsewhere.sh
-share/texmf-dist/scripts/tetex/updmap-sys.sh
-share/texmf-dist/scripts/tetex/updmap.pl
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/allcm.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/allcm.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/allec.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/allec.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/allneeded.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/allneeded.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/dvi2fax.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/dvi2fax.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/dvired.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/dvired.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/fmtutil-sys.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/fmtutil-sys.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/fmtutil.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/fmtutil.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/kpsepath.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/kpsepath.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/kpsetool.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/kpsetool.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/kpsewhere.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/kpsewhere.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/kpsexpand.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/kpsexpand.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/texlinks.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/texlinks.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/updmap-sys.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/updmap-sys.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/updmap.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/updmap.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man5/fmtutil.cnf.5
+%%PORTDOCS%%share/texmf-dist/doc/man/man5/fmtutil.cnf.man5.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man5/updmap.cfg.5
+%%PORTDOCS%%share/texmf-dist/doc/man/man5/updmap.cfg.man5.pdf
+%%PORTDOCS%%share/texmf-dist/doc/tetex/TETEXDOC.pdf
+%%PORTDOCS%%share/texmf-dist/doc/tetex/teTeX-FAQ
+share/texmf-dist/dvips/tetex/config.builtin35
+share/texmf-dist/dvips/tetex/config.dfaxhigh
+share/texmf-dist/dvips/tetex/config.dfaxlo
+share/texmf-dist/dvips/tetex/config.download35
+share/texmf-dist/dvips/tetex/config.gsftopk
+share/texmf-dist/dvips/tetex/config.maxmem
+share/texmf-dist/dvips/tetex/config.outline
+share/texmf-dist/dvips/tetex/config.pdf
+share/texmf-dist/dvips/tetex/config.pk
+share/texmf-dist/dvips/tetex/config.www
+share/texmf-dist/fonts/enc/dvips/tetex/09fbbfac.enc
+share/texmf-dist/fonts/enc/dvips/tetex/0ef0afca.enc
+share/texmf-dist/fonts/enc/dvips/tetex/10037936.enc
+share/texmf-dist/fonts/enc/dvips/tetex/1b6d048e.enc
+share/texmf-dist/fonts/enc/dvips/tetex/71414f53.enc
+share/texmf-dist/fonts/enc/dvips/tetex/74afc74c.enc
+share/texmf-dist/fonts/enc/dvips/tetex/aae443f0.enc
+share/texmf-dist/fonts/enc/dvips/tetex/b6a4d7c7.enc
+share/texmf-dist/fonts/enc/dvips/tetex/bbad153f.enc
+share/texmf-dist/fonts/enc/dvips/tetex/d9b29452.enc
+share/texmf-dist/fonts/enc/dvips/tetex/f7b6d320.enc
+share/texmf-dist/fonts/enc/dvips/tetex/mtex.enc
+share/texmf-dist/fonts/map/dvips/tetex/README
+share/texmf-dist/fonts/map/dvips/tetex/dvipdfm35.map
+share/texmf-dist/fonts/map/dvips/tetex/dvips35.map
+share/texmf-dist/fonts/map/dvips/tetex/mathpple.map
+share/texmf-dist/fonts/map/dvips/tetex/pdftex35.map
+share/texmf-dist/fonts/map/dvips/tetex/ps2pk35.map
+share/texmf-dist/scripts/texlive/allcm.sh
+share/texmf-dist/scripts/texlive/allneeded.sh
+share/texmf-dist/scripts/texlive/dvi2fax.sh
+share/texmf-dist/scripts/texlive/dvired.sh
+share/texmf-dist/scripts/texlive/fmtutil-sys.sh
+share/texmf-dist/scripts/texlive/fmtutil.sh
+share/texmf-dist/scripts/texlive/kpsetool.sh
+share/texmf-dist/scripts/texlive/kpsewhere.sh
+share/texmf-dist/scripts/texlive/texconfig-dialog.sh
+share/texmf-dist/scripts/texlive/texconfig-sys.sh
+share/texmf-dist/scripts/texlive/texlinks.sh
+share/texmf-dist/scripts/texlive/updmap-sys.sh
+share/texmf-dist/scripts/texlive/updmap.pl
 share/texmf-dist/web2c/updmap.cfg
-%%PORTDOCS%%share/texmf/doc/man/man1/allcm.1
-%%PORTDOCS%%share/texmf/doc/man/man1/allcm.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/allec.1
-%%PORTDOCS%%share/texmf/doc/man/man1/allec.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/allneeded.1
-%%PORTDOCS%%share/texmf/doc/man/man1/allneeded.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/dvi2fax.1
-%%PORTDOCS%%share/texmf/doc/man/man1/dvi2fax.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/dvired.1
-%%PORTDOCS%%share/texmf/doc/man/man1/dvired.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/fmtutil-sys.1
-%%PORTDOCS%%share/texmf/doc/man/man1/fmtutil-sys.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/fmtutil.1
-%%PORTDOCS%%share/texmf/doc/man/man1/fmtutil.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/kpsepath.1
-%%PORTDOCS%%share/texmf/doc/man/man1/kpsepath.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/kpsetool.1
-%%PORTDOCS%%share/texmf/doc/man/man1/kpsetool.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/kpsewhere.1
-%%PORTDOCS%%share/texmf/doc/man/man1/kpsewhere.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/kpsexpand.1
-%%PORTDOCS%%share/texmf/doc/man/man1/kpsexpand.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/texlinks.1
-%%PORTDOCS%%share/texmf/doc/man/man1/texlinks.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/updmap-sys.1
-%%PORTDOCS%%share/texmf/doc/man/man1/updmap-sys.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/updmap.1
-%%PORTDOCS%%share/texmf/doc/man/man1/updmap.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man5/fmtutil.cnf.5
-%%PORTDOCS%%share/texmf/doc/man/man5/fmtutil.cnf.man5.pdf
-%%PORTDOCS%%share/texmf/doc/man/man5/updmap.cfg.5
-%%PORTDOCS%%share/texmf/doc/man/man5/updmap.cfg.man5.pdf
-%%PORTDOCS%%share/texmf/doc/tetex/TETEXDOC.pdf
-%%PORTDOCS%%share/texmf/doc/tetex/teTeX-FAQ
-share/texmf/dvips/tetex/config.builtin35
-share/texmf/dvips/tetex/config.dfaxhigh
-share/texmf/dvips/tetex/config.dfaxlo
-share/texmf/dvips/tetex/config.download35
-share/texmf/dvips/tetex/config.gsftopk
-share/texmf/dvips/tetex/config.outline
-share/texmf/dvips/tetex/config.pdf
-share/texmf/dvips/tetex/config.pk
-share/texmf/dvips/tetex/config.www
-share/texmf/fonts/enc/dvips/tetex/09fbbfac.enc
-share/texmf/fonts/enc/dvips/tetex/0ef0afca.enc
-share/texmf/fonts/enc/dvips/tetex/10037936.enc
-share/texmf/fonts/enc/dvips/tetex/1b6d048e.enc
-share/texmf/fonts/enc/dvips/tetex/71414f53.enc
-share/texmf/fonts/enc/dvips/tetex/74afc74c.enc
-share/texmf/fonts/enc/dvips/tetex/aae443f0.enc
-share/texmf/fonts/enc/dvips/tetex/b6a4d7c7.enc
-share/texmf/fonts/enc/dvips/tetex/bbad153f.enc
-share/texmf/fonts/enc/dvips/tetex/d9b29452.enc
-share/texmf/fonts/enc/dvips/tetex/f7b6d320.enc
-share/texmf/fonts/enc/dvips/tetex/mtex.enc
-share/texmf/fonts/map/dvips/tetex/README
-share/texmf/fonts/map/dvips/tetex/dvipdfm35.map
-share/texmf/fonts/map/dvips/tetex/dvips35.map
-share/texmf/fonts/map/dvips/tetex/mathpple.map
-share/texmf/fonts/map/dvips/tetex/pdftex35.map
-share/texmf/fonts/map/dvips/tetex/ps2pk35.map
-share/texmf/scripts/tetex/fmtutil-sys.sh
-share/texmf/scripts/tetex/fmtutil.sh
-share/texmf/scripts/tetex/texconfig-dialog.sh
-share/texmf/scripts/tetex/texconfig-sys.sh
-share/texmf/scripts/tetex/texlinks.sh
-share/texmf/web2c/updmap.cfg
-@dirrmtry share/texmf/web2c
-@dirrmtry share/texmf/scripts/tetex
-@dirrmtry share/texmf/scripts
-@dirrmtry share/texmf/fonts/map/dvips/tetex
-@dirrmtry share/texmf/fonts/map/dvips
-@dirrmtry share/texmf/fonts/map
-@dirrmtry share/texmf/fonts/enc/dvips/tetex
-@dirrmtry share/texmf/fonts/enc/dvips
-@dirrmtry share/texmf/fonts/enc
-@dirrmtry share/texmf/fonts
-@dirrmtry share/texmf/dvips/tetex
-@dirrmtry share/texmf/dvips
-@dirrmtry share/texmf/doc/tetex
-@dirrmtry share/texmf/doc/man/man5
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/web2c
-@dirrmtry share/texmf-dist/scripts/tetex
+@dirrmtry share/texmf-dist/scripts/texlive
 @dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/fonts/map/dvips/tetex
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts/enc/dvips/tetex
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
+@dirrmtry share/texmf-dist/fonts
+@dirrmtry share/texmf-dist/dvips/tetex
+@dirrmtry share/texmf-dist/dvips
+@dirrmtry share/texmf-dist/doc/tetex
+@dirrmtry share/texmf-dist/doc/man/man5
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

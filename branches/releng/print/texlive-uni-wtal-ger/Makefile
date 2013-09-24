@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	uni-wtal-ger
-PORTVERSION=	20110423
-PORTREVISION=	1
+PORTVERSION=	20130831
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The uni-wtal-ger package
+COMMENT=	Citation style for literary studies at the University of Wuppertal.
 
 NOPORTSRC=	yes
 

@@ -1,0 +1,3 @@
+The distributed drivers do not support the PGF feature of
+"inter-picture connections" under e-pTeX and dvipdfmx. The
+package uses existing features of dvipdfmx to fix this problem

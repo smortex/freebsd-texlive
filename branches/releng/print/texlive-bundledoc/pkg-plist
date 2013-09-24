@@ -1,18 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/arlatex.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/arlatex.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/bundledoc.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/bundledoc.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/bundledoc/README
 share/texmf-dist/tex/latex/bundledoc/miktex.cfg
 share/texmf-dist/tex/latex/bundledoc/texlive-unix.cfg
-%%PORTDOCS%%share/texmf/doc/man/man1/arlatex.1
-%%PORTDOCS%%share/texmf/doc/man/man1/arlatex.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/bundledoc.1
-%%PORTDOCS%%share/texmf/doc/man/man1/bundledoc.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/latex/bundledoc
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/support/bundledoc
 @dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

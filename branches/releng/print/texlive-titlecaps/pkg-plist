@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/titlecaps/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/titlecaps/titlecaps.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/titlecaps/titlecaps.tex
+share/texmf-dist/tex/latex/titlecaps/titlecaps.sty
+@dirrmtry share/texmf-dist/tex/latex/titlecaps
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/titlecaps
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

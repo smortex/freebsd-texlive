@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ctable
-PORTVERSION=	20120529
-PORTREVISION=	1
+PORTVERSION=	20130629
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Easily typeset centered tables.
+COMMENT=	Flexible typesetting of table and figure floats using key/value directives.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

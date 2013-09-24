@@ -14,16 +14,15 @@ share/texmf-dist/bibtex/bst/base/unsrt.bst
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/base/btxdoc.tex
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/base/btxhak.pdf
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/base/btxhak.tex
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/bibtex.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/bibtex.man1.pdf
 %%PORTDOCS%%share/texmf-dist/tex/generic/bibtex/apalike.sty
 %%PORTDOCS%%share/texmf-dist/tex/generic/bibtex/apalike.tex
-%%PORTDOCS%%share/texmf/doc/man/man1/bibtex.1
-%%PORTDOCS%%share/texmf/doc/man/man1/bibtex.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/generic/bibtex
 @dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc/bibtex/base
 @dirrmtry share/texmf-dist/doc/bibtex
 @dirrmtry share/texmf-dist/doc

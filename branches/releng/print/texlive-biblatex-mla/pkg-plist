@@ -3,6 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-mla/doc/biblatex-mla-old.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-mla/doc/biblatex-mla.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-mla/doc/biblatex-mla.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-mla/doc/citation-examples.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-mla/doc/citation-examples.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-mla/doc/handbooksamples.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-mla/doc/samples.bib
 share/texmf-dist/tex/latex/biblatex-mla/american-mla.lbx
 share/texmf-dist/tex/latex/biblatex-mla/english-mla.lbx
 share/texmf-dist/tex/latex/biblatex-mla/italian-mla.lbx

@@ -1,12 +1,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/aleph/base/News
 %%PORTDOCS%%share/texmf-dist/doc/aleph/base/readme.txt
-%%PORTDOCS%%share/texmf/doc/man/man1/aleph.1
-%%PORTDOCS%%share/texmf/doc/man/man1/aleph.man1.pdf
-%%PORTDOCS%%share/texmf/doc/man/man1/lamed.1
-%%PORTDOCS%%share/texmf/doc/man/man1/lamed.man1.pdf
-@dirrmtry share/texmf/doc/man/man1
-@dirrmtry share/texmf/doc/man
-@dirrmtry share/texmf/doc
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/aleph.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/aleph.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/lamed.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/lamed.man1.pdf
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc/aleph/base
 @dirrmtry share/texmf-dist/doc/aleph
 @dirrmtry share/texmf-dist/doc

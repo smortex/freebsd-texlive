@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-russian/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-russian/russianb.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/babel-russian/russianb.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-russian/russianb.ins
+share/texmf-dist/tex/generic/babel-russian/russianb.ldf
+@dirrmtry share/texmf-dist/tex/generic/babel-russian
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/generic/babel-russian
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/babel-russian
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ptex2pdf
-PORTVERSION=	20130311
+PORTVERSION=	20130508
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The ptex2pdf package
+COMMENT=	Convert Japanese TeX documents to PDF.
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

@@ -1,3 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/info/texdraw.info
 %%PORTDOCS%%share/texmf-dist/doc/support/texdraw/getopt.c
 %%PORTDOCS%%share/texmf-dist/doc/support/texdraw/getopt.h
 %%PORTDOCS%%share/texmf-dist/doc/support/texdraw/texdraw.cps
@@ -26,14 +27,12 @@ share/texmf-dist/tex/generic/texdraw/texdraw.sty
 share/texmf-dist/tex/generic/texdraw/texdraw.tex
 share/texmf-dist/tex/generic/texdraw/txdps.tex
 share/texmf-dist/tex/generic/texdraw/txdtools.tex
-%%PORTDOCS%%share/texmf/doc/info/texdraw.info
-@dirrmtry share/texmf/doc/info
-@dirrmtry share/texmf/doc
 @dirrmtry share/texmf-dist/tex/generic/texdraw
 @dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/support/texdraw
 @dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc/info
 @dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

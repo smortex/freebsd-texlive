@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/rterface/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/rterface/rterface.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rterface/rterface.tex
+share/texmf-dist/tex/latex/rterface/rterface.sty
+@dirrmtry share/texmf-dist/tex/latex/rterface
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/rterface
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

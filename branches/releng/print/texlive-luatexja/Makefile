@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	luatexja
-PORTVERSION=	20130320
+PORTVERSION=	20130910
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesest Japanese with lua(la)tex.
+COMMENT=	Typeset Japanese with lua(la)tex.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
