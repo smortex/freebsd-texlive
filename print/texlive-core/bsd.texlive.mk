@@ -3,6 +3,7 @@ PORTVERSION?=		20110705
 MASTER_SITES?=		http://texlive-distfiles.blogreen.org/
 DIST_SUBDIR=		TeXLive
 PKGNAMEPREFIX=		texlive-
+NO_STAGE=		yes
 
 RUN_DEPENDS+=		mktexlsr:${PORTSDIR}/print/texlive-core
 
