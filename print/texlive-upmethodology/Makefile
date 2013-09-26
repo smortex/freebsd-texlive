@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	upmethodology
-PORTVERSION=	20130819
+PORTVERSION=	20130925
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Writing specification such as for UP-based methodologies.
+COMMENT=	Writing specifications such as for UP-based methodologies.
 
 NOPORTSRC=	yes
 

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	librebaskerville
-PORTVERSION=	20130410
+PORTVERSION=	20130925
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
