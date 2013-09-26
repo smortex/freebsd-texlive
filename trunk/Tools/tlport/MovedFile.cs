@@ -67,6 +67,13 @@ namespace TeXLive
 			}
 			return false;
 		}
+
+		public int RemoveAll (Predicate<string> match)
+		{
+			return Lines.RemoveAll (delegate(string[] obj) {
+				return match (obj [0]);
+			});
+		}
 		
 		public bool HasPort (string Port)
 		{

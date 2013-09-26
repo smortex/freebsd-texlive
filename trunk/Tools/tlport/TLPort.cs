@@ -49,6 +49,7 @@ namespace TeXLive
 		}
 		
 		private static int verbosity = 0;
+		private static PackageCollection packages;
 
 		private static void ShowHelp (NDesk.Options.OptionSet options)
 		{
@@ -92,7 +93,7 @@ namespace TeXLive
 				return 1;
 			}
 
-			PackageCollection packages = new PackageCollection (extra[0], extra[1], extra[2]);
+			packages = new PackageCollection (extra[0], extra[1], extra[2]);
 
 			if (Verbosity > 0)
 				Console.Error.WriteLine("===> Building package list (this takes a while)");
@@ -119,6 +120,12 @@ namespace TeXLive
 						Console.Error.WriteLine("{0}: not eligible for building a port.", pkg.Name);
 				}
 			}
+
+			if (Verbosity > 0)
+				Console.Error.WriteLine ("===> Looking for resurected packages");
+
+			packages.moved.RemoveAll (PortExist);
+
 						
 			// Detect deprecated packages
 			if (Verbosity > 0)
@@ -137,6 +144,11 @@ namespace TeXLive
 			packages.moved.Save ();
 			
 			return 0;
+		}
+
+		private static bool PortExist(string s)
+		{
+			return System.IO.Directory.Exists (System.IO.Path.Combine (packages.PortsDir, s));
 		}
 
 		/// <summary>
