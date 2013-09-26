@@ -1,19 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/AUTHORS
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/BUGS
 %%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/CHANGELOG
-%%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/NEWS
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/README-font
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/README.doc
 %%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/dejavu-sample.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/dejavu-sample.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/dejavu.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/dejavu.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/extrakerns.zip
-%%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/font-doc/AUTHORS
-%%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/font-doc/BUGS
-%%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/font-doc/LICENSE
-%%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/font-doc/NEWS
-%%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/font-doc/README
-%%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/font-doc/langcover.txt
-%%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/font-doc/status.txt
-%%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/font-doc/unicover.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/langcover.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/manifest.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/status.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dejavu/unicover.txt
 share/texmf-dist/fonts/afm/public/dejavu/DejaVuSans-Bold.afm
 share/texmf-dist/fonts/afm/public/dejavu/DejaVuSans-BoldOblique.afm
 share/texmf-dist/fonts/afm/public/dejavu/DejaVuSans-ExtraLight.afm
@@ -609,7 +609,6 @@ share/texmf-dist/tex/latex/dejavu/dejavu.sty
 @dirrmtry share/texmf-dist/fonts/afm/public
 @dirrmtry share/texmf-dist/fonts/afm
 @dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/fonts/dejavu/font-doc
 @dirrmtry share/texmf-dist/doc/fonts/dejavu
 @dirrmtry share/texmf-dist/doc/fonts
 @dirrmtry share/texmf-dist/doc

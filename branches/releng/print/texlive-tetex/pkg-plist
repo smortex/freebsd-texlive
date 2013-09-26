@@ -60,23 +60,8 @@ share/texmf-dist/fonts/map/dvips/tetex/dvips35.map
 share/texmf-dist/fonts/map/dvips/tetex/mathpple.map
 share/texmf-dist/fonts/map/dvips/tetex/pdftex35.map
 share/texmf-dist/fonts/map/dvips/tetex/ps2pk35.map
-share/texmf-dist/scripts/texlive/allcm.sh
-share/texmf-dist/scripts/texlive/allneeded.sh
-share/texmf-dist/scripts/texlive/dvi2fax.sh
-share/texmf-dist/scripts/texlive/dvired.sh
-share/texmf-dist/scripts/texlive/fmtutil-sys.sh
-share/texmf-dist/scripts/texlive/fmtutil.sh
-share/texmf-dist/scripts/texlive/kpsetool.sh
-share/texmf-dist/scripts/texlive/kpsewhere.sh
-share/texmf-dist/scripts/texlive/texconfig-dialog.sh
-share/texmf-dist/scripts/texlive/texconfig-sys.sh
-share/texmf-dist/scripts/texlive/texlinks.sh
-share/texmf-dist/scripts/texlive/updmap-sys.sh
-share/texmf-dist/scripts/texlive/updmap.pl
 share/texmf-dist/web2c/updmap.cfg
 @dirrmtry share/texmf-dist/web2c
-@dirrmtry share/texmf-dist/scripts/texlive
-@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/fonts/map/dvips/tetex
 @dirrmtry share/texmf-dist/fonts/map/dvips
 @dirrmtry share/texmf-dist/fonts/map

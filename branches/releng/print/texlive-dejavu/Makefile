@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	dejavu
-PORTVERSION=	20130112
-PORTREVISION=	1
+PORTVERSION=	20130926
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX support for the fonts DejaVu.
+COMMENT=	LaTeX support for the DejaVu fonts.
 
 NOPORTSRC=	yes
 
