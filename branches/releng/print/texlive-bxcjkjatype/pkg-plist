@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxcjkjatype/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxcjkjatype/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxcjkjatype/sample-bxcjkjatype-beamer.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxcjkjatype/sample-bxcjkjatype-beamer.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxcjkjatype/sample-bxcjkjatype.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxcjkjatype/sample-bxcjkjatype.tex
+share/texmf-dist/tex/latex/bxcjkjatype/bxcjkjatype.sty
+@dirrmtry share/texmf-dist/tex/latex/bxcjkjatype
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/bxcjkjatype
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

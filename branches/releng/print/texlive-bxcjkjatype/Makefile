@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	sa-tikz
+PORTNAME=	bxcjkjatype
 PORTVERSION=	20130929
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	TikZ library to draw switching architectures.
+COMMENT=	Typeset Japanese with pdfLaTeX and CJK.
 
 NOPORTSRC=	yes
 
