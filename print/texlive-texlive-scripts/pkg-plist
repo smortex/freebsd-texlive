@@ -4,7 +4,6 @@ share/install-tl
 share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu
 share/texmf-dist/scripts/texlive/lua/texlive/tlpdb.tlu
 share/texmf-dist/scripts/texlive/lua/texlive/utils.tlu
-share/texmf-dist/scripts/texlive/rungs.tlu
 share/texmf-dist/scripts/texlive/test-tlpdb.tlu
 share/texmf-dist/scripts/texlive/texconf.tlu
 share/tlpkg/installer/ctan-mirrors.pl
