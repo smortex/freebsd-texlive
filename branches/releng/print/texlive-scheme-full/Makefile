@@ -602,6 +602,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/cmap/adobemapping/LICENSE:${PORTSDIR}/print/texlive-adobemapping \
 		${LOCALBASE}/share/texmf-dist/dvips/arphic/config.bkaiu:${PORTSDIR}/print/texlive-arphic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bxbase/bxbase.sty:${PORTSDIR}/print/texlive-bxbase \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bxcjkjatype/bxcjkjatype.sty:${PORTSDIR}/print/texlive-bxcjkjatype \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bxjscls/bxjsarticle.cls:${PORTSDIR}/print/texlive-bxjscls \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/c90/c90.enc:${PORTSDIR}/print/texlive-c90 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cjk/contrib/wadalab/c42goth.fd:${PORTSDIR}/print/texlive-cjk \
@@ -1809,7 +1810,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/undolabl/undolabl.sty:${PORTSDIR}/print/texlive-undolabl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/units/units.sty:${PORTSDIR}/print/texlive-units \
 		${LOCALBASE}/share/texmf-dist/tex/latex/unravel/unravel.sty:${PORTSDIR}/print/texlive-unravel \
-		${LOCALBASE}/share/texmf-dist/tex/latex/upmethodology/upmethodology-backpage.sty:${PORTSDIR}/print/texlive-upmethodology \
+		${LOCALBASE}/share/texmf-dist/tex/latex/upmethodology/UPMVERSION.def:${PORTSDIR}/print/texlive-upmethodology \
 		${LOCALBASE}/share/texmf-dist/tex/latex/upquote/upquote.sty:${PORTSDIR}/print/texlive-upquote \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uri/uri.sty:${PORTSDIR}/print/texlive-uri \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ushort/ushort.sty:${PORTSDIR}/print/texlive-ushort \
