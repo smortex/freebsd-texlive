@@ -1,9 +1,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/CHANGES.md
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/INSTALL
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/README
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/README-scripts
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/VERSION
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/lilyglyphs-example-400.png
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/lilyglyphs-example-600.png
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/lilyglyphs-example-medium.png
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/lilyglyphs-example-de.pdf
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/lilyglyphs-example-de.tex
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/lilyglyphs-example.pdf
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/lilyglyphs-example.png
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/lilyglyphs-example.tex
@@ -100,6 +103,7 @@ share/texmf-dist/scripts/lilyglyphs/lilyglyphs_common.py
 share/texmf-dist/tex/lualatex/lilyglyphs/README-tex
 share/texmf-dist/tex/lualatex/lilyglyphs/commands/README-commands
 share/texmf-dist/tex/lualatex/lilyglyphs/commands/accidentals.inp
+share/texmf-dist/tex/lualatex/lilyglyphs/commands/accordion.inp
 share/texmf-dist/tex/lualatex/lilyglyphs/commands/beamednotes.inp
 share/texmf-dist/tex/lualatex/lilyglyphs/commands/clefs.inp
 share/texmf-dist/tex/lualatex/lilyglyphs/commands/dynamics.inp
@@ -116,7 +120,6 @@ share/texmf-dist/tex/lualatex/lilyglyphs/core/genericAccess.inp
 share/texmf-dist/tex/lualatex/lilyglyphs/core/keyval.inp
 share/texmf-dist/tex/lualatex/lilyglyphs/core/opticals.inp
 share/texmf-dist/tex/lualatex/lilyglyphs/lilyglyphs.sty
-share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/.gitignore
 share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-crescHairpin.pdf
 share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-crotchet.pdf
 share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-crotchetDotted.pdf
