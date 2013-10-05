@@ -7,17 +7,16 @@
 %%PORTDOCS%%share/texmf-dist/doc/eplain/demo/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/eplain/demo/lscommnt.tex
 %%PORTDOCS%%share/texmf-dist/doc/eplain/demo/xhyper.tex
-%%PORTDOCS%%share/texmf-dist/doc/eplain/doc/eplain.html
-%%PORTDOCS%%share/texmf-dist/doc/eplain/doc/eplain.man1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/eplain/doc/eplain.pdf
-%%PORTDOCS%%share/texmf-dist/doc/eplain/doc/lscommnt.jpg
-%%PORTDOCS%%share/texmf-dist/doc/eplain/doc/xhyper.jpg
+%%PORTDOCS%%share/texmf-dist/doc/eplain/eplain.html
+%%PORTDOCS%%share/texmf-dist/doc/eplain/eplain.pdf
+%%PORTDOCS%%share/texmf-dist/doc/eplain/lscommnt.jpg
 %%PORTDOCS%%share/texmf-dist/doc/eplain/util/idxuniq
 %%PORTDOCS%%share/texmf-dist/doc/eplain/util/trimsee
+%%PORTDOCS%%share/texmf-dist/doc/eplain/xhyper.jpg
 %%PORTDOCS%%share/texmf-dist/doc/info/eplain.info
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/eplain.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/eplain.man1.pdf
-%%PORTSRC%%share/texmf-dist/source/eplain/eplain-source-3.5.zip
+%%PORTSRC%%share/texmf-dist/source/eplain/eplain-source-3.6.zip
 %%PORTSRC%%share/texmf-dist/source/eplain/xeplain.tex
 share/texmf-dist/tex/eplain/arrow.tex
 share/texmf-dist/tex/eplain/btxmac.tex
@@ -32,7 +31,6 @@ share/texmf-dist/tex/eplain/eplain.tex
 @dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc/info
 @dirrmtry share/texmf-dist/doc/eplain/util
-@dirrmtry share/texmf-dist/doc/eplain/doc
 @dirrmtry share/texmf-dist/doc/eplain/demo
 @dirrmtry share/texmf-dist/doc/eplain
 @dirrmtry share/texmf-dist/doc

@@ -58,6 +58,8 @@ share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_tikzexte
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_tikzlibraryexternal.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfplotscompatib/tikzlibrarydateplot.code.tex
 share/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+share/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
+share/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
 share/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex
 share/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex
 share/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex
@@ -72,6 +74,8 @@ share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-
 share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def
 share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-xetex.def
 share/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex
+share/texmf-dist/tex/generic/pgfplots/test/pgfplots.assert.code.tex
+share/texmf-dist/tex/generic/pgfplots/test/pgfplots.assert.sty
 share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
 share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex
 share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
@@ -92,6 +96,7 @@ share/texmf-dist/tex/plain/pgfplots/pgfplotstable.tex
 @dirrmtry share/texmf-dist/tex/latex/pgfplots
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex/generic/pgfplots/util
+@dirrmtry share/texmf-dist/tex/generic/pgfplots/test
 @dirrmtry share/texmf-dist/tex/generic/pgfplots/sys
 @dirrmtry share/texmf-dist/tex/generic/pgfplots/oldpgfplotscompatib
 @dirrmtry share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib
