@@ -22,11 +22,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/ebb.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/extractbb.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/extractbb.man1.pdf
-share/texmf-dist/dvipdfmx/dvipdfmx.cfg
-share/texmf-dist/fonts/cmap/dvipdfmx/EUC-UCS2
 share/texmf-dist/fonts/cmap/dvipdfmx/README
 share/texmf-dist/fonts/cmap/dvipdfmx/UTF8-UCS2
-share/texmf-dist/fonts/map/dvipdfmx/cid-x.map
 share/texmf-dist/fonts/map/dvipdfmx/ckx.map
 share/texmf-dist/fonts/map/dvipdfmx/updmap/kanjix.map
 share/tlpkg/tlpostcode/dvipdfmx.pl
@@ -37,7 +34,6 @@ share/tlpkg/tlpostcode/dvipdfmx.pl
 @dirrmtry share/texmf-dist/fonts/cmap/dvipdfmx
 @dirrmtry share/texmf-dist/fonts/cmap
 @dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/dvipdfmx
 @dirrmtry share/texmf-dist/doc/man/man1
 @dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc/dvipdfmx

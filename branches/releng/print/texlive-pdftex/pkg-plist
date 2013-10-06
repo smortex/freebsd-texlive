@@ -52,7 +52,6 @@
 share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map
 share/texmf-dist/fonts/map/pdftex/updmap/pdftex_dl14.map
 share/texmf-dist/fonts/map/pdftex/updmap/pdftex_ndl14.map
-share/texmf-dist/scripts/simpdftex/simpdftex
 share/texmf-dist/tex/generic/config/pdftex-dvi.tex
 share/texmf-dist/tex/generic/config/pdftexconfig.tex
 share/texmf-dist/tex/generic/pdftex/glyphtounicode.tex
@@ -60,8 +59,6 @@ share/texmf-dist/tex/generic/pdftex/glyphtounicode.tex
 @dirrmtry share/texmf-dist/tex/generic/config
 @dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/scripts/simpdftex
-@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/fonts/map/pdftex/updmap
 @dirrmtry share/texmf-dist/fonts/map/pdftex
 @dirrmtry share/texmf-dist/fonts/map
