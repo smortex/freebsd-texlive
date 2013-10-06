@@ -190,9 +190,7 @@ share/texmf-dist/fonts/tfm/public/newpx/TS1-TeXGyrePagellaX-Regular-sups-kern-li
 share/texmf-dist/fonts/tfm/public/newpx/TS1-TeXGyrePagellaX-Regular-sups-kern-liga-smcp.tfm
 share/texmf-dist/fonts/tfm/public/newpx/TS1-TeXGyrePagellaX-Regular-sups-kern-liga.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplb-x.tfm
-share/texmf-dist/fonts/tfm/public/newpx/zplbex.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplbexa.tfm
-share/texmf-dist/fonts/tfm/public/newpx/zplbexv.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplbexx.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplbmi.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplbmi1.tfm
@@ -201,9 +199,7 @@ share/texmf-dist/fonts/tfm/public/newpx/zplbsy.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplbsya.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplbsyb.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplbsyc.tfm
-share/texmf-dist/fonts/tfm/public/newpx/zplex.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm
-share/texmf-dist/fonts/tfm/public/newpx/zplexv.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplexx.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplmi.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplmi1.tfm
@@ -271,9 +267,7 @@ share/texmf-dist/fonts/vf/public/newpx/TS1-TeXGyrePagellaX-Regular-pnum-kern-lig
 share/texmf-dist/fonts/vf/public/newpx/TS1-TeXGyrePagellaX-Regular-pnum-kern-liga.vf
 share/texmf-dist/fonts/vf/public/newpx/TS1-TeXGyrePagellaX-Regular-sups-kern-liga-smcp.vf
 share/texmf-dist/fonts/vf/public/newpx/TS1-TeXGyrePagellaX-Regular-sups-kern-liga.vf
-share/texmf-dist/fonts/vf/public/newpx/zplbex.vf
 share/texmf-dist/fonts/vf/public/newpx/zplbexa.vf
-share/texmf-dist/fonts/vf/public/newpx/zplbexv.vf
 share/texmf-dist/fonts/vf/public/newpx/zplbexx.vf
 share/texmf-dist/fonts/vf/public/newpx/zplbmi.vf
 share/texmf-dist/fonts/vf/public/newpx/zplbmi1.vf
@@ -282,9 +276,7 @@ share/texmf-dist/fonts/vf/public/newpx/zplbsy.vf
 share/texmf-dist/fonts/vf/public/newpx/zplbsya.vf
 share/texmf-dist/fonts/vf/public/newpx/zplbsyb.vf
 share/texmf-dist/fonts/vf/public/newpx/zplbsyc.vf
-share/texmf-dist/fonts/vf/public/newpx/zplex.vf
 share/texmf-dist/fonts/vf/public/newpx/zplexa.vf
-share/texmf-dist/fonts/vf/public/newpx/zplexv.vf
 share/texmf-dist/fonts/vf/public/newpx/zplexx.vf
 share/texmf-dist/fonts/vf/public/newpx/zplmi.vf
 share/texmf-dist/fonts/vf/public/newpx/zplmi1.vf
@@ -303,8 +295,6 @@ share/texmf-dist/tex/latex/newpx/newpxmath.sty
 share/texmf-dist/tex/latex/newpx/newpxtext.sty
 share/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 share/texmf-dist/tex/latex/newpx/omsnpxsy.fd
-share/texmf-dist/tex/latex/newpx/omxnpxex.fd
-share/texmf-dist/tex/latex/newpx/omxnpxexv.fd
 share/texmf-dist/tex/latex/newpx/ot1npxss.fd
 share/texmf-dist/tex/latex/newpx/ot1npxtt.fd
 share/texmf-dist/tex/latex/newpx/ot1zpl1.fd
