@@ -1,13 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	dvips
+PORTNAME=	cnltx
 PORTVERSION=	20131006
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A DVI to PostScript driver.
-
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
+COMMENT=	LaTeX tools and documenting facilities.
 
 NOPORTSRC=	yes
 

@@ -167,6 +167,7 @@ share/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
 share/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty
 share/texmf-dist/tex/latex/beamer/beamerbasemisc.sty
 share/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+share/texmf-dist/tex/latex/beamer/beamerbasenavigation.log
 share/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
 share/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
 share/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty

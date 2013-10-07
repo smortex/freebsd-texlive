@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20130909
+PORTVERSION=	20131006
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -352,6 +352,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmdstring/cmdstring.sty:${PORTSDIR}/print/texlive-cmdstring \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmdtrack/cmdtrack.sty:${PORTSDIR}/print/texlive-cmdtrack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmsd/cmsd.sty:${PORTSDIR}/print/texlive-cmsd \
+		${LOCALBASE}/share/texmf-dist/makeindex/cnltx/cnltx.ist:${PORTSDIR}/print/texlive-cnltx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/codedoc/codedoc.cls:${PORTSDIR}/print/texlive-codedoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/codepage/codepage.sty:${PORTSDIR}/print/texlive-codepage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/collcell/collcell.sty:${PORTSDIR}/print/texlive-collcell \
@@ -1077,7 +1078,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/undolabl/undolabl.sty:${PORTSDIR}/print/texlive-undolabl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/units/units.sty:${PORTSDIR}/print/texlive-units \
 		${LOCALBASE}/share/texmf-dist/tex/latex/unravel/unravel.sty:${PORTSDIR}/print/texlive-unravel \
-		${LOCALBASE}/share/texmf-dist/tex/latex/upmethodology/upmethodology-backpage.sty:${PORTSDIR}/print/texlive-upmethodology \
+		${LOCALBASE}/share/texmf-dist/tex/latex/upmethodology/UPMVERSION.def:${PORTSDIR}/print/texlive-upmethodology \
 		${LOCALBASE}/share/texmf-dist/tex/latex/upquote/upquote.sty:${PORTSDIR}/print/texlive-upquote \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uri/uri.sty:${PORTSDIR}/print/texlive-uri \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ushort/ushort.sty:${PORTSDIR}/print/texlive-ushort \
