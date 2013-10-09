@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	xypic
-PORTVERSION=	20120525
-PORTREVISION=	1
+PORTVERSION=	20131008
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The xypic package
+COMMENT=	Flexible diagramming macros.
 
 NOPORTSRC=	yes
 
