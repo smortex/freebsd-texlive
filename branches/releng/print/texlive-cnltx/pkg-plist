@@ -1,5 +1,5 @@
+share/texmf-dist/bibtex/bib/cnltx/cnltx.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/cnltx/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/cnltx/cnltx.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/cnltx/cnltx_en.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/cnltx/cnltx_en.tex
 share/texmf-dist/makeindex/cnltx/cnltx.ist
@@ -19,5 +19,8 @@ share/texmf-dist/tex/latex/cnltx/cnltx.dbx
 @dirrmtry share/texmf-dist/doc/latex/cnltx
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc
+@dirrmtry share/texmf-dist/bibtex/bib/cnltx
+@dirrmtry share/texmf-dist/bibtex/bib
+@dirrmtry share/texmf-dist/bibtex
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

@@ -60,6 +60,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tablor/Figures/tablor_Tab.mp
 %%PORTDOCS%%share/texmf-dist/doc/latex/tablor/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/tablor/README-fr.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/tablor/auto/tablor-xetex.el
+%%PORTDOCS%%share/texmf-dist/doc/latex/tablor/auto/tablor.el
 %%PORTDOCS%%share/texmf-dist/doc/latex/tablor/tablor.html
 %%PORTDOCS%%share/texmf-dist/doc/latex/tablor/tablor.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tablor/tablor.tex
@@ -69,6 +71,7 @@ share/texmf-dist/tex/latex/tablor/tablor.sty
 @dirrmtry share/texmf-dist/tex/latex/tablor
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/tablor/auto
 @dirrmtry share/texmf-dist/doc/latex/tablor/Figures
 @dirrmtry share/texmf-dist/doc/latex/tablor
 @dirrmtry share/texmf-dist/doc/latex

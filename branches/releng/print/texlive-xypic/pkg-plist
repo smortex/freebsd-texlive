@@ -8,15 +8,16 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/xypic/VERSIONS
 %%PORTDOCS%%share/texmf-dist/doc/generic/xypic/Xy-logo.png
 %%PORTDOCS%%share/texmf-dist/doc/generic/xypic/Xy-pic.html
+%%PORTDOCS%%share/texmf-dist/doc/generic/xypic/barrdoc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/xypic/support/dvitogif89a
 %%PORTDOCS%%share/texmf-dist/doc/generic/xypic/support/install-tds
 %%PORTDOCS%%share/texmf-dist/doc/generic/xypic/support/pnmrawtopcropwhite.c
-%%PORTDOCS%%share/texmf-dist/doc/generic/xypic/xy388src.tar.gz
+%%PORTDOCS%%share/texmf-dist/doc/generic/xypic/xy389src.tar.gz
 %%PORTDOCS%%share/texmf-dist/doc/generic/xypic/xyguide.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/xypic/xypdf.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/xypic/xyrefer.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/xypic/xysource.pdf
-share/texmf-dist/dvips/xypic/xy388dict.pro
+share/texmf-dist/dvips/xypic/xy389dict.pro
 share/texmf-dist/fonts/afm/public/xypic/xyatip10.afm
 share/texmf-dist/fonts/afm/public/xypic/xybsql10.afm
 share/texmf-dist/fonts/afm/public/xypic/xybtip10.afm
@@ -161,6 +162,7 @@ share/texmf-dist/tex/generic/xypic/xy2cell.tex
 share/texmf-dist/tex/generic/xypic/xyall.tex
 share/texmf-dist/tex/generic/xypic/xyarc.tex
 share/texmf-dist/tex/generic/xypic/xyarrow.tex
+share/texmf-dist/tex/generic/xypic/xybarr.tex
 share/texmf-dist/tex/generic/xypic/xycmactex.tex
 share/texmf-dist/tex/generic/xypic/xycmtip.tex
 share/texmf-dist/tex/generic/xypic/xycolor.tex
