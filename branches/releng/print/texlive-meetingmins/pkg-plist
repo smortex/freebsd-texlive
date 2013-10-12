@@ -1,8 +1,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/meetingmins/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/meetingmins/meetingmins.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/meetingmins/samples/agenda.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/meetingmins/samples/agenda.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/meetingmins/samples/chair.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/meetingmins/samples/chair.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/meetingmins/samples/department.min
+%%PORTDOCS%%share/texmf-dist/doc/latex/meetingmins/samples/minutes.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/meetingmins/samples/minutes.tex
 %%PORTSRC%%share/texmf-dist/source/latex/meetingmins/meetingmins.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/meetingmins/meetingmins.ins
