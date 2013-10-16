@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-bulgarian
-PORTVERSION=	20130506
+PORTVERSION=	20131015
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The babel-bulgarian package
+COMMENT=	(Babel contributed support for Bulgarian.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

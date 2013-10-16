@@ -1,5 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/etoc/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/etoc/etoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/etoc/etoc.tex
 %%PORTSRC%%share/texmf-dist/source/latex/etoc/etoc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/etoc/etoc.ins
 share/texmf-dist/tex/latex/etoc/etoc.sty

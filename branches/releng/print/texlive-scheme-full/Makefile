@@ -1085,6 +1085,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmdstring/cmdstring.sty:${PORTSDIR}/print/texlive-cmdstring \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmdtrack/cmdtrack.sty:${PORTSDIR}/print/texlive-cmdtrack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmsd/cmsd.sty:${PORTSDIR}/print/texlive-cmsd \
+		${LOCALBASE}/share/texmf-dist/bibtex/bib/cnltx/cnltx.bib:${PORTSDIR}/print/texlive-cnltx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/codedoc/codedoc.cls:${PORTSDIR}/print/texlive-codedoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/codepage/codepage.sty:${PORTSDIR}/print/texlive-codepage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/collcell/collcell.sty:${PORTSDIR}/print/texlive-collcell \
@@ -1183,6 +1184,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/elmath/elmath.sty:${PORTSDIR}/print/texlive-elmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/elpres/elpres.cls:${PORTSDIR}/print/texlive-elpres \
 		${LOCALBASE}/share/texmf-dist/tex/latex/emarks/emarks.sty:${PORTSDIR}/print/texlive-emarks \
+		${LOCALBASE}/share/texmf-dist/tex/latex/embedall/embedall.sty:${PORTSDIR}/print/texlive-embedall \
 		${LOCALBASE}/share/texmf-dist/tex/latex/embrac/embrac.sty:${PORTSDIR}/print/texlive-embrac \
 		${LOCALBASE}/share/texmf-dist/tex/latex/emptypage/emptypage.sty:${PORTSDIR}/print/texlive-emptypage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/emulateapj/emulateapj.cls:${PORTSDIR}/print/texlive-emulateapj \
@@ -1839,6 +1841,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/was/fixmath.sty:${PORTSDIR}/print/texlive-was \
 		${LOCALBASE}/share/texmf-dist/tex/latex/widetable/widetable.sty:${PORTSDIR}/print/texlive-widetable \
 		${LOCALBASE}/share/texmf-dist/tex/latex/williams/antree.sty:${PORTSDIR}/print/texlive-williams \
+		${LOCALBASE}/share/texmf-dist/tex/latex/withargs/withargs.sty:${PORTSDIR}/print/texlive-withargs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/wordlike/wordlike.sty:${PORTSDIR}/print/texlive-wordlike \
 		${LOCALBASE}/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty:${PORTSDIR}/print/texlive-wrapfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xargs/xargs.sty:${PORTSDIR}/print/texlive-xargs \

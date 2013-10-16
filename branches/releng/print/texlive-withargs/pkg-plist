@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/withargs/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/withargs/withargs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/withargs/withargs.tex
+share/texmf-dist/tex/latex/withargs/withargs-dry.sty
+share/texmf-dist/tex/latex/withargs/withargs-packagedoc.cls
+share/texmf-dist/tex/latex/withargs/withargs.sty
+@dirrmtry share/texmf-dist/tex/latex/withargs
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/withargs
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
