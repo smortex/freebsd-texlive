@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/embedall/embedall.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/embedall/embedall.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/embedall/embedall.ins
+share/texmf-dist/tex/latex/embedall/embedall.sty
+@dirrmtry share/texmf-dist/tex/latex/embedall
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/embedall
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/embedall
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

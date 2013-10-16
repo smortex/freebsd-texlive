@@ -1,0 +1,5 @@
+The package provides a means of storing a project, without
+losing anything. It uses the embedfile package to attach to the
+generated PDF all files used in creating your project. In
+particular, it can embed images, external TeX files, external
+codes and

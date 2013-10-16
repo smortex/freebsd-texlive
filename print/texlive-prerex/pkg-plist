@@ -1,8 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/boldbox.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/chart.html
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/chart.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/chart.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/chart.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/dashed.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/doc/intro.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/doc/intro.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/doc/introFonts.png
@@ -11,7 +13,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/doc/prerex.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/doc/prerex.sty.7
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/doc/prerex.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/prerex-6.5.1.tar.gz
+%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/dotted.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/lightbox.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/prerex-6.5.2.tar.gz
+%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/solid.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/vprerex-6.4.2.tar.gz
 share/texmf-dist/tex/latex/prerex/prerex.sty
 @dirrmtry share/texmf-dist/tex/latex/prerex
