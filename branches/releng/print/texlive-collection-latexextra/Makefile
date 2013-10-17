@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20131015
+PORTVERSION=	20131016
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -571,7 +571,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries/base/glossaries.sty:${PORTSDIR}/print/texlive-glossaries \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmdoc/gmdoc.sty:${PORTSDIR}/print/texlive-gmdoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmdoc-enhance/gmdoc-enhance.sty:${PORTSDIR}/print/texlive-gmdoc-enhance \
-		${LOCALBASE}/share/texmf-dist/tex/latex/gmeometric/gmeometric.sty:${PORTSDIR}/print/texlive-gmeometric \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmiflink/gmiflink.sty:${PORTSDIR}/print/texlive-gmiflink \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmutils/gmutils.sty:${PORTSDIR}/print/texlive-gmutils \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmverb/gmverb.sty:${PORTSDIR}/print/texlive-gmverb \
