@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	computational-complexity
-PORTVERSION=	20120716
-PORTREVISION=	1
+PORTVERSION=	20131017
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
