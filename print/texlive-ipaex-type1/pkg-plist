@@ -5,6 +5,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ipaex-type1/c70ipxga.fdx
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ipaex-type1/c70ipxm.fdx
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ipaex-type1/c70ipxma.fdx
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ipaex-type1/sample-ipaex-type1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ipaex-type1/sample-ipaex-type1.tex
 share/texmf-dist/fonts/map/dvips/ipaex-type1/ipaex-type1.map
 share/texmf-dist/fonts/tfm/public/ipaex-type1/ipxg-r-ot1.tfm
 share/texmf-dist/fonts/tfm/public/ipaex-type1/ipxg-r-t1.tfm

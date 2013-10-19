@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	etoc
+PORTNAME=	brandeis-dissertation
 PORTVERSION=	20131018
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Completely customisable TOCs.
+COMMENT=	The brandeis-dissertation package
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

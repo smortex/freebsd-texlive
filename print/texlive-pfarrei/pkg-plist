@@ -1,6 +1,4 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pfarrei/pfarrei.pdf
-share/texmf-dist/scripts/pfarrei/a5toa4.tlu
-share/texmf-dist/scripts/pfarrei/pfarrei.tlu
 %%PORTSRC%%share/texmf-dist/source/latex/pfarrei/README
 %%PORTSRC%%share/texmf-dist/source/latex/pfarrei/pfarrei.dtx
 share/texmf-dist/tex/latex/pfarrei/a5toa4.tex
@@ -11,8 +9,6 @@ share/texmf-dist/tex/latex/pfarrei/pfarrei.sty
 @dirrmtry share/texmf-dist/source/latex/pfarrei
 @dirrmtry share/texmf-dist/source/latex
 @dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/scripts/pfarrei
-@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/latex/pfarrei
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc
