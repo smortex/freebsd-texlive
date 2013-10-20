@@ -9,9 +9,8 @@ share/texmf-dist/fonts/enc/dvips/superiors/sups.enc
 share/texmf-dist/fonts/map/dvips/superiors/superiors.map
 share/texmf-dist/fonts/tfm/public/superiors/libertinesups.tfm
 share/texmf-dist/fonts/type1/public/superiors/libertinesups.pfb
-share/texmf-dist/tex/latex/public/superiors/superiors.sty
-@dirrmtry share/texmf-dist/tex/latex/public/superiors
-@dirrmtry share/texmf-dist/tex/latex/public
+share/texmf-dist/tex/latex/superiors/superiors.sty
+@dirrmtry share/texmf-dist/tex/latex/superiors
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/type1/public/superiors
