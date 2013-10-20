@@ -400,7 +400,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/starfont/starfont.sty:${PORTSDIR}/print/texlive-starfont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/staves/staves.sty:${PORTSDIR}/print/texlive-staves \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/stix/STIXGeneral.otf:${PORTSDIR}/print/texlive-stix \
-		${LOCALBASE}/share/texmf-dist/tex/latex/public/superiors/superiors.sty:${PORTSDIR}/print/texlive-superiors \
+		${LOCALBASE}/share/texmf-dist/tex/latex/superiors/superiors.sty:${PORTSDIR}/print/texlive-superiors \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/tapir/tap-enc.mf:${PORTSDIR}/print/texlive-tapir \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tengwarscript/tengwarscript.sty:${PORTSDIR}/print/texlive-tengwarscript \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tfrupee/tfrupee.sty:${PORTSDIR}/print/texlive-tfrupee \
@@ -1304,7 +1304,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries/base/glossaries.sty:${PORTSDIR}/print/texlive-glossaries \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmdoc/gmdoc.sty:${PORTSDIR}/print/texlive-gmdoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmdoc-enhance/gmdoc-enhance.sty:${PORTSDIR}/print/texlive-gmdoc-enhance \
-		${LOCALBASE}/share/texmf-dist/tex/latex/gmeometric/gmeometric.sty:${PORTSDIR}/print/texlive-gmeometric \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmiflink/gmiflink.sty:${PORTSDIR}/print/texlive-gmiflink \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmutils/gmutils.sty:${PORTSDIR}/print/texlive-gmutils \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmverb/gmverb.sty:${PORTSDIR}/print/texlive-gmverb \
@@ -2126,6 +2125,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/ascelike/ascelike.cls:${PORTSDIR}/print/texlive-ascelike \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamer-FUBerlin/FUbeamer.cls:${PORTSDIR}/print/texlive-beamer-FUBerlin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bgteubner/bgteubner.cls:${PORTSDIR}/print/texlive-bgteubner \
+		${LOCALBASE}/share/texmf-dist/tex/latex/brandeis-dissertation/brandeis-dissertation.cls:${PORTSDIR}/print/texlive-brandeis-dissertation \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cascadilla/cascadilla.cls:${PORTSDIR}/print/texlive-cascadilla \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/chem-journal/jcc.bst:${PORTSDIR}/print/texlive-chem-journal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/classicthesis/classicthesis.sty:${PORTSDIR}/print/texlive-classicthesis \
