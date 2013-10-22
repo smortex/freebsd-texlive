@@ -53,7 +53,7 @@ share/texmf-dist/dvips/pstricks/pst-ovl.pro
 share/texmf-dist/dvips/pstricks/pstricks.pro
 share/texmf-dist/dvips/pstricks/pstricks97.pro
 share/texmf-dist/tex/generic/pstricks/config/Changes
-share/texmf-dist/tex/generic/pstricks/config/README
+share/texmf-dist/tex/generic/pstricks/config/README.cfg
 share/texmf-dist/tex/generic/pstricks/config/distiller.cfg
 share/texmf-dist/tex/generic/pstricks/config/dvips.cfg
 share/texmf-dist/tex/generic/pstricks/config/dvipsone.cfg

@@ -1,3 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/jadetex.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/jadetex.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/ChangeLog
 %%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/ChangeLog-old
 %%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/Makefile
@@ -6,10 +8,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/index.html
 %%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/index.xml
 %%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/index.xsl
-%%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/jadetex.1
 %%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/jadetex.cfg
 %%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/logo.png
-%%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/pdfjadetex.1
 %%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/releasenotes.dsl
 %%PORTDOCS%%share/texmf-dist/doc/otherformats/jadetex/base/releasenotes.xml
 %%PORTSRC%%share/texmf-dist/source/jadetex/base/Makefile
@@ -30,6 +30,8 @@ share/texmf-dist/tex/jadetex/base/ut1omlgc.fd
 @dirrmtry share/texmf-dist/doc/otherformats/jadetex/base
 @dirrmtry share/texmf-dist/doc/otherformats/jadetex
 @dirrmtry share/texmf-dist/doc/otherformats
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
