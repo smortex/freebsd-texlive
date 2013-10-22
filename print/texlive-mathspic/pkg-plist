@@ -5,16 +5,19 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/mathsPICfigures.zip
 %%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/mathsPICmanual.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/mathsPICmanual.zip
-%%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/mathspic.1
 %%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/mathspic.lib
 %%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/mathspic.sh
 %%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/sourcecode113.html
 %%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/sourcecode113.nw
 %%PORTDOCS%%share/texmf-dist/doc/latex/mathspic/sourcecode113.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/mathspic.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/mathspic.man1.pdf
 share/texmf-dist/tex/latex/mathspic/mathspic.sty
 @dirrmtry share/texmf-dist/tex/latex/mathspic
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc/latex/mathspic
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc

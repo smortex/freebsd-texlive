@@ -1,4 +1,6 @@
 share/texmf-dist/bibtex/bst/texsis/texsis.bst
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/texsis.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/texsis.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/otherformats/texsis/base/COPYING
 %%PORTDOCS%%share/texmf-dist/doc/otherformats/texsis/base/Example.tex
 %%PORTDOCS%%share/texmf-dist/doc/otherformats/texsis/base/Fonts.tex
@@ -39,7 +41,6 @@ share/texmf-dist/bibtex/bst/texsis/texsis.bst
 %%PORTDOCS%%share/texmf-dist/doc/otherformats/texsis/base/letr
 %%PORTDOCS%%share/texmf-dist/doc/otherformats/texsis/base/penguin.eps
 %%PORTDOCS%%share/texmf-dist/doc/otherformats/texsis/base/penguin2.eps
-%%PORTDOCS%%share/texmf-dist/doc/otherformats/texsis/base/texsis.1
 %%PORTDOCS%%share/texmf-dist/doc/otherformats/texsis/base/texsis.el
 %%PORTDOCS%%share/texmf-dist/doc/otherformats/texsis/base/texsis.lsm
 share/texmf-dist/tex/texsis/base/AIP.txs
@@ -88,6 +89,8 @@ share/texmf-dist/tex/texsis/config/texsis.ini
 @dirrmtry share/texmf-dist/doc/otherformats/texsis/base
 @dirrmtry share/texmf-dist/doc/otherformats/texsis
 @dirrmtry share/texmf-dist/doc/otherformats
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc
 @dirrmtry share/texmf-dist/bibtex/bst/texsis
 @dirrmtry share/texmf-dist/bibtex/bst
