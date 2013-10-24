@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-humanities
-PORTVERSION=	20130814
+PORTVERSION=	20131023
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -96,6 +96,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/metrix/metrix.sty:${PORTSDIR}/print/texlive-metrix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/parallel/parallel.sty:${PORTSDIR}/print/texlive-parallel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/parrun/parrun.sty:${PORTSDIR}/print/texlive-parrun \
+		${LOCALBASE}/share/texmf-dist/tex/latex/phonrule/phonrule.sty:${PORTSDIR}/print/texlive-phonrule \
 		${LOCALBASE}/share/texmf-dist/tex/latex/plari/plari.cls:${PORTSDIR}/print/texlive-plari \
 		${LOCALBASE}/share/texmf-dist/tex/latex/play/play.cls:${PORTSDIR}/print/texlive-play \
 		${LOCALBASE}/share/texmf-dist/tex/latex/poemscol/poemscol.sty:${PORTSDIR}/print/texlive-poemscol \
