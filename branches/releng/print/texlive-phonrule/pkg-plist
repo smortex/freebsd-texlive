@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/phonrule/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/phonrule/phonrule-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/phonrule/phonrule-doc.tex
+share/texmf-dist/tex/latex/phonrule/phonrule.sty
+@dirrmtry share/texmf-dist/tex/latex/phonrule
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/phonrule
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

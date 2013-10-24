@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	sourcesanspro
+PORTNAME=	phonrule
 PORTVERSION=	20131023
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use SourceSansPro with TeX(-alike) systems.
+COMMENT=	Typeset linear phonological rules.
 
 NOPORTSRC=	yes
 
