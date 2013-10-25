@@ -2,8 +2,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/gfsdidot/OFL.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/gfsdidot/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/gfsdidot/README.TEXLIVE
-%%PORTDOCS%%share/texmf-dist/doc/fonts/gfsdidot/gfsdidot.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/gfsdidot/gfsdidot.tex
 share/texmf-dist/fonts/afm/public/gfsdidot/GFSDidot-Bold.afm
 share/texmf-dist/fonts/afm/public/gfsdidot/GFSDidot-BoldItalic.afm
 share/texmf-dist/fonts/afm/public/gfsdidot/GFSDidot-Italic.afm

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20130826
+PORTVERSION=	20131024
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -76,6 +76,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gradientframe/gradientframe.sty:${PORTSDIR}/print/texlive-gradientframe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/grafcet/grafcet.sty:${PORTSDIR}/print/texlive-grafcet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/graphviz/graphviz.sty:${PORTSDIR}/print/texlive-graphviz \
+		${LOCALBASE}/share/texmf-dist/tex/latex/harveyballs/harveyballs.sty:${PORTSDIR}/print/texlive-harveyballs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/here/here.sty:${PORTSDIR}/print/texlive-here \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hf-tikz/hf-tikz.sty:${PORTSDIR}/print/texlive-hf-tikz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hobby/hobby.code.tex:${PORTSDIR}/print/texlive-hobby \

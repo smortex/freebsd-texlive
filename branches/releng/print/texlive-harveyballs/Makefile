@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	gfsneohellenic
+PORTNAME=	harveyballs
 PORTVERSION=	20131024
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A Greek font in the Neo-Hellenic style.
+COMMENT=	Create Harvey Balls using TikZ.
 
 NOPORTSRC=	yes
 

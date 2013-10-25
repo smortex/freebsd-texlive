@@ -2,8 +2,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/gfsneohellenic/OFL.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/gfsneohellenic/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/gfsneohellenic/README.TEXLIVE
-%%PORTDOCS%%share/texmf-dist/doc/fonts/gfsneohellenic/gfsneohellenic.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/gfsneohellenic/gfsneohellenic.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/gfsneohellenic/VERSION
 share/texmf-dist/fonts/afm/public/gfsneohellenic/GFSNeohellenic-Bold.afm
 share/texmf-dist/fonts/afm/public/gfsneohellenic/GFSNeohellenic-BoldItalic.afm
 share/texmf-dist/fonts/afm/public/gfsneohellenic/GFSNeohellenic-Italic.afm
