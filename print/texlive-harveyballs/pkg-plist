@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/harveyballs/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/harveyballs/harveyballs-Manual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/harveyballs/harveyballs-Manual.tex
+share/texmf-dist/tex/latex/harveyballs/harveyballs.sty
+@dirrmtry share/texmf-dist/tex/latex/harveyballs
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/harveyballs
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
