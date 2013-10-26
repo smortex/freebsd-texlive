@@ -1,11 +1,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/info/latex2man.info
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/latex2man.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/latex2man.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/latex2man/CHANGES
 %%PORTDOCS%%share/texmf-dist/doc/support/latex2man/INSTALL
 %%PORTDOCS%%share/texmf-dist/doc/support/latex2man/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/support/latex2man/README
 %%PORTDOCS%%share/texmf-dist/doc/support/latex2man/THIS-IS-VERSION-1.24
 %%PORTDOCS%%share/texmf-dist/doc/support/latex2man/latex2man-CHANGES.html
-%%PORTDOCS%%share/texmf-dist/doc/support/latex2man/latex2man.1
 %%PORTDOCS%%share/texmf-dist/doc/support/latex2man/latex2man.css
 %%PORTDOCS%%share/texmf-dist/doc/support/latex2man/latex2man.html
 %%PORTDOCS%%share/texmf-dist/doc/support/latex2man/latex2man.pdf
@@ -20,6 +21,8 @@ share/texmf-dist/tex/latex/latex2man/latex2man.sty
 @dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/support/latex2man
 @dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc/info
 @dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
