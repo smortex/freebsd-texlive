@@ -1,3 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/pedigree.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/pedigree.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/LICENSE
 %%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/NEWS
@@ -37,7 +39,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/examples/sort2.csv
 %%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/examples/sort3.csv
 %%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/examples/twins.csv
-%%PORTDOCS%%share/texmf-dist/doc/support/pedigree-perl/pedigree.1
 share/texmf-dist/scripts/pedigree-perl/Pedigree.pm
 share/texmf-dist/scripts/pedigree-perl/Pedigree/AbortionNode.pm
 share/texmf-dist/scripts/pedigree-perl/Pedigree/Area.pm
@@ -56,6 +57,8 @@ share/texmf-dist/scripts/pedigree-perl/Pedigree/TwinsNode.pm
 @dirrmtry share/texmf-dist/doc/support/pedigree-perl/Pedigree
 @dirrmtry share/texmf-dist/doc/support/pedigree-perl
 @dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
