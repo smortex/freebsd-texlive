@@ -8,6 +8,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/exsheets/tasks_en.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/exsheets/tasks_en.tex
 share/texmf-dist/tex/latex/exsheets/cntformats.sty
+share/texmf-dist/tex/latex/exsheets/exsheets-listings.sty
 share/texmf-dist/tex/latex/exsheets/exsheets.sty
 share/texmf-dist/tex/latex/exsheets/exsheets_configurations.cfg
 share/texmf-dist/tex/latex/exsheets/exsheets_headings.cfg
