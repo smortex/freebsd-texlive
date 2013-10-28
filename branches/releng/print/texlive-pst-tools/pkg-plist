@@ -4,7 +4,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-tools/pst-tools-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-tools/pst-tools-doc.tex
 share/texmf-dist/dvips/pst-tools/pst-tools.pro
-%%PORTSRC%%share/texmf-dist/source/generic/pst-tools/Makefile
 share/texmf-dist/tex/generic/pst-tools/pst-tools.tex
 share/texmf-dist/tex/latex/pst-tools/pst-tools.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-tools
@@ -12,9 +11,6 @@ share/texmf-dist/tex/latex/pst-tools/pst-tools.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-tools
 @dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/generic/pst-tools
-@dirrmtry share/texmf-dist/source/generic
-@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/dvips/pst-tools
 @dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/generic/pst-tools
