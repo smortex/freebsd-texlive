@@ -3,7 +3,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-gantt/pst-gantt-doc.bib
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-gantt/pst-gantt-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-gantt/pst-gantt-doc.tex
-%%PORTSRC%%share/texmf-dist/source/generic/pst-gantt/Makefile
 share/texmf-dist/tex/generic/pst-gantt/pst-gantt.tex
 share/texmf-dist/tex/latex/pst-gantt/pst-gantt.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-gantt
@@ -11,9 +10,6 @@ share/texmf-dist/tex/latex/pst-gantt/pst-gantt.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-gantt
 @dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/generic/pst-gantt
-@dirrmtry share/texmf-dist/source/generic
-@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/generic/pst-gantt
 @dirrmtry share/texmf-dist/doc/generic
 @dirrmtry share/texmf-dist/doc
