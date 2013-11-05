@@ -387,7 +387,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/raleway/raleway.sty:${PORTSDIR}/print/texlive-raleway \
 		${LOCALBASE}/share/texmf-dist/tex/latex/recycle/recycle.sty:${PORTSDIR}/print/texlive-recycle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/romande/romande.sty:${PORTSDIR}/print/texlive-romande \
-		${LOCALBASE}/share/texmf-dist/tex/latex/public/rsfso/rsfso.sty:${PORTSDIR}/print/texlive-rsfso \
+		${LOCALBASE}/share/texmf-dist/tex/latex/rsfso/rsfso.sty:${PORTSDIR}/print/texlive-rsfso \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty:${PORTSDIR}/print/texlive-sansmathaccent \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sansmathfonts/sansmathfonts.sty:${PORTSDIR}/print/texlive-sansmathfonts \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/sauter/b-cmb.mf:${PORTSDIR}/print/texlive-sauter \
@@ -412,6 +412,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/urwchancal/urwchancal.sty:${PORTSDIR}/print/texlive-urwchancal \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/venturis/yvtb8a.afm:${PORTSDIR}/print/texlive-venturisadf \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/wsuipa/iaccent.mf:${PORTSDIR}/print/texlive-wsuipa \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/xcharter/XCh_2bziiw.enc:${PORTSDIR}/print/texlive-xcharter \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/xits/xits-bold.otf:${PORTSDIR}/print/texlive-xits \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yfonts/yfonts.sty:${PORTSDIR}/print/texlive-yfonts \
 		${LOCALBASE}/share/texmf-dist/dvips/avantgar/config.uag:${PORTSDIR}/print/texlive-avantgar \
@@ -570,6 +571,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/metrix/metrix.sty:${PORTSDIR}/print/texlive-metrix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/parallel/parallel.sty:${PORTSDIR}/print/texlive-parallel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/parrun/parrun.sty:${PORTSDIR}/print/texlive-parrun \
+		${LOCALBASE}/share/texmf-dist/tex/latex/phonrule/phonrule.sty:${PORTSDIR}/print/texlive-phonrule \
 		${LOCALBASE}/share/texmf-dist/tex/latex/plari/plari.cls:${PORTSDIR}/print/texlive-plari \
 		${LOCALBASE}/share/texmf-dist/tex/latex/play/play.cls:${PORTSDIR}/print/texlive-play \
 		${LOCALBASE}/share/texmf-dist/tex/latex/poemscol/poemscol.sty:${PORTSDIR}/print/texlive-poemscol \
@@ -885,6 +887,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gradientframe/gradientframe.sty:${PORTSDIR}/print/texlive-gradientframe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/grafcet/grafcet.sty:${PORTSDIR}/print/texlive-grafcet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/graphviz/graphviz.sty:${PORTSDIR}/print/texlive-graphviz \
+		${LOCALBASE}/share/texmf-dist/tex/latex/harveyballs/harveyballs.sty:${PORTSDIR}/print/texlive-harveyballs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/here/here.sty:${PORTSDIR}/print/texlive-here \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hf-tikz/hf-tikz.sty:${PORTSDIR}/print/texlive-hf-tikz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hobby/hobby.code.tex:${PORTSDIR}/print/texlive-hobby \

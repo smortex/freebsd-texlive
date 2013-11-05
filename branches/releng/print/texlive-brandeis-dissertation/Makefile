@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	brandeis-dissertation
-PORTVERSION=	20131018
+PORTVERSION=	20131104
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The brandeis-dissertation package
+COMMENT=	Class for Brandeis University dissertations.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

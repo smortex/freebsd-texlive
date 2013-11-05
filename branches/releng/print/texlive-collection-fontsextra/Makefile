@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20130820
+PORTVERSION=	20131104
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -200,7 +200,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/raleway/raleway.sty:${PORTSDIR}/print/texlive-raleway \
 		${LOCALBASE}/share/texmf-dist/tex/latex/recycle/recycle.sty:${PORTSDIR}/print/texlive-recycle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/romande/romande.sty:${PORTSDIR}/print/texlive-romande \
-		${LOCALBASE}/share/texmf-dist/tex/latex/public/rsfso/rsfso.sty:${PORTSDIR}/print/texlive-rsfso \
+		${LOCALBASE}/share/texmf-dist/tex/latex/rsfso/rsfso.sty:${PORTSDIR}/print/texlive-rsfso \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty:${PORTSDIR}/print/texlive-sansmathaccent \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sansmathfonts/sansmathfonts.sty:${PORTSDIR}/print/texlive-sansmathfonts \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/sauter/b-cmb.mf:${PORTSDIR}/print/texlive-sauter \
@@ -213,7 +213,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/starfont/starfont.sty:${PORTSDIR}/print/texlive-starfont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/staves/staves.sty:${PORTSDIR}/print/texlive-staves \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/stix/STIXGeneral.otf:${PORTSDIR}/print/texlive-stix \
-		${LOCALBASE}/share/texmf-dist/tex/latex/public/superiors/superiors.sty:${PORTSDIR}/print/texlive-superiors \
+		${LOCALBASE}/share/texmf-dist/tex/latex/superiors/superiors.sty:${PORTSDIR}/print/texlive-superiors \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/tapir/tap-enc.mf:${PORTSDIR}/print/texlive-tapir \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tengwarscript/tengwarscript.sty:${PORTSDIR}/print/texlive-tengwarscript \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tfrupee/tfrupee.sty:${PORTSDIR}/print/texlive-tfrupee \
@@ -225,6 +225,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/urwchancal/urwchancal.sty:${PORTSDIR}/print/texlive-urwchancal \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/venturis/yvtb8a.afm:${PORTSDIR}/print/texlive-venturisadf \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/wsuipa/iaccent.mf:${PORTSDIR}/print/texlive-wsuipa \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/xcharter/XCh_2bziiw.enc:${PORTSDIR}/print/texlive-xcharter \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/xits/xits-bold.otf:${PORTSDIR}/print/texlive-xits \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yfonts/yfonts.sty:${PORTSDIR}/print/texlive-yfonts
 

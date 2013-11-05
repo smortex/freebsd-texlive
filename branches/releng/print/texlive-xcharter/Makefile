@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	chemmacros
+PORTNAME=	xcharter
 PORTVERSION=	20131104
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A collection of macros to support typesetting chemistry documents.
+COMMENT=	Extension of Bitstream Charter fonts.
 
 NOPORTSRC=	yes
 

@@ -12,10 +12,9 @@ share/texmf-dist/fonts/tfm/public/rsfso/rsfso7.tfm
 share/texmf-dist/fonts/vf/public/rsfso/rsfso10.vf
 share/texmf-dist/fonts/vf/public/rsfso/rsfso5.vf
 share/texmf-dist/fonts/vf/public/rsfso/rsfso7.vf
-share/texmf-dist/tex/latex/public/rsfso/rsfso.sty
-share/texmf-dist/tex/latex/public/rsfso/ursfso.fd
-@dirrmtry share/texmf-dist/tex/latex/public/rsfso
-@dirrmtry share/texmf-dist/tex/latex/public
+share/texmf-dist/tex/latex/rsfso/rsfso.sty
+share/texmf-dist/tex/latex/rsfso/ursfso.fd
+@dirrmtry share/texmf-dist/tex/latex/rsfso
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/vf/public/rsfso
