@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	biblatex-gost
+PORTNAME=	gillius
 PORTVERSION=	20131105
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Biblatex support for GOST standard bibliographies.
+COMMENT=	Gillius fonts with LaTeX support.
 
 NOPORTSRC=	yes
 

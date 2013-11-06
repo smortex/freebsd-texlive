@@ -1,13 +1,15 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/README.html
 %%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/cyrillic-lm-lgc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/cyrillic-lm-lgc.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/cyrillic-times-paratype.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/cyrillic-times-paratype.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/cyrillic-paratype.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/cyrillic-paratype.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/greek-palatino-didot.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/greek-palatino-didot.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/greek-times-artemisia.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/greek-times-artemisia.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/substitutefont-doc.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/substitutefont-test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/substitutefont-test.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/substitutefont/substitutefont.sty.html
 share/texmf-dist/tex/latex/substitutefont/substitutefont.sty
 @dirrmtry share/texmf-dist/tex/latex/substitutefont
