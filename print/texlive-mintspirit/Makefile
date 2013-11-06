@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	biblatex-gost
+PORTNAME=	mintspirit
 PORTVERSION=	20131105
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Biblatex support for GOST standard bibliographies.
+COMMENT=	LaTeX support for MintSpirit font families.
 
 NOPORTSRC=	yes
 

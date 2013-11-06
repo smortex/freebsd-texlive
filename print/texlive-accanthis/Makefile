@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	biblatex-gost
+PORTNAME=	accanthis
 PORTVERSION=	20131105
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Biblatex support for GOST standard bibliographies.
+COMMENT=	The accanthis package
 
 NOPORTSRC=	yes
 

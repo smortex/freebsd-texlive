@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	substitutefont
-PORTVERSION=	20131104
+PORTVERSION=	20131105
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
