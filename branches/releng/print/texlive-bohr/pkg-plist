@@ -3,6 +3,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/bohr/bohr_en.tex
 share/texmf-dist/tex/latex/bohr/bohr.sty
 share/texmf-dist/tex/latex/bohr/bohr_elements_english.def
+share/texmf-dist/tex/latex/bohr/bohr_elements_french.def
 share/texmf-dist/tex/latex/bohr/bohr_elements_german.def
 @dirrmtry share/texmf-dist/tex/latex/bohr
 @dirrmtry share/texmf-dist/tex/latex
