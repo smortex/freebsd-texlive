@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	accanthis
-PORTVERSION=	20131105
+PORTVERSION=	20131107
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The accanthis package
+COMMENT=	Accanthis fonts, with LaTeX support.
 
 NOPORTSRC=	yes
 
