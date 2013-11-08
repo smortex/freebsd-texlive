@@ -2,7 +2,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/Changes.dvips
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/Changes.generic
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/Changes.latex
-%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/PSTricks.bib
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/README
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/ctandir.sty
@@ -29,18 +28,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-news12.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-news13.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-news13.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-quickref.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-user.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-user.tgz
-%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-usrfull.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstnews1-10.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstnews1-10.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstnews1-11.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstnews1-11.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstnews1-12.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstnews1-12.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstnews97-15.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstnews97-15.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstricks-add-data9.data
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstricks-bug.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstricks-doc.pdf
