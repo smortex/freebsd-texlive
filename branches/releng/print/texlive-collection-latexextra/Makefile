@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20131016
+PORTVERSION=	20131108
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -152,6 +152,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gradientframe/gradientframe.sty:${PORTSDIR}/print/texlive-gradientframe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/grafcet/grafcet.sty:${PORTSDIR}/print/texlive-grafcet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/graphviz/graphviz.sty:${PORTSDIR}/print/texlive-graphviz \
+		${LOCALBASE}/share/texmf-dist/tex/latex/harveyballs/harveyballs.sty:${PORTSDIR}/print/texlive-harveyballs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/here/here.sty:${PORTSDIR}/print/texlive-here \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hf-tikz/hf-tikz.sty:${PORTSDIR}/print/texlive-hf-tikz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hobby/hobby.code.tex:${PORTSDIR}/print/texlive-hobby \
@@ -577,6 +578,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/graphicx-psmin/graphicx-psmin.sty:${PORTSDIR}/print/texlive-graphicx-psmin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/grfpaste/grfpaste.sty:${PORTSDIR}/print/texlive-grfpaste \
 		${LOCALBASE}/share/texmf-dist/tex/latex/grid/grid.sty:${PORTSDIR}/print/texlive-grid \
+		${LOCALBASE}/share/texmf-dist/tex/latex/grid-system/grid-system.sty:${PORTSDIR}/print/texlive-grid-system \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gridset/gridset.sty:${PORTSDIR}/print/texlive-gridset \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gtl/gtl.sty:${PORTSDIR}/print/texlive-gtl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/guitlogo/guit.cfg:${PORTSDIR}/print/texlive-guitlogo \
