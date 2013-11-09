@@ -1,0 +1,3 @@
+The package provides the means for LaTeX to implement a grid
+system as known from CSS grid systems. The facility is useful
+for creating box layouts as used in brochures.

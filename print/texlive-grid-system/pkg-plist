@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/grid-system/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/grid-system/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/grid-system/grid-system.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/grid-system/grid-system.tex
+share/texmf-dist/tex/latex/grid-system/grid-system.sty
+@dirrmtry share/texmf-dist/tex/latex/grid-system
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/grid-system
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
