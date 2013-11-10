@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	xindy
+PORTNAME=	kotex-utf
 PORTVERSION=	20131109
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A general-purpose index processor.
+COMMENT=	Typeset Hangul, coded in UTF-8.
 
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/cjk-ko/cjkutf8-josa.sty:${PORTSDIR}/print/texlive-cjk-ko
 
 NOPORTSRC=	yes
 

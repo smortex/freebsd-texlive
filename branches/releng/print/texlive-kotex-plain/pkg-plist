@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/plain/kotex-plain/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/plain/kotex-plain/README
+share/texmf-dist/tex/plain/kotex-plain/hangulcweb.tex
+share/texmf-dist/tex/plain/kotex-plain/kotexplain.tex
+share/texmf-dist/tex/plain/kotex-plain/kotexutf-core.tex
+share/texmf-dist/tex/plain/kotex-plain/kotexutf.tex
+@dirrmtry share/texmf-dist/tex/plain/kotex-plain
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/plain/kotex-plain
+@dirrmtry share/texmf-dist/doc/plain
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

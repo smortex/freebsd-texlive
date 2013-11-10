@@ -1,0 +1,48 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/kotex-utf/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/latex/kotex-utf/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/kotex-utf/fig/allowbreak-dhucs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/kotex-utf/fig/fntexp.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/kotex-utf/fig/fntnormal.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/kotex-utf/fig/histkotex.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/kotex-utf/fig/linebreaktest.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/kotex-utf/fig/testdhucsallowbreak.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/kotex-utf/kotexdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/kotex-utf/kotexdoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/kotex-utf/sample-finemath-setup.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/kotex-utf/yettext.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/kotex-utf/yettext.txt
+share/texmf-dist/tex/latex/kotex-utf/contrib/dhucs-cmap.sty
+share/texmf-dist/tex/latex/kotex-utf/contrib/dhucs-enumerate.sty
+share/texmf-dist/tex/latex/kotex-utf/contrib/dhucs-enumitem.sty
+share/texmf-dist/tex/latex/kotex-utf/contrib/dhucs-gremph.sty
+share/texmf-dist/tex/latex/kotex-utf/contrib/dhucs-interword.sty
+share/texmf-dist/tex/latex/kotex-utf/contrib/dhucs-paralist.sty
+share/texmf-dist/tex/latex/kotex-utf/contrib/dhucs-sectsty.sty
+share/texmf-dist/tex/latex/kotex-utf/contrib/dhucs-setspace.sty
+share/texmf-dist/tex/latex/kotex-utf/contrib/dhucs-trivcj.sty
+share/texmf-dist/tex/latex/kotex-utf/contrib/dhucs-ucshyper.sty
+share/texmf-dist/tex/latex/kotex-utf/contrib/dhucsfn.sty
+share/texmf-dist/tex/latex/kotex-utf/contrib/kotex-logo.sty
+share/texmf-dist/tex/latex/kotex-utf/contrib/kotex-varioref.sty
+share/texmf-dist/tex/latex/kotex-utf/dhucs-nanumfont.sty
+share/texmf-dist/tex/latex/kotex-utf/dhucs.sty
+share/texmf-dist/tex/latex/kotex-utf/hfontspec.default
+share/texmf-dist/tex/latex/kotex-utf/kosections-utf.sty
+share/texmf-dist/tex/latex/kotex-utf/kotex.cfg
+share/texmf-dist/tex/latex/kotex-utf/kotexutf.sty
+share/texmf-dist/tex/latex/kotex-utf/lucenc.dfu
+share/texmf-dist/tex/latex/kotex-utf/lucuhcmj.fd
+share/texmf-dist/tex/latex/kotex-utf/tex4ht/dhucs.4ht
+share/texmf-dist/tex/latex/kotex-utf/tex4ht/dhucs.cfg
+share/texmf-dist/tex/latex/kotex-utf/tex4ht/kosections-utf.4ht
+@dirrmtry share/texmf-dist/tex/latex/kotex-utf/tex4ht
+@dirrmtry share/texmf-dist/tex/latex/kotex-utf/contrib
+@dirrmtry share/texmf-dist/tex/latex/kotex-utf
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/kotex-utf/fig
+@dirrmtry share/texmf-dist/doc/latex/kotex-utf
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

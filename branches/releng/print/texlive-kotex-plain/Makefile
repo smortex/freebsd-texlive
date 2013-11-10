@@ -1,13 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	xindy
+PORTNAME=	kotex-plain
 PORTVERSION=	20131109
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A general-purpose index processor.
-
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
+COMMENT=	Macros for typesetting Korean under Plain TeX.
 
 NOPORTSRC=	yes
 
