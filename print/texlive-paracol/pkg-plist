@@ -1,12 +1,15 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/paracol/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/paracol/paracol-man.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/paracol/paracol-man.tex
+%%PORTSRC%%share/texmf-dist/source/latex/paracol/bgpaint.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/paracol/impl.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/paracol/ltfloat.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/paracol/man.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/paracol/paracol.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/paracol/paracol.ins
+%%PORTSRC%%share/texmf-dist/source/latex/paracol/probs.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/paracol/pwfnote.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/paracol/ref.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/paracol/scfnote.dtx
 share/texmf-dist/tex/latex/paracol/paracol.sty
 @dirrmtry share/texmf-dist/tex/latex/paracol
 @dirrmtry share/texmf-dist/tex/latex

@@ -446,6 +446,8 @@ share/texmf-dist/xindy/modules/lang/upper-sorbian/latin2.xdy
 share/texmf-dist/xindy/modules/lang/upper-sorbian/utf8-lang.xdy
 share/texmf-dist/xindy/modules/lang/upper-sorbian/utf8-test.xdy
 share/texmf-dist/xindy/modules/lang/upper-sorbian/utf8.xdy
+share/texmf-dist/xindy/modules/lang/utf8-lang.xdy
+share/texmf-dist/xindy/modules/lang/utf8.xdy
 share/texmf-dist/xindy/modules/lang/vietnamese/utf8-lang.xdy
 share/texmf-dist/xindy/modules/lang/vietnamese/utf8-test.xdy
 share/texmf-dist/xindy/modules/lang/vietnamese/utf8.xdy
