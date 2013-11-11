@@ -255,6 +255,8 @@ share/texmf-dist/xindy/modules/lang/italian/utf8.xdy
 share/texmf-dist/xindy/modules/lang/klingon/utf8-lang.xdy
 share/texmf-dist/xindy/modules/lang/klingon/utf8-test.xdy
 share/texmf-dist/xindy/modules/lang/klingon/utf8.xdy
+share/texmf-dist/xindy/modules/lang/korean/utf8-lang.xdy
+share/texmf-dist/xindy/modules/lang/korean/utf8.xdy
 share/texmf-dist/xindy/modules/lang/kurdish/bedirxan-latin5-lang.xdy
 share/texmf-dist/xindy/modules/lang/kurdish/bedirxan-latin5-test.xdy
 share/texmf-dist/xindy/modules/lang/kurdish/bedirxan-latin5.xdy
@@ -446,8 +448,6 @@ share/texmf-dist/xindy/modules/lang/upper-sorbian/latin2.xdy
 share/texmf-dist/xindy/modules/lang/upper-sorbian/utf8-lang.xdy
 share/texmf-dist/xindy/modules/lang/upper-sorbian/utf8-test.xdy
 share/texmf-dist/xindy/modules/lang/upper-sorbian/utf8.xdy
-share/texmf-dist/xindy/modules/lang/utf8-lang.xdy
-share/texmf-dist/xindy/modules/lang/utf8.xdy
 share/texmf-dist/xindy/modules/lang/vietnamese/utf8-lang.xdy
 share/texmf-dist/xindy/modules/lang/vietnamese/utf8-test.xdy
 share/texmf-dist/xindy/modules/lang/vietnamese/utf8.xdy
@@ -503,6 +503,7 @@ share/texmf-dist/xindy/modules/tex/inputenc/latin3.xdy
 @dirrmtry share/texmf-dist/xindy/modules/lang/latvian
 @dirrmtry share/texmf-dist/xindy/modules/lang/latin
 @dirrmtry share/texmf-dist/xindy/modules/lang/kurdish
+@dirrmtry share/texmf-dist/xindy/modules/lang/korean
 @dirrmtry share/texmf-dist/xindy/modules/lang/klingon
 @dirrmtry share/texmf-dist/xindy/modules/lang/italian
 @dirrmtry share/texmf-dist/xindy/modules/lang/icelandic
