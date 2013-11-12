@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	pst-plot
-PORTVERSION=	20131111
-PORTEPOCH=	1
+PORTNAME=	alegreya
+PORTVERSION=	20131110
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Plot data using PSTricks.
+COMMENT=	Alegreya fonts with LaTeX support.
 
 NOPORTSRC=	yes
 
