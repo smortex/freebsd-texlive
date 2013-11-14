@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20131111
+PORTVERSION=	20131112
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -175,6 +175,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathdesign/mathdesign.sty:${PORTSDIR}/print/texlive-mathdesign \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdputu/mdputu.sty:${PORTSDIR}/print/texlive-mdputu \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdsymbol/mdsymbol.sty:${PORTSDIR}/print/texlive-mdsymbol \
+		${LOCALBASE}/share/texmf-dist/tex/latex/merriweather/merriweather.sty:${PORTSDIR}/print/texlive-merriweather \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mintspirit/mintspirit.sty:${PORTSDIR}/print/texlive-mintspirit \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc:${PORTSDIR}/print/texlive-mnsymbol \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/newpx/a_3p3as7.enc:${PORTSDIR}/print/texlive-newpx \
