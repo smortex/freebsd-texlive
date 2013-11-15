@@ -2,6 +2,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpinyin/xpinyin.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/xpinyin/xpinyin.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/xpinyin/xpinyin.ins
+share/texmf-dist/tex/latex/xpinyin/config/xpinyin-UGBK.cfg
 share/texmf-dist/tex/latex/xpinyin/config/xpinyin-map.cfg
 share/texmf-dist/tex/latex/xpinyin/xpinyin.sty
 @dirrmtry share/texmf-dist/tex/latex/xpinyin/config
