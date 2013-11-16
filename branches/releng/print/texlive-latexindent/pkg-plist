@@ -1,0 +1,45 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/README
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/documentation/manual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/documentation/manual.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/indent.yaml
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/bigTest.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/braceTest.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/braceTestsmall.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/environments.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/filecontents.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/matrix.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/nestedalignment.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/nestedalignment1.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/outputfile.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/preamble.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/pstricks1.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/pstricks2.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/pstricks3.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/sampleAFTER.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/sampleBEFORE.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/stylefile.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/table1.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/table2.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/table3.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/testHeadings.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/testHeadings1.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/theorem.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/tikz1.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/tikz2.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/tikz3.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/tikz4.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/tikz5.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/torusPGF.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/torusPSTricks.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/trailingComments.tex
+share/texmf-dist/scripts/latexindent/defaultSettings.yaml
+share/texmf-dist/scripts/latexindent/latexindent.pl
+@dirrmtry share/texmf-dist/scripts/latexindent
+@dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/doc/support/latexindent/success
+@dirrmtry share/texmf-dist/doc/support/latexindent/documentation
+@dirrmtry share/texmf-dist/doc/support/latexindent
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
