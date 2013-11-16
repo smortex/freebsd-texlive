@@ -1,0 +1,3 @@
+The Perl script (also available as a windows executable)
+processes a LaTeX file, indenting parts so as to highlight the
+structure for the reader.
