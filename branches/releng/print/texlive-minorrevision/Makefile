@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	merriweather
+PORTNAME=	minorrevision
 PORTVERSION=	20131117
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Merriweather and MerriweatherSans fonts, with LaTeX support.
+COMMENT=	Quote and refer to a manuscript for minor revisions.
 
 NOPORTSRC=	yes
 
