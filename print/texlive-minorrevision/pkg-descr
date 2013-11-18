@@ -1,0 +1,8 @@
+The package supports those who publish articles in peer-
+reviewed journals. In the final stages of the review process,
+the authors typically have to provide an additional document
+(such as a letter to the editors), in which they provide a list
+of modifications that they made to the manuscript. The package
+automatically provides line numbers and quotations from the
+manuscript, for this letter. The package loads the package
+lineno, so (in effect) shares lineno's incompatibilities.

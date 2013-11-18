@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20131108
+PORTVERSION=	20131117
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -722,6 +722,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/minifp/minifp.sty:${PORTSDIR}/print/texlive-minifp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minipage-marginpar/minipage-marginpar.sty:${PORTSDIR}/print/texlive-minipage-marginpar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minitoc/minitoc.sty:${PORTSDIR}/print/texlive-minitoc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/minorrevision/minorrevision.sty:${PORTSDIR}/print/texlive-minorrevision \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minted/minted.sty:${PORTSDIR}/print/texlive-minted \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minutes/minutes.sty:${PORTSDIR}/print/texlive-minutes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/misc209/bibmods.sty:${PORTSDIR}/print/texlive-misc209 \
