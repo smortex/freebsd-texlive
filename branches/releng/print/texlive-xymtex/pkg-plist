@@ -1,0 +1,136 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/doc/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/readme402.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/readme402.jpn
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/readme403.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/readme403.jpn
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/readme404.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/readme404.jpn
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/readme405.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/readme405.jpn
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/readme406.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/readme406.jpn
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/readme500.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/readme500.jpn
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/readme500a.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/readme500a.jpn
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/xymtx402.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/xymtx402.jpn
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/xymtx403.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/xymtx403.jpn
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/xymtx404.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/xymtx404.jpn
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/xymtx405.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/xymtx405.jpn
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/xymtx406.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/xymtx406.jpn
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/xymtx500.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/xymtx500.jpn
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/xymtx500a.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/oldreadme/xymtx500a.jpn
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/readme501.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/readme501.jpn
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/xymtx501.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/xymtex/readme/xymtx501.jpn
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/aliphat.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/aliphat.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/assurelatexmode.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/assurelatexmode.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/bondcolor.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/bondcolor.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/carom.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/carom.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/ccycle.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/ccycle.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/chemstr.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/chemstr.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/doins.bat
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/fusering.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/fusering.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/hcycle.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/hcycle.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/hetarom.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/hetarom.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/hetaromh.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/hetaromh.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/lewisstruc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/lewisstruc.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/locant.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/locant.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/lowcycle.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/lowcycle.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/methylen.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/methylen.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/polymers.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/polymers.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/putline.sed
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/putput.bat
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/sizeredc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/sizeredc.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/steroid.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/steroid.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/xymtex.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/base/xymtex.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/chemist/assurechemist.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/chemist/assurechemist.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/chemist/chemist.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/chemist/chemist.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/chemist/chemtimes.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/chemist/chemtimes.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/xymtxpdf/chmst-pdf.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/xymtxpdf/chmst-pdf.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/xymtxpdf/xymtx-pdf.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/xymtxpdf/xymtx-pdf.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/xymtxps/chmst-ps.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/xymtxps/chmst-ps.ins
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/xymtxps/xymtx-ps.drv
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/xymtxps/xymtx-ps.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xymtex/xymtxps/xymtx-ps.ins
+share/texmf-dist/tex/latex/xymtex/base/aliphat.sty
+share/texmf-dist/tex/latex/xymtex/base/assurelatexmode.sty
+share/texmf-dist/tex/latex/xymtex/base/bondcolor.sty
+share/texmf-dist/tex/latex/xymtex/base/carom.sty
+share/texmf-dist/tex/latex/xymtex/base/ccycle.sty
+share/texmf-dist/tex/latex/xymtex/base/chemstr.sty
+share/texmf-dist/tex/latex/xymtex/base/fusering.sty
+share/texmf-dist/tex/latex/xymtex/base/hcycle.sty
+share/texmf-dist/tex/latex/xymtex/base/hetarom.sty
+share/texmf-dist/tex/latex/xymtex/base/hetaromh.sty
+share/texmf-dist/tex/latex/xymtex/base/lewisstruc.sty
+share/texmf-dist/tex/latex/xymtex/base/locant.sty
+share/texmf-dist/tex/latex/xymtex/base/lowcycle.sty
+share/texmf-dist/tex/latex/xymtex/base/methylen.sty
+share/texmf-dist/tex/latex/xymtex/base/polymers.sty
+share/texmf-dist/tex/latex/xymtex/base/sizeredc.sty
+share/texmf-dist/tex/latex/xymtex/base/steroid.sty
+share/texmf-dist/tex/latex/xymtex/base/xymtex.sty
+share/texmf-dist/tex/latex/xymtex/base/xymtexpdf.sty
+share/texmf-dist/tex/latex/xymtex/base/xymtexps.sty
+share/texmf-dist/tex/latex/xymtex/chemist/assurechemist.sty
+share/texmf-dist/tex/latex/xymtex/chemist/chemist.sty
+share/texmf-dist/tex/latex/xymtex/chemist/chemtimes.sty
+share/texmf-dist/tex/latex/xymtex/xymtxpdf/chmst-pdf.sty
+share/texmf-dist/tex/latex/xymtex/xymtxpdf/xymtx-pdf.sty
+share/texmf-dist/tex/latex/xymtex/xymtxps/chmst-ps.sty
+share/texmf-dist/tex/latex/xymtex/xymtxps/xymtx-ps.sty
+@dirrmtry share/texmf-dist/tex/latex/xymtex/xymtxps
+@dirrmtry share/texmf-dist/tex/latex/xymtex/xymtxpdf
+@dirrmtry share/texmf-dist/tex/latex/xymtex/chemist
+@dirrmtry share/texmf-dist/tex/latex/xymtex/base
+@dirrmtry share/texmf-dist/tex/latex/xymtex
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/xymtex/xymtxps
+@dirrmtry share/texmf-dist/source/latex/xymtex/xymtxpdf
+@dirrmtry share/texmf-dist/source/latex/xymtex/chemist
+@dirrmtry share/texmf-dist/source/latex/xymtex/base
+@dirrmtry share/texmf-dist/source/latex/xymtex
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/xymtex/readme/oldreadme
+@dirrmtry share/texmf-dist/doc/latex/xymtex/readme
+@dirrmtry share/texmf-dist/doc/latex/xymtex/doc
+@dirrmtry share/texmf-dist/doc/latex/xymtex
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

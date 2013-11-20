@@ -1,0 +1,10 @@
+XyMTeX is a set of packages for drawing a wide variety of
+chemical structural formulas in a way that reflects their
+structure. The package provides three output modes: 'LaTeX',
+'PostScript' and 'PDF'. XyMTeX's commands have a systematic set
+of arguments for specifying substituents and their positions,
+endocyclic double bonds, and bond patterns. In some cases there
+are additional arguments for specifying hetero-atoms on the
+vertices of heterocycles. It is believed that this systematic
+design allows XyMTeX to operate as a practical (device-
+independent) tool for use with LaTeX.
