@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	xymtex
 PORTVERSION=	20131119
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	Typesetting chemical structures.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20131117
+PORTVERSION=	20131119
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -888,6 +888,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/recipecard/recipecard.cls:${PORTSDIR}/print/texlive-recipecard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rectopma/rectopma.sty:${PORTSDIR}/print/texlive-rectopma \
 		${LOCALBASE}/share/texmf-dist/tex/latex/refcheck/refcheck.sty:${PORTSDIR}/print/texlive-refcheck \
+		${LOCALBASE}/share/texmf-dist/tex/latex/reflectgraphics/reflectgraphics.sty:${PORTSDIR}/print/texlive-reflectgraphics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/refman/pagepc.sty:${PORTSDIR}/print/texlive-refman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/refstyle/refstyle.sty:${PORTSDIR}/print/texlive-refstyle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/regcount/regcount.sty:${PORTSDIR}/print/texlive-regcount \

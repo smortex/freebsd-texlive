@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-science
-PORTVERSION=	20130506
+PORTVERSION=	20131119
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -123,6 +123,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/textopo/textopo.sty:${PORTSDIR}/print/texlive-textopo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ulqda/ulqda.sty:${PORTSDIR}/print/texlive-ulqda \
 		${LOCALBASE}/share/texmf-dist/tex/latex/unitsdef/unitsdef.sty:${PORTSDIR}/print/texlive-unitsdef \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xymtex/base/xymtex.sty:${PORTSDIR}/print/texlive-xymtex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/youngtab/youngtab.sty:${PORTSDIR}/print/texlive-youngtab
 
 NOPORTDOCS=	yes

@@ -1467,6 +1467,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/minifp/minifp.sty:${PORTSDIR}/print/texlive-minifp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minipage-marginpar/minipage-marginpar.sty:${PORTSDIR}/print/texlive-minipage-marginpar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minitoc/minitoc.sty:${PORTSDIR}/print/texlive-minitoc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/minorrevision/minorrevision.sty:${PORTSDIR}/print/texlive-minorrevision \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minted/minted.sty:${PORTSDIR}/print/texlive-minted \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minutes/minutes.sty:${PORTSDIR}/print/texlive-minutes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/misc209/bibmods.sty:${PORTSDIR}/print/texlive-misc209 \
@@ -1632,6 +1633,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/recipecard/recipecard.cls:${PORTSDIR}/print/texlive-recipecard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rectopma/rectopma.sty:${PORTSDIR}/print/texlive-rectopma \
 		${LOCALBASE}/share/texmf-dist/tex/latex/refcheck/refcheck.sty:${PORTSDIR}/print/texlive-refcheck \
+		${LOCALBASE}/share/texmf-dist/tex/latex/reflectgraphics/reflectgraphics.sty:${PORTSDIR}/print/texlive-reflectgraphics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/refman/pagepc.sty:${PORTSDIR}/print/texlive-refman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/refstyle/refstyle.sty:${PORTSDIR}/print/texlive-refstyle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/regcount/regcount.sty:${PORTSDIR}/print/texlive-regcount \
@@ -2293,6 +2295,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/textopo/textopo.sty:${PORTSDIR}/print/texlive-textopo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ulqda/ulqda.sty:${PORTSDIR}/print/texlive-ulqda \
 		${LOCALBASE}/share/texmf-dist/tex/latex/unitsdef/unitsdef.sty:${PORTSDIR}/print/texlive-unitsdef \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xymtex/base/xymtex.sty:${PORTSDIR}/print/texlive-xymtex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/youngtab/youngtab.sty:${PORTSDIR}/print/texlive-youngtab \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/arabxetex/arabxetex.sty:${PORTSDIR}/print/texlive-arabxetex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/euenc/eu1enc.def:${PORTSDIR}/print/texlive-euenc \
