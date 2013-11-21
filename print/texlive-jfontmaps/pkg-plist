@@ -66,9 +66,6 @@ share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/noEmbed/ptex-noEmbed-04.map
 share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/noEmbed/ptex-noEmbed.map
 share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/noEmbed/uptex-noEmbed-04.map
 share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/noEmbed/uptex-noEmbed.map
-share/texmf-dist/scripts/jfontmaps/kanji-config-updmap-sys.sh
-share/texmf-dist/scripts/jfontmaps/kanji-config-updmap.pl
-share/texmf-dist/scripts/jfontmaps/kanji-fontmap-creator.pl
 %%PORTSRC%%share/texmf-dist/source/jfontmaps/jis04cmap_exp/JISX0213-2004-H
 %%PORTSRC%%share/texmf-dist/source/jfontmaps/jis04cmap_exp/JISX0213-2004-V
 %%PORTSRC%%share/texmf-dist/source/jfontmaps/jis04cmap_exp/README
@@ -87,8 +84,6 @@ share/texmf-dist/scripts/jfontmaps/kanji-fontmap-creator.pl
 @dirrmtry share/texmf-dist/source/jfontmaps/jis04cmap_exp
 @dirrmtry share/texmf-dist/source/jfontmaps
 @dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/scripts/jfontmaps
-@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/noEmbed
 @dirrmtry share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/ms
 @dirrmtry share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/morisawa-pr6n
