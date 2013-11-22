@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	japanese-otf-uptex
-PORTVERSION=	20131120
+PORTVERSION=	20131121
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
