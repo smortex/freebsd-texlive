@@ -11,6 +11,7 @@ share/texmf-dist/tex/latex/cnltx/cnltx-tools.sty
 share/texmf-dist/tex/latex/cnltx/cnltx.bbx
 share/texmf-dist/tex/latex/cnltx/cnltx.cbx
 share/texmf-dist/tex/latex/cnltx/cnltx.dbx
+share/texmf-dist/tex/latex/cnltx/cnltx.sty
 @dirrmtry share/texmf-dist/tex/latex/cnltx
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex

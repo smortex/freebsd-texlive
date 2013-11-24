@@ -4,6 +4,17 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/jfontmaps/examples/otf-sample-04.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/jfontmaps/examples/otf-sample.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/jfontmaps/examples/ptex-sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/jfontmaps/examples/series-compare.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/jfontmaps/yu-osx/otf-up-yu-osx.map
+%%PORTDOCS%%share/texmf-dist/doc/fonts/jfontmaps/yu-osx/otf-yu-osx.map
+%%PORTDOCS%%share/texmf-dist/doc/fonts/jfontmaps/yu-osx/ptex-yu-osx-04.map
+%%PORTDOCS%%share/texmf-dist/doc/fonts/jfontmaps/yu-osx/ptex-yu-osx.map
+%%PORTDOCS%%share/texmf-dist/doc/fonts/jfontmaps/yu-osx/uptex-yu-osx-04.map
+%%PORTDOCS%%share/texmf-dist/doc/fonts/jfontmaps/yu-osx/uptex-yu-osx.map
+%%PORTDOCS%%share/texmf-dist/doc/fonts/jfontmaps/yu-win/otf-up-yu-win.map
+%%PORTDOCS%%share/texmf-dist/doc/fonts/jfontmaps/yu-win/otf-yu-win.map
+%%PORTDOCS%%share/texmf-dist/doc/fonts/jfontmaps/yu-win/ptex-yu-win.map
+%%PORTDOCS%%share/texmf-dist/doc/fonts/jfontmaps/yu-win/uptex-yu-win.map
 share/texmf-dist/fonts/cmap/jfontmaps/2004-H
 share/texmf-dist/fonts/cmap/jfontmaps/2004-V
 share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/hiragino-pron/otf-hiragino-pron.map
@@ -101,6 +112,8 @@ share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/noEmbed/uptex-noEmbed.map
 @dirrmtry share/texmf-dist/fonts/cmap/jfontmaps
 @dirrmtry share/texmf-dist/fonts/cmap
 @dirrmtry share/texmf-dist/fonts
+@dirrmtry share/texmf-dist/doc/fonts/jfontmaps/yu-win
+@dirrmtry share/texmf-dist/doc/fonts/jfontmaps/yu-osx
 @dirrmtry share/texmf-dist/doc/fonts/jfontmaps/examples
 @dirrmtry share/texmf-dist/doc/fonts/jfontmaps
 @dirrmtry share/texmf-dist/doc/fonts
