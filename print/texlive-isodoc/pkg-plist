@@ -37,7 +37,6 @@ share/texmf-dist/tex/latex/isodoc/isodoc-nl-BE.ldf
 share/texmf-dist/tex/latex/isodoc/isodoc-nl-NL.ldf
 share/texmf-dist/tex/latex/isodoc/isodoc-sr-RS.ldf
 share/texmf-dist/tex/latex/isodoc/isodoc.cls
-share/texmf-dist/tex/latex/isodoc/isodocsymbols.sty
 @dirrmtry share/texmf-dist/tex/latex/isodoc
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex

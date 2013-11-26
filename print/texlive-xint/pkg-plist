@@ -9,6 +9,7 @@ share/texmf-dist/tex/generic/xint/xintexpr.sty
 share/texmf-dist/tex/generic/xint/xintfrac.sty
 share/texmf-dist/tex/generic/xint/xintgcd.sty
 share/texmf-dist/tex/generic/xint/xintseries.sty
+share/texmf-dist/tex/generic/xint/xinttools.sty
 @dirrmtry share/texmf-dist/tex/generic/xint
 @dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
