@@ -14,12 +14,14 @@ share/texmf-dist/tex/csplain/base/fonttabs.tex
 share/texmf-dist/tex/csplain/base/hyphen.ex
 share/texmf-dist/tex/csplain/base/hyphen.lan
 share/texmf-dist/tex/csplain/base/il2code.tex
+share/texmf-dist/tex/csplain/base/luaplain.ini
 share/texmf-dist/tex/csplain/base/plaina4.tex
 share/texmf-dist/tex/csplain/base/skhyphen.ex
 share/texmf-dist/tex/csplain/base/skhyphen.tex
 share/texmf-dist/tex/csplain/base/t1code.tex
 share/texmf-dist/tex/csplain/base/t1enc-u.tex
 share/texmf-dist/tex/csplain/base/ucode.tex
+share/texmf-dist/tex/csplain/base/xeplain.ini
 share/texmf-dist/tex/csplain/fonts/ams-math.tex
 share/texmf-dist/tex/csplain/fonts/cavantga.tex
 share/texmf-dist/tex/csplain/fonts/cbookman.tex
