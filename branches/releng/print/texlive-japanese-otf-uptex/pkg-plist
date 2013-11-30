@@ -1,8 +1,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/00otf-uptex.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/COPYRIGHT
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/README
-%%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/otf-script-gteb.diff
+%%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/fontmap.zip
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/test/uplatex/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/test/uplatex/otfscale.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/test/uplatex/sp_cns_utf.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/test/uplatex/sp_gb_utf.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/japanese-otf-uptex/test/uplatex/sp_jp_text.tex
@@ -1245,7 +1246,7 @@ share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utftmrz-v.vf
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf-uptex/basepl/ubase-v.pl
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf-uptex/basepl/ubrsg-h.pl
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf-uptex/basepl/ubrsg-v.pl
-%%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf-uptex/patch/otfbeta_uptex-0.12.patch
+%%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf-uptex/patch/otfbeta_uptex-0.13.patch
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf-uptex/script/MakeSPList.pm
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf-uptex/script/mktfm_sp.pl
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf-uptex/script/mkutf32list.pl
