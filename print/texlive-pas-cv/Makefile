@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	guitar
+PORTNAME=	pas-cv
 PORTVERSION=	20131128
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Guitar chords and song texts.
+COMMENT=	Flexible typesetting of Curricula Vitae.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

@@ -1,0 +1,6 @@
+The package provides the framework for typesetting a Curriculum
+Vitae (composed in French), together with a number of "themes"
+that may be used with the package. (The use of the themes may
+be seen in the package's examples/ collection.) The author
+hints that conversion for use with other languages (than
+French) should be possible.

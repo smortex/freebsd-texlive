@@ -1,0 +1,58 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-andromede.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-andromede.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-architecte.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-architecte.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-centaure.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-centaure.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-dynamique.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-dynamique.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-gaia.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-gaia.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-jupiter.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-jupiter.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-mars.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-mars.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-neptune.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-neptune.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-orion.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-orion.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-pegase.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-pegase.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-pluton.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-pluton.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-saturne.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-saturne.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-univers.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-univers.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-uranus.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-uranus.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-venus.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/examples/cv-venus.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/pas-cv.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/pas-cv.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cv/photo.png
+share/texmf-dist/tex/latex/pas-cv/macro-andromede.tex
+share/texmf-dist/tex/latex/pas-cv/macro-architecte.tex
+share/texmf-dist/tex/latex/pas-cv/macro-centaure.tex
+share/texmf-dist/tex/latex/pas-cv/macro-dynamique.tex
+share/texmf-dist/tex/latex/pas-cv/macro-gaia.tex
+share/texmf-dist/tex/latex/pas-cv/macro-jupiter.tex
+share/texmf-dist/tex/latex/pas-cv/macro-mars.tex
+share/texmf-dist/tex/latex/pas-cv/macro-neptune.tex
+share/texmf-dist/tex/latex/pas-cv/macro-orion.tex
+share/texmf-dist/tex/latex/pas-cv/macro-pegase.tex
+share/texmf-dist/tex/latex/pas-cv/macro-pluton.tex
+share/texmf-dist/tex/latex/pas-cv/macro-saturne.tex
+share/texmf-dist/tex/latex/pas-cv/macro-univers.tex
+share/texmf-dist/tex/latex/pas-cv/macro-uranus.tex
+share/texmf-dist/tex/latex/pas-cv/macro-venus.tex
+share/texmf-dist/tex/latex/pas-cv/pas-cv.sty
+@dirrmtry share/texmf-dist/tex/latex/pas-cv
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/pas-cv/examples
+@dirrmtry share/texmf-dist/doc/latex/pas-cv
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

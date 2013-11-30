@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	toolbox
-PORTVERSION=	20100610
-PORTREVISION=	1
+PORTVERSION=	20131128
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros for writing indices, glossaries.
+COMMENT=	Tool macros.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
