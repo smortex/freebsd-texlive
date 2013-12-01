@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	greek-fontenc
+PORTNAME=	besjournals
 PORTVERSION=	20131130
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LICR macros and encoding definition files for Greek.
+COMMENT=	The besjournals package
 
 NOPORTSRC=	yes
 

@@ -1,0 +1,11 @@
+share/texmf-dist/bibtex/bst/besjournals/besjournals.bst
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/besjournals/README
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/besjournals/besjournals.dbj
+@dirrmtry share/texmf-dist/doc/bibtex/besjournals
+@dirrmtry share/texmf-dist/doc/bibtex
+@dirrmtry share/texmf-dist/doc
+@dirrmtry share/texmf-dist/bibtex/bst/besjournals
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
