@@ -1,11 +1,14 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/README.html
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/alphabeta-euenc.def.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/alphabeta-euenc.def.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/alphabeta-test.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/alphabeta-test.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/alphabeta.sty.html
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/diacritics.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/diacritics.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/euenc-test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/euenc-test.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/greek-euenc.def.html
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/greek-fontenc.def.html
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/greekhyperref.pdf
@@ -15,8 +18,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/lgrenc-test.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/lgrenc-test.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/lgrenc.def.html
-%%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/test-euenc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/test-euenc.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/textalpha-test.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/textalpha-test.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/textalpha.sty.html
