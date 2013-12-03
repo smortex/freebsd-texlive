@@ -5,7 +5,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-gost/biblatex-gost.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-gost/biblatex-gost.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-gost/ltxdockit.cfg
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-gost/russian.idf
 share/texmf-dist/tex/latex/biblatex-gost/biblatex-gost.dbx
 share/texmf-dist/tex/latex/biblatex-gost/biblatex-gost.def
 share/texmf-dist/tex/latex/biblatex-gost/gost-alphabetic-min.bbx

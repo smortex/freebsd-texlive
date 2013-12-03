@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/sslides/land-sample-slide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sslides/land-sample-slide.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sslides/port-sample-slide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sslides/port-sample-slide.tex
+share/texmf-dist/tex/latex/sslides/sslides.cls
+@dirrmtry share/texmf-dist/tex/latex/sslides
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/sslides
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
