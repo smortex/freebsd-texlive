@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	biblatex-gost
-PORTVERSION=	20131201
+PORTNAME=	sslides
+PORTVERSION=	20131202
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Biblatex support for GOST standard bibliographies.
+COMMENT=	Slides with headers and footers.
 
 NOPORTSRC=	yes
 

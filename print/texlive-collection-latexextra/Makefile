@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20131128
+PORTVERSION=	20131202
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -972,6 +972,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/srbook-mem/srbook-mem.sty:${PORTSDIR}/print/texlive-srbook-mem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/srcltx/srcltx.sty:${PORTSDIR}/print/texlive-srcltx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sseq/sseq.sty:${PORTSDIR}/print/texlive-sseq \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sslides/sslides.cls:${PORTSDIR}/print/texlive-sslides \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stack/stack.sty:${PORTSDIR}/print/texlive-stack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stackengine/stackengine.sty:${PORTSDIR}/print/texlive-stackengine \
 		${LOCALBASE}/share/texmf-dist/tex/latex/standalone/standalone.cls:${PORTSDIR}/print/texlive-standalone \
