@@ -72,6 +72,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/apacite/apacite.sty:${PORTSDIR}/print/texlive-apacite \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/apalike2/apalike2.bst:${PORTSDIR}/print/texlive-apalike2 \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/beebe/gut.bib:${PORTSDIR}/print/texlive-beebe \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/besjournals/besjournals.bst:${PORTSDIR}/print/texlive-besjournals \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibarts/bibarts.sty:${PORTSDIR}/print/texlive-bibarts \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/bibexport/expcites.bst:${PORTSDIR}/print/texlive-bibexport \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/bibhtml/abbrvhtml.bst:${PORTSDIR}/print/texlive-bibhtml \
@@ -418,7 +419,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/urwchancal/urwchancal.sty:${PORTSDIR}/print/texlive-urwchancal \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/venturis/yvtb8a.afm:${PORTSDIR}/print/texlive-venturisadf \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/wsuipa/iaccent.mf:${PORTSDIR}/print/texlive-wsuipa \
-		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/xcharter/XCh_2bziiw.enc:${PORTSDIR}/print/texlive-xcharter \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/xcharter/xch_2bziiw.enc:${PORTSDIR}/print/texlive-xcharter \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/xits/xits-bold.otf:${PORTSDIR}/print/texlive-xits \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yfonts/yfonts.sty:${PORTSDIR}/print/texlive-yfonts \
 		${LOCALBASE}/share/texmf-dist/dvips/avantgar/config.uag:${PORTSDIR}/print/texlive-avantgar \
@@ -1717,6 +1718,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/srbook-mem/srbook-mem.sty:${PORTSDIR}/print/texlive-srbook-mem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/srcltx/srcltx.sty:${PORTSDIR}/print/texlive-srcltx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sseq/sseq.sty:${PORTSDIR}/print/texlive-sseq \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sslides/sslides.cls:${PORTSDIR}/print/texlive-sslides \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stack/stack.sty:${PORTSDIR}/print/texlive-stack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stackengine/stackengine.sty:${PORTSDIR}/print/texlive-stackengine \
 		${LOCALBASE}/share/texmf-dist/tex/latex/standalone/standalone.cls:${PORTSDIR}/print/texlive-standalone \
