@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-crosswords/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-crosswords/pas-crosswords.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-crosswords/pas-crosswords.tex
+share/texmf-dist/tex/latex/pas-crosswords/pas-crosswords.sty
+@dirrmtry share/texmf-dist/tex/latex/pas-crosswords
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/pas-crosswords
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

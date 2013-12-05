@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-games
-PORTVERSION=	20130518
+PORTVERSION=	20131204
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -83,6 +83,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/logicpuzzle/logicpuzzle.sty:${PORTSDIR}/print/texlive-logicpuzzle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/othello/othello.sty:${PORTSDIR}/print/texlive-othello \
 		${LOCALBASE}/share/texmf-dist/tex/latex/othelloboard/othelloboard.sty:${PORTSDIR}/print/texlive-othelloboard \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pas-crosswords/pas-crosswords.sty:${PORTSDIR}/print/texlive-pas-crosswords \
 		${LOCALBASE}/share/texmf-dist/tex/latex/psgo/psgo.sty:${PORTSDIR}/print/texlive-psgo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/schwalbe-chess/schwalbe.cls:${PORTSDIR}/print/texlive-schwalbe-chess \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sgame/sgame.sty:${PORTSDIR}/print/texlive-sgame \
