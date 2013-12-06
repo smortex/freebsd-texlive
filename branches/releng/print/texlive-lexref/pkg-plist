@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/lexref/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/lexref/lexref.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lexref/lexref.tex
+share/texmf-dist/tex/latex/lexref/lexref.sty
+@dirrmtry share/texmf-dist/tex/latex/lexref
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/lexref
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

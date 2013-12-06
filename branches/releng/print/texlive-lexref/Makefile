@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	media9
+PORTNAME=	lexref
 PORTVERSION=	20131205
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multimedia inclusion package with Adobe Reader-9/X compatibility.
+COMMENT=	Convenient and uniform references to legal provisions.
 
 NOPORTSRC=	yes
 

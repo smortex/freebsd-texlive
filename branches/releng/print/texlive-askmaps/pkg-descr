@@ -1,0 +1,5 @@
+The package provides 2, 3, 4 and 5 variable Karnaugh maps, in
+the style used in numerous textbooks on digital design. The
+package draws K-maps where the most significant input variables
+are placed on top of the columns and the least significant
+variables are placed left of the rows.
