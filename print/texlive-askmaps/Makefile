@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	media9
+PORTNAME=	askmaps
 PORTVERSION=	20131205
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multimedia inclusion package with Adobe Reader-9/X compatibility.
+COMMENT=	Typeset American style Karnaugh maps.
 
 NOPORTSRC=	yes
 

@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/askmaps/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/askmaps/askmaps.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/askmaps/askmaps.tex
+share/texmf-dist/tex/latex/askmaps/askmaps.sty
+@dirrmtry share/texmf-dist/tex/latex/askmaps
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/askmaps
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

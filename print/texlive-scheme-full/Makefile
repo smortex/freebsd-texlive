@@ -486,6 +486,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/logicpuzzle/logicpuzzle.sty:${PORTSDIR}/print/texlive-logicpuzzle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/othello/othello.sty:${PORTSDIR}/print/texlive-othello \
 		${LOCALBASE}/share/texmf-dist/tex/latex/othelloboard/othelloboard.sty:${PORTSDIR}/print/texlive-othelloboard \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pas-crosswords/pas-crosswords.sty:${PORTSDIR}/print/texlive-pas-crosswords \
 		${LOCALBASE}/share/texmf-dist/tex/latex/psgo/psgo.sty:${PORTSDIR}/print/texlive-psgo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/schwalbe-chess/schwalbe.cls:${PORTSDIR}/print/texlive-schwalbe-chess \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sgame/sgame.sty:${PORTSDIR}/print/texlive-sgame \
@@ -572,6 +573,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/ledmac/ledmac.sty:${PORTSDIR}/print/texlive-ledmac \
 		${LOCALBASE}/share/texmf-dist/tex/latex/leipzig/leipzig.sty:${PORTSDIR}/print/texlive-leipzig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lexikon/lexikon.sty:${PORTSDIR}/print/texlive-lexikon \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lexref/lexref.sty:${PORTSDIR}/print/texlive-lexref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lineno/lineno.sty:${PORTSDIR}/print/texlive-lineno \
 		${LOCALBASE}/share/texmf-dist/tex/latex/linguex/linguex.sty:${PORTSDIR}/print/texlive-linguex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/liturg/liturg.sty:${PORTSDIR}/print/texlive-liturg \
@@ -863,6 +865,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/url/url.sty:${PORTSDIR}/print/texlive-url \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xcolor/xcolor.sty:${PORTSDIR}/print/texlive-xcolor \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex:${PORTSDIR}/print/texlive-xkeyval \
+		${LOCALBASE}/share/texmf-dist/tex/latex/askmaps/askmaps.sty:${PORTSDIR}/print/texlive-askmaps \
 		${LOCALBASE}/share/texmf-dist/tex/latex/asyfig/asyfig.sty:${PORTSDIR}/print/texlive-asyfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/autoarea/autoarea.sty:${PORTSDIR}/print/texlive-autoarea \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bardiag/bardiag.sty:${PORTSDIR}/print/texlive-bardiag \
