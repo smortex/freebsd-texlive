@@ -2,6 +2,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/xint/xint.pdf
 %%PORTSRC%%share/texmf-dist/source/generic/xint/xint.dtx
 %%PORTSRC%%share/texmf-dist/source/generic/xint/xint.ins
+%%PORTSRC%%share/texmf-dist/source/generic/xint/xint.tex
 share/texmf-dist/tex/generic/xint/xint.sty
 share/texmf-dist/tex/generic/xint/xintbinhex.sty
 share/texmf-dist/tex/generic/xint/xintcfrac.sty
