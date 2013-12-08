@@ -1,0 +1,4 @@
+The package provides a Perl script that extracts all TikZ and
+PStricks environments for separate processing to produce images
+(in eps, pdf, png or jpg format) for use by a converter or the
+preview bundle.
