@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/ltximg/README
+%%PORTDOCS%%share/texmf-dist/doc/support/ltximg/ltximg-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/ltximg/ltximg-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/ltximg/test.tex
+share/texmf-dist/scripts/ltximg/ltximg.pl
+@dirrmtry share/texmf-dist/scripts/ltximg
+@dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/doc/support/ltximg
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
