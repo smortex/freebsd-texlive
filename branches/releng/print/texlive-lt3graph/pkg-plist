@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/lt3graph/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/lt3graph/lt3graph.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lt3graph/lt3graph.tex
+share/texmf-dist/tex/latex/lt3graph/lt3graph-dry.sty
+share/texmf-dist/tex/latex/lt3graph/lt3graph-packagedoc.cls
+share/texmf-dist/tex/latex/lt3graph/lt3graph.sty
+@dirrmtry share/texmf-dist/tex/latex/lt3graph
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/lt3graph
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

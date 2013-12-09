@@ -1,0 +1,2 @@
+The package defines a 'graph' data structure, for use in
+documents that are using the experimental LaTeX 3 syntax.

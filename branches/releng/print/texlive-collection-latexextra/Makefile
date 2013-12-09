@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20131202
+PORTVERSION=	20131208
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -117,6 +117,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/url/url.sty:${PORTSDIR}/print/texlive-url \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xcolor/xcolor.sty:${PORTSDIR}/print/texlive-xcolor \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex:${PORTSDIR}/print/texlive-xkeyval \
+		${LOCALBASE}/share/texmf-dist/tex/latex/askmaps/askmaps.sty:${PORTSDIR}/print/texlive-askmaps \
 		${LOCALBASE}/share/texmf-dist/tex/latex/asyfig/asyfig.sty:${PORTSDIR}/print/texlive-asyfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/autoarea/autoarea.sty:${PORTSDIR}/print/texlive-autoarea \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bardiag/bardiag.sty:${PORTSDIR}/print/texlive-bardiag \
@@ -675,6 +676,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/loops/loops.sty:${PORTSDIR}/print/texlive-loops \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lsc/lsc.sty:${PORTSDIR}/print/texlive-lsc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lstaddons/lstautogobble.sty:${PORTSDIR}/print/texlive-lstaddons \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lt3graph/lt3graph.sty:${PORTSDIR}/print/texlive-lt3graph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltablex/ltablex.sty:${PORTSDIR}/print/texlive-ltablex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltabptch/ltabptch.sty:${PORTSDIR}/print/texlive-ltabptch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltxdockit/ltxdockit.cls:${PORTSDIR}/print/texlive-ltxdockit \
