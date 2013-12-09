@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	lxfonts
+PORTNAME=	lt3graph
 PORTVERSION=	20131208
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Set of slide fonts based on CM.
+COMMENT=	Provide a graph datastructure for experimental LaTeX3.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
