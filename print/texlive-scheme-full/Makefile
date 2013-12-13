@@ -97,6 +97,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-phys/phys.bbx:${PORTSDIR}/print/texlive-biblatex-phys \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-publist/publist.bbx:${PORTSDIR}/print/texlive-biblatex-publist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-science/science.bbx:${PORTSDIR}/print/texlive-biblatex-science \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-source-division/biblatex-source-division.sty:${PORTSDIR}/print/texlive-biblatex-source-division \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-swiss-legal/biblatex-swiss-legal-base.bbx:${PORTSDIR}/print/texlive-biblatex-swiss-legal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-trad/bbx/trad-abbrv.bbx:${PORTSDIR}/print/texlive-biblatex-trad \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblist/biblist.sty:${PORTSDIR}/print/texlive-biblist \
@@ -179,6 +180,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/latexpand/latexpand:${PORTSDIR}/print/texlive-latexpand \
 		${LOCALBASE}/share/texmf-dist/scripts/latexindent/defaultSettings.yaml:${PORTSDIR}/print/texlive-latexindent \
 		${LOCALBASE}/share/texmf-dist/scripts/ltxfileinfo/ltxfileinfo:${PORTSDIR}/print/texlive-ltxfileinfo \
+		${LOCALBASE}/share/texmf-dist/scripts/ltximg/ltximg.pl:${PORTSDIR}/print/texlive-ltximg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listings-ext/listings-ext.sty:${PORTSDIR}/print/texlive-listings-ext \
 		${LOCALBASE}/share/texmf-dist/scripts/match_parens/match_parens:${PORTSDIR}/print/texlive-match_parens \
 		${LOCALBASE}/share/texmf-dist/scripts/mkjobtexmf/mkjobtexmf.pl:${PORTSDIR}/print/texlive-mkjobtexmf \
@@ -236,6 +238,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/aecc/aecc.sty:${PORTSDIR}/print/texlive-aecc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/alegreya/alegreya.sty:${PORTSDIR}/print/texlive-alegreya \
 		${LOCALBASE}/share/texmf-dist/tex/latex/allrunes/allrunes.sty:${PORTSDIR}/print/texlive-allrunes \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/anonymouspro/AnonymousPro-Bold.afm:${PORTSDIR}/print/texlive-anonymouspro \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/urw/antiqua/uaqr8ac.afm:${PORTSDIR}/print/texlive-antiqua \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/antt/anttb.afm:${PORTSDIR}/print/texlive-antt \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/archaic/aram10.afm:${PORTSDIR}/print/texlive-archaic \
@@ -1160,6 +1163,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/decorule/decorule.sty:${PORTSDIR}/print/texlive-decorule \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delim/delim.sty:${PORTSDIR}/print/texlive-delim \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delimtxt/delimtxt.sty:${PORTSDIR}/print/texlive-delimtxt \
+		${LOCALBASE}/share/texmf-dist/tex/latex/detlev-cm/beamercolorthemeETII.sty:${PORTSDIR}/print/texlive-detlev-cm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/diagbox/diagbox.sty:${PORTSDIR}/print/texlive-diagbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/diagnose/diagnose.sty:${PORTSDIR}/print/texlive-diagnose \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dialogl/dialog.sty:${PORTSDIR}/print/texlive-dialogl \
@@ -1424,6 +1428,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/loops/loops.sty:${PORTSDIR}/print/texlive-loops \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lsc/lsc.sty:${PORTSDIR}/print/texlive-lsc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lstaddons/lstautogobble.sty:${PORTSDIR}/print/texlive-lstaddons \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lt3graph/lt3graph.sty:${PORTSDIR}/print/texlive-lt3graph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltablex/ltablex.sty:${PORTSDIR}/print/texlive-ltablex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltabptch/ltabptch.sty:${PORTSDIR}/print/texlive-ltabptch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltxdockit/ltxdockit.cls:${PORTSDIR}/print/texlive-ltxdockit \
@@ -1571,6 +1576,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/parnotes/parnotes.sty:${PORTSDIR}/print/texlive-parnotes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/parselines/parselines.sty:${PORTSDIR}/print/texlive-parselines \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pas-cv/pas-cv.sty:${PORTSDIR}/print/texlive-pas-cv \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pas-tableur/pas-tableur.sty:${PORTSDIR}/print/texlive-pas-tableur \
 		${LOCALBASE}/share/texmf-dist/tex/latex/patchcmd/patchcmd.sty:${PORTSDIR}/print/texlive-patchcmd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pauldoc/pauldoc.sty:${PORTSDIR}/print/texlive-pauldoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pawpict/pawpict.sty:${PORTSDIR}/print/texlive-pawpict \

@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-tableur/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-tableur/README.TEXLIVE
+share/texmf-dist/tex/latex/pas-tableur/pas-tableur.sty
+@dirrmtry share/texmf-dist/tex/latex/pas-tableur
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/pas-tableur
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

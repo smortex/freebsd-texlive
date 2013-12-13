@@ -1,0 +1,3 @@
+The package provides commands for creating a grid of
+rectangles, and commands for populating locations in the grid.
+PGF/TikZ is used for placement and population of the cells.
