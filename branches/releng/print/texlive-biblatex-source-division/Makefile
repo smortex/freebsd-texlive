@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	chet
-PORTVERSION=	20131212
-PORTEPOCH=	1
+PORTNAME=	biblatex-source-division
+PORTVERSION=	20131211
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX layout inspired by harvmac.
+COMMENT=	References by "division" in classical sources.
 
 NOPORTSRC=	yes
 

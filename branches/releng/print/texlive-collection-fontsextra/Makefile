@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20131112
+PORTVERSION=	20131211
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -47,6 +47,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/aecc/aecc.sty:${PORTSDIR}/print/texlive-aecc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/alegreya/alegreya.sty:${PORTSDIR}/print/texlive-alegreya \
 		${LOCALBASE}/share/texmf-dist/tex/latex/allrunes/allrunes.sty:${PORTSDIR}/print/texlive-allrunes \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/anonymouspro/AnonymousPro-Bold.afm:${PORTSDIR}/print/texlive-anonymouspro \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/urw/antiqua/uaqr8ac.afm:${PORTSDIR}/print/texlive-antiqua \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/antt/anttb.afm:${PORTSDIR}/print/texlive-antt \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/archaic/aram10.afm:${PORTSDIR}/print/texlive-archaic \
@@ -230,7 +231,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/urwchancal/urwchancal.sty:${PORTSDIR}/print/texlive-urwchancal \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/venturis/yvtb8a.afm:${PORTSDIR}/print/texlive-venturisadf \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/wsuipa/iaccent.mf:${PORTSDIR}/print/texlive-wsuipa \
-		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/xcharter/XCh_2bziiw.enc:${PORTSDIR}/print/texlive-xcharter \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/xcharter/xch_2bziiw.enc:${PORTSDIR}/print/texlive-xcharter \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/xits/xits-bold.otf:${PORTSDIR}/print/texlive-xits \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yfonts/yfonts.sty:${PORTSDIR}/print/texlive-yfonts
 

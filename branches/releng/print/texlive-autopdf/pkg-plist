@@ -1,4 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/autopdf/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/autopdf/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/autopdf/autopdf.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/autopdf/autopdf.dtx
 share/texmf-dist/tex/latex/autopdf/autopdf.sty

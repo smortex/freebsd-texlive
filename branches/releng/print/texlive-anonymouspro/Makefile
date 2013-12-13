@@ -1,14 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	chet
-PORTVERSION=	20131212
-PORTEPOCH=	1
+PORTNAME=	anonymouspro
+PORTVERSION=	20131211
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX layout inspired by harvmac.
+COMMENT=	Use AnonymousPro fonts with LaTeX.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

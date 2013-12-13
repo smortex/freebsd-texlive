@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20131208
+PORTVERSION=	20131212
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -412,6 +412,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/decorule/decorule.sty:${PORTSDIR}/print/texlive-decorule \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delim/delim.sty:${PORTSDIR}/print/texlive-delim \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delimtxt/delimtxt.sty:${PORTSDIR}/print/texlive-delimtxt \
+		${LOCALBASE}/share/texmf-dist/tex/latex/detlev-cm/beamercolorthemeETII.sty:${PORTSDIR}/print/texlive-detlev-cm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/diagbox/diagbox.sty:${PORTSDIR}/print/texlive-diagbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/diagnose/diagnose.sty:${PORTSDIR}/print/texlive-diagnose \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dialogl/dialog.sty:${PORTSDIR}/print/texlive-dialogl \
@@ -824,6 +825,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/parnotes/parnotes.sty:${PORTSDIR}/print/texlive-parnotes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/parselines/parselines.sty:${PORTSDIR}/print/texlive-parselines \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pas-cv/pas-cv.sty:${PORTSDIR}/print/texlive-pas-cv \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pas-tableur/pas-tableur.sty:${PORTSDIR}/print/texlive-pas-tableur \
 		${LOCALBASE}/share/texmf-dist/tex/latex/patchcmd/patchcmd.sty:${PORTSDIR}/print/texlive-patchcmd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pauldoc/pauldoc.sty:${PORTSDIR}/print/texlive-pauldoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pawpict/pawpict.sty:${PORTSDIR}/print/texlive-pawpict \

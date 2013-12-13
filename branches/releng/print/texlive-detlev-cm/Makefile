@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	chet
+PORTNAME=	detlev-cm
 PORTVERSION=	20131212
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX layout inspired by harvmac.
+COMMENT=	The detlev-cm package
 
 NOPORTSRC=	yes
 
