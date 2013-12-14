@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20131212
+PORTVERSION=	20131213
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -916,6 +916,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/roundbox/roundbox.sty:${PORTSDIR}/print/texlive-roundbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rterface/rterface.sty:${PORTSDIR}/print/texlive-rterface \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rtkinenc/rtkinenc.sty:${PORTSDIR}/print/texlive-rtkinenc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/rulercompass/tikzlibraryrulercompass.code.tex:${PORTSDIR}/print/texlive-rulercompass \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rvwrite/rvwrite.sty:${PORTSDIR}/print/texlive-rvwrite \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sauerj/collect.sty:${PORTSDIR}/print/texlive-sauerj \
 		${LOCALBASE}/share/texmf-dist/tex/latex/savefnmark/savefnmark.sty:${PORTSDIR}/print/texlive-savefnmark \

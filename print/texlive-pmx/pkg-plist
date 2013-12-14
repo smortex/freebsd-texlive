@@ -12,8 +12,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmx25-27.html
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmx270.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmx270.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmx2pdf.html
+%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/pmxab.html
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/ref270.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pmx/ref270.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pmx/scor2prt.html
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/pmx2pdf.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/pmx2pdf.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/pmxab.1
