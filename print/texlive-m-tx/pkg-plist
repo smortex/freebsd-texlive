@@ -4,7 +4,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx-install.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/Makefile
-%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/README.M-Txdoc
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/borup.mtx
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/chord.mtx
 %%PORTDOCS%%share/texmf-dist/doc/generic/m-tx/mtx060/dertod.mtx

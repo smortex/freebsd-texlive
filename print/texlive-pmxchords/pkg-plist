@@ -1,0 +1,43 @@
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/pmxchords.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/pmxchords.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/pmxchords/README
+%%PORTDOCS%%share/texmf-dist/doc/pmxchords/chordsRef.pdf
+%%PORTDOCS%%share/texmf-dist/doc/pmxchords/chordsRef.tex
+%%PORTDOCS%%share/texmf-dist/doc/pmxchords/chordsRefCZ.pdf
+%%PORTDOCS%%share/texmf-dist/doc/pmxchords/chordsRefCZ.tex
+%%PORTDOCS%%share/texmf-dist/doc/pmxchords/examples/jazz/misty/misty.pdf
+%%PORTDOCS%%share/texmf-dist/doc/pmxchords/examples/jazz/misty/misty.pmx
+%%PORTDOCS%%share/texmf-dist/doc/pmxchords/examples/jazz/schema/schema.pdf
+%%PORTDOCS%%share/texmf-dist/doc/pmxchords/examples/jazz/schema/schema.pmx
+%%PORTDOCS%%share/texmf-dist/doc/pmxchords/examples/jazz/schema/schema_full.pdf
+%%PORTDOCS%%share/texmf-dist/doc/pmxchords/examples/jazz/schema/schema_full.pmx
+%%PORTDOCS%%share/texmf-dist/doc/pmxchords/examples/noel/aj_co_to_hlasaju/aj_co_to_hlasaju.pdf
+%%PORTDOCS%%share/texmf-dist/doc/pmxchords/examples/noel/aj_co_to_hlasaju/aj_co_to_hlasaju.pmx
+%%PORTDOCS%%share/texmf-dist/doc/pmxchords/examples/noel/pasli_ovce_valasi/README
+%%PORTDOCS%%share/texmf-dist/doc/pmxchords/examples/noel/pasli_ovce_valasi/pasli_ovce_valasi.pdf
+%%PORTDOCS%%share/texmf-dist/doc/pmxchords/examples/noel/pasli_ovce_valasi/pasli_ovce_valasi.pmx
+%%PORTDOCS%%share/texmf-dist/doc/pmxchords/gpl-2.0.txt
+%%PORTDOCS%%share/texmf-dist/doc/pmxchords/pmxchords-install.pdf
+%%PORTDOCS%%share/texmf-dist/doc/pmxchords/pmxchords-install.tex
+share/texmf-dist/scripts/pmxchords/ChordsTr.lua
+share/texmf-dist/scripts/pmxchords/pmxchords.lua
+share/texmf-dist/tex/generic/pmxchords/chords.tex
+share/texmf-dist/tex/generic/pmxchords/chordsCZ.tex
+@dirrmtry share/texmf-dist/tex/generic/pmxchords
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/scripts/pmxchords
+@dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/doc/pmxchords/examples/noel/pasli_ovce_valasi
+@dirrmtry share/texmf-dist/doc/pmxchords/examples/noel/aj_co_to_hlasaju
+@dirrmtry share/texmf-dist/doc/pmxchords/examples/noel
+@dirrmtry share/texmf-dist/doc/pmxchords/examples/jazz/schema
+@dirrmtry share/texmf-dist/doc/pmxchords/examples/jazz/misty
+@dirrmtry share/texmf-dist/doc/pmxchords/examples/jazz
+@dirrmtry share/texmf-dist/doc/pmxchords/examples
+@dirrmtry share/texmf-dist/doc/pmxchords
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,0 +1,5 @@
+The bundle supplements pmx, providing the means of typesetting
+chords above the notes of a score. The bundle contains: macros
+for typing the chords; a Lua script to transpose chord macros
+to the required key signature; and support scripts for common
+requirements.
