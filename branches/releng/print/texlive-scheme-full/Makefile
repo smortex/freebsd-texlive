@@ -737,7 +737,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabvar/tabvar.sty:${PORTSDIR}/print/texlive-tabvar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tdsfrmath/tdsfrmath.sty:${PORTSDIR}/print/texlive-tdsfrmath \
 		${LOCALBASE}/share/texmf-dist/tex/generic/variations/variations.sty:${PORTSDIR}/print/texlive-variations \
-		${LOCALBASE}/share/texmf-dist/tex/generic/babel-german/germanb.ldf:${PORTSDIR}/print/texlive-babel-german \
+		${LOCALBASE}/share/texmf-dist/tex/generic/babel-german/austrian.ldf:${PORTSDIR}/print/texlive-babel-german \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-german/bibleref-german.sty:${PORTSDIR}/print/texlive-bibleref-german \
 		${LOCALBASE}/share/texmf-dist/tex/generic/dehyph-exptl/dehyphn-x-2013-05-26.pat:${PORTSDIR}/print/texlive-dehyph-exptl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dhua/dhua.sty:${PORTSDIR}/print/texlive-dhua \
@@ -1667,6 +1667,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/roundbox/roundbox.sty:${PORTSDIR}/print/texlive-roundbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rterface/rterface.sty:${PORTSDIR}/print/texlive-rterface \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rtkinenc/rtkinenc.sty:${PORTSDIR}/print/texlive-rtkinenc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/rulercompass/tikzlibraryrulercompass.code.tex:${PORTSDIR}/print/texlive-rulercompass \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rvwrite/rvwrite.sty:${PORTSDIR}/print/texlive-rvwrite \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sauerj/collect.sty:${PORTSDIR}/print/texlive-sauerj \
 		${LOCALBASE}/share/texmf-dist/tex/latex/savefnmark/savefnmark.sty:${PORTSDIR}/print/texlive-savefnmark \
@@ -2018,6 +2019,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/musixtex/musixtex.tex:${PORTSDIR}/print/texlive-musixtex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/musixtex-fonts/musix.map:${PORTSDIR}/print/texlive-musixtex-fonts \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pmx/pmx.tex:${PORTSDIR}/print/texlive-pmx \
+		${LOCALBASE}/share/texmf-dist/scripts/pmxchords/ChordsTr.lua:${PORTSDIR}/print/texlive-pmxchords \
 		${LOCALBASE}/share/texmf-dist/tex/latex/songbook/songbook.sty:${PORTSDIR}/print/texlive-songbook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/songs/songs.sty:${PORTSDIR}/print/texlive-songs \
 		${LOCALBASE}/share/texmf-dist/tex/lambda/base/lambda.tex:${PORTSDIR}/print/texlive-lambda \

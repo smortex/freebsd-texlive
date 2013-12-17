@@ -67,7 +67,9 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/latexfileversion/latexfileversion:${PORTSDIR}/print/texlive-latexfileversion \
 		${LOCALBASE}/share/texmf-dist/scripts/latexmk/latexmk.pl:${PORTSDIR}/print/texlive-latexmk \
 		${LOCALBASE}/share/texmf-dist/scripts/latexpand/latexpand:${PORTSDIR}/print/texlive-latexpand \
+		${LOCALBASE}/share/texmf-dist/scripts/latexindent/defaultSettings.yaml:${PORTSDIR}/print/texlive-latexindent \
 		${LOCALBASE}/share/texmf-dist/scripts/ltxfileinfo/ltxfileinfo:${PORTSDIR}/print/texlive-ltxfileinfo \
+		${LOCALBASE}/share/texmf-dist/scripts/ltximg/ltximg.pl:${PORTSDIR}/print/texlive-ltximg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listings-ext/listings-ext.sty:${PORTSDIR}/print/texlive-listings-ext \
 		${LOCALBASE}/share/texmf-dist/scripts/match_parens/match_parens:${PORTSDIR}/print/texlive-match_parens \
 		${LOCALBASE}/share/texmf-dist/scripts/mkjobtexmf/mkjobtexmf.pl:${PORTSDIR}/print/texlive-mkjobtexmf \
@@ -245,7 +247,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabvar/tabvar.sty:${PORTSDIR}/print/texlive-tabvar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tdsfrmath/tdsfrmath.sty:${PORTSDIR}/print/texlive-tdsfrmath \
 		${LOCALBASE}/share/texmf-dist/tex/generic/variations/variations.sty:${PORTSDIR}/print/texlive-variations \
-		${LOCALBASE}/share/texmf-dist/tex/generic/babel-german/germanb.ldf:${PORTSDIR}/print/texlive-babel-german \
+		${LOCALBASE}/share/texmf-dist/tex/generic/babel-german/austrian.ldf:${PORTSDIR}/print/texlive-babel-german \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-german/bibleref-german.sty:${PORTSDIR}/print/texlive-bibleref-german \
 		${LOCALBASE}/share/texmf-dist/tex/generic/dehyph-exptl/dehyphn-x-2013-05-26.pat:${PORTSDIR}/print/texlive-dehyph-exptl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dhua/dhua.sty:${PORTSDIR}/print/texlive-dhua \

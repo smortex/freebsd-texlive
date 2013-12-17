@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-german
-PORTVERSION=	20130506
+PORTVERSION=	20131216
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The babel-german package
+COMMENT=	Babel support for documents written in German.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
