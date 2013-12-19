@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/refenums/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/refenums/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/refenums/demo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/refenums/demo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/refenums/test/demo-sec-param.tex
+share/texmf-dist/tex/latex/refenums/refenums.sty
+@dirrmtry share/texmf-dist/tex/latex/refenums
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/refenums/test
+@dirrmtry share/texmf-dist/doc/latex/refenums
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
