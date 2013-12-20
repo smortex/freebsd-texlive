@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cours/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cours/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cours/attention.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cours/coeur.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cours/macro-patrons.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cours/macro-solides.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cours/macro-styles.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cours/prerequis.png
+share/texmf-dist/tex/latex/pas-cours/pas-cours.sty
+@dirrmtry share/texmf-dist/tex/latex/pas-cours
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/pas-cours
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

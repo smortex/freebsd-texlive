@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20131218
+PORTVERSION=	20131219
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -403,6 +403,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/dashbox/dashbox.sty:${PORTSDIR}/print/texlive-dashbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dashrule/dashrule.sty:${PORTSDIR}/print/texlive-dashrule \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dashundergaps/dashundergaps.sty:${PORTSDIR}/print/texlive-dashundergaps \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dataref/dataref.sty:${PORTSDIR}/print/texlive-dataref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datatool/datatool.sty:${PORTSDIR}/print/texlive-datatool \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dateiliste/dateiliste.sty:${PORTSDIR}/print/texlive-dateiliste \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datenumber/datenumber.sty:${PORTSDIR}/print/texlive-datenumber \
@@ -824,6 +825,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/paresse/paresse.sty:${PORTSDIR}/print/texlive-paresse \
 		${LOCALBASE}/share/texmf-dist/tex/latex/parnotes/parnotes.sty:${PORTSDIR}/print/texlive-parnotes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/parselines/parselines.sty:${PORTSDIR}/print/texlive-parselines \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pas-cours/pas-cours.sty:${PORTSDIR}/print/texlive-pas-cours \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pas-cv/pas-cv.sty:${PORTSDIR}/print/texlive-pas-cv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pas-tableur/pas-tableur.sty:${PORTSDIR}/print/texlive-pas-tableur \
 		${LOCALBASE}/share/texmf-dist/tex/latex/patchcmd/patchcmd.sty:${PORTSDIR}/print/texlive-patchcmd \

@@ -1154,6 +1154,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/dashbox/dashbox.sty:${PORTSDIR}/print/texlive-dashbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dashrule/dashrule.sty:${PORTSDIR}/print/texlive-dashrule \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dashundergaps/dashundergaps.sty:${PORTSDIR}/print/texlive-dashundergaps \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dataref/dataref.sty:${PORTSDIR}/print/texlive-dataref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datatool/datatool.sty:${PORTSDIR}/print/texlive-datatool \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dateiliste/dateiliste.sty:${PORTSDIR}/print/texlive-dateiliste \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datenumber/datenumber.sty:${PORTSDIR}/print/texlive-datenumber \
@@ -1575,6 +1576,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/paresse/paresse.sty:${PORTSDIR}/print/texlive-paresse \
 		${LOCALBASE}/share/texmf-dist/tex/latex/parnotes/parnotes.sty:${PORTSDIR}/print/texlive-parnotes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/parselines/parselines.sty:${PORTSDIR}/print/texlive-parselines \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pas-cours/pas-cours.sty:${PORTSDIR}/print/texlive-pas-cours \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pas-cv/pas-cv.sty:${PORTSDIR}/print/texlive-pas-cv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pas-tableur/pas-tableur.sty:${PORTSDIR}/print/texlive-pas-tableur \
 		${LOCALBASE}/share/texmf-dist/tex/latex/patchcmd/patchcmd.sty:${PORTSDIR}/print/texlive-patchcmd \
@@ -1644,6 +1646,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/recipecard/recipecard.cls:${PORTSDIR}/print/texlive-recipecard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rectopma/rectopma.sty:${PORTSDIR}/print/texlive-rectopma \
 		${LOCALBASE}/share/texmf-dist/tex/latex/refcheck/refcheck.sty:${PORTSDIR}/print/texlive-refcheck \
+		${LOCALBASE}/share/texmf-dist/tex/latex/refenums/refenums.sty:${PORTSDIR}/print/texlive-refenums \
 		${LOCALBASE}/share/texmf-dist/tex/latex/reflectgraphics/reflectgraphics.sty:${PORTSDIR}/print/texlive-reflectgraphics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/refman/pagepc.sty:${PORTSDIR}/print/texlive-refman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/refstyle/refstyle.sty:${PORTSDIR}/print/texlive-refstyle \
@@ -2217,6 +2220,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/seuthesis/seuthesis.cls:${PORTSDIR}/print/texlive-seuthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/soton/soton-beamer.sty:${PORTSDIR}/print/texlive-soton \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spie/spie.cls:${PORTSDIR}/print/texlive-spie \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sr-vorl/sr-vorl.cls:${PORTSDIR}/print/texlive-sr-vorl \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/stellenbosch/usmeg-a.bst:${PORTSDIR}/print/texlive-stellenbosch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/suftesi/suftesi.cls:${PORTSDIR}/print/texlive-suftesi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sugconf/sugconf.cls:${PORTSDIR}/print/texlive-sugconf \

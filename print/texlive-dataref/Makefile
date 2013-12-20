@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	teubner
+PORTNAME=	dataref
 PORTVERSION=	20131219
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Philological typesetting of classical Greek.
+COMMENT=	Manage references to experimental data.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

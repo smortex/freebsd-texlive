@@ -1,0 +1,4 @@
+The package provides a mechanism that maintains a fixed
+symbolic reference to numerical results; such results may vary
+as the project proceeds (and hence the project report
+develops).
