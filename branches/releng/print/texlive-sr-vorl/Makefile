@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	teubner
+PORTNAME=	sr-vorl
 PORTVERSION=	20131219
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Philological typesetting of classical Greek.
+COMMENT=	Class for Springer books.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
