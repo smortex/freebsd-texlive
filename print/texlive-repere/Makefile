@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	luamplib
+PORTNAME=	repere
 PORTVERSION=	20131221
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use LuaTeX's built-in MetaPost interpreter.
+COMMENT=	The repere package
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
