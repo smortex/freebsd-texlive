@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/metapost/repere/README
+%%PORTDOCS%%share/texmf-dist/doc/metapost/repere/repere-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/repere/repere-doc.tex
+share/texmf-dist/metapost/repere/repere.mp
+@dirrmtry share/texmf-dist/metapost/repere
+@dirrmtry share/texmf-dist/metapost
+@dirrmtry share/texmf-dist/doc/metapost/repere
+@dirrmtry share/texmf-dist/doc/metapost
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

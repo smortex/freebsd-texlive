@@ -1,0 +1,3 @@
+The package overlays a grid (whose spacing is \baselineskip,
+which offers guidlines for considering the "rhythm" of the
+document on the page.

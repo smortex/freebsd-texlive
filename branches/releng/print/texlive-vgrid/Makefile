@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	luamplib
+PORTNAME=	vgrid
 PORTVERSION=	20131221
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use LuaTeX's built-in MetaPost interpreter.
+COMMENT=	Overlay a grid on the printed page.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20131219
+PORTVERSION=	20131221
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1109,6 +1109,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/version/version.sty:${PORTSDIR}/print/texlive-version \
 		${LOCALBASE}/share/texmf-dist/tex/latex/versions/versions.sty:${PORTSDIR}/print/texlive-versions \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vertbars/vertbars.sty:${PORTSDIR}/print/texlive-vertbars \
+		${LOCALBASE}/share/texmf-dist/tex/latex/vgrid/vgrid.sty:${PORTSDIR}/print/texlive-vgrid \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vhistory/vhistory.sty:${PORTSDIR}/print/texlive-vhistory \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vmargin/vmargin.sty:${PORTSDIR}/print/texlive-vmargin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/volumes/volumes.sty:${PORTSDIR}/print/texlive-volumes \
