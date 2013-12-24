@@ -1,16 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/fnpct/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/fnpct/bigfoot_ex.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/fnpct/fixfoot_ex.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/fnpct/fnpct_en.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/fnpct/fnpct_en.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/fnpct/nested_ex.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/fnpct/nested_ex_a.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/fnpct/nested_ex_b.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/fnpct/nested_ex_c.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/fnpct/normal_ex.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/fnpct/pagenote_ex.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/fnpct/sepfootnotes_ex.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/fnpct/tufte_ex.tex
 share/texmf-dist/tex/latex/fnpct/fnpct.sty
 @dirrmtry share/texmf-dist/tex/latex/fnpct
 @dirrmtry share/texmf-dist/tex/latex
