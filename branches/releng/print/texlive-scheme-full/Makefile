@@ -1860,6 +1860,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/version/version.sty:${PORTSDIR}/print/texlive-version \
 		${LOCALBASE}/share/texmf-dist/tex/latex/versions/versions.sty:${PORTSDIR}/print/texlive-versions \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vertbars/vertbars.sty:${PORTSDIR}/print/texlive-vertbars \
+		${LOCALBASE}/share/texmf-dist/tex/latex/vgrid/vgrid.sty:${PORTSDIR}/print/texlive-vgrid \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vhistory/vhistory.sty:${PORTSDIR}/print/texlive-vhistory \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vmargin/vmargin.sty:${PORTSDIR}/print/texlive-vmargin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/volumes/volumes.sty:${PORTSDIR}/print/texlive-volumes \
@@ -2003,6 +2004,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/metapost/mpattern/mpattern.mp:${PORTSDIR}/print/texlive-mpattern \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mpgraphics/mpgraphics.sty:${PORTSDIR}/print/texlive-mpgraphics \
 		${LOCALBASE}/share/texmf-dist/metapost/piechartmp/piechartmp.mp:${PORTSDIR}/print/texlive-piechartmp \
+		${LOCALBASE}/share/texmf-dist/metapost/repere/repere.mp:${PORTSDIR}/print/texlive-repere \
 		${LOCALBASE}/share/texmf-dist/metafont/roex/roex.mf:${PORTSDIR}/print/texlive-roex \
 		${LOCALBASE}/share/texmf-dist/metapost/slideshow/pathalong.mp:${PORTSDIR}/print/texlive-slideshow \
 		${LOCALBASE}/share/texmf-dist/metapost/splines/splines.mp:${PORTSDIR}/print/texlive-splines \
@@ -2107,6 +2109,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-optexp/pst-optexp.sty:${PORTSDIR}/print/texlive-pst-optexp \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-optic/pst-optic.tex:${PORTSDIR}/print/texlive-pst-optic \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-osci/pst-osci.tex:${PORTSDIR}/print/texlive-pst-osci \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-ovl/pst-ovl.tex:${PORTSDIR}/print/texlive-pst-ovl \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-pad/pst-pad.tex:${PORTSDIR}/print/texlive-pst-pad \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-pdgr/pst-pdgr.tex:${PORTSDIR}/print/texlive-pst-pdgr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-platon/pst-platon.sty:${PORTSDIR}/print/texlive-pst-platon \

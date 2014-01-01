@@ -8,6 +8,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/documentation/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/documentation/amiri-table.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/documentation/documentation-arabic.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/documentation/documentation-sources/documentation-arabic.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/amiri-bold.sfd
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/amiri-regular.sfd
 %%PORTDOCS%%share/texmf-dist/doc/fonts/amiri/sources/amiri.fea
@@ -58,6 +59,7 @@ share/texmf-dist/fonts/truetype/public/amiri/amiri-slanted.ttf
 @dirrmtry share/texmf-dist/doc/fonts/amiri/test-suite
 @dirrmtry share/texmf-dist/doc/fonts/amiri/sources/crimson
 @dirrmtry share/texmf-dist/doc/fonts/amiri/sources
+@dirrmtry share/texmf-dist/doc/fonts/amiri/documentation/documentation-sources
 @dirrmtry share/texmf-dist/doc/fonts/amiri/documentation
 @dirrmtry share/texmf-dist/doc/fonts/amiri
 @dirrmtry share/texmf-dist/doc/fonts
