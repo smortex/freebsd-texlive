@@ -9,7 +9,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-punctstyle.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-subCJKblock.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-verbatim.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xunicode-combine-marks.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xunicode-commands.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xunicode-symbols.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/xeCJK.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/xunicode-symbols.pdf
 share/texmf-dist/fonts/misc/xetex/fontmapping/xecjk/full-stop.map
 share/texmf-dist/fonts/misc/xetex/fontmapping/xecjk/full-stop.tec
 share/texmf-dist/fonts/misc/xetex/fontmapping/xecjk/fullwidth-stop.map
@@ -25,6 +29,7 @@ share/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 share/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
 share/texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty
 share/texmf-dist/tex/xelatex/xecjk/xunicode-addon.sty
+share/texmf-dist/tex/xelatex/xecjk/xunicode-extra.def
 @dirrmtry share/texmf-dist/tex/xelatex/xecjk/config
 @dirrmtry share/texmf-dist/tex/xelatex/xecjk
 @dirrmtry share/texmf-dist/tex/xelatex

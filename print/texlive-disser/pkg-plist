@@ -30,6 +30,8 @@ share/texmf-dist/bibtex/csf/disser/cp1251lc.csf
 %%PORTDOCS%%share/texmf-dist/doc/latex/disser/templates/candidate/autoref.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/disser/templates/candidate/common.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/disser/templates/candidate/concl.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/disser/templates/candidate/defs.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/disser/templates/candidate/dict.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/disser/templates/candidate/fig/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/disser/templates/candidate/fig/facsimile.eps
 %%PORTDOCS%%share/texmf-dist/doc/latex/disser/templates/candidate/fig/nomake.cmd
@@ -45,6 +47,8 @@ share/texmf-dist/bibtex/csf/disser/cp1251lc.csf
 %%PORTDOCS%%share/texmf-dist/doc/latex/disser/templates/doctor/autoref.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/disser/templates/doctor/common.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/disser/templates/doctor/concl.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/disser/templates/doctor/defs.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/disser/templates/doctor/dict.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/disser/templates/doctor/fig/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/disser/templates/doctor/fig/facsimile.eps
 %%PORTDOCS%%share/texmf-dist/doc/latex/disser/templates/doctor/fig/nomake.cmd

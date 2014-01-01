@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	exsheets
+PORTNAME=	pst-ovl
 PORTVERSION=	20131231
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create exercise sheets and exams.
+COMMENT=	Create and manage graphical overlays.
 
 NOPORTSRC=	yes
 
