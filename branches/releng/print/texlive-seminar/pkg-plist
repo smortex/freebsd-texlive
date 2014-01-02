@@ -1,14 +1,20 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/read-me.2e
-%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/sem-read.me
-%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/sem-user.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/sem-user.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/Changes
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/sem-code.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/sem-make.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/seminar-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/seminar-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/seminar.bg3
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/seminar.con
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/seminar.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/semlayer.doc
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/semsamp1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/seminar/semsamp1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/semsamp2.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/seminar/semsamp2.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/tvz-code.sty
-%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/tvz-hax.sty
-%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/tvz-user.sty
 share/texmf-dist/tex/latex/seminar/npsfont.sty
 share/texmf-dist/tex/latex/seminar/sem-a4.sty
+share/texmf-dist/tex/latex/seminar/sem-dem.sty
 share/texmf-dist/tex/latex/seminar/sem-page.sty
 share/texmf-dist/tex/latex/seminar/semcolor.sty
 share/texmf-dist/tex/latex/seminar/semhelv.sty
@@ -20,6 +26,9 @@ share/texmf-dist/tex/latex/seminar/semlayer.sty
 share/texmf-dist/tex/latex/seminar/semlcmss.sty
 share/texmf-dist/tex/latex/seminar/semrot.sty
 share/texmf-dist/tex/latex/seminar/slidesec.sty
+share/texmf-dist/tex/latex/seminar/tvz-code.sty
+share/texmf-dist/tex/latex/seminar/tvz-hax.sty
+share/texmf-dist/tex/latex/seminar/tvz-user.sty
 @dirrmtry share/texmf-dist/tex/latex/seminar
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
