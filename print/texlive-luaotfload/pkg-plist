@@ -5,7 +5,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/luaotfload-tool.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/luaotfload-tool.man1.pdf
 share/texmf-dist/scripts/luaotfload/luaotfload-legacy-tool.lua
-share/texmf-dist/scripts/luaotfload/luaotfload-tool.lua
 share/texmf-dist/scripts/luaotfload/mkcharacters
 share/texmf-dist/scripts/luaotfload/mkglyphlist
 share/texmf-dist/scripts/luaotfload/mkstatus
@@ -18,9 +17,9 @@ share/texmf-dist/tex/luatex/luaotfload/luaotfload-blacklist.cnf
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-characters.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-colors.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-database.lua
-share/texmf-dist/tex/luatex/luaotfload/luaotfload-extralibs.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-diagnostics.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-features.lua
-share/texmf-dist/tex/luatex/luaotfload/luaotfload-files.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-fontloader.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-fonts-cbk.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-fonts-def.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-fonts-enc.lua
@@ -34,10 +33,8 @@ share/texmf-dist/tex/luatex/luaotfload/luaotfload-legacy-merged.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-legacy.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-letterspace.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-loaders.lua
-share/texmf-dist/tex/luatex/luaotfload/luaotfload-merged.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-override.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-status.lua
-share/texmf-dist/tex/luatex/luaotfload/luaotfload-typo-krn.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload.sty
 @dirrmtry share/texmf-dist/tex/luatex/luaotfload
