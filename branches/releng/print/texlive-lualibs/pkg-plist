@@ -15,6 +15,7 @@ share/texmf-dist/tex/luatex/lualibs/lualibs-extended-merged.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-extended.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-file.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-function.lua
+share/texmf-dist/tex/luatex/lualibs/lualibs-gzip.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-io.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-lpeg.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-lua.lua
