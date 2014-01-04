@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langczechslovak
-PORTVERSION=	20130510
+PORTVERSION=	20140103
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -69,6 +69,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tools/.tex:${PORTSDIR}/print/texlive-tools \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-czech/czech.ldf:${PORTSDIR}/print/texlive-babel-czech \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-slovak/slovak.ldf:${PORTSDIR}/print/texlive-babel-slovak \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cnbwp/cnbwp.cls:${PORTSDIR}/print/texlive-cnbwp \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/cs/xl2.enc:${PORTSDIR}/print/texlive-cs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/csbulletin/csbulletin.cls:${PORTSDIR}/print/texlive-csbulletin \
 		${LOCALBASE}/share/texmf-dist/tex/cslatex/base/cslatex.ini:${PORTSDIR}/print/texlive-cslatex \

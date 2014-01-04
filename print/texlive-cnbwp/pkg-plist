@@ -1,0 +1,34 @@
+share/texmf-dist/bibtex/bst/cnbwp/abbrvcnb.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/cnbwp/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/cnbwp/biblio.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cnbwp/cnbpaper.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cnbwp/cnbpaper.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cnbwp/cnbsample.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/cnbwp/cnbwp-manual-cs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cnbwp/cnbwp-manual-cs.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cnbwp/cnbwp-manual-en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cnbwp/cnbwp-manual-en.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cnbwp/graph18.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/cnbwp/graph18.gif
+%%PORTDOCS%%share/texmf-dist/doc/latex/cnbwp/graph18.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/cnbwp/graph18.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cnbwp/graph18.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/cnbwp/numtable.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cnbwp/widematrix.tex
+share/texmf-dist/makeindex/cnbwp/cnbindex.ist
+share/texmf-dist/tex/latex/cnbwp/cnbwp-manual.sty
+share/texmf-dist/tex/latex/cnbwp/cnbwp.cls
+share/texmf-dist/tex/latex/cnbwp/cnbwpsizes.clo
+@dirrmtry share/texmf-dist/tex/latex/cnbwp
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/makeindex/cnbwp
+@dirrmtry share/texmf-dist/makeindex
+@dirrmtry share/texmf-dist/doc/latex/cnbwp
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@dirrmtry share/texmf-dist/bibtex/bst/cnbwp
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
