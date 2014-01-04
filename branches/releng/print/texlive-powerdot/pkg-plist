@@ -1,40 +1,23 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/Changes
 %%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/docs/RunDoc
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/docs/RunExamples
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/docs/RunSlideDoc
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/docs/manifest.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/docs/powerdot-example1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/docs/powerdot-example1.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/docs/powerdot-example2.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/docs/powerdot-example2.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/docs/powerdot-example3.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/docs/powerdot-example3.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/docs/powerdot-styleexample.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/docs/powerdot-styletest.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/docs/powerdot.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/docs/powerdot.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/docs/powerdot.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/docs/powerdotDE.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/docs/powerdotDE.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/docs/powerdotSlide.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/docs/powerdotSlide.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/lyx/powerdot-example.lyx
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/lyx/powerdot-example.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/lyx/powerdot.layout
-share/texmf-dist/tex/latex/powerdot/images/clemson.eps
-share/texmf-dist/tex/latex/powerdot/images/pawmkorange.eps
-share/texmf-dist/tex/latex/powerdot/images/pawmkorange.png
-share/texmf-dist/tex/latex/powerdot/images/pawmkpurple.eps
-share/texmf-dist/tex/latex/powerdot/images/pawmkpurple.png
-share/texmf-dist/tex/latex/powerdot/images/pawtraceorange.eps
-share/texmf-dist/tex/latex/powerdot/images/pawtraceorange.png
-share/texmf-dist/tex/latex/powerdot/images/pawtracep.eps
-share/texmf-dist/tex/latex/powerdot/images/pawtracep.png
-share/texmf-dist/tex/latex/powerdot/images/powerdot-default.ps
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/manifest.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/pdpream.ble
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-example.lyx
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-example1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-example2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-example3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-styleexample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot-styletest.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot.layout
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdot.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdotDE.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/powerdot/powerdotDE.tex
+%%PORTSRC%%share/texmf-dist/source/latex/powerdot/powerdot.dtx
 share/texmf-dist/tex/latex/powerdot/powerdot-aggie.sty
 share/texmf-dist/tex/latex/powerdot/powerdot-bframe.sty
 share/texmf-dist/tex/latex/powerdot/powerdot-ciment.sty
+share/texmf-dist/tex/latex/powerdot/powerdot-default.ps
 share/texmf-dist/tex/latex/powerdot/powerdot-default.sty
 share/texmf-dist/tex/latex/powerdot/powerdot-elcolors.sty
 share/texmf-dist/tex/latex/powerdot/powerdot-fyma.sty
@@ -47,16 +30,15 @@ share/texmf-dist/tex/latex/powerdot/powerdot-paintings.sty
 share/texmf-dist/tex/latex/powerdot/powerdot-pazik.sty
 share/texmf-dist/tex/latex/powerdot/powerdot-sailor.sty
 share/texmf-dist/tex/latex/powerdot/powerdot-simple.sty
-share/texmf-dist/tex/latex/powerdot/powerdot-tiger.sty
 share/texmf-dist/tex/latex/powerdot/powerdot-tycja.sty
 share/texmf-dist/tex/latex/powerdot/powerdot-upen.sty
 share/texmf-dist/tex/latex/powerdot/powerdot.cls
-@dirrmtry share/texmf-dist/tex/latex/powerdot/images
 @dirrmtry share/texmf-dist/tex/latex/powerdot
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/latex/powerdot/lyx
-@dirrmtry share/texmf-dist/doc/latex/powerdot/docs
+@dirrmtry share/texmf-dist/source/latex/powerdot
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/powerdot
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc
