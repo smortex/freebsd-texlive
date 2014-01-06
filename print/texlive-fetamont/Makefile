@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	textpos
+PORTNAME=	fetamont
 PORTVERSION=	20140105
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Place boxes at arbitrary positions on the LaTeX page.
+COMMENT=	Extended version of Knuth's logo typeface.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

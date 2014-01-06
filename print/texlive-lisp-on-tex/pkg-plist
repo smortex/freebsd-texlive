@@ -4,8 +4,45 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/examples/fact.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/examples/fpnummodule-mandelbrot.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/examples/fpnummodule-mandelbrot.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/examples/repl.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/examples/rocket.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/examples/rocket.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/examples/showfont.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/expl3/asts.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/expl3/mandel.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/expl3/mandel.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/expl3/tarai.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/expl3/tarai.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/latex/ast.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/latex/mandel.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/latex/mandel.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/latex/tarai.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/latex/tarai.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/lot/asts.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/lot/asts.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/lot/mandel.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/lot/mandel.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/lot/tarai.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/lot/tarai.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/luatex/asts.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/luatex/asts.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/luatex/mandel.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/luatex/mandel.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/luatex/tarai.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/luatex/tarai.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/perltex/ast.lgpl
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/perltex/ast.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/perltex/ast.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/perltex/asts.lgpl
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/perltex/asts.pipe
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/perltex/mandel.lgpl
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/perltex/mandel.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/perltex/mandel.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/perltex/tarai.lgpl
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/perltex/tarai.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/perltex/tarai.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/slide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/slide.tex
 share/texmf-dist/tex/latex/lisp-on-tex/lisp-arith.sty
 share/texmf-dist/tex/latex/lisp-on-tex/lisp-latexutil.sty
 share/texmf-dist/tex/latex/lisp-on-tex/lisp-mod-fpnum.sty
@@ -17,6 +54,13 @@ share/texmf-dist/tex/latex/lisp-on-tex/lisp-util.sty
 @dirrmtry share/texmf-dist/tex/latex/lisp-on-tex
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/perltex
+@dirrmtry share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/luatex
+@dirrmtry share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/lot
+@dirrmtry share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/latex
+@dirrmtry share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/expl3
+@dirrmtry share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench
+@dirrmtry share/texmf-dist/doc/latex/lisp-on-tex/tug2013
 @dirrmtry share/texmf-dist/doc/latex/lisp-on-tex/examples
 @dirrmtry share/texmf-dist/doc/latex/lisp-on-tex
 @dirrmtry share/texmf-dist/doc/latex
