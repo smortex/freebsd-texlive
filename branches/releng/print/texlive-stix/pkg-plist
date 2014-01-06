@@ -1,69 +1,192 @@
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXGeneral.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXGeneralBol.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXGeneralBolIta.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXGeneralItalic.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXIntDBol.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXIntDReg.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXIntSmBol.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXIntSmReg.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXIntUpBol.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXIntUpDBol.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXIntUpDReg.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXIntUpReg.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXIntUpSmBol.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXIntUpSmReg.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXNonUni.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXNonUniBol.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXNonUniBolIta.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXNonUniIta.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXSizFiveSymReg.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXSizFourSymBol.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXSizFourSymReg.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXSizOneSymBol.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXSizOneSymReg.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXSizThreeSymBol.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXSizThreeSymReg.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXSizTwoSymBol.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXSizTwoSymReg.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXVar.otf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/Glyphs/STIXVarBol.otf.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/stix/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/stix/README.TEXLIVE
 %%PORTDOCS%%share/texmf-dist/doc/fonts/stix/STIX_Font_License_2010.pdf
-share/texmf-dist/fonts/opentype/public/stix/STIXGeneral.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXGeneralBol.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXGeneralBolIta.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXGeneralItalic.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXIntDBol.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXIntDReg.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXIntSmBol.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXIntSmReg.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXIntUpBol.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXIntUpDBol.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXIntUpDReg.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXIntUpReg.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXIntUpSmBol.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXIntUpSmReg.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXNonUni.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXNonUniBol.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXNonUniBolIta.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXNonUniIta.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXSizFiveSymReg.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXSizFourSymBol.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXSizFourSymReg.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXSizOneSymBol.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXSizOneSymReg.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXSizThreeSymBol.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXSizThreeSymReg.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXSizTwoSymBol.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXSizTwoSymReg.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXVar.otf
-share/texmf-dist/fonts/opentype/public/stix/STIXVarBol.otf
+share/texmf-dist/fonts/enc/dvips/stix/stix-extra1.enc
+share/texmf-dist/fonts/enc/dvips/stix/stix-extra2.enc
+share/texmf-dist/fonts/enc/dvips/stix/stix-extra3.enc
+share/texmf-dist/fonts/enc/dvips/stix/stix-ot1.enc
+share/texmf-dist/fonts/enc/dvips/stix/stix-ot2.enc
+share/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc
+share/texmf-dist/fonts/enc/dvips/stix/stix-ts1.enc
+share/texmf-dist/fonts/map/dvips/stix/stix.map
+share/texmf-dist/fonts/opentype/public/stix/STIX-Bold.otf
+share/texmf-dist/fonts/opentype/public/stix/STIX-BoldItalic.otf
+share/texmf-dist/fonts/opentype/public/stix/STIX-Italic.otf
+share/texmf-dist/fonts/opentype/public/stix/STIX-Regular.otf
+share/texmf-dist/fonts/opentype/public/stix/STIXMath-Regular.otf
+share/texmf-dist/fonts/source/public/stix/ot1-stixgeneral-bold.pl
+share/texmf-dist/fonts/source/public/stix/ot1-stixgeneral-bolditalic.pl
+share/texmf-dist/fonts/source/public/stix/ot1-stixgeneral-italic.pl
+share/texmf-dist/fonts/source/public/stix/ot1-stixgeneral.pl
+share/texmf-dist/fonts/source/public/stix/ot1-stixgeneralsc-bold.vpl
+share/texmf-dist/fonts/source/public/stix/ot1-stixgeneralsc.vpl
+share/texmf-dist/fonts/source/public/stix/ot2-stixgeneral-bold.pl
+share/texmf-dist/fonts/source/public/stix/ot2-stixgeneral-bolditalic.pl
+share/texmf-dist/fonts/source/public/stix/ot2-stixgeneral-italic.pl
+share/texmf-dist/fonts/source/public/stix/ot2-stixgeneral.pl
+share/texmf-dist/fonts/source/public/stix/ot2-stixgeneralsc-bold.vpl
+share/texmf-dist/fonts/source/public/stix/ot2-stixgeneralsc.vpl
+share/texmf-dist/fonts/source/public/stix/stix-extra1-bold.pl
+share/texmf-dist/fonts/source/public/stix/stix-extra1.pl
+share/texmf-dist/fonts/source/public/stix/stix-extra2-bold.pl
+share/texmf-dist/fonts/source/public/stix/stix-extra2.pl
+share/texmf-dist/fonts/source/public/stix/stix-extra3-bold.pl
+share/texmf-dist/fonts/source/public/stix/stix-extra3.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathbb-bold.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathbb.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathbbit-bold.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathbbit.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathcal-bold.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathcal.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathex-bold.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathex.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathfrak-bold.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathfrak.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathit-bold.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathit.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathrm-bold.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathrm.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathscr-bold.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathscr.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathsf-bold.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathsf.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathsfit-bold.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathsfit.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathtt-bold.pl
+share/texmf-dist/fonts/source/public/stix/stix-mathtt.pl
+share/texmf-dist/fonts/source/public/stix/t1-stixgeneral-bold.pl
+share/texmf-dist/fonts/source/public/stix/t1-stixgeneral-bolditalic.pl
+share/texmf-dist/fonts/source/public/stix/t1-stixgeneral-italic.pl
+share/texmf-dist/fonts/source/public/stix/t1-stixgeneral.pl
+share/texmf-dist/fonts/source/public/stix/t1-stixgeneralsc-bold.vpl
+share/texmf-dist/fonts/source/public/stix/t1-stixgeneralsc.vpl
+share/texmf-dist/fonts/source/public/stix/ts1-stixgeneral-bold.pl
+share/texmf-dist/fonts/source/public/stix/ts1-stixgeneral-bolditalic.pl
+share/texmf-dist/fonts/source/public/stix/ts1-stixgeneral-italic.pl
+share/texmf-dist/fonts/source/public/stix/ts1-stixgeneral.pl
+share/texmf-dist/fonts/tfm/public/stix/ot1-stixgeneral-bold.tfm
+share/texmf-dist/fonts/tfm/public/stix/ot1-stixgeneral-bolditalic.tfm
+share/texmf-dist/fonts/tfm/public/stix/ot1-stixgeneral-italic.tfm
+share/texmf-dist/fonts/tfm/public/stix/ot1-stixgeneral.tfm
+share/texmf-dist/fonts/tfm/public/stix/ot1-stixgeneralsc-bold.tfm
+share/texmf-dist/fonts/tfm/public/stix/ot1-stixgeneralsc.tfm
+share/texmf-dist/fonts/tfm/public/stix/ot2-stixgeneral-bold.tfm
+share/texmf-dist/fonts/tfm/public/stix/ot2-stixgeneral-bolditalic.tfm
+share/texmf-dist/fonts/tfm/public/stix/ot2-stixgeneral-italic.tfm
+share/texmf-dist/fonts/tfm/public/stix/ot2-stixgeneral.tfm
+share/texmf-dist/fonts/tfm/public/stix/ot2-stixgeneralsc-bold.tfm
+share/texmf-dist/fonts/tfm/public/stix/ot2-stixgeneralsc.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-extra1.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-extra2.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-extra3.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathbb-bold.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathbb.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathbbit-bold.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathbbit.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathcal-bold.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathcal.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathex-bold.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathex.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathfrak-bold.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathfrak.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathit-bold.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathit.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathrm-bold.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathrm.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathscr-bold.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathscr.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathsf-bold.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathsf.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathsfit-bold.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathsfit.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathtt-bold.tfm
+share/texmf-dist/fonts/tfm/public/stix/stix-mathtt.tfm
+share/texmf-dist/fonts/tfm/public/stix/t1-stixgeneral-bold.tfm
+share/texmf-dist/fonts/tfm/public/stix/t1-stixgeneral-bolditalic.tfm
+share/texmf-dist/fonts/tfm/public/stix/t1-stixgeneral-italic.tfm
+share/texmf-dist/fonts/tfm/public/stix/t1-stixgeneral.tfm
+share/texmf-dist/fonts/tfm/public/stix/t1-stixgeneralsc-bold.tfm
+share/texmf-dist/fonts/tfm/public/stix/t1-stixgeneralsc.tfm
+share/texmf-dist/fonts/tfm/public/stix/ts1-stixgeneral-bold.tfm
+share/texmf-dist/fonts/tfm/public/stix/ts1-stixgeneral-bolditalic.tfm
+share/texmf-dist/fonts/tfm/public/stix/ts1-stixgeneral-italic.tfm
+share/texmf-dist/fonts/tfm/public/stix/ts1-stixgeneral.tfm
+share/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb
+share/texmf-dist/fonts/type1/public/stix/STIXGeneral-BoldItalic.pfb
+share/texmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.pfb
+share/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathbb-bold.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathbb.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathbbit-bold.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathbbit.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathcal-bold.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathcal.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathex-bold.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathfrak-bold.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathfrak.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathit-bold.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathrm-bold.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathscr-bold.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathsf-bold.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathsf.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathsfit-bold.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathsfit.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathtt-bold.pfb
+share/texmf-dist/fonts/type1/public/stix/stix-mathtt.pfb
+share/texmf-dist/fonts/vf/public/stix/ot1-stixgeneralsc-bold.vf
+share/texmf-dist/fonts/vf/public/stix/ot1-stixgeneralsc.vf
+share/texmf-dist/fonts/vf/public/stix/ot2-stixgeneralsc-bold.vf
+share/texmf-dist/fonts/vf/public/stix/ot2-stixgeneralsc.vf
+share/texmf-dist/fonts/vf/public/stix/t1-stixgeneralsc-bold.vf
+share/texmf-dist/fonts/vf/public/stix/t1-stixgeneralsc.vf
+%%PORTSRC%%share/texmf-dist/source/latex/stix/stix.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/stix/stix.fdd
+share/texmf-dist/tex/latex/stix/ls1stix.fd
+share/texmf-dist/tex/latex/stix/ls1stixbb.fd
+share/texmf-dist/tex/latex/stix/ls1stixfrak.fd
+share/texmf-dist/tex/latex/stix/ls1stixscr.fd
+share/texmf-dist/tex/latex/stix/ls1stixsf.fd
+share/texmf-dist/tex/latex/stix/ls2stix.fd
+share/texmf-dist/tex/latex/stix/ls2stixcal.fd
+share/texmf-dist/tex/latex/stix/ls2stixex.fd
+share/texmf-dist/tex/latex/stix/ls2stixtt.fd
+share/texmf-dist/tex/latex/stix/ot1stix.fd
+share/texmf-dist/tex/latex/stix/ot2stix.fd
+share/texmf-dist/tex/latex/stix/stix.sty
+share/texmf-dist/tex/latex/stix/t1stix.fd
+share/texmf-dist/tex/latex/stix/ts1stix.fd
+@dirrmtry share/texmf-dist/tex/latex/stix
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/stix
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/fonts/vf/public/stix
+@dirrmtry share/texmf-dist/fonts/vf/public
+@dirrmtry share/texmf-dist/fonts/vf
+@dirrmtry share/texmf-dist/fonts/type1/public/stix
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
+@dirrmtry share/texmf-dist/fonts/tfm/public/stix
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
+@dirrmtry share/texmf-dist/fonts/source/public/stix
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
 @dirrmtry share/texmf-dist/fonts/opentype/public/stix
 @dirrmtry share/texmf-dist/fonts/opentype/public
 @dirrmtry share/texmf-dist/fonts/opentype
+@dirrmtry share/texmf-dist/fonts/map/dvips/stix
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts/enc/dvips/stix
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
 @dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/fonts/stix/Glyphs
 @dirrmtry share/texmf-dist/doc/fonts/stix
 @dirrmtry share/texmf-dist/doc/fonts
 @dirrmtry share/texmf-dist/doc
