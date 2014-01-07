@@ -1,6 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/stix/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/stix/README.TEXLIVE
 %%PORTDOCS%%share/texmf-dist/doc/fonts/stix/STIX_Font_License_2010.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/stix/stix.pdf
 share/texmf-dist/fonts/enc/dvips/stix/stix-extra1.enc
 share/texmf-dist/fonts/enc/dvips/stix/stix-extra2.enc
 share/texmf-dist/fonts/enc/dvips/stix/stix-extra3.enc
