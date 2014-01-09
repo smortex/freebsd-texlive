@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/scanpages/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/scanpages/replicate.plist
+%%PORTDOCS%%share/texmf-dist/doc/latex/scanpages/replicate.py
+%%PORTDOCS%%share/texmf-dist/doc/latex/scanpages/scanpages-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/scanpages/scanpages-doc.tex
+share/texmf-dist/tex/latex/scanpages/scanpages.sty
+@dirrmtry share/texmf-dist/tex/latex/scanpages
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/scanpages
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

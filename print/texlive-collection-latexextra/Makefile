@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20131221
+PORTVERSION=	20140108
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -928,6 +928,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/scale/scale.sty:${PORTSDIR}/print/texlive-scale \
 		${LOCALBASE}/share/texmf-dist/tex/latex/scalebar/scalebar.sty:${PORTSDIR}/print/texlive-scalebar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/scalerel/scalerel.sty:${PORTSDIR}/print/texlive-scalerel \
+		${LOCALBASE}/share/texmf-dist/tex/latex/scanpages/scanpages.sty:${PORTSDIR}/print/texlive-scanpages \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sdrt/sdrt.sty:${PORTSDIR}/print/texlive-sdrt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/secdot/secdot.sty:${PORTSDIR}/print/texlive-secdot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sectionbox/sectionbox.sty:${PORTSDIR}/print/texlive-sectionbox \
