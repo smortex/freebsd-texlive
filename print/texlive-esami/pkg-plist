@@ -1,9 +1,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami-doc-en.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami-doc-en.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami-doc-it.dtx
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami-doc-it.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami-doc-it.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/esami-xyz.cfg
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/master-sol.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/master.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/problem1.tex
@@ -19,17 +21,18 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/test3.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/test4.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/test5-fillin.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/testA-sol.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/testA.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/testA.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/totale-versioni.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/esami/es-UKenglish.lng
-%%PORTDOCS%%share/texmf-dist/doc/latex/esami/es-USenglish.lng
-%%PORTDOCS%%share/texmf-dist/doc/latex/esami/es-french.lng
-%%PORTDOCS%%share/texmf-dist/doc/latex/esami/es-german.lng
-%%PORTDOCS%%share/texmf-dist/doc/latex/esami/es-greek.lng
-%%PORTDOCS%%share/texmf-dist/doc/latex/esami/es-italian.lng
-%%PORTDOCS%%share/texmf-dist/doc/latex/esami/es-spanish.lng
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/esami-xyz.cfg
+share/texmf-dist/tex/latex/esami/es-UKenglish.lng
+share/texmf-dist/tex/latex/esami/es-USenglish.lng
+share/texmf-dist/tex/latex/esami/es-french.lng
+share/texmf-dist/tex/latex/esami/es-german.lng
+share/texmf-dist/tex/latex/esami/es-greek.lng
+share/texmf-dist/tex/latex/esami/es-italian.lng
+share/texmf-dist/tex/latex/esami/es-spanish.lng
 share/texmf-dist/tex/latex/esami/esami.sty
 @dirrmtry share/texmf-dist/tex/latex/esami
 @dirrmtry share/texmf-dist/tex/latex
