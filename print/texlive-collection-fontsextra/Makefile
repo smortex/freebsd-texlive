@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20140105
+PORTVERSION=	20140110
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -170,6 +170,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/librecaslon/librecaslon.sty:${PORTSDIR}/print/texlive-librecaslon \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libris/libris.sty:${PORTSDIR}/print/texlive-libris \
 		${LOCALBASE}/share/texmf-dist/tex/latex/linearA/linearA.sty:${PORTSDIR}/print/texlive-linearA \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/lobster2/lbst2_2vl4dw.enc:${PORTSDIR}/print/texlive-lobster2 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lxfonts/lxfonts.sty:${PORTSDIR}/print/texlive-lxfonts \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc:${PORTSDIR}/print/texlive-ly1 \
 		${LOCALBASE}/share/texmf-dist/tex/generic/mathabx/mathabx.sty:${PORTSDIR}/print/texlive-mathabx \
