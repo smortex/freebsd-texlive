@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20140108
+PORTVERSION=	20140111
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -74,7 +74,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmap/cmap.sty:${PORTSDIR}/print/texlive-cmap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/crop/crop.sty:${PORTSDIR}/print/texlive-crop \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ctable/ctable.sty:${PORTSDIR}/print/texlive-ctable \
-		${LOCALBASE}/share/texmf-dist/fonts/source/jknappen/ec/ecbi.mf:${PORTSDIR}/print/texlive-ec \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty:${PORTSDIR}/print/texlive-eso-pic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/euler/euler.sty:${PORTSDIR}/print/texlive-euler \
 		${LOCALBASE}/share/texmf-dist/tex/latex/extsizes/extsizes.sty:${PORTSDIR}/print/texlive-extsizes \
@@ -579,6 +578,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmutils/gmutils.sty:${PORTSDIR}/print/texlive-gmutils \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmverb/gmverb.sty:${PORTSDIR}/print/texlive-gmverb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/graphicx-psmin/graphicx-psmin.sty:${PORTSDIR}/print/texlive-graphicx-psmin \
+		${LOCALBASE}/share/texmf-dist/tex/latex/graphicxbox/graphicxbox.sty:${PORTSDIR}/print/texlive-graphicxbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/grfpaste/grfpaste.sty:${PORTSDIR}/print/texlive-grfpaste \
 		${LOCALBASE}/share/texmf-dist/tex/latex/grid/grid.sty:${PORTSDIR}/print/texlive-grid \
 		${LOCALBASE}/share/texmf-dist/tex/latex/grid-system/grid-system.sty:${PORTSDIR}/print/texlive-grid-system \

@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	uowthesistitlepage
+PORTNAME=	graphicxbox
 PORTVERSION=	20140111
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Title page for dissertations at the University of Wollongong.
+COMMENT=	Insert a graphical image as a background.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
