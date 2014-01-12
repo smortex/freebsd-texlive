@@ -1,0 +1,6 @@
+The package defines two new commands \graphicxbox and
+\fgraphicxbox, which are companions to \colorbox and \fcolorbox
+of the Standard LaTeX color package. The \graphicxbox command
+inserts a graphical image as a background rather than a
+background color, while \fgraphicxbox does the same thing, but
+also draws a colored frame around the box.

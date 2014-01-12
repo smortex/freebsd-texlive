@@ -1,6 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/uowthesistitlepage/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/uowthesistitlepage/uowthesistitlepage.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/uowthesistitlepage/uowthesistitlepage.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uowthesistitlepage/uowthesistitlepage_doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/uowthesistitlepage/uowthesistitlepage_doc.tex
 share/texmf-dist/tex/latex/uowthesistitlepage/uowthesistitlepage.sty
 @dirrmtry share/texmf-dist/tex/latex/uowthesistitlepage
 @dirrmtry share/texmf-dist/tex/latex
