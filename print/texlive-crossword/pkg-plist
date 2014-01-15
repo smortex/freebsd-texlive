@@ -1,6 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/crossword/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/crossword/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/crossword/cwpuzzle.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/crossword/Makefile
 %%PORTSRC%%share/texmf-dist/source/latex/crossword/cwpuzzle.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/crossword/cwpuzzle.ins
 share/texmf-dist/tex/latex/crossword/cwpuzzle.sty
