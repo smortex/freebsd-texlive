@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/aobs-tikz/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/aobs-tikz/aobs-tikz.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/aobs-tikz/example.tex
+%%PORTSRC%%share/texmf-dist/source/latex/aobs-tikz/aobs-tikz.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/aobs-tikz/aobs-tikz.ins
+share/texmf-dist/tex/latex/aobs-tikz/tikzlibraryoverlay-beamer-styles.code.tex
+@dirrmtry share/texmf-dist/tex/latex/aobs-tikz
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/aobs-tikz
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/aobs-tikz
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
