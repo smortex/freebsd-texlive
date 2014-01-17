@@ -19,6 +19,7 @@
 %%PORTSRC%%share/texmf-dist/source/luatex/luatexja/ltjsclasses.ins
 %%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/blocks2defcharrange.rb
 %%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/chars2defcharrange.rb
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/ivslist.tex
 %%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/jfm-readable.rb
 %%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/jisx0208table.tex
 %%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/kyoikukanji.txt
