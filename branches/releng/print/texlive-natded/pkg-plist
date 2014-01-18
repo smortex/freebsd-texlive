@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/natded/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/natded/extended_doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/natded/extended_doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/natded/natded.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/natded/natded.tex
+share/texmf-dist/tex/latex/natded/natded.sty
+@dirrmtry share/texmf-dist/tex/latex/natded
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/natded
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
