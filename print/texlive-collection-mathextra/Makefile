@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-mathextra
-PORTVERSION=	20130709
+PORTVERSION=	20140117
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -47,6 +47,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/dvips/cm-super/cm-super.GS:${PORTSDIR}/print/texlive-cm-super \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/cmextra/cmbxcd10.mf:${PORTSDIR}/print/texlive-cmextra \
 		${LOCALBASE}/share/texmf-dist/dvips/courier/config.ucr:${PORTSDIR}/print/texlive-courier \
+		${LOCALBASE}/share/texmf-dist/fonts/source/jknappen/ec/ecbi.mf:${PORTSDIR}/print/texlive-ec \
 		${LOCALBASE}/share/texmf-dist/tex/latex/euro/euro.sty:${PORTSDIR}/print/texlive-euro \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/euro-ce/ceit.mf:${PORTSDIR}/print/texlive-euro-ce \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eurosym/eurosym.sty:${PORTSDIR}/print/texlive-eurosym \
@@ -121,6 +122,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/mattens/mattens.sty:${PORTSDIR}/print/texlive-mattens \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mhequ/mhequ.sty:${PORTSDIR}/print/texlive-mhequ \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multiobjective/multiobjective.sty:${PORTSDIR}/print/texlive-multiobjective \
+		${LOCALBASE}/share/texmf-dist/tex/latex/natded/natded.sty:${PORTSDIR}/print/texlive-natded \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nath/nath.sty:${PORTSDIR}/print/texlive-nath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ot-tableau/ot-tableau.sty:${PORTSDIR}/print/texlive-ot-tableau \
 		${LOCALBASE}/share/texmf-dist/tex/latex/oubraces/oubraces.sty:${PORTSDIR}/print/texlive-oubraces \

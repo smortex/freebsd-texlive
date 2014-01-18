@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	pstricks
+PORTNAME=	natded
 PORTVERSION=	20140117
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	PostScript macros for TeX.
+COMMENT=	Typeset natural deduction proofs.
 
 NOPORTSRC=	yes
 
