@@ -4,6 +4,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-source-division/biblatex-source-division.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-source-division/latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-source-division/makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-source-division/tabular.pdf
 share/texmf-dist/tex/latex/biblatex-source-division/biblatex-source-division.sty
 @dirrmtry share/texmf-dist/tex/latex/biblatex-source-division
 @dirrmtry share/texmf-dist/tex/latex
