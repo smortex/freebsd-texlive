@@ -41,6 +41,7 @@ share/texmf-dist/bibtex/bst/datatool/databib.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/sample-mail-merge.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/sample-piechart.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/sample-piechart.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/sample-sort.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/sample-sort.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/sample-student-records.csv
 %%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/sample-student-scores.pdf
