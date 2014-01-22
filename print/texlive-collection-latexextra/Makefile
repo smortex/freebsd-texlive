@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20140111
+PORTVERSION=	20140120
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -116,6 +116,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/url/url.sty:${PORTSDIR}/print/texlive-url \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xcolor/xcolor.sty:${PORTSDIR}/print/texlive-xcolor \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex:${PORTSDIR}/print/texlive-xkeyval \
+		${LOCALBASE}/share/texmf-dist/tex/latex/aobs-tikz/tikzlibraryoverlay-beamer-styles.code.tex:${PORTSDIR}/print/texlive-aobs-tikz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/askmaps/askmaps.sty:${PORTSDIR}/print/texlive-askmaps \
 		${LOCALBASE}/share/texmf-dist/tex/latex/asyfig/asyfig.sty:${PORTSDIR}/print/texlive-asyfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/autoarea/autoarea.sty:${PORTSDIR}/print/texlive-autoarea \
@@ -398,6 +399,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/currvita/currvita.sty:${PORTSDIR}/print/texlive-currvita \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cutwin/cutwin.sty:${PORTSDIR}/print/texlive-cutwin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cv/CV.sty:${PORTSDIR}/print/texlive-cv \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cv4tw/cv4tw.cls:${PORTSDIR}/print/texlive-cv4tw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cweb-latex/cwbl-german.sty:${PORTSDIR}/print/texlive-cweb-latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dashbox/dashbox.sty:${PORTSDIR}/print/texlive-dashbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dashrule/dashrule.sty:${PORTSDIR}/print/texlive-dashrule \

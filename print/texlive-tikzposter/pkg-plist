@@ -1,15 +1,18 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikzposter/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/tikzposter/logo.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/tikzposter/logoL.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/tikzposter/logoR.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikzposter/tikzposter-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikzposter/tikzposter-template.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikzposter/tikzposter.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/tikzposter/tikzposter.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tikzposter/tikzposter.ins
-share/texmf-dist/tex/latex/tikzposter/tikzposter-colorthemes.tex
-share/texmf-dist/tex/latex/tikzposter/tikzposter-layoutstyles.tex
 share/texmf-dist/tex/latex/tikzposter/tikzposter.cls
+share/texmf-dist/tex/latex/tikzposter/tikzposterBackgroundstyles.tex
+share/texmf-dist/tex/latex/tikzposter/tikzposterBlockstyles.tex
+share/texmf-dist/tex/latex/tikzposter/tikzposterColorpalettes.tex
+share/texmf-dist/tex/latex/tikzposter/tikzposterColorstyles.tex
+share/texmf-dist/tex/latex/tikzposter/tikzposterInnerblockstyles.tex
+share/texmf-dist/tex/latex/tikzposter/tikzposterLayoutthemes.tex
+share/texmf-dist/tex/latex/tikzposter/tikzposterNotestyles.tex
+share/texmf-dist/tex/latex/tikzposter/tikzposterTitlestyles.tex
 @dirrmtry share/texmf-dist/tex/latex/tikzposter
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex

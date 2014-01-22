@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	seminar
-PORTVERSION=	20140121
-PORTEPOCH=	1
+PORTNAME=	cv4tw
+PORTVERSION=	20140120
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Make overhead slides.
+COMMENT=	LaTeX CV class, with extended details.
 
 NOPORTSRC=	yes
 

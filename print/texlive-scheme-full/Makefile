@@ -89,6 +89,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-ieee/ieee-alphabetic.bbx:${PORTSDIR}/print/texlive-biblatex-ieee \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-juradiss/biblatex-juradiss.bbx:${PORTSDIR}/print/texlive-biblatex-juradiss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-luh-ipw/bbx/authoryear-luh-ipw.bbx:${PORTSDIR}/print/texlive-biblatex-luh-ipw \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-manuscript-philology/english-manuscripts.lbx:${PORTSDIR}/print/texlive-biblatex-manuscript-philology \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-mla/american-mla.lbx:${PORTSDIR}/print/texlive-biblatex-mla \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-musuos/german-musuos.lbx:${PORTSDIR}/print/texlive-biblatex-musuos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-nature/nature.bbx:${PORTSDIR}/print/texlive-biblatex-nature \
@@ -1155,6 +1156,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/currvita/currvita.sty:${PORTSDIR}/print/texlive-currvita \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cutwin/cutwin.sty:${PORTSDIR}/print/texlive-cutwin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cv/CV.sty:${PORTSDIR}/print/texlive-cv \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cv4tw/cv4tw.cls:${PORTSDIR}/print/texlive-cv4tw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cweb-latex/cwbl-german.sty:${PORTSDIR}/print/texlive-cweb-latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dashbox/dashbox.sty:${PORTSDIR}/print/texlive-dashbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dashrule/dashrule.sty:${PORTSDIR}/print/texlive-dashrule \
@@ -1928,7 +1930,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexbase/luatexbase.sty:${PORTSDIR}/print/texlive-luatexbase \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexko/luatexko.sty:${PORTSDIR}/print/texlive-luatexko \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luatextra/luatextra.sty:${PORTSDIR}/print/texlive-luatextra \
-		${LOCALBASE}/share/texmf-dist/tex/luatex/luaxml/luaxml-mod-handler.lua:${PORTSDIR}/print/texlive-luaxml \
+		${LOCALBASE}/share/texmf-dist/tex/luatex/luaxml/dom-sample.lua:${PORTSDIR}/print/texlive-luaxml \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/odsfile/odsfile.sty:${PORTSDIR}/print/texlive-odsfile \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/selnolig/selnolig.sty:${PORTSDIR}/print/texlive-selnolig \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/showhyphens/showhyphens.sty:${PORTSDIR}/print/texlive-showhyphens \
@@ -1957,6 +1959,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/mattens/mattens.sty:${PORTSDIR}/print/texlive-mattens \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mhequ/mhequ.sty:${PORTSDIR}/print/texlive-mhequ \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multiobjective/multiobjective.sty:${PORTSDIR}/print/texlive-multiobjective \
+		${LOCALBASE}/share/texmf-dist/tex/latex/natded/natded.sty:${PORTSDIR}/print/texlive-natded \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nath/nath.sty:${PORTSDIR}/print/texlive-nath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ot-tableau/ot-tableau.sty:${PORTSDIR}/print/texlive-ot-tableau \
 		${LOCALBASE}/share/texmf-dist/tex/latex/oubraces/oubraces.sty:${PORTSDIR}/print/texlive-oubraces \
