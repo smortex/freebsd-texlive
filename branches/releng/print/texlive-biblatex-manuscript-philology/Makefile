@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	seminar
+PORTNAME=	biblatex-manuscript-philology
 PORTVERSION=	20140121
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Make overhead slides.
+COMMENT=	Manage classical manuscripts with biblatex.
 
 NOPORTSRC=	yes
 

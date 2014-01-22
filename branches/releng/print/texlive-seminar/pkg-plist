@@ -12,6 +12,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/seminar/semsamp1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/seminar/semsamp2.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/seminar/semsamp2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/semsamp3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/semsamp3.tex
 share/texmf-dist/tex/latex/seminar/npsfont.sty
 share/texmf-dist/tex/latex/seminar/sem-a4.sty
 share/texmf-dist/tex/latex/seminar/sem-dem.sty
