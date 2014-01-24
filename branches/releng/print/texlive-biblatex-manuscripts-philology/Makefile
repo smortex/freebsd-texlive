@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	pstricks-add
+PORTNAME=	biblatex-manuscripts-philology
 PORTVERSION=	20140123
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A collection of add-ons and bugfixes for PSTricks.
+COMMENT=	Manage classical manuscripts with biblatex.
 
 NOPORTSRC=	yes
 
