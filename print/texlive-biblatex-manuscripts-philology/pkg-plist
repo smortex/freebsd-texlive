@@ -1,0 +1,21 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-manuscripts-philology/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-manuscripts-philology/documentation/biblatex-manuscripts-philology.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-manuscripts-philology/documentation/biblatex-manuscripts-philology.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-manuscripts-philology/documentation/example.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-manuscripts-philology/documentation/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-manuscripts-philology/documentation/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-manuscripts-philology/documentation/makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-manuscripts-philology/makefile
+share/texmf-dist/tex/latex/biblatex-manuscripts-philology/english-manuscripts.lbx
+share/texmf-dist/tex/latex/biblatex-manuscripts-philology/french-manuscripts.lbx
+share/texmf-dist/tex/latex/biblatex-manuscripts-philology/manuscripts.bbx
+share/texmf-dist/tex/latex/biblatex-manuscripts-philology/manuscripts.dbx
+@dirrmtry share/texmf-dist/tex/latex/biblatex-manuscripts-philology
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/biblatex-manuscripts-philology/documentation
+@dirrmtry share/texmf-dist/doc/latex/biblatex-manuscripts-philology
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

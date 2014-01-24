@@ -1,5 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/seminar/Changes
 %%PORTDOCS%%share/texmf-dist/doc/latex/seminar/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/seminar/run.sh
 %%PORTDOCS%%share/texmf-dist/doc/latex/seminar/sem-code.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/seminar/sem-make.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/seminar/seminar-doc.pdf
