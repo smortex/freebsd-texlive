@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-opm/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-opm/tikz-opm.pdf
+share/texmf-dist/tex/latex/tikz-opm/tikz-opm.sty
+@dirrmtry share/texmf-dist/tex/latex/tikz-opm
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/tikz-opm
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
