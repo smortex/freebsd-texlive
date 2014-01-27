@@ -1,38 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/expex/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/expex/expex-doc-source.zip
 %%PORTDOCS%%share/texmf-dist/doc/generic/expex/expex-doc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/0-index.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/0-tags.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/0.idx
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/0.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/0.toc
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/000doc-cover.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/01_intro.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/02_Examples.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/03_XKV.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/04_Ex.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/05_MultiPart-Basics.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/06_MoreExamples.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/07_UserStyles.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/08_Judgments.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/09_Glosses-Basic.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/10_Glosses-Advanced.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/11_Refs.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/12_Tables.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/13_PSTricks.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/14_PageBreaks.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/README-manual.txt
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/X-code-beta.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/X-contents.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/X-lingdoc.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/X-local-doc.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/X-mkindex.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/X-mybasics.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/X-sections.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/X-timesfonts.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/example1.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/example2.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/example3.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/expex/source/example4.tex
+share/texmf-dist/tex/generic/expex/epltxchapno.sty
 share/texmf-dist/tex/generic/expex/epltxfn.sty
 share/texmf-dist/tex/generic/expex/eptexfn.tex
 share/texmf-dist/tex/generic/expex/expex-demo.tex
@@ -41,7 +10,6 @@ share/texmf-dist/tex/generic/expex/expex.tex
 @dirrmtry share/texmf-dist/tex/generic/expex
 @dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/generic/expex/source
 @dirrmtry share/texmf-dist/doc/generic/expex
 @dirrmtry share/texmf-dist/doc/generic
 @dirrmtry share/texmf-dist/doc

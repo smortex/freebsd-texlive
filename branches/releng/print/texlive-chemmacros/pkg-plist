@@ -10,7 +10,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/chemmacros/ghsystem_en.tex
 share/texmf-dist/tex/latex/chemmacros/chemformula.sty
 share/texmf-dist/tex/latex/chemmacros/chemgreek.sty
-share/texmf-dist/tex/latex/chemmacros/chemmacros-version1.cfg
 share/texmf-dist/tex/latex/chemmacros/chemmacros.sty
 share/texmf-dist/tex/latex/chemmacros/ghsystem.sty
 share/texmf-dist/tex/latex/chemmacros/language/ghsystem_english.def
