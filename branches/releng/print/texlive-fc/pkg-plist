@@ -1,5 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fc/fc.bug
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fc/fc.rme
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fc/fclfont.sty_old
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fc/fctugbot.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fc/fontdef.fc_old
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fc/licence.gnu
@@ -482,7 +483,6 @@ share/texmf-dist/fonts/tfm/jknappen/fc/fcu7.tfm
 share/texmf-dist/fonts/tfm/jknappen/fc/fcu8.tfm
 share/texmf-dist/fonts/tfm/jknappen/fc/fcu9.tfm
 share/texmf-dist/tex/latex/fc/fclfont.sty
-share/texmf-dist/tex/latex/fc/fclfont.sty_old
 share/texmf-dist/tex/latex/fc/fcuse.sty
 share/texmf-dist/tex/latex/fc/t4cmr.fd
 share/texmf-dist/tex/latex/fc/t4cmss.fd
