@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cmextra
-PORTVERSION=	20100610
-PORTREVISION=	1
+PORTVERSION=	20140201
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The cmextra package
+COMMENT=	Knuth's local information.
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
