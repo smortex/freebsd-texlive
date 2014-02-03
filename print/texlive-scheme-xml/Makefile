@@ -59,8 +59,9 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORT
 		${LOCALBASE}/share/texmf-dist/dvips/bookman/config.ubk:${PORTSDIR}/print/texlive-bookman \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/bitstrea/charter/bchb8a.afm:${PORTSDIR}/print/texlive-charter \
 		${LOCALBASE}/share/texmf-dist/dvips/cm-super/cm-super.GS:${PORTSDIR}/print/texlive-cm-super \
-		${LOCALBASE}/share/texmf-dist/fonts/source/public/cmextra/cmbxcd10.mf:${PORTSDIR}/print/texlive-cmextra \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/cmextra/bible12.mf:${PORTSDIR}/print/texlive-cmextra \
 		${LOCALBASE}/share/texmf-dist/dvips/courier/config.ucr:${PORTSDIR}/print/texlive-courier \
+		${LOCALBASE}/share/texmf-dist/fonts/source/jknappen/ec/ecbi.mf:${PORTSDIR}/print/texlive-ec \
 		${LOCALBASE}/share/texmf-dist/tex/latex/euro/euro.sty:${PORTSDIR}/print/texlive-euro \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/euro-ce/ceit.mf:${PORTSDIR}/print/texlive-euro-ce \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eurosym/eurosym.sty:${PORTSDIR}/print/texlive-eurosym \

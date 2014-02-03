@@ -4,7 +4,6 @@ share/texmf-dist/fonts/source/public/misc/blackcx.mf
 share/texmf-dist/fonts/source/public/misc/blackimagen.mf
 share/texmf-dist/fonts/source/public/misc/blacklino.mf
 share/texmf-dist/fonts/source/public/misc/blacklj.mf
-share/texmf-dist/fonts/source/public/misc/cmman.mf
 share/texmf-dist/fonts/source/public/misc/gray.mf
 share/texmf-dist/fonts/source/public/misc/grayaps.mf
 share/texmf-dist/fonts/source/public/misc/graycx.mf
@@ -28,7 +27,6 @@ share/texmf-dist/fonts/source/public/misc/slantlj4.mf
 share/texmf-dist/fonts/source/public/misc/slantlj6.mf
 share/texmf-dist/fonts/tfm/public/misc/black.tfm
 share/texmf-dist/fonts/tfm/public/misc/blackcx.tfm
-share/texmf-dist/fonts/tfm/public/misc/cmman.tfm
 share/texmf-dist/fonts/tfm/public/misc/gray.tfm
 share/texmf-dist/fonts/tfm/public/misc/graycx.tfm
 share/texmf-dist/fonts/tfm/public/misc/grayimagen3.tfm
