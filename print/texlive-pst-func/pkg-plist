@@ -5,7 +5,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-func/pst-func-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-func/pst-func-doc.tex
 share/texmf-dist/dvips/pst-func/pst-func.pro
-%%PORTSRC%%share/texmf-dist/source/generic/pst-func/Makefile
 share/texmf-dist/tex/generic/pst-func/pst-func.tex
 share/texmf-dist/tex/latex/pst-func/pst-func.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-func
@@ -13,9 +12,6 @@ share/texmf-dist/tex/latex/pst-func/pst-func.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-func
 @dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/generic/pst-func
-@dirrmtry share/texmf-dist/source/generic
-@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/dvips/pst-func
 @dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/generic/pst-func
