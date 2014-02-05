@@ -1,0 +1,8 @@
+The package defines the command \perfectcut#1#2 which displays
+a bracket <#1||#2>. Its effect is to determine the size of the
+bracket depending on the number of nested \perfectcut
+(regardless of the contents). The command is intended for use:
+In proof theory, for term notations of sequent calculus, In
+computer science, for the modeling of abstract machines. The
+package also offers a reimplementation of \big, \bigg, etc.,
+into arbitrary-size variants.

@@ -12,7 +12,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/pktype.man1.pdf
 share/texmf-dist/mft/base/README
 share/texmf-dist/mft/base/cmbase.mft
-share/texmf-dist/mft/base/e.mft
 share/texmf-dist/mft/base/mplain.mft
 share/texmf-dist/mft/base/pl.mft
 share/texmf-dist/mft/base/plain.mft

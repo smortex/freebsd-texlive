@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/perfectcut/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/perfectcut/perfectcut.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/perfectcut/perfectcut.tex
+share/texmf-dist/tex/latex/perfectcut/perfectcut.sty
+@dirrmtry share/texmf-dist/tex/latex/perfectcut
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/perfectcut
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
