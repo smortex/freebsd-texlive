@@ -1,0 +1,24 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkgloader/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkgloader/pkgloader-packagedoc.cls
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkgloader/pkgloader.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkgloader/pkgloader.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkgloader/test1.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkgloader/test2.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkgloader/test3.sty
+share/texmf-dist/tex/latex/pkgloader/pkgloader-dry.sty
+share/texmf-dist/tex/latex/pkgloader/pkgloader-early.sty
+share/texmf-dist/tex/latex/pkgloader/pkgloader-error.sty
+share/texmf-dist/tex/latex/pkgloader/pkgloader-false.sty
+share/texmf-dist/tex/latex/pkgloader/pkgloader-late.sty
+share/texmf-dist/tex/latex/pkgloader/pkgloader-recommended.sty
+share/texmf-dist/tex/latex/pkgloader/pkgloader-test-rules.sty
+share/texmf-dist/tex/latex/pkgloader/pkgloader-true.sty
+share/texmf-dist/tex/latex/pkgloader/pkgloader.sty
+@dirrmtry share/texmf-dist/tex/latex/pkgloader
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/pkgloader
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
