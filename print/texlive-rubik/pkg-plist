@@ -1,0 +1,38 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/rubik/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/rubik/Rubik_doc_figA.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rubik/Rubik_doc_figB.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rubik/Rubik_doc_figC.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rubik/Rubik_doc_figD.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rubik/Rubik_doc_figE.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rubik/Rubikrot_doc_figA.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rubik/Rubikrot_doc_figB.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rubik/example-cube.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rubik/example-cube.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/rubik/example-rot1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rubik/example-rot1.sh
+%%PORTDOCS%%share/texmf-dist/doc/latex/rubik/example-rot1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/rubik/example-rot2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rubik/example-rot2.sh
+%%PORTDOCS%%share/texmf-dist/doc/latex/rubik/example-rot2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/rubik/rubikcube.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rubik/rubikrotation.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/rubik/rubikrotation.pl
+%%PORTSRC%%share/texmf-dist/source/latex/rubik/example-rot1.bat
+%%PORTSRC%%share/texmf-dist/source/latex/rubik/example-rot2.bat
+%%PORTSRC%%share/texmf-dist/source/latex/rubik/rubikcube.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/rubik/rubikcube.ins
+%%PORTSRC%%share/texmf-dist/source/latex/rubik/rubikrotation.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/rubik/rubikrotation.ins
+share/texmf-dist/tex/latex/rubik/rubikcube.sty
+share/texmf-dist/tex/latex/rubik/rubikrotation.sty
+@dirrmtry share/texmf-dist/tex/latex/rubik
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/rubik
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/rubik
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

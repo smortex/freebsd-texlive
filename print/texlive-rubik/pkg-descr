@@ -1,0 +1,5 @@
+The bundle provides two packages: rubikcube provides commands
+for typesetting Rubik cubes and their transformations; and
+rubikrotation which can process a sequence of Rubik rotation
+moves, with the help of a Perl package executed via \write18
+(shell escape) commands.

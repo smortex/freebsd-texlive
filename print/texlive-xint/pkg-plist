@@ -1,4 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/generic/xint/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/xint/xint.dtx
 %%PORTDOCS%%share/texmf-dist/doc/generic/xint/xint.pdf
 %%PORTSRC%%share/texmf-dist/source/generic/xint/xint.dtx
 %%PORTSRC%%share/texmf-dist/source/generic/xint/xint.ins
