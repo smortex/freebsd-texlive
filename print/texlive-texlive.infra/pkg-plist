@@ -32,7 +32,6 @@ share/release-texlive.txt
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/tlmgr.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/tlmgr.man1.pdf
 %%PORTDOCS%%share/texmf-dist/scripts/texlive/NEWS
-share/texmf-dist/scripts/texlive/tlmgr.pl
 share/texmf-dist/scripts/texlive/tlmgrgui.pl
 share/texmf-dist/scripts/texlive/uninstall-win32.pl
 share/texmf-dist/web2c/fmtutil-hdr.cnf
