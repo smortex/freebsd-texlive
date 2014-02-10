@@ -16,7 +16,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/rubik/example-rot2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/rubik/rubikcube.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/rubik/rubikrotation.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/rubik/rubikrotation.pl
+share/texmf-dist/scripts/rubik/rubikrotation.pl
 %%PORTSRC%%share/texmf-dist/source/latex/rubik/example-rot1.bat
 %%PORTSRC%%share/texmf-dist/source/latex/rubik/example-rot2.bat
 %%PORTSRC%%share/texmf-dist/source/latex/rubik/rubikcube.dtx
@@ -31,6 +31,8 @@ share/texmf-dist/tex/latex/rubik/rubikrotation.sty
 @dirrmtry share/texmf-dist/source/latex/rubik
 @dirrmtry share/texmf-dist/source/latex
 @dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/scripts/rubik
+@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/latex/rubik
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc
