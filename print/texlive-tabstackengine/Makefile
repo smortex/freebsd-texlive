@@ -1,12 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	suftesi
+PORTNAME=	tabstackengine
 PORTVERSION=	20140212
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A document class for typesetting theses, books and articles.
+COMMENT=	The tabstackengine package
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

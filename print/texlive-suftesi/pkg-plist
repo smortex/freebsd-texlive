@@ -1,22 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/suftesi.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/templates/collection/collection-art1.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/templates/collection/collection.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/templates/tesi-magistrale/Capitoli/primo.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/templates/tesi-magistrale/Capitoli/secondo.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/templates/tesi-magistrale/Capitoli/terzo.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/templates/tesi-magistrale/MaterialeInizialeFinale/Introduzione.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/templates/tesi-magistrale/MaterialeInizialeFinale/Ringraziamenti.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/templates/tesi-magistrale/cognome-tesi.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/templates/tesi-magistrale/cognome-tesi.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/templates/tesi-magistrale/immagini/don.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/templates/tesi-magistrale/immagini/lamport.jpg
-%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/templates/tesi-magistrale/immagini/logo.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/templates/tesi-triennale/cognome-tesi.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/templates/tesi-triennale/cognome-tesi.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/templates/tesi-triennale/immagini/don.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/templates/tesi-triennale/immagini/lamport.jpg
-%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/templates/tesi-triennale/immagini/logo.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/suftesi/templates.zip
 %%PORTSRC%%share/texmf-dist/source/latex/suftesi/suftesi.dtx
 share/texmf-dist/tex/latex/suftesi/suftesi.cls
 @dirrmtry share/texmf-dist/tex/latex/suftesi
@@ -25,14 +9,6 @@ share/texmf-dist/tex/latex/suftesi/suftesi.cls
 @dirrmtry share/texmf-dist/source/latex/suftesi
 @dirrmtry share/texmf-dist/source/latex
 @dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/doc/latex/suftesi/templates/tesi-triennale/immagini
-@dirrmtry share/texmf-dist/doc/latex/suftesi/templates/tesi-triennale
-@dirrmtry share/texmf-dist/doc/latex/suftesi/templates/tesi-magistrale/immagini
-@dirrmtry share/texmf-dist/doc/latex/suftesi/templates/tesi-magistrale/MaterialeInizialeFinale
-@dirrmtry share/texmf-dist/doc/latex/suftesi/templates/tesi-magistrale/Capitoli
-@dirrmtry share/texmf-dist/doc/latex/suftesi/templates/tesi-magistrale
-@dirrmtry share/texmf-dist/doc/latex/suftesi/templates/collection
-@dirrmtry share/texmf-dist/doc/latex/suftesi/templates
 @dirrmtry share/texmf-dist/doc/latex/suftesi
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc
