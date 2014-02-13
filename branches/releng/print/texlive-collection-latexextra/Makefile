@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20140204
+PORTVERSION=	20140212
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1024,6 +1024,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tableof/tableof.sty:${PORTSDIR}/print/texlive-tableof \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tablists/tablists.sty:${PORTSDIR}/print/texlive-tablists \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabls/tabls.sty:${PORTSDIR}/print/texlive-tabls \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tabstackengine/tabstackengine.sty:${PORTSDIR}/print/texlive-tabstackengine \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabto-ltx/tabto.sty:${PORTSDIR}/print/texlive-tabto-ltx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabu/tabu.sty:${PORTSDIR}/print/texlive-tabu \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabularborder/tabularborder.sty:${PORTSDIR}/print/texlive-tabularborder \
