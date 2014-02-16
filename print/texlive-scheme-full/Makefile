@@ -25,6 +25,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
 		${LOCALBASE}/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty:${PORTSDIR}/print/texlive-ifluatex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty:${PORTSDIR}/print/texlive-ifxetex \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/knuth-lib/grayf.mf:${PORTSDIR}/print/texlive-knuth-lib \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/knuth-local/black.mf:${PORTSDIR}/print/texlive-knuth-local \
 		${LOCALBASE}/share/texmf-dist/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
 		${LOCALBASE}/share/texmf-dist/scripts/lua-alt-getopt/alt_getopt.lua:${PORTSDIR}/print/texlive-lua-alt-getopt \
@@ -33,7 +34,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/metafont/base/expr.mf:${PORTSDIR}/print/texlive-metafont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mflogo/mflogo.sty:${PORTSDIR}/print/texlive-mflogo \
 		${LOCALBASE}/share/texmf-dist/mft/base/README:${PORTSDIR}/print/texlive-mfware \
-		${LOCALBASE}/share/texmf-dist/fonts/source/public/misc/blackcx.mf:${PORTSDIR}/print/texlive-misc \
+		${LOCALBASE}/share/texmf-dist/omega/ocp/misc/ebcdic.ocp:${PORTSDIR}/print/texlive-misc \
 		${LOCALBASE}/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map:${PORTSDIR}/print/texlive-pdftex \
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
@@ -497,6 +498,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/othelloboard/othelloboard.sty:${PORTSDIR}/print/texlive-othelloboard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pas-crosswords/pas-crosswords.sty:${PORTSDIR}/print/texlive-pas-crosswords \
 		${LOCALBASE}/share/texmf-dist/tex/latex/psgo/psgo.sty:${PORTSDIR}/print/texlive-psgo \
+		${LOCALBASE}/share/texmf-dist/scripts/rubik/rubikrotation.pl:${PORTSDIR}/print/texlive-rubik \
 		${LOCALBASE}/share/texmf-dist/tex/latex/schwalbe-chess/schwalbe.cls:${PORTSDIR}/print/texlive-schwalbe-chess \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sgame/sgame.sty:${PORTSDIR}/print/texlive-sgame \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skak/skak.sty:${PORTSDIR}/print/texlive-skak \
@@ -1781,6 +1783,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tableof/tableof.sty:${PORTSDIR}/print/texlive-tableof \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tablists/tablists.sty:${PORTSDIR}/print/texlive-tablists \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabls/tabls.sty:${PORTSDIR}/print/texlive-tabls \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tabstackengine/tabstackengine.sty:${PORTSDIR}/print/texlive-tabstackengine \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabto-ltx/tabto.sty:${PORTSDIR}/print/texlive-tabto-ltx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabu/tabu.sty:${PORTSDIR}/print/texlive-tabu \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabularborder/tabularborder.sty:${PORTSDIR}/print/texlive-tabularborder \

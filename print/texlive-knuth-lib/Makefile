@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	misc
+PORTNAME=	knuth-lib
 PORTVERSION=	20140215
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The misc package
+COMMENT=	A small library of MetaFont sources.
 
 NOPORTDOCS=	yes
 NOPORTSRC=	yes
