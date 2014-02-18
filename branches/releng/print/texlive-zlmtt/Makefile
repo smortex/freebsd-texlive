@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	biblatex-philosophy
+PORTNAME=	zlmtt
 PORTVERSION=	20140217
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Styles for using biblatex for work in philosophy.
+COMMENT=	Use Latin Modern Typewriter fonts.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
