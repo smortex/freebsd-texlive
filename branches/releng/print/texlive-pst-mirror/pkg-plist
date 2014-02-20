@@ -1,10 +1,19 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-mirror/Changes
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-mirror/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-mirror/createEPS/make.sh
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-mirror/createEPS/script.readme
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-mirror/createEPS/scripts/filtre.pl
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-mirror/createEPS/test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-mirror/createEPS/test.sh
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-mirror/createEPS/test.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-mirror/createEPS/xa.eps
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-mirror/createEPS/xa.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-mirror/createEPS/xb.eps
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-mirror/createEPS/xc.eps
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-mirror/pst-mirror-doc.bib
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-mirror/pst-mirror-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-mirror/pst-mirror-doc.tex
 share/texmf-dist/dvips/pst-mirror/pst-mirror.pro
-%%PORTSRC%%share/texmf-dist/source/generic/pst-mirror/Makefile
 share/texmf-dist/tex/generic/pst-mirror/pst-mirror.tex
 share/texmf-dist/tex/latex/pst-mirror/pst-mirror.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-mirror
@@ -12,11 +21,10 @@ share/texmf-dist/tex/latex/pst-mirror/pst-mirror.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-mirror
 @dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/generic/pst-mirror
-@dirrmtry share/texmf-dist/source/generic
-@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/dvips/pst-mirror
 @dirrmtry share/texmf-dist/dvips
+@dirrmtry share/texmf-dist/doc/generic/pst-mirror/createEPS/scripts
+@dirrmtry share/texmf-dist/doc/generic/pst-mirror/createEPS
 @dirrmtry share/texmf-dist/doc/generic/pst-mirror
 @dirrmtry share/texmf-dist/doc/generic
 @dirrmtry share/texmf-dist/doc

@@ -2,6 +2,7 @@ share/texmf-dist/bibtex/bst/udesoftec/udesoftec.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/udesoftec/udesoftec-doc.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/udesoftec/CHANGELOG
 %%PORTSRC%%share/texmf-dist/source/latex/udesoftec/README
+%%PORTSRC%%share/texmf-dist/source/latex/udesoftec/UPDATE-INSTRUCTIONS
 %%PORTSRC%%share/texmf-dist/source/latex/udesoftec/VERSION
 %%PORTSRC%%share/texmf-dist/source/latex/udesoftec/udesoftec-doc-examplebib.bib
 %%PORTSRC%%share/texmf-dist/source/latex/udesoftec/udesoftec-doc-exampleimage.pdf
