@@ -1,0 +1,3 @@
+The package computes the intersections between arbitrary
+Postscript paths or Bezier curves, using the Bezier clipping
+algorithm.
