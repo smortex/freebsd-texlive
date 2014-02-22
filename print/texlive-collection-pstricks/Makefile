@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-pstricks
-PORTVERSION=	20131231
+PORTVERSION=	20140221
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -92,6 +92,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-grad/pst-grad.tex:${PORTSDIR}/print/texlive-pst-grad \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-graphicx/pst-graphicx.tex:${PORTSDIR}/print/texlive-pst-graphicx \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-infixplot/pst-infixplot.tex:${PORTSDIR}/print/texlive-pst-infixplot \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-intersect/pst-intersect.tex:${PORTSDIR}/print/texlive-pst-intersect \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-jtree/pst-jtree.tex:${PORTSDIR}/print/texlive-pst-jtree \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-knot/pst-knot.tex:${PORTSDIR}/print/texlive-pst-knot \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-labo/pst-labo.tex:${PORTSDIR}/print/texlive-pst-labo \

@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	tabstackengine
+PORTNAME=	pst-intersect
 PORTVERSION=	20140221
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	"Tabbing" front-end to stackengine.
+COMMENT=	Intersecting arbitrary curves
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
