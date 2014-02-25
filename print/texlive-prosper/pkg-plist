@@ -1,3 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/prosper/AUTHORS
+%%PORTDOCS%%share/texmf-dist/doc/latex/prosper/ChangeLog
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/Example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/ExampleAlienglow.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/ExampleAutumn.tex
@@ -9,8 +11,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/ExampleNuanceGris.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/ExampleTroisPoints.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/FAQ
+%%PORTDOCS%%share/texmf-dist/doc/latex/prosper/INSTALL
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/NEWS
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/prosper/TODO
+%%PORTDOCS%%share/texmf-dist/doc/latex/prosper/compilation.fig
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/green-bullet-on-blue-wc.gif
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/green-bullet-on-blue.gif
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/green-bullet-on-white.gif
@@ -18,26 +23,21 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/manifest.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/prosper-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/prosper-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/prosper/prosper-structure.fig
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/prosper-template.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/prosper-tour.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/prosper-tour.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/prosper/prosper.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/prosper/prosper.ui
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/red-bullet-on-blue-wc.gif
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/red-bullet-on-blue.gif
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/red-bullet-on-white.gif
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/rico.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/rotation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/prosper/seminar-bg2-lepennec.fix
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/yellow-bullet-on-blue-wc.gif
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/yellow-bullet-on-blue.gif
 %%PORTDOCS%%share/texmf-dist/doc/latex/prosper/yellow-bullet-on-white.gif
-%%PORTSRC%%share/texmf-dist/source/latex/prosper/AUTHORS
-%%PORTSRC%%share/texmf-dist/source/latex/prosper/ChangeLog
-%%PORTSRC%%share/texmf-dist/source/latex/prosper/INSTALL
-%%PORTSRC%%share/texmf-dist/source/latex/prosper/TODO
-%%PORTSRC%%share/texmf-dist/source/latex/prosper/compilation.fig
-%%PORTSRC%%share/texmf-dist/source/latex/prosper/prosper-structure.fig
-%%PORTSRC%%share/texmf-dist/source/latex/prosper/prosper.png
-%%PORTSRC%%share/texmf-dist/source/latex/prosper/prosper.ui
-%%PORTSRC%%share/texmf-dist/source/latex/prosper/seminar-bg2-lepennec.fix
 share/texmf-dist/tex/latex/prosper/PPRalcatel.sty
 share/texmf-dist/tex/latex/prosper/PPRalienglow.sty
 share/texmf-dist/tex/latex/prosper/PPRautumn.sty
@@ -97,9 +97,6 @@ share/texmf-dist/tex/latex/prosper/yellow-bullet-on-white.ps
 @dirrmtry share/texmf-dist/tex/latex/prosper
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/latex/prosper
-@dirrmtry share/texmf-dist/source/latex
-@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/latex/prosper
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc
