@@ -2,6 +2,10 @@ share/texmf-dist/fonts/source/public/knuth-lib/grayf.mf
 share/texmf-dist/fonts/source/public/knuth-lib/manfnt.mf
 share/texmf-dist/fonts/source/public/knuth-lib/slant.mf
 share/texmf-dist/fonts/tfm/public/knuth-lib/manfnt.tfm
+share/texmf-dist/tex/generic/knuth-lib/null.tex
+@dirrmtry share/texmf-dist/tex/generic/knuth-lib
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/fonts/tfm/public/knuth-lib
 @dirrmtry share/texmf-dist/fonts/tfm/public
 @dirrmtry share/texmf-dist/fonts/tfm

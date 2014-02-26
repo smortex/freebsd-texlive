@@ -33,7 +33,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/metafont/base/expr.mf:${PORTSDIR}/print/texlive-metafont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mflogo/mflogo.sty:${PORTSDIR}/print/texlive-mflogo \
 		${LOCALBASE}/share/texmf-dist/mft/base/README:${PORTSDIR}/print/texlive-mfware \
-		${LOCALBASE}/share/texmf-dist/omega/ocp/misc/ebcdic.ocp:${PORTSDIR}/print/texlive-misc \
 		${LOCALBASE}/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map:${PORTSDIR}/print/texlive-pdftex \
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
@@ -149,7 +148,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/sageep/sageep.cls:${PORTSDIR}/print/texlive-sageep \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sapthesis/sapthesis.cls:${PORTSDIR}/print/texlive-sapthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/scrjrnl/scrjrnl.cls:${PORTSDIR}/print/texlive-scrjrnl \
-		${LOCALBASE}/share/texmf-dist/tex/latex/seuthesis/seuthesis.cls:${PORTSDIR}/print/texlive-seuthesis \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/seuthesis/seuthesis.bst:${PORTSDIR}/print/texlive-seuthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/soton/soton-beamer.sty:${PORTSDIR}/print/texlive-soton \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spie/spie.cls:${PORTSDIR}/print/texlive-spie \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sr-vorl/sr-vorl.cls:${PORTSDIR}/print/texlive-sr-vorl \
