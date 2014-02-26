@@ -26,6 +26,10 @@ share/texmf-dist/fonts/tfm/public/knuth-local/domino.tfm
 share/texmf-dist/fonts/tfm/public/knuth-local/random.tfm
 share/texmf-dist/fonts/tfm/public/knuth-local/snfont.tfm
 share/texmf-dist/mft/knuth-local/e.mft
+share/texmf-dist/tex/plain/knuth-local/xepsf.tex
+@dirrmtry share/texmf-dist/tex/plain/knuth-local
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/mft/knuth-local
 @dirrmtry share/texmf-dist/mft
 @dirrmtry share/texmf-dist/fonts/tfm/public/knuth-local
