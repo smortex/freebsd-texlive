@@ -53,6 +53,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/tools/verbatim.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tools/xr.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tools/xspace.dtx
+share/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/tools/make_gd_wrap.lua
 share/texmf-dist/tex/latex/tools/.tex
 share/texmf-dist/tex/latex/tools/afterpage.sty
 share/texmf-dist/tex/latex/tools/array.sty
@@ -94,6 +95,13 @@ share/texmf-dist/tex/latex/tools/xr.sty
 share/texmf-dist/tex/latex/tools/xspace.sty
 @dirrmtry share/texmf-dist/tex/latex/tools
 @dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/tools
+@dirrmtry share/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd
+@dirrmtry share/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf
+@dirrmtry share/texmf-dist/tex/generic/pgf/graphdrawing/lua
+@dirrmtry share/texmf-dist/tex/generic/pgf/graphdrawing
+@dirrmtry share/texmf-dist/tex/generic/pgf
+@dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/tools
 @dirrmtry share/texmf-dist/source/latex

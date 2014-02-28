@@ -13,6 +13,10 @@ share/texmf-dist/makeindex/base/math.ist
 share/texmf-dist/makeindex/base/mkind.ist
 share/texmf-dist/makeindex/base/puncts.ist
 share/texmf-dist/makeindex/base/tex.ist
+share/texmf-dist/tex/plain/makeindex/idxmac.tex
+@dirrmtry share/texmf-dist/tex/plain/makeindex
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/makeindex/base
 @dirrmtry share/texmf-dist/makeindex
 @dirrmtry share/texmf-dist/doc/support/makeindex
