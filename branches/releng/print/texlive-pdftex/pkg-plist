@@ -55,6 +55,7 @@ share/texmf-dist/fonts/map/pdftex/updmap/pdftex_ndl14.map
 share/texmf-dist/tex/generic/config/pdftex-dvi.tex
 share/texmf-dist/tex/generic/config/pdftexconfig.tex
 share/texmf-dist/tex/generic/pdftex/glyphtounicode.tex
+share/texmf-dist/tex/generic/pdftex/pdfcolor.tex
 @dirrmtry share/texmf-dist/tex/generic/pdftex
 @dirrmtry share/texmf-dist/tex/generic/config
 @dirrmtry share/texmf-dist/tex/generic
