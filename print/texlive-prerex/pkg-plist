@@ -5,24 +5,23 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/chart.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/chart.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/dashed.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/doc/intro.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/doc/intro.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/doc/introFonts.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/doc/introchart1.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/doc/introchart2.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/doc/prerex.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/doc/prerex.sty.7
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/doc/prerex.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/dotted.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/intro.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/intro.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/introFonts.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/introchart1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/introchart2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/lightbox.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/prerex-6.5.2.tar.gz
+%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/prerex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/prerex.sty.7
+%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/prerex.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/solid.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/vprerex-6.4.2.tar.gz
 share/texmf-dist/tex/latex/prerex/prerex.sty
 @dirrmtry share/texmf-dist/tex/latex/prerex
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/latex/prerex/doc
 @dirrmtry share/texmf-dist/doc/latex/prerex
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc
