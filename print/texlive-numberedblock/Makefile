@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	numberedblock
-PORTVERSION=	20130321
+PORTVERSION=	20140307
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The numberedblock package
+COMMENT=	Print a block of code, with unique index number.
 
 NOPORTSRC=	yes
 

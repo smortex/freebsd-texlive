@@ -1,5 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/listings/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/listings/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/listings/listings-acm.prf
+%%PORTDOCS%%share/texmf-dist/doc/latex/listings/listings-fortran.prf
 %%PORTDOCS%%share/texmf-dist/doc/latex/listings/listings-lua.prf
 %%PORTDOCS%%share/texmf-dist/doc/latex/listings/listings-python.prf
 %%PORTDOCS%%share/texmf-dist/doc/latex/listings/listings.pdf

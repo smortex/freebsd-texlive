@@ -1,10 +1,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-cd/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-cd/tikz-cd-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-cd/tikz-cd-doc.tex
+share/texmf-dist/tex/generic/tikz-cd/tikzlibrarycd.code.tex
 share/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty
-share/texmf-dist/tex/latex/tikz-cd/tikzlibrarycd.code.tex
 @dirrmtry share/texmf-dist/tex/latex/tikz-cd
 @dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex/generic/tikz-cd
+@dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/latex/tikz-cd
 @dirrmtry share/texmf-dist/doc/latex

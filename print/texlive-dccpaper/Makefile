@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	media9
-PORTVERSION=	20140307
+PORTNAME=	dccpaper
+PORTVERSION=	20140308
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multimedia inclusion package with Adobe Reader-9/X compatibility.
+COMMENT=	Typeset papers for the International Journal of Digital Curation
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

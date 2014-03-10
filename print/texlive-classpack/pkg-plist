@@ -1,0 +1,27 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/classpack/MANIFEST
+%%PORTDOCS%%share/texmf-dist/doc/support/classpack/README
+%%PORTDOCS%%share/texmf-dist/doc/support/classpack/classpack.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/classpack/db2bibtex.xsl
+%%PORTDOCS%%share/texmf-dist/doc/support/classpack/db2dtx.xsl
+%%PORTDOCS%%share/texmf-dist/doc/support/classpack/db2plaintext.xsl
+%%PORTDOCS%%share/texmf-dist/doc/support/classpack/decommentbbl.awk
+%%PORTDOCS%%share/texmf-dist/doc/support/classpack/doctexbook.dtd
+%%PORTDOCS%%share/texmf-dist/doc/support/classpack/getgis.sh
+%%PORTDOCS%%share/texmf-dist/doc/support/classpack/lppl.xml
+%%PORTDOCS%%share/texmf-dist/doc/support/classpack/prepost.xml
+%%PORTDOCS%%share/texmf-dist/doc/support/classpack/readme.xml
+%%PORTDOCS%%share/texmf-dist/doc/support/classpack/test.sh
+%%PORTSRC%%share/texmf-dist/source/support/classpack/classpack.dtx
+%%PORTSRC%%share/texmf-dist/source/support/classpack/classpack.ins
+share/texmf-dist/tex/latex/classpack/classpack.sty
+@dirrmtry share/texmf-dist/tex/latex/classpack
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/support/classpack
+@dirrmtry share/texmf-dist/source/support
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/support/classpack
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
