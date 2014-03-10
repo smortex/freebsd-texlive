@@ -22,7 +22,9 @@ share/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.t
 share/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex
 share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.colormaps.code.tex
 share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.dateplot.code.tex
+share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.decorations.softclip.code.tex
 share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.external.code.tex
+share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.fillbetween.code.tex
 share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.groupplots.code.tex
 share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.patchplots.code.tex
 share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.polar.code.tex
@@ -48,15 +50,20 @@ share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfcores
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfkeys.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfkeysfiltered.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryfpu.code.tex
+share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryintersections.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryplothandlers.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfmanual.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfmanual.pdflinks.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfmanual.prettyprinter.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfmathfloat.code.tex
+share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_tikzexternal.sty
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_tikzexternalshared.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_tikzlibraryexternal.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfplotscompatib/tikzlibrarydateplot.code.tex
+share/texmf-dist/tex/generic/pgfplots/pgfcontrib/pgflibraryfillbetween.code.tex
+share/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrarydecorations.softclip.code.tex
+share/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibraryfillbetween.code.tex
 share/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 share/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
 share/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
@@ -98,6 +105,7 @@ share/texmf-dist/tex/plain/pgfplots/pgfplotstable.tex
 @dirrmtry share/texmf-dist/tex/generic/pgfplots/util
 @dirrmtry share/texmf-dist/tex/generic/pgfplots/test
 @dirrmtry share/texmf-dist/tex/generic/pgfplots/sys
+@dirrmtry share/texmf-dist/tex/generic/pgfplots/pgfcontrib
 @dirrmtry share/texmf-dist/tex/generic/pgfplots/oldpgfplotscompatib
 @dirrmtry share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib
 @dirrmtry share/texmf-dist/tex/generic/pgfplots/numtable

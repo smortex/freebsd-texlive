@@ -67,7 +67,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/pslatex/pslatex.sty:${PORTSDIR}/print/texlive-pslatex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/psnfss/charter.map:${PORTSDIR}/print/texlive-psnfss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pspicture/pspicture.sty:${PORTSDIR}/print/texlive-pspicture \
-		${LOCALBASE}/share/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/tools/make_gd_wrap.lua:${PORTSDIR}/print/texlive-tools \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tools/.tex:${PORTSDIR}/print/texlive-tools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/url/url.sty:${PORTSDIR}/print/texlive-url \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/aichej/aichej.bst:${PORTSDIR}/print/texlive-aichej \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsrefs/amsrefs.sty:${PORTSDIR}/print/texlive-amsrefs \
@@ -557,6 +557,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/path/path.sty:${PORTSDIR}/print/texlive-path \
 		${LOCALBASE}/share/texmf-dist/dvips/tex-ps/crops.pro:${PORTSDIR}/print/texlive-tex-ps \
 		${LOCALBASE}/share/texmf-dist/tex/generic/ulem/ulem.sty:${PORTSDIR}/print/texlive-ulem \
+		${LOCALBASE}/share/texmf-dist/tex/latex/classpack/classpack.sty:${PORTSDIR}/print/texlive-classpack \
 		${LOCALBASE}/share/texmf-dist/tex/jadetex/base/dsssl.def:${PORTSDIR}/print/texlive-jadetex \
 		${LOCALBASE}/share/texmf-dist/tex/xmltex/passivetex/dummyels.sty:${PORTSDIR}/print/texlive-passivetex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/tex4ht/tex4ht.sty:${PORTSDIR}/print/texlive-tex4ht \
@@ -1756,7 +1757,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/storebox/storebox.sty:${PORTSDIR}/print/texlive-storebox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/storecmd/storecmd.sty:${PORTSDIR}/print/texlive-storecmd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stringstrings/stringstrings.sty:${PORTSDIR}/print/texlive-stringstrings \
-		${LOCALBASE}/share/texmf-dist/tex/latex/sttools/boundbox.sty:${PORTSDIR}/print/texlive-sttools \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sttools/cuted.sty:${PORTSDIR}/print/texlive-sttools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stubs/stubs.sty:${PORTSDIR}/print/texlive-stubs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/subdepth/subdepth.sty:${PORTSDIR}/print/texlive-subdepth \
 		${LOCALBASE}/share/texmf-dist/tex/latex/subeqn/subeqn.sty:${PORTSDIR}/print/texlive-subeqn \
@@ -2184,6 +2185,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/classicthesis/classicthesis.sty:${PORTSDIR}/print/texlive-classicthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmpj/cmpj.sty:${PORTSDIR}/print/texlive-cmpj \
 		${LOCALBASE}/share/texmf-dist/tex/latex/confproc/confproc.cls:${PORTSDIR}/print/texlive-confproc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dccpaper/idcc.cls:${PORTSDIR}/print/texlive-dccpaper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebook/ebook.sty:${PORTSDIR}/print/texlive-ebook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebsthesis/ebsthesis.cls:${PORTSDIR}/print/texlive-ebsthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ejpecp/ejpecp.cls:${PORTSDIR}/print/texlive-ejpecp \

@@ -1,5 +1,5 @@
-%%PORTDOCS%%share/texmf-dist/doc/context/third/rst/COPYING
-%%PORTDOCS%%share/texmf-dist/doc/context/third/rst/README.rst
+%%PORTDOCS%%share/texmf-dist/doc/context/third/rst/OMakefile
+%%PORTDOCS%%share/texmf-dist/doc/context/third/rst/OMakefile.omc
 %%PORTDOCS%%share/texmf-dist/doc/context/third/rst/documentation.rst
 %%PORTDOCS%%share/texmf-dist/doc/context/third/rst/hybridtest.tex
 %%PORTDOCS%%share/texmf-dist/doc/context/third/rst/inc-first.rst

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20140204
+PORTVERSION=	20140308
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -66,7 +66,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/pslatex/pslatex.sty:${PORTSDIR}/print/texlive-pslatex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/psnfss/charter.map:${PORTSDIR}/print/texlive-psnfss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pspicture/pspicture.sty:${PORTSDIR}/print/texlive-pspicture \
-		${LOCALBASE}/share/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/tools/make_gd_wrap.lua:${PORTSDIR}/print/texlive-tools \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tools/.tex:${PORTSDIR}/print/texlive-tools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/url/url.sty:${PORTSDIR}/print/texlive-url \
 		${LOCALBASE}/share/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls:${PORTSDIR}/print/texlive-IEEEconf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls:${PORTSDIR}/print/texlive-IEEEtran \
@@ -95,6 +95,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/classicthesis/classicthesis.sty:${PORTSDIR}/print/texlive-classicthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmpj/cmpj.sty:${PORTSDIR}/print/texlive-cmpj \
 		${LOCALBASE}/share/texmf-dist/tex/latex/confproc/confproc.cls:${PORTSDIR}/print/texlive-confproc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dccpaper/idcc.cls:${PORTSDIR}/print/texlive-dccpaper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebook/ebook.sty:${PORTSDIR}/print/texlive-ebook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebsthesis/ebsthesis.cls:${PORTSDIR}/print/texlive-ebsthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ejpecp/ejpecp.cls:${PORTSDIR}/print/texlive-ejpecp \

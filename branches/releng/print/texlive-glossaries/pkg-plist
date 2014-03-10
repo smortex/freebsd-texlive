@@ -39,6 +39,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-mfirstuc.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-newkeys.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-newkeys.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-noidxapp-utf8.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-noidxapp-utf8.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-noidxapp.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-noidxapp.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-nomathhyper.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-nomathhyper.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-numberlist.pdf

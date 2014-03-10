@@ -66,7 +66,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/pslatex/pslatex.sty:${PORTSDIR}/print/texlive-pslatex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/psnfss/charter.map:${PORTSDIR}/print/texlive-psnfss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pspicture/pspicture.sty:${PORTSDIR}/print/texlive-pspicture \
-		${LOCALBASE}/share/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/tools/make_gd_wrap.lua:${PORTSDIR}/print/texlive-tools \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tools/.tex:${PORTSDIR}/print/texlive-tools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/url/url.sty:${PORTSDIR}/print/texlive-url \
 		${LOCALBASE}/share/texmf-dist/tex/latex/anysize/anysize.sty:${PORTSDIR}/print/texlive-anysize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamer/beamer.cls:${PORTSDIR}/print/texlive-beamer \
@@ -997,7 +997,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/storebox/storebox.sty:${PORTSDIR}/print/texlive-storebox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/storecmd/storecmd.sty:${PORTSDIR}/print/texlive-storecmd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stringstrings/stringstrings.sty:${PORTSDIR}/print/texlive-stringstrings \
-		${LOCALBASE}/share/texmf-dist/tex/latex/sttools/boundbox.sty:${PORTSDIR}/print/texlive-sttools \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sttools/cuted.sty:${PORTSDIR}/print/texlive-sttools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stubs/stubs.sty:${PORTSDIR}/print/texlive-stubs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/subdepth/subdepth.sty:${PORTSDIR}/print/texlive-subdepth \
 		${LOCALBASE}/share/texmf-dist/tex/latex/subeqn/subeqn.sty:${PORTSDIR}/print/texlive-subeqn \
