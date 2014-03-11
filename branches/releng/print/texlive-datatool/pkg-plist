@@ -31,6 +31,8 @@ share/texmf-dist/bibtex/bst/datatool/databib.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/sample-datatooltk.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/sample-dict.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/sample-dict.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/sample-europecv-bib.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/sample-europecv-bib.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/sample-gidx.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/sample-gidx.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/sample-glossary.pdf
