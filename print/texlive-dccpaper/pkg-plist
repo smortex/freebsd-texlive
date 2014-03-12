@@ -1,14 +1,14 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/dccpaper/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/dccpaper/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/dccpaper/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/dccpaper/dccpaper-apacite.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/dccpaper/dccpaper-base.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/dccpaper/dccpaper-biblatex.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/dccpaper/dccpaper-by.eps
-%%PORTDOCS%%share/texmf-dist/doc/latex/dccpaper/dccpaper-by.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/dccpaper/dccpaper.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/dccpaper/Makefile
 %%PORTSRC%%share/texmf-dist/source/latex/dccpaper/dccpaper.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/dccpaper/dccpaper.ins
+share/texmf-dist/tex/latex/dccpaper/dccpaper-base.tex
+share/texmf-dist/tex/latex/dccpaper/dccpaper-by.eps
+share/texmf-dist/tex/latex/dccpaper/dccpaper-by.pdf
 share/texmf-dist/tex/latex/dccpaper/idcc.cls
 share/texmf-dist/tex/latex/dccpaper/ijdc-v9.cls
 @dirrmtry share/texmf-dist/tex/latex/dccpaper
