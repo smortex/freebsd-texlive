@@ -203,6 +203,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/texdiff/texdiff:${PORTSDIR}/print/texlive-texdiff \
 		${LOCALBASE}/share/texmf-dist/scripts/texdirflatten/texdirflatten:${PORTSDIR}/print/texlive-texdirflatten \
 		${LOCALBASE}/share/texmf-dist/scripts/texdoc/Data.meta.lua:${PORTSDIR}/print/texlive-texdoc \
+		${LOCALBASE}/share/texmf-dist/scripts/texfot/texfot.pl:${PORTSDIR}/print/texlive-texfot \
 		${LOCALBASE}/share/texmf-dist/scripts/texliveonfly/texliveonfly.py:${PORTSDIR}/print/texlive-texliveonfly \
 		${LOCALBASE}/share/texmf-dist/scripts/texloganalyser/texloganalyser:${PORTSDIR}/print/texlive-texloganalyser \
 		${LOCALBASE}/share/texmf-dist/scripts/typeoutfileinfo/typeoutfileinfo.sh:${PORTSDIR}/print/texlive-typeoutfileinfo \
@@ -2185,7 +2186,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/classicthesis/classicthesis.sty:${PORTSDIR}/print/texlive-classicthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmpj/cmpj.sty:${PORTSDIR}/print/texlive-cmpj \
 		${LOCALBASE}/share/texmf-dist/tex/latex/confproc/confproc.cls:${PORTSDIR}/print/texlive-confproc \
-		${LOCALBASE}/share/texmf-dist/tex/latex/dccpaper/idcc.cls:${PORTSDIR}/print/texlive-dccpaper \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dccpaper/dccpaper-base.tex:${PORTSDIR}/print/texlive-dccpaper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebook/ebook.sty:${PORTSDIR}/print/texlive-ebook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebsthesis/ebsthesis.cls:${PORTSDIR}/print/texlive-ebsthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ejpecp/ejpecp.cls:${PORTSDIR}/print/texlive-ejpecp \

@@ -102,6 +102,7 @@ share/texmf-dist/tex/latex/glossaries/base/glossaries-babel.sty
 share/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-207.sty
 share/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.sty
 share/texmf-dist/tex/latex/glossaries/base/glossaries-polyglossia.sty
+share/texmf-dist/tex/latex/glossaries/base/glossaries-prefix.sty
 share/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 share/texmf-dist/tex/latex/glossaries/base/mfirstuc.sty
 share/texmf-dist/tex/latex/glossaries/dict/glossaries-dictionary-Brazilian.dict
