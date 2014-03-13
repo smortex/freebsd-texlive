@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/texfot.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/texfot.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/texfot/README
+share/texmf-dist/scripts/texfot/texfot.pl
+@dirrmtry share/texmf-dist/scripts/texfot
+@dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/doc/support/texfot
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

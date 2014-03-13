@@ -1,0 +1,4 @@
+The package provides a small Perl script to filter the online
+output from a TeX run, attempting to show only those messages
+which probably deserve some change in the source. The TeX
+invocation itself need not change.
