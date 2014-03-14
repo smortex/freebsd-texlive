@@ -44,7 +44,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lilyglyphsManualFonts.sty
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lilyglyphsStyle.sty
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/resources/lilypond-manuals.css
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/the-feta-font-2-16-2.html
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/documentation/the-feta-font-2-18-0.html
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/license/COPYING.LPPL
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/license/MANIFEST
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lilyglyphs/license/license-preamble.inp
@@ -64,13 +64,14 @@ share/texmf-dist/scripts/lilyglyphs/lily-image-commands.py
 share/texmf-dist/scripts/lilyglyphs/lily-rebuild-pdfs.py
 share/texmf-dist/scripts/lilyglyphs/lilyglyphs_common.py
 %%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/fonts/README-emmentaler
-%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/fonts/emmentaler-2-16-2.zip
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/fonts/emmentaler-2-18-0.zip
 %%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/definitions/_template.ly
 %%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/definitions/beamednotes.ly
 %%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/definitions/dynamicsigns.ly
 %%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/definitions/fancyexamples.ly
 %%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/definitions/score.ily
 %%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/definitions/singlenotes.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/definitions/singlenotes.pdf
 %%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-crescHairpin.ly
 %%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-crotchet.ly
 %%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-crotchetDotted.ly
@@ -79,6 +80,12 @@ share/texmf-dist/scripts/lilyglyphs/lilyglyphs_common.py
 %%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-crotchetDottedDown.ly
 %%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-crotchetDown.ly
 %%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-decrescHairpin.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-demisemiquaver.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-demisemiquaverDotted.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-demisemiquaverDottedDouble.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-demisemiquaverDottedDoubleDown.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-demisemiquaverDottedDown.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-demisemiquaverDown.ly
 %%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-fancyExample.ly
 %%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-halfNote.ly
 %%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-halfNoteDotted.ly
@@ -99,6 +106,10 @@ share/texmf-dist/scripts/lilyglyphs/lilyglyphs_common.py
 %%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-semiquaverDottedDoubleDown.ly
 %%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-semiquaverDottedDown.ly
 %%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-semiquaverDown.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-threeBeamedQuavers.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-threeBeamedQuaversI.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-threeBeamedQuaversII.ly
+%%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-threeBeamedQuaversIII.ly
 %%PORTSRC%%share/texmf-dist/source/luatex/lilyglyphs/glyphimages/generated_src/lily-twoBeamedQuavers.ly
 share/texmf-dist/tex/lualatex/lilyglyphs/README-tex
 share/texmf-dist/tex/lualatex/lilyglyphs/commands/README-commands
@@ -128,6 +139,12 @@ share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-crotchetDottedDoubleDown.pdf
 share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-crotchetDottedDown.pdf
 share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-crotchetDown.pdf
 share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-decrescHairpin.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-demisemiquaver.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-demisemiquaverDotted.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-demisemiquaverDottedDouble.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-demisemiquaverDottedDoubleDown.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-demisemiquaverDottedDown.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-demisemiquaverDown.pdf
 share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-fancyExample.pdf
 share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-halfNote.pdf
 share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-halfNoteDotted.pdf
@@ -148,6 +165,10 @@ share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-semiquaverDottedDouble.pdf
 share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-semiquaverDottedDoubleDown.pdf
 share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-semiquaverDottedDown.pdf
 share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-semiquaverDown.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-threeBeamedQuavers.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-threeBeamedQuaversI.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-threeBeamedQuaversII.pdf
+share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-threeBeamedQuaversIII.pdf
 share/texmf-dist/tex/lualatex/lilyglyphs/pdfs/lily-twoBeamedQuavers.pdf
 @dirrmtry share/texmf-dist/tex/lualatex/lilyglyphs/pdfs
 @dirrmtry share/texmf-dist/tex/lualatex/lilyglyphs/core
