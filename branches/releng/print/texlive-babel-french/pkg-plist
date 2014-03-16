@@ -1,8 +1,8 @@
-%%PORTDOCS%%share/texmf-dist/doc/generic/babel-french/frenchb.lua
 %%PORTDOCS%%share/texmf-dist/doc/generic/babel-french/frenchb.pdf
 %%PORTSRC%%share/texmf-dist/source/generic/babel-french/frenchb.dtx
 %%PORTSRC%%share/texmf-dist/source/generic/babel-french/frenchb.ins
 share/texmf-dist/tex/generic/babel-french/frenchb.ldf
+share/texmf-dist/tex/generic/babel-french/frenchb.lua
 @dirrmtry share/texmf-dist/tex/generic/babel-french
 @dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
