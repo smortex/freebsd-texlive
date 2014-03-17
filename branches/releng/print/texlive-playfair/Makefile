@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	babel-hungarian
+PORTNAME=	playfair
 PORTVERSION=	20140316
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Babel support for Hungarian (Magyar).
+COMMENT=	Playfair Display fonts with LaTeX support.
 
-NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
