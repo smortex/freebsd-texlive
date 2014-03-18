@@ -10,11 +10,13 @@ share/texmf-dist/bibtex/bst/uestcthesis/uestcthesis.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/Eabstract.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/acknowledgements.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/appendix.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/cv.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/original.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/publications.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/reference.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/titlepage.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/translation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/packagecheck.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/Chrysanthemum.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/Penguins.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/Tulips.jpg
@@ -34,10 +36,8 @@ share/texmf-dist/bibtex/bst/uestcthesis/uestcthesis.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/winedt.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/uestcthesis-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/uestcthesis-doc.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/source/rvdtx.sty
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/source/uestcthesis.dtx
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/source/uestcthesis.ins
-%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/uestcthesis.pdf
 share/texmf-dist/tex/latex/uestcthesis/uestcthesis.cls
 @dirrmtry share/texmf-dist/tex/latex/uestcthesis
 @dirrmtry share/texmf-dist/tex/latex
