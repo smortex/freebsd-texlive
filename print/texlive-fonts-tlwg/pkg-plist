@@ -38,6 +38,8 @@ share/texmf-dist/fonts/afm/public/fonts-tlwg/ttypist_o.afm
 share/texmf-dist/fonts/afm/public/fonts-tlwg/umpush.afm
 share/texmf-dist/fonts/afm/public/fonts-tlwg/umpush_b.afm
 share/texmf-dist/fonts/afm/public/fonts-tlwg/umpush_bo.afm
+share/texmf-dist/fonts/afm/public/fonts-tlwg/umpush_l.afm
+share/texmf-dist/fonts/afm/public/fonts-tlwg/umpush_lo.afm
 share/texmf-dist/fonts/afm/public/fonts-tlwg/umpush_o.afm
 share/texmf-dist/fonts/afm/public/fonts-tlwg/waree.afm
 share/texmf-dist/fonts/afm/public/fonts-tlwg/waree_b.afm
@@ -110,6 +112,8 @@ share/texmf-dist/fonts/tfm/public/fonts-tlwg/rttypist_o.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/rumpush.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/rumpush_b.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/rumpush_bo.tfm
+share/texmf-dist/fonts/tfm/public/fonts-tlwg/rumpush_l.tfm
+share/texmf-dist/fonts/tfm/public/fonts-tlwg/rumpush_lo.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/rumpush_o.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/rwaree.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/rwaree_b.tfm
@@ -130,6 +134,8 @@ share/texmf-dist/fonts/tfm/public/fonts-tlwg/ttypist_o.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/umpush.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/umpush_b.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/umpush_bo.tfm
+share/texmf-dist/fonts/tfm/public/fonts-tlwg/umpush_l.tfm
+share/texmf-dist/fonts/tfm/public/fonts-tlwg/umpush_lo.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/umpush_o.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/waree.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/waree_b.tfm
@@ -174,6 +180,8 @@ share/texmf-dist/fonts/type1/public/fonts-tlwg/ttypist_o.pfb
 share/texmf-dist/fonts/type1/public/fonts-tlwg/umpush.pfb
 share/texmf-dist/fonts/type1/public/fonts-tlwg/umpush_b.pfb
 share/texmf-dist/fonts/type1/public/fonts-tlwg/umpush_bo.pfb
+share/texmf-dist/fonts/type1/public/fonts-tlwg/umpush_l.pfb
+share/texmf-dist/fonts/type1/public/fonts-tlwg/umpush_lo.pfb
 share/texmf-dist/fonts/type1/public/fonts-tlwg/umpush_o.pfb
 share/texmf-dist/fonts/type1/public/fonts-tlwg/waree.pfb
 share/texmf-dist/fonts/type1/public/fonts-tlwg/waree_b.pfb
@@ -218,6 +226,8 @@ share/texmf-dist/fonts/vf/public/fonts-tlwg/ttypist_o.vf
 share/texmf-dist/fonts/vf/public/fonts-tlwg/umpush.vf
 share/texmf-dist/fonts/vf/public/fonts-tlwg/umpush_b.vf
 share/texmf-dist/fonts/vf/public/fonts-tlwg/umpush_bo.vf
+share/texmf-dist/fonts/vf/public/fonts-tlwg/umpush_l.vf
+share/texmf-dist/fonts/vf/public/fonts-tlwg/umpush_lo.vf
 share/texmf-dist/fonts/vf/public/fonts-tlwg/umpush_o.vf
 share/texmf-dist/fonts/vf/public/fonts-tlwg/waree.vf
 share/texmf-dist/fonts/vf/public/fonts-tlwg/waree_b.vf
@@ -301,6 +311,7 @@ share/texmf-dist/fonts/vf/public/fonts-tlwg/waree_o.vf
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/scripts/gen-ttf.pe
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/scripts/gen.mk.am
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/scripts/thaikernpairs.txt
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/test-driver
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/tests/Makefile.am
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/tests/Makefile.in
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/tests/gen-pdfsample.sh

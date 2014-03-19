@@ -1,13 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	dvips
+PORTNAME=	clearsans
 PORTVERSION=	20140318
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A DVI to PostScript driver.
-
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
+COMMENT=	The clearsans package
 
 NOPORTSRC=	yes
 

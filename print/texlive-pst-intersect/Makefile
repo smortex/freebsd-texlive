@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pst-intersect
-PORTVERSION=	20140306
+PORTVERSION=	20140318
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Intersecting arbitrary curves
+COMMENT=	Compute intersections of arbitrary curves
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
