@@ -1,13 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	dvips
+PORTNAME=	fira
 PORTVERSION=	20140318
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A DVI to PostScript driver.
-
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
+COMMENT=	The fira package
 
 NOPORTSRC=	yes
 
