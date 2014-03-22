@@ -1,0 +1,4 @@
+The package defines the \efbox command, which creates a box
+just wide enough to hold the text created by its argument. The
+command optionally puts a (possibly partial) frame around the
+box, and allows setting the box background colour.

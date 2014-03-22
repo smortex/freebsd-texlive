@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/efbox/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/efbox/efbox.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/efbox/efbox.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/efbox/efbox.ins
+share/texmf-dist/tex/latex/efbox/efbox.sty
+@dirrmtry share/texmf-dist/tex/latex/efbox
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/efbox
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/efbox
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

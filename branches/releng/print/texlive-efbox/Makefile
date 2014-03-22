@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	newtx
+PORTNAME=	efbox
 PORTVERSION=	20140321
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Alternative uses of the TX fonts, with improved metrics.
+COMMENT=	Extension of \fbox, with controllable frames and colours.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

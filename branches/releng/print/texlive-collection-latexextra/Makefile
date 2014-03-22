@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20140212
+PORTVERSION=	20140321
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -453,6 +453,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/ed/ed.sty:${PORTSDIR}/print/texlive-ed \
 		${LOCALBASE}/share/texmf-dist/tex/latex/edmargin/edmargin.sty:${PORTSDIR}/print/texlive-edmargin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eemeir/eemeir.sty:${PORTSDIR}/print/texlive-eemeir \
+		${LOCALBASE}/share/texmf-dist/tex/latex/efbox/efbox.sty:${PORTSDIR}/print/texlive-efbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/egplot/egplot.sty:${PORTSDIR}/print/texlive-egplot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ellipsis/ellipsis.sty:${PORTSDIR}/print/texlive-ellipsis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/elmath/elmath.sty:${PORTSDIR}/print/texlive-elmath \
