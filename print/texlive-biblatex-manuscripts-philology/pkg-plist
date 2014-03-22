@@ -8,6 +8,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-manuscripts-philology/makefile
 share/texmf-dist/tex/latex/biblatex-manuscripts-philology/english-manuscripts.lbx
 share/texmf-dist/tex/latex/biblatex-manuscripts-philology/french-manuscripts.lbx
+share/texmf-dist/tex/latex/biblatex-manuscripts-philology/manuscripts-noautoshorthand.bbx
+share/texmf-dist/tex/latex/biblatex-manuscripts-philology/manuscripts-noautoshorthand.dbx
+share/texmf-dist/tex/latex/biblatex-manuscripts-philology/manuscripts-shared.bbx
+share/texmf-dist/tex/latex/biblatex-manuscripts-philology/manuscripts-shared.dbx
 share/texmf-dist/tex/latex/biblatex-manuscripts-philology/manuscripts.bbx
 share/texmf-dist/tex/latex/biblatex-manuscripts-philology/manuscripts.dbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-manuscripts-philology
