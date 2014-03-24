@@ -1,0 +1,6 @@
+In some fields of scholarship, a beamer does not offer good
+support when giving a talk in a proceeding. For example, in
+classical philology, the main sources are text, and it will be
+better to distribute a handout to the audience with extracts of
+the texts about which we will talk. The package supports
+preparation of such handouts when writing the talk.

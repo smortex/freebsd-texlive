@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	handout
 PORTVERSION=	20140323
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	Create handout for auditors of a talk
 
 NOPORTSRC=	yes
 

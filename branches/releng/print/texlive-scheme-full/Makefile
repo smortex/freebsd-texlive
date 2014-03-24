@@ -1217,6 +1217,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/ed/ed.sty:${PORTSDIR}/print/texlive-ed \
 		${LOCALBASE}/share/texmf-dist/tex/latex/edmargin/edmargin.sty:${PORTSDIR}/print/texlive-edmargin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eemeir/eemeir.sty:${PORTSDIR}/print/texlive-eemeir \
+		${LOCALBASE}/share/texmf-dist/tex/latex/efbox/efbox.sty:${PORTSDIR}/print/texlive-efbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/egplot/egplot.sty:${PORTSDIR}/print/texlive-egplot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ellipsis/ellipsis.sty:${PORTSDIR}/print/texlive-ellipsis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/elmath/elmath.sty:${PORTSDIR}/print/texlive-elmath \
@@ -1353,6 +1354,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gridset/gridset.sty:${PORTSDIR}/print/texlive-gridset \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gtl/gtl.sty:${PORTSDIR}/print/texlive-gtl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/guitlogo/guit.cfg:${PORTSDIR}/print/texlive-guitlogo \
+		${LOCALBASE}/share/texmf-dist/tex/latex/handout/handout.sty:${PORTSDIR}/print/texlive-handout \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hanging/hanging.sty:${PORTSDIR}/print/texlive-hanging \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hardwrap/hardwrap.sty:${PORTSDIR}/print/texlive-hardwrap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/harnon-cv/harnon-cv.cls:${PORTSDIR}/print/texlive-harnon-cv \
@@ -1965,6 +1967,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/interval/interval.sty:${PORTSDIR}/print/texlive-interval \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ionumbers/ionumbers.sty:${PORTSDIR}/print/texlive-ionumbers \
 		${LOCALBASE}/share/texmf-dist/tex/latex/isomath/isomath.sty:${PORTSDIR}/print/texlive-isomath \
+		${LOCALBASE}/share/texmf-dist/tex/latex/logicproof/logicproof.sty:${PORTSDIR}/print/texlive-logicproof \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lplfitch/lplfitch.sty:${PORTSDIR}/print/texlive-lplfitch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathcomp/mathcomp.sty:${PORTSDIR}/print/texlive-mathcomp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mattens/mattens.sty:${PORTSDIR}/print/texlive-mattens \

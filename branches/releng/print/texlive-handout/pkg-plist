@@ -1,0 +1,37 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/examples/example.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/examples/example1-minimal.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/examples/example1-minimal.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/examples/example2-cancel-quotation.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/examples/example2-cancel-quotation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/examples/example3-defined-path.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/examples/example3-defined-path.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/examples/example4-sectioning.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/examples/example4-sectioning.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/examples/example5-numbering.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/examples/example5-numbering.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/examples/example6-not-and-only.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/examples/example6-not-and-only.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/examples/example7-biblatex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/examples/example7-biblatex.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/examples/latexmkrc
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/examples/makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/examples/txt/Preau1583-not-and-only.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/examples/txt/Preau1583.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/examples/txt/Preau1583b.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/examples/txt/Richard_Simon_NT.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/handout.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/handout.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/latexmkrc
+%%PORTDOCS%%share/texmf-dist/doc/latex/handout/makefile
+share/texmf-dist/tex/latex/handout/handout.sty
+@dirrmtry share/texmf-dist/tex/latex/handout
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/handout/examples/txt
+@dirrmtry share/texmf-dist/doc/latex/handout/examples
+@dirrmtry share/texmf-dist/doc/latex/handout
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
