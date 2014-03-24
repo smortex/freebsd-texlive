@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20140321
+PORTVERSION=	20140323
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -590,6 +590,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gridset/gridset.sty:${PORTSDIR}/print/texlive-gridset \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gtl/gtl.sty:${PORTSDIR}/print/texlive-gtl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/guitlogo/guit.cfg:${PORTSDIR}/print/texlive-guitlogo \
+		${LOCALBASE}/share/texmf-dist/tex/latex/handout/handout.sty:${PORTSDIR}/print/texlive-handout \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hanging/hanging.sty:${PORTSDIR}/print/texlive-hanging \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hardwrap/hardwrap.sty:${PORTSDIR}/print/texlive-hardwrap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/harnon-cv/harnon-cv.cls:${PORTSDIR}/print/texlive-harnon-cv \
