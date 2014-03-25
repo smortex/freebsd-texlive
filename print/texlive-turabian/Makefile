@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	turabian
 PORTVERSION=	20140324
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	The turabian package
 
 NOPORTSRC=	yes
 

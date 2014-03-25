@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20140308
+PORTVERSION=	20140324
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -95,7 +95,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/classicthesis/classicthesis.sty:${PORTSDIR}/print/texlive-classicthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmpj/cmpj.sty:${PORTSDIR}/print/texlive-cmpj \
 		${LOCALBASE}/share/texmf-dist/tex/latex/confproc/confproc.cls:${PORTSDIR}/print/texlive-confproc \
-		${LOCALBASE}/share/texmf-dist/tex/latex/dccpaper/idcc.cls:${PORTSDIR}/print/texlive-dccpaper \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dccpaper/dccpaper-base.tex:${PORTSDIR}/print/texlive-dccpaper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebook/ebook.sty:${PORTSDIR}/print/texlive-ebook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebsthesis/ebsthesis.cls:${PORTSDIR}/print/texlive-ebsthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ejpecp/ejpecp.cls:${PORTSDIR}/print/texlive-ejpecp \
@@ -165,6 +165,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/toptesi/toptesi.cls:${PORTSDIR}/print/texlive-toptesi \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/tugboat/ltugbib.bst:${PORTSDIR}/print/texlive-tugboat \
 		${LOCALBASE}/share/texmf-dist/tex/plain/tugboat-plain/tugboat.cmn:${PORTSDIR}/print/texlive-tugboat-plain \
+		${LOCALBASE}/share/texmf-dist/tex/latex/turabian/turabian.cls:${PORTSDIR}/print/texlive-turabian \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tui/tui.cls:${PORTSDIR}/print/texlive-tui \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uaclasses/my-thesis.cls:${PORTSDIR}/print/texlive-uaclasses \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uadocs/ua_color.eps:${PORTSDIR}/print/texlive-uadocs \
