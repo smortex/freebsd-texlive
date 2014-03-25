@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/turabian/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/turabian/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/latex/turabian/turabian.tex
+share/texmf-dist/tex/latex/turabian/turabian.cls
+@dirrmtry share/texmf-dist/tex/latex/turabian
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/turabian
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
