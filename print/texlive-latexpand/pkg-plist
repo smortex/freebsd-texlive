@@ -5,16 +5,15 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/df-conflict/b.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/df-conflict/b/README-df-conflict.txt
 %%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/foo.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/includegraphic.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/includer.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/just-comment.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/my-package.sty
 %%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/no-eol.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/package-user.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/text-after-end.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/toto.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/latexpand/version.txt
-share/texmf-dist/scripts/latexpand/latexpand
-@dirrmtry share/texmf-dist/scripts/latexpand
-@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/support/latexpand/tests/df-conflict/b
 @dirrmtry share/texmf-dist/doc/support/latexpand/tests/df-conflict
 @dirrmtry share/texmf-dist/doc/support/latexpand/tests
