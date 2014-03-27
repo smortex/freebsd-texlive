@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	pst-solides3d
+PORTNAME=	fifo-stack
 PORTVERSION=	20140326
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw perspective views of 3D solids.
+COMMENT=	FIFO and stack implementation for package writers
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
