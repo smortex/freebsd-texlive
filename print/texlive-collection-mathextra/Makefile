@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-mathextra
-PORTVERSION=	20140322
+PORTVERSION=	20140326
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -103,6 +103,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/12many/12many.sty:${PORTSDIR}/print/texlive-12many \
 		${LOCALBASE}/share/texmf-dist/tex/amstex/base/amstex.tex:${PORTSDIR}/print/texlive-amstex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/backnaur/backnaur.sty:${PORTSDIR}/print/texlive-backnaur \
+		${LOCALBASE}/share/texmf-dist/tex/latex/begriff/begriff.sty:${PORTSDIR}/print/texlive-begriff \
 		${LOCALBASE}/share/texmf-dist/tex/latex/binomexp/binomexp.sty:${PORTSDIR}/print/texlive-binomexp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boldtensors/boldtensors.sty:${PORTSDIR}/print/texlive-boldtensors \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bosisio/accenti.sty:${PORTSDIR}/print/texlive-bosisio \
@@ -116,6 +117,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/extarrows/extarrows.sty:${PORTSDIR}/print/texlive-extarrows \
 		${LOCALBASE}/share/texmf-dist/tex/latex/extpfeil/extpfeil.sty:${PORTSDIR}/print/texlive-extpfeil \
 		${LOCALBASE}/share/texmf-dist/tex/latex/faktor/faktor.sty:${PORTSDIR}/print/texlive-faktor \
+		${LOCALBASE}/share/texmf-dist/tex/latex/grundgesetze/grundgesetze.sty:${PORTSDIR}/print/texlive-grundgesetze \
 		${LOCALBASE}/share/texmf-dist/tex/latex/interval/interval.sty:${PORTSDIR}/print/texlive-interval \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ionumbers/ionumbers.sty:${PORTSDIR}/print/texlive-ionumbers \
 		${LOCALBASE}/share/texmf-dist/tex/latex/isomath/isomath.sty:${PORTSDIR}/print/texlive-isomath \

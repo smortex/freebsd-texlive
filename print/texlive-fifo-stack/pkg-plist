@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fifo-stack/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/fifo-stack/fifo-stack-test.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fifo-stack/fifo-stack.cwl
+%%PORTDOCS%%share/texmf-dist/doc/latex/fifo-stack/fifo-stack.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/fifo-stack/fifo-stack.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fifo-stack/fifo-stack.ins
+share/texmf-dist/tex/latex/fifo-stack/fifo-stack.sty
+@dirrmtry share/texmf-dist/tex/latex/fifo-stack
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/fifo-stack
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/fifo-stack
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

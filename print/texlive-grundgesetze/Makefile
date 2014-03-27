@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	pst-solides3d
+PORTNAME=	grundgesetze
 PORTVERSION=	20140326
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw perspective views of 3D solids.
+COMMENT=	Typeset Frege's Grundgesetze der Arithmetik
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

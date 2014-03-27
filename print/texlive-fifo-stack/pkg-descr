@@ -1,0 +1,6 @@
+A LaTeX implementation of a combined FIFO Stack modified from
+the existing stack package by Benjamin Bayart. The package
+renames the original's \Push and \Pop commands \FSPush and
+\FSPop, and which work on the top/end of the FIFO/Stack), and
+adds the ability to \FSUnshift and \FSShift from the the
+bottom(front) of the FIFO/Stack.
