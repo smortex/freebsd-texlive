@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	biblatex-source-division
+PORTNAME=	biblatex-true-citepages-omit
 PORTVERSION=	20140328
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	References by "division" in classical sources.
+COMMENT=	Correction of some limitation of the citepages=omit option of biblatex styles
 
 NOPORTSRC=	yes
 
