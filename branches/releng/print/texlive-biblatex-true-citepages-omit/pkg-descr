@@ -1,0 +1,4 @@
+This package corrects a limitation of the citepages=omit option
+of the verbose family of biblatex citestyles. The option works
+when you \cite[xx]{key}, but not when you \cite[\pno~xx, some
+text]{key}. The package correct this problem.

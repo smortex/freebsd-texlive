@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	biblatex-source-division
+PORTNAME=	pgf-umlcd
 PORTVERSION=	20140328
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	References by "division" in classical sources.
+COMMENT=	Some LaTeX macros for UML Class Diagrams.
 
 NOPORTSRC=	yes
 

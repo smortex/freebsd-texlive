@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20140124
+PORTVERSION=	20140328
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -34,7 +34,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/metafont/base/expr.mf:${PORTSDIR}/print/texlive-metafont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mflogo/mflogo.sty:${PORTSDIR}/print/texlive-mflogo \
 		${LOCALBASE}/share/texmf-dist/mft/base/README:${PORTSDIR}/print/texlive-mfware \
-		${LOCALBASE}/share/texmf-dist/omega/ocp/misc/ebcdic.ocp:${PORTSDIR}/print/texlive-misc \
 		${LOCALBASE}/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map:${PORTSDIR}/print/texlive-pdftex \
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
@@ -100,6 +99,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty:${PORTSDIR}/print/texlive-pgf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-blur/tikzlibraryshadows.blur.code.tex:${PORTSDIR}/print/texlive-pgf-blur \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-soroban/pgf-soroban.sty:${PORTSDIR}/print/texlive-pgf-soroban \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-umlcd/pgf-umlcd.sty:${PORTSDIR}/print/texlive-pgf-umlcd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-umlsd/pgf-umlsd.sty:${PORTSDIR}/print/texlive-pgf-umlsd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfgantt/pgfgantt.sty:${PORTSDIR}/print/texlive-pgfgantt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfkeyx/pgfkeyx.sty:${PORTSDIR}/print/texlive-pgfkeyx \

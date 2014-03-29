@@ -1,0 +1,31 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf-umlcd/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf-umlcd/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf-umlcd/demo/abstract-class.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf-umlcd/demo/abstract-factory.svg
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf-umlcd/demo/abstract-factory.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf-umlcd/demo/aggregation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf-umlcd/demo/association.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf-umlcd/demo/class.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf-umlcd/demo/composition.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf-umlcd/demo/implement-interface.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf-umlcd/demo/inheritance.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf-umlcd/demo/interface.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf-umlcd/demo/note.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf-umlcd/demo/object-include-methods.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf-umlcd/demo/object.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf-umlcd/demo/package.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf-umlcd/demo/unidirectional-association.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf-umlcd/demo/visibility.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf-umlcd/logo.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf-umlcd/pgf-umlcd-manual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pgf-umlcd/pgf-umlcd-manual.tex
+share/texmf-dist/tex/latex/pgf-umlcd/pgf-umlcd.sty
+@dirrmtry share/texmf-dist/tex/latex/pgf-umlcd
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/pgf-umlcd/demo
+@dirrmtry share/texmf-dist/doc/latex/pgf-umlcd
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
