@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20140318
+PORTVERSION=	20140401
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -85,6 +85,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/ccicons/ccicons.sty:${PORTSDIR}/print/texlive-ccicons \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cfr-lm/cfr-lm.sty:${PORTSDIR}/print/texlive-cfr-lm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cherokee/cherokee.sty:${PORTSDIR}/print/texlive-cherokee \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cinzel/cinzel.sty:${PORTSDIR}/print/texlive-cinzel \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/clearsans/clr_er7w2x.enc:${PORTSDIR}/print/texlive-clearsans \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/cm-lgc/fcmb6y.afm:${PORTSDIR}/print/texlive-cm-lgc \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/cm-unicode/cmunbbx.afm:${PORTSDIR}/print/texlive-cm-unicode \

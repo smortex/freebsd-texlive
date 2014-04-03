@@ -1,12 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	udesoftec
-PORTVERSION=	20140402
+PORTNAME=	cinzel
+PORTVERSION=	20140401
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Thesis class for the University of Duisburg-Essen.
+COMMENT=	LaTeX support for Cinzel and Cinzel Decorative fonts.
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
