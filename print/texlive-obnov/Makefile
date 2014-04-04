@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	babel-hungarian
+PORTNAME=	obnov
 PORTVERSION=	20140403
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Babel support for Hungarian (Magyar).
+COMMENT=	Obyknovennaya Novaya fonts.
 
-NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
