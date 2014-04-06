@@ -11,8 +11,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/my-package.sty
 %%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/no-eol.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/package-user.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/smile.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/text-after-end.tex
-%%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/toto.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/latexpand/version.txt
 @dirrmtry share/texmf-dist/doc/support/latexpand/tests/df-conflict/b
 @dirrmtry share/texmf-dist/doc/support/latexpand/tests/df-conflict

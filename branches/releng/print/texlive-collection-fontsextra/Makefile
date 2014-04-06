@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20140403
+PORTVERSION=	20140405
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -62,6 +62,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/b1encoding/TeXB1.enc:${PORTSDIR}/print/texlive-b1encoding \
 		${LOCALBASE}/share/texmf-dist/tex/latex/barcodes/barcodes.sty:${PORTSDIR}/print/texlive-barcodes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/baskervald/baskervald.sty:${PORTSDIR}/print/texlive-baskervald \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/baskervaldx/zbv_2bp5ef.enc:${PORTSDIR}/print/texlive-baskervaldx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bbding/bbding.sty:${PORTSDIR}/print/texlive-bbding \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/bbm/bbm10.mf:${PORTSDIR}/print/texlive-bbm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bbm-macros/bbm.sty:${PORTSDIR}/print/texlive-bbm-macros \
