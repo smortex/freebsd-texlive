@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-perspective/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-perspective/pst-perspective-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-perspective/pst-perspective-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-perspective/pst-perspective-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-perspective/pst-perspective-docEN.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-perspective/pst-perspective-docEN.tex
+share/texmf-dist/tex/generic/pst-perspective/pst-perspective.tex
+share/texmf-dist/tex/latex/pst-perspective/pst-perspective.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-perspective
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex/generic/pst-perspective
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/generic/pst-perspective
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

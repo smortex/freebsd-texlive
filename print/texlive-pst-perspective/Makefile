@@ -1,14 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	glossaries
+PORTNAME=	pst-perspective
 PORTVERSION=	20140405
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create glossaries and lists of acronyms.
+COMMENT=	Draw perspective views using pstricks.
 
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
-
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

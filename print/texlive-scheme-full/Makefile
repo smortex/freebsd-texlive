@@ -258,6 +258,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/b1encoding/TeXB1.enc:${PORTSDIR}/print/texlive-b1encoding \
 		${LOCALBASE}/share/texmf-dist/tex/latex/barcodes/barcodes.sty:${PORTSDIR}/print/texlive-barcodes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/baskervald/baskervald.sty:${PORTSDIR}/print/texlive-baskervald \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/baskervaldx/zbv_2bp5ef.enc:${PORTSDIR}/print/texlive-baskervaldx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bbding/bbding.sty:${PORTSDIR}/print/texlive-bbding \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/bbm/bbm10.mf:${PORTSDIR}/print/texlive-bbm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bbm-macros/bbm.sty:${PORTSDIR}/print/texlive-bbm-macros \
@@ -281,6 +282,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/ccicons/ccicons.sty:${PORTSDIR}/print/texlive-ccicons \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cfr-lm/cfr-lm.sty:${PORTSDIR}/print/texlive-cfr-lm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cherokee/cherokee.sty:${PORTSDIR}/print/texlive-cherokee \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cinzel/cinzel.sty:${PORTSDIR}/print/texlive-cinzel \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/clearsans/clr_er7w2x.enc:${PORTSDIR}/print/texlive-clearsans \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/cm-lgc/fcmb6y.afm:${PORTSDIR}/print/texlive-cm-lgc \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/cm-unicode/cmunbbx.afm:${PORTSDIR}/print/texlive-cm-unicode \
@@ -383,6 +385,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/newpx/a_3p3as7.enc:${PORTSDIR}/print/texlive-newpx \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/newtx/alt-mn-greek.enc:${PORTSDIR}/print/texlive-newtx \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/nkarta/nkarta.mf:${PORTSDIR}/print/texlive-nkarta \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/obnov/obn10.mf:${PORTSDIR}/print/texlive-obnov \
 		${LOCALBASE}/share/texmf-dist/tex/lambda/ocherokee/ocherokee.sty:${PORTSDIR}/print/texlive-ocherokee \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/ocr-b/ocrb10.mf:${PORTSDIR}/print/texlive-ocr-b \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/ocr-b-outline/ocrb.map:${PORTSDIR}/print/texlive-ocr-b-outline \
@@ -2141,6 +2144,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-ovl/pst-ovl.tex:${PORTSDIR}/print/texlive-pst-ovl \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-pad/pst-pad.tex:${PORTSDIR}/print/texlive-pst-pad \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-pdgr/pst-pdgr.tex:${PORTSDIR}/print/texlive-pst-pdgr \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-perspective/pst-perspective.tex:${PORTSDIR}/print/texlive-pst-perspective \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-platon/pst-platon.sty:${PORTSDIR}/print/texlive-pst-platon \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-plot/pst-plot.tex:${PORTSDIR}/print/texlive-pst-plot \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-poly/pst-poly.tex:${PORTSDIR}/print/texlive-pst-poly \
