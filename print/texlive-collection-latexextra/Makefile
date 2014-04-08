@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20140326
+PORTVERSION=	20140407
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -174,6 +174,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty:${PORTSDIR}/print/texlive-pgf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-blur/tikzlibraryshadows.blur.code.tex:${PORTSDIR}/print/texlive-pgf-blur \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-soroban/pgf-soroban.sty:${PORTSDIR}/print/texlive-pgf-soroban \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-umlcd/pgf-umlcd.sty:${PORTSDIR}/print/texlive-pgf-umlcd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-umlsd/pgf-umlsd.sty:${PORTSDIR}/print/texlive-pgf-umlsd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfgantt/pgfgantt.sty:${PORTSDIR}/print/texlive-pgfgantt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfkeyx/pgfkeyx.sty:${PORTSDIR}/print/texlive-pgfkeyx \
@@ -494,6 +495,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/everypage/everypage.sty:${PORTSDIR}/print/texlive-everypage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/exam/exam.cls:${PORTSDIR}/print/texlive-exam \
 		${LOCALBASE}/share/texmf-dist/tex/latex/examdesign/examdesign.cls:${PORTSDIR}/print/texlive-examdesign \
+		${LOCALBASE}/share/texmf-dist/tex/latex/example/example.sty:${PORTSDIR}/print/texlive-example \
 		${LOCALBASE}/share/texmf-dist/tex/latex/examplep/examplep.sty:${PORTSDIR}/print/texlive-examplep \
 		${LOCALBASE}/share/texmf-dist/tex/latex/exceltex/exceltex.sty:${PORTSDIR}/print/texlive-exceltex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/excludeonly/excludeonly.sty:${PORTSDIR}/print/texlive-excludeonly \
@@ -735,7 +737,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/minorrevision/minorrevision.sty:${PORTSDIR}/print/texlive-minorrevision \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minted/minted.sty:${PORTSDIR}/print/texlive-minted \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minutes/minutes.sty:${PORTSDIR}/print/texlive-minutes \
-		${LOCALBASE}/share/texmf-dist/tex/latex/misc209/bibmods.sty:${PORTSDIR}/print/texlive-misc209 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mla-paper/mla.sty:${PORTSDIR}/print/texlive-mla-paper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mlist/mlist.sty:${PORTSDIR}/print/texlive-mlist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mmap/mmap.sty:${PORTSDIR}/print/texlive-mmap \

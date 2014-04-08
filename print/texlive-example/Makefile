@@ -1,15 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	misc209
-PORTVERSION=	20100610
-PORTREVISION=	1
-PORTEPOCH=	1
+PORTNAME=	example
+PORTVERSION=	20140407
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The misc209 package
+COMMENT=	Typeset examples for TeX courses.
 
-NOPORTDOCS=	yes
 NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
