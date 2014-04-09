@@ -1,15 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	tetex
+PORTNAME=	seealso
 PORTVERSION=	20140408
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	scripts and files originally written for or included in teTeX
+COMMENT=	The seealso package
 
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
-
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

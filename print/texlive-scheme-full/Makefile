@@ -1263,6 +1263,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/everypage/everypage.sty:${PORTSDIR}/print/texlive-everypage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/exam/exam.cls:${PORTSDIR}/print/texlive-exam \
 		${LOCALBASE}/share/texmf-dist/tex/latex/examdesign/examdesign.cls:${PORTSDIR}/print/texlive-examdesign \
+		${LOCALBASE}/share/texmf-dist/tex/latex/example/example.sty:${PORTSDIR}/print/texlive-example \
 		${LOCALBASE}/share/texmf-dist/tex/latex/examplep/examplep.sty:${PORTSDIR}/print/texlive-examplep \
 		${LOCALBASE}/share/texmf-dist/tex/latex/exceltex/exceltex.sty:${PORTSDIR}/print/texlive-exceltex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/excludeonly/excludeonly.sty:${PORTSDIR}/print/texlive-excludeonly \
@@ -1504,7 +1505,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/minorrevision/minorrevision.sty:${PORTSDIR}/print/texlive-minorrevision \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minted/minted.sty:${PORTSDIR}/print/texlive-minted \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minutes/minutes.sty:${PORTSDIR}/print/texlive-minutes \
-		${LOCALBASE}/share/texmf-dist/tex/latex/misc209/bibmods.sty:${PORTSDIR}/print/texlive-misc209 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mla-paper/mla.sty:${PORTSDIR}/print/texlive-mla-paper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mlist/mlist.sty:${PORTSDIR}/print/texlive-mlist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mmap/mmap.sty:${PORTSDIR}/print/texlive-mmap \
@@ -1709,6 +1709,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/secdot/secdot.sty:${PORTSDIR}/print/texlive-secdot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sectionbox/sectionbox.sty:${PORTSDIR}/print/texlive-sectionbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sectsty/sectsty.sty:${PORTSDIR}/print/texlive-sectsty \
+		${LOCALBASE}/share/texmf-dist/tex/latex/seealso/seealso.sty:${PORTSDIR}/print/texlive-seealso \
 		${LOCALBASE}/share/texmf-dist/tex/latex/selectp/selectp.sty:${PORTSDIR}/print/texlive-selectp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/semantic/semantic.sty:${PORTSDIR}/print/texlive-semantic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/semioneside/semioneside.sty:${PORTSDIR}/print/texlive-semioneside \

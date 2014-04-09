@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/seealso/seealso.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/seealso/seealso.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/seealso/seealso.ins
+share/texmf-dist/tex/latex/seealso/seealso.sty
+@dirrmtry share/texmf-dist/tex/latex/seealso
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/seealso
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/seealso
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
