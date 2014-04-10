@@ -214,6 +214,8 @@ share/texmf-dist/fonts/tfm/public/newtx/tyxbslj.tfm
 share/texmf-dist/fonts/tfm/public/newtx/tyxij.tfm
 share/texmf-dist/fonts/tfm/public/newtx/tyxrj.tfm
 share/texmf-dist/fonts/tfm/public/newtx/tyxslj.tfm
+share/texmf-dist/fonts/tfm/public/newtx/zbvbmi.tfm
+share/texmf-dist/fonts/tfm/public/newtx/zbvmi.tfm
 share/texmf-dist/fonts/tfm/public/newtx/zmn-vw-b.tfm
 share/texmf-dist/fonts/tfm/public/newtx/zmn-vw-r.tfm
 share/texmf-dist/fonts/tfm/public/newtx/zxlr-5nums.tfm
@@ -387,6 +389,8 @@ share/texmf-dist/fonts/vf/public/newtx/tyxbslj.vf
 share/texmf-dist/fonts/vf/public/newtx/tyxij.vf
 share/texmf-dist/fonts/vf/public/newtx/tyxrj.vf
 share/texmf-dist/fonts/vf/public/newtx/tyxslj.vf
+share/texmf-dist/fonts/vf/public/newtx/zbvbmi.vf
+share/texmf-dist/fonts/vf/public/newtx/zbvmi.vf
 share/texmf-dist/tex/latex/newtx/ly1minlibertine.fd
 share/texmf-dist/tex/latex/newtx/ly1ntxr.fd
 share/texmf-dist/tex/latex/newtx/ly1ntxr1.fd
@@ -398,6 +402,7 @@ share/texmf-dist/tex/latex/newtx/newtxmath.sty
 share/texmf-dist/tex/latex/newtx/newtxtext.sty
 share/texmf-dist/tex/latex/newtx/omlntxmi.fd
 share/texmf-dist/tex/latex/newtx/omlnxlmi.fd
+share/texmf-dist/tex/latex/newtx/omlzbvmi.fd
 share/texmf-dist/tex/latex/newtx/omlzmnmi.fd
 share/texmf-dist/tex/latex/newtx/omsntxsy.fd
 share/texmf-dist/tex/latex/newtx/ot1minlibertine.fd
