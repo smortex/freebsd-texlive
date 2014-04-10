@@ -1,8 +1,9 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/tqft/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/tqft/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/tqft/tqft_doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tqft/tqft_doc.tex
 %%PORTSRC%%share/texmf-dist/source/latex/tqft/tqft.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tqft/tqft.ins
+share/texmf-dist/tex/latex/tqft/tikzlibrarytqft.code.tex
 share/texmf-dist/tex/latex/tqft/tqft.sty
 @dirrmtry share/texmf-dist/tex/latex/tqft
 @dirrmtry share/texmf-dist/tex/latex
