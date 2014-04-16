@@ -2,6 +2,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/autonum/autonum.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/autonum/test-autonum.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/autonum/test-autonum.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/autonum/test-freeze.tex
 %%PORTSRC%%share/texmf-dist/source/latex/autonum/autonum.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/autonum/autonum.ins
 share/texmf-dist/tex/latex/autonum/autonum.sty

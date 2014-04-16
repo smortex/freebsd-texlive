@@ -258,7 +258,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/b1encoding/TeXB1.enc:${PORTSDIR}/print/texlive-b1encoding \
 		${LOCALBASE}/share/texmf-dist/tex/latex/barcodes/barcodes.sty:${PORTSDIR}/print/texlive-barcodes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/baskervald/baskervald.sty:${PORTSDIR}/print/texlive-baskervald \
-		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/baskervaldx/zbv_2bp5ef.enc:${PORTSDIR}/print/texlive-baskervaldx \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/baskervaldx/Baskervaldx-Bol.afm:${PORTSDIR}/print/texlive-baskervaldx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bbding/bbding.sty:${PORTSDIR}/print/texlive-bbding \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/bbm/bbm10.mf:${PORTSDIR}/print/texlive-bbm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bbm-macros/bbm.sty:${PORTSDIR}/print/texlive-bbm-macros \
@@ -1682,6 +1682,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/relenc/relenc.sty:${PORTSDIR}/print/texlive-relenc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/relsize/relsize.sty:${PORTSDIR}/print/texlive-relsize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/repeatindex/repeatindex.sty:${PORTSDIR}/print/texlive-repeatindex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/repltext/repltext.sty:${PORTSDIR}/print/texlive-repltext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rjlparshap/rjlpshap.sty:${PORTSDIR}/print/texlive-rjlparshap \
 		${LOCALBASE}/share/texmf-dist/tex/generic/rlepsf/rlepsf.tex:${PORTSDIR}/print/texlive-rlepsf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rmpage/rmpage.sty:${PORTSDIR}/print/texlive-rmpage \
