@@ -3,6 +3,13 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/baskervaldx/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/baskervaldx/baskervaldx-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/baskervaldx/baskervaldx-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/baskervaldx/baskervaldxmatheg-crop.pdf
+share/texmf-dist/fonts/afm/public/baskervaldx/Baskervaldx-Bol.afm
+share/texmf-dist/fonts/afm/public/baskervaldx/Baskervaldx-BolIta.afm
+share/texmf-dist/fonts/afm/public/baskervaldx/Baskervaldx-Ita.afm
+share/texmf-dist/fonts/afm/public/baskervaldx/Baskervaldx-Reg.afm
+share/texmf-dist/fonts/enc/dvips/baskervaldx/bvalph.enc
+share/texmf-dist/fonts/enc/dvips/baskervaldx/bvtabosf.enc
 share/texmf-dist/fonts/enc/dvips/baskervaldx/zbv_2bp5ef.enc
 share/texmf-dist/fonts/enc/dvips/baskervaldx/zbv_2n2qka.enc
 share/texmf-dist/fonts/enc/dvips/baskervaldx/zbv_2sm4i7.enc
@@ -102,6 +109,8 @@ share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Bol-osf-t1--base.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Bol-osf-t1.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Bol-osf-ts1--base.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Bol-osf-ts1.tfm
+share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Bol-osf.tfm
+share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Bol-raw.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Bol-sup-ly1--base.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Bol-sup-ly1.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Bol-sup-t1--base.tfm
@@ -134,6 +143,7 @@ share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Bol-tosf-t1--base.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Bol-tosf-t1.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Bol-tosf-ts1--base.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Bol-tosf-ts1.tfm
+share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-BolIta-alph.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-BolIta-lf-ly1--base.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-BolIta-lf-ly1.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-BolIta-lf-sc-ly1--base.tfm
@@ -194,6 +204,7 @@ share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-BolIta-tosf-t1--base.t
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-BolIta-tosf-t1.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-BolIta-tosf-ts1--base.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-BolIta-tosf-ts1.tfm
+share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Ita-alph.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Ita-lf-ly1--base.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Ita-lf-ly1.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Ita-lf-sc-ly1--base.tfm
@@ -282,6 +293,7 @@ share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Reg-osf-t1--base.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Reg-osf-t1.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Reg-osf-ts1--base.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Reg-osf-ts1.tfm
+share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Reg-raw.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Reg-sup-ly1--base.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Reg-sup-ly1.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Reg-sup-t1--base.tfm
@@ -314,6 +326,9 @@ share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Reg-tosf-t1--base.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Reg-tosf-t1.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Reg-tosf-ts1--base.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Reg-tosf-ts1.tfm
+share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-osf.tfm
+share/texmf-dist/fonts/tfm/public/baskervaldx/zbvbmi.tfm
+share/texmf-dist/fonts/tfm/public/baskervaldx/zbvmi.tfm
 share/texmf-dist/fonts/type1/public/baskervaldx/Baskervaldx-Bol.pfb
 share/texmf-dist/fonts/type1/public/baskervaldx/Baskervaldx-BolIta.pfb
 share/texmf-dist/fonts/type1/public/baskervaldx/Baskervaldx-Ita.pfb
@@ -438,6 +453,8 @@ share/texmf-dist/fonts/vf/public/baskervaldx/Baskervaldx-Reg-tosf-swash-ly1.vf
 share/texmf-dist/fonts/vf/public/baskervaldx/Baskervaldx-Reg-tosf-swash-t1.vf
 share/texmf-dist/fonts/vf/public/baskervaldx/Baskervaldx-Reg-tosf-t1.vf
 share/texmf-dist/fonts/vf/public/baskervaldx/Baskervaldx-Reg-tosf-ts1.vf
+share/texmf-dist/fonts/vf/public/baskervaldx/zbvbmi.vf
+share/texmf-dist/fonts/vf/public/baskervaldx/zbvmi.vf
 share/texmf-dist/tex/latex/baskervaldx/Baskervaldx.sty
 share/texmf-dist/tex/latex/baskervaldx/LY1Baskervaldx-LF.fd
 share/texmf-dist/tex/latex/baskervaldx/LY1Baskervaldx-OsF.fd
@@ -453,6 +470,7 @@ share/texmf-dist/tex/latex/baskervaldx/TS1Baskervaldx-LF.fd
 share/texmf-dist/tex/latex/baskervaldx/TS1Baskervaldx-OsF.fd
 share/texmf-dist/tex/latex/baskervaldx/TS1Baskervaldx-TLF.fd
 share/texmf-dist/tex/latex/baskervaldx/TS1Baskervaldx-TOsF.fd
+share/texmf-dist/tex/latex/baskervaldx/omlzbvmi.fd
 @dirrmtry share/texmf-dist/tex/latex/baskervaldx
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
@@ -474,6 +492,9 @@ share/texmf-dist/tex/latex/baskervaldx/TS1Baskervaldx-TOsF.fd
 @dirrmtry share/texmf-dist/fonts/enc/dvips/baskervaldx
 @dirrmtry share/texmf-dist/fonts/enc/dvips
 @dirrmtry share/texmf-dist/fonts/enc
+@dirrmtry share/texmf-dist/fonts/afm/public/baskervaldx
+@dirrmtry share/texmf-dist/fonts/afm/public
+@dirrmtry share/texmf-dist/fonts/afm
 @dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/baskervaldx
 @dirrmtry share/texmf-dist/doc/fonts
