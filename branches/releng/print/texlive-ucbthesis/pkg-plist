@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ucbthesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ucbthesis/example/abstract.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ucbthesis/example/chap1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ucbthesis/example/chap2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ucbthesis/example/references.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/ucbthesis/example/thesis.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ucbthesis/ucbthesis.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ucbthesis/ucbthesis.tex
+share/texmf-dist/tex/latex/ucbthesis/ucbthesis.cls
+@dirrmtry share/texmf-dist/tex/latex/ucbthesis
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/ucbthesis/example
+@dirrmtry share/texmf-dist/doc/latex/ucbthesis
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

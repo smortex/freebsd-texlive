@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20140331
+PORTVERSION=	20140416
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -169,6 +169,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/uaclasses/my-thesis.cls:${PORTSDIR}/print/texlive-uaclasses \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uadocs/ua_color.eps:${PORTSDIR}/print/texlive-uadocs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uafthesis/uafthesis.cls:${PORTSDIR}/print/texlive-uafthesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ucbthesis/ucbthesis.cls:${PORTSDIR}/print/texlive-ucbthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucdavisthesis/ucdavisthesis.cls:${PORTSDIR}/print/texlive-ucdavisthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucthesis/ucthesis.cls:${PORTSDIR}/print/texlive-ucthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uestcthesis/uestcthesis.cls:${PORTSDIR}/print/texlive-uestcthesis \
