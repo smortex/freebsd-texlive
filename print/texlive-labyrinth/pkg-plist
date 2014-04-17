@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/labyrinth/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/labyrinth/classic-en.ist
+%%PORTDOCS%%share/texmf-dist/doc/latex/labyrinth/labyrinth.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/labyrinth/labyrinth.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/labyrinth/lstlocal.cfg
+share/texmf-dist/tex/latex/labyrinth/labyrinth.sty
+@dirrmtry share/texmf-dist/tex/latex/labyrinth
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/labyrinth
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

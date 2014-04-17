@@ -1,46 +1,56 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/gbkcrlf/ChangeLog-upto-1.3.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/gbkcrlf/ChangeLog.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/gbkcrlf/Make.bat
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/gbkcrlf/Makefile
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/gbkcrlf/chap/abstract.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/gbkcrlf/chap/acknowledge.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/gbkcrlf/chap/chap1.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/gbkcrlf/chap/chap2.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/gbkcrlf/chap/chap3.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/gbkcrlf/chap/conclusion.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/gbkcrlf/chap/copyright.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/gbkcrlf/chap/encl1.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/gbkcrlf/chap/encl2.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/gbkcrlf/chap/introduction.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/gbkcrlf/chap/originauth.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/gbkcrlf/img/Make.bat
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/gbkcrlf/img/Makefile
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/gbkcrlf/img/pkulogo.eps
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/gbkcrlf/img/pkuword.eps
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/gbkcrlf/pkuthss.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/gbkcrlf/pkuthss.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/pkuthss.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/utf8lf/ChangeLog-upto-1.3.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/utf8lf/ChangeLog.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/utf8lf/Make.bat
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/utf8lf/Makefile
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/utf8lf/chap/abstract.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/utf8lf/chap/acknowledge.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/utf8lf/chap/chap1.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/utf8lf/chap/chap2.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/utf8lf/chap/chap3.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/utf8lf/chap/conclusion.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/utf8lf/chap/copyright.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/utf8lf/chap/encl1.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/utf8lf/chap/encl2.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/utf8lf/chap/introduction.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/utf8lf/chap/originauth.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/utf8lf/img/Make.bat
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/utf8lf/img/Makefile
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/utf8lf/img/pkulogo.eps
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/utf8lf/img/pkuword.eps
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/utf8lf/pkuthss.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/utf8lf/pkuthss.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/README.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-gbk/Make.bat
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-gbk/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-gbk/chap/abstract.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-gbk/chap/acknowledge.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-gbk/chap/chap1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-gbk/chap/conclusion.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-gbk/chap/copyright.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-gbk/chap/encl1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-gbk/chap/introduction.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-gbk/chap/originauth.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-gbk/img/Make.bat
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-gbk/img/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-gbk/img/pkulogo.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-gbk/img/pkuword.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-gbk/thesis.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-gbk/thesis.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-utf8/Make.bat
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-utf8/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-utf8/chap/abstract.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-utf8/chap/acknowledge.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-utf8/chap/chap1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-utf8/chap/conclusion.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-utf8/chap/copyright.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-utf8/chap/encl1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-utf8/chap/introduction.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-utf8/chap/originauth.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-utf8/img/Make.bat
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-utf8/img/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-utf8/img/pkulogo.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-utf8/img/pkuword.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-utf8/thesis.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example-utf8/thesis.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/readme-src/ChangeLog-upto-1.3.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/readme-src/ChangeLog.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/readme-src/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/readme-src/chap/abstract.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/readme-src/chap/acknowledge.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/readme-src/chap/chap1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/readme-src/chap/chap2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/readme-src/chap/chap3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/readme-src/chap/conclusion.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/readme-src/chap/copyright.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/readme-src/chap/encl1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/readme-src/chap/encl2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/readme-src/chap/introduction.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/readme-src/chap/originauth.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/readme-src/img/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/readme-src/img/pkulogo.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/readme-src/img/pkuword.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/readme-src/pkuthss.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/readme-src/pkuthss.tex
 share/texmf-dist/tex/latex/pkuthss/pkuthss-extra.sty
 share/texmf-dist/tex/latex/pkuthss/pkuthss-gbk.def
 share/texmf-dist/tex/latex/pkuthss/pkuthss-utf8.def
@@ -48,12 +58,15 @@ share/texmf-dist/tex/latex/pkuthss/pkuthss.cls
 @dirrmtry share/texmf-dist/tex/latex/pkuthss
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/latex/pkuthss/utf8lf/img
-@dirrmtry share/texmf-dist/doc/latex/pkuthss/utf8lf/chap
-@dirrmtry share/texmf-dist/doc/latex/pkuthss/utf8lf
-@dirrmtry share/texmf-dist/doc/latex/pkuthss/gbkcrlf/img
-@dirrmtry share/texmf-dist/doc/latex/pkuthss/gbkcrlf/chap
-@dirrmtry share/texmf-dist/doc/latex/pkuthss/gbkcrlf
+@dirrmtry share/texmf-dist/doc/latex/pkuthss/readme-src/img
+@dirrmtry share/texmf-dist/doc/latex/pkuthss/readme-src/chap
+@dirrmtry share/texmf-dist/doc/latex/pkuthss/readme-src
+@dirrmtry share/texmf-dist/doc/latex/pkuthss/example-utf8/img
+@dirrmtry share/texmf-dist/doc/latex/pkuthss/example-utf8/chap
+@dirrmtry share/texmf-dist/doc/latex/pkuthss/example-utf8
+@dirrmtry share/texmf-dist/doc/latex/pkuthss/example-gbk/img
+@dirrmtry share/texmf-dist/doc/latex/pkuthss/example-gbk/chap
+@dirrmtry share/texmf-dist/doc/latex/pkuthss/example-gbk
 @dirrmtry share/texmf-dist/doc/latex/pkuthss
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc

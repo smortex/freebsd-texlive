@@ -1,0 +1,3 @@
+The labyrinth package provides code and an environment for
+typesetting simple labyrinths with LaTeX, and generating an
+automatic or manual solution path.
