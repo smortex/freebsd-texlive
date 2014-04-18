@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/asypictureb/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/asypictureb/asypictureB.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/asypictureb/asypictureB.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/asypictureb/asypictureB.ins
+share/texmf-dist/tex/latex/asypictureb/asypictureB.sty
+@dirrmtry share/texmf-dist/tex/latex/asypictureb
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/asypictureb
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/asypictureb
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

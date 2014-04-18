@@ -502,6 +502,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/plain/hanoi/hanoi.tex:${PORTSDIR}/print/texlive-hanoi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hexgame/hexgame.sty:${PORTSDIR}/print/texlive-hexgame \
 		${LOCALBASE}/share/texmf-dist/tex/latex/horoscop/horoscop.sty:${PORTSDIR}/print/texlive-horoscop \
+		${LOCALBASE}/share/texmf-dist/tex/latex/labyrinth/labyrinth.sty:${PORTSDIR}/print/texlive-labyrinth \
 		${LOCALBASE}/share/texmf-dist/tex/latex/logicpuzzle/logicpuzzle.sty:${PORTSDIR}/print/texlive-logicpuzzle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/othello/othello.sty:${PORTSDIR}/print/texlive-othello \
 		${LOCALBASE}/share/texmf-dist/tex/latex/othelloboard/othelloboard.sty:${PORTSDIR}/print/texlive-othelloboard \
@@ -888,6 +889,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/aobs-tikz/tikzlibraryoverlay-beamer-styles.code.tex:${PORTSDIR}/print/texlive-aobs-tikz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/askmaps/askmaps.sty:${PORTSDIR}/print/texlive-askmaps \
 		${LOCALBASE}/share/texmf-dist/tex/latex/asyfig/asyfig.sty:${PORTSDIR}/print/texlive-asyfig \
+		${LOCALBASE}/share/texmf-dist/tex/latex/asypictureb/asypictureB.sty:${PORTSDIR}/print/texlive-asypictureb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/autoarea/autoarea.sty:${PORTSDIR}/print/texlive-autoarea \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bardiag/bardiag.sty:${PORTSDIR}/print/texlive-bardiag \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bloques/bloques.sty:${PORTSDIR}/print/texlive-bloques \
@@ -1864,6 +1866,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/type1cm/type1cm.sty:${PORTSDIR}/print/texlive-type1cm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/typeface/typeface.sty:${PORTSDIR}/print/texlive-typeface \
 		${LOCALBASE}/share/texmf-dist/tex/latex/typogrid/typogrid.sty:${PORTSDIR}/print/texlive-typogrid \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ucbthesis/ucbthesis.cls:${PORTSDIR}/print/texlive-ucbthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucs/ucs.sty:${PORTSDIR}/print/texlive-ucs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uebungsblatt/uebungsblatt.cls:${PORTSDIR}/print/texlive-uebungsblatt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umoline/umoline.sty:${PORTSDIR}/print/texlive-umoline \
@@ -1952,6 +1955,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luatextra/luatextra.sty:${PORTSDIR}/print/texlive-luatextra \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luaxml/dom-sample.lua:${PORTSDIR}/print/texlive-luaxml \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/odsfile/odsfile.sty:${PORTSDIR}/print/texlive-odsfile \
+		${LOCALBASE}/share/texmf-dist/tex/lualatex/placeat/placeat.sty:${PORTSDIR}/print/texlive-placeat \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/selnolig/selnolig.sty:${PORTSDIR}/print/texlive-selnolig \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/showhyphens/showhyphens.sty:${PORTSDIR}/print/texlive-showhyphens \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/spelling/spelling.sty:${PORTSDIR}/print/texlive-spelling \
