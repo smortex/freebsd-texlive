@@ -1,14 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	beebe
+PORTNAME=	asypictureb
 PORTVERSION=	20140417
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The beebe package
+COMMENT=	User-friendly integration of Asymptote into LaTeX
 
-NOPORTDOCS=	yes
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

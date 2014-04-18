@@ -1,0 +1,8 @@
+The asypictureB package is an unofficial alternative to the
+asymptote package for creating Asymptote pictures within a
+latex source file. While it does not duplicate all the features
+of the official package, it is more user-friendly in several
+ways. Most notably, Asymptote errors are repackaged as LaTeX
+errors, making debugging less of a pain. It also has a more
+robust mechanism for identifying unchanged pictures that need
+not be recompiled.
