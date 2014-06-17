@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	logicproof
-PORTVERSION=	20140322
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The logicproof package
+COMMENT=	Box proofs for propositional and predicate logic.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

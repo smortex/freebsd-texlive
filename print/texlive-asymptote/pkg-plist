@@ -122,6 +122,7 @@ share/texmf-dist/asymptote/x11colors.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/NURBSsurface.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/Pythagoras.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/PythagoreanTree.asy
+%%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/RiemannSphere.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/RiemannSurface.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/RiemannSurfaceRoot.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/Sierpinski.asy
@@ -163,6 +164,7 @@ share/texmf-dist/asymptote/x11colors.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/centroidfg.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/cheese.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/circles.asy
+%%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/circumcircle.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/clockarray.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/coag.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/colons.asy
@@ -322,6 +324,7 @@ share/texmf-dist/asymptote/x11colors.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/quilt.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/rainbow.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/randompath3.asy
+%%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/refs.bib
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/ring.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/roll.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/roundpath.asy
@@ -418,14 +421,15 @@ share/texmf-dist/asymptote/x11colors.asy
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/asy.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/xasy.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/xasy.man1.pdf
-share/texmf-dist/tex/context/asymptote/colo-asy.tex
+share/texmf-dist/tex/context/third/asymptote/colo-asy.tex
 share/texmf-dist/tex/latex/asymptote/asycolors.sty
 share/texmf-dist/tex/latex/asymptote/asymptote.sty
 share/texmf-dist/tex/latex/asymptote/latexmkrc
 share/texmf-dist/tex/latex/asymptote/ocg.sty
 @dirrmtry share/texmf-dist/tex/latex/asymptote
 @dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex/context/asymptote
+@dirrmtry share/texmf-dist/tex/context/third/asymptote
+@dirrmtry share/texmf-dist/tex/context/third
 @dirrmtry share/texmf-dist/tex/context
 @dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/doc/man/man1

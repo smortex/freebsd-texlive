@@ -1,0 +1,30 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/schule/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/schule/schule.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/schule/schule.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/schule/schule.ins
+share/texmf-dist/tex/latex/schule/relaycircuit.sty
+share/texmf-dist/tex/latex/schule/schule.sty
+share/texmf-dist/tex/latex/schule/schuleab.cls
+share/texmf-dist/tex/latex/schule/schulein.cls
+share/texmf-dist/tex/latex/schule/schuleit.cls
+share/texmf-dist/tex/latex/schule/schulekl.cls
+share/texmf-dist/tex/latex/schule/schulekl.sty
+share/texmf-dist/tex/latex/schule/schuleub.cls
+share/texmf-dist/tex/latex/schule/schuleue.cls
+share/texmf-dist/tex/latex/schule/schulinf.sty
+share/texmf-dist/tex/latex/schule/schullsg.cls
+share/texmf-dist/tex/latex/schule/schullzk.cls
+share/texmf-dist/tex/latex/schule/schullzk.sty
+share/texmf-dist/tex/latex/schule/schulphy.sty
+share/texmf-dist/tex/latex/schule/syntaxdi.sty
+@dirrmtry share/texmf-dist/tex/latex/schule
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/schule
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/schule
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

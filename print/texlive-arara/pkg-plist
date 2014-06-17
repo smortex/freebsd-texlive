@@ -33,7 +33,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/arara/figures/winedt/winedt-optionsinterface.png
 %%PORTDOCS%%share/texmf-dist/doc/support/arara/references.bib
 share/texmf-dist/scripts/arara/arara.jar
-share/texmf-dist/scripts/arara/arara.sh
 share/texmf-dist/scripts/arara/rules/biber.yaml
 share/texmf-dist/scripts/arara/rules/bibtex.yaml
 share/texmf-dist/scripts/arara/rules/clean.yaml

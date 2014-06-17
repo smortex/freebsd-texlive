@@ -1,0 +1,61 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/newtxtt/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/newtxtt/newtxtt-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/newtxtt/newtxtt-doc.tex
+share/texmf-dist/fonts/enc/dvips/newtxtt/txttAec.enc
+share/texmf-dist/fonts/enc/dvips/newtxtt/txttBec.enc
+share/texmf-dist/fonts/enc/dvips/newtxtt/txttCec.enc
+share/texmf-dist/fonts/enc/dvips/newtxtt/txttDec.enc
+share/texmf-dist/fonts/map/dvips/newtxtt/newtxtt.map
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxbtta.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxbttb.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxbttc.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxbttd.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxbttsca.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxbttscb.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxbttscc.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxbttscd.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxbttsla.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxbttslb.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxbttslc.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxbttsld.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxtt.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxtta.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxttb.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxttc.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxttd.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxttsca.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxttscb.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxttscc.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxttscd.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxttsla.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxttslb.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxttslc.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/newtxttsld.tfm
+share/texmf-dist/fonts/type1/public/newtxtt/newtxbtt.pfb
+share/texmf-dist/fonts/type1/public/newtxtt/newtxbttsc.pfb
+share/texmf-dist/fonts/type1/public/newtxtt/newtxtt.pfb
+share/texmf-dist/fonts/type1/public/newtxtt/newtxttsc.pfb
+share/texmf-dist/tex/latex/newtxtt/newtxtt.sty
+share/texmf-dist/tex/latex/newtxtt/t1newtxtt.fd
+share/texmf-dist/tex/latex/newtxtt/ts1newtxtt.fd
+@dirrmtry share/texmf-dist/tex/latex/newtxtt
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/fonts/type1/public/newtxtt
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
+@dirrmtry share/texmf-dist/fonts/tfm/public/newtxtt
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
+@dirrmtry share/texmf-dist/fonts/map/dvips/newtxtt
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts/enc/dvips/newtxtt
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
+@dirrmtry share/texmf-dist/fonts
+@dirrmtry share/texmf-dist/doc/fonts/newtxtt
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

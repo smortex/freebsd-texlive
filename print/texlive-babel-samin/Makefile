@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-samin
-PORTVERSION=	20130506
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The babel-samin package
+COMMENT=	Babel support for Samin.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

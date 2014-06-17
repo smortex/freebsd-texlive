@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	beamerthemephnompenh
-PORTVERSION=	20130809
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

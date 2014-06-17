@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	lato
-PORTVERSION=	20120101
-PORTREVISION=	1
+PORTVERSION=	20140418
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Lato font fanily and LaTeX support.
+COMMENT=	Lato font family and LaTeX support.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

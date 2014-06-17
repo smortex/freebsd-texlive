@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-hebrew
-PORTVERSION=	20130506
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The babel-hebrew package
+COMMENT=	Babel support for Hebrew.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

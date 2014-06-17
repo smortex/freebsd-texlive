@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ucharclasses
-PORTVERSION=	20120927
-PORTREVISION=	1
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Switch fonts in XeTeX according to what is being processed.
+COMMENT=	Font actions in XeTeX according to what is being processed.
 
 NOPORTSRC=	yes
 

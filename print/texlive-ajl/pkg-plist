@@ -1,0 +1,6 @@
+share/texmf-dist/bibtex/bst/ajl/ajl.bst
+@dirrmtry share/texmf-dist/bibtex/bst/ajl
+@dirrmtry share/texmf-dist/bibtex/bst
+@dirrmtry share/texmf-dist/bibtex
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

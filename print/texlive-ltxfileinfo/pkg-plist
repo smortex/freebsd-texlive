@@ -1,8 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/ltxfileinfo/README
 %%PORTDOCS%%share/texmf-dist/doc/support/ltxfileinfo/ltxfileinfo.pdf
-share/texmf-dist/scripts/ltxfileinfo/ltxfileinfo
-@dirrmtry share/texmf-dist/scripts/ltxfileinfo
-@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/support/ltxfileinfo
 @dirrmtry share/texmf-dist/doc/support
 @dirrmtry share/texmf-dist/doc

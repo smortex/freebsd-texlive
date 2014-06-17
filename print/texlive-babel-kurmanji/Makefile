@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-kurmanji
-PORTVERSION=	20130506
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The babel-kurmanji package
+COMMENT=	Babel support for Kurmanji.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

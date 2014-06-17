@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-welsh
-PORTVERSION=	20130506
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	babel-welshBabel support for Welsh.
+COMMENT=	Babel support for Welsh.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

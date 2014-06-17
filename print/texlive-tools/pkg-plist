@@ -1,3 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tools/00readme.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/afterpage.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/array.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/bm.pdf
@@ -16,7 +17,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/manifest.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/multicol.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/rawfonts.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/tools/readme.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/showkeys.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/somedefs.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/tabularx.pdf
@@ -28,8 +28,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/xr.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/xspace.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/tools/afterpage.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tools/afterpage.ins
 %%PORTSRC%%share/texmf-dist/source/latex/tools/array.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tools/bm.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tools/bm.ins
 %%PORTSRC%%share/texmf-dist/source/latex/tools/calc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tools/dcolumn.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tools/delarray.dtx
@@ -41,15 +43,19 @@
 %%PORTSRC%%share/texmf-dist/source/latex/tools/indentfirst.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tools/layout.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tools/longtable.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tools/longtable.ins
 %%PORTSRC%%share/texmf-dist/source/latex/tools/multicol.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tools/multicol.ins
 %%PORTSRC%%share/texmf-dist/source/latex/tools/rawfonts.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tools/showkeys.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tools/somedefs.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tools/tabularx.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tools/tabularx.ins
 %%PORTSRC%%share/texmf-dist/source/latex/tools/theorem.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tools/tools.ins
 %%PORTSRC%%share/texmf-dist/source/latex/tools/trace.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tools/varioref.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tools/varioref.ins
 %%PORTSRC%%share/texmf-dist/source/latex/tools/verbatim.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tools/xr.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tools/xspace.dtx

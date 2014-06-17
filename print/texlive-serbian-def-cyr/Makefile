@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	serbian-def-cyr
-PORTVERSION=	20110829
-PORTREVISION=	1
+PORTVERSION=	20140418
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The serbian-def-cyr package
+COMMENT=	Serbian cyrillic localization.
 
 NOPORTSRC=	yes
 

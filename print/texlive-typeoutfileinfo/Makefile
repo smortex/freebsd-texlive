@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	typeoutfileinfo
-PORTVERSION=	20130312
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

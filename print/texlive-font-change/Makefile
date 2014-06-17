@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	font-change
-PORTVERSION=	20100914
-PORTREVISION=	1
+PORTVERSION=	20140418
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros to Change Text and Math fonts in plain TeX.
+COMMENT=	Macros to change text and mathematics fonts in plain TeX.
 
 NOPORTSRC=	yes
 

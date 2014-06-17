@@ -4,7 +4,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/splitindex/splitidx.pdf
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/splitindex.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/splitindex.man1.pdf
-share/texmf-dist/scripts/splitindex/splitindex.pl
 share/texmf-dist/scripts/splitindex/splitindex.tlu
 share/texmf-dist/scripts/splitindex/splitindex_main.tlu
 %%PORTSRC%%share/texmf-dist/source/latex/splitindex/README

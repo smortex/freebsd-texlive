@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	interactiveworkbook
-PORTVERSION=	20100610
-PORTREVISION=	1
+PORTVERSION=	20140418
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	latex-based interactive PDF on the web
+COMMENT=	LaTeX-based interactive PDF on the Web.
 
 NOPORTSRC=	yes
 

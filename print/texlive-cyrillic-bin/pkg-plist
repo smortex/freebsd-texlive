@@ -2,10 +2,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/rubibtex.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/rumakeindex.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/rumakeindex.man1.pdf
-share/texmf-dist/scripts/texlive/rubibtex.sh
-share/texmf-dist/scripts/texlive/rumakeindex.sh
-@dirrmtry share/texmf-dist/scripts/texlive
-@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/man/man1
 @dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc

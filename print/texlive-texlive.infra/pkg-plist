@@ -37,7 +37,6 @@ share/texmf-dist/scripts/texlive/uninstall-win32.pl
 share/texmf-dist/web2c/fmtutil-hdr.cnf
 share/texmf-dist/web2c/updmap-hdr.cfg
 %%PORTDOCS%%share/tlpkg/README
-share/tlpkg/TeXLive/Splashscreen.pm
 share/tlpkg/TeXLive/TLConfFile.pm
 share/tlpkg/TeXLive/TLConfig.pm
 share/tlpkg/TeXLive/TLDownload.pm
@@ -50,7 +49,6 @@ share/tlpkg/TeXLive/TLUtils.pm
 share/tlpkg/TeXLive/TLWinGoo.pm
 share/tlpkg/TeXLive/TeXCatalogue.pm
 share/tlpkg/TeXLive/trans.pl
-share/tlpkg/TeXLive/waitVariableX.pm
 %%PORTDOCS%%share/tlpkg/installer/COPYING.MinGW-runtime.txt
 share/tlpkg/installer/config.guess
 @dirrmtry share/tlpkg/installer

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ebook
-PORTVERSION=	20130322
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The ebook package
+COMMENT=	ebook
 
 NOPORTSRC=	yes
 

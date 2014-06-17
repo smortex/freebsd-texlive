@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	harnon-cv
-PORTVERSION=	20120522
-PORTREVISION=	1
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The harnon-cv package
+COMMENT=	A CV document class with a vertical timeline for experience.
 
 NOPORTSRC=	yes
 

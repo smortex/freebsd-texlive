@@ -3,7 +3,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/adhocfilelist/SrcFILEs.txt
 %%PORTDOCS%%share/texmf-dist/doc/support/adhocfilelist/adhocfilelist.htm
 %%PORTDOCS%%share/texmf-dist/doc/support/adhocfilelist/demo/herelist.txt
-share/texmf-dist/scripts/adhocfilelist/adhocfilelist.sh
 share/texmf-dist/scripts/adhocfilelist/herelist.sh
 %%PORTSRC%%share/texmf-dist/source/support/adhocfilelist/adhocfilelist.tex
 %%PORTSRC%%share/texmf-dist/source/support/adhocfilelist/fdatechk.tex

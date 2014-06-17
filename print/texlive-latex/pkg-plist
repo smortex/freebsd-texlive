@@ -135,6 +135,7 @@ share/texmf-dist/makeindex/latex/gind.ist
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltnews18.tex
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltnews19.tex
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltnews20.tex
+%%PORTSRC%%share/texmf-dist/source/latex/base/ltnews21.tex
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltoutenc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltoutenc.ins
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltoutput.dtx
@@ -205,6 +206,7 @@ share/texmf-dist/tex/latex/base/fixltx2e.sty
 share/texmf-dist/tex/latex/base/flafter.sty
 share/texmf-dist/tex/latex/base/fleqn.clo
 share/texmf-dist/tex/latex/base/fleqn.sty
+share/texmf-dist/tex/latex/base/fltrace.sty
 share/texmf-dist/tex/latex/base/fontenc.sty
 share/texmf-dist/tex/latex/base/fontmath.cfg
 share/texmf-dist/tex/latex/base/fontmath.ltx

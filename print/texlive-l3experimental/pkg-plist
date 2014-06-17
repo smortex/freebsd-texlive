@@ -1,5 +1,4 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/l3dt/l3dt.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/l3sort/l3sort.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/l3str/l3flag.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/l3str/l3regex.pdf
@@ -11,8 +10,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/xcoffins/xcoffins.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/xgalley/l3galley.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/xgalley/xgalley.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3dt/l3dt.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3dt/l3dt.ins
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3sort/l3sort.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3sort/l3sort.ins
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3str/l3flag.dtx
@@ -28,7 +25,6 @@
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/xgalley/l3galley.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/xgalley/xgalley.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/xgalley/xgalley.ins
-share/texmf-dist/tex/latex/l3experimental/l3dt/l3dt.sty
 share/texmf-dist/tex/latex/l3experimental/l3sort/l3sort.sty
 share/texmf-dist/tex/latex/l3experimental/l3str/l3flag.sty
 share/texmf-dist/tex/latex/l3experimental/l3str/l3regex-trace.sty
@@ -67,7 +63,6 @@ share/texmf-dist/tex/latex/l3experimental/xgalley/xgalley.sty
 @dirrmtry share/texmf-dist/tex/latex/l3experimental/xcoffins
 @dirrmtry share/texmf-dist/tex/latex/l3experimental/l3str
 @dirrmtry share/texmf-dist/tex/latex/l3experimental/l3sort
-@dirrmtry share/texmf-dist/tex/latex/l3experimental/l3dt
 @dirrmtry share/texmf-dist/tex/latex/l3experimental
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
@@ -75,7 +70,6 @@ share/texmf-dist/tex/latex/l3experimental/xgalley/xgalley.sty
 @dirrmtry share/texmf-dist/source/latex/l3experimental/xcoffins
 @dirrmtry share/texmf-dist/source/latex/l3experimental/l3str
 @dirrmtry share/texmf-dist/source/latex/l3experimental/l3sort
-@dirrmtry share/texmf-dist/source/latex/l3experimental/l3dt
 @dirrmtry share/texmf-dist/source/latex/l3experimental
 @dirrmtry share/texmf-dist/source/latex
 @dirrmtry share/texmf-dist/source
@@ -83,7 +77,6 @@ share/texmf-dist/tex/latex/l3experimental/xgalley/xgalley.sty
 @dirrmtry share/texmf-dist/doc/latex/l3experimental/xcoffins
 @dirrmtry share/texmf-dist/doc/latex/l3experimental/l3str
 @dirrmtry share/texmf-dist/doc/latex/l3experimental/l3sort
-@dirrmtry share/texmf-dist/doc/latex/l3experimental/l3dt
 @dirrmtry share/texmf-dist/doc/latex/l3experimental
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc

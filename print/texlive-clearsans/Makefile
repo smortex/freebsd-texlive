@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	clearsans
-PORTVERSION=	20140318
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The clearsans package
+COMMENT=	Clear Sans fonts with LaTeX support.
 
 NOPORTSRC=	yes
 

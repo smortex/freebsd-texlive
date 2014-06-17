@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	withargs
-PORTVERSION=	20131015
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The withargs package
+COMMENT=	Ephemeral macro use.
 
 NOPORTSRC=	yes
 

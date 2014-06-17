@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	delim
-PORTVERSION=	20110916
-PORTREVISION=	1
+PORTVERSION=	20140418
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The delim package
+COMMENT=	Simplify typesetting mathematical delimiters.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

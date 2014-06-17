@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	he-she
-PORTVERSION=	20130305
+PORTVERSION=	20140418
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Alternating pronouns to aid to gender-neutral writing.
+COMMENT=	Alternating pronouns to aid gender-neutral writing.
 
 NOPORTSRC=	yes
 

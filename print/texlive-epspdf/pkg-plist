@@ -15,7 +15,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/epspdf/pstexi.tex
 share/texmf-dist/scripts/epspdf/epspdf.help
 share/texmf-dist/scripts/epspdf/epspdf.ico
-share/texmf-dist/scripts/epspdf/epspdf.tlu
 @dirrmtry share/texmf-dist/scripts/epspdf
 @dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/support/epspdf/images

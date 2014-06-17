@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	phonetic
-PORTVERSION=	20110329
-PORTREVISION=	1
+PORTVERSION=	20140418
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	MetaFont Phonetic fonts, based on Computer Modern.
+COMMENT=	Metafont Phonetic fonts, based on Computer Modern.
 
 NOPORTSRC=	yes
 

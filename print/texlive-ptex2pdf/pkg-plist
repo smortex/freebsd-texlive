@@ -1,8 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/ptex2pdf/COPYING
 %%PORTDOCS%%share/texmf-dist/doc/latex/ptex2pdf/README
-share/texmf-dist/scripts/ptex2pdf/ptex2pdf.lua
-@dirrmtry share/texmf-dist/scripts/ptex2pdf
-@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/latex/ptex2pdf
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc

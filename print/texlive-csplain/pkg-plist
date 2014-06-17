@@ -50,6 +50,9 @@ share/texmf-dist/tex/csplain/fonts/lmfonts.tex
 share/texmf-dist/tex/csplain/fonts/luafonts.tex
 share/texmf-dist/tex/csplain/fonts/tx-math.tex
 share/texmf-dist/tex/csplain/fonts/unifam.tex
+share/texmf-dist/tex/csplain/opmac/opmac-bib-iso690.tex
+share/texmf-dist/tex/csplain/opmac/opmac-bib-simple.tex
+share/texmf-dist/tex/csplain/opmac/opmac-bib.tex
 share/texmf-dist/tex/csplain/opmac/opmac-xetex.tex
 share/texmf-dist/tex/csplain/opmac/opmac.tex
 share/texmf-dist/tex/csplain/opmac/pdfuni.tex

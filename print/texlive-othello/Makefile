@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	othello
-PORTVERSION=	20100610
-PORTREVISION=	1
+PORTVERSION=	20140418
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create othello boards in LaTeX.
+COMMENT=	Modification of a Go package to create othello boards.
 
 NOPORTSRC=	yes
 

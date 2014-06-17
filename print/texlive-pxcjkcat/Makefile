@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pxcjkcat
-PORTVERSION=	20120923
-PORTREVISION=	1
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The pxcjkcat package
+COMMENT=	LaTeX interface for the CJK category codes of upTeX.
 
 NOPORTSRC=	yes
 

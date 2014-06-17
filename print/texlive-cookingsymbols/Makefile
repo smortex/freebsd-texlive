@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cookingsymbols
-PORTVERSION=	20111107
-PORTREVISION=	1
+PORTVERSION=	20140418
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The cookingsymbols package
+COMMENT=	Symbols for recipes.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

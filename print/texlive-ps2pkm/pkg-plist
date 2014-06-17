@@ -1,11 +1,11 @@
-share/texmf-dist/doc/man/man1/mag.1
-share/texmf-dist/doc/man/man1/mag.man1.pdf
-share/texmf-dist/doc/man/man1/pfb2pfa.1
-share/texmf-dist/doc/man/man1/pfb2pfa.man1.pdf
-share/texmf-dist/doc/man/man1/pk2bm.1
-share/texmf-dist/doc/man/man1/pk2bm.man1.pdf
-share/texmf-dist/doc/man/man1/ps2pk.1
-share/texmf-dist/doc/man/man1/ps2pk.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/mag.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/mag.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/pfb2pfa.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/pfb2pfa.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/pk2bm.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/pk2bm.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/ps2pk.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/ps2pk.man1.pdf
 @dirrmtry share/texmf-dist/doc/man/man1
 @dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc

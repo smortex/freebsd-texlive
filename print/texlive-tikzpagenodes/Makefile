@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	tikzpagenodes
-PORTVERSION=	20120919
-PORTREVISION=	1
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create commutative diagrams with TikZ
+COMMENT=	A single TikZ node for the whole page.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

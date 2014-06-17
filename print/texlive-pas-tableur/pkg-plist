@@ -1,5 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pas-tableur/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/pas-tableur/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-tableur/pas-tableur.tex
 share/texmf-dist/tex/latex/pas-tableur/pas-tableur.sty
 @dirrmtry share/texmf-dist/tex/latex/pas-tableur
 @dirrmtry share/texmf-dist/tex/latex

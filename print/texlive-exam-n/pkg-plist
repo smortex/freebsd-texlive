@@ -1,0 +1,49 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/exam-n-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/exam-n.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/exam-n.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/lppl.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/move-to-texmf/A1.clo
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/move-to-texmf/exam-n.cls
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/notes-for-authors.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/release-notes.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample/cosmo1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample/cosmo2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample/cosmo3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample/dynamical1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample/dynamical2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample/dynamical3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample/excos1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample/numerical1-solution.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample/numerical1-solution.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample/numerical1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample/numerical2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample/numerical3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample/sample_exam.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample/sample_exam.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample/sample_exam_solution.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample/sample_exam_solution.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample/sample_mcq.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample/spiral.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample/spiral.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample_exam.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/sample_exam_solution.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/exam-n/style.css
+%%PORTSRC%%share/texmf-dist/source/latex/exam-n/exam-n.drv
+%%PORTSRC%%share/texmf-dist/source/latex/exam-n/exam-n.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/exam-n/exam-n.ins
+share/texmf-dist/tex/latex/exam-n/exam-n.cls
+@dirrmtry share/texmf-dist/tex/latex/exam-n
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/exam-n
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/exam-n/sample
+@dirrmtry share/texmf-dist/doc/latex/exam-n/move-to-texmf
+@dirrmtry share/texmf-dist/doc/latex/exam-n
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	pst-perspective
-PORTVERSION=	20140415
+PORTVERSION=	20140419
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

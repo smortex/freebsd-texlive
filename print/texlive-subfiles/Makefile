@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	subfiles
-PORTVERSION=	20120525
-PORTREVISION=	1
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The subfiles package
+COMMENT=	Individual typesetting of subfiles of a "main" document.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
