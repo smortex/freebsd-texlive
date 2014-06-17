@@ -14,17 +14,14 @@ share/texmf-dist/scripts/texdoc/functions.tlu
 share/texmf-dist/scripts/texdoc/main.tlu
 share/texmf-dist/scripts/texdoc/score.tlu
 share/texmf-dist/scripts/texdoc/search.tlu
-share/texmf-dist/scripts/texdoc/texdoc.tlu
 share/texmf-dist/scripts/texdoc/texdoclib.tlu
 share/texmf-dist/scripts/texdoc/view.tlu
-share/texmf-dist/scripts/texdoctk/texdoctk.pl
 share/texmf-dist/texdoc/texdoc.cnf
 share/texmf-dist/texdoctk/texdocrc-win32.defaults
 share/texmf-dist/texdoctk/texdocrc.defaults
 share/texmf-dist/texdoctk/texdoctk.dat
 @dirrmtry share/texmf-dist/texdoctk
 @dirrmtry share/texmf-dist/texdoc
-@dirrmtry share/texmf-dist/scripts/texdoctk
 @dirrmtry share/texmf-dist/scripts/texdoc
 @dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/texdoc

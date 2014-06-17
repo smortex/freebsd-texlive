@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	zxjafbfont
-PORTVERSION=	20121216
-PORTREVISION=	1
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The zxjafbfont package
+COMMENT=	Fallback CJK font support for xeCJK.
 
 NOPORTSRC=	yes
 

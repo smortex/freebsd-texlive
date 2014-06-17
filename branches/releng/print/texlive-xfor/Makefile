@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	xfor
-PORTVERSION=	20100610
-PORTREVISION=	1
+PORTVERSION=	20140418
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A reimplimentation of the LaTeX for-loop macro.
+COMMENT=	A reimplementation of the LaTeX for-loop macro.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

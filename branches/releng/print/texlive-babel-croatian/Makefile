@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-croatian
-PORTVERSION=	20130506
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The babel-croatian package
+COMMENT=	Babel contributed support for Croatian.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

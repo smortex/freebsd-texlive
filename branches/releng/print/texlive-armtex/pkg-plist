@@ -1,0 +1,105 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/armenian/examples/latex/alphabet.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/armenian/examples/latex/manual-e.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/armenian/examples/latex/manual.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/armenian/examples/latex/raffi-a8.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/armenian/examples/latex/raffi-u8.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/armenian/examples/latex/raffi.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/armenian/examples/plain/first.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/armenian/examples/plain/plraf-a8.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/armenian/examples/plain/plraf-u8.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/armenian/examples/plain/plraf.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/armenian/examples/plain/table.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/armenian/manual-e.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/armenian/manual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/armenian/readme.txt
+share/texmf-dist/fonts/afm/public/armenian/arssb10.afm
+share/texmf-dist/fonts/afm/public/armenian/arssbs10.afm
+share/texmf-dist/fonts/afm/public/armenian/arssr10.afm
+share/texmf-dist/fonts/afm/public/armenian/arsssl10.afm
+share/texmf-dist/fonts/afm/public/armenian/artmb10.afm
+share/texmf-dist/fonts/afm/public/armenian/artmbi10.afm
+share/texmf-dist/fonts/afm/public/armenian/artmbs10.afm
+share/texmf-dist/fonts/afm/public/armenian/artmi10.afm
+share/texmf-dist/fonts/afm/public/armenian/artmr10.afm
+share/texmf-dist/fonts/afm/public/armenian/artmsl10.afm
+share/texmf-dist/fonts/map/dvips/armenian/arss.map
+share/texmf-dist/fonts/map/dvips/armenian/artm.map
+share/texmf-dist/fonts/source/public/armenian/arssb10.mf
+share/texmf-dist/fonts/source/public/armenian/arssbs10.mf
+share/texmf-dist/fonts/source/public/armenian/arssr10.mf
+share/texmf-dist/fonts/source/public/armenian/arsssl10.mf
+share/texmf-dist/fonts/source/public/armenian/artmb10.mf
+share/texmf-dist/fonts/source/public/armenian/artmbi10.mf
+share/texmf-dist/fonts/source/public/armenian/artmbs10.mf
+share/texmf-dist/fonts/source/public/armenian/artmi10.mf
+share/texmf-dist/fonts/source/public/armenian/artmr10.mf
+share/texmf-dist/fonts/source/public/armenian/artmsl10.mf
+share/texmf-dist/fonts/source/public/armenian/ps2mfbas.mf
+share/texmf-dist/fonts/tfm/public/armenian/arssb10.tfm
+share/texmf-dist/fonts/tfm/public/armenian/arssbs10.tfm
+share/texmf-dist/fonts/tfm/public/armenian/arssr10.tfm
+share/texmf-dist/fonts/tfm/public/armenian/arsssl10.tfm
+share/texmf-dist/fonts/tfm/public/armenian/artmb10.tfm
+share/texmf-dist/fonts/tfm/public/armenian/artmbi10.tfm
+share/texmf-dist/fonts/tfm/public/armenian/artmbs10.tfm
+share/texmf-dist/fonts/tfm/public/armenian/artmi10.tfm
+share/texmf-dist/fonts/tfm/public/armenian/artmr10.tfm
+share/texmf-dist/fonts/tfm/public/armenian/artmsl10.tfm
+share/texmf-dist/fonts/type1/public/armenian/arssb10.pfb
+share/texmf-dist/fonts/type1/public/armenian/arssb10.pfm
+share/texmf-dist/fonts/type1/public/armenian/arssbs10.pfb
+share/texmf-dist/fonts/type1/public/armenian/arssbs10.pfm
+share/texmf-dist/fonts/type1/public/armenian/arssr10.pfb
+share/texmf-dist/fonts/type1/public/armenian/arssr10.pfm
+share/texmf-dist/fonts/type1/public/armenian/arsssl10.pfb
+share/texmf-dist/fonts/type1/public/armenian/arsssl10.pfm
+share/texmf-dist/fonts/type1/public/armenian/artmb10.pfb
+share/texmf-dist/fonts/type1/public/armenian/artmb10.pfm
+share/texmf-dist/fonts/type1/public/armenian/artmbi10.pfb
+share/texmf-dist/fonts/type1/public/armenian/artmbi10.pfm
+share/texmf-dist/fonts/type1/public/armenian/artmbs10.pfb
+share/texmf-dist/fonts/type1/public/armenian/artmbs10.pfm
+share/texmf-dist/fonts/type1/public/armenian/artmi10.pfb
+share/texmf-dist/fonts/type1/public/armenian/artmi10.pfm
+share/texmf-dist/fonts/type1/public/armenian/artmr10.pfb
+share/texmf-dist/fonts/type1/public/armenian/artmr10.pfm
+share/texmf-dist/fonts/type1/public/armenian/artmsl10.pfb
+share/texmf-dist/fonts/type1/public/armenian/artmsl10.pfm
+share/texmf-dist/tex/latex/armenian/armscii8.def
+share/texmf-dist/tex/latex/armenian/armtex.sty
+share/texmf-dist/tex/latex/armenian/ot6cmr.fd
+share/texmf-dist/tex/latex/armenian/ot6cmss.fd
+share/texmf-dist/tex/latex/armenian/ot6enc.def
+share/texmf-dist/tex/latex/armenian/ot6enc.dfu
+share/texmf-dist/tex/plain/armenian/arm.tex
+share/texmf-dist/tex/plain/armenian/armkb-a8.tex
+share/texmf-dist/tex/plain/armenian/armkb-u8.tex
+@dirrmtry share/texmf-dist/tex/plain/armenian
+@dirrmtry share/texmf-dist/tex/plain
+@dirrmtry share/texmf-dist/tex/latex/armenian
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/fonts/type1/public/armenian
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
+@dirrmtry share/texmf-dist/fonts/tfm/public/armenian
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
+@dirrmtry share/texmf-dist/fonts/source/public/armenian
+@dirrmtry share/texmf-dist/fonts/source/public
+@dirrmtry share/texmf-dist/fonts/source
+@dirrmtry share/texmf-dist/fonts/map/dvips/armenian
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts/afm/public/armenian
+@dirrmtry share/texmf-dist/fonts/afm/public
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
+@dirrmtry share/texmf-dist/doc/generic/armenian/examples/plain
+@dirrmtry share/texmf-dist/doc/generic/armenian/examples/latex
+@dirrmtry share/texmf-dist/doc/generic/armenian/examples
+@dirrmtry share/texmf-dist/doc/generic/armenian
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

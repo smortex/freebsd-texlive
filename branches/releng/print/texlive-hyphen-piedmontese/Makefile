@@ -1,14 +1,14 @@
 # $FreeBSD$
 
 PORTNAME=	hyphen-piedmontese
-PORTVERSION=	20130222
+PORTVERSION=	20140418
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Piedmontese hyphenation patterns.
 
-RUN_DEPENDS=	${LOCALBASE}/share/texmf/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8
 
 NOPORTDOCS=	yes

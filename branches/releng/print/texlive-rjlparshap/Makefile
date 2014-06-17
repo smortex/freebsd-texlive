@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	rjlparshap
-PORTVERSION=	20100610
-PORTREVISION=	1
+PORTVERSION=	20140418
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The rjlparshap package
+COMMENT=	Support for use of \parshape in LaTeX.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

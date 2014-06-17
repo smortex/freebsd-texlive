@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	textglos
-PORTVERSION=	20130529
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The textglos package
+COMMENT=	Typeset and index linguistic gloss abbreviations.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

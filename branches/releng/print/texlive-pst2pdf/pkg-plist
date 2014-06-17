@@ -14,9 +14,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/test3-pdf.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/test3.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/tux.jpg
-share/texmf-dist/scripts/pst2pdf/pst2pdf.pl
-@dirrmtry share/texmf-dist/scripts/pst2pdf
-@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/latex/pst2pdf
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc

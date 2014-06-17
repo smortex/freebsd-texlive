@@ -16,12 +16,16 @@
 %%PORTDOCS%%share/texmf-dist/doc/dvipdfmx/dvipdfmx-special.tex
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/dvipdfm.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/dvipdfm.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/dvipdfmx.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/dvipdfmx.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/dvipdft.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/dvipdft.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/ebb.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/ebb.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/extractbb.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/extractbb.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/xdvipdfmx.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/xdvipdfmx.man1.pdf
 share/texmf-dist/fonts/cmap/dvipdfmx/README
 share/texmf-dist/fonts/cmap/dvipdfmx/UTF8-UCS2
 share/texmf-dist/fonts/map/dvipdfmx/ckx.map

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	repere
-PORTVERSION=	20131221
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The repere package
+COMMENT=	Diagrams for school mathematics
 
 NOPORTSRC=	yes
 

@@ -4,9 +4,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/texindy.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/xindy.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/xindy.man1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/xindy/NEWS
 %%PORTDOCS%%share/texmf-dist/doc/xindy/README
-%%PORTDOCS%%share/texmf-dist/doc/xindy/README.distrib-source
 %%PORTDOCS%%share/texmf-dist/doc/xindy/alphabets-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/xindy/dataflow.gif
 %%PORTDOCS%%share/texmf-dist/doc/xindy/faq-1.html
@@ -15,6 +13,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/xindy/faq-4.html
 %%PORTDOCS%%share/texmf-dist/doc/xindy/faq.html
 %%PORTDOCS%%share/texmf-dist/doc/xindy/index.gif
+%%PORTDOCS%%share/texmf-dist/doc/xindy/makeindex4.pdf
 %%PORTDOCS%%share/texmf-dist/doc/xindy/manual-1.html
 %%PORTDOCS%%share/texmf-dist/doc/xindy/manual-2.html
 %%PORTDOCS%%share/texmf-dist/doc/xindy/manual-3.html
@@ -24,6 +23,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/xindy/manual-7.html
 %%PORTDOCS%%share/texmf-dist/doc/xindy/manual.html
 %%PORTDOCS%%share/texmf-dist/doc/xindy/mappings.gif
+%%PORTDOCS%%share/texmf-dist/doc/xindy/next.gif
+%%PORTDOCS%%share/texmf-dist/doc/xindy/prev.gif
 %%PORTDOCS%%share/texmf-dist/doc/xindy/style-tutorial-1.html
 %%PORTDOCS%%share/texmf-dist/doc/xindy/style-tutorial-2.html
 %%PORTDOCS%%share/texmf-dist/doc/xindy/style-tutorial-3.html
@@ -38,6 +39,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/xindy/style-tutorial/style2.xdy
 %%PORTDOCS%%share/texmf-dist/doc/xindy/tex2xindy.pdf
 %%PORTDOCS%%share/texmf-dist/doc/xindy/texindy.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xindy/toc.gif
 %%PORTDOCS%%share/texmf-dist/doc/xindy/xindy.pdf
 share/texmf-dist/scripts/xindy/texindy.pl
 share/texmf-dist/scripts/xindy/xindy.pl
@@ -316,14 +318,11 @@ share/texmf-dist/xindy/modules/lang/norwegian/latin1.xdy
 share/texmf-dist/xindy/modules/lang/norwegian/utf8-lang.xdy
 share/texmf-dist/xindy/modules/lang/norwegian/utf8-test.xdy
 share/texmf-dist/xindy/modules/lang/norwegian/utf8.xdy
-share/texmf-dist/xindy/modules/lang/persian/README
 share/texmf-dist/xindy/modules/lang/persian/variant1-utf8-lang.xdy
 share/texmf-dist/xindy/modules/lang/persian/variant1-utf8-test.xdy
-share/texmf-dist/xindy/modules/lang/persian/variant1-utf8.pl.in
 share/texmf-dist/xindy/modules/lang/persian/variant1-utf8.xdy
 share/texmf-dist/xindy/modules/lang/persian/variant2-utf8-lang.xdy
 share/texmf-dist/xindy/modules/lang/persian/variant2-utf8-test.xdy
-share/texmf-dist/xindy/modules/lang/persian/variant2-utf8.pl.in
 share/texmf-dist/xindy/modules/lang/persian/variant2-utf8.xdy
 share/texmf-dist/xindy/modules/lang/polish/cp1250-lang.xdy
 share/texmf-dist/xindy/modules/lang/polish/cp1250-test.xdy
@@ -457,10 +456,7 @@ share/texmf-dist/xindy/modules/rules/isolatin1-tolower.xdy
 share/texmf-dist/xindy/modules/rules/latin-exchange.xdy
 share/texmf-dist/xindy/modules/rules/latin-tolower.xdy
 share/texmf-dist/xindy/modules/styles/basic.xdy
-share/texmf-dist/xindy/modules/styles/example.xdy
 share/texmf-dist/xindy/modules/styles/makeidx.xdy
-share/texmf-dist/xindy/modules/styles/makeindex.xdy
-share/texmf-dist/xindy/modules/styles/vermeer.xdy
 share/texmf-dist/xindy/modules/tex/inputenc/cp1250.xdy
 share/texmf-dist/xindy/modules/tex/inputenc/cp1251.xdy
 share/texmf-dist/xindy/modules/tex/inputenc/cp1252.xdy
@@ -476,6 +472,7 @@ share/texmf-dist/xindy/modules/tex/inputenc/latin.xdy
 share/texmf-dist/xindy/modules/tex/inputenc/latin1.xdy
 share/texmf-dist/xindy/modules/tex/inputenc/latin2.xdy
 share/texmf-dist/xindy/modules/tex/inputenc/latin3.xdy
+share/texmf-dist/xindy/modules/tex/inputenc/utf8.xdy
 @dirrmtry share/texmf-dist/xindy/modules/tex/inputenc
 @dirrmtry share/texmf-dist/xindy/modules/tex
 @dirrmtry share/texmf-dist/xindy/modules/styles

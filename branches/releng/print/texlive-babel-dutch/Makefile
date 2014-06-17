@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-dutch
-PORTVERSION=	20130506
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The babel-dutch package
+COMMENT=	Babel contributed support for Dutch.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

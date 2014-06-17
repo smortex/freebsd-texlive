@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	context-gnuplot
-PORTVERSION=	20130510
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

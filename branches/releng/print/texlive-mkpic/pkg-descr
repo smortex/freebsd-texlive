@@ -1,0 +1,4 @@
+A Perl interface to mfpic making it possible to enter simple
+commands with tab separated arguments and without
+braces/brackets to design figures. The script produces a style
+file, mkpic.sty, containing one LaTeX command for each picture.

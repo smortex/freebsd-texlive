@@ -1,11 +1,14 @@
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/COPYING
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/README
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/jfm-test.lua
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/jfm-ujisc33.lua
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/ltjclasses.pdf
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/ltjltxdoc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/ltjsclasses.pdf
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/luatexja-en.pdf
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/luatexja-ja.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/luatexja-ruby.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/luatexja-ruby.tex
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/luatexja-zhfonts.pdf
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/luatexja-zhfonts.tex
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luatexja/luatexja.dtx
@@ -34,6 +37,7 @@ share/texmf-dist/tex/luatex/luatexja/addons/luatexja-ajmacros.sty
 share/texmf-dist/tex/luatex/luatexja/addons/luatexja-fontspec.sty
 share/texmf-dist/tex/luatex/luatexja/addons/luatexja-otf.sty
 share/texmf-dist/tex/luatex/luatexja/addons/luatexja-preset.sty
+share/texmf-dist/tex/luatex/luatexja/addons/luatexja-ruby.sty
 share/texmf-dist/tex/luatex/luatexja/addons/luatexja-zhfonts.sty
 share/texmf-dist/tex/luatex/luatexja/jfm-CCT.lua
 share/texmf-dist/tex/luatex/luatexja/jfm-banjiao.lua
@@ -63,6 +67,7 @@ share/texmf-dist/tex/luatex/luatexja/ltj-otf.lua
 share/texmf-dist/tex/luatex/luatexja/ltj-plain.sty
 share/texmf-dist/tex/luatex/luatexja/ltj-pretreat.lua
 share/texmf-dist/tex/luatex/luatexja/ltj-rmlgbm.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-ruby.lua
 share/texmf-dist/tex/luatex/luatexja/ltj-setwidth.lua
 share/texmf-dist/tex/luatex/luatexja/ltj-stack.lua
 share/texmf-dist/tex/luatex/luatexja/ltj-tangle.lua

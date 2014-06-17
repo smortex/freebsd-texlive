@@ -20,21 +20,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/sjisconv.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/sjisconv/sjisconv.pdf
 share/texmf-dist/hbf2gf/README
-share/texmf-dist/hbf2gf/b5ka12.cfg
-share/texmf-dist/hbf2gf/b5kr12.cfg
-share/texmf-dist/hbf2gf/b5so12.cfg
-share/texmf-dist/hbf2gf/c1so12.cfg
-share/texmf-dist/hbf2gf/c2so12.cfg
-share/texmf-dist/hbf2gf/c3so12.cfg
-share/texmf-dist/hbf2gf/c4so12.cfg
-share/texmf-dist/hbf2gf/c5so12.cfg
-share/texmf-dist/hbf2gf/c6so12.cfg
-share/texmf-dist/hbf2gf/c7so12.cfg
-share/texmf-dist/hbf2gf/csso12.cfg
-share/texmf-dist/hbf2gf/gsfs14.cfg
-share/texmf-dist/hbf2gf/j2so12.cfg
-share/texmf-dist/hbf2gf/jsso12.cfg
-share/texmf-dist/hbf2gf/ksso17.cfg
 @dirrmtry share/texmf-dist/hbf2gf
 @dirrmtry share/texmf-dist/doc/sjisconv
 @dirrmtry share/texmf-dist/doc/man/man1

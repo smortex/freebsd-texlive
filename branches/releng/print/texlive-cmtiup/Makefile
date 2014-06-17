@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cmtiup
-PORTVERSION=	20101122
-PORTREVISION=	1
+PORTVERSION=	20140418
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Upright punctuation with CM slanted.
+COMMENT=	Upright punctuation with CM italic.
 
 NOPORTSRC=	yes
 

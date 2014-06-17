@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-scottish
-PORTVERSION=	20130506
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The babel-scottish package
+COMMENT=	Babel support for Scottish Gaelic.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

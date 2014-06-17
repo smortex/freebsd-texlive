@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	metatex
-PORTVERSION=	20100610
-PORTREVISION=	1
+PORTVERSION=	20140418
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Incorporate MetaFont pictures in TeX source.
+COMMENT=	Incorporate Metafont pictures in TeX source.
 
 NOPORTSRC=	yes
 

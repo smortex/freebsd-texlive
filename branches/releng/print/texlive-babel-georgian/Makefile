@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	babel-georgian
-PORTVERSION=	20130629
+PORTVERSION=	20140419
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-formatsextra
-PORTVERSION=	20130512
+PORTVERSION=	20140426
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -34,8 +34,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/metafont/base/expr.mf:${PORTSDIR}/print/texlive-metafont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mflogo/mflogo.sty:${PORTSDIR}/print/texlive-mflogo \
 		${LOCALBASE}/share/texmf-dist/mft/base/README:${PORTSDIR}/print/texlive-mfware \
-		${LOCALBASE}/share/texmf-dist/omega/ocp/misc/ebcdic.ocp:${PORTSDIR}/print/texlive-misc \
-		${LOCALBASE}/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map:${PORTSDIR}/print/texlive-pdftex \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/dummy-space/dummy-space.map:${PORTSDIR}/print/texlive-pdftex \
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
@@ -45,6 +44,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/tex/generic/edmac/edmac.tex:${PORTSDIR}/print/texlive-edmac \
 		${LOCALBASE}/share/texmf-dist/tex/eplain/eplain.tex:${PORTSDIR}/print/texlive-eplain \
+		${LOCALBASE}/share/texmf-dist/tex/lollipop/lollipop.tex:${PORTSDIR}/print/texlive-lollipop \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mltex/mltex.sty:${PORTSDIR}/print/texlive-mltex \
 		${LOCALBASE}/share/texmf-dist/tex/psizzl/base/psizzl.tex:${PORTSDIR}/print/texlive-psizzl \
 		${LOCALBASE}/share/texmf-dist/tex/startex/base/startex.tex:${PORTSDIR}/print/texlive-startex \

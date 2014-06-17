@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	coverpage
-PORTVERSION=	20100610
-PORTREVISION=	1
+PORTVERSION=	20140418
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Automatic cover page creation for scientific papers (with BibTeX data and copyright notice).
+COMMENT=	Automatic cover page creation for scientific papers.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	aecc
-PORTVERSION=	20121219
-PORTREVISION=	1
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The aecc package
+COMMENT=	Almost European Concrete Roman virtual fonts.
 
 NOPORTSRC=	yes
 

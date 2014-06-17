@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	langcode
-PORTVERSION=	20120922
-PORTREVISION=	1
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The langcode package
+COMMENT=	Simple language-dependent settings based on language codes.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

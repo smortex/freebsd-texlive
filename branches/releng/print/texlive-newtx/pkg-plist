@@ -176,11 +176,13 @@ share/texmf-dist/fonts/tfm/public/newtx/rntxmi.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rntxmi5.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rntxmi7.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rtxbmi-rev.tfm
+share/texmf-dist/fonts/tfm/public/newtx/rtxbmi-ut.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rtxbmi5-rev.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rtxbmi5.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rtxbmi7-rev.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rtxbmi7.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rtxbmio.tfm
+share/texmf-dist/fonts/tfm/public/newtx/rtxmi-ut.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rtxmi5.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rtxmi7.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rtxmio.tfm
@@ -216,6 +218,8 @@ share/texmf-dist/fonts/tfm/public/newtx/tyxrj.tfm
 share/texmf-dist/fonts/tfm/public/newtx/tyxslj.tfm
 share/texmf-dist/fonts/tfm/public/newtx/zmn-vw-b.tfm
 share/texmf-dist/fonts/tfm/public/newtx/zmn-vw-r.tfm
+share/texmf-dist/fonts/tfm/public/newtx/zutbmi.tfm
+share/texmf-dist/fonts/tfm/public/newtx/zutmi.tfm
 share/texmf-dist/fonts/tfm/public/newtx/zxlr-5nums.tfm
 share/texmf-dist/fonts/tfm/public/newtx/zxlr-7nums.tfm
 share/texmf-dist/fonts/tfm/public/newtx/zxlr-8r.tfm
@@ -387,6 +391,8 @@ share/texmf-dist/fonts/vf/public/newtx/tyxbslj.vf
 share/texmf-dist/fonts/vf/public/newtx/tyxij.vf
 share/texmf-dist/fonts/vf/public/newtx/tyxrj.vf
 share/texmf-dist/fonts/vf/public/newtx/tyxslj.vf
+share/texmf-dist/fonts/vf/public/newtx/zutbmi.vf
+share/texmf-dist/fonts/vf/public/newtx/zutmi.vf
 share/texmf-dist/tex/latex/newtx/ly1minlibertine.fd
 share/texmf-dist/tex/latex/newtx/ly1ntxr.fd
 share/texmf-dist/tex/latex/newtx/ly1ntxr1.fd
@@ -400,6 +406,7 @@ share/texmf-dist/tex/latex/newtx/omlntxmi.fd
 share/texmf-dist/tex/latex/newtx/omlnxlmi.fd
 share/texmf-dist/tex/latex/newtx/omlzbvmi.fd
 share/texmf-dist/tex/latex/newtx/omlzmnmi.fd
+share/texmf-dist/tex/latex/newtx/omlzutmi.fd
 share/texmf-dist/tex/latex/newtx/omsntxsy.fd
 share/texmf-dist/tex/latex/newtx/ot1minlibertine.fd
 share/texmf-dist/tex/latex/newtx/ot1ntxr.fd

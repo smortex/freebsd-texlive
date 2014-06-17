@@ -210,7 +210,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/lua2dox/lua2dox-refm.tex
 share/texmf-dist/scripts/lua2dox/lua.def
 share/texmf-dist/scripts/lua2dox/lua2dox.lua
-share/texmf-dist/scripts/lua2dox/lua2dox_filter
 @dirrmtry share/texmf-dist/scripts/lua2dox
 @dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/support/lua2dox/examples/php/docs/html

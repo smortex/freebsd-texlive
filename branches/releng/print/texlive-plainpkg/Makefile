@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	plainpkg
-PORTVERSION=	20120922
-PORTREVISION=	1
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The plainpkg package
+COMMENT=	A minimal method for making generic packages.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

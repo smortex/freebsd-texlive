@@ -38,6 +38,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpgraph.tex
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mplibapi.tex
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman-app-legacy.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman-app-numbersystems.tex
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman-app-optab.tex
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman-app-refman.tex
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/source-manual/mpman-charts.mp

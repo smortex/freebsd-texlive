@@ -1,0 +1,46 @@
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/README
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/manual/address.tex
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/manual/appendix.tex
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/manual/btxmac.tex
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/manual/comm.tex
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/manual/comment.tex
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/manual/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/manual/extern.tex
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/manual/head.tex
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/manual/list.tex
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/manual/lollipop-manual.bib
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/manual/lollipop-manual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/manual/lollipop-manual.tex
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/manual/mandefs.tex
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/manual/opt.tex
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/manual/out.tex
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/manual/prelim.tex
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/manual/struct.tex
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/manual/titlepag.tex
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/manual/trace.tex
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/tex-inde.xen
+share/texmf-dist/tex/lollipop/dvilollipop.ini
+share/texmf-dist/tex/lollipop/dvilualollipop.ini
+share/texmf-dist/tex/lollipop/lollipop-define.tex
+share/texmf-dist/tex/lollipop/lollipop-document.tex
+share/texmf-dist/tex/lollipop/lollipop-float.tex
+share/texmf-dist/tex/lollipop/lollipop-fontdefs.tex
+share/texmf-dist/tex/lollipop/lollipop-fonts.tex
+share/texmf-dist/tex/lollipop/lollipop-heading.tex
+share/texmf-dist/tex/lollipop/lollipop-lists.tex
+share/texmf-dist/tex/lollipop/lollipop-output.tex
+share/texmf-dist/tex/lollipop/lollipop-plain.tex
+share/texmf-dist/tex/lollipop/lollipop-text.tex
+share/texmf-dist/tex/lollipop/lollipop-tools.tex
+share/texmf-dist/tex/lollipop/lollipop.ini
+share/texmf-dist/tex/lollipop/lollipop.tex
+share/texmf-dist/tex/lollipop/lualollipop.ini
+share/texmf-dist/tex/lollipop/xelollipop.ini
+@dirrmtry share/texmf-dist/tex/lollipop
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/otherformats/lollipop/manual
+@dirrmtry share/texmf-dist/doc/otherformats/lollipop
+@dirrmtry share/texmf-dist/doc/otherformats
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

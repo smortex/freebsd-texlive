@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	timing-diagrams
-PORTVERSION=	20130822
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

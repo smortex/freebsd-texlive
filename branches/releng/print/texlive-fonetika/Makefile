@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fonetika
-PORTVERSION=	20110207
-PORTREVISION=	1
+PORTVERSION=	20140418
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for the danish "Dania" phonetic system.
+COMMENT=	Support for the Danish "Dania" phonetic system.
 
 NOPORTSRC=	yes
 

@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tkz-euclide
-PORTVERSION=	20110607
-PORTREVISION=	1
+PORTVERSION=	20140418
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Tools for drawing euclidean geometry.
+COMMENT=	Tools for drawing Euclidean geometry.
 
 NOPORTSRC=	yes
 

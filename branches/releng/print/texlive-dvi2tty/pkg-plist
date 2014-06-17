@@ -1,7 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/disdvi.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/disdvi.man1.pdf
-share/texmf-dist/doc/man/man1/dvi2tty.1
-share/texmf-dist/doc/man/man1/dvi2tty.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/dvi2tty.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/dvi2tty.man1.pdf
 @dirrmtry share/texmf-dist/doc/man/man1
 @dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc

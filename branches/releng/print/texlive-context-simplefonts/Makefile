@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	context-simplefonts
-PORTVERSION=	20130226
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-slovak
-PORTVERSION=	20130506
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The babel-slovak package
+COMMENT=	Babel support for typesetting Slovak.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

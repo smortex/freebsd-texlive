@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tabularborder
-PORTVERSION=	20100610
-PORTREVISION=	1
+PORTVERSION=	20140418
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Correct index entries for chemical compounds.
+COMMENT=	Remove excess space at left and right of tabular.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

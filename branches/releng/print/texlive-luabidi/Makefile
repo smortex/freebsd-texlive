@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	luabidi
-PORTVERSION=	20130529
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The luabidi package
+COMMENT=	Bidirectional typesetting with LuaLaTeX.
 
 NOPORTSRC=	yes
 

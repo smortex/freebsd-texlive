@@ -1,8 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/gsftopk.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/gsftopk.man1.pdf
-share/texmf-dist/dvips/gsftopk/render.ps
-@dirrmtry share/texmf-dist/dvips/gsftopk
-@dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/man/man1
 @dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc

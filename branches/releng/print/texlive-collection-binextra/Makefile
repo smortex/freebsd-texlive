@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-binextra
-PORTVERSION=	20140312
+PORTVERSION=	20140418
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -33,7 +33,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/metafont/base/expr.mf:${PORTSDIR}/print/texlive-metafont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mflogo/mflogo.sty:${PORTSDIR}/print/texlive-mflogo \
 		${LOCALBASE}/share/texmf-dist/mft/base/README:${PORTSDIR}/print/texlive-mfware \
-		${LOCALBASE}/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map:${PORTSDIR}/print/texlive-pdftex \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/dummy-space/dummy-space.map:${PORTSDIR}/print/texlive-pdftex \
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
@@ -52,16 +52,13 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/ctanupload/ctanupload.pl:${PORTSDIR}/print/texlive-ctanupload \
 		${LOCALBASE}/share/texmf-dist/tex/plain/cweb/cwebmac.tex:${PORTSDIR}/print/texlive-cweb \
 		${LOCALBASE}/share/texmf-dist/scripts/de-macro/de-macro:${PORTSDIR}/print/texlive-de-macro \
-		${LOCALBASE}/share/texmf-dist/doc/man/man1/dt2dv.1:${PORTSDIR}/print/texlive-dtl \
 		${LOCALBASE}/share/texmf-dist/scripts/dtxgen/dtxgen:${PORTSDIR}/print/texlive-dtxgen \
-		${LOCALBASE}/share/texmf-dist/doc/man/man1/dvi2tty.1:${PORTSDIR}/print/texlive-dvi2tty \
 		${LOCALBASE}/share/texmf-dist/scripts/dviasm/dviasm.py:${PORTSDIR}/print/texlive-dviasm \
 		${LOCALBASE}/share/texmf-dist/doc/man/man1/dvidvi.1:${PORTSDIR}/print/texlive-dvidvi \
 		${LOCALBASE}/share/texmf-dist/scripts/findhyph/findhyph:${PORTSDIR}/print/texlive-findhyph \
 		${LOCALBASE}/share/texmf-dist/scripts/fragmaster/fragmaster.pl:${PORTSDIR}/print/texlive-fragmaster \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyphenex/ushyphex.tex:${PORTSDIR}/print/texlive-hyphenex \
 		${LOCALBASE}/share/texmf-dist/scripts/installfont/installfont-tl:${PORTSDIR}/print/texlive-installfont \
-		${LOCALBASE}/share/texmf-dist/doc/man/man1/lacheck.1:${PORTSDIR}/print/texlive-lacheck \
 		${LOCALBASE}/share/texmf-dist/scripts/latex-git-log/latex-git-log:${PORTSDIR}/print/texlive-latex-git-log \
 		${LOCALBASE}/share/texmf-dist/tex/latex/latex2man/latex2man.sty:${PORTSDIR}/print/texlive-latex2man \
 		${LOCALBASE}/share/texmf-dist/scripts/latexdiff/latexdiff-vc.pl:${PORTSDIR}/print/texlive-latexdiff \
@@ -82,7 +79,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/pkfix-helper/pkfix-helper:${PORTSDIR}/print/texlive-pkfix-helper \
 		${LOCALBASE}/share/texmf-dist/scripts/purifyeps/purifyeps:${PORTSDIR}/print/texlive-purifyeps \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pythontex/pythontex.sty:${PORTSDIR}/print/texlive-pythontex \
-		${LOCALBASE}/share/texmf-dist/doc/man/man1/dvibook.1:${PORTSDIR}/print/texlive-seetexk \
 		${LOCALBASE}/share/texmf-dist/scripts/sty2dtx/sty2dtx.pl:${PORTSDIR}/print/texlive-sty2dtx \
 		${LOCALBASE}/share/texmf-dist/scripts/texcount/texcount.pl:${PORTSDIR}/print/texlive-texcount \
 		${LOCALBASE}/share/texmf-dist/scripts/texdef/texdef.pl:${PORTSDIR}/print/texlive-texdef \

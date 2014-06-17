@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-czech
-PORTVERSION=	20130506
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The babel-czech package
+COMMENT=	Babel support for Czech.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

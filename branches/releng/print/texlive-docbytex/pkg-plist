@@ -1,0 +1,22 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/docbytex/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/docbytex/annonce
+%%PORTDOCS%%share/texmf-dist/doc/generic/docbytex/base.c
+%%PORTDOCS%%share/texmf-dist/doc/generic/docbytex/base.d
+%%PORTDOCS%%share/texmf-dist/doc/generic/docbytex/cosi.c
+%%PORTDOCS%%share/texmf-dist/doc/generic/docbytex/docby.d
+%%PORTDOCS%%share/texmf-dist/doc/generic/docbytex/docby.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/docbytex/lup.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/docbytex/lup.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/docbytex/main.c
+%%PORTDOCS%%share/texmf-dist/doc/generic/docbytex/main.d
+%%PORTDOCS%%share/texmf-dist/doc/generic/docbytex/win.c
+%%PORTDOCS%%share/texmf-dist/doc/generic/docbytex/win.d
+share/texmf-dist/tex/generic/docbytex/docby.tex
+@dirrmtry share/texmf-dist/tex/generic/docbytex
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/generic/docbytex
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

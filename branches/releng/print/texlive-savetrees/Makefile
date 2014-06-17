@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	savetrees
-PORTVERSION=	20130411
+PORTVERSION=	20140418
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Pack as much as possible onto each page of a LaTeX document.
+COMMENT=	Optimise the use of each page of a LaTeX document.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

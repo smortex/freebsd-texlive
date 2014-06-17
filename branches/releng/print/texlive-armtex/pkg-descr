@@ -1,0 +1,9 @@
+ArmTeX is a system for typesetting Armenian text with Plain TeX
+or LaTeX(2e). It may be used with input: from a standard Latin
+keyboard without any special encoding and/or support for
+Armenian letters, any keyboard which uses an encoding that has
+Armenian letters in the second half (characters 128-255) of the
+extended ASCII table (for example ArmSCII8 Armenian standard),
+or encoded in UTF-8. Users should note that the manuals (below)
+mostly describe the previous (version 2.0) of the package.
+Updating work is still under way.

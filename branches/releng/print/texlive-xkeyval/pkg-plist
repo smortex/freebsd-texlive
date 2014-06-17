@@ -1,12 +1,23 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/xkeyval/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/xkeyval/xkeyval.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/xkeyval/xkeyval.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xkeyval/xkvpream.ble
 %%PORTSRC%%share/texmf-dist/source/latex/xkeyval/xkeyval.dtx
 share/texmf-dist/tex/generic/xkeyval/keyval.tex
 share/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
 share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+share/texmf-dist/tex/generic/xkeyval/xkvex1.tex
+share/texmf-dist/tex/generic/xkeyval/xkvex2.tex
+share/texmf-dist/tex/generic/xkeyval/xkvex3.tex
+share/texmf-dist/tex/generic/xkeyval/xkvex4.tex
 share/texmf-dist/tex/generic/xkeyval/xkvtxhdr.tex
 share/texmf-dist/tex/latex/xkeyval/pst-xkey.sty
 share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+share/texmf-dist/tex/latex/xkeyval/xkveca.cls
+share/texmf-dist/tex/latex/xkeyval/xkvecb.cls
+share/texmf-dist/tex/latex/xkeyval/xkvesa.sty
+share/texmf-dist/tex/latex/xkeyval/xkvesb.sty
+share/texmf-dist/tex/latex/xkeyval/xkvesc.sty
 share/texmf-dist/tex/latex/xkeyval/xkvltxp.sty
 share/texmf-dist/tex/latex/xkeyval/xkvview.sty
 @dirrmtry share/texmf-dist/tex/latex/xkeyval

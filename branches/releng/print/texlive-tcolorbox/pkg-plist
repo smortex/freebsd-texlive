@@ -14,6 +14,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.coremacros.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.coreoptions.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.documentation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.filling.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.fitting.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.hooks.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.index.tex
@@ -23,6 +24,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.picturecredits.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.references.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.skins.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.technical.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.theorems.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.verbatim.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.xparse.tex

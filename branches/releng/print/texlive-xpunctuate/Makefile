@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	xpunctuate
-PORTVERSION=	20120525
-PORTREVISION=	1
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The xpunctuate package
+COMMENT=	Process trailing punctuation which may be redundant.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

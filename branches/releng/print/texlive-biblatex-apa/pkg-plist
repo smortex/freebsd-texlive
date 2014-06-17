@@ -5,6 +5,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-apa/biblatex-apa-test.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-apa/biblatex-apa.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-apa/biblatex-apa.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-apa/reference.pdf
 share/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/apa.bbx
 share/texmf-dist/tex/latex/biblatex-apa/apa.cbx
@@ -23,6 +24,7 @@ share/texmf-dist/tex/latex/biblatex-apa/ngerman-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/norsk-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/norwegian-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/nynorsk-apa.lbx
+share/texmf-dist/tex/latex/biblatex-apa/slovene-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/spanish-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/swedish-apa.lbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-apa

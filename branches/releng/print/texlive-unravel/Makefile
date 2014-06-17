@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	unravel
-PORTVERSION=	20130730
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The unravel package
+COMMENT=	Watching TeX digest tokens.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

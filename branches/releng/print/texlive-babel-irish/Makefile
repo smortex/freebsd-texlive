@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-irish
-PORTVERSION=	20130506
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The babel-irish package
+COMMENT=	Babel support for Irish.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

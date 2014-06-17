@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	multibibliography
-PORTVERSION=	20130627
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

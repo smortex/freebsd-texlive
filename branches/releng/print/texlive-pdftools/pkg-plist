@@ -6,9 +6,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/pdfopen.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/pdftosrc.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/pdftosrc.man1.pdf
-share/texmf-dist/scripts/texlive/e2pall.pl
-@dirrmtry share/texmf-dist/scripts/texlive
-@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/man/man1
 @dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc

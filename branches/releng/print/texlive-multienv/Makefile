@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	multienv
-PORTVERSION=	20120522
-PORTREVISION=	1
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The multienv package
+COMMENT=	Multiple environments using a "key=value" syntax.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

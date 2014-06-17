@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	beamertheme-upenn-bc
-PORTVERSION=	20130416
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

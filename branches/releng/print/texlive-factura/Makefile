@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	factura
-PORTVERSION=	20130430
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The factura package
+COMMENT=	Write invoices according to Venezuelan law.
 
 NOPORTSRC=	yes
 

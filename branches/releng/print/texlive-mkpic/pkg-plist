@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/mkpic/README
+%%PORTDOCS%%share/texmf-dist/doc/support/mkpic/mkpic.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/mkpic/mkpicdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/mkpic/mkpicdoc.tex
+share/texmf-dist/scripts/mkpic/mkpic
+@dirrmtry share/texmf-dist/scripts/mkpic
+@dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/doc/support/mkpic
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

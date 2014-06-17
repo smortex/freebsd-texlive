@@ -33,7 +33,6 @@
 %%PORTSRC%%share/texmf-dist/source/generic/hyph-utf8/generate-tl-files.rb
 %%PORTSRC%%share/texmf-dist/source/generic/hyph-utf8/generate-webpage.rb
 %%PORTSRC%%share/texmf-dist/source/generic/hyph-utf8/hyph-utf8.rb
-%%PORTSRC%%share/texmf-dist/source/generic/hyph-utf8/languages-txt.rb
 %%PORTSRC%%share/texmf-dist/source/generic/hyph-utf8/languages.rb
 %%PORTSRC%%share/texmf-dist/source/generic/hyph-utf8/languages/es/README
 %%PORTSRC%%share/texmf-dist/source/generic/hyph-utf8/languages/es/eshyph-make.lua

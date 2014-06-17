@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-catalan
-PORTVERSION=	20130506
+PORTVERSION=	20140418
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The babel-catalan package
+COMMENT=	Babel contributed support for Catalan.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

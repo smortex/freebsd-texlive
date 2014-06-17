@@ -2,32 +2,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/epsffit.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/extractres.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/extractres.man1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/fixdlsrps.1
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/fixdlsrps.man1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/fixfmps.1
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/fixfmps.man1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/fixpsditps.1
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/fixpsditps.man1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/fixpspps.1
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/fixpspps.man1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/fixscribeps.1
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/fixscribeps.man1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/fixtpps.1
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/fixtpps.man1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/fixwfwps.1
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/fixwfwps.man1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/fixwpps.1
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/fixwpps.man1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/fixwwps.1
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/fixwwps.man1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/getafm.1
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/getafm.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/includeres.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/includeres.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/psbook.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/psbook.man1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/psmerge.1
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/psmerge.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/psjoin.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/psjoin.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/psnup.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/psnup.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/psresize.1
@@ -36,23 +16,14 @@
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/psselect.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/pstops.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/pstops.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/psutils.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/psutils.man1.pdf
 share/texmf-dist/dvips/getafm/getafm.ps
-share/texmf-dist/scripts/psutils/extractres.pl
-share/texmf-dist/scripts/psutils/fixdlsrps.pl
-share/texmf-dist/scripts/psutils/fixfmps.pl
-share/texmf-dist/scripts/psutils/fixpsditps.pl
-share/texmf-dist/scripts/psutils/fixpspps.pl
-share/texmf-dist/scripts/psutils/fixscribeps.pl
-share/texmf-dist/scripts/psutils/fixtpps.pl
-share/texmf-dist/scripts/psutils/fixwfwps.pl
-share/texmf-dist/scripts/psutils/fixwpps.pl
-share/texmf-dist/scripts/psutils/fixwwps.pl
-share/texmf-dist/scripts/psutils/getafm.sh
-share/texmf-dist/scripts/psutils/includeres.pl
-share/texmf-dist/scripts/psutils/psmerge.pl
-share/texmf-dist/scripts/psutils/showchar.sh
+share/texmf-dist/psutils/paper.cfg
+share/texmf-dist/scripts/psutils/psjoin.pl
 @dirrmtry share/texmf-dist/scripts/psutils
 @dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/psutils
 @dirrmtry share/texmf-dist/dvips/getafm
 @dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/man/man1

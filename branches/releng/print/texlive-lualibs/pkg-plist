@@ -32,7 +32,6 @@ share/texmf-dist/tex/luatex/lualibs/lualibs-unicode.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-url.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-util-deb.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-util-dim.lua
-share/texmf-dist/tex/luatex/lualibs/lualibs-util-env.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-util-jsn.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-util-lua.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-util-prs.lua
