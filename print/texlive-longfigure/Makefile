@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	mathdots
+PORTNAME=	longfigure
 PORTVERSION=	20140619
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Commands to produce dots in math that respect font size.
+COMMENT=	Provides a figure-like environment that break over pages.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

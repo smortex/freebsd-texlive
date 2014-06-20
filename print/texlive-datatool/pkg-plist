@@ -25,6 +25,9 @@ share/texmf-dist/bibtex/bst/datatool/databib.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/profits.csv
 %%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/rawdata.csv
 %%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/rawdata2.csv
+%%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/rawdata3.csv
+%%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/sample-autokeys.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/sample-autokeys.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/sample-barchart.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/sample-barchart.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/datatool/samples/sample-datatooltk.pdf
