@@ -859,7 +859,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/index/index.sty:${PORTSDIR}/print/texlive-index \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jknapltx/greekctr.sty:${PORTSDIR}/print/texlive-jknapltx \
 		${LOCALBASE}/share/texmf-dist/doc/latex/koma-script/INSTALL.txt:${PORTSDIR}/print/texlive-koma-script \
-		${LOCALBASE}/share/texmf-dist/makeindex/l3kernel/l3doc.ist:${PORTSDIR}/print/texlive-l3kernel \
+		${LOCALBASE}/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex:${PORTSDIR}/print/texlive-l3kernel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty:${PORTSDIR}/print/texlive-l3packages \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3experimental/l3sort/l3sort.sty:${PORTSDIR}/print/texlive-l3experimental \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listings/listings.sty:${PORTSDIR}/print/texlive-listings \
@@ -1456,6 +1456,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/logbox/logbox.sty:${PORTSDIR}/print/texlive-logbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/logical-markup-utils/onedash.sty:${PORTSDIR}/print/texlive-logical-markup-utils \
 		${LOCALBASE}/share/texmf-dist/tex/latex/logpap/logpap.sty:${PORTSDIR}/print/texlive-logpap \
+		${LOCALBASE}/share/texmf-dist/tex/latex/longfigure/longfigure.sty:${PORTSDIR}/print/texlive-longfigure \
 		${LOCALBASE}/share/texmf-dist/tex/latex/longnamefilelist/longnamefilelist.sty:${PORTSDIR}/print/texlive-longnamefilelist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/loops/loops.sty:${PORTSDIR}/print/texlive-loops \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lsc/lsc.sty:${PORTSDIR}/print/texlive-lsc \
@@ -2211,6 +2212,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmpj/cmpj.sty:${PORTSDIR}/print/texlive-cmpj \
 		${LOCALBASE}/share/texmf-dist/tex/latex/confproc/confproc.cls:${PORTSDIR}/print/texlive-confproc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dccpaper/dccpaper-base.tex:${PORTSDIR}/print/texlive-dccpaper \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dithesis/dithesis.cls:${PORTSDIR}/print/texlive-dithesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebook/ebook.sty:${PORTSDIR}/print/texlive-ebook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebsthesis/ebsthesis.cls:${PORTSDIR}/print/texlive-ebsthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ejpecp/ejpecp.cls:${PORTSDIR}/print/texlive-ejpecp \

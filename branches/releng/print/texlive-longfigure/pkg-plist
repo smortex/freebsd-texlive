@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/longfigure/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/longfigure/longfigure.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/longfigure/longfigure.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/longfigure/longfigure.ins
+share/texmf-dist/tex/latex/longfigure/longfigure.sty
+@dirrmtry share/texmf-dist/tex/latex/longfigure
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/longfigure
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/longfigure
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

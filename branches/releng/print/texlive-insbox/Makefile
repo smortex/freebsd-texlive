@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	insbox
-PORTVERSION=	20140418
+PORTVERSION=	20140619
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A TeX macro for inserting pictures/boxes into paragraphs.
+COMMENT=	Insert pictures/boxes into paragraphs.
 
 NOPORTSRC=	yes
 

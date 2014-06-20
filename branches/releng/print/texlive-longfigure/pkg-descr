@@ -1,0 +1,4 @@
+The longfigure package uses and relabels components of the
+well-known longtable package, written by David Carlisle, to
+provide a table-like environment that can display a stream of
+figures as a single figure that can break across pages.

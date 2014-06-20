@@ -3,6 +3,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/docbytex/base.c
 %%PORTDOCS%%share/texmf-dist/doc/generic/docbytex/base.d
 %%PORTDOCS%%share/texmf-dist/doc/generic/docbytex/cosi.c
+%%PORTDOCS%%share/texmf-dist/doc/generic/docbytex/docby-e.d
+%%PORTDOCS%%share/texmf-dist/doc/generic/docbytex/docby-e.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/docbytex/docby.d
 %%PORTDOCS%%share/texmf-dist/doc/generic/docbytex/docby.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/docbytex/lup.pdf

@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/dithesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/dithesis/athena.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/dithesis/sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dithesis/sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/dithesis/sampleNoArial.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dithesis/sampleNoArial.tex
+share/texmf-dist/tex/latex/dithesis/dithesis.cls
+@dirrmtry share/texmf-dist/tex/latex/dithesis
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/dithesis
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
