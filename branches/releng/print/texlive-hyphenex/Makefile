@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	hyphenex
-PORTVERSION=	20140418
+PORTVERSION=	20140620
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generate a hyphenation exceptions file.
+COMMENT=	US English hyphenation exceptions file.
 
 NOPORTDOCS=	yes
 

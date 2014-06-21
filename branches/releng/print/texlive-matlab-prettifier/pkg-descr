@@ -1,0 +1,3 @@
+The package extends the facilities of the listings package, to
+pretty-print Matlab and Octave source code. (Note that support
+of Octave syntax is not complete.)

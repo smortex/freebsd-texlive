@@ -1,7 +1,8 @@
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/lualatex-math-de.pdf
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/README
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/lualatex-math.pdf
 %%PORTSRC%%share/texmf-dist/source/lualatex/lualatex-math/lualatex-math.dtx
 %%PORTSRC%%share/texmf-dist/source/lualatex/lualatex-math/lualatex-math.ins
+%%PORTSRC%%share/texmf-dist/source/lualatex/lualatex-math/phst-doc.cls
 share/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.lua
 share/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.sty
 @dirrmtry share/texmf-dist/tex/lualatex/lualatex-math
