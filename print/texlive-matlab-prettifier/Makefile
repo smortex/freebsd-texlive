@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	fmtcount
+PORTNAME=	matlab-prettifier
 PORTVERSION=	20140620
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Display the value of a LaTeX counter in a variety of formats.
+COMMENT=	Pretty-print Matlab source code.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
