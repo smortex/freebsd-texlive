@@ -7,6 +7,7 @@ share/texmf-dist/bibtex/bst/udesoftec/udesoftec.bst
 %%PORTSRC%%share/texmf-dist/source/latex/udesoftec/udesoftec-doc-examplebib.bib
 %%PORTSRC%%share/texmf-dist/source/latex/udesoftec/udesoftec-doc-exampleimage.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/udesoftec/udesoftec-doc.tex
+share/texmf-dist/tex/latex/udesoftec/udesoftec-bst.sty
 share/texmf-dist/tex/latex/udesoftec/udesoftec-cover-uba.pdf
 share/texmf-dist/tex/latex/udesoftec/udesoftec-cover-ude-de.pdf
 share/texmf-dist/tex/latex/udesoftec/udesoftec-cover-ude-en.pdf

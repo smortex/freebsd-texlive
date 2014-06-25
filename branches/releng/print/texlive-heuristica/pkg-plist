@@ -186,6 +186,7 @@ share/texmf-dist/tex/latex/heuristica/T2CHeuristica-TLF.fd
 share/texmf-dist/tex/latex/heuristica/T2CHeuristica-TOsF.fd
 share/texmf-dist/tex/latex/heuristica/TS1Heuristica-TLF.fd
 share/texmf-dist/tex/latex/heuristica/TS1Heuristica-TOsF.fd
+share/texmf-dist/tex/latex/heuristica/heuristica.fontspec
 share/texmf-dist/tex/latex/heuristica/heuristica.sty
 @dirrmtry share/texmf-dist/tex/latex/heuristica
 @dirrmtry share/texmf-dist/tex/latex

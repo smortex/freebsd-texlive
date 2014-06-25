@@ -1,6 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-solides3d/Changes
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-solides3d/README
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-solides3d/pst-solides3d-doc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/pst-solides3d/src/Changes
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-solides3d/src/Letter.ist
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-solides3d/src/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-solides3d/src/Pyramid-couleurs.dat
@@ -104,7 +104,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-solides3d/src/paraboloid-sommets.dat
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-solides3d/src/parrot.eps
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-solides3d/src/pst-solides3d-doc.bib
-%%PORTDOCS%%share/texmf-dist/doc/generic/pst-solides3d/src/pst-solides3d-doc.ps
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-solides3d/src/pst-solides3d-doc.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-solides3d/src/rocket.obj
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-solides3d/src/slicePyramid-couleurs.dat

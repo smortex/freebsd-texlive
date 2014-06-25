@@ -436,6 +436,7 @@ share/texmf-dist/tex/latex/fbb/TS1fbb-LF.fd
 share/texmf-dist/tex/latex/fbb/TS1fbb-OsF.fd
 share/texmf-dist/tex/latex/fbb/TS1fbb-TLF.fd
 share/texmf-dist/tex/latex/fbb/TS1fbb-TOsF.fd
+share/texmf-dist/tex/latex/fbb/fbb.fontspec
 share/texmf-dist/tex/latex/fbb/fbb.sty
 @dirrmtry share/texmf-dist/tex/latex/fbb
 @dirrmtry share/texmf-dist/tex/latex
