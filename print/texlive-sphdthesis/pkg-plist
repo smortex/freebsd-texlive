@@ -1,0 +1,25 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/sphdthesis/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/sphdthesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/sphdthesis/SPhdThesis.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sphdthesis/SPhdThesis.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sphdthesis/example/SPhdThesis.cls
+%%PORTDOCS%%share/texmf-dist/doc/latex/sphdthesis/example/abstract.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sphdthesis/example/acknowledgments.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sphdthesis/example/algorithm.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sphdthesis/example/biblio.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/sphdthesis/example/border.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sphdthesis/example/chapter1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sphdthesis/example/figure.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sphdthesis/example/table.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sphdthesis/example/thesis.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sphdthesis/example/thesis.tex
+share/texmf-dist/tex/latex/sphdthesis/SPhdThesis.cls
+@dirrmtry share/texmf-dist/tex/latex/sphdthesis
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/sphdthesis/example
+@dirrmtry share/texmf-dist/doc/latex/sphdthesis
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

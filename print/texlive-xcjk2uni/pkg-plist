@@ -359,7 +359,8 @@ share/texmf-dist/tex/latex/xcjk2uni/xCJK2uni-UGB.def
 share/texmf-dist/tex/latex/xcjk2uni/xCJK2uni-UGBK.def
 share/texmf-dist/tex/latex/xcjk2uni/xCJK2uni-UJIS.def
 share/texmf-dist/tex/latex/xcjk2uni/xCJK2uni-UKS.def
-share/texmf-dist/tex/latex/xcjk2uni/xCJK2uni-make.ltx
+share/texmf-dist/tex/latex/xcjk2uni/xCJK2uni-make.tex
+share/texmf-dist/tex/latex/xcjk2uni/xCJK2uni-sfd.def
 share/texmf-dist/tex/latex/xcjk2uni/xCJK2uni.sty
 @dirrmtry share/texmf-dist/tex/latex/xcjk2uni/cmap
 @dirrmtry share/texmf-dist/tex/latex/xcjk2uni

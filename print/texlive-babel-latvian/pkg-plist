@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-latvian/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-latvian/latvian.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/babel-latvian/latvian.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-latvian/latvian.ins
+share/texmf-dist/tex/generic/babel-latvian/latvian.ldf
+@dirrmtry share/texmf-dist/tex/generic/babel-latvian
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/generic/babel-latvian
+@dirrmtry share/texmf-dist/source/generic
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/babel-latvian
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

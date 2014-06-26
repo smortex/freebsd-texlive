@@ -31,13 +31,19 @@ share/texmf-dist/fonts/tfm/public/newtxtt/newtxttsla.tfm
 share/texmf-dist/fonts/tfm/public/newtxtt/newtxttslb.tfm
 share/texmf-dist/fonts/tfm/public/newtxtt/newtxttslc.tfm
 share/texmf-dist/fonts/tfm/public/newtxtt/newtxttsld.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/tcxbttz.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/tcxbttzsl.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/tcxttz.tfm
+share/texmf-dist/fonts/tfm/public/newtxtt/tcxttzsl.tfm
 share/texmf-dist/fonts/type1/public/newtxtt/newtxbtt.pfb
 share/texmf-dist/fonts/type1/public/newtxtt/newtxbttsc.pfb
 share/texmf-dist/fonts/type1/public/newtxtt/newtxtt.pfb
 share/texmf-dist/fonts/type1/public/newtxtt/newtxttsc.pfb
 share/texmf-dist/tex/latex/newtxtt/newtxtt.sty
 share/texmf-dist/tex/latex/newtxtt/t1newtxtt.fd
+share/texmf-dist/tex/latex/newtxtt/t1newtxttz.fd
 share/texmf-dist/tex/latex/newtxtt/ts1newtxtt.fd
+share/texmf-dist/tex/latex/newtxtt/ts1newtxttz.fd
 @dirrmtry share/texmf-dist/tex/latex/newtxtt
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex

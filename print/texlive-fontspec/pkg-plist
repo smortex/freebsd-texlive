@@ -1,7 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/fontspec/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/fontspec/fontspec-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/fontspec/fontspec.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/fontspec/Makefile
 %%PORTSRC%%share/texmf-dist/source/latex/fontspec/fontspec.dtx
 share/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 share/texmf-dist/tex/latex/fontspec/fontspec-patches.sty

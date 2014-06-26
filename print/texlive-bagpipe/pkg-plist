@@ -1,0 +1,26 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/bagpipe/BlackDonald.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/bagpipe/BlackDonald.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/bagpipe/Bonnets.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/bagpipe/Bonnets.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/bagpipe/Green.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/bagpipe/Green.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/bagpipe/GreenTwo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/bagpipe/GreenTwo.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/bagpipe/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/bagpipe/Washer.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/bagpipe/Washer.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/bagpipe/bagdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/bagpipe/bagdoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/bagpipe/quickref.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/bagpipe/quickref.tex
+share/texmf-dist/tex/generic/bagpipe/bagpipe.ini
+share/texmf-dist/tex/generic/bagpipe/bagpipe.tex
+share/texmf-dist/tex/generic/bagpipe/bagpipex.ini
+@dirrmtry share/texmf-dist/tex/generic/bagpipe
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/generic/bagpipe
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
