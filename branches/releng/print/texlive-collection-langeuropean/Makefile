@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langeuropean
-PORTVERSION=	20140507
+PORTVERSION=	20140625
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -55,6 +55,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-irish/irish.ldf:${PORTSDIR}/print/texlive-babel-irish \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-kurmanji/kurmanji.ldf:${PORTSDIR}/print/texlive-babel-kurmanji \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-latin/latin.ldf:${PORTSDIR}/print/texlive-babel-latin \
+		${LOCALBASE}/share/texmf-dist/tex/generic/babel-latvian/latvian.ldf:${PORTSDIR}/print/texlive-babel-latvian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-norsk/norsk.ldf:${PORTSDIR}/print/texlive-babel-norsk \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-piedmontese/piedmontese.ldf:${PORTSDIR}/print/texlive-babel-piedmontese \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-romanian/romanian.ldf:${PORTSDIR}/print/texlive-babel-romanian \

@@ -1,0 +1,7 @@
+The package provides a simple interface to OpenStreetMap maps.
+In the simplest case, it is sufficient to specify the address
+you need (if you don't, the package will use its own default).
+The package loads the map image using an external lua script
+(invoked via \write 18: LaTeX must be running with \write 18
+enabled). The ("external") lua script may be used from the
+command line; a bash version is provided.

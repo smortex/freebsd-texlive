@@ -1,0 +1,7 @@
+The package provides a LaTeX document class for writing a PhD
+thesis. The author developed it while writing his PhD thesis in
+School of Computing (SoC), National University of Singapore
+(NUS). By default, it adheres to the NUS Guidelines on Format
+of Research Thesis Submitted For Examination (Link updated on
+31/05/2014). However, it is quite easy to change it to a
+different guideline.
