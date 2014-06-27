@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-multiple-dm/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-multiple-dm/biblatex-multiple-dm.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-multiple-dm/biblatex-multiple-dm.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-multiple-dm/latexmkrc
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-multiple-dm/makefile
+share/texmf-dist/tex/latex/biblatex-multiple-dm/biblatex-multiple-dm.sty
+@dirrmtry share/texmf-dist/tex/latex/biblatex-multiple-dm
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/biblatex-multiple-dm
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

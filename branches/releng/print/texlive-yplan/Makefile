@@ -1,12 +1,14 @@
 # $FreeBSD$
 
 PORTNAME=	yplan
-PORTVERSION=	20140418
+PORTVERSION=	20140626
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Daily planner type calendar.
+
+RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
 NOPORTSRC=	yes
 

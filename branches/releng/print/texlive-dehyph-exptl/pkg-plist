@@ -5,12 +5,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/dehyph-exptl/dehyph-exptl.bib
 %%PORTDOCS%%share/texmf-dist/doc/generic/dehyph-exptl/dehyph-exptl.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/dehyph-exptl/dehyph-exptl.tex
-share/texmf-dist/tex/generic/dehyph-exptl/dehyphn-x-2013-05-26.pat
-share/texmf-dist/tex/generic/dehyph-exptl/dehyphn-x-2013-05-26.tex
-share/texmf-dist/tex/generic/dehyph-exptl/dehypht-x-2013-05-26.pat
-share/texmf-dist/tex/generic/dehyph-exptl/dehypht-x-2013-05-26.tex
-share/texmf-dist/tex/generic/dehyph-exptl/dehyphts-x-2013-05-26.pat
-share/texmf-dist/tex/generic/dehyph-exptl/dehyphts-x-2013-05-26.tex
+share/texmf-dist/tex/generic/dehyph-exptl/dehyphn-x-2014-05-21.pat
+share/texmf-dist/tex/generic/dehyph-exptl/dehyphn-x-2014-05-21.tex
+share/texmf-dist/tex/generic/dehyph-exptl/dehypht-x-2014-05-21.pat
+share/texmf-dist/tex/generic/dehyph-exptl/dehypht-x-2014-05-21.tex
+share/texmf-dist/tex/generic/dehyph-exptl/dehyphts-x-2014-05-21.pat
+share/texmf-dist/tex/generic/dehyph-exptl/dehyphts-x-2014-05-21.tex
 @dirrmtry share/texmf-dist/tex/generic/dehyph-exptl
 @dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex

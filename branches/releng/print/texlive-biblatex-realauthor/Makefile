@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	biblatex-caspervector
+PORTNAME=	biblatex-realauthor
 PORTVERSION=	20140626
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A simple citation style for Chinese users.
+COMMENT=	Indicate the real author of a work
 
 NOPORTSRC=	yes
 
