@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20140511
+PORTVERSION=	20140626
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -201,6 +201,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/oldstandard/OldStandard-Bold.otf:${PORTSDIR}/print/texlive-oldstandard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/opensans/opensans.sty:${PORTSDIR}/print/texlive-opensans \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/orkhun/orhant.mf:${PORTSDIR}/print/texlive-orkhun \
+		${LOCALBASE}/share/texmf-dist/tex/latex/overlock/overlock.sty:${PORTSDIR}/print/texlive-overlock \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pacioli/pacioli.sty:${PORTSDIR}/print/texlive-pacioli \
 		${LOCALBASE}/share/texmf-dist/tex/latex/paratype/paratype.sty:${PORTSDIR}/print/texlive-paratype \
 		${LOCALBASE}/share/texmf-dist/tex/latex/phaistos/phaistos.sty:${PORTSDIR}/print/texlive-phaistos \

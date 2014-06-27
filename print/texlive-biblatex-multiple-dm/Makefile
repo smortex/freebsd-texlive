@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	biblatex-caspervector
+PORTNAME=	biblatex-multiple-dm
 PORTVERSION=	20140626
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A simple citation style for Chinese users.
+COMMENT=	Load multiple datamodels in biblatex
 
 NOPORTSRC=	yes
 

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	biblatex-caspervector
+PORTNAME=	overlock
 PORTVERSION=	20140626
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A simple citation style for Chinese users.
+COMMENT=	Overlook sans fonts with LaTeX support.
 
 NOPORTSRC=	yes
 
