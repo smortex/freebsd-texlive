@@ -1,14 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	pst-func
+PORTNAME=	latexdemo
 PORTVERSION=	20140627
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	PSTricks package for plotting mathematical functions.
+COMMENT=	Demonstrate LaTeX code with its resulting output.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

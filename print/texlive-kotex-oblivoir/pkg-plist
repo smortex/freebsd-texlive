@@ -1,9 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/kotex-oblivoir/ChangeLog
 %%PORTDOCS%%share/texmf-dist/doc/latex/kotex-oblivoir/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/kotex-oblivoir/README.md
-%%PORTDOCS%%share/texmf-dist/doc/latex/kotex-oblivoir/oblivoir-simpledoc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/kotex-oblivoir/oblivoir-simpledoc.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/kotex-oblivoir/oblivoir-test.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/kotex-oblivoir/doc/oblivoir-simpledoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/kotex-oblivoir/doc/oblivoir-simpledoc.tex
 share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-ucs/10_5.sty
 share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-ucs/fapapersize.sty
 share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-ucs/hfontsel.sty
@@ -19,13 +17,12 @@ share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-ucs/nanumfontsel.sty
 share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-ucs/ob-koreanappendix.sty
 share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-ucs/ob-nokoreanappendix.sty
 share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-ucs/ob-toclof.sty
-share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-x/luatexko-xobfont.sty
 share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-x/memhangul-x.sty
 share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-x/memucs-interword-x.sty
 share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-x/xetexko-var.sty
-share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-x/xetexko-xobfont.sty
 share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-x/xob-amssymb.sty
 share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-x/xob-dotemph.sty
+share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-x/xob-font.sty
 share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-x/xob-hyper.sty
 share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-x/xob-paralist.sty
 share/texmf-dist/tex/latex/kotex-oblivoir/oblivoir-base.cls
@@ -37,6 +34,7 @@ share/texmf-dist/tex/latex/kotex-oblivoir/xoblivoir.cls
 @dirrmtry share/texmf-dist/tex/latex/kotex-oblivoir
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/kotex-oblivoir/doc
 @dirrmtry share/texmf-dist/doc/latex/kotex-oblivoir
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc

@@ -11,6 +11,7 @@ share/texmf-dist/tex/generic/xkeyval/xkvex2.tex
 share/texmf-dist/tex/generic/xkeyval/xkvex3.tex
 share/texmf-dist/tex/generic/xkeyval/xkvex4.tex
 share/texmf-dist/tex/generic/xkeyval/xkvtxhdr.tex
+share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 share/texmf-dist/tex/latex/xkeyval/pst-xkey.sty
 share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 share/texmf-dist/tex/latex/xkeyval/xkveca.cls
