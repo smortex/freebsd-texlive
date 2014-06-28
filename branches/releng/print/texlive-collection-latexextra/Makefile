@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20140619
+PORTVERSION=	20140627
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -150,6 +150,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/fig4latex/fig4latex:${PORTSDIR}/print/texlive-fig4latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flowchart/flowchart.sty:${PORTSDIR}/print/texlive-flowchart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/forest/forest.sty:${PORTSDIR}/print/texlive-forest \
+		${LOCALBASE}/share/texmf-dist/tex/latex/getmap/getmap.sty:${PORTSDIR}/print/texlive-getmap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gincltex/gincltex.sty:${PORTSDIR}/print/texlive-gincltex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gnuplottex/gnuplottex.sty:${PORTSDIR}/print/texlive-gnuplottex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gradientframe/gradientframe.sty:${PORTSDIR}/print/texlive-gradientframe \
@@ -658,6 +659,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/labelcas/labelcas.sty:${PORTSDIR}/print/texlive-labelcas \
 		${LOCALBASE}/share/texmf-dist/tex/latex/labels/labels.sty:${PORTSDIR}/print/texlive-labels \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lastpage/lastpage.sty:${PORTSDIR}/print/texlive-lastpage \
+		${LOCALBASE}/share/texmf-dist/tex/latex/latexdemo/latexdemo.sty:${PORTSDIR}/print/texlive-latexdemo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/layouts/layouts.sty:${PORTSDIR}/print/texlive-layouts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lazylist/lazylist.sty:${PORTSDIR}/print/texlive-lazylist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lcd/lcd.sty:${PORTSDIR}/print/texlive-lcd \

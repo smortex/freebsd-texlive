@@ -1,0 +1,4 @@
+The package provides configurable tools to print out LaTeX code
+and the resulting output in the same document. It also supports
+printing the result inside a conditional sequence; thus one may
+suppress printing if the code would not compile.
