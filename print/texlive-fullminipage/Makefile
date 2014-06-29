@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	cuisine
+PORTNAME=	fullminipage
 PORTVERSION=	20140628
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset recipes.
+COMMENT=	Minipage spanning a complete page
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

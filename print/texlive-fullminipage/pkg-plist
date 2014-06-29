@@ -1,0 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fullminipage/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/latex/fullminipage/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/fullminipage/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/fullminipage/fullminipage.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fullminipage/fullminipage_test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fullminipage/fullminipage_test.tex
+%%PORTSRC%%share/texmf-dist/source/latex/fullminipage/fullminipage.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fullminipage/fullminipage.ins
+share/texmf-dist/tex/latex/fullminipage/fullminipage.sty
+@dirrmtry share/texmf-dist/tex/latex/fullminipage
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/fullminipage
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/fullminipage
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

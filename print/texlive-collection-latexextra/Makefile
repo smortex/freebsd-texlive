@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20140627
+PORTVERSION=	20140628
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -568,6 +568,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/ftcap/ftcap.sty:${PORTSDIR}/print/texlive-ftcap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ftnxtra/ftnxtra.sty:${PORTSDIR}/print/texlive-ftnxtra \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fullblck/fullblck.sty:${PORTSDIR}/print/texlive-fullblck \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fullminipage/fullminipage.sty:${PORTSDIR}/print/texlive-fullminipage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fullwidth/fullwidth.sty:${PORTSDIR}/print/texlive-fullwidth \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fundus-calligra/calligra.sty:${PORTSDIR}/print/texlive-fundus-calligra \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fundus-cyr/cyr.sty:${PORTSDIR}/print/texlive-fundus-cyr \
