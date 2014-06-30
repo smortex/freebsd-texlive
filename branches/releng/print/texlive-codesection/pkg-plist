@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/codesection/codesection.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/codesection/codesection.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/codesection/codesection.ins
+share/texmf-dist/tex/latex/codesection/codesection.sty
+@dirrmtry share/texmf-dist/tex/latex/codesection
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/codesection
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/codesection
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

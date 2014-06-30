@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/doctools/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/doctools/doctools.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/doctools/doctools.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/doctools/doctools.ins
+share/texmf-dist/tex/latex/doctools/doctools.sty
+@dirrmtry share/texmf-dist/tex/latex/doctools
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/doctools
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/doctools
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
