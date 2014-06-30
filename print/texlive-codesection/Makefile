@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	exsheets
+PORTNAME=	codesection
 PORTVERSION=	20140629
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create exercise sheets and exams.
+COMMENT=	Provides an environment that may be conditionally included.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

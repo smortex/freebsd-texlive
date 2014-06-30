@@ -2,6 +2,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/kotex-oblivoir/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/kotex-oblivoir/doc/oblivoir-simpledoc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/kotex-oblivoir/doc/oblivoir-simpledoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/kotex-oblivoir/doc/oblivoir-test.tex
 share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-ucs/10_5.sty
 share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-ucs/fapapersize.sty
 share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-ucs/hfontsel.sty

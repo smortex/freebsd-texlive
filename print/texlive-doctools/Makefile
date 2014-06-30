@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	exsheets
+PORTNAME=	doctools
 PORTVERSION=	20140629
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create exercise sheets and exams.
+COMMENT=	Tools for the documentation of LaTeX code.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

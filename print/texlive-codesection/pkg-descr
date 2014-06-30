@@ -1,0 +1,6 @@
+This package provides an environment to switch a section of
+code on or off. The code may be placed anywhere in the file (it
+is not limited to the document or the preamble). The motivation
+for this package was to have commands which allow preselection
+based on whether sections of code in a preamble of a template
+are executed.

@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	exsheets
+PORTNAME=	l3build
 PORTVERSION=	20140629
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create exercise sheets and exams.
+COMMENT=	A testing and building system for (La)TeX.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
