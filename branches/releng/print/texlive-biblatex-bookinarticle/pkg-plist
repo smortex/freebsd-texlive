@@ -1,20 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/documentation/biblatex-bookinarticle.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/documentation/biblatex-bookinarticle.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/documentation/example.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/documentation/example.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/documentation/makefile
-%%PORTDOCS%%share/texmf-dist/doc/latex/documentation/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/documentation/documentation.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/documentation/documentation.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/documentation/documentation.ins
-share/texmf-dist/tex/latex/documentation/documentation.sty
-@dirrmtry share/texmf-dist/tex/latex/documentation
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/makefile
+share/texmf-dist/tex/latex/biblatex-bookinarticle/biblatex-bookinarticle.sty
+@dirrmtry share/texmf-dist/tex/latex/biblatex-bookinarticle
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/latex/documentation
-@dirrmtry share/texmf-dist/source/latex
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/doc/latex/documentation
 @dirrmtry share/texmf-dist/doc/latex/biblatex-bookinarticle/documentation
 @dirrmtry share/texmf-dist/doc/latex/biblatex-bookinarticle
 @dirrmtry share/texmf-dist/doc/latex

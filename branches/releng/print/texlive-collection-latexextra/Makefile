@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20140629
+PORTVERSION=	20140701
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1038,6 +1038,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tableaux/minimum.sty:${PORTSDIR}/print/texlive-tableaux \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tablefootnote/tablefootnote.sty:${PORTSDIR}/print/texlive-tablefootnote \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tableof/tableof.sty:${PORTSDIR}/print/texlive-tableof \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tablestyles/tablestyles.sty:${PORTSDIR}/print/texlive-tablestyles \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tablists/tablists.sty:${PORTSDIR}/print/texlive-tablists \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabls/tabls.sty:${PORTSDIR}/print/texlive-tabls \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabstackengine/tabstackengine.sty:${PORTSDIR}/print/texlive-tabstackengine \
@@ -1055,6 +1056,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tdclock/tdclock.sty:${PORTSDIR}/print/texlive-tdclock \
 		${LOCALBASE}/share/texmf-dist/tex/latex/technics/technics.sty:${PORTSDIR}/print/texlive-technics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ted/ted.sty:${PORTSDIR}/print/texlive-ted \
+		${LOCALBASE}/share/texmf-dist/tex/latex/templatetools/templatetools.sty:${PORTSDIR}/print/texlive-templatetools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/termcal/termcal.sty:${PORTSDIR}/print/texlive-termcal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/termlist/termlist.sty:${PORTSDIR}/print/texlive-termlist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tex-label/tex-label.sty:${PORTSDIR}/print/texlive-tex-label \

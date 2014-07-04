@@ -1,26 +1,13 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/CHANGES
-%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/INSTALL
 %%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/logicpuzzle.dtx
 %%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/logicpuzzle.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/logicpuzzle.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/manifest.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/logicpuzzle/qrcode.png
 share/texmf-dist/scripts/logicpuzzle/createlpsudoku
 share/texmf-dist/scripts/logicpuzzle/lpsmag
 share/texmf-dist/scripts/logicpuzzle/simple.smc
-share/texmf-dist/tex/latex/logicpuzzle/battleship.sty
-share/texmf-dist/tex/latex/logicpuzzle/bokkusu.sty
-share/texmf-dist/tex/latex/logicpuzzle/chaossudoku.sty
-share/texmf-dist/tex/latex/logicpuzzle/ddsudoku.sty
-share/texmf-dist/tex/latex/logicpuzzle/hakyuu.sty
-share/texmf-dist/tex/latex/logicpuzzle/hitori.sty
-share/texmf-dist/tex/latex/logicpuzzle/kendoku.sty
-share/texmf-dist/tex/latex/logicpuzzle/killersudoku.sty
-share/texmf-dist/tex/latex/logicpuzzle/laserbeam.sty
 share/texmf-dist/tex/latex/logicpuzzle/logicpuzzle.sty
 share/texmf-dist/tex/latex/logicpuzzle/lpenv.sty
-share/texmf-dist/tex/latex/logicpuzzle/lpsudoku.sty
-share/texmf-dist/tex/latex/logicpuzzle/skyline.sty
-share/texmf-dist/tex/latex/logicpuzzle/slitherlink.sty
 @dirrmtry share/texmf-dist/tex/latex/logicpuzzle
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex

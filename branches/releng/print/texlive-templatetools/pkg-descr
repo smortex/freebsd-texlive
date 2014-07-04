@@ -1,0 +1,4 @@
+The package provides a collection of tools, which are helpful
+for the creation of a LaTeX template if conditional paths for
+code execution are required. All the commands work both in the
+preamble and in the document.

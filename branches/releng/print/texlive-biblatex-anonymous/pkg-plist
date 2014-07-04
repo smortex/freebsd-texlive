@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-anonymous/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-anonymous/biblatex-anonymous.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-anonymous/biblatex-anonymous.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-anonymous/latexmkrc
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-anonymous/makefile
+share/texmf-dist/tex/latex/biblatex-anonymous/biblatex-anonymous.sty
+@dirrmtry share/texmf-dist/tex/latex/biblatex-anonymous
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/biblatex-anonymous
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
