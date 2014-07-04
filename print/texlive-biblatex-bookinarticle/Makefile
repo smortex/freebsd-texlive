@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	modiagram
-PORTVERSION=	20140701
+PORTNAME=	biblatex-bookinarticle
+PORTVERSION=	20140703
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Drawing molecular orbital diagrams.
+COMMENT=	Manage book edited in article.
 
 NOPORTSRC=	yes
 

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	modiagram
-PORTVERSION=	20140701
+PORTNAME=	biblatex-anonymous
+PORTVERSION=	20140703
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Drawing molecular orbital diagrams.
+COMMENT=	The biblatex-anonymous package
 
 NOPORTSRC=	yes
 
