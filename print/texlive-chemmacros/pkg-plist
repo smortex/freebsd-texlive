@@ -16,6 +16,7 @@ share/texmf-dist/tex/latex/chemmacros/language/ghsystem_english.def
 share/texmf-dist/tex/latex/chemmacros/language/ghsystem_german.def
 share/texmf-dist/tex/latex/chemmacros/language/ghsystem_italian.def
 share/texmf-dist/tex/latex/chemmacros/language/ghsystem_langtemplate.def
+share/texmf-dist/tex/latex/chemmacros/language/ghsystem_spanish.def
 share/texmf-dist/tex/latex/chemmacros/pictures/ghsystem_acid-8.eps
 share/texmf-dist/tex/latex/chemmacros/pictures/ghsystem_acid-8.jpg
 share/texmf-dist/tex/latex/chemmacros/pictures/ghsystem_acid-8.pdf
