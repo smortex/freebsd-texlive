@@ -1,9 +1,14 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/csvsimple/CHANGES
 %%PORTDOCS%%share/texmf-dist/doc/latex/csvsimple/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/csvsimple/amountsort.xml
 %%PORTDOCS%%share/texmf-dist/doc/latex/csvsimple/csvsimple-example.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/csvsimple/csvsimple-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/csvsimple/csvsimple.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/csvsimple/csvsimple.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/csvsimple/gradesort.xml
+%%PORTDOCS%%share/texmf-dist/doc/latex/csvsimple/matriculationsort.xml
+%%PORTDOCS%%share/texmf-dist/doc/latex/csvsimple/namesort.xml
+%%PORTDOCS%%share/texmf-dist/doc/latex/csvsimple/transform.xml
 share/texmf-dist/tex/latex/csvsimple/csvsimple.sty
 @dirrmtry share/texmf-dist/tex/latex/csvsimple
 @dirrmtry share/texmf-dist/tex/latex

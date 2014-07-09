@@ -1,3 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fonts-tlwg/README.latex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fonts-tlwg/examples/teststd.tex
 share/texmf-dist/fonts/afm/public/fonts-tlwg/garuda.afm
 share/texmf-dist/fonts/afm/public/fonts-tlwg/garuda_b.afm
@@ -9,6 +10,10 @@ share/texmf-dist/fonts/afm/public/fonts-tlwg/kinnari_bi.afm
 share/texmf-dist/fonts/afm/public/fonts-tlwg/kinnari_bo.afm
 share/texmf-dist/fonts/afm/public/fonts-tlwg/kinnari_i.afm
 share/texmf-dist/fonts/afm/public/fonts-tlwg/kinnari_o.afm
+share/texmf-dist/fonts/afm/public/fonts-tlwg/laksaman.afm
+share/texmf-dist/fonts/afm/public/fonts-tlwg/laksaman_b.afm
+share/texmf-dist/fonts/afm/public/fonts-tlwg/laksaman_bi.afm
+share/texmf-dist/fonts/afm/public/fonts-tlwg/laksaman_i.afm
 share/texmf-dist/fonts/afm/public/fonts-tlwg/loma.afm
 share/texmf-dist/fonts/afm/public/fonts-tlwg/loma_b.afm
 share/texmf-dist/fonts/afm/public/fonts-tlwg/loma_bo.afm
@@ -48,6 +53,7 @@ share/texmf-dist/fonts/afm/public/fonts-tlwg/waree_o.afm
 share/texmf-dist/fonts/enc/dvips/fonts-tlwg/lthtlwg.enc
 share/texmf-dist/fonts/map/dvips/fonts-tlwg/nectec.map
 share/texmf-dist/fonts/map/dvips/fonts-tlwg/nf.map
+share/texmf-dist/fonts/map/dvips/fonts-tlwg/sipa.map
 share/texmf-dist/fonts/map/dvips/fonts-tlwg/tlwg.map
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/garuda.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/garuda_b.tfm
@@ -59,6 +65,10 @@ share/texmf-dist/fonts/tfm/public/fonts-tlwg/kinnari_bi.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/kinnari_bo.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/kinnari_i.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/kinnari_o.tfm
+share/texmf-dist/fonts/tfm/public/fonts-tlwg/laksaman.tfm
+share/texmf-dist/fonts/tfm/public/fonts-tlwg/laksaman_b.tfm
+share/texmf-dist/fonts/tfm/public/fonts-tlwg/laksaman_bi.tfm
+share/texmf-dist/fonts/tfm/public/fonts-tlwg/laksaman_i.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/loma.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/loma_b.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/loma_bo.tfm
@@ -83,6 +93,10 @@ share/texmf-dist/fonts/tfm/public/fonts-tlwg/rkinnari_bi.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/rkinnari_bo.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/rkinnari_i.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/rkinnari_o.tfm
+share/texmf-dist/fonts/tfm/public/fonts-tlwg/rlaksaman.tfm
+share/texmf-dist/fonts/tfm/public/fonts-tlwg/rlaksaman_b.tfm
+share/texmf-dist/fonts/tfm/public/fonts-tlwg/rlaksaman_bi.tfm
+share/texmf-dist/fonts/tfm/public/fonts-tlwg/rlaksaman_i.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/rloma.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/rloma_b.tfm
 share/texmf-dist/fonts/tfm/public/fonts-tlwg/rloma_bo.tfm
@@ -151,6 +165,10 @@ share/texmf-dist/fonts/type1/public/fonts-tlwg/kinnari_bi.pfb
 share/texmf-dist/fonts/type1/public/fonts-tlwg/kinnari_bo.pfb
 share/texmf-dist/fonts/type1/public/fonts-tlwg/kinnari_i.pfb
 share/texmf-dist/fonts/type1/public/fonts-tlwg/kinnari_o.pfb
+share/texmf-dist/fonts/type1/public/fonts-tlwg/laksaman.pfb
+share/texmf-dist/fonts/type1/public/fonts-tlwg/laksaman_b.pfb
+share/texmf-dist/fonts/type1/public/fonts-tlwg/laksaman_bi.pfb
+share/texmf-dist/fonts/type1/public/fonts-tlwg/laksaman_i.pfb
 share/texmf-dist/fonts/type1/public/fonts-tlwg/loma.pfb
 share/texmf-dist/fonts/type1/public/fonts-tlwg/loma_b.pfb
 share/texmf-dist/fonts/type1/public/fonts-tlwg/loma_bo.pfb
@@ -197,6 +215,10 @@ share/texmf-dist/fonts/vf/public/fonts-tlwg/kinnari_bi.vf
 share/texmf-dist/fonts/vf/public/fonts-tlwg/kinnari_bo.vf
 share/texmf-dist/fonts/vf/public/fonts-tlwg/kinnari_i.vf
 share/texmf-dist/fonts/vf/public/fonts-tlwg/kinnari_o.vf
+share/texmf-dist/fonts/vf/public/fonts-tlwg/laksaman.vf
+share/texmf-dist/fonts/vf/public/fonts-tlwg/laksaman_b.vf
+share/texmf-dist/fonts/vf/public/fonts-tlwg/laksaman_bi.vf
+share/texmf-dist/fonts/vf/public/fonts-tlwg/laksaman_i.vf
 share/texmf-dist/fonts/vf/public/fonts-tlwg/loma.vf
 share/texmf-dist/fonts/vf/public/fonts-tlwg/loma_b.vf
 share/texmf-dist/fonts/vf/public/fonts-tlwg/loma_bo.vf
@@ -247,19 +269,35 @@ share/texmf-dist/fonts/vf/public/fonts-tlwg/waree_o.vf
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/aclocal.m4
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/configure
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/configure.ac
-%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/64-ttf-thai-tlwg.conf
-%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/89-ttf-thai-tlwg-synthetic.conf
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/64-01-tlwg-kinnari.conf
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/64-02-tlwg-norasi.conf
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/64-11-tlwg-waree.conf
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/64-12-tlwg-loma.conf
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/64-13-tlwg-garuda.conf
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/64-14-tlwg-umpush.conf
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/64-15-laksaman.conf
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/64-21-tlwg-typo.conf
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/64-22-tlwg-typist.conf
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/64-23-tlwg-mono.conf
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/89-tlwg-garuda-synthetic.conf
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/89-tlwg-kinnari-synthetic.conf
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/89-tlwg-laksaman-synthetic.conf
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/89-tlwg-loma-synthetic.conf
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/89-tlwg-umpush-synthetic.conf
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/89-tlwg-waree-synthetic.conf
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/Makefile.am
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/Makefile.in
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/install-sh
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/latex/Makefile.am
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/latex/Makefile.in
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/latex/README.latex
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/latex/examples/Makefile.am
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/latex/examples/Makefile.in
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/latex/examples/teststd.tex
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/latex/fonts-tlwg.sty
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/latex/lthgaruda.fd
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/latex/lthkinnari.fd
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/latex/lthlaksaman.fd
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/latex/lthloma.fd
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/latex/lthnorasi.fd
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/latex/lthpurisa.fd
@@ -311,6 +349,11 @@ share/texmf-dist/fonts/vf/public/fonts-tlwg/waree_o.vf
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/scripts/gen-ttf.pe
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/scripts/gen.mk.am
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/scripts/thaikernpairs.txt
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/sipa/Laksaman-Bold.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/sipa/Laksaman-BoldItalic.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/sipa/Laksaman-Italic.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/sipa/Laksaman.sfd
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/sipa/Makefile.am
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/test-driver
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/tests/Makefile.am
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/tests/Makefile.in
@@ -361,6 +404,7 @@ share/texmf-dist/fonts/vf/public/fonts-tlwg/waree_o.vf
 share/texmf-dist/tex/latex/fonts-tlwg/fonts-tlwg.sty
 share/texmf-dist/tex/latex/fonts-tlwg/lthgaruda.fd
 share/texmf-dist/tex/latex/fonts-tlwg/lthkinnari.fd
+share/texmf-dist/tex/latex/fonts-tlwg/lthlaksaman.fd
 share/texmf-dist/tex/latex/fonts-tlwg/lthloma.fd
 share/texmf-dist/tex/latex/fonts-tlwg/lthnorasi.fd
 share/texmf-dist/tex/latex/fonts-tlwg/lthpurisa.fd
@@ -374,6 +418,7 @@ share/texmf-dist/tex/latex/fonts-tlwg/lthwaree.fd
 @dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/fonts/fonts-tlwg/tlwg
 @dirrmtry share/texmf-dist/source/fonts/fonts-tlwg/tests
+@dirrmtry share/texmf-dist/source/fonts/fonts-tlwg/sipa
 @dirrmtry share/texmf-dist/source/fonts/fonts-tlwg/scripts
 @dirrmtry share/texmf-dist/source/fonts/fonts-tlwg/nf
 @dirrmtry share/texmf-dist/source/fonts/fonts-tlwg/nectec
