@@ -354,6 +354,7 @@ share/texmf-dist/fonts/vf/public/fonts-tlwg/waree_o.vf
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/sipa/Laksaman-Italic.sfd
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/sipa/Laksaman.sfd
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/sipa/Makefile.am
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/sipa/Makefile.in
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/test-driver
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/tests/Makefile.am
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/tests/Makefile.in
