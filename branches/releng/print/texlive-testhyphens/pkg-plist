@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/testhyphens/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/testhyphens/manifest.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/testhyphens/testhyphens.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/testhyphens/testhyphens.dtx
+share/texmf-dist/tex/latex/testhyphens/testhyphens.sty
+@dirrmtry share/texmf-dist/tex/latex/testhyphens
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/testhyphens
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/testhyphens
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

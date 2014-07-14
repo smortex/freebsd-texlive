@@ -1,4 +1,7 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/cv4tw/sample-jules-verne.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cv4tw/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/cv4tw/sample-jules-verne-compact.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cv4tw/sample-jules-verne-sharp.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cv4tw/sample-jules-verne-simple.pdf
 share/texmf-dist/tex/latex/cv4tw/cv4tw-scheme.sty
 share/texmf-dist/tex/latex/cv4tw/cv4tw-theme-compact.sty
 share/texmf-dist/tex/latex/cv4tw/cv4tw-theme-core.sty

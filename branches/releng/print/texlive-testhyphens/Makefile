@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	cv4tw
+PORTNAME=	testhyphens
 PORTVERSION=	20140713
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX CV class, with extended details.
+COMMENT=	Testing hyphenation patterns
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
