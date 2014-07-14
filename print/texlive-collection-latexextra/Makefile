@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20140701
+PORTVERSION=	20140713
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1059,6 +1059,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/templatetools/templatetools.sty:${PORTSDIR}/print/texlive-templatetools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/termcal/termcal.sty:${PORTSDIR}/print/texlive-termcal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/termlist/termlist.sty:${PORTSDIR}/print/texlive-termlist \
+		${LOCALBASE}/share/texmf-dist/tex/latex/testhyphens/testhyphens.sty:${PORTSDIR}/print/texlive-testhyphens \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tex-label/tex-label.sty:${PORTSDIR}/print/texlive-tex-label \
 		${LOCALBASE}/share/texmf-dist/tex/latex/texlogos/texlogos.sty:${PORTSDIR}/print/texlive-texlogos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/texmate/texmate.sty:${PORTSDIR}/print/texlive-texmate \

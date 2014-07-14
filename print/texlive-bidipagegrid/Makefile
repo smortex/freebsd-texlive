@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	cv4tw
+PORTNAME=	bidipagegrid
 PORTVERSION=	20140713
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX CV class, with extended details.
+COMMENT=	Bidi-aware page grid in background.
 
 NOPORTSRC=	yes
 

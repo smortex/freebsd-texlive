@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidipagegrid/bidipagegrid-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidipagegrid/bidipagegrid-doc.tex
+share/texmf-dist/tex/xelatex/bidipagegrid/bidipagegrid.sty
+@dirrmtry share/texmf-dist/tex/xelatex/bidipagegrid
+@dirrmtry share/texmf-dist/tex/xelatex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/xelatex/bidipagegrid
+@dirrmtry share/texmf-dist/doc/xelatex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
