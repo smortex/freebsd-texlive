@@ -1,5 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tengwarscript/COPYING
 %%PORTDOCS%%share/texmf-dist/doc/latex/tengwarscript/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tengwarscript/install-tengwar-scripts.sh
 %%PORTDOCS%%share/texmf-dist/doc/latex/tengwarscript/quetta.eps
 %%PORTDOCS%%share/texmf-dist/doc/latex/tengwarscript/quetta.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tengwarscript/tengfonts.pdf

@@ -1837,6 +1837,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/templatetools/templatetools.sty:${PORTSDIR}/print/texlive-templatetools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/termcal/termcal.sty:${PORTSDIR}/print/texlive-termcal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/termlist/termlist.sty:${PORTSDIR}/print/texlive-termlist \
+		${LOCALBASE}/share/texmf-dist/tex/latex/testhyphens/testhyphens.sty:${PORTSDIR}/print/texlive-testhyphens \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tex-label/tex-label.sty:${PORTSDIR}/print/texlive-tex-label \
 		${LOCALBASE}/share/texmf-dist/tex/latex/texlogos/texlogos.sty:${PORTSDIR}/print/texlive-texlogos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/texmate/texmate.sty:${PORTSDIR}/print/texlive-texmate \
@@ -2388,6 +2389,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/xymtex/base/xymtex.sty:${PORTSDIR}/print/texlive-xymtex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/youngtab/youngtab.sty:${PORTSDIR}/print/texlive-youngtab \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/arabxetex/arabxetex.sty:${PORTSDIR}/print/texlive-arabxetex \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidicontour/bidicontour.sty:${PORTSDIR}/print/texlive-bidicontour \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidipagegrid/bidipagegrid.sty:${PORTSDIR}/print/texlive-bidipagegrid \
 		${LOCALBASE}/share/texmf-dist/tex/latex/euenc/eu1enc.def:${PORTSDIR}/print/texlive-euenc \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fixlatvian/fixlatvian.sty:${PORTSDIR}/print/texlive-fixlatvian \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fontbook/fontbook.sty:${PORTSDIR}/print/texlive-fontbook \

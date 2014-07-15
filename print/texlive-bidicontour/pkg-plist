@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidicontour/bidicontour-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidicontour/bidicontour-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidicontour/bidicontour-example-copies.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidicontour/bidicontour-example-copies.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidicontour/bidicontour-example-outline.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidicontour/bidicontour-example-outline.tex
+share/texmf-dist/tex/xelatex/bidicontour/bidicontour.sty
+@dirrmtry share/texmf-dist/tex/xelatex/bidicontour
+@dirrmtry share/texmf-dist/tex/xelatex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/xelatex/bidicontour
+@dirrmtry share/texmf-dist/doc/xelatex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

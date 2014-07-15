@@ -1,10 +1,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst-optexp/Changes
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-optexp/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst-optexp/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst-optexp/pst-optexp-DE.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst-optexp/pst-optexp-quickref.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst-optexp/pst-optexp.pdf
 share/texmf-dist/dvips/pst-optexp/pst-optexp.pro
-%%PORTSRC%%share/texmf-dist/source/latex/pst-optexp/Makefile
+share/texmf-dist/makeindex/pst-optexp/pst-optexp.ist
 %%PORTSRC%%share/texmf-dist/source/latex/pst-optexp/pst-optexp.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/pst-optexp/pst-optexp.ins
 share/texmf-dist/tex/latex/pst-optexp/pst-optexp.sty
@@ -14,6 +15,8 @@ share/texmf-dist/tex/latex/pst-optexp/pst-optexp.sty
 @dirrmtry share/texmf-dist/source/latex/pst-optexp
 @dirrmtry share/texmf-dist/source/latex
 @dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/makeindex/pst-optexp
+@dirrmtry share/texmf-dist/makeindex
 @dirrmtry share/texmf-dist/dvips/pst-optexp
 @dirrmtry share/texmf-dist/dvips
 @dirrmtry share/texmf-dist/doc/latex/pst-optexp
