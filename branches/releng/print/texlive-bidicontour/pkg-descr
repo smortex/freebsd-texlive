@@ -1,0 +1,3 @@
+The package is a re-implementation of the contour package,
+which is bidi-aware, and adds support of the xdvipdfmx (when
+the outline option if the package is used).
