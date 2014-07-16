@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-true-citepages-omit
-PORTVERSION=	20140627
+PORTVERSION=	20140715
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

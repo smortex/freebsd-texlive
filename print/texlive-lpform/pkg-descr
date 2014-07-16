@@ -1,0 +1,8 @@
+The package is designed to aid the author writing linear
+programming formulations, one restriction at a time. With the
+package, one can easily label equations, formulations can span
+multiple pages and several elements of the layout (such as
+spacing, texts and equation tags) are also customizable.
+Besides linear programming formulations, this package can also
+be used to display any series of aligned equations with easy
+labeling/referencing and other customization options.
