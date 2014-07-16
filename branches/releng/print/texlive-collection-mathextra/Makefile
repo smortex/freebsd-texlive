@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-mathextra
-PORTVERSION=	20140522
+PORTVERSION=	20140715
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -122,6 +122,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/ionumbers/ionumbers.sty:${PORTSDIR}/print/texlive-ionumbers \
 		${LOCALBASE}/share/texmf-dist/tex/latex/isomath/isomath.sty:${PORTSDIR}/print/texlive-isomath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/logicproof/logicproof.sty:${PORTSDIR}/print/texlive-logicproof \
+		${LOCALBASE}/share/texmf-dist/tex/generic/lpform/lpform.sty:${PORTSDIR}/print/texlive-lpform \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lplfitch/lplfitch.sty:${PORTSDIR}/print/texlive-lplfitch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathcomp/mathcomp.sty:${PORTSDIR}/print/texlive-mathcomp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mattens/mattens.sty:${PORTSDIR}/print/texlive-mattens \
