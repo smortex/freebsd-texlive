@@ -1,21 +1,29 @@
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luaotfload/COPYING
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luaotfload/NEWS
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luaotfload/README
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luaotfload/filegraph.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luaotfload/luaotfload.conf.example
 %%PORTDOCS%%share/texmf-dist/doc/luatex/luaotfload/luaotfload.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/luaotfload/valgrind-kpse-suppression.sup
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/luaotfload-tool.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/luaotfload-tool.man1.pdf
-share/texmf-dist/scripts/luaotfload/luaotfload-legacy-tool.lua
+%%PORTDOCS%%share/texmf-dist/doc/man/man5/luaotfload.conf.5
 share/texmf-dist/scripts/luaotfload/mkcharacters
 share/texmf-dist/scripts/luaotfload/mkglyphlist
 share/texmf-dist/scripts/luaotfload/mkstatus
 %%PORTSRC%%share/texmf-dist/source/luatex/luaotfload/Makefile
-%%PORTSRC%%share/texmf-dist/source/luatex/luaotfload/luaotfload.dtx
+%%PORTSRC%%share/texmf-dist/source/luatex/luaotfload/filegraph.dot
+%%PORTSRC%%share/texmf-dist/source/luatex/luaotfload/luaotfload-latex.tex
+%%PORTSRC%%share/texmf-dist/source/luatex/luaotfload/luaotfload-main.tex
+%%PORTSRC%%share/texmf-dist/source/luatex/luaotfload/luaotfload-tool.rst
+%%PORTSRC%%share/texmf-dist/source/luatex/luaotfload/luaotfload.conf.rst
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-auxiliary.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-basics-gen.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-basics-nod.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-blacklist.cnf
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-characters.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-colors.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-configuration.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-database.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-diagnostics.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-features.lua
@@ -24,18 +32,18 @@ share/texmf-dist/tex/luatex/luaotfload/luaotfload-fonts-cbk.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-fonts-def.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-fonts-enc.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-fonts-ext.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-fonts-inj.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-fonts-lua.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-fonts-otn.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-fonts-tfm.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-glyphlist.lua
-share/texmf-dist/tex/luatex/luaotfload/luaotfload-legacy-attributes.lua
-share/texmf-dist/tex/luatex/luaotfload/luaotfload-legacy-database.lua
-share/texmf-dist/tex/luatex/luaotfload/luaotfload-legacy-merged.lua
-share/texmf-dist/tex/luatex/luaotfload/luaotfload-legacy.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-letterspace.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-loaders.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-log.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-main.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-override.lua
+share/texmf-dist/tex/luatex/luaotfload/luaotfload-parsers.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-status.lua
-share/texmf-dist/tex/luatex/luaotfload/luaotfload.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload.sty
 @dirrmtry share/texmf-dist/tex/luatex/luaotfload
 @dirrmtry share/texmf-dist/tex/luatex
@@ -45,6 +53,7 @@ share/texmf-dist/tex/luatex/luaotfload/luaotfload.sty
 @dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/scripts/luaotfload
 @dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/doc/man/man5
 @dirrmtry share/texmf-dist/doc/man/man1
 @dirrmtry share/texmf-dist/doc/man
 @dirrmtry share/texmf-dist/doc/luatex/luaotfload
