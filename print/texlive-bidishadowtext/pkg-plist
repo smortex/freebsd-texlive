@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidishadowtext/bidishadowtext-demo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidishadowtext/bidishadowtext-demo.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidishadowtext/bidishadowtext-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidishadowtext/bidishadowtext-doc.tex
+share/texmf-dist/tex/xelatex/bidishadowtext/bidishadowtext.sty
+@dirrmtry share/texmf-dist/tex/xelatex/bidishadowtext
+@dirrmtry share/texmf-dist/tex/xelatex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/xelatex/bidishadowtext
+@dirrmtry share/texmf-dist/doc/xelatex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
