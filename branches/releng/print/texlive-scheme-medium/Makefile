@@ -382,6 +382,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/ionumbers/ionumbers.sty:${PORTSDIR}/print/texlive-ionumbers \
 		${LOCALBASE}/share/texmf-dist/tex/latex/isomath/isomath.sty:${PORTSDIR}/print/texlive-isomath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/logicproof/logicproof.sty:${PORTSDIR}/print/texlive-logicproof \
+		${LOCALBASE}/share/texmf-dist/tex/generic/lpform/lpform.sty:${PORTSDIR}/print/texlive-lpform \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lplfitch/lplfitch.sty:${PORTSDIR}/print/texlive-lplfitch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathcomp/mathcomp.sty:${PORTSDIR}/print/texlive-mathcomp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mattens/mattens.sty:${PORTSDIR}/print/texlive-mattens \
@@ -472,7 +473,9 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/plain/treetex/treetex.tex:${PORTSDIR}/print/texlive-treetex \
 		${LOCALBASE}/share/texmf-dist/tex/plain/varisize/10point.tex:${PORTSDIR}/print/texlive-varisize \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/arabxetex/arabxetex.sty:${PORTSDIR}/print/texlive-arabxetex \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidicontour/bidicontour.sty:${PORTSDIR}/print/texlive-bidicontour \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidipagegrid/bidipagegrid.sty:${PORTSDIR}/print/texlive-bidipagegrid \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidishadowtext/bidishadowtext.sty:${PORTSDIR}/print/texlive-bidishadowtext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/euenc/eu1enc.def:${PORTSDIR}/print/texlive-euenc \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fixlatvian/fixlatvian.sty:${PORTSDIR}/print/texlive-fixlatvian \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fontbook/fontbook.sty:${PORTSDIR}/print/texlive-fontbook \

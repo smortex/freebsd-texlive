@@ -1,12 +1,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/getmap/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/getmap/getmap-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/getmap/getmap.dtx
 %%PORTDOCS%%share/texmf-dist/doc/latex/getmap/getmap.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/getmap/install.bat
 %%PORTDOCS%%share/texmf-dist/doc/latex/getmap/makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/getmap/manifest.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/getmap/osmimage.png
-share/texmf-dist/scripts/getmap/osmimage
-share/texmf-dist/scripts/getmap/osmimage.lua
+share/texmf-dist/scripts/getmap/getmapdl.lua
+share/texmf-dist/tex/latex/getmap/getmap.cfg
 share/texmf-dist/tex/latex/getmap/getmap.sty
 @dirrmtry share/texmf-dist/tex/latex/getmap
 @dirrmtry share/texmf-dist/tex/latex

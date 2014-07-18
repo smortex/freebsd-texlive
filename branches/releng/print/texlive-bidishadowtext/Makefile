@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	bidicontour
+PORTNAME=	bidishadowtext
 PORTVERSION=	20140717
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bidi-aware coloured contour around text.
+COMMENT=	Bidi-aware shadow text.
 
 NOPORTSRC=	yes
 
