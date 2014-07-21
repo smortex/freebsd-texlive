@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	persian-modern
-PORTVERSION=	20140424
+PORTVERSION=	20140720
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
