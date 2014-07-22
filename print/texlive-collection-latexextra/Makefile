@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20140713
+PORTVERSION=	20140721
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -129,6 +129,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/braids/braids.sty:${PORTSDIR}/print/texlive-braids \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bxeepic/bxeepic.sty:${PORTSDIR}/print/texlive-bxeepic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cachepic/cachepic.sty:${PORTSDIR}/print/texlive-cachepic \
+		${LOCALBASE}/share/texmf-dist/tex/latex/celtic/tikzlibraryceltic.code.tex:${PORTSDIR}/print/texlive-celtic \
 		${LOCALBASE}/share/texmf-dist/tex/generic/chemfig/chemfig.sty:${PORTSDIR}/print/texlive-chemfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/combinedgraphics/combinedgraphics.sty:${PORTSDIR}/print/texlive-combinedgraphics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/circuitikz/circuitikz.sty:${PORTSDIR}/print/texlive-circuitikz \
@@ -360,6 +361,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmdtrack/cmdtrack.sty:${PORTSDIR}/print/texlive-cmdtrack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmsd/cmsd.sty:${PORTSDIR}/print/texlive-cmsd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cnltx/cnltx.sty:${PORTSDIR}/print/texlive-cnltx \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cntformats/cntformats.sty:${PORTSDIR}/print/texlive-cntformats \
 		${LOCALBASE}/share/texmf-dist/tex/latex/codedoc/codedoc.cls:${PORTSDIR}/print/texlive-codedoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/codepage/codepage.sty:${PORTSDIR}/print/texlive-codepage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/codesection/codesection.sty:${PORTSDIR}/print/texlive-codesection \
@@ -514,6 +516,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/extract/extract.sty:${PORTSDIR}/print/texlive-extract \
 		${LOCALBASE}/share/texmf-dist/tex/latex/facsimile/facsimile.cls:${PORTSDIR}/print/texlive-facsimile \
 		${LOCALBASE}/share/texmf-dist/tex/latex/factura/factura.cls:${PORTSDIR}/print/texlive-factura \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fancylabel/fancylabel.sty:${PORTSDIR}/print/texlive-fancylabel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancynum/fancynum.sty:${PORTSDIR}/print/texlive-fancynum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancypar/fancypar.sty:${PORTSDIR}/print/texlive-fancypar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancytabs/fancytabs.sty:${PORTSDIR}/print/texlive-fancytabs \
@@ -1051,6 +1054,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tagging/tagging.sty:${PORTSDIR}/print/texlive-tagging \
 		${LOCALBASE}/share/texmf-dist/tex/latex/talk/talk.cls:${PORTSDIR}/print/texlive-talk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tamefloats/tameflts.sty:${PORTSDIR}/print/texlive-tamefloats \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tasks/tasks.sty:${PORTSDIR}/print/texlive-tasks \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tcldoc/tcldoc.cls:${PORTSDIR}/print/texlive-tcldoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty:${PORTSDIR}/print/texlive-tcolorbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tdclock/tdclock.sty:${PORTSDIR}/print/texlive-tdclock \

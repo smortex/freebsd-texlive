@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/celtic/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/celtic/celtic.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/celtic/celtic_code.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/celtic/celtic_doc.tex
+%%PORTSRC%%share/texmf-dist/source/latex/celtic/celtic.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/celtic/celtic.ins
+share/texmf-dist/tex/latex/celtic/tikzlibraryceltic.code.tex
+@dirrmtry share/texmf-dist/tex/latex/celtic
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/celtic
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/celtic
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

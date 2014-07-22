@@ -1,0 +1,4 @@
+The cntformats package is aimed at package or class authors and
+probably not very useful for document authors. It provides a
+way to format counters with 'patterns'. This does not in any
+way affect the usual LaTeX2e way of treating counters.

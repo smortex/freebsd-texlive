@@ -1,13 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	getmap
+PORTNAME=	roboto
 PORTVERSION=	20140721
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Download OpenStreetMap maps for
-
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
+COMMENT=	Support for the Roboto family of fonts.
 
 NOPORTSRC=	yes
 

@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tasks/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/tasks/tasks_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tasks/tasks_en.tex
+share/texmf-dist/tex/latex/tasks/tasks.cfg
+share/texmf-dist/tex/latex/tasks/tasks.sty
+@dirrmtry share/texmf-dist/tex/latex/tasks
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/tasks
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

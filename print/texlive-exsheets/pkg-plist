@@ -1,20 +1,13 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/exsheets/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/exsheets/cntformats_en.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/exsheets/cntformats_en.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/exsheets/exsheets_en.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/exsheets/exsheets_en.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/exsheets/grading-table.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/exsheets/grading-table.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/exsheets/tasks_en.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/exsheets/tasks_en.tex
-share/texmf-dist/tex/latex/exsheets/cntformats.sty
 share/texmf-dist/tex/latex/exsheets/exsheets-listings.sty
 share/texmf-dist/tex/latex/exsheets/exsheets.sty
 share/texmf-dist/tex/latex/exsheets/exsheets_configurations.cfg
 share/texmf-dist/tex/latex/exsheets/exsheets_headings.cfg
 share/texmf-dist/tex/latex/exsheets/exsheets_headings.def
-share/texmf-dist/tex/latex/exsheets/tasks.cfg
-share/texmf-dist/tex/latex/exsheets/tasks.sty
 @dirrmtry share/texmf-dist/tex/latex/exsheets
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex

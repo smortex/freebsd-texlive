@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/fancylabel/fancylabel.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/fancylabel/fancylabel.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fancylabel/fancylabel.ins
+share/texmf-dist/tex/latex/fancylabel/fancylabel.sty
+@dirrmtry share/texmf-dist/tex/latex/fancylabel
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/fancylabel
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/fancylabel
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
