@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20140626
+PORTVERSION=	20140721
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -217,6 +217,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/quattrocento/quattrocento.sty:${PORTSDIR}/print/texlive-quattrocento \
 		${LOCALBASE}/share/texmf-dist/tex/latex/raleway/raleway.sty:${PORTSDIR}/print/texlive-raleway \
 		${LOCALBASE}/share/texmf-dist/tex/latex/recycle/recycle.sty:${PORTSDIR}/print/texlive-recycle \
+		${LOCALBASE}/share/texmf-dist/tex/latex/roboto/roboto.sty:${PORTSDIR}/print/texlive-roboto \
 		${LOCALBASE}/share/texmf-dist/tex/latex/romande/romande.sty:${PORTSDIR}/print/texlive-romande \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rsfso/rsfso.sty:${PORTSDIR}/print/texlive-rsfso \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty:${PORTSDIR}/print/texlive-sansmathaccent \

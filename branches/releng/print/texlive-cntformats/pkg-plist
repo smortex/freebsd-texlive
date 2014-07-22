@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cntformats/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/cntformats/cntformats_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cntformats/cntformats_en.tex
+share/texmf-dist/tex/latex/cntformats/cntformats.sty
+@dirrmtry share/texmf-dist/tex/latex/cntformats
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/cntformats
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

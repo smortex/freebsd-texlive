@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20140625
+PORTVERSION=	20140721
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -54,6 +54,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/braids/braids.sty:${PORTSDIR}/print/texlive-braids \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bxeepic/bxeepic.sty:${PORTSDIR}/print/texlive-bxeepic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cachepic/cachepic.sty:${PORTSDIR}/print/texlive-cachepic \
+		${LOCALBASE}/share/texmf-dist/tex/latex/celtic/tikzlibraryceltic.code.tex:${PORTSDIR}/print/texlive-celtic \
 		${LOCALBASE}/share/texmf-dist/tex/generic/chemfig/chemfig.sty:${PORTSDIR}/print/texlive-chemfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/combinedgraphics/combinedgraphics.sty:${PORTSDIR}/print/texlive-combinedgraphics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/circuitikz/circuitikz.sty:${PORTSDIR}/print/texlive-circuitikz \

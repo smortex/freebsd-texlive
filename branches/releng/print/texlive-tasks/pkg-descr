@@ -1,0 +1,5 @@
+The reason for the creation of the tasks environment was an
+unwritten agreement in German maths textbooks (exspecially
+(junior) high school textbooks) to organize exercises in
+columns counting horizontally rather than vertically. This is
+what the tasks package helps to achieve.

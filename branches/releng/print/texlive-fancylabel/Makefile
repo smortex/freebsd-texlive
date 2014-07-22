@@ -1,15 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	getmap
+PORTNAME=	fancylabel
 PORTVERSION=	20140721
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Download OpenStreetMap maps for
+COMMENT=	Complex labelling with LaTeX.
 
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
-
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

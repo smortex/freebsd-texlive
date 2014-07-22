@@ -1,0 +1,26 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemschemex/C2H4.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemschemex/CH2CH-R2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemschemex/R1-CHCH2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemschemex/R2-CHCH-R1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemschemex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemschemex/RuCH-R1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemschemex/RuCH2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemschemex/chemschemex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemschemex/cp.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemschemex/maleimid.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemschemex/product.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemschemex/product_num.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/chemschemex/chemschemex.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/chemschemex/chemschemex.ins
+share/texmf-dist/tex/latex/chemschemex/chemschemex.sty
+@dirrmtry share/texmf-dist/tex/latex/chemschemex
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/chemschemex
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/chemschemex
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
