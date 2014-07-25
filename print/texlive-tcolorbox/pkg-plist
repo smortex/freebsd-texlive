@@ -1,11 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/Basilica_5.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/CHANGES
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/blueshade.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/crinklepaper.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/goldshade.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/lichtspiel.jpg
-%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/pink_marble.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox-example.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.abstract.tex
@@ -30,6 +26,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.xparse.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.tex
+share/texmf-dist/tex/latex/tcolorbox/blueshade.png
+share/texmf-dist/tex/latex/tcolorbox/crinklepaper.png
+share/texmf-dist/tex/latex/tcolorbox/goldshade.png
+share/texmf-dist/tex/latex/tcolorbox/pink_marble.png
 share/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbdocumentation.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex

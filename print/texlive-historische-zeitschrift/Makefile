@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	historische-zeitschrift
-PORTVERSION=	20140621
+PORTVERSION=	20140724
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
