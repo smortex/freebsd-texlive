@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	schule
-PORTVERSION=	20140519
+PORTVERSION=	20140724
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The schule package
+COMMENT=	Support for teachers at German schools.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

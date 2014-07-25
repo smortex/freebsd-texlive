@@ -1,2 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/dviasm/README
+@dirrmtry share/texmf-dist/doc/latex/dviasm
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
