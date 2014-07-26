@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/qcircuit/Qtutorial.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/qcircuit/Qtutorial.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/qcircuit/README
+share/texmf-dist/tex/latex/qcircuit/qcircuit.sty
+@dirrmtry share/texmf-dist/tex/latex/qcircuit
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/qcircuit
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

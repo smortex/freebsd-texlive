@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20140721
+PORTVERSION=	20140725
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -120,6 +120,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/prerex/prerex.sty:${PORTSDIR}/print/texlive-prerex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/productbox/productbox.sty:${PORTSDIR}/print/texlive-productbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pxpgfmark/pxpgfmark.sty:${PORTSDIR}/print/texlive-pxpgfmark \
+		${LOCALBASE}/share/texmf-dist/tex/latex/qcircuit/qcircuit.sty:${PORTSDIR}/print/texlive-qcircuit \
 		${LOCALBASE}/share/texmf-dist/tex/latex/randbild/randbild.sty:${PORTSDIR}/print/texlive-randbild \
 		${LOCALBASE}/share/texmf-dist/tex/latex/randomwalk/randomwalk.sty:${PORTSDIR}/print/texlive-randomwalk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/reotex/reotex.sty:${PORTSDIR}/print/texlive-reotex \

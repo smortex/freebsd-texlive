@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	qcircuit
 PORTVERSION=	20140725
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	Macros to generate quantum ciruits
 
 NOPORTSRC=	yes
 
