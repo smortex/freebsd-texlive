@@ -1,0 +1,10 @@
+The package is designed for those within the quantum
+information community who typeset quantum circuits. Based off
+the xy-pic package, qcircuit contains a list of macros designed
+to help users speedily generate circuits. qcircuit was
+originally written by Bryan Eastin and Steven Flammia while
+graduate students at the University of New Mexico, New Mexico,
+USA. Recently, some students from this same university have
+expressed an interest in rebooting the project to add
+enhancements and other features needed by the quantum
+information community.
