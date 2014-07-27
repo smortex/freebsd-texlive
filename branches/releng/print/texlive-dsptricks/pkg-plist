@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/dsptricks/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/dsptricks/dspTricksManual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/dsptricks/dspTricksManual.tex
+share/texmf-dist/tex/latex/dsptricks/dspblocks.sty
+share/texmf-dist/tex/latex/dsptricks/dspfunctions.sty
+share/texmf-dist/tex/latex/dsptricks/dsptricks.sty
+@dirrmtry share/texmf-dist/tex/latex/dsptricks
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/dsptricks
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

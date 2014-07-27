@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	tcolorbox
+PORTNAME=	dsptricks
 PORTVERSION=	20140726
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Coloured boxes, for LaTeX examples and theorems, etc.
+COMMENT=	Macros for Digital Signal Processing plots.
 
 NOPORTSRC=	yes
 

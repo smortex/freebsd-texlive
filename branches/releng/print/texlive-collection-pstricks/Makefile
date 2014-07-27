@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-pstricks
-PORTVERSION=	20140418
+PORTVERSION=	20140726
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -52,6 +52,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/ulem/ulem.sty:${PORTSDIR}/print/texlive-ulem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/auto-pst-pdf/auto-pst-pdf.sty:${PORTSDIR}/print/texlive-auto-pst-pdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bclogo/bclogo.sty:${PORTSDIR}/print/texlive-bclogo \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dsptricks/dsptricks.sty:${PORTSDIR}/print/texlive-dsptricks \
 		${LOCALBASE}/share/texmf-dist/tex/latex/makeplot/makeplot.sty:${PORTSDIR}/print/texlive-makeplot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdftricks/pdftricks.sty:${PORTSDIR}/print/texlive-pdftricks \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdftricks2/pdftricks2.sty:${PORTSDIR}/print/texlive-pdftricks2 \
