@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	hf-tikz
+PORTNAME=	listlbls
 PORTVERSION=	20140727
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A simple way to highlight formulas and formula parts.
+COMMENT=	Creates a list of all labels used throughout a document
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
