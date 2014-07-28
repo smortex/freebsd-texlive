@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	hf-tikz
+PORTNAME=	yathesis
 PORTVERSION=	20140727
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A simple way to highlight formulas and formula parts.
+COMMENT=	yathesis provides a LaTeX class that aims to help to write a thesis following French rules
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

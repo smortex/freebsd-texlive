@@ -974,6 +974,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/prerex/prerex.sty:${PORTSDIR}/print/texlive-prerex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/productbox/productbox.sty:${PORTSDIR}/print/texlive-productbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pxpgfmark/pxpgfmark.sty:${PORTSDIR}/print/texlive-pxpgfmark \
+		${LOCALBASE}/share/texmf-dist/tex/latex/qcircuit/qcircuit.sty:${PORTSDIR}/print/texlive-qcircuit \
 		${LOCALBASE}/share/texmf-dist/tex/latex/randbild/randbild.sty:${PORTSDIR}/print/texlive-randbild \
 		${LOCALBASE}/share/texmf-dist/tex/latex/randomwalk/randomwalk.sty:${PORTSDIR}/print/texlive-randomwalk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/reotex/reotex.sty:${PORTSDIR}/print/texlive-reotex \
@@ -1465,6 +1466,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/lipsum/lipsum.sty:${PORTSDIR}/print/texlive-lipsum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lisp-on-tex/lisp-on-tex.sty:${PORTSDIR}/print/texlive-lisp-on-tex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listing/listing.sty:${PORTSDIR}/print/texlive-listing \
+		${LOCALBASE}/share/texmf-dist/tex/latex/listlbls/listlbls.sty:${PORTSDIR}/print/texlive-listlbls \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listofsymbols/listofsymbols.sty:${PORTSDIR}/print/texlive-listofsymbols \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listliketab/listliketab.sty:${PORTSDIR}/print/texlive-listliketab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lkproof/proof.sty:${PORTSDIR}/print/texlive-lkproof \
@@ -1972,7 +1974,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luaindex/luaindex.sty:${PORTSDIR}/print/texlive-luaindex \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luainputenc/luainputenc.sty:${PORTSDIR}/print/texlive-luainputenc \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.sty:${PORTSDIR}/print/texlive-lualatex-math \
-		${LOCALBASE}/share/texmf-dist/tex/luatex/lualibs/lualibs-basic-merged.lua:${PORTSDIR}/print/texlive-lualibs \
+		${LOCALBASE}/share/texmf-dist/tex/luatex/lualibs/lualibs-basic.lua:${PORTSDIR}/print/texlive-lualibs \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luamplib/luamplib.sty:${PORTSDIR}/print/texlive-luamplib \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luaotfload/luaotfload.sty:${PORTSDIR}/print/texlive-luaotfload \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luasseq/luasseq.sty:${PORTSDIR}/print/texlive-luasseq \
@@ -2120,6 +2122,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/plain/varisize/10point.tex:${PORTSDIR}/print/texlive-varisize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/auto-pst-pdf/auto-pst-pdf.sty:${PORTSDIR}/print/texlive-auto-pst-pdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bclogo/bclogo.sty:${PORTSDIR}/print/texlive-bclogo \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dsptricks/dsptricks.sty:${PORTSDIR}/print/texlive-dsptricks \
 		${LOCALBASE}/share/texmf-dist/tex/latex/makeplot/makeplot.sty:${PORTSDIR}/print/texlive-makeplot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdftricks/pdftricks.sty:${PORTSDIR}/print/texlive-pdftricks \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdftricks2/pdftricks2.sty:${PORTSDIR}/print/texlive-pdftricks2 \
@@ -2333,6 +2336,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/vancouver/vancouver.bst:${PORTSDIR}/print/texlive-vancouver \
 		${LOCALBASE}/share/texmf-dist/tex/latex/wsemclassic/wsemclassic.cls:${PORTSDIR}/print/texlive-wsemclassic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xcookybooky/xcookybooky.sty:${PORTSDIR}/print/texlive-xcookybooky \
+		${LOCALBASE}/share/texmf-dist/tex/latex/yathesis/yathesis.cls:${PORTSDIR}/print/texlive-yathesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/york-thesis/york-thesis.cls:${PORTSDIR}/print/texlive-york-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/SIstyle/sistyle.sty:${PORTSDIR}/print/texlive-SIstyle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTSDIR}/print/texlive-SIunits \

@@ -1,0 +1,7 @@
+This is a package meant to help a LaTeX-writer to keep track of
+all defined labels by typesetting a complete list of labels
+wherever the author requests it. Keep in mind, that you might
+need to have additional LaTeX runs to get the references right.
+This package is based on an answer David Carlisle gave on TEX-
+Stackexchange in the thread [List of all labels with
+hyperlinks.

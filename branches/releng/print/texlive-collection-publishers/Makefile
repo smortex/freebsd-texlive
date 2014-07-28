@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20140625
+PORTVERSION=	20140727
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -194,6 +194,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/vancouver/vancouver.bst:${PORTSDIR}/print/texlive-vancouver \
 		${LOCALBASE}/share/texmf-dist/tex/latex/wsemclassic/wsemclassic.cls:${PORTSDIR}/print/texlive-wsemclassic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xcookybooky/xcookybooky.sty:${PORTSDIR}/print/texlive-xcookybooky \
+		${LOCALBASE}/share/texmf-dist/tex/latex/yathesis/yathesis.cls:${PORTSDIR}/print/texlive-yathesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/york-thesis/york-thesis.cls:${PORTSDIR}/print/texlive-york-thesis
 
 NOPORTDOCS=	yes
