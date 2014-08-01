@@ -1,6 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/addons/completion/yathesis.cwl
-%%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/master-slaves-files-sample.zip
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/master-slaves-files-sample/annexes/juridique.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/master-slaves-files-sample/annexes/listings.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/master-slaves-files-sample/annexes/programmes/factorielle.c
@@ -34,7 +33,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/master-slaves-files-sample/liminaires/resumes.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/master-slaves-files-sample/these.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/master-slaves-files-sample/these.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/master-slaves-files-template.zip
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/master-slaves-files-template/annexes/annexeI.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/master-slaves-files-template/annexes/annexeII.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/master-slaves-files-template/auxiliaires/bibliographie.bib
@@ -50,7 +48,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/master-slaves-files-template/liminaires/resumes.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/master-slaves-files-template/these.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/master-slaves-files-template/these.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/single-file-sample.zip
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/single-file-sample/bibliographie.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/single-file-sample/labo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/single-file-sample/latexmkrc
@@ -60,7 +57,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/single-file-sample/these.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/single-file-sample/tiger.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/single-file-sample/ulco.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/single-file-template.zip
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/single-file-template/latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/single-file-template/these.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/single-file-template/these.tex
