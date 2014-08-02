@@ -1,12 +1,13 @@
 # $FreeBSD$
 
 PORTNAME=	pst-math
-PORTVERSION=	20140418
+PORTVERSION=	20140801
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Enhancement of PostScript math operators to use with pstricks
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
