@@ -62,8 +62,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/single-file-template/these.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/yathesis.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/yathesis/docstrip.cfg
-%%PORTSRC%%share/texmf-dist/source/latex/yathesis/glossaries/acronyms.tex
-%%PORTSRC%%share/texmf-dist/source/latex/yathesis/glossaries/glossary.tex
 %%PORTSRC%%share/texmf-dist/source/latex/yathesis/latexmkrc
 %%PORTSRC%%share/texmf-dist/source/latex/yathesis/ltxdoc.cfg
 %%PORTSRC%%share/texmf-dist/source/latex/yathesis/sections/abstract.tex
@@ -105,7 +103,6 @@ share/texmf-dist/tex/latex/yathesis/yathesis.cls
 @dirrmtry share/texmf-dist/tex
 @dirrmtry share/texmf-dist/source/latex/yathesis/tableaux
 @dirrmtry share/texmf-dist/source/latex/yathesis/sections
-@dirrmtry share/texmf-dist/source/latex/yathesis/glossaries
 @dirrmtry share/texmf-dist/source/latex/yathesis
 @dirrmtry share/texmf-dist/source/latex
 @dirrmtry share/texmf-dist/source

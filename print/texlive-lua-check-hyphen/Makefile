@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	lua-check-hyphen
-PORTVERSION=	20140418
+PORTVERSION=	20140804
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
