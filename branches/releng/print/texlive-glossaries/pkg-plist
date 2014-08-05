@@ -17,6 +17,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/README-samples
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/database1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/database2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/glossary-lipsum-examples.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/glossary-lipsum-examples.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/minimalgls.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/minimalgls.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-FnDesc.pdf
@@ -29,6 +31,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-dual.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-entryfmt.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-entryfmt.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-ignored.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-ignored.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-index.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-index.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-inline.pdf
@@ -98,14 +102,13 @@ share/texmf-dist/scripts/glossaries/makeglossaries.bat
 share/texmf-dist/scripts/glossaries/mfirstuc.perl
 %%PORTSRC%%share/texmf-dist/source/latex/glossaries/glossaries.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/glossaries/glossaries.ins
-%%PORTSRC%%share/texmf-dist/source/latex/yathesis/glossaries/acronyms.tex
-%%PORTSRC%%share/texmf-dist/source/latex/yathesis/glossaries/glossary.tex
 share/texmf-dist/tex/latex/glossaries/base/glossaries-babel.sty
 share/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-207.sty
 share/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.sty
 share/texmf-dist/tex/latex/glossaries/base/glossaries-polyglossia.sty
 share/texmf-dist/tex/latex/glossaries/base/glossaries-prefix.sty
 share/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+share/texmf-dist/tex/latex/glossaries/base/mfirstuc-english.sty
 share/texmf-dist/tex/latex/glossaries/base/mfirstuc.sty
 share/texmf-dist/tex/latex/glossaries/dict/glossaries-dictionary-Brazilian.dict
 share/texmf-dist/tex/latex/glossaries/dict/glossaries-dictionary-Danish.dict
@@ -129,6 +132,18 @@ share/texmf-dist/tex/latex/glossaries/styles/glossary-mcols.sty
 share/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
 share/texmf-dist/tex/latex/glossaries/styles/glossary-superragged.sty
 share/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
+share/texmf-dist/tex/latex/glossaries/test-entries/example-glossaries-acronym-desc.tex
+share/texmf-dist/tex/latex/glossaries/test-entries/example-glossaries-acronym.tex
+share/texmf-dist/tex/latex/glossaries/test-entries/example-glossaries-acronyms-lang.tex
+share/texmf-dist/tex/latex/glossaries/test-entries/example-glossaries-brief.tex
+share/texmf-dist/tex/latex/glossaries/test-entries/example-glossaries-childnoname.tex
+share/texmf-dist/tex/latex/glossaries/test-entries/example-glossaries-cite.tex
+share/texmf-dist/tex/latex/glossaries/test-entries/example-glossaries-images.tex
+share/texmf-dist/tex/latex/glossaries/test-entries/example-glossaries-long.tex
+share/texmf-dist/tex/latex/glossaries/test-entries/example-glossaries-multipar.tex
+share/texmf-dist/tex/latex/glossaries/test-entries/example-glossaries-parent.tex
+share/texmf-dist/tex/latex/glossaries/test-entries/example-glossaries-symbols.tex
+@dirrmtry share/texmf-dist/tex/latex/glossaries/test-entries
 @dirrmtry share/texmf-dist/tex/latex/glossaries/styles
 @dirrmtry share/texmf-dist/tex/latex/glossaries/expl
 @dirrmtry share/texmf-dist/tex/latex/glossaries/dict
@@ -136,8 +151,6 @@ share/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 @dirrmtry share/texmf-dist/tex/latex/glossaries
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/latex/yathesis/glossaries
-@dirrmtry share/texmf-dist/source/latex/yathesis
 @dirrmtry share/texmf-dist/source/latex/glossaries
 @dirrmtry share/texmf-dist/source/latex
 @dirrmtry share/texmf-dist/source

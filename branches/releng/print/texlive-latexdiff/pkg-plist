@@ -5,7 +5,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/latexrevise.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/latexrevise.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/README
+%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/contrib/README.latexchanges
+%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/contrib/latexchanges.py
+%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/contrib/latexdiff-wrap
+%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/contrib/latexdiff.spec
 %%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/doc/example-diff.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/doc/latexdiff-man.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/doc/latexdiff-man.tex
@@ -15,6 +20,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/latexdiff-fast
 @dirrmtry share/texmf-dist/doc/support/latexdiff/example
 @dirrmtry share/texmf-dist/doc/support/latexdiff/doc
+@dirrmtry share/texmf-dist/doc/support/latexdiff/contrib
 @dirrmtry share/texmf-dist/doc/support/latexdiff
 @dirrmtry share/texmf-dist/doc/support
 @dirrmtry share/texmf-dist/doc/man/man1
