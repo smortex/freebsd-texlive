@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	scheme-small
-PORTVERSION=	20140418
+PORTVERSION=	20140805
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -186,12 +186,16 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xevlna/xevlna.sty:${PORTSDIR}/print/texlive-xevlna \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xltxtra/xltxtra.sty:${PORTSDIR}/print/texlive-xltxtra \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xunicode/xunicode.sty:${PORTSDIR}/print/texlive-xunicode \
+		${LOCALBASE}/share/texmf-dist/fonts/source/jknappen/ec/ecbi.mf:${PORTSDIR}/print/texlive-ec \
+		${LOCALBASE}/share/texmf-dist/tex/latex/eurosym/eurosym.sty:${PORTSDIR}/print/texlive-eurosym \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/lualibs/lualibs-basic.lua:${PORTSDIR}/print/texlive-lualibs \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luaotfload/luaotfload.sty:${PORTSDIR}/print/texlive-luaotfload \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexbase/luatexbase.sty:${PORTSDIR}/print/texlive-luatexbase \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/revtex/aipauth4-1.bst:${PORTSDIR}/print/texlive-revtex \
 		${LOCALBASE}/share/texmf-dist/dvips/times/config.utm:${PORTSDIR}/print/texlive-times \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tipa/tipa.sty:${PORTSDIR}/print/texlive-tipa \
+		${LOCALBASE}/share/texmf-dist/tex/generic/ulem/ulem.sty:${PORTSDIR}/print/texlive-ulem \
+		${LOCALBASE}/share/texmf-dist/tex/latex/upquote/upquote.sty:${PORTSDIR}/print/texlive-upquote \
 		${LOCALBASE}/share/texmf-dist/dvips/zapfding/config.uzd:${PORTSDIR}/print/texlive-zapfding \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-basque/basque.ldf:${PORTSDIR}/print/texlive-babel-basque \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-czech/czech.ldf:${PORTSDIR}/print/texlive-babel-czech \
