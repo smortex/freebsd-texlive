@@ -2,6 +2,36 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/eledmac.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/eledpar.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/columns-alignment.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/columns-alignment.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/cross-referencing.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/cross-referencing.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/indexing.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/indexing.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/minimal-parallels.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/minimal-parallels.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/minimal-verses.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/minimal-verses.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/parallel-column-two-languages.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/parallel-column-two-languages.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/sections-not-in-line-numbering.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/sections-not-in-line-numbering.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/sections-parallel-not-in-line-numbering.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/sections-parallel-not-in-line-numbering.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/sections-with-critical-notes-in-parallel-columns.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/sections-with-critical-notes-in-parallel-columns.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/sections-with-critical-notes-in-parallel-pages.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/sections-with-critical-notes-in-parallel-pages.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/sections-with-critical-notes.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/sections-with-critical-notes.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/side-notes.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/side-notes.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/spaces-around-footnote-rule.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/spaces-around-footnote-rule.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/text-between-verses-in-parallel.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/text-between-verses-in-parallel.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/latexmkrc
 %%PORTSRC%%share/texmf-dist/source/latex/eledmac/eledmac.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/eledmac/eledmac.ins
 %%PORTSRC%%share/texmf-dist/source/latex/eledmac/eledpar.dtx
@@ -14,6 +44,7 @@ share/texmf-dist/tex/latex/eledmac/eledpar.sty
 @dirrmtry share/texmf-dist/source/latex/eledmac
 @dirrmtry share/texmf-dist/source/latex
 @dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/eledmac/examples
 @dirrmtry share/texmf-dist/doc/latex/eledmac
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc
