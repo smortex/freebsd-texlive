@@ -1,0 +1,21 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/breqn/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/breqn/breqn.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/breqn/flexisym.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/breqn/mathstyle.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/breqn/breqn.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/breqn/flexisym.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/breqn/mathstyle.dtx
+share/texmf-dist/tex/latex/breqn/breqn.sty
+share/texmf-dist/tex/latex/breqn/flexisym.sty
+share/texmf-dist/tex/latex/breqn/mathstyle.sty
+@dirrmtry share/texmf-dist/tex/latex/breqn
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/breqn
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/breqn
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
