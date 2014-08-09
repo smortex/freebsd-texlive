@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	mh
-PORTVERSION=	20140524
-PORTEPOCH=	1
+PORTNAME=	komacv
+PORTVERSION=	20140808
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The MH bundle
+COMMENT=	Typesetting a beuatiful CV with various style options.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
