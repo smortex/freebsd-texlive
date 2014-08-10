@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	eledmac
+PORTNAME=	mugsthesis
 PORTVERSION=	20140809
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset scholarly editions.
+COMMENT=	Thesis class complying with Marquette University Graduate School requirements.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

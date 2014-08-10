@@ -1,0 +1,26 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/mugsthesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/mugsthesis/mugsthesis.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mugsthesis/sample/abstract.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mugsthesis/sample/acknowledgments.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mugsthesis/sample/appendix1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mugsthesis/sample/ch01.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mugsthesis/sample/ch02.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mugsthesis/sample/dedication.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mugsthesis/sample/mugsthesis_sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mugsthesis/sample/mugsthesis_sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mugsthesis/sample/refs.bib
+%%PORTSRC%%share/texmf-dist/source/latex/mugsthesis/mugsthesis.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/mugsthesis/mugsthesis.ins
+share/texmf-dist/tex/latex/mugsthesis/mugsthesis.cls
+@dirrmtry share/texmf-dist/tex/latex/mugsthesis
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/mugsthesis
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/mugsthesis/sample
+@dirrmtry share/texmf-dist/doc/latex/mugsthesis
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
