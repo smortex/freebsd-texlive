@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	clrscode3e
 PORTVERSION=	20140810
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	Typesets pseudocode as in Introduction to Algorithms.
 
 NOPORTSRC=	yes
 

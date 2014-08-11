@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/clrscode3e/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/clrscode3e/README.TEXLIVE
+share/texmf-dist/tex/latex/clrscode3e/clrscode3e.sty
+@dirrmtry share/texmf-dist/tex/latex/clrscode3e
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/clrscode3e
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
