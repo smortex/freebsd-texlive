@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-science
-PORTVERSION=	20140721
+PORTVERSION=	20140810
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -87,6 +87,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemschemex/chemschemex.sty:${PORTSDIR}/print/texlive-chemschemex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemstyle/chemstyle.sty:${PORTSDIR}/print/texlive-chemstyle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/clrscode/clrscode.sty:${PORTSDIR}/print/texlive-clrscode \
+		${LOCALBASE}/share/texmf-dist/tex/latex/clrscode3e/clrscode3e.sty:${PORTSDIR}/print/texlive-clrscode3e \
 		${LOCALBASE}/share/texmf-dist/tex/latex/complexity/complexity.sty:${PORTSDIR}/print/texlive-complexity \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/computational-complexity/journals.bib:${PORTSDIR}/print/texlive-computational-complexity \
 		${LOCALBASE}/share/texmf-dist/tex/latex/digiconfigs/digiconfigs.sty:${PORTSDIR}/print/texlive-digiconfigs \
