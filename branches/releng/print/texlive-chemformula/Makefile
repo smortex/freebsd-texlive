@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	chemmacros
+PORTNAME=	chemformula
 PORTVERSION=	20140811
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A collection of macros to support typesetting chemistry documents.
+COMMENT=	Command for typesetting chemical formulas and reactions.
 
 NOPORTSRC=	yes
 

@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemformula/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemformula/chemformula_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/chemformula/chemformula_en.tex
+share/texmf-dist/tex/latex/chemformula/chemformula.sty
+@dirrmtry share/texmf-dist/tex/latex/chemformula
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/chemformula
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
