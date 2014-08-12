@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	chemmacros
+PORTNAME=	chemgreek
 PORTVERSION=	20140811
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A collection of macros to support typesetting chemistry documents.
+COMMENT=	Upright Greek letters in chemistry.
 
 NOPORTSRC=	yes
 

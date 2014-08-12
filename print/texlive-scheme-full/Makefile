@@ -351,7 +351,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/dvips/grotesq/config.ugq:${PORTSDIR}/print/texlive-grotesq \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hacm/hacm.sty:${PORTSDIR}/print/texlive-hacm \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/hands/hands.mf:${PORTSDIR}/print/texlive-hands \
-		${LOCALBASE}/share/texmf-dist/tex/latex/heuristica/heuristica.sty:${PORTSDIR}/print/texlive-heuristica \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/heuristica/zut_3dqfwv.enc:${PORTSDIR}/print/texlive-heuristica \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/hfbright/hfbr10.afm:${PORTSDIR}/print/texlive-hfbright \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hfoldsty/hfoldsty.sty:${PORTSDIR}/print/texlive-hfoldsty \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifsym/ifsym.sty:${PORTSDIR}/print/texlive-ifsym \
@@ -2355,6 +2355,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemcompounds/chemcompounds.sty:${PORTSDIR}/print/texlive-chemcompounds \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemcono/chemcono.sty:${PORTSDIR}/print/texlive-chemcono \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemexec/chemexec.sty:${PORTSDIR}/print/texlive-chemexec \
+		${LOCALBASE}/share/texmf-dist/tex/latex/chemformula/chemformula.sty:${PORTSDIR}/print/texlive-chemformula \
+		${LOCALBASE}/share/texmf-dist/tex/latex/chemgreek/chemgreek.sty:${PORTSDIR}/print/texlive-chemgreek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemmacros/chemmacros.sty:${PORTSDIR}/print/texlive-chemmacros \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemnum/chemnum.sty:${PORTSDIR}/print/texlive-chemnum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chemschemex/chemschemex.sty:${PORTSDIR}/print/texlive-chemschemex \
@@ -2374,6 +2376,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/galois/galois.sty:${PORTSDIR}/print/texlive-galois \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gastex/gastex.sty:${PORTSDIR}/print/texlive-gastex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gene-logic/gn-logic14.sty:${PORTSDIR}/print/texlive-gene-logic \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ghsystem/ghsystem.sty:${PORTSDIR}/print/texlive-ghsystem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gu/gu.sty:${PORTSDIR}/print/texlive-gu \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hep/hep.sty:${PORTSDIR}/print/texlive-hep \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hepnames/hepnames.sty:${PORTSDIR}/print/texlive-hepnames \
