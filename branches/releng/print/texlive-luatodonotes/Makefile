@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	leipzig
+PORTNAME=	luatodonotes
 PORTVERSION=	20140812
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset and index linguistic gloss abbreviations.
+COMMENT=	Add editing annotations in a LuaLaTeX document.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
