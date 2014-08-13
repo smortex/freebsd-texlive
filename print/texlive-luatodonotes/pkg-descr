@@ -1,0 +1,7 @@
+The package allows the user to insert comments into a document
+that suggest (for example) further editing that may be needed.
+The comments are shown in the margins alongside the text;
+different styles for the comments may be used; the styles are
+selected using package options. The package is based on the
+package todonotes, and depends heavily on Lua, so it can only
+be used with LuaLaTeX.

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-luatex
-PORTVERSION=	20140418
+PORTVERSION=	20140812
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -54,13 +54,14 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luaindex/luaindex.sty:${PORTSDIR}/print/texlive-luaindex \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luainputenc/luainputenc.sty:${PORTSDIR}/print/texlive-luainputenc \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.sty:${PORTSDIR}/print/texlive-lualatex-math \
-		${LOCALBASE}/share/texmf-dist/tex/luatex/lualibs/lualibs-basic-merged.lua:${PORTSDIR}/print/texlive-lualibs \
+		${LOCALBASE}/share/texmf-dist/tex/luatex/lualibs/lualibs-basic.lua:${PORTSDIR}/print/texlive-lualibs \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luamplib/luamplib.sty:${PORTSDIR}/print/texlive-luamplib \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luaotfload/luaotfload.sty:${PORTSDIR}/print/texlive-luaotfload \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luasseq/luasseq.sty:${PORTSDIR}/print/texlive-luasseq \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexbase/luatexbase.sty:${PORTSDIR}/print/texlive-luatexbase \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexko/luatexko.sty:${PORTSDIR}/print/texlive-luatexko \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luatextra/luatextra.sty:${PORTSDIR}/print/texlive-luatextra \
+		${LOCALBASE}/share/texmf-dist/tex/lualatex/luatodonotes/luatodonotes.sty:${PORTSDIR}/print/texlive-luatodonotes \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luaxml/dom-sample.lua:${PORTSDIR}/print/texlive-luaxml \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/odsfile/odsfile.sty:${PORTSDIR}/print/texlive-odsfile \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/placeat/placeat.sty:${PORTSDIR}/print/texlive-placeat \

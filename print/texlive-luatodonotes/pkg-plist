@@ -1,0 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luatodonotes/README
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luatodonotes/luatodonotes.pdf
+%%PORTSRC%%share/texmf-dist/source/lualatex/luatodonotes/luatodonotes.dtx
+%%PORTSRC%%share/texmf-dist/source/lualatex/luatodonotes/luatodonotes.ins
+share/texmf-dist/tex/lualatex/luatodonotes/inspect.lua
+share/texmf-dist/tex/lualatex/luatodonotes/luatodonotes.lua
+share/texmf-dist/tex/lualatex/luatodonotes/luatodonotes.sty
+share/texmf-dist/tex/lualatex/luatodonotes/path_line.lua
+share/texmf-dist/tex/lualatex/luatodonotes/path_point.lua
+@dirrmtry share/texmf-dist/tex/lualatex/luatodonotes
+@dirrmtry share/texmf-dist/tex/lualatex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/lualatex/luatodonotes
+@dirrmtry share/texmf-dist/source/lualatex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/lualatex/luatodonotes
+@dirrmtry share/texmf-dist/doc/lualatex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

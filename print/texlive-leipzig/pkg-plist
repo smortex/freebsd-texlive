@@ -1,10 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/leipzig/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/leipzig/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/leipzig/leipzig.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/leipzig/leipzig.tex
 %%PORTSRC%%share/texmf-dist/source/latex/leipzig/leipzig.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/leipzig/leipzig.ins
 share/texmf-dist/tex/latex/leipzig/leipzig.sty
+share/texmf-dist/tex/latex/leipzig/leipzig.tex
 @dirrmtry share/texmf-dist/tex/latex/leipzig
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
