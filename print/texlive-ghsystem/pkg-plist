@@ -2,7 +2,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/ghsystem/ghsystem_en.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/ghsystem/ghsystem_en.tex
 share/texmf-dist/tex/latex/ghsystem/ghsystem.sty
-share/texmf-dist/tex/latex/ghsystem/language/.directory
 share/texmf-dist/tex/latex/ghsystem/language/ghsystem_english.def
 share/texmf-dist/tex/latex/ghsystem/language/ghsystem_german.def
 share/texmf-dist/tex/latex/ghsystem/language/ghsystem_italian-2-slash.def
@@ -12,7 +11,6 @@ share/texmf-dist/tex/latex/ghsystem/language/ghsystem_langtemplate.def
 share/texmf-dist/tex/latex/ghsystem/language/ghsystem_langtemplate.def.backup
 share/texmf-dist/tex/latex/ghsystem/language/ghsystem_ngerman.def
 share/texmf-dist/tex/latex/ghsystem/language/ghsystem_spanish.def
-share/texmf-dist/tex/latex/ghsystem/pictures/.directory
 share/texmf-dist/tex/latex/ghsystem/pictures/ghsystem_acid-8.aux
 share/texmf-dist/tex/latex/ghsystem/pictures/ghsystem_acid-8.eps
 share/texmf-dist/tex/latex/ghsystem/pictures/ghsystem_acid-8.jpg

@@ -6,6 +6,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/getmap/makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/getmap/manifest.txt
 share/texmf-dist/scripts/getmap/getmapdl.lua
+share/texmf-dist/scripts/getmap/gpx2gps
 share/texmf-dist/tex/latex/getmap/getmap.cfg
 share/texmf-dist/tex/latex/getmap/getmap.sty
 @dirrmtry share/texmf-dist/tex/latex/getmap
