@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/assoccnt/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/assoccnt/assoccnt_example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/assoccnt/assoccnt_example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/assoccnt/assoccntdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/assoccnt/assoccntdoc.tex
+share/texmf-dist/tex/latex/assoccnt/assoccnt.sty
+@dirrmtry share/texmf-dist/tex/latex/assoccnt
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/assoccnt
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
