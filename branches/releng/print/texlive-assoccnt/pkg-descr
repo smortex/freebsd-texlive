@@ -1,0 +1,2 @@
+The package provides the means of declaring a set of counters
+to be stepped, each time some 'master' counter is stepped.

@@ -1,14 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	luaotfload
+PORTNAME=	assoccnt
 PORTVERSION=	20140815
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	OpenType 'loader' for Plain TeX and LaTeX.
+COMMENT=	Associate counters, making them step when a master steps.
 
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
-
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

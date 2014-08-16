@@ -8,6 +8,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/cross-referencing.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/indexing.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/indexing.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/line-numbers-in-header.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/line-numbers-in-header.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/minimal-parallels.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/minimal-parallels.tex
@@ -29,6 +31,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/side-notes.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/spaces-around-footnote-rule.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/spaces-around-footnote-rule.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/tabular.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/tabular.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/text-between-verses-in-parallel.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/text-between-verses-in-parallel.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/latexmkrc
