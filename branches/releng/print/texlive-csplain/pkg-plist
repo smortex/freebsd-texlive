@@ -21,6 +21,7 @@ share/texmf-dist/tex/csplain/base/skhyphen.tex
 share/texmf-dist/tex/csplain/base/t1code.tex
 share/texmf-dist/tex/csplain/base/t1enc-u.tex
 share/texmf-dist/tex/csplain/base/ucode.tex
+share/texmf-dist/tex/csplain/base/uni-lcuc.tex
 share/texmf-dist/tex/csplain/base/xeplain.ini
 share/texmf-dist/tex/csplain/fonts/ams-math.tex
 share/texmf-dist/tex/csplain/fonts/cavantga.tex
@@ -49,6 +50,7 @@ share/texmf-dist/tex/csplain/fonts/ecfonts.tex
 share/texmf-dist/tex/csplain/fonts/exchars.tex
 share/texmf-dist/tex/csplain/fonts/lmfonts.tex
 share/texmf-dist/tex/csplain/fonts/luafonts.tex
+share/texmf-dist/tex/csplain/fonts/ntx-math.tex
 share/texmf-dist/tex/csplain/fonts/tx-math.tex
 share/texmf-dist/tex/csplain/fonts/unifam.tex
 share/texmf-dist/tex/csplain/opmac/opmac-bib-iso690.tex
