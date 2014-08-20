@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	achemso
+PORTNAME=	bangorcsthesis
 PORTVERSION=	20140819
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for American Chemical Society journal submissions.
+COMMENT=	Typeset a thesis at Bangor University.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

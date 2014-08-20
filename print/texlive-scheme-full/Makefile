@@ -279,6 +279,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/calligra/callig15.mf:${PORTSDIR}/print/texlive-calligra \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/calligra-type1/callig15.afm:${PORTSDIR}/print/texlive-calligra-type1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cantarell/cantarell.sty:${PORTSDIR}/print/texlive-cantarell \
+		${LOCALBASE}/share/texmf-dist/tex/latex/carlito/carlito.sty:${PORTSDIR}/print/texlive-carlito \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/carolmin-ps/cmin10.afm:${PORTSDIR}/print/texlive-carolmin-ps \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ccicons/ccicons.sty:${PORTSDIR}/print/texlive-ccicons \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cfr-lm/cfr-lm.sty:${PORTSDIR}/print/texlive-cfr-lm \
@@ -1055,6 +1056,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/arrayjobx/arrayjobx.sty:${PORTSDIR}/print/texlive-arrayjobx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arraysort/arraysort.sty:${PORTSDIR}/print/texlive-arraysort \
 		${LOCALBASE}/share/texmf-dist/tex/latex/assignment/assignment.cls:${PORTSDIR}/print/texlive-assignment \
+		${LOCALBASE}/share/texmf-dist/tex/latex/assoccnt/assoccnt.sty:${PORTSDIR}/print/texlive-assoccnt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/attachfile/attachfile.sty:${PORTSDIR}/print/texlive-attachfile \
 		${LOCALBASE}/share/texmf-dist/tex/latex/autopdf/autopdf.sty:${PORTSDIR}/print/texlive-autopdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/authoraftertitle/authoraftertitle.sty:${PORTSDIR}/print/texlive-authoraftertitle \
@@ -1983,6 +1985,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexbase/luatexbase.sty:${PORTSDIR}/print/texlive-luatexbase \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexko/luatexko.sty:${PORTSDIR}/print/texlive-luatexko \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luatextra/luatextra.sty:${PORTSDIR}/print/texlive-luatextra \
+		${LOCALBASE}/share/texmf-dist/tex/lualatex/luatodonotes/luatodonotes.sty:${PORTSDIR}/print/texlive-luatodonotes \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luaxml/dom-sample.lua:${PORTSDIR}/print/texlive-luaxml \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/odsfile/odsfile.sty:${PORTSDIR}/print/texlive-odsfile \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/placeat/placeat.sty:${PORTSDIR}/print/texlive-placeat \
@@ -2231,6 +2234,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/articleingud/articleingud.cls:${PORTSDIR}/print/texlive-articleingud \
 		${LOCALBASE}/share/texmf-dist/tex/latex/asaetr/asaetr.cls:${PORTSDIR}/print/texlive-asaetr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ascelike/ascelike.cls:${PORTSDIR}/print/texlive-ascelike \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bangorcsthesis/bangorcsthesis.cls:${PORTSDIR}/print/texlive-bangorcsthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamer-FUBerlin/FUbeamer.cls:${PORTSDIR}/print/texlive-beamer-FUBerlin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bgteubner/bgteubner.cls:${PORTSDIR}/print/texlive-bgteubner \
 		${LOCALBASE}/share/texmf-dist/tex/latex/brandeis-dissertation/brandeis-dissertation.cls:${PORTSDIR}/print/texlive-brandeis-dissertation \

@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bangorcsthesis/Bangor-Logo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/bangorcsthesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/bangorcsthesis/bangorcsthesis.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/bangorcsthesis/bangorcsthesis.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/bangorcsthesis/bangorcsthesis.ins
+share/texmf-dist/tex/latex/bangorcsthesis/bangorcsthesis.cls
+@dirrmtry share/texmf-dist/tex/latex/bangorcsthesis
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/bangorcsthesis
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/bangorcsthesis
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20140721
+PORTVERSION=	20140819
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -82,6 +82,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/calligra/callig15.mf:${PORTSDIR}/print/texlive-calligra \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/calligra-type1/callig15.afm:${PORTSDIR}/print/texlive-calligra-type1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cantarell/cantarell.sty:${PORTSDIR}/print/texlive-cantarell \
+		${LOCALBASE}/share/texmf-dist/tex/latex/carlito/carlito.sty:${PORTSDIR}/print/texlive-carlito \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/carolmin-ps/cmin10.afm:${PORTSDIR}/print/texlive-carolmin-ps \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ccicons/ccicons.sty:${PORTSDIR}/print/texlive-ccicons \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cfr-lm/cfr-lm.sty:${PORTSDIR}/print/texlive-cfr-lm \
@@ -154,7 +155,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/dvips/grotesq/config.ugq:${PORTSDIR}/print/texlive-grotesq \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hacm/hacm.sty:${PORTSDIR}/print/texlive-hacm \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/hands/hands.mf:${PORTSDIR}/print/texlive-hands \
-		${LOCALBASE}/share/texmf-dist/tex/latex/heuristica/heuristica.sty:${PORTSDIR}/print/texlive-heuristica \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/heuristica/zut_3dqfwv.enc:${PORTSDIR}/print/texlive-heuristica \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/hfbright/hfbr10.afm:${PORTSDIR}/print/texlive-hfbright \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hfoldsty/hfoldsty.sty:${PORTSDIR}/print/texlive-hfoldsty \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifsym/ifsym.sty:${PORTSDIR}/print/texlive-ifsym \
