@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	bangorcsthesis
+PORTNAME=	blox
 PORTVERSION=	20140821
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset a thesis at Bangor University.
+COMMENT=	Draw block diagrams, using TikZ.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

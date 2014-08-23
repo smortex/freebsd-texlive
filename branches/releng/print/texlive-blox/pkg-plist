@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/blox/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/blox/bloX.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/blox/bloX.dtx
+share/texmf-dist/tex/latex/blox/bloX.sty
+@dirrmtry share/texmf-dist/tex/latex/blox
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/blox
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/blox
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

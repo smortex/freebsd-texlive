@@ -479,6 +479,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/autoarea/autoarea.sty:${PORTSDIR}/print/texlive-autoarea \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bardiag/bardiag.sty:${PORTSDIR}/print/texlive-bardiag \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bloques/bloques.sty:${PORTSDIR}/print/texlive-bloques \
+		${LOCALBASE}/share/texmf-dist/tex/latex/blox/bloX.sty:${PORTSDIR}/print/texlive-blox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bodegraph/bodegraph.sty:${PORTSDIR}/print/texlive-bodegraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bondgraph/bondgraph.sty:${PORTSDIR}/print/texlive-bondgraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/braids/braids.sty:${PORTSDIR}/print/texlive-braids \
@@ -686,9 +687,10 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-sigsys/pst-sigsys.tex:${PORTSDIR}/print/texlive-pst-sigsys \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-slpe/pst-slpe.tex:${PORTSDIR}/print/texlive-pst-slpe \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-solarsystem/pst-solarsystem.tex:${PORTSDIR}/print/texlive-pst-solarsystem \
-		${LOCALBASE}/share/texmf-dist/tex/generic/pst-spectra/pst-spectra.tex:${PORTSDIR}/print/texlive-pst-spectra \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-solides3d/pst-solides3d.tex:${PORTSDIR}/print/texlive-pst-solides3d \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-soroban/pst-soroban.sty:${PORTSDIR}/print/texlive-pst-soroban \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-spectra/pst-spectra.tex:${PORTSDIR}/print/texlive-pst-spectra \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-spirograph/pst-spirograph.tex:${PORTSDIR}/print/texlive-pst-spirograph \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-stru/pst-stru.tex:${PORTSDIR}/print/texlive-pst-stru \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-text/pst-text.tex:${PORTSDIR}/print/texlive-pst-text \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-thick/pst-thick.tex:${PORTSDIR}/print/texlive-pst-thick \

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20140725
+PORTVERSION=	20140821
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -49,6 +49,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/autoarea/autoarea.sty:${PORTSDIR}/print/texlive-autoarea \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bardiag/bardiag.sty:${PORTSDIR}/print/texlive-bardiag \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bloques/bloques.sty:${PORTSDIR}/print/texlive-bloques \
+		${LOCALBASE}/share/texmf-dist/tex/latex/blox/bloX.sty:${PORTSDIR}/print/texlive-blox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bodegraph/bodegraph.sty:${PORTSDIR}/print/texlive-bodegraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bondgraph/bondgraph.sty:${PORTSDIR}/print/texlive-bondgraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/braids/braids.sty:${PORTSDIR}/print/texlive-braids \

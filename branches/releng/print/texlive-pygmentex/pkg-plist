@@ -1,0 +1,23 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pygmentex/Factorial.java
+%%PORTDOCS%%share/texmf-dist/doc/latex/pygmentex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pygmentex/blueshade.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/pygmentex/demo.c
+%%PORTDOCS%%share/texmf-dist/doc/latex/pygmentex/demo.delphi
+%%PORTDOCS%%share/texmf-dist/doc/latex/pygmentex/demo.hs
+%%PORTDOCS%%share/texmf-dist/doc/latex/pygmentex/demo.java
+%%PORTDOCS%%share/texmf-dist/doc/latex/pygmentex/demo.pas
+%%PORTDOCS%%share/texmf-dist/doc/latex/pygmentex/demo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pygmentex/demo.py
+%%PORTDOCS%%share/texmf-dist/doc/latex/pygmentex/demo.tex
+share/texmf-dist/scripts/pygmentex/pygmentex.py
+share/texmf-dist/tex/latex/pygmentex/pygmentex.sty
+@dirrmtry share/texmf-dist/tex/latex/pygmentex
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/scripts/pygmentex
+@dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/doc/latex/pygmentex
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
