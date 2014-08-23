@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-pstricks
-PORTVERSION=	20140726
+PORTVERSION=	20140821
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -121,9 +121,10 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-sigsys/pst-sigsys.tex:${PORTSDIR}/print/texlive-pst-sigsys \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-slpe/pst-slpe.tex:${PORTSDIR}/print/texlive-pst-slpe \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-solarsystem/pst-solarsystem.tex:${PORTSDIR}/print/texlive-pst-solarsystem \
-		${LOCALBASE}/share/texmf-dist/tex/generic/pst-spectra/pst-spectra.tex:${PORTSDIR}/print/texlive-pst-spectra \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-solides3d/pst-solides3d.tex:${PORTSDIR}/print/texlive-pst-solides3d \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-soroban/pst-soroban.sty:${PORTSDIR}/print/texlive-pst-soroban \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-spectra/pst-spectra.tex:${PORTSDIR}/print/texlive-pst-spectra \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-spirograph/pst-spirograph.tex:${PORTSDIR}/print/texlive-pst-spirograph \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-stru/pst-stru.tex:${PORTSDIR}/print/texlive-pst-stru \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-text/pst-text.tex:${PORTSDIR}/print/texlive-pst-text \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-thick/pst-thick.tex:${PORTSDIR}/print/texlive-pst-thick \

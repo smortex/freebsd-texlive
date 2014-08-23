@@ -1,0 +1,5 @@
+PygmenTeX is a Python-based LaTeX package that can be used for
+typesetting code listings in a LaTeX document using Pygments.
+Pygments is a generic syntax highlighter for general use in all
+kinds of software such as forum systems, wikis or other
+applications that need to prettify source code.

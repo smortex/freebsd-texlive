@@ -1,0 +1,3 @@
+This package, along with TikZ, will typeset block diagrams for
+use with programming and control theory. It is an English
+translation of the schemabloc package.

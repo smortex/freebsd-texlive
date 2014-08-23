@@ -1,0 +1,31 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-spirograph/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-spirograph/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-spirograph/animation/README.anim
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-spirograph/animation/anim1.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-spirograph/animation/anim2.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-spirograph/animation/anim3.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-spirograph/animation/anim4.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-spirograph/animation/anim5.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-spirograph/animation/anim6.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-spirograph/animation/anim7.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-spirograph/animation/anim8.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-spirograph/animation/runall.sh
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-spirograph/pst-spirograph-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-spirograph/pst-spirograph-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-spirograph/pst-spirograph-doc.tex
+share/texmf-dist/dvips/pst-spirograph/pst-spirograph.pro
+share/texmf-dist/tex/generic/pst-spirograph/pst-spirograph.tex
+share/texmf-dist/tex/latex/pst-spirograph/pst-spirograph.sty
+@dirrmtry share/texmf-dist/tex/latex/pst-spirograph
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex/generic/pst-spirograph
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/dvips/pst-spirograph
+@dirrmtry share/texmf-dist/dvips
+@dirrmtry share/texmf-dist/doc/generic/pst-spirograph/animation
+@dirrmtry share/texmf-dist/doc/generic/pst-spirograph
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
