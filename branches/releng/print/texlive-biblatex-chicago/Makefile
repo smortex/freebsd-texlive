@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-chicago
-PORTVERSION=	20140819
+PORTVERSION=	20140823
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
