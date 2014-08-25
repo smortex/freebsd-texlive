@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	pst-spirograph
-PORTVERSION=	20140821
+PORTVERSION=	20140824
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
