@@ -1,5 +1,4 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/poetrytex/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/poetrytex/poetrytex-style.sty
 %%PORTDOCS%%share/texmf-dist/doc/latex/poetrytex/poetrytex.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/poetrytex/poetrytex.top
 %%PORTSRC%%share/texmf-dist/source/latex/poetrytex/Makefile

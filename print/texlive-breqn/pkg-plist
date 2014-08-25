@@ -6,8 +6,12 @@
 %%PORTSRC%%share/texmf-dist/source/latex/breqn/flexisym.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/breqn/mathstyle.dtx
 share/texmf-dist/tex/latex/breqn/breqn.sty
+share/texmf-dist/tex/latex/breqn/cmbase.sym
 share/texmf-dist/tex/latex/breqn/flexisym.sty
+share/texmf-dist/tex/latex/breqn/mathpazo.sym
+share/texmf-dist/tex/latex/breqn/mathptmx.sym
 share/texmf-dist/tex/latex/breqn/mathstyle.sty
+share/texmf-dist/tex/latex/breqn/msabm.sym
 @dirrmtry share/texmf-dist/tex/latex/breqn
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
