@@ -639,7 +639,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/ghab/ghab.sty:${PORTSDIR}/print/texlive-ghab \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/imsproc/imsproc.cls:${PORTSDIR}/print/texlive-imsproc \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/persian-bib/acm-fa.bst:${PORTSDIR}/print/texlive-persian-bib \
-		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/persian-modern/persian-modern-bold.ttf:${PORTSDIR}/print/texlive-persian-modern \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/simurgh/simurgh.sty:${PORTSDIR}/print/texlive-simurgh \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tram/tram.sty:${PORTSDIR}/print/texlive-tram \
 		${LOCALBASE}/share/texmf-dist/fonts/cmap/adobemapping/LICENSE:${PORTSDIR}/print/texlive-adobemapping \
@@ -906,7 +905,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/autoarea/autoarea.sty:${PORTSDIR}/print/texlive-autoarea \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bardiag/bardiag.sty:${PORTSDIR}/print/texlive-bardiag \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bloques/bloques.sty:${PORTSDIR}/print/texlive-bloques \
-		${LOCALBASE}/share/texmf-dist/tex/latex/blox/bloX.sty:${PORTSDIR}/print/texlive-blox \
+		${LOCALBASE}/share/texmf-dist/tex/latex/blox/blox.sty:${PORTSDIR}/print/texlive-blox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bodegraph/bodegraph.sty:${PORTSDIR}/print/texlive-bodegraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bondgraph/bondgraph.sty:${PORTSDIR}/print/texlive-bondgraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/braids/braids.sty:${PORTSDIR}/print/texlive-braids \
