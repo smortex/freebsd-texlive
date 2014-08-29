@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20140819
+PORTVERSION=	20140827
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -75,6 +75,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/acmconf/acmconf.cls:${PORTSDIR}/print/texlive-acmconf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/active-conf/active-conf.cls:${PORTSDIR}/print/texlive-active-conf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/adfathesis/adfathesis.cls:${PORTSDIR}/print/texlive-adfathesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/afparticle/afparticle.cls:${PORTSDIR}/print/texlive-afparticle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/afthesis/afthesis.cls:${PORTSDIR}/print/texlive-afthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/aguplus/aguplus.cls:${PORTSDIR}/print/texlive-aguplus \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/aiaa/aiaa.bst:${PORTSDIR}/print/texlive-aiaa \

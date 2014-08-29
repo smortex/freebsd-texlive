@@ -4,6 +4,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/bundledoc.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/bundledoc/README
 share/texmf-dist/tex/latex/bundledoc/miktex.cfg
+share/texmf-dist/tex/latex/bundledoc/texlive-unix-arlatex.cfg
 share/texmf-dist/tex/latex/bundledoc/texlive-unix.cfg
 @dirrmtry share/texmf-dist/tex/latex/bundledoc
 @dirrmtry share/texmf-dist/tex/latex

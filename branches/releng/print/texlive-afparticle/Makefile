@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	xepersian
+PORTNAME=	afparticle
 PORTVERSION=	20140827
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Persian for LaTeX, using XeTeX.
+COMMENT=	Typesetting articles for Archives of Forensic Psychology
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
