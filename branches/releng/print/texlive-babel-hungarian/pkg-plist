@@ -1,6 +1,10 @@
-share/texmf-dist/tex/latex/babel-hungarian/magyar.ldf
-@dirrmtry share/texmf-dist/tex/latex/babel-hungarian
-@dirrmtry share/texmf-dist/tex/latex
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-hungarian/README
+share/texmf-dist/tex/generic/babel-hungarian/magyar.ldf
+@dirrmtry share/texmf-dist/tex/generic/babel-hungarian
+@dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/generic/babel-hungarian
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

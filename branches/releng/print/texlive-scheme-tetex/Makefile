@@ -218,7 +218,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-estonian/estonian.ldf:${PORTSDIR}/print/texlive-babel-estonian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-finnish/finnish.ldf:${PORTSDIR}/print/texlive-babel-finnish \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-friulan/friulan.ldf:${PORTSDIR}/print/texlive-babel-friulan \
-		${LOCALBASE}/share/texmf-dist/tex/latex/babel-hungarian/magyar.ldf:${PORTSDIR}/print/texlive-babel-hungarian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/babel-hungarian/magyar.ldf:${PORTSDIR}/print/texlive-babel-hungarian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-icelandic/icelandic.ldf:${PORTSDIR}/print/texlive-babel-icelandic \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-irish/irish.ldf:${PORTSDIR}/print/texlive-babel-irish \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-kurmanji/kurmanji.ldf:${PORTSDIR}/print/texlive-babel-kurmanji \
@@ -479,7 +479,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/autoarea/autoarea.sty:${PORTSDIR}/print/texlive-autoarea \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bardiag/bardiag.sty:${PORTSDIR}/print/texlive-bardiag \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bloques/bloques.sty:${PORTSDIR}/print/texlive-bloques \
-		${LOCALBASE}/share/texmf-dist/tex/latex/blox/bloX.sty:${PORTSDIR}/print/texlive-blox \
+		${LOCALBASE}/share/texmf-dist/tex/latex/blox/blox.sty:${PORTSDIR}/print/texlive-blox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bodegraph/bodegraph.sty:${PORTSDIR}/print/texlive-bodegraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bondgraph/bondgraph.sty:${PORTSDIR}/print/texlive-bondgraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/braids/braids.sty:${PORTSDIR}/print/texlive-braids \
