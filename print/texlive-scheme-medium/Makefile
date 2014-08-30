@@ -212,7 +212,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-estonian/estonian.ldf:${PORTSDIR}/print/texlive-babel-estonian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-finnish/finnish.ldf:${PORTSDIR}/print/texlive-babel-finnish \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-friulan/friulan.ldf:${PORTSDIR}/print/texlive-babel-friulan \
-		${LOCALBASE}/share/texmf-dist/tex/latex/babel-hungarian/magyar.ldf:${PORTSDIR}/print/texlive-babel-hungarian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/babel-hungarian/magyar.ldf:${PORTSDIR}/print/texlive-babel-hungarian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-icelandic/icelandic.ldf:${PORTSDIR}/print/texlive-babel-icelandic \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-irish/irish.ldf:${PORTSDIR}/print/texlive-babel-irish \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-kurmanji/kurmanji.ldf:${PORTSDIR}/print/texlive-babel-kurmanji \
@@ -355,6 +355,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexbase/luatexbase.sty:${PORTSDIR}/print/texlive-luatexbase \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexko/luatexko.sty:${PORTSDIR}/print/texlive-luatexko \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luatextra/luatextra.sty:${PORTSDIR}/print/texlive-luatextra \
+		${LOCALBASE}/share/texmf-dist/tex/lualatex/luatodonotes/luatodonotes.sty:${PORTSDIR}/print/texlive-luatodonotes \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luaxml/dom-sample.lua:${PORTSDIR}/print/texlive-luaxml \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/odsfile/odsfile.sty:${PORTSDIR}/print/texlive-odsfile \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/placeat/placeat.sty:${PORTSDIR}/print/texlive-placeat \

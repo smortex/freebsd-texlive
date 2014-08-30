@@ -143,6 +143,7 @@ share/texmf-dist/tex/latex/glossaries/test-entries/example-glossaries-long.tex
 share/texmf-dist/tex/latex/glossaries/test-entries/example-glossaries-multipar.tex
 share/texmf-dist/tex/latex/glossaries/test-entries/example-glossaries-parent.tex
 share/texmf-dist/tex/latex/glossaries/test-entries/example-glossaries-symbols.tex
+share/texmf-dist/tex/latex/glossaries/test-entries/example-glossaries-url.tex
 @dirrmtry share/texmf-dist/tex/latex/glossaries/test-entries
 @dirrmtry share/texmf-dist/tex/latex/glossaries/styles
 @dirrmtry share/texmf-dist/tex/latex/glossaries/expl

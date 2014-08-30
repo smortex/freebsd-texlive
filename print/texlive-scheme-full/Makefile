@@ -702,7 +702,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-estonian/estonian.ldf:${PORTSDIR}/print/texlive-babel-estonian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-finnish/finnish.ldf:${PORTSDIR}/print/texlive-babel-finnish \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-friulan/friulan.ldf:${PORTSDIR}/print/texlive-babel-friulan \
-		${LOCALBASE}/share/texmf-dist/tex/latex/babel-hungarian/magyar.ldf:${PORTSDIR}/print/texlive-babel-hungarian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/babel-hungarian/magyar.ldf:${PORTSDIR}/print/texlive-babel-hungarian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-icelandic/icelandic.ldf:${PORTSDIR}/print/texlive-babel-icelandic \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-irish/irish.ldf:${PORTSDIR}/print/texlive-babel-irish \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-kurmanji/kurmanji.ldf:${PORTSDIR}/print/texlive-babel-kurmanji \
@@ -2224,6 +2224,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/acmconf/acmconf.cls:${PORTSDIR}/print/texlive-acmconf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/active-conf/active-conf.cls:${PORTSDIR}/print/texlive-active-conf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/adfathesis/adfathesis.cls:${PORTSDIR}/print/texlive-adfathesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/afparticle/afparticle.cls:${PORTSDIR}/print/texlive-afparticle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/afthesis/afthesis.cls:${PORTSDIR}/print/texlive-afthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/aguplus/aguplus.cls:${PORTSDIR}/print/texlive-aguplus \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/aiaa/aiaa.bst:${PORTSDIR}/print/texlive-aiaa \
