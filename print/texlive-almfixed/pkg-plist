@@ -1,0 +1,30 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/almfixed/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/almfixed/Unibook_0600.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/almfixed/Unibook_0750.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/almfixed/Unibook_08A0.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/almfixed/Unibook_FB50-1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/almfixed/Unibook_FB50-2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/almfixed/Unibook_FB50-3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/almfixed/Unibook_FE70.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/almfixed/almfixed-dtk.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/almfixed/almfixed-dtk.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/almfixed/almmono10-sample-crop.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/almfixed/aristoteles.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/almfixed/fawaid-427-crop.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/almfixed/ilahiyyat-1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/almfixed/sc-unipad.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/almfixed/wa.pdf
+share/texmf-dist/fonts/opentype/public/almfixed/almfixed.otf
+share/texmf-dist/fonts/truetype/public/almfixed/almfixed.ttf
+@dirrmtry share/texmf-dist/fonts/truetype/public/almfixed
+@dirrmtry share/texmf-dist/fonts/truetype/public
+@dirrmtry share/texmf-dist/fonts/truetype
+@dirrmtry share/texmf-dist/fonts/opentype/public/almfixed
+@dirrmtry share/texmf-dist/fonts/opentype/public
+@dirrmtry share/texmf-dist/fonts/opentype
+@dirrmtry share/texmf-dist/fonts
+@dirrmtry share/texmf-dist/doc/fonts/almfixed
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
