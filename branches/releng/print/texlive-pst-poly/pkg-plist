@@ -3,7 +3,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-poly/pst-poly-doc.bib
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-poly/pst-poly-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-poly/pst-poly-doc.tex
-%%PORTSRC%%share/texmf-dist/source/generic/pst-poly/Makefile
 share/texmf-dist/tex/generic/pst-poly/pst-poly.tex
 share/texmf-dist/tex/latex/pst-poly/pst-poly.sty
 @dirrmtry share/texmf-dist/tex/latex/pst-poly
@@ -11,9 +10,6 @@ share/texmf-dist/tex/latex/pst-poly/pst-poly.sty
 @dirrmtry share/texmf-dist/tex/generic/pst-poly
 @dirrmtry share/texmf-dist/tex/generic
 @dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/generic/pst-poly
-@dirrmtry share/texmf-dist/source/generic
-@dirrmtry share/texmf-dist/source
 @dirrmtry share/texmf-dist/doc/generic/pst-poly
 @dirrmtry share/texmf-dist/doc/generic
 @dirrmtry share/texmf-dist/doc
