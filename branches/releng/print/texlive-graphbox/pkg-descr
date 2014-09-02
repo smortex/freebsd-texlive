@@ -1,0 +1,8 @@
+Graphbox is an extension of the standard graphicx LaTeX2e
+package to allow the placement of graphics relative to the
+"current position" using additional optional arguments of
+\includegraphics. For example, changing the vertical alignment
+is convenient for using graphics as elements of (mathematical)
+formulae. Options for shifting, smashing and hiding the
+graphics may be useful in support, for example, of the beamer
+framework.

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20140815
+PORTVERSION=	20140901
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -125,6 +125,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/autoarea/autoarea.sty:${PORTSDIR}/print/texlive-autoarea \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bardiag/bardiag.sty:${PORTSDIR}/print/texlive-bardiag \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bloques/bloques.sty:${PORTSDIR}/print/texlive-bloques \
+		${LOCALBASE}/share/texmf-dist/tex/latex/blox/blox.sty:${PORTSDIR}/print/texlive-blox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bodegraph/bodegraph.sty:${PORTSDIR}/print/texlive-bodegraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bondgraph/bondgraph.sty:${PORTSDIR}/print/texlive-bondgraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/braids/braids.sty:${PORTSDIR}/print/texlive-braids \
@@ -597,6 +598,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmiflink/gmiflink.sty:${PORTSDIR}/print/texlive-gmiflink \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmutils/gmutils.sty:${PORTSDIR}/print/texlive-gmutils \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmverb/gmverb.sty:${PORTSDIR}/print/texlive-gmverb \
+		${LOCALBASE}/share/texmf-dist/tex/latex/graphbox/graphbox.sty:${PORTSDIR}/print/texlive-graphbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/graphicx-psmin/graphicx-psmin.sty:${PORTSDIR}/print/texlive-graphicx-psmin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/graphicxbox/graphicxbox.sty:${PORTSDIR}/print/texlive-graphicxbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/grfpaste/grfpaste.sty:${PORTSDIR}/print/texlive-grfpaste \
