@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/graphbox/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/graphbox/gboxsamp.mps
+%%PORTDOCS%%share/texmf-dist/doc/latex/graphbox/gboxsamp.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/graphbox/graphbox.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/graphbox/graphbox.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/graphbox/graphbox.ins
+share/texmf-dist/tex/latex/graphbox/graphbox.sty
+@dirrmtry share/texmf-dist/tex/latex/graphbox
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/graphbox
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/graphbox
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
