@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-science
-PORTVERSION=	20140821
+PORTVERSION=	20140902
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -123,6 +123,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/pygmentex/pygmentex.sty:${PORTSDIR}/print/texlive-pygmentex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sasnrdisplay/SASnRdisplay.cfg:${PORTSDIR}/print/texlive-sasnrdisplay \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sciposter/sciposter.cls:${PORTSDIR}/print/texlive-sciposter \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sclang-prettifier/sclang-prettifier.sty:${PORTSDIR}/print/texlive-sclang-prettifier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sfg/sfg.sty:${PORTSDIR}/print/texlive-sfg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/siunitx/siunitx.sty:${PORTSDIR}/print/texlive-siunitx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/steinmetz/steinmetz.sty:${PORTSDIR}/print/texlive-steinmetz \

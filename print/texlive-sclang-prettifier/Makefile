@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	pkgloader
+PORTNAME=	sclang-prettifier
 PORTVERSION=	20140902
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Managing the options and loading order of other packages.
+COMMENT=	Prettyprinting SuperCollider source code
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

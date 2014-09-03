@@ -245,6 +245,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/aecc/aecc.sty:${PORTSDIR}/print/texlive-aecc \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/huerta/alegreya/Alegreya-Black.afm:${PORTSDIR}/print/texlive-alegreya \
 		${LOCALBASE}/share/texmf-dist/tex/latex/allrunes/allrunes.sty:${PORTSDIR}/print/texlive-allrunes \
+		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/almfixed/almfixed.otf:${PORTSDIR}/print/texlive-almfixed \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/anonymouspro/AnonymousPro-Bold.afm:${PORTSDIR}/print/texlive-anonymouspro \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/urw/antiqua/uaqr8ac.afm:${PORTSDIR}/print/texlive-antiqua \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/antt/anttb.afm:${PORTSDIR}/print/texlive-antt \
@@ -1371,6 +1372,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/getfiledate/getfiledate.sty:${PORTSDIR}/print/texlive-getfiledate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ginpenc/ginpenc.sty:${PORTSDIR}/print/texlive-ginpenc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gitinfo/gitinfo.sty:${PORTSDIR}/print/texlive-gitinfo \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gitinfo2/gitinfo2.sty:${PORTSDIR}/print/texlive-gitinfo2 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gloss/gloss.sty:${PORTSDIR}/print/texlive-gloss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries/base/glossaries.sty:${PORTSDIR}/print/texlive-glossaries \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmdoc/gmdoc.sty:${PORTSDIR}/print/texlive-gmdoc \
@@ -1378,6 +1380,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmiflink/gmiflink.sty:${PORTSDIR}/print/texlive-gmiflink \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmutils/gmutils.sty:${PORTSDIR}/print/texlive-gmutils \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmverb/gmverb.sty:${PORTSDIR}/print/texlive-gmverb \
+		${LOCALBASE}/share/texmf-dist/tex/latex/graphbox/graphbox.sty:${PORTSDIR}/print/texlive-graphbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/graphicx-psmin/graphicx-psmin.sty:${PORTSDIR}/print/texlive-graphicx-psmin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/graphicxbox/graphicxbox.sty:${PORTSDIR}/print/texlive-graphicxbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/grfpaste/grfpaste.sty:${PORTSDIR}/print/texlive-grfpaste \
@@ -2403,6 +2406,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/pygmentex/pygmentex.sty:${PORTSDIR}/print/texlive-pygmentex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sasnrdisplay/SASnRdisplay.cfg:${PORTSDIR}/print/texlive-sasnrdisplay \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sciposter/sciposter.cls:${PORTSDIR}/print/texlive-sciposter \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sclang-prettifier/sclang-prettifier.sty:${PORTSDIR}/print/texlive-sclang-prettifier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sfg/sfg.sty:${PORTSDIR}/print/texlive-sfg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/siunitx/siunitx.sty:${PORTSDIR}/print/texlive-siunitx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/steinmetz/steinmetz.sty:${PORTSDIR}/print/texlive-steinmetz \
