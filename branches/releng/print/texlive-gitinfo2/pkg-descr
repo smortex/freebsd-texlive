@@ -1,0 +1,8 @@
+The package makes it possible to incorporate git version
+control metadata into documents. For memoir users, the package
+provides the means to tailor page headers and footers to use
+the metadata. gitinfo2 is a new release of gitinfo. The changes
+to version 2 are not backward-compatible, and the package name
+has been changed to avoid impact on existing users'
+repositories. All new repositories should use this version of
+the package.

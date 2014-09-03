@@ -1,0 +1,3 @@
+Built on top of the listings package, the package allows
+effortless prettyprinting of SuperCollider source code in
+documents typeset with LaTeX & friends.

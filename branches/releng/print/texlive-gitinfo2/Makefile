@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	pkgloader
+PORTNAME=	gitinfo2
 PORTVERSION=	20140902
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Managing the options and loading order of other packages.
+COMMENT=	Access metadata from the git distributed version control system.
 
 NOPORTSRC=	yes
 
