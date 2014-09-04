@@ -1,0 +1,5 @@
+This package provides some LaTeX support for the use of
+EBGaramond12 in mathematics. It is based on, and requires,
+ebgaramond. It was created in response to a question at
+http://tex.stackexchange.com/q/152038/ and tested in the form
+of an answer at http://tex.stackexchange.com/a/152347/.

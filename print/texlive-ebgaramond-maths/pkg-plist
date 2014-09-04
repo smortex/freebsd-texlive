@@ -1,0 +1,27 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ebgaramond-maths/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ebgaramond-maths/ebgaramond-maths.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ebgaramond-maths/ebgaramond-maths.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/ebgaramond-maths/manifest.txt
+share/texmf-dist/fonts/enc/dvips/ebgaramond-maths/a_42pejf.enc
+share/texmf-dist/fonts/map/dvips/ebgaramond-maths/EBGaramond-Maths.map
+share/texmf-dist/fonts/tfm/public/ebgaramond-maths/EBGaramond12-Italic--oml-ebgaramond.tfm
+share/texmf-dist/tex/latex/ebgaramond-maths/OMLEBGaramond-Maths.fd
+share/texmf-dist/tex/latex/ebgaramond-maths/ebgaramond-maths.sty
+@dirrmtry share/texmf-dist/tex/latex/ebgaramond-maths
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/fonts/tfm/public/ebgaramond-maths
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
+@dirrmtry share/texmf-dist/fonts/map/dvips/ebgaramond-maths
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts/enc/dvips/ebgaramond-maths
+@dirrmtry share/texmf-dist/fonts/enc/dvips
+@dirrmtry share/texmf-dist/fonts/enc
+@dirrmtry share/texmf-dist/fonts
+@dirrmtry share/texmf-dist/doc/fonts/ebgaramond-maths
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
