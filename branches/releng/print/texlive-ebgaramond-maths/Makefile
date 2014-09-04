@@ -1,12 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	bangorcsthesis
+PORTNAME=	ebgaramond-maths
 PORTVERSION=	20140903
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset a thesis at Bangor University.
+COMMENT=	LaTeX support for EBGaramond fonts in mathematics
 
+NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
