@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	beamerdarkthemes
 PORTVERSION=	20140904
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	Dark color themes for beamer.
 
 NOPORTSRC=	yes
 
