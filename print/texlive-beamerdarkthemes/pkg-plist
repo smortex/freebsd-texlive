@@ -1,0 +1,31 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerdarkthemes/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerdarkthemes/beamerdarkthemesuserguide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerdarkthemes/beamerdarkthemesuserguide.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerdarkthemes/ccby.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerdarkthemes/cormorantexampledefault.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerdarkthemes/cormorantexampleinfolines.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerdarkthemes/cormorantexamplesidebar.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerdarkthemes/cormorantexampletree.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerdarkthemes/dahut.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerdarkthemes/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerdarkthemes/frigatebirdexampledefault.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerdarkthemes/frigatebirdexampleinfolines.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerdarkthemes/frigatebirdexamplesidebar.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerdarkthemes/frigatebirdexampletree.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerdarkthemes/img_5630.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerdarkthemes/magpieexampledefault.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerdarkthemes/magpieexampleinfolines.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerdarkthemes/magpieexamplesidebar.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerdarkthemes/magpieexampletree.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerdarkthemes/makeexamples.sh
+share/texmf-dist/tex/latex/beamerdarkthemes/beamercolorthemecormorant.sty
+share/texmf-dist/tex/latex/beamerdarkthemes/beamercolorthemefrigatebird.sty
+share/texmf-dist/tex/latex/beamerdarkthemes/beamercolorthememagpie.sty
+@dirrmtry share/texmf-dist/tex/latex/beamerdarkthemes
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/beamerdarkthemes
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

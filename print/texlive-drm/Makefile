@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	drm
 PORTVERSION=	20140904
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	A complete family of fonts written in Metafont.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

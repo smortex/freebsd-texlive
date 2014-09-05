@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20140903
+PORTVERSION=	20140904
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -111,6 +111,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/dingbat/dingbat.sty:${PORTSDIR}/print/texlive-dingbat \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/doublestroke/dstroke.map:${PORTSDIR}/print/texlive-doublestroke \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dozenal/dozenal.sty:${PORTSDIR}/print/texlive-dozenal \
+		${LOCALBASE}/share/texmf-dist/tex/latex/drm/drm.sty:${PORTSDIR}/print/texlive-drm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/droid/droid.sty:${PORTSDIR}/print/texlive-droid \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/duerer/cdb10.mf:${PORTSDIR}/print/texlive-duerer \
 		${LOCALBASE}/share/texmf-dist/tex/latex/duerer-latex/duerer.sty:${PORTSDIR}/print/texlive-duerer-latex \

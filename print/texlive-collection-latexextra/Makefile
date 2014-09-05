@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20140902
+PORTVERSION=	20140904
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -288,6 +288,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/bchart/bchart.sty:${PORTSDIR}/print/texlive-bchart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamer2thesis/beamer2thesis.jpg:${PORTSDIR}/print/texlive-beamer2thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beameraudience/beameraudience.sty:${PORTSDIR}/print/texlive-beameraudience \
+		${LOCALBASE}/share/texmf-dist/tex/latex/beamerdarkthemes/beamercolorthemecormorant.sty:${PORTSDIR}/print/texlive-beamerdarkthemes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerposter/beamerposter.sty:${PORTSDIR}/print/texlive-beamerposter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamersubframe/beamersubframe.sty:${PORTSDIR}/print/texlive-beamersubframe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-upenn-bc/beamercolorthemegoeagles.sty:${PORTSDIR}/print/texlive-beamertheme-upenn-bc \

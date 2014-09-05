@@ -308,12 +308,14 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/dingbat/dingbat.sty:${PORTSDIR}/print/texlive-dingbat \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/doublestroke/dstroke.map:${PORTSDIR}/print/texlive-doublestroke \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dozenal/dozenal.sty:${PORTSDIR}/print/texlive-dozenal \
+		${LOCALBASE}/share/texmf-dist/tex/latex/drm/drm.sty:${PORTSDIR}/print/texlive-drm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/droid/droid.sty:${PORTSDIR}/print/texlive-droid \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/duerer/cdb10.mf:${PORTSDIR}/print/texlive-duerer \
 		${LOCALBASE}/share/texmf-dist/tex/latex/duerer-latex/duerer.sty:${PORTSDIR}/print/texlive-duerer-latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dutchcal/dutchcal.sty:${PORTSDIR}/print/texlive-dutchcal \
 		${LOCALBASE}/share/texmf-dist/tex/generic/ean/ean13.tex:${PORTSDIR}/print/texlive-ean \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebgaramond/ebgaramond.sty:${PORTSDIR}/print/texlive-ebgaramond \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ebgaramond-maths/ebgaramond-maths.sty:${PORTSDIR}/print/texlive-ebgaramond-maths \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/ecc/conc10pt.mf:${PORTSDIR}/print/texlive-ecc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eco/eco.sty:${PORTSDIR}/print/texlive-eco \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/eiad/eiadb10.mf:${PORTSDIR}/print/texlive-eiad \
@@ -1069,6 +1071,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/bchart/bchart.sty:${PORTSDIR}/print/texlive-bchart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamer2thesis/beamer2thesis.jpg:${PORTSDIR}/print/texlive-beamer2thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beameraudience/beameraudience.sty:${PORTSDIR}/print/texlive-beameraudience \
+		${LOCALBASE}/share/texmf-dist/tex/latex/beamerdarkthemes/beamercolorthemecormorant.sty:${PORTSDIR}/print/texlive-beamerdarkthemes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerposter/beamerposter.sty:${PORTSDIR}/print/texlive-beamerposter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamersubframe/beamersubframe.sty:${PORTSDIR}/print/texlive-beamersubframe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-upenn-bc/beamercolorthemegoeagles.sty:${PORTSDIR}/print/texlive-beamertheme-upenn-bc \
