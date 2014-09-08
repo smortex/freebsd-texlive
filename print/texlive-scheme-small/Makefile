@@ -92,6 +92,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex:${PORTSDIR}/print/texlive-l3kernel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty:${PORTSDIR}/print/texlive-l3packages \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3experimental/l3sort/l3sort.sty:${PORTSDIR}/print/texlive-l3experimental \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lineno/lineno.sty:${PORTSDIR}/print/texlive-lineno \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listings/listings.sty:${PORTSDIR}/print/texlive-listings \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathtools/mathtools.sty:${PORTSDIR}/print/texlive-mathtools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdwtools/at.sty:${PORTSDIR}/print/texlive-mdwtools \
@@ -206,7 +207,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-french/frenchb.ldf:${PORTSDIR}/print/texlive-babel-french \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-german/austrian.ldf:${PORTSDIR}/print/texlive-babel-german \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyphen/dehyphn.tex:${PORTSDIR}/print/texlive-hyphen-german \
-		${LOCALBASE}/share/texmf-dist/tex/latex/babel-hungarian/magyar.ldf:${PORTSDIR}/print/texlive-babel-hungarian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/babel-hungarian/magyar.ldf:${PORTSDIR}/print/texlive-babel-hungarian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-italian/italian.ldf:${PORTSDIR}/print/texlive-babel-italian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-norsk/norsk.ldf:${PORTSDIR}/print/texlive-babel-norsk \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-polish/polish.ldf:${PORTSDIR}/print/texlive-babel-polish \

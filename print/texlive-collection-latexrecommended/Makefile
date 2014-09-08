@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexrecommended
-PORTVERSION=	20140808
+PORTVERSION=	20140907
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -93,6 +93,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex:${PORTSDIR}/print/texlive-l3kernel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty:${PORTSDIR}/print/texlive-l3packages \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3experimental/l3sort/l3sort.sty:${PORTSDIR}/print/texlive-l3experimental \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lineno/lineno.sty:${PORTSDIR}/print/texlive-lineno \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listings/listings.sty:${PORTSDIR}/print/texlive-listings \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathtools/mathtools.sty:${PORTSDIR}/print/texlive-mathtools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdwtools/at.sty:${PORTSDIR}/print/texlive-mdwtools \
