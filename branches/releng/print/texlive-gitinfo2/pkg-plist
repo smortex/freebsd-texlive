@@ -3,6 +3,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/gitinfo2/gitinfo2.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/gitinfo2/gitinfo2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/gitinfo2/gitinfotest.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/gitinfo2/post-xxx-sample.txt
 share/texmf-dist/tex/latex/gitinfo2/gitexinfo.sty
 share/texmf-dist/tex/latex/gitinfo2/gitinfo2.sty
 @dirrmtry share/texmf-dist/tex/latex/gitinfo2
