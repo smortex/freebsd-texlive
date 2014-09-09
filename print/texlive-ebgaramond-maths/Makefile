@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	ebgaramond-maths
-PORTVERSION=	20140903
+PORTVERSION=	20140908
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
