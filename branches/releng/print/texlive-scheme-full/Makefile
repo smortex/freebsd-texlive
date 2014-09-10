@@ -584,8 +584,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/xmltex/passivetex/dummyels.sty:${PORTSDIR}/print/texlive-passivetex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/tex4ht/tex4ht.sty:${PORTSDIR}/print/texlive-tex4ht \
 		${LOCALBASE}/share/texmf-dist/tex/xmltex/base/xmltex.tex:${PORTSDIR}/print/texlive-xmltex \
-		${LOCALBASE}/share/texmf-dist/tex/latex/alnumsec/alnumsec.sty:${PORTSDIR}/print/texlive-alnumsec \
-		${LOCALBASE}/share/texmf-dist/tex/latex/arydshln/arydshln.sty:${PORTSDIR}/print/texlive-arydshln \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref/bibleref.sty:${PORTSDIR}/print/texlive-bibleref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-lds/bibleref-lds.sty:${PORTSDIR}/print/texlive-bibleref-lds \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-mouth/bibleref-mouth.sty:${PORTSDIR}/print/texlive-bibleref-mouth \
@@ -609,7 +607,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/leipzig/leipzig.sty:${PORTSDIR}/print/texlive-leipzig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lexikon/lexikon.sty:${PORTSDIR}/print/texlive-lexikon \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lexref/lexref.sty:${PORTSDIR}/print/texlive-lexref \
-		${LOCALBASE}/share/texmf-dist/tex/latex/lineno/lineno.sty:${PORTSDIR}/print/texlive-lineno \
 		${LOCALBASE}/share/texmf-dist/tex/latex/linguex/linguex.sty:${PORTSDIR}/print/texlive-linguex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/liturg/liturg.sty:${PORTSDIR}/print/texlive-liturg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/metrix/metrix.sty:${PORTSDIR}/print/texlive-metrix \
@@ -875,6 +872,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex:${PORTSDIR}/print/texlive-l3kernel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty:${PORTSDIR}/print/texlive-l3packages \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3experimental/l3sort/l3sort.sty:${PORTSDIR}/print/texlive-l3experimental \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lineno/lineno.sty:${PORTSDIR}/print/texlive-lineno \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listings/listings.sty:${PORTSDIR}/print/texlive-listings \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathtools/mathtools.sty:${PORTSDIR}/print/texlive-mathtools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdwtools/at.sty:${PORTSDIR}/print/texlive-mdwtools \
@@ -1046,6 +1044,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/advdate/advdate.sty:${PORTSDIR}/print/texlive-advdate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/akktex/akktex.sty:${PORTSDIR}/print/texlive-akktex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/akletter/akletter.cls:${PORTSDIR}/print/texlive-akletter \
+		${LOCALBASE}/share/texmf-dist/tex/latex/alnumsec/alnumsec.sty:${PORTSDIR}/print/texlive-alnumsec \
 		${LOCALBASE}/share/texmf-dist/tex/latex/alterqcm/alterqcm.sty:${PORTSDIR}/print/texlive-alterqcm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/altfont/altfont.sty:${PORTSDIR}/print/texlive-altfont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsaddr/amsaddr.sty:${PORTSDIR}/print/texlive-amsaddr \
@@ -1059,6 +1058,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/arcs/arcs.sty:${PORTSDIR}/print/texlive-arcs \
 		${LOCALBASE}/share/texmf-dist/tex/generic/arrayjobx/arrayjobx.sty:${PORTSDIR}/print/texlive-arrayjobx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arraysort/arraysort.sty:${PORTSDIR}/print/texlive-arraysort \
+		${LOCALBASE}/share/texmf-dist/tex/latex/arydshln/arydshln.sty:${PORTSDIR}/print/texlive-arydshln \
 		${LOCALBASE}/share/texmf-dist/tex/latex/assignment/assignment.cls:${PORTSDIR}/print/texlive-assignment \
 		${LOCALBASE}/share/texmf-dist/tex/latex/assoccnt/assoccnt.sty:${PORTSDIR}/print/texlive-assoccnt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/attachfile/attachfile.sty:${PORTSDIR}/print/texlive-attachfile \

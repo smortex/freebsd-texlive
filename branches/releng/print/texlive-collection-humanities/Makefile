@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-humanities
-PORTVERSION=	20140907
+PORTVERSION=	20140909
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -68,8 +68,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/pspicture/pspicture.sty:${PORTSDIR}/print/texlive-pspicture \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tools/.tex:${PORTSDIR}/print/texlive-tools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/url/url.sty:${PORTSDIR}/print/texlive-url \
-		${LOCALBASE}/share/texmf-dist/tex/latex/alnumsec/alnumsec.sty:${PORTSDIR}/print/texlive-alnumsec \
-		${LOCALBASE}/share/texmf-dist/tex/latex/arydshln/arydshln.sty:${PORTSDIR}/print/texlive-arydshln \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref/bibleref.sty:${PORTSDIR}/print/texlive-bibleref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-lds/bibleref-lds.sty:${PORTSDIR}/print/texlive-bibleref-lds \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-mouth/bibleref-mouth.sty:${PORTSDIR}/print/texlive-bibleref-mouth \

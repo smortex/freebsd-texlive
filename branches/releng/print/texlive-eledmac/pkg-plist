@@ -37,6 +37,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/text-between-verses-in-parallel.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/latexmkrc
 %%PORTSRC%%share/texmf-dist/source/latex/eledmac/eledmac.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/eledmac/eledmac.dtx.BACKUP.629.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/eledmac/eledmac.dtx.BASE.629.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/eledmac/eledmac.dtx.LOCAL.629.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/eledmac/eledmac.dtx.REMOTE.629.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/eledmac/eledmac.ins
 %%PORTSRC%%share/texmf-dist/source/latex/eledmac/eledpar.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/eledmac/eledpar.ins
