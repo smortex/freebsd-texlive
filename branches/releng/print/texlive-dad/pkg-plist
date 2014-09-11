@@ -1,0 +1,56 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dad/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dad/dad-to-utf8.pl
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dad/dad-user-guide.bib
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dad/dad-user-guide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dad/dad-user-guide.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dad/dad.adjust
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dad/dadbold.adjust
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dad/dadmono.adjust
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dad/make-dad-font.pl
+%%PORTDOCS%%share/texmf-dist/doc/fonts/dad/utf8-to-dad.pl
+share/texmf-dist/fonts/afm/public/dad/Dad-bold.afm
+share/texmf-dist/fonts/afm/public/dad/Dad-mono.afm
+share/texmf-dist/fonts/afm/public/dad/Dad.afm
+share/texmf-dist/fonts/map/dvips/dad/dad.map
+share/texmf-dist/fonts/ofm/public/dad/dad.ofm
+share/texmf-dist/fonts/ofm/public/dad/dadbold.ofm
+share/texmf-dist/fonts/ofm/public/dad/dadmono.ofm
+share/texmf-dist/fonts/ovf/public/dad/dad.ovf
+share/texmf-dist/fonts/ovf/public/dad/dadbold.ovf
+share/texmf-dist/fonts/ovf/public/dad/dadmono.ovf
+share/texmf-dist/fonts/tfm/public/dad/dadreal.tfm
+share/texmf-dist/fonts/tfm/public/dad/dadrealbold.tfm
+share/texmf-dist/fonts/tfm/public/dad/dadrealmono.tfm
+share/texmf-dist/fonts/type1/public/dad/Dad-bold.pfb
+share/texmf-dist/fonts/type1/public/dad/Dad-mono.pfb
+share/texmf-dist/fonts/type1/public/dad/Dad.pfb
+share/texmf-dist/tex/lualatex/dad/OT1dad.fd
+share/texmf-dist/tex/lualatex/dad/T1dad.fd
+share/texmf-dist/tex/lualatex/dad/dad.sty
+@dirrmtry share/texmf-dist/tex/lualatex/dad
+@dirrmtry share/texmf-dist/tex/lualatex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/fonts/type1/public/dad
+@dirrmtry share/texmf-dist/fonts/type1/public
+@dirrmtry share/texmf-dist/fonts/type1
+@dirrmtry share/texmf-dist/fonts/tfm/public/dad
+@dirrmtry share/texmf-dist/fonts/tfm/public
+@dirrmtry share/texmf-dist/fonts/tfm
+@dirrmtry share/texmf-dist/fonts/ovf/public/dad
+@dirrmtry share/texmf-dist/fonts/ovf/public
+@dirrmtry share/texmf-dist/fonts/ovf
+@dirrmtry share/texmf-dist/fonts/ofm/public/dad
+@dirrmtry share/texmf-dist/fonts/ofm/public
+@dirrmtry share/texmf-dist/fonts/ofm
+@dirrmtry share/texmf-dist/fonts/map/dvips/dad
+@dirrmtry share/texmf-dist/fonts/map/dvips
+@dirrmtry share/texmf-dist/fonts/map
+@dirrmtry share/texmf-dist/fonts/afm/public/dad
+@dirrmtry share/texmf-dist/fonts/afm/public
+@dirrmtry share/texmf-dist/fonts/afm
+@dirrmtry share/texmf-dist/fonts
+@dirrmtry share/texmf-dist/doc/fonts/dad
+@dirrmtry share/texmf-dist/doc/fonts
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
