@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	fbb
+PORTNAME=	pressrelease
 PORTVERSION=	20140911
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A free Bembo-like font.
+COMMENT=	A class for typesetting press releases.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
