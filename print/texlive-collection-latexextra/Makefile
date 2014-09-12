@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20140909
+PORTVERSION=	20140911
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -896,6 +896,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/poster-mac/poster.sty:${PORTSDIR}/print/texlive-poster-mac \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ppr-prv/ppr-prv.cls:${PORTSDIR}/print/texlive-ppr-prv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/preprint/authblk.sty:${PORTSDIR}/print/texlive-preprint \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pressrelease/pressrelease.cls:${PORTSDIR}/print/texlive-pressrelease \
 		${LOCALBASE}/share/texmf-dist/tex/latex/prettyref/prettyref.sty:${PORTSDIR}/print/texlive-prettyref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/preview/preview.sty:${PORTSDIR}/print/texlive-preview \
 		${LOCALBASE}/share/texmf-dist/tex/latex/printlen/printlen.sty:${PORTSDIR}/print/texlive-printlen \

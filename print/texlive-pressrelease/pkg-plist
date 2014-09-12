@@ -1,0 +1,33 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/pressrelease/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/latex/pressrelease/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pressrelease/pressrelease.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pressrelease/samples/sample-pressrelease.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pressrelease/samples/sample-pressrelease.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pressrelease/samples/sample-pressrelease2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pressrelease/samples/sample-pressrelease2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pressrelease/samples/sample-pressrelease3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pressrelease/samples/sample-pressrelease3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pressrelease/samples/sample-pressrelease4.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pressrelease/samples/sample-pressrelease4.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pressrelease/samples/sample-pressrelease5.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pressrelease/samples/sample-pressrelease5.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pressrelease/samples/sample-pressrelease6.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pressrelease/samples/sample-pressrelease6.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pressrelease/samples/sample-pressrelease7.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pressrelease/samples/sample-pressrelease7.tex
+%%PORTSRC%%share/texmf-dist/source/latex/pressrelease/pressrelease.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/pressrelease/pressrelease.ins
+share/texmf-dist/tex/latex/pressrelease/pressrelease-symbols.sty
+share/texmf-dist/tex/latex/pressrelease/pressrelease.cls
+@dirrmtry share/texmf-dist/tex/latex/pressrelease
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/pressrelease
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/pressrelease/samples
+@dirrmtry share/texmf-dist/doc/latex/pressrelease
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
