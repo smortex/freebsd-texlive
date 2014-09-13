@@ -2,8 +2,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/pgfmolbio/SampleGff.gff
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/pgfmolbio/SampleScf.scf
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/pgfmolbio/SampleUniprot.txt
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/pgfmolbio/pgfmolbio.lua
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/pgfmolbio/pgfmolbio.pdf
+share/texmf-dist/scripts/pgfmolbio/pgfmolbio.lua
 %%PORTSRC%%share/texmf-dist/source/lualatex/pgfmolbio/pgfmolbio.dtx
 %%PORTSRC%%share/texmf-dist/source/lualatex/pgfmolbio/pgfmolbio.ins
 share/texmf-dist/tex/lualatex/pgfmolbio/pgfmolbio.chromatogram.lua
@@ -18,6 +18,8 @@ share/texmf-dist/tex/lualatex/pgfmolbio/pgfmolbio.sty
 @dirrmtry share/texmf-dist/source/lualatex/pgfmolbio
 @dirrmtry share/texmf-dist/source/lualatex
 @dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/scripts/pgfmolbio
+@dirrmtry share/texmf-dist/scripts
 @dirrmtry share/texmf-dist/doc/lualatex/pgfmolbio
 @dirrmtry share/texmf-dist/doc/lualatex
 @dirrmtry share/texmf-dist/doc

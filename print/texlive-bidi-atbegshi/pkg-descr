@@ -1,0 +1,5 @@
+The package adds some commands to the 'atbegshi' package for
+proper placement of background material in the left and right
+corners of the output page, in both LTR and RTL modes. The
+package only works with 'xelatex' format and should be loaded
+before the 'bidi' package.

@@ -1,0 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidi-atbegshi/README
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidi-atbegshi/bidi-atbegshi-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidi-atbegshi/bidi-atbegshi-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidi-atbegshi/test-LTR.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidi-atbegshi/test-LTR.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidi-atbegshi/test-RTL.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidi-atbegshi/test-RTL.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidi-atbegshi/test-foreground-LTR.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidi-atbegshi/test-foreground-LTR.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidi-atbegshi/test-foreground-RTL.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidi-atbegshi/test-foreground-RTL.tex
+share/texmf-dist/tex/xelatex/bidi-atbegshi/bidi-atbegshi.sty
+@dirrmtry share/texmf-dist/tex/xelatex/bidi-atbegshi
+@dirrmtry share/texmf-dist/tex/xelatex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/xelatex/bidi-atbegshi
+@dirrmtry share/texmf-dist/doc/xelatex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
