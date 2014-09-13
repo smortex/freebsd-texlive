@@ -1,13 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	dvips
+PORTNAME=	bidi-atbegshi
 PORTVERSION=	20140912
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A DVI to PostScript driver.
-
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
+COMMENT=	Bidi-aware shipout macros.
 
 NOPORTSRC=	yes
 

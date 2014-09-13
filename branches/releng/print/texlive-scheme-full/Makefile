@@ -636,6 +636,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arabi/arabeyes/ae_almohanad_boldItalitalic.afm:${PORTSDIR}/print/texlive-arabi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arabtex/arabtex.sty:${PORTSDIR}/print/texlive-arabtex \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidi/bidi.sty:${PORTSDIR}/print/texlive-bidi \
+		${LOCALBASE}/share/texmf-dist/tex/lualatex/dad/dad.sty:${PORTSDIR}/print/texlive-dad \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ghab/ghab.sty:${PORTSDIR}/print/texlive-ghab \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/imsproc/imsproc.cls:${PORTSDIR}/print/texlive-imsproc \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/persian-bib/acm-fa.bst:${PORTSDIR}/print/texlive-persian-bib \
@@ -1676,6 +1677,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/poster-mac/poster.sty:${PORTSDIR}/print/texlive-poster-mac \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ppr-prv/ppr-prv.cls:${PORTSDIR}/print/texlive-ppr-prv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/preprint/authblk.sty:${PORTSDIR}/print/texlive-preprint \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pressrelease/pressrelease.cls:${PORTSDIR}/print/texlive-pressrelease \
 		${LOCALBASE}/share/texmf-dist/tex/latex/prettyref/prettyref.sty:${PORTSDIR}/print/texlive-prettyref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/preview/preview.sty:${PORTSDIR}/print/texlive-preview \
 		${LOCALBASE}/share/texmf-dist/tex/latex/printlen/printlen.sty:${PORTSDIR}/print/texlive-printlen \
@@ -1914,7 +1916,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/undolabl/undolabl.sty:${PORTSDIR}/print/texlive-undolabl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/units/units.sty:${PORTSDIR}/print/texlive-units \
 		${LOCALBASE}/share/texmf-dist/tex/latex/unravel/unravel.sty:${PORTSDIR}/print/texlive-unravel \
-		${LOCALBASE}/share/texmf-dist/tex/latex/upmethodology/UPMVERSION.def:${PORTSDIR}/print/texlive-upmethodology \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/upmethodology/upmplainnat.bst:${PORTSDIR}/print/texlive-upmethodology \
 		${LOCALBASE}/share/texmf-dist/tex/latex/upquote/upquote.sty:${PORTSDIR}/print/texlive-upquote \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uri/uri.sty:${PORTSDIR}/print/texlive-uri \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ushort/ushort.sty:${PORTSDIR}/print/texlive-ushort \
@@ -2422,6 +2424,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/xymtex/base/xymtex.sty:${PORTSDIR}/print/texlive-xymtex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/youngtab/youngtab.sty:${PORTSDIR}/print/texlive-youngtab \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/arabxetex/arabxetex.sty:${PORTSDIR}/print/texlive-arabxetex \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidi-atbegshi/bidi-atbegshi.sty:${PORTSDIR}/print/texlive-bidi-atbegshi \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidicontour/bidicontour.sty:${PORTSDIR}/print/texlive-bidicontour \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidipagegrid/bidipagegrid.sty:${PORTSDIR}/print/texlive-bidipagegrid \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidishadowtext/bidishadowtext.sty:${PORTSDIR}/print/texlive-bidishadowtext \
