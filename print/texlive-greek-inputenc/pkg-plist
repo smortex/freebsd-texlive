@@ -1,10 +1,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-inputenc/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-inputenc/README.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/greek-inputenc/greek-utf8.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/greek-inputenc/greek-utf8.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-inputenc/lgrenc.dfu.html
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-inputenc/test-iso-8859-7.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-inputenc/test-iso-8859-7.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/greek-inputenc/test-utf8.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/greek-inputenc/test-utf8.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/greek-inputenc/unicode-licr.txt
 share/texmf-dist/tex/latex/greek-inputenc/iso-8859-7.def
 share/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu
 share/texmf-dist/tex/latex/greek-inputenc/macgreek.def
