@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	guitarchordschemes
-PORTVERSION=	20140418
+PORTVERSION=	20140916
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
