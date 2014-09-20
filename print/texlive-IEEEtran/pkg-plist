@@ -16,6 +16,7 @@ share/texmf-dist/bibtex/bst/IEEEtran/IEEEtranSN.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/README.tools
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/bare_adv.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/bare_conf.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/bare_conf_compsoc.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/bare_jrnl.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/bare_jrnl_compsoc.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/bare_jrnl_transmag.tex
@@ -25,12 +26,14 @@ share/texmf-dist/bibtex/bst/IEEEtran/IEEEtranSN.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/testflow_ctl_A4.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/testflow_ctl_LTR.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/testflow_doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/tools/changelog.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/tux.eps
 share/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
 share/texmf-dist/tex/latex/IEEEtran/IEEEtrantools.sty
 @dirrmtry share/texmf-dist/tex/latex/IEEEtran
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/latex/IEEEtran/tools
 @dirrmtry share/texmf-dist/doc/latex/IEEEtran
 @dirrmtry share/texmf-dist/doc/latex
 @dirrmtry share/texmf-dist/doc

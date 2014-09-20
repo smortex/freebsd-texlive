@@ -15,6 +15,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/minimal-parallels.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/minimal-verses.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/minimal-verses.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/mixing-columns-and-not-columns.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/mixing-columns-and-not-columns.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/parallel-column-two-languages.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/parallel-column-two-languages.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/sections-not-in-line-numbering.pdf
