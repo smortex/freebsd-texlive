@@ -1,4 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/xq/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/fonts/xq/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/fonts/xq/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/xq/bugs-0-3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/xq/bugs-0-3.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/xq/xqexample.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/xq/xqexample.tex
 share/texmf-dist/fonts/source/public/xq/xqaddsignsbase.mf
