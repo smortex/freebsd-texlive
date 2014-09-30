@@ -1,0 +1,5 @@
+The package extends eTeX \numexpr...\relax operation to allow
+big integers. Package option allowpower furthermore enables ^
+for power operations. By default, the package uses the
+arithmetic macros from xint (with / doing rounded division for
+compatibility with \numexpr).
