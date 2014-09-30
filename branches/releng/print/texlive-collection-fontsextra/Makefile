@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20140904
+PORTVERSION=	20140924
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -105,6 +105,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/cryst/cryst.afm:${PORTSDIR}/print/texlive-cryst \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cyklop/cyklop.sty:${PORTSDIR}/print/texlive-cyklop \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/dancers/dancers.mf:${PORTSDIR}/print/texlive-dancers \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dantelogo/dantelogo.sty:${PORTSDIR}/print/texlive-dantelogo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dejavu/dejavu.sty:${PORTSDIR}/print/texlive-dejavu \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/dice/dice3d.mf:${PORTSDIR}/print/texlive-dice \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dictsym/dictsym.sty:${PORTSDIR}/print/texlive-dictsym \

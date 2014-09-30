@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/qrcode/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/qrcode/qrcode.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/qrcode/qrcode.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/qrcode/qrcode.ins
+share/texmf-dist/tex/latex/qrcode/qrcode.sty
+@dirrmtry share/texmf-dist/tex/latex/qrcode
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/qrcode
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/qrcode
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

@@ -1,15 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/Changes
-%%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/Makefile.doc
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/pst2pdf-doc.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/pst2pdf-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/pst2pdf-doc.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/test.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/test.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/test1-pdf.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/test1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/test2-pdf.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/test2.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/test2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/test3-pdf.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst2pdf/test3.tex

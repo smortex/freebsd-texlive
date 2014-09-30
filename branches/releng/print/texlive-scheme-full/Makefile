@@ -302,6 +302,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/cryst/cryst.afm:${PORTSDIR}/print/texlive-cryst \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cyklop/cyklop.sty:${PORTSDIR}/print/texlive-cyklop \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/dancers/dancers.mf:${PORTSDIR}/print/texlive-dancers \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dantelogo/dantelogo.sty:${PORTSDIR}/print/texlive-dantelogo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dejavu/dejavu.sty:${PORTSDIR}/print/texlive-dejavu \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/dice/dice3d.mf:${PORTSDIR}/print/texlive-dice \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dictsym/dictsym.sty:${PORTSDIR}/print/texlive-dictsym \
@@ -980,6 +981,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/productbox/productbox.sty:${PORTSDIR}/print/texlive-productbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pxpgfmark/pxpgfmark.sty:${PORTSDIR}/print/texlive-pxpgfmark \
 		${LOCALBASE}/share/texmf-dist/tex/latex/qcircuit/qcircuit.sty:${PORTSDIR}/print/texlive-qcircuit \
+		${LOCALBASE}/share/texmf-dist/tex/latex/qrcode/qrcode.sty:${PORTSDIR}/print/texlive-qrcode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/randbild/randbild.sty:${PORTSDIR}/print/texlive-randbild \
 		${LOCALBASE}/share/texmf-dist/tex/latex/randomwalk/randomwalk.sty:${PORTSDIR}/print/texlive-randomwalk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/reotex/reotex.sty:${PORTSDIR}/print/texlive-reotex \
@@ -1090,6 +1092,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/blkarray/blkarray.sty:${PORTSDIR}/print/texlive-blkarray \
 		${LOCALBASE}/share/texmf-dist/tex/latex/block/block.sty:${PORTSDIR}/print/texlive-block \
 		${LOCALBASE}/share/texmf-dist/tex/latex/blowup/blowup.sty:${PORTSDIR}/print/texlive-blowup \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bnumexpr/bnumexpr.sty:${PORTSDIR}/print/texlive-bnumexpr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boites/boites.sty:${PORTSDIR}/print/texlive-boites \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bold-extra/bold-extra.sty:${PORTSDIR}/print/texlive-bold-extra \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bookest/bookest.cls:${PORTSDIR}/print/texlive-bookest \
@@ -2428,6 +2431,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidicontour/bidicontour.sty:${PORTSDIR}/print/texlive-bidicontour \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidipagegrid/bidipagegrid.sty:${PORTSDIR}/print/texlive-bidipagegrid \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidishadowtext/bidishadowtext.sty:${PORTSDIR}/print/texlive-bidishadowtext \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidipresentation/bidipresentation.cls:${PORTSDIR}/print/texlive-bidipresentation \
 		${LOCALBASE}/share/texmf-dist/tex/latex/euenc/eu1enc.def:${PORTSDIR}/print/texlive-euenc \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fixlatvian/fixlatvian.sty:${PORTSDIR}/print/texlive-fixlatvian \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fontbook/fontbook.sty:${PORTSDIR}/print/texlive-fontbook \

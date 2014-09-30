@@ -2,8 +2,6 @@ share/texmf-dist/bibtex/bst/dtk/dtk.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/dtk/Changes
 %%PORTDOCS%%share/texmf-dist/doc/latex/dtk/doc/beispiel-lua.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/dtk/doc/beispiel-lua.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/dtk/doc/beispiel-xtx.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/dtk/doc/beispiel-xtx.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/dtk/doc/beispiel.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/dtk/doc/beispiel.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/dtk/doc/beispiel.tex

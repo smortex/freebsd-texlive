@@ -1,0 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidipresentation/README
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidipresentation/fig-1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidipresentation/sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/bidipresentation/sample.tex
+share/texmf-dist/tex/xelatex/bidipresentation/bidiprescolors.cfg
+share/texmf-dist/tex/xelatex/bidipresentation/bidipresentation.cls
+@dirrmtry share/texmf-dist/tex/xelatex/bidipresentation
+@dirrmtry share/texmf-dist/tex/xelatex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/doc/xelatex/bidipresentation
+@dirrmtry share/texmf-dist/doc/xelatex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

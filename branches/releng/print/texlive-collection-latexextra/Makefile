@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20140911
+PORTVERSION=	20140922
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -199,6 +199,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/productbox/productbox.sty:${PORTSDIR}/print/texlive-productbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pxpgfmark/pxpgfmark.sty:${PORTSDIR}/print/texlive-pxpgfmark \
 		${LOCALBASE}/share/texmf-dist/tex/latex/qcircuit/qcircuit.sty:${PORTSDIR}/print/texlive-qcircuit \
+		${LOCALBASE}/share/texmf-dist/tex/latex/qrcode/qrcode.sty:${PORTSDIR}/print/texlive-qrcode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/randbild/randbild.sty:${PORTSDIR}/print/texlive-randbild \
 		${LOCALBASE}/share/texmf-dist/tex/latex/randomwalk/randomwalk.sty:${PORTSDIR}/print/texlive-randomwalk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/reotex/reotex.sty:${PORTSDIR}/print/texlive-reotex \
@@ -309,6 +310,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/blkarray/blkarray.sty:${PORTSDIR}/print/texlive-blkarray \
 		${LOCALBASE}/share/texmf-dist/tex/latex/block/block.sty:${PORTSDIR}/print/texlive-block \
 		${LOCALBASE}/share/texmf-dist/tex/latex/blowup/blowup.sty:${PORTSDIR}/print/texlive-blowup \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bnumexpr/bnumexpr.sty:${PORTSDIR}/print/texlive-bnumexpr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boites/boites.sty:${PORTSDIR}/print/texlive-boites \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bold-extra/bold-extra.sty:${PORTSDIR}/print/texlive-bold-extra \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bookest/bookest.cls:${PORTSDIR}/print/texlive-bookest \
@@ -1135,7 +1137,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/undolabl/undolabl.sty:${PORTSDIR}/print/texlive-undolabl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/units/units.sty:${PORTSDIR}/print/texlive-units \
 		${LOCALBASE}/share/texmf-dist/tex/latex/unravel/unravel.sty:${PORTSDIR}/print/texlive-unravel \
-		${LOCALBASE}/share/texmf-dist/tex/latex/upmethodology/UPMVERSION.def:${PORTSDIR}/print/texlive-upmethodology \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/upmethodology/upmplainnat.bst:${PORTSDIR}/print/texlive-upmethodology \
 		${LOCALBASE}/share/texmf-dist/tex/latex/upquote/upquote.sty:${PORTSDIR}/print/texlive-upquote \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uri/uri.sty:${PORTSDIR}/print/texlive-uri \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ushort/ushort.sty:${PORTSDIR}/print/texlive-ushort \
