@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20140924
+PORTVERSION=	20140930
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -128,6 +128,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/elvish/cirth.mf:${PORTSDIR}/print/texlive-elvish \
 		${LOCALBASE}/share/texmf-dist/tex/latex/epigrafica/epigrafica.sty:${PORTSDIR}/print/texlive-epigrafica \
 		${LOCALBASE}/share/texmf-dist/tex/latex/epsdice/epsdice.sty:${PORTSDIR}/print/texlive-epsdice \
+		${LOCALBASE}/share/texmf-dist/tex/latex/erewhon/erewhon.sty:${PORTSDIR}/print/texlive-erewhon \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/esstix/ESSTIX10.PFM:${PORTSDIR}/print/texlive-esstix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/esvect/esvect.sty:${PORTSDIR}/print/texlive-esvect \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eulervm/eulervm.sty:${PORTSDIR}/print/texlive-eulervm \

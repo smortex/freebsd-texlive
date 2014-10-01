@@ -1,0 +1,79 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/animals-en-GB.ldf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/animals-en-US.ldf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/animals-english.ldf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/animals.sty
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/animals2-en-GB.ldf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/animals2-en-US.ldf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/animals2-english.ldf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/animals2.sty
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/animals3-en-GB.ldf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/animals3-en-US.ldf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/animals3-english.ldf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/animals3-german.ldf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/animals3.sty
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/sample-animals.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/sample-animals.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/sample-animals2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/sample-animals2.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/sample-animals3-de.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/sample-animals3-de.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/sample-animals3-de2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/sample-animals3-de2.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/sample-animals3-de3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/sample-animals3-de3.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/sample-animals3-de4.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/sample-animals3-de4.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/sample-animals3-poly.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/sample-animals3-poly.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/sample-animals3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/animals/sample-animals3.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/regions/regions-BE.ldf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/regions/regions-CA.ldf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/regions/regions-GB.ldf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/regions/regions-US.ldf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/regions/regions-dutch.ldf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/regions/regions-english.ldf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/regions/regions-french.ldf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/regions/regions-german.ldf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/regions/regions-italian.ldf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/regions/regions.sty
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/regions/regions2.sty
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/regions/sample-regions.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/regions/sample-regions.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/regions/sample-regions2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/regions/sample-regions2.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/sample-tracklang.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/sample-tracklang.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/sample-tracklang2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/sample-tracklang2.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/sample-tracklang3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/sample-tracklang3.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/sample-tracklang4.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/sample-tracklang4.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/sample-tracklang5.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/sample-tracklang5.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/sample-tracklang6.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/samples/sample-tracklang6.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/tracklang/tracklang.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/tracklang/tracklang.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tracklang/tracklang.ins
+share/texmf-dist/tex/generic/tracklang/tracklang.tex
+share/texmf-dist/tex/latex/tracklang/tracklang.sty
+@dirrmtry share/texmf-dist/tex/latex/tracklang
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex/generic/tracklang
+@dirrmtry share/texmf-dist/tex/generic
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/tracklang
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/generic/tracklang/samples/regions
+@dirrmtry share/texmf-dist/doc/generic/tracklang/samples/animals
+@dirrmtry share/texmf-dist/doc/generic/tracklang/samples
+@dirrmtry share/texmf-dist/doc/generic/tracklang
+@dirrmtry share/texmf-dist/doc/generic
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
