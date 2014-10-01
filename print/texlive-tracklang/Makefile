@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	acronym
+PORTNAME=	tracklang
 PORTVERSION=	20140930
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Expand acronyms at least once.
+COMMENT=	Language and dialect tracker.
 
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
