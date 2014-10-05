@@ -102,6 +102,8 @@ share/texmf-dist/scripts/glossaries/makeglossaries.bat
 share/texmf-dist/scripts/glossaries/mfirstuc.perl
 %%PORTSRC%%share/texmf-dist/source/latex/glossaries/glossaries.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/glossaries/glossaries.ins
+%%PORTSRC%%share/texmf-dist/source/latex/yathesis/glossaries/acronyms.tex
+%%PORTSRC%%share/texmf-dist/source/latex/yathesis/glossaries/glossary.tex
 share/texmf-dist/tex/latex/glossaries/base/glossaries-babel.sty
 share/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-207.sty
 share/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.sty
@@ -152,6 +154,8 @@ share/texmf-dist/tex/latex/glossaries/test-entries/example-glossaries-url.tex
 @dirrmtry share/texmf-dist/tex/latex/glossaries
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/yathesis/glossaries
+@dirrmtry share/texmf-dist/source/latex/yathesis
 @dirrmtry share/texmf-dist/source/latex/glossaries
 @dirrmtry share/texmf-dist/source/latex
 @dirrmtry share/texmf-dist/source
