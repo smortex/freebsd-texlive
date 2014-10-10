@@ -4,6 +4,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-multiple-dm/latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-multiple-dm/makefile
 share/texmf-dist/tex/latex/biblatex-multiple-dm/biblatex-multiple-dm.sty
+share/texmf-dist/tex/latex/biblatex-multiple-dm/multiple-dm.bbx
+share/texmf-dist/tex/latex/biblatex-multiple-dm/multiple-dm.dbx
 @dirrmtry share/texmf-dist/tex/latex/biblatex-multiple-dm
 @dirrmtry share/texmf-dist/tex/latex
 @dirrmtry share/texmf-dist/tex
