@@ -8,6 +8,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/luaotfload-tool.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/luaotfload-tool.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/man/man5/luaotfload.conf.5
+%%PORTDOCS%%share/texmf-dist/doc/man/man5/luaotfload.conf.man5.pdf
 share/texmf-dist/scripts/luaotfload/mkcharacters
 share/texmf-dist/scripts/luaotfload/mkglyphlist
 share/texmf-dist/scripts/luaotfload/mkstatus
