@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20140927
+PORTVERSION=	20141012
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -91,6 +91,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/knitting/knitting.sty:${PORTSDIR}/print/texlive-knitting \
 		${LOCALBASE}/share/texmf-dist/tex/latex/knittingpattern/knittingpattern.cls:${PORTSDIR}/print/texlive-knittingpattern \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lapdf/lapdf.sty:${PORTSDIR}/print/texlive-lapdf \
+		${LOCALBASE}/share/texmf-dist/scripts/latex-make/figdepth.py:${PORTSDIR}/print/texlive-latex-make \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lpic/lpic.sty:${PORTSDIR}/print/texlive-lpic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/makeshape/makeshape.sty:${PORTSDIR}/print/texlive-makeshape \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathspic/mathspic.sty:${PORTSDIR}/print/texlive-mathspic \

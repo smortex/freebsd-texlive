@@ -350,6 +350,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex:${PORTSDIR}/print/texlive-l3kernel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty:${PORTSDIR}/print/texlive-l3packages \
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3experimental/l3sort/l3sort.sty:${PORTSDIR}/print/texlive-l3experimental \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lineno/lineno.sty:${PORTSDIR}/print/texlive-lineno \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listings/listings.sty:${PORTSDIR}/print/texlive-listings \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathtools/mathtools.sty:${PORTSDIR}/print/texlive-mathtools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdwtools/at.sty:${PORTSDIR}/print/texlive-mdwtools \
@@ -521,6 +522,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/knitting/knitting.sty:${PORTSDIR}/print/texlive-knitting \
 		${LOCALBASE}/share/texmf-dist/tex/latex/knittingpattern/knittingpattern.cls:${PORTSDIR}/print/texlive-knittingpattern \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lapdf/lapdf.sty:${PORTSDIR}/print/texlive-lapdf \
+		${LOCALBASE}/share/texmf-dist/scripts/latex-make/figdepth.py:${PORTSDIR}/print/texlive-latex-make \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lpic/lpic.sty:${PORTSDIR}/print/texlive-lpic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/makeshape/makeshape.sty:${PORTSDIR}/print/texlive-makeshape \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathspic/mathspic.sty:${PORTSDIR}/print/texlive-mathspic \
@@ -552,6 +554,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/productbox/productbox.sty:${PORTSDIR}/print/texlive-productbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pxpgfmark/pxpgfmark.sty:${PORTSDIR}/print/texlive-pxpgfmark \
 		${LOCALBASE}/share/texmf-dist/tex/latex/qcircuit/qcircuit.sty:${PORTSDIR}/print/texlive-qcircuit \
+		${LOCALBASE}/share/texmf-dist/tex/latex/qrcode/qrcode.sty:${PORTSDIR}/print/texlive-qrcode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/randbild/randbild.sty:${PORTSDIR}/print/texlive-randbild \
 		${LOCALBASE}/share/texmf-dist/tex/latex/randomwalk/randomwalk.sty:${PORTSDIR}/print/texlive-randomwalk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/reotex/reotex.sty:${PORTSDIR}/print/texlive-reotex \

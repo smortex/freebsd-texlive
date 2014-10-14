@@ -7,12 +7,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/bash/pdflatexproof.sh
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/bash/pngmaker.sh
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/Exemplifier.pdf
-%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/Zpravodaj2009-4.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/alldefs.txt
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostbeamer.pdf
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostbeamer.tex
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostdocsource.tex
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostmanual.pdf
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/featpostmanual.tex
-%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/jdbug.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/lastfiguretest.pdf
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/lastfiguretest.tex
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/letterfor3Dand4D.pdf
@@ -68,6 +68,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/workflow-from-mpman-charts.2
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/workflow-from-mpman-charts.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles/xfig.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/otherinfo/BezierApprox.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/otherinfo/CHANGESv1.803.txt
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/otherinfo/Zpravodaj2009-4.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/otherinfo/jdbug.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/doc/otherinfo/tb88henderson.pdf
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/38.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/A131.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/CAT.mp
@@ -85,8 +90,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/avalzero.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/badshreeyantra.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/balllauncher.mp
-%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/bananadimmer.log
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/bananadimmer.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/beautiful00.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/bichaepolicia.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/brownellips.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/bstr.mp
@@ -114,6 +119,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/cubicstructurefcc.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/cubicstructures.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/cylimple.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/cylinderborders.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/daliasensor.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/decorstatement.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/defaultcmr.mp
@@ -123,6 +129,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/directfonts.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/doitnow.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/downloadicon.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/dreamhouse.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/durgayantra.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/eemcsblabla.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/electricpotential.mp
@@ -175,6 +182,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/helix.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/hermitespliknot.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/hexacylon.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/hexagonalgrid.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/hexagonaltrimesh.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/hiddenlinegraph.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/hiddensurface.mp
@@ -184,6 +192,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/integerbars.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/integratorfigures.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/interdigitrodes.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/intersectorus.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/intersectprolatespheroid.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/iplaca.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/jd44.mp
@@ -204,6 +213,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/lgc2refractionEdited.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/loglogpaper.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/logofontest.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/lowcostgreenhouse.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/magneticflux.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/mainmemtest.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/manjusha.mp
@@ -239,6 +249,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/optest.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/optica.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/par3Dplotexamples.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/parabolaonthestage.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/parafuso.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/parafusoprojxy.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/pathernon.mp
@@ -266,6 +277,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/resistcircuit.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/reuleaux.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/revolipsoid.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/revolutionparaboloid.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/revolvers.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/rigorcubo.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/rigorouscircle.mp
@@ -277,6 +289,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/roadincline.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/rodarolaremplaninc.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/ropepatterns.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/rosadosventos.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/rotatnlc.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/rothexagrid.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/rungekuttasecond.mp
@@ -296,6 +309,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/slingshot.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/smC.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/sniperlogo.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/solarconcentrator.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/solardish.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/some2Dvecs.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/spaceinvader.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/spatialhalfsfear.mp
@@ -328,6 +343,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/tiposdetranst.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/toro4transit.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/torus.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/torusexperiment.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/trajectoryline.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/trebuchet.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/treecarbonedited.mp
@@ -343,9 +359,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/twistflat.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/twistnlc.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/twistroundbiax.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/twoDcolision.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/twocyclestogether.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/twoholes.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/twoplustwo.mp
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/twosolarpanels.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/twoupcones.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/ubhtransients.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/example/ultraeye.mp
@@ -377,8 +395,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/avalzero.3.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/avalzero.4.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/badshreeyantra.1.png
-%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/balllauncher.1.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/balllauncher.0.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/balllauncher.9.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/bananadimmer.1.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/beautiful00.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/bichaepolicia.0.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/brownellips.0.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/bstr.1.png
@@ -440,6 +460,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/cubicstructures.5.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/cubicstructures.6.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/cylimple.1.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/cylinderborders.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/daliasensor.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/decorstatement.0.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/defaultcmr.0.png
@@ -452,6 +473,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/directfonts.0.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/doitnow.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/downloadicon.1.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/dreamhouse.1.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/dreamhouse.2.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/durgayantra.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/durgayantra.2.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/eemcsblabla.1.png
@@ -535,6 +558,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/helix.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/hermitespliknot.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/hexacylon.1.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/hexagonalgrid.1.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/hexagonalgrid.2.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/hexagonalgrid.3.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/hexagonaltrimesh.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/hiddenlinegraph.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/hiddensurface.1.png
@@ -545,6 +571,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/integratorfigures.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/integratorfigures.2.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/interdigitrodes.1.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/intersectorus.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/intersectprolatespheroid.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/iplaca.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/jd44.1.png
@@ -576,8 +603,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/lgc2refractionEdited.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/lgc2refractionEdited.2.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/lgc2refractionEdited.3.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/lgc2refractionEdited.4.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/loglogpaper.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/logofontest.0.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/lowcostgreenhouse.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/magneticflux.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/magneticflux.2.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/mainmemtest.1.png
@@ -590,6 +619,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/micostufas.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/micromu.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/milimetricpaper.1.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/milimetricpaper.2.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/mpfields.0.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/mpfields.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/mpfields.2.png
@@ -674,6 +704,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/raiodoscirculos.4.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/raiodoscirculos.5.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/raiodoscirculos.6.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/raiodoscirculos.7.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/raiodoscirculos.8.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/raiodoscirculos.9.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/redplanet.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/reeditedgoodquestionmark.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/resistcircuit.1.png
@@ -681,6 +714,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/reuleaux.2.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/revolipsoid.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/revolipsoid.2.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/revolutionparaboloid.1.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/revolutionparaboloid.2.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/revolutionparaboloid.3.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/revolutionparaboloid.4.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/revolutionparaboloid.5.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/revolvers.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/revolvers.2.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/revolvers.3.png
@@ -698,6 +736,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/roadincline.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/rodarolaremplaninc.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/ropepatterns.1.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/rosadosventos.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/rotatnlc.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/rothexagrid.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/rungekuttasecond.1.png
@@ -724,6 +763,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/slingshot.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/smC.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/sniperlogo.1.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/solarconcentrator.1.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/solardish.1.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/solardish.2.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/solardish.3.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/solardish.4.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/some2Dvecs.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/spaceinvader.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/spaceinvader.2.png
@@ -785,6 +829,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/torus.5.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/torus.6.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/torus.7.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/torusexperiment.1.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/torusexperiment.2.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/trajectoryline.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/trajectoryline.2.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/trebuchet.1.png
@@ -803,9 +849,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/twistflat.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/twistnlc.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/twistroundbiax.1.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/twoDcolision.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/twocyclestogether.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/twoholes.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/twoplustwo.1.png
+%%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/twosolarpanels.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/twoupcones.1.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/ubhtransients.0.png
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/ultraeye.1.png
@@ -826,6 +874,7 @@ share/texmf-dist/metapost/featpost/featpost3Dplus2D.mp
 @dirrmtry share/texmf-dist/metapost
 @dirrmtry share/texmf-dist/doc/metapost/featpost/png
 @dirrmtry share/texmf-dist/doc/metapost/featpost/example
+@dirrmtry share/texmf-dist/doc/metapost/featpost/doc/otherinfo
 @dirrmtry share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles
 @dirrmtry share/texmf-dist/doc/metapost/featpost/doc
 @dirrmtry share/texmf-dist/doc/metapost/featpost/bash

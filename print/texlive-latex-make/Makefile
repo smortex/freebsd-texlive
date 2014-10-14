@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	biblatex-realauthor
-PORTVERSION=	20141011
+PORTNAME=	latex-make
+PORTVERSION=	20141012
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Indicate the real author of a work
+COMMENT=	Easy compiling of complex (and simple) LaTeX documents.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
