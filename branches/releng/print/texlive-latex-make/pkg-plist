@@ -1,0 +1,34 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/latex-make/LaTeX.mk
+%%PORTDOCS%%share/texmf-dist/doc/support/latex-make/LaTeX.mk.conf
+%%PORTDOCS%%share/texmf-dist/doc/support/latex-make/README
+%%PORTDOCS%%share/texmf-dist/doc/support/latex-make/figlatex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/latex-make/latex-make.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/latex-make/texdepends.pdf
+share/texmf-dist/scripts/latex-make/figdepth.py
+share/texmf-dist/scripts/latex-make/gensubfig.py
+share/texmf-dist/scripts/latex-make/latexfilter.py
+share/texmf-dist/scripts/latex-make/svg2dev.py
+share/texmf-dist/scripts/latex-make/svgdepth.py
+%%PORTSRC%%share/texmf-dist/source/support/latex-make/figlatex.dtx
+%%PORTSRC%%share/texmf-dist/source/support/latex-make/latex-make.dtx
+%%PORTSRC%%share/texmf-dist/source/support/latex-make/latex-make.ins
+%%PORTSRC%%share/texmf-dist/source/support/latex-make/pdfswitch.dtx
+%%PORTSRC%%share/texmf-dist/source/support/latex-make/texdepends.dtx
+share/texmf-dist/tex/latex/latex-make/figlatex.cfg
+share/texmf-dist/tex/latex/latex-make/figlatex.sty
+share/texmf-dist/tex/latex/latex-make/pdfswitch.sty
+share/texmf-dist/tex/latex/latex-make/texdepends.sty
+share/texmf-dist/tex/latex/latex-make/texgraphicx.sty
+@dirrmtry share/texmf-dist/tex/latex/latex-make
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/support/latex-make
+@dirrmtry share/texmf-dist/source/support
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/scripts/latex-make
+@dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/doc/support/latex-make
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

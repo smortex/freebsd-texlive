@@ -4,6 +4,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/erewhon/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/erewhon/erewhon-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/erewhon/erewhon-doc.tex
+share/texmf-dist/fonts/afm/public/erewhon/Erewhon-Bold.afm
+share/texmf-dist/fonts/afm/public/erewhon/Erewhon-BoldItalic.afm
+share/texmf-dist/fonts/afm/public/erewhon/Erewhon-BoldSlanted.afm
+share/texmf-dist/fonts/afm/public/erewhon/Erewhon-Italic.afm
+share/texmf-dist/fonts/afm/public/erewhon/Erewhon-Regular.afm
+share/texmf-dist/fonts/afm/public/erewhon/Erewhon-RegularSlanted.afm
 share/texmf-dist/fonts/enc/dvips/erewhon/zut1_23adt6.enc
 share/texmf-dist/fonts/enc/dvips/erewhon/zut1_26fc24.enc
 share/texmf-dist/fonts/enc/dvips/erewhon/zut1_2e53d6.enc
@@ -731,6 +737,9 @@ share/texmf-dist/tex/latex/erewhon/erewhon.sty
 @dirrmtry share/texmf-dist/fonts/enc/dvips/erewhon
 @dirrmtry share/texmf-dist/fonts/enc/dvips
 @dirrmtry share/texmf-dist/fonts/enc
+@dirrmtry share/texmf-dist/fonts/afm/public/erewhon
+@dirrmtry share/texmf-dist/fonts/afm/public
+@dirrmtry share/texmf-dist/fonts/afm
 @dirrmtry share/texmf-dist/fonts
 @dirrmtry share/texmf-dist/doc/fonts/erewhon
 @dirrmtry share/texmf-dist/doc/fonts
