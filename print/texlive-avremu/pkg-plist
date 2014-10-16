@@ -1,0 +1,43 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/avremu/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/avremu/avremu.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/avremu/avremu.tex
+%%PORTSRC%%share/texmf-dist/source/latex/avremu/imgs/mandelbrot-128x128.png
+%%PORTSRC%%share/texmf-dist/source/latex/avremu/imgs/mandelbrot-20x20.png
+%%PORTSRC%%share/texmf-dist/source/latex/avremu/imgs/mandelbrot-250x250.png
+%%PORTSRC%%share/texmf-dist/source/latex/avremu/simple-testsuite.tex
+%%PORTSRC%%share/texmf-dist/source/latex/avremu/test-suite/FOOTER
+%%PORTSRC%%share/texmf-dist/source/latex/avremu/test-suite/HEADER
+%%PORTSRC%%share/texmf-dist/source/latex/avremu/test-suite/complex-memory.c
+%%PORTSRC%%share/texmf-dist/source/latex/avremu/test-suite/empty-main.c
+%%PORTSRC%%share/texmf-dist/source/latex/avremu/test-suite/fibonacci-rec.c
+%%PORTSRC%%share/texmf-dist/source/latex/avremu/test-suite/float.c
+%%PORTSRC%%share/texmf-dist/source/latex/avremu/test-suite/func-ptr.c
+%%PORTSRC%%share/texmf-dist/source/latex/avremu/test-suite/mandelbrot.c
+%%PORTSRC%%share/texmf-dist/source/latex/avremu/test-suite/mul.c
+%%PORTSRC%%share/texmf-dist/source/latex/avremu/test-suite/printf.c
+%%PORTSRC%%share/texmf-dist/source/latex/avremu/test-suite/shift.c
+%%PORTSRC%%share/texmf-dist/source/latex/avremu/test-suite/string.c
+%%PORTSRC%%share/texmf-dist/source/latex/avremu/test-suite/sum-rec.c
+%%PORTSRC%%share/texmf-dist/source/latex/avremu/test-suite/test-suite
+share/texmf-dist/tex/latex/avremu/avr.binary.tex
+share/texmf-dist/tex/latex/avremu/avr.bitops.tex
+share/texmf-dist/tex/latex/avremu/avr.draw.tex
+share/texmf-dist/tex/latex/avremu/avr.instr.tex
+share/texmf-dist/tex/latex/avremu/avr.io.tex
+share/texmf-dist/tex/latex/avremu/avr.memory.tex
+share/texmf-dist/tex/latex/avremu/avr.numbers.tex
+share/texmf-dist/tex/latex/avremu/avr.testsuite.tex
+share/texmf-dist/tex/latex/avremu/avremu.sty
+@dirrmtry share/texmf-dist/tex/latex/avremu
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/source/latex/avremu/test-suite
+@dirrmtry share/texmf-dist/source/latex/avremu/imgs
+@dirrmtry share/texmf-dist/source/latex/avremu
+@dirrmtry share/texmf-dist/source/latex
+@dirrmtry share/texmf-dist/source
+@dirrmtry share/texmf-dist/doc/latex/avremu
+@dirrmtry share/texmf-dist/doc/latex
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

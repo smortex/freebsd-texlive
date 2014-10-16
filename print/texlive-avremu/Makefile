@@ -1,13 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	upmethodology
+PORTNAME=	avremu
 PORTVERSION=	20141015
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Writing specifications such as for UP-based methodologies.
+COMMENT=	An 8-Bit Microcontroller Simulator written in LaTeX.
 
-NOPORTSRC=	yes
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>
