@@ -1,6 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/FrontespiziAssemblati.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/FrontespiziAssemblati.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/FrontespizioLandscape.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/LPPL.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/LoghiFinti.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/LoghiFinti.tex
@@ -15,12 +14,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/manifest.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/topfront-example.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/topfront-example.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-doc-xetex-def.ps
-%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-doc-xetex.cfg
-%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-doc-xetex.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-doc-xetex.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example-frontespizio-frn.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example-frontespizio-frn.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example-frontespizio.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example-frontespizio.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example-xetex.pdf
