@@ -7,12 +7,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/introFonts.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/introchart1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/introchart2.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/prerex-6.5.3.tar.gz
+%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/prerex-6.5.4.tar.gz
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/prerex.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/prerex.sty.7
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/prerex.sty.7.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/prerex/prerex.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/vprerex-6.4.2.tar.gz
+%%PORTDOCS%%share/texmf-dist/doc/latex/prerex/vprerex-6.4.3.tar.gz
 %%PORTDOCS%%share/texmf-dist/doc/man/man5/prerex.5
 %%PORTDOCS%%share/texmf-dist/doc/man/man5/prerex.man5.pdf
 share/texmf-dist/tex/latex/prerex/prerex.sty
