@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20140703
+PORTVERSION=	20141020
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -121,6 +121,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/chscite/chscite.sty:${PORTSDIR}/print/texlive-chscite \
 		${LOCALBASE}/share/texmf-dist/tex/latex/collref/collref.sty:${PORTSDIR}/print/texlive-collref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/compactbib/compactbib.sty:${PORTSDIR}/print/texlive-compactbib \
+		${LOCALBASE}/share/texmf-dist/scripts/crossrefware/bibdoiadd.pl:${PORTSDIR}/print/texlive-crossrefware \
 		${LOCALBASE}/share/texmf-dist/tex/latex/custom-bib/catalan.mbs:${PORTSDIR}/print/texlive-custom-bib \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/din1505/abbrvdin.bst:${PORTSDIR}/print/texlive-din1505 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dk-bib/dk-bib.sty:${PORTSDIR}/print/texlive-dk-bib \
