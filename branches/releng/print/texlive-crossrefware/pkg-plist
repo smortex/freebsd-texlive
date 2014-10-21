@@ -1,0 +1,29 @@
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/bibdoiadd.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/bibdoiadd.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/bibzbladd.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/bibzbladd.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/ltx2crossrefxml.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/ltx2crossrefxml.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/crossrefware/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/support/crossrefware/README
+%%PORTDOCS%%share/texmf-dist/doc/support/crossrefware/aomsample.bib
+%%PORTDOCS%%share/texmf-dist/doc/support/crossrefware/citations.bib
+%%PORTDOCS%%share/texmf-dist/doc/support/crossrefware/crossrefware.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/crossrefware/head.ltx
+share/texmf-dist/scripts/crossrefware/bibdoiadd.pl
+share/texmf-dist/scripts/crossrefware/bibzbladd.pl
+share/texmf-dist/scripts/crossrefware/ltx2crossrefxml.pl
+share/texmf-dist/tex/latex/crossrefware/bibdoiadd.cfg
+share/texmf-dist/tex/latex/crossrefware/ltx2crossrefxml.cfg
+@dirrmtry share/texmf-dist/tex/latex/crossrefware
+@dirrmtry share/texmf-dist/tex/latex
+@dirrmtry share/texmf-dist/tex
+@dirrmtry share/texmf-dist/scripts/crossrefware
+@dirrmtry share/texmf-dist/scripts
+@dirrmtry share/texmf-dist/doc/support/crossrefware
+@dirrmtry share/texmf-dist/doc/support
+@dirrmtry share/texmf-dist/doc/man/man1
+@dirrmtry share/texmf-dist/doc/man
+@dirrmtry share/texmf-dist/doc
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr

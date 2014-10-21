@@ -1,12 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	sparklines
+PORTNAME=	crossrefware
 PORTVERSION=	20141020
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Drawing sparklines: intense, simple, wordlike graphics.
+COMMENT=	Scripts for working with crossref.org.
+
+RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
 NOPORTSRC=	yes
 
