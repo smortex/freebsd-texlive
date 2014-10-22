@@ -1,0 +1,7 @@
+The package provides macros for typesetting basic arithmetic,
+in the style typically found in textbooks. It focuses on the
+American style of performing these algorithms. It is written
+mostly in low-level TeX, with the goal that it should run in
+either plain TeX or LaTeX, but there are two constructions that
+currently prevent this. It is highly configurable, with macros
+and lengths described in the documentation.

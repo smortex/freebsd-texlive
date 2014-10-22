@@ -122,6 +122,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/chscite/chscite.sty:${PORTSDIR}/print/texlive-chscite \
 		${LOCALBASE}/share/texmf-dist/tex/latex/collref/collref.sty:${PORTSDIR}/print/texlive-collref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/compactbib/compactbib.sty:${PORTSDIR}/print/texlive-compactbib \
+		${LOCALBASE}/share/texmf-dist/scripts/crossrefware/bibdoiadd.pl:${PORTSDIR}/print/texlive-crossrefware \
 		${LOCALBASE}/share/texmf-dist/tex/latex/custom-bib/catalan.mbs:${PORTSDIR}/print/texlive-custom-bib \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/din1505/abbrvdin.bst:${PORTSDIR}/print/texlive-din1505 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dk-bib/dk-bib.sty:${PORTSDIR}/print/texlive-dk-bib \
@@ -1072,8 +1073,10 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/authoraftertitle/authoraftertitle.sty:${PORTSDIR}/print/texlive-authoraftertitle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/authorindex/authorindex.sty:${PORTSDIR}/print/texlive-authorindex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/autonum/autonum.sty:${PORTSDIR}/print/texlive-autonum \
+		${LOCALBASE}/share/texmf-dist/tex/latex/avremu/avremu.sty:${PORTSDIR}/print/texlive-avremu \
 		${LOCALBASE}/share/texmf-dist/tex/latex/background/background.sty:${PORTSDIR}/print/texlive-background \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bashful/bashful.sty:${PORTSDIR}/print/texlive-bashful \
+		${LOCALBASE}/share/texmf-dist/tex/latex/basicarith/basicarith.sty:${PORTSDIR}/print/texlive-basicarith \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bchart/bchart.sty:${PORTSDIR}/print/texlive-bchart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamer2thesis/beamer2thesis.jpg:${PORTSDIR}/print/texlive-beamer2thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beameraudience/beameraudience.sty:${PORTSDIR}/print/texlive-beameraudience \
