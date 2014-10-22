@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20141015
+PORTVERSION=	20141021
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -291,6 +291,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/avremu/avremu.sty:${PORTSDIR}/print/texlive-avremu \
 		${LOCALBASE}/share/texmf-dist/tex/latex/background/background.sty:${PORTSDIR}/print/texlive-background \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bashful/bashful.sty:${PORTSDIR}/print/texlive-bashful \
+		${LOCALBASE}/share/texmf-dist/tex/latex/basicarith/basicarith.sty:${PORTSDIR}/print/texlive-basicarith \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bchart/bchart.sty:${PORTSDIR}/print/texlive-bchart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamer2thesis/beamer2thesis.jpg:${PORTSDIR}/print/texlive-beamer2thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beameraudience/beameraudience.sty:${PORTSDIR}/print/texlive-beameraudience \
