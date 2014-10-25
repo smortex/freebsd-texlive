@@ -1,7 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/todonotes/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/todonotes/todonotes.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/todonotes/todonotesexample.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/todonotes/todonotesexample.tex
 %%PORTSRC%%share/texmf-dist/source/latex/todonotes/todonotes.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/todonotes/todonotes.ins
 share/texmf-dist/tex/latex/todonotes/todonotes.sty
