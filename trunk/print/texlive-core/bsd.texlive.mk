@@ -3,25 +3,24 @@ PORTVERSION?=		20110705
 MASTER_SITES?=		http://texlive-distfiles.blogreen.org/
 DIST_SUBDIR=		TeXLive
 PKGNAMEPREFIX=		texlive-
-NO_STAGE=		yes
 
 RUN_DEPENDS+=		mktexlsr:${PORTSDIR}/print/texlive-core
 
 DISTFILES=		${PORTNAME}-${PORTVERSION}${EXTRACT_SUFX}
-.if !defined(NOPORTDOCS)
+.if ${PORT_OPTIONS:MDOCS}
 DISTFILES+=		${PORTNAME}.doc-${PORTVERSION}${EXTRACT_SUFX}
 .endif
-.if !defined(NOPORTSRC)
+.if ${PORT_OPTIONS:MSRCS}
 DISTFILES+=		${PORTNAME}.source-${PORTVERSION}${EXTRACT_SUFX}
 PLIST_SUB+=		PORTSRC=""
 .else
 PLIST_SUB+=		PORTSRC="@comment"
 .endif
 
-FETCH_ARGS=	-ApR	# Do NOT restart a previously interrupted transfer
-USE_XZ=		yes
+#FETCH_ARGS=	-ApR	# Do NOT restart a previously interrupted transfer
 NO_BUILD=	yes
 NO_WRKSUBDIR=	yes
+USES=		tar:xz
 
 UNIQ?=		/usr/bin/uniq # This should be included in ports/Mk/bsd.commands.mk
 
@@ -41,7 +40,7 @@ ${WRKDIR}/.install_files: build
 		    } \
 		    }' | (${GREP} -vF ../../print/texlive-core/pkg-plist || :) > ${WRKDIR}/.install_files; \
 	)
-.if !defined(NOPORTDOCS)
+.if ${PORT_OPTIONS:MDOCS}
 	@(  cd ${WRKDIR} && ${CAT} tlpkg/tlpobj/${PORTNAME}.doc.tlpobj | ${GREP} ^\  | ${AWK} '\
 		{ \
 		    source=substr($$0, 2, length($$0)); \
@@ -56,7 +55,7 @@ ${WRKDIR}/.install_files: build
 		    }' | (${GREP} -vF ../../print/texlive-core/pkg-plist || :) >> ${WRKDIR}/.install_files; \
 	)
 .endif
-.if !defined(NOPORTSRC)
+.if ${PORT_OPTIONS:MSRCS}
 	@(  cd ${WRKDIR} && ${CAT} tlpkg/tlpobj/${PORTNAME}.source.tlpobj | ${GREP} ^\  | ${AWK} '\
 		{ \
 		    source=substr($$0, 2, length($$0)); \
@@ -74,27 +73,16 @@ ${WRKDIR}/.install_files: build
 
 pkg-plist: ${WRKDIR}/.install_files
 	@${SORT} -t',' -k 2 < ${WRKDIR}/.install_files | ${AWK} -F',' ' { print $$3 $$2 } ' > ${PLIST}
-	@${AWK} -F, '{ n = split($$2, a, "/"); path="@dirrmtry "; for (i=1; i < n; i++) { if (i > 1) {path = path "/"} path = path a[i]; if (i > 2) { print path } } }' <  work/.install_files | ${SORT} -r | ${UNIQ} >> ${PLIST}
-	@${ECHO} "@exec %D/bin/mktexlsr" >> ${PLIST}
-	@${ECHO} "@unexec %D/bin/mktexlsr" >> ${PLIST}
+	@${ECHO} '@unexec if [ -z $${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi' >> ${PLIST}
+	@${ECHO} '@exec if [ -z $${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi' >> ${PLIST}
 
 do-install: ${WRKDIR}/.install_files
 	@for dir in `${CUT} -d',' -f 2 < ${WRKDIR}/.install_files | ${XARGS} ${DIRNAME} | ${SORT} -r | ${UNIQ}`; do \
-	    if [ ! -d "${PREFIX}/$$dir" ]; then \
-		${MKDIR} "${PREFIX}/$$dir" ;\
+	    if [ ! -d "${STAGEDIR}${PREFIX}/$$dir" ]; then \
+		${MKDIR} "${STAGEDIR}${PREFIX}/$$dir" ;\
 	    fi; \
 	done
 	@( cd ${WRKDIR} && IFS="," && while read source target junk; do \
-		${INSTALL_DATA} $$source ${PREFIX}/$$target; \
+		${INSTALL_DATA} $$source ${STAGEDIR}${PREFIX}/$$target; \
 	    done < ${WRKDIR}/.install_files \
 	)
-
-post-install:
-.if defined(WITHOUT_TEXLIVE_MKTEXLSR)
-	@${ECHO} "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running ${MKTEXLSR}."
-	@${ECHO} "You MUST run 'mktexlsr' to update TeXLive installed files database."
-.else
-	@${ECHO} "Updating ls-R databases..."
-	@${MKTEXLSR}
-.endif
-
