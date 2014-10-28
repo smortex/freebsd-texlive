@@ -111,7 +111,7 @@ build:
 .ifdef V
 	@echo "===>  Generating all ports..."
 .endif
-	@env DISTDIR="${DISTDIR}" DISABLE_VULNERABILITIES="yes" DISABLE_LICENSES="yes" mono --debug ${TLPORT} ${TLPORT_FLAGS} ${.CURDIR}/tlpkg/tlpobj ${RELENGDIR} ${FETCHDIR}
+	@env DISTDIR="${DISTDIR}" DISABLE_VULNERABILITIES="yes" DISABLE_LICENSES="yes" WITH_SRCS="yes" BATCH="yes" mono --debug ${TLPORT} ${TLPORT_FLAGS} ${.CURDIR}/tlpkg/tlpobj ${RELENGDIR} ${FETCHDIR}
 
 rmlink:
 .ifdef V

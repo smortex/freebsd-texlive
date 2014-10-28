@@ -256,12 +256,25 @@ namespace TeXLive
 				makefile.WriteLine("RUN_DEPENDS=\t{0}", string.Join(" \\\n\t\t", x));
 			}
 			makefile.WriteLine();
-			if (!System.IO.File.Exists(System.IO.Path.Combine(collection.TlpObjDir, name + ".doc.tlpobj"))) {
-				makefile.WriteLine("NOPORTDOCS=\tyes");
-			}
-			if (!System.IO.File.Exists(System.IO.Path.Combine( collection.TlpObjDir, name + ".source.tlpobj"))) {
-				makefile.WriteLine("NOPORTSRC=\tyes");
-			}
+
+			List<string> options_define = new List<string> ();
+			List<string> options_exclude = new List<string> ();
+
+			if (System.IO.File.Exists (System.IO.Path.Combine (collection.TlpObjDir, name + ".doc.tlpobj")))
+				options_define.Add ("DOCS");
+			else
+				options_exclude.Add ("DOCS");
+
+			if (System.IO.File.Exists (System.IO.Path.Combine (collection.TlpObjDir, name + ".source.tlpobj")))
+				options_define.Add ("SRCS");
+
+			if (options_define.Count > 0)
+				makefile.WriteLine ("OPTIONS_DEFINE=\t{0}", String.Join (" ", options_define));
+			if (options_exclude.Count > 0)
+				makefile.WriteLine ("OPTIONS_EXCLUDE=\t{0}", String.Join (" ", options_exclude));
+
+			makefile.WriteLine (".include <bsd.port.options.mk>");
+
 			makefile.WriteLine();
 			makefile.WriteLine(".include \"${.CURDIR}/../../print/texlive-core/bsd.texlive.mk\"");
 			makefile.WriteLine(".include <bsd.port.mk>");
