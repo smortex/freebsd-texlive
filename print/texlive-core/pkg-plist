@@ -1,4 +1,3 @@
-@comment $FreeBSD$
 bin/a2ping
 bin/a5toa4
 bin/adhocfilelist
@@ -20,7 +19,6 @@ bin/bg5+pdflatex
 bin/bg5conv
 bin/bg5latex
 bin/bg5pdflatex
-bin/biber
 bin/bibexport
 bin/bibtex
 bin/bibtex8
@@ -41,6 +39,7 @@ bin/checkcites
 bin/chktex
 bin/chkweb
 bin/context
+bin/contextjit
 bin/convbkmk
 bin/cslatex
 bin/csplain
@@ -48,9 +47,9 @@ bin/ctangle
 bin/ctanify
 bin/ctanupload
 bin/ctie
-bin/ctxtools
 bin/cweave
 bin/de-macro
+bin/depythontex
 bin/detex
 bin/devnag
 bin/deweb
@@ -104,22 +103,12 @@ bin/extractbb
 bin/extractres
 bin/fig4latex
 bin/findhyph
-bin/fixdlsrps
-bin/fixfmps
-bin/fixpsditps
-bin/fixpspps
-bin/fixscribeps
-bin/fixtpps
-bin/fixwfwps
-bin/fixwpps
-bin/fixwwps
 bin/fmtutil
 bin/fmtutil-sys
 bin/fontinst
 bin/fragmaster
 bin/gbklatex
 bin/gbkpdflatex
-bin/getafm
 bin/gftodvi
 bin/gftopk
 bin/gftype
@@ -138,9 +127,11 @@ bin/inimf
 bin/initex
 bin/installfont-tl
 bin/jadetex
+bin/jamo-normalize
 bin/kanji-config-updmap
 bin/kanji-config-updmap-sys
 bin/kanji-fontmap-creator
+bin/komkindex
 bin/kpseaccess
 bin/kpsepath
 bin/kpsereadlink
@@ -152,18 +143,27 @@ bin/kpsexpand
 bin/lacheck
 bin/lamed
 bin/latex
+bin/latex-git-log
 bin/latex2man
 bin/latexdiff
 bin/latexdiff-vc
 bin/latexfileversion
+bin/latexindent
 bin/latexmk
 bin/latexpand
 bin/latexrevise
+bin/lily-glyph-commands
+bin/lily-image-commands
+bin/lily-rebuild-pdfs
 bin/listbib
 bin/listings-ext.sh
+bin/lollipop
 bin/ltxfileinfo
+bin/ltximg
 bin/lua2dox_filter
+bin/luajittex
 bin/lualatex
+bin/lualollipop
 bin/luaotfload-tool
 bin/luatex
 bin/luatools
@@ -175,7 +175,6 @@ bin/makejvf
 bin/match_parens
 bin/mathspic
 bin/mendex
-bin/metafun
 bin/mex
 bin/mf
 bin/mf-nowin
@@ -189,6 +188,7 @@ bin/mkjobtexmf
 bin/mkluatexfontdb
 bin/mkocp
 bin/mkofm
+bin/mkpic
 bin/mkt1font
 bin/mktexfmt
 bin/mktexlsr
@@ -202,6 +202,7 @@ bin/mmpfb
 bin/mpost
 bin/mptopdf
 bin/mtxrun
+bin/mtxrunjit
 bin/multibibliography
 bin/musixflx
 bin/musixtex
@@ -251,16 +252,16 @@ bin/pedigree
 bin/perltex
 bin/pfarrei
 bin/pfb2pfa
-bin/physe
-bin/phyzzx
 bin/pk2bm
 bin/pkfix
 bin/pkfix-helper
 bin/pktogf
 bin/pktype
+bin/platex
 bin/pltotf
 bin/pmx2pdf
 bin/pmxab
+bin/pmxchords
 bin/pooltype
 bin/ppltotf
 bin/prepmx
@@ -269,25 +270,25 @@ bin/ps2frag
 bin/ps2pk
 bin/ps4pdf
 bin/psbook
+bin/psjoin
 bin/pslatex
-bin/psmerge
 bin/psnup
 bin/psresize
 bin/psselect
 bin/pst2pdf
-bin/pstopdf
 bin/pstops
 bin/ptex
 bin/ptex2pdf
 bin/ptftopl
 bin/purifyeps
+bin/pythontex
 bin/repstopdf
 bin/rpdfcrop
 bin/rubibtex
+bin/rubikrotation
 bin/rumakeindex
 bin/rungs
 bin/scor2prt
-bin/showchar
 bin/simpdftex
 bin/sjisconv
 bin/sjislatex
@@ -322,12 +323,15 @@ bin/texdirflatten
 bin/texdoc
 bin/texdoctk
 bin/texexec
+bin/texfot
 bin/texhash
 bin/texlinks
 bin/texliveonfly
 bin/texloganalyser
 bin/texlua
 bin/texluac
+bin/texluajit
+bin/texluajitc
 bin/texmfstart
 bin/texsis
 bin/tftopl
@@ -336,6 +340,7 @@ bin/tie
 bin/tlmgr
 bin/tpic2pdftex
 bin/ttf2afm
+bin/ttf2kotexfont
 bin/ttf2pk
 bin/ttf2tfm
 bin/ttfdump
@@ -346,6 +351,7 @@ bin/upbibtex
 bin/updmap
 bin/updmap-sys
 bin/updvitype
+bin/uplatex
 bin/uppltotf
 bin/uptex
 bin/uptftopl
@@ -358,11 +364,15 @@ bin/vpl2ovp
 bin/vpl2vpl
 bin/vptovf
 bin/weave
+bin/wofm2opl
+bin/wopl2ofm
+bin/wovf2ovp
 bin/wovp2ovf
 bin/xdvi
 bin/xdvi-xaw
 bin/xdvipdfmx
 bin/xelatex
+bin/xelollipop
 bin/xetex
 bin/xmltex
 include/kpathsea/absolute.h
@@ -399,6 +409,7 @@ include/kpathsea/pathsearch.h
 include/kpathsea/proginit.h
 include/kpathsea/progname.h
 include/kpathsea/readable.h
+include/kpathsea/simpletypes.h
 include/kpathsea/str-list.h
 include/kpathsea/str-llist.h
 include/kpathsea/systypes.h
@@ -412,10 +423,184 @@ include/kpathsea/version.h
 include/kpathsea/win32lib.h
 include/ptexenc/ptexenc.h
 include/ptexenc/unicode.h
+info/dir
 lib/libkpathsea.a
-lib/libkpathsea.la
 lib/libptexenc.a
-lib/libptexenc.la
+man/man1/afm2pl.1.gz
+man/man1/afm2tfm.1.gz
+man/man1/aleph.1.gz
+man/man1/allcm.1.gz
+man/man1/allec.1.gz
+man/man1/allneeded.1.gz
+man/man1/amstex.1.gz
+man/man1/bbox.1.gz
+man/man1/bg5conv.1.gz
+man/man1/bibtex.1.gz
+man/man1/cef5conv.1.gz
+man/man1/cefconv.1.gz
+man/man1/cefsconv.1.gz
+man/man1/cfftot1.1.gz
+man/man1/chktex.1.gz
+man/man1/chkweb.1.gz
+man/man1/ctangle.1.gz
+man/man1/ctie.1.gz
+man/man1/cweave.1.gz
+man/man1/cweb.1.gz
+man/man1/detex.1.gz
+man/man1/deweb.1.gz
+man/man1/disdvi.1.gz
+man/man1/dt2dv.1.gz
+man/man1/dv2dt.1.gz
+man/man1/dvi2fax.1.gz
+man/man1/dvi2tty.1.gz
+man/man1/dvibook.1.gz
+man/man1/dviconcat.1.gz
+man/man1/dvicopy.1.gz
+man/man1/dvidvi.1.gz
+man/man1/dvigif.1.gz
+man/man1/dvihp.1.gz
+man/man1/dvilj.1.gz
+man/man1/dvilj2p.1.gz
+man/man1/dvilj4.1.gz
+man/man1/dvilj4l.1.gz
+man/man1/dvilj6.1.gz
+man/man1/dvipdfm.1.gz
+man/man1/dvipdfmx.1.gz
+man/man1/dvipdft.1.gz
+man/man1/dvipng.1.gz
+man/man1/dvipos.1.gz
+man/man1/dvips.1.gz
+man/man1/dvired.1.gz
+man/man1/dviselect.1.gz
+man/man1/dvisvgm.1.gz
+man/man1/dvitodvi.1.gz
+man/man1/dvitomp.1.gz
+man/man1/dvitype.1.gz
+man/man1/e2pall.1.gz
+man/man1/ebb.1.gz
+man/man1/epsffit.1.gz
+man/man1/extconv.1.gz
+man/man1/extractbb.1.gz
+man/man1/extractres.1.gz
+man/man1/fmtutil-sys.1.gz
+man/man1/fmtutil.1.gz
+man/man1/fontinst.1.gz
+man/man1/gftodvi.1.gz
+man/man1/gftopk.1.gz
+man/man1/gftype.1.gz
+man/man1/gsftopk.1.gz
+man/man1/hbf2gf.1.gz
+man/man1/includeres.1.gz
+man/man1/kpseaccess.1.gz
+man/man1/kpsepath.1.gz
+man/man1/kpsereadlink.1.gz
+man/man1/kpsestat.1.gz
+man/man1/kpsetool.1.gz
+man/man1/kpsewhere.1.gz
+man/man1/kpsewhich.1.gz
+man/man1/kpsexpand.1.gz
+man/man1/lacheck.1.gz
+man/man1/lamed.1.gz
+man/man1/latex.1.gz
+man/man1/luatex.1.gz
+man/man1/mag.1.gz
+man/man1/makeindex.1.gz
+man/man1/mendex.1.gz
+man/man1/mf-nowin.1.gz
+man/man1/mf.1.gz
+man/man1/mft.1.gz
+man/man1/mkindex.1.gz
+man/man1/mkocp.1.gz
+man/man1/mkofm.1.gz
+man/man1/mktexfmt.1.gz
+man/man1/mktexlsr.1.gz
+man/man1/mktexmf.1.gz
+man/man1/mktexpk.1.gz
+man/man1/mktextfm.1.gz
+man/man1/mmafm.1.gz
+man/man1/mmpfb.1.gz
+man/man1/mpost.1.gz
+man/man1/odvicopy.1.gz
+man/man1/odvitype.1.gz
+man/man1/ofm2opl.1.gz
+man/man1/opl2ofm.1.gz
+man/man1/otangle.1.gz
+man/man1/otfinfo.1.gz
+man/man1/otftotfm.1.gz
+man/man1/otp2ocp.1.gz
+man/man1/outocp.1.gz
+man/man1/ovf2ovp.1.gz
+man/man1/ovp2ovf.1.gz
+man/man1/patgen.1.gz
+man/man1/pdfclose.1.gz
+man/man1/pdfetex.1.gz
+man/man1/pdflatex.1.gz
+man/man1/pdfopen.1.gz
+man/man1/pdftex.1.gz
+man/man1/pdftosrc.1.gz
+man/man1/pfb2pfa.1.gz
+man/man1/pk2bm.1.gz
+man/man1/pktogf.1.gz
+man/man1/pktype.1.gz
+man/man1/pltotf.1.gz
+man/man1/pmxab.1.gz
+man/man1/pooltype.1.gz
+man/man1/prepmx.1.gz
+man/man1/ps2eps.1.gz
+man/man1/ps2frag.1.gz
+man/man1/ps2pk.1.gz
+man/man1/psbook.1.gz
+man/man1/psjoin.1.gz
+man/man1/pslatex.1.gz
+man/man1/psnup.1.gz
+man/man1/psresize.1.gz
+man/man1/psselect.1.gz
+man/man1/pstops.1.gz
+man/man1/psutils.1.gz
+man/man1/rubibtex.1.gz
+man/man1/rumakeindex.1.gz
+man/man1/scor2prt.1.gz
+man/man1/sjisconv.1.gz
+man/man1/synctex.1.gz
+man/man1/t1ascii.1.gz
+man/man1/t1asm.1.gz
+man/man1/t1binary.1.gz
+man/man1/t1disasm.1.gz
+man/man1/t1dotlessj.1.gz
+man/man1/t1lint.1.gz
+man/man1/t1mac.1.gz
+man/man1/t1rawafm.1.gz
+man/man1/t1reencode.1.gz
+man/man1/t1testpage.1.gz
+man/man1/t1unmac.1.gz
+man/man1/tangle.1.gz
+man/man1/tex.1.gz
+man/man1/texconfig-sys.1.gz
+man/man1/texconfig.1.gz
+man/man1/texdoctk.1.gz
+man/man1/texhash.1.gz
+man/man1/texlinks.1.gz
+man/man1/texlua.1.gz
+man/man1/texluac.1.gz
+man/man1/tftopl.1.gz
+man/man1/tie.1.gz
+man/man1/tpic2pdftex.1.gz
+man/man1/ttf2afm.1.gz
+man/man1/ttf2pk.1.gz
+man/man1/ttf2tfm.1.gz
+man/man1/ttfdump.1.gz
+man/man1/ttftotype42.1.gz
+man/man1/updmap-sys.1.gz
+man/man1/updmap.1.gz
+man/man1/vftovp.1.gz
+man/man1/vlna.1.gz
+man/man1/vptovf.1.gz
+man/man1/weave.1.gz
+man/man1/xdvi.1.gz
+man/man1/xdvipdfmx.1.gz
+man/man5/fmtutil.cnf.5.gz
+man/man5/synctex.5.gz
+man/man5/updmap.cfg.5.gz
 share/texmf-dist/bibtex/csf/base/88591lat.csf
 share/texmf-dist/bibtex/csf/base/88591sca.csf
 share/texmf-dist/bibtex/csf/base/ascii.csf
@@ -476,6 +661,7 @@ share/texmf-dist/hbf2gf/gsfs14.cfg
 share/texmf-dist/hbf2gf/j2so12.cfg
 share/texmf-dist/hbf2gf/jsso12.cfg
 share/texmf-dist/hbf2gf/ksso17.cfg
+share/texmf-dist/psutils/paper.cfg
 share/texmf-dist/scripts/a2ping/a2ping.pl
 share/texmf-dist/scripts/accfonts/mkt1font
 share/texmf-dist/scripts/accfonts/vpl2ovp
@@ -492,10 +678,10 @@ share/texmf-dist/scripts/chktex/chkweb.sh
 share/texmf-dist/scripts/chktex/deweb.pl
 share/texmf-dist/scripts/context/perl/mptopdf.pl
 share/texmf-dist/scripts/context/stubs/unix/context
-share/texmf-dist/scripts/context/stubs/unix/ctxtools
+share/texmf-dist/scripts/context/stubs/unix/contextjit
 share/texmf-dist/scripts/context/stubs/unix/luatools
 share/texmf-dist/scripts/context/stubs/unix/mtxrun
-share/texmf-dist/scripts/context/stubs/unix/pstopdf
+share/texmf-dist/scripts/context/stubs/unix/mtxrunjit
 share/texmf-dist/scripts/context/stubs/unix/texexec
 share/texmf-dist/scripts/context/stubs/unix/texmfstart
 share/texmf-dist/scripts/convbkmk/convbkmk.rb
@@ -521,16 +707,25 @@ share/texmf-dist/scripts/installfont/installfont-tl
 share/texmf-dist/scripts/jfontmaps/kanji-config-updmap-sys.sh
 share/texmf-dist/scripts/jfontmaps/kanji-config-updmap.pl
 share/texmf-dist/scripts/jfontmaps/kanji-fontmap-creator.pl
+share/texmf-dist/scripts/kotex-utils/jamo-normalize.pl
+share/texmf-dist/scripts/kotex-utils/komkindex.pl
+share/texmf-dist/scripts/kotex-utils/ttf2kotexfont.pl
+share/texmf-dist/scripts/latex-git-log/latex-git-log
 share/texmf-dist/scripts/latex2man/latex2man
 share/texmf-dist/scripts/latexdiff/latexdiff-vc.pl
 share/texmf-dist/scripts/latexdiff/latexdiff.pl
 share/texmf-dist/scripts/latexdiff/latexrevise.pl
 share/texmf-dist/scripts/latexfileversion/latexfileversion
+share/texmf-dist/scripts/latexindent/latexindent.pl
 share/texmf-dist/scripts/latexmk/latexmk.pl
 share/texmf-dist/scripts/latexpand/latexpand
+share/texmf-dist/scripts/lilyglyphs/lily-glyph-commands.py
+share/texmf-dist/scripts/lilyglyphs/lily-image-commands.py
+share/texmf-dist/scripts/lilyglyphs/lily-rebuild-pdfs.py
 share/texmf-dist/scripts/listbib/listbib
 share/texmf-dist/scripts/listings-ext/listings-ext.sh
 share/texmf-dist/scripts/ltxfileinfo/ltxfileinfo
+share/texmf-dist/scripts/ltximg/ltximg.pl
 share/texmf-dist/scripts/lua2dox/lua2dox_filter
 share/texmf-dist/scripts/luaotfload/luaotfload-tool.lua
 share/texmf-dist/scripts/m-tx/m-tx.lua
@@ -539,6 +734,7 @@ share/texmf-dist/scripts/mathspic/mathspic.pl
 share/texmf-dist/scripts/mf2pt1/mf2pt1.pl
 share/texmf-dist/scripts/mkgrkindex/mkgrkindex
 share/texmf-dist/scripts/mkjobtexmf/mkjobtexmf.pl
+share/texmf-dist/scripts/mkpic/mkpic
 share/texmf-dist/scripts/multibibliography/multibibliography.pl
 share/texmf-dist/scripts/musixtex/musixflx.lua
 share/texmf-dist/scripts/musixtex/musixtex.lua
@@ -564,25 +760,18 @@ share/texmf-dist/scripts/pfarrei/pfarrei.tlu
 share/texmf-dist/scripts/pkfix-helper/pkfix-helper
 share/texmf-dist/scripts/pkfix/pkfix.pl
 share/texmf-dist/scripts/pmx/pmx2pdf.lua
+share/texmf-dist/scripts/pmxchords/pmxchords.lua
 share/texmf-dist/scripts/ps2eps/ps2eps.pl
 share/texmf-dist/scripts/pst-pdf/ps4pdf
 share/texmf-dist/scripts/pst2pdf/pst2pdf.pl
 share/texmf-dist/scripts/psutils/extractres.pl
-share/texmf-dist/scripts/psutils/fixdlsrps.pl
-share/texmf-dist/scripts/psutils/fixfmps.pl
-share/texmf-dist/scripts/psutils/fixpsditps.pl
-share/texmf-dist/scripts/psutils/fixpspps.pl
-share/texmf-dist/scripts/psutils/fixscribeps.pl
-share/texmf-dist/scripts/psutils/fixtpps.pl
-share/texmf-dist/scripts/psutils/fixwfwps.pl
-share/texmf-dist/scripts/psutils/fixwpps.pl
-share/texmf-dist/scripts/psutils/fixwwps.pl
-share/texmf-dist/scripts/psutils/getafm.sh
 share/texmf-dist/scripts/psutils/includeres.pl
-share/texmf-dist/scripts/psutils/psmerge.pl
-share/texmf-dist/scripts/psutils/showchar.sh
+share/texmf-dist/scripts/psutils/psjoin.pl
 share/texmf-dist/scripts/ptex2pdf/ptex2pdf.lua
 share/texmf-dist/scripts/purifyeps/purifyeps
+share/texmf-dist/scripts/pythontex/depythontex.py
+share/texmf-dist/scripts/pythontex/pythontex.py
+share/texmf-dist/scripts/rubik/rubikrotation.pl
 share/texmf-dist/scripts/simpdftex/simpdftex
 share/texmf-dist/scripts/splitindex/splitindex.pl
 share/texmf-dist/scripts/sty2dtx/sty2dtx.pl
@@ -602,6 +791,7 @@ share/texmf-dist/scripts/texdiff/texdiff
 share/texmf-dist/scripts/texdirflatten/texdirflatten
 share/texmf-dist/scripts/texdoc/texdoc.tlu
 share/texmf-dist/scripts/texdoctk/texdoctk.pl
+share/texmf-dist/scripts/texfot/texfot.pl
 share/texmf-dist/scripts/texlive/allcm.sh
 share/texmf-dist/scripts/texlive/allneeded.sh
 share/texmf-dist/scripts/texlive/dvi2fax.sh
@@ -647,133 +837,5 @@ share/texmf-dist/web2c/texmf.cnf
 share/texmf-dist/xdvi/XDvi
 share/texmf-dist/xdvi/pixmap/toolbar.xpm
 share/texmf-dist/xdvi/pixmap/toolbar2.xpm
-@unexec rm -f %D/share/texmf-dist/ls-R
-@unexec rm -f %D/share/texmf/ls-R
-@dirrm share/texmf-dist/xdvi/pixmap
-@dirrm share/texmf-dist/xdvi
-@dirrm share/texmf-dist/web2c
-@dirrm share/texmf-dist/ttf2pk
-@dirrm share/texmf-dist/texconfig
-@dirrm share/texmf-dist/source/fonts/zhmetrics
-@dirrm share/texmf-dist/source/fonts
-@dirrm share/texmf-dist/source
-@dirrm share/texmf-dist/scripts/vpe
-@dirrm share/texmf-dist/scripts/urlbst
-@dirrm share/texmf-dist/scripts/ulqda
-@dirrm share/texmf-dist/scripts/typeoutfileinfo
-@dirrm share/texmf-dist/scripts/thumbpdf
-@dirrm share/texmf-dist/scripts/texloganalyser
-@dirrm share/texmf-dist/scripts/texliveonfly
-@dirrm share/texmf-dist/scripts/texlive
-@dirrm share/texmf-dist/scripts/texdoctk
-@dirrm share/texmf-dist/scripts/texdoc
-@dirrm share/texmf-dist/scripts/texdirflatten
-@dirrm share/texmf-dist/scripts/texdiff
-@dirrm share/texmf-dist/scripts/texdef
-@dirrm share/texmf-dist/scripts/texcount
-@dirrm share/texmf-dist/scripts/tex4ht
-@dirrm share/texmf-dist/scripts/svn-multi
-@dirrm share/texmf-dist/scripts/sty2dtx
-@dirrm share/texmf-dist/scripts/splitindex
-@dirrm share/texmf-dist/scripts/simpdftex
-@dirrm share/texmf-dist/scripts/purifyeps
-@dirrm share/texmf-dist/scripts/ptex2pdf
-@dirrm share/texmf-dist/scripts/psutils
-@dirrm share/texmf-dist/scripts/pst2pdf
-@dirrm share/texmf-dist/scripts/pst2pdf
-@dirrm share/texmf-dist/scripts/pst-pdf
-@dirrm share/texmf-dist/scripts/ps2eps
-@dirrm share/texmf-dist/scripts/pmx
-@dirrm share/texmf-dist/scripts/pkfix-helper
-@dirrm share/texmf-dist/scripts/pkfix
-@dirrm share/texmf-dist/scripts/pfarrei
-@dirrm share/texmf-dist/scripts/perltex
-@dirrm share/texmf-dist/scripts/pedigree-perl
-@dirrm share/texmf-dist/scripts/pdfjam
-@dirrm share/texmf-dist/scripts/pdfcrop
-@dirrm share/texmf-dist/scripts/pax
-@dirrm share/texmf-dist/scripts/oberdiek
-@dirrm share/texmf-dist/scripts/musixtex
-@dirrm share/texmf-dist/scripts/multibibliography
-@dirrm share/texmf-dist/scripts/mkjobtexmf
-@dirrm share/texmf-dist/scripts/mkgrkindex
-@dirrm share/texmf-dist/scripts/mf2pt1
-@dirrm share/texmf-dist/scripts/mathspic
-@dirrm share/texmf-dist/scripts/match_parens
-@dirrm share/texmf-dist/scripts/m-tx
-@dirrm share/texmf-dist/scripts/luaotfload
-@dirrm share/texmf-dist/scripts/luaotfload
-@dirrm share/texmf-dist/scripts/lua2dox
-@dirrm share/texmf-dist/scripts/ltxfileinfo
-@dirrm share/texmf-dist/scripts/listings-ext
-@dirrm share/texmf-dist/scripts/listbib
-@dirrm share/texmf-dist/scripts/latexpand
-@dirrm share/texmf-dist/scripts/latexmk
-@dirrm share/texmf-dist/scripts/latexfileversion
-@dirrm share/texmf-dist/scripts/latexdiff
-@dirrm share/texmf-dist/scripts/latex2man
-@dirrm share/texmf-dist/scripts/jfontmaps
-@dirrm share/texmf-dist/scripts/jfontmaps
-@dirrm share/texmf-dist/scripts/installfont
-@dirrm share/texmf-dist/scripts/glossaries
-@dirrm share/texmf-dist/scripts/fragmaster
-@dirrm share/texmf-dist/scripts/fontools
-@dirrm share/texmf-dist/scripts/findhyph
-@dirrm share/texmf-dist/scripts/fig4latex
-@dirrm share/texmf-dist/scripts/exceltex
-@dirrm share/texmf-dist/scripts/epstopdf
-@dirrm share/texmf-dist/scripts/epspdf
-@dirrm share/texmf-dist/scripts/epspdf
-@dirrm share/texmf-dist/scripts/ebong
-@dirrm share/texmf-dist/scripts/dviasm
-@dirrm share/texmf-dist/scripts/dtxgen
-@dirrm share/texmf-dist/scripts/dosepsbin
-@dirrm share/texmf-dist/scripts/de-macro
-@dirrm share/texmf-dist/scripts/ctanupload
-@dirrm share/texmf-dist/scripts/ctanify
-@dirrm share/texmf-dist/scripts/convbkmk
-@dirrm share/texmf-dist/scripts/context/stubs/unix
-@dirrm share/texmf-dist/scripts/context/stubs
-@dirrm share/texmf-dist/scripts/context/perl
-@dirrm share/texmf-dist/scripts/context
-@dirrm share/texmf-dist/scripts/context
-@dirrm share/texmf-dist/scripts/chktex
-@dirrm share/texmf-dist/scripts/checkcites
-@dirrm share/texmf-dist/scripts/cachepic
-@dirrm share/texmf-dist/scripts/bundledoc
-@dirrm share/texmf-dist/scripts/bibexport
-@dirrm share/texmf-dist/scripts/authorindex
-@dirrm share/texmf-dist/scripts/arara
-@dirrm share/texmf-dist/scripts/adhocfilelist
-@dirrm share/texmf-dist/scripts/accfonts
-@dirrm share/texmf-dist/scripts/a2ping
-@dirrm share/texmf-dist/scripts
-@dirrm share/texmf-dist/hbf2gf
-@dirrm share/texmf-dist/fonts/sfd/ttf2pk
-@dirrm share/texmf-dist/fonts/sfd
-@dirrm share/texmf-dist/fonts/map/glyphlist
-@dirrm share/texmf-dist/fonts/map/dvipdfmx
-@dirrm share/texmf-dist/fonts/map
-@dirrm share/texmf-dist/fonts/enc/ttf2pk/base
-@dirrm share/texmf-dist/fonts/enc/ttf2pk
-@dirrm share/texmf-dist/fonts/enc/dvips/base
-@dirrm share/texmf-dist/fonts/enc/dvips
-@dirrm share/texmf-dist/fonts/enc
-@dirrm share/texmf-dist/fonts/cmap/dvipdfmx
-@dirrm share/texmf-dist/fonts/cmap
-@dirrm share/texmf-dist/fonts
-@dirrm share/texmf-dist/dvips/gsftopk
-@dirrm share/texmf-dist/dvips/config
-@dirrm share/texmf-dist/dvips/base
-@dirrm share/texmf-dist/dvips
-@dirrm share/texmf-dist/dvipdfmx
-@dirrm share/texmf-dist/doc/chktex
-@dirrm share/texmf-dist/doc/bibtex8
-@dirrm share/texmf-dist/doc
-@dirrm share/texmf-dist/chktex
-@dirrm share/texmf-dist/bibtex/csf/base
-@dirrm share/texmf-dist/bibtex/csf
-@dirrm share/texmf-dist/bibtex
-@dirrm share/texmf-dist
-@dirrm include/ptexenc
-@dirrm include/kpathsea
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
