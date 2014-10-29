@@ -1239,15 +1239,5 @@ share/texmf-dist/fonts/tfm/jknappen/ec/tcvt2074.tfm
 share/texmf-dist/fonts/tfm/jknappen/ec/tcvt2488.tfm
 share/texmf-dist/fonts/tfm/jknappen/ec/tcvt2986.tfm
 share/texmf-dist/fonts/tfm/jknappen/ec/tcvt3583.tfm
-@dirrmtry share/texmf-dist/fonts/tfm/jknappen/ec
-@dirrmtry share/texmf-dist/fonts/tfm/jknappen
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/source/jknappen/ec
-@dirrmtry share/texmf-dist/fonts/source/jknappen
-@dirrmtry share/texmf-dist/fonts/source
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/fonts/ec
-@dirrmtry share/texmf-dist/doc/fonts
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

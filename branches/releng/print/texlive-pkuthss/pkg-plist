@@ -47,17 +47,5 @@ share/texmf-dist/tex/latex/pkuthss/pkuthss-utf8.def
 share/texmf-dist/tex/latex/pkuthss/pkuthss.cls
 share/texmf-dist/tex/latex/pkuthss/pkuword.eps
 share/texmf-dist/tex/latex/pkuthss/pkuword.pdf
-@dirrmtry share/texmf-dist/tex/latex/pkuthss
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/latex/pkuthss/readme-src/chap
-@dirrmtry share/texmf-dist/doc/latex/pkuthss/readme-src
-@dirrmtry share/texmf-dist/doc/latex/pkuthss/example-utf8/chap
-@dirrmtry share/texmf-dist/doc/latex/pkuthss/example-utf8
-@dirrmtry share/texmf-dist/doc/latex/pkuthss/example-gbk/chap
-@dirrmtry share/texmf-dist/doc/latex/pkuthss/example-gbk
-@dirrmtry share/texmf-dist/doc/latex/pkuthss
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

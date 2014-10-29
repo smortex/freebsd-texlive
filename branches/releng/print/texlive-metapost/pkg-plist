@@ -156,34 +156,5 @@ share/texmf-dist/metapost/support/trchars.adj
 share/texmf-dist/metapost/support/trfonts.map
 share/texmf-dist/tex/generic/metapost/mproof.tex
 share/texmf-dist/tex/generic/metapost/mpsproof.tex
-@dirrmtry share/texmf-dist/tex/generic/metapost
-@dirrmtry share/texmf-dist/tex/generic
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/metapost/support/charlib
-@dirrmtry share/texmf-dist/metapost/support
-@dirrmtry share/texmf-dist/metapost/misc
-@dirrmtry share/texmf-dist/metapost/config
-@dirrmtry share/texmf-dist/metapost/base
-@dirrmtry share/texmf-dist/metapost
-@dirrmtry share/texmf-dist/fonts/type1/metapost
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/tfm/metapost
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/map/dvips/metapost
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/enc/dvips/metapost
-@dirrmtry share/texmf-dist/fonts/enc/dvips
-@dirrmtry share/texmf-dist/fonts/enc
-@dirrmtry share/texmf-dist/fonts/afm/metapost
-@dirrmtry share/texmf-dist/fonts/afm
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/metapost/base/source-tutorial
-@dirrmtry share/texmf-dist/doc/metapost/base/source-manual
-@dirrmtry share/texmf-dist/doc/metapost/base
-@dirrmtry share/texmf-dist/doc/metapost
-@dirrmtry share/texmf-dist/doc/man/man1
-@dirrmtry share/texmf-dist/doc/man
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -4,18 +4,5 @@ share/texmf-dist/fonts/opentype/public/philokalia/Philokalia-Regular.otf
 %%PORTSRC%%share/texmf-dist/source/xelatex/philokalia/philokalia.ins
 share/texmf-dist/tex/xelatex/philokalia/eu1plk.fd
 share/texmf-dist/tex/xelatex/philokalia/philokalia.sty
-@dirrmtry share/texmf-dist/tex/xelatex/philokalia
-@dirrmtry share/texmf-dist/tex/xelatex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/xelatex/philokalia
-@dirrmtry share/texmf-dist/source/xelatex
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/fonts/opentype/public/philokalia
-@dirrmtry share/texmf-dist/fonts/opentype/public
-@dirrmtry share/texmf-dist/fonts/opentype
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/xelatex/philokalia
-@dirrmtry share/texmf-dist/doc/xelatex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

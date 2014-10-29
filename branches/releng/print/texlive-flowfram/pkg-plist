@@ -37,17 +37,5 @@ share/texmf-dist/scripts/flowfram/flowfram.perl
 %%PORTSRC%%share/texmf-dist/source/latex/flowfram/flowfram.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/flowfram/flowfram.ins
 share/texmf-dist/tex/latex/flowfram/flowfram.sty
-@dirrmtry share/texmf-dist/tex/latex/flowfram
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/latex/flowfram
-@dirrmtry share/texmf-dist/source/latex
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/scripts/flowfram
-@dirrmtry share/texmf-dist/scripts
-@dirrmtry share/texmf-dist/doc/latex/flowfram/samples
-@dirrmtry share/texmf-dist/doc/latex/flowfram
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -337,36 +337,5 @@ share/texmf-dist/tex/latex/roboto/TS1Roboto-LF.fd
 share/texmf-dist/tex/latex/roboto/TS1RobotoCondensed-LF.fd
 share/texmf-dist/tex/latex/roboto/TS1RobotoSlab-LF.fd
 share/texmf-dist/tex/latex/roboto/roboto.sty
-@dirrmtry share/texmf-dist/tex/latex/roboto
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/fonts/vf/google/roboto
-@dirrmtry share/texmf-dist/fonts/vf/google
-@dirrmtry share/texmf-dist/fonts/vf
-@dirrmtry share/texmf-dist/fonts/type1/google/roboto
-@dirrmtry share/texmf-dist/fonts/type1/google
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/truetype/google/roboto
-@dirrmtry share/texmf-dist/fonts/truetype/google
-@dirrmtry share/texmf-dist/fonts/truetype
-@dirrmtry share/texmf-dist/fonts/tfm/google/roboto
-@dirrmtry share/texmf-dist/fonts/tfm/google
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/pfm/google/roboto
-@dirrmtry share/texmf-dist/fonts/pfm/google
-@dirrmtry share/texmf-dist/fonts/pfm
-@dirrmtry share/texmf-dist/fonts/map/dvips/roboto
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/enc/dvips/roboto
-@dirrmtry share/texmf-dist/fonts/enc/dvips
-@dirrmtry share/texmf-dist/fonts/enc
-@dirrmtry share/texmf-dist/fonts/afm/google/roboto
-@dirrmtry share/texmf-dist/fonts/afm/google
-@dirrmtry share/texmf-dist/fonts/afm
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/fonts/roboto
-@dirrmtry share/texmf-dist/doc/fonts
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -41,15 +41,5 @@ share/texmf-dist/tex/latex/media9/players/APlayer9.swf
 share/texmf-dist/tex/latex/media9/players/StrobeMediaPlayback.swf
 share/texmf-dist/tex/latex/media9/players/VPlayer.swf
 share/texmf-dist/tex/latex/media9/players/VPlayer9.swf
-@dirrmtry share/texmf-dist/tex/latex/media9/players
-@dirrmtry share/texmf-dist/tex/latex/media9/javascript
-@dirrmtry share/texmf-dist/tex/latex/media9
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/latex/media9/files/players
-@dirrmtry share/texmf-dist/doc/latex/media9/files
-@dirrmtry share/texmf-dist/doc/latex/media9
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

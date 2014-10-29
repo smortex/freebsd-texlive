@@ -99,44 +99,5 @@ share/texmf-dist/tex/latex/pgfplots/pgfplotstable.sty
 share/texmf-dist/tex/latex/pgfplots/pgfregressiontest.sty
 share/texmf-dist/tex/plain/pgfplots/pgfplots.tex
 share/texmf-dist/tex/plain/pgfplots/pgfplotstable.tex
-@dirrmtry share/texmf-dist/tex/plain/pgfplots
-@dirrmtry share/texmf-dist/tex/plain
-@dirrmtry share/texmf-dist/tex/latex/pgfplots/libs
-@dirrmtry share/texmf-dist/tex/latex/pgfplots
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex/generic/pgfplots/util
-@dirrmtry share/texmf-dist/tex/generic/pgfplots/test
-@dirrmtry share/texmf-dist/tex/generic/pgfplots/sys
-@dirrmtry share/texmf-dist/tex/generic/pgfplots/pgfcontrib
-@dirrmtry share/texmf-dist/tex/generic/pgfplots/oldpgfplotscompatib
-@dirrmtry share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib
-@dirrmtry share/texmf-dist/tex/generic/pgfplots/numtable
-@dirrmtry share/texmf-dist/tex/generic/pgfplots/lua
-@dirrmtry share/texmf-dist/tex/generic/pgfplots/liststructure
-@dirrmtry share/texmf-dist/tex/generic/pgfplots/libs
-@dirrmtry share/texmf-dist/tex/generic/pgfplots
-@dirrmtry share/texmf-dist/tex/generic
-@dirrmtry share/texmf-dist/tex/context/third/pgfplots
-@dirrmtry share/texmf-dist/tex/context/third
-@dirrmtry share/texmf-dist/tex/context
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/latex/pgfplots
-@dirrmtry share/texmf-dist/source/latex
-@dirrmtry share/texmf-dist/source/context/third/pgfplots
-@dirrmtry share/texmf-dist/source/context/third
-@dirrmtry share/texmf-dist/source/context
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/scripts/pgfplots
-@dirrmtry share/texmf-dist/scripts
-@dirrmtry share/texmf-dist/doc/plain/pgfplots
-@dirrmtry share/texmf-dist/doc/plain
-@dirrmtry share/texmf-dist/doc/latex/pgfplots
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc/generic/pgfplots
-@dirrmtry share/texmf-dist/doc/generic
-@dirrmtry share/texmf-dist/doc/context/third/pgfplots
-@dirrmtry share/texmf-dist/doc/context/third
-@dirrmtry share/texmf-dist/doc/context
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

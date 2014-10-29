@@ -23,11 +23,5 @@ share/texmf-dist/tex/generic/ukrhyph/ukrhypmp.tex
 share/texmf-dist/tex/generic/ukrhyph/ukrhypmt.tex
 share/texmf-dist/tex/generic/ukrhyph/ukrhypsm.tex
 share/texmf-dist/tex/generic/ukrhyph/ukrhypst.tex
-@dirrmtry share/texmf-dist/tex/generic/ukrhyph
-@dirrmtry share/texmf-dist/tex/generic
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/generic/ukrhyph
-@dirrmtry share/texmf-dist/doc/generic
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

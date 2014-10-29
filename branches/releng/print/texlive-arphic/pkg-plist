@@ -1564,46 +1564,5 @@ share/texmf-dist/fonts/vf/arphic/gkaimp/gkaimp29.vf
 share/texmf-dist/fonts/vf/arphic/gkaimp/gkaimp30.vf
 share/texmf-dist/fonts/vf/arphic/gkaimp/gkaimp31.vf
 share/texmf-dist/fonts/vf/arphic/gkaimp/gkaimp32.vf
-@dirrmtry share/texmf-dist/fonts/vf/arphic/gkaimp
-@dirrmtry share/texmf-dist/fonts/vf/arphic/gbsnlp
-@dirrmtry share/texmf-dist/fonts/vf/arphic/bsmilp
-@dirrmtry share/texmf-dist/fonts/vf/arphic/bkaimp
-@dirrmtry share/texmf-dist/fonts/vf/arphic
-@dirrmtry share/texmf-dist/fonts/vf
-@dirrmtry share/texmf-dist/fonts/type1/arphic/gkaiu
-@dirrmtry share/texmf-dist/fonts/type1/arphic/gbsnu
-@dirrmtry share/texmf-dist/fonts/type1/arphic/bsmiu
-@dirrmtry share/texmf-dist/fonts/type1/arphic/bkaiu
-@dirrmtry share/texmf-dist/fonts/type1/arphic
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/tfm/arphic/gkaiu
-@dirrmtry share/texmf-dist/fonts/tfm/arphic/gkaimp
-@dirrmtry share/texmf-dist/fonts/tfm/arphic/gbsnu
-@dirrmtry share/texmf-dist/fonts/tfm/arphic/gbsnlp
-@dirrmtry share/texmf-dist/fonts/tfm/arphic/bsmiu
-@dirrmtry share/texmf-dist/fonts/tfm/arphic/bsmilp
-@dirrmtry share/texmf-dist/fonts/tfm/arphic/bkaiu
-@dirrmtry share/texmf-dist/fonts/tfm/arphic/bkaimp
-@dirrmtry share/texmf-dist/fonts/tfm/arphic
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/map/dvips/arphic
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/afm/arphic/gkaiu
-@dirrmtry share/texmf-dist/fonts/afm/arphic/gbsnu
-@dirrmtry share/texmf-dist/fonts/afm/arphic/bsmiu
-@dirrmtry share/texmf-dist/fonts/afm/arphic/bkaiu
-@dirrmtry share/texmf-dist/fonts/afm/arphic
-@dirrmtry share/texmf-dist/fonts/afm
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/dvips/arphic
-@dirrmtry share/texmf-dist/dvips
-@dirrmtry share/texmf-dist/doc/fonts/arphic/gkaiu
-@dirrmtry share/texmf-dist/doc/fonts/arphic/gbsnu
-@dirrmtry share/texmf-dist/doc/fonts/arphic/bsmiu
-@dirrmtry share/texmf-dist/doc/fonts/arphic/bkaiu
-@dirrmtry share/texmf-dist/doc/fonts/arphic
-@dirrmtry share/texmf-dist/doc/fonts
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -59,26 +59,5 @@ share/texmf-dist/tex/latex/l3experimental/l3str/l3tl-build.sty
 share/texmf-dist/tex/latex/l3experimental/xcoffins/xcoffins.sty
 share/texmf-dist/tex/latex/l3experimental/xgalley/l3galley.sty
 share/texmf-dist/tex/latex/l3experimental/xgalley/xgalley.sty
-@dirrmtry share/texmf-dist/tex/latex/l3experimental/xgalley
-@dirrmtry share/texmf-dist/tex/latex/l3experimental/xcoffins
-@dirrmtry share/texmf-dist/tex/latex/l3experimental/l3str
-@dirrmtry share/texmf-dist/tex/latex/l3experimental/l3sort
-@dirrmtry share/texmf-dist/tex/latex/l3experimental
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/latex/l3experimental/xgalley
-@dirrmtry share/texmf-dist/source/latex/l3experimental/xcoffins
-@dirrmtry share/texmf-dist/source/latex/l3experimental/l3str
-@dirrmtry share/texmf-dist/source/latex/l3experimental/l3sort
-@dirrmtry share/texmf-dist/source/latex/l3experimental
-@dirrmtry share/texmf-dist/source/latex
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/doc/latex/l3experimental/xgalley
-@dirrmtry share/texmf-dist/doc/latex/l3experimental/xcoffins
-@dirrmtry share/texmf-dist/doc/latex/l3experimental/l3str
-@dirrmtry share/texmf-dist/doc/latex/l3experimental/l3sort
-@dirrmtry share/texmf-dist/doc/latex/l3experimental
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

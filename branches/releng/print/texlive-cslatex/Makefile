@@ -11,7 +11,9 @@ COMMENT=	LaTeX support for Czech/Slovak typesetting.
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/makeindex/latex/gglo.ist:${PORTSDIR}/print/texlive-latex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
-NOPORTDOCS=	yes
+OPTIONS_DEFINE=	SRCS
+OPTIONS_EXCLUDE=	DOCS
+.include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

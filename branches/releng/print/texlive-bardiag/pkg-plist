@@ -55,15 +55,5 @@ share/texmf-dist/tex/latex/bardiag/bardiag.bar
 share/texmf-dist/tex/latex/bardiag/bardiag.cfg
 share/texmf-dist/tex/latex/bardiag/bardiag.sty
 share/texmf-dist/tex/latex/bardiag/pstfp.sty
-@dirrmtry share/texmf-dist/tex/latex/bardiag
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/latex/bardiag/src
-@dirrmtry share/texmf-dist/doc/latex/bardiag/figs
-@dirrmtry share/texmf-dist/doc/latex/bardiag/example/src
-@dirrmtry share/texmf-dist/doc/latex/bardiag/example
-@dirrmtry share/texmf-dist/doc/latex/bardiag
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

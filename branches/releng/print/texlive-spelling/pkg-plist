@@ -12,13 +12,5 @@ share/texmf-dist/scripts/spelling/spelling-stage-2.lua
 share/texmf-dist/scripts/spelling/spelling-stage-3.lua
 share/texmf-dist/scripts/spelling/spelling-stage-4.lua
 share/texmf-dist/tex/luatex/spelling/spelling.sty
-@dirrmtry share/texmf-dist/tex/luatex/spelling
-@dirrmtry share/texmf-dist/tex/luatex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/scripts/spelling
-@dirrmtry share/texmf-dist/scripts
-@dirrmtry share/texmf-dist/doc/luatex/spelling
-@dirrmtry share/texmf-dist/doc/luatex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -20,24 +20,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/pmxchords/pmxchords-install.pdf
 %%PORTDOCS%%share/texmf-dist/doc/pmxchords/pmxchords-install.tex
 share/texmf-dist/scripts/pmxchords/ChordsTr.lua
-share/texmf-dist/scripts/pmxchords/pmxchords.lua
 share/texmf-dist/tex/generic/pmxchords/chords.tex
 share/texmf-dist/tex/generic/pmxchords/chordsCZ.tex
-@dirrmtry share/texmf-dist/tex/generic/pmxchords
-@dirrmtry share/texmf-dist/tex/generic
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/scripts/pmxchords
-@dirrmtry share/texmf-dist/scripts
-@dirrmtry share/texmf-dist/doc/pmxchords/examples/noel/pasli_ovce_valasi
-@dirrmtry share/texmf-dist/doc/pmxchords/examples/noel/aj_co_to_hlasaju
-@dirrmtry share/texmf-dist/doc/pmxchords/examples/noel
-@dirrmtry share/texmf-dist/doc/pmxchords/examples/jazz/schema
-@dirrmtry share/texmf-dist/doc/pmxchords/examples/jazz/misty
-@dirrmtry share/texmf-dist/doc/pmxchords/examples/jazz
-@dirrmtry share/texmf-dist/doc/pmxchords/examples
-@dirrmtry share/texmf-dist/doc/pmxchords
-@dirrmtry share/texmf-dist/doc/man/man1
-@dirrmtry share/texmf-dist/doc/man
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

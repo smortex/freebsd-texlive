@@ -201,34 +201,5 @@ share/texmf-dist/tex/uptex/base/ukinsoku.tex
 share/texmf-dist/tex/uptex/base/uptex.tex
 share/texmf-dist/tex/uptex/config/euptex.ini
 share/texmf-dist/tex/uptex/config/uptex.ini
-@dirrmtry share/texmf-dist/tex/uptex/config
-@dirrmtry share/texmf-dist/tex/uptex/base
-@dirrmtry share/texmf-dist/tex/uptex
-@dirrmtry share/texmf-dist/tex/uplatex/config
-@dirrmtry share/texmf-dist/tex/uplatex/base
-@dirrmtry share/texmf-dist/tex/uplatex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/uplatex/base
-@dirrmtry share/texmf-dist/source/uplatex
-@dirrmtry share/texmf-dist/source/fonts/uptex
-@dirrmtry share/texmf-dist/source/fonts
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/fonts/vf/uptex/min
-@dirrmtry share/texmf-dist/fonts/vf/uptex/jis
-@dirrmtry share/texmf-dist/fonts/vf/uptex
-@dirrmtry share/texmf-dist/fonts/vf
-@dirrmtry share/texmf-dist/fonts/tfm/uptex/min
-@dirrmtry share/texmf-dist/fonts/tfm/uptex/jis
-@dirrmtry share/texmf-dist/fonts/tfm/uptex
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/cmap/uptex
-@dirrmtry share/texmf-dist/fonts/cmap
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/uptex/base/samples
-@dirrmtry share/texmf-dist/doc/uptex/base
-@dirrmtry share/texmf-dist/doc/uptex
-@dirrmtry share/texmf-dist/doc/uplatex/base
-@dirrmtry share/texmf-dist/doc/uplatex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

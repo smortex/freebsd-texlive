@@ -5,17 +5,5 @@ share/texmf-dist/fonts/tfm/public/garuda-c90/fgdbo8z.tfm
 share/texmf-dist/fonts/tfm/public/garuda-c90/fgdo8z.tfm
 share/texmf-dist/fonts/tfm/public/garuda-c90/fgdr8z.tfm
 %%PORTSRC%%share/texmf-dist/source/fonts/garuda-c90/garuda-c90.fontinst
-@dirrmtry share/texmf-dist/source/fonts/garuda-c90
-@dirrmtry share/texmf-dist/source/fonts
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/fonts/tfm/public/garuda-c90
-@dirrmtry share/texmf-dist/fonts/tfm/public
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/map/dvips/garuda-c90
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/dvips/garuda-c90
-@dirrmtry share/texmf-dist/dvips
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

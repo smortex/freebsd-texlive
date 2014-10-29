@@ -10,14 +10,5 @@
 share/texmf-dist/tex/generic/dowith/domore.sty
 share/texmf-dist/tex/generic/dowith/dowith.RLS
 share/texmf-dist/tex/generic/dowith/dowith.sty
-@dirrmtry share/texmf-dist/tex/generic/dowith
-@dirrmtry share/texmf-dist/tex/generic
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/generic/dowith
-@dirrmtry share/texmf-dist/source/generic
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/doc/generic/dowith
-@dirrmtry share/texmf-dist/doc/generic
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

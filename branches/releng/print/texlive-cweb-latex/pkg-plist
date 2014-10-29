@@ -77,19 +77,5 @@ share/texmf-dist/tex/latex/cweb-latex/cweb.cls
 share/texmf-dist/tex/latex/cweb-latex/cwebarray.sty
 share/texmf-dist/tex/latex/cweb-latex/cwebbase.tex
 share/texmf-dist/tex/latex/cweb-latex/keyvald.sty
-@dirrmtry share/texmf-dist/tex/latex/cweb-latex
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/latex/cweb-latex/src/test
-@dirrmtry share/texmf-dist/doc/latex/cweb-latex/src/style
-@dirrmtry share/texmf-dist/doc/latex/cweb-latex/src
-@dirrmtry share/texmf-dist/doc/latex/cweb-latex/examples/compare
-@dirrmtry share/texmf-dist/doc/latex/cweb-latex/examples
-@dirrmtry share/texmf-dist/doc/latex/cweb-latex/contrib/wagner
-@dirrmtry share/texmf-dist/doc/latex/cweb-latex/contrib/cweb-hy
-@dirrmtry share/texmf-dist/doc/latex/cweb-latex/contrib
-@dirrmtry share/texmf-dist/doc/latex/cweb-latex
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

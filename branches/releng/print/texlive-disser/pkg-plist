@@ -113,33 +113,5 @@ share/texmf-dist/tex/latex/disser/gost732.cls
 share/texmf-dist/tex/latex/disser/master.rtx
 share/texmf-dist/tex/latex/disser/specialist.rtx
 share/texmf-dist/tex/latex/disser/titledefs.rtx
-@dirrmtry share/texmf-dist/tex/latex/disser
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/latex/disser
-@dirrmtry share/texmf-dist/source/latex
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/makeindex/disser
-@dirrmtry share/texmf-dist/makeindex
-@dirrmtry share/texmf-dist/doc/latex/disser/templates/specialist/fig
-@dirrmtry share/texmf-dist/doc/latex/disser/templates/specialist
-@dirrmtry share/texmf-dist/doc/latex/disser/templates/master/fig
-@dirrmtry share/texmf-dist/doc/latex/disser/templates/master
-@dirrmtry share/texmf-dist/doc/latex/disser/templates/doctor/fig
-@dirrmtry share/texmf-dist/doc/latex/disser/templates/doctor
-@dirrmtry share/texmf-dist/doc/latex/disser/templates/candidate/fig
-@dirrmtry share/texmf-dist/doc/latex/disser/templates/candidate
-@dirrmtry share/texmf-dist/doc/latex/disser/templates/bachelor/fig
-@dirrmtry share/texmf-dist/doc/latex/disser/templates/bachelor
-@dirrmtry share/texmf-dist/doc/latex/disser/templates
-@dirrmtry share/texmf-dist/doc/latex/disser/include
-@dirrmtry share/texmf-dist/doc/latex/disser
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@dirrmtry share/texmf-dist/bibtex/csf/disser
-@dirrmtry share/texmf-dist/bibtex/csf
-@dirrmtry share/texmf-dist/bibtex/bst/disser
-@dirrmtry share/texmf-dist/bibtex/bst
-@dirrmtry share/texmf-dist/bibtex
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

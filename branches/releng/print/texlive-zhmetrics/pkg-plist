@@ -4939,33 +4939,5 @@ share/texmf-dist/tex/latex/zhmetrics/c70zhkai.fd
 share/texmf-dist/tex/latex/zhmetrics/c70zhli.fd
 share/texmf-dist/tex/latex/zhmetrics/c70zhsong.fd
 share/texmf-dist/tex/latex/zhmetrics/c70zhyou.fd
-@dirrmtry share/texmf-dist/tex/latex/zhmetrics
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex/generic/zhmetrics
-@dirrmtry share/texmf-dist/tex/generic
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/fonts/zhmetrics
-@dirrmtry share/texmf-dist/source/fonts
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/fonts/tfm/zhmetrics/uniyou
-@dirrmtry share/texmf-dist/fonts/tfm/zhmetrics/unisong
-@dirrmtry share/texmf-dist/fonts/tfm/zhmetrics/unili
-@dirrmtry share/texmf-dist/fonts/tfm/zhmetrics/unikai
-@dirrmtry share/texmf-dist/fonts/tfm/zhmetrics/unihei
-@dirrmtry share/texmf-dist/fonts/tfm/zhmetrics/unifs
-@dirrmtry share/texmf-dist/fonts/tfm/zhmetrics/gbkyou
-@dirrmtry share/texmf-dist/fonts/tfm/zhmetrics/gbksong
-@dirrmtry share/texmf-dist/fonts/tfm/zhmetrics/gbkli
-@dirrmtry share/texmf-dist/fonts/tfm/zhmetrics/gbkkai
-@dirrmtry share/texmf-dist/fonts/tfm/zhmetrics/gbkhei
-@dirrmtry share/texmf-dist/fonts/tfm/zhmetrics/gbkfs
-@dirrmtry share/texmf-dist/fonts/tfm/zhmetrics/gbk
-@dirrmtry share/texmf-dist/fonts/tfm/zhmetrics/cyberb
-@dirrmtry share/texmf-dist/fonts/tfm/zhmetrics
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/fonts/zhmetrics
-@dirrmtry share/texmf-dist/doc/fonts
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

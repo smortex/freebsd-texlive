@@ -1243,55 +1243,5 @@ share/texmf-dist/tex/latex/mathdesign/omlmdgrb.fd
 share/texmf-dist/tex/latex/mathdesign/omlmdgrbc.fd
 share/texmf-dist/tex/latex/mathdesign/omlmdgrd.fd
 share/texmf-dist/tex/latex/mathdesign/omlmdgrdc.fd
-@dirrmtry share/texmf-dist/tex/latex/mathdesign/mdugm
-@dirrmtry share/texmf-dist/tex/latex/mathdesign/mdput
-@dirrmtry share/texmf-dist/tex/latex/mathdesign/mdpus
-@dirrmtry share/texmf-dist/tex/latex/mathdesign/mdpgd
-@dirrmtry share/texmf-dist/tex/latex/mathdesign/mdici
-@dirrmtry share/texmf-dist/tex/latex/mathdesign/mdbch
-@dirrmtry share/texmf-dist/tex/latex/mathdesign
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/fonts/vf/public/mathdesign/mdugm
-@dirrmtry share/texmf-dist/fonts/vf/public/mathdesign/mdput
-@dirrmtry share/texmf-dist/fonts/vf/public/mathdesign/mdpus
-@dirrmtry share/texmf-dist/fonts/vf/public/mathdesign/mdpgd
-@dirrmtry share/texmf-dist/fonts/vf/public/mathdesign/mdici
-@dirrmtry share/texmf-dist/fonts/vf/public/mathdesign/mdgreek
-@dirrmtry share/texmf-dist/fonts/vf/public/mathdesign/mdbch
-@dirrmtry share/texmf-dist/fonts/vf/public/mathdesign
-@dirrmtry share/texmf-dist/fonts/vf/public
-@dirrmtry share/texmf-dist/fonts/vf
-@dirrmtry share/texmf-dist/fonts/type1/public/mathdesign/mdugm
-@dirrmtry share/texmf-dist/fonts/type1/public/mathdesign/mdput
-@dirrmtry share/texmf-dist/fonts/type1/public/mathdesign/mdpus
-@dirrmtry share/texmf-dist/fonts/type1/public/mathdesign/mdpgd
-@dirrmtry share/texmf-dist/fonts/type1/public/mathdesign/mdici
-@dirrmtry share/texmf-dist/fonts/type1/public/mathdesign/mdbch
-@dirrmtry share/texmf-dist/fonts/type1/public/mathdesign
-@dirrmtry share/texmf-dist/fonts/type1/public
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/tfm/public/mathdesign/mdugm
-@dirrmtry share/texmf-dist/fonts/tfm/public/mathdesign/mdput
-@dirrmtry share/texmf-dist/fonts/tfm/public/mathdesign/mdpus
-@dirrmtry share/texmf-dist/fonts/tfm/public/mathdesign/mdpgd
-@dirrmtry share/texmf-dist/fonts/tfm/public/mathdesign/mdici
-@dirrmtry share/texmf-dist/fonts/tfm/public/mathdesign/mdgreek
-@dirrmtry share/texmf-dist/fonts/tfm/public/mathdesign/mdbch
-@dirrmtry share/texmf-dist/fonts/tfm/public/mathdesign
-@dirrmtry share/texmf-dist/fonts/tfm/public
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/map/dvips/mathdesign
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/enc/dvips/mathdesign
-@dirrmtry share/texmf-dist/fonts/enc/dvips
-@dirrmtry share/texmf-dist/fonts/enc
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/dvips/mathdesign
-@dirrmtry share/texmf-dist/dvips
-@dirrmtry share/texmf-dist/doc/fonts/mathdesign
-@dirrmtry share/texmf-dist/doc/fonts
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

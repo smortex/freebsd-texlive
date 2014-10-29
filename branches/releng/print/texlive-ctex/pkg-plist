@@ -50,19 +50,5 @@ share/texmf-dist/tex/latex/ctex/fontset/ctex-xecjk-winfonts.def
 share/texmf-dist/tex/latex/ctex/opt/ctex-caption-opts.def
 share/texmf-dist/tex/latex/ctex/opt/ctex-class-opts.def
 share/texmf-dist/tex/latex/ctex/opt/ctex-common-opts.def
-@dirrmtry share/texmf-dist/tex/latex/ctex/opt
-@dirrmtry share/texmf-dist/tex/latex/ctex/fontset
-@dirrmtry share/texmf-dist/tex/latex/ctex/fd
-@dirrmtry share/texmf-dist/tex/latex/ctex/engine
-@dirrmtry share/texmf-dist/tex/latex/ctex/def
-@dirrmtry share/texmf-dist/tex/latex/ctex/cfg
-@dirrmtry share/texmf-dist/tex/latex/ctex/back
-@dirrmtry share/texmf-dist/tex/latex/ctex
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/latex/ctex/test
-@dirrmtry share/texmf-dist/doc/latex/ctex
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

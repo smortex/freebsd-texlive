@@ -553,44 +553,5 @@ share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-zh-latn-pinyin.lic.txt
 share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-zh-latn-pinyin.pat.txt
 share/texmf-dist/tex/luatex/hyph-utf8/etex.src
 share/texmf-dist/tex/luatex/hyph-utf8/luatex-hyphen.lua
-@dirrmtry share/texmf-dist/tex/luatex/hyph-utf8
-@dirrmtry share/texmf-dist/tex/luatex
-@dirrmtry share/texmf-dist/tex/generic/hyph-utf8/patterns/txt
-@dirrmtry share/texmf-dist/tex/generic/hyph-utf8/patterns/tex-8bit
-@dirrmtry share/texmf-dist/tex/generic/hyph-utf8/patterns/tex
-@dirrmtry share/texmf-dist/tex/generic/hyph-utf8/patterns/quote
-@dirrmtry share/texmf-dist/tex/generic/hyph-utf8/patterns/ptex
-@dirrmtry share/texmf-dist/tex/generic/hyph-utf8/patterns
-@dirrmtry share/texmf-dist/tex/generic/hyph-utf8/loadhyph
-@dirrmtry share/texmf-dist/tex/generic/hyph-utf8/conversions
-@dirrmtry share/texmf-dist/tex/generic/hyph-utf8
-@dirrmtry share/texmf-dist/tex/generic
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/luatex/hyph-utf8
-@dirrmtry share/texmf-dist/source/luatex
-@dirrmtry share/texmf-dist/source/generic/hyph-utf8/languages/tr
-@dirrmtry share/texmf-dist/source/generic/hyph-utf8/languages/tk
-@dirrmtry share/texmf-dist/source/generic/hyph-utf8/languages/mul-ethi
-@dirrmtry share/texmf-dist/source/generic/hyph-utf8/languages/hy
-@dirrmtry share/texmf-dist/source/generic/hyph-utf8/languages/gl
-@dirrmtry share/texmf-dist/source/generic/hyph-utf8/languages/eu
-@dirrmtry share/texmf-dist/source/generic/hyph-utf8/languages/es
-@dirrmtry share/texmf-dist/source/generic/hyph-utf8/languages
-@dirrmtry share/texmf-dist/source/generic/hyph-utf8/data/encodings
-@dirrmtry share/texmf-dist/source/generic/hyph-utf8/data
-@dirrmtry share/texmf-dist/source/generic/hyph-utf8/contributed
-@dirrmtry share/texmf-dist/source/generic/hyph-utf8
-@dirrmtry share/texmf-dist/source/generic
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/doc/luatex/hyph-utf8
-@dirrmtry share/texmf-dist/doc/luatex
-@dirrmtry share/texmf-dist/doc/generic/hyph-utf8/sa
-@dirrmtry share/texmf-dist/doc/generic/hyph-utf8/img
-@dirrmtry share/texmf-dist/doc/generic/hyph-utf8/hu
-@dirrmtry share/texmf-dist/doc/generic/hyph-utf8/es
-@dirrmtry share/texmf-dist/doc/generic/hyph-utf8/bg
-@dirrmtry share/texmf-dist/doc/generic/hyph-utf8
-@dirrmtry share/texmf-dist/doc/generic
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

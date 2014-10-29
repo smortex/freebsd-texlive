@@ -28,38 +28,5 @@ share/texmf-dist/omega/otp/ocherokee/cher2uni.otp
 share/texmf-dist/tex/lambda/ocherokee/lchcmr.fd
 share/texmf-dist/tex/lambda/ocherokee/lchenc.def
 share/texmf-dist/tex/lambda/ocherokee/ocherokee.sty
-@dirrmtry share/texmf-dist/tex/lambda/ocherokee
-@dirrmtry share/texmf-dist/tex/lambda
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/omega/otp/ocherokee
-@dirrmtry share/texmf-dist/omega/otp
-@dirrmtry share/texmf-dist/omega/ocp/ocherokee
-@dirrmtry share/texmf-dist/omega/ocp
-@dirrmtry share/texmf-dist/omega
-@dirrmtry share/texmf-dist/fonts/type1/public/ocherokee
-@dirrmtry share/texmf-dist/fonts/type1/public
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/tfm/public/ocherokee
-@dirrmtry share/texmf-dist/fonts/tfm/public
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/ovp/public/ocherokee
-@dirrmtry share/texmf-dist/fonts/ovp/public
-@dirrmtry share/texmf-dist/fonts/ovp
-@dirrmtry share/texmf-dist/fonts/ovf/public/ocherokee
-@dirrmtry share/texmf-dist/fonts/ovf/public
-@dirrmtry share/texmf-dist/fonts/ovf
-@dirrmtry share/texmf-dist/fonts/ofm/public/ocherokee
-@dirrmtry share/texmf-dist/fonts/ofm/public
-@dirrmtry share/texmf-dist/fonts/ofm
-@dirrmtry share/texmf-dist/fonts/map/dvips/ocherokee
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/afm/public/ocherokee
-@dirrmtry share/texmf-dist/fonts/afm/public
-@dirrmtry share/texmf-dist/fonts/afm
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/omega/ocherokee
-@dirrmtry share/texmf-dist/doc/omega
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

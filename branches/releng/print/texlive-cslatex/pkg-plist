@@ -40,13 +40,5 @@ share/texmf-dist/tex/cslatex/cspsfonts/xl2pnc.fd
 share/texmf-dist/tex/cslatex/cspsfonts/xl2ppl.fd
 share/texmf-dist/tex/cslatex/cspsfonts/xl2ptm.fd
 share/texmf-dist/tex/cslatex/cspsfonts/xl2pzc.fd
-@dirrmtry share/texmf-dist/tex/cslatex/cspsfonts
-@dirrmtry share/texmf-dist/tex/cslatex/base
-@dirrmtry share/texmf-dist/tex/cslatex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/cslatex/cspsfonts
-@dirrmtry share/texmf-dist/source/cslatex/base
-@dirrmtry share/texmf-dist/source/cslatex
-@dirrmtry share/texmf-dist/source
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

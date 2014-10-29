@@ -14,12 +14,5 @@ share/texmf-dist/tex/latex/biblatex-swiss-legal/biblatex-swiss-legal-longarticle
 share/texmf-dist/tex/latex/biblatex-swiss-legal/biblatex-swiss-legal-longarticle.cbx
 share/texmf-dist/tex/latex/biblatex-swiss-legal/biblatex-swiss-legal-shortarticle.bbx
 share/texmf-dist/tex/latex/biblatex-swiss-legal/biblatex-swiss-legal-shortarticle.cbx
-@dirrmtry share/texmf-dist/tex/latex/biblatex-swiss-legal
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/latex/biblatex-swiss-legal/doc_source
-@dirrmtry share/texmf-dist/doc/latex/biblatex-swiss-legal
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -11,11 +11,5 @@ share/texmf-dist/tex/generic/dehyph-exptl/dehypht-x-2014-05-21.pat
 share/texmf-dist/tex/generic/dehyph-exptl/dehypht-x-2014-05-21.tex
 share/texmf-dist/tex/generic/dehyph-exptl/dehyphts-x-2014-05-21.pat
 share/texmf-dist/tex/generic/dehyph-exptl/dehyphts-x-2014-05-21.tex
-@dirrmtry share/texmf-dist/tex/generic/dehyph-exptl
-@dirrmtry share/texmf-dist/tex/generic
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/generic/dehyph-exptl
-@dirrmtry share/texmf-dist/doc/generic
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

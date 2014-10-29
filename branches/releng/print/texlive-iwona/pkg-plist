@@ -611,32 +611,5 @@ share/texmf-dist/tex/latex/iwona/ts1iwonac.fd
 share/texmf-dist/tex/latex/iwona/ts1iwonal.fd
 share/texmf-dist/tex/latex/iwona/ts1iwonalc.fd
 share/texmf-dist/tex/plain/iwona/iwona-math.tex
-@dirrmtry share/texmf-dist/tex/plain/iwona
-@dirrmtry share/texmf-dist/tex/plain
-@dirrmtry share/texmf-dist/tex/latex/iwona
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/fonts/type1/nowacki/iwona
-@dirrmtry share/texmf-dist/fonts/type1/nowacki
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/tfm/nowacki/iwona
-@dirrmtry share/texmf-dist/fonts/tfm/nowacki
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/opentype/nowacki/iwona
-@dirrmtry share/texmf-dist/fonts/opentype/nowacki
-@dirrmtry share/texmf-dist/fonts/opentype
-@dirrmtry share/texmf-dist/fonts/map/dvips/iwona
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/enc/dvips/iwona
-@dirrmtry share/texmf-dist/fonts/enc/dvips
-@dirrmtry share/texmf-dist/fonts/enc
-@dirrmtry share/texmf-dist/fonts/afm/nowacki/iwona
-@dirrmtry share/texmf-dist/fonts/afm/nowacki
-@dirrmtry share/texmf-dist/fonts/afm
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/fonts/iwona
-@dirrmtry share/texmf-dist/doc/fonts
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

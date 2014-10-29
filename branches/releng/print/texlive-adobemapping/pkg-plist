@@ -219,20 +219,5 @@ share/texmf-dist/fonts/cmap/adobemapping/ak12/cid2code.txt
 share/texmf-dist/fonts/cmap/adobemapping/cmap-current-versions.txt
 share/texmf-dist/fonts/cmap/adobemapping/cmap-readme.txt
 share/texmf-dist/fonts/cmap/adobemapping/mapping-readme.txt
-@dirrmtry share/texmf-dist/fonts/cmap/adobemapping/ak12/CMap
-@dirrmtry share/texmf-dist/fonts/cmap/adobemapping/ak12
-@dirrmtry share/texmf-dist/fonts/cmap/adobemapping/aj16/CMap
-@dirrmtry share/texmf-dist/fonts/cmap/adobemapping/aj16
-@dirrmtry share/texmf-dist/fonts/cmap/adobemapping/ai0/CMap
-@dirrmtry share/texmf-dist/fonts/cmap/adobemapping/ai0
-@dirrmtry share/texmf-dist/fonts/cmap/adobemapping/ag15/CMap
-@dirrmtry share/texmf-dist/fonts/cmap/adobemapping/ag15
-@dirrmtry share/texmf-dist/fonts/cmap/adobemapping/ac16/CMap
-@dirrmtry share/texmf-dist/fonts/cmap/adobemapping/ac16
-@dirrmtry share/texmf-dist/fonts/cmap/adobemapping/ToUnicode
-@dirrmtry share/texmf-dist/fonts/cmap/adobemapping/MappingOther
-@dirrmtry share/texmf-dist/fonts/cmap/adobemapping
-@dirrmtry share/texmf-dist/fonts/cmap
-@dirrmtry share/texmf-dist/fonts
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -750,30 +750,5 @@ share/texmf-dist/tex/latex/raleway/TS1Raleway-TLF.fd
 share/texmf-dist/tex/latex/raleway/TS1Raleway-TOsF.fd
 share/texmf-dist/tex/latex/raleway/raleway-type1-autoinst.sty
 share/texmf-dist/tex/latex/raleway/raleway.sty
-@dirrmtry share/texmf-dist/tex/latex/raleway
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/fonts/vf/impallari/raleway
-@dirrmtry share/texmf-dist/fonts/vf/impallari
-@dirrmtry share/texmf-dist/fonts/vf
-@dirrmtry share/texmf-dist/fonts/type1/impallari/raleway
-@dirrmtry share/texmf-dist/fonts/type1/impallari
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/tfm/impallari/raleway
-@dirrmtry share/texmf-dist/fonts/tfm/impallari
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/opentype/impallari/raleway
-@dirrmtry share/texmf-dist/fonts/opentype/impallari
-@dirrmtry share/texmf-dist/fonts/opentype
-@dirrmtry share/texmf-dist/fonts/map/dvips/raleway
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/enc/dvips/raleway
-@dirrmtry share/texmf-dist/fonts/enc/dvips
-@dirrmtry share/texmf-dist/fonts/enc
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/latex/raleway
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

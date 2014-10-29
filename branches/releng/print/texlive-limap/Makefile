@@ -8,7 +8,9 @@ CATEGORIES=	print
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Typeset maps and blocks according to the Information Mapping method.
 
-NOPORTDOCS=	yes
+OPTIONS_DEFINE=	SRCS
+OPTIONS_EXCLUDE=	DOCS
+.include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

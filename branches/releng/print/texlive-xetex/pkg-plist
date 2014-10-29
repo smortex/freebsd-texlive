@@ -8,20 +8,5 @@ share/texmf-dist/scripts/xetex/perl/lib/PDF/Reuse.pm
 share/texmf-dist/scripts/xetex/perl/lib/PDF/Reuse/Util.pm
 share/texmf-dist/scripts/xetex/perl/xdv2pdf_mergemarks
 share/tlpkg/tlpostcode/xetex.pl
-@dirrmtry share/tlpkg/tlpostcode
-@dirrmtry share/texmf-dist/scripts/xetex/perl/lib/PDF/Reuse
-@dirrmtry share/texmf-dist/scripts/xetex/perl/lib/PDF
-@dirrmtry share/texmf-dist/scripts/xetex/perl/lib
-@dirrmtry share/texmf-dist/scripts/xetex/perl
-@dirrmtry share/texmf-dist/scripts/xetex
-@dirrmtry share/texmf-dist/scripts
-@dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping/base
-@dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping
-@dirrmtry share/texmf-dist/fonts/misc/xetex
-@dirrmtry share/texmf-dist/fonts/misc
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/xetex/base
-@dirrmtry share/texmf-dist/doc/xetex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

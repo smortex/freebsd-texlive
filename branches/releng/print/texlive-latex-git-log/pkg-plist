@@ -5,14 +5,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latex-git-log/example.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/latex-git-log/example.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latex-git-log/po/de.po
-share/texmf-dist/scripts/latex-git-log/latex-git-log
-@dirrmtry share/texmf-dist/scripts/latex-git-log
-@dirrmtry share/texmf-dist/scripts
-@dirrmtry share/texmf-dist/doc/support/latex-git-log/po
-@dirrmtry share/texmf-dist/doc/support/latex-git-log
-@dirrmtry share/texmf-dist/doc/support
-@dirrmtry share/texmf-dist/doc/man/man1
-@dirrmtry share/texmf-dist/doc/man
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

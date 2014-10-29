@@ -10,17 +10,5 @@ share/texmf-dist/scripts/adhocfilelist/herelist.sh
 %%PORTSRC%%share/texmf-dist/source/support/adhocfilelist/srcfiles.tex
 %%PORTSRC%%share/texmf-dist/source/support/adhocfilelist/texblog.fdf
 share/texmf-dist/tex/support/adhocfilelist/adhocfilelist.RLS
-@dirrmtry share/texmf-dist/tex/support/adhocfilelist
-@dirrmtry share/texmf-dist/tex/support
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/support/adhocfilelist
-@dirrmtry share/texmf-dist/source/support
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/scripts/adhocfilelist
-@dirrmtry share/texmf-dist/scripts
-@dirrmtry share/texmf-dist/doc/support/adhocfilelist/demo
-@dirrmtry share/texmf-dist/doc/support/adhocfilelist
-@dirrmtry share/texmf-dist/doc/support
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

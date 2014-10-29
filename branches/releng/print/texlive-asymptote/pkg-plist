@@ -426,20 +426,5 @@ share/texmf-dist/tex/latex/asymptote/asycolors.sty
 share/texmf-dist/tex/latex/asymptote/asymptote.sty
 share/texmf-dist/tex/latex/asymptote/latexmkrc
 share/texmf-dist/tex/latex/asymptote/ocg.sty
-@dirrmtry share/texmf-dist/tex/latex/asymptote
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex/context/third/asymptote
-@dirrmtry share/texmf-dist/tex/context/third
-@dirrmtry share/texmf-dist/tex/context
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/man/man1
-@dirrmtry share/texmf-dist/doc/man
-@dirrmtry share/texmf-dist/doc/info
-@dirrmtry share/texmf-dist/doc/asymptote/examples/animations
-@dirrmtry share/texmf-dist/doc/asymptote/examples
-@dirrmtry share/texmf-dist/doc/asymptote
-@dirrmtry share/texmf-dist/doc
-@dirrmtry share/texmf-dist/asymptote/GUI
-@dirrmtry share/texmf-dist/asymptote
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

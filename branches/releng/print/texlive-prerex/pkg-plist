@@ -16,13 +16,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/man/man5/prerex.5
 %%PORTDOCS%%share/texmf-dist/doc/man/man5/prerex.man5.pdf
 share/texmf-dist/tex/latex/prerex/prerex.sty
-@dirrmtry share/texmf-dist/tex/latex/prerex
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/man/man5
-@dirrmtry share/texmf-dist/doc/man
-@dirrmtry share/texmf-dist/doc/latex/prerex
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

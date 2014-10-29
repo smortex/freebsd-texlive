@@ -36,14 +36,5 @@ share/texmf-dist/tex/latex/kotex-utf/lucuhcmj.fd
 share/texmf-dist/tex/latex/kotex-utf/tex4ht/dhucs.4ht
 share/texmf-dist/tex/latex/kotex-utf/tex4ht/dhucs.cfg
 share/texmf-dist/tex/latex/kotex-utf/tex4ht/kosections-utf.4ht
-@dirrmtry share/texmf-dist/tex/latex/kotex-utf/tex4ht
-@dirrmtry share/texmf-dist/tex/latex/kotex-utf/contrib
-@dirrmtry share/texmf-dist/tex/latex/kotex-utf
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/latex/kotex-utf/fig
-@dirrmtry share/texmf-dist/doc/latex/kotex-utf
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

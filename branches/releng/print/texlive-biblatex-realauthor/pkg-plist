@@ -8,12 +8,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-realauthor/makefile
 share/texmf-dist/tex/latex/biblatex-realauthor/realauthor.bbx
 share/texmf-dist/tex/latex/biblatex-realauthor/realauthor.dbx
-@dirrmtry share/texmf-dist/tex/latex/biblatex-realauthor
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/latex/biblatex-realauthor/documentation
-@dirrmtry share/texmf-dist/doc/latex/biblatex-realauthor
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

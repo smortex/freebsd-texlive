@@ -16,17 +16,5 @@ share/texmf-dist/tex/fontinst/afm2pl/README
 share/texmf-dist/tex/fontinst/afm2pl/ly1.etx
 share/texmf-dist/tex/fontinst/afm2pl/ly1c.etx
 share/texmf-dist/tex/fontinst/afm2pl/makesc8y.tex
-@dirrmtry share/texmf-dist/tex/fontinst/afm2pl
-@dirrmtry share/texmf-dist/tex/fontinst
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/fonts/lig/afm2pl
-@dirrmtry share/texmf-dist/fonts/lig
-@dirrmtry share/texmf-dist/fonts/enc/dvips/afm2pl
-@dirrmtry share/texmf-dist/fonts/enc/dvips
-@dirrmtry share/texmf-dist/fonts/enc
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/man/man1
-@dirrmtry share/texmf-dist/doc/man
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -31,7 +31,5 @@ share/texmf-dist/dvips/dvipsconfig/config.tray2
 share/texmf-dist/dvips/dvipsconfig/config.tray3
 share/texmf-dist/dvips/dvipsconfig/config.usledger
 share/texmf-dist/dvips/dvipsconfig/config.usletter
-@dirrmtry share/texmf-dist/dvips/dvipsconfig
-@dirrmtry share/texmf-dist/dvips
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

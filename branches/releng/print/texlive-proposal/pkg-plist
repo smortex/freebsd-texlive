@@ -119,31 +119,5 @@ share/texmf-dist/tex/latex/proposal/dfg/dfgreporting.cls
 share/texmf-dist/tex/latex/proposal/eu/eupdata.sty
 share/texmf-dist/tex/latex/proposal/eu/euproposal.cls
 share/texmf-dist/tex/latex/proposal/eu/eureporting.cls
-@dirrmtry share/texmf-dist/tex/latex/proposal/eu
-@dirrmtry share/texmf-dist/tex/latex/proposal/dfg
-@dirrmtry share/texmf-dist/tex/latex/proposal/base
-@dirrmtry share/texmf-dist/tex/latex/proposal
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/latex/proposal/eu
-@dirrmtry share/texmf-dist/source/latex/proposal/dfg
-@dirrmtry share/texmf-dist/source/latex/proposal/base
-@dirrmtry share/texmf-dist/source/latex/proposal
-@dirrmtry share/texmf-dist/source/latex
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/doc/latex/proposal/examples/strep
-@dirrmtry share/texmf-dist/doc/latex/proposal/examples/simple-proposal
-@dirrmtry share/texmf-dist/doc/latex/proposal/examples/report
-@dirrmtry share/texmf-dist/doc/latex/proposal/examples/proposal
-@dirrmtry share/texmf-dist/doc/latex/proposal/examples/lib
-@dirrmtry share/texmf-dist/doc/latex/proposal/examples/fetopenstrep
-@dirrmtry share/texmf-dist/doc/latex/proposal/examples/dfgdocs
-@dirrmtry share/texmf-dist/doc/latex/proposal/examples
-@dirrmtry share/texmf-dist/doc/latex/proposal/eu
-@dirrmtry share/texmf-dist/doc/latex/proposal/dfg
-@dirrmtry share/texmf-dist/doc/latex/proposal/base
-@dirrmtry share/texmf-dist/doc/latex/proposal
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -280,29 +280,5 @@ share/texmf-dist/fonts/tfm/cns/c7so12/c7so1223.tfm
 share/texmf-dist/fonts/tfm/cns/c7so12/c7so1224.tfm
 share/texmf-dist/fonts/tfm/cns/c7so12/c7so1225.tfm
 share/texmf-dist/fonts/tfm/cns/c7so12/c7so1226.tfm
-@dirrmtry share/texmf-dist/fonts/tfm/cns/c7so12
-@dirrmtry share/texmf-dist/fonts/tfm/cns/c6so12
-@dirrmtry share/texmf-dist/fonts/tfm/cns/c5so12
-@dirrmtry share/texmf-dist/fonts/tfm/cns/c4so12
-@dirrmtry share/texmf-dist/fonts/tfm/cns/c3so12
-@dirrmtry share/texmf-dist/fonts/tfm/cns/c2so12
-@dirrmtry share/texmf-dist/fonts/tfm/cns/c1so12
-@dirrmtry share/texmf-dist/fonts/tfm/cns/c0so12
-@dirrmtry share/texmf-dist/fonts/tfm/cns
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/misc/cns
-@dirrmtry share/texmf-dist/fonts/misc
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/fonts/cns/cns40-b5
-@dirrmtry share/texmf-dist/doc/fonts/cns/cns40-7
-@dirrmtry share/texmf-dist/doc/fonts/cns/cns40-6
-@dirrmtry share/texmf-dist/doc/fonts/cns/cns40-5
-@dirrmtry share/texmf-dist/doc/fonts/cns/cns40-4
-@dirrmtry share/texmf-dist/doc/fonts/cns/cns40-3
-@dirrmtry share/texmf-dist/doc/fonts/cns/cns40-2
-@dirrmtry share/texmf-dist/doc/fonts/cns/cns40-1
-@dirrmtry share/texmf-dist/doc/fonts/cns
-@dirrmtry share/texmf-dist/doc/fonts
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
