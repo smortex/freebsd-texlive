@@ -23,19 +23,5 @@ share/texmf-dist/metapost/mfpic/grafbase.mp
 share/texmf-dist/tex/generic/mfpic/mfpic.sty
 share/texmf-dist/tex/generic/mfpic/mfpic.tex
 share/texmf-dist/tex/generic/mfpic/mfpicdef.tex
-@dirrmtry share/texmf-dist/tex/generic/mfpic
-@dirrmtry share/texmf-dist/tex/generic
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/generic/mfpic
-@dirrmtry share/texmf-dist/source/generic
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/metapost/mfpic
-@dirrmtry share/texmf-dist/metapost
-@dirrmtry share/texmf-dist/metafont/mfpic
-@dirrmtry share/texmf-dist/metafont
-@dirrmtry share/texmf-dist/doc/generic/mfpic/examples
-@dirrmtry share/texmf-dist/doc/generic/mfpic
-@dirrmtry share/texmf-dist/doc/generic
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

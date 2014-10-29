@@ -2408,36 +2408,5 @@ share/texmf-dist/tex/latex/alegreya/TS1AlegreyaSansSC-LF.fd
 share/texmf-dist/tex/latex/alegreya/TS1AlegreyaSansSC-OsF.fd
 share/texmf-dist/tex/latex/alegreya/TS1AlegreyaSansSC-TLF.fd
 share/texmf-dist/tex/latex/alegreya/TS1AlegreyaSansSC-TOsF.fd
-@dirrmtry share/texmf-dist/tex/latex/alegreya
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/fonts/vf/huerta/alegreya
-@dirrmtry share/texmf-dist/fonts/vf/huerta
-@dirrmtry share/texmf-dist/fonts/vf
-@dirrmtry share/texmf-dist/fonts/type1/huerta/alegreya
-@dirrmtry share/texmf-dist/fonts/type1/huerta
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/truetype/huerta/alegreya
-@dirrmtry share/texmf-dist/fonts/truetype/huerta
-@dirrmtry share/texmf-dist/fonts/truetype
-@dirrmtry share/texmf-dist/fonts/tfm/huerta/alegreya
-@dirrmtry share/texmf-dist/fonts/tfm/huerta
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/pfm/huerta/alegreya
-@dirrmtry share/texmf-dist/fonts/pfm/huerta
-@dirrmtry share/texmf-dist/fonts/pfm
-@dirrmtry share/texmf-dist/fonts/map/dvips/alegreya
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/enc/dvips/alegreya
-@dirrmtry share/texmf-dist/fonts/enc/dvips
-@dirrmtry share/texmf-dist/fonts/enc
-@dirrmtry share/texmf-dist/fonts/afm/huerta/alegreya
-@dirrmtry share/texmf-dist/fonts/afm/huerta
-@dirrmtry share/texmf-dist/fonts/afm
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/fonts/alegreya
-@dirrmtry share/texmf-dist/doc/fonts
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

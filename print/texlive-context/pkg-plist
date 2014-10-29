@@ -506,9 +506,7 @@ share/texmf-dist/scripts/context/stubs/setup/setuptex.csh
 share/texmf-dist/scripts/context/stubs/source/mtxrun_dll.c
 share/texmf-dist/scripts/context/stubs/source/mtxrun_exe.c
 share/texmf-dist/scripts/context/stubs/source/readme.txt
-share/texmf-dist/scripts/context/stubs/unix/contextjit
 share/texmf-dist/scripts/context/stubs/unix/metatex
-share/texmf-dist/scripts/context/stubs/unix/mtxrunjit
 share/texmf-dist/scripts/context/stubs/unix/mtxworks
 share/texmf-dist/scripts/context/stubs/win64/context.exe
 share/texmf-dist/scripts/context/stubs/win64/contextjit.exe
@@ -2469,105 +2467,5 @@ share/texmf-dist/tex/latex/context/ppchtex/m-ch-de.sty
 share/texmf-dist/tex/latex/context/ppchtex/m-ch-en.sty
 share/texmf-dist/tex/latex/context/ppchtex/m-ch-nl.sty
 share/texmf-dist/tex/latex/context/ppchtex/m-pictex.sty
-@dirrmtry share/texmf-dist/tex/latex/context/ppchtex
-@dirrmtry share/texmf-dist/tex/latex/context
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex/generic/context/ppchtex
-@dirrmtry share/texmf-dist/tex/generic/context/luatex
-@dirrmtry share/texmf-dist/tex/generic/context
-@dirrmtry share/texmf-dist/tex/generic
-@dirrmtry share/texmf-dist/tex/context/user
-@dirrmtry share/texmf-dist/tex/context/test
-@dirrmtry share/texmf-dist/tex/context/sample
-@dirrmtry share/texmf-dist/tex/context/patterns
-@dirrmtry share/texmf-dist/tex/context/interface
-@dirrmtry share/texmf-dist/tex/context/foxet
-@dirrmtry share/texmf-dist/tex/context/fonts
-@dirrmtry share/texmf-dist/tex/context/extra
-@dirrmtry share/texmf-dist/tex/context/colors/icc/context
-@dirrmtry share/texmf-dist/tex/context/colors/icc
-@dirrmtry share/texmf-dist/tex/context/colors
-@dirrmtry share/texmf-dist/tex/context/bib
-@dirrmtry share/texmf-dist/tex/context/base
-@dirrmtry share/texmf-dist/tex/context
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/scripts/context/stubs/win64
-@dirrmtry share/texmf-dist/scripts/context/stubs/unix
-@dirrmtry share/texmf-dist/scripts/context/stubs/source
-@dirrmtry share/texmf-dist/scripts/context/stubs/setup
-@dirrmtry share/texmf-dist/scripts/context/stubs/mswin
-@dirrmtry share/texmf-dist/scripts/context/stubs/install
-@dirrmtry share/texmf-dist/scripts/context/stubs
-@dirrmtry share/texmf-dist/scripts/context/ruby/graphics
-@dirrmtry share/texmf-dist/scripts/context/ruby/base/kpse
-@dirrmtry share/texmf-dist/scripts/context/ruby/base
-@dirrmtry share/texmf-dist/scripts/context/ruby
-@dirrmtry share/texmf-dist/scripts/context/perl
-@dirrmtry share/texmf-dist/scripts/context/lua
-@dirrmtry share/texmf-dist/scripts/context
-@dirrmtry share/texmf-dist/scripts
-@dirrmtry share/texmf-dist/metapost/context/fonts
-@dirrmtry share/texmf-dist/metapost/context/base
-@dirrmtry share/texmf-dist/metapost/context
-@dirrmtry share/texmf-dist/metapost
-@dirrmtry share/texmf-dist/fonts/type1/hoekwater/context
-@dirrmtry share/texmf-dist/fonts/type1/hoekwater
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/tfm/hoekwater/context
-@dirrmtry share/texmf-dist/fonts/tfm/hoekwater
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/pfm/hoekwater/context
-@dirrmtry share/texmf-dist/fonts/pfm/hoekwater
-@dirrmtry share/texmf-dist/fonts/pfm
-@dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping/context
-@dirrmtry share/texmf-dist/fonts/misc/xetex/fontmapping
-@dirrmtry share/texmf-dist/fonts/misc/xetex
-@dirrmtry share/texmf-dist/fonts/misc
-@dirrmtry share/texmf-dist/fonts/map/pdftex/context
-@dirrmtry share/texmf-dist/fonts/map/pdftex
-@dirrmtry share/texmf-dist/fonts/map/luatex/context
-@dirrmtry share/texmf-dist/fonts/map/luatex
-@dirrmtry share/texmf-dist/fonts/map/dvips/context
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/fea/context
-@dirrmtry share/texmf-dist/fonts/fea
-@dirrmtry share/texmf-dist/fonts/enc/dvips/context
-@dirrmtry share/texmf-dist/fonts/enc/dvips
-@dirrmtry share/texmf-dist/fonts/enc
-@dirrmtry share/texmf-dist/fonts/cid/fontforge
-@dirrmtry share/texmf-dist/fonts/cid
-@dirrmtry share/texmf-dist/fonts/afm/hoekwater/context
-@dirrmtry share/texmf-dist/fonts/afm/hoekwater
-@dirrmtry share/texmf-dist/fonts/afm
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/man/man1
-@dirrmtry share/texmf-dist/doc/man
-@dirrmtry share/texmf-dist/doc/context/scripts/mkiv
-@dirrmtry share/texmf-dist/doc/context/scripts/mkii
-@dirrmtry share/texmf-dist/doc/context/scripts
-@dirrmtry share/texmf-dist/doc/context/manuals/allkind
-@dirrmtry share/texmf-dist/doc/context/manuals
-@dirrmtry share/texmf-dist/doc/context/document/general/manuals
-@dirrmtry share/texmf-dist/doc/context/document/general
-@dirrmtry share/texmf-dist/doc/context/document
-@dirrmtry share/texmf-dist/doc/context
-@dirrmtry share/texmf-dist/doc
-@dirrmtry share/texmf-dist/context/data/texworks/configuration
-@dirrmtry share/texmf-dist/context/data/texworks/completion
-@dirrmtry share/texmf-dist/context/data/texworks/TUG
-@dirrmtry share/texmf-dist/context/data/texworks
-@dirrmtry share/texmf-dist/context/data/texfont
-@dirrmtry share/texmf-dist/context/data/scite/context/lexers/themes
-@dirrmtry share/texmf-dist/context/data/scite/context/lexers/data
-@dirrmtry share/texmf-dist/context/data/scite/context/lexers
-@dirrmtry share/texmf-dist/context/data/scite/context/documents
-@dirrmtry share/texmf-dist/context/data/scite/context
-@dirrmtry share/texmf-dist/context/data/scite
-@dirrmtry share/texmf-dist/context/data
-@dirrmtry share/texmf-dist/context
-@dirrmtry share/texmf-dist/bibtex/bst/context
-@dirrmtry share/texmf-dist/bibtex/bst
-@dirrmtry share/texmf-dist/bibtex
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

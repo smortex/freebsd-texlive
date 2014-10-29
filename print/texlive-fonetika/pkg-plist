@@ -20,27 +20,5 @@ share/texmf-dist/fonts/type1/public/fonetika/FonetikaDaniaPallaeBold.pfb
 share/texmf-dist/fonts/type1/public/fonetika/FonetikaDaniaPallaeRegular.pfb
 share/texmf-dist/tex/latex/fonetika/fonetika.sty
 share/texmf-dist/tex/latex/fonetika/t1fonetika.fd
-@dirrmtry share/texmf-dist/tex/latex/fonetika
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/fonts/type1/public/fonetika
-@dirrmtry share/texmf-dist/fonts/type1/public
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/truetype/public/fonetika
-@dirrmtry share/texmf-dist/fonts/truetype/public
-@dirrmtry share/texmf-dist/fonts/truetype
-@dirrmtry share/texmf-dist/fonts/tfm/public/fonetika
-@dirrmtry share/texmf-dist/fonts/tfm/public
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/map/dvips/fonetika
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/afm/public/fonetika
-@dirrmtry share/texmf-dist/fonts/afm/public
-@dirrmtry share/texmf-dist/fonts/afm
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/fonts/fonetika
-@dirrmtry share/texmf-dist/doc/fonts
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

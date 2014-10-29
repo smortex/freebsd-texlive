@@ -320,30 +320,5 @@ share/texmf-dist/tex/latex/gillius/TS1GilliusADFNoTwo-LF.fd
 share/texmf-dist/tex/latex/gillius/TS1GilliusADFNoTwoCond-LF.fd
 share/texmf-dist/tex/latex/gillius/gillius.sty
 share/texmf-dist/tex/latex/gillius/gillius2.sty
-@dirrmtry share/texmf-dist/tex/latex/gillius
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/fonts/vf/arkandis/gillius
-@dirrmtry share/texmf-dist/fonts/vf/arkandis
-@dirrmtry share/texmf-dist/fonts/vf
-@dirrmtry share/texmf-dist/fonts/type1/arkandis/gillius
-@dirrmtry share/texmf-dist/fonts/type1/arkandis
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/tfm/arkandis/gillius
-@dirrmtry share/texmf-dist/fonts/tfm/arkandis
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/opentype/arkandis/gillius
-@dirrmtry share/texmf-dist/fonts/opentype/arkandis
-@dirrmtry share/texmf-dist/fonts/opentype
-@dirrmtry share/texmf-dist/fonts/map/dvips/gillius
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/enc/dvips/gillius
-@dirrmtry share/texmf-dist/fonts/enc/dvips
-@dirrmtry share/texmf-dist/fonts/enc
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/fonts/gillius
-@dirrmtry share/texmf-dist/doc/fonts
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

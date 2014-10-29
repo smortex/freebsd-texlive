@@ -8,7 +8,8 @@ CATEGORIES=	print
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	A range of sub- and superscript commands.
 
-NOPORTSRC=	yes
+OPTIONS_DEFINE=	DOCS
+.include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

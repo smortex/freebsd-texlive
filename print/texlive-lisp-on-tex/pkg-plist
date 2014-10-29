@@ -51,19 +51,5 @@ share/texmf-dist/tex/latex/lisp-on-tex/lisp-prim.sty
 share/texmf-dist/tex/latex/lisp-on-tex/lisp-read.sty
 share/texmf-dist/tex/latex/lisp-on-tex/lisp-string.sty
 share/texmf-dist/tex/latex/lisp-on-tex/lisp-util.sty
-@dirrmtry share/texmf-dist/tex/latex/lisp-on-tex
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/perltex
-@dirrmtry share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/luatex
-@dirrmtry share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/lot
-@dirrmtry share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/latex
-@dirrmtry share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench/expl3
-@dirrmtry share/texmf-dist/doc/latex/lisp-on-tex/tug2013/bench
-@dirrmtry share/texmf-dist/doc/latex/lisp-on-tex/tug2013
-@dirrmtry share/texmf-dist/doc/latex/lisp-on-tex/examples
-@dirrmtry share/texmf-dist/doc/latex/lisp-on-tex
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

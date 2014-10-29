@@ -8,7 +8,8 @@ CATEGORIES=	print
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Braces over and under a formula.
 
-NOPORTSRC=	yes
+OPTIONS_DEFINE=	DOCS
+.include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

@@ -10,14 +10,5 @@ share/texmf-dist/tex/plain/graphics-pln/graphicx.tex
 share/texmf-dist/tex/plain/graphics-pln/miniltx.tex
 share/texmf-dist/tex/plain/graphics-pln/picture.tex
 share/texmf-dist/tex/plain/graphics-pln/psfrag.tex
-@dirrmtry share/texmf-dist/tex/plain/graphics-pln
-@dirrmtry share/texmf-dist/tex/plain
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/plain/graphics-pln
-@dirrmtry share/texmf-dist/source/plain
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/doc/plain/graphics-pln
-@dirrmtry share/texmf-dist/doc/plain
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

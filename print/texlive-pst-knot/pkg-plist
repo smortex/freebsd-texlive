@@ -5,15 +5,5 @@
 share/texmf-dist/dvips/pst-knot/pst-psm.pro
 share/texmf-dist/tex/generic/pst-knot/pst-knot.tex
 share/texmf-dist/tex/latex/pst-knot/pst-knot.sty
-@dirrmtry share/texmf-dist/tex/latex/pst-knot
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex/generic/pst-knot
-@dirrmtry share/texmf-dist/tex/generic
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/dvips/pst-knot
-@dirrmtry share/texmf-dist/dvips
-@dirrmtry share/texmf-dist/doc/generic/pst-knot
-@dirrmtry share/texmf-dist/doc/generic
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -10,7 +10,8 @@ COMMENT=	A ConTeXt implementation of lettrines.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORTSDIR}/print/texlive-context
 
-NOPORTSRC=	yes
+OPTIONS_DEFINE=	DOCS
+.include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

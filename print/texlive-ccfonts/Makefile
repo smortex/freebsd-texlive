@@ -8,6 +8,8 @@ CATEGORIES=	print
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Support for Concrete text and math fonts in LaTeX.
 
+OPTIONS_DEFINE=	DOCS SRCS
+.include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

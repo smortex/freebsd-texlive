@@ -55,18 +55,5 @@ share/texmf-dist/tex/latex/achemso/config/oprdfk.cfg
 share/texmf-dist/tex/latex/achemso/config/orgnd7.cfg
 share/texmf-dist/tex/latex/achemso/config/orlef7.cfg
 share/texmf-dist/tex/latex/achemso/natmove.sty
-@dirrmtry share/texmf-dist/tex/latex/achemso/config
-@dirrmtry share/texmf-dist/tex/latex/achemso
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/latex/achemso
-@dirrmtry share/texmf-dist/source/latex
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/doc/latex/achemso
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@dirrmtry share/texmf-dist/bibtex/bst/achemso
-@dirrmtry share/texmf-dist/bibtex/bst
-@dirrmtry share/texmf-dist/bibtex
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

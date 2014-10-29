@@ -7,7 +7,8 @@ CATEGORIES=	print
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Set up Japanese font families for XeLaTeX.
 
-NOPORTSRC=	yes
+OPTIONS_DEFINE=	DOCS
+.include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

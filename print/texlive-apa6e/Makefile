@@ -8,6 +8,8 @@ CATEGORIES=	print
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Format manuscripts to APA 6th edition guidelines.
 
+OPTIONS_DEFINE=	DOCS SRCS
+.include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

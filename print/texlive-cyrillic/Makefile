@@ -9,6 +9,8 @@ COMMENT=	Support for Cyrillic fonts in LaTeX.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/rubibtex.sh:${PORTSDIR}/print/texlive-cyrillic-bin
 
+OPTIONS_DEFINE=	DOCS SRCS
+.include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

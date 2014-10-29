@@ -8,8 +8,8 @@ CATEGORIES=	print
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Format chapters with a texi-like format.
 
-NOPORTDOCS=	yes
-NOPORTSRC=	yes
+OPTIONS_EXCLUDE=	DOCS
+.include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

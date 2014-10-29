@@ -59,31 +59,5 @@ share/texmf-dist/tex/generic/config/pdftex-dvi.tex
 share/texmf-dist/tex/generic/config/pdftexconfig.tex
 share/texmf-dist/tex/generic/pdftex/glyphtounicode.tex
 share/texmf-dist/tex/generic/pdftex/pdfcolor.tex
-@dirrmtry share/texmf-dist/tex/generic/pdftex
-@dirrmtry share/texmf-dist/tex/generic/config
-@dirrmtry share/texmf-dist/tex/generic
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/fonts/type1/public/pdftex
-@dirrmtry share/texmf-dist/fonts/type1/public
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/tfm/public/pdftex
-@dirrmtry share/texmf-dist/fonts/tfm/public
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/map/pdftex/updmap
-@dirrmtry share/texmf-dist/fonts/map/pdftex
-@dirrmtry share/texmf-dist/fonts/map/dvips/dummy-space
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/pdftex/thanh/ext
-@dirrmtry share/texmf-dist/doc/pdftex/thanh
-@dirrmtry share/texmf-dist/doc/pdftex/pdftex-pdfkeys
-@dirrmtry share/texmf-dist/doc/pdftex/manual/samplepdf
-@dirrmtry share/texmf-dist/doc/pdftex/manual
-@dirrmtry share/texmf-dist/doc/pdftex/01-fake-interword-space
-@dirrmtry share/texmf-dist/doc/pdftex
-@dirrmtry share/texmf-dist/doc/man/man1
-@dirrmtry share/texmf-dist/doc/man
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -31,11 +31,5 @@ share/texmf-dist/tex/latex/ticket/ticket.sty
 share/texmf-dist/tex/latex/ticket/zw32010.tdf
 share/texmf-dist/tex/latex/ticket/zw3424.tdf
 share/texmf-dist/tex/latex/ticket/zw4752.tdf
-@dirrmtry share/texmf-dist/tex/latex/ticket
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/latex/ticket
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

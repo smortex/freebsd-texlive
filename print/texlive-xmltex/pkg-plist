@@ -26,13 +26,5 @@ share/texmf-dist/tex/xmltex/base/xmltex.cfg
 share/texmf-dist/tex/xmltex/base/xmltex.tex
 share/texmf-dist/tex/xmltex/config/pdfxmltex.ini
 share/texmf-dist/tex/xmltex/config/xmltex.ini
-@dirrmtry share/texmf-dist/tex/xmltex/config
-@dirrmtry share/texmf-dist/tex/xmltex/base
-@dirrmtry share/texmf-dist/tex/xmltex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/otherformats/xmltex/base
-@dirrmtry share/texmf-dist/doc/otherformats/xmltex
-@dirrmtry share/texmf-dist/doc/otherformats
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

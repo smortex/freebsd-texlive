@@ -15,6 +15,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/xifthen/xifthen.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/sauerj/collect.sty:${PORTSDIR}/print/texlive-sauerj \
 		${LOCALBASE}/share/texmf-dist/tex/latex/placeins/placeins.sty:${PORTSDIR}/print/texlive-placeins
 
+OPTIONS_DEFINE=	DOCS SRCS
+.include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

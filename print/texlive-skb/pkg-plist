@@ -155,28 +155,5 @@ share/texmf-dist/tex/latex/skb/skbbook.cls
 share/texmf-dist/tex/latex/skb/skblncsbeamer.cls
 share/texmf-dist/tex/latex/skb/skblncsppt.cls
 share/texmf-dist/tex/latex/skb/skbmoderncv.cls
-@dirrmtry share/texmf-dist/tex/latex/skb
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/latex/skb
-@dirrmtry share/texmf-dist/source/latex
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/doc/latex/skb/user-guide/slides
-@dirrmtry share/texmf-dist/doc/latex/skb/user-guide/repository/story
-@dirrmtry share/texmf-dist/doc/latex/skb/user-guide/repository/separate
-@dirrmtry share/texmf-dist/doc/latex/skb/user-guide/repository/manual
-@dirrmtry share/texmf-dist/doc/latex/skb/user-guide/repository/getting-started
-@dirrmtry share/texmf-dist/doc/latex/skb/user-guide/repository/exa-doc
-@dirrmtry share/texmf-dist/doc/latex/skb/user-guide/repository
-@dirrmtry share/texmf-dist/doc/latex/skb/user-guide/figures/multiexample
-@dirrmtry share/texmf-dist/doc/latex/skb/user-guide/figures/dirtree
-@dirrmtry share/texmf-dist/doc/latex/skb/user-guide/figures
-@dirrmtry share/texmf-dist/doc/latex/skb/user-guide/examples
-@dirrmtry share/texmf-dist/doc/latex/skb/user-guide/database/bibtex
-@dirrmtry share/texmf-dist/doc/latex/skb/user-guide/database
-@dirrmtry share/texmf-dist/doc/latex/skb/user-guide
-@dirrmtry share/texmf-dist/doc/latex/skb
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

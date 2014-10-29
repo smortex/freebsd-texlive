@@ -301,52 +301,5 @@ share/texmf-dist/tex/ptex/base/kinsoku.tex
 share/texmf-dist/tex/ptex/base/ptex.tex
 share/texmf-dist/tex/ptex/config/eptex.ini
 share/texmf-dist/tex/ptex/config/ptex.ini
-@dirrmtry share/texmf-dist/tex/ptex/config
-@dirrmtry share/texmf-dist/tex/ptex/base
-@dirrmtry share/texmf-dist/tex/ptex
-@dirrmtry share/texmf-dist/tex/platex/config
-@dirrmtry share/texmf-dist/tex/platex/base
-@dirrmtry share/texmf-dist/tex/platex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/platex/base
-@dirrmtry share/texmf-dist/source/platex
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/pbibtex/bst
-@dirrmtry share/texmf-dist/pbibtex/bib
-@dirrmtry share/texmf-dist/pbibtex
-@dirrmtry share/texmf-dist/fonts/vf/ptex/standard
-@dirrmtry share/texmf-dist/fonts/vf/ptex/nmin-ngoth
-@dirrmtry share/texmf-dist/fonts/vf/ptex/morisawa
-@dirrmtry share/texmf-dist/fonts/vf/ptex/jis
-@dirrmtry share/texmf-dist/fonts/vf/ptex
-@dirrmtry share/texmf-dist/fonts/vf
-@dirrmtry share/texmf-dist/fonts/type1/ptex/ascgrp
-@dirrmtry share/texmf-dist/fonts/type1/ptex
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/tfm/ptex/standard
-@dirrmtry share/texmf-dist/fonts/tfm/ptex/nmin-ngoth
-@dirrmtry share/texmf-dist/fonts/tfm/ptex/morisawa
-@dirrmtry share/texmf-dist/fonts/tfm/ptex/jis
-@dirrmtry share/texmf-dist/fonts/tfm/ptex/dvips
-@dirrmtry share/texmf-dist/fonts/tfm/ptex/ascgrp
-@dirrmtry share/texmf-dist/fonts/tfm/ptex
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/source/ptex/standard
-@dirrmtry share/texmf-dist/fonts/source/ptex/nmin-ngoth
-@dirrmtry share/texmf-dist/fonts/source/ptex/jis
-@dirrmtry share/texmf-dist/fonts/source/ptex/ascgrp
-@dirrmtry share/texmf-dist/fonts/source/ptex
-@dirrmtry share/texmf-dist/fonts/source
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/ptex
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/ptex/pbibtex
-@dirrmtry share/texmf-dist/doc/ptex/jvf
-@dirrmtry share/texmf-dist/doc/ptex/base
-@dirrmtry share/texmf-dist/doc/ptex
-@dirrmtry share/texmf-dist/doc/man/man1
-@dirrmtry share/texmf-dist/doc/man
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

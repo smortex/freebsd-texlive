@@ -629,53 +629,5 @@ share/texmf-dist/tex/latex/amsfonts/umsb.fd
 share/texmf-dist/tex/plain/amsfonts/amssym.def
 share/texmf-dist/tex/plain/amsfonts/amssym.tex
 share/texmf-dist/tex/plain/amsfonts/cyracc.def
-@dirrmtry share/texmf-dist/tex/plain/amsfonts
-@dirrmtry share/texmf-dist/tex/plain
-@dirrmtry share/texmf-dist/tex/latex/amsfonts
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/latex/amsfonts
-@dirrmtry share/texmf-dist/source/latex
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/fonts/type1/public/amsfonts/symbols
-@dirrmtry share/texmf-dist/fonts/type1/public/amsfonts/latxfont
-@dirrmtry share/texmf-dist/fonts/type1/public/amsfonts/euler
-@dirrmtry share/texmf-dist/fonts/type1/public/amsfonts/cyrillic
-@dirrmtry share/texmf-dist/fonts/type1/public/amsfonts/cmextra
-@dirrmtry share/texmf-dist/fonts/type1/public/amsfonts/cm
-@dirrmtry share/texmf-dist/fonts/type1/public/amsfonts
-@dirrmtry share/texmf-dist/fonts/type1/public
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/tfm/public/amsfonts/symbols
-@dirrmtry share/texmf-dist/fonts/tfm/public/amsfonts/euler
-@dirrmtry share/texmf-dist/fonts/tfm/public/amsfonts/dummy
-@dirrmtry share/texmf-dist/fonts/tfm/public/amsfonts/cyrillic
-@dirrmtry share/texmf-dist/fonts/tfm/public/amsfonts/cmextra
-@dirrmtry share/texmf-dist/fonts/tfm/public/amsfonts
-@dirrmtry share/texmf-dist/fonts/tfm/public
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/source/public/amsfonts/symbols
-@dirrmtry share/texmf-dist/fonts/source/public/amsfonts/dummy
-@dirrmtry share/texmf-dist/fonts/source/public/amsfonts/cyrillic
-@dirrmtry share/texmf-dist/fonts/source/public/amsfonts/cmextra
-@dirrmtry share/texmf-dist/fonts/source/public/amsfonts
-@dirrmtry share/texmf-dist/fonts/source/public
-@dirrmtry share/texmf-dist/fonts/source
-@dirrmtry share/texmf-dist/fonts/map/dvips/amsfonts
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/afm/public/amsfonts/symbols
-@dirrmtry share/texmf-dist/fonts/afm/public/amsfonts/latxfont
-@dirrmtry share/texmf-dist/fonts/afm/public/amsfonts/euler
-@dirrmtry share/texmf-dist/fonts/afm/public/amsfonts/cyrillic
-@dirrmtry share/texmf-dist/fonts/afm/public/amsfonts/cmextra
-@dirrmtry share/texmf-dist/fonts/afm/public/amsfonts/cm
-@dirrmtry share/texmf-dist/fonts/afm/public/amsfonts
-@dirrmtry share/texmf-dist/fonts/afm/public
-@dirrmtry share/texmf-dist/fonts/afm
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/fonts/amsfonts
-@dirrmtry share/texmf-dist/doc/fonts
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -18,20 +18,5 @@ share/texmf-dist/tex/context/third/rst/rst_helpers.lua
 share/texmf-dist/tex/context/third/rst/rst_parser.lua
 share/texmf-dist/tex/context/third/rst/rst_setups.lua
 share/texmf-dist/tex/context/third/rst/t-rst.mkiv
-@dirrmtry share/texmf-dist/tex/context/third/rst
-@dirrmtry share/texmf-dist/tex/context/third
-@dirrmtry share/texmf-dist/tex/context/interface/third
-@dirrmtry share/texmf-dist/tex/context/interface
-@dirrmtry share/texmf-dist/tex/context
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/scripts/context/lua/third/rst
-@dirrmtry share/texmf-dist/scripts/context/lua/third
-@dirrmtry share/texmf-dist/scripts/context/lua
-@dirrmtry share/texmf-dist/scripts/context
-@dirrmtry share/texmf-dist/scripts
-@dirrmtry share/texmf-dist/doc/context/third/rst
-@dirrmtry share/texmf-dist/doc/context/third
-@dirrmtry share/texmf-dist/doc/context
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

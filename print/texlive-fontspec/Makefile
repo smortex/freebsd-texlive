@@ -14,6 +14,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/iftex/iftex.sty:${PORTSDI
 		${LOCALBASE}/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty:${PORTSDIR}/print/texlive-l3packages \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/lm/lmb10.afm:${PORTSDIR}/print/texlive-lm
 
+OPTIONS_DEFINE=	DOCS SRCS
+.include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

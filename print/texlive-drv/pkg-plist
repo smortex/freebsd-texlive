@@ -16,13 +16,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/drv/template/template.mp
 %%PORTDOCS%%share/texmf-dist/doc/metapost/drv/template/template.tex
 share/texmf-dist/metapost/drv/drv.mp
-@dirrmtry share/texmf-dist/metapost/drv
-@dirrmtry share/texmf-dist/metapost
-@dirrmtry share/texmf-dist/doc/metapost/drv/template
-@dirrmtry share/texmf-dist/doc/metapost/drv/sample
-@dirrmtry share/texmf-dist/doc/metapost/drv/doc
-@dirrmtry share/texmf-dist/doc/metapost/drv
-@dirrmtry share/texmf-dist/doc/metapost
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

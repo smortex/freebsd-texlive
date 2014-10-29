@@ -792,19 +792,5 @@ share/texmf-dist/tex/latex/minitoc/welsh.mld
 share/texmf-dist/tex/latex/minitoc/xalx.mld
 share/texmf-dist/tex/latex/minitoc/xalx2.mld
 share/texmf-dist/tex/latex/minitoc/xalx3.mld
-@dirrmtry share/texmf-dist/tex/latex/minitoc
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/latex/minitoc
-@dirrmtry share/texmf-dist/source/latex
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/makeindex/minitoc
-@dirrmtry share/texmf-dist/makeindex
-@dirrmtry share/texmf-dist/doc/latex/minitoc
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@dirrmtry share/texmf-dist/bibtex/bst/minitoc
-@dirrmtry share/texmf-dist/bibtex/bst
-@dirrmtry share/texmf-dist/bibtex
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

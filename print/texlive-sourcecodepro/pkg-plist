@@ -397,30 +397,5 @@ share/texmf-dist/tex/latex/sourcecodepro/TS1SourceCodePro-TLF.fd
 share/texmf-dist/tex/latex/sourcecodepro/TS1SourceCodePro-TOsF.fd
 share/texmf-dist/tex/latex/sourcecodepro/sourcecodepro-type1-autoinst.sty
 share/texmf-dist/tex/latex/sourcecodepro/sourcecodepro.sty
-@dirrmtry share/texmf-dist/tex/latex/sourcecodepro
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/fonts/vf/adobe/sourcecodepro
-@dirrmtry share/texmf-dist/fonts/vf/adobe
-@dirrmtry share/texmf-dist/fonts/vf
-@dirrmtry share/texmf-dist/fonts/type1/adobe/sourcecodepro
-@dirrmtry share/texmf-dist/fonts/type1/adobe
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/tfm/adobe/sourcecodepro
-@dirrmtry share/texmf-dist/fonts/tfm/adobe
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/opentype/adobe/sourcecodepro
-@dirrmtry share/texmf-dist/fonts/opentype/adobe
-@dirrmtry share/texmf-dist/fonts/opentype
-@dirrmtry share/texmf-dist/fonts/map/dvips/sourcecodepro
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/enc/dvips/sourcecodepro
-@dirrmtry share/texmf-dist/fonts/enc/dvips
-@dirrmtry share/texmf-dist/fonts/enc
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/latex/sourcecodepro
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

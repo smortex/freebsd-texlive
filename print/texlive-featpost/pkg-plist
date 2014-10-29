@@ -870,16 +870,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/metapost/featpost/png/xraycamera.1.png
 share/texmf-dist/metapost/featpost/featpost.mp
 share/texmf-dist/metapost/featpost/featpost3Dplus2D.mp
-@dirrmtry share/texmf-dist/metapost/featpost
-@dirrmtry share/texmf-dist/metapost
-@dirrmtry share/texmf-dist/doc/metapost/featpost/png
-@dirrmtry share/texmf-dist/doc/metapost/featpost/example
-@dirrmtry share/texmf-dist/doc/metapost/featpost/doc/otherinfo
-@dirrmtry share/texmf-dist/doc/metapost/featpost/doc/metapostpropagandafiles
-@dirrmtry share/texmf-dist/doc/metapost/featpost/doc
-@dirrmtry share/texmf-dist/doc/metapost/featpost/bash
-@dirrmtry share/texmf-dist/doc/metapost/featpost
-@dirrmtry share/texmf-dist/doc/metapost
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

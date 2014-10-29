@@ -11,16 +11,5 @@ share/texmf-dist/makeindex/xdoc/docindex.ist
 share/texmf-dist/tex/latex/xdoc/docidx2e.sty
 share/texmf-dist/tex/latex/xdoc/docindex.sty
 share/texmf-dist/tex/latex/xdoc/xdoc2.sty
-@dirrmtry share/texmf-dist/tex/latex/xdoc
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/latex/xdoc
-@dirrmtry share/texmf-dist/source/latex
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/makeindex/xdoc
-@dirrmtry share/texmf-dist/makeindex
-@dirrmtry share/texmf-dist/doc/latex/xdoc
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

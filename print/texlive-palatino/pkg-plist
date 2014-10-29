@@ -218,32 +218,5 @@ share/texmf-dist/tex/latex/palatino/omsupl.fd
 share/texmf-dist/tex/latex/palatino/ot1upl.fd
 share/texmf-dist/tex/latex/palatino/t1upl.fd
 share/texmf-dist/tex/latex/palatino/ts1upl.fd
-@dirrmtry share/texmf-dist/tex/latex/palatino
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/fonts/vf/urw35vf/palatino
-@dirrmtry share/texmf-dist/fonts/vf/urw35vf
-@dirrmtry share/texmf-dist/fonts/vf/adobe/palatino
-@dirrmtry share/texmf-dist/fonts/vf/adobe
-@dirrmtry share/texmf-dist/fonts/vf
-@dirrmtry share/texmf-dist/fonts/type1/urw/palatino
-@dirrmtry share/texmf-dist/fonts/type1/urw
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/tfm/urw35vf/palatino
-@dirrmtry share/texmf-dist/fonts/tfm/urw35vf
-@dirrmtry share/texmf-dist/fonts/tfm/adobe/palatino
-@dirrmtry share/texmf-dist/fonts/tfm/adobe
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/map/dvips/palatino
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/afm/urw/palatino
-@dirrmtry share/texmf-dist/fonts/afm/urw
-@dirrmtry share/texmf-dist/fonts/afm/adobe/palatino
-@dirrmtry share/texmf-dist/fonts/afm/adobe
-@dirrmtry share/texmf-dist/fonts/afm
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/dvips/palatino
-@dirrmtry share/texmf-dist/dvips
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

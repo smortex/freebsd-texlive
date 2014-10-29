@@ -40,14 +40,5 @@ share/texmf-dist/tex/luatex/lualibs/lualibs-util-str.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-util-tab.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-util-tpl.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs.lua
-@dirrmtry share/texmf-dist/tex/luatex/lualibs
-@dirrmtry share/texmf-dist/tex/luatex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/luatex/lualibs
-@dirrmtry share/texmf-dist/source/luatex
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/doc/luatex/lualibs
-@dirrmtry share/texmf-dist/doc/luatex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

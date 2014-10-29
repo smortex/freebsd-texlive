@@ -18,7 +18,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/afm/metapost/freeeuro.afm:${POR
 		${LOCALBASE}/share/texmf-dist/tex/generic/context/mptopdf/mptopdf.tex:${PORTSDIR}/print/texlive-mptopdf \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
-NOPORTSRC=	yes
+OPTIONS_DEFINE=	DOCS
+.include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
 .include <bsd.port.mk>

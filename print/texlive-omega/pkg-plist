@@ -350,49 +350,5 @@ share/texmf-dist/tex/generic/omegahyph/lthyph.tex
 share/texmf-dist/tex/generic/omegahyph/srhyph.tex
 share/texmf-dist/tex/plain/omega/grlccode.tex
 share/texmf-dist/tex/plain/omega/omega.tex
-@dirrmtry share/texmf-dist/tex/plain/omega
-@dirrmtry share/texmf-dist/tex/plain
-@dirrmtry share/texmf-dist/tex/generic/omegahyph
-@dirrmtry share/texmf-dist/tex/generic/encodings
-@dirrmtry share/texmf-dist/tex/generic
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/omega/otp/uni2char
-@dirrmtry share/texmf-dist/omega/otp/omega
-@dirrmtry share/texmf-dist/omega/otp/misc
-@dirrmtry share/texmf-dist/omega/otp/char2uni
-@dirrmtry share/texmf-dist/omega/otp
-@dirrmtry share/texmf-dist/omega/ocp/uni2char
-@dirrmtry share/texmf-dist/omega/ocp/omega
-@dirrmtry share/texmf-dist/omega/ocp/misc
-@dirrmtry share/texmf-dist/omega/ocp/char2uni
-@dirrmtry share/texmf-dist/omega/ocp
-@dirrmtry share/texmf-dist/omega
-@dirrmtry share/texmf-dist/fonts/type1/public/omega
-@dirrmtry share/texmf-dist/fonts/type1/public
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/tfm/public/omega
-@dirrmtry share/texmf-dist/fonts/tfm/public
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/ovp/public/omega
-@dirrmtry share/texmf-dist/fonts/ovp/public
-@dirrmtry share/texmf-dist/fonts/ovp
-@dirrmtry share/texmf-dist/fonts/ovf/public/omega
-@dirrmtry share/texmf-dist/fonts/ovf/public
-@dirrmtry share/texmf-dist/fonts/ovf
-@dirrmtry share/texmf-dist/fonts/ofm/public/omega
-@dirrmtry share/texmf-dist/fonts/ofm/public
-@dirrmtry share/texmf-dist/fonts/ofm
-@dirrmtry share/texmf-dist/fonts/map/dvips/omega
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/afm/public/omega
-@dirrmtry share/texmf-dist/fonts/afm/public
-@dirrmtry share/texmf-dist/fonts/afm
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/dvips/omega
-@dirrmtry share/texmf-dist/dvips
-@dirrmtry share/texmf-dist/doc/omega/base
-@dirrmtry share/texmf-dist/doc/omega
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -1303,52 +1303,5 @@ share/texmf-dist/fonts/vf/wadalab/umrj/umrj9d.vf
 share/texmf-dist/fonts/vf/wadalab/umrj/umrj9e.vf
 share/texmf-dist/fonts/vf/wadalab/umrj/umrj9f.vf
 share/texmf-dist/fonts/vf/wadalab/umrj/umrjff.vf
-@dirrmtry share/texmf-dist/fonts/vf/wadalab/umrj
-@dirrmtry share/texmf-dist/fonts/vf/wadalab/umcj
-@dirrmtry share/texmf-dist/fonts/vf/wadalab/udmj
-@dirrmtry share/texmf-dist/fonts/vf/wadalab/udgj
-@dirrmtry share/texmf-dist/fonts/vf/wadalab
-@dirrmtry share/texmf-dist/fonts/vf
-@dirrmtry share/texmf-dist/fonts/type1/wadalab/mrj
-@dirrmtry share/texmf-dist/fonts/type1/wadalab/mr2j
-@dirrmtry share/texmf-dist/fonts/type1/wadalab/mcj
-@dirrmtry share/texmf-dist/fonts/type1/wadalab/mc2j
-@dirrmtry share/texmf-dist/fonts/type1/wadalab/dmj
-@dirrmtry share/texmf-dist/fonts/type1/wadalab/dgj
-@dirrmtry share/texmf-dist/fonts/type1/wadalab
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/tfm/wadalab/umrj
-@dirrmtry share/texmf-dist/fonts/tfm/wadalab/umcj
-@dirrmtry share/texmf-dist/fonts/tfm/wadalab/udmj
-@dirrmtry share/texmf-dist/fonts/tfm/wadalab/udgj
-@dirrmtry share/texmf-dist/fonts/tfm/wadalab/mrj
-@dirrmtry share/texmf-dist/fonts/tfm/wadalab/mr2j
-@dirrmtry share/texmf-dist/fonts/tfm/wadalab/mcj
-@dirrmtry share/texmf-dist/fonts/tfm/wadalab/mc2j
-@dirrmtry share/texmf-dist/fonts/tfm/wadalab/dmj
-@dirrmtry share/texmf-dist/fonts/tfm/wadalab/dgj
-@dirrmtry share/texmf-dist/fonts/tfm/wadalab
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/map/dvips/wadalab
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/afm/wadalab/mrj
-@dirrmtry share/texmf-dist/fonts/afm/wadalab/mr2j
-@dirrmtry share/texmf-dist/fonts/afm/wadalab/mcj
-@dirrmtry share/texmf-dist/fonts/afm/wadalab/mc2j
-@dirrmtry share/texmf-dist/fonts/afm/wadalab/dmj
-@dirrmtry share/texmf-dist/fonts/afm/wadalab/dgj
-@dirrmtry share/texmf-dist/fonts/afm/wadalab
-@dirrmtry share/texmf-dist/fonts/afm
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/fonts/wadalab/mrj
-@dirrmtry share/texmf-dist/doc/fonts/wadalab/mr2j
-@dirrmtry share/texmf-dist/doc/fonts/wadalab/mcj
-@dirrmtry share/texmf-dist/doc/fonts/wadalab/mc2j
-@dirrmtry share/texmf-dist/doc/fonts/wadalab/dmj
-@dirrmtry share/texmf-dist/doc/fonts/wadalab/dgj
-@dirrmtry share/texmf-dist/doc/fonts/wadalab
-@dirrmtry share/texmf-dist/doc/fonts
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

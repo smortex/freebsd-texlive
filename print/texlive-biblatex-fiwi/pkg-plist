@@ -17,11 +17,5 @@ share/texmf-dist/tex/latex/biblatex-fiwi/fiwi.dbx
 share/texmf-dist/tex/latex/biblatex-fiwi/fiwi2.bbx
 share/texmf-dist/tex/latex/biblatex-fiwi/fiwi2.cbx
 share/texmf-dist/tex/latex/biblatex-fiwi/fiwi2.dbx
-@dirrmtry share/texmf-dist/tex/latex/biblatex-fiwi
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/latex/biblatex-fiwi
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -328,43 +328,5 @@ share/texmf-dist/tex/latex/bookhands/t1rust.fd
 share/texmf-dist/tex/latex/bookhands/t1sqrc.fd
 share/texmf-dist/tex/latex/bookhands/t1uncl.fd
 share/texmf-dist/tex/latex/bookhands/uncial.sty
-@dirrmtry share/texmf-dist/tex/latex/bookhands
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/fonts/bookhands
-@dirrmtry share/texmf-dist/source/fonts
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/fonts/type1/public/bookhands
-@dirrmtry share/texmf-dist/fonts/type1/public
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/tfm/public/bookhands
-@dirrmtry share/texmf-dist/fonts/tfm/public
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/source/public/bookhands
-@dirrmtry share/texmf-dist/fonts/source/public
-@dirrmtry share/texmf-dist/fonts/source
-@dirrmtry share/texmf-dist/fonts/map/dvips/bookhands
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/afm/public/bookhands
-@dirrmtry share/texmf-dist/fonts/afm/public
-@dirrmtry share/texmf-dist/fonts/afm
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/fonts/bookhands/uncial
-@dirrmtry share/texmf-dist/doc/fonts/bookhands/tgothic
-@dirrmtry share/texmf-dist/doc/fonts/bookhands/sqrcaps
-@dirrmtry share/texmf-dist/doc/fonts/bookhands/rustic
-@dirrmtry share/texmf-dist/doc/fonts/bookhands/rotunda
-@dirrmtry share/texmf-dist/doc/fonts/bookhands/pgothic
-@dirrmtry share/texmf-dist/doc/fonts/bookhands/inslrmin
-@dirrmtry share/texmf-dist/doc/fonts/bookhands/inslrmaj
-@dirrmtry share/texmf-dist/doc/fonts/bookhands/huncial
-@dirrmtry share/texmf-dist/doc/fonts/bookhands/humanist
-@dirrmtry share/texmf-dist/doc/fonts/bookhands/egothic
-@dirrmtry share/texmf-dist/doc/fonts/bookhands/carolmin
-@dirrmtry share/texmf-dist/doc/fonts/bookhands/auncial
-@dirrmtry share/texmf-dist/doc/fonts/bookhands
-@dirrmtry share/texmf-dist/doc/fonts
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

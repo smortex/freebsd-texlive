@@ -90,33 +90,5 @@ share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/yu-win/uptex-yu-win.map
 %%PORTSRC%%share/texmf-dist/source/jfontmaps/script/updmap-otf.sh
 %%PORTSRC%%share/texmf-dist/source/jfontmaps/tools/mkmap.lua
 %%PORTSRC%%share/texmf-dist/source/jfontmaps/tools/release.sh
-@dirrmtry share/texmf-dist/source/jfontmaps/tools
-@dirrmtry share/texmf-dist/source/jfontmaps/script
-@dirrmtry share/texmf-dist/source/jfontmaps/jis04cmap_exp
-@dirrmtry share/texmf-dist/source/jfontmaps
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/yu-win
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/yu-osx
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/noEmbed
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/ms
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/morisawa-pr6n
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/morisawa
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/kozuka-pr6n
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/kozuka-pr6
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/kozuka
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/ipaex
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/ipa
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/hiragino-pron
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/hiragino
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/jfontmaps
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/cmap/jfontmaps
-@dirrmtry share/texmf-dist/fonts/cmap
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/fonts/jfontmaps/examples
-@dirrmtry share/texmf-dist/doc/fonts/jfontmaps
-@dirrmtry share/texmf-dist/doc/fonts
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

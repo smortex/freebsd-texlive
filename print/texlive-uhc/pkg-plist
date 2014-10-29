@@ -3195,30 +3195,5 @@ share/texmf-dist/fonts/vf/uhc/wmj/wmjxo6.vf
 share/texmf-dist/fonts/vf/uhc/wmj/wmjxo7.vf
 share/texmf-dist/fonts/vf/uhc/wmj/wmjxo8.vf
 share/texmf-dist/fonts/vf/uhc/wmj/wmjxo9.vf
-@dirrmtry share/texmf-dist/fonts/vf/uhc/wmj
-@dirrmtry share/texmf-dist/fonts/vf/uhc/uwmj
-@dirrmtry share/texmf-dist/fonts/vf/uhc
-@dirrmtry share/texmf-dist/fonts/vf
-@dirrmtry share/texmf-dist/fonts/type1/uhc/umj
-@dirrmtry share/texmf-dist/fonts/type1/uhc
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/tfm/uhc/wmj
-@dirrmtry share/texmf-dist/fonts/tfm/uhc/uwmj
-@dirrmtry share/texmf-dist/fonts/tfm/uhc/umj
-@dirrmtry share/texmf-dist/fonts/tfm/uhc
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/map/dvips/uhc
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/afm/uhc/umj
-@dirrmtry share/texmf-dist/fonts/afm/uhc
-@dirrmtry share/texmf-dist/fonts/afm
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/dvips/uhc
-@dirrmtry share/texmf-dist/dvips
-@dirrmtry share/texmf-dist/doc/fonts/uhc/umj
-@dirrmtry share/texmf-dist/doc/fonts/uhc
-@dirrmtry share/texmf-dist/doc/fonts
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

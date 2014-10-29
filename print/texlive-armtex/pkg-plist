@@ -74,32 +74,5 @@ share/texmf-dist/tex/latex/armenian/ot6enc.dfu
 share/texmf-dist/tex/plain/armenian/arm.tex
 share/texmf-dist/tex/plain/armenian/armkb-a8.tex
 share/texmf-dist/tex/plain/armenian/armkb-u8.tex
-@dirrmtry share/texmf-dist/tex/plain/armenian
-@dirrmtry share/texmf-dist/tex/plain
-@dirrmtry share/texmf-dist/tex/latex/armenian
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/fonts/type1/public/armenian
-@dirrmtry share/texmf-dist/fonts/type1/public
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/tfm/public/armenian
-@dirrmtry share/texmf-dist/fonts/tfm/public
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/source/public/armenian
-@dirrmtry share/texmf-dist/fonts/source/public
-@dirrmtry share/texmf-dist/fonts/source
-@dirrmtry share/texmf-dist/fonts/map/dvips/armenian
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/afm/public/armenian
-@dirrmtry share/texmf-dist/fonts/afm/public
-@dirrmtry share/texmf-dist/fonts/afm
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/generic/armenian/examples/plain
-@dirrmtry share/texmf-dist/doc/generic/armenian/examples/latex
-@dirrmtry share/texmf-dist/doc/generic/armenian/examples
-@dirrmtry share/texmf-dist/doc/generic/armenian
-@dirrmtry share/texmf-dist/doc/generic
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

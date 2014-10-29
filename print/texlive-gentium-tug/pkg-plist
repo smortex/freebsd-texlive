@@ -185,45 +185,5 @@ share/texmf-dist/tex/latex/gentium-tug/t2cgentium.fd
 share/texmf-dist/tex/latex/gentium-tug/t5gentium.fd
 share/texmf-dist/tex/latex/gentium-tug/ts1gentium.fd
 share/texmf-dist/tex/latex/gentium-tug/x2gentium.fd
-@dirrmtry share/texmf-dist/tex/latex/gentium-tug
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex/context/third/gentium-tug
-@dirrmtry share/texmf-dist/tex/context/third
-@dirrmtry share/texmf-dist/tex/context
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/fonts/gentium-tug/type1
-@dirrmtry share/texmf-dist/source/fonts/gentium-tug/lig
-@dirrmtry share/texmf-dist/source/fonts/gentium-tug
-@dirrmtry share/texmf-dist/source/fonts
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/fonts/type1/public/gentium-tug
-@dirrmtry share/texmf-dist/fonts/type1/public
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/truetype/public/gentium-tug
-@dirrmtry share/texmf-dist/fonts/truetype/public
-@dirrmtry share/texmf-dist/fonts/truetype
-@dirrmtry share/texmf-dist/fonts/tfm/public/gentium-tug
-@dirrmtry share/texmf-dist/fonts/tfm/public
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/map/pdftex/gentium-tug
-@dirrmtry share/texmf-dist/fonts/map/pdftex
-@dirrmtry share/texmf-dist/fonts/map/dvips/gentium-tug
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/enc/dvips/gentium-tug
-@dirrmtry share/texmf-dist/fonts/enc/dvips
-@dirrmtry share/texmf-dist/fonts/enc
-@dirrmtry share/texmf-dist/fonts/afm/public/gentium-tug
-@dirrmtry share/texmf-dist/fonts/afm/public
-@dirrmtry share/texmf-dist/fonts/afm
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/fonts/gentium-tug/GentiumPlusCompact
-@dirrmtry share/texmf-dist/doc/fonts/gentium-tug/GentiumPlus/documentation
-@dirrmtry share/texmf-dist/doc/fonts/gentium-tug/GentiumPlus
-@dirrmtry share/texmf-dist/doc/fonts/gentium-tug/GentiumBasic
-@dirrmtry share/texmf-dist/doc/fonts/gentium-tug/Gentium
-@dirrmtry share/texmf-dist/doc/fonts/gentium-tug
-@dirrmtry share/texmf-dist/doc/fonts
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

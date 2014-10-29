@@ -772,43 +772,5 @@ share/texmf-dist/tex/latex/paratype/X2PTSansNarrow-TLF.fd
 share/texmf-dist/tex/latex/paratype/X2PTSerif-TLF.fd
 share/texmf-dist/tex/latex/paratype/X2PTSerifCaption-TLF.fd
 share/texmf-dist/tex/latex/paratype/paratype.sty
-@dirrmtry share/texmf-dist/tex/latex/paratype
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/fonts/vf/paratype/ptserif
-@dirrmtry share/texmf-dist/fonts/vf/paratype/ptsans
-@dirrmtry share/texmf-dist/fonts/vf/paratype/ptmono
-@dirrmtry share/texmf-dist/fonts/vf/paratype
-@dirrmtry share/texmf-dist/fonts/vf
-@dirrmtry share/texmf-dist/fonts/type1/paratype/ptserif
-@dirrmtry share/texmf-dist/fonts/type1/paratype/ptsans
-@dirrmtry share/texmf-dist/fonts/type1/paratype/ptmono
-@dirrmtry share/texmf-dist/fonts/type1/paratype
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/truetype/paratype/ptserif
-@dirrmtry share/texmf-dist/fonts/truetype/paratype/ptsans
-@dirrmtry share/texmf-dist/fonts/truetype/paratype/ptmono
-@dirrmtry share/texmf-dist/fonts/truetype/paratype
-@dirrmtry share/texmf-dist/fonts/truetype
-@dirrmtry share/texmf-dist/fonts/tfm/paratype/ptserif
-@dirrmtry share/texmf-dist/fonts/tfm/paratype/ptsans
-@dirrmtry share/texmf-dist/fonts/tfm/paratype/ptmono
-@dirrmtry share/texmf-dist/fonts/tfm/paratype
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/map/dvips/paratype
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/enc/dvips/paratype
-@dirrmtry share/texmf-dist/fonts/enc/dvips
-@dirrmtry share/texmf-dist/fonts/enc
-@dirrmtry share/texmf-dist/fonts/afm/paratype/ptserif
-@dirrmtry share/texmf-dist/fonts/afm/paratype/ptsans
-@dirrmtry share/texmf-dist/fonts/afm/paratype/ptmono
-@dirrmtry share/texmf-dist/fonts/afm/paratype
-@dirrmtry share/texmf-dist/fonts/afm
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/fonts/paratype
-@dirrmtry share/texmf-dist/doc/fonts
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

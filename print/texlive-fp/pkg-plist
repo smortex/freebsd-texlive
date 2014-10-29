@@ -14,13 +14,5 @@ share/texmf-dist/tex/latex/fp/fp-upn.sty
 share/texmf-dist/tex/latex/fp/fp.sty
 share/texmf-dist/tex/latex/fp/lfp.sty
 share/texmf-dist/tex/plain/fp/fp.tex
-@dirrmtry share/texmf-dist/tex/plain/fp
-@dirrmtry share/texmf-dist/tex/plain
-@dirrmtry share/texmf-dist/tex/latex/fp
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/latex/fp
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

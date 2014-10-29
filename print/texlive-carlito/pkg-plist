@@ -223,30 +223,5 @@ share/texmf-dist/tex/latex/carlito/TS1Carlito-OsF.fd
 share/texmf-dist/tex/latex/carlito/TS1Carlito-TLF.fd
 share/texmf-dist/tex/latex/carlito/TS1Carlito-TOsF.fd
 share/texmf-dist/tex/latex/carlito/carlito.sty
-@dirrmtry share/texmf-dist/tex/latex/carlito
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/fonts/vf/typoland/carlito
-@dirrmtry share/texmf-dist/fonts/vf/typoland
-@dirrmtry share/texmf-dist/fonts/vf
-@dirrmtry share/texmf-dist/fonts/type1/typoland/carlito
-@dirrmtry share/texmf-dist/fonts/type1/typoland
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/truetype/typoland/carlito
-@dirrmtry share/texmf-dist/fonts/truetype/typoland
-@dirrmtry share/texmf-dist/fonts/truetype
-@dirrmtry share/texmf-dist/fonts/tfm/typoland/carlito
-@dirrmtry share/texmf-dist/fonts/tfm/typoland
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/map/dvips/carlito
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/enc/dvips/carlito
-@dirrmtry share/texmf-dist/fonts/enc/dvips
-@dirrmtry share/texmf-dist/fonts/enc
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/fonts/carlito
-@dirrmtry share/texmf-dist/doc/fonts
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

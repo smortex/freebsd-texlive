@@ -38,14 +38,5 @@ share/texmf-dist/bibtex/bst/przechlewski-book/papalike.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/przechlewski-book/wkmgr2.tex
 share/texmf-dist/tex/latex/przechlewski-book/upmgr.cls
 share/texmf-dist/tex/latex/przechlewski-book/wkmgr.cls
-@dirrmtry share/texmf-dist/tex/latex/przechlewski-book
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/latex/przechlewski-book
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@dirrmtry share/texmf-dist/bibtex/bst/przechlewski-book
-@dirrmtry share/texmf-dist/bibtex/bst
-@dirrmtry share/texmf-dist/bibtex
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

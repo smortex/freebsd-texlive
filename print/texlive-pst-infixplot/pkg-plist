@@ -6,13 +6,5 @@ share/texmf-dist/tex/generic/pst-infixplot/infix-RPN.tex
 share/texmf-dist/tex/generic/pst-infixplot/pst-infixplot.tex
 share/texmf-dist/tex/latex/pst-infixplot/infix-RPN.sty
 share/texmf-dist/tex/latex/pst-infixplot/pst-infixplot.sty
-@dirrmtry share/texmf-dist/tex/latex/pst-infixplot
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex/generic/pst-infixplot
-@dirrmtry share/texmf-dist/tex/generic
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/generic/pst-infixplot
-@dirrmtry share/texmf-dist/doc/generic
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -4,14 +4,5 @@
 %%PORTSRC%%share/texmf-dist/source/generic/bitelist/srcfiles.tex
 share/texmf-dist/tex/generic/bitelist/bitedemo.tex
 share/texmf-dist/tex/generic/bitelist/bitelist.sty
-@dirrmtry share/texmf-dist/tex/generic/bitelist
-@dirrmtry share/texmf-dist/tex/generic
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/generic/bitelist
-@dirrmtry share/texmf-dist/source/generic
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/doc/generic/bitelist
-@dirrmtry share/texmf-dist/doc/generic
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

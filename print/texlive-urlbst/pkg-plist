@@ -14,14 +14,5 @@ share/texmf-dist/bibtex/bst/urlbst/unsrturl.bst
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/urlbst/urlbst.tex.in
 %%PORTSRC%%share/texmf-dist/source/bibtex/urlbst/configure
 %%PORTSRC%%share/texmf-dist/source/bibtex/urlbst/configure.ac
-@dirrmtry share/texmf-dist/source/bibtex/urlbst
-@dirrmtry share/texmf-dist/source/bibtex
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/doc/bibtex/urlbst
-@dirrmtry share/texmf-dist/doc/bibtex
-@dirrmtry share/texmf-dist/doc
-@dirrmtry share/texmf-dist/bibtex/bst/urlbst
-@dirrmtry share/texmf-dist/bibtex/bst
-@dirrmtry share/texmf-dist/bibtex
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

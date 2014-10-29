@@ -102,35 +102,5 @@
 %%PORTSRC%%share/texmf-dist/source/latex/yathesis/yathesis.dtx
 share/texmf-dist/tex/latex/yathesis/yathesis-demo.sty
 share/texmf-dist/tex/latex/yathesis/yathesis.cls
-@dirrmtry share/texmf-dist/tex/latex/yathesis
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/latex/yathesis/tableaux
-@dirrmtry share/texmf-dist/source/latex/yathesis/sections
-@dirrmtry share/texmf-dist/source/latex/yathesis/glossaries
-@dirrmtry share/texmf-dist/source/latex/yathesis
-@dirrmtry share/texmf-dist/source/latex
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/doc/latex/yathesis/single-file-template
-@dirrmtry share/texmf-dist/doc/latex/yathesis/single-file-sample
-@dirrmtry share/texmf-dist/doc/latex/yathesis/master-slaves-files-template/liminaires
-@dirrmtry share/texmf-dist/doc/latex/yathesis/master-slaves-files-template/corps
-@dirrmtry share/texmf-dist/doc/latex/yathesis/master-slaves-files-template/configuration
-@dirrmtry share/texmf-dist/doc/latex/yathesis/master-slaves-files-template/auxiliaires
-@dirrmtry share/texmf-dist/doc/latex/yathesis/master-slaves-files-template/annexes
-@dirrmtry share/texmf-dist/doc/latex/yathesis/master-slaves-files-template
-@dirrmtry share/texmf-dist/doc/latex/yathesis/master-slaves-files-sample/liminaires
-@dirrmtry share/texmf-dist/doc/latex/yathesis/master-slaves-files-sample/images
-@dirrmtry share/texmf-dist/doc/latex/yathesis/master-slaves-files-sample/corps
-@dirrmtry share/texmf-dist/doc/latex/yathesis/master-slaves-files-sample/configuration
-@dirrmtry share/texmf-dist/doc/latex/yathesis/master-slaves-files-sample/auxiliaires
-@dirrmtry share/texmf-dist/doc/latex/yathesis/master-slaves-files-sample/annexes/programmes
-@dirrmtry share/texmf-dist/doc/latex/yathesis/master-slaves-files-sample/annexes
-@dirrmtry share/texmf-dist/doc/latex/yathesis/master-slaves-files-sample
-@dirrmtry share/texmf-dist/doc/latex/yathesis/addons/completion
-@dirrmtry share/texmf-dist/doc/latex/yathesis/addons
-@dirrmtry share/texmf-dist/doc/latex/yathesis
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -102,24 +102,5 @@ share/texmf-dist/tex/generic/t2/cyrfinst/x2.etx
 share/texmf-dist/tex/latex/t2/citehack.sty
 share/texmf-dist/tex/latex/t2/mathtext.sty
 share/texmf-dist/tex/latex/t2/misccorr.sty
-@dirrmtry share/texmf-dist/tex/latex/t2
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex/generic/t2/cyrfinst/etc
-@dirrmtry share/texmf-dist/tex/generic/t2/cyrfinst/derivatives
-@dirrmtry share/texmf-dist/tex/generic/t2/cyrfinst
-@dirrmtry share/texmf-dist/tex/generic/t2
-@dirrmtry share/texmf-dist/tex/generic
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/fonts/enc/t2
-@dirrmtry share/texmf-dist/fonts/enc
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/generic/t2/examples
-@dirrmtry share/texmf-dist/doc/generic/t2/etc/utf-8
-@dirrmtry share/texmf-dist/doc/generic/t2/etc/rumkidx
-@dirrmtry share/texmf-dist/doc/generic/t2/etc/rubibtex
-@dirrmtry share/texmf-dist/doc/generic/t2/etc
-@dirrmtry share/texmf-dist/doc/generic/t2
-@dirrmtry share/texmf-dist/doc/generic
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -92,14 +92,5 @@ share/texmf-dist/tex/latex/eskdx/eskdtitle.sty
 share/texmf-dist/tex/latex/eskdx/eskdtitlebase.sty
 share/texmf-dist/tex/latex/eskdx/eskdtotal.sty
 share/texmf-dist/tex/latex/eskdx/eskdukrainian.def
-@dirrmtry share/texmf-dist/tex/latex/eskdx
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/doc/latex/eskdx/test
-@dirrmtry share/texmf-dist/doc/latex/eskdx/source
-@dirrmtry share/texmf-dist/doc/latex/eskdx/manual
-@dirrmtry share/texmf-dist/doc/latex/eskdx
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -2155,30 +2155,5 @@ share/texmf-dist/tex/platex/japanese-otf/ajmacros.sty
 share/texmf-dist/tex/platex/japanese-otf/mlcid.sty
 share/texmf-dist/tex/platex/japanese-otf/otf-hangul.dfu
 share/texmf-dist/tex/platex/japanese-otf/redeffont.sty
-@dirrmtry share/texmf-dist/tex/platex/japanese-otf
-@dirrmtry share/texmf-dist/tex/platex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/source/fonts/japanese-otf/script
-@dirrmtry share/texmf-dist/source/fonts/japanese-otf/basepl
-@dirrmtry share/texmf-dist/source/fonts/japanese-otf
-@dirrmtry share/texmf-dist/source/fonts
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/fonts/vf/public/japanese-otf
-@dirrmtry share/texmf-dist/fonts/vf/public
-@dirrmtry share/texmf-dist/fonts/vf
-@dirrmtry share/texmf-dist/fonts/tfm/public/japanese-otf
-@dirrmtry share/texmf-dist/fonts/tfm/public
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/ofm/public/japanese-otf
-@dirrmtry share/texmf-dist/fonts/ofm/public
-@dirrmtry share/texmf-dist/fonts/ofm
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx/japanese-otf
-@dirrmtry share/texmf-dist/fonts/map/dvipdfmx
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/fonts/japanese-otf/test
-@dirrmtry share/texmf-dist/doc/fonts/japanese-otf
-@dirrmtry share/texmf-dist/doc/fonts
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

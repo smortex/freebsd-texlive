@@ -85,41 +85,5 @@ share/texmf-dist/scripts/arara/rules/xetex.yaml
 %%PORTSRC%%share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/conf/logback.xml
 %%PORTSRC%%share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/localization/dummy
 %%PORTSRC%%share/texmf-dist/source/support/arara/src/test/java/com/github/arara/AraraTest.java
-@dirrmtry share/texmf-dist/source/support/arara/src/test/java/com/github/arara
-@dirrmtry share/texmf-dist/source/support/arara/src/test/java/com/github
-@dirrmtry share/texmf-dist/source/support/arara/src/test/java/com
-@dirrmtry share/texmf-dist/source/support/arara/src/test/java
-@dirrmtry share/texmf-dist/source/support/arara/src/test
-@dirrmtry share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/localization
-@dirrmtry share/texmf-dist/source/support/arara/src/main/resources/com/github/arara/conf
-@dirrmtry share/texmf-dist/source/support/arara/src/main/resources/com/github/arara
-@dirrmtry share/texmf-dist/source/support/arara/src/main/resources/com/github
-@dirrmtry share/texmf-dist/source/support/arara/src/main/resources/com
-@dirrmtry share/texmf-dist/source/support/arara/src/main/resources
-@dirrmtry share/texmf-dist/source/support/arara/src/main/java/com/github/arara/utils
-@dirrmtry share/texmf-dist/source/support/arara/src/main/java/com/github/arara/model
-@dirrmtry share/texmf-dist/source/support/arara/src/main/java/com/github/arara/exception
-@dirrmtry share/texmf-dist/source/support/arara/src/main/java/com/github/arara
-@dirrmtry share/texmf-dist/source/support/arara/src/main/java/com/github
-@dirrmtry share/texmf-dist/source/support/arara/src/main/java/com
-@dirrmtry share/texmf-dist/source/support/arara/src/main/java
-@dirrmtry share/texmf-dist/source/support/arara/src/main
-@dirrmtry share/texmf-dist/source/support/arara/src
-@dirrmtry share/texmf-dist/source/support/arara
-@dirrmtry share/texmf-dist/source/support
-@dirrmtry share/texmf-dist/source
-@dirrmtry share/texmf-dist/scripts/arara/rules
-@dirrmtry share/texmf-dist/scripts/arara
-@dirrmtry share/texmf-dist/scripts
-@dirrmtry share/texmf-dist/doc/support/arara/figures/winedt
-@dirrmtry share/texmf-dist/doc/support/arara/figures/texworks
-@dirrmtry share/texmf-dist/doc/support/arara/figures/texshop
-@dirrmtry share/texmf-dist/doc/support/arara/figures/texniccenter
-@dirrmtry share/texmf-dist/doc/support/arara/figures/installer
-@dirrmtry share/texmf-dist/doc/support/arara/figures/inlage
-@dirrmtry share/texmf-dist/doc/support/arara/figures
-@dirrmtry share/texmf-dist/doc/support/arara
-@dirrmtry share/texmf-dist/doc/support
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -4,15 +4,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/kotex-utils/utf8.xdy
 share/texmf-dist/makeindex/kotex-utils/kotex.ist
 share/texmf-dist/makeindex/kotex-utils/memucs-manual.ist
-share/texmf-dist/scripts/kotex-utils/jamo-normalize.pl
-share/texmf-dist/scripts/kotex-utils/komkindex.pl
-share/texmf-dist/scripts/kotex-utils/ttf2kotexfont.pl
-@dirrmtry share/texmf-dist/scripts/kotex-utils
-@dirrmtry share/texmf-dist/scripts
-@dirrmtry share/texmf-dist/makeindex/kotex-utils
-@dirrmtry share/texmf-dist/makeindex
-@dirrmtry share/texmf-dist/doc/latex/kotex-utils
-@dirrmtry share/texmf-dist/doc/latex
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

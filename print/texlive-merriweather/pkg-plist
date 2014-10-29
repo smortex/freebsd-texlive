@@ -182,30 +182,5 @@ share/texmf-dist/tex/latex/merriweather/T1MerriweatherSans-TLF.fd
 share/texmf-dist/tex/latex/merriweather/TS1Merriweather-OsF.fd
 share/texmf-dist/tex/latex/merriweather/TS1MerriweatherSans-TLF.fd
 share/texmf-dist/tex/latex/merriweather/merriweather.sty
-@dirrmtry share/texmf-dist/tex/latex/merriweather
-@dirrmtry share/texmf-dist/tex/latex
-@dirrmtry share/texmf-dist/tex
-@dirrmtry share/texmf-dist/fonts/vf/sorkin/merriweather
-@dirrmtry share/texmf-dist/fonts/vf/sorkin
-@dirrmtry share/texmf-dist/fonts/vf
-@dirrmtry share/texmf-dist/fonts/type1/sorkin/merriweather
-@dirrmtry share/texmf-dist/fonts/type1/sorkin
-@dirrmtry share/texmf-dist/fonts/type1
-@dirrmtry share/texmf-dist/fonts/truetype/sorkin/merriweather
-@dirrmtry share/texmf-dist/fonts/truetype/sorkin
-@dirrmtry share/texmf-dist/fonts/truetype
-@dirrmtry share/texmf-dist/fonts/tfm/sorkin/merriweather
-@dirrmtry share/texmf-dist/fonts/tfm/sorkin
-@dirrmtry share/texmf-dist/fonts/tfm
-@dirrmtry share/texmf-dist/fonts/map/dvips/merriweather
-@dirrmtry share/texmf-dist/fonts/map/dvips
-@dirrmtry share/texmf-dist/fonts/map
-@dirrmtry share/texmf-dist/fonts/enc/dvips/merriweather
-@dirrmtry share/texmf-dist/fonts/enc/dvips
-@dirrmtry share/texmf-dist/fonts/enc
-@dirrmtry share/texmf-dist/fonts
-@dirrmtry share/texmf-dist/doc/fonts/merriweather
-@dirrmtry share/texmf-dist/doc/fonts
-@dirrmtry share/texmf-dist/doc
-@exec %D/bin/mktexlsr
-@unexec %D/bin/mktexlsr
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
