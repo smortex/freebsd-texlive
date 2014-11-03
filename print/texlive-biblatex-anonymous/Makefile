@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-anonymous
-PORTVERSION=	20141028
+PORTVERSION=	20141103
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The biblatex-anonymous package
+COMMENT=	A tool to manage anonymous work with biblatex.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
