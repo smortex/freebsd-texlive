@@ -76,13 +76,6 @@ pkg-plist: ${WRKDIR}/.install_files
 	@${ECHO} '@unexec if [ -z $${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi' >> ${PLIST}
 	@${ECHO} '@exec if [ -z $${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi' >> ${PLIST}
 
-do-install: ${WRKDIR}/.install_files
-	@for dir in `${CUT} -d',' -f 2 < ${WRKDIR}/.install_files | ${XARGS} ${DIRNAME} | ${SORT} -r | ${UNIQ}`; do \
-	    if [ ! -d "${STAGEDIR}${PREFIX}/$$dir" ]; then \
-		${MKDIR} "${STAGEDIR}${PREFIX}/$$dir" ;\
-	    fi; \
-	done
-	@( cd ${WRKDIR} && IFS="," && while read source target junk; do \
-		${INSTALL_DATA} $$source ${STAGEDIR}${PREFIX}/$$target; \
-	    done < ${WRKDIR}/.install_files \
-	)
+do-install:
+	@${GREP} -v '^@' ${TMPPLIST} | lam -s '${STAGEDIR}${PREFIX}/' - | xargs -L1 dirname | xargs ${MKDIR}
+	@${AWK} '$$0 !~ /^@/ { src = $$0;  sub("share/texmf-dist", "${WRKDIR}", src); system("${INSTALL_DATA} "src" ${STAGEDIR}${PREFIX}/"$$0); }' < ${TMPPLIST}
