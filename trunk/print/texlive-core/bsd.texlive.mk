@@ -14,7 +14,7 @@ DISTFILES+=		${PORTNAME}.doc-${PORTVERSION}${EXTRACT_SUFX}
 DISTFILES+=		${PORTNAME}.source-${PORTVERSION}${EXTRACT_SUFX}
 PLIST_SUB+=		PORTSRC=""
 .else
-PLIST_SUB+=		PORTSRC="@comment"
+PLIST_SUB+=		PORTSRC="@comment "
 .endif
 
 #FETCH_ARGS=	-ApR	# Do NOT restart a previously interrupted transfer
