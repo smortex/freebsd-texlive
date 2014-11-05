@@ -14,8 +14,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/manifest.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/topfront-example.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/topfront-example.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example-frontespizio.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example-frontespizio.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example-con-frontespizio.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example-con-frontespizio.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example-xetex.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example-xetex.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/toptesi/toptesi-example.cfg

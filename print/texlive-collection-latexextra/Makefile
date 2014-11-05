@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20141021
+PORTVERSION=	20141104
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -882,7 +882,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdfwin/pdfwin.sty:${PORTSDIR}/print/texlive-pdfwin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdfx/pdfx.sty:${PORTSDIR}/print/texlive-pdfx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pecha/pecha.cls:${PORTSDIR}/print/texlive-pecha \
-		${LOCALBASE}/share/texmf-dist/tex/latex/perfectcut/perfectcut.sty:${PORTSDIR}/print/texlive-perfectcut \
 		${LOCALBASE}/share/texmf-dist/tex/latex/perltex/perltex.sty:${PORTSDIR}/print/texlive-perltex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/permute/permute.sty:${PORTSDIR}/print/texlive-permute \
 		${LOCALBASE}/share/texmf-dist/tex/latex/petiteannonce/petiteannonce.cls:${PORTSDIR}/print/texlive-petiteannonce \

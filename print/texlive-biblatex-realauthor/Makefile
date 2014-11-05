@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-realauthor
-PORTVERSION=	20141103
+PORTVERSION=	20141104
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
