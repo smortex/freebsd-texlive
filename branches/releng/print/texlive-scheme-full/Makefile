@@ -450,7 +450,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/urwchancal/urwchancal.sty:${PORTSDIR}/print/texlive-urwchancal \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/venturis/yvtb8a.afm:${PORTSDIR}/print/texlive-venturisadf \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/wsuipa/iaccent.mf:${PORTSDIR}/print/texlive-wsuipa \
-		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/xcharter/xch1_4np5eb.enc:${PORTSDIR}/print/texlive-xcharter \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/xcharter/chalph.enc:${PORTSDIR}/print/texlive-xcharter \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/xits/xits-bold.otf:${PORTSDIR}/print/texlive-xits \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yfonts/yfonts.sty:${PORTSDIR}/print/texlive-yfonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zlmtt/zlmtt.sty:${PORTSDIR}/print/texlive-zlmtt \
@@ -533,7 +533,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/xskak/xskak.sty:${PORTSDIR}/print/texlive-xskak \
 		${LOCALBASE}/share/texmf-dist/tex/generic/abbr/abbr.tex:${PORTSDIR}/print/texlive-abbr \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/abstyles/acompat.bib:${PORTSDIR}/print/texlive-abstyles \
-		${LOCALBASE}/share/texmf-dist/tex/generic/bagpipe/bagpipe.tex:${PORTSDIR}/print/texlive-bagpipe \
 		${LOCALBASE}/share/texmf-dist/tex/generic/barr/diagxy.tex:${PORTSDIR}/print/texlive-barr \
 		${LOCALBASE}/share/texmf-dist/tex/generic/bitelist/bitelist.sty:${PORTSDIR}/print/texlive-bitelist \
 		${LOCALBASE}/share/texmf-dist/tex/generic/borceux/Diagram:${PORTSDIR}/print/texlive-borceux \
@@ -1667,7 +1666,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdfwin/pdfwin.sty:${PORTSDIR}/print/texlive-pdfwin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdfx/pdfx.sty:${PORTSDIR}/print/texlive-pdfx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pecha/pecha.cls:${PORTSDIR}/print/texlive-pecha \
-		${LOCALBASE}/share/texmf-dist/tex/latex/perfectcut/perfectcut.sty:${PORTSDIR}/print/texlive-perfectcut \
 		${LOCALBASE}/share/texmf-dist/tex/latex/perltex/perltex.sty:${PORTSDIR}/print/texlive-perltex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/permute/permute.sty:${PORTSDIR}/print/texlive-permute \
 		${LOCALBASE}/share/texmf-dist/tex/latex/petiteannonce/petiteannonce.cls:${PORTSDIR}/print/texlive-petiteannonce \
@@ -2042,6 +2040,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/nath/nath.sty:${PORTSDIR}/print/texlive-nath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ot-tableau/ot-tableau.sty:${PORTSDIR}/print/texlive-ot-tableau \
 		${LOCALBASE}/share/texmf-dist/tex/latex/oubraces/oubraces.sty:${PORTSDIR}/print/texlive-oubraces \
+		${LOCALBASE}/share/texmf-dist/tex/latex/perfectcut/perfectcut.sty:${PORTSDIR}/print/texlive-perfectcut \
 		${LOCALBASE}/share/texmf-dist/tex/latex/proba/proba.sty:${PORTSDIR}/print/texlive-proba \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rec-thy/rec-thy.sty:${PORTSDIR}/print/texlive-rec-thy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ribbonproofs/ribbonproofs.sty:${PORTSDIR}/print/texlive-ribbonproofs \
@@ -2102,6 +2101,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/metapost/textpath/textpath.mp:${PORTSDIR}/print/texlive-textpath \
 		${LOCALBASE}/share/texmf-dist/metapost/threeddice/threeddice.mp:${PORTSDIR}/print/texlive-threeddice \
 		${LOCALBASE}/share/texmf-dist/tex/latex/abc/abc.sty:${PORTSDIR}/print/texlive-abc \
+		${LOCALBASE}/share/texmf-dist/tex/generic/bagpipe/bagpipe.tex:${PORTSDIR}/print/texlive-bagpipe \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/figbas/cmrj.afm:${PORTSDIR}/print/texlive-figbas \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gchords/gchords.sty:${PORTSDIR}/print/texlive-gchords \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gtrcrd/gtrcrd.sty:${PORTSDIR}/print/texlive-gtrcrd \
