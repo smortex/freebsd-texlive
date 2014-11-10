@@ -40,6 +40,7 @@ share/texmf-dist/fonts/opentype/public/xcharter/XCharter-BoldItalic.otf
 share/texmf-dist/fonts/opentype/public/xcharter/XCharter-Italic.otf
 share/texmf-dist/fonts/opentype/public/xcharter/XCharter-Roman.otf
 share/texmf-dist/fonts/tfm/public/xcharter/XCharter-Bol-osf.tfm
+share/texmf-dist/fonts/tfm/public/xcharter/XCharter-BolIta-alph.tfm
 share/texmf-dist/fonts/tfm/public/xcharter/XCharter-Bold-sup-ly1--base.tfm
 share/texmf-dist/fonts/tfm/public/xcharter/XCharter-Bold-sup-ly1.tfm
 share/texmf-dist/fonts/tfm/public/xcharter/XCharter-Bold-sup-t1--base.tfm
