@@ -129,6 +129,7 @@ share/texmf-dist/tex/xelatex/bidi/sidecap-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/stabular-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/subfigure-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/tabls-xetex-bidi.def
+share/texmf-dist/tex/xelatex/bidi/tabularx-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/tabulary-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/tc-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/titlesec-xetex-bidi.def
