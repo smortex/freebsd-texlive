@@ -54,6 +54,18 @@ share/texmf-dist/tex/context/third/letter/style/memo-imp-memo.mkii
 share/texmf-dist/tex/context/third/letter/style/memo-imp-memo.mkiv
 share/texmf-dist/tex/context/third/letter/style/memo-imp-table.mkii
 share/texmf-dist/tex/context/third/letter/style/memo-imp-table.mkiv
+share/texmf-dist/tex/context/third/letter/style/resume-imp-casual-blue.mkiv
+share/texmf-dist/tex/context/third/letter/style/resume-imp-casual-green.mkiv
+share/texmf-dist/tex/context/third/letter/style/resume-imp-casual-grey.mkiv
+share/texmf-dist/tex/context/third/letter/style/resume-imp-casual-orange.mkiv
+share/texmf-dist/tex/context/third/letter/style/resume-imp-casual-red.mkiv
+share/texmf-dist/tex/context/third/letter/style/resume-imp-casual.mkiv
+share/texmf-dist/tex/context/third/letter/style/resume-imp-classic-blue.mkiv
+share/texmf-dist/tex/context/third/letter/style/resume-imp-classic-green.mkiv
+share/texmf-dist/tex/context/third/letter/style/resume-imp-classic-grey.mkiv
+share/texmf-dist/tex/context/third/letter/style/resume-imp-classic-orange.mkiv
+share/texmf-dist/tex/context/third/letter/style/resume-imp-classic-red.mkiv
+share/texmf-dist/tex/context/third/letter/style/resume-imp-classic.mkiv
 share/texmf-dist/tex/context/third/letter/style/resume-imp-default.mkiv
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
