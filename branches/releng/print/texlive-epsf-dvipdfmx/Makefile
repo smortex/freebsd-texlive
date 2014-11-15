@@ -1,14 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	tugboat
+PORTNAME=	epsf-dvipdfmx
 PORTVERSION=	20141114
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX macros for TUGboat articles.
+COMMENT=	Plain TeX file for using epsf.tex with (x)dvipdfmx.
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
