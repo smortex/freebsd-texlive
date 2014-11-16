@@ -1,0 +1,5 @@
+This package provides procedures for using spot colours in
+LaTeX documents. This package spotcolor package is a
+reimplementation of the spotcolor package by Jens Elstner for
+usage with XeLaTeX. As such, it has the same user interface and
+the same capabilities.
