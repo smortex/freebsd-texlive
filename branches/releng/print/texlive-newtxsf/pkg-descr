@@ -1,0 +1,4 @@
+The package has symbols from newtxmath and letters, Roman and
+Greek, taken from the STIX sans serif maths fonts. Though they
+have xheights matching Times, they scale quite well to match
+other sans serif text families.

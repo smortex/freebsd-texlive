@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20140930
+PORTVERSION=	20141119
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -196,6 +196,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc:${PORTSDIR}/print/texlive-mnsymbol \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/newpx/a_3p3as7.enc:${PORTSDIR}/print/texlive-newpx \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/newtx/alt-mn-greek.enc:${PORTSDIR}/print/texlive-newtx \
+		${LOCALBASE}/share/texmf-dist/tex/latex/newtxsf/newtxsf.sty:${PORTSDIR}/print/texlive-newtxsf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newtxtt/newtxtt.sty:${PORTSDIR}/print/texlive-newtxtt \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/nkarta/nkarta.mf:${PORTSDIR}/print/texlive-nkarta \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/obnov/obn10.mf:${PORTSDIR}/print/texlive-obnov \
@@ -252,7 +253,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/urwchancal/urwchancal.sty:${PORTSDIR}/print/texlive-urwchancal \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/venturis/yvtb8a.afm:${PORTSDIR}/print/texlive-venturisadf \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/wsuipa/iaccent.mf:${PORTSDIR}/print/texlive-wsuipa \
-		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/xcharter/xch1_4np5eb.enc:${PORTSDIR}/print/texlive-xcharter \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/xcharter/chalph.enc:${PORTSDIR}/print/texlive-xcharter \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/xits/xits-bold.otf:${PORTSDIR}/print/texlive-xits \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yfonts/yfonts.sty:${PORTSDIR}/print/texlive-yfonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zlmtt/zlmtt.sty:${PORTSDIR}/print/texlive-zlmtt
