@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	tcolorbox
+PORTNAME=	newtxsf
 PORTVERSION=	20141119
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Coloured boxes, for LaTeX examples and theorems, etc.
+COMMENT=	Sans serif maths fonts based on newtxmath and STIX Sans.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
