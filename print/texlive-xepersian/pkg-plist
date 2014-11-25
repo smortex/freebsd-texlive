@@ -1,4 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/README
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/dkun-0.3.py
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/dkun-0.4.py
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/ftxe-0.12.py
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/img/ireland.jpg
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/img/weather/clouds.jpg
@@ -9,6 +11,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/test-empty-form.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/test-question-only.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/test-solution-form.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/undk-0.6.py
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/unldk-0.2.py
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/xepersian-logo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/xepersian-logo.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xepersian/xepersian.pdf
