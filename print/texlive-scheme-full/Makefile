@@ -336,7 +336,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fetamont/fetamont.sty:${PORTSDIR}/print/texlive-fetamont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/feyn/feyn.sty:${PORTSDIR}/print/texlive-feyn \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fge/fge.sty:${PORTSDIR}/print/texlive-fge \
-		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/fira/fir_3p7daj.enc:${PORTSDIR}/print/texlive-fira \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/fira/fir_2cbdpz.enc:${PORTSDIR}/print/texlive-fira \
 		${LOCALBASE}/share/texmf-dist/tex/latex/foekfont/foekfont.sty:${PORTSDIR}/print/texlive-foekfont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fonetika/fonetika.sty:${PORTSDIR}/print/texlive-fonetika \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fontawesome/fontawesome.sty:${PORTSDIR}/print/texlive-fontawesome \
@@ -575,6 +575,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/upca/upca.tex:${PORTSDIR}/print/texlive-upca \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xlop/xlop.sty:${PORTSDIR}/print/texlive-xlop \
 		${LOCALBASE}/share/texmf-dist/tex/generic/yax/yax.sty:${PORTSDIR}/print/texlive-yax \
+		${LOCALBASE}/share/texmf-dist/tex/generic/apnum/apnum.tex:${PORTSDIR}/print/texlive-apnum \
 		${LOCALBASE}/share/texmf-dist/tex/generic/epsf/epsf.sty:${PORTSDIR}/print/texlive-epsf \
 		${LOCALBASE}/share/texmf-dist/fonts/map/fontname/adobe.map:${PORTSDIR}/print/texlive-fontname \
 		${LOCALBASE}/share/texmf-dist/tex/generic/genmisc/anti.tex:${PORTSDIR}/print/texlive-genmisc \

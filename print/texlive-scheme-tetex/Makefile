@@ -130,6 +130,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/fontools/fontools_ly1.enc:${PORTSDIR}/print/texlive-fontools \
 		${LOCALBASE}/share/texmf-dist/metapost/mf2pt1/mf2pt1.mp:${PORTSDIR}/print/texlive-mf2pt1 \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/ttf2pk/base/T1-WGL4.enc:${PORTSDIR}/print/texlive-ttfutils \
+		${LOCALBASE}/share/texmf-dist/tex/generic/apnum/apnum.tex:${PORTSDIR}/print/texlive-apnum \
 		${LOCALBASE}/share/texmf-dist/tex/generic/epsf/epsf.sty:${PORTSDIR}/print/texlive-epsf \
 		${LOCALBASE}/share/texmf-dist/fonts/map/fontname/adobe.map:${PORTSDIR}/print/texlive-fontname \
 		${LOCALBASE}/share/texmf-dist/tex/generic/genmisc/anti.tex:${PORTSDIR}/print/texlive-genmisc \
@@ -409,6 +410,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/nath/nath.sty:${PORTSDIR}/print/texlive-nath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ot-tableau/ot-tableau.sty:${PORTSDIR}/print/texlive-ot-tableau \
 		${LOCALBASE}/share/texmf-dist/tex/latex/oubraces/oubraces.sty:${PORTSDIR}/print/texlive-oubraces \
+		${LOCALBASE}/share/texmf-dist/tex/latex/perfectcut/perfectcut.sty:${PORTSDIR}/print/texlive-perfectcut \
 		${LOCALBASE}/share/texmf-dist/tex/latex/proba/proba.sty:${PORTSDIR}/print/texlive-proba \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rec-thy/rec-thy.sty:${PORTSDIR}/print/texlive-rec-thy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ribbonproofs/ribbonproofs.sty:${PORTSDIR}/print/texlive-ribbonproofs \
@@ -598,6 +600,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/venndiagram/venndiagram.sty:${PORTSDIR}/print/texlive-venndiagram \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xpicture/xpicture.sty:${PORTSDIR}/print/texlive-xpicture \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xypic/xypic.sty:${PORTSDIR}/print/texlive-xypic \
+		${LOCALBASE}/share/texmf-dist/tex/plain/epsf-dvipdfmx/epsf-dvipdfmx.tex:${PORTSDIR}/print/texlive-epsf-dvipdfmx \
 		${LOCALBASE}/share/texmf-dist/tex/plain/figflow/figflow.tex:${PORTSDIR}/print/texlive-figflow \
 		${LOCALBASE}/share/texmf-dist/tex/plain/fixpdfmag/fixpdfmag.tex:${PORTSDIR}/print/texlive-fixpdfmag \
 		${LOCALBASE}/share/texmf-dist/tex/plain/font-change/font-change.tex:${PORTSDIR}/print/texlive-font-change \

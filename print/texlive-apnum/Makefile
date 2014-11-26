@@ -1,13 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	tetex
+PORTNAME=	apnum
 PORTVERSION=	20141125
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	scripts and files originally written for or included in teTeX
-
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
+COMMENT=	Arbitrary precision numbers implemented by TeX macros.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
