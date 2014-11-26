@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-genericrecommended
-PORTVERSION=	20140418
+PORTVERSION=	20141125
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -42,6 +42,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
+		${LOCALBASE}/share/texmf-dist/tex/generic/apnum/apnum.tex:${PORTSDIR}/print/texlive-apnum \
 		${LOCALBASE}/share/texmf-dist/tex/generic/epsf/epsf.sty:${PORTSDIR}/print/texlive-epsf \
 		${LOCALBASE}/share/texmf-dist/fonts/map/fontname/adobe.map:${PORTSDIR}/print/texlive-fontname \
 		${LOCALBASE}/share/texmf-dist/tex/generic/genmisc/anti.tex:${PORTSDIR}/print/texlive-genmisc \
