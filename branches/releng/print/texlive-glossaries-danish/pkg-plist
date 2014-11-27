@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-danish/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-danish/glossaries-danish.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-danish/glossaries-dictionary-Danish.dict
+%%PORTSRC%%share/texmf-dist/source/latex/glossaries-danish/glossaries-danish.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/glossaries-danish/glossaries-danish.ins
+share/texmf-dist/tex/latex/glossaries-danish/glossaries-danish.ldf
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
