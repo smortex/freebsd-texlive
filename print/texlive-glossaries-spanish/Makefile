@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	ebgaramond
+PORTNAME=	glossaries-spanish
 PORTVERSION=	20141126
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX support for EBGaramond fonts.
+COMMENT=	Spanish language module for glossaries package.
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

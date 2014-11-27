@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-spanish/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-spanish/glossaries-dictionary-Spanish.dict
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-spanish/glossaries-spanish.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/glossaries-spanish/glossaries-spanish.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/glossaries-spanish/glossaries-spanish.ins
+share/texmf-dist/tex/latex/glossaries-spanish/glossaries-spanish-noenc.ldf
+share/texmf-dist/tex/latex/glossaries-spanish/glossaries-spanish-utf8.ldf
+share/texmf-dist/tex/latex/glossaries-spanish/glossaries-spanish.ldf
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-irish/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-irish/glossaries-dictionary-Irish.dict
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-irish/glossaries-irish.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/glossaries-irish/glossaries-irish.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/glossaries-irish/glossaries-irish.ins
+share/texmf-dist/tex/latex/glossaries-irish/glossaries-irish-noenc.ldf
+share/texmf-dist/tex/latex/glossaries-irish/glossaries-irish-utf8.ldf
+share/texmf-dist/tex/latex/glossaries-irish/glossaries-irish.ldf
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20141104
+PORTVERSION=	20141126
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -603,6 +603,18 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gitinfo2/gitinfo2.sty:${PORTSDIR}/print/texlive-gitinfo2 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gloss/gloss.sty:${PORTSDIR}/print/texlive-gloss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries/base/glossaries.sty:${PORTSDIR}/print/texlive-glossaries \
+		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-danish/glossaries-danish.ldf:${PORTSDIR}/print/texlive-glossaries-danish \
+		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-dutch/glossaries-dutch.ldf:${PORTSDIR}/print/texlive-glossaries-dutch \
+		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-english/glossaries-english.ldf:${PORTSDIR}/print/texlive-glossaries-english \
+		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-french/glossaries-french.ldf:${PORTSDIR}/print/texlive-glossaries-french \
+		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-german/glossaries-german.ldf:${PORTSDIR}/print/texlive-glossaries-german \
+		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-irish/glossaries-irish-noenc.ldf:${PORTSDIR}/print/texlive-glossaries-irish \
+		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-italian/glossaries-italian.ldf:${PORTSDIR}/print/texlive-glossaries-italian \
+		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-magyar/glossaries-magyar-noenc.ldf:${PORTSDIR}/print/texlive-glossaries-magyar \
+		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-polish/glossaries-polish-noenc.ldf:${PORTSDIR}/print/texlive-glossaries-polish \
+		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-portuges/glossaries-portuges-noenc.ldf:${PORTSDIR}/print/texlive-glossaries-portuges \
+		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-serbian/glossaries-serbian-noenc.ldf:${PORTSDIR}/print/texlive-glossaries-serbian \
+		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-spanish/glossaries-spanish-noenc.ldf:${PORTSDIR}/print/texlive-glossaries-spanish \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmdoc/gmdoc.sty:${PORTSDIR}/print/texlive-gmdoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmdoc-enhance/gmdoc-enhance.sty:${PORTSDIR}/print/texlive-gmdoc-enhance \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmiflink/gmiflink.sty:${PORTSDIR}/print/texlive-gmiflink \

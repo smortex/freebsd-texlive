@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	ebgaramond
+PORTNAME=	glossaries-danish
 PORTVERSION=	20141126
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX support for EBGaramond fonts.
+COMMENT=	Danish language module for glossaries package
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
