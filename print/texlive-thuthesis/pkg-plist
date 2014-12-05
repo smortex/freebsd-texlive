@@ -24,6 +24,7 @@ share/texmf-dist/bibtex/bst/thuthesis/thubib.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/main.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/main.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/ref/refs.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/shuji.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/shuji.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/thuthesis.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/zhfonts.py

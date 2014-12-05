@@ -16,10 +16,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/getNewBibtex
 %%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/h-physrev.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/lhcb-detector-cross-section.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/mwe.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/mythesis.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/mythesis.cls
-%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/mythesis.sty
 %%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/mythesismath.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/example/preamble.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/hepthesis.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/hepthesis/hepthesis.tex
 share/texmf-dist/tex/latex/hepthesis/hepthesis.cls

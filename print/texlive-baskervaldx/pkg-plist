@@ -76,7 +76,7 @@ share/texmf-dist/fonts/enc/dvips/baskervaldx/zbv_xjuza2.enc
 share/texmf-dist/fonts/enc/dvips/baskervaldx/zbv_xsxsev.enc
 share/texmf-dist/fonts/enc/dvips/baskervaldx/zbv_xyk42r.enc
 share/texmf-dist/fonts/enc/dvips/baskervaldx/zbv_ymibyh.enc
-share/texmf-dist/fonts/map/dvips/baskervaldx/Baskervaldx.map
+share/texmf-dist/fonts/map/dvips/baskervaldx/baskervaldx.map
 share/texmf-dist/fonts/opentype/public/baskervaldx/Baskervaldx-Bol.otf
 share/texmf-dist/fonts/opentype/public/baskervaldx/Baskervaldx-BolIta.otf
 share/texmf-dist/fonts/opentype/public/baskervaldx/Baskervaldx-Ita.otf
@@ -110,7 +110,6 @@ share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Bol-osf-t1.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Bol-osf-ts1--base.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Bol-osf-ts1.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Bol-osf.tfm
-share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Bol-raw.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Bol-sup-ly1--base.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Bol-sup-ly1.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Bol-sup-t1--base.tfm
@@ -293,7 +292,6 @@ share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Reg-osf-t1--base.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Reg-osf-t1.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Reg-osf-ts1--base.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Reg-osf-ts1.tfm
-share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Reg-raw.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Reg-sup-ly1--base.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Reg-sup-ly1.tfm
 share/texmf-dist/fonts/tfm/public/baskervaldx/Baskervaldx-Reg-sup-t1--base.tfm
@@ -470,6 +468,6 @@ share/texmf-dist/tex/latex/baskervaldx/TS1Baskervaldx-LF.fd
 share/texmf-dist/tex/latex/baskervaldx/TS1Baskervaldx-OsF.fd
 share/texmf-dist/tex/latex/baskervaldx/TS1Baskervaldx-TLF.fd
 share/texmf-dist/tex/latex/baskervaldx/TS1Baskervaldx-TOsF.fd
-share/texmf-dist/tex/latex/baskervaldx/omlzbvmi.fd
+share/texmf-dist/tex/latex/baskervaldx/baskervaldx.fontspec
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

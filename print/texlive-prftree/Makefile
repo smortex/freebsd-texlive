@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	noindentafter
+PORTNAME=	prftree
 PORTVERSION=	20141202
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Tool to prevent paragraph indentation after environments/macros.
+COMMENT=	Macros for building proof trees.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

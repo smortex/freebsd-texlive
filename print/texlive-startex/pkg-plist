@@ -1,18 +1,19 @@
-%%PORTDOCS%%share/texmf-dist/doc/otherformats/startex/base/guide.pdf
-%%PORTDOCS%%share/texmf-dist/doc/otherformats/startex/base/ideas.pdf
-%%PORTDOCS%%share/texmf-dist/doc/otherformats/startex/base/startex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/startex/INSTALL
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/startex/README
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/startex/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/startex/guide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/startex/ideas.pdf
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/startex/startex.bib
+%%PORTDOCS%%share/texmf-dist/doc/otherformats/startex/startex.pdf
 share/texmf-dist/makeindex/startex/stxglo.ist
 share/texmf-dist/makeindex/startex/stxind.ist
-%%PORTSRC%%share/texmf-dist/source/startex/base/INSTALL
-%%PORTSRC%%share/texmf-dist/source/startex/base/README
-%%PORTSRC%%share/texmf-dist/source/startex/base/startex.bib
-%%PORTSRC%%share/texmf-dist/source/startex/base/startex.dtx
-%%PORTSRC%%share/texmf-dist/source/startex/base/startex.ins
-share/texmf-dist/tex/startex/base/a4-article.stx
-share/texmf-dist/tex/startex/base/article.stx
-share/texmf-dist/tex/startex/base/ifi-article.stx
-share/texmf-dist/tex/startex/base/ifi-artikkel.stx
-share/texmf-dist/tex/startex/base/startex.lan
-share/texmf-dist/tex/startex/base/startex.tex
+%%PORTSRC%%share/texmf-dist/source/startex/startex/startex.dtx
+%%PORTSRC%%share/texmf-dist/source/startex/startex/startex.ins
+share/texmf-dist/tex/startex/a4-article.stx
+share/texmf-dist/tex/startex/article.stx
+share/texmf-dist/tex/startex/ifi-article.stx
+share/texmf-dist/tex/startex/ifi-artikkel.stx
+share/texmf-dist/tex/startex/startex.lan
+share/texmf-dist/tex/startex/startex.tex
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
