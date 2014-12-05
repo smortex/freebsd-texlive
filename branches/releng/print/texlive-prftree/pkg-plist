@@ -1,8 +1,6 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/noindentafter/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/noindentafter/noindentafter-dry.sty
-%%PORTDOCS%%share/texmf-dist/doc/latex/noindentafter/noindentafter-packagedoc.cls
-%%PORTDOCS%%share/texmf-dist/doc/latex/noindentafter/noindentafter.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/noindentafter/noindentafter.tex
-share/texmf-dist/tex/latex/noindentafter/noindentafter.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/prftree/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/prftree/prftreedoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/prftree/prftreedoc.tex
+share/texmf-dist/tex/latex/prftree/prftree.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

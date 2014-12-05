@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	noindentafter
-PORTVERSION=	20141202
+PORTNAME=	bondgraphs
+PORTVERSION=	20141129
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Tool to prevent paragraph indentation after environments/macros.
+COMMENT=	Draws bond graphs in LaTeX, using pgf/TikZ.
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

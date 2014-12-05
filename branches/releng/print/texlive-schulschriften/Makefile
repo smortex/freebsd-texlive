@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	schulschriften
-PORTVERSION=	20140418
+PORTVERSION=	20141204
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

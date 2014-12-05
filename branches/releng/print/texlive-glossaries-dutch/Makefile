@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	glossaries-dutch
-PORTVERSION=	20141126
+PORTVERSION=	20141129
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
