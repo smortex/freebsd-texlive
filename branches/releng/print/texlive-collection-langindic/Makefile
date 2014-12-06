@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langindic
-PORTVERSION=	20140418
+PORTVERSION=	20141205
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -46,7 +46,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/bengali/bn.mf:${PORTSDIR}/print/texlive-bengali \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/burmese/burmese.map:${PORTSDIR}/print/texlive-burmese \
 		${LOCALBASE}/share/texmf-dist/scripts/ebong/ebong.py:${PORTSDIR}/print/texlive-ebong \
-		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/sanskrit/skt.map:${PORTSDIR}/print/texlive-sanskrit \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/sanskrit/skt10.mf:${PORTSDIR}/print/texlive-sanskrit \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/sanskrit-t1/skt.map:${PORTSDIR}/print/texlive-sanskrit-t1 \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/velthuis/dvnb10.afm:${PORTSDIR}/print/texlive-velthuis \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/wnri/acctmax.mf:${PORTSDIR}/print/texlive-wnri \
 		${LOCALBASE}/share/texmf-dist/tex/latex/wnri-latex/ot1wnr.fd:${PORTSDIR}/print/texlive-wnri-latex \

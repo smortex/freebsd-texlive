@@ -589,6 +589,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/xmltex/passivetex/dummyels.sty:${PORTSDIR}/print/texlive-passivetex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/tex4ht/tex4ht.sty:${PORTSDIR}/print/texlive-tex4ht \
 		${LOCALBASE}/share/texmf-dist/tex/xmltex/base/xmltex.tex:${PORTSDIR}/print/texlive-xmltex \
+		${LOCALBASE}/share/texmf-dist/tex/xmltex/xmltexconfig/pdfxmltex.ini:${PORTSDIR}/print/texlive-xmltexconfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref/bibleref.sty:${PORTSDIR}/print/texlive-bibleref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-lds/bibleref-lds.sty:${PORTSDIR}/print/texlive-bibleref-lds \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-mouth/bibleref-mouth.sty:${PORTSDIR}/print/texlive-bibleref-mouth \
@@ -783,7 +784,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/bengali/bn.mf:${PORTSDIR}/print/texlive-bengali \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/burmese/burmese.map:${PORTSDIR}/print/texlive-burmese \
 		${LOCALBASE}/share/texmf-dist/scripts/ebong/ebong.py:${PORTSDIR}/print/texlive-ebong \
-		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/sanskrit/skt.map:${PORTSDIR}/print/texlive-sanskrit \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/sanskrit/skt10.mf:${PORTSDIR}/print/texlive-sanskrit \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/sanskrit-t1/skt.map:${PORTSDIR}/print/texlive-sanskrit-t1 \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/velthuis/dvnb10.afm:${PORTSDIR}/print/texlive-velthuis \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/wnri/acctmax.mf:${PORTSDIR}/print/texlive-wnri \
 		${LOCALBASE}/share/texmf-dist/tex/latex/wnri-latex/ot1wnr.fd:${PORTSDIR}/print/texlive-wnri-latex \
