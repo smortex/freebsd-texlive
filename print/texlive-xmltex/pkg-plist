@@ -24,7 +24,5 @@ share/texmf-dist/tex/xmltex/base/utf-16.xmt
 share/texmf-dist/tex/xmltex/base/windows-1250.xmt
 share/texmf-dist/tex/xmltex/base/xmltex.cfg
 share/texmf-dist/tex/xmltex/base/xmltex.tex
-share/texmf-dist/tex/xmltex/config/pdfxmltex.ini
-share/texmf-dist/tex/xmltex/config/xmltex.ini
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

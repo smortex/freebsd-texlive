@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-htmlxml
-PORTVERSION=	20140418
+PORTVERSION=	20141205
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -104,7 +104,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/jadetex/base/dsssl.def:${PORTSDIR}/print/texlive-jadetex \
 		${LOCALBASE}/share/texmf-dist/tex/xmltex/passivetex/dummyels.sty:${PORTSDIR}/print/texlive-passivetex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/tex4ht/tex4ht.sty:${PORTSDIR}/print/texlive-tex4ht \
-		${LOCALBASE}/share/texmf-dist/tex/xmltex/base/xmltex.tex:${PORTSDIR}/print/texlive-xmltex
+		${LOCALBASE}/share/texmf-dist/tex/xmltex/base/xmltex.tex:${PORTSDIR}/print/texlive-xmltex \
+		${LOCALBASE}/share/texmf-dist/tex/xmltex/xmltexconfig/pdfxmltex.ini:${PORTSDIR}/print/texlive-xmltexconfig
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

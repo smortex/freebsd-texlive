@@ -1,14 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	xkeyval
+PORTNAME=	xmltexconfig
 PORTVERSION=	20141205
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extension of the keyval package.
+COMMENT=	The xmltexconfig package
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -1,14 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	xkeyval
+PORTNAME=	sanskrit-t1
 PORTVERSION=	20141205
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extension of the keyval package.
+COMMENT=	Type 1 version of 'skt' fonts for Sanskrit.
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

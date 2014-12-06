@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/sanskrit-t1/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/sanskrit-t1/sktdoc.pdf
+share/texmf-dist/fonts/map/dvips/sanskrit-t1/skt.map
+share/texmf-dist/fonts/type1/public/sanskrit-t1/skt10.pfb
+share/texmf-dist/fonts/type1/public/sanskrit-t1/skt8.pfb
+share/texmf-dist/fonts/type1/public/sanskrit-t1/skt9.pfb
+share/texmf-dist/fonts/type1/public/sanskrit-t1/sktb10.pfb
+share/texmf-dist/fonts/type1/public/sanskrit-t1/sktbs10.pfb
+share/texmf-dist/fonts/type1/public/sanskrit-t1/sktf10.pfb
+share/texmf-dist/fonts/type1/public/sanskrit-t1/sktfs10.pfb
+share/texmf-dist/fonts/type1/public/sanskrit-t1/skts10.pfb
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
