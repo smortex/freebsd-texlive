@@ -2,12 +2,17 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/documentation/manual.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/documentation/manual.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/indent.yaml
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/alignmentoutsideEnvironments.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/bigTest.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/braceTest.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/braceTestsmall.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/conditional.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/environments.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/filecontents.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/ifelsefi.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/ifelsefiONE.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/matrix.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/multipleBraces.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/nestedalignment.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/nestedalignment1.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/outputfile.tex
@@ -23,6 +28,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/table3.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/testHeadings.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/testHeadings1.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/testItems.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/testcls.cls
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/theorem.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/tikz1.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/tikz2.tex
