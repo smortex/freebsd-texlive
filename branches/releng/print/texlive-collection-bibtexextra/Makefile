@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20141020
+PORTVERSION=	20141211
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -155,6 +155,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/showtags/showtags.sty:${PORTSDIR}/print/texlive-showtags \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/sort-by-letters/abbrv-letters.bst:${PORTSDIR}/print/texlive-sort-by-letters \
 		${LOCALBASE}/share/texmf-dist/tex/latex/splitbib/splitbib.sty:${PORTSDIR}/print/texlive-splitbib \
+		${LOCALBASE}/share/texmf-dist/tex/latex/turabian/turabian.cls:${PORTSDIR}/print/texlive-turabian \
+		${LOCALBASE}/share/texmf-dist/tex/latex/turabian-formatting/turabian-formatting.sty:${PORTSDIR}/print/texlive-turabian-formatting \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uni-wtal-ger/uni-wtal-ger.bbx:${PORTSDIR}/print/texlive-uni-wtal-ger \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uni-wtal-lin/uni-wtal-lin.bbx:${PORTSDIR}/print/texlive-uni-wtal-lin \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/urlbst/abbrvurl.bst:${PORTSDIR}/print/texlive-urlbst \

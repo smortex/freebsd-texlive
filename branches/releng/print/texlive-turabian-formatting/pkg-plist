@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/turabian-formatting/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/turabian-formatting/turabian-formatting-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/turabian-formatting/turabian-formatting-doc.tex
+share/texmf-dist/tex/latex/turabian-formatting/turabian-formatting.sty
+share/texmf-dist/tex/latex/turabian-formatting/turabian-researchpaper.cls
+share/texmf-dist/tex/latex/turabian-formatting/turabian-thesis.cls
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
