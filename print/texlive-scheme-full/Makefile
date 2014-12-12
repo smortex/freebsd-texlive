@@ -156,6 +156,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/showtags/showtags.sty:${PORTSDIR}/print/texlive-showtags \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/sort-by-letters/abbrv-letters.bst:${PORTSDIR}/print/texlive-sort-by-letters \
 		${LOCALBASE}/share/texmf-dist/tex/latex/splitbib/splitbib.sty:${PORTSDIR}/print/texlive-splitbib \
+		${LOCALBASE}/share/texmf-dist/tex/latex/turabian/turabian.cls:${PORTSDIR}/print/texlive-turabian \
+		${LOCALBASE}/share/texmf-dist/tex/latex/turabian-formatting/turabian-formatting.sty:${PORTSDIR}/print/texlive-turabian-formatting \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uni-wtal-ger/uni-wtal-ger.bbx:${PORTSDIR}/print/texlive-uni-wtal-ger \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uni-wtal-lin/uni-wtal-lin.bbx:${PORTSDIR}/print/texlive-uni-wtal-lin \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/urlbst/abbrvurl.bst:${PORTSDIR}/print/texlive-urlbst \
@@ -866,6 +868,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/crop/crop.sty:${PORTSDIR}/print/texlive-crop \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ctable/ctable.sty:${PORTSDIR}/print/texlive-ctable \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty:${PORTSDIR}/print/texlive-eso-pic \
+		${LOCALBASE}/share/texmf-dist/tex/latex/euenc/eu1enc.def:${PORTSDIR}/print/texlive-euenc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/euler/euler.sty:${PORTSDIR}/print/texlive-euler \
 		${LOCALBASE}/share/texmf-dist/tex/latex/extsizes/extsizes.sty:${PORTSDIR}/print/texlive-extsizes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancybox/fancybox.sty:${PORTSDIR}/print/texlive-fancybox \
@@ -2457,7 +2460,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidipagegrid/bidipagegrid.sty:${PORTSDIR}/print/texlive-bidipagegrid \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidishadowtext/bidishadowtext.sty:${PORTSDIR}/print/texlive-bidishadowtext \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidipresentation/bidipresentation.cls:${PORTSDIR}/print/texlive-bidipresentation \
-		${LOCALBASE}/share/texmf-dist/tex/latex/euenc/eu1enc.def:${PORTSDIR}/print/texlive-euenc \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fixlatvian/fixlatvian.sty:${PORTSDIR}/print/texlive-fixlatvian \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fontbook/fontbook.sty:${PORTSDIR}/print/texlive-fontbook \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fontwrap/fontwrap.sty:${PORTSDIR}/print/texlive-fontwrap \
