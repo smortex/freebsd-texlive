@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	turabian
-PORTVERSION=	20141211
+PORTNAME=	mflogo-font
+PORTVERSION=	20141214
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create Turabian-formatted material using LaTeX.
+COMMENT=	Metafont logo font.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

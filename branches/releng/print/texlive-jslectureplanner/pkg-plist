@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/lecpresbody.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/lecturebib.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/lecturebib.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/lecturehandout.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/lecturehandout.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/lectureplanner-examples.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/lecturepresentation.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/lecturepresentation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/lectureprogram.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/lectureprogram.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/lecturescript.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/lecturescript.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/metadata.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/jslectureplanner.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/jslectureplanner.tex
+share/texmf-dist/tex/latex/jslectureplanner/jslectureplanner.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
