@@ -12,5 +12,6 @@ share/texmf-dist/tex/latex/biblatex-philosophy/philosophy-modern.cbx
 share/texmf-dist/tex/latex/biblatex-philosophy/philosophy-standard.bbx
 share/texmf-dist/tex/latex/biblatex-philosophy/philosophy-verbose.bbx
 share/texmf-dist/tex/latex/biblatex-philosophy/philosophy-verbose.cbx
+share/texmf-dist/tex/latex/biblatex-philosophy/spanish-philosophy.lbx
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

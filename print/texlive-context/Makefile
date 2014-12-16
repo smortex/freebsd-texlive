@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	context
-PORTVERSION=	20140523
+PORTVERSION=	20141214
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
@@ -13,8 +13,10 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/afm/metapost/freeeuro.afm:${POR
 		${LOCALBASE}/share/texmf-dist/tex/generic/config/luatex-unicode-letters.tex:${PORTSDIR}/print/texlive-luatex \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/lm/lmb10.afm:${PORTSDIR}/print/texlive-lm \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf:${PORTSDIR}/print/texlive-lm-math \
-		${LOCALBASE}/share/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty:${PORTSDIR}/print/texlive-stmaryrd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/hoekwater/manfnt-font/manfnt.afm:${PORTSDIR}/print/texlive-manfnt-font \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/hoekwater/mflogo-font/logo10.afm:${PORTSDIR}/print/texlive-mflogo-font \
+		${LOCALBASE}/share/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty:${PORTSDIR}/print/texlive-stmaryrd \
 		${LOCALBASE}/share/texmf-dist/tex/generic/context/mptopdf/mptopdf.tex:${PORTSDIR}/print/texlive-mptopdf \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

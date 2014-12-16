@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	scheme-context
-PORTVERSION=	20140418
+PORTVERSION=	20141214
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -24,13 +24,13 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
 		${LOCALBASE}/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty:${PORTSDIR}/print/texlive-ifluatex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty:${PORTSDIR}/print/texlive-ifxetex \
-		${LOCALBASE}/share/texmf-dist/fonts/source/public/knuth-lib/grayf.mf:${PORTSDIR}/print/texlive-knuth-lib \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/knuth-lib/3test.mf:${PORTSDIR}/print/texlive-knuth-lib \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/knuth-local/black.mf:${PORTSDIR}/print/texlive-knuth-local \
 		${LOCALBASE}/share/texmf-dist/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
 		${LOCALBASE}/share/texmf-dist/scripts/lua-alt-getopt/alt_getopt.lua:${PORTSDIR}/print/texlive-lua-alt-getopt \
 		${LOCALBASE}/share/texmf-dist/tex/generic/config/luatex-unicode-letters.tex:${PORTSDIR}/print/texlive-luatex \
 		${LOCALBASE}/share/texmf-dist/makeindex/base/din.ist:${PORTSDIR}/print/texlive-makeindex \
-		${LOCALBASE}/share/texmf-dist/metafont/base/expr.mf:${PORTSDIR}/print/texlive-metafont \
+		${LOCALBASE}/share/texmf-dist/metafont/base/mf.mf:${PORTSDIR}/print/texlive-metafont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mflogo/mflogo.sty:${PORTSDIR}/print/texlive-mflogo \
 		${LOCALBASE}/share/texmf-dist/mft/base/README:${PORTSDIR}/print/texlive-mfware \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/dummy-space/dummy-space.map:${PORTSDIR}/print/texlive-pdftex \
@@ -115,12 +115,14 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/xits/xits-bold.otf:${PORTSDIR}/print/texlive-xits \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asana-Math.otf:${PORTSDIR}/print/texlive-Asana-Math \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/gentium-tug/GenBasB.afm:${PORTSDIR}/print/texlive-gentium-tug \
-		${LOCALBASE}/share/texmf-dist/tex/latex/txfonts/txfonts.sty:${PORTSDIR}/print/texlive-txfonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pxfonts/pxfonts.sty:${PORTSDIR}/print/texlive-pxfonts \
-		${LOCALBASE}/share/texmf-dist/tex/latex/eulervm/eulervm.sty:${PORTSDIR}/print/texlive-eulervm \
-		${LOCALBASE}/share/texmf-dist/tex/latex/marvosym/marvosym.sty:${PORTSDIR}/print/texlive-marvosym \
-		${LOCALBASE}/share/texmf-dist/fonts/afm/public/wasy/wasy10.afm:${PORTSDIR}/print/texlive-wasy \
+		${LOCALBASE}/share/texmf-dist/tex/latex/txfonts/txfonts.sty:${PORTSDIR}/print/texlive-txfonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ccicons/ccicons.sty:${PORTSDIR}/print/texlive-ccicons \
+		${LOCALBASE}/share/texmf-dist/tex/latex/eulervm/eulervm.sty:${PORTSDIR}/print/texlive-eulervm \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/hoekwater/manfnt-font/manfnt.afm:${PORTSDIR}/print/texlive-manfnt-font \
+		${LOCALBASE}/share/texmf-dist/tex/latex/marvosym/marvosym.sty:${PORTSDIR}/print/texlive-marvosym \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/hoekwater/mflogo-font/logo10.afm:${PORTSDIR}/print/texlive-mflogo-font \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/wasy/wasy10.afm:${PORTSDIR}/print/texlive-wasy \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc:${PORTSDIR}/print/texlive-ly1
 
 OPTIONS_EXCLUDE=	DOCS
