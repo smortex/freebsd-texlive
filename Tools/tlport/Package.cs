@@ -520,7 +520,7 @@ namespace TeXLive
 			System.IO.StreamReader tlobj = new System.IO.StreamReader(FileName, true);
 
 			string Distfile = System.IO.Path.Combine (collection.DistDir, PackageName + ".tar.xz");
-			version = int.Parse (System.IO.File.GetLastWriteTime (Distfile).ToString ("yyyyMMdd"));
+			version = int.Parse (System.IO.File.GetLastWriteTimeUtc (Distfile).ToString ("yyyyMMdd"));
 			epoch = 0;
 
 			// Read package information
