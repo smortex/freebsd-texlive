@@ -1,0 +1,25 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/wasy2-ps/README
+share/texmf-dist/fonts/afm/public/wasy2-ps/wasy10.afm
+share/texmf-dist/fonts/afm/public/wasy2-ps/wasy5.afm
+share/texmf-dist/fonts/afm/public/wasy2-ps/wasy6.afm
+share/texmf-dist/fonts/afm/public/wasy2-ps/wasy7.afm
+share/texmf-dist/fonts/afm/public/wasy2-ps/wasy8.afm
+share/texmf-dist/fonts/afm/public/wasy2-ps/wasy9.afm
+share/texmf-dist/fonts/afm/public/wasy2-ps/wasyb10.afm
+share/texmf-dist/fonts/map/dvips/wasy2-ps/wasy.map
+share/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pfb
+share/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pfm
+share/texmf-dist/fonts/type1/public/wasy2-ps/wasy5.pfb
+share/texmf-dist/fonts/type1/public/wasy2-ps/wasy5.pfm
+share/texmf-dist/fonts/type1/public/wasy2-ps/wasy6.pfb
+share/texmf-dist/fonts/type1/public/wasy2-ps/wasy6.pfm
+share/texmf-dist/fonts/type1/public/wasy2-ps/wasy7.pfb
+share/texmf-dist/fonts/type1/public/wasy2-ps/wasy7.pfm
+share/texmf-dist/fonts/type1/public/wasy2-ps/wasy8.pfb
+share/texmf-dist/fonts/type1/public/wasy2-ps/wasy8.pfm
+share/texmf-dist/fonts/type1/public/wasy2-ps/wasy9.pfb
+share/texmf-dist/fonts/type1/public/wasy2-ps/wasy9.pfm
+share/texmf-dist/fonts/type1/public/wasy2-ps/wasyb10.pfb
+share/texmf-dist/fonts/type1/public/wasy2-ps/wasyb10.pfm
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
