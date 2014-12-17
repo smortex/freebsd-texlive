@@ -1,12 +1,14 @@
 # $FreeBSD$
 
 PORTNAME=	ednotes
-PORTVERSION=	20140418
+PORTVERSION=	20141216
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Typeset scholarly editions.
+
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/ncctools/afterpackage.sty:${PORTSDIR}/print/texlive-ncctools
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

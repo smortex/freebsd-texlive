@@ -117,7 +117,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/tipa/tipa.sty:${PORTSDIR}/print/texlive-tipa \
 		${LOCALBASE}/share/texmf-dist/tex/latex/txfonts/txfonts.sty:${PORTSDIR}/print/texlive-txfonts \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/adobe/utopia/putb8a.afm:${PORTSDIR}/print/texlive-utopia \
-		${LOCALBASE}/share/texmf-dist/fonts/afm/public/wasy/wasy10.afm:${PORTSDIR}/print/texlive-wasy \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/wasy/lasychr.mf:${PORTSDIR}/print/texlive-wasy \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/wasy2-ps/wasy10.afm:${PORTSDIR}/print/texlive-wasy2-ps \
 		${LOCALBASE}/share/texmf-dist/tex/latex/wasysym/wasysym.sty:${PORTSDIR}/print/texlive-wasysym \
 		${LOCALBASE}/share/texmf-dist/dvips/zapfchan/config.uzc:${PORTSDIR}/print/texlive-zapfchan \
 		${LOCALBASE}/share/texmf-dist/dvips/zapfding/config.uzd:${PORTSDIR}/print/texlive-zapfding \

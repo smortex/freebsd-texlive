@@ -1,12 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	wasy
+PORTNAME=	wasy2-ps
 PORTVERSION=	20141216
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The wasy fonts (Waldi symbol fonts).
+COMMENT=	Type 1 versions of wasy2 fonts.
+
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/source/public/wasy/lasychr.mf:${PORTSDIR}/print/texlive-wasy
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
