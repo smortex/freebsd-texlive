@@ -78,4 +78,4 @@ pkg-plist: ${WRKDIR}/.install_files
 
 do-install:
 	@${GREP} -v '^@' ${TMPPLIST} | lam -s '${STAGEDIR}${PREFIX}/' - | xargs -L1 dirname | xargs ${MKDIR}
-	@${AWK} '$$0 !~ /^@/ { src = $$0;  sub("share/texmf-dist", "${WRKDIR}", src); system("${INSTALL_DATA} "src" ${STAGEDIR}${PREFIX}/"$$0); }' < ${TMPPLIST}
+	@${AWK} '$$0 !~ /^@/ { src = $$0;  sub("share/texmf-dist", "${WRKDIR}", src); if (0 != system("[ -r "src" ]")) { src = $$0; sub("share", "${WRKDIR}", src) }; if (0 != system("${INSTALL_DATA} "src" ${STAGEDIR}${PREFIX}/"$$0)) { print "Cannot install "src; exit 1 }; }' < ${TMPPLIST}
