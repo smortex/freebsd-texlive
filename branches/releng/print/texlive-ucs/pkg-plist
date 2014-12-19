@@ -3,6 +3,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/ucs/INSTALL
 %%PORTDOCS%%share/texmf-dist/doc/latex/ucs/LICENSE
 %%PORTDOCS%%share/texmf-dist/doc/latex/ucs/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ucs/README.TEXLIVE
 %%PORTDOCS%%share/texmf-dist/doc/latex/ucs/VERSION
 %%PORTDOCS%%share/texmf-dist/doc/latex/ucs/config/ascii.ucf
 %%PORTDOCS%%share/texmf-dist/doc/latex/ucs/config/boxdraw.ucf
@@ -40,7 +41,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/ucs/config/telugu.ucf
 %%PORTDOCS%%share/texmf-dist/doc/latex/ucs/config/thai.ucf
 %%PORTDOCS%%share/texmf-dist/doc/latex/ucs/discovermacro.pl
-%%PORTDOCS%%share/texmf-dist/doc/latex/ucs/languages.ps.gz
 %%PORTDOCS%%share/texmf-dist/doc/latex/ucs/latexout.pl
 %%PORTDOCS%%share/texmf-dist/doc/latex/ucs/ltxmacrs.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/ucs/makeunidef.pl
