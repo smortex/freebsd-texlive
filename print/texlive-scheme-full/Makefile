@@ -357,7 +357,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/gnu-freefont/FreeMono.otf:${PORTSDIR}/print/texlive-gnu-freefont \
 		${LOCALBASE}/share/texmf-dist/dvips/gothic/config.yfrak:${PORTSDIR}/print/texlive-gothic \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/greenpoint/greenpoint.mf:${PORTSDIR}/print/texlive-greenpoint \
-		${LOCALBASE}/share/texmf-dist/dvips/grotesq/config.ugq:${PORTSDIR}/print/texlive-grotesq \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/urw/grotesq/ugqb8a.afm:${PORTSDIR}/print/texlive-grotesq \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hacm/hacm.sty:${PORTSDIR}/print/texlive-hacm \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/hands/hands.mf:${PORTSDIR}/print/texlive-hands \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/heuristica/zut_3dqfwv.enc:${PORTSDIR}/print/texlive-heuristica \
@@ -2362,7 +2362,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/thesis-titlepage-fhac/fhACtitlepage.cfg:${PORTSDIR}/print/texlive-thesis-titlepage-fhac \
 		${LOCALBASE}/share/texmf-dist/tex/latex/thuthesis/thuthesis.cls:${PORTSDIR}/print/texlive-thuthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/toptesi/toptesi.cls:${PORTSDIR}/print/texlive-toptesi \
-		${LOCALBASE}/share/texmf-dist/tex/latex/tudscr/logo/DDC-01.eps:${PORTSDIR}/print/texlive-tudscr \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/tugboat/ltugbib.bst:${PORTSDIR}/print/texlive-tugboat \
 		${LOCALBASE}/share/texmf-dist/tex/plain/tugboat-plain/tugboat.cmn:${PORTSDIR}/print/texlive-tugboat-plain \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tui/tui.cls:${PORTSDIR}/print/texlive-tui \
