@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	makeindex
-PORTVERSION=	20141114
+PORTVERSION=	20141221
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Process index output to produce typesettable code.
+COMMENT=	Makeindex development sources.
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
