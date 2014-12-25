@@ -1,8 +1,8 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/xpinyin/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/xpinyin/xpinyin.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/xpinyin/xpinyin.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/xpinyin/xpinyin.ins
-share/texmf-dist/tex/latex/xpinyin/xpinyin-database.def
-share/texmf-dist/tex/latex/xpinyin/xpinyin.sty
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fontmfizz/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fontmfizz/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fontmfizz/fontmfizz.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fontmfizz/fontmfizz.tex
+share/texmf-dist/fonts/truetype/public/fontmfizz/font-mfizz.ttf
+share/texmf-dist/tex/latex/fontmfizz/fontmfizz.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

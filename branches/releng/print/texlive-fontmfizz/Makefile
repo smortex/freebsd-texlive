@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	pxrubrica
+PORTNAME=	fontmfizz
 PORTVERSION=	20141224
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The pxrubrica package
+COMMENT=	Font Mfizz icons for use in LaTeX.
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
