@@ -53,6 +53,7 @@ share/texmf-dist/tex/csplain/fonts/luafonts.tex
 share/texmf-dist/tex/csplain/fonts/ntx-math.tex
 share/texmf-dist/tex/csplain/fonts/tx-math.tex
 share/texmf-dist/tex/csplain/fonts/unifam.tex
+share/texmf-dist/tex/csplain/opmac/op-example.bib
 share/texmf-dist/tex/csplain/opmac/opmac-bib-iso690.tex
 share/texmf-dist/tex/csplain/opmac/opmac-bib-simple.tex
 share/texmf-dist/tex/csplain/opmac/opmac-bib.tex
