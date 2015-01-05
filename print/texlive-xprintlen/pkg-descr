@@ -1,0 +1,4 @@
+The package defines a command, \printlen, to print TeX lengths
+in a variety of units. It can handle all units supported by
+TeX. The package requires that a reasonably up to date version
+of the fp package be installed on you system.

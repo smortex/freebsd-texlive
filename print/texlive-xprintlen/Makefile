@@ -1,14 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	xgreek
-PORTVERSION=	20141230
-PORTEPOCH=	1
+PORTNAME=	xprintlen
+PORTVERSION=	20141231
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	XeLaTeX package for typesetting Greek language documents (beta release).
+COMMENT=	Print TeX lengths in a variety of units.
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

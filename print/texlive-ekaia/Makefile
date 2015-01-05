@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	physymb
-PORTVERSION=	20140418
-PORTEPOCH=	1
+PORTNAME=	ekaia
+PORTVERSION=	20141231
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Assorted macros for Physicists.
+COMMENT=	Article format for publishing the Basque Country Science and Technology Journal "Ekaia"
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
