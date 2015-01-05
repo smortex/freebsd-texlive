@@ -341,6 +341,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/foekfont/foekfont.sty:${PORTSDIR}/print/texlive-foekfont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fonetika/fonetika.sty:${PORTSDIR}/print/texlive-fonetika \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fontawesome/fontawesome.sty:${PORTSDIR}/print/texlive-fontawesome \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fontmfizz/fontmfizz.sty:${PORTSDIR}/print/texlive-fontmfizz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fourier/fourier.sty:${PORTSDIR}/print/texlive-fourier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fouriernc/fouriernc.sty:${PORTSDIR}/print/texlive-fouriernc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/frcursive/frcursive.sty:${PORTSDIR}/print/texlive-frcursive \
@@ -1993,6 +1994,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/xoptarg/xoptarg.sty:${PORTSDIR}/print/texlive-xoptarg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xpatch/xpatch.sty:${PORTSDIR}/print/texlive-xpatch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xpeek/xpeek.sty:${PORTSDIR}/print/texlive-xpeek \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xprintlen/xprintlen.sty:${PORTSDIR}/print/texlive-xprintlen \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xpunctuate/xpunctuate.sty:${PORTSDIR}/print/texlive-xpunctuate \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xstring/xstring.sty:${PORTSDIR}/print/texlive-xstring \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xwatermark/xwatermark.sty:${PORTSDIR}/print/texlive-xwatermark \
@@ -2294,6 +2296,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebook/ebook.sty:${PORTSDIR}/print/texlive-ebook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebsthesis/ebsthesis.cls:${PORTSDIR}/print/texlive-ebsthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ejpecp/ejpecp.cls:${PORTSDIR}/print/texlive-ejpecp \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ekaia/ekaia.sty:${PORTSDIR}/print/texlive-ekaia \
 		${LOCALBASE}/share/texmf-dist/tex/latex/elbioimp/elbioimp.cls:${PORTSDIR}/print/texlive-elbioimp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/elsarticle/elsarticle.cls:${PORTSDIR}/print/texlive-elsarticle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/elteikthesis/elteikthesis.cls:${PORTSDIR}/print/texlive-elteikthesis \
@@ -2362,6 +2365,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/thesis-titlepage-fhac/fhACtitlepage.cfg:${PORTSDIR}/print/texlive-thesis-titlepage-fhac \
 		${LOCALBASE}/share/texmf-dist/tex/latex/thuthesis/thuthesis.cls:${PORTSDIR}/print/texlive-thuthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/toptesi/toptesi.cls:${PORTSDIR}/print/texlive-toptesi \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tudscr/logo/DDC-01.eps:${PORTSDIR}/print/texlive-tudscr \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/tugboat/ltugbib.bst:${PORTSDIR}/print/texlive-tugboat \
 		${LOCALBASE}/share/texmf-dist/tex/plain/tugboat-plain/tugboat.cmn:${PORTSDIR}/print/texlive-tugboat-plain \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tui/tui.cls:${PORTSDIR}/print/texlive-tui \
@@ -2440,7 +2444,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/nuc/nuc.sty:${PORTSDIR}/print/texlive-nuc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/objectz/oz.sty:${PORTSDIR}/print/texlive-objectz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/physics/physics.sty:${PORTSDIR}/print/texlive-physics \
-		${LOCALBASE}/share/texmf-dist/tex/latex/physymb/physymb.sty:${PORTSDIR}/print/texlive-physymb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pseudocode/pseudocode.sty:${PORTSDIR}/print/texlive-pseudocode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pygmentex/pygmentex.sty:${PORTSDIR}/print/texlive-pygmentex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sasnrdisplay/SASnRdisplay.cfg:${PORTSDIR}/print/texlive-sasnrdisplay \
