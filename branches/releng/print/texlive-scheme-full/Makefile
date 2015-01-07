@@ -361,7 +361,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/afm/urw/grotesq/ugqb8a.afm:${PORTSDIR}/print/texlive-grotesq \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hacm/hacm.sty:${PORTSDIR}/print/texlive-hacm \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/hands/hands.mf:${PORTSDIR}/print/texlive-hands \
-		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/heuristica/zut_3dqfwv.enc:${PORTSDIR}/print/texlive-heuristica \
+		${LOCALBASE}/share/texmf-dist/tex/latex/heuristica/heuristica.sty:${PORTSDIR}/print/texlive-heuristica \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/hfbright/hfbr10.afm:${PORTSDIR}/print/texlive-hfbright \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hfoldsty/hfoldsty.sty:${PORTSDIR}/print/texlive-hfoldsty \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifsym/ifsym.sty:${PORTSDIR}/print/texlive-ifsym \
@@ -1474,6 +1474,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/iwhdp/iwhdp.cls:${PORTSDIR}/print/texlive-iwhdp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jlabels/jlabels.sty:${PORTSDIR}/print/texlive-jlabels \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jslectureplanner/jslectureplanner.sty:${PORTSDIR}/print/texlive-jslectureplanner \
+		${LOCALBASE}/share/texmf-dist/tex/latex/jumplines/jumplines.sty:${PORTSDIR}/print/texlive-jumplines \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jvlisting/jvlisting.sty:${PORTSDIR}/print/texlive-jvlisting \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kantlipsum/kantlipsum.sty:${PORTSDIR}/print/texlive-kantlipsum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kerntest/kerntest.cls:${PORTSDIR}/print/texlive-kerntest \
@@ -2350,6 +2351,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/sapthesis/sapthesis.cls:${PORTSDIR}/print/texlive-sapthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/scrjrnl/scrjrnl.cls:${PORTSDIR}/print/texlive-scrjrnl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/schule/schule.sty:${PORTSDIR}/print/texlive-schule \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sduthesis/sduthesis.cls:${PORTSDIR}/print/texlive-sduthesis \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/seuthesis/seuthesis.bst:${PORTSDIR}/print/texlive-seuthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/soton/soton-beamer.sty:${PORTSDIR}/print/texlive-soton \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sphdthesis/SPhdThesis.cls:${PORTSDIR}/print/texlive-sphdthesis \
