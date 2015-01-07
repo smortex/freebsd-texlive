@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	heuristica
+PORTNAME=	jumplines
 PORTVERSION=	20150106
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fonts extending Utopia, with LaTeX support files.
+COMMENT=	Articles with teasers and continuation later on.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

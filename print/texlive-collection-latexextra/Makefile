@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20141231
+PORTVERSION=	20150106
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -681,6 +681,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/iwhdp/iwhdp.cls:${PORTSDIR}/print/texlive-iwhdp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jlabels/jlabels.sty:${PORTSDIR}/print/texlive-jlabels \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jslectureplanner/jslectureplanner.sty:${PORTSDIR}/print/texlive-jslectureplanner \
+		${LOCALBASE}/share/texmf-dist/tex/latex/jumplines/jumplines.sty:${PORTSDIR}/print/texlive-jumplines \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jvlisting/jvlisting.sty:${PORTSDIR}/print/texlive-jvlisting \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kantlipsum/kantlipsum.sty:${PORTSDIR}/print/texlive-kantlipsum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kerntest/kerntest.cls:${PORTSDIR}/print/texlive-kerntest \

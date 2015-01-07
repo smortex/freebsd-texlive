@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20141231
+PORTVERSION=	20150106
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -156,6 +156,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/sapthesis/sapthesis.cls:${PORTSDIR}/print/texlive-sapthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/scrjrnl/scrjrnl.cls:${PORTSDIR}/print/texlive-scrjrnl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/schule/schule.sty:${PORTSDIR}/print/texlive-schule \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sduthesis/sduthesis.cls:${PORTSDIR}/print/texlive-sduthesis \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/seuthesis/seuthesis.bst:${PORTSDIR}/print/texlive-seuthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/soton/soton-beamer.sty:${PORTSDIR}/print/texlive-soton \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sphdthesis/SPhdThesis.cls:${PORTSDIR}/print/texlive-sphdthesis \

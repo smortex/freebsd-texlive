@@ -1,0 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/sduthesis/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/sduthesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/sduthesis/sduthesis-demo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sduthesis/sduthesis-demo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/sduthesis/sduthesis.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/sduthesis/sduthesis.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/sduthesis/sduthesis.ins
+share/texmf-dist/tex/latex/sduthesis/figures/SDU.pdf
+share/texmf-dist/tex/latex/sduthesis/figures/SDULogo.pdf
+share/texmf-dist/tex/latex/sduthesis/figures/SDUWords.jpg
+share/texmf-dist/tex/latex/sduthesis/figures/sduthesis-baotuquan.jpg
+share/texmf-dist/tex/latex/sduthesis/figures/sduthesis-hongloujiaotang.jpg
+share/texmf-dist/tex/latex/sduthesis/figures/sduthesis-ruanjianyuan.jpg
+share/texmf-dist/tex/latex/sduthesis/figures/sduthesis-xianzhidadao.jpg
+share/texmf-dist/tex/latex/sduthesis/figures/sduthesis-zhixinlou.jpg
+share/texmf-dist/tex/latex/sduthesis/sduthesis-cover.def
+share/texmf-dist/tex/latex/sduthesis/sduthesis-statement.def
+share/texmf-dist/tex/latex/sduthesis/sduthesis.cls
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
