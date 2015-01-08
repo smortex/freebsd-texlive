@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	luamplib
+PORTNAME=	calculation
 PORTVERSION=	20150107
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use LuaTeX's built-in MetaPost interpreter.
+COMMENT=	Typesetting reasoned calculations, also called calculational proofs.
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

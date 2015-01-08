@@ -1,0 +1,13 @@
+The calculation environment formats reasoned calculations, also
+called calculational proofs. The notion of reasoned
+calculations or calculational proofs was originally advocated
+by Wim Feijen and Edsger Dijkstra. The package accepts options
+fleqn and leqno (with the same effect as LaTeX options fleqn
+and leqno, and inherits these from the document class). It
+allows steps and expressions to be numbered (by LaTeX equation
+numbers, obeying the LaTeX \label command to refer to these
+numbers), and a step doesn't take vertical space if its hint is
+empty. An expression in a calculation can be given a comment;
+it is placed at the side opposite to the equation numbers.
+Calculations are allowed inside hints although numbering and
+commenting is then disabled.
