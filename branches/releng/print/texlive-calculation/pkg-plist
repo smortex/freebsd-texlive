@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculation/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/calculation/calculation.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/calculation/calculation.drv
+%%PORTSRC%%share/texmf-dist/source/latex/calculation/calculation.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/calculation/calculation.ins
+share/texmf-dist/tex/latex/calculation/calculation.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
