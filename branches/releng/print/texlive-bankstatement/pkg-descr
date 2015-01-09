@@ -1,0 +1,11 @@
+More and more banks allow their customers to download posting
+records in various formats. By using the bankstatement class,
+you can create bank statements, as long as a csv format is
+available. At the moment, the csv-mt940 and csv-camt formats --
+used by many german Sparkassen -- are supported. You can quite
+easily add support for other csv formats. Simply define the
+order of the keys in the csv data file and how to use them. The
+terminology in this class like BIC (Business Identifier Code)
+or IBAN (International Bank Account Number) is based on SEPA
+(Single Euro Payments Area). But you can adjust the terminology
+to suit your needs.

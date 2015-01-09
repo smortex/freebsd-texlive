@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	tcolorbox
+PORTNAME=	bankstatement
 PORTVERSION=	20150108
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Coloured boxes, for LaTeX examples and theorems, etc.
+COMMENT=	A LaTeX class for bank statements based on csv data.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
