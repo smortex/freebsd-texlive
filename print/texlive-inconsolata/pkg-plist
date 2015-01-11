@@ -1,4 +1,3 @@
-%%PORTDOCS%%share/texmf-dist/doc/fonts/inconsolata/Inconsolatazi4.fontspec
 %%PORTDOCS%%share/texmf-dist/doc/fonts/inconsolata/OFL.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/inconsolata/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/inconsolata/afmcmds.txt
@@ -111,6 +110,7 @@ share/texmf-dist/fonts/tfm/public/inconsolata/ts1-zi4b.tfm
 share/texmf-dist/fonts/tfm/public/inconsolata/ts1-zi4r.tfm
 share/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb
 share/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb
+share/texmf-dist/tex/latex/inconsolata/Inconsolatazi4.fontspec
 share/texmf-dist/tex/latex/inconsolata/inconsolata.sty
 share/texmf-dist/tex/latex/inconsolata/ly1zi4.fd
 share/texmf-dist/tex/latex/inconsolata/ot1zi4.fd
