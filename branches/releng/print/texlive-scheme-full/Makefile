@@ -356,7 +356,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gillcm/gillcm.sty:${PORTSDIR}/print/texlive-gillcm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gillius/gillius.sty:${PORTSDIR}/print/texlive-gillius \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/gnu-freefont/FreeMono.otf:${PORTSDIR}/print/texlive-gnu-freefont \
-		${LOCALBASE}/share/texmf-dist/dvips/gothic/config.yfrak:${PORTSDIR}/print/texlive-gothic \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/gothic/cmfrabas.mf:${PORTSDIR}/print/texlive-gothic \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/greenpoint/greenpoint.mf:${PORTSDIR}/print/texlive-greenpoint \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/urw/grotesq/ugqb8a.afm:${PORTSDIR}/print/texlive-grotesq \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hacm/hacm.sty:${PORTSDIR}/print/texlive-hacm \
@@ -456,6 +456,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/xcharter/chalph.enc:${PORTSDIR}/print/texlive-xcharter \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/xits/xits-bold.otf:${PORTSDIR}/print/texlive-xits \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yfonts/yfonts.sty:${PORTSDIR}/print/texlive-yfonts \
+		${LOCALBASE}/share/texmf-dist/dvips/yfonts-t1/config.yfrak:${PORTSDIR}/print/texlive-yfonts-t1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zlmtt/zlmtt.sty:${PORTSDIR}/print/texlive-zlmtt \
 		${LOCALBASE}/share/texmf-dist/dvips/avantgar/config.uag:${PORTSDIR}/print/texlive-avantgar \
 		${LOCALBASE}/share/texmf-dist/dvips/bookman/config.ubk:${PORTSDIR}/print/texlive-bookman \
@@ -1086,6 +1087,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/autonum/autonum.sty:${PORTSDIR}/print/texlive-autonum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/avremu/avremu.sty:${PORTSDIR}/print/texlive-avremu \
 		${LOCALBASE}/share/texmf-dist/tex/latex/background/background.sty:${PORTSDIR}/print/texlive-background \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bankstatement/bankstatement.cls:${PORTSDIR}/print/texlive-bankstatement \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bashful/bashful.sty:${PORTSDIR}/print/texlive-bashful \
 		${LOCALBASE}/share/texmf-dist/tex/latex/basicarith/basicarith.sty:${PORTSDIR}/print/texlive-basicarith \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bchart/bchart.sty:${PORTSDIR}/print/texlive-bchart \
@@ -2043,6 +2045,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/boldtensors/boldtensors.sty:${PORTSDIR}/print/texlive-boldtensors \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bosisio/accenti.sty:${PORTSDIR}/print/texlive-bosisio \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bropd/bropd.sty:${PORTSDIR}/print/texlive-bropd \
+		${LOCALBASE}/share/texmf-dist/tex/latex/calculation/calculation.sty:${PORTSDIR}/print/texlive-calculation \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ccfonts/ccfonts.sty:${PORTSDIR}/print/texlive-ccfonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/commath/commath.sty:${PORTSDIR}/print/texlive-commath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/concmath/concmath.sty:${PORTSDIR}/print/texlive-concmath \
@@ -2136,6 +2139,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/guitar/guitar.sty:${PORTSDIR}/print/texlive-guitar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/guitarchordschemes/guitarchordschemes.sty:${PORTSDIR}/print/texlive-guitarchordschemes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/harmony/harmony.sty:${PORTSDIR}/print/texlive-harmony \
+		${LOCALBASE}/share/texmf-dist/tex/latex/leadsheets/leadsheets.sty:${PORTSDIR}/print/texlive-leadsheets \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/lilyglyphs/lilyglyphs.sty:${PORTSDIR}/print/texlive-lilyglyphs \
 		${LOCALBASE}/share/texmf-dist/scripts/m-tx/m-tx.lua:${PORTSDIR}/print/texlive-m-tx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/musixguit/musixguit.sty:${PORTSDIR}/print/texlive-musixguit \
@@ -2274,7 +2278,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/afthesis/afthesis.cls:${PORTSDIR}/print/texlive-afthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/aguplus/aguplus.cls:${PORTSDIR}/print/texlive-aguplus \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/aiaa/aiaa.bst:${PORTSDIR}/print/texlive-aiaa \
-		${LOCALBASE}/share/texmf-dist/tex/latex/ametsoc/ametsoc.sty:${PORTSDIR}/print/texlive-ametsoc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ametsoc/ametsoc.cls:${PORTSDIR}/print/texlive-ametsoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/aomart/aomart.cls:${PORTSDIR}/print/texlive-aomart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/apa/apa.cls:${PORTSDIR}/print/texlive-apa \
 		${LOCALBASE}/share/texmf-dist/tex/latex/apa6/apa6.cls:${PORTSDIR}/print/texlive-apa6 \

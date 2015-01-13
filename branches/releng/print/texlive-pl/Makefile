@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pl
-PORTVERSION=	20140418
+PORTVERSION=	20150112
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Polish extension of CM fonts in Type 1 format.
+COMMENT=	Polish extension of Computer Modern fonts.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
