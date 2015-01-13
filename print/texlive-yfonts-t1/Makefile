@@ -1,13 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	dvips
+PORTNAME=	yfonts-t1
 PORTVERSION=	20150112
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A DVI to PostScript driver.
-
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
+COMMENT=	Old German-style fonts, in Adobe type 1 format.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

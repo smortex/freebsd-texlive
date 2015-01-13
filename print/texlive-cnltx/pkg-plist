@@ -7,7 +7,9 @@ share/texmf-dist/tex/latex/cnltx/cnltx-base.sty
 share/texmf-dist/tex/latex/cnltx/cnltx-doc.cls
 share/texmf-dist/tex/latex/cnltx/cnltx-example.sty
 share/texmf-dist/tex/latex/cnltx/cnltx-listings.sty
+share/texmf-dist/tex/latex/cnltx/cnltx-names.sty
 share/texmf-dist/tex/latex/cnltx/cnltx-tools.sty
+share/texmf-dist/tex/latex/cnltx/cnltx-translations.sty
 share/texmf-dist/tex/latex/cnltx/cnltx.bbx
 share/texmf-dist/tex/latex/cnltx/cnltx.cbx
 share/texmf-dist/tex/latex/cnltx/cnltx.dbx

@@ -1,14 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	ps2pkm
-PORTVERSION=	20140504
+PORTNAME=	leadsheets
+PORTVERSION=	20150112
 CATEGORIES=	print
-DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generate a PK font from an Adobe Type 1 font.
-
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
+COMMENT=	Typesetting leadsheets and songbooks.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

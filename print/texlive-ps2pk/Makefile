@@ -1,11 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	dvips
+PORTNAME=	ps2pk
 PORTVERSION=	20150112
 CATEGORIES=	print
+DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A DVI to PostScript driver.
+COMMENT=	Generate a PK font from an Adobe Type 1 font.
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
