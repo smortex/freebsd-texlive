@@ -8,6 +8,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/cross-referencing.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/indexing.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/indexing.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/lemma-disambiguation.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/lemma-disambiguation.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/line-numbers-in-header.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/line-numbers-in-header.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/makefile
@@ -29,6 +31,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/sections-with-critical-notes-in-parallel-pages.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/sections-with-critical-notes.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/sections-with-critical-notes.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/separator-between-paragraphs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/separator-between-paragraphs.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/side-notes.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/side-notes.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/spaces-around-footnote-rule.pdf
