@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20141231
+PORTVERSION=	20150114
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -78,6 +78,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/fig4latex/fig4latex:${PORTSDIR}/print/texlive-fig4latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flowchart/flowchart.sty:${PORTSDIR}/print/texlive-flowchart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/forest/forest.sty:${PORTSDIR}/print/texlive-forest \
+		${LOCALBASE}/share/texmf-dist/tex/latex/genealogytree/genealogytree.sty:${PORTSDIR}/print/texlive-genealogytree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/getmap/getmap.sty:${PORTSDIR}/print/texlive-getmap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gincltex/gincltex.sty:${PORTSDIR}/print/texlive-gincltex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gnuplottex/gnuplottex.sty:${PORTSDIR}/print/texlive-gnuplottex \

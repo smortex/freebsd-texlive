@@ -453,7 +453,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/urwchancal/urwchancal.sty:${PORTSDIR}/print/texlive-urwchancal \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/venturis/yvtb8a.afm:${PORTSDIR}/print/texlive-venturisadf \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/wsuipa/iaccent.mf:${PORTSDIR}/print/texlive-wsuipa \
-		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/xcharter/chalph.enc:${PORTSDIR}/print/texlive-xcharter \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/xcharter/XCharter-Bold.afm:${PORTSDIR}/print/texlive-xcharter \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/xits/xits-bold.otf:${PORTSDIR}/print/texlive-xits \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yfonts/yfonts.sty:${PORTSDIR}/print/texlive-yfonts \
 		${LOCALBASE}/share/texmf-dist/dvips/yfonts-t1/config.yfrak:${PORTSDIR}/print/texlive-yfonts-t1 \
@@ -950,6 +950,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/fig4latex/fig4latex:${PORTSDIR}/print/texlive-fig4latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flowchart/flowchart.sty:${PORTSDIR}/print/texlive-flowchart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/forest/forest.sty:${PORTSDIR}/print/texlive-forest \
+		${LOCALBASE}/share/texmf-dist/tex/latex/genealogytree/genealogytree.sty:${PORTSDIR}/print/texlive-genealogytree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/getmap/getmap.sty:${PORTSDIR}/print/texlive-getmap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gincltex/gincltex.sty:${PORTSDIR}/print/texlive-gincltex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gnuplottex/gnuplottex.sty:${PORTSDIR}/print/texlive-gnuplottex \

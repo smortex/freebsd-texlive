@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	biblatex-true-citepages-omit
+PORTNAME=	genealogytree
 PORTVERSION=	20150114
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Correction of some limitation of the citepages=omit option of biblatex styles
+COMMENT=	Pedigree and genealogical tree diagrams
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

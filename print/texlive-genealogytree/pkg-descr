@@ -1,0 +1,10 @@
+Pedigree and genealogical tree diagrams are proven tools to
+visualize genetic and relational connections between
+individuals. The naming ("tree") derives from historical family
+diagrams. However, even the smallest family entity consisting
+of two parents and several children is hardly a 'mathematical'
+tree -- it is a more general graph. The package provides a set
+of tools to typeset genealogical trees (i.e., to typeset a set
+of special graphs for the description of family-like
+structures). The package uses an autolayout algorithm which can
+be customized, e.g., to prioritize certain paths.
