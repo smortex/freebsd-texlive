@@ -3,6 +3,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/facture/exemple.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/facture/exemplesansTVA.pdf
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/facture/exemplesansTVA.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/facture/exemplesansremise.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/facture/exemplesansremise.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/facture/facture.pdf
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/facture/makefile
 %%PORTSRC%%share/texmf-dist/source/xelatex/facture/facture.dtx
