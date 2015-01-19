@@ -14,6 +14,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/metadata.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/jslectureplanner.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/jslectureplanner.tex
+share/texmf-dist/tex/latex/jslectureplanner/german-default.lps
 share/texmf-dist/tex/latex/jslectureplanner/jslectureplanner.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
