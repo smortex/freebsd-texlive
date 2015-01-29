@@ -1,18 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/support/latexpand/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/support/latexpand/README
-%%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/README
-%%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/df-conflict/a.tex
-%%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/df-conflict/b.tex
-%%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/df-conflict/b/README-df-conflict.txt
-%%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/foo.tex
-%%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/includegraphic.tex
-%%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/includer.tex
-%%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/just-comment.tex
-%%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/my-package.sty
-%%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/no-eol.tex
-%%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/package-user.tex
-%%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/smile.pdf
-%%PORTDOCS%%share/texmf-dist/doc/support/latexpand/tests/text-after-end.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexpand/version.txt
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

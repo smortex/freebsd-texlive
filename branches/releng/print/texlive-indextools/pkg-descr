@@ -1,0 +1,7 @@
+This package is a fork of the imakeidx package. The original
+authors of imakeidx declined some upgrade suggestions to remove
+incompatibilities with certain packages that are particularly
+important with critical editions dealing with languages that
+are being written from right to left. Therefore this fork was
+created in order to let other users benefit from its
+functionalities very useful in the field of humanities.

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ltxfileinfo
-PORTVERSION=	20140426
+PORTVERSION=	20150123
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Print version info for latex class or style file.
+COMMENT=	Print version information for a LaTeX file.
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

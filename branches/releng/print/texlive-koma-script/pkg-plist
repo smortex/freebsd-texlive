@@ -24,6 +24,7 @@ share/texmf-dist/doc/latex/koma-script/scrjura.pdf
 share/texmf-dist/doc/latex/koma-script/scrlayer-notecolumn.html
 share/texmf-dist/doc/latex/koma-script/scrlayer-scrpage.html
 share/texmf-dist/doc/latex/koma-script/scrlayer.html
+share/texmf-dist/doc/latex/koma-script/scrletter.html
 share/texmf-dist/doc/latex/koma-script/scrlfile.html
 share/texmf-dist/doc/latex/koma-script/scrlttr2.html
 share/texmf-dist/doc/latex/koma-script/scrpage2.pdf
@@ -160,6 +161,7 @@ share/texmf-dist/source/latex/koma-script/doc/scrhack.html
 share/texmf-dist/source/latex/koma-script/doc/scrlayer-notecolumn.html
 share/texmf-dist/source/latex/koma-script/doc/scrlayer-scrpage.html
 share/texmf-dist/source/latex/koma-script/doc/scrlayer.html
+share/texmf-dist/source/latex/koma-script/doc/scrletter.html
 share/texmf-dist/source/latex/koma-script/doc/scrlfile.html
 share/texmf-dist/source/latex/koma-script/doc/scrlttr2.html
 share/texmf-dist/source/latex/koma-script/doc/scrpage2.tex
@@ -244,6 +246,7 @@ share/texmf-dist/tex/latex/koma-script/scrkbase.sty
 share/texmf-dist/tex/latex/koma-script/scrlayer-notecolumn.sty
 share/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
 share/texmf-dist/tex/latex/koma-script/scrlayer.sty
+share/texmf-dist/tex/latex/koma-script/scrletter.sty
 share/texmf-dist/tex/latex/koma-script/scrlfile.sty
 share/texmf-dist/tex/latex/koma-script/scrlttr2.cls
 share/texmf-dist/tex/latex/koma-script/scrpage2.sty

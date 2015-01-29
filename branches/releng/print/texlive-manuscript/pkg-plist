@@ -1,6 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/manuscript/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/manuscript/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/manuscript/manuscript.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/manuscript/Makefile
 %%PORTSRC%%share/texmf-dist/source/latex/manuscript/manuscript.drv
 %%PORTSRC%%share/texmf-dist/source/latex/manuscript/manuscript.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/manuscript/manuscript.ins
