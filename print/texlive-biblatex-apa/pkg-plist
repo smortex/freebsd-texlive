@@ -5,7 +5,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-apa/biblatex-apa-test.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-apa/biblatex-apa.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-apa/biblatex-apa.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-apa/reference.pdf
 share/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/apa.bbx
 share/texmf-dist/tex/latex/biblatex-apa/apa.cbx

@@ -3,6 +3,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/3dsystem.fig
 %%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/3dsystem.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/3dsystem.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/bird.mp3
 %%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/boutona.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/boutonb.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/boutonc.pdf
@@ -21,13 +22,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/mailto.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/malte.js
 %%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/malte.u3d
-%%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/players/APlayer.mxml
-%%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/players/APlayer9.mxml
-%%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/players/BSD-License
-%%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/players/SMPfixes.patch
-%%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/players/StrobeMediaPlayback-license
-%%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/players/VPlayer.mxml
-%%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/players/VPlayer9.mxml
 %%PORTDOCS%%share/texmf-dist/doc/latex/media9/files/random.mp4
 %%PORTDOCS%%share/texmf-dist/doc/latex/media9/media9.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/media9/media9.tex

@@ -238,7 +238,9 @@ share/texmf-dist/tex/generic/tex4ht/html-speech.4ht
 share/texmf-dist/tex/generic/tex4ht/html0.4ht
 share/texmf-dist/tex/generic/tex4ht/html32-math.4ht
 share/texmf-dist/tex/generic/tex4ht/html32.4ht
+share/texmf-dist/tex/generic/tex4ht/html4-l2-url.4ht
 share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+share/texmf-dist/tex/generic/tex4ht/html4-russian-accents.4ht
 share/texmf-dist/tex/generic/tex4ht/html4-svg.4ht
 share/texmf-dist/tex/generic/tex4ht/html4-uni.4ht
 share/texmf-dist/tex/generic/tex4ht/html4.4ht

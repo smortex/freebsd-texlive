@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150108
+PORTVERSION=	20150125
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -156,6 +156,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/fig4latex/fig4latex:${PORTSDIR}/print/texlive-fig4latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flowchart/flowchart.sty:${PORTSDIR}/print/texlive-flowchart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/forest/forest.sty:${PORTSDIR}/print/texlive-forest \
+		${LOCALBASE}/share/texmf-dist/tex/latex/genealogytree/genealogytree.sty:${PORTSDIR}/print/texlive-genealogytree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/getmap/getmap.sty:${PORTSDIR}/print/texlive-getmap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gincltex/gincltex.sty:${PORTSDIR}/print/texlive-gincltex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gnuplottex/gnuplottex.sty:${PORTSDIR}/print/texlive-gnuplottex \
@@ -550,6 +551,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixfoot/fixfoot.sty:${PORTSDIR}/print/texlive-fixfoot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixme/fixme.sty:${PORTSDIR}/print/texlive-fixme \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixmetodonotes/fixmetodonotes.sty:${PORTSDIR}/print/texlive-fixmetodonotes \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fixocgx/fixocgx.sty:${PORTSDIR}/print/texlive-fixocgx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fjodor/fjodor.sty:${PORTSDIR}/print/texlive-fjodor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flabels/flabels.sty:${PORTSDIR}/print/texlive-flabels \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flacards/flacards.cls:${PORTSDIR}/print/texlive-flacards \
@@ -665,6 +667,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/imakeidx/imakeidx.sty:${PORTSDIR}/print/texlive-imakeidx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/import/import.sty:${PORTSDIR}/print/texlive-import \
 		${LOCALBASE}/share/texmf-dist/tex/latex/incgraph/incgraph.sty:${PORTSDIR}/print/texlive-incgraph \
+		${LOCALBASE}/share/texmf-dist/tex/latex/indextools/indextools.sty:${PORTSDIR}/print/texlive-indextools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/inlinedef/inlinedef.sty:${PORTSDIR}/print/texlive-inlinedef \
 		${LOCALBASE}/share/texmf-dist/tex/latex/inputtrc/inputtrc.sty:${PORTSDIR}/print/texlive-inputtrc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/interactiveworkbook/interactiveworkbook.sty:${PORTSDIR}/print/texlive-interactiveworkbook \
