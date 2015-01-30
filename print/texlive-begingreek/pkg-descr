@@ -1,0 +1,4 @@
+This simple package defines a greek environment to be used with
+pdfLaTeX only, that accepts an optional Greek font family name
+to type its contents with. A similar \greektxt command does a
+similar action for shorter texts.

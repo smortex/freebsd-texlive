@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	resphilosophica
+PORTNAME=	begingreek
 PORTVERSION=	20150129
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset articles for the journal Res Philosophica.
+COMMENT=	Greek environment to be used with pdflatex only
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langgreek
-PORTVERSION=	20140418
+PORTVERSION=	20150129
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -43,6 +43,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-greek/athnum.sty:${PORTSDIR}/print/texlive-babel-greek \
+		${LOCALBASE}/share/texmf-dist/tex/latex/begingreek/begingreek.sty:${PORTSDIR}/print/texlive-begingreek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/betababel/betababel.sty:${PORTSDIR}/print/texlive-betababel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bgreek/bgreek.sty:${PORTSDIR}/print/texlive-bgreek \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/cbfonts/CB.enc:${PORTSDIR}/print/texlive-cbfonts \
