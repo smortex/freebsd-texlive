@@ -272,6 +272,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/udesoftec/udesoftec.cls:${PORTSDIR}/print/texlive-udesoftec \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umlaute/umlaute.sty:${PORTSDIR}/print/texlive-umlaute \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-greek/athnum.sty:${PORTSDIR}/print/texlive-babel-greek \
+		${LOCALBASE}/share/texmf-dist/tex/latex/begingreek/begingreek.sty:${PORTSDIR}/print/texlive-begingreek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/betababel/betababel.sty:${PORTSDIR}/print/texlive-betababel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bgreek/bgreek.sty:${PORTSDIR}/print/texlive-bgreek \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/cbfonts/CB.enc:${PORTSDIR}/print/texlive-cbfonts \
@@ -390,6 +391,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/boldtensors/boldtensors.sty:${PORTSDIR}/print/texlive-boldtensors \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bosisio/accenti.sty:${PORTSDIR}/print/texlive-bosisio \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bropd/bropd.sty:${PORTSDIR}/print/texlive-bropd \
+		${LOCALBASE}/share/texmf-dist/tex/latex/calculation/calculation.sty:${PORTSDIR}/print/texlive-calculation \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ccfonts/ccfonts.sty:${PORTSDIR}/print/texlive-ccfonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/commath/commath.sty:${PORTSDIR}/print/texlive-commath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/concmath/concmath.sty:${PORTSDIR}/print/texlive-concmath \
@@ -516,6 +518,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/scripts/fig4latex/fig4latex:${PORTSDIR}/print/texlive-fig4latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flowchart/flowchart.sty:${PORTSDIR}/print/texlive-flowchart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/forest/forest.sty:${PORTSDIR}/print/texlive-forest \
+		${LOCALBASE}/share/texmf-dist/tex/latex/genealogytree/genealogytree.sty:${PORTSDIR}/print/texlive-genealogytree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/getmap/getmap.sty:${PORTSDIR}/print/texlive-getmap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gincltex/gincltex.sty:${PORTSDIR}/print/texlive-gincltex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gnuplottex/gnuplottex.sty:${PORTSDIR}/print/texlive-gnuplottex \
