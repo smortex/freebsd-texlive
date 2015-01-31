@@ -1,16 +1,16 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/mcmthesis/LICENSE
-%%PORTDOCS%%share/texmf-dist/doc/latex/mcmthesis/LICENSE.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/mcmthesis/LICENSE.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/mcmthesis/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/mcmthesis/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/mcmthesis/README.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/mcmthesis/code/mcmthesis-matlab1.m
 %%PORTDOCS%%share/texmf-dist/doc/latex/mcmthesis/code/mcmthesis-sudoku.CPP
+%%PORTDOCS%%share/texmf-dist/doc/latex/mcmthesis/figures/mcmthesis-aaa-eps-converted-to.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/mcmthesis/figures/mcmthesis-aaa.eps
 %%PORTDOCS%%share/texmf-dist/doc/latex/mcmthesis/figures/mcmthesis-logo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/mcmthesis/mcmthesis-demo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/mcmthesis/mcmthesis-demo.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/mcmthesis/mcmthesis.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/mcmthesis/mcmthesis.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/mcmthesis/mcmthesis.ins
 share/texmf-dist/tex/latex/mcmthesis/mcmthesis.cls
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
