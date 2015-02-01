@@ -765,6 +765,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/udesoftec/udesoftec.cls:${PORTSDIR}/print/texlive-udesoftec \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umlaute/umlaute.sty:${PORTSDIR}/print/texlive-umlaute \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-greek/athnum.sty:${PORTSDIR}/print/texlive-babel-greek \
+		${LOCALBASE}/share/texmf-dist/tex/latex/begingreek/begingreek.sty:${PORTSDIR}/print/texlive-begingreek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/betababel/betababel.sty:${PORTSDIR}/print/texlive-betababel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bgreek/bgreek.sty:${PORTSDIR}/print/texlive-bgreek \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/cbfonts/CB.enc:${PORTSDIR}/print/texlive-cbfonts \
@@ -2394,11 +2395,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/umich-thesis/umich-thesis.cls:${PORTSDIR}/print/texlive-umich-thesis \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/unamthesis/UNAMThesis.bst:${PORTSDIR}/print/texlive-unamthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/unswcover/unswcover.sty:${PORTSDIR}/print/texlive-unswcover \
-		${LOCALBASE}/share/texmf-dist/tex/latex/ut-thesis/ut-thesis.cls:${PORTSDIR}/print/texlive-ut-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uothesis/uothesis.cls:${PORTSDIR}/print/texlive-uothesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/urcls/URbeamer.cls:${PORTSDIR}/print/texlive-urcls \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uowthesis/UoWlogo.eps:${PORTSDIR}/print/texlive-uowthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uowthesistitlepage/uowthesistitlepage.sty:${PORTSDIR}/print/texlive-uowthesistitlepage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uspatent/uspatent.cls:${PORTSDIR}/print/texlive-uspatent \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ut-thesis/ut-thesis.cls:${PORTSDIR}/print/texlive-ut-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uwthesis/uwthesis.cls:${PORTSDIR}/print/texlive-uwthesis \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/vancouver/vancouver.bst:${PORTSDIR}/print/texlive-vancouver \
 		${LOCALBASE}/share/texmf-dist/tex/latex/wsemclassic/wsemclassic.cls:${PORTSDIR}/print/texlive-wsemclassic \

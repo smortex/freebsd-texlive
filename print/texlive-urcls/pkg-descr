@@ -1,0 +1,7 @@
+The bundle provides a beamer-derived class and a theme style
+file for the corporate design of the University of Regensburg.
+It also contains a scrlttr2-derived class for letters using the
+corporate design of the UR. Users may use the class itself
+(URbeamer) or use the theme in the usual way with
+\usetheme{UR}. Examples of using both letters and presentations
+are provided as .tex and .pdf-files.
