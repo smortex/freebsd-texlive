@@ -1,5 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/context/third/pgfplots/pgfplotsexample-context.pdf
 %%PORTDOCS%%share/texmf-dist/doc/context/third/pgfplots/pgfplotsexample-context.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/pgfplots/pgfplotsexample-context.tuc
 %%PORTDOCS%%share/texmf-dist/doc/generic/pgfplots/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/TeX-programming-notes.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/pgfplots/pgfplots.doc.src.tar.bz2
@@ -38,12 +39,21 @@ share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.t
 share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex
 share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex
 share/texmf-dist/tex/generic/pgfplots/lua/pgfplots.lua
+share/texmf-dist/tex/generic/pgfplots/lua/pgfplots/binary.lua
+share/texmf-dist/tex/generic/pgfplots/lua/pgfplots/colormap.lua
+share/texmf-dist/tex/generic/pgfplots/lua/pgfplots/meshplothandler.lua
+share/texmf-dist/tex/generic/pgfplots/lua/pgfplots/pgfplotstexio.lua
+share/texmf-dist/tex/generic/pgfplots/lua/pgfplots/pgfplotsutil.lua
+share/texmf-dist/tex/generic/pgfplots/lua/pgfplots/plothandler.lua
+share/texmf-dist/tex/generic/pgfplots/lua/pgfplots/statistics.lua
+share/texmf-dist/tex/generic/pgfplots/lua/pgfplots/streamer.lua
+share/texmf-dist/tex/generic/pgfplots/lua/pgfplotsoldpgfsupp/luamath/functions.lua
+share/texmf-dist/tex/generic/pgfplots/lua/pgfplotsoldpgfsupp/luamath/parser.lua
 share/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.code.tex
 share/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.coltype.code.tex
 share/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_misc.code.tex
-share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_patches.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfcoreexternal.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfcoreimage.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfcorelayers.code.tex
@@ -52,6 +62,7 @@ share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfkeys.
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfkeysfiltered.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryfpu.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryintersections.code.tex
+share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryluamath.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryplothandlers.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfmanual.code.tex
 share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfmanual.pdflinks.code.tex
