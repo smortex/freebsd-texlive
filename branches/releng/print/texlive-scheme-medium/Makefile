@@ -94,11 +94,14 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/afm/jmn/hans/hans-sh.afm:${PORTSDIR}/print/texlive-jmn \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-account.xml:${PORTSDIR}/print/texlive-context-account \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/algorithmic/t-algorithmic.mkii:${PORTSDIR}/print/texlive-context-algorithmic \
+		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-animation.xml:${PORTSDIR}/print/texlive-context-animation \
+		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-annotation.xml:${PORTSDIR}/print/texlive-context-annotation \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/bnf/t-bnf.tex:${PORTSDIR}/print/texlive-context-bnf \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/chromato/t-chromato.tex:${PORTSDIR}/print/texlive-context-chromato \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/construction-plan/t-construction-plan.tex:${PORTSDIR}/print/texlive-context-construction-plan \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-cyrillicnumbers.xml:${PORTSDIR}/print/texlive-context-cyrillicnumbers \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/degrade/t-degrade.tex:${PORTSDIR}/print/texlive-context-degrade \
+		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-fancybreak.xml:${PORTSDIR}/print/texlive-context-fancybreak \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/filter/t-filter.mkii:${PORTSDIR}/print/texlive-context-filter \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/fixme/t-fixme.mkii:${PORTSDIR}/print/texlive-context-fixme \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/french/t-french.mkiv:${PORTSDIR}/print/texlive-context-french \
@@ -114,10 +117,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/context/third/ruby/t-ruby.mkii:${PORTSDIR}/print/texlive-context-ruby \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/simplefonts/t-simplefonts.lua:${PORTSDIR}/print/texlive-context-simplefonts \
 		${LOCALBASE}/share/texmf-dist/scripts/context/lua/third/simpleslides/mtx-simpleslides.lua:${PORTSDIR}/print/texlive-context-simpleslides \
+		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-title.xml:${PORTSDIR}/print/texlive-context-title \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-transliterator.xml:${PORTSDIR}/print/texlive-context-transliterator \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/typearea/t-typearea.tex:${PORTSDIR}/print/texlive-context-typearea \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/typescripts/type-adobe.mkii:${PORTSDIR}/print/texlive-context-typescripts \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/vim/2context.vim:${PORTSDIR}/print/texlive-context-vim \
+		${LOCALBASE}/share/texmf-dist/tex/context/third/visualcounter/t-visualcounter.mkvi:${PORTSDIR}/print/texlive-context-visualcounter \
 		${LOCALBASE}/share/texmf-dist/dvips/avantgar/config.uag:${PORTSDIR}/print/texlive-avantgar \
 		${LOCALBASE}/share/texmf-dist/dvips/bookman/config.ubk:${PORTSDIR}/print/texlive-bookman \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/bitstrea/charter/bchb8a.afm:${PORTSDIR}/print/texlive-charter \
@@ -376,6 +381,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/boldtensors/boldtensors.sty:${PORTSDIR}/print/texlive-boldtensors \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bosisio/accenti.sty:${PORTSDIR}/print/texlive-bosisio \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bropd/bropd.sty:${PORTSDIR}/print/texlive-bropd \
+		${LOCALBASE}/share/texmf-dist/tex/latex/calculation/calculation.sty:${PORTSDIR}/print/texlive-calculation \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ccfonts/ccfonts.sty:${PORTSDIR}/print/texlive-ccfonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/commath/commath.sty:${PORTSDIR}/print/texlive-commath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/concmath/concmath.sty:${PORTSDIR}/print/texlive-concmath \

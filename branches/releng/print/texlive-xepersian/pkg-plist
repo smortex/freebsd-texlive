@@ -24,6 +24,7 @@ share/texmf-dist/tex/xelatex/xepersian/algorithm-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/algorithmic-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/amsart-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/amsbook-xepersian.def
+share/texmf-dist/tex/xelatex/xepersian/appendix-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/article-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/artikel1-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/artikel2-xepersian.def
