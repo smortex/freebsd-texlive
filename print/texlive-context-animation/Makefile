@@ -1,11 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	newtx
+PORTNAME=	context-animation
 PORTVERSION=	20150202
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Alternative uses of the TX fonts, with improved metrics.
+COMMENT=	Generate fieldstack based animation with ConTeXt.
+
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORTSDIR}/print/texlive-context
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,8 +1,7 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/l3build/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/l3build/l3build.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/l3build/l3build.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/l3build/l3build.ins
-share/texmf-dist/tex/latex/l3build/l3build.lua
-share/texmf-dist/tex/latex/l3build/regression-test.tex
+%%PORTDOCS%%share/texmf-dist/doc/context/third/fancybreak/README
+%%PORTDOCS%%share/texmf-dist/doc/context/third/fancybreak/fancybreak-doc.pdf
+share/texmf-dist/tex/context/interface/third/t-fancybreak.xml
+share/texmf-dist/tex/context/third/fancybreak/t-fancybreak.mkii
+share/texmf-dist/tex/context/third/fancybreak/t-fancybreak.mkvi
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
