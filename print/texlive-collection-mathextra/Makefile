@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-mathextra
-PORTVERSION=	20150107
+PORTVERSION=	20150204
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -117,6 +117,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/concmath/concmath.sty:${PORTSDIR}/print/texlive-concmath \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/concrete/cccsc10.mf:${PORTSDIR}/print/texlive-concrete \
 		${LOCALBASE}/share/texmf-dist/tex/latex/conteq/conteq.sty:${PORTSDIR}/print/texlive-conteq \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ebproof/ebproof.sty:${PORTSDIR}/print/texlive-ebproof \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eqnarray/eqnarray.sty:${PORTSDIR}/print/texlive-eqnarray \
 		${LOCALBASE}/share/texmf-dist/tex/latex/extarrows/extarrows.sty:${PORTSDIR}/print/texlive-extarrows \
 		${LOCALBASE}/share/texmf-dist/tex/latex/extpfeil/extpfeil.sty:${PORTSDIR}/print/texlive-extpfeil \
