@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	newtx
+PORTNAME=	ebproof
 PORTVERSION=	20150204
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Alternative uses of the TX fonts, with improved metrics.
+COMMENT=	Formal proofs in the style of sequent calculus.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
