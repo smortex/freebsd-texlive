@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	match_parens
-PORTVERSION=	20140426
+PORTVERSION=	20150205
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Easily detect mismatched parens.
+COMMENT=	Find mismatches of parentheses, braces, (angle) brackets, in texts.
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
