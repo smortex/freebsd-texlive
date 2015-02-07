@@ -16,7 +16,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/info/eplain.info
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/eplain.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/eplain.man1.pdf
-%%PORTSRC%%share/texmf-dist/source/eplain/eplain-source-3.6.zip
+%%PORTSRC%%share/texmf-dist/source/eplain/eplain-source-3.7.zip
 %%PORTSRC%%share/texmf-dist/source/eplain/xeplain.tex
 share/texmf-dist/tex/eplain/arrow.tex
 share/texmf-dist/tex/eplain/btxmac.tex
