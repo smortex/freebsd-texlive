@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	chess-problem-diagrams
+PORTNAME=	doclicense
 PORTVERSION=	20150207
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A package for typesetting chess problem diagrams.
+COMMENT=	Support for putting documents under a licence.
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150125
+PORTVERSION=	20150207
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -450,6 +450,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty:${PORTSDIR}/print/texlive-dirtytalk \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/dlfltxb/dlfltxbbibtex.bst:${PORTSDIR}/print/texlive-dlfltxb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dnaseq/dnaseq.sty:${PORTSDIR}/print/texlive-dnaseq \
+		${LOCALBASE}/share/texmf-dist/tex/latex/doclicense/doclicense.sty:${PORTSDIR}/print/texlive-doclicense \
 		${LOCALBASE}/share/texmf-dist/tex/latex/docmfp/docmfp.sty:${PORTSDIR}/print/texlive-docmfp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/docmute/docmute.sty:${PORTSDIR}/print/texlive-docmute \
 		${LOCALBASE}/share/texmf-dist/tex/latex/doctools/doctools.sty:${PORTSDIR}/print/texlive-doctools \
