@@ -1,6 +1,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/doclicense/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/doclicense/doclicense.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/doclicense/images/doclicense-CC-by-nc-eu.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/doclicense/images/doclicense-CC-by-nc-nd-eu.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/doclicense/images/doclicense-CC-by-nc-nd.eu.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/doclicense/images/doclicense-CC-by-nc-sa-eu.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/doclicense/images/doclicense-CC-by-nc-sa.eu.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/doclicense/images/doclicense-CC-by-nc-sa.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/doclicense/images/doclicense-CC-by-nc.eu.pdf
