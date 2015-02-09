@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	doclicense
-PORTVERSION=	20150207
+PORTVERSION=	20150208
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for putting documents under a licence.
+COMMENT=	Support for putting documents under a license.
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
