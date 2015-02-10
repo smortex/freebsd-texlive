@@ -1250,6 +1250,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty:${PORTSDIR}/print/texlive-dirtytalk \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/dlfltxb/dlfltxbbibtex.bst:${PORTSDIR}/print/texlive-dlfltxb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dnaseq/dnaseq.sty:${PORTSDIR}/print/texlive-dnaseq \
+		${LOCALBASE}/share/texmf-dist/tex/latex/doclicense/doclicense.sty:${PORTSDIR}/print/texlive-doclicense \
 		${LOCALBASE}/share/texmf-dist/tex/latex/docmfp/docmfp.sty:${PORTSDIR}/print/texlive-docmfp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/docmute/docmute.sty:${PORTSDIR}/print/texlive-docmute \
 		${LOCALBASE}/share/texmf-dist/tex/latex/doctools/doctools.sty:${PORTSDIR}/print/texlive-doctools \
@@ -1773,6 +1774,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/robustcommand/robustcommand.sty:${PORTSDIR}/print/texlive-robustcommand \
 		${LOCALBASE}/share/texmf-dist/tex/latex/robustindex/robustindex.sty:${PORTSDIR}/print/texlive-robustindex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/romanbar/romanbar.sty:${PORTSDIR}/print/texlive-romanbar \
+		${LOCALBASE}/share/texmf-dist/tex/latex/romanbarpagenumber/romanbarpagenumber.sty:${PORTSDIR}/print/texlive-romanbarpagenumber \
 		${LOCALBASE}/share/texmf-dist/tex/latex/romanneg/romanneg.sty:${PORTSDIR}/print/texlive-romanneg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/romannum/romannum.sty:${PORTSDIR}/print/texlive-romannum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rotfloat/rotfloat.sty:${PORTSDIR}/print/texlive-rotfloat \
@@ -2060,6 +2062,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/concmath/concmath.sty:${PORTSDIR}/print/texlive-concmath \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/concrete/cccsc10.mf:${PORTSDIR}/print/texlive-concrete \
 		${LOCALBASE}/share/texmf-dist/tex/latex/conteq/conteq.sty:${PORTSDIR}/print/texlive-conteq \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ebproof/ebproof.sty:${PORTSDIR}/print/texlive-ebproof \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eqnarray/eqnarray.sty:${PORTSDIR}/print/texlive-eqnarray \
 		${LOCALBASE}/share/texmf-dist/tex/latex/extarrows/extarrows.sty:${PORTSDIR}/print/texlive-extarrows \
 		${LOCALBASE}/share/texmf-dist/tex/latex/extpfeil/extpfeil.sty:${PORTSDIR}/print/texlive-extpfeil \
