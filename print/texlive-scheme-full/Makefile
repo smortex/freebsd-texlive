@@ -399,7 +399,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/merriweather/merriweather.sty:${PORTSDIR}/print/texlive-merriweather \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mintspirit/mintspirit.sty:${PORTSDIR}/print/texlive-mintspirit \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc:${PORTSDIR}/print/texlive-mnsymbol \
-		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/newpx/a_3p3as7.enc:${PORTSDIR}/print/texlive-newpx \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/newpx/zplb.afm:${PORTSDIR}/print/texlive-newpx \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/newtx/ntxsups-Bold.afm:${PORTSDIR}/print/texlive-newtx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newtxsf/newtxsf.sty:${PORTSDIR}/print/texlive-newtxsf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newtxtt/newtxtt.sty:${PORTSDIR}/print/texlive-newtxtt \
@@ -1154,7 +1154,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/cclicenses/cclicenses.sty:${PORTSDIR}/print/texlive-cclicenses \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cd/cd.cls:${PORTSDIR}/print/texlive-cd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cd-cover/cd-cover.cls:${PORTSDIR}/print/texlive-cd-cover \
-		${LOCALBASE}/share/texmf-dist/tex/latex/cdpbundl/adiseal.sty:${PORTSDIR}/print/texlive-cdpbundl \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cdpbundl/articoletteracdp.cls:${PORTSDIR}/print/texlive-cdpbundl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cellspace/cellspace.sty:${PORTSDIR}/print/texlive-cellspace \
 		${LOCALBASE}/share/texmf-dist/tex/latex/censor/censor.sty:${PORTSDIR}/print/texlive-censor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/changebar/changebar.sty:${PORTSDIR}/print/texlive-changebar \
@@ -1338,6 +1338,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancylabel/fancylabel.sty:${PORTSDIR}/print/texlive-fancylabel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancynum/fancynum.sty:${PORTSDIR}/print/texlive-fancynum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancypar/fancypar.sty:${PORTSDIR}/print/texlive-fancypar \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fancyslides/fancyslides.cls:${PORTSDIR}/print/texlive-fancyslides \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancytabs/fancytabs.sty:${PORTSDIR}/print/texlive-fancytabs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancytooltips/fancytooltips.sty:${PORTSDIR}/print/texlive-fancytooltips \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fifo-stack/fifo-stack.sty:${PORTSDIR}/print/texlive-fifo-stack \

@@ -1,0 +1,6 @@
+This class is prepared for short presentations with a modern
+look & feel. It offers the following features: custom
+background for each slide, predefined types of slides,
+simplified commands (e.g. for starting and ending slide). The
+class is built upon LaTeX beamer, so all beamer commands should
+work.

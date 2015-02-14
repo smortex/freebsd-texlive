@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	koma-script
+PORTNAME=	fancyslides
 PORTVERSION=	20150213
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A bundle of versatile classes and packages
+COMMENT=	Custom presentation class built upon LaTeX Beamer.
 
-OPTIONS_EXCLUDE=	DOCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
