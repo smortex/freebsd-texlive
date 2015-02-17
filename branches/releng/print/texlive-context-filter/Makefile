@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	context-filter
-PORTVERSION=	20140418
+PORTVERSION=	20150216
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
