@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	tudscr
+PORTNAME=	turabian
 PORTVERSION=	20150217
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset documents in the corporate style of TU Dresden.
+COMMENT=	Create Turabian-formatted material using LaTeX.
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
