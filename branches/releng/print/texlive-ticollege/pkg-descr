@@ -1,0 +1,3 @@
+This package provides commands to draw scientific calculator
+keys with the help of TikZ. It also provides commands to draw
+the content of screens and of menu items.

@@ -1,0 +1,4 @@
+The package manages character class schemes of XeTeX. Using
+this package, you may switch among different character class
+schemes. Migration commands are provided for make packages
+using this mechanism compatible with each others.

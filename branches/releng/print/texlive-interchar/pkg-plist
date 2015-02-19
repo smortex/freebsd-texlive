@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/interchar/README
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/interchar/interchar.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/interchar/interchar.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/interchar/interchardemo1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/interchar/interchardemo1.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/interchar/interchartest.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/interchar/interchartest.tex
+share/texmf-dist/tex/xelatex/interchar/interchar.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
