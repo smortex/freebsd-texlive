@@ -220,6 +220,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/latexfileinfo-pkgs/latexfileinfo_pkgs.RLS:${PORTSDIR}/print/texlive-latexfileinfo-pkgs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/armenian/armtex.sty:${PORTSDIR}/print/texlive-armtex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-albanian/albanian.ldf:${PORTSDIR}/print/texlive-babel-albanian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/babel-bosnian/bosnian.ldf:${PORTSDIR}/print/texlive-babel-bosnian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-breton/breton.ldf:${PORTSDIR}/print/texlive-babel-breton \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-croatian/croatian.ldf:${PORTSDIR}/print/texlive-babel-croatian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-danish/danish.ldf:${PORTSDIR}/print/texlive-babel-danish \
@@ -402,6 +403,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/concmath/concmath.sty:${PORTSDIR}/print/texlive-concmath \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/concrete/cccsc10.mf:${PORTSDIR}/print/texlive-concrete \
 		${LOCALBASE}/share/texmf-dist/tex/latex/conteq/conteq.sty:${PORTSDIR}/print/texlive-conteq \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ebproof/ebproof.sty:${PORTSDIR}/print/texlive-ebproof \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eqnarray/eqnarray.sty:${PORTSDIR}/print/texlive-eqnarray \
 		${LOCALBASE}/share/texmf-dist/tex/latex/extarrows/extarrows.sty:${PORTSDIR}/print/texlive-extarrows \
 		${LOCALBASE}/share/texmf-dist/tex/latex/extpfeil/extpfeil.sty:${PORTSDIR}/print/texlive-extpfeil \
@@ -582,6 +584,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/spath3/spath3.sty:${PORTSDIR}/print/texlive-spath3 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/swimgraf/swimgraf.sty:${PORTSDIR}/print/texlive-swimgraf \
 		${LOCALBASE}/share/texmf-dist/tex/generic/texdraw/texdraw.sty:${PORTSDIR}/print/texlive-texdraw \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ticollege/ticollege.sty:${PORTSDIR}/print/texlive-ticollege \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty:${PORTSDIR}/print/texlive-tikz-3dplot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty:${PORTSDIR}/print/texlive-tikz-cd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-dependency/tikz-dependency.sty:${PORTSDIR}/print/texlive-tikz-dependency \

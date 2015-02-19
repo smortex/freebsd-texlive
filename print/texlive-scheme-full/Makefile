@@ -713,6 +713,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/latexfileinfo-pkgs/latexfileinfo_pkgs.RLS:${PORTSDIR}/print/texlive-latexfileinfo-pkgs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/armenian/armtex.sty:${PORTSDIR}/print/texlive-armtex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-albanian/albanian.ldf:${PORTSDIR}/print/texlive-babel-albanian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/babel-bosnian/bosnian.ldf:${PORTSDIR}/print/texlive-babel-bosnian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-breton/breton.ldf:${PORTSDIR}/print/texlive-babel-breton \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-croatian/croatian.ldf:${PORTSDIR}/print/texlive-babel-croatian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-danish/danish.ldf:${PORTSDIR}/print/texlive-babel-danish \
@@ -1015,6 +1016,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/spath3/spath3.sty:${PORTSDIR}/print/texlive-spath3 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/swimgraf/swimgraf.sty:${PORTSDIR}/print/texlive-swimgraf \
 		${LOCALBASE}/share/texmf-dist/tex/generic/texdraw/texdraw.sty:${PORTSDIR}/print/texlive-texdraw \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ticollege/ticollege.sty:${PORTSDIR}/print/texlive-ticollege \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty:${PORTSDIR}/print/texlive-tikz-3dplot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty:${PORTSDIR}/print/texlive-tikz-cd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-dependency/tikz-dependency.sty:${PORTSDIR}/print/texlive-tikz-dependency \
@@ -1979,6 +1981,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/verbments/verbments.sty:${PORTSDIR}/print/texlive-verbments \
 		${LOCALBASE}/share/texmf-dist/tex/latex/version/version.sty:${PORTSDIR}/print/texlive-version \
 		${LOCALBASE}/share/texmf-dist/tex/latex/versions/versions.sty:${PORTSDIR}/print/texlive-versions \
+		${LOCALBASE}/share/texmf-dist/tex/latex/versonotes/versonotes.sty:${PORTSDIR}/print/texlive-versonotes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vertbars/vertbars.sty:${PORTSDIR}/print/texlive-vertbars \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vgrid/vgrid.sty:${PORTSDIR}/print/texlive-vgrid \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vhistory/vhistory.sty:${PORTSDIR}/print/texlive-vhistory \
@@ -2389,6 +2392,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tudscr/logo/DDC-01.eps:${PORTSDIR}/print/texlive-tudscr \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/tugboat/ltugbib.bst:${PORTSDIR}/print/texlive-tugboat \
 		${LOCALBASE}/share/texmf-dist/tex/plain/tugboat-plain/tugboat.cmn:${PORTSDIR}/print/texlive-tugboat-plain \
+		${LOCALBASE}/share/texmf-dist/tex/latex/turabian/turabian.cls:${PORTSDIR}/print/texlive-turabian \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tui/tui.cls:${PORTSDIR}/print/texlive-tui \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uaclasses/my-thesis.cls:${PORTSDIR}/print/texlive-uaclasses \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uadocs/ua_color.eps:${PORTSDIR}/print/texlive-uadocs \
@@ -2491,6 +2495,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fixlatvian/fixlatvian.sty:${PORTSDIR}/print/texlive-fixlatvian \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fontbook/fontbook.sty:${PORTSDIR}/print/texlive-fontbook \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fontwrap/fontwrap.sty:${PORTSDIR}/print/texlive-fontwrap \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/interchar/interchar.sty:${PORTSDIR}/print/texlive-interchar \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/mathspec/mathspec.sty:${PORTSDIR}/print/texlive-mathspec \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/philokalia/philokalia.sty:${PORTSDIR}/print/texlive-philokalia \
 		${LOCALBASE}/share/texmf-dist/tex/latex/polyglossia/polyglossia.sty:${PORTSDIR}/print/texlive-polyglossia \

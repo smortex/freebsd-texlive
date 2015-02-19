@@ -550,6 +550,7 @@ share/texmf-dist/fonts/source/public/drm/drmscbx7.mf
 share/texmf-dist/fonts/source/public/drm/drmscbx8.mf
 share/texmf-dist/fonts/source/public/drm/drmscbx9.mf
 share/texmf-dist/fonts/source/public/drm/drmscdigs.mf
+share/texmf-dist/fonts/source/public/drm/drmscdol.mf
 share/texmf-dist/fonts/source/public/drm/drmscligs.mf
 share/texmf-dist/fonts/source/public/drm/drmsl10.mf
 share/texmf-dist/fonts/source/public/drm/drmsl11.mf
@@ -596,6 +597,7 @@ share/texmf-dist/fonts/source/public/drm/drmtcbx7.mf
 share/texmf-dist/fonts/source/public/drm/drmtcbx8.mf
 share/texmf-dist/fonts/source/public/drm/drmtcbx9.mf
 share/texmf-dist/fonts/source/public/drm/drmtcdigs.mf
+share/texmf-dist/fonts/source/public/drm/drmtcdol.mf
 share/texmf-dist/fonts/source/public/drm/drmtcligs.mf
 share/texmf-dist/fonts/source/public/drm/drmttcap.mf
 share/texmf-dist/fonts/source/public/drm/drmui10.mf

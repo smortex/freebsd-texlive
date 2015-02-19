@@ -214,6 +214,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/latexfileinfo-pkgs/latexfileinfo_pkgs.RLS:${PORTSDIR}/print/texlive-latexfileinfo-pkgs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/armenian/armtex.sty:${PORTSDIR}/print/texlive-armtex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-albanian/albanian.ldf:${PORTSDIR}/print/texlive-babel-albanian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/babel-bosnian/bosnian.ldf:${PORTSDIR}/print/texlive-babel-bosnian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-breton/breton.ldf:${PORTSDIR}/print/texlive-babel-breton \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-croatian/croatian.ldf:${PORTSDIR}/print/texlive-babel-croatian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-danish/danish.ldf:${PORTSDIR}/print/texlive-babel-danish \
@@ -387,6 +388,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/concmath/concmath.sty:${PORTSDIR}/print/texlive-concmath \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/concrete/cccsc10.mf:${PORTSDIR}/print/texlive-concrete \
 		${LOCALBASE}/share/texmf-dist/tex/latex/conteq/conteq.sty:${PORTSDIR}/print/texlive-conteq \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ebproof/ebproof.sty:${PORTSDIR}/print/texlive-ebproof \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eqnarray/eqnarray.sty:${PORTSDIR}/print/texlive-eqnarray \
 		${LOCALBASE}/share/texmf-dist/tex/latex/extarrows/extarrows.sty:${PORTSDIR}/print/texlive-extarrows \
 		${LOCALBASE}/share/texmf-dist/tex/latex/extpfeil/extpfeil.sty:${PORTSDIR}/print/texlive-extpfeil \
@@ -498,6 +500,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fixlatvian/fixlatvian.sty:${PORTSDIR}/print/texlive-fixlatvian \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fontbook/fontbook.sty:${PORTSDIR}/print/texlive-fontbook \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fontwrap/fontwrap.sty:${PORTSDIR}/print/texlive-fontwrap \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/interchar/interchar.sty:${PORTSDIR}/print/texlive-interchar \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/mathspec/mathspec.sty:${PORTSDIR}/print/texlive-mathspec \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/philokalia/philokalia.sty:${PORTSDIR}/print/texlive-philokalia \
 		${LOCALBASE}/share/texmf-dist/tex/latex/polyglossia/polyglossia.sty:${PORTSDIR}/print/texlive-polyglossia \

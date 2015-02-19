@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	bidi
+PORTNAME=	interchar
 PORTVERSION=	20150218
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bidirectional typesetting in plain TeX and LaTeX, using XeTeX engine.
+COMMENT=	Managing character class schemes in XeTeX
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

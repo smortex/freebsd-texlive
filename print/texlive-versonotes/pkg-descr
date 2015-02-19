@@ -1,0 +1,5 @@
+This package allows you to place notes on the verso pages of an
+otherwise single-sided document. If, in the run of text, you
+include a call to the macro \versonote{This is a remark}, then
+that text will be placed on the opposite (ie, 'verso') page,
+lined up with the macro call.

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	bidi
+PORTNAME=	versonotes
 PORTVERSION=	20150218
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bidirectional typesetting in plain TeX and LaTeX, using XeTeX engine.
+COMMENT=	Display brief notes on verso pages.
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
