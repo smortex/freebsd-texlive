@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	citeall
 PORTVERSION=	20150220
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	Cite all entries of a bbl created with biblatex.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
