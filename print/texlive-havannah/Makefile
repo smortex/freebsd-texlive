@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	tableof
+PORTNAME=	havannah
 PORTVERSION=	20150222
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Tagging tables of contents.
+COMMENT=	Diagrams of board positions in the games of Havannah and Hex.
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
