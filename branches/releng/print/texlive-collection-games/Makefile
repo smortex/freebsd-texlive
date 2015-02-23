@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-games
-PORTVERSION=	20140418
+PORTVERSION=	20150222
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -80,6 +80,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gamebook/gamebook.sty:${PORTSDIR}/print/texlive-gamebook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/go/go.sty:${PORTSDIR}/print/texlive-go \
 		${LOCALBASE}/share/texmf-dist/tex/plain/hanoi/hanoi.tex:${PORTSDIR}/print/texlive-hanoi \
+		${LOCALBASE}/share/texmf-dist/tex/latex/havannah/havannah.sty:${PORTSDIR}/print/texlive-havannah \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hexgame/hexgame.sty:${PORTSDIR}/print/texlive-hexgame \
 		${LOCALBASE}/share/texmf-dist/tex/latex/horoscop/horoscop.sty:${PORTSDIR}/print/texlive-horoscop \
 		${LOCALBASE}/share/texmf-dist/tex/latex/labyrinth/labyrinth.sty:${PORTSDIR}/print/texlive-labyrinth \

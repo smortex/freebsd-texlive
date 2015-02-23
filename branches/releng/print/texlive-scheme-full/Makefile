@@ -120,6 +120,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/chicago-annote/chicago-annote.bst:${PORTSDIR}/print/texlive-chicago-annote \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/chembst/ChemCommun.bst:${PORTSDIR}/print/texlive-chembst \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chscite/chscite.sty:${PORTSDIR}/print/texlive-chscite \
+		${LOCALBASE}/share/texmf-dist/tex/latex/citeall/citeall.sty:${PORTSDIR}/print/texlive-citeall \
 		${LOCALBASE}/share/texmf-dist/tex/latex/collref/collref.sty:${PORTSDIR}/print/texlive-collref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/compactbib/compactbib.sty:${PORTSDIR}/print/texlive-compactbib \
 		${LOCALBASE}/share/texmf-dist/scripts/crossrefware/bibdoiadd.pl:${PORTSDIR}/print/texlive-crossrefware \
@@ -526,6 +527,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gamebook/gamebook.sty:${PORTSDIR}/print/texlive-gamebook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/go/go.sty:${PORTSDIR}/print/texlive-go \
 		${LOCALBASE}/share/texmf-dist/tex/plain/hanoi/hanoi.tex:${PORTSDIR}/print/texlive-hanoi \
+		${LOCALBASE}/share/texmf-dist/tex/latex/havannah/havannah.sty:${PORTSDIR}/print/texlive-havannah \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hexgame/hexgame.sty:${PORTSDIR}/print/texlive-hexgame \
 		${LOCALBASE}/share/texmf-dist/tex/latex/horoscop/horoscop.sty:${PORTSDIR}/print/texlive-horoscop \
 		${LOCALBASE}/share/texmf-dist/tex/latex/labyrinth/labyrinth.sty:${PORTSDIR}/print/texlive-labyrinth \
@@ -2000,6 +2002,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/wordlike/wordlike.sty:${PORTSDIR}/print/texlive-wordlike \
 		${LOCALBASE}/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty:${PORTSDIR}/print/texlive-wrapfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xargs/xargs.sty:${PORTSDIR}/print/texlive-xargs \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xcolor-solarized/xcolor-solarized.sty:${PORTSDIR}/print/texlive-xcolor-solarized \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xcomment/xcomment.sty:${PORTSDIR}/print/texlive-xcomment \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xhfill/xhfill.sty:${PORTSDIR}/print/texlive-xhfill \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xtab/xtab.sty:${PORTSDIR}/print/texlive-xtab \
