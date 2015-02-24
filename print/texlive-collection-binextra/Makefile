@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-binextra
-PORTVERSION=	20150217
+PORTVERSION=	20150223
 CATEGORIES=	print
 DISTFILES=	# None
 
