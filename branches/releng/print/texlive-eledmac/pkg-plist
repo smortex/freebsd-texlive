@@ -12,6 +12,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/lemma-disambiguation.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/line-numbers-in-header.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/line-numbers-in-header.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/lualatex-parallel-rtl.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/lualatex-parallel-rtl.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/minimal-parallels.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/minimal-parallels.tex
