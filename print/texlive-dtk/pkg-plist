@@ -13,6 +13,7 @@ share/texmf-dist/bibtex/bst/dtk/dtk.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk06.clo
 %%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk10.clo
 %%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk11.clo
+%%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk12.clo
 %%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk95.clo
 %%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk96.clo
 %%PORTDOCS%%share/texmf-dist/doc/latex/dtk/historical/dtk97.clo
@@ -36,7 +37,6 @@ share/texmf-dist/tex/latex/dtk/dtk-pdf.sty
 share/texmf-dist/tex/latex/dtk/dtk-url.sty
 share/texmf-dist/tex/latex/dtk/dtk.clo
 share/texmf-dist/tex/latex/dtk/dtk.cls
-share/texmf-dist/tex/latex/dtk/dtk12.clo
 share/texmf-dist/tex/latex/dtk/dtklogos.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	tikz-palattice
 PORTVERSION=	20150225
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	Draw particle accelerator lattices with TikZ.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

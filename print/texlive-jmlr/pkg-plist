@@ -29,7 +29,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-papers/jmlrwcp-sample.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/jmlr/sample-papers/jmlrwcp-sample.tex
 share/texmf-dist/scripts/jmlr/makejmlrbook
-share/texmf-dist/scripts/jmlr/makejmlrbook.bat
 %%PORTSRC%%share/texmf-dist/source/latex/jmlr/jmlr.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/jmlr/jmlr.ins
 share/texmf-dist/tex/latex/jmlr/jmlr.cls

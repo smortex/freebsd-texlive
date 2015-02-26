@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20150218
+PORTVERSION=	20150225
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -144,6 +144,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-dimline/tikz-dimline.sty:${PORTSDIR}/print/texlive-tikz-dimline \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-inet/tikz-inet.sty:${PORTSDIR}/print/texlive-tikz-inet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-opm/tikz-opm.sty:${PORTSDIR}/print/texlive-tikz-opm \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-palattice/tikz-palattice.sty:${PORTSDIR}/print/texlive-tikz-palattice \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty:${PORTSDIR}/print/texlive-tikz-qtree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty:${PORTSDIR}/print/texlive-tikz-timing \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzinclude/tikzinclude.sty:${PORTSDIR}/print/texlive-tikzinclude \

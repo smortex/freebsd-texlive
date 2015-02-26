@@ -1,6 +1,7 @@
 share/texmf-dist/bibtex/bst/uestcthesis/uestcthesis.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/chapters/DuplicateMe.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/chapters/Matrix.java.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/chapters/Place_has_TrainDAO.java.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/chapters/implementation.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/chapters/math.tex
@@ -14,9 +15,7 @@ share/texmf-dist/bibtex/bst/uestcthesis/uestcthesis.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/original.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/publications.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/reference.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/titlepage.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/contents/translation.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/packagecheck.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/Chrysanthemum.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/Penguins.jpg
 %%PORTDOCS%%share/texmf-dist/doc/latex/uestcthesis/doc/pics/Tulips.jpg
