@@ -308,10 +308,12 @@ share/texmf-dist/bibtex/bst/minitoc/fr-mtc.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/minitoc/mexip.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/minitoc/meyalu.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/minitoc/minitoc-fr.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/minitoc/minitoc-fr.ist
 %%PORTDOCS%%share/texmf-dist/doc/latex/minitoc/minitoc-fr.lan
 %%PORTDOCS%%share/texmf-dist/doc/latex/minitoc/minitoc-fr.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/minitoc/minitoc.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/minitoc/minitoc.bug
+%%PORTDOCS%%share/texmf-dist/doc/latex/minitoc/minitoc.ist
 %%PORTDOCS%%share/texmf-dist/doc/latex/minitoc/minitoc.l
 %%PORTDOCS%%share/texmf-dist/doc/latex/minitoc/minitoc.lan
 %%PORTDOCS%%share/texmf-dist/doc/latex/minitoc/minitoc.pdf
@@ -560,8 +562,6 @@ share/texmf-dist/bibtex/bst/minitoc/fr-mtc.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/minitoc/zambia-f.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/minitoc/zanzibar-f.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/minitoc/zimbabwe-f.png
-share/texmf-dist/makeindex/minitoc/minitoc-fr.ist
-share/texmf-dist/makeindex/minitoc/minitoc.ist
 %%PORTSRC%%share/texmf-dist/source/latex/minitoc/minitoc-fr.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/minitoc/minitoc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/minitoc/minitoc.ins

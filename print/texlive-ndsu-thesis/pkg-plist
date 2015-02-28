@@ -1,8 +1,6 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/acro/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/acro/acro_en.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/acro/acro_en.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/acro/example_one.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/acro/example_two.tex
-share/texmf-dist/tex/latex/acro/acro.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/ndsu-thesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/ndsu-thesis/ndsu-thesis.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ndsu-thesis/ndsu_thesis.pdf
+share/texmf-dist/tex/latex/ndsu-thesis/ndsu-thesis.cls
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

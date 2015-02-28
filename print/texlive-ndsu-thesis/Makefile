@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	acro
+PORTNAME=	ndsu-thesis
 PORTVERSION=	20150227
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset acronyms.
+COMMENT=	North Dakota State University disquisition class.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
