@@ -1,15 +1,13 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami-doc-en.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami-doc-en.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami-doc-it.dtx
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami-doc-it.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami-doc-it.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/esami-xyz.cfg
-%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/master-sol.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/master.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/problem1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/problem2-tabella.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/problem2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/problem3-matching.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/problem4-fillin.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/test1.tex
@@ -21,7 +19,14 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/test3.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/test4.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/test5-fillin.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/test9.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/testA-luatex-sol.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/testA-luatex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/testA-sol.loe
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/testA-sol.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/testA-sol.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/testA-xetex-sol.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/testA-xetex.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/testA.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/testA.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/totale-versioni.tex
@@ -32,6 +37,7 @@ share/texmf-dist/tex/latex/esami/es-french.lng
 share/texmf-dist/tex/latex/esami/es-german.lng
 share/texmf-dist/tex/latex/esami/es-greek.lng
 share/texmf-dist/tex/latex/esami/es-italian.lng
+share/texmf-dist/tex/latex/esami/es-serbian.lng
 share/texmf-dist/tex/latex/esami/es-spanish.lng
 share/texmf-dist/tex/latex/esami/esami.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
