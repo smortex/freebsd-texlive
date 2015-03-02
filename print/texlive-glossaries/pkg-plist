@@ -29,6 +29,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-custom-acronym.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-dual.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-dual.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-entrycount.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-entrycount.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-entryfmt.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-entryfmt.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/sample-ignored.pdf
