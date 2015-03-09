@@ -1,0 +1,6 @@
+A class, based on article.cls, for typesetting business cards,
+index cards, and flash cards in an easy and flexible way,
+optionally also the reverse side. You will have to furnish the
+paper size, the desired size of your card, the printable area
+of your printer, and the design of the card. Everything else is
+taken care of by elzcards.

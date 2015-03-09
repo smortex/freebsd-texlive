@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	eledmac
-PORTVERSION=	20150307
+PORTNAME=	elzcards
+PORTVERSION=	20150306
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset scholarly editions.
+COMMENT=	Typeset business cards, index cards and flash cards easyly.
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

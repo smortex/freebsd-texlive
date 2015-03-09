@@ -1,0 +1,25 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/europasscv/Makefile.europasscv
+%%PORTDOCS%%share/texmf-dist/doc/latex/europasscv/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/europasscv/address_europass_icon.svg
+%%PORTDOCS%%share/texmf-dist/doc/latex/europasscv/europasscv.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/europasscv/europasscv.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/europasscv/europasslogo.svg
+%%PORTDOCS%%share/texmf-dist/doc/latex/europasscv/example/europasscv_en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/europasscv/example/europasscv_en.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/europasscv/im_europass_icon.svg
+%%PORTDOCS%%share/texmf-dist/doc/latex/europasscv/mail_europass_icon.svg
+%%PORTDOCS%%share/texmf-dist/doc/latex/europasscv/mobile_europass_icon.svg
+%%PORTDOCS%%share/texmf-dist/doc/latex/europasscv/telephone_europass_icon.svg
+%%PORTDOCS%%share/texmf-dist/doc/latex/europasscv/website_europass_icon.svg
+share/texmf-dist/tex/latex/europasscv/address_europass_icon.pdf
+share/texmf-dist/tex/latex/europasscv/europasscv.cls
+share/texmf-dist/tex/latex/europasscv/europasscv_en.def
+share/texmf-dist/tex/latex/europasscv/europasscv_it.def
+share/texmf-dist/tex/latex/europasscv/europasslogo.pdf
+share/texmf-dist/tex/latex/europasscv/im_europass_icon.pdf
+share/texmf-dist/tex/latex/europasscv/mail_europass_icon.pdf
+share/texmf-dist/tex/latex/europasscv/mobile_europass_icon.pdf
+share/texmf-dist/tex/latex/europasscv/telephone_europass_icon.pdf
+share/texmf-dist/tex/latex/europasscv/website_europass_icon.pdf
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
