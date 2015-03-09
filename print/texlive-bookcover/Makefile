@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	eledmac
-PORTVERSION=	20150307
+PORTNAME=	bookcover
+PORTVERSION=	20150306
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset scholarly editions.
+COMMENT=	A class for book covers and dust jackets.
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

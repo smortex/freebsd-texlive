@@ -1,0 +1,6 @@
+This class is an unofficial LaTeX implementation of the
+standard model for curriculum vitae (the Europass CV) as
+recommended by the European Commission. In 2013 a major
+revision of the Europass CV came out, featuring a neater, more
+compact and somewhat fancier layout. This class is an
+implementation of the 2013 version of that layout.

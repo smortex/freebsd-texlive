@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150219
+PORTVERSION=	20150306
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -222,6 +222,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-dimline/tikz-dimline.sty:${PORTSDIR}/print/texlive-tikz-dimline \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-inet/tikz-inet.sty:${PORTSDIR}/print/texlive-tikz-inet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-opm/tikz-opm.sty:${PORTSDIR}/print/texlive-tikz-opm \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-palattice/tikz-palattice.sty:${PORTSDIR}/print/texlive-tikz-palattice \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty:${PORTSDIR}/print/texlive-tikz-qtree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty:${PORTSDIR}/print/texlive-tikz-timing \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzinclude/tikzinclude.sty:${PORTSDIR}/print/texlive-tikzinclude \
@@ -322,6 +323,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/bnumexpr/bnumexpr.sty:${PORTSDIR}/print/texlive-bnumexpr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boites/boites.sty:${PORTSDIR}/print/texlive-boites \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bold-extra/bold-extra.sty:${PORTSDIR}/print/texlive-bold-extra \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bookcover/bookcover.cls:${PORTSDIR}/print/texlive-bookcover \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bookest/bookest.cls:${PORTSDIR}/print/texlive-bookest \
 		${LOCALBASE}/share/texmf-dist/tex/latex/booklet/booklet.sty:${PORTSDIR}/print/texlive-booklet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boolexpr/boolexpr.sty:${PORTSDIR}/print/texlive-boolexpr \
@@ -485,6 +487,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/ellipsis/ellipsis.sty:${PORTSDIR}/print/texlive-ellipsis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/elmath/elmath.sty:${PORTSDIR}/print/texlive-elmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/elpres/elpres.cls:${PORTSDIR}/print/texlive-elpres \
+		${LOCALBASE}/share/texmf-dist/tex/latex/elzcards/elzcards.cls:${PORTSDIR}/print/texlive-elzcards \
 		${LOCALBASE}/share/texmf-dist/tex/latex/emarks/emarks.sty:${PORTSDIR}/print/texlive-emarks \
 		${LOCALBASE}/share/texmf-dist/tex/latex/embedall/embedall.sty:${PORTSDIR}/print/texlive-embedall \
 		${LOCALBASE}/share/texmf-dist/tex/latex/embrac/embrac.sty:${PORTSDIR}/print/texlive-embrac \
@@ -517,6 +520,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/etoc/etoc.sty:${PORTSDIR}/print/texlive-etoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty:${PORTSDIR}/print/texlive-etoolbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eukdate/eukdate.sty:${PORTSDIR}/print/texlive-eukdate \
+		${LOCALBASE}/share/texmf-dist/tex/latex/europasscv/europasscv.cls:${PORTSDIR}/print/texlive-europasscv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/europecv/europecv.cls:${PORTSDIR}/print/texlive-europecv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/everyhook/everyhook.sty:${PORTSDIR}/print/texlive-everyhook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/everypage/everypage.sty:${PORTSDIR}/print/texlive-everypage \

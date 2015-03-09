@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	impnattypo
-PORTVERSION=	20140418
+PORTVERSION=	20150307
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support typography of l'Imprimerie Nationale FranASSaise.
+COMMENT=	Support typography of l'Imprimerie Nationale Francaise.
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
