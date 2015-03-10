@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150306
+PORTVERSION=	20150309
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -609,6 +609,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gauss/gauss.sty:${PORTSDIR}/print/texlive-gauss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gcard/gcard.sty:${PORTSDIR}/print/texlive-gcard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gcite/gcite.sty:${PORTSDIR}/print/texlive-gcite \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gender/gender.sty:${PORTSDIR}/print/texlive-gender \
 		${LOCALBASE}/share/texmf-dist/tex/latex/genmpage/genmpage.sty:${PORTSDIR}/print/texlive-genmpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/getfiledate/getfiledate.sty:${PORTSDIR}/print/texlive-getfiledate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ginpenc/ginpenc.sty:${PORTSDIR}/print/texlive-ginpenc \
