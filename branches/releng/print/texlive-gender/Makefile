@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	newpx
+PORTNAME=	gender
 PORTVERSION=	20150309
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Alternative uses of the PX fonts, with improved metrics.
+COMMENT=	Gender neutrality for languages with grammatical gender.
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

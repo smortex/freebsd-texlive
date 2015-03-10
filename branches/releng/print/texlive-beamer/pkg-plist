@@ -109,8 +109,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beameruserguide.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beameruserguide.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/licenses/LICENSE
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/themeexamples/beamerthemeexample.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/themeexamples/beamerthememakeexamples.sh
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-conference-talk/beamerexample-conference-talk.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-beamer-version.pdf
@@ -270,6 +268,7 @@ share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemesidebar.
 share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemesplit.sty
 share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemetree.sty
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Brazilian.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Catalan.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Croatian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-English.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-French.dict
@@ -281,6 +280,7 @@ share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/t
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Serbian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Spanish.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Brazilian.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Catalan.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Croatian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-English.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-French.dict
@@ -290,6 +290,7 @@ share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dicti
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Serbian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Spanish.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Brazilian.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Catalan.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Croatian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-English.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-French.dict
@@ -300,6 +301,7 @@ share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictio
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Serbian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Spanish.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Brazilian.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Catalan.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Croatian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-English.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-French.dict
@@ -313,6 +315,7 @@ share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Serbian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Spanish.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Brazilian.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Catalan.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Croatian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-English.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-French.dict
@@ -325,6 +328,7 @@ share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Serbian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Spanish.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Brazilian.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Catalan.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Croatian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-English.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-French.dict

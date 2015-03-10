@@ -1,0 +1,5 @@
+Many languages -- like German or French -- use masculine and
+feminine grammatical genders. There are many ideas how to
+promote gender neutrality in those languages. The gender
+package uses alternately masculine and feminine forms. It is
+also possible to use just one form out of a template.

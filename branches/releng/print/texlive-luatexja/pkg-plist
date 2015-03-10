@@ -27,6 +27,7 @@
 %%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/jisx0208table.tex
 %%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/kyoikukanji.txt
 %%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/kyoikukanjiChars.tex
+%%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/ltj-unicode-ccfix_make2.pl
 %%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/otf-AdobeMingStd-Light.txt
 %%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/otf-AdobeMyungjoStd-Medium.txt
 %%PORTSRC%%share/texmf-dist/source/luatex/luatexja/tool/otf-AdobeSongStd-Light.txt
@@ -73,7 +74,7 @@ share/texmf-dist/tex/luatex/luatexja/ltj-ruby.lua
 share/texmf-dist/tex/luatex/luatexja/ltj-setwidth.lua
 share/texmf-dist/tex/luatex/luatexja/ltj-stack.lua
 share/texmf-dist/tex/luatex/luatexja/ltj-tangle.lua
-share/texmf-dist/tex/luatex/luatexja/ltj-unicode-ccfix.tex
+share/texmf-dist/tex/luatex/luatexja/ltj-unicode-ccfix.lua
 share/texmf-dist/tex/luatex/luatexja/ltjarticle.cls
 share/texmf-dist/tex/luatex/luatexja/ltjbk10.clo
 share/texmf-dist/tex/luatex/luatexja/ltjbk11.clo
