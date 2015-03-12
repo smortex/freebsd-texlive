@@ -1,14 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	etoolbox
+PORTNAME=	boxedminipage2e
 PORTVERSION=	20150311
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Tool-box for LaTeX programmers using e-TeX.
+COMMENT=	Framed minipages of a specified total width (text and frame combined)
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

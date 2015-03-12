@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150309
+PORTVERSION=	20150311
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -329,6 +329,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/boolexpr/boolexpr.sty:${PORTSDIR}/print/texlive-boolexpr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bophook/bophook.sty:${PORTSDIR}/print/texlive-bophook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boxedminipage/boxedminipage.sty:${PORTSDIR}/print/texlive-boxedminipage \
+		${LOCALBASE}/share/texmf-dist/tex/latex/boxedminipage2e/boxedminipage2e.sty:${PORTSDIR}/print/texlive-boxedminipage2e \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boxhandler/boxhandler.sty:${PORTSDIR}/print/texlive-boxhandler \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bracketkey/bracketkey.sty:${PORTSDIR}/print/texlive-bracketkey \
 		${LOCALBASE}/share/texmf-dist/tex/latex/braket/braket.sty:${PORTSDIR}/print/texlive-braket \

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	europasscv
-PORTVERSION=	20150306
+PORTVERSION=	20150311
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Unofficial class for European curriculum vitae, 2013 version
+COMMENT=	Unofficial class for the new version of the Europass curriculum vitae
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
