@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150311
+PORTVERSION=	20150312
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -518,7 +518,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/dvips/esint-type1/config.esint:${PORTSDIR}/print/texlive-esint-type1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/etaremune/etaremune.sty:${PORTSDIR}/print/texlive-etaremune \
 		${LOCALBASE}/share/texmf-dist/tex/latex/etextools/etextools.sty:${PORTSDIR}/print/texlive-etextools \
-		${LOCALBASE}/share/texmf-dist/tex/latex/etoc/etoc.sty:${PORTSDIR}/print/texlive-etoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty:${PORTSDIR}/print/texlive-etoolbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eukdate/eukdate.sty:${PORTSDIR}/print/texlive-eukdate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/europasscv/europasscv.cls:${PORTSDIR}/print/texlive-europasscv \

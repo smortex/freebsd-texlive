@@ -561,6 +561,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/eijkhout/CD_labeler.tex:${PORTSDIR}/print/texlive-eijkhout \
 		${LOCALBASE}/share/texmf-dist/tex/latex/encxvlna/encxvlna.sty:${PORTSDIR}/print/texlive-encxvlna \
 		${LOCALBASE}/share/texmf-dist/tex/generic/epigram/epigram.tex:${PORTSDIR}/print/texlive-epigram \
+		${LOCALBASE}/share/texmf-dist/tex/generic/etoc/etoc.sty:${PORTSDIR}/print/texlive-etoc \
 		${LOCALBASE}/share/texmf-dist/tex/generic/fenixpar/fenixpar.sty:${PORTSDIR}/print/texlive-fenixpar \
 		${LOCALBASE}/share/texmf-dist/tex/generic/fltpoint/fltpoint.sty:${PORTSDIR}/print/texlive-fltpoint \
 		${LOCALBASE}/share/texmf-dist/tex/generic/fntproof/fntproof.tex:${PORTSDIR}/print/texlive-fntproof \
@@ -1132,6 +1133,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/boolexpr/boolexpr.sty:${PORTSDIR}/print/texlive-boolexpr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bophook/bophook.sty:${PORTSDIR}/print/texlive-bophook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boxedminipage/boxedminipage.sty:${PORTSDIR}/print/texlive-boxedminipage \
+		${LOCALBASE}/share/texmf-dist/tex/latex/boxedminipage2e/boxedminipage2e.sty:${PORTSDIR}/print/texlive-boxedminipage2e \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boxhandler/boxhandler.sty:${PORTSDIR}/print/texlive-boxhandler \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bracketkey/bracketkey.sty:${PORTSDIR}/print/texlive-bracketkey \
 		${LOCALBASE}/share/texmf-dist/tex/latex/braket/braket.sty:${PORTSDIR}/print/texlive-braket \
@@ -1320,7 +1322,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/dvips/esint-type1/config.esint:${PORTSDIR}/print/texlive-esint-type1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/etaremune/etaremune.sty:${PORTSDIR}/print/texlive-etaremune \
 		${LOCALBASE}/share/texmf-dist/tex/latex/etextools/etextools.sty:${PORTSDIR}/print/texlive-etextools \
-		${LOCALBASE}/share/texmf-dist/tex/latex/etoc/etoc.sty:${PORTSDIR}/print/texlive-etoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty:${PORTSDIR}/print/texlive-etoolbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eukdate/eukdate.sty:${PORTSDIR}/print/texlive-eukdate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/europasscv/europasscv.cls:${PORTSDIR}/print/texlive-europasscv \
@@ -1412,6 +1413,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gauss/gauss.sty:${PORTSDIR}/print/texlive-gauss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gcard/gcard.sty:${PORTSDIR}/print/texlive-gcard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gcite/gcite.sty:${PORTSDIR}/print/texlive-gcite \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gender/gender.sty:${PORTSDIR}/print/texlive-gender \
 		${LOCALBASE}/share/texmf-dist/tex/latex/genmpage/genmpage.sty:${PORTSDIR}/print/texlive-genmpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/getfiledate/getfiledate.sty:${PORTSDIR}/print/texlive-getfiledate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ginpenc/ginpenc.sty:${PORTSDIR}/print/texlive-ginpenc \

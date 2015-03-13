@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-genericextra
-PORTVERSION=	20141107
+PORTVERSION=	20150312
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -58,6 +58,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/eijkhout/CD_labeler.tex:${PORTSDIR}/print/texlive-eijkhout \
 		${LOCALBASE}/share/texmf-dist/tex/latex/encxvlna/encxvlna.sty:${PORTSDIR}/print/texlive-encxvlna \
 		${LOCALBASE}/share/texmf-dist/tex/generic/epigram/epigram.tex:${PORTSDIR}/print/texlive-epigram \
+		${LOCALBASE}/share/texmf-dist/tex/generic/etoc/etoc.sty:${PORTSDIR}/print/texlive-etoc \
 		${LOCALBASE}/share/texmf-dist/tex/generic/fenixpar/fenixpar.sty:${PORTSDIR}/print/texlive-fenixpar \
 		${LOCALBASE}/share/texmf-dist/tex/generic/fltpoint/fltpoint.sty:${PORTSDIR}/print/texlive-fltpoint \
 		${LOCALBASE}/share/texmf-dist/tex/generic/fntproof/fntproof.tex:${PORTSDIR}/print/texlive-fntproof \
