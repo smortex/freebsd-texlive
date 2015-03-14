@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150312
+PORTVERSION=	20150313
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -546,6 +546,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancyslides/fancyslides.cls:${PORTSDIR}/print/texlive-fancyslides \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancytabs/fancytabs.sty:${PORTSDIR}/print/texlive-fancytabs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancytooltips/fancytooltips.sty:${PORTSDIR}/print/texlive-fancytooltips \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fcolumn/fcolumn.sty:${PORTSDIR}/print/texlive-fcolumn \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fifo-stack/fifo-stack.sty:${PORTSDIR}/print/texlive-fifo-stack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/figsize/figsize.sty:${PORTSDIR}/print/texlive-figsize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filecontents/filecontents.sty:${PORTSDIR}/print/texlive-filecontents \

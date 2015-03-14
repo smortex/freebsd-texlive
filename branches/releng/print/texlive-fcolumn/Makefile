@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	biblatex-ieee
+PORTNAME=	fcolumn
 PORTVERSION=	20150313
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Ieee style files for biblatex.
+COMMENT=	Typesetting financial tables.
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
