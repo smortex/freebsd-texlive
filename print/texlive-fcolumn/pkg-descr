@@ -1,0 +1,5 @@
+In financial reports, text and currency amounts are regularly
+put in one table, e.g., a year balance or a profit-and-loss
+overview. This package provides the settings for automatically
+typesetting such columns, including the sum line (preceded by a
+rule of the correct width) using the specifier "f".
