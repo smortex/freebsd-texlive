@@ -1,4 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/luatodonotes/README
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/luatodonotes/README.md
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/luatodonotes/luatodonotes.pdf
 %%PORTSRC%%share/texmf-dist/source/lualatex/luatodonotes/luatodonotes.dtx
 %%PORTSRC%%share/texmf-dist/source/lualatex/luatodonotes/luatodonotes.ins
