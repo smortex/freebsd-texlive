@@ -2,6 +2,8 @@ share/texmf-dist/bibtex/bst/persian-bib/acm-fa.bst
 share/texmf-dist/bibtex/bst/persian-bib/asa-fa.bst
 share/texmf-dist/bibtex/bst/persian-bib/chicago-fa.bst
 share/texmf-dist/bibtex/bst/persian-bib/ieeetr-fa.bst
+share/texmf-dist/bibtex/bst/persian-bib/plain-fa-inLTR-beamer.bst
+share/texmf-dist/bibtex/bst/persian-bib/plain-fa-inLTR.bst
 share/texmf-dist/bibtex/bst/persian-bib/plain-fa.bst
 share/texmf-dist/bibtex/bst/persian-bib/plainnat-fa.bst
 share/texmf-dist/bibtex/bst/persian-bib/unsrt-fa.bst
@@ -10,7 +12,6 @@ share/texmf-dist/bibtex/csf/persian-bib/cp1256fa.csf
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/persian-bib/Persian-bib-userguide.pdf
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/persian-bib/Persian-bib-userguide.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/persian-bib/README
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/persian-bib/bibtex-example.pdf
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/persian-bib/bibtex-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/persian-bib/gen_pdf.pl
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
