@@ -1,14 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	etoolbox
+PORTNAME=	sesamanuel
 PORTVERSION=	20150317
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	e-TeX tools for LaTeX.
+COMMENT=	Class and package for sesamath books or paper
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

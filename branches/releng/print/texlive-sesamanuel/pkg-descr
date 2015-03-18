@@ -1,0 +1,4 @@
+The package contains a sesamanuel class which could be used to
+compose a student's classroom book with LaTeX, and also a
+sesamanuelTIKZ style to be used for TIKZ pictures in the
+sesamath book.

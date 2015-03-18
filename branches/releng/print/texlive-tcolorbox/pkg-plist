@@ -10,6 +10,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.coremacros.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.coreoptions.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.documentation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.external.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.filling.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.fitting.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.graphics.tex
@@ -23,6 +24,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.raster.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.recording.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.references.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.s_main.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.s_snippet.sty
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.skins.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.technical.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.theorems.tex
@@ -36,6 +39,7 @@ share/texmf-dist/tex/latex/tcolorbox/goldshade.png
 share/texmf-dist/tex/latex/tcolorbox/pink_marble.png
 share/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbdocumentation.code.tex
+share/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex

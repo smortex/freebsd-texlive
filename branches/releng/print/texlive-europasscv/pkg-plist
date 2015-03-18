@@ -3,7 +3,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/europasscv/address_europass_icon.svg
 %%PORTDOCS%%share/texmf-dist/doc/latex/europasscv/europasscv.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/europasscv/europasscv.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/europasscv/europasslogo2013.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/europasscv/europasslogo2013.svg
 %%PORTDOCS%%share/texmf-dist/doc/latex/europasscv/example/europasscv_en.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/europasscv/example/europasscv_en.tex
@@ -17,6 +16,7 @@ share/texmf-dist/tex/latex/europasscv/europasscv.cls
 share/texmf-dist/tex/latex/europasscv/europasscv_de.def
 share/texmf-dist/tex/latex/europasscv/europasscv_en.def
 share/texmf-dist/tex/latex/europasscv/europasscv_it.def
+share/texmf-dist/tex/latex/europasscv/europasslogo2013.pdf
 share/texmf-dist/tex/latex/europasscv/im_europass_icon.pdf
 share/texmf-dist/tex/latex/europasscv/mail_europass_icon.pdf
 share/texmf-dist/tex/latex/europasscv/mobile_europass_icon.pdf
