@@ -258,9 +258,8 @@ share/texmf-dist/fonts/tfm/public/newtx/ntxbmials.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxbsy.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxbsy5.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxbsy7.tfm
-share/texmf-dist/fonts/tfm/public/newtx/ntxbsya.tfm
-share/texmf-dist/fonts/tfm/public/newtx/ntxbsyb.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxbsyc.tfm
+share/texmf-dist/fonts/tfm/public/newtx/ntxbsym.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxexb.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxexmods.tfm
@@ -287,10 +286,9 @@ share/texmf-dist/fonts/tfm/public/newtx/ntxsups-Regular-t1.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsy5.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsy7.tfm
-share/texmf-dist/fonts/tfm/public/newtx/ntxsya.tfm
-share/texmf-dist/fonts/tfm/public/newtx/ntxsyb.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsybalt.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
+share/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsyralt.tfm
 share/texmf-dist/fonts/tfm/public/newtx/nxlbmi.tfm
 share/texmf-dist/fonts/tfm/public/newtx/nxlbmi0.tfm
@@ -477,9 +475,8 @@ share/texmf-dist/fonts/vf/public/newtx/ntxbmia.vf
 share/texmf-dist/fonts/vf/public/newtx/ntxbsy.vf
 share/texmf-dist/fonts/vf/public/newtx/ntxbsy5.vf
 share/texmf-dist/fonts/vf/public/newtx/ntxbsy7.vf
-share/texmf-dist/fonts/vf/public/newtx/ntxbsya.vf
-share/texmf-dist/fonts/vf/public/newtx/ntxbsyb.vf
 share/texmf-dist/fonts/vf/public/newtx/ntxbsyc.vf
+share/texmf-dist/fonts/vf/public/newtx/ntxbsym.vf
 share/texmf-dist/fonts/vf/public/newtx/ntxexa.vf
 share/texmf-dist/fonts/vf/public/newtx/ntxexx.vf
 share/texmf-dist/fonts/vf/public/newtx/ntxmi.vf
@@ -492,9 +489,8 @@ share/texmf-dist/fonts/vf/public/newtx/ntxmia.vf
 share/texmf-dist/fonts/vf/public/newtx/ntxsy.vf
 share/texmf-dist/fonts/vf/public/newtx/ntxsy5.vf
 share/texmf-dist/fonts/vf/public/newtx/ntxsy7.vf
-share/texmf-dist/fonts/vf/public/newtx/ntxsya.vf
-share/texmf-dist/fonts/vf/public/newtx/ntxsyb.vf
 share/texmf-dist/fonts/vf/public/newtx/ntxsyc.vf
+share/texmf-dist/fonts/vf/public/newtx/ntxsym.vf
 share/texmf-dist/fonts/vf/public/newtx/nxlbmi.vf
 share/texmf-dist/fonts/vf/public/newtx/nxlbmi0.vf
 share/texmf-dist/fonts/vf/public/newtx/nxlbmi01.vf
@@ -588,9 +584,8 @@ share/texmf-dist/tex/latex/newtx/ts1ntxtosf.fd
 share/texmf-dist/tex/latex/newtx/ts1ntxtt.fd
 share/texmf-dist/tex/latex/newtx/untxexa.fd
 share/texmf-dist/tex/latex/newtx/untxmia.fd
-share/texmf-dist/tex/latex/newtx/untxsya.fd
-share/texmf-dist/tex/latex/newtx/untxsyb.fd
 share/texmf-dist/tex/latex/newtx/untxsyc.fd
+share/texmf-dist/tex/latex/newtx/untxsym.fd
 share/texmf-dist/tex/latex/newtx/untxtt.fd
 share/texmf-dist/tex/latex/newtx/uzmnmia.fd
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

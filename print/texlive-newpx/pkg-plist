@@ -181,6 +181,7 @@ share/texmf-dist/fonts/tfm/public/newpx/zplbsy.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplbsya.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplbsyb.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplbsyc.tfm
+share/texmf-dist/fonts/tfm/public/newpx/zplbsym.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplexx.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplmi.tfm
@@ -200,9 +201,8 @@ share/texmf-dist/fonts/tfm/public/newpx/zplsups-Regular-ly1.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplsups-Regular-ot1.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplsups-Regular-t1.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplsy.tfm
-share/texmf-dist/fonts/tfm/public/newpx/zplsya.tfm
-share/texmf-dist/fonts/tfm/public/newpx/zplsyb.tfm
 share/texmf-dist/fonts/tfm/public/newpx/zplsyc.tfm
+share/texmf-dist/fonts/tfm/public/newpx/zplsym.tfm
 share/texmf-dist/fonts/type1/public/newpx/zplb.pfb
 share/texmf-dist/fonts/type1/public/newpx/zplbi.pfb
 share/texmf-dist/fonts/type1/public/newpx/zplr.pfb
@@ -266,15 +266,15 @@ share/texmf-dist/fonts/vf/public/newpx/zplbsy.vf
 share/texmf-dist/fonts/vf/public/newpx/zplbsya.vf
 share/texmf-dist/fonts/vf/public/newpx/zplbsyb.vf
 share/texmf-dist/fonts/vf/public/newpx/zplbsyc.vf
+share/texmf-dist/fonts/vf/public/newpx/zplbsym.vf
 share/texmf-dist/fonts/vf/public/newpx/zplexa.vf
 share/texmf-dist/fonts/vf/public/newpx/zplexx.vf
 share/texmf-dist/fonts/vf/public/newpx/zplmi.vf
 share/texmf-dist/fonts/vf/public/newpx/zplmi1.vf
 share/texmf-dist/fonts/vf/public/newpx/zplmia.vf
 share/texmf-dist/fonts/vf/public/newpx/zplsy.vf
-share/texmf-dist/fonts/vf/public/newpx/zplsya.vf
-share/texmf-dist/fonts/vf/public/newpx/zplsyb.vf
 share/texmf-dist/fonts/vf/public/newpx/zplsyc.vf
+share/texmf-dist/fonts/vf/public/newpx/zplsym.vf
 share/texmf-dist/tex/latex/newpx/ly1npxtt.fd
 share/texmf-dist/tex/latex/newpx/ly1zpllf.fd
 share/texmf-dist/tex/latex/newpx/ly1zplosf.fd
@@ -305,9 +305,8 @@ share/texmf-dist/tex/latex/newpx/ts1zpltosf.fd
 share/texmf-dist/tex/latex/newpx/unpxexa.fd
 share/texmf-dist/tex/latex/newpx/unpxmia.fd
 share/texmf-dist/tex/latex/newpx/unpxss.fd
-share/texmf-dist/tex/latex/newpx/unpxsya.fd
-share/texmf-dist/tex/latex/newpx/unpxsyb.fd
 share/texmf-dist/tex/latex/newpx/unpxsyc.fd
+share/texmf-dist/tex/latex/newpx/unpxsym.fd
 share/texmf-dist/tex/latex/newpx/unpxtt.fd
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
