@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	newtxsf
-PORTVERSION=	20141119
+PORTVERSION=	20150323
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Sans serif maths fonts based on newtxmath and STIX Sans.
+COMMENT=	Sans-math fonts for use with newtx
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
