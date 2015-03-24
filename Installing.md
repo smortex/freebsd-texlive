@@ -1,0 +1,37 @@
+# Installing TeXLive on FreeBSD #
+
+## Adding TeXLive ports to your FreeBSD ports tree ##
+
+There are basically two ways for having the TeXLive ports in your FreeBSD ports tree:
+  * Fetch already generated ports using portshaker;
+  * Generate the ports yourself.
+
+### Fetching already generated ports (recommended) ###
+
+FreeBSD ports for all TeXLive packages are located in the `releng` branch of the repository. Install it using portshaker:
+
+```
+shell> make -C /usr/ports/ports-mgmt/portshaker-config install # Ensure TEXLIVE is checked
+shell> portshaker -v
+```
+
+The ports are updated daily. [Upgrading](Upgrading.md)
+
+### Generate the ports yourself (NOT recommended) ###
+
+#### Checkout the FreeBSD-TeXLive trunk ####
+
+```
+shell> mkdir freebsd-texlive
+shell> cd freebsd-texlive
+shell> svn co "http://freebsd-texlive.googlecode.com/svn/trunk"
+shell> ln -s trunk/Tools/texlive Makefile
+shell> $EDITOR Makefile # Tweak to fit your needs
+shell> make
+```
+
+You should update your ports quite often since TeXLive tarballs are updated daily.  A crontab will hopefully do it for you while you sleep
+
+## What next? ##
+
+you will have a brunch of TeXLive ports in print/texlive-_foo_.  You will need texlive-core which installs the binaries.  The texlive-scheme-_foo_ and texlive-collection-_foo_ ports can help you install large collections of ports if you don't want to pin only the packages you use.
