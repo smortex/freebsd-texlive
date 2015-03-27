@@ -24,6 +24,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 
 namespace TeXLive
@@ -91,6 +92,16 @@ namespace TeXLive
 					sw.WriteLine (string.Format ("{0}|{1}|{2}|{3}", pieces[0], pieces[1], pieces[2], pieces[3]));
 				}
 			}
+			FileInfo fi = new FileInfo(FileName);
+			Process p = new Process ();
+			ProcessStartInfo psi = new ProcessStartInfo ("git", string.Format("add {0}", fi.Name));
+			psi.WorkingDirectory = fi.DirectoryName;
+			psi.RedirectStandardOutput = true;
+			psi.UseShellExecute = false;
+			p.StartInfo = psi;
+			p.Start();
+			p.WaitForExit();
+			p.Dispose ();
 		}
 	}
 }

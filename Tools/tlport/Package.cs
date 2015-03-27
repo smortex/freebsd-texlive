@@ -83,7 +83,7 @@ namespace TeXLive
 			get {
 				bool res;
 				Process p = new Process();
-				ProcessStartInfo psi = new ProcessStartInfo("svn", "diff");
+				ProcessStartInfo psi = new ProcessStartInfo("git", "diff .");
 				psi.WorkingDirectory = PortDirectory;
 				psi.RedirectStandardOutput = true;
 				psi.UseShellExecute = false;
@@ -123,7 +123,8 @@ namespace TeXLive
 		private void AddToVcs ()
 		{
 			Process p = new Process();
-			ProcessStartInfo psi = new ProcessStartInfo("svn", string.Format ("add {0}", PortDirectory));
+			ProcessStartInfo psi = new ProcessStartInfo("git", "add .");
+			psi.WorkingDirectory = PortDirectory;
 			if (TLPort.Verbosity < 2) {
 				psi.RedirectStandardOutput = true;
 				psi.UseShellExecute = false;
@@ -151,9 +152,10 @@ namespace TeXLive
 			if (LocalyModified) {
 				CreatePkgPlist ();
 				Clean ();
+				AddToVcs ();
 			} else {
 				Process p = new Process();
-				ProcessStartInfo psi = new ProcessStartInfo("svn", "revert --quiet Makefile");
+				ProcessStartInfo psi = new ProcessStartInfo("git", "checkout -- .");
 				psi.WorkingDirectory = PortDirectory;
 				psi.UseShellExecute = true;
 				p.StartInfo = psi;

@@ -158,7 +158,8 @@ namespace TeXLive
 		{
 			// Remove the port from the repository
 			Process p = new Process ();
-			ProcessStartInfo psi = new ProcessStartInfo ("svn", string.Format ("delete --force {0}", System.IO.Path.Combine (PortsDir, PortName)));
+			ProcessStartInfo psi = new ProcessStartInfo ("git", string.Format ("rm -r {0}", System.IO.Path.Combine (PortsDir, PortName)));
+			psi.WorkingDirectory = packages.PortsDir;
 			if (TLPort.Verbosity < 2) {
 				psi.RedirectStandardOutput = true;
 				psi.UseShellExecute = false;
