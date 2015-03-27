@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150313
+PORTVERSION=	20150325
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -438,7 +438,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/datatool/datatool.sty:${PORTSDIR}/print/texlive-datatool \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dateiliste/dateiliste.sty:${PORTSDIR}/print/texlive-dateiliste \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datenumber/datenumber.sty:${PORTSDIR}/print/texlive-datenumber \
-		${LOCALBASE}/share/texmf-dist/tex/latex/datetime/datetime.sty:${PORTSDIR}/print/texlive-datetime \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2/datetime2.sty:${PORTSDIR}/print/texlive-datetime2 \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-english/datetime2-en-AU.ldf:${PORTSDIR}/print/texlive-datetime2-english \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dblfloatfix/dblfloatfix.sty:${PORTSDIR}/print/texlive-dblfloatfix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/decimal/decimal.sty:${PORTSDIR}/print/texlive-decimal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/decorule/decorule.sty:${PORTSDIR}/print/texlive-decorule \
@@ -507,6 +508,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/envlab/envlab.sty:${PORTSDIR}/print/texlive-envlab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/epigraph/epigraph.sty:${PORTSDIR}/print/texlive-epigraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/epiolmec/epiolmec.sty:${PORTSDIR}/print/texlive-epiolmec \
+		${LOCALBASE}/share/texmf-dist/tex/latex/epyt/beamerthemeepyt.sty:${PORTSDIR}/print/texlive-epyt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eqell/eqell.sty:${PORTSDIR}/print/texlive-eqell \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eqlist/eqlist.sty:${PORTSDIR}/print/texlive-eqlist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eqname/eqname.sty:${PORTSDIR}/print/texlive-eqname \

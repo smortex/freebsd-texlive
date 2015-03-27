@@ -1,0 +1,4 @@
+The cryptocode bundle provides commands for easily typesetting
+pseudocode and simple protocols as well as environments for
+visualizing game-based proofs and black-box reductions as often
+used within the cryptographic community.

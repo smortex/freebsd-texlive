@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-science
-PORTVERSION=	20150104
+PORTVERSION=	20150325
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -92,6 +92,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/clrscode3e/clrscode3e.sty:${PORTSDIR}/print/texlive-clrscode3e \
 		${LOCALBASE}/share/texmf-dist/tex/latex/complexity/complexity.sty:${PORTSDIR}/print/texlive-complexity \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/computational-complexity/journals.bib:${PORTSDIR}/print/texlive-computational-complexity \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cryptocode/cryptocode.sty:${PORTSDIR}/print/texlive-cryptocode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/digiconfigs/digiconfigs.sty:${PORTSDIR}/print/texlive-digiconfigs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/drawstack/drawstack.sty:${PORTSDIR}/print/texlive-drawstack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dyntree/dyntree.sty:${PORTSDIR}/print/texlive-dyntree \

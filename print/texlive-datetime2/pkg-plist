@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/datetime2/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/latex/datetime2/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/datetime2/datetime2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/datetime2/samples/datetime2-sample-babel.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/datetime2/samples/datetime2-sample-babel.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/datetime2/samples/datetime2-sample-calc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/datetime2/samples/datetime2-sample-calc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/datetime2/samples/datetime2-sample-filedate.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/datetime2/samples/datetime2-sample-filedate.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/datetime2/samples/datetime2-sample-hyperref.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/datetime2/samples/datetime2-sample-hyperref.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/datetime2/samples/datetime2-sample-styles.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/datetime2/samples/datetime2-sample-styles.tex
+%%PORTSRC%%share/texmf-dist/source/latex/datetime2/datetime2.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/datetime2/datetime2.ins
+share/texmf-dist/tex/latex/datetime2/datetime2-calc.sty
+share/texmf-dist/tex/latex/datetime2/datetime2.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

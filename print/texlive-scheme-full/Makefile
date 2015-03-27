@@ -1242,7 +1242,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/datatool/datatool.sty:${PORTSDIR}/print/texlive-datatool \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dateiliste/dateiliste.sty:${PORTSDIR}/print/texlive-dateiliste \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datenumber/datenumber.sty:${PORTSDIR}/print/texlive-datenumber \
-		${LOCALBASE}/share/texmf-dist/tex/latex/datetime/datetime.sty:${PORTSDIR}/print/texlive-datetime \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2/datetime2.sty:${PORTSDIR}/print/texlive-datetime2 \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-english/datetime2-en-AU.ldf:${PORTSDIR}/print/texlive-datetime2-english \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dblfloatfix/dblfloatfix.sty:${PORTSDIR}/print/texlive-dblfloatfix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/decimal/decimal.sty:${PORTSDIR}/print/texlive-decimal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/decorule/decorule.sty:${PORTSDIR}/print/texlive-decorule \
@@ -1311,6 +1312,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/envlab/envlab.sty:${PORTSDIR}/print/texlive-envlab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/epigraph/epigraph.sty:${PORTSDIR}/print/texlive-epigraph \
 		${LOCALBASE}/share/texmf-dist/tex/latex/epiolmec/epiolmec.sty:${PORTSDIR}/print/texlive-epiolmec \
+		${LOCALBASE}/share/texmf-dist/tex/latex/epyt/beamerthemeepyt.sty:${PORTSDIR}/print/texlive-epyt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eqell/eqell.sty:${PORTSDIR}/print/texlive-eqell \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eqlist/eqlist.sty:${PORTSDIR}/print/texlive-eqlist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eqname/eqname.sty:${PORTSDIR}/print/texlive-eqname \
@@ -2101,6 +2103,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/proba/proba.sty:${PORTSDIR}/print/texlive-proba \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rec-thy/rec-thy.sty:${PORTSDIR}/print/texlive-rec-thy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ribbonproofs/ribbonproofs.sty:${PORTSDIR}/print/texlive-ribbonproofs \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sesamanuel/sesamanuel.cls:${PORTSDIR}/print/texlive-sesamanuel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/shuffle/shuffle.sty:${PORTSDIR}/print/texlive-shuffle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skmath/skmath.sty:${PORTSDIR}/print/texlive-skmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/statex/statex.sty:${PORTSDIR}/print/texlive-statex \
@@ -2455,6 +2458,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/clrscode3e/clrscode3e.sty:${PORTSDIR}/print/texlive-clrscode3e \
 		${LOCALBASE}/share/texmf-dist/tex/latex/complexity/complexity.sty:${PORTSDIR}/print/texlive-complexity \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/computational-complexity/journals.bib:${PORTSDIR}/print/texlive-computational-complexity \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cryptocode/cryptocode.sty:${PORTSDIR}/print/texlive-cryptocode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/digiconfigs/digiconfigs.sty:${PORTSDIR}/print/texlive-digiconfigs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/drawstack/drawstack.sty:${PORTSDIR}/print/texlive-drawstack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dyntree/dyntree.sty:${PORTSDIR}/print/texlive-dyntree \

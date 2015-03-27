@@ -1,14 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	tugboat
+PORTNAME=	epyt
 PORTVERSION=	20150325
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX macros for TUGboat articles.
+COMMENT=	A simple and clean theme for LaTeX beamer class.
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

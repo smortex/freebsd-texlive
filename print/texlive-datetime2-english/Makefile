@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	tugboat
+PORTNAME=	datetime2-english
 PORTVERSION=	20150325
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX macros for TUGboat articles.
+COMMENT=	English language module for the datetime2 package.
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

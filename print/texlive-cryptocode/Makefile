@@ -1,14 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	tugboat
+PORTNAME=	cryptocode
 PORTVERSION=	20150325
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX macros for TUGboat articles.
+COMMENT=	Typesetting pseudocode, protocols, game-based proofs and black-box reductions in cryptography.
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
