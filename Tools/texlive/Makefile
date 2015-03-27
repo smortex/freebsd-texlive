@@ -3,17 +3,15 @@
 #   - FTLROOT:  Base directory where all the magic happens.  It should contains
 #               this Makefile (link it from Tools/texlive/Makefile in the trunk
 #               checkout).
-#   - COREDIR:  Directory of texlive-core.
 #   - DISTDIR:  Where to download distfiles (don't use your regular distfiles
 #               directory: the mirroring process would delete your other
 #               tarballs).
 
 FTLROOT?=	${HOME}/freebsd-texlive
-COREDIR?=	${FTLROOT}/trunk/print/texlive-core
 DISTDIR?=	${FTLROOT}/distfiles
 
 # Don't forget to build it.
-TLPORT?=	${FTLROOT}/trunk/Tools/tlport/bin/Debug/tlport.exe
+TLPORT?=	${MASTERDIR}/Tools/tlport/bin/Debug/tlport.exe
 
 # -------------------------------------------------------------------------
 
@@ -26,8 +24,10 @@ FTLMIRROR?=	rsync://distrib-coffee.ipsl.jussieu.fr/pub/mirrors/ctan/systems/texl
 FETCHDIR?=	${DISTDIR}/mirror
 PUBLICDIR?=	${DISTDIR}/TeXLive
 PORTSDIR?=	/usr/ports
-RELENGDIR?=	${FTLROOT}/branches/releng
-SVNROOT?=	https://freebsd-texlive.googlecode.com/svn
+
+MASTERDIR?=	${FTLROOT}/master
+GITREPO?=	${FTLROOT}/releng
+GITREMOTEURL?=	git@github.com:smortex/freebsd-texlive.git
 
 # -------------------------------------------------------------------------
 
@@ -49,7 +49,6 @@ help:
 	@echo
 	@echo "Other targets (targets with a * are executed as part of update"
 	@echo "  - clean*      -- Remove extracted metadata;"
-	@echo "  - mrproper    -- Remove generated ports (breaks VCS information);"
 	@echo "  - fetch*      -- Mirror TeXLive distfiles locally;"
 	@echo "  - extract*    -- Extracts TeXLive package infromations;"
 	@echo "  - versionify* -- Add version information to distfiles;"
@@ -70,12 +69,6 @@ clean:
 	@echo "===>  Cleanning extracted sources..."
 .endif
 	@rm -rf tlpkg
-
-mrproper:
-.ifdef V
-	@echo "===>  Cleanning generated ports..."
-.endif
-	@rm -rf ${RELENGDIR}/print
 
 fetch:
 .ifdef V
@@ -100,40 +93,46 @@ extract:
 .endif
 	@for i in ${FETCHDIR}/*.tar.xz; do nice -n 15 tar xf $$i tlpkg/tlpobj/ || ( echo $$i && false ); done
 
-link:
+${MASTERDIR}:
+	mkdir -p ${MASTERDIR}
+	git clone ${GITREMOTEURL} --branch master --single-branch ${MASTERDIR}
+
+link: ${MASTERDIR}
 .ifdef V
 	@echo "===>  Linking print/texlive-core into the releng branch..."
 .endif
-	@mkdir -p ${RELENGDIR}/print
-	@ln -sf ${COREDIR} ${RELENGDIR}/print
+	@mkdir -p ${GITREPO}/print
+	@ln -sf ${MASTERDIR}/print/texlive-core ${GITREPO}/print
 
-build:
+${TLPORT}: ${MASTERDIR}
+	cd ${MASTERDIR}/Tools/tlport && xbuild
+
+build: ${TLPORT}
 .ifdef V
 	@echo "===>  Generating all ports..."
 .endif
-	@env DISTDIR="${DISTDIR}" DISABLE_VULNERABILITIES="yes" DISABLE_LICENSES="yes" WITH_SRCS="yes" BATCH="yes" mono --debug ${TLPORT} ${TLPORT_FLAGS} ${.CURDIR}/tlpkg/tlpobj ${RELENGDIR} ${FETCHDIR}
+	@env DISTDIR="${DISTDIR}" DISABLE_VULNERABILITIES="yes" DISABLE_LICENSES="yes" OPTIONS_SET="SRCS" BATCH="yes" mono --debug ${TLPORT} ${TLPORT_FLAGS} ${.CURDIR}/tlpkg/tlpobj ${GITREPO} ${FETCHDIR}
 
 rmlink:
 .ifdef V
 	@echo "===>  Unlinking print/texlive-core from the releng branch..."
 .endif
-	@rm -f ${RELENGDIR}/print/texlive-core
+	@rm -f ${GITREPO}/print/texlive-core
 
 copy:
 .ifdef V
 	@echo "===>  Copying ports to ${PORTSDIR}..."
 .endif
-	@sudo cp -R ${RELENGDIR}/print/ ${PORTSDIR}/print
+	@sudo cp -R ${GITREPO}/print/ ${PORTSDIR}/print
 
 resum:
 .ifdef V
 	@echo "===>  Updating distfiles checksums..."
 .endif
-	@(cd ${RELENGDIR} && env DISTDIR="${DISTDIR}" Tools/resum print/texlive-*)
+	@(cd ${GITREPO} && env DISTDIR="${DISTDIR}" Tools/resum print/texlive-*)
 
 commit:
 .ifdef V
 	@echo "===>  Committing..."
 .endif
-	@svn commit --non-interactive --trust-server-cert -m "(releng) Sync TeXLive packages with upstream." "${RELENGDIR}"
-	@(cd "${RELENGDIR}" && svn up --non-interactive --trust-server-cert) > /dev/null
+	@(cd "${GITREPO}" && git commit -m "(releng) Sync TeXLive packages with upstream." && git push)
