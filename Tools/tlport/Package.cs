@@ -345,7 +345,8 @@ namespace TeXLive
 		{
 			Process p = new Process ();
 			ProcessStartInfo psi = new ProcessStartInfo ("make", "clean");
-			psi.UseShellExecute = true;
+			psi.RedirectStandardOutput = true;
+			psi.UseShellExecute = false;
 			psi.WorkingDirectory = PortDirectory;
 			p.StartInfo = psi;
 			p.Start ();
