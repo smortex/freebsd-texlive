@@ -62,7 +62,6 @@ namespace TeXLive
 				int res = 0;
 				Process p = new Process();
 				ProcessStartInfo psi = new ProcessStartInfo("make", "-V PORTREVISION");
-				psi.UseShellExecute = true;
 				psi.WorkingDirectory = PortDirectory;
 				psi.RedirectStandardOutput = true;
 				psi.UseShellExecute = false;
