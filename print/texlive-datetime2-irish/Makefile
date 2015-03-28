@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	datetime2-irish
 PORTVERSION=	20150327
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	Irish Gaelic Language Module for the datetime2 Package.
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

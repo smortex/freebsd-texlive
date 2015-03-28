@@ -1235,6 +1235,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/cv/CV.sty:${PORTSDIR}/print/texlive-cv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cv4tw/cv4tw.cls:${PORTSDIR}/print/texlive-cv4tw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cweb-latex/cwbl-german.sty:${PORTSDIR}/print/texlive-cweb-latex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cyber/cyber.sty:${PORTSDIR}/print/texlive-cyber \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cybercic/cybercic.sty:${PORTSDIR}/print/texlive-cybercic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dashbox/dashbox.sty:${PORTSDIR}/print/texlive-dashbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dashrule/dashrule.sty:${PORTSDIR}/print/texlive-dashrule \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dashundergaps/dashundergaps.sty:${PORTSDIR}/print/texlive-dashundergaps \
@@ -1244,6 +1246,9 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/datenumber/datenumber.sty:${PORTSDIR}/print/texlive-datenumber \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2/datetime2.sty:${PORTSDIR}/print/texlive-datetime2 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-english/datetime2-en-AU.ldf:${PORTSDIR}/print/texlive-datetime2-english \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-irish/datetime2-ga-GB.ldf:${PORTSDIR}/print/texlive-datetime2-irish \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-scottish/datetime2-scottish-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-scottish \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-welsh/datetime2-welsh-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-welsh \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dblfloatfix/dblfloatfix.sty:${PORTSDIR}/print/texlive-dblfloatfix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/decimal/decimal.sty:${PORTSDIR}/print/texlive-decimal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/decorule/decorule.sty:${PORTSDIR}/print/texlive-decorule \
