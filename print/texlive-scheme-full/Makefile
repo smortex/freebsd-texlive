@@ -1244,8 +1244,11 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/datatool/datatool.sty:${PORTSDIR}/print/texlive-datatool \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dateiliste/dateiliste.sty:${PORTSDIR}/print/texlive-dateiliste \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datenumber/datenumber.sty:${PORTSDIR}/print/texlive-datenumber \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime/datetime.sty:${PORTSDIR}/print/texlive-datetime \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2/datetime2.sty:${PORTSDIR}/print/texlive-datetime2 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-english/datetime2-en-AU.ldf:${PORTSDIR}/print/texlive-datetime2-english \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-french/datetime2-french-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-french \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-german/datetime2-german-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-german \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-irish/datetime2-ga-GB.ldf:${PORTSDIR}/print/texlive-datetime2-irish \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-scottish/datetime2-scottish-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-scottish \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-welsh/datetime2-welsh-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-welsh \
