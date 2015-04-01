@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	cryptocode
-PORTVERSION=	20150329
+PORTNAME=	datetime2-portuges
+PORTVERSION=	20150330
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesetting pseudocode, protocols, game-based proofs and black-box reductions in cryptography.
+COMMENT=	Portuguese language module for the datetime2 package.
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

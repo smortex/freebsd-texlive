@@ -1227,7 +1227,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/crossreference/crossreference.sty:${PORTSDIR}/print/texlive-crossreference \
 		${LOCALBASE}/share/texmf-dist/tex/latex/csquotes/csquotes.sty:${PORTSDIR}/print/texlive-csquotes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/csvsimple/csvsimple.sty:${PORTSDIR}/print/texlive-csvsimple \
-		${LOCALBASE}/share/texmf-dist/tex/latex/csvtools/csvtools.sty:${PORTSDIR}/print/texlive-csvtools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cuisine/cuisine.sty:${PORTSDIR}/print/texlive-cuisine \
 		${LOCALBASE}/share/texmf-dist/tex/latex/currfile/currfile.sty:${PORTSDIR}/print/texlive-currfile \
 		${LOCALBASE}/share/texmf-dist/tex/latex/currvita/currvita.sty:${PORTSDIR}/print/texlive-currvita \
@@ -1250,7 +1249,10 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-french/datetime2-french-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-french \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-german/datetime2-german-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-german \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-irish/datetime2-ga-GB.ldf:${PORTSDIR}/print/texlive-datetime2-irish \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-italian/datetime2-italian-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-italian \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-portuges/datetime2-portuges-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-portuges \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-scottish/datetime2-scottish-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-scottish \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-spanish/datetime2-spanish-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-spanish \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-welsh/datetime2-welsh-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-welsh \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dblfloatfix/dblfloatfix.sty:${PORTSDIR}/print/texlive-dblfloatfix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/decimal/decimal.sty:${PORTSDIR}/print/texlive-decimal \

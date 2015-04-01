@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	csvtools
-PORTVERSION=	20140418
-PORTEPOCH=	1
+PORTNAME=	datetime2-spanish
+PORTVERSION=	20150329
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Reading data from CSV files.
+COMMENT=	Spanish language module for the datetime2 package.
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
