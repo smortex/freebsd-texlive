@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150331
+PORTVERSION=	20150402
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -455,12 +455,31 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-estonian/datetime2-estonian-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-estonian \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-finnish/datetime2-finnish-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-finnish \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-french/datetime2-french-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-french \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-galician/datetime2-galician-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-galician \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-german/datetime2-german-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-german \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-greek/datetime2-greek-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-greek \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-hebrew/datetime2-hebrew.ldf:${PORTSDIR}/print/texlive-datetime2-hebrew \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-icelandic/datetime2-icelandic-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-icelandic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-irish/datetime2-ga-GB.ldf:${PORTSDIR}/print/texlive-datetime2-irish \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-italian/datetime2-italian-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-italian \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-latin/datetime2-latin.ldf:${PORTSDIR}/print/texlive-datetime2-latin \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-lsorbian/datetime2-lsorbian-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-lsorbian \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-magyar/datetime2-magyar-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-magyar \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-norsk/datetime2-norsk-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-norsk \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-polish/datetime2-polish-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-polish \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-portuges/datetime2-portuges-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-portuges \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-romanian/datetime2-romanian-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-romanian \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-russian/datetime2-russian-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-russian \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-samin/datetime2-samin-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-samin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-scottish/datetime2-scottish-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-scottish \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-serbian/datetime2-serbian-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-serbian \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-slovak/datetime2-slovak-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-slovak \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-slovene/datetime2-slovene-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-slovene \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-spanish/datetime2-spanish-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-spanish \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-swedish/datetime2-swedish-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-swedish \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-turkish/datetime2-turkish-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-turkish \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-ukrainian/datetime2-ukrainian-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-ukrainian \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-usorbian/datetime2-usorbian-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-usorbian \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-welsh/datetime2-welsh-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-welsh \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dblfloatfix/dblfloatfix.sty:${PORTSDIR}/print/texlive-dblfloatfix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/decimal/decimal.sty:${PORTSDIR}/print/texlive-decimal \
