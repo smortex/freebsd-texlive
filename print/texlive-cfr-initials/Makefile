@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	cfr-initials
 PORTVERSION=	20150404
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	LaTeX packages for use of initials.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

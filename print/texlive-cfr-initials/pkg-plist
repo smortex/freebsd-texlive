@@ -1,0 +1,29 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cfr-initials/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/cfr-initials/cfr-initials.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cfr-initials/cfr-initials.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cfr-initials/manifest.txt
+share/texmf-dist/tex/latex/cfr-initials/Acorn.sty
+share/texmf-dist/tex/latex/cfr-initials/AnnSton.sty
+share/texmf-dist/tex/latex/cfr-initials/ArtNouv.sty
+share/texmf-dist/tex/latex/cfr-initials/ArtNouvc.sty
+share/texmf-dist/tex/latex/cfr-initials/Carrickc.sty
+share/texmf-dist/tex/latex/cfr-initials/Eichenla.sty
+share/texmf-dist/tex/latex/cfr-initials/Eileen.sty
+share/texmf-dist/tex/latex/cfr-initials/EileenBl.sty
+share/texmf-dist/tex/latex/cfr-initials/Elzevier.sty
+share/texmf-dist/tex/latex/cfr-initials/GotIn.sty
+share/texmf-dist/tex/latex/cfr-initials/GoudyIn.sty
+share/texmf-dist/tex/latex/cfr-initials/Kinigcap.sty
+share/texmf-dist/tex/latex/cfr-initials/Konanur.sty
+share/texmf-dist/tex/latex/cfr-initials/Kramer.sty
+share/texmf-dist/tex/latex/cfr-initials/MorrisIn.sty
+share/texmf-dist/tex/latex/cfr-initials/Nouveaud.sty
+share/texmf-dist/tex/latex/cfr-initials/Romantik.sty
+share/texmf-dist/tex/latex/cfr-initials/Rothdn.sty
+share/texmf-dist/tex/latex/cfr-initials/Royal.sty
+share/texmf-dist/tex/latex/cfr-initials/Sanremo.sty
+share/texmf-dist/tex/latex/cfr-initials/Starburst.sty
+share/texmf-dist/tex/latex/cfr-initials/Typocaps.sty
+share/texmf-dist/tex/latex/cfr-initials/Zallman.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
