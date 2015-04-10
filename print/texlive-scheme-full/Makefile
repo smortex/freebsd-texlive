@@ -292,6 +292,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/carlito/carlito.sty:${PORTSDIR}/print/texlive-carlito \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/carolmin-ps/cmin10.afm:${PORTSDIR}/print/texlive-carolmin-ps \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ccicons/ccicons.sty:${PORTSDIR}/print/texlive-ccicons \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cfr-initials/Acorn.sty:${PORTSDIR}/print/texlive-cfr-initials \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cfr-lm/cfr-lm.sty:${PORTSDIR}/print/texlive-cfr-lm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cherokee/cherokee.sty:${PORTSDIR}/print/texlive-cherokee \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cinzel/cinzel.sty:${PORTSDIR}/print/texlive-cinzel \
@@ -1254,6 +1255,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-czech/datetime2-czech-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-czech \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-danish/datetime2-danish-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-danish \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-dutch/datetime2-dutch.ldf:${PORTSDIR}/print/texlive-datetime2-dutch \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-en-fulltext/datetime2-en-fulltext.sty:${PORTSDIR}/print/texlive-datetime2-en-fulltext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-english/datetime2-en-AU.ldf:${PORTSDIR}/print/texlive-datetime2-english \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-esperanto/datetime2-esperanto-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-esperanto \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-estonian/datetime2-estonian-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-estonian \
@@ -1864,6 +1866,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/shadow/shadow.sty:${PORTSDIR}/print/texlive-shadow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/shadowtext/shadowtext.sty:${PORTSDIR}/print/texlive-shadowtext \
 		${LOCALBASE}/share/texmf-dist/tex/generic/shapepar/shapepar.sty:${PORTSDIR}/print/texlive-shapepar \
+		${LOCALBASE}/share/texmf-dist/tex/latex/shdoc/shdoc.sty:${PORTSDIR}/print/texlive-shdoc \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/shipunov/rusnat.bst:${PORTSDIR}/print/texlive-shipunov \
 		${LOCALBASE}/share/texmf-dist/tex/latex/shorttoc/shorttoc.sty:${PORTSDIR}/print/texlive-shorttoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/show2e/show2e.sty:${PORTSDIR}/print/texlive-show2e \

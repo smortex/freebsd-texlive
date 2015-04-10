@@ -1,6 +1,7 @@
 share/texmf-dist/bibtex/bst/achemso/achemso.bst
 share/texmf-dist/bibtex/bst/achemso/biochem.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/achemso/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/achemso/achemso-demo.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/achemso/achemso-demo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/achemso/achemso-demo.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/achemso/achemso.pdf

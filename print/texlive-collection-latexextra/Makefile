@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150403
+PORTVERSION=	20150408
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1061,6 +1061,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/shadow/shadow.sty:${PORTSDIR}/print/texlive-shadow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/shadowtext/shadowtext.sty:${PORTSDIR}/print/texlive-shadowtext \
 		${LOCALBASE}/share/texmf-dist/tex/generic/shapepar/shapepar.sty:${PORTSDIR}/print/texlive-shapepar \
+		${LOCALBASE}/share/texmf-dist/tex/latex/shdoc/shdoc.sty:${PORTSDIR}/print/texlive-shdoc \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/shipunov/rusnat.bst:${PORTSDIR}/print/texlive-shipunov \
 		${LOCALBASE}/share/texmf-dist/tex/latex/shorttoc/shorttoc.sty:${PORTSDIR}/print/texlive-shorttoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/show2e/show2e.sty:${PORTSDIR}/print/texlive-show2e \

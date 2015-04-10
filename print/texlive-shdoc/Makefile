@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	mhchem
+PORTNAME=	shdoc
 PORTVERSION=	20150408
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset chemical formulae/equations and Risk and Safety phrases.
+COMMENT=	The shdoc package
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
