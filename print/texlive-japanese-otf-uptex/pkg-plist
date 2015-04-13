@@ -1278,7 +1278,7 @@ share/texmf-dist/fonts/vf/public/japanese-otf-uptex/utftmrz-v.vf
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf-uptex/basepl/ubase-v.pl
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf-uptex/basepl/ubrsg-h.pl
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf-uptex/basepl/ubrsg-v.pl
-%%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf-uptex/patch/otfbeta_uptex-0.16.patch
+%%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf-uptex/patch/otfbeta_uptex-0.17.patch
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf-uptex/script/CheckDVICode.pm
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf-uptex/script/MakeSPList.pm
 %%PORTSRC%%share/texmf-dist/source/fonts/japanese-otf-uptex/script/mktfm_sp.pl

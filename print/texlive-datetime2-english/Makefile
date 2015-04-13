@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	datetime2-english
-PORTVERSION=	20150325
+PORTVERSION=	20150411
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
