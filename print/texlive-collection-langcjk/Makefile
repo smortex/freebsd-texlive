@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langcjk
-PORTVERSION=	20140514
+PORTVERSION=	20150506
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -43,6 +43,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/fonts/cmap/adobemapping/LICENSE:${PORTSDIR}/print/texlive-adobemapping \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/c90/c90.enc:${PORTSDIR}/print/texlive-c90 \
+		${LOCALBASE}/share/texmf-dist/scripts/cjk-gs-integrate/cjk-gs-integrate.pl:${PORTSDIR}/print/texlive-cjk-gs-integrate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cjk/contrib/wadalab/c42goth.fd:${PORTSDIR}/print/texlive-cjk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cjkpunct/CJKpunct.sty:${PORTSDIR}/print/texlive-cjkpunct \
 		${LOCALBASE}/share/texmf-dist/hbf2gf/README:${PORTSDIR}/print/texlive-cjkutils \

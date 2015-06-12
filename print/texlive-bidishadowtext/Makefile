@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	bidishadowtext
-PORTVERSION=	20140717
+PORTVERSION=	20150412
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

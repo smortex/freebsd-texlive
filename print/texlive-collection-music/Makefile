@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-music
-PORTVERSION=	20150112
+PORTVERSION=	20150423
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -82,6 +82,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/musixguit/musixguit.sty:${PORTSDIR}/print/texlive-musixguit \
 		${LOCALBASE}/share/texmf-dist/tex/generic/musixtex/musixtex.tex:${PORTSDIR}/print/texlive-musixtex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/musixtex-fonts/musix.map:${PORTSDIR}/print/texlive-musixtex-fonts \
+		${LOCALBASE}/share/texmf-dist/tex/generic/musixtnt/musixtnt.tex:${PORTSDIR}/print/texlive-musixtnt \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pmx/pmx.tex:${PORTSDIR}/print/texlive-pmx \
 		${LOCALBASE}/share/texmf-dist/scripts/pmxchords/ChordsTr.lua:${PORTSDIR}/print/texlive-pmxchords \
 		${LOCALBASE}/share/texmf-dist/tex/latex/songbook/songbook.sty:${PORTSDIR}/print/texlive-songbook \

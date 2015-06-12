@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	shdoc
-PORTVERSION=	20150408
+PORTVERSION=	20150412
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The shdoc package
+COMMENT=	Float environment to document the shell commands of a terminal session.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

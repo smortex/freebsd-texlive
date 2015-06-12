@@ -21,7 +21,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/somedefs.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/tabularx.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/theorem.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/tools/tools.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tools/tools-overview.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tools/tools-overview.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/trace.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/varioref.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tools/verbatim.pdf

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexrecommended
-PORTVERSION=	20141208
+PORTVERSION=	20150412
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None

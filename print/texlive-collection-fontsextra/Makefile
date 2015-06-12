@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20150404
+PORTVERSION=	20150514
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -130,6 +130,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/epigrafica/epigrafica.sty:${PORTSDIR}/print/texlive-epigrafica \
 		${LOCALBASE}/share/texmf-dist/tex/latex/epsdice/epsdice.sty:${PORTSDIR}/print/texlive-epsdice \
 		${LOCALBASE}/share/texmf-dist/tex/latex/erewhon/erewhon.sty:${PORTSDIR}/print/texlive-erewhon \
+		${LOCALBASE}/share/texmf-dist/tex/latex/esrelation/esrelation.sty:${PORTSDIR}/print/texlive-esrelation \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/esstix/ESSTIX10.PFM:${PORTSDIR}/print/texlive-esstix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/esvect/esvect.sty:${PORTSDIR}/print/texlive-esvect \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eulervm/eulervm.sty:${PORTSDIR}/print/texlive-eulervm \
@@ -139,7 +140,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fetamont/fetamont.sty:${PORTSDIR}/print/texlive-fetamont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/feyn/feyn.sty:${PORTSDIR}/print/texlive-feyn \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fge/fge.sty:${PORTSDIR}/print/texlive-fge \
-		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/fira/fir_2cbdpz.enc:${PORTSDIR}/print/texlive-fira \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/fira/fir_4k5dce.enc:${PORTSDIR}/print/texlive-fira \
 		${LOCALBASE}/share/texmf-dist/tex/latex/foekfont/foekfont.sty:${PORTSDIR}/print/texlive-foekfont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fonetika/fonetika.sty:${PORTSDIR}/print/texlive-fonetika \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fontawesome/fontawesome.sty:${PORTSDIR}/print/texlive-fontawesome \
@@ -239,6 +240,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/skull/skull.sty:${PORTSDIR}/print/texlive-skull \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sourcecodepro/sourcecodepro.sty:${PORTSDIR}/print/texlive-sourcecodepro \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sourcesanspro/sourcesanspro.sty:${PORTSDIR}/print/texlive-sourcesanspro \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sourceserifpro/sourceserifpro.sty:${PORTSDIR}/print/texlive-sourceserifpro \
 		${LOCALBASE}/share/texmf-dist/tex/latex/starfont/starfont.sty:${PORTSDIR}/print/texlive-starfont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/staves/staves.sty:${PORTSDIR}/print/texlive-staves \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stix/stix.sty:${PORTSDIR}/print/texlive-stix \

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	context-fancybreak
-PORTVERSION=	20150202
+PORTVERSION=	20150419
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The context-fancybreak package
+COMMENT=	Overfull pages with ConTeXt
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORTSDIR}/print/texlive-context
 

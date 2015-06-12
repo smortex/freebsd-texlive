@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	beamerdarkthemes
-PORTVERSION=	20140904
+PORTVERSION=	20150412
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

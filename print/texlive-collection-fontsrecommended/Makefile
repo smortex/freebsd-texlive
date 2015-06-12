@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsrecommended
-PORTVERSION=	20141216
+PORTVERSION=	20150412
 CATEGORIES=	print
 DISTFILES=	# None
 

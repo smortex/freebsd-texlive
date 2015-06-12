@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	babel-romanian
-PORTVERSION=	20140418
+PORTVERSION=	20150412
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

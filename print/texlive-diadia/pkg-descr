@@ -1,0 +1,10 @@
+The diadia package allows you to keep a diabetes diary.
+Usually, this means keeping record of certain medical values
+like blood sugar, blood pressure, pulse or weight. It might
+also include other medical, pharmaceutical or nutritional data
+(HbA1c, insulin doses, carbohydrate units). The diadia package
+supports all of this plus more - simply by adding more columns
+to the data file! It is able to evaluate the data file and
+typesets formatted tables and derived plots. Furthermore, it
+supports medication charts and info boxes. Supported languages:
+english, german Feel free to provide other translation files!

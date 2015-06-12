@@ -1,0 +1,6 @@
+This package provides environments and commands for pairing
+lines, bottom lines, and tagged lines, intended to be used in
+particular for word-by-word glosses, translations, and
+bibliographic attributions, respectively. This LaTeX package is
+inspired by Marcel R. van der Goot's classic Plain TeX macros
+in gloss.tex.

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20150220
+PORTVERSION=	20150512
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -105,6 +105,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-realauthor/realauthor.bbx:${PORTSDIR}/print/texlive-biblatex-realauthor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-science/science.bbx:${PORTSDIR}/print/texlive-biblatex-science \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-source-division/biblatex-source-division.sty:${PORTSDIR}/print/texlive-biblatex-source-division \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-subseries/subseries.bbx:${PORTSDIR}/print/texlive-biblatex-subseries \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-swiss-legal/biblatex-swiss-legal-base.bbx:${PORTSDIR}/print/texlive-biblatex-swiss-legal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-trad/bbx/trad-abbrv.bbx:${PORTSDIR}/print/texlive-biblatex-trad \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-true-citepages-omit/biblatex-true-citepages-omit.sty:${PORTSDIR}/print/texlive-biblatex-true-citepages-omit \

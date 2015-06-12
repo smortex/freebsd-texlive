@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	glossaries-polish
-PORTVERSION=	20141126
+PORTVERSION=	20150412
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

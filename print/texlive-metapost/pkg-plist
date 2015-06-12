@@ -2,9 +2,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/dvitomp.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/mpost.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/mpost.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/base/CHANGES
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/grdemo-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/grdemo.pdf
-%%PORTDOCS%%share/texmf-dist/doc/metapost/base/index.html
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/mpboxes.pdf
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/mpgraph.pdf
 %%PORTDOCS%%share/texmf-dist/doc/metapost/base/mpintro.pdf

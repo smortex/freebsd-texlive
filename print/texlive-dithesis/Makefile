@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	dithesis
-PORTVERSION=	20140619
+PORTVERSION=	20150412
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The dithesis package
+COMMENT=	Thesis class for undergraduate theses at the University of Athens.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

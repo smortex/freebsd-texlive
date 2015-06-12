@@ -1,0 +1,6 @@
+Some publishers organize book series with subseries. In this
+case, two numbers are associated with one volume: the number
+inside the series and the number inside the subseries. That is
+the case of the series Corpus Scriptorium Christianorum
+Orientalium published by Peeters. This package provides new
+fields to manage such system.

@@ -1,0 +1,3 @@
+The package provides PDF color spaces. Currently, only spot
+colors and overprinting are supported. It requires xcolor, and
+supports pdfTeX and luaTeX.

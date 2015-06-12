@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	celtic
-PORTVERSION=	20140721
+PORTVERSION=	20150412
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The celtic package
+COMMENT=	A TikZ library for drawing celtic knots.
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

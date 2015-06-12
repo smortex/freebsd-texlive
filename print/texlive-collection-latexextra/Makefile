@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150408
+PORTVERSION=	20150514
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -384,6 +384,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmsd/cmsd.sty:${PORTSDIR}/print/texlive-cmsd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cnltx/cnltx.sty:${PORTSDIR}/print/texlive-cnltx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cntformats/cntformats.sty:${PORTSDIR}/print/texlive-cntformats \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cntperchap/cntperchap.sty:${PORTSDIR}/print/texlive-cntperchap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/codedoc/codedoc.cls:${PORTSDIR}/print/texlive-codedoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/codepage/codepage.sty:${PORTSDIR}/print/texlive-codepage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/codesection/codesection.sty:${PORTSDIR}/print/texlive-codesection \
@@ -391,6 +392,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/collectbox/collectbox.sty:${PORTSDIR}/print/texlive-collectbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/colordoc/colordoc.sty:${PORTSDIR}/print/texlive-colordoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/colorinfo/colorinfo.sty:${PORTSDIR}/print/texlive-colorinfo \
+		${LOCALBASE}/share/texmf-dist/tex/latex/colorspace/colorspace.sty:${PORTSDIR}/print/texlive-colorspace \
 		${LOCALBASE}/share/texmf-dist/tex/generic/colortab/colortab.sty:${PORTSDIR}/print/texlive-colortab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/colorwav/colorwav.sty:${PORTSDIR}/print/texlive-colorwav \
 		${LOCALBASE}/share/texmf-dist/tex/latex/colorweb/colorweb.sty:${PORTSDIR}/print/texlive-colorweb \
@@ -463,6 +465,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-icelandic/datetime2-icelandic-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-icelandic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-irish/datetime2-ga-GB.ldf:${PORTSDIR}/print/texlive-datetime2-irish \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-italian/datetime2-italian-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-italian \
+		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-it-fulltext/datetime2-it-fulltext.sty:${PORTSDIR}/print/texlive-datetime2-it-fulltext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-latin/datetime2-latin.ldf:${PORTSDIR}/print/texlive-datetime2-latin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-lsorbian/datetime2-lsorbian-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-lsorbian \
 		${LOCALBASE}/share/texmf-dist/tex/latex/datetime2-magyar/datetime2-magyar-ascii.ldf:${PORTSDIR}/print/texlive-datetime2-magyar \
@@ -487,6 +490,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/decorule/decorule.sty:${PORTSDIR}/print/texlive-decorule \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delim/delim.sty:${PORTSDIR}/print/texlive-delim \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delimtxt/delimtxt.sty:${PORTSDIR}/print/texlive-delimtxt \
+		${LOCALBASE}/share/texmf-dist/tex/latex/denisbdoc/denisbdoc.sty:${PORTSDIR}/print/texlive-denisbdoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/detlev-cm/beamercolorthemeETII.sty:${PORTSDIR}/print/texlive-detlev-cm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/diagbox/diagbox.sty:${PORTSDIR}/print/texlive-diagbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/diagnose/diagnose.sty:${PORTSDIR}/print/texlive-diagnose \
@@ -530,8 +534,9 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/egplot/egplot.sty:${PORTSDIR}/print/texlive-egplot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ellipsis/ellipsis.sty:${PORTSDIR}/print/texlive-ellipsis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/elmath/elmath.sty:${PORTSDIR}/print/texlive-elmath \
+		${LOCALBASE}/share/texmf-dist/tex/latex/elocalloc/elocalloc.sty:${PORTSDIR}/print/texlive-elocalloc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/elpres/elpres.cls:${PORTSDIR}/print/texlive-elpres \
-		${LOCALBASE}/share/texmf-dist/tex/latex/elzcards/elzcards.cls:${PORTSDIR}/print/texlive-elzcards \
+		${LOCALBASE}/share/texmf-dist/tex/latex/elzcards/elzcards.sty:${PORTSDIR}/print/texlive-elzcards \
 		${LOCALBASE}/share/texmf-dist/tex/latex/emarks/emarks.sty:${PORTSDIR}/print/texlive-emarks \
 		${LOCALBASE}/share/texmf-dist/tex/latex/embedall/embedall.sty:${PORTSDIR}/print/texlive-embedall \
 		${LOCALBASE}/share/texmf-dist/tex/latex/embrac/embrac.sty:${PORTSDIR}/print/texlive-embrac \
@@ -562,6 +567,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/dvips/esint-type1/config.esint:${PORTSDIR}/print/texlive-esint-type1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/etaremune/etaremune.sty:${PORTSDIR}/print/texlive-etaremune \
 		${LOCALBASE}/share/texmf-dist/tex/latex/etextools/etextools.sty:${PORTSDIR}/print/texlive-etextools \
+		${LOCALBASE}/share/texmf-dist/tex/latex/etoc/etoc.sty:${PORTSDIR}/print/texlive-etoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty:${PORTSDIR}/print/texlive-etoolbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eukdate/eukdate.sty:${PORTSDIR}/print/texlive-eukdate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/europasscv/europasscv.cls:${PORTSDIR}/print/texlive-europasscv \
@@ -689,6 +695,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gtl/gtl.sty:${PORTSDIR}/print/texlive-gtl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/guitlogo/guit.cfg:${PORTSDIR}/print/texlive-guitlogo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/handout/handout.sty:${PORTSDIR}/print/texlive-handout \
+		${LOCALBASE}/share/texmf-dist/tex/latex/hang/hang.sty:${PORTSDIR}/print/texlive-hang \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hanging/hanging.sty:${PORTSDIR}/print/texlive-hanging \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hardwrap/hardwrap.sty:${PORTSDIR}/print/texlive-hardwrap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/harnon-cv/harnon-cv.cls:${PORTSDIR}/print/texlive-harnon-cv \
@@ -1005,6 +1012,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/readarray/readarray.sty:${PORTSDIR}/print/texlive-readarray \
 		${LOCALBASE}/share/texmf-dist/tex/latex/realboxes/realboxes.sty:${PORTSDIR}/print/texlive-realboxes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/recipe/recipe.cls:${PORTSDIR}/print/texlive-recipe \
+		${LOCALBASE}/share/texmf-dist/tex/latex/recipebook/RecipeBook.cls:${PORTSDIR}/print/texlive-recipebook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/recipecard/recipecard.cls:${PORTSDIR}/print/texlive-recipecard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rectopma/rectopma.sty:${PORTSDIR}/print/texlive-rectopma \
 		${LOCALBASE}/share/texmf-dist/tex/latex/refcheck/refcheck.sty:${PORTSDIR}/print/texlive-refcheck \
@@ -1087,7 +1095,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/snapshot/snapshot.sty:${PORTSDIR}/print/texlive-snapshot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/snotez/snotez.sty:${PORTSDIR}/print/texlive-snotez \
 		${LOCALBASE}/share/texmf-dist/tex/latex/soul/soul.sty:${PORTSDIR}/print/texlive-soul \
-		${LOCALBASE}/share/texmf-dist/tex/latex/spanglish/spanglish.sty:${PORTSDIR}/print/texlive-spanglish \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sparklines/sparklines.sty:${PORTSDIR}/print/texlive-sparklines \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sphack/sphack.sty:${PORTSDIR}/print/texlive-sphack \
 		${LOCALBASE}/share/texmf-dist/tex/generic/splitindex/splitindex.tex:${PORTSDIR}/print/texlive-splitindex \
@@ -1145,6 +1152,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabularew/tabularew.sty:${PORTSDIR}/print/texlive-tabularew \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabulary/tabulary.sty:${PORTSDIR}/print/texlive-tabulary \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tagging/tagging.sty:${PORTSDIR}/print/texlive-tagging \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tagpair/tagpair.sty:${PORTSDIR}/print/texlive-tagpair \
 		${LOCALBASE}/share/texmf-dist/tex/latex/talk/talk.cls:${PORTSDIR}/print/texlive-talk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tamefloats/tameflts.sty:${PORTSDIR}/print/texlive-tamefloats \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tasks/tasks.sty:${PORTSDIR}/print/texlive-tasks \

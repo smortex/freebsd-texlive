@@ -6,6 +6,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/graphics/graphics.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/graphics/graphicx.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/graphics/grfguide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/graphics/grfguide.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/graphics/keyval.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/graphics/lscape.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/graphics/trig.pdf
@@ -16,7 +17,6 @@
 %%PORTSRC%%share/texmf-dist/source/latex/graphics/graphics.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/graphics/graphics.ins
 %%PORTSRC%%share/texmf-dist/source/latex/graphics/graphicx.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/graphics/grfguide.tex
 %%PORTSRC%%share/texmf-dist/source/latex/graphics/keyval.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/graphics/lscape.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/graphics/trig.dtx

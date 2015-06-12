@@ -1,0 +1,21 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/ChangeLog
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/README.md
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/macosx-filelist
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/tests/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/tests/adobe-CNS1.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/tests/adobe-GB1-012.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/tests/adobe-GB1-345.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/tests/adobe-GB1.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/tests/adobe-Japan1.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/tests/adobe-Korea1.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/tests/cidtable.sty
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/tests/japanese-updmap-tests/do-tests
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/tests/japanese-updmap-tests/prn-variants.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/tests/japanese-updmap-tests/report
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/tests/otfcidsample.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/tests/test-runner.sh
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/tools/mkgsfntspecs.sh
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/tools/release.sh
+share/texmf-dist/scripts/cjk-gs-integrate/cjk-gs-integrate.pl
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

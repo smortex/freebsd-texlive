@@ -1,0 +1,6 @@
+This bundle provides the SMF classes gzt.cls and gztarticle.cls
+(where SMF = Societe Mathematique de France) for the French
+journal "La Gazette des Mathematiciens". gztarticle.cls allows
+for a close reproduction of the layout of the "Gazette" and
+provides a number of environments, especially for typesetting
+mathematic formulas.

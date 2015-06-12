@@ -6,6 +6,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/columns-alignment.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/cross-referencing.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/cross-referencing.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/eledmac.xdy
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/indexing.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/indexing.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/lemma-disambiguation.pdf
@@ -21,6 +22,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/minimal-verses.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/mixing-columns-and-not-columns.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/mixing-columns-and-not-columns.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/one-series-per-pstart-eledpar.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/one-series-per-pstart-eledpar.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/one-series-per-pstart.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/one-series-per-pstart.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/parallel-column-two-languages.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/parallel-column-two-languages.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/eledmac/examples/parallel-pages-longnotes.pdf

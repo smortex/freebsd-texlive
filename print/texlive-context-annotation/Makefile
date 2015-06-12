@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	context-annotation
-PORTVERSION=	20150202
+PORTVERSION=	20150412
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

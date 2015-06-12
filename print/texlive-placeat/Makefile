@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	placeat
-PORTVERSION=	20140419
+PORTVERSION=	20150412
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The placeat package
+COMMENT=	Absolute content positioning.
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

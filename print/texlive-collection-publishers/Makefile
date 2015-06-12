@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20150227
+PORTVERSION=	20150509
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -113,6 +113,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gaceta/gaceta.cls:${PORTSDIR}/print/texlive-gaceta \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gatech-thesis/gatech-thesis.cls:${PORTSDIR}/print/texlive-gatech-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gsemthesis/gsemthesis.cls:${PORTSDIR}/print/texlive-gsemthesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gzt/gzt.cls:${PORTSDIR}/print/texlive-gzt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/har2nat/har2nat.sty:${PORTSDIR}/print/texlive-har2nat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hobete/hobete.sty:${PORTSDIR}/print/texlive-hobete \
 		${LOCALBASE}/share/texmf-dist/tex/latex/icsv/icsv.cls:${PORTSDIR}/print/texlive-icsv \

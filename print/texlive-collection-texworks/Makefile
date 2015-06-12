@@ -1,13 +1,13 @@
 # $FreeBSD$
 
 PORTNAME=	collection-texworks
-PORTVERSION=	20140418
+PORTVERSION=	20150419
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	TeXworks editor
+COMMENT=	TeXworks editor; TL includes only the Windows binary
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/print/texlive-texlive.infra \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty:${PORTSDIR}/print/texlive-amsfonts \

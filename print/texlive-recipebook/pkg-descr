@@ -1,0 +1,7 @@
+This is a LaTeX2e class for typesetting recipes. It is designed
+for typesetting one or two recipes per page, with dimensions of
+5.5" x 8.5". The hyperlinked table of contents (ToC) and page
+numbers make browsing recipes convenient, and the pages can be
+joined together or printed two per sheet to normal letterpaper
+easily. The size was chosen to work in half-page 3-ring binder
+cover sheets.

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	latexdiff
-PORTVERSION=	20140804
+PORTVERSION=	20150419
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Determine and mark up significant differences between latex files.
+COMMENT=	Determine and mark up significant differences between LaTeX files.
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

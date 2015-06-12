@@ -24,6 +24,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/bidi/test3-wrapfig.tex
 %%PORTSRC%%share/texmf-dist/source/xelatex/bidi/bidi.dtx
 %%PORTSRC%%share/texmf-dist/source/xelatex/bidi/bidi.ins
+share/texmf-dist/tex/xelatex/bidi/adjmulticol-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/algorithm2e-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/amsart-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/amsbook-xetex-bidi.def

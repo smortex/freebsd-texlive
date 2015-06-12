@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-science
-PORTVERSION=	20150325
+PORTVERSION=	20150421
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -91,7 +91,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/clrscode/clrscode.sty:${PORTSDIR}/print/texlive-clrscode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/clrscode3e/clrscode3e.sty:${PORTSDIR}/print/texlive-clrscode3e \
 		${LOCALBASE}/share/texmf-dist/tex/latex/complexity/complexity.sty:${PORTSDIR}/print/texlive-complexity \
-		${LOCALBASE}/share/texmf-dist/bibtex/bib/computational-complexity/journals.bib:${PORTSDIR}/print/texlive-computational-complexity \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/computational-complexity/cc.bst:${PORTSDIR}/print/texlive-computational-complexity \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cryptocode/cryptocode.sty:${PORTSDIR}/print/texlive-cryptocode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/digiconfigs/digiconfigs.sty:${PORTSDIR}/print/texlive-digiconfigs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/drawstack/drawstack.sty:${PORTSDIR}/print/texlive-drawstack \
@@ -112,6 +112,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/hepthesis/hepthesis.cls:${PORTSDIR}/print/texlive-hepthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hepunits/hepunits.sty:${PORTSDIR}/print/texlive-hepunits \
 		${LOCALBASE}/share/texmf-dist/tex/latex/karnaugh/kvmacros.tex:${PORTSDIR}/print/texlive-karnaugh \
+		${LOCALBASE}/share/texmf-dist/tex/latex/karnaughmap/karnaughmap.sty:${PORTSDIR}/print/texlive-karnaughmap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/matlab-prettifier/matlab-prettifier.sty:${PORTSDIR}/print/texlive-matlab-prettifier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mhchem/mhchem.sty:${PORTSDIR}/print/texlive-mhchem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/miller/miller.sty:${PORTSDIR}/print/texlive-miller \

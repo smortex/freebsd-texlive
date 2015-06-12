@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ucbthesis
-PORTVERSION=	20140418
+PORTVERSION=	20150412
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The ucbthesis package
+COMMENT=	Thesis and dissertation class supporting UCB requirements.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

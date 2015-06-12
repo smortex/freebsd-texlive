@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	bidipresentation
-PORTVERSION=	20140927
+PORTVERSION=	20150412
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

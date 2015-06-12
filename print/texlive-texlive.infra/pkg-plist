@@ -10,6 +10,7 @@ share/readme-html.dir/readme.fr.html
 share/readme-html.dir/readme.it.html
 share/readme-html.dir/readme.ja.html
 share/readme-html.dir/readme.pl.html
+share/readme-html.dir/readme.pt-br.html
 share/readme-html.dir/readme.ru.html
 share/readme-html.dir/readme.sr.html
 share/readme-html.dir/readme.zh-cn.html
@@ -20,6 +21,7 @@ share/readme-txt.dir/README.FR
 share/readme-txt.dir/README.IT
 share/readme-txt.dir/README.JA
 share/readme-txt.dir/README.PL
+share/readme-txt.dir/README.PT-BR
 share/readme-txt.dir/README.RU
 share/readme-txt.dir/README.RU-cp1251
 share/readme-txt.dir/README.RU-koi8
@@ -28,7 +30,6 @@ share/readme-txt.dir/README.SK-cp1250
 share/readme-txt.dir/README.SK-il2
 share/readme-txt.dir/README.SR
 share/readme-txt.dir/README.ZH-CN
-share/release-texlive.txt
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/tlmgr.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/tlmgr.man1.pdf
 %%PORTDOCS%%share/texmf-dist/scripts/texlive/NEWS

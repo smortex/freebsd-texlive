@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	bibleref-french
-PORTVERSION=	20141104
+PORTVERSION=	20150412
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

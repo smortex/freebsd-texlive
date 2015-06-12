@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	scheme-medium
-PORTVERSION=	20140418
+PORTVERSION=	20150412
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -293,6 +293,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/ordinalpt/ordinalpt.sty:${PORTSDIR}/print/texlive-ordinalpt \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-catalan/catalan.ldf:${PORTSDIR}/print/texlive-babel-catalan \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-galician/galician.ldf:${PORTSDIR}/print/texlive-babel-galician \
+		${LOCALBASE}/share/texmf-dist/tex/generic/babel-spanglish/spanglish.ldf:${PORTSDIR}/print/texlive-babel-spanglish \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-spanish/romanidx.sty:${PORTSDIR}/print/texlive-babel-spanish \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spanish-mx/esmx.cfg:${PORTSDIR}/print/texlive-spanish-mx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/anysize/anysize.sty:${PORTSDIR}/print/texlive-anysize \
@@ -413,6 +414,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/proba/proba.sty:${PORTSDIR}/print/texlive-proba \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rec-thy/rec-thy.sty:${PORTSDIR}/print/texlive-rec-thy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ribbonproofs/ribbonproofs.sty:${PORTSDIR}/print/texlive-ribbonproofs \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sesamanuel/sesamanuel.cls:${PORTSDIR}/print/texlive-sesamanuel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/shuffle/shuffle.sty:${PORTSDIR}/print/texlive-shuffle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skmath/skmath.sty:${PORTSDIR}/print/texlive-skmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/statex/statex.sty:${PORTSDIR}/print/texlive-statex \
@@ -475,6 +477,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/plain/font-change/font-change.tex:${PORTSDIR}/print/texlive-font-change \
 		${LOCALBASE}/share/texmf-dist/tex/plain/fontch/fontch.tex:${PORTSDIR}/print/texlive-fontch \
 		${LOCALBASE}/share/texmf-dist/tex/plain/getoptk/getoptk.tex:${PORTSDIR}/print/texlive-getoptk \
+		${LOCALBASE}/share/texmf-dist/tex/plain/gfnotation/GFnotation.tex:${PORTSDIR}/print/texlive-gfnotation \
 		${LOCALBASE}/share/texmf-dist/tex/plain/graphics-pln/autopict.sty:${PORTSDIR}/print/texlive-graphics-pln \
 		${LOCALBASE}/share/texmf-dist/tex/plain/hyplain/hyplain.tex:${PORTSDIR}/print/texlive-hyplain \
 		${LOCALBASE}/share/texmf-dist/tex/plain/js-misc/js-misc.tex:${PORTSDIR}/print/texlive-js-misc \

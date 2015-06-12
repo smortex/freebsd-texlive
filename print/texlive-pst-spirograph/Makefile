@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pst-spirograph
-PORTVERSION=	20140824
+PORTVERSION=	20150412
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Drawing hypotrochoids with a spirograph.
+COMMENT=	Drawing hypotrochoids as with a spirograph.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

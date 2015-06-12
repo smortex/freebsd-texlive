@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	factura
-PORTVERSION=	20150331
+PORTVERSION=	20150413
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset and calculate invoices according to Venezuela law.
+COMMENT=	Typeset and calculate invoices according to Venezuelan law.
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

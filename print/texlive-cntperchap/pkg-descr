@@ -1,0 +1,8 @@
+This package stores values of counters (which have been
+registered beforehand) on a per chapter base and provides the
+values on demand in the 2nd LaTeX compilation run. In this way
+it is possible to know how many sections etc. there are lying
+ahead and to react to these counter values, if needed. This is
+a preliminary version that has been tested with book.cls,
+memoir.cls, and scrbook.cls. The packages assoccnt (by the same
+author) and xparse are needed as well.
