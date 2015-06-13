@@ -4,7 +4,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-coil/pst-coil-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-coil/pst-coil-doc.tex
 share/texmf-dist/dvips/pst-coil/pst-coil.pro
-%%PORTSRC%%share/texmf-dist/source/generic/pst-coil/Makefile
 share/texmf-dist/tex/generic/pst-coil/pst-coil.tex
 share/texmf-dist/tex/latex/pst-coil/pst-coil.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

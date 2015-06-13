@@ -1,16 +1,26 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pdfx/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/pdfx/manifest.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/pdfx/pdfx.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pdfx/small2e.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pdfx/small2e.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pdfx/small2e.xmpdata
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfx/sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfx/sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfx/sample.xmpdata
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfx/small2e-pdfx.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfx/small2e-pdfx.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfx/small2e-pdfx.xmpdata
 %%PORTSRC%%share/texmf-dist/source/latex/pdfx/Makefile
+%%PORTSRC%%share/texmf-dist/source/latex/pdfx/README
+%%PORTSRC%%share/texmf-dist/source/latex/pdfx/manifest.txt
 %%PORTSRC%%share/texmf-dist/source/latex/pdfx/pdfx.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/pdfx/pdfx.ins
 %%PORTSRC%%share/texmf-dist/source/latex/pdfx/rvdtx.sty
+share/texmf-dist/tex/latex/pdfx/8bit.def
+share/texmf-dist/tex/latex/pdfx/ICC_LICENSE.txt
+share/texmf-dist/tex/latex/pdfx/coated_FOGRA39L_argl.icc
 share/texmf-dist/tex/latex/pdfx/glyphtounicode-cmr.tex
-share/texmf-dist/tex/latex/pdfx/pdfa-1b.xmp
-share/texmf-dist/tex/latex/pdfx/pdfx-1a.xmp
+share/texmf-dist/tex/latex/pdfx/pdfa.xmp
+share/texmf-dist/tex/latex/pdfx/pdfe.xmp
+share/texmf-dist/tex/latex/pdfx/pdfvt.xmp
 share/texmf-dist/tex/latex/pdfx/pdfx.sty
+share/texmf-dist/tex/latex/pdfx/pdfx.xmp
+share/texmf-dist/tex/latex/pdfx/sRGB_IEC61966-2-1_black_scaled.icc
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

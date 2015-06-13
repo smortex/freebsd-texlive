@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-multiple-dm
-PORTVERSION=	20141009
+PORTVERSION=	20150428
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

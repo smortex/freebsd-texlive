@@ -18,6 +18,7 @@ share/texmf-dist/tex/plain/config/pdfbplain.ini
 share/texmf-dist/tex/plain/config/pdfetex.ini
 share/texmf-dist/tex/plain/config/pdftexmagfix.tex
 share/texmf-dist/tex/plain/config/tex.ini
+share/texmf-dist/tex/plain/config/unicode-letters.def
 share/texmf-dist/tex/plain/config/xetex.ini
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

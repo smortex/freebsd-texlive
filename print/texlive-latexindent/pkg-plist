@@ -8,6 +8,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/braceTestsmall.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/conditional.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/environments.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/figureValign.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/filecontents.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/ifelsefi.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/ifelsefiONE.tex

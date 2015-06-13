@@ -1,7 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/README
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-CJKecglue.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-CJKfntef.tex
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-IVS.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-CM.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-autofake.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-checksingle.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-fallback.tex
@@ -9,11 +9,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-punctstyle.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-subCJKblock.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-verbatim.tex
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xunicode-combine-marks.tex
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xunicode-commands.tex
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xunicode-symbols.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/xeCJK.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/xunicode-combine-marks.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/xunicode-commands.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/xunicode-symbols.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/xunicode-symbols.tex
 share/texmf-dist/fonts/misc/xetex/fontmapping/xecjk/full-stop.map
 share/texmf-dist/fonts/misc/xetex/fontmapping/xecjk/full-stop.tec
 share/texmf-dist/fonts/misc/xetex/fontmapping/xecjk/fullwidth-stop.map
@@ -24,8 +24,8 @@ share/texmf-dist/fonts/misc/xetex/fontmapping/xecjk/han-trad.map
 share/texmf-dist/fonts/misc/xetex/fontmapping/xecjk/han-trad.tec
 %%PORTSRC%%share/texmf-dist/source/xelatex/xecjk/xeCJK.dtx
 %%PORTSRC%%share/texmf-dist/source/xelatex/xecjk/xeCJK.ins
-share/texmf-dist/tex/xelatex/xecjk/config/xeCJK.cfg
 share/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
+share/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
 share/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
 share/texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty
 share/texmf-dist/tex/xelatex/xecjk/xunicode-addon.sty

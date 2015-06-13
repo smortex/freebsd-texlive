@@ -1,5 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/hyph-utf8/CHANGES
-%%PORTDOCS%%share/texmf-dist/doc/generic/hyph-utf8/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/hyph-utf8/HISTORY
 %%PORTDOCS%%share/texmf-dist/doc/generic/hyph-utf8/bg/azbukaExtended.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/hyph-utf8/bg/azbukaExtended.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/hyph-utf8/es/README
@@ -12,6 +12,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/hyph-utf8/img/miktex-languages.png
 %%PORTDOCS%%share/texmf-dist/doc/generic/hyph-utf8/img/texlive-collection.png
 %%PORTDOCS%%share/texmf-dist/doc/generic/hyph-utf8/sa/hyphenmin.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/hyph-utf8/README
 %%PORTDOCS%%share/texmf-dist/doc/luatex/hyph-utf8/README
 %%PORTDOCS%%share/texmf-dist/doc/luatex/hyph-utf8/luatex-hyphen.pdf
 %%PORTSRC%%share/texmf-dist/source/generic/hyph-utf8/README

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	tikz-palattice
-PORTVERSION=	20150319
+PORTVERSION=	20150413
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	texloganalyser
-PORTVERSION=	20141115
+PORTVERSION=	20150413
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

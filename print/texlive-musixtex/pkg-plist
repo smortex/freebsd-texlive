@@ -38,8 +38,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/ilestnex.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/ilfaitda.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/ilfaitdx.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/kinder.log
-%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/kinder.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/kinder.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/kv315.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/kv315f.tex
@@ -114,14 +112,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixdoc/spacing.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixdoc/staffsize.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixdoc/summary.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixdoc/texput.log
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixdoc/transposition.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixdoc/writingnotes.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixlyr/README.musixlyr
-%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixlyr/examples/nonmoriar.dvi
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixlyr/examples/nonmoriar.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixlyr/examples/nonmoriar.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixlyr/mxlyrdoc.dvi
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixlyr/mxlyrdoc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixlyr/mxlyrdoc.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixtex-install.pdf

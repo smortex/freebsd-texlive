@@ -1,14 +1,18 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/thesis-ekf/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/thesis-ekf/images/ekf-logo1.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/thesis-ekf/images/ekf-logo2.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/thesis-ekf/magyar.ldf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thesis-ekf/szakdolgozat1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thesis-ekf/szakdolgozat1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/thesis-ekf/szakdolgozat2.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thesis-ekf/szakdolgozat2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/thesis-ekf/szakdolgozat3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/thesis-ekf/szakdolgozat3.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/thesis-ekf/thesis-ekf.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/thesis-ekf/thesis-ekf.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/thesis-ekf/thesis-ekf.ins
+share/texmf-dist/tex/latex/thesis-ekf/images/ekf-logo1.png
+share/texmf-dist/tex/latex/thesis-ekf/images/ekf-logo2.pdf
+share/texmf-dist/tex/latex/thesis-ekf/images/ekf-logo3.pdf
+share/texmf-dist/tex/latex/thesis-ekf/images/ekf-logo4.pdf
+share/texmf-dist/tex/latex/thesis-ekf/images/ekf-logo5.pdf
 share/texmf-dist/tex/latex/thesis-ekf/thesis-ekf.cls
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

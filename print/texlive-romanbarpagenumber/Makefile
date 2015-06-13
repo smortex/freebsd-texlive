@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	romanbarpagenumber
-PORTVERSION=	20150209
+PORTVERSION=	20150413
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20150512
+PORTVERSION=	20150513
 CATEGORIES=	print
 DISTFILES=	# None
 

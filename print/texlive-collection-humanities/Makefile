@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-humanities
-PORTVERSION=	20150511
+PORTVERSION=	20150512
 CATEGORIES=	print
 DISTFILES=	# None
 

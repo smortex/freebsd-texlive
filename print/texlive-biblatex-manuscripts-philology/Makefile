@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-manuscripts-philology
-PORTVERSION=	20141022
+PORTVERSION=	20150507
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

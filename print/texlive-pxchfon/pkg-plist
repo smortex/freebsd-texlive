@@ -1,4 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/README
 %%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/README-ja
 %%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/pxchfon.pdf
 %%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/pxchfon.tex
@@ -27,19 +28,6 @@ share/texmf-dist/fonts/vf/public/pxchfon/cfjar-r-l0j.vf
 share/texmf-dist/fonts/vf/public/pxchfon/cfjas-b-l0j.vf
 share/texmf-dist/fonts/vf/public/pxchfon/cfjas-r-l0j.vf
 share/texmf-dist/fonts/vf/public/pxchfon/cfjas-x-l0j.vf
-%%PORTSRC%%share/texmf-dist/source/platex/pxchfon/cfjar-b-l0j.vpl
-%%PORTSRC%%share/texmf-dist/source/platex/pxchfon/cfjar-l-l0j.vpl
-%%PORTSRC%%share/texmf-dist/source/platex/pxchfon/cfjar-r-l0j.vpl
-%%PORTSRC%%share/texmf-dist/source/platex/pxchfon/cfjas-b-l0j.vpl
-%%PORTSRC%%share/texmf-dist/source/platex/pxchfon/cfjas-r-l0j.vpl
-%%PORTSRC%%share/texmf-dist/source/platex/pxchfon/cfjas-x-l0j.vpl
-%%PORTSRC%%share/texmf-dist/source/platex/pxchfon/gen-cfja.bat
-%%PORTSRC%%share/texmf-dist/source/platex/pxchfon/r-cfjar-b-l0j.pl
-%%PORTSRC%%share/texmf-dist/source/platex/pxchfon/r-cfjar-l-l0j.pl
-%%PORTSRC%%share/texmf-dist/source/platex/pxchfon/r-cfjar-r-l0j.pl
-%%PORTSRC%%share/texmf-dist/source/platex/pxchfon/r-cfjas-b-l0j.pl
-%%PORTSRC%%share/texmf-dist/source/platex/pxchfon/r-cfjas-r-l0j.pl
-%%PORTSRC%%share/texmf-dist/source/platex/pxchfon/r-cfjas-x-l0j.pl
 share/texmf-dist/tex/platex/pxchfon/pxchfon.sty
 share/texmf-dist/tex/platex/pxchfon/pxchfon0.def
 share/texmf-dist/tex/platex/pxchfon/pxjafont.sty

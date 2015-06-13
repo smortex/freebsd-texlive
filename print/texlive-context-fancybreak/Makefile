@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	context-fancybreak
-PORTVERSION=	20150419
+PORTVERSION=	20150420
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

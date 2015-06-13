@@ -11,6 +11,8 @@
 %%PORTSRC%%share/texmf-dist/source/latex/media9/files/boutond.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/media9/files/boutone.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/media9/files/boutonf.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/media9/files/config.xml
+%%PORTSRC%%share/texmf-dist/source/latex/media9/files/ctan_lion_350x350.png
 %%PORTSRC%%share/texmf-dist/source/latex/media9/files/cube.asy
 %%PORTSRC%%share/texmf-dist/source/latex/media9/files/cube.mp4
 %%PORTSRC%%share/texmf-dist/source/latex/media9/files/cubeposter.png
@@ -29,6 +31,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/media9/players/APlayer9.mxml
 %%PORTSRC%%share/texmf-dist/source/latex/media9/players/BSD-License
 %%PORTSRC%%share/texmf-dist/source/latex/media9/players/SMPfixes.patch
+%%PORTSRC%%share/texmf-dist/source/latex/media9/players/SlideShow.mxml
 %%PORTSRC%%share/texmf-dist/source/latex/media9/players/StrobeMediaPlayback-license
 %%PORTSRC%%share/texmf-dist/source/latex/media9/players/VPlayer.mxml
 %%PORTSRC%%share/texmf-dist/source/latex/media9/players/VPlayer9.mxml
@@ -39,6 +42,7 @@ share/texmf-dist/tex/latex/media9/javascript/asylabels.js
 share/texmf-dist/tex/latex/media9/media9.sty
 share/texmf-dist/tex/latex/media9/players/APlayer.swf
 share/texmf-dist/tex/latex/media9/players/APlayer9.swf
+share/texmf-dist/tex/latex/media9/players/SlideShow.swf
 share/texmf-dist/tex/latex/media9/players/StrobeMediaPlayback.swf
 share/texmf-dist/tex/latex/media9/players/VPlayer.swf
 share/texmf-dist/tex/latex/media9/players/VPlayer9.swf

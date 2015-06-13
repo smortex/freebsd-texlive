@@ -1,3 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/xetex/base/NEWS
+%%PORTDOCS%%share/texmf-dist/doc/xetex/base/README
 %%PORTDOCS%%share/texmf-dist/doc/xetex/base/XeTeX-notes.pdf
 %%PORTDOCS%%share/texmf-dist/doc/xetex/base/XeTeX-notes.tex
 share/texmf-dist/fonts/misc/xetex/fontmapping/base/qx-unicode.map

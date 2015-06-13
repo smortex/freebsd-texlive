@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	pas-crosswords
-PORTVERSION=	20140418
+PORTVERSION=	20150413
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

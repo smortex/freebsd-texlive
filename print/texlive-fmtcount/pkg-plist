@@ -3,6 +3,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/fmtcount/fc-frlargenum.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/fmtcount/fc-lang.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/fmtcount/fc-samp.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fmtcount/fc-typeout-languages.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/fmtcount/fmtcount.pdf
 share/texmf-dist/scripts/fmtcount/fmtcount.perl
 %%PORTSRC%%share/texmf-dist/source/latex/fmtcount/fmtcount.dtx

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150514
+PORTVERSION=	20150515
 CATEGORIES=	print
 DISTFILES=	# None
 

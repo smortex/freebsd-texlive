@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	sclang-prettifier
-PORTVERSION=	20140902
+PORTVERSION=	20150413
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
