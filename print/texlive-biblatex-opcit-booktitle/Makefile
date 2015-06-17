@@ -1,14 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	listings
+PORTNAME=	biblatex-opcit-booktitle
 PORTVERSION=	20150615
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset source code listings using LaTeX.
+COMMENT=	Use op. cit. for the booktitle of a subentry
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

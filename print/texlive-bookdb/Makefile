@@ -1,14 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	listings
+PORTNAME=	bookdb
 PORTVERSION=	20150615
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset source code listings using LaTeX.
+COMMENT=	A BibTeX style file for cataloguing a home library.
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

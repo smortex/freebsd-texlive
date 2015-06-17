@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	listings
+PORTNAME=	ucharcat
 PORTVERSION=	20150615
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset source code listings using LaTeX.
+COMMENT=	Implementation of the (new in 2015) xetex \Ucharcat command in lua, for luatex.
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

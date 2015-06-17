@@ -1,14 +1,15 @@
 # $FreeBSD$
 
-PORTNAME=	listings
+PORTNAME=	pdfbook2
 PORTVERSION=	20150615
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset source code listings using LaTeX.
+COMMENT=	Create booklets from PDF files.
 
-OPTIONS_DEFINE=	DOCS SRCS
+RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
+
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

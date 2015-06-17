@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-luatex
-PORTVERSION=	20150412
+PORTVERSION=	20150615
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -67,7 +67,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/placeat/placeat.sty:${PORTSDIR}/print/texlive-placeat \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/selnolig/selnolig.sty:${PORTSDIR}/print/texlive-selnolig \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/showhyphens/showhyphens.sty:${PORTSDIR}/print/texlive-showhyphens \
-		${LOCALBASE}/share/texmf-dist/tex/luatex/spelling/spelling.sty:${PORTSDIR}/print/texlive-spelling
+		${LOCALBASE}/share/texmf-dist/tex/luatex/spelling/spelling.sty:${PORTSDIR}/print/texlive-spelling \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ucharcat/ucharcat.sty:${PORTSDIR}/print/texlive-ucharcat
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

@@ -100,6 +100,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-musuos/german-musuos.lbx:${PORTSDIR}/print/texlive-biblatex-musuos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-nature/nature.bbx:${PORTSDIR}/print/texlive-biblatex-nature \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-nejm/nejm.bbx:${PORTSDIR}/print/texlive-biblatex-nejm \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-opcit-booktitle/biblatex-opcit-booktitle.sty:${PORTSDIR}/print/texlive-biblatex-opcit-booktitle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-philosophy/english-philosophy.lbx:${PORTSDIR}/print/texlive-biblatex-philosophy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-phys/phys.bbx:${PORTSDIR}/print/texlive-biblatex-phys \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-publist/publist.bbx:${PORTSDIR}/print/texlive-biblatex-publist \
@@ -114,6 +115,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibtopic/bibtopic.sty:${PORTSDIR}/print/texlive-bibtopic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibtopicprefix/bibtopicprefix.sty:${PORTSDIR}/print/texlive-bibtopicprefix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibunits/bibunits.sty:${PORTSDIR}/print/texlive-bibunits \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/bookdb/bookdb.bst:${PORTSDIR}/print/texlive-bookdb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/breakcites/breakcites.sty:${PORTSDIR}/print/texlive-breakcites \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cell/cell.sty:${PORTSDIR}/print/texlive-cell \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chbibref/chbibref.sty:${PORTSDIR}/print/texlive-chbibref \
@@ -195,6 +197,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/listings-ext/listings-ext.sty:${PORTSDIR}/print/texlive-listings-ext \
 		${LOCALBASE}/share/texmf-dist/scripts/match_parens/match_parens:${PORTSDIR}/print/texlive-match_parens \
 		${LOCALBASE}/share/texmf-dist/scripts/mkjobtexmf/mkjobtexmf.pl:${PORTSDIR}/print/texlive-mkjobtexmf \
+		${LOCALBASE}/share/texmf-dist/scripts/pdfbook2/pdfbook2:${PORTSDIR}/print/texlive-pdfbook2 \
 		${LOCALBASE}/share/texmf-dist/scripts/pdfcrop/pdfcrop.pl:${PORTSDIR}/print/texlive-pdfcrop \
 		${LOCALBASE}/share/texmf-dist/scripts/pdfjam/pdf180:${PORTSDIR}/print/texlive-pdfjam \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/e2pall.pl:${PORTSDIR}/print/texlive-pdftools \
@@ -2121,6 +2124,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/selnolig/selnolig.sty:${PORTSDIR}/print/texlive-selnolig \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/showhyphens/showhyphens.sty:${PORTSDIR}/print/texlive-showhyphens \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/spelling/spelling.sty:${PORTSDIR}/print/texlive-spelling \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ucharcat/ucharcat.sty:${PORTSDIR}/print/texlive-ucharcat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/12many/12many.sty:${PORTSDIR}/print/texlive-12many \
 		${LOCALBASE}/share/texmf-dist/tex/amstex/base/amstex.tex:${PORTSDIR}/print/texlive-amstex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/backnaur/backnaur.sty:${PORTSDIR}/print/texlive-backnaur \
@@ -2160,6 +2164,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/proba/proba.sty:${PORTSDIR}/print/texlive-proba \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rec-thy/rec-thy.sty:${PORTSDIR}/print/texlive-rec-thy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ribbonproofs/ribbonproofs.sty:${PORTSDIR}/print/texlive-ribbonproofs \
+		${LOCALBASE}/share/texmf-dist/tex/latex/rmathbr/rmathbr.sty:${PORTSDIR}/print/texlive-rmathbr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sesamanuel/sesamanuel.cls:${PORTSDIR}/print/texlive-sesamanuel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/shuffle/shuffle.sty:${PORTSDIR}/print/texlive-shuffle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skmath/skmath.sty:${PORTSDIR}/print/texlive-skmath \

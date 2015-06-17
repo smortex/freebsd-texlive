@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20150513
+PORTVERSION=	20150615
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -99,6 +99,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-musuos/german-musuos.lbx:${PORTSDIR}/print/texlive-biblatex-musuos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-nature/nature.bbx:${PORTSDIR}/print/texlive-biblatex-nature \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-nejm/nejm.bbx:${PORTSDIR}/print/texlive-biblatex-nejm \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-opcit-booktitle/biblatex-opcit-booktitle.sty:${PORTSDIR}/print/texlive-biblatex-opcit-booktitle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-philosophy/english-philosophy.lbx:${PORTSDIR}/print/texlive-biblatex-philosophy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-phys/phys.bbx:${PORTSDIR}/print/texlive-biblatex-phys \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-publist/publist.bbx:${PORTSDIR}/print/texlive-biblatex-publist \
@@ -113,6 +114,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibtopic/bibtopic.sty:${PORTSDIR}/print/texlive-bibtopic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibtopicprefix/bibtopicprefix.sty:${PORTSDIR}/print/texlive-bibtopicprefix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibunits/bibunits.sty:${PORTSDIR}/print/texlive-bibunits \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/bookdb/bookdb.bst:${PORTSDIR}/print/texlive-bookdb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/breakcites/breakcites.sty:${PORTSDIR}/print/texlive-breakcites \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cell/cell.sty:${PORTSDIR}/print/texlive-cell \
 		${LOCALBASE}/share/texmf-dist/tex/latex/chbibref/chbibref.sty:${PORTSDIR}/print/texlive-chbibref \

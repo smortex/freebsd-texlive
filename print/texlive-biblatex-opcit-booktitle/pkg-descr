@@ -1,0 +1,8 @@
+The default citation styles verbose-trad1+; verbose-trad2 ;
+verbose-trad3 use the op. cit. form in order to have shorter
+reference when a title have been already cited. However, when
+you cite two entries which share the same booktitle but not the
+same title, the op. cit. mechanism does not work. This package
+enables to obtain references like this: Author1, Title, in
+Booktitle, Location, Publiser, Year, pages xxx Author2, Title2,
+in Booktitle, op. cit, pages.

@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	listings
+PORTNAME=	rmathbr
 PORTVERSION=	20150615
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset source code listings using LaTeX.
+COMMENT=	Repeating of math operator at the broken line and the new line in inline equations
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

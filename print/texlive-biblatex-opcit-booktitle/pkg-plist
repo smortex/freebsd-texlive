@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-opcit-booktitle/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-opcit-booktitle/documentation/biblatex-opcit-booktitle-example.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-opcit-booktitle/documentation/biblatex-opcit-booktitle-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-opcit-booktitle/documentation/biblatex-opcit-booktitle-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-opcit-booktitle/documentation/biblatex-opcit-booktitle.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-opcit-booktitle/documentation/biblatex-opcit-booktitle.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-opcit-booktitle/documentation/latexmkrc
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-opcit-booktitle/documentation/makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-opcit-booktitle/makefile
+share/texmf-dist/tex/latex/biblatex-opcit-booktitle/biblatex-opcit-booktitle.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

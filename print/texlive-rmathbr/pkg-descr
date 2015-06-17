@@ -1,0 +1,7 @@
+Repeating of math operators at the broken line and the new line
+in inline equations is used in Cyrillic mathematical typography
+(Russian for example), but unfortunately LaTeX does not provide
+such an option. This package solves the problem by extending
+ideas described in M. I. Grinchuk "TeX and Russian Traditions
+of Typesetting", TUGboat 17(4) (1996) 385 and supports most of
+LaTeX mathematical packages. See the documentation for details.
