@@ -1,5 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/Makefile
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/README
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/README.md
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/example/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/example/README.md
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/resumecls/example/config-sample.mk

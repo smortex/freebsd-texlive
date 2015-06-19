@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	forest
+PORTNAME=	academicons
 PORTVERSION=	20150617
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Drawing (linguistic) trees.
+COMMENT=	Font containing icons of online academic profiles.
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	forest
+PORTNAME=	mnras
 PORTVERSION=	20150617
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Drawing (linguistic) trees.
+COMMENT=	Monthly Notices of the Royal Astronomical Society.
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

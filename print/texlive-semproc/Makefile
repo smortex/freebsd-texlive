@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	forest
+PORTNAME=	semproc
 PORTVERSION=	20150617
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Drawing (linguistic) trees.
+COMMENT=	Seminar proceedings
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

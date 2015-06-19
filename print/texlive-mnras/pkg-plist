@@ -1,0 +1,14 @@
+share/texmf-dist/bibtex/bst/mnras/mnras.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/mnras/example.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/mnras/example.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/mnras/example.ps
+%%PORTDOCS%%share/texmf-dist/doc/latex/mnras/legacy/legacy.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/mnras/legacy/mn2e.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/mnras/legacy/mn2e.cls
+%%PORTDOCS%%share/texmf-dist/doc/latex/mnras/mnras_guide.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/mnras/mnras_guide.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mnras/mnras_template.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/mnras/readme.txt
+share/texmf-dist/tex/latex/mnras/mnras.cls
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

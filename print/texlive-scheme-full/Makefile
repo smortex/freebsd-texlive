@@ -251,6 +251,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/context/third/vim/2context.vim:${PORTSDIR}/print/texlive-context-vim \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/visualcounter/t-visualcounter.mkvi:${PORTSDIR}/print/texlive-context-visualcounter \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asana-Math.otf:${PORTSDIR}/print/texlive-Asana-Math \
+		${LOCALBASE}/share/texmf-dist/tex/latex/academicons/academicons.sty:${PORTSDIR}/print/texlive-academicons \
 		${LOCALBASE}/share/texmf-dist/tex/latex/accanthis/accanthis.sty:${PORTSDIR}/print/texlive-accanthis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/adforn/adforn.sty:${PORTSDIR}/print/texlive-adforn \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/adfsymbols/ArrowsADF.afm:${PORTSDIR}/print/texlive-adfsymbols \
@@ -1873,6 +1874,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/selectp/selectp.sty:${PORTSDIR}/print/texlive-selectp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/semantic/semantic.sty:${PORTSDIR}/print/texlive-semantic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/semioneside/semioneside.sty:${PORTSDIR}/print/texlive-semioneside \
+		${LOCALBASE}/share/texmf-dist/tex/latex/semproc/semproc.cls:${PORTSDIR}/print/texlive-semproc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sepfootnotes/sepfootnotes.sty:${PORTSDIR}/print/texlive-sepfootnotes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/seqsplit/seqsplit.sty:${PORTSDIR}/print/texlive-seqsplit \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sf298/sf298.sty:${PORTSDIR}/print/texlive-sf298 \
@@ -2422,6 +2424,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/matc3mem/matc3mem.cls:${PORTSDIR}/print/texlive-matc3mem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mcmthesis/mcmthesis.cls:${PORTSDIR}/print/texlive-mcmthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mentis/mentis.cls:${PORTSDIR}/print/texlive-mentis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mnras/mnras.cls:${PORTSDIR}/print/texlive-mnras \
 		${LOCALBASE}/share/texmf-dist/tex/latex/msu-thesis/msu-thesis.cls:${PORTSDIR}/print/texlive-msu-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mugsthesis/mugsthesis.cls:${PORTSDIR}/print/texlive-mugsthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/musuos/musuos.cls:${PORTSDIR}/print/texlive-musuos \

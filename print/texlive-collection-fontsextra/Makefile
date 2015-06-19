@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20150515
+PORTVERSION=	20150617
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -42,6 +42,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asana-Math.otf:${PORTSDIR}/print/texlive-Asana-Math \
+		${LOCALBASE}/share/texmf-dist/tex/latex/academicons/academicons.sty:${PORTSDIR}/print/texlive-academicons \
 		${LOCALBASE}/share/texmf-dist/tex/latex/accanthis/accanthis.sty:${PORTSDIR}/print/texlive-accanthis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/adforn/adforn.sty:${PORTSDIR}/print/texlive-adforn \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/adfsymbols/ArrowsADF.afm:${PORTSDIR}/print/texlive-adfsymbols \

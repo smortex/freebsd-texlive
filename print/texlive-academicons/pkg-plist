@@ -1,4 +1,7 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/ptex2pdf/COPYING
-%%PORTDOCS%%share/texmf-dist/doc/latex/ptex2pdf/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/academicons/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/academicons/academicons.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/academicons/academicons.tex
+share/texmf-dist/fonts/truetype/public/academicons/academicons.ttf
+share/texmf-dist/tex/latex/academicons/academicons.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
