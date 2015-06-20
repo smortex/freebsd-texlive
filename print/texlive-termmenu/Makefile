@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	poemscol
+PORTNAME=	termmenu
 PORTVERSION=	20150618
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesetting Critical Editions of Poetry.
+COMMENT=	The package provides support for terminal-based menus using expl3
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,0 +1,6 @@
+When writing programs, it's often required to present the user
+with a list of options/actions. The user is then expected to
+select one of these options for the program to process.
+termmenu provides this mechanism for TeX. It requires only
+expl3 support, thus the l3kernel and l3packages are both
+required.
