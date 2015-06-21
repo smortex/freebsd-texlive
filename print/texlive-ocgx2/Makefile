@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	fixocgx
-PORTVERSION=	20150616
+PORTNAME=	ocgx2
+PORTVERSION=	20150619
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Add support for dvips+ps2pdf, XeLaTeX, dvipdfmx to the ocgx package.
+COMMENT=	Drop-in replacement for the `ocgx' package; adds support for dvips+ps2pdf, XeLaTeX, dvipdfmx
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

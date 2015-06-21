@@ -591,6 +591,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/shade/shade.tex:${PORTSDIR}/print/texlive-shade \
 		${LOCALBASE}/share/texmf-dist/tex/generic/systeme/systeme.sty:${PORTSDIR}/print/texlive-systeme \
 		${LOCALBASE}/share/texmf-dist/tex/generic/tabto-generic/tabto.tex:${PORTSDIR}/print/texlive-tabto-generic \
+		${LOCALBASE}/share/texmf-dist/tex/generic/termmenu/termmenu.tex:${PORTSDIR}/print/texlive-termmenu \
 		${LOCALBASE}/share/texmf-dist/tex/generic/tracklang/tracklang.tex:${PORTSDIR}/print/texlive-tracklang \
 		${LOCALBASE}/share/texmf-dist/tex/generic/texapi/texapi.tex:${PORTSDIR}/print/texlive-texapi \
 		${LOCALBASE}/share/texmf-dist/tex/generic/upca/upca.tex:${PORTSDIR}/print/texlive-upca \
@@ -1006,7 +1007,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/pgfmolbio/pgfmolbio.sty:${PORTSDIR}/print/texlive-pgfmolbio \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfopts/pgfopts.sty:${PORTSDIR}/print/texlive-pgfopts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty:${PORTSDIR}/print/texlive-pgfplots \
-		${LOCALBASE}/share/texmf-dist/tex/latex/piano/piano.sty:${PORTSDIR}/print/texlive-piano \
 		${LOCALBASE}/share/texmf-dist/tex/latex/picinpar/picinpar.sty:${PORTSDIR}/print/texlive-picinpar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pict2e/pict2e.sty:${PORTSDIR}/print/texlive-pict2e \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pictex/pictex.sty:${PORTSDIR}/print/texlive-pictex \
@@ -1423,7 +1423,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixfoot/fixfoot.sty:${PORTSDIR}/print/texlive-fixfoot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixme/fixme.sty:${PORTSDIR}/print/texlive-fixme \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixmetodonotes/fixmetodonotes.sty:${PORTSDIR}/print/texlive-fixmetodonotes \
-		${LOCALBASE}/share/texmf-dist/tex/latex/fixocgx/fixocgx.sty:${PORTSDIR}/print/texlive-fixocgx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fjodor/fjodor.sty:${PORTSDIR}/print/texlive-fjodor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flabels/flabels.sty:${PORTSDIR}/print/texlive-flabels \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flacards/flacards.cls:${PORTSDIR}/print/texlive-flacards \
@@ -1734,6 +1733,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/numprint/numprint.sty:${PORTSDIR}/print/texlive-numprint \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ocg-p/ocg-p.sty:${PORTSDIR}/print/texlive-ocg-p \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ocgx/ocgx.sty:${PORTSDIR}/print/texlive-ocgx \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ocgx2/ocgx2.sty:${PORTSDIR}/print/texlive-ocgx2 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ocr-latex/ocr.sty:${PORTSDIR}/print/texlive-ocr-latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/octavo/octavo.cls:${PORTSDIR}/print/texlive-octavo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/oldstyle/oldstyle.sty:${PORTSDIR}/print/texlive-oldstyle \
@@ -2239,10 +2239,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/musixtex/musixtex.tex:${PORTSDIR}/print/texlive-musixtex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/musixtex-fonts/musix.map:${PORTSDIR}/print/texlive-musixtex-fonts \
 		${LOCALBASE}/share/texmf-dist/tex/generic/musixtnt/musixtnt.tex:${PORTSDIR}/print/texlive-musixtnt \
+		${LOCALBASE}/share/texmf-dist/tex/latex/piano/piano.sty:${PORTSDIR}/print/texlive-piano \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pmx/pmx.tex:${PORTSDIR}/print/texlive-pmx \
 		${LOCALBASE}/share/texmf-dist/scripts/pmxchords/ChordsTr.lua:${PORTSDIR}/print/texlive-pmxchords \
 		${LOCALBASE}/share/texmf-dist/tex/latex/songbook/songbook.sty:${PORTSDIR}/print/texlive-songbook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/songs/songs.sty:${PORTSDIR}/print/texlive-songs \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xpiano/xpiano.sty:${PORTSDIR}/print/texlive-xpiano \
 		${LOCALBASE}/share/texmf-dist/tex/lambda/base/lambda.tex:${PORTSDIR}/print/texlive-lambda \
 		${LOCALBASE}/share/texmf-dist/tex/lambda/antomega/antomega.sty:${PORTSDIR}/print/texlive-antomega \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mxedruli/mxedruli.sty:${PORTSDIR}/print/texlive-mxedruli \

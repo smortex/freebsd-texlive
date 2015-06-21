@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150617
+PORTVERSION=	20150619
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -192,7 +192,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/pgfmolbio/pgfmolbio.sty:${PORTSDIR}/print/texlive-pgfmolbio \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfopts/pgfopts.sty:${PORTSDIR}/print/texlive-pgfopts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty:${PORTSDIR}/print/texlive-pgfplots \
-		${LOCALBASE}/share/texmf-dist/tex/latex/piano/piano.sty:${PORTSDIR}/print/texlive-piano \
 		${LOCALBASE}/share/texmf-dist/tex/latex/picinpar/picinpar.sty:${PORTSDIR}/print/texlive-picinpar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pict2e/pict2e.sty:${PORTSDIR}/print/texlive-pict2e \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pictex/pictex.sty:${PORTSDIR}/print/texlive-pictex \
@@ -609,7 +608,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixfoot/fixfoot.sty:${PORTSDIR}/print/texlive-fixfoot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixme/fixme.sty:${PORTSDIR}/print/texlive-fixme \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixmetodonotes/fixmetodonotes.sty:${PORTSDIR}/print/texlive-fixmetodonotes \
-		${LOCALBASE}/share/texmf-dist/tex/latex/fixocgx/fixocgx.sty:${PORTSDIR}/print/texlive-fixocgx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fjodor/fjodor.sty:${PORTSDIR}/print/texlive-fjodor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flabels/flabels.sty:${PORTSDIR}/print/texlive-flabels \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flacards/flacards.cls:${PORTSDIR}/print/texlive-flacards \
@@ -920,6 +918,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/numprint/numprint.sty:${PORTSDIR}/print/texlive-numprint \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ocg-p/ocg-p.sty:${PORTSDIR}/print/texlive-ocg-p \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ocgx/ocgx.sty:${PORTSDIR}/print/texlive-ocgx \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ocgx2/ocgx2.sty:${PORTSDIR}/print/texlive-ocgx2 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ocr-latex/ocr.sty:${PORTSDIR}/print/texlive-ocr-latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/octavo/octavo.cls:${PORTSDIR}/print/texlive-octavo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/oldstyle/oldstyle.sty:${PORTSDIR}/print/texlive-oldstyle \

@@ -1,0 +1,11 @@
+This package provides macros for typesetting virtual keyboards
+limited to two octaves for showing notes represented by a
+colored circle. Optionally, the number used for pitch analysis
+can be shown. It is an extension of piano.sty by Emile
+Daneault, written in expl3 in answer to a couple of questions
+on TeX.StackExchange:
+http://tex.stackexchange.com/questions/162184/
+http://tex.stackexchange.com/questions/246276/. It features
+extended syntax and several options, like setting the color,
+adding numbers for pitch analysis, one or two octaves, and
+others.

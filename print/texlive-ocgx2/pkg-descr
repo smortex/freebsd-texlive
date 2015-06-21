@@ -1,0 +1,7 @@
+This package is a drop-in replacement for the ocgx package by
+Paul Gaborit It re-implements the functionality of the 'ocg',
+'ocgx' and 'ocg-p' packages and adds support for all known
+engines and back-ends including: LaTeX -> dvips ->
+ps2pdf/Distiller (Xe)LaTeX(x) -> dvipdfmx PdfLaTeX and LuaLaTeX
+It also ensures compatibility with the media9 and animate
+packages.

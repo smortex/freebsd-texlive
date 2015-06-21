@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-music
-PORTVERSION=	20150424
+PORTVERSION=	20150619
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -83,10 +83,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/musixtex/musixtex.tex:${PORTSDIR}/print/texlive-musixtex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/musixtex-fonts/musix.map:${PORTSDIR}/print/texlive-musixtex-fonts \
 		${LOCALBASE}/share/texmf-dist/tex/generic/musixtnt/musixtnt.tex:${PORTSDIR}/print/texlive-musixtnt \
+		${LOCALBASE}/share/texmf-dist/tex/latex/piano/piano.sty:${PORTSDIR}/print/texlive-piano \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pmx/pmx.tex:${PORTSDIR}/print/texlive-pmx \
 		${LOCALBASE}/share/texmf-dist/scripts/pmxchords/ChordsTr.lua:${PORTSDIR}/print/texlive-pmxchords \
 		${LOCALBASE}/share/texmf-dist/tex/latex/songbook/songbook.sty:${PORTSDIR}/print/texlive-songbook \
-		${LOCALBASE}/share/texmf-dist/tex/latex/songs/songs.sty:${PORTSDIR}/print/texlive-songs
+		${LOCALBASE}/share/texmf-dist/tex/latex/songs/songs.sty:${PORTSDIR}/print/texlive-songs \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xpiano/xpiano.sty:${PORTSDIR}/print/texlive-xpiano
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

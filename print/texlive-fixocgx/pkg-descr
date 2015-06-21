@@ -1,5 +1,0 @@
-This package extends the usability of the ocgx package by Paul
-Gaborit for creating PDF Layers to all known engines including:
-LaTeX -> dvips -> ps2pdf/Distiller (Xe)LaTeX(x) -> dvipdfmx
-(PdfLaTeX and LuaLaTeX are already supported by ocgx.) It also
-ensures compatibility with the media9 and animate packages.

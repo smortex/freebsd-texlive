@@ -1,14 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	nfssext-cfr
+PORTNAME=	xpiano
 PORTVERSION=	20150619
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extensions to the LaTeX NFSS.
+COMMENT=	An extension of the piano package.
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
