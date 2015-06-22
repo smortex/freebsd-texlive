@@ -1,10 +1,20 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/genealogytree/CHANGES
 %%PORTDOCS%%share/texmf-dist/doc/latex/genealogytree/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/genealogytree/genealogytree-example-1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/genealogytree/genealogytree-example-2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/genealogytree/genealogytree-example-3.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/genealogytree/genealogytree.doc.sources.zip
 %%PORTDOCS%%share/texmf-dist/doc/latex/genealogytree/genealogytree.pdf
 share/texmf-dist/tex/latex/genealogytree/genealogytree.sty
-share/texmf-dist/tex/latex/genealogytree/gtrcore.debug.code.tex
+share/texmf-dist/tex/latex/genealogytree/gtrcore.contour.code.tex
+share/texmf-dist/tex/latex/genealogytree/gtrcore.drawing.code.tex
+share/texmf-dist/tex/latex/genealogytree/gtrcore.node.code.tex
 share/texmf-dist/tex/latex/genealogytree/gtrcore.options.code.tex
 share/texmf-dist/tex/latex/genealogytree/gtrcore.parser.code.tex
+share/texmf-dist/tex/latex/genealogytree/gtrcore.processing.code.tex
+share/texmf-dist/tex/latex/genealogytree/gtrcore.symbols.code.tex
+share/texmf-dist/tex/latex/genealogytree/gtrlang.english.code.tex
+share/texmf-dist/tex/latex/genealogytree/gtrlang.german.code.tex
+share/texmf-dist/tex/latex/genealogytree/gtrlib.debug.code.tex
+share/texmf-dist/tex/latex/genealogytree/gtrlib.templates.code.tex
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

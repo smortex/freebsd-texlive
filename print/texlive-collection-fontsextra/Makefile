@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20150617
+PORTVERSION=	20150620
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -252,6 +252,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tpslifonts/tpslifonts.sty:${PORTSDIR}/print/texlive-tpslifonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/trajan/trajan.sty:${PORTSDIR}/print/texlive-trajan \
 		${LOCALBASE}/share/texmf-dist/tex/latex/txfontsb/txfontsb.sty:${PORTSDIR}/print/texlive-txfontsb \
+		${LOCALBASE}/share/texmf-dist/tex/latex/typicons/typicons.sty:${PORTSDIR}/print/texlive-typicons \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/umtypewriter/UMTypewriter-Bold.otf:${PORTSDIR}/print/texlive-umtypewriter \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/universa/fulbc10.mf:${PORTSDIR}/print/texlive-universa \
 		${LOCALBASE}/share/texmf-dist/tex/latex/universalis/universalis.sty:${PORTSDIR}/print/texlive-universalis \

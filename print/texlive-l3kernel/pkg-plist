@@ -9,6 +9,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/l3syntax-changes.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/source3.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/source3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/source3body.tex
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/expl3.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3.ins
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3alloc.dtx
