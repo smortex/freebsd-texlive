@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150619
+PORTVERSION=	20150624
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -245,7 +245,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-orm/tkz-orm.sty:${PORTSDIR}/print/texlive-tkz-orm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-tab/tkz-tab.sty:${PORTSDIR}/print/texlive-tkz-tab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tsemlines/tsemlines.sty:${PORTSDIR}/print/texlive-tsemlines \
-		${LOCALBASE}/share/texmf-dist/tex/latex/tufte-latex/tufte-book.cls:${PORTSDIR}/print/texlive-tufte-latex \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/tufte-latex/tufte.bst:${PORTSDIR}/print/texlive-tufte-latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/venndiagram/venndiagram.sty:${PORTSDIR}/print/texlive-venndiagram \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xpicture/xpicture.sty:${PORTSDIR}/print/texlive-xpicture \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xypic/xypic.sty:${PORTSDIR}/print/texlive-xypic \

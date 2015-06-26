@@ -430,6 +430,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/proba/proba.sty:${PORTSDIR}/print/texlive-proba \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rec-thy/rec-thy.sty:${PORTSDIR}/print/texlive-rec-thy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ribbonproofs/ribbonproofs.sty:${PORTSDIR}/print/texlive-ribbonproofs \
+		${LOCALBASE}/share/texmf-dist/tex/latex/rmathbr/rmathbr.sty:${PORTSDIR}/print/texlive-rmathbr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sesamanuel/sesamanuel.cls:${PORTSDIR}/print/texlive-sesamanuel \
 		${LOCALBASE}/share/texmf-dist/tex/latex/shuffle/shuffle.sty:${PORTSDIR}/print/texlive-shuffle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skmath/skmath.sty:${PORTSDIR}/print/texlive-skmath \
@@ -564,7 +565,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/pgfmolbio/pgfmolbio.sty:${PORTSDIR}/print/texlive-pgfmolbio \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfopts/pgfopts.sty:${PORTSDIR}/print/texlive-pgfopts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty:${PORTSDIR}/print/texlive-pgfplots \
-		${LOCALBASE}/share/texmf-dist/tex/latex/piano/piano.sty:${PORTSDIR}/print/texlive-piano \
 		${LOCALBASE}/share/texmf-dist/tex/latex/picinpar/picinpar.sty:${PORTSDIR}/print/texlive-picinpar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pict2e/pict2e.sty:${PORTSDIR}/print/texlive-pict2e \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pictex/pictex.sty:${PORTSDIR}/print/texlive-pictex \
@@ -618,7 +618,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-orm/tkz-orm.sty:${PORTSDIR}/print/texlive-tkz-orm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-tab/tkz-tab.sty:${PORTSDIR}/print/texlive-tkz-tab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tsemlines/tsemlines.sty:${PORTSDIR}/print/texlive-tsemlines \
-		${LOCALBASE}/share/texmf-dist/tex/latex/tufte-latex/tufte-book.cls:${PORTSDIR}/print/texlive-tufte-latex \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/tufte-latex/tufte.bst:${PORTSDIR}/print/texlive-tufte-latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/venndiagram/venndiagram.sty:${PORTSDIR}/print/texlive-venndiagram \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xpicture/xpicture.sty:${PORTSDIR}/print/texlive-xpicture \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xypic/xypic.sty:${PORTSDIR}/print/texlive-xypic \

@@ -1,0 +1,21 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/diadia/201502.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/diadia/201503.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/diadia/201504.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/diadia/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/diadia/ddbsl1avg.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/diadia/diadia-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/diadia/diadia-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/diadia/diadia.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/diadia/diadia.dtx
+%%PORTDOCS%%share/texmf-dist/doc/latex/diadia/diadia.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/diadia/hba1c.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/diadia/makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/diadia/manifest.txt
+share/texmf-dist/scripts/diadia/diadia.lua
+share/texmf-dist/tex/latex/diadia/diadia-english.trsl
+share/texmf-dist/tex/latex/diadia/diadia-fallback.trsl
+share/texmf-dist/tex/latex/diadia/diadia-german.trsl
+share/texmf-dist/tex/latex/diadia/diadia.cfg
+share/texmf-dist/tex/latex/diadia/diadia.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
