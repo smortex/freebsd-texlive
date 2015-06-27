@@ -1,0 +1,5 @@
+The package provides means for retrieving properties of
+chemical elements like atomic number, element symbol, element
+name, electron distribution or isotope number. Properties are
+defined for the elements up to the atomic number 112. This
+package is a spin-off of the package bohr by the same author.

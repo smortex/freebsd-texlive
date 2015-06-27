@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	beebe
+PORTNAME=	fithesis
 PORTVERSION=	20150625
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The beebe package
+COMMENT=	Thesis class and template for Masaryk University (Brno, Czech Republic).
 
-OPTIONS_EXCLUDE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
