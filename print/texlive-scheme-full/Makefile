@@ -592,7 +592,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/shade/shade.tex:${PORTSDIR}/print/texlive-shade \
 		${LOCALBASE}/share/texmf-dist/tex/generic/systeme/systeme.sty:${PORTSDIR}/print/texlive-systeme \
 		${LOCALBASE}/share/texmf-dist/tex/generic/tabto-generic/tabto.tex:${PORTSDIR}/print/texlive-tabto-generic \
-		${LOCALBASE}/share/texmf-dist/tex/latex/termmenu/termmenu.tex:${PORTSDIR}/print/texlive-termmenu \
+		${LOCALBASE}/share/texmf-dist/tex/generic/termmenu/termmenu.tex:${PORTSDIR}/print/texlive-termmenu \
 		${LOCALBASE}/share/texmf-dist/tex/generic/tracklang/tracklang.tex:${PORTSDIR}/print/texlive-tracklang \
 		${LOCALBASE}/share/texmf-dist/tex/generic/texapi/texapi.tex:${PORTSDIR}/print/texlive-texapi \
 		${LOCALBASE}/share/texmf-dist/tex/generic/upca/upca.tex:${PORTSDIR}/print/texlive-upca \
@@ -2408,7 +2408,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/estcpmm/estcpmm.cls:${PORTSDIR}/print/texlive-estcpmm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fbithesis/fbithesis.cls:${PORTSDIR}/print/texlive-fbithesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fcltxdoc/fcltxdoc.sty:${PORTSDIR}/print/texlive-fcltxdoc \
-		${LOCALBASE}/share/texmf-dist/tex/latex/fithesis/fithesis.cls:${PORTSDIR}/print/texlive-fithesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gaceta/gaceta.cls:${PORTSDIR}/print/texlive-gaceta \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gatech-thesis/gatech-thesis.cls:${PORTSDIR}/print/texlive-gatech-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gsemthesis/gsemthesis.cls:${PORTSDIR}/print/texlive-gsemthesis \
