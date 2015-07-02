@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	pstricks
+PORTNAME=	br-lex
 PORTVERSION=	20150630
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	PostScript macros for TeX.
+COMMENT=	A Class for Typesetting Brazilian legal texts.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

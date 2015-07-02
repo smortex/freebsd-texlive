@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langarabic
-PORTVERSION=	20150412
+PORTVERSION=	20150630
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -44,6 +44,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/amiri/amiri-bold.ttf:${PORTSDIR}/print/texlive-amiri \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arabi/arabeyes/ae_almohanad_boldItalitalic.afm:${PORTSDIR}/print/texlive-arabi \
+		${LOCALBASE}/share/texmf-dist/tex/latex/arabi-add/arabi-add.sty:${PORTSDIR}/print/texlive-arabi-add \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arabtex/arabtex.sty:${PORTSDIR}/print/texlive-arabtex \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidi/bidi.sty:${PORTSDIR}/print/texlive-bidi \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/dad/dad.sty:${PORTSDIR}/print/texlive-dad \

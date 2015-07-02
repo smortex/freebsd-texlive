@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	pstricks
+PORTNAME=	arabi-add
 PORTVERSION=	20150630
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	PostScript macros for TeX.
+COMMENT=	Using hyperref and bookmark packages with arabic and farsi languages.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

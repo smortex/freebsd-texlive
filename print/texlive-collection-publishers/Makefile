@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20150626
+PORTVERSION=	20150630
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -91,6 +91,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/bangorcsthesis/bangorcsthesis.cls:${PORTSDIR}/print/texlive-bangorcsthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamer-FUBerlin/FUbeamer.cls:${PORTSDIR}/print/texlive-beamer-FUBerlin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bgteubner/bgteubner.cls:${PORTSDIR}/print/texlive-bgteubner \
+		${LOCALBASE}/share/texmf-dist/tex/latex/br-lex/br-lex.cls:${PORTSDIR}/print/texlive-br-lex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/brandeis-dissertation/brandeis-dissertation.cls:${PORTSDIR}/print/texlive-brandeis-dissertation \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cascadilla/cascadilla.cls:${PORTSDIR}/print/texlive-cascadilla \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/chem-journal/jcc.bst:${PORTSDIR}/print/texlive-chem-journal \

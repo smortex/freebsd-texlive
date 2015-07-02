@@ -30,8 +30,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-news13.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-news14.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-news14.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-news15.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-news15.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-user.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-user.tgz
+%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstricks-add-data9.data
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstricks-bug.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstricks-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/test-pst.pdf

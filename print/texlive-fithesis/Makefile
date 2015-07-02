@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	pstricks
+PORTNAME=	fithesis
 PORTVERSION=	20150630
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	PostScript macros for TeX.
+COMMENT=	Thesis class and template for Masaryk University (Brno, Czech Republic).
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

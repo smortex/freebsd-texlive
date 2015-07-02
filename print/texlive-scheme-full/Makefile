@@ -664,6 +664,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/source/jknappen/fc/b-fcbx.mf:${PORTSDIR}/print/texlive-fc \
 		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/amiri/amiri-bold.ttf:${PORTSDIR}/print/texlive-amiri \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arabi/arabeyes/ae_almohanad_boldItalitalic.afm:${PORTSDIR}/print/texlive-arabi \
+		${LOCALBASE}/share/texmf-dist/tex/latex/arabi-add/arabi-add.sty:${PORTSDIR}/print/texlive-arabi-add \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arabtex/arabtex.sty:${PORTSDIR}/print/texlive-arabtex \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidi/bidi.sty:${PORTSDIR}/print/texlive-bidi \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/dad/dad.sty:${PORTSDIR}/print/texlive-dad \
@@ -1422,6 +1423,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/filemod/filemod.tex:${PORTSDIR}/print/texlive-filemod \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fink/fink.sty:${PORTSDIR}/print/texlive-fink \
 		${LOCALBASE}/share/texmf-dist/tex/latex/finstrut/finstrut.sty:${PORTSDIR}/print/texlive-finstrut \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fithesis/fithesis.cls:${PORTSDIR}/print/texlive-fithesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixfoot/fixfoot.sty:${PORTSDIR}/print/texlive-fixfoot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixme/fixme.sty:${PORTSDIR}/print/texlive-fixme \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixmetodonotes/fixmetodonotes.sty:${PORTSDIR}/print/texlive-fixmetodonotes \
@@ -2389,6 +2391,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/bangorcsthesis/bangorcsthesis.cls:${PORTSDIR}/print/texlive-bangorcsthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamer-FUBerlin/FUbeamer.cls:${PORTSDIR}/print/texlive-beamer-FUBerlin \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bgteubner/bgteubner.cls:${PORTSDIR}/print/texlive-bgteubner \
+		${LOCALBASE}/share/texmf-dist/tex/latex/br-lex/br-lex.cls:${PORTSDIR}/print/texlive-br-lex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/brandeis-dissertation/brandeis-dissertation.cls:${PORTSDIR}/print/texlive-brandeis-dissertation \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cascadilla/cascadilla.cls:${PORTSDIR}/print/texlive-cascadilla \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/chem-journal/jcc.bst:${PORTSDIR}/print/texlive-chem-journal \

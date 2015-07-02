@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/arabi-add/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/arabi-add/arabi-add-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/arabi-add/arabi-add-example.pdf
+share/texmf-dist/tex/latex/arabi-add/arabi-add.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

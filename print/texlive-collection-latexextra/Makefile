@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150625
+PORTVERSION=	20150630
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -606,6 +606,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/filemod/filemod.tex:${PORTSDIR}/print/texlive-filemod \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fink/fink.sty:${PORTSDIR}/print/texlive-fink \
 		${LOCALBASE}/share/texmf-dist/tex/latex/finstrut/finstrut.sty:${PORTSDIR}/print/texlive-finstrut \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fithesis/fithesis.cls:${PORTSDIR}/print/texlive-fithesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixfoot/fixfoot.sty:${PORTSDIR}/print/texlive-fixfoot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixme/fixme.sty:${PORTSDIR}/print/texlive-fixme \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixmetodonotes/fixmetodonotes.sty:${PORTSDIR}/print/texlive-fixmetodonotes \
