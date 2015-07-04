@@ -15,6 +15,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/doc/examples/task.tex
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/doc/examples/thesis.tex
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/doc/examples/treatise-example.tex
+%%PORTSRC%%share/texmf-dist/source/latex/tudscr/doc/tudscr-additional.tex
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/doc/tudscr-bundle.tex
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/doc/tudscr-examples.tex
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/doc/tudscr-hints.tex
@@ -24,6 +25,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/doc/tudscr-mainclasses.tex
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/doc/tudscr-obsolete.tex
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/doc/tudscr-packages.tex
+%%PORTSRC%%share/texmf-dist/source/latex/tudscr/doc/tudscr-poster.tex
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/doc/tudscr-preface.tex
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/doc/tudscr.tex
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/doc/tutorials/mathswap.tex
@@ -42,6 +44,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/tudscr-mathswap.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/tudscr-misc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/tudscr-pagestyle.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tudscr/tudscr-poster.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/tudscr-supervisor.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/tudscr-title.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/tudscr-twocolfix.dtx

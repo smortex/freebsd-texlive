@@ -23,6 +23,8 @@ share/texmf-dist/tex/latex/ctex/ctexart.cls
 share/texmf-dist/tex/latex/ctex/ctexbook.cls
 share/texmf-dist/tex/latex/ctex/ctexcap.sty
 share/texmf-dist/tex/latex/ctex/ctexheading.sty
+share/texmf-dist/tex/latex/ctex/ctexhook.sty
+share/texmf-dist/tex/latex/ctex/ctexpatch.sty
 share/texmf-dist/tex/latex/ctex/ctexrep.cls
 share/texmf-dist/tex/latex/ctex/ctexsize.sty
 share/texmf-dist/tex/latex/ctex/ctexspa.def
