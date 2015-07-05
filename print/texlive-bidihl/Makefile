@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	reflectgraphics
+PORTNAME=	bidihl
 PORTVERSION=	20150704
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Techniques for reflecting graphics.
+COMMENT=	Experimental bidi-aware text highlighting
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
