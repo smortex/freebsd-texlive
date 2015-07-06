@@ -128,9 +128,6 @@ share/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tosf-sc-t1.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tosf-scl-ly1.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tosf-scl-ot1.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tosf-scl-t1.tfm
-share/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tosf-scla-ly1.tfm
-share/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tosf-scla-ot1.tfm
-share/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tosf-scla-t1.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tosf-t1.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntx-BoldItalic-lf-ly1.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntx-BoldItalic-lf-ot1.tfm
@@ -245,9 +242,6 @@ share/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tosf-sc-t1.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tosf-scl-ly1.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tosf-scl-ot1.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tosf-scl-t1.tfm
-share/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tosf-scla-ly1.tfm
-share/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tosf-scla-ot1.tfm
-share/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tosf-scla-t1.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tosf-t1.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxbexa.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxbexb.tfm
@@ -464,12 +458,6 @@ share/texmf-dist/fonts/type1/public/newtx/zxlr.pfb
 share/texmf-dist/fonts/type1/public/newtx/zxlri.pfb
 share/texmf-dist/fonts/type1/public/newtx/zxlz.pfb
 share/texmf-dist/fonts/type1/public/newtx/zxlzi.pfb
-share/texmf-dist/fonts/vf/public/newtx/ntx-Bold-tosf-scla-ly1.vf
-share/texmf-dist/fonts/vf/public/newtx/ntx-Bold-tosf-scla-ot1.vf
-share/texmf-dist/fonts/vf/public/newtx/ntx-Bold-tosf-scla-t1.vf
-share/texmf-dist/fonts/vf/public/newtx/ntx-Regular-tosf-scla-ly1.vf
-share/texmf-dist/fonts/vf/public/newtx/ntx-Regular-tosf-scla-ot1.vf
-share/texmf-dist/fonts/vf/public/newtx/ntx-Regular-tosf-scla-t1.vf
 share/texmf-dist/fonts/vf/public/newtx/ntxbexa.vf
 share/texmf-dist/fonts/vf/public/newtx/ntxbexx.vf
 share/texmf-dist/fonts/vf/public/newtx/ntxbmi.vf

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	reflectgraphics
-PORTVERSION=	20150704
+PORTVERSION=	20150705
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
