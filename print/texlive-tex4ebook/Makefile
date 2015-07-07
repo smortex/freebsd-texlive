@@ -1,11 +1,13 @@
 # $FreeBSD$
 
 PORTNAME=	tex4ebook
-PORTVERSION=	20150704
+PORTVERSION=	20150706
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Convertor from LaTeX to ebook formats.
+
+RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

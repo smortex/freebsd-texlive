@@ -1,4 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/support/tex4ebook/README.md
+%%PORTDOCS%%share/texmf-dist/doc/support/tex4ebook/README
 %%PORTDOCS%%share/texmf-dist/doc/support/tex4ebook/changelog.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/tex4ebook/readme.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/tex4ebook/tex4ebook-doc.pdf
@@ -8,6 +8,7 @@ share/texmf-dist/scripts/tex4ebook/exec_epub.lua
 share/texmf-dist/scripts/tex4ebook/exec_epub3.lua
 share/texmf-dist/scripts/tex4ebook/exec_mobi.lua
 share/texmf-dist/scripts/tex4ebook/list-fonts.lua
+share/texmf-dist/scripts/tex4ebook/tex4ebook
 share/texmf-dist/tex/latex/tex4ebook/tex4ebook-epub3.4ht
 share/texmf-dist/tex/latex/tex4ebook/tex4ebook.4ht
 share/texmf-dist/tex/latex/tex4ebook/tex4ebook.sty
