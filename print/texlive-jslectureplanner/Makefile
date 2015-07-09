@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	jslectureplanner
-PORTVERSION=	20150412
+PORTVERSION=	20150708
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

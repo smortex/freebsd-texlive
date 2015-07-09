@@ -1,5 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/reflectgraphics/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/reflectgraphics/README.TEXLIVE
+%%PORTDOCS%%share/texmf-dist/doc/latex/reflectgraphics/example.jpg
 %%PORTSRC%%share/texmf-dist/source/latex/reflectgraphics/reflectgraphics.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/reflectgraphics/reflectgraphics.ins
 share/texmf-dist/tex/latex/reflectgraphics/reflectgraphics.sty
