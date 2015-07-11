@@ -1,6 +1,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/polyglossia/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/polyglossia/example-arabic.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/polyglossia/example-arabic.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/polyglossia/example-korean.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/polyglossia/example-korean.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/polyglossia/example-thai.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/polyglossia/example-thai.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/polyglossia/examples.pdf
@@ -60,6 +62,7 @@ share/texmf-dist/tex/latex/polyglossia/gloss-interlingua.ldf
 share/texmf-dist/tex/latex/polyglossia/gloss-irish.ldf
 share/texmf-dist/tex/latex/polyglossia/gloss-italian.ldf
 share/texmf-dist/tex/latex/polyglossia/gloss-kannada.ldf
+share/texmf-dist/tex/latex/polyglossia/gloss-korean.ldf
 share/texmf-dist/tex/latex/polyglossia/gloss-lao.ldf
 share/texmf-dist/tex/latex/polyglossia/gloss-latin.ldf
 share/texmf-dist/tex/latex/polyglossia/gloss-latvian.ldf

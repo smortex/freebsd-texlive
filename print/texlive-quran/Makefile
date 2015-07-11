@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	etex-pkg
+PORTNAME=	quran
 PORTVERSION=	20150709
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	E-TeX support package.
+COMMENT=	An easy way to typeset any part of The Holy Quran.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

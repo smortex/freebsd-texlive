@@ -1,14 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	etex-pkg
+PORTNAME=	cloze
 PORTVERSION=	20150709
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	E-TeX support package.
+COMMENT=	A LuaLaTeX package for creating cloze texts.
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

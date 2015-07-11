@@ -1,0 +1,8 @@
+This package offers the user an easy way to typeset The Holy
+Quran. It has been inspired by the lipsum and ptext packages
+and provides several macros for typesetting the whole or any
+part of Quran based on its popular division. Available macros
+are: \quransurah, \quranayah, \quranjuz, \quranhizb,
+\quranquarter, \quranpage, \qurantext, \surahname, \basmalah.
+The package only works with the "xelatex" format and should be
+loaded before the bidi package.

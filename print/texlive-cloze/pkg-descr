@@ -1,0 +1,5 @@
+This is a LuaLaTeX package for generating cloze texts. The main
+feature of the package is that the formatting doesn't change
+when using the hide and show options. There are three commands
+and one environment to generate cloze texts: \cloze, \clozefix,
+\closefil, and \closepar.
