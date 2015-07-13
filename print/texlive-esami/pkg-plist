@@ -5,6 +5,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami-doc-it.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/esami-xyz.cfg
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/master-sol.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/master.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/problem1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/problem2-tabella.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/problem2.tex
