@@ -1,0 +1,23 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/bewerbung/Foto.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bewerbung/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/bewerbung/README_DE
+%%PORTDOCS%%share/texmf-dist/doc/latex/bewerbung/anschrift.csv
+%%PORTDOCS%%share/texmf-dist/doc/latex/bewerbung/argetabelle-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bewerbung/argetabelle-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/bewerbung/bewerbung-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bewerbung/bewerbung-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/bewerbung/bewerbung.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bewerbung/config.inc
+%%PORTDOCS%%share/texmf-dist/doc/latex/bewerbung/neueBewerbung.sh
+%%PORTDOCS%%share/texmf-dist/doc/latex/bewerbung/titlepage.inc
+%%PORTSRC%%share/texmf-dist/source/latex/bewerbung/bewerbung.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/bewerbung/bewerbung.ins
+share/texmf-dist/tex/latex/bewerbung/argetabelle.cls
+share/texmf-dist/tex/latex/bewerbung/bewerbung-cv-casual.sty
+share/texmf-dist/tex/latex/bewerbung/bewerbung-cv-classic.sty
+share/texmf-dist/tex/latex/bewerbung/bewerbung-cv-oldstyle.sty
+share/texmf-dist/tex/latex/bewerbung/bewerbung-cv.sty
+share/texmf-dist/tex/latex/bewerbung/bewerbung.cls
+share/texmf-dist/tex/latex/bewerbung/bewerbung.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

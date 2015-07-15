@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	msu-thesis
+PORTNAME=	bewerbung
 PORTVERSION=	20150713
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class for Michigan State University Master's and PhD theses.
+COMMENT=	Typesetting job application
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

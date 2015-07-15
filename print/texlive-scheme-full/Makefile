@@ -1130,6 +1130,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerthemenirma/beamerthemenirma.sty:${PORTSDIR}/print/texlive-beamerthemenirma \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerthemephnompenh/beamerthemePhnomPenh.sty:${PORTSDIR}/print/texlive-beamerthemephnompenh \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beton/beton.sty:${PORTSDIR}/print/texlive-beton \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bewerbung/bewerbung.cls:${PORTSDIR}/print/texlive-bewerbung \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bez123/bez123.sty:${PORTSDIR}/print/texlive-bez123 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bezos/accents.sty:${PORTSDIR}/print/texlive-bezos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bhcexam/BHCexam.cfg:${PORTSDIR}/print/texlive-bhcexam \
@@ -2109,6 +2110,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/zwpagelayout/zwpagelayout.sty:${PORTSDIR}/print/texlive-zwpagelayout \
 		${LOCALBASE}/share/texmf-dist/scripts/checkcites/checkcites.lua:${PORTSDIR}/print/texlive-checkcites \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/chickenize/chickenize.sty:${PORTSDIR}/print/texlive-chickenize \
+		${LOCALBASE}/share/texmf-dist/tex/lualatex/cloze/cloze.sty:${PORTSDIR}/print/texlive-cloze \
 		${LOCALBASE}/share/texmf-dist/tex/latex/enigma/enigma.sty:${PORTSDIR}/print/texlive-enigma \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/interpreter/interpreter.sty:${PORTSDIR}/print/texlive-interpreter \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/lua-check-hyphen/lua-check-hyphen.sty:${PORTSDIR}/print/texlive-lua-check-hyphen \
@@ -2595,6 +2597,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/philokalia/philokalia.sty:${PORTSDIR}/print/texlive-philokalia \
 		${LOCALBASE}/share/texmf-dist/tex/latex/polyglossia/polyglossia.sty:${PORTSDIR}/print/texlive-polyglossia \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/ptext/ptext.sty:${PORTSDIR}/print/texlive-ptext \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/quran/quran.sty:${PORTSDIR}/print/texlive-quran \
 		${LOCALBASE}/share/texmf-dist/tex/latex/realscripts/realscripts.sty:${PORTSDIR}/print/texlive-realscripts \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty:${PORTSDIR}/print/texlive-ucharclasses \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/unisugar/unisugar.sty:${PORTSDIR}/print/texlive-unisugar \

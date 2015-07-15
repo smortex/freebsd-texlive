@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150630
+PORTVERSION=	20150713
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -309,6 +309,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerthemenirma/beamerthemenirma.sty:${PORTSDIR}/print/texlive-beamerthemenirma \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerthemephnompenh/beamerthemePhnomPenh.sty:${PORTSDIR}/print/texlive-beamerthemephnompenh \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beton/beton.sty:${PORTSDIR}/print/texlive-beton \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bewerbung/bewerbung.cls:${PORTSDIR}/print/texlive-bewerbung \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bez123/bez123.sty:${PORTSDIR}/print/texlive-bez123 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bezos/accents.sty:${PORTSDIR}/print/texlive-bezos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bhcexam/BHCexam.cfg:${PORTSDIR}/print/texlive-bhcexam \

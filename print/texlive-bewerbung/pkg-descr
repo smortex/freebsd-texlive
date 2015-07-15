@@ -1,0 +1,4 @@
+The package provides packages and classes for typesetting
+applications with titlepage, letter, cv and additional
+documents in just a single document. The data for the
+application can be edited in a simple csv file.
