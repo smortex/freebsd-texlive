@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	minitoc
+PORTNAME=	mcf2graph
 PORTVERSION=	20150714
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Produce a table of contents for each chapter, part or section.
+COMMENT=	Draw chemical structure diagrams with Metafont/MetaPost.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
