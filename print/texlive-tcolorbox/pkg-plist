@@ -19,6 +19,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.initoptions.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.intro.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.listings.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.magazine.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.picturecredits.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.quickref.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.raster.tex
@@ -45,6 +46,7 @@ share/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+share/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbminted.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex

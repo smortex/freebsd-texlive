@@ -11,11 +11,23 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/lectureprogram.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/lecturescript.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/lecturescript.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/membertable-blank.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/membertable-blank.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/membertable-filled.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/membertable-filled.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/metadata.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/presencetable-blank.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/presencetable-blank.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/presencetable-filled.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/presencetable-filled.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/presentation-list.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/presentation-list.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/examples/students.csv
 %%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/jslectureplanner.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/jslectureplanner/jslectureplanner.tex
 share/texmf-dist/tex/latex/jslectureplanner/cologne.lps
 share/texmf-dist/tex/latex/jslectureplanner/german-default.lps
 share/texmf-dist/tex/latex/jslectureplanner/jslectureplanner.sty
+share/texmf-dist/tex/latex/jslectureplanner/jsmembertable.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

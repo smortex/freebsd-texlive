@@ -1,8 +1,8 @@
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/luasseq/README
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/luasseq/luasseq.pdf
-share/texmf-dist/scripts/luasseq/luasseq.lua
-%%PORTSRC%%share/texmf-dist/source/lualatex/luasseq/luasseq.dtx
-%%PORTSRC%%share/texmf-dist/source/lualatex/luasseq/luasseq.ins
-share/texmf-dist/tex/lualatex/luasseq/luasseq.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/screenplay-pkg/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/screenplay-pkg/screenplay-pkg-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/screenplay-pkg/screenplay-pkg-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/screenplay-pkg/screenplay-pkg.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/screenplay-pkg/screenplay-pkg.tex
+share/texmf-dist/tex/latex/screenplay-pkg/screenplay-pkg.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

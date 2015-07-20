@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-humanities
-PORTVERSION=	20150512
+PORTVERSION=	20150718
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -107,6 +107,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/rrgtrees/rrgtrees.sty:${PORTSDIR}/print/texlive-rrgtrees \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rtklage/rtklage.cls:${PORTSDIR}/print/texlive-rtklage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/screenplay/screenplay.cls:${PORTSDIR}/print/texlive-screenplay \
+		${LOCALBASE}/share/texmf-dist/tex/latex/screenplay-pkg/screenplay-pkg.sty:${PORTSDIR}/print/texlive-screenplay-pkg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sides/sides.cls:${PORTSDIR}/print/texlive-sides \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stage/stage.cls:${PORTSDIR}/print/texlive-stage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/textglos/textglos.sty:${PORTSDIR}/print/texlive-textglos \

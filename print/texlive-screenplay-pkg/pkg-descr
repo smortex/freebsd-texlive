@@ -1,0 +1,6 @@
+This package implements the tools of the screenplay document
+class in the form of a package so that screenplay fragments can
+be included within another document class. For full
+documentation of the available commands, please consult the
+screenplay class documentation in addition to the included
+package documentation.
