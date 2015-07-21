@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	screenplay-pkg
-PORTVERSION=	20150718
+PORTVERSION=	20150719
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

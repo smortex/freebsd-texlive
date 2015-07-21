@@ -655,6 +655,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/rrgtrees/rrgtrees.sty:${PORTSDIR}/print/texlive-rrgtrees \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rtklage/rtklage.cls:${PORTSDIR}/print/texlive-rtklage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/screenplay/screenplay.cls:${PORTSDIR}/print/texlive-screenplay \
+		${LOCALBASE}/share/texmf-dist/tex/latex/screenplay-pkg/screenplay-pkg.sty:${PORTSDIR}/print/texlive-screenplay-pkg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sides/sides.cls:${PORTSDIR}/print/texlive-sides \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stage/stage.cls:${PORTSDIR}/print/texlive-stage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/textglos/textglos.sty:${PORTSDIR}/print/texlive-textglos \
@@ -691,7 +692,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/dvips/arphic/config.bkaiu:${PORTSDIR}/print/texlive-arphic \
 		${LOCALBASE}/share/texmf-dist/fonts/misc/cns/4040w0.bin:${PORTSDIR}/print/texlive-cns \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ctex/ctex.sty:${PORTSDIR}/print/texlive-ctex \
-		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/fandol/FandolFang-Regular.otf:${PORTSDIR}/print/texlive-fandol \
+		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/fandol/FandolBraille-Display.otf:${PORTSDIR}/print/texlive-fandol \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xpinyin/xpinyin.sty:${PORTSDIR}/print/texlive-xpinyin \
 		${LOCALBASE}/share/texmf-dist/fonts/tfm/zhmetrics/cyberb/cyberb00.tfm:${PORTSDIR}/print/texlive-zhmetrics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zhnumber/zhnumber.sty:${PORTSDIR}/print/texlive-zhnumber \
@@ -2215,6 +2216,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmp/gmp.sty:${PORTSDIR}/print/texlive-gmp \
 		${LOCALBASE}/share/texmf-dist/metapost/hatching/hatching.mp:${PORTSDIR}/print/texlive-hatching \
 		${LOCALBASE}/share/texmf-dist/metapost/latexmp/latexmp.mp:${PORTSDIR}/print/texlive-latexmp \
+		${LOCALBASE}/share/texmf-dist/metapost/mcf2graph/mcf2graph.mf:${PORTSDIR}/print/texlive-mcf2graph \
 		${LOCALBASE}/share/texmf-dist/metapost/metago/metago.mp:${PORTSDIR}/print/texlive-metago \
 		${LOCALBASE}/share/texmf-dist/metapost/metaobj/connections.mp:${PORTSDIR}/print/texlive-metaobj \
 		${LOCALBASE}/share/texmf-dist/metapost/metaplot/axes.mp:${PORTSDIR}/print/texlive-metaplot \

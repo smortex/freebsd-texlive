@@ -1,5 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fandol/COPYING
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fandol/README
+share/texmf-dist/fonts/opentype/public/fandol/FandolBraille-Display.otf
+share/texmf-dist/fonts/opentype/public/fandol/FandolBraille-Regular.otf
 share/texmf-dist/fonts/opentype/public/fandol/FandolFang-Regular.otf
 share/texmf-dist/fonts/opentype/public/fandol/FandolHei-Bold.otf
 share/texmf-dist/fonts/opentype/public/fandol/FandolHei-Regular.otf
