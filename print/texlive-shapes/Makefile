@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	cjk-ko
+PORTNAME=	shapes
 PORTVERSION=	20150720
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extension of the CJK package for Korean typesetting.
+COMMENT=	Draw polygons, reentrant stars, and fractions in circles with Metapost
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
