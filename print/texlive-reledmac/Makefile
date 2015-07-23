@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	ocgx2
+PORTNAME=	reledmac
 PORTVERSION=	20150721
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Drop-in replacement for the `ocgx' package; adds support for dvips+ps2pdf, XeLaTeX, dvipdfmx
+COMMENT=	Typeset scholarly editions.
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
