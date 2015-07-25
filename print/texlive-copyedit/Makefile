@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	eso-pic
+PORTNAME=	copyedit
 PORTVERSION=	20150723
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Add picture commands (or backgrounds) to every page.
+COMMENT=	Copyediting support for LaTeX documents.
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

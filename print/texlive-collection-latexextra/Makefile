@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150713
+PORTVERSION=	20150723
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -414,6 +414,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/coolthms/coolthms.sty:${PORTSDIR}/print/texlive-coolthms \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cooltooltips/cooltooltips.sty:${PORTSDIR}/print/texlive-cooltooltips \
 		${LOCALBASE}/share/texmf-dist/tex/latex/coordsys/coordsys.sty:${PORTSDIR}/print/texlive-coordsys \
+		${LOCALBASE}/share/texmf-dist/tex/latex/copyedit/copyedit.sty:${PORTSDIR}/print/texlive-copyedit \
 		${LOCALBASE}/share/texmf-dist/tex/latex/copyrightbox/copyrightbox.sty:${PORTSDIR}/print/texlive-copyrightbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/coseoul/coseoul.sty:${PORTSDIR}/print/texlive-coseoul \
 		${LOCALBASE}/share/texmf-dist/tex/latex/counttexruns/counttexruns.sty:${PORTSDIR}/print/texlive-counttexruns \

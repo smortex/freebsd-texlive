@@ -1,0 +1,12 @@
+This package implements copyediting support for LaTeX
+documents. Authors can enjoy the freedom of using, for example,
+words with US or UK or Canadian or Australian spelling in a
+mixed way, yet, they can choose any one of the usage forms for
+their entire document irrespective of kinds of spelling they
+have adopted. In the same fashion, the users can have the
+benefit of the following features available in the package:
+Localization -- British-American-Australian-Canadian Close-up,
+Hyphenation, and Spaced words Latin abbreviations Acronyms and
+Abbreviations Itemization, nonlocal lists and labels
+Parenthetical and serial commas Non-local tokenization in
+language through Abbreviations and pronouns.

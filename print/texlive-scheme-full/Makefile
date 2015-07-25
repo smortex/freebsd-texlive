@@ -652,6 +652,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/poetrytex/poetrytex.sty:${PORTSDIR}/print/texlive-poetrytex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/qobitree/qobitree.tex:${PORTSDIR}/print/texlive-qobitree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/qtree/qtree.sty:${PORTSDIR}/print/texlive-qtree \
+		${LOCALBASE}/share/texmf-dist/tex/latex/reledmac/reledmac.sty:${PORTSDIR}/print/texlive-reledmac \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rrgtrees/rrgtrees.sty:${PORTSDIR}/print/texlive-rrgtrees \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rtklage/rtklage.cls:${PORTSDIR}/print/texlive-rtklage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/screenplay/screenplay.cls:${PORTSDIR}/print/texlive-screenplay \
@@ -1236,6 +1237,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/coolthms/coolthms.sty:${PORTSDIR}/print/texlive-coolthms \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cooltooltips/cooltooltips.sty:${PORTSDIR}/print/texlive-cooltooltips \
 		${LOCALBASE}/share/texmf-dist/tex/latex/coordsys/coordsys.sty:${PORTSDIR}/print/texlive-coordsys \
+		${LOCALBASE}/share/texmf-dist/tex/latex/copyedit/copyedit.sty:${PORTSDIR}/print/texlive-copyedit \
 		${LOCALBASE}/share/texmf-dist/tex/latex/copyrightbox/copyrightbox.sty:${PORTSDIR}/print/texlive-copyrightbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/coseoul/coseoul.sty:${PORTSDIR}/print/texlive-coseoul \
 		${LOCALBASE}/share/texmf-dist/tex/latex/counttexruns/counttexruns.sty:${PORTSDIR}/print/texlive-counttexruns \
@@ -2231,6 +2233,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/metapost/piechartmp/piechartmp.mp:${PORTSDIR}/print/texlive-piechartmp \
 		${LOCALBASE}/share/texmf-dist/metapost/repere/repere.mp:${PORTSDIR}/print/texlive-repere \
 		${LOCALBASE}/share/texmf-dist/metafont/roex/roex.mf:${PORTSDIR}/print/texlive-roex \
+		${LOCALBASE}/share/texmf-dist/metapost/shapes/shapes.mp:${PORTSDIR}/print/texlive-shapes \
 		${LOCALBASE}/share/texmf-dist/metapost/slideshow/pathalong.mp:${PORTSDIR}/print/texlive-slideshow \
 		${LOCALBASE}/share/texmf-dist/metapost/splines/splines.mp:${PORTSDIR}/print/texlive-splines \
 		${LOCALBASE}/share/texmf-dist/metapost/suanpan/abacus.mp:${PORTSDIR}/print/texlive-suanpan \
