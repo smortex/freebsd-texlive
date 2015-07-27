@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150723
+PORTVERSION=	20150725
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -960,6 +960,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdfcomment/pdfcomment.sty:${PORTSDIR}/print/texlive-pdfcomment \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdfcprot/pdfcprot.sty:${PORTSDIR}/print/texlive-pdfcprot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdfmarginpar/pdfmarginpar.sty:${PORTSDIR}/print/texlive-pdfmarginpar \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pdfpagediff/pdfpagediff.sty:${PORTSDIR}/print/texlive-pdfpagediff \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdfscreen/pdfscreen.sty:${PORTSDIR}/print/texlive-pdfscreen \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdfslide/pdfslide.sty:${PORTSDIR}/print/texlive-pdfslide \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdfsync/pdfsync.sty:${PORTSDIR}/print/texlive-pdfsync \

@@ -8,7 +8,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/pdfpages/pdfpages.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/pdfpages/pdfpages.ins
 share/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-share/texmf-dist/tex/latex/pdfpages/ppdvipdfm.def
+share/texmf-dist/tex/latex/pdfpages/ppdvipdfmx.def
 share/texmf-dist/tex/latex/pdfpages/ppdvips.def
 share/texmf-dist/tex/latex/pdfpages/ppluatex.def
 share/texmf-dist/tex/latex/pdfpages/ppnull.def
