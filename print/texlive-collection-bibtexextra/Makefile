@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20150615
+PORTVERSION=	20150727
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -151,6 +151,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/multibib/multibib.sty:${PORTSDIR}/print/texlive-multibib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multibibliography/multibibliography.sty:${PORTSDIR}/print/texlive-multibibliography \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/munich/munich.bst:${PORTSDIR}/print/texlive-munich \
+		${LOCALBASE}/share/texmf-dist/tex/latex/nmbib/nmbib.sty:${PORTSDIR}/print/texlive-nmbib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/notes2bib/notes2bib.sty:${PORTSDIR}/print/texlive-notes2bib \
 		${LOCALBASE}/share/texmf-dist/makeindex/oscola/oscola.ist:${PORTSDIR}/print/texlive-oscola \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/perception/perception.bst:${PORTSDIR}/print/texlive-perception \

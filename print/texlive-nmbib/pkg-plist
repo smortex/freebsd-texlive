@@ -1,0 +1,17 @@
+share/texmf-dist/bibtex/bst/nmbib/chronoplainnm.bst
+share/texmf-dist/bibtex/bst/nmbib/plainnm.bst
+share/texmf-dist/bibtex/bst/nmbib/unsrtnm.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/nmbib/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/nmbib/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/nmbib/nmbib.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/nmbib/nmbib.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nmbib/nmbibtex.1
+%%PORTDOCS%%share/texmf-dist/doc/latex/nmbib/nmbibtex.pl
+%%PORTDOCS%%share/texmf-dist/doc/latex/nmbib/nmsample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/nmbib/nmsample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/nmbib/type.bib
+%%PORTSRC%%share/texmf-dist/source/latex/nmbib/nmbib.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/nmbib/nmbib.ins
+share/texmf-dist/tex/latex/nmbib/nmbib.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

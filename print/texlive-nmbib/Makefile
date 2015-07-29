@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	xcharter
+PORTNAME=	nmbib
 PORTVERSION=	20150727
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extension of Bitstream Charter fonts.
+COMMENT=	Multiple versions of a bibliography, with different sort orders.
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

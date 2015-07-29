@@ -1,0 +1,5 @@
+This package is a rewrite of the multibibliography package
+providing multiple bibliographies with different sorting. The
+new version offers a number of citation commands, streamlines
+the creation of bibliographies, ensures compatibility with the
+natbib package, and provides other improvements.
