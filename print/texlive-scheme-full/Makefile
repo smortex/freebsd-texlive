@@ -152,6 +152,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/multibib/multibib.sty:${PORTSDIR}/print/texlive-multibib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multibibliography/multibibliography.sty:${PORTSDIR}/print/texlive-multibibliography \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/munich/munich.bst:${PORTSDIR}/print/texlive-munich \
+		${LOCALBASE}/share/texmf-dist/tex/latex/nmbib/nmbib.sty:${PORTSDIR}/print/texlive-nmbib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/notes2bib/notes2bib.sty:${PORTSDIR}/print/texlive-notes2bib \
 		${LOCALBASE}/share/texmf-dist/makeindex/oscola/oscola.ist:${PORTSDIR}/print/texlive-oscola \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/perception/perception.bst:${PORTSDIR}/print/texlive-perception \
@@ -1783,6 +1784,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdfcomment/pdfcomment.sty:${PORTSDIR}/print/texlive-pdfcomment \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdfcprot/pdfcprot.sty:${PORTSDIR}/print/texlive-pdfcprot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdfmarginpar/pdfmarginpar.sty:${PORTSDIR}/print/texlive-pdfmarginpar \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pdfpagediff/pdfpagediff.sty:${PORTSDIR}/print/texlive-pdfpagediff \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdfscreen/pdfscreen.sty:${PORTSDIR}/print/texlive-pdfscreen \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdfslide/pdfslide.sty:${PORTSDIR}/print/texlive-pdfslide \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pdfsync/pdfsync.sty:${PORTSDIR}/print/texlive-pdfsync \
@@ -2233,6 +2235,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/metapost/piechartmp/piechartmp.mp:${PORTSDIR}/print/texlive-piechartmp \
 		${LOCALBASE}/share/texmf-dist/metapost/repere/repere.mp:${PORTSDIR}/print/texlive-repere \
 		${LOCALBASE}/share/texmf-dist/metafont/roex/roex.mf:${PORTSDIR}/print/texlive-roex \
+		${LOCALBASE}/share/texmf-dist/metapost/roundrect/roundrect.mp:${PORTSDIR}/print/texlive-roundrect \
 		${LOCALBASE}/share/texmf-dist/metapost/shapes/shapes.mp:${PORTSDIR}/print/texlive-shapes \
 		${LOCALBASE}/share/texmf-dist/metapost/slideshow/pathalong.mp:${PORTSDIR}/print/texlive-slideshow \
 		${LOCALBASE}/share/texmf-dist/metapost/splines/splines.mp:${PORTSDIR}/print/texlive-splines \

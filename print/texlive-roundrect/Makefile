@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	moderncv
+PORTNAME=	roundrect
 PORTVERSION=	20150730
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A modern curriculum vitae class.
+COMMENT=	Metapost macros for highly configurable rounded rectangles (optionally with text)
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

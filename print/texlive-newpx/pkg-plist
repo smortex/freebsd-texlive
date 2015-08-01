@@ -21,6 +21,7 @@ share/texmf-dist/fonts/enc/dvips/newpx/ot1sups.enc
 share/texmf-dist/fonts/enc/dvips/newpx/texnansxsups.enc
 share/texmf-dist/fonts/enc/dvips/newpx/tgpdiff.enc
 share/texmf-dist/fonts/map/dvips/newpx/newpx.map
+share/texmf-dist/fonts/map/dvips/newpx/newpxtext.map
 share/texmf-dist/fonts/opentype/public/newpx/TeXGyrePagellaX-Bold.otf
 share/texmf-dist/fonts/opentype/public/newpx/TeXGyrePagellaX-BoldItalic.otf
 share/texmf-dist/fonts/opentype/public/newpx/TeXGyrePagellaX-Italic.otf

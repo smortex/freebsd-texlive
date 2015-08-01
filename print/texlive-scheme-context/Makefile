@@ -92,6 +92,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gmp/gmp.sty:${PORTSDIR}/print/texlive-gmp \
 		${LOCALBASE}/share/texmf-dist/metapost/hatching/hatching.mp:${PORTSDIR}/print/texlive-hatching \
 		${LOCALBASE}/share/texmf-dist/metapost/latexmp/latexmp.mp:${PORTSDIR}/print/texlive-latexmp \
+		${LOCALBASE}/share/texmf-dist/metapost/mcf2graph/mcf2graph.mf:${PORTSDIR}/print/texlive-mcf2graph \
 		${LOCALBASE}/share/texmf-dist/metapost/metago/metago.mp:${PORTSDIR}/print/texlive-metago \
 		${LOCALBASE}/share/texmf-dist/metapost/metaobj/connections.mp:${PORTSDIR}/print/texlive-metaobj \
 		${LOCALBASE}/share/texmf-dist/metapost/metaplot/axes.mp:${PORTSDIR}/print/texlive-metaplot \
@@ -106,6 +107,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/metapost/piechartmp/piechartmp.mp:${PORTSDIR}/print/texlive-piechartmp \
 		${LOCALBASE}/share/texmf-dist/metapost/repere/repere.mp:${PORTSDIR}/print/texlive-repere \
 		${LOCALBASE}/share/texmf-dist/metafont/roex/roex.mf:${PORTSDIR}/print/texlive-roex \
+		${LOCALBASE}/share/texmf-dist/metapost/roundrect/roundrect.mp:${PORTSDIR}/print/texlive-roundrect \
+		${LOCALBASE}/share/texmf-dist/metapost/shapes/shapes.mp:${PORTSDIR}/print/texlive-shapes \
 		${LOCALBASE}/share/texmf-dist/metapost/slideshow/pathalong.mp:${PORTSDIR}/print/texlive-slideshow \
 		${LOCALBASE}/share/texmf-dist/metapost/splines/splines.mp:${PORTSDIR}/print/texlive-splines \
 		${LOCALBASE}/share/texmf-dist/metapost/suanpan/abacus.mp:${PORTSDIR}/print/texlive-suanpan \
