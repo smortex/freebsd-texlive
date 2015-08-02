@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	kotex-oblivoir
-PORTVERSION=	20150713
+PORTVERSION=	20150731
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
