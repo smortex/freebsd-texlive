@@ -1,8 +1,9 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/README.md
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/expl3.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/interface3.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/interface3.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/l3docstrip.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/l3obsolete.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/l3styleguide.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/l3styleguide.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3kernel/l3syntax-changes.pdf

@@ -1,10 +1,10 @@
-%%PORTDOCS%%share/texmf-dist/doc/fonts/fontawesome/README
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fontawesome/README.md
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fontawesome/fontawesome.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/fontawesome/fontawesome.tex
 share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc
 share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc
 share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc
+share/texmf-dist/fonts/map/dvips/fontawesome/fontawesome.map
 share/texmf-dist/fonts/opentype/public/fontawesome/FontAwesome.otf
 share/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesomeone.tfm
 share/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesomethree.tfm
@@ -14,5 +14,8 @@ share/texmf-dist/tex/latex/fontawesome/fontawesome.sty
 share/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-generic.tex
 share/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pdftex.tex
 share/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-xeluatex.tex
+share/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
+share/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
+share/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
