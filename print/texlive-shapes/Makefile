@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	shapes
-PORTVERSION=	20150724
+PORTVERSION=	20150803
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw polygons, reentrant stars, and fractions in circles with Metapost
+COMMENT=	Draw polygons, reentrant stars, and fractions in circles with Metapost.
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
