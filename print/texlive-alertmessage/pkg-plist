@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/alertmessage/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/alertmessage/alertmessage.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/alertmessage/img/alertmessage-error.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/alertmessage/img/alertmessage-info.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/alertmessage/img/alertmessage-success.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/alertmessage/img/alertmessage-warning.png
+%%PORTSRC%%share/texmf-dist/source/latex/alertmessage/alertmessage.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/alertmessage/alertmessage.ins
+share/texmf-dist/tex/latex/alertmessage/alertmessage.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

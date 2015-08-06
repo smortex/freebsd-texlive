@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ptex
-PORTVERSION=	20150429
+PORTVERSION=	20150804
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A TeX system for publishing in Japanese.
+COMMENT=	A TeX system for publishing in Japanese
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \

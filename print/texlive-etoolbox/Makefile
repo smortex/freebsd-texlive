@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	etoolbox
-PORTVERSION=	20150505
+PORTVERSION=	20150804
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	e-TeX tools for LaTeX.
+COMMENT=	e-TeX tools for LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	alertmessage
 PORTVERSION=	20150804
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	Alert messages for LaTeX
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

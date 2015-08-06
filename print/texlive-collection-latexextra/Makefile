@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150725
+PORTVERSION=	20150804
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -271,6 +271,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/advdate/advdate.sty:${PORTSDIR}/print/texlive-advdate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/akktex/akktex.sty:${PORTSDIR}/print/texlive-akktex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/akletter/akletter.cls:${PORTSDIR}/print/texlive-akletter \
+		${LOCALBASE}/share/texmf-dist/tex/latex/alertmessage/alertmessage.sty:${PORTSDIR}/print/texlive-alertmessage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/alnumsec/alnumsec.sty:${PORTSDIR}/print/texlive-alnumsec \
 		${LOCALBASE}/share/texmf-dist/tex/latex/alterqcm/alterqcm.sty:${PORTSDIR}/print/texlive-alterqcm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/altfont/altfont.sty:${PORTSDIR}/print/texlive-altfont \
@@ -873,6 +874,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/mslapa/mslapa.sty:${PORTSDIR}/print/texlive-mslapa \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mtgreek/mtgreek.sty:${PORTSDIR}/print/texlive-mtgreek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multenum/multienum.sty:${PORTSDIR}/print/texlive-multenum \
+		${LOCALBASE}/share/texmf-dist/tex/latex/multiaudience/multiaudience.sty:${PORTSDIR}/print/texlive-multiaudience \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multibbl/multibbl.sty:${PORTSDIR}/print/texlive-multibbl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multicap/multicap.sty:${PORTSDIR}/print/texlive-multicap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multienv/multienv.sty:${PORTSDIR}/print/texlive-multienv \

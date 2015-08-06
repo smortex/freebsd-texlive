@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	babel
-PORTVERSION=	20150412
+PORTVERSION=	20150804
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multilingual support for Plain TeX or LaTeX.
+COMMENT=	Multilingual support for Plain TeX or LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

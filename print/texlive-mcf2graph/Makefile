@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mcf2graph
-PORTVERSION=	20150731
+PORTVERSION=	20150804
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw chemical structure diagrams with Metafont/MetaPost.
+COMMENT=	Draw chemical structure diagrams with Metafont/MetaPost
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
