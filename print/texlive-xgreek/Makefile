@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	xgreek
-PORTVERSION=	20150413
+PORTVERSION=	20150805
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	XeLaTeX package for typesetting Greek language documents (beta release).
+COMMENT=	XeLaTeX package for typesetting Greek language documents (beta release)
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

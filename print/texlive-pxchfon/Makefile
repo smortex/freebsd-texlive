@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pxchfon
-PORTVERSION=	20150509
+PORTVERSION=	20150805
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Japanese font setup for pLaTeX and upLaTeX.
+COMMENT=	Japanese font setup for pLaTeX and upLaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
