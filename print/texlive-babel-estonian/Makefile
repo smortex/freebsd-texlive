@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-estonian
-PORTVERSION=	20150412
+PORTVERSION=	20150806
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Babel support for Estonian.
+COMMENT=	Babel support for Estonian
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

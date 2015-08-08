@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	tex4ht
-PORTVERSION=	20150420
+PORTVERSION=	20150806
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Convert (La)TeX to HTML/XML.
+COMMENT=	Convert (La)TeX to HTML/XML
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

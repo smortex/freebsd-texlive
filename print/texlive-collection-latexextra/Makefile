@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150804
+PORTVERSION=	20150806
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -338,6 +338,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/bullcntr/bullcntr.sty:${PORTSDIR}/print/texlive-bullcntr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bussproofs/bussproofs.sty:${PORTSDIR}/print/texlive-bussproofs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bxdpx-beamer/bxdpx-beamer.sty:${PORTSDIR}/print/texlive-bxdpx-beamer \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bxpdfver/bxpdfver.sty:${PORTSDIR}/print/texlive-bxpdfver \
 		${LOCALBASE}/share/texmf-dist/tex/latex/calcage/calcage.sty:${PORTSDIR}/print/texlive-calcage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/calctab/calctab.sty:${PORTSDIR}/print/texlive-calctab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/calculator/calculator.sty:${PORTSDIR}/print/texlive-calculator \

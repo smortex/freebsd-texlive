@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	doclicense
+PORTNAME=	bxpdfver
 PORTVERSION=	20150806
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for putting documents under a license
+COMMENT=	Specify version and compression level of output PDF files
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

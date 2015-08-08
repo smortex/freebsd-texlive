@@ -3,8 +3,6 @@
 %%PORTSRC%%share/texmf-dist/source/latex/alertmessage/alertmessage.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/alertmessage/alertmessage.ins
 share/texmf-dist/tex/latex/alertmessage/alertmessage.sty
-share/texmf-dist/tex/latex/alertmessage/example.pdf
-share/texmf-dist/tex/latex/alertmessage/example.tex
 share/texmf-dist/tex/latex/alertmessage/img/alertmessage-error.png
 share/texmf-dist/tex/latex/alertmessage/img/alertmessage-info.png
 share/texmf-dist/tex/latex/alertmessage/img/alertmessage-success.png
