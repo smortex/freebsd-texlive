@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	babel-estonian
-PORTVERSION=	20150806
+PORTVERSION=	20150807
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

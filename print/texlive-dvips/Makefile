@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	dvips
-PORTVERSION=	20150705
+PORTVERSION=	20150807
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A DVI to PostScript driver.
+COMMENT=	A DVI to PostScript driver
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

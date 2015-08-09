@@ -1,3 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-estonian/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/generic/babel-estonian/estonian.pdf
 %%PORTSRC%%share/texmf-dist/source/generic/babel-estonian/estonian.dtx
 %%PORTSRC%%share/texmf-dist/source/generic/babel-estonian/estonian.ins

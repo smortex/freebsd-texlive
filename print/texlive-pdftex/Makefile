@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pdftex
-PORTVERSION=	20150705
+PORTVERSION=	20150807
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A TeX extension for direct creation of PDF.
+COMMENT=	A TeX extension for direct creation of PDF
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core

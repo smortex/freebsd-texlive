@@ -1,10 +1,16 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/bxjscls/LICENSE
-%%PORTDOCS%%share/texmf-dist/doc/latex/bxjscls/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/bxjscls/bxjsclasses.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/bxjscls/bxjsclasses.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/bxjscls/bxjsclasses.ins
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxjscls/README-ja.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxjscls/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxjscls/bxjscls-manual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxjscls/bxjscls-manual.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/bxjscls/bxjscls.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/bxjscls/bxjscls.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/bxjscls/bxjscls.ins
 share/texmf-dist/tex/latex/bxjscls/bxjsarticle.cls
-share/texmf-dist/tex/latex/bxjscls/bxjsptex.def
+share/texmf-dist/tex/latex/bxjscls/bxjsbook.cls
+share/texmf-dist/tex/latex/bxjscls/bxjsja-minimal.def
+share/texmf-dist/tex/latex/bxjscls/bxjsja-standard.def
 share/texmf-dist/tex/latex/bxjscls/bxjsreport.cls
+share/texmf-dist/tex/latex/bxjscls/bxjsslide.cls
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

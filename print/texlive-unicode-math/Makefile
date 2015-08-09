@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	unicode-math
-PORTVERSION=	20150731
+PORTVERSION=	20150807
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Unicode mathematics support for XeTeX and LuaTeX.
+COMMENT=	Unicode mathematics support for XeTeX and LuaTeX
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/fontspec/fontspec.sty:${PORTSDIR}/print/texlive-fontspec
 

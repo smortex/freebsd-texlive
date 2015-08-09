@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bxjscls
-PORTVERSION=	20150412
+PORTVERSION=	20150807
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Document classes based on jsclasses.
+COMMENT=	Japanese document class collection for all major engines
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
