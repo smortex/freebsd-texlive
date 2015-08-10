@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	fcavtex
 PORTVERSION=	20150808
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	A thesis class for the FCAV/UNESP (Brazil)
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

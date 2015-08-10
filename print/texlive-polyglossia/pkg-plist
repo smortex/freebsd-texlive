@@ -9,6 +9,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/polyglossia/examples.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/polyglossia/polyglossia.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/polyglossia/polyglossia.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/polyglossia/test-welsh.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/polyglossia/test-welsh.tex
 share/texmf-dist/fonts/misc/xetex/fontmapping/polyglossia/arabicdigits.map
 share/texmf-dist/fonts/misc/xetex/fontmapping/polyglossia/arabicdigits.tec
 share/texmf-dist/fonts/misc/xetex/fontmapping/polyglossia/bengalidigits.map
@@ -23,6 +25,7 @@ share/texmf-dist/fonts/misc/xetex/fontmapping/polyglossia/thaidigits.tec
 share/texmf-dist/tex/latex/polyglossia/arabicnumbers.sty
 share/texmf-dist/tex/latex/polyglossia/babel-hebrewalph.def
 share/texmf-dist/tex/latex/polyglossia/babelsh.def
+share/texmf-dist/tex/latex/polyglossia/bengalidigits.sty
 share/texmf-dist/tex/latex/polyglossia/cal-util.def
 share/texmf-dist/tex/latex/polyglossia/devanagaridigits.sty
 share/texmf-dist/tex/latex/polyglossia/farsical.sty
@@ -62,6 +65,7 @@ share/texmf-dist/tex/latex/polyglossia/gloss-interlingua.ldf
 share/texmf-dist/tex/latex/polyglossia/gloss-irish.ldf
 share/texmf-dist/tex/latex/polyglossia/gloss-italian.ldf
 share/texmf-dist/tex/latex/polyglossia/gloss-kannada.ldf
+share/texmf-dist/tex/latex/polyglossia/gloss-khmer.ldf
 share/texmf-dist/tex/latex/polyglossia/gloss-korean.ldf
 share/texmf-dist/tex/latex/polyglossia/gloss-lao.ldf
 share/texmf-dist/tex/latex/polyglossia/gloss-latin.ldf

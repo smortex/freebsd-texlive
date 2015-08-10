@@ -1,0 +1,11 @@
+share/texmf-dist/bibtex/bst/fcavtex/fcavtex.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/fcavtex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/fcavtex/examples/basico-cap1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fcavtex/examples/basico-principal.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fcavtex/examples/basico-principal.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fcavtex/examples/basico-resumo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/fcavtex/manual/fcavtex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fcavtex/manual/fcavtex.tex
+share/texmf-dist/tex/latex/fcavtex/fcavtex.cls
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

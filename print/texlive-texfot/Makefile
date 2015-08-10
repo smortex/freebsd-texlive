@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	texfot
-PORTVERSION=	20150413
+PORTVERSION=	20150808
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Filter clutter from the output of a TeX run.
+COMMENT=	Filter clutter from the output of a TeX run
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

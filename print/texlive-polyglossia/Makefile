@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	polyglossia
-PORTVERSION=	20150718
+PORTVERSION=	20150808
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	An alternative to babel for XeLaTeX and LuaLaTeX.
+COMMENT=	An alternative to babel for XeLaTeX and LuaLaTeX
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty:${PORTSDIR}/print/texlive-etoolbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fontspec/fontspec.sty:${PORTSDIR}/print/texlive-fontspec \
