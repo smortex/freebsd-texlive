@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	algorithms
-PORTVERSION=	20150412
+PORTVERSION=	20150809
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A suite of tools for typesetting algorithms in pseudo-code.
+COMMENT=	A suite of tools for typesetting algorithms in pseudo-code
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -2427,9 +2427,11 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/erdc/erdc.cls:${PORTSDIR}/print/texlive-erdc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/estcpmm/estcpmm.cls:${PORTSDIR}/print/texlive-estcpmm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fbithesis/fbithesis.cls:${PORTSDIR}/print/texlive-fbithesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fcavtex/fcavtex.cls:${PORTSDIR}/print/texlive-fcavtex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fcltxdoc/fcltxdoc.sty:${PORTSDIR}/print/texlive-fcltxdoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gaceta/gaceta.cls:${PORTSDIR}/print/texlive-gaceta \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gatech-thesis/gatech-thesis.cls:${PORTSDIR}/print/texlive-gatech-thesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gradstudentresume/gradstudentresume.cls:${PORTSDIR}/print/texlive-gradstudentresume \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gsemthesis/gsemthesis.cls:${PORTSDIR}/print/texlive-gsemthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gzt/gzt.cls:${PORTSDIR}/print/texlive-gzt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/har2nat/har2nat.sty:${PORTSDIR}/print/texlive-har2nat \
@@ -2531,7 +2533,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/alg/alg.sty:${PORTSDIR}/print/texlive-alg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty:${PORTSDIR}/print/texlive-algorithm2e \
 		${LOCALBASE}/share/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty:${PORTSDIR}/print/texlive-algorithmicx \
-		${LOCALBASE}/share/texmf-dist/tex/latex/algorithms/algorithm.sty:${PORTSDIR}/print/texlive-algorithms \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/force/jedi/algorithms/FruchtermanReingold.lua:${PORTSDIR}/print/texlive-algorithms \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biocon/biocon.sty:${PORTSDIR}/print/texlive-biocon \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bohr/bohr.sty:${PORTSDIR}/print/texlive-bohr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bpchem/bpchem.sty:${PORTSDIR}/print/texlive-bpchem \

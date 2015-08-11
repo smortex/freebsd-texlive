@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	greek-inputenc
-PORTVERSION=	20150706
+PORTVERSION=	20150809
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Greek encoding support for inputenc.
+COMMENT=	Greek encoding support for inputenc
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

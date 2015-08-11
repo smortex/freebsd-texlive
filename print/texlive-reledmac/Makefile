@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	reledmac
-PORTVERSION=	20150729
+PORTVERSION=	20150809
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset scholarly editions.
+COMMENT=	Typeset scholarly editions
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pgf
-PORTVERSION=	20150724
+PORTVERSION=	20150809
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create PostScript and PDF graphics in TeX.
+COMMENT=	Create PostScript and PDF graphics in TeX
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex:${PORTSDIR}/print/texlive-xkeyval
 
