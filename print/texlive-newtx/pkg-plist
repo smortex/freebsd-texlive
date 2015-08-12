@@ -276,15 +276,19 @@ share/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsups-Bold-ly1.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsups-Bold-ot1.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsups-Bold-t1.tfm
+share/texmf-dist/fonts/tfm/public/newtx/ntxsups-Bold.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsups-BoldItalic-ly1.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsups-BoldItalic-ot1.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsups-BoldItalic-t1.tfm
+share/texmf-dist/fonts/tfm/public/newtx/ntxsups-BoldItalic.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsups-Italic-ly1.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsups-Italic-ot1.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsups-Italic-t1.tfm
+share/texmf-dist/fonts/tfm/public/newtx/ntxsups-Italic.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsups-Regular-ly1.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsups-Regular-ot1.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsups-Regular-t1.tfm
+share/texmf-dist/fonts/tfm/public/newtx/ntxsups-Regular.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsy5.tfm
 share/texmf-dist/fonts/tfm/public/newtx/ntxsy7.tfm
@@ -346,6 +350,7 @@ share/texmf-dist/fonts/tfm/public/newtx/nxlmi7.tfm
 share/texmf-dist/fonts/tfm/public/newtx/nxlmia.tfm
 share/texmf-dist/fonts/tfm/public/newtx/nxlsy5.tfm
 share/texmf-dist/fonts/tfm/public/newtx/nxlsy7.tfm
+share/texmf-dist/fonts/tfm/public/newtx/qtmr.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rfxlr-alt.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rfxlri-alt.tfm
 share/texmf-dist/fonts/tfm/public/newtx/rfxlri-vw.tfm

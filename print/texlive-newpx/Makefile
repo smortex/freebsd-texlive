@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	newpx
-PORTVERSION=	20150730
+PORTVERSION=	20150810
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Alternative uses of the PX fonts, with improved metrics.
+COMMENT=	Alternative uses of the PX fonts, with improved metrics
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

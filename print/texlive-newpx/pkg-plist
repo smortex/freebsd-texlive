@@ -9,14 +9,6 @@ share/texmf-dist/fonts/afm/public/newpx/zplbi.afm
 share/texmf-dist/fonts/afm/public/newpx/zplr.afm
 share/texmf-dist/fonts/afm/public/newpx/zplri.afm
 share/texmf-dist/fonts/enc/dvips/newpx/ecsups.enc
-share/texmf-dist/fonts/enc/dvips/newpx/ntx-ecth-lf.enc
-share/texmf-dist/fonts/enc/dvips/newpx/ntx-ecth-osf.enc
-share/texmf-dist/fonts/enc/dvips/newpx/ntx-ecth-tlf.enc
-share/texmf-dist/fonts/enc/dvips/newpx/ntx-ecth-tosf.enc
-share/texmf-dist/fonts/enc/dvips/newpx/ntx-ot1-th-osf.enc
-share/texmf-dist/fonts/enc/dvips/newpx/ntx-ot1-th-tlf.enc
-share/texmf-dist/fonts/enc/dvips/newpx/ntx-texnansi-th-osf.enc
-share/texmf-dist/fonts/enc/dvips/newpx/ntx-texnansi-th-tlf.enc
 share/texmf-dist/fonts/enc/dvips/newpx/ot1sups.enc
 share/texmf-dist/fonts/enc/dvips/newpx/texnansxsups.enc
 share/texmf-dist/fonts/enc/dvips/newpx/tgpdiff.enc

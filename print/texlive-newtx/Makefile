@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	newtx
-PORTVERSION=	20150727
+PORTVERSION=	20150810
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Alternative uses of the TX fonts, with improved metrics.
+COMMENT=	Alternative uses of the TX fonts, with improved metrics
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

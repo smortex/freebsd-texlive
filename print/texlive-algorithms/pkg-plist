@@ -4,11 +4,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/algorithms/algorithms.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/algorithms/algorithms.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/algorithms/algorithms.ins
-share/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/force/jedi/algorithms/FruchtermanReingold.lua
-share/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/force/jedi/algorithms/HuSpringElectricalFW.lua
-share/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/force/jedi/algorithms/SimpleSpring.lua
-share/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/force/jedi/algorithms/SocialGravityCloseness.lua
-share/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/force/jedi/algorithms/SocialGravityDegree.lua
 share/texmf-dist/tex/latex/algorithms/algorithm.sty
 share/texmf-dist/tex/latex/algorithms/algorithmic.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
