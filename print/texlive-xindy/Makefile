@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	xindy
-PORTVERSION=	20150701
+PORTVERSION=	20150812
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A general-purpose index processor.
+COMMENT=	A general-purpose index processor
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

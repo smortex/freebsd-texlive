@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	beebe
+PORTNAME=	nar
 PORTVERSION=	20150812
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The beebe package
+COMMENT=	BibTeX style for Nucleic Acid Research
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

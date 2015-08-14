@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	breqn
-PORTVERSION=	20150412
+PORTVERSION=	20150812
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Automatic line breaking of displayed equations.
+COMMENT=	Automatic line breaking of displayed equations
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

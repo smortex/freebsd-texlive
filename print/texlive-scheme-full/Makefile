@@ -152,6 +152,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/multibib/multibib.sty:${PORTSDIR}/print/texlive-multibib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multibibliography/multibibliography.sty:${PORTSDIR}/print/texlive-multibibliography \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/munich/munich.bst:${PORTSDIR}/print/texlive-munich \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/nar/nar.bst:${PORTSDIR}/print/texlive-nar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nmbib/nmbib.sty:${PORTSDIR}/print/texlive-nmbib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/notes2bib/notes2bib.sty:${PORTSDIR}/print/texlive-notes2bib \
 		${LOCALBASE}/share/texmf-dist/makeindex/oscola/oscola.ist:${PORTSDIR}/print/texlive-oscola \
@@ -2533,7 +2534,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/alg/alg.sty:${PORTSDIR}/print/texlive-alg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty:${PORTSDIR}/print/texlive-algorithm2e \
 		${LOCALBASE}/share/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty:${PORTSDIR}/print/texlive-algorithmicx \
-		${LOCALBASE}/share/texmf-dist/tex/generic/pgf/graphdrawing/lua/pgf/gd/force/jedi/algorithms/FruchtermanReingold.lua:${PORTSDIR}/print/texlive-algorithms \
+		${LOCALBASE}/share/texmf-dist/tex/latex/algorithms/algorithm.sty:${PORTSDIR}/print/texlive-algorithms \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biocon/biocon.sty:${PORTSDIR}/print/texlive-biocon \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bohr/bohr.sty:${PORTSDIR}/print/texlive-bohr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bpchem/bpchem.sty:${PORTSDIR}/print/texlive-bpchem \
