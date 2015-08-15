@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	dantelogo
-PORTVERSION=	20150412
+PORTVERSION=	20150813
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A font for DANTE's logo.
+COMMENT=	A font for DANTE's logo
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tcolorbox
-PORTVERSION=	20150724
+PORTVERSION=	20150813
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Coloured boxes, for LaTeX examples and theorems, etc.
+COMMENT=	Coloured boxes, for LaTeX examples and theorems, etc
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
