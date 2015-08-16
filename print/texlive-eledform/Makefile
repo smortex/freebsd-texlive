@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	eledform
-PORTVERSION=	20150412
+PORTVERSION=	20150814
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Define textual variants.
+COMMENT=	Define textual variants
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

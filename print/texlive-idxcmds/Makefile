@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	idxcmds
-PORTVERSION=	20150412
+PORTVERSION=	20150814
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Semantic commands for adding formatted index entries.
+COMMENT=	Semantic commands for adding formatted index entries
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

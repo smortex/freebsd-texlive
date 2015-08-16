@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pdfpages
-PORTVERSION=	20150725
+PORTVERSION=	20150814
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Include PDF documents in LaTeX.
+COMMENT=	Include PDF documents in LaTeX
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty:${PORTSDIR}/print/texlive-eso-pic
 
