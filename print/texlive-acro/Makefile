@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	acro
-PORTVERSION=	20150512
+PORTVERSION=	20150817
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset acronyms.
+COMMENT=	Typeset acronyms
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
