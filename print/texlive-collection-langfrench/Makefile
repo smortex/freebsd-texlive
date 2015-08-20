@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langfrench
-PORTVERSION=	20150412
+PORTVERSION=	20150818
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -49,8 +49,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/bib-fr/abbrv-fr.bst:${PORTSDIR}/print/texlive-bib-fr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-french/bibleref-french.sty:${PORTSDIR}/print/texlive-bibleref-french \
 		${LOCALBASE}/share/texmf-dist/tex/latex/droit-fr/droit-fr.cls:${PORTSDIR}/print/texlive-droit-fr \
+		${LOCALBASE}/share/texmf-dist/makeindex/e-french/fridx1.ist:${PORTSDIR}/print/texlive-e-french \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/facture/facture.cls:${PORTSDIR}/print/texlive-facture \
-		${LOCALBASE}/share/texmf-dist/tex/latex/frenchle/frenchle.sty:${PORTSDIR}/print/texlive-frenchle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/frletter/frletter.cls:${PORTSDIR}/print/texlive-frletter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/impnattypo/impnattypo.sty:${PORTSDIR}/print/texlive-impnattypo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mafr/mafr.sty:${PORTSDIR}/print/texlive-mafr \

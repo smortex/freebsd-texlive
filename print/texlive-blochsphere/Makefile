@@ -1,13 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	pdfpages
+PORTNAME=	blochsphere
 PORTVERSION=	20150818
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Include PDF documents in LaTeX
-
-RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty:${PORTSDIR}/print/texlive-eso-pic
+COMMENT=	Draw pseudo-3D diagrams of Bloch spheres
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

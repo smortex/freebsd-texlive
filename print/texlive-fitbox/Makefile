@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	frenchle
-PORTVERSION=	20150412
+PORTNAME=	fitbox
+PORTVERSION=	20150818
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	French macros, usable stand-alone or with Babel.
+COMMENT=	Fit graphics on a page
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

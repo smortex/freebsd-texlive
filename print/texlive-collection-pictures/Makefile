@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20150619
+PORTVERSION=	20150818
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -48,6 +48,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/asypictureb/asypictureB.sty:${PORTSDIR}/print/texlive-asypictureb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/autoarea/autoarea.sty:${PORTSDIR}/print/texlive-autoarea \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bardiag/bardiag.sty:${PORTSDIR}/print/texlive-bardiag \
+		${LOCALBASE}/share/texmf-dist/tex/latex/blochsphere/blochsphere.sty:${PORTSDIR}/print/texlive-blochsphere \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bloques/bloques.sty:${PORTSDIR}/print/texlive-bloques \
 		${LOCALBASE}/share/texmf-dist/tex/latex/blox/blox.sty:${PORTSDIR}/print/texlive-blox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bodegraph/bodegraph.sty:${PORTSDIR}/print/texlive-bodegraph \
@@ -76,6 +77,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/esk/esk.sty:${PORTSDIR}/print/texlive-esk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fast-diagram/fast-diagram.sty:${PORTSDIR}/print/texlive-fast-diagram \
 		${LOCALBASE}/share/texmf-dist/scripts/fig4latex/fig4latex:${PORTSDIR}/print/texlive-fig4latex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fitbox/fitbox.sty:${PORTSDIR}/print/texlive-fitbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flowchart/flowchart.sty:${PORTSDIR}/print/texlive-flowchart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/forest/forest.sty:${PORTSDIR}/print/texlive-forest \
 		${LOCALBASE}/share/texmf-dist/tex/latex/genealogytree/genealogytree.sty:${PORTSDIR}/print/texlive-genealogytree \
@@ -167,7 +169,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-orm/tkz-orm.sty:${PORTSDIR}/print/texlive-tkz-orm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tkz-tab/tkz-tab.sty:${PORTSDIR}/print/texlive-tkz-tab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tsemlines/tsemlines.sty:${PORTSDIR}/print/texlive-tsemlines \
-		${LOCALBASE}/share/texmf-dist/tex/latex/tufte-latex/tufte-book.cls:${PORTSDIR}/print/texlive-tufte-latex \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/tufte-latex/tufte.bst:${PORTSDIR}/print/texlive-tufte-latex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/venndiagram/venndiagram.sty:${PORTSDIR}/print/texlive-venndiagram \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xpicture/xpicture.sty:${PORTSDIR}/print/texlive-xpicture \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xypic/xypic.sty:${PORTSDIR}/print/texlive-xypic

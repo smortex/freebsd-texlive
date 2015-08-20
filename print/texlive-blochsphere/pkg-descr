@@ -1,0 +1,5 @@
+This package is used to draw pseudo-3D Blochsphere diagrams. It
+supports various annotations, such as great and small circles,
+axes, rotation markings and state vectors. It can be used in a
+standalone fashion, or nested within a tikzpicture environment
+by setting the environment option nested to true.

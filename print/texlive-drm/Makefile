@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	drm
-PORTVERSION=	20150503
+PORTVERSION=	20150818
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A complete family of fonts written in Metafont.
+COMMENT=	A complete family of fonts written in Metafont
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

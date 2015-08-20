@@ -1,15 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	pdfpages
+PORTNAME=	e-french
 PORTVERSION=	20150818
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Include PDF documents in LaTeX
+COMMENT=	Comprehensive LaTeX support for French-language typesetting
 
-RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty:${PORTSDIR}/print/texlive-eso-pic
-
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

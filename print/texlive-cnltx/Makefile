@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	cnltx
-PORTVERSION=	20150412
+PORTVERSION=	20150818
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX tools and documenting facilities.
+COMMENT=	LaTeX tools and documenting facilities
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
