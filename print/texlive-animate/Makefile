@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	animate
-PORTVERSION=	20150620
+PORTVERSION=	20150819
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create PDF animations from graphics files and inline graphics.
+COMMENT=	Create PDF animations from graphics files and inline graphics
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

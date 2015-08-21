@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	gradstudentresume
-PORTVERSION=	20150808
+PORTVERSION=	20150819
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

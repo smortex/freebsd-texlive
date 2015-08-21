@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	dvipdfmx-def
-PORTVERSION=	20150412
+PORTVERSION=	20150819
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Configuration file for dvipdfmx graphics.
+COMMENT=	Configuration file for dvipdfmx graphics
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	media9
-PORTVERSION=	20150731
+PORTVERSION=	20150819
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multimedia inclusion package with Adobe Reader-9/X compatibility.
+COMMENT=	Multimedia inclusion package with Adobe Reader-9/X compatibility
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pageslts
-PORTVERSION=	20150803
+PORTVERSION=	20150819
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Variants of last page labels.
+COMMENT=	Variants of last page labels
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
