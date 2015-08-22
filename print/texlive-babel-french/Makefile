@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-french
-PORTVERSION=	20150629
+PORTVERSION=	20150820
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Babel contributed support for French.
+COMMENT=	Babel contributed support for French
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	siunitx
-PORTVERSION=	20150718
+PORTVERSION=	20150820
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A comprehensive (SI) units package.
+COMMENT=	A comprehensive (SI) units package
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

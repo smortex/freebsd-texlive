@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	udesoftec
-PORTVERSION=	20150515
+PORTVERSION=	20150820
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Thesis class for the University of Duisburg-Essen.
+COMMENT=	Thesis class for the University of Duisburg-Essen
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

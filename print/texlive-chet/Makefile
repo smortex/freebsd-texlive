@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	chet
-PORTVERSION=	20150412
+PORTVERSION=	20150820
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX layout inspired by harvmac.
+COMMENT=	LaTeX layout inspired by harvmac
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

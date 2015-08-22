@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	disser
-PORTVERSION=	20150412
+PORTVERSION=	20150820
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class and templates for typesetting dissertations in Russian.
+COMMENT=	Class and templates for typesetting dissertations in Russian
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
