@@ -3642,6 +3642,8 @@ share/texmf-dist/tex4ht/ht-fonts/unicode/cyrillic/cmcyr/cmcbxti.htf
 share/texmf-dist/tex4ht/ht-fonts/unicode/cyrillic/cmcyr/cmccsc.htf
 share/texmf-dist/tex4ht/ht-fonts/unicode/dstroke/dsrom.htf
 share/texmf-dist/tex4ht/ht-fonts/unicode/dstroke/esint.htf
+share/texmf-dist/tex4ht/ht-fonts/unicode/ec/eccc-uni.htf
+share/texmf-dist/tex4ht/ht-fonts/unicode/ec/eccc.htf
 share/texmf-dist/tex4ht/ht-fonts/unicode/greek/ibygrk/fibr.htf
 share/texmf-dist/tex4ht/ht-fonts/unicode/hebrew/cjhebltx.htf
 share/texmf-dist/tex4ht/ht-fonts/unicode/hebrew/crml.htf

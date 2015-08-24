@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ecclesiastic
-PORTVERSION=	20150412
+PORTVERSION=	20150822
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesetting Ecclesiastic Latin.
+COMMENT=	Typesetting Ecclesiastic Latin
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

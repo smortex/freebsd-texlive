@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-latin
-PORTVERSION=	20150412
+PORTVERSION=	20150822
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Babel support for Latin.
+COMMENT=	Babel support for Latin
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
