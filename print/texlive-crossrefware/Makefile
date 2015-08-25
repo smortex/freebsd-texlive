@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	crossrefware
-PORTVERSION=	20150412
+PORTVERSION=	20150823
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Scripts for working with crossref.org.
+COMMENT=	Scripts for working with crossref.org
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
