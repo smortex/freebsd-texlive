@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bidi
-PORTVERSION=	20150704
+PORTVERSION=	20150824
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bidirectional typesetting in plain TeX and LaTeX, using XeTeX engine.
+COMMENT=	Bidirectional typesetting in plain TeX and LaTeX, using XeTeX engine
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

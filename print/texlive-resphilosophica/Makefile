@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	resphilosophica
-PORTVERSION=	20150413
+PORTVERSION=	20150824
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset articles for the journal Res Philosophica.
+COMMENT=	Typeset articles for the journal Res Philosophica
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
