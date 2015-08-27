@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	fbb
-PORTVERSION=	20150618
+PORTVERSION=	20150825
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A free Bembo-like font.
+COMMENT=	A free Bembo-like font
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ucharcat
-PORTVERSION=	20150615
+PORTVERSION=	20150825
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Implementation of the (new in 2015) xetex \Ucharcat command in lua, for luatex.
+COMMENT=	Implementation of the (new in 2015) XeTeX \Ucharcat command in lua, for LuaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
