@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	context-letter
-PORTVERSION=	20150412
+PORTVERSION=	20150826
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Context package for writing letters.
+COMMENT=	ConTeXt package for writing letters
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORTSDIR}/print/texlive-context
 

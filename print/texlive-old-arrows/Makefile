@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	latexconfig
+PORTNAME=	old-arrows
 PORTVERSION=	20150826
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The latexconfig package
+COMMENT=	Computer Modern old-style arrows with smaller arrowheads
 
-OPTIONS_EXCLUDE=	DOCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

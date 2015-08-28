@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20150704
+PORTVERSION=	20150826
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -147,6 +147,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fonetika/fonetika.sty:${PORTSDIR}/print/texlive-fonetika \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fontawesome/fontawesome.sty:${PORTSDIR}/print/texlive-fontawesome \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fontmfizz/fontmfizz.sty:${PORTSDIR}/print/texlive-fontmfizz \
+		${LOCALBASE}/share/texmf-dist/tex/latex/old-arrows/old-arrows.sty:${PORTSDIR}/print/texlive-old-arrows \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fourier/fourier.sty:${PORTSDIR}/print/texlive-fourier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fouriernc/fouriernc.sty:${PORTSDIR}/print/texlive-fouriernc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/frcursive/frcursive.sty:${PORTSDIR}/print/texlive-frcursive \

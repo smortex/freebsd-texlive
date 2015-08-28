@@ -1,0 +1,6 @@
+This package provides Computer Modern old-style arrows with
+smaller arrowheads, associated with the usual LaTeX commands.
+It can be used in documents that contain other amsmath arrow
+characters that also have small arrowheads. It is also possible
+to use the usual new-style Computer Modern arrows together with
+the old-style ones.
