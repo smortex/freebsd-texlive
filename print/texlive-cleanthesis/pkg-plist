@@ -1,0 +1,23 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/cleanthesis/CHANGELOG.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/cleanthesis/MANIFEST.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/cleanthesis/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/cleanthesis/bib-refs.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/cleanthesis/content/abstract.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cleanthesis/content/acknowledgement.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cleanthesis/content/chapter-concepts.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cleanthesis/content/chapter-conclusion.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cleanthesis/content/chapter-introduction.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cleanthesis/content/chapter-related-work.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cleanthesis/content/chapter-system.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cleanthesis/content/colophon.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cleanthesis/content/declaration.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cleanthesis/content/titlepages.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cleanthesis/doc/cleanthesis-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cleanthesis/doc/cleanthesis-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cleanthesis/gfx/Clean-Thesis-Figure.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cleanthesis/gfx/Clean-Thesis-Logo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cleanthesis/thesis-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cleanthesis/thesis-example.tex
+share/texmf-dist/tex/latex/cleanthesis/cleanthesis.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mhequ
-PORTVERSION=	20150413
+PORTVERSION=	20150828
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multicolumn equations, tags, labels, sub-numbering.
+COMMENT=	Multicolumn equations, tags, labels, sub-numbering
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

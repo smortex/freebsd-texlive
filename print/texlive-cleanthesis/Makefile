@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	IEEEtran
+PORTNAME=	cleanthesis
 PORTVERSION=	20150828
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Document class for IEEE Transactions journals and conferences
+COMMENT=	A clean LaTeX style for thesis documents
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

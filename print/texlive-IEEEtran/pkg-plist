@@ -19,15 +19,17 @@ share/texmf-dist/bibtex/bst/IEEEtran/IEEEtranSN.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/bare_conf_compsoc.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/bare_jrnl.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/bare_jrnl_compsoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/bare_jrnl_comsoc.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/bare_jrnl_transmag.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/bibtex/changelog.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/changelog.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/font_install_how.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/testflow.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/testflow_ctl_A4.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/testflow_ctl_LTR.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/testflow_doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/tools/changelog.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/tux.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/IEEEtran/tux.pdf
 share/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
 share/texmf-dist/tex/latex/IEEEtran/IEEEtrantools.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
