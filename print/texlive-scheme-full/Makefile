@@ -360,6 +360,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fonetika/fonetika.sty:${PORTSDIR}/print/texlive-fonetika \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fontawesome/fontawesome.sty:${PORTSDIR}/print/texlive-fontawesome \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fontmfizz/fontmfizz.sty:${PORTSDIR}/print/texlive-fontmfizz \
+		${LOCALBASE}/share/texmf-dist/tex/latex/old-arrows/old-arrows.sty:${PORTSDIR}/print/texlive-old-arrows \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fourier/fourier.sty:${PORTSDIR}/print/texlive-fourier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fouriernc/fouriernc.sty:${PORTSDIR}/print/texlive-fouriernc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/frcursive/frcursive.sty:${PORTSDIR}/print/texlive-frcursive \
@@ -1664,6 +1665,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/mciteplus/mciteplus.sty:${PORTSDIR}/print/texlive-mciteplus \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdframed/mdframed.sty:${PORTSDIR}/print/texlive-mdframed \
 		${LOCALBASE}/share/texmf-dist/tex/latex/media9/media9.sty:${PORTSDIR}/print/texlive-media9 \
+		${LOCALBASE}/share/texmf-dist/tex/latex/medstarbeamer/medstarbeamer.cls:${PORTSDIR}/print/texlive-medstarbeamer \
 		${LOCALBASE}/share/texmf-dist/tex/latex/meetingmins/meetingmins.cls:${PORTSDIR}/print/texlive-meetingmins \
 		${LOCALBASE}/share/texmf-dist/tex/latex/memexsupp/memexsupp.sty:${PORTSDIR}/print/texlive-memexsupp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/memory/memory.sty:${PORTSDIR}/print/texlive-memory \
@@ -2415,6 +2417,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/cascadilla/cascadilla.cls:${PORTSDIR}/print/texlive-cascadilla \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/chem-journal/jcc.bst:${PORTSDIR}/print/texlive-chem-journal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/classicthesis/classicthesis.sty:${PORTSDIR}/print/texlive-classicthesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cleanthesis/cleanthesis.sty:${PORTSDIR}/print/texlive-cleanthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmpj/cmpj.sty:${PORTSDIR}/print/texlive-cmpj \
 		${LOCALBASE}/share/texmf-dist/tex/latex/confproc/confproc.cls:${PORTSDIR}/print/texlive-confproc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dccpaper/dccpaper-base.tex:${PORTSDIR}/print/texlive-dccpaper \

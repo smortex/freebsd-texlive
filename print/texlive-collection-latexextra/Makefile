@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150806
+PORTVERSION=	20150829
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -126,6 +126,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/asypictureb/asypictureB.sty:${PORTSDIR}/print/texlive-asypictureb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/autoarea/autoarea.sty:${PORTSDIR}/print/texlive-autoarea \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bardiag/bardiag.sty:${PORTSDIR}/print/texlive-bardiag \
+		${LOCALBASE}/share/texmf-dist/tex/latex/blochsphere/blochsphere.sty:${PORTSDIR}/print/texlive-blochsphere \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bloques/bloques.sty:${PORTSDIR}/print/texlive-bloques \
 		${LOCALBASE}/share/texmf-dist/tex/latex/blox/blox.sty:${PORTSDIR}/print/texlive-blox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bodegraph/bodegraph.sty:${PORTSDIR}/print/texlive-bodegraph \
@@ -154,6 +155,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/esk/esk.sty:${PORTSDIR}/print/texlive-esk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fast-diagram/fast-diagram.sty:${PORTSDIR}/print/texlive-fast-diagram \
 		${LOCALBASE}/share/texmf-dist/scripts/fig4latex/fig4latex:${PORTSDIR}/print/texlive-fig4latex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fitbox/fitbox.sty:${PORTSDIR}/print/texlive-fitbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/flowchart/flowchart.sty:${PORTSDIR}/print/texlive-flowchart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/forest/forest.sty:${PORTSDIR}/print/texlive-forest \
 		${LOCALBASE}/share/texmf-dist/tex/latex/genealogytree/genealogytree.sty:${PORTSDIR}/print/texlive-genealogytree \
@@ -837,6 +839,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/mciteplus/mciteplus.sty:${PORTSDIR}/print/texlive-mciteplus \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdframed/mdframed.sty:${PORTSDIR}/print/texlive-mdframed \
 		${LOCALBASE}/share/texmf-dist/tex/latex/media9/media9.sty:${PORTSDIR}/print/texlive-media9 \
+		${LOCALBASE}/share/texmf-dist/tex/latex/medstarbeamer/medstarbeamer.cls:${PORTSDIR}/print/texlive-medstarbeamer \
 		${LOCALBASE}/share/texmf-dist/tex/latex/meetingmins/meetingmins.cls:${PORTSDIR}/print/texlive-meetingmins \
 		${LOCALBASE}/share/texmf-dist/tex/latex/memexsupp/memexsupp.sty:${PORTSDIR}/print/texlive-memexsupp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/memory/memory.sty:${PORTSDIR}/print/texlive-memory \

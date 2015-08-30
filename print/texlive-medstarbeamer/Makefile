@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	medstarbeamer
 PORTVERSION=	20150829
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	Beamer document class for MedStar Health Research Institute
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

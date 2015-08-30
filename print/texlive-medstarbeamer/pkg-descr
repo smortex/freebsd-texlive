@@ -1,0 +1,6 @@
+This is a beamer template for MedStar Health presentations. It
+includes sample presentations using both .tex files and .rnw
+files. The document class is obviously compatible with both.
+The advantage of the .rnw file is that it can be used with
+knitr such that you can weave your R code with your
+presentation.
