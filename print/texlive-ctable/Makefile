@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ctable
-PORTVERSION=	20150412
+PORTVERSION=	20150830
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Flexible typesetting of table and figure floats using key/value directives.
+COMMENT=	Flexible typesetting of table and figure floats using key/value directives
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

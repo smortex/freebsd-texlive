@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	etoc
-PORTVERSION=	20150430
+PORTVERSION=	20150830
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Completely customisable TOCs.
+COMMENT=	Completely customisable TOCs
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

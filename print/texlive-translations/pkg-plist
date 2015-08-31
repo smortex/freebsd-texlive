@@ -1,6 +1,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/translations/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/translations/translations_en.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/translations/translations_en.tex
+share/texmf-dist/tex/latex/translations/translations-basic-dictionary-catalan.trsl
 share/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 share/texmf-dist/tex/latex/translations/translations-basic-dictionary-french.trsl
 share/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl

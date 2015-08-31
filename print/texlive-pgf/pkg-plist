@@ -254,7 +254,6 @@
 %%PORTSRC%%share/texmf-dist/source/generic/pgf/testsuite/external/tikzexternaltest.tex
 %%PORTSRC%%share/texmf-dist/source/generic/pgf/testsuite/external/tikzexternaltestmakefile.tex
 %%PORTSRC%%share/texmf-dist/source/generic/pgf/testsuite/mathtest/pgfmathtestsuite.tex
-%%PORTSRC%%share/texmf-dist/source/generic/pgf/testsuite/mathtest/unittest_luamathparser.pdf
 %%PORTSRC%%share/texmf-dist/source/generic/pgf/testsuite/mathtest/unittest_luamathparser.tex
 share/texmf-dist/tex/context/third/pgf/basiclayer/t-pgf.tex
 share/texmf-dist/tex/context/third/pgf/basiclayer/t-pgfbim.tex
