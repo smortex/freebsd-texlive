@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pagecolor
-PORTVERSION=	20150624
+PORTVERSION=	20150831
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Interrogate page colour.
+COMMENT=	Interrogate page colour
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

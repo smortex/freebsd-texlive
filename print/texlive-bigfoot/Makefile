@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bigfoot
-PORTVERSION=	20150412
+PORTVERSION=	20150831
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Footnotes for critical editions.
+COMMENT=	Footnotes for critical editions
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
