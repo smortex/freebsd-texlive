@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	newtx
+PORTNAME=	xebaposter
 PORTVERSION=	20150901
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Alternative uses of the TX fonts, with improved metrics
+COMMENT=	Creates beautiful scientific posters using TikZ for XePersian's users
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

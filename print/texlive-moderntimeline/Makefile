@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	moderntimeline
-PORTVERSION=	20150413
+PORTVERSION=	20150901
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Timelines for use with moderncv.
+COMMENT=	Timelines for use with moderncv
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,0 +1,6 @@
+The package is designed for making scientific posters. This
+work is a fork of baposter by Brian Amberg and Reinhold
+Kainhofer available at http://www.brian-amberg.de/uni/poster/.
+The class should be used with bidi and xepersian packages,
+because it uses some special environments and commands from
+these packages.

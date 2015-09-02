@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/xebaposter/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/xebaposter/images/docs-boxshape.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xebaposter/images/docs-headerborder.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xebaposter/images/docs-headershape.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xebaposter/images/fig3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xebaposter/images/fig4.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xebaposter/images/fig5.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xebaposter/images/fig6.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xebaposter/images/logo.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/xebaposter/images/shariflogo.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/xebaposter/poster-fa.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xebaposter/poster-fa.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xebaposter/xebaposter-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xebaposter/xebaposter-doc.tex
+share/texmf-dist/tex/latex/xebaposter/xebaposter.cls
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	xint
-PORTVERSION=	20150413
+PORTVERSION=	20150901
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Expandable operations on long numbers.
+COMMENT=	Expandable operations on long numbers
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
