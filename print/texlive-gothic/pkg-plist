@@ -4,7 +4,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/gothic/suet.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/gothic/suet.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/gothic/yinit.pdf
-share/texmf-dist/fonts/source/public/gothic/cmfrabas.mf
+share/texmf-dist/fonts/source/public/gothic/cmfrabase.mf
 share/texmf-dist/fonts/source/public/gothic/cmfrak.mf
 share/texmf-dist/fonts/source/public/gothic/cmfraklow.mf
 share/texmf-dist/fonts/source/public/gothic/cmfrakmis.mf

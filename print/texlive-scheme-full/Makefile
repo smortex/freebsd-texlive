@@ -375,7 +375,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gillcm/gillcm.sty:${PORTSDIR}/print/texlive-gillcm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gillius/gillius.sty:${PORTSDIR}/print/texlive-gillius \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/gnu-freefont/FreeMono.otf:${PORTSDIR}/print/texlive-gnu-freefont \
-		${LOCALBASE}/share/texmf-dist/fonts/source/public/gothic/cmfrabas.mf:${PORTSDIR}/print/texlive-gothic \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/gothic/cmfrabase.mf:${PORTSDIR}/print/texlive-gothic \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/greenpoint/greenpoint.mf:${PORTSDIR}/print/texlive-greenpoint \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/urw/grotesq/ugqb8a.afm:${PORTSDIR}/print/texlive-grotesq \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hacm/hacm.sty:${PORTSDIR}/print/texlive-hacm \
@@ -2619,6 +2619,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/realscripts/realscripts.sty:${PORTSDIR}/print/texlive-realscripts \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty:${PORTSDIR}/print/texlive-ucharclasses \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/unisugar/unisugar.sty:${PORTSDIR}/print/texlive-unisugar \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xebaposter/xebaposter.cls:${PORTSDIR}/print/texlive-xebaposter \
 		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/xecjk/full-stop.map:${PORTSDIR}/print/texlive-xecjk \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecolor/xecolor.sty:${PORTSDIR}/print/texlive-xecolor \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecyr/xecyr.sty:${PORTSDIR}/print/texlive-xecyr \

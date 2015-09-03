@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	lettrine
-PORTVERSION=	20150412
+PORTVERSION=	20150902
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset dropped capitals.
+COMMENT=	Typeset dropped capitals
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

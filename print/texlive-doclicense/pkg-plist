@@ -1,15 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/doclicense/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/doclicense/doclicense.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/doclicense/images/doclicense-CC-by-nc-eu.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/doclicense/images/doclicense-CC-by-nc-nd-eu.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/doclicense/images/doclicense-CC-by-nc-sa-eu.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/doclicense/images/doclicense-CC-by-nc-sa.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/doclicense/images/doclicense-CC-by-nc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/doclicense/images/doclicense-CC-by-nd.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/doclicense/images/doclicense-CC-by-sa.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/doclicense/images/doclicense-CC-by.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/doclicense/images/doclicense-CC-pd.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/doclicense/images/doclicense-CC-zero.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/doclicense/doclicense.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/doclicense/doclicense.ins
 share/texmf-dist/tex/latex/doclicense/doclicense-UKenglish.ldf
@@ -27,5 +17,15 @@ share/texmf-dist/tex/latex/doclicense/doclicense-newzealand.ldf
 share/texmf-dist/tex/latex/doclicense/doclicense-ngerman.ldf
 share/texmf-dist/tex/latex/doclicense/doclicense-spanish.ldf
 share/texmf-dist/tex/latex/doclicense/doclicense.sty
+share/texmf-dist/tex/latex/doclicense/images/doclicense-CC-by-nc-eu.pdf
+share/texmf-dist/tex/latex/doclicense/images/doclicense-CC-by-nc-nd-eu.pdf
+share/texmf-dist/tex/latex/doclicense/images/doclicense-CC-by-nc-sa-eu.pdf
+share/texmf-dist/tex/latex/doclicense/images/doclicense-CC-by-nc-sa.pdf
+share/texmf-dist/tex/latex/doclicense/images/doclicense-CC-by-nc.pdf
+share/texmf-dist/tex/latex/doclicense/images/doclicense-CC-by-nd.pdf
+share/texmf-dist/tex/latex/doclicense/images/doclicense-CC-by-sa.pdf
+share/texmf-dist/tex/latex/doclicense/images/doclicense-CC-by.pdf
+share/texmf-dist/tex/latex/doclicense/images/doclicense-CC-pd.pdf
+share/texmf-dist/tex/latex/doclicense/images/doclicense-CC-zero.pdf
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

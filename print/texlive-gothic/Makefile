@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	gothic
-PORTVERSION=	20150412
+PORTVERSION=	20150902
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A collection of old German-style fonts.
+COMMENT=	A collection of old German-style fonts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

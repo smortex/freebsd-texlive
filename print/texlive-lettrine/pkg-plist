@@ -8,12 +8,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/lettrine/lettrine.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/lettrine/lettrine.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/lettrine/lettrine.ins
-share/texmf-dist/tex/latex/lettrine/contrib/optfile.cfl
-share/texmf-dist/tex/latex/lettrine/contrib/pacl.cfl
-share/texmf-dist/tex/latex/lettrine/contrib/padl.cfl
-share/texmf-dist/tex/latex/lettrine/contrib/pzc2.cfl
-share/texmf-dist/tex/latex/lettrine/contrib/pzc3.cfl
 share/texmf-dist/tex/latex/lettrine/lettrine.cfg
 share/texmf-dist/tex/latex/lettrine/lettrine.sty
+share/texmf-dist/tex/latex/lettrine/optfile.cfl
+share/texmf-dist/tex/latex/lettrine/pacl.cfl
+share/texmf-dist/tex/latex/lettrine/padl.cfl
+share/texmf-dist/tex/latex/lettrine/pzc2.cfl
+share/texmf-dist/tex/latex/lettrine/pzc3.cfl
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

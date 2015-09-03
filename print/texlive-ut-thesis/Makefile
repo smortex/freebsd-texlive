@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ut-thesis
-PORTVERSION=	20150413
+PORTVERSION=	20150902
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	University of Toronto thesis style.
+COMMENT=	University of Toronto thesis style
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
