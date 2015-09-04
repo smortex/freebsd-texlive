@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	etex-pkg
-PORTVERSION=	20150709
+PORTVERSION=	20150903
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	E-TeX support package.
+COMMENT=	E-TeX support package
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

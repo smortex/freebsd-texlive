@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	metrix
-PORTVERSION=	20150724
+PORTVERSION=	20150903
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset metric marks for Latin text.
+COMMENT=	Typeset metric marks for Latin text
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

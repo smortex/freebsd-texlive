@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	eledmac
-PORTVERSION=	20150721
+PORTVERSION=	20150903
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset scholarly editions.
+COMMENT=	Typeset scholarly editions
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

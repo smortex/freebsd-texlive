@@ -1,6 +1,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/shdoc/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/shdoc/shdoc_example.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/shdoc/shdoc_example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/shdoc/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/shdoc/shdoc.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/shdoc/shdoc.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/shdoc/shdoc.ins
 share/texmf-dist/tex/latex/shdoc/shdoc.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

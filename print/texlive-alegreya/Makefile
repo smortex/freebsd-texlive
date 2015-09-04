@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	alegreya
-PORTVERSION=	20150412
+PORTVERSION=	20150903
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Alegreya fonts with LaTeX support.
+COMMENT=	Alegreya fonts with LaTeX support
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
