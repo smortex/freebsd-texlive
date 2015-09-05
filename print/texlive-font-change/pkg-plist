@@ -1,7 +1,9 @@
-%%PORTDOCS%%share/texmf-dist/doc/plain/font-change/README
+%%PORTDOCS%%share/texmf-dist/doc/plain/font-change/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/plain/font-change/default-amssymbols.tex
 %%PORTDOCS%%share/texmf-dist/doc/plain/font-change/font-change.pdf
+%%PORTDOCS%%share/texmf-dist/doc/plain/font-change/font-change_FRENCH.pdf
 share/texmf-dist/tex/plain/font-change/font-change.tex
+share/texmf-dist/tex/plain/font-change/font-change_FRENCH.tex
 share/texmf-dist/tex/plain/font-change/font_antp_euler.tex
 share/texmf-dist/tex/plain/font-change/font_antt-condensed-light.tex
 share/texmf-dist/tex/plain/font-change/font_antt-condensed-medium.tex

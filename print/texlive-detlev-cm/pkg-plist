@@ -1,9 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/detlev-cm/LogoTop.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/detlev-cm/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/detlev-cm/SAS-CRJ900.png
-%%PORTDOCS%%share/texmf-dist/doc/latex/detlev-cm/Sample.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/detlev-cm/Sample.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/detlev-cm/Wing.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/detlev-cm/WingSunrise.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/detlev-cm/beamer-theme-detlevcm.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/detlev-cm/beamer-theme-detlevcm.tex
 share/texmf-dist/tex/latex/detlev-cm/beamercolorthemeETII.sty
 share/texmf-dist/tex/latex/detlev-cm/beamerfontthemeDetlevCM.sty
 share/texmf-dist/tex/latex/detlev-cm/beamerouterthemeDetlevCM.sty
