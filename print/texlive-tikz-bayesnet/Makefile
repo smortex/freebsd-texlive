@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	greek-fontenc
+PORTNAME=	tikz-bayesnet
 PORTVERSION=	20150906
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LICR macros and encoding definition files for Greek
+COMMENT=	Draw Bayesian networks, graphical models and directed factor graphs
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

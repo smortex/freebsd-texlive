@@ -1,11 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	udesoftec
+PORTNAME=	checklistings
 PORTVERSION=	20150906
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Thesis class for the University of Duisburg-Essen
+COMMENT=	Pass verbatim contents through a compiler and reincorporate the resulting output
+
+RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

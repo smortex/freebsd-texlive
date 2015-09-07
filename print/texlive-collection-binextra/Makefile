@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-binextra
-PORTVERSION=	20150704
+PORTVERSION=	20150906
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -47,6 +47,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/asymptote/asymptote.sty:${PORTSDIR}/print/texlive-asymptote \
 		${LOCALBASE}/share/texmf-dist/bibtex/csf/base/88591lat.csf:${PORTSDIR}/print/texlive-bibtex8 \
 		${LOCALBASE}/share/texmf-dist/scripts/bundledoc/arlatex:${PORTSDIR}/print/texlive-bundledoc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/checklistings/checklistings.sty:${PORTSDIR}/print/texlive-checklistings \
 		${LOCALBASE}/share/texmf-dist/chktex/chktexrc:${PORTSDIR}/print/texlive-chktex \
 		${LOCALBASE}/share/texmf-dist/scripts/ctanify/ctanify:${PORTSDIR}/print/texlive-ctanify \
 		${LOCALBASE}/share/texmf-dist/scripts/ctanupload/ctanupload.pl:${PORTSDIR}/print/texlive-ctanupload \

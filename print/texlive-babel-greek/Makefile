@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-greek
-PORTVERSION=	20150412
+PORTVERSION=	20150906
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Babel support for documents written in Greek.
+COMMENT=	Babel support for documents written in Greek
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

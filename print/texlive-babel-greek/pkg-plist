@@ -3,7 +3,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/babel-greek/athnum.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/babel-greek/babel-greek.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/babel-greek/grmath.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/babel-greek/grsymb.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/babel-greek/test-greek.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/babel-greek/test-greek.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/babel-greek/test-unicode-greek.pdf
@@ -16,10 +15,8 @@
 %%PORTSRC%%share/texmf-dist/source/generic/babel-greek/babel-greek.dtx
 %%PORTSRC%%share/texmf-dist/source/generic/babel-greek/babel-greek.ins
 %%PORTSRC%%share/texmf-dist/source/generic/babel-greek/grmath.dtx
-%%PORTSRC%%share/texmf-dist/source/generic/babel-greek/grsymb.dtx
 share/texmf-dist/tex/generic/babel-greek/athnum.sty
 share/texmf-dist/tex/generic/babel-greek/greek.ldf
 share/texmf-dist/tex/generic/babel-greek/grmath.sty
-share/texmf-dist/tex/generic/babel-greek/grsymb.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

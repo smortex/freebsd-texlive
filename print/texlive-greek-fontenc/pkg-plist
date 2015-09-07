@@ -18,6 +18,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/lgrenc-test.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/lgrenc-test.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/lgrenc.def.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/test-active-semicolon.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/test-nameclashes.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/textalpha-doc.html
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/textalpha-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/textalpha-doc.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/greek-fontenc/textalpha.sty.html

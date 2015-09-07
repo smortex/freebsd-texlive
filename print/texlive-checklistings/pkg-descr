@@ -1,0 +1,7 @@
+This package augments the fancyvrb and listings packages to
+allow the source code they contain to be checked by an external
+tool (like a compiler). The external tool's messages can be
+automatically reincorporated into the original document. The
+package does not focus on a specific programming language, but
+it is designed to work well with languages and compilers in the
+ML family.

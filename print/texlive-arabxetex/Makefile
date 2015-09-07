@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	arabxetex
-PORTVERSION=	20150412
+PORTVERSION=	20150906
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	An ArabTeX-like interface for XeLaTeX.
+COMMENT=	An ArabTeX-like interface for XeLaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
