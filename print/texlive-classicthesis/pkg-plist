@@ -1,3 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/AMiede_Publications.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/Bibliography.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/CHANGES
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/COPYING
@@ -25,7 +26,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/FrontBackmatter/Declaration.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/FrontBackmatter/Dedication.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/FrontBackmatter/DirtyTitlepage.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/FrontBackmatter/Publication.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/FrontBackmatter/Publications.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/FrontBackmatter/Titleback.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/FrontBackmatter/Titlepage.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/classicthesis/LISTOFFILES

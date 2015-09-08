@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	l3packages
-PORTVERSION=	20150730
+PORTVERSION=	20150907
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	High-level LaTeX3 concepts.
+COMMENT=	High-level LaTeX3 concepts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	l3kernel
-PORTVERSION=	20150801
+PORTVERSION=	20150907
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX3 programming conventions.
+COMMENT=	LaTeX3 programming conventions
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

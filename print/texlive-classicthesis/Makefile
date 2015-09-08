@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	classicthesis
-PORTVERSION=	20150412
+PORTVERSION=	20150907
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A "classically styled" thesis package.
+COMMENT=	A "classically styled" thesis package
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

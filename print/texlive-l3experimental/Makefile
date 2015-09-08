@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	l3experimental
-PORTVERSION=	20150730
+PORTVERSION=	20150907
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Experimental LaTeX3 concepts.
+COMMENT=	Experimental LaTeX3 concepts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

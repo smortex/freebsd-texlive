@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	luatexja
-PORTVERSION=	20150521
+PORTVERSION=	20150907
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset Japanese with lua(la)tex.
+COMMENT=	Typeset Japanese with Lua(La)TeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
