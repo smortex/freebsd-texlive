@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	fithesis
-PORTVERSION=	20150709
+PORTVERSION=	20150908
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Thesis class and template for Masaryk University (Brno, Czech Republic).
+COMMENT=	Thesis class and template for Masaryk University (Brno, Czech Republic)
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

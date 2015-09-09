@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150829
+PORTVERSION=	20150908
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -218,6 +218,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/texdraw/texdraw.sty:${PORTSDIR}/print/texlive-texdraw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ticollege/ticollege.sty:${PORTSDIR}/print/texlive-ticollege \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty:${PORTSDIR}/print/texlive-tikz-3dplot \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-bayesnet/tikzlibrarybayesnet.code.tex:${PORTSDIR}/print/texlive-tikz-bayesnet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty:${PORTSDIR}/print/texlive-tikz-cd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-dependency/tikz-dependency.sty:${PORTSDIR}/print/texlive-tikz-dependency \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-dimline/tikz-dimline.sty:${PORTSDIR}/print/texlive-tikz-dimline \
@@ -999,6 +1000,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/program/program.sty:${PORTSDIR}/print/texlive-program \
 		${LOCALBASE}/share/texmf-dist/tex/latex/progress/progress.sty:${PORTSDIR}/print/texlive-progress \
 		${LOCALBASE}/share/texmf-dist/tex/latex/progressbar/progressbar.sty:${PORTSDIR}/print/texlive-progressbar \
+		${LOCALBASE}/share/texmf-dist/tex/latex/proofread/proofread.sty:${PORTSDIR}/print/texlive-proofread \
 		${LOCALBASE}/share/texmf-dist/tex/latex/properties/properties.sty:${PORTSDIR}/print/texlive-properties \
 		${LOCALBASE}/share/texmf-dist/tex/latex/prosper/prosper.cls:${PORTSDIR}/print/texlive-prosper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/protex/AlProTex.sty:${PORTSDIR}/print/texlive-protex \

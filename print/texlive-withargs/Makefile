@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	withargs
-PORTVERSION=	20150413
+PORTVERSION=	20150908
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Ephemeral macro use.
+COMMENT=	Ephemeral macro use
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

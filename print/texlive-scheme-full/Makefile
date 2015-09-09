@@ -175,6 +175,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/asymptote/asymptote.sty:${PORTSDIR}/print/texlive-asymptote \
 		${LOCALBASE}/share/texmf-dist/bibtex/csf/base/88591lat.csf:${PORTSDIR}/print/texlive-bibtex8 \
 		${LOCALBASE}/share/texmf-dist/scripts/bundledoc/arlatex:${PORTSDIR}/print/texlive-bundledoc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/checklistings/checklistings.sty:${PORTSDIR}/print/texlive-checklistings \
 		${LOCALBASE}/share/texmf-dist/chktex/chktexrc:${PORTSDIR}/print/texlive-chktex \
 		${LOCALBASE}/share/texmf-dist/scripts/ctanify/ctanify:${PORTSDIR}/print/texlive-ctanify \
 		${LOCALBASE}/share/texmf-dist/scripts/ctanupload/ctanupload.pl:${PORTSDIR}/print/texlive-ctanupload \
@@ -1044,6 +1045,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/texdraw/texdraw.sty:${PORTSDIR}/print/texlive-texdraw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ticollege/ticollege.sty:${PORTSDIR}/print/texlive-ticollege \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty:${PORTSDIR}/print/texlive-tikz-3dplot \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-bayesnet/tikzlibrarybayesnet.code.tex:${PORTSDIR}/print/texlive-tikz-bayesnet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty:${PORTSDIR}/print/texlive-tikz-cd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-dependency/tikz-dependency.sty:${PORTSDIR}/print/texlive-tikz-dependency \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-dimline/tikz-dimline.sty:${PORTSDIR}/print/texlive-tikz-dimline \
@@ -1825,6 +1827,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/program/program.sty:${PORTSDIR}/print/texlive-program \
 		${LOCALBASE}/share/texmf-dist/tex/latex/progress/progress.sty:${PORTSDIR}/print/texlive-progress \
 		${LOCALBASE}/share/texmf-dist/tex/latex/progressbar/progressbar.sty:${PORTSDIR}/print/texlive-progressbar \
+		${LOCALBASE}/share/texmf-dist/tex/latex/proofread/proofread.sty:${PORTSDIR}/print/texlive-proofread \
 		${LOCALBASE}/share/texmf-dist/tex/latex/properties/properties.sty:${PORTSDIR}/print/texlive-properties \
 		${LOCALBASE}/share/texmf-dist/tex/latex/prosper/prosper.cls:${PORTSDIR}/print/texlive-prosper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/protex/AlProTex.sty:${PORTSDIR}/print/texlive-protex \
