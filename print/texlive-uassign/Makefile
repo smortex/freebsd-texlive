@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	bxjscls
+PORTNAME=	uassign
 PORTVERSION=	20150909
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Japanese document class collection for all major engines
+COMMENT=	Provides environments and options for typesetting university assignments
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

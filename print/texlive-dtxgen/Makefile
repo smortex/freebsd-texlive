@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	dtxgen
-PORTVERSION=	20150412
+PORTVERSION=	20150909
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Creates a template for a self-extracting .dtx file.
+COMMENT=	Creates a template for a self-extracting .dtx file
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
