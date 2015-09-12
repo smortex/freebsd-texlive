@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150909
+PORTVERSION=	20150911
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -848,6 +848,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/menukeys/menukeys.sty:${PORTSDIR}/print/texlive-menukeys \
 		${LOCALBASE}/share/texmf-dist/tex/latex/method/method.sty:${PORTSDIR}/print/texlive-method \
 		${LOCALBASE}/share/texmf-dist/tex/latex/metre/metre.sty:${PORTSDIR}/print/texlive-metre \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty:${PORTSDIR}/print/texlive-mfirstuc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mftinc/mftinc.sty:${PORTSDIR}/print/texlive-mftinc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/midpage/midpage.sty:${PORTSDIR}/print/texlive-midpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minibox/minibox.sty:${PORTSDIR}/print/texlive-minibox \

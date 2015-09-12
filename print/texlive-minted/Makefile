@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	minted
-PORTVERSION=	20150413
+PORTVERSION=	20150911
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Highlighted source code for LaTeX.
+COMMENT=	Highlighted source code for LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

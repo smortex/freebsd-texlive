@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	abc
-PORTVERSION=	20150412
+PORTVERSION=	20150911
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support ABC music notation in LaTeX.
+COMMENT=	Support ABC music notation in LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

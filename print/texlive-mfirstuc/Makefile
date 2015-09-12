@@ -1,13 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	unicode-math
+PORTNAME=	mfirstuc
 PORTVERSION=	20150911
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Unicode mathematics support for XeTeX and LuaTeX
-
-RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/fontspec/fontspec.sty:${PORTSDIR}/print/texlive-fontspec
+COMMENT=	Uppercase the first letter of a word
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
