@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langeuropean
-PORTVERSION=	20150412
+PORTVERSION=	20150912
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -70,6 +70,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/finbib/finplain.bst:${PORTSDIR}/print/texlive-finbib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hrlatex/hrlatex.sty:${PORTSDIR}/print/texlive-hrlatex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lithuanian/lithuanian.sty:${PORTSDIR}/print/texlive-lithuanian \
+		${LOCALBASE}/share/texmf-dist/tex/latex/nevelok/nevelok.sty:${PORTSDIR}/print/texlive-nevelok \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/swebib/sweabbrv.bst:${PORTSDIR}/print/texlive-swebib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/turkmen/turkmen.ldf:${PORTSDIR}/print/texlive-turkmen
 

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	suftesi
-PORTVERSION=	20150615
+PORTVERSION=	20150912
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A document class for typesetting theses, books and articles.
+COMMENT=	A document class for typesetting theses, books and articles
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

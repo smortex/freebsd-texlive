@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fontname
-PORTVERSION=	20150412
+PORTVERSION=	20150912
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Scheme for naming fonts in TeX.
+COMMENT=	Scheme for naming fonts in TeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

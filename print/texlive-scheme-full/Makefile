@@ -765,6 +765,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/finbib/finplain.bst:${PORTSDIR}/print/texlive-finbib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hrlatex/hrlatex.sty:${PORTSDIR}/print/texlive-hrlatex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lithuanian/lithuanian.sty:${PORTSDIR}/print/texlive-lithuanian \
+		${LOCALBASE}/share/texmf-dist/tex/latex/nevelok/nevelok.sty:${PORTSDIR}/print/texlive-nevelok \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/swebib/sweabbrv.bst:${PORTSDIR}/print/texlive-swebib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/turkmen/turkmen.ldf:${PORTSDIR}/print/texlive-turkmen \
 		${LOCALBASE}/share/texmf-dist/tex/latex/aeguill/aeguill.sty:${PORTSDIR}/print/texlive-aeguill \
@@ -1357,6 +1358,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/easy-todo/easy-todo.sty:${PORTSDIR}/print/texlive-easy-todo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/easyfig/easyfig.sty:${PORTSDIR}/print/texlive-easyfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/easylist/easylist.sty:${PORTSDIR}/print/texlive-easylist \
+		${LOCALBASE}/share/texmf-dist/tex/latex/easyreview/easyReview.sty:${PORTSDIR}/print/texlive-easyreview \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebezier/ebezier.sty:${PORTSDIR}/print/texlive-ebezier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ecclesiastic/ecclesiastic.sty:${PORTSDIR}/print/texlive-ecclesiastic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ecv/ecv.cls:${PORTSDIR}/print/texlive-ecv \
@@ -1675,6 +1677,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/menukeys/menukeys.sty:${PORTSDIR}/print/texlive-menukeys \
 		${LOCALBASE}/share/texmf-dist/tex/latex/method/method.sty:${PORTSDIR}/print/texlive-method \
 		${LOCALBASE}/share/texmf-dist/tex/latex/metre/metre.sty:${PORTSDIR}/print/texlive-metre \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty:${PORTSDIR}/print/texlive-mfirstuc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mftinc/mftinc.sty:${PORTSDIR}/print/texlive-mftinc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/midpage/midpage.sty:${PORTSDIR}/print/texlive-midpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/minibox/minibox.sty:${PORTSDIR}/print/texlive-minibox \
@@ -2055,6 +2058,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/type1cm/type1cm.sty:${PORTSDIR}/print/texlive-type1cm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/typeface/typeface.sty:${PORTSDIR}/print/texlive-typeface \
 		${LOCALBASE}/share/texmf-dist/tex/latex/typogrid/typogrid.sty:${PORTSDIR}/print/texlive-typogrid \
+		${LOCALBASE}/share/texmf-dist/tex/latex/uassign/uassign.sty:${PORTSDIR}/print/texlive-uassign \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucs/ucs.sty:${PORTSDIR}/print/texlive-ucs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uebungsblatt/uebungsblatt.cls:${PORTSDIR}/print/texlive-uebungsblatt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umoline/umoline.sty:${PORTSDIR}/print/texlive-umoline \

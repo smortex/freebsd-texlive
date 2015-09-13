@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150911
+PORTVERSION=	20150912
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -530,6 +530,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/easy-todo/easy-todo.sty:${PORTSDIR}/print/texlive-easy-todo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/easyfig/easyfig.sty:${PORTSDIR}/print/texlive-easyfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/easylist/easylist.sty:${PORTSDIR}/print/texlive-easylist \
+		${LOCALBASE}/share/texmf-dist/tex/latex/easyreview/easyReview.sty:${PORTSDIR}/print/texlive-easyreview \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebezier/ebezier.sty:${PORTSDIR}/print/texlive-ebezier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ecclesiastic/ecclesiastic.sty:${PORTSDIR}/print/texlive-ecclesiastic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ecv/ecv.cls:${PORTSDIR}/print/texlive-ecv \

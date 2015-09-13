@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	xebaposter
+PORTNAME=	easyreview
 PORTVERSION=	20150912
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Creates beautiful scientific Persian/Latin posters using TikZ
+COMMENT=	Package to provide a way to review (or perform editorial process) in LaTeX
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

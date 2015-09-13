@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pstricks
-PORTVERSION=	20150728
+PORTVERSION=	20150912
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	PostScript macros for TeX.
+COMMENT=	PostScript macros for TeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
