@@ -1,6 +1,31 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/chemmacros/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/chemmacros/chemmacros_en.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/chemmacros/chemmacros_en.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.acid-base.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.all.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.base.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.charges.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.chemformula.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.greek.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.isotopes.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.lang.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.mechanisms.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.newman.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.nomenclature.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.orbital.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.particles.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.phases.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.reactions.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.redox.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.scheme.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.spectroscopy.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.symbols.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.thermodynamics.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.tikz.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.units.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.xfrac.code.tex
 share/texmf-dist/tex/latex/chemmacros/chemmacros.sty
+share/texmf-dist/tex/latex/chemmacros/chemmacros4.sty
+share/texmf-dist/tex/latex/chemmacros/chemmacros5.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -52,6 +52,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3seq.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3skip.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3str.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3sys.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3tl.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3token.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3unicode-data.dtx

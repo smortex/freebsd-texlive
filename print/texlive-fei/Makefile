@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	ulthese
+PORTNAME=	fei
 PORTVERSION=	20150913
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Thesis class and templates for Universite Laval
+COMMENT=	Class for academic works at FEI University Center -- Brazil
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20150828
+PORTVERSION=	20150913
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -112,6 +112,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fbithesis/fbithesis.cls:${PORTSDIR}/print/texlive-fbithesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fcavtex/fcavtex.cls:${PORTSDIR}/print/texlive-fcavtex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fcltxdoc/fcltxdoc.sty:${PORTSDIR}/print/texlive-fcltxdoc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fei/fei.cls:${PORTSDIR}/print/texlive-fei \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gaceta/gaceta.cls:${PORTSDIR}/print/texlive-gaceta \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gatech-thesis/gatech-thesis.cls:${PORTSDIR}/print/texlive-gatech-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gradstudentresume/gradstudentresume.cls:${PORTSDIR}/print/texlive-gradstudentresume \

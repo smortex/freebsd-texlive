@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	chemmacros
-PORTVERSION=	20150412
+PORTVERSION=	20150913
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A collection of macros to support typesetting chemistry documents.
+COMMENT=	A collection of macros to support typesetting chemistry documents
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
