@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ctanify
-PORTVERSION=	20150617
+PORTVERSION=	20150915
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Prepare a package for upload to CTAN.
+COMMENT=	Prepare a package for upload to CTAN
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

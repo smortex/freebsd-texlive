@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-welsh
-PORTVERSION=	20150412
+PORTVERSION=	20150915
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Babel support for Welsh.
+COMMENT=	Babel support for Welsh
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
