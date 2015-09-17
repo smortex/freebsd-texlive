@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	datetime2
-PORTVERSION=	20150412
+PORTVERSION=	20150916
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Formats for dates, times and time zones.
+COMMENT=	Formats for dates, times and time zones
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
