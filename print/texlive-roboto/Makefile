@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	roboto
-PORTVERSION=	20150418
+PORTVERSION=	20150917
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for the Roboto family of fonts.
+COMMENT=	Support for the Roboto family of fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
