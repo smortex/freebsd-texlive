@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	caption
-PORTVERSION=	20150412
+PORTVERSION=	20150918
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Customising captions in floating environments.
+COMMENT=	Customising captions in floating environments
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

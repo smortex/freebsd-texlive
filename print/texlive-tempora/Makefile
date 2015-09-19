@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	xint
+PORTNAME=	tempora
 PORTVERSION=	20150918
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Expandable operations on long numbers
+COMMENT=	Greek and Cyrillic to accompany Times
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

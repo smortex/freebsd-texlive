@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20150826
+PORTVERSION=	20150918
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -162,7 +162,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gillcm/gillcm.sty:${PORTSDIR}/print/texlive-gillcm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gillius/gillius.sty:${PORTSDIR}/print/texlive-gillius \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/gnu-freefont/FreeMono.otf:${PORTSDIR}/print/texlive-gnu-freefont \
-		${LOCALBASE}/share/texmf-dist/fonts/source/public/gothic/cmfrabas.mf:${PORTSDIR}/print/texlive-gothic \
+		${LOCALBASE}/share/texmf-dist/fonts/source/public/gothic/cmfrabase.mf:${PORTSDIR}/print/texlive-gothic \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/greenpoint/greenpoint.mf:${PORTSDIR}/print/texlive-greenpoint \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/urw/grotesq/ugqb8a.afm:${PORTSDIR}/print/texlive-grotesq \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hacm/hacm.sty:${PORTSDIR}/print/texlive-hacm \
@@ -249,6 +249,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/stix/stix.sty:${PORTSDIR}/print/texlive-stix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/superiors/superiors.sty:${PORTSDIR}/print/texlive-superiors \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/tapir/tap-enc.mf:${PORTSDIR}/print/texlive-tapir \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tempora/tempora.sty:${PORTSDIR}/print/texlive-tempora \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tengwarscript/tengwarscript.sty:${PORTSDIR}/print/texlive-tengwarscript \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tfrupee/tfrupee.sty:${PORTSDIR}/print/texlive-tfrupee \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tpslifonts/tpslifonts.sty:${PORTSDIR}/print/texlive-tpslifonts \
