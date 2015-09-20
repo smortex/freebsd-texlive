@@ -1,14 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	pdftex
+PORTNAME=	archaeologie
 PORTVERSION=	20150919
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A TeX extension for direct creation of PDF
-
-RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
-		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
+COMMENT=	The archaeologie package
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
