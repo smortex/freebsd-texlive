@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150912
+PORTVERSION=	20150920
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -590,6 +590,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/exceltex/exceltex.sty:${PORTSDIR}/print/texlive-exceltex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/excludeonly/excludeonly.sty:${PORTSDIR}/print/texlive-excludeonly \
 		${LOCALBASE}/share/texmf-dist/tex/latex/exercise/exercise.sty:${PORTSDIR}/print/texlive-exercise \
+		${LOCALBASE}/share/texmf-dist/tex/latex/exercises/exercises.sty:${PORTSDIR}/print/texlive-exercises \
 		${LOCALBASE}/share/texmf-dist/tex/latex/exp-testopt/exp-testopt.sty:${PORTSDIR}/print/texlive-exp-testopt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/expdlist/expdlist.sty:${PORTSDIR}/print/texlive-expdlist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/export/export.sty:${PORTSDIR}/print/texlive-export \

@@ -1,0 +1,4 @@
+This package defines the environments exercise and solution.
+The layout of these environments can be customized. The --
+optional -- points in the exercises can be added automatically.
+The package also permits to hide the solutions.

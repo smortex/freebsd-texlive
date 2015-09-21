@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	suftesi
+PORTNAME=	exercises
 PORTVERSION=	20150920
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A document class for typesetting theses, books and articles
+COMMENT=	Typeset exercises and solutions with automatic addition of points
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

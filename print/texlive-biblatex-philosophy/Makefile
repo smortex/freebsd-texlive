@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-philosophy
-PORTVERSION=	20150615
+PORTVERSION=	20150920
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Styles for using biblatex for work in philosophy.
+COMMENT=	Styles for using BibLaTeX for work in philosophy
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

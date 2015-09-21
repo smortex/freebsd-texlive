@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	teubner
-PORTVERSION=	20150413
+PORTVERSION=	20150920
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Philological typesetting of classical Greek.
+COMMENT=	Philological typesetting of classical Greek
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
