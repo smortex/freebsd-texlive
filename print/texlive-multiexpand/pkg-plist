@@ -1,6 +1,11 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/multiexpand/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/multiexpand/multiexpand.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/multiexpand/multiexpand.dtx
-share/texmf-dist/tex/latex/multiexpand/multiexpand.sty
+%%PORTDOCS%%share/texmf-dist/doc/generic/multiexpand/README.md
+%%PORTDOCS%%share/texmf-dist/doc/generic/multiexpand/multiexpand.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/multiexpand/multiexpand001.lvt
+%%PORTDOCS%%share/texmf-dist/doc/generic/multiexpand/multiexpand001.tlg
+%%PORTDOCS%%share/texmf-dist/doc/generic/multiexpand/multiexpand002.lvt
+%%PORTDOCS%%share/texmf-dist/doc/generic/multiexpand/multiexpand002.tlg
+%%PORTSRC%%share/texmf-dist/source/generic/multiexpand/multiexpand.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/multiexpand/multiexpand.ins
+share/texmf-dist/tex/generic/multiexpand/multiexpand.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

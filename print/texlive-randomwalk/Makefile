@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	randomwalk
-PORTVERSION=	20150413
+PORTVERSION=	20150921
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Random walks using TikZ.
+COMMENT=	Random walks using TikZ
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

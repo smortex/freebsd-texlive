@@ -1420,6 +1420,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/exceltex/exceltex.sty:${PORTSDIR}/print/texlive-exceltex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/excludeonly/excludeonly.sty:${PORTSDIR}/print/texlive-excludeonly \
 		${LOCALBASE}/share/texmf-dist/tex/latex/exercise/exercise.sty:${PORTSDIR}/print/texlive-exercise \
+		${LOCALBASE}/share/texmf-dist/tex/latex/exercises/exercises.sty:${PORTSDIR}/print/texlive-exercises \
 		${LOCALBASE}/share/texmf-dist/tex/latex/exp-testopt/exp-testopt.sty:${PORTSDIR}/print/texlive-exp-testopt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/expdlist/expdlist.sty:${PORTSDIR}/print/texlive-expdlist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/export/export.sty:${PORTSDIR}/print/texlive-export \
@@ -1715,7 +1716,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/multibbl/multibbl.sty:${PORTSDIR}/print/texlive-multibbl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multicap/multicap.sty:${PORTSDIR}/print/texlive-multicap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multienv/multienv.sty:${PORTSDIR}/print/texlive-multienv \
-		${LOCALBASE}/share/texmf-dist/tex/latex/multiexpand/multiexpand.sty:${PORTSDIR}/print/texlive-multiexpand \
+		${LOCALBASE}/share/texmf-dist/tex/generic/multiexpand/multiexpand.sty:${PORTSDIR}/print/texlive-multiexpand \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multirow/multirow.sty:${PORTSDIR}/print/texlive-multirow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mversion/mVersion.sty:${PORTSDIR}/print/texlive-mversion \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mwe/mwe.sty:${PORTSDIR}/print/texlive-mwe \
