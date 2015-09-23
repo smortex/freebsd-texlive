@@ -1,0 +1,34 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/gpl.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/manual/h2020proposal.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/manual/h2020proposal.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-fet/abstract.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-fet/appendix.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-fet/ethics.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-fet/excellence.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-fet/gantt.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-fet/impact.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-fet/implementation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-fet/members.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-fet/template-fet.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-fet/template-fet.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-fet/wp-develop.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-fet/wp-management.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-fet/wp-test.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-ict/abstract.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-ict/appendix.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-ict/ethics.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-ict/excellence.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-ict/gantt.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-ict/impact.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-ict/implementation.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-ict/implementation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-ict/members.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-ict/template-ict.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-ict/template-ict.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-ict/wp-develop.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-ict/wp-management.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/h2020proposal/template-ict/wp-test.tex
+share/texmf-dist/tex/latex/h2020proposal/h2020proposal.cls
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

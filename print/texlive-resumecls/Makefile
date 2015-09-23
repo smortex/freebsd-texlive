@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	resumecls
-PORTVERSION=	20150617
+PORTVERSION=	20150922
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset a resumee in both Chinese and English.
+COMMENT=	Typeset a resume both in English and Chinese
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	exercises
+PORTNAME=	h2020proposal
 PORTVERSION=	20150922
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset exercises and solutions with automatic addition of points
+COMMENT=	LaTeX class and template for EU H2020 RIA proposal
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
