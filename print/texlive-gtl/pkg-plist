@@ -1,4 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/gtl/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/gtl/README.md
 %%PORTDOCS%%share/texmf-dist/doc/latex/gtl/gtl.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/gtl/gtl.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/gtl/gtl.ins

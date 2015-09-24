@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	xetex-def
-PORTVERSION=	20150413
+PORTVERSION=	20150923
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Colour and graphics support for XeTeX.
+COMMENT=	Colour and graphics support for XeTeX
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

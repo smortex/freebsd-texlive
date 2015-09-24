@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	unravel
-PORTVERSION=	20150413
+PORTVERSION=	20150923
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Watching TeX digest tokens.
+COMMENT=	Watching TeX digest tokens
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

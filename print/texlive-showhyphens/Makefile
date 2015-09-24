@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	showhyphens
-PORTVERSION=	20150413
+PORTVERSION=	20150923
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Show all possible hyphenations in LuaLaTeX.
+COMMENT=	Show all possible hyphenations in LuaLaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

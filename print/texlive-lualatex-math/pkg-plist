@@ -1,13 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/MANIFEST
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/README
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/lualatex-math-de.pdf
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/lualatex-math.pdf
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/test-amsmath.pdf
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/test-icomma-unicode.pdf
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/test-icomma.pdf
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/test-kernel-alloc.pdf
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/test-kernel-style.pdf
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/test-kernel.pdf
-%%PORTDOCS%%share/texmf-dist/doc/lualatex/lualatex-math/test-unicode.pdf
 %%PORTSRC%%share/texmf-dist/source/lualatex/lualatex-math/lualatex-math.dtx
 %%PORTSRC%%share/texmf-dist/source/lualatex/lualatex-math/lualatex-math.ins
 share/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.lua

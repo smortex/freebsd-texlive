@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	lualatex-math
-PORTVERSION=	20150412
+PORTVERSION=	20150923
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fixes for mathematics-related LuaLaTeX issues.
+COMMENT=	Fixes for mathematics-related LuaLaTeX issues
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

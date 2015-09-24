@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	gtl
-PORTVERSION=	20150412
+PORTVERSION=	20150923
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Manipulating generalized token lists.
+COMMENT=	Manipulating generalized token lists
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
