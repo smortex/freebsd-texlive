@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	make4ht
-PORTVERSION=	20150704
+PORTVERSION=	20150924
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A build system for tex4ht.
+COMMENT=	A build system for tex4ht
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

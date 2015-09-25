@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	odsfile
-PORTVERSION=	20150413
+PORTVERSION=	20150924
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Read OpenDocument Spreadsheet documents as LaTeX tables.
+COMMENT=	Read OpenDocument Spreadsheet documents as LaTeX tables
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

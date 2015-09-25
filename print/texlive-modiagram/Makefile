@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	modiagram
-PORTVERSION=	20150720
+PORTVERSION=	20150924
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Drawing molecular orbital diagrams.
+COMMENT=	Drawing molecular orbital diagrams
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
