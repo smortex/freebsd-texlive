@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	rubik
-PORTVERSION=	20150413
+PORTVERSION=	20150926
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Document Rubik cube configurations and rotation sequences.
+COMMENT=	Document Rubik cube configurations and rotation sequences
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

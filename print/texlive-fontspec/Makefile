@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fontspec
-PORTVERSION=	20150723
+PORTVERSION=	20150926
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Advanced font selection in XeLaTeX and LuaLaTeX.
+COMMENT=	Advanced font selection in XeLaTeX and LuaLaTeX
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/iftex/iftex.sty:${PORTSDIR}/print/texlive-iftex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/kastrup/binhex.tex:${PORTSDIR}/print/texlive-kastrup \

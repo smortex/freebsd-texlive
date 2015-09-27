@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	uassign
-PORTVERSION=	20150909
+PORTVERSION=	20150926
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provides environments and options for typesetting university assignments
+COMMENT=	Environments and options for typesetting university assignments
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

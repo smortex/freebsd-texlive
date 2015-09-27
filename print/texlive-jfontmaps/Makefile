@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	jfontmaps
-PORTVERSION=	20150412
+PORTVERSION=	20150926
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Font maps and configuration tools for Japanese fonts.
+COMMENT=	Font maps and configuration tools for Japanese fonts
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
