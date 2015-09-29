@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	barr
-PORTVERSION=	20150412
+PORTVERSION=	20150928
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Diagram macros by Michael Barr.
+COMMENT=	Diagram macros by Michael Barr
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

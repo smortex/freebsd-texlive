@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	luatex
-PORTVERSION=	20150507
+PORTVERSION=	20150928
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The LuaTeX engine.
+COMMENT=	The LuaTeX engine
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

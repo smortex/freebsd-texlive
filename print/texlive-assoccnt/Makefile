@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	assoccnt
-PORTVERSION=	20150412
+PORTVERSION=	20150928
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Associate counters, making them step when a master steps.
+COMMENT=	Associate counters, making them step when a master steps
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
