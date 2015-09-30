@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	fcolumn
-PORTVERSION=	20150412
+PORTVERSION=	20150929
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesetting financial tables.
+COMMENT=	Typesetting financial tables
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

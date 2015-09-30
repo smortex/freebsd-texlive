@@ -83,6 +83,7 @@ share/texmf-dist/tex/latex/l3kernel/l3prop.sty
 share/texmf-dist/tex/latex/l3kernel/l3quark.sty
 share/texmf-dist/tex/latex/l3kernel/l3seq.sty
 share/texmf-dist/tex/latex/l3kernel/l3skip.sty
+share/texmf-dist/tex/latex/l3kernel/l3str.sty
 share/texmf-dist/tex/latex/l3kernel/l3tl.sty
 share/texmf-dist/tex/latex/l3kernel/l3token.sty
 share/texmf-dist/tex/latex/l3kernel/l3unicode-data.def
