@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	kpathsea
-PORTVERSION=	20150505
+PORTVERSION=	20150930
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Path searching library for TeX-related files.
+COMMENT=	Path searching library for TeX-related files
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

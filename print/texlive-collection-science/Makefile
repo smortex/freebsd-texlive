@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-science
-PORTVERSION=	20150422
+PORTVERSION=	20150930
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -113,6 +113,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/hepunits/hepunits.sty:${PORTSDIR}/print/texlive-hepunits \
 		${LOCALBASE}/share/texmf-dist/tex/latex/karnaugh/kvmacros.tex:${PORTSDIR}/print/texlive-karnaugh \
 		${LOCALBASE}/share/texmf-dist/tex/latex/karnaughmap/karnaughmap.sty:${PORTSDIR}/print/texlive-karnaughmap \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lstbayes/lstbayes.sty:${PORTSDIR}/print/texlive-lstbayes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/matlab-prettifier/matlab-prettifier.sty:${PORTSDIR}/print/texlive-matlab-prettifier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mhchem/mhchem.sty:${PORTSDIR}/print/texlive-mhchem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/miller/miller.sty:${PORTSDIR}/print/texlive-miller \

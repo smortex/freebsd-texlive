@@ -389,6 +389,7 @@ share/texmf-dist/tex/generic/tex4ht/splitidx.4ht
 share/texmf-dist/tex/generic/tex4ht/srcltx.4ht
 share/texmf-dist/tex/generic/tex4ht/subeqnarray.4ht
 share/texmf-dist/tex/generic/tex4ht/subfigure.4ht
+share/texmf-dist/tex/generic/tex4ht/subscript.4ht
 share/texmf-dist/tex/generic/tex4ht/supertabular.4ht
 share/texmf-dist/tex/generic/tex4ht/sverb.4ht
 share/texmf-dist/tex/generic/tex4ht/svg.4ht
