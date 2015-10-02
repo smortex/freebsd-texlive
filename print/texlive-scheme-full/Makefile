@@ -583,6 +583,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/fltpoint/fltpoint.sty:${PORTSDIR}/print/texlive-fltpoint \
 		${LOCALBASE}/share/texmf-dist/tex/generic/fntproof/fntproof.tex:${PORTSDIR}/print/texlive-fntproof \
 		${LOCALBASE}/share/texmf-dist/tex/generic/gates/gates.sty:${PORTSDIR}/print/texlive-gates \
+		${LOCALBASE}/share/texmf-dist/tex/generic/gtl/gtl.sty:${PORTSDIR}/print/texlive-gtl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifetex/ifetex.sty:${PORTSDIR}/print/texlive-ifetex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/iftex/iftex.sty:${PORTSDIR}/print/texlive-iftex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/insbox/insbox.tex:${PORTSDIR}/print/texlive-insbox \
@@ -1531,7 +1532,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/grid/grid.sty:${PORTSDIR}/print/texlive-grid \
 		${LOCALBASE}/share/texmf-dist/tex/latex/grid-system/grid-system.sty:${PORTSDIR}/print/texlive-grid-system \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gridset/gridset.sty:${PORTSDIR}/print/texlive-gridset \
-		${LOCALBASE}/share/texmf-dist/tex/latex/gtl/gtl.sty:${PORTSDIR}/print/texlive-gtl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/guitlogo/guit.cfg:${PORTSDIR}/print/texlive-guitlogo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/handout/handout.sty:${PORTSDIR}/print/texlive-handout \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hang/hang.sty:${PORTSDIR}/print/texlive-hang \
@@ -2450,6 +2450,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gradstudentresume/gradstudentresume.cls:${PORTSDIR}/print/texlive-gradstudentresume \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gsemthesis/gsemthesis.cls:${PORTSDIR}/print/texlive-gsemthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gzt/gzt.cls:${PORTSDIR}/print/texlive-gzt \
+		${LOCALBASE}/share/texmf-dist/tex/latex/h2020proposal/h2020proposal.cls:${PORTSDIR}/print/texlive-h2020proposal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/har2nat/har2nat.sty:${PORTSDIR}/print/texlive-har2nat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hobete/hobete.sty:${PORTSDIR}/print/texlive-hobete \
 		${LOCALBASE}/share/texmf-dist/tex/latex/icsv/icsv.cls:${PORTSDIR}/print/texlive-icsv \
@@ -2589,6 +2590,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/hepunits/hepunits.sty:${PORTSDIR}/print/texlive-hepunits \
 		${LOCALBASE}/share/texmf-dist/tex/latex/karnaugh/kvmacros.tex:${PORTSDIR}/print/texlive-karnaugh \
 		${LOCALBASE}/share/texmf-dist/tex/latex/karnaughmap/karnaughmap.sty:${PORTSDIR}/print/texlive-karnaughmap \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lstbayes/lstbayes.sty:${PORTSDIR}/print/texlive-lstbayes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/matlab-prettifier/matlab-prettifier.sty:${PORTSDIR}/print/texlive-matlab-prettifier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mhchem/mhchem.sty:${PORTSDIR}/print/texlive-mhchem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/miller/miller.sty:${PORTSDIR}/print/texlive-miller \

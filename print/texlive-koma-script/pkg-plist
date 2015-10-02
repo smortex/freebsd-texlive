@@ -233,6 +233,7 @@ share/texmf-dist/tex/latex/koma-script/float.hak
 share/texmf-dist/tex/latex/koma-script/floatrow.hak
 share/texmf-dist/tex/latex/koma-script/hyperref.hak
 share/texmf-dist/tex/latex/koma-script/listings.hak
+share/texmf-dist/tex/latex/koma-script/lscape.hak
 share/texmf-dist/tex/latex/koma-script/scraddr.sty
 share/texmf-dist/tex/latex/koma-script/scrartcl.cls
 share/texmf-dist/tex/latex/koma-script/scrbase.sty

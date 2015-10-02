@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20150920
+PORTVERSION=	20151001
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -701,7 +701,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/grid/grid.sty:${PORTSDIR}/print/texlive-grid \
 		${LOCALBASE}/share/texmf-dist/tex/latex/grid-system/grid-system.sty:${PORTSDIR}/print/texlive-grid-system \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gridset/gridset.sty:${PORTSDIR}/print/texlive-gridset \
-		${LOCALBASE}/share/texmf-dist/tex/latex/gtl/gtl.sty:${PORTSDIR}/print/texlive-gtl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/guitlogo/guit.cfg:${PORTSDIR}/print/texlive-guitlogo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/handout/handout.sty:${PORTSDIR}/print/texlive-handout \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hang/hang.sty:${PORTSDIR}/print/texlive-hang \
@@ -886,7 +885,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/multibbl/multibbl.sty:${PORTSDIR}/print/texlive-multibbl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multicap/multicap.sty:${PORTSDIR}/print/texlive-multicap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multienv/multienv.sty:${PORTSDIR}/print/texlive-multienv \
-		${LOCALBASE}/share/texmf-dist/tex/latex/multiexpand/multiexpand.sty:${PORTSDIR}/print/texlive-multiexpand \
+		${LOCALBASE}/share/texmf-dist/tex/generic/multiexpand/multiexpand.sty:${PORTSDIR}/print/texlive-multiexpand \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multirow/multirow.sty:${PORTSDIR}/print/texlive-multirow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mversion/mVersion.sty:${PORTSDIR}/print/texlive-mversion \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mwe/mwe.sty:${PORTSDIR}/print/texlive-mwe \
