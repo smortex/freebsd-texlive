@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	latex
-PORTVERSION=	20150708
+PORTVERSION=	20151002
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A TeX macro package that defines LaTeX.
+COMMENT=	A TeX macro package that defines LaTeX
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/config/luatex-unicode-letters.tex:${PORTSDIR}/print/texlive-luatex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/dummy-space/dummy-space.map:${PORTSDIR}/print/texlive-pdftex \

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	luatexbase
-PORTVERSION=	20150412
+PORTVERSION=	20151002
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Basic resource management for LuaTeX code.
+COMMENT=	Basic resource management for LuaTeX code
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

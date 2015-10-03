@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tools
-PORTVERSION=	20150413
+PORTVERSION=	20151002
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The LaTeX standard tools bundle.
+COMMENT=	The LaTeX standard tools bundle
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,4 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/base/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/base/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/base/alltt.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/base/bugs.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/base/cfgguide.pdf
@@ -122,6 +122,7 @@ share/texmf-dist/makeindex/latex/gind.ist
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltlength.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltlists.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltlogos.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/base/ltluatex.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltmath.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltmiscen.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltnews01.tex
@@ -146,6 +147,7 @@ share/texmf-dist/makeindex/latex/gind.ist
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltnews20.tex
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltnews21.tex
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltnews22.tex
+%%PORTSRC%%share/texmf-dist/source/latex/base/ltnews23.tex
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltoutenc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltoutenc.ins
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltoutput.dtx
@@ -240,6 +242,8 @@ share/texmf-dist/tex/latex/base/leqno.sty
 share/texmf-dist/tex/latex/base/letter.cls
 share/texmf-dist/tex/latex/base/letter.sty
 share/texmf-dist/tex/latex/base/lppl.tex
+share/texmf-dist/tex/latex/base/ltluatex.lua
+share/texmf-dist/tex/latex/base/ltluatex.tex
 share/texmf-dist/tex/latex/base/ltnews.cls
 share/texmf-dist/tex/latex/base/ltpatch.ltx
 share/texmf-dist/tex/latex/base/ltxcheck.tex

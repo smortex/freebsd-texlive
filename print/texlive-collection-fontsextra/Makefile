@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20150918
+PORTVERSION=	20151002
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -171,6 +171,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/hfbright/hfbr10.afm:${PORTSDIR}/print/texlive-hfbright \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hfoldsty/hfoldsty.sty:${PORTSDIR}/print/texlive-hfoldsty \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifsym/ifsym.sty:${PORTSDIR}/print/texlive-ifsym \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/imfellenglish/imfe_5cupvv.enc:${PORTSDIR}/print/texlive-imfellenglish \
 		${LOCALBASE}/share/texmf-dist/tex/latex/inconsolata/inconsolata.sty:${PORTSDIR}/print/texlive-inconsolata \
 		${LOCALBASE}/share/texmf-dist/dvips/initials/config.Acorn:${PORTSDIR}/print/texlive-initials \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/ipaex-type1/ipaex-type1.map:${PORTSDIR}/print/texlive-ipaex-type1 \
