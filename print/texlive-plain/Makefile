@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	plain
-PORTVERSION=	20150704
+PORTVERSION=	20151003
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The Plain TeX format.
+COMMENT=	The Plain TeX format
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

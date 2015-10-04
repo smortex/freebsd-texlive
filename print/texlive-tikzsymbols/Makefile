@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	tikzsymbols
-PORTVERSION=	20150413
+PORTVERSION=	20151003
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Some symbols created using TikZ.
+COMMENT=	Some symbols created using TikZ
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
