@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	luamplib
-PORTVERSION=	20150802
+PORTVERSION=	20151004
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use LuaTeX's built-in MetaPost interpreter.
+COMMENT=	Use LuaTeX's built-in MetaPost interpreter
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

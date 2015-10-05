@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	luatexko
-PORTVERSION=	20150706
+PORTVERSION=	20151004
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset Korean with Lua(La)TeX.
+COMMENT=	Typeset Korean with Lua(La)TeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
