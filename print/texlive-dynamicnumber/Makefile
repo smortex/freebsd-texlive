@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	luatexbase
+PORTNAME=	dynamicnumber
 PORTVERSION=	20151005
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Basic resource management for LuaTeX code
+COMMENT=	Dynamically typeset numbers and values in LaTeX through "symbolic links"
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

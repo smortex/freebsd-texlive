@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	luatexbase
+PORTNAME=	fibeamer
 PORTVERSION=	20151005
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Basic resource management for LuaTeX code
+COMMENT=	Beamer theme for thesis defense presentations at Masaryk University (Brno, Czech Republic)
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
