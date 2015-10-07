@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	kotex-utf
-PORTVERSION=	20150720
+PORTVERSION=	20151006
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset Hangul, coded in UTF-8.
+COMMENT=	Typeset Hangul, coded in UTF-8
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/cjk-ko/cjkutf8-josa.sty:${PORTSDIR}/print/texlive-cjk-ko
 
