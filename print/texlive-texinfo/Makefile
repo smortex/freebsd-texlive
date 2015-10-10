@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	texinfo
-PORTVERSION=	20150704
+PORTVERSION=	20151008
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Texinfo documentation system.
+COMMENT=	Texinfo documentation system
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

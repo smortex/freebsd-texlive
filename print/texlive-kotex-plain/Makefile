@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	kotex-plain
-PORTVERSION=	20150422
+PORTVERSION=	20151008
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros for typesetting Korean under Plain TeX.
+COMMENT=	Macros for typesetting Korean under Plain TeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	chemfig
-PORTVERSION=	20150412
+PORTVERSION=	20151009
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw molecules with easy syntax.
+COMMENT=	Draw molecules with easy syntax
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
