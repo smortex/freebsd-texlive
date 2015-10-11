@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-hungarian
-PORTVERSION=	20150412
+PORTVERSION=	20151010
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Babel support for Hungarian (Magyar).
+COMMENT=	Babel support for Hungarian (Magyar)
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

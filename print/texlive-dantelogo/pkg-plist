@@ -23,8 +23,8 @@ share/texmf-dist/fonts/type1/public/dantelogo/DANTE.pfb
 share/texmf-dist/fonts/vf/public/dantelogo/DANTE-Bold--texnansx.vf
 share/texmf-dist/fonts/vf/public/dantelogo/DANTE-Bold-Italic--texnansx.vf
 share/texmf-dist/fonts/vf/public/dantelogo/DANTE-Italic--texnansx.vf
+share/texmf-dist/tex/latex/dantelogo/OT1DANTE.fd
+share/texmf-dist/tex/latex/dantelogo/T1DANTE.fd
 share/texmf-dist/tex/latex/dantelogo/dantelogo.sty
-share/texmf-dist/tex/latex/dantelogo/ot1dante.fd
-share/texmf-dist/tex/latex/dantelogo/t1dante.fd
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
