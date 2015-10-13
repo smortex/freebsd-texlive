@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-stru
-PORTVERSION=	20150413
+PORTVERSION=	20151012
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Civil engineering diagrams, using pstricks.
+COMMENT=	Civil engineering diagrams, using PSTricks
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
