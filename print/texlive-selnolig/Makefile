@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	selnolig
-PORTVERSION=	20150413
+PORTVERSION=	20151013
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Selectively disable typographic ligatures.
+COMMENT=	Selectively disable typographic ligatures
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

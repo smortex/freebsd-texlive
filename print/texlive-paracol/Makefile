@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	paracol
-PORTVERSION=	20150413
+PORTVERSION=	20151013
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multiple columns with texts "in parallel".
+COMMENT=	Multiple columns with texts "in parallel"
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
