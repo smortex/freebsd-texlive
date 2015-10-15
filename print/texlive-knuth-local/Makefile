@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	knuth-local
-PORTVERSION=	20150412
+PORTVERSION=	20151014
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Knuth's local information.
+COMMENT=	Knuth's local information
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

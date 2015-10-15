@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mflogo
-PORTVERSION=	20150413
+PORTVERSION=	20151014
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX support for Metafont logo fonts.
+COMMENT=	LaTeX support for Metafont logo fonts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

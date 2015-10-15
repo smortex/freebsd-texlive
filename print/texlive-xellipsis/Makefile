@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	kotex-plain
+PORTNAME=	xellipsis
 PORTVERSION=	20151014
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros for typesetting Korean under Plain TeX
+COMMENT=	Extremely configurable ellipses with formats for various style manuals
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

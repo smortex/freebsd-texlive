@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bnumexpr
-PORTVERSION=	20150412
+PORTVERSION=	20151014
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extends eTeX's \numexpr...\relax construct to big integers.
+COMMENT=	Extends eTeX's \numexpr...\relax construct to big integers
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

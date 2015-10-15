@@ -2,6 +2,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/mflogo/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/mflogo/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/mflogo/mflogo.pdf
+share/texmf-dist/fonts/source/public/mflogo/logosl8.mf
+share/texmf-dist/fonts/tfm/public/mflogo/logosl8.tfm
 %%PORTSRC%%share/texmf-dist/source/latex/mflogo/mflogo.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/mflogo/mflogo.ins
 share/texmf-dist/tex/latex/mflogo/mflogo.sty

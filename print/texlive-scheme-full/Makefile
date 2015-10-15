@@ -262,7 +262,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/adforn/adforn.sty:${PORTSDIR}/print/texlive-adforn \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/adfsymbols/ArrowsADF.afm:${PORTSDIR}/print/texlive-adfsymbols \
 		${LOCALBASE}/share/texmf-dist/tex/latex/aecc/aecc.sty:${PORTSDIR}/print/texlive-aecc \
-		${LOCALBASE}/share/texmf-dist/fonts/afm/huerta/alegreya/Alegreya-Black.afm:${PORTSDIR}/print/texlive-alegreya \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/alegreya/algr_2thg7t.enc:${PORTSDIR}/print/texlive-alegreya \
 		${LOCALBASE}/share/texmf-dist/tex/latex/allrunes/allrunes.sty:${PORTSDIR}/print/texlive-allrunes \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/almfixed/almfixed.otf:${PORTSDIR}/print/texlive-almfixed \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/anonymouspro/AnonymousPro-Bold.afm:${PORTSDIR}/print/texlive-anonymouspro \
@@ -2111,6 +2111,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/xcolor-solarized/xcolor-solarized.sty:${PORTSDIR}/print/texlive-xcolor-solarized \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xcomment/xcomment.sty:${PORTSDIR}/print/texlive-xcomment \
 		${LOCALBASE}/share/texmf-dist/makeindex/xdoc/docindex.ist:${PORTSDIR}/print/texlive-xdoc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xellipsis/xellipsis.sty:${PORTSDIR}/print/texlive-xellipsis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xfor/xfor.sty:${PORTSDIR}/print/texlive-xfor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xhfill/xhfill.sty:${PORTSDIR}/print/texlive-xhfill \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xifthen/xifthen.sty:${PORTSDIR}/print/texlive-xifthen \
