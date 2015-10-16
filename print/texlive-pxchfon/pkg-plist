@@ -1,6 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/LICENSE
-%%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/README
-%%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/README-ja
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/README-ja.md
+%%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/README.md
 %%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/pxchfon.pdf
 %%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/pxchfon.tex
 %%PORTDOCS%%share/texmf-dist/doc/platex/pxchfon/sample-2000jis.pdf

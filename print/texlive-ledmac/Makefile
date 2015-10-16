@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ledmac
-PORTVERSION=	20150721
+PORTVERSION=	20151015
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset scholarly editions.
+COMMENT=	Typeset scholarly editions
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
