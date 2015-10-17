@@ -68,6 +68,7 @@ share/texmf-dist/tex/xelatex/xepersian/report-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/scrartcl-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/scrbook-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/scrreprt-xepersian.def
+share/texmf-dist/tex/xelatex/xepersian/soul-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/tkz-linknodes-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/tocloft-xepersian.def
 share/texmf-dist/tex/xelatex/xepersian/xepersian-localise-commands-xepersian.def

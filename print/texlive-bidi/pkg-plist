@@ -128,6 +128,7 @@ share/texmf-dist/tex/xelatex/bidi/scrbook-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/scrlettr-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/scrreprt-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/sidecap-xetex-bidi.def
+share/texmf-dist/tex/xelatex/bidi/soul-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/stabular-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/subfigure-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/tabls-xetex-bidi.def

@@ -6,6 +6,7 @@ share/texmf-dist/tex/latex/chemmacros/chemmacros.module.all.code.tex
 share/texmf-dist/tex/latex/chemmacros/chemmacros.module.base.code.tex
 share/texmf-dist/tex/latex/chemmacros/chemmacros.module.charges.code.tex
 share/texmf-dist/tex/latex/chemmacros/chemmacros.module.chemformula.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.errorcheck.code.tex
 share/texmf-dist/tex/latex/chemmacros/chemmacros.module.greek.code.tex
 share/texmf-dist/tex/latex/chemmacros/chemmacros.module.isotopes.code.tex
 share/texmf-dist/tex/latex/chemmacros/chemmacros.module.lang.code.tex

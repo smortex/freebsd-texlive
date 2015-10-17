@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	xepersian
-PORTVERSION=	20150501
+PORTVERSION=	20151016
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Persian for LaTeX, using XeTeX.
+COMMENT=	Persian for LaTeX, using XeTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

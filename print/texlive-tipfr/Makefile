@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	chemmacros
+PORTNAME=	tipfr
 PORTVERSION=	20151016
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A collection of macros to support typesetting chemistry documents
+COMMENT=	Produces calculator's keys with the help of TikZ
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
