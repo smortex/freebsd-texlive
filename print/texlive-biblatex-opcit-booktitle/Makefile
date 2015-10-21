@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-opcit-booktitle
-PORTVERSION=	20150703
+PORTVERSION=	20151020
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

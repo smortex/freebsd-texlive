@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	findhyph
-PORTVERSION=	20150412
+PORTVERSION=	20151020
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Find hyphenated words in a document.
+COMMENT=	Find hyphenated words in a document
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
