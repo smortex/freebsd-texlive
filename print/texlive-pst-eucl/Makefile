@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pst-eucl
-PORTVERSION=	20150413
+PORTVERSION=	20151021
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Euclidian geometry with pstricks.
+COMMENT=	Euclidian geometry with PSTricks
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
