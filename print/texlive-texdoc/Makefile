@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	texdoc
-PORTVERSION=	20150428
+PORTVERSION=	20151022
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Documentation access for TeX distributions.
+COMMENT=	Documentation access for TeX distributions
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core

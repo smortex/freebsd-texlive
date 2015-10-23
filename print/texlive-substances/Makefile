@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	substances
-PORTVERSION=	20150413
+PORTVERSION=	20151022
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A database of chemicals.
+COMMENT=	A database of chemicals
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
