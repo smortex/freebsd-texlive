@@ -1,0 +1,6 @@
+This package provides BibTeX related Perl libraries by Gerhard
+Gossen, repacked by Boris Veytsman, for TeX Live and other TDS-
+compliant distributions. The libraries are written in pure
+Perl, so should work out of the box on any architecture. They
+have been packaged here mostly for Boris Veytsman's BibTeX
+suite, but can be used in any other Perl script.

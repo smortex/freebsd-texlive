@@ -1,0 +1,7 @@
+This package provides a tool to keep a master source,
+consisting of different "chunks" intended for different
+audiences. The tool allows to extract the versions intended for
+different audiences and to incorporate the changes made in any
+of these versions into the master document. This work was
+commissioned by the Consumer Financial Protection Bureau,
+United States Treasury.

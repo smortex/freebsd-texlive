@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	lisp-on-tex
+PORTNAME=	bestpapers
 PORTVERSION=	20151026
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Execute LISP code in a LaTeX document
+COMMENT=	A BibTeX package to produce lists of authors' best papers
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

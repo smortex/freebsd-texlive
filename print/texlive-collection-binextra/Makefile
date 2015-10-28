@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-binextra
-PORTVERSION=	20150906
+PORTVERSION=	20151026
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -82,6 +82,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/pkfix-helper/pkfix-helper:${PORTSDIR}/print/texlive-pkfix-helper \
 		${LOCALBASE}/share/texmf-dist/scripts/purifyeps/purifyeps:${PORTSDIR}/print/texlive-purifyeps \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pythontex/pythontex.sty:${PORTSDIR}/print/texlive-pythontex \
+		${LOCALBASE}/share/texmf-dist/scripts/srcredact/srcredact.pl:${PORTSDIR}/print/texlive-srcredact \
 		${LOCALBASE}/share/texmf-dist/scripts/sty2dtx/sty2dtx.pl:${PORTSDIR}/print/texlive-sty2dtx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tex4ebook/tex4ebook.sty:${PORTSDIR}/print/texlive-tex4ebook \
 		${LOCALBASE}/share/texmf-dist/scripts/texcount/texcount.pl:${PORTSDIR}/print/texlive-texcount \

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20150919
+PORTVERSION=	20151026
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -76,6 +76,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/archaeologie/archaeologie.bbx:${PORTSDIR}/print/texlive-archaeologie \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/beebe/gut.bib:${PORTSDIR}/print/texlive-beebe \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/besjournals/besjournals.bst:${PORTSDIR}/print/texlive-besjournals \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/bestpapers/bestpapers-export.bst:${PORTSDIR}/print/texlive-bestpapers \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibarts/bibarts.sty:${PORTSDIR}/print/texlive-bibarts \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/bibexport/expcites.bst:${PORTSDIR}/print/texlive-bibexport \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/bibhtml/abbrvhtml.bst:${PORTSDIR}/print/texlive-bibhtml \
@@ -112,6 +113,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-trad/bbx/trad-abbrv.bbx:${PORTSDIR}/print/texlive-biblatex-trad \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-true-citepages-omit/biblatex-true-citepages-omit.sty:${PORTSDIR}/print/texlive-biblatex-true-citepages-omit \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblist/biblist.sty:${PORTSDIR}/print/texlive-biblist \
+		${LOCALBASE}/share/texmf-dist/scripts/bibtexperllibs/BibTeX/Parser.pm:${PORTSDIR}/print/texlive-bibtexperllibs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibtopic/bibtopic.sty:${PORTSDIR}/print/texlive-bibtopic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibtopicprefix/bibtopicprefix.sty:${PORTSDIR}/print/texlive-bibtopicprefix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibunits/bibunits.sty:${PORTSDIR}/print/texlive-bibunits \

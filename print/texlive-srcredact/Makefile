@@ -1,11 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	lisp-on-tex
+PORTNAME=	srcredact
 PORTVERSION=	20151026
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Execute LISP code in a LaTeX document
+COMMENT=	A tool for redacting sources
+
+RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

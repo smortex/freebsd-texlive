@@ -1,0 +1,25 @@
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/srcredact.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/srcredact.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/srcredact/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/support/srcredact/README
+%%PORTDOCS%%share/texmf-dist/doc/support/srcredact/srcredact.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/srcredact/srcredact.pod
+%%PORTDOCS%%share/texmf-dist/doc/support/srcredact/srcredact.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/srcredact/twain-edited.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/srcredact/twain1-default.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/srcredact/twain1-default.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/srcredact/twain1-nobonds.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/srcredact/twain1-nobonds.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/srcredact/twain1-uppercase.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/srcredact/twain1-uppercase.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/srcredact/twain1.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/srcredact/twain2-default.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/srcredact/twain2-default.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/srcredact/twain2-nobonds.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/srcredact/twain2-nobonds.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/srcredact/twain2-uppercase.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/srcredact/twain2-uppercase.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/srcredact/twain2.tex
+share/texmf-dist/scripts/srcredact/srcredact.pl
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

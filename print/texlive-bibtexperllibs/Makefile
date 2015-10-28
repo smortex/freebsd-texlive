@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	lisp-on-tex
+PORTNAME=	bibtexperllibs
 PORTVERSION=	20151026
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Execute LISP code in a LaTeX document
+COMMENT=	BibTeX Perl Libraries
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

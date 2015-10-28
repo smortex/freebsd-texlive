@@ -77,6 +77,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/archaeologie/archaeologie.bbx:${PORTSDIR}/print/texlive-archaeologie \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/beebe/gut.bib:${PORTSDIR}/print/texlive-beebe \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/besjournals/besjournals.bst:${PORTSDIR}/print/texlive-besjournals \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/bestpapers/bestpapers-export.bst:${PORTSDIR}/print/texlive-bestpapers \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibarts/bibarts.sty:${PORTSDIR}/print/texlive-bibarts \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/bibexport/expcites.bst:${PORTSDIR}/print/texlive-bibexport \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/bibhtml/abbrvhtml.bst:${PORTSDIR}/print/texlive-bibhtml \
@@ -113,6 +114,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-trad/bbx/trad-abbrv.bbx:${PORTSDIR}/print/texlive-biblatex-trad \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-true-citepages-omit/biblatex-true-citepages-omit.sty:${PORTSDIR}/print/texlive-biblatex-true-citepages-omit \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblist/biblist.sty:${PORTSDIR}/print/texlive-biblist \
+		${LOCALBASE}/share/texmf-dist/scripts/bibtexperllibs/BibTeX/Parser.pm:${PORTSDIR}/print/texlive-bibtexperllibs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibtopic/bibtopic.sty:${PORTSDIR}/print/texlive-bibtopic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibtopicprefix/bibtopicprefix.sty:${PORTSDIR}/print/texlive-bibtopicprefix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibunits/bibunits.sty:${PORTSDIR}/print/texlive-bibunits \
@@ -211,6 +213,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/pkfix-helper/pkfix-helper:${PORTSDIR}/print/texlive-pkfix-helper \
 		${LOCALBASE}/share/texmf-dist/scripts/purifyeps/purifyeps:${PORTSDIR}/print/texlive-purifyeps \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pythontex/pythontex.sty:${PORTSDIR}/print/texlive-pythontex \
+		${LOCALBASE}/share/texmf-dist/scripts/srcredact/srcredact.pl:${PORTSDIR}/print/texlive-srcredact \
 		${LOCALBASE}/share/texmf-dist/scripts/sty2dtx/sty2dtx.pl:${PORTSDIR}/print/texlive-sty2dtx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tex4ebook/tex4ebook.sty:${PORTSDIR}/print/texlive-tex4ebook \
 		${LOCALBASE}/share/texmf-dist/scripts/texcount/texcount.pl:${PORTSDIR}/print/texlive-texcount \
@@ -1049,6 +1052,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/swimgraf/swimgraf.sty:${PORTSDIR}/print/texlive-swimgraf \
 		${LOCALBASE}/share/texmf-dist/tex/generic/texdraw/texdraw.sty:${PORTSDIR}/print/texlive-texdraw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ticollege/ticollege.sty:${PORTSDIR}/print/texlive-ticollege \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tipfr/tipfr.sty:${PORTSDIR}/print/texlive-tipfr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty:${PORTSDIR}/print/texlive-tikz-3dplot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-bayesnet/tikzlibrarybayesnet.code.tex:${PORTSDIR}/print/texlive-tikz-bayesnet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty:${PORTSDIR}/print/texlive-tikz-cd \
