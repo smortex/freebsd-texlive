@@ -13,7 +13,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/examples/rocket.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/examples/showfont.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/examples/showfont.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/lisp-on-tex/tug2013/slide.pdf
 share/texmf-dist/tex/latex/lisp-on-tex/lisp-arith.sty
 share/texmf-dist/tex/latex/lisp-on-tex/lisp-gc.sty
 share/texmf-dist/tex/latex/lisp-on-tex/lisp-latexutil.sty

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	biber
-PORTVERSION=	20150714
+PORTVERSION=	20151027
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A BibTeX replacement for users of biblatex.
+COMMENT=	A BibTeX replacement for users of BibLaTeX
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
