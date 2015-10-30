@@ -1,5 +1,4 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/dynamicnumber/LICENSE.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/dynamicnumber/README.md
 %%PORTDOCS%%share/texmf-dist/doc/latex/dynamicnumber/dynamicnumber.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/dynamicnumber/dynamicnumber.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/dynamicnumber/dynamicnumber.ins

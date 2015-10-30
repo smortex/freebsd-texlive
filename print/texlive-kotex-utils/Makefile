@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	kotex-utils
-PORTVERSION=	20150412
+PORTVERSION=	20151028
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Utility scripts and support files for typesetting Korean.
+COMMENT=	Utility scripts and support files for typesetting Korean
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/kotex-utf/contrib/dhucs-cmap.sty:${PORTSDIR}/print/texlive-kotex-utf \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
