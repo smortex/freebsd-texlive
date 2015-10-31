@@ -38,6 +38,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/base/lppl-1-2.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/base/lppl.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/base/lppl.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/base/ltluatex.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/base/ltnews.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/base/ltnews.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/base/ltunicode.pdf
@@ -51,7 +52,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/base/modguide.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/base/modguide.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/base/nfssfont.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/base/patches.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/base/proc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/base/slides.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/base/slifonts.pdf
@@ -245,7 +245,6 @@ share/texmf-dist/tex/latex/base/lppl.tex
 share/texmf-dist/tex/latex/base/ltluatex.lua
 share/texmf-dist/tex/latex/base/ltluatex.tex
 share/texmf-dist/tex/latex/base/ltnews.cls
-share/texmf-dist/tex/latex/base/ltpatch.ltx
 share/texmf-dist/tex/latex/base/ltxcheck.tex
 share/texmf-dist/tex/latex/base/ltxdoc.cls
 share/texmf-dist/tex/latex/base/ltxguide.cls
