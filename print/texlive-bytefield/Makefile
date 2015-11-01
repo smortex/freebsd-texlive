@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bytefield
-PORTVERSION=	20150412
+PORTVERSION=	20151030
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create illustrations for network protocol specifications.
+COMMENT=	Create illustrations for network protocol specifications
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
