@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	articleingud
-PORTVERSION=	20150412
+PORTVERSION=	20151031
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX class for articles published in INGENIERIA review.
+COMMENT=	LaTeX class for articles published in INGENIERIA review
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
