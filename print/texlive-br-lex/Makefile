@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	br-lex
-PORTVERSION=	20150701
+PORTVERSION=	20151101
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A Class for Typesetting Brazilian legal texts.
+COMMENT=	A Class for Typesetting Brazilian legal texts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

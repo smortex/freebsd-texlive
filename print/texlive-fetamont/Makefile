@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	fetamont
-PORTVERSION=	20150516
+PORTVERSION=	20151101
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extended version of Knuth's logo typeface.
+COMMENT=	Extended version of Knuth's logo typeface
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
