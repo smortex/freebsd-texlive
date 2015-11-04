@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	epspdf
-PORTVERSION=	20150412
+PORTVERSION=	20151102
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Converter for PostScript, EPS and PDF.
+COMMENT=	Converter for PostScript, EPS and PDF
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

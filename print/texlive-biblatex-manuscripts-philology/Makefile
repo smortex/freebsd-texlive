@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-manuscripts-philology
-PORTVERSION=	20150507
+PORTVERSION=	20151102
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Manage classical manuscripts with biblatex.
+COMMENT=	Manage classical manuscripts with BibLaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

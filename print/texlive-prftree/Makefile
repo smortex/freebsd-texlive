@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	prftree
-PORTVERSION=	20150413
+PORTVERSION=	20151102
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros for building proof trees.
+COMMENT=	Macros for building proof trees
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
