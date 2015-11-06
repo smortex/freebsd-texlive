@@ -217,6 +217,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/swimgraf/swimgraf.sty:${PORTSDIR}/print/texlive-swimgraf \
 		${LOCALBASE}/share/texmf-dist/tex/generic/texdraw/texdraw.sty:${PORTSDIR}/print/texlive-texdraw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ticollege/ticollege.sty:${PORTSDIR}/print/texlive-ticollege \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tipfr/tipfr.sty:${PORTSDIR}/print/texlive-tipfr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty:${PORTSDIR}/print/texlive-tikz-3dplot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-bayesnet/tikzlibrarybayesnet.code.tex:${PORTSDIR}/print/texlive-tikz-bayesnet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty:${PORTSDIR}/print/texlive-tikz-cd \
@@ -825,7 +826,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/makecell/makecell.sty:${PORTSDIR}/print/texlive-makecell \
 		${LOCALBASE}/share/texmf-dist/metapost/makecirc/ejemplos.mp:${PORTSDIR}/print/texlive-makecirc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/makecmds/makecmds.sty:${PORTSDIR}/print/texlive-makecmds \
-		${LOCALBASE}/share/texmf-dist/tex/latex/makedtx/creatdtx.sty:${PORTSDIR}/print/texlive-makedtx \
+		${LOCALBASE}/share/texmf-dist/scripts/makedtx/makedtx.pl:${PORTSDIR}/print/texlive-makedtx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/makeglos/makeglos.sty:${PORTSDIR}/print/texlive-makeglos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mandi/mandi.sty:${PORTSDIR}/print/texlive-mandi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/manfnt/manfnt.sty:${PORTSDIR}/print/texlive-manfnt \

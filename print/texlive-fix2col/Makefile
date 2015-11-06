@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fix2col
-PORTVERSION=	20150412
+PORTVERSION=	20151104
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fix miscellaneous two column mode features.
+COMMENT=	Fix miscellaneous two column mode features
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
