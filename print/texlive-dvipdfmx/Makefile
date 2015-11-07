@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	dvipdfmx
-PORTVERSION=	20150504
+PORTVERSION=	20151105
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	An extended version of dvipdfm.
+COMMENT=	An extended version of dvipdfm
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/map/glyphlist/glyphlist.txt:${PORTSDIR}/print/texlive-glyphlist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def:${PORTSDIR}/print/texlive-dvipdfmx-def \

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	l3kernel
+PORTNAME=	babel-macedonian
 PORTVERSION=	20151105
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX3 programming conventions
+COMMENT=	Babel module to support Macedonian Cyrillic
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

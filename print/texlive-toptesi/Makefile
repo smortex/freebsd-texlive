@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	toptesi
-PORTVERSION=	20150413
+PORTVERSION=	20151105
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bundle for typesetting multilanguage theses.
+COMMENT=	Bundle for typesetting multilanguage theses
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
