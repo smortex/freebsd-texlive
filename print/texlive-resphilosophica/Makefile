@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	resphilosophica
-PORTVERSION=	20150824
+PORTVERSION=	20151107
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
