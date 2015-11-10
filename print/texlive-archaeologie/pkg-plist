@@ -1,9 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/archaeologie/README.md
 %%PORTDOCS%%share/texmf-dist/doc/latex/archaeologie/archaeologie.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/archaeologie/archaeologie.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/archaeologie/dai-abkuerzungen-kurz-liste.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/archaeologie/dai-abkuerzungen-lang-liste.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/archaeologie/dai-abkuerzungen.bib
 share/texmf-dist/tex/latex/archaeologie/archaeologie.bbx
 share/texmf-dist/tex/latex/archaeologie/archaeologie.cbx
+share/texmf-dist/tex/latex/archaeologie/archaeologie.dbx
+share/texmf-dist/tex/latex/archaeologie/archaeologie_english.lbx
+share/texmf-dist/tex/latex/archaeologie/archaeologie_ngerman.lbx
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

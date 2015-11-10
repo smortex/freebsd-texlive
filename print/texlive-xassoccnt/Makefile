@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	bidi
+PORTNAME=	xassoccnt
 PORTVERSION=	20151108
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bidirectional typesetting in plain TeX and LaTeX, using XeTeX engine
+COMMENT=	Associated counters stepping simultaneously
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

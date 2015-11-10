@@ -1,0 +1,9 @@
+This package provides a way of associating counters to an
+existing driver counter so that incrementing the driver counter
+will increase its associated counters as well. This package can
+be regarded as a supplement to the totcount package by
+Vasileios Koutavas, but it can be used without it, too.
+xassoccnt is a successor and a complete rewrite of the assoccnt
+package by the same author. However, as of 2015/11/07, some
+features of assoccnt are not (yet) contained in xassoccnt, so
+that the older package cannot yet be regarded as obsolete.

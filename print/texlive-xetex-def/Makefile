@@ -1,14 +1,14 @@
 # $FreeBSD$
 
 PORTNAME=	xetex-def
-PORTVERSION=	20150923
+PORTVERSION=	20151108
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Colour and graphics support for XeTeX
 
-OPTIONS_EXCLUDE=	DOCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
