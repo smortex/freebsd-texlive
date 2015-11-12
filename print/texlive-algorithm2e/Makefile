@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	algorithm2e
-PORTVERSION=	20150412
+PORTVERSION=	20151110
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Floating algorithm environment with algorithmic keywords.
+COMMENT=	Floating algorithm environment with algorithmic keywords
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

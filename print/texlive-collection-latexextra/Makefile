@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20151108
+PORTVERSION=	20151110
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1189,6 +1189,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/texments/texments.sty:${PORTSDIR}/print/texlive-texments \
 		${LOCALBASE}/share/texmf-dist/tex/latex/texpower/texpower.sty:${PORTSDIR}/print/texlive-texpower \
 		${LOCALBASE}/share/texmf-dist/tex/latex/texshade/texshade.sty:${PORTSDIR}/print/texlive-texshade \
+		${LOCALBASE}/share/texmf-dist/tex/latex/texvc/texvc.sty:${PORTSDIR}/print/texlive-texvc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/textfit/textfit.sty:${PORTSDIR}/print/texlive-textfit \
 		${LOCALBASE}/share/texmf-dist/tex/latex/textgreek/textgreek.sty:${PORTSDIR}/print/texlive-textgreek \
 		${LOCALBASE}/share/texmf-dist/tex/generic/textmerg/textmerg.sty:${PORTSDIR}/print/texlive-textmerg \

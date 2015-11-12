@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	nicetext
+PORTNAME=	texvc
 PORTVERSION=	20151110
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Minimal markup for simple text (Wikipedia style) and documentation
+COMMENT=	Use MediaWiki LaTeX commands
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -10,6 +10,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/RELEASE043.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/RELEASE044.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/RELEASE051.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/RELEASE064.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/SrcFILEs.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/demo/arseneau.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/nicetext/demo/iso.txt
@@ -27,6 +28,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/nicetext/mdoccheat.tex
 %%PORTSRC%%share/texmf-dist/source/latex/nicetext/niceverb.tex
 %%PORTSRC%%share/texmf-dist/source/latex/nicetext/srcfiles.tex
+%%PORTSRC%%share/texmf-dist/source/latex/nicetext/updsfl.sh
 %%PORTSRC%%share/texmf-dist/source/latex/nicetext/wikicheat.tex
 share/texmf-dist/tex/latex/nicetext/fifinddo.sty
 share/texmf-dist/tex/latex/nicetext/makedoc.cfg
