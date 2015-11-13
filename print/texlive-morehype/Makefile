@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	morehype
-PORTVERSION=	20150413
+PORTVERSION=	20151111
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Hypertext tools for use with LaTeX.
+COMMENT=	Hypertext tools for use with LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
