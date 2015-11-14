@@ -1,12 +1,13 @@
 share/texmf-dist/bibtex/bst/computational-complexity/cc.bst
 share/texmf-dist/bibtex/bst/computational-complexity/cc2.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/computational-complexity/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/computational-complexity/cc-cls-inline.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/computational-complexity/cc-journals.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/computational-complexity/cc-portability-frame.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/computational-complexity/cc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/computational-complexity/cc2.dbj
 %%PORTDOCS%%share/texmf-dist/doc/latex/computational-complexity/ccquickref.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/computational-complexity/cctemplate.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/computational-complexity/journals.bib
 %%PORTSRC%%share/texmf-dist/source/latex/computational-complexity/cc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/computational-complexity/cc.ins
 share/texmf-dist/tex/latex/computational-complexity/cc-cls.sty

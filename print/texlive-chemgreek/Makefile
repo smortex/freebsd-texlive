@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	chemgreek
-PORTVERSION=	20150702
+PORTVERSION=	20151112
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Upright Greek letters in chemistry.
+COMMENT=	Upright Greek letters in chemistry
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -8,6 +8,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/images/flowers.eps
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/images/tiger.eps
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/images/tiger.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-doc.bst
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-doc.ist
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-news.sty
@@ -34,6 +35,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-news15.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-user.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pst-user.tgz
+%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstricks-add-data9.data
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstricks-bug.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/pstricks-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/test-pst.pdf
@@ -62,6 +64,7 @@ share/texmf-dist/tex/latex/pstricks/pst-all.sty
 share/texmf-dist/tex/latex/pstricks/pst-doc.cls
 share/texmf-dist/tex/latex/pstricks/pst-key.sty
 share/texmf-dist/tex/latex/pstricks/pstcol.sty
+share/texmf-dist/tex/latex/pstricks/pstricks-pdf.sty
 share/texmf-dist/tex/latex/pstricks/pstricks.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20151111
+PORTVERSION=	20151112
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -728,6 +728,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/hyphenat/hyphenat.sty:${PORTSDIR}/print/texlive-hyphenat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/idxcmds/idxcmds.sty:${PORTSDIR}/print/texlive-idxcmds \
 		${LOCALBASE}/share/texmf-dist/tex/latex/idxlayout/idxlayout.sty:${PORTSDIR}/print/texlive-idxlayout \
+		${LOCALBASE}/share/texmf-dist/tex/latex/iffont/iffont.sty:${PORTSDIR}/print/texlive-iffont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifmslide/ifmslide.sty:${PORTSDIR}/print/texlive-ifmslide \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty:${PORTSDIR}/print/texlive-ifmtarg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifnextok/ifnextok.sty:${PORTSDIR}/print/texlive-ifnextok \
