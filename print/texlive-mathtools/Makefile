@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mathtools
-PORTVERSION=	20150618
+PORTVERSION=	20151113
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Mathematical tools to use with amsmath.
+COMMENT=	Mathematical tools to use with amsmath
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

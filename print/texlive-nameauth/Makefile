@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	nameauth
-PORTVERSION=	20150712
+PORTVERSION=	20151113
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Name authority mechanism for consistency in body text and index.
+COMMENT=	Name authority mechanism for consistency in body text and index
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
