@@ -112,7 +112,7 @@ share/texmf-dist/tex/xelatex/bidi/newfloat-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/ntheorem-hyper-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/ntheorem-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/pdfpages-xetex-bidi.def
-share/texmf-dist/tex/xelatex/bidi/pgf-xetex-bidi.def
+share/texmf-dist/tex/xelatex/bidi/pgfcorescopes.code-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/picinpar-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/plain-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/pstricks-xetex-bidi.def
@@ -135,7 +135,6 @@ share/texmf-dist/tex/xelatex/bidi/tabls-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/tabularx-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/tabulary-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/tc-xetex-bidi.def
-share/texmf-dist/tex/xelatex/bidi/tikz-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/titlesec-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/titletoc-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/tocbibind-xetex-bidi.def

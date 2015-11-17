@@ -1,0 +1,4 @@
+The package provides data and commands for including nuclear
+and atomic mass and energy data in LaTeX documents. It uses the
+PythonTeX package and requires pythontex.exe to be called with
+the TeX file as the argument.

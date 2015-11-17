@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-science
-PORTVERSION=	20150930
+PORTVERSION=	20151114
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -119,6 +119,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/miller/miller.sty:${PORTSDIR}/print/texlive-miller \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mychemistry/mychemistry.sty:${PORTSDIR}/print/texlive-mychemistry \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nuc/nuc.sty:${PORTSDIR}/print/texlive-nuc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/nucleardata/nucleardata.sty:${PORTSDIR}/print/texlive-nucleardata \
 		${LOCALBASE}/share/texmf-dist/tex/latex/objectz/oz.sty:${PORTSDIR}/print/texlive-objectz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/physics/physics.sty:${PORTSDIR}/print/texlive-physics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pseudocode/pseudocode.sty:${PORTSDIR}/print/texlive-pseudocode \

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	reledmac
+PORTNAME=	nucleardata
 PORTVERSION=	20151114
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset scholarly editions
+COMMENT=	Provides data about atomic nuclides for documents
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

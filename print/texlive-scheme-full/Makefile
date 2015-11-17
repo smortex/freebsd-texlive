@@ -1455,6 +1455,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fink/fink.sty:${PORTSDIR}/print/texlive-fink \
 		${LOCALBASE}/share/texmf-dist/tex/latex/finstrut/finstrut.sty:${PORTSDIR}/print/texlive-finstrut \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fithesis/fithesis.cls:${PORTSDIR}/print/texlive-fithesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fixcmex/fixcmex.sty:${PORTSDIR}/print/texlive-fixcmex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixfoot/fixfoot.sty:${PORTSDIR}/print/texlive-fixfoot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixme/fixme.sty:${PORTSDIR}/print/texlive-fixme \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fixmetodonotes/fixmetodonotes.sty:${PORTSDIR}/print/texlive-fixmetodonotes \
@@ -1563,6 +1564,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/hyphenat/hyphenat.sty:${PORTSDIR}/print/texlive-hyphenat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/idxcmds/idxcmds.sty:${PORTSDIR}/print/texlive-idxcmds \
 		${LOCALBASE}/share/texmf-dist/tex/latex/idxlayout/idxlayout.sty:${PORTSDIR}/print/texlive-idxlayout \
+		${LOCALBASE}/share/texmf-dist/tex/latex/iffont/iffont.sty:${PORTSDIR}/print/texlive-iffont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifmslide/ifmslide.sty:${PORTSDIR}/print/texlive-ifmslide \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty:${PORTSDIR}/print/texlive-ifmtarg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifnextok/ifnextok.sty:${PORTSDIR}/print/texlive-ifnextok \
@@ -2608,6 +2610,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/miller/miller.sty:${PORTSDIR}/print/texlive-miller \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mychemistry/mychemistry.sty:${PORTSDIR}/print/texlive-mychemistry \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nuc/nuc.sty:${PORTSDIR}/print/texlive-nuc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/nucleardata/nucleardata.sty:${PORTSDIR}/print/texlive-nucleardata \
 		${LOCALBASE}/share/texmf-dist/tex/latex/objectz/oz.sty:${PORTSDIR}/print/texlive-objectz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/physics/physics.sty:${PORTSDIR}/print/texlive-physics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pseudocode/pseudocode.sty:${PORTSDIR}/print/texlive-pseudocode \
