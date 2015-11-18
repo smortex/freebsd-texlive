@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	resphilosophica
+PORTNAME=	asciilist
 PORTVERSION=	20151116
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset articles for the journal Res Philosophica
+COMMENT=	Environments AsciiList and AsciiDocList for prototyping nested lists in LaTeX.
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

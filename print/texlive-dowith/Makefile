@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	dowith
-PORTVERSION=	20150412
+PORTVERSION=	20151116
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Apply a command to a list of items.
+COMMENT=	Apply a command to a list of items
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

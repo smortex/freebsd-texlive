@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	turabian-formatting
-PORTVERSION=	20150413
+PORTVERSION=	20151116
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Formatting based on Turabian's Manual.
+COMMENT=	Formatting based on Turabian's Manual
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

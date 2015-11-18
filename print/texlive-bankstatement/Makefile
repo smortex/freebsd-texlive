@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bankstatement
-PORTVERSION=	20150412
+PORTVERSION=	20151116
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A LaTeX class for bank statements based on csv data.
+COMMENT=	A LaTeX class for bank statements based on csv data
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

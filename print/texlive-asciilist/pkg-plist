@@ -1,9 +1,9 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/indextools/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/indextools/indextools.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/indextools/issue4.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/indextools/latexmkrc
-%%PORTDOCS%%share/texmf-dist/doc/latex/indextools/makefile
-%%PORTSRC%%share/texmf-dist/source/latex/indextools/indextools.dtx
-share/texmf-dist/tex/latex/indextools/indextools.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/asciilist/AsciiDocList.example
+%%PORTDOCS%%share/texmf-dist/doc/latex/asciilist/AsciiList.example
+%%PORTDOCS%%share/texmf-dist/doc/latex/asciilist/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/asciilist/asciilist.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/asciilist/asciilist.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/asciilist/asciilist.ins
+share/texmf-dist/tex/latex/asciilist/asciilist.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

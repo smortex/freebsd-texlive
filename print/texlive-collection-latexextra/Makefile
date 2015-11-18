@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20151112
+PORTVERSION=	20151116
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -291,6 +291,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/arrayjobx/arrayjobx.sty:${PORTSDIR}/print/texlive-arrayjobx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arraysort/arraysort.sty:${PORTSDIR}/print/texlive-arraysort \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arydshln/arydshln.sty:${PORTSDIR}/print/texlive-arydshln \
+		${LOCALBASE}/share/texmf-dist/tex/latex/asciilist/asciilist.sty:${PORTSDIR}/print/texlive-asciilist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/assignment/assignment.cls:${PORTSDIR}/print/texlive-assignment \
 		${LOCALBASE}/share/texmf-dist/tex/latex/assoccnt/assoccnt.sty:${PORTSDIR}/print/texlive-assoccnt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/attachfile/attachfile.sty:${PORTSDIR}/print/texlive-attachfile \

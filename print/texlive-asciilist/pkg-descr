@@ -1,0 +1,7 @@
+The asciilist provides the environments AsciiList and
+AsciiDocList, which enable quickly typesetting nested lists in
+LaTeX without having to type individual item macros or
+opening/closing list environments. The package provides
+auxiliary functionality for loading such lists from files and
+provides macros for configuring the use of the list
+environments and the appearance of the typeset results.

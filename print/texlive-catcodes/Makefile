@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	catcodes
-PORTVERSION=	20150412
+PORTVERSION=	20151116
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generic handling of TeX category codes.
+COMMENT=	Generic handling of TeX category codes
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

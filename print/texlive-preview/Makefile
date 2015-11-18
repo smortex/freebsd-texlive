@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	preview
-PORTVERSION=	20150413
+PORTVERSION=	20151116
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extract bits of a LaTeX source for output.
+COMMENT=	Extract bits of a LaTeX source for output
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

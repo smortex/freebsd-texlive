@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	indextools
-PORTVERSION=	20150412
+PORTVERSION=	20151116
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A fork of imakeidx to fixe one bug with bidi
+COMMENT=	Producing multiple indices
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
