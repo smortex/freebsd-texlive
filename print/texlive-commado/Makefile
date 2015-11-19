@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	commado
-PORTVERSION=	20150412
+PORTVERSION=	20151117
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Expandable iteration on comma-separated and filename lists.
+COMMENT=	Expandable iteration on comma-separated and filename lists
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
