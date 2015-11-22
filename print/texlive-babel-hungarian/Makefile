@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	babel-hungarian
-PORTVERSION=	20151010
+PORTVERSION=	20151120
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

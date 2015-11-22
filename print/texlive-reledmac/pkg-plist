@@ -1,4 +1,3 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/doc-include/migrate-mac.dtx
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/doc-include/migrate-par.dtx
@@ -70,9 +69,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/4-reledpar_titles_not_in_line_numbering.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/4-reledpar_verse_text_between.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/4-reledpar_verse_text_between.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/reledmac.xdy
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/latexmkrc
+%%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/migration.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/reledmac.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/reledpar.pdf

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	exsheets
-PORTVERSION=	20150705
+PORTVERSION=	20151120
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create exercise sheets and exams.
+COMMENT=	Create exercise sheets and exams
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

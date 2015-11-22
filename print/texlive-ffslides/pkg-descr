@@ -1,0 +1,10 @@
+The ffslides ("freeform slides") class is intended to make it
+easier to place various types of content freely on the page,
+and therefore easier to design documents with a strong visual
+component: presentations, posters, research or lecture notes,
+and so on. The goal of the class is to be less rigid and less
+complex than some of the popular presentation-making options.
+It is essentially a small set of macros added to the article
+class. A well-organized template file is included, and the
+documentation is itself an extensive example of the class's
+capabilities.
