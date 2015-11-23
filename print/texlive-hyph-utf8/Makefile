@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	hyph-utf8
-PORTVERSION=	20150512
+PORTVERSION=	20151121
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Hyphenation patterns expressed in UTF-8.
+COMMENT=	Hyphenation patterns expressed in UTF-8
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
