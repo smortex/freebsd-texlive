@@ -1,5 +1,13 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/fibeamer/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/fibeamer/fibeamer.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fibeamer/guide/mu/econ.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fibeamer/guide/mu/fi.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fibeamer/guide/mu/fsps.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fibeamer/guide/mu/fss.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fibeamer/guide/mu/law.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fibeamer/guide/mu/med.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fibeamer/guide/mu/ped.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fibeamer/guide/mu/phil.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/fibeamer/guide/mu/sci.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/fibeamer/LICENSE.tex
 %%PORTSRC%%share/texmf-dist/source/latex/fibeamer/fibeamer.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/fibeamer/fibeamer.ins

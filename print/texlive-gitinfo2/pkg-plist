@@ -1,5 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/gitinfo2/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/gitinfo2/gitPseudoHeadInfo.gin
+%%PORTDOCS%%share/texmf-dist/doc/latex/gitinfo2/gitHeadLocal.gin
 %%PORTDOCS%%share/texmf-dist/doc/latex/gitinfo2/gitinfo2.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/gitinfo2/gitinfo2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/gitinfo2/gitinfotest.tex
