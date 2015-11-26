@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	phonrule
-PORTVERSION=	20150705
+PORTVERSION=	20151124
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset linear phonological rules.
+COMMENT=	Typeset linear phonological rules
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

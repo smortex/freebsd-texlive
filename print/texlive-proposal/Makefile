@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	proposal
-PORTVERSION=	20150413
+PORTVERSION=	20151124
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A class for preparing proposals.
+COMMENT=	A class for preparing proposals
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

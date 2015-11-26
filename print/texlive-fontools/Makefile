@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	fontools
-PORTVERSION=	20150514
+PORTVERSION=	20151124
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Tools to simplify using fonts (especially TT/OTF ones).
+COMMENT=	Tools to simplify using fonts (especially TT/OTF ones)
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

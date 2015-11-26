@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	francais-bst
-PORTVERSION=	20150412
+PORTVERSION=	20151124
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bibliographies conforming to French typographic standards.
+COMMENT=	Bibliographies conforming to French typographic standards
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

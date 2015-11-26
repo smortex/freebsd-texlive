@@ -1,6 +1,10 @@
-share/texmf-dist/bibtex/bst/francais-bst/francais.bst
-share/texmf-dist/bibtex/bst/francais-bst/francaissc.bst
-%%PORTDOCS%%share/texmf-dist/doc/bibtex/francais-bst/README
-share/texmf-dist/tex/latex/francais-bst/francaisbst.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/gitlog/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/gitlog/gitHeadLocal.gin
+%%PORTDOCS%%share/texmf-dist/doc/latex/gitlog/gitlog.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/gitlog/gitlog.sample.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/gitlog/gitlog.tex
+share/texmf-dist/tex/latex/gitlog/gitlog.bbx
+share/texmf-dist/tex/latex/gitlog/gitlog.dbx
+share/texmf-dist/tex/latex/gitlog/gitlog.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
