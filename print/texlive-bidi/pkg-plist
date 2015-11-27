@@ -31,6 +31,7 @@ share/texmf-dist/tex/xelatex/bidi/amsbook-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/amsmath-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/amstext-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/amsthm-xetex-bidi.def
+share/texmf-dist/tex/xelatex/bidi/animate-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/array-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/article-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/artikel1-xetex-bidi.def
@@ -39,6 +40,7 @@ share/texmf-dist/tex/xelatex/bidi/artikel3-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/arydshln-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/bibitem.pdf
 share/texmf-dist/tex/xelatex/bidi/bidi-longtable.sty
+share/texmf-dist/tex/xelatex/bidi/bidi-media9.sty
 share/texmf-dist/tex/xelatex/bidi/bidi.sty
 share/texmf-dist/tex/xelatex/bidi/bidi.tex
 share/texmf-dist/tex/xelatex/bidi/bidi2in1.sty
