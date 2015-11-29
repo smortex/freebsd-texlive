@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer-verona/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer-verona/beamer-verona.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer-verona/beamer-verona.tex
+share/texmf-dist/tex/latex/beamer-verona/beamercolorthemeVerona.sty
+share/texmf-dist/tex/latex/beamer-verona/beamerfontthemeVerona.sty
+share/texmf-dist/tex/latex/beamer-verona/beamerinnerthemeVerona.sty
+share/texmf-dist/tex/latex/beamer-verona/beamerouterthemeVerona.sty
+share/texmf-dist/tex/latex/beamer-verona/beamerthemeVerona.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

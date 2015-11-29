@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	bidi
+PORTNAME=	beamer-verona
 PORTVERSION=	20151127
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bidirectional typesetting in plain TeX and LaTeX, using XeTeX engine
+COMMENT=	A theme for the beamer class
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
