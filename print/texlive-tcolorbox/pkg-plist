@@ -27,6 +27,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.references.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.s_main.sty
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.s_snippet.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.sidebyside.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.skins.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.technical.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.theorems.tex

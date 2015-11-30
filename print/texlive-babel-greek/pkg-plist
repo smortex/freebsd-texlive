@@ -3,6 +3,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/babel-greek/athnum.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/babel-greek/babel-greek.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/babel-greek/grmath.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-greek/grsymb.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/babel-greek/test-greek.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/babel-greek/test-greek.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/babel-greek/test-unicode-greek.pdf
@@ -15,6 +16,7 @@
 %%PORTSRC%%share/texmf-dist/source/generic/babel-greek/babel-greek.dtx
 %%PORTSRC%%share/texmf-dist/source/generic/babel-greek/babel-greek.ins
 %%PORTSRC%%share/texmf-dist/source/generic/babel-greek/grmath.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-greek/grsymb.dtx
 share/texmf-dist/tex/generic/babel-greek/athnum.sty
 share/texmf-dist/tex/generic/babel-greek/greek.ldf
 share/texmf-dist/tex/generic/babel-greek/grmath.sty
