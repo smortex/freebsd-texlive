@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bibarts
-PORTVERSION=	20150412
+PORTVERSION=	20151201
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	"Arts"-style bibliographical information.
+COMMENT=	"Arts"-style bibliographical information
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

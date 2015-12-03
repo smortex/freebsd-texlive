@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	powerdot
+PORTNAME=	drawmatrix
 PORTVERSION=	20151201
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A presentation class
+COMMENT=	Draw visual representations of matrices in LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

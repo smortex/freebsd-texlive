@@ -1,0 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/drawmatrix/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/drawmatrix/drawmatrix.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/drawmatrix/drawmatrix.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/drawmatrix/drawmatrix.ins
+share/texmf-dist/tex/latex/drawmatrix/drawmatrix.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
