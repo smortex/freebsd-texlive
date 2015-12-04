@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	xcharter
-PORTVERSION=	20150727
+PORTVERSION=	20151202
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extension of Bitstream Charter fonts.
+COMMENT=	Extension of Bitstream Charter fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

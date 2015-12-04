@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bangorcsthesis
-PORTVERSION=	20150412
+PORTVERSION=	20151202
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset a thesis at Bangor University.
+COMMENT=	Typeset a thesis at Bangor University
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

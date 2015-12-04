@@ -1,8 +1,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/chemfig/README
-%%PORTDOCS%%share/texmf-dist/doc/generic/chemfig/chemfig_doc_en.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/chemfig/chemfig_doc_en.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/chemfig/chemfig_doc_fr.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/chemfig/chemfig_doc_fr.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/chemfig/chemfig-en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/chemfig/chemfig-en.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/chemfig/chemfig-fr.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/chemfig/chemfig-fr.tex
 share/texmf-dist/tex/generic/chemfig/chemfig.sty
 share/texmf-dist/tex/generic/chemfig/chemfig.tex
 share/texmf-dist/tex/generic/chemfig/t-chemfig.tex
