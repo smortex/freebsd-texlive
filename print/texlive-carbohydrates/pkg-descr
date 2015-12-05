@@ -1,0 +1,5 @@
+This package offers macros that make the preparation of
+exercise sheets for teaching carbohydrate chemistry a lot less
+tedious. It uses chemfig for drawing the formulas. Different
+representation models (Fischer, Haworth, chair...) are
+supported as well as alpha, beta, and chain isomers.

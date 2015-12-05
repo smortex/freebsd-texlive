@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20151124
+PORTVERSION=	20151203
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -355,6 +355,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/capt-of/capt-of.sty:${PORTSDIR}/print/texlive-capt-of \
 		${LOCALBASE}/share/texmf-dist/tex/latex/captcont/captcont.sty:${PORTSDIR}/print/texlive-captcont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/captdef/captdef.sty:${PORTSDIR}/print/texlive-captdef \
+		${LOCALBASE}/share/texmf-dist/tex/latex/carbohydrates/carbohydrates.sty:${PORTSDIR}/print/texlive-carbohydrates \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cases/cases.sty:${PORTSDIR}/print/texlive-cases \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/casyl/casyll10.mf:${PORTSDIR}/print/texlive-casyl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/catchfilebetweentags/catchfilebetweentags.sty:${PORTSDIR}/print/texlive-catchfilebetweentags \
