@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20151203
+PORTVERSION=	20151205
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -497,7 +497,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/dblfloatfix/dblfloatfix.sty:${PORTSDIR}/print/texlive-dblfloatfix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/decimal/decimal.sty:${PORTSDIR}/print/texlive-decimal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/decorule/decorule.sty:${PORTSDIR}/print/texlive-decorule \
-		${LOCALBASE}/share/texmf-dist/tex/latex/delim/delim.sty:${PORTSDIR}/print/texlive-delim \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delimtxt/delimtxt.sty:${PORTSDIR}/print/texlive-delimtxt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/denisbdoc/denisbdoc.sty:${PORTSDIR}/print/texlive-denisbdoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/detlev-cm/beamercolorthemeETII.sty:${PORTSDIR}/print/texlive-detlev-cm \

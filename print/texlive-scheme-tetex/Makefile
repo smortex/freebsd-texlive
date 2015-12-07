@@ -235,6 +235,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-kurmanji/kurmanji.ldf:${PORTSDIR}/print/texlive-babel-kurmanji \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-latin/latin.ldf:${PORTSDIR}/print/texlive-babel-latin \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-latvian/latvian.ldf:${PORTSDIR}/print/texlive-babel-latvian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/babel-macedonian/macedonian.ldf:${PORTSDIR}/print/texlive-babel-macedonian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-norsk/norsk.ldf:${PORTSDIR}/print/texlive-babel-norsk \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-piedmontese/piedmontese.ldf:${PORTSDIR}/print/texlive-babel-piedmontese \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-romanian/romanian.ldf:${PORTSDIR}/print/texlive-babel-romanian \
@@ -406,6 +407,9 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/concmath/concmath.sty:${PORTSDIR}/print/texlive-concmath \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/concrete/cccsc10.mf:${PORTSDIR}/print/texlive-concrete \
 		${LOCALBASE}/share/texmf-dist/tex/latex/conteq/conteq.sty:${PORTSDIR}/print/texlive-conteq \
+		${LOCALBASE}/share/texmf-dist/tex/latex/delim/delim.sty:${PORTSDIR}/print/texlive-delim \
+		${LOCALBASE}/share/texmf-dist/tex/latex/delimseasy/delimseasy.sty:${PORTSDIR}/print/texlive-delimseasy \
+		${LOCALBASE}/share/texmf-dist/tex/latex/drawmatrix/drawmatrix.sty:${PORTSDIR}/print/texlive-drawmatrix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebproof/ebproof.sty:${PORTSDIR}/print/texlive-ebproof \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eqnarray/eqnarray.sty:${PORTSDIR}/print/texlive-eqnarray \
 		${LOCALBASE}/share/texmf-dist/tex/latex/extarrows/extarrows.sty:${PORTSDIR}/print/texlive-extarrows \

@@ -1,0 +1,6 @@
+This package provides commands to give a consistent, easy-to-
+remember, easy to edit way to control the size and blackness of
+delimiters: append 1-4 "b"s to command for larger sizes;
+prepend "B" for for boldface. These commands reduce the
+likelihood of incomplete delimeter pairs and typically use
+fewer characters than the LaTeX default.

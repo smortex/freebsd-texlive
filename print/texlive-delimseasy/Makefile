@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	sapthesis
+PORTNAME=	delimseasy
 PORTVERSION=	20151205
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset theses for Sapienza-University, Rome
+COMMENT=	Delimiter commands that are easy to use and resize
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
