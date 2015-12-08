@@ -1,0 +1,21 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-metropolis/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-metropolis/demo.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-metropolis/demo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-metropolis/demo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-metropolis/metropolistheme.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/beamertheme-metropolis/beamercolorthememetropolis.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/beamertheme-metropolis/beamerfontthememetropolis.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/beamertheme-metropolis/beamerinnerthememetropolis.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/beamertheme-metropolis/beamerouterthememetropolis.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/beamertheme-metropolis/beamerthememetropolis.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/beamertheme-metropolis/beamerthememetropolis.ins
+%%PORTSRC%%share/texmf-dist/source/latex/beamertheme-metropolis/metropolistheme.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/beamertheme-metropolis/pgfplotsthemetol.dtx
+share/texmf-dist/tex/latex/beamertheme-metropolis/beamercolorthememetropolis.sty
+share/texmf-dist/tex/latex/beamertheme-metropolis/beamerfontthememetropolis.sty
+share/texmf-dist/tex/latex/beamertheme-metropolis/beamerinnerthememetropolis.sty
+share/texmf-dist/tex/latex/beamertheme-metropolis/beamerouterthememetropolis.sty
+share/texmf-dist/tex/latex/beamertheme-metropolis/beamerthememetropolis.sty
+share/texmf-dist/tex/latex/beamertheme-metropolis/pgfplotsthemetol.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

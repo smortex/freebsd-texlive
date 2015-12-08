@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	luatodonotes
+PORTNAME=	beamertheme-metropolis
 PORTVERSION=	20151206
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Add editing annotations in a LuaLaTeX document
+COMMENT=	A modern LaTeX beamer theme
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

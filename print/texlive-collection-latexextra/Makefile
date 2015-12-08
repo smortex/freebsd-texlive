@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20151205
+PORTVERSION=	20151206
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -310,6 +310,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerdarkthemes/beamercolorthemecormorant.sty:${PORTSDIR}/print/texlive-beamerdarkthemes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerposter/beamerposter.sty:${PORTSDIR}/print/texlive-beamerposter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamersubframe/beamersubframe.sty:${PORTSDIR}/print/texlive-beamersubframe \
+		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-metropolis/beamercolorthememetropolis.sty:${PORTSDIR}/print/texlive-beamertheme-metropolis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-upenn-bc/beamercolorthemegoeagles.sty:${PORTSDIR}/print/texlive-beamertheme-upenn-bc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerthemejltree/beamerthemeJLTree.sty:${PORTSDIR}/print/texlive-beamerthemejltree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerthemenirma/beamerthemenirma.sty:${PORTSDIR}/print/texlive-beamerthemenirma \
