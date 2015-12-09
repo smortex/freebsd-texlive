@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	detlev-cm
-PORTVERSION=	20150904
+PORTNAME=	beamertheme-detlev-cm
+PORTVERSION=	20151207
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The detlev-cm package
+COMMENT=	A beamer theme designed for use in the University of Leeds
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

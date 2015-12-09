@@ -1,14 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	appendix
+PORTNAME=	ksp-thesis
 PORTVERSION=	20151207
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extra control of appendices
+COMMENT=	A LaTeX class for theses published with KIT Scientific Publishing
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

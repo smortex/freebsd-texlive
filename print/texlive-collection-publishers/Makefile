@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20151127
+PORTVERSION=	20151207
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -89,7 +89,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/asaetr/asaetr.cls:${PORTSDIR}/print/texlive-asaetr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ascelike/ascelike.cls:${PORTSDIR}/print/texlive-ascelike \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bangorcsthesis/bangorcsthesis.cls:${PORTSDIR}/print/texlive-bangorcsthesis \
-		${LOCALBASE}/share/texmf-dist/tex/latex/beamer-verona/beamercolorthemeVerona.sty:${PORTSDIR}/print/texlive-beamer-verona \
+		${LOCALBASE}/share/texmf-dist/tex/latex/beamer-verona/beamerthemeVerona.sty:${PORTSDIR}/print/texlive-beamer-verona \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bgteubner/bgteubner.cls:${PORTSDIR}/print/texlive-bgteubner \
 		${LOCALBASE}/share/texmf-dist/tex/latex/br-lex/br-lex.cls:${PORTSDIR}/print/texlive-br-lex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/brandeis-dissertation/brandeis-dissertation.cls:${PORTSDIR}/print/texlive-brandeis-dissertation \
@@ -131,6 +131,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/jpsj/jpsj2.cls:${PORTSDIR}/print/texlive-jpsj \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kdgdocs/kdgcoursetext.cls:${PORTSDIR}/print/texlive-kdgdocs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kluwer/kluwer.cls:${PORTSDIR}/print/texlive-kluwer \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ksp-thesis/ksp-thesis.cls:${PORTSDIR}/print/texlive-ksp-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lps/lps.cls:${PORTSDIR}/print/texlive-lps \
 		${LOCALBASE}/share/texmf-dist/tex/latex/matc3/matc3.sty:${PORTSDIR}/print/texlive-matc3 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/matc3mem/matc3mem.cls:${PORTSDIR}/print/texlive-matc3mem \

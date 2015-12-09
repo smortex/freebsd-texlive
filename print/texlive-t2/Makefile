@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	t2
-PORTVERSION=	20150413
+PORTVERSION=	20151207
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for using T2 encoding.
+COMMENT=	Support for using T2 encoding
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	appendix
+PORTNAME=	ellipse
 PORTVERSION=	20151207
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extra control of appendices
+COMMENT=	Draw ellipses and elliptical arcs using the standard LaTeX2e picture environment
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

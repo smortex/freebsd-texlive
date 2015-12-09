@@ -986,6 +986,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/drs/drs.sty:${PORTSDIR}/print/texlive-drs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/duotenzor/duotenzor.sty:${PORTSDIR}/print/texlive-duotenzor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eepic/eepic.sty:${PORTSDIR}/print/texlive-eepic \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ellipse/ellipse.sty:${PORTSDIR}/print/texlive-ellipse \
 		${LOCALBASE}/share/texmf-dist/scripts/epspdf/epspdf.help:${PORTSDIR}/print/texlive-epspdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/epspdfconversion/epspdfconversion.sty:${PORTSDIR}/print/texlive-epspdfconversion \
 		${LOCALBASE}/share/texmf-dist/tex/latex/esk/esk.sty:${PORTSDIR}/print/texlive-esk \
@@ -1146,6 +1147,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerdarkthemes/beamercolorthemecormorant.sty:${PORTSDIR}/print/texlive-beamerdarkthemes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerposter/beamerposter.sty:${PORTSDIR}/print/texlive-beamerposter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamersubframe/beamersubframe.sty:${PORTSDIR}/print/texlive-beamersubframe \
+		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-detlev-cm/beamercolorthemeETII.sty:${PORTSDIR}/print/texlive-beamertheme-detlev-cm \
+		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-metropolis/beamercolorthememetropolis.sty:${PORTSDIR}/print/texlive-beamertheme-metropolis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-upenn-bc/beamercolorthemegoeagles.sty:${PORTSDIR}/print/texlive-beamertheme-upenn-bc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerthemejltree/beamerthemeJLTree.sty:${PORTSDIR}/print/texlive-beamerthemejltree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerthemenirma/beamerthemenirma.sty:${PORTSDIR}/print/texlive-beamerthemenirma \
@@ -1335,7 +1338,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/decorule/decorule.sty:${PORTSDIR}/print/texlive-decorule \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delimtxt/delimtxt.sty:${PORTSDIR}/print/texlive-delimtxt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/denisbdoc/denisbdoc.sty:${PORTSDIR}/print/texlive-denisbdoc \
-		${LOCALBASE}/share/texmf-dist/tex/latex/detlev-cm/beamercolorthemeETII.sty:${PORTSDIR}/print/texlive-detlev-cm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/diagbox/diagbox.sty:${PORTSDIR}/print/texlive-diagbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/diagnose/diagnose.sty:${PORTSDIR}/print/texlive-diagnose \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dialogl/dialog.sty:${PORTSDIR}/print/texlive-dialogl \
@@ -1645,6 +1647,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/logbox/logbox.sty:${PORTSDIR}/print/texlive-logbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/logical-markup-utils/onedash.sty:${PORTSDIR}/print/texlive-logical-markup-utils \
 		${LOCALBASE}/share/texmf-dist/tex/latex/logpap/logpap.sty:${PORTSDIR}/print/texlive-logpap \
+		${LOCALBASE}/share/texmf-dist/tex/latex/longfbox/longfbox.sty:${PORTSDIR}/print/texlive-longfbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/longfigure/longfigure.sty:${PORTSDIR}/print/texlive-longfigure \
 		${LOCALBASE}/share/texmf-dist/tex/latex/longnamefilelist/longnamefilelist.sty:${PORTSDIR}/print/texlive-longnamefilelist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/loops/loops.sty:${PORTSDIR}/print/texlive-loops \
@@ -1782,6 +1785,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/onlyamsmath/onlyamsmath.sty:${PORTSDIR}/print/texlive-onlyamsmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/opcit/opcit.sty:${PORTSDIR}/print/texlive-opcit \
 		${LOCALBASE}/share/texmf-dist/tex/latex/optional/optional.sty:${PORTSDIR}/print/texlive-optional \
+		${LOCALBASE}/share/texmf-dist/tex/latex/options/options.sty:${PORTSDIR}/print/texlive-options \
 		${LOCALBASE}/share/texmf-dist/tex/latex/outline/outline.sty:${PORTSDIR}/print/texlive-outline \
 		${LOCALBASE}/share/texmf-dist/tex/latex/outliner/outliner.sty:${PORTSDIR}/print/texlive-outliner \
 		${LOCALBASE}/share/texmf-dist/tex/latex/outlines/outlines.sty:${PORTSDIR}/print/texlive-outlines \
@@ -2483,6 +2487,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/jpsj/jpsj2.cls:${PORTSDIR}/print/texlive-jpsj \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kdgdocs/kdgcoursetext.cls:${PORTSDIR}/print/texlive-kdgdocs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kluwer/kluwer.cls:${PORTSDIR}/print/texlive-kluwer \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ksp-thesis/ksp-thesis.cls:${PORTSDIR}/print/texlive-ksp-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lps/lps.cls:${PORTSDIR}/print/texlive-lps \
 		${LOCALBASE}/share/texmf-dist/tex/latex/matc3/matc3.sty:${PORTSDIR}/print/texlive-matc3 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/matc3mem/matc3mem.cls:${PORTSDIR}/print/texlive-matc3mem \

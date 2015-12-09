@@ -1,14 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	appendix
+PORTNAME=	options
 PORTVERSION=	20151207
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extra control of appendices
+COMMENT=	Provides convenient key-value options for LaTeX package writers
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

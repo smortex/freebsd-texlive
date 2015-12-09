@@ -1,0 +1,8 @@
+This package provides a LaTeX class intended for authors who
+want to publish their thesis or other scientific work with KIT
+Scientific Publishing (KSP). The class is based on the scrbook
+class of the KOMA-script bundle in combination with the
+ClassicThesis and ArsClassica packages. It modifies some of the
+layout and style definitions of these packages in order to
+provide a document layout that should be compatible with the
+requirements by KSP.

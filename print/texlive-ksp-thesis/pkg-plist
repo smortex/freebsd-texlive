@@ -1,0 +1,23 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/LISTOFFILES
+%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/demo/full/content/appendix.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/demo/full/content/appendix/bibliography.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/demo/full/content/appendix/lists.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/demo/full/content/docinfo.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/demo/full/content/front/abstract.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/demo/full/content/front/acknowledgments.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/demo/full/content/front/dirtytitle.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/demo/full/content/front/lists.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/demo/full/content/front/publications.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/demo/full/content/front/titlepage.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/demo/full/content/front/toc.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/demo/full/content/frontmatter.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/demo/full/content/mainmatter.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/demo/full/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/demo/full/preamble/layout.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/demo/minimal/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/ksp-thesis.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/ksp-thesis.tex
+share/texmf-dist/tex/latex/ksp-thesis/ksp-thesis.cls
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

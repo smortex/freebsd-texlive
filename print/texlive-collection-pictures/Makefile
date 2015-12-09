@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20150818
+PORTVERSION=	20151207
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -72,6 +72,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/drs/drs.sty:${PORTSDIR}/print/texlive-drs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/duotenzor/duotenzor.sty:${PORTSDIR}/print/texlive-duotenzor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eepic/eepic.sty:${PORTSDIR}/print/texlive-eepic \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ellipse/ellipse.sty:${PORTSDIR}/print/texlive-ellipse \
 		${LOCALBASE}/share/texmf-dist/scripts/epspdf/epspdf.help:${PORTSDIR}/print/texlive-epspdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/epspdfconversion/epspdfconversion.sty:${PORTSDIR}/print/texlive-epspdfconversion \
 		${LOCALBASE}/share/texmf-dist/tex/latex/esk/esk.sty:${PORTSDIR}/print/texlive-esk \
@@ -139,7 +140,9 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/swimgraf/swimgraf.sty:${PORTSDIR}/print/texlive-swimgraf \
 		${LOCALBASE}/share/texmf-dist/tex/generic/texdraw/texdraw.sty:${PORTSDIR}/print/texlive-texdraw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ticollege/ticollege.sty:${PORTSDIR}/print/texlive-ticollege \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tipfr/tipfr.sty:${PORTSDIR}/print/texlive-tipfr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty:${PORTSDIR}/print/texlive-tikz-3dplot \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-bayesnet/tikzlibrarybayesnet.code.tex:${PORTSDIR}/print/texlive-tikz-bayesnet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty:${PORTSDIR}/print/texlive-tikz-cd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-dependency/tikz-dependency.sty:${PORTSDIR}/print/texlive-tikz-dependency \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-dimline/tikz-dimline.sty:${PORTSDIR}/print/texlive-tikz-dimline \

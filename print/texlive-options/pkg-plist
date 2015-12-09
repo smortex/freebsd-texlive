@@ -1,9 +1,6 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/appendix/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/appendix/appendix.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/demo/full/content/appendix/bibliography.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/ksp-thesis/demo/full/content/appendix/lists.tex
-%%PORTSRC%%share/texmf-dist/source/latex/appendix/appendix.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/appendix/appendix.ins
-share/texmf-dist/tex/latex/appendix/appendix.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/options/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/options/options.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/options/options.pdf
+share/texmf-dist/tex/latex/options/options.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
