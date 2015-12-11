@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	texsis
-PORTVERSION=	20150413
+PORTVERSION=	20151209
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Plain TeX macros for Physicists.
+COMMENT=	Plain TeX macros for Physicists
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \

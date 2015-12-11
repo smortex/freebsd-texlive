@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-detlevcm/FS-img1.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-detlevcm/FS-img2.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-detlevcm/FS-img3.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-detlevcm/LogoTop.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-detlevcm/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-detlevcm/beamertheme-detlevcm.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-detlevcm/beamertheme-detlevcm.tex
+share/texmf-dist/tex/latex/beamertheme-detlevcm/beamercolorthemeETII.sty
+share/texmf-dist/tex/latex/beamertheme-detlevcm/beamerfontthemeDetlevCM.sty
+share/texmf-dist/tex/latex/beamertheme-detlevcm/beamerouterthemeDetlevCM.sty
+share/texmf-dist/tex/latex/beamertheme-detlevcm/beamerthemeDetlevCM.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	aleph
-PORTVERSION=	20150428
+PORTVERSION=	20151209
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extended TeX.
+COMMENT=	Extended TeX
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/makeindex/latex/gglo.ist:${PORTSDIR}/print/texlive-latex \
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \

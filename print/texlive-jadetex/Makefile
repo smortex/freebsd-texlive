@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	jadetex
-PORTVERSION=	20150412
+PORTVERSION=	20151209
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros supporting Jade DSSSL output.
+COMMENT=	Macros supporting Jade DSSSL output
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/makeindex/latex/gglo.ist:${PORTSDIR}/print/texlive-latex \
 		${LOCALBASE}/share/texmf-dist/tex/xmltex/passivetex/dummyels.sty:${PORTSDIR}/print/texlive-passivetex \

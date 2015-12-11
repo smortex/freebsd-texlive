@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mex
-PORTVERSION=	20150413
+PORTVERSION=	20151209
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Polish formats for TeX.
+COMMENT=	Polish formats for TeX
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/dvips/pl/config.pl:${PORTSDIR}/print/texlive-pl \
 		${LOCALBASE}/share/texmf-dist/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \

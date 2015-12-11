@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	lollipop
-PORTVERSION=	20150412
+PORTVERSION=	20151209
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	TeX made easy.
+COMMENT=	TeX made easy
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

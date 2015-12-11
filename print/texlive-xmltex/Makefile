@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	xmltex
-PORTVERSION=	20150413
+PORTVERSION=	20151209
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for parsing XML documents.
+COMMENT=	Support for parsing XML documents
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/makeindex/latex/gglo.ist:${PORTSDIR}/print/texlive-latex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/dummy-space/dummy-space.map:${PORTSDIR}/print/texlive-pdftex \

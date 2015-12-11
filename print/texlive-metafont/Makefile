@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	metafont
-PORTVERSION=	20150428
+PORTVERSION=	20151209
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A system for specifying fonts.
+COMMENT=	A system for specifying fonts
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core

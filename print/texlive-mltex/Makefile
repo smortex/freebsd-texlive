@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mltex
-PORTVERSION=	20150413
+PORTVERSION=	20151209
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The MLTeX system.
+COMMENT=	The MLTeX system
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/makeindex/latex/gglo.ist:${PORTSDIR}/print/texlive-latex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core

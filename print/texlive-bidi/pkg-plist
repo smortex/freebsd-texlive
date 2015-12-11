@@ -113,6 +113,7 @@ share/texmf-dist/tex/xelatex/bidi/natbib-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/newfloat-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/ntheorem-hyper-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/ntheorem-xetex-bidi.def
+share/texmf-dist/tex/xelatex/bidi/overpic-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/pdfpages-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/pgfcorescopes.code-xetex-bidi.def
 share/texmf-dist/tex/xelatex/bidi/picinpar-xetex-bidi.def
