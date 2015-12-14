@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	fithesis
+PORTNAME=	bitpattern
 PORTVERSION=	20151212
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Thesis class and template for Masaryk University (Brno, Czech Republic)
+COMMENT=	Typeset bit pattern diagrams
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

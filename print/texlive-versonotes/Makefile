@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	versonotes
-PORTVERSION=	20150413
+PORTVERSION=	20151212
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Display brief notes on verso pages.
+COMMENT=	Display brief notes on verso pages
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

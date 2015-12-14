@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-labo
-PORTVERSION=	20150413
+PORTVERSION=	20151212
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw objects for Chemistry laboratories.
+COMMENT=	Draw objects for Chemistry laboratories
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

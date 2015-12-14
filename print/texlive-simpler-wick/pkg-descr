@@ -1,0 +1,9 @@
+In every quantum field theory course, there will be a chapter
+about Wick's theorem and how it can be used to convert a very
+large product of many creation and annihilation operators into
+something more tractable and normal ordered. The contractions
+are denoted with a square bracket over the operators which are
+being contracted, which used to be rather annoying to typeset
+in LaTeX as the only other package available was simplewick,
+which is rather unwieldy. This package provides a simpler
+syntax for Wick contractions.

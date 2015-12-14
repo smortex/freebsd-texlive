@@ -41,6 +41,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
+		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print/texlive-ae \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/amscls/amsalpha.bst:${PORTSDIR}/print/texlive-amscls \
@@ -1147,7 +1148,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerdarkthemes/beamercolorthemecormorant.sty:${PORTSDIR}/print/texlive-beamerdarkthemes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerposter/beamerposter.sty:${PORTSDIR}/print/texlive-beamerposter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamersubframe/beamersubframe.sty:${PORTSDIR}/print/texlive-beamersubframe \
-		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-detlev-cm/beamercolorthemeETII.sty:${PORTSDIR}/print/texlive-beamertheme-detlev-cm \
+		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-detlevcm/beamercolorthemeETII.sty:${PORTSDIR}/print/texlive-beamertheme-detlevcm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-metropolis/beamercolorthememetropolis.sty:${PORTSDIR}/print/texlive-beamertheme-metropolis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-upenn-bc/beamercolorthemegoeagles.sty:${PORTSDIR}/print/texlive-beamertheme-upenn-bc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerthemejltree/beamerthemeJLTree.sty:${PORTSDIR}/print/texlive-beamerthemejltree \
@@ -1945,7 +1946,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/silence/silence.sty:${PORTSDIR}/print/texlive-silence \
 		${LOCALBASE}/share/texmf-dist/tex/latex/simplecd/simplecd.sty:${PORTSDIR}/print/texlive-simplecd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/simplecv/simplecv.cls:${PORTSDIR}/print/texlive-simplecv \
-		${LOCALBASE}/share/texmf-dist/tex/latex/simplewick/simplewick.sty:${PORTSDIR}/print/texlive-simplewick \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sitem/sitem.sty:${PORTSDIR}/print/texlive-sitem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skb/skb.sty:${PORTSDIR}/print/texlive-skb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skdoc/skdoc.cls:${PORTSDIR}/print/texlive-skdoc \
@@ -2578,6 +2578,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty:${PORTSDIR}/print/texlive-algorithmicx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/algorithms/algorithm.sty:${PORTSDIR}/print/texlive-algorithms \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biocon/biocon.sty:${PORTSDIR}/print/texlive-biocon \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bitpattern/bitpattern.sty:${PORTSDIR}/print/texlive-bitpattern \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bohr/bohr.sty:${PORTSDIR}/print/texlive-bohr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bpchem/bpchem.sty:${PORTSDIR}/print/texlive-bpchem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bytefield/bytefield.sty:${PORTSDIR}/print/texlive-bytefield \
@@ -2631,6 +2632,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/sciposter/sciposter.cls:${PORTSDIR}/print/texlive-sciposter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sclang-prettifier/sclang-prettifier.sty:${PORTSDIR}/print/texlive-sclang-prettifier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sfg/sfg.sty:${PORTSDIR}/print/texlive-sfg \
+		${LOCALBASE}/share/texmf-dist/tex/latex/simpler-wick/simpler-wick.sty:${PORTSDIR}/print/texlive-simpler-wick \
+		${LOCALBASE}/share/texmf-dist/tex/latex/simplewick/simplewick.sty:${PORTSDIR}/print/texlive-simplewick \
 		${LOCALBASE}/share/texmf-dist/tex/latex/siunitx/siunitx.sty:${PORTSDIR}/print/texlive-siunitx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/steinmetz/steinmetz.sty:${PORTSDIR}/print/texlive-steinmetz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/struktex/struktex.sty:${PORTSDIR}/print/texlive-struktex \

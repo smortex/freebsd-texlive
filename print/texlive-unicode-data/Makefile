@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	fithesis
+PORTNAME=	unicode-data
 PORTVERSION=	20151212
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Thesis class and template for Masaryk University (Brno, Czech Republic)
+COMMENT=	Unicode data and loaders for TeX
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

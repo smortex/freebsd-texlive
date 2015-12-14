@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20151209
+PORTVERSION=	20151212
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -40,6 +40,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
+		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print/texlive-ae \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/amscls/amsalpha.bst:${PORTSDIR}/print/texlive-amscls \
@@ -1109,7 +1110,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/silence/silence.sty:${PORTSDIR}/print/texlive-silence \
 		${LOCALBASE}/share/texmf-dist/tex/latex/simplecd/simplecd.sty:${PORTSDIR}/print/texlive-simplecd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/simplecv/simplecv.cls:${PORTSDIR}/print/texlive-simplecv \
-		${LOCALBASE}/share/texmf-dist/tex/latex/simplewick/simplewick.sty:${PORTSDIR}/print/texlive-simplewick \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sitem/sitem.sty:${PORTSDIR}/print/texlive-sitem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skb/skb.sty:${PORTSDIR}/print/texlive-skb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skdoc/skdoc.cls:${PORTSDIR}/print/texlive-skdoc \

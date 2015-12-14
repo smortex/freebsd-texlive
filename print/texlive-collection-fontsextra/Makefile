@@ -40,6 +40,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
+		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asana-Math.otf:${PORTSDIR}/print/texlive-Asana-Math \
 		${LOCALBASE}/share/texmf-dist/tex/latex/academicons/academicons.sty:${PORTSDIR}/print/texlive-academicons \
@@ -47,7 +48,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/adforn/adforn.sty:${PORTSDIR}/print/texlive-adforn \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/adfsymbols/ArrowsADF.afm:${PORTSDIR}/print/texlive-adfsymbols \
 		${LOCALBASE}/share/texmf-dist/tex/latex/aecc/aecc.sty:${PORTSDIR}/print/texlive-aecc \
-		${LOCALBASE}/share/texmf-dist/fonts/afm/huerta/alegreya/Alegreya-Black.afm:${PORTSDIR}/print/texlive-alegreya \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/alegreya/algr_2thg7t.enc:${PORTSDIR}/print/texlive-alegreya \
 		${LOCALBASE}/share/texmf-dist/tex/latex/allrunes/allrunes.sty:${PORTSDIR}/print/texlive-allrunes \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/almfixed/almfixed.otf:${PORTSDIR}/print/texlive-almfixed \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/anonymouspro/AnonymousPro-Bold.afm:${PORTSDIR}/print/texlive-anonymouspro \

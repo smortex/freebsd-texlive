@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	gnuplottex
-PORTVERSION=	20150412
+PORTVERSION=	20151212
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Embed Gnuplot commands in LaTeX documents.
+COMMENT=	Embed Gnuplot commands in LaTeX documents
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

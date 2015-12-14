@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/unicode-data/README.md
+share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt
+share/texmf-dist/tex/generic/unicode-data/EastAsianWidth.txt
+share/texmf-dist/tex/generic/unicode-data/LineBreak.txt
+share/texmf-dist/tex/generic/unicode-data/MathClass.txt
+share/texmf-dist/tex/generic/unicode-data/SpecialCasing.txt
+share/texmf-dist/tex/generic/unicode-data/UnicodeData.txt
+share/texmf-dist/tex/generic/unicode-data/load-unicode-data.tex
+share/texmf-dist/tex/generic/unicode-data/load-unicode-xetex-classes.tex
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

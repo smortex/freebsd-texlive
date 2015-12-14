@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	showlabels
-PORTVERSION=	20150413
+PORTVERSION=	20151212
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Show label commands in the margin.
+COMMENT=	Show label commands in the margin
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
