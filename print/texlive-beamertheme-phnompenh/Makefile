@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	beamerthemephnompenh
-PORTVERSION=	20150412
+PORTNAME=	beamertheme-phnompenh
+PORTVERSION=	20151214
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The beamerthemephnompenh package
+COMMENT=	A simple beamer theme
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

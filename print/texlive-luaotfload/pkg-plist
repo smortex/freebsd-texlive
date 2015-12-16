@@ -19,7 +19,7 @@ share/texmf-dist/scripts/luaotfload/mktests
 %%PORTSRC%%share/texmf-dist/source/luatex/luaotfload/luaotfload-main.tex
 %%PORTSRC%%share/texmf-dist/source/luatex/luaotfload/luaotfload-tool.rst
 %%PORTSRC%%share/texmf-dist/source/luatex/luaotfload/luaotfload.conf.rst
-share/texmf-dist/tex/luatex/luaotfload/fontloader-2015-12-09.lua
+share/texmf-dist/tex/luatex/luaotfload/fontloader-2015-12-12.lua
 share/texmf-dist/tex/luatex/luaotfload/fontloader-basics-gen.lua
 share/texmf-dist/tex/luatex/luaotfload/fontloader-basics-nod.lua
 share/texmf-dist/tex/luatex/luaotfload/fontloader-basics.tex
@@ -90,7 +90,6 @@ share/texmf-dist/tex/luatex/luaotfload/luaotfload-letterspace.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-loaders.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-log.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-main.lua
-share/texmf-dist/tex/luatex/luaotfload/luaotfload-package.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-parsers.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-resolvers.lua
 share/texmf-dist/tex/luatex/luaotfload/luaotfload-status.lua

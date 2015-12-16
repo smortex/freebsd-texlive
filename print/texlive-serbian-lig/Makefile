@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	serbian-lig
-PORTVERSION=	20150413
+PORTVERSION=	20151214
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Control ligatures in Serbian.
+COMMENT=	Control ligatures in Serbian
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20151212
+PORTVERSION=	20151214
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -314,10 +314,10 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamersubframe/beamersubframe.sty:${PORTSDIR}/print/texlive-beamersubframe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-detlevcm/beamercolorthemeETII.sty:${PORTSDIR}/print/texlive-beamertheme-detlevcm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-metropolis/beamercolorthememetropolis.sty:${PORTSDIR}/print/texlive-beamertheme-metropolis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-phnompenh/beamerthemePhnomPenh.sty:${PORTSDIR}/print/texlive-beamertheme-phnompenh \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-upenn-bc/beamercolorthemegoeagles.sty:${PORTSDIR}/print/texlive-beamertheme-upenn-bc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerthemejltree/beamerthemeJLTree.sty:${PORTSDIR}/print/texlive-beamerthemejltree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerthemenirma/beamerthemenirma.sty:${PORTSDIR}/print/texlive-beamerthemenirma \
-		${LOCALBASE}/share/texmf-dist/tex/latex/beamerthemephnompenh/beamerthemePhnomPenh.sty:${PORTSDIR}/print/texlive-beamerthemephnompenh \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beton/beton.sty:${PORTSDIR}/print/texlive-beton \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bewerbung/bewerbung.cls:${PORTSDIR}/print/texlive-bewerbung \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bez123/bez123.sty:${PORTSDIR}/print/texlive-bez123 \

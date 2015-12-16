@@ -4,6 +4,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/ChangeLog-117.txt
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/ChangeLog-118.txt
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/ChangeLog-119.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/ChangeLog-120.txt
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/ChangeLog-musixdoc.txt
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/README
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/8bitchar.tex
@@ -103,7 +104,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixdoc/miscellaneous.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixdoc/musixdoc.sty
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixdoc/musixdoc.tex
-%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixdoc/musixtex.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixdoc/parameters.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixdoc/preparing.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/musixdoc/repeats.tex
