@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	pkuthss
+PORTNAME=	greektonoi
 PORTVERSION=	20151217
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX template for dissertations in Peking University
+COMMENT=	Facilitates writing/editing of multiaccented greek
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

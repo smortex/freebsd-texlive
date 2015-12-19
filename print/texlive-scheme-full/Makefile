@@ -817,6 +817,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/greek-inputenc/iso-8859-7.def:${PORTSDIR}/print/texlive-greek-inputenc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/greekdates/greekdates.sty:${PORTSDIR}/print/texlive-greekdates \
 		${LOCALBASE}/share/texmf-dist/tex/latex/greektex/greektex.sty:${PORTSDIR}/print/texlive-greektex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/greektonoi/greektonoi.sty:${PORTSDIR}/print/texlive-greektonoi \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyphen/grmhyph5.tex:${PORTSDIR}/print/texlive-hyphen-greek \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyphen/grahyph5.tex:${PORTSDIR}/print/texlive-hyphen-ancientgreek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ibycus-babel/ibycus.ldf:${PORTSDIR}/print/texlive-ibycus-babel \
@@ -1150,10 +1151,10 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamersubframe/beamersubframe.sty:${PORTSDIR}/print/texlive-beamersubframe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-detlevcm/beamercolorthemeETII.sty:${PORTSDIR}/print/texlive-beamertheme-detlevcm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-metropolis/beamercolorthememetropolis.sty:${PORTSDIR}/print/texlive-beamertheme-metropolis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-phnompenh/beamerthemePhnomPenh.sty:${PORTSDIR}/print/texlive-beamertheme-phnompenh \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-upenn-bc/beamercolorthemegoeagles.sty:${PORTSDIR}/print/texlive-beamertheme-upenn-bc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerthemejltree/beamerthemeJLTree.sty:${PORTSDIR}/print/texlive-beamerthemejltree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerthemenirma/beamerthemenirma.sty:${PORTSDIR}/print/texlive-beamerthemenirma \
-		${LOCALBASE}/share/texmf-dist/tex/latex/beamerthemephnompenh/beamerthemePhnomPenh.sty:${PORTSDIR}/print/texlive-beamerthemephnompenh \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beton/beton.sty:${PORTSDIR}/print/texlive-beton \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bewerbung/bewerbung.cls:${PORTSDIR}/print/texlive-bewerbung \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bez123/bez123.sty:${PORTSDIR}/print/texlive-bez123 \
@@ -2294,7 +2295,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/harmony/harmony.sty:${PORTSDIR}/print/texlive-harmony \
 		${LOCALBASE}/share/texmf-dist/tex/latex/leadsheets/leadsheets.sty:${PORTSDIR}/print/texlive-leadsheets \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/lilyglyphs/lilyglyphs.sty:${PORTSDIR}/print/texlive-lilyglyphs \
-		${LOCALBASE}/share/texmf-dist/scripts/m-tx/m-tx.lua:${PORTSDIR}/print/texlive-m-tx \
+		${LOCALBASE}/share/texmf-dist/tex/generic/m-tx/mtx.tex:${PORTSDIR}/print/texlive-m-tx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/musixguit/musixguit.sty:${PORTSDIR}/print/texlive-musixguit \
 		${LOCALBASE}/share/texmf-dist/tex/generic/musixtex/musixtex.tex:${PORTSDIR}/print/texlive-musixtex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/musixtex-fonts/musix.map:${PORTSDIR}/print/texlive-musixtex-fonts \

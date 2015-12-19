@@ -40,6 +40,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
+		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print/texlive-ae \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/amscls/amsalpha.bst:${PORTSDIR}/print/texlive-amscls \
@@ -78,7 +79,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/harmony/harmony.sty:${PORTSDIR}/print/texlive-harmony \
 		${LOCALBASE}/share/texmf-dist/tex/latex/leadsheets/leadsheets.sty:${PORTSDIR}/print/texlive-leadsheets \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/lilyglyphs/lilyglyphs.sty:${PORTSDIR}/print/texlive-lilyglyphs \
-		${LOCALBASE}/share/texmf-dist/scripts/m-tx/m-tx.lua:${PORTSDIR}/print/texlive-m-tx \
+		${LOCALBASE}/share/texmf-dist/tex/generic/m-tx/mtx.tex:${PORTSDIR}/print/texlive-m-tx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/musixguit/musixguit.sty:${PORTSDIR}/print/texlive-musixguit \
 		${LOCALBASE}/share/texmf-dist/tex/generic/musixtex/musixtex.tex:${PORTSDIR}/print/texlive-musixtex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/musixtex-fonts/musix.map:${PORTSDIR}/print/texlive-musixtex-fonts \

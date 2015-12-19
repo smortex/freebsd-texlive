@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	m-tx
-PORTVERSION=	20150428
+PORTVERSION=	20151217
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A preprocessor for pmx.
+COMMENT=	A preprocessor for pmx
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

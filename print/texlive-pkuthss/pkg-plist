@@ -32,7 +32,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pkuthss/readme/pkuthss.tex
 share/texmf-dist/tex/latex/pkuthss/pkulogo.eps
 share/texmf-dist/tex/latex/pkuthss/pkulogo.pdf
-share/texmf-dist/tex/latex/pkuthss/pkuthss-extra.sty
 share/texmf-dist/tex/latex/pkuthss/pkuthss-gbk.def
 share/texmf-dist/tex/latex/pkuthss/pkuthss-utf8.def
 share/texmf-dist/tex/latex/pkuthss/pkuthss.cls

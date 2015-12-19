@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langgreek
-PORTVERSION=	20150414
+PORTVERSION=	20151217
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -41,6 +41,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
+		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-greek/athnum.sty:${PORTSDIR}/print/texlive-babel-greek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/begingreek/begingreek.sty:${PORTSDIR}/print/texlive-begingreek \
@@ -54,6 +55,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/greek-inputenc/iso-8859-7.def:${PORTSDIR}/print/texlive-greek-inputenc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/greekdates/greekdates.sty:${PORTSDIR}/print/texlive-greekdates \
 		${LOCALBASE}/share/texmf-dist/tex/latex/greektex/greektex.sty:${PORTSDIR}/print/texlive-greektex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/greektonoi/greektonoi.sty:${PORTSDIR}/print/texlive-greektonoi \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyphen/grmhyph5.tex:${PORTSDIR}/print/texlive-hyphen-greek \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyphen/grahyph5.tex:${PORTSDIR}/print/texlive-hyphen-ancientgreek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ibycus-babel/ibycus.ldf:${PORTSDIR}/print/texlive-ibycus-babel \

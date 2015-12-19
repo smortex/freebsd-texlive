@@ -60,6 +60,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
+		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORTSDIR}/print/texlive-context \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/jmn/hans/hans-sh.afm:${PORTSDIR}/print/texlive-jmn \
@@ -292,6 +293,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/greek-inputenc/iso-8859-7.def:${PORTSDIR}/print/texlive-greek-inputenc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/greekdates/greekdates.sty:${PORTSDIR}/print/texlive-greekdates \
 		${LOCALBASE}/share/texmf-dist/tex/latex/greektex/greektex.sty:${PORTSDIR}/print/texlive-greektex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/greektonoi/greektonoi.sty:${PORTSDIR}/print/texlive-greektonoi \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyphen/grmhyph5.tex:${PORTSDIR}/print/texlive-hyphen-greek \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyphen/grahyph5.tex:${PORTSDIR}/print/texlive-hyphen-ancientgreek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ibycus-babel/ibycus.ldf:${PORTSDIR}/print/texlive-ibycus-babel \
@@ -531,6 +533,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/drs/drs.sty:${PORTSDIR}/print/texlive-drs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/duotenzor/duotenzor.sty:${PORTSDIR}/print/texlive-duotenzor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eepic/eepic.sty:${PORTSDIR}/print/texlive-eepic \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ellipse/ellipse.sty:${PORTSDIR}/print/texlive-ellipse \
 		${LOCALBASE}/share/texmf-dist/scripts/epspdf/epspdf.help:${PORTSDIR}/print/texlive-epspdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/epspdfconversion/epspdfconversion.sty:${PORTSDIR}/print/texlive-epspdfconversion \
 		${LOCALBASE}/share/texmf-dist/tex/latex/esk/esk.sty:${PORTSDIR}/print/texlive-esk \
