@@ -1,4 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/greektonoi/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/greektonoi/greektonoi-en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/greektonoi/greektonoi-en.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/greektonoi/greektonoi.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/greektonoi/greektonoi.tex
 share/texmf-dist/fonts/map/dvips/greektonoi/greektonoi.map

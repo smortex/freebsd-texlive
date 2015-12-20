@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pst-solides3d
-PORTVERSION=	20150701
+PORTVERSION=	20151218
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw perspective views of 3D solids.
+COMMENT=	Draw perspective views of 3D solids
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
