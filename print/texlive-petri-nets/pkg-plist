@@ -1,9 +1,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/petri-nets/COPYING
 %%PORTDOCS%%share/texmf-dist/doc/generic/petri-nets/ChangeLog
 %%PORTDOCS%%share/texmf-dist/doc/generic/petri-nets/README
-%%PORTDOCS%%share/texmf-dist/doc/generic/petri-nets/pn2pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/petri-nets/pndoc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/petri-nets/pndoc.tex
+share/texmf-dist/scripts/petri-nets/pn2pdf
 share/texmf-dist/tex/generic/petri-nets/pndraw.sty
 share/texmf-dist/tex/generic/petri-nets/pndraw.tex
 share/texmf-dist/tex/generic/petri-nets/pnets.sty

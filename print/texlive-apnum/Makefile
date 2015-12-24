@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	apnum
-PORTVERSION=	20150513
+PORTVERSION=	20151222
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Arbitrary precision numbers implemented by TeX macros.
+COMMENT=	Arbitrary precision numbers implemented by TeX macros
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
