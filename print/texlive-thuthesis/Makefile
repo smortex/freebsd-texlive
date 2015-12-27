@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	thuthesis
-PORTVERSION=	20150413
+PORTVERSION=	20151225
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Thesis template for Tsinghua University.
+COMMENT=	Thesis template for Tsinghua University
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

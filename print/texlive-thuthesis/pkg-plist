@@ -1,4 +1,4 @@
-share/texmf-dist/bibtex/bst/thuthesis/thubib.bst
+share/texmf-dist/bibtex/bst/thuthesis/thuthesis.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/data/ack.tex
@@ -9,9 +9,17 @@ share/texmf-dist/bibtex/bst/thuthesis/thubib.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/data/denotation.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/data/resume.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/dtx-style.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/bachelor-cover.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/doctor-cover.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/doctor-ecover.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/hello.eps
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/hello.fig
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/hello.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/master-cover.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/master-toc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/scan-auth.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/scan-statement.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/thanks.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/thu-fig-logo.eps
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/thu-fig-logo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/thu-lib-logo.eps
@@ -29,9 +37,9 @@ share/texmf-dist/bibtex/bst/thuthesis/thubib.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/zhfonts.py
 %%PORTSRC%%share/texmf-dist/source/latex/thuthesis/thuthesis.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/thuthesis/thuthesis.ins
-share/texmf-dist/tex/latex/thuthesis/thufonts.def
+share/texmf-dist/tex/latex/thuthesis/ctex-fontset-thuthesis.def
 share/texmf-dist/tex/latex/thuthesis/thuthesis.cfg
 share/texmf-dist/tex/latex/thuthesis/thuthesis.cls
-share/texmf-dist/tex/latex/thuthesis/thutils.sty
+share/texmf-dist/tex/latex/thuthesis/thuthesis.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

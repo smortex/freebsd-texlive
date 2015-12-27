@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ejpecp
-PORTVERSION=	20150412
+PORTVERSION=	20151225
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class for EJP and ECP.
+COMMENT=	Class for EJP and ECP
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
