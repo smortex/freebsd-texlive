@@ -1,6 +1,6 @@
 share/texmf-dist/bibtex/bst/thuthesis/thuthesis.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/Makefile
-%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/README.md
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/data/ack.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/data/appendix01.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/data/chap01.tex
@@ -9,17 +9,11 @@ share/texmf-dist/bibtex/bst/thuthesis/thuthesis.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/data/denotation.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/data/resume.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/dtx-style.sty
-%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/bachelor-cover.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/doctor-cover.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/doctor-ecover.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/hello.eps
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/hello.fig
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/hello.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/master-cover.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/master-toc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/scan-auth.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/scan-statement.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/thanks.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/thu-fig-logo.eps
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/thu-fig-logo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/thu-lib-logo.eps
