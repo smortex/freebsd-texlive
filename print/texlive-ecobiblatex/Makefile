@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	babel-icelandic
+PORTNAME=	ecobiblatex
 PORTVERSION=	20151230
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Babel support for Icelandic
+COMMENT=	Global Ecology and Biogeography BibLaTeX styles for the Biber backend
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

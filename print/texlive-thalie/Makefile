@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	thalie
-PORTVERSION=	20150413
+PORTVERSION=	20151230
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset drama plays.
+COMMENT=	Typeset drama plays
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
