@@ -319,7 +319,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-interlingua/interlingua.ldf:${PORTSDIR}/print/texlive-babel-interlingua \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-sorbian/lsorbian.ldf:${PORTSDIR}/print/texlive-babel-sorbian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-thai/lthenc.def:${PORTSDIR}/print/texlive-babel-thai \
-		${LOCALBASE}/share/texmf-dist/tex/generic/babel-vietnamese/vietnam.ldf:${PORTSDIR}/print/texlive-babel-vietnamese \
+		${LOCALBASE}/share/texmf-dist/tex/generic/babel-vietnamese/vietnamese.ldf:${PORTSDIR}/print/texlive-babel-vietnamese \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cjhebrew/cjhebrew.sty:${PORTSDIR}/print/texlive-cjhebrew \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ctib/ctib.sty:${PORTSDIR}/print/texlive-ctib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fonts-tlwg/fonts-tlwg.sty:${PORTSDIR}/print/texlive-fonts-tlwg \
@@ -567,7 +567,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/neuralnetwork/neuralnetwork.sty:${PORTSDIR}/print/texlive-neuralnetwork \
 		${LOCALBASE}/share/texmf-dist/tex/latex/numericplots/NumericPlots.sty:${PORTSDIR}/print/texlive-numericplots \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pb-diagram/pb-diagram.sty:${PORTSDIR}/print/texlive-pb-diagram \
-		${LOCALBASE}/share/texmf-dist/tex/generic/petri-nets/pndraw.sty:${PORTSDIR}/print/texlive-petri-nets \
+		${LOCALBASE}/share/texmf-dist/scripts/petri-nets/pn2pdf:${PORTSDIR}/print/texlive-petri-nets \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty:${PORTSDIR}/print/texlive-pgf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-blur/tikzlibraryshadows.blur.code.tex:${PORTSDIR}/print/texlive-pgf-blur \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-soroban/pgf-soroban.sty:${PORTSDIR}/print/texlive-pgf-soroban \

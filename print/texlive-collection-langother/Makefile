@@ -40,6 +40,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
+		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/aramaic-serto/assy.afm:${PORTSDIR}/print/texlive-aramaic-serto \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-bahasa/bahasai.ldf:${PORTSDIR}/print/texlive-babel-bahasa \
@@ -49,7 +50,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-interlingua/interlingua.ldf:${PORTSDIR}/print/texlive-babel-interlingua \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-sorbian/lsorbian.ldf:${PORTSDIR}/print/texlive-babel-sorbian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-thai/lthenc.def:${PORTSDIR}/print/texlive-babel-thai \
-		${LOCALBASE}/share/texmf-dist/tex/generic/babel-vietnamese/vietnam.ldf:${PORTSDIR}/print/texlive-babel-vietnamese \
+		${LOCALBASE}/share/texmf-dist/tex/generic/babel-vietnamese/vietnamese.ldf:${PORTSDIR}/print/texlive-babel-vietnamese \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cjhebrew/cjhebrew.sty:${PORTSDIR}/print/texlive-cjhebrew \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ctib/ctib.sty:${PORTSDIR}/print/texlive-ctib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fonts-tlwg/fonts-tlwg.sty:${PORTSDIR}/print/texlive-fonts-tlwg \

@@ -135,6 +135,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/din1505/abbrvdin.bst:${PORTSDIR}/print/texlive-din1505 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dk-bib/dk-bib.sty:${PORTSDIR}/print/texlive-dk-bib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/doipubmed/doipubmed.sty:${PORTSDIR}/print/texlive-doipubmed \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ecobiblatex/ecobiblatex.bbx:${PORTSDIR}/print/texlive-ecobiblatex \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/economic/aer.bst:${PORTSDIR}/print/texlive-economic \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/fbs/fbs.bst:${PORTSDIR}/print/texlive-fbs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/figbib/figbib.sty:${PORTSDIR}/print/texlive-figbib \
@@ -882,7 +883,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-interlingua/interlingua.ldf:${PORTSDIR}/print/texlive-babel-interlingua \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-sorbian/lsorbian.ldf:${PORTSDIR}/print/texlive-babel-sorbian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-thai/lthenc.def:${PORTSDIR}/print/texlive-babel-thai \
-		${LOCALBASE}/share/texmf-dist/tex/generic/babel-vietnamese/vietnam.ldf:${PORTSDIR}/print/texlive-babel-vietnamese \
+		${LOCALBASE}/share/texmf-dist/tex/generic/babel-vietnamese/vietnamese.ldf:${PORTSDIR}/print/texlive-babel-vietnamese \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cjhebrew/cjhebrew.sty:${PORTSDIR}/print/texlive-cjhebrew \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ctib/ctib.sty:${PORTSDIR}/print/texlive-ctib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fonts-tlwg/fonts-tlwg.sty:${PORTSDIR}/print/texlive-fonts-tlwg \

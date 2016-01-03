@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pmxchords
-PORTVERSION=	20150413
+PORTVERSION=	20160101
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Produce chord information to go with pmx output.
+COMMENT=	Produce chord information to go with pmx output
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

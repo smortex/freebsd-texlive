@@ -1,14 +1,13 @@
 # $FreeBSD$
 
 PORTNAME=	babel-vietnamese
-PORTVERSION=	20150412
+PORTVERSION=	20160101
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Babel support for typesetting Vietnamese.
+COMMENT=	Babel support for typesetting Vietnamese
 
-OPTIONS_DEFINE=	SRCS
-OPTIONS_EXCLUDE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

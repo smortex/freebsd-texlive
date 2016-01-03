@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	paralist
-PORTVERSION=	20150413
+PORTVERSION=	20160101
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Enumerate and itemize within paragraphs.
+COMMENT=	Enumerate and itemize within paragraphs
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
