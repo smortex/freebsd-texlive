@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cmcyr
-PORTVERSION=	20150412
+PORTVERSION=	20160105
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Computer Modern fonts with cyrillic extensions.
+COMMENT=	Computer Modern fonts with cyrillic extensions
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
