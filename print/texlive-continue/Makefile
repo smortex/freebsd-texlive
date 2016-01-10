@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	nameauth
+PORTNAME=	continue
 PORTVERSION=	20160108
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Name authority mechanism for consistency in body text and index
+COMMENT=	Prints 'continuation' marks on recto pages of multipage documents
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

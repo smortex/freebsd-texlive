@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pgfplots
-PORTVERSION=	20150504
+PORTVERSION=	20160108
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create normal/logarithmic plots in two and three dimensions.
+COMMENT=	Create normal/logarithmic plots in two and three dimensions
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

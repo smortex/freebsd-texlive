@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20151214
+PORTVERSION=	20160108
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -185,7 +185,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/neuralnetwork/neuralnetwork.sty:${PORTSDIR}/print/texlive-neuralnetwork \
 		${LOCALBASE}/share/texmf-dist/tex/latex/numericplots/NumericPlots.sty:${PORTSDIR}/print/texlive-numericplots \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pb-diagram/pb-diagram.sty:${PORTSDIR}/print/texlive-pb-diagram \
-		${LOCALBASE}/share/texmf-dist/tex/generic/petri-nets/pndraw.sty:${PORTSDIR}/print/texlive-petri-nets \
+		${LOCALBASE}/share/texmf-dist/scripts/petri-nets/pn2pdf:${PORTSDIR}/print/texlive-petri-nets \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty:${PORTSDIR}/print/texlive-pgf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-blur/tikzlibraryshadows.blur.code.tex:${PORTSDIR}/print/texlive-pgf-blur \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgf-soroban/pgf-soroban.sty:${PORTSDIR}/print/texlive-pgf-soroban \
@@ -417,6 +417,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/concepts/concepts.sty:${PORTSDIR}/print/texlive-concepts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/concprog/ConcProg.cls:${PORTSDIR}/print/texlive-concprog \
 		${LOCALBASE}/share/texmf-dist/tex/latex/constants/constants.sty:${PORTSDIR}/print/texlive-constants \
+		${LOCALBASE}/share/texmf-dist/tex/latex/continue/continue.sty:${PORTSDIR}/print/texlive-continue \
 		${LOCALBASE}/share/texmf-dist/tex/latex/contour/contour.sty:${PORTSDIR}/print/texlive-contour \
 		${LOCALBASE}/share/texmf-dist/tex/latex/contracard/contracard.cls:${PORTSDIR}/print/texlive-contracard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cooking/cooking.sty:${PORTSDIR}/print/texlive-cooking \
