@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	chess-problem-diagrams
-PORTVERSION=	20150412
+PORTVERSION=	20160109
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A package for typesetting chess problem diagrams.
+COMMENT=	A package for typesetting chess problem diagrams
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

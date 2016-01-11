@@ -1,0 +1,27 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/uantwerpendocs/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/uantwerpendocs/uantwerpencoursetext-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/uantwerpendocs/uantwerpencoursetext-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uantwerpendocs/uantwerpendocs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/uantwerpendocs/uantwerpenletter-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/uantwerpendocs/uantwerpenletter-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/uantwerpendocs/uantwerpenmasterthesis-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/uantwerpendocs/uantwerpenmasterthesis-example.tex
+%%PORTSRC%%share/texmf-dist/source/latex/uantwerpendocs/uantwerpendocs.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/uantwerpendocs/uantwerpendocs.ins
+share/texmf-dist/tex/latex/uantwerpendocs/UA_HOR_DUI_CMYK.eps
+share/texmf-dist/tex/latex/uantwerpendocs/UA_HOR_DUI_CMYK.pdf
+share/texmf-dist/tex/latex/uantwerpendocs/UA_HOR_ENG_CMYK.eps
+share/texmf-dist/tex/latex/uantwerpendocs/UA_HOR_ENG_CMYK.pdf
+share/texmf-dist/tex/latex/uantwerpendocs/UA_HOR_FRA_CMYK.eps
+share/texmf-dist/tex/latex/uantwerpendocs/UA_HOR_FRA_CMYK.pdf
+share/texmf-dist/tex/latex/uantwerpendocs/UA_HOR_NED_CMYK.eps
+share/texmf-dist/tex/latex/uantwerpendocs/UA_HOR_NED_CMYK.pdf
+share/texmf-dist/tex/latex/uantwerpendocs/UA_HOR_SPA_CMYK.eps
+share/texmf-dist/tex/latex/uantwerpendocs/UA_HOR_SPA_CMYK.pdf
+share/texmf-dist/tex/latex/uantwerpendocs/uantwerpen_color.eps
+share/texmf-dist/tex/latex/uantwerpendocs/uantwerpen_color.pdf
+share/texmf-dist/tex/latex/uantwerpendocs/uantwerpencoursetext.cls
+share/texmf-dist/tex/latex/uantwerpendocs/uantwerpenletter.cls
+share/texmf-dist/tex/latex/uantwerpendocs/uantwerpenmasterthesis.cls
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

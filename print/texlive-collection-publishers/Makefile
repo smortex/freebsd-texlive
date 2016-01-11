@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20151207
+PORTVERSION=	20160109
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -40,6 +40,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
+		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print/texlive-ae \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/amscls/amsalpha.bst:${PORTSDIR}/print/texlive-amscls \
@@ -190,8 +191,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/turabian/turabian.cls:${PORTSDIR}/print/texlive-turabian \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tui/tui.cls:${PORTSDIR}/print/texlive-tui \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uaclasses/my-thesis.cls:${PORTSDIR}/print/texlive-uaclasses \
-		${LOCALBASE}/share/texmf-dist/tex/latex/uadocs/ua_color.eps:${PORTSDIR}/print/texlive-uadocs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uafthesis/uafthesis.cls:${PORTSDIR}/print/texlive-uafthesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/uantwerpendocs/UA_HOR_DUI_CMYK.eps:${PORTSDIR}/print/texlive-uantwerpendocs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucbthesis/ucbthesis.cls:${PORTSDIR}/print/texlive-ucbthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucdavisthesis/ucdavisthesis.cls:${PORTSDIR}/print/texlive-ucdavisthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucthesis/ucthesis.cls:${PORTSDIR}/print/texlive-ucthesis \

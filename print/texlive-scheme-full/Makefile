@@ -1255,6 +1255,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/concepts/concepts.sty:${PORTSDIR}/print/texlive-concepts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/concprog/ConcProg.cls:${PORTSDIR}/print/texlive-concprog \
 		${LOCALBASE}/share/texmf-dist/tex/latex/constants/constants.sty:${PORTSDIR}/print/texlive-constants \
+		${LOCALBASE}/share/texmf-dist/tex/latex/continue/continue.sty:${PORTSDIR}/print/texlive-continue \
 		${LOCALBASE}/share/texmf-dist/tex/latex/contour/contour.sty:${PORTSDIR}/print/texlive-contour \
 		${LOCALBASE}/share/texmf-dist/tex/latex/contracard/contracard.cls:${PORTSDIR}/print/texlive-contracard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cooking/cooking.sty:${PORTSDIR}/print/texlive-cooking \
@@ -2548,8 +2549,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/turabian/turabian.cls:${PORTSDIR}/print/texlive-turabian \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tui/tui.cls:${PORTSDIR}/print/texlive-tui \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uaclasses/my-thesis.cls:${PORTSDIR}/print/texlive-uaclasses \
-		${LOCALBASE}/share/texmf-dist/tex/latex/uadocs/ua_color.eps:${PORTSDIR}/print/texlive-uadocs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uafthesis/uafthesis.cls:${PORTSDIR}/print/texlive-uafthesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/uantwerpendocs/UA_HOR_DUI_CMYK.eps:${PORTSDIR}/print/texlive-uantwerpendocs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucbthesis/ucbthesis.cls:${PORTSDIR}/print/texlive-ucbthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucdavisthesis/ucdavisthesis.cls:${PORTSDIR}/print/texlive-ucdavisthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucthesis/ucthesis.cls:${PORTSDIR}/print/texlive-ucthesis \

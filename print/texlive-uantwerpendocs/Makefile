@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	uadocs
-PORTVERSION=	20150413
+PORTNAME=	uantwerpendocs
+PORTVERSION=	20160109
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Course texts and masters theses in University of Antwerp style.
+COMMENT=	Course texts and masters theses in University of Antwerp style
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
