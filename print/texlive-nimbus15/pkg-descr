@@ -1,0 +1,6 @@
+The Nimbus 2015 Core fonts added Greek and Cyrillic glyphs.
+This package may be best suited as an add-on the a
+comprehensive Times package, providing support for Greek and
+Cyrillic. A new intermediate weight of NimbusMono (AKA Courier)
+is provided, along with a narrower version which may be useful
+for rendering code.

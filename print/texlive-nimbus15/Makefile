@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	enotez
+PORTNAME=	nimbus15
 PORTVERSION=	20160110
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for end-notes
+COMMENT=	Support files for Nimbus 2015 Core fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -9,6 +9,7 @@ share/texmf-dist/tex/csplain/base/csplain-utf8.ini
 share/texmf-dist/tex/csplain/base/csplain.ini
 share/texmf-dist/tex/csplain/base/czhyphen.ex
 share/texmf-dist/tex/csplain/base/czhyphen.tex
+share/texmf-dist/tex/csplain/base/etex-mac.tex
 share/texmf-dist/tex/csplain/base/extcode.tex
 share/texmf-dist/tex/csplain/base/fonttabs.tex
 share/texmf-dist/tex/csplain/base/hyphen.ex
