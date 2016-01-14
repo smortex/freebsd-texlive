@@ -9,9 +9,6 @@ share/texmf-dist/bibtex/bst/thuthesis/thuthesis.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/data/denotation.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/data/resume.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/dtx-style.sty
-%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/hello.eps
-%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/hello.fig
-%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/hello.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/scan-auth.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/scan-statement.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/thu-fig-logo.eps
@@ -22,6 +19,7 @@ share/texmf-dist/bibtex/bst/thuthesis/thuthesis.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/thu-text-logo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/thu-whole-logo.eps
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/thu-whole-logo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/main.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/main.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/ref/refs.bib
