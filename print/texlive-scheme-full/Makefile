@@ -425,6 +425,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/newtx/ntxsups-Bold.afm:${PORTSDIR}/print/texlive-newtx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newtxsf/newtxsf.sty:${PORTSDIR}/print/texlive-newtxsf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newtxtt/newtxtt.sty:${PORTSDIR}/print/texlive-newtxtt \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/nimbus15/zco-Bold.afm:${PORTSDIR}/print/texlive-nimbus15 \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/nkarta/nkarta.mf:${PORTSDIR}/print/texlive-nkarta \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/obnov/obn10.mf:${PORTSDIR}/print/texlive-obnov \
 		${LOCALBASE}/share/texmf-dist/tex/lambda/ocherokee/ocherokee.sty:${PORTSDIR}/print/texlive-ocherokee \
@@ -1520,6 +1521,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gender/gender.sty:${PORTSDIR}/print/texlive-gender \
 		${LOCALBASE}/share/texmf-dist/tex/latex/genmpage/genmpage.sty:${PORTSDIR}/print/texlive-genmpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/getfiledate/getfiledate.sty:${PORTSDIR}/print/texlive-getfiledate \
+		${LOCALBASE}/share/texmf-dist/tex/latex/getitems/getitems.sty:${PORTSDIR}/print/texlive-getitems \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ginpenc/ginpenc.sty:${PORTSDIR}/print/texlive-ginpenc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gitinfo/gitinfo.sty:${PORTSDIR}/print/texlive-gitinfo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gitinfo2/gitinfo2.sty:${PORTSDIR}/print/texlive-gitinfo2 \
@@ -1719,6 +1721,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/modref/modref.sty:${PORTSDIR}/print/texlive-modref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/modroman/modroman.sty:${PORTSDIR}/print/texlive-modroman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/monofill/monofill.sty:${PORTSDIR}/print/texlive-monofill \
+		${LOCALBASE}/share/texmf-dist/tex/latex/moodle/moodle.sty:${PORTSDIR}/print/texlive-moodle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/moreenum/moreenum.sty:${PORTSDIR}/print/texlive-moreenum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/morefloats/morefloats.sty:${PORTSDIR}/print/texlive-morefloats \
 		${LOCALBASE}/share/texmf-dist/tex/latex/morehype/atari_ht.fdf:${PORTSDIR}/print/texlive-morehype \

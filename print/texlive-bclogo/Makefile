@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bclogo
-PORTVERSION=	20150412
+PORTVERSION=	20160113
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Creating colourful boxes with logos.
+COMMENT=	Creating colourful boxes with logos
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

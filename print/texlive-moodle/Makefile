@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	media9
+PORTNAME=	moodle
 PORTVERSION=	20160113
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multimedia inclusion package with Adobe Reader-9/X compatibility
+COMMENT=	Generating Moodle quizzes via LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

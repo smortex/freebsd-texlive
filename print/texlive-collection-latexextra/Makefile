@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20160108
+PORTVERSION=	20160113
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -682,6 +682,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gender/gender.sty:${PORTSDIR}/print/texlive-gender \
 		${LOCALBASE}/share/texmf-dist/tex/latex/genmpage/genmpage.sty:${PORTSDIR}/print/texlive-genmpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/getfiledate/getfiledate.sty:${PORTSDIR}/print/texlive-getfiledate \
+		${LOCALBASE}/share/texmf-dist/tex/latex/getitems/getitems.sty:${PORTSDIR}/print/texlive-getitems \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ginpenc/ginpenc.sty:${PORTSDIR}/print/texlive-ginpenc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gitinfo/gitinfo.sty:${PORTSDIR}/print/texlive-gitinfo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gitinfo2/gitinfo2.sty:${PORTSDIR}/print/texlive-gitinfo2 \
@@ -881,6 +882,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/modref/modref.sty:${PORTSDIR}/print/texlive-modref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/modroman/modroman.sty:${PORTSDIR}/print/texlive-modroman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/monofill/monofill.sty:${PORTSDIR}/print/texlive-monofill \
+		${LOCALBASE}/share/texmf-dist/tex/latex/moodle/moodle.sty:${PORTSDIR}/print/texlive-moodle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/moreenum/moreenum.sty:${PORTSDIR}/print/texlive-moreenum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/morefloats/morefloats.sty:${PORTSDIR}/print/texlive-morefloats \
 		${LOCALBASE}/share/texmf-dist/tex/latex/morehype/atari_ht.fdf:${PORTSDIR}/print/texlive-morehype \

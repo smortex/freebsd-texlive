@@ -1,0 +1,3 @@
+A package for writing Moodle quizzes in LaTeX. In addition to
+typesetting the quizzes for proofreading, the package compiles
+an XML file to be uploaded to a Moodle server.

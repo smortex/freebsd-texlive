@@ -1,0 +1,4 @@
+This package provides a \gatheritems command to parse a list of
+data separated by \item tokens. This makes it easier to define
+custom environments which structure their data in the same way
+that itemize or enumerate do.
