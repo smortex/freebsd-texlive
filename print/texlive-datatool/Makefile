@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	datatool
-PORTVERSION=	20150712
+PORTVERSION=	20160114
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Tools to load and manipulate data.
+COMMENT=	Tools to load and manipulate data
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

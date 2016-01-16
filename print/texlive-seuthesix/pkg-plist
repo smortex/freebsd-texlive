@@ -1,0 +1,34 @@
+share/texmf-dist/bibtex/bst/seuthesix/seuthesix.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/figures/back-cover.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/figures/doctor-hwzs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/figures/doctor.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/figures/engineering.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/figures/front-cover.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/figures/lxfbook.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/figures/master-hwzs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/figures/master.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/figures/seu-badge-logo.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/figures/seu-badge-logo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/figures/seu-color-logo.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/figures/seu-text-logo.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/figures/seu-text-logo.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/figures/seu_logo.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/rules.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/sample_engineering.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/sample_engineering.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/sample_masters.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/sample_masters.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/sample_phd.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/sample_phd.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/seuthesix.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/seuthesix.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/seuthesix.tex
+%%PORTSRC%%share/texmf-dist/source/latex/seuthesix/make_pdf.bat
+%%PORTSRC%%share/texmf-dist/source/latex/seuthesix/makefile_engineering.bat
+%%PORTSRC%%share/texmf-dist/source/latex/seuthesix/makefile_masters.bat
+%%PORTSRC%%share/texmf-dist/source/latex/seuthesix/makefile_phd.bat
+share/texmf-dist/tex/latex/seuthesix/seuthesix.cfg
+share/texmf-dist/tex/latex/seuthesix/seuthesix.cls
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
