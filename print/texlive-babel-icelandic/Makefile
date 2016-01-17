@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	babel-icelandic
-PORTVERSION=	20151230
+PORTVERSION=	20160115
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
