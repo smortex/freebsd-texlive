@@ -1,0 +1,8 @@
+Econometrics is a package that defines some commands that
+simplify mathematic notation in economic and econometrics
+writing. The commands are related to the notation of vectors,
+matrices, sets, calligraphic and roman letters statistical
+distributions constants and symbols matrix operators and
+statistical operators. The package is based on "Notation in
+Econometrics: a proposal for a standard" by Karim Abadir and
+Jan R. Magnus, The Econometrics Journal (2002), 5, 76-90.

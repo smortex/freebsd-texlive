@@ -1,6 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/ChangeLog
-%%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/README
-%%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/macosx-filelist
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/README.md
 %%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/tests/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/tests/adobe-CNS1.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/cjk-gs-integrate/tests/adobe-GB1-012.tex

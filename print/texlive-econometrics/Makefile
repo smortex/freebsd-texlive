@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	academicons
+PORTNAME=	econometrics
 PORTVERSION=	20160116
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Font containing icons of online academic profiles
+COMMENT=	defines some commands that simplify mathematic notation in economic and econometric writing
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
