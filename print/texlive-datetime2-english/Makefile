@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	datetime2-english
-PORTVERSION=	20150412
+PORTVERSION=	20160119
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	English language module for the datetime2 package.
+COMMENT=	English language module for the datetime2 package
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
