@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	cweb
-PORTVERSION=	20150428
+PORTVERSION=	20160121
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A Web system in C.
+COMMENT=	A Web system in C
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

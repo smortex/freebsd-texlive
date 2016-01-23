@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	achemso
-PORTVERSION=	20150412
+PORTVERSION=	20160121
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for American Chemical Society journal submissions.
+COMMENT=	Support for American Chemical Society journal submissions
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

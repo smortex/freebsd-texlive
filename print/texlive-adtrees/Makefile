@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	chemmacros
+PORTNAME=	adtrees
 PORTVERSION=	20160121
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A collection of macros to support typesetting chemistry documents
+COMMENT=	Macros for drawing adpositional trees
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	chemmacros
+PORTNAME=	tikz-feynman
 PORTVERSION=	20160121
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A collection of macros to support typesetting chemistry documents
+COMMENT=	Feynman diagrams with TikZ
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

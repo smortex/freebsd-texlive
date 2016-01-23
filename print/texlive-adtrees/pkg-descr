@@ -1,0 +1,6 @@
+The adtrees package provides a package to write adpositional
+trees, a formalism devoted to represent natural language
+expressions. The package is composed by the filed adtree.sty:
+containing the LaTeX engine to adpositional trees
+adtreedoc.pdf: the human readable documentation for the package
+adtreedoc.tex: the source code for the documentation.
