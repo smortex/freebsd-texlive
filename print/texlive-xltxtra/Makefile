@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	xltxtra
-PORTVERSION=	20150413
+PORTVERSION=	20160122
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	"Extras" for LaTeX users of XeTeX.
+COMMENT=	"Extras" for LaTeX users of XeTeX
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/metalogo/metalogo.sty:${PORTSDIR}/print/texlive-metalogo
 
