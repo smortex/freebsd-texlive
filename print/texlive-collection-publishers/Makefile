@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20160114
+PORTVERSION=	20160123
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -147,6 +147,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/nddiss/nddiss2e.bst:${PORTSDIR}/print/texlive-nddiss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ndsu-thesis/ndsu-thesis.cls:${PORTSDIR}/print/texlive-ndsu-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nih/nih.cls:${PORTSDIR}/print/texlive-nih \
+		${LOCALBASE}/share/texmf-dist/tex/latex/nihbiosketch/nihbiosketch.cls:${PORTSDIR}/print/texlive-nihbiosketch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nostarch/nostarch.cls:${PORTSDIR}/print/texlive-nostarch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nrc/nrc1.cls:${PORTSDIR}/print/texlive-nrc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/onrannual/onrannual.cls:${PORTSDIR}/print/texlive-onrannual \

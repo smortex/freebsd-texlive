@@ -1,0 +1,34 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertinus/FONTLOG.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertinus/OFL.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertinus/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertinus/documentation/libertinus-testmath.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertinus/documentation/libertinuskeyboard-regular-table.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertinus/documentation/libertinusmath-regular-table.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertinus/documentation/libertinusmono-regular-table.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertinus/documentation/libertinussans-bold-table.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertinus/documentation/libertinussans-italic-table.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertinus/documentation/libertinussans-regular-table.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertinus/documentation/libertinusserif-bold-table.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertinus/documentation/libertinusserif-bolditalic-table.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertinus/documentation/libertinusserif-italic-table.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertinus/documentation/libertinusserif-regular-table.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertinus/documentation/libertinusserif-semibold-table.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertinus/documentation/libertinusserif-semibolditalic-table.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertinus/documentation/libertinusserifdisplay-regular-table.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/libertinus/documentation/libertinusserifinitials-regular-table.pdf
+share/texmf-dist/fonts/opentype/public/libertinus/libertinuskeyboard-regular.otf
+share/texmf-dist/fonts/opentype/public/libertinus/libertinusmath-regular.otf
+share/texmf-dist/fonts/opentype/public/libertinus/libertinusmono-regular.otf
+share/texmf-dist/fonts/opentype/public/libertinus/libertinussans-bold.otf
+share/texmf-dist/fonts/opentype/public/libertinus/libertinussans-italic.otf
+share/texmf-dist/fonts/opentype/public/libertinus/libertinussans-regular.otf
+share/texmf-dist/fonts/opentype/public/libertinus/libertinusserif-bold.otf
+share/texmf-dist/fonts/opentype/public/libertinus/libertinusserif-bolditalic.otf
+share/texmf-dist/fonts/opentype/public/libertinus/libertinusserif-italic.otf
+share/texmf-dist/fonts/opentype/public/libertinus/libertinusserif-regular.otf
+share/texmf-dist/fonts/opentype/public/libertinus/libertinusserif-semibold.otf
+share/texmf-dist/fonts/opentype/public/libertinus/libertinusserif-semibolditalic.otf
+share/texmf-dist/fonts/opentype/public/libertinus/libertinusserifdisplay-regular.otf
+share/texmf-dist/fonts/opentype/public/libertinus/libertinusserifinitials-regular.otf
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

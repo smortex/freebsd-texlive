@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	datetime2
+PORTNAME=	nihbiosketch
 PORTVERSION=	20160123
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Formats for dates, times and time zones
+COMMENT=	The nihbiosketch package
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
