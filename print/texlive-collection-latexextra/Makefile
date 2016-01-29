@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20160113
+PORTVERSION=	20160127
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -225,6 +225,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty:${PORTSDIR}/print/texlive-tikz-cd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-dependency/tikz-dependency.sty:${PORTSDIR}/print/texlive-tikz-dependency \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-dimline/tikz-dimline.sty:${PORTSDIR}/print/texlive-tikz-dimline \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty:${PORTSDIR}/print/texlive-tikz-feynman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-inet/tikz-inet.sty:${PORTSDIR}/print/texlive-tikz-inet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-opm/tikz-opm.sty:${PORTSDIR}/print/texlive-tikz-opm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-palattice/tikz-palattice.sty:${PORTSDIR}/print/texlive-tikz-palattice \
@@ -329,7 +330,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/blindtext/blindtext.sty:${PORTSDIR}/print/texlive-blindtext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/blkarray/blkarray.sty:${PORTSDIR}/print/texlive-blkarray \
 		${LOCALBASE}/share/texmf-dist/tex/latex/block/block.sty:${PORTSDIR}/print/texlive-block \
-		${LOCALBASE}/share/texmf-dist/tex/latex/blowup/blowup.sty:${PORTSDIR}/print/texlive-blowup \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bnumexpr/bnumexpr.sty:${PORTSDIR}/print/texlive-bnumexpr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boites/boites.sty:${PORTSDIR}/print/texlive-boites \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bold-extra/bold-extra.sty:${PORTSDIR}/print/texlive-bold-extra \
@@ -692,6 +692,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-danish/glossaries-danish.ldf:${PORTSDIR}/print/texlive-glossaries-danish \
 		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-dutch/glossaries-dutch.ldf:${PORTSDIR}/print/texlive-glossaries-dutch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-english/glossaries-english.ldf:${PORTSDIR}/print/texlive-glossaries-english \
+		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-extra/glossaries-extra.sty:${PORTSDIR}/print/texlive-glossaries-extra \
 		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-french/glossaries-french.ldf:${PORTSDIR}/print/texlive-glossaries-french \
 		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-german/glossaries-german.ldf:${PORTSDIR}/print/texlive-glossaries-german \
 		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-irish/glossaries-irish-noenc.ldf:${PORTSDIR}/print/texlive-glossaries-irish \

@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	blowup
-PORTVERSION=	20150412
-PORTEPOCH=	1
+PORTNAME=	glossaries-extra
+PORTVERSION=	20160127
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Upscale or downscale all pages of a document.
+COMMENT=	An extension to the glossaries package
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

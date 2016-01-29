@@ -406,6 +406,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/lato/lato.sty:${PORTSDIR}/print/texlive-lato \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/lfb/accents.mf:${PORTSDIR}/print/texlive-lfb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libertine/libertine.sty:${PORTSDIR}/print/texlive-libertine \
+		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/libertinus/libertinuskeyboard-regular.otf:${PORTSDIR}/print/texlive-libertinus \
 		${LOCALBASE}/share/texmf-dist/tex/latex/librebaskerville/librebaskerville.sty:${PORTSDIR}/print/texlive-librebaskerville \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/librebodoni/lbd_2nc6ly.enc:${PORTSDIR}/print/texlive-librebodoni \
 		${LOCALBASE}/share/texmf-dist/tex/latex/librecaslon/librecaslon.sty:${PORTSDIR}/print/texlive-librecaslon \
@@ -1171,7 +1172,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/blindtext/blindtext.sty:${PORTSDIR}/print/texlive-blindtext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/blkarray/blkarray.sty:${PORTSDIR}/print/texlive-blkarray \
 		${LOCALBASE}/share/texmf-dist/tex/latex/block/block.sty:${PORTSDIR}/print/texlive-block \
-		${LOCALBASE}/share/texmf-dist/tex/latex/blowup/blowup.sty:${PORTSDIR}/print/texlive-blowup \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bnumexpr/bnumexpr.sty:${PORTSDIR}/print/texlive-bnumexpr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boites/boites.sty:${PORTSDIR}/print/texlive-boites \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bold-extra/bold-extra.sty:${PORTSDIR}/print/texlive-bold-extra \
@@ -1534,6 +1534,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-danish/glossaries-danish.ldf:${PORTSDIR}/print/texlive-glossaries-danish \
 		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-dutch/glossaries-dutch.ldf:${PORTSDIR}/print/texlive-glossaries-dutch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-english/glossaries-english.ldf:${PORTSDIR}/print/texlive-glossaries-english \
+		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-extra/glossaries-extra.sty:${PORTSDIR}/print/texlive-glossaries-extra \
 		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-french/glossaries-french.ldf:${PORTSDIR}/print/texlive-glossaries-french \
 		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-german/glossaries-german.ldf:${PORTSDIR}/print/texlive-glossaries-german \
 		${LOCALBASE}/share/texmf-dist/tex/latex/glossaries-irish/glossaries-irish-noenc.ldf:${PORTSDIR}/print/texlive-glossaries-irish \
@@ -2513,6 +2514,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/nddiss/nddiss2e.bst:${PORTSDIR}/print/texlive-nddiss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ndsu-thesis/ndsu-thesis.cls:${PORTSDIR}/print/texlive-ndsu-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nih/nih.cls:${PORTSDIR}/print/texlive-nih \
+		${LOCALBASE}/share/texmf-dist/tex/latex/nihbiosketch/nihbiosketch.cls:${PORTSDIR}/print/texlive-nihbiosketch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nostarch/nostarch.cls:${PORTSDIR}/print/texlive-nostarch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nrc/nrc1.cls:${PORTSDIR}/print/texlive-nrc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/onrannual/onrannual.cls:${PORTSDIR}/print/texlive-onrannual \

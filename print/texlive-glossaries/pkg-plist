@@ -126,6 +126,7 @@ share/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
 share/texmf-dist/tex/latex/glossaries/styles/glossary-inline.sty
 share/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
 share/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
+share/texmf-dist/tex/latex/glossaries/styles/glossary-longbooktabs.sty
 share/texmf-dist/tex/latex/glossaries/styles/glossary-longragged.sty
 share/texmf-dist/tex/latex/glossaries/styles/glossary-mcols.sty
 share/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
