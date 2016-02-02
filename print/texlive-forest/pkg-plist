@@ -1,7 +1,20 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/forest/LICENCE
 %%PORTDOCS%%share/texmf-dist/doc/latex/forest/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/forest/forest-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/forest/forest-doc.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/forest/forest.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/forest/tex.bib
+share/texmf-dist/makeindex/forest/forest-doc.ist
+%%PORTSRC%%share/texmf-dist/source/latex/forest/forest-doc.ins
+%%PORTSRC%%share/texmf-dist/source/latex/forest/forest-index.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/forest/forest-libs.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/forest/forest.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/forest/forest.ins
+share/texmf-dist/tex/latex/forest/forest-compat.sty
+share/texmf-dist/tex/latex/forest/forest-doc.sty
+share/texmf-dist/tex/latex/forest/forest-index.sty
+share/texmf-dist/tex/latex/forest/forest-lib-edges.sty
+share/texmf-dist/tex/latex/forest/forest-lib-linguistics.sty
 share/texmf-dist/tex/latex/forest/forest.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

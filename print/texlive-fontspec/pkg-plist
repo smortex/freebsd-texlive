@@ -1,12 +1,29 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/fontspec/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/fontspec/README.md
 %%PORTDOCS%%share/texmf-dist/doc/latex/fontspec/fontspec-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/fontspec/fontspec.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/fontspec-api.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/fontspec-closing.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/fontspec-doc.tex
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/fontspec-fontload.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/fontspec-internal.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/fontspec-keyval.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/fontspec-lua.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/fontspec-math.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/fontspec-msg.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/fontspec-opening.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/fontspec-patches.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/fontspec-user.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/fontspec/fontspec-vars.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/fontspec/fontspec.dtx
 share/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
-share/texmf-dist/tex/latex/fontspec/fontspec-patches.sty
 share/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-share/texmf-dist/tex/latex/fontspec/fontspec.cfg
 share/texmf-dist/tex/latex/fontspec/fontspec.lua
 share/texmf-dist/tex/latex/fontspec/fontspec.sty
+share/texmf-dist/tex/latex/fontspec/tuenc.def
+share/texmf-dist/tex/latex/fontspec/tufontrange-T1.def
+share/texmf-dist/tex/latex/fontspec/tufontrange-TS1.def
+share/texmf-dist/tex/latex/fontspec/tulmr.fd
+share/texmf-dist/tex/latex/fontspec/tulmss.fd
+share/texmf-dist/tex/latex/fontspec/tulmtt.fd
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

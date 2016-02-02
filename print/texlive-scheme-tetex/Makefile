@@ -413,6 +413,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/delimseasy/delimseasy.sty:${PORTSDIR}/print/texlive-delimseasy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/drawmatrix/drawmatrix.sty:${PORTSDIR}/print/texlive-drawmatrix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebproof/ebproof.sty:${PORTSDIR}/print/texlive-ebproof \
+		${LOCALBASE}/share/texmf-dist/tex/latex/econometrics/econometrics.sty:${PORTSDIR}/print/texlive-econometrics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eqnarray/eqnarray.sty:${PORTSDIR}/print/texlive-eqnarray \
 		${LOCALBASE}/share/texmf-dist/tex/latex/extarrows/extarrows.sty:${PORTSDIR}/print/texlive-extarrows \
 		${LOCALBASE}/share/texmf-dist/tex/latex/extpfeil/extpfeil.sty:${PORTSDIR}/print/texlive-extpfeil \
@@ -596,6 +597,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/sa-tikz/sa-tikz.sty:${PORTSDIR}/print/texlive-sa-tikz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/schemabloc/schemabloc.sty:${PORTSDIR}/print/texlive-schemabloc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/setdeck/setdeck.sty:${PORTSDIR}/print/texlive-setdeck \
+		${LOCALBASE}/share/texmf-dist/tex/latex/signchart/signchart.sty:${PORTSDIR}/print/texlive-signchart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/smartdiagram/smartdiagram.sty:${PORTSDIR}/print/texlive-smartdiagram \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spath3/spath3.sty:${PORTSDIR}/print/texlive-spath3 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/swimgraf/swimgraf.sty:${PORTSDIR}/print/texlive-swimgraf \
@@ -607,6 +609,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty:${PORTSDIR}/print/texlive-tikz-cd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-dependency/tikz-dependency.sty:${PORTSDIR}/print/texlive-tikz-dependency \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-dimline/tikz-dimline.sty:${PORTSDIR}/print/texlive-tikz-dimline \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty:${PORTSDIR}/print/texlive-tikz-feynman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-inet/tikz-inet.sty:${PORTSDIR}/print/texlive-tikz-inet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-opm/tikz-opm.sty:${PORTSDIR}/print/texlive-tikz-opm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-palattice/tikz-palattice.sty:${PORTSDIR}/print/texlive-tikz-palattice \

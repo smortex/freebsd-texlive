@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	forest
-PORTVERSION=	20150724
+PORTVERSION=	20160131
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Drawing (linguistic) trees.
+COMMENT=	Drawing (linguistic) trees
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

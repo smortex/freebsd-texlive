@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	schemata
-PORTVERSION=	20150413
+PORTVERSION=	20160131
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Print topical diagrams.
+COMMENT=	Print topical diagrams
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

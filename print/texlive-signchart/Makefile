@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	mcmthesis
+PORTNAME=	signchart
 PORTVERSION=	20160131
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Template designed for MCM/ICM
+COMMENT=	Create beautifully typeset sign charts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
