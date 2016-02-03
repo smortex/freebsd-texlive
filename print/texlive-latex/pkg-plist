@@ -41,7 +41,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/base/ltluatex.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/base/ltnews.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/base/ltnews.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/base/ltunicode.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/base/ltx3info.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/base/ltx3info.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/base/ltxdoc.pdf
@@ -148,6 +147,7 @@ share/texmf-dist/makeindex/latex/gind.ist
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltnews21.tex
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltnews22.tex
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltnews23.tex
+%%PORTSRC%%share/texmf-dist/source/latex/base/ltnews24.tex
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltoutenc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltoutenc.ins
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltoutput.dtx
@@ -160,7 +160,6 @@ share/texmf-dist/makeindex/latex/gind.ist
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltspace.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/base/lttab.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltthm.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/base/ltunicode.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltvers.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltxdoc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltxref.dtx
@@ -330,7 +329,6 @@ share/texmf-dist/tex/latex/base/ucmss.fd
 share/texmf-dist/tex/latex/base/ucmtt.fd
 share/texmf-dist/tex/latex/base/ulasy.fd
 share/texmf-dist/tex/latex/base/ullasy.fd
-share/texmf-dist/tex/latex/base/unicode-letters.def
 share/texmf-dist/tex/latex/base/utf8-test.tex
 share/texmf-dist/tex/latex/base/utf8.def
 share/texmf-dist/tex/latex/base/utf8enc.dfu

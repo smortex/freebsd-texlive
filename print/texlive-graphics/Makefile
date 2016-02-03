@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	graphics
-PORTVERSION=	20150413
+PORTVERSION=	20160201
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Standard LaTeX graphics.
+COMMENT=	Standard LaTeX graphics
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

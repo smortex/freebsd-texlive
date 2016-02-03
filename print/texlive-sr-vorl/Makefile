@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	sr-vorl
-PORTVERSION=	20150413
+PORTVERSION=	20160201
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class for Springer books.
+COMMENT=	Class for Springer books
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
