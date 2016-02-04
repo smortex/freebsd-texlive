@@ -17,6 +17,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/fontspec/fontspec.dtx
 share/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 share/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+share/texmf-dist/tex/latex/fontspec/fontspec.cfg
 share/texmf-dist/tex/latex/fontspec/fontspec.lua
 share/texmf-dist/tex/latex/fontspec/fontspec.sty
 share/texmf-dist/tex/latex/fontspec/tuenc.def

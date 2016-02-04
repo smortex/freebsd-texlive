@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	csquotes
-PORTVERSION=	20150719
+PORTVERSION=	20160202
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Context sensitive quotation facilities.
+COMMENT=	Context sensitive quotation facilities
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

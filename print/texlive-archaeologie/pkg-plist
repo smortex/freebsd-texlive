@@ -3,6 +3,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/archaeologie/archaeologie.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/archaeologie/dai-abkuerzungen.bib
 share/texmf-dist/tex/latex/archaeologie/archaeologie-english.lbx
+share/texmf-dist/tex/latex/archaeologie/archaeologie-french.lbx
+share/texmf-dist/tex/latex/archaeologie/archaeologie-italian.lbx
 share/texmf-dist/tex/latex/archaeologie/archaeologie-ngerman.lbx
 share/texmf-dist/tex/latex/archaeologie/archaeologie.bbx
 share/texmf-dist/tex/latex/archaeologie/archaeologie.cbx
