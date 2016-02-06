@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langgerman
-PORTVERSION=	20151221
+PORTVERSION=	20160204
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -54,6 +54,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyphen/dehyphn.tex:${PORTSDIR}/print/texlive-hyphen-german \
 		${LOCALBASE}/share/texmf-dist/tex/latex/r_und_s/r_und_s.sty:${PORTSDIR}/print/texlive-r_und_s \
 		${LOCALBASE}/share/texmf-dist/tex/latex/udesoftec/udesoftec.cls:${PORTSDIR}/print/texlive-udesoftec \
+		${LOCALBASE}/share/texmf-dist/tex/latex/uhrzeit/uhrzeit.sty:${PORTSDIR}/print/texlive-uhrzeit \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umlaute/umlaute.sty:${PORTSDIR}/print/texlive-umlaute
 
 OPTIONS_EXCLUDE=	DOCS

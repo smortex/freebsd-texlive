@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ndsu-thesis
-PORTVERSION=	20150730
+PORTVERSION=	20160204
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	North Dakota State University disquisition class.
+COMMENT=	North Dakota State University disquisition class
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	leadsheets
+PORTNAME=	uhrzeit
 PORTVERSION=	20160204
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesetting leadsheets and songbooks
+COMMENT=	Time printing, in German
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	xecjk
-PORTVERSION=	20150516
+PORTVERSION=	20160204
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for CJK documents in XeLaTeX.
+COMMENT=	Support for CJK documents in XeLaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

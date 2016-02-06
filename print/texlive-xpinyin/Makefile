@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	xpinyin
-PORTVERSION=	20150413
+PORTVERSION=	20160204
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Automatically add pinyin to Chinese characters.
+COMMENT=	Automatically add pinyin to Chinese characters
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,0 +1,3 @@
+This LaTeX package implements a \SmartUnit macro for converting
+between (some) metric and Imperial units. The package requires
+pgfkeys and siunitx.

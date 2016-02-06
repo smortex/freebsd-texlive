@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	zhnumber
-PORTVERSION=	20150620
+PORTVERSION=	20160204
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset Chinese representations of numbers.
+COMMENT=	Typeset Chinese representations of numbers
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

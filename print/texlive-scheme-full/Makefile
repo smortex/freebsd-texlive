@@ -141,7 +141,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/figbib/figbib.sty:${PORTSDIR}/print/texlive-figbib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/footbib/footbib.sty:${PORTSDIR}/print/texlive-footbib \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/francais-bst/francais.bst:${PORTSDIR}/print/texlive-francais-bst \
-		${LOCALBASE}/share/texmf-dist/tex/latex/geschichtsfrkl/geschichtsfrkl.bbx:${PORTSDIR}/print/texlive-geschichtsfrkl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/harvard/harvard.sty:${PORTSDIR}/print/texlive-harvard \
 		${LOCALBASE}/share/texmf-dist/tex/plain/harvmac/harvmac.tex:${PORTSDIR}/print/texlive-harvmac \
 		${LOCALBASE}/share/texmf-dist/tex/latex/historische-zeitschrift/bbx/historische-zeitschrift.bbx:${PORTSDIR}/print/texlive-historische-zeitschrift \
@@ -809,6 +808,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyphen/dehyphn.tex:${PORTSDIR}/print/texlive-hyphen-german \
 		${LOCALBASE}/share/texmf-dist/tex/latex/r_und_s/r_und_s.sty:${PORTSDIR}/print/texlive-r_und_s \
 		${LOCALBASE}/share/texmf-dist/tex/latex/udesoftec/udesoftec.cls:${PORTSDIR}/print/texlive-udesoftec \
+		${LOCALBASE}/share/texmf-dist/tex/latex/uhrzeit/uhrzeit.sty:${PORTSDIR}/print/texlive-uhrzeit \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umlaute/umlaute.sty:${PORTSDIR}/print/texlive-umlaute \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-greek/athnum.sty:${PORTSDIR}/print/texlive-babel-greek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/begingreek/begingreek.sty:${PORTSDIR}/print/texlive-begingreek \
@@ -1056,6 +1056,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/sa-tikz/sa-tikz.sty:${PORTSDIR}/print/texlive-sa-tikz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/schemabloc/schemabloc.sty:${PORTSDIR}/print/texlive-schemabloc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/setdeck/setdeck.sty:${PORTSDIR}/print/texlive-setdeck \
+		${LOCALBASE}/share/texmf-dist/tex/latex/signchart/signchart.sty:${PORTSDIR}/print/texlive-signchart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/smartdiagram/smartdiagram.sty:${PORTSDIR}/print/texlive-smartdiagram \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spath3/spath3.sty:${PORTSDIR}/print/texlive-spath3 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/swimgraf/swimgraf.sty:${PORTSDIR}/print/texlive-swimgraf \
@@ -1964,6 +1965,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/skrapport/skrapport.cls:${PORTSDIR}/print/texlive-skrapport \
 		${LOCALBASE}/share/texmf-dist/tex/latex/slantsc/slantsc.sty:${PORTSDIR}/print/texlive-slantsc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/smalltableof/smalltableof.sty:${PORTSDIR}/print/texlive-smalltableof \
+		${LOCALBASE}/share/texmf-dist/tex/latex/smartunits/smartunits.sty:${PORTSDIR}/print/texlive-smartunits \
 		${LOCALBASE}/share/texmf-dist/tex/latex/smartref/smartref.sty:${PORTSDIR}/print/texlive-smartref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/snapshot/snapshot.sty:${PORTSDIR}/print/texlive-snapshot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/snotez/snotez.sty:${PORTSDIR}/print/texlive-snotez \

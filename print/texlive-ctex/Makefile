@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ctex
-PORTVERSION=	20150701
+PORTVERSION=	20160204
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX classes and packages for Chinese typesetting.
+COMMENT=	LaTeX classes and packages for Chinese typesetting
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/enc/ttf2pk/base/T1-WGL4.enc:${PORTSDIR}/print/texlive-ttfutils
 
