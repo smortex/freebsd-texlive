@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langeuropean
-PORTVERSION=	20160109
+PORTVERSION=	20160207
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -60,6 +60,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-latvian/latvian.ldf:${PORTSDIR}/print/texlive-babel-latvian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-macedonian/macedonian.ldf:${PORTSDIR}/print/texlive-babel-macedonian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-norsk/norsk.ldf:${PORTSDIR}/print/texlive-babel-norsk \
+		${LOCALBASE}/share/texmf-dist/tex/generic/babel-occitan/occitan.ldf:${PORTSDIR}/print/texlive-babel-occitan \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-piedmontese/piedmontese.ldf:${PORTSDIR}/print/texlive-babel-piedmontese \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-romanian/romanian.ldf:${PORTSDIR}/print/texlive-babel-romanian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-romansh/romansh.ldf:${PORTSDIR}/print/texlive-babel-romansh \
@@ -70,6 +71,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-turkish/turkish.ldf:${PORTSDIR}/print/texlive-babel-turkish \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-welsh/welsh.ldf:${PORTSDIR}/print/texlive-babel-welsh \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/finbib/finplain.bst:${PORTSDIR}/print/texlive-finbib \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gloss-occitan/gloss-occitan.ldf:${PORTSDIR}/print/texlive-gloss-occitan \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hrlatex/hrlatex.sty:${PORTSDIR}/print/texlive-hrlatex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lithuanian/lithuanian.sty:${PORTSDIR}/print/texlive-lithuanian \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nevelok/nevelok.sty:${PORTSDIR}/print/texlive-nevelok \

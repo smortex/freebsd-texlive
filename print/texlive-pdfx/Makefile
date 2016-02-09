@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pdfx
-PORTVERSION=	20150514
+PORTVERSION=	20160206
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	PDF/X-1a and PDF/A-1b support for pdfTeX.
+COMMENT=	PDF/X-1a and PDF/A-1b support for pdfTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

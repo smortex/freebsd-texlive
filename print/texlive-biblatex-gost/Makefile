@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-gost
-PORTVERSION=	20150505
+PORTVERSION=	20160206
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Biblatex support for GOST standard bibliographies.
+COMMENT=	BibLaTeX support for GOST standard bibliographies
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

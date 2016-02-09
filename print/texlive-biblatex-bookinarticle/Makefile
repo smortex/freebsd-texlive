@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-bookinarticle
-PORTVERSION=	20150412
+PORTVERSION=	20160206
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Manage book edited in article.
+COMMENT=	Manage book edited in article
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

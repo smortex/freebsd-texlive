@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	erewhon
-PORTVERSION=	20150412
+PORTVERSION=	20160207
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Font package derived from Heuristica and Utopia.
+COMMENT=	Font package derived from Heuristica and Utopia
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

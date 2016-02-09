@@ -1,0 +1,5 @@
+The package provides a XeLaTeX template for writing the main
+body of National Natural Science Foundation of China (NSFC)
+proposals, which are allowed to apply online. The package
+defines styles of the outlines and uses BibLaTeX/biber for the
+management of references.

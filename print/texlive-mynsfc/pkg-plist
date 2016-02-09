@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/mynsfc/my-nsfc-proposal.bib
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/mynsfc/my-nsfc-proposal.pdf
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/mynsfc/my-nsfc-proposal.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/mynsfc/mynsfc.pdf
+%%PORTSRC%%share/texmf-dist/source/xelatex/mynsfc/mynsfc.dtx
+share/texmf-dist/tex/xelatex/mynsfc/mynsfc.cls
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

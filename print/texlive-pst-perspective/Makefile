@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pst-perspective
-PORTVERSION=	20150413
+PORTVERSION=	20160206
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw perspective views using pstricks.
+COMMENT=	Draw perspective views using PSTricks
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
