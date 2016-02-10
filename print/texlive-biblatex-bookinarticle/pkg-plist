@@ -1,7 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/documentation/biblatex-bookinarticle-crossref.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/documentation/biblatex-bookinarticle.dot
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/documentation/biblatex-bookinarticle.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/documentation/biblatex-bookinarticle.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/documentation/example-bookinarticle.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/documentation/example-bookinincollection.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/documentation/makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/makefile
 share/texmf-dist/tex/latex/biblatex-bookinarticle/biblatex-bookinarticle.sty

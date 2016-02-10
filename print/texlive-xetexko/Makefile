@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	xetexko
-PORTVERSION=	20150617
+PORTVERSION=	20160208
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset Korean with Xe(La)TeX.
+COMMENT=	Typeset Korean with Xe(La)TeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
