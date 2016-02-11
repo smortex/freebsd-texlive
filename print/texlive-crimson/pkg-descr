@@ -1,0 +1,9 @@
+This package provides LaTeX, pdfLaTeX, XeLaTeX, and LuaLaTeX
+support for the Crimson family of fonts, designed by Sebastian
+Kosch. The Crimson family is for book production in the
+tradition of beautiful oldstyle typefaces, inspired
+particularly by the work of people like Jan Tschichold (Sabon),
+Robert Slimbach (Arno, Minion), and Jonathan Hoefler (Hoefler
+Text). Support for small caps and old-style numerals is still
+"under construction"; these features are not supported by this
+version of the package.

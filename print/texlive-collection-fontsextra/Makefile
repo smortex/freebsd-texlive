@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20160123
+PORTVERSION=	20160209
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -106,6 +106,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/cookingsymbols/cookingsymbols.sty:${PORTSDIR}/print/texlive-cookingsymbols \
 		${LOCALBASE}/share/texmf-dist/dvips/countriesofeurope/config.CountriesOfEurope:${PORTSDIR}/print/texlive-countriesofeurope \
 		${LOCALBASE}/share/texmf-dist/tex/latex/courier-scaled/8rpcrs.fd:${PORTSDIR}/print/texlive-courier-scaled \
+		${LOCALBASE}/share/texmf-dist/tex/latex/crimson/crimson.sty:${PORTSDIR}/print/texlive-crimson \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/cryst/cryst.afm:${PORTSDIR}/print/texlive-cryst \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cyklop/cyklop.sty:${PORTSDIR}/print/texlive-cyklop \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/dancers/dancers.mf:${PORTSDIR}/print/texlive-dancers \

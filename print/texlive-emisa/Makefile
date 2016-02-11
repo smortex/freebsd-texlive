@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	luatexja
+PORTNAME=	emisa
 PORTVERSION=	20160209
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset Japanese with Lua(La)TeX
+COMMENT=	A LaTeX package for preparing manuscripts for the journal EMISA
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

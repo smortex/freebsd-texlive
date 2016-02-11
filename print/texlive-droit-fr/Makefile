@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	droit-fr
-PORTVERSION=	20150412
+PORTVERSION=	20160209
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Document class and bibliographic style for French law.
+COMMENT=	Document class and bibliographic style for French law
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
