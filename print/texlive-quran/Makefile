@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	quran
-PORTVERSION=	20150718
+PORTVERSION=	20160210
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	An easy way to typeset any part of The Holy Quran.
+COMMENT=	An easy way to typeset any part of The Holy Quran
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
