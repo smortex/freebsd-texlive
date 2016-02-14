@@ -9,6 +9,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/datetime2/samples/datetime2-sample-filedate.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/datetime2/samples/datetime2-sample-hyperref.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/datetime2/samples/datetime2-sample-hyperref.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/datetime2/samples/datetime2-sample-journal.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/datetime2/samples/datetime2-sample-journal.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/datetime2/samples/datetime2-sample-styles.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/datetime2/samples/datetime2-sample-styles.tex
 %%PORTSRC%%share/texmf-dist/source/latex/datetime2/datetime2.dtx

@@ -5,6 +5,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/documentation/biblatex-bookinarticle.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/documentation/example-bookinarticle.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/documentation/example-bookinincollection.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/documentation/example-bookinthesis.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/documentation/makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinarticle/makefile
 share/texmf-dist/tex/latex/biblatex-bookinarticle/biblatex-bookinarticle.sty

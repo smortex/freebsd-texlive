@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	thinsp
-PORTVERSION=	20150413
+PORTVERSION=	20160212
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A stretchable \thinspace for LaTeX.
+COMMENT=	A stretchable \thinspace for LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

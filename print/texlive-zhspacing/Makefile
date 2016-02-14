@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	zhspacing
-PORTVERSION=	20150413
+PORTVERSION=	20160212
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Spacing for mixed CJK-English documents in XeTeX.
+COMMENT=	Spacing for mixed CJK-English documents in XeTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

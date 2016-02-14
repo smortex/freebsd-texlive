@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	leaflet
-PORTVERSION=	20150412
+PORTVERSION=	20160212
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create small handouts (flyers).
+COMMENT=	Create small handouts (flyers)
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

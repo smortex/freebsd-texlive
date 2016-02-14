@@ -324,6 +324,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/cookingsymbols/cookingsymbols.sty:${PORTSDIR}/print/texlive-cookingsymbols \
 		${LOCALBASE}/share/texmf-dist/dvips/countriesofeurope/config.CountriesOfEurope:${PORTSDIR}/print/texlive-countriesofeurope \
 		${LOCALBASE}/share/texmf-dist/tex/latex/courier-scaled/8rpcrs.fd:${PORTSDIR}/print/texlive-courier-scaled \
+		${LOCALBASE}/share/texmf-dist/tex/latex/crimson/crimson.sty:${PORTSDIR}/print/texlive-crimson \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/cryst/cryst.afm:${PORTSDIR}/print/texlive-cryst \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cyklop/cyklop.sty:${PORTSDIR}/print/texlive-cyklop \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/dancers/dancers.mf:${PORTSDIR}/print/texlive-dancers \
@@ -713,7 +714,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/xpinyin/xpinyin.sty:${PORTSDIR}/print/texlive-xpinyin \
 		${LOCALBASE}/share/texmf-dist/fonts/tfm/zhmetrics/cyberb/cyberb00.tfm:${PORTSDIR}/print/texlive-zhmetrics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zhnumber/zhnumber.sty:${PORTSDIR}/print/texlive-zhnumber \
-		${LOCALBASE}/share/texmf-dist/tex/xetex/zhspacing/generic/zhspacing.sty:${PORTSDIR}/print/texlive-zhspacing \
+		${LOCALBASE}/share/texmf-dist/tex/xetex/zhspacing/zhspacing.sty:${PORTSDIR}/print/texlive-zhspacing \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-bulgarian/bulgarian.ldf:${PORTSDIR}/print/texlive-babel-bulgarian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-russian/russianb.ldf:${PORTSDIR}/print/texlive-babel-russian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-serbian/serbian.ldf:${PORTSDIR}/print/texlive-babel-serbian \
@@ -2480,6 +2481,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/elbioimp/elbioimp.cls:${PORTSDIR}/print/texlive-elbioimp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/elsarticle/elsarticle.cls:${PORTSDIR}/print/texlive-elsarticle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/elteikthesis/elteikthesis.cls:${PORTSDIR}/print/texlive-elteikthesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/emisa/emisa.cls:${PORTSDIR}/print/texlive-emisa \
 		${LOCALBASE}/share/texmf-dist/tex/latex/erdc/erdc.cls:${PORTSDIR}/print/texlive-erdc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/estcpmm/estcpmm.cls:${PORTSDIR}/print/texlive-estcpmm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fbithesis/fbithesis.cls:${PORTSDIR}/print/texlive-fbithesis \

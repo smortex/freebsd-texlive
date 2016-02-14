@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ran_toks
-PORTVERSION=	20150413
+PORTVERSION=	20160212
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Randomise token strings.
+COMMENT=	Randomise token strings
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

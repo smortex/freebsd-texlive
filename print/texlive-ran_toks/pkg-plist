@@ -1,6 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/ran_toks/README.md
 %%PORTDOCS%%share/texmf-dist/doc/latex/ran_toks/doc/rantoks_man.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/ran_toks/doc/rantoks_man.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ran_toks/examples/mytext.verb
 %%PORTDOCS%%share/texmf-dist/doc/latex/ran_toks/examples/ran_toks.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ran_toks/examples/random_tst.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ran_toks/examples/random_tst_qz.tex
 %%PORTSRC%%share/texmf-dist/source/latex/ran_toks/ran_toks.dtx
 share/texmf-dist/tex/latex/ran_toks/ran_toks.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
