@@ -4,6 +4,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/newpx/newpxdoc.tex
 %%PORTDOCS%%share/texmf-dist/doc/fonts/newpx/newpxeg-crop.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/newpx/pxfontseg-crop.pdf
+share/texmf-dist/fonts/afm/public/newpx/TeXGyrePagella-Regular.afm
+share/texmf-dist/fonts/afm/public/newpx/TeXGyrePagellaX-Bold.afm
+share/texmf-dist/fonts/afm/public/newpx/TeXGyrePagellaX-BoldItalic.afm
+share/texmf-dist/fonts/afm/public/newpx/TeXGyrePagellaX-Italic.afm
+share/texmf-dist/fonts/afm/public/newpx/TeXGyrePagellaX-Regular.afm
+share/texmf-dist/fonts/afm/public/newpx/qplr.afm
 share/texmf-dist/fonts/afm/public/newpx/zplb.afm
 share/texmf-dist/fonts/afm/public/newpx/zplbi.afm
 share/texmf-dist/fonts/afm/public/newpx/zplr.afm
@@ -13,7 +19,6 @@ share/texmf-dist/fonts/enc/dvips/newpx/ot1sups.enc
 share/texmf-dist/fonts/enc/dvips/newpx/texnansxsups.enc
 share/texmf-dist/fonts/enc/dvips/newpx/tgpdiff.enc
 share/texmf-dist/fonts/map/dvips/newpx/newpx.map
-share/texmf-dist/fonts/map/dvips/newpx/newpxtext.map
 share/texmf-dist/fonts/opentype/public/newpx/TeXGyrePagellaX-Bold.otf
 share/texmf-dist/fonts/opentype/public/newpx/TeXGyrePagellaX-BoldItalic.otf
 share/texmf-dist/fonts/opentype/public/newpx/TeXGyrePagellaX-Italic.otf

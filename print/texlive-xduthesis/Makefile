@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	hyph-utf8
+PORTNAME=	xduthesis
 PORTVERSION=	20160213
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Hyphenation patterns expressed in UTF-8
+COMMENT=	XeLaTeX template for writing Xidian University Thesis
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

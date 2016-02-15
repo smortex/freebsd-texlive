@@ -1,0 +1,30 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/xduthesis/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/xduthesis/examples/abstract.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xduthesis/examples/achievements.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xduthesis/examples/acknowledgments.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xduthesis/examples/appendix01.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xduthesis/examples/biography.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xduthesis/examples/ch01-intro.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xduthesis/examples/ch02-options.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xduthesis/examples/ch03-frontmatter.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xduthesis/examples/ch04-mainmatter.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xduthesis/examples/ch05-backmatter.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xduthesis/examples/ch06-bibliography.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xduthesis/examples/ch07-conclusions.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xduthesis/examples/photo.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/xduthesis/examples/refs.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/xduthesis/examples/thesis-bachelor.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xduthesis/examples/thesis-doctor.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xduthesis/examples/thesis-doctor.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xduthesis/examples/thesis-master.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xduthesis/examples/thesis-masterpro.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xduthesis/xduthesis.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/xduthesis/xduthesis.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/xduthesis/xduthesis.ins
+share/texmf-dist/tex/latex/xduthesis/xdubadge-gr.eps
+share/texmf-dist/tex/latex/xduthesis/xdubadge.eps
+share/texmf-dist/tex/latex/xduthesis/xdulogo.eps
+share/texmf-dist/tex/latex/xduthesis/xduthesis.cfg
+share/texmf-dist/tex/latex/xduthesis/xduthesis.cls
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
