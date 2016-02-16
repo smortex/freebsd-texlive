@@ -1,5 +1,4 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/signchart/README.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/signchart/signchart.hd
 %%PORTDOCS%%share/texmf-dist/doc/latex/signchart/signchart.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/signchart/signchart.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/signchart/signchart.ins

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	fira
-PORTVERSION=	20150617
+PORTVERSION=	20160214
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fira fonts with LaTeX support.
+COMMENT=	Fira fonts with LaTeX support
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

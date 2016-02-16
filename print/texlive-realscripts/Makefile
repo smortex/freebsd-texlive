@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	realscripts
-PORTVERSION=	20150413
+PORTVERSION=	20160214
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Access OpenType subscript and superscript glyphs.
+COMMENT=	Access OpenType subscript and superscript glyphs
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

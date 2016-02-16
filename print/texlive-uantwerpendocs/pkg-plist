@@ -8,6 +8,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/uantwerpendocs/uantwerpenmasterthesis-example.tex
 %%PORTSRC%%share/texmf-dist/source/latex/uantwerpendocs/uantwerpendocs.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/uantwerpendocs/uantwerpendocs.ins
+share/texmf-dist/tex/latex/uantwerpendocs/4E_PMS302_BR_ENG_RGB.eps
+share/texmf-dist/tex/latex/uantwerpendocs/4E_PMS302_BR_ENG_RGB.pdf
+share/texmf-dist/tex/latex/uantwerpendocs/4E_PMS302_BR_NED_RGB.eps
+share/texmf-dist/tex/latex/uantwerpendocs/4E_PMS302_BR_NED_RGB.pdf
 share/texmf-dist/tex/latex/uantwerpendocs/UA_HOR_DUI_CMYK.eps
 share/texmf-dist/tex/latex/uantwerpendocs/UA_HOR_DUI_CMYK.pdf
 share/texmf-dist/tex/latex/uantwerpendocs/UA_HOR_ENG_CMYK.eps
