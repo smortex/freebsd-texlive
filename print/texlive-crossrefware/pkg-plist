@@ -6,8 +6,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/ltx2crossrefxml.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/crossrefware/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/support/crossrefware/README
-%%PORTDOCS%%share/texmf-dist/doc/support/crossrefware/aomsample.bib
-%%PORTDOCS%%share/texmf-dist/doc/support/crossrefware/citations.bib
 %%PORTDOCS%%share/texmf-dist/doc/support/crossrefware/crossrefware.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/crossrefware/head.ltx
 share/texmf-dist/scripts/crossrefware/bibdoiadd.pl

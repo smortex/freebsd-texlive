@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	media9
+PORTNAME=	scrlttr2copy
 PORTVERSION=	20160216
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multimedia inclusion package with Adobe Reader-9/X compatibility
+COMMENT=	A letter class option file for the automatic creation of copies
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

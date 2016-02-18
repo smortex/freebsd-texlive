@@ -1,10 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ipaex-type1/LICENSE
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ipaex-type1/README-en
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ipaex-type1/README-ja
-%%PORTDOCS%%share/texmf-dist/doc/fonts/ipaex-type1/c70ipxg.fdx
-%%PORTDOCS%%share/texmf-dist/doc/fonts/ipaex-type1/c70ipxga.fdx
-%%PORTDOCS%%share/texmf-dist/doc/fonts/ipaex-type1/c70ipxm.fdx
-%%PORTDOCS%%share/texmf-dist/doc/fonts/ipaex-type1/c70ipxma.fdx
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ipaex-type1/sample-ipaex-type1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/fonts/ipaex-type1/sample-ipaex-type1.tex
 share/texmf-dist/fonts/map/dvips/ipaex-type1/ipaex-type1.map
@@ -841,9 +837,13 @@ share/texmf-dist/fonts/type1/public/ipaex-type1/ipxm-r-ufa.pfb
 share/texmf-dist/fonts/type1/public/ipaex-type1/ipxm-r-ufe.pfb
 share/texmf-dist/fonts/type1/public/ipaex-type1/ipxm-r-uff.pfb
 share/texmf-dist/tex/latex/ipaex-type1/c70ipxg.fd
+share/texmf-dist/tex/latex/ipaex-type1/c70ipxg.fdx
 share/texmf-dist/tex/latex/ipaex-type1/c70ipxga.fd
+share/texmf-dist/tex/latex/ipaex-type1/c70ipxga.fdx
 share/texmf-dist/tex/latex/ipaex-type1/c70ipxm.fd
+share/texmf-dist/tex/latex/ipaex-type1/c70ipxm.fdx
 share/texmf-dist/tex/latex/ipaex-type1/c70ipxma.fd
+share/texmf-dist/tex/latex/ipaex-type1/c70ipxma.fdx
 share/texmf-dist/tex/latex/ipaex-type1/ot1ipxg.fd
 share/texmf-dist/tex/latex/ipaex-type1/ot1ipxm.fd
 share/texmf-dist/tex/latex/ipaex-type1/t1ipxg.fd

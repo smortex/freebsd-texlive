@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	media9
+PORTNAME=	mparrows
 PORTVERSION=	20160216
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multimedia inclusion package with Adobe Reader-9/X compatibility
+COMMENT=	MetaPost module with different types of arrow heads
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

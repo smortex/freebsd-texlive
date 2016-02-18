@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ipaex-type1
-PORTVERSION=	20150412
+PORTVERSION=	20160216
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	IPAex fonts converted to Type-1 format Unicode subfonts.
+COMMENT=	IPAex fonts converted to Type-1 format Unicode subfonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

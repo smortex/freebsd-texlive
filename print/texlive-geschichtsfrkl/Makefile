@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	geschichtsfrkl
-PORTVERSION=	20150412
+PORTVERSION=	20160216
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	BibLaTeX style for historians.
+COMMENT=	BibLaTeX style for historians
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
