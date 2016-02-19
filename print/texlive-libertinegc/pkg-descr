@@ -1,0 +1,5 @@
+The package provides LaTeX support files to access the Greek
+and Cyrillic glyphs in LinuxLibertine. It functions as an add-
+on to the libertine package, using filenames and macro names
+that are compatible with that package. Supported encodings:
+LGR, T2A, T2B, T2C, OT2.

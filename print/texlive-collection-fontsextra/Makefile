@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20160209
+PORTVERSION=	20160217
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -188,6 +188,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/lato/lato.sty:${PORTSDIR}/print/texlive-lato \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/lfb/accents.mf:${PORTSDIR}/print/texlive-lfb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libertine/libertine.sty:${PORTSDIR}/print/texlive-libertine \
+		${LOCALBASE}/share/texmf-dist/tex/latex/libertinegc/libertinegc.sty:${PORTSDIR}/print/texlive-libertinegc \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/libertinus/libertinuskeyboard-regular.otf:${PORTSDIR}/print/texlive-libertinus \
 		${LOCALBASE}/share/texmf-dist/tex/latex/librebaskerville/librebaskerville.sty:${PORTSDIR}/print/texlive-librebaskerville \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/librebodoni/lbd_2nc6ly.enc:${PORTSDIR}/print/texlive-librebodoni \
@@ -205,7 +206,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/merriweather/merriweather.sty:${PORTSDIR}/print/texlive-merriweather \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mintspirit/mintspirit.sty:${PORTSDIR}/print/texlive-mintspirit \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc:${PORTSDIR}/print/texlive-mnsymbol \
-		${LOCALBASE}/share/texmf-dist/fonts/afm/public/newpx/zplb.afm:${PORTSDIR}/print/texlive-newpx \
+		${LOCALBASE}/share/texmf-dist/fonts/afm/public/newpx/TeXGyrePagella-Regular.afm:${PORTSDIR}/print/texlive-newpx \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/newtx/ntxsups-Bold.afm:${PORTSDIR}/print/texlive-newtx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newtxsf/newtxsf.sty:${PORTSDIR}/print/texlive-newtxsf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newtxtt/newtxtt.sty:${PORTSDIR}/print/texlive-newtxtt \
