@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	hyperxmp
-PORTVERSION=	20150412
+PORTVERSION=	20160219
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Embed XMP metadata within a LaTeX document.
+COMMENT=	Embed XMP metadata within a LaTeX document
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

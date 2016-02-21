@@ -1,0 +1,14 @@
+Cochineal is a fork from the Crimson fonts (Roman, Italic,
+Bold, BoldItalic only) released under the OFL by Sebastian
+Kosch. These remarkable fonts are inspired by the famous
+oldstyle fonts in the garalde family (Garamond, Bembo) but, in
+the end, look more similar to Minion, though with smaller
+xheight and less plain in detail. The Crimson fonts on which
+these were based had roughly 4200 glyphs in the four styles
+mentioned above. Cochineal adds more than 1500 glyphs in those
+styles so that it is possible to make a TeX support collection
+that contains essentially all glyphs in all styles. Bringing
+the Semibold styles up the same level would have required
+adding about 2000 additional glyphs, which I could not even
+contemplate. The fonts are provided in OpenType and PostScript
+formats.

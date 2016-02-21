@@ -1,15 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	splitindex
+PORTNAME=	cochineal
 PORTVERSION=	20160219
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Unlimited number of indexes
+COMMENT=	Cochineal fonts with LaTeX support
 
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
-
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
