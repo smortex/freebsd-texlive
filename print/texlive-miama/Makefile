@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	crimson
+PORTNAME=	miama
 PORTVERSION=	20160220
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Crimson fonts with LaTeX support
+COMMENT=	The Miama Nueva handwriting font with LaTeX support
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

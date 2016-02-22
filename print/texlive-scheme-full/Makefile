@@ -319,6 +319,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmll/cmll.sty:${PORTSDIR}/print/texlive-cmll \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/cmpica/cmpica.mf:${PORTSDIR}/print/texlive-cmpica \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmtiup/cmtiup.sty:${PORTSDIR}/print/texlive-cmtiup \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cochineal/cochineal.sty:${PORTSDIR}/print/texlive-cochineal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/comfortaa/comfortaa.sty:${PORTSDIR}/print/texlive-comfortaa \
 		${LOCALBASE}/share/texmf-dist/tex/latex/comicneue/comicneue.sty:${PORTSDIR}/print/texlive-comicneue \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/concmath-fonts/xccam10.mf:${PORTSDIR}/print/texlive-concmath-fonts \
@@ -407,6 +408,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/lato/lato.sty:${PORTSDIR}/print/texlive-lato \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/lfb/accents.mf:${PORTSDIR}/print/texlive-lfb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libertine/libertine.sty:${PORTSDIR}/print/texlive-libertine \
+		${LOCALBASE}/share/texmf-dist/tex/latex/libertinegc/libertinegc.sty:${PORTSDIR}/print/texlive-libertinegc \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/libertinus/libertinuskeyboard-regular.otf:${PORTSDIR}/print/texlive-libertinus \
 		${LOCALBASE}/share/texmf-dist/tex/latex/librebaskerville/librebaskerville.sty:${PORTSDIR}/print/texlive-librebaskerville \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/librebodoni/lbd_2nc6ly.enc:${PORTSDIR}/print/texlive-librebodoni \
@@ -422,6 +424,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdputu/mdputu.sty:${PORTSDIR}/print/texlive-mdputu \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mdsymbol/mdsymbol.sty:${PORTSDIR}/print/texlive-mdsymbol \
 		${LOCALBASE}/share/texmf-dist/tex/latex/merriweather/merriweather.sty:${PORTSDIR}/print/texlive-merriweather \
+		${LOCALBASE}/share/texmf-dist/tex/latex/miama/miama.sty:${PORTSDIR}/print/texlive-miama \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mintspirit/mintspirit.sty:${PORTSDIR}/print/texlive-mintspirit \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc:${PORTSDIR}/print/texlive-mnsymbol \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/newpx/TeXGyrePagella-Regular.afm:${PORTSDIR}/print/texlive-newpx \
@@ -1171,6 +1174,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/bez123/bez123.sty:${PORTSDIR}/print/texlive-bez123 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bezos/accents.sty:${PORTSDIR}/print/texlive-bezos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bhcexam/BHCexam.cfg:${PORTSDIR}/print/texlive-bhcexam \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bibletext/bibletext.sty:${PORTSDIR}/print/texlive-bibletext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bigfoot/bigfoot.sty:${PORTSDIR}/print/texlive-bigfoot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bigints/bigints.sty:${PORTSDIR}/print/texlive-bigints \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bizcard/bizcard.sty:${PORTSDIR}/print/texlive-bizcard \

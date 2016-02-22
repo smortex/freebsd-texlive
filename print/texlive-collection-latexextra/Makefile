@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20160216
+PORTVERSION=	20160220
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -325,6 +325,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/bez123/bez123.sty:${PORTSDIR}/print/texlive-bez123 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bezos/accents.sty:${PORTSDIR}/print/texlive-bezos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bhcexam/BHCexam.cfg:${PORTSDIR}/print/texlive-bhcexam \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bibletext/bibletext.sty:${PORTSDIR}/print/texlive-bibletext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bigfoot/bigfoot.sty:${PORTSDIR}/print/texlive-bigfoot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bigints/bigints.sty:${PORTSDIR}/print/texlive-bigints \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bizcard/bizcard.sty:${PORTSDIR}/print/texlive-bizcard \

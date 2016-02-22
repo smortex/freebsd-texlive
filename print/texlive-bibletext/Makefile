@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	crimson
+PORTNAME=	bibletext
 PORTVERSION=	20160220
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Crimson fonts with LaTeX support
+COMMENT=	Insert Bible passages by their reference
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-russian
-PORTVERSION=	20150505
+PORTVERSION=	20160220
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Russian language module for Babel.
+COMMENT=	Russian language module for Babel
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
