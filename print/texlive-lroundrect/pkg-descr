@@ -1,0 +1,5 @@
+This LaTeX package provides ways to use the extremely
+configurable rounded rectangles of the roundrect MetaPost
+package with LaTeX. It is chiefly useful for examples, but also
+has macros for particular types of boxes which are useful on
+their own.

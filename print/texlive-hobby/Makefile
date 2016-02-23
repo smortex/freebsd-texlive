@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	hobby
-PORTVERSION=	20150412
+PORTVERSION=	20160221
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	An implementation of Hobby's algorithm for PGF/TikZ.
+COMMENT=	An implementation of Hobby's algorithm for PGF/TikZ
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

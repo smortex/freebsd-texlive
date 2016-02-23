@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	roundrect
-PORTVERSION=	20150808
+PORTVERSION=	20160221
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Metapost macros for highly configurable rounded rectangles (optionally with text)
+COMMENT=	MetaPost macros for highly configurable rounded rectangles (optionally with text)
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

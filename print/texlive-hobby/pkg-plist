@@ -1,6 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/hobby/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/hobby/hobby.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/hobby/hobby_doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/hobby/hobby_code.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/hobby/hobby_doc.tex
 %%PORTSRC%%share/texmf-dist/source/latex/hobby/hobby.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/hobby/hobby.ins
