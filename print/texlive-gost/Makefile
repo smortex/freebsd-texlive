@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	gost
-PORTVERSION=	20150412
+PORTVERSION=	20160223
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	BibTeX styles to format according to GOST.
+COMMENT=	BibTeX styles to format according to GOST
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
