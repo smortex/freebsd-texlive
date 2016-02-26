@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-friulan
-PORTVERSION=	20150412
+PORTVERSION=	20160224
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Babel/Polyglossia support for Friulan(Furlan).
+COMMENT=	Babel/Polyglossia support for Friulan(Furlan)
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,3 +1,4 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-friulan/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/generic/babel-friulan/friulan.pdf
 %%PORTSRC%%share/texmf-dist/source/generic/babel-friulan/friulan.dtx
 share/texmf-dist/tex/generic/babel-friulan/friulan.ldf
