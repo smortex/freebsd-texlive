@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	emisa
+PORTNAME=	xsavebox
 PORTVERSION=	20160226
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A LaTeX package for preparing manuscripts for the journal EMISA
+COMMENT=	Saveboxes for repeating content without code replication, based on PDF Form XObjects
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

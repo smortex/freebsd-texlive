@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-mathextra
-PORTVERSION=	20160116
+PORTVERSION=	20160226
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -135,6 +135,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/lpform/lpform.sty:${PORTSDIR}/print/texlive-lpform \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lplfitch/lplfitch.sty:${PORTSDIR}/print/texlive-lplfitch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathcomp/mathcomp.sty:${PORTSDIR}/print/texlive-mathcomp \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mathpartir/mathpartir.sty:${PORTSDIR}/print/texlive-mathpartir \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mattens/mattens.sty:${PORTSDIR}/print/texlive-mattens \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mhequ/mhequ.sty:${PORTSDIR}/print/texlive-mhequ \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multiobjective/multiobjective.sty:${PORTSDIR}/print/texlive-multiobjective \

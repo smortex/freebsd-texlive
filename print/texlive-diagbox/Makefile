@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	diagbox
-PORTVERSION=	20150412
+PORTVERSION=	20160226
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Table heads with diagonal lines.
+COMMENT=	Table heads with diagonal lines
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

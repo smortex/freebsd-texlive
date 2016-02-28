@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	emisa
+PORTNAME=	mathpartir
 PORTVERSION=	20160226
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A LaTeX package for preparing manuscripts for the journal EMISA
+COMMENT=	Typesetting sequences of math formulas, e.g. type inference rules
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1026,6 +1026,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/lapdf/lapdf.sty:${PORTSDIR}/print/texlive-lapdf \
 		${LOCALBASE}/share/texmf-dist/scripts/latex-make/figdepth.py:${PORTSDIR}/print/texlive-latex-make \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lpic/lpic.sty:${PORTSDIR}/print/texlive-lpic \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lroundrect/lroundrect.sty:${PORTSDIR}/print/texlive-lroundrect \
 		${LOCALBASE}/share/texmf-dist/tex/latex/makeshape/makeshape.sty:${PORTSDIR}/print/texlive-makeshape \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathspic/mathspic.sty:${PORTSDIR}/print/texlive-mathspic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/miniplot/miniplot.sty:${PORTSDIR}/print/texlive-miniplot \
@@ -2160,6 +2161,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/xpeek/xpeek.sty:${PORTSDIR}/print/texlive-xpeek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xprintlen/xprintlen.sty:${PORTSDIR}/print/texlive-xprintlen \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xpunctuate/xpunctuate.sty:${PORTSDIR}/print/texlive-xpunctuate \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xsavebox/xsavebox.sty:${PORTSDIR}/print/texlive-xsavebox \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xstring/xstring.sty:${PORTSDIR}/print/texlive-xstring \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xtab/xtab.sty:${PORTSDIR}/print/texlive-xtab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xwatermark/xwatermark.sty:${PORTSDIR}/print/texlive-xwatermark \
@@ -2234,6 +2236,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/lpform/lpform.sty:${PORTSDIR}/print/texlive-lpform \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lplfitch/lplfitch.sty:${PORTSDIR}/print/texlive-lplfitch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathcomp/mathcomp.sty:${PORTSDIR}/print/texlive-mathcomp \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mathpartir/mathpartir.sty:${PORTSDIR}/print/texlive-mathpartir \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mattens/mattens.sty:${PORTSDIR}/print/texlive-mattens \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mhequ/mhequ.sty:${PORTSDIR}/print/texlive-mhequ \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multiobjective/multiobjective.sty:${PORTSDIR}/print/texlive-multiobjective \

@@ -1,5 +1,7 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/emisa/README.TEXLIVE
 %%PORTDOCS%%share/texmf-dist/doc/latex/emisa/README.md
 %%PORTDOCS%%share/texmf-dist/doc/latex/emisa/emisa-author-template.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/emisa/emisa.brf
 %%PORTDOCS%%share/texmf-dist/doc/latex/emisa/emisa.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/emisa/manifest.txt
 %%PORTSRC%%share/texmf-dist/source/latex/emisa/emisa.dtx
