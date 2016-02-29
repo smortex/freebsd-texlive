@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	cabin
-PORTVERSION=	20150412
+PORTVERSION=	20160227
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A humanist Sans Serif font, with LaTeX support.
+COMMENT=	A humanist Sans Serif font, with LaTeX support
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
