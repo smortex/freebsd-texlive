@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	amsmath
-PORTVERSION=	20150412
+PORTVERSION=	20160302
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	AMS mathematical facilities for LaTeX.
+COMMENT=	AMS mathematical facilities for LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

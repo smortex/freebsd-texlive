@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	poetrytex
-PORTVERSION=	20160303
+PORTNAME=	luatex85
+PORTVERSION=	20160302
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset anthologies of poetry
+COMMENT=	pdfTeX aliases for LuaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

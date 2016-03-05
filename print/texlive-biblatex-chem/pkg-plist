@@ -1,4 +1,5 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chem/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chem/LICENSE.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chem/README.md
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chem/biblatex-chem-acs.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chem/biblatex-chem-acs.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chem/biblatex-chem-angew.pdf

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-chem
-PORTVERSION=	20150412
+PORTVERSION=	20160302
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A set of biblatex implementations of chemistry-related bibliography styles.
+COMMENT=	A set of BibLaTeX implementations of chemistry-related bibliography styles
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

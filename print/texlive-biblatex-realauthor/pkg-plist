@@ -1,9 +1,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-realauthor/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-realauthor/documentation/biblatex-realauthor.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-realauthor/documentation/biblatex-realauthor.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-realauthor/documentation/example.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-realauthor/documentation/example.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-realauthor/documentation/example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-realauthor/documentation/example-realauthor.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-realauthor/documentation/example-realauthor.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-realauthor/documentation/example-realauthor.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-realauthor/documentation/makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-realauthor/makefile
 share/texmf-dist/tex/latex/biblatex-realauthor/realauthor.bbx
