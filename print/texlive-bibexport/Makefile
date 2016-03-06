@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bibexport
-PORTVERSION=	20150412
+PORTVERSION=	20160304
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extract a BibTeX file based on a .aux file.
+COMMENT=	Extract a BibTeX file based on a .aux file
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

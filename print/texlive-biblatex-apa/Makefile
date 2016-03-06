@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-apa
-PORTVERSION=	20150412
+PORTVERSION=	20160304
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Biblatex citation and reference style for APA.
+COMMENT=	BibLaTeX citation and reference style for APA
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
