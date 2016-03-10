@@ -1,4 +1,5 @@
 share/texmf-dist/bibtex/bib/biblatex/biblatex/biblatex-examples.bib
+share/texmf-dist/bibtex/bib/biblatex/biblatex/biblatex-examples.bltxml
 share/texmf-dist/bibtex/bst/biblatex/biblatex.bst
 share/texmf-dist/bibtex/csf/biblatex/latin1.csf
 share/texmf-dist/bibtex/csf/biblatex/latin1_at.csf
@@ -160,7 +161,10 @@ share/texmf-dist/bibtex/csf/biblatex/winansi_se.csf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/91-sorting-schemes.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/92-bibliographylists.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/92-bibliographylists.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/93-nameparts.dbx
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/93-nameparts.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/biblatex-examples.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/biblatex-examples.bltxml
 share/texmf-dist/tex/latex/biblatex/bbx/alphabetic-verb.bbx
 share/texmf-dist/tex/latex/biblatex/bbx/alphabetic.bbx
 share/texmf-dist/tex/latex/biblatex/bbx/authortitle-comp.bbx
@@ -189,10 +193,11 @@ share/texmf-dist/tex/latex/biblatex/bbx/verbose-trad2.bbx
 share/texmf-dist/tex/latex/biblatex/bbx/verbose-trad3.bbx
 share/texmf-dist/tex/latex/biblatex/bbx/verbose.bbx
 share/texmf-dist/tex/latex/biblatex/biblatex.cfg
-share/texmf-dist/tex/latex/biblatex/biblatex.def
 share/texmf-dist/tex/latex/biblatex/biblatex.sty
-share/texmf-dist/tex/latex/biblatex/biblatex1.sty
-share/texmf-dist/tex/latex/biblatex/biblatex2.sty
+share/texmf-dist/tex/latex/biblatex/biblatex_.def
+share/texmf-dist/tex/latex/biblatex/biblatex_.sty
+share/texmf-dist/tex/latex/biblatex/biblatex_legacy.def
+share/texmf-dist/tex/latex/biblatex/biblatex_legacy.sty
 share/texmf-dist/tex/latex/biblatex/blx-compat.def
 share/texmf-dist/tex/latex/biblatex/blx-dm.def
 share/texmf-dist/tex/latex/biblatex/blx-mcite.def
