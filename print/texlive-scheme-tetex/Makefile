@@ -429,6 +429,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/generic/lpform/lpform.sty:${PORTSDIR}/print/texlive-lpform \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lplfitch/lplfitch.sty:${PORTSDIR}/print/texlive-lplfitch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathcomp/mathcomp.sty:${PORTSDIR}/print/texlive-mathcomp \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mathpartir/mathpartir.sty:${PORTSDIR}/print/texlive-mathpartir \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mattens/mattens.sty:${PORTSDIR}/print/texlive-mattens \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mhequ/mhequ.sty:${PORTSDIR}/print/texlive-mhequ \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multiobjective/multiobjective.sty:${PORTSDIR}/print/texlive-multiobjective \
@@ -564,6 +565,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/lapdf/lapdf.sty:${PORTSDIR}/print/texlive-lapdf \
 		${LOCALBASE}/share/texmf-dist/scripts/latex-make/figdepth.py:${PORTSDIR}/print/texlive-latex-make \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lpic/lpic.sty:${PORTSDIR}/print/texlive-lpic \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lroundrect/lroundrect.sty:${PORTSDIR}/print/texlive-lroundrect \
 		${LOCALBASE}/share/texmf-dist/tex/latex/makeshape/makeshape.sty:${PORTSDIR}/print/texlive-makeshape \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathspic/mathspic.sty:${PORTSDIR}/print/texlive-mathspic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/miniplot/miniplot.sty:${PORTSDIR}/print/texlive-miniplot \
@@ -582,6 +584,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfkeyx/pgfkeyx.sty:${PORTSDIR}/print/texlive-pgfkeyx \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/pgfmolbio/pgfmolbio.sty:${PORTSDIR}/print/texlive-pgfmolbio \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfopts/pgfopts.sty:${PORTSDIR}/print/texlive-pgfopts \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pgfornament/pgfornament.sty:${PORTSDIR}/print/texlive-pgfornament \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty:${PORTSDIR}/print/texlive-pgfplots \
 		${LOCALBASE}/share/texmf-dist/tex/latex/picinpar/picinpar.sty:${PORTSDIR}/print/texlive-picinpar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pict2e/pict2e.sty:${PORTSDIR}/print/texlive-pict2e \

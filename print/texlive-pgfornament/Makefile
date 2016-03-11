@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	pgfornament
 PORTVERSION=	20160309
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	Drawing of Vectorian ornaments with PGF/TikZ
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

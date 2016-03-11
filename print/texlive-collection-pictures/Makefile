@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20160221
+PORTVERSION=	20160309
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -118,6 +118,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfkeyx/pgfkeyx.sty:${PORTSDIR}/print/texlive-pgfkeyx \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/pgfmolbio/pgfmolbio.sty:${PORTSDIR}/print/texlive-pgfmolbio \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfopts/pgfopts.sty:${PORTSDIR}/print/texlive-pgfopts \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pgfornament/pgfornament.sty:${PORTSDIR}/print/texlive-pgfornament \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty:${PORTSDIR}/print/texlive-pgfplots \
 		${LOCALBASE}/share/texmf-dist/tex/latex/picinpar/picinpar.sty:${PORTSDIR}/print/texlive-picinpar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pict2e/pict2e.sty:${PORTSDIR}/print/texlive-pict2e \

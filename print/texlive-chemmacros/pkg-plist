@@ -16,6 +16,7 @@ share/texmf-dist/tex/latex/chemmacros/chemmacros.module.nomenclature.code.tex
 share/texmf-dist/tex/latex/chemmacros/chemmacros.module.orbital.code.tex
 share/texmf-dist/tex/latex/chemmacros/chemmacros.module.particles.code.tex
 share/texmf-dist/tex/latex/chemmacros/chemmacros.module.phases.code.tex
+share/texmf-dist/tex/latex/chemmacros/chemmacros.module.polymers.code.tex
 share/texmf-dist/tex/latex/chemmacros/chemmacros.module.reactions.code.tex
 share/texmf-dist/tex/latex/chemmacros/chemmacros.module.redox.code.tex
 share/texmf-dist/tex/latex/chemmacros/chemmacros.module.scheme.code.tex
