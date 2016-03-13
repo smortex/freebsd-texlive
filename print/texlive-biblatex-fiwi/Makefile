@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-fiwi
-PORTVERSION=	20150701
+PORTVERSION=	20160311
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Biblatex styles for use in German humanities.
+COMMENT=	BibLaTeX styles for use in German humanities
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

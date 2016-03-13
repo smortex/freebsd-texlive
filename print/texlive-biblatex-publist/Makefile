@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-publist
-PORTVERSION=	20150412
+PORTVERSION=	20160311
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	BibLaTeX bibliography support for publication lists.
+COMMENT=	BibLaTeX bibliography support for publication lists
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -5,10 +5,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-fiwi/example-biblatex-fiwi-options.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-fiwi/example-biblatex-fiwi.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-fiwi/example-biblatex-fiwi.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-fiwi/example-biblatex-fiwi2-options
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-fiwi/example-biblatex-fiwi2-options.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-fiwi/example-biblatex-fiwi2-options.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-fiwi/example-biblatex-fiwi2.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-fiwi/example-biblatex-fiwi2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-fiwi/examples.bib
 share/texmf-dist/tex/latex/biblatex-fiwi/fiwi-yearbeginning.bbx
 share/texmf-dist/tex/latex/biblatex-fiwi/fiwi.bbx

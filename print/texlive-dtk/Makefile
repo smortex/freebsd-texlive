@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	dtk
-PORTVERSION=	20150412
+PORTVERSION=	20160311
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Document class for the journal of DANTE.
+COMMENT=	Document class for the journal of DANTE
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
