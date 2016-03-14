@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-phys
-PORTVERSION=	20150412
+PORTVERSION=	20160312
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A biblatex implementation of the AIP and APS bibliography style.
+COMMENT=	A BibLaTeX implementation of the AIP and APS bibliography style
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-nature
-PORTVERSION=	20150412
+PORTVERSION=	20160312
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Biblatex support for Nature.
+COMMENT=	BibLaTeX support for Nature
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

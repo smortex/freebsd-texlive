@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-science
-PORTVERSION=	20150412
+PORTVERSION=	20160312
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Biblatex implementation of the Science bibliography style.
+COMMENT=	BibLaTeX implementation of the Science bibliography style
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

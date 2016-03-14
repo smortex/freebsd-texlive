@@ -2,6 +2,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/archaeologie/antike-corpora.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/archaeologie/archaeologie.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/archaeologie/archaeologie.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/archaeologie/dai-abkuerzungen.bib
 share/texmf-dist/tex/latex/archaeologie/archaeologie-english.lbx
 share/texmf-dist/tex/latex/archaeologie/archaeologie-french.lbx
 share/texmf-dist/tex/latex/archaeologie/archaeologie-italian.lbx
