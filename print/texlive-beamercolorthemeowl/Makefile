@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	turabian-formatting
+PORTNAME=	beamercolorthemeowl
 PORTVERSION=	20160316
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Formatting based on Turabian's Manual
+COMMENT=	A flexible beamer color theme to maximize visibility
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

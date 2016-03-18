@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20160226
+PORTVERSION=	20160316
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -196,6 +196,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfkeyx/pgfkeyx.sty:${PORTSDIR}/print/texlive-pgfkeyx \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/pgfmolbio/pgfmolbio.sty:${PORTSDIR}/print/texlive-pgfmolbio \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfopts/pgfopts.sty:${PORTSDIR}/print/texlive-pgfopts \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pgfornament/pgfornament.sty:${PORTSDIR}/print/texlive-pgfornament \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty:${PORTSDIR}/print/texlive-pgfplots \
 		${LOCALBASE}/share/texmf-dist/tex/latex/picinpar/picinpar.sty:${PORTSDIR}/print/texlive-picinpar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pict2e/pict2e.sty:${PORTSDIR}/print/texlive-pict2e \
@@ -312,6 +313,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/bchart/bchart.sty:${PORTSDIR}/print/texlive-bchart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamer2thesis/beamer2thesis.jpg:${PORTSDIR}/print/texlive-beamer2thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beameraudience/beameraudience.sty:${PORTSDIR}/print/texlive-beameraudience \
+		${LOCALBASE}/share/texmf-dist/tex/latex/beamercolorthemeowl/beamercolorthemeowl.sty:${PORTSDIR}/print/texlive-beamercolorthemeowl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerdarkthemes/beamercolorthemecormorant.sty:${PORTSDIR}/print/texlive-beamerdarkthemes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerposter/beamerposter.sty:${PORTSDIR}/print/texlive-beamerposter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamersubframe/beamersubframe.sty:${PORTSDIR}/print/texlive-beamersubframe \
@@ -903,6 +905,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/multiaudience/multiaudience.sty:${PORTSDIR}/print/texlive-multiaudience \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multibbl/multibbl.sty:${PORTSDIR}/print/texlive-multibbl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multicap/multicap.sty:${PORTSDIR}/print/texlive-multicap \
+		${LOCALBASE}/share/texmf-dist/tex/latex/multidef/multidef.sty:${PORTSDIR}/print/texlive-multidef \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multienv/multienv.sty:${PORTSDIR}/print/texlive-multienv \
 		${LOCALBASE}/share/texmf-dist/tex/generic/multiexpand/multiexpand.sty:${PORTSDIR}/print/texlive-multiexpand \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multirow/multirow.sty:${PORTSDIR}/print/texlive-multirow \
@@ -972,6 +975,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/papermas/papermas.sty:${PORTSDIR}/print/texlive-papermas \
 		${LOCALBASE}/share/texmf-dist/tex/latex/papertex/papertex.cls:${PORTSDIR}/print/texlive-papertex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/paracol/paracol.sty:${PORTSDIR}/print/texlive-paracol \
+		${LOCALBASE}/share/texmf-dist/scripts/parades/parades.py:${PORTSDIR}/print/texlive-parades \
 		${LOCALBASE}/share/texmf-dist/tex/latex/paralist/paralist.sty:${PORTSDIR}/print/texlive-paralist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/paresse/paresse.sty:${PORTSDIR}/print/texlive-paresse \
 		${LOCALBASE}/share/texmf-dist/tex/latex/parnotes/parnotes.sty:${PORTSDIR}/print/texlive-parnotes \
@@ -1319,6 +1323,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/xytree/xytree.sty:${PORTSDIR}/print/texlive-xytree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yafoot/dblfnote.sty:${PORTSDIR}/print/texlive-yafoot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yagusylo/yagusylo.sty:${PORTSDIR}/print/texlive-yagusylo \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ycbook/ycbook.cls:${PORTSDIR}/print/texlive-ycbook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ydoc/ydoc.cls:${PORTSDIR}/print/texlive-ydoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yplan/yplan.sty:${PORTSDIR}/print/texlive-yplan \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zed-csp/zed-csp.sty:${PORTSDIR}/print/texlive-zed-csp \

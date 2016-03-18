@@ -1,11 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	turabian-formatting
+PORTNAME=	parades
 PORTVERSION=	20160316
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Formatting based on Turabian's Manual
+COMMENT=	Tabulators and space between paragraphs in galley approach
+
+RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

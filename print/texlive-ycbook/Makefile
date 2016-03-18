@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	turabian-formatting
+PORTNAME=	ycbook
 PORTVERSION=	20160316
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Formatting based on Turabian's Manual
+COMMENT=	A versatile book class
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
