@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mandi
-PORTVERSION=	20150412
+PORTVERSION=	20160317
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros for introductory physics and astronomy.
+COMMENT=	Macros for introductory physics and astronomy
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

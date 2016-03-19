@@ -75,7 +75,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsrefs/amsrefs.sty:${PORTSDIR}/print/texlive-amsrefs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/apacite/apacite.sty:${PORTSDIR}/print/texlive-apacite \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/apalike2/apalike2.bst:${PORTSDIR}/print/texlive-apalike2 \
-		${LOCALBASE}/share/texmf-dist/tex/latex/archaeologie/archaeologie-english.lbx:${PORTSDIR}/print/texlive-archaeologie \
+		${LOCALBASE}/share/texmf-dist/bibtex/bib/archaeologie/antike-corpora.bib:${PORTSDIR}/print/texlive-archaeologie \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/beebe/gut.bib:${PORTSDIR}/print/texlive-beebe \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/besjournals/besjournals.bst:${PORTSDIR}/print/texlive-besjournals \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/bestpapers/bestpapers-export.bst:${PORTSDIR}/print/texlive-bestpapers \
@@ -1825,7 +1825,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/papermas/papermas.sty:${PORTSDIR}/print/texlive-papermas \
 		${LOCALBASE}/share/texmf-dist/tex/latex/papertex/papertex.cls:${PORTSDIR}/print/texlive-papertex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/paracol/paracol.sty:${PORTSDIR}/print/texlive-paracol \
-		${LOCALBASE}/share/texmf-dist/scripts/parades/parades.py:${PORTSDIR}/print/texlive-parades \
+		${LOCALBASE}/share/texmf-dist/tex/latex/parades/paravesp.sty:${PORTSDIR}/print/texlive-parades \
 		${LOCALBASE}/share/texmf-dist/tex/latex/paralist/paralist.sty:${PORTSDIR}/print/texlive-paralist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/paresse/paresse.sty:${PORTSDIR}/print/texlive-paresse \
 		${LOCALBASE}/share/texmf-dist/tex/latex/parnotes/parnotes.sty:${PORTSDIR}/print/texlive-parnotes \

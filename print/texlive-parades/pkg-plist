@@ -8,7 +8,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/parades/example/udhr.xsl
 %%PORTDOCS%%share/texmf-dist/doc/latex/parades/example/udhr_eng.xml
 %%PORTDOCS%%share/texmf-dist/doc/latex/parades/parades.pdf
-share/texmf-dist/scripts/parades/parades.py
+%%PORTDOCS%%share/texmf-dist/doc/latex/parades/parades.py
 share/texmf-dist/tex/latex/parades/paravesp.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

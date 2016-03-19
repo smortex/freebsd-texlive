@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	beamercolorthemeowl
-PORTVERSION=	20160316
+PORTVERSION=	20160317
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

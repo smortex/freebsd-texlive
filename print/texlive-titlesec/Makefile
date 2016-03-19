@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	titlesec
-PORTVERSION=	20150413
+PORTVERSION=	20160317
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Select alternative section titles.
+COMMENT=	Select alternative section titles
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
