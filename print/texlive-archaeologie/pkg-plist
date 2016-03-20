@@ -1,5 +1,5 @@
-share/texmf-dist/bibtex/bib/archaeologie/antike-corpora.bib
-share/texmf-dist/bibtex/bib/archaeologie/dai-abkuerzungen.bib
+share/texmf-dist/bibtex/bib/archaeologie/archaeologie-abbrv.bib
+share/texmf-dist/bibtex/bib/archaeologie/archaeologie-corpora.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/archaeologie/README.md
 %%PORTDOCS%%share/texmf-dist/doc/latex/archaeologie/archaeologie.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/archaeologie/archaeologie.tex

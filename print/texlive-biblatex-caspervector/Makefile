@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-caspervector
-PORTVERSION=	20150619
+PORTVERSION=	20160318
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A simple citation style for Chinese users.
+COMMENT=	A simple citation style for Chinese users
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

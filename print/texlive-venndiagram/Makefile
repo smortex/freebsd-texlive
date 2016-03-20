@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	venndiagram
-PORTVERSION=	20150413
+PORTVERSION=	20160318
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Creating Venn diagrams with TikZ.
+COMMENT=	Creating Venn diagrams with TikZ
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
