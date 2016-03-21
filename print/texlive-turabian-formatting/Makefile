@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	turabian-formatting
-PORTVERSION=	20160316
+PORTVERSION=	20160319
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
