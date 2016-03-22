@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	xint
+PORTNAME=	prooftrees
 PORTVERSION=	20160320
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Expandable operations on long numbers
+COMMENT=	Forest-based proof trees (symbolic logic)
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

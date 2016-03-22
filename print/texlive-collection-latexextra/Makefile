@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20160316
+PORTVERSION=	20160320
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -780,6 +780,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/keyreader/keyreader.sty:${PORTSDIR}/print/texlive-keyreader \
 		${LOCALBASE}/share/texmf-dist/tex/latex/keystroke/keystroke.sty:${PORTSDIR}/print/texlive-keystroke \
 		${LOCALBASE}/share/texmf-dist/tex/latex/keyval2e/keyval2e.sty:${PORTSDIR}/print/texlive-keyval2e \
+		${LOCALBASE}/share/texmf-dist/tex/latex/keyvaltable/keyvaltable.sty:${PORTSDIR}/print/texlive-keyvaltable \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kix/kix.sty:${PORTSDIR}/print/texlive-kix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/koma-moderncvclassic/koma-moderncvclassic.sty:${PORTSDIR}/print/texlive-koma-moderncvclassic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/koma-script-sfs/SFS.lco:${PORTSDIR}/print/texlive-koma-script-sfs \
@@ -975,7 +976,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/papermas/papermas.sty:${PORTSDIR}/print/texlive-papermas \
 		${LOCALBASE}/share/texmf-dist/tex/latex/papertex/papertex.cls:${PORTSDIR}/print/texlive-papertex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/paracol/paracol.sty:${PORTSDIR}/print/texlive-paracol \
-		${LOCALBASE}/share/texmf-dist/scripts/parades/parades.py:${PORTSDIR}/print/texlive-parades \
+		${LOCALBASE}/share/texmf-dist/tex/latex/parades/paravesp.sty:${PORTSDIR}/print/texlive-parades \
 		${LOCALBASE}/share/texmf-dist/tex/latex/paralist/paralist.sty:${PORTSDIR}/print/texlive-paralist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/paresse/paresse.sty:${PORTSDIR}/print/texlive-paresse \
 		${LOCALBASE}/share/texmf-dist/tex/latex/parnotes/parnotes.sty:${PORTSDIR}/print/texlive-parnotes \

@@ -1,0 +1,7 @@
+The main goal of the keyvaltable package is to offer means for
+typesetting tables easily and yet still looking rather nicely
+in a way that separates content from presentation and with re-
+usable layout for tables of the same type. For this purpose,
+the package provides the environment KeyValTable, which allows
+one to typeset tables that have a previously defined column
+layout and whose rows can be produced in a key-value fashion.

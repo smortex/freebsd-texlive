@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	xint
+PORTNAME=	keyvaltable
 PORTVERSION=	20160320
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Expandable operations on long numbers
+COMMENT=	Re-usable tables separating content and presentation
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
