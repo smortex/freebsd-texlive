@@ -1,4 +1,5 @@
 share/texmf-dist/bibtex/bst/seuthesix/seuthesix.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/LICENCE
 %%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/figures/back-cover.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/figures/doctor-hwzs.pdf
@@ -14,6 +15,10 @@ share/texmf-dist/bibtex/bst/seuthesix/seuthesix.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/figures/seu-text-logo.eps
 %%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/figures/seu-text-logo.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/figures/seu_logo.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/make_pdf.sh
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/makefile_engineering.sh
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/makefile_masters.sh
+%%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/makefile_phd.sh
 %%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/rules.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/sample_engineering.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/seuthesix/sample_engineering.tex

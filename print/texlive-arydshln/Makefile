@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	arydshln
-PORTVERSION=	20150412
+PORTVERSION=	20160321
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Horizontal and vertical dashed lines in arrays and tabulars.
+COMMENT=	Draw dash-lines in array/tabular
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

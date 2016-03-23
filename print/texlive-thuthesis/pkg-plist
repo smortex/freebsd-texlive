@@ -19,6 +19,8 @@ share/texmf-dist/bibtex/bst/thuthesis/thuthesis.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/thu-text-logo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/thu-whole-logo.eps
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/thu-whole-logo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/tsinghua.eps
+%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/figures/tsinghua.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/main.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/main.tex
@@ -26,10 +28,8 @@ share/texmf-dist/bibtex/bst/thuthesis/thuthesis.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/shuji.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/shuji.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/thuthesis.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/thuthesis/zhfonts.py
 %%PORTSRC%%share/texmf-dist/source/latex/thuthesis/thuthesis.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/thuthesis/thuthesis.ins
-share/texmf-dist/tex/latex/thuthesis/ctex-fontset-thuthesis.def
 share/texmf-dist/tex/latex/thuthesis/thuthesis.cfg
 share/texmf-dist/tex/latex/thuthesis/thuthesis.cls
 share/texmf-dist/tex/latex/thuthesis/thuthesis.sty
