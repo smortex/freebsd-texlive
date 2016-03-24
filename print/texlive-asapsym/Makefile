@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	metrix
+PORTNAME=	asapsym
 PORTVERSION=	20160322
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset metric marks for Latin text
+COMMENT=	Using the free ASAP Symbol font with LaTeX and Plain TeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,10 +1,10 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/bibarts/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/bibarts/COPYING
 %%PORTDOCS%%share/texmf-dist/doc/latex/bibarts/ba-short.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bibarts/ba-short.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/bibarts/bibarts.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bibarts/bibarts.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/bibarts/bibsort.exe
-%%PORTDOCS%%share/texmf-dist/doc/latex/bibarts/copying
+%%PORTDOCS%%share/texmf-dist/doc/latex/bibarts/readme.txt
 %%PORTSRC%%share/texmf-dist/source/latex/bibarts/bibsort.c
 share/texmf-dist/tex/latex/bibarts/bibarts.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

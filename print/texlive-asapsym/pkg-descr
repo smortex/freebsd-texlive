@@ -1,0 +1,6 @@
+The package provides macros (usable with LaTeX or Plain TeX)
+for using the freely available ASAP Symbol font, which is also
+included. The font is distributed in OpenType format, and makes
+extensive use of OpenType features. Therefore, at this time,
+only XeTeX and LuaTeX are supported. An error message is issued
+if an OTF-capable engine is not detected.
