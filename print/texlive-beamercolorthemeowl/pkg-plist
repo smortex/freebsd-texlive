@@ -14,6 +14,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamercolorthemeowl/ex/metropolis-dark/metropolis-owl-2.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamercolorthemeowl/ex/metropolis-light/metropolis-owl-1.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamercolorthemeowl/ex/metropolis-light/metropolis-owl-2.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamercolorthemeowl/ex/readme.jpg
 %%PORTSRC%%share/texmf-dist/source/latex/beamercolorthemeowl/beamercolorthemeowl.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/beamercolorthemeowl/beamercolorthemeowl.ins
 share/texmf-dist/tex/latex/beamercolorthemeowl/beamercolorthemeowl.sty
