@@ -1,0 +1,4 @@
+This package provides a command \setnormalcolor with the same
+syntax as the command \color either of package color or of
+package xcolor. However, \setnormalcolor will not change the
+current colour but the normal / default color.

@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	pkuthss
+PORTNAME=	normalcolor
 PORTVERSION=	20160325
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX template for dissertations in Peking University
+COMMENT=	Changing \normalcolor
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

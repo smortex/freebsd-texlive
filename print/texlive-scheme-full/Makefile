@@ -276,6 +276,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/archaic/aram10.afm:${PORTSDIR}/print/texlive-archaic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arev/arev.sty:${PORTSDIR}/print/texlive-arev \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/ascii-font/ascii.map:${PORTSDIR}/print/texlive-ascii-font \
+		${LOCALBASE}/share/texmf-dist/tex/latex/asapsym/asapsym.sty:${PORTSDIR}/print/texlive-asapsym \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/aspectratio/aspectratio.map:${PORTSDIR}/print/texlive-aspectratio \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/astro/astrosym.cal:${PORTSDIR}/print/texlive-astro \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/augie/augie___.afm:${PORTSDIR}/print/texlive-augie \
@@ -433,6 +434,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/newtxtt/newtxtt.sty:${PORTSDIR}/print/texlive-newtxtt \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/nimbus15/zco-Bold.afm:${PORTSDIR}/print/texlive-nimbus15 \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/nkarta/nkarta.mf:${PORTSDIR}/print/texlive-nkarta \
+		${LOCALBASE}/share/texmf-dist/tex/latex/noto/noto.sty:${PORTSDIR}/print/texlive-noto \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/obnov/obn10.mf:${PORTSDIR}/print/texlive-obnov \
 		${LOCALBASE}/share/texmf-dist/tex/lambda/ocherokee/ocherokee.sty:${PORTSDIR}/print/texlive-ocherokee \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/ocr-b/ocrb10.mf:${PORTSDIR}/print/texlive-ocr-b \
@@ -1794,6 +1796,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/nonfloat/nonfloat.sty:${PORTSDIR}/print/texlive-nonfloat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nonumonpart/nonumonpart.sty:${PORTSDIR}/print/texlive-nonumonpart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nopageno/nopageno.sty:${PORTSDIR}/print/texlive-nopageno \
+		${LOCALBASE}/share/texmf-dist/tex/latex/normalcolor/normalcolor.sty:${PORTSDIR}/print/texlive-normalcolor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/notes/notes.sty:${PORTSDIR}/print/texlive-notes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/notoccite/notoccite.sty:${PORTSDIR}/print/texlive-notoccite \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nowidow/nowidow.sty:${PORTSDIR}/print/texlive-nowidow \

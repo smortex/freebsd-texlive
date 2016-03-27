@@ -55,6 +55,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/3-reledpar_sync_setting_nosync.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/3-reledpar_sync_setting_shifted.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/3-reledpar_sync_setting_shifted.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/4-reledpar_column_mix_with_not_column-continuous-numbering.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/4-reledpar_column_mix_with_not_column-continuous-numbering.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/4-reledpar_column_mix_with_not_column.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/4-reledpar_column_mix_with_not_column.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/4-reledpar_columns_alignment.pdf

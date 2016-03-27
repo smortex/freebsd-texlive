@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20160320
+PORTVERSION=	20160325
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -944,6 +944,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/nonfloat/nonfloat.sty:${PORTSDIR}/print/texlive-nonfloat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nonumonpart/nonumonpart.sty:${PORTSDIR}/print/texlive-nonumonpart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nopageno/nopageno.sty:${PORTSDIR}/print/texlive-nopageno \
+		${LOCALBASE}/share/texmf-dist/tex/latex/normalcolor/normalcolor.sty:${PORTSDIR}/print/texlive-normalcolor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/notes/notes.sty:${PORTSDIR}/print/texlive-notes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/notoccite/notoccite.sty:${PORTSDIR}/print/texlive-notoccite \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nowidow/nowidow.sty:${PORTSDIR}/print/texlive-nowidow \

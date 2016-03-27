@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	pkuthss
+PORTNAME=	noto
 PORTVERSION=	20160325
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX template for dissertations in Peking University
+COMMENT=	Support for Noto fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
