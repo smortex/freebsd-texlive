@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	tudscr
+PORTNAME=	bxdvidriver
 PORTVERSION=	20160327
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The Corporate Design of TU Dresden
+COMMENT=	Enables specifying a driver option effective only in DVI output
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

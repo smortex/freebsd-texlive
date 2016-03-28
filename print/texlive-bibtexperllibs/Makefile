@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	bibtexperllibs
-PORTVERSION=	20160311
+PORTVERSION=	20160326
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

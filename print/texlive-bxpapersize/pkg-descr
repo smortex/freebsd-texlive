@@ -1,0 +1,4 @@
+As is well known, in LaTeX processing layout paper size
+specified by document class options is not automatically
+applied to output paper size. This package enables LaTeX
+authors to synchronize both kinds of paper sizes.
