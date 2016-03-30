@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mathalfa
-PORTVERSION=	20150412
+PORTVERSION=	20160329
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	General package for loading maths alphabets in LaTeX.
+COMMENT=	General package for loading maths alphabets in LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

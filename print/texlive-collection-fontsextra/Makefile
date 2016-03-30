@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20160325
+PORTVERSION=	20160329
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -192,6 +192,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/libertine/libertine.sty:${PORTSDIR}/print/texlive-libertine \
 		${LOCALBASE}/share/texmf-dist/tex/latex/libertinegc/libertinegc.sty:${PORTSDIR}/print/texlive-libertinegc \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/libertinus/libertinuskeyboard-regular.otf:${PORTSDIR}/print/texlive-libertinus \
+		${LOCALBASE}/share/texmf-dist/tex/latex/libertinust1math/libertinust1math.sty:${PORTSDIR}/print/texlive-libertinust1math \
 		${LOCALBASE}/share/texmf-dist/tex/latex/librebaskerville/librebaskerville.sty:${PORTSDIR}/print/texlive-librebaskerville \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/librebodoni/lbd_2nc6ly.enc:${PORTSDIR}/print/texlive-librebodoni \
 		${LOCALBASE}/share/texmf-dist/tex/latex/librecaslon/librecaslon.sty:${PORTSDIR}/print/texlive-librecaslon \

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	newtx
+PORTNAME=	libertinust1math
 PORTVERSION=	20160329
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Alternative uses of the TX fonts, with improved metrics
+COMMENT=	A Type 1 font and LaTeX support for Libertinus Math
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

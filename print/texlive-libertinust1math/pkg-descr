@@ -1,0 +1,4 @@
+The package provides a Type1 version of Libertinus Math, with a
+number of additions and changes, plus LaTeX support files that
+allow it to serve as a math accompaniment to Libertine under
+LaTeX.

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pdfcomment
-PORTVERSION=	20150413
+PORTVERSION=	20160329
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A user-friendly interface to pdf annotations.
+COMMENT=	A user-friendly interface to pdf annotations
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

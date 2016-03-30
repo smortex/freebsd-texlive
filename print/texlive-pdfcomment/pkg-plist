@@ -1,6 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/CHANGES
 %%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/INSTALL
-%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/README.md
 %%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/example.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pdfcomment/example_latex_dvipdfmx.pdf
