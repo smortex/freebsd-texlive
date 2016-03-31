@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	scanpages
-PORTVERSION=	20150413
+PORTVERSION=	20160330
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support importing and embellishing scanned documents.
+COMMENT=	Support importing and embellishing scanned documents
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

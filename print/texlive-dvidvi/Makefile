@@ -1,15 +1,16 @@
 # $FreeBSD$
 
 PORTNAME=	dvidvi
-PORTVERSION=	20150428
+PORTVERSION=	20160330
 CATEGORIES=	print
+DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Convert one DVI file into another.
+COMMENT=	Convert one DVI file into another
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
-OPTIONS_EXCLUDE=	DOCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -1,4 +1,4 @@
-share/texmf-dist/doc/man/man1/dvidvi.1
-share/texmf-dist/doc/man/man1/dvidvi.man1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/dvidvi.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/dvidvi.man1.pdf
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
