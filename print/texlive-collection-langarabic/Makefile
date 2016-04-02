@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langarabic
-PORTVERSION=	20150704
+PORTVERSION=	20160401
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -41,10 +41,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
+		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/amiri/amiri-bold.ttf:${PORTSDIR}/print/texlive-amiri \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arabi/arabeyes/ae_almohanad_boldItalitalic.afm:${PORTSDIR}/print/texlive-arabi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arabi-add/arabi-add.sty:${PORTSDIR}/print/texlive-arabi-add \
+		${LOCALBASE}/share/texmf-dist/tex/lualatex/arabluatex/arabluatex.sty:${PORTSDIR}/print/texlive-arabluatex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arabtex/arabtex.sty:${PORTSDIR}/print/texlive-arabtex \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidi/bidi.sty:${PORTSDIR}/print/texlive-bidi \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidihl/bidihl.sty:${PORTSDIR}/print/texlive-bidihl \

@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/arabluatex/arabluatex.pdf
+%%PORTSRC%%share/texmf-dist/source/lualatex/arabluatex/README.tex
+%%PORTSRC%%share/texmf-dist/source/lualatex/arabluatex/arabluatex.bib
+%%PORTSRC%%share/texmf-dist/source/lualatex/arabluatex/arabluatex.dtx
+%%PORTSRC%%share/texmf-dist/source/lualatex/arabluatex/arabluatex.ins
+%%PORTSRC%%share/texmf-dist/source/lualatex/arabluatex/arabluatex.lua
+%%PORTSRC%%share/texmf-dist/source/lualatex/arabluatex/arabluatex_fullvoc.lua
+%%PORTSRC%%share/texmf-dist/source/lualatex/arabluatex/arabluatex_novoc.lua
+%%PORTSRC%%share/texmf-dist/source/lualatex/arabluatex/arabluatex_trans.lua
+%%PORTSRC%%share/texmf-dist/source/lualatex/arabluatex/arabluatex_voc.lua
+share/texmf-dist/tex/lualatex/arabluatex/arabluatex.lua
+share/texmf-dist/tex/lualatex/arabluatex/arabluatex.sty
+share/texmf-dist/tex/lualatex/arabluatex/arabluatex_fullvoc.lua
+share/texmf-dist/tex/lualatex/arabluatex/arabluatex_novoc.lua
+share/texmf-dist/tex/lualatex/arabluatex/arabluatex_trans.lua
+share/texmf-dist/tex/lualatex/arabluatex/arabluatex_voc.lua
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	luatexja
+PORTNAME=	arabluatex
 PORTVERSION=	20160401
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset Japanese with Lua(La)TeX
+COMMENT=	An ArabTeX-like interface for LuaLaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

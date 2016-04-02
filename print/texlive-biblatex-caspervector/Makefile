@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-caspervector
-PORTVERSION=	20160325
+PORTVERSION=	20160401
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
