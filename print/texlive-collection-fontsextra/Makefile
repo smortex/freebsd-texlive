@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20160329
+PORTVERSION=	20160402
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -278,6 +278,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/xits/xits-bold.otf:${PORTSDIR}/print/texlive-xits \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yfonts/yfonts.sty:${PORTSDIR}/print/texlive-yfonts \
 		${LOCALBASE}/share/texmf-dist/dvips/yfonts-t1/config.yfrak:${PORTSDIR}/print/texlive-yfonts-t1 \
+		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/yinit-otf/Yinit.otf:${PORTSDIR}/print/texlive-yinit-otf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zlmtt/zlmtt.sty:${PORTSDIR}/print/texlive-zlmtt
 
 OPTIONS_EXCLUDE=	DOCS

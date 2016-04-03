@@ -188,7 +188,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/de-macro/de-macro:${PORTSDIR}/print/texlive-de-macro \
 		${LOCALBASE}/share/texmf-dist/scripts/dtxgen/dtxgen:${PORTSDIR}/print/texlive-dtxgen \
 		${LOCALBASE}/share/texmf-dist/scripts/dviasm/dviasm.py:${PORTSDIR}/print/texlive-dviasm \
-		${LOCALBASE}/share/texmf-dist/doc/man/man1/dvidvi.1:${PORTSDIR}/print/texlive-dvidvi \
 		${LOCALBASE}/share/texmf-dist/scripts/findhyph/findhyph:${PORTSDIR}/print/texlive-findhyph \
 		${LOCALBASE}/share/texmf-dist/scripts/fragmaster/fragmaster.pl:${PORTSDIR}/print/texlive-fragmaster \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyphenex/ushyphex.tex:${PORTSDIR}/print/texlive-hyphenex \
@@ -497,6 +496,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/xits/xits-bold.otf:${PORTSDIR}/print/texlive-xits \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yfonts/yfonts.sty:${PORTSDIR}/print/texlive-yfonts \
 		${LOCALBASE}/share/texmf-dist/dvips/yfonts-t1/config.yfrak:${PORTSDIR}/print/texlive-yfonts-t1 \
+		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/yinit-otf/Yinit.otf:${PORTSDIR}/print/texlive-yinit-otf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zlmtt/zlmtt.sty:${PORTSDIR}/print/texlive-zlmtt \
 		${LOCALBASE}/share/texmf-dist/dvips/avantgar/config.uag:${PORTSDIR}/print/texlive-avantgar \
 		${LOCALBASE}/share/texmf-dist/dvips/bookman/config.ubk:${PORTSDIR}/print/texlive-bookman \
@@ -695,6 +695,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/amiri/amiri-bold.ttf:${PORTSDIR}/print/texlive-amiri \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arabi/arabeyes/ae_almohanad_boldItalitalic.afm:${PORTSDIR}/print/texlive-arabi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arabi-add/arabi-add.sty:${PORTSDIR}/print/texlive-arabi-add \
+		${LOCALBASE}/share/texmf-dist/tex/lualatex/arabluatex/arabluatex.sty:${PORTSDIR}/print/texlive-arabluatex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arabtex/arabtex.sty:${PORTSDIR}/print/texlive-arabtex \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidi/bidi.sty:${PORTSDIR}/print/texlive-bidi \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidihl/bidihl.sty:${PORTSDIR}/print/texlive-bidihl \

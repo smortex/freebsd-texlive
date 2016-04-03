@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	yinit-otf
 PORTVERSION=	20160402
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	OTF conversion of Yannis Haralambous' Old German decorative initials
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
