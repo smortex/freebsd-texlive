@@ -1,0 +1,5 @@
+The package enables authors to designate in the preamble to
+make the document body enclosed with the given pieces of code.
+As is known, there are already various mechanisms provided by
+LaTeX kernel or packages that attach hooks at the beginning and
+end of documents.

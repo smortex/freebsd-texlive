@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	lua-check-hyphen
-PORTVERSION=	20150412
+PORTVERSION=	20160403
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Mark hyphenations in a document, for checking.
+COMMENT=	Mark hyphenations in a document, for checking
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

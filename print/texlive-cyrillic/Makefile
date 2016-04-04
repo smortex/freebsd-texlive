@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	cyrillic
-PORTVERSION=	20150413
+PORTVERSION=	20160403
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for Cyrillic fonts in LaTeX.
+COMMENT=	Support for Cyrillic fonts in LaTeX
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/rubibtex.sh:${PORTSDIR}/print/texlive-cyrillic-bin
 

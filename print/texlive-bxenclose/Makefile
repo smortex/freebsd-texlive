@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	amsmath
+PORTNAME=	bxenclose
 PORTVERSION=	20160403
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	AMS mathematical facilities for LaTeX
+COMMENT=	Enclose the document body with some pieces of code
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

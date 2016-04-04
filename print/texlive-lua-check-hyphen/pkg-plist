@@ -1,6 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lua-check-hyphen/README.md
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lua-check-hyphen/doc/README.md
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lua-check-hyphen/doc/luacheckhyphenmanual.pdf
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lua-check-hyphen/doc/luacheckhyphenmanual.tex
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/lua-check-hyphen/doc/mit-license.txt
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lua-check-hyphen/doc/sample.pdf
 %%PORTDOCS%%share/texmf-dist/doc/lualatex/lua-check-hyphen/doc/sample.tex
 share/texmf-dist/tex/lualatex/lua-check-hyphen/lua-check-hyphen.lua
