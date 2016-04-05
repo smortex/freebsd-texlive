@@ -1,7 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/texworks/README
 share/tlpkg/texworks/COPYING
 share/tlpkg/texworks/README.txt
-share/tlpkg/texworks/lua52.dll
 share/tlpkg/texworks/share/fonts/README
 share/tlpkg/texworks/share/fonts/d050000l.pfb
 share/tlpkg/texworks/share/fonts/s050000l.pfb
