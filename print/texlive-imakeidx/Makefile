@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	imakeidx
-PORTVERSION=	20150412
+PORTVERSION=	20160405
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A package for producing multiple indexes.
+COMMENT=	A package for producing multiple indexes
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

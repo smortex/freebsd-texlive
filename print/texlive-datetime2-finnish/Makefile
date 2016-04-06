@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	datetime2-finnish
-PORTVERSION=	20150412
+PORTVERSION=	20160405
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Finnish language module for the datetime2 package.
+COMMENT=	Finnish language module for the datetime2 package
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
