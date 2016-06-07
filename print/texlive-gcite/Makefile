@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	gcite
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Citations in a reader-friendly style.
+COMMENT=	Citations in a reader-friendly style
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

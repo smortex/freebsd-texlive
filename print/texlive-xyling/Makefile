@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	xyling
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw syntactic trees, etc., for linguistics literature, using xy-pic.
+COMMENT=	Draw syntactic trees, etc., for linguistics literature, using xy-pic
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

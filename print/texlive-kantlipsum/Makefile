@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	kantlipsum
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generate sentences in Kant's style.
+COMMENT=	Generate sentences in Kant's style
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

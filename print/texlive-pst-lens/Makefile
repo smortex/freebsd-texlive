@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-lens
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Lenses with PSTricks.
+COMMENT=	Lenses with PSTricks
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	b1encoding
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX encoding tools for Bookhands fonts.
+COMMENT=	LaTeX encoding tools for Bookhands fonts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ordinalpt
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Counters as ordinal numbers in Portuguese.
+COMMENT=	Counters as ordinal numbers in Portuguese
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

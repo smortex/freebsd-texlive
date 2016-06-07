@@ -29,6 +29,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/2-one_series_per_pstart.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/2-performances.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/2-performances.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/2-reledmac--right-to-left.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/2-reledmac--right-to-left.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/2-titles_in_line_numbering_with_notes.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/2-titles_in_line_numbering_with_notes.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/2-titles_not_in_line_numbering.pdf

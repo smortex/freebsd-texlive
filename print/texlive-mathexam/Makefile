@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mathexam
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Package for typesetting exams.
+COMMENT=	Package for typesetting exams
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

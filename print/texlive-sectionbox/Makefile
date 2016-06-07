@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	sectionbox
-PORTVERSION=	20150704
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create fancy boxed ((sub)sub)sections.
+COMMENT=	Create fancy boxed ((sub)sub)sections
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

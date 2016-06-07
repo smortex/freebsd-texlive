@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	flipbook
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset flipbook animations, in the corners of documents.
+COMMENT=	Typeset flipbook animations, in the corners of documents
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	memoir
-PORTVERSION=	20150709
+PORTVERSION=	20160517
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset fiction, non-fiction and mathematical books.
+COMMENT=	Typeset fiction, non-fiction and mathematical books
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

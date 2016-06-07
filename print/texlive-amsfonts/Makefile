@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	amsfonts
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	TeX fonts from the American Mathematical Society.
+COMMENT=	TeX fonts from the American Mathematical Society
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

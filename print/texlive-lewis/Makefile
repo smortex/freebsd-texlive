@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	lewis
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw Lewis structures.
+COMMENT=	Draw Lewis structures
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

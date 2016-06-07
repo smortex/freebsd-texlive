@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	uhc
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fonts for the Korean language.
+COMMENT=	Fonts for the Korean language
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

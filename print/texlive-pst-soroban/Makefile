@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-soroban
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw a Soroban using PSTricks.
+COMMENT=	Draw a Soroban using PSTricks
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	xkeyval
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extension of the keyval package.
+COMMENT=	Extension of the keyval package
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

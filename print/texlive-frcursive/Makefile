@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	frcursive
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	French cursive hand fonts.
+COMMENT=	French cursive hand fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

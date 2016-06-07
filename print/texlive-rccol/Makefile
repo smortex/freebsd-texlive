@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	rccol
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Decimal-centered optionally rounded numbers in tabular.
+COMMENT=	Decimal-centered optionally rounded numbers in tabular
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

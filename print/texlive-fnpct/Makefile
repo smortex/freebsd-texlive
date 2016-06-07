@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	fnpct
-PORTVERSION=	20150412
+PORTVERSION=	20160416
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Manage footnote marks' interaction with punctuation.
+COMMENT=	Manage footnote marks' interaction with punctuation
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

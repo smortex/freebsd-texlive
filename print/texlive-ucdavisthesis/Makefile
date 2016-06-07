@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ucdavisthesis
-PORTVERSION=	20150413
+PORTVERSION=	20160427
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A thesis/dissertation class for University of California at Davis.
+COMMENT=	A thesis/dissertation class for University of California at Davis
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

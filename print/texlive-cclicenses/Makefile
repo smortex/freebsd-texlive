@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cclicenses
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset Creative Commons licence logos.
+COMMENT=	Typeset Creative Commons licence logos
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

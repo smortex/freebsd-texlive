@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	sourcesanspro
-PORTVERSION=	20150514
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use SourceSansPro with TeX(-alike) systems.
+COMMENT=	Use SourceSansPro with TeX(-alike) systems
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

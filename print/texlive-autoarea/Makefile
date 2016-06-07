@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	autoarea
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Automatic computation of bounding boxes with PiCTeX.
+COMMENT=	Automatic computation of bounding boxes with PiCTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

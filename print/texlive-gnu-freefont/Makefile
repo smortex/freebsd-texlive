@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	gnu-freefont
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A Unicode font, with rather wide coverage.
+COMMENT=	A Unicode font, with rather wide coverage
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

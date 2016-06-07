@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	copyrightbox
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provide copyright notices for images in a document.
+COMMENT=	Provide copyright notices for images in a document
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

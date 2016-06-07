@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	liturg
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for typesetting Catholic liturgical texts.
+COMMENT=	Support for typesetting Catholic liturgical texts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

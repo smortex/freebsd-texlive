@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	screenplay
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A class file to typeset screenplays.
+COMMENT=	A class file to typeset screenplays
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	envbig
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Printing addresses on envelopes.
+COMMENT=	Printing addresses on envelopes
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

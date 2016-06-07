@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fullblck
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Left-blocking for letter class.
+COMMENT=	Left-blocking for letter class
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

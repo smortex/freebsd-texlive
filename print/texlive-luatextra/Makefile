@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	luatextra
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Additional macros for Plain TeX and LaTeX in LuaTeX.
+COMMENT=	Additional macros for Plain TeX and LaTeX in LuaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

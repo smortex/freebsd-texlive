@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	lh
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Cyrillic fonts that support LaTeX standard encodings.
+COMMENT=	Cyrillic fonts that support LaTeX standard encodings
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/source/jknappen/ec/ecbi.mf:${PORTSDIR}/print/texlive-ec
 

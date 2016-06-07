@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	wasy2-ps
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Type 1 versions of wasy2 fonts.
+COMMENT=	Type 1 versions of wasy2 fonts
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/source/public/wasy/lasychr.mf:${PORTSDIR}/print/texlive-wasy
 

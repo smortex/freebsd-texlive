@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	objectz
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros for typesetting Object Z.
+COMMENT=	Macros for typesetting Object Z
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

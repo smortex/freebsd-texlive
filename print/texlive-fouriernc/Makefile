@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fouriernc
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use New Century Schoolbook text with Fourier maths fonts.
+COMMENT=	Use New Century Schoolbook text with Fourier maths fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

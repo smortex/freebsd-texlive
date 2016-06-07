@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	cjk-gs-integrate
-PORTVERSION=	20160116
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	aurical
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Calligraphic fonts for use with LaTeX in T1 encoding.
+COMMENT=	Calligraphic fonts for use with LaTeX in T1 encoding
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

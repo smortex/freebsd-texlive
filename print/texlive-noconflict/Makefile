@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	noconflict
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Resolve macro name conflict between packages.
+COMMENT=	Resolve macro name conflict between packages
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	background
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Placement of background material on pages of a document.
+COMMENT=	Placement of background material on pages of a document
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	graphicxbox
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Insert a graphical image as a background.
+COMMENT=	Insert a graphical image as a background
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

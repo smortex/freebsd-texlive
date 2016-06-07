@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	newenviron
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Processing an environment's body.
+COMMENT=	Processing an environment's body
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

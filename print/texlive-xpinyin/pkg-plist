@@ -1,4 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/xpinyin/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/xpinyin/README.md
 %%PORTDOCS%%share/texmf-dist/doc/latex/xpinyin/xpinyin.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/xpinyin/xpinyin.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/xpinyin/xpinyin.ins

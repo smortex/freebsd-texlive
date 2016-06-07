@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	zhmetrics
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	TFM subfont files for using Chinese fonts in 8-bit TeX.
+COMMENT=	TFM subfont files for using Chinese fonts in 8-bit TeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

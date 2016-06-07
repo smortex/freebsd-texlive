@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cdpbundl
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Business letters in the Italian style.
+COMMENT=	Business letters in the Italian style
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	gmp
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Enable integration between MetaPost pictures and LaTeX.
+COMMENT=	Enable integration between MetaPost pictures and LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

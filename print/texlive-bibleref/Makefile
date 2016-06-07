@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bibleref
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Format bible citations.
+COMMENT=	Format bible citations
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

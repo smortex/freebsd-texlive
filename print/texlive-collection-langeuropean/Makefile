@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langeuropean
-PORTVERSION=	20160216
+PORTVERSION=	20160414
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -37,10 +37,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
+		${LOCALBASE}/share/texmf-dist/tex/generic/tex-ini-files/dvilualatex.ini:${PORTSDIR}/print/texlive-tex-ini-files \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
 		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/updmap/kanjix.map:${PORTSDIR}/print/texlive-updmap-map \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/armenian/armtex.sty:${PORTSDIR}/print/texlive-armtex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-albanian/albanian.ldf:${PORTSDIR}/print/texlive-babel-albanian \
@@ -73,6 +75,30 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/finbib/finplain.bst:${PORTSDIR}/print/texlive-finbib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gloss-occitan/gloss-occitan.ldf:${PORTSDIR}/print/texlive-gloss-occitan \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hrlatex/hrlatex.sty:${PORTSDIR}/print/texlive-hrlatex \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-hy.tex:${PORTSDIR}/print/texlive-hyphen-armenian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-hr.tex:${PORTSDIR}/print/texlive-hyphen-croatian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-da.tex:${PORTSDIR}/print/texlive-hyphen-danish \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-nl.tex:${PORTSDIR}/print/texlive-hyphen-dutch \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-et.tex:${PORTSDIR}/print/texlive-hyphen-estonian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-fi.tex:${PORTSDIR}/print/texlive-hyphen-finnish \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-fur.tex:${PORTSDIR}/print/texlive-hyphen-friulan \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-hu.tex:${PORTSDIR}/print/texlive-hyphen-hungarian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-is.tex:${PORTSDIR}/print/texlive-hyphen-icelandic \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-ga.tex:${PORTSDIR}/print/texlive-hyphen-irish \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-kmr.tex:${PORTSDIR}/print/texlive-hyphen-kurmanji \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-la-x-classic.tex:${PORTSDIR}/print/texlive-hyphen-latin \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-lv.tex:${PORTSDIR}/print/texlive-hyphen-latvian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-lt.tex:${PORTSDIR}/print/texlive-hyphen-lithuanian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-nb.tex:${PORTSDIR}/print/texlive-hyphen-norwegian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-oc.tex:${PORTSDIR}/print/texlive-hyphen-occitan \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-pms.tex:${PORTSDIR}/print/texlive-hyphen-piedmontese \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-ro.tex:${PORTSDIR}/print/texlive-hyphen-romanian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-rm.tex:${PORTSDIR}/print/texlive-hyphen-romansh \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-sl.tex:${PORTSDIR}/print/texlive-hyphen-slovenian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-sv.tex:${PORTSDIR}/print/texlive-hyphen-swedish \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-tr.tex:${PORTSDIR}/print/texlive-hyphen-turkish \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-hsb.tex:${PORTSDIR}/print/texlive-hyphen-uppersorbian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-cy.tex:${PORTSDIR}/print/texlive-hyphen-welsh \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lithuanian/lithuanian.sty:${PORTSDIR}/print/texlive-lithuanian \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nevelok/nevelok.sty:${PORTSDIR}/print/texlive-nevelok \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/swebib/sweabbrv.bst:${PORTSDIR}/print/texlive-swebib \

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	srcltx
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Jump between DVI and TeX files.
+COMMENT=	Jump between DVI and TeX files
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

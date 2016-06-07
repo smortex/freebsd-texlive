@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	initials
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Adobe Type 1 decorative initial fonts.
+COMMENT=	Adobe Type 1 decorative initial fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

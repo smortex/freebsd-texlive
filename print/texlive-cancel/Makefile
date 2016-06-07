@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cancel
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Place lines through maths formulae.
+COMMENT=	Place lines through maths formulae
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,13 +1,13 @@
 # $FreeBSD$
 
 PORTNAME=	context-transliterator
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Transliterate text from 'other' alphabets.
+COMMENT=	Transliterate text from 'other' alphabets
 
-RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORTSDIR}/print/texlive-context
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/context/mkii/cont-ab.bst:${PORTSDIR}/print/texlive-context
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

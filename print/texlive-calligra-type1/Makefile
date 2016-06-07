@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	calligra-type1
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Type 1 version of Calligra.
+COMMENT=	Type 1 version of Calligra
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

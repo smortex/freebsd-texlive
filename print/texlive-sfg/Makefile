@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	sfg
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw signal flow graphs.
+COMMENT=	Draw signal flow graphs
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

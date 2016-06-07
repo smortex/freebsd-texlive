@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ebproof
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Formal proofs in the style of sequent calculus.
+COMMENT=	Formal proofs in the style of sequent calculus
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

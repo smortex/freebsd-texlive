@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	psfrag
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Replace strings in encapsulated PostScript figures.
+COMMENT=	Replace strings in encapsulated PostScript figures
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

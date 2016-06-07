@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	spanish-mx
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset Spanish as in Mexico.
+COMMENT=	Typeset Spanish as in Mexico
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

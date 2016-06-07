@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	antt
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Antykwa Torunska: a Type 1 family of a Polish traditional type.
+COMMENT=	Antykwa Torunska: a Type 1 family of a Polish traditional type
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

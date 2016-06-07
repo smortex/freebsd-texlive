@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	graphbox
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extend graphicx to improve placement of graphics.
+COMMENT=	Extend graphicx to improve placement of graphics
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

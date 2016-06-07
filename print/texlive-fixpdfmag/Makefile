@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fixpdfmag
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fix magnification in PDFTeX.
+COMMENT=	Fix magnification in pdfTeX
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	refman
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Format technical reference manuals.
+COMMENT=	Format technical reference manuals
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

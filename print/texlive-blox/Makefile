@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	blox
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw block diagrams, using TikZ.
+COMMENT=	Draw block diagrams, using TikZ
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

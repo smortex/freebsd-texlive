@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	savetrees
-PORTVERSION=	20150413
+PORTVERSION=	20160415
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Optimise the use of each page of a LaTeX document.
+COMMENT=	Optimise the use of each page of a LaTeX document
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cjkpunct
-PORTVERSION=	20150412
+PORTVERSION=	20160515
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Adjust locations and kerning of CJK punctuation marks.
+COMMENT=	Adjust locations and kerning of CJK punctuation marks
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	combine
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bundle individual documents into a single document.
+COMMENT=	Bundle individual documents into a single document
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	roundbox
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Round boxes in LaTeX.
+COMMENT=	Round boxes in LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

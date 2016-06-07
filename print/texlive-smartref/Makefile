@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	smartref
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extend LaTeX's \ref capability.
+COMMENT=	Extend LaTeX's \ref capability
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

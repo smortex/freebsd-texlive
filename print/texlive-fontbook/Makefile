@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fontbook
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generate a font book.
+COMMENT=	Generate a font book
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

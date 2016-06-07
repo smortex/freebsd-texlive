@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	decimal
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX package for the English raised decimal point.
+COMMENT=	LaTeX package for the English raised decimal point
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

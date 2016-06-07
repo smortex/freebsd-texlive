@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	allrunes
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fonts and LaTeX package for almost all runes.
+COMMENT=	Fonts and LaTeX package for almost all runes
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	everyhook
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Hooks for standard TeX token lists.
+COMMENT=	Hooks for standard TeX token lists
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,10 +1,9 @@
 # $FreeBSD$
 
 PORTNAME=	hyphen-norwegian
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
-DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Norwegian Bokmal and Nynorsk hyphenation patterns.

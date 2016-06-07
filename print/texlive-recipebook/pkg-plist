@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/recipebook/LongSample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/recipebook/LongSample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/recipebook/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/recipebook/ShortSample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/recipebook/ShortSample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/recipebook/images/Curried_butternut_squash_soup.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/recipebook/images/Curried_chicken_and_rice.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/recipebook/images/French_dip.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/recipebook/images/Grilled_chicken_with_capers.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/recipebook/images/Hawaiian_burgers.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/recipebook/images/Italian_calzones.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/recipebook/images/Pumpkin_pie_soup.jpg
+share/texmf-dist/tex/latex/recipebook/RecipeBook.cls
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	colortab
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Shade cells of tables and halign.
+COMMENT=	Shade cells of tables and halign
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

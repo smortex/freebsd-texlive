@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	colorwav
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Colours by wavelength of visible light.
+COMMENT=	Colours by wavelength of visible light
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

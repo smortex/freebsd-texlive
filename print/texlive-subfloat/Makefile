@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	subfloat
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Sub-numbering for figures and tables.
+COMMENT=	Sub-numbering for figures and tables
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

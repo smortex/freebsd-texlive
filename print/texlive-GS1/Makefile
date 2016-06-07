@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	GS1
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset EAN barcodes using TeX rules, only.
+COMMENT=	Typeset EAN barcodes using TeX rules, only
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

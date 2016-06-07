@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pdfbook2
-PORTVERSION=	20150615
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create booklets from PDF files.
+COMMENT=	Create booklets from PDF files
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

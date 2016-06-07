@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	rviewport
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Relative Viewport for Graphics Inclusion.
+COMMENT=	Relative Viewport for Graphics Inclusion
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

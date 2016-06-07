@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	uantwerpendocs
-PORTVERSION=	20160214
+PORTVERSION=	20160503
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

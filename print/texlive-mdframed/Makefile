@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mdframed
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Framed environments that can split at page boundaries.
+COMMENT=	Framed environments that can split at page boundaries
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

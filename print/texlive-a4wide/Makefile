@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	a4wide
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	"Wide" a4 layout.
+COMMENT=	"Wide" a4 layout
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

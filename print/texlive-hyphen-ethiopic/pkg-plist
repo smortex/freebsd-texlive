@@ -1,2 +1,9 @@
+%%PORTSRC%%share/texmf-dist/source/generic/hyph-utf8/languages/mul-ethi/generate_patterns_mul-ethi.lua
+share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-mul-ethi.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-mul-ethi.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-mul-ethi.chr.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-mul-ethi.hyp.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-mul-ethi.lic.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-mul-ethi.pat.txt
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -1,9 +1,8 @@
 # $FreeBSD$
 
 PORTNAME=	hyphen-occitan
-PORTVERSION=	20160216
+PORTVERSION=	20160414
 CATEGORIES=	print
-DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Occitan hyphenation patterns.

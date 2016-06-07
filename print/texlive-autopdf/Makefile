@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	autopdf
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Conversion of graphics to pdfLaTeX-compatible formats.
+COMMENT=	Conversion of graphics to pdfLaTeX-compatible formats
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

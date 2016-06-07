@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	noitcrul
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Improved underlines in mathematics.
+COMMENT=	Improved underlines in mathematics
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

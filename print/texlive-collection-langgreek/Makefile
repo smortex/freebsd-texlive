@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langgreek
-PORTVERSION=	20151217
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -38,10 +38,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
+		${LOCALBASE}/share/texmf-dist/tex/generic/tex-ini-files/dvilualatex.ini:${PORTSDIR}/print/texlive-tex-ini-files \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
 		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/updmap/kanjix.map:${PORTSDIR}/print/texlive-updmap-map \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-greek/athnum.sty:${PORTSDIR}/print/texlive-babel-greek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/begingreek/begingreek.sty:${PORTSDIR}/print/texlive-begingreek \
@@ -56,8 +58,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/greekdates/greekdates.sty:${PORTSDIR}/print/texlive-greekdates \
 		${LOCALBASE}/share/texmf-dist/tex/latex/greektex/greektex.sty:${PORTSDIR}/print/texlive-greektex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/greektonoi/greektonoi.sty:${PORTSDIR}/print/texlive-greektonoi \
-		${LOCALBASE}/share/texmf-dist/tex/generic/hyphen/grmhyph5.tex:${PORTSDIR}/print/texlive-hyphen-greek \
-		${LOCALBASE}/share/texmf-dist/tex/generic/hyphen/grahyph5.tex:${PORTSDIR}/print/texlive-hyphen-ancientgreek \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-el-monoton.tex:${PORTSDIR}/print/texlive-hyphen-greek \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-grc.tex:${PORTSDIR}/print/texlive-hyphen-ancientgreek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ibycus-babel/ibycus.ldf:${PORTSDIR}/print/texlive-ibycus-babel \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/ibygrk/fibb84.afm:${PORTSDIR}/print/texlive-ibygrk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kerkis/kerkis.sty:${PORTSDIR}/print/texlive-kerkis \

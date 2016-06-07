@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	euenc
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Unicode font encoding definitions for XeTeX.
+COMMENT=	Unicode font encoding definitions for XeTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

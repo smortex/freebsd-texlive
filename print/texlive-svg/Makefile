@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	svg
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Include and extract SVG pictures using Inkscape.
+COMMENT=	Include and extract SVG pictures using Inkscape
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

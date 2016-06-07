@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	nihbiosketch
-PORTVERSION=	20160123
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The nihbiosketch package
+COMMENT=	A class for NIH biosketches based on the 2015 updated format
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

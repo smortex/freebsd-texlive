@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	erdc
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Style for Reports by US Army Corps of Engineers.
+COMMENT=	Style for Reports by US Army Corps of Engineers
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

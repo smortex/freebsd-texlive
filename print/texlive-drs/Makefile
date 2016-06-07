@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	drs
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset Discourse Representation Structures (DRS).
+COMMENT=	Typeset Discourse Representation Structures (DRS)
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

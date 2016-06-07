@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cooltooltips
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Associate a pop-up window and tooltip with PDF hyperlinks.
+COMMENT=	Associate a pop-up window and tooltip with PDF hyperlinks
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

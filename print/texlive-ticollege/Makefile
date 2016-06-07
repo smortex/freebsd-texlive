@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ticollege
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Graphical representation of keys on a standard scientific calculator.
+COMMENT=	Graphical representation of keys on a standard scientific calculator
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

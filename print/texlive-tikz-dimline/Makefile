@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	tikz-dimline
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Technical dimension lines using PGF/TikZ.
+COMMENT=	Technical dimension lines using PGF/TikZ
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

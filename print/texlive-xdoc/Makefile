@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	xdoc
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extending the LaTeX doc system.
+COMMENT=	Extending the LaTeX doc system
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

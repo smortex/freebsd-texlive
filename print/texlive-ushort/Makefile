@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ushort
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Shorter (and longer) underlines and underbars.
+COMMENT=	Shorter (and longer) underlines and underbars
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

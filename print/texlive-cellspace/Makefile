@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cellspace
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Ensure minimal spacing of table cells.
+COMMENT=	Ensure minimal spacing of table cells
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

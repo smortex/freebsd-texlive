@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	foekfont
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The title font of the Mads Fok magazine.
+COMMENT=	The title font of the Mads Fok magazine
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

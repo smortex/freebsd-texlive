@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	texments
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Using the Pygments highlighter in LaTeX.
+COMMENT=	Using the Pygments highlighter in LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

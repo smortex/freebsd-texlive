@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	multienv
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multiple environments using a "key=value" syntax.
+COMMENT=	Multiple environments using a "key=value" syntax
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

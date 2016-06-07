@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	kastrup
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Convert numbers into binary, octal and hexadecimal.
+COMMENT=	Convert numbers into binary, octal and hexadecimal
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

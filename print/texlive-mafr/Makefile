@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mafr
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Mathematics in accord with French usage.
+COMMENT=	Mathematics in accord with French usage
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

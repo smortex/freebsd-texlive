@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	texcount
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Count words in a LaTeX document.
+COMMENT=	Count words in a LaTeX document
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

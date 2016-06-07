@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	psu-thesis
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Package for writing a thesis at Penn State University.
+COMMENT=	Package for writing a thesis at Penn State University
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

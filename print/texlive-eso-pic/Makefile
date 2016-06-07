@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	eso-pic
-PORTVERSION=	20150723
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Add picture commands (or backgrounds) to every page.
+COMMENT=	Add picture commands (or backgrounds) to every page
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

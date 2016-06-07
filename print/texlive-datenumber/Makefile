@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	datenumber
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Convert a date into a number and vice versa.
+COMMENT=	Convert a date into a number and vice versa
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

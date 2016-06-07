@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	youngtab
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset Young-Tableaux.
+COMMENT=	Typeset Young-Tableaux
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

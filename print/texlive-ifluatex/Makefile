@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ifluatex
-PORTVERSION=	20150412
+PORTVERSION=	20160519
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provides the \ifluatex switch.
+COMMENT=	Provides the \ifluatex switch
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

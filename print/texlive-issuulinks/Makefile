@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	issuulinks
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Produce external links instead of internal ones.
+COMMENT=	Produce external links instead of internal ones
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

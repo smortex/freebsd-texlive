@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	eepic
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extensions to epic and the LaTeX drawing tools.
+COMMENT=	Extensions to epic and the LaTeX drawing tools
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

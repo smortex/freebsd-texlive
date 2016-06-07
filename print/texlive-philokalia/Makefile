@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	philokalia
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A font to typeset the Philokalia Books.
+COMMENT=	A font to typeset the Philokalia Books
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

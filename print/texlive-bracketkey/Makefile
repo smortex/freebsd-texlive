@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bracketkey
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Produce bracketed identification keys.
+COMMENT=	Produce bracketed identification keys
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

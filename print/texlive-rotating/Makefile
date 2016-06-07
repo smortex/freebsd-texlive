@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	rotating
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Rotation tools, including rotated full-page floats.
+COMMENT=	Rotation tools, including rotated full-page floats
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

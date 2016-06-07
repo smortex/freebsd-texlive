@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ksfh_nat
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	BibTeX style for KSFH Munich.
+COMMENT=	BibTeX style for KSFH Munich
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

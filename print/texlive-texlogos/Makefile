@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	texlogos
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Ready-to-use LaTeX logos.
+COMMENT=	Ready-to-use LaTeX logos
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

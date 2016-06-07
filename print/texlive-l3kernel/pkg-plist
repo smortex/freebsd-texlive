@@ -70,6 +70,7 @@ share/texmf-dist/tex/latex/l3kernel/l3doc.cls
 share/texmf-dist/tex/latex/l3kernel/l3docstrip.tex
 share/texmf-dist/tex/latex/l3kernel/l3dvipdfmx.def
 share/texmf-dist/tex/latex/l3kernel/l3dvips.def
+share/texmf-dist/tex/latex/l3kernel/l3dvisvgm.def
 share/texmf-dist/tex/latex/l3kernel/l3expan.sty
 share/texmf-dist/tex/latex/l3kernel/l3file.sty
 share/texmf-dist/tex/latex/l3kernel/l3fp.sty

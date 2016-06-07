@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bxnewfont
-PORTVERSION=	20160403
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The bxnewfont package
+COMMENT=	Enhanced \newfont command
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

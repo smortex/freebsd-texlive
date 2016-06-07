@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	uiucredborder
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class for UIUC thesis red-bordered forms.
+COMMENT=	Class for UIUC thesis red-bordered forms
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

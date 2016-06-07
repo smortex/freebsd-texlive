@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	alnumsec
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Alphanumeric section numbering.
+COMMENT=	Alphanumeric section numbering
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

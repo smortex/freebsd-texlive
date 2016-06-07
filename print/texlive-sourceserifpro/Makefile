@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	sourceserifpro
-PORTVERSION=	20150516
+PORTVERSION=	20160419
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use SourceSerifPro with TeX(-alike) systems.
+COMMENT=	Use SourceSerifPro with TeX(-alike) systems
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

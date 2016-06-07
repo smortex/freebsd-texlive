@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	latexdemo
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Demonstrate LaTeX code with its resulting output.
+COMMENT=	Demonstrate LaTeX code with its resulting output
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

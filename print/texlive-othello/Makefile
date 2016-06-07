@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	othello
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Modification of a Go package to create othello boards.
+COMMENT=	Modification of a Go package to create othello boards
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

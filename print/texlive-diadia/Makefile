@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	diadia
-PORTVERSION=	20150625
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Package to keep a diabetes diary.
+COMMENT=	Package to keep a diabetes diary
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

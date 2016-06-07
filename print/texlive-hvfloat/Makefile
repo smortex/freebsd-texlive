@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	hvfloat
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Rotating caption and object of floats independently.
+COMMENT=	Rotating caption and object of floats independently
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

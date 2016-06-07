@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	luaxml
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Lua library for reading and serialising XML files.
+COMMENT=	Lua library for reading and serialising XML files
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

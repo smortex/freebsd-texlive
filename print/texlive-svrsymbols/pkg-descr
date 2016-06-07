@@ -1,0 +1,4 @@
+The svrsymbols package is a LaTeX interface to theSVRsymbols
+font. The glyphs of this font are ideograms that have been
+designed for use in Physics texts. Some symbols are standard
+and some are entirely new.

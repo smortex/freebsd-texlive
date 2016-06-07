@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	listliketab
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset lists as tables.
+COMMENT=	Typeset lists as tables
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

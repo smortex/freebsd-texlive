@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	thesis-ekf
-PORTVERSION=	20150420
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Thesis class for Eszterhazy Karoly College.
+COMMENT=	Thesis class for Eszterhazy Karoly College
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

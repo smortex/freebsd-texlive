@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	sansmath
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Maths in a sans font.
+COMMENT=	Maths in a sans font
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	exsol
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Exercises and solutions from the same source, into a book.
+COMMENT=	Exercises and solutions from the same source, into a book
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

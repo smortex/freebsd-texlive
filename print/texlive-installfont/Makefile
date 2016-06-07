@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	installfont
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A bash script for installing a LaTeX font family.
+COMMENT=	A bash script for installing a LaTeX font family
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	sourcecodepro
-PORTVERSION=	20150515
+PORTVERSION=	20160419
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use SourceCodePro with TeX(-alike) systems.
+COMMENT=	Use SourceCodePro with TeX(-alike) systems
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	qobitree
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX macros for typesetting trees.
+COMMENT=	LaTeX macros for typesetting trees
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

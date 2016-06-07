@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	storebox
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Storing information for reuse.
+COMMENT=	Storing information for reuse
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

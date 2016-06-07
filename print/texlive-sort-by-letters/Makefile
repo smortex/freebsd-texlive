@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	sort-by-letters
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bibliography styles for alphabetic sorting.
+COMMENT=	Bibliography styles for alphabetic sorting
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

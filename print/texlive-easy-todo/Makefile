@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	easy-todo
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	To-do notes in a document.
+COMMENT=	To-do notes in a document
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

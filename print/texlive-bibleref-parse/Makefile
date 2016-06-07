@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bibleref-parse
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Specify Bible passages in human-readable format.
+COMMENT=	Specify Bible passages in human-readable format
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

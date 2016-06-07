@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	subdepth
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Unify maths subscript height.
+COMMENT=	Unify maths subscript height
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

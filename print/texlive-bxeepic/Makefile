@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bxeepic
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Eepic facilities using pict2e.
+COMMENT=	Eepic facilities using pict2e
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

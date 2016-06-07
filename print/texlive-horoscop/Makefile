@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	horoscop
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generate astrological charts in LaTeX.
+COMMENT=	Generate astrological charts in LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

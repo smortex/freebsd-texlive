@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	simplewick
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Simple Wick contractions.
+COMMENT=	Simple Wick contractions
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pdfcrop
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Crop PDF graphics.
+COMMENT=	Crop PDF graphics
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

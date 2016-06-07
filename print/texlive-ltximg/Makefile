@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ltximg
-PORTVERSION=	20150423
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Split LaTeX files to sanitise a conversion process.
+COMMENT=	Split LaTeX files to sanitise a conversion process
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

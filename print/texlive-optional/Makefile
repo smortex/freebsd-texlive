@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	optional
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Facilitate optional printing of parts of a document.
+COMMENT=	Facilitate optional printing of parts of a document
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

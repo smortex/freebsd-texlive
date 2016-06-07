@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	finbib
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A Finnish version of plain.bst.
+COMMENT=	A Finnish version of plain.bst
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

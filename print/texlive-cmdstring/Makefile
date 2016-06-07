@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cmdstring
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Get command name reliably.
+COMMENT=	Get command name reliably
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

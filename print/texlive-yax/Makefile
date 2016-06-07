@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	yax
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Yet Another Key System.
+COMMENT=	Yet Another Key System
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

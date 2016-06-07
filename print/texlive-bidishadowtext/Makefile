@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bidishadowtext
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bidi-aware shadow text.
+COMMENT=	Bidi-aware shadow text
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

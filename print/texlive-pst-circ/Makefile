@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-circ
-PORTVERSION=	20150416
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	PSTricks package for drawing electric circuits.
+COMMENT=	PSTricks package for drawing electric circuits
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	shadowtext
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	shadowtext
+COMMENT=	Produce text with a shadow behind it
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

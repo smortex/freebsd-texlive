@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	latex-git-log
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset git log information.
+COMMENT=	Typeset git log information
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	scalebar
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create scalebars for maps, diagrams or photos.
+COMMENT=	Create scalebars for maps, diagrams or photos
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

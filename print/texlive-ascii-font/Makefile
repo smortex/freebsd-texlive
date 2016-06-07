@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ascii-font
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use the ASCII "font" in LaTeX.
+COMMENT=	Use the ASCII "font" in LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

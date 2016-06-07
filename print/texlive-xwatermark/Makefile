@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	xwatermark
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Graphics and text watermarks on selected pages.
+COMMENT=	Graphics and text watermarks on selected pages
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

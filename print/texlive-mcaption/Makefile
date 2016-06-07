@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mcaption
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Put captions in the margin.
+COMMENT=	Put captions in the margin
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

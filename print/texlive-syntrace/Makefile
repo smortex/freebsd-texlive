@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	syntrace
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Labels for tracing in a syntax tree.
+COMMENT=	Labels for tracing in a syntax tree
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

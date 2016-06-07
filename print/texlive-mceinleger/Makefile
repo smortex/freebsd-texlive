@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mceinleger
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Creating covers for music cassettes.
+COMMENT=	Creating covers for music cassettes
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

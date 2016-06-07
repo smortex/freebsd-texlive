@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	fancyslides
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Custom presentation class built upon LaTeX Beamer.
+COMMENT=	Custom presentation class built upon LaTeX Beamer
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

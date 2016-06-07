@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	stdclsdv
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provide sectioning information for package writers.
+COMMENT=	Provide sectioning information for package writers
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	savesym
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Redefine symbols where names conflict.
+COMMENT=	Redefine symbols where names conflict
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

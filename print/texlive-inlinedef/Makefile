@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	inlinedef
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Inline expansions within definitions.
+COMMENT=	Inline expansions within definitions
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	vdmlisting
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesetting VDM in ASCII syntax.
+COMMENT=	Typesetting VDM in ASCII syntax
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

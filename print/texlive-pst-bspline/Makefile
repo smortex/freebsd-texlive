@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-bspline
-PORTVERSION=	20150413
+PORTVERSION=	20160423
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw cubic Bspline curves and interpolations.
+COMMENT=	Draw cubic Bspline curves and interpolations
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

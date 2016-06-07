@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-subseries
-PORTVERSION=	20150515
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Manages subseries with biblatex
+COMMENT=	Manages subseries with BibLaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

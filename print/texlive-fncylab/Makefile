@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fncylab
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Alter the format of \label references.
+COMMENT=	Alter the format of \label references
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

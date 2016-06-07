@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	download
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Allow LaTeX to download files using an external process.
+COMMENT=	Allow LaTeX to download files using an external process
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

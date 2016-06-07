@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	stack
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Tools to define and use stacks.
+COMMENT=	Tools to define and use stacks
 
 OPTIONS_DEFINE=	SRCS
 OPTIONS_EXCLUDE=	DOCS

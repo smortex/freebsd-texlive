@@ -1,0 +1,8 @@
+The purpose of this package is to draw the spectra of elements
+in a simple way. It is based on the package pst-spectra,
+supporting the same options, but also adding some new options.
+It relies on PGF/TikZ for drawing the desired spectrum,
+continuous or discrete. As in pst-spectra, there are data
+available for the spectra of 99 elements and their ions (from
+the NASA database). It also allows the user to draw spectra
+using their own data.

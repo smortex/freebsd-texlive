@@ -1,0 +1,32 @@
+share/texmf-dist/bibtex/bst/langsci/langsci-unified.bst
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/langsci/README.md
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/langsci/documentation/langsci-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/langsci/eotms-info.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/langsci/examples/samplemonograph.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/langsci/examples/samplepaper.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/langsci/examples/samplevolume.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/langsci/localbibliography.bib
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/langsci/main.tex
+share/texmf-dist/tex/xelatex/langsci/biblatex-langsci-unified.bbx
+share/texmf-dist/tex/xelatex/langsci/langsci-advertisement.tex
+share/texmf-dist/tex/xelatex/langsci/langsci-authoryear-comp.cbx
+share/texmf-dist/tex/xelatex/langsci/langsci-basic.sty
+share/texmf-dist/tex/xelatex/langsci/langsci-bidi.sty
+share/texmf-dist/tex/xelatex/langsci/langsci-cgloss.sty
+share/texmf-dist/tex/xelatex/langsci/langsci-colors.def
+share/texmf-dist/tex/xelatex/langsci/langsci-doc.pdf
+share/texmf-dist/tex/xelatex/langsci/langsci-forest-setup.sty
+share/texmf-dist/tex/xelatex/langsci/langsci-gb4e.sty
+share/texmf-dist/tex/xelatex/langsci/langsci-optional.sty
+share/texmf-dist/tex/xelatex/langsci/langsci-series.def
+share/texmf-dist/tex/xelatex/langsci/langsci-tbls.sty
+share/texmf-dist/tex/xelatex/langsci/langsci_logo_nocolor.pdf
+share/texmf-dist/tex/xelatex/langsci/langsci_spinelogo_nocolor.pdf
+share/texmf-dist/tex/xelatex/langsci/langscibook-logo.pdf
+share/texmf-dist/tex/xelatex/langsci/langscibook.cls
+share/texmf-dist/tex/xelatex/langsci/tbls-book.eps
+share/texmf-dist/tex/xelatex/langsci/tbls-bulb.eps
+share/texmf-dist/tex/xelatex/langsci/tbls-glass.eps
+share/texmf-dist/tex/xelatex/langsci/tbls-law.eps
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

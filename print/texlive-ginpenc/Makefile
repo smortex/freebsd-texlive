@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ginpenc
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Modification of inputenc for German.
+COMMENT=	Modification of inputenc for German
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

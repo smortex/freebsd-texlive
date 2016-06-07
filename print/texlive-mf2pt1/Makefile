@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mf2pt1
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Produce PostScript Type 1 fonts from Metafont source.
+COMMENT=	Produce PostScript Type 1 fonts from Metafont source
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

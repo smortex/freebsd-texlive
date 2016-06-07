@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	dot2texi
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create graphs within LaTeX using the dot2tex tool.
+COMMENT=	Create graphs within LaTeX using the dot2tex tool
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

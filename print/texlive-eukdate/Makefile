@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	eukdate
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	UK format dates, with weekday.
+COMMENT=	UK format dates, with weekday
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

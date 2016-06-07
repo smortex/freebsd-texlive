@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mnsymbol
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Mathematical symbol font for Adobe MinionPro.
+COMMENT=	Mathematical symbol font for Adobe MinionPro
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

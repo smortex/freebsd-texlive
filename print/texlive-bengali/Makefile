@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bengali
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for the Bengali language.
+COMMENT=	Support for the Bengali language
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

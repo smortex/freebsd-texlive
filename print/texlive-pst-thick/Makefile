@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-thick
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Drawing very thick lines and curves.
+COMMENT=	Drawing very thick lines and curves
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

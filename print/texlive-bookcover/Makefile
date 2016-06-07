@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bookcover
-PORTVERSION=	20150412
+PORTVERSION=	20160503
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A class for book covers and dust jackets.
+COMMENT=	A class for book covers and dust jackets
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

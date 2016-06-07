@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	epsf-dvipdfmx
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Plain TeX file for using epsf.tex with (x)dvipdfmx.
+COMMENT=	Plain TeX file for using epsf.tex with (x)dvipdfmx
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

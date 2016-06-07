@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	geometry
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Flexible and complete interface to document dimensions.
+COMMENT=	Flexible and complete interface to document dimensions
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

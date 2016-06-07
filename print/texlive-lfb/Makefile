@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	lfb
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A Greek font with normal and bold variants.
+COMMENT=	A Greek font with normal and bold variants
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

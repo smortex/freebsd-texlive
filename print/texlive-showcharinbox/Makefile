@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	showcharinbox
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Show characters inside a box.
+COMMENT=	Show characters inside a box
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

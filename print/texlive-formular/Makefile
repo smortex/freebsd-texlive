@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	formular
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create forms containing field for manual entry.
+COMMENT=	Create forms containing field for manual entry
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

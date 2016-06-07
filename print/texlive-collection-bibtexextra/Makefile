@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20151230
+PORTVERSION=	20160515
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -37,10 +37,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
+		${LOCALBASE}/share/texmf-dist/tex/generic/tex-ini-files/dvilualatex.ini:${PORTSDIR}/print/texlive-tex-ini-files \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
 		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/updmap/kanjix.map:${PORTSDIR}/print/texlive-updmap-map \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print/texlive-ae \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/amscls/amsalpha.bst:${PORTSDIR}/print/texlive-amscls \
@@ -50,14 +52,16 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/babelbib/babelbib.sty:${PORTSDIR}/print/texlive-babelbib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/carlisle/dotlessj.sty:${PORTSDIR}/print/texlive-carlisle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/colortbl/colortbl.sty:${PORTSDIR}/print/texlive-colortbl \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dvisvgm-def/dvisvgm.def:${PORTSDIR}/print/texlive-dvisvgm-def \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty:${PORTSDIR}/print/texlive-fancyhdr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fix2col/fix2col.sty:${PORTSDIR}/print/texlive-fix2col \
 		${LOCALBASE}/share/texmf-dist/tex/latex/geometry/geometry.sty:${PORTSDIR}/print/texlive-geometry \
 		${LOCALBASE}/share/texmf-dist/tex/latex/graphics/graphics.sty:${PORTSDIR}/print/texlive-graphics \
+		${LOCALBASE}/share/texmf-dist/tex/latex/graphics-cfg/color.cfg:${PORTSDIR}/print/texlive-graphics-cfg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hyperref/hyperref.sty:${PORTSDIR}/print/texlive-hyperref \
 		${LOCALBASE}/share/texmf-dist/makeindex/latex/gglo.ist:${PORTSDIR}/print/texlive-latex \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/latex-fonts/circle.mf:${PORTSDIR}/print/texlive-latex-fonts \
-		${LOCALBASE}/share/texmf-dist/tex/latex/latexconfig/color.cfg:${PORTSDIR}/print/texlive-latexconfig \
+		${LOCALBASE}/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg:${PORTSDIR}/print/texlive-latexconfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltxmisc/abstbook.cls:${PORTSDIR}/print/texlive-ltxmisc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mfnfss/oldgerm.sty:${PORTSDIR}/print/texlive-mfnfss \
 		${LOCALBASE}/share/texmf-dist/tex/generic/context/mptopdf/mptopdf.tex:${PORTSDIR}/print/texlive-mptopdf \
@@ -74,7 +78,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsrefs/amsrefs.sty:${PORTSDIR}/print/texlive-amsrefs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/apacite/apacite.sty:${PORTSDIR}/print/texlive-apacite \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/apalike2/apalike2.bst:${PORTSDIR}/print/texlive-apalike2 \
-		${LOCALBASE}/share/texmf-dist/tex/latex/archaeologie/archaeologie-english.lbx:${PORTSDIR}/print/texlive-archaeologie \
+		${LOCALBASE}/share/texmf-dist/bibtex/bib/archaeologie/archaeologie-abbrv.bib:${PORTSDIR}/print/texlive-archaeologie \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/beebe/gut.bib:${PORTSDIR}/print/texlive-beebe \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/besjournals/besjournals.bst:${PORTSDIR}/print/texlive-besjournals \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/bestpapers/bestpapers-export.bst:${PORTSDIR}/print/texlive-bestpapers \
@@ -82,9 +86,11 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/bibexport/expcites.bst:${PORTSDIR}/print/texlive-bibexport \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/bibhtml/abbrvhtml.bst:${PORTSDIR}/print/texlive-bibhtml \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex/biblatex.sty:${PORTSDIR}/print/texlive-biblatex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-abnt/abnt-brazilian.lbx:${PORTSDIR}/print/texlive-biblatex-abnt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-anonymous/biblatex-anonymous.sty:${PORTSDIR}/print/texlive-biblatex-anonymous \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx:${PORTSDIR}/print/texlive-biblatex-apa \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-bookinarticle/biblatex-bookinarticle.sty:${PORTSDIR}/print/texlive-biblatex-bookinarticle \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-bookinother/bookinother.bbx:${PORTSDIR}/print/texlive-biblatex-bookinother \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-bwl/bwl-FU.bbx:${PORTSDIR}/print/texlive-biblatex-bwl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-caspervector/biblatex-caspervector-gbk.def:${PORTSDIR}/print/texlive-biblatex-caspervector \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-chem/chem-acs.bbx:${PORTSDIR}/print/texlive-biblatex-chem \
@@ -94,10 +100,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-gost/biblatex-gost.dbx:${PORTSDIR}/print/texlive-biblatex-gost \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-historian/historian.bbx:${PORTSDIR}/print/texlive-biblatex-historian \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-ieee/ieee-alphabetic.bbx:${PORTSDIR}/print/texlive-biblatex-ieee \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-iso690/czech-iso.lbx:${PORTSDIR}/print/texlive-biblatex-iso690 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-juradiss/biblatex-juradiss.bbx:${PORTSDIR}/print/texlive-biblatex-juradiss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-luh-ipw/bbx/authoryear-luh-ipw.bbx:${PORTSDIR}/print/texlive-biblatex-luh-ipw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-manuscripts-philology/english-manuscripts.lbx:${PORTSDIR}/print/texlive-biblatex-manuscripts-philology \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-mla/american-mla.lbx:${PORTSDIR}/print/texlive-biblatex-mla \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-morenames/morenames.bbx:${PORTSDIR}/print/texlive-biblatex-morenames \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-multiple-dm/biblatex-multiple-dm.sty:${PORTSDIR}/print/texlive-biblatex-multiple-dm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-musuos/german-musuos.lbx:${PORTSDIR}/print/texlive-biblatex-musuos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-nature/nature.bbx:${PORTSDIR}/print/texlive-biblatex-nature \

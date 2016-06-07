@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	rotfloat
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Rotate floats.
+COMMENT=	Rotate floats
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	onrannual
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class for Office of Naval Research Ocean Battlespace Sensing annual report.
+COMMENT=	Class for Office of Naval Research Ocean Battlespace Sensing annual report
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

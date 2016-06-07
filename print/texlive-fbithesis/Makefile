@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fbithesis
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Computer Science thesis class for University of Dortmund.
+COMMENT=	Computer Science thesis class for University of Dortmund
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

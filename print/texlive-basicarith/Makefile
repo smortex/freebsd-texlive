@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	basicarith
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros for typesetting basic arithmetic.
+COMMENT=	Macros for typesetting basic arithmetic
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

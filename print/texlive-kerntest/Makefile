@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	kerntest
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Print tables and generate control files to adjust kernings.
+COMMENT=	Print tables and generate control files to adjust kernings
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

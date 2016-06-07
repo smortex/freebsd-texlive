@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-abspos
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Put objects at an absolute position.
+COMMENT=	Put objects at an absolute position
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

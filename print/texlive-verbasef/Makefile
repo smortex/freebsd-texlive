@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	verbasef
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	VERBatim Automatic Splitting of External Files.
+COMMENT=	VERBatim Automatic Splitting of External Files
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

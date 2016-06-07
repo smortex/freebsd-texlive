@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	interval
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Format mathematical intervals, ensuring proper spacing.
+COMMENT=	Format mathematical intervals, ensuring proper spacing
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

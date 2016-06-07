@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	powerdot-FUBerlin
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Powerdot, using the style of FU Berlin.
+COMMENT=	Powerdot, using the style of FU Berlin
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

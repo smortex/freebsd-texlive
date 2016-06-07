@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	logicproof
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Box proofs for propositional and predicate logic.
+COMMENT=	Box proofs for propositional and predicate logic
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

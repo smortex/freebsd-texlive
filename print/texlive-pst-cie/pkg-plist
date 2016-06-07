@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-cie/Changes
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-cie/README.md
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-cie/pst-cie-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-cie/pst-cie-doc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-cie/pst-cie-doc.tex
+share/texmf-dist/dvips/pst-cie/pst-cie-data.pro
+share/texmf-dist/dvips/pst-cie/pst-cie.pro
+share/texmf-dist/tex/generic/pst-cie/pst-cie.tex
+share/texmf-dist/tex/latex/pst-cie/pst-cie.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

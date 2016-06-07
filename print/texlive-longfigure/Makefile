@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	longfigure
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provides a figure-like environment that break over pages.
+COMMENT=	Provides a figure-like environment that break over pages
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

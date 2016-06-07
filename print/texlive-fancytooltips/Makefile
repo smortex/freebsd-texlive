@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	fancytooltips
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Include a wide range of material in PDF tooltips.
+COMMENT=	Include a wide range of material in PDF tooltips
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

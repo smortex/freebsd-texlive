@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	texapi
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros to write format-independent packages.
+COMMENT=	Macros to write format-independent packages
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

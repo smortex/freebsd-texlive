@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	blindtext
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Producing 'blind' text for testing.
+COMMENT=	Producing 'blind' text for testing
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

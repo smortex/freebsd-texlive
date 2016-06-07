@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	fandol
-PORTVERSION=	20150719
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Four basic fonts for Chinese typesetting.
+COMMENT=	Four basic fonts for Chinese typesetting
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

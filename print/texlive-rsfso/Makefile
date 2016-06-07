@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	rsfso
-PORTVERSION=	20150727
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A mathematical calligraphic font based on rsfs.
+COMMENT=	A mathematical calligraphic font based on rsfs
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

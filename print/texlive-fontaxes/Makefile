@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fontaxes
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Additional font axes for LaTeX.
+COMMENT=	Additional font axes for LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	dk-bib
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Danish variants of standard BibTeX styles.
+COMMENT=	Danish variants of standard BibTeX styles
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

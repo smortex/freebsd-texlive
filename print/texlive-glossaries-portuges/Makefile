@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	glossaries-portuges
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Portuges language module for glossaries package.
+COMMENT=	Portuges language module for glossaries package
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

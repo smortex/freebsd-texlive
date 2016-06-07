@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	uml
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	UML diagrams in LaTeX.
+COMMENT=	UML diagrams in LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

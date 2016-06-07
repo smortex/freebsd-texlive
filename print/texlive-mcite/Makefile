@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mcite
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multiple items in a single citation.
+COMMENT=	Multiple items in a single citation
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	steinmetz
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Print Steinmetz notation.
+COMMENT=	Print Steinmetz notation
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

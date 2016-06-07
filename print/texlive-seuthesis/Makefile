@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	seuthesis
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX template for theses at Southeastern University.
+COMMENT=	LaTeX template for theses at Southeastern University
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

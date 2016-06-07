@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fmp
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Include Functional MetaPost in LaTeX.
+COMMENT=	Include Functional MetaPost in LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

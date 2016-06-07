@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	multibib
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multiple bibliographies within one document.
+COMMENT=	Multiple bibliographies within one document
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	philosophersimprint
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesetting articles for "Philosophers' Imprint".
+COMMENT=	Typesetting articles for "Philosophers' Imprint"
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

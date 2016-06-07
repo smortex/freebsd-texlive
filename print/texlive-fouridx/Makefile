@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fouridx
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Left sub- and superscripts in maths mode.
+COMMENT=	Left sub- and superscripts in maths mode
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

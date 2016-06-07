@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	brandeis-dissertation
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class for Brandeis University dissertations.
+COMMENT=	Class for Brandeis University dissertations
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

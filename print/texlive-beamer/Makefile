@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	beamer
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A LaTeX class for producing presentations and slides.
+COMMENT=	A LaTeX class for producing presentations and slides
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty:${PORTSDIR}/print/texlive-pgf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xcolor/xcolor.sty:${PORTSDIR}/print/texlive-xcolor

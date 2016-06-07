@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	spelling
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for spell-checking of LuaTeX documents.
+COMMENT=	Support for spell-checking of LuaTeX documents
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

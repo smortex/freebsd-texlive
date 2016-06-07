@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-pulley
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Plot pulleys, using pstricks.
+COMMENT=	Plot pulleys, using PSTricks
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

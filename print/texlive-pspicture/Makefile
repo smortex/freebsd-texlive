@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pspicture
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	PostScript picture support.
+COMMENT=	PostScript picture support
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

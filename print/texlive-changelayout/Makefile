@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	changelayout
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Change the layout of individual pages and their text.
+COMMENT=	Change the layout of individual pages and their text
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

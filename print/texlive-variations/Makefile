@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	variations
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset tables of variations of functions.
+COMMENT=	Typeset tables of variations of functions
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

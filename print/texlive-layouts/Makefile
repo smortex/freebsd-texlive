@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	layouts
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Display various elements of a document's layout.
+COMMENT=	Display various elements of a document's layout
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

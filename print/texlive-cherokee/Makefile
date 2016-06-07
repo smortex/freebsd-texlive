@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cherokee
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A font for the Cherokee script.
+COMMENT=	A font for the Cherokee script
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

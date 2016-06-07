@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	cmpj
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Style for the journal Condensed Matter Physics.
+COMMENT=	Style for the journal Condensed Matter Physics
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

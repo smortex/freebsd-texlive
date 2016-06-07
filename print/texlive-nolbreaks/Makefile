@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	nolbreaks
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	No line breaks in text.
+COMMENT=	No line breaks in text
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

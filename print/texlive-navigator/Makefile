@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	navigator
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	PDF features across formats and engines.
+COMMENT=	PDF features across formats and engines
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

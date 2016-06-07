@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	addlines
-PORTVERSION=	20150709
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A user-friendly wrapper around \enlargethispage.
+COMMENT=	A user-friendly wrapper around \enlargethispage
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

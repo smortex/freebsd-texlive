@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	detex
-PORTVERSION=	20150428
+PORTVERSION=	20160427
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Strip TeX from a source file.
+COMMENT=	Strip TeX from a source file
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

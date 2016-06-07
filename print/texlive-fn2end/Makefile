@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fn2end
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Convert footnotes to endnotes.
+COMMENT=	Convert footnotes to endnotes
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

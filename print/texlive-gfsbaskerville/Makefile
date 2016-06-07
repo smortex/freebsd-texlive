@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	gfsbaskerville
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A Greek font, from one such by Baskerville.
+COMMENT=	A Greek font, from one such by Baskerville
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

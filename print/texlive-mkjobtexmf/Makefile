@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mkjobtexmf
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generate a texmf tree for a particular job.
+COMMENT=	Generate a texmf tree for a particular job
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

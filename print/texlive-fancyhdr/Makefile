@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fancyhdr
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extensive control of page headers and footers in LaTeX2e.
+COMMENT=	Extensive control of page headers and footers in LaTeX2e
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

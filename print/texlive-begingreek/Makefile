@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	begingreek
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Greek environment to be used with pdflatex only
+COMMENT=	Greek environment to be used with pdfLaTeX only
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

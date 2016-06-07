@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cjhebrew
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset Hebrew with LaTeX.
+COMMENT=	Typeset Hebrew with LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

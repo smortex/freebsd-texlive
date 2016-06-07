@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	zwgetfdate
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Get package or file date.
+COMMENT=	Get package or file date
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

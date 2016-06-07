@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bbold-type1
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	An Adobe Type 1 format version of the bbold font.
+COMMENT=	An Adobe Type 1 format version of the bbold font
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

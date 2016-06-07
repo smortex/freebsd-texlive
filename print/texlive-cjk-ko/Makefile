@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	cjk-ko
-PORTVERSION=	20150720
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extension of the CJK package for Korean typesetting.
+COMMENT=	Extension of the CJK package for Korean typesetting
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

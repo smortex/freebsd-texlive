@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	splines
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	MetaPost macros for drawing cubic spline interpolants.
+COMMENT=	MetaPost macros for drawing cubic spline interpolants
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

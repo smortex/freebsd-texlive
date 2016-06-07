@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bez123
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for Bezier curves.
+COMMENT=	Support for Bezier curves
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

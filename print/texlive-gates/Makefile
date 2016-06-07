@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	gates
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for writing modular and customisable code.
+COMMENT=	Support for writing modular and customisable code
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

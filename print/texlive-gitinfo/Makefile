@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	gitinfo
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Access metadata from the git distributed version control system.
+COMMENT=	Access metadata from the git distributed version control system
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

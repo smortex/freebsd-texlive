@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tabularborder
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Remove excess space at left and right of tabular.
+COMMENT=	Remove excess space at left and right of tabular
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cascadilla
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset papers conforming to the stylesheet of the Cascadilla Proceedings Project.
+COMMENT=	Typeset papers conforming to the stylesheet of the Cascadilla Proceedings Project
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

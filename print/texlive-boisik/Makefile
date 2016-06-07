@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	boisik
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A font inspired by Baskerville design.
+COMMENT=	A font inspired by Baskerville design
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

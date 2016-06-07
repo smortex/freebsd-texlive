@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	getmap
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Download OpenStreetMap maps for use in documents.
+COMMENT=	Download OpenStreetMap maps for use in documents
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

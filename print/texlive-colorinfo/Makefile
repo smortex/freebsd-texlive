@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	colorinfo
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Retrieve colour model and values for defined colours.
+COMMENT=	Retrieve colour model and values for defined colours
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

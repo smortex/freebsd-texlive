@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	eemeir
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Adjust the gender of words in a document.
+COMMENT=	Adjust the gender of words in a document
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

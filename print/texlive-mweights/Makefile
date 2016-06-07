@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mweights
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for multiple-weight font packages.
+COMMENT=	Support for multiple-weight font packages
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

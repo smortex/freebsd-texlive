@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	carlisle
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	David Carlisle's small packages.
+COMMENT=	David Carlisle's small packages
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

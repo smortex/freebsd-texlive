@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	seqsplit
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Split long sequences of characters in a neutral way.
+COMMENT=	Split long sequences of characters in a neutral way
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

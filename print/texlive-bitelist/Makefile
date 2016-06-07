@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bitelist
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Split list, in TeX's mouth.
+COMMENT=	Split list, in TeX's mouth
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	askmaps
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset American style Karnaugh maps.
+COMMENT=	Typeset American style Karnaugh maps
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

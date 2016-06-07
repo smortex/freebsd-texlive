@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	refenums
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Define reference labels items with names of their own.
+COMMENT=	Define reference labels items with names of their own
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

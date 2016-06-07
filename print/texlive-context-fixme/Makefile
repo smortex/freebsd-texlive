@@ -1,14 +1,14 @@
 # $FreeBSD$
 
 PORTNAME=	context-fixme
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Make editorial marks on a document.
+COMMENT=	Make editorial marks on a document
 
-RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORTSDIR}/print/texlive-context
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/context/mkii/cont-ab.bst:${PORTSDIR}/print/texlive-context
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

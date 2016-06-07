@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	sf298
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Standard form 298.
+COMMENT=	Standard form 298
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

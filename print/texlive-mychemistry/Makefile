@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mychemistry
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create reaction schemes with LaTeX and ChemFig.
+COMMENT=	Create reaction schemes with LaTeX and ChemFig
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

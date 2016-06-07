@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	augie
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Calligraphic font for typesetting handwriting.
+COMMENT=	Calligraphic font for typesetting handwriting
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

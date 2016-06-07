@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pygmentex
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use Pygments to format code listings in documents.
+COMMENT=	Use Pygments to format code listings in documents
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

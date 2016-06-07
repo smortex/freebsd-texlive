@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	hepunits
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A set of units useful in high energy physics applications.
+COMMENT=	A set of units useful in high energy physics applications
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

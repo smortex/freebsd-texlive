@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	efbox
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extension of \fbox, with controllable frames and colours.
+COMMENT=	Extension of \fbox, with controllable frames and colours
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

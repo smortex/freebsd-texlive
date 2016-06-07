@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	storecmd
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Store the name of a defined command in a container.
+COMMENT=	Store the name of a defined command in a container
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

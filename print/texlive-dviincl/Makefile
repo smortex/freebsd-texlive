@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	dviincl
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Include a DVI page into MetaPost output.
+COMMENT=	Include a DVI page into MetaPost output
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

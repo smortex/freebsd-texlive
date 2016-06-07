@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bardiag
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LateX package for drawing bar diagrams.
+COMMENT=	LaTeX package for drawing bar diagrams
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

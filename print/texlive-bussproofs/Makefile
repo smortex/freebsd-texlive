@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bussproofs
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Proof trees in the style of the sequent calculus.
+COMMENT=	Proof trees in the style of the sequent calculus
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	vpe
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Source specials for PDF output.
+COMMENT=	Source specials for PDF output
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

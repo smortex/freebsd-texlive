@@ -1,0 +1,26 @@
+%%PORTDOCS%%share/texmf-dist/doc/ptex/pbibtex/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/ptex/pbibtex/README.md
+%%PORTDOCS%%share/texmf-dist/doc/ptex/pbibtex/README_original
+%%PORTDOCS%%share/texmf-dist/doc/ptex/pbibtex/cpp.awk
+%%PORTDOCS%%share/texmf-dist/doc/ptex/pbibtex/generate.sh
+%%PORTDOCS%%share/texmf-dist/doc/ptex/pbibtex/jbibtex.bib
+%%PORTDOCS%%share/texmf-dist/doc/ptex/pbibtex/jbibtex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/ptex/pbibtex/jbibtex.tex
+%%PORTDOCS%%share/texmf-dist/doc/ptex/pbibtex/jbtxbst.doc
+%%PORTDOCS%%share/texmf-dist/doc/ptex/pbibtex/jbtxdoc.bib
+%%PORTDOCS%%share/texmf-dist/doc/ptex/pbibtex/jbtxdoc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/ptex/pbibtex/jbtxdoc.tex
+%%PORTDOCS%%share/texmf-dist/doc/ptex/pbibtex/jbtxhak.pdf
+%%PORTDOCS%%share/texmf-dist/doc/ptex/pbibtex/jbtxhak.tex
+share/texmf-dist/pbibtex/bib/jxampl.bib
+share/texmf-dist/pbibtex/bst/jabbrv.bst
+share/texmf-dist/pbibtex/bst/jalpha.bst
+share/texmf-dist/pbibtex/bst/jipsj.bst
+share/texmf-dist/pbibtex/bst/jname.bst
+share/texmf-dist/pbibtex/bst/jorsj.bst
+share/texmf-dist/pbibtex/bst/jplain.bst
+share/texmf-dist/pbibtex/bst/junsrt.bst
+share/texmf-dist/pbibtex/bst/tieice.bst
+share/texmf-dist/pbibtex/bst/tipsj.bst
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

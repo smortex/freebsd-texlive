@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	nextpage
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generalisations of the page advance commands.
+COMMENT=	Generalisations of the page advance commands
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

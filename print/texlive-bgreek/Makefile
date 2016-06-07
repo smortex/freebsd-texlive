@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bgreek
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Using Beccari's fonts in betacode for classical Greek.
+COMMENT=	Using Beccari's fonts in betacode for classical Greek
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

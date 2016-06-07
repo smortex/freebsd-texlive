@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	threeparttable
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Tables with captions and notes all the same width.
+COMMENT=	Tables with captions and notes all the same width
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

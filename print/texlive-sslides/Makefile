@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	sslides
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Slides with headers and footers.
+COMMENT=	Slides with headers and footers
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

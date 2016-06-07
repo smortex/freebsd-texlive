@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	quoting
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Consolidated environment for displayed text.
+COMMENT=	Consolidated environment for displayed text
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

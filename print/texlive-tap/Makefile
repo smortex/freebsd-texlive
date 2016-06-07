@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tap
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	TeX macros for typesetting complex tables.
+COMMENT=	TeX macros for typesetting complex tables
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bibunits
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multiple bibliographies in one document.
+COMMENT=	Multiple bibliographies in one document
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

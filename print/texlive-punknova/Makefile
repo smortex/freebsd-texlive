@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	punknova
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	OpenType version of Knuth's Punk font.
+COMMENT=	OpenType version of Knuth's Punk font
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

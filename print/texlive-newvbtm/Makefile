@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	newvbtm
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Define your own verbatim-like environment.
+COMMENT=	Define your own verbatim-like environment
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

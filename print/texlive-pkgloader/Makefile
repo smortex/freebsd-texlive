@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pkgloader
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Managing the options and loading order of other packages.
+COMMENT=	Managing the options and loading order of other packages
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

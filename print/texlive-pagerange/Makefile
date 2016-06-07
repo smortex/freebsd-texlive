@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pagerange
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Flexible and configurable page range typesetting.
+COMMENT=	Flexible and configurable page range typesetting
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

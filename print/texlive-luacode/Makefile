@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	luacode
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Helper for executing lua code from within TeX.
+COMMENT=	Helper for executing lua code from within TeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

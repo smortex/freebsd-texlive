@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mkpattern
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A utility for making hyphenation patterns.
+COMMENT=	A utility for making hyphenation patterns
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

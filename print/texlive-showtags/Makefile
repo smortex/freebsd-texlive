@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	showtags
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Print the tags of bibliography entries.
+COMMENT=	Print the tags of bibliography entries
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

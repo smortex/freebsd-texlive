@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	modref
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Customisation of cross-references in LaTeX.
+COMMENT=	Customisation of cross-references in LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

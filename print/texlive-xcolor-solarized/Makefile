@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	xcolor-solarized
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bgteubner
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class for producing books for the publisher "Teubner Verlag".
+COMMENT=	Class for producing books for the publisher "Teubner Verlag"
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

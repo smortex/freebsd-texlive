@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	chembst
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A collection of BibTeX files for chemistry journals.
+COMMENT=	A collection of BibTeX files for chemistry journals
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

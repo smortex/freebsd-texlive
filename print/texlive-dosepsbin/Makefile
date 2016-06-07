@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	dosepsbin
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Deal with DOS binary EPS files.
+COMMENT=	Deal with DOS binary EPS files
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	umoline
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Underline text allowing line breaking.
+COMMENT=	Underline text allowing line breaking
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,13 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	hyphen-latin
-PORTVERSION=	20150412
+PORTVERSION=	20160517
 PORTEPOCH=	1
 CATEGORIES=	print
-DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Latin and classical Latin hyphenation patterns.
+COMMENT=	Liturgical Latin hyphenation patterns.
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/config/language.dat:${PORTSDIR}/print/texlive-hyphen-base \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/conversions/conv-utf8-ec.tex:${PORTSDIR}/print/texlive-hyph-utf8

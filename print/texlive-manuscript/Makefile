@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	manuscript
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Emulate look of a document typed on a typewriter.
+COMMENT=	Emulate look of a document typed on a typewriter
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

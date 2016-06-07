@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	beamersubframe
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Reorder frames in the PDF file.
+COMMENT=	Reorder frames in the PDF file
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

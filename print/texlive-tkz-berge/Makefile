@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tkz-berge
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros for drawing graphs of graph theory.
+COMMENT=	Macros for drawing graphs of graph theory
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

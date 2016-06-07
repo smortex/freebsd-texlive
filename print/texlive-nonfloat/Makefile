@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	nonfloat
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Non-floating table and figure captions.
+COMMENT=	Non-floating table and figure captions
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

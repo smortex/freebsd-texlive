@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pst-math
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Enhancement of PostScript math operators to use with pstricks
+COMMENT=	Enhancement of PostScript math operators to use with PSTricks
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

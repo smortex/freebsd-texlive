@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	logbox
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	e-TeX showbox facilities for exploration purposes.
+COMMENT=	e-TeX showbox facilities for exploration purposes
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

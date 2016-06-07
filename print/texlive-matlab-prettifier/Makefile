@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	matlab-prettifier
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Pretty-print Matlab source code.
+COMMENT=	Pretty-print Matlab source code
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

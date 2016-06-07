@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pst-fit
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros for curve fitting.
+COMMENT=	Macros for curve fitting
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pdf-trans
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A set of macros for various transformations of TeX boxes.
+COMMENT=	A set of macros for various transformations of TeX boxes
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

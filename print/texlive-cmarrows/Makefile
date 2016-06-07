@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cmarrows
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	MetaPost arrows and braces in the Computer Modern style.
+COMMENT=	MetaPost arrows and braces in the Computer Modern style
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

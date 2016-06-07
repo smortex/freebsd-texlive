@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	chngcntr
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Change the resetting of counters.
+COMMENT=	Change the resetting of counters
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

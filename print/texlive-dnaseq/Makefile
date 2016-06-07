@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	dnaseq
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Format DNA base sequences.
+COMMENT=	Format DNA base sequences
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

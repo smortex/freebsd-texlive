@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	etaremune
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Reverse-counting enumerate environment.
+COMMENT=	Reverse-counting enumerate environment
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

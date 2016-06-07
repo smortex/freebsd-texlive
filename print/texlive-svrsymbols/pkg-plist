@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/svrsymbols/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/svrsymbols/svrsymbols.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/svrsymbols/svrsymbols.tex
+share/texmf-dist/fonts/afm/public/svrsymbols/SVRsymbols.afm
+share/texmf-dist/fonts/map/dvips/svrsymbols/svrsymbols.map
+share/texmf-dist/fonts/tfm/public/svrsymbols/SVRsymbols.tfm
+share/texmf-dist/fonts/type1/public/svrsymbols/SVRsymbols.pfb
+%%PORTSRC%%share/texmf-dist/source/fonts/svrsymbols/svrsymbols.dtx
+%%PORTSRC%%share/texmf-dist/source/fonts/svrsymbols/svrsymbols.ins
+share/texmf-dist/tex/latex/svrsymbols/svrsymbols.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

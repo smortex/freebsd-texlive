@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	koma-script-sfs
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Koma-script letter class option for Finnish.
+COMMENT=	Koma-script letter class option for Finnish
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

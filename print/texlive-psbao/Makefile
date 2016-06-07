@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	psbao
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw Bao diagrams.
+COMMENT=	Draw Bao diagrams
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

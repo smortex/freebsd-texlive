@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	easyfig
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Simplifying the use of common figures.
+COMMENT=	Simplifying the use of common figures
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

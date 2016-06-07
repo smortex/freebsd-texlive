@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	texshade
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Package for setting nucleotide and peptide alignments.
+COMMENT=	Package for setting nucleotide and peptide alignments
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

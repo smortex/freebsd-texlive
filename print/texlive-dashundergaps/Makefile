@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	dashundergaps
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Underline with dotted or dashed lines.
+COMMENT=	Underline with dotted or dashed lines
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

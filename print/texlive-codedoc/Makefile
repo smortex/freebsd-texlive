@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	codedoc
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX code and documentation in LaTeX-format file.
+COMMENT=	LaTeX code and documentation in LaTeX-format file
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

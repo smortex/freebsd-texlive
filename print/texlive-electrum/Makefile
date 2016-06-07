@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	electrum
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Electrum ADF fonts collection.
+COMMENT=	Electrum ADF fonts collection
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

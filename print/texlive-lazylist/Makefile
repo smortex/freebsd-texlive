@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	lazylist
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Lists in TeX's "mouth".
+COMMENT=	Lists in TeX's "mouth"
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

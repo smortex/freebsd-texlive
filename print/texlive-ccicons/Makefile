@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ccicons
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX support for Creative Commons icons.
+COMMENT=	LaTeX support for Creative Commons icons
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	yhmath
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extended maths fonts for LaTeX.
+COMMENT=	Extended maths fonts for LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

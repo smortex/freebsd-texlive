@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mdwtools
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Miscellaneous tools by Mark Wooding.
+COMMENT=	Miscellaneous tools by Mark Wooding
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

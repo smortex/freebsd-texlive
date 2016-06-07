@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	raleway
-PORTVERSION=	20150515
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use Raleway with TeX(-alike) systems.
+COMMENT=	Use Raleway with TeX(-alike) systems
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-ieee
-PORTVERSION=	20150412
+PORTVERSION=	20160510
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Ieee style files for biblatex.
+COMMENT=	Ieee style files for BibLaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

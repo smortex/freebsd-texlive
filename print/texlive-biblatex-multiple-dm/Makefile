@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-multiple-dm
-PORTVERSION=	20150428
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Load multiple datamodels in biblatex
+COMMENT=	Load multiple datamodels in BibLaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

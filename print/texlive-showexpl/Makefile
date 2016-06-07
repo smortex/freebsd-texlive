@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	showexpl
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesetting LaTeX source code.
+COMMENT=	Typesetting LaTeX source code
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

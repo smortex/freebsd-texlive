@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	scalerel
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Constrained scaling and stretching of objects.
+COMMENT=	Constrained scaling and stretching of objects
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

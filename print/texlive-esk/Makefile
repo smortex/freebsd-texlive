@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	esk
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Package to encapsulate Sketch files in LaTeX sources.
+COMMENT=	Package to encapsulate Sketch files in LaTeX sources
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

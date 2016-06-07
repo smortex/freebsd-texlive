@@ -1,0 +1,3 @@
+pdfxup is a unix/linux shell script that creates a PDF document
+where each page is obtained by combining several pages of a PDF
+file given as output.

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	latexindent
-PORTVERSION=	20150420
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Indent a LaTeX document, highlighting the programming structure.
+COMMENT=	Indent a LaTeX document, highlighting the programming structure
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	asymptote
-PORTVERSION=	20150521
+PORTVERSION=	20160513
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	2D and 3D TeX-Aware Vector Graphics Language.
+COMMENT=	2D and 3D TeX-Aware Vector Graphics Language
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	tikz-timing
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Easy generation of timing diagrams as tikz pictures.
+COMMENT=	Easy generation of timing diagrams as TikZ pictures
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/svn-prov/svn-prov.sty:${PORTSDIR}/print/texlive-svn-prov
 

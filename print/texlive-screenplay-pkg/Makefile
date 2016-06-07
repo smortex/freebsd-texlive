@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	screenplay-pkg
-PORTVERSION=	20150719
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Package version of the screenplay document class.
+COMMENT=	Package version of the screenplay document class
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

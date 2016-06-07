@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	dad
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Simple typesetting system for mixed Arabic/Latin documents.
+COMMENT=	Simple typesetting system for mixed Arabic/Latin documents
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

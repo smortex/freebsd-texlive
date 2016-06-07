@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	shade
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Shade pieces of text.
+COMMENT=	Shade pieces of text
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

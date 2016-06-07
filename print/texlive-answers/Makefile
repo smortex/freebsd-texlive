@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	answers
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Setting questions (or exercises) and answers.
+COMMENT=	Setting questions (or exercises) and answers
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

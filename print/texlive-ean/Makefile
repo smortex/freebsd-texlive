@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ean
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros for making EAN barcodes.
+COMMENT=	Macros for making EAN barcodes
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

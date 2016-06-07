@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	texloganalyser
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Analyse TeX logs.
+COMMENT=	Analyse TeX logs
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	endiagram
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Easy creation of potential energy curve diagrams.
+COMMENT=	Easy creation of potential energy curve diagrams
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

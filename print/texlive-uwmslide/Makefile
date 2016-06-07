@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	uwmslide
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Slides with a simple Power Point like appearance.
+COMMENT=	Slides with a simple Power Point like appearance
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

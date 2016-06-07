@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	lato
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Lato font family and LaTeX support.
+COMMENT=	Lato font family and LaTeX support
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

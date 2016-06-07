@@ -1,14 +1,14 @@
 # $FreeBSD$
 
 PORTNAME=	context-vim
-PORTVERSION=	20150516
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generate Context syntax highlighting code from vim.
+COMMENT=	Generate ConTeXt syntax highlighting code from vim
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/context/third/filter/t-filter.mkii:${PORTSDIR}/print/texlive-context-filter \
-		${LOCALBASE}/share/texmf-dist/bibtex/bst/context/cont-ab.bst:${PORTSDIR}/print/texlive-context
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/context/mkii/cont-ab.bst:${PORTSDIR}/print/texlive-context
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

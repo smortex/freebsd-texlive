@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fancybox
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Variants of \fbox and other games with boxes.
+COMMENT=	Variants of \fbox and other games with boxes
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

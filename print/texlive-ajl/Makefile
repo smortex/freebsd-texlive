@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ajl
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	BibTeX style for AJL.
+COMMENT=	BibTeX style for AJL
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

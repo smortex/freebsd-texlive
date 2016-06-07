@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	texliveonfly
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	On-the-fly download of missing TeX live packages.
+COMMENT=	On-the-fly download of missing TeX live packages
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

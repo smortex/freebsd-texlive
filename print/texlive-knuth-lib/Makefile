@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	knuth-lib
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A small library of MetaFont sources.
+COMMENT=	A small library of Metafont sources
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

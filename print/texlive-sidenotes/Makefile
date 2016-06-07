@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	sidenotes
-PORTVERSION=	20150413
+PORTVERSION=	20160421
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset notes containing rich content, in the margin.
+COMMENT=	Typeset notes containing rich content, in the margin
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

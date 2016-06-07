@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	xevlna
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Insert non-breakable spaces using XeTeX.
+COMMENT=	Insert non-breakable spaces using XeTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

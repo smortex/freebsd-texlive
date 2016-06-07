@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	hhtensor
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Print vectors, matrices, and tensors.
+COMMENT=	Print vectors, matrices, and tensors
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

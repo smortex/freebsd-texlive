@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	luaindex
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create index using lualatex.
+COMMENT=	Create index using LuaLaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

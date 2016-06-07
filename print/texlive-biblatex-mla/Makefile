@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-mla
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	MLA style files for biblatex.
+COMMENT=	MLA style files for BibLaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

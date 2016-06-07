@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ltxkeys
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A robust key parser for LaTeX.
+COMMENT=	A robust key parser for LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

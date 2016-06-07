@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	iso
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generic ISO standards typesetting macros.
+COMMENT=	Generic ISO standards typesetting macros
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

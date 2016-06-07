@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pdftricks2
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use pstricks in pdfTeX.
+COMMENT=	Use PSTricks in pdfTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

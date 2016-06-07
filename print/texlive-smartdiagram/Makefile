@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	smartdiagram
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generate diagrams from lists.
+COMMENT=	Generate diagrams from lists
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

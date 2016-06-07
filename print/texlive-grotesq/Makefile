@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	grotesq
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	URW Grotesq font pack for LaTeX.
+COMMENT=	URW Grotesq font pack for LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

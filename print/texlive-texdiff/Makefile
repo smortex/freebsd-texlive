@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	texdiff
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Compare documents and produce tagged merge.
+COMMENT=	Compare documents and produce tagged merge
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	custom-bib
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Customised BibTeX styles.
+COMMENT=	Customised BibTeX styles
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

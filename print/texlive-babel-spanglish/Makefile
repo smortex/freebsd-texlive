@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-spanglish
-PORTVERSION=	20150421
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Simplified Spanish support for Babel.
+COMMENT=	Simplified Spanish support for Babel
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

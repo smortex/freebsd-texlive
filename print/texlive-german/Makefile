@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	german
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for German typography.
+COMMENT=	Support for German typography
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

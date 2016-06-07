@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	japanese
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A substitute for a babel package for Japanese.
+COMMENT=	A substitute for a babel package for Japanese
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

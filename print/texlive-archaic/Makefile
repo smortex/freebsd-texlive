@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	archaic
-PORTVERSION=	20150731
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A collection of archaic fonts.
+COMMENT=	A collection of archaic fonts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

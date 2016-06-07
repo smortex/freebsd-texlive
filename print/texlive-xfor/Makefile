@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	xfor
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A reimplementation of the LaTeX for-loop macro.
+COMMENT=	A reimplementation of the LaTeX for-loop macro
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

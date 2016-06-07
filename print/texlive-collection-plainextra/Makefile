@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-plainextra
-PORTVERSION=	20150503
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -38,14 +38,17 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
+		${LOCALBASE}/share/texmf-dist/tex/generic/tex-ini-files/dvilualatex.ini:${PORTSDIR}/print/texlive-tex-ini-files \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
+		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/updmap/kanjix.map:${PORTSDIR}/print/texlive-updmap-map \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/tex/plain/epsf-dvipdfmx/epsf-dvipdfmx.tex:${PORTSDIR}/print/texlive-epsf-dvipdfmx \
 		${LOCALBASE}/share/texmf-dist/tex/plain/figflow/figflow.tex:${PORTSDIR}/print/texlive-figflow \
 		${LOCALBASE}/share/texmf-dist/tex/plain/fixpdfmag/fixpdfmag.tex:${PORTSDIR}/print/texlive-fixpdfmag \
-		${LOCALBASE}/share/texmf-dist/tex/plain/font-change/font-change.tex:${PORTSDIR}/print/texlive-font-change \
+		${LOCALBASE}/share/texmf-dist/tex/plain/font-change/default-amssymbols.tex:${PORTSDIR}/print/texlive-font-change \
 		${LOCALBASE}/share/texmf-dist/tex/plain/fontch/fontch.tex:${PORTSDIR}/print/texlive-fontch \
 		${LOCALBASE}/share/texmf-dist/tex/plain/getoptk/getoptk.tex:${PORTSDIR}/print/texlive-getoptk \
 		${LOCALBASE}/share/texmf-dist/tex/plain/gfnotation/GFnotation.tex:${PORTSDIR}/print/texlive-gfnotation \

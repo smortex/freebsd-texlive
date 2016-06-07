@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex
-PORTVERSION=	20160308
+PORTVERSION=	20160517
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bibliographies in LaTeX using BibTeX for sorting only
+COMMENT=	Sophisticated Bibliographies in LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

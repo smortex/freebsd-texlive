@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	block
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A block letter style for the letter class.
+COMMENT=	A block letter style for the letter class
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

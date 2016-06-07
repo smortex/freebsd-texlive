@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	flashmovie
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Directly embed flash movies into PDF files.
+COMMENT=	Directly embed flash movies into PDF files
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

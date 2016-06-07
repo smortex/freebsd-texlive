@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-func
-PORTVERSION=	20150413
+PORTVERSION=	20160503
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	PSTricks package for plotting mathematical functions.
+COMMENT=	PSTricks package for plotting mathematical functions
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

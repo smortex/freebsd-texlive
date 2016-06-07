@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	datetime2-en-fulltext
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	English Full Text styles for the datetime2 package.
+COMMENT=	English Full Text styles for the datetime2 package
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

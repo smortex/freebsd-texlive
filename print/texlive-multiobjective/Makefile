@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	multiobjective
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Symbols for multiobjective optimisation etc.
+COMMENT=	Symbols for multiobjective optimisation etc
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

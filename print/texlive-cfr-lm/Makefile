@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cfr-lm
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Enhanced support for the Latin Modern fonts.
+COMMENT=	Enhanced support for the Latin Modern fonts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

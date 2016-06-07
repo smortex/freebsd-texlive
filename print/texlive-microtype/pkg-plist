@@ -1,4 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/microtype/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/microtype/README.md
 %%PORTDOCS%%share/texmf-dist/doc/latex/microtype/microtype.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/microtype/test-microtype.tex
 %%PORTSRC%%share/texmf-dist/source/latex/microtype/microtype-utf.dtx

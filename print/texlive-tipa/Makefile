@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	tipa
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fonts and macros for IPA phonetics characters.
+COMMENT=	Fonts and macros for IPA phonetics characters
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

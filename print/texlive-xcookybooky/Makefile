@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	xcookybooky
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset (potentially long) recipes.
+COMMENT=	Typeset (potentially long) recipes
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-bahasa
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for Bahasa within babel.
+COMMENT=	Support for Bahasa within babel
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

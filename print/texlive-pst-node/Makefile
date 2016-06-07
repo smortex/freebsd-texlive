@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pst-node
-PORTVERSION=	20150413
+PORTVERSION=	20160426
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Nodes and node connections in pstricks.
+COMMENT=	Nodes and node connections in PSTricks
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

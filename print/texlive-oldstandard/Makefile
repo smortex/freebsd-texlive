@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	oldstandard
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Old Standard: A Unicode Font for Classical and Medieval Studies.
+COMMENT=	Old Standard: A Unicode Font for Classical and Medieval Studies
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tabvar
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesetting tables showing variations of functions.
+COMMENT=	Typesetting tables showing variations of functions
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

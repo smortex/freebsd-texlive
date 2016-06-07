@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	classpack
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	XML mastering for LaTeX classes and packages.
+COMMENT=	XML mastering for LaTeX classes and packages
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

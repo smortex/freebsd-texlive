@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	gtrcrd
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Add chords to lyrics.
+COMMENT=	Add chords to lyrics
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

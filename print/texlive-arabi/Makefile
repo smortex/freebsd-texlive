@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	arabi
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	(La)TeX support for Arabic and Farsi, compliant with Babel.
+COMMENT=	(La)TeX support for Arabic and Farsi, compliant with Babel
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

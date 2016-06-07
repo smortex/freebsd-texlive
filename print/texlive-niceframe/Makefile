@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	niceframe
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for fancy frames.
+COMMENT=	Support for fancy frames
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

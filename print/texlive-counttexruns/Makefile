@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	counttexruns
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Count compilations of a document.
+COMMENT=	Count compilations of a document
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

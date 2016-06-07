@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mylatexformat
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Build a format based on the preamble of a LaTeX file.
+COMMENT=	Build a format based on the preamble of a LaTeX file
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	macroswap
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Swap the definitions of two LaTeX macros.
+COMMENT=	Swap the definitions of two LaTeX macros
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

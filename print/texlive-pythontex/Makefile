@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pythontex
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Run Python from within a document, typesetting the results.
+COMMENT=	Run Python from within a document, typesetting the results
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

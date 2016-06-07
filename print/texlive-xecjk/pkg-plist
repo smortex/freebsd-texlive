@@ -1,4 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/README
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/README.md
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-CJKecglue.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-CJKfntef.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-CM.tex
@@ -6,6 +6,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-checksingle.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-fallback.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-listings.tex
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-mathblock.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-punctstyle.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-subCJKblock.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-verbatim.tex

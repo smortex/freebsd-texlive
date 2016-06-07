@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	hexgame
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provide an environment to draw a hexgame-board.
+COMMENT=	Provide an environment to draw a hexgame-board
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bibtopicprefix
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Prefix references to bibliographies produced by bibtopic.
+COMMENT=	Prefix references to bibliographies produced by bibtopic
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

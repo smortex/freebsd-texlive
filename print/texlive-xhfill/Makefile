@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	xhfill
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extending \hrulefill.
+COMMENT=	Extending \hrulefill
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

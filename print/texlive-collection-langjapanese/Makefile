@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langjapanese
-PORTVERSION=	20150412
+PORTVERSION=	20160510
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -37,15 +37,18 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
+		${LOCALBASE}/share/texmf-dist/tex/generic/tex-ini-files/dvilualatex.ini:${PORTSDIR}/print/texlive-tex-ini-files \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
+		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/updmap/kanjix.map:${PORTSDIR}/print/texlive-updmap-map \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
-		${LOCALBASE}/share/texmf-dist/fonts/cmap/adobemapping/LICENSE:${PORTSDIR}/print/texlive-adobemapping \
+		${LOCALBASE}/share/texmf-dist/fonts/cmap/adobemapping/README:${PORTSDIR}/print/texlive-adobemapping \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/c90/c90.enc:${PORTSDIR}/print/texlive-c90 \
 		${LOCALBASE}/share/texmf-dist/scripts/cjk-gs-integrate/cjk-gs-integrate.pl:${PORTSDIR}/print/texlive-cjk-gs-integrate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cjk/contrib/wadalab/c42goth.fd:${PORTSDIR}/print/texlive-cjk \
-		${LOCALBASE}/share/texmf-dist/tex/latex/cjkpunct/CJKpunct.sty:${PORTSDIR}/print/texlive-cjkpunct \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cjkpunct/CJKpunct.spa:${PORTSDIR}/print/texlive-cjkpunct \
 		${LOCALBASE}/share/texmf-dist/hbf2gf/README:${PORTSDIR}/print/texlive-cjkutils \
 		${LOCALBASE}/share/texmf-dist/fonts/sfd/dnp/DNP.sfd:${PORTSDIR}/print/texlive-dnp \
 		${LOCALBASE}/share/texmf-dist/dvips/garuda-c90/config.garuda-c90:${PORTSDIR}/print/texlive-garuda-c90 \
@@ -63,14 +66,21 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/cmap/jfontmaps/2004-H:${PORTSDIR}/print/texlive-jfontmaps \
 		${LOCALBASE}/share/texmf-dist/tex/platex/jsclasses/jsarticle.cls:${PORTSDIR}/print/texlive-jsclasses \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexja/luatexja.sty:${PORTSDIR}/print/texlive-luatexja \
-		${LOCALBASE}/share/texmf-dist/tex/ptex/base/ptex.tex:${PORTSDIR}/print/texlive-ptex \
+		${LOCALBASE}/share/texmf-dist/pbibtex/bib/jxampl.bib:${PORTSDIR}/print/texlive-pbibtex-base \
+		${LOCALBASE}/share/texmf-dist/tex/platex/base/ascmac.sty:${PORTSDIR}/print/texlive-platex \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/ptex/morisawa.map:${PORTSDIR}/print/texlive-ptex \
+		${LOCALBASE}/share/texmf-dist/tex/ptex/ptex-base/ascii-jplain.tex:${PORTSDIR}/print/texlive-ptex-base \
+		${LOCALBASE}/share/texmf-dist/fonts/source/ptex-fonts/ascgrp/ascgrp.mf:${PORTSDIR}/print/texlive-ptex-fonts \
 		${LOCALBASE}/share/texmf-dist/scripts/ptex2pdf/ptex2pdf.lua:${PORTSDIR}/print/texlive-ptex2pdf \
 		${LOCALBASE}/share/texmf-dist/tex/platex/pxbase/pxbase.sty:${PORTSDIR}/print/texlive-pxbase \
 		${LOCALBASE}/share/texmf-dist/tex/platex/pxchfon/pxchfon.sty:${PORTSDIR}/print/texlive-pxchfon \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pxcjkcat/pxcjkcat.sty:${PORTSDIR}/print/texlive-pxcjkcat \
 		${LOCALBASE}/share/texmf-dist/tex/platex/pxjahyper/pxjahyper.sty:${PORTSDIR}/print/texlive-pxjahyper \
 		${LOCALBASE}/share/texmf-dist/tex/platex/pxrubrica/pxrubrica.sty:${PORTSDIR}/print/texlive-pxrubrica \
-		${LOCALBASE}/share/texmf-dist/tex/uptex/base/uptex.tex:${PORTSDIR}/print/texlive-uptex \
+		${LOCALBASE}/share/texmf-dist/tex/uplatex/base/jt2gt.fd:${PORTSDIR}/print/texlive-uplatex \
+		${LOCALBASE}/share/texmf-dist/makeindex/latex/gglo.ist:${PORTSDIR}/print/texlive-latex \
+		${LOCALBASE}/share/texmf-dist/tex/uptex/uptex-base/euptex.ini:${PORTSDIR}/print/texlive-uptex-base \
+		${LOCALBASE}/share/texmf-dist/fonts/cmap/uptex-fonts/UTF8-UTF16:${PORTSDIR}/print/texlive-uptex-fonts \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/wadalab/dgj/dgjgreek.afm:${PORTSDIR}/print/texlive-wadalab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zxjafbfont/zxjafbfont.sty:${PORTSDIR}/print/texlive-zxjafbfont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zxjatype/zxjatype.sty:${PORTSDIR}/print/texlive-zxjatype

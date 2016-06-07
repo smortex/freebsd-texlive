@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pb-diagram
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A commutative diagram package using LAMSTeX or Xy-pic fonts.
+COMMENT=	A commutative diagram package using LAMSTeX or Xy-pic fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

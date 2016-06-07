@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bbold
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Sans serif blackboard bold.
+COMMENT=	Sans serif blackboard bold
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

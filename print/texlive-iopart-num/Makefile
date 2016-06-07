@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	iopart-num
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Numeric citation style for IOP journals.
+COMMENT=	Numeric citation style for IOP journals
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

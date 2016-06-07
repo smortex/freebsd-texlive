@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-graphicx
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A pstricks-compatible graphicx for use with Plain TeX.
+COMMENT=	A PSTricks-compatible graphicx for use with Plain TeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

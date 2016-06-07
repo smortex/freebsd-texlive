@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	europecv
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Unofficial class for European curricula vitae.
+COMMENT=	Unofficial class for European curricula vitae
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

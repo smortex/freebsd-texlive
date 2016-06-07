@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	uri
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Hyperlinks for a wide range of URIs.
+COMMENT=	Hyperlinks for a wide range of URIs
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/jacow/JACpic2v5.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/jacow/JACpic_mc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/jacow/LaTeX-A4-JACoW.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/jacow/LaTeX-A4-JACoW.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jacow/LaTeX-Letter-JACoW.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/jacow/LaTeX-Letter-JACoW.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/jacow/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/jacow/jacow-collaboration-2016.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/jacow/jacow-collaboration-2016.tex
+share/texmf-dist/tex/latex/jacow/jacow.cls
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

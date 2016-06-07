@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	morewrites
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Always room for a new write stream.
+COMMENT=	Always room for a new write stream
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

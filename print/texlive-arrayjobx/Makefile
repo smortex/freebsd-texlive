@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	arrayjobx
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Array data structures for (La)TeX.
+COMMENT=	Array data structures for (La)TeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

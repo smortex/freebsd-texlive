@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	tikzscale
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Resize pictures while respecting text size.
+COMMENT=	Resize pictures while respecting text size
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

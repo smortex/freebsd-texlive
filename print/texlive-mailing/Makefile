@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mailing
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros for mail merging.
+COMMENT=	Macros for mail merging
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

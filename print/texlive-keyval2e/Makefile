@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	keyval2e
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A lightweight and robust key-value parser.
+COMMENT=	A lightweight and robust key-value parser
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

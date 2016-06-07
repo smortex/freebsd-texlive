@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bondgraph
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create bond graph figures in LaTeX documents.
+COMMENT=	Create bond graph figures in LaTeX documents
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

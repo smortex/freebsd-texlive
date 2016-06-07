@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bidipagegrid
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bidi-aware page grid in background.
+COMMENT=	Bidi-aware page grid in background
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langindic
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -38,14 +38,19 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
+		${LOCALBASE}/share/texmf-dist/tex/generic/tex-ini-files/dvilualatex.ini:${PORTSDIR}/print/texlive-tex-ini-files \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
+		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/updmap/kanjix.map:${PORTSDIR}/print/texlive-updmap-map \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/bangtex/bang10.mf:${PORTSDIR}/print/texlive-bangtex \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/bengali/bn.mf:${PORTSDIR}/print/texlive-bengali \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/burmese/burmese.map:${PORTSDIR}/print/texlive-burmese \
 		${LOCALBASE}/share/texmf-dist/scripts/ebong/ebong.py:${PORTSDIR}/print/texlive-ebong \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-as.tex:${PORTSDIR}/print/texlive-hyphen-indic \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-sa.tex:${PORTSDIR}/print/texlive-hyphen-sanskrit \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/sanskrit/skt10.mf:${PORTSDIR}/print/texlive-sanskrit \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/sanskrit-t1/skt.map:${PORTSDIR}/print/texlive-sanskrit-t1 \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/velthuis/dvnb10.afm:${PORTSDIR}/print/texlive-velthuis \

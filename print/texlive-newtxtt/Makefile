@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	newtxtt
-PORTVERSION=	20150705
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Enhancement of typewriter fonts from newtx.
+COMMENT=	Enhancement of typewriter fonts from newtx
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

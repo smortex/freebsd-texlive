@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	rec-thy
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Commands to typeset recursion theory papers.
+COMMENT=	Commands to typeset recursion theory papers
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	todo
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Make a to-do list for a document.
+COMMENT=	Make a to-do list for a document
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

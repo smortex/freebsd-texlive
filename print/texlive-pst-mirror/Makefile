@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-mirror
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Images on a spherical mirror.
+COMMENT=	Images on a spherical mirror
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	acmconf
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class for ACM conference proceedings.
+COMMENT=	Class for ACM conference proceedings
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

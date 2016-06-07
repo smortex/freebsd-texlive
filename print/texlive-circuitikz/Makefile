@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	circuitikz
-PORTVERSION=	20150516
+PORTVERSION=	20160425
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw electrical networks with TikZ.
+COMMENT=	Draw electrical networks with TikZ
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

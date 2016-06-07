@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	sanskrit-t1
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Type 1 version of 'skt' fonts for Sanskrit.
+COMMENT=	Type 1 version of 'skt' fonts for Sanskrit
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

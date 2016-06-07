@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	amscls
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	AMS document classes for LaTeX.
+COMMENT=	AMS document classes for LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

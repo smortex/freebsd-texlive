@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	trsym
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Symbols for transformations.
+COMMENT=	Symbols for transformations
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-solarsystem
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Plot the solar system for a specific date.
+COMMENT=	Plot the solar system for a specific date
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

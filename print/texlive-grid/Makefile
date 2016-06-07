@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	grid
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Grid typesetting in LaTeX.
+COMMENT=	Grid typesetting in LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

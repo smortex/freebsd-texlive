@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tagging
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Document configuration with tags.
+COMMENT=	Document configuration with tags
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

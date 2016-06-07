@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst2pdf
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A script to compile pstricks documents via pdftex.
+COMMENT=	A script to compile PSTricks documents via pdfTeX
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

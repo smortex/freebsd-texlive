@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pseudocode
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX environment for specifying algorithms in a natural way.
+COMMENT=	LaTeX environment for specifying algorithms in a natural way
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

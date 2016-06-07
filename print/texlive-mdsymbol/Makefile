@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mdsymbol
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Symbol fonts to match Adobe Myriad Pro.
+COMMENT=	Symbol fonts to match Adobe Myriad Pro
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

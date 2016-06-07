@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	aomart
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset articles for the Annals of Mathematics.
+COMMENT=	Typeset articles for the Annals of Mathematics
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

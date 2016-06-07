@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pst-optexp
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Drawing optical experimental setups.
+COMMENT=	Drawing optical experimental setups
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

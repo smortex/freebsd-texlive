@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mattens
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Matrices/tensor typesetting.
+COMMENT=	Matrices/tensor typesetting
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

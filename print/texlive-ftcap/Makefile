@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ftcap
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Allows \caption at the beginning of a table-environment.
+COMMENT=	Allows \caption at the beginning of a table-environment
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

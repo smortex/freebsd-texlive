@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	startex
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	An XML-inspired format for student use.
+COMMENT=	An XML-inspired format for student use
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

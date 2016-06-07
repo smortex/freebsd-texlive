@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ocr-b-outline
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	OCR-B fonts in Type 1 and OpenType.
+COMMENT=	OCR-B fonts in Type 1 and OpenType
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	synttree
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset syntactic trees.
+COMMENT=	Typeset syntactic trees
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

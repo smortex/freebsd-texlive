@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	templatetools
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Commands useful in LaTeX templates.
+COMMENT=	Commands useful in LaTeX templates
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

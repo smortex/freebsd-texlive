@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	elmath
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Mathematics in Greek texts.
+COMMENT=	Mathematics in Greek texts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

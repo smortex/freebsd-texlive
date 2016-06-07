@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	dirtree
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Display trees in the style of windows explorer.
+COMMENT=	Display trees in the style of windows explorer
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

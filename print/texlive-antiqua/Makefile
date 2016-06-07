@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	antiqua
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	URW Antiqua condensed font, for use with TeX.
+COMMENT=	URW Antiqua condensed font, for use with TeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

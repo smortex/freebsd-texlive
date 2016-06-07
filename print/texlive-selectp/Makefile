@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	selectp
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Select pages to be output.
+COMMENT=	Select pages to be output
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

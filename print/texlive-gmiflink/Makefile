@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	gmiflink
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Simplify usage of \hypertarget and \hyperlink.
+COMMENT=	Simplify usage of \hypertarget and \hyperlink
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

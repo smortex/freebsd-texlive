@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tdclock
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A ticking digital clock package for PDF output.
+COMMENT=	A ticking digital clock package for PDF output
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

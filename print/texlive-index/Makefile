@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	index
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extended index for LaTeX including multiple indexes.
+COMMENT=	Extended index for LaTeX including multiple indexes
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	greekdates
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provides ancient Greek day and month names, dates, etc.
+COMMENT=	Provides ancient Greek day and month names, dates, etc
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	calculator
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use LaTeX as a scientific calculator.
+COMMENT=	Use LaTeX as a scientific calculator
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

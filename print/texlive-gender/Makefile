@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	gender
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Gender neutrality for languages with grammatical gender.
+COMMENT=	Gender neutrality for languages with grammatical gender
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

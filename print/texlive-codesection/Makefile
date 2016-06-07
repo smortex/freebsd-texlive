@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	codesection
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provides an environment that may be conditionally included.
+COMMENT=	Provides an environment that may be conditionally included
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

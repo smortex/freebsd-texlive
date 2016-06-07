@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	expex
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Format linguistic examples and glosses, with reference capabilities.
+COMMENT=	Format linguistic examples and glosses, with reference capabilities
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

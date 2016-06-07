@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ae
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Virtual fonts for T1 encoded CMR-fonts.
+COMMENT=	Virtual fonts for T1 encoded CMR-fonts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

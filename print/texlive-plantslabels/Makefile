@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	plantslabels
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Write labels for plants.
+COMMENT=	Write labels for plants
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

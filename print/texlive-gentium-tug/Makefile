@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	gentium-tug
-PORTVERSION=	20150514
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Gentium fonts (in two formats) and support files.
+COMMENT=	Gentium fonts (in two formats) and support files
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

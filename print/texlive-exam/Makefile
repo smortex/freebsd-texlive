@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	exam
-PORTVERSION=	20150509
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Package for typesetting exam scripts.
+COMMENT=	Package for typesetting exam scripts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	schemabloc
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw block diagrams, using Tikz.
+COMMENT=	Draw block diagrams, using TikZ
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

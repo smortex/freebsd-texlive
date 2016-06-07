@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	truncate
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Truncate text to a specified width.
+COMMENT=	Truncate text to a specified width
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

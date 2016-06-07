@@ -1,0 +1,17 @@
+share/texmf-dist/scripts/mflua/begin_program.lua
+share/texmf-dist/scripts/mflua/do_add_to.lua
+share/texmf-dist/scripts/mflua/end_program.lua
+share/texmf-dist/scripts/mflua/fill_envelope.lua
+share/texmf-dist/scripts/mflua/fill_spec.lua
+share/texmf-dist/scripts/mflua/final_cleanup.lua
+share/texmf-dist/scripts/mflua/main_control.lua
+share/texmf-dist/scripts/mflua/make_ellipse.lua
+share/texmf-dist/scripts/mflua/mfluaini.lua
+share/texmf-dist/scripts/mflua/offset_prep.lua
+share/texmf-dist/scripts/mflua/print_edges.lua
+share/texmf-dist/scripts/mflua/print_path.lua
+share/texmf-dist/scripts/mflua/scan_direction.lua
+share/texmf-dist/scripts/mflua/skew_line_edges.lua
+share/texmf-dist/scripts/mflua/start_of_mf.lua
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

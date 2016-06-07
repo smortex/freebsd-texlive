@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fwlw
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Get first and last words of a page.
+COMMENT=	Get first and last words of a page
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

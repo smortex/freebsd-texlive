@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	avremu
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	An 8-Bit Microcontroller Simulator written in LaTeX.
+COMMENT=	An 8-Bit Microcontroller Simulator written in LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

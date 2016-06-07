@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	titleref
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A "\titleref" command to cross-reference section titles.
+COMMENT=	A "\titleref" command to cross-reference section titles
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

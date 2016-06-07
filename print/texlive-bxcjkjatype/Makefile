@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bxcjkjatype
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset Japanese with pdfLaTeX and CJK.
+COMMENT=	Typeset Japanese with pdfLaTeX and CJK
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

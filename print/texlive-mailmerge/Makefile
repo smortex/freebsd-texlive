@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mailmerge
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Repeating text field substitution.
+COMMENT=	Repeating text field substitution
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

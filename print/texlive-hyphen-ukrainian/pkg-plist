@@ -1,2 +1,10 @@
+share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-uk.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/ptex/hyph-uk.t2a.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/quote/hyph-quote-uk.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-uk.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-uk.chr.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-uk.hyp.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-uk.lic.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-uk.pat.txt
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

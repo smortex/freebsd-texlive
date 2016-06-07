@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ot-tableau
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Optimality Theory tableaux in LaTeX.
+COMMENT=	Optimality Theory tableaux in LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

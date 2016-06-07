@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-xetex
-PORTVERSION=	20150901
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -38,9 +38,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
+		${LOCALBASE}/share/texmf-dist/tex/generic/tex-ini-files/dvilualatex.ini:${PORTSDIR}/print/texlive-tex-ini-files \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
+		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/updmap/kanjix.map:${PORTSDIR}/print/texlive-updmap-map \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/arabxetex/arabxetex.sty:${PORTSDIR}/print/texlive-arabxetex \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidi-atbegshi/bidi-atbegshi.sty:${PORTSDIR}/print/texlive-bidi-atbegshi \
@@ -49,6 +52,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidishadowtext/bidishadowtext.sty:${PORTSDIR}/print/texlive-bidishadowtext \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidipresentation/bidipresentation.cls:${PORTSDIR}/print/texlive-bidipresentation \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fixlatvian/fixlatvian.sty:${PORTSDIR}/print/texlive-fixlatvian \
+		${LOCALBASE}/share/texmf-dist/tex/xetex/font-change-xetex/font-change-xetex.tex:${PORTSDIR}/print/texlive-font-change-xetex \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fontbook/fontbook.sty:${PORTSDIR}/print/texlive-fontbook \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/fontwrap/fontwrap.sty:${PORTSDIR}/print/texlive-fontwrap \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/interchar/interchar.sty:${PORTSDIR}/print/texlive-interchar \
@@ -73,7 +77,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/brh-kan.map:${PORTSDIR}/print/texlive-xetex-itrans \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con:${PORTSDIR}/print/texlive-xetex-pstricks \
 		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/xetex-tibetan/loctib.map:${PORTSDIR}/print/texlive-xetex-tibetan \
-		${LOCALBASE}/share/texmf-dist/tex/generic/xetexconfig/unicode-letters.tex:${PORTSDIR}/print/texlive-xetexconfig \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/xetexconfig/crop.cfg:${PORTSDIR}/print/texlive-xetexconfig \
 		${LOCALBASE}/share/texmf-dist/tex/xetex/xetexfontinfo/aat-info.tex:${PORTSDIR}/print/texlive-xetexfontinfo \
 		${LOCALBASE}/share/texmf-dist/tex/xetex/xetexko/xetexko.sty:${PORTSDIR}/print/texlive-xetexko \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xevlna/xevlna.sty:${PORTSDIR}/print/texlive-xevlna \

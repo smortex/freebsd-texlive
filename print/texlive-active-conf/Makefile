@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	active-conf
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class for typesetting ACTIVE conference papers.
+COMMENT=	Class for typesetting ACTIVE conference papers
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

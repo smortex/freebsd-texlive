@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mugsthesis
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Thesis class complying with Marquette University Graduate School requirements.
+COMMENT=	Thesis class complying with Marquette University Graduate School requirements
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

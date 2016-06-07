@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bbcard
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bullshit bingo, calendar and baseball-score cards.
+COMMENT=	Bullshit bingo, calendar and baseball-score cards
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

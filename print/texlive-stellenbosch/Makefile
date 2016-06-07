@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	stellenbosch
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Stellenbosch thesis bundle.
+COMMENT=	Stellenbosch thesis bundle
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

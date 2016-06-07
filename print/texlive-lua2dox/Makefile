@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	lua2dox
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Auto-documentation of lua code.
+COMMENT=	Auto-documentation of lua code
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

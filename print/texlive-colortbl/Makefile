@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	colortbl
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Add colour to LaTeX tables.
+COMMENT=	Add colour to LaTeX tables
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

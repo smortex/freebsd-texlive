@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	chem-journal
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Various BibTeX formats for journals in Chemistry.
+COMMENT=	Various BibTeX formats for journals in Chemistry
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

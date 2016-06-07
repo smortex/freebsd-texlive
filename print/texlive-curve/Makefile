@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	curve
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A class for making curriculum vitae.
+COMMENT=	A class for making curriculum vitae
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

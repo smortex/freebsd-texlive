@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langfrench
-PORTVERSION=	20160319
+PORTVERSION=	20160414
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -37,10 +37,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
+		${LOCALBASE}/share/texmf-dist/tex/generic/tex-ini-files/dvilualatex.ini:${PORTSDIR}/print/texlive-tex-ini-files \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
 		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/updmap/kanjix.map:${PORTSDIR}/print/texlive-updmap-map \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/aeguill/aeguill.sty:${PORTSDIR}/print/texlive-aeguill \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-basque/basque.ldf:${PORTSDIR}/print/texlive-babel-basque \
@@ -53,6 +55,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/makeindex/e-french/fridx1.ist:${PORTSDIR}/print/texlive-e-french \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/facture/facture.cls:${PORTSDIR}/print/texlive-facture \
 		${LOCALBASE}/share/texmf-dist/tex/latex/frletter/frletter.cls:${PORTSDIR}/print/texlive-frletter \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-eu.tex:${PORTSDIR}/print/texlive-hyphen-basque \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-fr.tex:${PORTSDIR}/print/texlive-hyphen-french \
 		${LOCALBASE}/share/texmf-dist/tex/latex/impnattypo/impnattypo.sty:${PORTSDIR}/print/texlive-impnattypo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mafr/mafr.sty:${PORTSDIR}/print/texlive-mafr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabvar/tabvar.sty:${PORTSDIR}/print/texlive-tabvar \

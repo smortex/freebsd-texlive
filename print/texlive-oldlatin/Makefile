@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	oldlatin
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Compute Modern-like font with long s.
+COMMENT=	Compute Modern-like font with long s
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

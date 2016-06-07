@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	courseoutline
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Prepare university course outlines.
+COMMENT=	Prepare university course outlines
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

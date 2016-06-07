@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pdfscreen
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support screen-based document design.
+COMMENT=	Support screen-based document design
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

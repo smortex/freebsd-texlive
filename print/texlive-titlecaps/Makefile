@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	titlecaps
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Setting rich-text input into Titling Caps.
+COMMENT=	Setting rich-text input into Titling Caps
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

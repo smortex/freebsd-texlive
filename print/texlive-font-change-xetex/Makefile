@@ -1,0 +1,14 @@
+# $FreeBSD$
+
+PORTNAME=	font-change-xetex
+PORTVERSION=	20160414
+CATEGORIES=	print
+
+MAINTAINER=	romain@FreeBSD.org
+COMMENT=	Macros to change text and mathematics fonts in plain XeTeX
+
+OPTIONS_DEFINE=	DOCS
+.include <bsd.port.options.mk>
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

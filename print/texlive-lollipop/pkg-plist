@@ -19,8 +19,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/manual/titlepag.tex
 %%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/manual/trace.tex
 %%PORTDOCS%%share/texmf-dist/doc/otherformats/lollipop/tex-inde.xen
-share/texmf-dist/tex/lollipop/dvilollipop.ini
-share/texmf-dist/tex/lollipop/dvilualollipop.ini
 share/texmf-dist/tex/lollipop/lollipop-define.tex
 share/texmf-dist/tex/lollipop/lollipop-document.tex
 share/texmf-dist/tex/lollipop/lollipop-float.tex
@@ -34,7 +32,5 @@ share/texmf-dist/tex/lollipop/lollipop-text.tex
 share/texmf-dist/tex/lollipop/lollipop-tools.tex
 share/texmf-dist/tex/lollipop/lollipop.ini
 share/texmf-dist/tex/lollipop/lollipop.tex
-share/texmf-dist/tex/lollipop/lualollipop.ini
-share/texmf-dist/tex/lollipop/xelollipop.ini
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

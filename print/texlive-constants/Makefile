@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	constants
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Automatic numbering of constants.
+COMMENT=	Automatic numbering of constants
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

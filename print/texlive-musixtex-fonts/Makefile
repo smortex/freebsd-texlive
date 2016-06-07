@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	musixtex-fonts
-PORTVERSION=	20150705
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fonts used by MusixTeX.
+COMMENT=	Fonts used by MusixTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

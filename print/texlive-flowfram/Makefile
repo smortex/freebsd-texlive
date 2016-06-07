@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	flowfram
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create text frames for posters, brochures or magazines.
+COMMENT=	Create text frames for posters, brochures or magazines
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

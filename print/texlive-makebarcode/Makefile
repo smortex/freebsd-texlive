@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	makebarcode
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Print various kinds 2/5 and Code 39 bar codes.
+COMMENT=	Print various kinds 2/5 and Code 39 bar codes
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

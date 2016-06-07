@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ltablex
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Table package extensions.
+COMMENT=	Table package extensions
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	engrec
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Enumerate with lower- or uppercase Greek letters.
+COMMENT=	Enumerate with lower- or uppercase Greek letters
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

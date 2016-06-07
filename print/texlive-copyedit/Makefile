@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	copyedit
-PORTVERSION=	20150723
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Copyediting support for LaTeX documents.
+COMMENT=	Copyediting support for LaTeX documents
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ps2pk
-PORTVERSION=	20150428
+PORTVERSION=	20160427
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generate a PK font from an Adobe Type 1 font.
+COMMENT=	Generate a PK font from an Adobe Type 1 font
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

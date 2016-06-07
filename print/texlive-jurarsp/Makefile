@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	jurarsp
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Citations of judgements and official documents in (German) juridical documents.
+COMMENT=	Citations of judgements and official documents in (German) juridical documents
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	dtl
-PORTVERSION=	20150428
+PORTVERSION=	20160427
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Tools to dis-assemble and re-assemble DVI files.
+COMMENT=	Tools to dis-assemble and re-assemble DVI files
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

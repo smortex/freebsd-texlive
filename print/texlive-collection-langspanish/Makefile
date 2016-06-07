@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langspanish
-PORTVERSION=	20150422
+PORTVERSION=	20160419
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -38,14 +38,20 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
+		${LOCALBASE}/share/texmf-dist/tex/generic/tex-ini-files/dvilualatex.ini:${PORTSDIR}/print/texlive-tex-ini-files \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
+		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/updmap/kanjix.map:${PORTSDIR}/print/texlive-updmap-map \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-catalan/catalan.ldf:${PORTSDIR}/print/texlive-babel-catalan \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-galician/galician.ldf:${PORTSDIR}/print/texlive-babel-galician \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-spanglish/spanglish.ldf:${PORTSDIR}/print/texlive-babel-spanglish \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-spanish/romanidx.sty:${PORTSDIR}/print/texlive-babel-spanish \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-ca.tex:${PORTSDIR}/print/texlive-hyphen-catalan \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-gl.tex:${PORTSDIR}/print/texlive-hyphen-galician \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-es.tex:${PORTSDIR}/print/texlive-hyphen-spanish \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spanish-mx/esmx.cfg:${PORTSDIR}/print/texlive-spanish-mx
 
 OPTIONS_EXCLUDE=	DOCS

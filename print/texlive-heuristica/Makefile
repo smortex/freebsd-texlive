@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	heuristica
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fonts extending Utopia, with LaTeX support files.
+COMMENT=	Fonts extending Utopia, with LaTeX support files
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

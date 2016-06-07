@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	boondox
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Mathematical alphabets derived from the STIX fonts.
+COMMENT=	Mathematical alphabets derived from the STIX fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

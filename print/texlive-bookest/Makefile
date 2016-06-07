@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bookest
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extended book class.
+COMMENT=	Extended book class
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

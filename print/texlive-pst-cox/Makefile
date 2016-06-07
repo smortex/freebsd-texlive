@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-cox
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Drawing regular complex polytopes with PSTricks.
+COMMENT=	Drawing regular complex polytopes with PSTricks
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

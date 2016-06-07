@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	units
-PORTVERSION=	20150420
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset units.
+COMMENT=	Typeset units
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

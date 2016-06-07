@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	breakcites
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Ensure that multiple citations may break at line end.
+COMMENT=	Ensure that multiple citations may break at line end
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

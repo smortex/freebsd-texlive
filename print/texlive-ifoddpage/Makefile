@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ifoddpage
-PORTVERSION=	20150412
+PORTVERSION=	20160425
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Determine if the current page is odd or even.
+COMMENT=	Determine if the current page is odd or even
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

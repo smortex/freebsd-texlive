@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	flowchart
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Shapes for drawing flowcharts, using TikZ.
+COMMENT=	Shapes for drawing flowcharts, using TikZ
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

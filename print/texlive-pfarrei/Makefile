@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pfarrei
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX support of pastors' and priests' work.
+COMMENT=	LaTeX support of pastors' and priests' work
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

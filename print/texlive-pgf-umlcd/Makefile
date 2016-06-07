@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pgf-umlcd
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Some LaTeX macros for UML Class Diagrams.
+COMMENT=	Some LaTeX macros for UML Class Diagrams
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

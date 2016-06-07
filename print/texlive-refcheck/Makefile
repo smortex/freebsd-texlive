@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	refcheck
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Check references (in figures, table, equations, etc).
+COMMENT=	Check references (in figures, table, equations, etc)
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

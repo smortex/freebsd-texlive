@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	serbian-apostrophe
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Commands for Serbian words with apostrophes.
+COMMENT=	Commands for Serbian words with apostrophes
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

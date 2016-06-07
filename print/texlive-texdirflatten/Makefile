@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	texdirflatten
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Collect files related to a LaTeX job in a single directory.
+COMMENT=	Collect files related to a LaTeX job in a single directory
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pax
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extract and reinsert PDF annotations with pdfTeX.
+COMMENT=	Extract and reinsert PDF annotations with pdfTeX
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

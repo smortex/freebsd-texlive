@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cm
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Computer Modern fonts.
+COMMENT=	Computer Modern fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

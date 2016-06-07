@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	xlop
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Calculates and displays arithmetic operations.
+COMMENT=	Calculates and displays arithmetic operations
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	extarrows
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extra Arrows beyond those provided in AMSmath
+COMMENT=	Extra Arrows beyond those provided in amsmath
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

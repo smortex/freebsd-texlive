@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	xetexfontinfo
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Report font features in XeTeX.
+COMMENT=	Report font features in XeTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

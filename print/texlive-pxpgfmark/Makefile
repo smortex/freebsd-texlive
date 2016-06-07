@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pxpgfmark
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	e-pTeX driver for PGF inter-picture connections.
+COMMENT=	e-pTeX driver for PGF inter-picture connections
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

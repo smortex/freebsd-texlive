@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	notes
-PORTVERSION=	20150730
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Mark sections of a document.
+COMMENT=	Mark sections of a document
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

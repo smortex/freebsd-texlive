@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	spot
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Spotlight highlighting for Beamer.
+COMMENT=	Spotlight highlighting for Beamer
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

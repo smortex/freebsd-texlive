@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	cinzel
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX support for Cinzel and Cinzel Decorative fonts.
+COMMENT=	LaTeX support for Cinzel and Cinzel Decorative fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

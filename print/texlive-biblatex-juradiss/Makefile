@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-juradiss
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Biblatex stylefiles for German law thesis.
+COMMENT=	BibLaTeX stylefiles for German law thesis
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

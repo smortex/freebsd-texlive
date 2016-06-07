@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	kerkis
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Kerkis (Greek) font family.
+COMMENT=	Kerkis (Greek) font family
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

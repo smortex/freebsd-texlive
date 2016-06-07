@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	librarian
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Tools to create bibliographies in TeX.
+COMMENT=	Tools to create bibliographies in TeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

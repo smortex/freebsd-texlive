@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	method
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset method and variable declarations.
+COMMENT=	Typeset method and variable declarations
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

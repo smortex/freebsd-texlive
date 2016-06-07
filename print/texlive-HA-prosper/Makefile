@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	HA-prosper
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Patches and improvements for prosper.
+COMMENT=	Patches and improvements for prosper
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

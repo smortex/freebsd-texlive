@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tucv
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for typesetting a CV or resumee.
+COMMENT=	Support for typesetting a CV or resumee
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

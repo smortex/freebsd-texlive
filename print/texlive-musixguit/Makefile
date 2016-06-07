@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	musixguit
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Easy notation for guitar music, in MusixTeX.
+COMMENT=	Easy notation for guitar music, in MusixTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

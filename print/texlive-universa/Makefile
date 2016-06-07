@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	universa
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Herbert Bayer's 'universal' font.
+COMMENT=	Herbert Bayer's 'universal' font
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

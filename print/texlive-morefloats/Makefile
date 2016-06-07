@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	morefloats
-PORTVERSION=	20150723
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Increase the number of simultaneous LaTeX floats.
+COMMENT=	Increase the number of simultaneous LaTeX floats
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

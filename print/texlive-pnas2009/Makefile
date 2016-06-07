@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pnas2009
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bibtex style for PNAS.
+COMMENT=	BibTeX style for PNAS (newer version)
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

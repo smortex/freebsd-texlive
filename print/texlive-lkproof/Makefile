@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	lkproof
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LK Proof figure macros.
+COMMENT=	LK Proof figure macros
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

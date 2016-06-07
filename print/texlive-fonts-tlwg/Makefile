@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fonts-tlwg
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Thai fonts for LaTeX from TLWG.
+COMMENT=	Thai fonts for LaTeX from TLWG
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

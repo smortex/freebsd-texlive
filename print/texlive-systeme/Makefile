@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	systeme
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Format systems of equations.
+COMMENT=	Format systems of equations
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

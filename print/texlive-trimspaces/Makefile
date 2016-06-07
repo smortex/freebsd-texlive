@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	trimspaces
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Trim spaces around an argument or within a macro.
+COMMENT=	Trim spaces around an argument or within a macro
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

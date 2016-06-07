@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mxedruli
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A pair of fonts for different Georgian alphabets.
+COMMENT=	A pair of fonts for different Georgian alphabets
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

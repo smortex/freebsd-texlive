@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	moresize
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Allows font sizes up to 35.83pt.
+COMMENT=	Allows font sizes up to 35.83pt
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

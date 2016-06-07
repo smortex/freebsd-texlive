@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	sugconf
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	SAS(R) user group conference proceedings document class.
+COMMENT=	SAS(R) user group conference proceedings document class
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

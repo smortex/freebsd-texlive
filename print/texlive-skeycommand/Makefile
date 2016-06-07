@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	skeycommand
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create commands using parameters and keyval in parallel.
+COMMENT=	Create commands using parameters and keyval in parallel
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

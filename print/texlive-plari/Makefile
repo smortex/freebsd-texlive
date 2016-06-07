@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	plari
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesetting stageplay scripts.
+COMMENT=	Typesetting stageplay scripts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

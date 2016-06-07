@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	epiolmec
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesetting the Epi-Olmec Language.
+COMMENT=	Typesetting the Epi-Olmec Language
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

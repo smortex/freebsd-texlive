@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	stix
-PORTVERSION=	20150419
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	OpenType Unicode maths fonts.
+COMMENT=	OpenType Unicode maths fonts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

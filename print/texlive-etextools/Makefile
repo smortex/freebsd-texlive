@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	etextools
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	e-TeX tools for LaTeX users and package writers.
+COMMENT=	e-TeX tools for LaTeX users and package writers
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

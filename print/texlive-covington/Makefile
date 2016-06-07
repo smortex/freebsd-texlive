@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	covington
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Linguistic support.
+COMMENT=	Linguistic support
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

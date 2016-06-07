@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-pad
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw simple attachment systems with PSTricks.
+COMMENT=	Draw simple attachment systems with PSTricks
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

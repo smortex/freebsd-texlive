@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	comma
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Formats a number by inserting commas.
+COMMENT=	Formats a number by inserting commas
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

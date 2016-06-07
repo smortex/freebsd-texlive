@@ -107,6 +107,7 @@ share/texmf-dist/asymptote/x11colors.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/1overx.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/BezierPatch.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/BezierSurface.asy
+%%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/BezierTriangle.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/Bode.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/CAD1.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/CDlabel.asy
@@ -227,6 +228,8 @@ share/texmf-dist/asymptote/x11colors.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/gamma3.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/generalaxis.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/generalaxis3.asy
+%%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/genusthree.asy
+%%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/genustwo.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/graphmarkers.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/grid.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/grid3xyz.asy
@@ -262,7 +265,6 @@ share/texmf-dist/asymptote/x11colors.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/leastsquares.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/leastsquares.dat
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/legend.asy
-%%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/lemniscate.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/lever.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/limit.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/lineargraph.asy
@@ -376,6 +378,7 @@ share/texmf-dist/asymptote/x11colors.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/tanh.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/teapot.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/tensor.asy
+%%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/tetra.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/textpath.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/thermodynamics.asy
 %%PORTDOCS%%share/texmf-dist/doc/asymptote/examples/threeviews.asy

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mmap
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Include CMap resources in PDF files from PDFTeX.
+COMMENT=	Include CMap resources in PDF files from pdfTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	uaclasses
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	University of Arizona thesis and dissertation format.
+COMMENT=	University of Arizona thesis and dissertation format
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

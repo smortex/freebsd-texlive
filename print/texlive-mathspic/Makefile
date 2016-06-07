@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mathspic
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A Perl filter program for use with PiCTeX.
+COMMENT=	A Perl filter program for use with PiCTeX
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mflogo-font
-PORTVERSION=	20150418
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Metafont logo font.
+COMMENT=	Metafont logo font
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

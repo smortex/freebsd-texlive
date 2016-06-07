@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	epigram
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Display short quotations.
+COMMENT=	Display short quotations
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

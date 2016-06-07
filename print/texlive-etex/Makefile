@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	etex
-PORTVERSION=	20150427
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	An extended version of TeX, from the NTS project.
+COMMENT=	An extended version of TeX, from the NTS project
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

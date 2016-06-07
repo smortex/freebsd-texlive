@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-bwl
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Biblatex citations for FU Berlin.
+COMMENT=	BibLaTeX citations for FU Berlin
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

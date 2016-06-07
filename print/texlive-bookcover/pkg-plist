@@ -1,5 +1,4 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/bookcover/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/bookcover/bookcover.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bookcover/example1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bookcover/example1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/bookcover/example2.pdf
@@ -10,11 +9,14 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/bookcover/figures/background4.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bookcover/figures/background5.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bookcover/figures/bg.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/bookcover/figures/bgtikzclip.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bookcover/figures/bgtikznodes.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bookcover/figures/cards.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/bookcover/figures/cover.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bookcover/figures/coverscheme.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bookcover/figures/dice.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/bookcover/figures/ekflogo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bookcover/figures/example-barcode.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bookcover/figures/foreground1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bookcover/figures/foreground2.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bookcover/figures/result.pdf

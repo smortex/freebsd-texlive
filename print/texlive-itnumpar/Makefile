@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	itnumpar
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Spell numbers in words (Italian).
+COMMENT=	Spell numbers in words (Italian)
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

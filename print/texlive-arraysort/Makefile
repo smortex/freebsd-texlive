@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	arraysort
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Sort arrays (or portions of them).
+COMMENT=	Sort arrays (or portions of them)
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	din1505
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bibliography styles for German texts.
+COMMENT=	Bibliography styles for German texts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

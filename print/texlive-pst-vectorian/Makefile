@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pst-vectorian
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Printing ornaments.
+COMMENT=	Printing ornaments
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

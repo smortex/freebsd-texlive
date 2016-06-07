@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	de-macro
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Expand private macros in a document.
+COMMENT=	Expand private macros in a document
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

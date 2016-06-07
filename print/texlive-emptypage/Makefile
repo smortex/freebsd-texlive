@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	emptypage
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Make empty pages really empty.
+COMMENT=	Make empty pages really empty
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

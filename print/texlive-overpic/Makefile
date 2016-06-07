@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	overpic
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Combine LaTeX commands over included graphics.
+COMMENT=	Combine LaTeX commands over included graphics
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

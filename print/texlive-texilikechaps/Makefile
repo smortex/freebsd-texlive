@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	texilikechaps
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Format chapters with a texi-like format.
+COMMENT=	Format chapters with a texi-like format
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

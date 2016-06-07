@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bigints
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Writing big integrals.
+COMMENT=	Writing big integrals
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

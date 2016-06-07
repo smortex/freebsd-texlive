@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	currfile
-PORTVERSION=	20150412
+PORTVERSION=	20160425
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provide file name and path of input files.
+COMMENT=	Provide file name and path of input files
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

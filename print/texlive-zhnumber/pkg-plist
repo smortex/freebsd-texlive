@@ -1,4 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/zhnumber/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/zhnumber/README.md
 %%PORTDOCS%%share/texmf-dist/doc/latex/zhnumber/zhnumber.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/zhnumber/zhnumber.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/zhnumber/zhnumber.ins

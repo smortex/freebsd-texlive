@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	python
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Embed Python code in LaTeX.
+COMMENT=	Embed Python code in LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

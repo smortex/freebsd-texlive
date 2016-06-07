@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	multirow
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create tabular cells spanning multiple rows.
+COMMENT=	Create tabular cells spanning multiple rows
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

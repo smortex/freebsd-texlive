@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	paper
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Versions of article class, tuned for scholarly publications.
+COMMENT=	Versions of article class, tuned for scholarly publications
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	trajan
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fonts from the Trajan column in Rome.
+COMMENT=	Fonts from the Trajan column in Rome
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	notes2bib
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Integrating notes into the bibliography.
+COMMENT=	Integrating notes into the bibliography
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

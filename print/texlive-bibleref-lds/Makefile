@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bibleref-lds
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bible references, including those to the scriptures of the Church of Jesus Christ of Latter Day Saints.
+COMMENT=	Bible references, including those to the scriptures of the Church of Jesus Christ of Latter Day Saints
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

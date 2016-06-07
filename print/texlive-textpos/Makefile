@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	textpos
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Place boxes at arbitrary positions on the LaTeX page.
+COMMENT=	Place boxes at arbitrary positions on the LaTeX page
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

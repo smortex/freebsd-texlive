@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	gillcm
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Alternative unslanted italic Computer Modern fonts.
+COMMENT=	Alternative unslanted italic Computer Modern fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

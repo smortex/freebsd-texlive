@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	iitem
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multiple level of lists in one list-like environment.
+COMMENT=	Multiple level of lists in one list-like environment
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

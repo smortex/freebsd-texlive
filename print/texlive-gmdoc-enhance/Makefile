@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	gmdoc-enhance
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Some enhancements to the gmdoc package.
+COMMENT=	Some enhancements to the gmdoc package
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	calligra
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Calligraphic font.
+COMMENT=	Calligraphic font
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

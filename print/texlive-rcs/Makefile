@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	rcs
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use RCS (revision control system) tags in LaTeX documents.
+COMMENT=	Use RCS (revision control system) tags in LaTeX documents
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

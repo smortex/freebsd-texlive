@@ -1,17 +1,12 @@
-share/texmf-dist/tex/latex/latexconfig/color.cfg
-share/texmf-dist/tex/latex/latexconfig/dvilualatex.ini
 share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-share/texmf-dist/tex/latex/latexconfig/graphics.cfg
 share/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 share/texmf-dist/tex/latex/latexconfig/latex.ini
 share/texmf-dist/tex/latex/latexconfig/lualatex-patch-kernel.tex
 share/texmf-dist/tex/latex/latexconfig/lualatex-reset-codes.tex
-share/texmf-dist/tex/latex/latexconfig/lualatex.ini
 share/texmf-dist/tex/latex/latexconfig/lualatexiniconfig.tex
 share/texmf-dist/tex/latex/latexconfig/lualatexquotejobname.lua
 share/texmf-dist/tex/latex/latexconfig/lualatexquotejobname.tex
 share/texmf-dist/tex/latex/latexconfig/mllatex.ini
 share/texmf-dist/tex/latex/latexconfig/pdflatex.ini
-share/texmf-dist/tex/latex/latexconfig/xelatex.ini
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

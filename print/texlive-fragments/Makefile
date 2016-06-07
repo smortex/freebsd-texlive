@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fragments
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fragments of LaTeX code.
+COMMENT=	Fragments of LaTeX code
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

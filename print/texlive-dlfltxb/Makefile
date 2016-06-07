@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	dlfltxb
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros related to "Introdktion til LaTeX".
+COMMENT=	Macros related to "Introdktion til LaTeX"
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

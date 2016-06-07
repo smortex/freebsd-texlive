@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	tagpair
-PORTVERSION=	20150514
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Word-by-word glosses, translations, and bibliographic attributions.
+COMMENT=	Word-by-word glosses, translations, and bibliographic attributions
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

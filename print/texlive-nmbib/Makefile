@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	nmbib
-PORTVERSION=	20150729
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multiple versions of a bibliography, with different sort orders.
+COMMENT=	Multiple versions of a bibliography, with different sort orders
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	lexref
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Convenient and uniform references to legal provisions.
+COMMENT=	Convenient and uniform references to legal provisions
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

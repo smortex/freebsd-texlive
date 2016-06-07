@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnotehyper/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnotehyper/footnotehyper.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/footnotehyper/footnotehyper.tex
+%%PORTSRC%%share/texmf-dist/source/latex/footnotehyper/footnotehyper.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/footnotehyper/footnotehyper.ins
+share/texmf-dist/tex/latex/footnotehyper/footnotehyper.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

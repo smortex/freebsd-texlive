@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ltxtools
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A collection of LaTeX API macros.
+COMMENT=	A collection of LaTeX API macros
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

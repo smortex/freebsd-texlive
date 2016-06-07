@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	captcont
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Retain float number across several floats.
+COMMENT=	Retain float number across several floats
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

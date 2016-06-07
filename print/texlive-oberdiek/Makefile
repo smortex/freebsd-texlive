@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	oberdiek
-PORTVERSION=	20150413
+PORTVERSION=	20160519
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A bundle of packages submitted by Heiko Oberdiek.
+COMMENT=	A bundle of packages submitted by Heiko Oberdiek
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

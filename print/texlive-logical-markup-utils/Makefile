@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	logical-markup-utils
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Packages for language-dependent inline quotes and dashes.
+COMMENT=	Packages for language-dependent inline quotes and dashes
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	arabi-add
-PORTVERSION=	20150630
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Using hyperref and bookmark packages with arabic and farsi languages.
+COMMENT=	Using hyperref and bookmark packages with arabic and farsi languages
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

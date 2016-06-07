@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	histogr
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw histograms with the LaTeX picture environment.
+COMMENT=	Draw histograms with the LaTeX picture environment
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

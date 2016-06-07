@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	xcomment
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Allows selected environments to be included/excluded.
+COMMENT=	Allows selected environments to be included/excluded
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

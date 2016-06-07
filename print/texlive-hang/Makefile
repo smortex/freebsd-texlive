@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	hang
-PORTVERSION=	20150513
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Environments for hanging paragraphs and list items.
+COMMENT=	Environments for hanging paragraphs and list items
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

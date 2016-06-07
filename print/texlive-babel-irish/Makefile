@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-irish
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Babel support for Irish.
+COMMENT=	Babel support for Irish
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

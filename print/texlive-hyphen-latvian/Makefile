@@ -1,10 +1,9 @@
 # $FreeBSD$
 
 PORTNAME=	hyphen-latvian
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
-DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Latvian hyphenation patterns.

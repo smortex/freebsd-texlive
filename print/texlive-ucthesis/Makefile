@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ucthesis
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	University of California thesis format.
+COMMENT=	University of California thesis format
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

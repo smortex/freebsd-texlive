@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	dvicopy
-PORTVERSION=	20150428
+PORTVERSION=	20160427
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Copy DVI files, flattening VFs.
+COMMENT=	Copy DVI files, flattening VFs
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

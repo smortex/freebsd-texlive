@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	lastpackage
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Indicates the last loaded package.
+COMMENT=	Indicates the last loaded package
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

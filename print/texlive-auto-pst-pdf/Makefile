@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	auto-pst-pdf
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Wrapper for pst-pdf (with some psfrag features).
+COMMENT=	Wrapper for pst-pdf (with some psfrag features)
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

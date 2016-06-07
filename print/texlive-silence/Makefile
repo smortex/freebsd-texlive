@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	silence
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Selective filtering of error messages and warnings.
+COMMENT=	Selective filtering of error messages and warnings
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

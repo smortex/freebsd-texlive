@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	progressbar
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Visualize shares of total amounts in the form of a (progress-)bar.
+COMMENT=	Visualize shares of total amounts in the form of a (progress-)bar
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

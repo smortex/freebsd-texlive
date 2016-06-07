@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	turnstile
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset the (logic) turnstile notation.
+COMMENT=	Typeset the (logic) turnstile notation
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

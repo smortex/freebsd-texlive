@@ -1,5 +1,4 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/imakeidx/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/imakeidx/imakeidx.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/imakeidx/manifest.txt
 %%PORTSRC%%share/texmf-dist/source/latex/imakeidx/imakeidx.dtx
 share/texmf-dist/tex/latex/imakeidx/imakeidx.sty

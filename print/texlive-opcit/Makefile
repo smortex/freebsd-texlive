@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	opcit
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Footnote-style bibliographical references.
+COMMENT=	Footnote-style bibliographical references
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	delim
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Simplify typesetting mathematical delimiters.
+COMMENT=	Simplify typesetting mathematical delimiters
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

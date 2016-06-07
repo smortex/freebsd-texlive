@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	zapfchan
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	URW "Base 35" font pack for LaTeX.
+COMMENT=	URW "Base 35" font pack for LaTeX
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

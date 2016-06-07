@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	nicefilelist
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provide \listfiles alignment.
+COMMENT=	Provide \listfiles alignment
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

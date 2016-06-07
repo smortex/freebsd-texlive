@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	engpron
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Helps to type the pronunciation of English words.
+COMMENT=	Helps to type the pronunciation of English words
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

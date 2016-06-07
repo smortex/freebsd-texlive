@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tableaux
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Construct tables of signs and variations.
+COMMENT=	Construct tables of signs and variations
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

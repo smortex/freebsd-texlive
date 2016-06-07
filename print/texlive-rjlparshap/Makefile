@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	rjlparshap
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for use of \parshape in LaTeX.
+COMMENT=	Support for use of \parshape in LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

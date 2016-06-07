@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	svgcolor
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Define SVG named colours.
+COMMENT=	Define SVG named colours
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

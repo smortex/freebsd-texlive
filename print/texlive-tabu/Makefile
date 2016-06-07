@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tabu
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Flexible LaTeX tabulars.
+COMMENT=	Flexible LaTeX tabulars
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

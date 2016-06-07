@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langchinese
-PORTVERSION=	20150412
+PORTVERSION=	20160425
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -37,16 +37,18 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
+		${LOCALBASE}/share/texmf-dist/tex/generic/tex-ini-files/dvilualatex.ini:${PORTSDIR}/print/texlive-tex-ini-files \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
 		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/updmap/kanjix.map:${PORTSDIR}/print/texlive-updmap-map \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
-		${LOCALBASE}/share/texmf-dist/fonts/cmap/adobemapping/LICENSE:${PORTSDIR}/print/texlive-adobemapping \
+		${LOCALBASE}/share/texmf-dist/fonts/cmap/adobemapping/README:${PORTSDIR}/print/texlive-adobemapping \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/c90/c90.enc:${PORTSDIR}/print/texlive-c90 \
 		${LOCALBASE}/share/texmf-dist/scripts/cjk-gs-integrate/cjk-gs-integrate.pl:${PORTSDIR}/print/texlive-cjk-gs-integrate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cjk/contrib/wadalab/c42goth.fd:${PORTSDIR}/print/texlive-cjk \
-		${LOCALBASE}/share/texmf-dist/tex/latex/cjkpunct/CJKpunct.sty:${PORTSDIR}/print/texlive-cjkpunct \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cjkpunct/CJKpunct.spa:${PORTSDIR}/print/texlive-cjkpunct \
 		${LOCALBASE}/share/texmf-dist/hbf2gf/README:${PORTSDIR}/print/texlive-cjkutils \
 		${LOCALBASE}/share/texmf-dist/fonts/sfd/dnp/DNP.sfd:${PORTSDIR}/print/texlive-dnp \
 		${LOCALBASE}/share/texmf-dist/dvips/garuda-c90/config.garuda-c90:${PORTSDIR}/print/texlive-garuda-c90 \
@@ -57,10 +59,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/misc/cns/4040w0.bin:${PORTSDIR}/print/texlive-cns \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ctex/ctex.sty:${PORTSDIR}/print/texlive-ctex \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/fandol/FandolBraille-Display.otf:${PORTSDIR}/print/texlive-fandol \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-zh-latn-pinyin.tex:${PORTSDIR}/print/texlive-hyphen-chinese \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xpinyin/xpinyin.sty:${PORTSDIR}/print/texlive-xpinyin \
 		${LOCALBASE}/share/texmf-dist/fonts/tfm/zhmetrics/cyberb/cyberb00.tfm:${PORTSDIR}/print/texlive-zhmetrics \
+		${LOCALBASE}/share/texmf-dist/fonts/tfm/public/zhmetrics-uptex/upmono-h.tfm:${PORTSDIR}/print/texlive-zhmetrics-uptex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zhnumber/zhnumber.sty:${PORTSDIR}/print/texlive-zhnumber \
-		${LOCALBASE}/share/texmf-dist/tex/xetex/zhspacing/generic/zhspacing.sty:${PORTSDIR}/print/texlive-zhspacing
+		${LOCALBASE}/share/texmf-dist/tex/generic/zhspacing/zhspacing.sty:${PORTSDIR}/print/texlive-zhspacing
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

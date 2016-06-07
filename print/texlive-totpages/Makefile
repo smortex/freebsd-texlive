@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	totpages
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Count pages in a document, and report last page number.
+COMMENT=	Count pages in a document, and report last page number
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

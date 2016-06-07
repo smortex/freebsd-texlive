@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-uml
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	UML diagrams with PSTricks.
+COMMENT=	UML diagrams with PSTricks
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/multido/multido.tex:${PORTSDIR}/print/texlive-multido
 

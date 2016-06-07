@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	feynmf
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros and fonts for creating Feynman (and other) diagrams.
+COMMENT=	Macros and fonts for creating Feynman (and other) diagrams
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

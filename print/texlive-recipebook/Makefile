@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	recipebook
-PORTVERSION=	20150423
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset 5.5" x 8" recipes for browsing or printing.
+COMMENT=	Typeset 5.5" x 8" recipes for browsing or printing
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

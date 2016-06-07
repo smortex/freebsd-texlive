@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	image-gallery
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create an overview of pictures from a digital camera or from other sources.
+COMMENT=	Create an overview of pictures from a digital camera or from other sources
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

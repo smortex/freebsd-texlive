@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	droid
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX support for the Droid font families.
+COMMENT=	LaTeX support for the Droid font families
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

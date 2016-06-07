@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	checkcites
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Check citation commands in a document.
+COMMENT=	Check citation commands in a document
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

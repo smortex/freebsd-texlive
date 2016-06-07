@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	jsclasses
-PORTVERSION=	20150412
+PORTVERSION=	20160419
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Classes tailored for use with Japanese.
+COMMENT=	Classes tailored for use with Japanese
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

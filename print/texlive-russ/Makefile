@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	russ
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX in Russian, without babel.
+COMMENT=	LaTeX in Russian, without babel
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

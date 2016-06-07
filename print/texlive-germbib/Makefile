@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	germbib
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	German variants of standard BibTeX styles.
+COMMENT=	German variants of standard BibTeX styles
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

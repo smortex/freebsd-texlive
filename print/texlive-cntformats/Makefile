@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	cntformats
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A different way to read counters.
+COMMENT=	A different way to read counters
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

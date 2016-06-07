@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	poemscol
-PORTVERSION=	20150701
+PORTVERSION=	20160419
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesetting Critical Editions of Poetry.
+COMMENT=	Typesetting Critical Editions of Poetry
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

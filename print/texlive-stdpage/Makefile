@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	stdpage
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Standard pages with n lines of at most m characters each.
+COMMENT=	Standard pages with n lines of at most m characters each
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	randtext
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Randomise the order of characters in strings.
+COMMENT=	Randomise the order of characters in strings
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

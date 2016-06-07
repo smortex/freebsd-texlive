@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/documentation/biblatex-morenames.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/documentation/biblatex-morenames.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/documentation/example-bookineditor.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/documentation/example-bookineditor.dot
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/documentation/example-bookineditor.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/documentation/example-maineditor.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/documentation/example-maineditor.dot
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/documentation/example-maineditor.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/documentation/generate-crossref-graphs.py
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/documentation/latexmkrc
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/documentation/makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/makefile
+share/texmf-dist/tex/latex/biblatex-morenames/morenames.bbx
+share/texmf-dist/tex/latex/biblatex-morenames/morenames.dbx
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

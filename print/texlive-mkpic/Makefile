@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mkpic
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Perl interface to mfpic.
+COMMENT=	Perl interface to mfpic
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

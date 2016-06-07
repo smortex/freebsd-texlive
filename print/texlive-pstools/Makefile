@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pstools
-PORTVERSION=	20150428
+PORTVERSION=	20160427
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Produce Encapsulated PostScript from PostScript.
+COMMENT=	Produce Encapsulated PostScript from PostScript
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

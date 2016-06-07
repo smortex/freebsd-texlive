@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ethiop
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX macros and fonts for typesetting Amharic.
+COMMENT=	LaTeX macros and fonts for typesetting Amharic
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

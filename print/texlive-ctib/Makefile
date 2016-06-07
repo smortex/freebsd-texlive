@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ctib
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Tibetan for TeX and LATeX2e.
+COMMENT=	Tibetan for TeX and LaTeX2e
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

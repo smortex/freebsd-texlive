@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	multenum
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multi-column enumerated lists.
+COMMENT=	Multi-column enumerated lists
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

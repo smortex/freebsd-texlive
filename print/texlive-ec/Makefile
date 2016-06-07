@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ec
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Computer modern fonts in T1 and TS1 encodings.
+COMMENT=	Computer modern fonts in T1 and TS1 encodings
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

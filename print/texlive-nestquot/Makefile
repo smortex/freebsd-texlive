@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	nestquot
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Alternate quotes between double and single with nesting.
+COMMENT=	Alternate quotes between double and single with nesting
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	elocalloc
-PORTVERSION=	20150511
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Local allocation macros for LaTeX 2015.
+COMMENT=	Local allocation macros for LaTeX 2015
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	titlefoot
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Add special material to footer of title page.
+COMMENT=	Add special material to footer of title page
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

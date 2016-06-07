@@ -1,4 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/tikzmark/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikzmark/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikzmark/tikzmark.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/tikzmark/tikzmark.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tikzmark/tikzmark.ins

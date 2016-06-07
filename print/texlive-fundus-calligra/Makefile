@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fundus-calligra
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for the calligra font in LaTeX documents.
+COMMENT=	Support for the calligra font in LaTeX documents
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

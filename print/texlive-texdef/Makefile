@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	texdef
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Display the definitions of TeX commands.
+COMMENT=	Display the definitions of TeX commands
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

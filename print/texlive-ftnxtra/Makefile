@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ftnxtra
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extend the applicability of the \footnote command.
+COMMENT=	Extend the applicability of the \footnote command
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

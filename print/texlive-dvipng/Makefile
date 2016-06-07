@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	dvipng
-PORTVERSION=	20150504
+PORTVERSION=	20160427
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A fast DVI to PNG/GIF converter.
+COMMENT=	A fast DVI to PNG/GIF converter
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

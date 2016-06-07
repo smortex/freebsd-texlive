@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	xprintlen
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Print TeX lengths in a variety of units.
+COMMENT=	Print TeX lengths in a variety of units
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

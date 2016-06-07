@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	williams
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Miscellaneous macros by Peter Williams.
+COMMENT=	Miscellaneous macros by Peter Williams
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

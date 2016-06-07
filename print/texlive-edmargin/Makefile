@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	edmargin
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multiple series of endnotes for critical editions.
+COMMENT=	Multiple series of endnotes for critical editions
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

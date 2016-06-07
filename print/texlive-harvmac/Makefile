@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	harvmac
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros for scientific articles.
+COMMENT=	Macros for scientific articles
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

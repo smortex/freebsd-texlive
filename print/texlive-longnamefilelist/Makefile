@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	longnamefilelist
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Tidy \listfiles with long file names.
+COMMENT=	Tidy \listfiles with long file names
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

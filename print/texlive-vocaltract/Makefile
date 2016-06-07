@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	vocaltract
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Visualise the vocal tract using LaTeX and PStricks.
+COMMENT=	Visualise the vocal tract using LaTeX and PSTricks
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

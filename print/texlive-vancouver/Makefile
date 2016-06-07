@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	vancouver
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bibliographic style file for Biomedical Journals.
+COMMENT=	Bibliographic style file for Biomedical Journals
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

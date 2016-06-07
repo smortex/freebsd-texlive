@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	cnbwp
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset working papers of the Czech National Bank.
+COMMENT=	Typeset working papers of the Czech National Bank
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	karnaughmap
-PORTVERSION=	20150421
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset Karnaugh maps.
+COMMENT=	Typeset Karnaugh maps
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

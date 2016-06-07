@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	duotenzor
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Drawing package for circuit and duotensor diagrams.
+COMMENT=	Drawing package for circuit and duotensor diagrams
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	othelloboard
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset Othello (Reversi) diagrams of any size, with annotations.
+COMMENT=	Typeset Othello (Reversi) diagrams of any size, with annotations
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

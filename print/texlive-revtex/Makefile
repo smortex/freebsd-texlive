@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	revtex
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Styles for various Physics Journals.
+COMMENT=	Styles for various Physics Journals
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

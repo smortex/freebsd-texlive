@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	aeguill
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Add several kinds of guillemets to the ae fonts.
+COMMENT=	Add several kinds of guillemets to the ae fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

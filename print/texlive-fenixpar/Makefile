@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fenixpar
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	One-shot changes to token registers such as \everypar.
+COMMENT=	One-shot changes to token registers such as \everypar
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

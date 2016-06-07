@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	umtypewriter
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fonts to typeset with the xgreek package.
+COMMENT=	Fonts to typeset with the xgreek package
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

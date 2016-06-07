@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	prodint
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A font that provides the product integral symbol.
+COMMENT=	A font that provides the product integral symbol
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

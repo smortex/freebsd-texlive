@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	foilhtml
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Interface between foiltex and LaTeX2HTML.
+COMMENT=	Interface between foiltex and LaTeX2HTML
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

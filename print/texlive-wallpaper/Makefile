@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	wallpaper
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Easy addition of wallpapers (background images) to LaTeX documents, including tiling.
+COMMENT=	Easy addition of wallpapers (background images) to LaTeX documents, including tiling
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

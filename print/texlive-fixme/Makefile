@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fixme
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Insert "fixme" notes into draft documents.
+COMMENT=	Insert "fixme" notes into draft documents
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

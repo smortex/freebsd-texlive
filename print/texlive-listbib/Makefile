@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	listbib
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Lists contents of BibTeX files.
+COMMENT=	Lists contents of BibTeX files
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

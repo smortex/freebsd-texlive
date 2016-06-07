@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	turabian
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create Turabian-formatted material using LaTeX.
+COMMENT=	Create Turabian-formatted material using LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

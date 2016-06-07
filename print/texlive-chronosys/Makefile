@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	chronosys
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Drawing time-line diagrams.
+COMMENT=	Drawing time-line diagrams
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

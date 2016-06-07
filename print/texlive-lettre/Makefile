@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	lettre
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Letters and faxes in French.
+COMMENT=	Letters and faxes in French
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

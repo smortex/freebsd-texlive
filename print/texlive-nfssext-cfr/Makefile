@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	nfssext-cfr
-PORTVERSION=	20150619
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extensions to the LaTeX NFSS.
+COMMENT=	Extensions to the LaTeX NFSS
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

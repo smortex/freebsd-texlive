@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	lplfitch
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fitch-style natural deduction proofs.
+COMMENT=	Fitch-style natural deduction proofs
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

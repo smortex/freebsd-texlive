@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fixltxhyph
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Allow hyphenation of partially-emphasised substrings.
+COMMENT=	Allow hyphenation of partially-emphasised substrings
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

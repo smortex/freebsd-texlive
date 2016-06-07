@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ellipsis
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fix uneven spacing around ellipses in LaTeX text mode.
+COMMENT=	Fix uneven spacing around ellipses in LaTeX text mode
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

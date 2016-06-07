@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	jvlisting
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A replacement for LaTeX's verbatim package.
+COMMENT=	A replacement for LaTeX's verbatim package
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

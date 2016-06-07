@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20160213
+PORTVERSION=	20160510
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -37,10 +37,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
+		${LOCALBASE}/share/texmf-dist/tex/generic/tex-ini-files/dvilualatex.ini:${PORTSDIR}/print/texlive-tex-ini-files \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
 		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/updmap/kanjix.map:${PORTSDIR}/print/texlive-updmap-map \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print/texlive-ae \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/amscls/amsalpha.bst:${PORTSDIR}/print/texlive-amscls \
@@ -50,14 +52,16 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/babelbib/babelbib.sty:${PORTSDIR}/print/texlive-babelbib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/carlisle/dotlessj.sty:${PORTSDIR}/print/texlive-carlisle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/colortbl/colortbl.sty:${PORTSDIR}/print/texlive-colortbl \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dvisvgm-def/dvisvgm.def:${PORTSDIR}/print/texlive-dvisvgm-def \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty:${PORTSDIR}/print/texlive-fancyhdr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fix2col/fix2col.sty:${PORTSDIR}/print/texlive-fix2col \
 		${LOCALBASE}/share/texmf-dist/tex/latex/geometry/geometry.sty:${PORTSDIR}/print/texlive-geometry \
 		${LOCALBASE}/share/texmf-dist/tex/latex/graphics/graphics.sty:${PORTSDIR}/print/texlive-graphics \
+		${LOCALBASE}/share/texmf-dist/tex/latex/graphics-cfg/color.cfg:${PORTSDIR}/print/texlive-graphics-cfg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hyperref/hyperref.sty:${PORTSDIR}/print/texlive-hyperref \
 		${LOCALBASE}/share/texmf-dist/makeindex/latex/gglo.ist:${PORTSDIR}/print/texlive-latex \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/latex-fonts/circle.mf:${PORTSDIR}/print/texlive-latex-fonts \
-		${LOCALBASE}/share/texmf-dist/tex/latex/latexconfig/color.cfg:${PORTSDIR}/print/texlive-latexconfig \
+		${LOCALBASE}/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg:${PORTSDIR}/print/texlive-latexconfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltxmisc/abstbook.cls:${PORTSDIR}/print/texlive-ltxmisc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mfnfss/oldgerm.sty:${PORTSDIR}/print/texlive-mfnfss \
 		${LOCALBASE}/share/texmf-dist/tex/generic/context/mptopdf/mptopdf.tex:${PORTSDIR}/print/texlive-mptopdf \
@@ -73,6 +77,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls:${PORTSDIR}/print/texlive-IEEEtran \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/aastex/aasjournal.bst:${PORTSDIR}/print/texlive-aastex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/abntex2/abntex2.cls:${PORTSDIR}/print/texlive-abntex2 \
+		${LOCALBASE}/share/texmf-dist/tex/latex/acmart/acmart.cls:${PORTSDIR}/print/texlive-acmart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/acmconf/acmconf.cls:${PORTSDIR}/print/texlive-acmconf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/active-conf/active-conf.cls:${PORTSDIR}/print/texlive-active-conf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/adfathesis/adfathesis.cls:${PORTSDIR}/print/texlive-adfathesis \
@@ -129,11 +134,13 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/ijmart/ijmart.cls:${PORTSDIR}/print/texlive-ijmart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/imac/imac.sty:${PORTSDIR}/print/texlive-imac \
 		${LOCALBASE}/share/texmf-dist/tex/latex/imtekda/IMTEKda.cls:${PORTSDIR}/print/texlive-imtekda \
+		${LOCALBASE}/share/texmf-dist/tex/latex/jacow/jacow.cls:${PORTSDIR}/print/texlive-jacow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jmlr/jmlr.cls:${PORTSDIR}/print/texlive-jmlr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jpsj/jpsj2.cls:${PORTSDIR}/print/texlive-jpsj \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kdgdocs/kdgcoursetext.cls:${PORTSDIR}/print/texlive-kdgdocs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kluwer/kluwer.cls:${PORTSDIR}/print/texlive-kluwer \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ksp-thesis/ksp-thesis.cls:${PORTSDIR}/print/texlive-ksp-thesis \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/langsci/langsci-unified.bst:${PORTSDIR}/print/texlive-langsci \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lps/lps.cls:${PORTSDIR}/print/texlive-lps \
 		${LOCALBASE}/share/texmf-dist/tex/latex/matc3/matc3.sty:${PORTSDIR}/print/texlive-matc3 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/matc3mem/matc3mem.cls:${PORTSDIR}/print/texlive-matc3mem \
@@ -148,6 +155,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/nature/nature.cls:${PORTSDIR}/print/texlive-nature \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/nddiss/nddiss2e.bst:${PORTSDIR}/print/texlive-nddiss \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ndsu-thesis/ndsu-thesis.cls:${PORTSDIR}/print/texlive-ndsu-thesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/nwejm/nwejm.cls:${PORTSDIR}/print/texlive-nwejm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nih/nih.cls:${PORTSDIR}/print/texlive-nih \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nihbiosketch/nihbiosketch.cls:${PORTSDIR}/print/texlive-nihbiosketch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nostarch/nostarch.cls:${PORTSDIR}/print/texlive-nostarch \

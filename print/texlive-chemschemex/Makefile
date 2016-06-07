@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	chemschemex
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset and cross-reference chemical schemes based on TikZ code.
+COMMENT=	Typeset and cross-reference chemical schemes based on TikZ code
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

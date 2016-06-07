@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	simplecv
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A simple class for writing curricula vitae.
+COMMENT=	A simple class for writing curricula vitae
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

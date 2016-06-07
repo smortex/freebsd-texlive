@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	octavo
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset books following classical design and layout.
+COMMENT=	Typeset books following classical design and layout
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

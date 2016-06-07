@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-am
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Simulation of modulation and demodulation.
+COMMENT=	Simulation of modulation and demodulation
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

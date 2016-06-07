@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	enigma
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Encrypt documents with a three rotor Enigma.
+COMMENT=	Encrypt documents with a three rotor Enigma
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

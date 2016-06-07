@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	menu
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesetting menus.
+COMMENT=	Typesetting menus
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

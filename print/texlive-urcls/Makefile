@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	urcls
-PORTVERSION=	20150616
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Beamer and scrlttr2 classes and styles for the University of Regensburg.
+COMMENT=	Beamer and scrlttr2 classes and styles for the University of Regensburg
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

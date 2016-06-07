@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	jslectureplanner
-PORTVERSION=	20150718
+PORTVERSION=	20160512
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Creation and management of university course material.
+COMMENT=	Creation and management of university course material
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

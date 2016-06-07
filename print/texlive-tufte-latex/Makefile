@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tufte-latex
-PORTVERSION=	20150624
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Document classes inspired by the work of Edward Tufte.
+COMMENT=	Document classes inspired by the work of Edward Tufte
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/xifthen/xifthen.sty:${PORTSDIR}/print/texlive-xifthen \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty:${PORTSDIR}/print/texlive-ifmtarg \

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	antomega
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Alternative language support for Omega/Lambda.
+COMMENT=	Alternative language support for Omega/Lambda
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/plain/omega/omega.tex:${PORTSDIR}/print/texlive-omega
 

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	regcount
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Display the allocation status of the TeX registers.
+COMMENT=	Display the allocation status of the TeX registers
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

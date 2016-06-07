@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	paratype
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX support for free fonts by ParaType.
+COMMENT=	LaTeX support for free fonts by ParaType
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

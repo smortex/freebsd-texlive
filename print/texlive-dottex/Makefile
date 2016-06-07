@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	dottex
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use dot code in LaTeX.
+COMMENT=	Use dot code in LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

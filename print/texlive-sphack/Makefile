@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	sphack
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Patch LaTeX kernel spacing macros.
+COMMENT=	Patch LaTeX kernel spacing macros
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

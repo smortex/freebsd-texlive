@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	dramatist
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset dramas, both in verse and in prose.
+COMMENT=	Typeset dramas, both in verse and in prose
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

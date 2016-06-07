@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tex-gyre
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	TeX Fonts extending freely available URW fonts.
+COMMENT=	TeX Fonts extending freely available URW fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

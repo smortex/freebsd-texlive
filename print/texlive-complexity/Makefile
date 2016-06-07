@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	complexity
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Computational complexity class names.
+COMMENT=	Computational complexity class names
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

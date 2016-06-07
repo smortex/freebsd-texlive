@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	progress
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Creates an overview of a document's state.
+COMMENT=	Creates an overview of a document's state
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

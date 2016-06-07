@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	matc3
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Commands for MatematicaC3 textbooks.
+COMMENT=	Commands for MatematicaC3 textbooks
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

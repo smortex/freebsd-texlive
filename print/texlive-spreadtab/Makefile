@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	spreadtab
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Spreadsheet features for LaTeX tabular environments.
+COMMENT=	Spreadsheet features for LaTeX tabular environments
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-ob3d
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Three dimensional objects using PSTricks.
+COMMENT=	Three dimensional objects using PSTricks
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

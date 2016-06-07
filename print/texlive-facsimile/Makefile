@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	facsimile
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Document class for preparing faxes.
+COMMENT=	Document class for preparing faxes
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

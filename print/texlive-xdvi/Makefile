@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	xdvi
-PORTVERSION=	20150428
+PORTVERSION=	20160427
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A DVI previewer for the X Window System.
+COMMENT=	A DVI previewer for the X Window System
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

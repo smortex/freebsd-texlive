@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	sepfootnotes
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support footnotes and endnotes from separate files.
+COMMENT=	Support footnotes and endnotes from separate files
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

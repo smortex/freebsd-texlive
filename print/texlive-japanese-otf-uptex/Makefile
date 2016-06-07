@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	japanese-otf-uptex
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for Japanese OTF files in upLaTeX.
+COMMENT=	Support for Japanese OTF files in upLaTeX
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/japanese-otf/otf-cktx.map:${PORTSDIR}/print/texlive-japanese-otf
 

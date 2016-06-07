@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	opteng
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	SPIE Optical Engineering and OE Letters manuscript template.
+COMMENT=	SPIE Optical Engineering and OE Letters manuscript template
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

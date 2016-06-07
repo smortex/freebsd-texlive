@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	reflectgraphics
-PORTVERSION=	20150709
+PORTVERSION=	20160419
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Techniques for reflecting graphics.
+COMMENT=	Techniques for reflecting graphics
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

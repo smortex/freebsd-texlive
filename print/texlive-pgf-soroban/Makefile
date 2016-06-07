@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pgf-soroban
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create images of the soroban using TikZ/PGF.
+COMMENT=	Create images of the soroban using TikZ/PGF
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

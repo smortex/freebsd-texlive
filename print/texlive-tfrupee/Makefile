@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tfrupee
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A font offering the new (Indian) Rupee symbol.
+COMMENT=	A font offering the new (Indian) Rupee symbol
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

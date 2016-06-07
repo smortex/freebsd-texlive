@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	semioneside
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Put only special contents on left-hand pages in two sided layout.
+COMMENT=	Put only special contents on left-hand pages in two sided layout
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

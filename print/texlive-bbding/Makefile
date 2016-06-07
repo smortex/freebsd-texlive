@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bbding
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A symbol (dingbat) font and LaTeX macros for its use.
+COMMENT=	A symbol (dingbat) font and LaTeX macros for its use
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	environ
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A new interface for environments in LaTeX.
+COMMENT=	A new interface for environments in LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

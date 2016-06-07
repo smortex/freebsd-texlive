@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	datetime2-galician
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	galician language module for the datetime2 package.
+COMMENT=	galician language module for the datetime2 package
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

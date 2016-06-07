@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	munich
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	An alternative authordate bibliography style.
+COMMENT=	An alternative authordate bibliography style
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

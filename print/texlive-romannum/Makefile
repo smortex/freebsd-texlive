@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	romannum
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generate roman numerals instead of arabic digits.
+COMMENT=	Generate roman numerals instead of arabic digits
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

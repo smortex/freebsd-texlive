@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	syntax
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Creation of syntax diagrams.
+COMMENT=	Creation of syntax diagrams
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

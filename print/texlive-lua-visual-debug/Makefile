@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	lua-visual-debug
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Visual debugging with LuaLaTeX.
+COMMENT=	Visual debugging with LuaLaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

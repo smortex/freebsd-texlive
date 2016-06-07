@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bodegraph
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw Bode, Nyquist and Black plots with gnuplot and TikZ.
+COMMENT=	Draw Bode, Nyquist and Black plots with gnuplot and TikZ
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

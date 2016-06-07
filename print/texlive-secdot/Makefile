@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	secdot
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Section numbers with trailing dots.
+COMMENT=	Section numbers with trailing dots
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

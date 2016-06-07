@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	termlist
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Label any kind of term with a continuous counter.
+COMMENT=	Label any kind of term with a continuous counter
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

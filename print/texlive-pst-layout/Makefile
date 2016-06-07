@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-layout
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Page layout macros based on PStricks packages.
+COMMENT=	Page layout macros based on PSTricks packages
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	substitutefont
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Easy font substitution.
+COMMENT=	Easy font substitution
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

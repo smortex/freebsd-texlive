@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	js-misc
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Miscellaneous macros from Joachim Schrod.
+COMMENT=	Miscellaneous macros from Joachim Schrod
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	menukeys
-PORTVERSION=	20150412
+PORTVERSION=	20160419
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Format menu sequences, paths and keystrokes from lists.
+COMMENT=	Format menu sequences, paths and keystrokes from lists
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

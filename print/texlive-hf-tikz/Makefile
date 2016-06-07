@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	hf-tikz
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A simple way to highlight formulas and formula parts.
+COMMENT=	A simple way to highlight formulas and formula parts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

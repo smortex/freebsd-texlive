@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pst-barcode
-PORTVERSION=	20150618
+PORTVERSION=	20160424
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Print barcodes using PostScript.
+COMMENT=	Print barcodes using PostScript
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

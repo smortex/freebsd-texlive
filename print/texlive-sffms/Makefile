@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	sffms
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesetting science fiction/fantasy manuscripts.
+COMMENT=	Typesetting science fiction/fantasy manuscripts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

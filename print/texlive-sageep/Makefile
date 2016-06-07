@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	sageep
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Format papers for the annual meeting of EEGS.
+COMMENT=	Format papers for the annual meeting of EEGS
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

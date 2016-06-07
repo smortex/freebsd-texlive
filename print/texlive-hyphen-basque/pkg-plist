@@ -1,2 +1,10 @@
+%%PORTSRC%%share/texmf-dist/source/generic/hyph-utf8/languages/eu/generate_patterns_eu.rb
+share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-eu.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/ptex/hyph-eu.ec.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-eu.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-eu.chr.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-eu.hyp.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-eu.lic.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-eu.pat.txt
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

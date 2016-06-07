@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	accfonts
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Utilities to derive new fonts from existing ones.
+COMMENT=	Utilities to derive new fonts from existing ones
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

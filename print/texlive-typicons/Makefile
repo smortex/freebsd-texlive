@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	typicons
-PORTVERSION=	20150620
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Font containing a set of web-related icons.
+COMMENT=	Font containing a set of web-related icons
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

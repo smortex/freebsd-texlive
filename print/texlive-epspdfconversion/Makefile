@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	epspdfconversion
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	On-the-fly conversion of EPS to PDF.
+COMMENT=	On-the-fly conversion of EPS to PDF
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

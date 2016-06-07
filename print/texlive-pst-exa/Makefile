@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-exa
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset PSTricks examples, with code.
+COMMENT=	Typeset PSTricks examples, with code
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	orkhun
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A font for orkhun script.
+COMMENT=	A font for orkhun script
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

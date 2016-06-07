@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-binextra
-PORTVERSION=	20151026
+PORTVERSION=	20160423
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -37,9 +37,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
+		${LOCALBASE}/share/texmf-dist/tex/generic/tex-ini-files/dvilualatex.ini:${PORTSDIR}/print/texlive-tex-ini-files \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
+		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/updmap/kanjix.map:${PORTSDIR}/print/texlive-updmap-map \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/scripts/a2ping/a2ping.pl:${PORTSDIR}/print/texlive-a2ping \
 		${LOCALBASE}/share/texmf-dist/scripts/adhocfilelist/adhocfilelist.sh:${PORTSDIR}/print/texlive-adhocfilelist \
@@ -55,7 +58,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/de-macro/de-macro:${PORTSDIR}/print/texlive-de-macro \
 		${LOCALBASE}/share/texmf-dist/scripts/dtxgen/dtxgen:${PORTSDIR}/print/texlive-dtxgen \
 		${LOCALBASE}/share/texmf-dist/scripts/dviasm/dviasm.py:${PORTSDIR}/print/texlive-dviasm \
-		${LOCALBASE}/share/texmf-dist/doc/man/man1/dvidvi.1:${PORTSDIR}/print/texlive-dvidvi \
 		${LOCALBASE}/share/texmf-dist/scripts/findhyph/findhyph:${PORTSDIR}/print/texlive-findhyph \
 		${LOCALBASE}/share/texmf-dist/scripts/fragmaster/fragmaster.pl:${PORTSDIR}/print/texlive-fragmaster \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyphenex/ushyphex.tex:${PORTSDIR}/print/texlive-hyphenex \
@@ -72,11 +74,13 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/listings-ext/listings-ext.sty:${PORTSDIR}/print/texlive-listings-ext \
 		${LOCALBASE}/share/texmf-dist/scripts/make4ht/filters/make4ht-cleanspan-nat.lua:${PORTSDIR}/print/texlive-make4ht \
 		${LOCALBASE}/share/texmf-dist/scripts/match_parens/match_parens:${PORTSDIR}/print/texlive-match_parens \
+		${LOCALBASE}/share/texmf-dist/scripts/mflua/begin_program.lua:${PORTSDIR}/print/texlive-mflua \
 		${LOCALBASE}/share/texmf-dist/scripts/mkjobtexmf/mkjobtexmf.pl:${PORTSDIR}/print/texlive-mkjobtexmf \
 		${LOCALBASE}/share/texmf-dist/scripts/pdfbook2/pdfbook2:${PORTSDIR}/print/texlive-pdfbook2 \
 		${LOCALBASE}/share/texmf-dist/scripts/pdfcrop/pdfcrop.pl:${PORTSDIR}/print/texlive-pdfcrop \
 		${LOCALBASE}/share/texmf-dist/scripts/pdfjam/pdf180:${PORTSDIR}/print/texlive-pdfjam \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/e2pall.pl:${PORTSDIR}/print/texlive-pdftools \
+		${LOCALBASE}/share/texmf-dist/scripts/pdfxup/pdfxup:${PORTSDIR}/print/texlive-pdfxup \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pfarrei/pfarrei.sty:${PORTSDIR}/print/texlive-pfarrei \
 		${LOCALBASE}/share/texmf-dist/scripts/pkfix/pkfix.pl:${PORTSDIR}/print/texlive-pkfix \
 		${LOCALBASE}/share/texmf-dist/scripts/pkfix-helper/pkfix-helper:${PORTSDIR}/print/texlive-pkfix-helper \

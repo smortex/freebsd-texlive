@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	recycle
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A font providing the "recyclable" logo.
+COMMENT=	A font providing the "recyclable" logo
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

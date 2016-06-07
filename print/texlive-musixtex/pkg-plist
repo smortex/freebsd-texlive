@@ -5,6 +5,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/ChangeLog-118.txt
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/ChangeLog-119.txt
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/ChangeLog-120.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/ChangeLog-121.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/ChangeLog-122.txt
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/ChangeLog-musixdoc.txt
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/README
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/8bitchar.tex
@@ -66,6 +68,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/pacifiqt.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/parnasum.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/partitur.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/pedal.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/prelfug.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/prelude.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/musixtex/examples/pslurvgap.tex

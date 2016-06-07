@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	stubs
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create tear-off stubs at the bottom of a page.
+COMMENT=	Create tear-off stubs at the bottom of a page
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

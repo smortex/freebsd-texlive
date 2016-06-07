@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	texpower
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create dynamic online presentations with LaTeX.
+COMMENT=	Create dynamic online presentations with LaTeX
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/tpslifonts/tpslifonts.sty:${PORTSDIR}/print/texlive-tpslifonts
 

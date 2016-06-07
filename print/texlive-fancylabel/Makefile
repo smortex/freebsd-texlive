@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	fancylabel
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Complex labelling with LaTeX.
+COMMENT=	Complex labelling with LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

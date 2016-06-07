@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	technics
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A package to format technical documents.
+COMMENT=	A package to format technical documents
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

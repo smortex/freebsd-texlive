@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	clock
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Graphical and textual clocks for TeX and LaTeX.
+COMMENT=	Graphical and textual clocks for TeX and LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tapir
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A simple geometrical font.
+COMMENT=	A simple geometrical font
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

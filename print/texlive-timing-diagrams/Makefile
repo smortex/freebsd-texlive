@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	timing-diagrams
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw timing diagrams.
+COMMENT=	Draw timing diagrams
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

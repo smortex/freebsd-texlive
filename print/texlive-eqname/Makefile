@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	eqname
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Name tags for equations.
+COMMENT=	Name tags for equations
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

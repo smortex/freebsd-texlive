@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pkfix-helper
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Make PostScript files accessible to pkfix.
+COMMENT=	Make PostScript files accessible to pkfix
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

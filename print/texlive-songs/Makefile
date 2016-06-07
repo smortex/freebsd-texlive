@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	songs
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Produce song books for church or fellowship.
+COMMENT=	Produce song books for church or fellowship
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

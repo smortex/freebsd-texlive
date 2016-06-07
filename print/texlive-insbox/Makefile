@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	insbox
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Insert pictures/boxes into paragraphs.
+COMMENT=	Insert pictures/boxes into paragraphs
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

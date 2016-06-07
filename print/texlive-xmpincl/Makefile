@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	xmpincl
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Include eXtensible Metadata Platform data in PDFLaTeX.
+COMMENT=	Include eXtensible Metadata Platform data in pdfLaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

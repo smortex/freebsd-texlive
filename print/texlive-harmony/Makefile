@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	harmony
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset harmony symbols, etc., for musicology.
+COMMENT=	Typeset harmony symbols, etc., for musicology
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

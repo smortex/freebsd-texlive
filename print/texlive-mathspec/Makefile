@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mathspec
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Specify arbitrary fonts for mathematics in XeTeX.
+COMMENT=	Specify arbitrary fonts for mathematics in XeTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ziffer
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Conversion of punctuation in maths mode.
+COMMENT=	Conversion of punctuation in maths mode
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

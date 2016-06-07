@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	xetex-devanagari
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	XeTeX input map for Unicode Devanagari.
+COMMENT=	XeTeX input map for Unicode Devanagari
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

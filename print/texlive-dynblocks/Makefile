@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	dynblocks
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A simple way to create dynamic blocks for Beamer.
+COMMENT=	A simple way to create dynamic blocks for Beamer
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	eulervm
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Euler virtual math fonts.
+COMMENT=	Euler virtual math fonts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tkz-linknodes
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Link nodes in mathematical environments.
+COMMENT=	Link nodes in mathematical environments
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

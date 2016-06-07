@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mdputu
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Upright digits in Adobe Utopia Italic.
+COMMENT=	Upright digits in Adobe Utopia Italic
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

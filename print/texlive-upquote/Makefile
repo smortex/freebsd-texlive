@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	upquote
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Show "realistic" quotes in verbatim.
+COMMENT=	Show "realistic" quotes in verbatim
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

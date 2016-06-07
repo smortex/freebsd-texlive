@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-grad
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Filling with colour gradients, using PStricks.
+COMMENT=	Filling with colour gradients, using PSTricks
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

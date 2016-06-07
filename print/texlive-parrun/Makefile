@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	parrun
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesets (two) streams of text running parallel.
+COMMENT=	Typesets (two) streams of text running parallel
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

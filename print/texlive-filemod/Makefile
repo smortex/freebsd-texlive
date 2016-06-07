@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	filemod
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provide file modification times, and compare them.
+COMMENT=	Provide file modification times, and compare them
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

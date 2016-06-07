@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	properties
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Load properties from a file.
+COMMENT=	Load properties from a file
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

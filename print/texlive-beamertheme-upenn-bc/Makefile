@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	beamertheme-upenn-bc
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Beamer themies for Boston College and the University of Pennsylvania.
+COMMENT=	Beamer themies for Boston College and the University of Pennsylvania
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

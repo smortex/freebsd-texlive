@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	svn
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset Subversion keywords.
+COMMENT=	Typeset Subversion keywords
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

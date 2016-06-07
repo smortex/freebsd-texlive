@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	courier-scaled
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provides a scaled Courier font.
+COMMENT=	Provides a scaled Courier font
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

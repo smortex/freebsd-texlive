@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	rcsinfo
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for the revision control system.
+COMMENT=	Support for the revision control system
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

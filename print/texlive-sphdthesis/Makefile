@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	sphdthesis
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Latex template for writing PhD Thesis
+COMMENT=	LaTeX template for writing PhD Thesis
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

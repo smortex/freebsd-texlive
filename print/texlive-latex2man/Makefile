@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	latex2man
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Translate LaTeX-based manual pages into Unix man format.
+COMMENT=	Translate LaTeX-based manual pages into Unix man format
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

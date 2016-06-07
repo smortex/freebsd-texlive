@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	sgame
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX style for typesetting strategic games.
+COMMENT=	LaTeX style for typesetting strategic games
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

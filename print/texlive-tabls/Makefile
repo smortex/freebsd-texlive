@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tabls
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Better vertical spacing in tables and arrays.
+COMMENT=	Better vertical spacing in tables and arrays
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

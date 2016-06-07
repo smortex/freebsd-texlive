@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	lps
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class for "Logic and Philosophy of Science".
+COMMENT=	Class for "Logic and Philosophy of Science"
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

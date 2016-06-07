@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	eltex
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Simple circuit diagrams in LaTeX picture mode.
+COMMENT=	Simple circuit diagrams in LaTeX picture mode
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

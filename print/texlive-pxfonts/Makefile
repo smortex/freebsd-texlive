@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pxfonts
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Palatino-like fonts in support of mathematics.
+COMMENT=	Palatino-like fonts in support of mathematics
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

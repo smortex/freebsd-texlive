@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	authorindex
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Index citations by author names.
+COMMENT=	Index citations by author names
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

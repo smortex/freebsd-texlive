@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ccaption
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Continuation headings and legends for floats.
+COMMENT=	Continuation headings and legends for floats
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

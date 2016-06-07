@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	multibibliography
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multiple versions of a bibliography, with different sort orders.
+COMMENT=	Multiple versions of a bibliography, with different sort orders
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

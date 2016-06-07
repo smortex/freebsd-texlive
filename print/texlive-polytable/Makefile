@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	polytable
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Tabular-like environments with named columns.
+COMMENT=	Tabular-like environments with named columns
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

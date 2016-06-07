@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	umthesis
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Dissertations at the University of Michigan.
+COMMENT=	Dissertations at the University of Michigan
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

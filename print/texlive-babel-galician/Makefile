@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	babel-galician
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

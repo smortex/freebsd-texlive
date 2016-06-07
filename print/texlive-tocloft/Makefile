@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	tocloft
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Control table of contents, figures, etc.
+COMMENT=	Control table of contents, figures, etc
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

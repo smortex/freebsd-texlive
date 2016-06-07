@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	catchfilebetweentags
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Catch text delimited by docstrip tags.
+COMMENT=	Catch text delimited by docstrip tags
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

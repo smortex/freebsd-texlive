@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cm-lgc
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Type 1 CM-based fonts for Latin, Greek and Cyrillic.
+COMMENT=	Type 1 CM-based fonts for Latin, Greek and Cyrillic
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

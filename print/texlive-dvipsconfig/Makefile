@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	dvipsconfig
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Collection of dvips PostScript headers.
+COMMENT=	Collection of dvips PostScript headers
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

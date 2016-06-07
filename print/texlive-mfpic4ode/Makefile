@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mfpic4ode
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros to draw direction fields and solutions of ODEs.
+COMMENT=	Macros to draw direction fields and solutions of ODEs
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

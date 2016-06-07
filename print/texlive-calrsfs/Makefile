@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	calrsfs
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Copperplate calligraphic letters in LaTeX.
+COMMENT=	Copperplate calligraphic letters in LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	moreenum
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	More enumeration options.
+COMMENT=	More enumeration options
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

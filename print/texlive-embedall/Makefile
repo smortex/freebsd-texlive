@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	embedall
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Embed source files into the generated PDF.
+COMMENT=	Embed source files into the generated PDF
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

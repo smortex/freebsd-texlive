@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	splitbib
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Split and reorder your bibliography.
+COMMENT=	Split and reorder your bibliography
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

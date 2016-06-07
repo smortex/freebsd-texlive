@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	dutchcal
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A reworking of ESSTIX13, adding a bold version.
+COMMENT=	A reworking of ESSTIX13, adding a bold version
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

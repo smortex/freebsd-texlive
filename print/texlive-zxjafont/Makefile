@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	zxjafont
-PORTVERSION=	20150509
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Set up Japanese font families for XeLaTeX.
+COMMENT=	Set up Japanese font families for XeLaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

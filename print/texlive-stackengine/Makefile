@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	stackengine
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Highly customised stacking of objects, insets, baseline changes, etc.
+COMMENT=	Highly customised stacking of objects, insets, baseline changes, etc
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

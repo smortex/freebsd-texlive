@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	emarks
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Named mark registers with e-TeX.
+COMMENT=	Named mark registers with e-TeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

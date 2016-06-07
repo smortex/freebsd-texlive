@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	eqparbox
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create equal-widthed parboxes.
+COMMENT=	Create equal-widthed parboxes
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

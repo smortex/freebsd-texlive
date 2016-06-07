@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-calendar
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Plot calendars in "fancy" ways.
+COMMENT=	Plot calendars in "fancy" ways
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

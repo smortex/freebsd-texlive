@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	apalike2
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bibliography style that approaches APA requirements.
+COMMENT=	Bibliography style that approaches APA requirements
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

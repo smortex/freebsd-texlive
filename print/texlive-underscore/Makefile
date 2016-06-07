@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	underscore
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Control the behaviour of "_" in text.
+COMMENT=	Control the behaviour of "_" in text
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

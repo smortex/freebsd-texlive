@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	apacite
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Citation style following the rules of the APA.
+COMMENT=	Citation style following the rules of the APA
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

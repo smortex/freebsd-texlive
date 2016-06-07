@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	esstix
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	PostScript versions of the ESSTIX, with macro support.
+COMMENT=	PostScript versions of the ESSTIX, with macro support
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	montex
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Mongolian LaTeX.
+COMMENT=	Mongolian LaTeX
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/cbfonts/CB.enc:${PORTSDIR}/print/texlive-cbfonts
 

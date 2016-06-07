@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	abraces
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Asymmetric over-/underbraces in maths.
+COMMENT=	Asymmetric over-/underbraces in maths
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

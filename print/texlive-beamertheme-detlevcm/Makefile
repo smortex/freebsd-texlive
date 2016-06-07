@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	beamertheme-detlevcm
-PORTVERSION=	20151209
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

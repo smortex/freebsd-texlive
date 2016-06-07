@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cv
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A package for creating a curriculum vitae.
+COMMENT=	A package for creating a curriculum vitae
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

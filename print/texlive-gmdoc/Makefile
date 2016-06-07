@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	gmdoc
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Documentation of LaTeX packages.
+COMMENT=	Documentation of LaTeX packages
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

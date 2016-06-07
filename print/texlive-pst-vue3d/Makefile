@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-vue3d
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw perspective views of three dimensional objects.
+COMMENT=	Draw perspective views of three dimensional objects
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

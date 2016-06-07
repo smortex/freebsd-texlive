@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-bulgarian
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Babel contributed support for Bulgarian.
+COMMENT=	Babel contributed support for Bulgarian
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

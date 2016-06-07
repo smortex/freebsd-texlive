@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	graphicx-psmin
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Reduce size of PostScript files by not repeating images.
+COMMENT=	Reduce size of PostScript files by not repeating images
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

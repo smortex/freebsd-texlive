@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	elteikthesis
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Thesis class for ELTE University Informatics wing.
+COMMENT=	Thesis class for ELTE University Informatics wing
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

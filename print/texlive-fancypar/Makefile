@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fancypar
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Decoration of individual paragraphs.
+COMMENT=	Decoration of individual paragraphs
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

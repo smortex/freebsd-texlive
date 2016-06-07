@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-fractal
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw fractal sets using PSTricks.
+COMMENT=	Draw fractal sets using PSTricks
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

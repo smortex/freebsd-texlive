@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fbs
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	BibTeX style for Frontiers in Bioscience.
+COMMENT=	BibTeX style for Frontiers in Bioscience
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

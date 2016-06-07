@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-swiss-legal
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bibliography and citation styles following Swiss legal practice.
+COMMENT=	Bibliography and citation styles following Swiss legal practice
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	gsemthesis
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Geneva School of Economics and Management PhD thesis format.
+COMMENT=	Geneva School of Economics and Management PhD thesis format
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

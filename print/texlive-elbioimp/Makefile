@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	elbioimp
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A LaTeX document class for the Journal of Electrical Bioimpedance.
+COMMENT=	A LaTeX document class for the Journal of Electrical Bioimpedance
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	icsv
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class for typesetting articles for the ICSV conference.
+COMMENT=	Class for typesetting articles for the ICSV conference
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

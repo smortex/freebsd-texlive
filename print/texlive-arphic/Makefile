@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	arphic
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Arphic (Chinese) font packages.
+COMMENT=	Arphic (Chinese) font packages
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

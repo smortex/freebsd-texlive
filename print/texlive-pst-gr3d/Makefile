@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-gr3d
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Three dimensional grids with PSTricks.
+COMMENT=	Three dimensional grids with PSTricks
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

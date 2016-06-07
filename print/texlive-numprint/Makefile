@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	numprint
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Print numbers with separators and exponent if necessary.
+COMMENT=	Print numbers with separators and exponent if necessary
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

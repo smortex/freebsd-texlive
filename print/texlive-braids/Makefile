@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	braids
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw braid diagrams with PGF/TikZ.
+COMMENT=	Draw braid diagrams with PGF/TikZ
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -95,6 +95,7 @@ share/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex
 share/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex
 share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-dvipdfmx.def
 share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-dvips.def
+share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-luatex.def
 share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def
 share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-xetex.def
 share/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex

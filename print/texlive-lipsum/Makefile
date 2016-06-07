@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	lipsum
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Easy access to the Lorem Ipsum dummy text.
+COMMENT=	Easy access to the Lorem Ipsum dummy text
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

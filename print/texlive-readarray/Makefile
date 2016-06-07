@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	readarray
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Read, store and recall array-formatted data.
+COMMENT=	Read, store and recall array-formatted data
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

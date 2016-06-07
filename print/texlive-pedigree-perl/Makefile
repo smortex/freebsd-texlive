@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pedigree-perl
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generate TeX pedigree files from CSV files.
+COMMENT=	Generate TeX pedigree files from CSV files
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

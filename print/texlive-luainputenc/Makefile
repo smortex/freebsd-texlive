@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	luainputenc
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Replacing inputenc for use in LuaTeX.
+COMMENT=	Replacing inputenc for use in LuaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

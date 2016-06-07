@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	totcount
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Find the last value of a counter.
+COMMENT=	Find the last value of a counter
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

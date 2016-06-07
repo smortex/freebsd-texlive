@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	changes
-PORTVERSION=	20150429
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Manual change markup.
+COMMENT=	Manual change markup
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

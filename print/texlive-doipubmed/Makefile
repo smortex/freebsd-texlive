@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	doipubmed
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Special commands for use in bibliographies.
+COMMENT=	Special commands for use in bibliographies
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

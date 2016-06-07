@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	tikzinclude
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Import TikZ images from colletions.
+COMMENT=	Import TikZ images from colletions
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

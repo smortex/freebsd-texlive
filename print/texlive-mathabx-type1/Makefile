@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mathabx-type1
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Outline version of the mathabx fonts.
+COMMENT=	Outline version of the mathabx fonts
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/mathabx/mathabx.sty:${PORTSDIR}/print/texlive-mathabx
 

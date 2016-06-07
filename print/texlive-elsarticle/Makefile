@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	elsarticle
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class for articles for submission to Elsevier journals.
+COMMENT=	Class for articles for submission to Elsevier journals
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	gincltex
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Include TeX files as graphics (.tex support for \includegraphics).
+COMMENT=	Include TeX files as graphics (.tex support for \includegraphics)
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

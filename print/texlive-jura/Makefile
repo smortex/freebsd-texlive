@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	jura
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A document class for German legal texts.
+COMMENT=	A document class for German legal texts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

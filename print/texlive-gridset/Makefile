@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	gridset
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Grid, a.k.a. in-register, setting.
+COMMENT=	Grid, a.k.a. in-register, setting
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	filedate
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Access and compare info and modification dates.
+COMMENT=	Access and compare info and modification dates
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

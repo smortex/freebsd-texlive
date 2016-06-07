@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20160402
+PORTVERSION=	20160515
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -37,10 +37,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
+		${LOCALBASE}/share/texmf-dist/tex/generic/tex-ini-files/dvilualatex.ini:${PORTSDIR}/print/texlive-tex-ini-files \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
 		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/updmap/kanjix.map:${PORTSDIR}/print/texlive-updmap-map \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/Asana-Math/Asana-Math.otf:${PORTSDIR}/print/texlive-Asana-Math \
 		${LOCALBASE}/share/texmf-dist/tex/latex/academicons/academicons.sty:${PORTSDIR}/print/texlive-academicons \
@@ -93,11 +95,13 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/cfr-initials/Acorn.sty:${PORTSDIR}/print/texlive-cfr-initials \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cfr-lm/cfr-lm.sty:${PORTSDIR}/print/texlive-cfr-lm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cherokee/cherokee.sty:${PORTSDIR}/print/texlive-cherokee \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/chivo/chi_g7gdou.enc:${PORTSDIR}/print/texlive-chivo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cinzel/cinzel.sty:${PORTSDIR}/print/texlive-cinzel \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/clearsans/clr_er7w2x.enc:${PORTSDIR}/print/texlive-clearsans \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/cm-lgc/fcmb6y.afm:${PORTSDIR}/print/texlive-cm-lgc \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/cm-unicode/cmunbbx.afm:${PORTSDIR}/print/texlive-cm-unicode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmbright/cmbright.sty:${PORTSDIR}/print/texlive-cmbright \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cmexb/cmexb.map:${PORTSDIR}/print/texlive-cmexb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmll/cmll.sty:${PORTSDIR}/print/texlive-cmll \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/cmpica/cmpica.mf:${PORTSDIR}/print/texlive-cmpica \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmtiup/cmtiup.sty:${PORTSDIR}/print/texlive-cmtiup \
@@ -151,6 +155,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fonetika/fonetika.sty:${PORTSDIR}/print/texlive-fonetika \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fontawesome/fontawesome.sty:${PORTSDIR}/print/texlive-fontawesome \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fontmfizz/fontmfizz.sty:${PORTSDIR}/print/texlive-fontmfizz \
+		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/fonts-churchslavonic/FedorovskUnicode.otf:${PORTSDIR}/print/texlive-fonts-churchslavonic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/old-arrows/old-arrows.sty:${PORTSDIR}/print/texlive-old-arrows \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fourier/fourier.sty:${PORTSDIR}/print/texlive-fourier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fouriernc/fouriernc.sty:${PORTSDIR}/print/texlive-fouriernc \
@@ -210,6 +215,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/miama/miama.sty:${PORTSDIR}/print/texlive-miama \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mintspirit/mintspirit.sty:${PORTSDIR}/print/texlive-mintspirit \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc:${PORTSDIR}/print/texlive-mnsymbol \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mweights/mweights.sty:${PORTSDIR}/print/texlive-mweights \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/newpx/TeXGyrePagella-Regular.afm:${PORTSDIR}/print/texlive-newpx \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/newtx/ntxsups-Bold.afm:${PORTSDIR}/print/texlive-newtx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/newtxsf/newtxsf.sty:${PORTSDIR}/print/texlive-newtxsf \
@@ -245,6 +251,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/recycle/recycle.sty:${PORTSDIR}/print/texlive-recycle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/roboto/roboto.sty:${PORTSDIR}/print/texlive-roboto \
 		${LOCALBASE}/share/texmf-dist/tex/latex/romande/romande.sty:${PORTSDIR}/print/texlive-romande \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/rosario/ros_amohrd.enc:${PORTSDIR}/print/texlive-rosario \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rsfso/rsfso.sty:${PORTSDIR}/print/texlive-rsfso \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty:${PORTSDIR}/print/texlive-sansmathaccent \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sansmathfonts/sansmathfonts.sty:${PORTSDIR}/print/texlive-sansmathfonts \
@@ -260,6 +267,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/staves/staves.sty:${PORTSDIR}/print/texlive-staves \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stix/stix.sty:${PORTSDIR}/print/texlive-stix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/superiors/superiors.sty:${PORTSDIR}/print/texlive-superiors \
+		${LOCALBASE}/share/texmf-dist/tex/latex/svrsymbols/svrsymbols.sty:${PORTSDIR}/print/texlive-svrsymbols \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/tapir/tap-enc.mf:${PORTSDIR}/print/texlive-tapir \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tempora/tempora.sty:${PORTSDIR}/print/texlive-tempora \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tengwarscript/tengwarscript.sty:${PORTSDIR}/print/texlive-tengwarscript \

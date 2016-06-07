@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	nature
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Prepare papers for the journal Nature.
+COMMENT=	Prepare papers for the journal Nature
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

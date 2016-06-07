@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	gmutils
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support macros for other packages.
+COMMENT=	Support macros for other packages
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

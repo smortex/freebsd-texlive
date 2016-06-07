@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	uowthesis
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Document class for dissertations at the University of Wollongong.
+COMMENT=	Document class for dissertations at the University of Wollongong
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	hausarbeit-jura
-PORTVERSION=	20150412
+PORTVERSION=	20160427
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class for writing "juristiche Hausarbeiten" at German Universities.
+COMMENT=	Class for writing "juristische Hausarbeiten" at German Universities
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

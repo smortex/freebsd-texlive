@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	layaureo
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A package to improve the A4 page layout.
+COMMENT=	A package to improve the A4 page layout
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

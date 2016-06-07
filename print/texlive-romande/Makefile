@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	romande
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Romande ADF fonts and LaTeX support.
+COMMENT=	Romande ADF fonts and LaTeX support
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

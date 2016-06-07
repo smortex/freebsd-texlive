@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	neuralnetwork
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Graph-drawing for neural networks.
+COMMENT=	Graph-drawing for neural networks
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

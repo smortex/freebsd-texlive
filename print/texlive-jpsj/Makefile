@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	jpsj
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Document Class for Journal of the Physical Society of Japan.
+COMMENT=	Document Class for Journal of the Physical Society of Japan
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

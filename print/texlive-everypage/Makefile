@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	everypage
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provide hooks to be run on every page of a document.
+COMMENT=	Provide hooks to be run on every page of a document
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

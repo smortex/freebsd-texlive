@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tkz-graph
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw graph-theory graphs.
+COMMENT=	Draw graph-theory graphs
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

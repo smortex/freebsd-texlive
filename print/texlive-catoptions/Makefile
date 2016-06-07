@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	catoptions
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Preserving and recalling standard catcodes.
+COMMENT=	Preserving and recalling standard catcodes
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

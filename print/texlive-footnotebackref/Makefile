@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	footnotebackref
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Back-references from footnotes.
+COMMENT=	Back-references from footnotes
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

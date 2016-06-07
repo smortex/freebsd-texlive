@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	hanoi
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Tower of Hanoi in TeX.
+COMMENT=	Tower of Hanoi in TeX
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

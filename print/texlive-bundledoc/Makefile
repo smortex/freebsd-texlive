@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bundledoc
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bundle together all the files needed to build a LaTeX document.
+COMMENT=	Bundle together all the files needed to build a LaTeX document
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

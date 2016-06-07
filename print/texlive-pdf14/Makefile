@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pdf14
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Restore PDF 1.4 to a TeX live 2010 format.
+COMMENT=	Restore PDF 1.4 to a TeX live 2010 format
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

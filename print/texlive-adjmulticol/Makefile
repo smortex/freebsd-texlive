@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	adjmulticol
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Adjusting margins for multicolumn and single column output.
+COMMENT=	Adjusting margins for multicolumn and single column output
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

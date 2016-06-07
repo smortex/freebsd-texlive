@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	eiad-ltx
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX support for the eiad font.
+COMMENT=	LaTeX support for the eiad font
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

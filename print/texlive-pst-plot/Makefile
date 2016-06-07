@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-plot
-PORTVERSION=	20150413
+PORTVERSION=	20160519
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Plot data using PSTricks.
+COMMENT=	Plot data using PSTricks
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

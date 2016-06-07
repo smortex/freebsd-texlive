@@ -1,2 +1,21 @@
+share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-sr-cyrl.tex
+share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-sr-latn.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/ptex/hyph-sh-cyrl.t2a.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/ptex/hyph-sh-latn.ec.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-sh-cyrl.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-sh-latn.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-sr-cyrl.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-sh-cyrl.chr.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-sh-cyrl.hyp.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-sh-cyrl.lic.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-sh-cyrl.pat.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-sh-latn.chr.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-sh-latn.hyp.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-sh-latn.lic.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-sh-latn.pat.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-sr-cyrl.chr.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-sr-cyrl.hyp.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-sr-cyrl.lic.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-sr-cyrl.pat.txt
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

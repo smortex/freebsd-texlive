@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bibtex
-PORTVERSION=	20150428
+PORTVERSION=	20160427
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Process bibliographies for LaTeX, etc.
+COMMENT=	Process bibliographies for LaTeX, etc
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	manfnt
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX support for the TeX book symbols.
+COMMENT=	LaTeX support for the TeX book symbols
 
 OPTIONS_DEFINE=	SRCS
 OPTIONS_EXCLUDE=	DOCS

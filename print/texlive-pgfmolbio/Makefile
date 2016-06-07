@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pgfmolbio
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw graphs typically found in molecular biology texts.
+COMMENT=	Draw graphs typically found in molecular biology texts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

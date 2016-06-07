@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	papermas
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Compute the mass of a printed version of a document.
+COMMENT=	Compute the mass of a printed version of a document
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

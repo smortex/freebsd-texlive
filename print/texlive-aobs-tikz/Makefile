@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	aobs-tikz
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	TikZ styles for creating overlaid pictures in beamer.
+COMMENT=	TikZ styles for creating overlaid pictures in beamer
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

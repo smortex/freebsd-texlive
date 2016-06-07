@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	uspatent
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	U.S. Patent Application Tools for LaTeX and LyX.
+COMMENT=	U.S. Patent Application Tools for LaTeX and LyX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

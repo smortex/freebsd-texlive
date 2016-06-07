@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	tikzmark
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use TikZ's method of remembering a position on a page.
+COMMENT=	Use TikZ's method of remembering a position on a page
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

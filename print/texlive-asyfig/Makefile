@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	asyfig
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Commands for using Asymptote figures.
+COMMENT=	Commands for using Asymptote figures
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

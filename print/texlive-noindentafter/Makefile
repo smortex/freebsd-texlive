@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	noindentafter
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Tool to prevent paragraph indentation after environments/macros.
+COMMENT=	Tool to prevent paragraph indentation after environments/macros
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

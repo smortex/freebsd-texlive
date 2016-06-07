@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	uothesis
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class for dissertations and theses at the University of Oregon.
+COMMENT=	Class for dissertations and theses at the University of Oregon
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	rulercompass
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A TikZ library for straight-edge and compass diagrams.
+COMMENT=	A TikZ library for straight-edge and compass diagrams
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

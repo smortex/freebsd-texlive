@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	carolmin-ps
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Adobe Type 1 format of Carolingian Minuscule fonts.
+COMMENT=	Adobe Type 1 format of Carolingian Minuscule fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

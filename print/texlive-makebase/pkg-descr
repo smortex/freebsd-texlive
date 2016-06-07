@@ -1,0 +1,7 @@
+This package typesets a LaTeX counter such as page in an
+arbitrary base (default 16). It does not change font or
+typeface. The package extends the functionality of the existing
+hex LaTeX 2.09 package and provides documentation. However, the
+author is not a mathematician, and suggestions for rewriting
+the code are welcomed. Warning: this is alpha software and may
+contain bugs. Please report problems to the author.

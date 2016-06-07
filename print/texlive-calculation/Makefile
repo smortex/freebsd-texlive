@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	calculation
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesetting reasoned calculations, also called calculational proofs.
+COMMENT=	Typesetting reasoned calculations, also called calculational proofs
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

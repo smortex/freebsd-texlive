@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fontwrap
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bind fonts to specific unicode blocks.
+COMMENT=	Bind fonts to specific unicode blocks
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

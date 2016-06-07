@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	hep
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A "convenience wrapper" for High Energy Physics packages.
+COMMENT=	A "convenience wrapper" for High Energy Physics packages
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

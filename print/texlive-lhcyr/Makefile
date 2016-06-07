@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	lhcyr
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A non-standard Cyrillic input scheme.
+COMMENT=	A non-standard Cyrillic input scheme
 
 OPTIONS_DEFINE=	SRCS
 OPTIONS_EXCLUDE=	DOCS

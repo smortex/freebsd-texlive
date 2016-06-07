@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	rotpages
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset sets of pages upside-down and backwards.
+COMMENT=	Typeset sets of pages upside-down and backwards
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

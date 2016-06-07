@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	anyfontsize
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Select any font size in LaTeX.
+COMMENT=	Select any font size in LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

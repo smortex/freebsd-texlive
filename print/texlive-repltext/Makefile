@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	repltext
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Control how text gets copied from a PDF file.
+COMMENT=	Control how text gets copied from a PDF file
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

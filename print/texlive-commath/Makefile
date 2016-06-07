@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	commath
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Mathematics typesetting support.
+COMMENT=	Mathematics typesetting support
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

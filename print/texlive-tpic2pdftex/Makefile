@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tpic2pdftex
-PORTVERSION=	20150428
+PORTVERSION=	20160427
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use tpic commands in PDFTeX.
+COMMENT=	Use tpic commands in pdfTeX
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	subfiles
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Individual typesetting of subfiles of a "main" document.
+COMMENT=	Individual typesetting of subfiles of a "main" document
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

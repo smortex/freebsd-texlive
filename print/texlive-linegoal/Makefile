@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	linegoal
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A "dimen" that returns the space left on the line.
+COMMENT=	A "dimen" that returns the space left on the line
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

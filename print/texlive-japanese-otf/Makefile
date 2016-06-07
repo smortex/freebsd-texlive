@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	japanese-otf
-PORTVERSION=	20150420
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Advanced font selection for platex and its friends.
+COMMENT=	Advanced font selection for platex and its friends
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

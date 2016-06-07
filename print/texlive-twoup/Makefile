@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	twoup
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Print two virtual pages on each physical page.
+COMMENT=	Print two virtual pages on each physical page
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

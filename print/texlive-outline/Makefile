@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	outline
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	List environment for making outlines.
+COMMENT=	List environment for making outlines
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	libertine
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use of Linux Libertine and Biolinum fonts with LaTeX.
+COMMENT=	Use of Linux Libertine and Biolinum fonts with LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

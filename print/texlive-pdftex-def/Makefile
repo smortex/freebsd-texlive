@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pdftex-def
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Colour and Graphics support for PDFTeX.
+COMMENT=	Colour and Graphics support for pdfTeX
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

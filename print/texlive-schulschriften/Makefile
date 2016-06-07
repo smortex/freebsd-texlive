@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	schulschriften
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	German "school scripts" from Suetterlin to the present day.
+COMMENT=	German "school scripts" from Suetterlin to the present day
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

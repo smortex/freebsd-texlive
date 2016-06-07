@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	thumbpdf
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Thumbnails for pdfTeX and dvips/ps2pdf.
+COMMENT=	Thumbnails for pdfTeX and dvips/ps2pdf
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	facture
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generate an invoice.
+COMMENT=	Generate an invoice
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

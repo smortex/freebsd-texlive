@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	hatching
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	MetaPost macros for hatching interior of closed paths.
+COMMENT=	MetaPost macros for hatching interior of closed paths
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	flippdf
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Horizontal flipping of pages with pdfLaTeX.
+COMMENT=	Horizontal flipping of pages with pdfLaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

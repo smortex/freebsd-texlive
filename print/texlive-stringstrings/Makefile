@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	stringstrings
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	String manipulation for cosmetic and programming application.
+COMMENT=	String manipulation for cosmetic and programming application
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

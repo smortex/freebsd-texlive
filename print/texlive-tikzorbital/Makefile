@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	tikzorbital
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Atomic and molecular orbitals using TiKZ.
+COMMENT=	Atomic and molecular orbitals using TikZ
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

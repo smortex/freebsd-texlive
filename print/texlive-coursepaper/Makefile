@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	coursepaper
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Prepare university course papers.
+COMMENT=	Prepare university course papers
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	productbox
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset a three-dimensional product box.
+COMMENT=	Typeset a three-dimensional product box
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

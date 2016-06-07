@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	logreq
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for automation of the LaTeX workflow.
+COMMENT=	Support for automation of the LaTeX workflow
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

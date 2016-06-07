@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	docmute
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Input files ignoring LaTeX preamble, etc.
+COMMENT=	Input files ignoring LaTeX preamble, etc
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

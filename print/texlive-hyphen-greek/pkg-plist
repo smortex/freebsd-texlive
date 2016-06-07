@@ -6,6 +6,18 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/elhyphen/compound.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/elhyphen/copyrite.txt
 %%PORTDOCS%%share/texmf-dist/doc/generic/elhyphen/modern.pdf
+share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-el-monoton.tex
+share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-el-polyton.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-el-monoton.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-el-polyton.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-el-monoton.chr.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-el-monoton.hyp.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-el-monoton.lic.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-el-monoton.pat.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-el-polyton.chr.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-el-polyton.hyp.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-el-polyton.lic.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-el-polyton.pat.txt
 share/texmf-dist/tex/generic/hyphen/grmhyph5.tex
 share/texmf-dist/tex/generic/hyphen/grphyph5.tex
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

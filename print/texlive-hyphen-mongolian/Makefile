@@ -1,10 +1,9 @@
 # $FreeBSD$
 
 PORTNAME=	hyphen-mongolian
-PORTVERSION=	20150412
+PORTVERSION=	20160515
 PORTEPOCH=	1
 CATEGORIES=	print
-DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Mongolian hyphenation patterns in Cyrillic script.

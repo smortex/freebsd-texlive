@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	imac
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	International Modal Analysis Conference format.
+COMMENT=	International Modal Analysis Conference format
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

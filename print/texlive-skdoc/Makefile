@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	skdoc
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Documentation and extraction for packages and document classes.
+COMMENT=	Documentation and extraction for packages and document classes
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

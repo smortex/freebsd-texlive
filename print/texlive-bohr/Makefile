@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bohr
-PORTVERSION=	20150625
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Simple atom representation according to the Bohr model.
+COMMENT=	Simple atom representation according to the Bohr model
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

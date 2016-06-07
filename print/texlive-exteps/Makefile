@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	exteps
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Include EPS figures in MetaPost.
+COMMENT=	Include EPS figures in MetaPost
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,0 +1,4 @@
+This package provides new BibLaTeX entry types and fields for
+book edited in other types, like for instance @bookinarticle.
+It offers more types than the older package biblatex-
+bookinarticle which it superseeds.

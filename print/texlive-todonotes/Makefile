@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	todonotes
-PORTVERSION=	20150711
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Marking things to do in a LaTeX document.
+COMMENT=	Marking things to do in a LaTeX document
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

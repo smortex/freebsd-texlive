@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	chronology
-PORTVERSION=	20150724
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provides a horizontal timeline.
+COMMENT=	Provides a horizontal timeline
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

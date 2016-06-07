@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	directory
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	An address book using BibTeX.
+COMMENT=	An address book using BibTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

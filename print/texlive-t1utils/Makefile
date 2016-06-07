@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	t1utils
-PORTVERSION=	20150428
+PORTVERSION=	20160427
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Simple Type 1 font manipulation programs.
+COMMENT=	Simple Type 1 font manipulation programs
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

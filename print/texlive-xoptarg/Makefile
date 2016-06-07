@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	xoptarg
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Expandable macros that take an optional argument.
+COMMENT=	Expandable macros that take an optional argument
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

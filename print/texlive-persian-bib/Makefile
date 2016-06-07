@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	persian-bib
-PORTVERSION=	20150510
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Persian translations of classic BibTeX styles.
+COMMENT=	Persian translations of classic BibTeX styles
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

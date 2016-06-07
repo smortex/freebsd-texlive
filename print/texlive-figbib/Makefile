@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	figbib
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Organize figure databases with BibTeX.
+COMMENT=	Organize figure databases with BibTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

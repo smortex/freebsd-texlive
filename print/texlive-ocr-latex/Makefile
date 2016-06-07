@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ocr-latex
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX support for ocr fonts.
+COMMENT=	LaTeX support for ocr fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

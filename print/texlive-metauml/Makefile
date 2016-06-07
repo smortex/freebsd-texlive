@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	metauml
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	MetaPost library for typesetting UML diagrams.
+COMMENT=	MetaPost library for typesetting UML diagrams
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

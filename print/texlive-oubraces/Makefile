@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	oubraces
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Braces over and under a formula.
+COMMENT=	Braces over and under a formula
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	prerex
-PORTVERSION=	20150413
+PORTVERSION=	20160419
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Interactive editor and macro support for prerequisite charts.
+COMMENT=	Interactive editor and macro support for prerequisite charts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

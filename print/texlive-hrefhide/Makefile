@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	hrefhide
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Suppress hyper links when printing.
+COMMENT=	Suppress hyper links when printing
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

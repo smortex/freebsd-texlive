@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	zed-csp
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesetting Z and CSP format specifications.
+COMMENT=	Typesetting Z and CSP format specifications
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

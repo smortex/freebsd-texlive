@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pxcjkcat
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX interface for the CJK category codes of upTeX.
+COMMENT=	LaTeX interface for the CJK category codes of upTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

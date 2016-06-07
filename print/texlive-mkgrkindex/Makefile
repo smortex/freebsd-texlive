@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mkgrkindex
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Makeindex working with Greek.
+COMMENT=	Makeindex working with Greek
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

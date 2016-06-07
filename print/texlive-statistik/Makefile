@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	statistik
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Store statistics of a document.
+COMMENT=	Store statistics of a document
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

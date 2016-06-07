@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ifmtarg
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	If-then-else command for processing potentially empty arguments.
+COMMENT=	If-then-else command for processing potentially empty arguments
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

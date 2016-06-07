@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	adfathesis
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Australian Defence Force Academy thesis format.
+COMMENT=	Australian Defence Force Academy thesis format
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	moderncv
-PORTVERSION=	20150730
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A modern curriculum vitae class.
+COMMENT=	A modern curriculum vitae class
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

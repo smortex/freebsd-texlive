@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pgf-blur
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	PGF/TikZ package for "blurred" shadows.
+COMMENT=	PGF/TikZ package for "blurred" shadows
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

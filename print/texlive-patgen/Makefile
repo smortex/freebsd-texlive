@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	patgen
-PORTVERSION=	20150428
+PORTVERSION=	20160427
 CATEGORIES=	print
 DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generate hyphenation patterns.
+COMMENT=	Generate hyphenation patterns
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/web2c/amiga-pl.tcx:${PORTSDIR}/print/texlive-kpathsea \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core

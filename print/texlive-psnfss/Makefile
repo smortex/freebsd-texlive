@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	psnfss
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Font support for common PostScript fonts.
+COMMENT=	Font support for common PostScript fonts
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/graphics/graphics.sty:${PORTSDIR}/print/texlive-graphics
 

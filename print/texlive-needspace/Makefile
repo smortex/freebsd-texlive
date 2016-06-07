@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	needspace
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Insert pagebreak if not enough space.
+COMMENT=	Insert pagebreak if not enough space
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,10 +1,9 @@
 # $FreeBSD$
 
 PORTNAME=	hyphen-coptic
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
-DISTFILES=	# None
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Coptic hyphenation patterns.

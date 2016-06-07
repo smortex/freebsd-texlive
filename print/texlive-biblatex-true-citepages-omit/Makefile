@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-true-citepages-omit
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Correction of some limitation of the citepages=omit option of biblatex styles
+COMMENT=	Correction of some limitation of the citepages=omit option of BibLaTeX styles
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

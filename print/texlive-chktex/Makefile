@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	chktex
-PORTVERSION=	20150428
+PORTVERSION=	20160427
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Check for errors in LaTeX documents.
+COMMENT=	Check for errors in LaTeX documents
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

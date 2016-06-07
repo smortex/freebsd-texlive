@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	graphviz
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Write graphviz (dot+neato) inline in LaTeX documents.
+COMMENT=	Write graphviz (dot+neato) inline in LaTeX documents
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

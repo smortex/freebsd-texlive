@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	regexpatch
-PORTVERSION=	20150621
+PORTVERSION=	20160517
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	High level patching of commands.
+COMMENT=	High level patching of commands
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

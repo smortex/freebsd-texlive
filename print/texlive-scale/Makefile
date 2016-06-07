@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	scale
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Scale document by sqrt(2) or magstep(2).
+COMMENT=	Scale document by sqrt(2) or magstep(2)
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

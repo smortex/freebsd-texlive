@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	basque-book
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class for book-type documents written in Basque.
+COMMENT=	Class for book-type documents written in Basque
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

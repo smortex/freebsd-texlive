@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	unswcover
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset a dissertation cover page following UNSW guidelines.
+COMMENT=	Typeset a dissertation cover page following UNSW guidelines
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

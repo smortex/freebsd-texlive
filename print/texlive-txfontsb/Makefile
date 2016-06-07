@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	txfontsb
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extensions to txfonts, using GNU Freefont.
+COMMENT=	Extensions to txfonts, using GNU Freefont
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

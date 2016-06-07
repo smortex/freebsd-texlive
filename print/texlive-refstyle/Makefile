@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	refstyle
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Advanced formatting of cross references.
+COMMENT=	Advanced formatting of cross references
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

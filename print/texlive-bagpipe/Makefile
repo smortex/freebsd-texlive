@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bagpipe
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for typesetting bagpipe music.
+COMMENT=	Support for typesetting bagpipe music
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

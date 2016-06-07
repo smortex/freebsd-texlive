@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bbm-macros
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX support for "blackboard-style" cm fonts.
+COMMENT=	LaTeX support for "blackboard-style" cm fonts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

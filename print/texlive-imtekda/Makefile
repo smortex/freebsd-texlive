@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	imtekda
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	IMTEK thesis class.
+COMMENT=	IMTEK thesis class
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	oscola
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	BibLaTeX style for the Oxford Standard for the Citation of Legal Authorities.
+COMMENT=	BibLaTeX style for the Oxford Standard for the Citation of Legal Authorities
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

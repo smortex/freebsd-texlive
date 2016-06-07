@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pxjahyper
-PORTVERSION=	20150413
+PORTVERSION=	20160419
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Hyperref support for pLaTeX.
+COMMENT=	Hyperref support for pLaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

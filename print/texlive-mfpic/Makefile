@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mfpic
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw Metafont/post pictures from (La)TeX commands.
+COMMENT=	Draw Metafont/post pictures from (La)TeX commands
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

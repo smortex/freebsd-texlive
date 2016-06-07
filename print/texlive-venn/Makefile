@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	venn
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Creating Venn diagrams with MetaPost.
+COMMENT=	Creating Venn diagrams with MetaPost
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

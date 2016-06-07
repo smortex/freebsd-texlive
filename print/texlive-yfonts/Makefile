@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	yfonts
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for old German fonts.
+COMMENT=	Support for old German fonts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

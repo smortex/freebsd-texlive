@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	formlett
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Letters to multiple recipients.
+COMMENT=	Letters to multiple recipients
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

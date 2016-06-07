@@ -1,0 +1,32 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/biblatex-bookinother.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/biblatex-bookinother.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookinarticle.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookinarticle.dot
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookinarticle.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookincollection.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookincollection.dot
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookincollection.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookinincollection.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookinincollection.dot
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookinincollection.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookininproceedings.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookininproceedings.dot
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookininproceedings.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookinjournal.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookinjournal.dot
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookinjournal.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookinproceedings.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookinproceedings.dot
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookinproceedings.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookinthesis.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookinthesis.dot
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookinthesis.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/generate-crossref-graphs.py
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/latexmkrc
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/makefile
+share/texmf-dist/tex/latex/biblatex-bookinother/bookinother.bbx
+share/texmf-dist/tex/latex/biblatex-bookinother/bookinother.dbx
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

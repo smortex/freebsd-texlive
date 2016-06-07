@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	psfragx
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A psfrag eXtension.
+COMMENT=	A psfrag eXtension
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

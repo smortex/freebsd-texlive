@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bchart
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw simple bar charts in LaTeX.
+COMMENT=	Draw simple bar charts in LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

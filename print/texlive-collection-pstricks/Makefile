@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-pstricks
-PORTVERSION=	20150412
+PORTVERSION=	20160425
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -38,9 +38,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
+		${LOCALBASE}/share/texmf-dist/tex/generic/tex-ini-files/dvilualatex.ini:${PORTSDIR}/print/texlive-tex-ini-files \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
+		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/updmap/kanjix.map:${PORTSDIR}/print/texlive-updmap-map \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/tex/generic/apnum/apnum.tex:${PORTSDIR}/print/texlive-apnum \
 		${LOCALBASE}/share/texmf-dist/tex/generic/epsf/epsf.sty:${PORTSDIR}/print/texlive-epsf \
@@ -71,6 +74,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-blur/pst-blur.tex:${PORTSDIR}/print/texlive-pst-blur \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-bspline/pst-bspline.tex:${PORTSDIR}/print/texlive-pst-bspline \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-calendar/pst-calendar.sty:${PORTSDIR}/print/texlive-pst-calendar \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-cie/pst-cie.tex:${PORTSDIR}/print/texlive-pst-cie \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-circ/pst-circ.tex:${PORTSDIR}/print/texlive-pst-circ \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-coil/pst-coil.tex:${PORTSDIR}/print/texlive-pst-coil \
 		${LOCALBASE}/share/texmf-dist/dvips/pst-cox/pst-coxeter.pro:${PORTSDIR}/print/texlive-pst-cox \

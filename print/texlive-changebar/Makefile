@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	changebar
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generate changebars in LaTeX documents.
+COMMENT=	Generate changebars in LaTeX documents
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

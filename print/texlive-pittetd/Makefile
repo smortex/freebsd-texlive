@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pittetd
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Electronic Theses and Dissertations at Pitt.
+COMMENT=	Electronic Theses and Dissertations at Pitt
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	changepage
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Margin adjustment and detection of odd/even pages.
+COMMENT=	Margin adjustment and detection of odd/even pages
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

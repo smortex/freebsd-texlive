@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mla-paper
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Proper MLA formatting.
+COMMENT=	Proper MLA formatting
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,0 +1,4 @@
+The package provides a bibliography and citation style which
+conforms to the latest revision of the international standard
+ISO 690:2010. The implementation follows BibLaTeX conventions
+and requires biblatex >= 3.4 and biber >= 2.5.

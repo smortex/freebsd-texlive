@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	frletter
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset letters in the French style.
+COMMENT=	Typeset letters in the French style
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

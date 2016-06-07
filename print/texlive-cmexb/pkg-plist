@@ -1,0 +1,6 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/cmexb/README-cmexb
+share/texmf-dist/fonts/map/dvips/cmexb/cmexb.map
+share/texmf-dist/fonts/tfm/public/cmexb/cmexb10.tfm
+share/texmf-dist/fonts/type1/public/cmexb/cmexb10.pfb
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ean13isbn
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Print EAN13 for ISBN.
+COMMENT=	Print EAN13 for ISBN
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

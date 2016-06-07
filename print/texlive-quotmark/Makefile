@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	quotmark
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Consistent quote marks.
+COMMENT=	Consistent quote marks
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

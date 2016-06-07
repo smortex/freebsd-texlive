@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	drac
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Declare active character substitution, robustly.
+COMMENT=	Declare active character substitution, robustly
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	envlab
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Addresses on envelopes or mailing labels.
+COMMENT=	Addresses on envelopes or mailing labels
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

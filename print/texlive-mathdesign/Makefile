@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mathdesign
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Mathematical fonts to fit with particular text fonts.
+COMMENT=	Mathematical fonts to fit with particular text fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

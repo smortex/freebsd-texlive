@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	rvwrite
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Increase the number of available output streams in LaTeX.
+COMMENT=	Increase the number of available output streams in LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

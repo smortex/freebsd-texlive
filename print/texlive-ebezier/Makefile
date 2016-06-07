@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ebezier
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Device independent picture environment enhancement.
+COMMENT=	Device independent picture environment enhancement
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

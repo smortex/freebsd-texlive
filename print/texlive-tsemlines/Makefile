@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tsemlines
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for the ancient \emline macro.
+COMMENT=	Support for the ancient \emline macro
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

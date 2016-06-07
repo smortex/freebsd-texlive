@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	auncial-new
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Artificial Uncial font and LaTeX support macros.
+COMMENT=	Artificial Uncial font and LaTeX support macros
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

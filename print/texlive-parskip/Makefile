@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	parskip
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Layout with zero \parindent, non-zero \parskip.
+COMMENT=	Layout with zero \parindent, non-zero \parskip
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

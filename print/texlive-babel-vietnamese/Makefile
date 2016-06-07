@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	babel-vietnamese
-PORTVERSION=	20160101
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

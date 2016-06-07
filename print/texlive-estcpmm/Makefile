@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	estcpmm
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Style for Munitions Management Project Reports.
+COMMENT=	Style for Munitions Management Project Reports
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tabfigures
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Maintain vertical alignment of figures.
+COMMENT=	Maintain vertical alignment of figures
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

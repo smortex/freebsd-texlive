@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	lilyglyphs
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Access lilypond fragments and glyphs, in LaTeX.
+COMMENT=	Access lilypond fragments and glyphs, in LaTeX
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

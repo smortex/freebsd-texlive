@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mnotes
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Margin annotation for collaborative writing.
+COMMENT=	Margin annotation for collaborative writing
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

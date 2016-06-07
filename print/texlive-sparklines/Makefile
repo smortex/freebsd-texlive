@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	sparklines
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Drawing sparklines: intense, simple, wordlike graphics.
+COMMENT=	Drawing sparklines: intense, simple, wordlike graphics
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

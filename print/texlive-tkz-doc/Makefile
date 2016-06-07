@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tkz-doc
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Documentation macros for the TKZ series of packages.
+COMMENT=	Documentation macros for the TKZ series of packages
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

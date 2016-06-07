@@ -203,7 +203,6 @@ share/texmf-dist/bibtex/bib/oberdiek/oberdiek-source.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/iflang-test3.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/iflang-test4.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/iflang-test5.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/ifpdf-test1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/ifvtex-test1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/infwarerr-test1.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/oberdiek/test/infwarerr-test2.tex
@@ -390,7 +389,6 @@ share/texmf-dist/scripts/oberdiek/pdftexcmds.lua
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/catalogue/ifdraft.xml
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/catalogue/iflang.xml
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/catalogue/ifluatex.xml
-%%PORTSRC%%share/texmf-dist/source/latex/oberdiek/catalogue/ifpdf.xml
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/catalogue/ifvtex.xml
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/catalogue/infwarerr.xml
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/catalogue/inputenx.xml
@@ -458,7 +456,6 @@ share/texmf-dist/scripts/oberdiek/pdftexcmds.lua
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/grfext.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/grffile.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/hobsub.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/oberdiek/hologo-eroux.patch
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/hologo.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/holtxdoc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/hopatch.dtx
@@ -500,7 +497,6 @@ share/texmf-dist/scripts/oberdiek/pdftexcmds.lua
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/pdfescape.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/pdflscape.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/pdfrender.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/oberdiek/pdftexcmds-eroux.patch
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/pdftexcmds.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/picture.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/oberdiek/pmboxdraw.dtx

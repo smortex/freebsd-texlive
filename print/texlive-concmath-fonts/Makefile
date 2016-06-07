@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	concmath-fonts
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Concrete mathematics fonts.
+COMMENT=	Concrete mathematics fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

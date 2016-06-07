@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	isonums
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Display numbers in maths mode according to ISO 31-0.
+COMMENT=	Display numbers in maths mode according to ISO 31-0
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

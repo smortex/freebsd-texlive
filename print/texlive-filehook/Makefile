@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	filehook
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Hooks for input files.
+COMMENT=	Hooks for input files
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

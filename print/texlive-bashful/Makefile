@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bashful
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Invoke bash commands from within LaTeX.
+COMMENT=	Invoke bash commands from within LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	turkmen
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Babel support for Turkmen.
+COMMENT=	Babel support for Turkmen
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

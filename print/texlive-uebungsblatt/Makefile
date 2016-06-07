@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	uebungsblatt
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A LaTeX class for writing exercise sheets.
+COMMENT=	A LaTeX class for writing exercise sheets
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	loops
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	General looping macros for use with LaTeX.
+COMMENT=	General looping macros for use with LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	minifp
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fixed-point real computations to 8 decimals.
+COMMENT=	Fixed-point real computations to 8 decimals
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

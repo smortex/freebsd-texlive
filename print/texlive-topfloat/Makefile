@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	topfloat
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Move floats to the top of the page.
+COMMENT=	Move floats to the top of the page
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

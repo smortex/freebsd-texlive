@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bera
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bera fonts.
+COMMENT=	Bera fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

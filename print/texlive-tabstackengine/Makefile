@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	tabstackengine
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	"Tabbing" front-end to stackengine.
+COMMENT=	"Tabbing" front-end to stackengine
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

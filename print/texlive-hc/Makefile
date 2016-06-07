@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	hc
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Replacement for the LaTeX classes.
+COMMENT=	Replacement for the LaTeX classes
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

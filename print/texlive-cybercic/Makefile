@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	cybercic
-PORTVERSION=	20150625
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	"Controls in Contents" for the cyber package.
+COMMENT=	"Controls in Contents" for the cyber package
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

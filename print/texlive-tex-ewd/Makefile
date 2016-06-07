@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tex-ewd
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros to typeset calculational proofs and programs in Dijkstra's style.
+COMMENT=	Macros to typeset calculational proofs and programs in Dijkstra's style
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

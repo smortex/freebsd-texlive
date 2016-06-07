@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	przechlewski-book
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Examples from Przechlewski's LaTeX book.
+COMMENT=	Examples from Przechlewski's LaTeX book
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

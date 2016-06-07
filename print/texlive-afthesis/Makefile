@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	afthesis
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Air Force Institute of Technology thesis class.
+COMMENT=	Air Force Institute of Technology thesis class
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

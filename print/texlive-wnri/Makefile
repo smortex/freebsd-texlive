@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	wnri
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Ridgeway's fonts.
+COMMENT=	Ridgeway's fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

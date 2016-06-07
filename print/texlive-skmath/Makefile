@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	skmath
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extensions to the maths command repertoir.
+COMMENT=	Extensions to the maths command repertoir
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

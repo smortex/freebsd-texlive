@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ibygrk
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fonts and macros to typeset ancient Greek.
+COMMENT=	Fonts and macros to typeset ancient Greek
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

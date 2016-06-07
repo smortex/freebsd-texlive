@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	sympytexpackage
-PORTVERSION=	20150413
+PORTVERSION=	20160517
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

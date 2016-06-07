@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ticket
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Make labels, visiting-cards, pins with LaTeX.
+COMMENT=	Make labels, visiting-cards, pins with LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

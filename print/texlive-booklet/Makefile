@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	booklet
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Aids for printing simple booklets.
+COMMENT=	Aids for printing simple booklets
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

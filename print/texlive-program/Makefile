@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	program
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesetting programs and algorithms.
+COMMENT=	Typesetting programs and algorithms
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

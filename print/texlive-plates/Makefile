@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	plates
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Arrange for "plates" sections of documents.
+COMMENT=	Arrange for "plates" sections of documents
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

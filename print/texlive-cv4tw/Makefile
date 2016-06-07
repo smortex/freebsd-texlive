@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	cv4tw
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX CV class, with extended details.
+COMMENT=	LaTeX CV class, with extended details
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	automata
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Finite state machines, graphs and trees in MetaPost.
+COMMENT=	Finite state machines, graphs and trees in MetaPost
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	shorttoc
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Table of contents with different depths.
+COMMENT=	Table of contents with different depths
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

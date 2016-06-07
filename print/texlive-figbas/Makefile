@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	figbas
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Mini-fonts for figured-bass notation in music.
+COMMENT=	Mini-fonts for figured-bass notation in music
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

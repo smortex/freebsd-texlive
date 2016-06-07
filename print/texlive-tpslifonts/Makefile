@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	tpslifonts
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A LaTeX package for configuring presentation fonts.
+COMMENT=	A LaTeX package for configuring presentation fonts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

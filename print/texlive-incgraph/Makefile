@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	incgraph
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Sophisticated graphics inclusion in a PDF document.
+COMMENT=	Sophisticated graphics inclusion in a PDF document
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

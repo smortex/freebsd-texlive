@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cjk
-PORTVERSION=	20150420
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	CJK language support.
+COMMENT=	CJK language support
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/dvips/arphic/config.bkaiu:${PORTSDIR}/print/texlive-arphic \
 		${LOCALBASE}/share/texmf-dist/fonts/misc/cns/4040w0.bin:${PORTSDIR}/print/texlive-cns \

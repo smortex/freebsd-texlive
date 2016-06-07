@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pmx
-PORTVERSION=	20150413
+PORTVERSION=	20160509
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Preprocessor for MusiXTeX.
+COMMENT=	Preprocessor for MusiXTeX
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	rrgtrees
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Linguistic tree diagrams for Role and Reference Grammar (RRG) with LaTeX.
+COMMENT=	Linguistic tree diagrams for Role and Reference Grammar (RRG) with LaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

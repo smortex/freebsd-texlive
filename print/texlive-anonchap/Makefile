@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	anonchap
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Make chapters be typeset like sections.
+COMMENT=	Make chapters be typeset like sections
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

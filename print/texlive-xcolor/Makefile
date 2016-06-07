@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	xcolor
-PORTVERSION=	20150413
+PORTVERSION=	20160512
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Driver-independent color extensions for LaTeX and pdfLaTeX.
+COMMENT=	Driver-independent color extensions for LaTeX and pdfLaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

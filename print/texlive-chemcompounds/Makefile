@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	chemcompounds
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Simple consecutive numbering of chemical compounds.
+COMMENT=	Simple consecutive numbering of chemical compounds
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	esdiff
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Simplify typesetting of derivatives.
+COMMENT=	Simplify typesetting of derivatives
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

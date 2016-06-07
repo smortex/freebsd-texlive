@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	dateiliste
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extensions of the \listfiles concept.
+COMMENT=	Extensions of the \listfiles concept
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

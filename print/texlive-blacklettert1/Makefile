@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	blacklettert1
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	T1-encoded versions of Haralambous old German fonts.
+COMMENT=	T1-encoded versions of Haralambous old German fonts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

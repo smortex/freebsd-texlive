@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	harnon-cv
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A CV document class with a vertical timeline for experience.
+COMMENT=	A CV document class with a vertical timeline for experience
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

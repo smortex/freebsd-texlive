@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-osci
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Oscgons with PSTricks.
+COMMENT=	Oscgons with PSTricks
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

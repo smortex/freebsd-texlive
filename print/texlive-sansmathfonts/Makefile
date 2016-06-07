@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	sansmathfonts
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Correct placement of accents in sans-serif maths.
+COMMENT=	Correct placement of accents in sans-serif maths
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

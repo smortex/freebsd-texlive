@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	textgreek
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Upright greek letters in text.
+COMMENT=	Upright greek letters in text
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

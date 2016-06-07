@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tocvsec2
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Section numbering and table of contents control.
+COMMENT=	Section numbering and table of contents control
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

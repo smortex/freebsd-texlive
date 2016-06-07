@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	dpfloat
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for double-page floats.
+COMMENT=	Support for double-page floats
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

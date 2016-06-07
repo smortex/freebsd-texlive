@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cc-pl
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Polish extension of Computer Concrete fonts.
+COMMENT=	Polish extension of Computer Concrete fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

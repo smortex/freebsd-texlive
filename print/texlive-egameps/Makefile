@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	egameps
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX package for typesetting extensive games.
+COMMENT=	LaTeX package for typesetting extensive games
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

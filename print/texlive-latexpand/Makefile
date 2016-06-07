@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	latexpand
-PORTVERSION=	20150618
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Expand \input and \include in a LaTeX document.
+COMMENT=	Expand \input and \include in a LaTeX document
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

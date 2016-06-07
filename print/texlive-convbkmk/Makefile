@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	convbkmk
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Correct platex/uplatex bookmarks in PDF created with hyperref.
+COMMENT=	Correct platex/uplatex bookmarks in PDF created with hyperref
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

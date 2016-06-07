@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	esami
-PORTVERSION=	20150711
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset exams with scrambled questions and answers.
+COMMENT=	Typeset exams with scrambled questions and answers
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

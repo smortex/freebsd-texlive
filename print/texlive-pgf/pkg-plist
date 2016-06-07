@@ -643,6 +643,7 @@ share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfm.def
 share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
 share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvips.def
 share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvisvgm.def
+share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
 share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-tex4ht.def
 share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-textures.def

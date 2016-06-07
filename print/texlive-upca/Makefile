@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	upca
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Print UPC-A barcodes.
+COMMENT=	Print UPC-A barcodes
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

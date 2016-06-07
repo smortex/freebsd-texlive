@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	tabriz-thesis
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A template for the University of Tabriz.
+COMMENT=	A template for the University of Tabriz
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

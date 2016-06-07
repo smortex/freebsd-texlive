@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	parnotes
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Notes after every paragraph (or elsewhere).
+COMMENT=	Notes after every paragraph (or elsewhere)
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	xskak
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	An extension to the skak package for chess typesetting.
+COMMENT=	An extension to the skak package for chess typesetting
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

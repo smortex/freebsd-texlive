@@ -1,0 +1,3 @@
+pst-cie is a PSTricks related package to show the different CIE
+color spaces: Adobe, CIE, ColorMatch, NTSC, Pal-Secam,
+ProPhoto, SMPTE, and sRGB.

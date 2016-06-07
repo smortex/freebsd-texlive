@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	luasseq
-PORTVERSION=	20150718
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Drawing spectral sequences in LuaLaTeX.
+COMMENT=	Drawing spectral sequences in LuaLaTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	gfsneohellenic
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A Greek font in the Neo-Hellenic style.
+COMMENT=	A Greek font in the Neo-Hellenic style
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

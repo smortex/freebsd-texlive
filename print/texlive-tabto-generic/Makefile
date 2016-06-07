@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tabto-generic
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	"Tab" to a measured position in the line.
+COMMENT=	"Tab" to a measured position in the line
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

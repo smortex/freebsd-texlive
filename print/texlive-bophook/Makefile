@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bophook
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provides an At-Begin-Page hook.
+COMMENT=	Provides an At-Begin-Page hook
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

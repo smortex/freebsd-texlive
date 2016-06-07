@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	esint
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extended set of integrals for Computer Modern.
+COMMENT=	Extended set of integrals for Computer Modern
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

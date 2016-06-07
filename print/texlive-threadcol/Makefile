@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	threadcol
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Organize document columns into PDF "article thread".
+COMMENT=	Organize document columns into PDF "article thread"
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

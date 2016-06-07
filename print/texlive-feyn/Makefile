@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	feyn
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A font for in-text Feynman diagrams.
+COMMENT=	A font for in-text Feynman diagrams
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

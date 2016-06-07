@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	jmlr
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class files for the Journal of Machine Learning Research.
+COMMENT=	Class files for the Journal of Machine Learning Research
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

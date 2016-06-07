@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-piedmontese
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Babel support for Piedmontese.
+COMMENT=	Babel support for Piedmontese
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

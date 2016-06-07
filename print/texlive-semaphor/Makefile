@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	semaphor
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Semaphore alphabet font.
+COMMENT=	Semaphore alphabet font
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

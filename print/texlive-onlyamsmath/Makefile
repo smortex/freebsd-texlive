@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	onlyamsmath
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Inhibit use of non-amsmath mathematics markup when using amsmath.
+COMMENT=	Inhibit use of non-amsmath mathematics markup when using amsmath
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

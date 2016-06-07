@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	a2ping
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Advanced PS, PDF, EPS converter.
+COMMENT=	Advanced PS, PDF, EPS converter
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

@@ -36,6 +36,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-mixed-abbrv-styles.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-mixture.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-mixture.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-name-font.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-name-font.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-nested.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-nested.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-onelink.pdf
@@ -46,12 +48,16 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-onthefly-xetex.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-onthefly.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-onthefly.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-pages.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-pages.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-postdot.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-postdot.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-postlink.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-postlink.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-prefix.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-prefix.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-trans.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-trans.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-undef.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-undef.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-unitentrycount.pdf
@@ -60,6 +66,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample.tex
 %%PORTSRC%%share/texmf-dist/source/latex/glossaries-extra/glossaries-extra.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/glossaries-extra/glossaries-extra.ins
+share/texmf-dist/tex/latex/glossaries-extra/glossaries-extra-stylemods.sty
 share/texmf-dist/tex/latex/glossaries-extra/glossaries-extra.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

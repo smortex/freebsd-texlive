@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	garrigues
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	MetaPost macros for the reproduction of Garrigues' Easter nomogram.
+COMMENT=	MetaPost macros for the reproduction of Garrigues' Easter nomogram
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

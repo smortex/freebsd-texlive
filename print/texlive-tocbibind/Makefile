@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	tocbibind
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Add bibliography/index/contents to Table of Contents.
+COMMENT=	Add bibliography/index/contents to Table of Contents
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

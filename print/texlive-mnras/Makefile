@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mnras
-PORTVERSION=	20150617
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Monthly Notices of the Royal Astronomical Society.
+COMMENT=	Monthly Notices of the Royal Astronomical Society
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

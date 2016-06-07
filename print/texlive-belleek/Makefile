@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	belleek
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Free replacement for basic MathTime fonts.
+COMMENT=	Free replacement for basic MathTime fonts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

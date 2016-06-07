@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	guitarchordschemes
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Guitar Chord and Scale Tablatures.
+COMMENT=	Guitar Chord and Scale Tablatures
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

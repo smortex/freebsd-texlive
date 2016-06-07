@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	fig4latex
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Management of figures for large LaTeX documents.
+COMMENT=	Management of figures for large LaTeX documents
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

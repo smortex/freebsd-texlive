@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-3d
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A PSTricks package for tilting and other pseudo-3D tricks.
+COMMENT=	A PSTricks package for tilting and other pseudo-3D tricks
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

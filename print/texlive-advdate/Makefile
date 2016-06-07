@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	advdate
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Print a date relative to "today".
+COMMENT=	Print a date relative to "today"
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

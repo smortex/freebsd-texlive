@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	abstract
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Control the typesetting of the abstract environment.
+COMMENT=	Control the typesetting of the abstract environment
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

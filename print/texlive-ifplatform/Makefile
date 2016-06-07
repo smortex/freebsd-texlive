@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ifplatform
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Conditionals to test which platform is being used.
+COMMENT=	Conditionals to test which platform is being used
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

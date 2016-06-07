@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	floatrow
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Modifying the layout of floats.
+COMMENT=	Modifying the layout of floats
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

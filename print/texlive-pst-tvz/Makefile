@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-tvz
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw trees with more than one root node, using PSTricks.
+COMMENT=	Draw trees with more than one root node, using PSTricks
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	labels
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Print sheets of sticky labels.
+COMMENT=	Print sheets of sticky labels
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

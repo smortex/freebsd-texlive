@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	twoinone
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Print two pages on a single page.
+COMMENT=	Print two pages on a single page
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

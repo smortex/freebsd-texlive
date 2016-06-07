@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	braille
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for braille.
+COMMENT=	Support for braille
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

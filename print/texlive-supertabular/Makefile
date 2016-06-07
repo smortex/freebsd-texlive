@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	supertabular
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A multi-page tables package.
+COMMENT=	A multi-page tables package
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

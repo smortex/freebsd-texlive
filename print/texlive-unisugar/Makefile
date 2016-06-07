@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	unisugar
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Define syntactic sugar for Unicode LaTeX.
+COMMENT=	Define syntactic sugar for Unicode LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	metaplot
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Plot-manipulation macros for use in Metapost.
+COMMENT=	Plot-manipulation macros for use in MetaPost
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

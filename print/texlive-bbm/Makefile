@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bbm
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	"Blackboard-style" cm fonts.
+COMMENT=	"Blackboard-style" cm fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

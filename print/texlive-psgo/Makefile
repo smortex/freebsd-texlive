@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	psgo
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset go diagrams with PSTricks.
+COMMENT=	Typeset go diagrams with PSTricks
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

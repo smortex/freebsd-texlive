@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	export
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Import and export values of LaTeX registers.
+COMMENT=	Import and export values of LaTeX registers
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

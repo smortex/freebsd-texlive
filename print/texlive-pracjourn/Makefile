@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pracjourn
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset articles for PracTeX.
+COMMENT=	Typeset articles for PracTeX
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

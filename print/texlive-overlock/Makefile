@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	overlock
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Overlook sans fonts with LaTeX support.
+COMMENT=	Overlook sans fonts with LaTeX support
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

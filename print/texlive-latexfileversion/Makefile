@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	latexfileversion
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Prints the version and date of a LaTeX class or style file.
+COMMENT=	Prints the version and date of a LaTeX class or style file
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

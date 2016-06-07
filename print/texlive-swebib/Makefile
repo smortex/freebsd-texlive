@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	swebib
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Swedish bibliography styles.
+COMMENT=	Swedish bibliography styles
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

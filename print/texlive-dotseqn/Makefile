@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	dotseqn
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Flush left equations with dotted leaders to the numbers.
+COMMENT=	Flush left equations with dotted leaders to the numbers
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

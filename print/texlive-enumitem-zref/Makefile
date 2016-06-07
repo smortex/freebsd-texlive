@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	enumitem-zref
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extended references to items for enumitem package.
+COMMENT=	Extended references to items for enumitem package
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

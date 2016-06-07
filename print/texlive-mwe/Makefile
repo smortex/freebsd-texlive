@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mwe
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Packages and image files for MWEs.
+COMMENT=	Packages and image files for MWEs
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

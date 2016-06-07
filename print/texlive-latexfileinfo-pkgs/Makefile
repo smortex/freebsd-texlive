@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	latexfileinfo-pkgs
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A comparison of packages showing LaTeX file information.
+COMMENT=	A comparison of packages showing LaTeX file information
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

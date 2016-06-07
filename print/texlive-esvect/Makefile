@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	esvect
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Vector arrows.
+COMMENT=	Vector arrows
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

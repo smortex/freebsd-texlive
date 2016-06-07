@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ydoc
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros for documentation of LaTeX classes and packages.
+COMMENT=	Macros for documentation of LaTeX classes and packages
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

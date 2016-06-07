@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pecha
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Print Tibetan text in the classic pecha layout style.
+COMMENT=	Print Tibetan text in the classic pecha layout style
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

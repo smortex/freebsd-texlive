@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	typogrid
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Print a typographic grid.
+COMMENT=	Print a typographic grid
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

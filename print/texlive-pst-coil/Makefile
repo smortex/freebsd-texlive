@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-coil
-PORTVERSION=	20150514
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A PSTricks package for coils, etc.
+COMMENT=	A PSTricks package for coils, etc
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

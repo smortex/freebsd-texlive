@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tablor
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create tables of signs and of variations.
+COMMENT=	Create tables of signs and of variations
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

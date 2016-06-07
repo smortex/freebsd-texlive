@@ -32,6 +32,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.technical.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.theorems.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.verbatim.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.vignette.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.doc.xparse.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tcolorbox/tcolorbox.tex
@@ -53,6 +54,7 @@ share/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+share/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

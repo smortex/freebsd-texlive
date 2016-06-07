@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	makeshape
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Declare new PGF shapes.
+COMMENT=	Declare new PGF shapes
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

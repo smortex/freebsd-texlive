@@ -1,13 +1,13 @@
 # $FreeBSD$
 
 PORTNAME=	xetex
-PORTVERSION=	20160208
+PORTVERSION=	20160509
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Unicode and OpenType-enabled TeX engine.
 
-RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/generic/xetexconfig/unicode-letters.tex:${PORTSDIR}/print/texlive-xetexconfig \
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/xelatex/xetexconfig/crop.cfg:${PORTSDIR}/print/texlive-xetexconfig \
 		${LOCALBASE}/share/texmf-dist/makeindex/latex/gglo.ist:${PORTSDIR}/print/texlive-latex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

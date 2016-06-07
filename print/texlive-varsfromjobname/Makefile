@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	varsfromjobname
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Extract variables from the name of the LaTeX file.
+COMMENT=	Extract variables from the name of the LaTeX file
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

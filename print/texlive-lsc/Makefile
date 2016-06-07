@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	lsc
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesetting Live Sequence Charts.
+COMMENT=	Typesetting Live Sequence Charts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

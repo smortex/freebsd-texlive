@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	babel-catalan
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Babel contributed support for Catalan.
+COMMENT=	Babel contributed support for Catalan
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	subeqn
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Package for subequation numbering.
+COMMENT=	Package for subequation numbering
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

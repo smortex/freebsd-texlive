@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	plstmary
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	St. Mary's Road font support for plain TeX.
+COMMENT=	St. Mary's Road font support for plain TeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

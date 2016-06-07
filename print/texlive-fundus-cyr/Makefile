@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	fundus-cyr
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for Washington University Cyrillic fonts.
+COMMENT=	Support for Washington University Cyrillic fonts
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	syllogism
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset syllogisms in LaTeX.
+COMMENT=	Typeset syllogisms in LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

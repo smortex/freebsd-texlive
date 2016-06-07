@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ocg-p
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	PDF OCG support in LaTeX.
+COMMENT=	PDF OCG support in LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

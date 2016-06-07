@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	colordoc
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Coloured syntax highlights in documentation.
+COMMENT=	Coloured syntax highlights in documentation
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

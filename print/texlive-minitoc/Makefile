@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	minitoc
-PORTVERSION=	20150714
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Produce a table of contents for each chapter, part or section.
+COMMENT=	Produce a table of contents for each chapter, part or section
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

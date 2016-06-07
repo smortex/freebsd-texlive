@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	bpolynomial
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Drawing polynomial functions of up to order 3.
+COMMENT=	Drawing polynomial functions of up to order 3
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

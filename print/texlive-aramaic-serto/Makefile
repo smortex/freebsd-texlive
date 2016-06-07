@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	aramaic-serto
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fonts and LaTeX for Syriac written in Serto.
+COMMENT=	Fonts and LaTeX for Syriac written in Serto
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

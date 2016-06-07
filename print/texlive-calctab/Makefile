@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	calctab
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Language for numeric tables.
+COMMENT=	Language for numeric tables
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

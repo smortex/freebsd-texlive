@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	hepthesis
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A class for academic reports, especially PhD theses.
+COMMENT=	A class for academic reports, especially PhD theses
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

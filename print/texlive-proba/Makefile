@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	proba
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Shortcuts commands to symbols used in probability texts.
+COMMENT=	Shortcuts commands to symbols used in probability texts
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

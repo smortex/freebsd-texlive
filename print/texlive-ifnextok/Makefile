@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ifnextok
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Utility macro: peek ahead without ignoring spaces.
+COMMENT=	Utility macro: peek ahead without ignoring spaces
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

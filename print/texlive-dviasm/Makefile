@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	dviasm
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A utility for editing DVI files.
+COMMENT=	A utility for editing DVI files
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

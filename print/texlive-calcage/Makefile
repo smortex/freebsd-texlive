@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	calcage
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Calculate the age of something, in years.
+COMMENT=	Calculate the age of something, in years
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

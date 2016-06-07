@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	cite
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Improved citation handling in LaTeX.
+COMMENT=	Improved citation handling in LaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	cbcoptic
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Coptic fonts and LaTeX macros for general usage and for philology.
+COMMENT=	Coptic fonts and LaTeX macros for general usage and for philology
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

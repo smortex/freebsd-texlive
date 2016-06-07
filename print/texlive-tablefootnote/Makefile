@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	tablefootnote
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Permit footnotes in tables.
+COMMENT=	Permit footnotes in tables
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

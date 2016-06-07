@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	alterqcm
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Multiple choice questionnaires in two column tables.
+COMMENT=	Multiple choice questionnaires in two column tables
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

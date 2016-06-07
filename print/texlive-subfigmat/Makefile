@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	subfigmat
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Automates layout when using the subfigure package.
+COMMENT=	Automates layout when using the subfigure package
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	lithuanian
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Lithuanian language support.
+COMMENT=	Lithuanian language support
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

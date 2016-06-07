@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	rterface
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Access to R analysis from within a document.
+COMMENT=	Access to R analysis from within a document
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

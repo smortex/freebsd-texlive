@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	subfigure
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Deprecated: Figures divided into subfigures.
+COMMENT=	Deprecated: Figures divided into subfigures
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

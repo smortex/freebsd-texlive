@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	amsaddr
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Alter the position of affiliations in amsart.
+COMMENT=	Alter the position of affiliations in amsart
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

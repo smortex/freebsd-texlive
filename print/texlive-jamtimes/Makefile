@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	jamtimes
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Expanded Times Roman fonts.
+COMMENT=	Expanded Times Roman fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

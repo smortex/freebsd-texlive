@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	chemcono
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Support for compound numbers in chemistry documents.
+COMMENT=	Support for compound numbers in chemistry documents
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

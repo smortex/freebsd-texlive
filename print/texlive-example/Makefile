@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	example
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset examples for TeX courses.
+COMMENT=	Typeset examples for TeX courses
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

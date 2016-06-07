@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	ametsoc
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Official American Meteorological Society LaTeX Template.
+COMMENT=	Official American Meteorological Society LaTeX Template
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

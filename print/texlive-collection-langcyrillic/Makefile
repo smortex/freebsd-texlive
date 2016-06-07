@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langcyrillic
-PORTVERSION=	20150412
+PORTVERSION=	20160515
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -38,9 +38,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/plain/base/plain.tex:${PORTSDIR}/print/texlive-plain \
 		${LOCALBASE}/share/texmf-dist/dvips/tetex/config.builtin35:${PORTSDIR}/print/texlive-tetex \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core \
+		${LOCALBASE}/share/texmf-dist/tex/generic/tex-ini-files/dvilualatex.ini:${PORTSDIR}/print/texlive-tex-ini-files \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/texconfig.sh:${PORTSDIR}/print/texlive-texconfig \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/var/texcatalogue.keywords:${PORTSDIR}/print/texlive-texlive-docindex \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/lua/texlive/getopt.tlu:${PORTSDIR}/print/texlive-texlive-scripts \
+		${LOCALBASE}/share/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:${PORTSDIR}/print/texlive-unicode-data \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/updmap/kanjix.map:${PORTSDIR}/print/texlive-updmap-map \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ae/ae.sty:${PORTSDIR}/print/texlive-ae \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/amscls/amsalpha.bst:${PORTSDIR}/print/texlive-amscls \
@@ -50,14 +53,16 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/babelbib/babelbib.sty:${PORTSDIR}/print/texlive-babelbib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/carlisle/dotlessj.sty:${PORTSDIR}/print/texlive-carlisle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/colortbl/colortbl.sty:${PORTSDIR}/print/texlive-colortbl \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dvisvgm-def/dvisvgm.def:${PORTSDIR}/print/texlive-dvisvgm-def \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty:${PORTSDIR}/print/texlive-fancyhdr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fix2col/fix2col.sty:${PORTSDIR}/print/texlive-fix2col \
 		${LOCALBASE}/share/texmf-dist/tex/latex/geometry/geometry.sty:${PORTSDIR}/print/texlive-geometry \
 		${LOCALBASE}/share/texmf-dist/tex/latex/graphics/graphics.sty:${PORTSDIR}/print/texlive-graphics \
+		${LOCALBASE}/share/texmf-dist/tex/latex/graphics-cfg/color.cfg:${PORTSDIR}/print/texlive-graphics-cfg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hyperref/hyperref.sty:${PORTSDIR}/print/texlive-hyperref \
 		${LOCALBASE}/share/texmf-dist/makeindex/latex/gglo.ist:${PORTSDIR}/print/texlive-latex \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/latex-fonts/circle.mf:${PORTSDIR}/print/texlive-latex-fonts \
-		${LOCALBASE}/share/texmf-dist/tex/latex/latexconfig/color.cfg:${PORTSDIR}/print/texlive-latexconfig \
+		${LOCALBASE}/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg:${PORTSDIR}/print/texlive-latexconfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltxmisc/abstbook.cls:${PORTSDIR}/print/texlive-ltxmisc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mfnfss/oldgerm.sty:${PORTSDIR}/print/texlive-mfnfss \
 		${LOCALBASE}/share/texmf-dist/tex/generic/context/mptopdf/mptopdf.tex:${PORTSDIR}/print/texlive-mptopdf \
@@ -69,11 +74,13 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/pspicture/pspicture.sty:${PORTSDIR}/print/texlive-pspicture \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tools/.tex:${PORTSDIR}/print/texlive-tools \
 		${LOCALBASE}/share/texmf-dist/tex/latex/url/url.sty:${PORTSDIR}/print/texlive-url \
+		${LOCALBASE}/share/texmf-dist/tex/generic/babel-belarusian/belarusianb.ldf:${PORTSDIR}/print/texlive-babel-belarusian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-bulgarian/bulgarian.ldf:${PORTSDIR}/print/texlive-babel-bulgarian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-russian/russianb.ldf:${PORTSDIR}/print/texlive-babel-russian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-serbian/serbian.ldf:${PORTSDIR}/print/texlive-babel-serbian \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-serbianc/serbianc.ldf:${PORTSDIR}/print/texlive-babel-serbianc \
-		${LOCALBASE}/share/texmf-dist/tex/generic/babel-ukraineb/ukraineb.ldf:${PORTSDIR}/print/texlive-babel-ukraineb \
+		${LOCALBASE}/share/texmf-dist/tex/generic/babel-ukrainian/ukraineb.ldf:${PORTSDIR}/print/texlive-babel-ukrainian \
+		${LOCALBASE}/share/texmf-dist/tex/latex/churchslavonic/churchslavonic.sty:${PORTSDIR}/print/texlive-churchslavonic \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cmcyr/cmcyr.map:${PORTSDIR}/print/texlive-cmcyr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cyrillic/cp1251.def:${PORTSDIR}/print/texlive-cyrillic \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/rubibtex.sh:${PORTSDIR}/print/texlive-cyrillic-bin \
@@ -82,19 +89,25 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/eskd/eskd.cls:${PORTSDIR}/print/texlive-eskd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eskdx/eskdafterpkg.sty:${PORTSDIR}/print/texlive-eskdx \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/gost/gost2003.bst:${PORTSDIR}/print/texlive-gost \
-		${LOCALBASE}/share/texmf-dist/tex/generic/ruhyphen/ruhyphen.tex:${PORTSDIR}/print/texlive-ruhyphen \
-		${LOCALBASE}/share/texmf-dist/tex/generic/ukrhyph/ukrhyph.tex:${PORTSDIR}/print/texlive-ukrhyph \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-bg.tex:${PORTSDIR}/print/texlive-hyphen-bulgarian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-cu.tex:${PORTSDIR}/print/texlive-hyphen-churchslavonic \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-mn-cyrl-x-lmc.tex:${PORTSDIR}/print/texlive-hyphen-mongolian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-ru.tex:${PORTSDIR}/print/texlive-hyphen-russian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-sr-cyrl.tex:${PORTSDIR}/print/texlive-hyphen-serbian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-uk.tex:${PORTSDIR}/print/texlive-hyphen-ukrainian \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lcyw/cmap-cyr-vf.sty:${PORTSDIR}/print/texlive-lcyw \
 		${LOCALBASE}/share/texmf-dist/fonts/source/lh/base/fikparm.mf:${PORTSDIR}/print/texlive-lh \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lhcyr/karabas.tex:${PORTSDIR}/print/texlive-lhcyr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mongolian-babel/mn.def:${PORTSDIR}/print/texlive-mongolian-babel \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/montex/mongolian.map:${PORTSDIR}/print/texlive-montex \
+		${LOCALBASE}/share/texmf-dist/tex/generic/ruhyphen/ruhyphen.tex:${PORTSDIR}/print/texlive-ruhyphen \
 		${LOCALBASE}/share/texmf-dist/tex/latex/russ/russ.sty:${PORTSDIR}/print/texlive-russ \
 		${LOCALBASE}/share/texmf-dist/tex/latex/serbian-apostrophe/serbian-apostrophe.sty:${PORTSDIR}/print/texlive-serbian-apostrophe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/serbian-date-lat/serbian-date-lat.sty:${PORTSDIR}/print/texlive-serbian-date-lat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/serbian-def-cyr/serbian-def-cyr.sty:${PORTSDIR}/print/texlive-serbian-def-cyr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/serbian-lig/serbian-lig.sty:${PORTSDIR}/print/texlive-serbian-lig \
-		${LOCALBASE}/share/texmf-dist/fonts/enc/t2/t2a-mod1.enc:${PORTSDIR}/print/texlive-t2
+		${LOCALBASE}/share/texmf-dist/fonts/enc/t2/t2a-mod1.enc:${PORTSDIR}/print/texlive-t2 \
+		${LOCALBASE}/share/texmf-dist/tex/generic/ukrhyph/ukrhyph.tex:${PORTSDIR}/print/texlive-ukrhyph
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

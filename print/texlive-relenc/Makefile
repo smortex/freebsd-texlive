@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	relenc
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A "relaxed" font encoding.
+COMMENT=	A "relaxed" font encoding
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

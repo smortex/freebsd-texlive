@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	xpiano
-PORTVERSION=	20150619
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	An extension of the piano package.
+COMMENT=	An extension of the piano package
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	diagnose
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A diagnostic tool for a TeX installation.
+COMMENT=	A diagnostic tool for a TeX installation
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

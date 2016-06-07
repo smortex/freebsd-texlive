@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	hobete
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Unofficial beamer theme for the University of Hohenheim.
+COMMENT=	Unofficial beamer theme for the University of Hohenheim
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

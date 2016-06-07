@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	dcpic
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Commutative diagrams in a LaTeX and TeX documents.
+COMMENT=	Commutative diagrams in a LaTeX and TeX documents
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

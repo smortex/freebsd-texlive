@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pictex2
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Adds relative coordinates and improves the \plot command.
+COMMENT=	Adds relative coordinates and improves the \plot command
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

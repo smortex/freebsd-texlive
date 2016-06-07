@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	romanbarpagenumber
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesetting roman page numbers.
+COMMENT=	Typesetting roman page numbers
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

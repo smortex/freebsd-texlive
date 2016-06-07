@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mtgreek
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Use italic and upright greek letters with mathtime.
+COMMENT=	Use italic and upright greek letters with mathtime
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

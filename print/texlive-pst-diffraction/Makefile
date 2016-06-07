@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	pst-diffraction
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Print diffraction patterns from various apertures.
+COMMENT=	Print diffraction patterns from various apertures
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

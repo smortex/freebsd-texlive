@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	fragmaster
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Using psfrag with PDFLaTeX.
+COMMENT=	Using psfrag with pdfLaTeX
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

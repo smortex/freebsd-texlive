@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	skb
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Tools for a repository of long-living documents.
+COMMENT=	Tools for a repository of long-living documents
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

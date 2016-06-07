@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ebong
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Utility for writing Bengali in Rapid Roman Format.
+COMMENT=	Utility for writing Bengali in Rapid Roman Format
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

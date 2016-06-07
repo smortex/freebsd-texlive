@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	aichej
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bibliography style file for the AIChE Journal.
+COMMENT=	Bibliography style file for the AIChE Journal
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

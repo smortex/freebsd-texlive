@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	tcldoc
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Doc/docstrip for tcl.
+COMMENT=	Doc/docstrip for tcl
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

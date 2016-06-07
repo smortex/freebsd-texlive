@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	braket
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Dirac bra-ket and set notations.
+COMMENT=	Dirac bra-ket and set notations
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

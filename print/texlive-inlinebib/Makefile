@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	inlinebib
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Citations in footnotes.
+COMMENT=	Citations in footnotes
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	timetable
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generate timetables.
+COMMENT=	Generate timetables
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

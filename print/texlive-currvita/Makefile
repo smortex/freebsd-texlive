@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	currvita
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset a curriculum vitae.
+COMMENT=	Typeset a curriculum vitae
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

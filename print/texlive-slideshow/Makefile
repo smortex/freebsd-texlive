@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	slideshow
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generate slideshow with MetaPost.
+COMMENT=	Generate slideshow with MetaPost
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

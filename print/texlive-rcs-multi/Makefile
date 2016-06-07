@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	rcs-multi
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset RCS version control in multiple-file documents.
+COMMENT=	Typeset RCS version control in multiple-file documents
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

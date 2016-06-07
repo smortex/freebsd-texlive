@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	dsptricks
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros for Digital Signal Processing plots.
+COMMENT=	Macros for Digital Signal Processing plots
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

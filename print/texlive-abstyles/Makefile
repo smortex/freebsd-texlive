@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	abstyles
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Adaptable BibTeX styles.
+COMMENT=	Adaptable BibTeX styles
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

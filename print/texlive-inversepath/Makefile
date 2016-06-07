@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	inversepath
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Calculate inverse file paths.
+COMMENT=	Calculate inverse file paths
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

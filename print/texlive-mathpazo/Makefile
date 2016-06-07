@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mathpazo
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fonts to typeset mathematics to match Palatino.
+COMMENT=	Fonts to typeset mathematics to match Palatino
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	interfaces
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Set parameters for other packages, conveniently.
+COMMENT=	Set parameters for other packages, conveniently
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

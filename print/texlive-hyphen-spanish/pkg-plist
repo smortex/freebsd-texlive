@@ -1,2 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/hyph-utf8/es/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/hyph-utf8/es/division.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/hyph-utf8/languages/es/README
+%%PORTSRC%%share/texmf-dist/source/generic/hyph-utf8/languages/es/eshyph-make.lua
+%%PORTSRC%%share/texmf-dist/source/generic/hyph-utf8/languages/es/eshyph.src
+share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-es.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/ptex/hyph-es.ec.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-es.tex
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-es.chr.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-es.hyp.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-es.lic.txt
+share/texmf-dist/tex/generic/hyph-utf8/patterns/txt/hyph-es.pat.txt
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

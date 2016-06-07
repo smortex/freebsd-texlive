@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	xetex-itrans
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Itrans input maps for use with XeLaTeX.
+COMMENT=	Itrans input maps for use with XeLaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

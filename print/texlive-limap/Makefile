@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	limap
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset maps and blocks according to the Information Mapping method.
+COMMENT=	Typeset maps and blocks according to the Information Mapping method
 
 OPTIONS_DEFINE=	SRCS
 OPTIONS_EXCLUDE=	DOCS

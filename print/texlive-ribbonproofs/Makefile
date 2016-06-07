@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	ribbonproofs
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Drawing ribbon proofs.
+COMMENT=	Drawing ribbon proofs
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

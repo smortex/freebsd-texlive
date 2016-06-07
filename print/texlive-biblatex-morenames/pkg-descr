@@ -1,0 +1,7 @@
+This package adds new fields of "name" type to the standard
+entry types of BibLaTeX. For example: maineditor, for a
+@collection, means the editor of @mvcollection, and not the
+editor of the @collection. bookineditor, for a @bookinbook,
+means the editor of the entry, and not, as the standard editor
+field, the editor of the volume in which the entry is
+contained.

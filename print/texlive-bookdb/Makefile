@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bookdb
-PORTVERSION=	20150615
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A BibTeX style file for cataloguing a home library.
+COMMENT=	A BibTeX style file for cataloguing a home library
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

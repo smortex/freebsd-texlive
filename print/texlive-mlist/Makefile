@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	mlist
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Logical markup for lists.
+COMMENT=	Logical markup for lists
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

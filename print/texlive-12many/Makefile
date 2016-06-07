@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	12many
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Generalising mathematical index sets.
+COMMENT=	Generalising mathematical index sets
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

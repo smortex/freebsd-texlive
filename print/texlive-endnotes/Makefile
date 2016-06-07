@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	endnotes
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Place footnotes at the end.
+COMMENT=	Place footnotes at the end
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

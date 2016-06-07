@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mintspirit
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LaTeX support for MintSpirit font families.
+COMMENT=	LaTeX support for MintSpirit font families
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	sciposter
-PORTVERSION=	20150413
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Make posters of ISO A3 size and larger.
+COMMENT=	Make posters of ISO A3 size and larger
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	historische-zeitschrift
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Biblatex style for the journal 'Historische Zeitschrift'
+COMMENT=	BibLaTeX style for the journal 'Historische Zeitschrift'
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

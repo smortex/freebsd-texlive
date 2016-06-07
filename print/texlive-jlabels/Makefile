@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	jlabels
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Make letter-sized pages of labels.
+COMMENT=	Make letter-sized pages of labels
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

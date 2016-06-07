@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	clipboard
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Copy and paste into and across documents.
+COMMENT=	Copy and paste into and across documents
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

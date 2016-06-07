@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	lm-math
-PORTVERSION=	20150419
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	OpenType maths fonts for Latin Modern.
+COMMENT=	OpenType maths fonts for Latin Modern
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,0 +1,14 @@
+# $FreeBSD$
+
+PORTNAME=	typed-checklist
+PORTVERSION=	20160414
+CATEGORIES=	print
+
+MAINTAINER=	romain@FreeBSD.org
+COMMENT=	Typesetting tasks, goals, milestones, artifacts, and more in LaTeX
+
+OPTIONS_DEFINE=	DOCS SRCS
+.include <bsd.port.options.mk>
+
+.include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
+.include <bsd.port.mk>

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bguq
-PORTVERSION=	20150412
+PORTVERSION=	20160414
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Improved quantifier stroke for Begriffsschrift packages.
+COMMENT=	Improved quantifier stroke for Begriffsschrift packages
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
