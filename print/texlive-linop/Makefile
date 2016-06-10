@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	datetime2
+PORTNAME=	linop
 PORTVERSION=	20160607
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Formats for dates, times and time zones
+COMMENT=	Typeset linear operators as they appear in quantum theory or linear algebra
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

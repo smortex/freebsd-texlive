@@ -8,12 +8,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/circuitikz/compatibility.tex
 share/texmf-dist/tex/context/third/circuitikz/t-circuitikz.tex
 share/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
-share/texmf-dist/tex/generic/circuitikz/pgfcircbasic.tex
 share/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex
 share/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex
 share/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex
 share/texmf-dist/tex/generic/circuitikz/pgfcircmath.tex
 share/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex
+share/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex
 share/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex
 share/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex
 share/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex

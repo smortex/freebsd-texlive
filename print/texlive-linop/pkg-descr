@@ -1,0 +1,4 @@
+This small package aims to provide two simple commands and many
+options to easily write linear operators as they appear in many-
+body physics, quantum theory, and linear algebra, in any of the
+ways commonly in use.

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20160517
+PORTVERSION=	20160607
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -818,6 +818,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/libgreek/libgreek.sty:${PORTSDIR}/print/texlive-libgreek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/limap/limap.cls:${PORTSDIR}/print/texlive-limap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/linegoal/linegoal.sty:${PORTSDIR}/print/texlive-linegoal \
+		${LOCALBASE}/share/texmf-dist/tex/latex/linop/linop.sty:${PORTSDIR}/print/texlive-linop \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lipsum/lipsum.sty:${PORTSDIR}/print/texlive-lipsum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lisp-on-tex/lisp-on-tex.sty:${PORTSDIR}/print/texlive-lisp-on-tex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listing/listing.sty:${PORTSDIR}/print/texlive-listing \
