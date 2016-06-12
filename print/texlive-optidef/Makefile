@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	chemmacros
+PORTNAME=	optidef
 PORTVERSION=	20160610
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A collection of macros to support typesetting chemistry documents
+COMMENT=	Provides a standard set of environments for writing minimization problems
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -79,7 +79,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsrefs/amsrefs.sty:${PORTSDIR}/print/texlive-amsrefs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/apacite/apacite.sty:${PORTSDIR}/print/texlive-apacite \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/apalike2/apalike2.bst:${PORTSDIR}/print/texlive-apalike2 \
-		${LOCALBASE}/share/texmf-dist/bibtex/bib/archaeologie/archaeologie-abbrv.bib:${PORTSDIR}/print/texlive-archaeologie \
+		${LOCALBASE}/share/texmf-dist/bibtex/bib/archaeologie/archaeologie-bibancient.bib:${PORTSDIR}/print/texlive-archaeologie \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/beebe/gut.bib:${PORTSDIR}/print/texlive-beebe \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/besjournals/besjournals.bst:${PORTSDIR}/print/texlive-besjournals \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/bestpapers/bestpapers-export.bst:${PORTSDIR}/print/texlive-bestpapers \
@@ -1746,6 +1746,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/libgreek/libgreek.sty:${PORTSDIR}/print/texlive-libgreek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/limap/limap.cls:${PORTSDIR}/print/texlive-limap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/linegoal/linegoal.sty:${PORTSDIR}/print/texlive-linegoal \
+		${LOCALBASE}/share/texmf-dist/tex/latex/linop/linop.sty:${PORTSDIR}/print/texlive-linop \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lipsum/lipsum.sty:${PORTSDIR}/print/texlive-lipsum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lisp-on-tex/lisp-on-tex.sty:${PORTSDIR}/print/texlive-lisp-on-tex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/listing/listing.sty:${PORTSDIR}/print/texlive-listing \
@@ -1899,6 +1900,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/oldstyle/oldstyle.sty:${PORTSDIR}/print/texlive-oldstyle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/onlyamsmath/onlyamsmath.sty:${PORTSDIR}/print/texlive-onlyamsmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/opcit/opcit.sty:${PORTSDIR}/print/texlive-opcit \
+		${LOCALBASE}/share/texmf-dist/tex/latex/optidef/optidef.sty:${PORTSDIR}/print/texlive-optidef \
 		${LOCALBASE}/share/texmf-dist/tex/latex/optional/optional.sty:${PORTSDIR}/print/texlive-optional \
 		${LOCALBASE}/share/texmf-dist/tex/latex/options/options.sty:${PORTSDIR}/print/texlive-options \
 		${LOCALBASE}/share/texmf-dist/tex/latex/outline/outline.sty:${PORTSDIR}/print/texlive-outline \

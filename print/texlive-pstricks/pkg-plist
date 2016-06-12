@@ -1,7 +1,3 @@
-%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/Changes
-%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/Changes.dvips
-%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/Changes.generic
-%%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/Changes.latex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/PSTricks.bib
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/README
 %%PORTDOCS%%share/texmf-dist/doc/generic/pstricks/ctandir.sty
@@ -47,7 +43,6 @@ share/texmf-dist/dvips/pstricks/pst-dots97.pro
 share/texmf-dist/dvips/pstricks/pst-show.pro
 share/texmf-dist/dvips/pstricks/pstricks.pro
 share/texmf-dist/dvips/pstricks/pstricks97.pro
-share/texmf-dist/tex/generic/pstricks/config/Changes
 share/texmf-dist/tex/generic/pstricks/config/README.cfg
 share/texmf-dist/tex/generic/pstricks/config/distiller.cfg
 share/texmf-dist/tex/generic/pstricks/config/dvips.cfg

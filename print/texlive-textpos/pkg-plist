@@ -1,8 +1,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/textpos/LICENCE
 %%PORTDOCS%%share/texmf-dist/doc/latex/textpos/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/textpos/VERSION-1.7j
-%%PORTDOCS%%share/texmf-dist/doc/latex/textpos/examples/README-examples
+%%PORTDOCS%%share/texmf-dist/doc/latex/textpos/VERSION-1.8
+%%PORTDOCS%%share/texmf-dist/doc/latex/textpos/examples/README.examples
 %%PORTDOCS%%share/texmf-dist/doc/latex/textpos/examples/t1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/textpos/examples/t10.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/textpos/examples/t2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/textpos/examples/t3.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/textpos/examples/t4.tex
@@ -10,6 +11,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/textpos/examples/t6.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/textpos/examples/t7.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/textpos/examples/t8.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/textpos/examples/t9.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/textpos/niepraschk-eso-pic.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/textpos/niepraschk-eso-pic.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/textpos/textpos-example.tex

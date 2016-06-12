@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20160607
+PORTVERSION=	20160610
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -972,6 +972,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/oldstyle/oldstyle.sty:${PORTSDIR}/print/texlive-oldstyle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/onlyamsmath/onlyamsmath.sty:${PORTSDIR}/print/texlive-onlyamsmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/opcit/opcit.sty:${PORTSDIR}/print/texlive-opcit \
+		${LOCALBASE}/share/texmf-dist/tex/latex/optidef/optidef.sty:${PORTSDIR}/print/texlive-optidef \
 		${LOCALBASE}/share/texmf-dist/tex/latex/optional/optional.sty:${PORTSDIR}/print/texlive-optional \
 		${LOCALBASE}/share/texmf-dist/tex/latex/options/options.sty:${PORTSDIR}/print/texlive-options \
 		${LOCALBASE}/share/texmf-dist/tex/latex/outline/outline.sty:${PORTSDIR}/print/texlive-outline \
