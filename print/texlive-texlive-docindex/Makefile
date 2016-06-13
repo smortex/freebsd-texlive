@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	texlive-docindex
-PORTVERSION=	20160607
+PORTVERSION=	20160611
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20160510
+PORTVERSION=	20160611
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -212,6 +212,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/uiucredborder/uiucredborder.cls:${PORTSDIR}/print/texlive-uiucredborder \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uiucthesis/uiucthesis.cls:${PORTSDIR}/print/texlive-uiucthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ulthese/ulthese.cls:${PORTSDIR}/print/texlive-ulthese \
+		${LOCALBASE}/share/texmf-dist/tex/latex/umbclegislation/legislation.cls:${PORTSDIR}/print/texlive-umbclegislation \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umthesis/umthesis.cls:${PORTSDIR}/print/texlive-umthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umich-thesis/umich-thesis.cls:${PORTSDIR}/print/texlive-umich-thesis \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/unamthesis/UNAMThesis.bst:${PORTSDIR}/print/texlive-unamthesis \

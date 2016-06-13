@@ -1,13 +1,14 @@
 # $FreeBSD$
 
 PORTNAME=	platex
-PORTVERSION=	20160512
+PORTVERSION=	20160611
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	pLaTeX2e and miscellaneous macros for pTeX
 
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/ptex/morisawa.map:${PORTSDIR}/print/texlive-ptex \
+		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

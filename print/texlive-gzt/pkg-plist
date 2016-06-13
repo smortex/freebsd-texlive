@@ -6,12 +6,13 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/gzt/gzt.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/gzt/gztarticle.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/gzt/latexmkrc
-%%PORTDOCS%%share/texmf-dist/doc/latex/gzt/ltxdoc.cfg
+%%PORTDOCS%%share/texmf-dist/doc/latex/gzt/lstlang0.sty
 %%PORTDOCS%%share/texmf-dist/doc/latex/gzt/notations.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/gzt/packages-charges.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/gzt/todo.tex
 %%PORTSRC%%share/texmf-dist/source/latex/gzt/gzt.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/gzt/gzt.ins
+%%PORTSRC%%share/texmf-dist/source/latex/gzt/ltxdoc.cfg
 share/texmf-dist/tex/latex/gzt/gzt-logo.pdf
 share/texmf-dist/tex/latex/gzt/gzt.cfg
 share/texmf-dist/tex/latex/gzt/gzt.cls

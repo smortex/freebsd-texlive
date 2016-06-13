@@ -4,10 +4,16 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/biblatex-chicago.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/biblatex-chicago15.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/biblatex-chicago15.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/cms-dates-intro.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/cms-dates-intro.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/cms-dates-sample.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/cms-dates-sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/cms-notes-intro.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/cms-notes-intro.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/cms-notes-sample.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/cms-notes-sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/cms-trad-appendix.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/cms-trad-appendix.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/cms-trad-sample.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/cms-trad-sample.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-chicago/cms15-dates-sample.pdf
@@ -23,6 +29,7 @@ share/texmf-dist/tex/latex/biblatex-chicago/chicago-authordate.bbx
 share/texmf-dist/tex/latex/biblatex-chicago/chicago-authordate.cbx
 share/texmf-dist/tex/latex/biblatex-chicago/chicago-authordate15.bbx
 share/texmf-dist/tex/latex/biblatex-chicago/chicago-authordate15.cbx
+share/texmf-dist/tex/latex/biblatex-chicago/chicago-dates-common.cbx
 share/texmf-dist/tex/latex/biblatex-chicago/chicago-notes.bbx
 share/texmf-dist/tex/latex/biblatex-chicago/chicago-notes.cbx
 share/texmf-dist/tex/latex/biblatex-chicago/chicago-notes15.bbx
@@ -37,5 +44,7 @@ share/texmf-dist/tex/latex/biblatex-chicago/cms-ngerman.lbx
 share/texmf-dist/tex/latex/biblatex-chicago/cms-norsk.lbx
 share/texmf-dist/tex/latex/biblatex-chicago/cms-norwegian.lbx
 share/texmf-dist/tex/latex/biblatex-chicago/cms-nynorsk.lbx
+share/texmf-dist/tex/latex/biblatex-chicago/cms-swedish.lbx
+share/texmf-dist/tex/latex/biblatex-chicago/cmsdocs.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

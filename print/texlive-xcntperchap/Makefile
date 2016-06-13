@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	yathesis
+PORTNAME=	xcntperchap
 PORTVERSION=	20160611
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A LaTeX class for writing a thesis following French rules
+COMMENT=	Track the number of subsections etc. that occur in a specified tracklevel
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

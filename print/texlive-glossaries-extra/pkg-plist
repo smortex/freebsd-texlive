@@ -14,6 +14,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-acronym.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-altmodifier.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-altmodifier.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-alttree-marginpar.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-alttree-marginpar.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-alttree-sym.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-alttree-sym.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-alttree.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-alttree.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-autoindex-hyp.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-autoindex-hyp.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-autoindex.pdf

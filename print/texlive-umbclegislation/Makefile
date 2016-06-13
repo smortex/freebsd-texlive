@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	yathesis
+PORTNAME=	umbclegislation
 PORTVERSION=	20160611
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A LaTeX class for writing a thesis following French rules
+COMMENT=	class for building legislation files for UMBC Student Government Association Bills
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
