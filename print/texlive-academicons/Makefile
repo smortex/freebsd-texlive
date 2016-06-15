@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	academicons
-PORTVERSION=	20160517
+PORTVERSION=	20160613
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Font containing icons of online academic profiles
+COMMENT=	Font containing high quality icons of online academic profiles
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

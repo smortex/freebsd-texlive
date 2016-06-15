@@ -1,0 +1,25 @@
+share/texmf-dist/bibtex/bst/cquthesis/cqunumerical.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/cquthesis/README-Chinese.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/cquthesis/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/cquthesis/contents/ack.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cquthesis/contents/analysis.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cquthesis/contents/appendix.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cquthesis/contents/conclusion.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cquthesis/contents/cover.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cquthesis/contents/denotation.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cquthesis/contents/experiment.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cquthesis/contents/introduction.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cquthesis/cquthesis.cwl
+%%PORTDOCS%%share/texmf-dist/doc/latex/cquthesis/cquthesis.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cquthesis/dtx-style.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/cquthesis/figures/CQUbadge.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/cquthesis/figures/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/cquthesis/main.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cquthesis/ref/refs.bib
+%%PORTSRC%%share/texmf-dist/source/latex/cquthesis/cquthesis.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/cquthesis/cquthesis.ins
+share/texmf-dist/tex/latex/cquthesis/cquthesis.cfg
+share/texmf-dist/tex/latex/cquthesis/cquthesis.cls
+share/texmf-dist/tex/latex/cquthesis/cquthesis.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

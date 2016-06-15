@@ -1,0 +1,5 @@
+This packages sanitizes umlauts to be used directly in index
+entries for MakeIndex and friends with pdfLaTeX. This means
+that inside \index an umlaut can be used as "U or as U. In both
+cases, the letter is written as "U into the raw index file for
+correct processing with MakeIndex and pdfLaTeX.

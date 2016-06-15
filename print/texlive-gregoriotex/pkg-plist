@@ -3,10 +3,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/luatex/gregoriotex/Command_Index_gregorio.tex
 %%PORTDOCS%%share/texmf-dist/doc/luatex/gregoriotex/Command_Index_internal.tex
 %%PORTDOCS%%share/texmf-dist/doc/luatex/gregoriotex/Gabc.tex
-%%PORTDOCS%%share/texmf-dist/doc/luatex/gregoriotex/GregorioNabcRef-4_1_2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/luatex/gregoriotex/GregorioNabcRef.pdf
 %%PORTDOCS%%share/texmf-dist/doc/luatex/gregoriotex/GregorioNabcRef.tex
-%%PORTDOCS%%share/texmf-dist/doc/luatex/gregoriotex/GregorioRef-4_1_2.pdf
 %%PORTDOCS%%share/texmf-dist/doc/luatex/gregoriotex/GregorioRef.lua
+%%PORTDOCS%%share/texmf-dist/doc/luatex/gregoriotex/GregorioRef.pdf
 %%PORTDOCS%%share/texmf-dist/doc/luatex/gregoriotex/GregorioRef.tex
 %%PORTDOCS%%share/texmf-dist/doc/luatex/gregoriotex/examples/FactusEst.gabc
 %%PORTDOCS%%share/texmf-dist/doc/luatex/gregoriotex/examples/PopulusSion.gabc

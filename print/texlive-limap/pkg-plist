@@ -1,4 +1,15 @@
-%%PORTSRC%%share/texmf-dist/source/latex/limap/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/limap/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/limap/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/limap/limap.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/limap/lppl.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/limap/samples/boxed-toc.ltx
+%%PORTDOCS%%share/texmf-dist/doc/latex/limap/samples/boxed-toc.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/limap/samples/hyper.ltx
+%%PORTDOCS%%share/texmf-dist/doc/latex/limap/samples/hyper.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/limap/samples/nolines.ltx
+%%PORTDOCS%%share/texmf-dist/doc/latex/limap/samples/nolines.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/limap/samples/sample.ltx
+%%PORTDOCS%%share/texmf-dist/doc/latex/limap/samples/sample.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/limap/limap.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/limap/limap.ins
 share/texmf-dist/tex/latex/limap/limap.cls

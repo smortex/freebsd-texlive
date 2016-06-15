@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/sanitize-umlaut/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/sanitize-umlaut/german.ist
+%%PORTDOCS%%share/texmf-dist/doc/latex/sanitize-umlaut/sanitize-umlaut.doc.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/sanitize-umlaut/sanitize-umlaut.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sanitize-umlaut/sanitize-umlaut.tex
+share/texmf-dist/tex/latex/sanitize-umlaut/sanitize-umlaut.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

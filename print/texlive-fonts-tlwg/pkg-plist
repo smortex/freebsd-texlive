@@ -271,8 +271,8 @@ share/texmf-dist/fonts/vf/public/fonts-tlwg/waree_o.vf
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/configure.ac
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/64-01-tlwg-kinnari.conf
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/64-02-tlwg-norasi.conf
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/64-10-tlwg-loma.conf
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/64-11-tlwg-waree.conf
-%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/64-12-tlwg-loma.conf
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/64-13-tlwg-garuda.conf
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/64-14-tlwg-umpush.conf
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/64-15-laksaman.conf
@@ -282,9 +282,7 @@ share/texmf-dist/fonts/vf/public/fonts-tlwg/waree_o.vf
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/89-tlwg-garuda-synthetic.conf
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/89-tlwg-kinnari-synthetic.conf
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/89-tlwg-laksaman-synthetic.conf
-%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/89-tlwg-loma-synthetic.conf
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/89-tlwg-umpush-synthetic.conf
-%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/89-tlwg-waree-synthetic.conf
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/Makefile.am
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/fontconfig/Makefile.in
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/install-sh
@@ -347,6 +345,7 @@ share/texmf-dist/fonts/vf/public/fonts-tlwg/waree_o.vf
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/scripts/gen-test-pfb.pe
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/scripts/gen-test-ttf.pe
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/scripts/gen-ttf.pe
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/scripts/gen-woff.pe
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/scripts/gen.mk.am
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/scripts/thaikernpairs.txt
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/sipa/Laksaman-Bold.sfd
@@ -371,7 +370,7 @@ share/texmf-dist/fonts/vf/public/fonts-tlwg/waree_o.vf
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/tlwg/Purisa-BoldOblique.sfd
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/tlwg/Purisa-Oblique.sfd
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/tlwg/Purisa.sfd
-%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/tlwg/README
+%%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/tlwg/README.tlwgmono
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/tlwg/Sawasdee-Bold.sfd
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/tlwg/Sawasdee-BoldOblique.sfd
 %%PORTSRC%%share/texmf-dist/source/fonts/fonts-tlwg/tlwg/Sawasdee-Oblique.sfd

@@ -1,0 +1,8 @@
+This short package provides a flexible list-parsing macro with
+the ability to configure the parsing character, as well as the
+macro names in which the parsed list items are placed. The name
+of the parsing macro is \getargs. It is a significant
+improvement over similarly named macros in the same author's
+stringstrings and readarray packages. It is the author's intent
+to eventually have the parsers of those other packages point to
+this package, to achieve a measure of uniformity.

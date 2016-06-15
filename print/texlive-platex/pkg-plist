@@ -36,6 +36,8 @@
 %%PORTSRC%%share/texmf-dist/source/platex/base/plnews06.tex
 %%PORTSRC%%share/texmf-dist/source/platex/base/plnews07.tex
 %%PORTSRC%%share/texmf-dist/source/platex/base/plnews08.tex
+%%PORTSRC%%share/texmf-dist/source/platex/base/plnewsc01.tex
+%%PORTSRC%%share/texmf-dist/source/platex/base/plnewsc02.tex
 %%PORTSRC%%share/texmf-dist/source/platex/base/plvers.dtx
 share/texmf-dist/tex/platex/base/ascmac.sty
 share/texmf-dist/tex/platex/base/jarticle.cls
@@ -58,6 +60,7 @@ share/texmf-dist/tex/platex/base/jy1mc.fd
 share/texmf-dist/tex/platex/base/kinsoku.tex
 share/texmf-dist/tex/platex/base/nidanfloat.sty
 share/texmf-dist/tex/platex/base/oldpfont.sty
+share/texmf-dist/tex/platex/base/pfltrace.sty
 share/texmf-dist/tex/platex/base/pl209.def
 share/texmf-dist/tex/platex/base/platex.ltx
 share/texmf-dist/tex/platex/base/platexrelease.sty

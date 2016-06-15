@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/markdown/markdown.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/markdown/docstrip.cfg
+%%PORTSRC%%share/texmf-dist/source/generic/markdown/markdown.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/markdown/markdown.ins
+share/texmf-dist/tex/context/third/markdown/t-markdown.tex
+share/texmf-dist/tex/generic/markdown/markdown.tex
+share/texmf-dist/tex/latex/markdown/markdown.sty
+share/texmf-dist/tex/luatex/markdown/markdown.lua
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

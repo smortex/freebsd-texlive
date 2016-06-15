@@ -18,5 +18,6 @@ share/texmf-dist/tex/latex/apa6/config/APAenglish.txt
 share/texmf-dist/tex/latex/apa6/config/APAgerman.txt
 share/texmf-dist/tex/latex/apa6/config/APAgreek.txt
 share/texmf-dist/tex/latex/apa6/config/APAngerman.txt
+share/texmf-dist/tex/latex/apa6/config/APAturkish.txt
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

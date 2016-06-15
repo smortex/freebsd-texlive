@@ -1625,6 +1625,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gcite/gcite.sty:${PORTSDIR}/print/texlive-gcite \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gender/gender.sty:${PORTSDIR}/print/texlive-gender \
 		${LOCALBASE}/share/texmf-dist/tex/latex/genmpage/genmpage.sty:${PORTSDIR}/print/texlive-genmpage \
+		${LOCALBASE}/share/texmf-dist/tex/latex/getargs/getargs.sty:${PORTSDIR}/print/texlive-getargs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/getfiledate/getfiledate.sty:${PORTSDIR}/print/texlive-getfiledate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/getitems/getitems.sty:${PORTSDIR}/print/texlive-getitems \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ginpenc/ginpenc.sty:${PORTSDIR}/print/texlive-ginpenc \
@@ -1791,6 +1792,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/manuscript/manuscript.sty:${PORTSDIR}/print/texlive-manuscript \
 		${LOCALBASE}/share/texmf-dist/tex/latex/marginfix/marginfix.sty:${PORTSDIR}/print/texlive-marginfix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/marginnote/marginnote.sty:${PORTSDIR}/print/texlive-marginnote \
+		${LOCALBASE}/share/texmf-dist/tex/generic/markdown/markdown.tex:${PORTSDIR}/print/texlive-markdown \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathalfa/mathalfa.sty:${PORTSDIR}/print/texlive-mathalfa \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathastext/mathastext.sty:${PORTSDIR}/print/texlive-mathastext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathexam/mathexam.sty:${PORTSDIR}/print/texlive-mathexam \
@@ -2024,6 +2026,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/rtkinenc/rtkinenc.sty:${PORTSDIR}/print/texlive-rtkinenc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rulercompass/tikzlibraryrulercompass.code.tex:${PORTSDIR}/print/texlive-rulercompass \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rvwrite/rvwrite.sty:${PORTSDIR}/print/texlive-rvwrite \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sanitize-umlaut/sanitize-umlaut.sty:${PORTSDIR}/print/texlive-sanitize-umlaut \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sauerj/collect.sty:${PORTSDIR}/print/texlive-sauerj \
 		${LOCALBASE}/share/texmf-dist/tex/latex/savefnmark/savefnmark.sty:${PORTSDIR}/print/texlive-savefnmark \
 		${LOCALBASE}/share/texmf-dist/tex/latex/savesym/savesym.sty:${PORTSDIR}/print/texlive-savesym \
@@ -2240,10 +2243,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/widetable/widetable.sty:${PORTSDIR}/print/texlive-widetable \
 		${LOCALBASE}/share/texmf-dist/tex/latex/williams/antree.sty:${PORTSDIR}/print/texlive-williams \
 		${LOCALBASE}/share/texmf-dist/tex/latex/withargs/withargs.sty:${PORTSDIR}/print/texlive-withargs \
+		${LOCALBASE}/share/texmf-dist/tex/latex/wordcount/wordcount.tex:${PORTSDIR}/print/texlive-wordcount \
 		${LOCALBASE}/share/texmf-dist/tex/latex/wordlike/wordlike.sty:${PORTSDIR}/print/texlive-wordlike \
 		${LOCALBASE}/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty:${PORTSDIR}/print/texlive-wrapfig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xargs/xargs.sty:${PORTSDIR}/print/texlive-xargs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xassoccnt/xassoccnt.sty:${PORTSDIR}/print/texlive-xassoccnt \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xcntperchap/xcntperchap.sty:${PORTSDIR}/print/texlive-xcntperchap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xcolor-solarized/xcolor-solarized.sty:${PORTSDIR}/print/texlive-xcolor-solarized \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xcomment/xcomment.sty:${PORTSDIR}/print/texlive-xcomment \
 		${LOCALBASE}/share/texmf-dist/makeindex/xdoc/docindex.ist:${PORTSDIR}/print/texlive-xdoc \
@@ -2586,6 +2591,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/cleanthesis/cleanthesis.sty:${PORTSDIR}/print/texlive-cleanthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmpj/cmpj.sty:${PORTSDIR}/print/texlive-cmpj \
 		${LOCALBASE}/share/texmf-dist/tex/latex/confproc/confproc.cls:${PORTSDIR}/print/texlive-confproc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cquthesis/cquthesis.cls:${PORTSDIR}/print/texlive-cquthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dccpaper/dccpaper-base.tex:${PORTSDIR}/print/texlive-dccpaper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dithesis/dithesis.cls:${PORTSDIR}/print/texlive-dithesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebook/ebook.sty:${PORTSDIR}/print/texlive-ebook \
@@ -2693,6 +2699,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/uiucredborder/uiucredborder.cls:${PORTSDIR}/print/texlive-uiucredborder \
 		${LOCALBASE}/share/texmf-dist/tex/latex/uiucthesis/uiucthesis.cls:${PORTSDIR}/print/texlive-uiucthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ulthese/ulthese.cls:${PORTSDIR}/print/texlive-ulthese \
+		${LOCALBASE}/share/texmf-dist/tex/latex/umbclegislation/legislation.cls:${PORTSDIR}/print/texlive-umbclegislation \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umthesis/umthesis.cls:${PORTSDIR}/print/texlive-umthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/umich-thesis/umich-thesis.cls:${PORTSDIR}/print/texlive-umich-thesis \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/unamthesis/UNAMThesis.bst:${PORTSDIR}/print/texlive-unamthesis \

@@ -1,0 +1,10 @@
+The package provides facilities for the conversion of markdown
+markup to plain TeX. These are provided both in form of a Lua
+module and in form of plain TeX, LaTeX, and ConTeXt macro
+packages that enable the direct inclusion of markdown documents
+inside TeX documents. Architecturally, the package consists of
+the Lunamark Lua module by John MacFarlane, which was slimmed
+down and rewritten for the needs of the package. Lunamark
+provides speedy markdown parsing for the rest of the package.
+On top of Lunamark sits code for the plain TeX, LaTeX, and
+ConTeXt formats by Vit Novotny.

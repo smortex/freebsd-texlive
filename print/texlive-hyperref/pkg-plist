@@ -2,6 +2,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/hyperref/ChangeLog.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/hyperref/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/hyperref/README.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/hyperref/backref.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/hyperref/cmmi10-22.gif
 %%PORTDOCS%%share/texmf-dist/doc/latex/hyperref/cmsy10-21.gif
 %%PORTDOCS%%share/texmf-dist/doc/latex/hyperref/hyperref.pdf
@@ -25,6 +26,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/hyperref/psdmapshortnames.pl
 %%PORTSRC%%share/texmf-dist/source/latex/hyperref/test/Makefile
 %%PORTSRC%%share/texmf-dist/source/latex/hyperref/test/bit.tex
+%%PORTSRC%%share/texmf-dist/source/latex/hyperref/test/files.xml
 %%PORTSRC%%share/texmf-dist/source/latex/hyperref/test/hog.eps
 %%PORTSRC%%share/texmf-dist/source/latex/hyperref/test/hog.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/hyperref/test/phys1.jpg
@@ -62,6 +64,7 @@ share/texmf-dist/tex/latex/hyperref/hdvipdfm.def
 share/texmf-dist/tex/latex/hyperref/hdvips.def
 share/texmf-dist/tex/latex/hyperref/hdvipson.def
 share/texmf-dist/tex/latex/hyperref/hdviwind.def
+share/texmf-dist/tex/latex/hyperref/hluatex.def
 share/texmf-dist/tex/latex/hyperref/hpdftex.def
 share/texmf-dist/tex/latex/hyperref/htex4ht.cfg
 share/texmf-dist/tex/latex/hyperref/htex4ht.def
