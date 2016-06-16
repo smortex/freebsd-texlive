@@ -73,6 +73,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/tex4ht/mn9.html
 share/texmf-dist/scripts/tex4ht/htcopy.pl
 share/texmf-dist/scripts/tex4ht/htmove.pl
+share/texmf-dist/scripts/tex4ht/xhlatex.sh
 share/texmf-dist/tex/generic/tex4ht/2up.4ht
 share/texmf-dist/tex/generic/tex4ht/8859-6.4ht
 share/texmf-dist/tex/generic/tex4ht/CJK.4ht
