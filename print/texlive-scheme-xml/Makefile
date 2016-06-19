@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	scheme-xml
-PORTVERSION=	20160421
+PORTVERSION=	20160616
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -15,7 +15,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/context/mkii/cont-ab.bst:$
 		${LOCALBASE}/share/texmf-dist/tex/latex/marvosym/marvosym.sty:${PORTSDIR}/print/texlive-marvosym \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/metapost/freeeuro.afm:${PORTSDIR}/print/texlive-metapost \
 		${LOCALBASE}/share/texmf-dist/tex/xmltex/passivetex/dummyels.sty:${PORTSDIR}/print/texlive-passivetex \
-		${LOCALBASE}/share/texmf-dist/tex/latex/rotating/rotating.sty:${PORTSDIR}/print/texlive-rotating \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty:${PORTSDIR}/print/texlive-stmaryrd \
 		${LOCALBASE}/share/texmf-dist/tex/generic/tex4ht/tex4ht.sty:${PORTSDIR}/print/texlive-tex4ht \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tipa/tipa.sty:${PORTSDIR}/print/texlive-tipa \

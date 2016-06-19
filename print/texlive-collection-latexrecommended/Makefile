@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexrecommended
-PORTVERSION=	20160414
+PORTVERSION=	20160616
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -113,7 +113,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/powerdot/powerdot.cls:${PORTSDIR}/print/texlive-powerdot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/psfrag/psfrag.sty:${PORTSDIR}/print/texlive-psfrag \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rcs/rcs.sty:${PORTSDIR}/print/texlive-rcs \
-		${LOCALBASE}/share/texmf-dist/tex/latex/rotating/rotating.sty:${PORTSDIR}/print/texlive-rotating \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sansmath/sansmath.sty:${PORTSDIR}/print/texlive-sansmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/section/section.sty:${PORTSDIR}/print/texlive-section \
 		${LOCALBASE}/share/texmf-dist/tex/latex/seminar/seminar.cls:${PORTSDIR}/print/texlive-seminar \
