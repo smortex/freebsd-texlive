@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	luatexja
+PORTNAME=	hustthesis
 PORTVERSION=	20160619
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset Japanese with Lua(La)TeX
+COMMENT=	Unofficial thesis template for Huazhong University
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

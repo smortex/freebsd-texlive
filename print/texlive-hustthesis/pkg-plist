@@ -1,0 +1,14 @@
+share/texmf-dist/bibtex/bst/hustthesis/hustthesis.bst
+%%PORTDOCS%%share/texmf-dist/doc/latex/hustthesis/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/hustthesis/fig-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/hustthesis/hustthesis-en-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/hustthesis/hustthesis-zh-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/hustthesis/hustthesis.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/hustthesis/ref-example.bib
+%%PORTSRC%%share/texmf-dist/source/latex/hustthesis/hustthesis.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/hustthesis/hustthesis.ins
+share/texmf-dist/tex/latex/hustthesis/hust-title.eps
+share/texmf-dist/tex/latex/hustthesis/hust-title.pdf
+share/texmf-dist/tex/latex/hustthesis/hustthesis.cls
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

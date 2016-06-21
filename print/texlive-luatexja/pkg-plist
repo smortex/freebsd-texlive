@@ -58,10 +58,10 @@ share/texmf-dist/tex/luatex/luatexja/jfm-ujis.lua
 share/texmf-dist/tex/luatex/luatexja/jfm-ujisv.lua
 share/texmf-dist/tex/luatex/luatexja/lltjext.sty
 share/texmf-dist/tex/luatex/luatexja/ltj-adjust.lua
+share/texmf-dist/tex/luatex/luatexja/ltj-adjust_85.lua
 share/texmf-dist/tex/luatex/luatexja/ltj-base.lua
 share/texmf-dist/tex/luatex/luatexja/ltj-base.sty
 share/texmf-dist/tex/luatex/luatexja/ltj-charrange.lua
-share/texmf-dist/tex/luatex/luatexja/ltj-compat-ptex.sty
 share/texmf-dist/tex/luatex/luatexja/ltj-compat.lua
 share/texmf-dist/tex/luatex/luatexja/ltj-debug.lua
 share/texmf-dist/tex/luatex/luatexja/ltj-direction.lua

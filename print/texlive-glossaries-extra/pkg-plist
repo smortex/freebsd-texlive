@@ -26,6 +26,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-autoindex.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-crossref.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-crossref.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-crossref2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-crossref2.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-docdef.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-docdef.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-entrycount.pdf
@@ -46,6 +48,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-name-font.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-nested.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-nested.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-noidx-restricteddocdefs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-noidx-restricteddocdefs.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-onelink.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-onelink.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-onthefly-utf8.pdf
@@ -62,6 +66,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-postlink.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-prefix.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-prefix.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-restricteddocdefs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-restricteddocdefs.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-trans.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-trans.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-undef.pdf
