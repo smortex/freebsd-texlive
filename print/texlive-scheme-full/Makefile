@@ -1040,7 +1040,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/powerdot/powerdot.cls:${PORTSDIR}/print/texlive-powerdot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/psfrag/psfrag.sty:${PORTSDIR}/print/texlive-psfrag \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rcs/rcs.sty:${PORTSDIR}/print/texlive-rcs \
-		${LOCALBASE}/share/texmf-dist/tex/latex/rotating/rotating.sty:${PORTSDIR}/print/texlive-rotating \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sansmath/sansmath.sty:${PORTSDIR}/print/texlive-sansmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/section/section.sty:${PORTSDIR}/print/texlive-section \
 		${LOCALBASE}/share/texmf-dist/tex/latex/seminar/seminar.cls:${PORTSDIR}/print/texlive-seminar \
@@ -2312,6 +2311,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucharcat/ucharcat.sty:${PORTSDIR}/print/texlive-ucharcat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/12many/12many.sty:${PORTSDIR}/print/texlive-12many \
 		${LOCALBASE}/share/texmf-dist/tex/amstex/base/amstex.tex:${PORTSDIR}/print/texlive-amstex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/autobreak/autobreak.sty:${PORTSDIR}/print/texlive-autobreak \
 		${LOCALBASE}/share/texmf-dist/tex/latex/backnaur/backnaur.sty:${PORTSDIR}/print/texlive-backnaur \
 		${LOCALBASE}/share/texmf-dist/tex/latex/begriff/begriff.sty:${PORTSDIR}/print/texlive-begriff \
 		${LOCALBASE}/share/texmf-dist/tex/latex/binomexp/binomexp.sty:${PORTSDIR}/print/texlive-binomexp \
@@ -2580,6 +2580,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/articleingud/articleingud.cls:${PORTSDIR}/print/texlive-articleingud \
 		${LOCALBASE}/share/texmf-dist/tex/latex/asaetr/asaetr.cls:${PORTSDIR}/print/texlive-asaetr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ascelike/ascelike.cls:${PORTSDIR}/print/texlive-ascelike \
+		${LOCALBASE}/share/texmf-dist/tex/latex/aucklandthesis/aucklandthesis.cls:${PORTSDIR}/print/texlive-aucklandthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bangorcsthesis/bangorcsthesis.cls:${PORTSDIR}/print/texlive-bangorcsthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamer-verona/beamerthemeVerona.sty:${PORTSDIR}/print/texlive-beamer-verona \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bgteubner/bgteubner.cls:${PORTSDIR}/print/texlive-bgteubner \
@@ -2616,6 +2617,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/h2020proposal/h2020proposal.cls:${PORTSDIR}/print/texlive-h2020proposal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/har2nat/har2nat.sty:${PORTSDIR}/print/texlive-har2nat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hobete/hobete.sty:${PORTSDIR}/print/texlive-hobete \
+		${LOCALBASE}/share/texmf-dist/tex/latex/hustthesis/hustthesis.cls:${PORTSDIR}/print/texlive-hustthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/icsv/icsv.cls:${PORTSDIR}/print/texlive-icsv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ieeepes/ieeepes.sty:${PORTSDIR}/print/texlive-ieeepes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ijmart/ijmart.cls:${PORTSDIR}/print/texlive-ijmart \

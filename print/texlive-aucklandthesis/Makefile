@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	koma-script
+PORTNAME=	aucklandthesis
 PORTVERSION=	20160621
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A bundle of versatile classes and packages
+COMMENT=	Memoir-based class for formatting University of Auckland masters' and doctors' theses.
 
-OPTIONS_EXCLUDE=	DOCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

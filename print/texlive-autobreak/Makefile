@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	koma-script
+PORTNAME=	autobreak
 PORTVERSION=	20160621
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A bundle of versatile classes and packages
+COMMENT=	Simple line breaking of long formulae
 
-OPTIONS_EXCLUDE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
