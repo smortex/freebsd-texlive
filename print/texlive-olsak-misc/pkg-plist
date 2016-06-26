@@ -1,0 +1,15 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/olsak-misc/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/olsak-misc/booklet.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/olsak-misc/cnv-pu.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/olsak-misc/cnv-word.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/olsak-misc/cnv.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/olsak-misc/eparam.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/olsak-misc/fun-coffee.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/olsak-misc/openclose.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/olsak-misc/seplist.tex
+share/texmf-dist/tex/generic/olsak-misc/qrcode.tex
+share/texmf-dist/tex/generic/olsak-misc/scanbase.tex
+share/texmf-dist/tex/generic/olsak-misc/scancsv.tex
+share/texmf-dist/tex/generic/olsak-misc/xmlparser.tex
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-genericextra
-PORTVERSION=	20160414
+PORTVERSION=	20160623
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -79,6 +79,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/midnight/border.tex:${PORTSDIR}/print/texlive-midnight \
 		${LOCALBASE}/share/texmf-dist/tex/generic/navigator/navigator.sty:${PORTSDIR}/print/texlive-navigator \
 		${LOCALBASE}/share/texmf-dist/tex/generic/ofs/ofs.sty:${PORTSDIR}/print/texlive-ofs \
+		${LOCALBASE}/share/texmf-dist/tex/generic/olsak-misc/qrcode.tex:${PORTSDIR}/print/texlive-olsak-misc \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pdf-trans/pdf-trans.tex:${PORTSDIR}/print/texlive-pdf-trans \
 		${LOCALBASE}/share/texmf-dist/tex/generic/plainpkg/plainpkg.tex:${PORTSDIR}/print/texlive-plainpkg \
 		${LOCALBASE}/share/texmf-dist/tex/generic/schemata/schemata.sty:${PORTSDIR}/print/texlive-schemata \
