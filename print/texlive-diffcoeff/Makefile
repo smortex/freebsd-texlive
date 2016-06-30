@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	biblatex-ieee
+PORTNAME=	diffcoeff
 PORTVERSION=	20160628
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Ieee style files for BibLaTeX
+COMMENT=	Write differential coefficients easily
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

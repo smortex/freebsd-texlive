@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-mathextra
-PORTVERSION=	20160621
+PORTVERSION=	20160628
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -125,6 +125,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/conteq/conteq.sty:${PORTSDIR}/print/texlive-conteq \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delim/delim.sty:${PORTSDIR}/print/texlive-delim \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delimseasy/delimseasy.sty:${PORTSDIR}/print/texlive-delimseasy \
+		${LOCALBASE}/share/texmf-dist/tex/latex/diffcoeff/diffcoeff.sty:${PORTSDIR}/print/texlive-diffcoeff \
 		${LOCALBASE}/share/texmf-dist/tex/latex/drawmatrix/drawmatrix.sty:${PORTSDIR}/print/texlive-drawmatrix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebproof/ebproof.sty:${PORTSDIR}/print/texlive-ebproof \
 		${LOCALBASE}/share/texmf-dist/tex/latex/econometrics/econometrics.sty:${PORTSDIR}/print/texlive-econometrics \

@@ -386,7 +386,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/powerdot/powerdot.cls:${PORTSDIR}/print/texlive-powerdot \
 		${LOCALBASE}/share/texmf-dist/tex/latex/psfrag/psfrag.sty:${PORTSDIR}/print/texlive-psfrag \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rcs/rcs.sty:${PORTSDIR}/print/texlive-rcs \
-		${LOCALBASE}/share/texmf-dist/tex/latex/rotating/rotating.sty:${PORTSDIR}/print/texlive-rotating \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sansmath/sansmath.sty:${PORTSDIR}/print/texlive-sansmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/section/section.sty:${PORTSDIR}/print/texlive-section \
 		${LOCALBASE}/share/texmf-dist/tex/latex/seminar/seminar.cls:${PORTSDIR}/print/texlive-seminar \
@@ -433,6 +432,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucharcat/ucharcat.sty:${PORTSDIR}/print/texlive-ucharcat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/12many/12many.sty:${PORTSDIR}/print/texlive-12many \
 		${LOCALBASE}/share/texmf-dist/tex/amstex/base/amstex.tex:${PORTSDIR}/print/texlive-amstex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/autobreak/autobreak.sty:${PORTSDIR}/print/texlive-autobreak \
 		${LOCALBASE}/share/texmf-dist/tex/latex/backnaur/backnaur.sty:${PORTSDIR}/print/texlive-backnaur \
 		${LOCALBASE}/share/texmf-dist/tex/latex/begriff/begriff.sty:${PORTSDIR}/print/texlive-begriff \
 		${LOCALBASE}/share/texmf-dist/tex/latex/binomexp/binomexp.sty:${PORTSDIR}/print/texlive-binomexp \
@@ -447,6 +447,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/conteq/conteq.sty:${PORTSDIR}/print/texlive-conteq \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delim/delim.sty:${PORTSDIR}/print/texlive-delim \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delimseasy/delimseasy.sty:${PORTSDIR}/print/texlive-delimseasy \
+		${LOCALBASE}/share/texmf-dist/tex/latex/diffcoeff/diffcoeff.sty:${PORTSDIR}/print/texlive-diffcoeff \
 		${LOCALBASE}/share/texmf-dist/tex/latex/drawmatrix/drawmatrix.sty:${PORTSDIR}/print/texlive-drawmatrix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebproof/ebproof.sty:${PORTSDIR}/print/texlive-ebproof \
 		${LOCALBASE}/share/texmf-dist/tex/latex/econometrics/econometrics.sty:${PORTSDIR}/print/texlive-econometrics \

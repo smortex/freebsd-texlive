@@ -55,6 +55,7 @@ share/texmf-dist/tex/csplain/fonts/dcfonts.tex
 share/texmf-dist/tex/csplain/fonts/ecfonts.tex
 share/texmf-dist/tex/csplain/fonts/exchars.tex
 share/texmf-dist/tex/csplain/fonts/ff-mac.tex
+share/texmf-dist/tex/csplain/fonts/glyphtounicode-cs.tex
 share/texmf-dist/tex/csplain/fonts/ki-math.tex
 share/texmf-dist/tex/csplain/fonts/kp-fonts.tex
 share/texmf-dist/tex/csplain/fonts/kp-math.tex
