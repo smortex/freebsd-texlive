@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/gitfile-info/README
+%%PORTDOCS%%share/texmf-dist/doc/support/gitfile-info/gfi-run.py
+%%PORTDOCS%%share/texmf-dist/doc/support/gitfile-info/gitfile-info.gfi
+%%PORTDOCS%%share/texmf-dist/doc/support/gitfile-info/post-commit.py
+%%PORTDOCS%%share/texmf-dist/doc/support/gitfile-info/post-merge.py
+%%PORTSRC%%share/texmf-dist/source/support/gitfile-info/gitfile-info.dtx
+%%PORTSRC%%share/texmf-dist/source/support/gitfile-info/gitfile-info.ins
+share/texmf-dist/tex/latex/gitfile-info/gitfile-info.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

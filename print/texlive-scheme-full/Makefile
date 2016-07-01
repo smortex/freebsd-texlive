@@ -629,6 +629,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/midnight/border.tex:${PORTSDIR}/print/texlive-midnight \
 		${LOCALBASE}/share/texmf-dist/tex/generic/navigator/navigator.sty:${PORTSDIR}/print/texlive-navigator \
 		${LOCALBASE}/share/texmf-dist/tex/generic/ofs/ofs.sty:${PORTSDIR}/print/texlive-ofs \
+		${LOCALBASE}/share/texmf-dist/tex/generic/olsak-misc/qrcode.tex:${PORTSDIR}/print/texlive-olsak-misc \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pdf-trans/pdf-trans.tex:${PORTSDIR}/print/texlive-pdf-trans \
 		${LOCALBASE}/share/texmf-dist/tex/generic/plainpkg/plainpkg.tex:${PORTSDIR}/print/texlive-plainpkg \
 		${LOCALBASE}/share/texmf-dist/tex/generic/schemata/schemata.sty:${PORTSDIR}/print/texlive-schemata \
@@ -1628,6 +1629,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/getfiledate/getfiledate.sty:${PORTSDIR}/print/texlive-getfiledate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/getitems/getitems.sty:${PORTSDIR}/print/texlive-getitems \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ginpenc/ginpenc.sty:${PORTSDIR}/print/texlive-ginpenc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gitfile-info/gitfile-info.sty:${PORTSDIR}/print/texlive-gitfile-info \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gitinfo/gitinfo.sty:${PORTSDIR}/print/texlive-gitinfo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gitinfo2/gitinfo2.sty:${PORTSDIR}/print/texlive-gitinfo2 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gitlog/gitlog.sty:${PORTSDIR}/print/texlive-gitlog \
@@ -2326,6 +2328,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/conteq/conteq.sty:${PORTSDIR}/print/texlive-conteq \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delim/delim.sty:${PORTSDIR}/print/texlive-delim \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delimseasy/delimseasy.sty:${PORTSDIR}/print/texlive-delimseasy \
+		${LOCALBASE}/share/texmf-dist/tex/latex/diffcoeff/diffcoeff.sty:${PORTSDIR}/print/texlive-diffcoeff \
 		${LOCALBASE}/share/texmf-dist/tex/latex/drawmatrix/drawmatrix.sty:${PORTSDIR}/print/texlive-drawmatrix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebproof/ebproof.sty:${PORTSDIR}/print/texlive-ebproof \
 		${LOCALBASE}/share/texmf-dist/tex/latex/econometrics/econometrics.sty:${PORTSDIR}/print/texlive-econometrics \

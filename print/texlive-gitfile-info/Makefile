@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	imakeidx
+PORTNAME=	gitfile-info
 PORTVERSION=	20160629
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A package for producing multiple indexes
+COMMENT=	Get git metadata for a specific file
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
