@@ -1,13 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	tetex
+PORTNAME=	oldstandardt1
 PORTVERSION=	20160630
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	scripts and files originally written for or included in teTeX
-
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
+COMMENT=	Type 1 versions of Old Standard fonts with LaTeX support.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

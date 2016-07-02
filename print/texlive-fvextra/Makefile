@@ -1,15 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	tetex
+PORTNAME=	fvextra
 PORTVERSION=	20160630
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	scripts and files originally written for or included in teTeX
+COMMENT=	Extensions and patches for fancyvrb
 
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
-
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -284,8 +284,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/antt/anttb.afm:${PORTSDIR}/print/texlive-antt \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/archaic/aram10.afm:${PORTSDIR}/print/texlive-archaic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arev/arev.sty:${PORTSDIR}/print/texlive-arev \
-		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/ascii-font/ascii.map:${PORTSDIR}/print/texlive-ascii-font \
 		${LOCALBASE}/share/texmf-dist/tex/latex/asapsym/asapsym.sty:${PORTSDIR}/print/texlive-asapsym \
+		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/ascii-font/ascii.map:${PORTSDIR}/print/texlive-ascii-font \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/aspectratio/aspectratio.map:${PORTSDIR}/print/texlive-aspectratio \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/astro/astrosym.cal:${PORTSDIR}/print/texlive-astro \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/augie/augie___.afm:${PORTSDIR}/print/texlive-augie \
@@ -382,7 +382,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fontawesome/fontawesome.sty:${PORTSDIR}/print/texlive-fontawesome \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fontmfizz/fontmfizz.sty:${PORTSDIR}/print/texlive-fontmfizz \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/fonts-churchslavonic/FedorovskUnicode.otf:${PORTSDIR}/print/texlive-fonts-churchslavonic \
-		${LOCALBASE}/share/texmf-dist/tex/latex/old-arrows/old-arrows.sty:${PORTSDIR}/print/texlive-old-arrows \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fourier/fourier.sty:${PORTSDIR}/print/texlive-fourier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fouriernc/fouriernc.sty:${PORTSDIR}/print/texlive-fouriernc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/frcursive/frcursive.sty:${PORTSDIR}/print/texlive-frcursive \
@@ -455,8 +454,10 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/ocr-b-outline/ocrb.map:${PORTSDIR}/print/texlive-ocr-b-outline \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/ogham/ogham.mf:${PORTSDIR}/print/texlive-ogham \
 		${LOCALBASE}/share/texmf-dist/tex/lambda/oinuit/oinuit.sty:${PORTSDIR}/print/texlive-oinuit \
+		${LOCALBASE}/share/texmf-dist/tex/latex/old-arrows/old-arrows.sty:${PORTSDIR}/print/texlive-old-arrows \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/oldlatin/olb10.mf:${PORTSDIR}/print/texlive-oldlatin \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/oldstandard/OldStandard-Bold.otf:${PORTSDIR}/print/texlive-oldstandard \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/oldstandardt1/ost_4i7xxk.enc:${PORTSDIR}/print/texlive-oldstandardt1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/opensans/opensans.sty:${PORTSDIR}/print/texlive-opensans \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/orkhun/orhant.mf:${PORTSDIR}/print/texlive-orkhun \
 		${LOCALBASE}/share/texmf-dist/tex/latex/overlock/overlock.sty:${PORTSDIR}/print/texlive-overlock \
@@ -1618,6 +1619,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fundus-calligra/calligra.sty:${PORTSDIR}/print/texlive-fundus-calligra \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fundus-cyr/cyr.sty:${PORTSDIR}/print/texlive-fundus-cyr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fundus-sueterlin/suetterl.sty:${PORTSDIR}/print/texlive-fundus-sueterlin \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fvextra/fvextra.sty:${PORTSDIR}/print/texlive-fvextra \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fwlw/fwlw.sty:${PORTSDIR}/print/texlive-fwlw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/g-brief/g-brief.cls:${PORTSDIR}/print/texlive-g-brief \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gauss/gauss.sty:${PORTSDIR}/print/texlive-gauss \

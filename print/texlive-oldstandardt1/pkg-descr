@@ -1,0 +1,6 @@
+This package provides LaTeX and pdfLaTeX support for the Old
+Standard family of fonts, designed by Alexey Kryukov. Old
+Standard reproduces a specific type of Modern (classicist)
+style of serif typefaces, very commonly used in various
+editions of the late 19th and early 20th century, but almost
+completely abandoned later.

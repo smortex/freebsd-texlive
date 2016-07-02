@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20160629
+PORTVERSION=	20160630
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -689,6 +689,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fundus-calligra/calligra.sty:${PORTSDIR}/print/texlive-fundus-calligra \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fundus-cyr/cyr.sty:${PORTSDIR}/print/texlive-fundus-cyr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fundus-sueterlin/suetterl.sty:${PORTSDIR}/print/texlive-fundus-sueterlin \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fvextra/fvextra.sty:${PORTSDIR}/print/texlive-fvextra \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fwlw/fwlw.sty:${PORTSDIR}/print/texlive-fwlw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/g-brief/g-brief.cls:${PORTSDIR}/print/texlive-g-brief \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gauss/gauss.sty:${PORTSDIR}/print/texlive-gauss \
