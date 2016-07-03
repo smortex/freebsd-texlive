@@ -1,4 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/gitfile-info/README
+%%PORTDOCS%%share/texmf-dist/doc/support/gitfile-info/doc/gitfile-info.pdf
 %%PORTDOCS%%share/texmf-dist/doc/support/gitfile-info/gfi-run.py
 %%PORTDOCS%%share/texmf-dist/doc/support/gitfile-info/gitfile-info.gfi
 %%PORTDOCS%%share/texmf-dist/doc/support/gitfile-info/post-commit.py

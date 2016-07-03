@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	2up
-PORTVERSION=	20160414
+PORTVERSION=	20160701
 PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The 2up package
+COMMENT=	Macros to print two-up
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
