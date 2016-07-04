@@ -4,6 +4,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/platex/base/README2_asciimw.txt
 %%PORTDOCS%%share/texmf-dist/doc/platex/base/README_asciimw.txt
 %%PORTDOCS%%share/texmf-dist/doc/platex/base/ascmac.pdf
+%%PORTDOCS%%share/texmf-dist/doc/platex/base/exppl2e.pdf
 %%PORTDOCS%%share/texmf-dist/doc/platex/base/nidanfloat.pdf
 %%PORTDOCS%%share/texmf-dist/doc/platex/base/platex.pdf
 %%PORTDOCS%%share/texmf-dist/doc/platex/base/platexrelease.pdf
@@ -40,6 +41,7 @@
 %%PORTSRC%%share/texmf-dist/source/platex/base/plnewsc02.tex
 %%PORTSRC%%share/texmf-dist/source/platex/base/plvers.dtx
 share/texmf-dist/tex/platex/base/ascmac.sty
+share/texmf-dist/tex/platex/base/exppl2e.sty
 share/texmf-dist/tex/platex/base/jarticle.cls
 share/texmf-dist/tex/platex/base/jarticle.sty
 share/texmf-dist/tex/platex/base/jbk10.clo

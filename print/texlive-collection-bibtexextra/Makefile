@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20160610
+PORTVERSION=	20160702
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -110,6 +110,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-musuos/german-musuos.lbx:${PORTSDIR}/print/texlive-biblatex-musuos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-nature/nature.bbx:${PORTSDIR}/print/texlive-biblatex-nature \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-nejm/nejm.bbx:${PORTSDIR}/print/texlive-biblatex-nejm \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-nottsclassic/nottsclassic-english.lbx:${PORTSDIR}/print/texlive-biblatex-nottsclassic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-opcit-booktitle/biblatex-opcit-booktitle.sty:${PORTSDIR}/print/texlive-biblatex-opcit-booktitle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-philosophy/english-philosophy.lbx:${PORTSDIR}/print/texlive-biblatex-philosophy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-phys/phys.bbx:${PORTSDIR}/print/texlive-biblatex-phys \

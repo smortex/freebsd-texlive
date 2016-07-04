@@ -6,6 +6,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/csvsimple/csvsimple-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/csvsimple/csvsimple.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/csvsimple/csvsimple.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/csvsimple/encoding.xml
 %%PORTDOCS%%share/texmf-dist/doc/latex/csvsimple/gradesort.xml
 %%PORTDOCS%%share/texmf-dist/doc/latex/csvsimple/matriculationsort.xml
 %%PORTDOCS%%share/texmf-dist/doc/latex/csvsimple/namesort.xml

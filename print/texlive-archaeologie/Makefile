@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	archaeologie
-PORTVERSION=	20160610
+PORTVERSION=	20160702
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Citation-style which covers rules of the German Archaeology Institute
+COMMENT=	A citation-style which covers rules of the German Archaeological Institute
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
