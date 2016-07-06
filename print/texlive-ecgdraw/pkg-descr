@@ -1,0 +1,3 @@
+This package provides the \ECG{<code>} command which draws
+electrocardiograms (ECG). The <code> represents a series of
+abbreviations which allow to draw different types of wave.

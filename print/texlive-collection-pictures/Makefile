@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20160421
+PORTVERSION=	20160703
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -74,6 +74,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/dratex/AlDraTex.sty:${PORTSDIR}/print/texlive-dratex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/drs/drs.sty:${PORTSDIR}/print/texlive-drs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/duotenzor/duotenzor.sty:${PORTSDIR}/print/texlive-duotenzor \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ecgdraw/ecgdraw.sty:${PORTSDIR}/print/texlive-ecgdraw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eepic/eepic.sty:${PORTSDIR}/print/texlive-eepic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ellipse/ellipse.sty:${PORTSDIR}/print/texlive-ellipse \
 		${LOCALBASE}/share/texmf-dist/scripts/epspdf/epspdf.help:${PORTSDIR}/print/texlive-epspdf \
