@@ -558,6 +558,11 @@ namespace TeXLive
 						bin_depend = true;
 					} else {
 						string dependency_name = s.Substring(7);
+
+						// XXX: jadetex now depends on jadetex
+						if (dependency_name == name)
+							continue;
+
 						try {
 							if (!AllPackages.ContainsKey(dependency_name)) {
 								collection[dependency_name] = new DataPackage(dependency_name, collection);
