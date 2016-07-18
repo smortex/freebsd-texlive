@@ -93,15 +93,7 @@ namespace TeXLive
 				}
 			}
 			var fi = new FileInfo (FileName);
-			var p = new Process ();
-			var psi = new ProcessStartInfo ("git", string.Format ("add {0}", fi.Name));
-			psi.WorkingDirectory = fi.DirectoryName;
-			psi.RedirectStandardOutput = true;
-			psi.UseShellExecute = false;
-			p.StartInfo = psi;
-			p.Start ();
-			p.WaitForExit ();
-			p.Dispose ();
+			TLPort.Run ("git", string.Format ("add {0}", fi.Name), ".");
 		}
 	}
 }

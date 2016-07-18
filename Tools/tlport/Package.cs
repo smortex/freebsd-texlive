@@ -59,18 +59,8 @@ namespace TeXLive
 		/// </summary>
 		public int PortRevision {
 			get {
-				int res = 0;
-				var p = new Process ();
-				var psi = new ProcessStartInfo ("make", "-V PORTREVISION");
-				psi.WorkingDirectory = PortDirectory;
-				psi.RedirectStandardOutput = true;
-				psi.UseShellExecute = false;
-				p.StartInfo = psi;
-				p.Start ();
-				p.WaitForExit ();
-				res = int.Parse (p.StandardOutput.ReadLine ());
-				p.Dispose ();
-				return res;
+				List<string> res = Run ("make", "-V PORTREVISION");
+				return int.Parse (res [0]);
 			}
 		}
 
@@ -80,23 +70,13 @@ namespace TeXLive
 		/// </summary>
 		public bool LocalyModified {
 			get {
-				bool res;
-				var p = new Process ();
-				var psi = new ProcessStartInfo ("git", "diff .");
-				psi.WorkingDirectory = PortDirectory;
-				psi.RedirectStandardOutput = true;
-				psi.UseShellExecute = false;
-				p.StartInfo = psi;
-				p.Start ();
 				int modifications = 0;
-				while (!p.StandardOutput.EndOfStream) {
-					string s = p.StandardOutput.ReadLine ();
-					if (s.StartsWith ("+", StringComparison.Ordinal) || s.StartsWith ("-", StringComparison.Ordinal))
+				var stdout = Run ("git", "diff .");
+				foreach (var line in stdout) {
+					if (line.StartsWith ("+", StringComparison.Ordinal) || line.StartsWith ("-", StringComparison.Ordinal))
 						modifications++;
 				}
-				res = modifications > 4;
-				p.Dispose ();
-				return res;
+				return modifications > 4;
 			}
 		}
 
@@ -121,19 +101,7 @@ namespace TeXLive
 		/// </summary>
 		private void AddToVcs ()
 		{
-			var p = new Process ();
-			var psi = new ProcessStartInfo ("git", "add .");
-			psi.WorkingDirectory = PortDirectory;
-			if (TLPort.Verbosity < 2) {
-				psi.RedirectStandardOutput = true;
-				psi.UseShellExecute = false;
-			} else {
-				psi.UseShellExecute = true;
-			}
-			p.StartInfo = psi;
-			p.Start ();
-			p.WaitForExit ();
-			p.Dispose ();
+			Run ("git", "add .");
 		}
 
 		/// <summary>
@@ -153,14 +121,7 @@ namespace TeXLive
 				Clean ();
 				AddToVcs ();
 			} else {
-				var p = new Process ();
-				var psi = new ProcessStartInfo ("git", "checkout -- .");
-				psi.WorkingDirectory = PortDirectory;
-				psi.UseShellExecute = true;
-				p.StartInfo = psi;
-				p.Start ();
-				p.WaitForExit ();
-				p.Dispose ();
+				Run ("git", "checkout -- .");
 			}
 		}
 
@@ -297,23 +258,8 @@ namespace TeXLive
 		/// </summary>
 		private bool CreateDistinfo ()
 		{
-			bool result;
-			var p = new Process ();
-			var psi = new ProcessStartInfo ("make", "makesum FETCH_CMD=false");
-			if (TLPort.Verbosity < 2) {
-				psi.RedirectStandardOutput = true;
-				psi.RedirectStandardError = true;
-				psi.UseShellExecute = false;
-			} else {
-				psi.UseShellExecute = true;
-			}
-			psi.WorkingDirectory = PortDirectory;
-			p.StartInfo = psi;
-			p.Start ();
-			p.WaitForExit ();
-			result = p.ExitCode == 0;
-			p.Dispose ();
-			return result;
+			Run ("make", "makesum FETCH_CMD=false");
+			return true;
 		}
 
 		/// <summary>
@@ -321,20 +267,7 @@ namespace TeXLive
 		/// </summary>
 		private void CreatePkgPlist ()
 		{
-			var p = new Process ();
-			var psi = new ProcessStartInfo ("make", "pkg-plist");
-			if (TLPort.Verbosity < 2) {
-				psi.RedirectStandardOutput = true;
-				psi.RedirectStandardError = true;
-				psi.UseShellExecute = false;
-			} else {
-				psi.UseShellExecute = true;
-			}
-			psi.WorkingDirectory = PortDirectory;
-			p.StartInfo = psi;
-			p.Start ();
-			p.WaitForExit ();
-			p.Dispose ();
+			Run ("make", "pkg-plist");
 		}
 
 		/// <summary>
@@ -342,15 +275,7 @@ namespace TeXLive
 		/// </summary>
 		private void Clean ()
 		{
-			var p = new Process ();
-			var psi = new ProcessStartInfo ("make", "clean");
-			psi.RedirectStandardOutput = true;
-			psi.UseShellExecute = false;
-			psi.WorkingDirectory = PortDirectory;
-			p.StartInfo = psi;
-			p.Start ();
-			p.WaitForExit ();
-			p.Dispose ();
+			Run ("make", "clean");
 		}
 
 		/// <summary>
@@ -482,6 +407,10 @@ namespace TeXLive
 			}
 		}
 
+		private List<string> Run (string filename, string arguments)
+		{
+			return TLPort.Run (filename, arguments, PortDirectory);
+		}
 	}
 
 	/// <summary>

@@ -48,6 +48,33 @@ namespace TeXLive
 			get { return verbosity; }
 		}
 
+		public static List<string> Run (string filename, string arguments, string working_direcotry)
+		{
+			if (Verbosity >= 1)
+				Console.WriteLine ("{2}% {0} {1}", filename, arguments, working_direcotry);
+
+			List<string> res;
+			var p = new Process ();
+			var psi = new ProcessStartInfo (filename, arguments);
+			try {
+				psi.WorkingDirectory = working_direcotry;
+				psi.RedirectStandardOutput = true;
+				psi.UseShellExecute = false;
+				p.StartInfo = psi;
+				p.Start ();
+				p.WaitForExit ();
+				res = new List<string> (p.StandardOutput.ReadToEnd ().Split ('\n'));
+				if (p.ExitCode != 0)
+					throw new Exception (string.Format ("{0} returned {1}", filename, p.ExitCode));
+			} finally {
+				p.Dispose ();
+			}
+
+			if (Verbosity >= 2)
+				Console.WriteLine (res);
+			return res;
+		}
+
 		private static int verbosity;
 		private static PackageCollection packages;
 
@@ -156,20 +183,7 @@ namespace TeXLive
 		/// </summary>
 		static private void DeletePort (string PortsDir, string PortName)
 		{
-			// Remove the port from the repository
-			var p = new Process ();
-			var psi = new ProcessStartInfo ("git", string.Format ("rm -r {0}", System.IO.Path.Combine (PortsDir, PortName)));
-			psi.WorkingDirectory = packages.PortsDir;
-			if (Verbosity < 2) {
-				psi.RedirectStandardOutput = true;
-				psi.UseShellExecute = false;
-			} else {
-				psi.UseShellExecute = true;
-			}
-			p.StartInfo = psi;
-			p.Start ();
-			p.WaitForExit ();
-			p.Dispose ();
+			Run ("git", string.Format ("rm -r {0}", System.IO.Path.Combine (PortsDir, PortName)), ".");
 		}
 	}
 }
