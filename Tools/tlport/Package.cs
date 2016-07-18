@@ -256,10 +256,9 @@ namespace TeXLive
 		/// <summary>
 		/// Rely on port(1) to fetch the source tarball and build distinfo
 		/// </summary>
-		private bool CreateDistinfo ()
+		private void CreateDistinfo ()
 		{
 			Run ("make", "makesum FETCH_CMD=false");
-			return true;
 		}
 
 		/// <summary>
