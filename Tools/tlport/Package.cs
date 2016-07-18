@@ -32,7 +32,7 @@ namespace TeXLive
 	/// <summary>
 	/// Abstract class for TeXLive packages.
 	/// </summary>
-	public abstract class Package: IPackage
+	public abstract class Package : IPackage
 	{
 		protected string name;
 		protected int version;
@@ -44,7 +44,7 @@ namespace TeXLive
 		protected PackageCollection collection;
 
 		private string detect_file_name;
-		
+
 		/// <summary>
 		/// Check is a FreeBSD port for the TeXLive package exists.
 		/// </summary>
@@ -53,27 +53,27 @@ namespace TeXLive
 				return System.IO.Directory.Exists (PortDirectory);
 			}
 		}
-		
+
 		/// <summary>
 		/// Get FreeBSD port's revision
 		/// </summary>
 		public int PortRevision {
 			get {
 				int res = 0;
-				Process p = new Process();
-				ProcessStartInfo psi = new ProcessStartInfo("make", "-V PORTREVISION");
+				var p = new Process ();
+				var psi = new ProcessStartInfo ("make", "-V PORTREVISION");
 				psi.WorkingDirectory = PortDirectory;
 				psi.RedirectStandardOutput = true;
 				psi.UseShellExecute = false;
 				p.StartInfo = psi;
-				p.Start();
-				p.WaitForExit();
+				p.Start ();
+				p.WaitForExit ();
 				res = int.Parse (p.StandardOutput.ReadLine ());
 				p.Dispose ();
 				return res;
 			}
 		}
-		
+
 		/// <summary>
 		/// Modification status of the port in the FreeBSD TeXLive VCS local checkout.
 		/// The Makefile should just have it's version/date that changes.
@@ -81,17 +81,17 @@ namespace TeXLive
 		public bool LocalyModified {
 			get {
 				bool res;
-				Process p = new Process();
-				ProcessStartInfo psi = new ProcessStartInfo("git", "diff .");
+				var p = new Process ();
+				var psi = new ProcessStartInfo ("git", "diff .");
 				psi.WorkingDirectory = PortDirectory;
 				psi.RedirectStandardOutput = true;
 				psi.UseShellExecute = false;
 				p.StartInfo = psi;
-				p.Start();
+				p.Start ();
 				int modifications = 0;
 				while (!p.StandardOutput.EndOfStream) {
 					string s = p.StandardOutput.ReadLine ();
-					if (s.StartsWith ("+") || s.StartsWith ("-"))
+					if (s.StartsWith ("+", StringComparison.Ordinal) || s.StartsWith ("-", StringComparison.Ordinal))
 						modifications++;
 				}
 				res = modifications > 4;
@@ -103,26 +103,26 @@ namespace TeXLive
 		/// <summary>
 		/// Create the FreeBSD port of the package.
 		/// </summary>
-		public void CreatePort()
+		public void CreatePort ()
 		{
 			if (TLPort.Verbosity > 0)
-				Console.WriteLine("===> Creating print/texlive-{0}...", name);
-			CreatePortDirectory();
-			CreateMakefile();
-			CreatePkgDescr();
-			CreateDistinfo();
+				Console.WriteLine ("===> Creating print/texlive-{0}...", name);
+			CreatePortDirectory ();
+			CreateMakefile ();
+			CreatePkgDescr ();
+			CreateDistinfo ();
 			CreatePkgPlist ();
 			Clean ();
 			AddToVcs ();
 		}
-		
+
 		/// <summary>
 		/// Add the port to the VCS (currently subversion, no real plan to change that though)
 		/// </summary>
 		private void AddToVcs ()
 		{
-			Process p = new Process();
-			ProcessStartInfo psi = new ProcessStartInfo("git", "add .");
+			var p = new Process ();
+			var psi = new ProcessStartInfo ("git", "add .");
 			psi.WorkingDirectory = PortDirectory;
 			if (TLPort.Verbosity < 2) {
 				psi.RedirectStandardOutput = true;
@@ -131,35 +131,35 @@ namespace TeXLive
 				psi.UseShellExecute = true;
 			}
 			p.StartInfo = psi;
-			p.Start();
-			p.WaitForExit();
+			p.Start ();
+			p.WaitForExit ();
 			p.Dispose ();
 		}
-		
+
 		/// <summary>
 		/// Update the FreeBSD port of the package
 		/// </summary>
 		public void UpdatePort ()
 		{
 			if (TLPort.Verbosity > 0)
-				Console.WriteLine("===> Updating print/texlive-{0}...", name);
-			
+				Console.WriteLine ("===> Updating print/texlive-{0}...", name);
+
 			// Makefile may need to be updated before generating distinfo
 			CreateMakefile ();
 			CreateDistinfo ();
-			
+
 			if (LocalyModified) {
 				CreatePkgPlist ();
 				Clean ();
 				AddToVcs ();
 			} else {
-				Process p = new Process();
-				ProcessStartInfo psi = new ProcessStartInfo("git", "checkout -- .");
+				var p = new Process ();
+				var psi = new ProcessStartInfo ("git", "checkout -- .");
 				psi.WorkingDirectory = PortDirectory;
 				psi.UseShellExecute = true;
 				p.StartInfo = psi;
-				p.Start();
-				p.WaitForExit();
+				p.Start ();
+				p.WaitForExit ();
 				p.Dispose ();
 			}
 		}
@@ -168,20 +168,20 @@ namespace TeXLive
 		/// Create the FreeBSD port of the pachage and all FreeBSD ports it
 		/// requires.
 		/// </summary>
-		public void CreatePortRecursive()
+		public void CreatePortRecursive ()
 		{
-			CreatePort();
+			CreatePort ();
 			foreach (Package package in Depends) {
-				package.CreatePortRecursive();
+				package.CreatePortRecursive ();
 			}
 		}
 
 		/// <summary>
 		/// Create the FreeBSD port's directory.
 		/// </summary>
-		private void CreatePortDirectory()
+		private void CreatePortDirectory ()
 		{
-			System.IO.Directory.CreateDirectory(PortDirectory);
+			System.IO.Directory.CreateDirectory (PortDirectory);
 		}
 
 		/// <summary>
@@ -189,26 +189,26 @@ namespace TeXLive
 		/// </summary>
 		private void CreateMakefile ()
 		{
-			List<string> header = new List<string> ();
-			
-			string makefile_path = System.IO.Path.Combine(PortDirectory, "Makefile");
+			var header = new List<string> ();
+
+			string makefile_path = System.IO.Path.Combine (PortDirectory, "Makefile");
 
 			int oldversion = 0;
-			
+
 			// If there is alread a Makefile, copy it's header
 			if (System.IO.File.Exists (makefile_path)) {
-				System.IO.StreamReader old_makefile = new System.IO.StreamReader (makefile_path);
+				var old_makefile = new System.IO.StreamReader (makefile_path);
 				bool read_header = true;
 				while (!old_makefile.EndOfStream) {
 					string line = old_makefile.ReadLine ();
-					if (read_header && line.StartsWith ("#"))
+					if (read_header && line.StartsWith ("#", StringComparison.Ordinal))
 						header.Add (line);
 					else {
 						read_header = false;
-						if (line.StartsWith ("PORTEPOCH=\t"))
-							epoch = int.Parse (line.Split ('\t')[1]);
-						if (line.StartsWith ("PORTVERSION=\t"))
-							oldversion = int.Parse (line.Split ('\t')[1]);
+						if (line.StartsWith ("PORTEPOCH=\t", StringComparison.Ordinal))
+							epoch = int.Parse (line.Split ('\t') [1]);
+						if (line.StartsWith ("PORTVERSION=\t", StringComparison.Ordinal))
+							oldversion = int.Parse (line.Split ('\t') [1]);
 					}
 				}
 				old_makefile.Close ();
@@ -216,50 +216,50 @@ namespace TeXLive
 
 			if (oldversion > version)
 				epoch++;
-			
+
 			// Create the new makefile
-			System.IO.StreamWriter makefile = new System.IO.StreamWriter(makefile_path);
+			var makefile = new System.IO.StreamWriter (makefile_path);
 
 			if (header.Count == 0) {
-				makefile.WriteLine("# $FreeBSD$");
+				makefile.WriteLine ("# $FreeBSD$");
 			} else {
 				foreach (string line in header)
 					makefile.WriteLine (line);
 			}
-			makefile.WriteLine();
-			makefile.WriteLine("PORTNAME=\t{0}", name);
+			makefile.WriteLine ();
+			makefile.WriteLine ("PORTNAME=\t{0}", name);
 			makefile.WriteLine ("PORTVERSION=\t{0}", version);
 			if (epoch > 0) {
 				makefile.WriteLine ("PORTEPOCH=\t{0}", epoch);
 			}
-			makefile.WriteLine("CATEGORIES=\tprint");
+			makefile.WriteLine ("CATEGORIES=\tprint");
 			if (files.Count == 0) {
-				makefile.WriteLine("DISTFILES=\t# None");
+				makefile.WriteLine ("DISTFILES=\t# None");
 			}
-			makefile.WriteLine();
-			makefile.WriteLine("MAINTAINER=\t{0}", "romain@FreeBSD.org");
-			makefile.WriteLine("COMMENT=\t{0}", short_description);
+			makefile.WriteLine ();
+			makefile.WriteLine ("MAINTAINER=\t{0}", "romain@FreeBSD.org");
+			makefile.WriteLine ("COMMENT=\t{0}", short_description);
 
 			if (depend.Count > 0) {
-				ArrayList dependencies = new ArrayList();
+				var dependencies = new ArrayList ();
 				foreach (string dep in depend) {
-				 	collection[dep].Detect(dependencies);
+					collection [dep].Detect (dependencies);
 				}
 
 				int i = 0;
-				string []x;
-				x = new string[dependencies.Count];
+				string [] x;
+				x = new string [dependencies.Count];
 				foreach (string dep in dependencies) {
-					x[i++] = dep;
+					x [i++] = dep;
 				}
 
-				makefile.WriteLine();
-				makefile.WriteLine("RUN_DEPENDS=\t{0}", string.Join(" \\\n\t\t", x));
+				makefile.WriteLine ();
+				makefile.WriteLine ("RUN_DEPENDS=\t{0}", string.Join (" \\\n\t\t", x));
 			}
-			makefile.WriteLine();
+			makefile.WriteLine ();
 
-			List<string> options_define = new List<string> ();
-			List<string> options_exclude = new List<string> ();
+			var options_define = new List<string> ();
+			var options_exclude = new List<string> ();
 
 			if (System.IO.File.Exists (System.IO.Path.Combine (collection.TlpObjDir, name + ".doc.tlpobj")))
 				options_define.Add ("DOCS");
@@ -270,36 +270,36 @@ namespace TeXLive
 				options_define.Add ("SRCS");
 
 			if (options_define.Count > 0)
-				makefile.WriteLine ("OPTIONS_DEFINE=\t{0}", String.Join (" ", options_define));
+				makefile.WriteLine ("OPTIONS_DEFINE=\t{0}", string.Join (" ", options_define));
 			if (options_exclude.Count > 0)
-				makefile.WriteLine ("OPTIONS_EXCLUDE=\t{0}", String.Join (" ", options_exclude));
+				makefile.WriteLine ("OPTIONS_EXCLUDE=\t{0}", string.Join (" ", options_exclude));
 
 			makefile.WriteLine (".include <bsd.port.options.mk>");
 
-			makefile.WriteLine();
-			makefile.WriteLine(".include \"${.CURDIR}/../../print/texlive-core/bsd.texlive.mk\"");
-			makefile.WriteLine(".include <bsd.port.mk>");
-			makefile.Close();
+			makefile.WriteLine ();
+			makefile.WriteLine (".include \"${.CURDIR}/../../print/texlive-core/bsd.texlive.mk\"");
+			makefile.WriteLine (".include <bsd.port.mk>");
+			makefile.Close ();
 		}
 
 		/// <summary>
 		/// Create the pkg-desc file of the FreeBSD port.
 		/// </summary>
-		private void CreatePkgDescr()
+		private void CreatePkgDescr ()
 		{
-			System.IO.StreamWriter pkgdescr = new System.IO.StreamWriter(System.IO.Path.Combine(PortDirectory, "pkg-descr"));
-			pkgdescr.WriteLine(LongDescription);
-			pkgdescr.Close();
+			var pkgdescr = new System.IO.StreamWriter (System.IO.Path.Combine (PortDirectory, "pkg-descr"));
+			pkgdescr.WriteLine (LongDescription);
+			pkgdescr.Close ();
 		}
 
 		/// <summary>
 		/// Rely on port(1) to fetch the source tarball and build distinfo
 		/// </summary>
-		private bool CreateDistinfo()
+		private bool CreateDistinfo ()
 		{
 			bool result;
-			Process p = new Process();
-			ProcessStartInfo psi = new ProcessStartInfo("make", "makesum FETCH_CMD=false");
+			var p = new Process ();
+			var psi = new ProcessStartInfo ("make", "makesum FETCH_CMD=false");
 			if (TLPort.Verbosity < 2) {
 				psi.RedirectStandardOutput = true;
 				psi.RedirectStandardError = true;
@@ -315,14 +315,14 @@ namespace TeXLive
 			p.Dispose ();
 			return result;
 		}
-		
+
 		/// <summary>
 		/// Generate a pkg-plist file.
 		/// </summary>
 		private void CreatePkgPlist ()
 		{
-			Process p = new Process ();
-			ProcessStartInfo psi = new ProcessStartInfo ("make", "pkg-plist");
+			var p = new Process ();
+			var psi = new ProcessStartInfo ("make", "pkg-plist");
 			if (TLPort.Verbosity < 2) {
 				psi.RedirectStandardOutput = true;
 				psi.RedirectStandardError = true;
@@ -336,14 +336,14 @@ namespace TeXLive
 			p.WaitForExit ();
 			p.Dispose ();
 		}
-		
+
 		/// <summary>
 		/// Clean a port
 		/// </summary>
 		private void Clean ()
 		{
-			Process p = new Process ();
-			ProcessStartInfo psi = new ProcessStartInfo ("make", "clean");
+			var p = new Process ();
+			var psi = new ProcessStartInfo ("make", "clean");
 			psi.RedirectStandardOutput = true;
 			psi.UseShellExecute = false;
 			psi.WorkingDirectory = PortDirectory;
@@ -359,40 +359,41 @@ namespace TeXLive
 		/// <param name="dependencies">
 		/// A <see cref="ArrayList"/> of dependencies to complete.
 		/// </param>
-		private void Detect(ArrayList dependencies)
+		private void Detect (ArrayList dependencies)
 		{
 			if ((files.Count > 0) && (null != DetectFileName)) {
-				string s = string.Format("${{LOCALBASE}}/{0}:${{PORTSDIR}}/print/texlive-{1}", DetectFileName, name);
-				if (dependencies.IndexOf(s) == -1) {
-					dependencies.Add(s);
+				string s = string.Format ("${{LOCALBASE}}/{0}:${{PORTSDIR}}/print/texlive-{1}", DetectFileName, name);
+				if (dependencies.IndexOf (s) == -1) {
+					dependencies.Add (s);
 				}
 			} else {
 				// This package does not provide any file.
 				// The port needs to depend on packages this package depends on
 				foreach (string dep in depend) {
-					collection[dep].Detect(dependencies);
+					collection [dep].Detect (dependencies);
 				}
 			}
 		}
 
-		//// <summary>
-		///  File to look for to determine if the package is installed.
+		/// <summary>
+		/// File to look for to determine if the package is installed.
 		/// </summary>
+		/// <value>The name of the detect file.</value>
 		public string DetectFileName {
 			get {
 				if (detect_file_name == null) {
 
 					// Try to depend on a file whose name is relevant.
 					foreach (string file in files) {
-						if (file.EndsWith("/" + name + ".cls")) {
+						if (file.EndsWith ("/" + name + ".cls", StringComparison.Ordinal)) {
 							detect_file_name = file;
 							break;
 						}
-						if (file.EndsWith("/" + name + ".sty")) {
+						if (file.EndsWith ("/" + name + ".sty", StringComparison.Ordinal)) {
 							detect_file_name = file;
 							break;
 						}
-						if (file.EndsWith("/" + name + ".tex")) {
+						if (file.EndsWith ("/" + name + ".tex", StringComparison.Ordinal)) {
 							detect_file_name = file;
 							break;
 						}
@@ -402,9 +403,9 @@ namespace TeXLive
 					// does not exist on the filesystem.
 					if (detect_file_name == null) {
 						if (TLPort.Verbosity > 1)
-							Console.Error.WriteLine("Cannot be smart with {0}", name);
+							Console.Error.WriteLine ("Cannot be smart with {0}", name);
 						foreach (string file in files) {
-							if (!System.IO.File.Exists(file)) {
+							if (!System.IO.File.Exists (file)) {
 								detect_file_name = file;
 								break;
 							}
@@ -429,7 +430,7 @@ namespace TeXLive
 		public string LongDescription {
 			get {
 				if (null != long_description) {
-					return long_description.Trim();
+					return long_description.Trim ();
 				} else {
 					return null;
 				}
@@ -468,7 +469,7 @@ namespace TeXLive
 		/// </sumary>
 		public string PortDirectory {
 			get {
-				return System.IO.Path.Combine(System.IO.Path.Combine(collection.PortsDir, "print"), "texlive-" + name);
+				return System.IO.Path.Combine (System.IO.Path.Combine (collection.PortsDir, "print"), "texlive-" + name);
 			}
 		}
 
@@ -486,13 +487,14 @@ namespace TeXLive
 	/// <summary>
 	/// TeXLive class for the package that provide all binaries.
 	/// </summary>
-	class BinPackage: Package
+	class BinPackage : Package
 	{
-		public BinPackage(PackageCollection AllPackage) {
+		public BinPackage (PackageCollection AllPackage)
+		{
 			name = "core";
-			files = new ArrayList();
-			depend = new ArrayList();
-			files.Add("bin/tex");
+			files = new ArrayList ();
+			depend = new ArrayList ();
+			files.Add ("bin/tex");
 			collection = AllPackage;
 		}
 	}
@@ -502,24 +504,24 @@ namespace TeXLive
 	/// </summary>
 	public class DataPackage : Package
 	{
-		private bool bin_depend;
+		private readonly bool bin_depend;
 
 		/// <summary>
 		/// Create a TeXLive package based on the tlpobj file that describe it.
 		/// </summary>
 		/// <param name="PackageName">
-		/// A <see cref="System.String"/> with the name of the package in the
+		/// A <see cref="string"/> with the name of the package in the
 		/// current directory, without the .tlpobj extension.
 		/// </param>
-		public DataPackage(string PackageName, PackageCollection AllPackages)
+		public DataPackage (string PackageName, PackageCollection AllPackages)
 		{
-			files = new ArrayList();
-			depend = new ArrayList();
+			files = new ArrayList ();
+			depend = new ArrayList ();
 			bin_depend = false;
 			collection = AllPackages;
 
-			string FileName = System.IO.Path.Combine(collection.TlpObjDir, PackageName + ".tlpobj");
-			System.IO.StreamReader tlobj = new System.IO.StreamReader(FileName, true);
+			string FileName = System.IO.Path.Combine (collection.TlpObjDir, PackageName + ".tlpobj");
+			var tlobj = new System.IO.StreamReader (FileName, true);
 
 			string Distfile = System.IO.Path.Combine (collection.DistDir, PackageName + ".tar.xz");
 			version = int.Parse (System.IO.File.GetLastWriteTimeUtc (Distfile).ToString ("yyyyMMdd"));
@@ -527,50 +529,50 @@ namespace TeXLive
 
 			// Read package information
 			string s;
-			while (null != (s = tlobj.ReadLine())) {
-				if (s.StartsWith("name ")) {
-					name = s.Substring(5);
+			while (null != (s = tlobj.ReadLine ())) {
+				if (s.StartsWith ("name ", StringComparison.Ordinal)) {
+					name = s.Substring (5);
 				}
-				if (s.StartsWith("shortdesc ")) {
-					short_description = s.Substring(10);
+				if (s.StartsWith ("shortdesc ", StringComparison.Ordinal)) {
+					short_description = s.Substring (10);
 				}
-				if (s.StartsWith("longdesc ")) {
-					long_description += s.Substring(9) + '\n';
+				if (s.StartsWith ("longdesc ", StringComparison.Ordinal)) {
+					long_description += s.Substring (9) + '\n';
 				}
-				if (s.StartsWith(" ")) {
-					s = s.Substring(1);
-					if (s.StartsWith("texmf")) {
+				if (s.StartsWith (" ", StringComparison.Ordinal)) {
+					s = s.Substring (1);
+					if (s.StartsWith ("texmf", StringComparison.Ordinal)) {
 						// We install only texmf* files.
 
 						// ...with a few exceptions (files installed by texlive-core)
-						if (System.IO.File.Exists("/usr/local/" + s))
+						if (System.IO.File.Exists ("/usr/local/" + s))
 							continue;
 
-						files.Add("share/" + s);
-					} else if (s.StartsWith("RELOC/")) {
-						files.Add("share/texmf-dist" + s.Substring (5));
+						files.Add ("share/" + s);
+					} else if (s.StartsWith ("RELOC/", StringComparison.Ordinal)) {
+						files.Add ("share/texmf-dist" + s.Substring (5));
 					}
 				}
 
-				if (s.StartsWith("depend ")) {
-					if (s.EndsWith(".ARCH")) {
+				if (s.StartsWith ("depend ", StringComparison.Ordinal)) {
+					if (s.EndsWith (".ARCH", StringComparison.Ordinal)) {
 						// Binary packages are provided by print/texlive
 						bin_depend = true;
 					} else {
-						string dependency_name = s.Substring(7);
+						string dependency_name = s.Substring (7);
 
 						// XXX: jadetex now depends on jadetex
 						if (dependency_name == name)
 							continue;
 
 						try {
-							if (!AllPackages.ContainsKey(dependency_name)) {
-								collection[dependency_name] = new DataPackage(dependency_name, collection);
+							if (!AllPackages.ContainsKey (dependency_name)) {
+								collection [dependency_name] = new DataPackage (dependency_name, collection);
 							}
 
-							depend.Add(dependency_name);
+							depend.Add (dependency_name);
 						} catch (System.IO.FileNotFoundException) {
-							Console.Error.WriteLine("Cannot find package {0}!", dependency_name);
+							Console.Error.WriteLine ("Cannot find package {0}!", dependency_name);
 						}
 					}
 				}
@@ -578,18 +580,18 @@ namespace TeXLive
 
 			// Binaries are provided by a single special port.
 			if (bin_depend) {
-				if (!AllPackages.ContainsKey("core")) {
-					collection["core"] = new BinPackage(collection);
+				if (!AllPackages.ContainsKey ("core")) {
+					collection ["core"] = new BinPackage (collection);
 				}
-				depend.Add("core");
+				depend.Add ("core");
 			}
 
 			// FIXME We should not fill-in missing fields
 			if (short_description == null) {
-				short_description = string.Format("The {0} package", name);
+				short_description = string.Format ("The {0} package", name);
 			}
 			if (long_description == null) {
-				long_description = string.Format("The {0} package", name);
+				long_description = string.Format ("The {0} package", name);
 			}
 		}
 	}

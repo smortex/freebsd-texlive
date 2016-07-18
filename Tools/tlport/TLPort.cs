@@ -43,81 +43,81 @@ namespace TeXLive
 {
 	class TLPort
 	{
-		
+
 		public static int Verbosity {
 			get { return verbosity; }
 		}
-		
-		private static int verbosity = 0;
+
+		private static int verbosity;
 		private static PackageCollection packages;
 
 		private static void ShowHelp (NDesk.Options.OptionSet options)
 		{
-			Console.WriteLine("Usage: {0} [OPTIONS]+ <tlpobjdir> <portsdir> <distdir>", AssemblyName());
-			Console.WriteLine("Generate TeXLive FreeBSD ports");
-			Console.WriteLine();
-			Console.WriteLine("Options:");
-			options.WriteOptionDescriptions(Console.Out);
+			Console.WriteLine ("Usage: {0} [OPTIONS]+ <tlpobjdir> <portsdir> <distdir>", AssemblyName ());
+			Console.WriteLine ("Generate TeXLive FreeBSD ports");
+			Console.WriteLine ();
+			Console.WriteLine ("Options:");
+			options.WriteOptionDescriptions (Console.Out);
 		}
-		
-		private static string AssemblyName()
+
+		private static string AssemblyName ()
 		{
-			return System.Reflection.Assembly.GetExecutingAssembly().GetName().Name;
+			return System.Reflection.Assembly.GetExecutingAssembly ().GetName ().Name;
 		}
-		
-		public static int Main(string[] args)
+
+		public static int Main (string [] args)
 		{
 			List<string> extra;
 			bool show_help = false;
-			
-			var p = new NDesk.Options.OptionSet () {
+
+			var p = new NDesk.Options.OptionSet  {
 				{ "v|verbose", "Increase verbosity",   v => { ++verbosity; } },
 				{ "h|help",    "Display this message", v => { show_help = v != null; } }
 			};
 			try {
 				extra = p.Parse (args);
 			} catch (NDesk.Options.OptionException e) {
-				Console.Write("{0}: ", AssemblyName());
-				Console.WriteLine(e.Message);
-				Console.WriteLine("Try `{0} --help' for more information.", AssemblyName());
+				Console.Write ("{0}: ", AssemblyName ());
+				Console.WriteLine (e.Message);
+				Console.WriteLine ("Try `{0} --help' for more information.", AssemblyName ());
 				return 1;
 			}
-		
+
 			if (show_help) {
 				ShowHelp (p);
 				return 0;
 			}
-			
+
 			if (extra.Count != 3) {
 				ShowHelp (p);
 				return 1;
 			}
 
-			packages = new PackageCollection (extra[0], extra[1], extra[2]);
+			packages = new PackageCollection (extra [0], extra [1], extra [2]);
 
 			if (Verbosity > 0)
-				Console.Error.WriteLine("===> Building package list (this takes a while)");
-			
+				Console.Error.WriteLine ("===> Building package list (this takes a while)");
+
 			// Read all scheme-*. They reference all collections, that in turn
 			// reference each package.
-			foreach (string s in System.IO.Directory.GetFiles(packages.TlpObjDir, "scheme-*")) {
-				System.IO.FileInfo fi = new System.IO.FileInfo(s);
-				string package_name = fi.Name.Split('.')[0];
+			foreach (string s in System.IO.Directory.GetFiles (packages.TlpObjDir, "scheme-*")) {
+				var fi = new System.IO.FileInfo (s);
+				string package_name = fi.Name.Split ('.') [0];
 
-				packages[package_name] = new DataPackage(package_name, packages);
+				packages [package_name] = new DataPackage (package_name, packages);
 			}
 
 			foreach (Package pkg in packages.Values) {
 				if (pkg.Eligible) {
 					if (!pkg.Exists) {
-						pkg.CreatePort();
+						pkg.CreatePort ();
 						packages.moved.Remove (pkg.PortDirectory);
 					} else {
 						pkg.UpdatePort ();
 					}
 				} else {
 					if (Verbosity > 0)
-						Console.Error.WriteLine("{0}: not eligible for building a port.", pkg.Name);
+						Console.Error.WriteLine ("{0}: not eligible for building a port.", pkg.Name);
 				}
 			}
 
@@ -126,27 +126,27 @@ namespace TeXLive
 
 			packages.moved.RemoveAll (PortExist);
 
-						
+
 			// Detect deprecated packages
 			if (Verbosity > 0)
 				Console.Error.WriteLine ("===> Looking for deleted packages");
-			
+
 			foreach (string path in System.IO.Directory.GetDirectories (System.IO.Path.Combine (packages.PortsDir, "print"))) {
 				string s = System.IO.Path.GetFileName (path);
-				if (s.StartsWith ("texlive-")) {
+				if (s.StartsWith ("texlive-", StringComparison.Ordinal)) {
 					if (!packages.ContainsKey (s.Substring (8))) {
 						packages.moved.Add ("print/" + s);
 						DeletePort (packages.PortsDir, System.IO.Path.Combine ("print", s));
 					}
 				}
 			}
-			
+
 			packages.moved.Save ();
-			
+
 			return 0;
 		}
 
-		private static bool PortExist(string s)
+		private static bool PortExist (string s)
 		{
 			return System.IO.Directory.Exists (System.IO.Path.Combine (packages.PortsDir, s));
 		}
@@ -157,18 +157,18 @@ namespace TeXLive
 		static private void DeletePort (string PortsDir, string PortName)
 		{
 			// Remove the port from the repository
-			Process p = new Process ();
-			ProcessStartInfo psi = new ProcessStartInfo ("git", string.Format ("rm -r {0}", System.IO.Path.Combine (PortsDir, PortName)));
+			var p = new Process ();
+			var psi = new ProcessStartInfo ("git", string.Format ("rm -r {0}", System.IO.Path.Combine (PortsDir, PortName)));
 			psi.WorkingDirectory = packages.PortsDir;
-			if (TLPort.Verbosity < 2) {
+			if (Verbosity < 2) {
 				psi.RedirectStandardOutput = true;
 				psi.UseShellExecute = false;
 			} else {
 				psi.UseShellExecute = true;
 			}
 			p.StartInfo = psi;
-			p.Start();
-			p.WaitForExit();
+			p.Start ();
+			p.WaitForExit ();
 			p.Dispose ();
 		}
 	}

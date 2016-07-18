@@ -22,7 +22,6 @@
 // ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 // POSSIBILITY OF SUCH DAMAGE.
 
-using System;
 using System.Collections;
 
 namespace TeXLive
@@ -37,28 +36,28 @@ namespace TeXLive
 		/// Package Name.
 		/// </summary>
 		string Name {
-			get ;
+			get;
 		}
-		
+
 		/// <summary>
 		/// A port for this package exists
 		/// </summary>
 		bool Exists {
-			get ;
+			get;
 		}
 
 		/// <summary>
 		/// Files provided in the package.
 		/// </summary>
 		ArrayList Files {
-			get ;
+			get;
 		}
 
 		/// <summary>
 		/// An array of Pachage dependencies.
 		/// </summary>
 		ArrayList Depends {
-			get ;
+			get;
 		}
 	}
 }

@@ -32,13 +32,13 @@ namespace TeXLive
 	public class MovedFile
 	{
 		public string FileName { get; set; }
-		private List<string[]> Lines;
-		
+		private List<string []> Lines;
+
 		public MovedFile (string FileName)
 		{
 			this.FileName = FileName;
-			
-			Lines = new List<string[]>();
+
+			Lines = new List<string []> ();
 			using (StreamReader sr = new StreamReader (FileName)) {
 				do {
 					string line = sr.ReadLine ();
@@ -46,61 +46,61 @@ namespace TeXLive
 				} while (!sr.EndOfStream);
 			}
 		}
-		
+
 		public void Add (string Port)
 		{
 			Add (Port, string.Format ("{0:yyyy}-{0:MM}-{0:dd}", DateTime.UtcNow), "Upstream support dropped");
 		}
-		
+
 		public void Add (string Port, string Date, string Reason)
 		{
-			string[] line = new string[] { Port, "", Date, Reason };
+			string [] line = { Port, "", Date, Reason };
 			Lines.Add (line);
 		}
-		
+
 		public bool Remove (string Port)
 		{
 			for (int i = 0; i < Lines.Count; i++) {
-				if (Lines[i][0] == Port) {
+				if (Lines [i] [0] == Port) {
 					Lines.RemoveAt (i);
 					return true;
-				}		
+				}
 			}
 			return false;
 		}
 
 		public int RemoveAll (Predicate<string> match)
 		{
-			return Lines.RemoveAll (delegate(string[] obj) {
+			return Lines.RemoveAll (delegate (string [] obj) {
 				return match (obj [0]);
 			});
 		}
-		
+
 		public bool HasPort (string Port)
 		{
 			foreach (string [] pieces in Lines) {
-				if (pieces[0] == Port)
+				if (pieces [0] == Port)
 					return true;
 			}
 			return false;
 		}
-		
+
 		public void Save ()
 		{
 			using (StreamWriter sw = new StreamWriter (FileName)) {
-				foreach (string[] pieces in Lines) {
-					sw.WriteLine (string.Format ("{0}|{1}|{2}|{3}", pieces[0], pieces[1], pieces[2], pieces[3]));
+				foreach (string [] pieces in Lines) {
+					sw.WriteLine (string.Format ("{0}|{1}|{2}|{3}", pieces [0], pieces [1], pieces [2], pieces [3]));
 				}
 			}
-			FileInfo fi = new FileInfo(FileName);
-			Process p = new Process ();
-			ProcessStartInfo psi = new ProcessStartInfo ("git", string.Format("add {0}", fi.Name));
+			var fi = new FileInfo (FileName);
+			var p = new Process ();
+			var psi = new ProcessStartInfo ("git", string.Format ("add {0}", fi.Name));
 			psi.WorkingDirectory = fi.DirectoryName;
 			psi.RedirectStandardOutput = true;
 			psi.UseShellExecute = false;
 			p.StartInfo = psi;
-			p.Start();
-			p.WaitForExit();
+			p.Start ();
+			p.WaitForExit ();
 			p.Dispose ();
 		}
 	}

@@ -22,7 +22,6 @@
 // ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 // POSSIBILITY OF SUCH DAMAGE.
 
-using System;
 using System.Collections.Generic;
 
 namespace TeXLive
@@ -30,10 +29,10 @@ namespace TeXLive
 	/// <summary>
 	/// Dictionary of all TeXLive packages.
 	/// </summary>
-	public class PackageCollection: Dictionary<string, Package>
+	public class PackageCollection : Dictionary<string, Package>
 	{
 		public MovedFile moved;
-		
+
 		public string TlpObjDir {
 			get; set;
 		}
@@ -45,13 +44,13 @@ namespace TeXLive
 		public string DistDir {
 			get; set;
 		}
-		
+
 		public PackageCollection (string TlpObjDir, string PortsDir, string DistDir)
 		{
 			this.TlpObjDir = TlpObjDir;
 			this.PortsDir = PortsDir;
 			this.DistDir = DistDir;
-			
+
 			moved = new MovedFile (System.IO.Path.Combine (PortsDir, "MOVED"));
 		}
 	}
