@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/navydocs/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/navydocs/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/navydocs/graphics/navy-logo-102.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/navydocs/navydocs.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/navydocs/sampleNavyReport.tex
+%%PORTSRC%%share/texmf-dist/source/latex/navydocs/navydocs.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/navydocs/navydocs.ins
+share/texmf-dist/tex/latex/navydocs/navydocs.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/texosquery/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/support/texosquery/Manifest.txt
+%%PORTDOCS%%share/texmf-dist/doc/support/texosquery/README.md
+%%PORTDOCS%%share/texmf-dist/doc/support/texosquery/texosquery.pdf
+share/texmf-dist/scripts/texosquery/texosquery
+share/texmf-dist/scripts/texosquery/texosquery.jar
+%%PORTSRC%%share/texmf-dist/source/support/texosquery/TeXOSQuery.java
+%%PORTSRC%%share/texmf-dist/source/support/texosquery/texosquery.dtx
+%%PORTSRC%%share/texmf-dist/source/support/texosquery/texosquery.ins
+share/texmf-dist/tex/latex/texosquery/texosquery.sty
+share/texmf-dist/tex/latex/texosquery/texosquery.tex
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

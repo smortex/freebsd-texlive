@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	epstopdf
-PORTVERSION=	20160616
+PORTVERSION=	20160705
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Convert EPS to 'encapsulated' PDF using Ghostscript
+COMMENT=	Convert EPS to PDF using Ghostscript
 
 RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 

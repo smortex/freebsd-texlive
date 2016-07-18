@@ -1,0 +1,16 @@
+0_3729359_7458719_655360_0.7_0.7_-lrr-x--_-llrr-x--_-rll-x--_-rrll-x--.pdf0
+%%PORTDOCS%%share/texmf-dist/doc/latex/binarytree/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/binarytree/binarytree.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/binarytree/examples/binarytree-ex1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/binarytree/examples/binarytree-ex1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/binarytree/examples/binarytree-ex2.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/binarytree/examples/binarytree-ex2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/binarytree/examples/binarytree-ex3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/binarytree/examples/binarytree-ex3.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/binarytree/examples/binarytree-ex4.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/binarytree/examples/binarytree-ex4.tex
+%%PORTSRC%%share/texmf-dist/source/latex/binarytree/binarytree.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/binarytree/binarytree.ins
+share/texmf-dist/tex/latex/binarytree/binarytree.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

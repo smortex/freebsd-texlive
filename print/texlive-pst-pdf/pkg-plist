@@ -1,10 +1,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst-pdf/CHANGES
-%%PORTDOCS%%share/texmf-dist/doc/latex/pst-pdf/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-pdf/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-pdf/README.md
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst-pdf/pst-pdf-DE.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pst-pdf/pst-pdf-example1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pst-pdf/pst-pdf-example1.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/pst-pdf/pst-pdf-example2.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/pst-pdf/pst-pdf-example2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-pdf/pst-pdf-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/pst-pdf/pst-pdf-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pst-pdf/pst-pdf.pdf
 share/texmf-dist/scripts/pst-pdf/ps4pdf.bat
 share/texmf-dist/scripts/pst-pdf/ps4pdf.bat.noMiKTeX

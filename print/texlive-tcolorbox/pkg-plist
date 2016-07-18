@@ -50,6 +50,7 @@ share/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbminted.code.tex
+share/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 share/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex

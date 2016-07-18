@@ -1,0 +1,7 @@
+The new 'binarytree' package provides an easy but flexible way
+to draw binary trees using TikZ. A path specification and the
+setting of various options determine the style for each edge of
+the tree. There is support for the external library of TikZ
+which does not affect externalization of the rest of the TikZ
+figures in the document. There is an option to use automatic
+file naming: useful if the trees are often moved around.

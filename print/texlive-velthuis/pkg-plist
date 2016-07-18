@@ -17,6 +17,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/velthuis/xetex-examples.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/velthuis/xetex-misspaal.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/velthuis/xetex-misspaal.tex
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/devnag.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/devnag.man1.pdf
 share/texmf-dist/fonts/afm/public/velthuis/dvnb10.afm
 share/texmf-dist/fonts/afm/public/velthuis/dvnb8.afm
 share/texmf-dist/fonts/afm/public/velthuis/dvnb9.afm

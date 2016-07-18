@@ -1,11 +1,13 @@
 # $FreeBSD$
 
 PORTNAME=	forest
-PORTVERSION=	20160414
+PORTVERSION=	20160715
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	Drawing (linguistic) trees
+
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/elocalloc/elocalloc.sty:${PORTSDIR}/print/texlive-elocalloc
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

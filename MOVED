@@ -215,3 +215,10 @@ print/texlive-babel-ukraineb||2016-06-07|Upstream support dropped
 print/texlive-epyt||2016-06-07|Upstream support dropped
 print/texlive-labelcas||2016-06-07|Upstream support dropped
 print/texlive-rotating||2016-06-19|Upstream support dropped
+print/texlive-devnag||2016-07-18|Upstream support dropped
+print/texlive-dvipdfmx-def||2016-07-18|Upstream support dropped
+print/texlive-dvisvgm-def||2016-07-18|Upstream support dropped
+print/texlive-getargs||2016-07-18|Upstream support dropped
+print/texlive-luatex-def||2016-07-18|Upstream support dropped
+print/texlive-pdftex-def||2016-07-18|Upstream support dropped
+print/texlive-xetex-def||2016-07-18|Upstream support dropped

@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/randomlist/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/generic/randomlist/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/generic/randomlist/comets.dat
+%%PORTDOCS%%share/texmf-dist/doc/generic/randomlist/pupils.dat
+%%PORTDOCS%%share/texmf-dist/doc/generic/randomlist/pythagoras.dat
+%%PORTDOCS%%share/texmf-dist/doc/generic/randomlist/randomlist.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/randomlist/randomlist.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/randomlist/test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/randomlist/test.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/randomlist/testtex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/randomlist/testtex.tex
+%%PORTSRC%%share/texmf-dist/source/generic/randomlist/randomlist.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/randomlist/randomlist.ins
+share/texmf-dist/tex/generic/randomlist/randomlist.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

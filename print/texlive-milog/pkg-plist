@@ -1,0 +1,16 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/milog/201605.csv
+%%PORTDOCS%%share/texmf-dist/doc/latex/milog/201605.dat
+%%PORTDOCS%%share/texmf-dist/doc/latex/milog/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/milog/makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/milog/manifest.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/milog/milog
+%%PORTDOCS%%share/texmf-dist/doc/latex/milog/milog-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/milog/milog-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/milog/milog-formular.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/milog/milog-formular.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/milog/milog.cfg
+%%PORTDOCS%%share/texmf-dist/doc/latex/milog/milog.dtx
+%%PORTDOCS%%share/texmf-dist/doc/latex/milog/milog.pdf
+share/texmf-dist/tex/latex/milog/milog.cls
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

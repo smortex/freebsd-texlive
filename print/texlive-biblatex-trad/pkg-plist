@@ -1,15 +1,15 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-trad/README.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-trad/README.md
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-trad/biblatex-trad.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-trad/biblatex-trad.tex
-share/texmf-dist/tex/latex/biblatex-trad/bbx/trad-abbrv.bbx
-share/texmf-dist/tex/latex/biblatex-trad/bbx/trad-alpha.bbx
-share/texmf-dist/tex/latex/biblatex-trad/bbx/trad-plain.bbx
-share/texmf-dist/tex/latex/biblatex-trad/bbx/trad-standard.bbx
-share/texmf-dist/tex/latex/biblatex-trad/bbx/trad-unsrt.bbx
-share/texmf-dist/tex/latex/biblatex-trad/cbx/trad-abbrv.cbx
-share/texmf-dist/tex/latex/biblatex-trad/cbx/trad-alpha.cbx
-share/texmf-dist/tex/latex/biblatex-trad/cbx/trad-plain.cbx
-share/texmf-dist/tex/latex/biblatex-trad/cbx/trad-standard.cbx
-share/texmf-dist/tex/latex/biblatex-trad/cbx/trad-unsrt.cbx
+share/texmf-dist/tex/latex/biblatex-trad/trad-abbrv.bbx
+share/texmf-dist/tex/latex/biblatex-trad/trad-abbrv.cbx
+share/texmf-dist/tex/latex/biblatex-trad/trad-alpha.bbx
+share/texmf-dist/tex/latex/biblatex-trad/trad-alpha.cbx
+share/texmf-dist/tex/latex/biblatex-trad/trad-plain.bbx
+share/texmf-dist/tex/latex/biblatex-trad/trad-plain.cbx
+share/texmf-dist/tex/latex/biblatex-trad/trad-standard.bbx
+share/texmf-dist/tex/latex/biblatex-trad/trad-standard.cbx
+share/texmf-dist/tex/latex/biblatex-trad/trad-unsrt.bbx
+share/texmf-dist/tex/latex/biblatex-trad/trad-unsrt.cbx
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

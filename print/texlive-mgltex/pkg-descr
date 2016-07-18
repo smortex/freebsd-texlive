@@ -1,0 +1,12 @@
+This package allows you to create high-quality publication-
+ready graphics directly from MGL scripts embedded into your
+LaTeX document, using the MathGL library. Besides following the
+LaTeX philosophy of allowing you to concentrate on content
+rather than output (mglTeX takes care of producing the output),
+mglTeX facilitates the maintenance of your document, since both
+code for text and code for plots are contained in a single
+file. MathGL. is a fast and efficient library by Alexey Balakin
+for the creation of high-quality publication-ready scientific
+graphics. Although it defines interfaces for many programming
+languages, it also implements its own scripting language,
+called MGL, which can be used independently.

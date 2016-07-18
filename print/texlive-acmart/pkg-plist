@@ -1,10 +1,4 @@
-share/texmf-dist/bibtex/bst/acmart/ACM-Reference-Format-Journals.bst
-share/texmf-dist/bibtex/bst/acmart/SIGCHI-Reference-Format.bst
-share/texmf-dist/bibtex/bst/acmart/acm-abbrv.bst
-share/texmf-dist/bibtex/bst/acmart/acm-alpha.bst
-share/texmf-dist/bibtex/bst/acmart/acm-plain.bst
-share/texmf-dist/bibtex/bst/acmart/acm-unsrt.bst
-share/texmf-dist/bibtex/bst/acmart/acmsiggraph.bst
+share/texmf-dist/bibtex/bst/acmart/ACM-Reference-Format.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/acmart/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/acmart/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/acmart/acmart.bib
