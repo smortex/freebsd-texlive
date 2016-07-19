@@ -1,13 +1,13 @@
-%%PORTDOCS%%share/texmf-dist/doc/xetex/zhspacing/README
-%%PORTDOCS%%share/texmf-dist/doc/xetex/zhspacing/t-zhspacing.tex
-%%PORTDOCS%%share/texmf-dist/doc/xetex/zhspacing/zhs-man.pdf
-%%PORTDOCS%%share/texmf-dist/doc/xetex/zhspacing/zhs-man.tex
-%%PORTDOCS%%share/texmf-dist/doc/xetex/zhspacing/zhspacing-context-test.tex
-share/texmf-dist/tex/xetex/zhspacing/zhfont.sty
-share/texmf-dist/tex/xetex/zhspacing/zhmath.sty
-share/texmf-dist/tex/xetex/zhspacing/zhsmyclass.sty
-share/texmf-dist/tex/xetex/zhspacing/zhspacing.sty
-share/texmf-dist/tex/xetex/zhspacing/zhsusefulmacros.sty
-share/texmf-dist/tex/xetex/zhspacing/zhulem.sty
+%%PORTDOCS%%share/texmf-dist/doc/generic/zhspacing/README.md
+%%PORTDOCS%%share/texmf-dist/doc/generic/zhspacing/zhs-man.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/zhspacing/zhs-man.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/zhspacing/zhspacing-context-test.tex
+share/texmf-dist/tex/context/third/zhspacing/t-zhspacing.tex
+share/texmf-dist/tex/generic/zhspacing/zhmath.sty
+share/texmf-dist/tex/generic/zhspacing/zhsmyclass.sty
+share/texmf-dist/tex/generic/zhspacing/zhspacing.sty
+share/texmf-dist/tex/generic/zhspacing/zhsusefulmacros.sty
+share/texmf-dist/tex/xelatex/zhspacing/zhfont.sty
+share/texmf-dist/tex/xelatex/zhspacing/zhulem.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

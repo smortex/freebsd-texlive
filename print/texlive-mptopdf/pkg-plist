@@ -2,10 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/mptopdf.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/mptopdf.man1.pdf
 share/texmf-dist/scripts/context/stubs/mswin/mptopdf.exe
-share/texmf-dist/tex/context/base/supp-mis.mkii
-share/texmf-dist/tex/context/base/supp-mpe.mkii
-share/texmf-dist/tex/context/base/supp-pdf.mkii
-share/texmf-dist/tex/context/base/syst-tex.mkii
+share/texmf-dist/tex/context/base/mkii/supp-mis.mkii
+share/texmf-dist/tex/context/base/mkii/supp-mpe.mkii
+share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+share/texmf-dist/tex/context/base/mkii/syst-tex.mkii
 share/texmf-dist/tex/generic/context/mptopdf/mptopdf.tex
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
