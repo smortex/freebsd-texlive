@@ -63,15 +63,19 @@ namespace TeXLive
 				p.StartInfo = psi;
 				p.Start ();
 				p.WaitForExit ();
-				res = new List<string> (p.StandardOutput.ReadToEnd ().Split ('\n'));
+				var stdout = p.StandardOutput.ReadToEnd ();
+
+				res = new List<string> (stdout.Split ('\n'));
+
+				if (Verbosity >= 2)
+					Console.Write (stdout);
+
 				if (p.ExitCode != 0)
 					throw new Exception (string.Format ("{0} returned {1}", filename, p.ExitCode));
 			} finally {
 				p.Dispose ();
 			}
 
-			if (Verbosity >= 2)
-				Console.WriteLine (res);
 			return res;
 		}
 
