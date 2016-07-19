@@ -187,7 +187,7 @@ namespace TeXLive
 		/// </summary>
 		static private void DeletePort (string PortsDir, string PortName)
 		{
-			Run ("git", string.Format ("rm -r {0}", System.IO.Path.Combine (PortsDir, PortName)), ".");
+			Run ("git", string.Format ("rm -r {0}", System.IO.Path.Combine (PortsDir, PortName)), PortsDir);
 		}
 	}
 }

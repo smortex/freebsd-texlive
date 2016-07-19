@@ -93,7 +93,7 @@ namespace TeXLive
 				}
 			}
 			var fi = new FileInfo (FileName);
-			TLPort.Run ("git", string.Format ("add {0}", fi.Name), ".");
+			TLPort.Run ("git", string.Format ("add {0}", fi.Name), fi.DirectoryName);
 		}
 	}
 }
