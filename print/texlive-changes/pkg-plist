@@ -59,9 +59,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/changes/changes.example.setsocextension.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/changes/changes.example.simple.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/changes/changes.ngerman.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/changes/delcmdchanges.bash
 %%PORTDOCS%%share/texmf-dist/doc/latex/changes/userdoc/changes.de.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/changes/userdoc/changes.en.tex
+share/texmf-dist/scripts/changes/delcmdchanges.bash
 %%PORTSRC%%share/texmf-dist/source/latex/changes/changes.drv
 %%PORTSRC%%share/texmf-dist/source/latex/changes/changes.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/changes/changes.ins

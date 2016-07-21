@@ -457,8 +457,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/lambda/oinuit/oinuit.sty:${PORTSDIR}/print/texlive-oinuit \
 		${LOCALBASE}/share/texmf-dist/tex/latex/old-arrows/old-arrows.sty:${PORTSDIR}/print/texlive-old-arrows \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/oldlatin/olb10.mf:${PORTSDIR}/print/texlive-oldlatin \
-		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/oldstandard/OldStandard-Bold.otf:${PORTSDIR}/print/texlive-oldstandard \
-		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/oldstandardt1/ost_4i7xxk.enc:${PORTSDIR}/print/texlive-oldstandardt1 \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/oldstandard/ost_26r254.enc:${PORTSDIR}/print/texlive-oldstandard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/opensans/opensans.sty:${PORTSDIR}/print/texlive-opensans \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/orkhun/orhant.mf:${PORTSDIR}/print/texlive-orkhun \
 		${LOCALBASE}/share/texmf-dist/tex/latex/overlock/overlock.sty:${PORTSDIR}/print/texlive-overlock \

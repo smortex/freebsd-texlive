@@ -64,6 +64,7 @@ share/texmf-dist/bibtex/csf/gost/utf8cyrillic.csf
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/doc/examples/utf8/bib/ex28.bib
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/doc/examples/utf8/bib/ex29.bib
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/doc/examples/utf8/bib/ex30.bib
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/doc/examples/utf8/bib/ex31.bib
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/doc/examples/utf8/bib/examples.bib
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/doc/examples/utf8/bibnocap.sty
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/doc/examples/utf8/dobib.cmd
@@ -112,6 +113,7 @@ share/texmf-dist/bibtex/csf/gost/utf8cyrillic.csf
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/ex28.bib
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/ex29.bib
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/ex30.bib
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/ex31.bib
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/examples.bib
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/gost.pdf
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/gost.tex
@@ -127,6 +129,7 @@ share/texmf-dist/bibtex/csf/gost/utf8cyrillic.csf
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/gost2008-sorted.tex
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/gost2008.pdf
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/gost2008.tex
+%%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/gost2008e.goodbst
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/gost2008l.pdf
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/gost2008l.tex
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/gost780.pdf
