@@ -1,6 +1,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/xassoccnt/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/xassoccnt/xassoccnt_coupledcounters.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/xassoccnt/xassoccnt_coupledcounters.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xassoccnt/xassoccnt_backupcounters_example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xassoccnt/xassoccnt_backupcounters_example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xassoccnt/xassoccnt_coupledcounters_example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xassoccnt/xassoccnt_coupledcounters_example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/xassoccnt/xassoccnt_doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/xassoccnt/xassoccnt_doc.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/xassoccnt/xassoccnt_driver.pdf
@@ -9,6 +11,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/xassoccnt/xassoccnt_example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/xassoccnt/xassoccnt_periodiccounters_example.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/xassoccnt/xassoccnt_periodiccounters_example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/xassoccnt/xassoccnt_resetlist_example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/xassoccnt/xassoccnt_resetlist_example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/xassoccnt/xassoccnt_suspendedcounters_example.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/xassoccnt/xassoccnt_suspendedcounters_example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/xassoccnt/xassoccnt_totalcounters_example.pdf

@@ -217,6 +217,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/pdfbook2/pdfbook2:${PORTSDIR}/print/texlive-pdfbook2 \
 		${LOCALBASE}/share/texmf-dist/scripts/pdfcrop/pdfcrop.pl:${PORTSDIR}/print/texlive-pdfcrop \
 		${LOCALBASE}/share/texmf-dist/scripts/pdfjam/pdf180:${PORTSDIR}/print/texlive-pdfjam \
+		${LOCALBASE}/share/texmf-dist/scripts/pdflatexpicscale/pdflatexpicscale.pl:${PORTSDIR}/print/texlive-pdflatexpicscale \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/e2pall.pl:${PORTSDIR}/print/texlive-pdftools \
 		${LOCALBASE}/share/texmf-dist/scripts/pdfxup/pdfxup:${PORTSDIR}/print/texlive-pdfxup \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pfarrei/pfarrei.sty:${PORTSDIR}/print/texlive-pfarrei \
@@ -2630,6 +2631,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/icsv/icsv.cls:${PORTSDIR}/print/texlive-icsv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ieeepes/ieeepes.sty:${PORTSDIR}/print/texlive-ieeepes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ijmart/ijmart.cls:${PORTSDIR}/print/texlive-ijmart \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ijsra/ijsra.cls:${PORTSDIR}/print/texlive-ijsra \
 		${LOCALBASE}/share/texmf-dist/tex/latex/imac/imac.sty:${PORTSDIR}/print/texlive-imac \
 		${LOCALBASE}/share/texmf-dist/tex/latex/imtekda/IMTEKda.cls:${PORTSDIR}/print/texlive-imtekda \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jacow/jacow.cls:${PORTSDIR}/print/texlive-jacow \
@@ -2696,7 +2698,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/thesis-titlepage-fhac/fhACtitlepage.cfg:${PORTSDIR}/print/texlive-thesis-titlepage-fhac \
 		${LOCALBASE}/share/texmf-dist/tex/latex/thuthesis/thuthesis.cls:${PORTSDIR}/print/texlive-thuthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/toptesi/toptesi.cls:${PORTSDIR}/print/texlive-toptesi \
-		${LOCALBASE}/share/texmf-dist/tex/latex/tudscr/logo/DDC-01.eps:${PORTSDIR}/print/texlive-tudscr \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tudscr/fix-tudscrfonts.sty:${PORTSDIR}/print/texlive-tudscr \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/tugboat/ltugbib.bst:${PORTSDIR}/print/texlive-tugboat \
 		${LOCALBASE}/share/texmf-dist/tex/plain/tugboat-plain/tugboat.cmn:${PORTSDIR}/print/texlive-tugboat-plain \
 		${LOCALBASE}/share/texmf-dist/tex/latex/turabian/turabian.cls:${PORTSDIR}/print/texlive-turabian \

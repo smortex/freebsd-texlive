@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	gost
+PORTNAME=	ijsra
 PORTVERSION=	20160731
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	BibTeX styles to format according to GOST
+COMMENT=	LaTeX document class for the International Journal of Student Research in Archaeology
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

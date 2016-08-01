@@ -129,7 +129,6 @@ share/texmf-dist/bibtex/csf/gost/utf8cyrillic.csf
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/gost2008-sorted.tex
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/gost2008.pdf
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/gost2008.tex
-%%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/gost2008e.goodbst
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/gost2008l.pdf
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/gost2008l.tex
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/gost/gost780.pdf

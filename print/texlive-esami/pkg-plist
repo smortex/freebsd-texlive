@@ -1,10 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/esami/VERSION
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami-doc-en.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami-doc-en.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami-doc-it.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami-doc-it.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/esami.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/esami-xyz.cfg
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/master-sol.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/master.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/problem1.tex
@@ -24,7 +24,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/test9.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/testA-luatex-sol.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/testA-luatex.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/testA-sol.loe
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/testA-sol.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/testA-sol.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/esami/doc/examples/testA-xetex-sol.pdf

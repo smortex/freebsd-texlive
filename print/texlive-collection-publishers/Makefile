@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20160707
+PORTVERSION=	20160731
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -133,6 +133,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/icsv/icsv.cls:${PORTSDIR}/print/texlive-icsv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ieeepes/ieeepes.sty:${PORTSDIR}/print/texlive-ieeepes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ijmart/ijmart.cls:${PORTSDIR}/print/texlive-ijmart \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ijsra/ijsra.cls:${PORTSDIR}/print/texlive-ijsra \
 		${LOCALBASE}/share/texmf-dist/tex/latex/imac/imac.sty:${PORTSDIR}/print/texlive-imac \
 		${LOCALBASE}/share/texmf-dist/tex/latex/imtekda/IMTEKda.cls:${PORTSDIR}/print/texlive-imtekda \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jacow/jacow.cls:${PORTSDIR}/print/texlive-jacow \
@@ -199,7 +200,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/thesis-titlepage-fhac/fhACtitlepage.cfg:${PORTSDIR}/print/texlive-thesis-titlepage-fhac \
 		${LOCALBASE}/share/texmf-dist/tex/latex/thuthesis/thuthesis.cls:${PORTSDIR}/print/texlive-thuthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/toptesi/toptesi.cls:${PORTSDIR}/print/texlive-toptesi \
-		${LOCALBASE}/share/texmf-dist/tex/latex/tudscr/logo/DDC-01.eps:${PORTSDIR}/print/texlive-tudscr \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tudscr/fix-tudscrfonts.sty:${PORTSDIR}/print/texlive-tudscr \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/tugboat/ltugbib.bst:${PORTSDIR}/print/texlive-tugboat \
 		${LOCALBASE}/share/texmf-dist/tex/plain/tugboat-plain/tugboat.cmn:${PORTSDIR}/print/texlive-tugboat-plain \
 		${LOCALBASE}/share/texmf-dist/tex/latex/turabian/turabian.cls:${PORTSDIR}/print/texlive-turabian \

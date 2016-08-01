@@ -1,13 +1,15 @@
 # $FreeBSD$
 
-PORTNAME=	gost
+PORTNAME=	pdflatexpicscale
 PORTVERSION=	20160731
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	BibTeX styles to format according to GOST
+COMMENT=	Support software for downscaling graphics to be included by pdfLaTeX
 
-OPTIONS_DEFINE=	DOCS SRCS
+RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
+
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -1,0 +1,2 @@
+The package provides a script to scale pictures down to a
+target resolution before creating a PDF document with pdfLaTeX.

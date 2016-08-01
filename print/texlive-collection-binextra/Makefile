@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-binextra
-PORTVERSION=	20160709
+PORTVERSION=	20160731
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -79,6 +79,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/pdfbook2/pdfbook2:${PORTSDIR}/print/texlive-pdfbook2 \
 		${LOCALBASE}/share/texmf-dist/scripts/pdfcrop/pdfcrop.pl:${PORTSDIR}/print/texlive-pdfcrop \
 		${LOCALBASE}/share/texmf-dist/scripts/pdfjam/pdf180:${PORTSDIR}/print/texlive-pdfjam \
+		${LOCALBASE}/share/texmf-dist/scripts/pdflatexpicscale/pdflatexpicscale.pl:${PORTSDIR}/print/texlive-pdflatexpicscale \
 		${LOCALBASE}/share/texmf-dist/scripts/texlive/e2pall.pl:${PORTSDIR}/print/texlive-pdftools \
 		${LOCALBASE}/share/texmf-dist/scripts/pdfxup/pdfxup:${PORTSDIR}/print/texlive-pdfxup \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pfarrei/pfarrei.sty:${PORTSDIR}/print/texlive-pfarrei \
