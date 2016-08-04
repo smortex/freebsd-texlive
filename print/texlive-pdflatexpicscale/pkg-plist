@@ -1,5 +1,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/pdflatexpicscale/README
 %%PORTDOCS%%share/texmf-dist/doc/support/pdflatexpicscale/pdflatexpicscale.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/pdflatexpicscale/pdflatexpicscale.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/pdflatexpicscale/testprinter.ps
 share/texmf-dist/scripts/pdflatexpicscale/pdflatexpicscale.pl
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
