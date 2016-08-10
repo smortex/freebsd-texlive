@@ -122,7 +122,7 @@ Distfiles are split in 5 categories:
   * _TLCore_ (1310 distfiles)
 
 The relationships between these categories is represented bellow:
-![http://freebsd-texlive.googlecode.com/svn/branches/doc/images/distfile-types.png](http://freebsd-texlive.googlecode.com/svn/branches/doc/images/distfile-types.png)
+![https://raw.githubusercontent.com/smortex/freebsd-texlive/doc/images/distfile-types.png](https://raw.githubusercontent.com/smortex/freebsd-texlive/doc/images/distfile-types.png)
 
 As an example, the `svninfo` _Package_ is part of the `collection-latexextra` _Collection_, which is part of both `scheme-full` and `scheme-gutenberg` _Schemes_.
 
