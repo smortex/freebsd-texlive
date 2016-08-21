@@ -27,7 +27,7 @@ UNIQ?=		/usr/bin/uniq # This should be included in ports/Mk/bsd.commands.mk
 MKTEXLSR=	${PREFIX}/bin/mktexlsr
 
 ${WRKDIR}/.install_files: build
-	@(  cd ${WRKDIR} && ${CAT} tlpkg/tlpobj/${PORTNAME}.tlpobj | ${GREP} ^\  | ${AWK} '\
+	@(cd ${WRKSRC} && ${CAT} tlpkg/tlpobj/${PORTNAME}.tlpobj | ${GREP} ^\  | ${AWK} '\
 		{ \
 		    source=substr($$0, 2, length($$0)); \
 		    target="share/" source; \
@@ -41,7 +41,7 @@ ${WRKDIR}/.install_files: build
 		    }' | (${GREP} -vF ../../print/texlive-core/pkg-plist || :) > ${WRKDIR}/.install_files; \
 	)
 .if ${PORT_OPTIONS:MDOCS}
-	@(  cd ${WRKDIR} && ${CAT} tlpkg/tlpobj/${PORTNAME}.doc.tlpobj | ${GREP} ^\  | ${AWK} '\
+	@(cd ${WRKSRC} && ${CAT} tlpkg/tlpobj/${PORTNAME}.doc.tlpobj | ${GREP} ^\  | ${AWK} '\
 		{ \
 		    source=substr($$0, 2, length($$0)); \
 		    target="share/" source; \
@@ -56,7 +56,7 @@ ${WRKDIR}/.install_files: build
 	)
 .endif
 .if ${PORT_OPTIONS:MSRCS}
-	@(  cd ${WRKDIR} && ${CAT} tlpkg/tlpobj/${PORTNAME}.source.tlpobj | ${GREP} ^\  | ${AWK} '\
+	@(cd ${WRKSRC} && ${CAT} tlpkg/tlpobj/${PORTNAME}.source.tlpobj | ${GREP} ^\  | ${AWK} '\
 		{ \
 		    source=substr($$0, 2, length($$0)); \
 		    target="share/" source; \
