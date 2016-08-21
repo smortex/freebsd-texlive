@@ -274,7 +274,7 @@ namespace TeXLive
 		/// </summary>
 		private void Clean ()
 		{
-			Run ("make", "clean");
+			Run ("rm", "-rf work");
 		}
 
 		/// <summary>
