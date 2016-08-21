@@ -147,7 +147,7 @@ namespace TeXLive
 			int current = 1;
 			foreach (Package pkg in packages.Values) {
 				if (Verbosity >= 1)
-					Console.WriteLine ("===> [{0}/{1}] print/texlive-{2}", current++, packages.Count, pkg.Name);
+					Console.WriteLine ("===> [{0,4}/{1}] print/texlive-{2}", current++, packages.Count, pkg.Name);
 
 				if (pkg.Eligible) {
 					if (!pkg.Exists) {
