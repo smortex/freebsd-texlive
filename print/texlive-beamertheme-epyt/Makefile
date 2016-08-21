@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	beamertheme-epyt
-PORTVERSION=	20160515
+PORTVERSION=	20160613
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

@@ -1,0 +1,8 @@
+This package provides macros to typeset some general
+mathematical operators (identity operator, trace, diagonal,
+rank, ...), a powerful implementation of the bra-ket notation
+(kets, bras, brakets, matrix elements etc. which can be sized
+as required), delimited expressions such as averages and norms,
+and some basic Lie algebra/group names. Macros for entropy
+measures for quantum information theory (smooth min- and max-
+entropy, smooth relative entropies, etc.) are also provided.

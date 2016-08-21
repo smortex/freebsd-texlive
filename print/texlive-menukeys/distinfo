@@ -1,6 +1,7 @@
-SHA256 (TeXLive/menukeys-20160419.tar.xz) = a428711106247a813b6ef3378d9d0ca99828c53ac11e84a117822888fe4ac4b1
-SIZE (TeXLive/menukeys-20160419.tar.xz) = 5424
-SHA256 (TeXLive/menukeys.doc-20160419.tar.xz) = d9756573430a7eb98f1c98c2acd83b5a54c6072b312f2d9211845bef20963d2a
-SIZE (TeXLive/menukeys.doc-20160419.tar.xz) = 535148
-SHA256 (TeXLive/menukeys.source-20160419.tar.xz) = 063876f2401f825c5d513dc3b801bb4a7d8ed302baf0eacad61742cc3b3eefe1
-SIZE (TeXLive/menukeys.source-20160419.tar.xz) = 16776
+TIMESTAMP = 1471803912
+SHA256 (TeXLive/menukeys-20160809.tar.xz) = 274455afc841953305ab2443315b68be53ee4bce49ae4a8ae655f1c71277cd28
+SIZE (TeXLive/menukeys-20160809.tar.xz) = 5572
+SHA256 (TeXLive/menukeys.doc-20160809.tar.xz) = d6b9d9bc92409a5c0482dd5865e41fc67a8b7ee506f535ec213ef81126ac0ad1
+SIZE (TeXLive/menukeys.doc-20160809.tar.xz) = 562936
+SHA256 (TeXLive/menukeys.source-20160809.tar.xz) = de983bb79f3297c9dbc2998e5e221d1b06191552120699ffb0a7b653355972a7
+SIZE (TeXLive/menukeys.source-20160809.tar.xz) = 17296

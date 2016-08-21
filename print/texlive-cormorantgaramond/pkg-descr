@@ -1,0 +1,5 @@
+This package provides LaTeX, pdfLaTeX, XeLaTeX and LuaLaTeX
+support for the Cormorant Garamond family of fonts, designed by
+Christian Thalman of Catharsis Fonts. The family includes
+light, regular, medium, semi-bold and bold weights, with
+italics.

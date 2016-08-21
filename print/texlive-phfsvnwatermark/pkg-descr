@@ -1,0 +1,4 @@
+This package allows you to add version control information as a
+gray watermark on each page of your document. The SVN info is
+read from keyword tags such as $Id$, $Date$, and $Author$ via
+the svn or svn-multi packages.

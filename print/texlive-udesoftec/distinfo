@@ -1,6 +1,7 @@
-SHA256 (TeXLive/udesoftec-20160419.tar.xz) = 70600fba8016237bd9dc5cadd68f768b8f0ec6fd161020c0bbacfe946d0e70e0
-SIZE (TeXLive/udesoftec-20160419.tar.xz) = 108220
-SHA256 (TeXLive/udesoftec.doc-20160419.tar.xz) = 1e5f272c33b4ea1f016dcc77d1eb36a24a142dea7787ff2f66a2e0dc95c81d68
-SIZE (TeXLive/udesoftec.doc-20160419.tar.xz) = 486664
-SHA256 (TeXLive/udesoftec.source-20160419.tar.xz) = fe476e7150a956e60037b2d000a1302e5d130493508f51bc53b50c7be892c918
-SIZE (TeXLive/udesoftec.source-20160419.tar.xz) = 44920
+TIMESTAMP = 1471803433
+SHA256 (TeXLive/udesoftec-20160817.tar.xz) = 84a968e575028efd5b765fc422aa04d95e70b3e1bff909fb6e3b09a495e8fc97
+SIZE (TeXLive/udesoftec-20160817.tar.xz) = 108240
+SHA256 (TeXLive/udesoftec.doc-20160817.tar.xz) = 54b0100cb654a1a1052f3e055d0036e450be1632e1845c6fa25aed99c6be94b2
+SIZE (TeXLive/udesoftec.doc-20160817.tar.xz) = 479368
+SHA256 (TeXLive/udesoftec.source-20160817.tar.xz) = b47202b9a7e855b8178d7af962fcddcb31e87c71d38c56485e66486834db62ba
+SIZE (TeXLive/udesoftec.source-20160817.tar.xz) = 45164

@@ -1,0 +1,11 @@
+The package may be used to add a small amount of data to an
+entry in the table of contents or list of figures, between the
+section name and the page number. The typical use would be to
+add the name of an author or artist of a chapter or section,
+such as in an anthology or a collection of papers.
+Additionally, user-level macros are provided which add the
+author's name to a chapter or section, along with an optional
+prefix and/or suffix, and add to a figure the artist's name,
+prefix, and suffix, plus optional additional text. Author and
+artist names are also added to the index. Additional user-level
+macros control formatting.

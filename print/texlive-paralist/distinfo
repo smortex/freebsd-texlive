@@ -1,6 +1,7 @@
-SHA256 (TeXLive/paralist-20160414.tar.xz) = 9ef43f661e01def8185835a37896dd7a6ecf48396534532b606cc491c7720039
-SIZE (TeXLive/paralist-20160414.tar.xz) = 3708
-SHA256 (TeXLive/paralist.doc-20160414.tar.xz) = 79cc67606fdd1607e22e7e86c589e2fcef727a682be5a3d091a72c21bb194bfc
-SIZE (TeXLive/paralist.doc-20160414.tar.xz) = 209764
-SHA256 (TeXLive/paralist.source-20160414.tar.xz) = b5830c77539885664be0f9b65d82558ab06d82a5356dc529f6d442d4047bf292
-SIZE (TeXLive/paralist.source-20160414.tar.xz) = 14720
+TIMESTAMP = 1471803603
+SHA256 (TeXLive/paralist-20160815.tar.xz) = b5d7254212035d0ef33ddb262df60a55552efb0dc6c9cc3a9ff54a0cdf7ec4a4
+SIZE (TeXLive/paralist-20160815.tar.xz) = 3712
+SHA256 (TeXLive/paralist.doc-20160815.tar.xz) = 867532005513a78a6d8dc78a21cfc0d0695c5d711bb9c6cb89a95e132adb13fe
+SIZE (TeXLive/paralist.doc-20160815.tar.xz) = 210048
+SHA256 (TeXLive/paralist.source-20160815.tar.xz) = c0e3e27d3d094d411e0fbd47cdd195e6c4a2ffd1a2749b5ed39967944d84055e
+SIZE (TeXLive/paralist.source-20160815.tar.xz) = 14768

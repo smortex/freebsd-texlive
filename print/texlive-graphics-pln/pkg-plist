@@ -1,14 +1,2 @@
-%%PORTDOCS%%share/texmf-dist/doc/plain/graphics-pln/00readme.txt
-%%PORTDOCS%%share/texmf-dist/doc/plain/graphics-pln/exmplcol.tex
-%%PORTDOCS%%share/texmf-dist/doc/plain/graphics-pln/exmplgrf.tex
-%%PORTDOCS%%share/texmf-dist/doc/plain/graphics-pln/exmplpfg.tex
-%%PORTDOCS%%share/texmf-dist/doc/plain/graphics-pln/exmplpic.tex
-%%PORTSRC%%share/texmf-dist/source/plain/graphics-pln/autopict.ins
-share/texmf-dist/tex/plain/graphics-pln/autopict.sty
-share/texmf-dist/tex/plain/graphics-pln/color.tex
-share/texmf-dist/tex/plain/graphics-pln/graphicx.tex
-share/texmf-dist/tex/plain/graphics-pln/miniltx.tex
-share/texmf-dist/tex/plain/graphics-pln/picture.tex
-share/texmf-dist/tex/plain/graphics-pln/psfrag.tex
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

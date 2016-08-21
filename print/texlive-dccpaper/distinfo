@@ -1,6 +1,7 @@
-SHA256 (TeXLive/dccpaper-20160414.tar.xz) = 0d6fcd26b5c4a6a9bb3a5ad1f4b5cacde27bf7ef25d493d2a13ceeaff33ad04d
-SIZE (TeXLive/dccpaper-20160414.tar.xz) = 30104
-SHA256 (TeXLive/dccpaper.doc-20160414.tar.xz) = 058db9b3d6fccaf0bbe3ce3044565fd044308cb0b664f8a9bf3858ceefb99ed2
-SIZE (TeXLive/dccpaper.doc-20160414.tar.xz) = 401804
-SHA256 (TeXLive/dccpaper.source-20160414.tar.xz) = 037c44de1c0fdc363530f8abee9bc1d085fc705ea18390af213528c03993891c
-SIZE (TeXLive/dccpaper.source-20160414.tar.xz) = 23360
+TIMESTAMP = 1471804295
+SHA256 (TeXLive/dccpaper-20160806.tar.xz) = cfc3d6563ceaa6b48ab1dd933dde00e3adea8e26f3cc388a9e2309abd777be91
+SIZE (TeXLive/dccpaper-20160806.tar.xz) = 30176
+SHA256 (TeXLive/dccpaper.doc-20160806.tar.xz) = 2c9f325b0e7326bca2cb2aba8d00df320b655b267518d0cf1ff20cafe5139287
+SIZE (TeXLive/dccpaper.doc-20160806.tar.xz) = 403124
+SHA256 (TeXLive/dccpaper.source-20160806.tar.xz) = 683920c4c6549a3cb4529f49368ba0f0e25a714e584140468d4a1ca2e662db22
+SIZE (TeXLive/dccpaper.source-20160806.tar.xz) = 23404

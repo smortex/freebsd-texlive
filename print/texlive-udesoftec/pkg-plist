@@ -1,18 +1,2 @@
-share/texmf-dist/bibtex/bst/udesoftec/udesoftec.bst
-%%PORTDOCS%%share/texmf-dist/doc/latex/udesoftec/udesoftec-doc.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/udesoftec/CHANGELOG
-%%PORTSRC%%share/texmf-dist/source/latex/udesoftec/README
-%%PORTSRC%%share/texmf-dist/source/latex/udesoftec/UPDATE-INSTRUCTIONS
-%%PORTSRC%%share/texmf-dist/source/latex/udesoftec/udesoftec-doc-examplebib.bib
-%%PORTSRC%%share/texmf-dist/source/latex/udesoftec/udesoftec-doc-exampleimage.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/udesoftec/udesoftec-doc.tex
-share/texmf-dist/tex/latex/udesoftec/udesoftec-bibcommon.sty
-share/texmf-dist/tex/latex/udesoftec/udesoftec-biblatex.sty
-share/texmf-dist/tex/latex/udesoftec/udesoftec-bst.sty
-share/texmf-dist/tex/latex/udesoftec/udesoftec-cover-uba.pdf
-share/texmf-dist/tex/latex/udesoftec/udesoftec-cover-ude-de.pdf
-share/texmf-dist/tex/latex/udesoftec/udesoftec-cover-ude-en.pdf
-share/texmf-dist/tex/latex/udesoftec/udesoftec-extra.sty
-share/texmf-dist/tex/latex/udesoftec/udesoftec.cls
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

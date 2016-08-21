@@ -1,10 +1,2 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/mhchem/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/mhchem/lppl-1-3c.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/mhchem/manifest.txt
-%%PORTDOCS%%share/texmf-dist/doc/latex/mhchem/mhchem.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/mhchem/mhchem.tex
-share/texmf-dist/tex/latex/mhchem/hpstatement.sty
-share/texmf-dist/tex/latex/mhchem/mhchem.sty
-share/texmf-dist/tex/latex/mhchem/rsphrase.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -1,0 +1,5 @@
+This package package provides one macro to insert a single
+notes page and another to fill the document with multiple notes
+pages, until the total number of pages (so far) is a multiple
+of a given number. A third command can be used to fill half
+empty pages with a notes area.

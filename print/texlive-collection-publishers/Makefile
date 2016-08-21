@@ -105,7 +105,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/cmpj/cmpj.sty:${PORTSDIR}/print/texlive-cmpj \
 		${LOCALBASE}/share/texmf-dist/tex/latex/confproc/confproc.cls:${PORTSDIR}/print/texlive-confproc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cquthesis/cquthesis.cls:${PORTSDIR}/print/texlive-cquthesis \
-		${LOCALBASE}/share/texmf-dist/tex/latex/dccpaper/dccpaper-base.tex:${PORTSDIR}/print/texlive-dccpaper \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dccpaper/dccpaper-base.sty:${PORTSDIR}/print/texlive-dccpaper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dithesis/dithesis.cls:${PORTSDIR}/print/texlive-dithesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebook/ebook.sty:${PORTSDIR}/print/texlive-ebook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebsthesis/ebsthesis.cls:${PORTSDIR}/print/texlive-ebsthesis \

@@ -1,12 +1,2 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/exsheets/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/exsheets/exsheets_en.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/exsheets/exsheets_en.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/exsheets/grading-table.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/exsheets/grading-table.tex
-share/texmf-dist/tex/latex/exsheets/exsheets-listings.sty
-share/texmf-dist/tex/latex/exsheets/exsheets.sty
-share/texmf-dist/tex/latex/exsheets/exsheets_configurations.cfg
-share/texmf-dist/tex/latex/exsheets/exsheets_headings.cfg
-share/texmf-dist/tex/latex/exsheets/exsheets_headings.def
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-mathextra
-PORTVERSION=	20160711
+PORTVERSION=	20160806
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -171,7 +171,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/tex-ewd/dotnot.tex:${PORTSDIR}/print/texlive-tex-ewd \
 		${LOCALBASE}/share/texmf-dist/tex/latex/thmbox/thmbox.sty:${PORTSDIR}/print/texlive-thmbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/turnstile/turnstile.sty:${PORTSDIR}/print/texlive-turnstile \
-		${LOCALBASE}/share/texmf-dist/tex/latex/unicode-math/unicode-math.sty:${PORTSDIR}/print/texlive-unicode-math \
 		${LOCALBASE}/share/texmf-dist/metapost/venn/venn.mp:${PORTSDIR}/print/texlive-venn \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yhmath/yhmath.sty:${PORTSDIR}/print/texlive-yhmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ytableau/ytableau.sty:${PORTSDIR}/print/texlive-ytableau

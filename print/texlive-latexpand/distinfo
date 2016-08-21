@@ -1,4 +1,5 @@
-SHA256 (TeXLive/latexpand-20160414.tar.xz) = b3f1a8a75d0a34ae3a8c1aee1ad095ccb3b052ca3e8cdeca87c6581a0cf09c69
-SIZE (TeXLive/latexpand-20160414.tar.xz) = 4396
-SHA256 (TeXLive/latexpand.doc-20160414.tar.xz) = 290f2e39a13bfd37679d0e66038c4fee24c4dc316cb5008c354b19457ce8bf1f
-SIZE (TeXLive/latexpand.doc-20160414.tar.xz) = 2124
+TIMESTAMP = 1471803095
+SHA256 (TeXLive/latexpand-20160817.tar.xz) = 9b7df2e853e928ba2a8b503bfa78d3a17da264e6e557d404cc8af85ad028ca81
+SIZE (TeXLive/latexpand-20160817.tar.xz) = 4664
+SHA256 (TeXLive/latexpand.doc-20160817.tar.xz) = c5db21a0cadee19b676aca3fc48b3d2c4e7eb2e828a8c3cb9d19396b7401e93d
+SIZE (TeXLive/latexpand.doc-20160817.tar.xz) = 3000

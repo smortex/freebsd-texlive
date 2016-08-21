@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20160720
+PORTVERSION=	20160817
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -110,6 +110,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/comicneue/comicneue.sty:${PORTSDIR}/print/texlive-comicneue \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/concmath-fonts/xccam10.mf:${PORTSDIR}/print/texlive-concmath-fonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cookingsymbols/cookingsymbols.sty:${PORTSDIR}/print/texlive-cookingsymbols \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/cormorantgaramond/cgrm_26xgja.enc:${PORTSDIR}/print/texlive-cormorantgaramond \
 		${LOCALBASE}/share/texmf-dist/dvips/countriesofeurope/config.CountriesOfEurope:${PORTSDIR}/print/texlive-countriesofeurope \
 		${LOCALBASE}/share/texmf-dist/tex/latex/courier-scaled/8rpcrs.fd:${PORTSDIR}/print/texlive-courier-scaled \
 		${LOCALBASE}/share/texmf-dist/tex/latex/crimson/crimson.sty:${PORTSDIR}/print/texlive-crimson \

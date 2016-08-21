@@ -1,6 +1,7 @@
-SHA256 (TeXLive/graphics-pln-20160414.tar.xz) = 872829965fa8933551aab62239edf695e8a878d86bbfbea740b5f20f99979acf
-SIZE (TeXLive/graphics-pln-20160414.tar.xz) = 9096
-SHA256 (TeXLive/graphics-pln.doc-20160414.tar.xz) = 64f13bed16eb3742bd09dc75c13fcd470033abb5be5c5950f7fa3dd36dcfe779
-SIZE (TeXLive/graphics-pln.doc-20160414.tar.xz) = 2140
-SHA256 (TeXLive/graphics-pln.source-20160414.tar.xz) = b9306a41a568e042df5d8dd6fe036b68d5d8efc47ee06a314299c01eb5f9d809
-SIZE (TeXLive/graphics-pln.source-20160414.tar.xz) = 1752
+TIMESTAMP = 1471804219
+SHA256 (TeXLive/graphics-pln-20160818.tar.xz) = 95d6cfab392ec3f73b55b7426c51e0b943fab65eb81c16a155aafa0491ccb283
+SIZE (TeXLive/graphics-pln-20160818.tar.xz) = 6320
+SHA256 (TeXLive/graphics-pln.doc-20160818.tar.xz) = 0d29159f1675f20535fb94ebd092afa611d5536cf28078a58d910772791da91b
+SIZE (TeXLive/graphics-pln.doc-20160818.tar.xz) = 2044
+SHA256 (TeXLive/graphics-pln.source-20160818.tar.xz) = caa03de848b643a4bb4d3ef5cfb4fa4aeff5de2b7359e11441405ba7bfed1a3e
+SIZE (TeXLive/graphics-pln.source-20160818.tar.xz) = 1752

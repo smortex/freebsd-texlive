@@ -1,16 +1,2 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/leadsheets/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/leadsheets/leadsheets_en.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/leadsheets/leadsheets_en.tex
-share/texmf-dist/tex/latex/leadsheets/leadsheets.library.chordnames.code.tex
-share/texmf-dist/tex/latex/leadsheets/leadsheets.library.chords.code.tex
-share/texmf-dist/tex/latex/leadsheets/leadsheets.library.musejazz.code.tex
-share/texmf-dist/tex/latex/leadsheets/leadsheets.library.musicsymbols.code.tex
-share/texmf-dist/tex/latex/leadsheets/leadsheets.library.properties.code.tex
-share/texmf-dist/tex/latex/leadsheets/leadsheets.library.shorthands.code.tex
-share/texmf-dist/tex/latex/leadsheets/leadsheets.library.songs.code.tex
-share/texmf-dist/tex/latex/leadsheets/leadsheets.library.templates.code.tex
-share/texmf-dist/tex/latex/leadsheets/leadsheets.library.translations.code.tex
-share/texmf-dist/tex/latex/leadsheets/leadsheets.library.transposing.code.tex
-share/texmf-dist/tex/latex/leadsheets/leadsheets.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

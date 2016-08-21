@@ -1,4 +1,5 @@
-SHA256 (TeXLive/bxpdfver-20160414.tar.xz) = e6dd6ee3fa6fb8752c2bf70308c996c451472cf64342812142d20b71b9dd4bb4
-SIZE (TeXLive/bxpdfver-20160414.tar.xz) = 2960
-SHA256 (TeXLive/bxpdfver.doc-20160414.tar.xz) = a2f68ef6be7932a19362dca2cea703acf6e03cb6f20529670967084fbfe2cdaa
-SIZE (TeXLive/bxpdfver.doc-20160414.tar.xz) = 3532
+TIMESTAMP = 1471803657
+SHA256 (TeXLive/bxpdfver-20160812.tar.xz) = 4682a51ba1e3f60094ba9eaa2fc432e701920bd5cf1fa230e0a7d9864bbbc79e
+SIZE (TeXLive/bxpdfver-20160812.tar.xz) = 5440
+SHA256 (TeXLive/bxpdfver.doc-20160812.tar.xz) = c4cf03e0619e03f5ed469857b8526e5e8eda8f3aa7d0fa7f651276e7fd3aff89
+SIZE (TeXLive/bxpdfver.doc-20160812.tar.xz) = 4104

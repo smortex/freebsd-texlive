@@ -1,22 +1,2 @@
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/latexdiff-vc.1
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/latexdiff-vc.man1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/latexdiff.1
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/latexdiff.man1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/latexrevise.1
-%%PORTDOCS%%share/texmf-dist/doc/man/man1/latexrevise.man1.pdf
-%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/COPYING
-%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/Makefile
-%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/README
-%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/contrib/README.latexchanges
-%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/contrib/latexchanges.py
-%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/contrib/latexdiff-wrap
-%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/contrib/latexdiff.spec
-%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/doc/example-diff.tex
-%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/doc/latexdiff-man.pdf
-%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/doc/latexdiff-man.tex
-%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/example/example-draft.tex
-%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/example/example-rev.tex
-%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/latexdiff
-%%PORTDOCS%%share/texmf-dist/doc/support/latexdiff/latexdiff-fast
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

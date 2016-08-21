@@ -1,4 +1,5 @@
-SHA256 (TeXLive/tasks-20160505.tar.xz) = efb8319e991d906fbb93066966c734da5036d139d5d222af7622710c83210ed5
-SIZE (TeXLive/tasks-20160505.tar.xz) = 6388
-SHA256 (TeXLive/tasks.doc-20160505.tar.xz) = 9d5daf96f88cf49537304de731a37ef3ddf58eed9b70425b7d714b7b766b59f1
-SIZE (TeXLive/tasks.doc-20160505.tar.xz) = 464820
+TIMESTAMP = 1471804081
+SHA256 (TeXLive/tasks-20160815.tar.xz) = fae311f4b1e82b8bf59506b7cb87316a52fde60e6003b9b0e5350975ff0e1dbc
+SIZE (TeXLive/tasks-20160815.tar.xz) = 6536
+SHA256 (TeXLive/tasks.doc-20160815.tar.xz) = f5e33592bcc085a2c44c4616a50674af225022a6bc1867e7fc4a8daf0b31b6f6
+SIZE (TeXLive/tasks.doc-20160815.tar.xz) = 464816

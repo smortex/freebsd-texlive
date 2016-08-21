@@ -1,4 +1,5 @@
-SHA256 (TeXLive/pstricks-add-20160426.tar.xz) = e9c04a7a02e51cb875e0e462aeb5ea1cc291a60260cddef2d466f04bf1ff85e5
-SIZE (TeXLive/pstricks-add-20160426.tar.xz) = 23288
-SHA256 (TeXLive/pstricks-add.doc-20160426.tar.xz) = 5e95c28401ca29d600ae863cc09073ef642700a54706b5aa53f6a61a244fbb0a
-SIZE (TeXLive/pstricks-add.doc-20160426.tar.xz) = 4571168
+TIMESTAMP = 1471804273
+SHA256 (TeXLive/pstricks-add-20160809.tar.xz) = 98bde2406073b91711fc755cd3b999e7e56f9331d5fc18abed19e3dfea24d8b5
+SIZE (TeXLive/pstricks-add-20160809.tar.xz) = 23616
+SHA256 (TeXLive/pstricks-add.doc-20160809.tar.xz) = b3b0ef918f179d66f185597f3338e5a4cb4aab874cf20477510219f8543d0791
+SIZE (TeXLive/pstricks-add.doc-20160809.tar.xz) = 4600588

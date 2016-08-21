@@ -1,6 +1,7 @@
-SHA256 (TeXLive/pgfplots-20160509.tar.xz) = c9455991d751c9ac0def978ba036f83633bfc7480890f72f69241f2c3b3a5f4e
-SIZE (TeXLive/pgfplots-20160509.tar.xz) = 497860
-SHA256 (TeXLive/pgfplots.doc-20160509.tar.xz) = ee9373bb5240a37a981798b215fca227d397c9d586e41d8392b49e3ec6236654
-SIZE (TeXLive/pgfplots.doc-20160509.tar.xz) = 13063344
-SHA256 (TeXLive/pgfplots.source-20160509.tar.xz) = 43c6044f7e3f8d6f247233a6e9ef623f7d126a06eccf45017ce8ff1673c8d11d
-SIZE (TeXLive/pgfplots.source-20160509.tar.xz) = 917932
+TIMESTAMP = 1471803570
+SHA256 (TeXLive/pgfplots-20160812.tar.xz) = 690ec251804e92e099fa9bbb3318f1f2633ea5225563ec53a1ae87d9d0861bea
+SIZE (TeXLive/pgfplots-20160812.tar.xz) = 511628
+SHA256 (TeXLive/pgfplots.doc-20160812.tar.xz) = ad84f399da6cca5bb56d8f1f08b8f18790e4f7f3ccd8e252d62aa88ddb8fd800
+SIZE (TeXLive/pgfplots.doc-20160812.tar.xz) = 13473664
+SHA256 (TeXLive/pgfplots.source-20160812.tar.xz) = c51cde0158017642a4df91a0c195b185428e835cacdf6eebb40fa29f2a9b31c8
+SIZE (TeXLive/pgfplots.source-20160812.tar.xz) = 1012460

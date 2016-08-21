@@ -1,4 +1,5 @@
-SHA256 (TeXLive/mhchem-20160414.tar.xz) = ff11e0c7ffcec1db6eb13ac04006a2bd504c74f60f69cfddea910bd5c048de45
-SIZE (TeXLive/mhchem-20160414.tar.xz) = 51124
-SHA256 (TeXLive/mhchem.doc-20160414.tar.xz) = 0113ba0d0cdcf40dab1f99e4397c616edc85f10fb2e2e173c6d7d2e5d7295416
-SIZE (TeXLive/mhchem.doc-20160414.tar.xz) = 370800
+TIMESTAMP = 1471804384
+SHA256 (TeXLive/mhchem-20160810.tar.xz) = 930fefa52355004a2683e1ce1be93bc0b58d8b03c7a27c8b7c726c34fe42db41
+SIZE (TeXLive/mhchem-20160810.tar.xz) = 51456
+SHA256 (TeXLive/mhchem.doc-20160810.tar.xz) = ab672e4956820306aebe20818f31c543d341d422ce9c53d42a56c55f71293687
+SIZE (TeXLive/mhchem.doc-20160810.tar.xz) = 389956
