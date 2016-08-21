@@ -321,7 +321,7 @@ namespace TeXLive
 					// Fallback on the first file listed in the archive that
 					// does not exist on the filesystem.
 					if (detect_file_name == null) {
-						if (TLPort.Verbosity > 1)
+						if (TLPort.Verbosity >= 2)
 							Console.Error.WriteLine ("Cannot be smart with {0}", name);
 						foreach (string file in files) {
 							if (!System.IO.File.Exists (file)) {

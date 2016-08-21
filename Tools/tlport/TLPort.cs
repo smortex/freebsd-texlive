@@ -132,7 +132,7 @@ namespace TeXLive
 
 			packages = new PackageCollection (extra [0], extra [1], extra [2]);
 
-			if (Verbosity > 0)
+			if (Verbosity >= 1)
 				Console.Error.WriteLine ("===> Building package list (this takes a while)");
 
 			// Read all scheme-*. They reference all collections, that in turn
@@ -146,7 +146,7 @@ namespace TeXLive
 
 			int current = 1;
 			foreach (Package pkg in packages.Values) {
-				if (Verbosity > 0)
+				if (Verbosity >= 1)
 					Console.WriteLine ("===> [{0}/{1}] print/texlive-{2}", current++, packages.Count, pkg.Name);
 
 				if (pkg.Eligible) {
@@ -157,19 +157,19 @@ namespace TeXLive
 						pkg.UpdatePort ();
 					}
 				} else {
-					if (Verbosity > 1)
+					if (Verbosity >= 2)
 						Console.Error.WriteLine ("{0}: not eligible for building a port.", pkg.Name);
 				}
 			}
 
-			if (Verbosity > 0)
+			if (Verbosity >= 1)
 				Console.Error.WriteLine ("===> Looking for resurected packages");
 
 			packages.moved.RemoveAll (PortExist);
 
 
 			// Detect deprecated packages
-			if (Verbosity > 0)
+			if (Verbosity >= 1)
 				Console.Error.WriteLine ("===> Looking for deleted packages");
 
 			foreach (string path in System.IO.Directory.GetDirectories (System.IO.Path.Combine (packages.PortsDir, "print"))) {
