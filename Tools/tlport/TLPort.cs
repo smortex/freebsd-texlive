@@ -50,7 +50,7 @@ namespace TeXLive
 
 		public static List<string> Run (string filename, string arguments, string working_direcotry)
 		{
-			if (Verbosity >= 1)
+			if (Verbosity >= 2)
 				Console.WriteLine ("{2}% {0} {1}", filename, arguments, working_direcotry);
 
 			List<string> res;
@@ -69,10 +69,10 @@ namespace TeXLive
 
 				res = new List<string> (stdout.Result.Split ('\n'));
 
-				if (Verbosity >= 2)
+				if (Verbosity >= 3)
 					Console.Write (stdout.Result);
 
-				if ((p.ExitCode != 0) || (Verbosity >= 2)) {
+				if ((p.ExitCode != 0) || (Verbosity >= 3)) {
 					Console.Error.Write (stderr.Result);
 				}
 
@@ -144,7 +144,11 @@ namespace TeXLive
 				packages [package_name] = new DataPackage (package_name, packages);
 			}
 
+			int current = 1;
 			foreach (Package pkg in packages.Values) {
+				if (Verbosity > 0)
+					Console.WriteLine ("===> [{0}/{1}] print/texlive-{2}", current++, packages.Count, pkg.Name);
+
 				if (pkg.Eligible) {
 					if (!pkg.Exists) {
 						pkg.CreatePort ();
@@ -153,7 +157,7 @@ namespace TeXLive
 						pkg.UpdatePort ();
 					}
 				} else {
-					if (Verbosity > 0)
+					if (Verbosity > 1)
 						Console.Error.WriteLine ("{0}: not eligible for building a port.", pkg.Name);
 				}
 			}

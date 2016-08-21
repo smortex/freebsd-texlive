@@ -85,8 +85,6 @@ namespace TeXLive
 		/// </summary>
 		public void CreatePort ()
 		{
-			if (TLPort.Verbosity > 0)
-				Console.WriteLine ("===> Creating print/texlive-{0}...", name);
 			CreatePortDirectory ();
 			CreateMakefile ();
 			CreatePkgDescr ();
@@ -109,9 +107,6 @@ namespace TeXLive
 		/// </summary>
 		public void UpdatePort ()
 		{
-			if (TLPort.Verbosity > 0)
-				Console.WriteLine ("===> Updating print/texlive-{0}...", name);
-
 			// Makefile may need to be updated before generating distinfo
 			CreateMakefile ();
 			CreateDistinfo ();
