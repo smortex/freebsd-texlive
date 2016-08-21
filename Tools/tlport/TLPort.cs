@@ -59,16 +59,22 @@ namespace TeXLive
 			try {
 				psi.WorkingDirectory = working_direcotry;
 				psi.RedirectStandardOutput = true;
+				psi.RedirectStandardError = true;
 				psi.UseShellExecute = false;
 				p.StartInfo = psi;
 				p.Start ();
+				var stdout = p.StandardOutput.ReadToEndAsync ();
+				var stderr = p.StandardError.ReadToEndAsync ();
 				p.WaitForExit ();
-				var stdout = p.StandardOutput.ReadToEnd ();
 
-				res = new List<string> (stdout.Split ('\n'));
+				res = new List<string> (stdout.Result.Split ('\n'));
 
 				if (Verbosity >= 2)
-					Console.Write (stdout);
+					Console.Write (stdout.Result);
+
+				if ((p.ExitCode != 0) || (Verbosity >= 2)) {
+					Console.Error.Write (stderr.Result);
+				}
 
 				if (p.ExitCode != 0)
 					throw new Exception (string.Format ("{0} returned {1}", filename, p.ExitCode));
