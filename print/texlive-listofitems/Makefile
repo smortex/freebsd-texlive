@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	cochineal
+PORTNAME=	listofitems
 PORTVERSION=	20160821
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Cochineal fonts with LaTeX support
+COMMENT=	Grab items in lists using user-specified sep char
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
