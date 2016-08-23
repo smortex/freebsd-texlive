@@ -1,6 +1,5 @@
-SHA256 (TeXLive/pst-bezier-20160414.tar.xz) = 6823e79215f9d58073c4c4403d503d30491585df18c392cd275c3e701ecac309
-SIZE (TeXLive/pst-bezier-20160414.tar.xz) = 4812
-SHA256 (TeXLive/pst-bezier.doc-20160414.tar.xz) = b85df08d14dd2d0755e680b0dbb0d23938543eda1fcb9fafee2004e4db886c30
-SIZE (TeXLive/pst-bezier.doc-20160414.tar.xz) = 74448
-SHA256 (TeXLive/pst-bezier.source-20160414.tar.xz) = 5d31e2d6e10f7f2e111e1c0c4b0e68c4257b4123dbfb1b0bce026bf656086926
-SIZE (TeXLive/pst-bezier.source-20160414.tar.xz) = 944
+TIMESTAMP = 1471926544
+SHA256 (TeXLive/pst-bezier-20160822.tar.xz) = 93914f8aae1f0a80262227feafca86b16bc53466420fd811b0698f48bfd6d199
+SIZE (TeXLive/pst-bezier-20160822.tar.xz) = 6244
+SHA256 (TeXLive/pst-bezier.doc-20160822.tar.xz) = 5f6e8886bb5e8c7d56736a528c2c74f71dd0fbfcfa8053ec5707047ec2546a5e
+SIZE (TeXLive/pst-bezier.doc-20160822.tar.xz) = 972152

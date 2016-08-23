@@ -1,10 +1,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-bezier/Changes
-%%PORTDOCS%%share/texmf-dist/doc/generic/pst-bezier/README
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-bezier/README.md
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-bezier/pst-bezier-doc.bib
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-bezier/pst-bezier-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-bezier/pst-bezier-doc.tex
 share/texmf-dist/dvips/pst-bezier/pst-bezier.pro
-%%PORTSRC%%share/texmf-dist/source/generic/pst-bezier/Makefile
 share/texmf-dist/tex/generic/pst-bezier/pst-bezier.tex
 share/texmf-dist/tex/latex/pst-bezier/pst-bezier.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

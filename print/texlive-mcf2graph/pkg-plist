@@ -1,2 +1,14 @@
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mcf2graph/CHANGELOG
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mcf2graph/README
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mcf2graph/mcf_exa_soc.mf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mcf2graph/mcf_example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mcf2graph/mcf_example.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mcf2graph/mcf_man_soc-042.eps
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mcf2graph/mcf_man_soc.mf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mcf2graph/mcf_manual.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mcf2graph/mcf_manual.tex
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mcf2graph/mcf_mplib_exa.pdf
+%%PORTDOCS%%share/texmf-dist/doc/metapost/mcf2graph/mcf_mplib_exa.tex
+share/texmf-dist/metapost/mcf2graph/mcf2graph.mf
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
