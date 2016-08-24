@@ -1,0 +1,7 @@
+LaTeX classes for formatting federal grant proposals: grant:
+Base class for formatting grant proposals grant-arl: Army
+Research Laboratory grant-darpa: Defense Advanced Research
+Projects Agency grant-doe: Department of Energy grant-nih:
+National Institutes of Health grant-nrl: Naval Research
+Laboratory grant-nsf: National Science Foundation grant-onr:
+Office of Naval Research

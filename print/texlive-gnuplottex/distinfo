@@ -1,6 +1,7 @@
-SHA256 (TeXLive/gnuplottex-20160414.tar.xz) = 6af08632694c6892d21bd4424a4d05baaf9db9a211cd377f8ae2ee667d2c9ef3
-SIZE (TeXLive/gnuplottex-20160414.tar.xz) = 3292
-SHA256 (TeXLive/gnuplottex.doc-20160414.tar.xz) = 27992f4dbe4e188926e862fb2461d520cf1d9bfa6390b2dcb783941e6d19d4c8
-SIZE (TeXLive/gnuplottex.doc-20160414.tar.xz) = 405372
-SHA256 (TeXLive/gnuplottex.source-20160414.tar.xz) = 7e1c5b374ad948f6e986543ea5a93163333e05fa52762988fc0b503df19bb2e1
-SIZE (TeXLive/gnuplottex.source-20160414.tar.xz) = 9072
+TIMESTAMP = 1472012305
+SHA256 (TeXLive/gnuplottex-20160823.tar.xz) = 3e0b11dc74629c878854a08dfb20c702ab4731e8eb16e5f69b282706ee2c5b6b
+SIZE (TeXLive/gnuplottex-20160823.tar.xz) = 3300
+SHA256 (TeXLive/gnuplottex.doc-20160823.tar.xz) = 492282a1d54de4cf98f79a3dd15bfeedba6cfc112da0593a114ad6b8731b3fab
+SIZE (TeXLive/gnuplottex.doc-20160823.tar.xz) = 415236
+SHA256 (TeXLive/gnuplottex.source-20160823.tar.xz) = 830cbc0e1784edbb33e997849e366cc25548d4657031244e6282d3624f0ed66e
+SIZE (TeXLive/gnuplottex.source-20160823.tar.xz) = 9184

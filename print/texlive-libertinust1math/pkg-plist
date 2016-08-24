@@ -29,6 +29,7 @@ share/texmf-dist/fonts/tfm/public/libertinust1math/libertinust1-mathsym.tfm
 share/texmf-dist/fonts/type1/public/libertinust1math/LibertinusT1Math.pfb
 share/texmf-dist/tex/latex/libertinust1math/libertinust1math.sty
 share/texmf-dist/tex/latex/libertinust1math/ls1libertinust1math.fd
+share/texmf-dist/tex/latex/libertinust1math/ls1libertinust1mathbb.fd
 share/texmf-dist/tex/latex/libertinust1math/ls2libertinust1mathex.fd
 share/texmf-dist/tex/latex/libertinust1math/ls2libertinust1mathsym.fd
 share/texmf-dist/tex/latex/libertinust1math/ot1libertinust1mathsf.fd

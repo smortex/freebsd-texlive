@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	notespages
+PORTNAME=	grant
 PORTVERSION=	20160823
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Filling documents with notes pages and notes areas
+COMMENT=	Classes for formatting federal grant proposals.
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
