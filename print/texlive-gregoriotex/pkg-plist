@@ -8,6 +8,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/luatex/gregoriotex/GregorioRef.lua
 %%PORTDOCS%%share/texmf-dist/doc/luatex/gregoriotex/GregorioRef.pdf
 %%PORTDOCS%%share/texmf-dist/doc/luatex/gregoriotex/GregorioRef.tex
+%%PORTDOCS%%share/texmf-dist/doc/luatex/gregoriotex/README.md
 %%PORTDOCS%%share/texmf-dist/doc/luatex/gregoriotex/examples/FactusEst.gabc
 %%PORTDOCS%%share/texmf-dist/doc/luatex/gregoriotex/examples/PopulusSion.gabc
 %%PORTDOCS%%share/texmf-dist/doc/luatex/gregoriotex/examples/debugging.tex

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20160815
+PORTVERSION=	20160824
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -51,6 +51,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/asypictureb/asypictureB.sty:${PORTSDIR}/print/texlive-asypictureb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/autoarea/autoarea.sty:${PORTSDIR}/print/texlive-autoarea \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bardiag/bardiag.sty:${PORTSDIR}/print/texlive-bardiag \
+		${LOCALBASE}/share/texmf-dist/tex/latex/beamerswitch/beamerswitch.cls:${PORTSDIR}/print/texlive-beamerswitch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/binarytree/binarytree.sty:${PORTSDIR}/print/texlive-binarytree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/blochsphere/blochsphere.sty:${PORTSDIR}/print/texlive-blochsphere \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bloques/bloques.sty:${PORTSDIR}/print/texlive-bloques \

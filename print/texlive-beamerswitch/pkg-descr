@@ -1,0 +1,9 @@
+This class is a wrapper around the beamer class to make it
+easier to use the same document to generate the different forms
+of the presentation: the slides themselves, an abbreviated
+slide set for transparencies or online reference, an n-up
+handout version (various layouts are provided), and a
+transcript or set of notes using the article class. The class
+provides a variety of handout layouts, and allows the mode to
+be chosen from the command line (without changing the document
+itself).

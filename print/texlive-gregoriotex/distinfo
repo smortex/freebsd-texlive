@@ -1,4 +1,5 @@
-SHA256 (TeXLive/gregoriotex-20160612.tar.xz) = 00c165a8f67096c4328bd7f539cb4336ce0037c0d46274a2f55a3e1fa691ac3f
-SIZE (TeXLive/gregoriotex-20160612.tar.xz) = 8016248
-SHA256 (TeXLive/gregoriotex.doc-20160612.tar.xz) = 8099a1d87cf552281a2fbfcf1ab11e84a4a802afea87a344e3d98696461d075c
-SIZE (TeXLive/gregoriotex.doc-20160612.tar.xz) = 998760
+TIMESTAMP = 1472099390
+SHA256 (TeXLive/gregoriotex-20160824.tar.xz) = 556a702680877a68a9fe302447b3df6897fce524e9c5f92b6f73ce1b356de58a
+SIZE (TeXLive/gregoriotex-20160824.tar.xz) = 8015364
+SHA256 (TeXLive/gregoriotex.doc-20160824.tar.xz) = 40926cca426b60a7297858a1078b0321398cbdb9276c661601b8948dfb049819
+SIZE (TeXLive/gregoriotex.doc-20160824.tar.xz) = 999264

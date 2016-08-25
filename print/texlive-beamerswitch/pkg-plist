@@ -1,0 +1,13 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerswitch/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerswitch/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerswitch/beamerswitch-example-article.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerswitch/beamerswitch-example-handout.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerswitch/beamerswitch-example-trans.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerswitch/beamerswitch-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerswitch/beamerswitch-example.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamerswitch/beamerswitch.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/beamerswitch/beamerswitch.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/beamerswitch/beamerswitch.ins
+share/texmf-dist/tex/latex/beamerswitch/beamerswitch.cls
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

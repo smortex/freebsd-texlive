@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	beamerswitch
 PORTVERSION=	20160824
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	Convenient mode selection in Beamer documents
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -627,6 +627,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/langcode/langcode.sty:${PORTSDIR}/print/texlive-langcode \
 		${LOCALBASE}/share/texmf-dist/tex/generic/lecturer/lecturer.sty:${PORTSDIR}/print/texlive-lecturer \
 		${LOCALBASE}/share/texmf-dist/tex/generic/librarian/librarian.sty:${PORTSDIR}/print/texlive-librarian \
+		${LOCALBASE}/share/texmf-dist/tex/generic/listofitems/listofitems.sty:${PORTSDIR}/print/texlive-listofitems \
 		${LOCALBASE}/share/texmf-dist/tex/generic/mathdots/mathdots.sty:${PORTSDIR}/print/texlive-mathdots \
 		${LOCALBASE}/share/texmf-dist/tex/plain/metatex/metatex.tex:${PORTSDIR}/print/texlive-metatex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/midnight/border.tex:${PORTSDIR}/print/texlive-midnight \
@@ -1070,6 +1071,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/asypictureb/asypictureB.sty:${PORTSDIR}/print/texlive-asypictureb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/autoarea/autoarea.sty:${PORTSDIR}/print/texlive-autoarea \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bardiag/bardiag.sty:${PORTSDIR}/print/texlive-bardiag \
+		${LOCALBASE}/share/texmf-dist/tex/latex/beamerswitch/beamerswitch.cls:${PORTSDIR}/print/texlive-beamerswitch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/binarytree/binarytree.sty:${PORTSDIR}/print/texlive-binarytree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/blochsphere/blochsphere.sty:${PORTSDIR}/print/texlive-blochsphere \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bloques/bloques.sty:${PORTSDIR}/print/texlive-bloques \
@@ -2639,6 +2641,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gaceta/gaceta.cls:${PORTSDIR}/print/texlive-gaceta \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gatech-thesis/gatech-thesis.cls:${PORTSDIR}/print/texlive-gatech-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gradstudentresume/gradstudentresume.cls:${PORTSDIR}/print/texlive-gradstudentresume \
+		${LOCALBASE}/share/texmf-dist/tex/latex/grant/grant.cls:${PORTSDIR}/print/texlive-grant \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gsemthesis/gsemthesis.cls:${PORTSDIR}/print/texlive-gsemthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gzt/gzt.cls:${PORTSDIR}/print/texlive-gzt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/h2020proposal/h2020proposal.cls:${PORTSDIR}/print/texlive-h2020proposal \
