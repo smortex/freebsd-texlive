@@ -1,0 +1,7 @@
+The phonenumbers package makes it possible to typeset telephone
+numbers according to different national conventions. Currently,
+German, French, and North American phone numbers are supported.
+The user can select from various formatting options, including
+the additional output of the country calling code. The package
+is able to check if a phone number is valid according to the
+national rules.

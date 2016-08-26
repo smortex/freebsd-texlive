@@ -1,6 +1,7 @@
-SHA256 (TeXLive/bangorcsthesis-20160414.tar.xz) = 4a68c891371e50ba6950192862766a34aa8269d1375849a9b75f40ef73067efa
-SIZE (TeXLive/bangorcsthesis-20160414.tar.xz) = 48148
-SHA256 (TeXLive/bangorcsthesis.doc-20160414.tar.xz) = a51d8a822d978bb8d4811871eca8a61d8cdd12da5a215bc3ef475958da2ab2da
-SIZE (TeXLive/bangorcsthesis.doc-20160414.tar.xz) = 284488
-SHA256 (TeXLive/bangorcsthesis.source-20160414.tar.xz) = e6b2dfabd9459378e5f2cd00c45a9a78ffb872f7b53ed0f30078f912225c2042
-SIZE (TeXLive/bangorcsthesis.source-20160414.tar.xz) = 52236
+TIMESTAMP = 1472186070
+SHA256 (TeXLive/bangorcsthesis-20160825.tar.xz) = cf55f2c77e4b1986dc4b87c0d0a8d5f5bbdeaf4d7d74180450a1e6db4c1c4ac4
+SIZE (TeXLive/bangorcsthesis-20160825.tar.xz) = 47280
+SHA256 (TeXLive/bangorcsthesis.doc-20160825.tar.xz) = dcb14e809d6147a976ead75f6a08bb39db06f62b90e320a322f36105f55e57c4
+SIZE (TeXLive/bangorcsthesis.doc-20160825.tar.xz) = 285516
+SHA256 (TeXLive/bangorcsthesis.source-20160825.tar.xz) = 67df595e8b05f7d9a794281405254a00da1e3e02790926b1cc4233da0453b19f
+SIZE (TeXLive/bangorcsthesis.source-20160825.tar.xz) = 55456

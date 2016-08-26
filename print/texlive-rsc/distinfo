@@ -1,6 +1,7 @@
-SHA256 (TeXLive/rsc-20160414.tar.xz) = 5143b2f2a73cae973c9b9a0fe76499766ce0baa5cc5146d5a16fd4d6ccc6205d
-SIZE (TeXLive/rsc-20160414.tar.xz) = 7080
-SHA256 (TeXLive/rsc.doc-20160414.tar.xz) = b6ab9771ddc7d16c8a02e4da5ae012ff078a4bf582afcbdd241cca194c7be86f
-SIZE (TeXLive/rsc.doc-20160414.tar.xz) = 159848
-SHA256 (TeXLive/rsc.source-20160414.tar.xz) = e8e8d419e483223da7bb87b5f8448f325b5dfc64ab217c36efe3450a72ccb5dd
-SIZE (TeXLive/rsc.source-20160414.tar.xz) = 14672
+TIMESTAMP = 1472184579
+SHA256 (TeXLive/rsc-20160825.tar.xz) = 840d0c00958d4aa26274e03cf8454d5e9b6c8def9d44ed16e4558a29cf867609
+SIZE (TeXLive/rsc-20160825.tar.xz) = 7120
+SHA256 (TeXLive/rsc.doc-20160825.tar.xz) = 5e4c4d339be2fc85189455673800080cb91b61fd5142b46fc2bc94d24de366e8
+SIZE (TeXLive/rsc.doc-20160825.tar.xz) = 187208
+SHA256 (TeXLive/rsc.source-20160825.tar.xz) = 5ad07699a08ecbf48c988c0d3514b45cf477f8dcd35ff992ec6bf7636f11be10
+SIZE (TeXLive/rsc.source-20160825.tar.xz) = 14708

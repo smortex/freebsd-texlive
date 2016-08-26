@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	biblatex-phys
+PORTNAME=	latexgit
 PORTVERSION=	20160825
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A BibLaTeX implementation of the AIP and APS bibliography style
+COMMENT=	A LaTeX git wrapper
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20160817
+PORTVERSION=	20160825
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -133,6 +133,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/asypictureb/asypictureB.sty:${PORTSDIR}/print/texlive-asypictureb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/autoarea/autoarea.sty:${PORTSDIR}/print/texlive-autoarea \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bardiag/bardiag.sty:${PORTSDIR}/print/texlive-bardiag \
+		${LOCALBASE}/share/texmf-dist/tex/latex/beamerswitch/beamerswitch.cls:${PORTSDIR}/print/texlive-beamerswitch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/binarytree/binarytree.sty:${PORTSDIR}/print/texlive-binarytree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/blochsphere/blochsphere.sty:${PORTSDIR}/print/texlive-blochsphere \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bloques/bloques.sty:${PORTSDIR}/print/texlive-bloques \
@@ -811,6 +812,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/lastpackage/lastpackage.sty:${PORTSDIR}/print/texlive-lastpackage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lastpage/lastpage.sty:${PORTSDIR}/print/texlive-lastpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/latexdemo/latexdemo.sty:${PORTSDIR}/print/texlive-latexdemo \
+		${LOCALBASE}/share/texmf-dist/tex/latex/latexgit/latexgit.sty:${PORTSDIR}/print/texlive-latexgit \
 		${LOCALBASE}/share/texmf-dist/tex/latex/layouts/layouts.sty:${PORTSDIR}/print/texlive-layouts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lazylist/lazylist.sty:${PORTSDIR}/print/texlive-lazylist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lcd/lcd.sty:${PORTSDIR}/print/texlive-lcd \
@@ -1035,6 +1037,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/phfsvnwatermark/phfsvnwatermark.sty:${PORTSDIR}/print/texlive-phfsvnwatermark \
 		${LOCALBASE}/share/texmf-dist/tex/latex/phfthm/phfthm.sty:${PORTSDIR}/print/texlive-phfthm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/philex/philex.sty:${PORTSDIR}/print/texlive-philex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/phonenumbers/phonenumbers.sty:${PORTSDIR}/print/texlive-phonenumbers \
 		${LOCALBASE}/share/texmf-dist/tex/latex/photo/photo.sty:${PORTSDIR}/print/texlive-photo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/piff/duplicat.sty:${PORTSDIR}/print/texlive-piff \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pkgloader/pkgloader.sty:${PORTSDIR}/print/texlive-pkgloader \

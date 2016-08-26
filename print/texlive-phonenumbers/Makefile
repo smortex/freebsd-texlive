@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	biblatex-phys
+PORTNAME=	phonenumbers
 PORTVERSION=	20160825
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A BibLaTeX implementation of the AIP and APS bibliography style
+COMMENT=	Typesetting telephone numbers with LaTeX.
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

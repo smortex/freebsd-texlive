@@ -1,9 +1,8 @@
-share/texmf-dist/bibtex/bst/rsc/angew.bst
-share/texmf-dist/bibtex/bst/rsc/rsc.bst
-%%PORTDOCS%%share/texmf-dist/doc/latex/rsc/LICENSE.md
-%%PORTDOCS%%share/texmf-dist/doc/latex/rsc/README.md
-%%PORTDOCS%%share/texmf-dist/doc/latex/rsc/rsc.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/rsc/rsc.dtx
-share/texmf-dist/tex/latex/rsc/rsc.sty
+%%PORTDOCS%%share/texmf-dist/doc/latex/latexgit/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/latexgit/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/latexgit/latexgit.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/latexgit/latexgit.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/latexgit/latexgit.ins
+share/texmf-dist/tex/latex/latexgit/latexgit.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	bangorcsthesis
-PORTVERSION=	20160414
+PORTVERSION=	20160825
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
