@@ -1,6 +1,7 @@
-SHA256 (TeXLive/drawmatrix-20160414.tar.xz) = d88650bdd2307e6fd7e28290e4cb15fc2bb92fb111ce1d96e41099fb393076f5
-SIZE (TeXLive/drawmatrix-20160414.tar.xz) = 1908
-SHA256 (TeXLive/drawmatrix.doc-20160414.tar.xz) = 2b491df498477bb3a75a8c0b6f28a4687d79124af56868c2759b29491cd6f7c1
-SIZE (TeXLive/drawmatrix.doc-20160414.tar.xz) = 278536
-SHA256 (TeXLive/drawmatrix.source-20160414.tar.xz) = 568e6fec374a8d5b3f259709c471e28e0d0851ffb50d4a72397f3f854c5ac0f2
-SIZE (TeXLive/drawmatrix.source-20160414.tar.xz) = 6700
+TIMESTAMP = 1472272154
+SHA256 (TeXLive/drawmatrix-20160826.tar.xz) = 2f1562c9c62d584c8b20ecc965aff2f9d3d32dd62df8acf616542ff9623e21e5
+SIZE (TeXLive/drawmatrix-20160826.tar.xz) = 2040
+SHA256 (TeXLive/drawmatrix.doc-20160826.tar.xz) = 8216da6fe9ea4376af5f048b7334ea577c13c2cc7fdd6d48c8a88a8f4f060d0a
+SIZE (TeXLive/drawmatrix.doc-20160826.tar.xz) = 282544
+SHA256 (TeXLive/drawmatrix.source-20160826.tar.xz) = a083a3897ea4ca22486e69e363b36dc48a6610bfcbbf8449cef83153e7a2cb69
+SIZE (TeXLive/drawmatrix.source-20160826.tar.xz) = 6984
