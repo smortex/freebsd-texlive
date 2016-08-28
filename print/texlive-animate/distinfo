@@ -1,6 +1,7 @@
-SHA256 (TeXLive/animate-20160731.tar.xz) = 0142eabc3ae24a7d80f36c6ad317800400123e145b5a18b6959c4700c197f8ef
-SIZE (TeXLive/animate-20160731.tar.xz) = 19164
-SHA256 (TeXLive/animate.doc-20160731.tar.xz) = ae341c7e9962eb67f819c07a690d0a0246bff807249ce486b79c945f3923a182
-SIZE (TeXLive/animate.doc-20160731.tar.xz) = 3132024
-SHA256 (TeXLive/animate.source-20160731.tar.xz) = 9db282f664031c542acbd4ddde4f7f61d2176fc3e23138df6a69dce651a1f360
-SIZE (TeXLive/animate.source-20160731.tar.xz) = 27896
+TIMESTAMP = 1472357947
+SHA256 (TeXLive/animate-20160827.tar.xz) = 76ffd1464e2caf10049dcdd9bbb42f80b8fb54380580ae540136e3ea9b13dad7
+SIZE (TeXLive/animate-20160827.tar.xz) = 19204
+SHA256 (TeXLive/animate.doc-20160827.tar.xz) = 12725cca20d495d204bdd0551087794960bdfc61e51baa4dfe31ad46682cf6b8
+SIZE (TeXLive/animate.doc-20160827.tar.xz) = 3132184
+SHA256 (TeXLive/animate.source-20160827.tar.xz) = 18cdfc61b39645e1d4b560a486f27800e916029b8d87c36ba1646adce65022c8
+SIZE (TeXLive/animate.source-20160827.tar.xz) = 27896

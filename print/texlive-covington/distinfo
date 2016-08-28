@@ -1,4 +1,5 @@
-SHA256 (TeXLive/covington-20160708.tar.xz) = 0d58a7493a305b5fc885ba9bcd8428d57ec4d62d89476a5072a11092190076c3
-SIZE (TeXLive/covington-20160708.tar.xz) = 6140
-SHA256 (TeXLive/covington.doc-20160708.tar.xz) = 7321b1903b85c5be91391b4e94f20ef1633267471f27dc3d7b0287ac1a524c93
-SIZE (TeXLive/covington.doc-20160708.tar.xz) = 435716
+TIMESTAMP = 1472357635
+SHA256 (TeXLive/covington-20160827.tar.xz) = 197ebd43451b3ed696d7850d4bcfd378d9d4c819fb683b6d0111d609de81e6ac
+SIZE (TeXLive/covington-20160827.tar.xz) = 6184
+SHA256 (TeXLive/covington.doc-20160827.tar.xz) = 3cebd211550fef2850391785af626e34d12ff75690dd8b5998fac5ae6889c762
+SIZE (TeXLive/covington.doc-20160827.tar.xz) = 449868
