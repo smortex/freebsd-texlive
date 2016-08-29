@@ -1,6 +1,7 @@
-SHA256 (TeXLive/xecjk-20160515.tar.xz) = 2559a85aa448782b52a00f83627036f57b95646475aa8a339decb74f6dd9b3f4
-SIZE (TeXLive/xecjk-20160515.tar.xz) = 126252
-SHA256 (TeXLive/xecjk.doc-20160515.tar.xz) = c4c915c4c1973f94046af6a58484d34bbaaa4c8c967836f8938a59117caf7b42
-SIZE (TeXLive/xecjk.doc-20160515.tar.xz) = 1559404
-SHA256 (TeXLive/xecjk.source-20160515.tar.xz) = 5dc6ec184e0aac502553dcae9f905e1244f4f6e1c0a235a29a7e10e674c9220c
-SIZE (TeXLive/xecjk.source-20160515.tar.xz) = 83648
+TIMESTAMP = 1472445147
+SHA256 (TeXLive/xecjk-20160828.tar.xz) = a5abeccc0b31effaeea8bb3a87b81c1e882068ad6441c392e58246c7a396818f
+SIZE (TeXLive/xecjk-20160828.tar.xz) = 126520
+SHA256 (TeXLive/xecjk.doc-20160828.tar.xz) = 492d1e38ae5af1f7efdebd69162e9e7e4431e30327c9168e672b80ed1d52e9c0
+SIZE (TeXLive/xecjk.doc-20160828.tar.xz) = 1540364
+SHA256 (TeXLive/xecjk.source-20160828.tar.xz) = 6be141c9d94c5af31b4ea2630fa3a3d5aea3206adb033ee15d7bb8b89f19bff8
+SIZE (TeXLive/xecjk.source-20160828.tar.xz) = 84156

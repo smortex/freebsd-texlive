@@ -1,6 +1,7 @@
-SHA256 (TeXLive/shdoc-20160503.tar.xz) = 82cfee56d0fb086c33468da1c8ef903f86ba7e521862717006b02e4ec0a6f9b9
-SIZE (TeXLive/shdoc-20160503.tar.xz) = 2984
-SHA256 (TeXLive/shdoc.doc-20160503.tar.xz) = 4bf6aea46bd5dc133e2d44a9b434eb6bef043e6b9478f107983729787fb189de
-SIZE (TeXLive/shdoc.doc-20160503.tar.xz) = 543684
-SHA256 (TeXLive/shdoc.source-20160503.tar.xz) = 36e8cc8ecf7ef9ab8d246fec15b54484956bd89f787d7edeabd24e2783d41c65
-SIZE (TeXLive/shdoc.source-20160503.tar.xz) = 16488
+TIMESTAMP = 1472444763
+SHA256 (TeXLive/shdoc-20160828.tar.xz) = 50e3e107dbfffe6bf34af1f172be4cab4629f226c42b077f07bc4cc55cbe5a42
+SIZE (TeXLive/shdoc-20160828.tar.xz) = 2992
+SHA256 (TeXLive/shdoc.doc-20160828.tar.xz) = 6f3e74ddf457d0ba9b2ef9e50133a19fc0e274dbcee5441f7b93b5cac991ef5c
+SIZE (TeXLive/shdoc.doc-20160828.tar.xz) = 525380
+SHA256 (TeXLive/shdoc.source-20160828.tar.xz) = 544bc18fdb1379fd9430258d93a38d7e6726cc0d8a531e56ccbf9d5cab589be5
+SIZE (TeXLive/shdoc.source-20160828.tar.xz) = 16500

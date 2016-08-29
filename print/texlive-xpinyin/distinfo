@@ -1,6 +1,7 @@
-SHA256 (TeXLive/xpinyin-20160515.tar.xz) = 57b304d08af54bb7ba482afac19c0aa9c582b2b57c94441ea4ec7092e14983e8
-SIZE (TeXLive/xpinyin-20160515.tar.xz) = 201008
-SHA256 (TeXLive/xpinyin.doc-20160515.tar.xz) = 8099fcf560f2c38c4a2bccb306c16e62ced8154ce43d2aea4a6c3d415b1ecc42
-SIZE (TeXLive/xpinyin.doc-20160515.tar.xz) = 217512
-SHA256 (TeXLive/xpinyin.source-20160515.tar.xz) = c750b1de26cb75946b4190fef79358c138c83a53f42a229052efa2826c108c57
-SIZE (TeXLive/xpinyin.source-20160515.tar.xz) = 10924
+TIMESTAMP = 1472444060
+SHA256 (TeXLive/xpinyin-20160828.tar.xz) = 5016dbf7e534614ca379af7f846225c083e5c1fc7b425b8734e7a9de41595bd1
+SIZE (TeXLive/xpinyin-20160828.tar.xz) = 201740
+SHA256 (TeXLive/xpinyin.doc-20160828.tar.xz) = 4ae4a60e5733a91f1f640e1525986b6216eeb2716eb594ed22daf114067a0de6
+SIZE (TeXLive/xpinyin.doc-20160828.tar.xz) = 213536
+SHA256 (TeXLive/xpinyin.source-20160828.tar.xz) = d8e13792570672b120f7b4c006a1319d143b886bc59f46434a6e57dbe60d964b
+SIZE (TeXLive/xpinyin.source-20160828.tar.xz) = 10964
