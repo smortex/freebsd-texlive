@@ -1,4 +1,5 @@
-SHA256 (TeXLive/fancyhdr-20160414.tar.xz) = bef5fd0781900d71c4251476014ff1a32beeb479369883fc4af133a0db41dade
-SIZE (TeXLive/fancyhdr-20160414.tar.xz) = 8344
-SHA256 (TeXLive/fancyhdr.doc-20160414.tar.xz) = 38f4e6bbfcb19dc8e7ad566b33ec7cd9b0148cc3ec3e14313cafcdd2b5d404e3
-SIZE (TeXLive/fancyhdr.doc-20160414.tar.xz) = 247056
+TIMESTAMP = 1472530060
+SHA256 (TeXLive/fancyhdr-20160829.tar.xz) = 994dd860fca67c1d2e712b66bcdcf2eb739a81eb1332ffc490207d6a7059f9bb
+SIZE (TeXLive/fancyhdr-20160829.tar.xz) = 8520
+SHA256 (TeXLive/fancyhdr.doc-20160829.tar.xz) = ed32032d27b18659b057fadaf2440c761ccbc0d80a1086c84a58741c7ff74933
+SIZE (TeXLive/fancyhdr.doc-20160829.tar.xz) = 396328
