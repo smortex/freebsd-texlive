@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20160824
+PORTVERSION=	20160830
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -160,6 +160,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty:${PORTSDIR}/print/texlive-tikz-feynman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-inet/tikz-inet.sty:${PORTSDIR}/print/texlive-tikz-inet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-opm/tikz-opm.sty:${PORTSDIR}/print/texlive-tikz-opm \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-page/tikz-page.sty:${PORTSDIR}/print/texlive-tikz-page \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-palattice/tikz-palattice.sty:${PORTSDIR}/print/texlive-tikz-palattice \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty:${PORTSDIR}/print/texlive-tikz-qtree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty:${PORTSDIR}/print/texlive-tikz-timing \

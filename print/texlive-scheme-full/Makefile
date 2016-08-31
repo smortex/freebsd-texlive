@@ -1180,6 +1180,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty:${PORTSDIR}/print/texlive-tikz-feynman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-inet/tikz-inet.sty:${PORTSDIR}/print/texlive-tikz-inet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-opm/tikz-opm.sty:${PORTSDIR}/print/texlive-tikz-opm \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-page/tikz-page.sty:${PORTSDIR}/print/texlive-tikz-page \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-palattice/tikz-palattice.sty:${PORTSDIR}/print/texlive-tikz-palattice \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty:${PORTSDIR}/print/texlive-tikz-qtree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty:${PORTSDIR}/print/texlive-tikz-timing \
@@ -1750,6 +1751,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/lastpackage/lastpackage.sty:${PORTSDIR}/print/texlive-lastpackage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lastpage/lastpage.sty:${PORTSDIR}/print/texlive-lastpage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/latexdemo/latexdemo.sty:${PORTSDIR}/print/texlive-latexdemo \
+		${LOCALBASE}/share/texmf-dist/tex/latex/latexgit/latexgit.sty:${PORTSDIR}/print/texlive-latexgit \
 		${LOCALBASE}/share/texmf-dist/tex/latex/layouts/layouts.sty:${PORTSDIR}/print/texlive-layouts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lazylist/lazylist.sty:${PORTSDIR}/print/texlive-lazylist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lcd/lcd.sty:${PORTSDIR}/print/texlive-lcd \
@@ -1974,6 +1976,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/phfsvnwatermark/phfsvnwatermark.sty:${PORTSDIR}/print/texlive-phfsvnwatermark \
 		${LOCALBASE}/share/texmf-dist/tex/latex/phfthm/phfthm.sty:${PORTSDIR}/print/texlive-phfthm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/philex/philex.sty:${PORTSDIR}/print/texlive-philex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/phonenumbers/phonenumbers.sty:${PORTSDIR}/print/texlive-phonenumbers \
 		${LOCALBASE}/share/texmf-dist/tex/latex/photo/photo.sty:${PORTSDIR}/print/texlive-photo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/piff/duplicat.sty:${PORTSDIR}/print/texlive-piff \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pkgloader/pkgloader.sty:${PORTSDIR}/print/texlive-pkgloader \
