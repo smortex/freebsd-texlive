@@ -1,0 +1,2 @@
+This package provides macros that enforce basic Czech
+typography rules through Lua hooks available in LuaTeX.

@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/cstypo/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/cstypo/README.md
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/cstypo/cstypo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/cstypo/cstypo.tex
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/cstypo/cstypotest.pdf
+%%PORTDOCS%%share/texmf-dist/doc/lualatex/cstypo/cstypotest.tex
+share/texmf-dist/tex/lualatex/cstypo/cstypo.sty
+share/texmf-dist/tex/luatex/cstypo/cstypo-tex.tex
+share/texmf-dist/tex/luatex/cstypo/cstypo.lua
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
