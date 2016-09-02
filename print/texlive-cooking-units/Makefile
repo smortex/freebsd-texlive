@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	jslectureplanner
+PORTNAME=	cooking-units
 PORTVERSION=	20160901
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Creation and management of university course material
+COMMENT=	Typeset and convert units for cookery books and recipes
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

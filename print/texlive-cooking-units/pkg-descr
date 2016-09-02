@@ -1,0 +1,4 @@
+The package provides commands to typeset amounts and units
+consistently and offers an easy to use key-value-syntax to
+convert one unit into another (for example 'dag' to 'g'; see
+the documentation for more examples).
