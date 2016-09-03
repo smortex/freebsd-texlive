@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20160901
+PORTVERSION=	20160902
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -286,6 +286,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/acronym/acronym.sty:${PORTSDIR}/print/texlive-acronym \
 		${LOCALBASE}/share/texmf-dist/tex/latex/acroterm/acroterm.sty:${PORTSDIR}/print/texlive-acroterm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/actuarialangle/actuarialangle.sty:${PORTSDIR}/print/texlive-actuarialangle \
+		${LOCALBASE}/share/texmf-dist/tex/latex/addfont/addfont.sty:${PORTSDIR}/print/texlive-addfont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/addlines/addlines.sty:${PORTSDIR}/print/texlive-addlines \
 		${LOCALBASE}/share/texmf-dist/tex/latex/adjmulticol/adjmulticol.sty:${PORTSDIR}/print/texlive-adjmulticol \
 		${LOCALBASE}/share/texmf-dist/tex/latex/adjustbox/adjustbox.sty:${PORTSDIR}/print/texlive-adjustbox \

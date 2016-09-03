@@ -600,6 +600,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/xskak/xskak.sty:${PORTSDIR}/print/texlive-xskak \
 		${LOCALBASE}/share/texmf-dist/tex/generic/abbr/abbr.tex:${PORTSDIR}/print/texlive-abbr \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/abstyles/acompat.bib:${PORTSDIR}/print/texlive-abstyles \
+		${LOCALBASE}/share/texmf-dist/tex/generic/autoaligne/autoaligne.sty:${PORTSDIR}/print/texlive-autoaligne \
 		${LOCALBASE}/share/texmf-dist/tex/generic/barr/diagxy.tex:${PORTSDIR}/print/texlive-barr \
 		${LOCALBASE}/share/texmf-dist/tex/generic/bitelist/bitelist.sty:${PORTSDIR}/print/texlive-bitelist \
 		${LOCALBASE}/share/texmf-dist/tex/generic/borceux/Diagram:${PORTSDIR}/print/texlive-borceux \
@@ -1224,6 +1225,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/acronym/acronym.sty:${PORTSDIR}/print/texlive-acronym \
 		${LOCALBASE}/share/texmf-dist/tex/latex/acroterm/acroterm.sty:${PORTSDIR}/print/texlive-acroterm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/actuarialangle/actuarialangle.sty:${PORTSDIR}/print/texlive-actuarialangle \
+		${LOCALBASE}/share/texmf-dist/tex/latex/addfont/addfont.sty:${PORTSDIR}/print/texlive-addfont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/addlines/addlines.sty:${PORTSDIR}/print/texlive-addlines \
 		${LOCALBASE}/share/texmf-dist/tex/latex/adjmulticol/adjmulticol.sty:${PORTSDIR}/print/texlive-adjmulticol \
 		${LOCALBASE}/share/texmf-dist/tex/latex/adjustbox/adjustbox.sty:${PORTSDIR}/print/texlive-adjustbox \
@@ -1383,6 +1385,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/contour/contour.sty:${PORTSDIR}/print/texlive-contour \
 		${LOCALBASE}/share/texmf-dist/tex/latex/contracard/contracard.cls:${PORTSDIR}/print/texlive-contracard \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cooking/cooking.sty:${PORTSDIR}/print/texlive-cooking \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cooking-units/cooking-units.sty:${PORTSDIR}/print/texlive-cooking-units \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cool/cool.sty:${PORTSDIR}/print/texlive-cool \
 		${LOCALBASE}/share/texmf-dist/tex/latex/coollist/coollist.sty:${PORTSDIR}/print/texlive-coollist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/coolstr/coolstr.sty:${PORTSDIR}/print/texlive-coolstr \
@@ -2311,6 +2314,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/checkcites/checkcites.lua:${PORTSDIR}/print/texlive-checkcites \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/chickenize/chickenize.sty:${PORTSDIR}/print/texlive-chickenize \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/cloze/cloze.sty:${PORTSDIR}/print/texlive-cloze \
+		${LOCALBASE}/share/texmf-dist/tex/lualatex/cstypo/cstypo.sty:${PORTSDIR}/print/texlive-cstypo \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/ctablestack/ctablestack.sty:${PORTSDIR}/print/texlive-ctablestack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/enigma/enigma.sty:${PORTSDIR}/print/texlive-enigma \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/interpreter/interpreter.sty:${PORTSDIR}/print/texlive-interpreter \

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-genericextra
-PORTVERSION=	20160821
+PORTVERSION=	20160902
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -47,6 +47,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/tex/generic/abbr/abbr.tex:${PORTSDIR}/print/texlive-abbr \
 		${LOCALBASE}/share/texmf-dist/bibtex/bib/abstyles/acompat.bib:${PORTSDIR}/print/texlive-abstyles \
+		${LOCALBASE}/share/texmf-dist/tex/generic/autoaligne/autoaligne.sty:${PORTSDIR}/print/texlive-autoaligne \
 		${LOCALBASE}/share/texmf-dist/tex/generic/barr/diagxy.tex:${PORTSDIR}/print/texlive-barr \
 		${LOCALBASE}/share/texmf-dist/tex/generic/bitelist/bitelist.sty:${PORTSDIR}/print/texlive-bitelist \
 		${LOCALBASE}/share/texmf-dist/tex/generic/borceux/Diagram:${PORTSDIR}/print/texlive-borceux \

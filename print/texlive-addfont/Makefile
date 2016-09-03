@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	listofitems
+PORTNAME=	addfont
 PORTVERSION=	20160902
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Grab items in lists using user-specified sep char
+COMMENT=	easier use of fonts without LaTeX support
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
