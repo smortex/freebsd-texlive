@@ -1,11 +1,16 @@
-%%PORTDOCS%%share/texmf-dist/doc/platex/jsclasses/README
+%%PORTDOCS%%share/texmf-dist/doc/platex/jsclasses/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/platex/jsclasses/README.md
 %%PORTDOCS%%share/texmf-dist/doc/platex/jsclasses/jsclasses.pdf
+%%PORTDOCS%%share/texmf-dist/doc/platex/jsclasses/jslogo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/platex/jsclasses/jsverb.pdf
 %%PORTDOCS%%share/texmf-dist/doc/platex/jsclasses/morisawa.pdf
 %%PORTDOCS%%share/texmf-dist/doc/platex/jsclasses/okumacro.pdf
 %%PORTDOCS%%share/texmf-dist/doc/platex/jsclasses/okuverb.pdf
+%%PORTSRC%%share/texmf-dist/source/platex/jsclasses/Makefile
 %%PORTSRC%%share/texmf-dist/source/platex/jsclasses/jsclasses.dtx
 %%PORTSRC%%share/texmf-dist/source/platex/jsclasses/jsclasses.ins
+%%PORTSRC%%share/texmf-dist/source/platex/jsclasses/jslogo.dtx
+%%PORTSRC%%share/texmf-dist/source/platex/jsclasses/jslogo.ins
 %%PORTSRC%%share/texmf-dist/source/platex/jsclasses/jsverb.dtx
 %%PORTSRC%%share/texmf-dist/source/platex/jsclasses/jsverb.ins
 %%PORTSRC%%share/texmf-dist/source/platex/jsclasses/morisawa.dtx
@@ -16,6 +21,7 @@
 %%PORTSRC%%share/texmf-dist/source/platex/jsclasses/okuverb.ins
 share/texmf-dist/tex/platex/jsclasses/jsarticle.cls
 share/texmf-dist/tex/platex/jsclasses/jsbook.cls
+share/texmf-dist/tex/platex/jsclasses/jslogo.sty
 share/texmf-dist/tex/platex/jsclasses/jspf.cls
 share/texmf-dist/tex/platex/jsclasses/jsverb.sty
 share/texmf-dist/tex/platex/jsclasses/kiyou.cls

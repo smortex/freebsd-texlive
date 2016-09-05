@@ -1,0 +1,8 @@
+The package provides simple commands to allow authors
+(especially scholars in the humanities) to write with a focus
+on content rather than presentation. Commands like \term and
+\foreign are aliases for \emph. \quoted and \soCalled are
+aliases for quoting commands. These commands could be easily
+redefined for different formats. The package also provides a
+footnote environment so that long footnotes can be more cleanly
+separated from the main text.

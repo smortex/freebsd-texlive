@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	pst-bezier
+PORTNAME=	pst-arrow
 PORTVERSION=	20160904
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw Bezier curves
+COMMENT=	special arrows for PSTricks
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -575,6 +575,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/asypictureb/asypictureB.sty:${PORTSDIR}/print/texlive-asypictureb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/autoarea/autoarea.sty:${PORTSDIR}/print/texlive-autoarea \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bardiag/bardiag.sty:${PORTSDIR}/print/texlive-bardiag \
+		${LOCALBASE}/share/texmf-dist/tex/latex/beamerswitch/beamerswitch.cls:${PORTSDIR}/print/texlive-beamerswitch \
 		${LOCALBASE}/share/texmf-dist/tex/latex/binarytree/binarytree.sty:${PORTSDIR}/print/texlive-binarytree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/blochsphere/blochsphere.sty:${PORTSDIR}/print/texlive-blochsphere \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bloques/bloques.sty:${PORTSDIR}/print/texlive-bloques \
@@ -683,6 +684,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty:${PORTSDIR}/print/texlive-tikz-feynman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-inet/tikz-inet.sty:${PORTSDIR}/print/texlive-tikz-inet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-opm/tikz-opm.sty:${PORTSDIR}/print/texlive-tikz-opm \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-page/tikz-page.sty:${PORTSDIR}/print/texlive-tikz-page \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-palattice/tikz-palattice.sty:${PORTSDIR}/print/texlive-tikz-palattice \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty:${PORTSDIR}/print/texlive-tikz-qtree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty:${PORTSDIR}/print/texlive-tikz-timing \
@@ -746,6 +748,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-3d/pst-3d.tex:${PORTSDIR}/print/texlive-pst-3d \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-3dplot/pst-3dplot.tex:${PORTSDIR}/print/texlive-pst-3dplot \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-abspos/pst-abspos.tex:${PORTSDIR}/print/texlive-pst-abspos \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-arrow/pst-arrow.tex:${PORTSDIR}/print/texlive-pst-arrow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-am/pst-am.sty:${PORTSDIR}/print/texlive-pst-am \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-asr/pst-asr.tex:${PORTSDIR}/print/texlive-pst-asr \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-bar/pst-bar.tex:${PORTSDIR}/print/texlive-pst-bar \

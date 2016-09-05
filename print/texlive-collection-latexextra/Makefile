@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20160902
+PORTVERSION=	20160904
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1136,6 +1136,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/seealso/seealso.sty:${PORTSDIR}/print/texlive-seealso \
 		${LOCALBASE}/share/texmf-dist/tex/latex/selectp/selectp.sty:${PORTSDIR}/print/texlive-selectp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/semantic/semantic.sty:${PORTSDIR}/print/texlive-semantic \
+		${LOCALBASE}/share/texmf-dist/tex/latex/semantic-markup/semantic-markup.sty:${PORTSDIR}/print/texlive-semantic-markup \
 		${LOCALBASE}/share/texmf-dist/tex/latex/semioneside/semioneside.sty:${PORTSDIR}/print/texlive-semioneside \
 		${LOCALBASE}/share/texmf-dist/tex/latex/semproc/semproc.cls:${PORTSDIR}/print/texlive-semproc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sepfootnotes/sepfootnotes.sty:${PORTSDIR}/print/texlive-sepfootnotes \

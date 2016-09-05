@@ -1,6 +1,7 @@
-SHA256 (TeXLive/fvextra-20160721.tar.xz) = 8bae5243abf03013cf55516c855cd3da466202aadc8d765d8899f33f90f8b5d8
-SIZE (TeXLive/fvextra-20160721.tar.xz) = 7204
-SHA256 (TeXLive/fvextra.doc-20160721.tar.xz) = e7ed22f15adbc19384db945d6b871cd081b51131140be68b255639eb21e3712d
-SIZE (TeXLive/fvextra.doc-20160721.tar.xz) = 698744
-SHA256 (TeXLive/fvextra.source-20160721.tar.xz) = b0544fe0f3bb86fd709e35e70c929bd67258a509a1c9a65d3a5e6ae308d90b2a
-SIZE (TeXLive/fvextra.source-20160721.tar.xz) = 32144
+TIMESTAMP = 1473049395
+SHA256 (TeXLive/fvextra-20160904.tar.xz) = 337a5e95dbf00f7c7cb8c472ee60256eef1e88eefcd9d66a6be6e3074f5b11e6
+SIZE (TeXLive/fvextra-20160904.tar.xz) = 7244
+SHA256 (TeXLive/fvextra.doc-20160904.tar.xz) = 5b452358e13a85cdf676d921c5ef61770c0f03990a1e7116f8c44062062a67db
+SIZE (TeXLive/fvextra.doc-20160904.tar.xz) = 699800
+SHA256 (TeXLive/fvextra.source-20160904.tar.xz) = d7595080b0c9f16c0c4865569995fce6f751944966931da3d845b4a7f5ffaacd
+SIZE (TeXLive/fvextra.source-20160904.tar.xz) = 32348

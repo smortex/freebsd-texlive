@@ -1,4 +1,5 @@
-SHA256 (TeXLive/pst-eucl-20160414.tar.xz) = b6aaa77042e1b1ab391d8cb6cbf3e17a1b8ec9f8420d8b55e62d0bb9b3da946f
-SIZE (TeXLive/pst-eucl-20160414.tar.xz) = 13248
-SHA256 (TeXLive/pst-eucl.doc-20160414.tar.xz) = a7b555508579521aafbcce1f4a40608ff561a01a392e63d2a05f4c0f52d0ab47
-SIZE (TeXLive/pst-eucl.doc-20160414.tar.xz) = 344768
+TIMESTAMP = 1473049846
+SHA256 (TeXLive/pst-eucl-20160904.tar.xz) = fc91035648f5ac5910378d63e380adc1e538fcac20121bf08950c9e338a41e0e
+SIZE (TeXLive/pst-eucl-20160904.tar.xz) = 13348
+SHA256 (TeXLive/pst-eucl.doc-20160904.tar.xz) = 2f114d8e63f736ce234fd6dcba4e22ea03f1584f26974c1b5444ac9b54c4541c
+SIZE (TeXLive/pst-eucl.doc-20160904.tar.xz) = 348704

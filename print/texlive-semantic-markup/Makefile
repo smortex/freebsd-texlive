@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	pst-bezier
+PORTNAME=	semantic-markup
 PORTVERSION=	20160904
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw Bezier curves
+COMMENT=	Macros for meaningful semantic markup in the spirit of the Text Encoding Initiative, especially for humanities and music schola
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
