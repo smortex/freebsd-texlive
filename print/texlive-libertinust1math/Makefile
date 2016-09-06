@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	libertinust1math
-PORTVERSION=	20160823
+PORTVERSION=	20160905
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
