@@ -1,6 +1,7 @@
-SHA256 (TeXLive/mynsfc-20160414.tar.xz) = f793a578034e71a6921bb3c8e59a15021c17b3e0dc89509b76f0d0b557142cd8
-SIZE (TeXLive/mynsfc-20160414.tar.xz) = 3152
-SHA256 (TeXLive/mynsfc.doc-20160414.tar.xz) = 93d48206fb2f2f06c08dd372c6f5af0faf46d77f83a6f6a2d622ed40436f087b
-SIZE (TeXLive/mynsfc.doc-20160414.tar.xz) = 231224
-SHA256 (TeXLive/mynsfc.source-20160414.tar.xz) = ee5a24ca195e32af992a87dc4e8d671a976ff36799731c9b162cff68db92119c
-SIZE (TeXLive/mynsfc.source-20160414.tar.xz) = 4040
+TIMESTAMP = 1473222879
+SHA256 (TeXLive/mynsfc-20160906.tar.xz) = ac30794dd0d03e5a97f17a231b48ef1411084a8cadd6075c9b1ab1babb152e23
+SIZE (TeXLive/mynsfc-20160906.tar.xz) = 3420
+SHA256 (TeXLive/mynsfc.doc-20160906.tar.xz) = 3324488f1c89ae92e4f3b0290cc5c94c90737e8419840cf765c099c130fedde8
+SIZE (TeXLive/mynsfc.doc-20160906.tar.xz) = 225916
+SHA256 (TeXLive/mynsfc.source-20160906.tar.xz) = c35e5465203a73305dc58b9de8e3093d800ddb90ef80b126f1568e02ed387bc1
+SIZE (TeXLive/mynsfc.source-20160906.tar.xz) = 4400
