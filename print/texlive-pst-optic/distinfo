@@ -1,6 +1,5 @@
-SHA256 (TeXLive/pst-optic-20160414.tar.xz) = a805ee7e040fee5f6e6e091c3a941f9fa3065dcfd56bf004235ffd3e76bae907
-SIZE (TeXLive/pst-optic-20160414.tar.xz) = 14624
-SHA256 (TeXLive/pst-optic.doc-20160414.tar.xz) = 87fb1711d634e330c8df28f4e29ee485af0b5d462d99d6d6f5ca92d74bf1b58b
-SIZE (TeXLive/pst-optic.doc-20160414.tar.xz) = 659760
-SHA256 (TeXLive/pst-optic.source-20160414.tar.xz) = 4f7d3086ace3f66ddf09eee70a76ac1d8f54bce436d7cfecb4e9c6f13b1ef48c
-SIZE (TeXLive/pst-optic.source-20160414.tar.xz) = 948
+TIMESTAMP = 1473309006
+SHA256 (TeXLive/pst-optic-20160907.tar.xz) = 5f51ca2fd1c8972ca98493512ea273ea4af385db8dcc0558665c200e69832b6b
+SIZE (TeXLive/pst-optic-20160907.tar.xz) = 14656
+SHA256 (TeXLive/pst-optic.doc-20160907.tar.xz) = 85f5203c7b6bd34da3045d684f5ad93f9fb069f1160a8d03be9fa3f91851f224
+SIZE (TeXLive/pst-optic.doc-20160907.tar.xz) = 308856

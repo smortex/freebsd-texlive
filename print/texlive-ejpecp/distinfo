@@ -1,6 +1,7 @@
-SHA256 (TeXLive/ejpecp-20160414.tar.xz) = 979e0572bab3eceefd1fc1f7fcd853f53cf70f4ac287f0e624893c6ab28a9580
-SIZE (TeXLive/ejpecp-20160414.tar.xz) = 4604
-SHA256 (TeXLive/ejpecp.doc-20160414.tar.xz) = 6e8603e4eb3879ff3f804a2034e962e049374662bd85b7350de6b502b6e330a2
-SIZE (TeXLive/ejpecp.doc-20160414.tar.xz) = 299264
-SHA256 (TeXLive/ejpecp.source-20160414.tar.xz) = bb6968519284804e66fbb2e2c807d0d3e8f2b6e7c2b49f66a072a51615c629c0
-SIZE (TeXLive/ejpecp.source-20160414.tar.xz) = 6060
+TIMESTAMP = 1473309046
+SHA256 (TeXLive/ejpecp-20160907.tar.xz) = 0b392083191f80cf84190cbaf13188a584a68ea51d6a87aabdaad746a1f381b4
+SIZE (TeXLive/ejpecp-20160907.tar.xz) = 4616
+SHA256 (TeXLive/ejpecp.doc-20160907.tar.xz) = e8018a7c5d256eb03af9d2bb7475ff10aac939e72224d347a94ed61ff4f2e05b
+SIZE (TeXLive/ejpecp.doc-20160907.tar.xz) = 300056
+SHA256 (TeXLive/ejpecp.source-20160907.tar.xz) = c5389477764460ad924fb7fca67b4e94d3247225a67a2b4450e14e0463b0200c
+SIZE (TeXLive/ejpecp.source-20160907.tar.xz) = 6096

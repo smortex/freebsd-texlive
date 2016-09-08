@@ -1,7 +1,7 @@
-TIMESTAMP = 1471804279
-SHA256 (TeXLive/acmart-20160808.tar.xz) = 841ea1a169aa8232c449e8f82464a9b39f17601dab00a39de783b85a17739b7c
-SIZE (TeXLive/acmart-20160808.tar.xz) = 32204
-SHA256 (TeXLive/acmart.doc-20160808.tar.xz) = 5a7cd03b0c7f7b2552741fba13174351c22605b85989a1a73c505e250776197a
-SIZE (TeXLive/acmart.doc-20160808.tar.xz) = 6184236
-SHA256 (TeXLive/acmart.source-20160808.tar.xz) = f991637b31c8748fe6535ade38ad6b53ff48a3047692a6b8d9f03a8e03dee625
-SIZE (TeXLive/acmart.source-20160808.tar.xz) = 32456
+TIMESTAMP = 1473309028
+SHA256 (TeXLive/acmart-20160907.tar.xz) = 1d5f1df95a6c3d588ff75a229e4c0cd92761dd2187e6b603adcfe908b4b3a5a3
+SIZE (TeXLive/acmart-20160907.tar.xz) = 32320
+SHA256 (TeXLive/acmart.doc-20160907.tar.xz) = 1353b9b7fcec01298d83fbe206247354a3b847b8cde40be423eb23a0e57b64ce
+SIZE (TeXLive/acmart.doc-20160907.tar.xz) = 6209896
+SHA256 (TeXLive/acmart.source-20160907.tar.xz) = 0a70772f0741819aa9ef09ef3d25b1507ad92ab3beb0bd94d0b84296296cfdfc
+SIZE (TeXLive/acmart.source-20160907.tar.xz) = 33456

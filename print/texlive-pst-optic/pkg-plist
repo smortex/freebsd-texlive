@@ -1,12 +1,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-optic/Changes
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-optic/README
-%%PORTDOCS%%share/texmf-dist/doc/generic/pst-optic/more_docs/dtk.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/pst-optic/more_docs/pst-optic-examples.pdf
-%%PORTDOCS%%share/texmf-dist/doc/generic/pst-optic/more_docs/pst-optic-examples.tex
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-optic/pst-optic-doc.bib
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-optic/pst-optic-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-optic/pst-optic-doc.tex
-%%PORTSRC%%share/texmf-dist/source/generic/pst-optic/Makefile
 share/texmf-dist/tex/generic/pst-optic/pst-optic.tex
 share/texmf-dist/tex/latex/pst-optic/pst-optic.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

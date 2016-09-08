@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	acmart
-PORTVERSION=	20160808
+PORTVERSION=	20160907
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Class for typesetting publications of ACM>
+COMMENT=	Class for typesetting publications of ACM
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
