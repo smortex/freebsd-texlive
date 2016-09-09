@@ -1,4 +1,5 @@
-SHA256 (TeXLive/ticket-20160414.tar.xz) = 479180e2d87c5c4f91d34334dd4556465d8db22c30c2c2bd834acb0a3e504eea
-SIZE (TeXLive/ticket-20160414.tar.xz) = 3700
-SHA256 (TeXLive/ticket.doc-20160414.tar.xz) = d18bf470e29af769e40f2c57f03111593a564d65df61b98fcff67bc6fbd02ee6
-SIZE (TeXLive/ticket.doc-20160414.tar.xz) = 261892
+TIMESTAMP = 1473395285
+SHA256 (TeXLive/ticket-20160908.tar.xz) = 03e1e6b6df22fa2ae68b8fa9e66ec5b40cdf57986f15e0f71d2d6172e8750205
+SIZE (TeXLive/ticket-20160908.tar.xz) = 3964
+SHA256 (TeXLive/ticket.doc-20160908.tar.xz) = ecac28f378a90b3852ade70951026df8708ba8a848c324a17707199f3ebcb21f
+SIZE (TeXLive/ticket.doc-20160908.tar.xz) = 373708
