@@ -1,4 +1,5 @@
-SHA256 (TeXLive/circuitikz-20160607.tar.xz) = c14a69966a501e5c4574530bd072ddeddf824191add6f64849c0f016d9ef6c8c
-SIZE (TeXLive/circuitikz-20160607.tar.xz) = 31948
-SHA256 (TeXLive/circuitikz.doc-20160607.tar.xz) = 291d055a587fd805bf362c87aa74b20d6ce0f365b4dff795c5b52cd1ec7f51d1
-SIZE (TeXLive/circuitikz.doc-20160607.tar.xz) = 285040
+TIMESTAMP = 1473481127
+SHA256 (TeXLive/circuitikz-20160909.tar.xz) = f080af4de7a235acf5298a4bad500b3a4f7ad762f657055b7984f9a6ccccdeb9
+SIZE (TeXLive/circuitikz-20160909.tar.xz) = 32752
+SHA256 (TeXLive/circuitikz.doc-20160909.tar.xz) = 5e345fed941ff085055f6c1f42e6b943c5bb27522a4ce88e69d5b916094d8530
+SIZE (TeXLive/circuitikz.doc-20160909.tar.xz) = 296452
