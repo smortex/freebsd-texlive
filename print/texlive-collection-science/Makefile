@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-science
-PORTVERSION=	20160414
+PORTVERSION=	20160910
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -101,6 +101,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/drawstack/drawstack.sty:${PORTSDIR}/print/texlive-drawstack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dyntree/dyntree.sty:${PORTSDIR}/print/texlive-dyntree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eltex/eltex1.tex:${PORTSDIR}/print/texlive-eltex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/emf/emf.sty:${PORTSDIR}/print/texlive-emf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/endiagram/endiagram.sty:${PORTSDIR}/print/texlive-endiagram \
 		${LOCALBASE}/share/texmf-dist/tex/latex/engtlc/engtlc.sty:${PORTSDIR}/print/texlive-engtlc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fouridx/fouridx.sty:${PORTSDIR}/print/texlive-fouridx \

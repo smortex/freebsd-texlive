@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	arabluatex
+PORTNAME=	emf
 PORTVERSION=	20160910
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	An ArabTeX-like interface for LuaLaTeX
+COMMENT=	Support for the EMF symbol
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

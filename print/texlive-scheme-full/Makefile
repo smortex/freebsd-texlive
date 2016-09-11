@@ -2075,6 +2075,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/seealso/seealso.sty:${PORTSDIR}/print/texlive-seealso \
 		${LOCALBASE}/share/texmf-dist/tex/latex/selectp/selectp.sty:${PORTSDIR}/print/texlive-selectp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/semantic/semantic.sty:${PORTSDIR}/print/texlive-semantic \
+		${LOCALBASE}/share/texmf-dist/tex/latex/semantic-markup/semantic-markup.sty:${PORTSDIR}/print/texlive-semantic-markup \
 		${LOCALBASE}/share/texmf-dist/tex/latex/semioneside/semioneside.sty:${PORTSDIR}/print/texlive-semioneside \
 		${LOCALBASE}/share/texmf-dist/tex/latex/semproc/semproc.cls:${PORTSDIR}/print/texlive-semproc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sepfootnotes/sepfootnotes.sty:${PORTSDIR}/print/texlive-sepfootnotes \
@@ -2515,6 +2516,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-3d/pst-3d.tex:${PORTSDIR}/print/texlive-pst-3d \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-3dplot/pst-3dplot.tex:${PORTSDIR}/print/texlive-pst-3dplot \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-abspos/pst-abspos.tex:${PORTSDIR}/print/texlive-pst-abspos \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-arrow/pst-arrow.tex:${PORTSDIR}/print/texlive-pst-arrow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-am/pst-am.sty:${PORTSDIR}/print/texlive-pst-am \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-asr/pst-asr.tex:${PORTSDIR}/print/texlive-pst-asr \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-bar/pst-bar.tex:${PORTSDIR}/print/texlive-pst-bar \
@@ -2788,6 +2790,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/drawstack/drawstack.sty:${PORTSDIR}/print/texlive-drawstack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dyntree/dyntree.sty:${PORTSDIR}/print/texlive-dyntree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eltex/eltex1.tex:${PORTSDIR}/print/texlive-eltex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/emf/emf.sty:${PORTSDIR}/print/texlive-emf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/endiagram/endiagram.sty:${PORTSDIR}/print/texlive-endiagram \
 		${LOCALBASE}/share/texmf-dist/tex/latex/engtlc/engtlc.sty:${PORTSDIR}/print/texlive-engtlc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fouridx/fouridx.sty:${PORTSDIR}/print/texlive-fouridx \

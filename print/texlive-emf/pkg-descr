@@ -1,0 +1,5 @@
+This package provides LaTeX support for the symbol for the EMF
+in electric circuits and electrodynamics. It provides support
+for multiple symbols but does not provide any fonts. The fonts
+themselves must be aquired otherwise. However the fonts are
+part of a normal TeX Live installation.
