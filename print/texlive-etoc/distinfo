@@ -1,6 +1,7 @@
-SHA256 (TeXLive/etoc-20160414.tar.xz) = ca5d8cb73f2c229c087ad7e5c55eb9d06f1eeb99a12d7955f17636b94b6deef7
-SIZE (TeXLive/etoc-20160414.tar.xz) = 9940
-SHA256 (TeXLive/etoc.doc-20160414.tar.xz) = 6d3feb97d25ba72d45a16ccb4bee462329a0dc83508e084f818b5787ec83a3a1
-SIZE (TeXLive/etoc.doc-20160414.tar.xz) = 858236
-SHA256 (TeXLive/etoc.source-20160414.tar.xz) = b39ecdb7b78af9ab6031fc93fdce8ef09ef59f5950205da57b840cf7543194df
-SIZE (TeXLive/etoc.source-20160414.tar.xz) = 109236
+TIMESTAMP = 1473654153
+SHA256 (TeXLive/etoc-20160911.tar.xz) = f3f1f80e06e0e3851077aa287693ffa1e254c4fec188e6df70415608077f8fd9
+SIZE (TeXLive/etoc-20160911.tar.xz) = 9932
+SHA256 (TeXLive/etoc.doc-20160911.tar.xz) = 226394c6d9a52bc4cb7ceafb702560b7c8c83467117cc66fb9081a56862c78e1
+SIZE (TeXLive/etoc.doc-20160911.tar.xz) = 907388
+SHA256 (TeXLive/etoc.source-20160911.tar.xz) = 08355526b88505064c6dc6265398dd8d6738d83b7c63869ed8b85b9f40319d3b
+SIZE (TeXLive/etoc.source-20160911.tar.xz) = 112416
