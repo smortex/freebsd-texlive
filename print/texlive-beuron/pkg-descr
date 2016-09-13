@@ -1,0 +1,6 @@
+This package provides the script used in the works of the
+Beuron art school for use with TeX and LaTeX. It is a
+monumental script consisting of capital letters only. The fonts
+are provided as Metafont sources and in the Type1 format. The
+package includes suitable font selection commands for use with
+LaTeX.

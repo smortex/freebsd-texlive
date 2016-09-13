@@ -2,11 +2,16 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/pas-cours/README.TEXLIVE
 %%PORTDOCS%%share/texmf-dist/doc/latex/pas-cours/attention.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/pas-cours/coeur.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cours/decomp.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cours/doc.codes.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cours/doc.styles.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cours/macro-calculs.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pas-cours/macro-patrons.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pas-cours/macro-solides.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pas-cours/macro-styles.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pas-cours/pas-cours.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/pas-cours/prerequis.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/pas-cours/warning-perso.png
 share/texmf-dist/tex/latex/pas-cours/pas-cours.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

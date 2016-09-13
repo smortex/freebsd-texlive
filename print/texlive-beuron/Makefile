@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	pas-cours
+PORTNAME=	beuron
 PORTVERSION=	20160912
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros useful in preparing teaching material
+COMMENT=	The script of the Beuronese art school
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

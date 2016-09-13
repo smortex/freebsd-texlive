@@ -1,0 +1,25 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/beuron/Band.mp
+%%PORTDOCS%%share/texmf-dist/doc/fonts/beuron/Band.mps
+%%PORTDOCS%%share/texmf-dist/doc/fonts/beuron/Literatur.bib
+%%PORTDOCS%%share/texmf-dist/doc/fonts/beuron/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/beuron/Zeichentabelle.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/beuron/beuron-de.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/beuron/beuron-de.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/beuron/beuron-en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/beuron/beuron-en.tex
+share/texmf-dist/fonts/map/dvips/beuron/beuron.map
+share/texmf-dist/fonts/source/public/beuron/beuron.mf
+share/texmf-dist/fonts/source/public/beuron/beuronbuchst.mf
+share/texmf-dist/fonts/source/public/beuron/beuronc.mf
+share/texmf-dist/fonts/source/public/beuron/beuronkern.mf
+share/texmf-dist/fonts/source/public/beuron/beuronx.mf
+share/texmf-dist/fonts/tfm/public/beuron/beuron.tfm
+share/texmf-dist/fonts/tfm/public/beuron/beuronc.tfm
+share/texmf-dist/fonts/tfm/public/beuron/beuronx.tfm
+share/texmf-dist/fonts/type1/public/beuron/beuron.pfb
+share/texmf-dist/fonts/type1/public/beuron/beuronc.pfb
+share/texmf-dist/fonts/type1/public/beuron/beuronx.pfb
+share/texmf-dist/tex/latex/beuron/beuron.sty
+share/texmf-dist/tex/latex/beuron/t1beuron.fd
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

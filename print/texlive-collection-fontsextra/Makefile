@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20160817
+PORTVERSION=	20160912
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -77,6 +77,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/belleek/belleek.map:${PORTSDIR}/print/texlive-belleek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bera/bera.sty:${PORTSDIR}/print/texlive-bera \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/berenisadf/ybdb.afm:${PORTSDIR}/print/texlive-berenisadf \
+		${LOCALBASE}/share/texmf-dist/tex/latex/beuron/beuron.sty:${PORTSDIR}/print/texlive-beuron \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bguq/bguq.sty:${PORTSDIR}/print/texlive-bguq \
 		${LOCALBASE}/share/texmf-dist/fonts/tfm/public/blacklettert1/tfrak.tfm:${PORTSDIR}/print/texlive-blacklettert1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boisik/boisik.sty:${PORTSDIR}/print/texlive-boisik \
