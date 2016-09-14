@@ -1,6 +1,7 @@
-SHA256 (TeXLive/bibleref-20160414.tar.xz) = cdf99435584a17bf0138a85958331c8eb059759b7cc2133a091c51d73a1f77b1
-SIZE (TeXLive/bibleref-20160414.tar.xz) = 5424
-SHA256 (TeXLive/bibleref.doc-20160414.tar.xz) = 07440c47d2f6bf0004113ddf3cda6ad885a6a6ab170f502148470d57c3a2b5c4
-SIZE (TeXLive/bibleref.doc-20160414.tar.xz) = 476656
-SHA256 (TeXLive/bibleref.source-20160414.tar.xz) = 33894be05696b03e5e504d036d409e619b3bf2945207fc501539fb1fb6a17f7c
-SIZE (TeXLive/bibleref.source-20160414.tar.xz) = 18640
+TIMESTAMP = 1473826492
+SHA256 (TeXLive/bibleref-20160913.tar.xz) = 1ebef46f92ada5a559cbee19662dc362e5ec3f5350efc7eb3858ae1747cb5fc2
+SIZE (TeXLive/bibleref-20160913.tar.xz) = 6200
+SHA256 (TeXLive/bibleref.doc-20160913.tar.xz) = ed5fb7e6eec8c35d93a5942b18f44d96d68372f0c5f242abffd2182580744d6f
+SIZE (TeXLive/bibleref.doc-20160913.tar.xz) = 308356
+SHA256 (TeXLive/bibleref.source-20160913.tar.xz) = 5d5211c1f274daf64d1568b21893adb9cbd1fbc223bbdcf15ea779c7fa32441d
+SIZE (TeXLive/bibleref.source-20160913.tar.xz) = 15192

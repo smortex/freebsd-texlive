@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	xebaposter
-PORTVERSION=	20160414
+PORTVERSION=	20160913
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Creates beautiful scientific Persian/Latin posters using TikZ
+COMMENT=	Create beautiful scientific Persian/Latin posters using TikZ
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

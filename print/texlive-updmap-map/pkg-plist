@@ -1,2 +1,12 @@
+share/texmf-dist/fonts/map/dvipdfmx/updmap/kanjix.map
+share/texmf-dist/fonts/map/dvips/updmap/builtin35.map
+share/texmf-dist/fonts/map/dvips/updmap/download35.map
+share/texmf-dist/fonts/map/dvips/updmap/ps2pk.map
+share/texmf-dist/fonts/map/dvips/updmap/psfonts.map
+share/texmf-dist/fonts/map/dvips/updmap/psfonts_pk.map
+share/texmf-dist/fonts/map/dvips/updmap/psfonts_t1.map
+share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map
+share/texmf-dist/fonts/map/pdftex/updmap/pdftex_dl14.map
+share/texmf-dist/fonts/map/pdftex/updmap/pdftex_ndl14.map
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

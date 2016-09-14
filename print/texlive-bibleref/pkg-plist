@@ -1,21 +1,19 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/bibleref/CHANGES
 %%PORTDOCS%%share/texmf-dist/doc/latex/bibleref/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/bibleref/bibleref-manual.css
-%%PORTDOCS%%share/texmf-dist/doc/latex/bibleref/bibleref-manual.html
-%%PORTDOCS%%share/texmf-dist/doc/latex/bibleref/bibleref-manual.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/bibleref/bibleref.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bibleref/makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/bibleref/sample.ist
 %%PORTDOCS%%share/texmf-dist/doc/latex/bibleref/samples/sample-categories.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bibleref/samples/sample-categories.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/bibleref/samples/sample-multind.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/bibleref/samples/sample-multind.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/bibleref/samples/sample-indextools.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/bibleref/samples/sample-indextools.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/bibleref/samples/sample-xidx.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bibleref/samples/sample-xidx.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/bibleref/samples/sample.ist
 %%PORTDOCS%%share/texmf-dist/doc/latex/bibleref/samples/sample.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/bibleref/samples/sample.tex
 %%PORTSRC%%share/texmf-dist/source/latex/bibleref/bibleref.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/bibleref/bibleref.ins
-%%PORTSRC%%share/texmf-dist/source/latex/bibleref/bibleref.perl
+share/texmf-dist/tex/latex/bibleref/bibleref-xidx.sty
 share/texmf-dist/tex/latex/bibleref/bibleref.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

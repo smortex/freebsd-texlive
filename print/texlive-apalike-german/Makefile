@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	updmap-map
+PORTNAME=	apalike-german
 PORTVERSION=	20160913
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The updmap-map package
+COMMENT=	A copy of apalike.bst with German localization
 
-OPTIONS_EXCLUDE=	DOCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
