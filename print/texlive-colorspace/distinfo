@@ -1,5 +1,5 @@
-TIMESTAMP = 1471803685
-SHA256 (TeXLive/colorspace-20160414.tar.xz) = e7f4a2148975bbd184e70996571afda2672a8d1b149b81ee1249ef589b650e91
-SIZE (TeXLive/colorspace-20160414.tar.xz) = 5848
-SHA256 (TeXLive/colorspace.doc-20160414.tar.xz) = 4505456541d80f570a5ba9e77ecd41916216f1293aad7c5f56ce7c7064d7e835
-SIZE (TeXLive/colorspace.doc-20160414.tar.xz) = 108576
+TIMESTAMP = 1473913291
+SHA256 (TeXLive/colorspace-20160914.tar.xz) = 49883d92e280b1527e722db394d11099798fafd3b063fc91a299e21ac3f2970a
+SIZE (TeXLive/colorspace-20160914.tar.xz) = 6016
+SHA256 (TeXLive/colorspace.doc-20160914.tar.xz) = 3f0439fe340e3b1519289727da7fe45a2ecd5a8b824594b65d58c2fbfd742c89
+SIZE (TeXLive/colorspace.doc-20160914.tar.xz) = 169444
