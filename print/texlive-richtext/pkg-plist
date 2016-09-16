@@ -1,7 +1,9 @@
-%%PORTDOCS%%share/texmf-dist/doc/bibtex/biber/biber.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/biber/bltxml/biblatex-examples.bltxml
-%%PORTSRC%%share/texmf-dist/source/bibtex/biber/Changes
-%%PORTSRC%%share/texmf-dist/source/bibtex/biber/biblatex-biber.tar.gz
-%%PORTSRC%%share/texmf-dist/source/bibtex/biber/utf8-macro-map.html
+%%PORTDOCS%%share/texmf-dist/doc/latex/richtext/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/richtext/doc/richtextman.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/richtext/doc/richtextman.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/richtext/examples/richtext_tst.tex
+%%PORTSRC%%share/texmf-dist/source/latex/richtext/richtext.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/richtext/richtext.ins
+share/texmf-dist/tex/latex/richtext/richtext.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

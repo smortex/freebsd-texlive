@@ -7,6 +7,12 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookincollection.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookincollection.dot
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookincollection.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookininarticle.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookininarticle.dot
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookininarticle.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookininbook.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookininbook.dot
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookininbook.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookinincollection.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookinincollection.dot
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-bookinother/documentation/example-bookinincollection.pdf

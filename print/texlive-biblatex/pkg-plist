@@ -1,8 +1,8 @@
 share/texmf-dist/bibtex/bib/biblatex/biblatex/biblatex-examples.bib
-share/texmf-dist/bibtex/bib/biblatex/biblatex/biblatex-examples.bltxml
 share/texmf-dist/bibtex/bst/biblatex/biblatex.bst
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/CHANGES.org
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/biber/bltxml/biblatex-examples.bltxml
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/biblatex.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/biblatex.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/01-introduction-biber.pdf
@@ -155,6 +155,8 @@ share/texmf-dist/bibtex/bst/biblatex/biblatex.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/95-customlists.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/95-customlists.dbx
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/95-customlists.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/96-dates-biber.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/96-dates.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/biblatex-examples.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/examples/biblatex-examples.bltxml
 share/texmf-dist/tex/latex/biblatex/bbx/alphabetic-verb.bbx
@@ -233,6 +235,7 @@ share/texmf-dist/tex/latex/biblatex/lbx/czech.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/danish.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/dutch.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+share/texmf-dist/tex/latex/biblatex/lbx/estonian.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/finnish.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/french.lbx
 share/texmf-dist/tex/latex/biblatex/lbx/german.lbx

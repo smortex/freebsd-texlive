@@ -1,0 +1,12 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-claves/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-claves/documentation/biblatex-claves-ref.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-claves/documentation/biblatex-claves.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-claves/documentation/biblatex-claves.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-claves/documentation/biblatex-claves.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-claves/documentation/latexmkrc
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-claves/documentation/makefile
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-claves/makefile
+share/texmf-dist/tex/latex/biblatex-claves/claves.bbx
+share/texmf-dist/tex/latex/biblatex-claves/claves.dbx
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

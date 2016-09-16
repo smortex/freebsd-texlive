@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	biblatex-realauthor
+PORTNAME=	biblatex-claves
 PORTVERSION=	20160915
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Indicate the real author of a work
+COMMENT=	A tool to manage claves of old litterature with BibLaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

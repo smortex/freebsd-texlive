@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20160706
+PORTVERSION=	20160915
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -93,6 +93,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-caspervector/biblatex-caspervector-gbk.def:${PORTSDIR}/print/texlive-biblatex-caspervector \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-chem/chem-acs.bbx:${PORTSDIR}/print/texlive-biblatex-chem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-chicago/biblatex-chicago.sty:${PORTSDIR}/print/texlive-biblatex-chicago \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-claves/claves.bbx:${PORTSDIR}/print/texlive-biblatex-claves \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-dw/bbx/authortitle-dw.bbx:${PORTSDIR}/print/texlive-biblatex-dw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-fiwi/fiwi-yearbeginning.bbx:${PORTSDIR}/print/texlive-biblatex-fiwi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-gost/biblatex-gost.dbx:${PORTSDIR}/print/texlive-biblatex-gost \

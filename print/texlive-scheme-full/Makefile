@@ -94,6 +94,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-caspervector/biblatex-caspervector-gbk.def:${PORTSDIR}/print/texlive-biblatex-caspervector \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-chem/chem-acs.bbx:${PORTSDIR}/print/texlive-biblatex-chem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-chicago/biblatex-chicago.sty:${PORTSDIR}/print/texlive-biblatex-chicago \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-claves/claves.bbx:${PORTSDIR}/print/texlive-biblatex-claves \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-dw/bbx/authortitle-dw.bbx:${PORTSDIR}/print/texlive-biblatex-dw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-fiwi/fiwi-yearbeginning.bbx:${PORTSDIR}/print/texlive-biblatex-fiwi \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-gost/biblatex-gost.dbx:${PORTSDIR}/print/texlive-biblatex-gost \
@@ -305,6 +306,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/belleek/belleek.map:${PORTSDIR}/print/texlive-belleek \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bera/bera.sty:${PORTSDIR}/print/texlive-bera \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/berenisadf/ybdb.afm:${PORTSDIR}/print/texlive-berenisadf \
+		${LOCALBASE}/share/texmf-dist/tex/latex/beuron/beuron.sty:${PORTSDIR}/print/texlive-beuron \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bguq/bguq.sty:${PORTSDIR}/print/texlive-bguq \
 		${LOCALBASE}/share/texmf-dist/fonts/tfm/public/blacklettert1/tfrak.tfm:${PORTSDIR}/print/texlive-blacklettert1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boisik/boisik.sty:${PORTSDIR}/print/texlive-boisik \
@@ -872,6 +874,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tabvar/tabvar.sty:${PORTSDIR}/print/texlive-tabvar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tdsfrmath/tdsfrmath.sty:${PORTSDIR}/print/texlive-tdsfrmath \
 		${LOCALBASE}/share/texmf-dist/tex/generic/variations/variations.sty:${PORTSDIR}/print/texlive-variations \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/apalike-german/apalike-german.bst:${PORTSDIR}/print/texlive-apalike-german \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-german/austrian.ldf:${PORTSDIR}/print/texlive-babel-german \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibleref-german/bibleref-german.sty:${PORTSDIR}/print/texlive-bibleref-german \
 		${LOCALBASE}/share/texmf-dist/tex/generic/dehyph-exptl/dehyphn-x-2014-05-21.pat:${PORTSDIR}/print/texlive-dehyph-exptl \
@@ -2042,6 +2045,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/relsize/relsize.sty:${PORTSDIR}/print/texlive-relsize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/repeatindex/repeatindex.sty:${PORTSDIR}/print/texlive-repeatindex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/repltext/repltext.sty:${PORTSDIR}/print/texlive-repltext \
+		${LOCALBASE}/share/texmf-dist/tex/latex/richtext/richtext.sty:${PORTSDIR}/print/texlive-richtext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rjlparshap/rjlpshap.sty:${PORTSDIR}/print/texlive-rjlparshap \
 		${LOCALBASE}/share/texmf-dist/tex/generic/rlepsf/rlepsf.tex:${PORTSDIR}/print/texlive-rlepsf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rmpage/rmpage.sty:${PORTSDIR}/print/texlive-rmpage \

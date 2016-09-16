@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20160904
+PORTVERSION=	20160915
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1103,6 +1103,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/relsize/relsize.sty:${PORTSDIR}/print/texlive-relsize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/repeatindex/repeatindex.sty:${PORTSDIR}/print/texlive-repeatindex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/repltext/repltext.sty:${PORTSDIR}/print/texlive-repltext \
+		${LOCALBASE}/share/texmf-dist/tex/latex/richtext/richtext.sty:${PORTSDIR}/print/texlive-richtext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rjlparshap/rjlpshap.sty:${PORTSDIR}/print/texlive-rjlparshap \
 		${LOCALBASE}/share/texmf-dist/tex/generic/rlepsf/rlepsf.tex:${PORTSDIR}/print/texlive-rlepsf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rmpage/rmpage.sty:${PORTSDIR}/print/texlive-rmpage \

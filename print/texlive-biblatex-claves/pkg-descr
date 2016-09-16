@@ -1,0 +1,12 @@
+When studying antic and medieval literature, we may find many
+different texts published with the same title, or, in contrary,
+the same text published with different titles. To avoid
+confusion, scholars have published claves, which are books
+listing ancient texts, identifying them by an identifier -- a
+number or a string of text. For example, for early
+Christianity, we have the Bibliotheca Hagiographica Graeca, the
+Clavis Apocryphorum Novi Testamenti and other claves. It could
+be useful to print the identifier of a texts in one specific
+clavis, or in many claves. The package allows us to create new
+field for different claves, and to present all these fields in
+a consistent way.

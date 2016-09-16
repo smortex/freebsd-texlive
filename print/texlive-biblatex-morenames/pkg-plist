@@ -1,6 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/documentation/biblatex-morenames.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/documentation/biblatex-morenames.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/documentation/example-bookineditor-BookineditorFromEditor.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/documentation/example-bookineditor-BookineditorFromEditor.dot
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/documentation/example-bookineditor-BookineditorFromEditor.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/documentation/example-bookineditor-IneditorFromEditor.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/documentation/example-bookineditor.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/documentation/example-bookineditor.dot
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-morenames/documentation/example-bookineditor.pdf

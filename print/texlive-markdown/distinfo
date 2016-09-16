@@ -1,7 +1,7 @@
-TIMESTAMP = 1473308632
-SHA256 (TeXLive/markdown-20160907.tar.xz) = de266ae988c8ae78ffc6e67aad357d8801e0b7fc224b112aa152c11f8c66fb51
-SIZE (TeXLive/markdown-20160907.tar.xz) = 16288
-SHA256 (TeXLive/markdown.doc-20160907.tar.xz) = 8ffd8e90791c38161c572b87a4d2a7e924a2702f915370c7418969ce791b6d8f
-SIZE (TeXLive/markdown.doc-20160907.tar.xz) = 317460
-SHA256 (TeXLive/markdown.source-20160907.tar.xz) = c3cda402cc5d59c33dc73fc9156b5fb7315d66d7caf4bb0cf19d5abc05e9522e
-SIZE (TeXLive/markdown.source-20160907.tar.xz) = 33368
+TIMESTAMP = 1474000137
+SHA256 (TeXLive/markdown-20160915.tar.xz) = 65952d4c3336f850b5c7453d927e82f880533350e57ceccf9ad8d4f4fbb4eb55
+SIZE (TeXLive/markdown-20160915.tar.xz) = 16288
+SHA256 (TeXLive/markdown.doc-20160915.tar.xz) = e0c71e5c8d09bdc488adb92eb47ce4b94b6088a41dec1d3e824a15652ad51100
+SIZE (TeXLive/markdown.doc-20160915.tar.xz) = 317728
+SHA256 (TeXLive/markdown.source-20160915.tar.xz) = 1d36f46bc7ee5bfeb14eaa165c65187711102c2a46f80f52bd60c5f742e9dec2
+SIZE (TeXLive/markdown.source-20160915.tar.xz) = 33388
