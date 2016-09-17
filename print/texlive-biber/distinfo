@@ -1,7 +1,7 @@
-TIMESTAMP = 1473999182
-SHA256 (TeXLive/biber-20160915.tar.xz) = d0ce881077f6ba8613b9430bf8496b37f388ddfaed3c7f948d8d814306dd2307
-SIZE (TeXLive/biber-20160915.tar.xz) = 692
-SHA256 (TeXLive/biber.doc-20160915.tar.xz) = 4344147de8b5b07d12f570065dd682471f8a3257e367f27eafb71840263753aa
-SIZE (TeXLive/biber.doc-20160915.tar.xz) = 273724
-SHA256 (TeXLive/biber.source-20160915.tar.xz) = b65ae8e1d1b28a1e6317ec03e09166a07e96abc703c7799769735444e5216dc4
-SIZE (TeXLive/biber.source-20160915.tar.xz) = 797444
+TIMESTAMP = 1474085469
+SHA256 (TeXLive/biber-20160916.tar.xz) = ac37be6a62f86a2a4147fa514aac41bcad1086da5b15b42b5e358d0af4dc55ef
+SIZE (TeXLive/biber-20160916.tar.xz) = 692
+SHA256 (TeXLive/biber.doc-20160916.tar.xz) = ad4cf73f928bcc27b62edc40861564de57c9e3c08a01ec6ba9f63a2e74385912
+SIZE (TeXLive/biber.doc-20160916.tar.xz) = 258056
+SHA256 (TeXLive/biber.source-20160916.tar.xz) = 2a87a625ba29971431a3ca800ada5919f3974725066a324c134e8d0a2dbc275e
+SIZE (TeXLive/biber.source-20160916.tar.xz) = 797444

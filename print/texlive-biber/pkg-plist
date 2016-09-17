@@ -1,5 +1,4 @@
 %%PORTDOCS%%share/texmf-dist/doc/bibtex/biber/biber.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex/biber/bltxml/biblatex-examples.bltxml
 %%PORTSRC%%share/texmf-dist/source/bibtex/biber/Changes
 %%PORTSRC%%share/texmf-dist/source/bibtex/biber/biblatex-biber.tar.gz
 %%PORTSRC%%share/texmf-dist/source/bibtex/biber/utf8-macro-map.html
