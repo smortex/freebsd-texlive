@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langkorean
-PORTVERSION=	20160414
+PORTVERSION=	20160920
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -61,7 +61,9 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/kotex-utf/contrib/dhucs-cmap.sty:${PORTSDIR}/print/texlive-kotex-utf \
 		${LOCALBASE}/share/texmf-dist/makeindex/kotex-utils/kotex.ist:${PORTSDIR}/print/texlive-kotex-utils \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/nanumtype1/nanumgtb00.afm:${PORTSDIR}/print/texlive-nanumtype1 \
-		${LOCALBASE}/share/texmf-dist/dvips/uhc/config.uhc:${PORTSDIR}/print/texlive-uhc
+		${LOCALBASE}/share/texmf-dist/dvips/uhc/config.uhc:${PORTSDIR}/print/texlive-uhc \
+		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/unfonts-core/UnBatang.ttf:${PORTSDIR}/print/texlive-unfonts-core \
+		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/unfonts-extra/UnBom.ttf:${PORTSDIR}/print/texlive-unfonts-extra
 
 OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>

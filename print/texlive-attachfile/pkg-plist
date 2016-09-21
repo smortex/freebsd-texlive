@@ -1,3 +1,4 @@
+share/texmf-dist/bibtex/bib/attachfile/attachfile.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/attachfile/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/attachfile/attachfile.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/attachfile/attachfile.dtx

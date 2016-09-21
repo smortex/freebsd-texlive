@@ -968,6 +968,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/makeindex/kotex-utils/kotex.ist:${PORTSDIR}/print/texlive-kotex-utils \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/nanumtype1/nanumgtb00.afm:${PORTSDIR}/print/texlive-nanumtype1 \
 		${LOCALBASE}/share/texmf-dist/dvips/uhc/config.uhc:${PORTSDIR}/print/texlive-uhc \
+		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/unfonts-core/UnBatang.ttf:${PORTSDIR}/print/texlive-unfonts-core \
+		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/unfonts-extra/UnBom.ttf:${PORTSDIR}/print/texlive-unfonts-extra \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/aramaic-serto/assy.afm:${PORTSDIR}/print/texlive-aramaic-serto \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-bahasa/bahasai.ldf:${PORTSDIR}/print/texlive-babel-bahasa \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-esperanto/esperanto.ldf:${PORTSDIR}/print/texlive-babel-esperanto \
@@ -2045,7 +2047,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/relsize/relsize.sty:${PORTSDIR}/print/texlive-relsize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/repeatindex/repeatindex.sty:${PORTSDIR}/print/texlive-repeatindex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/repltext/repltext.sty:${PORTSDIR}/print/texlive-repltext \
-		${LOCALBASE}/share/texmf-dist/tex/latex/richtext/richtext.sty:${PORTSDIR}/print/texlive-richtext \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rjlparshap/rjlpshap.sty:${PORTSDIR}/print/texlive-rjlparshap \
 		${LOCALBASE}/share/texmf-dist/tex/generic/rlepsf/rlepsf.tex:${PORTSDIR}/print/texlive-rlepsf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rmpage/rmpage.sty:${PORTSDIR}/print/texlive-rmpage \
@@ -2860,7 +2861,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecolor/xecolor.sty:${PORTSDIR}/print/texlive-xecolor \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecyr/xecyr.sty:${PORTSDIR}/print/texlive-xecyr \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xeindex/xeindex.sty:${PORTSDIR}/print/texlive-xeindex \
-		${LOCALBASE}/share/texmf-dist/tex/xelatex/xepersian/xepersian.sty:${PORTSDIR}/print/texlive-xepersian \
 		${LOCALBASE}/share/texmf-dist/tex/xetex/xesearch/xesearch.sty:${PORTSDIR}/print/texlive-xesearch \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xespotcolor/xespotcolor.sty:${PORTSDIR}/print/texlive-xespotcolor \
 		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/base/qx-unicode.map:${PORTSDIR}/print/texlive-xetex \

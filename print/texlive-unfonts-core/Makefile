@@ -1,14 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	attachfile
+PORTNAME=	unfonts-core
 PORTVERSION=	20160920
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Attach arbitrary files to a PDF document
+COMMENT=	TrueType version of Un-fonts
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

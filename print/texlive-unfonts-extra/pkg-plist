@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/unfonts-extra/COPYING
+%%PORTDOCS%%share/texmf-dist/doc/fonts/unfonts-extra/README.md
+%%PORTDOCS%%share/texmf-dist/doc/fonts/unfonts-extra/README_original
+share/texmf-dist/fonts/truetype/public/unfonts-extra/UnBom.ttf
+share/texmf-dist/fonts/truetype/public/unfonts-extra/UnJamoBatang.ttf
+share/texmf-dist/fonts/truetype/public/unfonts-extra/UnJamoDotum.ttf
+share/texmf-dist/fonts/truetype/public/unfonts-extra/UnJamoNovel.ttf
+share/texmf-dist/fonts/truetype/public/unfonts-extra/UnJamoSora.ttf
+share/texmf-dist/fonts/truetype/public/unfonts-extra/UnPen.ttf
+share/texmf-dist/fonts/truetype/public/unfonts-extra/UnPenheulim.ttf
+share/texmf-dist/fonts/truetype/public/unfonts-extra/UnPilgia.ttf
+share/texmf-dist/fonts/truetype/public/unfonts-extra/UnShinmun.ttf
+share/texmf-dist/fonts/truetype/public/unfonts-extra/UnTaza.ttf
+share/texmf-dist/fonts/truetype/public/unfonts-extra/UnVada.ttf
+share/texmf-dist/fonts/truetype/public/unfonts-extra/UnYetgul.ttf
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

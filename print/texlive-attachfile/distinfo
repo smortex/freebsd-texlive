@@ -1,6 +1,7 @@
-SHA256 (TeXLive/attachfile-20160414.tar.xz) = c47e1ce0f578b4b38d5489091b9aa04564ca2ed3ca7caabebc226b6aa81ebc4f
-SIZE (TeXLive/attachfile-20160414.tar.xz) = 4164
-SHA256 (TeXLive/attachfile.doc-20160414.tar.xz) = f42fe8a5dc6f0cf9f3682c5220c4232784c4abc18778e44456bf4b42f75f3bff
-SIZE (TeXLive/attachfile.doc-20160414.tar.xz) = 345132
-SHA256 (TeXLive/attachfile.source-20160414.tar.xz) = ec96f1f94a3af960bdc6f5c7b68fe13712471022242d3cbe5ddba28f8d5f5e7d
-SIZE (TeXLive/attachfile.source-20160414.tar.xz) = 19732
+TIMESTAMP = 1474431738
+SHA256 (TeXLive/attachfile-20160920.tar.xz) = 83dbdec75ce1da68007e90d09891a6efed8091ddb079b27d52068c8d1e1e6ae4
+SIZE (TeXLive/attachfile-20160920.tar.xz) = 4740
+SHA256 (TeXLive/attachfile.doc-20160920.tar.xz) = 394972a4d3a5ca39819f0707bb045ecdd5831200cfd7e32ea8fd66fe983dd9fa
+SIZE (TeXLive/attachfile.doc-20160920.tar.xz) = 346820
+SHA256 (TeXLive/attachfile.source-20160920.tar.xz) = eaacbc573e02a01237e8d04200389e463733aa2b371e7489583d9ad8d92ac964
+SIZE (TeXLive/attachfile.source-20160920.tar.xz) = 19992
