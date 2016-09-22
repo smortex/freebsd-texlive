@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	archaeologie
+PORTNAME=	filecontentsdef
 PORTVERSION=	20160921
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A citation-style which covers rules of the German Archaeological Institute
+COMMENT=	filecontents + macro + verbatim
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

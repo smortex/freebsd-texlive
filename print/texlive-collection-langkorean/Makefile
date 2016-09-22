@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langkorean
-PORTVERSION=	20160920
+PORTVERSION=	20160921
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -55,6 +55,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/dvips/norasi-c90/config.norasi-c90:${PORTSDIR}/print/texlive-norasi-c90 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xcjk2uni/cmap/c0001.cmap:${PORTSDIR}/print/texlive-xcjk2uni \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zxjafont/zxjafont.sty:${PORTSDIR}/print/texlive-zxjafont \
+		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/baekmuk/batang.ttf:${PORTSDIR}/print/texlive-baekmuk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cjk-ko/cjkutf8-josa.sty:${PORTSDIR}/print/texlive-cjk-ko \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-ucs/10_5.sty:${PORTSDIR}/print/texlive-kotex-oblivoir \
 		${LOCALBASE}/share/texmf-dist/tex/plain/kotex-plain/hangulcweb.tex:${PORTSDIR}/print/texlive-kotex-plain \

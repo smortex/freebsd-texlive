@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20160916
+PORTVERSION=	20160921
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -643,6 +643,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fifo-stack/fifo-stack.sty:${PORTSDIR}/print/texlive-fifo-stack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/figsize/figsize.sty:${PORTSDIR}/print/texlive-figsize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filecontents/filecontents.sty:${PORTSDIR}/print/texlive-filecontents \
+		${LOCALBASE}/share/texmf-dist/tex/latex/filecontentsdef/filecontentsdef.sty:${PORTSDIR}/print/texlive-filecontentsdef \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filedate/filedate.sty:${PORTSDIR}/print/texlive-filedate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filehook/filehook.sty:${PORTSDIR}/print/texlive-filehook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fileinfo/fileinfo.RLS:${PORTSDIR}/print/texlive-fileinfo \

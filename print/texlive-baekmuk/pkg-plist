@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/baekmuk/COPYRIGHT
+%%PORTDOCS%%share/texmf-dist/doc/fonts/baekmuk/COPYRIGHT.ks
+%%PORTDOCS%%share/texmf-dist/doc/fonts/baekmuk/README.md
+%%PORTDOCS%%share/texmf-dist/doc/fonts/baekmuk/README_original
+share/texmf-dist/fonts/truetype/public/baekmuk/batang.ttf
+share/texmf-dist/fonts/truetype/public/baekmuk/dotum.ttf
+share/texmf-dist/fonts/truetype/public/baekmuk/gulim.ttf
+share/texmf-dist/fonts/truetype/public/baekmuk/hline.ttf
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

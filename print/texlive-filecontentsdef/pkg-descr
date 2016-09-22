@@ -1,0 +1,11 @@
+The package provides two environments called filecontentsdef
+and filecontentshere. They are derived from the LaTeX
+filecontents environment as provided by Scott Pakin's
+filecontents package. In addition to the file creation they
+either store the (verbatim) contents in a macro
+(filecontentsdef) or typeset them (verbatim) on the spot
+(filecontentshere). The author developed the package to display
+TeX code verbatim in documentation and the same time produce
+the corresponding files during the LaTeX run in order to embed
+them in the PDF as file attachment annotations (by using Scott
+Pakin's package attachfile).

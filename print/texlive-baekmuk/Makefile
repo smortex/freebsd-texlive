@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	archaeologie
+PORTNAME=	baekmuk
 PORTVERSION=	20160921
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A citation-style which covers rules of the German Archaeological Institute
+COMMENT=	Baekmuk Korean TrueType fonts
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
