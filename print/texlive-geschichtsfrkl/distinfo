@@ -1,6 +1,7 @@
-SHA256 (TeXLive/geschichtsfrkl-20160607.tar.xz) = 82d4f4662b643b572c1858d65a1d7b4d1c9eabdcbfa729ffe5630a7fae9dd7f7
-SIZE (TeXLive/geschichtsfrkl-20160607.tar.xz) = 5316
-SHA256 (TeXLive/geschichtsfrkl.doc-20160607.tar.xz) = 6fed9322f08c2f32ea8b9ea0d61f5d9c896545d8973ca735f8102410765678a2
-SIZE (TeXLive/geschichtsfrkl.doc-20160607.tar.xz) = 641560
-SHA256 (TeXLive/geschichtsfrkl.source-20160607.tar.xz) = 80f93f8adfc576213aa526c938a7d87f2fc8ef0964bb854ca5850cfce4551fc6
-SIZE (TeXLive/geschichtsfrkl.source-20160607.tar.xz) = 24864
+TIMESTAMP = 1474603800
+SHA256 (TeXLive/geschichtsfrkl-20160922.tar.xz) = 61df002d89591ba34734ca11598f31c94450b196f2903170ad293ab04bc12ee3
+SIZE (TeXLive/geschichtsfrkl-20160922.tar.xz) = 5316
+SHA256 (TeXLive/geschichtsfrkl.doc-20160922.tar.xz) = acfac17d20a177b7c1099c04378003163843b5a921babe9b124975767dd37aba
+SIZE (TeXLive/geschichtsfrkl.doc-20160922.tar.xz) = 642504
+SHA256 (TeXLive/geschichtsfrkl.source-20160922.tar.xz) = c6f10dcc28bb7818f052852cb2a76680dc4dd62cd61dd96ddec36b23725c59e2
+SIZE (TeXLive/geschichtsfrkl.source-20160922.tar.xz) = 24896

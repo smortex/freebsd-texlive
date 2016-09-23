@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	gost
+PORTNAME=	revquantum
 PORTVERSION=	20160922
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	BibTeX styles to format according to GOST
+COMMENT=	Hacks to make writing quantum papers for revtex4-1 less painful
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

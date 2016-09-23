@@ -961,6 +961,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/afm/wadalab/dgj/dgjgreek.afm:${PORTSDIR}/print/texlive-wadalab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zxjafbfont/zxjafbfont.sty:${PORTSDIR}/print/texlive-zxjafbfont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zxjatype/zxjatype.sty:${PORTSDIR}/print/texlive-zxjatype \
+		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/baekmuk/batang.ttf:${PORTSDIR}/print/texlive-baekmuk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cjk-ko/cjkutf8-josa.sty:${PORTSDIR}/print/texlive-cjk-ko \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kotex-oblivoir/memhangul-ucs/10_5.sty:${PORTSDIR}/print/texlive-kotex-oblivoir \
 		${LOCALBASE}/share/texmf-dist/tex/plain/kotex-plain/hangulcweb.tex:${PORTSDIR}/print/texlive-kotex-plain \
@@ -1587,6 +1588,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fifo-stack/fifo-stack.sty:${PORTSDIR}/print/texlive-fifo-stack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/figsize/figsize.sty:${PORTSDIR}/print/texlive-figsize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filecontents/filecontents.sty:${PORTSDIR}/print/texlive-filecontents \
+		${LOCALBASE}/share/texmf-dist/tex/latex/filecontentsdef/filecontentsdef.sty:${PORTSDIR}/print/texlive-filecontentsdef \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filedate/filedate.sty:${PORTSDIR}/print/texlive-filedate \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filehook/filehook.sty:${PORTSDIR}/print/texlive-filehook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fileinfo/fileinfo.RLS:${PORTSDIR}/print/texlive-fileinfo \
@@ -2823,6 +2825,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/physics/physics.sty:${PORTSDIR}/print/texlive-physics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pseudocode/pseudocode.sty:${PORTSDIR}/print/texlive-pseudocode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pygmentex/pygmentex.sty:${PORTSDIR}/print/texlive-pygmentex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/revquantum/revquantum.sty:${PORTSDIR}/print/texlive-revquantum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sasnrdisplay/SASnRdisplay.cfg:${PORTSDIR}/print/texlive-sasnrdisplay \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sciposter/sciposter.cls:${PORTSDIR}/print/texlive-sciposter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sclang-prettifier/sclang-prettifier.sty:${PORTSDIR}/print/texlive-sclang-prettifier \

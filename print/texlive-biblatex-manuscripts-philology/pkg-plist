@@ -1,9 +1,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-manuscripts-philology/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-manuscripts-philology/documentation/biblatex-manuscripts-philology-example.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-manuscripts-philology/documentation/biblatex-manuscripts-philology-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-manuscripts-philology/documentation/biblatex-manuscripts-philology-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-manuscripts-philology/documentation/biblatex-manuscripts-philology.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-manuscripts-philology/documentation/biblatex-manuscripts-philology.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-manuscripts-philology/documentation/example.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-manuscripts-philology/documentation/example.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-manuscripts-philology/documentation/example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-manuscripts-philology/documentation/makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-manuscripts-philology/makefile
 share/texmf-dist/tex/latex/biblatex-manuscripts-philology/english-manuscripts.lbx

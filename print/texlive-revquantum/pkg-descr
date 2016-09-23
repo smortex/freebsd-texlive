@@ -1,0 +1,7 @@
+This package provides a number of useful hacks to solve common
+annoyances with the revtex4-1 package, and to define notation
+in common use within quantum information. In doing so, it
+imports and configures a number of commonly-available and used
+packages, and where reasonable, provides fallbacks. It also
+warns when users try to load packages which are known to be
+incompatible with revtex4-1.

@@ -1,10 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-true-citepages-omit/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-true-citepages-omit/biblatex-true-citepages-omit-example.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-true-citepages-omit/biblatex-true-citepages-omit-example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-true-citepages-omit/biblatex-true-citepages-omit.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-true-citepages-omit/biblatex-true-citepages-omit.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-true-citepages-omit/biblatex-true-citepages-omit.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-true-citepages-omit/example.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-true-citepages-omit/example.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-true-citepages-omit/example.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-true-citepages-omit/latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-true-citepages-omit/makefile
 share/texmf-dist/tex/latex/biblatex-true-citepages-omit/biblatex-true-citepages-omit.sty
