@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	tudscr
-PORTVERSION=	20160916
+PORTVERSION=	20160923
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	The Corporate Design of TU Dresden
+COMMENT=	Corporate Design of Technische Universitat Dresden
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

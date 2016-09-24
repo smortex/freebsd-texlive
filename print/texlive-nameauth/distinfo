@@ -1,6 +1,7 @@
-SHA256 (TeXLive/nameauth-20160414.tar.xz) = 124942742e2bad83d37830d07513b134ea6a06cbca27d4c7bbc9d0bac5a2f102
-SIZE (TeXLive/nameauth-20160414.tar.xz) = 5464
-SHA256 (TeXLive/nameauth.doc-20160414.tar.xz) = 7a167a3c9d862a0725e27a95481ff69cd1c6f3ce9f07f0cd257c43f10bf9f717
-SIZE (TeXLive/nameauth.doc-20160414.tar.xz) = 812924
-SHA256 (TeXLive/nameauth.source-20160414.tar.xz) = 18981a67b81ad0278591bdaa8193e6579d2807968a1b12bfab47fe75e8e5333d
-SIZE (TeXLive/nameauth.source-20160414.tar.xz) = 52856
+TIMESTAMP = 1474691367
+SHA256 (TeXLive/nameauth-20160923.tar.xz) = a4b74b78da0ecb2580f2894af8eb8435222feb5d46a90d8d49576682208c12b3
+SIZE (TeXLive/nameauth-20160923.tar.xz) = 5392
+SHA256 (TeXLive/nameauth.doc-20160923.tar.xz) = 4470e8e9e54b2cf6da568ca6f7329522136775a3c2f1afe7815a853e37f4303e
+SIZE (TeXLive/nameauth.doc-20160923.tar.xz) = 857516
+SHA256 (TeXLive/nameauth.source-20160923.tar.xz) = 9957113813693db39a478b5eb45742a1fea98e8883772ea3f7cd869f9ae8d642
+SIZE (TeXLive/nameauth.source-20160923.tar.xz) = 54864
