@@ -1,4 +1,5 @@
-SHA256 (TeXLive/tagpair-20160414.tar.xz) = 3e1a45bc07774c7f0ccb2a6437cde80a76bf938d544ec2872033de93102f591c
-SIZE (TeXLive/tagpair-20160414.tar.xz) = 1236
-SHA256 (TeXLive/tagpair.doc-20160414.tar.xz) = 681f3fbe14a8316505682a4ecf1e020135b62318bac7ad0cf0337fd845ab7da9
-SIZE (TeXLive/tagpair.doc-20160414.tar.xz) = 68628
+TIMESTAMP = 1474864003
+SHA256 (TeXLive/tagpair-20160925.tar.xz) = deb2a482ac5e93c710fbf6e48f3bc32901b1acc0b46e919835c90aa5051a12f1
+SIZE (TeXLive/tagpair-20160925.tar.xz) = 1240
+SHA256 (TeXLive/tagpair.doc-20160925.tar.xz) = bdca790af05d86be10f7e868b3f4cf751925a090e86e621b1d400d1cd1fb0d74
+SIZE (TeXLive/tagpair.doc-20160925.tar.xz) = 68908
