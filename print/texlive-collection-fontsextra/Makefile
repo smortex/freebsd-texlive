@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20160912
+PORTVERSION=	20160927
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -161,6 +161,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fourier/fourier.sty:${PORTSDIR}/print/texlive-fourier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fouriernc/fouriernc.sty:${PORTSDIR}/print/texlive-fouriernc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/frcursive/frcursive.sty:${PORTSDIR}/print/texlive-frcursive \
+		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/frederika2016/Frederika2016.otf:${PORTSDIR}/print/texlive-frederika2016 \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/genealogy/drgen.mf:${PORTSDIR}/print/texlive-genealogy \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/gentium-tug/GenBasB.afm:${PORTSDIR}/print/texlive-gentium-tug \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gfsartemisia/gfsartemisia.sty:${PORTSDIR}/print/texlive-gfsartemisia \

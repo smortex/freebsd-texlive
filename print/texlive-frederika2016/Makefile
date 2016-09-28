@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	biblatex-claves
+PORTNAME=	frederika2016
 PORTVERSION=	20160927
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A tool to manage claves of old litterature with BibLaTeX
+COMMENT=	An OpenType Greek calligraphy font
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
