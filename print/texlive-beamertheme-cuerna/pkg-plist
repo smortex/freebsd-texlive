@@ -1,0 +1,19 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-cuerna/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-cuerna/beamertheme-cuerna.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-cuerna/pictures/bluesimplex.png
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-cuerna/pictures/bluesimplexexample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-cuerna/pictures/brickexample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-cuerna/pictures/defaultexample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-cuerna/pictures/lettuceexample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-cuerna/template.tex
+%%PORTSRC%%share/texmf-dist/source/latex/beamertheme-cuerna/beamertheme-cuerna.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/beamertheme-cuerna/beamertheme-cuerna.ins
+share/texmf-dist/tex/latex/beamertheme-cuerna/beamercolorthemeCuerna.sty
+share/texmf-dist/tex/latex/beamertheme-cuerna/beamercolorthemebluesimplex.sty
+share/texmf-dist/tex/latex/beamertheme-cuerna/beamercolorthemebrick.sty
+share/texmf-dist/tex/latex/beamertheme-cuerna/beamercolorthemelettuce.sty
+share/texmf-dist/tex/latex/beamertheme-cuerna/beamerinnerthemeCuerna.sty
+share/texmf-dist/tex/latex/beamertheme-cuerna/beamerouterthemeCuerna.sty
+share/texmf-dist/tex/latex/beamertheme-cuerna/beamerthemeCuerna.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

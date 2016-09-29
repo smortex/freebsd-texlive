@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	multirow
+PORTNAME=	beamertheme-cuerna
 PORTVERSION=	20160928
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Create tabular cells spanning multiple rows
+COMMENT=	A beamer theme with 4 colour palettes.
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
