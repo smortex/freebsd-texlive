@@ -69,6 +69,10 @@ share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/morisawa/ptex-morisawa-04.map
 share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/morisawa/ptex-morisawa.map
 share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/morisawa/uptex-morisawa-04.map
 share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/morisawa/uptex-morisawa.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/ms-osx/otf-ms-osx.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/ms-osx/otf-up-ms-osx.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/ms-osx/ptex-ms-osx.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/ms-osx/uptex-ms-osx.map
 share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/ms/otf-ms.map
 share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/ms/otf-up-ms.map
 share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/ms/ptex-ms.map

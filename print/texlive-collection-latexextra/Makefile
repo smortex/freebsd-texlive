@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20160928
+PORTVERSION=	20160930
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1078,6 +1078,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/qcm/qcm.cls:${PORTSDIR}/print/texlive-qcm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/qstest/qstest.sty:${PORTSDIR}/print/texlive-qstest \
 		${LOCALBASE}/share/texmf-dist/tex/latex/qsymbols/qsymbols.sty:${PORTSDIR}/print/texlive-qsymbols \
+		${LOCALBASE}/share/texmf-dist/tex/latex/quicktype/quicktype.sty:${PORTSDIR}/print/texlive-quicktype \
 		${LOCALBASE}/share/texmf-dist/tex/latex/quotchap/quotchap.sty:${PORTSDIR}/print/texlive-quotchap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/quoting/quoting.sty:${PORTSDIR}/print/texlive-quoting \
 		${LOCALBASE}/share/texmf-dist/tex/latex/quotmark/quotmark.sty:${PORTSDIR}/print/texlive-quotmark \

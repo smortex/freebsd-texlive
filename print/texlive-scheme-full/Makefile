@@ -390,6 +390,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fourier/fourier.sty:${PORTSDIR}/print/texlive-fourier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fouriernc/fouriernc.sty:${PORTSDIR}/print/texlive-fouriernc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/frcursive/frcursive.sty:${PORTSDIR}/print/texlive-frcursive \
+		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/frederika2016/Frederika2016.otf:${PORTSDIR}/print/texlive-frederika2016 \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/genealogy/drgen.mf:${PORTSDIR}/print/texlive-genealogy \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/gentium-tug/GenBasB.afm:${PORTSDIR}/print/texlive-gentium-tug \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gfsartemisia/gfsartemisia.sty:${PORTSDIR}/print/texlive-gfsartemisia \
@@ -1276,6 +1277,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerdarkthemes/beamercolorthemecormorant.sty:${PORTSDIR}/print/texlive-beamerdarkthemes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamerposter/beamerposter.sty:${PORTSDIR}/print/texlive-beamerposter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamersubframe/beamersubframe.sty:${PORTSDIR}/print/texlive-beamersubframe \
+		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-cuerna/beamercolorthemeCuerna.sty:${PORTSDIR}/print/texlive-beamertheme-cuerna \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-detlevcm/beamercolorthemeETII.sty:${PORTSDIR}/print/texlive-beamertheme-detlevcm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-epyt/beamerthemeepyt.sty:${PORTSDIR}/print/texlive-beamertheme-epyt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamertheme-metropolis/beamercolorthememetropolis.sty:${PORTSDIR}/print/texlive-beamertheme-metropolis \
@@ -2022,6 +2024,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/qcm/qcm.cls:${PORTSDIR}/print/texlive-qcm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/qstest/qstest.sty:${PORTSDIR}/print/texlive-qstest \
 		${LOCALBASE}/share/texmf-dist/tex/latex/qsymbols/qsymbols.sty:${PORTSDIR}/print/texlive-qsymbols \
+		${LOCALBASE}/share/texmf-dist/tex/latex/quicktype/quicktype.sty:${PORTSDIR}/print/texlive-quicktype \
 		${LOCALBASE}/share/texmf-dist/tex/latex/quotchap/quotchap.sty:${PORTSDIR}/print/texlive-quotchap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/quoting/quoting.sty:${PORTSDIR}/print/texlive-quoting \
 		${LOCALBASE}/share/texmf-dist/tex/latex/quotmark/quotmark.sty:${PORTSDIR}/print/texlive-quotmark \
