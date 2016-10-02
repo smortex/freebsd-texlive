@@ -1,5 +1,5 @@
-TIMESTAMP = 1475208495
-SHA256 (TeXLive/texlive-docindex-20160929.tar.xz) = cddc57ca0b7b984b6c3d3bf345d68c66603a517f05c5ccfb4f3ca87efe3dfe28
-SIZE (TeXLive/texlive-docindex-20160929.tar.xz) = 109876
-SHA256 (TeXLive/texlive-docindex.doc-20160929.tar.xz) = 28cce9ea07fc9ba957cfccd3d60ef7a6fe5a5530c6bc7069c03ef6d0a6ec43be
-SIZE (TeXLive/texlive-docindex.doc-20160929.tar.xz) = 116556
+TIMESTAMP = 1475381234
+SHA256 (TeXLive/texlive-docindex-20161001.tar.xz) = e58760d123939056912e855047b17c55bebcd248113199460eb778df97161906
+SIZE (TeXLive/texlive-docindex-20161001.tar.xz) = 109876
+SHA256 (TeXLive/texlive-docindex.doc-20161001.tar.xz) = 6364fd5f71bcf41dbe6f794148296eeeeef20ec0ba7dadfe2f66cf9b4cf3ae16
+SIZE (TeXLive/texlive-docindex.doc-20161001.tar.xz) = 116592

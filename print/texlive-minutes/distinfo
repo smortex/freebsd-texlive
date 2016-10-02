@@ -1,6 +1,7 @@
-SHA256 (TeXLive/minutes-20160414.tar.xz) = 688b8708bdb4cf8977f4ca2134bb318bc154cac3ebf8d186006c989f1821fb2e
-SIZE (TeXLive/minutes-20160414.tar.xz) = 9012
-SHA256 (TeXLive/minutes.doc-20160414.tar.xz) = 38c431889dd0b09a33cd1e679c613a9f84b16f1609af723474cbe69185b35695
-SIZE (TeXLive/minutes.doc-20160414.tar.xz) = 245360
-SHA256 (TeXLive/minutes.source-20160414.tar.xz) = 45cab7b2f5f311bb01d710b6d727d6452fc6e4009388134ce5381c1df0249d58
-SIZE (TeXLive/minutes.source-20160414.tar.xz) = 24528
+TIMESTAMP = 1475382281
+SHA256 (TeXLive/minutes-20161001.tar.xz) = c34d0b41f135da61a73b725d9e4d75026b39b707cec6b6b41ceaca1bbc61e510
+SIZE (TeXLive/minutes-20161001.tar.xz) = 9024
+SHA256 (TeXLive/minutes.doc-20161001.tar.xz) = 51d509bc15a637e2fa99135598decb91b661d588dd22cbcd3c95ef2776712888
+SIZE (TeXLive/minutes.doc-20161001.tar.xz) = 393404
+SHA256 (TeXLive/minutes.source-20161001.tar.xz) = d753385b840767f97a5bf5cfe45c3ea2057209500036236be213dfed6b6ead37
+SIZE (TeXLive/minutes.source-20161001.tar.xz) = 24604

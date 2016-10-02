@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20160930
+PORTVERSION=	20161001
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -995,6 +995,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/outline/outline.sty:${PORTSDIR}/print/texlive-outline \
 		${LOCALBASE}/share/texmf-dist/tex/latex/outliner/outliner.sty:${PORTSDIR}/print/texlive-outliner \
 		${LOCALBASE}/share/texmf-dist/tex/latex/outlines/outlines.sty:${PORTSDIR}/print/texlive-outlines \
+		${LOCALBASE}/share/texmf-dist/tex/latex/overlays/overlays.sty:${PORTSDIR}/print/texlive-overlays \
 		${LOCALBASE}/share/texmf-dist/tex/latex/overpic/overpic.sty:${PORTSDIR}/print/texlive-overpic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pagecolor/pagecolor.sty:${PORTSDIR}/print/texlive-pagecolor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pagecont/pagecont.sty:${PORTSDIR}/print/texlive-pagecont \
