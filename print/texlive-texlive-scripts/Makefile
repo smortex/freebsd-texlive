@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	texlive-scripts
-PORTVERSION=	20160926
+PORTVERSION=	20161003
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
