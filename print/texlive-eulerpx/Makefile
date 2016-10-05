@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	reledmac
+PORTNAME=	eulerpx
 PORTVERSION=	20161004
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset scholarly editions
+COMMENT=	A modern interface for the Euler math fonts
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

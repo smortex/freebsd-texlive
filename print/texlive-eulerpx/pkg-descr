@@ -1,0 +1,10 @@
+This package provides the "eulerpx" font, which started as a
+hybrid of multiple other font packages, notably eulervm and
+newpxmath. Its purpose is twofold: To use the eulervm symbols
+for greek and latin, but the newpxmath font for braces and
+brackets, and the text font for digits and operators; and to
+make it easy to change between a sans and a serif font for the
+digits and operators so that the font can be used seamlessly in
+documents using both. This package was put together with the
+intent to use it with the Palatino and Optima fonts, but it may
+work with other combinations, too.

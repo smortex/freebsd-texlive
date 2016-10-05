@@ -1,10 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/overlays/COPYING
-%%PORTDOCS%%share/texmf-dist/doc/latex/overlays/ChangeLog
-%%PORTDOCS%%share/texmf-dist/doc/latex/overlays/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/overlays/overlays.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/overlays/overlays.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/overlays/sample.pdf
-%%PORTDOCS%%share/texmf-dist/doc/latex/overlays/sample.tex
-share/texmf-dist/tex/latex/overlays/overlays.sty
+%%PORTDOCS%%share/texmf-dist/doc/fonts/eulerpx/README
+share/texmf-dist/tex/latex/eulerpx/eulerpx.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
