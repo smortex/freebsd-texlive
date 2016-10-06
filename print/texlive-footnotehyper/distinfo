@@ -1,6 +1,7 @@
-SHA256 (TeXLive/footnotehyper-20160503.tar.xz) = fcf4ad3ab35bf0be36eb870993b915c6ddb8b376065a2e11afb6104b629b7f5d
-SIZE (TeXLive/footnotehyper-20160503.tar.xz) = 2212
-SHA256 (TeXLive/footnotehyper.doc-20160503.tar.xz) = 5750f5fcd810804dc860259f37e992ab3237c98f2f4fd5b028a2c021ac0d7712
-SIZE (TeXLive/footnotehyper.doc-20160503.tar.xz) = 47048
-SHA256 (TeXLive/footnotehyper.source-20160503.tar.xz) = 509c1930f57f0c971c163a3c45fb915de4ee7fed1835901d85bdb2935b1a72d0
-SIZE (TeXLive/footnotehyper.source-20160503.tar.xz) = 8520
+TIMESTAMP = 1475728001
+SHA256 (TeXLive/footnotehyper-20161005.tar.xz) = 8b95ca4199bfe7511d3c39143d09c73a0073251a6be59485d5f3666c0f92b61b
+SIZE (TeXLive/footnotehyper-20161005.tar.xz) = 2640
+SHA256 (TeXLive/footnotehyper.doc-20161005.tar.xz) = 28277161584f3aaf5f89a1cf474c75a3fc7d5b3434825e6dc2ec25b544fe2384
+SIZE (TeXLive/footnotehyper.doc-20161005.tar.xz) = 52844
+SHA256 (TeXLive/footnotehyper.source-20161005.tar.xz) = 88990ab99b6d0b4a2bf04276a807986d46cd8bc8024530f1e72a3036f38aee96
+SIZE (TeXLive/footnotehyper.source-20161005.tar.xz) = 10036

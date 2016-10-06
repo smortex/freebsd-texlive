@@ -1,5 +1,5 @@
-TIMESTAMP = 1475641826
-SHA256 (TeXLive/overlays-20161004.tar.xz) = 5537f9abfdcbf0347e3b380224b21af18407c6aaa247c5cec7025b630fdc8263
-SIZE (TeXLive/overlays-20161004.tar.xz) = 2112
-SHA256 (TeXLive/overlays.doc-20161004.tar.xz) = 5080d8ba74e40f120fa0874a3bcd602c158a7506fde541f5b45ff550caad9608
-SIZE (TeXLive/overlays.doc-20161004.tar.xz) = 93812
+TIMESTAMP = 1475728165
+SHA256 (TeXLive/overlays-20161005.tar.xz) = d38a4e10c8e2a14619d479c2f9da3e06fafba1e4aa454a38456757b0ac83e0a5
+SIZE (TeXLive/overlays-20161005.tar.xz) = 2200
+SHA256 (TeXLive/overlays.doc-20161005.tar.xz) = b7b3229dafbccfc883e7f36d3f1e1292e89b51b8af3ffa349c75a0cda3823b75
+SIZE (TeXLive/overlays.doc-20161005.tar.xz) = 95160

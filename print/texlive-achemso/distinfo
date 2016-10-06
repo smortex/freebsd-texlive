@@ -1,7 +1,7 @@
-TIMESTAMP = 1473394761
-SHA256 (TeXLive/achemso-20160908.tar.xz) = 18d15e3458e60b9eabbcf166dc88b49be5e3ba4a51afdf5d8dbc7219999f96a4
-SIZE (TeXLive/achemso-20160908.tar.xz) = 17912
-SHA256 (TeXLive/achemso.doc-20160908.tar.xz) = 2b582a397211b5d350383dd1144a69c90996fad57169497f0fd02d5b4e75bf5b
-SIZE (TeXLive/achemso.doc-20160908.tar.xz) = 865260
-SHA256 (TeXLive/achemso.source-20160908.tar.xz) = 06d04370074401e4ad6495d1eb8564f9b64104a71982ccf1da0d0171538d86c6
-SIZE (TeXLive/achemso.source-20160908.tar.xz) = 32684
+TIMESTAMP = 1475727791
+SHA256 (TeXLive/achemso-20161005.tar.xz) = 8f9d689e6f78eb665e99966bcca07a2e5e75e167ccf89c975c99931b9cd68f3d
+SIZE (TeXLive/achemso-20161005.tar.xz) = 17904
+SHA256 (TeXLive/achemso.doc-20161005.tar.xz) = c49ebd0201c54e378fcf7659d0b115c8cfd690de1ca1d527156858e065006ff1
+SIZE (TeXLive/achemso.doc-20161005.tar.xz) = 865148
+SHA256 (TeXLive/achemso.source-20161005.tar.xz) = 4d1a33383f7767fc293b1065e39d41741dcae1895e23a4fe753de3372515a917
+SIZE (TeXLive/achemso.source-20161005.tar.xz) = 32688
