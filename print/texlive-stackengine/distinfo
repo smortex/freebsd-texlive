@@ -1,4 +1,5 @@
-SHA256 (TeXLive/stackengine-20160731.tar.xz) = e664dd920e10ba9c87faddf1c72b0ef42162f5987948fc7544f93e2d3d032d18
-SIZE (TeXLive/stackengine-20160731.tar.xz) = 4984
-SHA256 (TeXLive/stackengine.doc-20160731.tar.xz) = 54b5a96e5ba675f67c90ae29020d761ad7ac7eb3e21d21b18e874852f498dbd1
-SIZE (TeXLive/stackengine.doc-20160731.tar.xz) = 339164
+TIMESTAMP = 1475900962
+SHA256 (TeXLive/stackengine-20161006.tar.xz) = 6285c7888be8e0c0d704b655aa4c5505bf62a02613fc08b2202d5b7d8acbbd9b
+SIZE (TeXLive/stackengine-20161006.tar.xz) = 5000
+SHA256 (TeXLive/stackengine.doc-20161006.tar.xz) = 4f38924d3ea902498eaafb25725eeda4c824caa99bbb38990c6a8063f51da422
+SIZE (TeXLive/stackengine.doc-20161006.tar.xz) = 339152

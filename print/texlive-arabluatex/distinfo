@@ -1,7 +1,7 @@
-TIMESTAMP = 1475208948
-SHA256 (TeXLive/arabluatex-20160929.tar.xz) = d9ae8b975e44345cec8f7a15cb2dcc730c3492435c791c4a37c26708ff119463
-SIZE (TeXLive/arabluatex-20160929.tar.xz) = 10920
-SHA256 (TeXLive/arabluatex.doc-20160929.tar.xz) = 8250ccf79e39b8f8f982cc4e69a9ffe5a4c8bffda8d124f26a8dff0c57100bb6
-SIZE (TeXLive/arabluatex.doc-20160929.tar.xz) = 325972
-SHA256 (TeXLive/arabluatex.source-20160929.tar.xz) = 45e0ab685ed0671c96c6d99497a4b8bc206dd7404358f97a14dec7dd29871c4e
-SIZE (TeXLive/arabluatex.source-20160929.tar.xz) = 31304
+TIMESTAMP = 1475900188
+SHA256 (TeXLive/arabluatex-20161006.tar.xz) = 764a60e0863964c5a33ffdf7b14057f061c65e64778b3f8fa8da10ee2ad9ac2a
+SIZE (TeXLive/arabluatex-20161006.tar.xz) = 10916
+SHA256 (TeXLive/arabluatex.doc-20161006.tar.xz) = 8cc7a1f23b5759b204f4a7324d4ab01d3cd1e3f9492a271616065b57c7ba1983
+SIZE (TeXLive/arabluatex.doc-20161006.tar.xz) = 326276
+SHA256 (TeXLive/arabluatex.source-20161006.tar.xz) = b1acd3f914730a7a70c666da3d3fd6a7fdb9184313bd972153e1543402dbe518
+SIZE (TeXLive/arabluatex.source-20161006.tar.xz) = 31320

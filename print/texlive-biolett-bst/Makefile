@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	arabluatex
+PORTNAME=	biolett-bst
 PORTVERSION=	20161006
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	An ArabTeX-like interface for LuaLaTeX
+COMMENT=	A BibTeX style for the journal "Biology Letters"
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

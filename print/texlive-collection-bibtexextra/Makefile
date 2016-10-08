@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20160915
+PORTVERSION=	20161006
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -127,6 +127,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibtopic/bibtopic.sty:${PORTSDIR}/print/texlive-bibtopic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibtopicprefix/bibtopicprefix.sty:${PORTSDIR}/print/texlive-bibtopicprefix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibunits/bibunits.sty:${PORTSDIR}/print/texlive-bibunits \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/biolett-bst/biolett.bst:${PORTSDIR}/print/texlive-biolett-bst \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/bookdb/bookdb.bst:${PORTSDIR}/print/texlive-bookdb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/breakcites/breakcites.sty:${PORTSDIR}/print/texlive-breakcites \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cell/cell.sty:${PORTSDIR}/print/texlive-cell \

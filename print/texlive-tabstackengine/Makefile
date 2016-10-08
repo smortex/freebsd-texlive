@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	tabstackengine
-PORTVERSION=	20160414
+PORTVERSION=	20161006
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

@@ -128,6 +128,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibtopic/bibtopic.sty:${PORTSDIR}/print/texlive-bibtopic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibtopicprefix/bibtopicprefix.sty:${PORTSDIR}/print/texlive-bibtopicprefix \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bibunits/bibunits.sty:${PORTSDIR}/print/texlive-bibunits \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/biolett-bst/biolett.bst:${PORTSDIR}/print/texlive-biolett-bst \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/bookdb/bookdb.bst:${PORTSDIR}/print/texlive-bookdb \
 		${LOCALBASE}/share/texmf-dist/tex/latex/breakcites/breakcites.sty:${PORTSDIR}/print/texlive-breakcites \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cell/cell.sty:${PORTSDIR}/print/texlive-cell \
@@ -1557,6 +1558,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/etoc/etoc.sty:${PORTSDIR}/print/texlive-etoc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty:${PORTSDIR}/print/texlive-etoolbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eukdate/eukdate.sty:${PORTSDIR}/print/texlive-eukdate \
+		${LOCALBASE}/share/texmf-dist/tex/latex/eulerpx/eulerpx.sty:${PORTSDIR}/print/texlive-eulerpx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/europasscv/europasscv.cls:${PORTSDIR}/print/texlive-europasscv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/europecv/europecv.cls:${PORTSDIR}/print/texlive-europecv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/everyhook/everyhook.sty:${PORTSDIR}/print/texlive-everyhook \
@@ -1941,6 +1943,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/outline/outline.sty:${PORTSDIR}/print/texlive-outline \
 		${LOCALBASE}/share/texmf-dist/tex/latex/outliner/outliner.sty:${PORTSDIR}/print/texlive-outliner \
 		${LOCALBASE}/share/texmf-dist/tex/latex/outlines/outlines.sty:${PORTSDIR}/print/texlive-outlines \
+		${LOCALBASE}/share/texmf-dist/tex/latex/overlays/overlays.sty:${PORTSDIR}/print/texlive-overlays \
 		${LOCALBASE}/share/texmf-dist/tex/latex/overpic/overpic.sty:${PORTSDIR}/print/texlive-overpic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pagecolor/pagecolor.sty:${PORTSDIR}/print/texlive-pagecolor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pagecont/pagecont.sty:${PORTSDIR}/print/texlive-pagecont \
