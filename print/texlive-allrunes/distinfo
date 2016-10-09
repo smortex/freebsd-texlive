@@ -1,6 +1,7 @@
-SHA256 (TeXLive/allrunes-20160414.tar.xz) = 14eca9a3627db43f6f7f5defda43a696e4aaf042eabddd5e8a3e2bc5c5467c42
-SIZE (TeXLive/allrunes-20160414.tar.xz) = 8035004
-SHA256 (TeXLive/allrunes.doc-20160414.tar.xz) = e053d06f39e3cc2f45059d91123b67ba1a17044bb1ad580868fb383a1e52276e
-SIZE (TeXLive/allrunes.doc-20160414.tar.xz) = 568388
-SHA256 (TeXLive/allrunes.source-20160414.tar.xz) = e8a51fc0b5206e4bd43ae6bf7495495d44fc3b3b762208ab38de9006c45b54f0
-SIZE (TeXLive/allrunes.source-20160414.tar.xz) = 42148
+TIMESTAMP = 1475986271
+SHA256 (TeXLive/allrunes-20161008.tar.xz) = 2cc399d3e489bc30c78760692b8b1bf6fbc0a6a27bc1cdd4d1a2415b223aeecd
+SIZE (TeXLive/allrunes-20161008.tar.xz) = 8035744
+SHA256 (TeXLive/allrunes.doc-20161008.tar.xz) = 159fd88c2e0a0cc5bff95c5bfaaa1d5fe0f0b7ae2235d4d26f51889e5bc7b0b9
+SIZE (TeXLive/allrunes.doc-20161008.tar.xz) = 193488
+SHA256 (TeXLive/allrunes.source-20161008.tar.xz) = 475162a47828b92f355dd8002f209bf8cb20cbdd3ee8028c379435f8aa20cbaf
+SIZE (TeXLive/allrunes.source-20161008.tar.xz) = 42048

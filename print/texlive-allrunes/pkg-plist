@@ -1,4 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/fonts/allrunes/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/allrunes/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/fonts/allrunes/allrunes.pdf
 share/texmf-dist/fonts/map/dvips/allrunes/allrunes.map
 share/texmf-dist/fonts/source/public/allrunes/frua.mf

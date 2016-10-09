@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	autoaligne
+PORTNAME=	uspace
 PORTVERSION=	20161008
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Align terms and members in math expressions>
+COMMENT=	Giving meaning to various Unicode space characters
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	autoaligne
+PORTNAME=	spalign
 PORTVERSION=	20161008
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Align terms and members in math expressions>
+COMMENT=	Typeset matrices and arrays with spaces and semicolons as delimiters.
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
