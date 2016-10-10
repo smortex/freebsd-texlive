@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-humanities
-PORTVERSION=	20160414
+PORTVERSION=	20161009
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -96,6 +96,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/leipzig/leipzig.sty:${PORTSDIR}/print/texlive-leipzig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lexikon/lexikon.sty:${PORTSDIR}/print/texlive-lexikon \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lexref/lexref.sty:${PORTSDIR}/print/texlive-lexref \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lingmacros/lingmacros.sty:${PORTSDIR}/print/texlive-lingmacros \
 		${LOCALBASE}/share/texmf-dist/tex/latex/linguex/linguex.sty:${PORTSDIR}/print/texlive-linguex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/liturg/liturg.sty:${PORTSDIR}/print/texlive-liturg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/metrix/metrix.sty:${PORTSDIR}/print/texlive-metrix \

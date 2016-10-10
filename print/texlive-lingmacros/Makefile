@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	lingmacros
 PORTVERSION=	20161009
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	Macros for typesetting formal linguistics
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

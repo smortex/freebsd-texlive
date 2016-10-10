@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20161006
+PORTVERSION=	20161009
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -102,6 +102,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-ijsra/ijsra.bbx:${PORTSDIR}/print/texlive-biblatex-ijsra \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-iso690/czech-iso.lbx:${PORTSDIR}/print/texlive-biblatex-iso690 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-juradiss/biblatex-juradiss.bbx:${PORTSDIR}/print/texlive-biblatex-juradiss \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-lni/LNI-english.lbx:${PORTSDIR}/print/texlive-biblatex-lni \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-luh-ipw/bbx/authoryear-luh-ipw.bbx:${PORTSDIR}/print/texlive-biblatex-luh-ipw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-manuscripts-philology/english-manuscripts.lbx:${PORTSDIR}/print/texlive-biblatex-manuscripts-philology \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-mla/american-mla.lbx:${PORTSDIR}/print/texlive-biblatex-mla \
