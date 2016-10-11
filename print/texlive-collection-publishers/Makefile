@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-publishers
-PORTVERSION=	20160823
+PORTVERSION=	20161010
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -94,6 +94,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/ascelike/ascelike.cls:${PORTSDIR}/print/texlive-ascelike \
 		${LOCALBASE}/share/texmf-dist/tex/latex/aucklandthesis/aucklandthesis.cls:${PORTSDIR}/print/texlive-aucklandthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bangorcsthesis/bangorcsthesis.cls:${PORTSDIR}/print/texlive-bangorcsthesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bangorexam/bangorexam.cls:${PORTSDIR}/print/texlive-bangorexam \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamer-verona/beamerthemeVerona.sty:${PORTSDIR}/print/texlive-beamer-verona \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bgteubner/bgteubner.cls:${PORTSDIR}/print/texlive-bgteubner \
 		${LOCALBASE}/share/texmf-dist/tex/latex/br-lex/br-lex.cls:${PORTSDIR}/print/texlive-br-lex \

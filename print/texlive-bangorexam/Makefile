@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	turabian-formatting
+PORTNAME=	bangorexam
 PORTVERSION=	20161010
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Formatting based on Turabian's Manual
+COMMENT=	Typeset an examination at Bangor University
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

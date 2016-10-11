@@ -103,6 +103,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-ijsra/ijsra.bbx:${PORTSDIR}/print/texlive-biblatex-ijsra \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-iso690/czech-iso.lbx:${PORTSDIR}/print/texlive-biblatex-iso690 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-juradiss/biblatex-juradiss.bbx:${PORTSDIR}/print/texlive-biblatex-juradiss \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-lni/LNI-english.lbx:${PORTSDIR}/print/texlive-biblatex-lni \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-luh-ipw/bbx/authoryear-luh-ipw.bbx:${PORTSDIR}/print/texlive-biblatex-luh-ipw \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-manuscripts-philology/english-manuscripts.lbx:${PORTSDIR}/print/texlive-biblatex-manuscripts-philology \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-mla/american-mla.lbx:${PORTSDIR}/print/texlive-biblatex-mla \
@@ -692,6 +693,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/leipzig/leipzig.sty:${PORTSDIR}/print/texlive-leipzig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lexikon/lexikon.sty:${PORTSDIR}/print/texlive-lexikon \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lexref/lexref.sty:${PORTSDIR}/print/texlive-lexref \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lingmacros/lingmacros.sty:${PORTSDIR}/print/texlive-lingmacros \
 		${LOCALBASE}/share/texmf-dist/tex/latex/linguex/linguex.sty:${PORTSDIR}/print/texlive-linguex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/liturg/liturg.sty:${PORTSDIR}/print/texlive-liturg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/metrix/metrix.sty:${PORTSDIR}/print/texlive-metrix \
@@ -2636,6 +2638,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/ascelike/ascelike.cls:${PORTSDIR}/print/texlive-ascelike \
 		${LOCALBASE}/share/texmf-dist/tex/latex/aucklandthesis/aucklandthesis.cls:${PORTSDIR}/print/texlive-aucklandthesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bangorcsthesis/bangorcsthesis.cls:${PORTSDIR}/print/texlive-bangorcsthesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bangorexam/bangorexam.cls:${PORTSDIR}/print/texlive-bangorexam \
 		${LOCALBASE}/share/texmf-dist/tex/latex/beamer-verona/beamerthemeVerona.sty:${PORTSDIR}/print/texlive-beamer-verona \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bgteubner/bgteubner.cls:${PORTSDIR}/print/texlive-bgteubner \
 		${LOCALBASE}/share/texmf-dist/tex/latex/br-lex/br-lex.cls:${PORTSDIR}/print/texlive-br-lex \
