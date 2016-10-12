@@ -1,8 +1,14 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/scanpages/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/scanpages/pic1.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/scanpages/pic2.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/scanpages/replicate.plist
 %%PORTDOCS%%share/texmf-dist/doc/latex/scanpages/replicate.py
 %%PORTDOCS%%share/texmf-dist/doc/latex/scanpages/scanpages-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/scanpages/scanpages-doc.tex
+share/texmf-dist/fonts/map/dvips/scanpages/scanpages.map
+share/texmf-dist/fonts/tfm/public/scanpages/scanwipe.tfm
+share/texmf-dist/fonts/type1/public/scanpages/scanwipe.pfb
 share/texmf-dist/tex/latex/scanpages/scanpages.sty
+share/texmf-dist/tex/latex/scanpages/uscanwipe.fd
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
