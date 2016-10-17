@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20160927
+PORTVERSION=	20161016
 CATEGORIES=	print
 DISTFILES=	# None
 

@@ -4,12 +4,16 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/ticket/ex_file.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/ticket/ex_flashcard.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/ticket/ex_flashcard.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ticket/ex_flashcard_dup.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ticket/ex_flashcard_rm.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/ticket/ex_flashcard_rm.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/ticket/ex_marks.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/ticket/ex_marks.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/ticket/ex_pin.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/ticket/ex_pin.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/ticket/ex_vcard.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/ticket/ex_vcard.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/ticket/logo.png
 %%PORTDOCS%%share/texmf-dist/doc/latex/ticket/manual.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/ticket/manual.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/ticket/words.tex

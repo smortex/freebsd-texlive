@@ -118,6 +118,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-phys/phys.bbx:${PORTSDIR}/print/texlive-biblatex-phys \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-publist/publist.bbx:${PORTSDIR}/print/texlive-biblatex-publist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-realauthor/realauthor.bbx:${PORTSDIR}/print/texlive-biblatex-realauthor \
+		${LOCALBASE}/share/texmf-dist/makeindex/biblatex-sbl/sbl-paper-bibleref.ist:${PORTSDIR}/print/texlive-biblatex-sbl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-science/science.bbx:${PORTSDIR}/print/texlive-biblatex-science \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-source-division/biblatex-source-division.sty:${PORTSDIR}/print/texlive-biblatex-source-division \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-subseries/subseries.bbx:${PORTSDIR}/print/texlive-biblatex-subseries \
@@ -693,7 +694,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/leipzig/leipzig.sty:${PORTSDIR}/print/texlive-leipzig \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lexikon/lexikon.sty:${PORTSDIR}/print/texlive-lexikon \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lexref/lexref.sty:${PORTSDIR}/print/texlive-lexref \
-		${LOCALBASE}/share/texmf-dist/tex/latex/lingmacros/lingmacros.sty:${PORTSDIR}/print/texlive-lingmacros \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ling-macros/ling-macros.sty:${PORTSDIR}/print/texlive-ling-macros \
 		${LOCALBASE}/share/texmf-dist/tex/latex/linguex/linguex.sty:${PORTSDIR}/print/texlive-linguex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/liturg/liturg.sty:${PORTSDIR}/print/texlive-liturg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/metrix/metrix.sty:${PORTSDIR}/print/texlive-metrix \
@@ -951,6 +952,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexja/luatexja.sty:${PORTSDIR}/print/texlive-luatexja \
 		${LOCALBASE}/share/texmf-dist/pbibtex/bib/jxampl.bib:${PORTSDIR}/print/texlive-pbibtex-base \
 		${LOCALBASE}/share/texmf-dist/tex/platex/base/ascmac.sty:${PORTSDIR}/print/texlive-platex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/platex-tools/plextarray.sty:${PORTSDIR}/print/texlive-platex-tools \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/ptex/morisawa.map:${PORTSDIR}/print/texlive-ptex \
 		${LOCALBASE}/share/texmf-dist/tex/ptex/ptex-base/ascii-jplain.tex:${PORTSDIR}/print/texlive-ptex-base \
 		${LOCALBASE}/share/texmf-dist/fonts/source/ptex-fonts/ascgrp/ascgrp.mf:${PORTSDIR}/print/texlive-ptex-fonts \

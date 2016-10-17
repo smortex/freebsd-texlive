@@ -1,7 +1,7 @@
-TIMESTAMP = 1476073927
-SHA256 (TeXLive/tracklang-20161009.tar.xz) = 3d70dd3dbdb294b50a7cbb48b924791261b0cf0ed11debd654819c1f21d3cb42
-SIZE (TeXLive/tracklang-20161009.tar.xz) = 17000
-SHA256 (TeXLive/tracklang.doc-20161009.tar.xz) = e6ac9cbf678a4c656296fd5aa54256a7fb0853494df4acfabf0812805584b7ee
-SIZE (TeXLive/tracklang.doc-20161009.tar.xz) = 906976
-SHA256 (TeXLive/tracklang.source-20161009.tar.xz) = b6c3bb33ab7b1aade6796ea7f97c02a36145a48a6a31edd242865b882d4d7fff
-SIZE (TeXLive/tracklang.source-20161009.tar.xz) = 50236
+TIMESTAMP = 1476677653
+SHA256 (TeXLive/tracklang-20161016.tar.xz) = 47a2a38438c8f663708d01481840fa56d3c6245eecde9d46892835eb47a6412a
+SIZE (TeXLive/tracklang-20161016.tar.xz) = 17032
+SHA256 (TeXLive/tracklang.doc-20161016.tar.xz) = ab28cff171e615ef3265435dea4f23e9709ba2f2899c0820fe20a900c101e1af
+SIZE (TeXLive/tracklang.doc-20161016.tar.xz) = 907960
+SHA256 (TeXLive/tracklang.source-20161016.tar.xz) = 21d7f88396004aa2903ed2f8a92897ee431771b594415c5caa4d0a62c079e04e
+SIZE (TeXLive/tracklang.source-20161016.tar.xz) = 50348

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langjapanese
-PORTVERSION=	20160818
+PORTVERSION=	20161016
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -69,6 +69,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexja/luatexja.sty:${PORTSDIR}/print/texlive-luatexja \
 		${LOCALBASE}/share/texmf-dist/pbibtex/bib/jxampl.bib:${PORTSDIR}/print/texlive-pbibtex-base \
 		${LOCALBASE}/share/texmf-dist/tex/platex/base/ascmac.sty:${PORTSDIR}/print/texlive-platex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/platex-tools/plextarray.sty:${PORTSDIR}/print/texlive-platex-tools \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/ptex/morisawa.map:${PORTSDIR}/print/texlive-ptex \
 		${LOCALBASE}/share/texmf-dist/tex/ptex/ptex-base/ascii-jplain.tex:${PORTSDIR}/print/texlive-ptex-base \
 		${LOCALBASE}/share/texmf-dist/fonts/source/ptex-fonts/ascgrp/ascgrp.mf:${PORTSDIR}/print/texlive-ptex-fonts \

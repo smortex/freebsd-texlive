@@ -1,0 +1,23 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-sbl/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-sbl/biblatex-sbl-ibid.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-sbl/biblatex-sbl-ibid.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-sbl/biblatex-sbl-test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-sbl/biblatex-sbl-test.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-sbl/biblatex-sbl.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-sbl/biblatex-sbl.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-sbl/biblatex-sbl.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-sbl/sbl-paper.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/biblatex-sbl/sbl-paper.tex
+share/texmf-dist/makeindex/biblatex-sbl/sbl-paper-bibleref.ist
+share/texmf-dist/tex/latex/biblatex-sbl/biblatex-sbl.def
+share/texmf-dist/tex/latex/biblatex-sbl/sbl-american.lbx
+share/texmf-dist/tex/latex/biblatex-sbl/sbl-british.lbx
+share/texmf-dist/tex/latex/biblatex-sbl/sbl-english.lbx
+share/texmf-dist/tex/latex/biblatex-sbl/sbl-german.lbx
+share/texmf-dist/tex/latex/biblatex-sbl/sbl-paper.sty
+share/texmf-dist/tex/latex/biblatex-sbl/sbl-spanish.lbx
+share/texmf-dist/tex/latex/biblatex-sbl/sbl.bbx
+share/texmf-dist/tex/latex/biblatex-sbl/sbl.cbx
+share/texmf-dist/tex/latex/biblatex-sbl/sbl.dbx
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

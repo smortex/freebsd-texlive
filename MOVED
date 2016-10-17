@@ -224,3 +224,4 @@ print/texlive-pdftex-def||2016-07-18|Upstream support dropped
 print/texlive-xetex-def||2016-07-18|Upstream support dropped
 print/texlive-oldstandardt1||2016-07-21|Upstream support dropped
 print/texlive-richtext||2016-09-17|Upstream support dropped
+print/texlive-lingmacros||2016-10-17|Upstream support dropped

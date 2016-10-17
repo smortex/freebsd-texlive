@@ -1,7 +1,7 @@
 # $FreeBSD$
 
-PORTNAME=	lingmacros
-PORTVERSION=	20161009
+PORTNAME=	ling-macros
+PORTVERSION=	20161016
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

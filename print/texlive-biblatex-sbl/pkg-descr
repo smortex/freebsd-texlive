@@ -1,0 +1,6 @@
+The package provides BibLaTeX support for citations in the
+format specified by the second edition of the Society of
+Biblical Literature (SBL) Handbook of Style. All example notes
+and bibliography entries from the handbook are supported and
+shown in an example file. A style file for writing SBL student
+papers is also included.

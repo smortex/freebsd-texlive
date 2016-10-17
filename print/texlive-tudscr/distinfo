@@ -1,7 +1,7 @@
-TIMESTAMP = 1476246660
-SHA256 (TeXLive/tudscr-20161011.tar.xz) = 5e33f19f46b027569da7387f8928d1c48d9f5776c3c16b6d98405a574562b189
-SIZE (TeXLive/tudscr-20161011.tar.xz) = 151848
-SHA256 (TeXLive/tudscr.doc-20161011.tar.xz) = d38bdd6c3f6f194434fa59003d2243aa0b3fc2570c50a6602799e39054f3f013
-SIZE (TeXLive/tudscr.doc-20161011.tar.xz) = 3584716
-SHA256 (TeXLive/tudscr.source-20161011.tar.xz) = ee8b68c95b144d1057ccc055bf404ff877926fed09ff0f801d7795230283431d
-SIZE (TeXLive/tudscr.source-20161011.tar.xz) = 292284
+TIMESTAMP = 1476678773
+SHA256 (TeXLive/tudscr-20161016.tar.xz) = ee85cb4220a40ccda58a8b10c66cc8c4d01ec91f889e42ec66f2ef69ce4be586
+SIZE (TeXLive/tudscr-20161016.tar.xz) = 151984
+SHA256 (TeXLive/tudscr.doc-20161016.tar.xz) = d6eee1f3b16e1a04bb3200227d10852d6ad4e8121f77f8aa04f56f8813ec8c5a
+SIZE (TeXLive/tudscr.doc-20161016.tar.xz) = 3544972
+SHA256 (TeXLive/tudscr.source-20161016.tar.xz) = 5589f18e7b3a9ca6e722162f9fe8bf7acbe5eba378aa00b7269b02d03d9998c7
+SIZE (TeXLive/tudscr.source-20161016.tar.xz) = 292492

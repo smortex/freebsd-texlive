@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-bibtexextra
-PORTVERSION=	20161009
+PORTVERSION=	20161016
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -117,6 +117,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-phys/phys.bbx:${PORTSDIR}/print/texlive-biblatex-phys \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-publist/publist.bbx:${PORTSDIR}/print/texlive-biblatex-publist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-realauthor/realauthor.bbx:${PORTSDIR}/print/texlive-biblatex-realauthor \
+		${LOCALBASE}/share/texmf-dist/makeindex/biblatex-sbl/sbl-paper-bibleref.ist:${PORTSDIR}/print/texlive-biblatex-sbl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-science/science.bbx:${PORTSDIR}/print/texlive-biblatex-science \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-source-division/biblatex-source-division.sty:${PORTSDIR}/print/texlive-biblatex-source-division \
 		${LOCALBASE}/share/texmf-dist/tex/latex/biblatex-subseries/subseries.bbx:${PORTSDIR}/print/texlive-biblatex-subseries \
