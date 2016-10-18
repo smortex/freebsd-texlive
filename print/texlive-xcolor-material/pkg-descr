@@ -1,0 +1,4 @@
+The package is built on top of the great xcolor package. It
+provides a useful definition of the beautiful Google Material
+Color Palette, available at Google Material design, for its use
+in document writing with LaTeX and Friends.

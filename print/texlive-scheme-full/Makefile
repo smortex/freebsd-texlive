@@ -417,7 +417,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/imfellenglish/imfe_5cupvv.enc:${PORTSDIR}/print/texlive-imfellenglish \
 		${LOCALBASE}/share/texmf-dist/tex/latex/inconsolata/inconsolata.sty:${PORTSDIR}/print/texlive-inconsolata \
 		${LOCALBASE}/share/texmf-dist/dvips/initials/config.Acorn:${PORTSDIR}/print/texlive-initials \
-		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/ipaex-type1/ipaex-type1.map:${PORTSDIR}/print/texlive-ipaex-type1 \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ipaex-type1/ipaex-type1.sty:${PORTSDIR}/print/texlive-ipaex-type1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/iwona/iwona.sty:${PORTSDIR}/print/texlive-iwona \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/jablantile/jablantile.mf:${PORTSDIR}/print/texlive-jablantile \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jamtimes/jamtimes.sty:${PORTSDIR}/print/texlive-jamtimes \
@@ -2302,6 +2302,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/xargs/xargs.sty:${PORTSDIR}/print/texlive-xargs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xassoccnt/xassoccnt.sty:${PORTSDIR}/print/texlive-xassoccnt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xcntperchap/xcntperchap.sty:${PORTSDIR}/print/texlive-xcntperchap \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xcolor-material/xcolor-material.sty:${PORTSDIR}/print/texlive-xcolor-material \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xcolor-solarized/xcolor-solarized.sty:${PORTSDIR}/print/texlive-xcolor-solarized \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xcomment/xcomment.sty:${PORTSDIR}/print/texlive-xcomment \
 		${LOCALBASE}/share/texmf-dist/makeindex/xdoc/docindex.ist:${PORTSDIR}/print/texlive-xdoc \

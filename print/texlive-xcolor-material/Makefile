@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	ipaex-type1
+PORTNAME=	xcolor-material
 PORTVERSION=	20161017
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	IPAex fonts converted to Type-1 format Unicode subfonts
+COMMENT=	Defines the 256 colors from Google Material Color Palette
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

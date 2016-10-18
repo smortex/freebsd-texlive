@@ -1,6 +1,7 @@
-SHA256 (TeXLive/imakeidx-20160629.tar.xz) = bd774530d3d0f409ef4a36566b622a0f689628d63ff57398d90b5f0dc7919684
-SIZE (TeXLive/imakeidx-20160629.tar.xz) = 4068
-SHA256 (TeXLive/imakeidx.doc-20160629.tar.xz) = c97ebf3f8d42db1784998de76fa075443fbb25f85b66a0cc96532f63519e7306
-SIZE (TeXLive/imakeidx.doc-20160629.tar.xz) = 517912
-SHA256 (TeXLive/imakeidx.source-20160629.tar.xz) = 0cc4b113af0edd244ee0ba70789b5167f87094833e8840b8a899a8641792c4f5
-SIZE (TeXLive/imakeidx.source-20160629.tar.xz) = 20132
+TIMESTAMP = 1476764647
+SHA256 (TeXLive/imakeidx-20161017.tar.xz) = 30c9ec4294ffe7ecd598a03422db784c30d9ade9606cc389b5e182c1cc2e953d
+SIZE (TeXLive/imakeidx-20161017.tar.xz) = 4068
+SHA256 (TeXLive/imakeidx.doc-20161017.tar.xz) = 97832a034aa2479beaa6954534a0b52a6c4a63b41b92380295282f605b1a7264
+SIZE (TeXLive/imakeidx.doc-20161017.tar.xz) = 518156
+SHA256 (TeXLive/imakeidx.source-20161017.tar.xz) = f33d75eebf631b9d7c4734ae780ca4602a408190a0027cf5aa469db3048fefcd
+SIZE (TeXLive/imakeidx.source-20161017.tar.xz) = 20124
