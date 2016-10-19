@@ -1,0 +1,6 @@
+The package is a Python script, whose typical use is when
+preparing printed material for users with low vision. The most
+effective way of doing this is to print on (notional) small
+paper, and then to magnify the result; the script calculates
+the settings for various font and paper sizes. More details are
+to be read in the script itself.

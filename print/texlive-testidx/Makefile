@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	bxcjkjatype
+PORTNAME=	testidx
 PORTVERSION=	20161018
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset Japanese with pdfLaTeX and CJK
+COMMENT=	Dummy text for testing index styles and indexing applications
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

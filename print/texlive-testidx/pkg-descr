@@ -1,0 +1,7 @@
+This is a LaTeX package that provides a command to produce
+dummy text interspersed with \index commands to test an index
+style or indexing application. The dummy text is mostly in
+English, but includes extended Latin characters provided either
+through LaTeX accent commands or directly with UTF-8
+characters, depending on the setup, to allow for testing
+extended Latin alphabets.
