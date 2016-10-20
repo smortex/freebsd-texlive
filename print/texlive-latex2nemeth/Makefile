@@ -1,11 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	latex2nemeth
 PORTVERSION=	20161019
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	Convert LaTeX source to Braille with math in Nemeth
+
+RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-binextra
-PORTVERSION=	20161018
+PORTVERSION=	20161019
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -65,6 +65,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/scripts/latex-git-log/latex-git-log:${PORTSDIR}/print/texlive-latex-git-log \
 		${LOCALBASE}/share/texmf-dist/scripts/latex-papersize/latex-papersize.py:${PORTSDIR}/print/texlive-latex-papersize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/latex2man/latex2man.sty:${PORTSDIR}/print/texlive-latex2man \
+		${LOCALBASE}/share/texmf-dist/scripts/latex2nemeth/latex2nemeth:${PORTSDIR}/print/texlive-latex2nemeth \
 		${LOCALBASE}/share/texmf-dist/scripts/latexdiff/latexdiff-vc.pl:${PORTSDIR}/print/texlive-latexdiff \
 		${LOCALBASE}/share/texmf-dist/scripts/latexfileversion/latexfileversion:${PORTSDIR}/print/texlive-latexfileversion \
 		${LOCALBASE}/share/texmf-dist/scripts/latexmk/latexmk.pl:${PORTSDIR}/print/texlive-latexmk \

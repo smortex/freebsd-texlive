@@ -205,7 +205,9 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyphenex/ushyphex.tex:${PORTSDIR}/print/texlive-hyphenex \
 		${LOCALBASE}/share/texmf-dist/scripts/installfont/installfont-tl:${PORTSDIR}/print/texlive-installfont \
 		${LOCALBASE}/share/texmf-dist/scripts/latex-git-log/latex-git-log:${PORTSDIR}/print/texlive-latex-git-log \
+		${LOCALBASE}/share/texmf-dist/scripts/latex-papersize/latex-papersize.py:${PORTSDIR}/print/texlive-latex-papersize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/latex2man/latex2man.sty:${PORTSDIR}/print/texlive-latex2man \
+		${LOCALBASE}/share/texmf-dist/scripts/latex2nemeth/latex2nemeth:${PORTSDIR}/print/texlive-latex2nemeth \
 		${LOCALBASE}/share/texmf-dist/scripts/latexdiff/latexdiff-vc.pl:${PORTSDIR}/print/texlive-latexdiff \
 		${LOCALBASE}/share/texmf-dist/scripts/latexfileversion/latexfileversion:${PORTSDIR}/print/texlive-latexfileversion \
 		${LOCALBASE}/share/texmf-dist/scripts/latexmk/latexmk.pl:${PORTSDIR}/print/texlive-latexmk \
@@ -2201,6 +2203,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/termcal/termcal.sty:${PORTSDIR}/print/texlive-termcal \
 		${LOCALBASE}/share/texmf-dist/tex/latex/termlist/termlist.sty:${PORTSDIR}/print/texlive-termlist \
 		${LOCALBASE}/share/texmf-dist/tex/latex/testhyphens/testhyphens.sty:${PORTSDIR}/print/texlive-testhyphens \
+		${LOCALBASE}/share/texmf-dist/tex/latex/testidx/testidx.sty:${PORTSDIR}/print/texlive-testidx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tex-label/tex-label.sty:${PORTSDIR}/print/texlive-tex-label \
 		${LOCALBASE}/share/texmf-dist/tex/latex/texlogos/texlogos.sty:${PORTSDIR}/print/texlive-texlogos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/texmate/texmate.sty:${PORTSDIR}/print/texlive-texmate \

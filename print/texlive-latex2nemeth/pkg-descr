@@ -1,0 +1,14 @@
+After many failed attempts to transcribe real math notes and
+books to Braille/Nemeth in order to deal with a real situation
+(blind student in Math Dept.), we decided to develop a new
+program that follows a direct, from LaTeX to Braille/Nemeth,
+approach. Other attempts (such as tex4ht) failed because they
+all needed an extra step to go from xml to Braille, and this
+step (say, with liblouis) produced incomprehensible output
+(liblouis focuses in Office apps). Our main target was the
+Greek language which is only Braille level 1, but English at
+level 1 is supported as well. Simple pictures in PSTricks are
+also supported in order to produce tactile graphics with
+specialized equipment. Note that embossing will need
+LibreOffice and odt2braille as this project does not deal with
+embossers' drivers.

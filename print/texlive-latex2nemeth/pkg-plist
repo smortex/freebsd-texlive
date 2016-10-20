@@ -1,0 +1,9 @@
+%%PORTDOCS%%share/texmf-dist/doc/support/latex2nemeth/README
+%%PORTDOCS%%share/texmf-dist/doc/support/latex2nemeth/examples/mathpics.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latex2nemeth/examples/mathtest.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latex2nemeth/examples/nemeth.json
+%%PORTDOCS%%share/texmf-dist/doc/support/latex2nemeth/gpl-3.0.txt
+share/texmf-dist/scripts/latex2nemeth/latex2nemeth
+share/texmf-dist/scripts/latex2nemeth/latex2nemeth-v1.0.jar
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
