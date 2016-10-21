@@ -1,6 +1,7 @@
-SHA256 (TeXLive/nucleardata-20160414.tar.xz) = 9d595407755e631e687b33ab1ef878e74408c6657c0f1024236a06ab215e99cc
-SIZE (TeXLive/nucleardata-20160414.tar.xz) = 120372
-SHA256 (TeXLive/nucleardata.doc-20160414.tar.xz) = 96b96aa298b917a76a283cfa7dd75a2d27751a26cdb95fd65dcd33934e972884
-SIZE (TeXLive/nucleardata.doc-20160414.tar.xz) = 406484
-SHA256 (TeXLive/nucleardata.source-20160414.tar.xz) = ceaedb72dea312758864e0266eeb8d504a1d288eeba8c132a47757792d8c9571
-SIZE (TeXLive/nucleardata.source-20160414.tar.xz) = 124764
+TIMESTAMP = 1477024753
+SHA256 (TeXLive/nucleardata-20161020.tar.xz) = 677bd6233e8b7d8debf9c4f171b527cec10e5c709c428ad338c8b32ea3ee0d5e
+SIZE (TeXLive/nucleardata-20161020.tar.xz) = 120400
+SHA256 (TeXLive/nucleardata.doc-20161020.tar.xz) = 956163ae6b939509c7728b57d0e3e11317ab2d314fe013274a37ff9e6323008f
+SIZE (TeXLive/nucleardata.doc-20161020.tar.xz) = 407376
+SHA256 (TeXLive/nucleardata.source-20161020.tar.xz) = 443171bb2a14f77ef95f66808e0840084091a387d37d31801d5e96681cb772f7
+SIZE (TeXLive/nucleardata.source-20161020.tar.xz) = 124812

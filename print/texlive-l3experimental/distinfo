@@ -1,6 +1,7 @@
-SHA256 (TeXLive/l3experimental-20160515.tar.xz) = 5d8ba5a55e3f51c5d3db21ee256be2fae32ace1db665a37934709429defc748d
-SIZE (TeXLive/l3experimental-20160515.tar.xz) = 36980
-SHA256 (TeXLive/l3experimental.doc-20160515.tar.xz) = 7e5f9be94ea47e30e703d575d57b97056b4c6d205ad621ebbddeb4cd29251c78
-SIZE (TeXLive/l3experimental.doc-20160515.tar.xz) = 3401692
-SHA256 (TeXLive/l3experimental.source-20160515.tar.xz) = 718f59a5ad8d32a19a2e4cc87f0a6227f41226a90b36cc4012d8d7adbb5ec220
-SIZE (TeXLive/l3experimental.source-20160515.tar.xz) = 123420
+TIMESTAMP = 1477023769
+SHA256 (TeXLive/l3experimental-20161020.tar.xz) = de9caef0765da67dfca39e0050c686af4656bda8a1dbb65e26026484db1ec4fe
+SIZE (TeXLive/l3experimental-20161020.tar.xz) = 36788
+SHA256 (TeXLive/l3experimental.doc-20161020.tar.xz) = d978d11fdc591f2e99b27f994d08e13bf67d8adb348d041708fbd5c421dda1b0
+SIZE (TeXLive/l3experimental.doc-20161020.tar.xz) = 3415972
+SHA256 (TeXLive/l3experimental.source-20161020.tar.xz) = 1247a0bcf13c1749dd949e2e94a913c2854346ad7980b416550cfe4137426994
+SIZE (TeXLive/l3experimental.source-20161020.tar.xz) = 123528

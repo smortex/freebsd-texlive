@@ -1,7 +1,7 @@
-TIMESTAMP = 1476937912
-SHA256 (TeXLive/bangorexam-20161019.tar.xz) = 887ae8ae446335d115bd1df4eef481337cb41820f8062f21ba6070067f227710
-SIZE (TeXLive/bangorexam-20161019.tar.xz) = 3744
-SHA256 (TeXLive/bangorexam.doc-20161019.tar.xz) = c077500b2c6ee3d6a2680afbf9eb5684ed0b8e88487769dde6751f9b0117cb9c
-SIZE (TeXLive/bangorexam.doc-20161019.tar.xz) = 183684
-SHA256 (TeXLive/bangorexam.source-20161019.tar.xz) = cc0192f24ca7d575039e98397e6e49593d1525dd674a07ffdc374d2085f35f67
-SIZE (TeXLive/bangorexam.source-20161019.tar.xz) = 6944
+TIMESTAMP = 1477024642
+SHA256 (TeXLive/bangorexam-20161020.tar.xz) = 28c92a5e58194937051ee42466dd8c5a17b84c8a150bda96ec4e2dc336bd5987
+SIZE (TeXLive/bangorexam-20161020.tar.xz) = 3744
+SHA256 (TeXLive/bangorexam.doc-20161020.tar.xz) = 12c9028213a4c7b7684201caff0ea22f0c412fa0afe805f6c3bf6fc2e22c1ba8
+SIZE (TeXLive/bangorexam.doc-20161020.tar.xz) = 183592
+SHA256 (TeXLive/bangorexam.source-20161020.tar.xz) = d997c5a7fd92e852223a42843c46910ab97b561465fd833cd8d533b9c3100b2b
+SIZE (TeXLive/bangorexam.source-20161020.tar.xz) = 6984
