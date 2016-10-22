@@ -1,0 +1,6 @@
+Features include: - Automated transition between Bangla and
+English - Fixed word space issue for popular Bangla fonts -
+Support for all of the common commands and environments. -
+Bangla numbering for page, section, chapters etc. (It enhances
+polyglossia's support) - New theorem, problem, example,
+solution and other environments, all of which are in Bangla.

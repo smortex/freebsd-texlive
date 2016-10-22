@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	pdflatexpicscale
-PORTVERSION=	20160803
+PORTVERSION=	20161021
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

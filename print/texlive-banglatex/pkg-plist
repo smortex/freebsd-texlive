@@ -1,10 +1,6 @@
-%%PORTDOCS%%share/texmf-dist/doc/context/third/games/README
-%%PORTDOCS%%share/texmf-dist/doc/context/third/games/games-doc.pdf
-share/texmf-dist/tex/context/third/games/games-go.lua
-share/texmf-dist/tex/context/third/games/games-go.tex
-share/texmf-dist/tex/context/third/games/games-hex.lua
-share/texmf-dist/tex/context/third/games/games-hex.tex
-share/texmf-dist/tex/context/third/games/holz280.jpg
-share/texmf-dist/tex/context/third/games/t-games.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/banglatex/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/banglatex/banglatex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/banglatex/banglatex.tex
+share/texmf-dist/tex/latex/banglatex/banglatex.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -116,15 +116,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/context/third/degrade/t-degrade.tex:${PORTSDIR}/print/texlive-context-degrade \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-fancybreak.xml:${PORTSDIR}/print/texlive-context-fancybreak \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/filter/t-filter.mkii:${PORTSDIR}/print/texlive-context-filter \
-		${LOCALBASE}/share/texmf-dist/tex/context/third/fixme/t-fixme.mkii:${PORTSDIR}/print/texlive-context-fixme \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/french/t-french.mkiv:${PORTSDIR}/print/texlive-context-french \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-fullpage.xml:${PORTSDIR}/print/texlive-context-fullpage \
-		${LOCALBASE}/share/texmf-dist/tex/context/third/games/games-go.lua:${PORTSDIR}/print/texlive-context-games \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/gantt/gantt-s-mp.tex:${PORTSDIR}/print/texlive-context-gantt \
 		${LOCALBASE}/share/texmf-dist/metapost/context/third/gnuplot/mp-gnuplot.mp:${PORTSDIR}/print/texlive-context-gnuplot \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-letter.xml:${PORTSDIR}/print/texlive-context-letter \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/lettrine.xml:${PORTSDIR}/print/texlive-context-lettrine \
-		${LOCALBASE}/share/texmf-dist/tex/context/third/lilypond/t-lilypond.tex:${PORTSDIR}/print/texlive-context-lilypond \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-mathsets.xml:${PORTSDIR}/print/texlive-context-mathsets \
 		${LOCALBASE}/share/texmf-dist/scripts/context/lua/third/rst/mtx-t-rst.lua:${PORTSDIR}/print/texlive-context-rst \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/ruby/t-ruby.mkii:${PORTSDIR}/print/texlive-context-ruby \

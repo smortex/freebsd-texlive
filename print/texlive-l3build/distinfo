@@ -1,6 +1,7 @@
-SHA256 (TeXLive/l3build-20160623.tar.xz) = a56d58bc256392ca40780f1d266bfcdbcb990db91a22c93e5a84af9b934dc9d8
-SIZE (TeXLive/l3build-20160623.tar.xz) = 19012
-SHA256 (TeXLive/l3build.doc-20160623.tar.xz) = f709b41fc728ba2add64bde631cc7e5ee8fc3ecf73c86104cfd4e58b08e0b2e5
-SIZE (TeXLive/l3build.doc-20160623.tar.xz) = 610492
-SHA256 (TeXLive/l3build.source-20160623.tar.xz) = a88a808d2af65148118be507d429853897e942628e9a0b2ce7b1ee39051f1b91
-SIZE (TeXLive/l3build.source-20160623.tar.xz) = 19720
+TIMESTAMP = 1477110286
+SHA256 (TeXLive/l3build-20161021.tar.xz) = 4fa24dfb489bfaf7debf9fdbd4236ea65edeef006d807508b6af2b8b4fa4d5e5
+SIZE (TeXLive/l3build-20161021.tar.xz) = 19212
+SHA256 (TeXLive/l3build.doc-20161021.tar.xz) = 39d6583e9d425c51dd193ce8e832f5ab3f82e0cf9eca0aff314b83dd2ee23f8d
+SIZE (TeXLive/l3build.doc-20161021.tar.xz) = 609460
+SHA256 (TeXLive/l3build.source-20161021.tar.xz) = 903ea85d761acbf36594edb37336a059c2a3002bbb69533ad481c7568b6ae8a8
+SIZE (TeXLive/l3build.source-20161021.tar.xz) = 19752

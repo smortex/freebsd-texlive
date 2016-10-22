@@ -69,15 +69,12 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/amstex/base/amstex.tex:${PORTSDIR
 		${LOCALBASE}/share/texmf-dist/tex/context/third/degrade/t-degrade.tex:${PORTSDIR}/print/texlive-context-degrade \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-fancybreak.xml:${PORTSDIR}/print/texlive-context-fancybreak \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/filter/t-filter.mkii:${PORTSDIR}/print/texlive-context-filter \
-		${LOCALBASE}/share/texmf-dist/tex/context/third/fixme/t-fixme.mkii:${PORTSDIR}/print/texlive-context-fixme \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/french/t-french.mkiv:${PORTSDIR}/print/texlive-context-french \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-fullpage.xml:${PORTSDIR}/print/texlive-context-fullpage \
-		${LOCALBASE}/share/texmf-dist/tex/context/third/games/games-go.lua:${PORTSDIR}/print/texlive-context-games \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/gantt/gantt-s-mp.tex:${PORTSDIR}/print/texlive-context-gantt \
 		${LOCALBASE}/share/texmf-dist/metapost/context/third/gnuplot/mp-gnuplot.mp:${PORTSDIR}/print/texlive-context-gnuplot \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-letter.xml:${PORTSDIR}/print/texlive-context-letter \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/lettrine.xml:${PORTSDIR}/print/texlive-context-lettrine \
-		${LOCALBASE}/share/texmf-dist/tex/context/third/lilypond/t-lilypond.tex:${PORTSDIR}/print/texlive-context-lilypond \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-mathsets.xml:${PORTSDIR}/print/texlive-context-mathsets \
 		${LOCALBASE}/share/texmf-dist/scripts/context/lua/third/rst/mtx-t-rst.lua:${PORTSDIR}/print/texlive-context-rst \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/ruby/t-ruby.mkii:${PORTSDIR}/print/texlive-context-ruby \
@@ -300,7 +297,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/amstex/base/amstex.tex:${PORTSDIR
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecolor/xecolor.sty:${PORTSDIR}/print/texlive-xecolor \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xecyr/xecyr.sty:${PORTSDIR}/print/texlive-xecyr \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xeindex/xeindex.sty:${PORTSDIR}/print/texlive-xeindex \
-		${LOCALBASE}/share/texmf-dist/tex/xelatex/xepersian/xepersian.sty:${PORTSDIR}/print/texlive-xepersian \
 		${LOCALBASE}/share/texmf-dist/tex/xetex/xesearch/xesearch.sty:${PORTSDIR}/print/texlive-xesearch \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/xespotcolor/xespotcolor.sty:${PORTSDIR}/print/texlive-xespotcolor \
 		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/base/qx-unicode.map:${PORTSDIR}/print/texlive-xetex \
