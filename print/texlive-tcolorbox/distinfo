@@ -1,4 +1,5 @@
-SHA256 (TeXLive/tcolorbox-20160715.tar.xz) = 37c1685cc64cadc691aa02f836af4d0f387640ee720150b459a7707fce6a0918
-SIZE (TeXLive/tcolorbox-20160715.tar.xz) = 224608
-SHA256 (TeXLive/tcolorbox.doc-20160715.tar.xz) = 761379d7a7cf800b0d3d1900e6a987a89fb50435a479b9a3cf22be7dcb4b69b4
-SIZE (TeXLive/tcolorbox.doc-20160715.tar.xz) = 3879152
+TIMESTAMP = 1477196891
+SHA256 (TeXLive/tcolorbox-20161022.tar.xz) = a09d7240d6e3c7d70f786ac17e55cc3b8e068355511cd6e912f7d26dcb47fc38
+SIZE (TeXLive/tcolorbox-20161022.tar.xz) = 224740
+SHA256 (TeXLive/tcolorbox.doc-20161022.tar.xz) = 127c68aa66dd7fede2d3cfdf6f1d80dc8890f26362608738e8c1cf8a15d1e133
+SIZE (TeXLive/tcolorbox.doc-20161022.tar.xz) = 3884400

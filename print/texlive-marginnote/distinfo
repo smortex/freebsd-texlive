@@ -1,6 +1,7 @@
-SHA256 (TeXLive/marginnote-20160612.tar.xz) = c7021a46d91317c851d71b643107befee52a148fa51a819c4b44d3e8df7db814
-SIZE (TeXLive/marginnote-20160612.tar.xz) = 3304
-SHA256 (TeXLive/marginnote.doc-20160612.tar.xz) = 59bba0252e44dafda01a62c093db620d812e4e7a6ffe2287c529fe4ff2a36c3c
-SIZE (TeXLive/marginnote.doc-20160612.tar.xz) = 294432
-SHA256 (TeXLive/marginnote.source-20160612.tar.xz) = cd1de58f7647131bab5218f35da6959f10a2425f837180ee5113652c0d1fb76d
-SIZE (TeXLive/marginnote.source-20160612.tar.xz) = 8988
+TIMESTAMP = 1477196698
+SHA256 (TeXLive/marginnote-20161022.tar.xz) = 9cc7362790b7ee8dc76d23f4f2f1c9c5723d0a52ae952ed61f9ea36e503f55ea
+SIZE (TeXLive/marginnote-20161022.tar.xz) = 3320
+SHA256 (TeXLive/marginnote.doc-20161022.tar.xz) = 986859541fcf65e1c77b41c23636877b037584005d6b49527ced33a43d684b39
+SIZE (TeXLive/marginnote.doc-20161022.tar.xz) = 294816
+SHA256 (TeXLive/marginnote.source-20161022.tar.xz) = 01858f6d0a80c584ee682209ed1e47af8b6567625f0e204f641c471ece50af08
+SIZE (TeXLive/marginnote.source-20161022.tar.xz) = 9044
