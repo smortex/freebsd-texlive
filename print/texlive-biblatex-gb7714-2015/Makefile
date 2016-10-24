@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	optidef
+PORTNAME=	biblatex-gb7714-2015
 PORTVERSION=	20161023
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Provides a standard set of environments for writing minimization problems
+COMMENT=	A BibLaTeX implementation of the GBT7714-2015 bibliography style for Chinese users
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

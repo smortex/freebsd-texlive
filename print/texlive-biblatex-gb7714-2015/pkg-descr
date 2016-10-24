@@ -1,0 +1,5 @@
+This package provides an implementation of the GBT7714-2015
+bibliography style. This implementation follows GBT7714-2015
+standard and can be used by simply loading BibLaTeX with the
+appropriate option. A demonstration database is provided to
+show how to format input for the style.

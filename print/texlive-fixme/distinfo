@@ -1,6 +1,7 @@
-SHA256 (TeXLive/fixme-20160414.tar.xz) = a77cd49597129f9188a80146aa1f3ec043a424b84016214989d81516e221c946
-SIZE (TeXLive/fixme-20160414.tar.xz) = 8260
-SHA256 (TeXLive/fixme.doc-20160414.tar.xz) = d264abe42948d6cf631172bd54cd8c92c3e2423a82cf89c2e9f9d6b6af138069
-SIZE (TeXLive/fixme.doc-20160414.tar.xz) = 336080
-SHA256 (TeXLive/fixme.source-20160414.tar.xz) = fa4022d712fee297e8e15f0fc30d81eec348f305f57f9107bd991fca4e6569cf
-SIZE (TeXLive/fixme.source-20160414.tar.xz) = 32868
+TIMESTAMP = 1477282967
+SHA256 (TeXLive/fixme-20161023.tar.xz) = b7438167cc137f7b38ef93461f3102a87c18a02941384ead9951cc716a8014e7
+SIZE (TeXLive/fixme-20161023.tar.xz) = 8256
+SHA256 (TeXLive/fixme.doc-20161023.tar.xz) = b2e6ea3366427c6281ebe45f8ed3c3e1129db0d111e5e45884934ec7867b674e
+SIZE (TeXLive/fixme.doc-20161023.tar.xz) = 336076
+SHA256 (TeXLive/fixme.source-20161023.tar.xz) = 467b996f5ece87aa2db8511ef4e2c3862c2e9f124ede1ca810574d0b06ebad59
+SIZE (TeXLive/fixme.source-20161023.tar.xz) = 32864

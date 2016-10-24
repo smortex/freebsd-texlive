@@ -111,6 +111,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-annotation.xml:${PORTSDIR}/print/texlive-context-annotation \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/bnf/t-bnf.tex:${PORTSDIR}/print/texlive-context-bnf \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/chromato/t-chromato.tex:${PORTSDIR}/print/texlive-context-chromato \
+		${LOCALBASE}/share/texmf-dist/tex/context/third/cmscbf/t-cmscbf.tex:${PORTSDIR}/print/texlive-context-cmscbf \
+		${LOCALBASE}/share/texmf-dist/tex/context/third/cmttbf/t-cmttbf.tex:${PORTSDIR}/print/texlive-context-cmttbf \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/construction-plan/t-construction-plan.tex:${PORTSDIR}/print/texlive-context-construction-plan \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-cyrillicnumbers.xml:${PORTSDIR}/print/texlive-context-cyrillicnumbers \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/degrade/t-degrade.tex:${PORTSDIR}/print/texlive-context-degrade \
@@ -120,6 +122,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-fullpage.xml:${PORTSDIR}/print/texlive-context-fullpage \
 		${LOCALBASE}/share/texmf-dist/tex/context/third/gantt/gantt-s-mp.tex:${PORTSDIR}/print/texlive-context-gantt \
 		${LOCALBASE}/share/texmf-dist/metapost/context/third/gnuplot/mp-gnuplot.mp:${PORTSDIR}/print/texlive-context-gnuplot \
+		${LOCALBASE}/share/texmf-dist/tex/context/third/inifile/t-inifile.tex:${PORTSDIR}/print/texlive-context-inifile \
+		${LOCALBASE}/share/texmf-dist/tex/context/third/layout/t-layout.tex:${PORTSDIR}/print/texlive-context-layout \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-letter.xml:${PORTSDIR}/print/texlive-context-letter \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/lettrine.xml:${PORTSDIR}/print/texlive-context-lettrine \
 		${LOCALBASE}/share/texmf-dist/tex/context/interface/third/t-mathsets.xml:${PORTSDIR}/print/texlive-context-mathsets \

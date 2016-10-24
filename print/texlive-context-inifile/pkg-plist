@@ -1,0 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/context/third/inifile/inifile-demo.pdf
+%%PORTDOCS%%share/texmf-dist/doc/context/third/inifile/inifile-doc.pdf
+share/texmf-dist/tex/context/third/inifile/t-inifile.tex
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

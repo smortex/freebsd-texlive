@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	context-filter
+PORTNAME=	context-cmscbf
 PORTVERSION=	20161023
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Run external programs on the contents of a start-stop environment
+COMMENT=	Use Computer Modern bold Caps and Small-caps in ConTeXt
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/bibtex/bst/context/mkii/cont-ab.bst:${PORTSDIR}/print/texlive-context
 
