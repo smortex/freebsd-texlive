@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	mcf2graph
+PORTNAME=	uppunctlm
 PORTVERSION=	20161024
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Draw chemical structure diagrams with Metafont/MetaPost
+COMMENT=	Always keep upright shape for some punctuation marks and Arabic numerals
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

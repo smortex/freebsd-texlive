@@ -185,7 +185,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/imfellenglish/imfe_5cupvv.enc:${PORTSDIR}/print/texlive-imfellenglish \
 		${LOCALBASE}/share/texmf-dist/tex/latex/inconsolata/inconsolata.sty:${PORTSDIR}/print/texlive-inconsolata \
 		${LOCALBASE}/share/texmf-dist/dvips/initials/config.Acorn:${PORTSDIR}/print/texlive-initials \
-		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/ipaex-type1/ipaex-type1.map:${PORTSDIR}/print/texlive-ipaex-type1 \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ipaex-type1/ipaex-type1.sty:${PORTSDIR}/print/texlive-ipaex-type1 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/iwona/iwona.sty:${PORTSDIR}/print/texlive-iwona \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/jablantile/jablantile.mf:${PORTSDIR}/print/texlive-jablantile \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jamtimes/jamtimes.sty:${PORTSDIR}/print/texlive-jamtimes \
@@ -282,6 +282,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/umtypewriter/UMTypewriter-Bold.otf:${PORTSDIR}/print/texlive-umtypewriter \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/universa/fulbc10.mf:${PORTSDIR}/print/texlive-universa \
 		${LOCALBASE}/share/texmf-dist/tex/latex/universalis/universalis.sty:${PORTSDIR}/print/texlive-universalis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/uppunctlm/uppunctlm.sty:${PORTSDIR}/print/texlive-uppunctlm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/urwchancal/urwchancal.sty:${PORTSDIR}/print/texlive-urwchancal \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/venturis/yvtb8a.afm:${PORTSDIR}/print/texlive-venturisadf \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/wsuipa/iaccent.mf:${PORTSDIR}/print/texlive-wsuipa \

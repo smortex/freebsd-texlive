@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-nature
-PORTVERSION=	20160926
+PORTVERSION=	20161024
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

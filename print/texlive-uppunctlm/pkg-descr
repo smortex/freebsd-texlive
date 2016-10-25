@@ -1,0 +1,6 @@
+The package provides a mechanism to keep punctuation always in
+upright shape even if italic was specified. It is directed to
+Latin Modern fonts, and provides .tfm, .vf, .fd, and .sty
+files. Here a list of punctuation characters always presented
+in upright shapes: comma, period, semicolon, colon,
+parentheses, square brackets, and Arabic numerals.

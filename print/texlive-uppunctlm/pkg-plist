@@ -1,0 +1,17 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/uppunctlm/README.md
+%%PORTDOCS%%share/texmf-dist/doc/fonts/uppunctlm/always_upright_punctuation_marks.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/uppunctlm/always_upright_punctuation_marks.tex
+share/texmf-dist/fonts/tfm/public/uppunctlm/ec-uplmri10.tfm
+share/texmf-dist/fonts/tfm/public/uppunctlm/ec-uplmri12.tfm
+share/texmf-dist/fonts/tfm/public/uppunctlm/ec-uplmri7.tfm
+share/texmf-dist/fonts/tfm/public/uppunctlm/ec-uplmri8.tfm
+share/texmf-dist/fonts/tfm/public/uppunctlm/ec-uplmri9.tfm
+share/texmf-dist/fonts/vf/public/uppunctlm/ec-uplmri10.vf
+share/texmf-dist/fonts/vf/public/uppunctlm/ec-uplmri12.vf
+share/texmf-dist/fonts/vf/public/uppunctlm/ec-uplmri7.vf
+share/texmf-dist/fonts/vf/public/uppunctlm/ec-uplmri8.vf
+share/texmf-dist/fonts/vf/public/uppunctlm/ec-uplmri9.vf
+share/texmf-dist/tex/latex/uppunctlm/t1uplmr.fd
+share/texmf-dist/tex/latex/uppunctlm/uppunctlm.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
