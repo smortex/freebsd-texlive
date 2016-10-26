@@ -1,4 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/luatex/chickenize/README
+%%PORTDOCS%%share/texmf-dist/doc/luatex/chickenize/README.md
 %%PORTDOCS%%share/texmf-dist/doc/luatex/chickenize/chickenize.pdf
 %%PORTSRC%%share/texmf-dist/source/luatex/chickenize/chickenize.dtx
 share/texmf-dist/tex/luatex/chickenize/chickenize.lua

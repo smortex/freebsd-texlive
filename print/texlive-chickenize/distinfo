@@ -1,6 +1,7 @@
-SHA256 (TeXLive/chickenize-20160414.tar.xz) = 6579e686331386c81040996c1c54a53123b9f8c8876be7ff46896132e5bc3d4f
-SIZE (TeXLive/chickenize-20160414.tar.xz) = 10988
-SHA256 (TeXLive/chickenize.doc-20160414.tar.xz) = d922c0c3eac01de6dfa55005f0155488490f24f47304b0d2824a9759711e701c
-SIZE (TeXLive/chickenize.doc-20160414.tar.xz) = 188460
-SHA256 (TeXLive/chickenize.source-20160414.tar.xz) = 4e9fcd29fa9f3587c7fb9061335cb7561722d11ae9053b592a18cddc7b0cb56e
-SIZE (TeXLive/chickenize.source-20160414.tar.xz) = 28180
+TIMESTAMP = 1477456204
+SHA256 (TeXLive/chickenize-20161025.tar.xz) = 9f2f1820cc94ac869762d6d39cd198d2c353642aa5fed6460c1995ece5dc6a1e
+SIZE (TeXLive/chickenize-20161025.tar.xz) = 11252
+SHA256 (TeXLive/chickenize.doc-20161025.tar.xz) = 70ac28e749efbf1260dfa5cc5201d2903f90f2ea33dd4fb8d0d17eeb8bd2ef3d
+SIZE (TeXLive/chickenize.doc-20161025.tar.xz) = 191136
+SHA256 (TeXLive/chickenize.source-20161025.tar.xz) = 586e67ee38866d38c69af1aee95926748d13140197f1a8fae41793e7c7267e4d
+SIZE (TeXLive/chickenize.source-20161025.tar.xz) = 28716
