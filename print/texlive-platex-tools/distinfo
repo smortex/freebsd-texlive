@@ -1,5 +1,5 @@
-TIMESTAMP = 1476677833
-SHA256 (TeXLive/platex-tools-20161016.tar.xz) = 628d19dc636eeccccffd3f3a22dc1cc776efe0a75923e21c3936f9b4e9a07bab
-SIZE (TeXLive/platex-tools-20161016.tar.xz) = 4408
-SHA256 (TeXLive/platex-tools.doc-20161016.tar.xz) = 093933437edc638112759f1d90a04cdaf56d1381d6864ace3e21db25f1129fb4
-SIZE (TeXLive/platex-tools.doc-20161016.tar.xz) = 301328
+TIMESTAMP = 1477543453
+SHA256 (TeXLive/platex-tools-20161026.tar.xz) = 16f317ca723074772c4f0afed4a8bfac212caa016ca5ac998ea8570b5cd3c572
+SIZE (TeXLive/platex-tools-20161026.tar.xz) = 5692
+SHA256 (TeXLive/platex-tools.doc-20161026.tar.xz) = f693d53a2560cc1133d1f2ac0912ec1c10bc600e303c1e5a6b28979442841c97
+SIZE (TeXLive/platex-tools.doc-20161026.tar.xz) = 435728

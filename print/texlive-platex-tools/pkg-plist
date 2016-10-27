@@ -1,6 +1,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/platex-tools/LICENSE
 %%PORTDOCS%%share/texmf-dist/doc/latex/platex-tools/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/platex-tools/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/platex-tools/bounddvi-en.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/platex-tools/bounddvi-en.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/platex-tools/bounddvi.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/platex-tools/bounddvi.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/platex-tools/plextarray.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/platex-tools/plextarray.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/platex-tools/plextdelarray.pdf
@@ -11,6 +15,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/platex-tools/pxeveryshi.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/platex-tools/pxftnright.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/platex-tools/pxftnright.tex
+share/texmf-dist/tex/latex/platex-tools/bounddvi.sty
 share/texmf-dist/tex/latex/platex-tools/plextarray.sty
 share/texmf-dist/tex/latex/platex-tools/plextdelarray.sty
 share/texmf-dist/tex/latex/platex-tools/pxeverysel.sty

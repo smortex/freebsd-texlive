@@ -518,6 +518,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/umtypewriter/UMTypewriter-Bold.otf:${PORTSDIR}/print/texlive-umtypewriter \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/universa/fulbc10.mf:${PORTSDIR}/print/texlive-universa \
 		${LOCALBASE}/share/texmf-dist/tex/latex/universalis/universalis.sty:${PORTSDIR}/print/texlive-universalis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/uppunctlm/uppunctlm.sty:${PORTSDIR}/print/texlive-uppunctlm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/urwchancal/urwchancal.sty:${PORTSDIR}/print/texlive-urwchancal \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/arkandis/venturis/yvtb8a.afm:${PORTSDIR}/print/texlive-venturisadf \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/wsuipa/iaccent.mf:${PORTSDIR}/print/texlive-wsuipa \
@@ -957,7 +958,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexja/luatexja.sty:${PORTSDIR}/print/texlive-luatexja \
 		${LOCALBASE}/share/texmf-dist/pbibtex/bib/jxampl.bib:${PORTSDIR}/print/texlive-pbibtex-base \
 		${LOCALBASE}/share/texmf-dist/tex/platex/base/ascmac.sty:${PORTSDIR}/print/texlive-platex \
-		${LOCALBASE}/share/texmf-dist/tex/latex/platex-tools/plextarray.sty:${PORTSDIR}/print/texlive-platex-tools \
+		${LOCALBASE}/share/texmf-dist/tex/latex/platex-tools/bounddvi.sty:${PORTSDIR}/print/texlive-platex-tools \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/ptex/morisawa.map:${PORTSDIR}/print/texlive-ptex \
 		${LOCALBASE}/share/texmf-dist/tex/ptex/ptex-base/ascii-jplain.tex:${PORTSDIR}/print/texlive-ptex-base \
 		${LOCALBASE}/share/texmf-dist/fonts/source/ptex-fonts/ascgrp/ascgrp.mf:${PORTSDIR}/print/texlive-ptex-fonts \
