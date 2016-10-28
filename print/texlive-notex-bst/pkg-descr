@@ -1,0 +1,4 @@
+noTeX.bst produces a number of beautifully formatted HTML P
+elements instead of TeX code. It can be used to automatically
+generate bibliographies to be served on the web starting from
+BibTeX files.

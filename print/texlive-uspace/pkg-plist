@@ -1,6 +1,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/uspace/LICENSE
 %%PORTDOCS%%share/texmf-dist/doc/latex/uspace/README.md
-%%PORTDOCS%%share/texmf-dist/doc/latex/uspace/uspace-test.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/uspace/uspace-ctanify.sh
+%%PORTDOCS%%share/texmf-dist/doc/latex/uspace/uspace-test-lualatex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/uspace/uspace-test-pdflatex.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/uspace/uspace-test-xelatex.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/uspace/uspace-test.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/uspace/uspace.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/uspace/uspace.tex

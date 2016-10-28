@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	notex-bst
 PORTVERSION=	20161027
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	A BibTeX style that outputs HTML
 
-OPTIONS_DEFINE=	DOCS
+OPTIONS_EXCLUDE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
