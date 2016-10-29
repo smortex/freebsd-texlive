@@ -1,17 +1,25 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/README
-%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/documentation/manual.pdf
-%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/documentation/manual.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/documentation/latexindent.pdf
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/documentation/latexindent.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/indent.yaml
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/alignmentoutsideEnvironments.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/bigTest.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/braceTest.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/braceTestsmall.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/bracketTest.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/conditional.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/environments.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/figureValign.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/filecontents.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/filecontents1.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/filecontents2.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/ifelsefi.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/ifelsefiONE.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/ifelsefiSmall.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/items1.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/items2.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/items3.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/items4.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/matrix.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/multipleBraces.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/nestedalignment.tex
@@ -27,6 +35,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/table1.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/table2.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/table3.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/table4.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/table5.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/testHeadings-simple.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/testHeadings.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/testHeadings1.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/testItems.tex
@@ -40,6 +51,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/torusPGF.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/torusPSTricks.tex
 %%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/trailingComments.tex
+%%PORTDOCS%%share/texmf-dist/doc/support/latexindent/success/verbatim1.tex
 share/texmf-dist/scripts/latexindent/defaultSettings.yaml
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
