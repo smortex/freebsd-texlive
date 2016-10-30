@@ -1,7 +1,7 @@
-TIMESTAMP = 1475295884
-SHA256 (TeXLive/cooking-units-20160930.tar.xz) = 824d9efdaba75283f1c1f3d02a7c089607b4b086e758e1b55a6b0f37f2c3539b
-SIZE (TeXLive/cooking-units-20160930.tar.xz) = 9540
-SHA256 (TeXLive/cooking-units.doc-20160930.tar.xz) = 3c4b1d412bfa9475c3fb2843a681e1dc83939d5bc8dd25be25e7b795e0e501c9
-SIZE (TeXLive/cooking-units.doc-20160930.tar.xz) = 568268
-SHA256 (TeXLive/cooking-units.source-20160930.tar.xz) = 5bab9531f2d53d6bf9d6d6b583bfc02448a0490aef3a77b64ca3e2fa0e870ecf
-SIZE (TeXLive/cooking-units.source-20160930.tar.xz) = 28604
+TIMESTAMP = 1477801892
+SHA256 (TeXLive/cooking-units-20161029.tar.xz) = 75f351be3e00b600715edc42f5adb18321fbffb1afe2f4a9971f32f78f9b0ba5
+SIZE (TeXLive/cooking-units-20161029.tar.xz) = 9808
+SHA256 (TeXLive/cooking-units.doc-20161029.tar.xz) = 6e9506d0e5ade29448a349c41572c290f01d66ede19d992406603d976d6e2154
+SIZE (TeXLive/cooking-units.doc-20161029.tar.xz) = 582932
+SHA256 (TeXLive/cooking-units.source-20161029.tar.xz) = 4e675dc6f28ce10fbc72ca86db58e288546d36ee6f9fbe4218d75db8d4248fab
+SIZE (TeXLive/cooking-units.source-20161029.tar.xz) = 30108

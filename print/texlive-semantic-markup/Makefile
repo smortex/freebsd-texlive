@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	semantic-markup
-PORTVERSION=	20160904
+PORTVERSION=	20161029
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Macros for meaningful semantic markup in the spirit of the Text Encoding Initiative, especially for humanities and music schola
+COMMENT=	Meaningful semantic markup in the spirit of the Text Encoding Initiative
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
