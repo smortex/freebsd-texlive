@@ -110,6 +110,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/samplexdy.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/samplexdy2.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries/samples/samplexdy2.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/french/documentation/glossaries/acronyms.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/french/documentation/glossaries/glossary.tex
 share/texmf-dist/scripts/glossaries/glossaries.perl
 share/texmf-dist/scripts/glossaries/makeglossaries-lite.lua
 share/texmf-dist/scripts/glossaries/makeglossaries.bat

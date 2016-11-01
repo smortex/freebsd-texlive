@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	gzt
+PORTNAME=	wtref
 PORTVERSION=	20161031
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bundle of classes for "La Gazette des Mathematiciens"
+COMMENT=	Extend LaTeX's cross-reference system
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

@@ -1,0 +1,4 @@
+This package extends the cross-reference system of LaTeX2e and
+introduces concepts of namespace and scope. It also allows
+users to customize reference formats. The package is part of
+the WT Series.

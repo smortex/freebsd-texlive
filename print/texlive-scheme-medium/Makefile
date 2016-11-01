@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	scheme-medium
-PORTVERSION=	20160809
+PORTVERSION=	20161031
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -442,73 +442,148 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/luatex/spelling/spelling.sty:${PORTSDIR}/print/texlive-spelling \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ucharcat/ucharcat.sty:${PORTSDIR}/print/texlive-ucharcat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/12many/12many.sty:${PORTSDIR}/print/texlive-12many \
+		${LOCALBASE}/share/texmf-dist/tex/latex/SIstyle/sistyle.sty:${PORTSDIR}/print/texlive-SIstyle \
+		${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTSDIR}/print/texlive-SIunits \
+		${LOCALBASE}/share/texmf-dist/tex/latex/alg/alg.sty:${PORTSDIR}/print/texlive-alg \
+		${LOCALBASE}/share/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty:${PORTSDIR}/print/texlive-algorithm2e \
+		${LOCALBASE}/share/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty:${PORTSDIR}/print/texlive-algorithmicx \
+		${LOCALBASE}/share/texmf-dist/tex/latex/algorithms/algorithm.sty:${PORTSDIR}/print/texlive-algorithms \
 		${LOCALBASE}/share/texmf-dist/tex/amstex/base/amstex.tex:${PORTSDIR}/print/texlive-amstex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/autobreak/autobreak.sty:${PORTSDIR}/print/texlive-autobreak \
 		${LOCALBASE}/share/texmf-dist/tex/latex/backnaur/backnaur.sty:${PORTSDIR}/print/texlive-backnaur \
 		${LOCALBASE}/share/texmf-dist/tex/latex/begriff/begriff.sty:${PORTSDIR}/print/texlive-begriff \
 		${LOCALBASE}/share/texmf-dist/tex/latex/binomexp/binomexp.sty:${PORTSDIR}/print/texlive-binomexp \
+		${LOCALBASE}/share/texmf-dist/tex/latex/biocon/biocon.sty:${PORTSDIR}/print/texlive-biocon \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bitpattern/bitpattern.sty:${PORTSDIR}/print/texlive-bitpattern \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bohr/bohr.sty:${PORTSDIR}/print/texlive-bohr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/boldtensors/boldtensors.sty:${PORTSDIR}/print/texlive-boldtensors \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bosisio/accenti.sty:${PORTSDIR}/print/texlive-bosisio \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bpchem/bpchem.sty:${PORTSDIR}/print/texlive-bpchem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bropd/bropd.sty:${PORTSDIR}/print/texlive-bropd \
+		${LOCALBASE}/share/texmf-dist/tex/latex/bytefield/bytefield.sty:${PORTSDIR}/print/texlive-bytefield \
 		${LOCALBASE}/share/texmf-dist/tex/latex/calculation/calculation.sty:${PORTSDIR}/print/texlive-calculation \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ccfonts/ccfonts.sty:${PORTSDIR}/print/texlive-ccfonts \
+		${LOCALBASE}/share/texmf-dist/tex/latex/chemarrow/chemarrow.sty:${PORTSDIR}/print/texlive-chemarrow \
+		${LOCALBASE}/share/texmf-dist/tex/latex/chemcompounds/chemcompounds.sty:${PORTSDIR}/print/texlive-chemcompounds \
+		${LOCALBASE}/share/texmf-dist/tex/latex/chemcono/chemcono.sty:${PORTSDIR}/print/texlive-chemcono \
+		${LOCALBASE}/share/texmf-dist/tex/latex/chemexec/chemexec.sty:${PORTSDIR}/print/texlive-chemexec \
+		${LOCALBASE}/share/texmf-dist/tex/latex/chemformula/chemformula.sty:${PORTSDIR}/print/texlive-chemformula \
+		${LOCALBASE}/share/texmf-dist/tex/latex/chemgreek/chemgreek.sty:${PORTSDIR}/print/texlive-chemgreek \
+		${LOCALBASE}/share/texmf-dist/tex/latex/chemmacros/chemmacros.sty:${PORTSDIR}/print/texlive-chemmacros \
+		${LOCALBASE}/share/texmf-dist/tex/latex/chemnum/chemnum.sty:${PORTSDIR}/print/texlive-chemnum \
+		${LOCALBASE}/share/texmf-dist/tex/latex/chemschemex/chemschemex.sty:${PORTSDIR}/print/texlive-chemschemex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/chemstyle/chemstyle.sty:${PORTSDIR}/print/texlive-chemstyle \
+		${LOCALBASE}/share/texmf-dist/tex/latex/clrscode/clrscode.sty:${PORTSDIR}/print/texlive-clrscode \
+		${LOCALBASE}/share/texmf-dist/tex/latex/clrscode3e/clrscode3e.sty:${PORTSDIR}/print/texlive-clrscode3e \
 		${LOCALBASE}/share/texmf-dist/tex/latex/commath/commath.sty:${PORTSDIR}/print/texlive-commath \
+		${LOCALBASE}/share/texmf-dist/tex/latex/complexity/complexity.sty:${PORTSDIR}/print/texlive-complexity \
+		${LOCALBASE}/share/texmf-dist/bibtex/bst/computational-complexity/cc.bst:${PORTSDIR}/print/texlive-computational-complexity \
 		${LOCALBASE}/share/texmf-dist/tex/latex/concmath/concmath.sty:${PORTSDIR}/print/texlive-concmath \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/concrete/cccsc10.mf:${PORTSDIR}/print/texlive-concrete \
 		${LOCALBASE}/share/texmf-dist/tex/latex/conteq/conteq.sty:${PORTSDIR}/print/texlive-conteq \
+		${LOCALBASE}/share/texmf-dist/tex/latex/cryptocode/cryptocode.sty:${PORTSDIR}/print/texlive-cryptocode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delim/delim.sty:${PORTSDIR}/print/texlive-delim \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delimseasy/delimseasy.sty:${PORTSDIR}/print/texlive-delimseasy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/diffcoeff/diffcoeff.sty:${PORTSDIR}/print/texlive-diffcoeff \
+		${LOCALBASE}/share/texmf-dist/tex/latex/digiconfigs/digiconfigs.sty:${PORTSDIR}/print/texlive-digiconfigs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/drawmatrix/drawmatrix.sty:${PORTSDIR}/print/texlive-drawmatrix \
+		${LOCALBASE}/share/texmf-dist/tex/latex/drawstack/drawstack.sty:${PORTSDIR}/print/texlive-drawstack \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dyntree/dyntree.sty:${PORTSDIR}/print/texlive-dyntree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ebproof/ebproof.sty:${PORTSDIR}/print/texlive-ebproof \
 		${LOCALBASE}/share/texmf-dist/tex/latex/econometrics/econometrics.sty:${PORTSDIR}/print/texlive-econometrics \
+		${LOCALBASE}/share/texmf-dist/tex/latex/eltex/eltex1.tex:${PORTSDIR}/print/texlive-eltex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/emf/emf.sty:${PORTSDIR}/print/texlive-emf \
+		${LOCALBASE}/share/texmf-dist/tex/latex/endiagram/endiagram.sty:${PORTSDIR}/print/texlive-endiagram \
+		${LOCALBASE}/share/texmf-dist/tex/latex/engtlc/engtlc.sty:${PORTSDIR}/print/texlive-engtlc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eqnarray/eqnarray.sty:${PORTSDIR}/print/texlive-eqnarray \
 		${LOCALBASE}/share/texmf-dist/tex/latex/extarrows/extarrows.sty:${PORTSDIR}/print/texlive-extarrows \
 		${LOCALBASE}/share/texmf-dist/tex/latex/extpfeil/extpfeil.sty:${PORTSDIR}/print/texlive-extpfeil \
 		${LOCALBASE}/share/texmf-dist/tex/latex/faktor/faktor.sty:${PORTSDIR}/print/texlive-faktor \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fouridx/fouridx.sty:${PORTSDIR}/print/texlive-fouridx \
+		${LOCALBASE}/share/texmf-dist/tex/latex/functan/functan.sty:${PORTSDIR}/print/texlive-functan \
+		${LOCALBASE}/share/texmf-dist/tex/latex/galois/galois.sty:${PORTSDIR}/print/texlive-galois \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gastex/gastex.sty:${PORTSDIR}/print/texlive-gastex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gene-logic/gn-logic14.sty:${PORTSDIR}/print/texlive-gene-logic \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ghsystem/ghsystem.sty:${PORTSDIR}/print/texlive-ghsystem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/grundgesetze/grundgesetze.sty:${PORTSDIR}/print/texlive-grundgesetze \
+		${LOCALBASE}/share/texmf-dist/tex/latex/gu/gu.sty:${PORTSDIR}/print/texlive-gu \
+		${LOCALBASE}/share/texmf-dist/tex/latex/hep/hep.sty:${PORTSDIR}/print/texlive-hep \
+		${LOCALBASE}/share/texmf-dist/tex/latex/hepnames/hepnames.sty:${PORTSDIR}/print/texlive-hepnames \
+		${LOCALBASE}/share/texmf-dist/tex/latex/hepparticles/hepparticles.sty:${PORTSDIR}/print/texlive-hepparticles \
+		${LOCALBASE}/share/texmf-dist/tex/latex/hepthesis/hepthesis.cls:${PORTSDIR}/print/texlive-hepthesis \
+		${LOCALBASE}/share/texmf-dist/tex/latex/hepunits/hepunits.sty:${PORTSDIR}/print/texlive-hepunits \
 		${LOCALBASE}/share/texmf-dist/tex/latex/interval/interval.sty:${PORTSDIR}/print/texlive-interval \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ionumbers/ionumbers.sty:${PORTSDIR}/print/texlive-ionumbers \
 		${LOCALBASE}/share/texmf-dist/tex/latex/isomath/isomath.sty:${PORTSDIR}/print/texlive-isomath \
+		${LOCALBASE}/share/texmf-dist/tex/latex/karnaugh/kvmacros.tex:${PORTSDIR}/print/texlive-karnaugh \
+		${LOCALBASE}/share/texmf-dist/tex/latex/karnaughmap/karnaughmap.sty:${PORTSDIR}/print/texlive-karnaughmap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/logicproof/logicproof.sty:${PORTSDIR}/print/texlive-logicproof \
 		${LOCALBASE}/share/texmf-dist/tex/generic/lpform/lpform.sty:${PORTSDIR}/print/texlive-lpform \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lplfitch/lplfitch.sty:${PORTSDIR}/print/texlive-lplfitch \
+		${LOCALBASE}/share/texmf-dist/tex/latex/lstbayes/lstbayes.sty:${PORTSDIR}/print/texlive-lstbayes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathcomp/mathcomp.sty:${PORTSDIR}/print/texlive-mathcomp \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mathpartir/mathpartir.sty:${PORTSDIR}/print/texlive-mathpartir \
+		${LOCALBASE}/share/texmf-dist/tex/latex/matlab-prettifier/matlab-prettifier.sty:${PORTSDIR}/print/texlive-matlab-prettifier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mattens/mattens.sty:${PORTSDIR}/print/texlive-mattens \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mgltex/mgltex.sty:${PORTSDIR}/print/texlive-mgltex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mhchem/mhchem.sty:${PORTSDIR}/print/texlive-mhchem \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mhequ/mhequ.sty:${PORTSDIR}/print/texlive-mhequ \
+		${LOCALBASE}/share/texmf-dist/tex/latex/miller/miller.sty:${PORTSDIR}/print/texlive-miller \
 		${LOCALBASE}/share/texmf-dist/tex/latex/multiobjective/multiobjective.sty:${PORTSDIR}/print/texlive-multiobjective \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mychemistry/mychemistry.sty:${PORTSDIR}/print/texlive-mychemistry \
 		${LOCALBASE}/share/texmf-dist/tex/latex/natded/natded.sty:${PORTSDIR}/print/texlive-natded \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nath/nath.sty:${PORTSDIR}/print/texlive-nath \
+		${LOCALBASE}/share/texmf-dist/tex/latex/nuc/nuc.sty:${PORTSDIR}/print/texlive-nuc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/nucleardata/nucleardata.sty:${PORTSDIR}/print/texlive-nucleardata \
+		${LOCALBASE}/share/texmf-dist/tex/latex/objectz/oz.sty:${PORTSDIR}/print/texlive-objectz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ot-tableau/ot-tableau.sty:${PORTSDIR}/print/texlive-ot-tableau \
 		${LOCALBASE}/share/texmf-dist/tex/latex/oubraces/oubraces.sty:${PORTSDIR}/print/texlive-oubraces \
 		${LOCALBASE}/share/texmf-dist/tex/latex/perfectcut/perfectcut.sty:${PORTSDIR}/print/texlive-perfectcut \
+		${LOCALBASE}/share/texmf-dist/tex/latex/physics/physics.sty:${PORTSDIR}/print/texlive-physics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/prftree/prftree.sty:${PORTSDIR}/print/texlive-prftree \
-		${LOCALBASE}/share/texmf-dist/tex/latex/prooftrees/prooftrees.sty:${PORTSDIR}/print/texlive-prooftrees \
 		${LOCALBASE}/share/texmf-dist/tex/latex/proba/proba.sty:${PORTSDIR}/print/texlive-proba \
+		${LOCALBASE}/share/texmf-dist/tex/latex/prooftrees/prooftrees.sty:${PORTSDIR}/print/texlive-prooftrees \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pseudocode/pseudocode.sty:${PORTSDIR}/print/texlive-pseudocode \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pygmentex/pygmentex.sty:${PORTSDIR}/print/texlive-pygmentex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rec-thy/rec-thy.sty:${PORTSDIR}/print/texlive-rec-thy \
+		${LOCALBASE}/share/texmf-dist/tex/latex/revquantum/revquantum.sty:${PORTSDIR}/print/texlive-revquantum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ribbonproofs/ribbonproofs.sty:${PORTSDIR}/print/texlive-ribbonproofs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rmathbr/rmathbr.sty:${PORTSDIR}/print/texlive-rmathbr \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sasnrdisplay/SASnRdisplay.cfg:${PORTSDIR}/print/texlive-sasnrdisplay \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sciposter/sciposter.cls:${PORTSDIR}/print/texlive-sciposter \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sclang-prettifier/sclang-prettifier.sty:${PORTSDIR}/print/texlive-sclang-prettifier \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sesamanuel/sesamanuel.cls:${PORTSDIR}/print/texlive-sesamanuel \
+		${LOCALBASE}/share/texmf-dist/tex/latex/sfg/sfg.sty:${PORTSDIR}/print/texlive-sfg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/shuffle/shuffle.sty:${PORTSDIR}/print/texlive-shuffle \
+		${LOCALBASE}/share/texmf-dist/tex/latex/simpler-wick/simpler-wick.sty:${PORTSDIR}/print/texlive-simpler-wick \
+		${LOCALBASE}/share/texmf-dist/tex/latex/simplewick/simplewick.sty:${PORTSDIR}/print/texlive-simplewick \
+		${LOCALBASE}/share/texmf-dist/tex/latex/siunitx/siunitx.sty:${PORTSDIR}/print/texlive-siunitx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skmath/skmath.sty:${PORTSDIR}/print/texlive-skmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spalign/spalign.sty:${PORTSDIR}/print/texlive-spalign \
 		${LOCALBASE}/share/texmf-dist/tex/latex/statex/statex.sty:${PORTSDIR}/print/texlive-statex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/statex2/statex2.sty:${PORTSDIR}/print/texlive-statex2 \
+		${LOCALBASE}/share/texmf-dist/tex/latex/steinmetz/steinmetz.sty:${PORTSDIR}/print/texlive-steinmetz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty:${PORTSDIR}/print/texlive-stmaryrd \
+		${LOCALBASE}/share/texmf-dist/tex/latex/struktex/struktex.sty:${PORTSDIR}/print/texlive-struktex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/substances/substances.sty:${PORTSDIR}/print/texlive-substances \
 		${LOCALBASE}/share/texmf-dist/tex/latex/subsupscripts/subsupscripts.sty:${PORTSDIR}/print/texlive-subsupscripts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/susy/susy.sty:${PORTSDIR}/print/texlive-susy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/syllogism/syllogism.sty:${PORTSDIR}/print/texlive-syllogism \
 		${LOCALBASE}/share/texmf-dist/scripts/sympytexpackage/sympytex.py:${PORTSDIR}/print/texlive-sympytexpackage \
 		${LOCALBASE}/share/texmf-dist/tex/latex/synproof/synproof.sty:${PORTSDIR}/print/texlive-synproof \
+		${LOCALBASE}/share/texmf-dist/tex/latex/t-angles/t-angles.sty:${PORTSDIR}/print/texlive-t-angles \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tablor/tablor.sty:${PORTSDIR}/print/texlive-tablor \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tensor/tensor.sty:${PORTSDIR}/print/texlive-tensor \
 		${LOCALBASE}/share/texmf-dist/tex/generic/tex-ewd/dotnot.tex:${PORTSDIR}/print/texlive-tex-ewd \
+		${LOCALBASE}/share/texmf-dist/tex/latex/textopo/textopo.sty:${PORTSDIR}/print/texlive-textopo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/thmbox/thmbox.sty:${PORTSDIR}/print/texlive-thmbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/turnstile/turnstile.sty:${PORTSDIR}/print/texlive-turnstile \
+		${LOCALBASE}/share/texmf-dist/tex/latex/ulqda/ulqda.sty:${PORTSDIR}/print/texlive-ulqda \
+		${LOCALBASE}/share/texmf-dist/tex/latex/unitsdef/unitsdef.sty:${PORTSDIR}/print/texlive-unitsdef \
 		${LOCALBASE}/share/texmf-dist/metapost/venn/venn.mp:${PORTSDIR}/print/texlive-venn \
+		${LOCALBASE}/share/texmf-dist/tex/latex/xymtex/base/xymtex.sty:${PORTSDIR}/print/texlive-xymtex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yhmath/yhmath.sty:${PORTSDIR}/print/texlive-yhmath \
+		${LOCALBASE}/share/texmf-dist/tex/latex/youngtab/youngtab.sty:${PORTSDIR}/print/texlive-youngtab \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ytableau/ytableau.sty:${PORTSDIR}/print/texlive-ytableau \
 		${LOCALBASE}/share/texmf-dist/metapost/automata/automata.mp:${PORTSDIR}/print/texlive-automata \
 		${LOCALBASE}/share/texmf-dist/metapost/bbcard/bbcard.mp:${PORTSDIR}/print/texlive-bbcard \

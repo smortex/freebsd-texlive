@@ -2,6 +2,10 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tableaux/exemples.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tableaux/tableau.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tableaux/tableau.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/french/documentation/tableaux/expressions-standard.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/french/documentation/tableaux/expressions.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/french/documentation/tableaux/no-warnings.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/yathesis/french/documentation/tableaux/specimens-canevas-tab.tex
 share/texmf-dist/tex/latex/tableaux/minimum.sty
 share/texmf-dist/tex/latex/tableaux/tableau.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

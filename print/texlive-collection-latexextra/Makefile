@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20161018
+PORTVERSION=	20161031
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1348,6 +1348,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/wordcount/wordcount.tex:${PORTSDIR}/print/texlive-wordcount \
 		${LOCALBASE}/share/texmf-dist/tex/latex/wordlike/wordlike.sty:${PORTSDIR}/print/texlive-wordlike \
 		${LOCALBASE}/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty:${PORTSDIR}/print/texlive-wrapfig \
+		${LOCALBASE}/share/texmf-dist/tex/latex/wtref/wtref.sty:${PORTSDIR}/print/texlive-wtref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xargs/xargs.sty:${PORTSDIR}/print/texlive-xargs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xassoccnt/xassoccnt.sty:${PORTSDIR}/print/texlive-xassoccnt \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xcntperchap/xcntperchap.sty:${PORTSDIR}/print/texlive-xcntperchap \

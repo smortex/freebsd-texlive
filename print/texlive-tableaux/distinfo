@@ -1,4 +1,5 @@
-SHA256 (TeXLive/tableaux-20160613.tar.xz) = c2f45645f87833240ac46da0c3584930c27e715e6131929825506b9eb669d198
-SIZE (TeXLive/tableaux-20160613.tar.xz) = 2920
-SHA256 (TeXLive/tableaux.doc-20160613.tar.xz) = 23ae94dc917cbb6f249beb24662f93ce1b430f62197a356cbab76281e9085778
-SIZE (TeXLive/tableaux.doc-20160613.tar.xz) = 57272
+TIMESTAMP = 1477974719
+SHA256 (TeXLive/tableaux-20161031.tar.xz) = 8498dbdb11576825b5fa7586f543960b7bd6c0bae95e49589de921d5a846d36d
+SIZE (TeXLive/tableaux-20161031.tar.xz) = 2920
+SHA256 (TeXLive/tableaux.doc-20161031.tar.xz) = efa88efa79906daf4428faf80b62fdc3870f3d2994946f161045b80d26b8e2aa
+SIZE (TeXLive/tableaux.doc-20161031.tar.xz) = 58616

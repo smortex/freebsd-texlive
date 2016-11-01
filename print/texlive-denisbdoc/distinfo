@@ -1,7 +1,7 @@
-TIMESTAMP = 1477455741
-SHA256 (TeXLive/denisbdoc-20161025.tar.xz) = ec717eb049fca84458f91587e4ec511eb47e083848efdbddda58cb29e5d9d331
-SIZE (TeXLive/denisbdoc-20161025.tar.xz) = 11988
-SHA256 (TeXLive/denisbdoc.doc-20161025.tar.xz) = 250aaa13e5239a8b9fd4b690b6e4acae3093738e9a6a2ef494f197809c2883d7
-SIZE (TeXLive/denisbdoc.doc-20161025.tar.xz) = 1068
-SHA256 (TeXLive/denisbdoc.source-20161025.tar.xz) = 244b0b024cbba20c4b888f77dacd31820a100d059aa4bdeb33109278d9a22f76
-SIZE (TeXLive/denisbdoc.source-20161025.tar.xz) = 17864
+TIMESTAMP = 1477974328
+SHA256 (TeXLive/denisbdoc-20161031.tar.xz) = 79581dcf920661a004bbc79e5b59fc9a15e6eedfa0187957aaf0720aba7e1425
+SIZE (TeXLive/denisbdoc-20161031.tar.xz) = 12064
+SHA256 (TeXLive/denisbdoc.doc-20161031.tar.xz) = 0e497d2f90bbf165e33d7ffe710e3741c2cf5562b29d683bcd78a7c439f85dd6
+SIZE (TeXLive/denisbdoc.doc-20161031.tar.xz) = 1124
+SHA256 (TeXLive/denisbdoc.source-20161031.tar.xz) = 870e4f0b9779b32c5ce21b4f3b7b271792854ff8cdb53e7a9f43273d5cf6d7ad
+SIZE (TeXLive/denisbdoc.source-20161031.tar.xz) = 18060

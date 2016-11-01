@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-lni
-PORTVERSION=	20161016
+PORTVERSION=	20161031
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	LNI style fur BibLaTeX
+COMMENT=	LNI style for BibLaTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
