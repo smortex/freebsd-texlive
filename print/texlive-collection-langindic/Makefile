@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langindic
-PORTVERSION=	20161021
+PORTVERSION=	20161101
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -46,7 +46,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/updmap/kanjix.map:${PORTSDIR}/print/texlive-updmap-map \
 		${LOCALBASE}/share/texmf-dist/dvips/xdvi/config.xdvi:${PORTSDIR}/print/texlive-xdvi \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/bangtex/bang10.mf:${PORTSDIR}/print/texlive-bangtex \
-		${LOCALBASE}/share/texmf-dist/tex/latex/banglatex/banglatex.sty:${PORTSDIR}/print/texlive-banglatex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/latexbangla/latexbangla.sty:${PORTSDIR}/print/texlive-latexbangla \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/bengali/bn.mf:${PORTSDIR}/print/texlive-bengali \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/burmese/burmese.map:${PORTSDIR}/print/texlive-burmese \
 		${LOCALBASE}/share/texmf-dist/scripts/ebong/ebong.py:${PORTSDIR}/print/texlive-ebong \

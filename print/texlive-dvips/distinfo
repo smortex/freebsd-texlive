@@ -1,4 +1,5 @@
-SHA256 (TeXLive/dvips-20160715.tar.xz) = f4a75dc075ed1a247e08d5bb82e3fb8110a0dd704cef56582f12bdefcfd1b5c5
-SIZE (TeXLive/dvips-20160715.tar.xz) = 36804
-SHA256 (TeXLive/dvips.doc-20160715.tar.xz) = 3fa5ec6bf9ec5c87d5d3872a56c6e5c7d04a19a31c8d7f33bf2b680c8bbec3ed
-SIZE (TeXLive/dvips.doc-20160715.tar.xz) = 513004
+TIMESTAMP = 1478059664
+SHA256 (TeXLive/dvips-20161101.tar.xz) = a9920fc30e6c882bfcaae00c1f05cca5cb40948a531898c091ed7bb430121a2d
+SIZE (TeXLive/dvips-20161101.tar.xz) = 34372
+SHA256 (TeXLive/dvips.doc-20161101.tar.xz) = edc32c4671e1a50f7d7abcd15354680e53684e75147403af3d3ae0ee93152a68
+SIZE (TeXLive/dvips.doc-20161101.tar.xz) = 513008

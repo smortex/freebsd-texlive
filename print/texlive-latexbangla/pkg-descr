@@ -1,0 +1,9 @@
+This package simplifies the process of writing Bangla in LaTeX
+and addresses most of the associated typesetting issues.
+Notable features: Automated transition from Bangla to English
+and vice versa. Patch for the unproportionate whitespace issue
+in popular Bangla fonts. Full support for all the common
+commands and environments. Bangla numbering for page, section,
+chapter, footnotes etc. (extending polyglossia's support). New
+theorem, problems, example, solution and other environments,
+all of which are in Bangla.

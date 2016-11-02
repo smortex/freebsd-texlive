@@ -1,7 +1,7 @@
 # $FreeBSD$
 
-PORTNAME=	banglatex
-PORTVERSION=	20161021
+PORTNAME=	latexbangla
+PORTVERSION=	20161101
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

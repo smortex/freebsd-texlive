@@ -5,7 +5,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/afm2tfm.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/dvips.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/dvips.man1.pdf
-share/texmf-dist/dvips/base/ehandler.ps
 share/texmf-dist/dvips/base/resolution400.ps
 share/texmf-dist/dvips/config/alt-rule.pro
 share/texmf-dist/dvips/config/canonex.cfg
