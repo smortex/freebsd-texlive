@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	babel-german
+PORTNAME=	apxproof
 PORTVERSION=	20161102
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Babel support for documents written in German
+COMMENT=	Proofs in appendix
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,6 +1,7 @@
-SHA256 (TeXLive/minted-20160722.tar.xz) = cfc647fabc4d0eae0d8210cb9b150adb6a27e0a94000833c946ee0ff3241b10a
-SIZE (TeXLive/minted-20160722.tar.xz) = 9160
-SHA256 (TeXLive/minted.doc-20160722.tar.xz) = 8514d028fbd5c7d00b84ab6d6fa62f839502e74018a97c43b063048bbe5ef4b0
-SIZE (TeXLive/minted.doc-20160722.tar.xz) = 797472
-SHA256 (TeXLive/minted.source-20160722.tar.xz) = dc859b2a01263c7e5342a9463d416d775eb62ddd8c72d561a3ffc8be721950d7
-SIZE (TeXLive/minted.source-20160722.tar.xz) = 42840
+TIMESTAMP = 1478147090
+SHA256 (TeXLive/minted-20161102.tar.xz) = 44832ca246a25beea4a0cf568a0ef6d26c076b0a789752efed180ac55efeef59
+SIZE (TeXLive/minted-20161102.tar.xz) = 9320
+SHA256 (TeXLive/minted.doc-20161102.tar.xz) = 0f07b307e41d45c6edc27a43ae9f5d644fec3302968fd0ee960bbc9c7baa7fb3
+SIZE (TeXLive/minted.doc-20161102.tar.xz) = 797652
+SHA256 (TeXLive/minted.source-20161102.tar.xz) = ec43c90b14513aa2392c4ae10bd49897ac7f4f15dfd96332aed0770972ff43b4
+SIZE (TeXLive/minted.source-20161102.tar.xz) = 43144

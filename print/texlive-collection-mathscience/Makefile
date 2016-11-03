@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-mathscience
-PORTVERSION=	20161031
+PORTVERSION=	20161102
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -113,6 +113,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty:${PORTSDIR}/print/texlive-algorithmicx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/algorithms/algorithm.sty:${PORTSDIR}/print/texlive-algorithms \
 		${LOCALBASE}/share/texmf-dist/tex/amstex/base/amstex.tex:${PORTSDIR}/print/texlive-amstex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/apxproof/apxproof.sty:${PORTSDIR}/print/texlive-apxproof \
 		${LOCALBASE}/share/texmf-dist/tex/latex/autobreak/autobreak.sty:${PORTSDIR}/print/texlive-autobreak \
 		${LOCALBASE}/share/texmf-dist/tex/latex/backnaur/backnaur.sty:${PORTSDIR}/print/texlive-backnaur \
 		${LOCALBASE}/share/texmf-dist/tex/latex/begriff/begriff.sty:${PORTSDIR}/print/texlive-begriff \
@@ -147,6 +148,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/conteq/conteq.sty:${PORTSDIR}/print/texlive-conteq \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cryptocode/cryptocode.sty:${PORTSDIR}/print/texlive-cryptocode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delim/delim.sty:${PORTSDIR}/print/texlive-delim \
+		${LOCALBASE}/share/texmf-dist/tex/latex/delimset/delimset.sty:${PORTSDIR}/print/texlive-delimset \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delimseasy/delimseasy.sty:${PORTSDIR}/print/texlive-delimseasy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/diffcoeff/diffcoeff.sty:${PORTSDIR}/print/texlive-diffcoeff \
 		${LOCALBASE}/share/texmf-dist/tex/latex/digiconfigs/digiconfigs.sty:${PORTSDIR}/print/texlive-digiconfigs \

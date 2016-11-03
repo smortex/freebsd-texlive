@@ -1,0 +1,3 @@
+delimset is a LaTeX2e package to typeset and declare sets of
+delimiters in math mode whose size can be adjusted
+conveniently.

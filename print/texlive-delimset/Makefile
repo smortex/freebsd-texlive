@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	babel-german
+PORTNAME=	delimset
 PORTVERSION=	20161102
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Babel support for documents written in German
+COMMENT=	Typeset and declare sets of delimiters with convenient size control
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
