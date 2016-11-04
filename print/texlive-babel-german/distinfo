@@ -1,7 +1,7 @@
-TIMESTAMP = 1478146559
-SHA256 (TeXLive/babel-german-20161102.tar.xz) = e783e01f22c4f8184c1207653e90649898a696b2178a7a71991e89da2c842488
-SIZE (TeXLive/babel-german-20161102.tar.xz) = 3572
-SHA256 (TeXLive/babel-german.doc-20161102.tar.xz) = a808c669b525bdc7d051a98af2de7fde5838498a8c0c1be550cb4ddb59bc87d6
-SIZE (TeXLive/babel-german.doc-20161102.tar.xz) = 489464
-SHA256 (TeXLive/babel-german.source-20161102.tar.xz) = 580c62bc3fae30ee6b81a270ddc3e7c73ee33e64d8526d68627bc6d686cb3347
-SIZE (TeXLive/babel-german.source-20161102.tar.xz) = 11008
+TIMESTAMP = 1478233123
+SHA256 (TeXLive/babel-german-20161103.tar.xz) = c2b498be8a241f8c0ff27c6eef78456c88ec0c8f6d73b38cdd59641f8c35d925
+SIZE (TeXLive/babel-german-20161103.tar.xz) = 3600
+SHA256 (TeXLive/babel-german.doc-20161103.tar.xz) = dea2290c91166d9c8972ae2ad254843307ab756a7eb6d96a77b9386a895a291b
+SIZE (TeXLive/babel-german.doc-20161103.tar.xz) = 499656
+SHA256 (TeXLive/babel-german.source-20161103.tar.xz) = c450b0b4d201b1e14260d5b6a8968c4a4ca1e485b9e5158e3c21ed076963ba94
+SIZE (TeXLive/babel-german.source-20161103.tar.xz) = 11392

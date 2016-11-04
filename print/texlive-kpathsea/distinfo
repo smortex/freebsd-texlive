@@ -1,4 +1,5 @@
-SHA256 (TeXLive/kpathsea-20160804.tar.xz) = 9b69ccad902c0b6c9307883e6003fef2ef8686d1533217ef07c88a100a14b900
-SIZE (TeXLive/kpathsea-20160804.tar.xz) = 30500
-SHA256 (TeXLive/kpathsea.doc-20160804.tar.xz) = eccbce96a99cee9697948f43953e1fd95d56c9fdb4207703a64dac02e480b2b9
-SIZE (TeXLive/kpathsea.doc-20160804.tar.xz) = 1128956
+TIMESTAMP = 1478232501
+SHA256 (TeXLive/kpathsea-20161103.tar.xz) = c259360225a89edb402181e8ebc93ba1986171c2231f005d0ba7a3da2ff9199b
+SIZE (TeXLive/kpathsea-20161103.tar.xz) = 30752
+SHA256 (TeXLive/kpathsea.doc-20161103.tar.xz) = ae352b3ba35da7498294964a79e803504d0a448d493446b64f1df36e4838f33a
+SIZE (TeXLive/kpathsea.doc-20161103.tar.xz) = 1128956
