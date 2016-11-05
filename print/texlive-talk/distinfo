@@ -1,6 +1,7 @@
-SHA256 (TeXLive/talk-20160414.tar.xz) = e38327f0628c3a005da85c53750ee15571c746fc587ba517c5967bb13c88dc6b
-SIZE (TeXLive/talk-20160414.tar.xz) = 4680
-SHA256 (TeXLive/talk.doc-20160414.tar.xz) = e727ecb2d6b38c398498618c8cf71e2253d2c0f412bfda01c4c0ffcb989dfbf6
-SIZE (TeXLive/talk.doc-20160414.tar.xz) = 131060
-SHA256 (TeXLive/talk.source-20160414.tar.xz) = cb676593f1df072ac1554fdccf121a3060c6d86a511c3de91fb41f8da9a238e7
-SIZE (TeXLive/talk.source-20160414.tar.xz) = 556
+TIMESTAMP = 1478320355
+SHA256 (TeXLive/talk-20161104.tar.xz) = 56ebf29bb3cc040727ea20757fb4c489fe4a46caf8c25def7d56a35f6662c24f
+SIZE (TeXLive/talk-20161104.tar.xz) = 4680
+SHA256 (TeXLive/talk.doc-20161104.tar.xz) = 6f484b3c7ac63989e75b6a426b2f948a0bc88e55d92f8ad7dec13737d5713215
+SIZE (TeXLive/talk.doc-20161104.tar.xz) = 131060
+SHA256 (TeXLive/talk.source-20161104.tar.xz) = e57b702e38f13a2c8c411a860233bebdc49589ac1ee749e8028b27c5e264dfa5
+SIZE (TeXLive/talk.source-20161104.tar.xz) = 552

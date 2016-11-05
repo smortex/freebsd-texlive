@@ -1,4 +1,5 @@
-SHA256 (TeXLive/texworks-20160419.tar.xz) = 2f31d7c04f000f1df97f05e79ff7261572413398665bc943c796b9f9f09e4028
-SIZE (TeXLive/texworks-20160419.tar.xz) = 6012788
-SHA256 (TeXLive/texworks.doc-20160419.tar.xz) = 94e773a767b783c209dbbbf97ac3b263b9fb9b2c1e698d8a97507987c7ef038a
-SIZE (TeXLive/texworks.doc-20160419.tar.xz) = 736
+TIMESTAMP = 1478320722
+SHA256 (TeXLive/texworks-20161104.tar.xz) = b50ae453443472817c2d8f373154d82f357337eebdb37aabfe522b25d89c63dc
+SIZE (TeXLive/texworks-20161104.tar.xz) = 6012784
+SHA256 (TeXLive/texworks.doc-20161104.tar.xz) = 43d150a8b88bb6ab37d18b0a059361a10bffbaf24049541ac481e30a1d80aa16
+SIZE (TeXLive/texworks.doc-20161104.tar.xz) = 732

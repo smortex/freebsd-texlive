@@ -1,6 +1,7 @@
-SHA256 (TeXLive/algorithms-20160414.tar.xz) = df289207701476b985942c0685aaae93f3947e010cdb3bd3410257c3d31f8876
-SIZE (TeXLive/algorithms-20160414.tar.xz) = 3472
-SHA256 (TeXLive/algorithms.doc-20160414.tar.xz) = 5eeb6c7c1b60fccc4ef28022fe3faae83db6e3f2474c4d3585329bccbe42450f
-SIZE (TeXLive/algorithms.doc-20160414.tar.xz) = 293444
-SHA256 (TeXLive/algorithms.source-20160414.tar.xz) = 23fc01664825ecfd226f1e784d1e3ff5fef4ba6da9c9abde5d2735710d563c48
-SIZE (TeXLive/algorithms.source-20160414.tar.xz) = 11944
+TIMESTAMP = 1478320459
+SHA256 (TeXLive/algorithms-20161104.tar.xz) = 9d595fff77b796e8caca31a235acd0cfb2aab1eb4264c28b45b524c6308f6270
+SIZE (TeXLive/algorithms-20161104.tar.xz) = 3468
+SHA256 (TeXLive/algorithms.doc-20161104.tar.xz) = 00d5068ff9a2ed6a7c7856ef29fc40fe5d7e1eaf1efba9353bce2a430d2f1062
+SIZE (TeXLive/algorithms.doc-20161104.tar.xz) = 293440
+SHA256 (TeXLive/algorithms.source-20161104.tar.xz) = 369d8f333cf19a321eb0a9ed0cba6370354c93ce956f142262a7c7ee7ff43b51
+SIZE (TeXLive/algorithms.source-20161104.tar.xz) = 11940

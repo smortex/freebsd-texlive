@@ -1,4 +1,5 @@
-SHA256 (TeXLive/cell-20160414.tar.xz) = 8eee16f584aa40eb2189debb88dbdcdf531807361d78869111162dafe3544be3
-SIZE (TeXLive/cell-20160414.tar.xz) = 11224
-SHA256 (TeXLive/cell.doc-20160414.tar.xz) = d0e8aacd752117f1c7db1727e5e05c3b75ca671840bda78a2b1adf76a0ca7e9e
-SIZE (TeXLive/cell.doc-20160414.tar.xz) = 480
+TIMESTAMP = 1478319167
+SHA256 (TeXLive/cell-20161104.tar.xz) = a826d2cec4e21e744beedfc802ecc6201afe7989207b41904d489b37fb802a1a
+SIZE (TeXLive/cell-20161104.tar.xz) = 11228
+SHA256 (TeXLive/cell.doc-20161104.tar.xz) = e68d76c8e63104181a500e27e59573ad9619ddebf1af5c1c440c1283f5a31ebf
+SIZE (TeXLive/cell.doc-20161104.tar.xz) = 480

@@ -1,6 +1,7 @@
-SHA256 (TeXLive/background-20160414.tar.xz) = 79391716c2f75bd5167fcbbaa0862cbe0a0c03626e35d1950f356aa6dbf4a83d
-SIZE (TeXLive/background-20160414.tar.xz) = 2080
-SHA256 (TeXLive/background.doc-20160414.tar.xz) = 504cec02c0ba63ad077e89dc1cd870f98309a98be7c9e9b8441d7f5f6d2c04f0
-SIZE (TeXLive/background.doc-20160414.tar.xz) = 115784
-SHA256 (TeXLive/background.source-20160414.tar.xz) = 109b749a8ad241de0dbcef03c55675f5c2c0818889d1f34c87c23bef18f213a8
-SIZE (TeXLive/background.source-20160414.tar.xz) = 8408
+TIMESTAMP = 1478319848
+SHA256 (TeXLive/background-20161104.tar.xz) = ae1e0e6004cc083aa61972bf9d69b575f38b10e348ab73c3dd3489696a8ecbdc
+SIZE (TeXLive/background-20161104.tar.xz) = 2080
+SHA256 (TeXLive/background.doc-20161104.tar.xz) = f9cb09619a7fcb7ed60198d49c552c66570d9760d7957db45556d35c71c35923
+SIZE (TeXLive/background.doc-20161104.tar.xz) = 115788
+SHA256 (TeXLive/background.source-20161104.tar.xz) = a03e7daa3663fffa8b9a6699a669df0fc73e39e3e10ad5c1e3cfdf8aae284b8e
+SIZE (TeXLive/background.source-20161104.tar.xz) = 8408

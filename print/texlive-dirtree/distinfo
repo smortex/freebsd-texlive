@@ -1,6 +1,7 @@
-SHA256 (TeXLive/dirtree-20160414.tar.xz) = 54162326d6ac84371cf54afe76621b2d61601b52a2f0d7d27472ee46d41e8ffe
-SIZE (TeXLive/dirtree-20160414.tar.xz) = 2484
-SHA256 (TeXLive/dirtree.doc-20160414.tar.xz) = 234d6c08767b8f67245f94583f1a0fe85c819429950be88167a862906653e92e
-SIZE (TeXLive/dirtree.doc-20160414.tar.xz) = 100148
-SHA256 (TeXLive/dirtree.source-20160414.tar.xz) = eec06af08c3d0acf369579152920c3894125460a4ed5ebb133a4fe10ff6620b2
-SIZE (TeXLive/dirtree.source-20160414.tar.xz) = 7784
+TIMESTAMP = 1478319442
+SHA256 (TeXLive/dirtree-20161104.tar.xz) = 39a9fdbbdbf3a9e96162a77790f6ec4d47477992eda2e66b2d711d6186752d35
+SIZE (TeXLive/dirtree-20161104.tar.xz) = 2484
+SHA256 (TeXLive/dirtree.doc-20161104.tar.xz) = 45360d00946f5c3312b7f3b4ae01c862122aff087c2fffcbe5fa7c1a0f695ba2
+SIZE (TeXLive/dirtree.doc-20161104.tar.xz) = 100148
+SHA256 (TeXLive/dirtree.source-20161104.tar.xz) = 8633cf645f9c132562045c5ec80adb4fe00df104f49c5f2a4e82b9159bcc225e
+SIZE (TeXLive/dirtree.source-20161104.tar.xz) = 7784

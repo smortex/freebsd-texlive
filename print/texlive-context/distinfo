@@ -1,4 +1,5 @@
-SHA256 (TeXLive/context-20160522.tar.xz) = 6b83025075676609e8e0b2cab3171acd97db150d07c8bbec05791fe9438a4c19
-SIZE (TeXLive/context-20160522.tar.xz) = 7413940
-SHA256 (TeXLive/context.doc-20160522.tar.xz) = 4e176a3e7d4be92050d2654cb2538b04d74c792fbbb827267bb57500764b667d
-SIZE (TeXLive/context.doc-20160522.tar.xz) = 15000612
+TIMESTAMP = 1478319072
+SHA256 (TeXLive/context-20161104.tar.xz) = 01dfe38d24bbd1b67b97077900d9678ab3c4899ed2d70fe4f59369c79928bf3c
+SIZE (TeXLive/context-20161104.tar.xz) = 7412808
+SHA256 (TeXLive/context.doc-20161104.tar.xz) = 231adb686783078eeec84ee463fdcdd7c3f8705ce222ae9c458c96347f48bfd1
+SIZE (TeXLive/context.doc-20161104.tar.xz) = 15000708

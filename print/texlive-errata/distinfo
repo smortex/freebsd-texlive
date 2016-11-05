@@ -1,6 +1,7 @@
-SHA256 (TeXLive/errata-20160414.tar.xz) = e4e62cc000d8d81de246264cfdf14b203fe54eeaa6dca7b61eca2d7c82bc3d7a
-SIZE (TeXLive/errata-20160414.tar.xz) = 1652
-SHA256 (TeXLive/errata.doc-20160414.tar.xz) = 946dc0a66ceaf198d5a3c9e14a141784d5f04b5f102eacd258942d88615fbbe2
-SIZE (TeXLive/errata.doc-20160414.tar.xz) = 147644
-SHA256 (TeXLive/errata.source-20160414.tar.xz) = 3bbcb4ce52385df1f91944b034e26dbc099aa1f2fead4565295e31826e0b2897
-SIZE (TeXLive/errata.source-20160414.tar.xz) = 6420
+TIMESTAMP = 1478320001
+SHA256 (TeXLive/errata-20161104.tar.xz) = 20342d66dc2fffbc209a20c3725470fe08eea6160b4ffa3b2768ce57ffa48466
+SIZE (TeXLive/errata-20161104.tar.xz) = 1652
+SHA256 (TeXLive/errata.doc-20161104.tar.xz) = 786fb1676fd5571448a5d66d8874295d9723e26dc27fcf28a0459694299f6f2c
+SIZE (TeXLive/errata.doc-20161104.tar.xz) = 147640
+SHA256 (TeXLive/errata.source-20161104.tar.xz) = 061b3bcdf5281349a4d2577cdb6b3bc448d92d32752e711f3e8f22f1999c480f
+SIZE (TeXLive/errata.source-20161104.tar.xz) = 6420

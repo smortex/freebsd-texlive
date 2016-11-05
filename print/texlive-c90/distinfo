@@ -1,6 +1,7 @@
-SHA256 (TeXLive/c90-20160414.tar.xz) = ed7cc0acac871d83c9a8b59e088c69cd94f76e9e429d5d7423cb874c6c2a9fdb
-SIZE (TeXLive/c90-20160414.tar.xz) = 1880
-SHA256 (TeXLive/c90.doc-20160414.tar.xz) = c20dde450ae3f00310c7ac67c96e12e4766a68ee0def4e1ccbb476a73ae036af
-SIZE (TeXLive/c90.doc-20160414.tar.xz) = 86524
-SHA256 (TeXLive/c90.source-20160414.tar.xz) = ab6afdcfafc416a52aabbf9db28f0bafbd1fc015ceafa293daccc2dff5170ee1
-SIZE (TeXLive/c90.source-20160414.tar.xz) = 9828
+TIMESTAMP = 1478319516
+SHA256 (TeXLive/c90-20161104.tar.xz) = 4bcdb4f86b1df7d9bc4dffade5b090e357b38266d42fc6e02d9c281e24661418
+SIZE (TeXLive/c90-20161104.tar.xz) = 1880
+SHA256 (TeXLive/c90.doc-20161104.tar.xz) = a946910bcca7a297c43d18c7a5bbf3f5990f5e52e5ba31d32baec6e53259e678
+SIZE (TeXLive/c90.doc-20161104.tar.xz) = 86524
+SHA256 (TeXLive/c90.source-20161104.tar.xz) = 2a3ac05c55812aa60cbe52bfe6c26d5747b5c5b129426025346c834348f574bd
+SIZE (TeXLive/c90.source-20161104.tar.xz) = 9824

@@ -1,6 +1,7 @@
-SHA256 (TeXLive/exercises-20160414.tar.xz) = 1d4a2e60c89b736292d0f33eaf39574a6fb7a3cf04278e2bc86419163ac61476
-SIZE (TeXLive/exercises-20160414.tar.xz) = 2224
-SHA256 (TeXLive/exercises.doc-20160414.tar.xz) = 5db890a9545fcf3de992b21c26a64899956a4198b15f7a8d26cc57f7f725f0d2
-SIZE (TeXLive/exercises.doc-20160414.tar.xz) = 353788
-SHA256 (TeXLive/exercises.source-20160414.tar.xz) = bd86550e028f232f1823fe067931a0af0b5ae8c29d3891780f2641ae1dd6136d
-SIZE (TeXLive/exercises.source-20160414.tar.xz) = 7552
+TIMESTAMP = 1478320014
+SHA256 (TeXLive/exercises-20161104.tar.xz) = e0d51baf95d8a77ba3d33f47dada862fc6a97b9969c228361580c213f8950355
+SIZE (TeXLive/exercises-20161104.tar.xz) = 2220
+SHA256 (TeXLive/exercises.doc-20161104.tar.xz) = d85e78f5d5204065bfccfa1059ed4cd2794e05a8741cd124b5734b62b21364ea
+SIZE (TeXLive/exercises.doc-20161104.tar.xz) = 353788
+SHA256 (TeXLive/exercises.source-20161104.tar.xz) = b9ede70df4ef91738220290f18736be33766102521e04d3c81973371b2200fde
+SIZE (TeXLive/exercises.source-20161104.tar.xz) = 7548

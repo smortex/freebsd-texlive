@@ -1,6 +1,7 @@
-SHA256 (TeXLive/units-20160414.tar.xz) = 001861fd3b21fe8be0949a886071eb011540187fcbdf71f454425f280a76a429
-SIZE (TeXLive/units-20160414.tar.xz) = 2004
-SHA256 (TeXLive/units.doc-20160414.tar.xz) = 0ab45c0e7934603fd370e1776a5c544bf2962189299154594fe5caef33ca3ad9
-SIZE (TeXLive/units.doc-20160414.tar.xz) = 207044
-SHA256 (TeXLive/units.source-20160414.tar.xz) = 39edd72bf74a652cfe72bdcdb160f187942609ce5ef2fb6e1e1eb31404ec7a1a
-SIZE (TeXLive/units.source-20160414.tar.xz) = 7256
+TIMESTAMP = 1478320397
+SHA256 (TeXLive/units-20161104.tar.xz) = 508a1af8045c72366b5f40123b7c74de32422a20ee7ffdfbe5e64db1a2a298d6
+SIZE (TeXLive/units-20161104.tar.xz) = 2000
+SHA256 (TeXLive/units.doc-20161104.tar.xz) = 8ead9e481af71d9421857338debc53fbcba7c6b5db9d0bec04a570205cefd03e
+SIZE (TeXLive/units.doc-20161104.tar.xz) = 207040
+SHA256 (TeXLive/units.source-20161104.tar.xz) = a23e6e92cf5ecb55ea8db12aff11540f80831322b06e5fa1af05522d1f494cee
+SIZE (TeXLive/units.source-20161104.tar.xz) = 7256

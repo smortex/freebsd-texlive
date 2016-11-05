@@ -1,6 +1,7 @@
-SHA256 (TeXLive/tpslifonts-20160414.tar.xz) = 02a81e5a5556099ac9c13f8b91edcfe0172f02d8f81a93c8751b132874760aeb
-SIZE (TeXLive/tpslifonts-20160414.tar.xz) = 5356
-SHA256 (TeXLive/tpslifonts.doc-20160414.tar.xz) = f4f0f9695502a3434013dfb35116fa14d57955ac750cbe53a6f596b5a055158e
-SIZE (TeXLive/tpslifonts.doc-20160414.tar.xz) = 15044
-SHA256 (TeXLive/tpslifonts.source-20160414.tar.xz) = fe05ac08cc60939efb789e2dade5515b0284b561754f8d917f4cbb1b4bf8ab06
-SIZE (TeXLive/tpslifonts.source-20160414.tar.xz) = 10488
+TIMESTAMP = 1478319379
+SHA256 (TeXLive/tpslifonts-20161104.tar.xz) = 68b71ff49c6781185f75188e057fd52d60839e3795c9857f0d85e3ad0d237b9e
+SIZE (TeXLive/tpslifonts-20161104.tar.xz) = 5356
+SHA256 (TeXLive/tpslifonts.doc-20161104.tar.xz) = 1f82764fdf7c3896954d65129d83908b00ff2858dfa6fcd243c374b78d0e4e75
+SIZE (TeXLive/tpslifonts.doc-20161104.tar.xz) = 15044
+SHA256 (TeXLive/tpslifonts.source-20161104.tar.xz) = 9a4c2310bc48ad461ca07f1ffe892c1cea158d140d9c74fb8dd40d6436a8f8a4
+SIZE (TeXLive/tpslifonts.source-20161104.tar.xz) = 10492

@@ -1,7 +1,7 @@
-TIMESTAMP = 1471803458
-SHA256 (TeXLive/bxjscls-20160818.tar.xz) = 22479b2b29a76afea652744ecdb5c43cb01dbddc98d4ef7e1cc738c67e50577b
-SIZE (TeXLive/bxjscls-20160818.tar.xz) = 26448
-SHA256 (TeXLive/bxjscls.doc-20160818.tar.xz) = 0f57d133058fd85386dc6e8c4fa4cb1b0f36edd7bf1ee7a0542f581d3589f99e
-SIZE (TeXLive/bxjscls.doc-20160818.tar.xz) = 1711152
-SHA256 (TeXLive/bxjscls.source-20160818.tar.xz) = 005e6b5b0ac56080e0b903c38be4ebf0bbce096636227cda18a854a173473b3a
-SIZE (TeXLive/bxjscls.source-20160818.tar.xz) = 61068
+TIMESTAMP = 1478319645
+SHA256 (TeXLive/bxjscls-20161104.tar.xz) = 1c6d245c0de267fdecdf159541343c0e3db6e751e0edeeabad90156c3a029465
+SIZE (TeXLive/bxjscls-20161104.tar.xz) = 26268
+SHA256 (TeXLive/bxjscls.doc-20161104.tar.xz) = 7eb71ea0abb5f65bd16cafb916709403fbf5700d06d5e379771ccae06bca725d
+SIZE (TeXLive/bxjscls.doc-20161104.tar.xz) = 1559752
+SHA256 (TeXLive/bxjscls.source-20161104.tar.xz) = 5eafa2486a2828c1e83bffb0f0666e6ce374a3d792fa91ebf1fdc8993826dd50
+SIZE (TeXLive/bxjscls.source-20161104.tar.xz) = 61728

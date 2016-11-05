@@ -1,6 +1,7 @@
-SHA256 (TeXLive/cyrillic-20160414.tar.xz) = 74a8bc8fc4899015e784e458bdb3883f42174f5ce11d8769a6e610361e4b4e5d
-SIZE (TeXLive/cyrillic-20160414.tar.xz) = 15716
-SHA256 (TeXLive/cyrillic.doc-20160414.tar.xz) = e59252b7aebade9e0c46f57b2667ab4f0711c7dca8bf3b646567319528922a26
-SIZE (TeXLive/cyrillic.doc-20160414.tar.xz) = 924800
-SHA256 (TeXLive/cyrillic.source-20160414.tar.xz) = afd5db1cc9a9c3297ebe3cb1557fdae8fa05da3fcc83f6c4daef4cd03788cd98
-SIZE (TeXLive/cyrillic.source-20160414.tar.xz) = 21288
+TIMESTAMP = 1478319471
+SHA256 (TeXLive/cyrillic-20161104.tar.xz) = 11a318308c80cf01fe5ba8d90f6923aaf086beb2694294bd02cc2031cf97200a
+SIZE (TeXLive/cyrillic-20161104.tar.xz) = 15708
+SHA256 (TeXLive/cyrillic.doc-20161104.tar.xz) = 3acf6ff0f678c2958ac51abadccfac1fe485390c1c3f0adeb9bca972648a46c0
+SIZE (TeXLive/cyrillic.doc-20161104.tar.xz) = 924828
+SHA256 (TeXLive/cyrillic.source-20161104.tar.xz) = cd69a7b560c1fd564742ee06d04f509f5117ca603adcd2ccb6f2e51aa2518b5b
+SIZE (TeXLive/cyrillic.source-20161104.tar.xz) = 21284

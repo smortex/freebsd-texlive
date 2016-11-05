@@ -1,6 +1,7 @@
-SHA256 (TeXLive/german-20160414.tar.xz) = 825540d52c2830a3294544261852e1735d885d63d0e0c336e8071563bee802b1
-SIZE (TeXLive/german-20160414.tar.xz) = 6760
-SHA256 (TeXLive/german.doc-20160414.tar.xz) = acd7ced51811000c802986211d679baff3c301f5fe7acfb60ca1104423a0ff5e
-SIZE (TeXLive/german.doc-20160414.tar.xz) = 193600
-SHA256 (TeXLive/german.source-20160414.tar.xz) = d1c04d7abb17e0a6df026219edb9bd79fc881fe6c07c845327621658333f3e03
-SIZE (TeXLive/german.source-20160414.tar.xz) = 27212
+TIMESTAMP = 1478319612
+SHA256 (TeXLive/german-20161104.tar.xz) = 7bed3a902b1570883573bd18416b7875ce2bc3863a02d98bcfbc2bf5cfdb184c
+SIZE (TeXLive/german-20161104.tar.xz) = 6756
+SHA256 (TeXLive/german.doc-20161104.tar.xz) = 5144392bdcf781124b7fb7a9cb56cf29f82e7441d398783d639ee61ab69fb8f0
+SIZE (TeXLive/german.doc-20161104.tar.xz) = 193596
+SHA256 (TeXLive/german.source-20161104.tar.xz) = 19b6f0a8026d9a4b05e00627f61c7f5cb8112cd535f92809075044a96a6cf8a7
+SIZE (TeXLive/german.source-20161104.tar.xz) = 27208

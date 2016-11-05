@@ -1,4 +1,5 @@
-SHA256 (TeXLive/manfnt-20160414.tar.xz) = 43b33cc60cd4a712b951441e0b75c716a2e331cc3d2d47d936310b2cc957a3b0
-SIZE (TeXLive/manfnt-20160414.tar.xz) = 1440
-SHA256 (TeXLive/manfnt.source-20160414.tar.xz) = 0f3e0474afbc8d1986b15bc7dbbed2401c8f2c48f72cb52615bab3865cb0acdc
-SIZE (TeXLive/manfnt.source-20160414.tar.xz) = 6652
+TIMESTAMP = 1478320154
+SHA256 (TeXLive/manfnt-20161104.tar.xz) = bd90fc80aab8a239097ec1adfa1f4f6a0f0e73b5993901f65900544a945e1a0c
+SIZE (TeXLive/manfnt-20161104.tar.xz) = 1440
+SHA256 (TeXLive/manfnt.source-20161104.tar.xz) = b09af793f46d6e1363d7aaa11e9dfd972e512aa08d53a3a165fd1905bd3d0eb8
+SIZE (TeXLive/manfnt.source-20161104.tar.xz) = 6644

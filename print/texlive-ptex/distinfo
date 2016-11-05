@@ -1,4 +1,5 @@
-SHA256 (TeXLive/ptex-20160701.tar.xz) = a43af3e83b8a577e51e67886d92c607b67d8e57e776afe4b05b4b5da31e1dd17
-SIZE (TeXLive/ptex-20160701.tar.xz) = 832
-SHA256 (TeXLive/ptex.doc-20160701.tar.xz) = 5e080a25466d9c65fb1753c053f2ceff8c98f356dde7e2b7f4c401fc11f92c85
-SIZE (TeXLive/ptex.doc-20160701.tar.xz) = 38980
+TIMESTAMP = 1478319655
+SHA256 (TeXLive/ptex-20161104.tar.xz) = 15fb25d172e03025c782f9eac06f835f151aff1364c17962d0ce22fae89339af
+SIZE (TeXLive/ptex-20161104.tar.xz) = 848
+SHA256 (TeXLive/ptex.doc-20161104.tar.xz) = 7526a10d279c6fc464a0688978a781ee035e7294ca93baa0ce61a2b82f50b39a
+SIZE (TeXLive/ptex.doc-20161104.tar.xz) = 38980

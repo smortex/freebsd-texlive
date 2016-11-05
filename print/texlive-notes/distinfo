@@ -1,6 +1,7 @@
-SHA256 (TeXLive/notes-20160414.tar.xz) = ae94fde3745a3578cbcd5aa101eac556782e9f33773f490b4bc002d6662089ea
-SIZE (TeXLive/notes-20160414.tar.xz) = 6916
-SHA256 (TeXLive/notes.doc-20160414.tar.xz) = 28685dc49ae60f43418db233f977b452fad2d41e25c8ac966e07834081b38151
-SIZE (TeXLive/notes.doc-20160414.tar.xz) = 75084
-SHA256 (TeXLive/notes.source-20160414.tar.xz) = 239399a1effc03c6b7bef3ff88803df30b1837eb51add4fb3770156da6ca76be
-SIZE (TeXLive/notes.source-20160414.tar.xz) = 5772
+TIMESTAMP = 1478320209
+SHA256 (TeXLive/notes-20161104.tar.xz) = 646f1c014a0fbd39279bff17eb4aceeb88a80371249aa8aa4209f0fff26db803
+SIZE (TeXLive/notes-20161104.tar.xz) = 6912
+SHA256 (TeXLive/notes.doc-20161104.tar.xz) = b9fcc29534e8db3d55438e5ec1401f95c65c5290a237eef0a24d8b6936c5a025
+SIZE (TeXLive/notes.doc-20161104.tar.xz) = 75088
+SHA256 (TeXLive/notes.source-20161104.tar.xz) = 44e5fc0e99d16975ebe48ff75a79b484d529b915b6b9617f321e2eae8175e6f8
+SIZE (TeXLive/notes.source-20161104.tar.xz) = 5768

@@ -1,6 +1,7 @@
-SHA256 (TeXLive/mflogo-20160414.tar.xz) = 30063d143639c8aa70b6d194b4f14c6060ba539abb80de24c0f31b9969222280
-SIZE (TeXLive/mflogo-20160414.tar.xz) = 1608
-SHA256 (TeXLive/mflogo.doc-20160414.tar.xz) = eb76c4a003f9b167661552e47d414dc956767eb5a857797892d16e80eb885562
-SIZE (TeXLive/mflogo.doc-20160414.tar.xz) = 239480
-SHA256 (TeXLive/mflogo.source-20160414.tar.xz) = ebe62c7c0c3498851213e7a80c12fbe1c6e5cfdc411af0e7287eb2815e2c4771
-SIZE (TeXLive/mflogo.source-20160414.tar.xz) = 5732
+TIMESTAMP = 1478319039
+SHA256 (TeXLive/mflogo-20161104.tar.xz) = e45f7386ef32237fd13c122f112e9f508c15e5c6f1287ba9f51a4757a4a670ca
+SIZE (TeXLive/mflogo-20161104.tar.xz) = 1600
+SHA256 (TeXLive/mflogo.doc-20161104.tar.xz) = a813616e7cee7a0557888ec80dd7abb624b0b81bce8ec72642452b97d1df5e9a
+SIZE (TeXLive/mflogo.doc-20161104.tar.xz) = 239480
+SHA256 (TeXLive/mflogo.source-20161104.tar.xz) = 9d459f778661e4eab2753d3969425a4296b1771b47c11ce9ac1d6c64ce3f0a34
+SIZE (TeXLive/mflogo.source-20161104.tar.xz) = 5732
