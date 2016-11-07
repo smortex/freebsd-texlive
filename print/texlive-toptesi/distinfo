@@ -1,6 +1,7 @@
-SHA256 (TeXLive/toptesi-20160708.tar.xz) = 432bc2dd24e28c8693c812c70221e3f7fbe60f695eb0ea4ed3ba65cfae127dff
-SIZE (TeXLive/toptesi-20160708.tar.xz) = 11428
-SHA256 (TeXLive/toptesi.doc-20160708.tar.xz) = 156dddd7bd41eabc7e9735c80e439302f835563b2aa8e45c60565daf83e3c592
-SIZE (TeXLive/toptesi.doc-20160708.tar.xz) = 2162196
-SHA256 (TeXLive/toptesi.source-20160708.tar.xz) = aa4ba78d788f9d22774acae692b306d9059292646b4d7e74ebafcfda51e20edb
-SIZE (TeXLive/toptesi.source-20160708.tar.xz) = 44948
+TIMESTAMP = 1478493291
+SHA256 (TeXLive/toptesi-20161106.tar.xz) = 4eb6d2b37f88ac07596e2456e730f690a7ffced352d5185450b08aae59b3cfbf
+SIZE (TeXLive/toptesi-20161106.tar.xz) = 11472
+SHA256 (TeXLive/toptesi.doc-20161106.tar.xz) = 16f004fcdc2993ffcceec10683532a6905f83a8c5afe2204c1da1e8ff7a39a9f
+SIZE (TeXLive/toptesi.doc-20161106.tar.xz) = 2080492
+SHA256 (TeXLive/toptesi.source-20161106.tar.xz) = 30ac10e3fd0aca58c3c9ec572646b1ddff9cc2c9b474246710799b14aa0b6802
+SIZE (TeXLive/toptesi.source-20161106.tar.xz) = 45160
