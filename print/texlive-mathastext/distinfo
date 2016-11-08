@@ -1,6 +1,7 @@
-SHA256 (TeXLive/mathastext-20160514.tar.xz) = 971f8d85fbc2cc32ae725ba3a2cd3a70c5fd17b690e75136e8665c288163ff9d
-SIZE (TeXLive/mathastext-20160514.tar.xz) = 14676
-SHA256 (TeXLive/mathastext.doc-20160514.tar.xz) = f34997828ae57708f0b7c25d219f93821bc412778de822f5317f2de80a1c06a1
-SIZE (TeXLive/mathastext.doc-20160514.tar.xz) = 488864
-SHA256 (TeXLive/mathastext.source-20160514.tar.xz) = e94be2e826e79c2db9f59ff2b14a3c051f9ef970c5529a23f0116e7165e8d0f8
-SIZE (TeXLive/mathastext.source-20160514.tar.xz) = 85288
+TIMESTAMP = 1478579146
+SHA256 (TeXLive/mathastext-20161107.tar.xz) = 9b089bc17e0346212a719662d7457576564d83ce07326d18e6008d3aefc89bc0
+SIZE (TeXLive/mathastext-20161107.tar.xz) = 14744
+SHA256 (TeXLive/mathastext.doc-20161107.tar.xz) = c21240d3f135b3f388f06528adcc67a98b56381fe78f0d8e09ea7eead168a6d1
+SIZE (TeXLive/mathastext.doc-20161107.tar.xz) = 486924
+SHA256 (TeXLive/mathastext.source-20161107.tar.xz) = 76b53a2968f976f976129b88e11c4af8d915015b7c85c1ad14e2738c2576cf2c
+SIZE (TeXLive/mathastext.source-20161107.tar.xz) = 85480
