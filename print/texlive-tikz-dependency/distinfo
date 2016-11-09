@@ -1,4 +1,5 @@
-SHA256 (TeXLive/tikz-dependency-20160414.tar.xz) = f7496e99103d6f1e994d30416f0b083652debcff9485e4b1578a2b6ea2addf03
-SIZE (TeXLive/tikz-dependency-20160414.tar.xz) = 3768
-SHA256 (TeXLive/tikz-dependency.doc-20160414.tar.xz) = 5490f1919a5acbf8af8a085df1d8ff89e3894159f601c13ddb1129a6a6b4ee0a
-SIZE (TeXLive/tikz-dependency.doc-20160414.tar.xz) = 506272
+TIMESTAMP = 1478665158
+SHA256 (TeXLive/tikz-dependency-20161108.tar.xz) = 2b83112a17d85cc43f47941971861b4121fd9cdd575ce2479c2d260b3c523b61
+SIZE (TeXLive/tikz-dependency-20161108.tar.xz) = 15744
+SHA256 (TeXLive/tikz-dependency.doc-20161108.tar.xz) = a7aaf482cd808cc81d86217ccd4623a3427d13f7caaa7637d97acd861605b1d1
+SIZE (TeXLive/tikz-dependency.doc-20161108.tar.xz) = 500028

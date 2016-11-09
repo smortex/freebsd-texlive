@@ -1,4 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/quran/README
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/quran/defaulttext.pdf
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/quran/quran-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/quran/quran-doc.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/quran/quran-test.pdf
@@ -8,6 +9,9 @@
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/quran/quran-test2.pdf
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/quran/quran-test2.tex
 %%PORTDOCS%%share/texmf-dist/doc/xelatex/quran/quran.png
+%%PORTDOCS%%share/texmf-dist/doc/xelatex/quran/uthmanitext.pdf
 share/texmf-dist/tex/xelatex/quran/quran.sty
+share/texmf-dist/tex/xelatex/quran/qurantext-simple.def
+share/texmf-dist/tex/xelatex/quran/qurantext-uthmani.def
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -3,11 +3,11 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-dependency/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-dependency/VERSION
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-dependency/pgfmanual-en-macros.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-dependency/pgfmanual.code.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-dependency/pgfmanual.pdflinks.code.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/tikz-dependency/pgfmanual.prettyprinter.code.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-dependency/tikz-dependency-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/tikz-dependency/tikz-dependency-doc.tex
+share/texmf-dist/tex/latex/tikz-dependency/pgfmanual.code.tex
+share/texmf-dist/tex/latex/tikz-dependency/pgfmanual.pdflinks.code.tex
+share/texmf-dist/tex/latex/tikz-dependency/pgfmanual.prettyprinter.code.tex
 share/texmf-dist/tex/latex/tikz-dependency/tikz-dependency.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -1,4 +1,5 @@
-SHA256 (TeXLive/quran-20160515.tar.xz) = 9998aa76b61febb1fe925f3df4b54255a45cbfbc8e2b787ca2ad222a785adcfb
-SIZE (TeXLive/quran-20160515.tar.xz) = 205408
-SHA256 (TeXLive/quran.doc-20160515.tar.xz) = f7d826445c71fccd4577c6fc38dbd7b66294cfbc12e742224e65a77cdb7a7a1a
-SIZE (TeXLive/quran.doc-20160515.tar.xz) = 320472
+TIMESTAMP = 1478666061
+SHA256 (TeXLive/quran-20161108.tar.xz) = 486ec9a72c76486ac6af6af0dabc24e2ded5c0a442f646277b709940797686a6
+SIZE (TeXLive/quran-20161108.tar.xz) = 253196
+SHA256 (TeXLive/quran.doc-20161108.tar.xz) = ea3297439fd73b329a00fbd228858662181c0607799e59b7fdc7044b7714e3d3
+SIZE (TeXLive/quran.doc-20161108.tar.xz) = 340892
