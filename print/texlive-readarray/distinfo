@@ -1,4 +1,5 @@
-SHA256 (TeXLive/readarray-20160708.tar.xz) = fe20fdcfe82d511eedd6b7a487b5d5bac6907625a19dbe42e341b2605e965020
-SIZE (TeXLive/readarray-20160708.tar.xz) = 2924
-SHA256 (TeXLive/readarray.doc-20160708.tar.xz) = ea94ef03a9696087e29144f105ce06c65e24427470aa86fd628e54d2eaf53e91
-SIZE (TeXLive/readarray.doc-20160708.tar.xz) = 222484
+TIMESTAMP = 1478752055
+SHA256 (TeXLive/readarray-20161109.tar.xz) = cb56218c722b455aa2df089232c989d9d90a8b3febf79ec2e135e8e4b001bdec
+SIZE (TeXLive/readarray-20161109.tar.xz) = 4248
+SHA256 (TeXLive/readarray.doc-20161109.tar.xz) = f72ff07bd1c3c6864dab4ca227de64d3830c12d5392809b2d99ff7262c00a871
+SIZE (TeXLive/readarray.doc-20161109.tar.xz) = 487376

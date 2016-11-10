@@ -1,0 +1,32 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikzpeople/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikzpeople/tikzpeople.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/tikzpeople/tikzpeople.tex
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.alice.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.bob.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.bride.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.builder.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.businessman.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.charlie.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.chef.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.conductor.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.cowboy.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.criminal.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.dave.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.graduate.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.groom.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.guard.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.jester.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.judge.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.mexican.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.nun.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.nurse.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.physician.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.pilot.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.police.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.priest.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.sailor.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.santa.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.shape.surgeon.sty
+share/texmf-dist/tex/latex/tikzpeople/tikzpeople.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

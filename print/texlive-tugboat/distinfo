@@ -1,6 +1,7 @@
-SHA256 (TeXLive/tugboat-20160414.tar.xz) = 8648e9b35e4d203695f21700ada3fa40b5813ce886f7a6fe89533b8fcd5a37dd
-SIZE (TeXLive/tugboat-20160414.tar.xz) = 20164
-SHA256 (TeXLive/tugboat.doc-20160414.tar.xz) = 6c1123c2fbd63e98652332795efcab1cf17271e9a8ce611bd0c0eed79e9f4f9f
-SIZE (TeXLive/tugboat.doc-20160414.tar.xz) = 763220
-SHA256 (TeXLive/tugboat.source-20160414.tar.xz) = 4d6462656776cdbb05d140dbc1e5b9ac16b9a5e6f60139ca54511919f11bb270
-SIZE (TeXLive/tugboat.source-20160414.tar.xz) = 37368
+TIMESTAMP = 1478752469
+SHA256 (TeXLive/tugboat-20161109.tar.xz) = 7257897a92ea7af052e1eecc3a29f7ec07f65e2c779316dbd776975b16a162db
+SIZE (TeXLive/tugboat-20161109.tar.xz) = 20228
+SHA256 (TeXLive/tugboat.doc-20161109.tar.xz) = 7bd86f6a9bd7d20265b0dbbfb1e9850fb9fc1116862a51e8fc440344482464a2
+SIZE (TeXLive/tugboat.doc-20161109.tar.xz) = 765668
+SHA256 (TeXLive/tugboat.source-20161109.tar.xz) = 54a4c46263d07beb3425059f605603734db6e9ac8c462b797b54ad97b41b5411
+SIZE (TeXLive/tugboat.source-20161109.tar.xz) = 37896

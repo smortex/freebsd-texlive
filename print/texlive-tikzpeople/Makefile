@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	tugboat-plain
+PORTNAME=	tikzpeople
 PORTVERSION=	20161109
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Plain TeX macros for TUGboat
+COMMENT=	Draw people-shaped nodes in TikZ
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

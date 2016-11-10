@@ -83,6 +83,12 @@ share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/noEmbed/ptex-noEmbed-04.map
 share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/noEmbed/ptex-noEmbed.map
 share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/noEmbed/uptex-noEmbed-04.map
 share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/noEmbed/uptex-noEmbed.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/toppanbunkyu-sierra/otf-toppanbunkyu-sierra.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/toppanbunkyu-sierra/otf-up-toppanbunkyu-sierra.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/toppanbunkyu-sierra/ptex-toppanbunkyu-sierra-04.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/toppanbunkyu-sierra/ptex-toppanbunkyu-sierra.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/toppanbunkyu-sierra/uptex-toppanbunkyu-sierra-04.map
+share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/toppanbunkyu-sierra/uptex-toppanbunkyu-sierra.map
 share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/yu-osx/otf-up-yu-osx.map
 share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/yu-osx/otf-yu-osx.map
 share/texmf-dist/fonts/map/dvipdfmx/jfontmaps/yu-osx/ptex-yu-osx-04.map

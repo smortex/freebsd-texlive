@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20160830
+PORTVERSION=	20161109
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -169,6 +169,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzorbital/tikzorbital.sty:${PORTSDIR}/print/texlive-tikzorbital \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpagenodes/tikzpagenodes.sty:${PORTSDIR}/print/texlive-tikzpagenodes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpfeile/tikzpfeile.sty:${PORTSDIR}/print/texlive-tikzpfeile \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpeople/tikzpeople.sty:${PORTSDIR}/print/texlive-tikzpeople \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzposter/tikzposter.cls:${PORTSDIR}/print/texlive-tikzposter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzscale/tikzscale.sty:${PORTSDIR}/print/texlive-tikzscale \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzsymbols/tikzsymbols.sty:${PORTSDIR}/print/texlive-tikzsymbols \

@@ -1,7 +1,7 @@
-TIMESTAMP = 1475295624
-SHA256 (TeXLive/jfontmaps-20160930.tar.xz) = 0153a9837e3c4031f21faa28b3a663a068a72a843edbd536401f18b4c82f3736
-SIZE (TeXLive/jfontmaps-20160930.tar.xz) = 27728
-SHA256 (TeXLive/jfontmaps.doc-20160930.tar.xz) = 13ac5cb0f4264c315b972ebdbee7396bb5f1be81413be2927bef2f98bddb93cb
-SIZE (TeXLive/jfontmaps.doc-20160930.tar.xz) = 6468
-SHA256 (TeXLive/jfontmaps.source-20160930.tar.xz) = 761fe70fced5ceecdda094e98d6a2c54f4fef0d17f968b1c6a6ee40fe01003fc
-SIZE (TeXLive/jfontmaps.source-20160930.tar.xz) = 308704
+TIMESTAMP = 1478751451
+SHA256 (TeXLive/jfontmaps-20161109.tar.xz) = 288f034cb9a038abcb9c953e94b6215d695054176205926f40b1062eaf7e9a99
+SIZE (TeXLive/jfontmaps-20161109.tar.xz) = 28488
+SHA256 (TeXLive/jfontmaps.doc-20161109.tar.xz) = 2d3226a3d6bd6241446cf2288778a4988c8b97a2afa3a4d7afe32e8c9b6d27de
+SIZE (TeXLive/jfontmaps.doc-20161109.tar.xz) = 6648
+SHA256 (TeXLive/jfontmaps.source-20161109.tar.xz) = 3bfa697486b9c0cc74cefe1179bd721e0ce790e81cb04097fd1bffb1be90e951
+SIZE (TeXLive/jfontmaps.source-20161109.tar.xz) = 308792

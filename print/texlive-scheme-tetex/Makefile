@@ -464,6 +464,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty:${PORTSDIR}/print/texlive-algorithmicx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/algorithms/algorithm.sty:${PORTSDIR}/print/texlive-algorithms \
 		${LOCALBASE}/share/texmf-dist/tex/amstex/base/amstex.tex:${PORTSDIR}/print/texlive-amstex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/apxproof/apxproof.sty:${PORTSDIR}/print/texlive-apxproof \
 		${LOCALBASE}/share/texmf-dist/tex/latex/autobreak/autobreak.sty:${PORTSDIR}/print/texlive-autobreak \
 		${LOCALBASE}/share/texmf-dist/tex/latex/backnaur/backnaur.sty:${PORTSDIR}/print/texlive-backnaur \
 		${LOCALBASE}/share/texmf-dist/tex/latex/begriff/begriff.sty:${PORTSDIR}/print/texlive-begriff \
@@ -498,6 +499,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/conteq/conteq.sty:${PORTSDIR}/print/texlive-conteq \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cryptocode/cryptocode.sty:${PORTSDIR}/print/texlive-cryptocode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delim/delim.sty:${PORTSDIR}/print/texlive-delim \
+		${LOCALBASE}/share/texmf-dist/tex/latex/delimset/delimset.sty:${PORTSDIR}/print/texlive-delimset \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delimseasy/delimseasy.sty:${PORTSDIR}/print/texlive-delimseasy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/diffcoeff/diffcoeff.sty:${PORTSDIR}/print/texlive-diffcoeff \
 		${LOCALBASE}/share/texmf-dist/tex/latex/digiconfigs/digiconfigs.sty:${PORTSDIR}/print/texlive-digiconfigs \
@@ -770,6 +772,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzorbital/tikzorbital.sty:${PORTSDIR}/print/texlive-tikzorbital \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpagenodes/tikzpagenodes.sty:${PORTSDIR}/print/texlive-tikzpagenodes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpfeile/tikzpfeile.sty:${PORTSDIR}/print/texlive-tikzpfeile \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpeople/tikzpeople.sty:${PORTSDIR}/print/texlive-tikzpeople \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzposter/tikzposter.cls:${PORTSDIR}/print/texlive-tikzposter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzscale/tikzscale.sty:${PORTSDIR}/print/texlive-tikzscale \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzsymbols/tikzsymbols.sty:${PORTSDIR}/print/texlive-tikzsymbols \

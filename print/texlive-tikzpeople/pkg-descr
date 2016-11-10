@@ -1,0 +1,7 @@
+This package provides people-shaped nodes in the style of
+Microsoft Visio clip art, to be used with TikZ. The available,
+highly customizable, node shapes are: alice, bob, bride,
+builder, businessman, charlie, chef, conductor, cowboy,
+criminal, dave, graduate, groom, guard, jester, judge, mexican,
+nun, nurse, physician, pilot, police, priest, sailor, santa,
+surgeon.
