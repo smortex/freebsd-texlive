@@ -449,6 +449,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty:${PORTSDIR}/print/texlive-algorithmicx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/algorithms/algorithm.sty:${PORTSDIR}/print/texlive-algorithms \
 		${LOCALBASE}/share/texmf-dist/tex/amstex/base/amstex.tex:${PORTSDIR}/print/texlive-amstex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/apxproof/apxproof.sty:${PORTSDIR}/print/texlive-apxproof \
 		${LOCALBASE}/share/texmf-dist/tex/latex/autobreak/autobreak.sty:${PORTSDIR}/print/texlive-autobreak \
 		${LOCALBASE}/share/texmf-dist/tex/latex/backnaur/backnaur.sty:${PORTSDIR}/print/texlive-backnaur \
 		${LOCALBASE}/share/texmf-dist/tex/latex/begriff/begriff.sty:${PORTSDIR}/print/texlive-begriff \
@@ -483,6 +484,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/conteq/conteq.sty:${PORTSDIR}/print/texlive-conteq \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cryptocode/cryptocode.sty:${PORTSDIR}/print/texlive-cryptocode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delim/delim.sty:${PORTSDIR}/print/texlive-delim \
+		${LOCALBASE}/share/texmf-dist/tex/latex/delimset/delimset.sty:${PORTSDIR}/print/texlive-delimset \
 		${LOCALBASE}/share/texmf-dist/tex/latex/delimseasy/delimseasy.sty:${PORTSDIR}/print/texlive-delimseasy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/diffcoeff/diffcoeff.sty:${PORTSDIR}/print/texlive-diffcoeff \
 		${LOCALBASE}/share/texmf-dist/tex/latex/digiconfigs/digiconfigs.sty:${PORTSDIR}/print/texlive-digiconfigs \
@@ -665,6 +667,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/quran/quran.sty:${PORTSDIR}/print/texlive-quran \
 		${LOCALBASE}/share/texmf-dist/tex/latex/realscripts/realscripts.sty:${PORTSDIR}/print/texlive-realscripts \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty:${PORTSDIR}/print/texlive-ucharclasses \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/unicode-bidi/unicode-bidi.sty:${PORTSDIR}/print/texlive-unicode-bidi \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/unisugar/unisugar.sty:${PORTSDIR}/print/texlive-unisugar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xebaposter/xebaposter.cls:${PORTSDIR}/print/texlive-xebaposter \
 		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/xecjk/full-stop.map:${PORTSDIR}/print/texlive-xecjk \

@@ -1,0 +1,2 @@
+The experimental unicode-bidi package allows to mix non-RTL
+script with RTL script without any markup.

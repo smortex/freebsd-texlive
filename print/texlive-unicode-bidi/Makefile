@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	unicode-bidi
 PORTVERSION=	20161110
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	Experimental unicode bidi package for XeTeX
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

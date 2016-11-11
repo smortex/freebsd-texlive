@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-xetex
-PORTVERSION=	20160918
+PORTVERSION=	20161110
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -61,6 +61,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/quran/quran.sty:${PORTSDIR}/print/texlive-quran \
 		${LOCALBASE}/share/texmf-dist/tex/latex/realscripts/realscripts.sty:${PORTSDIR}/print/texlive-realscripts \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty:${PORTSDIR}/print/texlive-ucharclasses \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/unicode-bidi/unicode-bidi.sty:${PORTSDIR}/print/texlive-unicode-bidi \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/unisugar/unisugar.sty:${PORTSDIR}/print/texlive-unisugar \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xebaposter/xebaposter.cls:${PORTSDIR}/print/texlive-xebaposter \
 		${LOCALBASE}/share/texmf-dist/fonts/misc/xetex/fontmapping/xecjk/full-stop.map:${PORTSDIR}/print/texlive-xecjk \
