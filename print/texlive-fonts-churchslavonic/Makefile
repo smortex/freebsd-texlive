@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	fonts-churchslavonic
-PORTVERSION=	20160515
+PORTVERSION=	20161112
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

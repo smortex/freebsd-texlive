@@ -1,0 +1,22 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fonts-churchslavonic/GPL.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fonts-churchslavonic/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fonts-churchslavonic/OFL.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fonts-churchslavonic/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fonts-churchslavonic/fonts-churchslavonic.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fonts-churchslavonic/fonts-churchslavonic.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fonts-churchslavonic/opentype.png
+%%PORTDOCS%%share/texmf-dist/doc/fonts/fonts-churchslavonic/truetype.png
+share/texmf-dist/fonts/opentype/public/fonts-churchslavonic/FedorovskUnicode.otf
+share/texmf-dist/fonts/opentype/public/fonts-churchslavonic/IndictionUnicode.otf
+share/texmf-dist/fonts/opentype/public/fonts-churchslavonic/MenaionUnicode.otf
+share/texmf-dist/fonts/opentype/public/fonts-churchslavonic/MonomakhUnicode.otf
+share/texmf-dist/fonts/opentype/public/fonts-churchslavonic/PomorskyUnicode.otf
+share/texmf-dist/fonts/opentype/public/fonts-churchslavonic/PonomarUnicode.otf
+share/texmf-dist/fonts/truetype/public/fonts-churchslavonic/FedorovskUnicode.ttf
+share/texmf-dist/fonts/truetype/public/fonts-churchslavonic/IndictionUnicode.ttf
+share/texmf-dist/fonts/truetype/public/fonts-churchslavonic/MenaionUnicode.ttf
+share/texmf-dist/fonts/truetype/public/fonts-churchslavonic/MonomakhUnicode.ttf
+share/texmf-dist/fonts/truetype/public/fonts-churchslavonic/PomorskyUnicode.ttf
+share/texmf-dist/fonts/truetype/public/fonts-churchslavonic/PonomarUnicode.ttf
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

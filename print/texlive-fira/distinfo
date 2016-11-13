@@ -1,4 +1,5 @@
-SHA256 (TeXLive/fira-20160414.tar.xz) = 2da8c5d6d8e6aa7d44890416c64d58b6d494a90fbe280b15e5ac69b5075e4cc4
-SIZE (TeXLive/fira-20160414.tar.xz) = 12121648
-SHA256 (TeXLive/fira.doc-20160414.tar.xz) = 430c1decc1685c4dd6787708cc3412b67f75ab6d30debdbbaecfbb9b39f5934e
-SIZE (TeXLive/fira.doc-20160414.tar.xz) = 193104
+TIMESTAMP = 1479010312
+SHA256 (TeXLive/fira-20161112.tar.xz) = 6474893c729a990dabda974a654f8b42a98afbf8b30156c2dda35de3cd28da4f
+SIZE (TeXLive/fira-20161112.tar.xz) = 13433868
+SHA256 (TeXLive/fira.doc-20161112.tar.xz) = 2336c885cc3b4de5cdc05b7975f1b75d1051a7a9b2b6aed59f5ddb59fe0c01e7
+SIZE (TeXLive/fira.doc-20161112.tar.xz) = 812468
