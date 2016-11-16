@@ -2,6 +2,7 @@
 %%PORTSRC%%share/texmf-dist/source/lualatex/arabluatex/README.tex
 %%PORTSRC%%share/texmf-dist/source/lualatex/arabluatex/arabluatex.dtx
 %%PORTSRC%%share/texmf-dist/source/lualatex/arabluatex/arabluatex.ins
+share/texmf-dist/tex/lualatex/arabluatex/arabluatex-patch.sty
 share/texmf-dist/tex/lualatex/arabluatex/arabluatex.lua
 share/texmf-dist/tex/lualatex/arabluatex/arabluatex.sty
 share/texmf-dist/tex/lualatex/arabluatex/arabluatex_fullvoc.lua
