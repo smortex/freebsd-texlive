@@ -1,0 +1,7 @@
+BaskervilleF is a fork from the Libre Baskerville fonts (Roman,
+Italic, Bold only) released under the OFL by Paolo Impallari
+and Rodrigo Fuenzalida. Their font are optimized for web usage,
+while BaskervilleF is optimized for traditional TeX usage,
+normally destined for production of pdf files. A bold italic
+style was added and mathematical support is offered as an
+option to newtxmath.

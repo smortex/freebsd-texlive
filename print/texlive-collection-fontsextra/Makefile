@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20161016
+PORTVERSION=	20161119
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -69,6 +69,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/barcodes/barcodes.sty:${PORTSDIR}/print/texlive-barcodes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/baskervald/baskervald.sty:${PORTSDIR}/print/texlive-baskervald \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/baskervaldx/Baskervaldx-Bol.afm:${PORTSDIR}/print/texlive-baskervaldx \
+		${LOCALBASE}/share/texmf-dist/tex/latex/baskervillef/baskervillef.sty:${PORTSDIR}/print/texlive-baskervillef \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bbding/bbding.sty:${PORTSDIR}/print/texlive-bbding \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/bbm/bbm10.mf:${PORTSDIR}/print/texlive-bbm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/bbm-macros/bbm.sty:${PORTSDIR}/print/texlive-bbm-macros \
@@ -152,7 +153,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fetamont/fetamont.sty:${PORTSDIR}/print/texlive-fetamont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/feyn/feyn.sty:${PORTSDIR}/print/texlive-feyn \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fge/fge.sty:${PORTSDIR}/print/texlive-fge \
-		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/fira/fir_4k5dce.enc:${PORTSDIR}/print/texlive-fira \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/fira/fir_2gmv7z.enc:${PORTSDIR}/print/texlive-fira \
 		${LOCALBASE}/share/texmf-dist/tex/latex/foekfont/foekfont.sty:${PORTSDIR}/print/texlive-foekfont \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fonetika/fonetika.sty:${PORTSDIR}/print/texlive-fonetika \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fontawesome/fontawesome.sty:${PORTSDIR}/print/texlive-fontawesome \

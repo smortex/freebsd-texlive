@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	tcolorbox
+PORTNAME=	baskervillef
 PORTVERSION=	20161119
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Coloured boxes, for LaTeX examples and theorems, etc
+COMMENT=	Fry's Baskerville look-alike, with math support
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
