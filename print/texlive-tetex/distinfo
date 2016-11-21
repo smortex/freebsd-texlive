@@ -1,5 +1,5 @@
-TIMESTAMP = 1476331667
-SHA256 (TeXLive/tetex-20161012.tar.xz) = 6c3010943bfcca911e8dcd295994167f1aace19f0e8fec23b1e499ec262719a1
-SIZE (TeXLive/tetex-20161012.tar.xz) = 59548
-SHA256 (TeXLive/tetex.doc-20161012.tar.xz) = 64fa30f9e8491b440fc05cb68ebf643e33ee0ee980f71a29cbd96715053a1cd8
-SIZE (TeXLive/tetex.doc-20161012.tar.xz) = 501376
+TIMESTAMP = 1479701249
+SHA256 (TeXLive/tetex-20161120.tar.xz) = 2b1bb79cdde294f0bf4c3b7a7122749853ca8e432520793bf67f80908bb06daa
+SIZE (TeXLive/tetex-20161120.tar.xz) = 59564
+SHA256 (TeXLive/tetex.doc-20161120.tar.xz) = 297913db5b821c73c2b3fde1b0d58ca2aa12c66eaaaad674cccda367c46023b0
+SIZE (TeXLive/tetex.doc-20161120.tar.xz) = 501376

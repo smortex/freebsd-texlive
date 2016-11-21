@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20161119
+PORTVERSION=	20161120
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -174,6 +174,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/gillcm/gillcm.sty:${PORTSDIR}/print/texlive-gillcm \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gillius/gillius.sty:${PORTSDIR}/print/texlive-gillius \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/gnu-freefont/FreeMono.otf:${PORTSDIR}/print/texlive-gnu-freefont \
+		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/gofonts/go_3mwynu.enc:${PORTSDIR}/print/texlive-gofonts \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/gothic/cmfrabase.mf:${PORTSDIR}/print/texlive-gothic \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/greenpoint/greenpoint.mf:${PORTSDIR}/print/texlive-greenpoint \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/urw/grotesq/ugqb8a.afm:${PORTSDIR}/print/texlive-grotesq \

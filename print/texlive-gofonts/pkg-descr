@@ -1,0 +1,7 @@
+This package provides LaTeX, pdfLaTeX, XeLaTeX and LuaLaTeX
+support for the GoSans and GoMono families of fonts designed by
+the Bigelow & Holmes foundry for the Go project. GoSans is
+available in three weights: Regular, Medium, and Bold (with
+corresponding italics). GoMono is available in regular and
+bold, with italics. Notes on the design may be found at
+https://blog.golang.org/go-fonts.
