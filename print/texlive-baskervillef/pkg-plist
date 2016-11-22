@@ -6,6 +6,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/fonts/baskervillef/baskervillef-doc.tex
 share/texmf-dist/fonts/enc/dvips/baskervillef/zba_2vphkl.enc
 share/texmf-dist/fonts/enc/dvips/baskervillef/zba_323rzo.enc
+share/texmf-dist/fonts/enc/dvips/baskervillef/zba_4ocxoh.enc
 share/texmf-dist/fonts/enc/dvips/baskervillef/zba_4s6ffc.enc
 share/texmf-dist/fonts/enc/dvips/baskervillef/zba_5iwusi.enc
 share/texmf-dist/fonts/enc/dvips/baskervillef/zba_5p43xi.enc
@@ -27,11 +28,14 @@ share/texmf-dist/fonts/enc/dvips/baskervillef/zba_chi3og.enc
 share/texmf-dist/fonts/enc/dvips/baskervillef/zba_cn6fgj.enc
 share/texmf-dist/fonts/enc/dvips/baskervillef/zba_coef4z.enc
 share/texmf-dist/fonts/enc/dvips/baskervillef/zba_cvjygd.enc
+share/texmf-dist/fonts/enc/dvips/baskervillef/zba_cxluio.enc
+share/texmf-dist/fonts/enc/dvips/baskervillef/zba_d4tqkp.enc
 share/texmf-dist/fonts/enc/dvips/baskervillef/zba_dxocay.enc
 share/texmf-dist/fonts/enc/dvips/baskervillef/zba_e6dqmu.enc
 share/texmf-dist/fonts/enc/dvips/baskervillef/zba_e6zmok.enc
 share/texmf-dist/fonts/enc/dvips/baskervillef/zba_fex7hn.enc
 share/texmf-dist/fonts/enc/dvips/baskervillef/zba_fl2r4r.enc
+share/texmf-dist/fonts/enc/dvips/baskervillef/zba_flkcsi.enc
 share/texmf-dist/fonts/enc/dvips/baskervillef/zba_fv24fa.enc
 share/texmf-dist/fonts/enc/dvips/baskervillef/zba_gcpsbm.enc
 share/texmf-dist/fonts/enc/dvips/baskervillef/zba_gdav67.enc

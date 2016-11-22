@@ -1,6 +1,7 @@
-SHA256 (TeXLive/hustthesis-20160619.tar.xz) = b5f11a08d33b03a68b7cc6700fb2294cbee052c348bcda1e707644e95a8e81c0
-SIZE (TeXLive/hustthesis-20160619.tar.xz) = 57672
-SHA256 (TeXLive/hustthesis.doc-20160619.tar.xz) = d4d788fe780377f4fffbe51f6878ff4d72f409f15ddae566085680e1ef25f512
-SIZE (TeXLive/hustthesis.doc-20160619.tar.xz) = 757548
-SHA256 (TeXLive/hustthesis.source-20160619.tar.xz) = 7c8c3afe48a98e86e1a574c8a3795a7d5759f9f5cb1c2589f92843ed74cc8c4b
-SIZE (TeXLive/hustthesis.source-20160619.tar.xz) = 24544
+TIMESTAMP = 1479789392
+SHA256 (TeXLive/hustthesis-20161121.tar.xz) = a4d82872f074c5c5c6bc4ad46dbf49d98a4d7b57fba4dc06251c28890037bb9e
+SIZE (TeXLive/hustthesis-20161121.tar.xz) = 57736
+SHA256 (TeXLive/hustthesis.doc-20161121.tar.xz) = 7bdc810c1c6ef9f56da4a771bbf42ca881e27b34422e81a40fe779722c015fa5
+SIZE (TeXLive/hustthesis.doc-20161121.tar.xz) = 747148
+SHA256 (TeXLive/hustthesis.source-20161121.tar.xz) = b77887743f1837e37a7a5948c469f70655a4a2b7fdf1a2d0b2a4c94c3569ce2b
+SIZE (TeXLive/hustthesis.source-20161121.tar.xz) = 24892
