@@ -1,6 +1,7 @@
-SHA256 (TeXLive/xint-20160414.tar.xz) = a639d3ce4df525b2a8c57526e51f17b72f3e6f235a2bdeb2a2eb142459835504
-SIZE (TeXLive/xint-20160414.tar.xz) = 58596
-SHA256 (TeXLive/xint.doc-20160414.tar.xz) = 561636b38b99fb314b660bd41b17537acd59f747ab13c7789357ad294ab32079
-SIZE (TeXLive/xint.doc-20160414.tar.xz) = 1462820
-SHA256 (TeXLive/xint.source-20160414.tar.xz) = 7a5fa982706213aa6179dc7bb938ffedf2f2a79ac7c06c79f8fe9ba79a89a085
-SIZE (TeXLive/xint.source-20160414.tar.xz) = 268620
+TIMESTAMP = 1479875370
+SHA256 (TeXLive/xint-20161122.tar.xz) = d87cb08338a6416a1f98959d11e594cecdfad8665cc9d57e476a6747908c1203
+SIZE (TeXLive/xint-20161122.tar.xz) = 59040
+SHA256 (TeXLive/xint.doc-20161122.tar.xz) = 897a8eb72533d05cbbe1df36fe92f88741c63bf1c81e9a67713fcc5fda610b00
+SIZE (TeXLive/xint.doc-20161122.tar.xz) = 1495560
+SHA256 (TeXLive/xint.source-20161122.tar.xz) = 51b4d2c4c5c7438d2e5e82a634de9257a6b2123dcb8331b6a311990550a01bb3
+SIZE (TeXLive/xint.source-20161122.tar.xz) = 270592
