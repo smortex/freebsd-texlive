@@ -1,7 +1,7 @@
-TIMESTAMP = 1477543217
-SHA256 (TeXLive/ctex-20161026.tar.xz) = d69ef863517d4c791a37ec1ba980e2ccb55aa4aa2d6eedf2da5de0182e785a9e
-SIZE (TeXLive/ctex-20161026.tar.xz) = 40328
-SHA256 (TeXLive/ctex.doc-20161026.tar.xz) = c73a628de56009e55dac5e31d8461bbb9c794c4301d5781900b1140e13e63457
-SIZE (TeXLive/ctex.doc-20161026.tar.xz) = 1030232
-SHA256 (TeXLive/ctex.source-20161026.tar.xz) = 7b7c0a9df171ea31a95708d4c8b618dc2f16fdf99e993d4e8965a116581f4920
-SIZE (TeXLive/ctex.source-20161026.tar.xz) = 83928
+TIMESTAMP = 1479961173
+SHA256 (TeXLive/ctex-20161123.tar.xz) = cbf6305fe0dfa9224db92746d096a9a3b3a9f62899fb464c6df7a3348693b120
+SIZE (TeXLive/ctex-20161123.tar.xz) = 40384
+SHA256 (TeXLive/ctex.doc-20161123.tar.xz) = 0c2c21ae0ba1f0b61459f0a1b8b88117bc3482ef3e7172351a5e73850adb875c
+SIZE (TeXLive/ctex.doc-20161123.tar.xz) = 1033404
+SHA256 (TeXLive/ctex.source-20161123.tar.xz) = ac941ce8e496dfcbee3d3075d454ff759e297ef657a9c7e47e324ee900174c5a
+SIZE (TeXLive/ctex.source-20161123.tar.xz) = 84136

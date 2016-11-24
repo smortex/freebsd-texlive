@@ -36,6 +36,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3fp-extended.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3fp-logic.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3fp-parse.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3fp-random.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3fp-round.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3fp-traps.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3fp-trig.dtx
