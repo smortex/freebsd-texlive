@@ -1,6 +1,7 @@
-SHA256 (TeXLive/bibtexperllibs-20160414.tar.xz) = 404c4a319b55f0bb8b9474d3928db5dd24ae892d73c7391edc856de43203dbe7
-SIZE (TeXLive/bibtexperllibs-20160414.tar.xz) = 10588
-SHA256 (TeXLive/bibtexperllibs.doc-20160414.tar.xz) = c38595e4f8e6c7ef3b2f25424be30ed70b08eab5bcb46abd5bc96125648600c4
-SIZE (TeXLive/bibtexperllibs.doc-20160414.tar.xz) = 5320
-SHA256 (TeXLive/bibtexperllibs.source-20160414.tar.xz) = ab7f9b0bc5cbb3ecdb4514687688db70c5d67b66a35a52810199e2736ab12111
-SIZE (TeXLive/bibtexperllibs.source-20160414.tar.xz) = 135336
+TIMESTAMP = 1480133468
+SHA256 (TeXLive/bibtexperllibs-20161125.tar.xz) = a123cebf234b24c25e0a1f73e76f1cd233c9cb6f4b85932fb6fe0c25b233926c
+SIZE (TeXLive/bibtexperllibs-20161125.tar.xz) = 10588
+SHA256 (TeXLive/bibtexperllibs.doc-20161125.tar.xz) = 658b5dfa8956ad9e10bad8b7b1f070ea48140c2c6635b2ab4fc9e468c586bd30
+SIZE (TeXLive/bibtexperllibs.doc-20161125.tar.xz) = 5396
+SHA256 (TeXLive/bibtexperllibs.source-20161125.tar.xz) = 5300db6a18a7ed078b5c73133f6a5e2b2b94d155f567acf09472b1f07a2e7687
+SIZE (TeXLive/bibtexperllibs.source-20161125.tar.xz) = 135284
