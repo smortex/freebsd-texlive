@@ -1,6 +1,7 @@
-SHA256 (TeXLive/ekaia-20160414.tar.xz) = ea29eea23afdbcf91698deb96000c6aa4820d2d7d82874138b74c33fd4c3492c
-SIZE (TeXLive/ekaia-20160414.tar.xz) = 2336
-SHA256 (TeXLive/ekaia.doc-20160414.tar.xz) = c9221c0963658b938aab29f81c5350d90a92fb731ac716e57330c340be5f22ad
-SIZE (TeXLive/ekaia.doc-20160414.tar.xz) = 446344
-SHA256 (TeXLive/ekaia.source-20160414.tar.xz) = 95ea45d19b28270f43e2fab274ac10d249cdb88c93f6de0f628118d6982675ca
-SIZE (TeXLive/ekaia.source-20160414.tar.xz) = 10320
+TIMESTAMP = 1480221356
+SHA256 (TeXLive/ekaia-20161126.tar.xz) = 9a209e2854376132825ba12f0c7240594f2de57487062b694d53c2d27a62231e
+SIZE (TeXLive/ekaia-20161126.tar.xz) = 2352
+SHA256 (TeXLive/ekaia.doc-20161126.tar.xz) = fe6bc8a997c8cfc098e2e56a435039c2e4768294a84adf7cb730be22cdf0d1b0
+SIZE (TeXLive/ekaia.doc-20161126.tar.xz) = 458888
+SHA256 (TeXLive/ekaia.source-20161126.tar.xz) = af616850baa2eb824803a101b87b2f27adc21ce9a049ed5f615b77fa293567ad
+SIZE (TeXLive/ekaia.source-20161126.tar.xz) = 10564

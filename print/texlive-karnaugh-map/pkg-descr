@@ -1,0 +1,5 @@
+This package draws karnaugh maps with 2, 3, 4, 5, and 6
+variables. It also contains commands for filling the karnaugh
+map with terms semi-automatically or manually. Last but not
+least it contains commands for drawing implicants on top of the
+map.

@@ -1,15 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	tex4ht
+PORTNAME=	karnaugh-map
 PORTVERSION=	20161126
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Convert (La)TeX to HTML/XML
+COMMENT=	LaTeX package for drawing karnaugh maps with up to 6 variables
 
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
-
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
