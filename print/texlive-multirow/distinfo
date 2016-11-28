@@ -1,7 +1,7 @@
-TIMESTAMP = 1476678336
-SHA256 (TeXLive/multirow-20161016.tar.xz) = 0c5a47785f399b6ecb91e8956212776a3abcb644bc26852a871e9c7568e54668
-SIZE (TeXLive/multirow-20161016.tar.xz) = 2584
-SHA256 (TeXLive/multirow.doc-20161016.tar.xz) = 41e0ef82ef3c2d9e71dc535ebf747aba6a33765d8a435a6161f5c56006fe3d18
-SIZE (TeXLive/multirow.doc-20161016.tar.xz) = 610852
-SHA256 (TeXLive/multirow.source-20161016.tar.xz) = b7d05c3935d558e1d87962b0afd82056dd932471124b2b2e872f9d65bc329ed3
-SIZE (TeXLive/multirow.source-20161016.tar.xz) = 17716
+TIMESTAMP = 1480307175
+SHA256 (TeXLive/multirow-20161127.tar.xz) = 31927fbad8baeb7b4a98a252517b6cce4b164cfd6f868e7beb639a3403a199e2
+SIZE (TeXLive/multirow-20161127.tar.xz) = 2576
+SHA256 (TeXLive/multirow.doc-20161127.tar.xz) = a574272554934f80eb632785c37a91cbec0ef6392e4dbe348ef085c58a71e153
+SIZE (TeXLive/multirow.doc-20161127.tar.xz) = 608936
+SHA256 (TeXLive/multirow.source-20161127.tar.xz) = 63a7a2c2874de84fa40938f0e5656520b07c9a7acac52d00d0bb215485eaabee
+SIZE (TeXLive/multirow.source-20161127.tar.xz) = 18168
