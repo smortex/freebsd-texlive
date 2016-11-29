@@ -1203,6 +1203,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty:${PORTSDIR}/print/texlive-tikz-feynman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-inet/tikz-inet.sty:${PORTSDIR}/print/texlive-tikz-inet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-opm/tikz-opm.sty:${PORTSDIR}/print/texlive-tikz-opm \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-optics/tikzlibraryoptics.code.tex:${PORTSDIR}/print/texlive-tikz-optics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-page/tikz-page.sty:${PORTSDIR}/print/texlive-tikz-page \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-palattice/tikz-palattice.sty:${PORTSDIR}/print/texlive-tikz-palattice \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty:${PORTSDIR}/print/texlive-tikz-qtree \
@@ -2775,6 +2776,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/ijsra/ijsra.cls:${PORTSDIR}/print/texlive-ijsra \
 		${LOCALBASE}/share/texmf-dist/tex/latex/imac/imac.sty:${PORTSDIR}/print/texlive-imac \
 		${LOCALBASE}/share/texmf-dist/tex/latex/imtekda/IMTEKda.cls:${PORTSDIR}/print/texlive-imtekda \
+		${LOCALBASE}/share/texmf-dist/tex/latex/iscram/iscram.cls:${PORTSDIR}/print/texlive-iscram \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jacow/jacow.cls:${PORTSDIR}/print/texlive-jacow \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jmlr/jmlr.cls:${PORTSDIR}/print/texlive-jmlr \
 		${LOCALBASE}/share/texmf-dist/tex/latex/jpsj/jpsj2.cls:${PORTSDIR}/print/texlive-jpsj \
@@ -2873,6 +2875,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/yathesis/yathesis.cls:${PORTSDIR}/print/texlive-yathesis \
 		${LOCALBASE}/share/texmf-dist/tex/latex/york-thesis/york-thesis.cls:${PORTSDIR}/print/texlive-york-thesis \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/arabxetex/arabxetex.sty:${PORTSDIR}/print/texlive-arabxetex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/awesomebox/awesomebox.sty:${PORTSDIR}/print/texlive-awesomebox \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidi-atbegshi/bidi-atbegshi.sty:${PORTSDIR}/print/texlive-bidi-atbegshi \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidicontour/bidicontour.sty:${PORTSDIR}/print/texlive-bidicontour \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidipagegrid/bidipagegrid.sty:${PORTSDIR}/print/texlive-bidipagegrid \

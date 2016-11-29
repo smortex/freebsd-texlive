@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	bidi
-PORTVERSION=	20161128
+PORTNAME=	iscram
+PORTVERSION=	20161129
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bidirectional typesetting in plain TeX and LaTeX, using XeTeX engine
+COMMENT=	a LaTeX class to publish article to ISCRAM conferences
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

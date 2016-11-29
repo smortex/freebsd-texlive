@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	bidi
+PORTNAME=	tikz-optics
 PORTVERSION=	20161128
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Bidirectional typesetting in plain TeX and LaTeX, using XeTeX engine
+COMMENT=	A library for drawing optical setups with TikZ
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

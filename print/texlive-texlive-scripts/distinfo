@@ -1,5 +1,5 @@
-TIMESTAMP = 1479787812
-SHA256 (TeXLive/texlive-scripts-20161121.tar.xz) = 423472c44e0767c178f9460fae6df5468a1a40605aedd17500d0bcb54baac0ac
-SIZE (TeXLive/texlive-scripts-20161121.tar.xz) = 65672
-SHA256 (TeXLive/texlive-scripts.doc-20161121.tar.xz) = 2ce7b50e6885690bdadd561cd483f4e923d23e960f57cf0d3b88e1a5deb68ca0
-SIZE (TeXLive/texlive-scripts.doc-20161121.tar.xz) = 43876
+TIMESTAMP = 1480392620
+SHA256 (TeXLive/texlive-scripts-20161128.tar.xz) = ae5b5debd5c784850ae037b569d99aba6f61c07b8c4c79f781387007ad6fbfd2
+SIZE (TeXLive/texlive-scripts-20161128.tar.xz) = 65656
+SHA256 (TeXLive/texlive-scripts.doc-20161128.tar.xz) = f73d6d57c841cfada5e213f7307da6148c500650df05201b191e4b7025cea713
+SIZE (TeXLive/texlive-scripts.doc-20161128.tar.xz) = 43872

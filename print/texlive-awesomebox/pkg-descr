@@ -1,0 +1,5 @@
+Awesome Boxes is all about drawing admonition blocks around
+text to inform or alert readers about something particular. The
+specific aim of this package is to use FontAwesome icons to
+ease the illustration of these blocks. This package requires
+FontAwesome and XeLaTeX or LuaLaTeX.
