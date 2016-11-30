@@ -1,7 +1,7 @@
-TIMESTAMP = 1473481048
-SHA256 (TeXLive/platex-20160909.tar.xz) = 8e3d12bc5aec9f550d7b82cc72f0ae2d3bf3485aaa28693607adc45c07f700ba
-SIZE (TeXLive/platex-20160909.tar.xz) = 35120
-SHA256 (TeXLive/platex.doc-20160909.tar.xz) = 0984e5bbabc31f7361f186173cc486d7553d407a2bc30bf88bf717566569e8cd
-SIZE (TeXLive/platex.doc-20160909.tar.xz) = 1471596
-SHA256 (TeXLive/platex.source-20160909.tar.xz) = 26a9558429ea71b64bc78e198047af165ee1b50c9c26290c5b22cd64658d8ca2
-SIZE (TeXLive/platex.source-20160909.tar.xz) = 96896
+TIMESTAMP = 1480479486
+SHA256 (TeXLive/platex-20161130.tar.xz) = dc88535c937667735a51843380b57a55d086380b2aaa5e0d9bf532cf3736f73f
+SIZE (TeXLive/platex-20161130.tar.xz) = 35916
+SHA256 (TeXLive/platex.doc-20161130.tar.xz) = a23b26313d6dae548419ec488a6e16718699e251a1b44b3dbc7d883d87979833
+SIZE (TeXLive/platex.doc-20161130.tar.xz) = 1497204
+SHA256 (TeXLive/platex.source-20161130.tar.xz) = 95b04e367bf29c7e885db84af3c275b31ff424f35dc2596b530e005f5f145ae1
+SIZE (TeXLive/platex.source-20161130.tar.xz) = 101132

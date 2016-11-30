@@ -1,7 +1,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/iscram/HMI.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/iscram/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/iscram/iscram-class-doc.bib
+%%PORTDOCS%%share/texmf-dist/doc/latex/iscram/iscram-class-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/iscram/iscram-class-doc.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/iscram/iscram.bib
 share/texmf-dist/tex/latex/iscram/iscram.cls
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
