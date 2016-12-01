@@ -1,6 +1,7 @@
-SHA256 (TeXLive/dozenal-20160414.tar.xz) = c6f152430a5fa3845fa0eb78b1e47a66b60cbb8a35fdd47901e2ab8729b039aa
-SIZE (TeXLive/dozenal-20160414.tar.xz) = 101364
-SHA256 (TeXLive/dozenal.doc-20160414.tar.xz) = 41ceaace5dda915643818f6aae4079b03a4aa5630679ecbee8536c2122868b82
-SIZE (TeXLive/dozenal.doc-20160414.tar.xz) = 313756
-SHA256 (TeXLive/dozenal.source-20160414.tar.xz) = 031951e4a95e17b8da0e8c2ebc1343dc4c08c528458cd4dc6ab890e0bdbc8d27
-SIZE (TeXLive/dozenal.source-20160414.tar.xz) = 10540
+TIMESTAMP = 1480565498
+SHA256 (TeXLive/dozenal-20161201.tar.xz) = d87893cfc79b9a74d72a23fc8c7d847332e643e177674702721fc5bb6f196584
+SIZE (TeXLive/dozenal-20161201.tar.xz) = 101692
+SHA256 (TeXLive/dozenal.doc-20161201.tar.xz) = 9eb61c239fb32871a8488fa50e08855ca80de244114ec6c33058125fe19b5222
+SIZE (TeXLive/dozenal.doc-20161201.tar.xz) = 311336
+SHA256 (TeXLive/dozenal.source-20161201.tar.xz) = 10cf4fa8fe1fdf08b6711a14daf7e08628e60df2eb5afd2f764e940aa76abb3c
+SIZE (TeXLive/dozenal.source-20161201.tar.xz) = 11836

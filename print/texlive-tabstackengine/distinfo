@@ -1,5 +1,5 @@
-TIMESTAMP = 1475900981
-SHA256 (TeXLive/tabstackengine-20161006.tar.xz) = b09127ee1d848f7b87d3a85aa355e375daf20226933456fc4903eea229a88f71
-SIZE (TeXLive/tabstackengine-20161006.tar.xz) = 3796
-SHA256 (TeXLive/tabstackengine.doc-20161006.tar.xz) = 935870527c777c3f84a994191fa7857cc9e7399d09644d66ab0b747a3d7cbaa4
-SIZE (TeXLive/tabstackengine.doc-20161006.tar.xz) = 546388
+TIMESTAMP = 1480566529
+SHA256 (TeXLive/tabstackengine-20161201.tar.xz) = 06d7b76d6b956d5d7dcbb08965997eddec89e055f9e4b1b1d6f13560b8f1e0fd
+SIZE (TeXLive/tabstackengine-20161201.tar.xz) = 3972
+SHA256 (TeXLive/tabstackengine.doc-20161201.tar.xz) = cd787521e91dd4fb158d1d218513a72a037821946ffa618337d4d46905a7a3b0
+SIZE (TeXLive/tabstackengine.doc-20161201.tar.xz) = 553076
