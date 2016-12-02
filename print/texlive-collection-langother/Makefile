@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langother
-PORTVERSION=	20160414
+PORTVERSION=	20161202
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -64,6 +64,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-ia.tex:${PORTSDIR}/print/texlive-hyphen-interlingua \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-th.tex:${PORTSDIR}/print/texlive-hyphen-thai \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-tk.tex:${PORTSDIR}/print/texlive-hyphen-turkmen \
+		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/padauk/Padauk-Bold.ttf:${PORTSDIR}/print/texlive-padauk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vntex/vntex.sty:${PORTSDIR}/print/texlive-vntex
 
 OPTIONS_EXCLUDE=	DOCS

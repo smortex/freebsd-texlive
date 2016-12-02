@@ -1,4 +1,5 @@
-SHA256 (TeXLive/etoolbox-20160414.tar.xz) = 770a8e7b255db9d008ed065c0acbeb85c55516834b847deb684fcfa4345afed0
-SIZE (TeXLive/etoolbox-20160414.tar.xz) = 8040
-SHA256 (TeXLive/etoolbox.doc-20160414.tar.xz) = fb05a2699ac0a7315d790aa33d981f7a26f6d503d197a401e9e4100cb1c7a1de
-SIZE (TeXLive/etoolbox.doc-20160414.tar.xz) = 232144
+TIMESTAMP = 1480652252
+SHA256 (TeXLive/etoolbox-20161202.tar.xz) = 3c40f6be3b5f4f4f8913d58d58f59f11eadd4c8319fdc8bed8b7ddada6e2edde
+SIZE (TeXLive/etoolbox-20161202.tar.xz) = 8064
+SHA256 (TeXLive/etoolbox.doc-20161202.tar.xz) = 589ab489863692e59ed639cc0bb839dca7f35ababcd3be633bb78953bc38748f
+SIZE (TeXLive/etoolbox.doc-20161202.tar.xz) = 233244

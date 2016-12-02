@@ -376,6 +376,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-ia.tex:${PORTSDIR}/print/texlive-hyphen-interlingua \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-th.tex:${PORTSDIR}/print/texlive-hyphen-thai \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-tk.tex:${PORTSDIR}/print/texlive-hyphen-turkmen \
+		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/padauk/Padauk-Bold.ttf:${PORTSDIR}/print/texlive-padauk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vntex/vntex.sty:${PORTSDIR}/print/texlive-vntex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-polish/polish.ldf:${PORTSDIR}/print/texlive-babel-polish \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cc-pl/ccpl.map:${PORTSDIR}/print/texlive-cc-pl \
@@ -533,6 +534,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/ionumbers/ionumbers.sty:${PORTSDIR}/print/texlive-ionumbers \
 		${LOCALBASE}/share/texmf-dist/tex/latex/isomath/isomath.sty:${PORTSDIR}/print/texlive-isomath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/karnaugh/kvmacros.tex:${PORTSDIR}/print/texlive-karnaugh \
+		${LOCALBASE}/share/texmf-dist/tex/latex/karnaugh-map/karnaugh-map.sty:${PORTSDIR}/print/texlive-karnaugh-map \
 		${LOCALBASE}/share/texmf-dist/tex/latex/karnaughmap/karnaughmap.sty:${PORTSDIR}/print/texlive-karnaughmap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/logicproof/logicproof.sty:${PORTSDIR}/print/texlive-logicproof \
 		${LOCALBASE}/share/texmf-dist/tex/generic/lpform/lpform.sty:${PORTSDIR}/print/texlive-lpform \
@@ -763,6 +765,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty:${PORTSDIR}/print/texlive-tikz-feynman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-inet/tikz-inet.sty:${PORTSDIR}/print/texlive-tikz-inet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-opm/tikz-opm.sty:${PORTSDIR}/print/texlive-tikz-opm \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-optics/tikzlibraryoptics.code.tex:${PORTSDIR}/print/texlive-tikz-optics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-page/tikz-page.sty:${PORTSDIR}/print/texlive-tikz-page \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-palattice/tikz-palattice.sty:${PORTSDIR}/print/texlive-tikz-palattice \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty:${PORTSDIR}/print/texlive-tikz-qtree \

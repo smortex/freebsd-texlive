@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	etoolbox
+PORTNAME=	padauk
 PORTVERSION=	20161202
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	e-TeX tools for LaTeX
+COMMENT=	a high-quality TrueType font that supports the many diverse languages that use the Myanmar script
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
