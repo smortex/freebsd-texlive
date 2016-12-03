@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20161031
+PORTVERSION=	20161203
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -242,6 +242,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty:${PORTSDIR}/print/texlive-tikz-feynman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-inet/tikz-inet.sty:${PORTSDIR}/print/texlive-tikz-inet \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-opm/tikz-opm.sty:${PORTSDIR}/print/texlive-tikz-opm \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-optics/tikzlibraryoptics.code.tex:${PORTSDIR}/print/texlive-tikz-optics \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-page/tikz-page.sty:${PORTSDIR}/print/texlive-tikz-page \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-palattice/tikz-palattice.sty:${PORTSDIR}/print/texlive-tikz-palattice \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty:${PORTSDIR}/print/texlive-tikz-qtree \
@@ -251,6 +252,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzorbital/tikzorbital.sty:${PORTSDIR}/print/texlive-tikzorbital \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpagenodes/tikzpagenodes.sty:${PORTSDIR}/print/texlive-tikzpagenodes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpfeile/tikzpfeile.sty:${PORTSDIR}/print/texlive-tikzpfeile \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tikzpeople/tikzpeople.sty:${PORTSDIR}/print/texlive-tikzpeople \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzposter/tikzposter.cls:${PORTSDIR}/print/texlive-tikzposter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzscale/tikzscale.sty:${PORTSDIR}/print/texlive-tikzscale \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tikzsymbols/tikzsymbols.sty:${PORTSDIR}/print/texlive-tikzsymbols \
@@ -681,6 +683,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fontaxes/fontaxes.sty:${PORTSDIR}/print/texlive-fontaxes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fonttable/fonttable.sty:${PORTSDIR}/print/texlive-fonttable \
 		${LOCALBASE}/share/texmf-dist/tex/latex/footmisc/footmisc.sty:${PORTSDIR}/print/texlive-footmisc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/footmisx/footmisx.sty:${PORTSDIR}/print/texlive-footmisx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/footnotebackref/footnotebackref.sty:${PORTSDIR}/print/texlive-footnotebackref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/footnotehyper/footnotehyper.sty:${PORTSDIR}/print/texlive-footnotehyper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/footnoterange/footnoterange.sty:${PORTSDIR}/print/texlive-footnoterange \
@@ -803,6 +806,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/kantlipsum/kantlipsum.sty:${PORTSDIR}/print/texlive-kantlipsum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kerntest/kerntest.cls:${PORTSDIR}/print/texlive-kerntest \
 		${LOCALBASE}/share/texmf-dist/tex/latex/keycommand/keycommand.sty:${PORTSDIR}/print/texlive-keycommand \
+		${LOCALBASE}/share/texmf-dist/tex/latex/keyfloat/keyfloat.sty:${PORTSDIR}/print/texlive-keyfloat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/keyreader/keyreader.sty:${PORTSDIR}/print/texlive-keyreader \
 		${LOCALBASE}/share/texmf-dist/tex/latex/keystroke/keystroke.sty:${PORTSDIR}/print/texlive-keystroke \
 		${LOCALBASE}/share/texmf-dist/tex/latex/keyval2e/keyval2e.sty:${PORTSDIR}/print/texlive-keyval2e \

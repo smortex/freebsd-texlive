@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	tocdata
+PORTNAME=	keyfloat
 PORTVERSION=	20161203
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Adds names to chapters, sections, figures in the TOC and LOF.
+COMMENT=	provides a key/value interface for generating floats
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

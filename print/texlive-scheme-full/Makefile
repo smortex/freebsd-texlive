@@ -157,7 +157,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/geschichtsfrkl/geschichtsfrkl.bbx:${PORTSDIR}/print/texlive-geschichtsfrkl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/harvard/harvard.sty:${PORTSDIR}/print/texlive-harvard \
 		${LOCALBASE}/share/texmf-dist/tex/plain/harvmac/harvmac.tex:${PORTSDIR}/print/texlive-harvmac \
-		${LOCALBASE}/share/texmf-dist/tex/latex/historische-zeitschrift/bbx/historische-zeitschrift.bbx:${PORTSDIR}/print/texlive-historische-zeitschrift \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/ijqc/ijqc.bst:${PORTSDIR}/print/texlive-ijqc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/inlinebib/inlinebib.sty:${PORTSDIR}/print/texlive-inlinebib \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/iopart-num/iopart-num.bst:${PORTSDIR}/print/texlive-iopart-num \
@@ -1007,6 +1006,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-ia.tex:${PORTSDIR}/print/texlive-hyphen-interlingua \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-th.tex:${PORTSDIR}/print/texlive-hyphen-thai \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-tk.tex:${PORTSDIR}/print/texlive-hyphen-turkmen \
+		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/padauk/Padauk-Bold.ttf:${PORTSDIR}/print/texlive-padauk \
 		${LOCALBASE}/share/texmf-dist/tex/latex/vntex/vntex.sty:${PORTSDIR}/print/texlive-vntex \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-polish/polish.ldf:${PORTSDIR}/print/texlive-babel-polish \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/cc-pl/ccpl.map:${PORTSDIR}/print/texlive-cc-pl \
@@ -1644,6 +1644,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fontaxes/fontaxes.sty:${PORTSDIR}/print/texlive-fontaxes \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fonttable/fonttable.sty:${PORTSDIR}/print/texlive-fonttable \
 		${LOCALBASE}/share/texmf-dist/tex/latex/footmisc/footmisc.sty:${PORTSDIR}/print/texlive-footmisc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/footmisx/footmisx.sty:${PORTSDIR}/print/texlive-footmisx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/footnotebackref/footnotebackref.sty:${PORTSDIR}/print/texlive-footnotebackref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/footnotehyper/footnotehyper.sty:${PORTSDIR}/print/texlive-footnotehyper \
 		${LOCALBASE}/share/texmf-dist/tex/latex/footnoterange/footnoterange.sty:${PORTSDIR}/print/texlive-footnoterange \
@@ -1766,6 +1767,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/kantlipsum/kantlipsum.sty:${PORTSDIR}/print/texlive-kantlipsum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/kerntest/kerntest.cls:${PORTSDIR}/print/texlive-kerntest \
 		${LOCALBASE}/share/texmf-dist/tex/latex/keycommand/keycommand.sty:${PORTSDIR}/print/texlive-keycommand \
+		${LOCALBASE}/share/texmf-dist/tex/latex/keyfloat/keyfloat.sty:${PORTSDIR}/print/texlive-keyfloat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/keyreader/keyreader.sty:${PORTSDIR}/print/texlive-keyreader \
 		${LOCALBASE}/share/texmf-dist/tex/latex/keystroke/keystroke.sty:${PORTSDIR}/print/texlive-keystroke \
 		${LOCALBASE}/share/texmf-dist/tex/latex/keyval2e/keyval2e.sty:${PORTSDIR}/print/texlive-keyval2e \

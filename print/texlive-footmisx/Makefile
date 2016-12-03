@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	tocdata
+PORTNAME=	footmisx
 PORTVERSION=	20161203
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Adds names to chapters, sections, figures in the TOC and LOF.
+COMMENT=	A range of footnote options
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
