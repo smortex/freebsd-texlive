@@ -1,7 +1,7 @@
-TIMESTAMP = 1478319662
-SHA256 (TeXLive/uplatex-20161104.tar.xz) = 47aec7adc42a828d59a228091b0463119ac379b4c289a3e5b4175a9d7ad3ecee
-SIZE (TeXLive/uplatex-20161104.tar.xz) = 20428
-SHA256 (TeXLive/uplatex.doc-20161104.tar.xz) = 87d0e372bb36f2a3dd0316b7155a7c6a125fc1ef73e3d73c0cf7d1001ff3400b
-SIZE (TeXLive/uplatex.doc-20161104.tar.xz) = 796564
-SHA256 (TeXLive/uplatex.source-20161104.tar.xz) = 75df76e59ed7f8521c7f07e25bedcfdaa4b952fd988cc0b811ef4f6b116fda30
-SIZE (TeXLive/uplatex.source-20161104.tar.xz) = 65452
+TIMESTAMP = 1481084328
+SHA256 (TeXLive/uplatex-20161207.tar.xz) = 16598d1cae8262cb0a940f674b2c1160da9334aa4abac192d46a1075a33ff7d0
+SIZE (TeXLive/uplatex-20161207.tar.xz) = 20596
+SHA256 (TeXLive/uplatex.doc-20161207.tar.xz) = c2e877c8cdd8415b6ef316a60c0f0a783bd6c9d75c804122d4fe51242f0b97c3
+SIZE (TeXLive/uplatex.doc-20161207.tar.xz) = 803952
+SHA256 (TeXLive/uplatex.source-20161207.tar.xz) = 6f01f0ef022e7900b493e9bc25c988bb756c519774b350b001cce35d224b5139
+SIZE (TeXLive/uplatex.source-20161207.tar.xz) = 67600
