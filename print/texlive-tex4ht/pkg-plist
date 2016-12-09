@@ -209,6 +209,10 @@ share/texmf-dist/tex/generic/tex4ht/float.4ht
 share/texmf-dist/tex/generic/tex4ht/floatflt.4ht
 share/texmf-dist/tex/generic/tex4ht/foils.4ht
 share/texmf-dist/tex/generic/tex4ht/fontmath.4ht
+share/texmf-dist/tex/generic/tex4ht/fontspec-4ht.lua
+share/texmf-dist/tex/generic/tex4ht/fontspec-luatex.4ht
+share/texmf-dist/tex/generic/tex4ht/fontspec-xetex.4ht
+share/texmf-dist/tex/generic/tex4ht/fontspec.4ht
 share/texmf-dist/tex/generic/tex4ht/footmisc.4ht
 share/texmf-dist/tex/generic/tex4ht/footnote-dw.4ht
 share/texmf-dist/tex/generic/tex4ht/francais.4ht
