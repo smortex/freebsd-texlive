@@ -1,15 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	tex4ht
+PORTNAME=	dtxdescribe
 PORTVERSION=	20161210
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Convert (La)TeX to HTML/XML
+COMMENT=	Describe additional object types in dtx source files
 
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
-
-OPTIONS_DEFINE=	DOCS
+OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

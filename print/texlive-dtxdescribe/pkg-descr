@@ -1,0 +1,12 @@
+The doc package includes tools for describing macros and
+environments in LaTeX source dtx format. This package adds
+additional tools for describing booleans, lengths, counters,
+keys, packages, classes, options, files, commands, arguments,
+and other objects. Each item is given a margin tag similar to
+\DescribeEnv, and is listed in the index by itself and also by
+category. Each item may be sorted further by an optional class.
+All index entries except code lines are hyperlinked.
+Descriptions are best accompanied by examples, so the
+environment dtxexample is provided. Contents are displayed
+verbatim along with a caption and cross-referencing. They are
+then \input and executed, and the result is shown.

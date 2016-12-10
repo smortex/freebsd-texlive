@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20161203
+PORTVERSION=	20161210
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -558,6 +558,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/draftcopy/draftcopy.sty:${PORTSDIR}/print/texlive-draftcopy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty:${PORTSDIR}/print/texlive-draftwatermark \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dtk/dtk.cls:${PORTSDIR}/print/texlive-dtk \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dtxdescribe/dtxdescribe.sty:${PORTSDIR}/print/texlive-dtxdescribe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dvdcoll/dvdcoll.cls:${PORTSDIR}/print/texlive-dvdcoll \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dynamicnumber/dynamicnumber.sty:${PORTSDIR}/print/texlive-dynamicnumber \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dynblocks/dynblocks.sty:${PORTSDIR}/print/texlive-dynblocks \

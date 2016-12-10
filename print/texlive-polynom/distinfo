@@ -1,6 +1,7 @@
-SHA256 (TeXLive/polynom-20160414.tar.xz) = eaa25385e89e86a590d2984b1173692be56244572029d518afc37149770b39ad
-SIZE (TeXLive/polynom-20160414.tar.xz) = 10904
-SHA256 (TeXLive/polynom.doc-20160414.tar.xz) = 11a274533ea17f437cb6cce4b42f4643f21947a7f1e0cc26dcf16fd373a54048
-SIZE (TeXLive/polynom.doc-20160414.tar.xz) = 193600
-SHA256 (TeXLive/polynom.source-20160414.tar.xz) = 07ffa115ee5ad0dba9e7bb7b0c83d72914c8c57c9e0cc48dbb6118ffbd6fc136
-SIZE (TeXLive/polynom.source-20160414.tar.xz) = 29940
+TIMESTAMP = 1481344488
+SHA256 (TeXLive/polynom-20161210.tar.xz) = 89b4b8a8a7836644e458458e7d17d4c79257ecf25c18b8a72b614fd5bb1d3176
+SIZE (TeXLive/polynom-20161210.tar.xz) = 11064
+SHA256 (TeXLive/polynom.doc-20161210.tar.xz) = c36ede562445779a360c547fd5d119e58b4eed089fe5d263e76d35c7712f8b46
+SIZE (TeXLive/polynom.doc-20161210.tar.xz) = 399700
+SHA256 (TeXLive/polynom.source-20161210.tar.xz) = f893c6516df38b890303c134c61f1c84ae60dbb5e2b91a4284f34113eec7058f
+SIZE (TeXLive/polynom.source-20161210.tar.xz) = 30128
