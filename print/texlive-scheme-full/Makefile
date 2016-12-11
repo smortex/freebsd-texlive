@@ -157,6 +157,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/geschichtsfrkl/geschichtsfrkl.bbx:${PORTSDIR}/print/texlive-geschichtsfrkl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/harvard/harvard.sty:${PORTSDIR}/print/texlive-harvard \
 		${LOCALBASE}/share/texmf-dist/tex/plain/harvmac/harvmac.tex:${PORTSDIR}/print/texlive-harvmac \
+		${LOCALBASE}/share/texmf-dist/tex/latex/historische-zeitschrift/historische-zeitschrift.bbx:${PORTSDIR}/print/texlive-historische-zeitschrift \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/ijqc/ijqc.bst:${PORTSDIR}/print/texlive-ijqc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/inlinebib/inlinebib.sty:${PORTSDIR}/print/texlive-inlinebib \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/iopart-num/iopart-num.bst:${PORTSDIR}/print/texlive-iopart-num \
@@ -1519,6 +1520,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/draftcopy/draftcopy.sty:${PORTSDIR}/print/texlive-draftcopy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty:${PORTSDIR}/print/texlive-draftwatermark \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dtk/dtk.cls:${PORTSDIR}/print/texlive-dtk \
+		${LOCALBASE}/share/texmf-dist/tex/latex/dtxdescribe/dtxdescribe.sty:${PORTSDIR}/print/texlive-dtxdescribe \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dvdcoll/dvdcoll.cls:${PORTSDIR}/print/texlive-dvdcoll \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dynamicnumber/dynamicnumber.sty:${PORTSDIR}/print/texlive-dynamicnumber \
 		${LOCALBASE}/share/texmf-dist/tex/latex/dynblocks/dynblocks.sty:${PORTSDIR}/print/texlive-dynblocks \
@@ -2360,6 +2362,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luabibentry/luabibentry.sty:${PORTSDIR}/print/texlive-luabibentry \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luabidi/luabidi.sty:${PORTSDIR}/print/texlive-luabidi \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luacode/luacode.sty:${PORTSDIR}/print/texlive-luacode \
+		${LOCALBASE}/share/texmf-dist/tex/lualatex/luahyphenrules/luahyphenrules.sty:${PORTSDIR}/print/texlive-luahyphenrules \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luaindex/luaindex.sty:${PORTSDIR}/print/texlive-luaindex \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luainputenc/luainputenc.sty:${PORTSDIR}/print/texlive-luainputenc \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.sty:${PORTSDIR}/print/texlive-lualatex-math \

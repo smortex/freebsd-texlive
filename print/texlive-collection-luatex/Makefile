@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-luatex
-PORTVERSION=	20160831
+PORTVERSION=	20161211
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -57,6 +57,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luabibentry/luabibentry.sty:${PORTSDIR}/print/texlive-luabibentry \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luabidi/luabidi.sty:${PORTSDIR}/print/texlive-luabidi \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luacode/luacode.sty:${PORTSDIR}/print/texlive-luacode \
+		${LOCALBASE}/share/texmf-dist/tex/lualatex/luahyphenrules/luahyphenrules.sty:${PORTSDIR}/print/texlive-luahyphenrules \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luaindex/luaindex.sty:${PORTSDIR}/print/texlive-luaindex \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luainputenc/luainputenc.sty:${PORTSDIR}/print/texlive-luainputenc \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.sty:${PORTSDIR}/print/texlive-lualatex-math \

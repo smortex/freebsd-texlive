@@ -421,6 +421,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luabibentry/luabibentry.sty:${PORTSDIR}/print/texlive-luabibentry \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luabidi/luabidi.sty:${PORTSDIR}/print/texlive-luabidi \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luacode/luacode.sty:${PORTSDIR}/print/texlive-luacode \
+		${LOCALBASE}/share/texmf-dist/tex/lualatex/luahyphenrules/luahyphenrules.sty:${PORTSDIR}/print/texlive-luahyphenrules \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luaindex/luaindex.sty:${PORTSDIR}/print/texlive-luaindex \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luainputenc/luainputenc.sty:${PORTSDIR}/print/texlive-luainputenc \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.sty:${PORTSDIR}/print/texlive-lualatex-math \
@@ -518,6 +519,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/ionumbers/ionumbers.sty:${PORTSDIR}/print/texlive-ionumbers \
 		${LOCALBASE}/share/texmf-dist/tex/latex/isomath/isomath.sty:${PORTSDIR}/print/texlive-isomath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/karnaugh/kvmacros.tex:${PORTSDIR}/print/texlive-karnaugh \
+		${LOCALBASE}/share/texmf-dist/tex/latex/karnaugh-map/karnaugh-map.sty:${PORTSDIR}/print/texlive-karnaugh-map \
 		${LOCALBASE}/share/texmf-dist/tex/latex/karnaughmap/karnaughmap.sty:${PORTSDIR}/print/texlive-karnaughmap \
 		${LOCALBASE}/share/texmf-dist/tex/latex/logicproof/logicproof.sty:${PORTSDIR}/print/texlive-logicproof \
 		${LOCALBASE}/share/texmf-dist/tex/generic/lpform/lpform.sty:${PORTSDIR}/print/texlive-lpform \
@@ -652,6 +654,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/plain/treetex/treetex.tex:${PORTSDIR}/print/texlive-treetex \
 		${LOCALBASE}/share/texmf-dist/tex/plain/varisize/10point.tex:${PORTSDIR}/print/texlive-varisize \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/arabxetex/arabxetex.sty:${PORTSDIR}/print/texlive-arabxetex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/awesomebox/awesomebox.sty:${PORTSDIR}/print/texlive-awesomebox \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidi-atbegshi/bidi-atbegshi.sty:${PORTSDIR}/print/texlive-bidi-atbegshi \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidicontour/bidicontour.sty:${PORTSDIR}/print/texlive-bidicontour \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/bidipagegrid/bidipagegrid.sty:${PORTSDIR}/print/texlive-bidipagegrid \

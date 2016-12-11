@@ -1,7 +1,7 @@
-TIMESTAMP = 1472617485
-SHA256 (TeXLive/fithesis-20160830.tar.xz) = 0174ed2d91e3f210a0fdd6475dff58bd4f0bf17c377d325b692f6261c4089835
-SIZE (TeXLive/fithesis-20160830.tar.xz) = 1000092
-SHA256 (TeXLive/fithesis.doc-20160830.tar.xz) = fed1c655ad8174fee095b592089cf99ece00d3c4d74e041a7b93c7b6be95d72b
-SIZE (TeXLive/fithesis.doc-20160830.tar.xz) = 1960860
-SHA256 (TeXLive/fithesis.source-20160830.tar.xz) = d85309168f37a9abec828f8ec6d01494a093030bdc24b0387a8e62e260a19cc4
-SIZE (TeXLive/fithesis.source-20160830.tar.xz) = 37864
+TIMESTAMP = 1481430225
+SHA256 (TeXLive/fithesis-20161211.tar.xz) = 5b6274e9dbd7a68f2f8bcd7041f0128fe64fe22a7e2529b461197c1497a9e52b
+SIZE (TeXLive/fithesis-20161211.tar.xz) = 1000176
+SHA256 (TeXLive/fithesis.doc-20161211.tar.xz) = d20219c1f38a18c1c4d1ec1dfaca02b6df1aaed7a65a6f17d6f6f9f2e55341e2
+SIZE (TeXLive/fithesis.doc-20161211.tar.xz) = 1961436
+SHA256 (TeXLive/fithesis.source-20161211.tar.xz) = 95078faeef8f62d29e15fbcefa2a86ea32f730fae8767f54aaa0bd48854fb7e7
+SIZE (TeXLive/fithesis.source-20161211.tar.xz) = 37816

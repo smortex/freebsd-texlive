@@ -1,0 +1,5 @@
+Preloading hyphenation patterns (or 'hyphen rules.) into any
+format based upon LuaTeX is not required in LuaTeX and recent
+releases of babel don't do it anyway. This package is addressed
+to those who just want to select the languages and load their
+patterns by means of `language.dat` without loading `babel`.

@@ -1,7 +1,7 @@
-TIMESTAMP = 1477975100
-SHA256 (TeXLive/yathesis-20161031.tar.xz) = 5c8f30a1fc6aee0e520ff1ca01cfebfc73192c87c0e0a6ac3d9e821a0117df4b
-SIZE (TeXLive/yathesis-20161031.tar.xz) = 20764
-SHA256 (TeXLive/yathesis.doc-20161031.tar.xz) = 450a7fa6c62e6d9e7c586862571ec695fe6561599844efa67e2ad660bd38a630
-SIZE (TeXLive/yathesis.doc-20161031.tar.xz) = 4751140
-SHA256 (TeXLive/yathesis.source-20161031.tar.xz) = 542fe7c0e61a08d346cb2ccaca523d4c6f3d1e3c2d5d0b9b445cf096a31a407e
-SIZE (TeXLive/yathesis.source-20161031.tar.xz) = 47756
+TIMESTAMP = 1481430896
+SHA256 (TeXLive/yathesis-20161211.tar.xz) = 28d4ea009840d0669d5caa1ff5a22f45ec922fa6e46d2f1fd08f50431343c65c
+SIZE (TeXLive/yathesis-20161211.tar.xz) = 21436
+SHA256 (TeXLive/yathesis.doc-20161211.tar.xz) = 2917477f8b04e974fb6b93def478bb7f4a13b0d51ef5b8e7b17458a22c949c61
+SIZE (TeXLive/yathesis.doc-20161211.tar.xz) = 5127768
+SHA256 (TeXLive/yathesis.source-20161211.tar.xz) = 2d73e891c827234ff125658b873d2831db8bdc9be5e7e0e20f6199bb59df5284
+SIZE (TeXLive/yathesis.source-20161211.tar.xz) = 48316

@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	yathesis
+PORTNAME=	luahyphenrules
 PORTVERSION=	20161211
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A LaTeX class for writing a thesis following French rules
+COMMENT=	Loading patterns in LuaLaTeX with language.dat
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
