@@ -1,7 +1,7 @@
-TIMESTAMP = 1472445028
-SHA256 (TeXLive/cquthesis-20160828.tar.xz) = 46745b284ab1ac7eb9a2558cf8c8243f84ac0fbdbf3c55e16c7b7595da889987
-SIZE (TeXLive/cquthesis-20160828.tar.xz) = 15732
-SHA256 (TeXLive/cquthesis.doc-20160828.tar.xz) = 9b9fb5498ebd63046058034116a787ce5f582786fbe0ed9a42cf3e92f0c2de31
-SIZE (TeXLive/cquthesis.doc-20160828.tar.xz) = 612068
-SHA256 (TeXLive/cquthesis.source-20160828.tar.xz) = 411ae5e858957db40102a582d39e5cae9f37d1a7ee3580c56dc00efd0c1acbc5
-SIZE (TeXLive/cquthesis.source-20160828.tar.xz) = 28168
+TIMESTAMP = 1481517425
+SHA256 (TeXLive/cquthesis-20161212.tar.xz) = 31252ae242c1b6246dd34c299a85277bc915308df91e31d8fe049933ada6be51
+SIZE (TeXLive/cquthesis-20161212.tar.xz) = 15736
+SHA256 (TeXLive/cquthesis.doc-20161212.tar.xz) = 005412c9a9fabe90d4dc9e8d287bc20817d335a721a4bfb5acbb42f9c026c446
+SIZE (TeXLive/cquthesis.doc-20161212.tar.xz) = 619828
+SHA256 (TeXLive/cquthesis.source-20161212.tar.xz) = 5addbaa948f1f2a097b3f2648cf7f4028d7d9426e5a1f9a65d4cb2929b714d8b
+SIZE (TeXLive/cquthesis.source-20161212.tar.xz) = 28804

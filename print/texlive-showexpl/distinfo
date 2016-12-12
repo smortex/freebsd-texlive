@@ -1,7 +1,7 @@
-TIMESTAMP = 1479789055
-SHA256 (TeXLive/showexpl-20161121.tar.xz) = b485d7443c563cef136c1a182a36ea4c4c9888c7a582f0bbc7fd4b3265274bae
-SIZE (TeXLive/showexpl-20161121.tar.xz) = 4084
-SHA256 (TeXLive/showexpl.doc-20161121.tar.xz) = cc253d8ec9750e00220633d2cf850cebbc4a93cd28e8d74cf4efb2489a6bb57f
-SIZE (TeXLive/showexpl.doc-20161121.tar.xz) = 593444
-SHA256 (TeXLive/showexpl.source-20161121.tar.xz) = dd436261d0afdb84eaaf773d69040908f87fb8c6204a3842e5a82b38662337d8
-SIZE (TeXLive/showexpl.source-20161121.tar.xz) = 8884
+TIMESTAMP = 1481517103
+SHA256 (TeXLive/showexpl-20161212.tar.xz) = a9ec8df247fee674e7318b0d8844b46a865e283766b19ae287b2c7088908f6a1
+SIZE (TeXLive/showexpl-20161212.tar.xz) = 4068
+SHA256 (TeXLive/showexpl.doc-20161212.tar.xz) = d2cafe5ece46663edd4eee73488a238c8e6c041d527fb35a59fb0687b22f5a68
+SIZE (TeXLive/showexpl.doc-20161212.tar.xz) = 594492
+SHA256 (TeXLive/showexpl.source-20161212.tar.xz) = 50d127c697d18d0c013570369ef8fed48c0c41e0a702a8ea651b7f5102ab2c26
+SIZE (TeXLive/showexpl.source-20161212.tar.xz) = 8884

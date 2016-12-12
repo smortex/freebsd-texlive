@@ -2726,6 +2726,8 @@ share/texmf-dist/tex4ht/ht-fonts/alias/lm/pre2005/qx-lmtcs.htf
 share/texmf-dist/tex4ht/ht-fonts/alias/lm/pre2005/qx-lmvt.htf
 share/texmf-dist/tex4ht/ht-fonts/alias/lm/pre2005/texnansi-lm.htf
 share/texmf-dist/tex4ht/ht-fonts/alias/lm/pre2005/texnansi-lmtcs.htf
+share/texmf-dist/tex4ht/ht-fonts/alias/lm/rm-lmt.htf
+share/texmf-dist/tex4ht/ht-fonts/alias/lm/rm-lmvt.htf
 share/texmf-dist/tex4ht/ht-fonts/alias/lm/t5-lm.htf
 share/texmf-dist/tex4ht/ht-fonts/alias/lm/t5-lmtcs.htf
 share/texmf-dist/tex4ht/ht-fonts/alias/lm/ts1-.htf

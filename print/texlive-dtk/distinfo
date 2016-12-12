@@ -1,4 +1,5 @@
-SHA256 (TeXLive/dtk-20160509.tar.xz) = c102eede592a8a1acc56abafa0a1c9481eb84e1b60052fcb8dea69fed6ca50b3
-SIZE (TeXLive/dtk-20160509.tar.xz) = 13192
-SHA256 (TeXLive/dtk.doc-20160509.tar.xz) = de7172716e1f52663f9577224cdddc47cf52d34afd6bae0f311cc536dbc482e2
-SIZE (TeXLive/dtk.doc-20160509.tar.xz) = 92032
+TIMESTAMP = 1481516776
+SHA256 (TeXLive/dtk-20161212.tar.xz) = 9fbbd1b3a4c85b5d1704600eec49ec6c9895e7398ff9e78b4e6f23d695bb1b5d
+SIZE (TeXLive/dtk-20161212.tar.xz) = 13692
+SHA256 (TeXLive/dtk.doc-20161212.tar.xz) = e5520534d7ef1f30a2aa0717d7e09604cb099b192ff587a11a86b85858df7a7e
+SIZE (TeXLive/dtk.doc-20161212.tar.xz) = 91188

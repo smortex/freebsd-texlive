@@ -1,0 +1,18 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/arphic-ttf/ANNOUNCE.Big5
+%%PORTDOCS%%share/texmf-dist/doc/fonts/arphic-ttf/ANNOUNCE.GB
+%%PORTDOCS%%share/texmf-dist/doc/fonts/arphic-ttf/ARPHICPL.big5
+%%PORTDOCS%%share/texmf-dist/doc/fonts/arphic-ttf/ARPHICPL.gb
+%%PORTDOCS%%share/texmf-dist/doc/fonts/arphic-ttf/ARPHICPL.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/arphic-ttf/README.md
+%%PORTDOCS%%share/texmf-dist/doc/fonts/arphic-ttf/changelog.Debian.bkai00mp
+%%PORTDOCS%%share/texmf-dist/doc/fonts/arphic-ttf/changelog.Debian.bsmi00lp
+%%PORTDOCS%%share/texmf-dist/doc/fonts/arphic-ttf/changelog.Debian.gbsn00lp
+%%PORTDOCS%%share/texmf-dist/doc/fonts/arphic-ttf/changelog.Debian.gkai00mp
+%%PORTDOCS%%share/texmf-dist/doc/fonts/arphic-ttf/copyright.Debian
+%%PORTDOCS%%share/texmf-dist/doc/fonts/arphic-ttf/release.txt
+share/texmf-dist/fonts/truetype/public/arphic-ttf/bkai00mp.ttf
+share/texmf-dist/fonts/truetype/public/arphic-ttf/bsmi00lp.ttf
+share/texmf-dist/fonts/truetype/public/arphic-ttf/gbsn00lp.ttf
+share/texmf-dist/fonts/truetype/public/arphic-ttf/gkai00mp.ttf
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
