@@ -1,6 +1,7 @@
-SHA256 (TeXLive/pdfpages-20160421.tar.xz) = 518f3ed4360685757344bf7fc23deaeeaf7aeda92a8b5b5d8b21488686660621
-SIZE (TeXLive/pdfpages-20160421.tar.xz) = 13624
-SHA256 (TeXLive/pdfpages.doc-20160421.tar.xz) = d324f08c67ec827720c47462b6698e1a71717300c6a7b6a157b4c0a69fab1207
-SIZE (TeXLive/pdfpages.doc-20160421.tar.xz) = 312896
-SHA256 (TeXLive/pdfpages.source-20160421.tar.xz) = b6ca35e386b7c1000afdac3cde84db969dcf62f6603094423ee19e0bbbdf8fd7
-SIZE (TeXLive/pdfpages.source-20160421.tar.xz) = 34156
+TIMESTAMP = 1481602736
+SHA256 (TeXLive/pdfpages-20161213.tar.xz) = e21789b8f69686c7b900aa43733711ec4767c0f88a4b3f7c49a545d4cba30d7c
+SIZE (TeXLive/pdfpages-20161213.tar.xz) = 13648
+SHA256 (TeXLive/pdfpages.doc-20161213.tar.xz) = cb8c5f5440f45c130d9fde83fd9ebd3ca2520359cbb1cd9e5971ada079530746
+SIZE (TeXLive/pdfpages.doc-20161213.tar.xz) = 312184
+SHA256 (TeXLive/pdfpages.source-20161213.tar.xz) = 239d217639a3aef747e27761bb6f259b34a9ed4c73d38303fc9d4336339c0c9a
+SIZE (TeXLive/pdfpages.source-20161213.tar.xz) = 34220

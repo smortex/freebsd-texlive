@@ -67,6 +67,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/4-reledpar_columns_alignment.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/4-reledpar_columns_titles_in_line_numbering_with_notes.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/4-reledpar_columns_titles_in_line_numbering_with_notes.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/4-reledpar_inside-outside-columns.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/4-reledpar_inside-outside-columns.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/4-reledpar_one_series_per_pstart.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/4-reledpar_one_series_per_pstart.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/reledmac/examples/4-reledpar_pages_long_notes.pdf

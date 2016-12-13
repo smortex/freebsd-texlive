@@ -1,7 +1,7 @@
-TIMESTAMP = 1479269808
-SHA256 (TeXLive/reledmac-20161115.tar.xz) = 3af337160c1f45c82e502f18b2a7bc5e0e82fd3e8a3c56947c12a22151e45432
-SIZE (TeXLive/reledmac-20161115.tar.xz) = 47348
-SHA256 (TeXLive/reledmac.doc-20161115.tar.xz) = 0951022d230728afaf65b4169d3f0b58bfa83bb1f40bb960344c35d50c8d54c1
-SIZE (TeXLive/reledmac.doc-20161115.tar.xz) = 2764224
-SHA256 (TeXLive/reledmac.source-20161115.tar.xz) = 38223dc76ce7c53ff9bc484722fdbbf6712ec4894dd52385f3a8c024162ba0d3
-SIZE (TeXLive/reledmac.source-20161115.tar.xz) = 186012
+TIMESTAMP = 1481602527
+SHA256 (TeXLive/reledmac-20161213.tar.xz) = abde592048d67b7b9005d7fe742d9edc6120eb02168a965939e999f5091be62c
+SIZE (TeXLive/reledmac-20161213.tar.xz) = 47536
+SHA256 (TeXLive/reledmac.doc-20161213.tar.xz) = 11eb5238800784860f2f7321d09e7b6ad025af5acb14a6394d19da936c38da65
+SIZE (TeXLive/reledmac.doc-20161213.tar.xz) = 2792896
+SHA256 (TeXLive/reledmac.source-20161213.tar.xz) = 50aecd6de7ac4892f5e279dcd9420825f7d878fc10eac8e6525fd2cfdd5b1529
+SIZE (TeXLive/reledmac.source-20161213.tar.xz) = 186596
