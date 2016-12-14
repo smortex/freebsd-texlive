@@ -757,6 +757,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/xcjk2uni/cmap/c0001.cmap:${PORTSDIR}/print/texlive-xcjk2uni \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zxjafont/zxjafont.sty:${PORTSDIR}/print/texlive-zxjafont \
 		${LOCALBASE}/share/texmf-dist/dvips/arphic/config.bkaiu:${PORTSDIR}/print/texlive-arphic \
+		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/arphic-ttf/bkai00mp.ttf:${PORTSDIR}/print/texlive-arphic-ttf \
 		${LOCALBASE}/share/texmf-dist/fonts/misc/cns/4040w0.bin:${PORTSDIR}/print/texlive-cns \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ctex/ctex.sty:${PORTSDIR}/print/texlive-ctex \
 		${LOCALBASE}/share/texmf-dist/fonts/opentype/public/fandol/FandolBraille-Display.otf:${PORTSDIR}/print/texlive-fandol \
@@ -2659,7 +2660,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-fun/pst-fun.tex:${PORTSDIR}/print/texlive-pst-fun \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-func/pst-func.tex:${PORTSDIR}/print/texlive-pst-func \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-gantt/pst-gantt.tex:${PORTSDIR}/print/texlive-pst-gantt \
-		${LOCALBASE}/share/texmf-dist/dvips/pst-geo/pst-map3d.pro:${PORTSDIR}/print/texlive-pst-geo \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-geo/pst-geo.tex:${PORTSDIR}/print/texlive-pst-geo \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-ghsb/pst-ghsb.tex:${PORTSDIR}/print/texlive-pst-ghsb \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-gr3d/pst-gr3d.tex:${PORTSDIR}/print/texlive-pst-gr3d \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-grad/pst-grad.tex:${PORTSDIR}/print/texlive-pst-grad \

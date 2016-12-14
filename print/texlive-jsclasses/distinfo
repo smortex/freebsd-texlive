@@ -1,7 +1,7 @@
-TIMESTAMP = 1480652360
-SHA256 (TeXLive/jsclasses-20161202.tar.xz) = b98f1ab744c7d966fcce5b0b7f7ef5e3369e4ab398c85cfc618875e4f59cf0be
-SIZE (TeXLive/jsclasses-20161202.tar.xz) = 21244
-SHA256 (TeXLive/jsclasses.doc-20161202.tar.xz) = 01d61154853bf0cdf00fe9c6686ee8c80423cbab815e660c887180ee752f4ebf
-SIZE (TeXLive/jsclasses.doc-20161202.tar.xz) = 867524
-SHA256 (TeXLive/jsclasses.source-20161202.tar.xz) = 7c873fc7feede8dd0f34104e08398655d99d7de5cd756f48369f3a6705fe1b48
-SIZE (TeXLive/jsclasses.source-20161202.tar.xz) = 52928
+TIMESTAMP = 1481689227
+SHA256 (TeXLive/jsclasses-20161214.tar.xz) = 9862ea1c87dd962dcedc42e1d63d765841a85fb681e7bd90f1fdff1c97e2c303
+SIZE (TeXLive/jsclasses-20161214.tar.xz) = 21336
+SHA256 (TeXLive/jsclasses.doc-20161214.tar.xz) = 6bfbd91b2a3eb485f672595e96cff7a2198eb54a12759e62a71de92c516a7fb7
+SIZE (TeXLive/jsclasses.doc-20161214.tar.xz) = 870464
+SHA256 (TeXLive/jsclasses.source-20161214.tar.xz) = f9a1868966d46d033d44a903fbb9d2c0698c65f9b7c03d35d2ff36358137ec23
+SIZE (TeXLive/jsclasses.source-20161214.tar.xz) = 53192
