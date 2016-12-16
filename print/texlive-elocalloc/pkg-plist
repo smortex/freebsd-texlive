@@ -1,4 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/elocalloc/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/elocalloc/README.txt
 %%PORTDOCS%%share/texmf-dist/doc/latex/elocalloc/elocalloc.pdf
 %%PORTSRC%%share/texmf-dist/source/latex/elocalloc/elocalloc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/elocalloc/elocalloc.ins

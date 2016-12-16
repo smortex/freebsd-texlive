@@ -1,6 +1,7 @@
-SHA256 (TeXLive/elocalloc-20160414.tar.xz) = 2083193ae4e7deb210aa28640647a5197a8ef388b9ba19f405bcae2e19b62713
-SIZE (TeXLive/elocalloc-20160414.tar.xz) = 1084
-SHA256 (TeXLive/elocalloc.doc-20160414.tar.xz) = 4bb731f29ccc6074871367b3d580f75df82701f24f08cbbd787aafa8001244fc
-SIZE (TeXLive/elocalloc.doc-20160414.tar.xz) = 153700
-SHA256 (TeXLive/elocalloc.source-20160414.tar.xz) = e65043b087debf2fef711c9b2ef595381feb422800da96eb2c88fa252c2d004a
-SIZE (TeXLive/elocalloc.source-20160414.tar.xz) = 2216
+TIMESTAMP = 1481862034
+SHA256 (TeXLive/elocalloc-20161216.tar.xz) = 525e96c1a24c4fabfe173016ba426088630c38cc2d1b02ed09d316eec4285062
+SIZE (TeXLive/elocalloc-20161216.tar.xz) = 1080
+SHA256 (TeXLive/elocalloc.doc-20161216.tar.xz) = 5c65785d479de37dfee19b280a299580c30bc2342b5633f894a9972938b5676d
+SIZE (TeXLive/elocalloc.doc-20161216.tar.xz) = 154148
+SHA256 (TeXLive/elocalloc.source-20161216.tar.xz) = 9aa3780fbd26e7c9d38e3e580feb93573571b68f36f53d54914f64edbe357bf6
+SIZE (TeXLive/elocalloc.source-20161216.tar.xz) = 2212

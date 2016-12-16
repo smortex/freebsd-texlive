@@ -1,7 +1,7 @@
-TIMESTAMP = 1473568384
-SHA256 (TeXLive/fei-20160910.tar.xz) = 6f4beab088553de1fabd43447f25d8b64219b2251cc3f4d9988ae8cf06a2b49c
-SIZE (TeXLive/fei-20160910.tar.xz) = 6172
-SHA256 (TeXLive/fei.doc-20160910.tar.xz) = 40ecf2f60bab4531dd860119f9711a2f15c09eb9026c5005459c15160d23e0af
-SIZE (TeXLive/fei.doc-20160910.tar.xz) = 260360
-SHA256 (TeXLive/fei.source-20160910.tar.xz) = e4c4770fdfbccc1c0770ee73a1e55c22a83f4e0ddf8ab49f58e7cb060ba5b8d9
-SIZE (TeXLive/fei.source-20160910.tar.xz) = 24112
+TIMESTAMP = 1481862933
+SHA256 (TeXLive/fei-20161216.tar.xz) = 1caf1d559a15b675585ec2edb5a2625219e0f514bb4e969c47d5b9e36acc267c
+SIZE (TeXLive/fei-20161216.tar.xz) = 5836
+SHA256 (TeXLive/fei.doc-20161216.tar.xz) = 05567b47fd3b0146acd8d91211c4dfb807b68bcadbf7b7705cc35a71fb272c6a
+SIZE (TeXLive/fei.doc-20161216.tar.xz) = 266428
+SHA256 (TeXLive/fei.source-20161216.tar.xz) = 4c0dbc8861fccdfe4317b079a8699836831e81aef1a293e61e0ac49c0e7e196c
+SIZE (TeXLive/fei.source-20161216.tar.xz) = 24688
