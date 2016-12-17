@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	glossaries-extra
-PORTVERSION=	20161214
+PORTVERSION=	20161217
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

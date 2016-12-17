@@ -1,4 +1,5 @@
-SHA256 (TeXLive/latex-bin-20160614.tar.xz) = 1d530c1e294bd5382284328a6826474d7b69b09b85a76c4eaa76a33cdca90753
-SIZE (TeXLive/latex-bin-20160614.tar.xz) = 492
-SHA256 (TeXLive/latex-bin.doc-20160614.tar.xz) = 0370da8cff0e632c47cc84c4a27b1ade185b0d178144cea384b94c76da872e68
-SIZE (TeXLive/latex-bin.doc-20160614.tar.xz) = 54824
+TIMESTAMP = 1481947767
+SHA256 (TeXLive/latex-bin-20161217.tar.xz) = 3f590848a0efdaae4b202a602644f9777675310d0d497233ec5ba4f1acecfb28
+SIZE (TeXLive/latex-bin-20161217.tar.xz) = 524
+SHA256 (TeXLive/latex-bin.doc-20161217.tar.xz) = 528ba23c73e2192cdb9a7b887c041ef689c2bef61203a07cd5961d6b91c9ae79
+SIZE (TeXLive/latex-bin.doc-20161217.tar.xz) = 34048

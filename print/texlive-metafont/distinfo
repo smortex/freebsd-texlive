@@ -1,4 +1,5 @@
-SHA256 (TeXLive/metafont-20160428.tar.xz) = a31bdaa581d18976849d5e7c4a7ca34b495bb266364a677ce0e00d83ed150025
-SIZE (TeXLive/metafont-20160428.tar.xz) = 33520
-SHA256 (TeXLive/metafont.doc-20160428.tar.xz) = 31af4c2476ecaa8f0d858b0b8d7f563ec22d3da5f085a7d9a077fd7acfb97d2b
-SIZE (TeXLive/metafont.doc-20160428.tar.xz) = 54784
+TIMESTAMP = 1481947746
+SHA256 (TeXLive/metafont-20161217.tar.xz) = 238e04b99980cc492ee33004e8db208ce7b213c719a4f7487dade9316c2781da
+SIZE (TeXLive/metafont-20161217.tar.xz) = 33508
+SHA256 (TeXLive/metafont.doc-20161217.tar.xz) = b89bd70fa45fff90a6b5df137f56a317ea7fb1f3cc70413db7ab18782132df56
+SIZE (TeXLive/metafont.doc-20161217.tar.xz) = 67592

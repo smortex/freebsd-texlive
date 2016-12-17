@@ -1,4 +1,5 @@
-SHA256 (TeXLive/dvipdfmx-20160705.tar.xz) = c4705b912de0adc5ff7707f9db01b2947e552cf770ed452e64a8439905db9b08
-SIZE (TeXLive/dvipdfmx-20160705.tar.xz) = 26648
-SHA256 (TeXLive/dvipdfmx.doc-20160705.tar.xz) = 149cf3cfb6f00d640aea4a9d2008b2ca2d15f54e65109d14c1d1072b894c241e
-SIZE (TeXLive/dvipdfmx.doc-20160705.tar.xz) = 365464
+TIMESTAMP = 1481947736
+SHA256 (TeXLive/dvipdfmx-20161217.tar.xz) = 3d41e892d70bb100dc1bb086cfab27c07b065dfa0a5925bbc3b2caab5ae3d883
+SIZE (TeXLive/dvipdfmx-20161217.tar.xz) = 26564
+SHA256 (TeXLive/dvipdfmx.doc-20161217.tar.xz) = c65092e22d1459f3b14f8434836c7d42028cc63525659fd5f3a0ddf9d30d126b
+SIZE (TeXLive/dvipdfmx.doc-20161217.tar.xz) = 368016

@@ -1,4 +1,5 @@
-SHA256 (TeXLive/pdftools-20160427.tar.xz) = 3d395d2f10367e023b06653b2df5d8b9534747b2713307d3f52272e1c87a6a9d
-SIZE (TeXLive/pdftools-20160427.tar.xz) = 1868
-SHA256 (TeXLive/pdftools.doc-20160427.tar.xz) = 358b0d6905f61b1709fc75166cbe06c113d1129adddf896817b6a9830b4485eb
-SIZE (TeXLive/pdftools.doc-20160427.tar.xz) = 64704
+TIMESTAMP = 1481947927
+SHA256 (TeXLive/pdftools-20161217.tar.xz) = 8da7d148ad3b419d3ea2146ff7e27fa21849e63b575ebd1293b578a385ebdbd5
+SIZE (TeXLive/pdftools-20161217.tar.xz) = 1872
+SHA256 (TeXLive/pdftools.doc-20161217.tar.xz) = b0ca7a594b98715820ca3c6bf5feb8e541f653356e2dcaef9d659a6d881ff714
+SIZE (TeXLive/pdftools.doc-20161217.tar.xz) = 73680
