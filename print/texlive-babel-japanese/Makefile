@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	arabluatex
+PORTNAME=	babel-japanese
 PORTVERSION=	20161218
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	An ArabTeX-like interface for LuaLaTeX
+COMMENT=	Babel support for Japanese
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

@@ -1,3 +1,5 @@
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/makejvf.1
+%%PORTDOCS%%share/texmf-dist/doc/man/man1/makejvf.man1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/mendex.1
 %%PORTDOCS%%share/texmf-dist/doc/man/man1/mendex.man1.pdf
 share/texmf-dist/fonts/map/dvipdfmx/ptex/morisawa.map

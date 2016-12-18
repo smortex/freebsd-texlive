@@ -1,0 +1,10 @@
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-japanese/Makefile
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-japanese/README.md
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-japanese/japanese-sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-japanese/japanese-sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/babel-japanese/japanese.pdf
+%%PORTSRC%%share/texmf-dist/source/generic/babel-japanese/japanese.dtx
+%%PORTSRC%%share/texmf-dist/source/generic/babel-japanese/japanese.ins
+share/texmf-dist/tex/generic/babel-japanese/japanese.ldf
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

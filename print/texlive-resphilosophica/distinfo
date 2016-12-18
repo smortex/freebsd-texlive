@@ -1,6 +1,7 @@
-SHA256 (TeXLive/resphilosophica-20160414.tar.xz) = 8e5b22c3f1520206ab25b52dadf56a2ff904b02abb3c36656d8ec12f677a4741
-SIZE (TeXLive/resphilosophica-20160414.tar.xz) = 11896
-SHA256 (TeXLive/resphilosophica.doc-20160414.tar.xz) = 22d81c5002bc8ac9f2775289d0e17fca0950bf918fd7b828134680855f8b6a4d
-SIZE (TeXLive/resphilosophica.doc-20160414.tar.xz) = 524128
-SHA256 (TeXLive/resphilosophica.source-20160414.tar.xz) = b70a8e8eb973124695f449f0ede34cc3179bacea26c6e77a492f66922a84e0bc
-SIZE (TeXLive/resphilosophica.source-20160414.tar.xz) = 17132
+TIMESTAMP = 1482035743
+SHA256 (TeXLive/resphilosophica-20161218.tar.xz) = 0f6b078e5d2171fc3ecb3d666f8183492c491955300a94fd597c93c7dad16f0a
+SIZE (TeXLive/resphilosophica-20161218.tar.xz) = 11928
+SHA256 (TeXLive/resphilosophica.doc-20161218.tar.xz) = 8f710bd8803bd18dd93266fe88ea8a86b4ee9c867b6f2a63417517effbe708b7
+SIZE (TeXLive/resphilosophica.doc-20161218.tar.xz) = 518760
+SHA256 (TeXLive/resphilosophica.source-20161218.tar.xz) = 410f487747c116874585562d0bfd4d66be8ca137f8fcb8c2c6a08175e8984bff
+SIZE (TeXLive/resphilosophica.source-20161218.tar.xz) = 17212
