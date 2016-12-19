@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langjapanese
-PORTVERSION=	20161218
+PORTVERSION=	20161219
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -62,7 +62,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/bxjscls/bxjsarticle.cls:${PORTSDIR}/print/texlive-bxjscls \
 		${LOCALBASE}/share/texmf-dist/scripts/convbkmk/convbkmk.rb:${PORTSDIR}/print/texlive-convbkmk \
 		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/ipaex/ipaexg.ttf:${PORTSDIR}/print/texlive-ipaex \
-		${LOCALBASE}/share/texmf-dist/tex/platex/japanese/japanese.ldf:${PORTSDIR}/print/texlive-japanese \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/japanese-otf/otf-cktx.map:${PORTSDIR}/print/texlive-japanese-otf \
 		${LOCALBASE}/share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/upphirakakuw3-h.ovp:${PORTSDIR}/print/texlive-japanese-otf-uptex \
 		${LOCALBASE}/share/texmf-dist/fonts/cmap/jfontmaps/2004-H:${PORTSDIR}/print/texlive-jfontmaps \
