@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	churchslavonic
-PORTVERSION=	20161025
+PORTVERSION=	20161220
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typesetting documents in Church Slavonic language using Unicode
+COMMENT=	Typeset documents in Church Slavonic language using Unicode
 
 RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/fonts/opentype/public/fonts-churchslavonic/FedorovskUnicode.otf:${PORTSDIR}/print/texlive-fonts-churchslavonic \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-cu.tex:${PORTSDIR}/print/texlive-hyphen-churchslavonic \
