@@ -1,6 +1,7 @@
-SHA256 (TeXLive/exam-n-20160414.tar.xz) = ee5fabfc59a5cd3f8c3a0c2548882f814d55e6abeb6bae4f08c48e869ceb366d
-SIZE (TeXLive/exam-n-20160414.tar.xz) = 11268
-SHA256 (TeXLive/exam-n.doc-20160414.tar.xz) = ce8cdf6c03bd1fc59d514c28091cd6269b9c3aa2b3d3f2f081dcbd3a6349245c
-SIZE (TeXLive/exam-n.doc-20160414.tar.xz) = 834672
-SHA256 (TeXLive/exam-n.source-20160414.tar.xz) = 44a150f9087b2f238e0de864196b96131e2a20d050355b4cbde53637cc6f7ce0
-SIZE (TeXLive/exam-n.source-20160414.tar.xz) = 32288
+TIMESTAMP = 1482294278
+SHA256 (TeXLive/exam-n-20161221.tar.xz) = ed06c11a87ebd517965a680cf44966f0efff8c2afce114803c22b20f6b6c75c9
+SIZE (TeXLive/exam-n-20161221.tar.xz) = 11776
+SHA256 (TeXLive/exam-n.doc-20161221.tar.xz) = 8228e83e12c8d7e71b6261337cb202528b70939a4f25f49dd15cb0863cb8b1fb
+SIZE (TeXLive/exam-n.doc-20161221.tar.xz) = 820044
+SHA256 (TeXLive/exam-n.source-20161221.tar.xz) = 149cbdade6c62c8a939aa5e9b0b30daea61961223d495134af3a809bc1c8b59e
+SIZE (TeXLive/exam-n.source-20161221.tar.xz) = 34440

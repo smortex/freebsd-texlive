@@ -1,0 +1,5 @@
+This small package supports key-value syntax other than the
+standard LaTeX syntax of <key>=<value>. Using this package,
+create key-values of the form <key>:<value> or <key>-><value>,
+for example. The package converts the new notation to xkeyval
+notation and passes it on to xkeyval.

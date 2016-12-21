@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20161210
+PORTVERSION=	20161221
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -61,6 +61,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/makeindex/latex/gglo.ist:${PORTSDIR}/print/texlive-latex \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/latex-fonts/circle.mf:${PORTSDIR}/print/texlive-latex-fonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg:${PORTSDIR}/print/texlive-latexconfig \
+		${LOCALBASE}/share/texmf-dist/tex/cslatex/base/cslatex.ini:${PORTSDIR}/print/texlive-cslatex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltxmisc/abstbook.cls:${PORTSDIR}/print/texlive-ltxmisc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mfnfss/oldgerm.sty:${PORTSDIR}/print/texlive-mfnfss \
 		${LOCALBASE}/share/texmf-dist/tex/generic/context/mptopdf/mptopdf.tex:${PORTSDIR}/print/texlive-mptopdf \
@@ -448,6 +449,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/continue/continue.sty:${PORTSDIR}/print/texlive-continue \
 		${LOCALBASE}/share/texmf-dist/tex/latex/contour/contour.sty:${PORTSDIR}/print/texlive-contour \
 		${LOCALBASE}/share/texmf-dist/tex/latex/contracard/contracard.cls:${PORTSDIR}/print/texlive-contracard \
+		${LOCALBASE}/share/texmf-dist/tex/latex/conv-xkv/conv-xkv.sty:${PORTSDIR}/print/texlive-conv-xkv \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cooking/cooking.sty:${PORTSDIR}/print/texlive-cooking \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cooking-units/cooking-units.sty:${PORTSDIR}/print/texlive-cooking-units \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cool/cool.sty:${PORTSDIR}/print/texlive-cool \

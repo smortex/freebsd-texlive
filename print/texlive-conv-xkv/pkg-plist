@@ -1,0 +1,8 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/conv-xkv/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/conv-xkv/doc/conv-xkv.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/conv-xkv/examples/convert2xkeyval.tex
+%%PORTSRC%%share/texmf-dist/source/latex/conv-xkv/conv-xkv.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/conv-xkv/conv-xkv.ins
+share/texmf-dist/tex/latex/conv-xkv/conv-xkv.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
