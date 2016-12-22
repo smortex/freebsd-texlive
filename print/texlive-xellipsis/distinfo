@@ -1,7 +1,7 @@
-TIMESTAMP = 1479357035
-SHA256 (TeXLive/xellipsis-20161116.tar.xz) = dfadfc23d0ac4578d966181ba17594374c992264ac98398e1c272e7e940e23d6
-SIZE (TeXLive/xellipsis-20161116.tar.xz) = 1572
-SHA256 (TeXLive/xellipsis.doc-20161116.tar.xz) = 6ca01b0155293e56b42d66fc1215ecc01ff18a03514f31d98595b0faf2112ddc
-SIZE (TeXLive/xellipsis.doc-20161116.tar.xz) = 195296
-SHA256 (TeXLive/xellipsis.source-20161116.tar.xz) = 34183259613d56a5e7dae967c8ba2211105f9ef6b00c8d69c8632cfc1a931f6d
-SIZE (TeXLive/xellipsis.source-20161116.tar.xz) = 6620
+TIMESTAMP = 1482381017
+SHA256 (TeXLive/xellipsis-20161222.tar.xz) = b58af0fd4bc6398f87415569c223b4cb8b33a2e58f2fb23c1ff82864cef2640a
+SIZE (TeXLive/xellipsis-20161222.tar.xz) = 1604
+SHA256 (TeXLive/xellipsis.doc-20161222.tar.xz) = 661c97bcfe8248e57a726b326bdc07f76ee39878f43b7da806dc2ca97cd9c494
+SIZE (TeXLive/xellipsis.doc-20161222.tar.xz) = 347348
+SHA256 (TeXLive/xellipsis.source-20161222.tar.xz) = b0df5c0a223795f32d65c66282a120836d2f407ba284500532c06c035157a564
+SIZE (TeXLive/xellipsis.source-20161222.tar.xz) = 6844

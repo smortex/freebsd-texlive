@@ -1,0 +1,6 @@
+stanli is a STructural ANalysis LIbrary based on PGF/TikZ.
+Creating new assignments and tests, at university, is usually a
+very time-consuming task, especially when this includes drawing
+graphics. In the field of structural engineering, those small
+structures are a key part for teaching. This package permits to
+create such 2D and 3D structures in a very fast and simple way.

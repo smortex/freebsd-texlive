@@ -1,13 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	tex4ht
+PORTNAME=	stanli
 PORTVERSION=	20161222
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Convert (La)TeX to HTML/XML
-
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
+COMMENT=	TikZ Library for Structural Analysis
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

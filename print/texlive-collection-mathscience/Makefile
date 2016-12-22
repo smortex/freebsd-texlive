@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-mathscience
-PORTVERSION=	20161126
+PORTVERSION=	20161222
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -227,6 +227,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/siunitx/siunitx.sty:${PORTSDIR}/print/texlive-siunitx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skmath/skmath.sty:${PORTSDIR}/print/texlive-skmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spalign/spalign.sty:${PORTSDIR}/print/texlive-spalign \
+		${LOCALBASE}/share/texmf-dist/tex/latex/stanli/stanli.sty:${PORTSDIR}/print/texlive-stanli \
 		${LOCALBASE}/share/texmf-dist/tex/latex/statex/statex.sty:${PORTSDIR}/print/texlive-statex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/statex2/statex2.sty:${PORTSDIR}/print/texlive-statex2 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/steinmetz/steinmetz.sty:${PORTSDIR}/print/texlive-steinmetz \

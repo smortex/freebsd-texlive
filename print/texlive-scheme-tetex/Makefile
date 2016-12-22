@@ -178,7 +178,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/makeindex/latex/gglo.ist:${PORTSDIR}/print/texlive-latex \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/latex-fonts/circle.mf:${PORTSDIR}/print/texlive-latex-fonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg:${PORTSDIR}/print/texlive-latexconfig \
-		${LOCALBASE}/share/texmf-dist/tex/cslatex/base/cslatex.ini:${PORTSDIR}/print/texlive-cslatex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltxmisc/abstbook.cls:${PORTSDIR}/print/texlive-ltxmisc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mfnfss/oldgerm.sty:${PORTSDIR}/print/texlive-mfnfss \
 		${LOCALBASE}/share/texmf-dist/tex/generic/context/mptopdf/mptopdf.tex:${PORTSDIR}/print/texlive-mptopdf \
@@ -228,6 +227,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/cnbwp/cnbwp.cls:${PORTSDIR}/print/texlive-cnbwp \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/cs/xl2.enc:${PORTSDIR}/print/texlive-cs \
 		${LOCALBASE}/share/texmf-dist/tex/latex/csbulletin/csbulletin.cls:${PORTSDIR}/print/texlive-csbulletin \
+		${LOCALBASE}/share/texmf-dist/tex/cslatex/base/cslatex.ini:${PORTSDIR}/print/texlive-cslatex \
 		${LOCALBASE}/share/texmf-dist/tex/csplain/base/csenc-k.tex:${PORTSDIR}/print/texlive-csplain \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-cs.tex:${PORTSDIR}/print/texlive-hyphen-czech \
 		${LOCALBASE}/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-sk.tex:${PORTSDIR}/print/texlive-hyphen-slovak \
@@ -579,6 +579,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/latex/SIunits/SIunits.sty:${PORTS
 		${LOCALBASE}/share/texmf-dist/tex/latex/siunitx/siunitx.sty:${PORTSDIR}/print/texlive-siunitx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skmath/skmath.sty:${PORTSDIR}/print/texlive-skmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/spalign/spalign.sty:${PORTSDIR}/print/texlive-spalign \
+		${LOCALBASE}/share/texmf-dist/tex/latex/stanli/stanli.sty:${PORTSDIR}/print/texlive-stanli \
 		${LOCALBASE}/share/texmf-dist/tex/latex/statex/statex.sty:${PORTSDIR}/print/texlive-statex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/statex2/statex2.sty:${PORTSDIR}/print/texlive-statex2 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/steinmetz/steinmetz.sty:${PORTSDIR}/print/texlive-steinmetz \
