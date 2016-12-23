@@ -1,0 +1,11 @@
+%%PORTDOCS%%share/texmf-dist/doc/latex/scsnowman/LICENSE
+%%PORTDOCS%%share/texmf-dist/doc/latex/scsnowman/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/scsnowman/scsnowman-sample.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/scsnowman/scsnowman-sample.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/scsnowman/scsnowman.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/scsnowman/scsnowman.tex
+share/texmf-dist/tex/latex/scsnowman/scsnowman-normal.def
+share/texmf-dist/tex/latex/scsnowman/scsnowman.sty
+share/texmf-dist/tex/latex/scsnowman/sctkzsym-base.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

@@ -1,0 +1,3 @@
+This LaTeX package provides a command \scsnowman which can
+display many variants of "snowman" ("yukidaruma" in Japanese).
+TikZ is required for drawing these snowmen.

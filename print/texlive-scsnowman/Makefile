@@ -1,12 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	mathspec
+PORTNAME=	scsnowman
 PORTVERSION=	20161223
-PORTEPOCH=	1
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Specify arbitrary fonts for mathematics in XeTeX
+COMMENT=	Snowman variants using TikZ
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

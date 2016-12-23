@@ -1,4 +1,5 @@
-SHA256 (TeXLive/mathspec-20160414.tar.xz) = a260ca50e2aa6fb6569b21993597eee72e0a7d569672b3daeb49216b6c1e38d0
-SIZE (TeXLive/mathspec-20160414.tar.xz) = 9668
-SHA256 (TeXLive/mathspec.doc-20160414.tar.xz) = 82ede34006530439c93667950420a1bb366af0296292ad8328617e01a4dee135
-SIZE (TeXLive/mathspec.doc-20160414.tar.xz) = 208804
+TIMESTAMP = 1482466755
+SHA256 (TeXLive/mathspec-20161223.tar.xz) = 8d89a6c362fe027fda712b114fe4270cb5687ccb853bc25337a7892fbda4b9de
+SIZE (TeXLive/mathspec-20161223.tar.xz) = 9748
+SHA256 (TeXLive/mathspec.doc-20161223.tar.xz) = 0b6f286e724b09aa88e61dcb3793cc218ebbeac620c5ca984aad94a8954d24bc
+SIZE (TeXLive/mathspec.doc-20161223.tar.xz) = 172740

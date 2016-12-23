@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-pictures
-PORTVERSION=	20161128
+PORTVERSION=	20161223
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -143,6 +143,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/rviewport/rviewport.sty:${PORTSDIR}/print/texlive-rviewport \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sa-tikz/sa-tikz.sty:${PORTSDIR}/print/texlive-sa-tikz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/schemabloc/schemabloc.sty:${PORTSDIR}/print/texlive-schemabloc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/scsnowman/scsnowman.sty:${PORTSDIR}/print/texlive-scsnowman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/setdeck/setdeck.sty:${PORTSDIR}/print/texlive-setdeck \
 		${LOCALBASE}/share/texmf-dist/tex/latex/signchart/signchart.sty:${PORTSDIR}/print/texlive-signchart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/smartdiagram/smartdiagram.sty:${PORTSDIR}/print/texlive-smartdiagram \
