@@ -1,6 +1,7 @@
-SHA256 (TeXLive/smartdiagram-20160414.tar.xz) = 146eec73f57e93cf750c30ccdfc26f1eb3dddeedbe2302ab490741b11583e055
-SIZE (TeXLive/smartdiagram-20160414.tar.xz) = 6496
-SHA256 (TeXLive/smartdiagram.doc-20160414.tar.xz) = e09d4511f65562197f01b990c2d8015f6717ce794f70fe9e730d58ed23e2f5ff
-SIZE (TeXLive/smartdiagram.doc-20160414.tar.xz) = 258304
-SHA256 (TeXLive/smartdiagram.source-20160414.tar.xz) = 62e1077fb9aa6dd3b5ce069a003c83ea76e5d929e09d854cd7a81372f5323a84
-SIZE (TeXLive/smartdiagram.source-20160414.tar.xz) = 16820
+TIMESTAMP = 1482553287
+SHA256 (TeXLive/smartdiagram-20161224.tar.xz) = 5441efef75a9719e001106d79cc9e97de979a0539ff7d141c9e132a04167bfaf
+SIZE (TeXLive/smartdiagram-20161224.tar.xz) = 6516
+SHA256 (TeXLive/smartdiagram.doc-20161224.tar.xz) = 9d6c46e8254a34cf01f8148ac3994be3ded8e05140049bedcf72276121f6ad15
+SIZE (TeXLive/smartdiagram.doc-20161224.tar.xz) = 258768
+SHA256 (TeXLive/smartdiagram.source-20161224.tar.xz) = 90ab5766c648b05f96040caadc9ff33bb977ba9257264b1f8393b36845fcac5e
+SIZE (TeXLive/smartdiagram.source-20161224.tar.xz) = 16864
