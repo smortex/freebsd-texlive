@@ -1,0 +1,6 @@
+pst-shell is a PSTricks related package to draw seashells in 3D
+view: Argonauta, Epiteonium, Lyria, Turritella, Tonna,
+Achatina, Oxystele, Conus, and Nautilus with different
+parameter pst-shell needs pst-solides3d and an up-to-date
+PSTricks, which should be part of your local TeX installation,
+otherwise get it from a CTAN server

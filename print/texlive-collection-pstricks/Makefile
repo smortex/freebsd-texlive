@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-pstricks
-PORTVERSION=	20160904
+PORTVERSION=	20161225
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -92,7 +92,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-fun/pst-fun.tex:${PORTSDIR}/print/texlive-pst-fun \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-func/pst-func.tex:${PORTSDIR}/print/texlive-pst-func \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-gantt/pst-gantt.tex:${PORTSDIR}/print/texlive-pst-gantt \
-		${LOCALBASE}/share/texmf-dist/dvips/pst-geo/pst-map3d.pro:${PORTSDIR}/print/texlive-pst-geo \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-geo/pst-geo.tex:${PORTSDIR}/print/texlive-pst-geo \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-ghsb/pst-ghsb.tex:${PORTSDIR}/print/texlive-pst-ghsb \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-gr3d/pst-gr3d.tex:${PORTSDIR}/print/texlive-pst-gr3d \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-grad/pst-grad.tex:${PORTSDIR}/print/texlive-pst-grad \
@@ -124,6 +124,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-pulley/pst-pulley.tex:${PORTSDIR}/print/texlive-pst-pulley \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-qtree/pst-qtree.tex:${PORTSDIR}/print/texlive-pst-qtree \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-rubans/pst-rubans.tex:${PORTSDIR}/print/texlive-pst-rubans \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-shell/pst-shell.tex:${PORTSDIR}/print/texlive-pst-shell \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-sigsys/pst-sigsys.tex:${PORTSDIR}/print/texlive-pst-sigsys \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-slpe/pst-slpe.tex:${PORTSDIR}/print/texlive-pst-slpe \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-solarsystem/pst-solarsystem.tex:${PORTSDIR}/print/texlive-pst-solarsystem \

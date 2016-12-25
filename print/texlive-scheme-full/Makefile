@@ -1188,6 +1188,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/rviewport/rviewport.sty:${PORTSDIR}/print/texlive-rviewport \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sa-tikz/sa-tikz.sty:${PORTSDIR}/print/texlive-sa-tikz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/schemabloc/schemabloc.sty:${PORTSDIR}/print/texlive-schemabloc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/scsnowman/scsnowman.sty:${PORTSDIR}/print/texlive-scsnowman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/setdeck/setdeck.sty:${PORTSDIR}/print/texlive-setdeck \
 		${LOCALBASE}/share/texmf-dist/tex/latex/signchart/signchart.sty:${PORTSDIR}/print/texlive-signchart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/smartdiagram/smartdiagram.sty:${PORTSDIR}/print/texlive-smartdiagram \
@@ -1431,6 +1432,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/crbox/crbox.sty:${PORTSDIR}/print/texlive-crbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/crossreference/crossreference.sty:${PORTSDIR}/print/texlive-crossreference \
 		${LOCALBASE}/share/texmf-dist/tex/latex/csquotes/csquotes.sty:${PORTSDIR}/print/texlive-csquotes \
+		${LOCALBASE}/share/texmf-dist/tex/latex/css-colors/css-colors.sty:${PORTSDIR}/print/texlive-css-colors \
 		${LOCALBASE}/share/texmf-dist/tex/latex/csvsimple/csvsimple.sty:${PORTSDIR}/print/texlive-csvsimple \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cuisine/cuisine.sty:${PORTSDIR}/print/texlive-cuisine \
 		${LOCALBASE}/share/texmf-dist/tex/latex/currfile/currfile.sty:${PORTSDIR}/print/texlive-currfile \
@@ -2694,6 +2696,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-pulley/pst-pulley.tex:${PORTSDIR}/print/texlive-pst-pulley \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-qtree/pst-qtree.tex:${PORTSDIR}/print/texlive-pst-qtree \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-rubans/pst-rubans.tex:${PORTSDIR}/print/texlive-pst-rubans \
+		${LOCALBASE}/share/texmf-dist/tex/generic/pst-shell/pst-shell.tex:${PORTSDIR}/print/texlive-pst-shell \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-sigsys/pst-sigsys.tex:${PORTSDIR}/print/texlive-pst-sigsys \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-slpe/pst-slpe.tex:${PORTSDIR}/print/texlive-pst-slpe \
 		${LOCALBASE}/share/texmf-dist/tex/generic/pst-solarsystem/pst-solarsystem.tex:${PORTSDIR}/print/texlive-pst-solarsystem \

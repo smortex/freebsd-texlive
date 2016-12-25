@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20161221
+PORTVERSION=	20161225
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -61,7 +61,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/makeindex/latex/gglo.ist:${PORTSDIR}/print/texlive-latex \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/latex-fonts/circle.mf:${PORTSDIR}/print/texlive-latex-fonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg:${PORTSDIR}/print/texlive-latexconfig \
-		${LOCALBASE}/share/texmf-dist/tex/cslatex/base/cslatex.ini:${PORTSDIR}/print/texlive-cslatex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltxmisc/abstbook.cls:${PORTSDIR}/print/texlive-ltxmisc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mfnfss/oldgerm.sty:${PORTSDIR}/print/texlive-mfnfss \
 		${LOCALBASE}/share/texmf-dist/tex/generic/context/mptopdf/mptopdf.tex:${PORTSDIR}/print/texlive-mptopdf \
@@ -226,6 +225,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/rviewport/rviewport.sty:${PORTSDIR}/print/texlive-rviewport \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sa-tikz/sa-tikz.sty:${PORTSDIR}/print/texlive-sa-tikz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/schemabloc/schemabloc.sty:${PORTSDIR}/print/texlive-schemabloc \
+		${LOCALBASE}/share/texmf-dist/tex/latex/scsnowman/scsnowman.sty:${PORTSDIR}/print/texlive-scsnowman \
 		${LOCALBASE}/share/texmf-dist/tex/latex/setdeck/setdeck.sty:${PORTSDIR}/print/texlive-setdeck \
 		${LOCALBASE}/share/texmf-dist/tex/latex/signchart/signchart.sty:${PORTSDIR}/print/texlive-signchart \
 		${LOCALBASE}/share/texmf-dist/tex/latex/smartdiagram/smartdiagram.sty:${PORTSDIR}/print/texlive-smartdiagram \
@@ -469,6 +469,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/crbox/crbox.sty:${PORTSDIR}/print/texlive-crbox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/crossreference/crossreference.sty:${PORTSDIR}/print/texlive-crossreference \
 		${LOCALBASE}/share/texmf-dist/tex/latex/csquotes/csquotes.sty:${PORTSDIR}/print/texlive-csquotes \
+		${LOCALBASE}/share/texmf-dist/tex/latex/css-colors/css-colors.sty:${PORTSDIR}/print/texlive-css-colors \
 		${LOCALBASE}/share/texmf-dist/tex/latex/csvsimple/csvsimple.sty:${PORTSDIR}/print/texlive-csvsimple \
 		${LOCALBASE}/share/texmf-dist/tex/latex/cuisine/cuisine.sty:${PORTSDIR}/print/texlive-cuisine \
 		${LOCALBASE}/share/texmf-dist/tex/latex/currfile/currfile.sty:${PORTSDIR}/print/texlive-currfile \

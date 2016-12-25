@@ -1,0 +1,3 @@
+This package defines web-safe colors for use with D.P.
+Carlisle's color package. It is intended for both authors and
+package writers (e.g. to create Beamer color themes).

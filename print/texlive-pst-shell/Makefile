@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	reledmac
+PORTNAME=	pst-shell
 PORTVERSION=	20161225
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset scholarly editions
+COMMENT=	pst-shell: plotting sea shells
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"
