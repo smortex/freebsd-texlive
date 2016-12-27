@@ -1,4 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/phonrule/README
+%%PORTDOCS%%share/texmf-dist/doc/latex/phonrule/README.md
 %%PORTDOCS%%share/texmf-dist/doc/latex/phonrule/phonrule-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/phonrule/phonrule-doc.tex
 share/texmf-dist/tex/latex/phonrule/phonrule.sty
