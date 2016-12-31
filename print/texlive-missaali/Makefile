@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	scalerel
+PORTNAME=	missaali
 PORTVERSION=	20161231
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Constrained scaling and stretching of objects
+COMMENT=	A late medieval OpenType textura font
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

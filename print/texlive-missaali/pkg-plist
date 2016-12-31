@@ -1,0 +1,21 @@
+%%PORTDOCS%%share/texmf-dist/doc/fonts/missaali/MANIFEST-Missaali.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/missaali/Missaali.glyphs
+%%PORTDOCS%%share/texmf-dist/doc/fonts/missaali/OFL.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/missaali/README
+%%PORTDOCS%%share/texmf-dist/doc/fonts/missaali/lppl.txt
+%%PORTDOCS%%share/texmf-dist/doc/fonts/missaali/missaali-smallfont.png
+%%PORTDOCS%%share/texmf-dist/doc/fonts/missaali/missaali.bib
+%%PORTDOCS%%share/texmf-dist/doc/fonts/missaali/missaali.pdf
+%%PORTDOCS%%share/texmf-dist/doc/fonts/missaali/missaali.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/missaali/missale-largefont.png
+%%PORTDOCS%%share/texmf-dist/doc/fonts/missaali/missale-normal.png
+%%PORTDOCS%%share/texmf-dist/doc/fonts/missaali/missale-preface.png
+%%PORTDOCS%%share/texmf-dist/doc/fonts/missaali/missale-tinyfont.png
+%%PORTDOCS%%share/texmf-dist/doc/fonts/missaali/pic-1.png
+%%PORTDOCS%%share/texmf-dist/doc/fonts/missaali/pic-2.png
+%%PORTDOCS%%share/texmf-dist/doc/fonts/missaali/symbols.tex
+%%PORTDOCS%%share/texmf-dist/doc/fonts/missaali/word_features.png
+share/texmf-dist/fonts/opentype/public/missaali/Missaali-Regular.otf
+share/texmf-dist/tex/latex/missaali/missaali.sty
+@unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
+@exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
