@@ -1,4 +1,5 @@
-SHA256 (TeXLive/sparklines-20160414.tar.xz) = b31669076093a0a58b1564afa3faf3773e511ce3810a7fd5ee11bd499f0e6f89
-SIZE (TeXLive/sparklines-20160414.tar.xz) = 2436
-SHA256 (TeXLive/sparklines.doc-20160414.tar.xz) = c5fc9cb7db0c6b98186b7165fa535b62221985ae4d006ed652cc40d4e9f41677
-SIZE (TeXLive/sparklines.doc-20160414.tar.xz) = 38192
+TIMESTAMP = 1483245098
+SHA256 (TeXLive/sparklines-20170101.tar.xz) = a2c904c4c31c5bea2e76595917f6209a641329251365f7ffa80757cccf137dde
+SIZE (TeXLive/sparklines-20170101.tar.xz) = 2620
+SHA256 (TeXLive/sparklines.doc-20170101.tar.xz) = 804a866063f1c5d5b9879091849417c6ad30d07031b993b7469df7f3967d861b
+SIZE (TeXLive/sparklines.doc-20170101.tar.xz) = 140580

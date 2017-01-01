@@ -1,4 +1,5 @@
-SHA256 (TeXLive/qcircuit-20160414.tar.xz) = 1e4e8b42da02e886d2dbb85878fa6e216b7162dd267159ae1c9ea36323661bf6
-SIZE (TeXLive/qcircuit-20160414.tar.xz) = 4196
-SHA256 (TeXLive/qcircuit.doc-20160414.tar.xz) = 71a7ed21f66521c0857f462b0e69abdc2161d92477a8fbe864f009c54479c096
-SIZE (TeXLive/qcircuit.doc-20160414.tar.xz) = 318848
+TIMESTAMP = 1483244543
+SHA256 (TeXLive/qcircuit-20170101.tar.xz) = 6396a273e45e499e6a8e5f63059eafd3177790b56eb7d0312b8714fb083b596c
+SIZE (TeXLive/qcircuit-20170101.tar.xz) = 4200
+SHA256 (TeXLive/qcircuit.doc-20170101.tar.xz) = 43c19ea442e5d0ef450798f57bb1f841515d51d20a89ab02216fa176bf5b52a3
+SIZE (TeXLive/qcircuit.doc-20170101.tar.xz) = 295472
