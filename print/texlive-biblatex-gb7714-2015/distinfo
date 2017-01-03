@@ -1,7 +1,7 @@
-TIMESTAMP = 1480219867
-SHA256 (TeXLive/biblatex-gb7714-2015-20161126.tar.xz) = 5465a850ea93dd07730f7564f76e8874711ac5ed856326fd8d6e0039daccd267
-SIZE (TeXLive/biblatex-gb7714-2015-20161126.tar.xz) = 12144
-SHA256 (TeXLive/biblatex-gb7714-2015.doc-20161126.tar.xz) = 490269c004c0a7a296c382b84d8e555dff1d4b68582dbc9765f4ea574dab9cc3
-SIZE (TeXLive/biblatex-gb7714-2015.doc-20161126.tar.xz) = 812616
-SHA256 (TeXLive/biblatex-gb7714-2015.source-20161126.tar.xz) = 498346307ee241a21f33efac1dc964bb25b48b597474d86c61b617b343c3f6e8
-SIZE (TeXLive/biblatex-gb7714-2015.source-20161126.tar.xz) = 700
+TIMESTAMP = 1483417016
+SHA256 (TeXLive/biblatex-gb7714-2015-20170103.tar.xz) = 04b325c93753472fed0ecdcd8ab4edca823cfb78deffd247f90d9878ae903ebe
+SIZE (TeXLive/biblatex-gb7714-2015-20170103.tar.xz) = 12856
+SHA256 (TeXLive/biblatex-gb7714-2015.doc-20170103.tar.xz) = 0736e8d2a289d7a9617f2cf1cc675c9de36f0efddadf6fab3b16db717a8d6513
+SIZE (TeXLive/biblatex-gb7714-2015.doc-20170103.tar.xz) = 1003308
+SHA256 (TeXLive/biblatex-gb7714-2015.source-20170103.tar.xz) = af455e30130e87aa80f9374e497cfaef4804d29ede71c71536a036ddc6d2f275
+SIZE (TeXLive/biblatex-gb7714-2015.source-20170103.tar.xz) = 744

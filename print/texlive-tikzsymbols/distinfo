@@ -1,6 +1,7 @@
-SHA256 (TeXLive/tikzsymbols-20160414.tar.xz) = e374d3b1b2544c4f6687b11a45251d2fce4f66b54e91707a91f2e8ee6de2d3f4
-SIZE (TeXLive/tikzsymbols-20160414.tar.xz) = 11848
-SHA256 (TeXLive/tikzsymbols.doc-20160414.tar.xz) = 49cd828ca747ce0e9e07dae8ade552e614d23ab110a74962ea747ccf0869a989
-SIZE (TeXLive/tikzsymbols.doc-20160414.tar.xz) = 488996
-SHA256 (TeXLive/tikzsymbols.source-20160414.tar.xz) = 88fe11759c51dfdf4c7482cbd90acd90e596f3dcf146c139e2fe3414fbe007b2
-SIZE (TeXLive/tikzsymbols.source-20160414.tar.xz) = 27532
+TIMESTAMP = 1483417664
+SHA256 (TeXLive/tikzsymbols-20170103.tar.xz) = 3f6c5dbef745506adafece69769ec6c820971d17bb236b7ed412cda0e485b887
+SIZE (TeXLive/tikzsymbols-20170103.tar.xz) = 12012
+SHA256 (TeXLive/tikzsymbols.doc-20170103.tar.xz) = 7075fcb95fe29973bc75939e76298767dfec5f17574a4f609e977c36dbd29918
+SIZE (TeXLive/tikzsymbols.doc-20170103.tar.xz) = 492240
+SHA256 (TeXLive/tikzsymbols.source-20170103.tar.xz) = 94378467155348acc86877a338f1df33881329ccd7bd7c749240b603f5732b8c
+SIZE (TeXLive/tikzsymbols.source-20170103.tar.xz) = 28420

@@ -1,5 +1,13 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/Changes
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/README.md
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/data/cockle-2-couleurs.dat
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/data/cockle-2-faces.dat
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/data/cockle-2-io.dat
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/data/cockle-2-sommets.dat
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/data/cockle-couleurs.dat
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/data/cockle-faces.dat
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/data/cockle-io.dat
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/data/cockle-sommets.dat
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/data/nautile-180-24-couleurs.dat
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/data/nautile-180-24-faces.dat
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/data/nautile-180-24-io.dat
@@ -12,10 +20,14 @@
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/data/testnautile-360-36-faces.dat
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/data/testnautile-360-36-io.dat
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/data/testnautile-360-36-sommets.dat
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/images/shell.eps
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/images/shell.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/pst-shell-doc.bib
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/pst-shell-doc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/pst-shell-doc.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/pst-shell/zz.tex
 share/texmf-dist/dvips/pst-shell/pst-shell.pro
+%%PORTSRC%%share/texmf-dist/source/generic/pst-shell/Makefile
 share/texmf-dist/tex/generic/pst-shell/pst-shell.tex
 share/texmf-dist/tex/latex/pst-shell/pst-shell.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

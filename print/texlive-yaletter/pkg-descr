@@ -1,0 +1,7 @@
+The yaletter class provides extremely configurable macros for
+typesetting letters in any conceivable style. It provides
+facilities for maintaining easily-accessible databases of
+letterheads and addresses for repeat use. It further provides
+easy macros for envelopes and for label sheets. Finally, it
+provides some nice defaults for a few of the more common styles
+and sizes.

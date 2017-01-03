@@ -1,4 +1,5 @@
-SHA256 (TeXLive/csquotes-20160715.tar.xz) = 116440d7194d079f8156ac1edd86b607264694ef87b3604612e44ab36b1f1ea0
-SIZE (TeXLive/csquotes-20160715.tar.xz) = 17644
-SHA256 (TeXLive/csquotes.doc-20160715.tar.xz) = 3f771b756653dee41996c5df1e5ea8a6367ab1160edab9dffdcd280564dee478
-SIZE (TeXLive/csquotes.doc-20160715.tar.xz) = 313388
+TIMESTAMP = 1483417785
+SHA256 (TeXLive/csquotes-20170103.tar.xz) = 5f0f24458103bc3dd439bce267f6d02c72227f651825e9eeb05c2c61e101d114
+SIZE (TeXLive/csquotes-20170103.tar.xz) = 17480
+SHA256 (TeXLive/csquotes.doc-20170103.tar.xz) = a257e7476c21c52d65f33078934b52eaf22aad3a579eb8e973601f48e862c671
+SIZE (TeXLive/csquotes.doc-20170103.tar.xz) = 313216

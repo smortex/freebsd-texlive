@@ -1,6 +1,7 @@
-SHA256 (TeXLive/diagbox-20160414.tar.xz) = 1a79e49f3f3d955b0931e22fd893e8bda8c0511a8fdbfdab79e561b8928d9074
-SIZE (TeXLive/diagbox-20160414.tar.xz) = 2660
-SHA256 (TeXLive/diagbox.doc-20160414.tar.xz) = fad70d7475308884a7e14bbfc94c4fd4c6298fcf933696e952b17927b66dc804
-SIZE (TeXLive/diagbox.doc-20160414.tar.xz) = 209128
-SHA256 (TeXLive/diagbox.source-20160414.tar.xz) = c3a6830b32f7f3720f446c838bdbe5fa34c6f81937efa2baa1aeb568a9830938
-SIZE (TeXLive/diagbox.source-20160414.tar.xz) = 10096
+TIMESTAMP = 1483417822
+SHA256 (TeXLive/diagbox-20170103.tar.xz) = eb8975e85b002c2df29ab793ab7d76de2c2b3397808caf468fbc4e5fc75db3a6
+SIZE (TeXLive/diagbox-20170103.tar.xz) = 2708
+SHA256 (TeXLive/diagbox.doc-20170103.tar.xz) = 23aead705205f004886e799265c1ab811895c12bc8d3c68521e92164a63a3c62
+SIZE (TeXLive/diagbox.doc-20170103.tar.xz) = 274452
+SHA256 (TeXLive/diagbox.source-20170103.tar.xz) = c096c62f72d1a9290885cc09bbbea6c4789e142f17c7d235f7711a5be3c5268c
+SIZE (TeXLive/diagbox.source-20170103.tar.xz) = 10184

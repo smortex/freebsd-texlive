@@ -1,9 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/AUTHORS
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/ChangeLog
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/FILES
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/INSTALL
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/README
-%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/TODO
+%%PORTDOCS%%share/texmf-dist/doc/latex/beamer/README.md
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/Makefile
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beamercolorthemeexample.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamer/doc/beamerfontthemeexample.tex
@@ -168,7 +163,6 @@ share/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
 share/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
 share/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
 share/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
-share/texmf-dist/tex/latex/beamer/beamerbasercs.sty
 share/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
 share/texmf-dist/tex/latex/beamer/beamerbasesection.sty
 share/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
@@ -267,7 +261,7 @@ share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemeshadow.s
 share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemesidebar.sty
 share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemesplit.sty
 share/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beamerthemetree.sty
-share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Brazilian.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Bulgarian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Catalan.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Croatian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-English.dict
@@ -277,9 +271,11 @@ share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/t
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Norsk.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Nynorsk.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Polish.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Portuguese.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Serbian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Spanish.dict
-share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Brazilian.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Turkish.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Bulgarian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Catalan.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Croatian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-English.dict
@@ -287,9 +283,11 @@ share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dicti
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-German.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Greek.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Polish.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Portuguese.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Serbian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Spanish.dict
-share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Brazilian.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Turkish.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Bulgarian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Catalan.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Croatian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-English.dict
@@ -300,7 +298,8 @@ share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictio
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Portuguese.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Serbian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Spanish.dict
-share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Brazilian.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Turkish.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Bulgarian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Catalan.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Croatian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-English.dict
@@ -314,7 +313,8 @@ share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Portuguese.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Serbian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Spanish.dict
-share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Brazilian.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Turkish.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Bulgarian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Catalan.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Croatian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-English.dict
@@ -327,7 +327,8 @@ share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Portuguese.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Serbian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Spanish.dict
-share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Brazilian.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Turkish.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Bulgarian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Catalan.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Croatian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-English.dict
@@ -336,8 +337,10 @@ share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Greek.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Norsk.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Polish.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Portuguese.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Serbian.dict
 share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Spanish.dict
+share/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Turkish.dict
 share/texmf-dist/tex/latex/beamer/translator/translator-language-mappings.tex
 share/texmf-dist/tex/latex/beamer/translator/translator.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

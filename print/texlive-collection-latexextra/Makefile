@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20161225
+PORTVERSION=	20170103
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1382,6 +1382,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/xwatermark/xwatermark.sty:${PORTSDIR}/print/texlive-xwatermark \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xytree/xytree.sty:${PORTSDIR}/print/texlive-xytree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yafoot/dblfnote.sty:${PORTSDIR}/print/texlive-yafoot \
+		${LOCALBASE}/share/texmf-dist/tex/latex/yaletter/yaletter.cls:${PORTSDIR}/print/texlive-yaletter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yagusylo/yagusylo.sty:${PORTSDIR}/print/texlive-yagusylo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ycbook/ycbook.cls:${PORTSDIR}/print/texlive-ycbook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ydoc/ydoc.cls:${PORTSDIR}/print/texlive-ydoc \

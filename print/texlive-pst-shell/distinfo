@@ -1,5 +1,7 @@
-TIMESTAMP = 1482640426
-SHA256 (TeXLive/pst-shell-20161225.tar.xz) = c5b40d61d53135cee55095e2dbca9ae30b9fd8b08f1fe57d381a238db3947935
-SIZE (TeXLive/pst-shell-20161225.tar.xz) = 2688
-SHA256 (TeXLive/pst-shell.doc-20161225.tar.xz) = 78fbb09d8a50867f2da011a5db929d8965e09113e9ce76783eedb237548b8823
-SIZE (TeXLive/pst-shell.doc-20161225.tar.xz) = 12322864
+TIMESTAMP = 1483418453
+SHA256 (TeXLive/pst-shell-20170103.tar.xz) = 4df71125fcae4f2eea16923f31339dc4e1b3424da27082583b5ab6863b8c8f62
+SIZE (TeXLive/pst-shell-20170103.tar.xz) = 3136
+SHA256 (TeXLive/pst-shell.doc-20170103.tar.xz) = e0d5dfaedd8e6f4e4cb2ffb35ded4f7a50411f940410594e21b421bcf3a89e2f
+SIZE (TeXLive/pst-shell.doc-20170103.tar.xz) = 15921068
+SHA256 (TeXLive/pst-shell.source-20170103.tar.xz) = 024c4c827c17dbdba9f4ee3ade20aac71953b984369078e4056f491fd153fc06
+SIZE (TeXLive/pst-shell.source-20170103.tar.xz) = 1100

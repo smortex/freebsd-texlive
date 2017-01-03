@@ -1,5 +1,5 @@
-TIMESTAMP = 1478319701
-SHA256 (TeXLive/beamer-20161104.tar.xz) = 75709bb9d5b6c227dddc324d6678f5ae1727f381e1e1e6078e379ca617c0eb39
-SIZE (TeXLive/beamer-20161104.tar.xz) = 187952
-SHA256 (TeXLive/beamer.doc-20161104.tar.xz) = 0318628fe754a48e9e881431cfebc6220d4067659ac09df24e99167db8934a20
-SIZE (TeXLive/beamer.doc-20161104.tar.xz) = 2395068
+TIMESTAMP = 1483417560
+SHA256 (TeXLive/beamer-20170103.tar.xz) = 09b8832e3a718fb948fbf4efa114402d0b7259d30e4cddc242d967eef096c6b9
+SIZE (TeXLive/beamer-20170103.tar.xz) = 190816
+SHA256 (TeXLive/beamer.doc-20170103.tar.xz) = 16efca08711bfbb487d8c720d85ae6d5fca2b87e4c68b5900b15c8ffeddefb2e
+SIZE (TeXLive/beamer.doc-20170103.tar.xz) = 2438400

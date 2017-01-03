@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	uptex-fonts
+PORTNAME=	yaletter
 PORTVERSION=	20170103
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fonts for use with upTeX
+COMMENT=	Extremely flexible macros for letters, envelopes, and label sheets
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>
