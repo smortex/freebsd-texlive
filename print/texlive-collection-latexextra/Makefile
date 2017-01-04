@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20170103
+PORTVERSION=	20170104
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -1083,6 +1083,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/psfragx/psfragx.sty:${PORTSDIR}/print/texlive-psfragx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-pdf/pst-pdf.sty:${PORTSDIR}/print/texlive-pst-pdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pstool/pstool.sty:${PORTSDIR}/print/texlive-pstool \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pstring/pstring.sty:${PORTSDIR}/print/texlive-pstring \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pxgreeks/pxgreeks.sty:${PORTSDIR}/print/texlive-pxgreeks \
 		${LOCALBASE}/share/texmf-dist/tex/latex/python/python.sty:${PORTSDIR}/print/texlive-python \
 		${LOCALBASE}/share/texmf-dist/tex/latex/qcm/qcm.cls:${PORTSDIR}/print/texlive-qcm \

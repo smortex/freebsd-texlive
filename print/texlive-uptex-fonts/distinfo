@@ -1,7 +1,7 @@
-TIMESTAMP = 1483417519
-SHA256 (TeXLive/uptex-fonts-20170103.tar.xz) = bd76d0f2f29b61306cbf2534aba4487c4a3d7b950dc53d4049d2356f2540ff94
-SIZE (TeXLive/uptex-fonts-20170103.tar.xz) = 120936
-SHA256 (TeXLive/uptex-fonts.doc-20170103.tar.xz) = 6a5c491e16c8053e3d5ba20aad9e2501edaab7cfe3ed38d458bb66983d55c94e
-SIZE (TeXLive/uptex-fonts.doc-20170103.tar.xz) = 4048
-SHA256 (TeXLive/uptex-fonts.source-20170103.tar.xz) = 047e9228dbf8ea4be562aafc2399e13145e80be62211f2d2487feb9cf4205ab8
-SIZE (TeXLive/uptex-fonts.source-20170103.tar.xz) = 2364
+TIMESTAMP = 1483503611
+SHA256 (TeXLive/uptex-fonts-20170104.tar.xz) = e3ddf5a6b8390884a418351bb3870ef08de0f6e33d116f223b39343852973562
+SIZE (TeXLive/uptex-fonts-20170104.tar.xz) = 104968
+SHA256 (TeXLive/uptex-fonts.doc-20170104.tar.xz) = 60b6eb2d6f14b392b7cb32ed66dddd8e6af543231dd0b3a957e846149efd0ad3
+SIZE (TeXLive/uptex-fonts.doc-20170104.tar.xz) = 4060
+SHA256 (TeXLive/uptex-fonts.source-20170104.tar.xz) = 395ad91dd85558f0e7df0298a3ba43bd8df1a60fa36b0d0213d07da5fe8a9414
+SIZE (TeXLive/uptex-fonts.source-20170104.tar.xz) = 2364

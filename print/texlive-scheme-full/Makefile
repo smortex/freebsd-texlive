@@ -455,6 +455,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/merriweather/merriweather.sty:${PORTSDIR}/print/texlive-merriweather \
 		${LOCALBASE}/share/texmf-dist/tex/latex/miama/miama.sty:${PORTSDIR}/print/texlive-miama \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mintspirit/mintspirit.sty:${PORTSDIR}/print/texlive-mintspirit \
+		${LOCALBASE}/share/texmf-dist/tex/latex/missaali/missaali.sty:${PORTSDIR}/print/texlive-missaali \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc:${PORTSDIR}/print/texlive-mnsymbol \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mweights/mweights.sty:${PORTSDIR}/print/texlive-mweights \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/newpx/TeXGyrePagella-Regular.afm:${PORTSDIR}/print/texlive-newpx \
@@ -2046,6 +2047,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/psfragx/psfragx.sty:${PORTSDIR}/print/texlive-psfragx \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pst-pdf/pst-pdf.sty:${PORTSDIR}/print/texlive-pst-pdf \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pstool/pstool.sty:${PORTSDIR}/print/texlive-pstool \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pstring/pstring.sty:${PORTSDIR}/print/texlive-pstring \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pxgreeks/pxgreeks.sty:${PORTSDIR}/print/texlive-pxgreeks \
 		${LOCALBASE}/share/texmf-dist/tex/latex/python/python.sty:${PORTSDIR}/print/texlive-python \
 		${LOCALBASE}/share/texmf-dist/tex/latex/qcm/qcm.cls:${PORTSDIR}/print/texlive-qcm \
@@ -2345,6 +2347,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/xwatermark/xwatermark.sty:${PORTSDIR}/print/texlive-xwatermark \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xytree/xytree.sty:${PORTSDIR}/print/texlive-xytree \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yafoot/dblfnote.sty:${PORTSDIR}/print/texlive-yafoot \
+		${LOCALBASE}/share/texmf-dist/tex/latex/yaletter/yaletter.cls:${PORTSDIR}/print/texlive-yaletter \
 		${LOCALBASE}/share/texmf-dist/tex/latex/yagusylo/yagusylo.sty:${PORTSDIR}/print/texlive-yagusylo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ycbook/ycbook.cls:${PORTSDIR}/print/texlive-ycbook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ydoc/ydoc.cls:${PORTSDIR}/print/texlive-ydoc \

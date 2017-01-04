@@ -1,0 +1,6 @@
+This package lets you typeset justified sequences, also called
+pointing strings. It's used for instance, in research papers
+about Game Semantics to represent sequence of game moves with
+their associated justification pointers. Depending on wether
+using LaTeX or pdfLaTeX, the package uses PSTricks and pst-node
+respectively pgf/TikZ.
