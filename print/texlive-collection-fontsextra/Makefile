@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20161231
+PORTVERSION=	20170105
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -278,6 +278,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tempora/tempora.sty:${PORTSDIR}/print/texlive-tempora \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tengwarscript/tengwarscript.sty:${PORTSDIR}/print/texlive-tengwarscript \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tfrupee/tfrupee.sty:${PORTSDIR}/print/texlive-tfrupee \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tinos/tinos.sty:${PORTSDIR}/print/texlive-tinos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tpslifonts/tpslifonts.sty:${PORTSDIR}/print/texlive-tpslifonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/trajan/trajan.sty:${PORTSDIR}/print/texlive-trajan \
 		${LOCALBASE}/share/texmf-dist/tex/latex/txfontsb/txfontsb.sty:${PORTSDIR}/print/texlive-txfontsb \

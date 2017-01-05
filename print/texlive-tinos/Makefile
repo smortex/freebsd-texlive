@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	tinos
 PORTVERSION=	20170105
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	Tinos fonts with LaTeX support
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
