@@ -295,6 +295,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/antt/anttb.afm:${PORTSDIR}/print/texlive-antt \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/archaic/aram10.afm:${PORTSDIR}/print/texlive-archaic \
 		${LOCALBASE}/share/texmf-dist/tex/latex/arev/arev.sty:${PORTSDIR}/print/texlive-arev \
+		${LOCALBASE}/share/texmf-dist/tex/latex/arimo/arimo.sty:${PORTSDIR}/print/texlive-arimo \
 		${LOCALBASE}/share/texmf-dist/tex/latex/asapsym/asapsym.sty:${PORTSDIR}/print/texlive-asapsym \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/ascii-font/ascii.map:${PORTSDIR}/print/texlive-ascii-font \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvips/aspectratio/aspectratio.map:${PORTSDIR}/print/texlive-aspectratio \
@@ -515,6 +516,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/tempora/tempora.sty:${PORTSDIR}/print/texlive-tempora \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tengwarscript/tengwarscript.sty:${PORTSDIR}/print/texlive-tengwarscript \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tfrupee/tfrupee.sty:${PORTSDIR}/print/texlive-tfrupee \
+		${LOCALBASE}/share/texmf-dist/tex/latex/tinos/tinos.sty:${PORTSDIR}/print/texlive-tinos \
 		${LOCALBASE}/share/texmf-dist/tex/latex/tpslifonts/tpslifonts.sty:${PORTSDIR}/print/texlive-tpslifonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/trajan/trajan.sty:${PORTSDIR}/print/texlive-trajan \
 		${LOCALBASE}/share/texmf-dist/tex/latex/txfontsb/txfontsb.sty:${PORTSDIR}/print/texlive-txfontsb \
@@ -1899,6 +1901,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/morewrites/morewrites.sty:${PORTSDIR}/print/texlive-morewrites \
 		${LOCALBASE}/share/texmf-dist/tex/latex/movie15/movie15.sty:${PORTSDIR}/print/texlive-movie15 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mparhack/mparhack.sty:${PORTSDIR}/print/texlive-mparhack \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mpostinl/mpostinl.sty:${PORTSDIR}/print/texlive-mpostinl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/msc/msc.sty:${PORTSDIR}/print/texlive-msc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/msg/msg.sty:${PORTSDIR}/print/texlive-msg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mslapa/mslapa.sty:${PORTSDIR}/print/texlive-mslapa \

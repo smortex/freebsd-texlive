@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	glossaries-french
-PORTVERSION=	20160414
+PORTVERSION=	20170106
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

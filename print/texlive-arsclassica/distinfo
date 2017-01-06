@@ -1,4 +1,5 @@
-SHA256 (TeXLive/arsclassica-20160414.tar.xz) = c4c1ddacd030c835eeb712a3d740321811536484fe165721391fef43182d688f
-SIZE (TeXLive/arsclassica-20160414.tar.xz) = 3144
-SHA256 (TeXLive/arsclassica.doc-20160414.tar.xz) = 6ed3b82f619cae07b771ce8bbf8e66cb2a33e155fc66a6556c4555d4b6e5a6ca
-SIZE (TeXLive/arsclassica.doc-20160414.tar.xz) = 302848
+TIMESTAMP = 1483677163
+SHA256 (TeXLive/arsclassica-20170106.tar.xz) = dd19f2a9df979b94f47012e4fd456bbfaba5da46bbd3d0a685bd59998eccc2f7
+SIZE (TeXLive/arsclassica-20170106.tar.xz) = 2260
+SHA256 (TeXLive/arsclassica.doc-20170106.tar.xz) = 49c51e52db7e8aa559142cdb5b842dabc7d22a8206bac5fa1488fd660f95fe1a
+SIZE (TeXLive/arsclassica.doc-20170106.tar.xz) = 330328

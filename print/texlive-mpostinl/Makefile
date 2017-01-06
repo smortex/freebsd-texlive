@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	markdown
+PORTNAME=	mpostinl
 PORTVERSION=	20170106
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A package for converting and rendering markdown documents inside TeX
+COMMENT=	Enables embedding of MetaPost figures within a LaTeX document
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

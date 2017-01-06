@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20170104
+PORTVERSION=	20170106
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -935,6 +935,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/morewrites/morewrites.sty:${PORTSDIR}/print/texlive-morewrites \
 		${LOCALBASE}/share/texmf-dist/tex/latex/movie15/movie15.sty:${PORTSDIR}/print/texlive-movie15 \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mparhack/mparhack.sty:${PORTSDIR}/print/texlive-mparhack \
+		${LOCALBASE}/share/texmf-dist/tex/latex/mpostinl/mpostinl.sty:${PORTSDIR}/print/texlive-mpostinl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/msc/msc.sty:${PORTSDIR}/print/texlive-msc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/msg/msg.sty:${PORTSDIR}/print/texlive-msg \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mslapa/mslapa.sty:${PORTSDIR}/print/texlive-mslapa \

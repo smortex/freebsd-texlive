@@ -1,6 +1,7 @@
-SHA256 (TeXLive/glossaries-french-20160414.tar.xz) = c4177feb9d2c25c117984b527948e2008103e90e1124fd190fdbb7964695d9ae
-SIZE (TeXLive/glossaries-french-20160414.tar.xz) = 1660
-SHA256 (TeXLive/glossaries-french.doc-20160414.tar.xz) = 7ab3ef9d46c866484093258667ae4416830b2530f619b067da54f471ad820a1c
-SIZE (TeXLive/glossaries-french.doc-20160414.tar.xz) = 123996
-SHA256 (TeXLive/glossaries-french.source-20160414.tar.xz) = 225c735bf678b9dc2f4deb9480480447f4cae601786c96507387399dbeb8f9c2
-SIZE (TeXLive/glossaries-french.source-20160414.tar.xz) = 2232
+TIMESTAMP = 1483676625
+SHA256 (TeXLive/glossaries-french-20170106.tar.xz) = a0b22a7ed47130c1db9104d78c35c7e3217a329f0dac717b06a2ed1e853fa2ea
+SIZE (TeXLive/glossaries-french-20170106.tar.xz) = 1640
+SHA256 (TeXLive/glossaries-french.doc-20170106.tar.xz) = bf167a7ecbddb0197ceea2dc392389b45c8367e8491eae157fea6529d18bccdf
+SIZE (TeXLive/glossaries-french.doc-20170106.tar.xz) = 194372
+SHA256 (TeXLive/glossaries-french.source-20170106.tar.xz) = 2765dff173325c42eb38462b4b94008b25c1131c2ccd93203d2b48a83df10387
+SIZE (TeXLive/glossaries-french.source-20170106.tar.xz) = 2688

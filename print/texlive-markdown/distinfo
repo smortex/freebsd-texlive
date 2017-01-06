@@ -1,7 +1,7 @@
-TIMESTAMP = 1481344398
-SHA256 (TeXLive/markdown-20161210.tar.xz) = 60896e633a696d26251ddc5d9f3f0872f701b2b0bea36cb23722bbf8e57efeda
-SIZE (TeXLive/markdown-20161210.tar.xz) = 16444
-SHA256 (TeXLive/markdown.doc-20161210.tar.xz) = e9313e42fcbff7104d945d6267f3e9fda93e393fa490220b3e5e79b2ca8fcf23
-SIZE (TeXLive/markdown.doc-20161210.tar.xz) = 317572
-SHA256 (TeXLive/markdown.source-20161210.tar.xz) = bbbaad1365f9a3c47605b9a7e9d4aa64bd9abc5dabe8116fb66035ee57ffbab9
-SIZE (TeXLive/markdown.source-20161210.tar.xz) = 33716
+TIMESTAMP = 1483676707
+SHA256 (TeXLive/markdown-20170106.tar.xz) = a77b9ff0ce8edc991683fba2ad39764d8e324b68a7d47af040765d0c97a9a00f
+SIZE (TeXLive/markdown-20170106.tar.xz) = 18528
+SHA256 (TeXLive/markdown.doc-20170106.tar.xz) = 9b6abcdf9df5cbd84b3cdeb8749428905484a3b5d5060c53ed52c21dd4a5025c
+SIZE (TeXLive/markdown.doc-20170106.tar.xz) = 325024
+SHA256 (TeXLive/markdown.source-20170106.tar.xz) = f5b49ba247c558f4fa76373a980bc5821c18c9d427ca5199d890ed33be200f85
+SIZE (TeXLive/markdown.source-20170106.tar.xz) = 35484

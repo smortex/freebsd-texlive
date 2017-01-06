@@ -1,0 +1,7 @@
+mpostinl is a LaTeX2e package which enables the embedding of
+MetaPost figures within a LaTeX document. The package
+automatically collects the embedded definitions and figures in
+a .mp file, adds an appropriate LaTeX document structure, and
+compiles it to .mps files. It also allows for various
+configuration options to manage the generation of files and
+compilation.

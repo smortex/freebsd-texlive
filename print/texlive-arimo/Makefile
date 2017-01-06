@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	markdown
+PORTNAME=	arimo
 PORTVERSION=	20170106
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A package for converting and rendering markdown documents inside TeX
+COMMENT=	Arimo sans serif fonts with LaTeX support
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

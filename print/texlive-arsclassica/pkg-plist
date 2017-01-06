@@ -1,24 +1,21 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/ArsClassica.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/ArsClassica.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Bibliography.bib
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/CHANGES
+%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Changes
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Chapters/Code.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Chapters/Fundamentals.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/FrontBackMatter/Abstract+Sommario.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/FrontBackMatter/Acknowledgements.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/FrontBackMatter/Bibliography.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/FrontBackMatter/Contents.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/FrontBackMatter/Index.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/FrontBackMatter/Titleback.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/FrontBackMatter/Titlepage.tex
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Graphics/Birds.jpg
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Graphics/Example_1.jpg
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Graphics/Example_2.jpg
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Graphics/Example_3.jpg
-%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Graphics/Example_4.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Graphics/Dolor.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Graphics/Ipsum.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Graphics/Lorem.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Graphics/Sit.jpg
+%%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/Graphics/TFZSuperEllisse.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/README
 %%PORTDOCS%%share/texmf-dist/doc/latex/arsclassica/arsclassica-settings.tex
-share/texmf-dist/makeindex/arsclassica/classic.ist
 share/texmf-dist/tex/latex/arsclassica/arsclassica.sty
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
