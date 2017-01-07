@@ -1,6 +1,5 @@
-SHA256 (TeXLive/dataref-20160414.tar.xz) = d554744b0c1ead4bac04bc8353b006f6611a8775c6d7ee7822c3c710895824d9
-SIZE (TeXLive/dataref-20160414.tar.xz) = 4828
-SHA256 (TeXLive/dataref.doc-20160414.tar.xz) = ab26d772cb91f71cee73b8990b162c7afb26d674f407c52073f151eeb8c322e9
-SIZE (TeXLive/dataref.doc-20160414.tar.xz) = 250648
-SHA256 (TeXLive/dataref.source-20160414.tar.xz) = cc6d95558bd7338cabf096a1d38c5af87b2f9a2d6833c39d451eda21862c530c
-SIZE (TeXLive/dataref.source-20160414.tar.xz) = 11288
+TIMESTAMP = 1483762972
+SHA256 (TeXLive/dataref-20170107.tar.xz) = 4ca75f6aed5aed07394ee18d79baecefa0278232d27e2abd498d6ded555a0f03
+SIZE (TeXLive/dataref-20170107.tar.xz) = 6828
+SHA256 (TeXLive/dataref.doc-20170107.tar.xz) = 4ddc11c1587d0b0226aeea61a64f3b2a240ab35fe178b2c72c6a796af4484a8e
+SIZE (TeXLive/dataref.doc-20170107.tar.xz) = 247200

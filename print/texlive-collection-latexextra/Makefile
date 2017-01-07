@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20170106
+PORTVERSION=	20170107
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -753,6 +753,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/grid-system/grid-system.sty:${PORTSDIR}/print/texlive-grid-system \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gridset/gridset.sty:${PORTSDIR}/print/texlive-gridset \
 		${LOCALBASE}/share/texmf-dist/tex/latex/guitlogo/guit.cfg:${PORTSDIR}/print/texlive-guitlogo \
+		${LOCALBASE}/share/texmf-dist/tex/latex/halloweenmath/halloweenmath.sty:${PORTSDIR}/print/texlive-halloweenmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/handout/handout.sty:${PORTSDIR}/print/texlive-handout \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hang/hang.sty:${PORTSDIR}/print/texlive-hang \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hanging/hanging.sty:${PORTSDIR}/print/texlive-hanging \

@@ -7,10 +7,6 @@ share/texmf-dist/fonts/enc/dvips/arimo/arm_c3z4r2.enc
 share/texmf-dist/fonts/enc/dvips/arimo/arm_f4duzd.enc
 share/texmf-dist/fonts/enc/dvips/arimo/arm_l3opzb.enc
 share/texmf-dist/fonts/map/dvips/arimo/arimo.map
-share/texmf-dist/fonts/opentype/google/arimo/Arimo-Bold.otf
-share/texmf-dist/fonts/opentype/google/arimo/Arimo-BoldItalic.otf
-share/texmf-dist/fonts/opentype/google/arimo/Arimo-Italic.otf
-share/texmf-dist/fonts/opentype/google/arimo/Arimo-Regular.otf
 share/texmf-dist/fonts/tfm/google/arimo/Arimo-Bold-tlf-ly1.tfm
 share/texmf-dist/fonts/tfm/google/arimo/Arimo-Bold-tlf-ot1.tfm
 share/texmf-dist/fonts/tfm/google/arimo/Arimo-Bold-tlf-t1--base.tfm
@@ -35,6 +31,10 @@ share/texmf-dist/fonts/tfm/google/arimo/Arimo-tlf-t1--base.tfm
 share/texmf-dist/fonts/tfm/google/arimo/Arimo-tlf-t1.tfm
 share/texmf-dist/fonts/tfm/google/arimo/Arimo-tlf-ts1--base.tfm
 share/texmf-dist/fonts/tfm/google/arimo/Arimo-tlf-ts1.tfm
+share/texmf-dist/fonts/truetype/google/arimo/Arimo-Bold.ttf
+share/texmf-dist/fonts/truetype/google/arimo/Arimo-BoldItalic.ttf
+share/texmf-dist/fonts/truetype/google/arimo/Arimo-Italic.ttf
+share/texmf-dist/fonts/truetype/google/arimo/Arimo-Regular.ttf
 share/texmf-dist/fonts/type1/google/arimo/Arimo-Bold.pfb
 share/texmf-dist/fonts/type1/google/arimo/Arimo-BoldItalic.pfb
 share/texmf-dist/fonts/type1/google/arimo/Arimo-Italic.pfb

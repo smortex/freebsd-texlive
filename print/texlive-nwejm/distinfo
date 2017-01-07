@@ -1,6 +1,7 @@
-SHA256 (TeXLive/nwejm-20160612.tar.xz) = 8c918f98b37deb454a6b5346c5288e19b4054e4ff6905f52240bbc9dd985de6b
-SIZE (TeXLive/nwejm-20160612.tar.xz) = 21636
-SHA256 (TeXLive/nwejm.doc-20160612.tar.xz) = ca5673671a6ca8d53b39f73a3f8e44f5fd36d906b5cefc848a25286adc74f445
-SIZE (TeXLive/nwejm.doc-20160612.tar.xz) = 3176816
-SHA256 (TeXLive/nwejm.source-20160612.tar.xz) = 893257605a34bdfdb21a89c1a9922273e2f7d5beb9267a0ad1bf67a176dc3b08
-SIZE (TeXLive/nwejm.source-20160612.tar.xz) = 36432
+TIMESTAMP = 1483763686
+SHA256 (TeXLive/nwejm-20170107.tar.xz) = 408a3e5c9f275138ac9847f291cae1ddcb074006dd26e05d0e9adde9098affe2
+SIZE (TeXLive/nwejm-20170107.tar.xz) = 4083280
+SHA256 (TeXLive/nwejm.doc-20170107.tar.xz) = 82b6c2698efdfd12cec15e7d658d430a68af01cf634aa80a89e4218898d60520
+SIZE (TeXLive/nwejm.doc-20170107.tar.xz) = 1383640
+SHA256 (TeXLive/nwejm.source-20170107.tar.xz) = 8b52e8720f482768b19b26717e52537d147e0a903ca416b6db5e490276a203fb
+SIZE (TeXLive/nwejm.source-20170107.tar.xz) = 37132

@@ -1,6 +1,7 @@
-SHA256 (TeXLive/babel-russian-20160414.tar.xz) = 72efd1d704803a5d541308fde0a56f5168b5d3ed6f1fdf8172e1a917ca5cfec0
-SIZE (TeXLive/babel-russian-20160414.tar.xz) = 5404
-SHA256 (TeXLive/babel-russian.doc-20160414.tar.xz) = 48e0bfc94966817484addea4dcfbeea139227079a2f538bd3f1a0bb2ac8f4f91
-SIZE (TeXLive/babel-russian.doc-20160414.tar.xz) = 137540
-SHA256 (TeXLive/babel-russian.source-20160414.tar.xz) = a556bc6b1ed4f9ebce54fddb498f49d0b15fd26d2e26de501f3cf4ba5c68c3aa
-SIZE (TeXLive/babel-russian.source-20160414.tar.xz) = 23012
+TIMESTAMP = 1483762593
+SHA256 (TeXLive/babel-russian-20170107.tar.xz) = d50759b10ed650003b86db69c9ea13c970de70c69af9b46ea1e9f7150033df65
+SIZE (TeXLive/babel-russian-20170107.tar.xz) = 5404
+SHA256 (TeXLive/babel-russian.doc-20170107.tar.xz) = 00e27deb0614fcd7a570b3969b9d75826c5dce84c26f34bd2a9b14f68073c850
+SIZE (TeXLive/babel-russian.doc-20170107.tar.xz) = 143476
+SHA256 (TeXLive/babel-russian.source-20170107.tar.xz) = 757b14830726c6b5c89ca3296492a646930d5c44b66411a432aae1029bca8878
+SIZE (TeXLive/babel-russian.source-20170107.tar.xz) = 23184

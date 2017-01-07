@@ -7,10 +7,6 @@ share/texmf-dist/fonts/enc/dvips/tinos/tns_s6t4vy.enc
 share/texmf-dist/fonts/enc/dvips/tinos/tns_xze2cy.enc
 share/texmf-dist/fonts/enc/dvips/tinos/tns_y6kixo.enc
 share/texmf-dist/fonts/map/dvips/tinos/tinos.map
-share/texmf-dist/fonts/opentype/google/tinos/Tinos-Bold.otf
-share/texmf-dist/fonts/opentype/google/tinos/Tinos-BoldItalic.otf
-share/texmf-dist/fonts/opentype/google/tinos/Tinos-Italic.otf
-share/texmf-dist/fonts/opentype/google/tinos/Tinos-Regular.otf
 share/texmf-dist/fonts/tfm/google/tinos/Tinos-Bold-tlf-ly1.tfm
 share/texmf-dist/fonts/tfm/google/tinos/Tinos-Bold-tlf-ot1.tfm
 share/texmf-dist/fonts/tfm/google/tinos/Tinos-Bold-tlf-t1--base.tfm
@@ -35,6 +31,10 @@ share/texmf-dist/fonts/tfm/google/tinos/Tinos-tlf-t1--base.tfm
 share/texmf-dist/fonts/tfm/google/tinos/Tinos-tlf-t1.tfm
 share/texmf-dist/fonts/tfm/google/tinos/Tinos-tlf-ts1--base.tfm
 share/texmf-dist/fonts/tfm/google/tinos/Tinos-tlf-ts1.tfm
+share/texmf-dist/fonts/truetype/google/tinos/Tinos-Bold.ttf
+share/texmf-dist/fonts/truetype/google/tinos/Tinos-BoldItalic.ttf
+share/texmf-dist/fonts/truetype/google/tinos/Tinos-Italic.ttf
+share/texmf-dist/fonts/truetype/google/tinos/Tinos-Regular.ttf
 share/texmf-dist/fonts/type1/google/tinos/Tinos-Bold.pfb
 share/texmf-dist/fonts/type1/google/tinos/Tinos-BoldItalic.pfb
 share/texmf-dist/fonts/type1/google/tinos/Tinos-Italic.pfb
