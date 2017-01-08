@@ -23,10 +23,12 @@ share/texmf-dist/tex/latex/biblatex-apa/naustrian-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/ngerman-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/norsk-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/norwegian-apa.lbx
+share/texmf-dist/tex/latex/biblatex-apa/nswissgerman-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/nynorsk-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/portuguese-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/slovene-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/spanish-apa.lbx
 share/texmf-dist/tex/latex/biblatex-apa/swedish-apa.lbx
+share/texmf-dist/tex/latex/biblatex-apa/swissgerman-apa.lbx
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
