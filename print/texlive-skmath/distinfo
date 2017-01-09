@@ -1,6 +1,7 @@
-SHA256 (TeXLive/skmath-20160626.tar.xz) = 0ec1f26ed338df41c873ebb2bb723360d6e823a4c6aefcb6e322436e5ab6d469
-SIZE (TeXLive/skmath-20160626.tar.xz) = 3468
-SHA256 (TeXLive/skmath.doc-20160626.tar.xz) = 1be787e03e4463dc99ae19e6e209a80eacfef30078c88b0647a6ce8055810aa4
-SIZE (TeXLive/skmath.doc-20160626.tar.xz) = 244832
-SHA256 (TeXLive/skmath.source-20160626.tar.xz) = 817dd47dbd002b091a0b95981ffd47be87492273dc9a7a4e65997f11b0ff4589
-SIZE (TeXLive/skmath.source-20160626.tar.xz) = 8188
+TIMESTAMP = 1483936411
+SHA256 (TeXLive/skmath-20170109.tar.xz) = d347ed5b47c188e428673bc0d1fbd056e2d4f1d166b5d9ff8b0f7c3fe35f3262
+SIZE (TeXLive/skmath-20170109.tar.xz) = 3472
+SHA256 (TeXLive/skmath.doc-20170109.tar.xz) = 4d6c030f74933a3331f585f1252512c56ed9e26166b0ccd686b762f77904630a
+SIZE (TeXLive/skmath.doc-20170109.tar.xz) = 215884
+SHA256 (TeXLive/skmath.source-20170109.tar.xz) = 806c78899aeac99a0c4e41d5416cad04838e542b21599ecb79737b336e9c7548
+SIZE (TeXLive/skmath.source-20170109.tar.xz) = 8212

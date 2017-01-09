@@ -1,6 +1,7 @@
-SHA256 (TeXLive/skrapport-20160626.tar.xz) = d1c8deb0982bc9dc94624e741d8ff30620d7d4ef44e18ac41f163ef148919f08
-SIZE (TeXLive/skrapport-20160626.tar.xz) = 12672
-SHA256 (TeXLive/skrapport.doc-20160626.tar.xz) = 00962a669807b35d1243de0d14c5fb832d74f0493e299922c9aae228fa86243d
-SIZE (TeXLive/skrapport.doc-20160626.tar.xz) = 270424
-SHA256 (TeXLive/skrapport.source-20160626.tar.xz) = 24459bfd2cdcc5c7b4b3fd50ad5b894fd7993a2a1c1a1569019e45d8d78bde78
-SIZE (TeXLive/skrapport.source-20160626.tar.xz) = 31120
+TIMESTAMP = 1483936210
+SHA256 (TeXLive/skrapport-20170109.tar.xz) = f86ffd39c9cb215b29567db038e2effe68cd6794e6923cb77223265b335bf249
+SIZE (TeXLive/skrapport-20170109.tar.xz) = 12684
+SHA256 (TeXLive/skrapport.doc-20170109.tar.xz) = 88deee86d2823ab83a132f134418a87bef123978fd1a311a5ec56545edeb23ce
+SIZE (TeXLive/skrapport.doc-20170109.tar.xz) = 226416
+SHA256 (TeXLive/skrapport.source-20170109.tar.xz) = d8f6bdbbfbc485bcdea6d982d23dc450e67d9e271e56b67def36a1208e951c60
+SIZE (TeXLive/skrapport.source-20170109.tar.xz) = 31164

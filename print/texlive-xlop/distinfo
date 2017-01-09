@@ -1,6 +1,7 @@
-SHA256 (TeXLive/xlop-20160414.tar.xz) = d2df90b8baa681733bfc1642a9e36bfdf35d4c78750ca36226da3663f15eeb22
-SIZE (TeXLive/xlop-20160414.tar.xz) = 14716
-SHA256 (TeXLive/xlop.doc-20160414.tar.xz) = cf612f76ec424708f8fc07febd003ce6843faaf0bcb9c9141a5bf0086a0112ac
-SIZE (TeXLive/xlop.doc-20160414.tar.xz) = 526940
-SHA256 (TeXLive/xlop.source-20160414.tar.xz) = 8477a82f59185594476968ae8dc0dc11f05101cf36ddc308301af02063ba30e3
-SIZE (TeXLive/xlop.source-20160414.tar.xz) = 920
+TIMESTAMP = 1483935376
+SHA256 (TeXLive/xlop-20170109.tar.xz) = 9c040252a23ed7ac888c6d42d5295ad23244706650e118a7c44888a178ba32b4
+SIZE (TeXLive/xlop-20170109.tar.xz) = 15708
+SHA256 (TeXLive/xlop.doc-20170109.tar.xz) = 6b75edcb0203cfca0b2d62035233673ee06ff866e1e681a254be2c838a2534fe
+SIZE (TeXLive/xlop.doc-20170109.tar.xz) = 537920
+SHA256 (TeXLive/xlop.source-20170109.tar.xz) = b67e8132aa2a8974bbba86e6c2d17a54a514f46191559e3637ebdd32dbdc0172
+SIZE (TeXLive/xlop.source-20170109.tar.xz) = 912

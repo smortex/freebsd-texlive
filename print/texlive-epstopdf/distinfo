@@ -1,4 +1,5 @@
-SHA256 (TeXLive/epstopdf-20160705.tar.xz) = d6bc42e2a40b0f6855fdae290334cd3fbde923cca7f6a8d283321900cdcdc5da
-SIZE (TeXLive/epstopdf-20160705.tar.xz) = 11988
-SHA256 (TeXLive/epstopdf.doc-20160705.tar.xz) = a11cdbf9a197d0e291238fe5d830bbd10cf0a2899617e4a1a6c923a595fdebc8
-SIZE (TeXLive/epstopdf.doc-20160705.tar.xz) = 29452
+TIMESTAMP = 1483935328
+SHA256 (TeXLive/epstopdf-20170109.tar.xz) = 37485544a7604f0d3532650c6e7d0b389c3fade3ae4a423daa840e1ac364efe2
+SIZE (TeXLive/epstopdf-20170109.tar.xz) = 12268
+SHA256 (TeXLive/epstopdf.doc-20170109.tar.xz) = 0ea332fdc65ccbd8e2ec54d8aec9f861a94a1449bc7fac75e7c21dc922bfed98
+SIZE (TeXLive/epstopdf.doc-20170109.tar.xz) = 10976
