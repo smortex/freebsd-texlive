@@ -1,7 +1,7 @@
-TIMESTAMP = 1482294187
-SHA256 (TeXLive/conv-xkv-20161221.tar.xz) = 7770852a53dd9c05345bd6096e33bc7abb6001bcb125af3039f791565174193e
-SIZE (TeXLive/conv-xkv-20161221.tar.xz) = 2176
-SHA256 (TeXLive/conv-xkv.doc-20161221.tar.xz) = 01fe9fa9fa6bcd219a0cb5bceb1dbe16f53494448ba72e8dd8e1ef29c722e417
-SIZE (TeXLive/conv-xkv.doc-20161221.tar.xz) = 71348
-SHA256 (TeXLive/conv-xkv.source-20161221.tar.xz) = d80e97c35e40de7663e2ef64f1989c27aecf3193d5182bec0a7e13566e539503
-SIZE (TeXLive/conv-xkv.source-20161221.tar.xz) = 4476
+TIMESTAMP = 1484022114
+SHA256 (TeXLive/conv-xkv-20170110.tar.xz) = 4ea53f3a75eb00ac7b1a9cee390c0b4e074a0dc918691811e6b4fca4f110fa69
+SIZE (TeXLive/conv-xkv-20170110.tar.xz) = 2404
+SHA256 (TeXLive/conv-xkv.doc-20170110.tar.xz) = e631264fd797d4b470a629f9644122ccd3da5c5f7002dee82e688abe722dd0c2
+SIZE (TeXLive/conv-xkv.doc-20170110.tar.xz) = 74656
+SHA256 (TeXLive/conv-xkv.source-20170110.tar.xz) = 906be04316941660eef2800387eaf0e808bd502cb58d82075ea8701c01deb8b4
+SIZE (TeXLive/conv-xkv.source-20170110.tar.xz) = 5288

@@ -1,7 +1,7 @@
-TIMESTAMP = 1478751947
-SHA256 (TeXLive/media9-20161109.tar.xz) = 2e6da9e34048f16ad3ef104d98c094150f8d44c8585cb41e999d85b0e5dc4633
-SIZE (TeXLive/media9-20161109.tar.xz) = 1887460
-SHA256 (TeXLive/media9.doc-20161109.tar.xz) = 5027f7b1db41e38c7e112679ae471ec1a279bb5aa22ee5ea3e15726a5f7da354
-SIZE (TeXLive/media9.doc-20161109.tar.xz) = 3572992
-SHA256 (TeXLive/media9.source-20161109.tar.xz) = 14d0d2ded2f1d77904184e48c2eddff3fcb9ed7f40f636b35d284558acfbb909
-SIZE (TeXLive/media9.source-20161109.tar.xz) = 1243956
+TIMESTAMP = 1484022353
+SHA256 (TeXLive/media9-20170110.tar.xz) = c496d297e884a400371b6baf57a5a9a345d8e4ab4b40686db61a731f16356dd8
+SIZE (TeXLive/media9-20170110.tar.xz) = 1887496
+SHA256 (TeXLive/media9.doc-20170110.tar.xz) = 726e95d2aa9ef83ab78c81b220471712d3c3f666ff1effd4bb0f787ac2a7a0af
+SIZE (TeXLive/media9.doc-20170110.tar.xz) = 3572612
+SHA256 (TeXLive/media9.source-20170110.tar.xz) = 81183f5b048c2d7458c060916f39f8cfc981ab75cd9ea0f8cb5e656896b60cbf
+SIZE (TeXLive/media9.source-20170110.tar.xz) = 1244012

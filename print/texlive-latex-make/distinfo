@@ -1,6 +1,7 @@
-SHA256 (TeXLive/latex-make-20160414.tar.xz) = c8f2e03f3e0e245fc3cb3b3137c9a3cb752dba7938210ccfd82107686d2ea0a9
-SIZE (TeXLive/latex-make-20160414.tar.xz) = 8984
-SHA256 (TeXLive/latex-make.doc-20160414.tar.xz) = 14c2dbaf65f2d38ec7c2fec1537c66e240df3b5c321f81a4bd62d20bcbc4c723
-SIZE (TeXLive/latex-make.doc-20160414.tar.xz) = 725488
-SHA256 (TeXLive/latex-make.source-20160414.tar.xz) = a5e7277bca52f38b10ba26aecf99ac52565bc4969d83b1b09bbf63d5ea90a3b3
-SIZE (TeXLive/latex-make.source-20160414.tar.xz) = 27052
+TIMESTAMP = 1484021968
+SHA256 (TeXLive/latex-make-20170110.tar.xz) = 5b4b3ef6a06bc344e2fc052b19243f2c773b36b3b1f872681aa8b9869b62f5be
+SIZE (TeXLive/latex-make-20170110.tar.xz) = 8980
+SHA256 (TeXLive/latex-make.doc-20170110.tar.xz) = 9069354f60d86adadaee234e3b5adeaea4e7c3deb1d4c62acc4fc450d2d11849
+SIZE (TeXLive/latex-make.doc-20170110.tar.xz) = 726520
+SHA256 (TeXLive/latex-make.source-20170110.tar.xz) = c29b00d30a51bbc7f48fa870417aa76eb63638c272cf866985a70ce6ff4701b1
+SIZE (TeXLive/latex-make.source-20170110.tar.xz) = 27196

@@ -1,7 +1,7 @@
-TIMESTAMP = 1476850665
-SHA256 (TeXLive/luatexja-20161018.tar.xz) = 323094f9892b58e6cd9ee9a9d121ad68427285bf28a53a53598186279edc494f
-SIZE (TeXLive/luatexja-20161018.tar.xz) = 156972
-SHA256 (TeXLive/luatexja.doc-20161018.tar.xz) = 09f2c6ef3a40ee7ee407e49afb170f8901070b12ada4bb11e46f871cb674b681
-SIZE (TeXLive/luatexja.doc-20161018.tar.xz) = 4053316
-SHA256 (TeXLive/luatexja.source-20161018.tar.xz) = dbc15588cf72a1e1e8cfbc1bdf3b26a6bcf8762117f243f35cd3a6e0aacdd502
-SIZE (TeXLive/luatexja.source-20161018.tar.xz) = 76144
+TIMESTAMP = 1484021859
+SHA256 (TeXLive/luatexja-20170110.tar.xz) = 5bb12a75664df799dc2c1b0d58d40de8ad8c9060eeda07f509ce84f4cfe8d127
+SIZE (TeXLive/luatexja-20170110.tar.xz) = 157036
+SHA256 (TeXLive/luatexja.doc-20170110.tar.xz) = 4843e3502d09dd35ce47710d93d5f1aa3163cfe08ab6bbda29235352bdfd2520
+SIZE (TeXLive/luatexja.doc-20170110.tar.xz) = 4092908
+SHA256 (TeXLive/luatexja.source-20170110.tar.xz) = ed61a77cae303c2f61ea1b55623478aa8e7460fc5e2c45394b96b4f28f27a0b3
+SIZE (TeXLive/luatexja.source-20170110.tar.xz) = 77640

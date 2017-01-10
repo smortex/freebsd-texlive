@@ -1,6 +1,7 @@
-SHA256 (TeXLive/uantwerpendocs-20160503.tar.xz) = 751ade8b881a563792bac55b3e24eb0da6f28f34bb73cd8779dba2fa249c20fd
-SIZE (TeXLive/uantwerpendocs-20160503.tar.xz) = 1306452
-SHA256 (TeXLive/uantwerpendocs.doc-20160503.tar.xz) = d0560683466d14bbe473cbdebb15b754e13ed994e6da5d1cd40d6b6e1877868e
-SIZE (TeXLive/uantwerpendocs.doc-20160503.tar.xz) = 665044
-SHA256 (TeXLive/uantwerpendocs.source-20160503.tar.xz) = 7ae2cbf7ab736c17434a129e616bdcd812c022ddef4ab98472c26336cd558eb3
-SIZE (TeXLive/uantwerpendocs.source-20160503.tar.xz) = 19612
+TIMESTAMP = 1484022880
+SHA256 (TeXLive/uantwerpendocs-20170110.tar.xz) = 892f4f4ca0f80faca8db09c34f98c460e808e6213db9a0b639a50bfbd70815f9
+SIZE (TeXLive/uantwerpendocs-20170110.tar.xz) = 1306560
+SHA256 (TeXLive/uantwerpendocs.doc-20170110.tar.xz) = 6c69158488400cf35b6dbc3ee724ab3a3a475dda26e6110d63941c12cf1e65da
+SIZE (TeXLive/uantwerpendocs.doc-20170110.tar.xz) = 670548
+SHA256 (TeXLive/uantwerpendocs.source-20170110.tar.xz) = 2c704dfba6bbfb1cd0f11c29639528d9a0607e8aa3ca9235b6f4e8c59707b667
+SIZE (TeXLive/uantwerpendocs.source-20170110.tar.xz) = 19928
