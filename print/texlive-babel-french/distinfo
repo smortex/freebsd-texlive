@@ -1,6 +1,7 @@
-SHA256 (TeXLive/babel-french-20160519.tar.xz) = 19e5f2134d23edefa186ae5309846b8b992872d7d64297bbde449f66accded8d
-SIZE (TeXLive/babel-french-20160519.tar.xz) = 13480
-SHA256 (TeXLive/babel-french.doc-20160519.tar.xz) = 9c7db099e5679d11d73790c6c08ae8db8ec336f1f2464fc35053760477b25f2a
-SIZE (TeXLive/babel-french.doc-20160519.tar.xz) = 263156
-SHA256 (TeXLive/babel-french.source-20160519.tar.xz) = 1f030689cb3ff432ce4d228ca59b15f46fc507e4ceefdf421683ddb9612ecad6
-SIZE (TeXLive/babel-french.source-20160519.tar.xz) = 47584
+TIMESTAMP = 1484108206
+SHA256 (TeXLive/babel-french-20170111.tar.xz) = 9826c50f15de72e50771824253ec8634601fd73ed4505d06fcb13d85649d2c2a
+SIZE (TeXLive/babel-french-20170111.tar.xz) = 13672
+SHA256 (TeXLive/babel-french.doc-20170111.tar.xz) = aca66e134c6015200a3855066652acf55366077a3a9eaf088cdea53a27568e46
+SIZE (TeXLive/babel-french.doc-20170111.tar.xz) = 265128
+SHA256 (TeXLive/babel-french.source-20170111.tar.xz) = 4e6241afc10003eb9cf014990df434e8095322e61b96d963e2317c4f3a9d6fcb
+SIZE (TeXLive/babel-french.source-20170111.tar.xz) = 48024
