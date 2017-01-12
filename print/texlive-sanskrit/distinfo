@@ -1,6 +1,7 @@
-SHA256 (TeXLive/sanskrit-20160414.tar.xz) = c4fcc28c4c6f6a4979685a5b7490bff9bb15ded44ee4b608f91448270b6f673a
-SIZE (TeXLive/sanskrit-20160414.tar.xz) = 16340
-SHA256 (TeXLive/sanskrit.doc-20160414.tar.xz) = be5a9c34f156f9e3470c3b60aac368c8129e5a14cd1c16e540cad0968361a534
-SIZE (TeXLive/sanskrit.doc-20160414.tar.xz) = 22920
-SHA256 (TeXLive/sanskrit.source-20160414.tar.xz) = 51f2a5cf023704de55dabb518302546c024864f80622baa616997bf51f14baca
-SIZE (TeXLive/sanskrit.source-20160414.tar.xz) = 22320
+TIMESTAMP = 1484194893
+SHA256 (TeXLive/sanskrit-20170112.tar.xz) = 2737f1db8c4bf2382d1b4a042d084a2835238826d23a07f16aa1bcae78128543
+SIZE (TeXLive/sanskrit-20170112.tar.xz) = 16352
+SHA256 (TeXLive/sanskrit.doc-20170112.tar.xz) = da62acb0deb61da0774da089037941b5c38f1ecfe00eb233117d9918b513e633
+SIZE (TeXLive/sanskrit.doc-20170112.tar.xz) = 526892
+SHA256 (TeXLive/sanskrit.source-20170112.tar.xz) = f72b9055a1507e978419c1661cc6ecacadc5ca68e2bbf72919924848b569da2f
+SIZE (TeXLive/sanskrit.source-20170112.tar.xz) = 22208

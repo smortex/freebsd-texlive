@@ -1,4 +1,7 @@
-%%PORTDOCS%%share/texmf-dist/doc/latex/sanskrit/readme.txt
+%%PORTDOCS%%share/texmf-dist/doc/latex/sanskrit/README.md
+%%PORTDOCS%%share/texmf-dist/doc/latex/sanskrit/README.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/sanskrit/build-ctan-dist.sh
+%%PORTDOCS%%share/texmf-dist/doc/latex/sanskrit/sktdoc.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/sanskrit/sktdoc.skt
 share/texmf-dist/fonts/source/public/sanskrit/skt10.mf
 share/texmf-dist/fonts/source/public/sanskrit/skt8.mf

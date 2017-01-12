@@ -1,6 +1,7 @@
-SHA256 (TeXLive/onlyamsmath-20160414.tar.xz) = bcad01fc0bf107abe4ed407c4783c03c155b92676496d22ffa35237eacc2edbf
-SIZE (TeXLive/onlyamsmath-20160414.tar.xz) = 1392
-SHA256 (TeXLive/onlyamsmath.doc-20160414.tar.xz) = 5132b10e98d49b0b9d8d482c584896f6a14e4da28d0fd22a9a78c1b2f67fdd31
-SIZE (TeXLive/onlyamsmath.doc-20160414.tar.xz) = 212832
-SHA256 (TeXLive/onlyamsmath.source-20160414.tar.xz) = 74c31aca47ef7211bf2bb7430e6165a2cd83d1f9fec516eda40df87f9e9632ed
-SIZE (TeXLive/onlyamsmath.source-20160414.tar.xz) = 3672
+TIMESTAMP = 1484195488
+SHA256 (TeXLive/onlyamsmath-20170112.tar.xz) = 3ae5bc8aceeb1e54120464640f6ebc845456fb77eba1645761539be5ca64ec60
+SIZE (TeXLive/onlyamsmath-20170112.tar.xz) = 1412
+SHA256 (TeXLive/onlyamsmath.doc-20170112.tar.xz) = 35f847d8db4165eacb23df5b30c122b315f640192e7e4b225a5509f0fd8166d4
+SIZE (TeXLive/onlyamsmath.doc-20170112.tar.xz) = 215084
+SHA256 (TeXLive/onlyamsmath.source-20170112.tar.xz) = 1773da1981f1110d9108be1b5ac9c3713244a01c05e15263f7b0db8ced9a46d2
+SIZE (TeXLive/onlyamsmath.source-20170112.tar.xz) = 3916
