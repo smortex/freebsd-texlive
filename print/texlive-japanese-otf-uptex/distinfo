@@ -1,6 +1,7 @@
-SHA256 (TeXLive/japanese-otf-uptex-20160414.tar.xz) = f6989291bd02aa1cc1de9f1b180c94d25525999973cf8799d8b0578fc38a78d1
-SIZE (TeXLive/japanese-otf-uptex-20160414.tar.xz) = 205116
-SHA256 (TeXLive/japanese-otf-uptex.doc-20160414.tar.xz) = ab31faebbef1a100504bf256a5ed8115af9295eb899b926d6b69492e89ec2323
-SIZE (TeXLive/japanese-otf-uptex.doc-20160414.tar.xz) = 22656
-SHA256 (TeXLive/japanese-otf-uptex.source-20160414.tar.xz) = 8ce58eb39b613bbc1d0c42b6a9aee8836255adf1e57d5a2d3861597f3a0ad864
-SIZE (TeXLive/japanese-otf-uptex.source-20160414.tar.xz) = 29680
+TIMESTAMP = 1484540214
+SHA256 (TeXLive/japanese-otf-uptex-20170116.tar.xz) = be41b3c09c56c156b237a872de62e04909f742977cb455ba44f40f7e8e7edb9f
+SIZE (TeXLive/japanese-otf-uptex-20170116.tar.xz) = 218204
+SHA256 (TeXLive/japanese-otf-uptex.doc-20170116.tar.xz) = 9a7b82b00ecfa8403e30331618cc011f49044277a145e961b140d6a71feff4e2
+SIZE (TeXLive/japanese-otf-uptex.doc-20170116.tar.xz) = 22592
+SHA256 (TeXLive/japanese-otf-uptex.source-20170116.tar.xz) = f74282021282e1c299a21144052400310dc34207f98af50bc28d572ddfa097b5
+SIZE (TeXLive/japanese-otf-uptex.source-20170116.tar.xz) = 29680

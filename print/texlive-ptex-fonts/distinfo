@@ -1,4 +1,5 @@
-SHA256 (TeXLive/ptex-fonts-20160517.tar.xz) = 13d2ec9eac4b6a13ee88c32a7e065af4d94467b020bae9b6f884cddedbed5854
-SIZE (TeXLive/ptex-fonts-20160517.tar.xz) = 26924
-SHA256 (TeXLive/ptex-fonts.doc-20160517.tar.xz) = e788b972347d1cf7366847ea3e3be06980e0b31d5f239a5a74f83ceeba667bc2
-SIZE (TeXLive/ptex-fonts.doc-20160517.tar.xz) = 4200
+TIMESTAMP = 1484540219
+SHA256 (TeXLive/ptex-fonts-20170116.tar.xz) = cb38ade7e45ad70265221691b8b8bc056f64aa8ce8d85c80f0c67f10c9897fe0
+SIZE (TeXLive/ptex-fonts-20170116.tar.xz) = 26944
+SHA256 (TeXLive/ptex-fonts.doc-20170116.tar.xz) = bb8053d5776e9e36b7087d7f0524dd0a4e2fdd2eaf08591425172ab75cd36a9e
+SIZE (TeXLive/ptex-fonts.doc-20170116.tar.xz) = 4200

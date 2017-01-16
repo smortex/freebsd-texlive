@@ -1,4 +1,5 @@
-SHA256 (TeXLive/uptex-20160701.tar.xz) = d73033eb75bbcd4ecd953854314fe1b45efb671d8861027c3b655018e02dd704
-SIZE (TeXLive/uptex-20160701.tar.xz) = 784
-SHA256 (TeXLive/uptex.doc-20160701.tar.xz) = 6b516dd0d7aee82696352f85556597c9b1c10782d65a9290e6a11956b58f0e04
-SIZE (TeXLive/uptex.doc-20160701.tar.xz) = 7868
+TIMESTAMP = 1484540227
+SHA256 (TeXLive/uptex-20170116.tar.xz) = d86fa123ddbc9d3fd0cfa8b2501c27c90bfef22926b3ad893df784d0b079ea16
+SIZE (TeXLive/uptex-20170116.tar.xz) = 820
+SHA256 (TeXLive/uptex.doc-20170116.tar.xz) = a5c47fd5776abdbb8dac4f2234cc43e9f56a3fcbc26436f3b0d3bddb920cc70a
+SIZE (TeXLive/uptex.doc-20170116.tar.xz) = 7860

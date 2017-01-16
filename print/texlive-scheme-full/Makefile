@@ -960,7 +960,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/ipaex/ipaexg.ttf:${PORTSDIR}/print/texlive-ipaex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/japanese-otf/otf-cktx.map:${PORTSDIR}/print/texlive-japanese-otf \
 		${LOCALBASE}/share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/upphirakakuw3-h.ovp:${PORTSDIR}/print/texlive-japanese-otf-uptex \
-		${LOCALBASE}/share/texmf-dist/fonts/cmap/jfontmaps/2004-H:${PORTSDIR}/print/texlive-jfontmaps \
 		${LOCALBASE}/share/texmf-dist/tex/platex/jsclasses/jsarticle.cls:${PORTSDIR}/print/texlive-jsclasses \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexja/luatexja.sty:${PORTSDIR}/print/texlive-luatexja \
 		${LOCALBASE}/share/texmf-dist/pbibtex/bib/jxampl.bib:${PORTSDIR}/print/texlive-pbibtex-base \
@@ -969,6 +968,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/ptex/morisawa.map:${PORTSDIR}/print/texlive-ptex \
 		${LOCALBASE}/share/texmf-dist/tex/ptex/ptex-base/ascii-jplain.tex:${PORTSDIR}/print/texlive-ptex-base \
 		${LOCALBASE}/share/texmf-dist/fonts/source/ptex-fonts/ascgrp/ascgrp.mf:${PORTSDIR}/print/texlive-ptex-fonts \
+		${LOCALBASE}/share/texmf-dist/fonts/cmap/ptex-fontmaps/2004-H:${PORTSDIR}/print/texlive-ptex-fontmaps \
 		${LOCALBASE}/share/texmf-dist/scripts/ptex2pdf/ptex2pdf.lua:${PORTSDIR}/print/texlive-ptex2pdf \
 		${LOCALBASE}/share/texmf-dist/tex/platex/pxbase/pxbase.sty:${PORTSDIR}/print/texlive-pxbase \
 		${LOCALBASE}/share/texmf-dist/tex/platex/pxchfon/pxchfon.sty:${PORTSDIR}/print/texlive-pxchfon \
@@ -1719,6 +1719,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/grid-system/grid-system.sty:${PORTSDIR}/print/texlive-grid-system \
 		${LOCALBASE}/share/texmf-dist/tex/latex/gridset/gridset.sty:${PORTSDIR}/print/texlive-gridset \
 		${LOCALBASE}/share/texmf-dist/tex/latex/guitlogo/guit.cfg:${PORTSDIR}/print/texlive-guitlogo \
+		${LOCALBASE}/share/texmf-dist/tex/latex/halloweenmath/halloweenmath.sty:${PORTSDIR}/print/texlive-halloweenmath \
 		${LOCALBASE}/share/texmf-dist/tex/latex/handout/handout.sty:${PORTSDIR}/print/texlive-handout \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hang/hang.sty:${PORTSDIR}/print/texlive-hang \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hanging/hanging.sty:${PORTSDIR}/print/texlive-hanging \
