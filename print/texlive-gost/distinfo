@@ -1,7 +1,7 @@
-TIMESTAMP = 1474604132
-SHA256 (TeXLive/gost-20160922.tar.xz) = c6f1982c56e51ed26baa6d89c4b710e2fdac039802c27471c57c0f562237c5ae
-SIZE (TeXLive/gost-20160922.tar.xz) = 16864
-SHA256 (TeXLive/gost.doc-20160922.tar.xz) = 5063edd74cd670b2ecab0d5589639d6d2c193034c7b01ff2f0017fc86565dca2
-SIZE (TeXLive/gost.doc-20160922.tar.xz) = 1845244
-SHA256 (TeXLive/gost.source-20160922.tar.xz) = abae164fcbf70a66cba5df0ccbb370f7b21d08685b7ceb46f1b2cb05adf94e77
-SIZE (TeXLive/gost.source-20160922.tar.xz) = 25112
+TIMESTAMP = 1484626527
+SHA256 (TeXLive/gost-20170117.tar.xz) = e2494fbc4858f6ea4d6f9c169d85247e90cfd6dcc3ca36622d07414961c88336
+SIZE (TeXLive/gost-20170117.tar.xz) = 16776
+SHA256 (TeXLive/gost.doc-20170117.tar.xz) = c6ccb61b5b4fefdd2beb74bbd9777fbcbf6bc9e9f4c4c8eaeddfe18330f2d752
+SIZE (TeXLive/gost.doc-20170117.tar.xz) = 1664280
+SHA256 (TeXLive/gost.source-20170117.tar.xz) = 62ca493c57fa3895856a5de125a12b9b7ac53ff0f6bba345b3e1089d2d245a95
+SIZE (TeXLive/gost.source-20170117.tar.xz) = 26412

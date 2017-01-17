@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	gost
+PORTNAME=	fgruler
 PORTVERSION=	20170117
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	BibTeX styles to format according to GOST
+COMMENT=	draw rulers on the foreground or in the text
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

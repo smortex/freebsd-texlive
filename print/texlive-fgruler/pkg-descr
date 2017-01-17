@@ -1,0 +1,7 @@
+The fgruler is an abbreviation for the foreground ruler. This
+package draws a horizontal and a vertical ruler on the
+foreground of every (or a given) page at absolute position. In
+this way, you can check the page layout dimensions. Besides,
+you can draw various rulers in the text, too. The fgruler
+package requires the services of the following packages:
+kvoptions, etoolbox, xcolor, graphicx, eso-pic.

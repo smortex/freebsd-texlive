@@ -1,7 +1,7 @@
-TIMESTAMP = 1480565708
-SHA256 (TeXLive/bidi-20161201.tar.xz) = 00e8785cb62e75fb2ad94a1970a79f1c2b7aa3dd528be6dcb79e254c9137e74f
-SIZE (TeXLive/bidi-20161201.tar.xz) = 93480
-SHA256 (TeXLive/bidi.doc-20161201.tar.xz) = 471a7ef5b946e414a6634b14923e15406c82a3084968c4c291ea9a5c71921d6b
-SIZE (TeXLive/bidi.doc-20161201.tar.xz) = 3785844
-SHA256 (TeXLive/bidi.source-20161201.tar.xz) = 413be2c7fe0aa4123c3298e870b66f7a86665e3ac44145f97c6c1330819a41a8
-SIZE (TeXLive/bidi.source-20161201.tar.xz) = 125456
+TIMESTAMP = 1484626495
+SHA256 (TeXLive/bidi-20170117.tar.xz) = 878fa39baf1f73c7b0f39c9d0caf4f6e97e70cc45ad33fee8c9850ec7b99a086
+SIZE (TeXLive/bidi-20170117.tar.xz) = 93520
+SHA256 (TeXLive/bidi.doc-20170117.tar.xz) = c5b519f34e6af36ee6671e198dc3a1729d8b2da965e40f8e6eada32dd4d7bcc4
+SIZE (TeXLive/bidi.doc-20170117.tar.xz) = 3778092
+SHA256 (TeXLive/bidi.source-20170117.tar.xz) = 72ffedabb50a82c779998ca2d50c2579ebca4087309362aa9e75ca1d7864a974
+SIZE (TeXLive/bidi.source-20170117.tar.xz) = 125472
