@@ -5,8 +5,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/INSTALL
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/README
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/README-latexmk-rcfiles
-%%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/Sweave_latexmkrc
-%%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/TeX4ht-latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/asymptote_latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/clean_pattern_latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/exceltex_latexmkrc
@@ -17,6 +15,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/pdflatexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/pythontex-latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/sagetex_latexmkrc
+%%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/sweave_latexmkrc
+%%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/tex4ht-latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/texinfo-latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/example_rcfiles/xelatex_latexmkrc
 %%PORTDOCS%%share/texmf-dist/doc/support/latexmk/extra-scripts/README-latexmk-scripts
