@@ -1,4 +1,5 @@
-SHA256 (TeXLive/pgf-spectra-20160421.tar.xz) = 872657e67857baa329cf5ade193718340b47dbd6e6815f0b2b5ec5a5c6e50c4c
-SIZE (TeXLive/pgf-spectra-20160421.tar.xz) = 5408
-SHA256 (TeXLive/pgf-spectra.doc-20160421.tar.xz) = 7d41ec72f82b8851c9328b983266f2af4f5d23509a31095023bbd8a7cf3e30fa
-SIZE (TeXLive/pgf-spectra.doc-20160421.tar.xz) = 508828
+TIMESTAMP = 1484799539
+SHA256 (TeXLive/pgf-spectra-20170119.tar.xz) = a58e72ea8b693631ad40fdab984450b11f879ddea1dd78d98c4b470f92144d10
+SIZE (TeXLive/pgf-spectra-20170119.tar.xz) = 73412
+SHA256 (TeXLive/pgf-spectra.doc-20170119.tar.xz) = 13afb749f885ddef090062112da0fa1901e761d511b5b7afb0e4950f5fc682c1
+SIZE (TeXLive/pgf-spectra.doc-20170119.tar.xz) = 436480
