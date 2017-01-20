@@ -1,7 +1,7 @@
-TIMESTAMP = 1484712624
-SHA256 (TeXLive/latexmk-20170118.tar.xz) = fbf8969f314ccd76bbc0aab1bebe7aa141c328f1e917fdaf1a7ee15c4d0b0a7c
-SIZE (TeXLive/latexmk-20170118.tar.xz) = 81176
-SHA256 (TeXLive/latexmk.doc-20170118.tar.xz) = a8af5c47f67d1b2877ab18844fa69f6652d837f05a20d9afc16539c92e93c4fb
-SIZE (TeXLive/latexmk.doc-20170118.tar.xz) = 372768
-SHA256 (TeXLive/latexmk.source-20170118.tar.xz) = e00c2d09ee0b343da7390c339fa92a268b1a4beb7af55cde73d29c8d220bd6e9
-SIZE (TeXLive/latexmk.source-20170118.tar.xz) = 488
+TIMESTAMP = 1484885439
+SHA256 (TeXLive/latexmk-20170120.tar.xz) = 5d92e1217069085548b3078aed9c1d94807268d5ea1ff27086e86ee358ab44c4
+SIZE (TeXLive/latexmk-20170120.tar.xz) = 81312
+SHA256 (TeXLive/latexmk.doc-20170120.tar.xz) = 184bcda7086cbfae34d8f35326b5e8e5a0096b306d2778451e2923693b38c22f
+SIZE (TeXLive/latexmk.doc-20170120.tar.xz) = 372820
+SHA256 (TeXLive/latexmk.source-20170120.tar.xz) = 560eea5de1327b1036b28ff00bc2419676e8fea384105223349ff99a95ea8434
+SIZE (TeXLive/latexmk.source-20170120.tar.xz) = 488

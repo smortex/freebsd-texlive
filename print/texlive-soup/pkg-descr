@@ -1,0 +1,5 @@
+Generate alphabet soup puzzles (aka word search puzzles), and
+variations using numbers or other symbols. Provides macros to
+generate an alphabet soup style puzzle (also known as word
+search puzzles or "find-the-word" puzzles). Allow creating
+numbersoup and soups with custom symbol sets.

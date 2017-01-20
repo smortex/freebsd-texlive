@@ -32,6 +32,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-docdef.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-entrycount.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-entrycount.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-external.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-external.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-footnote.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-footnote.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-header.pdf
@@ -70,6 +72,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-prefix.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-record.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-record.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-resource.glstex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-restricteddocdefs.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-restricteddocdefs.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-trans.pdf

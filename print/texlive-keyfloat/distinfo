@@ -1,7 +1,7 @@
-TIMESTAMP = 1481344358
-SHA256 (TeXLive/keyfloat-20161210.tar.xz) = d3ebece1e326a1d9861356c0f7e53f81a87fd642336ff78980da8c77bb063bde
-SIZE (TeXLive/keyfloat-20161210.tar.xz) = 4920
-SHA256 (TeXLive/keyfloat.doc-20161210.tar.xz) = 5cbacab235cd79359bd39078fba891455056014dffd64c427c8cea9ae9efd0a0
-SIZE (TeXLive/keyfloat.doc-20161210.tar.xz) = 845632
-SHA256 (TeXLive/keyfloat.source-20161210.tar.xz) = 46baa07830fc7d272ae0af616a7cee6fdbf52a18ce18f4beea9a95d70d4d794e
-SIZE (TeXLive/keyfloat.source-20161210.tar.xz) = 22696
+TIMESTAMP = 1484886304
+SHA256 (TeXLive/keyfloat-20170120.tar.xz) = c4043848c294ee8bd0e16aad0ce77c2fd51b27c20b903680021d29ca0976a97e
+SIZE (TeXLive/keyfloat-20170120.tar.xz) = 5048
+SHA256 (TeXLive/keyfloat.doc-20170120.tar.xz) = fa5a6691a65e008ef1f1c57148382c9a8d239994702317fbaa3e78efb36a708a
+SIZE (TeXLive/keyfloat.doc-20170120.tar.xz) = 851096
+SHA256 (TeXLive/keyfloat.source-20170120.tar.xz) = 8066b5fbc85cf434519a5db844c511e9c9a66de02610c905afba6cf1857a47f2
+SIZE (TeXLive/keyfloat.source-20170120.tar.xz) = 23376

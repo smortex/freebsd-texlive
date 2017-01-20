@@ -1,13 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	latexmk
+PORTNAME=	soup
 PORTVERSION=	20170120
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Fully automated LaTeX document generation
-
-RUN_DEPENDS=	${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
+COMMENT=	Generate alphabet soup puzzles
 
 OPTIONS_DEFINE=	DOCS SRCS
 .include <bsd.port.options.mk>

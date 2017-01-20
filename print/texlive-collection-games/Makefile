@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-games
-PORTVERSION=	20160414
+PORTVERSION=	20170120
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -62,7 +62,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/makeindex/latex/gglo.ist:${PORTSDIR}/print/texlive-latex \
 		${LOCALBASE}/share/texmf-dist/fonts/source/public/latex-fonts/circle.mf:${PORTSDIR}/print/texlive-latex-fonts \
 		${LOCALBASE}/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg:${PORTSDIR}/print/texlive-latexconfig \
-		${LOCALBASE}/share/texmf-dist/tex/cslatex/base/cslatex.ini:${PORTSDIR}/print/texlive-cslatex \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ltxmisc/abstbook.cls:${PORTSDIR}/print/texlive-ltxmisc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mfnfss/oldgerm.sty:${PORTSDIR}/print/texlive-mfnfss \
 		${LOCALBASE}/share/texmf-dist/tex/generic/context/mptopdf/mptopdf.tex:${PORTSDIR}/print/texlive-mptopdf \
@@ -98,6 +97,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/sgame/sgame.sty:${PORTSDIR}/print/texlive-sgame \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skak/skak.sty:${PORTSDIR}/print/texlive-skak \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/skaknew/AlphaDia.afm:${PORTSDIR}/print/texlive-skaknew \
+		${LOCALBASE}/share/texmf-dist/tex/latex/soup/soup.sty:${PORTSDIR}/print/texlive-soup \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sudoku/sudoku.sty:${PORTSDIR}/print/texlive-sudoku \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sudokubundle/createsudoku.sty:${PORTSDIR}/print/texlive-sudokubundle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xq/xq.sty:${PORTSDIR}/print/texlive-xq \
