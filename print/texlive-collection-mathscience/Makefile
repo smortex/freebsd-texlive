@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-mathscience
-PORTVERSION=	20161222
+PORTVERSION=	20170122
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -203,6 +203,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/nuc/nuc.sty:${PORTSDIR}/print/texlive-nuc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nucleardata/nucleardata.sty:${PORTSDIR}/print/texlive-nucleardata \
 		${LOCALBASE}/share/texmf-dist/tex/latex/objectz/oz.sty:${PORTSDIR}/print/texlive-objectz \
+		${LOCALBASE}/share/texmf-dist/tex/latex/oplotsymbl/oplotsymbl.sty:${PORTSDIR}/print/texlive-oplotsymbl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ot-tableau/ot-tableau.sty:${PORTSDIR}/print/texlive-ot-tableau \
 		${LOCALBASE}/share/texmf-dist/tex/latex/oubraces/oubraces.sty:${PORTSDIR}/print/texlive-oubraces \
 		${LOCALBASE}/share/texmf-dist/tex/latex/perfectcut/perfectcut.sty:${PORTSDIR}/print/texlive-perfectcut \

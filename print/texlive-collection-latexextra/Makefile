@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-latexextra
-PORTVERSION=	20170117
+PORTVERSION=	20170122
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -87,6 +87,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancybox/fancybox.sty:${PORTSDIR}/print/texlive-fancybox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancyref/fancyref.sty:${PORTSDIR}/print/texlive-fancyref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty:${PORTSDIR}/print/texlive-fancyvrb \
+		${LOCALBASE}/share/texmf-dist/tex/latex/filehook/filehook.sty:${PORTSDIR}/print/texlive-filehook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/float/float.sty:${PORTSDIR}/print/texlive-float \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fontspec/fontspec.sty:${PORTSDIR}/print/texlive-fontspec \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fp/fp.sty:${PORTSDIR}/print/texlive-fp \
@@ -654,7 +655,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/filecontents/filecontents.sty:${PORTSDIR}/print/texlive-filecontents \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filecontentsdef/filecontentsdef.sty:${PORTSDIR}/print/texlive-filecontentsdef \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filedate/filedate.sty:${PORTSDIR}/print/texlive-filedate \
-		${LOCALBASE}/share/texmf-dist/tex/latex/filehook/filehook.sty:${PORTSDIR}/print/texlive-filehook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fileinfo/fileinfo.RLS:${PORTSDIR}/print/texlive-fileinfo \
 		${LOCALBASE}/share/texmf-dist/tex/generic/filemod/filemod.tex:${PORTSDIR}/print/texlive-filemod \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fink/fink.sty:${PORTSDIR}/print/texlive-fink \

@@ -1,0 +1,4 @@
+A document that both provides macros that are usable elsewhere,
+and demonstrates the macros. The code uses the "classical"
+analytical expansion of sin and cos (the more recent trig uses
+a "numerical analyst's" expansion).

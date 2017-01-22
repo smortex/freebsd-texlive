@@ -1,7 +1,7 @@
-TIMESTAMP = 1484540222
-SHA256 (TeXLive/ptex-fontmaps-20170116.tar.xz) = cbd41ede538ed3d095d5a2146e899064196e0189f1eecc8f55e2029e07b55178
-SIZE (TeXLive/ptex-fontmaps-20170116.tar.xz) = 33720
-SHA256 (TeXLive/ptex-fontmaps.doc-20170116.tar.xz) = 6d9044472cdeb6f6d4c2bfe8376f6741e6d0b45ab44dacce9e500b2d9339fd59
-SIZE (TeXLive/ptex-fontmaps.doc-20170116.tar.xz) = 8680
-SHA256 (TeXLive/ptex-fontmaps.source-20170116.tar.xz) = 6205b6ca34e34190c924f10868fdbb6e0af2d73fe16bd1f406e3a637dfe5e0c0
-SIZE (TeXLive/ptex-fontmaps.source-20170116.tar.xz) = 310412
+TIMESTAMP = 1485058672
+SHA256 (TeXLive/ptex-fontmaps-20170122.tar.xz) = 63103e6c9f323ce7867d124a16f1fee30334787c8a061b6643ab29a57876e80e
+SIZE (TeXLive/ptex-fontmaps-20170122.tar.xz) = 33724
+SHA256 (TeXLive/ptex-fontmaps.doc-20170122.tar.xz) = 91baca6b40a74bb601f14d6375b0d504f67b5848bb566fa7577b2d9340f088b1
+SIZE (TeXLive/ptex-fontmaps.doc-20170122.tar.xz) = 8680
+SHA256 (TeXLive/ptex-fontmaps.source-20170122.tar.xz) = 7a38cffaa3b2169690b99c3ec399ce79a5cf8971fdcad27a04449c9691305ee8
+SIZE (TeXLive/ptex-fontmaps.source-20170122.tar.xz) = 310416

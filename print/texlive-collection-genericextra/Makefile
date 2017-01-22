@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-genericextra
-PORTVERSION=	20160902
+PORTVERSION=	20170122
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -91,6 +91,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/tabto-generic/tabto.tex:${PORTSDIR}/print/texlive-tabto-generic \
 		${LOCALBASE}/share/texmf-dist/tex/generic/termmenu/termmenu.tex:${PORTSDIR}/print/texlive-termmenu \
 		${LOCALBASE}/share/texmf-dist/tex/generic/tracklang/tracklang.tex:${PORTSDIR}/print/texlive-tracklang \
+		${LOCALBASE}/share/texmf-dist/tex/generic/trigonometry/trigonometry.tex:${PORTSDIR}/print/texlive-trigonometry \
 		${LOCALBASE}/share/texmf-dist/tex/generic/texapi/texapi.tex:${PORTSDIR}/print/texlive-texapi \
 		${LOCALBASE}/share/texmf-dist/tex/generic/upca/upca.tex:${PORTSDIR}/print/texlive-upca \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xlop/xlop.sty:${PORTSDIR}/print/texlive-xlop \

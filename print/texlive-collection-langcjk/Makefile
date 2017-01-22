@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langcjk
-PORTVERSION=	20160414
+PORTVERSION=	20170122
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -53,6 +53,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/sfd/dnp/DNP.sfd:${PORTSDIR}/print/texlive-dnp \
 		${LOCALBASE}/share/texmf-dist/dvips/garuda-c90/config.garuda-c90:${PORTSDIR}/print/texlive-garuda-c90 \
 		${LOCALBASE}/share/texmf-dist/dvips/norasi-c90/config.norasi-c90:${PORTSDIR}/print/texlive-norasi-c90 \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pxtatescale/pxtatescale.sty:${PORTSDIR}/print/texlive-pxtatescale \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xcjk2uni/cmap/c0001.cmap:${PORTSDIR}/print/texlive-xcjk2uni \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zxjafont/zxjafont.sty:${PORTSDIR}/print/texlive-zxjafont
 

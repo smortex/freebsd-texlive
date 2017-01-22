@@ -1,9 +1,4 @@
-%%PORTDOCS%%share/texmf-dist/doc/luatex/nodetree/README.md
-%%PORTDOCS%%share/texmf-dist/doc/luatex/nodetree/nodetree.pdf
-%%PORTSRC%%share/texmf-dist/source/luatex/nodetree/nodetree.dtx
-%%PORTSRC%%share/texmf-dist/source/luatex/nodetree/nodetree.ins
-share/texmf-dist/tex/luatex/nodetree/nodetree.lua
-share/texmf-dist/tex/luatex/nodetree/nodetree.sty
-share/texmf-dist/tex/luatex/nodetree/nodetree.tex
+%%PORTDOCS%%share/texmf-dist/doc/generic/trigonometry/README.txt
+share/texmf-dist/tex/generic/trigonometry/trigonometry.tex
 @unexec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi
 @exec if [ -z ${WITHOUT_TEXLIVE_MKTEXLSR} ]; then echo "Updating ls-R databases..."; %D/bin/mktexlsr; else printf "WITHOUT_TEXLIVE_MKTEXLSR is set.  Not running mktexlsr(1).\\nYou MUST run mktexlsr(1) to update TeXLive installed files database.\\n"; fi

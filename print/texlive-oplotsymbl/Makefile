@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	aomart
+PORTNAME=	oplotsymbl
 PORTVERSION=	20170122
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Typeset articles for the Annals of Mathematics
+COMMENT=	some symbols, which are not easily available
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

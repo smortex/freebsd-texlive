@@ -1,6 +1,7 @@
-SHA256 (TeXLive/nodetree-20160719.tar.xz) = 5b1726bc232bb3a929f4da59e2fa73c7e8379c2eb3d454adcbf2f67e0a2b07f0
-SIZE (TeXLive/nodetree-20160719.tar.xz) = 1288
-SHA256 (TeXLive/nodetree.doc-20160719.tar.xz) = dcc261493a5464e3c36a1d3a5f1318f6f34656166f759c2adba7a32f60fe1857
-SIZE (TeXLive/nodetree.doc-20160719.tar.xz) = 376276
-SHA256 (TeXLive/nodetree.source-20160719.tar.xz) = 7abbaf27607522f018d7626244b1163eaad3de8c9cee282144624de3c02136ab
-SIZE (TeXLive/nodetree.source-20160719.tar.xz) = 11120
+TIMESTAMP = 1485059444
+SHA256 (TeXLive/nodetree-20170122.tar.xz) = 5170868958301b8bb787a855d7704cbd9e2dd82dd8683628c4117d14b64e40b2
+SIZE (TeXLive/nodetree-20170122.tar.xz) = 5364
+SHA256 (TeXLive/nodetree.doc-20170122.tar.xz) = 337bd4a74e4b47e95fbbeca95273de1d79f8a4348911f8b82facfc543d1b81ac
+SIZE (TeXLive/nodetree.doc-20170122.tar.xz) = 371936
+SHA256 (TeXLive/nodetree.source-20170122.tar.xz) = 4535e52ec508eba9a56a4eb5e511a4d7664e50159c9ad0a41697d74e50aff2af
+SIZE (TeXLive/nodetree.source-20170122.tar.xz) = 11116

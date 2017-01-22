@@ -611,6 +611,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/sgame/sgame.sty:${PORTSDIR}/print/texlive-sgame \
 		${LOCALBASE}/share/texmf-dist/tex/latex/skak/skak.sty:${PORTSDIR}/print/texlive-skak \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/skaknew/AlphaDia.afm:${PORTSDIR}/print/texlive-skaknew \
+		${LOCALBASE}/share/texmf-dist/tex/latex/soup/soup.sty:${PORTSDIR}/print/texlive-soup \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sudoku/sudoku.sty:${PORTSDIR}/print/texlive-sudoku \
 		${LOCALBASE}/share/texmf-dist/tex/latex/sudokubundle/createsudoku.sty:${PORTSDIR}/print/texlive-sudokubundle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xq/xq.sty:${PORTSDIR}/print/texlive-xq \
@@ -661,6 +662,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/generic/tabto-generic/tabto.tex:${PORTSDIR}/print/texlive-tabto-generic \
 		${LOCALBASE}/share/texmf-dist/tex/generic/termmenu/termmenu.tex:${PORTSDIR}/print/texlive-termmenu \
 		${LOCALBASE}/share/texmf-dist/tex/generic/tracklang/tracklang.tex:${PORTSDIR}/print/texlive-tracklang \
+		${LOCALBASE}/share/texmf-dist/tex/generic/trigonometry/trigonometry.tex:${PORTSDIR}/print/texlive-trigonometry \
 		${LOCALBASE}/share/texmf-dist/tex/generic/texapi/texapi.tex:${PORTSDIR}/print/texlive-texapi \
 		${LOCALBASE}/share/texmf-dist/tex/generic/upca/upca.tex:${PORTSDIR}/print/texlive-upca \
 		${LOCALBASE}/share/texmf-dist/tex/generic/xlop/xlop.sty:${PORTSDIR}/print/texlive-xlop \
@@ -757,6 +759,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/sfd/dnp/DNP.sfd:${PORTSDIR}/print/texlive-dnp \
 		${LOCALBASE}/share/texmf-dist/dvips/garuda-c90/config.garuda-c90:${PORTSDIR}/print/texlive-garuda-c90 \
 		${LOCALBASE}/share/texmf-dist/dvips/norasi-c90/config.norasi-c90:${PORTSDIR}/print/texlive-norasi-c90 \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pxtatescale/pxtatescale.sty:${PORTSDIR}/print/texlive-pxtatescale \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xcjk2uni/cmap/c0001.cmap:${PORTSDIR}/print/texlive-xcjk2uni \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zxjafont/zxjafont.sty:${PORTSDIR}/print/texlive-zxjafont \
 		${LOCALBASE}/share/texmf-dist/dvips/arphic/config.bkaiu:${PORTSDIR}/print/texlive-arphic \
@@ -1053,6 +1056,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancybox/fancybox.sty:${PORTSDIR}/print/texlive-fancybox \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancyref/fancyref.sty:${PORTSDIR}/print/texlive-fancyref \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty:${PORTSDIR}/print/texlive-fancyvrb \
+		${LOCALBASE}/share/texmf-dist/tex/latex/filehook/filehook.sty:${PORTSDIR}/print/texlive-filehook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/float/float.sty:${PORTSDIR}/print/texlive-float \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fontspec/fontspec.sty:${PORTSDIR}/print/texlive-fontspec \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fp/fp.sty:${PORTSDIR}/print/texlive-fp \
@@ -1613,13 +1617,13 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/fancytooltips/fancytooltips.sty:${PORTSDIR}/print/texlive-fancytooltips \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fcolumn/fcolumn.sty:${PORTSDIR}/print/texlive-fcolumn \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ffslides/ffslides.cls:${PORTSDIR}/print/texlive-ffslides \
+		${LOCALBASE}/share/texmf-dist/tex/latex/fgruler/fgruler.sty:${PORTSDIR}/print/texlive-fgruler \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fibeamer/beamerthemefibeamer.sty:${PORTSDIR}/print/texlive-fibeamer \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fifo-stack/fifo-stack.sty:${PORTSDIR}/print/texlive-fifo-stack \
 		${LOCALBASE}/share/texmf-dist/tex/latex/figsize/figsize.sty:${PORTSDIR}/print/texlive-figsize \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filecontents/filecontents.sty:${PORTSDIR}/print/texlive-filecontents \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filecontentsdef/filecontentsdef.sty:${PORTSDIR}/print/texlive-filecontentsdef \
 		${LOCALBASE}/share/texmf-dist/tex/latex/filedate/filedate.sty:${PORTSDIR}/print/texlive-filedate \
-		${LOCALBASE}/share/texmf-dist/tex/latex/filehook/filehook.sty:${PORTSDIR}/print/texlive-filehook \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fileinfo/fileinfo.RLS:${PORTSDIR}/print/texlive-fileinfo \
 		${LOCALBASE}/share/texmf-dist/tex/generic/filemod/filemod.tex:${PORTSDIR}/print/texlive-filemod \
 		${LOCALBASE}/share/texmf-dist/tex/latex/fink/fink.sty:${PORTSDIR}/print/texlive-fink \
@@ -2492,6 +2496,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/nuc/nuc.sty:${PORTSDIR}/print/texlive-nuc \
 		${LOCALBASE}/share/texmf-dist/tex/latex/nucleardata/nucleardata.sty:${PORTSDIR}/print/texlive-nucleardata \
 		${LOCALBASE}/share/texmf-dist/tex/latex/objectz/oz.sty:${PORTSDIR}/print/texlive-objectz \
+		${LOCALBASE}/share/texmf-dist/tex/latex/oplotsymbl/oplotsymbl.sty:${PORTSDIR}/print/texlive-oplotsymbl \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ot-tableau/ot-tableau.sty:${PORTSDIR}/print/texlive-ot-tableau \
 		${LOCALBASE}/share/texmf-dist/tex/latex/oubraces/oubraces.sty:${PORTSDIR}/print/texlive-oubraces \
 		${LOCALBASE}/share/texmf-dist/tex/latex/perfectcut/perfectcut.sty:${PORTSDIR}/print/texlive-perfectcut \

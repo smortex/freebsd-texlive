@@ -67,6 +67,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_075_vstraddled_retain_rowsep.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_080_never_pagebreak_in_float.chk
 %%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_080_never_pagebreak_in_float.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_085_allow_table_in_colspan.chk
+%%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/regression/test_085_allow_table_in_colspan.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/rowsep/test_10_waitrule.chk
 %%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/rowsep/test_10_waitrule.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/cals/test/rowsep/test_15_waitover.chk

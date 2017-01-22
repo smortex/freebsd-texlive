@@ -9,6 +9,7 @@ share/texmf-dist/bibtex/bst/aomart/aomplain.bst
 %%PORTDOCS%%share/texmf-dist/doc/latex/aomart/aomsample.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/aomart/aomsample1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/aomart/aomsample1.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/aomart/aomsample_doi.bib
 %%PORTDOCS%%share/texmf-dist/doc/latex/aomart/fullref.pl
 %%PORTSRC%%share/texmf-dist/source/latex/aomart/aomart.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/aomart/aomart.ins

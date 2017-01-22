@@ -1,7 +1,7 @@
-TIMESTAMP = 1480220590
-SHA256 (TeXLive/cals-20161126.tar.xz) = 3df3e28b75ff0832094007532b11d0a7089ec1aa048115267e8b8adbe0dcb705
-SIZE (TeXLive/cals-20161126.tar.xz) = 5084
-SHA256 (TeXLive/cals.doc-20161126.tar.xz) = 4208c2f5f59d43fed7cee006687b4eb172e447152d65e4e1fc4b321ac3136a6f
-SIZE (TeXLive/cals.doc-20161126.tar.xz) = 485920
-SHA256 (TeXLive/cals.source-20161126.tar.xz) = 75917bbc7689a5110f23fafe11141634be2400b54ca2d1b8fd017d00e05990af
-SIZE (TeXLive/cals.source-20161126.tar.xz) = 18676
+TIMESTAMP = 1485058892
+SHA256 (TeXLive/cals-20170122.tar.xz) = 501ab3840b4d0928de2090352db79cf76d72235e9ff0d1e2a7d0254343ee25ab
+SIZE (TeXLive/cals-20170122.tar.xz) = 5096
+SHA256 (TeXLive/cals.doc-20170122.tar.xz) = 8918de3b9ce4f4e751faf7091aba207c598ed78f250cc5fd3ba39d4186040571
+SIZE (TeXLive/cals.doc-20170122.tar.xz) = 486128
+SHA256 (TeXLive/cals.source-20170122.tar.xz) = 453955e7ea4b0d4948fb6ca4c6b82cc6844b3bd36a2dc7b2aa265cad535a91ec
+SIZE (TeXLive/cals.source-20170122.tar.xz) = 18724
