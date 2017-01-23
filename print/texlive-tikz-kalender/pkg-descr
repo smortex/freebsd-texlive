@@ -1,0 +1,5 @@
+For usage see the example files >>Kalender2016.tex<< and
+>>events2016.tex<<. The Code is inspired by this document and
+has the >>Creative Commons attribution license (CC-BY-SA)<<.
+The class tikz-kalender requires TikZ and the TikZ libraries
+calc and calendar.

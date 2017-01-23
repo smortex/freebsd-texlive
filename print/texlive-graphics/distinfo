@@ -1,7 +1,7 @@
-TIMESTAMP = 1478319055
-SHA256 (TeXLive/graphics-20161104.tar.xz) = cf419702c6a93ba3df75066e25c426c3f0e9795680a133eafd7bf96c7de5b3a4
-SIZE (TeXLive/graphics-20161104.tar.xz) = 14172
-SHA256 (TeXLive/graphics.doc-20161104.tar.xz) = f69c64f2e2b962448c94b5634d176b5a7905e935b9cfd119ae7682b848a9bf66
-SIZE (TeXLive/graphics.doc-20161104.tar.xz) = 1983816
-SHA256 (TeXLive/graphics.source-20161104.tar.xz) = b40e10acd26608caf7716f639b5ef8a829ee001699631854a5bab01a0d6538b2
-SIZE (TeXLive/graphics.source-20161104.tar.xz) = 50004
+TIMESTAMP = 1485144506
+SHA256 (TeXLive/graphics-20170123.tar.xz) = 3ba9f25367fbad7b05fd8891e0e68b5109f312e9df5dffbe44fc70a3e226d5cc
+SIZE (TeXLive/graphics-20170123.tar.xz) = 14164
+SHA256 (TeXLive/graphics.doc-20170123.tar.xz) = fa169626803c498464c31320ee09d5b54aaa98a9d044e01995b3bfb6a3a8ed9c
+SIZE (TeXLive/graphics.doc-20170123.tar.xz) = 2001600
+SHA256 (TeXLive/graphics.source-20170123.tar.xz) = 620cbd95f0a347f33eaf0ece819de8646f16f6d99694934d22fe81026281cc96
+SIZE (TeXLive/graphics.source-20170123.tar.xz) = 50000

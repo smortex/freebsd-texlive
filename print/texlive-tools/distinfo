@@ -1,6 +1,7 @@
-SHA256 (TeXLive/tools-20160714.tar.xz) = 8af6f29d124d652960761bf7e93ddae046d5819b21b1d8215c59d74c53f95146
-SIZE (TeXLive/tools-20160714.tar.xz) = 38980
-SHA256 (TeXLive/tools.doc-20160714.tar.xz) = 37d8990c05119e98d126719fa9cc21ed886f3916cbc843891bd284e88d89b4b1
-SIZE (TeXLive/tools.doc-20160714.tar.xz) = 5151636
-SHA256 (TeXLive/tools.source-20160714.tar.xz) = 277b07f2cb4cfb478517bdc4382d258b2d8b80e7257e263f9097550757ee11ba
-SIZE (TeXLive/tools.source-20160714.tar.xz) = 216240
+TIMESTAMP = 1485144516
+SHA256 (TeXLive/tools-20170123.tar.xz) = 0ad21f200aac8a30c0b473ac20aae006f8c04ba720386bb2c6403edc5c066cc3
+SIZE (TeXLive/tools-20170123.tar.xz) = 38972
+SHA256 (TeXLive/tools.doc-20170123.tar.xz) = 66241ee6fe0018f2bc2133de0038d338c90c836ac83086389b10768b7dbed9c3
+SIZE (TeXLive/tools.doc-20170123.tar.xz) = 5143216
+SHA256 (TeXLive/tools.source-20170123.tar.xz) = 0985606ff0ab5693d6d446a687006bdad12dd386933462cedc46c4bb75ad6474
+SIZE (TeXLive/tools.source-20170123.tar.xz) = 216356

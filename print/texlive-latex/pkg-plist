@@ -149,6 +149,7 @@ share/texmf-dist/makeindex/latex/gind.ist
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltnews23.tex
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltnews24.tex
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltnews25.tex
+%%PORTSRC%%share/texmf-dist/source/latex/base/ltnews26.tex
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltoutenc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltoutenc.ins
 %%PORTSRC%%share/texmf-dist/source/latex/base/ltoutput.dtx
@@ -325,6 +326,10 @@ share/texmf-dist/tex/latex/base/ts1cmtt.fd
 share/texmf-dist/tex/latex/base/ts1cmvtt.fd
 share/texmf-dist/tex/latex/base/ts1enc.def
 share/texmf-dist/tex/latex/base/ts1enc.dfu
+share/texmf-dist/tex/latex/base/tuenc.def
+share/texmf-dist/tex/latex/base/tulmr.fd
+share/texmf-dist/tex/latex/base/tulmss.fd
+share/texmf-dist/tex/latex/base/tulmtt.fd
 share/texmf-dist/tex/latex/base/ucmr.fd
 share/texmf-dist/tex/latex/base/ucmss.fd
 share/texmf-dist/tex/latex/base/ucmtt.fd

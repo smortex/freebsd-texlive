@@ -1,6 +1,7 @@
-SHA256 (TeXLive/amsmath-20160629.tar.xz) = 2c78756e62452742b6e4eba5f2227ae3f9a075a59f4b66cc2183ec034d297670
-SIZE (TeXLive/amsmath-20160629.tar.xz) = 29524
-SHA256 (TeXLive/amsmath.doc-20160629.tar.xz) = c5b2229edf6d32858b0fa212f9b91e4e5a1b9bcfad7f90d2cbd4d4ff0eb74134
-SIZE (TeXLive/amsmath.doc-20160629.tar.xz) = 2241396
-SHA256 (TeXLive/amsmath.source-20160629.tar.xz) = 77ebdc073a54fca913b0cba60f19052f88a5d4ebbc9afce588ceddf820003d79
-SIZE (TeXLive/amsmath.source-20160629.tar.xz) = 62496
+TIMESTAMP = 1485144499
+SHA256 (TeXLive/amsmath-20170123.tar.xz) = f7d0f18ec962c985e2daa13561aa0bd4c635d14041d18c2b5c38164b1618a502
+SIZE (TeXLive/amsmath-20170123.tar.xz) = 29876
+SHA256 (TeXLive/amsmath.doc-20170123.tar.xz) = 62020175523c631484e79e033a1902260920b3863b63f35ec8e699199e610398
+SIZE (TeXLive/amsmath.doc-20170123.tar.xz) = 2257508
+SHA256 (TeXLive/amsmath.source-20170123.tar.xz) = 3abd175fef0029b42070e048e263a218226c9957447a94db90df300ed3d10b6a
+SIZE (TeXLive/amsmath.source-20170123.tar.xz) = 63364
