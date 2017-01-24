@@ -1,6 +1,7 @@
-SHA256 (TeXLive/beamertheme-metropolis-20160414.tar.xz) = 1b69471ea0aba33defe917904447ba41c9ee959fe60919316baff73957296f55
-SIZE (TeXLive/beamertheme-metropolis-20160414.tar.xz) = 6244
-SHA256 (TeXLive/beamertheme-metropolis.doc-20160414.tar.xz) = 8310e0d46b8db3a0edbe4e8567e21de4a731b5614948568e33893a0d8567af92
-SIZE (TeXLive/beamertheme-metropolis.doc-20160414.tar.xz) = 181628
-SHA256 (TeXLive/beamertheme-metropolis.source-20160414.tar.xz) = 0167918db0691886442251d7d2d96b66741383b24003ae2bb5bddded0c763d69
-SIZE (TeXLive/beamertheme-metropolis.source-20160414.tar.xz) = 17736
+TIMESTAMP = 1485231635
+SHA256 (TeXLive/beamertheme-metropolis-20170124.tar.xz) = 9efabf4b4281decf72afa476cf8881940fbd6b65c7d4ddeea03b6452ff613bc1
+SIZE (TeXLive/beamertheme-metropolis-20170124.tar.xz) = 6556
+SHA256 (TeXLive/beamertheme-metropolis.doc-20170124.tar.xz) = 08de032a1d2c5b67507e51b57ff809598afdeb1c6831ef9e95e9fcdcfb747262
+SIZE (TeXLive/beamertheme-metropolis.doc-20170124.tar.xz) = 178704
+SHA256 (TeXLive/beamertheme-metropolis.source-20170124.tar.xz) = cf76b30efc07a3ce03075f5fb1919a4d264630ce177db93012154cd9eb441f06
+SIZE (TeXLive/beamertheme-metropolis.source-20170124.tar.xz) = 18424

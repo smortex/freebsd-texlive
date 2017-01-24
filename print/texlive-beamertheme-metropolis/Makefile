@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	beamertheme-metropolis
-PORTVERSION=	20160414
+PORTVERSION=	20170124
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

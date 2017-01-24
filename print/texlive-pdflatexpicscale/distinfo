@@ -1,5 +1,5 @@
-TIMESTAMP = 1477109419
-SHA256 (TeXLive/pdflatexpicscale-20161021.tar.xz) = 67a04273df250ee0ae44173036ee2d9da3e76bb71dbc16310b62b85150363200
-SIZE (TeXLive/pdflatexpicscale-20161021.tar.xz) = 2928
-SHA256 (TeXLive/pdflatexpicscale.doc-20161021.tar.xz) = 560a64f375c663088ca9d78725f68a02713229aafa673fcfc89b68261069d982
-SIZE (TeXLive/pdflatexpicscale.doc-20161021.tar.xz) = 193112
+TIMESTAMP = 1485231033
+SHA256 (TeXLive/pdflatexpicscale-20170124.tar.xz) = 7285d51e87c42722b2037cac33872dd0939b98f71e5fc198fb4c20d4792d876b
+SIZE (TeXLive/pdflatexpicscale-20170124.tar.xz) = 3068
+SHA256 (TeXLive/pdflatexpicscale.doc-20170124.tar.xz) = d15008eb71fb8e2f5e8a29963768ebc77c8f382a4d72a971df47b120b7b3cdb9
+SIZE (TeXLive/pdflatexpicscale.doc-20170124.tar.xz) = 86504

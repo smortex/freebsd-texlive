@@ -3,6 +3,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-metropolis/demo.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-metropolis/demo.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/beamertheme-metropolis/metropolistheme.pdf
+%%PORTSRC%%share/texmf-dist/source/latex/beamertheme-metropolis/beamercolorthememetropolis-highcontrast.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/beamertheme-metropolis/beamercolorthememetropolis.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/beamertheme-metropolis/beamerfontthememetropolis.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/beamertheme-metropolis/beamerinnerthememetropolis.dtx
@@ -11,6 +12,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/beamertheme-metropolis/beamerthememetropolis.ins
 %%PORTSRC%%share/texmf-dist/source/latex/beamertheme-metropolis/metropolistheme.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/beamertheme-metropolis/pgfplotsthemetol.dtx
+share/texmf-dist/tex/latex/beamertheme-metropolis/beamercolorthememetropolis-highcontrast.sty
 share/texmf-dist/tex/latex/beamertheme-metropolis/beamercolorthememetropolis.sty
 share/texmf-dist/tex/latex/beamertheme-metropolis/beamerfontthememetropolis.sty
 share/texmf-dist/tex/latex/beamertheme-metropolis/beamerinnerthememetropolis.sty
