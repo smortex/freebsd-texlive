@@ -1,6 +1,7 @@
-SHA256 (TeXLive/babel-english-20160414.tar.xz) = 24fc008be6efc038ad1de55e2757bac74e9ff55e84aae9d476088ac11df1a1a1
-SIZE (TeXLive/babel-english-20160414.tar.xz) = 2700
-SHA256 (TeXLive/babel-english.doc-20160414.tar.xz) = 947a70846599d09dcd2ad49d793d90b27ff6820b000fc4d3b4716033469b2e8d
-SIZE (TeXLive/babel-english.doc-20160414.tar.xz) = 127964
-SHA256 (TeXLive/babel-english.source-20160414.tar.xz) = 92b00234b053b5777070dac6ce2a58ddd1557c33d12a2eed6b2a87b2c9899dc2
-SIZE (TeXLive/babel-english.source-20160414.tar.xz) = 6076
+TIMESTAMP = 1485317282
+SHA256 (TeXLive/babel-english-20170125.tar.xz) = e0b8962574ad4923a1f82691fa1e2e084ff36dee207476a6f1f41a2930a831f9
+SIZE (TeXLive/babel-english-20170125.tar.xz) = 3056
+SHA256 (TeXLive/babel-english.doc-20170125.tar.xz) = 0dd7030b555c1a27860c947c46312f5854b8c817cc1ebf2794eac60c7455f171
+SIZE (TeXLive/babel-english.doc-20170125.tar.xz) = 130752
+SHA256 (TeXLive/babel-english.source-20170125.tar.xz) = 8046b8ad089ba21297425527af0f07f86f7efcf7aa9c0fafcbc81555535146cd
+SIZE (TeXLive/babel-english.source-20170125.tar.xz) = 6252

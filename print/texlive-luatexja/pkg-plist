@@ -39,6 +39,7 @@
 share/texmf-dist/tex/luatex/luatexja/addons/luatexja-adjust.sty
 share/texmf-dist/tex/luatex/luatexja/addons/luatexja-ajmacros.sty
 share/texmf-dist/tex/luatex/luatexja/addons/luatexja-fontspec-24.sty
+share/texmf-dist/tex/luatex/luatexja/addons/luatexja-fontspec-25c.sty
 share/texmf-dist/tex/luatex/luatexja/addons/luatexja-fontspec.sty
 share/texmf-dist/tex/luatex/luatexja/addons/luatexja-otf.sty
 share/texmf-dist/tex/luatex/luatexja/addons/luatexja-preset.sty

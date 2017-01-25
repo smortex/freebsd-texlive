@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	biblatex-anonymous
-PORTVERSION=	20161025
+PORTVERSION=	20170125
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
