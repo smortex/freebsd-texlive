@@ -1,7 +1,7 @@
-TIMESTAMP = 1485144508
-SHA256 (TeXLive/latex-20170123.tar.xz) = 29c3d01822057fb87ab5d2669e401f3ffc81b51176e561481e206da8c296dc42
-SIZE (TeXLive/latex-20170123.tar.xz) = 168088
-SHA256 (TeXLive/latex.doc-20170123.tar.xz) = f3822c804269840828b3adcd8479b1a0892bd0fe4d0b3f82806fc0dbaa5c2317
-SIZE (TeXLive/latex.doc-20170123.tar.xz) = 12540180
-SHA256 (TeXLive/latex.source-20170123.tar.xz) = fdbff46b07276191b7f78597aae9a69ed9f0da5952f2b38c90dc788873daed7d
-SIZE (TeXLive/latex.source-20170123.tar.xz) = 510408
+TIMESTAMP = 1485490103
+SHA256 (TeXLive/latex-20170127.tar.xz) = 3b7a7952d479610b0ca6f142a2d07d20dee36761b8792a1979995bb25e1c7269
+SIZE (TeXLive/latex-20170127.tar.xz) = 168252
+SHA256 (TeXLive/latex.doc-20170127.tar.xz) = d35c1d95e9c239622f5765b5b43b16096c5c06dc4ceab0c70ab291bea7fd8a3e
+SIZE (TeXLive/latex.doc-20170127.tar.xz) = 12542640
+SHA256 (TeXLive/latex.source-20170127.tar.xz) = dd801738535df83d84f00dd1779b441fb12420eecb0adde8e728c542ef119d92
+SIZE (TeXLive/latex.source-20170127.tar.xz) = 510548
