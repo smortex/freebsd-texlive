@@ -1,13 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	bxjscls
+PORTNAME=	simple-resume-cv
 PORTVERSION=	20170128
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Japanese document class collection for all major engines
+COMMENT=	Template for a simple resume or curriculum vitae (CV), in XeLaTeX
 
-OPTIONS_DEFINE=	DOCS SRCS
+OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
 
 .include "${.CURDIR}/../../print/texlive-core/bsd.texlive.mk"

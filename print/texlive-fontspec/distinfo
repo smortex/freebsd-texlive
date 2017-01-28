@@ -1,7 +1,7 @@
-TIMESTAMP = 1485145116
-SHA256 (TeXLive/fontspec-20170123.tar.xz) = e8ea5a2119ab93c68e9b3c211e1173b326e276870994eedd2f0148cbf98e3c1f
-SIZE (TeXLive/fontspec-20170123.tar.xz) = 31992
-SHA256 (TeXLive/fontspec.doc-20170123.tar.xz) = 1e85b617dbdee79e98ff27baf69985c2bf8be27aab3dc9b84ac9bfe62e105c4a
-SIZE (TeXLive/fontspec.doc-20170123.tar.xz) = 856976
-SHA256 (TeXLive/fontspec.source-20170123.tar.xz) = 309134fd0ba2642d00057fdd9de06bad530382e219d1364afed9ea11c5136bc4
-SIZE (TeXLive/fontspec.source-20170123.tar.xz) = 857256
+TIMESTAMP = 1485577138
+SHA256 (TeXLive/fontspec-20170128.tar.xz) = a382c631c52ba16865e3b992a5e6be398ac2745546211a6577c2d35c86af4422
+SIZE (TeXLive/fontspec-20170128.tar.xz) = 24368
+SHA256 (TeXLive/fontspec.doc-20170128.tar.xz) = ef1f3f2463f0a7cb253ef17d284432d4def31c5724052c08027cd4ce4f8e60f6
+SIZE (TeXLive/fontspec.doc-20170128.tar.xz) = 883012
+SHA256 (TeXLive/fontspec.source-20170128.tar.xz) = 45562c38e717e60108537911efa0d9980b485bdcc007d6aea50e22814d24ef4f
+SIZE (TeXLive/fontspec.source-20170128.tar.xz) = 74680

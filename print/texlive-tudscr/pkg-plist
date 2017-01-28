@@ -48,6 +48,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/tudscr-misc.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/tudscr-pagestyle.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/tudscr-supervisor.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/tudscr/tudscr-texindy.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/tudscr-title.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/tudscr-twocolfix.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/tudscr/tudscr-version.dtx

@@ -1,6 +1,7 @@
-SHA256 (TeXLive/dox-20160414.tar.xz) = 98154258347a91ff6de89874cf004f757dea2b0cfb5e35b8315c3e3d99a2ddbb
-SIZE (TeXLive/dox-20160414.tar.xz) = 2576
-SHA256 (TeXLive/dox.doc-20160414.tar.xz) = befb082cb2edb286ae2c3ddd6bc882e5878fa4f9dab6f34120499e797dbb06a1
-SIZE (TeXLive/dox.doc-20160414.tar.xz) = 127176
-SHA256 (TeXLive/dox.source-20160414.tar.xz) = 7ea72cce26e6ca17bbc1f9b83e45d2e28986e2a16144d2929f3460e91526eed7
-SIZE (TeXLive/dox.source-20160414.tar.xz) = 8128
+TIMESTAMP = 1485577393
+SHA256 (TeXLive/dox-20170128.tar.xz) = c5a69432c86c87bead35cc8e772195e7ae8120bde393f38ff47764038aed88f4
+SIZE (TeXLive/dox-20170128.tar.xz) = 2696
+SHA256 (TeXLive/dox.doc-20170128.tar.xz) = d8a98070bddf73e46d71ee14dc1b2cab78753cebe14fd1f9ead6789f43124a66
+SIZE (TeXLive/dox.doc-20170128.tar.xz) = 131276
+SHA256 (TeXLive/dox.source-20170128.tar.xz) = bacb9d75762c256029e3613b876e5b0391468c4aacc64a5b574d1bbc1c254bca
+SIZE (TeXLive/dox.source-20170128.tar.xz) = 8396

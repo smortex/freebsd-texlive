@@ -1,7 +1,7 @@
-TIMESTAMP = 1483244515
-SHA256 (TeXLive/forest-20170101.tar.xz) = 0322529912572b81fc2b9bba6060737ac6fd07dbd81df69fbc6190bf989675c0
-SIZE (TeXLive/forest-20170101.tar.xz) = 55744
-SHA256 (TeXLive/forest.doc-20170101.tar.xz) = 57a01e67a7954c3a0f10f945ebec1a68576db2344c72456973015551b4b68fcb
-SIZE (TeXLive/forest.doc-20170101.tar.xz) = 1741312
-SHA256 (TeXLive/forest.source-20170101.tar.xz) = 7d5b8bc72cfe89a61882e953e53294a3ed6a27b6c364550c335617c29b6ad324
-SIZE (TeXLive/forest.source-20170101.tar.xz) = 75764
+TIMESTAMP = 1485577181
+SHA256 (TeXLive/forest-20170128.tar.xz) = c01233cefbc7a24f048aaef267c82e8aed1a1783300434be1781c78c3edb6ba6
+SIZE (TeXLive/forest-20170128.tar.xz) = 55764
+SHA256 (TeXLive/forest.doc-20170128.tar.xz) = 375fe7f2d6a66f1263269efb04677eb1663c4516ca1f142bb9dc0c95973e68a5
+SIZE (TeXLive/forest.doc-20170128.tar.xz) = 1792388
+SHA256 (TeXLive/forest.source-20170128.tar.xz) = e6f1cf2299b3806d5f5749c646630bbf4339773c5fe08aac19f122e03d7ae8e7
+SIZE (TeXLive/forest.source-20170128.tar.xz) = 75808

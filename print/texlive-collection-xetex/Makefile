@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-xetex
-PORTVERSION=	20161129
+PORTVERSION=	20170128
 PORTEPOCH=	1
 CATEGORIES=	print
 DISTFILES=	# None
@@ -61,6 +61,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/ptext/ptext.sty:${PORTSDIR}/print/texlive-ptext \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/quran/quran.sty:${PORTSDIR}/print/texlive-quran \
 		${LOCALBASE}/share/texmf-dist/tex/latex/realscripts/realscripts.sty:${PORTSDIR}/print/texlive-realscripts \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/simple-resume-cv/simpleresumecv.cls:${PORTSDIR}/print/texlive-simple-resume-cv \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/simple-thesis-dissertation/simplethesisdissertation.cls:${PORTSDIR}/print/texlive-simple-thesis-dissertation \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty:${PORTSDIR}/print/texlive-ucharclasses \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/unicode-bidi/unicode-bidi.sty:${PORTSDIR}/print/texlive-unicode-bidi \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/unisugar/unisugar.sty:${PORTSDIR}/print/texlive-unisugar \
