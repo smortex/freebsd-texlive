@@ -1,6 +1,7 @@
-SHA256 (TeXLive/breqn-20160414.tar.xz) = c14415a7f39537abbb7bf3e0995b7834e886a07823ff75170cce35033df3114c
-SIZE (TeXLive/breqn-20160414.tar.xz) = 24328
-SHA256 (TeXLive/breqn.doc-20160414.tar.xz) = b3d34401bc0e3dce04454e04016d34562f4e6e6df269f6ff437cdc5765f5b771
-SIZE (TeXLive/breqn.doc-20160414.tar.xz) = 1061288
-SHA256 (TeXLive/breqn.source-20160414.tar.xz) = f8786a5ca45c7f81c52d5b5d715cd7116fd2f9c8df88c2e173c316ddd633f6c3
-SIZE (TeXLive/breqn.source-20160414.tar.xz) = 80404
+TIMESTAMP = 1485663503
+SHA256 (TeXLive/breqn-20170129.tar.xz) = 69669cbdccc68b54f4b5b925c98198eccf39515c987a176aa4b68d6ac70dffa8
+SIZE (TeXLive/breqn-20170129.tar.xz) = 24292
+SHA256 (TeXLive/breqn.doc-20170129.tar.xz) = 4894015f5e99b9cbd12473622a9da8d12e7b417492e2536b50a7e3e0e0a0fa6f
+SIZE (TeXLive/breqn.doc-20170129.tar.xz) = 1061620
+SHA256 (TeXLive/breqn.source-20170129.tar.xz) = 63a1c3492ac84e73376122417235097151a5f9937143c44e35c3ef72d41fb901
+SIZE (TeXLive/breqn.source-20170129.tar.xz) = 80132

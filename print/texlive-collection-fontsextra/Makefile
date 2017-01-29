@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-fontsextra
-PORTVERSION=	20170106
+PORTVERSION=	20170129
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -221,6 +221,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/mintspirit/mintspirit.sty:${PORTSDIR}/print/texlive-mintspirit \
 		${LOCALBASE}/share/texmf-dist/tex/latex/missaali/missaali.sty:${PORTSDIR}/print/texlive-missaali \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc:${PORTSDIR}/print/texlive-mnsymbol \
+		${LOCALBASE}/share/texmf-dist/tex/latex/montserrat/montserrat.sty:${PORTSDIR}/print/texlive-montserrat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mweights/mweights.sty:${PORTSDIR}/print/texlive-mweights \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/newpx/TeXGyrePagella-Regular.afm:${PORTSDIR}/print/texlive-newpx \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/newtx/ntxsups-Bold.afm:${PORTSDIR}/print/texlive-newtx \
