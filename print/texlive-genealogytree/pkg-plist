@@ -2,6 +2,7 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/genealogytree/genealogytree-example-1.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/genealogytree/genealogytree-example-2.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/genealogytree/genealogytree-example-3.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/genealogytree/genealogytree-languages.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/genealogytree/genealogytree.doc.sources.zip
 %%PORTDOCS%%share/texmf-dist/doc/latex/genealogytree/genealogytree.pdf
 share/texmf-dist/tex/latex/genealogytree/genealogytree.sty
@@ -12,7 +13,9 @@ share/texmf-dist/tex/latex/genealogytree/gtrcore.options.code.tex
 share/texmf-dist/tex/latex/genealogytree/gtrcore.parser.code.tex
 share/texmf-dist/tex/latex/genealogytree/gtrcore.processing.code.tex
 share/texmf-dist/tex/latex/genealogytree/gtrcore.symbols.code.tex
+share/texmf-dist/tex/latex/genealogytree/gtrlang.danish.code.tex
 share/texmf-dist/tex/latex/genealogytree/gtrlang.english.code.tex
+share/texmf-dist/tex/latex/genealogytree/gtrlang.french.code.tex
 share/texmf-dist/tex/latex/genealogytree/gtrlang.german.code.tex
 share/texmf-dist/tex/latex/genealogytree/gtrlib.debug.code.tex
 share/texmf-dist/tex/latex/genealogytree/gtrlib.templates.code.tex

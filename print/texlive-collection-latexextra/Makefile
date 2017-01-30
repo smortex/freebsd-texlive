@@ -48,7 +48,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/amscls/amsalpha.bst:${PORTSDIR}/print/texlive-amscls \
 		${LOCALBASE}/share/texmf-dist/tex/latex/amsmath/amsmath.sty:${PORTSDIR}/print/texlive-amsmath \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel/babel.sty:${PORTSDIR}/print/texlive-babel \
-		${LOCALBASE}/share/texmf-dist/tex/generic/babel-english/english.ldf:${PORTSDIR}/print/texlive-babel-english \
+		${LOCALBASE}/share/texmf-dist/tex/generic/babel-english/american.ldf:${PORTSDIR}/print/texlive-babel-english \
 		${LOCALBASE}/share/texmf-dist/tex/latex/babelbib/babelbib.sty:${PORTSDIR}/print/texlive-babelbib \
 		${LOCALBASE}/share/texmf-dist/tex/latex/carlisle/dotlessj.sty:${PORTSDIR}/print/texlive-carlisle \
 		${LOCALBASE}/share/texmf-dist/tex/latex/colortbl/colortbl.sty:${PORTSDIR}/print/texlive-colortbl \
@@ -182,7 +182,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/here/here.sty:${PORTSDIR}/print/texlive-here \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hf-tikz/hf-tikz.sty:${PORTSDIR}/print/texlive-hf-tikz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hobby/hobby.code.tex:${PORTSDIR}/print/texlive-hobby \
-		${LOCALBASE}/share/texmf-dist/tex/latex/hvfloat/hvfloat.sty:${PORTSDIR}/print/texlive-hvfloat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/knitting/knitting.sty:${PORTSDIR}/print/texlive-knitting \
 		${LOCALBASE}/share/texmf-dist/tex/latex/knittingpattern/knittingpattern.cls:${PORTSDIR}/print/texlive-knittingpattern \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lapdf/lapdf.sty:${PORTSDIR}/print/texlive-lapdf \
