@@ -20,7 +20,7 @@ share/texmf-dist/scripts/luaotfload/mktests
 %%PORTSRC%%share/texmf-dist/source/luatex/luaotfload/luaotfload-main.tex
 %%PORTSRC%%share/texmf-dist/source/luatex/luaotfload/luaotfload-tool.rst
 %%PORTSRC%%share/texmf-dist/source/luatex/luaotfload/luaotfload.conf.rst
-share/texmf-dist/tex/luatex/luaotfload/fontloader-2016-06-16.lua
+share/texmf-dist/tex/luatex/luaotfload/fontloader-2017-01-29.lua
 share/texmf-dist/tex/luatex/luaotfload/fontloader-basics-gen.lua
 share/texmf-dist/tex/luatex/luaotfload/fontloader-basics-nod.lua
 share/texmf-dist/tex/luatex/luaotfload/fontloader-basics.tex
@@ -40,7 +40,7 @@ share/texmf-dist/tex/luatex/luaotfload/fontloader-font-one.lua
 share/texmf-dist/tex/luatex/luaotfload/fontloader-font-onr.lua
 share/texmf-dist/tex/luatex/luaotfload/fontloader-font-osd.lua
 share/texmf-dist/tex/luatex/luaotfload/fontloader-font-ota.lua
-share/texmf-dist/tex/luatex/luaotfload/fontloader-font-otd.lua
+share/texmf-dist/tex/luatex/luaotfload/fontloader-font-otc.lua
 share/texmf-dist/tex/luatex/luaotfload/fontloader-font-oti.lua
 share/texmf-dist/tex/luatex/luaotfload/fontloader-font-otj.lua
 share/texmf-dist/tex/luatex/luaotfload/fontloader-font-otl.lua
