@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	actuarialangle
-PORTVERSION=	20160414
+PORTVERSION=	20170203
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

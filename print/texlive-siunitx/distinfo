@@ -1,7 +1,7 @@
-TIMESTAMP = 1485750889
-SHA256 (TeXLive/siunitx-20170130.tar.xz) = 187fc861c888a70730b9d56eb5ae6328f35100ab0d5fe283401f893231a62015
-SIZE (TeXLive/siunitx-20170130.tar.xz) = 35052
-SHA256 (TeXLive/siunitx.doc-20170130.tar.xz) = bdb2f6d7a8eca3d1e550dadfd1b4c5e0f6d8e4fb1c2c8fdee51febe9f198af0f
-SIZE (TeXLive/siunitx.doc-20170130.tar.xz) = 609220
-SHA256 (TeXLive/siunitx.source-20170130.tar.xz) = 660eb5df4e6fe90a1b895b8f3fb8eb387868c1338f75c3b4f4b6c3f32042cfb7
-SIZE (TeXLive/siunitx.source-20170130.tar.xz) = 103956
+TIMESTAMP = 1486096372
+SHA256 (TeXLive/siunitx-20170203.tar.xz) = 2b5bc9cd3956ec58426518baf9ffd48e0b169221fd2492ca3ff9317d5cea0f59
+SIZE (TeXLive/siunitx-20170203.tar.xz) = 35028
+SHA256 (TeXLive/siunitx.doc-20170203.tar.xz) = a947129fba804e8faca1a800542187f1ba45f81197b5ee4e5a45f4e32317ec5f
+SIZE (TeXLive/siunitx.doc-20170203.tar.xz) = 609472
+SHA256 (TeXLive/siunitx.source-20170203.tar.xz) = bcefd30207f6ef2e73dc4002872f975e566dc4066f286e97c686b00227829a9a
+SIZE (TeXLive/siunitx.source-20170203.tar.xz) = 103932
