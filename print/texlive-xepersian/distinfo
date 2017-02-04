@@ -1,7 +1,7 @@
-TIMESTAMP = 1484626501
-SHA256 (TeXLive/xepersian-20170117.tar.xz) = 9c31ba03e82eb2570dee21f858d0614dc2138e8c07463fd85d1d38a7d0488701
-SIZE (TeXLive/xepersian-20170117.tar.xz) = 39324
-SHA256 (TeXLive/xepersian.doc-20170117.tar.xz) = f388109b30b6cbb25f748e9003cbd47712c650037bd40ea7ad5fe023b0f098c5
-SIZE (TeXLive/xepersian.doc-20170117.tar.xz) = 978272
-SHA256 (TeXLive/xepersian.source-20170117.tar.xz) = 7e8e0848ad2517eec32d94fbb88557404f1d6767cf7ffcdf1485e36a498de8f2
-SIZE (TeXLive/xepersian.source-20170117.tar.xz) = 71732
+TIMESTAMP = 1486182015
+SHA256 (TeXLive/xepersian-20170204.tar.xz) = fd77e3af2a00af9e8c930ea36d209cda54acdc5103de59345a823f6cb0a3aac6
+SIZE (TeXLive/xepersian-20170204.tar.xz) = 39364
+SHA256 (TeXLive/xepersian.doc-20170204.tar.xz) = 959e4b6cb59d6b6ba5e8d115fa37f753276f4ea4fcb6cd15d9e63902d9647637
+SIZE (TeXLive/xepersian.doc-20170204.tar.xz) = 976612
+SHA256 (TeXLive/xepersian.source-20170204.tar.xz) = e2d3ae9504d0a507bd9fb656812b4b90bd8dd473ef51e07e874506ae63f2cc47
+SIZE (TeXLive/xepersian.source-20170204.tar.xz) = 72200
