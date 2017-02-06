@@ -1,6 +1,7 @@
-SHA256 (TeXLive/lualibs-20160414.tar.xz) = 2cf8e27ccf30334147b86c6d5af3f04bfdc8d715abf315608164769f2bf4376e
-SIZE (TeXLive/lualibs-20160414.tar.xz) = 102164
-SHA256 (TeXLive/lualibs.doc-20160414.tar.xz) = 73df89138a2c84c9f286575f278148f4fa3196ec8578004b43c36a23c847db24
-SIZE (TeXLive/lualibs.doc-20160414.tar.xz) = 83788
-SHA256 (TeXLive/lualibs.source-20160414.tar.xz) = 3c0ecd1c1a7165dc8a1d50b6baf822e707b4ac8a8262c90cf9ec01d902e66d34
-SIZE (TeXLive/lualibs.source-20160414.tar.xz) = 11344
+TIMESTAMP = 1486355658
+SHA256 (TeXLive/lualibs-20170206.tar.xz) = b086536168b3f38a0f8841d653e3fc235325eab1aa2aeef26497875ca51e1d93
+SIZE (TeXLive/lualibs-20170206.tar.xz) = 73684
+SHA256 (TeXLive/lualibs.doc-20170206.tar.xz) = c9b58e00a3ae1ef90035ea08690d0d49dfe8ba31d7e8f61290739142a8aece02
+SIZE (TeXLive/lualibs.doc-20170206.tar.xz) = 93576
+SHA256 (TeXLive/lualibs.source-20170206.tar.xz) = c52a5cb1fead5696718e89f78f6d77ec6314926e916c9f91923a649ec04a27ec
+SIZE (TeXLive/lualibs.source-20170206.tar.xz) = 11416

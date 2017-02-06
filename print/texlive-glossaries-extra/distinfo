@@ -1,7 +1,7 @@
-TIMESTAMP = 1484886260
-SHA256 (TeXLive/glossaries-extra-20170120.tar.xz) = 55776556f3ab14968fb76e68372fdc71c2c9b8f0e9a6b9ee8f6c690f1932e755
-SIZE (TeXLive/glossaries-extra-20170120.tar.xz) = 24868
-SHA256 (TeXLive/glossaries-extra.doc-20170120.tar.xz) = 7b7553d9af52be5c2a49f1480a800c7a318477adf449f8f47e150ab154b4e8e5
-SIZE (TeXLive/glossaries-extra.doc-20170120.tar.xz) = 3535308
-SHA256 (TeXLive/glossaries-extra.source-20170120.tar.xz) = 0f53395ff4f3c28e07c89ff91bcb1a94868ceaa5da8cb8655cd4e3cfc8d9d51b
-SIZE (TeXLive/glossaries-extra.source-20170120.tar.xz) = 49056
+TIMESTAMP = 1486355281
+SHA256 (TeXLive/glossaries-extra-20170206.tar.xz) = 202e2cfc2ae9f481745a64fb7f5e67d2b2e35c569fc69cdf3fffb971dfe8d880
+SIZE (TeXLive/glossaries-extra-20170206.tar.xz) = 27112
+SHA256 (TeXLive/glossaries-extra.doc-20170206.tar.xz) = 9aece9912563ac40198ee11aeffcd3c49ad343b7ecdf563358f3b0b76086c6a5
+SIZE (TeXLive/glossaries-extra.doc-20170206.tar.xz) = 3773228
+SHA256 (TeXLive/glossaries-extra.source-20170206.tar.xz) = ce11dc6cb14585e98d76734a11a299fe464415ffc06fc25e889c82283f102afe
+SIZE (TeXLive/glossaries-extra.source-20170206.tar.xz) = 53564

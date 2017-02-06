@@ -186,6 +186,8 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/ptext/ptext.sty:${PORTSDIR}/print/texlive-ptext \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/quran/quran.sty:${PORTSDIR}/print/texlive-quran \
 		${LOCALBASE}/share/texmf-dist/tex/latex/realscripts/realscripts.sty:${PORTSDIR}/print/texlive-realscripts \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/simple-resume-cv/simpleresumecv.cls:${PORTSDIR}/print/texlive-simple-resume-cv \
+		${LOCALBASE}/share/texmf-dist/tex/xelatex/simple-thesis-dissertation/simplethesisdissertation.cls:${PORTSDIR}/print/texlive-simple-thesis-dissertation \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty:${PORTSDIR}/print/texlive-ucharclasses \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/unicode-bidi/unicode-bidi.sty:${PORTSDIR}/print/texlive-unicode-bidi \
 		${LOCALBASE}/share/texmf-dist/tex/xelatex/unisugar/unisugar.sty:${PORTSDIR}/print/texlive-unisugar \
@@ -207,7 +209,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/source/jknappen/ec/ecbi.mf:${PORTSDIR}/print/texlive-ec \
 		${LOCALBASE}/share/texmf-dist/tex/latex/eurosym/eurosym.sty:${PORTSDIR}/print/texlive-eurosym \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/lm/lmb10.afm:${PORTSDIR}/print/texlive-lm \
-		${LOCALBASE}/share/texmf-dist/tex/luatex/lualibs/lualibs-basic-merged.lua:${PORTSDIR}/print/texlive-lualibs \
+		${LOCALBASE}/share/texmf-dist/tex/luatex/lualibs/lualibs-basic.lua:${PORTSDIR}/print/texlive-lualibs \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luaotfload/luaotfload.sty:${PORTSDIR}/print/texlive-luaotfload \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexbase/luatexbase.sty:${PORTSDIR}/print/texlive-luatexbase \
 		${LOCALBASE}/share/texmf-dist/bibtex/bst/revtex/aipauth4-1.bst:${PORTSDIR}/print/texlive-revtex \

@@ -1,7 +1,7 @@
-TIMESTAMP = 1482034732
-SHA256 (TeXLive/babel-japanese-20161218.tar.xz) = 8b4f9c1ddf731598620362af6a5b74fdd0d7a1cdd9b79a3239d73a866f461f17
-SIZE (TeXLive/babel-japanese-20161218.tar.xz) = 2572
-SHA256 (TeXLive/babel-japanese.doc-20161218.tar.xz) = fe369b6da82e14a4c686ead73a5db1b8abf817dcbb9a9a0e7233cb20c8b03e4c
-SIZE (TeXLive/babel-japanese.doc-20161218.tar.xz) = 167472
-SHA256 (TeXLive/babel-japanese.source-20161218.tar.xz) = a22966934e732dc531fa16c8202f7943242ddfc8627db9d41311767709c066ce
-SIZE (TeXLive/babel-japanese.source-20161218.tar.xz) = 6208
+TIMESTAMP = 1486354853
+SHA256 (TeXLive/babel-japanese-20170206.tar.xz) = 9c2340cf3b67102630bcca2b851ac272e33a610df2e24bf0d414c5d0481e5dda
+SIZE (TeXLive/babel-japanese-20170206.tar.xz) = 2892
+SHA256 (TeXLive/babel-japanese.doc-20170206.tar.xz) = 2dc8fa9479e5b60c2b2c021a6b45ce7edded29cd663598a246d6ada2a068953f
+SIZE (TeXLive/babel-japanese.doc-20170206.tar.xz) = 175676
+SHA256 (TeXLive/babel-japanese.source-20170206.tar.xz) = d2a2135c9dd37ddcfe11f474f3c100f92b3db845da40a3363863afc3b23dfcc8
+SIZE (TeXLive/babel-japanese.source-20170206.tar.xz) = 6772

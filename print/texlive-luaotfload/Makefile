@@ -1,13 +1,13 @@
 # $FreeBSD$
 
 PORTNAME=	luaotfload
-PORTVERSION=	20170131
+PORTVERSION=	20170206
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
 COMMENT=	OpenType 'loader' for Plain TeX and LaTeX
 
-RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/luatex/lualibs/lualibs-basic-merged.lua:${PORTSDIR}/print/texlive-lualibs \
+RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/tex/luatex/lualibs/lualibs-basic.lua:${PORTSDIR}/print/texlive-lualibs \
 		${LOCALBASE}/bin/tex:${PORTSDIR}/print/texlive-core
 
 OPTIONS_DEFINE=	DOCS SRCS

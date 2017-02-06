@@ -458,6 +458,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/mintspirit/mintspirit.sty:${PORTSDIR}/print/texlive-mintspirit \
 		${LOCALBASE}/share/texmf-dist/tex/latex/missaali/missaali.sty:${PORTSDIR}/print/texlive-missaali \
 		${LOCALBASE}/share/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc:${PORTSDIR}/print/texlive-mnsymbol \
+		${LOCALBASE}/share/texmf-dist/tex/latex/montserrat/montserrat.sty:${PORTSDIR}/print/texlive-montserrat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/mweights/mweights.sty:${PORTSDIR}/print/texlive-mweights \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/newpx/TeXGyrePagella-Regular.afm:${PORTSDIR}/print/texlive-newpx \
 		${LOCALBASE}/share/texmf-dist/fonts/afm/public/newtx/ntxsups-Bold.afm:${PORTSDIR}/print/texlive-newtx \
@@ -1151,7 +1152,6 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/here/here.sty:${PORTSDIR}/print/texlive-here \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hf-tikz/hf-tikz.sty:${PORTSDIR}/print/texlive-hf-tikz \
 		${LOCALBASE}/share/texmf-dist/tex/latex/hobby/hobby.code.tex:${PORTSDIR}/print/texlive-hobby \
-		${LOCALBASE}/share/texmf-dist/tex/latex/hvfloat/hvfloat.sty:${PORTSDIR}/print/texlive-hvfloat \
 		${LOCALBASE}/share/texmf-dist/tex/latex/knitting/knitting.sty:${PORTSDIR}/print/texlive-knitting \
 		${LOCALBASE}/share/texmf-dist/tex/latex/knittingpattern/knittingpattern.cls:${PORTSDIR}/print/texlive-knittingpattern \
 		${LOCALBASE}/share/texmf-dist/tex/latex/lapdf/lapdf.sty:${PORTSDIR}/print/texlive-lapdf \
@@ -2383,7 +2383,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luaindex/luaindex.sty:${PORTSDIR}/print/texlive-luaindex \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luainputenc/luainputenc.sty:${PORTSDIR}/print/texlive-luainputenc \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.sty:${PORTSDIR}/print/texlive-lualatex-math \
-		${LOCALBASE}/share/texmf-dist/tex/luatex/lualibs/lualibs-basic-merged.lua:${PORTSDIR}/print/texlive-lualibs \
+		${LOCALBASE}/share/texmf-dist/tex/luatex/lualibs/lualibs-basic.lua:${PORTSDIR}/print/texlive-lualibs \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luamplib/luamplib.sty:${PORTSDIR}/print/texlive-luamplib \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luaotfload/luaotfload.sty:${PORTSDIR}/print/texlive-luaotfload \
 		${LOCALBASE}/share/texmf-dist/tex/lualatex/luasseq/luasseq.sty:${PORTSDIR}/print/texlive-luasseq \

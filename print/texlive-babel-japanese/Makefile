@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	babel-japanese
-PORTVERSION=	20161218
+PORTVERSION=	20170206
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org

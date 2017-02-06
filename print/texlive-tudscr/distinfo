@@ -1,7 +1,7 @@
-TIMESTAMP = 1485578094
-SHA256 (TeXLive/tudscr-20170128.tar.xz) = 5b8c9f92d7f43e132fe81331af003787e6a9fd2d547dec9ffa8ae51d93993ec1
-SIZE (TeXLive/tudscr-20170128.tar.xz) = 153024
-SHA256 (TeXLive/tudscr.doc-20170128.tar.xz) = 3d2d6cad3b4a01bd2ceb18feed58f94b4c5b6f878f5f5c838acbb8ef618b94c8
-SIZE (TeXLive/tudscr.doc-20170128.tar.xz) = 3589048
-SHA256 (TeXLive/tudscr.source-20170128.tar.xz) = de9c72b52fc2b0921330719bc79a8d1b52bd11f0141dd0d4053dc0e116578b9d
-SIZE (TeXLive/tudscr.source-20170128.tar.xz) = 298428
+TIMESTAMP = 1486355915
+SHA256 (TeXLive/tudscr-20170206.tar.xz) = cabf868a821b18a0d5c139fa46dcfb76c8b4e52a150ba5e3b9c1b60ad8729624
+SIZE (TeXLive/tudscr-20170206.tar.xz) = 152920
+SHA256 (TeXLive/tudscr.doc-20170206.tar.xz) = 5bc2b601ecc72c4dbc1f483dcdf7cb37c683006ce4e1fda4dae10800a76a33fb
+SIZE (TeXLive/tudscr.doc-20170206.tar.xz) = 3570500
+SHA256 (TeXLive/tudscr.source-20170206.tar.xz) = 270f9ddf263a2ed6415e4e509e907b3af930b613fe7c34f51a5a664ff7dd675c
+SIZE (TeXLive/tudscr.source-20170206.tar.xz) = 298408

@@ -12,6 +12,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-acronym-desc.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-acronym.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-acronym.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-alias.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-alias.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-altmodifier.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-altmodifier.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-alttree-marginpar.pdf
@@ -34,6 +36,8 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-entrycount.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-external.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-external.tex
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-fmt.pdf
+%%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-fmt.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-footnote.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-footnote.tex
 %%PORTDOCS%%share/texmf-dist/doc/latex/glossaries-extra/sample-header.pdf

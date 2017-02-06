@@ -1,7 +1,7 @@
-TIMESTAMP = 1485837176
-SHA256 (TeXLive/aomart-20170131.tar.xz) = de07c1ce3fe3cabfdd593e08f301a6c497ab1be6ed54b44bec5600aa86ff77ea
-SIZE (TeXLive/aomart-20170131.tar.xz) = 12916
-SHA256 (TeXLive/aomart.doc-20170131.tar.xz) = f0c906fde6a7b1623fa9ce6e388c45d16340f6c13c58e1fbd9c92860e08d409d
-SIZE (TeXLive/aomart.doc-20170131.tar.xz) = 947620
-SHA256 (TeXLive/aomart.source-20170131.tar.xz) = a3284f1f5fa5f039572fac7e933dd043e953fb834d9b04362f5199e9fea96670
-SIZE (TeXLive/aomart.source-20170131.tar.xz) = 19272
+TIMESTAMP = 1486355848
+SHA256 (TeXLive/aomart-20170206.tar.xz) = eaefa265bca696556acc346dec4d01a7547d0082f421d4cdc8f006f09e01f543
+SIZE (TeXLive/aomart-20170206.tar.xz) = 12924
+SHA256 (TeXLive/aomart.doc-20170206.tar.xz) = 2314e07f5904d87a187159d4bcc5ebc8b86a3be3a0130c62391179cff1eacc7e
+SIZE (TeXLive/aomart.doc-20170206.tar.xz) = 947632
+SHA256 (TeXLive/aomart.source-20170206.tar.xz) = 0e43cb60034a1c9beb0ca23d9b2a8859378c3443eced10d8a74b40a5d5165828
+SIZE (TeXLive/aomart.source-20170206.tar.xz) = 19284

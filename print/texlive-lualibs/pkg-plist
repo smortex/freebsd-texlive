@@ -6,12 +6,10 @@
 %%PORTSRC%%share/texmf-dist/source/luatex/lualibs/lualibs.dtx
 %%PORTSRC%%share/texmf-dist/source/luatex/lualibs/test-lualibs.lua
 %%PORTSRC%%share/texmf-dist/source/luatex/lualibs/whatsnew.lua
-share/texmf-dist/tex/luatex/lualibs/lualibs-basic-merged.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-basic.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-boolean.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-compat.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-dir.lua
-share/texmf-dist/tex/luatex/lualibs/lualibs-extended-merged.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-extended.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-file.lua
 share/texmf-dist/tex/luatex/lualibs/lualibs-function.lua

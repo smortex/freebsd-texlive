@@ -20,7 +20,7 @@ share/texmf-dist/scripts/luaotfload/mktests
 %%PORTSRC%%share/texmf-dist/source/luatex/luaotfload/luaotfload-main.tex
 %%PORTSRC%%share/texmf-dist/source/luatex/luaotfload/luaotfload-tool.rst
 %%PORTSRC%%share/texmf-dist/source/luatex/luaotfload/luaotfload.conf.rst
-share/texmf-dist/tex/luatex/luaotfload/fontloader-2017-01-29.lua
+share/texmf-dist/tex/luatex/luaotfload/fontloader-2017-02-04.lua
 share/texmf-dist/tex/luatex/luaotfload/fontloader-basics-gen.lua
 share/texmf-dist/tex/luatex/luaotfload/fontloader-basics-nod.lua
 share/texmf-dist/tex/luatex/luaotfload/fontloader-basics.tex
