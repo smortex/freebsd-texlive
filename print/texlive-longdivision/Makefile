@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	eulerpx
+PORTNAME=	longdivision
 PORTVERSION=	20170207
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	A modern interface for the Euler math fonts
+COMMENT=	Long division arithmetic problems
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

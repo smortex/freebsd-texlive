@@ -1,7 +1,7 @@
-TIMESTAMP = 1481776420
-SHA256 (TeXLive/apxproof-20161215.tar.xz) = c7684f9e55fbff4691f6b07188e079d3caf5418f096ca534794df09261be7255
-SIZE (TeXLive/apxproof-20161215.tar.xz) = 3052
-SHA256 (TeXLive/apxproof.doc-20161215.tar.xz) = 6a4f1a02b89fdb150d7d648c1fce83b794e0a0b21a4db70570aeee53a0828d97
-SIZE (TeXLive/apxproof.doc-20161215.tar.xz) = 439760
-SHA256 (TeXLive/apxproof.source-20161215.tar.xz) = abe2db37d4a8c5bfac48f88f17c34670001be520105a0091aa529325898ef266
-SIZE (TeXLive/apxproof.source-20161215.tar.xz) = 10620
+TIMESTAMP = 1486441857
+SHA256 (TeXLive/apxproof-20170207.tar.xz) = 29fb886cdc342d77695d14c097afa4482f28bebb9eb686802e3b9380669a645b
+SIZE (TeXLive/apxproof-20170207.tar.xz) = 3060
+SHA256 (TeXLive/apxproof.doc-20170207.tar.xz) = a7353869603910c4538a6d95c0e0b86aee448e524f0fc23304c82229db446b0a
+SIZE (TeXLive/apxproof.doc-20170207.tar.xz) = 440904
+SHA256 (TeXLive/apxproof.source-20170207.tar.xz) = fa627e6efc20507028930d89b2e2a57ace10ae8b422714229babaf5383f59901
+SIZE (TeXLive/apxproof.source-20170207.tar.xz) = 10740
