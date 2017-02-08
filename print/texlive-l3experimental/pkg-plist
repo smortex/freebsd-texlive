@@ -1,5 +1,4 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/README.md
-%%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/l3sort/l3sort.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/l3str/l3flag.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/l3str/l3regex.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/l3str/l3str-convert.pdf
@@ -9,8 +8,6 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/xcoffins/xcoffins.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/xgalley/l3galley.pdf
 %%PORTDOCS%%share/texmf-dist/doc/latex/l3experimental/xgalley/xgalley.pdf
-%%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3sort/l3sort.dtx
-%%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3sort/l3sort.ins
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3str/l3flag.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3str/l3regex.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/l3str/l3str-convert.dtx
@@ -23,7 +20,6 @@
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/xgalley/l3galley.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/xgalley/xgalley.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3experimental/xgalley/xgalley.ins
-share/texmf-dist/tex/latex/l3experimental/l3sort/l3sort.sty
 share/texmf-dist/tex/latex/l3experimental/l3str/l3flag.sty
 share/texmf-dist/tex/latex/l3experimental/l3str/l3regex-trace.sty
 share/texmf-dist/tex/latex/l3experimental/l3str/l3regex.sty

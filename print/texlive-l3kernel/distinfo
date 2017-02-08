@@ -1,7 +1,7 @@
-TIMESTAMP = 1485750080
-SHA256 (TeXLive/l3kernel-20170130.tar.xz) = eef3468796c9e78b3d56ae71b38861e0be6a4d55c1b4c60e4b4623b516f8ffe3
-SIZE (TeXLive/l3kernel-20170130.tar.xz) = 102300
-SHA256 (TeXLive/l3kernel.doc-20170130.tar.xz) = 39a9eda3bcb2031acea1255eeb96150b3f169b17563c1f1b4a24451728d88542
-SIZE (TeXLive/l3kernel.doc-20170130.tar.xz) = 6436520
-SHA256 (TeXLive/l3kernel.source-20170130.tar.xz) = 082b8a9eeaa8877fa684d0d169ae41ed66b7aa916f37f38eed2c77b91c627bbc
-SIZE (TeXLive/l3kernel.source-20170130.tar.xz) = 395976
+TIMESTAMP = 1486527723
+SHA256 (TeXLive/l3kernel-20170208.tar.xz) = 92bc652b9df59260e3a3785dfdf41395c05ebf75071a69c1ee206790fb2d89af
+SIZE (TeXLive/l3kernel-20170208.tar.xz) = 104224
+SHA256 (TeXLive/l3kernel.doc-20170208.tar.xz) = c66fba882775e13be8c17c9b0295b3309a8d4e9b498752ccc409eca7b38824d2
+SIZE (TeXLive/l3kernel.doc-20170208.tar.xz) = 6513108
+SHA256 (TeXLive/l3kernel.source-20170208.tar.xz) = baba321a98d34b1ac42861b6fab46230a2d0f24846161aa5e90e7749f5507acb
+SIZE (TeXLive/l3kernel.source-20170208.tar.xz) = 404516

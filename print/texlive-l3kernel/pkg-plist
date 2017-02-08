@@ -52,6 +52,7 @@
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3quark.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3seq.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3skip.dtx
+%%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3sort.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3str.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3sys.dtx
 %%PORTSRC%%share/texmf-dist/source/latex/l3kernel/l3tl.dtx
@@ -85,6 +86,7 @@ share/texmf-dist/tex/latex/l3kernel/l3prop.sty
 share/texmf-dist/tex/latex/l3kernel/l3quark.sty
 share/texmf-dist/tex/latex/l3kernel/l3seq.sty
 share/texmf-dist/tex/latex/l3kernel/l3skip.sty
+share/texmf-dist/tex/latex/l3kernel/l3sort.sty
 share/texmf-dist/tex/latex/l3kernel/l3str.sty
 share/texmf-dist/tex/latex/l3kernel/l3tl.sty
 share/texmf-dist/tex/latex/l3kernel/l3token.sty
