@@ -1,4 +1,5 @@
-SHA256 (TeXLive/luatexko-20160515.tar.xz) = 1a5ab7b420fc4b4a93efd46ef60a477743b9314574d1092817cada3b8b4f093d
-SIZE (TeXLive/luatexko-20160515.tar.xz) = 23832
-SHA256 (TeXLive/luatexko.doc-20160515.tar.xz) = be9ff38038ab8f5fbaa985462b7f3535c083f654e5a8a79640a7ee1b6dc6aae6
-SIZE (TeXLive/luatexko.doc-20160515.tar.xz) = 222280
+TIMESTAMP = 1486614578
+SHA256 (TeXLive/luatexko-20170209.tar.xz) = 6ed47716736f8441d0b01f9ad93f05ea9510fe6ea3cf009e2590a0f2796d1fb1
+SIZE (TeXLive/luatexko-20170209.tar.xz) = 23820
+SHA256 (TeXLive/luatexko.doc-20170209.tar.xz) = c84ee018a0398d735da3113a175b335770b4fb1b25307dc57de4a84b275adc11
+SIZE (TeXLive/luatexko.doc-20170209.tar.xz) = 222072

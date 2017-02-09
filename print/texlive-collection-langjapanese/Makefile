@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-langjapanese
-PORTVERSION=	20170116
+PORTVERSION=	20170209
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -53,6 +53,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/sfd/dnp/DNP.sfd:${PORTSDIR}/print/texlive-dnp \
 		${LOCALBASE}/share/texmf-dist/dvips/garuda-c90/config.garuda-c90:${PORTSDIR}/print/texlive-garuda-c90 \
 		${LOCALBASE}/share/texmf-dist/dvips/norasi-c90/config.norasi-c90:${PORTSDIR}/print/texlive-norasi-c90 \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pxtatescale/pxtatescale.sty:${PORTSDIR}/print/texlive-pxtatescale \
 		${LOCALBASE}/share/texmf-dist/tex/latex/xcjk2uni/cmap/c0001.cmap:${PORTSDIR}/print/texlive-xcjk2uni \
 		${LOCALBASE}/share/texmf-dist/tex/latex/zxjafont/zxjafont.sty:${PORTSDIR}/print/texlive-zxjafont \
 		${LOCALBASE}/share/texmf-dist/tex/generic/babel-japanese/japanese.ldf:${PORTSDIR}/print/texlive-babel-japanese \
@@ -64,6 +65,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/fonts/truetype/public/ipaex/ipaexg.ttf:${PORTSDIR}/print/texlive-ipaex \
 		${LOCALBASE}/share/texmf-dist/fonts/map/dvipdfmx/japanese-otf/otf-cktx.map:${PORTSDIR}/print/texlive-japanese-otf \
 		${LOCALBASE}/share/texmf-dist/fonts/ovp/public/japanese-otf-uptex/upphirakakuw3-h.ovp:${PORTSDIR}/print/texlive-japanese-otf-uptex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/jlreq/jlreq.cls:${PORTSDIR}/print/texlive-jlreq \
 		${LOCALBASE}/share/texmf-dist/tex/platex/jsclasses/jsarticle.cls:${PORTSDIR}/print/texlive-jsclasses \
 		${LOCALBASE}/share/texmf-dist/tex/luatex/luatexja/luatexja.sty:${PORTSDIR}/print/texlive-luatexja \
 		${LOCALBASE}/share/texmf-dist/pbibtex/bib/jxampl.bib:${PORTSDIR}/print/texlive-pbibtex-base \

@@ -1,4 +1,5 @@
-SHA256 (TeXLive/xetexko-20160414.tar.xz) = a7358c554e2bbf1f5a22a9b530e3163e737a68ff9cf37bd2d391888eddb64bbd
-SIZE (TeXLive/xetexko-20160414.tar.xz) = 57220
-SHA256 (TeXLive/xetexko.doc-20160414.tar.xz) = 30436ea93e30b74b2e88d85ceb68039d911e8146eb530ab7338feb78f4bafc8c
-SIZE (TeXLive/xetexko.doc-20160414.tar.xz) = 208412
+TIMESTAMP = 1486614854
+SHA256 (TeXLive/xetexko-20170209.tar.xz) = 24522402bea48ef1c94fa6d3b49041ce9ed9219ce22d8c28eb926a15889ece87
+SIZE (TeXLive/xetexko-20170209.tar.xz) = 57320
+SHA256 (TeXLive/xetexko.doc-20170209.tar.xz) = 87fb7b711f626a2817d9beffe7a2b0027430f79c7ec1f94934d20bcccacbf5f4
+SIZE (TeXLive/xetexko.doc-20170209.tar.xz) = 208140

@@ -1,7 +1,7 @@
-TIMESTAMP = 1483936209
-SHA256 (TeXLive/skdoc-20170109.tar.xz) = 201fbf35082d8e10c561d00631a43c0730a6de0bd132c1a0f01075e3c806f61f
-SIZE (TeXLive/skdoc-20170109.tar.xz) = 9716
-SHA256 (TeXLive/skdoc.doc-20170109.tar.xz) = 44ef2769087da3a23ca6d3e884d74365618bb8467f6ece0161821384bcf80a7c
-SIZE (TeXLive/skdoc.doc-20170109.tar.xz) = 300728
-SHA256 (TeXLive/skdoc.source-20170109.tar.xz) = e23d067b67a8077ba2fa60c77c519e630fc316286946910cf6da30882ae51fa5
-SIZE (TeXLive/skdoc.source-20170109.tar.xz) = 26604
+TIMESTAMP = 1486614453
+SHA256 (TeXLive/skdoc-20170209.tar.xz) = 38b82164a3f9d403815d07d4e514beb1436e84a0e821cb26a0e5ef531b2873b8
+SIZE (TeXLive/skdoc-20170209.tar.xz) = 9724
+SHA256 (TeXLive/skdoc.doc-20170209.tar.xz) = f82302a9a693a617a3b609ff1df3b136350577b7cd10ad25bbc9d9a931c0f0bd
+SIZE (TeXLive/skdoc.doc-20170209.tar.xz) = 301768
+SHA256 (TeXLive/skdoc.source-20170209.tar.xz) = eae0079ee23d9f103adb1df5cb0d04911d851c8a4e24d97e33b90fda27d6bb4d
+SIZE (TeXLive/skdoc.source-20170209.tar.xz) = 26928

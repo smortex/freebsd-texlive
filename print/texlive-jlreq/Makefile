@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	texlive-docindex
+PORTNAME=	jlreq
 PORTVERSION=	20170209
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	top-level TeX Live doc.html, etc.
+COMMENT=	Japanese document class based on requirements for Japanese text layout
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
