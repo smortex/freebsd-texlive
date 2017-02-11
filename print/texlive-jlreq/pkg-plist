@@ -1,7 +1,5 @@
 %%PORTDOCS%%share/texmf-dist/doc/latex/jlreq/LICENSE
-%%PORTDOCS%%share/texmf-dist/doc/latex/jlreq/README-ja.html
 %%PORTDOCS%%share/texmf-dist/doc/latex/jlreq/README-ja.md
-%%PORTDOCS%%share/texmf-dist/doc/latex/jlreq/README.html
 %%PORTDOCS%%share/texmf-dist/doc/latex/jlreq/README.md
 share/texmf-dist/fonts/tfm/public/jlreq/bjlreq-v.tfm
 share/texmf-dist/fonts/tfm/public/jlreq/bjlreq.tfm

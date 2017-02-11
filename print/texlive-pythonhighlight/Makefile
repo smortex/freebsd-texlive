@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	jlreq
+PORTNAME=	pythonhighlight
 PORTVERSION=	20170211
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Japanese document class based on requirements for Japanese text layout
+COMMENT=	Highlighting of Python code, based on the listings package
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

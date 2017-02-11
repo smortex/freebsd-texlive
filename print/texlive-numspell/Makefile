@@ -1,11 +1,11 @@
 # $FreeBSD$
 
-PORTNAME=	jlreq
+PORTNAME=	numspell
 PORTVERSION=	20170211
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Japanese document class based on requirements for Japanese text layout
+COMMENT=	spell cardinal and ordinal numbers
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>

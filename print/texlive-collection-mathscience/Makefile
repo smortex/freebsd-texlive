@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	collection-mathscience
-PORTVERSION=	20170207
+PORTVERSION=	20170211
 CATEGORIES=	print
 DISTFILES=	# None
 
@@ -214,6 +214,7 @@ RUN_DEPENDS=	${LOCALBASE}/share/texmf-dist/scripts/texlive/tlmgr.pl:${PORTSDIR}/
 		${LOCALBASE}/share/texmf-dist/tex/latex/prooftrees/prooftrees.sty:${PORTSDIR}/print/texlive-prooftrees \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pseudocode/pseudocode.sty:${PORTSDIR}/print/texlive-pseudocode \
 		${LOCALBASE}/share/texmf-dist/tex/latex/pygmentex/pygmentex.sty:${PORTSDIR}/print/texlive-pygmentex \
+		${LOCALBASE}/share/texmf-dist/tex/latex/pythonhighlight/pythonhighlight.sty:${PORTSDIR}/print/texlive-pythonhighlight \
 		${LOCALBASE}/share/texmf-dist/tex/latex/rec-thy/rec-thy.sty:${PORTSDIR}/print/texlive-rec-thy \
 		${LOCALBASE}/share/texmf-dist/tex/latex/revquantum/revquantum.sty:${PORTSDIR}/print/texlive-revquantum \
 		${LOCALBASE}/share/texmf-dist/tex/latex/ribbonproofs/ribbonproofs.sty:${PORTSDIR}/print/texlive-ribbonproofs \
