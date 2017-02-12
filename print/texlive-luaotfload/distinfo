@@ -1,7 +1,7 @@
-TIMESTAMP = 1486355659
-SHA256 (TeXLive/luaotfload-20170206.tar.xz) = 6dcd3af3f3d7b6a418be9bd84aac2b6b6772bf80fcaa1d1ec56062e06908ebe1
-SIZE (TeXLive/luaotfload-20170206.tar.xz) = 441756
-SHA256 (TeXLive/luaotfload.doc-20170206.tar.xz) = ea1e7d85967e4804153c801e5014b056d7a0fbc21b62fa1cf68c1ffd1ab68ded
-SIZE (TeXLive/luaotfload.doc-20170206.tar.xz) = 280808
-SHA256 (TeXLive/luaotfload.source-20170206.tar.xz) = 36fa50308afb6e97fd66c2f5e9a67ed64201b167b7996d26a0f1dd728d22a8bb
-SIZE (TeXLive/luaotfload.source-20170206.tar.xz) = 36240
+TIMESTAMP = 1486873808
+SHA256 (TeXLive/luaotfload-20170212.tar.xz) = a537dfe89be0689aaeb984294568f9ea7656e30a1a620bae2a07b656c49589ec
+SIZE (TeXLive/luaotfload-20170212.tar.xz) = 441616
+SHA256 (TeXLive/luaotfload.doc-20170212.tar.xz) = 84ae670a83a1edc0fbc710b691ddba409a2596e6a11b17b79abcf8de57a8849e
+SIZE (TeXLive/luaotfload.doc-20170212.tar.xz) = 282244
+SHA256 (TeXLive/luaotfload.source-20170212.tar.xz) = 95e61e61b9642e21fb83841ca34d11b27ae4d58ca3bb32d58eecfcb3b1e8f788
+SIZE (TeXLive/luaotfload.source-20170212.tar.xz) = 36532

@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	autoaligne
-PORTVERSION=	20161024
+PORTVERSION=	20170212
 CATEGORIES=	print
 
 MAINTAINER=	romain@FreeBSD.org
-COMMENT=	Align terms and members in math expressions>
+COMMENT=	Align terms and members in math expressions
 
 OPTIONS_DEFINE=	DOCS
 .include <bsd.port.options.mk>
